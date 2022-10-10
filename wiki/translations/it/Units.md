@@ -1,18 +1,14 @@
 # Units/it
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
 Alcune letture sulle unità di misura   *
 
+-   [Metrologia](http   *//it.wikipedia.org/wiki/Metrologia)
 -   [Sistema Internazionale di Misura SI](http   *//it.wikipedia.org/wiki/Sistema_internazionale_di_unit%C3%A0_di_misura)
 -   [Sistema imperiale britannico](http   *//it.wikipedia.org/wiki/Sistema_imperiale_britannico)
 -   [SI derived unit](http   *//en.wikipedia.org/wiki/SI_derived_unit) (in italiano si trovano nella stessa pagina del SI)
 -   [Grado d\'arco - Unità angolari](http   *//it.wikipedia.org/wiki/Grado_d%27arco)
-
-
-</div>
+-   [Unità implementate in OCC](https   *//github.com/3drepo/occt/blob/master/src/UnitsAPI/Units.dat)
 
 ## Esempi
 
@@ -59,37 +55,15 @@ pq('sin(pi)')
 b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 ```
 
-## Supported units 
-
-
-<div class="mw-translate-fuzzy">
-
-## Unità di misura supportate 
+## Unità supportate 
 
 Un elenco completo di tutte le unità supportate [si trova quì](Expressions/it#Unità.md).
 
+## Vedere anche 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Prossime azioni 
-
--   Implementing Quantity and Unit classes (mostly done)
--   Implementing InputField as User front end (in progress)
--   UnitsCalculator as test bed (in progress)
--   [Quantity](Quantity/it.md) documentation (in progress)
--   [UnitsCalculator](Std_UnitsCalculator/it.md) documentation
--   Update Material framework to work only with Quantities
--   Test Cases
-
-
-</div>
-
--   The [Expressions](Expressions#Units.md) page for a list of all known units.
--   The documentation of [Quantity](Quantity.md).
--   The [Std UnitsCalculator](Std_UnitsCalculator.md) tool.
+-   La pagina [Espressioni](Expressions#Units.md) per una lista dei tutte le unità conosciute.
+-   La documentazione [Quantity](Quantity/it.md).
+-   Lo strumento [Convertitore di unità](Std_UnitsCalculator/it.md).
 
 
 

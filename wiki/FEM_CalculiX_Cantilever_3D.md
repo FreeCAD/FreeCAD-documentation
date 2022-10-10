@@ -97,7 +97,7 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 ### Changing Load Direction and Load Value 
 
--   In the [tree view](Tree_view.md) expand <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> CCX\_Results and select the <img alt="" src=images/FEM_MeshResult.svg  style="width   *24px;"> ResultMesh object and press the **Space** key.
+-   In the [tree view](Tree_view.md) expand <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> CCX_Results and select the <img alt="" src=images/FEM_MeshResult.svg  style="width   *24px;"> ResultMesh object and press the **Space** key.
     -   **Result   *** The visibility of the FEM mesh will be turned off. The geometrical model is still visible.
 -   In the [tree view](Tree_view.md) double click on the <img alt="" src=images/FEM_ConstraintForce.svg  style="width   *24px;"> FEMConstraintForce object to open its [task panel](Task_panel.md)
 -   In the task window change the load value to **500000000 N = 500 MN** (**Note   *** force unit in task window has to be in N)

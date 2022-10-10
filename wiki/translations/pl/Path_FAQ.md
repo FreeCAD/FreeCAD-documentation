@@ -14,19 +14,19 @@ As with 3D modeling, there are often multiple methods available that might be ad
 
 One common example is that a Contour cut could be generated from Edges or Faces. In some cases there will be an advantage to one geometric input over another.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## Why does Dressing up an Operation change the position in the Job Workflow shown in the Operations list? 
 
 All additions to the Job\--including modifications, and Operation copies\--are appended at the end of the Job Workflow. If that disrupts the correct Job sequence, it must be reordered in the Job editor-\>Workflow tab.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## What is the difference between Clearance Height and Safe Height? 
 
 More detailed information is available in [Depths and Heights](Template   *Depths/Heights.md).
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## What is the typical use of the SetupSheet? 
 
@@ -46,19 +46,19 @@ Current inputs for Depths, Heights, and Tool Controllers include   *
 
 This provides flexibility. For example, default expressions are provided, but can be overwritten by the user. The modification can even reduce the default equation to a Value if that suits the user.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## What is the typical use of the Job Templates? 
 
 Job templates allow commonly used Job definitions to be saved from a Job for use on subsequent similarly configured Jobs.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## How many Base objects does Path workbench support? 
 
 Support exists only for a single Base object. To create paths for multiple solids in a single Job you can make a Compound out of them and use that as the base object for the Job.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## Why does an Operation not produce usable output? 
 
@@ -70,7 +70,7 @@ Be aware that this will typically exhibit as a Rapids movement to where the Oper
 
 Another common misunderstanding is that a Contour Operation is not outputting paths, when the Contour editor Operation-\>Cut Side is \"Inside\", the default, and toggling the 3D Model viability allows them to be seen.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## Can Path Workbench perform 3D surface milling? 
 
@@ -78,7 +78,7 @@ Yes, Path provides for 3D surface milling Operations. It requires installation i
 
 OpenCamLibrary is not integrated into FreeCAD to ensure no licensing violations occur.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## What do I do if the default Operation strategies don\'t meet my needs? 
 
@@ -106,37 +106,37 @@ These inputs are valuable, allowing functionality including   *
 
 Judicious care should be exercised when specifying Material Allowances and Offsets, at the risk of undesired cuts into the Stock.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## What do I do if an Operation generates more Vertical movements than my Job can tolerate? 
 
 Operations such as [Pocket 3D](Path_Pocket_3D.md), [Pocket Shape](Path_Pocket_Shape.md), and [MillFace](Path_MillFace.md), but not Contour Operations have a configuration option to keep the tool down, in the Data tab of the Property View.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## How can I leave tabs to clamp my milled work? 
 
 Path workbench provides a [Tag dressup](Path_DressupTag.md) for just this purpose.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
-## What is a Postprocessor? 
+## Czym jest Postprocessor? 
 
 The [Postprocessor](Path_Post.md) is used to tailor output code to target CNC controllers for various machines, in their G-Code dialect.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## Can I modify an existing, or make my own Postprocessor? 
 
 Postprocessors are Python scripts, and are saved in the Macro file path. They are intended to be modified, or used as a template for further Postprocessor development.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## I only want to use one Postprocessor\--can I make it the default, or hide other options? 
 
 Yes, the [Path preferences](Path_Preferences.md) has a section for post processors where you can select which post processors to display and select a default post.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## How I can set metric/imperial units for my path object? 
 
@@ -148,7 +148,7 @@ The Postprocessor also is configured for Units/Second, or Units/Minute. If set f
 
 Mismatches between the 3D model and Postprocessor settings are likely culprits for factor of 60 errors in Feed rate, and factors of 25.4 in distance.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## How I can simulate my milling strategies? 
 
@@ -156,7 +156,7 @@ A volumetric simulator is provided to view the result of cutting the tool geomet
 
 If the path lines obscure the simulation result, their visibility should be toggled off before simulation.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## What is the significance of the path line colors? 
 
@@ -166,13 +166,13 @@ Path line colors are defined in the Edit-\>Preference\...-\>Path-\>GUI-\>Default
 2.  Red for rapid paths.
 3.  Yellow for Probed paths.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## How do I Enable/Disable visibility of path lines? 
 
 Path workbench allows control of the display of path lines by toggling the visibility of the Job by selecting it in the [Combo View](Combo_view.md). The visibility of individual or groups of Operations are then toggled from the Combo View.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## How do I check that my G-Code sequence is correct? 
 
@@ -180,13 +180,13 @@ By default, the Postprocessor output is displayed in a window before saving. Thi
 
 The Operations list in the Combo View panel displays the sequence that the operations will be processed in the Job. If the Operations are correct, but not in the desired sequence, that can be adjusted by double clicking the Operations list and dragging the Operations to their proper location, or by double clicking the Job editor and selecting the Workflow tab, then using the Up/Down arrows on selected Operations to sort them.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## Why am I not getting correct G-Code output from my Postprocessor for Operations inserted using the Partial Command-\>Custom command? 
 
 Commonly, the Custom G-Code command because the format is always in Units/second, it can cause factor of 60 errors for CNC machine targets that operate in Units/minute.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## Why do changes to Placement values in the Property View not seem to work correctly in Path workbench? 
 
@@ -196,19 +196,19 @@ However, Path Compounds can make use of the Placement of their children (see bel
 
 [Path scripting ](Path_scripting.md)
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## Why does Path workbench on my computer seem to miss functionality that I see in other users forum posts? 
 
 By default, Experimental functionality is hidden in Path workbench.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## Why do Youtube videos posted by Path workbench developers appear out of synch with the Path workbench? 
 
 Path workbench shifted dramatically from FreeCAD v0.16 to v0.17, and any videos posted prior to January 1st, 2018, are very likely to contain information that is no longer in synch with v0.17 of FreeCAD Path workbench.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 ## Why are arcs not round, but are made of a set of straight lines? 
 
@@ -219,7 +219,7 @@ This is only a matter of displaying the path. You can change this in the prefere
 3.  confirm the change
 4.  Restart FreeCAD.
 
-[top](#top.md)
+[na początek strony](#top.md)
 
 
 

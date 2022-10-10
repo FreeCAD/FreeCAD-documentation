@@ -6,6 +6,7 @@
    Time   *2 heures
    FCVersion   *0.19 ou supérieure
    Files   *
+   SeeAlso   *[Créer une simple pièce avec l'atelier PartDesign](Creating_a_simple_part_with_PartDesign/fr.md), [Créer une simple pièce avec les ateliers Draft et Part](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md)
 ---
 
 # Creating a simple part with Part WB/fr
@@ -16,7 +17,7 @@
 
 ## Introduction
 
-Ce tutoriel a pour but d\'être utilisé comme une première introduction à la modélisation 3d en utilisant l\'[atelier Part](Part_Workbench/fr.md) ![](images/Switch_PartWorkbench.JPG ) de FreeCAD. Après avoir terminé ce tutoriel, vous devriez être en mesure de créer des modèles 3D simples en utilisant des primitives comme des cubes, des cylindres, etc. avec une technique appelée [Géométrie de construction de solides](https   *//fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides), en bref la modélisation **CSG** pour *Constructive Solid Geometry*. Une autre façon de créer des modèles 3D consiste à utiliser une forme 2D, par exemple en extrudant ou en faisant tourner la forme 2D dans l\'espace 3D. Pour une introduction à cette technique, veuillez suivre le tutoriel similaire *[PartDesign    * Créer une pièce simple](Creating_a_simple_part_with_PartDesign/fr.md)*. Les deux tutoriels ont intentionnellement généré exactement le même modèle, ce qui permet au débutant d\'avoir une expérience pratique des deux techniques différentes et de la façon dont elles sont mises en œuvre dans FreeCAD. La définition des deux techniques peut être considérée comme strictement divisée d\'un point de vue sémantique, cependant il n\'y a rien qui empêche directement un mélange des techniques lors de la création de modèles. Il y a quelques mises en garde à faire lors du mélange des techniques de modélisation, qui sont principalement liées à des aspects de la façon dont FreeCAD est programmé. Il y a un [3ème tutoriel](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md) destiné à servir de première introduction à un exemple de modélisation mixte. Ce tutoriel utilise **l\'atelier \"Draft** pour créer un profil 2D utilisé pour extruder un solide dans **l\'atelier Part** pour créer le même modèle que dans ce tutoriel.
+Ce tutoriel a pour but d\'être utilisé comme une première introduction à la modélisation 3d en utilisant l\'[atelier Part](Part_Workbench/fr.md) ![](images/Switch_PartWorkbench.JPG ) de FreeCAD. Après avoir terminé ce tutoriel, vous devriez être en mesure de créer des modèles 3D simples en utilisant des primitives comme des cubes, des cylindres, etc. avec une technique appelée [Géométrie de construction de solides](https   *//fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides), en bref la modélisation **CSG** pour *Constructive Solid Geometry*. Une autre façon de créer des modèles 3D consiste à utiliser une forme 2D, par exemple en extrudant ou en faisant tourner la forme 2D dans l\'espace 3D. Pour une introduction à cette technique, veuillez suivre le tutoriel similaire *[Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md)*. Les deux tutoriels ont intentionnellement généré exactement le même modèle, ce qui permet au débutant d\'avoir une expérience pratique des deux techniques différentes et de la façon dont elles sont mises en œuvre dans FreeCAD. La définition des deux techniques peut être considérée comme strictement divisée d\'un point de vue sémantique, cependant il n\'y a rien qui empêche directement un mélange des techniques lors de la création de modèles. Il y a quelques mises en garde à faire lors du mélange des techniques de modélisation, qui sont principalement liées à des aspects de la façon dont FreeCAD est programmé. Il y a un [3ème tutoriel](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md) destiné à servir de première introduction à un exemple de modélisation mixte. Ce tutoriel utilise **l\'atelier \"Draft** pour créer un profil 2D utilisé pour extruder un solide dans **l\'atelier Part** pour créer le même modèle que dans ce tutoriel.
 
 Avant de commencer, regardez comment **[naviguer](Mouse_navigation/fr.md)** dans l\'espace 3D. En passant le curseur sur le sélecteur de modèle de souris dans le coin inférieur droit de la fenêtre de FreeCAD, un aide-mémoire du modèle de navigation en cours apparaît comme dans l\'image ci-dessous.
 
@@ -35,8 +36,9 @@ De nombreux nouveaux venus dans les programmes de CAO se retrouvent bloqués pen
 -   Une autre façon de positionner le chanfrein
 -   Modification des dimensions
 -   Organiser l\'arboscence un peu différemment
+-   Empaqueter
 
-### Le modèle à réaliser 
+## Le modèle à réaliser 
 
 <img alt="" src=images/GGTuto1_Vue.PNG  style="width   *372px;">
 
@@ -98,7 +100,7 @@ De plus, la position doit être ajustée. En regardant le dessin de la pièce fi
 
 ![](images/T101pwb01-10_pyconsole.png )
 
-Après avoir importé le module *[math](https   *//docs.python.org/3/library/math.html#module-math)*\' des bibliothèques standard de Python, nous pouvons utiliser la formule *(50 - math.tan(math.radians(30)) \* 50)* pour trouver la distance dans la direction z que le bloc doit déplacer. Copiez le résultat de la formule depuis la console Python et collez-le dans la position z de **Cube001**. L\'outil à utiliser pour la *coupe* du chanfrein est maintenant correctement orienté et positionné.
+Après avoir importé le module *[math](https   *//docs.python.org/3/library/math.html#module-math)**des bibliothèques standard de Python, nous pouvons utiliser la formule *(50 - math.tan(math.radians(30)) \* 50)* pour trouver la distance dans la direction z que le bloc doit déplacer. Copiez le résultat de la formule depuis la console Python et collez-le dans la position z de**Cube001*\'. L\'outil à utiliser pour la *coupe* du chanfrein est maintenant correctement orienté et positionné.
 
 ![](images/T101pwb01-11_chamfer3.png )
 
@@ -116,9 +118,17 @@ Pour effectuer la coupe, avec la touche **Ctrl** enfoncée, sélectionnez d\'abo
 
 ![](images/T101pwb01-14_model1.png )
 
+#### Les barres d\'outils 
+
+Une petite remarque sur les barres d\'outils, puisqu\'elles sont le moyen habituel de lancer des commandes. Bien qu\'il existe un paramètre de base pour la disposition des barres d\'outils, la disposition réelle sur votre ordinateur peut s\'avérer moins qu\'idéale. Dans ce cas, il est facile de l\'ajuster. Considérez la section supérieure de l\'image ci-dessous. Il y a deux rangées de barres d\'outils et seul un nombre limité de boutons de la barre d\'outils de l\'[atelier Part](Part_Workbench/fr.md) est visible. La façon la plus simple de voir plus de boutons de la barre d\'outils est de maximiser la fenêtre de FreeCAD, à moins qu\'elle ne soit déjà maximisée bien sûr.
+
+Il est plus courant d\'ajuster la disposition des barres d\'outils en fonction de vos besoins et de votre ordinateur. Le repositionnement s\'effectue à l\'aide de la poignée située à gauche de chaque barre d\'outils. Vous pouvez simplement cliquer et faire glisser la poignée vers un nouvel emplacement. Dans la partie inférieure de l\'image ci-dessous, les positions des barres d\'outils ont été ajustées, révélant leur contenu complet. Les modifications apportées aux positions des barres d\'outils sont persistantes au fil des sessions.
+
+![](images/T101pwb01-141_toolbars.png )
+
 #### L\'outil de mesure 
 
-L**\'[outil de mesure](Part_Measure_Menu/fr.md)** de l**\'atelier Part** peut être utilisé pour vérifier que notre calcul et le placement du chanfrein sont corrects. Appuyez sur le bouton <img alt="" src=images/Part_Measure_Linear.svg  style="width   *24px;"> **[Mesure linéaire](Part_Measure_Linear/fr.md)** et un *panneau de tâches* s\'ouvre, puis sélectionnez les 2 points d\'extrémité d\'un côté du chanfrein.
+L**\'[outil de mesure](Part_Workbench/fr#Mesure.md)** de l**\'atelier Part** peut être utilisé pour vérifier que notre calcul et le placement du chanfrein sont corrects. Appuyez sur le bouton <img alt="" src=images/Part_Measure_Linear.svg  style="width   *24px;"> **[Mesure linéaire](Part_Measure_Linear/fr.md)** et un *panneau de tâches* s\'ouvre, puis sélectionnez les 2 points d\'extrémité d\'un côté du chanfrein.
 
 ![](images/T101pwb01-15_model1measure1.png )
 

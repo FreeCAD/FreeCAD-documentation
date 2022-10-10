@@ -156,7 +156,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 -   Since 2016, FreeCAD also participates in the [Google Summer of Code 2020](Google_Summer_of_Code_2020.md). Be sure to check our ideas there if you are interested in participating in the next edition.
 -   More and more of the FreeCAD functionality is not written in the FreeCAD code itself but in addons, macros and extensions. Together, this ecosystem is what makes FreeCAD powerful. Oftentimes, working on an addon is easier because there is less code to read and understand, and fewer people involved. check the [Addons repository](https   *//github.com/FreeCAD/FreeCAD-addons) and [Macros repository](https   *//github.com/FreeCAD/FreeCAD-macros) to get some ideas!
 
-## Model
+## Create models 
 
 FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 

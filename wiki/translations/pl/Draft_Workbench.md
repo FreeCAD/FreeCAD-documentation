@@ -20,17 +20,17 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 ## Kreślenie
 
--   Polecenie <img alt="" src=images/Draft_Line.svg  style="width   *32px;"> [Linia](Draft_Line.md)   * tworzy linię prostą.
+-   Polecenie <img alt="" src=images/Draft_Line.svg  style="width   *32px;"> [Linia](Draft_Line/pl.md)   * tworzy linię prostą.
 
 -   Polecenie <img alt="" src=images/Draft_Wire.svg  style="width   *32px;"> [Polilinia](Draft_Wire/pl.md)   * tworzy polilinię, czyli sekwencję kilku połączonych segmentów linii.
 
--   Polecenie <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Fillet](Draft_Fillet.md)   * tworzy zaokrąglenie, zaokrąglony narożnik, lub fazę, prostą krawędź, pomiędzy dwoma [liniami](Draft_Line/pl.md). {{Version/pl|0.19}}
+-   Polecenie <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Zaokrąglenie](Draft_Fillet/pl.md)   * tworzy zaokrąglenie, zaokrąglony narożnik, lub fazę, prostą krawędź, pomiędzy dwoma [liniami](Draft_Line/pl.md).
 
 -   <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> Narzędzia łuku
 
    ** Polecenie <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Łuk](Draft_Arc/pl.md)   * tworzy łuk kołowy z punktu środka, promienia, kąta początkowego i kąta rozwarcia.
 
-   ** Polecenie <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Łuk przez trzy punkty](Draft_Arc_3Points/pl.md)   * tworzy łuk okręgu z trzech punktów, które definiują jego obwód. {{Version/pl|0.19}}
+   ** Polecenie <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Łuk przez trzy punkty](Draft_Arc_3Points/pl.md)   * tworzy łuk okręgu z trzech punktów, które definiują jego obwód.
 
 -   Polecenie <img alt="" src=images/Draft_Circle.svg  style="width   *32px;"> [Okrąg](Draft_Circle/pl.md)   * tworzy okrąg na podstawie środka i promienia.
 
@@ -44,7 +44,7 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   Komponent <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> narzędzia Bézier\'a
 
-   ** Polecenie <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Sześcienna krzywa Beziera](Draft_CubicBezCurve/pl.md)   * tworzy krzywą Béziera trzeciego stopnia. {{Version/pl|0.19}}
+   ** Polecenie <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Sześcienna krzywa Beziera](Draft_CubicBezCurve/pl.md)   * tworzy krzywą Béziera trzeciego stopnia.
 
    ** Polecenie <img alt="" src=images/Draft_BezCurve.svg  style="width   *32px;"> [Krzywa Bezier\'a](Draft_BezCurve/pl.md)   * tworzy krzywą Béziera z kilku punktów.
 
@@ -64,7 +64,7 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   <img alt="" src=images/Draft_Label.svg  style="width   *32px;"> [Etykieta](Draft_Label/pl.md)   * tworzy tekst wielowierszowy z dwu-segmentową linią wiodącą i strzałką.
 
--   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width   *32px;"> [Edytor stylów adnotacji](Draft_AnnotationStyleEditor/pl.md)   * pozwala zdefiniować style, które wpływają na właściwości wizualne obiektów związanych z adnotacjami. {{Version/pl|0.19}}
+-   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width   *32px;"> [Edytor stylów adnotacji](Draft_AnnotationStyleEditor/pl.md)   * pozwala zdefiniować style, które wpływają na właściwości wizualne obiektów związanych z adnotacjami.
 
 ## Modyfikacja
 
@@ -86,19 +86,19 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   Komponent <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> Narzędzia szyku
 
-   ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Szyk](Draft_OrthoArray/pl.md)   * tworzy szyk ortogonalny z wybranego obiektu. Opcjonalnie może utworzyć również szyk [powiązań](App_Link/pl.md). {{Version/pl|0.19}}
+   ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Szyk](Draft_OrthoArray/pl.md)   * tworzy szyk ortogonalny z wybranego obiektu. Opcjonalnie może utworzyć również szyk [powiązań](App_Link/pl.md).
 
-   ** <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> [Szyk biegunowy](Draft_PolarArray/pl.md)   * tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż obwodu. Opcjonalnie może utworzyć szyk [powiązań](App_Link/pl.md). <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> [Szyk biegunowy](Draft_PolarArray/pl.md)   * tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż obwodu. Opcjonalnie może utworzyć szyk [powiązań](App_Link/pl.md).
 
-   ** <img alt="" src=images/Draft_CircularArray.svg  style="width   *32px;"> [Szyk kołowy](Draft_CircularArray/pl.md)   * tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż obwodu okręgu. Opcjonalnie może utworzyć szyk [powiązań](App_Link/pl.md). {{Version/pl|0.19}}
+   ** <img alt="" src=images/Draft_CircularArray.svg  style="width   *32px;"> [Szyk kołowy](Draft_CircularArray/pl.md)   * tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż obwodu okręgu. Opcjonalnie może utworzyć szyk [powiązań](App_Link/pl.md).
 
    ** <img alt="" src=images/Draft_PathArray.svg  style="width   *32px;"> [Szyk po ścieżce](Draft_PathArray/pl.md)   * tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż ścieżki.
 
-   ** <img alt="" src=images/Draft_PathLinkArray.svg  style="width   *32px;"> [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md)   * podobnie, ale utwórz szyk [powiązań](App_Link/pl.md) zamiast zwykłego szyku. {{Version/pl|0.19}}
+   ** <img alt="" src=images/Draft_PathLinkArray.svg  style="width   *32px;"> [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md)   * podobnie, ale utwórz szyk [powiązań](App_Link/pl.md) zamiast zwykłego szyku.
 
    ** <img alt="" src=images/Draft_PointArray.svg  style="width   *32px;"> [Szyk z punktów](Draft_PointArray/pl.md)   * tworzy szyk z wybranego obiektu poprzez umieszczenie kopii w punktach ze zbioru punktów.
 
-   ** <img alt="" src=images/Draft_PointLinkArray.svg  style="width   *32px;"> [Szyk powiązań w punktach](Draft_PointLinkArray/pl.md)   * podobnie, ale utwórz szyk [powiązań](App_Link/pl.md) zamiast zwykłego szyku. {{Version/pl|0.19}}
+   ** <img alt="" src=images/Draft_PointLinkArray.svg  style="width   *32px;"> [Szyk powiązań w punktach](Draft_PointLinkArray/pl.md)   * podobnie, ale utwórz szyk [powiązań](App_Link/pl.md) zamiast zwykłego szyku.
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> [Edycja](Draft_Edit/pl.md)   * umieszcza wybrane obiekty w trybie edycji szkicu. W tym trybie właściwości obiektów mogą być edytowane graficznie.
 
@@ -130,7 +130,7 @@ Pasek narzędzi zasobnika środowiska [Rysunek Roboczy](Draft_Tray/pl.md) pojawi
 
 -   ![](images/Draft_tray_button_plane.png ) [Bieżąca płaszczyzna robocza](Draft_SelectPlane/pl.md)   * wybiera bieżącą płaszczyznę roboczą Rysunku Roboczego. Funkcja dostępna jest również w menu   * **Narzędzia → <img src="images/Draft_SelectPlane.svg" width=16px> Wybierz płaszczyznę**.
 
--   ![](images/Draft_tray_button_style.png ) [Ustaw styl](Draft_SetStyle/pl.md)   * ustawia domyślny styl dla nowych obiektów. Dostępne również w menu   * **Rysunek Roboczy → Narzędzia → <img src="images/Draft_SetStyle.svg" width=16px> Ustaw styl**. {{Version/pl|0.19}}
+-   ![](images/Draft_tray_button_style.png ) [Ustaw styl](Draft_SetStyle/pl.md)   * ustawia domyślny styl dla nowych obiektów. Dostępne również w menu   * **Rysunek Roboczy → Narzędzia → <img src="images/Draft_SetStyle.svg" width=16px> Ustaw styl**.
 
 -   ![](images/Draft_tray_button_construction.png ) [Przełącz tryb konstrukcyjny](Draft_ToggleConstructionMode/pl.md)   * włącza lub wyłącza tryb konstrukcji szkicu. Dostępne również w menu   * **Rysunek Roboczy → Narzędzia → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Przełącz tryb konstrukcyjny**.
 
@@ -138,13 +138,13 @@ Pasek narzędzi zasobnika środowiska [Rysunek Roboczy](Draft_Tray/pl.md) pojawi
 
 ## Widżet skali adnotacji 
 
-Za pomocą widżetu [skali anotacji](Draft_annotation_scale_widget/pl.md) można określić skalę adnotacji. Widżet ten znajduje się na [paseku statusu](Status_bar/pl.md).
+Za pomocą widżetu [skali adnotacji](Draft_annotation_scale_widget/pl.md) można określić skalę wyświetlanej adnotacji.
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
 ## Widżet przyciągania 
 
-Widżet [przyciągania](Draft_snap_widget/pl.md) może być używany jako alternatywa dla [paska narzędzi przyciągania](#Pasek_narz.C4.99dzi_Rysunek_roboczy   *_Przyci.C4.85gnij.md). {{Version/pl|0.19}}
+Widżet [przyciągania](Draft_snap_widget/pl.md) może być używany jako alternatywa dla [paska narzędzi przyciągania](#Pasek_narz.C4.99dzi_Rysunek_roboczy   *_Przyci.C4.85gnij.md).
 
 ![](images/Draft_snap_widget_button.png )
 
@@ -164,13 +164,7 @@ Pasek narzędzi [Rysunek roboczy   * Przyciągnij](Draft_Snap/pl.md) umożliwia 
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Przecięcie](Draft_Snap_Intersection/pl.md)   * przyciąga do przecięcia dwóch krawędzi.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md)   * przyciąga prostopadle w punkcie prostopadłym na krawędziach.
-
-
-</div>
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md)   * przyciąga prostopadle do ostatniego punktu na ścianie *({{Version/pl|1.0}})* lub krawędzi.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Rozszerzenie](Draft_Snap_Extension/pl.md)   * przyciąga do umownej linii, która rozciąga się poza punkty końcowe segmentów linii.
 
@@ -192,7 +186,7 @@ Pasek narzędzi [Rysunek roboczy   * Przyciągnij](Draft_Snap/pl.md) umożliwia 
 
 ### Pasek narzędzi użytkowych 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Warstwa](Draft_Layer/pl.md)   * tworzy [warstwę](Draft_Layer/pl.md) środowiska Rysunek Roboczy. {{Version/pl|0.19}}
+-   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Warstwa](Draft_Layer/pl.md)   * tworzy [warstwę](Draft_Layer/pl.md) środowiska Rysunek Roboczy.
 
 -   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width   *32px;"> [Dodaj grupe o nazwie](Draft_AddNamedGroup/pl.md)   * tworzy nazwaną [Grupę Std](Std_Group/pl.md) i przenosi wybrane obiekty do tej grupy. {{Version/pl|0.20}}
 
@@ -238,15 +232,15 @@ Jeśli istnieje aktywny dokument, menu kontekstowe zawiera jedno dodatkowe podme
 
 ### Opcje polilinii 
 
-Ta dodatkowa opcja jest dostępna dla [polilinii](Draft_Wire/pl.md), [linii złożonej](Draft_BSpline/pl.md), [sześciennej krzywej Beziera](Draft_CubicBezCurve/pl.md) i [krzywej Beziera](Draft_BezCurve/pl.md)   *
+Ta dodatkowa opcja jest dostępna dla [linii](Draft_Line/pl.md), [polilinii](Draft_Wire/pl.md),   *
 
--   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> Spłaszcz tą polilinię   * spłaszcza polilinię na podstawie jej wewnętrznej geometrii. Ta opcja obecnie nie działa poprawnie.
+-   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> Spłaszcz tę polilinię   * spłaszcza polilinię na bieżącej [Płaszczyźnie roboczej](Draft_SelectPlane/pl.md). Ta opcja nie działa poprawnie w {{VersionMinus/pl|0.19}}.
 
 ### Opcje kontenera warstw 
 
 Dla narzędzi [Kontenera warstw](Draft_Layer/pl.md) dostępne są te dodatkowe opcje   *
 
--   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Scal duplikaty warstw](Draft_Layer/pl#Opcje_kontenera_warstw.md)   * łączy wszystkie warstwy z tą samą etykietą bazową. To nie działa w wersji 0.19 programu FreeCAD.
+-   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Scal duplikaty warstw](Draft_Layer/pl#Opcje_kontenera_warstw.md)   * łączy wszystkie warstwy z tą samą etykietą bazową.
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width   *32px;"> [Warstwa](Draft_Layer/pl#Opcje_kontenera_warstw.md)   * dodaje nową warstwę do bieżącego dokumentu.
 
@@ -315,7 +309,7 @@ freecad -t TestDraft
 
 Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Środowisko pracy zawiera moduł do tworzenia przykładów wszystkich obiektów w nowym dokumencie. {{Version/pl|0.19}}
+Środowisko pracy zawiera moduł do tworzenia przykładów wszystkich obiektów w nowym dokumencie.
 
 Użyj tego, aby sprawdzić, czy wszystkie obiekty są prawidłowo utworzone   *
 

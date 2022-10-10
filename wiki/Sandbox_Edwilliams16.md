@@ -93,9 +93,9 @@ Another operation we might want to perform on a vector is to rotate it. There ar
 
 FreeCAD\'s internal representation of rotations (a, b, c, d) = a **i** + b **j** + c **k** + d
 
-where d = cos(theta/2), (a,b,c) = sin(theta/2)\*unit\_vector
+where d = cos(theta/2), (a,b,c) = sin(theta/2)\*unit_vector
 
-represents a rotation of theta about the unit\_vector axis. It is unlikely you will need to work with these directly.
+represents a rotation of theta about the unit_vector axis. It is unlikely you will need to work with these directly.
 
 \-- three floats (yaw, pitch, roll)
 
@@ -363,6 +363,8 @@ def getLCSVertex(sel)   *
 <https   *//wiki.freecadweb.org/Placement>
 
 <https   *//github.com/FreeCAD/FreeCAD/blob/5d49bf78de785a536f941f1a6d06d432582a95d3/src/Base/Rotation.cpp>
+
+[Category   *Sandbox](Category_Sandbox.md)
 
 
 

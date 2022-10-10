@@ -26,12 +26,12 @@ La commande **Std Zoom avant** effectue un zoom avant dans la [vue 3D](3D_view/f
 
 ## Préférences
 
--   Le facteur de zoom peut être modifié dans les préférences   * **Edition → Préférences... → Affichage → Navigation → Zoom step**. Ce paramètre affecte également le zoom de la molette de défilement. Voir [Editeur de préférences](Preferences_Editor/fr#Navigation.md).
+-   Le facteur de zoom peut être modifié dans les préférences   * **Édition → Préférences... → Affichage → Navigation → Zoom step**. Ce paramètre affecte également le zoom de la molette de défilement. Voir [Éditeur de préférences](Preferences_Editor/fr#Navigation.md).
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi    ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

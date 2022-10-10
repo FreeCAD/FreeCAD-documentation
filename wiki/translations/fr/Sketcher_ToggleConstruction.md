@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher ToggleConstruction
    Name/fr   *Sketcher Basculer en géométrie de construction
-   MenuLocation   *Esquisse → Géométries d'esquisse → Basculer le mode de la géométrie de construction
+   MenuLocation   *Sketch → Géométries d'esquisse → Basculer le mode de la géométrie de construction
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut   ***G** **N**
    SeeAlso   *[Sketcher Basculer les contraintes pilotes](Sketcher_ToggleDrivingConstraint/fr.md)

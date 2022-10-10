@@ -11,21 +11,15 @@
 |Download=[https   *//www.freecadweb.org/wiki/images/1/1e/Macro_MacroMenu.png ToolBar Icon]
 }}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Description
 
-Questo codice era compreso nel [Modulo Draft](Draft_Workbench/it.md), ma è stato tolto, vedere [issue \#490](http   *//freecadweb.org/tracker/view.php?id=490).
-
-
-</div>
+Questo codice era compreso nell\' [Ambiente Draft](Draft_Workbench/it.md), ma è stato tolto, vedere [issue #490](http   *//freecadweb.org/tracker/view.php?id=490).
 
 ## Script
 
-ToolBar Icon ![](images/Macro_MacroMenu.png )
+Icona barra strumenti ![](images/Macro_MacroMenu.png )
 
-**Macro\_MacroMenu.FCMacro**
+**Macro_MacroMenu.FCMacro**
 
 
 {{MacroCode|code=

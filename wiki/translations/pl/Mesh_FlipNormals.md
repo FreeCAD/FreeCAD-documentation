@@ -1,27 +1,28 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh FlipNormals
-   MenuLocation   *Meshes → Flip normals
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Mesh HarmonizeNormals](Mesh_HarmonizeNormals.md)
+   Name/pl   *Siatka   * Porządkuj wektory normalnych
+   MenuLocation   *Siatka → Odwróć wektory normalnych
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Porządkuj wektory normalnych](Mesh_HarmonizeNormals/pl.md)
 ---
 
 # Mesh FlipNormals/pl
 
-## Description
+## Opis
 
-The **Mesh FlipNormals** command reverses, flips, the normals of mesh objects.
+Polecenie **Odwróć wektory normalnych** odwraca, przerzuca, normalne obiektów siatkowych.
 
-## Usage
+## Użycie
 
-1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_FlipNormals.svg" width=16px> [Mesh FlipNormals](Mesh_FlipNormals.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_FlipNormals.svg" width=16px> Flip normals** option from the menu.
+1.  Wybierz jeden lub więcej obiektów siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_FlipNormals.svg" width=16px> [Odwróć wektory normalnych](Mesh_FlipNormals/pl.md)**.
+    -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_FlipNormals.svg" width=16px> Odwróć wektory normalnych**.
 
-## Notes
+## Uwagi
 
--   For a clear indication of the orientation of the faces of mesh objects make sure the **Lighting** property of the mesh objects is set to {{Value|One side}}. The color of the back side of their faces will then depend on the backlight settings   * **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See   * [Preferences Editor](Preferences_Editor#3D_View.md).
+-   Aby wyraźnie odróżnić orientację ścian obiektów siatkowych upewnij się, że właściwość **Oświetlenie** obiektów siatkowych jest ustawiona na wartość {{Value|Jedna strona}}. Kolor tylnej strony ich ścian będzie wtedy zależał od ustawień podświetlenia   * **Edycja → Preferencje → Wyświetlanie → 3D View → Włącz podświetlenie - Intensywność podświetlenia**. Zobacz również informacje na stronie [Edytor ustawień](Preferences_Editor/pl#3D_View.md).
 
 
 

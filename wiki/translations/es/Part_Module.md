@@ -140,8 +140,6 @@ Estas herramientas realizan operaciones booleanas.
 
 ### Medida
 
-<img alt="" src=images/Part_Measure_Menu.png  style="width   *64px;"> [Medir](Part_Measure_Menu/es.md)   * Herramientas para mediciones lineales y angulares.
-
 -   <img alt="" src=images/Part_Measure_Linear.svg  style="width   *32px;"> [Medida Lineal](Part_Measure_Linear/es.md)   * Crea una medida lineal.
 
 -   <img alt="" src=images/Part_Measure_Angular.svg  style="width   *32px;"> [Medida Angular](Part_Measure_Angular/es.md)   * Crea una medida angular.
@@ -152,7 +150,13 @@ Estas herramientas realizan operaciones booleanas.
 
 -   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width   *32px;"> [Alternar todo](Part_Measure_Toggle_All/es.md)   * Muestra u oculta todas las mediciones.
 
--   <img alt="" src=images/Part_Measure_Toggle_3d.svg  style="width   *32px;"> [Alternar 3D](Part_Measure_Toggle_3d/es.md)   * Muestra u oculta las medidas 3D.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width   *32px;"> [Alternar 3D](Part_Measure_Toggle_3D/es.md)   * Muestra u oculta las medidas 3D.
+
+
+</div>
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *32px;"> [Alternar Delta](Part_Measure_Toggle_Delta/es.md)   * Muestra u oculta las medidas delta.
 

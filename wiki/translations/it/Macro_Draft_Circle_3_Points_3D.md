@@ -19,17 +19,10 @@ I punti possono essere oggetti come punti oppure cubi, cilindri \... in questo c
 
 <img alt="" src=images/Macro_Draft_Circle_3_Points_3D.png  style="width   *480px;">
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
 
 Selezionare 3 punti o forme nella vista 3D poi avviare la macro.
-
 Se la forma è una linea, le coordinate sono date dal centro della linea.
-
-
-</div>
 
 ## Limitazioni
 
@@ -41,7 +34,7 @@ Le coordinate **X,Y,Z** di valore **0** oppure un allineamento non permettono l\
 
 ToolBar Icon ![](images/Macro_Draft_Circle_3_Points.png )
 
-**Macro\_Draft\_Circle\_3\_Points\_3D.FCMacro**
+**Macro_Draft_Circle_3\_Points_3D.FCMacro**
 
 
 {{MacroCode|code=

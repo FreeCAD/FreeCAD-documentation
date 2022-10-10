@@ -30,9 +30,19 @@ Crée une contrainte FEM pour une condition de limite de température.
 
 </div>
 
+### Option
+
+By default the constraint defines a temperature. By using the option **Concentrated heat Flux** a heat flux trough the area of the face (Watt per face area) can be specified.
+
 ## Notă
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Constrângerea utilizează \*BOUNDARY card in CalculiX. constrângerea de temperatură este explicat la <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
+
+
+</div>
 
 
 

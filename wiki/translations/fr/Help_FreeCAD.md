@@ -7,7 +7,7 @@ Si vous aimez FreeCAD et souhaitez aider le projet, vous pouvez faire beaucoup d
 
 ## Don d\'argent 
 
-Bien que FreeCAD n\'ait pas besoin d\'argent pour être développé, les dons peuvent aider le projet à se développer plus loin et plus rapidement. La page [Faire un don](Donation/fr.md) liste toutes les options dont vous disposez pour donner de l\'argent au projet.
+Bien que FreeCAD n\'ait pas besoin d\'argent pour être développé, les dons peuvent aider le projet à se développer plus loin et plus rapidement. La page [Faire un don](Donate/fr.md) liste toutes les options dont vous disposez pour donner de l\'argent au projet.
 
 ## Travailler sur la documentation 
 
@@ -26,7 +26,7 @@ La communauté des utilisateurs de FreeCAD est encore faible, mais comprend plus
 -   Montrer ce que vous avez réalisé sous FreeCAD sur le [forum Users Showcase](http   *//forum.freecadweb.org/viewforum.php?f=24). Vous pouvez poster des [captures d\'écran](Std_ViewScreenShot/fr.md), mieux encore, joindre vos fichiers FreeCAD pour que d\'autres personnes puissent les examiner et comprendre comment vous avez travaillé et découvrir d\'autres fonctionnalités.
 -   Enregistrer des [vidéos](http   *//www.youtube.com/user/FreeCADNews) détaillant les étapes que vous avez franchies pour arriver à votre projet terminé dans FreeCAD. Ces vidéos sont une bonne façon de montrer de nouvelles fonctionnalités.
 -   Écrire des [tutoriels](Tutorials/fr.md) décrivant ou enseignant quelque chose d\'intéressant. Vous pouvez écrire des tutoriels sur votre propre blog, directement sur ​​notre wiki, ou même sur le [forum](https   *//forum.freecadweb.org/).
--   Publiez sur le réseau social open source [Mastodon](https   *//joinmastodon.org/) (et [suivre FreeCAD](https   *//fosstodon.org/@FreeCAD) ici), sur [Facebook](https   *//www.facebook.com/groups/416491481766626) ou sur [Twitter](https   *//twitter.com) (et [suivre FreeCAD](https   *//twitter.com/FreeCADNews) ici). Utilisez les hashtags \#FreeCAD, \#MadeWithFreeCAD ou \#fc3d pour que les autres utilisateurs de FreeCAD puissent trouver plus facilement vos messages relatifs à FreeCAD.
+-   Publiez sur le réseau social open source [Mastodon](https   *//joinmastodon.org/) (et [suivre FreeCAD](https   *//fosstodon.org/@FreeCAD) ici), sur [Facebook](https   *//www.facebook.com/groups/416491481766626) ou sur [Twitter](https   *//twitter.com) (et [suivre FreeCAD](https   *//twitter.com/FreeCADNews) ici). Utilisez les hashtags #FreeCAD, #MadeWithFreeCAD ou #fc3d pour que les autres utilisateurs de FreeCAD puissent trouver plus facilement vos messages relatifs à FreeCAD.
 -   Consultez les dernières publications de FreeCAD sur [Reddit](https   *//www.reddit.com/search/?q=freecad&type=link&sort=new), [3dprinting.stackexchange](https   *//3dprinting.stackexchange.com/search?tab=newest&q=freecad), [StackOverflow](https   *//stackoverflow.com/search?q=freecad)\... Essayez d\'y répondre et de participer aux discussions en partageant votre expérience et vos informations.
 -   Être présent sur le canal IRC FreeCAD ou [d\'autres groupes de discussion](https   *//www.freecadweb.org/wiki/Help#Chat).
 
@@ -80,7 +80,7 @@ Des dizaines de bogues sont signalés chaque semaine sur [GitHub](https   *//git
 
 Consultez les pages [Graphisme](Artwork/fr.md) et [Recommandations pour la charte graphique](Artwork_Guidelines/fr.md) pour connaître les directives sur la conception d\'icônes pour FreeCAD.
 
-## Écrire du code ! 
+## Écrire du code 
 
 Écrire du code pour FreeCAD n\'est pas difficile, et vous n\'avez besoin d\'aucune permission, vous pouvez commencer dès maintenant à travailler sur ce que vous voulez, puis soumettre un patch sur le [gestionnaire de problèmes](https   *//github.com/FreeCAD/FreeCAD/issues) ou demander une fusion à partir d\'une [branche git](https   *//github.com/FreeCAD). Pour éviter les maux de tête, vous devez d\'abord remplir les conditions préalables suivantes    *
 
@@ -92,7 +92,7 @@ Consultez les pages [Graphisme](Artwork/fr.md) et [Recommandations pour la chart
 -   Depuis 2016, FreeCAD participe également au [Google Summer of Code 2020](Google_Summer_of_Code_2020.md). Assurez-vous de vérifier vos idées à cet endroit si vous souhaitez participer à une prochaine édition.
 -   De plus en plus de fonctionnalités de FreeCAD ne sont pas écrites dans le code FreeCAD lui-même mais dans des addons, des macros et des extensions. Ensemble, cet écosystème est ce qui rend FreeCAD puissant. Souvent, travailler sur un addon est plus facile parce qu\'il y a moins de code à lire et à comprendre, et moins de personnes impliquées. Consultez le [dépôt des Addons](https   *//github.com/FreeCAD/FreeCAD-addons) et le [dépôt des Macros](https   *//github.com/FreeCAD/FreeCAD-macros) pour avoir quelques idées !
 
-## Bibliothèque de modèles 
+## Créer des modèles 
 
 FreeCAD dispose d\'une [bibliothèque de modèles](https   *//github.com/FreeCAD/FreeCAD-library) qui est gratuite et ouverte à tous. Pourquoi ne pas y ajouter des éléments utiles, qui pourraient être réutilisés par d\'autres ? Veillez à créer vous-même des modèles à partir de rien, afin que la bibliothèque reste à 100% exempte de composants éventuellement protégés par des droits d\'auteur ou non libres.
 

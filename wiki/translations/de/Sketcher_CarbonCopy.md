@@ -18,17 +18,16 @@ Maßbeschränkungen, die vor der Kopierfunktion bestehen, bleiben über [ Ausdr�
 
 ## Anwendung
 
+1.  Eine vorhandene **[<img src=images/Sketcher_NewSketch.svg style="width   *16px"> [Skizze](Sketcher_NewSketch/de.md)** sollte im Bearbeitungsmodus geöffnet sein. Diese Skizze ist das Ziel dieses Vorgangs.
 
-<div class="mw-translate-fuzzy">
+2.  Die Schaltfläche **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [Pause](Sketcher_CarbonCopy/de.md)** drücken.
 
-1.  Vergewissere dich, dass du dich im Bearbeitungsmodus einer vorhandenen **[<img src=images/Sketcher_NewSketch.svg style="width   *16px"> [Skizze](Sketcher_NewSketch/de.md)** befindest. Diese Skizze ist das Ziel der Handlung.
-2.  Drücke die **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [Kopie](Sketcher_CarbonCopy/de.md)** Schaltfläche.
-3.  Klicke auf eine Kante aus einer anderen Skizze. (Diese Skizze ist die Quelle der Handlung).
-4.  Sowohl Geometrieelemente als auch Beschränkungen werden in die aktive Skizze kopiert.
-5.  Drücke **Esc** oder die rechte Maustaste, um den Vorgang zu beenden.
+3.  Auf eine Kante aus einer anderen Skizze klicken. (Diese Skizze ist die Quelle des Vorgangs).
 
+4.  Sowohl Geometrieelemente als auch Randbedingungen werden in die aktive Skizze kopiert (\"durchgepaust\").
 
-</div>
+5.  
+    **Esc**oder die rechte Maustaste drücken, um den Vorgang zu beenden.
 
 ## Anmerkungen
 

@@ -1,27 +1,20 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *FEM MaterialFluid
-   MenuLocation   * Model → Materials → Material for fluid
-   Workbenches   *[FEM](FEM_Workbench.md)
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+   Name/de   *FEM MaterialFlüssigkeit
+   MenuLocation   * Modell → Materialien → Material für Flüssigkeit
+   Workbenches   *[FEM](FEM_Workbench/de.md)
+   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MaterialFluid/de
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
 Fügt einem Teil Flüssigkeitseigenschaften hinzu.
 
-
-</div>
-
 ![](images/FEMMaterialFluidProperties.png ) 
-*The FEM material task panel*
+*Der Aufgabenbereich FEM-Material*
 
 ## Anwendung
 

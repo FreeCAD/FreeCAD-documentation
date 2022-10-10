@@ -18,13 +18,7 @@
 
 Questa macro fornisce un aiuto per creare un sistema di assi lungo una linea tramite una serie di parametri. È anche possibile creare un Sistema strutturale direttamente dalla [libreria delle Parti di FreeCAD](http   *//github.com/yorikvanhavre/FreeCAD-library).
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-
-</div>
+## Utilizzo
 
 -   Avviare la macro con o senza linea selezionata.
 -   Appare una interfaccia grafica.
@@ -42,7 +36,7 @@ Questa macro fornisce un aiuto per creare un sistema di assi lungo una linea tra
 
 ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 
-**Macro\_Repartition.FCMacro**
+**Macro_Repartition.FCMacro**
 
 
     #!/usr/bin/env python
@@ -273,7 +267,7 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 ## Link
 
 -   Video [Macro in action](https   *//www.youtube.com/watch?v=jfDTkH9-I5Q)
--   [Macro\_PartsLibrary](Macro_PartsLibrary.md) libreria delle Parti di FreeCAD
+-   [Macro_PartsLibrary](Macro_PartsLibrary.md) libreria delle Parti di FreeCAD
 -   Github [Macro wood galaxy](https   *//github.com/wood-galaxy/FreeCAD-scripts)
 
 

@@ -19,15 +19,9 @@ Questa piccola macro crea un cerchio o un arco fornendo a scelta raggio, diametr
 
 Il cerchio viene posto frontale allo schermo, con getCameraOrientation, oppure secondo il posizionamento dato
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Copiare il codice e incollarlo nella console Python di FreeCAD, la funzione sarà disponibile per tutta la sessione (è anche possibile utilizzare questo codice in una macro). Assegnare a scelta i parametri   *
-
-
-</div>
 
 -   **x y z**    * coordinate del cerchio, se non sono attribuite, il cerchio viene creato alle coordinate 0,0,0
 -   **radius**    * raggio del cerchio
@@ -55,7 +49,7 @@ Se non vengono forniti dei parametri, ad esempio \"**circle()**\", nella vista R
 
 ToolBar Icon ![](images/Macro_Circle.png )
 
-**Macro\_circle.FCMacro**
+**Macro_circle.FCMacro**
 
 
 {{MacroCode|code=

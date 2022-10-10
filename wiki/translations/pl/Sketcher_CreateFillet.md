@@ -5,13 +5,14 @@
    MenuLocation   *Szkic → Elementy geometryczne szkicownika → Utwórz zaokrąglenie
    Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut   ***G** **F** **F**
+   SeeAlso   *[Zaokrąglenie z zachowaniem wiązań](Sketcher_CreatePointFillet/pl.md)
 ---
 
 # Sketcher CreateFillet/pl
 
 ## Opis
 
-To narzędzie tworzy zaokrąglenie pomiędzy dwoma liniami połączonymi w jednym punkcie. Aktywuj narzędzie, a następnie wybierz obie linie lub kliknij na punkt narożny.
+To narzędzie tworzy zaokrąglenie pomiędzy dwoma liniami.
 
 Po uruchomieniu narzędzia zaznaczenia są usuwane, a kursor myszki zmienia się w biały krzyżyk z czerwoną ikoną zaokrąglenia. Pozostaje on aktywny, dzięki czemu można wykonać wiele zaokrągleń.
 
@@ -20,8 +21,9 @@ Po uruchomieniu narzędzia zaznaczenia są usuwane, a kursor myszki zmienia się
 ## Użycie
 
 1.  Naciśnij przycisk **[<img src=images/Sketcher_CreateFillet.svg style="width   *16px"> [Utwórz zaokrąglenie](Sketcher_CreateFillet/pl.md)**
-2.  Wybierz wierzchołek łączący dwie linie, lub kliknij na dwie połączone linie, odległość kliknięcia od wierzchołka ustawi promień zaokrąglenia.
-3.  Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszy anuluje lub kończy działanie funkcji.
+2.  Wybierz wierzchołek łączący dwie nie równoległe linie, lub wybierz dwie linie, które nie są równoległe.
+3.  Jeśli wybrany jest wierzchołek, promień zaokrąglenia jest uzyskiwany z długości najkrótszej linii. Jeśli wybrane są dwie linie, promień jest odległością od pierwszego klikniętego punktu do (przedłużonego) przecięcia linii.
+4.  Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszy anuluje lub kończy działanie funkcji.
 
 
 

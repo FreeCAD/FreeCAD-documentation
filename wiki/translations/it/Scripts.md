@@ -190,13 +190,13 @@ FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0)
 
 Comunque al di sopra di ogni ulteriore considerazione, una cosa è cruciale, il concetto di \"punto di riferimento\" della geometria. In altri termini, il punto dal quale l\'oggetto viene costruito da parte di FreeCAD, riportiamo in questa tabella, copiata direttamente da [Placement](Placement/it.md)   *
 
-  Oggetto                                Punto di riferimento
+  Oggetto                              Punto di riferimento
    
-  Part.Box                               vertice sinistro (minimo x), frontale (minimo y), in basso (minimo z)
-  Part.Sphere                            centro della sfera (centro del suo contenitore cubico)
-  Part.Cylinder                          centro della faccia di base
-  Part.Cone                              centro della faccia di base (o superiore se il raggio della faccia di base vale 0)
-  Part.Torus                             centro del toro
+  Part.Box                             vertice sinistro (minimo x), frontale (minimo y), in basso (minimo z)
+  Part.Sphere                          centro della sfera (centro del suo contenitore cubico)
+  Part.Cylinder                        centro della faccia di base
+  Part.Cone                            centro della faccia di base (o superiore se il raggio della faccia di base vale 0)
+  Part.Torus                           centro del toro
   Caratteristiche derivate ​​da Sketch   la caratteristica eredita la posizione dello schizzo sottostante. Lo schizzo inizia sempre con Position = (0,0,0).
 
 Questa informazione va tenuta ben presente specie quando si applica una rotazione.
@@ -287,7 +287,7 @@ Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 
 Cosa è successo?
 
-FreeCAD ha \"tradotto\" il posizionamento passato con `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)`, che specificava tre componenti **Translazione**, **Rotazione** e *centro di rotazione*\' nel suo valore \"interno\" che possiede solo due componenti, **Translazione** e **Rotazione**.
+FreeCAD ha \"tradotto\" il posizionamento passato con `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)`, che specificava tre componenti **Translazione**, **Rotazione** e *centro di rotazione**nel suo valore \"interno\" che possiede solo due componenti,**Translazione**e**Rotazione*\'.
 
 Potete facilmente inserire nel codice del metodo `aeroplano(...` una istruzione che stampi `pos_ali`, e vedrete che vale   *
 

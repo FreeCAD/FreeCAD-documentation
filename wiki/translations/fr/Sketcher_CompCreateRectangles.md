@@ -3,7 +3,7 @@
    Name   *Sketcher Create Rectangles
    Name/fr   *Sketcher Rectangles
    Icon   *Sketcher_CompCreateRectangles.png
-   MenuLocation   *Barre d'outils seulement
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Version   *0.20
 ---

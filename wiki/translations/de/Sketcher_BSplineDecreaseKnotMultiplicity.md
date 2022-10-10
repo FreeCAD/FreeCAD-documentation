@@ -12,30 +12,15 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Verringert die Knotenvielfalt eines B-Spline Kurvenknotens (siehe [B-Spline](https   *//en.wikipedia.org/wiki/B-spline)).
-
-
-</div>
+Verringert die Vielfachheit eines B-Spline-Knotens. (Siehe die Seite [B-Splines](B-Splines.md) für weitere Informationen über B-Splines).
 
 B-splines are basically a combination of [Bézier curves](B-Splines#B.C3.A9zier_curves.md) (nicely explained in [this](https   *//www.youtube.com/watch?v=bE1MrrqBAl8) and [this](https   *//www.youtube.com/watch?v=xXJylM2S72s) video). The points where two Bézier curves are connected to form the spline are called knots. A knot on a degree *d* spline with the multiplicity *m* means that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
 Here is a cubic spline ($d=3$) whose knots have the multiplicity 1. The multiplicity is indicated by the number in parentheses. The indication can be changed using the toolbar button **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width   *24px"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)**)   *
 
-<img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity1.png  style="width   *400px;">
+<img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity1.png  style="width   *400px;"> 
+*B-Spline-Kurve deren Knoten beide die Vielfachheit 1 besitzen.*
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-*B-spline Kurve zeigt abnehmende Knotenvielfalt.*
-
-
-</div>
-
-A multiplicity of 3 will change this spline so that even the first order derivatives are not equal (*C*^0^ continuity). Here is the same spline where the left\'s knot multiplicity was increased to 3   *
+Eine Vielfachheit von 3 ändert diesen Spline so, dass sogar die ersten Ableitungen nicht gleich sind (*C*^0^-Stetigkeit). Hier ist dieselbe Spline-Kurve mit einer auf 3 erhöhten Vielfachheit des linken Knotens   *
 
 <img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity3.png  style="width   *400px;"> 
 *B-spline from above with knot multiplicity 3. A control point was moved to show that the knot has ''C''<sup>0</sup> continuity.*
@@ -51,16 +36,10 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle einen B-Spline Knoten
-2.  Rufe das Werkzeug mit mehreren Methoden auf   *
-    -   Drücke die **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *16px">  [B-spline Knotenvervielfalt Verringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)** Schaltfläche.
-    -   Verwende den **Skizze → Skizzierer B-Spline Werkzeuge → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *16px"> Knotenvervielfalt Verringern** Eintrag im oberen Menü.
-
-
-</div>
+1.  Einen B-Spline-Knoten auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *16px">  [Vielfachheit eines B-Spline-Knotens verringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)** drücken.
+    -   Den Menüeintrag **Sketch → B-Spline-Werkzeuge → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *16px"> Vielfachheit eines B-Spline-Knotens verringern** auswählen.
 
 **Note   *** Decreasing the multiplicity from 1 to 0 will remove the knot since the result would be a curve with an \"edge\" at the knot position (*C*^0^ continuity) and this is not supported. (To create curves with an \"edge\", you can create two splines and connect them.)
 

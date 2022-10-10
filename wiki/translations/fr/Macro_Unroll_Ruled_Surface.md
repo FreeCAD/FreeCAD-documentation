@@ -5,7 +5,7 @@
 |Author=Hervé B., heda
 |Version=1.1
 |Date=2022-07-24
-|Download=[https   *//www.freecadweb.org/wiki/images/b/ba/Macro_Unroll_Ruled_Surface.png Icône de la macro]
+|Download=[https   *//www.freecadweb.org/wiki/images/b/ba/Macro_Unroll_Ruled_Surface.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -28,7 +28,7 @@ Voir aussi    * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.
 -   Format de page    * A4/A3, cartouche (cf. modèles FreeCAD).
 -   Regrouper les dessins sur une même page si possible.
 
-![Macro\_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png )
+![Macro_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png )
 
 ## Utilisation
 
@@ -39,11 +39,11 @@ Voir aussi    * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.
 
 ## Script
 
-La dernière version de la macro se trouve ici sur le wiki. Une version antérieure se trouve à l\'adresse [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), mais le moyen le plus simple d\'installer cette macro est de passer par le <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+La dernière version de la macro se trouve ici sur le wiki. Une version antérieure se trouve à l\'adresse [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), mais le moyen le plus simple d\'installer cette macro est de passer par le <img alt="Std_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 Icône de la barre d\'outils ![](images/Macro_Unroll_Ruled_Surface.png )
 
-**Macro\_unrollRuledSurface.py**
+**Macro_unrollRuledSurface.py**
 
     # -*- coding   * utf-8 -*-
     #***************************************************************************

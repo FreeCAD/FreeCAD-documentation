@@ -34,6 +34,7 @@ Note   *
 
 -   Source   * <https   *//forum.freecadweb.org/viewtopic.php?p=314796#p314617>
 -   [Forum discussion   * Adding Commands in Python to C++ Workbench](https   *//forum.freecadweb.org/viewtopic.php?p=560639#p560639)
+-   Another forum thread   * <https   *//forum.freecadweb.org/viewtopic.php?f=10&t=70750>
 -   [Workbench creation](Workbench_creation.md)
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md)

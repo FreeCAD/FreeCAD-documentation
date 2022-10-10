@@ -191,7 +191,7 @@ Das liegt daran, dass wir beim Extrudieren einer einzelnen Fläche immer einen F
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
-print(s.ShapeType)
+print(S.ShapeType)
 ```
 
 Dadurch erhalten wir natürlich eine hohle Schale, bei der die Ober- und Unterseite fehlen.

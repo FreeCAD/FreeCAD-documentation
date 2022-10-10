@@ -1,10 +1,10 @@
 ---
-- TutorialInfo   *   Topic   * Finite Element Analysis
+- TutorialInfo   *   Topic   *Finite Element Analysis
    Level   *Beginner
-   Time   *
+   Time   *30 min
    Author   *[https   *//wiki.freecadweb.org/User   *Sudhanshu_Dubey Sudhanshu Dubey]
    FCVersion   *0.19 or above
-   Files   *
+   Files   *Created programmatically
 ---
 
 # FEM Example Capacitance Two Balls
@@ -17,7 +17,8 @@
 
 This example is meant to show how to simulate the 6th example of [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, using the new [FEM Examples](FEM_Examples.md). It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualize the results using [Clip Filter](FEM_PostFilterClipRegion.md).
 
- <img alt="" src=images/Two_balls_result_2.png  style="width   *1000px;"> 
+ <img alt="" src=images/Two_balls_result_2.png  style="width   *1000px;">  
+*Result of the two ball example*
 
 ## Requirements
 
@@ -39,7 +40,8 @@ This example is meant to show how to simulate the 6th example of [Elmer GUI Tuto
 -   Go to **Utilities → [<img src=images/FEM_Examples.svg style="width   *24px"> Open FEM examples**.
 -   When the GUI opens, find and open \"Electrostatics Capacitance Two Balls\". You can easily find the example in **All** or in **Solvers → Elmer**. For opening the example, either double click on it or select it and click **Setup**.
 
- <img alt="" src=images/Two_balls_selection.png  style="width   *300px;"> 
+ <img alt="" src=images/Two_balls_selection.png  style="width   *300px;">  
+*Selection of the Two balls example from FreeCAD examples*
 
 ## Understanding the Simulation Case 
 
@@ -54,22 +56,24 @@ This case presents the solution of the capacitance of perfectly conducting balls
 
 -   The two smaller spheres are fused together and then that fusion is is cut from the bigger sphere.
 
- ![ 1000px](images/Two_balls_model_full.png ) 
+ <img alt="" src=images/Two_balls_model_full.png  style="width   *1000px;">  
+*The model of the Two balls*
 
 ## Analysis container and its objects 
 
--   There are at least the 7 objects needed to make this electrostatic analysis.
--   <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> analysis container
+8 object types are needed for this electrostatic analysis   *
 
-1.  <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;"> SolverElmer
-2.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *24px;"> Electrostatic, the electrostatics equation
-3.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *24px;"> FemMaterial, a fluid material to represent the surrounding air
-4.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *24px;"> ElectrostaticPotential, constraints (3 of them)
-5.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width   *24px;"> ConstantVaccumPermittivity, optional
-6.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> Mesh, a [Gmsh](FEM_MeshGmshFromShape.md) mesh
-7.  <img alt="" src=images/FEM_MeshRegion.svg  style="width   *24px;"> MeshRegion, a mesh region for the smaller spheres
+1.  <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> Analysis container
+2.  <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;"> SolverElmer
+3.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *24px;"> Electrostatic, the electrostatics equation
+4.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *24px;"> FemMaterial, a fluid material to represent the surrounding air
+5.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *24px;"> ElectrostaticPotential, constraints (3 of them)
+6.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width   *24px;"> ConstantVaccumPermittivity, optional
+7.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> Mesh, a [Gmsh](FEM_MeshGmshFromShape.md) mesh
+8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width   *24px;"> MeshRegion, a mesh region for the smaller spheres
 
- ![](images/Two_balls_analysis.png ) 
+ ![](images/Two_balls_analysis.png )  
+*The 8 object types needed for the analysis*
 
 ## Running the FEA 
 
@@ -89,7 +93,8 @@ If you get an error message on solver binary or similar when triggering the anal
 -   Change the \"Field\" to \"potential\" and press **OK**.
 -   You will notice that the color of the sphere has changed to blue and that the gradient on the right is showing values from 0 to 1. It should look something like this   *
 
- <img alt="" src=images/Two_balls_potential.png  style="width   *1000px;"> 
+ <img alt="" src=images/Two_balls_potential.png  style="width   *1000px;">  
+*Results menu dialog*
 
 ## Post Processing the Result 
 
@@ -97,14 +102,16 @@ If you get an error message on solver binary or similar when triggering the anal
 -   In the tree view select the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult object and then from the tool bar click on the button **<img src="images/FEM_PostFilterClipRegion.svg" width=20px> Region Clip Filter**.
 -   This will open a dialog with the filter configurations. Click there on the button **<img src="images/list-add.svg" width=16px> Create** and choose <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *24px;"> Plane. This adds a plane through the center of the sphere at which the result mesh is cut. To smooth the cut face, check the option **Cut Cells**. Eventually click **Apply**.
 
- <img alt="" src=images/Two_balls_postcreate.png  style="width   *300px;"> 
+ <img alt="" src=images/Two_balls_postcreate.png  style="width   *300px;">  
+*Clip menu dialog*
 
 -   In the tree view there is a new entry called Functions. It contains the created <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *24px;"> Plane. Make it invisible using **Space**.
 -   Double-click on the <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width   *24px;"> Clip object in the tree view.
 -   Change the \"Field\" to \"potential\" and press **OK**.
 -   Toggle the visibility of the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult object using **Space** and you should see something like this   *
 
- <img alt="" src=images/Two_balls_result.png  style="width   *1000px;"> 
+ <img alt="" src=images/Two_balls_result.png  style="width   *1000px;">  
+*Result following the clip*
 
 Now we can clearly see that potential distribution in and around the balls.
 

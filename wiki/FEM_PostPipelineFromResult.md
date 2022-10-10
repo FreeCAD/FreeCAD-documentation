@@ -1,7 +1,7 @@
 ---
 - GuiCommand   *
    Name   *FEM PostPipelineFromResult
-   MenuLocation   *Results → Post pipeline from result
+   MenuLocation   * Results → Post pipeline from result
    Workbenches   *[FEM](FEM_Workbench.md)
    Version   *0.17
    SeeAlso   *[FEM Result object](FEM_ResultShow.md), [FEM tutorial](FEM_tutorial.md)
@@ -15,11 +15,10 @@ Pipeline is a result object, which creates a new graphical representation of FEM
 
 ## Usage
 
-1.  Select a result object   *
-    -   Click the **<img src="images/FEM_PostPipelineFromResult.svg" width=16px> '''Post pipeline from result'''** button
-    -   Or select the **Results → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Post pipeline from result** option from the menu.
-2.  A new object called \"Pipeline\" is added to your analysis.
-3.  Double-click the new Pipeline object in the [Tree view](Tree_view.md) and select a display mode and the result field. For example for the mode {{Value|Surface}} and the field {{Value|Von Mises stress}} the pipeline will look like this   *
+1.  Select a result object.
+2.  Click the **<img src="images/FEM_PostPipelineFromResult.svg" width=16px> '''Post pipeline from result'''** button, or select the **Results → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Post pipeline from result** option from the menu.
+3.  A new object called \"Pipeline\" is added to your analysis.
+4.  Double-click the new Pipeline object in the [Tree view](Tree_view.md) and select a display mode and the result field. For example for the mode {{Value|Surface}} and the field {{Value|Von Mises stress}} the pipeline will look like this   *
 
 <img alt="" src=images/Pipeline.PNG  style="width   *500px;">
 

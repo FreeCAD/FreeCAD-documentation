@@ -1,23 +1,11 @@
 # Artwork Plot/it
-These icons are in the indicated source path.
+Queste icone si trovano nel percorso origine indicato.
 
-For all icons in the source tree, see [Artwork](Artwork.md).
+Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Artwork/it.md)
 
+## Mod/Plot/
 
-<div class="mw-translate-fuzzy">
-
-## src/Mod/Plot/
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### src/Mod/Plot/resources/icons/
-
-
-</div>
+### Mod/Plot/freecad/plot/resources/icons/
 
 <img alt="" src=images/Plot_Axes.svg  style="width   *64px;"> <img alt="" src=images/Plot_Grid.svg  style="width   *64px;"> <img alt="" src=images/Plot_Icon.svg  style="width   *64px;"> <img alt="" src=images/Plot_Labels.svg  style="width   *64px;"> <img alt="" src=images/Plot_Legend.svg  style="width   *64px;"> <img alt="" src=images/Plot_Positions.svg  style="width   *64px;"> <img alt="" src=images/Plot_Save.svg  style="width   *64px;"> <img alt="" src=images/Plot_Series.svg  style="width   *64px;"> <img alt="" src=images/Workbench_Plot.svg  style="width   *64px;">
 

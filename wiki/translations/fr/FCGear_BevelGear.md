@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FCGear BevelGear
-   Name/fr   *FCGear BevelGear
-   MenuLocation   *FCGear → Create a Bevel gear
+   Name/fr   *FCGear Engrenage conique
+   MenuLocation   *Gear → Bevel Gear
    Workbenches   *[FCGear](FCGear_Workbench/fr.md)
    Version   *v0.16
 ---
@@ -20,55 +20,67 @@ Les engrenages coniques en spirale ont des dents incurvées pour fournir un enga
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
-2.  Lancez la commande d\'une de ces manières    *
-    -   Appuyez sur le bouton <img alt="" src=images/FCGear_BevelGear.svg  style="width   *22px;"> [Create a Bevel gear](FCGear_BevelGear/fr.md) dans la barre d\'outils.
-    -   Utilisez le **Menu → Bevel gear**.
-3.  Modifiez le paramètre de démultiplication aux conditions requises (voir **Propriétés → Données** ci-dessous).
+1.  Passez à l\' <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [atelier FCGear](FCGear_Workbench/fr.md).
+2.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur **[<img src=images/FCGear_BevelGear.svg style="width   *16px"> [Bevel Gear](FCGear_BevelGear/fr.md)** dans la barre d\'outils.
+    -   Sélectionnez l\'option **Gear → [<img src=images/FCGear_BevelGear.svg style="width   *16px"> Bevel Gear** dans le menu.
+3.  Modifiez le paramètre de l\'engrenage en fonction des conditions requises (voir [Propriétés](#Propri.C3.A9t.C3.A9s.md)).
 
 ## Propriétés
+
+Un objet FCGear BevelGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
 
 {{Properties_Title|Base}}
 
--    **Placement**   * [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **height|Length**   * valeur par défaut à {{Value|5}}. Valeur de la largeur de l\'engrenage conique.
 
--    **Label**   * nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
+-    **module|Length**   * valeur par défaut à {{Value|1}}. Module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir [Remarques](#Remarques.md)).
+
+-    **reset_origin|Bool**   * si {{True}} (par défaut), le centre de l\'axe est au centre du fond de l\'engrenage (voir [Remarques](#Remarques.md)).
+
+-    **teeth|Integer**   * valeur par défaut à {{Value|15}}. Nombre de dents.
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|computed}}
 
--    **beta**   * avec l\'angle β, un engrenage conique hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
+-    **angular_backlash|Angle**   * (lecture seule)
+
+-    **dw|Length**   * (lecture seule) diamètre du pas de travail.
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|helical}}
 
--    **backslash**   * valeur par défaut est 0.00. Le recul, également appelé battement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
+-    **beta|Angle**   * valeur par défaut à {{Value|0 °}}. Avec l\'angle d\'hélice β, un engrenage conique hélicoïdal est créé - valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche.
 
--    **clearance**   * valeur par défaut est 0.10 (voir aussi les informations dans **Remarque**).
 
--    **height**   * valeur de la largeur de l\'engrenage conique.
+{{Properties_Title|involute}}
 
--    **module**   * module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarque**).
-
--    **numpoints**   * valeur par défaut est 6, modification du profil de développante. La modification de la valeur peut entraîner des résultats inattendus.
-
--    **reset_origin**   * si la valeur est **True**, le centre de l\'axe est au centre du bas de l\'engrenage (voir aussi les informations dans **Remarques**).
-
--    **teeth**   * nombre de dents.
+-    **pitch_angle|Angle**   * valeur par défaut à {{Value|45 °}}. Angle de cône.
 
 
 {{Properties_Title|involute_parameter}}
 
--    **pitch_angle**   * angle de dépouille.
+-    **pressure_angle|Angle**   * valeur par défaut à {{Value|20 °}} (voir [Remarques](#Remarques.md)).
 
--    **pressure_parameter**   * valeur par défaut est 20 (voir aussi les informations dans **Remarque**).
 
-### Vue
+{{Properties_Title|precision}}
 
-La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur de propriétés](Property_editor/fr.md) dans **Exemple de propriétés d'un objet PartDesign**.
+-    **numpoints|Integer**   * valeur par défaut à {{Value|6}}, Modification du profil de la développante. Changer la valeur peut conduire à des résultats inattendus.
+
+
+{{Properties_Title|tolerance}}
+
+-    **backlash|Length**   * valeur par défaut à {{Value|0}}. Le jeu, également appelé lash ou play, est la distance entre les dents d\'une paire d\'engrenages.
+
+-    **clearance|Float**   * valeur par défaut à {{Value|0.1}} (voir [Remarques](#Remarques.md)).
+
+
+{{Properties_Title|version}}
+
+-    **version|String**   *
 
 ## Remarques
 

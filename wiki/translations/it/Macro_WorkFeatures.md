@@ -349,7 +349,7 @@ Ad es. con il comando ****Spazio**** oppure selezionare l\'oggetto, fare clic de
 
 Dopo aver scaricato il file compresso
 
-ToolBar Icon ![](images/WF_wf.png )
+Icona barra strumenti ![](images/WF_wf.png )
 
 **[Download the latest version on GitHub](https   *//github.com/Rentlau/WorkFeature)** , è necessario decomprimerlo e copiare tutti i file nella directory delle macro di FreeCAD.
 
@@ -360,7 +360,7 @@ ToolBar Icon ![](images/WF_wf.png )
 
 <div class="mw-translate-fuzzy">
 
-Per installare facilmente la macro WorkFeatures e altre interessanti macro vedere   * [addons\_installer](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/addons_installer.FCMacro)
+Per installare facilmente la macro WorkFeatures e altre interessanti macro vedere   * [addons_installer](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/addons_installer.FCMacro)
 
 
 </div>
@@ -490,7 +490,7 @@ Image   *Concentric Constraint Between two non cylindrical parts.gif\|Come vinco
 
 <center>
 
-Image   *WorkFeature\_Rotation\_Object.gif\|Click the image for see the animation.
+Image   *WorkFeature_Rotation_Object.gif\|Click the image for see the animation.
 
 
 </center>
@@ -501,7 +501,7 @@ Image   *WorkFeature\_Rotation\_Object.gif\|Click the image for see the animatio
 
 <center>
 
-Image   *Macro\_Work\_Features\_PlaneFaceTangent.gif\|Click the image for see the animation.
+Image   *Macro_Work_Features_PlaneFaceTangent.gif\|Click the image for see the animation.
 Click the object, click the **Face tangent** button, click the point on face for create the plane.
 
 
@@ -512,7 +512,7 @@ Click the object, click the **Face tangent** button, click the point on face for
 
 ## Link
 
-La discussione nel forum [MACRO   *Work Feature 2014\_12](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=9056)
+La discussione nel forum [MACRO   *Work Feature 2014_12](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=9056)
 
 ## Ambienti aggiuntivi 
 
@@ -544,17 +544,17 @@ Data 2019-05-01 (YYYY-MM-DD)
 
 20/01/2019
 
-08/03/2015   * [WF\_2015\_03\_08](http   *//github.com/Rentlau/WorkFeature.git) - Circle cut added - Are Parallel, Are Perpendicular, Are Coplanar added
+08/03/2015   * [WF_2015_03_08](http   *//github.com/Rentlau/WorkFeature.git) - Circle cut added - Are Parallel, Are Perpendicular, Are Coplanar added
 
-17/02/2015    * [WF\_2015\_02\_17](https   *//github.com/Rentlau/WorkFeature.git) - Circle and Ellipse Tab added - Cutting tab added
+17/02/2015    * [WF_2015_02_17](https   *//github.com/Rentlau/WorkFeature.git) - Circle and Ellipse Tab added - Cutting tab added
 
-25/01/2015    * [WF\_2015\_01\_25.zip](http   *//forum.freecadweb.org/download/file.php?id=10937&sid=b770dec5362ae499adb4173547ef445f) add Object Cylinder Cube
+25/01/2015    * [WF_2015_01_25.zip](http   *//forum.freecadweb.org/download/file.php?id=10937&sid=b770dec5362ae499adb4173547ef445f) add Object Cylinder Cube
 
-18/01/2015    * [WF\_2015\_01\_18.tar.gz](http   *//forum.freecadweb.org/download/file.php?id=10799) add plane and face to view
+18/01/2015    * [WF_2015_01_18.tar.gz](http   *//forum.freecadweb.org/download/file.php?id=10799) add plane and face to view
 
-28/12/2014    * [WorkFeatures\_2014\_12\_28.zip](http   *//forum.freecadweb.org/download/file.php?id=10347)
+28/12/2014    * [WorkFeatures_2014_12_28.zip](http   *//forum.freecadweb.org/download/file.php?id=10347)
 
-27/12/2014    * [WF\_2014\_12\_27.zip](http   *//forum.freecadweb.org/download/file.php?id=10325)
+27/12/2014    * [WF_2014_12_27.zip](http   *//forum.freecadweb.org/download/file.php?id=10325)
 
 
  

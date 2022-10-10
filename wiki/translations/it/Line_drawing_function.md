@@ -1,35 +1,17 @@
 # Line drawing function/it
 {{TOCright}}
 
-## Introduction
+## Introduzione
 
+Questa pagina mostra come si possono facilmente creare delle funzionalità avanzate con Python.
 
-<div class="mw-translate-fuzzy">
-
-Questa pagina mostra come si possono facilmente costruire delle funzionalità avanzate con Python.
-
-In questo esercizio, costruiremo un nuovo strumento che disegna una linea partendo da due punti cliccati nella vista 3D.
+In questo esercizio, andremo a creare un nuovo strumento che disegna una linea partendo da due punti cliccati nella vista 3D.
 
 Questo strumento può essere collegato a un comando di FreeCAD, e tale comando può essere chiamato da un qualsiasi elemento dell\'interfaccia, ad esempio da una voce di menu o da un pulsante in una barra degli strumenti.
 
+## Lo script principale 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Lo script principale 
-
-Per prima cosa scriviamo uno script che contenga tutta la nostra funzionalità.
-
-Dopo, salviamo questo script in un file e lo importiamo in FreeCAD, in modo che tutte le classi e le funzioni che scriviamo diventino disponibili in FreeCAD.
-
-Lanciamo perciò il nostro editor di testo preferito, e digitiamo le seguenti righe   *
-
-
-</div>
-
-First we will write a script containing all our functionality. Then we will save this in a file and import it in FreeCAD to make all its classes and functions available. Launch your favorite code editor and type the following lines   *
+Per prima cosa scriviamo uno script che contenga tutta la nostra funzionalità. Dopo, salviamo questo script in un file e lo importiamo in FreeCAD, in modo che tutte le classi e le funzioni che scriviamo diventino disponibili in FreeCAD. Lanciamo perciò il nostro editor di testo preferito, e digitiamo le seguenti righe   *
 
 
 ```python
@@ -69,17 +51,7 @@ import Part, FreeCADGui
 from pivy.coin import *
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-In Python, quando si desidera utilizzare le funzioni di un altro modulo è necessario importarlo.
-
-Nel nostro caso, abbiamo bisogno delle funzioni del [Modulo Parte](Part_Workbench/it.md) per creare la linea, e del modulo Gui (FreeCADGui) per accedere alla visualizzazione 3D.
-
-Inoltre, abbiamo anche bisogno del contenuto completo della libreria di Coin, in modo da poter utilizzare direttamente tutti gli oggetti Coin, come, ad esempio, SoMouseButtonEvent, ecc ..
-
-
-</div>
+In Python, quando si desidera utilizzare le funzioni di un altro modulo è necessario importarlo. Nel nostro caso, abbiamo bisogno delle funzioni del [Ambiente Parte](Part_Workbench/it.md) per creare la linea, e del modulo Gui `FreeCADGui` per accedere alla [Vista 3D](3D_view/it.md). Inoltre, abbiamo anche bisogno del contenuto completo della libreria di Coin, in modo da poter utilizzare direttamente tutti gli oggetti Coin, come, ad esempio, `SoMouseButtonEvent`, ecc ..
 
 
 ```python
@@ -104,39 +76,21 @@ In Python, ogni classe o funzione può avere una stringa di documentazione (docs
 def __init__(self)   *
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Le classi di Python possono sempre contenere una funzione \_\_init\_\_, che viene eseguita quando la classe viene chiamata per creare un oggetto. Quindi, metteremo qui tutto quello che vogliamo che accada quando il nostro strumento line (linea) inizia.
-
-
-</div>
+Le classi di Python possono sempre contenere una funzione `__init__`, che viene eseguita quando la classe viene chiamata per creare un oggetto. Qui metteremo tutto quello che vogliamo che accada quando il nostro strumento line inizia.
 
 
 ```python
 self.view = FreeCADGui.ActiveDocument.ActiveView
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-In una classe, di solito si aggiunge *self.* prima di un nome di variabile, in modo che sia facilmente accessibile a tutte le funzioni dentro e fuori questa classe. In questo script, usiamo self.view per accedere e manipolare la vista 3D attiva.
-
-
-</div>
+In una classe, di solito si aggiunge `self.` prima di un nome di variabile, in modo che sia facilmente accessibile a tutte le funzioni dentro e fuori la classe. In questo script, usiamo `self.view` per accedere e manipolare la vista 3D attiva.
 
 
 ```python
 self.stack = []
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Qui creiamo una lista vuota per archiviare i punti 3D inviati dalla funzione getpoint.
-
-
-</div>
+Qui creiamo una lista vuota per archiviare i punti 3D inviati dalla funzione `getpoint()`.
 
 
 ```python
@@ -174,7 +128,7 @@ def getpoint(self, event_cb)   *
 
 <div class="mw-translate-fuzzy">
 
-Ora definiamo la funzione getpoint, che sarà eseguita quando un pulsante del mouse verrà premuto in una vista 3D. Questa funzione riceverà un argomento, che chiamiamo event\_cb.
+Ora definiamo la funzione getpoint, che sarà eseguita quando un pulsante del mouse verrà premuto in una vista 3D. Questa funzione riceverà un argomento, che chiamiamo event_cb.
 
 Da questo evento callback possiamo accedere all\'oggetto event, che contiene diverse parti di informazioni
 

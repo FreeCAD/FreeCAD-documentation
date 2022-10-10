@@ -77,9 +77,9 @@ Documentația dezvoltatorului a inclus următoarele secțiuni   *
 
 -   Înțelegerea codului sursă [The FreeCAD source code](The_FreeCAD_source_code.md)
 -   Adaugă caracteristici GUI [Features](Gui_Command.md) la FreeCAD sau Ateliere
--   [Branding](Branding.md) sau \'\'cum să-i dați un aspect unic la FreeCAD \'\'
+-   [Branding](Branding.md) sau *cum să-i dați un aspect unic la FreeCAD*
 -   [Artwork](Artwork.md) ce am făcut pentru FreeCAD ca să-l puteți reutiliza în mod liber
--   [Artwork\_Guidelines](Artwork_Guidelines.md) standarde pentru iconițe
+-   [Artwork_Guidelines](Artwork_Guidelines.md) standarde pentru iconițe
 -   [Translating FreeCAD](Localisation.md)
 -   [Extra python modules](Extra_python_modules.md), sau *cum să extindeți funcționalitatea Python în interiorul FreeCAD*
 -   [Google Summer of Code](Google_Summer_of_Code.md) implicați-vă prin intermediul programului Google de asistență pentru studenți
@@ -164,7 +164,7 @@ FreeCAD, deși utilizabilă în anumite domenii, este la începutul unei lungi d
 
 </div>
 
-[0.20 Development Cycle](0.20_Development_Cycle.md)
+[FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
 ## Community
 

@@ -22,9 +22,13 @@ Crée une contrainte FEM pour une condition de limite de température.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez les objets auxquels la contrainte doit être appliquée, qui peuvent être des sommets (coins), des arêtes ou des faces.
 3.  Entrez une température à appliquer aux objets.
 
+### Options
+
+Par défaut, la contrainte définit une température. En utilisant l\'option **Concentrated heat Flux**, un flux de chaleur à travers la surface de la face (Watt par surface de la face) peut être spécifié.
+
 ## Remarques
 
-1.  La contrainte utilise la carte \*BOUNDARY dans CalculiX. La contrainte temperature est expliquée à <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
+-   La contrainte de température utilise la carte \*BOUNDARY dans CalculiX. La contrainte de température est expliquée à l\'adresse <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>.
 
 
 

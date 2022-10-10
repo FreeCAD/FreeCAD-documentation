@@ -191,7 +191,7 @@ Esto se debe a que cuando extruimos una sola Cara, siempre obtenemos un Sólido.
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
-print(s.ShapeType)
+print(S.ShapeType)
 ```
 
 Lo que, por supuesto, nos dará una carcasa hueca, a la que le faltan las caras superior e inferior.

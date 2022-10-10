@@ -43,13 +43,7 @@ Il comando **Taglia la mesh** taglia intere facce da oggetti mesh.
            * annulla il comando.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

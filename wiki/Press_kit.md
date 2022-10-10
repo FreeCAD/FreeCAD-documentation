@@ -1,4 +1,6 @@
 # Press kit
+{{TOCright}}
+
 ## About
 
 FreeCAD Press/Media kit

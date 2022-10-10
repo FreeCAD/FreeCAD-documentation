@@ -1,24 +1,25 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *PartDesign Thickness
-   MenuLocation   *Part Design → Apply a dress-up feature → Thickness
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
+   Name/pl   *Projekt Części   * Grubość
+   MenuLocation   *Projekt Części → Zastosuj funkcję ulepszenia → Grubość
+   Workbenches   *[Projekt Części](PartDesign_Workbench/pl.md)
    Version   *0.17
-   SeeAlso   *[Part Thickness](Part_Thickness.md)
+   SeeAlso   *[Część   * Grubość](Part_Thickness/pl.md)
 ---
 
 # PartDesign Thickness/pl
 
-## Description
+## Opis
 
-The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **PartDesign Thickness** tool transforms a solid body into a hollow object with at least one open face, giving to each of its remaining faces a uniform thickness. It adds a **Thickness** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
+Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **Grubość** przekształca bryłę w pusty obiekt z przynajmniej jedną otwartą ścianą, nadając każdej z pozostałych ścian jednolitą grubość. Dodaje do dokumentu obiekt **Grubość** wraz z jego odpowiednią reprezentacją w [widoku drzewa](Tree_view/pl.md).
 
 <img alt="" src=images/PartDesign_Thickness_example.svg  style="width   *600px;"> 
-*Base solid (A) →  Solid with selected face to be opened (B) →  Resulting hollow object (C)*
+*Bryła bazowa ''(A)'' → Bryła z wybraną ścianą do otwarcia ''(B)'' → Powstały pusty obiekt ''(C)''.*
 
-## Usage
+## Użycie
 
-### Add a thickness 
+### Dodanie funkcji grubość 
 
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the Body to apply the Thickness to.
 2.  Select one or more faces of the Body.
@@ -40,7 +41,7 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **P
 2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-## Options
+## Opcje
 
 -    **Add face**   * Add faces to the selection by pressing the **Add face** button and selecting more faces.
 
@@ -84,25 +85,25 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **P
 
 -    **Make thickness inwards**   * When checked, faces are offset inward.
 
-## Notes
+## Uwagi
 
 -   If thickness goes inwards, the value must be smaller than the smallest height of the Body.
 -   The tool may fail with complex shapes. [Additive Pipe](PartDesign_AdditivePipe.md) or [Additive Loft](PartDesign_AdditiveLoft.md) may work better to create complex shapes.
 -   Known errors   *
-    -   BRep\_API   * command not done.
-    -   BRep\_Tool   * no parameter on edge.
+    -   BRep_API   * command not done.
+    -   BRep_Tool   * no parameter on edge.
     -   Silently fails.
 
-## Properties
+## Właściwości
 
-See also   * [Property editor](Property_editor.md).
+Zobacz również stronę   * [Edytor właściwości](Property_editor/pl.md).
 
-A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
+Obiekt Grubość wywodzi się z obiektu [Część   * Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości   *
 
-### Data
+### Dane
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Podstawowe}}
 
 -    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
 
@@ -116,12 +117,12 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 -    **_ Body|LinkHidden|hidden**   * Link to the parent body.
 
 
-{{Properties_Title|Part Design}}
+{{Properties_Title|Projekt Części}}
 
 -    **Refine|Bool**   * \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
-{{Properties_Title|Thickness}}
+{{Properties_Title|Grubość}}
 
 -    **Value|Length**   * \"Thickness value\". Default   * {{value|1 mm}}.
 

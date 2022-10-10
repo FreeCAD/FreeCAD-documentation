@@ -28,17 +28,11 @@ Basta selezionare i vertici e il risultato viene mostrato nel pannello Report. I
 
 ## Codice
 
-
-<div class="mw-translate-fuzzy">
-
 L\'ultima versione della macro si trova in [MeasureCircle.FCMacro](https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
-
-
-</div>
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 
-**Macro\_MeasureCircle.FCMacro**
+**Macro_MeasureCircle.FCMacro**
 
 
 

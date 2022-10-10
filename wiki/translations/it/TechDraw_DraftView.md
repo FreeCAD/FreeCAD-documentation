@@ -39,16 +39,6 @@ Lo strumento <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px
 
 </div>
 
-### Limitazioni
-
-
-<div class="mw-translate-fuzzy">
-
-Poiché la Vista di Draft è resa all\'interno del modulo [Draft](Draft_Workbench/it.md), TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare delle modifiche all\'interno di Draft per ottenere la rappresentazione desiderata.
-
-
-</div>
-
 ## Opzioni
 
 
@@ -64,6 +54,13 @@ Poiché la Vista di Draft è resa all\'interno del modulo [Draft](Draft_Workbenc
 </div>
 
 ## Proprietà
+
+See also [TechDraw View](TechDraw_View#Properties.md).
+
+### Data
+
+
+{{TitleProperty|Draft view}}
 
 
 <div class="mw-translate-fuzzy">
@@ -88,7 +85,15 @@ Poiché la Vista di Draft è resa all\'interno del modulo [Draft](Draft_Workbenc
 
 <div class="mw-translate-fuzzy">
 
-Nota   * Vista di Draft eredita tutte le proprietà della Vista di base applicabili.
+### Limitazioni
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Poiché la Vista di Draft è resa all\'interno del modulo [Draft](Draft_Workbench/it.md), TechDraw ha un controllo limitato sul suo aspetto. Potrebbe essere necessario apportare delle modifiche all\'interno di Draft per ottenere la rappresentazione desiderata.
 
 
 </div>

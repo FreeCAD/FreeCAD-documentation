@@ -12,15 +12,15 @@
 
 ## Description
 
-**Épaisseur de l\'élément de type coque** est utilisé pour définir l\'épaisseur d\'éléments FEM 2D, tous ou posés sur la surface choisie.
+**Épaisseur de l\'élément de type coque** est utilisé pour définir l\'épaisseur des éléments FEM 2D, tous ou se trouvant sur la surface choisie.
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons de lancer la commande   *
     -   Appuyez sur le bouton **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Épaisseur de l'élément de type coque](FEM_ElementGeometry2D/fr.md)**.
-    -   Sélectionnez l\'option **Modèle → Géométrie de l'élement → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Épaisseur de l'élément de type coque** dans le menu.
+    -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Épaisseur de l'élément de type coque** dans le menu.
 2.  Définissez un paramètre d\'épaisseur.
-3.  Si vous le souhaitez, appuyez sur le bouton **Ajouter** dans le panneau des tâches, puis cliquez sur la face pour laquelle vous souhaitez avoir une épaisseur prescrite. Si la sélection de faces est libre, toutes les faces restantes (dont l\'épaisseur n\'est pas définie par d\'autres [éléments de géométrie 2D](FEM_ElementGeometry2D/fr.md)) seront automatiquement affectées.
+3.  Si vous le souhaitez, appuyez sur le bouton **Ajouter** dans le panneau des tâches, puis cliquez sur la face à laquelle vous souhaitez attribuer une épaisseur prescrite. Si la sélection des faces est vide, toutes les faces restantes (dont l\'épaisseur n\'est pas définie par d\'autres objets [éléments de géométrie 2D](FEM_ElementGeometry2D/fr.md)) seront automatiquement assignées.
 
 ## Limitations
 
@@ -31,13 +31,13 @@
 
 **Thickness**
 
-   * Spécifie l\'épaisseur de l\'élément de type coque.
+   * spécifie l\'épaisseur de l\'élément de type coque.
 
 ## Script
 
 ## Remarques
 
-Pour afficher les résultats du solveur CalculiX sur le maillage développé à l\'épaisseur prescrite, la propriété `Beam Shell Result Output 3D` dans le [Solveur CalculiX](FEM_SolverCalculixCxxtools/fr.md) doit être définie sur `True`.
+Pour afficher les résultats du solveur CalculiX sur le maillage développé à l\'épaisseur prescrite, la propriété `Beam Shell Result Output 3D` dans le [Solveur CalculiX](FEM_SolverCalculixCxxtools/fr.md) doit être définie à `True`.
 
 
 

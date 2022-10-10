@@ -1,25 +1,26 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh EvaluateSolid
-   MenuLocation   *Meshes → Analyze → Check solid mesh
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes.md)
+   Name/pl   *Siatka   * Sprawdź siatkę bryły
+   MenuLocation   *Siatki → Analizuj → Sprawdź siatkę bryły
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Zaznacz siatki niebryłowe](Arch_SelectNonSolidMeshes/pl.md)
 ---
 
 # Mesh EvaluateSolid/pl
 
-## Description
+## Opis
 
-The **Mesh EvaluateSolid** command checks if a mesh object is solid. A solid mesh object does not have any holes.
+Polecenie **Sprawdź siatkę bryły** sprawdza, czy obiekt siatkowy jest jednolity. Jednolity obiekt siatkowy bryły nie ma żadnych otworów.
 
-## Usage
+## Użycie
 
-1.  Select a single mesh object.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_EvaluateSolid.svg" width=16px> [Mesh EvaluateSolid](Mesh_EvaluateSolid.md)** button.
-    -   Select the **Meshes → Analyze → <img src="images/Mesh_EvaluateSolid.svg" width=16px> Check solid mesh** option from the menu.
-3.  The **Solid Mesh** dialog box opens informing that the selected mesh object is solid or not.
-4.  Press the **OK** button to close the dialog box and finish the command.
+1.  Zaznacz pojedynczy obiekt siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_EvaluateSolid.svg" width=16px> [Sprawdź siatkę bryły](Mesh_EvaluateSolid/pl.md)**.
+    -   Wybierz opcję z menu **Siatki → Analizuj → <img src="images/Mesh_EvaluateSolid.svg" width=16px> Sprawdź siatkę bryły**.
+3.  Otworzy się okno dialogowe **Siatka bryły** informujące, że wybrany obiekt siatki jest ciągły lub nie.
+4.  Naciśnij przycisk **OK**, aby zamknąć okno dialogowe i zakończyć polecenie.
 
 
 

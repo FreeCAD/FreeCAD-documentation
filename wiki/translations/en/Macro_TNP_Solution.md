@@ -12,7 +12,7 @@
 
 ![](images/TNP_solution.gif )
 
-This is solution for Topological Naming Problem example described at the page   * [Topological Naming Problem](Topological_naming_problem.md)
+This is one solution for Topological Naming Problem example described at the page   * [Topological Naming Problem](Topological_naming_problem.md)
 
 If you build object at another object, and also with Sketch it is straightforward to solve, because you know two things   *
 

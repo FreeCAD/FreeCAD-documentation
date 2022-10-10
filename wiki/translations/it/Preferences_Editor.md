@@ -48,7 +48,7 @@ Nella scheda *Generale* si può specificare quanto segue   *
 | **Dimensione della lista dei file recenti**            |                                                                                                                                                                                                                                                                   |
 |                                                                 |                                                                                                                                                                                                                                                                   |
 +++
-|                                                     | Se selezionato, lo sfondo della finestra principale di FreeCAD sarà costituito per impostazione predefinita dai riquadri di questa immagine   * <img alt="" src=images/Background.png  style="width   *64px;">                                                                 |
+|                                                     | Se selezionato, lo sfondo della finestra principale di FreeCAD sarà costituito per impostazione predefinita dai riquadri di questa immagine   * <img alt="" src=images/Background.png  style="width   *64px;">                                                                     |
 | **Abilita lo sfondo a mosaico**                        |                                                                                                                                                                                                                                                                   |
 |                                                                 | Questa opzione ha effetto solo se non è selezionato alcun **Foglio di stile**.                                                                                                                                                          |
 |                                                                    |                                                                                                                                                                                                                                                                   |
@@ -105,7 +105,7 @@ Nella scheda *Generale* si può specificare quanto segue   *
 
 ### Documento
 
-Nella scheda \'\' Documento \'\' si può specificare quanto segue   *
+Nella scheda *Documento* si può specificare quanto segue   *
 
 +++
 | Nome                                                                                                   | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -331,7 +331,7 @@ Nella scheda *Console Python* ({{Version/it|0.20}}) puoi specificare quanto segu
 
 Queste preferenze controllano il comportamento della [Finestra dei Report](Report_view/it.md). Questo pannello può essere aperto utilizzando l\'opzione di menu **Visualizza → Panelli → Report**.
 
-Nella scheda \'\' Output \'\' è possibile specificare quanto segue   *
+Nella scheda *Output* è possibile specificare quanto segue   *
 
 +++
 | Nome                                                                             | Descrizione                                                                                                                                                                                             |
@@ -551,7 +551,7 @@ Nella scheda *Vista 3D* si può specificare quanto segue   *
 | **Usa OpenGL VBO (Vertex Buffer Object)**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 +++
-|                                                | \"Render Cache\" or \"Render Acceleration\" è spiegato più dettagliatamente in [FreeCAD\_assembly3 render-caching](https   *//github.com/realthunder/FreeCAD_assembly3/wiki/Link#render-caching). Le opzioni sono   *                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|                                                | \"Render Cache\" or \"Render Acceleration\" è spiegato più dettagliatamente in [FreeCAD_assembly3 render-caching](https   *//github.com/realthunder/FreeCAD_assembly3/wiki/Link#render-caching). Le opzioni sono   *                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Rendering accelerato**                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                            | -   **Auto**   * Lascia che Coin3D decida dove memorizzare nella cache (impostazione predefinita).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | {{Version/it|0.19}}                             | -   **Distribuita**   * Attiva manualmente la cache per tutti i nodi radice del provider di viste.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -662,6 +662,9 @@ Nella scheda *Navigazione* si può specificare quanto segue   *
 
 Nella scheda *Colori* si può specificare quanto segue   *
 
+
+<div class="mw-translate-fuzzy">
+
 +++
 | Nome                                                    | Descrizione                                                                                                                                                                                                                                       |
 +=========================================================+===================================================================================================================================================================================================================================================+
@@ -693,6 +696,9 @@ Nella scheda *Colori* si può specificare quanto segue   *
 | **Contenitore attivo**                      |                                                                                                                                                                                                                                                   |
 |                                                      |                                                                                                                                                                                                                                                   |
 +++
+
+
+</div>
 
 ![](images/Preferences_Display_Tab_Colors_it.png )
 

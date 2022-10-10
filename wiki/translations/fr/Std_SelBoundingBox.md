@@ -16,18 +16,18 @@ La commande **Std Boîte englobante** bascule le mode de surbrillance du cadre d
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons d\'appeler la commande    *
     -   Appuyez sur le bouton **<img src="images/Std_SelBoundingBox.svg" width=16px> [Boîte englobante](Std_SelBoundingBox/fr.md)**.
     -   Sélectionnez l\'option **Affichage → <img src="images/Std_SelBoundingBox.svg" width=16px> Boîte englobante** dans le menu.
 
 ## Préférences
 
-Le mode en question est stocké   * **Outils → Editer paramètres... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. Il s\'agit d\'une valeur booléenne, la valeur par défaut est `False`.
+Le mode en question est stocké    * **Outils → Éditer paramètres... → BaseApp → Preferences → View → ShowSelectionBoundingBox**. Il s\'agit d\'une valeur booléenne, la valeur par défaut est `False`.
 
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi    ***
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

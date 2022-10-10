@@ -38,13 +38,7 @@ Per disporre di questa vista usare l\'[editor dei parametri](Std_DlgParameter/it
 
 quindi aggiungere il parametro `Enabled` di tipo `Boolean`, e impostarlo su `True`.
 
-
-<div class="mw-translate-fuzzy">
-
-Quindi attivarlo, **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista DAG}}.
-
-
-</div>
+Riavvia FreeCAD e attiva la vista DAG   * **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista DAG}}.
 
 Nell\'[editor dei parametri](Std_DlgParameter/it.md) si possono anche modificare alcune proprietà nei seguenti sottogruppi
 

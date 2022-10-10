@@ -10,8 +10,7 @@ FreeCAD 0.17 został wydany 06 kwietnia, 2018, pobierz go z [GitHub](https   *//
 
 Starsze notatki dotyczące wydania FreeCAD można znaleźć w [informacjach o wydaniu](Feature_list/pl#Informacje_o_wydaniu.md).
 
-<img alt="" src=images/Release017_Title.jpg  style="width   *800px;"> 
-*Garden Railway Coach O&K (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http   *//forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
+<img alt="" src=images/Release017_Title.jpg  style="width   *800px;"> „Garden Railway Coach O&K *(autor FreeCAD-User „Garden Railway Coach O&K", patrz [Pokaz prac użytkownikó](http   *//forum.freecadweb.org/viewtopic.php?f=24&t=17261))*"
 
 ## Najważniejsze informacje 
 

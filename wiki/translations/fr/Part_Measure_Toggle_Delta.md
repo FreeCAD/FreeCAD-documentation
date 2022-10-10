@@ -4,21 +4,20 @@
    Name/fr   *Part Basculer Delta
    MenuLocation   *Mesure → Basculer Delta
    Workbenches   *[Part](Part_Workbench/fr.md)
+   SeeAlso   *[Part Tout basculer](Part_Measure_Toggle_All/fr.md), [Part Basculer 3D](Part_Measure_Toggle_3D/fr.md)
 ---
 
 # Part Measure Toggle Delta/fr
 
 ## Description
 
-## Description 
-
-Cet outil permet d\'activer la visibilité des différences de mesures (vertes).
+Cette commande permet d\'activer la visibilité des mesures delta dans la [vue 3D](3D_view/fr.md).
 
 ## Utilisation
 
-1.  Lancez la commande de plusieurs manières    *
-    -   Appuyez sur le bouton **[<img src=images/Part_Measure_Toggle_Delta.svg style="width   *16px"> '''Basculer Delta'''**.
-    -   Utilisez la **Mesure → Basculer Delta**
+1.  Il existe plusieurs façons de lancer la commande    *
+    -   Appuyez sur le bouton **<img src="images/Part_Measure_Toggle_Delta.svg" width=16px> [Basculer Delta](Part_Measure_Toggle_Delta/fr.md)**.
+    -   Sélectionnez l\'option **Mesure → <img src="images/Part_Measure_Toggle_Delta.svg" width=16px> Basculer Delta** dans le menu.
 
 
 

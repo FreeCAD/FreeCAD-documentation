@@ -8,6 +8,11 @@
 # Part Measure Toggle All/ro
 
 
+</div>
+
+## Description
+
+
 <div class="mw-translate-fuzzy">
 
 ### Comuntați modul de măsurare 
@@ -15,9 +20,9 @@
 
 </div>
 
-![](images/MeasureLinear3DandDelta1.PNG )
+<img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width   *400px;">
 
-## Utilizare
+## Usage
 
 
 <div class="mw-translate-fuzzy">

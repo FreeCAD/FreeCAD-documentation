@@ -38,7 +38,7 @@ L\'ambiente Path ha delle dipendenze esterne tra cui   *
 Alcune limitazioni attuali di cui dovreste essere consapevoli sono   *
 
 -   La maggior parte degli strumenti Path non sono veri strumenti 3D ma solo 2.5D. Questo significa che prendono una forma 2D fissa e possono tagliarla fino ad una data profondità. Tuttavia, ci sono due strumenti che producono veri percorsi 3D   * **<img src="images/Path_3DPocket.svg" width=24px> [Cavità 3D](Path_Pocket_3D/it.md)** and **<img src="images/Path_Surface.svg" width=24px> [Sfacciatura 3D](Path_Surface/it.md)** (La quale è ancora una [caratteristica sperimentale](Path_experimental/it.md) a partire da novembre 2020).
--   La maggior parte del banco di lavoro Path è progettato per una semplice fresa/router CNC standard a 3 assi (xyz), ma gli strumenti per il tornio sono in fase di sviluppo nella 0.19\_pre.
+-   La maggior parte del banco di lavoro Path è progettato per una semplice fresa/router CNC standard a 3 assi (xyz), ma gli strumenti per il tornio sono in fase di sviluppo nella 0.19_pre.
 -   La maggior parte delle operazioni in Path workbench restituirà percorsi basati solo su un utensile/bit standard, indipendentemente dal tipo di utensile/bit assegnato in un dato controllore di utensili, ad eccezione delle operazioni **<img src="images/Path_Engrave.svg" width=24px> [Incisione](Path_Engrave/it.md)** e **<img src="images/Path_Surface.svg" width=24px> [Sfacciatura 3D](Path_Surface/it.md)**.
 -   Le operazioni all\'interno del Path workbench non sono a conoscenza dei meccanismi di bloccaggio in uso per fissare il modello alla vostra macchina. Di conseguenza, si prega di rivedere e simulare i percorsi generati prima di inviare il codice alla macchina. Se necessario, modella i tuoi meccanismi di serraggio in FreeCAD per controllare meglio i percorsi generati. Cercate le possibili collisioni con i morsetti o altri ostacoli lungo i percorsi.
 
@@ -106,13 +106,7 @@ Alcuni comandi sono sperimentali e non disponibili per impostazione predefinita.
 
 -   <img alt="" src=images/Path_Profile.svg  style="width   *32px;"> [Profila](Path_Profile/it.md)   * Crea un\'operazione di profilo dell\'intero modello o da una o più facce o spigoli selezionati. {{Version/it|0.19}}
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Path_Pocket_Shape.svg  style="width   *32px;"> [Tasca](Path_Pocket_Shape/it.md)   * Crea un\'operazione di scavo da uno o più scavi selezionati.
-
-
-</div>
 
 -   <img alt="" src=images/Path_Drilling.svg  style="width   *32px;"> [Foratura](Path_Drilling/it.md)   * Esegue un ciclo di perforazione.
 
@@ -125,6 +119,8 @@ Alcuni comandi sono sperimentali e non disponibili per impostazione predefinita.
 -   <img alt="" src=images/Path_Slot.svg  style="width   *32px;"> [Scanalatura](Path_Slot/it.md)   * Crea un\'operazione di scanalatura da funzioni selezionate o punti personalizzati. [**Sperimentale**](Path_experimental/it.md). {{Version/it|0.19}}
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width   *32px;"> [Incisione](Path_Engrave/it.md)   * Crea un percorso di incisione.
+
+-   <img alt="" src=images/Path_Deburr.svg  style="width   *32px;"> [Sbavatura](Path_Deburr/it.md)   * Crea un percorso di sbavatura.
 
 -   <img alt="" src=images/Path_Vcarve.svg  style="width   *32px;"> [Incisione a V](Path_Vcarve/it.md)   * Crea un percorso di incisione utilizzando una forma dello strumento V. {{Version/it|0.19}}
 

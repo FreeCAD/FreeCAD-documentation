@@ -11,7 +11,7 @@ Si vous avez besoin d\'aide ou avez des questions relatives à une page particul
 
 ## Internet Relay Chat (IRC) 
 
-Il existe un forum de discussion IRC [IRC \#freecad chat room on Freenode](irc   *//chat.freenode.net/freecad). \#openFOAM-IRC est aussi sur Freenode.
+Il existe un forum de discussion IRC [IRC #freecad chat room on Freenode](irc   *//chat.freenode.net/freecad). #openFOAM-IRC est aussi sur Freenode.
 
 ## Reddit
 
@@ -19,7 +19,7 @@ Si vous êtes sur Reddit, vous pouvez utiliser [r/FreeCAD](https   *//www.reddit
 
 ## Telegram
 
-Si vous êtes sur Telegram, vous pouvez utiliser l\'adresse [t.me/FreeCAD\_FR](https   *//t.me/FreeCAD_EN).
+Si vous êtes sur Telegram, vous pouvez utiliser l\'adresse [t.me/FreeCAD_FR](https   *//t.me/FreeCAD_EN).
 
 ## Twitter et Mastodon 
 
@@ -32,7 +32,7 @@ Vous pouvez rejoindre le [groupe publique de FreeCAD Facebook](https   *//www.fa
 
 {{Userdocnavi/fr}}
 
-Nous avons un [serveur Discord officiel dédié à FreeCAD](https   *//discord.gg/NeZEBZn) avec une variété de canaux pour divers sous-thèmes. Il existe également plusieurs serveurs tiers avec des canaux de discussion liés à FreeCAD. Le serveur [Elmer FEM](https   *//discordapp.com/invite/NeZEBZn) a un canal pour pratiquement tous les outils de CAO, FAO et IAO, qu\'ils soient open source ou propriétaires, et il a un canal \"freecad\" assez bien établi. La grande variété de canaux et de communautés que ce serveur attire signifie qu\'il peut être utile pour discuter avec des personnes de communautés connexes. Le serveur [OpenFOAM](https   *//discordapp.com/invite/P9p9eHn) possède un canal \"freecad-salome-etc\", où vous pourriez trouver des personnes plus intéressées par le chevauchement entre FreeCAD et les outils de dynamique des fluides numériques comme OpenFOAM. Le serveur [Modelica Language](https   *//discordapp.com/invite/bp2yeYU) possède également un canal \"freecad\" si vous êtes intéressé par FreeCAD du point de vue de la modélisation multi-domaine. Cependant, veuillez ne pas utiliser les groupes de discussion comme principal moyen d\'échange de données. Ils ne sont pas indexés par les moteurs de recherche et les informations produites sur ces plateformes ne sont pas correctement accumulées, comme c\'est le cas sur les forums, les articles de blog ou les pages wiki.
+Nous avons un [serveur Discord officiel dédié à FreeCAD](https   *//discord.gg/uh85ZRNcfk) avec une variété de canaux pour divers sous-thèmes. Il existe également plusieurs serveurs tiers avec des canaux de discussion liés à FreeCAD. Le serveur [Elmer FEM](https   *//discordapp.com/invite/NeZEBZn) a un canal pour pratiquement tous les outils de CAO, FAO et IAO, qu\'ils soient open source ou propriétaires, et il a un canal \"freecad\" assez bien établi. La grande variété de canaux et de communautés que ce serveur attire signifie qu\'il peut être utile pour discuter avec des personnes de communautés connexes. Le serveur [OpenFOAM](https   *//discordapp.com/invite/P9p9eHn) possède un canal \"freecad-salome-etc\", où vous pourriez trouver des personnes plus intéressées par le chevauchement entre FreeCAD et les outils de dynamique des fluides numériques comme OpenFOAM. Le serveur [Modelica Language](https   *//discordapp.com/invite/bp2yeYU) possède également un canal \"freecad\" si vous êtes intéressé par FreeCAD du point de vue de la modélisation multi-domaine. Cependant, veuillez ne pas utiliser les groupes de discussion comme principal moyen d\'échange de données. Ils ne sont pas indexés par les moteurs de recherche et les informations produites sur ces plateformes ne sont pas correctement accumulées, comme c\'est le cas sur les forums, les articles de blog ou les pages wiki.
 
 
  

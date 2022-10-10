@@ -1,13 +1,4 @@
-# Start Workbench/es
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="El icono del Ambiente de trabajo Iniciar" src=images/Workbench_Start.svg  style="width   *128px;">
+# <img alt="El icono del Ambiente de trabajo Iniciar" src=images/Workbench_Start.svg  style="width   *64px;"> Start Workbench/es
 
 El <img alt="" src=images/Workbench_Start.svg  style="width   *24px;"> [Inicio del ambiente de trabajo](Start_Workbench/es.md) no es realmente un ambiente de trabajo, es sólo la página que se presenta cuando abres FreeCAD sin ningún documento cargado.
 
@@ -20,13 +11,7 @@ Desde esta interfaz puedes ver información útil y saltar a los archivos abiert
 <img alt="Ambiente de trabajo Inicie, ficha de actividad" src=images/FreeCad_Start_0.18_activity.png  style="width   *500px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

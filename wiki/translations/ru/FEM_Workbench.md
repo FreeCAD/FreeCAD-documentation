@@ -5,11 +5,14 @@
 
 ## Введение
 
-[Верстак FEM](FEM_Workbench/ru.md) предоставляет современный набор инструментов для анализа [Методом Конечных Элементов](https   *//en.wikipedia.org/wiki/Метод_конечных_элементов) (finite element analysis, FEA) в FreeCAD. В основном это означает, что все инструменты для проведения анализа объединены в один графический интерфейс пользователя (GUI).
+[Верстак FEM](FEM_Workbench/ru.md) предоставляет современный набор инструментов для анализа [Методом Конечных Элементов](https   *//ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D1%85_%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2) (finite element analysis, FEA) в FreeCAD. В основном это означает, что все инструменты для проведения анализа объединены в один графический интерфейс пользователя (GUI).
 
 <img alt="" src=images/FemWorkbench.jpg  style="width   *300px;">
 
 ## Рабочий процесс 
+
+
+<div class="mw-translate-fuzzy">
 
 Шаги которые необходимо сделать для выполнению анализа методом конечных элементов   *
 
@@ -22,13 +25,16 @@
 2.  Решение   * запуск внешнего решателя из FreeCAD.
 3.  Постобработка   * визуализация результатов анализа из FreeCAD или экспорт результатов для их последующей обработки в другом приложении.
 
-В версиях 0.15 и 0,16 FreeCAD верстак FEM может использоваться на Linux, Windows и Mac OSX. Поскольку в рабочей среде используются внешние решатели, объем ручной настройки будет зависеть от используемой вами операционной системы. См. [Установка FEM](FEM_Install/ru.md) для получения инструкций по настройке внешних инструментов.
 
-<img alt="" src=images/FEM_Workbench_workflow_ru.svg  style="width   *600px;">
+</div>
+
+Верстак FEM можно использовать в Linux, Windows и Mac OSX. Поскольку данный верстак использует внешние решатели, количество требуемых дополнительных настрлек будет зависеть от используемой вами операционной системы. Инструкции по настройке внешних инструментов смотрите в разделе [Установка FEM](FEM_Install/ru.md).
+
+<img alt="" src=images/FEM_Workbench_workflow.svg  style="width   *600px;">
 
 
 
-*Рабочий процесс FEM Workbench; верстак вызывает две внешние программы для создания сетки твердого объекта и выполнения фактического решения задачи конечных элементов*
+*Рабочий процесс в верстаке FEM ; Верстак обращается к двум внешними программам, к первой для создания сетки твердого объекта и ко второй для выполнения фактического решения задачи методом конечных элементов*
 
 ## Меню   * Модель 
 
@@ -36,21 +42,15 @@
 
 ### Материалы
 
--   <img alt="" src=images/FEM_MaterialSolid.svg  style="width   *32px;"> [Material for solid](FEM_MaterialSolid/ru.md)   * Выберите материал из базы данных.
+-   <img alt="" src=images/FEM_MaterialSolid.svg  style="width   *32px;"> [Твердотельный материал](FEM_MaterialSolid/ru.md)   * Позволяет выбрать твердый материал из базы данных.
 
--   <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *32px;"> [Material for fluid](FEM_MaterialFluid/ru.md)   * Выберите материал из базы данных.
+-   <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *32px;"> [Текучий материал](FEM_MaterialFluid/ru.md)   * Позволяет выбрать текучий материал из базы данных.
 
--   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width   *32px;"> [Nonlinear mechanical material](FEM_MaterialMechanicalNonlinear/ru.md)   * Выберите материал из базы данных.
+-   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width   *32px;"> [Нелинейный механический материал](FEM_MaterialMechanicalNonlinear/ru.md)   * Позволяет добавить нелинейную механическую модель материала.
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width   *32px;"> [Армированный материал (бетон)](FEM_MaterialReinforced/ru.md)   * Позволяет выбрать из базы данных армированные материалы, состоящие из матрицы и армирования.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Material editor](FEM_MaterialEditor/ru.md)   * Позволяет открыть редактор для редактирования материалов.
-
-
-</div>
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Material editor](FEM_MaterialEditor/ru.md)   * Открыть редактор материалов для их редактирования.
 
 ### Геометрия элемента 
 
@@ -58,7 +58,7 @@
 
 -   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width   *32px;"> [Вращение балки](FEM_ElementRotation1D/ru.md)   * Создает условие поворота балки для МКЭ.
 
--   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width   *32px;"> [Толщины листа кровельного материала](FEM_ElementGeometry2D/ru.md)   * Создает Условие толщины пластины кровельного материала для расчета МКЭ.
+-   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width   *32px;"> [Толщина листа материала](FEM_ElementGeometry2D/ru.md)   * Создает условие толщины листа материала.
 
 
 <div class="mw-translate-fuzzy">
@@ -80,9 +80,17 @@
 
 ### Жидкостные ограничения 
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity/ru.md)   * Используется для определения начальной скорости потока в области.
 
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width   *32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity/ru.md)   * Используется для задания скорости потока как граничного условия на кромке (2D) или грани (3D).
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Начальное условие скорости потока](FEM_ConstraintInitialFlowVelocity/ru.md)   * Применяется для определения начальной скорости потока в области.
+
+
+</div>
+
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md)   * Used to define an initial pressure for the body. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width   *32px;"> [Граничное условие скорости потока](FEM_ConstraintFlowVelocity/ru.md)   * Применяется для задания скорости потока как граничного условия на ребре (2D) или грани (3D).
 
 ### Геометрические Ограничения 
 
@@ -102,7 +110,7 @@
 
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width   *32px;"> [Constraint fixed](FEM_ConstraintFixed/ru.md)   * Используется для определения ограничения с фиксацией точки/грани/поверхности.
 
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width   *32px;"> [Constraint displacement](FEM_ConstraintDisplacement/ru.md)   * Используется для определения ограничений смещения для точки/грани/поверхности.
+-   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width   *32px;"> [Ограничение перемещения](FEM_ConstraintDisplacement/ru.md)   * Используется для определения ограничений смещения для точки/грани/поверхности.
 
 -   <img alt="" src=images/FEM_ConstraintContact.svg  style="width   *32px;"> [Constraint contact](FEM_ConstraintContact/ru.md)   * Используется для определения контактного ограничения между двумя поверхностями.
 
@@ -146,7 +154,13 @@
 
 ### Overwrite Constants 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity/ru.md)   * Creates a FEM constant vacuum permittivity to overwrite standard value.
+
+
+</div>
 
 ## Меню   * Сетка 
 
@@ -192,7 +206,7 @@ Translations   *FEM Module/141/ru
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer/ru.md)   * Создает контроллер решателя для Элмера. Он не зависит от других объектов решателя.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width   *32px;"> [Solver Mystran](FEM_SolverMystran.md)   * <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width   *32px;"> [Решатель Mystran](FEM_SolverMystran/ru.md)   * {{Version/ru|0.20}}
 
 
 <div class="mw-translate-fuzzy">
@@ -202,17 +216,53 @@ Translations   *FEM Module/141/ru
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Уравнение гибкости](FEM_EquationElasticity/ru.md)   * Создает уравнение для расчета упругости МКЭ.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Electricforce equation](FEM_EquationElectricforce/ru.md)   * Creates a FEM equation for electric forces.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Электростатические уравнение](FEM_EquationElectrostatic/ru.md)   * Создает уравнение для расчета электростатики МКЭ.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Уравнение потока](FEM_EquationFlow/ru.md)   * Создает уравнение МКЭ для потока вещества.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Flux equation](FEM_EquationFlux/ru.md)   * Creates a FEM equation for flux.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Heat equation](FEM_EquationHeat/ru.md)   * Creates a FEM equation for heat.
+
+
+</div>
 
 -   <img alt="" src=images/FEM_SolverControl.svg  style="width   *32px;"> [Solver job control](FEM_SolverControl/ru.md)   * Открывает меню для настройки и запуска выбранного решателя.
 
@@ -248,13 +298,7 @@ Translations   *FEM Module/141/ru
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width   *32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/ru.md)   *
-
-
-</div>
+-   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width   *32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/ru.md)   * Применяется для обрезки поля с заданным скалярным значением.
 
 
 <div class="mw-translate-fuzzy">
@@ -272,21 +316,9 @@ Translations   *FEM Module/141/ru
 
 </div>
 
+-   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width   *32px;"> [Line clip filter](FEM_PostFilterDataAlongLine/ru.md)   * Применяется для построения цветовой диаграммы вдоль указанной линии.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width   *32px;"> [Line clip filter](FEM_PostFilterDataAlongLine/ru.md)   *
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width   *32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses/ru.md)   *
-
-
-</div>
+-   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width   *32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses/ru.md)   * Создает график линеаризации напряжений.
 
 
 <div class="mw-translate-fuzzy">
@@ -299,12 +331,14 @@ Translations   *FEM Module/141/ru
 
 <div class="mw-translate-fuzzy">
 
--   [Filter functions](FEM_PostCreateFunctions/ru.md)   *
-    -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;">
-    -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;">
+-   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter functions](FEM_PostCreateFunctions/ru.md)   * Used to define how the result mesh is cut for the [Function cut filter](FEM_PostFilterCutFunction/ru.md) and [Region clip filter](FEM_PostFilterClipRegion/ru.md).
 
 
 </div>
+
+   ** <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md)   * Defines that the result mesh is cut with a plane.
+
+   ** <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md)   * Defines that the result mesh is cut with a sphere.
 
 ## Меню   * Утилиты 
 
@@ -350,31 +384,41 @@ Translations   *FEM Module/141/ru
 
 [FEM Concrete](FEM_Concrete/ru.md)   * интересная информация по теме моделирования бетонных конструкций.
 
-## Tutorials
+## Учебные материалы для самостоятельного изучения 
+
+Пример 1   * [Анализ деформации консольной балки (CalculiX)](FEM_CalculiX_Cantilever_3D/ru.md), простейший анализ деформации консольной балки под воздействием нагрузки.
+
+Пример 2   * [Учебник по МКЭ](FEM_tutorial/ru.md), простой анализ натяжения конструкции.
+
+Пример 3   * [FEM Tutorial Python](FEM_Tutorial_Python/ru.md), настроить пример консоли только с помощью скриптов на Python, включая сетку.
+
+Пример 4   * [Анализ деформации композитного блока](FEM_Shear_of_a_Composite_Block/ru.md); анализ деформации композитного блока, состоящего из двух материалов.
 
 
 <div class="mw-translate-fuzzy">
 
-## Учебники
-
-Учебник 1   * [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/ru.md), базовый анализ балки с простой опорой.
+Пример 5   * [Переходный анализ методом конечных элементов](Transient_FEM_analysis/ru.md)
 
 
 </div>
 
-Учебник 2   * [Учебник по МКЭ](FEM_tutorial/ru.md), простой анализ натяжения конструкции.
 
-Учебник 3   * [FEM Tutorial Python](FEM_Tutorial_Python/ru.md), настроить пример консоли только с помощью скриптов на Python, включая сетку.
+<div class="mw-translate-fuzzy">
 
-Учебник 4   * [FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block/ru.md); увидеть деформацию блока, состоящего из двух материалов.
+Пример 6   * [Постобработка результатов МКЭ с помощью Paraview](Post-Processing_of_FEM_Results_with_Paraview/ru.md)
 
-Учебник 5   * [Переходный анализ методом конечных элементов](Transient_FEM_analysis/ru.md)
 
-Учебник 6   * [Постобработка результатов МКЭ с помощью Paraview](Post-Processing_of_FEM_Results_with_Paraview/ru.md)
+</div>
 
-Учебник 7   * [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls/ru.md), Учебное пособие по графическому интерфейсу Элмера 6 «Электростатическая емкость двух шариков» с использованием примеров МКЭ.
 
-Набор учебников по термомеханическому анализу от [openSIM](https   *//opensimsa.github.io/training.html)
+<div class="mw-translate-fuzzy">
+
+Пример 7   * [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls/ru.md), Учебное пособие по графическому интерфейсу Элмера 6 «Электростатическая емкость двух шариков» с использованием примеров МКЭ.
+
+
+</div>
+
+Набор руководств по термомеханическому анализу от [openSIM](https   *//opensimsa.github.io/training.html)
 
 Video tutorial 1   * [FEM video for beginner](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499#p158353) (including YouTube link)
 
@@ -382,11 +426,17 @@ Video tutorial 2   * [FEM video for beginner](https   *//forum.freecadweb.org/vi
 
 Many video tutorials   * [anisim Open Source Engineering Software](https   *//www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (in German)
 
-## Расширение верстака FEM 
+## Развитие верстака FEM 
 
 Верстак FEM находится в постоянном развитии. Цель проекта - найти способы простого взаимодействия с различными решателями МКЭ, чтобы конечный пользователь мог упростить процесс создания, построения сетки, моделирования и оптимизации задачи инженерного проектирования, и все это внутри FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 Дальнейшая информация предназначена для опытных пользователей и разработчиков, которые хотят расширить верстак FEM. Ожидается знакомство с C ++ и Python, а также необходимы некоторые знания о системе «объект документа», используемой в FreeCAD; эта информация доступна в [Центре опытных пользователей](Power_users_hub/ru.md) и [Центре разработчиков](Developer_hub/ru.md). Обратите внимание   * поскольку FreeCAD находится в активной разработке, некоторые статьи могут быть слишком старыми и, следовательно, устаревшими. Самая последняя информация обсуждается на [форумах FreeCAD](https   *//forum.freecadweb.org/index.php) в разделе «Разработка». Для обсуждения FEM, советов или помощи в расширении верстака читателю следует обратиться к [подфоруму FEM](https   *//forum.freecadweb.org/viewforum.php?f=18).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -405,7 +455,7 @@ Many video tutorials   * [anisim Open Source Engineering Software](https   *//ww
 -   [Early preview of ebook   * Module developer\' guide to FreeCAD source](https   *//forum.freecadweb.org/viewtopic.php?t=17581) (тема форума)
 -   [FreeCAD Mod Dev Guide](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) (хранилище github)
 
-## Расшириенная информация о Верстаке FEM 
+## Дополнительная документация к Верстаку FEM 
 
 -   More information regarding extending or missing FEM documentation can be found in the forum   * [FEM documentation missing on the Wiki](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 

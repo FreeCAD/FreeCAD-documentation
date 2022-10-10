@@ -11,6 +11,9 @@
 
 # FCGear TimingGear/it
 
+
+</div>
+
 ## Description
 
 
@@ -30,52 +33,48 @@ Gli ingranaggi di distribuzione sono collegati a una cinghia o catena di distrib
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Invoke the command several way   *
-    -   Press the <img alt="" src=images/FCGear_TimingGear.svg  style="width   *22px;"> [Create a Timing gear](FCGear_TimingGear.md) button in the tool bar.
-    -   Using the **Gear Menu → Timing gear**.
-3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
+1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [FCGear Workbench](FCGear_Workbench.md).
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/FCGear_TimingGear.svg style="width   *16px"> [Timing Gear](FCGear_TimingGear.md)** button in the toolbar.
+    -   Select the **Gear → [<img src=images/FCGear_TimingGear.svg style="width   *16px"> Timing Gear** option from the menu.
+3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
 ## Properties
+
+An FCGear TimingGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|base}}
 
--    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
+-    **height|Length**   * Default is {{Value|5 mm}}. Value of the gear width.
 
--    **Label**   * User name of the object in the [Tree view](Tree_view.md).
+-    **teeth|Integer**   * Default is {{Value|15}}. Number of teeth.
+
+-    **type|Enumeration**   * Default is {{Value|gt2}}. Type of timing gear -- profile pitch for timing belts (see [Notes](#Notes.md)).
 
 
 {{Properties_Title|computed}}
 
--    **h**   * Radial height of teeth (not changeable, is calculated automatically).
+-    **h|Length**   * (read-only) Radial height of teeth.
 
--    **offset**   * X-Offset of second arc mid-point (not changeable, is calculated automatically).
+-    **offset|Length**   * (read-only) X-Offset of second arc mid-point.
 
--    **pitch**   * Pitch of gear (not changeable, is calculated automatically).
+-    **pitch|Length**   * (read-only) Pitch of gear.
 
--    **r0**   * Radius of first arc (not changeable, is calculated automatically).
+-    **r0|Length**   * (read-only) Radius of first arc.
 
--    **r1**   * Radius of second arc (not changeable, is calculated automatically).
+-    **r1|Length**   * (read-only) Radius of second arc.
 
--    **rs**   * Radius of third arc (not changeable, is calculated automatically).
+-    **rs|Length**   * (read-only) Radius of third arc.
 
--    **u**   * Radial difference between pitch ... diameter and head of gear (not changeable, is calculated automatically).
+-    **u|Length**   * (read-only) Radial difference between pitch ... diameter and head of gear.
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|version}}
 
--    **height**   * Default is 5,00 mm. Value of the gear width.
-
--    **teeth**   * Default is 20. Number of teeth.
-
--    **type**   * Default is gt2. Type of timing gear -- profile pitch for timing belts (see also the information in **Notes**).
-
-### View
-
-The parameter descriptions of the **View** tab will be found in [Property editor](Property_editor.md), further below at **Example of the properties of a PartDesign object**.
+-    **version|String**   *
 
 ## Notes
 

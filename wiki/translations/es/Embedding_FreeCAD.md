@@ -30,7 +30,9 @@ Una primera, directa, fácil y útil aplicación que puedes hacer de esto es par
 
 {{Code|lang=python|code=
 <nowiki>
-FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
+FREECADPATH = '/usr/lib/freecad-python3/lib/' # path to your FreeCAD.so or FreeCAD.pyd file,
+# for Windows you must either use \\ or / in the path, using a single \ is problematic
+# FREECADPATH = 'C   *FreeCAD\\bin'
 import Blender, sys
 sys.path.append(FREECADPATH)
  
@@ -77,8 +79,8 @@ La primera parte, importante, es estar seguro de que Python encontrará nuestra 
 
 
 {{Code|lang=python|code=
-FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
-import Blender, sys
+FREECADPATH = 'C   *FreeCAD\\bin' # path to your FreeCAD.so or FreeCAD.pyd file
+import sys
 sys.path.append(FREECADPATH)
 }}
 

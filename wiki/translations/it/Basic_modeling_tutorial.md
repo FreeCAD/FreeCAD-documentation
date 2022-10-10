@@ -27,23 +27,17 @@ La seconda tecnica usa strumenti più avanzati. Si inizia disegnando un profilo 
 
 Qui iniziamo cercando di fare una barra di profilato angolare, adatto ad esempio per un tavolo, con questi 2 metodi.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Primo Metodo - Geometria costruttiva dei solidi 
 
 1.  Cominciare con il [Modulo Parte](Part_Workbench/it.md) ![](images/Switch_PartWorkbench.JPG ) (Menu **Visualizza -\> Ambiente -\> Parte**)
-2.  Se non c\'è un nuovo documento di FreeCAD aperto (la maggior parte della finestra di FreeCAD è grigia), dal menu a discesa fare clic su **File → Nuovo** o fare clic sull\'icona <img alt="" src=images/Document-new.png  style="width   *32px;"> **Crea un nuovo documento vuoto**.
+2.  Se non c\'è un nuovo documento di FreeCAD aperto (la maggior parte della finestra di FreeCAD è grigia), dal menu a discesa fare clic su **File → Nuovo** o fare clic sull\'icona <img alt="" src=images/Std_New.svg  style="width   *32px;"> **Crea un nuovo documento vuoto**.
 3.  Cliccare sul pulsante <img alt="" src=images/Part_Box.svg  style="width   *32px;"> [Cubo](Part_Box/it.md) per creare un Cubo (Parallelepipedo)
 4.  Selezionarlo nello spazio 3D, o cliccare sull\'oggetto nella scheda *Progetto* a sinistra, poi, per modificare le sue dimensioni,
 5.  Fare clic sulla scheda *Dati* nella parte inferiore, e fissare i valori di lunghezza, larghezza e altezza a 50 mm, 50 mm e 750 mm. *(vedere fig. 1.1)* **Notare**   * *quando sono state scattate queste immagini, le proprietà erano ordinate in modo diverso, con l\'altezza al primo posto*.
 6.  Ora il parallelepipedo riempie la maggior parte della vista 3D. Cliccare su <img alt="" src=images/Std_ViewFitAll.svg  style="width   *32px;"> [Adatta la vista](Std_ViewFitAll/it.md) per adattare la vista al solido appena creata.
 7.  Creare una seconda scatola allo stesso modo, ma con valori L=40, W=40 e H=750 mm. Per impostazione predefinita questa seconda scatola viene sovrapposta alla prima. *(vedere fig. 1.2)*
-8.  Ora è possibile sottrarre il secondo solido dal primo. Selezionare per prima la prima forma (denominata Box), poi selezionare la seconda (denominata Box001), l\'ordine di selezione è importante! (Verificare nell\'albero del progetto che entrambe le forme siano selezionate. **Ricordare** che in modalità di navigazione Inventor, il comando **Ctrl** + click non esegue la selezione multipla, eventualmente [Passare](Mouse_Model/it.md) alla modalità CAD o Blender).
+8.  Ora è possibile sottrarre il secondo solido dal primo. Selezionare per prima la prima forma (denominata Box), poi selezionare la seconda (denominata Box001), l\'ordine di selezione è importante! (Verificare nell\'albero del progetto che entrambe le forme siano selezionate. **Ricordare** che in modalità di navigazione Inventor, il comando **Ctrl** + click non esegue la selezione multipla. Eventualmente [Passare](Mouse_navigation/it.md) alla modalità CAD o Blender).
 9.  Nella barra degli strumenti dell\'ambiente Parte, fare clic sul pulsante<img alt="" src=images/Part_Cut.svg  style="width   *32px;"> [Taglia](Part_Cut/it.md).
-
-
-</div>
 
 ![Fig. 1.1 Il primo solido](images/Tutorial-normand01.jpg )
 
@@ -66,17 +60,11 @@ Infine, possiamo arrotondare gli spigoli dell\'angolare per renderlo più realis
 
 ![Fig. 1.6 Gli spigoli arrotondati](images/Tutorial-normand06.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 ## Secondo metodo - Estrusione di un profilo 
 
 Con questo metodo si inizia disegnando un profilo 2D. È necessario attivare l\'ambiente di lavoro [Disegno 2D o Draft](Draft_Workbench/it.md) (menu **Visualizza -\> Ambiente -\> Draft**) ![](images/Switch_DraftWorkbench.JPG ).
 
--   Se non c\'è un nuovo documento di FreeCAD aperto (la maggior parte della finestra FreeCAD è grigia), dal menu a discesa fare clic su File → Nuovo o fare clic sull\'icona <img alt="" src=images/Document-new.png  style="width   *32px;"> **Crea un nuovo documento vuoto**.
-
-
-</div>
+-   Se non c\'è un nuovo documento di FreeCAD aperto (la maggior parte della finestra FreeCAD è grigia), dal menu a discesa fare clic su File → Nuovo o fare clic sull\'icona <img alt="" src=images/Std_New.svg  style="width   *32px;"> **Crea un nuovo documento vuoto**.
 
 ### Impostare il piano di lavoro 
 
@@ -87,7 +75,7 @@ Per prima cosa bisogna definire su quale [piano di lavoro](Draft_SelectPlane/it.
        *   ![](images/DraftPlaneAuto.png )
 2.  Premere il pulsante **Auto** (potrebbe essere etichettato \"None\").
 3.  A seconda delle preferenze di Draft, questo espande una finestra di dialogo **Seleziona piano** nel pannello laterale delle Azioni o una barra orizzontale con l\'etichetta \"comando attivo   * **Seleziona piano**\". Vedere le [Note sul pulsante di selezione del piano di Draft](#Note_sul_pulsante_di_selezione_del_piano_di_Draft.md) per vedere le schermate che mostrano le due modalità espanse.
-4.  Lasciare il campo \'\' Offset \'\' al valore zero.
+4.  Lasciare il campo *Offset* al valore zero.
 5.  Premere il pulsante **XY** per impostare il piano di lavoro su XY. Questo chiude il pannello Azioni o i pulsanti espansi. Ora il pulsante \"Auto\" è contrassegnato come \"Top\" per mostrare che questo è il piano attivo.
 
 ### Disegnare il profilo 

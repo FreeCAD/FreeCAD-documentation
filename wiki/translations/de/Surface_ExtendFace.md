@@ -1,8 +1,9 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *Surface ExtendFace
+   Name/de   *Surface FlächeErweitern
    MenuLocation   *Surface → Extend face
-   Workbenches   *[Surface](Surface_Workbench.md)
+   Workbenches   *[Surface](Surface_Workbench/de.md)
    Version   *0.17
 ---
 
@@ -11,15 +12,15 @@
 ## Beschreibung
 
 
-**[<img src=images/Surface_ExtendFace.svg style="width   *16px"> [Surface ExtendFace](Surface_ExtendFace.md)**
+**[<img src=images/Surface_ExtendFace.svg style="width   *16px"> [Surface FlächeErweitern](Surface_ExtendFace/de.md)**
 
-extrapolates an existing face or surface at its boundaries with its local U and V parameters.
+extrapoliert eine vorhandene Fläche oder Oberfläche an ihren Rändern mit ihren lokalen U- und V-Parametern.
 
 <img alt="" src=images/Surface_ExtendFace_base_example.png  style="width   *300px;"> <img alt="" src=images/Surface_ExtendFace_example.png  style="width   *300px;">
 
 
 
-*Left   * original face. Right   * extended face.*
+*Links   * Original Fläche. Rechts   * Erweiterte Fläche.*
 
 ## Anwendung
 
@@ -29,7 +30,7 @@ extrapolates an existing face or surface at its boundaries with its local U and 
 
 ## Optionen
 
-This command doesn\'t have any options. Either it works with the selection or not.
+Dieser Befehl besitzt keine Optionen. Entweder funktioniert er mit der Auswahl oder nicht.
 
 ## Eigenschaften
 

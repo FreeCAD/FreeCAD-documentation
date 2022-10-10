@@ -39,7 +39,7 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 
 </div>
 
-![Interface Rotate to point](images/Macro_Rotate_To_Point_00.png ) 
+![Interface Rotate to point](images/Macro_Rotate_To_Point_00.png )
 
 ### Point Rotation 
 
@@ -78,6 +78,9 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 
 ### Data
 
+
+<div class="mw-translate-fuzzy">
+
 -   Finestra per la visualizzazione delle coordinate memorizzate
 
 -    **Save**   * salva i dati nel file
@@ -108,6 +111,9 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
     -   Modalità normale {{CheckBox|Memo on Click}}   * i dati non vengono salvati sulla finestra, è necessario premere il pulsante **Memo (2)** per salvare le coordinate
     -   Modalità Memo on Click {{CheckBox|TRUE|Memo on Demand}}   * i dati vengono salvati automaticamente facendo clic sul pulsante **Apply**
 
+
+</div>
+
 ### Command
 
 
@@ -126,9 +132,21 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 
 ## Script
 
-ToolBar Icon PNG ![](images/Macro_Rotate_To_Point.png ) SVG ![](images/Macro_Rotate_To_Point.svg )
 
-**Macro\_Rotate\_To\_Point.FCMacro**
+<div class="mw-translate-fuzzy">
+
+## Script 
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+Details of the script **Macro_Rotate_To_Point.FCMacro**
+
+
+<div class="mw-collapsible-content">
 
 
 {{MacroCode|code=
@@ -2964,6 +2982,12 @@ if __name__ == "__main__"   *
 }}
 
 
+</div>
+
+
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
 ## Esempi
@@ -2973,9 +2997,15 @@ if __name__ == "__main__"   *
 
 ![](images/Macro_Rotate_To_Point_01.gif )
 
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
 ## Link
 
-The forum [feature req   * placement - rotate part around its midpoint](http   *//forum.freecadweb.org/viewtopic.php?f=8&t=20925)
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

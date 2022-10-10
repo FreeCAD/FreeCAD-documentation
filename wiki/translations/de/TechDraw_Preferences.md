@@ -54,7 +54,7 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 -   **Seitenmaßstab**   * Standardmaßstab für neue Zeichnungen.
 -   **Anzeige Maßstabstyp**   * Standardmaßstab für neue Ansichten.
--   \'\'\'Anzeige Benutzerdefinierter Maßstab \'\'\'   * Standardmaßstab für Ansichten, wenn **Anzeige Maßstabstyp** *Benutzerdefiniert* ist.
+-   **Anzeige Benutzerdefinierter Maßstab**   * Standardmaßstab für Ansichten, wenn **Anzeige Maßstabstyp** *Benutzerdefiniert* ist.
 
 ### Größenanpassungen
 
@@ -66,9 +66,6 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 ## Bemaßungen
 
 <img alt="Bemaßungseinstellungen" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
-
-
-<div class="mw-translate-fuzzy">
 
 -   **Normbasis und Ausführung von Maßeinträgen**   * Der Standard, der für Maßzahlen zu verwenden ist. Die Unterschiede zwischen den Standards sind in der Abbildung dargestellt   *
 
@@ -90,11 +87,8 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **Durchmessersymbol**   * Zeichen für die Kennzeichnung von Durchmessermaßen.
 -   **Pfeildarstellung**   * Art der Maßpfeile.
 -   **Pfeillänge**   * Größe der Maßpfeile.
--   **Extension Gap Factor - ASME**   * Lücke zwischen Maßpunkt und Anfang der Maßhilfslinie für ASME-Maße. {{Version/de|1.0}}
 -   **Extension Gap Factor - ISO**   * Lücke zwischen Maßpunkt und Anfang der Maßhilfslinie für ISO-Maße. {{Version/de|1.0}}
-
-
-</div>
+-   **Extension Gap Factor - ASME**   * Lücke zwischen Maßpunkt und Anfang der Maßhilfslinie für ASME-Maße. {{Version/de|1.0}}
 
 ## Anmerkung
 

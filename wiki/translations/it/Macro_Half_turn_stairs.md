@@ -18,13 +18,7 @@ Questa macro crea una scala mezzo giro con i dati del file stairs.dat e con svol
 <img alt="stairs" src=images/Half_turn_stairs.png  style="width   *480px;"> 
 *Stairs*
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-
-</div>
+## Utilizzo
 
 -   Copiare e salvare i dati come file stairs.dat nella prpria directory delle macro, vedere sotto il codice Data (stairs.dat).
 
@@ -34,7 +28,7 @@ Questa macro crea una scala mezzo giro con i dati del file stairs.dat e con svol
 
 ToolBar Icon <img alt="" src=images/Half_turn_stairs.png  style="width   *64px;">
 
-**Half\_turn\_stairs.FCMacro**
+**Half_turn_stairs.FCMacro**
 
 
 {{MacroCode|code=
@@ -302,7 +296,7 @@ Salva questi dati come file **stairs.dat** nella propria directory delle macro
 
 ## Link
 
--   [Macro\_PartsLibrary](Macro_PartsLibrary/it.md) FreeCAD Library
+-   [Macro_PartsLibrary](Macro_PartsLibrary/it.md) FreeCAD Library
 
 
 

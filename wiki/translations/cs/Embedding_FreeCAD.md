@@ -9,7 +9,9 @@ FreeCAD can be imported as a [Python](Python.md) module in other programs or in 
 
 The first, direct, easy, and useful application you can make of this is to import FreeCAD documents into your program. In the following example, we\'ll import the Part geometry of a FreeCAD document into [blender](http   *//www.blender.org). Here is the complete script. I hope you\'ll be impressed by its simplicity   * {{Code|lang=python|code=
 <nowiki>
-FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
+FREECADPATH = '/usr/lib/freecad-python3/lib/' # path to your FreeCAD.so or FreeCAD.pyd file,
+# for Windows you must either use \\ or / in the path, using a single \ is problematic
+# FREECADPATH = 'C   *FreeCAD\\bin'
 import Blender, sys
 sys.path.append(FREECADPATH)
  
@@ -46,12 +48,12 @@ if __name__=='__main__'   *
 </nowiki>
 }}
 
-The first and important part is to make sure python will find our FreeCAD library. Once it finds it, all FreeCAD modules such as Part (that we\'ll use as well) will be available automatically. So we simply take the `sys.path` variable, which is where python searches for modules, and we append the FreeCAD library path. This modification is only temporary, and will be lost when we\'ll close our python interpreter. An alternate way could be   * making a link to your FreeCAD library in one of the python search paths. I stored the path in a constant (`FREECADPATH`) so it\'ll be easier for another user of the script to configure it to their own system.
+The first and important part is to make sure python will find our FreeCAD library. Once it finds it, all FreeCAD modules such as Part (that we\'ll use as well) will be available automatically. So we simply take the `sys.path` variable, which is where python searches for modules, and we append the FreeCAD library path. This modification is only temporary, and will be lost when we\'ll close our python interpreter. An alternate way could be   * making a link to your FreeCAD library in one of the python search paths. I stored the path in a constant (`FREECADPATH`) so it\'ll be easier for another user of the script to configure it to their own system. For Windows users it is important that the path be specified using `\\` or `/` as separator instead of just `\` since it is an escape character.
 
 
 {{Code|lang=python|code=
-FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
-import Blender, sys
+FREECADPATH = 'C   *FreeCAD\\bin' # path to your FreeCAD.so or FreeCAD.pyd file
+import sys
 sys.path.append(FREECADPATH)
 }}
 

@@ -85,7 +85,7 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 -    **CoarseView**   * se è vero, TechDraw usa un\'approssimazione poligonale per calcolare la geometria del disegno. Se è false, TechDraw usa un algoritmo di precisione. CoarseView può essere molto più veloce per modelli complessi. La qualità del disegno è ridotta, poiché ogni curva è approssimata come una serie di segmenti di linee corte. In CoarseView i vertici non vengono visualizzati poiché ogni segmento breve comporterebbe due nuovi vertici e il display si ingombrerebbe. A CoarseView possono essere aggiunte le quote lineari, ma è improbabile che siano utili.
 
    *   
-    **Note   ***CoarseView è affetto da un bug in OCCT ([\#3332](https   *//www.freecadweb.org/tracker/view.php?id=3332)) che fa sì che la posizione della vista sulla pagina sia leggermente diversa dai valori X, Y specificati.
+    **Note   ***CoarseView è affetto da un bug in OCCT ([#3332](https   *//www.freecadweb.org/tracker/view.php?id=3332)) che fa sì che la posizione della vista sulla pagina sia leggermente diversa dai valori X, Y specificati.
 
 -    **Smooth Visible Lines**   * mostra o nasconde le Smooth lines.
 
@@ -106,76 +106,106 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 </div>
 
-\(1\) queste proprietà sono comuni a tutti i tipi di Viste.
-
 
 {{TitleProperty|Cosmetics}}
+
+-    **Cosmetic Vertexes|TechDraw   *   *PropertyCosmeticVertexList|Hidden**
+    
+
+-    **Cosmetic Edges|TechDraw   *   *PropertyCosmeticEdgeList|Hidden**
+    
+
+-    **Center Lines|TechDraw   *   *PropertyCenterLineList|Hidden**
+    
+
+-    **Geom Formats|TechDraw   *   *PropertyGeomFormatList|Hidden**
+    
 
 
 {{TitleProperty|HLR Parameters}}
 
--    **Coarse View**   * If true, TechDraw will use a polygon approximation to calculate drawing geometry. If false, TechDraw will use a precision algorithm. CoarseView can be much faster for complex models. The quality of the drawing is reduced, since every curve is approximated as a series of short line segments. Vertices are not displayed in CoarseView since each short segment would result in two new Vertices and the display becomes cluttered. Linear Dimensions can be added to a CoarseView, but are unlikely to be useful.
+-    **Coarse View|Bool**   * If `True`, TechDraw will use a polygon approximation to calculate drawing geometry. If `False`, TechDraw will use a precision algorithm. CoarseView can be much faster for complex models. The quality of the drawing is reduced, since every curve is approximated as a series of short line segments. Vertices are not displayed in CoarseView since each short segment would result in two new Vertices and the display becomes cluttered. Linear Dimensions can be added to a CoarseView, but are unlikely to be useful.
 
--    **Smooth Visible**   * Visible Smooth lines on/off.
+-    **Smooth Visible|Bool**   * Visible Smooth lines on/off.
 
--    **Seam Visible**   * Visible Seam lines on/off.
+-    **Seam Visible|Bool**   * Visible Seam lines on/off.
 
--    **Iso Visible**   * Visible Isometric(u,v) lines on/off.
+-    **Iso Visible|Bool**   * Visible Isometric(u,v) lines on/off.
 
--    **Hard Hidden**   * Hidden lines on/off.
+-    **Hard Hidden|Bool**   * Hidden lines on/off.
 
--    **Smooth Hidden**   * Hidden Smooth lines on/off.
+-    **Smooth Hidden|Bool**   * Hidden Smooth lines on/off.
 
--    **Seam Hidden**   * Hidden Seam lines on/off.
+-    **Seam Hidden|Bool**   * Hidden Seam lines on/off.
 
--    **Iso Hidden**   * Hidden Isometric(u,v) lines on/off.
+-    **Iso Hidden|Bool**   * Hidden Isometric(u,v) lines on/off.
 
--    **Iso Count**   * Number of Isometric(u,v) lines to draw on each face.
+-    **Iso Count|Integer**   * Number of Isometric(u,v) lines to draw on each face.
 
 
 {{TitleProperty|Projection}}
 
--    **Source**   * Links to the drawable objects to be depicted.
+-    **Source|LinkList**   * Links to the drawable objects to be depicted.
 
--    **XSource**   * Links to the drawable objects in an external file. <small>(v0.19)</small> 
+-    **XSource|XLinkList**   * Links to the drawable objects in an external file. <small>(v0.19)</small> 
 
--    **Direction**   * this vector controls the direction from which you are viewing the object. +X is right, -X is left, +Y is rear, -Y is front (looking into the screen), +Z is up and -Z is down. So a Front view is (0,-1,0) and an isometric view is (1,-1,1).
+-    **Direction|Vector**   * This vector controls the direction from which you are viewing the object. +X is right, -X is left, +Y is rear, -Y is front (looking into the screen), +Z is up and -Z is down. So a Front view is (0,-1,0) and an isometric view is (1,-1,1).
 
--    **XDirection**   * this vector controls the rotation of the view around the Direction. <small>(v0.19)</small> .
+-    **XDirection|Vector**   * This vector controls the rotation of the view around the Direction. <small>(v0.19)</small> .
 
--    **Perspective**   * True for perspective projection, false for orthogonal projection.
+-    **Perspective|Bool**   * `True` for perspective projection, `False` for orthogonal projection.
 
--    **Focus**   * Distance from camera to projection plane for perspective projections. Needs to be adjusted to fit the object. Too far and the perspective is lost, too close and the object is distorted.
+-    **Focus|Distance**   * Distance from camera to projection plane for perspective projections. Needs to be adjusted to fit the object. Too far and the perspective is lost, too close and the object is distorted.
 
 ### View
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Base}}
 
-### Vista
+-    **Keep Label|Bool**   * Always show view label if `True`. (1)
 
--    **Keep Label**   * se è vero mostra sempre Visualizza etichetta.
-
--    **LineWidth**   * lo spessore delle linee visibili. Vedere [Gruppi di linee](TechDraw_LineGroup/it.md).
-
--    **HiddenWidth**   * lo spessore delle linee nascoste, se abilitato.
-
--    **IsoWidth**   * lo spessore delle linee di superficie isometriche (u, v) e delle linee di quota.
-
--    **ExtraWidth**   * non ancora implementato.
-
--    **ShowCenters**   * mostra o nasconde i segni di centro cerchio o arco.
-
--    **CenterScale**   * regolazione della dimensione del contrassegno di centro dell\'arco, se abilitata.
-
--    **HorizCenterLine**   * mostra una linea centrale orizzontale attraverso la vista.
-
--    **VertCenterLine**   * mostra una linea centrale verticale attraverso la vista.
-
--    **ShowSectionLine**   * mostra o nasconde la linea della sezione se applicabile.
+-    **Stack Order|Integer**   * Over or under lap relative to other views. (1) <small>(v1.0)</small> 
 
 
-</div>
+{{TitleProperty|Decoration}}
+
+-    **Arc Center Marks|Bool**   * Circular arc center marks on/off.
+
+-    **Center Scale|Float**   * Circular arc center mark size adjustment, if enabled.
+
+-    **Horiz Center Line|Bool**   * Show a horizontal centerline through the view.
+
+-    **Section Line Color|Color**   * Set the section line color if applicable.
+
+-    **Section Line Style|Enumeration**   * Set the section line style if applicable.
+
+-    **Show All Edges|Bool**   * Temporarily show invisible lines.
+
+-    **Show Section Line|Bool**   * Show/hide the section line if applicable.
+
+-    **Vert Center Line|Bool**   * Show a vertical centerline through the view.
+
+
+{{TitleProperty|Highlight}}
+
+-    **Highlight Adjust|Float**   * Adjust the rotation of the Detail highlight if applicable.
+
+-    **Highlight Line Color|Color**   * Set the highlight line color if applicable.
+
+-    **Highlight Line Style|Enumeration**   * Set the highlight line style if applicable.
+
+
+{{TitleProperty|Lines}}
+
+-    **Extra Width|Length**   * Not implemented yet.
+
+-    **Hidden Width|Length**   * The thickness of hidden lines, if enabled.
+
+-    **Iso Width|Length**   * The thickness of isometric(u,v) surface lines and Dimension lines.
+
+-    **Line Width|Length**   * The thickness of visible lines. See [Line Groups](TechDraw_LineGroup.md).
+
+\(1\) queste proprietà sono comuni a tutti i tipi di Viste.
 
 ## Script
 
@@ -200,10 +230,10 @@ Lo strumento Vista può essere utilizzato nelle [macro](macros/it.md) e dalla co
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
+view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart', 'View')
 rc = page.addView(view)
 FreeCAD.ActiveDocument.View.Source = [App.ActiveDocument.Box]
-FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
+FreeCAD.ActiveDocument.View.Direction = (0.0, 0.0, 1.0)
 ```
 
 

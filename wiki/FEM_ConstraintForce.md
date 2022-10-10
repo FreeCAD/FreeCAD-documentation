@@ -20,14 +20,14 @@ This command applies a force of given value \[N\] to selected target geometry.
 
 2.  If you have Mesh displayed, you need to hide it (select the mesh object and press **spacebar** or right-click and select **Hide item**) and show the original model.
 
-3.  Click on a *face*, *line* or *point* to which a force should be applied. It will appear in the list of geometrical objects.
+3.  Click on a *face*, *line* or *point* to which a force should be applied. The object will appear in the list of geometrical objects.
 
 4.  Fill in **Load [N]** with a force value in \[N\].
 
 5.  
     **Direction**   * In a typical case, you\'ll leave this field empty to apply a force in the normal direction. You can revert the direction of the force by clicking **Reverse direction**. In other cases, you need to pick a face/plane or edge, which serves as reference for force direction.
 
-6.  Click **OK** to finish the dialog and create **[<img src=images/FEM_ConstraintForce.svg style="width   *24px"> ConstraintForce** object.
+6.  Click **OK** to finish and create the **[<img src=images/FEM_ConstraintForce.svg style="width   *24px"> ConstraintForce** object.
 
  ![](images/FEM_ConstraintForce_example.JPG ) 
 

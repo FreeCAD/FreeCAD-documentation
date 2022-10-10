@@ -19,9 +19,9 @@ Ten poradnik opisuje jak z kilku linijek kodu Python wygenerować prosty kontrol
 
 Do kodowania można użyć dowolnego edytora tekstu. Mój wybór to Atom, ale wbudowany edytor FreeCAD też działa dobrze.
 
-The following code examples can be copied and pasted into an empty text file and then saved under a name of your choice as a ***.py** or ***.FCMacro** file.
+Poniższe przykłady kodu można skopiować i wkleić do pustego pliku tekstowego, a następnie zapisać pod wybraną nazwą jako plik typu ***.py** lub ***.FCMacro**.
 
-## Macro sections 
+## Sekcje makrodefinicji 
 
 ### Podstawowa struktura 
 
@@ -40,15 +40,15 @@ if __name__ == "__main__"   *
     main()
 ```
 
-The basic structure consists of a {{Incode|main()}} function and a switch to check if the macro is used as a container for classes, methods etc. or if it is run on its own. Only the second option will start the {{Incode|main()}} function. The function is empty for now.
+Podstawowa struktura składa się z funkcji {{Incode|main()}} oraz przełącznika sprawdzającego, czy makro jest używane jako kontener dla klas, metod itp. czy też jest uruchamiane samodzielnie. Tylko druga opcja powoduje uruchomienie funkcji {{Incode|main()}}. Funkcja ta jest na razie pusta.
 
-### Find driving constraints 
+### Wyznacz więzy prowadzące 
 
-The driving constraints are objects within a FreeCAD document. They need to be marked so that they can be found.
+Więzy prowadzące są obiektami w obrębie dokumentu FreeCAD. Należy je oznaczyć, aby można było je odnaleźć.
 
-For this controller the suffix {{Incode|"Driver"}} has to be attached to the label of a driving constraint. It may be separated by a {{Incode|"."}} or {{Incode|"-"}} for clarity, as we will only check if the label ends with {{Incode|"Driver"}}.
+Dla tego kontrolera przyrostek {{Incode|"Driver"}} musi być dołączony do etykiety wiązania prowadzącego. Może on być oddzielony znakiem {{Incode|"."}} lub {{Incode|"-"}} dla jasności, ponieważ będziemy sprawdzać tylko czy etykieta kończy się {{Incode|"Driver"}}.
 
-A function that receives a document object and returns a list of driving constraints (the names in this case) will do the job.
+Funkcja, która otrzymuje obiekt dokumentu i zwraca listę więzów prowadzących *(nazwy w tym przypadku)* wykona zadanie.
 
 
 ```python
@@ -62,7 +62,7 @@ def findTheDrivingConstraints(document_object)   *
     return driver_list
 ```
 
-The {{Incode|main()}} function loads the active document into the variable {{Incode|kin_doc}} and then calls the function {{Incode|findTheDrivingConstraints()}} and hands over the content of {{Incode|kin_doc}}. The returned list is loaded into {{Incode|drivers}} which is then checked to contain at least one item. If that is the case the list is finally printed to the [Report view](Report_view.md).
+Funkcja {{Incode|main()}} ładuje aktywny dokument do zmiennej {{Incode|kin_doc}}, a następnie wywołuje funkcję {{Incode|findTheDrivingConstraints()}} i przekazuje jej zawartość {{Incode|kin_doc}}. Zwrócona lista jest ładowana do {{Incode|drivers}}, która następnie jest sprawdzana, czy zawiera przynajmniej jeden element. Jeśli tak jest, lista jest ostatecznie wyświetlona w widoku [Raportu](Report_view/pl.md).
 
 
 ```python
@@ -78,7 +78,7 @@ def main()   *
 
 <div class="mw-collapsible mw-collapsed">
 
-**The macro so far\...**
+**Dotychczasowe makrodefinicje \...**
 
 
 <div class="mw-collapsible-content">
@@ -121,24 +121,24 @@ if __name__ == "__main__"   *
 
 {{Top}}
 
-### Control panel 
+### Panel sterowania 
 
-The control panel is built from Qt widgets, one main window containing several input/output widgets.
+Panel sterowania jest zbudowany z widżetów Qt, jedno główne okno zawierające kilka widżetów wejścia / wyjścia.
 
-Each widget has to be imported before it can be used, but they can be imported as a single set. The import line is placed near the top of the file.
+Każdy widżet musi zostać zaimportowany, zanim będzie można go użyć, ale można je zaimportować jako pojedynczy zestaw. Linia importu jest umieszczona w pobliżu górnej części pliku.
 
-#### Main window 
+#### Okno główne 
 
-For the main window the import line looks like this   *
+W głównym oknie linia importu wygląda tak   *
 
 
 ```python
 from PySide2.QtWidgets import (QDialog)
 ```
 
-The main window called {{Incode|ControlPanel}} is a class object instantiated from the {{Incode|QDialog}} widget.
+Okno główne o nazwie {{Incode|ControlPanel}} to obiekt klasy utworzony z widżetu {{Incode|QDialog}}.
 
-It has two init methods. {{Incode|__init__()}} initializes the new class object, handles incoming arguments, and starts {{Incode|initUI()}} which manages all widgets within the main window.
+Posiada ona dwie metody init. Metoda {{Incode|__init__()}} inicjalizuje nowy obiekt klasy, obsługuje przychodzące argumenty oraz uruchamia metodę {{Incode|initUI()}}, która zarządza wszystkimi widżetami w obrębie okna głównego.
 
 
 ```python
@@ -157,7 +157,7 @@ class ControlPanel(QDialog)   *
         self.show()
 ```
 
-To launch a single control panel an instance, called {{Incode|panel}}, of this class will be created with {{Incode|kin_doc}} (the document object) and {{Incode|drivers[0]}} (the first in the list of driving constraints) transferred to this instance. Finally the {{Incode|exec_()}} method of the class opens the dialog window.
+Aby uruchomić pojedynczy panel sterowania, zostanie utworzona instancja tej klasy o nazwie {{Incode|panel}}, z {{Incode|kin_doc}} *(obiekt dokumentu)* oraz {{Incode|drivers[0]}} *(pierwsze z listy wiązań dotyczących prowadzenia)* przekazanymi do tej instancji. Na koniec metoda {{Incode|exec_()}} klasy otwiera okno dialogowe.
 
 
 ```python
@@ -165,7 +165,7 @@ panel = ControlPanel(kin_doc, drivers[0])
 panel.exec_()
 ```
 
-To handle more than one driver, we have to check the drivers list and create an instance for each item in the list and transfer the current item.
+Aby obsłużyć więcej niż jeden sterownik, musimy sprawdzić listę sterowników i utworzyć instancję dla każdej pozycji na liście i przenieść bieżącą pozycję.
 
 
 ```python
@@ -176,18 +176,18 @@ for each_driver in drivers   *
 panel.exec_()
 ```
 
-These lines replace the {{Incode|print()}} command in the else branch of the {{Incode|main()}} function.
+Te linie zastępują polecenie {{Incode|print()}} w gałęzi *else* funkcji {{Incode|main()}}.
 
-Note   * Collecting a {{Incode|panel_list}} allows us to launch all panels at once. (I cannot explain this behaviour yet\...)
+Uwaga   * Zebranie {{Incode|panel_list}} pozwala na uruchomienie wszystkich paneli jednocześnie. *(Nie potrafię jeszcze wyjaśnić tego zachowania\...)*
 
-Running the macro will display a clean empty dialog window waiting for widgets   *
+Uruchomienie makra spowoduje wyświetlenie nowego, pustego okna dialogowego czekającego na widżety   *
 
-<img alt="An empty dialog window" src=images/Tutorial_KinCon-01.png  style="width   *300px;">
+<img alt="Puste okno dialogowe" src=images/Tutorial_KinCon-01.png  style="width   *300px;">
 
 
 <div class="mw-collapsible mw-collapsed">
 
-**And the macro so far\...**
+**Dotychczasowe makrodefinicje \...**
 
 
 <div class="mw-collapsible-content">
@@ -252,9 +252,9 @@ if __name__ == "__main__"   *
 
 {{Top}}
 
-#### Setting parameters 
+#### Ustawienie parametrów 
 
-Now it is time to fill the {{Incode|initUI()}} method   *
+Teraz przyszedł czas na wypełnienie metody {{Incode|initUI()}}   *
 
 
 ```python
@@ -272,11 +272,11 @@ Now it is time to fill the {{Incode|initUI()}} method   *
 
 {{Incode|self.actuator}}
 
-represents the driving constraint and {{Incode|self.driver_type}} stores a keyword for its type. The latter is used to choose the correct property with each constraint.
+reprezentuje wiązanie napędowe, a {{Incode|self.driver_type}} przechowuje słowo kluczowe dla jego typu. To ostatnie jest używane do wyboru odpowiedniej właściwości z każdym wiązaniem.
 
-##### Method getDriverType() 
+##### Metoda getDriverType() 
 
-For later use we need the driver type (Angle, Distance, Length) and so a {{Incode|getDriverType()}} method has to be defined   *
+Do późniejszego użycia potrzebujemy typ sterownika *(Kąt, Odległość, Długość)* i dlatego należy zdefiniować metodę {{Incode|getDriverType()}}   *
 
 
 ```python
@@ -305,7 +305,7 @@ This method checks if the type of the given constraint can be found in one of th
 
 It is assumed that in the kinematic document the driver is marked correctly and working if edited manually. In this case there is no need to filter out geometric constraints such as Colinear or PointsCoincidence (but here would be the place to do so\...)
 
-##### Window properties 
+##### Ustawienia okna 
 
 The window size is defined by its minimum and maximum dimensions. Using the same values results in a fixed size.
 
@@ -367,11 +367,11 @@ To complete the parameters we set a default number of steps that should be compu
 
 {{Top}}
 
-#### Labels
+#### Etykiety
 
-Now three labels are added to display the start, end, and current value.
+Teraz dodano trzy etykiety, które wyświetlają wartość początkową, końcową i bieżącą.
 
-First the class {{Incode|QLabel}} must be imported i.e. the import list has to be extended like this   *
+Najpierw należy zaimportować klasę {{Incode|QLabel}}, tzn. rozszerzyć listę importu w sposób następujący   *
 
 
 ```python
@@ -418,7 +418,7 @@ Running the macro with a kinematic assembly document would create a dialog windo
 
 <div class="mw-collapsible mw-collapsed">
 
-**And the macro so far\...**
+**Dotychczasowe makrodefinicje \...**
 
 
 <div class="mw-collapsible-content">
@@ -549,7 +549,7 @@ if __name__ == "__main__"   *
 
 #### Slider
 
-To change the current value to any number between start and end value a slider widget would fit.
+Aby zmienić bieżącą wartość na dowolną liczbę między wartością początkową a końcową, przydatny byłby widżet suwaka.
 
 First the class {{Incode|QSlider}} must be imported i.e. the import list has to be extended like this   *
 
@@ -678,7 +678,7 @@ The dialog window with text entry fields should look like this and is ready to c
 
 <div class="mw-collapsible mw-collapsed">
 
-**And the macro so far\...**
+**Dotychczasowe makrodefinicje \...**
 
 
 <div class="mw-collapsible-content">
@@ -1591,7 +1591,7 @@ if __name__ == "__main__"   *
 
 ## Kilka niedoskonałości 
 
--   Kolejność sekwencji obrazów jest odwrócona, ponieważ używamy zmiennej steps\_left, która jest odliczana.
+-   Kolejność sekwencji obrazów jest odwrócona, ponieważ używamy zmiennej steps_left, która jest odliczana.
 -   Katalog obrazów i nazwa obrazu są zakodowane na sztywno.
 -   Wiele kontrolerów nie jest zsynchronizowanych.
 

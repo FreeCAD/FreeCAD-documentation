@@ -15,15 +15,9 @@
 
 Questa macro crea un arco da 3 punti selezionati
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Avviare la macro, poi selezionare 3 punti. Viene creato uno arco. Le coordinate e la lunghezza dell\'arco sono visualizzati nella vista rapporto.
-
-
-</div>
 
 Nota   *non è necessario tenere premuto il tasto Ctrl
 
@@ -31,7 +25,7 @@ Nota   *non è necessario tenere premuto il tasto Ctrl
 
 L\'icona per la barra degli strumenti   * <img alt="" src=images/Macro_Make_Arc_3_Points.png  style="width   *36px;">
 
-**Macro\_Make\_Arc\_3\_Points.FCMacro**
+**Macro_Make_Arc_3\_Points.FCMacro**
 
 
 {{MacroCode|code=

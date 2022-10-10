@@ -1,20 +1,24 @@
 # Macro MoveToOrigin/fr
-{{Macro
-|Name=MoveToOrigin
+{{Macro/fr
+|Name=Macro MoveToOrigin
+|Icon=Centericon.png
 |Description=Déplace l'emplacement sélectionné d'un objet vers l'Origine.<br > Cette macro traduit le [https   *//wiki.freecadweb.org/Placement Placement/fr] d'un objet afin qu'un emplacement sélectionné devienne sa nouvelle origine.  Cela peut être utile lorsque des objets importés à partir d'autres formats comme STL ou STEP sont mal situés pour être traités ultérieurement par FreeCAD.  
 |Author=Edwilliams16
-|Download=[https   *//wiki.freecadweb.org/File   *Centericon.png Centericon.png]
+|Download=[https   *//wiki.freecadweb.org/File   *Centericon.png Icône de la barre d'outils]
 |Version=00.02
 |Date=2021-07-07
 }}
 
 ## Description
 
-Cette macro traduit le [Placement](https   *//wiki.freecadweb.org/Placement) d\'un objet afin qu\'un emplacement sélectionné devienne sa nouvelle origine. Cela peut être utile lorsque des objets importés à partir d\'autres formats comme STL ou STEP sont mal situés pour être traités ultérieurement par FreeCAD.
+Cette macro traduit le [Placement](Placement/fr.md) d\'un objet afin qu\'un emplacement sélectionné devienne sa nouvelle origine. Cela peut être utile lorsque des objets importés à partir d\'autres formats comme STL ou STEP sont mal situés pour être traités ultérieurement par FreeCAD.
 
 ## Utilisation
 
-Copiez la macro dans votre répertoire de macros. (Vous pouvez copier et coller dans l\'éditeur de macros et enregistrer). Sélectionnez d\'abord, puis exécutez la macro. L\'annulation est possible. Les sélections suivantes sont prises en charge    *
+1.  Copiez la macro dans votre répertoire de macros. (Vous pouvez copier et coller dans l\'éditeur de macros et enregistrer).
+2.  Sélectionnez d\'abord, puis exécutez la macro. L\'annulation est possible.
+
+Les sélections suivantes sont prises en charge    *
 
 \-- Single Vertex \-- déplace vers l\'origine
 

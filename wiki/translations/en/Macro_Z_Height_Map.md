@@ -29,9 +29,9 @@ Forum   * No dedicated thread, but sprung out of [forum post](https   *//forum.f
 
 v0.1 2022-08-28    * first release
 
-## Code
+## Script
 
-**Macro\_Z\_height\_map.FCMacro**
+**Macro_Z\_height_map.FCMacro**
 
 
 {{MacroCode|code=
@@ -161,7 +161,7 @@ if IMSAVE   *
 print('height map done')
 }}
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

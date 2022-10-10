@@ -3,13 +3,7 @@
 
 L\'addon [Reinforcement](Reinforcement_Addon/it.md) potenzia [Arch](Arch_Workbench/it.md) fornendo nuove interfacce e preimpostazioni per la creazione di tipi di armature comuni da utilizzare con le [Strutture](Arch_Structure/it.md) di Arch.
 
-
-<div class="mw-translate-fuzzy">
-
 Gli strumenti possono essere installati con [Addon Manager](Std_AddonMgr/it.md) tramite il menu **Strumenti → Addon manager → Reinforcement**. FreeCAD deve essere riavviato affinché i nuovi strumenti appaiano sotto il pulsante **<img src="images/Arch_Rebar.svg" width=16px> [Armatura](Arch_Rebar/it.md)**.
-
-
-</div>
 
 Questo addon è stato sviluppato durante il [Google Summer of Code](Google_Summer_of_Code.md) 2017, ed è ospitato nel [FreeCAD-Reinforcement](https   *//github.com/amrit3701/FreeCAD-Reinforcement) Github repository, che è separato dal repository principale di FreeCAD.
 

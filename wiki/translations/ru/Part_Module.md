@@ -125,8 +125,6 @@
 
 ### Измерение
 
-<img alt="" src=images/Part_Measure_Menu.png  style="width   *64px;"> [Measure](Part_Measure_Menu/ru.md)   * Инструменты для линейных и угловых измерений.
-
 -   <img alt="" src=images/Part_Measure_Linear.svg  style="width   *32px;"> [Measure Linear (Линейные измерения)](Part_Measure_Linear/ru.md) Делает линейные изменения.
 
 -   <img alt="" src=images/Part_Measure_Angular.svg  style="width   *32px;"> [Measure Angular (Угловые измерения)](Part_Measure_Angular/ru.md)   * Делает угловые измерения.
@@ -137,7 +135,13 @@
 
 -   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width   *32px;"> [Toggle All (Переключить всё)](Part_Measure_Toggle_All/ru.md)   * Показать или скрыть все измерения.
 
--   <img alt="" src=images/Part_Measure_Toggle_3d.svg  style="width   *32px;"> [Toggle 3D (Переключить 3D)](Part_Measure_Toggle_3d/ru.md)   * Показать или скрыть трёхмерные измерения.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width   *32px;"> [Toggle 3D (Переключить 3D)](Part_Measure_Toggle_3D/ru.md)   * Показать или скрыть трёхмерные измерения.
+
+
+</div>
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *32px;"> [Toggle Delta (Переключить координаты)](Part_Measure_Toggle_Delta/ru.md)   * Показывает или скрывает измерения в ортогональной системе.
 

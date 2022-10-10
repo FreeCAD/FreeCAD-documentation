@@ -59,13 +59,7 @@ Molte proprietà possono anche essere modificate nella finestra di dialogo del c
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-
-<div class="mw-translate-fuzzy">
-
-Per creare un nuovo documento usa il metodo `newDocument` dell\'applicazione FreeCAD.
-
-
-</div>
+Per creare un nuovo documento usa il metodo `newDocument([name], [hidden<nowiki>=</nowiki>False])` dell\'applicazione FreeCAD. Il nome del documento deve essere univoco, che viene verificato automaticamente. Se non viene fornito alcun nome, il documento sarà denominato \"Senza titolo\". Se viene utilizzato `hidden<nowiki>=</nowiki>True`, il nuovo documento non verrà visualizzato nella GUI e non verrà visualizzata alcuna scheda.
 
 
 ```python
@@ -91,13 +85,7 @@ FreeCAD.closeDocument(doc.Name)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

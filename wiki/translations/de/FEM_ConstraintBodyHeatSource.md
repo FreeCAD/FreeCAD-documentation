@@ -1,11 +1,9 @@
 ---
 - GuiCommand   */de
    Name   *FEM ConstraintBodyHeatSource
-   Name/de   *FEM BeschränkungKörperWärmeQuelle
-   Icon   *Fem-constraint-heatflux.svg
-   MenuLocation   * Modell → Thermische Beschränkungen→ Beschränkung Körper Wärme Quelle
+   Name/de   *FEM RandbedingungKörperwärmequelle
+   MenuLocation   * Modell → Thermische Randbedingungen → Randbedingung Körperwärmequelle
    Workbenches   *[FEM](FEM_Workbench/de.md)
-   Shortcut   *
    SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
@@ -19,32 +17,44 @@
 
 <div class="mw-translate-fuzzy">
 
-Definiert eine intern erzeugte Körperwärme, angegeben in W/kg (nicht J/m³). Siehe <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539> und folgende sowie Elmer \"Tutorium 1 - Wärmegleichung - Temperaturfeld eines Festkörpers\" in <https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf> für ausführlichere Informationen.
+Legt eine intern erzeugte Körperwärme fest, angegeben in W/kg (nicht J/m³).
 
 
 </div>
 
 ## Anwendung
 
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> [FEM ConstraintBodyHeatSource](FEM_ConstraintBodyHeatSource.md)** button.
-    -   Select the **Model → Thermal Constraints → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Constraint temperature** option from the menu.
-2.  In the [3D view](3D_view.md) select the objects the constraint should be applied to, which can be a vertices (corners), edges, or faces.
-3.  Enter a specific heat value to apply to the objects.
 
-## Notes
+<div class="mw-translate-fuzzy">
 
--   For more information see [this forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539) and following posts.
--   Elmer examples can also be found in [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf).
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> [Randbedingung Körperwärmequelle](FEM_ConstraintBodyHeatSource/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Thermische Randbedingungen → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Randbedingung Körperwärmequelle** auswählen.
+2.  In der [3D-Ansicht](3D_view/de.md) die Objekte auswählen, auf die die Randbedingung angewendet werden soll; diese können Knoten (Ecken), Kanten oder Flächen sein.
+3.  Einen Wert für die spezifische Wärme eingeben, die den Objekten zugeordnet werden soll.
+
+
+</div>
+
+## Limitation
+
+
+{{VersionMinus|0.20}}
+
+   * The body heat source is applied to the whole model, meaning all bodies of the setup. It is not possible to select an individual body.
+
+## Hinweise
 
 
 <div class="mw-translate-fuzzy">
 
-
-
+-   Für weitere Informationen siehe [this forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539) und folgende Posts.
+-   Elmer Beispiele können auch unter [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf) gefunden werden.
 
 
 </div>
+
+
 
 
 {{FEM Tools navi

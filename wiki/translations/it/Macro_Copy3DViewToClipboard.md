@@ -1,7 +1,4 @@
 # Macro Copy3DViewToClipboard/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Copy3DViewToClipboard
 |Translate=Copia la vista 3D negli appunti
@@ -12,12 +9,9 @@
 |Date=2016-09-14
 |FCVersion= <=0.17
 |Download=[https   *//www.freecadweb.org/wiki/images/8/84/Macro_Copy3DViewToClipboard.png ToolBar Icon]
-|SeeAlso=[Macro Snip](Macro_Snip.md) <img src="images/Snip.png" width=24px>
+|SeeAlso=<img src="images/Snip.png" width=24px><br/>[Macro Screen Wiki](Macro_Screen_Wiki.md) <img src="images/Macro_Screen_Wiki.png" width=24px>
 |Shortcut=G, Q
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -48,7 +42,7 @@ Vedere la discussione nel [forum](http   *//forum.freecadweb.org/viewtopic.php?f
 
 L\'icona per la barra degli strumenti ![](images/Macro_Copy3DViewToClipboard.png )
 
-**Macro\_Copy3DViewToClipboard.FCMacro**
+**Macro_Copy3DViewToClipboard.FCMacro**
 
 
 {{MacroCode|code=

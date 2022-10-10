@@ -1,50 +1,33 @@
 ---
 - GuiCommand   */de
    Name   *FEM ConstraintFixed
-   Name/de   *FEM BeschränkungFestgelegt
-   MenuLocation   *Modell → Mechanische Beschränkungen → Beschränkung festgelegt
+   Name/de   *FEM RandbedingungFestsetzen
+   MenuLocation   *Modell → Mechanische Randbedingungen → Randbedingung Festsetzen
    Workbenches   *[FEM](FEM_Workbench/de.md)
-   Shortcut   *
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+   SeeAlso   *[FEM RandbedingungKontakt](FEM_ConstraintContact/de.md)
 ---
 
 # FEM ConstraintFixed/de
 
-
-</div>
-
 ## Beschreibung
 
-Erstellt eine FEM Beschränkung für einen festen Geometrieeintrag, indem alle 6 Freiheitsgrade des ausgewählten Objekts gesperrt werden.
+Erstellt eine FEM-Randbedingung zum Festsetzen eines Geometrieelements, die alle 6 Freiheitsgrade des ausgewählten Objekts sperrt.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Klicke auf <img alt="" src=images/FEM_ConstraintFixed.png  style="width   *32px;"> oder wähle **Model** → **Mechanische Beschränkungen** → **<img src="images/FEM_ConstraintFixed.png" width=32px> Constraint fixed** aus dem Hauptmenü.
-2.  Wähle in der 3D Ansicht das Objekt aus, auf das die Beschränkung angewendet werden soll.
-    1.  Knoten (Ecken)
-    2.  Kanten
-    3.  Flächen
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/FEM_ConstraintFixed.svg" width=16px> [Randbedingung Festsetzen](FEM_ConstraintFixed/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Mechanische Randbedingungen → <img src="images/FEM_ConstraintFixed.svg" width=16px> Randbedingung Festsetzen** auswählen.
+2.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll; dies kann ein Knoten (Ecke), eine Kante oder eine Fläche sein.
 
 ## Begrenzungen
 
-Du kannst nicht Objekttypen innerhalb derselben Beschränkung mischen. Verwende für jeden Objekttyp eine festgelegte Beschränkung.
+Objektarten können nicht innerhalb derselben Randbedingung gemischt werden. Für jede Objektart sollte eine eigene Randbedingung Festsetzen verwendet werden.
 
 ## Hinweise
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

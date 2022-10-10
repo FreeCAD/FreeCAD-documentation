@@ -66,7 +66,7 @@ Les fonctions mathématiques suivantes sont prises en charge    *
 
 #### Fonctions trigonométriques 
 
-[Les fonctions trigonométriques](https   *//fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique) utilisent le degré comme unité par défaut. Pour la mesure du radian, ajoutez première valeur dans une expression. Ainsi, par exemple, `cos(45)` est identique à `cos(pi rad / 4)`. Les expressions en degrés peuvent utiliser soit `deg` soit `°`, par exemple `360deg - atan2(3 ; 4)` ou `360&deg ; - atan2(3 ; 4)`. Si une expression est sans unité et doit être convertie en degrés ou en radians pour des raisons de compatibilité, multipliez-la par `1&nbsp;deg`, `1&nbsp;°` ou `1&nbsp;rad` selon le cas, par exemple `(360 - X) * 1deg` ; `(360 - X) * 1°` ; `(0.5 + pi / 2) * 1rad`.
+[Les fonctions trigonométriques](https   *//fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique) utilisent le degré comme unité par défaut. Pour la mesure du radian, ajoutez première valeur dans une expression. Ainsi, par exemple, `cos(45)` est identique à `cos(pi rad / 4)`. Les expressions en degrés peuvent utiliser soit `deg` soit `°`, par exemple `360deg - atan2(3 ; 4)` ou `360&deg; - atan2(3 ; 4)`. Si une expression est sans unité et doit être convertie en degrés ou en radians pour des raisons de compatibilité, multipliez-la par `1&nbsp;deg`, `1&nbsp;°` ou `1&nbsp;rad` selon le cas, par exemple `(360 - X) * 1deg` ; `(360 - X) * 1°` ; `(0.5 + pi / 2) * 1rad`.
 
   Fonction      Description                                                                                                               Plage des valeurs
     
@@ -495,14 +495,14 @@ Par exemple, l\'étiquette `Sketch\002` doit être référencée comme `<<Sketch
 
 Les [Noms](Object_name/fr#Name_.28Nom.29.md) d\'objets tels que des dimensions, des croquis, etc\... peuvent ne pas avoir les caractères ou les séquences de caractères répertoriés ci-dessous, auquel cas le nom n\'est pas valide   *
 
-  Caractères / Séquences de caractères                                                                                                             Description
+  Caractères / Séquences de caractères                                                                                           Description
    
-  **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**                     Caractères qui sont des opérateurs mathématiques ou qui font partie de constructions mathématiques
-  **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°** et bien d\'autres!   Caractères et séquences de caractères qui sont des unités (voir le paragraphe [unités](Unit.C3.A9s.md))
-  **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **   ***, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!                            Caractères utilisés comme espace réservé ou pour déclencher des opérations spéciales
-  **pi**, **e**                                                                                                                                    Constantes mathématiques
-  **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                                          Caractères utilisés pour les accents
-  espace                                                                                                                                           Un espace définit la fin d\'un nom et ne peut donc pas être utilisé
+  **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**   Caractères qui sont des opérateurs mathématiques ou qui font partie de constructions mathématiques
+  **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, **\'**, **ft**, **°** et bien d\'autres!     Caractères et séquences de caractères qui sont des unités (voir le paragraphe [unités](Unit.C3.A9s.md))
+  **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **   ***, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!          Caractères utilisés comme espace réservé ou pour déclencher des opérations spéciales
+  **pi**, **e**                                                                                                                  Constantes mathématiques
+  **´**, **\**, **\'**, **\"**                                                                                                  Caractères utilisés pour les accents
+  espace                                                                                                                         Un espace définit la fin d\'un nom et ne peut donc pas être utilisé
 
 Par exemple, le nom suivant est valide   * `<<Sketch>>.Constraints.T2üßµ@`, alors que ces noms sont non valables   * `<<Sketch>>.Constraints.test\result_2` (\\r signifie \"retour chariot\") ou `<<Sketch>>.Constraints.mol` (mol est une unité).
 

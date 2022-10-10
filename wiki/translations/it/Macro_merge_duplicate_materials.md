@@ -17,7 +17,7 @@ Fonde i materiali che hanno lo stesso nome di base (con differenti terminazioni 
 
 ## Script
 
-ToolBar Icon ![](images/Macro_merge_duplicate_materials.png )
+Icona barra strumenti ![](images/Macro_merge_duplicate_materials.png )
 
 **Merge duplicate materials.FCMacro**
 

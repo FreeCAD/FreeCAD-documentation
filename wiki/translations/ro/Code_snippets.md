@@ -89,7 +89,7 @@ Această linie trebuie adăugată în fișierul InitGui.py pentru a adăuga noua
 FreeCAD.addImportType("Your new File Type (*.ext)","Import_Ext") 
 ```
 
-Then in the Import\_Ext.py file   *
+Then in the Import_Ext.py file   *
 
 
 ```python
@@ -1189,7 +1189,7 @@ App.activeDocument().recompute()
 
 Example de cautare și decodare a informației despre un obiect.
 
-Fiecare secțiune este independentă și este separată de diezi \"\#\#\#\#\#\#\#\#\#\#\#\#\" poate fi copiată direct în consola Python sau într-o macrocomandă sau poate folosi această macrocomandă. Descrierea macrocomenzii în comentariu.
+Fiecare secțiune este independentă și este separată de diezi \"############\" poate fi copiată direct în consola Python sau într-o macrocomandă sau poate folosi această macrocomandă. Descrierea macrocomenzii în comentariu.
 
 
 <div class="mw-translate-fuzzy">
@@ -1936,6 +1936,26 @@ myFace.cutHoles([wire1])
 myFace.validate()
 
 Part.show(myFace)
+```
+
+
+{{Top}}
+
+### Close and restart FreeCAD 
+
+
+```python
+import PySide2 
+from PySide2 import QtWidgets, QtCore, QtGui
+
+def restart_freecad()   *
+    """Shuts down and restarts FreeCAD"""
+
+    args = QtWidgets.QApplication.arguments()[1   *]
+    if FreeCADGui.getMainWindow().close()   *
+        QtCore.QProcess.startDetached(
+            QtWidgets.QApplication.applicationFilePath(), args
+        )
 ```
 
 

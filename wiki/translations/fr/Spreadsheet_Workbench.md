@@ -2,7 +2,7 @@
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [atelier Spreadsheet](Spreadsheet_Workbench/fr.md) vous permet de créer et d'éditer des feuilles de calcul, de remplir la feuille de calcul avec les données extraites d'un modèle, d'effectuer des calculs et de les exporter vers d'autres applications de tableurs telles que LibreOffice ou Microsoft Excel.
+L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [atelier Spreadsheet](Spreadsheet_Workbench/fr.md) vous permet de créer et de modifier des feuilles de calcul, d\'utiliser les données de la feuille de calcul comme paramètres dans un modèle, de remplir la feuille de calcul avec des données extraites d\'un modèle, d\'effectuer des calculs et d\'exporter les données vers d\'autres applications de feuilles de calcul telles que LibreOffice ou Microsoft Excel.
 
 
 {{TOCright}}
@@ -12,41 +12,41 @@ L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *24px;"> [at
 
 ## Outils
 
--   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *24px;"> [Créer une feuille de calcul](Spreadsheet_CreateSheet/fr.md)   * créer un nouveau tableur.
+-   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width   *24px;"> [Créer une feuille de calcul](Spreadsheet_CreateSheet/fr.md)    * créer une nouvelle feuille de calcul.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Importer](Spreadsheet_Import/fr.md)    * importe un fichier CSV dans une feuille de calcul.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width   *24px;"> [Importer](Spreadsheet_Import/fr.md)    * importer un fichier CSV dans une feuille de calcul.
 
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Exporter](Spreadsheet_Export/fr.md)    * exporte un fichier CSV depuis une feuille de calcul.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width   *24px;"> [Exporter](Spreadsheet_Export/fr.md)    * exporter un fichier CSV depuis une feuille de calcul.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Fusionner des cellules](Spreadsheet_MergeCells/fr.md)    * fusionne les cellules sélectionnées.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width   *24px;"> [Fusionner des cellules](Spreadsheet_MergeCells/fr.md)    * fusionner les cellules sélectionnées.
 
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Diviser une cellule](Spreadsheet_SplitCell/fr.md)    * divise les cellules précédemment fusionnées.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width   *24px;"> [Diviser une cellule](Spreadsheet_SplitCell/fr.md)    * diviser les cellules précédemment fusionnées.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Alignement à gauche](Spreadsheet_AlignLeft/fr.md)    * aligne le contenu des cellules sélectionnées vers la gauche.
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width   *24px;"> [Alignement à gauche](Spreadsheet_AlignLeft/fr.md)    * aligner le contenu des cellules sélectionnées vers la gauche.
 
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Alignement au centre](Spreadsheet_AlignCenter/fr.md)    * aligne le contenu des cellules sélectionnées au centre, horizontalement.
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width   *24px;"> [Alignement au centre](Spreadsheet_AlignCenter/fr.md)    * aligner le contenu des cellules sélectionnées au centre, horizontalement.
 
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Alignement à droite](Spreadsheet_AlignRight/fr.md)    * aligne le contenu des cellules sélectionnées vers la droite.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width   *24px;"> [Alignement à droite](Spreadsheet_AlignRight/fr.md)    * aligner le contenu des cellules sélectionnées vers la droite.
 
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Alignement en haut](Spreadsheet_AlignTop/fr.md)    * aligne le contenu des cellules sélectionnées en haut.
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width   *24px;"> [Alignement en haut](Spreadsheet_AlignTop/fr.md)    * aligner le contenu des cellules sélectionnées en haut.
 
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Alignement vertical au centre](Spreadsheet_AlignVCenter/fr.md)    * aligne le contenu des cellules sélectionnées au centre, verticalement.
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width   *24px;"> [Alignement vertical au centre](Spreadsheet_AlignVCenter/fr.md)    * aligner le contenu des cellules sélectionnées au centre, verticalement.
 
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Alignement en bas](Spreadsheet_AlignBottom/fr.md)    * aligne le contenu des cellules sélectionnées vers le bas.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width   *24px;"> [Alignement en bas](Spreadsheet_AlignBottom/fr.md)    * aligner le contenu des cellules sélectionnées vers le bas.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Texte en gras](Spreadsheet_StyleBold/fr.md)    * met en gras le contenu des cellules sélectionnées.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width   *24px;"> [Texte en gras](Spreadsheet_StyleBold/fr.md)    * mettre en gras le contenu des cellules sélectionnées.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Texte en italique](Spreadsheet_StyleItalic/fr.md)    * met le contenu des cellules sélectionnées en italique.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width   *24px;"> [Texte en italique](Spreadsheet_StyleItalic/fr.md)    * mettre le contenu des cellules sélectionnées en italique.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Texte souligné](Spreadsheet_StyleUnderline/fr.md)    * permet de souligner le contenu des cellules sélectionnées.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width   *24px;"> [Texte souligné](Spreadsheet_StyleUnderline/fr.md)    * permettre de souligner le contenu des cellules sélectionnées.
 
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Alias](Spreadsheet_SetAlias/fr.md)   * définit l\'alias d\'une cellule sélectionnée.
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width   *24px;"> [Alias](Spreadsheet_SetAlias/fr.md)    * définir l\'alias d\'une cellule sélectionnée.
 
 -    **Noir**et **Blanc** définissent les couleurs de premier plan et d\'arrière-plan des cellules sélectionnées.
 
 ## Préférences
 
--   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Préférences](Spreadsheet_Preferences/fr.md)    * les préférences pour le tableur. {{Version/fr|0.20}}
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width   *32px;"> [Préférences](Spreadsheet_Preferences/fr.md)    * les préférences pour l\'atelier Spreadsheet. {{Version/fr|0.20}}
 
 ## Insérer et supprimer des lignes et des colonnes 
 
@@ -74,22 +74,22 @@ Les propriétés d\'une cellule de feuille de calcul peuvent être modifiées en
 
 Comme mentionné dans les onglets, les propriétés suivantes peuvent être changées    *
 
--   Couleur   * couleur du texte et couleur d\'arrière-plan
--   Alignement   * alignement horizontal et vertical du texte
--   Style   * style du texte    * gras, italique, souligné
--   Affichage unités   *  affiche l\'unité de la cellule. Veuillez lire la section [Unités](#Unités.md) ci-dessous.
--   Alias    *  définit un [alias](Spreadsheet_SetAlias/fr.md) pour cette cellule. Cet alias peut être utilisé dans les formules de cellule et aussi dans les [expressions](Expressions/fr.md) générales; voir la section [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md) pour plus d\'informations.
+-   Couleur    * couleur du texte et couleur d\'arrière-plan
+-   Alignement    * alignement horizontal et vertical du texte
+-   Style    * style du texte    * gras, italique, souligné
+-   Affichage unités    * affiche l\'unité de la cellule. Veuillez lire la section [Unités](#Unités.md) ci-dessous.
+-   Alias    * définit un [alias](Spreadsheet_SetAlias/fr.md) pour cette cellule. Cet alias peut être utilisé dans les formules de cellule et aussi dans les [expressions](Expressions/fr.md) générales; voir la section [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md) pour plus d\'informations.
 
 ## Expressions dans les cellules 
 
-Une cellule de feuille de calcul peut contenir du texte arbitraire ou une expression. Techniquement, les expressions doivent commencer par un signe égal \'=\'. Cependant, le tableur tente d'être intelligent ; si vous entrez ce qui ressemble à une expression sans le signe \'=\', celui-ci sera ajouté automatiquement.
+Une cellule de feuille de calcul peut contenir un nombre, un texte ou une expression. Les expressions doivent commencer par le signe égal \"=\".
 
-Les expressions cellulaires peuvent contenir des nombres, des fonctions, des références à d\'autres cellules et des références à des propriétés du modèle (voir toutefois les [limitations courantes](#Limitations_Courantes.md) ci-dessous). Les cellules sont référencées par leur colonne (lettre CAPITALE) et leur rangée (nombre). Une cellule peut également être référencée par son [alias](#alias_name.md). Exemple   * B4 + A6
+Les expressions de cellules peuvent contenir des nombres, des fonctions, des références à d\'autres cellules et des références à des propriétés du modèle (voir [Limitations actuelles](#Limites_actuelles.md) ci-dessous). Une cellule peut être référencée par son adresse (lettre majuscule de la colonne + numéro de ligne, par exemple B4) ou par son [alias](Spreadsheet_SetAlias/fr.md).
 
-**Remarque   *** Les expressions de cellule sont traitées par FreeCAD comme du code de programmation. Par conséquent, lorsque vous modifiez une cellule, vous voyez que le contenu ne suit pas vos paramètres d\'affichage   *
+**Remarque    *** les expressions de cellules sont traitées par FreeCAD comme du code de programmation. Par conséquent, lorsque vous modifiez une cellule, le contenu que vous voyez peut ne pas suivre vos paramètres d\'affichage    *
 
--   le séparateur décimal est toujours un point
--   le nombre de décimales affichées peut différer de vos [paramètres de préférences](Preferences_Editor/fr#Unit.C3.A9s.md)
+-   Le séparateur décimal est toujours un point. Mais les virgules peuvent également être utilisées lors de la saisie des valeurs.
+-   Le nombre de décimales affichées peut différer de vos [paramètres de préférences](Preferences_Editor/fr#Unit.C3.A9s.md).
 
 Les références aux objets dans le modèle sont expliquées ci-dessous [Références aux données CAO](#R.C3.A9f.C3.A9rences_aux_donn.C3.A9es_CAO.md). L\'utilisation des valeurs de cellule de feuille de calcul pour définir les propriétés du modèle est expliquée ci-dessous [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md). Pour plus d\'informations sur les expressions et les fonctions disponibles, voir [Expressions](Expressions/fr.md).
 
@@ -101,9 +101,9 @@ De même, les propriétés des objets de modèle CAO peuvent être utilisées da
 
 Plusieurs feuilles de calcul peuvent être utilisées dans un document. Une feuille de calcul peut être identifiée à l\'aide de son nom ou de son étiquette.
 
-FreeCAD attribuera automatiquement un nom unique à une feuille de calcul lors de sa création. Ces noms suivent le modèle `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` et ainsi de suite. Le nom ne peut pas être modifié manuellement et il n\'est pas visible dans les propriétés de la feuille de calcul. Il peut être utilisé pour faire référence à la feuille de calcul dans une [Expression](Expressions/fr.md) (voir ci-dessous [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md).)
+FreeCAD attribuera automatiquement un nom unique à une feuille de calcul lors de sa création. Ces noms suivent le modèle `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` et ainsi de suite. Le nom ne peut pas être modifié et il n\'est pas visible dans les propriétés de la feuille de calcul. Il peut être utilisé pour faire référence à la feuille de calcul dans une [Expression](Expressions/fr.md) (voir ci-dessous [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md).)
 
-L\'étiquette d\'une feuille de calcul est automatiquement définie sur le nom de la feuille de calcul lors de sa création. Contrairement au nom, l\'étiquette peut être modifiée, par exemple dans le panneau des propriétés ou à l\'aide de l\'action Renommer du menu contextuel. Notez que l\'étiquette d\'une feuille de calcul dans un document doit être unique. Si vous essayez de changer l\'étiquette en une étiquette déjà utilisée par une autre feuille de calcul, FreeCAD n\'acceptera pas la nouvelle étiquette.
+L\'étiquette d\'une feuille de calcul est automatiquement définie sur le nom de la feuille de calcul lors de sa création. Contrairement au nom, l\'étiquette peut être modifiée, par exemple dans le panneau des propriétés ou à l\'aide de l\'action Renommer du menu contextuel. Par défaut, FreeCAD n\'accepte pas les étiquettes en double, mais il existe une [préférence](Preferences_Editor/fr#Document.md) qui permet de passer outre. Les feuilles de calcul avec des étiquettes dupliquées dans le même document ne peuvent pas être référencées par leur étiquette.
 
 FreeCAD vérifie les dépendances cycliques. Voir [limitations courantes](Spreadsheet_Workbench/fr#Limitations_Courantes.md).
 
@@ -111,24 +111,31 @@ FreeCAD vérifie les dépendances cycliques. Voir [limitations courantes](Spread
 
 Comme indiqué ci-dessus, il est possible de référencer les données du modèle CAO dans des expressions de feuille de calcul.
 
-Les expressions calculées dans les cellules de la feuille de calcul commencent par un signe égal (\'=\'). Cependant, le mécanisme de saisie du tableur tente d'être astucieux. Une expression peut être entrée sans le signe \'=\'. Si la chaîne entrée est une expression valide, un \'=\' est automatiquement ajouté lors de la frappe de la touche **Valider**. Si la chaîne entrée n\'est pas une expression valide (souvent le résultat d\'une saisie avec une casse incorrecte, par exemple \"MonCube.longueur\" à la place de \"MonCube.Longueur\"), aucun \'=\' n\'est ajouté et cela est traité comme une simple chaîne de texte.
+Le tableau suivant montre quelques exemples en supposant que le modèle a une fonctionnalité nommée \"MyCube\"    *
 
-**Remarque   *** le comportement ci-dessus (insertion automatique de \'=\') a des travers désagréables    *
-
--   si vous souhaitez conserver une colonne de noms correspondant aux noms d\'[alias](#alias_name.md) dans une colonne de valeurs adjacente, vous devez saisir le nom dans la colonne d\'étiquette avant celle donnée à la cellule dans la colonne de valeur comme nom d\'alias. Sinon, lorsque vous entrez le nom d\'alias dans la colonne d\'étiquette, la feuille de calcul considère qu\'il s\'agit d\'une expression et la remplace par \"=\" ; et le texte affiché correspondra à la valeur de la cellule .
--   Si vous faites une erreur lors de la saisie du nom dans la colonne d\'étiquette et souhaitez le corriger, vous ne pouvez pas le changer simplement en nom d\'alias. Au lieu de cela, vous devez d\'abord remplacer le nom d\'alias par un autre nom, puis corriger le nom du texte dans la colonne d\'étiquette, puis remplacer le nom d\'alias dans la colonne de valeur par son nom d\'origine.
-
-Une façon d\'éviter ces problèmes consiste à préfixer les étiquettes de texte correspondant aux noms d\'alias avec une chaîne fixe, les rendant ainsi différentes. Notez que \"\_\" ne fonctionnera pas, car il est converti en \"=\". Cependant, un blanc, bien qu\'invisible, fonctionnera.
-
-Le tableau suivant montre quelques exemples en supposant que le modèle a une fonctionnalité nommée \"MonCube\"    *
-
-  Donnée CAO                                              Cellule dans la feuille de calcul   Résultat
-    
-  Longueur paramétrique d\'un Cube dans l\'Atelier Part   =MonCube.Longueur                   Longueur en mm
-  Volume du Cube                                          =MonCube.Shape.Volume               Volume en mm³ sans unité
-  Type de la forme du Cube                                =MonCube.Shape.ShapeType            String   * Solid
-  Nom du Cube                                             =MonCube.Label                      String   * MonCube
-  Coordonnée x du centre de gravité du Cube               =MonCube.Shape.CenterOfMass.x       Coordonnée x en mm sans unité
+++++
+| Donnée CAO                                            | Cellule dans la feuille de calcul                        | Résultat                     |
++=======================================================+==========================================================+==============================+
+| Longueur paramétrique d\'un cube dans l\'atelier Part |                                           | Longueur en mm               |
+|                                                       | {{Incode|<nowiki>=MyCube.Length</nowiki>}}               |                              |
+|                                                       |                                                       |                              |
+++++
+| Volume du cube                                        |                                           | Volume en mm³ sans unité     |
+|                                                       | {{Incode|<nowiki>=MyCube.Shape.Volume</nowiki>}}         |                              |
+|                                                       |                                                       |                              |
+++++
+| Type de la forme du cube                              |                                           | Chaîne de caractère    * Solid  |
+|                                                       | {{Incode|<nowiki>=MyCube.Shape.ShapeType</nowiki>}}      |                              |
+|                                                       |                                                       |                              |
+++++
+| Nom du cube                                           |                                           | Chaîne de caractère    * MyCube |
+|                                                       | {{Incode|<nowiki>=MyCube.Label</nowiki>}}                |                              |
+|                                                       |                                                       |                              |
+++++
+| Coordonnée x du centre de gravité du cube             |                                           | Coordonnée en mm sans unité  |
+|                                                       | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                              |
+|                                                       |                                                       |                              |
+++++
 
 ### Données de la feuille de calcul dans les expressions 
 
@@ -149,7 +156,7 @@ Pour utiliser les données de la feuille de calcul dans d\'autres parties de Fre
 
 <div class="mw-collapsible mw-collapsed">
 
-La méthode recommandée pour faire référence aux données de la feuille de calcul consiste à utiliser l\'étiquette de la feuille de calcul et le nom d\'alias de cellule. Pour une explication plus approfondie des avantages et des inconvénients des modes d\'adressage, consultez la section développée ci-dessous.
+La méthode recommandée pour faire référence aux données d\'une feuille de calcul est d\'utiliser l\'étiquette de la feuille de calcul et le nom de l\'alias de la cellule. Pour une explication plus approfondie des avantages et des inconvénients des modes de référencement, consultez la section développée ci-dessous.
 
 
 <div class="mw-collapsible-content">
@@ -170,21 +177,21 @@ Bien que vous puissiez utiliser le numéro de ligne et de colonne dans une expre
 
 La modification d\'une feuille de calcul déclenchera un recalcul du modèle 3D, même si les modifications n\'affectent pas le modèle. Pour un modèle complexe, un recalcul peut prendre beaucoup de temps et devoir attendre après chaque édition est bien sûr assez ennuyeux.
 
-Il existe trois solutions pour y remédier   *
+Il existe trois solutions pour y remédier    *
 
-1.  Ignorer temporairement les recalculs   *
+1.  Ignorez temporairement les recalculs    *
     -   Dans la [Vue en arborescence](Tree_view/fr.md), clic droit sur le document <img alt="" src=images/Document.svg  style="width   *24px;"> qui contient la feuille de calcul.
     -   Sélectionnez l\'option **Skip recomputes** dans le menu contextuel.
     -   Il y a un gros inconvénient à cette solution. Les nouvelles valeurs entrées dans la feuille de calcul ne seront pas affichées tant que le document n\'aura pas été recalculé. Au lieu de cela, `#PENDING` est affiché.
     -   Vous pouvez soit recalculer manuellement, en utilisant la commande [Std Rafraîchir](Std_Refresh/fr.md), soit désactiver **Skip recomputes** lorsque vous avez terminé l\'édition.
-2.  Utilisez une macro pour ignorer automatiquement les recalculs lors de la modification d\'une feuille de calcul   *
+2.  Utilisez une macro pour ignorer automatiquement les recalculs lors de la modification d\'une feuille de calcul    *
     -   Téléchargez et exécutez [skipSheet.FCMacro](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301).
     -   Cette solution économise quelques étapes par rapport à la première solution, mais présente également l\'inconvénient mentionné.
-3.  Mettez la feuille de calcul dans un [fichier séparé](File_Format_FCStd/fr.md)   *
+3.  Mettez la feuille de calcul dans un [fichier séparé](File_Format_FCStd/fr.md)    *
     -   Vous pouvez référencer des données de feuille de calcul à partir d\'un fichier externe **.FCStd** avec cette syntaxe   * `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
     -   L\'avantage d\'avoir la feuille de calcul dans un autre fichier par rapport à la désactivation des recalculs est que la feuille de calcul elle-même est recalculée.
     -   L\'inconvénient est que le modèle ne recalculera pas automatiquement après les modifications apportées à la feuille de calcul.
-    -   Dans le scénario où vous ouvrez d\'abord le fichier \'tableur\', changez une ou plusieurs valeurs puis ouvrez le fichier \'modèle\', il n\'y aura aucune indication que le modèle doit être recalculé. Mais si les deux fichiers sont ouverts, l\'icône [Std Rafraîchir](Std_Refresh/fr.md) se mettra à jour correctement pour le fichier \'modèle\' après les modifications apportées au fichier \'tableur\'.
+    -   Dans le scénario où vous ouvrez d\'abord le fichier \"tableur\", changez une ou plusieurs valeurs puis ouvrez le fichier \"modèle\", il n\'y aura aucune indication que le modèle doit être recalculé. Mais si les deux fichiers sont ouverts, l\'icône [Std Rafraîchir](Std_Refresh/fr.md) se mettra à jour correctement pour le fichier \"modèle\" après les modifications apportées au fichier \"tableur\".
 
 ## Unités
 
@@ -192,7 +199,7 @@ Le tableur intègre une notion de dimension (unités) associée aux valeurs de c
 
 Si une cellule contient une valeur qui représente une dimension, vous devez la saisir avec son unité associée. Bien que dans de nombreux cas simples, on puisse se débrouiller avec une valeur sans dimension, il est déconseillé de ne pas entrer l\'unité. Si une valeur représentant une dimension est entrée sans son unité associée, certaines séquences d\'opérations obligent FreeCAD à alerter sur les unités incompatibles dans une expression lorsqu\'il apparaît que celle-ci doit être validée. (Cela peut être mieux compris en consultant ce [sujet (en)](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) dans les forums FreeCAD.)
 
-Vous pouvez modifier les unités affichées pour une valeur de cellule à l\'aide de l\'onglet Unités de la boîte de dialogue Propriétés [Unités](#Unit.C3.A9s.md) (ci-dessus). Cela ne change pas la valeur contenue dans la cellule; il ne convertit que la valeur existante pour l\'affichage. La valeur utilisée pour les calculs ne change pas et les résultats des formules utilisant cette valeur ne changent pas. Par exemple, une cellule contenant la valeur \"5.08cm\" peut être affichée sous la forme \"2in\" en modifiant la valeur de l\'onglet des unités en \"in\".
+Vous pouvez modifier les unités affichées pour la valeur d\'une cellule à l\'aide de la [boîte de dialogue Propriétés de la cellule](#Propri.C3.A9t.C3.A9s_d.27une_cellule.md). Cela ne modifie pas la valeur contenue dans la cellule; cela ne fait que convertir la valeur existante pour l\'affichage. La valeur utilisée pour les calculs ne change pas, et les résultats des formules utilisant cette valeur ne changent pas. Par exemple, une cellule contenant la valeur \"5.08cm\" peut être affichée sous la forme \"2in\" en modifiant la valeur de l\'onglet des unités en \"in\".
 
 Un nombre sans dimension ne peut pas être changé en nombre avec une unité dans la boîte de dialogue des propriétés de la cellule. On peut mentionner une chaîne unité, et cette chaîne sera affichée ; mais la cellule contient toujours un nombre sans dimension. Afin de changer une valeur sans dimension en une valeur avec dimension, la valeur elle-même doit être entrée à nouveau avec son unité associée.
 
@@ -218,11 +225,11 @@ Les autres fonctionnalités ne sont pas importées dans la feuille de calcul Fre
 
 Pour gérer la mise en page nécessaire à l\'impression, les feuilles de calcul FreeCAD sont imprimées en les insérant dans une [TechDraw Vue d\'un tableur](TechDraw_SpreadsheetView/fr.md).
 
-## Limitations courantes 
+## Limites actuelles 
 
 FreeCAD vérifie les dépendances cycliques lorsqu\'il recalcule. De par sa conception, cette vérification s'arrête au niveau de l'objet feuille de calcul. Par conséquent, vous ne devriez pas avoir de feuille de calcul contenant à la fois des cellules dont les valeurs sont utilisées pour spécifier des paramètres pour le modèle et des cellules dont les valeurs utilisent la sortie du modèle. Par exemple, vous ne pouvez pas avoir de cellules spécifiant la longueur, la largeur et la hauteur d\'un objet, et une autre cellule qui référence le volume total de la forme obtenue. Cette restriction peut être surmontée en disposant de deux feuilles de calcul    * l\'une utilisée comme source de données pour les paramètres d\'entrée du modèle et l\'autre pour les calculs basés sur les données géométriques résultantes.
 
-## Liaison cellulaire 
+## Liaison entre cellules 
 
 
 {{Version/fr|0.20}}

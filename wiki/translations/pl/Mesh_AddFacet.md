@@ -1,47 +1,48 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh AddFacet
-   MenuLocation   *Meshes → Add triangle
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Mesh FillupHoles](Mesh_FillupHoles.md), [Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md)
+   Name/pl   *Siatka   * Dodaj trójkąt
+   MenuLocation   *Siatki → Dodaj trójkąt
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Wypełnienie otworów](Mesh_FillupHoles/pl.md), [Interaktywne wypełnienie otworów](Mesh_FillInteractiveHole/pl.md)
 ---
 
 # Mesh AddFacet/pl
 
 ## Opis
 
-Polecenie Dodaj element środowiska Siatka dodaje powierzchnie wzdłuż granicy otwartego obiektu siatkowego. Można go użyć do wypełnienia otworów.
+Polecenie Dodaj trójkąt środowiska Siatka dodaje powierzchnie wzdłuż granicy otwartego obiektu siatkowego. Można go użyć do wypełnienia otworów.
 
 ## Użycie
 
-1.  During the command edit mode will be active. In this mode it is impossible to rotate or pan the [3D view](3D_view.md), although zooming still works. But you can temporarily switch out of edit mode with the [Std ToggleNavigation](Std_ToggleNavigation.md) command should you need to change the view.
-2.  Select a single open mesh object.
-3.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_AddFacet.svg" width=16px> [Mesh AddFacet](Mesh_AddFacet.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_AddFacet.svg" width=16px> Add triangle** option from the menu.
-4.  If you hover over a vertex along a boundary of the mesh a yellow marker will appear and a left-click will select it.
-5.  Select two additional points to define a triangular face. The order of the three points, clockwise or counterclockwise, determines the direction of the normal of the face.
-6.  A menu pops up with the following options   *
+1.  Podczas wykonywania polecenia aktywny będzie tryb edycji. W tym trybie nie można obracać ani przesuwać [widoku 3D](3D_view/pl.md), chociaż powiększanie nadal działa. Możesz jednak tymczasowo wyłączyć tryb edycji komendą [Przełącz tryb nawigacja / edycja](Std_ToggleNavigation/pl.md) jeśli potrzebujesz zmienić widok.
+2.  Wybierz pojedynczy otwarty obiekt siatki.
+3.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_AddFacet.svg" width=16px> [Dodaj trójkąt](Mesh_AddFacet/pl.md)**.
+    -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_AddFacet.svg" width=16px> Dodaj trójkąt**.
+4.  Jeśli najedziesz kursorem na wierzchołek położony wzdłuż granicy siatki, pojawi się żółty znacznik, a kliknięcie lewym przyciskiem myszy spowoduje jego wybranie.
+5.  Wybierz dwa dodatkowe punkty, aby zdefiniować trójkątną ścianę. Kolejność trzech punktów, zgodnie lub przeciwnie do ruchu wskazówek zegara, określa kierunek normalnej ściany.
+6.  Wyskakuje menu z następującymi opcjami   *
     -   
-        **Add triangle**
+        **Dodaj trójkąt**
         
-           * adds the face to the mesh.
-
-    -   
-        **Flip normal**
-        
-           * flips the normal of the face. After selecting this option a left-click will again show the menu.
+           * dodaje ścianę do siatki.
 
     -   
-        **Clear**
+        **Odwróć wektory normalne**
         
-           * removes the selected points.
-7.  Optionally add more faces.
-8.  Choose **Finish** from the 3D view contex menu to finish the command.
+           * odwraca normalną ściany. Po wybraniu tej opcji kliknięcie lewym przyciskiem myszy ponownie wyświetli menu.
 
-## Notes
+    -   
+        **Wyczyść**
+        
+           * usuwa zaznaczone punkty.
+7.  Opcjonalnie dodaj więcej ścian.
+8.  Wybierz **Zakończ** z menu kontekstowego w oknie widoku 3D, aby zakończyć polecenie.
 
--   For a clear indication of the orientation of the faces of mesh objects make sure the **Lighting** property of the mesh objects is set to {{Value|One side}}. The color of the back side of their faces will then depend on the backlight settings   * **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See   * [Preferences Editor](Preferences_Editor#3D_View.md).
+## Uwagi
+
+-   Aby wyraźnie odróżnić orientację ścian obiektów siatkowych upewnij się, że właściwość **Oświetlenie** obiektów siatkowych jest ustawiona na wartość {{Value|Jedna strona}}. Kolor tylnej strony ich ścian będzie wtedy zależał od ustawień podświetlenia   * **Edycja → Preferencje → Wyświetlanie → 3D View → Włącz podświetlenie - Intensywność podświetlenia**. Zobacz również informacje na stronie [Edytor ustawień](Preferences_Editor/pl#3D_View.md).
 
 
 

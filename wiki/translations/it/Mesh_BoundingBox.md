@@ -12,26 +12,16 @@ Il comando **Info limiti d\'ingombro** fornisce le coordinate minime e massime d
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare un singolo oggetto mesh.
-2.  Selezionare l\'opzione **Mesh → Analizza → <img src="images/Mesh_BoundingBox.svg" width=16px> Info limiti d'ingombro...** dal menu.
+2.  Esistono diversi modi per invocare il comando
+    -   Premere il bottone **<img src="images/Mesh_BoundingBox.svg" width=16px> [Mesh BoundingBox](Mesh_BoundingBox/it.md)**.
+    -   Selezionare l\'opzione **Mesh → Analizza → <img src="images/Mesh_BoundingBox.svg" width=16px> Info limiti d'ingombro...** dal menu.
 3.  Si apre la finestra di dialogo **Limiti** per mostrare le coordinate di delimitazione dell\'oggetto.
 4.  Le stesse informazioni vengono visualizzate anche nella finestra [Report](Report_view/it.md).
 5.  Premere **OK** per chiudere la finestra di dialogo e terminare il comando.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

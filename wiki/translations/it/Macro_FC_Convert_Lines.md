@@ -11,16 +11,42 @@
 |Download=[https   *//www.freecadweb.org/wiki/images/e/e2/Macro_FCConvertLines.png ToolBar Icon]
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
-Questa macro converte la linea dell\'oggetto, da continua a tratteggiata, a tratto e punto, a puntini, a zig zag, e le assegna lo spessore indicato. {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/3d719574089a5f9044ec/raw/812769b6b296a1da2e9c8cd8153ad7266fe80f8d/Macro_FCConvertLines.FCMacro}}
+Questa macro converte la linea dell\'oggetto, da continua a tratteggiata, a tratto e punto, a puntini, a zig zag, e le assegna lo spessore indicato.
+
+
+</div>
+
+
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/3d719574089a5f9044ec/raw/812769b6b296a1da2e9c8cd8153ad7266fe80f8d/Macro_FCConvertLines.FCMacro}}
 
 <img alt="" src=images/Macro_FCConvertLines_00.png  style="width   *400px;"> 
 *ConvertLines Dash, Dash dot, Dash dot dot*
 
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ## Utilizzo
 
-Copiare la macro nella cartella macro e avviarla da FCConvertLines Gui ![FCConvertLines Gui](images/Macro_FCConvertLines_01.png )  Prima sezione   *
+Copiare la macro nella cartella macro e avviarla da FCConvertLines Gui ![FCConvertLines Gui](images/Macro_FCConvertLines_01.png )
+
+
+</div>
+
+![FCConvertLines Gui](images/Macro_FCConvertLines_01.png )
+
+
+
+
+Prima sezione   *
 
 Cut line (Attivo di default) ![FCConvertLines](images/Macro_FCConvertLines_02.png )
 
@@ -137,7 +163,7 @@ Nona sezione    *
 
 Bottoni ![FCConvertLines](images/Macro_FCConvertLines_10.png ) 
 
--    **Save type**   * la linea configurata viene salvata in un unico file (un file per un tipo di linea). Durante il salvataggio di un file un intestazione è predeterminato a seconda del menù scelto (ad esempio   * Dash viene salvato, nella finestra di salvataggio viene visualizzato \"Dash\_.FCConvertL\" è possibile modificare a \"Dash\_my\_config\_10.FCConvertL\" o il nome che si desidera \... questo metodo permette acuisce chiaro)
+-    **Save type**   * la linea configurata viene salvata in un unico file (un file per un tipo di linea). Durante il salvataggio di un file un intestazione è predeterminato a seconda del menù scelto (ad esempio   * Dash viene salvato, nella finestra di salvataggio viene visualizzato \"Dash\_.FCConvertL\" è possibile modificare a \"Dash_my_config_10.FCConvertL\" o il nome che si desidera \... questo metodo permette acuisce chiaro)
 
 -    **Load type**   * caricare un file di una linea configurata
 
@@ -154,23 +180,86 @@ Bottoni ![FCConvertLines](images/Macro_FCConvertLines_10.png )
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## I fili devono essere copiati dentro vostro repertorio di insieme la macro (10 fili immagine) 
 
-**L\' icona per la vostra toolBar** ![Macro\_FCConvertLines](images/Macro_FCConvertLines.png )  **Title** ![ConvertLines\_Title](images/Macro_FCConvertLines_Title.png )  **Line Dash**    * ![ConvertLines\_Dash](images/Macro_FCConvertLines_Dash.png )  **Line DashDot**    * ![ConvertLines Dash dot](images/Macro_FCConvertLines_DashDot.png_‎ )  **Line DashDotDot**    * ![ConvertLines Dash dot dot](images/Macro_FCConvertLines_DashDotDot.png )  **Line Zigzag**    * ![ConvertLines\_Zigzag](images/Macro_FCConvertLines_Zigzag.png )  **Line Hand**    * ![ConvertLines\_Hand](images/Macro_FCConvertLines_Hand.png )  **View**    *  ![ConvrtLines\_View-front](images/Macro_FCConvrtLines_View-front.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-right.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-top.png ) 
+**L\' icona per la vostra toolBar**
+
+
+</div>
+
+**The icon for the toolBar** ![Macro_FCConvertLines](images/Macro_FCConvertLines.png )  **Title** ![ConvertLines_Title](images/Macro_FCConvertLines_Title.png )  **Line Dash**    * ![ConvertLines_Dash](images/Macro_FCConvertLines_Dash.png )  **Line DashDot**    * ![ConvertLines Dash dot](images/Macro_FCConvertLines_DashDot.png_‎ )  **Line DashDotDot**    * ![ConvertLines Dash dot dot](images/Macro_FCConvertLines_DashDotDot.png )  **Line Zigzag**    * ![ConvertLines_Zigzag](images/Macro_FCConvertLines_Zigzag.png )  **Line Hand**    * ![ConvertLines_Hand](images/Macro_FCConvertLines_Hand.png )  **View**    *  ![ConvrtLines_View-front](images/Macro_FCConvrtLines_View-front.png ) ![ConvrtLines_View-right](images/Macro_FCConvrtLines_View-right.png ) ![ConvrtLines_View-right](images/Macro_FCConvrtLines_View-top.png ) 
 
 ## Script
 
-Copiare la macro **Macro\_FCConvertLines.FCMacro** dentro vostro repertorio dei macros
 
-Lo script su Gist [Macro\_FCConvertLines.FCMacro](https   *//gist.github.com/mario52a/3d719574089a5f9044ec)
+<div class="mw-translate-fuzzy">
+
+## Script 
+
+Copiare la macro **Macro_FCConvertLines.FCMacro** dentro vostro repertorio dei macros
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo script su Gist [Macro_FCConvertLines.FCMacro](https   *//gist.github.com/mario52a/3d719574089a5f9044ec)
+
+
+</div>
 
 ToolBar icon ![](images/Macro_FCConvertLines.png )
 
-**Macro\_FCConvertLines.FCMacro**
+**Macro_FCConvertLines.FCMacro**
+
+## Examples
+
+
+<div class="mw-translate-fuzzy">
 
 ## Esempi
 
-Esempi dot, dash dot, dash dot, dash dot dot [center\|500px ](File   *Macro_FCConvertLines_11b.png.md)  Esempi hand, zigzag [center\|500px ](File   *Macro_FCConvertLines_11.png.md)  Esempio hand [center\|500px ](File   *Macro_FCConvertLines_012.png.md) Tutte le linee sono create con le specifiche di configurazione impostate nelle opzioni delle linee  Esempio hand (manuale) con cui si può creare una bella onda sinusoidale o una linea totalmente anarchica [center\|500px ](File   *Macro_FCConvertLines_013.png.md) 
+Esempi dot, dash dot, dash dot, dash dot dot [center\|500px ](File   *Macro_FCConvertLines_11b.png.md)
+
+
+</div>
+
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+Esempi hand, zigzag [center\|500px ](File   *Macro_FCConvertLines_11.png.md)
+
+
+</div>
+
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+Esempio hand [center\|500px ](File   *Macro_FCConvertLines_012.png.md) Tutte le linee sono create con le specifiche di configurazione impostate nelle opzioni delle linee
+
+
+</div>
+
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+Esempio hand (manuale) con cui si può creare una bella onda sinusoidale o una linea totalmente anarchica [center\|500px ](File   *Macro_FCConvertLines_013.png.md) 
+
+
+</div>
 
 Esempio di conversione ShapeString in Sketch (Le curve non sono autorizzate per la conversione Shape to Sketch)
 
@@ -181,7 +270,7 @@ Esempio di conversione ShapeString in Sketch (Le curve non sono autorizzate per 
 
 ## Versione
 
-ver 00.07b 09/11/2020 correct bug \# (ajoute recompute() pour corriger)\# Cannot compute Inventor representation for the shape of Shape. aggiunto Linea con Label
+ver 00.07b 09/11/2020 correct bug \# (ajoute recompute() pour corriger)# Cannot compute Inventor representation for the shape of Shape. aggiunto Linea con Label
 
 ver 00.07 13/05/2017 corretto bug dopo aver creato una linea \"Alternate \....\" le dimensione non ritornavano alle dimensione volute.
 

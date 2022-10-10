@@ -12,18 +12,12 @@
 
 ## Beschreibung
 
-Dieses Werkzeug <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *16px;"> zeichnet einen Kreis durch Anwahl dreier Punkte auf der Kreisumfangslinie. Wenn das Werkzeug gestartet wird, verwandelt sich der Mauszeiger in ein weisses Kreuz mit einem roten Kreissymbol. Die Koordinaten werden neben dem Kreuz in blau in Echtzeit angezeigt.
+Dieses Werkzeug <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *16px;"> zeichnet einen Kreis durch Anwahl dreier Punkte auf dem Kreisbogen. Wenn das Werkzeug gestartet wird, verwandelt sich der Mauszeiger in ein weisses Kreuz mit einem roten Kreissymbol. Die Koordinaten werden neben dem Kreuz in blau in Echtzeit angezeigt.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
--   Wähle einen Punkt in einen leeren Bereich der 3D Ansicht, oder auf einem bestehenden Objekt (Auto Beschränkungen müssen in der AufgabenAnsicht aktiviert sein)
--   Drücken von **Esc** oder klicken der rechten Maustaste bricht die Funktion ab.
-
-
-</div>
+-   Drei Punkte in einem leeren Bereich der 3D-Ansicht auswählen oder auf einem bestehenden Objekt (Automatische Randbedingungen müssen im [Aufgabenbereich](Task_panel/de.md) aktiviert sein)
+-   Das Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
 
 

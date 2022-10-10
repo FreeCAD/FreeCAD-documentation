@@ -1,5 +1,5 @@
 # Std Measure Menu
-1.  REDIRECT [Part\_Measure\_Menu](Part_Measure_Menu.md)
+1.  REDIRECT [Part_Module#Measure](Part_Module#Measure.md)
 
 
 

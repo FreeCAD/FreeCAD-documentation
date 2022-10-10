@@ -18,17 +18,9 @@ Questa macro crea un cerchio da 3 punti selezionati. I punti possono essere ogge
 <img alt="" src=images/Macro_Draft_Circle_3_Points01.png  style="width   *480px;"> 
 *crea un cerchio da 3 punti selezionati.*
 
+## Utilizzo
 
-<div class="mw-translate-fuzzy">
-
-### Utilizzo
-
-Selezionare 3 punti o forme nella vista 3D poi avviare la macro.
-
-Se la forma è una linea, le coordinate sono date dal centro della linea.
-
-
-</div>
+Selezionare 3 punti o forme nella vista 3D poi avviare la macro. Se la forma è una linea, le coordinate sono date dal centro della linea.
 
 ## Opzioni
 
@@ -39,7 +31,7 @@ Se tutti gli oggetti selezionati hanno la stessa coordinata Z (xy **Z5**, xy **Z
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Draft\_Circle\_3\_Points.FCMacro**
+**Draft_Circle_3\_Points.FCMacro**
 
 
 {{MacroCode|code=
@@ -289,7 +281,7 @@ Guarda alternativamente con l\'occhio sinistro e l\'occhio destro per vedere le 
 ## Crediti
 
 La genesi della macro **Draft Circle 3 Points** si trova nel forum [(PYTHON) coordonnées d\'un point](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) a cui ha contribuito flachyjoe che ringrazio.
-La formula è presa da [cercle\_3pts.pdf](http   *//www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) ed utilizzata con il gentile permesso del suo autore.
+La formula è presa da [cercle_3pts.pdf](http   *//www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) ed utilizzata con il gentile permesso del suo autore.
 
 
 

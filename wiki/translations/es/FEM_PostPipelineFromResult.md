@@ -75,12 +75,6 @@ Pipeline es un objeto de resultado, que crea una nueva representación gráfica 
     ** '''Parallel'''   * In this mode all filters take the pipeline as input.
     ** '''Custom'''   * <small>(v0.20)</small>  This is the default and keeps the input of the filters as they are. Therefore it allows to have e.g. two filters that take the pipeline as input, and a third filter that takes one of the two filters as input.
 
-    ==Limitaciones==
-
-    <div class="mw-translate-fuzzy">
-    Una vez más, tenga en cuenta que la representación de la tubería de los resultados (llamados VTK) en la parte mostrada es diferente de los resultados del gradiente de color que son visibles cuando termina la solución. Los valores en la escala de degradado no se pueden aplicar al objeto de resultado de la solución.
-    </div>
-
 
     
 

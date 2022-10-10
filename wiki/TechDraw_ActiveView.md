@@ -4,17 +4,17 @@
    MenuLocation   *TechDraw → Insert Active View (3D View)
    Workbenches   *[TechDraw](TechDraw_Workbench.md)
    Version   *0.19
-   SeeAlso   *[TechDraw Symbol](TechDraw_Symbol.md)
+   SeeAlso   *[TechDraw Image](TechDraw_Image.md)
 ---
 
 # TechDraw ActiveView
 
 ## Description
 
-The ActiveView tool inserts a copy of a 3D window into a drawing page.
+The ActiveView tool inserts a bitmap image of the active 3D window into a drawing page.
 
  ![](images/TechDraw_ActiveView_example.png )  
-*A simple view from the 3D model that doesn't perform any complex calculation.*
+*A simple view from the 3D model.*
 
 ## Usage
 
@@ -33,57 +33,27 @@ The ActiveView tool inserts a copy of a 3D window into a drawing page.
 
 The following can be specified   *
 
--    **Width**   * The width of the generated view.
+-    **Crop**   * Crop the generated bitmap.
 
--    **Height**   * The height of the generated view.
+-    **Width**   * The width (in mm) to crop the generated view.
 
--    **Border**   * The amount of empty space to be left around the view (but within Width x Height).
+-    **Height**   * The height (in mm) to crop the generated view.
 
--    **Background**   * If checked a background with the specified color is added.
+-    **No Background**   * If checked, the generated bitmap will have a transparent background.
 
--    **Line Width**   * The thickness of the lines in the view.
+-    **Solid Background**   * If checked, the generated will have a background of the selected color.
 
--    **Render Mode**   * The available modes are   *
-
-    -   
-        {{Value|As is}}
-        
-           * Render primitives as they are.
-
-    -   
-        {{Value|Wireframe}}
-        
-           * Render polygons as wireframe.
-
-    -   
-        {{Value|Points}}
-        
-           * Render only the vertices of the polygons and lines.
-
-    -   
-        {{Value|Wireframe overlay}}
-        
-           * Render a wireframe overlay in addition to the {{Value|As is}} mode.
-
-    -   
-        {{Value|Hidden Line}}
-        
-           * As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
-
-    -   
-        {{Value|Bounding box}}
-        
-           * Only show the bounding box of each object.
+-    **Use 3d Background**   * If checked, the generated bitmap will use the background from the 3D window.
 
 ## Notes
 
 -   ActiveViews are static once generated, they are never updated with changes to the 3D model.
--   An ActiveView behind the scenes is a [Symbol](TechDraw_Symbol.md). Its **Scale Type** is therefore always initialized as {{Value|Custom}}.
--   This tool is still somewhat **Experimental**.
+-   An ActiveView behind the scenes is an [Image](TechDraw_Image.md). Its **Scale Type** is therefore always initialized as {{Value|Custom}}.
+-   In {{VersionMinus|0.20}} ActiveView was a [Symbol](TechDraw_Symbol.md).
 
 ## Properties
 
-See [TechDraw Symbol](TechDraw_Symbol.md).
+See [TechDraw Image](TechDraw_Image#Properties.md).
 
 ## Scripting
 
@@ -92,13 +62,7 @@ See [TechDraw Symbol](TechDraw_Symbol.md).
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The ActiveView tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
-
- 
-```python
-import TechDrawGui
-TechDrawGui.copyActiveViewToSvgFile(Gui.ActiveDocument.ActiveView,"myFile.svg")
-```
+The ActiveView tool is not available for [macros](Macros.md) or the [console Python](Python_console.md). Use [Std ViewScreenShot](Std_ViewScreenShot.md) instead.
 
 
 

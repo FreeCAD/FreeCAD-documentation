@@ -12,19 +12,19 @@
 
 ## Opis
 
-The **Std TreeSingleDocument** command switches the [Tree view](Tree_view.md) DocumentMode to SingleDocument. In this mode only a single document is visible in the Tree view. The other modes are [MultiDocument](Std_TreeMultiDocument.md) and [CollapseDocument](Std_TreeCollapseDocument.md).
+Polecenie **Jeden dokument w widoku drzewa** przełącza tryb dokumentu w [Widok drzewa](Tree_view/pl.md) na tryb pojedynczego dokumentu. W tym trybie w widoku Drzewa widoczny jest tylko aktywny dokument. Pozostałe tryby to [Wiele dokumentów](Std_TreeMultiDocument/pl.md) i [Zwiń / Rozwiń](Std_TreeCollapseDocument/pl.md).
 
-In SingleDocument mode you can switch to a different document by activating a 3D view belonging to that document. You can do this in the [Main view area](Main_view_area.md) or via the **Windows** menu.
+W trybie pojedynczego dokumentu możesz przełączyć się na inny dokument, aktywując widok 3D należący do tego dokumentu. Możesz to zrobić w [Głównym obszarze widoku](Main_view_area/pl.md) lub poprzez menu **Okna**.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Single document** option from the flyout. Note   * the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeSingleDocument.svg" width=16px> Single document** option from the menu.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Kliknij czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz z menu opcję **Jeden dokument**. Uwaga   * ikonka przycisku zmieni się w zależności od wybranej opcji.
+    -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeSingleDocument.svg" width=16px> Jeden dokument**.
 
-## Preferences
+## Ustawienia
 
-The Tree view DocumentMode mode is stored   * **Tools → Edit parameters... → BaseApp → Preferences → TreeView → DocumentMode**. It is an integer value. Possible values are `0` (SingleDocument), `1` (MultiDocument) or `2` (CollapseDocument). The default is `2`.
+Tryb Tryb dokumentu w widoku drzewa jest zapisywany   * **Przybory → Edycja parametrów ... → BaseApp → Preferencje → TreeView → DocumentMode**. Jest to wartość całkowita. Możliwe wartości to `0` *(Jeden Dokument)*, `1` *(Wiele dokumentów)* lub `2` *(Zwiń / rozwiń)*. Domyślnie jest to wartość `2`.
 
 
 

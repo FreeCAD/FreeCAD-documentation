@@ -14,15 +14,9 @@
 
 Questa macro testa se una selezione è duplicabile. Selezionare gli oggetti nella **vista 3D**, se una selezione è duplicabile il mouse rimane bloccato su \"ForbiddenCursor\" fino a duplicazione avvenuta.
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Avviare la macro, essa rimane residente in memoria.
-
-
-</div>
 
 Selezionare gli oggetti da duplicare. Mentre gli oggetti vengono duplicati il cursore del mouse viene bloccato su \"ForbiddenCursor\"
 
@@ -30,7 +24,7 @@ Selezionare gli oggetti da duplicare. Mentre gli oggetti vengono duplicati il cu
 
 Icona per barra degli strumenti ![](images/Macro_Duplicate_Selection.png )
 
-**Macro\_Duplicate\_Selection.FCMacro**
+**Macro_Duplicate_Selection.FCMacro**
 
 
 {{MacroCode|code=

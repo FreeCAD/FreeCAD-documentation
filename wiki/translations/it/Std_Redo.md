@@ -47,13 +47,7 @@ FreeCAD.ActiveDocument.redo()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

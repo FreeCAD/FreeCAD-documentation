@@ -15,9 +15,6 @@ Les pièces sont créées en spécifiant des paramètres dans la boîte de dialo
 
 ## Installation
 
-
-**L'atelier Rocket est un travail en cours et changera souvent. Assurez-vous de le mettre à jour régulièrement!**
-
 Cet atelier peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
 
 ## Commencer
@@ -28,32 +25,34 @@ A définir
 
 Les composants créés à l\'aide de Rocket Workbench sont essentiellement des pièces similaires à ce que vous créeriez à l\'aide de l\'[atelier Part](Part_Workbench/fr.md). Ils peuvent être combinés avec d\'autres pièces ou modifiés à l\'aide de cet atelier. L\'avantage d\'utiliser Rocket Workbench est que les pièces peuvent être créées avec beaucoup moins d\'opérations.
 
--   <img alt="" src=images/Rocket_NoseCone.svg  style="width   *32px;"> [Coiffe](Rocket_NoseCone/fr.md)   * Créer une coiffe
+-   <img alt="" src=images/Rocket_NoseCone.svg  style="width   *32px;"> [Coiffe](Rocket_NoseCone/fr.md)    * crée une coiffe
 
--   <img alt="" src=images/Rocket_Transition.svg  style="width   *32px;"> [Transition](Rocket_Transition/fr.md)   * Créer une transition
+-   <img alt="" src=images/Rocket_Transition.svg  style="width   *32px;"> [Transition](Rocket_Transition/fr.md)    * crée une transition
 
--   <img alt="" src=images/Rocket_BodyTube.svg  style="width   *32px;"> [Tube du corps](Rocket_BodyTube/fr.md)   * Crée un tube de corps creux
+-   <img alt="" src=images/Rocket_BodyTube.svg  style="width   *32px;"> [Tube du corps](Rocket_BodyTube/fr.md)    * crée un tube de corps creux
 
--   <img alt="" src=images/Rocket_CenteringRing.svg  style="width   *32px;"> [Anneau de centrage](Rocket_CenteringRing/fr.md)   * Créer une bague de centrage
+-   <img alt="" src=images/Rocket_CenteringRing.svg  style="width   *32px;"> [Anneau de centrage](Rocket_CenteringRing/fr.md)    * crée une bague de centrage
 
--   <img alt="" src=images/Rocket_Bulkhead.svg  style="width   *32px;"> [Cloison](Rocket_Bulkhead/fr.md)   * Créer une cloison
+-   <img alt="" src=images/Rocket_Bulkhead.svg  style="width   *32px;"> [Cloison](Rocket_Bulkhead/fr.md)    * crée une cloison
 
--   <img alt="" src=images/Rocket_Fin.svg  style="width   *32px;"> [Aileron](Rocket_Fin/fr.md)   * Créer un aileron
+-   <img alt="" src=images/Rocket_Fin.svg  style="width   *32px;"> [Aileron](Rocket_Fin/fr.md)    * crée un aileron
 
--   <img alt="" src=images/Rocket_LaunchGuideComposite.png  style="width   *32px;"> [Guides de lancement](Rocket_CompLaunchGuide/fr.md)   * Créer un guide de lancement
+-   <img alt="" src=images/Rocket_FinCan.svg  style="width   *32px;"> [Échappement avec ailerons](Rocket_FinCan/fr.md)    * crée un échappement avec ailerons
 
-   ** <img alt="" src=images/Rocket_LaunchLug.svg  style="width   *32px;"> [Rampe de lancement](Rocket_LaunchLug/fr.md)    * Crée une rampe de lancement
+-   <img alt="" src=images/Rocket_LaunchGuideComposite.png  style="width   *32px;"> [Guides de lancement](Rocket_CompLaunchGuide/fr.md)    * crée un guide de lancement
 
-   ** <img alt="" src=images/Rocket_RailButton.svg  style="width   *32px;"> [Bouton rail](Rocket_RailButton/fr.md)    * Crée un bouton rail
+   ** <img alt="" src=images/Rocket_LaunchLug.svg  style="width   *32px;"> [Rampe de lancement](Rocket_LaunchLug/fr.md)    * crée une rampe de lancement
 
-   ** <img alt="" src=images/Rocket_RailGuide.svg  style="width   *32px;"> [Guide rail](Rocket_RailGuide/fr.md)    * Crée un guide rail
+   ** <img alt="" src=images/Rocket_RailButton.svg  style="width   *32px;"> [Bouton rail](Rocket_RailButton/fr.md)    * crée un bouton rail
+
+   ** <img alt="" src=images/Rocket_RailGuide.svg  style="width   *32px;"> [Guide rail](Rocket_RailGuide/fr.md)    * crée un guide rail
 
 ## Calculateurs
 
--   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calcul charge d\'éjection](Rocket_Ejection_Charge_Calculator/fr.md)    * Calcule la quantité de poudre noire nécessaire à l\'éjection.
--   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calcul taille parachute](Rocket_Parachute_Size_Calculator/fr.md)    * Calcule la taille du parachute nécessaire pour une récupération sûre.
--   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calcul poussée par rapport au poids](Rocket_Thrust_To_Weight_Calculator/fr.md)    * Calcule la poussée moyenne minimale requise pour un vol en toute sécurité.
--   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calcul taille trou d\'évent](Rocket_Vent_Hole_Size_Calculator/fr.md)    * Calculer la taille du trou d\'évent nécessaire pour les altimètres barométriques.
+-   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calcul charge d\'éjection](Rocket_Ejection_Charge_Calculator/fr.md)    * calcule la quantité de poudre noire nécessaire à l\'éjection.
+-   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calcul taille parachute](Rocket_Parachute_Size_Calculator/fr.md)    * calcule la taille du parachute nécessaire pour une récupération sûre.
+-   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calcul poussée par rapport au poids](Rocket_Thrust_To_Weight_Calculator/fr.md)    * calcule la poussée moyenne minimale requise pour un vol en toute sécurité.
+-   <img alt="" src=images/Rocket_Calculator.svg  style="width   *32px;"> [Calcul taille trou d\'évent](Rocket_Vent_Hole_Size_Calculator/fr.md)    * calcule la taille du trou d\'évent nécessaire pour les altimètres barométriques.
 
 ## Tutoriels et apprentissage 
 

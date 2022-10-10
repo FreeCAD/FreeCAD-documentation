@@ -18,24 +18,18 @@ Die Randbedingung **AbstandFestlegen** legt die Länge einer Linie, den senkrech
 
 ## Anwendung
 
+1.  Zwei Punkte, eine Linie oder einen Punkt und eine Linie auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainDistance.svg style="width   *16px"> [Abstand beschränken](Sketcher_ConstrainDistance/de.md)** in der Sketcher-Werkzeugleiste drücken.
+    -   Das Tastaturkürzel **K** dann **D**.
+    -   Den Menüeintrag **Sketch → Skizzen-Beschränkungen  → [<img src=images/Sketcher_ConstrainDistance.svg style="width   *16px"> Abstand festlegen** auswählen.
+3.  Ein Dialogfeld wird geöffnet, um den Wert zu bearbeiten oder zu bestätigen. Zum Bestätigen **OK** drücken.
 
-<div class="mw-translate-fuzzy">
+**Hinweis**   * Das Werkzeug kann auch ohne vorherige Auswahl gestartet werden. Um den lotrechten Abstand zwischen einem Punkt und einer Linie festzulegen muss der Punkt zuerst ausgewählt werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Randbedingungen zu erstellen; ein Druck auf die rechte Maustaste oder auf Esc beendet den Befehl.
 
-1.  Wähle zwei Punkte oder eine Linie oder einen Punkt und eine Linie.
-2.  Aufrufen des Befehls auf verschiedene Weise   *
-    -   Drücke die **[<img src=images/Sketcher_ConstrainDistance.svg style="width   *16px"> [Abstand beschränken](Sketcher_ConstrainDistance/de.md)** Schaltfläche in der Skizzierer Werkzeugleiste.
-    -   Verwende die **Shift** + **D** Tastaturkürzel. (**D**\' steht für **D**istance; engl.   * Abstand)
-    -   Verwende den **Skizze → Skizziererbeschränkungen  → [<img src=images/Sketcher_ConstrainDistance.svg style="width   *16px"> Abstand beschränken** Eintrag aus dem oberen Menü.
-3.  Ein Einblenddialogfeld wird geöffnet, um den Wert zu bearbeiten oder zu bestätigen. Drücken **OK**, um den Wert zu bestätigen.
+### Hinweis
 
-
-</div>
-
-**Hinweis**   * Das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden. Um den lotrechten Abstand zwischen einem Punkt und einer Linie zu setzen, muss der Punkt zuerst selektiert werden. Als Voreinstellung ist der Befehl im \"Continue Mode\", um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal zum Beenden des Befehls.
-
-### Fingerzeig
-
-Falls anwendbar, erwäge bitte die Verwendung der **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width   *16px"> [Horizontaler Abstand](Sketcher_ConstrainDistanceX/de.md)** oder **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width   *16px"> [Vertikaler Abstand](Sketcher_ConstrainDistanceY/de.md)** Beschränkungen stattdessen. Diese Beschränkungen sind robuster und schneller zu berechnen als das **BeschränkungAbstand** Werkzeug.
+Wenn es passt, sollte die Verwendung von **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width   *16px"> [XAbstandFestlegen](Sketcher_ConstrainDistanceX/de.md)** oder **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width   *16px"> [YAbstandFestlegen](Sketcher_ConstrainDistanceY/de.md)** erwägt werden. Diese Randbedingungen sind robuster und schneller zu berechnen als das Werkzeug **AbstandFestlegen**.
 
 ## Skripten
 
@@ -49,13 +43,7 @@ Abstand zwischen zwei Endpunkten   *
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge1, PointOfEdge1, Edge2, PointOfEdge2, App.Units.Quantity('123.0 mm')))```
 
-
-<div class="mw-translate-fuzzy">
-
-Länge der Linie (die GUI erlaubt die Auswahl der Kante, aber das ist nur eine Abkürzung für die Nutzung der beiden Endpunkte der gleichen Linie)   *
-
-
-</div>
+Länge der Linie (die GUI erlaubt die Auswahl der Kante, aber das ist nur eine Abkürzung für die Nutzung der beiden Endpunkte derselben Linie)   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Line, 1, Line, 2, App.Units.Quantity('123.0 mm')))```
@@ -65,22 +53,10 @@ Distanz von Punkt (`Edge, PointOfEdge`) zum nächsten Punk auf Linie (`Line`)   
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, App.Units.Quantity('123.0 mm')))```
 
-
-<div class="mw-translate-fuzzy">
-
-Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die für `Edge1`, `Edge2`, `Edge`, `PointOfEdge1`, `PointOfEdge2`, `PointOfEdge` und `Line` verwendet werden können, und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Die Seite [Sketcher Skripten](Sketcher_scripting.md) erklärt die Werte, die für `Edge1`, `Edge2`, `Edge`, `PointOfEdge1`, `PointOfEdge2`, `PointOfEdge` und `Line` verwendet werden können, und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

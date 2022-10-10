@@ -21,13 +21,7 @@ Il comando **Schermo intero** attiva o disattiva la modalità a schermo intero d
     -   Usare la scorciatoia da tastiera   * **Alt**+**F11**.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

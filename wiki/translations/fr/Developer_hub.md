@@ -109,7 +109,7 @@ Le développement d\'une nouvelle architecture de solveur pourrait améliorer la
 
 FreeCAD, bien qu\'utilisable dans certains domaines, n\'est qu\'au début d\'un long chemin vers le grand public de la CAO. Il y a encore beaucoup à faire pour atteindre un état où nous pourrons rivaliser avec les logiciels commerciaux.
 
-[0.20 Development Cycle](0.20_Development_Cycle.md)
+[FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
 ## Communauté
 

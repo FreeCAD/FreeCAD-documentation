@@ -15,10 +15,10 @@ Crée une contrainte FEM pour le potentiel électrostatique. A utiliser avec [FE
 
 ## Utilisation
 
-\#\* Soit appuyer sur le bouton **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [Contrainte de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md)
+#\* Appuyez soit sur le bouton **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [Contrainte de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md)
 **
 
-\#\* ou utilisez le menu **Modèle → Contraintes électrostatiques → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Contrainte de potentiel électrostatique**.
+#\* Ou utilisez le menu **Modèle → Contraintes électrostatiques → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Contrainte de potentiel électrostatique**.
 
 1.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la contrainte doit être appliquée.
 2.  Appuyez sur le bouton **Ajouter**.
@@ -29,11 +29,11 @@ La boîte de dialogue propose les paramètres suivants    *
 
 ![](images/FEM_ElectrostaticPotential_dialog.png )
 
--   **Potential**    * Le potentiel électrique en V.
--   **Potential Constant**    * Option pour définir un potentiel constant.
--   **Farfield / Electric infinity**    * Option pour spécifier que le volume est éloigné d\'un potentiel électrique.
--   **Calculate Electric Force**    * Option pour déclencher le calcul de la force électrique en utilisant [FEM Équation force électrique](FEM_EquationElectricforce/fr.md).
--   **Capacity Body    ***    * Compteur du corps (ou de la face) avec une capacitance.
+-   **Potentiel**    * potentiel électrique en V.
+-   **Potentiel constant**    * option pour définir un potentiel constant.
+-   **Champ lointain/Infinité électrique**    * option pour faire l\'approximation sphérique que le volume au-dessus de la face s\'étend à l\'infini.
+-   **Calculer la force électrqiue**    * option pour déclencher le calcul de la force électrique en utilisant [FEM Équation force électrique](FEM_EquationElectricforce/fr.md).
+-   **Capacité du corps    ***    * compteur du corps (ou de la face) avec une capacitance.
 
 
 

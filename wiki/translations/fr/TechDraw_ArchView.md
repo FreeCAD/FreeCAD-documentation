@@ -43,19 +43,32 @@ La Vue d\'un objet Arch est générée dans l\'[atelier Arch](Arch_Workbench/fr.
 
 ## Propriétés
 
--    **Source**   * l\'objet du plan de section à afficher
+Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
--    **All On**   * si les objets cachés doivent être affichés ou non. Si Faux, seuls les objets visibles dans la vue 3D sont rendus
+### Données
 
--    **Mode de rendu**   * le mode de rendu à utiliser, solide ou filaire
 
--    **Show Hidden**   * si la géométrie cachée (la partie de la goémétrie qui se trouve derrière le plan de section) est affichée ou non. Il sera rendu en ligne pointillée, qui peut être configuré dans les préférences Arch.
+{{TitleProperty|Arch view}}
 
--    **Show Fill**   * si les zones coupées doivent être remplies de couleur grise ou non
+-    **Source|Link**   * l\'objet plan de section à afficher.
 
--    **Line Width**   * la largeur des lignes principales. Les rapports de lignes de coupe et de largeur de ligne projetée/2D peuvent être configurés dans les préférences Arch
+-    **All On|Bool**   * si les objets cachés doivent être affichés ou non. Si `False`, seuls les objets visibles dans la vue 3D sont rendus.
 
--    **Font Size**   * la taille de tous les textes qui apparaissent dans cette vue
+-    **Render Mode|Enumeration**   * le mode de rendu à utiliser, {{Value|Solid}} ou {{Value|Wireframe}}.
+
+-    **Fill Spaces|Bool**   * si `True`, les espaces d\'arc sont affichés sous forme de zone colorée.
+
+-    **Show Hidden|Bool**   * si la géométrie cachée (la partie de la géométrie qui se trouve derrière le plan de coupe) est affichée ou non. Elle sera rendue en ligne pointillée, ce qui peut être configuré dans les préférences d\'Arch.
+
+-    **Show Fill|Bool**   * si les zones coupées doivent être remplies avec une couleur grise ou non.
+
+-    **Line Width|Float**   * largeur des lignes principales. Les rapports de largeur des lignes coupées et des lignes projetées/2D peuvent être configurés dans les préférences d\'Arch.
+
+-    **Font Size|Float**   * taille de tous les textes qui apparaissent dans cette vue.
+
+-    **Cut Line Width|Float**   * largeur des lignes de coupe dans cette vue.
+
+-    **Join Arch|Bool**   * si `True`, les murs et les structures seront fusionnés par matériau.
 
 ## Script
 

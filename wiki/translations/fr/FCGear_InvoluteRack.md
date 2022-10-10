@@ -1,9 +1,10 @@
 ---
 - GuiCommand   */fr
    Name   *FCGear InvoluteRack
-   Name/fr   *FCGear InvoluteRack
-   MenuLocation   *FCGear → Create an Involute rack
+   Name/fr   *FCGear Engrenage à crémaillère
+   MenuLocation   *Gear → Involute Rack
    Workbenches   *[FCGear](FCGear_Workbench/fr.md)
+   Shortcut   *Aucun
    Version   *v0.16
    SeeAlso   *[FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md)
 ---
@@ -14,76 +15,88 @@
 
 Les crémaillères sont utilisées pour convertir un mouvement rotatif en un mouvement linéaire ou vice versa. Les exemples suivants présentent les différentes applications   *
 
--   Une crémaillère avec équipement sur un déversoir de retenue.
--   Divers systèmes de crémaillères de chemins de fer à crémaillère.
--   Direction à pignon et crémaillère dans un véhicule.
--   Treuil à crémaillère et pignon comme palan mécanique (par exemple cric de voiture).
--   Entraînements pneumatiques à crémaillère et pignon utilisés pour contrôler les vannes dans le transport par pipeline.
+-   Une crémaillère avec un engrenage sur un barrage de retenue.
+-   Divers systèmes de crémaillère de chemins de fer à crémaillère.
+-   Direction à crémaillère dans un véhicule.
+-   Treuil à crémaillère utilisé comme palan mécanique (par exemple, un cric de voiture).
+-   Entraînements pneumatiques à crémaillère utilisés pour contrôler les vannes dans le transport par pipeline.
 
 ![](images/Involute-Rack_example.png ) 
-*De gauche à droite   * Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
+*De gauche à droite    * engrenage droit, engrenage hélicoïdal, engrenage hélicoïdal double.*
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
-2.  Lancez la commande d\'une de ces manières    *
-    -   Appuyez sur le bouton <img alt="" src=images/FCGear_InvoluteRack.svg  style="width   *22px;"> [Create an Involute rack](FCGear_InvoluteRack/fr.md) dans la barre d\'outils.
-    -   Utilisez **Gear Menu → Involute rack**.
-3.  Modifiez le paramètre de démultiplication aux conditions requises (voir **Propriétés → Données** ci-dessous).
+1.  Passez à l\' <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [atelier FCGear](FCGear_Workbench/fr.md).
+2.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur **[<img src=images/FCGear_InvoluteRack.svg style="width   *16px"> [Involute Rack](FCGear_InvoluteRack/fr.md)** dans la barre d\'outils.
+    -   Sélectionnez l\'option **Gear → [<img src=images/FCGear_InvoluteRack.svg style="width   *16px"> Involute Rack** dans le menu.
+3.  Modifiez le paramètre de l\'engrenage en fonction des conditions requises (voir [Propriétés](#Propri.C3.A9t.C3.A9s.md)).
 
 ## Propriétés
+
+Un objet FCGear InvoluteRack est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|base}}
 
--    **Placement**   * [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **add_endings|Bool**   * si {{True}} (valeur par défaut), alors la longueur totale de la crémaillère est égale à dents \* pas. Si {{False}}, alors la crémaillère commence par un front de dent.
 
--    **Label**   * nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
+-    **height|Length**   * valeur par défaut à {{Value|5 mm}}. Valeur de la largeur de l\'engrenage.
+
+-    **module|Length**   * valeur par défaut à {{Value|1 mm}}. Module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir [Remarques](#Remarques.md)).
+
+-    **teeth|Integer**   * valeur par défaut à {{Value|15}}. Nombre de dents.
+
+-    **thickness|Length**   * valeur par défaut à {{Value|5}}. Hauteur de la racine de la dent à la face inférieure de la tige.
 
 
 {{Properties_Title|computed}}
 
--    **transverse_pitch**   * Pas dans le plan transversal - non modifiable, est calculé automatiquement (voir aussi les informations dans les {{Emphasis |Remarques}}).
+-    **transverse_pitch|Length**   * (lecture seule) pas dans le plan transversal (voir [Remarques](#Remarques.md)).
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|fillets}}
 
--    **add_endings**   * si **True** alors la longueur totale de la crémaillère est dents \* pas, sinon la crémaillère commence avec un flanc de dent.
+-    **head_fillet|Float**   * valeur par défaut à {{value|0 mm}}.
 
--    **beta**   * avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
-
--    **clearance**   * La valeur par défaut est 0,25 (voir aussi les informations dans les **Remarques**).
-
--    **double_helix**   * **True** crée un engrenage à double hélice (voir aussi les informations dans les **Remarques**).
-
--    **head**   * valeur par défaut est 0,00. Cette valeur est utilisée pour modifier la hauteur des dents.
-
--    **height**   * valeur de la largeur de l\'engrenage.
-
--    **module**   * module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans les **Remarques**).
-
--    **properties_from_tool**   * si l\'angle d\'hélice β est donné et que **properties_from-tool** est activé, les paramètres d\'engrenage sont recalculés en interne pour l\'engrenage tourné.
-
--    **simplified**   * **True** génère un affichage simplifié (sans dents).
-
--    **teeth**   * nombre de dents.
-
--    **thickness**   * hauteur de la racine de la dent juqu\'au côté inférieur de la tige.
+-    **root_fillet|Float**   * valeur par défaut à {{value|0 mm}}.
 
 
-{{Properties_Title|involute_parameter}}
+{{Properties_Title|helical}}
 
--    **pressure_parameter**   * valeur par défaut 20 (voir aussi les informations dans les **Remarques**).
+-    **beta|Angle**   * valeur par défaut à {{Value|0 °}}. Avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé - valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche (voir [Remarques](#Remarques.md)).
 
-### Vue
+-    **double_helix|Bool**   * valeur par défaut à {{False}}, {{True}} crée un engrenage à double hélice (voir [Remarques](#Remarques.md)).
 
-La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur de propriétés](Property_editor/fr.md) dans **Exemple de propriétés d'un objet PartDesign**.
+-    **properties_from_tool|Bool**   * valeur par défaut à {{False}}. Si {{True}} et **beta** différente de zéro, les paramètres de l\'engrenage sont recalculés en interne pour l\'engrenage tourné.
+
+
+{{Properties_Title|involute}}
+
+-    **pressure_angle|Angle**   * valeur par défaut à {{Value|20 °}} (voir [Remarques](#Remarques.md)).
+
+
+{{Properties_Title|precision}}
+
+-    **simplified|Bool**   * valeur par défaut à {{False}}, {{True}} génère un affichage simplifié (sans dents).
+
+
+{{Properties_Title|tolerance}}
+
+-    **clearance|Float**   * valeur par défaut à {{Value|0.25}} (voir [Remarques](#Remarques.md)).
+
+-    **head|Float**   * valeur par défaut à {{Value|0}}. Cette valeur est utilisée pour modifier la hauteur de la dent.
+
+
+{{Properties_Title|version}}
+
+-    **version|String**   *
 
 ## Remarques
 
--    **transverse_pitch**   * la valeur est le résultat de la multiplication de **module * pi**. Cela signifie que pour la crémaillère à développante standard de FCGear   * 15 (**teeth**) \* 3,14 (**transverse_pitch**) est de 47,12 mm. Voir également **module** ci-dessous.
+-    **transverse_pitch**   * la valeur est le résultat de la multiplication de **module * pi**. Cela signifie que pour la crémaillère à développante standard de FCGear   * 15 (**teeth**) \* 3.14 (**transverse_pitch**) est de 47,12 mm. Voir également **module** ci-dessous.
 
 -    **clearance**   * pour une paire d\'engrenages, le jeu est la distance entre l\'extrémité de la dent du premier engrenage et la racine de la dent du deuxième engrenage.
 
@@ -95,7 +108,7 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 ## Formules utiles 
 
-Pour plus d\'informations, voir <img alt="" src=images/FCGear_InvoluteGear.svg  style="width   *22px;"> [Engrenage à développante](FCGear_InvoluteGear/fr.md).
+Voir [FCGear InvoluteGear](FCGear_InvoluteGear/fr#Formules_utiles.md).
 
 ## Script
 

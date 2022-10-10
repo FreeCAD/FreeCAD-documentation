@@ -1,13 +1,14 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std DependencyGraph
-   MenuLocation   *Tools → Dependency graph...
-   Workbenches   *All
+   Name/pl   *Std   * Graf zależności
+   MenuLocation   *Przybory → Graf zależności ...
+   Workbenches   *wszystkie
 ---
 
 # Std DependencyGraph/pl
 
-## Description
+## Opis
 
 The **Std DependencyGraph** command displays the dependencies between objects in the active document in a \'dependency graph\'. As opposed to the [Tree view](Tree_view.md), objects are listed in reverse chronological order, with the first created object at the bottom.
 
@@ -18,7 +19,7 @@ The dependency graph is purely a visualization tool, therefore it cannot be edit
 <img alt="" src=images/Std_DependencyGraph_example.svg  style="width   *400px;"> 
 *Example of a dependency graph with a PartDesign body on the left and an object created with Part operations on the right*
 
-## Installation
+## Instalacja
 
 To use the command a third-party software named [Graphviz](http   *//graphviz.org/) needs to be installed. If you do not have it pre-installed or it is installed in an unconventional location, FreeCAD will display the following dialog   *
 
@@ -28,7 +29,7 @@ To use the command a third-party software named [Graphviz](http   *//graphviz.or
 
 Download the **graphviz-2.xx** installer from the [Graphviz Download page](https   *//graphviz.org/download/#windows) and launch it to install it. Some older versions seem to have issues displaying the graph; version 2.38 and newer are known to be reliable. You can find all graphviz releases on [Gitlab](https   *//gitlab.com/graphviz/graphviz/-/releases).
 
-### Mac/OSX
+### Mac / OSX 
 
 You can install graphviz using [Homebrew](https   *//brew.sh/). (While installing Homebrew, don\'t get nervous, if MacOS asks you to install updates, e.g. for the Xcode commandline tools. These updates are performed later by the installation process.)
 
@@ -44,7 +45,7 @@ This installs the graphviz binaries under /usr/local/bin for macOS on Intel, and
 /usr/local/bin
 }}
 
-or
+lub
 
 
 {{Code|lang=text|code=
@@ -87,14 +88,14 @@ dot is /usr/local/bin/dot
 
 And therefore you can point FreeCAD to look in that directory.
 
-## Usage
+## Użycie
 
 1.  Select the **Tools → <img src="images/Std_DependencyGraph.svg" width=16px> Dependency graph...** option from the menu.
 2.  A new tab titled **Dependency graph** opens in the [Main view area](Main_view_area.md).
 3.  Use the mouse scroll wheel to zoom in or out.
 4.  Use the sliders at the bottom and at the right of the screen to pan the view. Alternatively (<small>(v0.19)</small> ) hold down the left mouse button and move the mouse.
 
-## Save
+## Zapis
 
 You can save a dependency graph   *
 

@@ -12,64 +12,41 @@
 
 ## Opis
 
+Polecenie **Std   * Menadżer dodatków** otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać [Zewnętrznymi środowiskami pracy](External_workbenches/pl.md) oraz [makropoleceniami](Macros/pl.md) i [paczkami ustawień](Preference_Packs/pl.md) dostarczonymi przez społeczność FreeCAD. Domyślnie dostępne dodatki pobierane są z dwóch repozytoriów [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) oraz [Przepisy na makrodefinicje](Macros_recipes/pl.md). Jeśli w systemie zainstalowane są GitPython i Git, dodatkowe makra zostaną załadowane z [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/). Własne repozytoria można dodać w ustawieniach [Menadżera dodatków](Preferences_Editor/pl#Menad.C5.BCer_dodatk.C3.B3w.md).
 
-<div class="mw-translate-fuzzy">
-
-Polecenie **Std   * Menadżer dodatków** otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać [Zewnętrznymi środowiskami pracy](External_workbenches/pl.md) oraz [makropoleceniami](Macros/pl.md) dostarczonymi przez społeczność FreeCAD. Dostępne Środowiska pracy i makra są pobierane z dwóch repozytoriów, [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) i [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/), oraz ze strony [Przepisy na makropolecenia](Macros_recipes/pl.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa już, jeśli używasz FreeCAD w wersji 0.17 lub starszej. Musisz zaktualizować program do wersji [0.18.5](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) lub nowszej [0.19](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre). Alternatywnie możesz zainstalować dodatki ręcznie, zobacz [uwagi](#Uwagi.md) poniżej.
-
-
-</div>
+Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa już, jeśli używasz FreeCAD w wersji 0.17 lub starszej. Musisz zaktualizować program do wersji [0.18.5](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) lub nowszej. Alternatywnie możesz zainstalować dodatki ręcznie, zobacz [uwagi](#Uwagi.md) poniżej.
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wybierz opcję z menu **Przybory → <img src="images/Std_AddonMgr.svg" width=16px> Menedżer dodatków**.
-2.  Jeśli używasz menedżera dodatków po raz pierwszy, zostanie otwarte okienko informacyjne z ostrzeżeniem, że rozszerzenia w menedżerze dodatków nie są oficjalnie częścią programu FreeCAD. Naciśnij przycisk **OK**, aby potwierdzić zapoznanie się z tą informacją i kontynuować.
+2.  Jeśli używasz menedżera dodatków po raz pierwszy, zostanie otwarte okienko informacyjne z ostrzeżeniem, że rozszerzenia w menedżerze dodatków nie są oficjalnie częścią programu FreeCAD. Przedstawia on również kilka opcji związanych z wykorzystaniem danych przez menedżera dodatków. Dostosuj te opcje do swoich potrzeb i naciśnij przycisk **OK**, aby potwierdzić zapoznanie się z tą informacją i kontynuować.
 3.  Otworzy się okno dialogowe Menadżer Dodatków. Więcej informacji znajdziesz w rozdziale [Opcje](#Opcje.md).
-4.  Przycisk **<img src="images/Button_valid.svg" width=16px>Aktualizuj wszystko** nie działa w tym momencie.
-5.  Naciśnij przycisk **<img src="images/Process-stop.svg" width=16px>Zamknij** , aby zamknąć okienko dialogowe.
-6.  Jeżeli zainstalowałeś lub zaktualizowałeś Środowisko pracy, otworzy się nowe okno dialogowe informujące o konieczności ponownego uruchomienia programu FreeCAD, aby wprowadzone zmiany zaczęły funkcjonować.
-
-
-</div>
+4.  Jeżeli zainstalowałeś lub zaktualizowałeś Środowisko pracy, otworzy się nowe okno dialogowe informujące o konieczności ponownego uruchomienia programu FreeCAD, aby wprowadzone zmiany zaczęły funkcjonować.
 
 ## Opcje
 
 <img alt="" src=images/AddonManager_Main.png  style="width   *600px;">
 
-1.  The Addon manager provides two view layouts   * \"Condensed\" and \"Expanded\". In \"Condensed\" view, each addon takes a single line, and its description is truncated to fit the available space. \"Expanded\" shows additional details, including more of the description text as well as maintainer information, more installation details, etc.
-2.  Three different types of addons are supported   * [workbenches](external_workbenches.md), [macros](macros.md), and [preference packs](Preference_Packs.md). You can choose to show just one type, or all of them in a single list.
-3.  The list can be limited to show just installed packages, just packages with available updates, or just packages that are not yet installed.
-4.  The list can be filtered, searching for a keyword in the title, description, and tags (description and tags must be specified by the addon developer in their addon\'s metadata). The filter can even be a regular expression, for fine-grained control of the exact search term.
-5.  The expanded view shows available version information, description, maintainer information, and installation version information, for packages that provide a [package metadata](Package_Metadata.md) file (or for macros with embedded metadata).
-6.  Addon data is cached locally, with a variable cache update frequency set in the user preferences.
-7.  At any time you can choose to manually update your local cache to see the latest updates available for each addon.
-8.  Update checks may be set up to be automatic, or done manually via a button click (configured in user preferences). If GitPython and git are installed on your system then update information is fetched using git. If not, then update information is obtained from any present metadata file.
+1.  Menedżer dodatków udostępnia dwa układy widoków   * \"Zwięzły\" i \"Rozszerzony\". W widoku \"Zwięzłym\" każdy dodatek zajmuje jedną linię, a jego opis jest obcięty, aby zmieścić się w dostępnym miejscu. Z kolei \"Rozszerzony\" pokazuje dodatkowe szczegóły, w tym więcej tekstu opisu, a także informacje o opiekunie, więcej szczegółów instalacji itp.
+2.  Obsługiwane są trzy różne typy dodatków   * [środowiska pracy](External_workbenches/pl.md), [makrodefinicje](Macros/pl.md), oraz [pakiety preferencji](Preference_Packs/pl.md). Możesz zdecydować, czy chcesz wyświetlić tylko jeden typ, czy wszystkie na jednej liście.
+3.  Lista może być zawężona do pokazania tylko zainstalowanych pakietów, tylko pakietów z dostępnymi aktualizacjami, lub tylko pakietów, które nie są jeszcze zainstalowane.
+4.  Listę można filtrować, szukając słowa kluczowego w tytule, opisie i tagach *(opis i tagi muszą być określone przez twórcę dodatku w jego metadanych)*. Filtr może być nawet wyrażeniem regularnym, co pozwala na precyzyjną kontrolę dokładnego wyszukiwania.
+5.  Rozszerzony widok pokazuje dostępne informacje o wersji, opisie, opiekunie i wersji instalacji dla pakietów, które dostarczają pliki [metadanych pakietu](Package_Metadata/pl.md) *(lub dla makrodefinicji z wbudowanymi metadanymi)*.
+6.  Dane dodatków są buforowane lokalnie, ze zmienną częstotliwością aktualizacji pamięci podręcznej ustawioną w preferencjach użytkownika.
+7.  W każdej chwili możesz wybrać ręczne aktualizowanie lokalnej pamięci podręcznej, aby zobaczyć najnowsze aktualizacje dostępne dla każdego dodatku.
+8.  Sprawdzanie aktualizacji może być ustawione jako automatyczne lub wykonywane ręcznie poprzez kliknięcie przycisku *(skonfigurowane w preferencjach użytkownika)*. Jeśli środowiska GitPython i Git są zainstalowane w systemie, to informacje o aktualizacjach są pobierane przy użyciu Git. Jeśli nie, to informacje o aktualizacjach są uzyskiwane z dowolnego obecnego pliku metadanych.
 
-Clicking on an addon in this view brings up the addon\'s Details page   *
+Kliknięcie dodatku w tym widoku powoduje wyświetlenie strony szczegółów   *
 
 <img alt="" src=images/AddonManager_Details.png  style="width   *600px;">
 
-The details page shows buttons allowing installing, uninstalling, updating, and temporarily disabling an addon. For installed addons it lists the currently installed version and the installation date, and whether that is the most recent version available. Below is an embedded web browser window showing the addon\'s README page (for workbenches and preference packs), or Wiki page (for macros).
+Na stronie szczegółów znajdują się przyciski umożliwiające instalację, odinstalowanie, aktualizację i tymczasowe wyłączenie dodatku. Dla zainstalowanych dodatków wyświetlana jest aktualnie zainstalowana wersja i data instalacji oraz informacja, czy jest to najnowsza dostępna wersja. Poniżej znajduje się osadzone okno przeglądarki internetowej pokazujące stronę README dodatku *(dla środowisk pracy i pakietów preferencji)* lub stronę Wiki *(dla makrodefinicji)*.
 
-## Preferences
+## Ustawienia
 
-The preferences for the Addon manager can be found in the [Preferences Editor](Preferences_Editor#Addon_Manager.md). <small>(v0.20)</small> 
+Preferencje dla menedżera dodatków można znaleźć w [Edytorze ustawień](Preferences_Editor/pl#Menad.C5.BCer_dodatk.C3.B3w.md). {{Version/pl|0.20}}
 
 ## Uwagi
-
-
-<div class="mw-translate-fuzzy">
 
 -   Korzystanie z dodatków nie jest ograniczone do wersji FreeCAD, w której zostały zainstalowane. Będziesz mógł również używać ich w każdej innej wersji programu, obsługiwanej przez dodatek, która może być zainstalowana w Twoim systemie.
 -   Dodatki dostępne w menedżerze dodatków nie są częścią oficjalnego programu FreeCAD i nie są wspierane przez główny zespół programistów FreeCAD. Powinieneś uważnie przeczytać zamieszczone informacje, aby upewnić się, że wiesz, co instalujesz.
@@ -77,12 +54,9 @@ The preferences for the Addon manager can be found in the [Preferences Editor](P
 -   Jeśli pakiet [GitPython](https   *//github.com/gitpython-developers/GitPython) jest zainstalowany na Twoim komputerze, menedżer dodatków będzie z niego korzystał, dzięki czemu pobieranie będzie szybsze.
 -   Możesz również zainstalować dodatki ręcznie. Zobacz artykuł [Jak zainstalować dodatkowe Środowiska pracy](How_to_install_additional_workbenches/pl.md) oraz [Jak zainstalować makrodefinicje](How_to_install_macros/pl.md).
 
-
-</div>
-
 ## Informacja dla programistów 
 
-See [Addon](Addon#Information_for_developers.md).
+Zobacz również informacje o [dodatkach](Addon/pl#Informacja_dla_programist.C3.B3w.md).
 
 
 

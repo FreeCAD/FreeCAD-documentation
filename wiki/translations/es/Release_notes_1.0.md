@@ -24,7 +24,16 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 ## Interfaz de usuario 
 
+   
+  <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width   *384px;">   The display style of [measurement](Part_Workbench#Measure.md) results created using the [Part](Part_Workbench.md) or [PartDesign](PartDesign_Workbench.md) workbench can now be changed in the [preferences](PartDesign_Preferences#Measure.md). [Pull request #7148](https   *//github.com/FreeCAD/FreeCAD/pull/7148)
+   
+
 ### Otras mejoras de la interfaz de usuario 
+
+-   It is now possible to set a default transparency for new [Part](Part_Module.md) or [PartDesign](PartDesign_Workbench.md) objects in the [Preferences](PartDesign_Preferences.md). [Pull request #7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103)
+-   A button has been added to switch the colors of the [3D view](3D_view.md) background gradient in the [Preferences](Preferences_Editor#Colors.md). [Pull request #7155](https   *//github.com/FreeCAD/FreeCAD/pull/7155)
+-   Commands to [store](Std_StoreWorkingView.md) and [recall](Std_RecallWorkingView.md) a temporary working view have been added. [Pull request #7525](https   *//github.com/FreeCAD/FreeCAD/pull/7525)
+-   Value changes with the mouse wheel in \'input fields\' (a widget type used to enter values in task panels, for example by [Draft Line](Draft_Line.md)) are disabled if the widget doesn\'t have the focus and the [ComboBoxWheelEventFilter](Fine-tuning.md) switch is enabled. This prevents unwanted value changes while scrolling, as already was the case for spin and combo boxes. [request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561%7CPull)
 
 ## Núcleo del sistema y API 
 
@@ -40,28 +49,34 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 <div class="mw-collapsible-content">
 
--   *ShapeFix\_EdgeConnectPy*   * Root class for fixing operations. [commit 4d4adb93](https   *//github.com/FreeCAD/FreeCAD/commit/4d4adb93)
--   *ShapeFix\_EdgePy*   * Fixing invalid edge. [commit 4089cbfb](https   *//github.com/FreeCAD/FreeCAD/commit/4089cbfb)
--   *ShapeFix\_FaceConnectPy*   * Rebuilds connectivity between faces in shell. [commit a0eb2e9d](https   *//github.com/FreeCAD/FreeCAD/commit/a0eb2e9d)
--   *ShapeFix\_FacePy*   * Class for fixing operations on faces. [commit b6cd635c](https   *//github.com/FreeCAD/FreeCAD/commit/b6cd635c)
--   *ShapeFix\_FixSmallFacePy*   * Class for fixing operations on faces. [commit 4c2946c8](https   *//github.com/FreeCAD/FreeCAD/commit/4c2946c8)
--   *ShapeFix\_FixSmallSolidPy*   * Fixing solids with small size. [commit b70d8d37](https   *//github.com/FreeCAD/FreeCAD/commit/b70d8d37)
--   *ShapeFix\_FreeBoundsPy*   * Intended to output free bounds of the shape. [commit 1ee1aee1](https   *//github.com/FreeCAD/FreeCAD/commit/1ee1aee1)
--   *ShapeFix\_RootPy*   * Root class for fixing operations. [commit f3e941a3](https   *//github.com/FreeCAD/FreeCAD/commit/f3e941a3)
--   *ShapeFix\_ShapePy*   * Class for fixing operations on shapes. [commit 87db9dcc](https   *//github.com/FreeCAD/FreeCAD/commit/87db9dcc)
--   *ShapeFix\_ShapeTolerancePy*   * Modifies tolerances of sub-shapes (vertices, edges, faces). [commit 125d5b63](https   *//github.com/FreeCAD/FreeCAD/commit/125d5b63)
--   *ShapeFix\_ShellPy*   * Root class for fixing operations. [commit f3e941a3](https   *//github.com/FreeCAD/FreeCAD/commit/f3e941a3)
--   *ShapeFix\_SolidPy*   * Root class for fixing operations. [commit 8d568793](https   *//github.com/FreeCAD/FreeCAD/commit/8d568793)
--   *ShapeFix\_SplitCommonVertexPy*   * Class for fixing operations on shapes. [commit 4b44c54c](https   *//github.com/FreeCAD/FreeCAD/commit/4b44c54c)
--   *ShapeFix\_SplitToolPy*   * Tool for splitting and cutting edges. [commit bbecc3f2](https   *//github.com/FreeCAD/FreeCAD/commit/bbecc3f2)
--   *ShapeFix\_WireframePy*   * Provides methods for fixing wireframe of shape. [commit 6843a461](https   *//github.com/FreeCAD/FreeCAD/commit/6843a461)
--   *ShapeFix\_WirePy*   * Class for fixing operations on wires. [commit 94f6279a](https   *//github.com/FreeCAD/FreeCAD/commit/94f6279a)
--   *ShapeFix\_WireVertexPy*   * Fixing disconnected edges in the wire. [commit 8c6ffc99](https   *//github.com/FreeCAD/FreeCAD/commit/8c6ffc99)
+-   *BSplineSurfacePy   *   *scaleKnotsToBounds*   * Scales the U and V knots lists to fit the specified bounds. [Pull request #7258](https   *//github.com/FreeCAD/FreeCAD/pull/7258) and [Pull request #7385](https   *//github.com/FreeCAD/FreeCAD/pull/7385)
+-   *BSplineCurvePy   *   *scaleKnotsToBounds*   * Scales the knots list to fit the specified bounds. [Pull request #7385](https   *//github.com/FreeCAD/FreeCAD/pull/7385)
+
+-   *ShapeFix_EdgeConnectPy*   * Clase raíz para arreglar operaciones. [commit 4d4adb93](https   *//github.com/FreeCAD/FreeCAD/commit/4d4adb93)
+-   *ShapeFix_EdgePy*   * Arreglar borde inválido. [commit 4089cbfb](https   *//github.com/FreeCAD/FreeCAD/commit/4089cbfb)
+-   *ShapeFix_FaceConnectPy*   * Reconstruye la conectividad entre caras en un cascarón. [commit a0eb2e9d](https   *//github.com/FreeCAD/FreeCAD/commit/a0eb2e9d)
+-   *ShapeFix_FacePy*   * Class for fixing operations on faces. [commit b6cd635c](https   *//github.com/FreeCAD/FreeCAD/commit/b6cd635c)
+-   *ShapeFix_FixSmallFacePy*   * Class for fixing operations on faces. [commit 4c2946c8](https   *//github.com/FreeCAD/FreeCAD/commit/4c2946c8)
+-   *ShapeFix_FixSmallSolidPy*   * Fixing solids with small size. [commit b70d8d37](https   *//github.com/FreeCAD/FreeCAD/commit/b70d8d37)
+-   *ShapeFix_FreeBoundsPy*   * Intended to output free bounds of the shape. [commit 1ee1aee1](https   *//github.com/FreeCAD/FreeCAD/commit/1ee1aee1)
+-   *ShapeFix_RootPy*   * Root class for fixing operations. [commit f3e941a3](https   *//github.com/FreeCAD/FreeCAD/commit/f3e941a3)
+-   *ShapeFix_ShapePy*   * Class for fixing operations on shapes. [commit 87db9dcc](https   *//github.com/FreeCAD/FreeCAD/commit/87db9dcc)
+-   *ShapeFix_ShapeTolerancePy*   * Modifies tolerances of sub-shapes (vertices, edges, faces). [commit 125d5b63](https   *//github.com/FreeCAD/FreeCAD/commit/125d5b63)
+-   *ShapeFix_ShellPy*   * Root class for fixing operations. [commit f3e941a3](https   *//github.com/FreeCAD/FreeCAD/commit/f3e941a3)
+-   *ShapeFix_SolidPy*   * Root class for fixing operations. [commit 8d568793](https   *//github.com/FreeCAD/FreeCAD/commit/8d568793)
+-   *ShapeFix_SplitCommonVertexPy*   * Class for fixing operations on shapes. [commit 4b44c54c](https   *//github.com/FreeCAD/FreeCAD/commit/4b44c54c)
+-   *ShapeFix_SplitToolPy*   * Tool for splitting and cutting edges. [commit bbecc3f2](https   *//github.com/FreeCAD/FreeCAD/commit/bbecc3f2)
+-   *ShapeFix_WireframePy*   * Provides methods for fixing wireframe of shape. [commit 6843a461](https   *//github.com/FreeCAD/FreeCAD/commit/6843a461)
+-   *ShapeFix_WirePy*   * Class for fixing operations on wires. [commit 94f6279a](https   *//github.com/FreeCAD/FreeCAD/commit/94f6279a)
+-   *ShapeFix_WireVertexPy*   * Fixing disconnected edges in the wire. [commit 8c6ffc99](https   *//github.com/FreeCAD/FreeCAD/commit/8c6ffc99)
 
 
 </div>
 
-#### API de Python cambiada 
+#### API de Python eliminada 
+
+-   *FreeCAD.EndingAdd*   * replaced by *FreeCAD.addImportType*. [Pull request #7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
+-   *FreeCAD.EndingGet*   * replaced by *FreeCAD.getImportType*. [Pull request #7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
 
 
 </div>
@@ -70,13 +85,29 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 ## Ambiente de Trabajo Arch 
 
+### Otras mejoras de Arch 
+
+-   Los objetos [Perfil](Arch_Profile.md) ahora soportan modificaciones del tipo de perfil después de su creación. [Pull request #7217](https   *//github.com/FreeCAD/FreeCAD/pull/7217)
+
 ## Ambiente de Trabajo Draft 
+
+-   The inaccuracy of [Draft Snap Near](Draft_Snap_Near.md) when snapping to curves was fixed. In addition, [Draft Snap Perpendicular](Draft_Snap_Perpendicular.md) can now also snap to faces and find multiple points. To snap to a vertex (e.g. a [Draft Point](Draft_Point.md)) [Draft Snap Endpoint](Draft_Snap_Endpoint.md) must now be used instead of [Draft Snap Near](Draft_Snap_Near.md). [Pull request #7132](https   *//github.com/FreeCAD/FreeCAD/pull/7132)
+-   To make working with [layers](Draft_Layer.md) easier their drag and drop behavior was modified. If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer, it is no longer removed from the group, and vice versa. This works without holding down the **Ctrl** key. [Pull request #7462](https   *//github.com/FreeCAD/FreeCAD/pull/7462)
 
 ### Otras mejoras de Draft 
 
 ## Ambiente de Trabajo FEM 
 
+   
+  <img alt="" src=images/FEM_Elmer-Multithread_relnotes_1.0.png  style="width   *384px;">Simulation result where 8 mesh regions are visible (one for every CPU core used).   It is now possible to run the solver [Elmer](FEM_SolverElmer.md) using multiple CPU cores. For more info about the caveats, see [this forum post](https   *//forum.freecadweb.org/viewtopic.php?p=610617#p610617) [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
+   
+
 ### Otras mejoras de FEM 
+
+-   There is now an <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) to set the initial internal pressure of fluids. [Pull request #7364](https   *//github.com/FreeCAD/FreeCAD/pull/7364)
+-   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *32px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) now has a task panel and it is possible to set the heat for several bodies or to use several constraints for different bodies in one analysis. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
+-   It is now possible to open (and this way visualize) \*.pvtu files (partitioned VTK unstructured grid data). A \*.pvtu file is also the result of an [Elmer](FEM_SolverElmer.md) simulation, when more than one CPU core was used. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
+-   Critical Strain Ratio has been added to the VTK result pipeline. It gives an indication of ductile rupture for materials with a \"MaterialMechanicalNonlinear\" object. [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
 
 ## Exportar
 
@@ -96,13 +127,25 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 ## Ambiente de Trabajo Path 
 
--   Camotics integration. If camotics (version 1.2.2 or later) is installed, a new icon will be added to the Path toolbar. Select a Path Job and press the button to open the Camotics dialog. Then drag the slider to generate a simulated solid at any point in the job. You can also launch the full camotics application to run the animated simulaton. This results in a silent post-processing of the job and creation of a camotics project file. [Pull request \#6637](https   *//github.com/FreeCAD/FreeCAD/pull/6637)
+-   Integración de Camotics. Si Camotics (versión 1.2.2 o posterior) está instalado, se agregará un nuevo icono a la barra de herramientas de Path. Seleccione un Trabajo de Path y presione el botón para abrir el cuadro de diálogo de Camotics. Luego arrastre el control deslizante para generar un sólido simulado en cualquier momento del trabajo. También puede iniciar la aplicación Camotics por completo para ejecutar la simulación animada. Esto da como resultado un postprocesamiento silencioso del trabajo y la creación de un archivo de proyecto de Camotics. [Pull request #6637](https   *//github.com/freecad/freecad/pull/6637)
 
--   Additional substitution strings for automatic output naming. If output is being split into multiple files, the filenames can automatically substitute the toolcontroller label, WCS, or operation label. This is in addition to the other existing substitution strings like date, job name, etc.
+-   Cadenas de sustitución adicionales para nombres de salida automática. Si la salida se divide en múltiples archivos, los nombres de archivo pueden sustituir automáticamente la etiqueta toolcontroller, WCS o etiqueta de operación. Esto se suma a las otras cadenas de sustitución existentes como fecha, nombre del trabajo, etc.
+
+-   Implemented Chipbreaking option for peck style drill cycles. Chipbreaking emits a G73 cycle which causes the control to make a very small retraction move to break the chip without fully retracting the bit from the hole. G73 is supported natively by LinuxCNC. Some other postprocessors will have to interpret the G73 and emit control appropriate codes or decompose the retraction into G1/G0 moves. Postprocessor support for G73 decomposition has been added to the \"refactored\" postprocessors.[Pull request #7469](https   *//github.com/FreeCAD/FreeCAD/pull/7469)
 
 ## Módulo Plot 
 
 ## Ambiente de Trabajo Sketcher 
+
+   
+  ![](images/sketcher-move-piece_relnotes_1.0.gif )   Dragging a B-spline now only moves the part between knots. [Pull request #7110](https   *//github.com/FreeCAD/FreeCAD/pull/7110)
+                                                                                     
+   
+
+   
+  ![](images/Sketcher_BackEdit_relnotes_1.0.gif )   Possibility to seamlessly edit sketches from the front or back. When working from the back, vertices (and all geometries and constraints) are equally selectable and the section view is switched automatically. [Pull request #7417](https   *//github.com/FreeCAD/FreeCAD/pull/7417)
+                                                                                 
+   
 
 ### Otras mejoras de Sketcher 
 
@@ -112,7 +155,14 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 ## Ambiente de Trabajo TechDraw 
 
+   
+  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width   *384px;">   A new [SurfaceFinishSymbol](TechDraw_SurfaceFinishSymbol.md) tool was added to allow for the creation of surface finish symbols describing roughness, lay and waviness, but also denoting the type of surface treatment. It supports both ISO and ASME styles. As shown in the image, the existing [LeaderLine](TechDraw_LeaderLine.md) tool can be used to properly refer oriented symbols to the edges of an object. [Pull request #7227](https   *//github.com/FreeCAD/FreeCAD/pull/7227)
+   
+
 ### Otras mejoras de TechDraw 
+
+-   Support for adjustable gaps for extension lines of [dimensions](TechDraw_Preferences#Dimensions.md) was added. [Pull request #7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133)
+-   Removed deprecated functions   * DrawViewPart   *   *replaceCenterLine, DrawViewPart   *   *replaceCosmeticEdge, DrawViewPart   *   *replaceCosmeticVertex and DrawViewPart   *   *replaceGeomFormat.
 
 ## Web
 
@@ -130,7 +180,7 @@ Marcador de posición para una imagen llamativa seleccionada por los administrad
 
 ## Compilación
 
-Since this release FreeCAD can only be compiled using Qt 5.x and Python 3.x. The lowest supported Python version is 3.8 according to the [FreeCAD 1.0 development goals](FreeCAD_1.0_Development_Cycle.md).
+Desde este lanzamiento FreeCAD solo va a poder ser compilado usando Qt 5.x y Python 3.x. La versión de Python más baja soportada es la 3.8 de acuerdo con las [metas de desarrollo de FreeCAD 1.0](FreeCAD_1.0_Development_Cycle.md).
 
 Para compilar FreeCAD vea las instrucciones para [Windows](Compile_on_Windows.md), [Linux](Compile_on_Linux.md) y [MacOS](Compile_on_MacOS.md).
 
@@ -151,7 +201,11 @@ Desde FreeCAD 0.19 no soportamos oficialmente Windows de 32 bits. FreeCAD podrí
 Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser que se encuentre un bloqueo cuando se ejecuta Freecad a través de un escritorio remoto. Para solucionar esto actualice su controlador OpenGL. Solo si esto no ayuda   *
 
 -   Descargar [esta](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) biblioteca OpenGL para Windows de 64 bits y extraerla.
--   Cambie el nombre del archivo DLL a \'\' OpenGL32SW.DLL \'\' y cópielo a la subcarpeta \'\' bin \'\' de la carpeta de instalación de FreeCAD (sobrescriba el DLL existente allí).
+-   Cambie el nombre del archivo DLL a *OpenGL32SW.DLL* y cópielo a la subcarpeta *bin* de la carpeta de instalación de FreeCAD (sobrescriba el DLL existente allí).
+
+### MacOS   * Entorno de trabajo Start Workbench muestra una página en blanco 
+
+Si el [entorno de trabajo Start](Start_Workbench/es.md) muestra solo una página en blanco, debe de habilitar la opción **Usar OpenGL software** en el menú **Editar → Preferencias → Mostrar**.
 
 [Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 

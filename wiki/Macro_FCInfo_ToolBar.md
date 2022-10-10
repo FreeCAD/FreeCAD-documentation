@@ -7,8 +7,8 @@
 |Version=00.03
 |Date=2022/03/29
 |FCVersion=0.18 and more
-|Download= [https   *//wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
-|SeeAlso = [Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
+|Download=[https   *//wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
+|SeeAlso=[Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
 }}
 
 ## Description
@@ -17,12 +17,12 @@ Gives information about the selected shape and can display a conversion of radiu
 
  
 
-![FCInfo\_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
+![FCInfo_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
 
 ## Usage
 
-After run the macro, go to Menu → Tools → Edit parameters \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo\_ToolBar
+After run the macro, go to Menu → Tools → Edit parameters \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar
 
 and check the info to display.
 
@@ -32,113 +32,113 @@ Use the button reset after change one option in the parameter window.
 
 The Unit size can be selected    * km, hm, dam, m, dm, cm, mm, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
-![FCInfo\_ToolBar the info toolTip](images/Macro_FCInfo_ToolBar_01.png ) 
+![FCInfo_ToolBar the info toolTip](images/Macro_FCInfo_ToolBar_01.png ) 
 *FCInfo_ToolBar the info toolTip*
 
 ## Options
 
-The options hare located in the Parameter of FreeCAD
+The options are located in the Parameter of FreeCAD   *
 
-*Menu → Tools → Edit parameters \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo\_ToolBar*
+*Menu → Tools → Edit parameters \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar*
 
--   ***switch\_User\_ToolbarIconSize***
+-   ***switch_User_ToolbarIconSize***
     -   if = `False`   * the icon toolBar respect the FreeCAD value for the icon size
-    -   if = `True`   * the icon take the values of the variable **seT\_User\_sizeIconX** and **seT\_User\_sizeIconY**
+    -   if = `True`   * the icon take the values of the variable **seT_User_sizeIconX** and **seT_User_sizeIconY**
 
--   ***seT\_User\_sizeIconX***
+-   ***seT_User_sizeIconX***
     -   set the value X of the Icon
 
--   ***seT\_User\_sizeIconY***
+-   ***seT_User_sizeIconY***
     -   set the value Y of the Icon
 
--   ***seT\_User\_setFixed\_Tool\_Bar\_Width***
+-   ***seT_User_setFixed_Tool_Bar_Width***
     -   set the Width of the ToolBar
 
--   ***seT\_User\_setFixed\_Tool\_Bar\_Height***
+-   ***seT_User_setFixed_Tool_Bar_Height***
     -   set the Height of the ToolBar
 
--   ***switch\_User\_Work\_With\_Preselection***
+-   ***switch_User_Work_With_Preselection***
     -   Work With the Preselectiond, update the data in real time
 
--   ***seT\_User\_StyleSheetColorToolBar***
-    -   set the color of the toolBar in HTML format example    * **\#F8E6E0**
+-   ***seT_User_StyleSheetColorToolBar***
+    -   set the color of the toolBar in HTML format example    * **#F8E6E0**
     -   if the value is **0** the toolBar take the system color
 
--   ***seT\_User\_DecimalValue***
+-   ***seT_User_DecimalValue***
     -   give the number of decimal of the number (Default **2**)
 
--   ***seT\_User\_TextHeigthValue***
+-   ***seT_User_TextHeigthValue***
     -   give the text height of the toolBar
 
--   ***switch\_User\_Display\_objectName***
+-   ***switch_User_Display_objectName***
     -   display the object Name ()
 
--   ***switch\_User\_Display\_SubElementName***
+-   ***switch_User_Display_SubElementName***
     -   display the SubElementName ()
 
--   ***switch\_User\_Display\_ShapeType***
+-   ***switch_User_Display_ShapeType***
     -   display the Shape type (TyS   *)
 
--   ***switch\_User\_Display\_TypeId***
+-   ***switch_User_Display_TypeId***
     -   display the TypeId (TyI   *)
 
--   ***switch\_User\_Display\_RadiusObject***
+-   ***switch_User_Display_RadiusObject***
     -   display the radius and the diameter (r   *) \[D   *]
 
--   ***switch\_User\_Display\_LengthObject***
+-   ***switch_User_Display_LengthObject***
     -   display the Length of the edge selected or the Perimeter of the face selected
         -   (L   *) display the Length of the wire, edge, line selected
         -   (P   *) display the Perimeter if the face is selected
 
--   ***switch\_User\_Display\_SommeAllEdgesObject***
+-   ***switch_User_Display_SommeAllEdgesObject***
     -   display the somme of the all edge of the object selected (Se   *)
 
--   ***switch\_User\_Display\_NumberFacesMesh***
+-   ***switch_User_Display_NumberFacesMesh***
     -   display the number of Faces of the Mesh object (Nf   *)
 
--   ***switch\_User\_Display\_NumberPointsMeshPoints***
+-   ***switch_User_Display_NumberPointsMeshPoints***
     -   display the number of points of the Mesh object (Np   *)
 
--   ***switch\_User\_Display\_NumberEdgesMesh***
+-   ***switch_User_Display_NumberEdgesMesh***
     -   display the number of edges of the Mesh object (Ne   *)
 
--   ***switch\_User\_Display\_AreaObject***
+-   ***switch_User_Display_AreaObject***
     -   display the area of the object (A   *)
 
--   ***switch\_User\_Display\_AreaSubObject***
+-   ***switch_User_Display_AreaSubObject***
     -   display the area of the face selected (Af   *)
 
--   ***switch\_User\_Display\_VolumeObject***
+-   ***switch_User_Display_VolumeObject***
     -   display the volume of the object (V   *)
 
--   ***switch\_User\_Display\_BsplineObject***
+-   ***switch_User_Display_BsplineObject***
     -   display the number of node of the Bspline selected
         -   (BSpline) display the number of node of the BSpline
         -   (BSrA) BSPline radius approximative first radius of the BSpline
         -   (BSS) BSPline Points Shape number points of the Bspline (case Shape)
         -   (BSc) BSPline Points Sub Object number points of sub object selected (case Edge)
 
--   ***switch\_User\_Display\_CentreObject***
+-   ***switch_User_Display_CentreObject***
     -   display the center of the circle (if one circle is detected) or of the object selected
         -   (Ce   *) display the center of circle (if detected), face, edge \... BBoxCenter of face, edge \... Sub selection\" + \"\\n\\n\")
 
--   ***switch\_User\_Display\_CentreBoundBoxObject***
+-   ***switch_User_Display_CentreBoundBoxObject***
     -   display the boundingBox center of the object (BBCe   *)
 
--   ***switch\_User\_Display\_Position***
+-   ***switch_User_Display_Position***
     -   display the coordinates point mouse pointed (Pos   *)
 
--   ***switch\_User\_NotInfoOnBeginning***
+-   ***switch_User_NotInfoOnBeginning***
     -   if it is `False` the info (this information) is displayed
     -   if it is `True` the info is not displayed
 
--   ***seT\_User\_UnitSymbolSquare***
+-   ***seT_User_UnitSymbolSquare***
     -   give the symbol square (Default **2**)
 
--   ***seT\_User\_UnitSymbolCube***
+-   ***seT_User_UnitSymbolCube***
     -   give the symbol cube (Default **3**)
 
--   ***seT\_User\_UnitSymbolMicro***
+-   ***seT_User_UnitSymbolMicro***
     -   give the symbol micro (Default **u**)
 
 ## For automatic Run 
@@ -147,7 +147,7 @@ The options hare located in the Parameter of FreeCAD
 
 In your shortcut *verify your right path*
 
-\"Complete\_path\_of\_FreeCAD\" \"Complete\_path\_of\_the\_macro.FCMacro\"
+\"Complete_path_of_FreeCAD\" \"Complete_path_of_the_macro.FCMacro\"
 
 example   *
 
@@ -158,9 +158,9 @@ example   *
 
 #### in Mod directory 
 
-1.  After install the macro with AddonManager
-2.  Create the *FCInfo\_ToolBar* directory
-3.  Copy the macro FCInfo\_ToolBar.FCMacro (copy not move) in the *FCInfo\_ToolBar* directory and rename it in FCInfo\_ToolBar.py
+1.  After install the macro with [Addon Manager](Std_AddonMgr.md)
+2.  Create the *FCInfo_ToolBar* directory
+3.  Copy the macro FCInfo_ToolBar.FCMacro (copy not move) in the *FCInfo_ToolBar* directory and rename it in FCInfo_ToolBar.py
 4.  Create a file named InitGui.py
 5.  Paste the code in InitGui.py   *
 
@@ -191,7 +191,7 @@ if switch_User_NotRunAuto == False   *
 
 1.  save the file
 2.  run FreeCAD
-3.  if the macro not run (normal) execute the macro FCInfo\_ToolBar.FCMacro as a normal macro
+3.  if the macro not run (normal) execute the macro FCInfo_ToolBar.FCMacro as a normal macro
 4.  the next start of FreeCAD the macro must start automatically
 
 enjoy

@@ -15,6 +15,12 @@ Da fare
 
 </div>
 
+To learn more about stress linearization plots, you can read [this description](https   *//www.graspengineering.com/what-is-stress-linearization/).
+
+<img alt="" src=images/FEM_Stress-Linearization-Plot-Example.png  style="width   *500px;">
+
+*A stress linearization plot.*
+
 ## Utilizzo
 
 

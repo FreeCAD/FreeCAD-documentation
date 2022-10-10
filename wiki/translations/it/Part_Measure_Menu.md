@@ -1,57 +1,7 @@
----
-- GuiCommand   */it
-   Name   *Part Measure Menu
-   Name/it   *Part Measure Menu
-   MenuLocation   *
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Std MeasureDistance](Std_MeasureDistance.md), [Draft Dimension](Draft_Dimension.md), [Arch Survey](Arch_Survey.md)
----
-
 # Part Measure Menu/it
-
-
-</div>
-
-
-{{StdMenu|Misure}}
-
-
-<div class="mw-translate-fuzzy">
-
-Non confondere questo menu con lo strumento <img alt="" src=images/Std_MeasureDistance.png  style="width   *32px;"> [Misura Distanza](Std_MeasureDistance/it.md)
-
-
-</div>
-
-<img alt="" src=images/Part_Measure_Linear.svg  style="width   *32px;"> [Misure Lineari](Part_Measure_Linear/it.md) consente di effettuare misurazioni lineari.
-
-<img alt="" src=images/Part_Measure_Angular.svg  style="width   *32px;"> [Misure Angolari](Part_Measure_Angular/it.md) consente di effettuare misurazioni di angoli.
-
-<img alt="" src=images/Part_Measure_Refresh.svg  style="width   *32px;"> [Measure Refresh](Part_Measure_Refresh/it.md) aggiorna le misure nella vista 3D.
-
-<img alt="" src=images/Part_Measure_Clear_All.svg  style="width   *32px;"> [Cancella tutto](Part_Measure_Clear_All/it.md) elimina tutte le misure.
-
-<img alt="" src=images/Part_Measure_Toggle_All.svg  style="width   *32px;"> [Attiva/Disattiva tutto](Part_Measure_Toggle_All/it.md) mostra o nasconde tutte le misure.
-
-<img alt="" src=images/Part_Measure_Toggle_3d.svg  style="width   *32px;"> [Attiva/Disattiva 3D](Part_Measure_Toggle_3d/it.md) mostra o nasconde le misure 3D.
-
-<img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *32px;"> [Attiva/Disattiva Delta](Part_Measure_Toggle_Delta/it.md) mostra o nasconde le misure Delta.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
- 
-
-[Category   *Documentation](Category_Documentation.md)
+1.  REDIRECT [Part_Module/it#Misure](Part_Module/it#Misure.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Part](Part_Workbench.md) > Part Measure Menu/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Menu/it

@@ -3,7 +3,7 @@
 |Name=Macro Airfoil Import & Scale
 |Icon=Macro_Airfoil_Import_&_Scale.png
 |Translate=Importa & Scala profilo alare
-|Description=Traccia il perimetro di un profilo alare da un file .dat.
+|Description=Questa Macro, una volta eseguita, fornirà all'utente un browser per individuare e selezionare un file di testo con profilo alare .dat. Una volta selezionato, viene inserita una lunghezza della corda e premendo il pulsante OK viene prodotto un profilo aerodinamico adeguatamente scalato. Ci sono due versioni fornite qui. La versione 1.5 dovrebbe funzionare su versioni di FreeCAD, 0.13 stabile e tutte le versioni 0.14. La versione 2 dovrebbe essere utilizzata solo con versioni di FreeCAD uguali o superiori a 0.14 3077 e funzionerà al meglio con le versioni create con OCE/OCC versioni 6.7 o successive (consulta la pagina Wiki per tutte le versioni disponibili).
 |Author=quick61
 |Version=2.1.2
 |Date=2019-07-16
@@ -46,19 +46,13 @@ La selezione del file avviene come per la versione 1.5. Con la versione 2 si pu�
 
 ### Ultima versione 
 
-
-<div class="mw-translate-fuzzy">
-
 L\'ultima versione della macro si trova in [AirfoilImportAndScale.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
-
-
-</div>
 
 ### Versione 2.1.2 
 
 ToolBar icon ![](images/Macro_Airfoil_Import_&_Scale.png )
 
-**Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
+**Macro_Airfoil_Import\_&\_Scale.FCMacro**
 
 
 {{MacroCode|code=
@@ -215,7 +209,7 @@ AirfoilImporterAndScaler()
 
 ### Version 1.5 
 
-**Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
+**Macro_Airfoil_Import\_&\_Scale.FCMacro**
 
 
 {{MacroCode|code=

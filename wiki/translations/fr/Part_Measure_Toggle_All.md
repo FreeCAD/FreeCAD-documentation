@@ -1,24 +1,25 @@
 ---
 - GuiCommand   */fr
    Name   *Part Measure Toggle All
-   Name/fr   *Part Basculer tout
-   MenuLocation   *Mesure → Basculer tout
+   Name/fr   *Part Tout basculer
+   MenuLocation   *Mesure → Tout basculer
    Workbenches   *[Part](Part_Workbench/fr.md)
+   SeeAlso   *[Part Basculer 3D](Part_Measure_Toggle_3D/fr.md), [Part Basculer Delta](Part_Measure_Toggle_Delta/fr.md)
 ---
 
 # Part Measure Toggle All/fr
 
 ## Description
 
-Cet outil bascule la visibilité de toutes les mesures dans la [vue 3D](3D_view/fr.md).
+Cette commande permet de basculer la visibilité de toutes les mesures dans la [vue 3D](3D_view/fr.md).
 
-![](images/MeasureLinear3DandDelta1.PNG )
+<img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width   *400px;">
 
 ## Utilisation
 
-1.  Lancez la commande de plusieurs manières    *
-    -   Appuyez sur le bouton **[<img src=images/Part_Measure_Toggle_All.svg style="width   *16px"> '''Basculer tout'''**.
-    -   Utilisez la **Mesure → Basculer tout**
+1.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur le bouton **<img src="images/Part_Measure_Toggle_All.svg" width=16px> [Tout basculer](Part_Measure_Toggle_All/fr.md)**.
+    -   Sélectionnez l\'option **Mesure → <img src="images/Part_Measure_Toggle_All.svg" width=16px> Tout basculer** dans le menu.
 
 
 

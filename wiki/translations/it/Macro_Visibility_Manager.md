@@ -1,21 +1,15 @@
 # Macro Visibility Manager/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Visibility_Manager
 |Icon=Macro_Visibility_Manager.png
 |Description=Utilizzalo per gestire la visibilità degli oggetti del documento. <br/> Esistono 2 modalità operative   * Mostra tutto e Mostra tipi.<br/>Nella modalità Mostra tipi (impostazione predefinita) viene visualizzato solo un elenco dei tipi di oggetti, ad es Body, Sketch, Pad, Extrude.<br/>Attivando/disattivando uno dei tipi si imposta la visibilità di tutti i documenti
 oggetti di quel tipo nel documento attivo.<br/>Nella modalità Mostra tutto (Premi il tasto Maiusc mentre esegui la macro) vedi una casella di controllo diversa per ogni oggetto del documento, in ordine alfabetico.<br/>Puoi attivare visibilità individuale.
 |Author=TheMarkster
-|Version=1.04
-|Date=2019-08-05
+|Version=1.06
+|Date=2020-06-18
 |FCVersion=All
 |Download=[https   *//www.freecadweb.org/wiki/images/c/c8/Macro_Visibility_Manager.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -23,9 +17,9 @@ Utilizzare questa macro per gestire la visibilità degli oggetti del documento p
 
 ## Script
 
-ToolBar icon ![](images/Macro_Visibility_Manager.png )
+Icona barra strumenti ![](images/Macro_Visibility_Manager.png )
 
-**Macro\_Visibility\_Manager.FCMacro**
+**Macro_Visibility_Manager.FCMacro**
 
 
 {{MacroCode|code=

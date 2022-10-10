@@ -18,9 +18,18 @@
 
 ## Применение
 
-1.  Invoke the command several ways   *
-    -   Press the **[<img src=images/Part_Measure_Refresh.svg style="width   *16px"> [Measure Refresh](Part_Measure_Refresh.md)** button.
-    -   Use the **Measure → [<img src=images/Part_Measure_Refresh.svg style="width   *16px"> Refresh**.
+1.  There are several ways to invoke the command   *
+    -   Press the **<img src="images/Part_Measure_Refresh.svg" width=16px> [Refresh](Part_Measure_Refresh.md)** button.
+    -   Select the **Measure → <img src="images/Part_Measure_Refresh.svg" width=16px> Refresh** option from the menu.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

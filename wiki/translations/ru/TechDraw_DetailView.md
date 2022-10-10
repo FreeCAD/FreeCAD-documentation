@@ -26,35 +26,36 @@ The Detail tool creates a view of small area of an existing view.
 
 The Detail view can be displayed within a round or square view box. This is controlled by the [preferences](TechDraw_Preferences#Annotation.md) setting **Detail View Outline Shape**.
 
-## Свойства
+## Properties Detail View 
 
-### Detail View 
+See also [TechDraw View](TechDraw_View#Properties.md).
 
--    **BaseView**   * The view on which this Detail view is based.
+### Data
 
--    **Anchor Point**   * The center of the Detail view within the **BaseView**.
 
--    **Radius**   * The size of the area in the **BaseView** that is displayed in the Detail view.
+{{TitleProperty|Detail}}
 
--    **Scale Type**   * Type of the scale. The choices are   *
+-    **Base View|Link**   * The view on which this Detail view is based.
 
-    -   *Page*   * The scale factor of the drawing [Page](TechDraw_PageDefault.md) is used
-    -   *Automatic*   * In case the detail view would be larger than the page, it will be scaled down to fit into the page
-    -   *Custom*   * A custom scale factor set by **Scale**
+-    **Anchor Point|Vector**   * The center of the Detail view within the **Base View**.
 
--    **Scale**   * Magnification level.
+-    **Radius|Float**   * The size of the area in the **Base View** that is displayed in the Detail view.
 
--    **Reference**   * An identifier to indicate the area of the **BaseView** that is displayed.
+-    **Reference|String**   * An identifier for the Detail view in the **Base View**.
 
-### Base View 
+## Properties Base View 
 
-A Detail view inherits all applicable properties of the view specified as **BaseView**. In the properties of this view you can change the appearance of the detail outline   *
+A Detail view inherits all applicable properties of the view specified as **Base View**. In the properties of this view you can change the appearance of the detail outline   *
 
 -    **Highlight Adjust**   * Clockwise rotation angle of the Detail view.
 
 -    **Highlight Line Color**   * Line color for the outline shape. Default setting for this is the setting **Detail Highlight** in the [TechDraw preferences](TechDraw_Preferences.md).
 
 -    **Highlight Line Style**   * Line style for the outline shape. Default setting for this is the setting **Detail Highlight Style** in the [TechDraw preferences](TechDraw_Preferences.md).
+
+## Примечания
+
+-   [A good discussion about setting the Anchor](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 ## Программирование
 
@@ -70,21 +71,6 @@ The Detail tool can be used in [macros](Macros.md) and from the [Python](Python.
 Detail = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDetail','Detail')
 ...TBA
 ```
-
-## Tricks
-
--   The space around the view outline and the view object border is by default a white area. This means it covers everything behind it. Sometimes there is not enough space on the page and you can save space by reducing this unnecessary white area.
-
-This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.md)   *
-
-![](images/TechDraw_DetailClipped.png ) 
-*Detail view in a clip group*
-
--   For detail views with a round outline, the position of the reference label in the base view can be changed via the base view property **Highlight Adjust**.
-
-## Примечания
-
--   [A good discussion about setting the Anchor](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 
 

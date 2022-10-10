@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md) insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir Remarques.
+L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md) insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir [Remarques](#Remarques.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Éléments Draft tels que des cercles et des réseaux importés dans une page de dessin TechDraw*
@@ -25,10 +25,6 @@ L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> 
 **
 4.  Une vue d\'un objet Draft apparaîtra sur la page.
 
-### Limitations
-
-La Vue d\'un objet Draft est affiché dans l\'[atelier Draft](Draft_Workbench/fr.md). TechDraw a donc un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Draft pour obtenir la représentation souhaitée.
-
 ## Options
 
 -   La création d\'une Vue d\'un objet Draft d\'une coupe traitera de manière récursive tous les objets trouvés dans cette coupe. La vue est mise à jour automatiquement lorsque le contenu de la coupe change.
@@ -39,21 +35,32 @@ La Vue d\'un objet Draft est affiché dans l\'[atelier Draft](Draft_Workbench/fr
 
 ## Propriétés
 
--    **Source**   * L\'objet Draft à afficher
+Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
--    **LineWidth**   * La largeur des lignes, indépendamment de l\'échelle
+### Données
 
--    **FontSize**   * La taille de tous les textes apparaissant dans cette vue (textes et dimensions)
 
--    **Direction**   * La direction de projection à utiliser
+{{TitleProperty|Drawing view}}
 
--    **Color**   * La couleur des lignes
+-    **Source|Link**   * l\'objet Draft à afficher.
 
--    **LineStyle**   * Un style de ligne à utiliser pour cette vue. Peut être continu, pointillé, tireté, point ou un motif de ligne SVG comme 0.20,0.20
+-    **Line Width|Float**   * largeur des lignes, indépendamment de l\'échelle.
 
--    **LineSpacing**   * L\'espacement à utiliser entre les lignes de textes pour les textes multilignes
+-    **Font Size|Float**   * taille de tous les textes apparaissant dans cette vue (textes et dimensions).
 
-Remarque   * Vue d\'un objet Draft hérite de toutes les propriétés Vues de base applicables.
+-    **Direction|Vector**   * direction de projection à utiliser.
+
+-    **Color|Color**   * couleur des lignes.
+
+-    **Line Style|String**   * style de ligne à utiliser pour cette vue. Peut être {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} ou un modèle de ligne SVG comme {{Value|0.20,0.20}}.
+
+-    **Line Spacing|Float**   * espacement à utiliser entre les lignes de textes pour les textes multilignes.
+
+-    **Override Style|Bool**   * si `True`, la couleur, la largeur et le style des lignes de cette vue remplaceront ceux de l\'objet rendu.
+
+## Remarques
+
+La Vue d\'un objet Draft est affiché dans l\'[atelier Draft](Draft_Workbench/fr.md). TechDraw a donc un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Draft pour obtenir la représentation souhaitée.
 
 ## Script
 

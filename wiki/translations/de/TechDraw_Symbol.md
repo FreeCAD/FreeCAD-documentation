@@ -35,31 +35,7 @@ Wenn das Symbol größer als erwartet dargestellt wird, kann die Eigenschaft Sca
 
 ## Eigenschaften
 
-
-{{TitleProperty|Basis}}
-
-Siehe [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
-
--    {{PropertyData/de|X}}
-    
-
--    {{PropertyData/de|Y}}
-    
-
--    {{PropertyData/de|Lock Position}}
-    
-
--    {{PropertyData/de|Rotation}}
-    
-
--    {{PropertyData/de|Scale Type}}
-    
-
--    {{PropertyData/de|Scale}}
-    
-
--    {{PropertyData/de|Caption}}
-    
+See also [TechDraw View](TechDraw_View#Properties.md).
 
 
 {{TitleProperty|Drawing view}}

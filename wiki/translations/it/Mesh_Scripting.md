@@ -1,47 +1,25 @@
 # Mesh Scripting/it
 {{TOCright}}
 
+## Introduzione
 
-<div class="mw-translate-fuzzy">
-
-### Introduzione
-
-Prima di tutto si deve importare il modulo Mesh   *
-
-
-</div>
-
-To get access to the `Mesh` module you have to import it first   *
+Per accedere al modulo ` Mesh` devi prima importarlo   *
 
 
 ```python
 import Mesh
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-### Creazione e caricamento 
+## Creazione
 
 Per creare un oggetto mesh vuoto basta usare il costruttore standard   *
-
-
-</div>
-
-To create an empty mesh object just use the standard constructor   *
 
 
 ```python
 mesh = Mesh.Mesh()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Inoltre è possibile creare un oggetto da un file
-
-
-</div>
+Inoltre è possibile creare un oggetto da un file   *
 
 
 ```python
@@ -62,28 +40,11 @@ meshObject = Mesh.Mesh(triangles)
 Mesh.show(meshObject)
 ```
 
+Il Kernel Mesh si occupa di creare una corretta struttura topologica dei dati individuando i punti e i bordi coincidenti. {{Top}}
 
-<div class="mw-translate-fuzzy">
+## Modellazione
 
-Il Kernel Mesh si occupa di creare una corretta struttura topologica dei dati individuando i punti e i bordi coincidenti.
-
-
-</div>
-
-
-{{Top}}
-
-
-<div class="mw-translate-fuzzy">
-
-### Modellazione
-
-Per creare delle geometrie regolari è possibile utilizzare lo script Python BuildRegularGeoms.py.
-
-
-</div>
-
-To create regular geometries you can use one of the `create*()` methods. A torus, for instance, can be created as follows   *
+Per creare geometrie regolari è possibile utilizzare uno dei metodi `create*()`. Un toroide, ad esempio, può essere creato come segue   *
 
 
 ```python
@@ -91,17 +52,9 @@ m = Mesh.createTorus(8.0, 2.0, 50)
 Mesh.show(m)
 ```
 
+I primi due parametri definiscono i raggi del toro e il terzo parametro è un fattore di sub-campionamento che stabilisce quanti triangoli vengono creati. Maggiore è questo valore e più il corpo è liscio, più questo valore è piccolo e più il corpo è grossolano (sfaccettato).
 
-<div class="mw-translate-fuzzy">
-
-I primi due parametri definiscono i raggi del toroide e il terzo parametro è un fattore di sub-campionamento che stabilisce quanti triangoli vengono creati. Maggiore è questo valore e più il corpo è liscio, più questo valore è piccolo e più il corpo è grossolano (sfaccettato).
-
-La classe Mesh fornisce una serie di funzioni booleane che possono essere utilizzate per operazioni di modellazione. Essa fornisce l\'unione, l\'intersezione e la differenza tra due oggetti mesh.
-
-
-</div>
-
-The `Mesh` module also provides three Boolean methods   * `union()`, `intersection()` and `difference()`   *
+Il modulo `Mesh` fornisce anche tre metodi Booleani   * `union()`, `intersection()` e `difference()`   *
 
 
 ```python
@@ -116,13 +69,7 @@ m6 = Mesh.Mesh(m2)
 m6.difference(m1)   # the difference of m2 and m1, usually the result is different to m5
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Ecco infine, un esempio completo che calcola l\'intersezione tra una sfera e un cilindro che interseca la sfera.
-
-
-</div>
+Ecco un esempio che crea un tubo usando il metodo `difference()`   *
 
 
 ```python
@@ -142,31 +89,11 @@ doc.recompute()
 
 {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
-### Prove
+## Note
 
 Una nutrita (anche se difficile da usare) libreria di script riferiti a Mesh sono gli script dell\'unita di test del Modulo Mesh. In questa unit test sono letteralmente chiamati tutti i metodi e sono ottimizzate tutte le proprietà e gli attributi. Quindi, se siete abbastanza coraggiosi, date un\'occhiata al [modulo unit test](http   *//free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup).
 
-
-</div>
-
-An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
-
-
-<div class="mw-translate-fuzzy">
-
-Vedere anche [Mesh API](Mesh_API/it.md)
-
-
-</div>
-
-
-{{Top}}
-
-
- {{Mesh Tools navi}} 
+Vedere anche   * [Mesh API](Mesh_API/it.md). {{Top}}  {{Mesh Tools navi}} 
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 

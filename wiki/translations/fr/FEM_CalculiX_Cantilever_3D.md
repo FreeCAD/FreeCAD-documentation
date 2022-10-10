@@ -15,13 +15,11 @@
 
 ## Introduction
 
-Cet exemple est destiné à montrer à quoi ressemble une simple analyse par éléments finis (**FEA**) dans l\'[Atelier FEM](FEM_Workbench/fr.md) de FreeCAD et comment les résultats peuvent être visualisés. Il illustre comment déclencher un FEA et comment changer la valeur et la direction de la charge. De plus, étant donné que le fichier d\'exemple est fourni avec toute installation de FreeCAD, c\'est une vérification utile et facile à exécuter dans le but de vérifier si l\'Atelier FEM est correctement configuré.
+Cet exemple est destiné à montrer à quoi ressemble une simple analyse par éléments finis (**FEA**) dans l\'[atelier FEM](FEM_Workbench/fr.md) de FreeCAD et comment les résultats peuvent être visualisés. Il illustre comment déclencher un FEA et comment changer la valeur et la direction de la charge. De plus, étant donné que le fichier d\'exemple est fourni avec toute installation de FreeCAD, c\'est une vérification utile et facile à exécuter dans le but de vérifier si l\'Atelier FEM est correctement configuré.
 
-<img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic10.png  style="width   *700px;">
 
-## Exigences
-
-=
+## Conditions
 
 -   Une version compatible de FreeCAD désignée dans l\'aperçu du tutoriel.
 
@@ -31,31 +29,26 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 ## Configurer le fichier d\'exemple 
 
-### Charger l\'atelier Démarrage 
-
--   Démarrez FreeCAD
--   L\'Atelier Démarrage doit être chargé
-
 ### Charger le fichier exemple 
 
--   Accédez aux exemples de projets et cliquez sur \"Load an FEM analysis example\"
--   Si en raison d\'opérations ultérieures, certaines géométries, contraintes ou résultats sont interrompus ou supprimés, répétez simplement les étapes ci-dessus.
+-   Démarrez FreeCAD.
+-   Si l\'atelier Start n\'est pas activé, chargez-le et ouvrez la page de démarrage.
+-   Ouvrez l\'exemple \"FemCalculixCantilever3D.FcStd\".
 
-<img alt="" src=images/FEM_example01_pic01.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic11.png  style="width   *700px;">
 
 ### Activer le conteneur d\'analyse 
 
--   Pour travailler avec une analyse, celle-ci doit être activée.
--   Dans la [Vue en arborescence](Tree_view/fr.md) cliquez droit sur <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> 
-**MechanicalAnalysis**
--   Choisir **Activate analysis**
+-   Pour travailler avec une analyse, l\'analyse doit être activée.
+-   Dans la [vue en arborescence](Tree_view/fr.md), double-cliquez sur le bouton <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> **Analyse**,
+-   Ou cliquez avec le bouton droit de la souris sur l\'image <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> **Analyse** et choisissez **Activer l'analyse**.
 
-<img alt="" src=images/FEM_example01_pic02.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic12.png  style="width   *700px;">
 
 ### Conteneur d\'analyse et ses objets 
 
--   Si l\'analyse est activée, FreeCAD lui-même changera l\'espace de travail actuel en FEM.
--   Il existe au moins les 5 objets nécessaires pour effectuer une analyse mécanique statique.
+-   Si l\'analyse est activée, FreeCAD de lui-même basculera vers l\'atelier FEM.
+-   Il faut au moins 5 objets pour faire une analyse mécanique statique.
 -   <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> conteneur d\'analyse
 
 1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> un solveur
@@ -64,72 +57,70 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width   *24px;"> une contrainte de force
 5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width   *24px;"> un maillage FEM
 
--   Comme les résultats sont également inclus dans l\'exemple, il existe un sixième objet, les résultats <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;">, développé dans le paragraphe suivant.
+-   Dans cet exemple, les résultats <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> sont déjà inclus.
 
 ### Visualisation des résultats 
 
-1.  Assurez-vous que l\'analyse est activée.
-2.  Assurez-vous que l\'analyse contient toujours l\'objet résultant, sinon reculez le fichier d\'exemple.
-3.  Cliquez sur le bouton <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Afficher le résultat](FEM_ResultShow/fr.md) dans la barre d\'outils FEM.
-4.  Dans la fenêtre de tâches, choisissez `z-Displacement`. Il montre `-88.443 mm` dans la direction Z négative.
-5.  Cela a du sens puisque la force est également dans la direction Z négative.
-6.  Activez la case à cocher Show Displacement.
-7.  Le curseur peut être utilisé pour modifier le maillage pour voir la déformation de manière simplifiée.
-8.  Choisissez parmi les différents types de résultats pour afficher tous les types de résultats disponibles dans l\'Interface Graphique Utilisateur.
+1.  Vérifiez que l\'analyse est activée.
+2.  Vérifiez que l\'analyse contient toujours l\'objet résultat, sinon rechargez simplement le fichier exemple.
+3.  Double-cliquez sur l\'objet résultat <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;">, ou sélectionnez-le et cliquez sur le bouton <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Afficher le résultat](FEM_ResultShow/fr.md) dans la barre d\'outils FEM.
+4.  Dans la fenêtre de tâche, choisissez `z-Displacement`. Il montre `-86.93 mm` dans la direction z négative. Ceci est logique puisque la force est également dans la direction z négative.
+5.  Activez la case à cocher à côté du curseur inférieur de l\'affichage du déplacement.
+6.  Le curseur peut être utilisé pour modifier le maillage afin de visualiser la déformation d\'une manière simplifiée.
+7.  Choisissez parmi les différents types de résultats pour afficher tous les types de résultats disponibles dans l\'interface graphique.
 
-<img alt="" src=images/FEM_example01_pic03.jpg  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic13.png  style="width   *400px;">
 
 ### Purger les résultats 
 
 1.  Assurez-vous que l\'analyse est activée.
-2.  Pour supprimer les résultats    * sélectionnez dans la barre d\'outils l\'icône <img alt="" src=images/FEM_ResultsPurge.svg  style="width   *24px;">. [Purger les résultats](FEM_ResultsPurge/fr.md).
+2.  Pour supprimer les résultats    * sélectionnez dans la barre d\'outils l\'icône <img alt="" src=images/FEM_ResultsPurge.svg  style="width   *24px;"> [Purger les résultats](FEM_ResultsPurge/fr.md).
 
-### Exécuter la FEA 
+### Exécuter l\'analyse par éléments finis 
 
--   Dans la [Vue en arborescence](Tree_view/fr.md), double-cliquez sur l\'objet solveur <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;">.
--   Dans le [Panneau des tâches](Task_panel/fr.md) de l\'objet solveur, assurez-vous que l\'analyse statique est sélectionnée.
--   Cliquez sur le fichier d\'écriture .inp dans la même fenêtre de tâches. Regardez la fenêtre de journal jusqu\'à ce qu\'elle imprime \"écriture terminée\".
--   Cliquez sur **Run CalculiX**. Comme il s\'agit d\'une très petite analyse, il faudrait moins d\'une seconde pour s\'exécuter.
--   Dans la fenêtre de texte, il doit imprimer en lettres vertes \"CalculiX done!\" et dans la ligne suivante \"chargement des jeux de résultats \...\"
--   Vous avez terminé votre premier FEA dans FreeCAD s\'il n\'y a pas eu de message d\'erreur.
+-   Dans la [vue en arborescence](Tree_view/fr.md), double-cliquez sur l\'objet solveur <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;">.
+-   Dans le [panneau des tâches](Task_panel/fr.md) de l\'objet solveur, assurez-vous que l\'analyse statique est sélectionnée.
+-   Cliquez sur **Ecrire le fichier .inp** dans la même fenêtre de tâches. Observez la fenêtre de journal jusqu\'à ce qu\'elle affiche \"write completed.\"
+-   Cliquez sur **Lancer CalculiX**. Comme il s\'agit d\'une très petite analyse, son exécution devrait prendre moins d\'une seconde.
+-   Dans la fenêtre de texte, il devrait apparaître en lettres vertes \"CalculiX done without error!\" et à la ligne suivante \"loading result sets \...\".
+-   Vous venez de terminer votre première analyse par éléments finis dans FreeCAD s\'il n\'y a pas eu de message d\'erreur.
 -   Cliquez sur **Fermer** dans la fenêtre de tâches.
 -   Un nouvel objet de résultat devrait être créé. Vous savez déjà comment visualiser les résultats .
 -   Si vous obtenez un message d\'erreur sans solveur binaire ou similaire lors du déclenchement de la vérification d\'analyse, voir [FEM Installation des composants requis](FEM_Install/fr.md).
 
-<img alt="" src=images/FEM_example01_pic04.jpg  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic14.png  style="width   *400px;">
 
-### Exécuter la FEA rapidement 
+### Exécuter l\'analyse par éléments finis rapidement 
 
 -   Dans l\'arborescence, sélectionnez l\'objet solveur <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> de l\'analyse <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;">.
--   Dans la barre d\'outils de l\'icône, cliquez sur <img alt="" src=images/FEM_SolverRun.svg  style="width   *24px;"> [Lancer les calculs\...](FEM_SolverRun/fr.md).
+-   Dans la barre d\'outils de l\'icône, cliquez sur <img alt="" src=images/FEM_SolverRun.svg  style="width   *24px;"> [Lancer les calculs du solveur](FEM_SolverRun/fr.md).
 -   Le fichier de saisie Calculix sera écrit, CalculiX sera déclenché et l\'objet résultant devrait être créé.
 
 ### Modification de la direction de la charge et de sa valeur 
 
--   Dans la [vue en arborescence](Tree_view/fr.md), sélectionnez l\'objet FEM mesh <img alt="" src=images/FEM_FEMMesh.svg  style="width   *24px;"> et appuyez sur la touche **Espace**.
-    -   **Résultat   *** la visibilité du maillage FEM sera désactivée. Le modèle géométrique est encore visible.
--   Dans la [Vue en arborescence](Tree_view/fr.md), double-cliquez sur l\'objet de contrainte de force pour ouvrir son [Panneau des tâches](Task_panel/fr.md).
--   Dans la fenêtre de tâches, modifiez la valeur de charge à **500000000N=500MN** (**Remarque   *** l\'unité de force dans la fenêtre de tâche doit être en N)
+-   Dans la [vue en arborescence](Tree_view/fr.md), développez <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> CCX_Results et sélectionnez l\'objet <img alt="" src=images/FEM_MeshResult.svg  style="width   *24px;"> ResultMesh et appuyez sur la touche **Espace**.
+    -   **Résultat    *** la visibilité du maillage FEM est désactivée. Le modèle géométrique est toujours visible.
+-   Dans la [vue en arborescence](Tree_view/fr.md), double-cliquez sur l\'objet <img alt="" src=images/FEM_ConstraintForce.svg  style="width   *24px;"> FEMConstraintForce pour ouvrir son [panneau des tâches](Task_panel/fr.md).
+-   Dans la fenêtre des tâches, changez la valeur de la charge en **500000000 N = 500 MN** (**Remarque    *** l\'unité de force dans la fenêtre des tâches doit être en N).
+-   Sur le modèle géométrique, cliquez sur l\'une des longues arêtes dans la direction x.
 -   Cliquez sur le bouton **Direction**.
--   Sur le modèle géométrique, cliquez sur l\'un des bords longs dans la direction x.
--   Les flèches rouges de la force changent de direction dans la direction x. Ils montrent la direction fixée.
--   Comme la tension doit être appliquée à la boîte, la Direction inverse doit être déclenchée en cliquant dessus.
--   **Résultat   *** Les flèches rouges qui illustrent la force changeront leur direction dans la direction x. Ils indiquent la direction fixe.
--   Cliquez sur **OK** dans la fenêtre de tâches.
+    -   **Résultat    *** les flèches rouges qui illustrent la force changent de direction dans la direction x. Elles indiquent la direction de la force.
+-   Puisqu\'une tension doit être appliquée à la boîte, la direction inverse doit être déclenchée en cliquant dessus.
+-   Les flèches rouges de la force vont changer de direction.
+-   Cliquez sur **OK** dans la fenêtre de tâche.
 
-<img alt="" src=images/FEM_example01_pic05.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic15.png  style="width   *700px;">
 
--   Activez la [visibilité](Std_ToggleVisibility/fr.md) du maillage FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width   *24px;"> en le sélectionnant dans l\'arborescence et en appuyant sur la touche **Espace**.
 -   Vous savez déjà comment déclencher une analyse et comment visualiser les résultats.
--   La déformation dans la direction x devrait être de 19,05 mm.
+-   La déformation dans la direction x devrait être de 18,95 mm.
 
-<img alt="" src=images/FEM_example01_pic06.jpg  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic16.png  style="width   *400px;">
 
 ## Et ensuite? 
 
--   Nous avons maintenant terminé le de travail de base pour l\'[Atelier FEM](FEM_Workbench/fr.md).
+-   Nous avons maintenant terminé avec le flux de travail de base pour l\'[atelier FEM](FEM_Workbench/fr.md).
 -   Vous êtes maintenant prêt à faire le deuxième [FEM Tutoriel](FEM_tutorial/fr.md).
--   Nous créerons nous-même le CalculiX cantilever et comparerons les résultats avec la théorie de la poutre.
+-   Nous allons créer le cantilever de CalculiX par nous-mêmes et comparer les résultats avec la théorie des poutres.
 
 
  {{FEM Tools navi}}

@@ -1,4 +1,7 @@
 # Macro Screen Wiki/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Screen Wiki
 |Icon=Macro_Screen_Wiki.png
@@ -11,9 +14,18 @@
 |SeeAlso= <img src="images/Macro_Copy3DViewToClipboard.png" width=24px>[Macro_Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md)<br/><img src="images/Snip.png" width=24px> [Macro_Snip](Macro_Snip.md)
 }}
 
+
+</div>
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel formato desiderato. La [vista 3D](3D_view/it.md) o la finestra 3D completa di FreeCAD assume le dimensioni desiderate. Una rotazione dell\'oggetto selezionato o della vista 3D è possibile dare un angolo di rotazione il numero di immagini viene calcolato automaticamente è possibile dare un angolo di partenza e un angolo di arrivo. È necessario utilizzare un altro programma di esempio Gimp per assemblare le immagini e creare il file animato.
+
+
+</div>
 
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/61571ce0bd41af0471995df7c3ea855f/raw/4fdc5b2db7ed3ed062a2575637e035f728b2e40d/Macro_Screen_Wiki.FCMacro}}
@@ -32,7 +44,13 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 ### Images options 
+
+
+</div>
 
 #### Definition
 
@@ -99,7 +117,13 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 2.  
     {{RadioButton|TRUE|Screen 3D}}   * La vista 3D di FreeCAD
 
+
+<div class="mw-translate-fuzzy">
+
 #### BackGround Color 
+
+
+</div>
 
 1.  
     {{RadioButton|TRUE|Current}}(Default)
@@ -117,6 +141,9 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
     
 
 #### Commando
+
+
+<div class="mw-translate-fuzzy">
 
 1.  
     **Set Screen**   * Docked finestra
@@ -139,13 +166,16 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 \"Image options\" cambia in \"Rotation options\")
 
 1.  
-    **Quit**   * \_\_\_Screen\_Wiki end\_\_\_\_\_\_\_\_\_\_
+    **Quit**   * \_\_\_Screen_Wiki end\_\_\_\_\_\_\_\_\_\_
 
 2.  
     **ToolBar**   * Riduci la finestra dell\'immagine in una barra degli strumenti, l\'opzione **Rotation** non è disponibile in questa modalità
 
     1.  ![](images/Macro_Screen_Wiki_ToolBar_01.png )![](images/Macro_Screen_Wiki_ToolBar_02.png )![](images/Macro_Screen_Wiki_ToolBar_03.png )![](images/Macro_Screen_Wiki_ToolBar_04.png )
     2.  The button **[[Image   *Macro_Screen_Wiki_ToolBar_04_6.png]]** Flip/Flop S/N la mini barra degli strumenti ![](images/Macro_Screen_Wiki_ToolBar_Mini.png )
+
+
+</div>
 
 ### Rotation options 
 
@@ -251,8 +281,14 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 ![](images/Macro_Screen_Wiki_Object_Direction_SUBObject.gif )
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *Oggetto di animazione Direzione oggetto selezionato. <br/> Le immagini devono essere assemblate con un altro programma per creare un'animazione GIF<br/>Example [https   *//www.gimp.org/downloads/ Gimp] or [https   *//www.screentogif.com ScreenToGif]*
+
+
+</div>
 
 ![](images/Macro_Screen_Wiki_07.png )
 
@@ -278,7 +314,7 @@ Version=00.04   * 2021/01/13    * adding mini ToolBar
 
 Version=0.03   * 2020/10/30    * create a tool bar for the image and new button for unique image
 
-Version=0.02   * 2020/05/04    * correct bug color button (self.PB\_01\_Color obsolete)
+Version=0.02   * 2020/05/04    * correct bug color button (self.PB_01_Color obsolete)
 
 Versione=0.01    * 2020/03/21    *
 

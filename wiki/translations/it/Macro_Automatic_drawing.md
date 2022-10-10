@@ -11,27 +11,15 @@
 |Download=[https   *//www.freecadweb.org/wiki/images/0/08/Macro_Automatic_drawing.png ToolBar icon]
 }}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Descrizione
 
 Questo codice genera una pagina di [Drawing](Drawing_Workbench/it.md) ( Disegno) con tre viste ortogonali (frontale, dall\'alto e laterale destra) allineate, più una vista isometrica posto in alto a destra della pagina. Calcola la scala basandosi sulle dimensioni del modello e sullo spazio disponibile nel foglio. La vista iso viene ridimensionata a 2/3 delle altre.
 
 Utilizza il [first-angle projection](http   *//en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) ovvero il [Sistema di rappresentazione europeo](http   *//en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
 
-Prima di lanciare la macro è necessario selezionare un oggetto.
-
-
-</div>
+Prima di avviare la macro è necessario selezionare un oggetto.
 
 ## Limitazioni
 
@@ -43,7 +31,7 @@ Prima di lanciare la macro è necessario selezionare un oggetto.
 
 ToolBar icon ![](images/Macro_Automatic_drawing.png )
 
-**Macro\_Automatic\_drawing.FCMacro**
+**Macro_Automatic_drawing.FCMacro**
 
 
 {{MacroCode|code=

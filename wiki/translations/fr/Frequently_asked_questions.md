@@ -128,7 +128,7 @@ FreeCAD est un [logiciel open-source](https   *//fr.wikipedia.org/wiki/Open_sour
 
 <center>
 
-Image   *Style\_of\_navigation.png\|À partir du **bouton droit** de la souris Image   *Style of navigation menu.png\|À partir du menu **Édition → Préférences →**
+Image   *Style_of_navigation.png\|À partir du **bouton droit** de la souris Image   *Style of navigation menu.png\|À partir du menu **Édition → Préférences →**
 
 
 </center>
@@ -136,38 +136,7 @@ Image   *Style\_of\_navigation.png\|À partir du **bouton droit** de la souris I
 
 
 
-FreeCAD a différents [styles de navigation](Mouse_navigation/fr.md) disponibles qui peuvent être réglés dans les préférences ou en faisant un clic droit dans la vue 3D. Pour plus de détails lisez la page [Navigation par la souris](Mouse_navigation/fr.md). Pour le mode par défaut (\"navigation CAD\"), les commandes sont les suivantes    * 
-
-
-{{CAD Navigation
-|Select_name=Sélection
-|Pan_name=Pan (déplacement)
-|Zoom_name=Zoom
-|Rotate_view_name=Rotation<br>1ère méthode
-|Rotate_view_alt_name=Rotation<br>2è méthode
-|Ctrl=**Ctrl**
-|Shift=**Maj**
-|Select_text=Cliquez avec le bouton gauche de la souris sur l'objet que vous souhaitez sélectionner.
-
-Maintenez la touche **Ctrl** enfoncée pour sélectionner plusieurs objets.
-|Pan_text=Maintenez le bouton central de la souris enfoncé et déplacez le pointeur pour déplacer l'objet.
-|Pan_mode_text=Pan mode   * maintenez la touche **Ctrl** enfoncée, appuyez simultanément sur le bouton droit de la souris, puis déplacez le pointeur. {{Version/fr|0.17}}
-|Zoom_text=Utilisez la molette de la souris pour zoomer et dézoomer.
-
-En cliquant sur le bouton central de la souris, la vue est recentrée sur l'emplacement du curseur.
-|Zoom_mode_text=Mode zoom   * maintenez les touches **Ctrl** et **Maj** enfoncées, appuyez simultanément sur le bouton droit de la souris, puis déplacez le pointeur. {{Version/fr|0.17}}
-|Rotate_view_text=Maintenez le bouton central de la souris enfoncé, appuyez ensuite sur le bouton gauche de la souris, puis déplacez le pointeur.
-
-Lorsque le bouton central de la souris est enfoncé l'emplacement du curseur détermine le centre de rotation. La rotation fonctionne comme une balle qui tourne autour de son centre. Si les boutons sont relâchés avant que vous n'arrêtiez le mouvement de la souris, la vue continue de tourner, si cette option est activée.
-
-Double cliquer avec le bouton central de la souris définit un nouveau centre de rotation.
-|Rotate_view_mode_text=Mode rotation   * maintenez la touche **Shift** enfoncée, appuyez à la fois sur le bouton droit de la souris, puis déplacez le pointeur. {{Version/fr|0.17}}
-|Rotate_view_alt_text=Maintenez le bouton central de la souris enfoncé, appuyez ensuite sur le bouton droit de la souris, puis déplacez le pointeur.
-
-Avec cette méthode, le bouton central de la souris peut être relâché si vous maintenez le bouton droit de la souris enfoncé.
-
-Les utilisateurs qui utilisent la souris avec leur main droite peuvent trouver cette méthode plus facile que la première.
-}}
+FreeCAD a différents [styles de navigation](Mouse_navigation/fr.md) disponibles qui peuvent être réglés dans les préférences ou en faisant un clic droit dans la vue 3D. Pour plus de détails lisez la page [Navigation par la souris](Mouse_navigation/fr.md).
 
 ### Que puis-je faire avec FreeCAD ? Où dois-je commencer ? 
 
@@ -258,6 +227,10 @@ Oui. Depuis 2016 FreeCAD participe au Google Summer of Code. Lisez [Google Summe
 Ce wiki héberge pas mal de contenu. Les informations les plus intéressantes et les plus à jour sont rassemblées dans le [manuel](Online_Help_Toc/fr.md).
 
 Voir le paragraphe de la page [Traduction de la documentation](Help_FreeCAD/fr#Traduire_la_documentation.md) pour plus de détails sur la façon de traduire le wiki.
+
+### Je peux acheter des goodies ? 
+
+FreeCAD ne propose pas de goodies que vous pouvez commander pour soutenir le projet. Mais vous pouvez créer le vôtre. Voir notre page [Goodies](Swag/fr.md) pour les instructions.
 
 ## Licence, copie et réutilisation 
 

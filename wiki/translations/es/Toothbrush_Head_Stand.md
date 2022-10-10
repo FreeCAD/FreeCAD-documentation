@@ -1,4 +1,3 @@
-# Toothbrush Head Stand/es
 ---
 - TutorialInfo   */es
    Topic   *Modeling
@@ -7,15 +6,38 @@
    Time   *1 hour
    FCVersion   *0.16 or greater
    Files   *[https   *//www.thingiverse.com/thing   *2403310 Thingiverse 2403310]
-}}
+---
+
+# Toothbrush Head Stand/es
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
 
 ## Un problema de la vida diaria 
 
 Los cepillos de dientes eléctricos rara vez vienen con un soporte para el cabezal, mientras que en una familia a menudo se ven varios cabezales utilizados con un solo cuerpo. Muchas personas que se enfrentan a un problema común nos llevan a una variedad de soluciones, como se puede ver en Thingiverse (200-800 proyectos están relacionados con eso). Aquí está la primera respuesta y cómo diseñarla.
 
+
+<div class="mw-translate-fuzzy">
+
 Este tutorial le llevará a través de los pasos necesarios para modelar la pieza que se muestra en la imagen de abajo utilizando las herramientas básicas del [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/de.md). (muchas de las herramientas y capacidades no están cubiertas).
 
+
+</div>
+
 ![](images/TBHS-model.png )
+
+## First idea    * a plate 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Primera idea    * una placa 
 
@@ -23,9 +45,24 @@ Este tutorial le llevará a través de los pasos necesarios para modelar la piez
 
 ![](images/TBHS-0.png )
 
+
+</div>
+
+![](images/TBHS-0.png )
+
+### Create a sketch 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Crear un croquis 
 
 -   Haz clic en <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> [**Nuevo croquis**](Sketcher_NewSketch/es.md). Ya sea desde el menú contextual de tareas de la izquierda, o desde la barra de herramientas de arriba o desde el menú Diseño Pieza de la parte superior.
+
+<img alt="" src=images/TBHS-1.JPG  style="width   *800px;">
+
+
+</div>
 
 <img alt="" src=images/TBHS-1.JPG  style="width   *800px;">
 
@@ -46,10 +83,16 @@ Ahora se encuentra frente al plano XY desde arriba, y tiene acceso a las herrami
 
 Ahora tiene un rectángulo flotante de dimensiones no especificadas.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Haga clic en una línea del rectángulo, ahora tiene acceso a las herramientas de restricción a la derecha de la barra de herramientas (dependiendo del tamaño de su pantalla puede que tenga que arrastrarlas a la izquierda para verlas todas)
 -   Haga clic en <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Distancia**](Sketcher_ConstrainDistance/es.md)
 -   Un diálogo le pide que establezca una dimensión. Insertar 80mm, haga clic en OK.
 -   Repite con el otro lado del rectángulo, también 80mm.
+
+
+</div>
 
 <img alt="" src=images/TBHS-4.JPG  style="width   *800px;">
 
@@ -61,9 +104,23 @@ Ahora tienes un cuadrado flotante.
 
 <img alt="" src=images/TBHS-5.JPG  style="width   *800px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Ahora tiene un boceto totalmente restringido, como le indica el solucionador de la izquierda y el cambio de color. Es una buena práctica tener siempre un croquis totalmente restringido.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Un boceto poco restringido puede dejar espacio para cambios no deseados, si se modifica algo más tarde. Por el contrario, un croquis con demasiadas restricciones tampoco es bueno. En ese caso, el solucionador le advierte de las restricciones redundantes y debe eliminar algunas de ellas.
+
+
+</div>
+
+On the opposite, an over-constrained sketch is also not good. In that case the solver warn you of redundant constraints and you should remove some of them.
 
 -   To leave the sketch, click either on the \"Close\" button on the left, or the <img alt="" src=images/Sketcher_LeaveSketch.png  style="width   *32px;"> icon in the toolbar, or press **ESC**.
 
@@ -71,19 +128,35 @@ Un boceto poco restringido puede dejar espacio para cambios no deseados, si se m
 
 You now only see the square, and the contextual task menu on the left show you more options than before.
 
+### Create a pad 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Crear una pastilla 
 
 -   Haga clic en <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonométrico** entre las vistas estándar, para ver mejor lo que ocurrirá.
 -   Haga clic en <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> **Pastilla**.
 -   Introduzca 4mm y haga clic en OK.
 
+
+</div>
+
 <img alt="" src=images/TBHS-7.JPG  style="width   *800px;">
 
 Your sketch is now in volume !
 
+### Create a sketch on it 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Crear un croquis en él 
 
 -   Selecciona la cara superior
+
+
+</div>
 
 <img alt="" src=images/TBHS-8.JPG  style="width   *800px;">
 
@@ -129,11 +202,19 @@ Theses lines will serve as reference to position the circles.
 
 <img alt="" src=images/TBHS-15.JPG  style="width   *800px;">
 
+### Create a pad 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Crear una pastilla 
 
 -   Haga clic en <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonométrico** entre las vistas estándar, para ver mejor lo que ocurrirá.
 -   Haga clic en <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> **Pastilla**.
 -   Insertar 25mm y haga clic en OK.
+
+
+</div>
 
 <img alt="" src=images/TBHS-16.JPG  style="width   *800px;">
 
@@ -156,7 +237,7 @@ Much better.
 
 ### Making it more robust 
 
-We need to add material at the base of the cylinders to make them less prone to snap. Because of the printing orientation these small surfaces will be fragile at the junction with the base.
+We need to add material at the base of the cylinders to make them less prone to snap. Because of the printing orientation these small surfaces will be fragile at the junction with the base.
 
 -   Select the circles at the base of the cylinders
 
@@ -194,9 +275,17 @@ Tadaa !
 -   Now you can select \"Export\...\" from the File menu at the top left, and select the file format .STL.
 -   Just print it    *-)
 
+## Inspiration
+
+
+<div class="mw-translate-fuzzy">
+
 ## Inspiración
 
 El modelo anterior es un buen punto de partida para utilizar FreeCAD, pero como soporte de cabezal de cepillo de dientes tiene sus defectos   * debido a la orientación de la impresión y a la pequeña superficie los palos son propensos a romperse.
+
+
+</div>
 
 Inspired by the variety of solutions other people came up with, we will make this second version which will be much better.
 
@@ -210,7 +299,7 @@ In this second part you will also learn to use more tools, like the powerful *Li
 
 -   Create a new document and select the ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design* workbench.
 
-### Crear un croquis 
+### Create a sketch 
 
 -   Create a <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> **New sketch**, on the XY plane.
 
@@ -373,11 +462,21 @@ You now have a floating slot of unspecified dimensions.
 
 <img alt="" src=images/TBHS2-26.JPG  style="width   *800px;">
 
+### Create a pad 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Crear una pastilla 
 
 -   Haz clic en <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonométrico** entre las vistas estándar, para ver mejor lo que ocurrirá.
 -   Haga clic en <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> **Pastilla**.
 -   Insertar 4mm y haga clic en OK.
+
+<img alt="" src=images/TBHS2-27.JPG  style="width   *800px;">
+
+
+</div>
 
 <img alt="" src=images/TBHS2-27.JPG  style="width   *800px;">
 
@@ -408,7 +507,7 @@ Chamfer = left / Draft = right
 
 <img alt="" src=images/TBHS2-30-chamfer.JPG  style="width   *200px;"><img alt="" src=images/TBHS2-30-draft.JPG  style="width   *200px;">
 
-### Finitions
+### Finishes
 
 -   Holding **CTRL** select the bottom and top faces.
 
@@ -430,8 +529,7 @@ Perfect !
 -   Print it instead of the first version or to replace it if it eventually broke ;-)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}} {{Userdocnavi
----
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 

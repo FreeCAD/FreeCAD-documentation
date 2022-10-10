@@ -4,8 +4,8 @@
 |Icon=Macro_Joint_Icon.svg
 |Description=Crée une variété d'assemblages, tels que les assemblages à mortaise/tenon, les assemblages à queue droite, les assemblages à queue d'aronde et autres assemblages.
 |Author=TheMarkster
-|Version=0.2022.05.01
-|Date=2022-05-01
+|Version=0.2022.10.05
+|Date=2022-10-05
 |FCVersion=Versions en Python 3
 |Download=[https   *//wiki.freecadweb.org/File   *Macro_Joint_Icon.svg Icône de la barre d'outils]
 |SeeAlso=
@@ -36,7 +36,7 @@ La documentation complète se trouve sur github    * [Joint](https   *//github.c
 ## Légende
 
 
-{{Codeextralink|https   *//gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9/raw/0509ffb01e7f6af7a9e35dab19da62bd44be614d/Joint.FCMacro|Joint.FCMacro}}
+{{Codeextralink|https   *//gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9/raw/994037a336fe6f95394988b3305ebcfc44c35da1/Joint.FCMacro|Joint.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Macro_Joint_Icon.svg )
 

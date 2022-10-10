@@ -30,29 +30,36 @@ Das Detailwerkzeug erstellt eine vergrößerte Ansicht eines kleinen Bereichs ei
 
 Die Detailansicht kann innerhalb eines runden oder quadratischen Ansichtskastens angezeigt werden. Dies wird durch die [Einstellungen](TechDraw_Preferences#Annotation/de.md) Einstellung **Detailansicht Umrißform** gesteuert.
 
-## Eigenschaften
+## Properties Detail View 
 
-### Detailansicht
+See also [TechDraw View](TechDraw_View#Properties.md).
 
--    {{PropertyData/de|BasisAnsicht}}   * Die Ansicht, auf der diese Detailansicht basiert.
+### Data
 
--    {{PropertyData/de|Ankerpunkt}}   * Das Zentrum der Detailansicht innerhalb der {{PropertyData/de|BasisAnsicht}}.
 
--    {{PropertyData/de|Radius}}   * Die Größe des Bereiches in der {{PropertyData/de|BasisAnsicht}} die in der Detailansicht angezeigt wird.
+{{TitleProperty|Detail}}
 
--    {{PropertyData/de|Maßstab}}   * Vergrößerungsstufe.
+-    **Base View|Link**   * The view on which this Detail view is based.
 
--    {{PropertyData/de|Bezug}}   * Eine Kennung zur Angabe des Bereichs der {{PropertyData/de|BasisAnsicht}} die angezeigt wird.
+-    **Anchor Point|Vector**   * The center of the Detail view within the **Base View**.
 
-### Basisansicht
+-    **Radius|Float**   * The size of the area in the **Base View** that is displayed in the Detail view.
 
-Eine Detailansicht erbt alle anwendbaren Eigenschaften der als {{PropertyData/de|BasisAnsicht}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kannst du das Aussehen des Detailumrisses ändern   *
+-    **Reference|String**   * An identifier for the Detail view in the **Base View**.
+
+## Properties Base View 
+
+Eine Detailansicht erbt alle anwendbaren Eigenschaften der als {{PropertyData/de|Base View}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kann das Aussehen des Detailumrisses geändert werden   *
 
 -    {{PropertyView/de|Einstellung Hervorheben}}   * Drehwinkel der Detailansicht im Uhrzeigersinn.
 
 -    {{PropertyView/de|Linienfarbe Hervorheben}}   * Linienfarbe für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorheben** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
 
 -    {{PropertyView/de|Linienstil Hervorheben}}   * Linienstil für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorhebungsstil** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
+
+## Hinweise
+
+-   [Eine gute Aussprache über das Setzen des Ankers](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 ## Skripten
 
@@ -68,21 +75,6 @@ Das Detailwerkzeug kann mit [Makros](Macros/de.md) und aus der [Python](Python/d
 Detail = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDetail','Detail')
 ...TBA
 ```
-
-## Kniffe
-
--   Der Raum um den Ansichtsumriss und den Rand des Ansichtsobjekts ist standardmäßig ein weißer Bereich. Das heißt, er bedeckt alles dahinterliegende. Manchmal reicht der Platz auf der Seite nicht aus, und du kannst Platz sparen, indem du diesen unnötigen weißen Bereich reduzierst.
-
-Dies wird erreicht, indem die Detailansicht in eine [Klipgruppe](TechDraw_ClipGroup/de.md) gesetzt wird   *
-
-![](images/TechDraw_DetailClipped.png ) 
-*Detailansicht in einer Klipgruppe*
-
--   Bei Detailansichten mit einem runden Umriss kann die Position der Bezugskennzeichnung in der Basisansicht über die Basisansichtseigenschaft {{PropertyView/de|Einstellung Hervorheben}} geändert werden.
-
-## Hinweise
-
--   [Eine gute Aussprache über das Setzen des Ankers](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 
 

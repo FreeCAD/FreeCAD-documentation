@@ -2,6 +2,9 @@
 ---
 - GuiCommand   */it   Name   *FEM_ConstraintInitialFlowVelocity   Name/it   *Vincolo velocità iniziale del flusso   Icon   *Fem-constraint-initial-flow-velocity.svg   MenuLocation   * Modello → Vincoli per fluidi → Vincolo velocità iniziale del flusso   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
+
+</div>
+
 ## Descrizione
 
 Crea un vincolo di velocità iniziale del flusso per un\'analisi del flusso del fluido.
@@ -17,17 +20,35 @@ Crea un vincolo di velocità iniziale del flusso per un\'analisi del flusso del 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Limitazioni
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   Il vincolo applica la velocità del flusso iniziale a tutti i nodi nel modello FEA
 -   Il vincolo non può essere orientato se non utilizzando le principali componenti cartesiane.
+
+
+</div>
 
 ## Note
 
 Nelle analisi più semplici non è necessario specificare la velocità di flusso iniziale, tuttavia è consigliata come buona pratica.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

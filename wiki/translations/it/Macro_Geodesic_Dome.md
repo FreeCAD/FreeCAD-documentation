@@ -20,13 +20,7 @@ Questa macro crea il guscio di una cupola (sfera) geodetica parametrica. Il ragg
 
 <img alt="" src=images/Geodome_frequency_parameter.png  style="width   *1200px;">
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
-
-
-</div>
 
 1\. Installare la macro usando Addon Manager (menu Strumenti → Addon Manager). Nella scheda \"Macro\", selezionare \"GeodesicDome\", fare clic su \"Installa\". Quindi chiudere Addon manager.
 
@@ -42,7 +36,7 @@ dovrebbe apparire una forma a cupola. È quindi possibile modificare i parametri
 
 ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
 
-**Macro\_Geodesic\_Dome.FCMacro**
+**Macro_Geodesic_Dome.FCMacro**
 
     # -*- coding   * utf-8 -*-
 

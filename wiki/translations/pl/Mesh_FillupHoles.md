@@ -1,26 +1,27 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh FillupHoles
-   MenuLocation   *Meshes → Fill holes...
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md), [Mesh AddFacet](Mesh_AddFacet.md)
+   Name/pl   *Siatka   * Wypełnienie otworów
+   MenuLocation   *Siatki → Wypełnij otwory ...
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Interaktywne wypełnienie otworów](Mesh_FillInteractiveHole/pl.md), [Dodaj trójkąt](Mesh_AddFacet/pl.md)
 ---
 
 # Mesh FillupHoles/pl
 
-## Description
+## Opis
 
-The **Mesh FillupHoles** command fills holes in mesh objects.
+Polecenie **Wypełnienie otworów** wypełnia otwory w obiektach siatkowych.
 
-## Usage
+## Użycie
 
-1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_FillupHoles.svg" width=16px> [Mesh FillupHoles](Mesh_FillupHoles.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_FillupHoles.svg" width=16px> Fill holes...** option from the menu.
-3.  The **Fill holes** dialog box opens.
-4.  Specify the **Fill holes with maximum number of edges** value.
-5.  Press the **OK** button to close the dialog box and finish the command.
+1.  Zaznacz pojedynczy obiekt siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_FillupHoles.svg" width=16px> [Wypełnij otwory ...](Mesh_FillupHoles/pl.md)**.
+    -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_FillupHoles.svg" width=16px> Wypełnij otwory ...**.
+3.  Otworzy się okno dialogowe **Wypełnij otwory**.
+4.  Określ wartość pola **Wypełnij otwory maksymalną liczbą krawędzi**.
+5.  Naciśnij przycisk **OK**, aby zamknąć okno dialogowe i zakończyć polecenie.
 
 
 

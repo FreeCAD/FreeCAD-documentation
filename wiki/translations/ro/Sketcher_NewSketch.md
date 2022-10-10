@@ -44,7 +44,7 @@ Clicking on the icon with a (pre-selected) face will cause the sketch to be mapp
 
 ## Notă
 
-The sketch can be re-mapped to another already existing face using the [Map Sketch - Command](Sketcher_MapSketch.md).
+The sketch can be re-mapped to another already existing face using the [Sketcher MapSketch](Sketcher_MapSketch.md) command.
 
 
 <div class="mw-translate-fuzzy">

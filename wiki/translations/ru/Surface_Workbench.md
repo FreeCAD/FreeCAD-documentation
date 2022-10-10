@@ -1,34 +1,25 @@
-# Surface Workbench/ru
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="Логотип верстака Surface" src=images/Workbench_Surface.svg  style="width   *128px;">
+# <img alt="Логотип верстака Surface" src=images/Workbench_Surface.svg  style="width   *64px;"> Surface Workbench/ru
 
 
 {{TOCright}}
 
 ## Введение
 
-The <img alt="" src=images/Workbench_Surface.svg  style="width   *24px;"> [Surface Workbench](Surface_Workbench.md) provides tools to create and modify simple [NURBS surfaces](https   *//en.wikipedia.org/wiki/Non-uniform_rational_B-spline). These tools have a similar functionality to the **[<img src=images/Part_Builder.svg style="width   *16px"> [Part Builder](Part_Builder.md)** tool when the **Face from edges** option is used. However, unlike that tool, the tools of the Surface Workbench are parametric and provide additional options. In this respect, the tools in this workbench are similar to **[<img src=images/PartDesign_AdditiveLoft.svg style="width   *16px"> [PartDesign AdditiveLoft](PartDesign_AdditiveLoft.md)** and **[<img src=images/PartDesign_AdditivePipe.svg style="width   *16px"> [PartDesign AdditivePipe](PartDesign_AdditivePipe.md)**.
+<img alt="" src=images/Workbench_Surface.svg  style="width   *24px;"> [Верстак Surface](Surface_Workbench/ru.md) предоставляет инструменты для создания и изменения простых [поверхностей NURBS](https   *//ru.wikipedia.org/wiki/NURBS). Эти инструменты имеют функциональность, похожую на инструменты **[<img src=images/Part_Builder.svg style="width   *16px"> [Part Builder](Part_Builder/ru.md)** при использовании опции **Face from edges**. Однако, в отличие от этих инструментов, Верстак Surface параметрический и даёт дополнительные опции. В этом отношении, инструменты этого верстака похожи на **[<img src=images/PartDesign_AdditiveLoft.svg style="width   *16px"> [PartDesign AdditiveLoft](PartDesign_AdditiveLoft/ru.md)** и **[<img src=images/PartDesign_AdditivePipe.svg style="width   *16px"> [PartDesign AdditivePipe](PartDesign_AdditivePipe/ru.md)**.
 
-Some of the features provided are   *
+Некоторые из предоставляемых функций   *
 
--   Creation of surfaces from boundary edges.
--   Alignment of the curvature from neighboring faces.
--   Constraining of surfaces to additional curves and vertices.
--   Extension of faces.
--   A mesh can be used as a template to create spline curves on its surface.
+-   Создание поверхностей из граничных ребер.
+-   Выравнивание кривизны от соседних граней.
+-   Ограничение поверхностей дополнительными кривыми и вершинами.
+-   Расширение лица.
+-   Можно использовать сетку в качестве шаблона для создания сплайновых кривых на ее поверхности.
 
 <img alt="" src=images/Surface_example.png  style="width   *350px;">
 
 ## Применение
 
-The Surface Workbench intends to create faces with shapes, which is not possible to do with the standard tools in other workbenches.
+Верстак Surface предназначен для создания граней с формами, что невозможно сделать стандартными инструментами в других верстаках.
 
 <img alt="" src=images/Toy_Duck.png  style="width   *350px;">
 
@@ -53,13 +44,7 @@ The generated surface cannot be placed inside a **[<img src=images/PartDesign_Bo
 -   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width   *32px;"> [Curve on mesh](Surface_CurveOnMesh.md)   * create approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Surface Tools navi

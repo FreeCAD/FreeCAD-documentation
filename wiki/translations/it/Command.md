@@ -6,13 +6,7 @@
 
 Un **Comando** è ciò che viene eseguito quando si preme un pulsante della barra degli strumenti o si digita una scorciatoia da tastiera. Può essere un\'azione molto semplice, come cambiare il livello di zoom della vista 3D o ruotare il punto di vista oppure un sistema complesso che apre le finestre di dialogo e attende che l\'utente esegua delle specifiche attività.
 
-
-<div class="mw-translate-fuzzy">
-
-Ogni comando di FreeCAD ha un nome univoco, che appare nella pagina [   *Category   *Command\_Reference](   *Category_Command_Reference.md) se originale inglese, e nella pagina [   *Category   *Command\_Reference/it](   *Category   *Command_Reference/it.md) per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script [python](python/it.md) o dalla [console python](Python_console/it.md), eseguendo   *
-
-
-</div>
+Ogni comando di FreeCAD ha un nome univoco, che appare nella pagina [   *Category   *Command Reference](   *Category_Command_Reference.md) se originale inglese, e nella pagina [   *Category   *Command_Reference/it](   *Category   *Command_Reference/it.md) per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script [Python](Python/it.md) o dalla [console Python](Python_console/it.md), eseguendo   *
 
 
 ```python
@@ -107,4 +101,4 @@ Vedere [Funzione per disegnare delle linee](Line_drawing_function/it.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference]] se originale inglese, e nella pagina ](Category_Command_Reference]] se originale inglese, e nella pagina .md) > [Command_Reference/it]]  per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script ](Category_Command_Reference/it]]  per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] se originale inglese, e nella pagina ](Category_Command_Reference|:Category:Command Reference]] se originale inglese, e nella pagina .md) > [Command_Reference/it]]  per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script ](Category_Command_Reference/it]]  per le traduzioni . I comandi possono essere lanciati da un pulsante della barra degli strumenti, da una voce di menu o da uno script .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/it

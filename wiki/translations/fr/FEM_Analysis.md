@@ -31,7 +31,6 @@ Le module FEM ([Méthode d\'éléments finis](https   *//fr.wikipedia.org/wiki/M
 ## Options
 
 -   A ce jour il n\'y a pas d\'option de choix.
--   le module FEM est toujours en développement. Rendez vous sur le [forum](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=12189) pour plus d\'informations.
 
 ## Propriétés
 
@@ -39,7 +38,7 @@ Le module FEM ([Méthode d\'éléments finis](https   *//fr.wikipedia.org/wiki/M
 
 ## Script
 
-La plupart des codes ci dessous sont obsolète dans la version 0.17.
+la plupart du code ici est déprécié dans la 0.17.
 
 -   nouvelle analyse
 

@@ -26,19 +26,17 @@ Das Werkzeug Schnittansicht erstellt eine Schnittdarstellung (kurz   * einen Sch
 ![](images/TechDraw_Section_Taskview.png ) 
 *Aufgabenbereich zum Definieren des Schnitts einer Ansicht*
 
-## Eigenschaften
+## Properties Section View 
+
+See also [TechDraw View](TechDraw_View#Properties.md).
 
 ### Daten
 
-#### Section
 
--    {{PropertyData/de|Base View}}   * Die Ansicht, auf der dieser Schnitt basiert.
+{{TitleProperty|Cut Surface Format}}
 
--    {{PropertyData/de|Section Normal}}   * Ein Vektor, der die Richtung normal (senkrecht) zur Schnittebene beschreibt.
 
--    {{PropertyData/de|Section Origin}}   * Ein Vektor, der einen Punkt auf der Schnittebene beschreibt. Typischerweise der Schwerpunkt des Originalteils.
-
--    {{PropertyData/de|Fuse Before Cut}}   * Vereinigt die Ausgangsformen, bevor der Schnitt erzeugt wird.
+<div class="mw-translate-fuzzy">
 
 #### Cut Surface Format 
 
@@ -59,11 +57,48 @@ Das Werkzeug Schnittansicht erstellt eine Schnittdarstellung (kurz   * einen Sch
 
 -    {{PropertyData/de|Name Geom Pattern}}   * Name des zu verwendenden PAT-Musters (wird bei der Einstellung *SvgHatch* von **Cut Surface Display** ignoriert).
 
+
+</div>
+
+
+{{TitleProperty|Section}}
+
+
+<div class="mw-translate-fuzzy">
+
+#### Section
+
+-    {{PropertyData/de|Base View}}   * Die Ansicht, auf der dieser Schnitt basiert.
+
+-    {{PropertyData/de|Section Normal}}   * Ein Vektor, der die Richtung normal (senkrecht) zur Schnittebene beschreibt.
+
+-    {{PropertyData/de|Section Origin}}   * Ein Vektor, der einen Punkt auf der Schnittebene beschreibt. Typischerweise der Schwerpunkt des Originalteils.
+
+-    {{PropertyData/de|Fuse Before Cut}}   * Vereinigt die Ausgangsformen, bevor der Schnitt erzeugt wird.
+
+
+</div>
+
 ### Ansicht
+
+
+{{TitleProperty|Cut Surface}}
+
+
+<div class="mw-translate-fuzzy">
 
 #### Cut Surface 
 
 -    {{PropertyView/de|Cut Surface Color}}   * Farbton für Flächenhervorhebung. Wird verwendet, wenn **Cut Surface Display** auf *Color* eingestellt ist.
+
+
+</div>
+
+
+{{TitleProperty|Surface Hatch}}
+
+
+<div class="mw-translate-fuzzy">
 
 #### Surface Hatch 
 
@@ -71,15 +106,36 @@ Das Werkzeug Schnittansicht erstellt eine Schnittdarstellung (kurz   * einen Sch
 
 -    {{PropertyView/de|Weight Pattern}}   * Linienstärke für Oberflächenschraffurlinien.
 
-### Grundansicht
+
+</div>
+
+## Properties Base View 
+
+
+<div class="mw-translate-fuzzy">
 
 Eine Schnittansicht erbt alle anwendbaren Eigenschaften der Ansicht, die in der {{{PropertyData/de|BaseView}}} angegeben ist. In den Eigenschaften der Ansicht kann die Darstellung der Schnittlinie geändert werden   *
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyView/de|Section Line Color}}   * Farbe der Schnittlinie.
 
 -    {{PropertyView/de|Section Line Style}}   * Linienart der Schnittlinie.
 
+
+</div>
+
 Die Standardeinstellungen für diese Parameter werden über die Einstellungen **Section Line** und **Section Line Style** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) eingestellt.
+
+## Hinweise
+
+-   **Schnittlinienformat**   * sowohl das herkömmliche Schnittlinienformat (wie oben abgebildet) als auch die \"Referenzpfeil Methode\" werden unterstützt. Diese Option wird durch die Voreinstellung \"Mod/TechDraw/Format/SectionFormat\" gesteuert (siehe [Std_DlgParameter](Std_DlgParameter/de.md)). 0 für die herkömmliche Linienmethode, 1 für die Referenzpfeilmethode.
+-   **SchneideOberflächeAnzeige**   * die Schnittfläche kann ausgeblendet, in einer Volltonfarbe gemalt, mit einem Svg Muster (Standard) schraffiert oder mit einem PAT Muster schraffiert werden. Siehe [Schraffur](TechDraw_Hatching/de.md).
+-   **VerschmelzenVorSchneiden**   * Die Querschnittsoperation kann manchmal die Ausgangsformen nicht schneiden. Wenn VerschmelzenVorSchneiden wahr ist, werden die Ausgangsformen zu einer einzigen Form zusammengeführt, bevor die Schnittoperation versucht wird. Wenn du Probleme mit der Abschnittsoperation hast, versuche, diesen Wert umzudrehen.
 
 ## Skripten
 
@@ -105,12 +161,6 @@ section.Direction = (0.0,1.0,0.0)
 section.SectionNormal = (0.0,0.0,1.0)
 section.SectionOrigin = (5.0,5.0,5.0)
 ```
-
-## Hinweise
-
--   **Schnittlinienformat**   * sowohl das herkömmliche Schnittlinienformat (wie oben abgebildet) als auch die \"Referenzpfeil Methode\" werden unterstützt. Diese Option wird durch die Voreinstellung \"Mod/TechDraw/Format/SectionFormat\" gesteuert (siehe [Std\_DlgParameter](Std_DlgParameter/de.md)). 0 für die herkömmliche Linienmethode, 1 für die Referenzpfeilmethode.
--   **SchneideOberflächeAnzeige**   * die Schnittfläche kann ausgeblendet, in einer Volltonfarbe gemalt, mit einem Svg Muster (Standard) schraffiert oder mit einem PAT Muster schraffiert werden. Siehe [Schraffur](TechDraw_Hatching/de.md).
--   **VerschmelzenVorSchneiden**   * Die Querschnittsoperation kann manchmal die Ausgangsformen nicht schneiden. Wenn VerschmelzenVorSchneiden wahr ist, werden die Ausgangsformen zu einer einzigen Form zusammengeführt, bevor die Schnittoperation versucht wird. Wenn du Probleme mit der Abschnittsoperation hast, versuche, diesen Wert umzudrehen.
 
 
 

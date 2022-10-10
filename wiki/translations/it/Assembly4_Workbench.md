@@ -21,18 +21,11 @@ Il montaggio4 è stato ispirato da <img alt="" src=images/A2p_workbench.svg  sty
 
 ## Link
 
-
-<div class="mw-translate-fuzzy">
-
 -   [App Link](App_Link.md) oggetto che fa funzionare Assembly3 e Assembly4.
 -   [Assembly4](https   *//github.com/Zolko-123/FreeCAD_Assembly4) archivio e documentazione.
 -   [Assembly 4 workbench](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=34806), big discussion thread.
 -   [Current Assembly Status](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [External workbenches](External_workbenches.md)
--   [External workbench list](External_workbench_list.md)
-
-
-</div>
 
 ## Tutorial
 

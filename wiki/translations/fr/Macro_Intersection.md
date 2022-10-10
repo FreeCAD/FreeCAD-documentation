@@ -17,7 +17,7 @@ Trouve l\'intersection entre deux ou trois arêtes ou faces sélectionnées, fon
 
 ## Utilisation
 
-Sélectionnez deux ou trois arêtes, faces, plans de référence ou lignes de référence dans la [vue\_3D](3D_view/fr.md), puis exécutez la macro. La documentation complète se trouve sur github    * [Intersection on github](https   *//github.com/mwganson/intersection)
+Sélectionnez deux ou trois arêtes, faces, plans de référence ou lignes de référence dans la [vue 3D](3D_view/fr.md), puis exécutez la macro. La documentation complète se trouve sur github    * [Intersection on github](https   *//github.com/mwganson/intersection)
 
 <img alt="" src=images/Macro_Intersection_scr.png  style="width   *600px;"> 
 *Capture d'écran de la Macro Intersection*

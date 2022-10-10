@@ -14,11 +14,10 @@ Il comando **Decima** riduce il numero di facce negli oggetti mesh.
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare uno o più oggetti mesh.
-2.  Selezionare l\'opzione **Mesh → <img src="images/Mesh_Decimating.svg" width=16px> Decima...** dal menu.
+2.  Esistono diversi modi per invocare il comando   *
+    -   Premere il bottone **<img src="images/Mesh_Decimating.svg" width=16px> [Mesh Decimating](Mesh_Decimating/it.md)**.
+    -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_Decimating.svg" width=16px> Decima...** dal menu.
 3.  Si apre il pannello delle azioni **Decimazione**.
 4.  Specificare la **Riduzione**   *
     -   Se è stato selezionato un solo oggetto mesh e si sceglie l\'opzione **Valore assoluto**   *
@@ -27,9 +26,6 @@ Il comando **Decima** riduce il numero di facce negli oggetti mesh.
         -   Spostare il cursore o immettere un numero per specificare una percentuale di facce.
         -   Specificare la **tolleranza**.
 5.  Premere il pulsante **OK** per terminare il comando.
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

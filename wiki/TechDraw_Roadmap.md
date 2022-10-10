@@ -6,20 +6,22 @@ Here is a rough roadmap of areas to be addressed in the future (in no particular
 
 ### Current Activity 
 
--   investigation of using separate thread for hidden line removal and face finding
+-   complex section views
 
 ### Upcoming
 
 These items have working code in the development environment and will be implemented early in the v0.21 development cycle.
 
 -   Navigation modes (implemented)
--   New face detection algorithm
--   PrintAll function
+-   New face detection algorithm (in master branch for testing)
+-   PrintAll function (implemented)
 -   Bitmap hatching [6582](https   *//github.com/FreeCAD/FreeCAD/issues/6582) (implemented)
 -   Extension line gaps [6774](https   *//github.com/FreeCAD/FreeCAD/issues/6774) (implemented)
 -   Section dialog live/deferred update option
--   Convert all templates to \"plain svg\"
--   View stacking order [6012](https   *//github.com/FreeCAD/FreeCAD/issues/6012)
+-   Convert all templates to \"plain svg\" (implemented for latin script templates)
+-   View stacking order [6012](https   *//github.com/FreeCAD/FreeCAD/issues/6012) (implemented)
+-   Use separate thread for hidden line removal and face finding (implemented)
+-   replace ActiveView Svg creation with simple screen capture (implemented)
 
 These items have semi-working code or are well defined and will be implemented at some point in the v0.21 cycle.
 

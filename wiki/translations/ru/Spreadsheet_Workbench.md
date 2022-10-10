@@ -92,15 +92,27 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 Как указано на вкладках, можно изменить следующие свойства   *
 
+
+<div class="mw-translate-fuzzy">
+
 -   Цвет   * цвет текста и цвет фона.
 -   Выравнивание   * выравнивание текста по горизонтали и вертикали
 -   Стиль   * стиль текста   * полужирный, курсив, подчеркивание.
 -   Единицы   * Отображение единиц измерения для этой ячейки. Прочтите раздел [Единицы измерения](#Единицы_измерения.md) ниже.
 -   Псевдоним   * Определение [псевдонима](Spreadsheet_SetAlias/ru.md) для этой ячейки. Этот псевдоним можно использовать в формулах ячеек, а также в общих [выражениях](Expressions/ru.md); смотри раздел [данные электронных таблиц в выражениях](#Выражения_в_ячейках.md) для получения дополнительной информации.
 
+
+</div>
+
 ## Выражения в ячейках 
 
+
+<div class="mw-translate-fuzzy">
+
 Ячейка таблицы может содержать любой текст или выражение. Технически, выражение должно начинаться со знака равенства \'=\'. Однако, таблица пытается быть умной, и если Вы введёте нечто, похожее на выражение, но без начального знака \'=\', он будет добавлен автоматически.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -110,10 +122,16 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 **Примечание   *** Выражения в ячейках обрабатываются FreeCAD как программный код. Поэтому при редактировании ячеек видимое содержимое не следует настройкам дисплея   *
 
 -   десятичный разделитель всегда точка
 -   число показываемых десятичных чисел может отличаться от [настроек](Preferences_Editor/ru#Единицы_измерения.md)
+
+
+</div>
 
 Ссылки на объекты в модели описаны в разделе [Ссылки на данные САПР](#Ссылки_на_данные_САПР.md). Использование значений ячеек для определения параметров моделей описано в разделе [Данные таблицы в выражениях](#Данные_таблицы_в_выражениях.md). Насчёт дополнительной информации о выражениях и доступных функциях, смотрите [Выражения](Expressions/ru.md).
 
@@ -131,9 +149,9 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 </div>
 
-FreeCAD will automatically assign a unique name to a spreadsheet when it is created. These names follow the pattern `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` and so on. The name can not be changed manually, and it is not visible in the properties of the spreadsheet. It can be used to refer to the spreadsheet in an [Expression](Expressions.md) (see [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below.)
+FreeCAD will automatically assign a unique name to a spreadsheet when it is created. These names follow the pattern `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` and so on. The name can not be changed, and it is not visible in the properties of the spreadsheet. It can be used to refer to the spreadsheet in an [Expression](Expressions.md) (see [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below.)
 
-The label of a spreadsheet is automatically set to the name of the spreadsheet upon creation. Unlike the name, the label can be changed, for example in the properties panel or using the context menu action Rename. Note that the label of a spreadsheet within a document has to be unique; if you try to change the label to a label already used by another spreadsheet, FreeCAD will not accept the new label.
+The label of a spreadsheet is automatically set to the name of the spreadsheet upon creation. Unlike the name, the label can be changed, for example in the properties panel or using the context menu action Rename. By default FreeCAD does not accept duplicate labels, but there is a [preference](Preferences_Editor#Document.md) to override this. Spreadsheets with duplicate labels in the same document cannot be referenced by their label.
 
 
 <div class="mw-translate-fuzzy">
@@ -147,14 +165,8 @@ FreeCAD проверяет на циклические зависимости. �
 
 Как указано выше, можно ссылаться на данные из модели САПР в выражениях электронной таблицы.
 
-Вычисляемые выражения в ячейках электронной таблицы начинаются со знака равенства (\'=\'). Однако механизм ввода в электронную таблицу пытается быть умным. Выражение можно вводить без символа \'=\' в начале; если введённая строка является допустимым выражением, при вводе последнего **Enter** автоматически добавляется \'=\'. Если введённая строка не является допустимым выражением (часто это результат ввода чего-то в неправильном регистре, например, «MyCube.length» вместо «MyCube.Length»), начальный знак «=» не добавляется и рассматривается как просто текстовая строка.
 
-**Примечание   *** Такое поведение (автоматическая вставка \'=\') имеет некоторые неприятные последствия   *
-
--   Если вы хотите сохранить столбец имен, соответствующий [псевдонимам](#alias_name.md) в соседнем столбце значений, вы должны ввести имя в столбце метки перед тем как дать ячейке в колонке значений его псевдоним. В противном случае, при вводе псевдонима в столбце метки, электронная таблица предположит, что это выражение, и изменит его на «= »; а отображаемый текст станет значением из ячейки .
--   Если вы допустили ошибку при вводе имени в столбце метки и хотите исправить ее, вы не сможете просто изменить ее на псевдоним. Вместо этого вам придётся сначала изменить псевдоним на другой, затем исправить текстовое имя в столбце метки, и лишь потом вернуть псевдоним в столбце значений в исходный вид.
-
-Один из способов обойти эти проблемы - поставить перед текстовыми метками, соответствующими псевдонимам, фиксированную строку, тем самым делая их разными. Обратите внимание, что «\_» не будет работать, так как он преобразуется в «=». Однако пробел, хотя и невидим, работать будет.
+<div class="mw-translate-fuzzy">
 
 В следующей таблице показаны некоторые примеры, предполагающие, что модель имеет функцию с именем «MyCube»   *
 
@@ -165,6 +177,9 @@ FreeCAD проверяет на циклические зависимости. �
   Тип формы Cube                              =MyCube.Shape.ShapeType        String   * Solid
   Метка Cube                                  =MyCube.Label                  String   * MyCube
   Координата X центра масс Cube               =MyCube.Shape.CenterOfMass.x   Координата X в mm без указания единиц
+
+
+</div>
 
 ### Данные таблицы в выражениях 
 
@@ -185,7 +200,7 @@ In order to use spreadsheet data in other parts of FreeCAD, you will usually cre
 
 <div class="mw-collapsible mw-collapsed">
 
-The recommended way to refer to spreadsheet data is to use the spreadsheet label and cell alias name. For a more in-depth explanation of the pros and cons of the addressing modes, see the expanded section below.
+The recommended way to refer to spreadsheet data is to use the spreadsheet label and cell alias name. For a more in-depth explanation of the pros and cons of the referencing modes, see the expanded section below.
 
 
 <div class="mw-collapsible-content">
@@ -194,7 +209,7 @@ Using the spreadsheet label has the advantage that it can be freely changed to d
 
 Be aware that when you create a new spreadsheet, the name and the label are the same, so it is easy to accidentally use the spreadsheet name instead of the label. A simple way to avoid this is to give the spreadsheet a meaningful name before starting to use it in expressions.
 
-While you may use the row and column number in an expression to reference a cell, best practice is to give the cell an alias name and use that. See [Cell Properties](#Cell_Properties.md) above on how to set the alias. For example, if the data in cell B1 contained the length parameter for an object, an alias name of `MyObject_Length` would allow the value to be referred to as `<<MyParams>>.MyObject_Length` instead of `Spreadsheet.B1`. Besides being much easier to read and understand, alias names are also much easier to change if you decide to adjust the structure of your spreadsheet. Using an alias also has the advantage that it is reasier to see which cells are used to control other parts of the document. Note that FreeCAD will automatically adjust the positional references in expressions if you insert or remove rows and columns in the spreadsheet, so even if you use row and column numbers in an expression, you can insert rows and columns without breaking the references to the surrounding cells.
+While you may use the row and column number in an expression to reference a cell, best practice is to give the cell an alias name and use that. See [Cell properties](#Cell_properties.md) on how to set the alias. For example, if the data in cell B1 contained the length parameter for an object, an alias name of `MyObject_Length` would allow the value to be referred to as `<<MyParams>>.MyObject_Length` instead of `Spreadsheet.B1`. Besides being much easier to read and understand, alias names are also much easier to change if you decide to adjust the structure of your spreadsheet. Using an alias also has the advantage that it is reasier to see which cells are used to control other parts of the document. Note that FreeCAD will automatically adjust the positional references in expressions if you insert or remove rows and columns in the spreadsheet, so even if you use row and column numbers in an expression, you can insert rows and columns without breaking the references to the surrounding cells.
 
 
 </div>
@@ -228,7 +243,7 @@ The Spreadsheet has a notion of dimension (units) associated with cell values. A
 
 If a cell contains a value which represents a dimension, it should be entered with its associated unit. While in many simple cases one can get by with a dimensionless value, it is unwise to not enter the unit. If a value representing a dimension is entered without its associated unit, there are some sequences of operations which cause FreeCAD to complain of incompatible units in an expression when it appears the expression should be valid. (This may be better understood by viewing [this thread](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) in the FreeCAD forums.)
 
-You can change the units displayed for a cell value using the properties dialog [units tab](#units_tab.md) (above). This does not change the value contained in the cell; it only converts the existing value for display. The value used for calculations does not change, and the results of formulas using the value do not change. For example, a cell containing the value \"5.08cm\" can be displayed as \"2in\" by changing the units tab value to \"in\".
+You can change the units displayed for a cell value using the [Cell properties dialog](#Cell_properties.md). This does not change the value contained in the cell; it only converts the existing value for display. The value used for calculations does not change, and the results of formulas using the value do not change. For example, a cell containing the value \"5.08cm\" can be displayed as \"2in\" by changing the units tab value to \"in\".
 
 A dimensionless number cannot be changed to a number with a unit by the cell properties dialog. One can put in a unit string, and that string will be displayed; but the cell still contains a dimensionless number. In order to change a dimensionless value to a value with a dimension, the value itself must be re-entered with its associated unit.
 

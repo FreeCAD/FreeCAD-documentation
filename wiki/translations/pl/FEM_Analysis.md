@@ -1,60 +1,60 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *FEM Analysis
-   MenuLocation   *Model → Analysis container‏‎
-   Workbenches   *[FEM](FEM_Workbench.md)
+   Name/pl   *MES Analiza
+   MenuLocation   *Model → Analiza MES
+   Workbenches   *[MES](FEM_Workbench/pl.md)
    Shortcut   ***S** **A**
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[Poradnik MES](FEM_tutorial/pl.md)
 ---
 
 # FEM Analysis/pl
 
-## Description
+## Opis
 
-The FEM Analysis could be seen as a Container that holds all objects of a Finite Element Analysis. It is mandatory to have a analysis container which holds all the needed objects. At least one of the following objects is needed for a mechanical analysis   *
+Analiza MES może być postrzegana jako kontener, który przechowuje wszystkie obiekty analizy elementów skończonych. Konieczne jest posiadanie kontenera analizy, który przechowuje wszystkie potrzebne obiekty. Przynajmniej jeden z poniższych obiektów jest potrzebny do analizy mechanicznej   *
 
--   [material](FEM_MaterialSolid.md)
--   [fixed constraint](FEM_ConstraintFixed.md)
--   [force constraint](FEM_ConstraintForce.md) or [pressure constraint](FEM_ConstraintPressure.md)
+-   [materiał](FEM_MaterialSolid/pl.md).
+-   [zdefiniowane ograniczenie](FEM_ConstraintFixed/pl.md).
+-   [ograniczenie siły](FEM_ConstraintForce/pl.md) lub [ograniczenie ciśnienia](FEM_ConstraintPressure/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/FEM_Analysis.svg" width=16px> [FEM Analysis](FEM_Analysis.md)** button.
-    -   Select the **Model → <img src="images/FEM_Analysis.svg" width=16px> Analysis container‏‎** option from the menu.
-    -   Use the keyboard shortcut   * **S** then **A**.
-2.  A new Analysis is created and set to active.
-3.  Other objects could be added or removed to the analysis container by drag and drop.
-4.  To add new FEM Objects to the document the analysis has to be active. Double click on the analysis does activate the analysis.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/FEM_Analysis.svg" width=16px> [Analiza MES](FEM_Analysis/pl.md)**.
+    -   Wybierz z menu **Model → <img src="images/FEM_Analysis.svg" width=16px> Analiza MES**.
+    -   Użyj skrótu klawiaturowego   * **S** następnie **A**.
+2.  Zostanie utworzona nowa Analiza i ustawiona jako aktywna.
+3.  Inne obiekty mogą być dodawane lub usuwane do kontenera analizy metodą \"przeciągnij i upuść\".
+4.  Aby dodać nowe obiekty MES do dokumentu, analiza musi być aktywna. Podwójne kliknięcie na analizie powoduje jej aktywację.
 
-## Options
+## Opcje
 
--   Up to date there is no option to choose.
--   A frequency analysis in in development. See [1](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=12189) for more informations.
+-   Do chwili obecnej nie ma możliwości wyboru.
 
-## Properties
+## Właściwości
 
--    **OutpuDir**   * Specifies the working directory of the analysis
+-    **OutpuDir**   * Określa katalog roboczy dla analizy.
 
-## Scripting
+## Tworzenie skryptów 
 
-most code here is depreciated in 0.17.
+większość kodu tutaj jest przestarzała w wersji 0.17.
 
--   new analysis
+-   Utworzenie nowej analizy   *
 
 
 ```python
 MechanicalAnalysis.makeMechanicalAnalysis( name )
 ```
 
--   add object to the analysis
+-   Dodanie obiektu do analizy   *
 
 
 ```python
 App.ActiveDocument.MechanicalAnalysis.Member = App.ActiveDocument.MechanicalAnalysis.Member + [ (object) ]
 ```
 
--   remove object from the analysis
+-   Usunięcie obiektu z analizy   *
 
 
 ```python
@@ -63,7 +63,7 @@ member.remove( documentobject )
  App.ActiveDocument.MechanicalAnalysis.Member = member
 ```
 
-Examples   * 
+Przykład   * 
 ```python
 import MechanicalAnalysis
 analysis = MechanicalAnalysis.makeMechanicalAnalysis("MechanicalAnalysis")

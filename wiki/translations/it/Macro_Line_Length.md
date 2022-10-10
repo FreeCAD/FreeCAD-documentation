@@ -15,15 +15,9 @@
 
 Questa macro permette di creare una linea usando come argomento le coordinate XYZ, la lunghezza e l\'angolo.
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Può essere usata nell\'editor delle macro di FreeCAD.
-
-
-</div>
 
 i valori di default sono    * x1=0, y1=0, z1=0, length=10, angle=0
 
@@ -31,7 +25,7 @@ i valori di default sono    * x1=0, y1=0, z1=0, length=10, angle=0
 
 ToolBar Icon ![](images/Macro_Line_Length.png )
 
-**Macro Line\_Length.py**
+**Macro Line_Length.py**
 
 
 {{MacroCode|code=

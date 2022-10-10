@@ -24,7 +24,7 @@ Konvertiert kompatible Geometrie, Kanten und Kurven, in einen B-Spline (siehe [d
 
 1.  Einen oder mehrere Skizzenbestandteile auswählen und die Schaltfläche **[<img src=images/Sketcher_BSplineApproximate.svg style="width   *24px"> [Geometrie in B-Spline wandeln](Sketcher_BSplineApproximate.md)** drücken.
 
-Make sure to have either the spline [degree](Sketcher_BSplineDegree.md), [polygon](Sketcher_BSplinePolygon.md), [comb](Sketcher_BSplineComb.md), [multiplicity](Sketcher_BSplineKnotMultiplicity.md) or [weight](Sketcher_BSplinePoleWeight.md) visible, otherwise nothing seems to happen. If you converted straight lines, you first need to [increase the degree](Sketcher_BSplineIncreaseDegree.md) of the lines to make them \"bendable\".
+Eins der B-Spline-Werkzeuge [BSplineGrad](Sketcher_BSplineDegree/de.md), [BSplinePolygon](Sketcher_BSplinePolygon/de.md), [ BSplineKamm](Sketcher_BSplineComb/de.md), [BSplineKnotenVielfachheit](Sketcher_BSplineKnotMultiplicity/de.md) oder [BSplinePolGewicht](Sketcher_BSplinePoleWeight/de.md) sollte sichtbar sein, andernfalls sähe es so aus, als würde nichts passieren. Werden gerade Linien umgewandelt, muss als erstes ein [BSplineGradErhöhen](Sketcher_BSplineIncreaseDegree.md) der Linien erfolgen, um sie \"biegsam\" zu machen.
 
 
 

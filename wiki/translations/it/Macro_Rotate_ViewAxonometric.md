@@ -20,17 +20,11 @@ Avete due opzioni   *
 -   modo 1   * vista assonometrica con Y rivolta verso l\'alto ![vista assonometrica con Y rivolta verso l\'alto](images/_Macro_Rotate_View_with_Y_pointing_upwards_.png ) modalità 1
 -   modo 2   * vista assonometrica con Z rivolta verso l\'alto ![vista assonometrica con Z rivolta verso l\'alto](images/_Macro_Rotate_View_with_Z_pointing_upwards_.png ) modalità 2 (commento per l\'uso)
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
 
+Per utilizzare le due macro, copiare la prima macro e denominarla \"**Macro_Rotate_ViewAxonometric_Y**\" (modo 1) senza modificare il codice e utilizzare questa icona ![vista assonometrica con Y rivolta verso l\'alto](images/_Macro_Rotate_View_with_Y_pointing_upwards_.png )
 
-</div>
-
-Per utilizzare le due macro, copiare la prima macro e denominarla \"**Macro\_Rotate\_ViewAxonometric\_Y**\" (modo 1) senza modificare il codice e utilizzare questa icona ![vista assonometrica con Y rivolta verso l\'alto](images/_Macro_Rotate_View_with_Y_pointing_upwards_.png )
-
-Copia la seconda macro e chiamala \"**Macro\_Rotate\_ViewAxonometric\_Z**\" (modo 2) e   *
+Copia la seconda macro e chiamala \"**Macro_Rotate_ViewAxonometric_Z**\" (modo 2) e   *
 
 commenta la linea
 
@@ -49,7 +43,7 @@ and use this icon ![axonometric view with Z pointing upwards](images/Macro_Rotat
 -   mode 1    * ToolBar Icon ![](images/Macro_Rotate_View_with_Y_pointing_upwards_.png )
 -   mode 2    * ToolBar Icon ![](images/Macro_Rotate_View_with_Z_pointing_upwards_.png ) (uncomment for use)
 
-**Macro\_Rotate\_ViewAxonometric.FCMacro**
+**Macro_Rotate_ViewAxonometric.FCMacro**
 
 
 {{MacroCode|code=

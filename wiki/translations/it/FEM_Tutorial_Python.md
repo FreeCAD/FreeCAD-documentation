@@ -14,17 +14,13 @@
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Introduzione
 
-Questo tutorial ha lo scopo di mostrare come tramite Python è possibile eseguire una semplice Analisi agli elementi finiti **FEA** nell\'ambiente <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [FEM](FEM_Workbench/it.md) di FreeCAD. Per questo esempio il modello è preso dal tutorial [FEM CalculiX Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md).
-
-
-</div>
+Questo tutorial ha lo scopo di mostrare come una semplice analisi agli elementi finiti (\"FEA\"\'\') nell\'[Ambiente FEM](FEM_Workbench/it.md) <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> di FreeCAD viene eseguita utilizzando Python. Per questo esempio verrà utilizzato il modello del tutorial [FEM CalculiX Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md).
 
 <img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
+
+### Requirements
 
 
 <div class="mw-translate-fuzzy">
@@ -39,9 +35,17 @@ Questo tutorial ha lo scopo di mostrare come tramite Python è possibile eseguir
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Iniziamo
 
 ### Il nuovo documento e la parte da analizzare 
+
+
+</div>
+
+### New document and the part to analyze 
 
 
 ```python
@@ -110,6 +114,8 @@ analysis_object.addObject(force_constraint)
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width   *750px ">
 
+### FEM mesh (manual) 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -120,7 +126,13 @@ Questa sezione contiene il codice mesh FEM. Espanderla per visualizzare i conten
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 **Nota   *** Controllare la sezione [Informazioni aggiuntive](FEM_Tutorial_Python/it#Informazioni_aggiuntive.md) di seguito per sapere come creare uno script per la generazione di mesh con GMSH o oggetti mesh Netgen.
+
+
+</div>
 
 
 <div class="mw-collapsible-content">
@@ -442,12 +454,10 @@ femmesh.addVolume([51, 44, 45, 34, 217, 95, 228, 218, 144, 136], 225)
 femmesh.addVolume([9, 29, 39, 30, 147, 127, 215, 148, 78, 126], 226)
 femmesh.addVolume([40, 9, 19, 39, 214, 105, 168, 90, 215, 169], 227)
 
-
 # add it to the analysis
 femmesh_obj = doc.addObject('Fem   *   *FemMeshObject', 'Box_Mesh')
 femmesh_obj.FemMesh = femmesh
 analysis_object.addObject(femmesh_obj)
-
 ```
 
 
@@ -558,7 +568,7 @@ if not message   *
     fea.load_results()
 else   *
     FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in report view
-    print("Houston, we have a problem! {}\n".format(message))  # in python console
+    print("Houston, we have a problem! {}\n".format(message))  # in Python console
 
 ###
 ```
@@ -585,18 +595,49 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 
 ##### Netgen
 
+
+<div class="mw-translate-fuzzy">
+
+##### Netgen 
+
 Uno script per oggetti mesh Netgen è stato provato in [\"Parametrized FEM study\"](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (discussione del forum secondario FEM di FreeCAD), ma presenta alcune limitazioni.
 
+
+</div>
+
 ##### GMSH
+
+
+<div class="mw-translate-fuzzy">
+
+##### GMSH 
 
 Al contrario l\'oggetto mesh GMSH supporta pienamente lo script Python. Vedere nel forum le discussioni   *
 
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
 -   <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
+
+</div>
+
+#### Scripting multiple analysis 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Script per analisi multipla 
 
 Vedere nel forum il post   * <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
+
+
+</div>
+
+#### Scripting results 
+
+##### Standard FreeCAD result object 
+
+
+<div class="mw-translate-fuzzy">
 
 ##### Script per i risultati 
 
@@ -609,22 +650,49 @@ Vedere nel forum i post   *
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → colorare solo un elemento
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → resettare tutti i risultati, mostrare la grandezza dello spostamento colorato
 
+
+</div>
+
+##### Vtk result object 
+
+
+<div class="mw-translate-fuzzy">
+
 ##### Oggetto del risultato Vtk 
 
 Vedere il post nel forum   *
 
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
+
+</div>
+
+#### Console mode 
+
+
+<div class="mw-translate-fuzzy">
+
 ##### Modalità console 
 
 La scrittura del file di input in modalità console di FreeCAD (senza Gui) può essere eseguita in modalità test. A questo proposito vedere questo [post nel forum](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897) per maggiori dettagli e sperimentazione.
+
+
+</div>
+
+## Appendix
+
+
+<div class="mw-translate-fuzzy">
 
 ## Appendice
 
 Divertitevi! Inoltre, se avete commenti o miglioramenti, non esitate a partecipare al [sottoforum FEM di FreeCAD](https   *//forum.freecadweb.org/viewforum.php?f=18).
 
 
- {{FEM Tools navi}}  
+</div>
+
+
+ {{FEM Tools navi}} 
 
 [Category   *Python Code](Category_Python_Code.md)
 

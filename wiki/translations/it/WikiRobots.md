@@ -1,9 +1,9 @@
 # WikiRobots/it
-**Robots are intrinsically dangerous as they can automatically do a lot of damage. Use with extreme care!**
+**I robot sono intrinsecamente pericolosi in quanto possono causare automaticamente molti danni. Usalo con estrema cura!**
 
-## Overview
+## Panoramica
 
-Repetitive tasks can be automated using robots or bots, i.e. software programs operating on the wiki by themselves.
+Le attività ripetitive possono essere automatizzate utilizzando robot o bot, ovvero programmi software che operano sul wiki da soli.
 
 The natural and most commonly used robots for wiki sites are provided by MediaWiki, under the package name Pywikibot. See [Manual   *Pywikibot](http   *//www.mediawiki.org/wiki/Manual   *Pywikibot) for the full information.
 
@@ -46,7 +46,7 @@ console_encoding = 'cp437'
 In the above code   *
 
 -   replace *\<\>* with your Wiki user name
--   replace *cp437* with your *console\_encoding*. To find out what is your console encoding, for Windows and Linux, launch the Python interpreter, enter {{SystemInput|import sys}} followed by {{SystemInput|print sys.stdout.encoding}}. Python will write your {{SystemOutput|console_encoding}} on the screen.
+-   replace *cp437* with your *console_encoding*. To find out what is your console encoding, for Windows and Linux, launch the Python interpreter, enter {{SystemInput|import sys}} followed by {{SystemInput|print sys.stdout.encoding}}. Python will write your {{SystemOutput|console_encoding}} on the screen.
 
 Then you must save the following Python code as a file with the name **freecadwiki_family.py** under the sub-directory **/pywikibot/families** (together with the other **family_xxx.py** files).
 

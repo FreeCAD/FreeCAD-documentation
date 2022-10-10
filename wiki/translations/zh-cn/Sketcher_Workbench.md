@@ -303,7 +303,17 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Slot](Sketcher_CreateSlot.md)   * 通过选择一个半圆的中心和另一个半圆的终点绘制椭圆。
 
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Fillet](Sketcher_CreateFillet.md)   * 在一条线之间加入两条线之间的圆角。选择两行或单击角点，然后激活该工具。
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 
 <div class="mw-translate-fuzzy">

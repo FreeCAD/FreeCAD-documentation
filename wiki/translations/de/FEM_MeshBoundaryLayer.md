@@ -1,18 +1,13 @@
 ---
 - GuiCommand   */de
    Name   *FEM MeshBoundaryLayer
-   Name/de   *FEM NetzGrenzSchicht
-   Icon   *Fem-femmesh-boundary-layer.svg
-   MenuLocation   * Mesh → FEM Mesh boundary layer
-   Workbenches   *[FEM](FEM_Workbench.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+   Name/de   *FEM NetzGrenzschicht
+   MenuLocation   *Netz → FEM Netz Begrenzungsschicht
+   Workbenches   *[FEM](FEM_Workbench/de.md)
+   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MeshBoundaryLayer/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -30,7 +25,7 @@ The boundary layer has the advantage of creating highly defined, anisotropic mes
 4.  Click the **OK** button.
 5.  Close the task.
 
-       *   Result   * You now should see a new `FEMMeshBoundaryLayer` object under the `FEMMeshGMSH` object (see example \#3 below) in your active analysis container.
+       *   Result   * You now should see a new `FEMMeshBoundaryLayer` object under the `FEMMeshGMSH` object (see example #3 below) in your active analysis container.
 6.  Double-click on the `FEMMeshGMSH` parent object in your Model Tree and press **Apply** to force a mesh recalculation.
 7.  Close the task.
 
@@ -49,18 +44,12 @@ You can create as many different mesh boundary layers as needed.
 <img alt="" src=images/FEMMeshBoundaryLayer_Example3.png.png  style="width   *300px;"> 
 *Example 3   * A simple example of the resulting Model Tree*
 
-## Notes
+## Hinweise
 
 ## Related
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

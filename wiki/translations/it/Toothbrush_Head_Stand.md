@@ -1,6 +1,18 @@
-# Toothbrush Head Stand/it
 ---
-- TutorialInfo   */it   Topic   *Modellazione   Level   *Principiante   Author   *[[User   *EmmanuelG   EmmanuelG]]|Time   *1 ora   FCVersion   *0.16 o o superiore   Files   *[https   *//www.thingiverse.com/thing   *2403310 Thingiverse 2403310]}}
+- TutorialInfo   */it   Topic   *Modellazione   Level   *Principiante   Author   *[[User   *EmmanuelG   EmmanuelG]]|Time   *1 ora   FCVersion   *0.16 o o superiore   Files   *[https   *//www.thingiverse.com/thing   *2403310 Thingiverse 2403310]
+---
+
+# Toothbrush Head Stand/it
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
 
 ## A daily-life problem 
 
@@ -56,7 +68,9 @@ You now have a floating square.
 
 You now have a totally constrained sketch, as you are told by the solver on the left and the change of color. It is a good practice to always have a totally constrained sketch.
 
-An under-constrained sketch can leave room for unwanted change, if you modify something later on. On the opposite, an over-constrained sketch is also not good. In that case the solver warn you of redundant constraints and you should remove some of them.
+An under-constrained sketch can leave room for unwanted change, if you modify something later on.
+
+On the opposite, an over-constrained sketch is also not good. In that case the solver warn you of redundant constraints and you should remove some of them.
 
 -   To leave the sketch, click either on the \"Close\" button on the left, or the <img alt="" src=images/Sketcher_LeaveSketch.png  style="width   *32px;"> icon in the toolbar, or press **ESC**.
 
@@ -149,7 +163,7 @@ Much better.
 
 ### Making it more robust 
 
-We need to add material at the base of the cylinders to make them less prone to snap. Because of the printing orientation these small surfaces will be fragile at the junction with the base.
+We need to add material at the base of the cylinders to make them less prone to snap. Because of the printing orientation these small surfaces will be fragile at the junction with the base.
 
 -   Select the circles at the base of the cylinders
 
@@ -401,7 +415,7 @@ Chamfer = left / Draft = right
 
 <img alt="" src=images/TBHS2-30-chamfer.JPG  style="width   *200px;"><img alt="" src=images/TBHS2-30-draft.JPG  style="width   *200px;">
 
-### Finitions
+### Finishes
 
 -   Holding **CTRL** select the bottom and top faces.
 
@@ -423,8 +437,7 @@ Perfect !
 -   Print it instead of the first version or to replace it if it eventually broke ;-)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}} {{Userdocnavi
----
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 

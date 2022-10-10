@@ -186,8 +186,6 @@ These tools perform boolean operations.
 
 ### Measure
 
-<img alt="" src=images/Part_Measure_Menu.png  style="width   *64px;"> [Measure](Part_Measure_Menu.md)   * Tools for linear and angular measurements.
-
 -   <img alt="" src=images/Part_Measure_Linear.svg  style="width   *32px;"> [Measure Linear](Part_Measure_Linear.md)   * Creates a linear measurement.
 
 -   <img alt="" src=images/Part_Measure_Angular.svg  style="width   *32px;"> [Measure Angular](Part_Measure_Angular.md)   * Creates an angular measurement.
@@ -198,7 +196,7 @@ These tools perform boolean operations.
 
 -   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width   *32px;"> [Toggle All](Part_Measure_Toggle_All.md)   * Shows or hides all measurements.
 
--   <img alt="" src=images/Part_Measure_Toggle_3d.svg  style="width   *32px;"> [Toggle 3D](Part_Measure_Toggle_3d.md)   * Shows or hides 3D measurements.
+-   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width   *32px;"> [Toggle 3D](Part_Measure_Toggle_3D.md)   * Shows or hides 3D measurements.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *32px;"> [Toggle Delta](Part_Measure_Toggle_Delta.md)   * Shows or hides delta measurements.
 

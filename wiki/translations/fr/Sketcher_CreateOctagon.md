@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher CreateOctagon
    Name/fr   *Sketcher Octogone
-   MenuLocation   *Esquisse → Géométries d'esquisse → Créer un octogone
+   MenuLocation   *Sketch → Géométries d'esquisse → Créer un octogone
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut   ***G** **P** **8**
    Version   *0.15

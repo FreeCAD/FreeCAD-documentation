@@ -15,12 +15,11 @@ Il comando **Rifila con un poligono** taglia facce e parti di facce da oggetti m
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Durante il comando non è possibile modificare la [vista 3D](3D_view.md). Si consiglia di allineare correttamente prima la vista 3D.
 2.  Selezionare uno o più oggetti mesh.
-3.  Selezionare l\'opzione **Mesh → Taglio → <img src="images/Mesh_PolyTrim.svg" width=16px> Rifila con un poligono** dal menu.
+3.  Esistono diversi modi per invocare il comando   *
+    -   Premere il bottone **<img src="images/Mesh_PolyTrim.svg" width=16px> [Mesh PolyTrim](Mesh_PolyTrim.md)**.
+    -   Selezionare l\'opzione **Mesh → Taglio → <img src="images/Mesh_PolyTrim.svg" width=16px> Rifila con un poligono** dal menu.
 4.  Definire un poligono selezionando dei punti nella vista 3D.
 5.  Selezionare un\'opzione dal menu contestuale della vista 3D   *
     -   
@@ -44,16 +43,7 @@ Il comando **Rifila con un poligono** taglia facce e parti di facce da oggetti m
            * annulla il comando.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

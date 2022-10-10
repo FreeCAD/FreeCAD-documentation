@@ -32,7 +32,13 @@ Si el solucionador está instalado, asegúrese de que el Ambiente de trabajo MEF
 
 ### MEF Generador Malla 
 
+
+<div class="mw-translate-fuzzy">
+
 Para crear una [MEF Malla](FEM_Mesh/es.md), FreeCAD utiliza [Gmsh](http   *//gmsh.info/) como malla por defecto. Para que esto funcione, Gmsh debe ser instalado por separado de FreeCAD.
+
+
+</div>
 
 Si el programa está correctamente instalado, puedes ejecutar el comando `gmsh` en el terminal para lanzar la interfaz gráfica del programa. Esta interfaz no es utilizada por FreeCAD pero demuestra que el programa está instalado.
 

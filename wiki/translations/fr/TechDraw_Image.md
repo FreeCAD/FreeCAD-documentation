@@ -24,8 +24,27 @@ L\'outil Image insère une image [bitmap](bitmap/fr.md) (png, jpeg, jpg, bmp, et
 
 ## Propriétés
 
--   Utilisez la propriété Scale (échelle) pour ajuster la taille de l\'image.
--   Utilisez les propriétés Width (largeur) et Height (hauteur) pour découper l\'image.
+Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+
+### Données
+
+
+{{TitleProperty|Image}}
+
+-    **Image File|File**   * fichier contenant ce bitmap.
+
+-    **Image Included|FileIncluded**   * fichier image inclus. A utiliser uniquement par le système.
+
+-    **Width|Float**   * largeur de l\'image recadrée en mm. Utilisé uniquement si **Crop** est `True`.
+
+-    **Height|Float**   * hauteur de l\'image recadrée en mm. Idem.
+
+### Vue
+
+
+{{TitleProperty|Image}}
+
+-    **Crop|Bool**   * recadrer l\'image à **Width** x **Height**.
 
 ## Script
 

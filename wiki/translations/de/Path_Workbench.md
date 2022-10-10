@@ -41,7 +41,7 @@ Der Pfad Arbeitsbereich hat externe Abhängigkeiten einschließlich   *
 Einige aktuelle Begrenzungen, derer du dir bewusst sein solltest, sind   *
 
 -   Die meisten der Pfadwerkzeuge sind keine echten 3D Werkzeuge, sondern nur 2,5D fähig. Das bedeutet, dass sie eine festgelegte 2D Form nehmen und diese bis zu einer bestimmten Tiefe herunterschneiden können. Es gibt jedoch zwei Werkzeuge, die echte 3D Pfade erzeugen   * **<img src="images/Path_3DPocket.svg" width=24px> [3D Tasche](Path_Pocket_3D/de.md)** und **<img src="images/Path_Surface.svg" width=24px> [3D Oberfläche](Path_Surface/de.md)** (was ab November 2020 noch ein [experimentelle Funktion](Path_experimental/de.md) ist).
--   Der größte Teil des Pfad Arbeitsbereichs ist für eine einfache, standardmäßige 3-Achsen (xyz) CNC Fräse/Router ausgelegt, aber Drehwerkzeuge sind in 0.19\_pre in Entwicklung.
+-   Der größte Teil des Pfad Arbeitsbereichs ist für eine einfache, standardmäßige 3-Achsen (xyz) CNC Fräse/Router ausgelegt, aber Drehwerkzeuge sind in 0.19_pre in Entwicklung.
 -   Die meisten Operationen im Pfad Arbeitsbereich geben nur Pfade zurück, die auf einem Standard Endfräser Werkzeug/Bit basieren, unabhängig vom zugewiesenen Werkzeug/Bit Typ in einer bestimmten Werkzeugsteuerung, mit Ausnahme der **<img src="images/Path_Engrave.svg" width=24px> [Gravur](Path_Engrave/de.md)** und **<img src="images/Path_Surface.svg" width=24px> [3D Oberfläche](Path_Surface/de.md)** Operationen.
 -   Die Operationen innerhalb des Pfad Arbeitsbereichs kennen keine Spannmechanismen, die zur Befestigung des Modells an deiner Maschine verwendet werden. Überprüfe und simuliere daher die von dir erzeugten Bahnen, bevor du den Code an deine Maschine sendest. Wenn nötig, modelliere deine Spannmechanismen in FreeCAD, um die erzeugten Bahnen besser überprüfen zu können. Achte auf mögliche Kollisionen mit Spannern oder anderen Hindernissen entlang der Bahnen.
 
@@ -131,6 +131,8 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 -   <img alt="" src=images/Path_Slot.svg  style="width   *32px;"> [Nut](Path_Slot/de.md)   * Erzeugt eine Nutenbearbeitung aus ausgewählten Formelementen oder benutzerdefinierten Punkten. [**Experimentell**](Path_experimental/de.md). {{Version/de|0.19}}
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width   *32px;"> [Gravieren](Path_Engrave/de.md)   * Erstellt einen Gravurpfad.
+
+-   <img alt="" src=images/Path_Deburr.svg  style="width   *32px;"> [Deburr](Path_Deburr.md)   * Creates a deburr path.
 
 -   <img alt="" src=images/Path_Vcarve.svg  style="width   *32px;"> [VGravur](Path_Vcarve/de.md)   * Erzeugt einen Gravurpfad unter Verwendung einer V-Werkzeugform. {{Version/de|0.19}}
 

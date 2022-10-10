@@ -1,7 +1,7 @@
 # Artwork TechDraw/it
-These icons are in the indicated source path.
+Queste icone si trovano nel percorso origine indicato.
 
-For all icons in the source tree, see [Artwork](Artwork.md).
+Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Artwork/it.md)
 
 ## src/Mod/TechDraw/
 
@@ -23,7 +23,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/TechDraw/Templates/
 
-The [TechDraw Workbench](TechDraw_Workbench.md) comes with a number of default templates. These are not listed here.
+L\'[Ambiente TechDraw](TechDraw_Workbench/it.md) viene fornito con una serie di modelli predefiniti. Questi non sono elencati qui.
 
 
 

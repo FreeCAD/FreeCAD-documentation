@@ -3,7 +3,7 @@
    Name   *Sketcher Conics
    Name/fr   *Sketcher Coniques
    Icon   *Sketcher_CompCreateConic.png
-   MenuLocation   *Barre d'outils seulement
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
 ---
 

@@ -33,7 +33,13 @@ Esta herramienta recorta un borde hasta el borde más cercano que se superpone.
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

@@ -18,7 +18,7 @@
 
 Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, en utilisant les nouveaux [FEM Exemples](FEM_Examples/fr.md). Ce tutoriel illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [FEM Solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant [FEM Filtre de découpe selon une région](FEM_PostFilterClipRegion/fr.md).
 
-<img alt="" src=images/Two_balls_result_2.png  style="width   *1200px;">
+<img alt="" src=images/Two_balls_result_2.png  style="width   *1000px;">
 
 ## Conditions
 
@@ -26,7 +26,7 @@ Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer G
 
        *   Utilisez **Aide → À propos de FreeCAD** pour voir la version installée de FreeCAD.
 -   Aucun logiciel externe n\'est nécessaire pour charger l\'exemple, visualiser le maillage et la géométrie ainsi que pour visualiser les résultats.
--   Pour résoudre l\'Analyse des éléments finis (FEA), le logiciel de résolution Elmer doit être installé sur votre ordinateur. Voir [FEM Solveur Elmer](FEM_SolverElmer/fr.md) pour savoir comment installer Elmer.
+-   Pour résoudre l\'analyse par éléments finis (FEM), le solveur Elmer doit être installé sur votre ordinateur. Voir [cette page](FEM_SolverElmer/fr#Installation.md) pour savoir comment installer Elmer.
 
 ## Configurer l\'exemple 
 
@@ -55,56 +55,61 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 -   Les deux sphères plus petites sont fusionnées ensemble puis cette fusion est coupée de la plus grande sphère.
 
-![ 1200px](images/Two_balls_model_full.png )
+![ 1000px](images/Two_balls_model_full.png )
 
 ## Conteneur d\'analyse et ses objets 
 
--   Il y a au moins 7 objets nécessaires pour effectuer cette analyse électrostatique.
--   Un <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> conteneur d\'analyse
+-   Il faut au moins les 7 objets pour faire cette analyse électrostatique.
+-   Un <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> containeur d\'analyse
 
-1.  Un <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;"> solveur Elmer
-2.  Une <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *24px;"> équation électrostatique
-3.  Un <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *24px;"> matériau fluide (pour représenter l\'air ambiant)
-4.  Une <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *24px;"> contrainte électrostatique (3 d\'entres elles)
-5.  La <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width   *24px;"> permittivité constante au vide
-6.  Un <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> maillage FEM Gmsh
-7.  Une <img alt="" src=images/FEM_MeshRegion.svg  style="width   *24px;"> région maillée (pour les plus petites sphères)
+1.  <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;"> SolverElmer
+2.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *24px;"> Electrostatic, l\'équation de l\'électrostatique
+3.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *24px;"> FemMaterial, un matériau fluide pour représenter l\'air environnant.
+4.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *24px;"> ElectrostaticPotential, des contraintes (3 d\'entre elles)
+5.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width   *24px;"> ConstantVaccumPermittivity, optionnel
+6.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> Mesh, un maillage [Gmsh](FEM_MeshGmshFromShape/fr.md)
+7.  <img alt="" src=images/FEM_MeshRegion.svg  style="width   *24px;"> MeshRegion, une région maillée pour les petites sphères
 
-<img alt="" src=images/Two_balls_analysis.png  style="width   *300px;">
+![](images/Two_balls_analysis.png )
 
 ## Exécution de l\'Analyse des éléments finis (FEA) 
 
--   Dans la [Vue en arborescence](Tree_view/fr.md) double-cliquez sur l\'objet solveur <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;">.
--   Cliquez sur le fichier **Write** dans la même fenêtre de tâche. Regardez la fenêtre du journal jusqu\'à ce qu\'elle imprime \"write completed.\"
--   Cliquez sur **Run**. Puisqu\'il s\'agit d\'une petite analyse, son exécution devrait prendre quelques secondes, attendez de voir \"ELMER SOLVER FINISHED AT\" en sortie.
--   Cliquez sur **Close** dans la fenêtre de la tâche une fois l\'exécution terminée.
--   Deux nouveaux objets de résultat doivent être créés, <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult et <img alt="" src=images/TextDocument.svg  style="width   *24px;"> SolverElmerOutput.
--   Si vous obtenez un message d\'erreur sur le solveur binaire ou similaire lors du déclenchement de l\'analyse, vérifiez l\'installation du [FEM Solveur Elmer](FEM_SolverElmer/fr.md)
+-   Dans la [Vue en arborescence](Tree_view/fr.md), double-cliquez sur l\'objet solveur <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;">.
+-   Cliquez sur le fichier **Ecrire** dans la même fenêtre de tâche. Observez la fenêtre de log jusqu\'à ce qu\'elle imprime \"write completed\". Vous pouvez ignorer l\'avertissement concernant la permittivité du vide qui pourrait apparaître.
+-   Cliquez sur **Lancer**. Puisqu\'il s\'agit d\'une petite analyse, l\'exécution ne devrait prendre que quelques secondes, attendez donc de voir \"ELMER SOLVER FINISHED AT\" dans la sortie.
+-   Cliquez sur **Ferlmer** dans la fenêtre de tâche une fois l\'exécution terminée.
+-   Deux nouveaux objets résultats devraient être créés dans l\'arborescence, <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult et <img alt="" src=images/TextDocument.svg  style="width   *24px;"> SolverElmerOutput.
+
+Si vous obtenez un message d\'erreur sur le binaire du solveur ou similaire lors du déclenchement de l\'analyse, vérifiez [l\'installation](FEM_SolverElmer/fr#Installation.md) d\'Elmer.
 
 ## Visualisation des résultats 
 
--   Assurez-vous que l\'analyse est activée.
--   Assurez-vous que l\'analyse contient toujours l\'objet de résultat, sinon relancez simplement le solveur.
--   Assurez-vous que le maillage est invisible. Sinon, sélectionnez l\'objet maillé et appuyez sur **Espace** pour basculer la visibilité.
--   Double-cliquez sur le <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult pour charger dans le [Panneau des tâches](Task_Panel/fr.md).
--   Changez le \"Mode\" en \"Surface\" et le \"Field\" en \"potential\". Appuyez sur **Ok**.
--   Vous remarquerez que la couleur de la sphère est passée au bleu et que le dégradé de droite affiche des valeurs de 0 à +1. Ça devrait ressembler a quelque chose comme ca   *
+-   Assurez-vous que le maillage est invisible. Si ce n\'est pas le cas, sélectionnez l\'objet <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> Mesh et appuyez sur **Espace** pour activer la visibilité.
+-   Assurez-vous également que l\'objet Cut est invisible.
+-   Double-cliquez sur l\'objet <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult pour ouvrir son dialogue de tâche.
+-   Changez le \"Field\" en \"potential\" et appuyez sur **OK**.
+-   Vous remarquerez que la couleur de la sphère est passée au bleu et que le gradient à droite affiche des valeurs de 0 à 1. Cela devrait ressembler à ceci    *
 
-<img alt="" src=images/Two_balls_potential.png  style="width   *1200px;">
+<img alt="" src=images/Two_balls_potential.png  style="width   *1000px;">
 
 ## Post-traitement du résultat 
 
--   Bien que nous ayons réussi à visualiser le résultat potentiel, nous ne voyons actuellement que le potentiel zéro dans l\'air entourant les deux boules. Pour voir le potentiel des sphères, nous devons appliquer un filtre de clip.
--   Dans la [Vue en arborescence](Tree_view/fr.md), sélectionnez <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult puis dans la barre d\'outils, cliquez sur <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width   *24px;"> Post Create Clip Filter.
--   Cela ouvrira le [Panneau des tâches](Task_Panel/fr.md) avec les configurations de filtre de clip. Sélectionnez \"Plane\" dans le menu \"Create\" et cochez la case \"Cut Cells\". Après cela, cliquez sur **Apply**.
+-   Bien que nous ayons réussi à visualiser le résultat du potentiel, nous ne voyons actuellement que le potentiel nul dans l\'air entourant les deux boules. Pour visualiser le potentiel sur les boules, nous devons appliquer un [filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md).
+-   Dans la vue arborescente, sélectionnez <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult, puis dans la barre d\'outils cliquez sur le bouton **<img src="images/FEM_PostFilterClipRegion.svg" width=20px> Filtre d'écrêtage selon une région**.
+-   Cela ouvrira un dialogue avec les configurations du filtre. Cliquez sur le bouton **<img src="images/list-add.svg" width=16px> Créer** et choisissez <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *24px;"> Plan. Cela ajoute un plan passant par le centre de la sphère et au niveau duquel le maillage résultant est coupé. Pour lisser la face coupée, cochez l\'option **Cut Cells**. Cliquez ensuite sur **Appliquer**.
 
 <img alt="" src=images/Two_balls_postcreate.png  style="width   *300px;">
 
--   Choisissez ensuite les mêmes configurations (Surface et potentiel) que vous avez lors de la visualisation des résultats. Cliquez sur **Ok**. Basculez la visibilité de <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult en utilisant **Espace** et vous devriez voir quelque chose comme ceci   *
+-   Dans l\'arborescence, il y a une nouvelle entrée appelée Functions. Elle contient le <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *24px;"> plan créé. Rendez-le invisible en utilisant **Espace**.
+-   Double-cliquez sur l\'objet <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width   *24px;"> Clip dans l\'arborescence.
+-   Changez \"Field\" en \"potential\" et appuyez sur **OK**.
+-   Activez la visibilité de l\'objet <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult en utilisant **Espace** et vous devriez voir quelque chose comme ceci    *
 
-<img alt="" src=images/Two_balls_result.png  style="width   *1200px;">
+<img alt="" src=images/Two_balls_result.png  style="width   *1000px;">
 
--   Maintenant, nous pouvons clairement voir la distribution des potentiels dans et autour des sphères.
+Maintenant, nous pouvons clairement voir la distribution des potentiels dans et autour des sphères.
+
+Remarquez que lorsque <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *24px;"> [Appliquer les modifications](FEM_PostApplyChanges/fr.md) est activé, vous auriez pu sélectionner directement le \"Field\" dans la boîte de dialogue du filtre et ne pas avoir à la rouvrir après la création du plan.
 
 ## Recherche de la capacité 
 
@@ -115,11 +120,11 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 
     StatElecSolve   * Capacitance matrix computation performed (i,j,C_ij)
-    StatElecSolve   *   1  1    5.07315E+21
-    StatElecSolve   *   1  2    1.69428E+21
-    StatElecSolve   *   2  2    5.07500E+21
+    StatElecSolve   *   1  1    5.07016E+00
+    StatElecSolve   *   1  2    1.69328E+00
+    StatElecSolve   *   2  2    5.07201E+00
 
--   Ici, le résultat souhaité est C~12~ = 1.69428. Cette valeur est proche du `1.691` donné dans les [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). Nous pouvons obtenir une valeur encore plus proche en faisant une [FEM Région de maillage](FEM_MeshRegion/fr.md) plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
+-   Ici, le résultat souhaité est C~12~ = 1.69328. Cette valeur est proche du `1.691` donné dans les [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). Nous pouvons obtenir une valeur encore plus proche en faisant une [FEM Région de maillage](FEM_MeshRegion/fr.md) plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
 
 
  {{FEM Tools navi}}

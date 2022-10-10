@@ -42,13 +42,17 @@ Downloading and unzip the appropriate [pre-compiled Windows binary](https   *//g
 
 #### Installation Linux/Unix systems 
 
-git clone [https   *//git.savannah.gnu.org/git/libredwg.git](https   *//git.savannah.gnu.org/git/libredwg.git)
-cd libredwg
-mkdir build
-cd build
-cmake ..
+
+{{Code|lang=shell|code=
+git clone --recurse-submodules https   *//git.savannah.gnu.org/git/libredwg.git
+cd libredwg
+mkdir build
+cd build
+cmake ..
 make
-make install (or use checkinstall, or simply locate & copy the dwg2dxf utility to your executables path, it will be then autodetected by FreeCAD)
+make install # or use checkinstall, or simply locate & copy the dwg2dxf 
+             # utility to your executables path, it will be then autodetected by FreeCAD
+}}
 
 You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
@@ -58,7 +62,7 @@ To prevent problems you must use LibreDWG package compiled for the installed ope
 
 The more experienced user first gets an overview of possible packages provided. **Note   *** openSUSE has several options to choose from when downloading LibreDWG. To view these options, visit [Survey of provided LibreDWG packages on openSUSE](https   *//software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=libredwg).
 
-For e.g. Intel or AMD 64-bit desktops, laptops, and servers the (x86\_64) release is the one to select. So **libredwg0** and **libredwg-tools** are of the right choice to install.
+For e.g. Intel or AMD 64-bit desktops, laptops, and servers the (x86_64) release is the one to select. So **libredwg0** and **libredwg-tools** are of the right choice to install.
 
 It is recommended to grab the binary packages directly. Then select the correct distribution for your installed openSUSE OS.
 
@@ -199,7 +203,7 @@ In development version as mentioned above you can switch from the proprietary OD
 
  
 
-[Category   *File\_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
+[Category   *File_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
 
 
 

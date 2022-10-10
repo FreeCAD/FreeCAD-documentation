@@ -14,8 +14,6 @@
 
 La commande <img alt="" src=images/Draft_Layer.svg  style="width   *24px;"> **Draft Calque** crée un Draft calque. Un calque est un groupe d\'un type particulier, doté d\'un certain nombre de [propriétés visuelles](#Vue.md). Ces propriétés, et toute modification qui leur est apportée, sont propagées aux objets placés à l\'intérieur du calque. Les calques eux-mêmes sont placés dans un autre groupe spécial    * le Draft LayerContainer.
 
-Cette commande a remplacé la commande Draft Groupe visuel dans la version 0.19 de FreeCAD.
-
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande    *
@@ -36,7 +34,7 @@ Pour un Draft LayerContainer, ces options supplémentaires sont disponibles dans
 
 -    **<img src="images/Draft_Layer.svg" width=16px> Fusionner les calques en double**   * fusionne toutes les calques ayant la même étiquette de base.
 
-   *   L\'étiquette de base d\'un calque est son étiquette **Label** débarrassée des chiffres et des espaces de fin. Tous les calques avec la même étiquette de base sont fusionnés en un seule calque avec **Label** défini à cette étiquette de base. Ceci ne fonctionne pas dans la version 0.19 de FreeCAD.
+   *   L\'étiquette de base d\'un calque est son étiquette **Label** débarrassée des chiffres et des espaces de fin. Tous les calques avec la même étiquette de base sont fusionnés en un seule calque avec **Label** défini à cette étiquette de base.
 
 -    **<img src="images/Draft_NewLayer.svg" width=16px> Ajouter un nouveau calque**   * ajoute un nouveau calque au document en cours.
 
@@ -47,6 +45,13 @@ Pour un Draft Calque, ces options supplémentaires sont disponibles dans le menu
 -    **<img src="images/button_right.svg" width=16px> [Activer ce calque](Draft_AutoGroup/fr.md)**   * active le calque sélectionné.
 
 -    **<img src="images/Draft_SelectGroup.svg" width=16px> [Sélectionner le contenu du calque](Draft_SelectGroup/fr.md)**   * active le calque sélectionné.
+
+## Comportement du glisser-déposer 
+
+
+{{Version/fr|1.0}}
+
+Si vous déposez un objet d\'un [Std Groupe](Std_Group/fr.md), ou un objet de type groupe tel qu\'un [Arch Partie de bâtiment](Arch_BuildingPart/fr.md), sur un calque dans la [Vue en arborescence](Tree_view/fr.md), il n\'est pas retiré du groupe, et vice versa. Pour retirer un objet d\'un calque, il doit être déposé sur un autre calque ou sur le nœud du document. Il n\'est pas nécessaire de maintenir la touche **Ctrl** enfoncée lorsque vous faites glisser ou déposez un objet sur un calque.
 
 ## Remarques
 

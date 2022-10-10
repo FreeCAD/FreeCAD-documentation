@@ -15,13 +15,7 @@
 In questo momento questo comando non funziona.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

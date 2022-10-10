@@ -4,7 +4,7 @@
    Level   * początkujący
    Time   * 10 minut + czas Solvera
    Author   *[http   *//freecadweb.org/wiki/index.php?title=User   *Drei Drei]
-   FCVersion   *0.16.6700 lub nowszy
+   FCVersion   *0.17 lub nowszy
 ---
 
 # FEM tutorial/pl
@@ -21,10 +21,9 @@ Niniejszy poradnik ma na celu zapoznanie czytelnika z podstawowym tokiem pracy �
 
 ## Wymagania
 
--   FreeCAD w wersji 0.16.6700 lub nowszej.
--   [Netgen](http   *//sourceforge.net/projects/netgen-mesher/) i / lub [GMSH](http   *//geuz.org/gmsh/) zainstalowany w systemie.
--   W przypadku uzycia GMSH, zainstaluj [makro GMSH](Macro_GMSH.md) z [Menadzera dodatków](Std_AddonMgr/pl.md), zaprojektowane przez [psicofil](https   *//github.com/psicofil/Macros_FreeCAD).
--   [Calculix](http   *//www.calculix.de/) który jest zainstalowany w systemie.
+-   FreeCAD w wersji 0.17 lub nowszej.
+-   [Netgen](http   *//sourceforge.net/projects/netgen-mesher/) i / lub [GMSH](http   *//geuz.org/gmsh/) zainstalowany w systemie *(dołączony do instalacji FreeCAD)*.
+-   [Calculix](http   *//www.calculix.de/) który jest zainstalowany w systemie *(dołączony do instalacji FreeCAD)*.
 -   Czytelnik powinien posiadać podstawową wiedzę na temat korzystania z Środowisk pracy [Część](Part_Workbench/pl.md) oraz [Projekt Części](PartDesign_Workbench/pl.md).
 
 ## Sposób postępowania 
@@ -33,36 +32,21 @@ Niniejszy poradnik ma na celu zapoznanie czytelnika z podstawowym tokiem pracy �
 
 W tym przykładzie jako obiekt badania używany jest sześcian, ale zamiast niego mogą być używane modele utworzone w Środowiskach pracy [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md).
 
-1.  Utwórz [nowy dokument](Std_New/pl.md) *(naciśnij na przycisk <img alt="Utwórz nowy pusty dokument" src=images/Std_New.svg  style="width   *24px;">)*,
+1.  Naciśnij przycisk <img alt="Utwórz nowy pusty dokument" src=images/Std_New.svg  style="width   *24px;"> aby utworzyć nowy dokument.
 2.  Aktywuj środowisko pracy <img alt="Projekt Części" src=images/Workbench_Part.svg  style="width   *24px;"> [Część](Part_Workbench/pl.md).
 3.  Stwórz sześcian.
 4.  Zmień jego **wymiary** na następujące   *
-    1.  wysokość   * 1.00mm
-    2.  długość   * 8.00mm
-    3.  szerokość   * 1.00mm
+    1.  długość   * {{Value|8.00mm}}
+    2.  szerokość   * {{Value|1.00mm}}
+    3.  wysokość   * {{Value|1.00mm}}
 
 Teraz mamy model, z którym możemy pracować.
 
 ### Tworzenie analizy 
 
-#### Netgen
-
-1.  Zaznacz model.
-2.  Kliknij na przycisk <img alt="" src=images/FEM_Analysis.svg  style="width   *16px;"> [Nowa analiza mechaniczna](FEM_Analysis/pl.md) z menu, aby utworzyć analizę dla wybranego obiektu.
-3.  W oknie dialogowym meshhing, kliknij **OK**
-
-Możesz także przeciągnąć i upuścić obiekt siatki do analizy mechanicznej, która nie występuje w [widoku drzewa](Tree_view/pl.md).
-
-#### GMSH
-
-Zaleca się korzystanie z makra użytkownika **psicofil** i jest ono stosowane w tym przykładzie.
-
-1.  Uruchom makro.
-2.  Wybierz obiekt, którego chcesz użyć, w tym przypadku jest to nasza kostka.
-3.  Zaznacz pole **Tworzenie analizy mechanicznej z oczek siatki**.
-4.  Kliknij na przycisk **OK**.
-
-Obecnie mamy do czynienia z siatką naszego obiektu i jesteśmy gotowi do dodania wiązań i sił.
+1.  Uruchom środowisko pracy <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [MES](FEM_Workbench/pl.md).
+2.  Wybierz z menu **Model → <img src="images/FEM_Analysis.svg" width=16px> Kontener analizy‏‎
+**
 
 ### Wiązania i siły 
 
@@ -71,35 +55,55 @@ Obecnie mamy do czynienia z siatką naszego obiektu i jesteśmy gotowi do dodani
 3.  Wybierz <img alt="Wiązanie stałej geometrii" src=images/FEM_ConstraintFixed.svg  style="width   *24px;"> [Wiązanie stałej geometrii](FEM_ConstraintFixed/pl.md).
 4.  Wybierz tylną stronę sześcianu *(strona na osi **YZ**)* i kliknij na przycisk **OK**.
 5.  Wybierz <img alt="Utwórz wiązanie siły" src=images/FEM_ConstraintForce.svg  style="width   *24px;"> [Utwórz wiązanie siły](FEM_ConstraintForce/pl.md).
-6.  Wybierz przednią ścianę sześcianu *(ściana równoległa do tylnej)* i ustaw wartość \"Obciążenie powierzchniowe\" na {{Value|9000000.00}}.
+6.  Kliknij w przycisk **Dodaj** wybierz przednią ścianę sześcianu *(ściana równoległa do tylnej)* i ustaw wartość \"Obciążenie \[N\]\" na {{Value|9000000.00}}.
 7.  Ustaw wartość **Kierunek** na **-Z** poprzez wybranie jednej z krawędzi równoległych do tego kierunku.
 8.  Kliknij na przycisk **OK**.
 
 Ustaliliśmy teraz ograniczenia i siły dla naszych badań statycznych.
 
-### Przygotowania końcowe 
+### Materiał
 
-1.  Wybierz <img alt="" src=images/FEM_MaterialSolid.svg  style="width   *24px;"> [Materiał bryły\...](FEM_MaterialSolid/pl.md) i wybierz Calculix jako materiał.
+1.  Wybierz <img alt="" src=images/FEM_MaterialSolid.svg  style="width   *24px;"> [Materiał bryły\...](FEM_MaterialSolid/pl.md) i wybierz Calculix-Steel jako materiał.
 2.  Kliknij na przycisk **OK**.
+
+### Tworzenie siatki 
+
+Zaleca się wykonanie siatki jako ostatni etap przygotowań do analizy ze względu na skojarzenie z geometrią w programie FreeCAD. W zależności od instalacji programu FreeCAD mogą występować generatory siatek Netgen lub GMSH, można użyć dowolnego z nich.
+
+#### Netgen
+
+1.  Zaznacz model.
+2.  Kliknij na przycisk <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width   *24px;"> [Siatka dla MES z kształtu z użyciem Netgen](FEM_MeshNetgenFromShape/pl.md) aby utworzyć siatkę Netgen modelu dla analizy MES.
+3.  W oknie dialogowym **Tworzenie siatki**, kliknij przyciski **Zastosuj** oraz **OK**
+
+Możesz także przeciągnąć i upuścić obiekt siatki do analizy mechanicznej, która nie występuje w [widoku drzewa](Tree_view/pl.md).
+
+#### GMSH
+
+1.  Zaznacz model
+2.  Kliknij na przycisk <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> [Siatka dla MES z kształtu z użyciem Gmsh](FEM_MeshGmshFromShape/pl.md)   * aby utworzyć siatkę Gmsh modelu dla analizy MES.
+3.  W oknie dialogowym *\'Tworzenie siatki* kliknij przycisk **Apply** oraz **OK**.
+
+Obecnie mamy do czynienia z siatką naszego obiektu i jesteśmy gotowi do dodania wiązań i sił.
 
 ### Uruchomienie silnika Rozwiązującego 
 
 #### Procedura typowa 
 
-1.  Wybierz obiekt solvera <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> zawarty w **Analizie mechanicznej**.
-2.  Wybierz z menu <img alt="" src=images/FEM_SolverControl.svg  style="width   *24px;"> [Rozpoczęcie obliczeń](FEM_SolverControl/pl.md)
-3.  Wybierz **Zapisz plik wejściowy Calculix**.
+1.  Wybierz obiekt solvera <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> zawarty w kontenerze **Analiza**.
+2.  Wybierz z menu <img alt="" src=images/FEM_SolverControl.svg  style="width   *24px;"> [Kontrola pracy solvera](FEM_SolverControl/pl.md)
+3.  Wybierz **Zapisz plik wejściowy .inp**.
 4.  Wybierz **Uruchom Calculix**.
-5.  Kliknij w przycisk **Zamknij**.
+5.  Kliknij w przycisk **OK**.
 
 #### Procedura skrócona 
 
-1.  Wybierz obiekt solvera <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> zawarty w **Analizie mechanicznej**.
+1.  Wybierz obiekt solvera <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> zawarty w kontenerze **Analiza**.
 2.  Kliknij w przycisk <img alt="" src=images/FEM_SolverRun.svg  style="width   *24px;"> [Uruchom analizę](FEM_SolverRun/pl.md).
 
 ### Analizowanie wyników 
 
-1.  W widoku drzewa wybierz obiekt **Wyniki**.
+1.  W widoku drzewa wybierz obiekt **CCX_Wyniki**.
 2.  Wybierz <img alt="Pokaż wyniki" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Pokaż wyniki](FEM_ResultShow/pl.md).
 3.  Wybierz jeden z dostępnych typów wyników, do przeglądania.
 4.  Suwak na dole może być użyty do zmiany wyglądu siatki. Pozwala to na wizualizację deformacji doświadczanej przez obiekt, pamiętając, że jest to wynik przybliżony.

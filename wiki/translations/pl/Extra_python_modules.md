@@ -38,7 +38,7 @@ Once it is installed, you can check that everything is working by typing in Free
 import PySide
 ```
 
-To access the FreeCAD interface, type    *
+Aby uzyskać dostęp do interfejsu programu FreeCAD, należy wpisać   *
 
 
 ```python
@@ -46,21 +46,21 @@ from PySide import QtCore,QtGui
 FreeCADWindow = FreeCADGui.getMainWindow()
 ```
 
-Now you can start to explore the interface with the dir() command. You can add new elements, like a custom widget, with commands like    *
+Teraz możesz zacząć poznawać interfejs za pomocą polecenia dir(). Możesz dodać nowe elementy, takie jak niestandardowy widżet, za pomocą poleceń takich jak   *
 
 
 ```python
 FreeCADWindow.addDockWidget(QtCore.Qt.RghtDockWidgetArea,my_custom_widget)
 ```
 
-Working with Unicode    *
+Praca z Unicode   *
 
 
 ```python
 text = text.encode('utf-8')
 ```
 
-Working with QFileDialog and OpenFileName    *
+Praca z QFileDialog i OpenFileName   *
 
 
 ```python
@@ -69,7 +69,7 @@ path = FreeCAD.ConfigGet("AppHomePath")
 OpenName, Filter = PySide.QtGui.QFileDialog.getOpenFileName(None, "Read a txt file", path, "*.txt")
 ```
 
-Working with QFileDialog and SaveFileName    *
+Praca z QFileDialog i SaveFileName   *
 
 
 ```python
@@ -118,7 +118,7 @@ except Exception   *
     FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the widget to the main window
 ```
 
-Working with Unicode    *
+Praca z Unicode   *
 
 
 ```python
@@ -128,7 +128,7 @@ except Exception   *
     text = text.encode('utf-8')                         # PySide
 ```
 
-Working with QFileDialog and OpenFileName    *
+Praca z QFileDialog i OpenFileName   *
 
 
 ```python
@@ -139,7 +139,7 @@ except Exception   *
     OpenName, Filter = PySide.QtGui.QFileDialog.getOpenFileName(None, "Lire un fichier FCInfo ou txt", path, "*.FCInfo *.txt")#PySide
 ```
 
-Working with QFileDialog and SaveFileName    *
+Praca z QFileDialog i SaveFileName   *
 
 
 ```python
@@ -150,7 +150,7 @@ except Exception   *
     SaveName, Filter = PySide.QtGui.QFileDialog.getSaveFileName(None, "Sauver un fichier FCInfo", path, "*.FCInfo")# PySide
 ```
 
-The MessageBox   *
+Okno dialogowe   *
 
 
 ```python
@@ -178,7 +178,7 @@ zastąp   *
 self.doubleSpinBox.setValue(10.0)  # PySide
 ```
 
-Working with setToolTip
+Praca z setToolTip
 
 
 ```python
@@ -215,7 +215,7 @@ Some pyQt4 tutorials (including how to build interfaces with Qt Designer to use 
 
 Pivy is a needed by several modules to access the 3D view of FreeCAD. On windows, Pivy is already bundled inside the FreeCAD installer, and on Linux it is usually automatically installed when you install FreeCAD from an official repository. On MacOSX, unfortunately, you will need to compile pivy yourself.
 
-### Installation
+### Instalacja 
 
 #### Prerequisites
 
@@ -395,35 +395,35 @@ set INCLUDE=%INCLUDE%;path_to_qt4\include\Qt
 
 If you are using the Express Edition of Visual Studio you may get a python keyerror exception. In this case you have to modify a few things in msvccompiler.py located in your python installation.
 
-Go to line 122 and replace the line
+Przejdź do linii 122 i zastąp linię
 
 
 ```python
 vsbase = r"Software\Microsoft\VisualStudio\%0.1f" % version
 ```
 
-with
+przez
 
 
 ```python
 vsbase = r"Software\Microsoft\VCExpress\%0.1f" % version
 ```
 
-Then retry again. If you get a second error like
+Następnie spróbuj ponownie. Jeśli pojawi się drugi błąd jak np.
 
 
 ```python
 error   * Python was built with Visual Studio 2003;...
 ```
 
-you must also replace line 128
+musisz również zastąpić linię 128
 
 
 ```python
 self.set_macro("FrameworkSDKDir", net, "sdkinstallrootv1.1")
 ```
 
-with
+przez
 
 
 ```python
@@ -437,7 +437,7 @@ Retry once again. If you get again an error like
 error   * Python was built with Visual Studio version 8.0, and extensions need to be built with the same version of the compiler, but it isn't installed.
 ```
 
-then you should check the environment variables DISTUTILS\_USE\_SDK and MSSDK with
+then you should check the environment variables DISTUTILS_USE_SDK and MSSDK with
 
 
 ```python
@@ -494,9 +494,9 @@ You can also look at the Draft.py file in the FreeCAD Mod/Draft folder, since it
 
 pyCollada is a python library that allow programs to read and write [Collada (\*.DAE)](http   *//en.wikipedia.org/wiki/COLLADA) files. When pyCollada is installed on your system, FreeCAD will be able to handle importing and exporting in the Collada file format.
 
-### Installation 
+### Installation
 
-Pycollada is usually not yet available in linux distributions repositories, but since it is made only of python files, it doesn\'t require compilation, and is easy to install. You have 2 ways, or directly from the official pycollada git repository, or with the easy\_install tool.
+Pycollada is usually not yet available in linux distributions repositories, but since it is made only of python files, it doesn\'t require compilation, and is easy to install. You have 2 ways, or directly from the official pycollada git repository, or with the easy_install tool.
 
 #### Linux 
 
@@ -518,9 +518,9 @@ cd pycollada
 sudo python setup.py install
 ```
 
-##### With easy\_install 
+##### With easy_install 
 
-Assuming you have a complete python installation already, the easy\_install utility should be present already   *
+Assuming you have a complete python installation already, the easy_install utility should be present already   *
 
 
 ```python

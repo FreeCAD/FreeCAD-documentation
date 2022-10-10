@@ -7,7 +7,7 @@
 |Version=00.07b
 |Date=2020-11-09
 |FCVersion=Toute
-|Download=[https   *//www.freecadweb.org/wiki/images/e/e2/Macro_FCConvertLines.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/e/e2/Macro_FCConvertLines.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -19,7 +19,14 @@ Cette macro convertit un objet ligne, fil en une ligne de Tirets ou Tiret-Points
 
 ## Utilisation
 
-Copiez la macro dans votre répertoire de macros et lancez la macro FCConvertLines Gui ![FCConvertLines Gui](images/Macro_FCConvertLines_01.png )  Première section    *
+Copiez la macro dans votre répertoire de macros et lancez l\'interface graphique de la macro FCConvertLines.
+
+![FCConvertLines Gui](images/Macro_FCConvertLines_01.png )
+
+
+
+
+Première section    *
 
 Cut line (Cochée par défaut) ![FCConvertLines](images/Macro_FCConvertLines_02.png )
 
@@ -137,7 +144,7 @@ Neuvième section    *
 
 Les Boutons ![FCConvertLines](images/Macro_FCConvertLines_10.png ) 
 
--    **Save type**   * une configuration de ligne peut être sauvée dans un fichier (un fichier par configuration de ligne). Un entête est automatiquement prédéterminé suivant l\'option de type de ligne choisi (exemple    * le type Dash est sauvé, dans la boîte de dialogue de sauvegarde du fichier s\'affiche \"Dash\_.FCConvertL\" vous pouvez par exemple modifier en \"Dash\_my\_config\_10.FCConvertL\" ou ce que vous voulez\... cette méthode permet de lister dans l\'ordre les configurations de même type)
+-    **Save type**   * une configuration de ligne peut être sauvée dans un fichier (un fichier par configuration de ligne). Un entête est automatiquement prédéterminé suivant l\'option de type de ligne choisi (exemple    * le type Dash est sauvé, dans la boîte de dialogue de sauvegarde du fichier s\'affiche \"Dash\_.FCConvertL\" vous pouvez par exemple modifier en \"Dash_my_config_10.FCConvertL\" ou ce que vous voulez\... cette méthode permet de lister dans l\'ordre les configurations de même type)
 
 -    **Load type**   * charge une configuration et règle tous les paramètres sauvés pendant la sauvegarde
 
@@ -154,25 +161,23 @@ Les Boutons ![FCConvertLines](images/Macro_FCConvertLines_10.png )
 
 
 
-## Les fichiers images à télécharger 
+## Les fichiers à copier dans votre répertoire avec la macro (10 fichiers images) 
 
-Les fichiers sont à copier dans votre répertoire de macros (10 fichiers images)
-
-**L\'icône pour votre barre d\'outils** ![Macro\_FCConvertLines](images/Macro_FCConvertLines.png )  **Title** ![ConvertLines\_Title](images/Macro_FCConvertLines_Title.png )  **Line Dash**    * ![ConvertLines\_Dash](images/Macro_FCConvertLines_Dash.png )  **Line DashDot**    * ![ConvertLines Dash dot](images/Macro_FCConvertLines_DashDot.png_‎ )  **Line DashDotDot**    * ![ConvertLines Dash dot dot](images/Macro_FCConvertLines_DashDotDot.png )  **Line Zigzag**    * ![ConvertLines\_Zigzag](images/Macro_FCConvertLines_Zigzag.png )  **Line Hand**    * ![ConvertLines\_Hand](images/Macro_FCConvertLines_Hand.png )  **View**    *  ![ConvrtLines\_View-front](images/Macro_FCConvrtLines_View-front.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-right.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-top.png ) 
+**L\'icône de la barre d\'outils** ![Macro_FCConvertLines](images/Macro_FCConvertLines.png )  **Title** ![ConvertLines_Title](images/Macro_FCConvertLines_Title.png )  **Line Dash**    * ![ConvertLines_Dash](images/Macro_FCConvertLines_Dash.png )  **Line DashDot**    * ![ConvertLines Dash dot](images/Macro_FCConvertLines_DashDot.png_‎ )  **Line DashDotDot**    * ![ConvertLines Dash dot dot](images/Macro_FCConvertLines_DashDotDot.png )  **Line Zigzag**    * ![ConvertLines_Zigzag](images/Macro_FCConvertLines_Zigzag.png )  **Line Hand**    * ![ConvertLines_Hand](images/Macro_FCConvertLines_Hand.png )  **View**    *  ![ConvrtLines_View-front](images/Macro_FCConvrtLines_View-front.png ) ![ConvrtLines_View-right](images/Macro_FCConvrtLines_View-right.png ) ![ConvrtLines_View-right](images/Macro_FCConvrtLines_View-top.png ) 
 
 ## Script
 
-Copiez la macro **Macro\_FCConvertLines.FCMacro** dans votre répertoire de macros
+Copiez la macro **Macro_FCConvertLines.FCMacro** dans votre répertoire de macros.
 
-Le script sur Gist [Macro\_FCConvertLines.FCMacro](https   *//gist.github.com/mario52a/3d719574089a5f9044ec)
+Le script sur Gist [Macro_FCConvertLines.FCMacro](https   *//gist.github.com/mario52a/3d719574089a5f9044ec)
 
-ToolBar icon ![](images/Macro_FCConvertLines.png )
+Icône de la barre d\'outils ![](images/Macro_FCConvertLines.png )
 
-**Macro\_FCConvertLines.FCMacro**
+**Macro_FCConvertLines.FCMacro**
 
 ## Exemples
 
-Exemple dot, dash dot, dash dot, dash dot dot [center\|500px ](File   *Macro_FCConvertLines_11b.png.md)  Exemple hand, zigzag [center\|500px ](File   *Macro_FCConvertLines_11.png.md)  Exemple hand [center\|500px ](File   *Macro_FCConvertLines_012.png.md)  Exemple hand (manuel) peut créer un belle sinusoïde ou une ligne totalement anarchique [center\|500px ](File   *Macro_FCConvertLines_013.png.md) 
+Exemple point, tiret point, tiret point, tiret point, tiret point point <img alt="" src=images/Macro_FCConvertLines_11b.png  style="width   *500px;">  Exemple A la main, Zig-Zag <img alt="" src=images/Macro_FCConvertLines_11.png  style="width   *500px;">  Exemple A la main <img alt="" src=images/Macro_FCConvertLines_012.png  style="width   *500px;"> Toutes les lignes ont créé les spécifications de configuration définies dans cette option lignes  Exemple A la main peut créer un belle sinusoïde ou une ligne totalement anarchique <img alt="" src=images/Macro_FCConvertLines_013.png  style="width   *500px;"> 
 
 Exemple de conversion d\'un objet ShapeString en objet Sketch (la conversion de courbes n\'est pas (encore) possible) d\'un Shape en Sketch
 
@@ -183,7 +188,7 @@ Exemple de conversion d\'un objet ShapeString en objet Sketch (la conversion de 
 
 ## Version
 
-ver 00.07b 09/11/2020 correct bug \# (ajoute recompute() pour corriger)\# Cannot compute Inventor representation for the shape of Shape. Et Line avec Label
+ver 00.07b 09/11/2020 correct bug \# (ajoute recompute() pour corriger)# Cannot compute Inventor representation for the shape of Shape. Et Line avec Label
 
 ver 00.07 13/05/2017 correction du bug après un changement de dimension cause création \"Alternate \....\" la dimension des lignes ne change pas et reste sur les dimensions calculées pour une création alternative et ne correspond plus aux dimensions voulues.
 

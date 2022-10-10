@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher ConstrainCoincident
    Name/fr   *Sketcher Contrainte de coïncidence
-   MenuLocation   *Esquisse → Contraintes d'esquisse → Contrainte coïncidente
+   MenuLocation   *Sketch → Contraintes d'esquisse → Contrainte coïncidente
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut   ***C**
    SeeAlso   *[Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md), [Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
@@ -30,7 +30,7 @@ Comme indiqué ci-dessus, cet outil prend deux arguments - les deux, sont des po
 6.  Une fois que vous avez mis en évidence deux points, vous pouvez appeler la commande à l\'aide de plusieurs méthodes   *
     -   En appuyant sur le bouton de contrainte **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md)** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **C**.
-    -   Utilisation de l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Contrainte coïncidente** dans le menu supérieur.
+    -   Utilisation de l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Contrainte coïncidente** dans le menu supérieur.
 
 
 **Résultat    ***

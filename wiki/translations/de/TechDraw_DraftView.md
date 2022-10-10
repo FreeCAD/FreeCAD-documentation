@@ -11,7 +11,7 @@
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [DraftAnsicht](TechDraw_DraftView/de.md) fügt eine Ansicht eines ausgewählten [Part](Part_Workbench/de.md)-basierten Objekts oder eines Gruppenobjekts in ein Zeichnungsblatt ein. Anders als beim Standardwerkzeug <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [Ansicht](TechDraw_View/de.md), werden die mit diesem Werkzeug erstellten Ansichten mit dem Arbeitsbereich <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft](Draft_Workbench/de.md) bearbeitet und sind besonders für die Darstellung von 2D-Objekten entwickelt. Siehe Anmerkungen unter Begrenzungen.
+Das Werkzeug <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [DraftAnsicht](TechDraw_DraftView/de.md) fügt eine Ansicht eines ausgewählten [Part](Part_Workbench/de.md)-basierten Objekts oder eines Gruppenobjekts in ein Zeichnungsblatt ein. Anders als beim Standardwerkzeug <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [Ansicht](TechDraw_View/de.md), werden die mit diesem Werkzeug erstellten Ansichten mit dem Arbeitsbereich <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft](Draft_Workbench/de.md) bearbeitet und sind besonders für die Darstellung von 2D-Objekten entwickelt. Siehe [Hinweise](#Hinweise.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Draft-Elemente wie Kreise und Anordnungen importiert in ein TechDraw-Zeichnungsblatt*
@@ -23,10 +23,6 @@ Das Werkzeug <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px
 3.  Die Schaltfläche **<img src="images/TechDraw_DraftView.svg" width=16px> [Objekt des Draft-Arbeitsbereiches einfügen](TechDraw_DraftView/de.md)** drücken.
 4.  Eine Ansicht des Draft-Objekts erscheint auf der Seite.
 
-### Begrenzungen
-
-Die Draft-Ansicht wird innerhalb des Arbeitsbereiches [Draft](Draft_Workbench/de.md) gerendert, daher hat TechDraw nur eingeschränkte Kontrolle über ihr Erscheinungsbild. Man muss möglicherweise Änderungen innerhalb von Draft vornehmen, um die gewünschte Darstellung zu erhalten.
-
 ## Optionen
 
 -   Das Erstellen einer Draft-Ansicht (DraftView-Objekt) von einer Ebene verwendet rekursiv alle Objekte, die auf dieser Ebene gefunden wurden. Die Ansicht wird automatisch aktualisiert, wenn sich der Inhalt der Ebene ändert.
@@ -37,21 +33,32 @@ Die Draft-Ansicht wird innerhalb des Arbeitsbereiches [Draft](Draft_Workbench/de
 
 ## Eigenschaften
 
--    {{PropertyData/de|Source}}   * Das Draft-Objekt, das angezeigt werden soll
+Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
--    {{PropertyData/de|Line Width}}   * Die Breite der Linien, unabhängig vom Maßstab
+### Daten
 
--    {{PropertyData/de|Font Size}}   * Die Schrifthöhe aller Texte in dieser Ansicht (Texte und Maße).
 
--    {{PropertyData/de|Direction}}   * Die zu verwendende Projektionsrichtung
+{{TitleProperty|Draft view}}
 
--    {{PropertyData/de|Color}}   * Die Linienfarbe
+-    **Source|Link**   * Das Draft-Objekt, das angezeigt werden soll.
 
--    {{PropertyData/de|Linienstil}}   * Eine Linienart, die für diese Ansicht zu verwenden ist. Kann Solid, Dashed, Dashdot, Dot (für Voll-, Strich-, Strich-Punkt-, Punktlinie) oder ein SVG-Linienmuster wie 0.20,0.20 sein.
+-    **Line Width|Float**   * Die Breite der Linien, unabhängig vom Maßstab.
 
--    {{PropertyData/de|Line Spacing}}   * Der zu verwendende Zeilenabstand bei mehrzeiligen Texten.
+-    **Font Size|Float**   * Die Schrifthöhe aller Texte in dieser Ansicht (Texte und Maße).
 
-Hinweis   * Die Draft-Ansicht erbt alle anwendbaren grundlegenden Ansicht-Eigenschaften.
+-    **Direction|Vector**   * Die zu verwendende Projektionsrichtung.
+
+-    **Color|Color**   * Die Linienfarbe.
+
+-    **Line Style|String**   * Eine Linienart, die für diese Ansicht zu verwenden ist. Kann {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} (für Voll-, Strich-, Strich-Punkt-, Punktlinie) oder ein SVG-Linienmuster wie {{Value|0.20,0.20}} sein..
+
+-    **Line Spacing|Float**   * Der zu verwendende Zeilenabstand bei mehrzeiligen Texten.
+
+-    **Override Style|Bool**   * Wenn `True`, überschreiben Linienfarbe, Linienbreite und Linienart dieser Ansicht jene des gerenderten Objekts.
+
+## Hinweise
+
+Die Draft-Ansicht wird innerhalb des Arbeitsbereiches [Draft](Draft_Workbench/de.md) gerendert, daher hat TechDraw nur eingeschränkte Kontrolle über ihr Erscheinungsbild. Man muss möglicherweise Änderungen innerhalb von Draft vornehmen, um die gewünschte Darstellung zu erhalten.
 
 ## Skripten
 

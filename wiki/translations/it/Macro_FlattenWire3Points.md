@@ -17,9 +17,9 @@ Questa macro appiattisce i contorni non planari su un piano definito da 3 punti.
 
 ## Script
 
-ToolBar icon ![](images/Macro_FlattenWire3Points.png )
+Icona barra strumenti ![](images/Macro_FlattenWire3Points.png )
 
-**Macro\_FlattenWire3Points.FCMacro**
+**Macro_FlattenWire3Points.FCMacro**
 
 
 {{MacroCode|code=

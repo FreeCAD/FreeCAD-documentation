@@ -1,25 +1,25 @@
 # Body/pl
-## Introduction
+## Wprowadzenie
 
-In FreeCAD the word \"[Body](Body.md)\" is normally used to refer to a [PartDesign Body](PartDesign_Body.md) object (`PartDesign   *   *Body` class) that is defined by the [PartDesign Workbench](PartDesign_Workbench.md). This is a container object that can hold [2D sketches](Sketch.md) and [3D geometrical features](PartDesign_Feature.md) to build a solid shape.
+W programie FreeCAD słowo **Zawartość** jest zwykle używane w odniesieniu do obiektu [zawartości](PartDesign_Body/pl.md) środowiska Projekt Części *(klasa `PartDesign   *   *Body`)*, który jest zdefiniowany przez środowisko [Projekt Części](PartDesign_Workbench/pl.md). Jest to obiekt kontenerowy, który może przechowywać [szkice 2D](Sketch/pl.md) i [przestrzenne cechy geometryczne](PartDesign_Feature/pl.md) w celu zbudowania bryły.
 
-See [PartDesign Body](PartDesign_Body.md) for more information about this type of object.
+Zobacz stronę [Zawartość](PartDesign_Body/pl.md) środowiska Projekt Części, aby uzyskać więcej informacji na temat tego typu obiektu.
 
-## Usage
+## Użycie
 
-1.  Switch to the [PartDesign Workbench](PartDesign_Workbench.md).
-2.  Press **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Body](PartDesign_Body.md)**.
-3.  Press **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)** to create a new [sketch](Sketch.md).
-4.  Create a closed wire, and then use **[<img src=images/PartDesign_Pad.svg style="width   *16px"> [PartDesign Pad](PartDesign_Pad.md)** to extrude the sketch, and create an initial solid.
-5.  Add more sketches and pads, and use other tools of the [PartDesign Workbench](PartDesign_Workbench.md) to modify and transform the initial solid.
+1.  Przełącz się na środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md)
+2.  Naciśnij przycisk **[<img src=images/PartDesign_Body.svg style="width   *16px"> [Stwórz zawartość](PartDesign_Body/pl.md)**.
+3.  Naciśnij przycisk **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [Nowy szkic](PartDesign_NewSketch/pl.md)**, aby utworzyć nowy [szkic](Sketch/pl.md).
+4.  Utwórz zamkniętą linię, a następnie użyj narzędzia **[<img src=images/PartDesign_Pad.svg style="width   *16px"> [Wyciągnij](PartDesign_Pad/pl.md)**, aby wyciągnąć szkic i utworzyć bryłę wyjściową.
+5.  Dodaj więcej szkiców i wyciągnięć oraz użyj innych narzędzi środowiska [Projekt Części](PartDesign_Workbench/pl.md), aby zmodyfikować i przekształcić początkową bryłę.
 
-Alternatively, instead of using [sketches](Sketch.md), you can add primitive [PartDesign Features](PartDesign_Feature.md), for example, a **[<img src=images/PartDesign_AdditiveBox.svg style="width   *16px"> [PartDesign Additive box](PartDesign_AdditiveBox.md)**. Any number of additive and subtractive features can be used to create a final volume.
+Alternatywnie, zamiast używać [szkicu](Sketch/pl.md), możesz dodać [cechę](PartDesign_Feature/pl.md) jako element pierwotny, na przykład **[<img src=images/PartDesign_AdditiveBox.svg style="width   *16px"> [Addytywny prostopadłościan](PartDesign_AdditiveBox/pl.md)**. Do stworzenia ostatecznej objętości można użyć dowolnej liczby cech addytywnych i subtraktywnych.
 
-## Notes
+## Uwagi
 
-A Body is required when using the [PartDesign Workbench](PartDesign_Workbench.md) in a [feature editing](feature_editing.md) methodology.
+Zawartość jest niezbędna podczas korzystania ze środowiska pracy [Projekt Części](PartDesign_Workbench/pl.md) w metodologii [edycji cech](Feature_editing/pl.md).
 
-A Body is not required when using the [Part Workbench](Part_Workbench.md), as this workbench uses a [constructive solid geometry](constructive_solid_geometry.md) workflow, which is based on [primitive shapes](Part_Primitives.md) and boolean operations.
+Zawartość nie jest wymagana podczas używania środowiska pracy [Część](Part_Workbench/pl.md), ponieważ to środowisko używa przepływu pracy [konstrukcyjnej geometrii brył](Constructive_solid_geometry/pl.md), opartego na [kształtach pierwotnych](Part_Primitives/pl.md) i operacjach logicznych.
 
 
 {{PartDesign Tools navi

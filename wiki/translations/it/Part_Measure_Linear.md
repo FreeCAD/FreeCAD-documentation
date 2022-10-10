@@ -11,6 +11,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -20,6 +22,8 @@ Questo strumento misura la distanza tra due elementi di topologia selezionati (v
 
 
 </div>
+
+The appearance of the measurements can be changed in the [preferences](PartDesign_Preferences#Measure.md).
 
 <img alt="" src=images/MeasureLinear3D1.png  style="width   *400px;"> <img alt="" src=images/MeasureLinearDelta1.PNG  style="width   *400px;">
 
@@ -36,14 +40,11 @@ Questo strumento misura la distanza tra due elementi di topologia selezionati (v
 
 </div>
 
+## Notes
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   You cannot use the [Draft](Draft_Workbench.md) snap tools with this command.
+-   To add dimensions to drawings use the dimension tools from the [TechDraw Workbench](TechDraw_Workbench.md).
+-   For more comprehensive measuring tools, install the <img alt="" src=images/Manipulator_workbench_icon.svg  style="width   *24px;"> [Manipulator Workbench](Manipulator_Workbench.md) (an [external workbench](External_workbenches.md)).
 
 
 

@@ -38,13 +38,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

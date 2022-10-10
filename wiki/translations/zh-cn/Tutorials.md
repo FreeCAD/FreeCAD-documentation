@@ -13,13 +13,13 @@
 
 请注意每个教程中所用的FreeCAD版本，因为有些教程采用的是老版FreeCAD。尽管常规的建模方式在新版FreeCAD中依然可行，但是某些工具却可能已经发生了变化。
 
-See also [video tutorials](Video_tutorials.md).
+See also [video tutorials](Video_tutorials.md) and [books](Books.md).
 
 ## 建筑物与BIM
 
 <File   *Arch> tutorial 00.jpg\|link=[Arch tutorial](Arch_tutorial.md)\|[建筑工作台教程](Arch_tutorial.md) (v0.14)
-本文是一篇针对建筑工作台的基本介绍文章。文中通过DXF格式文件导入图纸，最后构建出对应的3D模型，整个流程大致展示了该工作台的一般工作流程。 <File   *Exercise> arch 01.jpg\|link=[Manual   *BIM\_modeling](Manual_BIM_modeling.md)\|[BIM 建模](Manual_BIM_modeling.md)
-本文讨论了如何建立一个小屋的模型、利用TechDraw工作台生成一份蓝图（blueprint），并导出为IFC格式文件。 <File   *11_T01_window_all_symbol_top.png%7Clink=>[Tutorial\_for\_open\_windows](Tutorial_for_open_windows.md)\|[打开窗口与门](Tutorial_for_open_windows.md) (v0.18)
+本文是一篇针对建筑工作台的基本介绍文章。文中通过DXF格式文件导入图纸，最后构建出对应的3D模型，整个流程大致展示了该工作台的一般工作流程。 <File   *Exercise> arch 01.jpg\|link=[Manual   *BIM_modeling](Manual_BIM_modeling.md)\|[BIM 建模](Manual_BIM_modeling.md)
+本文讨论了如何建立一个小屋的模型、利用TechDraw工作台生成一份蓝图（blueprint），并导出为IFC格式文件。 <File   *11_T01_window_all_symbol_top.png%7Clink=>[Tutorial_for_open_windows](Tutorial_for_open_windows.md)\|[打开窗口与门](Tutorial_for_open_windows.md) (v0.18)
 本文展示了如何利用elevation与plan符号显示打开的窗口与门，并利用TechDraw工作台生成一个基本的平面图。 <File   *17_T02_sketch_2_attached_correctly.png%7Clink=>[Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md)\|[设计自定义窗口](Tutorial_custom_placing_of_windows_and_doors.md) (v0.18)
 本文展示了如何利用草图工作台来绘制自定义门窗，并将其调整至墙体中合适的位置。 <File   *Arch_panel_tutorial_01.jpg%7Clink=>[Arch panel tutorial](Arch_panel_tutorial.md)\|[建筑面板教程](Arch_panel_tutorial.md) (v0.15)
 文中利用草图工作台创建一个微型建筑的屋面板（roof panel）。这里会运用窗口工具与面板工具。 <File   *Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)\|[维基房屋（WikiHouse）建模](Wikihouse_porting_tutorial.md)
@@ -60,7 +60,7 @@ FreeCAD提供了两种主要工作流程来实现零件造型（modeling part）
 本文利用功能编辑方式来建立一个简单的零件，主要流程为：创建草图，再利用填充、外部引用、挖槽与镜像等工具来生成零件实体。 TBHS-model.png\|link=[Toothbrush Head Stand](Toothbrush_Head_Stand.md)\|[建立电动牙刷头架模型](Toothbrush_Head_Stand.md) (v0.16)
 文中使用了多种功能：草图工具、距离约束与重合约束（coincident constraint）工具、填充工具、外部引用工具、倒圆角工具（fillet）, 倒角工具（chamfer）、线性复制（linear pattern）工具与拔模（draft）。 Exercise lego 01.jpg\|link=[Manual   *Modeling for product design](Manual_Modeling_for_product_design.md)\|[针对产品设计进行建模](Manual_Modeling_for_product_design.md) (v0.16)
 建立对乐高方块模型，要用到的工具有：草图、垂直距离与水平距离的约束、填充、挖槽、外部引用、线性复制与装配工作台。 Exercise table complete.jpg\|link=[Manual   *Traditional modeling, the CSG way/zh-cn](Manual   *Traditional_modeling,_the_CSG_way/zh-cn.md)\|[传统建模，CSG方式](Manual   *Traditional_modeling,_the_CSG_way/zh-cn.md)
-利用像立方体与圆柱体这样简单的实体，并辅以布尔运算（模拟"焊接"与"切割"）来创建一个桌子。 TutorialDraftShapeString\_Complete.jpg\|link=[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)\|[底图ShapeString工具教程](Draft_ShapeString_tutorial.md) (v0.16)
+利用像立方体与圆柱体这样简单的实体，并辅以布尔运算（模拟"焊接"与"切割"）来创建一个桌子。 TutorialDraftShapeString_Complete.jpg\|link=[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)\|[底图ShapeString工具教程](Draft_ShapeString_tutorial.md) (v0.16)
 在实体上创建雕刻文字：首先挤压底图shapestring对象使之成为实体，再利用布尔运算从另一实体中将其切割，也就是对此文本进行雕刻。 Tutorial WhiffleBall.jpg\|link=[Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)\|[创建一个威浮球（wiffle ball）](Whiffle_Ball_tutorial.md) (v0.16)
 对立方体与圆柱体等实体图元进行布尔运算（如并集与切割）来创建一个空心球。 Tutorial-normand06.jpg\|link=[Basic modeling tutorial](Basic_modeling_tutorial.md)\|[建模基本教程](Basic_modeling_tutorial.md)
 创建利用两种方式一个角铁：第一种是对实体图元执行布尔运算(CSG);第二种是通过根据平面轮廓图纸进行挤压来实现。
@@ -72,15 +72,15 @@ FreeCAD提供了两种主要工作流程来实现零件造型（modeling part）
 An introduction to modeling solids with Draft Workbench by creating a 2d profile in draft.
 
 <File   *GGTuto1> Vue.PNG\|link=[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)\|[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md) (v0.17)
-An introduction to the PartDesign workflow   * tracing a sketch, using pad, pocket, and moving the object. PD WB Tutorial018.png\|link=[Basic\_Part\_Design\_Tutorial](Basic_Part_Design_Tutorial.md)\|[Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md) (v0.17)
+An introduction to the PartDesign workflow   * tracing a sketch, using pad, pocket, and moving the object. PD WB Tutorial018.png\|link=[Basic_Part_Design_Tutorial](Basic_Part_Design_Tutorial.md)\|[Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md) (v0.17)
 Model a simple part using a feature editing methodology   * creating a sketch, using pad, external references, pocket, and mirror. TBHS-model.png\|link=[Toothbrush Head Stand](Toothbrush_Head_Stand.md)\|[Model an electric toothbrush head stand](Toothbrush_Head_Stand.md) (v0.16 or above)
 Multiple features used   * sketch, distance and coincident constraints, pad, external references, fillet, chamfer, linear pattern, and draft. Exercise lego 01.jpg\|link=[Manual   *Modeling for product design](Manual_Modeling_for_product_design.md)\|[Modeling for product design](Manual_Modeling_for_product_design.md) (v0.16)
 Modeling a Lego block   * sketches, vertical and horizontal distance constraints, pad, pocket, external reference, linear pattern, and assembly. Exercise table complete.jpg\|link=[Manual   *Traditional modeling, the CSG way](Manual   *Traditional_modeling,_the_CSG_way.md)\|[Traditional modeling, the CSG way](Manual   *Traditional_modeling,_the_CSG_way.md)
-Modeling a table by using simple solids like cubes and cylinders, and performing boolean operations (fusions and cuts) with them. 08\_T04\_Part\_ShapesString\_Extrude\_final\_cut.png\|link=[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)\|[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md) (v0.19)
-Create engraved text on a solid   * extrude a shapestring to make it solid, then use a boolean cut to carve it from another solid. 10\_T03\_Part\_ball\_fillet.png\|link=[Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)\|[Create a wiffle ball](Whiffle_Ball_tutorial.md) (v0.19)
+Modeling a table by using simple solids like cubes and cylinders, and performing boolean operations (fusions and cuts) with them. 08_T04_Part_ShapesString_Extrude_final_cut.png\|link=[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)\|[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md) (v0.19)
+Create engraved text on a solid   * extrude a shapestring to make it solid, then use a boolean cut to carve it from another solid. 10_T03_Part_ball_fillet.png\|link=[Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)\|[Create a wiffle ball](Whiffle_Ball_tutorial.md) (v0.19)
 Use solid primitives, like cubes and cylinders, and boolean operations, like union and cut, to create a hollowed ball. Tutorial-normand06.jpg\|link=[Basic modeling tutorial](Basic_modeling_tutorial.md)\|[Basic modeling tutorial](Basic_modeling_tutorial.md)
 Create an iron angle by two methods   * using solid primitives, and boolean operations (CSG); and by extruding a planar profile. <File   *HTCaeroplane04.png%7Clink=>[Aeroplane](Aeroplane.md)\|[Aeroplane tutorial](Aeroplane.md)
-Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X). <File   *T13_14_Threads_components.png%7Clink=>[Thread\_for\_Screw\_Tutorial](Thread_for_Screw_Tutorial.md)\|[Thread for screw tutorial](Thread_for_Screw_Tutorial.md) (v0.19)
+Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X). <File   *T13_14_Threads_components.png%7Clink=>[Thread_for_Screw_Tutorial](Thread_for_Screw_Tutorial.md)\|[Thread for screw tutorial](Thread_for_Screw_Tutorial.md) (v0.19)
 Understand how to create threads with several techniques that include use of the tools [Part Helix](Part_Helix.md), [PartDesign AdditivePipe](PartDesign_AdditivePipe.md), [Part Sweep](Part_Sweep.md), [Part Fuse](Part_Fuse.md), and [Part Cut](Part_Cut.md).
 
 The Raspberry Pi project has made simple tutorials that are easy to follow, particularly for those new to CAD systems   *
@@ -96,8 +96,8 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 <div class="mw-translate-fuzzy">
 
 Exercise cabin 01.jpg\|link=[Manual   *Traditional 2D drafting](Manual_Traditional_2D_drafting.md)\|[绘制传统的2D底图](Manual_Traditional_2D_drafting.md)
-利用线段、连线、立方体、圆弧绘制建筑平面图，并为之添加填充图案、注释与标注。并将结果导出为DXF文件。 Draft\_tutorial\_result.png\|link=[Draft tutorial](Draft_tutorial.md)\|[底图教程](Draft_tutorial.md) (v0.16)
-本文简单介绍了底图工作台中的常见工具：工作平面、网格、线段、弧线、升级（upgrade）、矩形、圆形、多边形、阵列、标注、注释与shapestring。 Sketcher tutorial result.png\|link=[Basic\_Sketcher\_Tutorial](Basic_Sketcher_Tutorial.md)\|[草图教程](Basic_Sketcher_Tutorial.md) (v0.16)
+利用线段、连线、立方体、圆弧绘制建筑平面图，并为之添加填充图案、注释与标注。并将结果导出为DXF文件。 Draft_tutorial_result.png\|link=[Draft tutorial](Draft_tutorial.md)\|[底图教程](Draft_tutorial.md) (v0.16)
+本文简单介绍了底图工作台中的常见工具：工作平面、网格、线段、弧线、升级（upgrade）、矩形、圆形、多边形、阵列、标注、注释与shapestring。 Sketcher tutorial result.png\|link=[Basic_Sketcher_Tutorial](Basic_Sketcher_Tutorial.md)\|[草图教程](Basic_Sketcher_Tutorial.md) (v0.16)
 本文简单介绍了草图工作台中的常用工具：构建模式（construction mode）、线段、圆形、弧线、约束（等长约束、垂直约束、水平约束、相切约束、距离约束、角度约束、半径约束）。 Constrain3.png\|link=[Sketcher Micro Tutorial - Constraint Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)\|[草图工作台中宏的使用教程](Sketcher_Micro_Tutorial_-_Constraint_Practices.md) (v0.16)
 学习高效地对草图进行约束。几何约束较之尺寸约束更受人们青睐。
 
@@ -116,7 +116,7 @@ Exercise cabin 01.jpg\|link=[Manual   *Traditional 2D drafting](Manual_Tradition
 <div class="mw-translate-fuzzy">
 
 TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md)\|[TechDraw工作台基础教程](Basic_TechDraw_Tutorial.md) (v0.17)
-本文内容为针对TechDraw工作台中常见工具的基本介绍，如：页（page）、视图（view）、缩放（scale）、垂直标注与水平标注（vertical and horizontal dimensions）、注释（ annotations）、正交投影组（projection groups）以及将标注与3D视图联系起来。 <File   *FCTemplateHow.png%7Clink=>[TechDraw\_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[创建一个新的背景模板](TechDraw_TemplateHowTo.md) (v0.17)
+本文内容为针对TechDraw工作台中常见工具的基本介绍，如：页（page）、视图（view）、缩放（scale）、垂直标注与水平标注（vertical and horizontal dimensions）、注释（ annotations）、正交投影组（projection groups）以及将标注与3D视图联系起来。 <File   *FCTemplateHow.png%7Clink=>[TechDraw_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[创建一个新的背景模板](TechDraw_TemplateHowTo.md) (v0.17)
 介绍如何在TechDraw工作台中使用以Inkscape创建的页模板。涉及的步骤有：确定表单的规格大小、为页面绘制布局框架、定义固有的文本并编辑文本域。
 
 
@@ -133,13 +133,13 @@ This is a short introduction to the steps required to perform an analysis in the
 Figure 11 Deformed Mesh.png\|link=[FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) (v0.17)
 Study the deformation of a block made of a hard nucleus surrounded by a softer material   * create mesh regions, add materials, set up sliding constraints, add shear loads, run the solver, and visualize the results with a clip plane.
 
-Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) (v0.19)
+Femconcrete_Wall_3D_rx_PSS.png\|link=[Analysis_of_reinforced_concrete_with_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) (v0.19)
 Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.
 
-Two\_balls\_result\_2-cropped.png\|link=[FEM\_Example\_Capacitance\_Two\_Balls](FEM_Example_Capacitance_Two_Balls.md)\|[Electrostatic equation -- Capacitance of two balls](FEM_Example_Capacitance_Two_Balls.md) (v0.19)
+Two_balls_result_2-cropped.png\|link=[FEM_Example_Capacitance_Two_Balls](FEM_Example_Capacitance_Two_Balls.md)\|[Electrostatic equation -- Capacitance of two balls](FEM_Example_Capacitance_Two_Balls.md) (v0.19)
 This example shows how to simulate a capacitance. It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualize the results using [Clip Filter](FEM_PostFilterClipRegion.md).
 
-FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
+FEM_post-processing_Paraview.png\|link=[Post-Processing_of_FEM_Results_with_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
 This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.
 
 ## CNC & 3D打印 
@@ -152,8 +152,8 @@ Convert a solid object to a mesh object using the Mesh Workbench, export the mes
 
 Exercise raytracing 05.jpg\|link=[Manual   *Creating renderings](Manual_Creating_renderings.md)\|[创建渲染文件](Manual_Creating_renderings.md)
 如果系统中安装了POV-Ray与LuxRender，就利用它们为您的设计快速地渲染出一幅图像。 Raytracing tutorial result.png\|link=[Raytracing tutorial](Raytracing_tutorial.md)\|[Raytracing tutorial](Raytracing_tutorial.md) (v0.16)
-本文描述了在光线追踪工作台中使用POV-Ray或LuxRender的基本工作流程：设置渲染器的工作路径、创建工程、设置摄像机的位置、选择模型、运行渲染器。12\_T04\_FreeCAD\_POVray\_render\_floor\_wood\_walls\_radiosity\_final.png\|link=[Tutorial FreeCAD POV ray](Tutorial_FreeCAD_POV_ray.md)\|[FreeCAD与POV-ray中级教程](Tutorial_FreeCAD_POV_ray.md) (v0.18)
-利用POV-Ray生成更佳渲染效果的工作流程：创建工程、添加对象、设置摄像机、保存.pov文件，手动编辑此文件来改良其纹理、表面、光照，最后运行渲染器。 07\_T03\_FreeCAD\_Blender\_EEVEE\_render.png\|link=[Tutorial\_Render\_with\_Blender](Tutorial_Render_with_Blender.md)\|[利用Blender渲染一个FreeCAD部件](Tutorial_Render_with_Blender.md) (v0.18)
+本文描述了在光线追踪工作台中使用POV-Ray或LuxRender的基本工作流程：设置渲染器的工作路径、创建工程、设置摄像机的位置、选择模型、运行渲染器。12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png\|link=[Tutorial FreeCAD POV ray](Tutorial_FreeCAD_POV_ray.md)\|[FreeCAD与POV-ray中级教程](Tutorial_FreeCAD_POV_ray.md) (v0.18)
+利用POV-Ray生成更佳渲染效果的工作流程：创建工程、添加对象、设置摄像机、保存.pov文件，手动编辑此文件来改良其纹理、表面、光照，最后运行渲染器。 07_T03_FreeCAD_Blender_EEVEE_render.png\|link=[Tutorial_Render_with_Blender](Tutorial_Render_with_Blender.md)\|[利用Blender渲染一个FreeCAD部件](Tutorial_Render_with_Blender.md) (v0.18)
 从FreeCAD中将部件导出为Wavefront的.obj格式，再将其导入Blender中，建立一个简单的太阳光源，利用Principled BSDF着色器为之赋予基本材质，最后通过EEVEE与Cycles来生成渲染图片。
 
 ## Robot workbench 
@@ -234,7 +234,7 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 ++++++++
 | [Customize Toolbars](Customize_Toolbars.md)                                                                        |                         | Beginner              | 0   *05                   | [Mario52](User_Mario52.md)                                                             | Any                 | None                                                                                                                                                                                                                                                                                                                          |
 ++++++++
-| [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0   *30                   | r-frank and vocx                                                                               | 0.17 and above      | [Draft\_Shapestring\_Text](https   *//github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                |
+| [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0   *30                   | r-frank and vocx                                                                               | 0.17 and above      | [Draft_Shapestring_Text](https   *//github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft tutorial](Draft_tutorial.md)                                                                                | Draft Workbench         | Beginner              | 0   *30                   | [Drei](User_Drei.md) and vocx                                                          | 0.19                | [Draft tutorial updated](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
 ++++++++
@@ -358,7 +358,7 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 ++++++++
 | [VRML Preparation for Robot Simulation](VRML_Preparation_for_Robot_Simulation.md)                                  | Robot Workbench         | Intermediate          |                        |                                                                                                | 0.11.4252ppa1       |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
-| [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)                                                                  | Product design          | Beginner              | 0   *30                   | r-frank and vocx                                                                               | 0.17 and above      | [WhiffleBall\_Tutorial\_FCWiki.FCStd](https   *//github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true)                                                                                                                                                          |
+| [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)                                                                  | Product design          | Beginner              | 0   *30                   | r-frank and vocx                                                                               | 0.17 and above      | [WhiffleBall_Tutorial_FCWiki.FCStd](https   *//github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true)                                                                                                                                                            |
 ++++++++
 | [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)                                                        | Import                  | Intermediate/Advanced | 1   *00                   |                                                                                                |                     |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

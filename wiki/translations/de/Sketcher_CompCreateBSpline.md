@@ -10,6 +10,9 @@
 
 # Sketcher CompCreateBSpline/de
 
+
+</div>
+
 ## Beschreibung
 
 **B-Spline erstellen** ist eine Symbolschaltfläche in der Werkzeugleiste *Sketcher geometries*, die Werkzeuge zur Erstellung einer B-Spline-Kurve gruppiert. Klicke auf den Abwärtspfeil rechts daneben, um die Symbole darunter zu erweitern und ein Werkzeug auszuwählen.

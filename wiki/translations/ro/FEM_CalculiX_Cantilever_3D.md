@@ -32,7 +32,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic10.png  style="width   *700px;">
 
 ## Requirements
 
@@ -57,7 +57,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-### Load Start Workbench 
+### Load the example file 
 
 
 <div class="mw-translate-fuzzy">
@@ -70,20 +70,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-### Load the example file 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Încărcați fișierul exemplu 
-
--   Mergeți la proiectele de exemplu și faceți clic pe \"Încărcați un exemplu de analiză MEF\"
--   Dacă din cauza unor operații ulterioare unele geometrii, constrângeri sau rezultate sunt rupte sau șterse doar repetați pașii de mai sus.
-
-
-</div>
-
-<img alt="" src=images/FEM_example01_pic01.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic11.png  style="width   *700px;">
 
 ### Activate the analysis container 
 
@@ -98,7 +85,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic02.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic12.png  style="width   *700px;">
 
 ### Analysis container and its objects 
 
@@ -141,7 +128,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic03.jpg  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic13.png  style="width   *400px;">
 
 ### Purging Results 
 
@@ -178,7 +165,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic04.jpg  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic14.png  style="width   *400px;">
 
 ### Running the FEA the fast Way 
 
@@ -226,13 +213,12 @@ Deformarea în direcția x trebuie să fie de 19,05 mm.
 
 </div>
 
-<img alt="" src=images/FEM_example01_pic05.jpg  style="width   *700px;">
+<img alt="" src=images/FEM_example01_pic15.png  style="width   *700px;">
 
--   Toggle the [visibility](Std_ToggleVisibility.md) of the FEM mesh <img alt="" src=images/FEM_FEMMesh.svg  style="width   *24px;"> \'On\' by selecting it in tree view and pressing the **Space** key.
 -   You know how to trigger an analysis and how to visualize results already.
--   The deformation in x-direction should be 19.05 mm.
+-   The deformation in x-direction should be 18.95 mm.
 
-<img alt="" src=images/FEM_example01_pic06.jpg  style="width   *400px;">
+<img alt="" src=images/FEM_example01_pic16.png  style="width   *400px;">
 
 ## What next? 
 

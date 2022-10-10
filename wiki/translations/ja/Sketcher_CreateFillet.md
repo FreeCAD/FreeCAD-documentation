@@ -7,7 +7,13 @@
 
 ## 説明
 
+
+<div class="mw-translate-fuzzy">
+
 このツールは一点でつながる二直線の間にフィレットを作成します。このツールを起動後、二直線を選択するか角をなす点をクリックしてください。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

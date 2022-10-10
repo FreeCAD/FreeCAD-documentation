@@ -4,7 +4,7 @@
    Name/fr   *FEM Groupe de maillage FEM
    MenuLocation   *Maillage → Groupe de maillage FEM
    Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshGroup/fr
@@ -31,7 +31,7 @@ Groupe de maillage FEM permet donc à FreeCAD d\'être utilisé avec des solveur
 6.  Double-cliquez sur l\'objet parent `FEMMeshGMSH` dans l\'arborescence du modèle et appuyez sur **Appliquer** pour forcer un recalcul/réétiquetage du maillage.
 7.  Fermez la tâche.
 
-### Remarques
+## Remarques
 
 -   Une fois que le maillage a été créé, vous pouvez modifier la propriété du label à l\'aide de l\'[Éditeur de propriétés](Property_editor/fr.md).
 -   Après avoir modifié une propriété, vous devez rouvrir le dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la boîte de dialogue ouverte pendant la modification des propriétés).

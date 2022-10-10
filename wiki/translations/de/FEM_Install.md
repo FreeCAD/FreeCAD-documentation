@@ -26,7 +26,7 @@ Wenn der Löser installiert ist, stelle sicher, dass der FEM Arbeitsbereich in d
 
 ### FEM Netz Generator 
 
-Um ein [FEM Polygonnetz](FEM_Mesh/de.md) zu erstellen, verwendet FreeCAD [Gmsh](http   *//gmsh.info/) als Standard Netzerzeuger. Damit dies funktioniert, sollte Gmsh separat von FreeCAD installiert werden.
+Um ein [FEM Polygonnetz](FEM_Mesh/de.md) zu erstellen, verwendet FreeCAD [Gmsh](http   *//gmsh.info/) als Standard Netzerzeuger. Abhängig vom Betriebssystem und der FreeCAD-Installation, ist Gmsh in den FreeCAD-Installationsdateien vorhanden oder auch nicht. Wenn es nicht mitgeliefert wird, kann es unabhängig von FreeCAD installiert werden und anschließend das Menü **Edit → Preferences → FEM → Gmsh** verwendet werden, um den Pfad zu *gmsh.exe* einzugeben.
 
 Wenn das Programm korrekt installiert ist, kannst du den Befehl `gmsh` im Terminal ausführen, um die grafische Oberfläche des Programms zu starten. Diese Oberfläche wird von FreeCAD nicht verwendet, zeigt aber an, dass das Programm installiert ist.
 

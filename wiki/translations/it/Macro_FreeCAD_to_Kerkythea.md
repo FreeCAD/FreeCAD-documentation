@@ -15,15 +15,9 @@
 
 Macro per esportare il proprio modello nel programma di raytracing [Kerkythea](http   *//www.kerkythea.net/cms/).
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 La macro è disponibile nel seguente repository github   * [FreeCAD to Kerkythea-Exporter](https   *//github.com/marmni/FreeCAD-Kerkythea)
-
-
-</div>
 
 E\' praticamente auto-esplicativa. Al momento ci sono problemi per esportare le luci e la posizione della telecamera.
 

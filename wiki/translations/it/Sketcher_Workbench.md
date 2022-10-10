@@ -40,47 +40,17 @@ Ci sono due tipi di vincoli   * geometrici e dimensionali. Essi sono descritti n
 
 Il modulo Sketcher non è pensato per produrre disegni dettagliati in 2D. Dopo che gli schizzi sono stati utilizzati per generare una forma solida vengono automaticamente nascosti. I vincoli (la quotatura dei vincoli e i segni grafici di vincolo) sono visibili solo in modalità **Modifica sketch**.
 
-
-<div class="mw-translate-fuzzy">
-
-Se serve solo produrre delle viste 2D per la stampa e non si intende creare dei modelli 3D, si può utilizzare l\'ambiente [Draft](Draft_Workbench/it.md). A differenza degli elementi di Sketcher, gli oggetti di Draft non usano i vincoli, ma sono forme semplici definite al momento della creazione. Sia Draft che Sketcher possono essere utilizzati per il disegno di geometrie 2D e la creazione di solidi 3D, sebbene il loro uso previsto sia diverso. Sketcher viene normalmente utilizzato insieme a [Part](Part_Workbench/it.md) e [PartDesign](PartDesign_Workbench/it.md) per creare solidi. Draft viene normalmente utilizzato per semplici disegni planari su una griglia, come quando si disegna una pianta architettonica, quindi Draft viene utilizzato principalmente con [Arch](Arch_Workbench/it.md). Lo strumento [Da Draft a Schizzo](Draft_Draft2Sketch/it.md) converte un oggetto Draft in un oggetto Sketch e viceversa. Molti strumenti che richiedono un elemento 2D come input funzionano con entrambi i tipi di oggetto poiché viene eseguita automaticamente una conversione interna.
-
-
-</div>
+Se serve solo produrre delle viste 2D per la stampa e non si intende creare dei modelli 3D, si può utilizzare l\'ambiente [Draft](Draft_Workbench/it.md). A differenza degli elementi di Sketcher, gli oggetti di Draft non usano i vincoli, ma sono forme semplici definite al momento della creazione. Sia Draft che Sketcher possono essere utilizzati per il disegno di geometrie 2D e la creazione di solidi 3D, sebbene il loro uso previsto sia diverso. Sketcher viene normalmente utilizzato insieme agli Ambienti [Part](Part_Workbench/it.md) e [PartDesign](PartDesign_Workbench/it.md) per creare solidi; Draft viene normalmente utilizzato per semplici disegni planari su una griglia, come quando si disegna una pianta architettonica, quindi Draft viene utilizzato principalmente con [Arch](Arch_Workbench/it.md). Lo strumento [Da Draft a Schizzo](Draft_Draft2Sketch/it.md) converte un oggetto Draft in un oggetto Sketch e viceversa. Molti strumenti che richiedono un elemento 2D come input funzionano con entrambi i tipi di oggetto poiché viene eseguita automaticamente una conversione interna.
 
 ## Flusso di lavoro per gli schizzi 
 
-
-<div class="mw-translate-fuzzy">
-
 Uno Sketch è sempre in 2 dimensioni (2D). Per creare un solido, viene creato prima lo schizzo 2D di una singola area chiusa e poi essa viene estrusa o rivoluzionata per aggiungere la terza dimensione, creando un solido 3D dallo schizzo 2D.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 Se lo schizzo contiene dei segmenti che si intersecano, punti non collocati esattamente su un segmento, o punti finali di segmenti adiacenti che non sono coincidenti, l\'operazione di Pad o di Rivoluzione non crea un solido. A volte uno schizzo che contiene linee che si intersecano può funzionare per un\'operazione semplice come un Pad, ma le operazioni successive falliscono. È meglio evitare di attraversare le linee. Come eccezione, questa regola non si applica alla geometria di costruzione (linee blu).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 All\'interno dell\'area racchiusa si possono avere delle piccole aree non sovrapposte. Queste diverranno dei \"vuoti\" quando si crea il solido 3D.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Quando uno schizzo è completamente vincolato, le funzioni dello schizzo diventano verdi. La geometria di costruzione rimane blu. Di solito a questo punto lo schizzo è \"finito\" e adatto per l\'uso nella creazione di un solido 3D. Tuttavia, una volta chiusa la finestra di dialogo Schizzo, può essere utile andare in <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Ambiente Part](Part_Workbench/it.md) ed eseguire <img alt="" src=images/Part_CheckGeometry.svg  style="width   *16px;"> [Controlla la geometria](Part_CheckGeometry/it.md) per assicurarsi che nello schizzo non ci siano funzioni che possono causare problemi successivi.
-
-
-</div>
 
 ## Strumenti
 
@@ -176,7 +146,17 @@ Gli strumenti per creare gli oggetti.
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Asola](Sketcher_CreateSlot/it.md)   * Disegna un rettangolo con due lati opposti raccordati con un semicerchio, un\'asola.
 
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Raccorda](Sketcher_CreateFillet/it.md)   * Raccorda due linee unite in un punto. Selezionare entrambe le linee o fare clic sul punto di angolo, poi attivare lo strumento.
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width   *32px;"> [Rifila](Sketcher_Trimming/it.md)   * Accorcia una linea, un cerchio o un arco fino al primo nodo, punto di intersezione.
 
@@ -330,33 +310,21 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 Ogni utente CAD, nel corso del tempo, sviluppa un proprio modo di lavorare, ma ci sono alcuni criteri generali che è utile seguire.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Una serie di schizzi semplici è più facile da gestire rispetto a un unico schizzo molto complesso. Ad esempio, si può creare un primo schizzo per produrre (con una estrusione o una rivoluzione) la forma 3D di base, poi un secondo schizzo per eseguire i fori o le aperture (tasche). Alcuni dettagli possono essere omessi e realizzati in seguito come operazioni 3D. È possibile decidere di evitare gli smussi nel disegno, se ce ne sono troppi, e aggiungerli dopo come caratteristica 3D.
 -   Creare sempre un profilo chiuso altrimenti il disegno non produrrà un solido, bensì una serie di facce aperte. Quando si desidera escludere alcuni oggetti nella creazione del solido, trasformarli in elementi di costruzione con lo strumento **Modalità costruzione**.
 -   Utilizzare la funzione **Vincoli automatici** per ridurre il numero di vincoli da inserire manualmente.
 -   Come regola generale, si applicano prima i vincoli geometrici, poi i vincoli dimensionali, e infine si blocca il disegno. Da ricordare   * le regole sono fatte per essere infrante. Quando ci sono difficoltà nel manipolare il disegno, può essere utile vincolare alcuni oggetti prima di completare il profilo.
--   Se possibile, centrare il disegno nell\'origine (0,0) con il vincolo **Blocca**. Se il disegno non è simmetrico, posizionare uno dei suoi punti nell\'origine, o scegliere una cifra tonda semplice per le distanze di blocco. Nella versione v0.12, i vincoli esterni (vincoli rispetto a geometrie 3D esistenti come a bordi o altri schizzi) non sono ancora implementati. Questo significa che per collegare i disegni successivi alla geometria del primo schizzo, si devono impostare manualmente le distanze relative al primo disegno. Un vincolo di blocco (25,75) dall\'origine è più facile da ricordare che (23.47,73.02).
+-   Se possibile, centrare il disegno nell\'origine (0,0) con il vincolo **Blocca**. Se il disegno non è simmetrico, posizionare uno dei suoi punti nell\'origine, o scegliere una cifra tonda semplice per le distanze di blocco.
 -   Se c\'è la possibilità di scegliere tra il vincolo [lunghezza](Sketcher_ConstrainDistance/it.md) <img alt="" src=images/Constraint_Length.png  style="width   *16px;"> e il vincolo [distanza orizzontale](Sketcher_ConstrainDistanceX/it.md) <img alt="" src=images/Constraint_HorizontalDistance.png  style="width   *16px;"> o [distanza verticale](Sketcher_ConstrainDistanceY/it.md) <img alt="" src=images/Constraint_Vertical.png  style="width   *16px;">, preferire questi ultimi. I vincoli di distanza orizzontale e verticale sono computazionalmente più economici.
 -   In generale, i vincoli migliori da utilizzare sono   * Orizzontale e Verticale, Lunghezza Orizzontale e Verticale, Tangente nel punto. Se possibile, limitare l\'uso di questi vincoli   * Lunghezza generica, Tangenza Edge-to-edge, Punto su linea; Simmetria.
 -   In caso di dubbi sulla validità di uno schizzo una volta completato (le funzioni diventano verdi), chiudere la finestra di dialogo di Sketcher, passare a <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part](Part_Workbench/it.md) ed eseguire <img alt="" src=images/Part_CheckGeometry.svg  style="width   *16px;"> [Controlla la geometria](Part_CheckGeometry/it.md).
 
-
-</div>
-
 ## Tutorial
-
-
-<div class="mw-translate-fuzzy">
 
 -   [Sketcher tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30104) by chrisb. Questo è un documento PDF lungo 70 pagine che funge da manuale dettagliato per lo sketcher. Spiega le basi dell\'utilizzo di Sketcher e approfondisce la creazione di forme geometriche e ciascuno dei vincoli.
 -   [Tutorial base di Sketcher](Basic_Sketcher_Tutorial/it.md) per principianti
 -   [Sketcher Micro Tutorial - Pratica con i vincoli](Sketcher_Micro_Tutorial_-_Constraint_Practices/it.md)
 -   [Requisiti di uno schizzo](Sketcher_requirement_for_a_sketch/it.md) Requisito minimo per uno schizzo e definizione completa di uno schizzo
-
-
-</div>
 
 ## Script
 

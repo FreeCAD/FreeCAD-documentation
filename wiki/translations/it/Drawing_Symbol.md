@@ -19,13 +19,14 @@ Questo comando consente di aggiungere il contenuto di un\'immagine SVG in una [p
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Viste ortogonali](Drawing_Orthoviews/it.md)|[Vista Foglio di calcolo](Drawing_SpreadsheetView/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Orthoviews.png|IconC=Workbench_Drawing.svg|IconR=Drawing_SpreadsheetView.png}}
-
-
-</div>
+{{docnav/it
+|[Viste ortogonali](Drawing_Orthoviews/it.md)
+|[Vista Foglio di calcolo](Drawing_SpreadsheetView/it.md)
+|[Drawing](Drawing_Workbench/it.md)
+|IconL=Drawing_Orthoviews.png
+|IconC=Workbench_Drawing.svg
+|IconR=Drawing_SpreadsheetView.png
+}}
 
 
 {{Drawing Tools navi
@@ -35,4 +36,4 @@ Questo comando consente di aggiungere il contenuto di un\'immagine SVG in una [p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Symbol/it

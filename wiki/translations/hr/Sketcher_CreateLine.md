@@ -11,7 +11,7 @@
 
 ## Description
 
-This tool draws a line by picking two points in the 3D view. When starting the tool, the mouse pointer changes to a white cross with a red line icon. Besides are coordinates shown in real time.
+This tool draws a line by picking two points in the [3D view](3D_view.md). When starting the tool, the mouse pointer changes to a white cross with a red line icon. Besides are coordinates shown in real time.
 
 ![](images/Sketcher_LineExample1.png‎ )
 
@@ -19,7 +19,7 @@ The created line object starts and ends at the given points, but the line is inf
 
 ## Usage
 
--   Pick points on an empty area of the 3d view, or on an existing object (auto constraints must be active in TaskView).
+-   Pick points on an empty area of the 3d view, or on an existing object (auto constraints must be active in [Task panel](Task_panel.md)).
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 
 

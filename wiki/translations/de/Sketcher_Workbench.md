@@ -174,7 +174,17 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Nut erstellen](Sketcher_CreateSlot/de.md)   * Zeichnet ein Oval, indem das Zentrum des einen Halbkreises und ein Endpunkt des anderen Halbkreises ausgewählt werden.
 
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateFillet.png  style="width   *32px;"> [Abrundung erstellen](Sketcher_CreateFillet/de.md) (Verrundung)   * Erstellt eine Verrundung zwischen zwei Linien, die an einem Punkt verbunden sind. Beide Linien oder den Eckpunkt auswählen und anschließend das Werkzeug aktivieren.
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 -   <img alt="" src=images/Sketcher_Trimming.png  style="width   *32px;"> [Kante zuschneiden](Sketcher_Trimming/de.md)   * Stutzt eine Gerade, einen Kreis oder Kreisbogen unter Berücksichtigung des angeklickten Punktes.
 

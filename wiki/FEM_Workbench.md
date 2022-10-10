@@ -16,14 +16,14 @@ The steps to carry out a finite element analysis are   *
     1.  Modeling the geometry   * creating the geometry with FreeCAD, or importing it from a different application.
     2.  Creating an analysis.
         1.  Adding simulation constraints such as loads and fixed supports to the geometric model.
-        2.  Adding materials to the parts off the geometric model.
+        2.  Adding materials to the parts of the geometric model.
         3.  Creating a finite element mesh for the geometrical model, or importing it from a different application.
 2.  Solving   * running an external solver from within FreeCAD.
 3.  Postprocessing   * visualizing the analysis results from within FreeCAD, or exporting the results so they can be postprocessed with another application.
 
 The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbench makes use of external solvers, the amount of manual setup will depend on the operating system that you are using. See [FEM Install](FEM_Install.md) for instructions on setting up the external tools.
 
-<img alt="" src=images/FEM_Workbench_workflow.svg  style="width   *600px;">
+ <img alt="" src=images/FEM_Workbench_workflow.svg  style="width   *600px;"> 
 
 
 
@@ -61,7 +61,9 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 ### Fluid Constraints 
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)   * Used to define an initial flow velocity for the domain.
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)   * Used to define an initial flow velocity for the body.
+
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md)   * Used to define an initial pressure for the body. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width   *32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md)   * Used to define a flow velocity as a boundary condition at an edge (2D) or face (3D).
 
@@ -115,7 +117,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 ### Overwrite Constants 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)   * <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)   * Used to overwrite the [permittivity of vacuum](https   *//en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value. <small>(v0.19)</small> 
 
 ## Menu   * Mesh 
 
@@ -145,17 +147,17 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width   *32px;"> [Solver Z88](FEM_SolverZ88.md)   * Creates the solver controller for Z88. It is independent from other solver objects.
 
--   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Elasticity equation](FEM_EquationElasticity.md)   *
+-   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Elasticity equation](FEM_EquationElasticity.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform mechanical analyses.
 
--   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Electricforce equation](FEM_EquationElectricforce.md)   * <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Electricforce equation](FEM_EquationElectricforce.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate the electric force on surfaces. <small>(v0.19)</small> 
 
--   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Electrostatic equation](FEM_EquationElectrostatic.md)   *
+-   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Electrostatic equation](FEM_EquationElectrostatic.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform electrostatic analyses.
 
--   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Flow equation](FEM_EquationFlow.md)   *
+-   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Flow equation](FEM_EquationFlow.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform flow analyses.
 
--   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Flux equation](FEM_EquationFlux.md)   *
+-   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Flux equation](FEM_EquationFlux.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform flux analyses.
 
--   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Heat equation](FEM_EquationHeat.md)   *
+-   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Heat equation](FEM_EquationHeat.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform heat transfer analyses.
 
 -   <img alt="" src=images/FEM_SolverControl.svg  style="width   *32px;"> [Solver job control](FEM_SolverControl.md)   * Opens the menu to adjust and start the selected solver.
 
@@ -185,7 +187,11 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width   *32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint.md)   * Used to display value of a selected field at a given point.
 
--   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter functions](FEM_PostCreateFunctions.md)   * Used to define how the result mesh is cut for the [Function cut filter](FEM_PostFilterCutFunction.md) and [Region clip filter](FEM_PostFilterClipRegion.md).
+-   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width   *48px;"> [Filter functions](FEM_PostCreateFunctions.md)   * This is an icon menu in the FEM Results toolbar that holds the following commands   *
+
+   ** <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md)   * Defines that the result mesh is cut with a plane.
+
+   ** <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md)   * Defines that the result mesh is cut with a sphere.
 
 ## Menu   * Utilities 
 

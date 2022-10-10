@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FCGear WormGear
-   Name/fr   *FCGear WormGear
-   MenuLocation   *FCGear → Create a Worm gear
+   Name/fr   *FCGear Vis sans fin
+   MenuLocation   *Gear → Worm Gear
    Workbenches   *[FCGear](FCGear_Workbench/fr.md)
    Shortcut   *Aucun
    Version   *v0.16
@@ -24,76 +24,78 @@ Une vis sans fin ne peut être utilisée qu\'avec une roue à vis sans fin. C\'e
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
-2.  Lancez la commande d\'une de ces manières    *
-    -   Appuyez sur le bouton <img alt="" src=images/FCGear_WormGear.svg  style="width   *22px;"> [Create a Worm gear](FCGear_WormGear/fr.md) dans la barre d\'outils.
-    -   Utilisez le **Menu → Worm gear**.
-3.  Modifier le paramètre d\'engrenage selon les conditions requises (voir **Propriétés → Données** ci-dessous).
+1.  Passez à l\' <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [atelier FCGear](FCGear_Workbench/fr.md).
+2.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur **[<img src=images/FCGear_WormGear.svg style="width   *16px"> [Worm Gear](FCGear_WormGear/fr.md)** dans la barre d\'outils.
+    -   Sélectionnez l\'option **Gear → [<img src=images/FCGear_WormGear.svg style="width   *16px"> Worm Gear** dans le menu.
+3.  Modifiez le paramètre de l\'engrenage en fonction des conditions requises (voir [Propriétés](#Propri.C3.A9t.C3.A9s.md)).
 
 ## Propriétés
+
+Un objet FCGear WormGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|base}}
 
--    {{PropertyData/fr|Placement}}   * [placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **diameter|Length**   * valeur par défaut à {{Value|5 mm}}. Diamètre du pas.
 
--    {{PropertyData/fr|Label}}   * nom d\'utilisateur de l\'objet dans la [vue en arborescence](tree_view/fr.md).
+-    **height|Length**   * valeur par défaut à {{Value|5 mm}}. Valeur de la longueur de la vis sans fin.
 
+-    **module|Length**   * valeur par défaut à {{Value|1 mm}}. Module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir [Remarques](#Remarques.md)).
 
-{{Properties_Title|gear_parameter}}
+-    **reverse_pitch|Bool**   * valeur par défaut à {{False}}. {{True}} change le sens de rotation de droite à gauche.
 
--    {{PropertyData/fr|beta}}   * Angle d\'attaque, non modifiable - est calculé automatiquement (voir aussi les informations dans les **Remarques** et **Formules utiles**).
-
--    {{PropertyData/fr|clear}}   * La valeur par défaut est 0,25 (voir aussi les informations dans les **Remarques**).
-
--    {{PropertyData/fr|diamètre}}   * Diamètre de pas.
-
--    {{PropertyData/fr|head}}   * La valeur par défaut est 0,00. Cette valeur est utilisée pour modifier la hauteur de la dent.
-
--    {{PropertyData/fr|height}}   * Valeur de la longueur du ver.
-
--    {{PropertyData/fr|module}}   * Module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans les **Remarques**).
-
--    {{PropertyData/fr|reverse_pitch}}   * **True** change le sens de rotation de droite à gauche.
-
--    {{PropertyData/fr|teeth}}   * Nombre de dents (voir aussi les informations dans les **Remarques**).
+-    **teeth|Integer**   * La valeur par défaut est {{Value|3}}. Nombre de dents (voir [Remarques](#Remarques.md)).
 
 
-{{Properties_Title|involute_parameter}}
+{{Properties_Title|computed}}
 
--    {{PropertyData/fr|pressure_parameter}}   * valeur par défaut 20 (voir aussi les informations dans les **Remarques**).
+-    **beta|Angle**   * (en lecture seule) angle d\'attaque (voir aussi les informations dans [Remarques](#Remarques.md) et [Formules utiles](#Formules_utiles.md)).
 
-### Vue
 
-La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur de propriétés](Property_editor/fr.md) dans **Exemple de propriétés d'un objet PartDesign**.
+{{Properties_Title|involute}}
+
+-    **pressure_angle|Angle**   * valeur par défaut à {{Value|20 °}} (voir les [Remarques](#Remarques.md)).
+
+
+{{Properties_Title|tolerance}}
+
+-    **clearance|Float**   * valeur par défaut à {{Value|0.25}} (voir [Remarques](#Remarques.md)).
+
+-    **head|Float**   * valeur par défaut à {{Value|0}}. Cette valeur est utilisée pour modifier la hauteur de la dent.
+
+
+{{Properties_Title|version}}
+
+-    **version|String**   *
 
 ## Remarques
 
--    **beta**   * Si l\'angle d\'attaque est inférieur à 5°, il s\'agit d\'un engrenage autobloquant. Un exemple typique sont les chevilles d\'accord sur une guitare ou un ukulélé.
+-    **beta**   * si l\'angle d\'attaque est inférieur à 5°, il s\'agit d\'un engrenage autobloquant. Un exemple typique est celui des chevilles d\'accordage d\'une guitare ou d\'un ukulélé.
 
--    **clearance**   * Dans un engrenage à vis sans fin, le jeu est la distance entre la pointe de la dent de la vis sans fin et la racine de la dent de la roue à vis sans fin.
+-    **clearance**   * sur un engrenage à vis sans fin, le jeu est la distance entre la pointe de la dent de la vis sans fin et la racine de la dent de la roue à vis sans fin.
 
--    **module**   * En utilisant les directives ISO (Organisation internationale de normalisation), la taille du module est désignée comme l\'unité représentant la taille des dents des engrenages. Module (m)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Si vous multipliez Module par Pi, vous pouvez obtenir Pitch (p). Le pas est la distance entre les points correspondants sur les dents adjacentes. Si le module est modifié, l\'angle principal change également (**beta**).
+-    **module**   * selon les directives ISO (Organisation internationale de normalisation), la taille du module est désignée comme l\'unité représentant la taille des dents d\'un engrenage. Module (m)    * m = 1 (p = 3,1416), m = 2 (p = 6,2832), m = 4 (p = 12,566). Si vous multipliez Module par Pi, vous obtenez le pas (p). Le pas est la distance entre des points correspondants sur des dents adjacentes. Si l\'on change le module, l\'angle d\'attaque change aussi (**beta**).
 
--    **teeth**   * Le nombre de dents dans une vis est appelé le nombre de filets. De même, on parle de vis à filet simple, double ou multiple. En général, des vis à filet simple sont principalement produites mais dans des cas particuliers, le nombre de démarrages peut aller jusqu\'à quatre (parfois aussi plus). Si le nombre de dents est modifié, **beta** change également.
+-    **teeth**   * le nombre de dents d\'un vis sans fin s\'appelle le nombre de fils. Par conséquent, on parle de vis sans fin à fil simple, double ou multiple. En général, on produit surtout des vis sans fin à fil unique, mais dans certains cas particuliers, le nombre de départs peut aller jusqu\'à quatre (parfois aussi plus). Si le nombre de dents est modifié, **beta** change également.
 
--    **pressure_parameter**   * modifiez le paramètre uniquement si une connaissance suffisante de la géométrie de l\'engrenage est disponible.
+-    **pressure_parameter**   * ne modifiez ce paramètre que si vous avez une connaissance suffisante de la géométrie de l\'engrenage.
 
 ## Formules utiles 
 
--    **beta (lead angle)**= arctan (**module** \* **teeth**    * **pitchdiameter (diameter)**)
+-    **beta (angle d'attaque)**= arctan (**module** \* **teeth**    * **pitchdiameter (diamètre)**)
 
 -    **axial pitch**= **pi** \* **module** \* **teeth**
 
--    **beta (lead angle)**= arctan (**axial pitch**    * (**pitchdiameter (diameter)** \* **pi**))
+-    **beta (angle d'attaque)**= arctan (**axial pitch**    * (**pitchdiameter (diamètre)** \* **pi**))
 
 -    **worm length**= 4,5 \* **module** \* **pi**
 
 ## Roue à vis sans fin 
 
-La roue à vis sans fin doit être conçue manuellement. À cet effet, **FCGear InvoluteGear** peut être utilisé pour une construction simple. Dans tous les cas, une connaissance approfondie des types d\'engrenages est requise.
+La roue à vis sans fin doit être conçue manuellement. A cet effet, [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md) peut être utilisé pour une construction simple. Dans tous les cas, une connaissance approfondie des types d\'engrenages est nécessaire.
 
 ![](images/Worm-Gear_example3.png ) 
 *Vis sans fin avec roue à vis sans fin*

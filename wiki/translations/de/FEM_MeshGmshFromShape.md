@@ -4,26 +4,16 @@
    Name/de   *FEM NetzGmshAusForm
    MenuLocation   *Netz → FEM Netz aus Form durch Gmsh
    Workbenches   *[FEM](FEM_Workbench/de.md)
-   Shortcut   *Kein
    SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MeshGmshFromShape/de
 
-
-</div>
-
 ## Beschreibung
 
+Für eine Finite-Elemente-Analyse muss die Geometrie in ein [FEM-Netz](FEM_Mesh/de.md) diskretisiert werden. Dieser Befehl verwendet das Programm [Gmsh](https   *//en.wikipedia.org/wiki/Gmsh) (das auf dem System installiert sein muss) zur Berechnung des Netzes.
 
-<div class="mw-translate-fuzzy">
-
-Für eine Finite Element Analyse muss die Geometrie in ein [FEM Netz](FEM_Mesh/de.md) diskretisiert werden. Dieser Befehl verwendet gmsh (das auf dem System installiert sein muss) zur Berechnung des Netzes.
-
-
-</div>
-
-Gmsh is bundled with the FreeCAD installation binaries. Alternatively you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
+Abhängig vom Betriebssystem und dem Installationspaket kann Gmsh in FreeCAD enthalten sein oder auch nicht. Für weitere Informationen siehe [FEM Installation](FEM_Install/de.md).
 
 ## Anwendung
 
@@ -107,12 +97,12 @@ When you get a meshing erro about nonpositive Jacobians, you can try out the fol
 
 ### Mesh Growth 
 
-At edges and small geometric entities the mesh has to be smaller than in areas without edges. So the mesh element size grows away from edges. The growing strategy of Gmsh is to grow between edges with different sizes. So the growing fails when an area has the same sized edges like for example this tube   *
+At edges and small geometric entities, the mesh has to be smaller than in areas without edges. So the mesh element size grows away from the edges. The growing strategy of Gmsh is to grow between edges of different sizes. So the growing fails when an area has the same sized edges like for example this tube   *
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-failing.png  style="width   *400px;"> 
-*Failing mesh growing because the cylindrical area is surrounded be the same edges*
+*Failing mesh growing because the cylindrical area is surrounded by the same edges*
 
-To enable a sensible mesh growing, you must in this case add an edge to the area. In the example this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https   *//forum.freecadweb.org/download/file.php?id=146255) of the example.
+To enable a sensible mesh growing, you must in this case add an edge to the area. In the example, this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https   *//forum.freecadweb.org/download/file.php?id=146255) of the example.
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width   *400px;"> 
 *Sensible mesh growing due to the additional edge in the middle of the cylindrical aread*
@@ -129,13 +119,7 @@ The *Simple* recombination algorithm will leave some triangles in the mesh in ca
 *Effect of mesh element recombination. Upper left   * standard mesh, Upper right   * recombination only at the surface using the '''Simple''' algorithm, Lower left   * recombination at the surface and in the volume using the ''Simple'' algorithm, Lower right   * recombination at the surface and in the volume using the '''Simple full-quad''' algorithm*
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

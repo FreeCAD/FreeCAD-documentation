@@ -16,18 +16,12 @@ Questa macro crea un cerchio su tre punti selezionati, ortogonalmente o nello sp
 <img alt="" src=images/Macro_Draft_Circle_3_Points01.png  style="width   *480px;"> 
 *Circle built on 3 selected points*
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Selezionare 3 punti, o 3 forme nella vista 3D ed eseguire la macro.
 Se la forma è una linea, le coordinate sono date dal centro della linea.
 
-![Circle\_on\_3\_points](images/Circle_on_3_points.png ) 
-
-
-</div>
+![Circle_on_3\_points](images/Circle_on_3_points.png ) 
 
 ## Opzioni
 
@@ -95,7 +89,7 @@ Per scaricarle, posizionare il mouse sopra l\'icona, fare clic destro e poi **sa
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Make\_Circle\_3\_Points.FCMacro**
+**Make_Circle_3\_Points.FCMacro**
 
 
 {{MacroCode|code=
@@ -638,7 +632,7 @@ Guarda alternativamente con l\'occhio sinistro e l\'occhio destro per vedere le 
 ## Crediti
 
 La genesi della macro **Draft Circle 3 Points** si trova nel forum [(PYTHON) coordonnées d\'un point](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) a cui ha contribuito flachyjoe che ringrazio.
-La formula è presa da [cercle\_3pts.pdf](http   *//www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) ed utilizzata con il gentile permesso del suo autore. La formula *circle in 3D space*, adattata da \" galou\_breizh \" è presa da [Circumscribed\_circle](http   *//en.wikipedia.org/wiki/Circumscribed_circle)
+La formula è presa da [cercle_3pts.pdf](http   *//www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) ed utilizzata con il gentile permesso del suo autore. La formula *circle in 3D space*, adattata da \" galou_breizh \" è presa da [Circumscribed_circle](http   *//en.wikipedia.org/wiki/Circumscribed_circle)
 Altre macro si trovano in   *
 \* [Macro Draft Circle 3 Points](Macro_Draft_Circle_3_Points.md)
 \* [Macro Draft Circle 3 Points 3D](Macro_Draft_Circle_3_Points_3D.md)

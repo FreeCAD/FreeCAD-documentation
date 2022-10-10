@@ -1,8 +1,9 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *Surface Sections
+   Name/de   *Surface Querschnitte
    MenuLocation   *Surface → Sections
-   Workbenches   *[Surface](Surface_Workbench.md)
+   Workbenches   *[Surface](Surface_Workbench/de.md)
    Version   *0.19
 ---
 
@@ -11,9 +12,9 @@
 ## Beschreibung
 
 
-**[<img src=images/Surface_Sections.svg style="width   *16px"> [Surface Sections](Surface_Sections.md)**
+**[<img src=images/Surface_Sections.svg style="width   *16px"> [Surface Querschnitte](Surface_Sections/de.md)**
 
-is used to create a surface from edges that represent transversal sections of a surface.
+wird verwendet, um eine Oberfläche über Kanten zu erstellen, die Querschnitte einer Fläche repräsentieren.
 
 <img alt="" src=images/Surface_Sections_edges_example.png  style="width   *" height="250px;"> <img alt="" src=images/Surface_Sections_example.png  style="width   *" height="250px;">
 

@@ -1,20 +1,14 @@
 # Macro FCHoneycombMaker/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=FCHoneycombMaker
 |Icon=FCHoneycombMakerIcon.png
 |Description=Questa macro crea una griglia a nido d'ape parametrica.<br/>Le proprietà parametriche sono contenute in un foglio di calcolo.<br/>Puoi anche cambiare l'oggetto base per la griglia a nido d'ape per ottenere altri array interessanti, come questa cassa d'uovo cambiando il oggetto esagonale di base con un ellissoide a forma di uovo.<br/>L'inclusione del raggio esagonale, la separazione tra esagoni, ecc., può essere modificata tramite un foglio di calcolo incluso.
 |Author=TheMarkster
-|Version=2019.07.04
-|Date=2019-07-04
+|Version=2020.10.30
+|Date=2020-10-30
 |FCVersion=0.17 é superiore
 |Download=[https   *//www.freecadweb.org/wiki/images/2/2d/FCHoneycombMakerIcon.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -30,7 +24,7 @@ Puoi anche cambiare l\'oggetto base per la griglia a nido d\'ape per ottenere al
 
 ToolBar Icon ![](images/FCHoneycombMakerIcon.png )
 
-**Macro\_FCHoneycombMaker.FCMacro**
+**Macro_FCHoneycombMaker.FCMacro**
 
 
 {{MacroCode|code=

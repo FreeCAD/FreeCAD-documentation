@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher Arc
    Name/fr   *Sketcher Création d'arc
-   MenuLocation   *Esquisse → Géométries d'esquisse → Créer un arc à partir du centre
+   MenuLocation   *Sketch → Géométries d'esquisse → Créer un arc à partir du centre
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut   ***G** **A**
    SeeAlso   *[Sketcher Cercle](Sketcher_CompCreateCircle/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-Cet outil dessine un arc en cliquant trois points    * le **centre**, l**\'angle de départ** qui détermine également le rayon, et l**\'angle d\'arrivée**.
+Cet outil dessine un arc en choisissant trois points    * le centre, l\'angle de départ le long du rayon et l\'angle d\'arrivée.
 
 Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanche avec une icône d\'arc rouge. Les coordonnées du pointeur sont affichées à l\'écran, à côté et en bleu, la mise à jour se fait en temps réel.
 

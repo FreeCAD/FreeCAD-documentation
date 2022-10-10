@@ -22,6 +22,10 @@ The <img alt="" src=images/TechDraw_ShareView.svg  style="width   *24px;"> **Tec
 3.  A dialog will open to allow you to select a View, from Page and to Page.
 4.  Press the **OK** button.
 
+## Notes
+
+There is only one View object after the share operation. Any changes made to the View will be reflected in both Pages. If the View is deleted from one Page it will also be deleted from the other.
+
 ## Scripting
 
 
@@ -37,10 +41,6 @@ import TechDrawTools
 #MoveView with a True parameter in the last position performs a copy
 TechDrawTools.MoveView(viewName, fromPageName, toPageName, True)
 ```
-
-## Notes
-
-There is only one View object after the share operation. Any changes made to the View will be reflected in both Pages. If the View is deleted from one Page it will also be deleted from the other.
 
 
 

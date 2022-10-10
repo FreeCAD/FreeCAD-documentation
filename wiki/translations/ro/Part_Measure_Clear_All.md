@@ -10,9 +10,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Acest instrument șterge toate măsurătorile din vizualizarea 3D .
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

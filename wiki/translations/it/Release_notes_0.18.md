@@ -1,12 +1,7 @@
 # Release notes 0.18/it
-<div class="mw-translate-fuzzy">
-
-FreeCAD 0.18 è stato rilasciato il 12 marzo 2019, può essere scaricato dalla pagina [Download](Download/it.md). Questo è un riassunto delle modifiche più interessanti. L\'elenco completo delle modifiche è disponibile in [MantisBT bugtracker FC 0.18 changelog](https   *//www.freecadweb.org/tracker/changelog_page.php?version_id=78).
+FreeCAD 0.18 è stato rilasciato il 12 marzo 2019, può essere scaricato dalla pagina [GitHub](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.3). L\'elenco completo delle modifiche è disponibile in [MantisBT bugtracker FC 0.18 changelog](https   *//www.freecadweb.org/tracker/changelog_page.php?version_id=78).
 
 Le note di rilascio delle precedenti versioni di FreeCAD sono disponibili nella pagina [Funzionalità di FreeCAD](Feature_list/it#Release_notes.md).
-
-
-</div>
 
 ## Punti salienti 
 
@@ -50,9 +45,6 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 
 ## Ambiente Arch 
 
-
-<div class="mw-translate-fuzzy">
-
 <img alt="Arch al lavoro" src=images/Arch_release018_example.jpg  style="width   *700px;">
 
 -   Le [Pareti](Arch_Wall/it.md) ora possono essere visualizzate come una pila di blocchi. Ci sono molte opzioni per configurare le loro dimensioni e come devono essere impilati i blocchi.
@@ -70,15 +62,9 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 -   Tutti gli oggetti ed i materiali di Arch ora supportano i sistemi di classificazione (non ancora supportati dall\'importazione o esportazione IFC).
 -   [Riferimento esterno](Arch_Reference/it.md) ora permette di collegare parti da un altro file di FreeCAD in un file di FreeCAD.
 
-
-</div>
-
 -   Ma c\'è molto di più! Controllare in [Arch/BIM development reports](https   *//github.com/yorikvanhavre/BIM_Workbench/wiki) per vedere tutto ciò che è stato fatto in quest\'anno.
 
 ## Ambiente Draft 
-
-
-<div class="mw-translate-fuzzy">
 
 <img alt="Strumenti di annotazione di Draft più precisi" src=images/Draft_release018_example.jpg  style="width   *700px;">.
 
@@ -92,9 +78,6 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 
 
 
-
-
-</div>
 
 ## Ambiente FEM 
 
@@ -156,8 +139,8 @@ La gestione del materiale è stata migliorata. Ora è possibile utilizzare l\'ed
 
 ### Post Processori 
 
--   grbl\_post -- argomento per sopprimere i comandi di cambio utensile
--   grbl\_g81 post processor
+-   grbl_post -- argomento per sopprimere i comandi di cambio utensile
+-   grbl_g81 post processor
 
 ## Ambiente Sketcher 
 
@@ -177,7 +160,7 @@ La gestione del materiale è stata migliorata. Ora è possibile utilizzare l\'ed
 Rilevanti Link del forum   *
 
 -   [Recent Several Sketcher improvements](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192)
--   [Feature \#1632   * Allow entering of diameter instead of radius for circle radius constraint](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=29152)
+-   [Feature #1632   * Allow entering of diameter instead of radius for circle radius constraint](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=29152)
 -   [Sketcher Auto Remove Redundants mode](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Constraints extended naming](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 

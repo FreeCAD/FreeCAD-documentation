@@ -5,9 +5,9 @@
 
 ## Introduzione
 
-<img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> L**\'Ambiente Draft** si concentra principalmente sulla creazione e modifica di oggetti 2D in FreeCAD. Ma non è limitato al piano XY del sistema di coordinate globale. I suoi oggetti possono avere qualsiasi orientamento e posizione nello spazio 3D e alcuni oggetti Draft possono essere planari o non planari.
+L**\'Ambiente Draft** <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> si concentra principalmente sulla creazione e modifica di oggetti 2D in FreeCAD. Ma non è limitato al piano XY del sistema di coordinate globale. I suoi oggetti possono avere qualsiasi orientamento e posizione nello spazio 3D e alcuni oggetti Draft possono essere planari o non planari.
 
-Gli oggetti Draft possono essere utilizzati per il disegno generale, in modo simile a quanto si può fare con Inkscape o AutoCAD. Ma possono anche costituire la base per la creazione di oggetti 3D in altri ambienti di lavoro. Una [Polilinea](Draft_Wire/it.md) può definire il percorso di un [Muro](Arch_Wall/it.md), un [Poligono](Draft_Polygon/it.md) può essere utilizzato per un [Estruzione](Part_Extrude/it.md), ecc. Molti degli [strumenti di Modifica](#Modificare.md) possono essere comunque applicati agli oggetti 2D e 3D creati con altri ambienti di lavoro. Ad esempio, puoi [spostare](Draft_Move/it.md) uno [Sketch](Sketcher_Workbench/it.md) o creare una [Serie ortogonale](Draft_OrthoArray/it.md) da un oggetto [Part](Part_Workbench/it.md).
+Gli oggetti Draft possono essere utilizzati per il disegno generale, in modo simile a quanto si può fare con Inkscape o AutoCAD. Ma possono anche costituire la base per la creazione di oggetti 3D in altri ambienti di lavoro. Una [Polilinea](Draft_Wire/it.md) può definire il percorso di un [Muro](Arch_Wall/it.md), un [Poligono](Draft_Polygon/it.md) può essere utilizzato per un [Estrusione](Part_Extrude/it.md), ecc. Molti degli [strumenti di Modifica](#Modificare.md) possono essere comunque applicati agli oggetti 2D e 3D creati con altri ambienti di lavoro. Ad esempio, puoi [spostare](Draft_Move/it.md) uno [Sketch](Sketcher_Workbench/it.md) o creare una [Serie ortogonale](Draft_OrthoArray/it.md) da un oggetto [Part](Part_Workbench/it.md).
 
 L\'ambiente Draft fornisce anche strumenti per definire un [piano di lavoro](Draft_SelectPlane/it.md), una [griglia](Draft_Snap_Grid/it.md) e un [sistema di aggancio](Draft_Snap.md) per controllare con precisione la posizione della geometria.
 
@@ -24,13 +24,13 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Wire.svg  style="width   *32px;"> [Polilinea](Draft_Wire/it.md)   * crea una polilinea, una sequenza di diversi segmenti lineari connessi.
 
--   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Raccordo](Draft_Fillet/it.md)   * crea un raccordo, un angolo arrotondato, o uno smusso, un angolo retto, tra due [Linee](Draft_Line/it.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Raccordo](Draft_Fillet/it.md)   * crea un raccordo, un angolo arrotondato, o uno smusso, un angolo retto, tra due [Linee](Draft_Line/it.md). {{Version/it|0.19}}
 
 -   <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> Strumenti Arco
 
    ** <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Arco](Draft_Arc/it.md)   * crea un arco circolare da un centro, un raggio, un angolo iniziale e un angolo di apertura.
 
-   ** <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Arco per 3 punti](Draft_Arc_3Points/it.md)   * crea un arco circolare per tre punti che ne definiscono la circonferenza. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Arco per 3 punti](Draft_Arc_3Points/it.md)   * crea un arco circolare per tre punti che ne definiscono la circonferenza.
 
 -   <img alt="" src=images/Draft_Circle.svg  style="width   *32px;"> [Cerchio](Draft_Circle/it.md)   * crea un cerchio da un centro e un raggio.
 
@@ -44,7 +44,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> Strumenti Bézier
 
-   ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Curva Cubica di Bézier](Draft_CubicBezCurve/it.md)   * crea una curva di Bézier di terzo grado. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Curva Cubica di Bézier](Draft_CubicBezCurve/it.md)   * crea una curva di Bézier di terzo grado.
 
    ** <img alt="" src=images/Draft_BezCurve.svg  style="width   *32px;"> [Curva di Bézier](Draft_BezCurve/it.md)   * crea una curva di Bézier da più punti.
 
@@ -54,7 +54,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width   *32px;"> [Forma da testo](Draft_ShapeString/it.md)   * crea una forma composta che rappresenta una stringa di testo.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width   *32px;"> [Tratteggio](Draft_Hatch/it.md)   * crea tratteggi sulle facce piane di un oggetto selezionato. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width   *32px;"> [Tratteggio](Draft_Hatch/it.md)   * crea tratteggi sulle facce piane di un oggetto selezionato. {{Version/it|0.20}}
 
 ## Annotazioni
 
@@ -64,7 +64,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Label.svg  style="width   *32px;"> [Etichetta](Draft_Label/it.md)   * crea un testo su più righe con una linea guida a 2 segmenti e una freccia.
 
--   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width   *32px;"> [Stili di Annotazione\...](Draft_AnnotationStyleEditor/it.md)   * consente di definire stili che influiscono sulle proprietà visive di oggetti simili ad annotazioni. <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width   *32px;"> [Stili di Annotazione\...](Draft_AnnotationStyleEditor/it.md)   * consente di definire stili che influiscono sulle proprietà visive di oggetti simili ad annotazioni.
 
 ## Modificare
 
@@ -86,19 +86,19 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> Strumenti serie
 
-   ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Serie](Draft_OrthoArray/it.md)   * crea una serie ortogonale da un oggetto selezionato. Può opzionalmente creare una serie di [Link](App_Link.md). <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Serie](Draft_OrthoArray/it.md)   * crea una serie ortogonale da un oggetto selezionato. Può opzionalmente creare una serie di [Link](App_Link.md).
 
-   ** <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> [Serie polare](Draft_PolarArray/it.md)   * crea una serie da un oggetto selezionato, posizionando copie lungo una circonferenza. Facoltativamente, può creare una serie di [Link](App_Link/it.md). <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> [Serie polare](Draft_PolarArray/it.md)   * crea una serie da un oggetto selezionato, posizionando copie lungo una circonferenza. Facoltativamente, può creare una serie di [Link](App_Link/it.md).
 
-   ** <img alt="" src=images/Draft_CircularArray.svg  style="width   *32px;"> [Serie circolare](Draft_CircularArray/it.md)   * crea una serie da un oggetto selezionato, posizionando copie lungo circonferenze concentriche. Facoltativamente, può creare un serie di [Link](App_Link.md). <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_CircularArray.svg  style="width   *32px;"> [Serie circolare](Draft_CircularArray/it.md)   * crea una serie da un oggetto selezionato, posizionando copie lungo circonferenze concentriche. Facoltativamente, può creare un serie di [Link](App_Link.md).
 
    ** <img alt="" src=images/Draft_PathArray.svg  style="width   *32px;"> [Serie su tracciato](Draft_PathArray/it.md)   * crea una matrice da un oggetto selezionato posizionando le copie lungo un tracciato.
 
-   ** <img alt="" src=images/Draft_PathLinkArray.svg  style="width   *32px;"> [Serie di link su tracciato](Draft_PathLinkArray/it.md)   * idem, ma crea una serie di [Link](App_Link.md) invece di una serie normale. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_PathLinkArray.svg  style="width   *32px;"> [Serie di link su tracciato](Draft_PathLinkArray/it.md)   * idem, ma crea una serie di [Link](App_Link.md) invece di una serie normale.
 
    ** <img alt="" src=images/Draft_PointArray.svg  style="width   *32px;"> [Serie di punti](Draft_PointArray/it.md)   * crea una serie da un oggetto selezionato posizionando copie nei punti da un assieme di punti.
 
-   ** <img alt="" src=images/Draft_PointLinkArray.svg  style="width   *32px;"> [Serie di link su punti](Draft_PointLinkArray/it.md)   * idem, ma crea una serie di [Link](App_Link.md) invece di una serie normale.<small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_PointLinkArray.svg  style="width   *32px;"> [Serie di link su punti](Draft_PointLinkArray/it.md)   * idem, ma crea una serie di [Link](App_Link.md) invece di una serie normale.
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> [Modifica](Draft_Edit/it.md)   * mette gli oggetti selezionati in modalità Modifica bozza. In questa modalità le proprietà degli oggetti possono essere modificate graficamente.
 
@@ -130,7 +130,7 @@ La [Barra di draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro
 
 -   ![](images/Draft_tray_button_plane.png ) [Piano di lavoro](Draft_SelectPlane/it.md)   * seleziona il piano di lavoro Draft corrente. Disponibile anche nel menu   * **Draft → Utilità → <img src="images/Draft_SelectPlane.svg" width=16px> Seleziona piano**.
 
--   ![](images/Draft_tray_button_style.png ) [Cambia lo stile](Draft_SetStyle/it.md)   * imposta lo stile predefinito per i nuovi oggetti. Disponibile anche nel menu   * **Draft → Utilità → <img src="images/Draft_SetStyle.svg" width=16px> Imposta stile**. <small>(v0.19)</small> 
+-   ![](images/Draft_tray_button_style.png ) [Cambia lo stile](Draft_SetStyle/it.md)   * imposta lo stile predefinito per i nuovi oggetti. Disponibile anche nel menu   * **Draft → Utilità → <img src="images/Draft_SetStyle.svg" width=16px> Imposta stile**.
 
 -   ![](images/Draft_tray_button_construction.png ) [Attiva/Disattiva la modalità costruzione](Draft_ToggleConstructionMode/it.md)   * attiva o disattiva la modalità di costruzione Draft. Disponibile anche nel menu   * **Draft → Utilità → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Attiva/Disattiva la modalità costruzione**.
 
@@ -138,13 +138,13 @@ La [Barra di draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro
 
 ## Scala per gli strumenti di annotazione 
 
-Con il [widget Scala per gli strumenti di annotazione](Draft_annotation_scale_widget/it.md) è possibile specificare la scala di annotazione di Draft. <small>(v0.19)</small> 
+Con il [widget Scala per gli strumenti di annotazione](Draft_annotation_scale_widget/it.md) è possibile specificare la scala di annotazione di Draft.
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
 ## Widget di aggancio in Draft 
 
-Il [widget di aggancio in Draft](Draft_snap_widget/it.md) può essere utilizzato come alternativa alla [Barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md). <small>(v0.19)</small> 
+Il [widget di aggancio in Draft](Draft_snap_widget/it.md) può essere utilizzato come alternativa alla [Barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
 
 ![](images/Draft_snap_widget_button.png )
 
@@ -164,13 +164,7 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Snap Intersezione](Draft_Snap_Intersection/it.md)   * aggancia all\'intersezione di due bordi.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicolare](Draft_Snap_Perpendicular/it.md)   * aggancia al punto perpendicolare sui bordi.
-
-
-</div>
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicolare](Draft_Snap_Perpendicular/it.md)   * esegue lo snap ai punti perpendicolari sulle facce ({{Version/it|1.0}}) o sugli spigoli.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Snap Estensione](Draft_Snap_Extension/it.md)   * aggancia a una linea immaginaria che si estende oltre i punti finali dei bordi diritti.
 
@@ -192,9 +186,9 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 ## Strumenti di utilità di Draft 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Livello](Draft_Layer/it.md)   * crea un [livello](Draft_Layer/it.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Livello](Draft_Layer/it.md)   * crea un [livello](Draft_Layer/it.md).
 
--   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width   *32px;"> [Aggiunge un nuovo gruppo con nome](Draft_AddNamedGroup/it.md)   * crea un [gruppo](Std_Group.md) con nome e sposta gli oggetti selezionati in quel gruppo. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width   *32px;"> [Aggiunge un nuovo gruppo con nome](Draft_AddNamedGroup/it.md)   * crea un [gruppo](Std_Group.md) con nome e sposta gli oggetti selezionati in quel gruppo. {{Version/it|0.20}}
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width   *32px;"> [Sposta nel gruppo](Draft_AddToGroup/it.md)   * sposta gli oggetti in un [gruppo](Std_Group/it.md). Può anche separare gli oggetti.
 
@@ -238,15 +232,15 @@ Se è presente un documento attivo, il menu contestuale contiene un ulteriore so
 
 ### Opzioni polilinea 
 
-Per una [Polilinea](Draft_Wire/it.md), [BSpline](Draft_BSpline/it.md), [Curva di Bézier Cubica](Draft_CubicBezCurve/it.md) e [Curva di Bézier](Draft_BezCurve/it.md) è disponibile questa opzione aggiuntiva   *
+Per [Linea](Draft_Line/it.md) e [Polilinea](Draft_Wire/it.md) è disponibile questa opzione aggiuntiva   *
 
--   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> Appiattisci questa polilinea   * appiattisce la polilinea in base alla sua geometria interna. Questa opzione attualmente non funziona correttamente.
+-   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> Appiattisci   * appiattisce la polilinea sul corrente [Piano di lavoro](Draft_SelectPlane/it.md). Questa opzione non funziona correttamente in {{VersionMinus|0.19}}.
 
 ### Opzioni del contenitore di livelli 
 
 Per un [Contenitore di livelli](Draft_Layer/it.md) sono disponibili queste opzioni aggiuntive   *
 
--   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Unisci i livelli duplicati](Draft_Layer/it#Opzioni_del_contenitore_di_Livelli.md)   * unisce tutti i livelli con la stessa etichetta di base. Questo non funziona in FreeCAD versione 0.19.
+-   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Unisci i livelli duplicati](Draft_Layer/it#Opzioni_del_contenitore_di_Livelli.md)   * unisce tutti i livelli con la stessa etichetta di base.
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width   *32px;"> [Aggiungi un nuovo livello](Draft_Layer/it#Contenitore_di_liveeli_di_Draft.md)   * aggiunge un nuovo livello al documento corrente.
 
@@ -315,7 +309,7 @@ freecad -t TestDraft
 
 Vedere anche   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) and [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-L\'ambiente include un modulo per creare dei campioni di tutti gli oggetti in un nuovo documento. {{Version/it|0.19}}
+L\'ambiente include un modulo per creare dei campioni di tutti gli oggetti in un nuovo documento.
 
 Utilizzare questo per verificare che tutti gli oggetti siano prodotti correttamente   *
 

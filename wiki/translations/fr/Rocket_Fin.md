@@ -112,7 +112,7 @@ Les ailerons à travers la paroi (Through the Wall = TTW) ajoutent une résistan
 
 {{TitleProperty|Fin}}
 
--    **Fin Type**   * Définit la forme de l\'aileron. Pour l\'instant, seuls les ailerons trapézoïdaux sont pris en charge.
+-    **Fin Type**   * Définit la forme de l\'aileron.
 
 -    **Height**   * La hauteur de l\'aileron.
 

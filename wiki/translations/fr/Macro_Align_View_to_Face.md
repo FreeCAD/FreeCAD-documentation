@@ -2,17 +2,17 @@
 {{Macro/fr
 |Name=Macro Align View to Face
 |Icone=Macro_Align_View_to_Face.png
-|Description=Cette macro aligne la vue sur la face sélectionnée
+|Description=Cette macro aligne la vue en cours sur la face sélectionnée
 |Author=Rockn
-|Version=2.0
-|Date=2016-03-06
+|Version=3.0
+|Date=2022-10-08
 |FCVersion=Toutes
 |Download=[https   *//www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro pivote la vue courante perpendiculairement sur la face sélectionnée d\'un objet existant.
+Cette macro fait pivoter la vue en courspour la faire pointer perpendiculairement sur une face sélectionnée d\'un objet existant.
 
 ## Utilisation
 
@@ -23,13 +23,22 @@ Cette macro pivote la vue courante perpendiculairement sur la face sélectionné
 
 Icône de la barre d\'outils ![](images/Macro_Align_View_to_Face.png )
 
-**Macro\_Align\_View\_to\_Face.FCMacro** {{MacroCode|code=
+**Macro_Align_View_to_Face.FCMacro** {{MacroCode|code=
 
 # -*- coding   * utf-8 -*-
 # Set the current view perpendicular to the selected face
 # Place la vue perpendiculairement a la face selectionnee
-# 2013 Jonathan Wiedemann, 2016 Werner Mayer
-
+# 2013 Jonathan Wiedemann,
+# 2016 Werner Mayer, 
+# 2022 tchernomax, https   *//forum.freecadweb.org/viewtopic.php?p=630019#p630019
+#
+__title__   = "Align_View_to_Face"
+__author__  = "Jonathan Wiedemann (Rockn)"
+__url__     = "https   *//www.freecadweb.org/"
+__Wiki__    = "https   *//wiki.freecadweb.org/Macro_Align_View_to_Face"
+__version__ = "3.0"
+__date__    = "2022/10/08"  #YYYY/MM/DD
+#
 from pivy import coin
 
 def pointAt(normal, up)   *
@@ -53,10 +62,10 @@ def pointAt(normal, up)   *
 
     return App.Placement(rot).Rotation
 
-s=Gui.Selection.getSelectionEx()
-obj=s[0]
-faceSel = obj.SubObjects[0]
-dir = faceSel.normalAt(0,0)
+sel=Gui.Selection.getSelectionEx()[0]
+obj=sel.Object
+face=sel.SubObjects[0]
+dir = face.normalAt(0,0)
 cam = FreeCADGui.ActiveDocument.ActiveView.getCameraNode()
 
 if dir.z == 1    *
@@ -66,7 +75,21 @@ elif dir.z == -1    *
 else    *
     rot = pointAt(dir, App.Vector(0.0,0.0,1.0))
 
-cam.orientation.setValue(rot.Q)
+def computeRotation(obj)   *
+    if not obj.Parents   *
+        # the object has no parent
+        return obj.Placement.Rotation
+    # the object has parent
+    # we compute the rotation of it's parent and multiply it with it's rotation
+    return parentRotate(obj.Parents[0][0]).multiply(obj.Placement.Rotation)
+
+if obj.Parents   *
+    obj_par = obj.Parents[0][0]
+    rot_par = computeRotation(obj_par)
+    cam.orientation.setValue(rot_par.multiply(rot).Q)
+else   *
+    cam.orientation.setValue(rot.Q)
+
 Gui.SendMsgToActiveView("ViewSelection")
 
 }}

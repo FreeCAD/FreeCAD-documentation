@@ -22,11 +22,11 @@ Crée une contrainte de température initiale pour une analyse thermo-mécanique
 
 ## Limitations
 
-La contrainte applique la température initiale à tous les nœuds du modèle FEA.
+Cette contrainte applique la température initiale à tous les nœuds du modèle FEA - il n\'est pas possible de sélectionner des régions individuellement.
 
 ## Remarques
 
-1.  La contrainte utilise \*\*INITIAL CONDITIONS de la carte dans CalculiX. La contrainte temperature initial est expliquée à <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
+-   Cette contrainte utilise la carte \*INITIAL CONDITIONS de CalculiX. La contrainte de température initiale est expliquée à l\'adresse <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>.
 
 
 

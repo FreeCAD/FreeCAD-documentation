@@ -44,7 +44,13 @@ Facendo clic sull\'icona con una faccia preselezionata, lo schizzo viene mappato
 
 ## Note
 
+
+<div class="mw-translate-fuzzy">
+
 Lo schizzo può essere rimappato su un\'altra faccia esistente usando il comando [Mappa schizzo](Sketcher_MapSketch/it.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

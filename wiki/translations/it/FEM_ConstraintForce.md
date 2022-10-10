@@ -44,6 +44,8 @@ Questo comando applica una forza del valore dato \[N\] alla geometria di destina
 
 </div>
 
+![](images/FEM_ConstraintForce_example.JPG )
+
 ## Notes
 
 Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.

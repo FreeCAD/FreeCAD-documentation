@@ -30,13 +30,13 @@ Vous pouvez utiliser votre propre fichier FreeCAD, mais vous pouvez aussi créer
 -   Créer une fusion avec les deux éléments <img alt="" src=images/Part_Fuse.svg  style="width   *32px;"> [Part Union](Part_Fuse/fr.md)
 -   Sauvegarder votre fichier.
 
-## Méthode d\'exportation 1   * Utilisation de \"Fichier → Exporter\" 
+## Méthode d\'exportation 1    * utilisation de \"Fichier → Exporter\" 
 
 -   Sélectionnez le solide à exporter dans la vue arborescente.
 -   Choisissez **Fichier** → **Exporter...** et définissez le type de fichier sur \"STL Mesh (\*.stl \*.ast)\".
 -   Entrez votre nom de fichier. L\'extension par défaut est \".stl\". Vous devez inclure l\'extension \".ast\" dans le nom du fichier pour générer un fichier \".ast\". Choisissez **Sauvegarder**.
 
-## Méthode d\'exportation 2   * Utilisation de l\'atelier Mesh dans FreeCAD 
+## Méthode d\'exportation 2    * utilisation de l\'atelier Mesh dans FreeCAD 
 
 -   Basculez vers l\'<img alt="" src=images/Workbench_Mesh.svg  style="width   *24px;"> [Atelier Mesh](Mesh_Workbench/fr.md).
 -   Sélectionnez le solide à mailler dans la vue arborescente.
@@ -63,7 +63,7 @@ La méthode 2 est à privilégier. Parmi les raisons    *
 
 
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

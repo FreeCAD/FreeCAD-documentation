@@ -3,21 +3,22 @@
    Name   *Part Measure Toggle All
    MenuLocation   *Measure → Toggle All
    Workbenches   *[Part](Part_Workbench.md)
+   SeeAlso   *[Part Measure Toggle 3D](Part_Measure_Toggle_3D.md), [Part Measure Toggle Delta](Part_Measure_Toggle_Delta.md)
 ---
 
 # Part Measure Toggle All
 
 ## Description
 
-This tool toggles the visibility of all measurements from the [3D view](3D_view.md).
+This command toggles the visibility of all measurements in the [3D view](3D_view.md).
 
- ![](images/MeasureLinear3DandDelta1.PNG ) 
+ <img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width   *400px;"> 
 
 ## Usage
 
-1.  Invoke the command several ways   *
-    -   Press the **[<img src=images/Part_Measure_Toggle_All.svg style="width   *16px"> '''Toggle All'''** button.
-    -   Use the **Measure → Toggle All**
+1.  There are several ways to invoke the command   *
+    -   Press the **<img src="images/Part_Measure_Toggle_All.svg" width=16px> [Toggle All](Part_Measure_Toggle_All.md)** button.
+    -   Select the **Measure → <img src="images/Part_Measure_Toggle_All.svg" width=16px> Toggle All** option from the menu.
 
 
 

@@ -1,41 +1,42 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh Export
-   MenuLocation   *Meshes → Export mesh...
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Std Export](Std_Export.md), [Import Export](Import_Export.md)
+   Name/pl   *Siatka   * Eksportuj
+   MenuLocation   *Siatki → Eksportuj siatkę ...
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Eksport](Std_Export/pl.md), [Import Eksport](Import_Export/pl.md)
 ---
 
 # Mesh Export/pl
 
-## Description
+## Opis
 
-The **Mesh Export** command exports a mesh object to a mesh file format. Several file formats are supported.
+Polecenie **Eksportuj siatkę \...** eksportuje obiekt siatkowy do formatu pliku siatkowego. Obsługiwanych jest kilka formatów plików.
 
-## Usage
+## Użycie
 
-1.  Select a single mesh object.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_Export.svg" width=16px> [Mesh Export](Mesh_Export.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_Export.svg" width=16px> Export mesh...** option from the menu.
-    -   Select the **<img src="images/Mesh_Export.svg" width=16px> Export mesh...** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
-3.  Select the correct file format in the dialog box.
-4.  Enter a filename. If you have selected the {{Value|All files (*.*)}} option in the previous step, and do not specify a file extension here, the **.stl** extension will be used.
-5.  Press the **Save** button.
+1.  Wybierz pojedynczy obiekt siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_Export.svg" width=16px> [Eksportuj siatkę ...](Mesh_Export/pl.md)**.
+    -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_Export.svg" width=16px> Eksportuj siatkę ...**.
+    -   Wybierz opcję **<img src="images/Mesh_Export.svg" width=16px> Eksportuj siatkę ...** z menu kontekstowego okna [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+3.  Wybierz odpowiedni format pliku w oknie dialogowym.
+4.  Wprowadź nazwę pliku. Jeśli w poprzednim kroku wybrałeś opcję {{Value|Wszystkie pliki (*.*)}} i nie podałeś tutaj rozszerzenia pliku, zostanie użyte rozszerzenie **.stl**.
+5.  Naciśnij przycisk **Zapisz**.
 
-## Notes
+## Uwagi
 
--   There are some [export preferences related to Mesh Formats](Import_Export_Preferences#Mesh_Formats.md) but these do not apply to this command. They are used by the [Std Export](Std_Export.md) command.
+Istnieje kilka [preferencji eksportu związanych z formatami siatki](Import_Export_Preferences/pl#Formaty_Siatki.md), ale nie dotyczą one tego polecenia. Są one używane przez polecenie [Std   * Eksport](Std_Export/pl.md).
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored   * **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
-## Scripting
+## Tworzenie skryptów 
 
-See also   * [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Zobacz również   * [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To export objects (including mesh objects) to a mesh file format use the `export` method of the Mesh module.
+Aby wyeksportować obiekty *(w tym obiekty siatkowe)* do formatu pliku siatkowego użyj metody `export` modułu *Mesh*.
 
 
 ```python

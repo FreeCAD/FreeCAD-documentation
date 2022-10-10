@@ -1,30 +1,30 @@
 ---
 - GuiCommand   */de
    Name   *TechDraw PageDefault
-   Name/de   *TechDraw StandardSeite
+   Name/de   *TechDraw Standardseite
    MenuLocation   *TechDraw → Neues Zeichnungsblatt aus der Standardvorlage erstellen
    Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso   *[TechDraw SeitenVorlage](TechDraw_PageTemplate/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
+   SeeAlso   *[TechDraw Seitenvorlage](TechDraw_PageTemplate/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
 ---
 
 # TechDraw PageDefault/de
 
 ## Beschreibung
 
-Das Neue Standard Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der Vorlagendatei, die in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegt ist.
+Das Werkzeug Standardseite erstellt ein neues Page-Objekt (Zeichnungsblatt) unter Verwendung der in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegten Standardvorlage.
 
 <img alt="" src=images/A4_LandscapeTD.svg  style="width   *400px;"> 
-*Standardvorlage, die mit TechDraw geliefert wird   * A4 im Querformat, mit editierbaren Textfeldern*
+*Eine Vorlage, die mit TechDraw geliefert wird   * A4 im Querformat, mit editierbaren Textfeldern*
 
 ## Anwendung
 
--   Drücke die **<img src="images/TechDraw_PageDefault.svg" width=16px> [Standardseite einfügen](TechDraw_PageDefault/de.md)**-Schaltfläche. (Ein aktives Dokument muss vorhanden sein).
+-   Die Schaltfläche **<img src="images/TechDraw_PageDefault.svg" width=16px> [Neues Zeichnungsblatt aus der Standardvorlage erstellen](TechDraw_PageDefault/de.md)** drücken. (Ein aktives Dokument muss vorhanden sein).
 
 ## Hinweise
 
 -   Wenn die Seite mit »nicht aktuell halten« markiert ist, ob durch die Eigenschaft »KeepUpdated« oder durch den entsprechend gesetzten Wert unter Einstellungen, wird sie Änderungen des 3D-Modells ignorieren. Dies kann zu ungewöhnlichen Darstellungen führen (fehlende Geometrien, fehlende Maßzahlen usw.). Diese werden korrigiert, sobald die Seite mit dem Werkzeug [Seite neu zeichnen](TechDraw_RedrawPage/de.md) aktualisiert wird. Die Zeichnung wird mit diesem Symbol <img alt="" src=images/TechDraw_Tree_Page_Unsync.png  style="width   *24px;"> im Baum angezeigt, solange die Aktualisierung ausgesetzt ist. Diese Einstellung beeinflusst auch den Startprozess. Wenn die Seite mit »nicht aktuell halten« markiert ist, wird sie beim Programmstart nicht dargestellt.
 
-Wenn die Standardvorlage nicht in der Konfigurationsdatei `user.cfg` angegeben ist, wird das Werkzeug folgendes versuchen   *
+Wenn in der Konfigurationsdatei `user.cfg` keine Standardvorlage angegeben ist, wird das Werkzeug folgendes versuchen   *
 
    *   
     
@@ -87,7 +87,7 @@ Wenn die Standardvorlage nicht in der Konfigurationsdatei `user.cfg` angegeben i
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Neue Standard Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden   * 
+Das Werkzeug Standardseite kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden   * 
 ```python
 page = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawPage','Page')
 template = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawSVGTemplate','Template')
@@ -104,7 +104,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 
 [TechDraw Vorlagen](TechDraw_Templates/de.md) für mehr Informationen zur Erstellung von Vorlagen.
 
-Sobald eine neue Seite erzeugt wurde, enthalten ihre `Vorlagen` Attribute ein `EditierbareTexte` Wörterbuch mit den Namen der bearbeitbaren Felder (Tasten) und ihren textlichen Werte. Kopiere dieses Wörterbuch in eine Variable, führe Änderungen durch und weise dann das Wörterbuch erneut dem `EditierbareTexte` Attribut zu, um die Änderungen zu sehen.
+Sobald eine neue Seite erzeugt wurde, enthält ihr Attribut `Template` ein Wörterbuch (Dictionary-Objekt) `EditableTexts` mit den Namen der editierbaren Felder (Keys) und ihren Textinhalten (Values). Dieses Wörterbuch kann in eine Variable kopiert, geändert und dann erneut dem Attribut `EditableTexts` zugewiesen werden, um die Änderungen anzusehen.
 
 
 ```python

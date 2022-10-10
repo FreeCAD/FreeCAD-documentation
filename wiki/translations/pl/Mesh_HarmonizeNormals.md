@@ -1,28 +1,29 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh HarmonizeNormals
-   MenuLocation   *Meshes → Harmonize normals
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Mesh FlipNormals](Mesh_FlipNormals.md)
+   Name/pl   *Siatka   * Porządkuj wektory normalnych
+   MenuLocation   *Siatka → Porządkuj wektory normalnych
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Odwróć wektory normalnych](Mesh_FlipNormals/pl.md)
 ---
 
 # Mesh HarmonizeNormals/pl
 
-## Description
+## Opis
 
-The **Mesh HarmonizeNormals** command harmonizes the normals of mesh objects.
+Polecenie **Porządkuj wektory normalne** ujednolica normalne obiektów siatkowych.
 
-## Usage
+## Użycie
 
-1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_HarmonizeNormals.svg" width=16px> [Mesh HarmonizeNormals](Mesh_HarmonizeNormals.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_HarmonizeNormals.svg" width=16px> Harmonize normals** option from the menu.
+1.  Wybierz jeden lub więcej obiektów siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_HarmonizeNormals.svg" width=16px> [Porządkuj wektory normalnych](Mesh_HarmonizeNormals/pl.md)**.
+    -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_HarmonizeNormals.svg" width=16px> Porządkuj wektory normalnych**.
 
-## Notes
+## Uwagi
 
--   This command can produce a mesh with flipped normals. The [Mesh FlipNormals](Mesh_FlipNormals.md) command can be used to correct this.
--   For a clear indication of the orientation of the faces of mesh objects make sure the **Lighting** property of the mesh objects is set to {{Value|One side}}. The color of the back side of their faces will then depend on the backlight settings   * **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See   * [Preferences Editor](Preferences_Editor#3D_View.md).
+-   To polecenie może spowodować powstanie siatki z odwróconymi normalnymi. Polecenie [Odwróć wektory normalnych](Mesh_FlipNormals/pl.md) może być użyte do poprawy tego stanu rzeczy.
+-   Dla wyraźnego wskazania orientacji powierzchni obiektów siatkowych upewnij się, że właściwość **Lighting** obiektów siatkowych jest ustawiona na wartość {{Value|One side}}. Kolor tylnej strony ich ścian będzie wtedy zależał od ustawień podświetlenia   * **Edycja → Preferencje ... → Wyświetlanie → Widok 3D → Kolor podświetlenia - Intensywność**. Zobacz informacje na stronie   * [Edytor ustawień](Preferences_Editor/pl#Widok_3D.md).
 
 
 

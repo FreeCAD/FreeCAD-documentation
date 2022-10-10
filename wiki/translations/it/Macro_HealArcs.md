@@ -17,7 +17,7 @@ Talvolta gli archi vengono trasformati in BSpline, per esempio quando si applica
 
 ## Script
 
-ToolBar Icon ![](images/Macro_HealArcs.png ) **Macro\_HealArcs.FCMacro**
+Icona barra strumenti ![](images/Macro_HealArcs.png ) **Macro_HealArcs.FCMacro**
 
 
 {{MacroCode|code=

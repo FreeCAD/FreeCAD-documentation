@@ -20,21 +20,9 @@ To narzędzie zostało usunięte w wersji 0.18, ale ponownie wprowadzone w wersj
 1.  Jeśli masz wiele stron w swoim pliku, wybierz tę, którą chcesz zaktualizować.
 2.  Wciśnij przycisk **<img src="images/TechDraw_RedrawPage.svg" width=24px> '''Przerysuj stronę'''**.
 
-## Opcje
-
-Brak.
-
-## Właściwości
-
--   nie ma
-
 ## Tworzenie skryptów 
 
 Polecenie **Przerysuj stronę**nie jest bezpośrednio dostępne w skryptach.
-
-## Uwagi
-
--   Obecnie brak.
 
 
 

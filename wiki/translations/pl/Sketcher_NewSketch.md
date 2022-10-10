@@ -29,7 +29,7 @@ Kliknięcie na ikonę z *(wstępnie wybraną)* powierzchnią spowoduje mapowanie
 
 ## Uwagi
 
-Szkic można ponownie zamapować do innej już istniejącej powierzchni za pomocą polecenia [Map Sketch](Sketcher_MapSketch.md).
+Szkic można ponownie zamapować do innej już istniejącej powierzchni za pomocą polecenia [Mapuj Szkic na powierzchnię \...](Sketcher_MapSketch/pl.md).
 
 Szkic można przesuwać w przestrzeni [widoku 3D](3D_view/pl.md) za pomocą opcji [Umieszczenie](Placement.md).
 

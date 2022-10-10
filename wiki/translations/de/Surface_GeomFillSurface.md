@@ -1,8 +1,9 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *Surface GeomFillSurface
+   Name/de   *Surface GeomFüllfläche
    MenuLocation   *Surface → Fill boundary curves
-   Workbenches   *[Surface](Surface_Workbench.md)
+   Workbenches   *[Surface](Surface_Workbench/de.md)
    Version   *0.17
 ---
 
@@ -11,9 +12,9 @@
 ## Beschreibung
 
 
-**[<img src=images/Surface_GeomFillSurface.svg style="width   *16px"> [Surface GeomFillSurface](Surface_GeomFillSurface.md)**
+**[<img src=images/Surface_GeomFillSurface.svg style="width   *16px"> [Surface GeomFüllfläche](Surface_GeomFillSurface/de.md)**
 
-creates a parametric surface from two, three, or four boundary edges, trying to create a smooth transition between them.
+erstellt eine parametrische Oberfläche aus zwei, drei, oder vier Randkurven mit einem möglicht glatten Übergang zwischen ihnen.
 
 <img alt="" src=images/Surface_GeomFillSurface_4_edges.png  style="width   *330px;"> <img alt="" src=images/Surface_GeomFillSurface_4_edges_example.png  style="width   *330px;">
 

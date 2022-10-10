@@ -39,6 +39,16 @@ Questo strumento ti consente di posizionare una vista di un [foglio di calcolo](
 
 ## Proprietà
 
+See also [TechDraw View](TechDraw_View#Properties.md).
+
+### Data
+
+
+{{TitleProperty|Spreadsheet}}
+
+
+<div class="mw-translate-fuzzy">
+
 -    **Source**   * Il foglio di calcolo da aggiungere alla pagina
 
 -    **Cell Start**   * La cella in alto a sinistra dell\'intervallo di celle da includere in questa vista
@@ -52,6 +62,13 @@ Questo strumento ti consente di posizionare una vista di un [foglio di calcolo](
 -    **Font Size**   * La dimensione del carattere dei testi
 
 -    **Line Width**   * La larghezza dei bordi delle celle
+
+
+</div>
+
+## Notes
+
+-   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are   * {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https   *//forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
 
 
 <div class="mw-translate-fuzzy">

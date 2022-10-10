@@ -2,7 +2,7 @@
 - GuiCommand   *
    Name   *Sketcher B-splines
    Icon   *Sketcher_CompCreateBSpline.png
-   MenuLocation   *None (toolbar only)
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench.md)
    Version   *0.17
 ---

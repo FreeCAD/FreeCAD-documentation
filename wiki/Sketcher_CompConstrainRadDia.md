@@ -1,8 +1,8 @@
 ---
 - GuiCommand   *
    Name   *Sketcher constrain arc or circle
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench.md)
-   MenuLocation   *None (toolbar only)
 ---
 
 # Sketcher CompConstrainRadDia

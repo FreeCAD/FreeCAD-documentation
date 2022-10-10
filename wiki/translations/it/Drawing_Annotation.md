@@ -2,15 +2,11 @@
 - GuiCommand   */it
    Name   *Drawing_Annotation
    Name/it   *Annotazione
-   Workbenches   *[Drawing](Drawing_Workbench/it.md)
    MenuLocation   *Drawing → Annotazione
-   Shortcut   *Nessuno
+   Workbenches   *[Drawing](Drawing_Workbench/it.md), [Completa](Complete_Workbench.md)
 ---
 
 # Drawing Annotation/it
-
-
-</div>
 
 ### Descrizione
 
@@ -32,13 +28,7 @@ Questo comando consente di posizionare un blocco di testo in una [pagina di dise
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/it|[Inserisci una vista](Drawing_View/it.md)|[Ritaglio](Drawing_Clip/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_View.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Clip.png}}
-
-
-</div>
 
 
 {{Drawing Tools navi
@@ -48,4 +38,4 @@ Questo comando consente di posizionare un blocco di testo in una [pagina di dise
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Annotation/it

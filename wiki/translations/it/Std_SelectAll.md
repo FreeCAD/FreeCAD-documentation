@@ -22,13 +22,7 @@ Il comando **Seleziona tutto** permette di selezionare tutti gli elementi di un 
 -   Dopo aver fatto clic nella vista Struttura per assicurarsi che tutto abbia lo stato attivo, al posto di questo comando è possibile utilizzare la scorciatoia da tastiera **Ctrl** + **A**.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

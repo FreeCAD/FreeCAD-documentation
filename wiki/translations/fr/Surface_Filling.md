@@ -1,6 +1,5 @@
 ---
 - GuiCommand   */fr
-   Icon   *Filling.svg
    Name   *Surface Filling
    Name/fr   *Surface Remplissage
    MenuLocation   *Surface → Filling...

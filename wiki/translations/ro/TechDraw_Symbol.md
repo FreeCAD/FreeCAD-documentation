@@ -45,31 +45,7 @@ If the symbol appears larger than expected, use the scale property to adjust its
 
 ## Properties
 
-
-{{TitleProperty|Base}}
-
-See [TechDraw View](TechDraw_View#Properties.md)
-
--    **X**
-    
-
--    **Y**
-    
-
--    **Lock Position**
-    
-
--    **Rotation**
-    
-
--    **Scale Type**
-    
-
--    **Scale**
-    
-
--    **Caption**
-    
+See also [TechDraw View](TechDraw_View#Properties.md).
 
 
 {{TitleProperty|Drawing view}}

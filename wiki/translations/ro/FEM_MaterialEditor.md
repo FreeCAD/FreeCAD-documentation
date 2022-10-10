@@ -55,7 +55,8 @@ The material editor can currently be accessed by either   *
 -   **Add property**   * Permite să se adauge o npouă proprietate persoanlizată
 -   **Delete property**   * Permite editarea conținutului proprietăților materialelor
 
-Note   *
+
+{{Arch Tools navi/ro}}
 
 -   Butoanele **OK** și **Cancel** au același efect atunci când Material editor nu este utilizat pentru editarea directă a proprietății materialului în obiectul existent.
 
@@ -69,4 +70,4 @@ Note   *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/ro

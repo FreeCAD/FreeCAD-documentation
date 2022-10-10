@@ -1,20 +1,24 @@
 # Macro MoveToOrigin/ru
 {{Macro
-|Name=MoveToOrigin
-|Description=Moves the selected location of an object to the Origin.<br > This macro translates the [https   *//wiki.freecadweb.org/Placement Placement] of an object so that a selected location becomes its new origin.  This may be useful when imported objects from other formats like STL or STEP are inconveniently located for further processing by FreeCAD.  
+|Name=Macro MoveToOrigin
+|Icon=Centericon.png
+|Description=Moves the selected location of an object to the Origin.<br > This macro translates the [https   *//wiki.freecadweb.org/Placement Placement] of an object so that a selected location becomes its new origin. This may be useful when imported objects from other formats like STL or STEP are inconveniently located for further processing by FreeCAD.  
 |Author=Edwilliams16
-|Download=[https   *//wiki.freecadweb.org/File   *Centericon.png Centericon.png]
+|Download=[https   *//wiki.freecadweb.org/File   *Centericon.png ToolBar Icon]
 |Version=00.02
 |Date=2021-07-07
 }}
 
 ## Описание
 
-This macro translates the [Placement](https   *//wiki.freecadweb.org/Placement) of an object so that a selected location becomes its new origin. This may be useful when imported objects from other formats like STL or STEP are inconveniently located for further processing by FreeCAD.
+This macro translates the [Placement](Placement.md) of an object so that a selected location becomes its new origin. This may be useful when imported objects from other formats like STL or STEP are inconveniently located for further processing by FreeCAD.
 
 ## Применение
 
-Copy the macro into your Macro Directory. (You can copy and paste into the Macro Editor and save.) First select, then run the macro. Undo is available. The following selections are supported   *
+1.  Copy the macro into your Macro Directory. (You can copy and paste into the Macro Editor and save.)
+2.  First select, then run the macro. Undo is available.
+
+The following selections are supported   *
 
 \-- Single Vertex \-- moved to origin
 

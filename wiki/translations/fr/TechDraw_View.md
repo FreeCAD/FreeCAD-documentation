@@ -37,80 +37,135 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
 
 {{TitleProperty|Base}}
 
--    **X**   * La position horizontale de la vue sur la page. (1)
+-    **X|Distance**   * position horizontale de la vue sur la page. (1)
 
--    **Y**   * La position verticale de la vue sur la page. (1)
+-    **Y|Distance**   * position verticale de la vue sur la page. (1)
 
--    **Lock Position**   * Empêche les vues d\'être glissées dans le Gui quand la valeur est True. La vue peut toujours être déplacée en changeant les propriétés X, Y. (1)
+-    **Lock Position|Bool**   * empêche les vues d\'être déplacées dans l\'interface graphique si mis à `True`. La vue peut toujours être déplacée en modifiant les propriétés X,Y. (1)
 
--    **Rotation**   * Rotation antihoraire de la vue sur la page en degrés. (1)
+-    **Rotation|Angle**   * rotation dans le sens inverse des aiguilles d\'une montre de la vue sur la page en degrés. (1)
 
--    **Scale Type**   * \"Document\"   * utilise le paramètre d\'échelle de la page. \"Custom\"   * utilise une échelle unique pour cette vue. \"Automatic\"   * ajuste la vue à la page. (1)
+-    **Scale Type|Enumeration**   * type d\'échelle. Options    * (1)
 
--    **Scale**   * Une vue sera rendue sur la page à l\'Échelle   * 1 par rapport à la Source. (1)
+    -   
+        {{Value|Page}}
+        
+           * utilise le paramètre d\'échelle de la [Page](TechDraw_PageDefault/fr.md).
 
--    **Caption**   * Légende de texte court facultative.
+    -   
+        {{Value|Automatic}}
+        
+           * adapte la vue à la page.
 
-\(1\) ces propriétés sont communes à tous les types de vues.
+    -   
+        {{Value|Custom}}
+        
+           * utilise l\'échelle définie par **Scale**.
+
+-    **Scale|FloatConstant**   * La vue sera rendue sur la page dans un rapport échelle   *1 par rapport à la source. (1)
+
+-    **Caption|String**   * Légende courte optionnelle. (1)
 
 
 {{TitleProperty|Cosmetics}}
 
+-    **Cosmetic Vertexes|TechDraw   *   *PropertyCosmeticVertexList|Hidden**
+    
+
+-    **Cosmetic Edges|TechDraw   *   *PropertyCosmeticEdgeList|Hidden**
+    
+
+-    **Center Lines|TechDraw   *   *PropertyCenterLineList|Hidden**
+    
+
+-    **Geom Formats|TechDraw   *   *PropertyGeomFormatList|Hidden**
+    
+
 
 {{TitleProperty|HLR Parameters}}
 
--    **Coarse View**   * Si Vrai, TechDraw utilisera une approximation de polygone pour calculer la géométrie de dessin. Si faux, TechDraw utilisera un algorithme de précision. CoarseView peut être beaucoup plus rapide pour les modèles complexes. La qualité du dessin est réduite car chaque courbe est approximée par une série de segments courts. Les sommets ne sont pas affichés dans CoarseView, car chaque segment court donnerait deux nouveaux sommets et l\'affichage deviendrait encombré. Des dimensions linéaires peuvent être ajoutées à un CoarseView, mais ne seront probablement pas utilisables.
+-    **Coarse View|Bool**   * si `True`, TechDraw utilisera une approximation polygonale pour calculer la géométrie du dessin. Si `False`, TechDraw utilisera un algorithme de précision. CoarseView peut être beaucoup plus rapide pour les modèles complexes. La qualité du dessin est réduite, car chaque courbe est approximée comme une série de segments de ligne courts. Les sommets ne sont pas affichés dans CoarseView, car chaque segment court entraînerait la création de deux nouveaux sommets et l\'affichage devient encombré. Les dimensions linéaires peuvent être ajoutées à une CoarseView, mais il est peu probable qu\'elles soient utiles.
 
--    **Smooth Visible**   * Les lignes lisses visibles sont activées/désactivées.
+-    **Smooth Visible|Bool**   * active/désactive des lignes lisses visibles.
 
--    **Seam Visible**   * Les lignes de couture visibles sont activées/désactivées.
+-    **Seam Visible|Bool**   * active/désactive des lignes de couture visibles.
 
--    **Iso Visible**   * Les lignes isométriques visibles (u,v) sont activées/désactivées.
+-    **Iso Visible|Bool**   * active/désactive des lignes isométriques (u,v) visibles.
 
--    **Hard Hidden**   * Les lignes cachées (arêtes réelles) sont activées/désactivées.
+-    **Hard Hidden|Bool**   * active/désactive des lignes cachées.
 
--    **Smooth Hidden**   * Les lignes lisses cachées sont activées/désactivées.
+-    **Smooth Hidden|Bool**   * active/désactive des lignes cachées lisses.
 
--    **Seam Hidden**   * Les lignes de couture cachées sont activées/désactivées.
+-    **Seam Hidden|Bool**   * active/désactive des lignes de couture cachées.
 
--    **Iso Hidden**   * Les lignes isométriques cachées (u,v) sont activées/désactivées.
+-    **Iso Hidden|Bool**   * active/désactive des lignes isométriques (u,v) cachées.
 
--    **Iso Count**   * Nombre de lignes isométriques (u,v) à dessiner sur chaque face.
+-    **Iso Count|Integer**   * nombre de lignes isométriques (u,v) à dessiner sur chaque face.
 
 
 {{TitleProperty|Projection}}
 
--    **Source**   * Liens vers les objets projetables à représenter
+-    **Source|LinkList**   * liens vers les objets dessinables à représenter.
 
--    **Direction**   * Ce vecteur contrôle la direction à partir de laquelle vous visualisez l\'objet. +X est à droite, -X est à gauche, +Y est à l\'arrière, -Y est à l\'avant (regardant dans l\'écran), +Z est en haut et -Z est en bas. Donc, une vue de face est (0,-1,0) et une vue isométrique est (1,-1,1).
+-    **XSource|XLLinkList**   * liens vers les objets dessinables dans un fichier externe. <small>(v0.19)</small> 
 
--    **XDirection**   * Ce vecteur contrôle la rotation de la vue autour de la direction. {{Version/fr|0.19}}.
+-    **Direction|Vector**   * ce vecteur contrôle la direction depuis laquelle vous regardez l\'objet. +X est la droite, -X est la gauche, +Y est l\'arrière, -Y est l\'avant (regardant dans l\'écran), +Z est le haut et -Z est le bas. Ainsi, une vue de face est (0,-1,0) et une vue isométrique est (1,-1,1).
 
--    **Perspective**   * Vrai pour la projection en perspective, faux pour la projection orthogonale.
+-    **XDirection|Vector**   * ce vecteur contrôle la rotation de la vue autour de la direction. {{Version/fr|0.19}}.
 
--    **Focus**   * Distance de la caméra au plan de projection pour les projections en perspective. Doit être ajusté pour s\'adapter à l\'objet. Trop loin et la perspective est perdue, trop proche et l\'objet est déformé.
+-    **Perspective|Bool**   * `True` pour une projection en perspective, `False` pour une projection orthogonale.
+
+-    **Focus|Distance**   * distance entre la caméra et le plan de projection pour les projections en perspective. Doit être ajustée pour s\'adapter à l\'objet. Trop loin et la perspective est perdue, trop près et l\'objet est déformé.
 
 ### Vue
 
--    **Keep Label**   * Toujours afficher l\'étiquette de vue si la valeur est sur vrai.
 
--    **LineWidth**   * Épaisseur des lignes visibles. Voir [Groupes de lignes](TechDraw_LineGroup/fr.md).
+{{TitleProperty|Base}}
 
--    **HiddenWidth**   * L\'épaisseur des lignes cachées, si activé.
+-    **Keep Label|Bool**   * toujours afficher l\'étiquette de la vue si `True`. (1)
 
--    **IsoWidth**   * L\'épaisseur des lignes de surface isométriques (u,v) et des lignes de cotes.
+-    **Stack Order|Integer**   * Sur ou sous le niveau d\'empilement par rapport aux autres vues. (1) {{Version/fr|1.0}}
 
--    **ExtraWidth**   * Pas encore implémenté.
 
--    **ShowCenters**   * Les marques de centre des arcs/cercles sont activées/désactivées.
+{{TitleProperty|Decoration}}
 
--    **CenterScale**   * Réglage de la taille de la marque du centre des arcs/cercles, si activé.
+-    **Arc Center Marks|Bool**   * active/désactive des marques centrales d\'arc de cercle.
 
--    **HorizCenterLine**   * Affiche un trait d\'axe horizontal dans la vue.
+-    **Center Scale|Float**   * ajustement de la taille des marques centrales d\'arc de cercle, si activé.
 
--    **VertCenterLine**   * Affiche un trait d\'axe vertical dans la vue.
+-    **Horiz Center Line|Bool**   * affiche une ligne centrale horizontale dans la vue.
 
--    **ShowSectionLine**   * Affiche/masque la ligne de coupe, le cas échéant.
+-    **Section Line Color|Color**   * définit la couleur de la ligne de section, le cas échéant.
+
+-    **Section Line Style|Enumeration**   * définit le style de ligne de la section, le cas échéant.
+
+-    **Show All Edges|Bool**   * affiche temporairement les lignes invisibles.
+
+-    **Show Section Line|Bool**   * affiche/masque la ligne de section, le cas échéant.
+
+-    **Vert Center Line|Bool**   * affiche une ligne centrale verticale dans la vue.
+
+
+{{TitleProperty|Highlight}}
+
+-    **Highlight Adjust|Float**   * ajuste la rotation de la mise en évidence du détail, le cas échéant.
+
+-    **Highlight Line Color|Color**   * définit la couleur de la ligne de surbrillance, le cas échéant.
+
+-    **Highlight Line Style|Enumeration**   * définit le style de la ligne de mise en évidence, le cas échéant.
+
+
+{{TitleProperty|Lines}}
+
+-    **Extra Width|Length**   * pas encore implémenté.
+
+-    **Hidden Width|Length**   * épaisseur des lignes cachées, si elles sont activées.
+
+-    **Iso Width|Length**   * épaisseur des lignes de surface isométriques (u,v) et des lignes de dimension.
+
+-    **Line Width|Length**   * épaisseur des lignes visibles. Voir [Groupe de lignes](TechDraw_LineGroup/fr.md).
+
+\(1\) ces propriétés sont communes à tous les types de vues.
 
 ## Script
 
@@ -123,10 +178,10 @@ L\'outil Vue peut être utilisé dans des [macros](Macros/fr.md) et à partir de
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
+view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart', 'View')
 rc = page.addView(view)
 FreeCAD.ActiveDocument.View.Source = [App.ActiveDocument.Box]
-FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
+FreeCAD.ActiveDocument.View.Direction = (0.0, 0.0, 1.0)
 ```
 
 

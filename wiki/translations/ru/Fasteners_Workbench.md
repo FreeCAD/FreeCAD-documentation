@@ -263,11 +263,11 @@
 
 -   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Шайба-розетка полнотелая для винтов с потайной головкой.
 
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** UN шайба, уменьшенная серия.
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width   *32px;"> **ASME B18.21.1.12A** UN Шайба, уменьшенная серия.
 
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN шайба, нормальная серия.
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN Шайба, нормальная серия.
 
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN шайба, увеличенная серия.
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN Шайба, увеличенная серия.
 
 ### Другие изделия 
 

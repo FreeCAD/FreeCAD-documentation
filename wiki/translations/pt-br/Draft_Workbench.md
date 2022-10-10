@@ -42,13 +42,13 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_Wire.svg  style="width   *32px;"> [Polyline](Draft_Wire.md)   * creates a polyline, a sequence of several connected line segments.
 
--   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Fillet](Draft_Fillet.md)   * creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [Draft Lines](Draft_Line.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Fillet](Draft_Fillet.md)   * creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [Draft Lines](Draft_Line.md).
 
 -   <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> Arc tools
 
    ** <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Arc](Draft_Arc.md)   * creates a circular arc from a center, a radius, a start angle and an aperture angle.
 
-   ** <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Arc by 3 points](Draft_Arc_3Points.md)   * creates a circular arc from three points that define its circumference. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Arc by 3 points](Draft_Arc_3Points.md)   * creates a circular arc from three points that define its circumference.
 
 -   <img alt="" src=images/Draft_Circle.svg  style="width   *32px;"> [Circle](Draft_Circle.md)   * creates a circle from a center and a radius.
 
@@ -62,7 +62,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> Bézier tools
 
-   ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Cubic Bézier curve](Draft_CubicBezCurve.md)   * creates a Bézier curve of the third degree. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Cubic Bézier curve](Draft_CubicBezCurve.md)   * creates a Bézier curve of the third degree.
 
    ** <img alt="" src=images/Draft_BezCurve.svg  style="width   *32px;"> [Bézier curve](Draft_BezCurve.md)   * creates a Bézier curve from several points.
 
@@ -82,7 +82,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_Label.svg  style="width   *32px;"> [Label](Draft_Label.md)   * creates a multi-line text with a 2-segment leader line and an arrow.
 
--   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width   *32px;"> [Annotation styles\...](Draft_AnnotationStyleEditor.md)   * allows you to define styles that affect the visual properties of annotation-like objects. <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width   *32px;"> [Annotation styles\...](Draft_AnnotationStyleEditor.md)   * allows you to define styles that affect the visual properties of annotation-like objects.
 
 ## Modification
 
@@ -104,19 +104,19 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> Array tools
 
-   ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Array](Draft_OrthoArray.md)   * creates an orthogonal array from a selected object. It can optionally create a [Link](App_Link.md) array. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Array](Draft_OrthoArray.md)   * creates an orthogonal array from a selected object. It can optionally create a [Link](App_Link.md) array.
 
-   ** <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> [Polar array](Draft_PolarArray.md)   * creates an array from a selected object by placing copies along a circumference. It can optionally create a [Link](App_Link.md) array. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> [Polar array](Draft_PolarArray.md)   * creates an array from a selected object by placing copies along a circumference. It can optionally create a [Link](App_Link.md) array.
 
-   ** <img alt="" src=images/Draft_CircularArray.svg  style="width   *32px;"> [Circular array](Draft_CircularArray.md)   * creates an array from a selected object by placing copies along concentric circumferences. It can optionally create a [Link](App_Link.md) array. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_CircularArray.svg  style="width   *32px;"> [Circular array](Draft_CircularArray.md)   * creates an array from a selected object by placing copies along concentric circumferences. It can optionally create a [Link](App_Link.md) array.
 
    ** <img alt="" src=images/Draft_PathArray.svg  style="width   *32px;"> [Path array](Draft_PathArray.md)   * creates an array from a selected object by placing copies along a path.
 
-   ** <img alt="" src=images/Draft_PathLinkArray.svg  style="width   *32px;"> [Path Link array](Draft_PathLinkArray.md)   * idem, but create a [Link](App_Link.md) array instead of a regular array. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_PathLinkArray.svg  style="width   *32px;"> [Path Link array](Draft_PathLinkArray.md)   * idem, but create a [Link](App_Link.md) array instead of a regular array.
 
    ** <img alt="" src=images/Draft_PointArray.svg  style="width   *32px;"> [Point Array](Draft_PointArray.md)   * creates an array from a selected object by placing copies at the points from a point compound.
 
-   ** <img alt="" src=images/Draft_PointLinkArray.svg  style="width   *32px;"> [Point Link array](Draft_PointLinkArray.md)   * idem, but create a [Link](App_Link.md) array instead of a regular array. <small>(v0.19)</small> 
+   ** <img alt="" src=images/Draft_PointLinkArray.svg  style="width   *32px;"> [Point Link array](Draft_PointLinkArray.md)   * idem, but create a [Link](App_Link.md) array instead of a regular array.
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> [Edit](Draft_Edit.md)   * puts selected objects in Draft Edit mode. In this mode the properties of objects can be edited graphically.
 
@@ -157,7 +157,7 @@ A barra de ferramentas [Bandeja de rascunho](Draft_Tray/pt-br.md) aparece quando
 
 </div>
 
--   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md)   * sets the default style for new objects. Also available in the menu   * **Draft → Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Set style**. <small>(v0.19)</small> 
+-   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md)   * sets the default style for new objects. Also available in the menu   * **Draft → Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Set style**.
 
 -   ![](images/Draft_tray_button_construction.png ) [Toggle construction mode](Draft_ToggleConstructionMode.md)   * switches Draft construction mode on or off. Also available in the menu   * **Draft → Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode**.
 
@@ -165,7 +165,13 @@ A barra de ferramentas [Bandeja de rascunho](Draft_Tray/pt-br.md) aparece quando
 
 ## Draft annotation scale widget 
 
+
+<div class="mw-translate-fuzzy">
+
 Com o [Widget de escala de anotação](Draft_annotation_scale_widget/pt-br.md) a escala de anotação Draft pode ser especificada. O widget está localizado na [Barra de status](Status_bar/pt-br.md).
+
+
+</div>
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
@@ -219,7 +225,7 @@ A barra de ferramentas [Captura](Draft_Snap/pt-br.md) permite selecionar o modo 
 
 ## Draft utility tools toolbar 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Layer](Draft_Layer.md)   * creates a [Draft Layer](Draft_Layer.md). <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Layer](Draft_Layer.md)   * creates a [Draft Layer](Draft_Layer.md).
 
 -   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width   *32px;"> [Add a new named group](Draft_AddNamedGroup.md)   * creates a named [Std Group](Std_Group.md) and moves selected objects to that group. <small>(v0.20)</small> 
 
@@ -270,15 +276,15 @@ If there is an active document the context menu contains one additional sub-menu
 
 ### Wire options 
 
-For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) and [Draft BezCurve](Draft_BezCurve.md) this additional option is available   *
+For a [Draft Line](Draft_Line.md) and a [Draft Wire](Draft_Wire.md) this additional option is available   *
 
--   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> Flatten this wire   * flattens the wire based on its internal geometry. This option currently does not work properly.
+-   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> Flatten   * flattens the wire on the current [Draft working plane](Draft_SelectPlane.md). This option does not work properly in {{VersionMinus|0.19}}.
 
 ### Layer container options 
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available   *
 
--   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Merge layer duplicates](Draft_Layer#Layer_container_options.md)   * merges all layers with the same base label. This does not work in FreeCAD version 0.19.
+-   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Merge layer duplicates](Draft_Layer#Layer_container_options.md)   * merges all layers with the same base label.
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width   *32px;"> [Add new layer](Draft_Layer#Layer_container_options.md)   * adds a new layer to the current document.
 
@@ -381,7 +387,13 @@ As ferramentas Draft podem ser usadas em [macros](macros/pt-br.md) e do console 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 A bancada de trabalho inclui um módulo para criar amostras de todos os objetos em um novo documento. <small>(v0.19)</small> 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

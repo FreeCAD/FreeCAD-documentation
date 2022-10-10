@@ -5,13 +5,14 @@
    MenuLocation   *Sketch → Skizzengeometrie → Verrundung erstellen
    Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Shortcut   ***G** **F** **F**
+   SeeAlso   *[Sketcher PunktVerrundungErstellen](Sketcher_CreatePointFillet/de.md)
 ---
 
 # Sketcher CreateFillet/de
 
 ## Beschreibung
 
-Dieses Werkzeug erzeugt eine Verrundung zwischen zwei an einem Punkt verbundenen Linien. Aktiviere das Werkzeug, wähle dann beide Linien aus oder klicke auf den Eckpunkt.
+Dieses Werkzeug erzeugt eine Verrundung zwischen zwei Linien.
 
 Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert sich in ein weißes Kreuz mit einem roten Verrundungssymbol. Es bleibt aktiv, so dass du mehrere Verrundungen vornehmen kannst.
 
@@ -30,7 +31,13 @@ Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

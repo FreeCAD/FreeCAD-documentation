@@ -11,9 +11,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Cancella tutte le misure in atto.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

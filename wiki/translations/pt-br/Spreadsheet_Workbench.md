@@ -92,15 +92,27 @@ As propriedades de uma célula de planilha podem ser editadas com um clique com 
 
 Conforme indicado pelas abas, as seguintes propriedades podem ser alteradas   *
 
+
+<div class="mw-translate-fuzzy">
+
 -   Cor   * Cor do texto e cor de fundo
 -   Alinhamento   * Alinhamento horizontal e vertical do texto
 -   Estilo   * Estilo do texto   * negrito, itálico, sublinhado
 -   Unidades   * Unidades de exibição para esta célula. Por favor, leia a seção abaixo [Unidades](#Unidades.md).
 -   Pseudônimo   * Defina um [pseudônimo](Spreadsheet_SetAlias/pt-br.md) para esta célula. Este apelido pode ser usado em fórmulas celulares e também em [expressões](Expressions/pt-br.md) gerais; veja a seção [Dados da planilha em expressões](#Dados_da_planilha_em_expressões.md) para mais informações.
 
+
+</div>
+
 ## Expressões celulares 
 
+
+<div class="mw-translate-fuzzy">
+
 Uma célula de planilha pode conter um texto ou uma expressão arbitrária. Tecnicamente, as expressões devem começar com um sinal igual a \'=\'. Entretanto, a planilha tenta ser inteligente; se você digitar o que parece ser uma expressão sem o sinal \'=\' principal, uma será adicionada automaticamente.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -110,10 +122,16 @@ As expressões celulares podem conter números, funções, referências a outras
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Nota   * As expressões celulares são tratadas pelo FreeCAD como código de programação. Portanto, quando você edita uma célula, o conteúdo que você vê não está seguindo suas configurações de visualização   *
 
 -   o separador decimal é sempre um ponto
 -   o número de decimais exibidos pode diferir do seu [configurações de preferências](Preferences_Editor/pt-br#Unidades.md)
+
+
+</div>
 
 As referências a objetos no modelo são explicadas em [Referências a dados CAD](#References_to_CAD-data.md) abaixo. A utilização dos valores das células da planilha para definir as propriedades do modelo é explicada em [Dados da planilha em expressões](#Spreadsheet_data_in_expressions.md) abaixo. Para mais informações sobre as expressões e as funções disponíveis, veja [Expressões](Expressions/pt-br.md).
 
@@ -125,9 +143,21 @@ Da mesma forma, as propriedades dos objetos do modelo CAD podem ser usadas em ex
 
 Mais de uma planilha de cálculo pode ser usada em um documento. Uma planilha pode ser identificada usando seu nome ou sua etiqueta.
 
+
+<div class="mw-translate-fuzzy">
+
 O FreeCAD atribuirá automaticamente um nome exclusivo a uma planilha de cálculo quando ela for criada. Estes nomes seguem o padrão `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` e assim por diante. O nome não pode ser alterado manualmente, e não é visível nas propriedades da planilha. Ele pode ser usado para se referir à planilha em uma [Expressão](Expressions/pt-br.md) (ver [Dados da planilha em expressões](#Dados_da_planilha_em_expressões.md) abaixo.)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 O rótulo de uma planilha é automaticamente definido com o nome da planilha no momento da criação. Ao contrário do nome, a etiqueta pode ser alterada, por exemplo, no painel de propriedades ou usando a ação do menu de contexto Renomear. Note que a etiqueta de uma planilha dentro de um documento tem que ser única; se você tentar mudar a etiqueta para uma etiqueta já usada por outra planilha, o FreeCAD não aceitará a nova etiqueta.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -141,14 +171,8 @@ Verificações FreeCAD para dependências cíclicas. Ver [Limitações atuais](#
 
 Como indicado acima, é possível consultar os dados do modelo CAD em expressões de planilhas.
 
-As expressões computadas nas células da planilha começam com um sinal de igual (\'=\'). Entretanto, o mecanismo de entrada na planilha tenta ser inteligente. Uma expressão pode ser inserida sem o \'=\' principal; se a string inserida for uma expressão válida, um \'=\' é automaticamente adicionado quando o final **Enter** é digitado. Se a string inserida não for uma expressão válida (freqüentemente o resultado de inserir algo com o caso errado, por exemplo, \"MyCube.length\" em vez de \"MyCube.Length\"), nenhum \'=\' inicial é adicionado e é tratado como simplesmente uma string de texto.
 
-*\' Nota   **\' O comportamento acima (inserção automática de \'=\') tem algumas ramificações desagradáveis   *
-
--   Se você quiser manter uma coluna de nomes correspondente ao [pseudônimos](#alias_name.md) em uma coluna de valores adjacente, você deve digitar o nome na coluna do rótulo *antes*, dando à célula na coluna de valores seu pseudônimo. Caso contrário, quando você digitar o apelido na coluna do rótulo, a planilha assumirá que é uma expressão e a mudará para \"=\"; e o texto exibido será o valor da célula \".
--   Se você cometer um erro ao digitar o nome na coluna do rótulo e desejar corrigi-lo, não poderá simplesmente mudá-lo para o pseudônimo. Em vez disso, é preciso primeiro mudar o pseudônimo para outra coisa, depois corrigir o nome do texto na coluna do rótulo, depois mudar o pseudônimo na coluna do valor de volta ao original.
-
-Uma maneira de evitar essas questões é prefixar etiquetas de texto correspondentes a pseudônimos com uma cadeia fixa, tornando-as assim diferentes. Note que \"\_\" não vai funcionar, pois é convertido para \"=\". Entretanto, um espaço em branco, embora invisível, funcionará.
+<div class="mw-translate-fuzzy">
 
 A tabela a seguir mostra alguns exemplos assumindo que o modelo tem uma característica chamada \"MyCube\"   *
 
@@ -159,6 +183,9 @@ A tabela a seguir mostra alguns exemplos assumindo que o modelo tem uma caracter
   Tipo da forma do cubo                                               =MyCube.Shape.ShapeType        String   * Solid
   Rótulo do Cubo                                                      =MyCube.Label                  String   * MyCube
   x-coordenada do centro de massa do Cubo                             =MyCube.Shape.CenterOfMass.x   x-coordenada em mm sem unidades
+
+
+</div>
 
 ### Dados da planilha em expressões 
 
@@ -189,6 +216,9 @@ Para usar os dados da planilha em outras partes do FreeCAD, você geralmente cri
 </div>
 
 
+<div class="mw-translate-fuzzy">
+
+
 <div class="mw-collapsible mw-collapsed">
 
 A maneira recomendada de consultar os dados da planilha é usar a etiqueta da planilha e o nome da célula. Para uma explicação mais profunda dos prós e contras dos modos de endereçamento, veja a seção expandida abaixo.
@@ -196,11 +226,14 @@ A maneira recomendada de consultar os dados da planilha é usar a etiqueta da pl
 
 <div class="mw-collapsible-content">
 
+
+</div>
+
 O uso do rótulo da planilha tem a vantagem de poder ser livremente alterado para descrever o conteúdo da planilha. Também é mais fácil identificar a planilha que está sendo utilizada, já que o texto na expressão corresponde à etiqueta mostrada na visualização do modelo e das propriedades. Se você decidir mudar o rótulo de uma planilha, as referências existentes ao conteúdo da planilha serão atualizadas, para que você não quebre suas expressões ao renomear a planilha. O nome interno da planilha não está prontamente disponível em nenhum lugar, exceto dentro do editor de expressões, portanto, se você usar o nome interno e mais tarde decidir renomear as planilhas, você poderá ter dificuldade em rastrear seus dados de expressão de volta à sua fonte.
 
 Esteja ciente de que quando você cria uma nova planilha, o nome e a etiqueta são os mesmos, por isso é fácil usar acidentalmente o nome da planilha em vez da etiqueta. Uma maneira simples de evitar isto é dar à planilha um nome significativo antes de começar a usá-la em expressões.
 
-While you may use the row and column number in an expression to reference a cell, best practice is to give the cell an alias name and use that. See [Cell Properties](#Cell_Properties.md) above on how to set the alias. For example, if the data in cell B1 contained the length parameter for an object, an alias name of `MyObject_Length` would allow the value to be referred to as `<<MyParams>>.MyObject_Length` instead of `Spreadsheet.B1`. Besides being much easier to read and understand, alias names are also much easier to change if you decide to adjust the structure of your spreadsheet. Using an alias also has the advantage that it is reasier to see which cells are used to control other parts of the document. Note that FreeCAD will automatically adjust the positional references in expressions if you insert or remove rows and columns in the spreadsheet, so even if you use row and column numbers in an expression, you can insert rows and columns without breaking the references to the surrounding cells.
+While you may use the row and column number in an expression to reference a cell, best practice is to give the cell an alias name and use that. See [Cell properties](#Cell_properties.md) on how to set the alias. For example, if the data in cell B1 contained the length parameter for an object, an alias name of `MyObject_Length` would allow the value to be referred to as `<<MyParams>>.MyObject_Length` instead of `Spreadsheet.B1`. Besides being much easier to read and understand, alias names are also much easier to change if you decide to adjust the structure of your spreadsheet. Using an alias also has the advantage that it is reasier to see which cells are used to control other parts of the document. Note that FreeCAD will automatically adjust the positional references in expressions if you insert or remove rows and columns in the spreadsheet, so even if you use row and column numbers in an expression, you can insert rows and columns without breaking the references to the surrounding cells.
 
 
 </div>
@@ -240,7 +273,13 @@ A Planilha tem uma noção de dimensão (unidades) associada aos valores das cé
 
 Se uma célula contém um valor que representa uma dimensão, ela deve ser inserida com sua unidade associada. Embora em muitos casos simples se possa sobreviver com um valor sem dimensão, é insensato não entrar com a unidade. Se um valor representando uma dimensão for inserido sem sua unidade associada, há algumas seqüências de operações que fazem com que o FreeCAD reclame de unidades incompatíveis em uma expressão quando ela aparece, a expressão deve ser válida. (Isto pode ser melhor compreendido visualizando [este tópico](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) nos fóruns do FreeCAD.)
 
+
+<div class="mw-translate-fuzzy">
+
 Você pode mudar as unidades exibidas para um valor de célula usando o diálogo de propriedades [guia de unidades](#units_tab.md). (acima). Isto não altera o valor contido na célula; ele apenas converte o valor existente para exibição. O valor utilizado para os cálculos não muda, e os resultados das fórmulas que utilizam o valor não mudam. Por exemplo, uma célula contendo o valor \"5,08cm\" pode ser exibida como \"2in\", alterando o valor da aba de unidades para \"in\".
+
+
+</div>
 
 Um número sem dimensão não pode ser alterado para um número com uma unidade pelo diálogo de propriedades da célula. Pode-se colocar uma cadeia de unidades, e essa cadeia será exibida; mas a célula ainda contém um número sem dimensões. Para mudar um valor sem dimensão para um valor com uma dimensão, o próprio valor deve ser reentrado com sua unidade associada.
 

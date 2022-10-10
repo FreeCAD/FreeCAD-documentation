@@ -3,13 +3,7 @@
 
 L\'[area della vista principale](Main_view_area/it.md) è il widget principale che contiene le finestre secondarie nell\'[interfaccia](interface/it.md). È un\'istanza di Qt [QMdiArea](https   *//doc.qt.io/qt-5/qmdiarea.html).
 
-
-<div class="mw-translate-fuzzy">
-
-Di solito contiene le schede per la pagina iniziale dellambiente [Start](Start_Workbench/it.md) e la [vista 3D](3D_view/it.md). Può contenere altre schede, ad esempio una per ogni [pagina di disegno](TechDraw_PageDefault/it.md) creata con [TechDraw](TechDraw_Workbench/it.md).
-
-
-</div>
+Di solito contiene le schede per la pagina iniziale dell\'ambiente [Start](Start_Workbench/it.md) e la [Vista 3D](3D_view/it.md) per ciascun documento aperto. Può contenere altre schede, ad esempio una per ogni [TechDraw](TechDraw_Workbench/it.md) [pagina di disegno](TechDraw_PageDefault.md), [Foglio di calcolo](spreadsheet/it.md), or [Documento di testo](Std_TextDocument/it.md).
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *1024px;">
 

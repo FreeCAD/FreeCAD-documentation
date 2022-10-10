@@ -42,19 +42,32 @@ The ArchView is rendered within the [Arch Workbench](Arch_Workbench.md), therefo
 
 ## Свойства
 
--    **Source**   * The section plane object to be displayed
+See also [TechDraw View](TechDraw_View#Properties.md).
 
--    **All On**   * If hidden objects must be shown or not. If False, only objects that are visible in the 3D view are rendered
+### Data
 
--    **Render Mode**   * The render mode to use, Solid or Wireframe
 
--    **Show Hidden**   * If the hidden geometry (the part of the geometry that lies behind the section plane) is shown or not. It will be rendered in dashed line, which can be configured in the Arch preferences.
+{{TitleProperty|Arch view}}
 
--    **Show Fill**   * If cut areas must be filled with a grey color or not
+-    **Source|Link**   * The section plane object to be displayed.
 
--    **Line Width**   * The width of the main lines. Cut lines and projected/2D line widths ratios can be configured in the Arch preferences
+-    **All On|Bool**   * If hidden objects must be shown or not. If `False`, only objects that are visible in the 3D view are rendered.
 
--    **Font Size**   * The size of all texts that appear in this view
+-    **Render Mode|Enumeration**   * The render mode to use, {{Value|Solid}} or {{Value|Wireframe}}.
+
+-    **Fill Spaces|Bool**   * If `True`, Arch Spaces are shown as a colored area.
+
+-    **Show Hidden|Bool**   * If the hidden geometry (the part of the geometry that lies behind the section plane) is shown or not. It will be rendered in dashed line, which can be configured in the Arch preferences.
+
+-    **Show Fill|Bool**   * If cut areas must be filled with a grey color or not.
+
+-    **Line Width|Float**   * The width of the main lines. Cut lines and projected/2D line widths ratios can be configured in the Arch preferences.
+
+-    **Font Size|Float**   * The size of all texts that appear in this view.
+
+-    **Cut Line Width|Float**   * Width of the cut lines in this view.
+
+-    **Join Arch|Bool**   * If `True`, walls and structures will be fused by material.
 
 ## Программирование
 

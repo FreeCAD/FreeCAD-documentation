@@ -150,7 +150,7 @@ FreeCAD, ačkoli už je použitelný v určité oblasti, je na začátku dlouhé
 
 </div>
 
-[0.20 Development Cycle](0.20_Development_Cycle.md)
+[FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
 ## Community
 

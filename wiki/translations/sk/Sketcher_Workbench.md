@@ -235,7 +235,17 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Drážka](Sketcher_CreateSlot.md)   * Nakreslí ovál pomocou stredu jedného polkruhu a koncového bodu druhého polkruhu.
 
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Zaoblenie](Sketcher_CreateFillet.md)   * Medzi dvomi čiarami spojenými bodom vytvorí zaoblenie. Vyberte obe čiary alebo rohový bod a potom aktivujte nástroj.
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 
 <div class="mw-translate-fuzzy">

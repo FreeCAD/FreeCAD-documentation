@@ -1,34 +1,22 @@
 # Macro FCSpring Helix Variable/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro FCSpring Helix Variable
 |Translate=Molla a spirale variabile
 |Icon=FCSpring Helix Variable.png
-|Description=Crea una molla a passo variable.<br/>Vengono rilevati   * Superficie (Direzione della faccia), Cilindro (raggio), Ellisse (raggio minore), Sfera (raggio), Toroide (raggio1), Piano (direzione), Linea (seguire la direzione), Punto (posizione vertice XYZ) <br / > Se non viene rilevato alcun oggetto (non selezione) la molla viene creata nel punto XYZ 0., 0., 0. <br / >Vedi [https   *//www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable/it#Esempi esempi]
+|Description=Questa macro crea una molla personalizzabile, la configurazione della molla può essere salvata in un file con estensione '''.FCSpring''' o coordinate '''.FCSpringCoor'''.<br/>Vengono rilevati   * Superficie (Direzione della faccia), Cilindro (raggio), Ellisse (raggio minore), Sfera (raggio), Toroide (raggio1), Piano (direzione), Linea (seguire la direzione), Punto (posizione vertice XYZ) <br / > Se non viene rilevato alcun oggetto (non selezione) la molla viene creata nel punto XYZ 0., 0., 0. <br / >Vedi [https   *//www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable/it#Esempi esempi]
 |Author=Mario52
-|Version=01.17
-|Date=2020/11/12
+|Version=01.18
+|Date=2022/03/16
 |Download=Download the [https   *//forum.freecadweb.org/download/file.php?id=80844 the Icons] in .zip file 
 |FCVersion=0.19
 }}
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Descrizione
 
-Questa macro crea una molla con una configurazione personalizzabile.
+Questa macro crea una molla con una configurazione altamente personalizzabile. Qualsiasi modifica che cambi la configurazione della molla può essere salvata in un file con estensione .FCSpring o coordinate .FCSpringCoor
 Vengono rilevati   * superficie (direzione faccia), cilindro (raggio), ellisse (raggio minore), sfera (raggio), toroide (raggio1), piano (direzione), linea (seguire la direzione), punto (posizione vertice XYZ)
 Se non viene rilevato alcun oggetto (non selezione) la molla viene creata nel punto XYZ 0., 0., 0.
 Si possono creare diverse configurazioni di molle, secondo le proprie esigenze, e poi salvarle in un file con estensione **.FCSpring**
-
-
-</div>
 
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/8b0b60336a62f22c0730e6fb88687ffd1b1dd502/Macro_FCSpring_Helix_Variable.FCMacro}}
@@ -201,9 +189,9 @@ Pulsanti della barra degli strumenti ![Button](images/FCSpring_Helix_Variable.pn
 
 ## Script
 
-**Macro\_FCSpring\_Helix\_Variable.FCMacro**
+**Macro_FCSpring_Helix_Variable.FCMacro**
 
-Download the macro to Gist [Macro\_FCSpring\_Helix\_Variable](https   *//gist.github.com/mario52a/68c81c32a0727a693d3a)
+Download the macro to Gist [Macro_FCSpring_Helix_Variable](https   *//gist.github.com/mario52a/68c81c32a0727a693d3a)
 
 ## Installazione
 
@@ -337,7 +325,7 @@ def chrono(switch)   *    # 0=depart autre=stop
 
 2020/10/18 Ver 00.16b    * i suppress the test on FC 18 line 56, i suppress the timer chrono and i wait one little
 
-2020/05/01 Ver 00.16   * correction error file (save and load) cause \"label\_11\_Name\" suppressed\...
+2020/05/01 Ver 00.16   * correction error file (save and load) cause \"label_11_Name\" suppressed\...
 
 2020/04/11 Ver 01.15   * layout and little presentation
 
@@ -395,7 +383,7 @@ Only circle work well
 
 <center>
 
-<File   *Macro> FCSpring Helix Variable 09.png\|ACCESS VIOLATION <File   *Macro> FCSpring Helix Variable 10.png\|TCollection\_IndexedDataMap
+<File   *Macro> FCSpring Helix Variable 09.png\|ACCESS VIOLATION <File   *Macro> FCSpring Helix Variable 10.png\|TCollection_IndexedDataMap
 
 
 </center>

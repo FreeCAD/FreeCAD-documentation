@@ -9,6 +9,9 @@
 
 # Sketcher CompCreateConic/de
 
+
+</div>
+
 ## Beschreibung
 
 **Kegelschnitt erstellen** ist eine Symbolschaltfläche <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *64px;"> in der Werkzeugleiste Skizzengeometrien, die Werkzeuge gruppiert, die auf Grundlage von Kegelschnitten Kurven erzeugen. Klick auf den Abwärtspfeil zur rechten um die Symbole unterhalb aufzuklappen und ein Werkzeug auszuwählen.

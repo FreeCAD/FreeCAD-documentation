@@ -2,7 +2,7 @@
 - GuiCommand   *
    Name   *Sketcher Rectangles
    Icon   *Sketcher_CompCreateRectangles.png
-   MenuLocation   *None (toolbar only)
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench.md)
    Version   *0.20
 ---

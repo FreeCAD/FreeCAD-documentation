@@ -38,7 +38,7 @@ G-kod jest generowany na podstawie dyrektyw i operacji zawartych w zadaniu ście
 Niektóre z obecnych ograniczeń, o których należy pamiętać, to   *
 
 -   Większość narzędzi Path nie jest prawdziwymi narzędziami 3D, a jedynie 2,5D. Oznacza to, że przyjmują one ustalony kształt 2D i mogą go przyciąć do określonej głębokości. Istnieją jednak dwa narzędzia, które tworzą prawdziwe ścieżki 3D   * **<img src="images/Path_3DPocket.svg" width=24px> [Kieszeń 3D](Path_Pocket_3D/pl.md)** i **<img src="images/Path_Surface.svg" width=24px> [Powierzchnia 3D](Path_Surface/pl.md)** *(która jest wciąż [funkcją eksperymentalną](Path_experimental/pl.md) od listopada 2020 roku)*.
--   Większość środowiska pracy Path jest zaprojektowana dla standardowej, prostej, 3-osiowej *(xyz)* frezarki / routera CNC, ale narzędzia tokarskie są w trakcie opracowywania w wersji 0.19\_pre.
+-   Większość środowiska pracy Path jest zaprojektowana dla standardowej, prostej, 3-osiowej *(xyz)* frezarki / routera CNC, ale narzędzia tokarskie są w trakcie opracowywania w wersji 0.19_pre.
 -   Większość operacji w środowisku pracy Path zwróci ścieżki oparte tylko na standardowym narzędziu / bicie, niezależnie od typu narzędzia / bita przypisanego w danym kontrolerze narzędzia, z wyjątkiem operacji <img alt="" src=images/Path_Engrave.svg  style="width   *24px;"> [Grawer](Path_Engrave/pl.md) i <img alt="" src=images/Path_Surface.svg  style="width   *24px;"> [powierzchnia 3D](Path_Surface/pl.md).
 -   Operacje wykonywane w środowisku roboczym Path nie uwzględniają mechanizmów mocujących, które są używane do mocowania modelu na maszynie. W związku z tym przed wysłaniem kodu do maszyny należy przejrzeć i zasymulować generowane ścieżki. Jeśli to konieczne, wymodeluj mechanizmy mocujące w programie FreeCAD, aby lepiej sprawdzić wygenerowane ścieżki. Zwróć uwagę na ewentualne kolizje z zaciskami lub innymi przeszkodami na ścieżkach.
 
@@ -119,6 +119,8 @@ Niektóre polecenia są eksperymentalne i nie są domyślnie dostępne. Aby je w
 -   <img alt="" src=images/Path_Slot.svg  style="width   *32px;"> [Rowek](Path_Slot/pl.md)   * Tworzy operację szczelinowania na podstawie wybranych elementów lub punktów niestandardowych. [**funkcja eksperymentalna**](Path_experimental/pl.md). {{Version/pl|0.19}}
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width   *32px;"> [Grawer](Path_Engrave/pl.md)   * Tworzy trasę grawerowania.
+
+-   <img alt="" src=images/Path_Deburr.svg  style="width   *32px;"> [Usuwanie zadziorów](Path_Deburr/pl.md)   * Tworzy ścieżkę usuwania zadziorów.
 
 -   <img alt="" src=images/Path_Vcarve.svg  style="width   *32px;"> [Wycięcie V](Path_Vcarve/pl.md)   * Tworzy ścieżkę grawerowania przy użyciu kształtu narzędzia V. {{Version/pl|0.19}}
 

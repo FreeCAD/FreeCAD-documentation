@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Arch SetMaterial
-   Name/de   *Arch SetzeMaterial
-   MenuLocation   *Arch → Material Werkzeuge → Material
+   Name/de   *Arch MaterialZuordnen
+   MenuLocation   *Arch → Materialwerkzeuge → Material
    Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
    Shortcut   ***M** **T**
-   SeeAlso   *[Arch CompSetMaterial](Arch_CompSetMaterial/de.md), [Arch MultiMaterial](Arch_MultiMaterial/de.md)
+   SeeAlso   *[Arch AuswahlMaterialZuordnen](Arch_CompSetMaterial/de.md), [Arch MehrfachMaterial](Arch_MultiMaterial/de.md)
 ---
 
 # Arch SetMaterial/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -70,15 +67,6 @@ Die Material Werkzeuge erlauben dir [Materialien](Material.md) zum aktiven Dokum
 ## Bezug zu IFC 
 
 Dies entspricht in etwa [IfcMaterial](https   *//standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

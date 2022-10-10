@@ -22,27 +22,14 @@ Questo è un video su come [installare le macro in FreeCAD in Ubuntu](https   */
 
 ## Il menu Macro e i suoi strumenti 
 
-### Toolbar
-
-
-<div class="mw-translate-fuzzy">
-
-###### Barra degli strumenti 
+### Barra degli strumenti 
 
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width   *32px;"> [Registra una macro\...](Std_DlgMacroRecord/it.md)
 -   <img alt="" src=images/Std_MacroStopRecord.svg  style="width   *32px;"> [Interrompi la registrazione](Std_MacroStopRecord/it.md)
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *32px;"> [Macro\...](Std_DlgMacroExecute/it.md)
 -   <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width   *32px;"> [Esegui la macro](Std_DlgMacroExecuteDirect/it.md)
 
-
-</div>
-
 ### Menu
-
-
-<div class="mw-translate-fuzzy">
-
-### Menu 
 
 Oltre agli strumenti nella barra degli strumenti, nel menu **Macro** sono disponibili anche le seguenti funzioni.
 
@@ -52,9 +39,6 @@ Oltre agli strumenti nella barra degli strumenti, nel menu **Macro** sono dispon
 -   [Passo succesivo](Std_MacroStepOver/it.md)
 -   [Un passo](Std_MacroStepInto/it.md)
 -   [Attiva/Disattiva punto di interruzione](Std_ToggleBreakpoint/it.md)
-
-
-</div>
 
 ## Directory delle macro 
 
@@ -68,17 +52,9 @@ Anche le macro scaricate dovrebbero essere collocate in questa directory.
 
 <div class="mw-collapsible-content">
 
-### Default directory 
-
-
-<div class="mw-translate-fuzzy">
-
 ### Directory di default 
 
 Le macro possono essere semplicemente copiate in
-
-
-</div>
 
 
 ```python
@@ -93,44 +69,24 @@ La `$ROOT_DIR` può essere una directory di sistema, nel qual caso la macro vien
 -   Di solito in Windows è `C   *Program Files\FreeCAD\`
 -   Di solito in Mac OSX è `/Applications/FreeCAD/`
 
-
-<div class="mw-translate-fuzzy">
-
 La `$ROOT_DIR` può essere la directory di un utente particolare.
 
--   Su Linux di solito è `/home/username/.FreeCAD/`
--   Su Windows di solito è `C   *Users\username\Application Data\FreeCAD\`
+-   Su Linux di solito è `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}}).
+-   Su Windows di solito è `C   *Users\username\AppData\FreeCAD\`
 -   Su Mac OSX di solito è `/Users/username/Library/Preferences/FreeCAD/`
-
-
-</div>
-
-### Configuring the user directory 
-
-
-<div class="mw-translate-fuzzy">
 
 ### Configurazione della directory utente 
 
 1\. Aprire il menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macro...](Std_DlgMacroExecute/it.md)** per aprire la finestra di dialogo [Esegui la macro](Std_DlgMacroExecute/it.md).
 
-
-</div>
-
 ![](images/Dxf_Importer_Install_01.png ) 
 *align=center|Apertura della finestra di dialogo Esegui la macro*
 
-
-<div class="mw-translate-fuzzy">
-
 2\. Impostare l\'appropriata `Posizione delle macro utente`.
 
--   Linux   * generalmente `/home/username/.FreeCAD/`
+-   Linux   * generalmente `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}})
 -   Windows   * generalmente `C   *Users\username\AppData\Roaming\FreeCAD\`
 -   MacOS   * generalmente `/Users/username/Library/Preferences/FreeCAD/`
-
-
-</div>
 
 ![](images/Dxf_Importer_Install_02.png ) 
 *align=center|Impostazione della directory delle macro*
@@ -176,7 +132,7 @@ A partire da FreeCAD 0.17, utilizzare [Addon Manager](Std_AddonMgr/it.md) in **S
 
 Nelle versioni precedenti di FreeCAD è possibile utilizzare due metodi automatici per installare macro e altri componenti aggiuntivi   *
 
--   [addons\_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * è essa stessa una macro, è il precursore del Gestore Addon ed è ospitato nel repository [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Non è necessario utilizzare questo strumento nelle recenti versioni di FreeCAD.
+-   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * è essa stessa una macro, è il precursore del Gestore Addon ed è ospitato nel repository [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Non è necessario utilizzare questo strumento nelle recenti versioni di FreeCAD.
 -   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * è anche una macro, potrebbe essere usata per installare nuovi componenti in FreeCAD. Non è più sviluppato.
 
 Il metodo consigliato per installare i componenti aggiuntivi, ovvero gli [ambienti esterni](external_workbenches/it.md) e le macro, è [Addon Manager](Std_AddonMgr/it.md). Tuttavia, è ancora possibile aggiungere delle macro al proprio sistema con i metodi manuali descritti nelle seguenti sezioni; questo è utile per sviluppare e testare il proprio codice.
@@ -253,7 +209,7 @@ Riavviare FreeCAD per registrare correttamente la nuova macro.
 
 Creare un nuovo documento con **File → <img src="images/Std_New.svg" width=16px> [Nuovo](Std_New/it.md)**, e quindi ripetere i passaggi precedenti per eseguire la macro.
 
-![](images/Macro_Install_HowTo_23.png ) 
+![](images/Macro_Install_HowTo_23.png) 
 *align=center|La macro restituisce un errore se nessun documento è attivo*
 
 12\. Quando è disponibile un documento attivo, la macro viene eseguita e crea un oggetto.
@@ -280,7 +236,7 @@ Creare un nuovo documento con **File → <img src="images/Std_New.svg" width=16p
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-## Metodo manuale 2. Aggiungere una macro compressa in un file .zip 
+### Metodo manuale 2. Aggiungere una macro compressa in un file .zip 
 
 Alcune macro sono troppo grandi per cui è scomodo copiarle e incollarle nell\'editor delle macro o non possono essere ospitate nel wiki. In questo caso, il codice può essere ospitato altrove, in un repository Github o nel[forum di FreeCAD](https   *//forum.freecadweb.org/). Il codice può anche essere compresso in un file `.zip`, tarball `.tar.xz` o altro tipo di archivio se contiene più file. Se il codice viene distribuito in questo modo, l\'archivio deve essere estratto e i file inseriti nella directory delle macro.
 
@@ -476,17 +432,9 @@ Se non viene visualizzata alcuna informazione, assicurarsi che la vista report e
 
 <div class="mw-collapsible-content">
 
-#### Printing information 
-
-
-<div class="mw-translate-fuzzy">
-
 #### Visualizzare le informazioni 
 
 Le macro di FreeCAD hanno due metodi per stampare le informazioni nella vista report.
-
-
-</div>
 
 Le funzioni di FreeCAD
 
@@ -504,17 +452,9 @@ La semplice funzione Python
 print("Hello World!")
 ```
 
-#### Enabling the report view 
-
-
-<div class="mw-translate-fuzzy">
-
 #### Abilitare la vista report 
 
 Per vedere le informazioni visualizzate nella console è necessario   *
-
-
-</div>
 
 1\. Andare nel menu **Visualizza → Pannelli**.
 
@@ -533,17 +473,9 @@ Per vedere le informazioni visualizzate nella console è necessario   *
 ![](images/Macro_Install_HowTo_34.png ) 
 *align=center|Finestra principale di FreeCAD con la vista Report e la console Python*
 
-#### Enabling the print() command 
-
-
-<div class="mw-translate-fuzzy">
-
 #### Abilitare il comando print() 
 
 Potrebbe essere necessario configurare FreeCAD in modo che la funzione `print()` di [Python](Python/it.md) reindirizzi correttamente il suo output alla vista Report.
-
-
-</div>
 
 1\. Andare nell\'[editor delle preferenze](Preferences_Editor/it.md) con il menu **Modifica → Preferenze**.
 

@@ -2,13 +2,16 @@
 - GuiCommand   */fr
    Name   *Std FreezeViews
    Name/fr   *Std Figer l'affichage
-   Empty   *1
    MenuLocation   *Affichage → Figer l'affichage → ...
    Workbenches   *Tous
    SeeAlso   *[Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
+   SeeAlso   *[Std Enregistrer la vue](Std_StoreWorkingView/fr.md), [Std Rappel de vue](Std_RecallWorkingView/fr.md), [Std Position de la caméra](Std_ViewIvIssueCamPos/fr.md)
 ---
 
 # Std FreezeViews/fr
+
+
+</div>
 
 ## Introduction
 
@@ -18,7 +21,7 @@ FreeCAD peut stocker les paramètres de la caméra dans jusqu\'à 50 «vues fig�
 
 ### Description
 
-L\'option de menu **Enregistrer les vues \...** enregistre toutes les vues figées existantes dans un fichier avec l\'extension \*.cam.
+L\'option de menu **Enregistrer les vues\...** enregistre toutes les vues figées existantes dans un fichier avec l\'extension \*.cam.
 
 ### Utilisation
 
@@ -35,7 +38,7 @@ L\'option de menu **Enregistrer les vues \...** enregistre toutes les vues figé
 
 ### Description 
 
-L\'option de menu \'\'\'Charger les vues\...\' \'\' charge les vues figées à partir d\'un fichier avec l\'extension \*.cam. Toutes les vues figées existantes seront supprimées.
+L\'option du menu **Charger les vues\...** charge les vues figées à partir d\'un fichier avec l\'extension \*.cam. Toutes les vues figées existantes seront supprimées.
 
 ### Utilisation 
 
@@ -46,8 +49,8 @@ L\'option de menu \'\'\'Charger les vues\...\' \'\' charge les vues figées à p
 
 ### Options 
 
--   Si la boîte de dialogue Restaurer les vues s\'affiche   * appuyez sur **Echap** ou sur le bouton **Non** pour abandonner la commande.
--   Si la boîte de dialogue du fichier s\'affiche   * appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
+-   Si la boîte de dialogue Restaurer les vues s\'affiche, appuyez sur **Echap** ou sur le bouton **Non** pour annuler la commande.
+-   Si la boîte de dialogue du fichier s\'affiche, appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
 
 ## Figer l\'affichage 
 
@@ -57,9 +60,9 @@ L\'option de menu **Figer l\'affichage** enregistre les paramètres actuels de l
 
 ### Utilisation 
 
-1.  Il existe plusieurs façons de lancer cette option   *
+1.  Il existe plusieurs façons de lancer cette option    *
     -   Sélectionnez l\'option **Affichage → Figer l'affichage → Charger les vues...** dans le menu.
-    -   Utilisez le raccourci clavier   * **Shift**+**F**.
+    -   Utilisez le raccourci clavier    * **Shift**+**F**.
 2.  La nouvelle vue figée peut être sélectionnée dans le sous-menu **Affichage → Figer l'affichage**.
 
 ## Effacer les vues 
@@ -80,9 +83,9 @@ Pour chaque vue figée, une option **Vue de restauration** est ajoutée avec laq
 
 ### Utilisation 
 
-1.  Il existe plusieurs façons d\'invoquer cette option   *
+1.  Il existe plusieurs façons de lancer cette option    *
     -   Sélectionnez l\'option **Affichage → Figer l'affichage → Restaurer la vue** dans le menu.
-    -   Pour les 9 premières vues figées   * utilisez le raccourci clavier   * **Ctrl**+**1** - **Ctrl**+**9**.
+    -   Pour les 9 premières vues figées   * utilisez le raccourci clavier    * **Ctrl**+**1** - **Ctrl**+**9**.
 
 
 

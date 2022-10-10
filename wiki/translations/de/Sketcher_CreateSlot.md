@@ -33,7 +33,13 @@ Beim Starten des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit 
 -   A slot can also be constrained horizontally or vertically if the **Auto constraints** option is enabled. <small>(v0.20)</small> 
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

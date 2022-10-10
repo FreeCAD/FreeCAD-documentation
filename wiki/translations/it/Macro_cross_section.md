@@ -1,21 +1,15 @@
 # Macro cross section/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Cross_section
 |Translate=Sezione dinamica
 |Icon=Macro_cross_section.png
 |Description=Sezione trasversale interattiva e scorrevole.
 |Author=aleph0
-|Version=0.09
-|Date=2019-08-31
+|Version=0.10
+|Date=2020-12-19
 |FCVersion=0.15 e più
 |Download=[https   *//www.freecadweb.org/wiki/images/f/f5/Macro_cross_section.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -50,7 +44,7 @@ Changes by duke24 include.
 
 Changes by g.becu include.
 
-Changes by Chris\_G include.
+Changes by Chris_G include.
 
 ToolBar Icon ![](images/Macro_cross_section.png )
 
@@ -659,11 +653,11 @@ La discussione nel forum   * [Posting a new macro](http   *//forum.freecadweb.or
 
 ## Versioni
 
-ver 00.10 19/12/2020    * upgrade by Chris\_G fix to exclude App.Part from input objects, see [cross section macro does not work on bodies within a part container](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=53423)
+ver 00.10 19/12/2020    * upgrade by Chris_G fix to exclude App.Part from input objects, see [cross section macro does not work on bodies within a part container](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=53423)
 
 ver 00.09 31/08/2019    * upgrade by g.becu adding line 334 \#[Sezione Dinamica](https   *//forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=20#p330351)
 
-ver 00.08 04/07/2019    * upgrade replace Tab to Space by duke24 [Macro cross\_section update](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=37449)
+ver 00.08 04/07/2019    * upgrade replace Tab to Space by duke24 [Macro cross_section update](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=37449)
 
 ver 00.07 17/09/2017    * upgrade multiple objects with different colors by Gift
 

@@ -1,60 +1,61 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh Evaluation
-   MenuLocation   *Meshes → Analyze → Evaluate and repair mesh...
-   Workbenches   *[Mesh](Mesh_Workbench.md)
+   Name/pl   *Siatka   * Analiza
+   MenuLocation   *Siatki → Analizuj → Oceń i napraw siatkę ...
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh Evaluation/pl
 
-## Description
+## Opis
 
-The **Mesh Evaluation** command evaluates and repairs a mesh object.
+Polecenie **Analizuj** ocenia i naprawia obiekt siatkowy.
 
 ![](images/Mesh_Evaluation_dialog.png ) 
-*The Evaluate & Repair Mesh dialog box with the Folds on surface option enabled*
+*Okno dialogowe Oceń i napraw siatkę z włączoną opcją ''Fałdy na powierzchni''*
 
-## Usage
+## Użycie
 
-1.  Optionally select a single mesh object.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_Evaluation.svg" width=16px> [Mesh Evaluation](Mesh_Evaluation.md)** button.
-    -   Select the **Meshes → Analyze → <img src="images/Mesh_Evaluation.svg" width=16px> Evaluate and repair mesh...** option from the menu.
-3.  The **Evaluate & Repair Mesh** dialog box opens.
-4.  Optionally press the **Settings...** button to change the following settings   *
+1.  Opcjonalnie wybierz pojedynczy obiekt siatki.
+2.  Polecenie można wywołać na kilka sposobów   *
+    -   Naciśnij przycisk **<img src="images/Mesh_Evaluation.svg" width=16px> [Analizuj](Mesh_Evaluation.md)**.
+    -   Wybierz opcję z menu **Siatki → Analizuj → <img src="images/Mesh_Evaluation.svg" width=16px>Oceń i napraw siatkę ...**.
+3.  Otwiera się okno dialogowe **Oceń i napraw siatkę**.
+4.  Opcjonalnie naciśnij przycisk **Ustawienia ...**, aby zmienić następujące ustawienia   *
     -   
-        **Check for non-manifold points**
+        **Sprawdzanie miejsc technologicznie niewykonalnych**
         
 
     -   
-        **Enable check for folds on surface**
+        **Włącz sprawdzanie fałd na powierzchni**
         
 
     -   
-        **Only consider zero area faces as degenerated**
+        **Uznaj za uszkodzone tylko powierzchnie nie tworzące obszaru ''(zero area faces)''**
         
-5.  If you have not yet selected a mesh object   * select one from the dropdown list at the top of the dialog box.
-6.  The dialog contains 7 or 8 (if the **Folds on surface** option is enabled) test options.
-7.  Do not use the checkboxes, they will be checked automatically if errors are found.
-8.  Press any of the **Analyze** buttons to start a test.
-9.  Or use the **Analyze** button from the **All above tests together** option to run all 7 or 8 tests together.
-10. Errors will be indicated in the dialog box, and also, with yellow and red markers, in the [3D view](3D_view.md).
-11. Optionally press one or more **Repair** buttons to repair the errors that were found.
-12. Optionally press the **Reset** button to reset all test results. This will reset the dialog and remove the colored markers from the 3D view. If you want to repeat the same test or run all tests together there is no need to do this.
-13. Optionally select a different mesh object from the dropdown list to continue testing and repairing.
-14. Press the **Close** button to close the dialog box and finish the command.
-15. The **Refresh** button does not work properly at this time.
+5.  Jeśli nie wybrałeś jeszcze obiektu siatki   * wybierz go z listy rozwijanej w górnej części okna dialogowego.
+6.  Okno dialogowe zawiera siedem lub osiem *(jeśli włączona jest opcja **Włącz sprawdzanie fałd na powierzchni**)* opcji testowych.
+7.  Nie używaj pól wyboru, zostaną one zaznaczone automatycznie, jeśli zostaną znalezione błędy.
+8.  Naciśnij dowolny z przycisków **Analizuj**, aby rozpocząć test.
+9.  Lub użyj przycisku **Analizuj** z opcji **Wszystkie powyższe testy razem**, aby uruchomić wszystkie siedem lub osiem testów razem.
+10. Błędy zostaną wskazane w oknie dialogowym, a także, za pomocą żółtych i czerwonych znaczników, w oknie [widoku 3D](3D_view.md).
+11. Opcjonalnie naciśnij jeden lub więcej przycisków **Napraw**, aby naprawić znalezione błędy.
+12. Opcjonalnie naciśnij przycisk **Reset**, aby wyzerować wszystkie wyniki testu. Spowoduje to zresetowanie okna dialogowego i usunięcie kolorowych znaczników z okna widoku 3D. Jeśli chcesz powtórzyć ten sam test lub przeprowadzić wszystkie testy razem, nie ma potrzeby wykonywania tej czynności.
+13. Opcjonalnie wybierz inny obiekt siatkowy z listy rozwijanej, aby kontynuować testowanie i naprawę.
+14. Naciśnij przycisk **Zamknij** aby zamknąć okno dialogowe i zakończyć polecenie.
+15. Przycisk **Odśwież** nie działa w tej chwili prawidłowo.
 
-## Notes
+## Uwagi
 
--   Repairing a mesh can mean that problematic elements are deleted from the mesh resulting in holes. Holes can be closed with the [Mesh FillupHoles](Mesh_FillupHoles.md), [Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md) and [Mesh AddFacet](Mesh_AddFacet.md) commands.
--   See [this forum post](https   *//forum.freecadweb.org/viewtopic.php?f=3&p=533252#p533252) for an explanation of the mesh data structure. This information may help to understand why a mesh has problems.
+-   Naprawa siatki może oznaczać, że problematyczne elementy zostaną usunięte z siatki, co spowoduje powstanie dziur. Dziury można zamknąć za pomocą poleceń [Wypełnienie otworów](Mesh_FillupHoles/pl.md), [Interaktywne wypełnienie otworów](Mesh_FillInteractiveHole/pl.md) i [Dodaj element](Mesh_AddFacet/pl.md).
+-   Zobacz [ten post na forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&p=533252#p533252), aby uzyskać wyjaśnienie struktury danych siatki. Ta informacja może pomóc zrozumieć, dlaczego w danej siatce występują problemy.
 
-## Preferences
+## Ustawienia
 
--   The **Check for non-manifold points** setting is stored   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Evaluation → CheckNonManifoldPoints**.
--   The **Enable check for folds on surface** setting is stored   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Evaluation → EnableFoldsCheck**.
--   The **Only consider zero area faces as degenerated** setting is stored   * **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Evaluation → StrictlyDegenerated**.
+-   Ustawienie **Sprawdzanie miejsc technologicznie niewykonalnych** jest zapisywane   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Evaluation → CheckNonManifoldPoints**.
+-   Ustawienie **Włącz sprawdzanie fałd na powierzchni** jest zapisywane   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Evaluation → EnableFoldsCheck**.
+-   Ustawienie **Uznaj za uszkodzone tylko powierzchnie nie tworzące obszaru** jest zapisywane   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → Mod → Mesh → Evaluation → StrictlyDegenerated**.
 
 
 

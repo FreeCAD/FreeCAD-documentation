@@ -40,15 +40,43 @@ Soll nur eine einzige Ansicht erzeugt werden, bringt die Verwendung von Ansichte
 
 ## Eigenschaften
 
--    {{PropertyData/de|Anchor}}   * Die zentrale Ansicht in der Ansichtengruppe. Normalerweise die Vorderansicht.
+### Data
 
--    {{PropertyData/de|Projection Type}}   * \"Erster Winkel\" (europäisch) oder \"Dritter Winkel\" (amerikanisch).
 
--    {{PropertyData/de|Auto Distribute}}   * Wenn TRUE, werden die einzelnen Ansichten automatisch positioniert. Zur manuellen Positionierung schaltet man auf FALSE um.
+{{TitleProperty|Base}}
 
--    {{PropertyData/de|spacing X}}   * Horizontaler Abstand zwischen den Ansichten bei automatischer Positionierung. Man beachte, dass auch der Maßstab und die Größe der anderen Ansichten in der Gruppe den Abstand beeinflussen.
+-    **Source|LinkList**   * Links to the drawable objects to be depicted.
 
--    {{PropertyData/de|Spacing Y}}   * Vertikaler Abstand zwischen den Ansichten bei automatischer Anordnung.
+-    **XSource|XLinkList**   * Links to the drawable objects in an external file. <small>(v0.19)</small> 
+
+-    **Anchor|Link**   * The central view in the group. Normally the Front view.
+
+-    **ProjectionType|Enumeration**   * {{Value|First Angle}} or {{Value|Third Angle}}.
+
+For the other properties in this group see [TechDraw View](TechDraw_View#Properties.md).
+
+
+{{TitleProperty|Collection}}
+
+-    **Views|LinkList**   * Links to the views in this ProjectionGroup.
+
+
+{{TitleProperty|Distribute}}
+
+-    **Auto Distribute|Bool**   * If `True`, space out individual views automatically. Use `False` to position manually.
+
+-    **spacing X|Length**   * Horizontal space between views when automatically positioned. Note that Scale and the size of other views in the group also influence the spacing.
+
+-    **spacing Y|Length**   * Vertical space between views when automatically positioned.
+
+### View
+
+
+{{TitleProperty|Base}}
+
+See [TechDraw View](TechDraw_View#Properties.md).
+
+## Notes
 
 Die Ansichtengruppe als Ganzes erbt X, Y, Scale Type, Scale und Rotation aus der Basisansicht.
 

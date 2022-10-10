@@ -1,63 +1,42 @@
 ---
 - GuiCommand   */de
    Name   *FEM MaterialSolid
-   Name/de   *FEM WerkstoffVolumenkörper
-   MenuLocation   *Modell → FEM Werkstoff für Volumenkörper
+   Name/de   *FEM MaterialFeststoff
+   MenuLocation   *Modell → Materiallien → Material für Feststoffe
    Workbenches   *[FEM](FEM_Workbench/de.md)
-   Shortcut   ***M** **M**
+   Shortcut   ***M** **S**
    SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
 ---
 
 # FEM MaterialSolid/de
 
-
-</div>
-
 ## Beschreibung
 
-Fügt Materialeigenschaften einem Teil hinzu.
+Fügt einem Teil Materialeigenschaften hinzu.
 
 ![](images/FEMMaterialSolidProperties.png ) 
-*The FEM material task panel*
+*Der Aufgabenbereich FEM-Material*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
--   Klicke auf <img alt="" src=images/FEM_MaterialSolid.png  style="width   *32px;"> oder wähle **Model** → **<img src="images/FEM_MaterialSolid.png" width=32px> FEM Werkstoff für Volumenkörper** aus dem Hauptmenü.
--   Doppelklicke auf das erstellte **<img src="images/FEM_MaterialSolid.png" width=32px> VolumenkörperWerkstoff** Objekt
-
-![](images/FEMMaterialSolidProperties.png )
-
--   -   Wähle einen Werkstoff aus. Für die ingenieurmechanische Analyse ist **CalculiX-Stahl** eine typische Option.
-    -   Vorausgesetzt, dass du Werkstoffe auf das gesamte Objekt anwendest, wähle keine geometrischen Objekte aus (Referenzliste leer lassen). Der Werkstoff wird auf das gesamte Modell angewendet. Andernfalls weise bestimmten Modellteilen manuell Werkstoffe zu, indem du für jeden eingefügten Werkstoff einige davon auswählst, aber lasse keinen Teil des Modells ohne zugewiesenen Werkstoff.
-    -   Du kannst Materialeigenschaften wie Dichte, Elastizitätsmodul, Poissonzahl usw. einstellen, jedoch sind die meisten der gebräuchlichen Materialien bereits in den Voreinstellungen verfügbar und müssen nicht angepasst werden.
-    -   Wenn du Änderungen vornimmst, kannst du dein angepassten Werkstoff speichern.
-
--   Klicke **Close** um den Dialog zu schließen und erstelle**<img src="images/FEM_MaterialSolid.png" width=32px> VolumenkörperWerkstoff** Objekt
-
-
-</div>
+1.  Zur Erstellung eines neuen MaterialSolid-Objekts hat man folgende Möglichkeiten   *
+    -   Die Schaltfläche **<img src="images/FEM_MaterialSolid.svg" width=16px> [FEM MaterialFeststoff](FEM_MaterialSolid/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Materialien → <img src="images/FEM_MaterialSolid.svg" width=16px> Material für Feststoffe** auswählen.
+2.  Ein existierendes MaterialSolid-Objekt ändern   *
+    -   Doppelklick auf das Objekt in der [Baumansicht](Tree_view/de.md).
+3.  Der Aufgabenbereich FEM-Materialwird geöffnet.
+4.  Ein Material auswählen. Für eine mechanische Analyse ist **CalculiX-Steel** eine passende Auswahl.
+5.  Soll der Werkstoff dem gesamten Objekt zugeordnet werden, müssen keine geometrischen Elemente ausgewählt werden (die Referenzliste bleibt leer). Der Werkstoff wird dem gesamten Modell zugeordnet. Andernfalls weist man bestimmten Teilen des Modells manuell Werkstoffe zu, indem für jeden eingesetzten Werkstoff einige davon auswählt werden; es sollte am Ende aber kein Teil des Modells ohne zugewiesenen Werkstoff bleiben.
+6.  Die Materialeigenschaften wie density (Dichte), young\'s modulus (Elastizitätsmodul), poisson ratio (Querkontraktionszahl) usw. können angepasst werden, dabei sind die gängigsten Werkstoffe schon in den Voreinstellungen vorhanden und brauchen keine Feinabstimmung.
+7.  Wurden Einstellungen geändert, kann das angepasste Material gespeichert werden.
+8.  Aut die Schaltfläche **OK** klicken, um den Aufgabenbereich zu schließen.
 
 ## Hinweise
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Der mechanische Werkstoff verwendet die \*MATERIAL Karte in CalculiX. Einzelheiten über den mechanischen Werkstoff werden unter <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html> erläutert.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

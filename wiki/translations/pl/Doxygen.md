@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Doxygen is a popular tool for generating documentation from annotated C++ sources; it also supports other popular programming languages such as C\#, PHP, Java, and Python. Visit the [Doxygen website](http   *//www.doxygen.nl/) to learn more about the system, and consult the [Doxygen Manual](http   *//www.doxygen.nl/manual/index.html) for the full information.
+Doxygen jest popularnym narzędziem do generowania dokumentacji z adnotacji w źródłach C++; obsługuje również inne popularne języki programowania, takie jak C#, PHP, Java i Python. Odwiedź stronę [Doxygen](http   *//www.doxygen.nl/), aby dowiedzieć się więcej o systemie, i zapoznaj się z [Podręcznikiem Doxygen](http   *//www.doxygen.nl/manual/index.html), aby uzyskać pełne informacje.
 
 ## Doxygen i FreeCAD 
 
@@ -336,9 +336,9 @@ Some of the most common keywords used in the FreeCAD documentation are presented
 
 </div>
 
-## Markdown support 
+## Obsługa Markdown 
 
-Since Doxygen 1.8, Markdown syntax is recognized in documentation blocks. Markdown is a minimalistic formatting language inspired by plain text email which, similar to wiki syntax, intends to be simple and readable without requiring complicated code like that found in HTML, LaTeX or Doxygen\'s own commands. Markdown has gained popularity with free software, especially in online platforms like Github, as it allows creating documentation without using complicated code. See the [Markdown support](http   *//www.doxygen.nl/manual/markdown.html) section in the Doxygen manual to learn more. Visit the [Markdown website](https   *//daringfireball.net/projects/markdown/) to learn more about the origin and philosophy of Markdown.
+Od wersji Doxygen 1.8 rozpoznawana jest składnia Markdown w blokach dokumentacji. Markdown to minimalistyczny język formatowania inspirowany zwykłym tekstem e-mail, który, podobnie jak składnia Wiki, ma być prosty i czytelny, nie wymagając skomplikowanego kodu, jaki można znaleźć w HTML-u, LaTeX-u czy własnych komendach Doxygen. Markdown zyskał popularność wśród wolnego oprogramowania, zwłaszcza w platformach internetowych takich jak Github, ponieważ umożliwia tworzenie dokumentacji bez użycia skomplikowanego kodu. Zobacz sekcję [Obsługa Markdown](http   *//www.doxygen.nl/manual/markdown.html) w podręczniku Doxygen, aby dowiedzieć się więcej. Odwiedź [Strona Markdown](https   *//daringfireball.net/projects/markdown/), aby dowiedzieć się więcej o pochodzeniu i filozofii Markdown.
 
 Doxygen supports a standard set of Markdown instructions, as well as some extensions such as [Github Markdown](https   *//github.github.com/github-flavored-markdown/).
 
@@ -863,23 +863,23 @@ pip install --user flake8
 flake8 example.py
 ```
 
-To check all files inside a source tree use `find`. 
+Aby sprawdzić wszystkie pliki wewnątrz drzewa źródeł użyj `find`. 
 ```python
 find toplevel-source/ -name '*.py' -exec flake8 {} '+'
 ```
 
-If the project demands it, some code checks deemed too strict can be ignored. The error codes can be consulted in the [Pycodestyle documentation](https   *//pycodestyle.readthedocs.io/en/latest/intro.html#error-codes). 
+Jeśli projekt tego wymaga, niektóre kontrole kodu uznane za zbyt rygorystyczne mogą zostać zignorowane. Kody błędów można sprawdzić w [dokumentacji Pycodestyle](https   *//pycodestyle.readthedocs.io/en/latest/intro.html#error-codes). 
 ```python
 find toplevel-source/ -name '*.py' -exec flake8 --ignore=E266,E402,E722,W503 --max-line-length=100 {} '+'
 ```
 
-In similar way, a program that primarily checks that comments comply with [PEP257](https   *//www.python.org/dev/peps/pep-0257/) is [Pydocstyle](https   *//github.com/PyCQA/pydocstyle). The error codes can be consulted in the [Pydocstyle documentation](http   *//www.pydocstyle.org/en/4.0.0/error_codes.html). 
+W podobny sposób programem, który przede wszystkim sprawdza zgodność komentarzy z [PEP257](https   *//www.python.org/dev/peps/pep-0257/) jest [Pydocstyle](https   *//github.com/PyCQA/pydocstyle). Kody błędów można sprawdzić w [dokumentacji Pydocstyle](http   *//www.pydocstyle.org/en/4.0.0/error_codes.html). 
 ```python
 pip install --user pydocstyle
 pydocstyle example.py
 ```
 
-Also use it with `find` to perform docstring checks on all source files. 
+Użyj go również z `find`, aby wykonać sprawdzanie docstringów we wszystkich plikach źródłowych. 
 ```python
 find toplevel-source/ -name '*.py' -exec pydocstyle {} '+'
 ```
@@ -894,12 +894,12 @@ See the [Quick start guide](https   *//breathe.readthedocs.io/en/latest/quicksta
 
 See this answer in [Stackoverflow](https   *//stackoverflow.com/a/35377654) for other alternatives to documenting C++ and Python code together in the same project.
 
-## Related
+## Powiązane
 
--   [Source documentation](Source_documentation.md)
--   [FreeCAD API website](https   *//www.freecadweb.org/api/)
+-   [Dokumentacja kodu źródłowego](Source_documentation/pl.md)
+-   [Strona internetowa FreeCAD API](https   *//www.freecadweb.org/api/)
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *3rd Party](Category_3rd_Party.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *3rd Party](Category_3rd_Party.md)
 
 
 

@@ -15,7 +15,7 @@ The <img alt="" src=images/FrontISTR.svg  style="width   *24px;"> FEM FrontISTR 
 3.  Double-click on the solver object in the document tree and set working directory.
 4.  Click on the button **Write input file**
 5.  Click on the button **Run FrontISTR**
-6.  Check FISTR\_Results for post processing.
+6.  Check FISTR_Results for post processing.
 
 ### Features
 
@@ -42,7 +42,7 @@ The <img alt="" src=images/FrontISTR.svg  style="width   *24px;"> FEM FrontISTR 
 
 ### Limitations
 
--   FISTR\_Results only contains results for surfaces. If you need the interior results, change Output File Format to VTK and visualize the results with paraview.
+-   FISTR_Results only contains results for surfaces. If you need the interior results, change Output File Format to VTK and visualize the results with paraview.
 -   The FEM FrontISTR workbench does not yet support thermal analyses. FISTR itself can perform thermal analyses and support for this is planned in the near future.
 -   Mechanical analyses for different material in a model is not yet possible.
 
@@ -54,7 +54,7 @@ See <https   *//github.com/FrontISTR/FEM_FrontISTR/tree/master/sample/benchmarks
 
 ### Addon Manager 
 
-FEM\_FrontISTR can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon manager** menu. FEM\_FrontISTR is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → Addon manager**. The FEM\_FrontISTR code is hosted and developed [on GitHub](https   *//github.com/FrontISTR/FEM_FrontISTR).
+FEM_FrontISTR can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon manager** menu. FEM_FrontISTR is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → Addon manager**. The FEM_FrontISTR code is hosted and developed [on GitHub](https   *//github.com/FrontISTR/FEM_FrontISTR).
 
 ### Manual
 
@@ -72,8 +72,8 @@ FrontISTR binaries will be automatically downloaded and installed on the first r
 #### Windows
 
 1.  Download [FrontISTR-latest.zip](https   *//www.frontistr.com/download/link.php?https   *//frontistr-commons.gitlab.io/FrontISTR/release/x86_64-w64-mingw32-msmpi/FrontISTR-latest.zip)
-2.  Create directory FEM\_FrontISTR/bin
-3.  Extract FrontISTR-latest.zip and put all files in FEM\_FrontISTR/bin directory.
+2.  Create directory FEM_FrontISTR/bin
+3.  Extract FrontISTR-latest.zip and put all files in FEM_FrontISTR/bin directory.
 
 #### Linux
 

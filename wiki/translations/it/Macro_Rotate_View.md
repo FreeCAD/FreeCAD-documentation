@@ -14,23 +14,17 @@
 
 ## Descrizione
 
+Questa macro ruota la vista corrente di 90° a sinistra.
 
-<div class="mw-translate-fuzzy">
+## Limitazioni
 
-Questa macro ruota la vista corrente di 90° a sinistra. Funziona solo se si è in vista dall\'alto ![ rotation 90 degrees ](images/Macro_Rotate_View_view_90_Degrees.png )
-
-
-</div>
-
-## Limitations
-
-Only works if you are in Top view   * ![Std\_ViewTop\|16px\|link=Std\_ViewTop](images/View-top.svg ) [XY (top)](Std_ViewTop.md)
+Funziona solo se si è in vista dall\'alto ![Std_ViewTop\|16px\|link=Std_ViewTop](images/View-top.svg ) [XY (top)](Std_ViewTop/it.md)
 
 ## Script
 
 ToolBar Icon ![](images/Macro_Rotate_View_view_90_Degrees.png )
 
-**Macro\_Rotate\_View\_90\_Degrees.FCMacro**
+**Macro_Rotate_View_90_Degrees.FCMacro**
 
 
 {{MacroCode|code=

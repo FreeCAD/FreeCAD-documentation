@@ -10,7 +10,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See Notes.
+The <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [DraftView](TechDraw_DraftView.md) tool inserts a view of a selected [Part](Part_Workbench.md)-based or Group object into a drawing page. Unlike the standard <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [View](TechDraw_View.md) tool, views created with this tool are handled by the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft Workbench](Draft_Workbench.md), and specially designed for showing 2D objects. See [Notes](#Notes.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Draft elements like circles and arrays imported into a TechDraw drawing page*
@@ -22,10 +22,6 @@ The <img alt="" src=images/TechDraw_DraftView.svg  style="width   *24px;"> [Draf
 3.  Press the **<img src="images/TechDraw_DraftView.svg" width=16px> [Insert Draft Workbench Object](TechDraw_DraftView.md)** button
 4.  A view of the draft object will appear on the page.
 
-### Limitations
-
-The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Draft to get the representation you want.
-
 ## Options
 
 -   Creating a DraftView of a layer will recursively handle all objects found in that layer. The View is updated automatically when the contents of the layer changes
@@ -36,21 +32,32 @@ The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), ther
 
 ## Properties
 
--    **Source**   * The Draft object to be displayed
+See also [TechDraw View](TechDraw_View#Properties.md).
 
--    **LineWidth**   * The width of the lines, independently of the scale
+### Data
 
--    **FontSize**   * The size of all texts appearing in this view (texts and dimensions)
 
--    **Direction**   * The projection direction to use
+{{TitleProperty|Draft view}}
 
--    **Color**   * The color of lines
+-    **Source|Link**   * The Draft object to be displayed.
 
--    **LineStyle**   * A line style to use for this view. Can be Solid, Dashed, Dashdot, Dot or a SVG line pattern like 0.20,0.20
+-    **Line Width|Float**   * The width of the lines, independently of the scale.
 
--    **LineSpacing**   * The spacing to use between lines of texts for multiline texts
+-    **Font Size|Float**   * The size of all texts appearing in this view (texts and dimensions).
 
-Note   * Draft View inherits all applicable basic View properties.
+-    **Direction|Vector**   * The projection direction to use.
+
+-    **Color|Color**   * The color of lines.
+
+-    **Line Style|String**   * A line style to use for this view. Can be {{Value|Solid}}, {{Value|Dashed}}, {{Value|Dashdot}}, {{Value|Dot}} or an SVG line pattern like {{Value|0.20,0.20}}.
+
+-    **Line Spacing|Float**   * The spacing to use between lines of texts for multiline texts.
+
+-    **Override Style|Bool**   * If `True`, line color, width and style of this view will override those of the rendered object.
+
+## Notes
+
+The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), therefore TechDraw has limited control over its appearance. You may need to make changes within Draft to get the representation you want.
 
 ## Scripting
 

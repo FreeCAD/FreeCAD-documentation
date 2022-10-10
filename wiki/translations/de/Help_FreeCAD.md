@@ -3,13 +3,7 @@
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn Du FreeCAD magst und bei der Entwicklung helfen möchtest, gibt es neben der [direkten Spende](Donate.md) noch viele andere Dinge, die Du tun kannst, auch wenn Du kein Programmierer bist   *
-
-
-</div>
+Wenn man FreeCAD mag und das Projekt unterstützen möchte, gibt es viele Dinge, die man tun kann, egal ob man lieber Zeit oder Geld investieren möchte oder ob man Programmieren kann.
 
 ## Donate money 
 
@@ -24,7 +18,7 @@ Hilf uns, diese Dokumentation aufzubauen, zu korrigieren und zu erweitern. Fehle
 
 Einige Bereiche, die deine Arbeit begrüßen würden   *
 
--   Die [   *Category   *Command\_Reference](   *Category_Command_Reference.md) Seite listet und dokumentiert alle FreeCAD [Befehle](command/de.md). Die meisten von ihnen enthalten wenig bis gar keine Informationen. Bitte beziehe dich auf [WikiSeiten](WikiPages/de.md) für gute Beispiele, wie Befehlsdokumentationsseiten aussehen sollten.
+-   Die [   *Category   *Command_Reference](   *Category_Command_Reference.md) Seite listet und dokumentiert alle FreeCAD [Befehle](command/de.md). Die meisten von ihnen enthalten wenig bis gar keine Informationen. Bitte beziehe dich auf [WikiSeiten](WikiPages/de.md) für gute Beispiele, wie Befehlsdokumentationsseiten aussehen sollten.
 -   Der [Tutorien](Tutorials/de.md) Abschnitt benötigt Beispiele für die Verwendung der Arbeitsbereiche. Wenn Du etwas spannendes mit FreeCAD entwickelt hast, warum dokumentierst du nicht für die Nachwelt, wie du es gemacht hast?
 -   Es gibt offene Tickets auf dem FreeCAD [Fehlerverfolger](Tracker/de.md) mit der Markierung [\"documentation\"](https   *//freecadweb.org/tracker/search.php?tag_string=documentation), die etwas Liebe gebrauchen könnten.
 
@@ -118,7 +112,7 @@ Das Schreiben von Code für FreeCAD ist nicht schwer, und Du brauchst keine Erla
 
 </div>
 
-## Model
+## Create models 
 
 FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 

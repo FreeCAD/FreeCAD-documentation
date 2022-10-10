@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */fr
    Name   *TechDraw SpreadsheetView
-   Name/fr   *TechDraw Vue d'un tableur
+   Name/fr   *TechDraw Vue d'un objet Spreadsheet
    MenuLocation   *TechDraw → Insérer une vue de feuille de calcul
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md), [Spreadsheet](Spreadsheet_Workbench/fr.md)
 ---
@@ -13,7 +13,7 @@
 Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_Workbench/fr.md) sélectionnée dans une [page](TechDraw_Workbench/fr.md).
 
 ![](images/TechDraw_Spreadsheetview.png ) 
-*Elément de feuille de calcul inséré dans la page de dessin TechDraw*
+*Elément de Spreadsheet inséré dans la page de dessin TechDraw*
 
 ## Utilisation
 
@@ -23,19 +23,30 @@ Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_W
 
 ## Propriétés
 
--    **Source**   * la feuille de calcul à ajouter à la page
+Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
--    **Cell Start**   * la cellule supérieure gauche de la cellule doit être incluse dans cette vue
+### Données
 
--    **Cell End**   * la cellule en bas à droite de la plage de cellules à inclure dans cette vue
 
--    **Font**   * le nom de la police utilisée pour les textes
+{{TitleProperty|Spreadsheet}}
 
--    **Color**   * la couleur des lignes et des textes qui n\'ont pas de couleur spécifiée dans la feuille de calcul
+-    **Source|Link**   * feuille de calcul à ajouter à la page.
 
--    **Font Size**   * la taille de la police des textes
+-    **Cell Start|String**   * cellule supérieure gauche de la plage de cellules à inclure dans cette vue.
 
--    **Line Width**   * la largeur des lignes frontières de la cellule
+-    **Cell End|String**   * cellule inférieure droite de la plage de cellules à inclure dans cette vue.
+
+-    **Font|Font**   * nom de la police utilisée pour les textes.
+
+-    **Text Color|Color**   * couleur des textes et des lignes qui n\'ont pas de couleur spécifiée dans le tableur.
+
+-    **Text Size|Float**   * taille de la police des textes.
+
+-    **Line Width|Float**   * largeur des bordures des cellules.
+
+## Remarques
+
+-   Dans {{VersionMinus/fr|0.19}}, certains caractères dans les cellules des feuilles de calcul provoquent des erreurs lorsqu\'ils sont affichés dans une vue de feuille de calcul. Ces caractères doivent être codés en XML. Les caractères actuellement connus sont    * {{Incode|&}} (à remplacer par {{Incode|&amp;amp;}}) et {{Incode|&lt;}} (à remplacer par {{Incode|&amp;lt;}}). Voir aussi cette [discussion](https   *//forum.freecadweb.org/viewtopic.php?p=629853#p629885) dans le forum.
 
 
 

@@ -1,9 +1,9 @@
 ---
 - GuiCommand   */de
    Name   *FCGear LanternGear
-   Name/de   *FCZahnrad TriebstockZahnrad
-   MenuLocation   *FCZahnrad → Erstelle ein Triebstock Zahnrad
-   Workbenches   *[FCZahnrad](FCGear_Workbench/de.md)
+   Name/de   * FCGear Triebstockrad
+   MenuLocation   *Gear → Lantern Gear
+   Workbenches   *[FCGear](FCGear_Workbench/de.md)
    Shortcut   *Keine
    Version   *v0.16
    SeeAlso   *
@@ -21,84 +21,92 @@ Triebstockräder mit Rollenketten sind eine kostengünstige und robuste Alternat
 
 ![](images/Latern_Gear_example.png )
 
-
-<div class="mw-translate-fuzzy">
-
-
-   *   ![](images/Latern_Gear_example.png )
    *   
     
-*Oben   * Triebstockzahnrad*
+*Oben   * Triebstockrad*
     
-
-
-</div>
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wechsle zur <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [Arbeitsbereich FCZahnrad](FCGear_Workbench/de.md).
-2.  Rufe den Befehl auf verschiedene Weise auf   *
-    -   Drücke die <img alt="" src=images/FCGear_LanternGear.svg  style="width   *22px;"> [TriebstockZahnrad erstellen](FCGear_LanternGear/de.md) Schaltfläche in der Werkzeugleiste.
-    -   Mit dem **Zahnradmenü → Triebstock Zahnrad**.
-3.  Ändere die Zahnrad Parameter auf die gewünschten Bedingungen (siehe **Eigenschaften → Daten** unten).
-
-
-</div>
+1.  Zum Arbeitsbereich <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [FCGear](FCGear_Workbench/de.md) wechseln.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **[<img src=images/FCGear_LanternGear.svg style="width   *16px"> [Lantern Gear](FCGear_LanternGear/de.md)** drücken.
+    -   Den Menüeintrag **Gear → [<img src=images/FCGear_LanternGear.svg style="width   *16px"> Lantern Gear** auswählen.
+3.  Die Einstellungen den geforderten Randbedingungen entsprechend ändern (siehe [Eigenschaften](#Eigenschaften.md)).
 
 ## Eigenschaften
 
 ### Daten
 
-
-{{Properties_Title|Base}}
-
--    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
-
--    **Label**   * User name of the object in the [Tree view](Tree_view.md).
+Ein FCGear-LanternGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
 
 
 {{Properties_Title|accuracy}}
 
--    **num_profiles**   * Default is 10. The value normally does not need to be changed.
+
+<div class="mw-translate-fuzzy">
+
+-    {{PropertyData/de|num_profiles|Integer}}   * Voreingestellt ist 10. Der Wert muss normalerweise nicht geändert werden.
 
 
-{{Properties_Title|gear_parameter}}
+</div>
 
--    **bolt_radius**   * Default is 1,00 mm. Diameter of the cylinder on the rotating disc which functions as a second \"gear wheel\".
 
--    **height**   * Default is 5,00 mm. Value of the gear width.
-
--    **module**   * Default is 1,00 mm. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Notes**.
-
--    **teeth**   * Default is 15. Number of teeth.
-
-### Ansicht
-
-The parameter descriptions of the **View** tab will be found in [Property editor](Property_editor.md), further below at **Example of the properties of a PartDesign object**.
-
-## Hinweise
-
--    **module**   * Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
-
-## Hilfreiche Formeln 
-
--    **addendum diameter**= **module** \* **(teeth +2)**
-
--    **ptch diameter**= **module** \* **teeth**
-
--    **axle base**= **pitch diameter (lantern gear 1 + 2)**    * 2
+{{Properties_Title/de|Basis}}
 
 
 <div class="mw-translate-fuzzy">
 
+-    {{PropertyData/de|bolt_radius|Length}}   * Voreingestellt ist 1,00 mm. Durchmesser des Zylinders auf der drehenden Scheibe, die das zweites \"Zahnrad\" darstellt.
 
+-    {{PropertyData/de|height|Length}}   * Voreingestellt ist 5,00 mm. Wert der Zahnbreite.
 
+-    {{PropertyData/de|module|Length}}   * Voreingestellt ist 1,00 mm. Modul, das Verhältnis von Referenzdurchmesser des Zahnrades zur Anzahl der Zähne (siehe [Hinweise](#Hinweise.md)).
 
 
 </div>
+
+
+{{Properties_Title|gear_parameter}}
+
+
+<div class="mw-translate-fuzzy">
+
+-    {{PropertyData/de|teeth|Integer}}   * Voreingestellt ist 15. Anzahl der Zähne.
+
+
+</div>
+
+
+{{Properties_Title|tolerance}}
+
+
+<div class="mw-translate-fuzzy">
+
+-    {{PropertyData/de|head|Float}}   *
+
+
+</div>
+
+
+{{Properties_Title|version}}
+
+-    {{PropertyData/de|version|String}}   *
+
+## Hinweise
+
+-    **Modul**   * Nach den Regeln der ISO (International Organization for Standardization) ist der Modul das (ganzzahlige) Verhältnis von Teilkreisdurchmesser zur Anzahl der Zähne. Multipliziert man den Modul (m) mit Pi, erhält man die (Zahn-)Teilung (p) (engl. pitch). Moduln (mit zugehörigen Teilungswerten)   * m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Die Teilung ist der Abstand zwischen zwei entsprechenden Punkten (auf dem Teilkreis) zweier benachbarter Zähne.
+
+## Nützliche Formeln 
+
+-    **Kopfkreisdurchmesser**= **Modul** \* **(Anzahl der Zähne +2)**
+
+-    **Teilkreisdurchmesser**= **Modul** \* **Anzahl der Zähne**
+
+-    **Achsabstand**= (**Teilkreisdurchmesser1 (Zahnrad1)** + **Teilkreisdurchmesser2 (Zahnrad 2)**) / 2
+
+
+
 
 [Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 

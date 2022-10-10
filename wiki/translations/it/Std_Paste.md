@@ -16,17 +16,11 @@ Il comando **Incolla** incolla gli oggetti dagli Appunti nel documento attivo.
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_Paste.svg" width=16px> Incolla**.
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Paste.svg" width=16px> Incolla** dal menu.
     -   Selezionare l\'opzione **<img src="images/Std_Paste.svg" width=16px> Incolla** dal menu contestuale della [vista ad albero](Tree_view/it.md). Questa opzione è disponibile solo quando è stato selezionato un oggetto esistente.
     -   Usare la scorciatoia da tastiera   * **Ctrl**+**V**.
-
-
-</div>
 
 ## Note
 
@@ -40,13 +34,7 @@ Il comando **Incolla** incolla gli oggetti dagli Appunti nel documento attivo.
 -   Le etichette duplicate sono consentite se **Strumenti → Modifica parametri ... → BaseApp → Preferenze → Documento → DuplicateLabels** è impostato su `True`. Questa impostazione può essere modificata anche nell\'[editor delle preferenze](Preferences_Editor/it#Documento.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

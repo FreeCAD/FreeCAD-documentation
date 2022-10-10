@@ -13,7 +13,7 @@ If you\'d like to contribute with writing wiki documentation and tutorials, see 
 
 Please notice the version of FreeCAD used in the tutorial as some tutorials may use an old version of the program. Although the general modelling process may still work, some tools may have changed.
 
-See also [video tutorials](Video_tutorials.md).
+See also [video tutorials](Video_tutorials.md) and [books](Books.md).
 
 ## Architectura și Construcții Civile și industriale 
 
@@ -21,8 +21,8 @@ See also [video tutorials](Video_tutorials.md).
 <div class="mw-translate-fuzzy">
 
 Arch tutorial 00.jpg\|link=[Arch tutorial](Arch_tutorial.md)\|[Arch tutorial](Arch_tutorial.md)
-Basele medelării arhitecturale. Arch\_panel\_tutorial\_01.jpg\|link=[Arch panel tutorial](Arch_panel_tutorial.md)\|[Arch panel tutorial](Arch_panel_tutorial.md)
-Modelarea unui acoperiș în două ape la o casă mică. Exercise arch 01.jpg\|link=[Manual   *BIM\_modeling](Manual_BIM_modeling.md)\|[BIM modeling](Manual_BIM_modeling.md)
+Basele medelării arhitecturale. Arch_panel_tutorial_01.jpg\|link=[Arch panel tutorial](Arch_panel_tutorial.md)\|[Arch panel tutorial](Arch_panel_tutorial.md)
+Modelarea unui acoperiș în două ape la o casă mică. Exercise arch 01.jpg\|link=[Manual   *BIM_modeling](Manual_BIM_modeling.md)\|[BIM modeling](Manual_BIM_modeling.md)
 Cum se face un model de casă mică și produce planul.
 
 
@@ -64,7 +64,7 @@ An intro to v0.17 PartDesign workflow PD WB Tutorial018.png\|link=[Basic Part De
 Model a simple part using a feature editing methodology (updated for version 0.17) TBHS-model.png\|link=[Toothbrush Head Stand](Toothbrush_Head_Stand.md)\|[Model a Toothbrush Head Stand](Toothbrush_Head_Stand.md)
 in PartDesign v0.16 Exercise lego 01.jpg\|link=[Manual   *Modeling for product design](Manual_Modeling_for_product_design.md)\|[Modeling for product design](Manual_Modeling_for_product_design.md)
 Modeling a Lego block v0.16 Exercise table complete.jpg\|link=[Manual   *Traditional modeling, the CSG way](Manual   *Traditional_modeling,_the_CSG_way.md)\|[Traditional modeling, the CSG way](Manual   *Traditional_modeling,_the_CSG_way.md)
-Model a table using a simple CSG work flow. TutorialDraftShapeString\_Complete.jpg\|link=[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)\|[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)
+Model a table using a simple CSG work flow. TutorialDraftShapeString_Complete.jpg\|link=[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)\|[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)
 Create engraved text on a solid. Tutorial WhiffleBall.jpg\|link=[Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)\|[Create a Whiffle Ball](Whiffle_Ball_tutorial.md)
 from Part primitives. Tutorial-normand06.jpg\|link=[Basic modeling tutorial](Basic_modeling_tutorial.md)\|[Basic modeling tutorial](Basic_modeling_tutorial.md)
 Create an iron angle in 2 simple methods.
@@ -76,15 +76,15 @@ Create an iron angle in 2 simple methods.
 An introduction to modeling solids with Draft Workbench by creating a 2d profile in draft.
 
 <File   *GGTuto1> Vue.PNG\|link=[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)\|[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md) (v0.17)
-An introduction to the PartDesign workflow   * tracing a sketch, using pad, pocket, and moving the object. PD WB Tutorial018.png\|link=[Basic\_Part\_Design\_Tutorial](Basic_Part_Design_Tutorial.md)\|[Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md) (v0.17)
+An introduction to the PartDesign workflow   * tracing a sketch, using pad, pocket, and moving the object. PD WB Tutorial018.png\|link=[Basic_Part_Design_Tutorial](Basic_Part_Design_Tutorial.md)\|[Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md) (v0.17)
 Model a simple part using a feature editing methodology   * creating a sketch, using pad, external references, pocket, and mirror. TBHS-model.png\|link=[Toothbrush Head Stand](Toothbrush_Head_Stand.md)\|[Model an electric toothbrush head stand](Toothbrush_Head_Stand.md) (v0.16 or above)
 Multiple features used   * sketch, distance and coincident constraints, pad, external references, fillet, chamfer, linear pattern, and draft. Exercise lego 01.jpg\|link=[Manual   *Modeling for product design](Manual_Modeling_for_product_design.md)\|[Modeling for product design](Manual_Modeling_for_product_design.md) (v0.16)
 Modeling a Lego block   * sketches, vertical and horizontal distance constraints, pad, pocket, external reference, linear pattern, and assembly. Exercise table complete.jpg\|link=[Manual   *Traditional modeling, the CSG way](Manual   *Traditional_modeling,_the_CSG_way.md)\|[Traditional modeling, the CSG way](Manual   *Traditional_modeling,_the_CSG_way.md)
-Modeling a table by using simple solids like cubes and cylinders, and performing boolean operations (fusions and cuts) with them. 08\_T04\_Part\_ShapesString\_Extrude\_final\_cut.png\|link=[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)\|[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md) (v0.19)
-Create engraved text on a solid   * extrude a shapestring to make it solid, then use a boolean cut to carve it from another solid. 10\_T03\_Part\_ball\_fillet.png\|link=[Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)\|[Create a wiffle ball](Whiffle_Ball_tutorial.md) (v0.19)
+Modeling a table by using simple solids like cubes and cylinders, and performing boolean operations (fusions and cuts) with them. 08_T04_Part_ShapesString_Extrude_final_cut.png\|link=[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)\|[Draft ShapeString tutorial](Draft_ShapeString_tutorial.md) (v0.19)
+Create engraved text on a solid   * extrude a shapestring to make it solid, then use a boolean cut to carve it from another solid. 10_T03_Part_ball_fillet.png\|link=[Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)\|[Create a wiffle ball](Whiffle_Ball_tutorial.md) (v0.19)
 Use solid primitives, like cubes and cylinders, and boolean operations, like union and cut, to create a hollowed ball. Tutorial-normand06.jpg\|link=[Basic modeling tutorial](Basic_modeling_tutorial.md)\|[Basic modeling tutorial](Basic_modeling_tutorial.md)
 Create an iron angle by two methods   * using solid primitives, and boolean operations (CSG); and by extruding a planar profile. <File   *HTCaeroplane04.png%7Clink=>[Aeroplane](Aeroplane.md)\|[Aeroplane tutorial](Aeroplane.md)
-Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X). <File   *T13_14_Threads_components.png%7Clink=>[Thread\_for\_Screw\_Tutorial](Thread_for_Screw_Tutorial.md)\|[Thread for screw tutorial](Thread_for_Screw_Tutorial.md) (v0.19)
+Understand placements in FreeCAD by creating a simple aeroplane model. Then learn about rotation angles, yaw (Z), pitch (Y), and roll (X). <File   *T13_14_Threads_components.png%7Clink=>[Thread_for_Screw_Tutorial](Thread_for_Screw_Tutorial.md)\|[Thread for screw tutorial](Thread_for_Screw_Tutorial.md) (v0.19)
 Understand how to create threads with several techniques that include use of the tools [Part Helix](Part_Helix.md), [PartDesign AdditivePipe](PartDesign_AdditivePipe.md), [Part Sweep](Part_Sweep.md), [Part Fuse](Part_Fuse.md), and [Part Cut](Part_Cut.md).
 
 The Raspberry Pi project has made simple tutorials that are easy to follow, particularly for those new to CAD systems   *
@@ -99,8 +99,8 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 
 <div class="mw-translate-fuzzy">
 
-Exercise cabin 01.jpg\|link=[Manual   *Traditional 2D drafting](Manual_Traditional_2D_drafting.md)\|[Traditional 2D drafting](Manual_Traditional_2D_drafting.md) Draft\_tutorial\_result.png\|link=[Draft tutorial](Draft_tutorial.md)\|[Draft tutorial](Draft_tutorial.md)
-Introducerea în atelierul Desen 2 D( Draft workbench) . Sketcher tutorial result.png\|Link=[Basic\_Sketcher\_Tutorial/ro](Basic_Sketcher_Tutorial/ro.md)\|[Basic Sketcher Tutorial](Basic_Sketcher_Tutorial/ro.md)
+Exercise cabin 01.jpg\|link=[Manual   *Traditional 2D drafting](Manual_Traditional_2D_drafting.md)\|[Traditional 2D drafting](Manual_Traditional_2D_drafting.md) Draft_tutorial_result.png\|link=[Draft tutorial](Draft_tutorial.md)\|[Draft tutorial](Draft_tutorial.md)
+Introducerea în atelierul Desen 2 D( Draft workbench) . Sketcher tutorial result.png\|Link=[Basic_Sketcher_Tutorial/ro](Basic_Sketcher_Tutorial/ro.md)\|[Basic Sketcher Tutorial](Basic_Sketcher_Tutorial/ro.md)
 Introducere în Sketcher. Constrain3.png\|link=[Sketcher Micro Tutorial - Constraint Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)\|[Sketcher Micro Tutorial](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)
 Învățai să constrângeți eficient un pătrat.
 
@@ -119,7 +119,7 @@ Introducere în Sketcher. Constrain3.png\|link=[Sketcher Micro Tutorial - Constr
 <div class="mw-translate-fuzzy">
 
 TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md)\|[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md)
-Intro to creating drawings with the TechDraw workbench. <File   *FCTemplateHow.png%7Clink=>[TechDraw\_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[Creating a new background template](TechDraw_TemplateHowTo.md)
+Intro to creating drawings with the TechDraw workbench. <File   *FCTemplateHow.png%7Clink=>[TechDraw_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[Creating a new background template](TechDraw_TemplateHowTo.md)
 Instructions to create a new page template in Inkscape for using with the TechDraw Workbench.
 
 
@@ -142,13 +142,13 @@ This is a short introduction to the steps required to perform an analysis in the
 Figure 11 Deformed Mesh.png\|link=[FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) (v0.17)
 Study the deformation of a block made of a hard nucleus surrounded by a softer material   * create mesh regions, add materials, set up sliding constraints, add shear loads, run the solver, and visualize the results with a clip plane.
 
-Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) (v0.19)
+Femconcrete_Wall_3D_rx_PSS.png\|link=[Analysis_of_reinforced_concrete_with_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) (v0.19)
 Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.
 
-Two\_balls\_result\_2-cropped.png\|link=[FEM\_Example\_Capacitance\_Two\_Balls](FEM_Example_Capacitance_Two_Balls.md)\|[Electrostatic equation -- Capacitance of two balls](FEM_Example_Capacitance_Two_Balls.md) (v0.19)
+Two_balls_result_2-cropped.png\|link=[FEM_Example_Capacitance_Two_Balls](FEM_Example_Capacitance_Two_Balls.md)\|[Electrostatic equation -- Capacitance of two balls](FEM_Example_Capacitance_Two_Balls.md) (v0.19)
 This example shows how to simulate a capacitance. It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualize the results using [Clip Filter](FEM_PostFilterClipRegion.md).
 
-FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
+FEM_post-processing_Paraview.png\|link=[Post-Processing_of_FEM_Results_with_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
 This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.
 
 ## CNC & 3D Printing 
@@ -256,7 +256,7 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 ++++++++
 | [Customize Toolbars](Customize_Toolbars.md)                                                                        |                         | Beginner              | 0   *05                   | [Mario52](User_Mario52.md)                                                             | Any                 | None                                                                                                                                                                                                                                                                                                                          |
 ++++++++
-| [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0   *30                   | r-frank and vocx                                                                               | 0.17 and above      | [Draft\_Shapestring\_Text](https   *//github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                |
+| [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0   *30                   | r-frank and vocx                                                                               | 0.17 and above      | [Draft_Shapestring_Text](https   *//github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft tutorial](Draft_tutorial.md)                                                                                | Draft Workbench         | Beginner              | 0   *30                   | [Drei](User_Drei.md) and vocx                                                          | 0.19                | [Draft tutorial updated](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
 ++++++++
@@ -380,7 +380,7 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 ++++++++
 | [VRML Preparation for Robot Simulation](VRML_Preparation_for_Robot_Simulation.md)                                  | Robot Workbench         | Intermediate          |                        |                                                                                                | 0.11.4252ppa1       |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
-| [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)                                                                  | Product design          | Beginner              | 0   *30                   | r-frank and vocx                                                                               | 0.17 and above      | [WhiffleBall\_Tutorial\_FCWiki.FCStd](https   *//github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true)                                                                                                                                                          |
+| [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)                                                                  | Product design          | Beginner              | 0   *30                   | r-frank and vocx                                                                               | 0.17 and above      | [WhiffleBall_Tutorial_FCWiki.FCStd](https   *//github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true)                                                                                                                                                            |
 ++++++++
 | [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)                                                        | Import                  | Intermediate/Advanced | 1   *00                   |                                                                                                |                     |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

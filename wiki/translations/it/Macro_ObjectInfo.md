@@ -2,10 +2,11 @@
 {{Macro/it
 |Name=Macro ObjectInfo
 |Translate=Info oggetto
-|Description=Fornisce informazioni sull'oggetto selezionato
+|Description=Questa WorkBench consente di ottenere informazioni riguardo il volume, superficie, il baricentro e il momento di inerzia dell'oggetto selezionato.
 |Author=keithsloan52
 |Version=1.0
-|Date=2012-11-09|FCVersion=Until 0.17 '''and PyQt4'''
+|Date=2012-11-09
+|FCVersion=Until 0.17 '''and PyQt4'''
 |Download=Questa non è una macro ma un WorkBench, decomprime il file .zip e incolla la directory completa nella directory degli utenti Mod [https   *//github.com/KeithSloan/FreeCAD_Info/archive/master.zip Info]
 |SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey/it.md)
 }}
@@ -20,15 +21,9 @@ Questa estensione fornisce il volume, la superfice e altre utili informazioni su
 
 In Linux, creare la cartella \"Mod\" in .FreeCAD, nella propria Home. Poi, all\'interno di \"Mod\", creare la cartella \"Info\" in cui estrarre l\'archivio. In Windows, creare la cartella \"Info\" in C   *Program Files\\FreeCAD0.xx\\Mod.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
 
-Quindi avviare FreeCAD, aprire il file STEP e passare al workbench \"Info\" con il workbench switcher o andando al menu Visualizza → Workbench. Ora seleziona il tuo solido e fai clic sull\'icona \"Info\"; la barra delle applicazioni a sinistra mostrerà alcune informazioni sul modello, inclusi il volume, l\'area della superficie, il centro di massa e il momento della intertia.
-
-
-</div>
+Quindi avviare FreeCAD, aprire il file STEP e passare al workbench \"Info\" con il workbench switcher o andando al menu Visualizza → Workbench. Ora seleziona il tuo solido e fai clic sull\'icona \"Info\"; la barra delle applicazioni a sinistra mostrerà alcune informazioni sul modello, inclusi il volume, l\'area della superficie, il centro di massa e il momento di inerzia.
 
 ## Codice
 

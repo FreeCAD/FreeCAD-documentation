@@ -54,6 +54,8 @@ The following tools are available in this menu   *
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width   *32px;"> [Left](Std_ViewLeft.md)   * Switches to the left view.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width   *32px;"> [Rotate Left](Std_ViewRotateLeft.md)   * Rotates the view to the left.
     -   <img alt="" src=images/Std_RotateRight.png  style="width   *32px;"> [Rotate Right](Std_ViewRotateRight.md)   * Rotates the view to the right.
+    -   [Store working view](Std_StoreWorkingView.md)   * Stores the camera settings of the active 3D view in its working view. <small>(v1.0)</small> 
+    -   [Recall working view](Std_RecallWorkingView.md)   * Recalls the active 3D view\'s stored working view. <small>(v1.0)</small> 
 
 -   [Freeze display](Std_FreezeViews.md)
     -   [Save views\...](Std_FreezeViews#Save_views....md)   * Saves frozen views in a file.

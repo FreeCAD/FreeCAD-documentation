@@ -83,16 +83,6 @@ In the [property editor](property_editor.md) you can set in the *View* tab the s
     -   **Parallel**   * In this mode all filters take the pipeline as input.
     -   **Custom**   * <small>(v0.20)</small>  This is the default and keeps the input of the filters as they are. Therefore it allows to have e.g. two filters that take the pipeline as input, and a third filter that takes one of the two filters as input.
 
-## Limite
-
-
-<div class="mw-translate-fuzzy">
-
-Încă o dată, rețineți că reprezentarea conductelor rezultate (denumită VTK) pe partea afișată este diferită de rezultatele gradientului de culoare care sunt vizibile când terminați soluția. Valorile din scara de gradient nu pot fi aplicate obiectului rezultat al soluției. Detalii găsiți la <https   *//www.vtk.org/Wiki/VTK/Tutorials/New_Pipeline>
-
-
-</div>
-
 
 
 

@@ -11,21 +11,15 @@
 |Download=[https   *//www.freecadweb.org/wiki/images/6/6e/Macro_FaceToSketch.png ToolBar Icon]
 }}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Descrizione
 
-Questa macro rompe la forma con la funzione {{KEY/it|<img src="images/Draft_Downgrade.png" width=16px> [Draft Downgrade](Draft_Downgrade/it.md)}} e trasforma la faccia selezionata in uno schizzo senza vincoli e pronto per essere modificato.
-
-
-</div>
+Questa macro rompe la forma con la funzione {{KEY/it|<img src="images/Draft_Downgrade.svg" width=16px> [Draft Downgrade](Draft_Downgrade/it.md)}} e trasforma la faccia selezionata in uno schizzo senza vincoli e pronto per essere modificato.
 
 ## Script
 
-ToolBar Icon ![](images/Macro_FaceToSketch.png )
+Icona barra strumenti ![](images/Macro_FaceToSketch.png )
 
-**Macro\_FaceToSketch.FCMacro**
+**Macro_FaceToSketch.FCMacro**
 
 
 {{MacroCode|code=

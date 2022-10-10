@@ -2,7 +2,7 @@
 - GuiCommand   */de
    Name   *Sketcher ConstrainCoincident
    Name/de   *Skizzierer KoinzidentFestlegen
-   MenuLocation   *Skizze → Skizzen-Beschränkungen → Koinzidenz erzwingen
+   MenuLocation   *Skizze → Skizzen-Beschränkungen → Koinzidenz festlegen
    Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Shortcut   ***C**
    SeeAlso   *[Sketcher Sperren](Sketcher_ConstrainLock/de.md), [Sketcher PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md)
@@ -20,20 +20,17 @@ In der Praxis ist dieses Beschränkungswerkzeug nützlich, wenn es z.B. zu einem
 
 ## Anwendung
 
+Wie oben erwähnt, benötigt dieses Werkzeug zwei Eingaben - beides sind Punkte.
 
-<div class="mw-translate-fuzzy">
-
-Wie oben erwähnt, benötigt dieses Werkzeug zwei Argumente - beides sind Punkte.
-
-1.  Zunächst ist es notwendig, zwei verschiedene Punkte zu markieren. (**Hinweis   *** Dies funktioniert nicht, wenn du z. B. versuchst, den Start- und Endpunkt derselben Geraden zu markieren; das Markieren des Anfangs- und Endpunkts eines Bogens erzeugt einen geschlossenen Kreis oder eine Ellipse, zwingt aber die Lage der Naht auf diesen Punkt).
+1.  Zunächst ist es notwendig, zwei verschiedene Punkte zu markieren. (**Hinweis   *** Dies funktioniert nicht, wenn man z. B. versucht, den Start- und Endpunkt derselben Geraden zu markieren; das Markieren des Anfangs- und Endpunkts eines Bogens erzeugt einen geschlossenen Kreis oder eine Ellipse, legt aber die Lage der Naht auf diesen Punkt fest).
 2.  Das Markieren eines Zeichenelements wird erreicht, indem man die Maus über das Element bewegt und die linke Maustaste drückt.
 3.  Es ist auch möglich, alle Elemente innerhalb eines Rechtecks durch Klicken und Ziehen zu markieren. Beim Ziehen von links nach rechts (mit einer beliebigen vertikalen Bewegung) werden nur die Formen markiert, die sich vollständig innerhalb des Rechtecks befinden; in der anderen Richtung werden alle Formen markiert, die sich mit dem Auswahlrechteck schneiden. Dies kann verwendet werden, um nur die Knoten auszuwählen, ohne die Kanten auszuwählen, indem man ein kleines Auswahlrechteck um einige Knoten von links nach rechts zieht, solange es keine Kanten gibt, die vollständig im Rechteck enthalten sind.
-4.  Ein markiertes Element ändert seine Farbe in grün. (Diese Farbe kann in **Bearbeiten → Einstellungen → Anzeige → Farben → Auswahl** angepasst werden)
-5.  Nachfolgende Elemente können durch Wiederholung der obigen Prozedur(en) markiert werden. **Hinweis   *** Es ist nicht notwendig, eine spezielle Taste wie **Strg** gedrückt zu halten, um die Auswahl mehrerer Punkte in einer Zeichnung zu erreichen.
-6.  Sobald du zwei Punkte markiert hast, kannst du den Befehl mit verschiedenen Methoden aufrufen   *
-    -   Drücken auf den **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [BeschränkeDeckungsgleich](Sketcher_ConstrainCoincident/de.md)** Beschränkungsschaltfläche in der Werkzeugleiste.
-    -   Verwendung des Tastaturkürzels **C**.
-    -   Verwendung des **Skizze → Skizzierer Beschränkungen → Beschränkung deckungsgleich** Eintrags im oberen Menü.
+4.  Ein markiertes Element ändert seine Farbe auf grün. (Diese Farbe kann in **Bearbeiten → Einstellungen → Anzeige → Farben → Auswahl** angepasst werden)
+5.  Nachfolgende Elemente können durch Wiederholung der obigen Prozedur(en) markiert werden. **Hinweis   *** Es ist nicht notwendig, eine spezielle Taste wie **Strg** gedrückt zu halten, um die Auswahl mehrerer Punkte in einer Skizze zu erreichen.
+6.  Sobald zwei Punkte markiert wurden, hat man mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md)** in der Werkzeugleiste drücken.
+    -   Das Tastaturkürzel **C**.
+    -   Den Menüeintrag **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainCoincident.svg style="width   *16px"> Koinzidenz festlegen** auswählen.
 
 
 **Ergebnis   ***
@@ -41,47 +38,44 @@ Wie oben erwähnt, benötigt dieses Werkzeug zwei Argumente - beides sind Punkte
 Der Befehl bewirkt, dass die beiden Punkte *deckungsgleich* werden und durch einen einzigen Punkt ersetzt werden.
 
 
-</div>
-
-
 **Hinweis   ***
 
 Um zwei Punkte deckungsgleich zu machen, muss FreeCAD unbedingt einen oder beide der ursprünglichen Punkte verschieben.
 
-## Alternativen zur Deckungsgleich Beschränkung 
+## Alternativen zu Koinzident festlegen 
 
-Die beiden beschränkten Elemente einer [Deckunsgleich](Sketcher_ConstrainCoincident/de.md) Beschränkung müssen Startpunkt- oder Endpunkt Knoten oder Mittelpunkte von Bögen, Kreisen oder Ellipsen sein. Einige Kombinationen, die mit einer Deckunsgleich Beschränkung nicht möglich sind, können mit anderen Beschränkung emuliert werden   *
+Die beiden Elemente einer Randbedingung [KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md) müssen Startpunkt- oder Endpunkt-Knoten oder Mittelpunkte von Bögen, Kreisen oder Ellipsen sein. Einige Kombinationen, die mit KoinzidentFestlegen nicht möglich sind, können mit anderen Randbedingungen emuliert werden   *
 
--   Die <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width   *24px;"> [Symmetrisch](Sketcher_ConstrainSymmetric/de.md) Beschränkung kann verwendet werden, um einen Start-, End- oder Mittelpunkt auf den Mittelpunkt einer geraden Linie zu legen.
--   Eine Mittelpunkt-zu-Mittelpunkt Platzierung von zwei Geraden kann durch das Erstellen einer neuen <img alt="" src=images/Sketcher_CreatePoint.svg  style="width   *24px;"> [Punkt](Sketcher_CreatePoint/de.md) und mit zwei <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width   *24px;"> [Symmetrisch](Sketcher_ConstrainSymmetric/de.md) Beschränkungen, so dass er auf dem Mittelpunkt der beiden Linien liegt.
--   Ein Knoten kann mit einer <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *24px;"> [PunktAufObjekt](Sketcher_ConstrainPointOnObject/de.md) Beschränkung so beschränkt werden, dass er entlang einer Kante liegt. Beachte, dass bei dieser Beschränkung der Punkt überall auf der vollen Ausdehnung eines Segments oder einer Kurve liegen kann (also auch vor dem Startpunkt oder über den Endpunkt hinaus).
--   Eine kollineare Platzierung zweier Geraden erhält man durch Anwendung einer <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width   *24px;"> [Tangenten](Sketcher_ConstrainTangent/de.md) Beschränkung auf sie, oder durch die Kombination einer <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *24px;"> [PunktAufObjekt](Sketcher_ConstrainPointOnObject/de.md) Beschränkung und einer <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width   *24px;"> [Parallel](Sketcher_ConstrainParallel/de.md) Beschränkung.
--   Zwei Kanten können identisch gemacht werden, indem zwei <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Deckungsgleich](Sketcher_ConstrainCoincident/de.md) Beschränkungen, eine für jedes Paar von Extremstellen.
--   Zwei Kreise können identisch gemacht werden, indem man eine <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Deckungsgleich](Sketcher_ConstrainCoincident/de.md) Beschränkung die Mittelpunkte zusammenführen und eine <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width   *24px;"> [Gleichheit](Sketcher_ConstrainEqual/de.md) Beschränkung auf ihre Kanten. Bei Bögen stellt dies sicher, dass beide Bögen Teil desselben Kreises sind, während sie unterschiedliche Start- und Endpunkte haben können.
+-   Die Randbedingung <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width   *24px;"> [SymmetrieFestlegen](Sketcher_ConstrainSymmetric/de.md) kann verwendet werden, um einen Start-, End- oder Mittelpunkt auf den Mittelpunkt einer geraden Linie zu legen.
+-   Eine Randbdingung Mittelpunkt-auf-Mittelpunkt zweier Geraden kann emuliert werden durch das Erstellen eines neuen <img alt="" src=images/Sketcher_CreatePoint.svg  style="width   *24px;"> [Punktes](Sketcher_CreatePoint/de.md) und zweimaliger Verwendung der Randbedingung <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width   *24px;"> [SymmetrischFestlegen](Sketcher_ConstrainSymmetric/de.md), so dass er auf den Mittelpunkten beider Linien liegt.
+-   Ein Knoten kann mit einer Randbedingung <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *24px;"> [PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md) so festgelegt werden, dass auf einer Kante liegt. Bei dieser Randbedingung kann der Punkt überall auf der vollen Ausdehnung eines Segments oder einer Kurve liegen (also auch vor dem Startpunkt oder hinter dem Endpunkt).
+-   Eine kollineare (fluchtende) Platzierung zweier Geraden erhält man durch Anwendung einer Randbedingung <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width   *24px;"> [TangentialFestlegen](Sketcher_ConstrainTangent/de.md) auf sie, oder durch die Kombination der Randbedingungen <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *24px;"> [PunktAufObjektFestlegen](Sketcher_ConstrainPointOnObject/de.md) und <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width   *24px;"> [ParallelFestlegen](Sketcher_ConstrainParallel/de.md).
+-   Zwei Kanten können deckungsgleich platziert werden, indem die Randbedingung <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md) zweimal angewendet wird, auf jeweils ein Paar von Extrempunkten (Start- oder Endpunkte).
+-   Zwei Kreise können deckungsgleich platziert werden, indem man mit der Randbedingung <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [KoinzidentFestlegen](Sketcher_ConstrainCoincident/de.md) die Mittelpunkte zusammenführt und die Randbedingung <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width   *24px;"> [GleichheitFestlegen](Sketcher_ConstrainEqual/de.md) auf ihre Kanten anwendet. Bei Bögen stellt dies sicher, dass beide Bögen Teil desselben Kreises sind, während sie unterschiedliche Start- und Endpunkte haben können.
 
 ## Skripten
 
-Die Beschränkung kann aus [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit dem folgenden Befehl erstellt werden   *
+Die Randbedingung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit dem folgenden Befehl erstellt werden   *
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Coincident',LineFixed,PointOfLineFixed,LineMoving,PointOfLineMoving)) 
 ```
 
-wo    *
+wobei    *
 
--    `Skizze`ist ein Skizzenobjekt.
+-    `Sketch`ein Skizzenobjekt ist.
 
--    `LinieFixiert`ist die Nummer der Zeile, die sich durch die Anwendung der Beschränkung nicht bewegt.
+-    `LineFixed`die Nummer der Linie ist, die sich durch die Anwendung der Randbedingung nicht bewegt.
 
--    `PunktderfixiertenLinie`zeigt an, welcher Knoten der Linie `fixiertenLinie`, die Beschränkung erfüllen muss.
+-    `PointOfLineFixed`bestimmt, welcher Knoten der Linie `LineFixed` die Randbedingung erfüllen muss.
 
--    `LinieBewegt`ist die Nummer der Zeile, die sich durch Anwendung der Beschränkung bewegt.
+-    `LineMoving`die Nummer der Zeile ist, die sich durch Anwendung der Randbedingung bewegt.
 
--    `PunktderbewegtenLinie`zeigt an, welcher Knoten der `bewegtenLinie`, die Beschränkung erfüllen muss.
+-    `PointOfLineMoving`bestimmt, welcher Knoten der Linie `LineMoving`, die Randbedingung erfüllen muss.
 
-Wie die Namen `LineFixed` und `LineMoving` andeuten, bleibt, wenn beide beschränkten Knoten sich frei in jede Richtung bewegen können, der erste (im Gui zuerst ausgewählte) fest und der andere bewegt sich. Bei vorhandenen Beschränkungen dürfen sich jedoch beide Kanten bewegen.
+Wie die Namen `LineFixed` und `LineMoving` andeuten, bleibt, wenn sich beide beteiligten Knoten frei in jede Richtung bewegen können, der erste (in der GUI zuerst ausgewählte) fest und der andere bewegt sich. Sind jedoch weitere Randbedingungen vorhanden, dürfen sich beide Kanten bewegen.
 
-Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, die für `LineFixed`, `PointOfLineFixed`, `LineMoving` und `PointOfLineMoving` verwendet werden können, und enthält weitere Beispiele, wie man Beschränkungen aus Python Skripten erstellt.
+Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt die Werte, die für `LineFixed`, `PointOfLineFixed`, `LineMoving` und `PointOfLineMoving` verwendet werden können, und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 
 

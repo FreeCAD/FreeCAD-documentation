@@ -27,7 +27,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg 
     -   Wähle die **TechDraw → Extensions   * Attributes/Modifications → <img src="images/TechDraw_ExtensionPosVertChainDimension.svg" width=16px> Position Vertical Chain Dimensions** Option aus dem Menü.
 4.  Die Maße werden fluchtend ausgerichtet, die Maßzahlen werden zentriert.
 
-## Bemerkungen
+## Hinweise
 
 -   Dieses Werkzeug kann auch zum Zentrieren der Maßzahlen einzelner Maße verwendet werden.
 

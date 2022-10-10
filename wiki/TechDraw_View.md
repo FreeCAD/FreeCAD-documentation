@@ -36,82 +36,135 @@ View will try to draw anything with a `Shape` property. You can select [sketches
 
 {{TitleProperty|Base}}
 
--    **X**   * The view\'s horizontal position on the page. (1)
+-    **X|Distance**   * The view\'s horizontal position on the page. (1)
 
--    **Y**   * The view\'s vertical position on the page. (1)
+-    **Y|Distance**   * The view\'s vertical position on the page. (1)
 
--    **Lock Position**   * Prevents Views from being dragged in the Gui when true. The View can still be moved by changing X,Y properties. (1)
+-    **Lock Position|Bool**   * Prevents Views from being dragged in the Gui when `True`. The View can still be moved by changing X,Y properties. (1)
 
--    **Rotation**   * Counterclockwise rotation of the View on the page in degrees. (1)
+-    **Rotation|Angle**   * Counterclockwise rotation of the View on the page in degrees. (1)
 
--    **Scale Type**   * \"Document\"   * use the Page\'s scale setting. \"Custom\"   * use a scale unique to this view. \"Automatic\"   * fit view to page. (1)
+-    **Scale Type|Enumeration**   * The scale type. Options   * (1)
 
--    **Scale**   * A view will be rendered on the page in Scale   *1 ratio to the Source. (1)
+    -   
+        {{Value|Page}}
+        
+           * Use the [Page](TechDraw_PageDefault.md)\'s scale setting.
 
--    **Caption**   * Optional short text caption.
+    -   
+        {{Value|Automatic}}
+        
+           * Fit the view to the page.
 
-\(1\) these properties are common to all View types.
+    -   
+        {{Value|Custom}}
+        
+           * Use the scale defined by **Scale**.
+
+-    **Scale|FloatConstant**   * The view will be rendered on the page in Scale   *1 ratio to the Source. (1)
+
+-    **Caption|String**   * Optional short text caption. (1)
 
 
 {{TitleProperty|Cosmetics}}
 
+-    **Cosmetic Vertexes|TechDraw   *   *PropertyCosmeticVertexList|Hidden**
+    
+
+-    **Cosmetic Edges|TechDraw   *   *PropertyCosmeticEdgeList|Hidden**
+    
+
+-    **Center Lines|TechDraw   *   *PropertyCenterLineList|Hidden**
+    
+
+-    **Geom Formats|TechDraw   *   *PropertyGeomFormatList|Hidden**
+    
+
 
 {{TitleProperty|HLR Parameters}}
 
--    **Coarse View**   * If true, TechDraw will use a polygon approximation to calculate drawing geometry. If false, TechDraw will use a precision algorithm. CoarseView can be much faster for complex models. The quality of the drawing is reduced, since every curve is approximated as a series of short line segments. Vertices are not displayed in CoarseView since each short segment would result in two new Vertices and the display becomes cluttered. Linear Dimensions can be added to a CoarseView, but are unlikely to be useful.
+-    **Coarse View|Bool**   * If `True`, TechDraw will use a polygon approximation to calculate drawing geometry. If `False`, TechDraw will use a precision algorithm. CoarseView can be much faster for complex models. The quality of the drawing is reduced, since every curve is approximated as a series of short line segments. Vertices are not displayed in CoarseView since each short segment would result in two new Vertices and the display becomes cluttered. Linear Dimensions can be added to a CoarseView, but are unlikely to be useful.
 
--    **Smooth Visible**   * Visible Smooth lines on/off.
+-    **Smooth Visible|Bool**   * Visible Smooth lines on/off.
 
--    **Seam Visible**   * Visible Seam lines on/off.
+-    **Seam Visible|Bool**   * Visible Seam lines on/off.
 
--    **Iso Visible**   * Visible Isometric(u,v) lines on/off.
+-    **Iso Visible|Bool**   * Visible Isometric(u,v) lines on/off.
 
--    **Hard Hidden**   * Hidden lines on/off.
+-    **Hard Hidden|Bool**   * Hidden lines on/off.
 
--    **Smooth Hidden**   * Hidden Smooth lines on/off.
+-    **Smooth Hidden|Bool**   * Hidden Smooth lines on/off.
 
--    **Seam Hidden**   * Hidden Seam lines on/off.
+-    **Seam Hidden|Bool**   * Hidden Seam lines on/off.
 
--    **Iso Hidden**   * Hidden Isometric(u,v) lines on/off.
+-    **Iso Hidden|Bool**   * Hidden Isometric(u,v) lines on/off.
 
--    **Iso Count**   * Number of Isometric(u,v) lines to draw on each face.
+-    **Iso Count|Integer**   * Number of Isometric(u,v) lines to draw on each face.
 
 
 {{TitleProperty|Projection}}
 
--    **Source**   * Links to the drawable objects to be depicted.
+-    **Source|LinkList**   * Links to the drawable objects to be depicted.
 
--    **XSource**   * Links to the drawable objects in an external file. <small>(v0.19)</small> 
+-    **XSource|XLinkList**   * Links to the drawable objects in an external file. <small>(v0.19)</small> 
 
--    **Direction**   * this vector controls the direction from which you are viewing the object. +X is right, -X is left, +Y is rear, -Y is front (looking into the screen), +Z is up and -Z is down. So a Front view is (0,-1,0) and an isometric view is (1,-1,1).
+-    **Direction|Vector**   * This vector controls the direction from which you are viewing the object. +X is right, -X is left, +Y is rear, -Y is front (looking into the screen), +Z is up and -Z is down. So a Front view is (0,-1,0) and an isometric view is (1,-1,1).
 
--    **XDirection**   * this vector controls the rotation of the view around the Direction. <small>(v0.19)</small> .
+-    **XDirection|Vector**   * This vector controls the rotation of the view around the Direction. <small>(v0.19)</small> .
 
--    **Perspective**   * True for perspective projection, false for orthogonal projection.
+-    **Perspective|Bool**   * `True` for perspective projection, `False` for orthogonal projection.
 
--    **Focus**   * Distance from camera to projection plane for perspective projections. Needs to be adjusted to fit the object. Too far and the perspective is lost, too close and the object is distorted.
+-    **Focus|Distance**   * Distance from camera to projection plane for perspective projections. Needs to be adjusted to fit the object. Too far and the perspective is lost, too close and the object is distorted.
 
 ### View
 
--    **Keep Label**   * Always show View Label if true.
 
--    **LineWidth**   * The thickness of visible lines. See [Line Groups](TechDraw_LineGroup.md).
+{{TitleProperty|Base}}
 
--    **HiddenWidth**   * The thickness of hidden lines, if enabled.
+-    **Keep Label|Bool**   * Always show view label if `True`. (1)
 
--    **IsoWidth**   * The thickness of isometric(u,v) surface lines and Dimension lines.
+-    **Stack Order|Integer**   * Over or under lap relative to other views. (1) <small>(v1.0)</small> 
 
--    **ExtraWidth**   * not implemented yet.
 
--    **ShowCenters**   * Circle/arc center marks on/off.
+{{TitleProperty|Decoration}}
 
--    **CenterScale**   * Circular arc center mark size adjustment, if enabled.
+-    **Arc Center Marks|Bool**   * Circular arc center marks on/off.
 
--    **HorizCenterLine**   * Show a horizontal centerline through view.
+-    **Center Scale|Float**   * Circular arc center mark size adjustment, if enabled.
 
--    **VertCenterLine**   * Show a vertical centerline through view.
+-    **Horiz Center Line|Bool**   * Show a horizontal centerline through the view.
 
--    **ShowSectionLine**   * Show/hide section line if applicable.
+-    **Section Line Color|Color**   * Set the section line color if applicable.
+
+-    **Section Line Style|Enumeration**   * Set the section line style if applicable.
+
+-    **Show All Edges|Bool**   * Temporarily show invisible lines.
+
+-    **Show Section Line|Bool**   * Show/hide the section line if applicable.
+
+-    **Vert Center Line|Bool**   * Show a vertical centerline through the view.
+
+
+{{TitleProperty|Highlight}}
+
+-    **Highlight Adjust|Float**   * Adjust the rotation of the Detail highlight if applicable.
+
+-    **Highlight Line Color|Color**   * Set the highlight line color if applicable.
+
+-    **Highlight Line Style|Enumeration**   * Set the highlight line style if applicable.
+
+
+{{TitleProperty|Lines}}
+
+-    **Extra Width|Length**   * Not implemented yet.
+
+-    **Hidden Width|Length**   * The thickness of hidden lines, if enabled.
+
+-    **Iso Width|Length**   * The thickness of isometric(u,v) surface lines and Dimension lines.
+
+-    **Line Width|Length**   * The thickness of visible lines. See [Line Groups](TechDraw_LineGroup.md).
+
+\(1\) these properties are common to all View types.
 
 ## Scripting
 
@@ -124,10 +177,10 @@ The View tool can be used in [macros](Macros.md) and from the [Python](Python.md
 
  
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
+view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart', 'View')
 rc = page.addView(view)
 FreeCAD.ActiveDocument.View.Source = [App.ActiveDocument.Box]
-FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
+FreeCAD.ActiveDocument.View.Direction = (0.0, 0.0, 1.0)
 ```
 
 

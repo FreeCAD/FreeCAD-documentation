@@ -11,6 +11,9 @@ El [Ambiente de trabajo MEF](FEM_Workbench/es.md) provee un moderno [Método de 
 
 ## Flujo de Trabajo 
 
+
+<div class="mw-translate-fuzzy">
+
 Los pasos para realizar un análisis de elementos finitos son   *
 
 1.  Preprocesamiento   * configurar el problema de análisis.
@@ -22,6 +25,9 @@ Los pasos para realizar un análisis de elementos finitos son   *
 2.  Solucionar   * ejecutar un solucionador externo desde FreeCAD.
 3.  Solving   * ejecutando un solver externo desde FreeCAD.
 4.  Postproceso   * visualizando los resultados del análisis desde dentro de FreeCAD, o exportando los resultados para que puedan ser postprocesados con otra aplicación.
+
+
+</div>
 
 El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado que el ambiente de trabajo hace uso de solucionadores externos, la cantidad de configuración manual dependerá del sistema operativo que esté utilizando. Ver [Instalación de MEF](FEM_Install/es.md) para instrucciones sobre la configuración de las herramientas externas.
 
@@ -81,7 +87,15 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 ### Restricciones Fluido 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Restricción de velocidad inicial de flujo](FEM_ConstraintInitialFlowVelocity/es.md)   * Utilizada para definir una velocidad de flujo inicial para el dominio.
+
+
+</div>
+
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md)   * Used to define an initial pressure for the body. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width   *32px;"> [Restricción de velocidad de flujo](FEM_ConstraintFlowVelocity/es.md)   * Utilizada para definir una velocidad de flujo como condición de contorno en un borde (2D) o cara (3D).
 
@@ -147,7 +161,13 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 ### Sobrescribir Constantes 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Permisividad constante del vacío](FEM_ConstantVacuumPermittivity/es.md)   * {{Version/es|0.19}}
+
+
+</div>
 
 ## Menú de Malla 
 
@@ -203,17 +223,53 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Ecuación de elasticidad](FEM_EquationElasticity/es.md)   *
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Ecuación de la fuerza eléctrica](FEM_EquationElectricforce/es.md)   * <small>(v0.19)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Ecuación electrostatica](FEM_EquationElectrostatic/es.md)   *
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Ecuación de flujo](FEM_EquationFlow/es.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Ecuación de flujo](FEM_EquationFlux/es.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Ecuación de calor](FEM_EquationHeat/es.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_SolverControl.svg  style="width   *32px;"> [Control del trabajo del solucionador](FEM_SolverControl/es.md)   * Abre un nuevo menu para ajustar y iniciar el solucionador seleccionado.
 
@@ -307,6 +363,10 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+   ** <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md)   * Defines that the result mesh is cut with a plane.
+
+   ** <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md)   * Defines that the result mesh is cut with a sphere.
+
 ## Menú   * Utilidades 
 
 
@@ -369,11 +429,29 @@ Tutorial 3   * [Tutorial MEF en Python](FEM_Tutorial_Python/es.md); establecer e
 
 Tutorial 4   * [MEF cizalla de un bloque compuesto](FEM_Shear_of_a_Composite_Block/es.md); ver la deformación de un bloque que está compuesto por dos materiales.
 
+
+<div class="mw-translate-fuzzy">
+
 Tutorial 5   * [Análisis MEF transitorio](Transient_FEM_analysis/es.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Tutorial 6   * [Post-proceso de los resultados de MEF con Paraview](Post-Processing_of_FEM_Results_with_Paraview/es.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Tutorial 7   * [Ejemplo MEF Capacitancia Dos Bolas](FEM_Example_Capacitance_Two_Balls/es.md); Tutorial GUI 6 de Elmer \"Electrostática Capacitancia Dos Bolas\" usando Ejemplos MEF.
+
+
+</div>
 
 Tutoriales de análisis termomecánico acoplado por [openSIM](https   *//opensimsa.github.io/training.html)
 

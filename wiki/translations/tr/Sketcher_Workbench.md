@@ -418,6 +418,8 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
 
 <div class="mw-translate-fuzzy">
 
@@ -425,6 +427,8 @@ Bunlar nesne oluşturma araçlarıdır.
 
 
 </div>
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 
 <div class="mw-translate-fuzzy">

@@ -50,13 +50,7 @@ Il comando **Convertitore di unità** apre la finestra di dialogo per convertire
 -   Vedere la pagina [Espressioni](Expressions/it#Unità.md) per un elenco di tutte le unità conosciute.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

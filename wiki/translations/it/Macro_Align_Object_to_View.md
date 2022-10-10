@@ -16,22 +16,16 @@
 
 Questa macro posiziona e allinea l\'oggetto selezionato alla Vista corrente.
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 -   Orientare la visualizzazione, selezionare l\'oggetto ed eseguire la macro
 -   L\'oggetto assume il posizionamento delle coordinate della camera
-
-
-</div>
 
 ## Script
 
 ToolBar Icon ![](images/Macro_Align_Object_to_View.png )
 
-**Macro\_Align\_Object\_to\_View.FCMacro**
+**Macro_Align_Object_to_View.FCMacro**
 
 
 {{MacroCode|code=
@@ -79,7 +73,7 @@ Image   *Macro Align Object to View 03.png\|Selezionare l\'oggetto ed eseguire l
 
 ## Crediti
 
-Grazie a rentlau\_64 per il codice semplificato
+Grazie a rentlau_64 per il codice semplificato
 
 
 

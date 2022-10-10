@@ -3,9 +3,9 @@
 
 Questa pagina presenta le informazioni più approfondite sui moduli incorporati in FreeCAD, e quali sono le funzioni e le proprietà disponibili per voi. Questa pagina non è un elenco completo di tutti i contenuti di questi moduli.
 
-A causa della rapida evoluzione di FreeCAD, le informazioni presentate qui potrebbero essere un po\' superate, ma dovrebbero dare una buona panoramica sulle possibilità. Per l\'elenco completo dei contenuti dei moduli, utilizzare la funzione dir(nome\_modulo) nell\'interprete. 
+A causa della rapida evoluzione di FreeCAD, le informazioni presentate qui potrebbero essere un po\' superate, ma dovrebbero dare una buona panoramica sulle possibilità. Per l\'elenco completo dei contenuti dei moduli, utilizzare la funzione dir(nome_modulo) nell\'interprete. 
 
-## Non graphical 
+## Non grafici 
 
 -   [Il modulo di FreeCAD](FreeCAD_API/it.md)
 -   [Base](Base_API/it.md)
@@ -15,7 +15,7 @@ A causa della rapida evoluzione di FreeCAD, le informazioni presentate qui potre
 -   [Posizionamento](Placement_API/it.md)
 -   [Oggetti documento](Object_API/it.md)
 
-## Graphical
+## Grafici
 
 -   [Il modulo FreeCADGui](FreeCADGui_API/it.md)
 -   [Il modulo Selezione](Selection_API/it.md)

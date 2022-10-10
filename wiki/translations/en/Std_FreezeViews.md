@@ -1,10 +1,9 @@
 ---
 - GuiCommand   *
    Name   *Std FreezeViews
-   Empty   *1
    MenuLocation   *View → Freeze display → ...
    Workbenches   *All
-   SeeAlso   *[Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos.md)
+   SeeAlso   *[Std StoreWorkingView](Std_StoreWorkingView.md), [Std RecallWorkingView](Std_RecallWorkingView.md), [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos.md)
 ---
 
 # Std FreezeViews/en

@@ -12,13 +12,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Erhöht die Knotenvielfalt eines B-Spline Kurvenknotens (siehe [B-Spline](https   *//en.wikipedia.org/wiki/B-spline)).
-
-
-</div>
+Erhöht die Vielfachheit eines B-Spline-Knotens. (Siehe die Seite [B-Splines](B-Splines.md) für weitere Informationen über B-Splines).
 
 B-splines are basically a combination of [Bézier curves](B-Splines#B.C3.A9zier_curves.md) (nicely explained in [this](https   *//www.youtube.com/watch?v=bE1MrrqBAl8) and [this](https   *//www.youtube.com/watch?v=xXJylM2S72s) video). The points where two Bézier curves are connected to form the spline are called knots. A knot on a degree *d* spline with the multiplicity *m* means that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
 Here is a cubic spline ($d=3$) whose knots have the multiplicity 1. The multiplicity is indicated by the number in parentheses. The indication can be changed using the toolbar button **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width   *24px"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)**)   *
@@ -40,16 +34,10 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle einen B-Spline Knoten aus.
-2.  Rufe das Werkzeug mit mehreren Methoden auf   *
-    -   Drücke die **<img src="images/Sketcher_BSplineIncreaseKnotMultiplicity.svg" width=24px>** Schaltfläche in der Werkzeugleiste.
-    -   Verwende den **Skizze → Skizzierer B-Spline Werkzeuge → Knotenvervielfalt erhöhen** Eintrag im oberen Menü.
-
-
-</div>
+1.  Einen B-Spline-Knoten auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width   *16px">  [Vielfachheit eines B-Spline-Knotens erhöhen](Sketcher_BSplineIncreaseKnotMultiplicity/de.md)** drücken.
+    -   Den Menüeintrag **Sketch → B-Spline-Werkzeuge → [<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width   *16px"> Vielfachheit eines B-Spline-Knotens erhöhen** auswählen.
 
 
 

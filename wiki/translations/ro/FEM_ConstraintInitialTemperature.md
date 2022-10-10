@@ -28,11 +28,23 @@ Creează o constrângerea de temperatură inițială pentru o analiză thermo-me
 
 ## Limite
 
+
+<div class="mw-translate-fuzzy">
+
 The constraint applies the initial temperature to all nodes in the FEA model
+
+
+</div>
 
 ## Notă
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Constrângerea utilizează \*\*INITIAL CONDITIONS card in CalculiX. Constrângerea inițială a temperaturii este explicat la <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
+
+
+</div>
 
 
 

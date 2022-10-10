@@ -7,7 +7,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento crea un raccordo tra due linee unite in un punto. Attivare lo strumento, quindi selezionare entrambe le linee o fare clic sul punto d\'angolo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

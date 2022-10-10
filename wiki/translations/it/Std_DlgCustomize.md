@@ -23,13 +23,7 @@ Il comando **Personalizza** apre la finestra di dialogo Personalizza dando acces
 5.  Premere il pulsante **Chiudi** per chiudere la finestra di dialogo.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

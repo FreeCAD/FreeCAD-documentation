@@ -1,5 +1,5 @@
 # AppImage/it
-**A partire dal 7 luglio 2019, la comunità di FreeCAD ha segnalato che il download di AppImages da Github sembra terminare prima del completamento. Non sappiamo perché accade questo. In questo caso, provare a scaricare di nuovo. Ci vogliono alcuni tentativi. Una pratica consigliata è quella di utilizzare la [https   *//wiki.freecadweb.org/AppImage/it#Aggiornamento_automatico funzione di aggiornamento automatico] di AppImage, che ripristina il download dal punto in cui si è interrotto.
+**A partire dal 7 luglio 2019, la comunità di FreeCAD ha segnalato che il download di AppImages da Github sembra terminare prima del completamento. Non sappiamo perché accade questo. In questo caso, provare a scaricare di nuovo. Potrebbero essere necessari alcuni tentativi. Una pratica consigliata è quella di utilizzare la [https   *//wiki.freecadweb.org/AppImage/it#Aggiornamento_automatico funzione di aggiornamento automatico] di AppImage, che ripristina il download dal punto in cui si è interrotto.
 **
 
 
@@ -7,17 +7,11 @@
 
 ## Che cos\'è una AppImage? 
 
-![](images/AppImage-logo.png ) **Package once and run everywhere. Reach users on all major Linux desktop distributions.**
+![](images/AppImage-logo.png ) **Impacchetta una volta ed esegui ovunque. Raggiungi gli utenti su tutte le principali distribuzioni desktop Linux.**
 
 AppImage è un \"pacchetto binario universale\" destinato a distribuire un\'applicazione a qualsiasi distribuzione Linux. Maggiori informazioni al riguardo su [Appimage homepage](https   *//appimage.org) e [Wikipedia](https   *//en.wikipedia.org/wiki/AppImage).
 
-
-<div class="mw-translate-fuzzy">
-
 Per eseguirlo, renderlo prima eseguibile, quindi digitare il percorso relativo o completo.
-
-
-</div>
 
 
 ```python
@@ -30,17 +24,11 @@ Per altri tipi di installazione vedere [Download](Download/it.md).
 ## AppImages di FreeCAD 
 
 
-<div class="mw-translate-fuzzy">
-
-
-**Se i seguenti link di download non funzionano, scaricare manualmente i file dalla sezione "Assets" in [https   *//github.com/FreeCAD/FreeCAD/releases '''FreeCAD Github Releases''']**
-
-
-</div>
+**'''Nota   *''' Le versioni di sviluppo sono ora ospitate su [https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo.<br/>Se i link per il download qui sotto non funzionano, si prega di scaricare manualmente i file dalla sezione "Assets" espansa del link sopra**
 
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.20.1](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.1)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
      * style=\"text-align   * center; font-size   * 150%; \| Available FreeCAD AppImages \|+
 
@@ -54,15 +42,15 @@ Per altri tipi di installazione vedere [Download](Download/it.md).
 
 #### Avviso di cautela obbligatorio 
 
-For the most part the development version is stable but of course it\'s important to add the obligatory statement to use it at your own risk. Though most people that utilize backups and \'save often\' do quite well.
+Per la maggior parte la versione di sviluppo è stabile ma ovviamente è importante aggiungere un obbligatorio avviso di cautela utilizzarla a proprio rischio. Anche se la maggior parte delle persone che utilizzano backup e \"salvano spesso\" fanno abbastanza bene.
 
 ## Aggiornamento automatico 
 
-AppImage has a smart and economical way of updating. It calculates the difference between the new AppImage and the old one, and will only download the changes between their versions. In theory the user ends up downloading around 15% each time instead of an entirely new AppImage.
+AppImage ha un modo intelligente ed economico di aggiornamento. Calcola la differenza tra il nuovo AppImage e quello vecchio e scaricherà solo le modifiche tra le loro versioni. In teoria l\'utente finisce per scaricare circa il 15% ogni volta invece di un AppImage completamente nuovo.
 
-Automatic updating is done via several optional methods. Currently there are 4 methods, 2 through the graphical interface (GUI), and 2 through the command-line/terminal interface (CLI).
+L\'aggiornamento automatico viene eseguito tramite diversi metodi opzionali. Attualmente ci sono 4 metodi, 2 attraverso l\'interfaccia grafica (GUI) e 2 attraverso l\'interfaccia a riga di comando / terminale (CLI).
 
-### Experimental in-app updating 
+### Aggiornamento sperimentale in-app 
 
 Thanks to the efforts of several key devs, there is an [ongoing effort](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=44324) to integrate a feature that allows **self-updating the AppImage within FreeCAD** itself. Starting from FC 0.19.21514 there now exists an AppImage section found via **Edit → Preferences → AppImage**. Please test this capability and report your experience to the [forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=44324).
 
@@ -70,7 +58,7 @@ Thanks to the efforts of several key devs, there is an [ongoing effort](https   
 
 This is the official AppImageUpdate GUI application.
 
-1.  Download [AppImageUpdate-x86\_64.AppImage](https   *//github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
+1.  Download [AppImageUpdate-x86_64.AppImage](https   *//github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
 2.  Make it executable by right clicking on the file, going in to properties and \"Run as an executable\".
 3.  Double click on the AppImage icon, a dialog box will appear and you\'ll be prompted to specify what AppImage you want to update.
 4.  Specify the path to your existing AppImage.
@@ -80,7 +68,7 @@ This is the official AppImageUpdate GUI application.
 
 This is a sleeker 3rd-party unofficial version of AppImageUpdate named   * **AppImageUpdater**. It is still in development (at the time of this wiki edit) but nevertheless, quite nice to use.
 
-1.  Download [AppImageUpdater-\*-x86\_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
+1.  Download [AppImageUpdater-\*-x86_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
 2.  Make it executable   * 
 ```pythonchmod +x AppImageUpdater*-x86_64.AppImage```
 3.  Run it   * 
@@ -108,13 +96,13 @@ Notes   *
 -   Run `./appimageupdatetool-x86_64.AppImage --help` to learn about functionality like `--remove-old`, `--overwrite` and `--self-update`.
 -   There is also an i386 version; see the [AppImageUpdate release](https   *//github.com/AppImage/AppImageUpdate/releases) page.
 
-Todo   * share a script that can be added as an alias or cron job.
+Todo   * share a script that can be added as an alias or [1](https   *//en.wikipedia.org/wiki/Cron%7Ccron) job.
 
 ### CLI method 2 (unofficial) 
 
-Similarly to the Graphical methods having an official and unofficial approaches to downloading AppImages, the same applies to the command line. This is a sleeker 3rd-party command line option to download AppImages
+Similarly to the Graphical methods having an official and unofficial approaches to downloading AppImages, the same applies to the command line. This is a sleeker 3rd-party command line option to download AppImages.
 
-1.  Download [appimageupdater-\*-x86\_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
+1.  Download [appimageupdater-\*-x86_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
 2.  Make it executable   * 
 ```pythonchmod +x appimageupdater*-x86_64.AppImage```
 3.  Run it   * 
@@ -126,7 +114,7 @@ Similarly to the Graphical methods having an official and unofficial approaches 
 
 ## Fixing AppImage zsync 
 
-It may happen that an AppImage won\'t update because it\'s target file changed in some way. Instead of downloading a whole new appimage, it\'s possible to rewrite the zsync file that is used by the AppImage to download the delta. More info can be found at <https   *//github.com/antony-jr/appimage-update-info-writer>.
+It may happen that an AppImage won\'t update because it\'s target file changed in some way. Instead of downloading a whole new AppImage, it\'s possible to rewrite the zsync file that is used by the AppImage to download the delta. More info can be found at <https   *//github.com/antony-jr/appimage-update-info-writer>.
 
 This section needs more details.
 
@@ -164,7 +152,7 @@ Now open the required Python source files in your preferred code editor, modify 
 
 ### Repackaging AppImages 
 
-If you\'ve modified the code, and now want to re-package the AppImage with your latest changes, use the [appimagetool-x86\_64](https   *//github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) tool on the extracted file system.
+If you\'ve modified the code, and now want to re-package the AppImage with your latest changes, use the [appimagetool-x86_64](https   *//github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) tool on the extracted file system.
 
 
 ```python

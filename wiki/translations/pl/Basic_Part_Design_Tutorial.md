@@ -40,10 +40,11 @@ Zacznij od upewnienia się, że jesteś w obszarze stanowiska pracy Part Design.
 
 Wszystkie prace w środowisku Projekt Części rozpoczynają się od stworzenia Zawartości - [Body](Glossary#Body.md). Następnie zbudujemy bryłę wewnątrz korpusu zaczynając od [szkicu](Glossary#Sketch.md).
 
-1.  Kliknij na przycisk <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [Utwórz nowa zawartość](PartDesign_Body/pl.md), aby stworzyć i aktywować nowy obiekt Body. \'\'Uwaga   * ten krok może zostać pominięty. Podczas tworzenia szkicu, jeśli nie znaleziono istniejącego korpusu *(obiektu Body)*, nowy zostanie automatycznie utworzony i aktywowany.\'\'
+1.  Kliknij na przycisk <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [Utwórz nowa zawartość](PartDesign_Body/pl.md), aby stworzyć i aktywować nowy obiekt Body. 
+*Uwaga   * ten krok może zostać pominięty. Podczas tworzenia szkicu, jeśli nie znaleziono istniejącego korpusu*(obiektu Body)*, nowy zostanie automatycznie utworzony i aktywowany.*
 2.  Kliknij na <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Utwórz nowy szkic](PartDesign_NewSketch/pl.md) W ten sposób powstanie szkic w obrębie właśnie utworzonego korpusu.
 3.  Musimy określić, gdzie będzie dołączony szkic. Dołączymy go do płaszczyzny [początkowej](Glossary#Origin.md) z korpusu .
-4.  W zakładce [Zadania](Task_panel/pl.md) z [widoku połączonego](Combo_view/pl.md), wybierz na liście **YZ\_Plane** i naciśnij przycisk **OK**   *
+4.  W zakładce [Zadania](Task_panel/pl.md) z [widoku połączonego](Combo_view/pl.md), wybierz na liście **YZ_Plane** i naciśnij przycisk **OK**   *
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
@@ -57,15 +58,15 @@ Po kliknięciu przycisku **OK**, FreeCAD automatycznie przełącza się do środ
 
 Następnie należy użyć narzędzia <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *24px;"> [polilinia](Sketcher_CreatePolyline/pl.md) i wykonać kształt mniej więcej taki jak na następnym obrazku. Nie musi być on idealny, ponieważ kształt końcowy jest wykonywany z użyciem wiązań. Kiedy już będziesz miał podstawowy kształt, zaczniemy wprowadzać wiązania. Jeśli miałeś włączoną opcję Automatyczne wiązania, niektóre z tych wiązań zostaną zastosowane natychmiast, jeśli nie, wykonaj następujące czynności. Ale najpierw upewnij się, że opuściłeś narzędzie polilinia, klikając prawym przyciskiem myszy lub dwukrotnie naciskając klawisz **ESC**. Kursor myszki powinien zmienić się z krzyżyka na standardowy kursor strzałki. *(Nie naciskaj klawisza **ESC** po raz trzeci, gdyż inaczej wyjdziesz z trybu edycji szkicu. Jeśli tak się stanie, kliknij zakładkę **Model**, a następnie kliknij dwukrotnie element szkicu na drzewie lub w menu kontekstowym kliknij prawym przyciskiem myszy i wybierz **Edytuj szkic**)*.
 
-\'\'UWAGA   * Od czasu napisania tego poradnika wprowadzono ulepszenia do solvera szkicownika, jeśli wykryje on nadmiarowe wiązanie, zmieni kolor szkicu na pomarańczowy, a przed dodaniem kolejnych wiązań, nadmiarowe wiązanie powinno zostać usunięte. *(Nadmiarowe wiązanie jest pokazane w widoku Zadania, kliknij na niebieskie odniesienie i naciśnij przycisk Usuń)*\".
+*UWAGA   * Od czasu napisania tego poradnika wprowadzono ulepszenia do solvera szkicownika, jeśli wykryje on nadmiarowe wiązanie, zmieni kolor szkicu na pomarańczowy, a przed dodaniem kolejnych wiązań, nadmiarowe wiązanie powinno zostać usunięte.*(Nadmiarowe wiązanie jest pokazane w widoku Zadania, kliknij na niebieskie odniesienie i naciśnij przycisk Usuń)\'\'\".
 
-1.  Wybierz dwie linie poziome klikając na nie myszką, a po wybraniu kliknij na <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width   *24px;"> [Sketcher\_ConstrainHorizontal/plwiązanie poziome](Sketcher_ConstrainHorizontal/plwiązanie_poziome.md).
+1.  Wybierz dwie linie poziome klikając na nie myszką, a po wybraniu kliknij na <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width   *24px;"> [wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md).
 2.  Wybierz linię pionową po prawej stronie, a następnie kliknij na <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width   *24px;"> [wiązanie pionowe](Sketcher_ConstrainVertical/pl.md).
-3.  Wybierz punkt początkowy i końcowy polilinii, a następnie kliknij na <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> \[Sketcher\_ConstrainCoincident/pl\|wiązanie zbieżności\]\], aby zamknąć polilinię.
+3.  Wybierz punkt początkowy i końcowy polilinii, a następnie kliknij na <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md), aby zamknąć polilinię.
 4.  Wybierz dolną linię poziomą i prawą linię pionową, a następnie zastosuj <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width   *24px;"> [wiązanie równości](Sketcher_ConstrainEqual/pl.md).
 5.  Wybierz poziomą lub pionową linię i zastosuj odpowiednie wiązanie <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width   *24px;"> [poziome](Sketcher_ConstrainDistanceX/pl.md) lub <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width   *24px;"> [pionowe](Sketcher_ConstrainDistanceY/pl.md) ograniczenia długości i podaj wartość 26mm.
 6.  Wybierz górną linię poziomą i zastosuj poziome wiązanie odległości i podaj wartość 5mm.
-7.  Wybierz dolny prawy punkt, *(wierzchołek)* linii poziomej Początku układu współrzędnych, a następnie środkowy punkt siatki i zastosuj ograniczenie [1](File   *Sketcher_ConstrainCoincident.svg%7C24px%7Clink=Sketcher_ConstrainCoincident/pl)\] [zbieżności](Sketcher_ConstrainCoincident/pl.md), aby naprawić swój kształt.
+7.  Wybierz dolny prawy punkt, *(wierzchołek)* linii poziomej Początku układu współrzędnych, a następnie środkowy punkt siatki i zastosuj ograniczenie <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [zbieżności](Sketcher_ConstrainCoincident/pl.md), aby naprawić swój kształt.
 
 W tym momencie powinieneś mieć w pełni związany szkic, na co wskazuje zmiana koloru i komunikat wyświetlany w widoku połączonym. Powinien on teraz wyglądać dokładnie tak, jak na poniższym obrazku.
 
@@ -91,7 +92,7 @@ Po wybraniu powierzchni, kliknij na ikonę nowego szkicu na pasku narzędzi lub 
 ![](images/tut17_slot_unconstrained.png )
 
 1.  Kliknij prawym przyciskiem myszy, aby zakończyć tryb geometrii zewnętrznej
-2.  Wybierz punkt, który właśnie udostępniłeś za pomocą narzędzia Geometria zewnętrzna, a następnie wybierz prawy górny wierzchołek prostokąta i kliknij na wiązanie zbieżności. W tym momencie szkic powinien być w pełni związany i wyglądać jak na następnym obrazku.
+2.  Wybierz punkt, który właśnie udostępniłeś za pomocą narzędzia Geometria zewnętrzna, a następnie wybierz prawy górny wierzchołek prostokąta i kliknij narzędzie <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md). W tym momencie szkic powinien być w pełni związany i wyglądać jak na następnym obrazku.
 
 ![](images/tut17_slote_constrained.png )
 

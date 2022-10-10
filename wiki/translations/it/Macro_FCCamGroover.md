@@ -1,21 +1,15 @@
 # Macro FCCamGroover/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=FCCamGroover
 |Translate=FCCamGroover
 |Icon=Cam-groover-icon-32x32.png
 |Description=Questa macro crea un solco in un cilindro.<br/>L'oggetto è mostrato in questa video [https   *//youtu.be/io1JL1U7kUs youtube video].
 |Author=TheMarkster
-|Version=2019.07.09
-|Date=2019.07.09
-|FCVersion=017 and above
+|Version=2020.06.13
+|Date=2020.06.13
+|FCVersion=019 and above
 |Download=[https   *//www.freecadweb.org/wiki/images/b/ba/Cam-groover-icon-32x32.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -31,7 +25,7 @@ Gif animato   * ![](images/Cam-groover-animated-opt.gif )
 
 ToolBar Icon ![](images/Cam-groover-icon-32x32.png )
 
-**Macro\_FCCamGroover.FCMacro**
+**Macro_FCCamGroover.FCMacro**
 
 
 {{MacroCode|code=

@@ -29,13 +29,7 @@ L\'opzione di menu **File recenti** visualizza un elenco di file recenti che pos
 -   L\'ultima posizione del file utilizzato è memorizzata in   * {{MenuCommand | Strumenti → Modifica parametri ... → BaseApp → Preferenze → Generale → FileOpenSavePath}}.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

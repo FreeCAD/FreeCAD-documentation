@@ -1,4 +1,6 @@
 # FreeCAD Humanitarian Projects
+{{TOCright}}
+
 ## About
 
 This wiki page is being used to track all Humanitarian based efforts reported and organized on the forum, that benefit from using FreeCAD as part of their projects.
@@ -36,7 +38,7 @@ This wiki page is being used to track all Humanitarian based efforts reported an
 
 ## Related
 
--   [FreeCAD\_Philanthropy\_Open\_Source\_Hardware](FreeCAD_Philanthropy_Open_Source_Hardware.md)
+-   [FreeCAD Philanthropy Open Source Hardware](FreeCAD_Philanthropy_Open_Source_Hardware.md)
 
 
 

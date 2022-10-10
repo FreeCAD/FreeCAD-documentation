@@ -16,9 +16,11 @@
 
 ## Описание
 
-ToDo
+Removes all existing [clipping planes](FEM_ClippingPlaneAdd.md).
 
-## Применение
+## Usage
+
+Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *16px;"> or the menu **Utilities → <img src="images/FEM_ClippingPlaneRemoveAll.svg" width=16px> Remove all clipping planes**.
 
 
 <div class="mw-translate-fuzzy">

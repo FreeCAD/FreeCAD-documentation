@@ -5,6 +5,7 @@
    Time   *2 hours
    FCVersion   *0.19 or above
    Files   *
+   SeeAlso   *[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md), [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB.md)
 ---
 
 # Creating a simple part with Part WB
@@ -21,7 +22,7 @@ Before you start please have a look at how to **[navigate](Mouse_navigation.md)*
 
  ![](images/T101pwb00-01_navi.png ) 
 
-Many newcomers to cad programs get stuck while learning the software, if that happens to you, please go ahead and search the wiki or forum for further information -- chances are that others also have been stuck on the same specific thing in the past so there is already an answer to your specific question. Or make a post on the forum with your questions or findings. The forum has several threads where users are helped to complete all sorts of different tasks, those threads are often similar to tutorials, and often have specific illustrations included.
+Many newcomers to CAD programs get stuck while learning the software, if that happens to you, please go ahead and search the wiki or forum for further information -- chances are that others also have been stuck on the same specific thing in the past so there is already an answer to your specific question. Or make a post on the forum with your questions or findings. The forum has several threads where users are helped to complete all sorts of different tasks, those threads are often similar to tutorials, and often have specific illustrations included.
 
 ### The tutorial covers 
 
@@ -34,8 +35,9 @@ Many newcomers to cad programs get stuck while learning the software, if that ha
 -   A different way to position the chamfer
 -   Editing dimensions
 -   Organizing the tree a bit differently
+-   Wrapping up
 
-### The model to make 
+## The model to make 
 
  <img alt="" src=images/GGTuto1_Vue.PNG  style="width   *372px;">
 
@@ -115,9 +117,17 @@ To make the cut, with the **Ctrl** key pressed down first select the **Fillet** 
 
  ![](images/T101pwb01-14_model1.png ) 
 
+#### The toolbars 
+
+A sidenote on the toolbars, since they are the typical avenue to invoke commands. Although there is a basic setting for the layout of the toolbars, the actual layout on your computer could turn out to be less than ideal. In such cases it is easy to adjust. Consider the upper section of the below image. There are two rows of toolbars and only a limited number of the [Part Workbench](Part_Workbench.md) toolbar buttons are visible. The simplest way to see more toolbar buttons is to maximize the FreeCAD window, unless it already is maximized of course.
+
+More common is to adjust the layout of the toolbars to suit your needs and your specific computer. The repositioning is done with the handle on the left of each toolbar. You can just click and drag the handle to a new location. In the lower section of the below image the toolbar positions have been adjusted, revealing their full content. Changes to toolbar positions are persistent through sessions.
+
+ ![](images/T101pwb01-141_toolbars.png ) 
+
 #### The measurement tool 
 
-The **[measurement tool](Part_Measure_Menu.md)** in the **Part Workbench** can be used to check that our calculation and placement of the chamfer is correct. Press the <img alt="" src=images/Part_Measure_Linear.svg  style="width   *24px;"> **[Measure Linear](Part_Measure_Linear.md)** button and a *task panel* opens up, then select the 2 endpoints of one side of the chamfer.
+The **[measurement tool](Part_Workbench#Measure.md)** in the **Part Workbench** can be used to check that our calculation and placement of the chamfer is correct. Press the <img alt="" src=images/Part_Measure_Linear.svg  style="width   *24px;"> **[Measure Linear](Part_Measure_Linear.md)** button and a *task panel* opens up, then select the 2 endpoints of one side of the chamfer.
 
  ![](images/T101pwb01-15_model1measure1.png ) 
 
@@ -291,7 +301,7 @@ Moving the cylinder so that the cavity ends up on the side face, and doing the s
 
  ![](images/T101pwb07-06_newfacenumbers.png ) 
 
-Face 2 is the right side of the original face 2, the left side of former face 2 is now face 8. The cylindrical part was face 9, but is now face 7. FreeCAD reassigns the numbering and the order is not necessarily preserved. The total face count in the first model is 10, in the version with the cylindrical face piercing the side face, the total face count is 11. So obviously face numbering has to change when the so called *topology* changes. This probably feels like a minute detail, but turns out to be quite important in parametric 3D cad. Imagine that you have used the cylindrical face as reference for another feature, it used to be called face 9, but is now called face 8. The reference to the intended cylindrical surface is lost. Since FreeCAD, at least in currently released versions does not keep track of the *intended face*, it only keeps track of the *numbered face*, a model breaks when a reference is made to a face that later is renumbered. This is called **TNP, [Topological Naming Problem](Topological_naming_problem.md)**.
+Face 2 is the right side of the original face 2, the left side of former face 2 is now face 8. The cylindrical part was face 9, but is now face 7. FreeCAD reassigns the numbering and the order is not necessarily preserved. The total face count in the first model is 10, in the version with the cylindrical face piercing the side face, the total face count is 11. So obviously face numbering has to change when the so called *topology* changes. This probably feels like a minute detail, but turns out to be quite important in parametric 3D CAD. Imagine that you have used the cylindrical face as reference for another feature, it used to be called face 9, but is now called face 8. The reference to the intended cylindrical surface is lost. Since FreeCAD, at least in currently released versions does not keep track of the *intended face*, it only keeps track of the *numbered face*, a model breaks when a reference is made to a face that later is renumbered. This is called **TNP, [Topological Naming Problem](Topological_naming_problem.md)**.
 
 You are encouraged to learn how to avoid broken models due to TNP, further reading can be done [elsewhere on the wiki](Topological_naming_problem.md), which largely focuses on a *sketch driven* workflow, the underlying mechanism is the same though. The renumbering described here for faces goes for all geometrical entities, faces, edges and vertexes.
 

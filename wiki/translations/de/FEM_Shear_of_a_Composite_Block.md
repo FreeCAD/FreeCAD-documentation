@@ -1,24 +1,12 @@
+# FEM Shear of a Composite Block/de
 ---
 - TutorialInfo   */de
-   Topic   * Finite Element Analyse
+   Topic   * Finite-Elemente-Analyse
    Level   * Anfänger/Zwischenstufe
    Time   * 30 Minuten
    Author   *[http   *//www.freecadweb.org/wiki/index.php?title=User   * HarryvL]
    FCVersion   *0.17.12960  oder höher
-   Files   *
----
-
-# FEM Shear of a Composite Block/de
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-</div>
+}}
 
 ## Introduction
 
@@ -42,7 +30,7 @@ A Mesh object is now created in the Object Tree. Highlight this object and creat
 
 <img alt="" src=images/Pic3.png  style="width   *700px;">
 
-Next create a new Mesh object as above and use the selection macro (shortcut S, E) to select the Cube\_Core object in the Graphical Window. This time the reference list should show \"CompoundFilter   *Solid2\", as below. We chose a maximum element size of 1mm.
+Next create a new Mesh object as above and use the selection macro (shortcut S, E) to select the Cube_Core object in the Graphical Window. This time the reference list should show \"CompoundFilter   *Solid2\", as below. We chose a maximum element size of 1mm.
 
 Note1   * Selection of \"CompoundFilter   *Solid2\" requires selection of one of its faces.
 
@@ -90,11 +78,11 @@ After that the analysis can be started by pressing the RunCalculiX button. If al
 
 ## CalculiX Results 
 
-Upon completion of the analysis double click the \"CalculiX\_static\_results\" object and select the \"Abs displacement\" option. The maximum displacement of \~ 0.08mm will show up in the relevant output box. As the maximum displacement is relatively small compared to the dimensions of the block (\<1% of the block size), the displacements need to be scaled up. This can be done under the heading \"Displacement\" by ticking the \"Show\" radio button and scaling the displacement by a factor of -say- 20. The maximum displacement will now be exaggerated to approximately 20% of the box size. After closing the dialog window, the deformed mesh can be made visible again by highlighting the Result\_mesh object and pressing the space bar.
+Upon completion of the analysis double click the \"CalculiX_static_results\" object and select the \"Abs displacement\" option. The maximum displacement of \~ 0.08mm will show up in the relevant output box. As the maximum displacement is relatively small compared to the dimensions of the block (\<1% of the block size), the displacements need to be scaled up. This can be done under the heading \"Displacement\" by ticking the \"Show\" radio button and scaling the displacement by a factor of -say- 20. The maximum displacement will now be exaggerated to approximately 20% of the box size. After closing the dialog window, the deformed mesh can be made visible again by highlighting the Result_mesh object and pressing the space bar.
 
 <img alt="" src=images/Figure_11_Deformed_Mesh.png  style="width   *700px;">
 
-To investigate the deformation of the core we have to slice the block. This can be done by creating a clip filter. To activate this functionality, we first need to create a \"post processing pipeline\" by highlighting the \"CalculiX\_static\_results\" object and choosing \"Results → Post Pipeline from Result\" from the menu. Next, with the Pipeline selected create a Warp Filter (Results → Warp filter), set Vector=Displacement and Value=20 to scale the displacement and Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" to show colored displacement contours. Press Apply and OK. As a final step add a Clip Filter (Results → Clip filter) and create a plane with origin \[5.0,2.5,5.0\] and normal \[0,1,0\], i.e. at a core face with normal in the y-direction. Tick the \"Cut Cells\" radio button to create a flat surface. As before set Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" to show colored displacement contours. Press Apply and OK. Finally switch the Warp Filter to invisible to only show the cut block.
+To investigate the deformation of the core we have to slice the block. This can be done by creating a clip filter. To activate this functionality, we first need to create a \"post processing pipeline\" by highlighting the \"CalculiX_static_results\" object and choosing \"Results → Post Pipeline from Result\" from the menu. Next, with the Pipeline selected create a Warp Filter (Results → Warp filter), set Vector=Displacement and Value=20 to scale the displacement and Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" to show colored displacement contours. Press Apply and OK. As a final step add a Clip Filter (Results → Clip filter) and create a plane with origin \[5.0,2.5,5.0\] and normal \[0,1,0\], i.e. at a core face with normal in the y-direction. Tick the \"Cut Cells\" radio button to create a flat surface. As before set Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" to show colored displacement contours. Press Apply and OK. Finally switch the Warp Filter to invisible to only show the cut block.
 
 <img alt="" src=images/Figure12_Deformed_Mesh_Clipped_View_(2).png  style="width   *700px;">
 
@@ -112,7 +100,8 @@ The FC file for this tutorial is attached below as a starting point.
 
 <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Have fun !  {{FEM Tools navi}}
+Have fun !  {{FEM Tools navi}} {{Userdocnavi
+---
 
 
 

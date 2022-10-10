@@ -64,7 +64,7 @@ Za detalje prevođenja pogledaj [Localisation](Localisation/hr.md).
 
 Prevođenje je jednostavno, wiki FreeCAD podržava dodatak za prijevod koji vam omogućuje prevođenje osnovne stranice engleskog jezika na druge jezike.
 
-Pojedinosti o prijevodu potražite u [Localisation/hr\#Prevedite\_FreeCAD\_dokumentacija](Localisation/hr#Prevedite_FreeCAD_dokumentacija.md).
+Pojedinosti o prijevodu potražite u [Localisation/hr#Prevedite_FreeCAD_dokumentacija](Localisation/hr#Prevedite_FreeCAD_dokumentacija.md).
 
 Molimo vas budite sigurni da ste upoznati s osnovama wiki markiranja; pogledajte [Pomoć   *Uređivanje](Help_Editing.md) za referencu.
 
@@ -132,7 +132,7 @@ Kod za pisanje za FreeCAD nije težak i ne trebate nikakvo dopuštenje, odmah mo
 
 </div>
 
-## Model
+## Create models 
 
 FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 

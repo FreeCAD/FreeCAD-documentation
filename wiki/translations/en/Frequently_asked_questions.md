@@ -126,7 +126,7 @@ FreeCAD is [open-source software](http   *//en.wikipedia.org/wiki/Open-source_so
 
 <center>
 
-Image   *Style\_of\_navigation.png\|From the **right button** mouse Image   *Style of navigation menu.png\|From the menu **Edit → Preferences →**
+Image   *Style_of_navigation.png\|From the **right button** mouse Image   *Style of navigation menu.png\|From the menu **Edit → Preferences →**
 
 
 </center>
@@ -134,38 +134,7 @@ Image   *Style\_of\_navigation.png\|From the **right button** mouse Image   *Sty
 
 
 
-FreeCAD has several different [navigation modes](Mouse_navigation.md) available, that can be set in the preferences settings dialog or changed by right-clicking in the 3D view. For full details about the modes, see the [Mouse navigation](Mouse_navigation.md) page. For the default mode (\"CAD Navigation\"), the commands are as follows, 
-
-
-{{CAD Navigation
-|Select_name=Select
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotate view<br>First method
-|Rotate_view_alt_name=Rotate view<br>Alternate method
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
-
-Holding down **Ctrl** allows the selection of multiple objects.
-|Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode   * hold the **Ctrl** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Zoom_text=Use the mouse wheel to zoom in and out.
-
-Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode   * hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
-
-The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues spinning, if this is enabled.
-
-A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode   * hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
-
-With this method the middle mouse button may be released after the right mouse button is held pressed.
-
-Users who use the mouse with their right hand may find this method easier than the first method.
-}}
+FreeCAD has several different [navigation modes](Mouse_navigation.md) available, that can be set in the preferences settings dialog or changed by right-clicking in the 3D view. For full details about the modes, see the [Mouse navigation](Mouse_navigation.md) page.
 
 ### What can I do with FreeCAD? Where do I start? 
 
@@ -256,6 +225,10 @@ Yes. Beginning in 2016, FreeCAD participates in Google Summer of Code. See [Goog
 This wiki is hosting a lot of contents. The most up-to-date and interesting material is gathered in the [manual](Online_Help_Toc.md).
 
 See the [Translate the documentation](Help_FreeCAD#Work_on_the_documentation.md) page paragraph for more details on how to translate the wiki.
+
+### Can I buy swag? 
+
+FreeCAD doesn\'t offer swag you can order to support the project. But you can create your own. See our [Swag](Swag.md) page for instructions.
 
 ## Licensing, copying and reuse 
 

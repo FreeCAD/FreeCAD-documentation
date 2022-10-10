@@ -15,9 +15,15 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Disegna una segmento tra due punti selezionati nella vista 3D. Quando lo strumento è attivo, il puntatore del mouse assume la forma di croce bianca con l\'icona linea rossa.
 
 Accanto al puntatore sono visualizzate, in blu, le coordinate della sua posizione, aggiornate in tempo reale.
+
+
+</div>
 
 ![](images/Sketcher_LineExample1.png‎ )
 
@@ -31,8 +37,14 @@ L\'oggetto linea creato inizia e finisce nei punti specificati, ma rispetto ai v
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 -   Selezionare i punti su un\'area vuota della vista 3D, o su un oggetto esistente. I vincoli automatici (auto constraints) si attivano nella scheda **Azioni → Modifica controlli → Autovincoli** del pannello **Vista combinata**.
 -   Premere il tasto {{KEY/it|Esc}}, o cliccare sul tasto destro del mouse, per annullare l\'operazione.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

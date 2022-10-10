@@ -18,10 +18,14 @@ Ajoute un modèle de matériau mécanique non linéaire. Actuellement, seule la 
 1.  Pour définir un modèle de matériau mécanique non linéaire, procédez comme suit    *
     -   Ajoutez d\'abord le **<img src="images/Fem-add-material.svg" width=16px> [Matériau pour solide](FEM_MaterialSolid/fr.md)** et sélectionnez-le.
     -   Cliquez sur le bouton **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> [Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)** ou choisissez l\'option **Modèle → Matériaux → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Matériau mécanique non linéaire** dans le menu.
-2.  Pour modifier un objet Matériau Fluide existant    *
+2.  Pour modifier un objet Matériau mécanique non linéaire existant    *
     -   Cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
     -   Sélectionnez le modèle de matériau (actuellement, seul le durcissement simple est disponible).
     -   Définissez les limites d\'élasticité (contrainte vs déformation plastique). Le premier point doit avoir une déformation plastique nulle spécifiée. Actuellement, seuls 3 points d\'écoulement peuvent être définis.
+
+## Remarques
+
+-   Dans FreeCAD 0.19 et les versions antérieures, il est possible de spécifier seulement 3 points de rupture. Depuis la version 0.20, cette limitation n\'existe plus et une liste de points de rendement peut en contenir autant que nécessaire.
 
 
 

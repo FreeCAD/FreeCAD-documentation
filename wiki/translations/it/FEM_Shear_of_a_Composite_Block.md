@@ -1,3 +1,4 @@
+# FEM Shear of a Composite Block/it
 ---
 - TutorialInfo   */it
    Topic   * Analisi agli elementi finiti
@@ -5,20 +6,7 @@
    Time   * 30 minuti
    Author   *[http   *//www.freecadweb.org/wiki/index.php?title=User   * HarryvL]
    FCVersion   *0.17.12960 o superiore
-   Files   *
----
-
-# FEM Shear of a Composite Block/it
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-</div>
+}}
 
 ## Introduzione
 
@@ -42,7 +30,7 @@ Viene creato un oggetto Mesh nell\'albero degli oggetti. Evidenziare questo ogge
 
 <img alt="" src=images/Pic3.png  style="width   *700px;">
 
-Quindi creare un nuovo oggetto mesh come sopra e usare la macro di selezione (scorciatoia S,E) per selezionare l\'oggetto Cube\_Core nella finestra grafica. Questa volta la lista di riferimento dovrebbe mostrare \"CompoundFilter   * Solid2\", come sotto. Scegliere una dimensione massima dell\'elemento di 1 mm.
+Quindi creare un nuovo oggetto mesh come sopra e usare la macro di selezione (scorciatoia S,E) per selezionare l\'oggetto Cube_Core nella finestra grafica. Questa volta la lista di riferimento dovrebbe mostrare \"CompoundFilter   * Solid2\", come sotto. Scegliere una dimensione massima dell\'elemento di 1 mm.
 
 Nota1   * La selezione di \"CompoundFilter   *Solid2\" richiede la selezione di una delle sue facce.
 
@@ -90,11 +78,11 @@ Successivamente l\'analisi può essere avviata premendo il pulsante RunCalculiX.
 
 ## Risultati di CalculiX 
 
-Al termine dell\'analisi, fare doppio clic sull\'oggetto \"CalculiX\_static\_results\" e selezionare l\'opzione \"Abs displacement\". Lo spostamento massimo di \~ 0.08mm vene visualizzato nella relativa casella di output. Poiché lo spostamento massimo è relativamente piccolo rispetto alle dimensioni del blocco (\<1% della dimensione del blocco), gli spostamenti devono essere ridimensionati. Questo può essere fatto sotto il titolo \"Displacement\" spuntando il pulsante di opzione \"Show\" e ridimensionando lo spostamento di un fattore di \"diciamo\" 20. Lo spostamento massimo ora è esagerato a circa il 20% delle dimensioni del cubo. Dopo aver chiuso la finestra di dialogo, la mesh deformata può essere resa nuovamente visibile evidenziando l\'oggetto Result\_mesh e premendo la barra spaziatrice.
+Al termine dell\'analisi, fare doppio clic sull\'oggetto \"CalculiX_static_results\" e selezionare l\'opzione \"Abs displacement\". Lo spostamento massimo di \~ 0.08mm vene visualizzato nella relativa casella di output. Poiché lo spostamento massimo è relativamente piccolo rispetto alle dimensioni del blocco (\<1% della dimensione del blocco), gli spostamenti devono essere ridimensionati. Questo può essere fatto sotto il titolo \"Displacement\" spuntando il pulsante di opzione \"Show\" e ridimensionando lo spostamento di un fattore di \"diciamo\" 20. Lo spostamento massimo ora è esagerato a circa il 20% delle dimensioni del cubo. Dopo aver chiuso la finestra di dialogo, la mesh deformata può essere resa nuovamente visibile evidenziando l\'oggetto Result_mesh e premendo la barra spaziatrice.
 
 <img alt="" src=images/Figure_11_Deformed_Mesh.png  style="width   *700px;">
 
-Per studiare la deformazione del nucleo bisogna tagliare il blocco. Questo può essere fatto creando un filtro clip. Per attivare questa funzionalità, bisogna prima creare una \"pipeline di post processing\" evidenziando l\'oggetto \"CalculiX\_static\_results\" e scegliendo \"Risultati → Pubblica pipeline dal risultato\" dal menu. Successivamente, con la Pipeline selezionata creare un filtro Warp (Risultati → Filtro Warp), impostare Vector=Displacement e Value=20 per ridimensionare lo spostamento e Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" per mostrare i contorni di spostamento colorati. Premere Applica e OK. Come passaggio finale, aggiungere un filtro clip (Results → Clip filter) e creare un piano con origine \[5.0,2.5,5.0\] e normale \[0,1,0\], cioè su una faccia centrale con la normale nella direzione y. Selezionare il pulsante di opzione \"Cut Cells\" per creare una superficie piatta. Come prima impostare Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" per mostrare i contorni di spostamento colorati. Premere Applica e OK. Infine, attivare il filtro Warp su invisibile per mostrare solo il blocco tagliato.
+Per studiare la deformazione del nucleo bisogna tagliare il blocco. Questo può essere fatto creando un filtro clip. Per attivare questa funzionalità, bisogna prima creare una \"pipeline di post processing\" evidenziando l\'oggetto \"CalculiX_static_results\" e scegliendo \"Risultati → Pubblica pipeline dal risultato\" dal menu. Successivamente, con la Pipeline selezionata creare un filtro Warp (Risultati → Filtro Warp), impostare Vector=Displacement e Value=20 per ridimensionare lo spostamento e Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" per mostrare i contorni di spostamento colorati. Premere Applica e OK. Come passaggio finale, aggiungere un filtro clip (Results → Clip filter) e creare un piano con origine \[5.0,2.5,5.0\] e normale \[0,1,0\], cioè su una faccia centrale con la normale nella direzione y. Selezionare il pulsante di opzione \"Cut Cells\" per creare una superficie piatta. Come prima impostare Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" per mostrare i contorni di spostamento colorati. Premere Applica e OK. Infine, attivare il filtro Warp su invisibile per mostrare solo il blocco tagliato.
 
 <img alt="" src=images/Figure12_Deformed_Mesh_Clipped_View_(2).png  style="width   *700px;">
 
@@ -112,7 +100,8 @@ Il file FC per questo tutorial è riportato sotto, come punto di partenza.
 
 <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Divertiti !  {{FEM Tools navi}}
+Divertiti !  {{FEM Tools navi}} {{Userdocnavi
+---
 
 
 

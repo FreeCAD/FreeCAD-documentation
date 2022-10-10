@@ -92,7 +92,7 @@ FreeCAD.addImportType("Your new File Type (*.ext)","Import_Ext")
 # .extファイルを開いて読み込むためのコードがあるファイルをImport_Ext.pyとします
 FreeCAD.addImportType("Your new File Type (*.ext)","Import_Ext") 
 
-Import\_Ext.pyファイルには以下のように書きます：
+Import_Ext.pyファイルには以下のように書きます：
 
 
 ```python
@@ -1162,7 +1162,7 @@ App.activeDocument().recompute()
 
 Examples of research and decoding information on an object.
 
-Each section is independently and is separated by \"\#\#\#\#\#\#\#\#\#\#\#\#\" can be copied directly into the Python console, or in a macro or use this macro. The description of the macro in the commentary.
+Each section is independently and is separated by \"############\" can be copied directly into the Python console, or in a macro or use this macro. The description of the macro in the commentary.
 
 Displaying it in the \"Report View\" window (View \> Views \> Report view)
 
@@ -1879,6 +1879,26 @@ myFace.cutHoles([wire1])
 myFace.validate()
 
 Part.show(myFace)
+```
+
+
+{{Top}}
+
+### Close and restart FreeCAD 
+
+
+```python
+import PySide2 
+from PySide2 import QtWidgets, QtCore, QtGui
+
+def restart_freecad()   *
+    """Shuts down and restarts FreeCAD"""
+
+    args = QtWidgets.QApplication.arguments()[1   *]
+    if FreeCADGui.getMainWindow().close()   *
+        QtCore.QProcess.startDetached(
+            QtWidgets.QApplication.applicationFilePath(), args
+        )
 ```
 
 

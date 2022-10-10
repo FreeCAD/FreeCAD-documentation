@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Part MakeFace‏‎ creates a [plane](Part_Plane.md) in a custom shape. The shape is defined by a closed sketch contour.
+**Part MakeFace**‏‎ creates a [plane](Part_Plane.md) in a custom shape. The shape is defined by a closed sketch contour.
 
 It is possible to nest closed contours, for example to have circles inside a polygon. In this case the face will be created between the contours like in this example   *
 
@@ -25,7 +25,7 @@ It is possible to nest closed contours, for example to have circles inside a pol
 ## Anwendung
 
 1.  Select a sketch defining at least one closed contour
-2.  Press the <img alt="" src=images/Part_MakeFace.svg  style="width   *24px;"> [Part MakeFace](Part_MakeFace.md) button
+2.  Press the **<img src="images/Part_MakeFace.svg" width=16px> [Make face from wires](Part_MakeFace.md)** button
 
 
 

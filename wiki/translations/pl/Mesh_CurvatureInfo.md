@@ -11,7 +11,7 @@
 
 ## Opis
 
-Polecenie **Mesh CurvatureInfo** wyświetla krzywiznę absolutną [obiektu krzywizny](Mesh_VertexCurvature.md) w wybranym punkcie.
+Polecenie **Informacje o krzywiźnie** wyświetla krzywiznę absolutną [obiektu krzywizny](Mesh_VertexCurvature/pl.md) w wybranym punkcie.
 
 ## Użycie
 

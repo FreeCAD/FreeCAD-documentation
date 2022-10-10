@@ -301,7 +301,17 @@ Estas são ferramentas para criar objetos.
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Oblongo](Sketcher_CreateSlot/pt-br.md)   * Desenha uma forma oval selecionando o centro de um semicírculo e a extremidade do outro semicírculo.
 
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Filete](Sketcher_CreateFillet/pt-br.md)   * Faz um filete entre duas linhas unidas em um ponto. Selecione as duas linhas ou clique no ponto de canto e ative a ferramenta.
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 
 <div class="mw-translate-fuzzy">

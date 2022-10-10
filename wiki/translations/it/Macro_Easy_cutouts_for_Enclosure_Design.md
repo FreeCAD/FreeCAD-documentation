@@ -20,21 +20,15 @@ Basta selezionare una faccia dell\'oggetto di base del ritaglio e la macro crea 
 <img alt="" src=images/easy-cutouts.gif  style="width   *1000px;"> 
 *qui una demo con un contenitore Arduino Uno*
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Selezionare una faccia dell\'oggetto di base del ritaglio e la macro crea un clone del suo contorno esterno con un margine di 0,5 millimetri (impostato nella macro)
-
-
-</div>
 
 ## Script
 
 L\'icona per la barra degli strumenti ![](images/Macro_Easy_cutouts_for_Enclosure_Design_icon.png )
 
-**Macro\_Easy\_cutouts\_for\_Enclosure\_Design.FCMacro**
+**Macro_Easy_cutouts_for_Enclosure_Design.FCMacro**
 
 
 {{MacroCode|code=

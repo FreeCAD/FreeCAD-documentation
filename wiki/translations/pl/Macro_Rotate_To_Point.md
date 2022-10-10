@@ -2,7 +2,7 @@
 {{Macro
 |Name=Macro Rotate To Point
 |Icon=Macro_Rotate_To_Point.svg
-|Description={{ColoredText|#ff0000|#ffffff|Updated version of macro modified the GUI to improve HiDPI support (QGridLayout). Run only FC v0.18 or higher (supporting Qt5 and PySide2)}} <br/> <br/> Macro for rotate an object on itself with the axis of rotation the   * boundbox center, center of mass, direction of wire, or last point clicked. You must save in a file all coordinate worked and save it in a file "Coordinate [(0.06,1.30,0.0),(85.0,0.0,0.0)]," or in a complete macro for create one animation<br/><br/>For the previous version (Qt4) see [https   *//gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/9231d5b1d218357305cc0404e46bf6c107509a0e/Macro%2520Rotate%2520To%2520Point.FCMacro Macro_Rotate_To_Point] and install it manually.
+|Description={{ColoredText|#ff0000|#ffffff|Updated version of macro modified the GUI to improve HiDPI support (QGridLayout). Run only FC v0.18 or higher (supporting Qt5 and PySide2)}} <br/> <br/> Macro for rotate an object on itself with the axis of rotation the   * boundbox center, center of mass, direction of wire, or last point clicked. You must save in a file all coordinate worked and save it in a file "Coordinate [(0.06,1.30,0.0),(85.0,0.0,0.0)]," or in a complete macro for create one animation<br/><br/>For the previous version (Qt4) see [https   *//gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/9231d5b1d218357305cc0404e46bf6c107509a0e/Macro%2520Rotate%2520To%2520Point.FCMacro Macro Rotate To Point] and install it manually.
 |Author=Mario52
 |Version=00.10
 |Date=2021/03/08
@@ -26,7 +26,7 @@ Macro to rotate an object on itself with the axis of rotation being either the  
 3.  Select one object
 4.  Choose one of the following orientations   *
 
-![Interface Rotate to point](images/Macro_Rotate_To_Point_00.png ) 
+![Interface Rotate to point](images/Macro_Rotate_To_Point_00.png )
 
 ### Point Rotation 
 
@@ -108,9 +108,15 @@ Macro to rotate an object on itself with the axis of rotation being either the  
 
 ## Script
 
-ToolBar Icon PNG ![](images/Macro_Rotate_To_Point.png ) SVG ![](images/Macro_Rotate_To_Point.svg )
+ToolBar PNG Icon ![](images/Macro_Rotate_To_Point.png ) and ToolBar SVG Icon ![](images/Macro_Rotate_To_Point.svg )
 
-**Macro\_Rotate\_To\_Point.FCMacro**
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+Details of the script **Macro_Rotate_To_Point.FCMacro**
+
+
+<div class="mw-collapsible-content">
 
 
 {{MacroCode|code=
@@ -2944,6 +2950,12 @@ if __name__ == "__main__"   *
     ui.setupUi(MainWindow)
     MainWindow.show()
 }}
+
+
+</div>
+
+
+</div>
 
 ## Example
 

@@ -1,84 +1,86 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *PartDesign AdditiveLoft
-   MenuLocation   *Part Design → Create an additive feature → Additive loft
-   Workbenches   *[PartDesign](PartDesign_Workbench.md)
+   Name/pl   *Projekt Części   * Uzupełnianie wyciągnięciem przez profile
+   MenuLocation   *Projekt Części → Utwórz cechę przez dodanie → Uzupełnianie wyciągnięciem przez profile
+   Workbenches   *[Projekt Części](PartDesign_Workbench/pl.md)
    Version   *0.17
-   SeeAlso   *[PartDesign AdditivePipe](PartDesign_AdditivePipe.md), [PartDesign SubtractiveLoft](PartDesign_SubtractiveLoft.md)
+   SeeAlso   *[Uzupełnianie wyciągnięciem po ścieżce](PartDesign_AdditivePipe/pl.md), [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)
 ---
 
 # PartDesign AdditiveLoft/pl
 
-## Description
+## Opis
 
-**Additive Loft** creates a solid in the active Body by making a transition between two or more sketches (also referred to as cross-sections). If the Body already contains features, the additive loft will be merged to them.
+**Uzupełnianie wyciągnięciem przez profile** tworzy bryłę w aktywnej Zawartości poprzez wykonanie przejścia pomiędzy dwoma lub więcej szkicami *(zwanymi również przekrojami poprzecznymi)*. Jeżeli Zawartość zawiera już elementy, to wyciągnięcie zostanie z nimi połączone.
 
 ![](images/PartDesign_AddLoft_example.png ) 
-*On the left   * cross-sections (A), (B) and (C); created Additive loft on the right.*
+*Po lewej   * przekroje ''(A)'', ''(B)'' i ''(C)''
+Po prawej   * utworzone wyciągnięcie.*
 
-## Usage
+## Użycie
 
-### Dialog-based workflow 
+### Przepływ pracy na podstawie okienka dialogowego 
 
-1.  Press the **[<img src=images/PartDesign_AdditiveLoft.svg style="width   *24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
-2.  In the **Select feature** dialog select a sketch to be used as base profile object and click **OK**.
-    -   Alternatively, either a single sketch or the face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Additive loft button.
-3.  In the **Loft parameters**, press the **Add Section** button.
-4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
-5.  Set options if needed and click **OK**.
+1.  Naciśnij przycisk **[<img src=images/PartDesign_AdditiveLoft.svg style="width   *24px"> [Uzupełnianie wyciągnięciem przez profile](PartDesign_AdditiveLoft/pl.md)**.
+2.  W oknie dialogowym **Wybierz cechę** wybierz szkic, który ma być użyty jako obiekt profilu bazowego i kliknij **OK**.
+    -   Alternatywnie, przed naciśnięciem przycisku Uzupełnianie wyciągnięciem przez profile można wybrać pojedynczy szkic lub ścianę obiektu 3D *({{Version/pl|0.20}})*.
+3.  W **Parametrach wyciągnięcia przez profile** naciśnij przycisk **Dodaj sekcję profilu**
+4.  Wybierz następny szkic w oknie [widoku 3D](3D_view/pl.md). Powtórz powyższe czynności, aby wybrać więcej szkiców w kolejności, w jakiej chcesz, aby były poddawane wyciągnięciu. *(Możesz zmienić kolejność sekcji w dowolnym momencie później w oknie dialogowym wyciągnięcia, przeciągając sekcje na liście do pożądanej pozycji.{{Version/pl|0.19}})*.
+5.  Ustaw opcje w razie potrzeby i kliknij **OK**.
 
-### Selection-based workflow 
+### Przepływ pracy oparty na wyborze 
 
 
-<small>(v0.19)</small> 
+{{Version/pl|0.19}}
 
-1.  Select several sketches. It is hereby important in what order you select them   *
-    -   The sketch selected at first will become the base profile object in the next step
-    -   The sketches selected after the first one will become the loft sections. Also here the selection order is important   * The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
-    -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
-2.  Press the **[<img src=images/PartDesign_AdditiveLoft.svg style="width   *24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
-3.  Set options if needed and click **OK**.
+1.  Wybierz kilka szkiców. Ważne jest, w jakiej kolejności je wybierzesz   *
+    -   Szkic wybrany jako pierwszy stanie się obiektem profilu bazowego w następnym kroku
+    -   Szkice wybrane po pierwszym staną się sekcjami wyciągnięcia. Również tutaj ważna jest kolejność wyboru   * szkic wybrany jako drugi stanie się pierwszą sekcją wyciągnięcia, szkic wybrany jako trzeci stanie się drugą sekcją i tak dalej. *(Możesz zmienić kolejność sekcji w dowolnym momencie później w oknie dialogowym wyciągnięcia, przeciągając sekcje na liście na żądaną pozycję.{{Version/pl|0.19}})*
+    -   Pierwszy lub ostatni wybór może być również ścianą obiektu 3D *({{Version/pl|0.20}})*
+2.  Naciśnij przycisk **[<img src=images/PartDesign_AdditiveLoft.svg style="width   *24px"> [Uzupełnianie wyciągnięciem przez profile ](PartDesign_AdditiveLoft/pl.md)**.
+3.  Ustaw opcje, jeśli to konieczne i kliknij **OK**.
 
-## Options
+## Opcje
 
--   **Ruled surface**   * makes straight transitions between cross-sections. Does not apply to a loft with two cross-sections. If not checked, transitions will be smooth.
--   **Closed**   * makes a transition from the last cross-section to the first, creating a loop.
+-   **Powierzchnia prostokreślna**   * tworzy proste przejścia między przekrojami poprzecznymi. Nie ma zastosowania dla wyciągnięcia z dwoma przekrojami. Jeśli opcja nie jest zaznaczona, przejścia będą gładkie.
+-   **Zamknięty**   * powoduje przejście z ostatniego przekroju do pierwszego, tworząc pętlę.
 
-## Properties
+## Właściwości
 
--    **Label**   * name given to the operation, this name can be changed at convenience.
+-    **Label**   * nazwa nadana operacji, nazwa ta może być zmieniona w dogodnym momencie.
 
--    **Sections**   * lists the sections used.
+-    **Sections**   * zawiera listę użytych sekcji.
 
--    **Ruled**   * see [Options](#Options.md).
+-    **Ruled**   * zobacz akapit [Opcje](#Opcje.md).
 
--    **Closed**   * see [Options](#Options.md).
+-    **Closed**   * zobacz akapit [Opcje](#Opcje.md).
 
--    **Refine**   * true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+-    **Refine**   * przyjmuje wartości {{true/pl}} lub {{false/pl}}. Jeżeli ustawimy na wartość prawda, to funkcja wyczyści bryłę z resztek krawędzi pozostawionych przez cechy. Zobacz [Udoskonal kształt](Part_RefineShape/pl.md) aby uzyskać więcej szczegółów.
 
--    **Profile**   * the see base profile object of the loft.
+-    **Profile**   * obiekt profilu bazowego patrz wyciągnięcie.
 
--    **Midplane**   * non applicable.
+-    **Midplane**   * nie ma zastosowania.
 
--    **Reversed**   * non applicable.
+-    **Reversed**   * nie ma zastosowania.
 
--    **Up To Face**   * non applicable.
+-    **Up To Face**   * nie ma zastosowania.
 
--    **Allow Multi Face**   * non applicable.
+-    **Allow Multi Face**   * nie ma zastosowania.
 
-## Notes
+## Uwagi
 
--   To better control the shape of the loft, it is recommended that all cross-sections have the same number of segments. For example, for a loft between a rectangle and a circle, the circle should be broken down into 4 connected arcs.
--   You can loft from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
--   [Vertices](Glossary#V.md) can only be either the start or end of a loft. Otherwise the loft body would consist of two solids connected at a single point. This would violates the CAD kernel\'s definition of a 3D object.
--   A cross-section cannot lie on the same plane as the one immediately preceding it.
--   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created, should be the same for all sections   * Either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
--   It is not possible to loft disjoint or crossing loops.
--   Some failure modes will turn the part black.
+-   Aby lepiej kontrolować kształt wyciągnięcia, zaleca się, aby wszystkie przekroje miały taką samą liczbę segmentów. Na przykład, dla przejścia pomiędzy prostokątem a okręgiem, okrąg powinien być rozbity na cztery połączone łuki.
+-   Możesz wykonać wyciągnięcie z lub w kierunku pojedynczego [wierzchołka](Glossary#V.md) ze szkicu lub bryły. {{Version/pl|0.20}}
+-   [Wierzchołki](Glossary#V.md) mogą być tylko początkiem lub końcem wyciągnięcia. W przeciwnym razie bryła poddasza składałaby się z dwóch brył połączonych w jednym punkcie. Naruszałoby to definicję obiektu 3D zawartą w jądrze CAD.
+-   Profil nie może znajdować się na tej samej płaszczyźnie co profil bezpośrednio go poprzedzający.
+-   Jeśli szkic ma geometrię wewnętrzną, czyli wyciągnięcie ma mieć otwór, to kolejność tworzenia geometrii szkicu, powinna być taka sama dla wszystkich profili   * Albo zacznij pracę z wszystkimi profilami geometrii wewnętrznej, albo zewnętrznej. W przeciwnym razie może powstać nieprawidłowe wyciągnięcie, w którym krzyżują się ściany wewnętrzne i zewnętrzne.
+-   Nie jest możliwe wyciąganie pętli rozłącznych lub krzyżujących się.
+-   Niektóre tryby awarii spowodują, że część będzie wyświetlona w kolorze czarnym.
 
-## Links
+## Odnośniki internetowe 
 
--   [Part Loft Technical Details](Part_Loft_Technical_Details.md) explains how a [Part Loft](Part_Loft.md) is created, much of its content is relevant to the PartDesign Additive loft.
+-   Artykuł [Szczegóły techniczne wyciągnięcia przez profile](Part_Loft_Technical_Details/pl.md) wyjaśnia jak jest tworzone [Odejmowanie wyciągnięciem przez profile](Part_Loft/pl.md) środowiska Część. Znaczna część jego zawartości dotyczy również funkcji Uzupełnianie wyciągnięciem przez profile.
 
 
 

@@ -1,13 +1,7 @@
 # Mesh API/it
 **(Novembre 2018) Queste informazioni potrebbero essere incomplete e obsolete. Per l'ultima API, vedere la pagina [https   *//www.freecadweb.org/api Documentazione API autogenerata].**
 
-
-<div class="mw-translate-fuzzy">
-
-Gli oggetti mesh possono essere manipolati aggiungendo nuove sfaccettature, cancellando delle sfaccettature, importando da un file STL, trasformando la rete e in molti altri modi. Per una panoramica completa di ciò che si può fare vedere anche la documentazione del [Modulo Mesh](Mesh_Workbench/it.md). Un oggetto mesh non può essere aggiunto direttamente ad un documento esistente. Pertanto, il documento deve creare un oggetto con una classe appropriataa che supporta le mesh. Esempio   *
-
-
-</div>
+Gli oggetti mesh possono essere manipolati aggiungendo nuove sfaccettature, cancellando delle sfaccettature, importando da un file STL, trasformando la rete e in molti altri modi. Per una panoramica completa di ciò che si può fare vedere anche la documentazione dell\'[Ambiente Mesh](Mesh_Workbench/it.md). Un oggetto mesh non può essere aggiunto direttamente ad un documento esistente. Pertanto, il documento deve creare un oggetto con una classe appropriataa che supporta le mesh. Esempio   *
 
 
 ```python
@@ -18,9 +12,6 @@ f = d.addObject("Mesh   *   *Feature", "Mesh") # Create a mesh feature
 f.Mesh = m # Assign the mesh object to the internal property
 d.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
 
 
 {{APIFunction|addFacet|Facet|Aggiunge una sfaccettatura alla maglia| }}
@@ -212,10 +203,13 @@ d.recompute()
 {{APIProperty|Area|the area of the mesh object.}}
 
 
+{{APIProperty|CountEdges|the number of vertices of the mesh object.}}
+
+
 {{APIProperty|CountFacets|the number of facets of the mesh object.}}
 
 
-{{APIProperty|CountPoints|the number of vertices of the mesh object.}}
+{{APIProperty|CountPoints|the number of points of the mesh object.}}
 
 
 {{APIProperty|Facets|A collection of facets; With this attribute it is possible to get access to the facets of the mesh   * for p in mesh.Facets   * print f. Facet.Points is a list of coordinate-tupels for the vertices. Facet.PointIndices is a list of indice for the vertices of the facet. WARNING! store Facets in a local variable as it is generated on the fly, each time it is accessed.}}
@@ -237,9 +231,6 @@ d.recompute()
 
 
 {{APIProperty|Placement|the current transformation of the object as placement}}
-
-
-</div>
 
 
  

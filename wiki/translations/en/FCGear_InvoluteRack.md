@@ -1,11 +1,11 @@
 ---
 - GuiCommand   *
    Name   *FCGear InvoluteRack
-   MenuLocation   *FCGear → Create an Involute rack
+   MenuLocation   *Gear → Involute Rack
    Workbenches   *[FCGear](FCGear_Workbench.md)
    Shortcut   *None
    Version   *v0.16
-   SeeAlso   *[[FCGear InvoluteGear]]
+   SeeAlso   *[FCGear InvoluteGear](FCGear_InvoluteGear.md)
 ---
 
 # FCGear InvoluteRack/en
@@ -25,65 +25,77 @@ Gear racks are used to convert a rotary motion into a linear motion or vice vers
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Invoke the command several way   *
-    -   Press the <img alt="" src=images/FCGear_InvoluteRack.svg  style="width   *22px;"> [Create an Involute rack](FCGear_InvoluteRack.md) button in the tool bar.
-    -   Using the **Gear Menu → Involute rack**.
-3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
+1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [FCGear Workbench](FCGear_Workbench.md).
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/FCGear_InvoluteRack.svg style="width   *16px"> [Involute Rack](FCGear_InvoluteRack.md)** button in the toolbar.
+    -   Select the **Gear → [<img src=images/FCGear_InvoluteRack.svg style="width   *16px"> Involute Rack** option from the menu.
+3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
 ## Properties
+
+An FCGear InvoluteRack object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|base}}
 
--    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
+-    **add_endings|Bool**   * If {{True}} (default), then the total length of the rack is teeth \* pitch. If {{False}}, then the rack starts with a tooth-flank.
 
--    **Label**   * User name of the object in the [Tree view](Tree_view.md).
+-    **height|Length**   * Default is {{Value|5 mm}}. Value of the gear width.
+
+-    **module|Length**   * Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+
+-    **teeth|Integer**   * Default is {{Value|15}}. Number of teeth.
+
+-    **thickness|Length**   * Default is {{Value|5}}. Height from the tooth root to the lower side of the rod.
 
 
 {{Properties_Title|computed}}
 
--    **transverse_pitch**   * Pitch in the transverse plane -- not changeable, is calculated automatically (see also the information in **Notes**).
+-    **transverse_pitch|Length**   * (read-only) Pitch in the transverse plane (see [Notes](#Notes.md)).
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|fillets}}
 
--    **add_endings**   * If **True**, than the total length of the rack is teeth \* pitch, otherwise the rack starts with a tooth-flank.
+-    **head_fillet|Float**   * Default is {{Value|0 mm}}.
 
--    **beta**   * With the helix angle β a helical gear is created (positive value → rotation direction right, negative value → rotation direction left).
-
--    **clearance**   * Default is 0,25 (see also the information in **Notes**).
-
--    **double_helix**   * **True** creates a double helix gear (see also the information in **Notes**)
-
--    **head**   * Default is 0,00. This value is used to change the tooth height.
-
--    **height**   * Value of the gear width.
-
--    **module**   * Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Notes**).
-
--    **properties_from_tool**   * If helix angle β is given and **properties_from-tool** is enabled, gear parameters are internally recomputed for the rotated gear.
-
--    **simplified**   * **True** generates a simplified display (without teeth).
-
--    **teeth**   * Number of teeth
-
--    **thickness**   * Height from the tooth root to the lower side of the rod.
+-    **root_fillet|Float**   * Default is {{Value|0 mm}}.
 
 
-{{Properties_Title|involute_parameter}}
+{{Properties_Title|helical}}
 
--    **pressure_parameter**   * Default is 20 (see also the information in **Notes**).
+-    **beta|Angle**   * Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left.
 
-### View
+-    **double_helix|Bool**   * Default is {{False}}, {{True}} creates a double helix gear (see [Notes](#Notes.md)).
 
-The parameter descriptions of the **View** tab will be found in [Property editor](Property_editor.md), further below at **Example of the properties of a PartDesign object**.
+-    **properties_from_tool|Bool**   * Default is {{False}}. If {{True}} and **beta** is not zero, gear parameters are recomputed internally for the rotated gear.
+
+
+{{Properties_Title|involute}}
+
+-    **pressure_angle|Angle**   * Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+
+
+{{Properties_Title|precision}}
+
+-    **simplified|Bool**   * Default is {{False}}, {{True}} generates a simplified display (without teeth).
+
+
+{{Properties_Title|tolerance}}
+
+-    **clearance|Float**   * Default is {{Value|0.25}} (see [Notes](#Notes.md)).
+
+-    **head|Float**   * Default is {{Value|0}}. This value is used to change the tooth height.
+
+
+{{Properties_Title|version}}
+
+-    **version|String**   *
 
 ## Notes
 
--    **transverse_pitch**   * The value is the result of multiplication of **module * pi**. This means for the standard involute rack of FCGear   * 15 (**teeth**) \* 3,14 (**transverse_pitch**) is 47.12 mm. See also **module** further below.
+-    **transverse_pitch**   * The value is the result of multiplication of **module * pi**. This means for the standard involute rack of FCGear   * 15 (**teeth**) \* 3.14 (**transverse_pitch**) is 47.12 mm. See also **module** further below.
 
 -    **clearance**   * At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
 
@@ -95,7 +107,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 ## Useful formulas 
 
-For more information see <img alt="" src=images/FCGear_InvoluteGear.svg  style="width   *22px;"> [Involute gear](FCGear_InvoluteGear.md).
+See [FCGear InvoluteGear](FCGear_InvoluteGear#Useful_formulas.md).
 
 ## Scripting
 

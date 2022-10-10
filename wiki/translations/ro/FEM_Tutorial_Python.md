@@ -20,17 +20,21 @@
 
 </div>
 
+## Introduction
+
 
 <div class="mw-translate-fuzzy">
 
 ## Introducere
 
-Acest exemplu este menit a arăta cât de simplă este Metoda Elementelor Finite(Finite Element Analysis (FEA)) în FreeCADs [FEM Workbench](FEM_Workbench.md) este realizată prin Python. Modelul de la [FEM\_CalculiX\_Cantilever\_3D](FEM_CalculiX_Cantilever_3D.md) va fi luat drept exemplu.
+Acest exemplu este menit a arăta cât de simplă este Metoda Elementelor Finite(Finite Element Analysis (FEA)) în FreeCADs [FEM Workbench](FEM_Workbench.md) este realizată prin Python. Modelul de la [FEM_CalculiX_Cantilever_3D](FEM_CalculiX_Cantilever_3D.md) va fi luat drept exemplu.
 
 
 </div>
 
 <img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
+
+### Requirements
 
 
 <div class="mw-translate-fuzzy">
@@ -40,14 +44,22 @@ Acest exemplu este menit a arăta cât de simplă este Metoda Elementelor Finite
 -   FreeCAD version \--\> according tutorial overview
 -   Aceasta pote fi bifat în meniul Help \--\> about FreeCAD.
 -   Dat fiind schimbările continue în modulul FEM, este recomandat să folosiți cea mai recentă imagine de dezvoltare a FreeCAD pentru analizele FEM scripted în Python.
--   O definirea a modului FEM. Verificați [FEM\_CalculiX\_Cantilever\_3D](FEM_CalculiX_Cantilever_3D.md)
+-   O definirea a modului FEM. Verificați [FEM_CalculiX_Cantilever_3D](FEM_CalculiX_Cantilever_3D.md)
 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Să începem 
 
 ### Nou document și piesă pentru analiză 
+
+
+</div>
+
+### New document and the part to analyze 
 
 
 ```python
@@ -115,6 +127,8 @@ analysis_object.addObject(force_constraint)
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width   *750px ">
+
+### FEM mesh (manual) 
 
 
 <div class="mw-translate-fuzzy">
@@ -448,12 +462,10 @@ femmesh.addVolume([51, 44, 45, 34, 217, 95, 228, 218, 144, 136], 225)
 femmesh.addVolume([9, 29, 39, 30, 147, 127, 215, 148, 78, 126], 226)
 femmesh.addVolume([40, 9, 19, 39, 214, 105, 168, 90, 215, 169], 227)
 
-
 # add it to the analysis
 femmesh_obj = doc.addObject('Fem   *   *FemMeshObject', 'Box_Mesh')
 femmesh_obj.FemMesh = femmesh
 analysis_object.addObject(femmesh_obj)
-
 ```
 
 
@@ -564,7 +576,7 @@ if not message   *
     fea.load_results()
 else   *
     FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in report view
-    print("Houston, we have a problem! {}\n".format(message))  # in python console
+    print("Houston, we have a problem! {}\n".format(message))  # in Python console
 
 ###
 ```
@@ -609,10 +621,12 @@ Scripting the Netgen mesh object was attempted in the [\"Parametrized FEM study\
 
 ##### GMSH
 
-On the contrary, the GMSH mesh object fully supports python scripting. See the following forum posts   *
+On the contrary, the GMSH mesh object fully supports Python scripting. See the following forum posts   *
 
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
 -   forum topic <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=20087>
+
+#### Scripting multiple analysis 
 
 
 <div class="mw-translate-fuzzy">
@@ -623,6 +637,10 @@ Urmăriți postările de pe forum   * <http   *//forum.freecadweb.org/viewtopic.
 
 
 </div>
+
+#### Scripting results 
+
+##### Standard FreeCAD result object 
 
 
 <div class="mw-translate-fuzzy">
@@ -642,6 +660,8 @@ See forum posts   *
 
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
+#### Console mode 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -654,10 +674,12 @@ Scrierea fișierului de intrare în modul consola FreeCAD (fără GUI) se poate 
 
 </div>
 
+## Appendix
+
 
 <div class="mw-translate-fuzzy">
 
-## Appendix
+## Appendix 
 
 Distracție plăcută!
 
@@ -665,7 +687,7 @@ Distracție plăcută!
 </div>
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}} 
 
 [Category   *Python Code](Category_Python_Code.md)
 

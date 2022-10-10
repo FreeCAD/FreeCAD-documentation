@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */de
    Name   *Std AddonMgr
-   Name/de   *Std ErweiterungVerw
-   MenuLocation   *Werkzeuge → ErweiterungsVerwalter
+   Name/de   *Std AddonManager
+   MenuLocation   *Werkzeuge → Addon-Manager
    Workbenches   *Alle
    Version   *0.17
    SeeAlso   *[Externe Arbeitsbereiche](External_workbenches/de.md), [Makros](Macros/de.md)
@@ -12,77 +12,53 @@
 
 ## Beschreibung
 
+Der Befehl **Std Addon-Manager** öffnet den Addon-Manager. Mit dem Addon-Manager können [externe Arbeitsbereiche](external_workbenches/de.md), [Makros](macros/de.md), und [Voreinstellungspakete](Preference_Packs/de.md), die durch die FreeCAD-Gemeinschaft bereitgestellt werden, installiert und verwaltet werden. Standardmäßig stammen die verfügbaren Erweiterungen aus zwei Quellen, [(GitHub) FreeCAD-Addons](https   *//github.com/FreeCAD/FreeCAD-addons/) und von der Seite [Makrorezepte](Macros_recipes/de.md). Wenn GitPython und git auf dem eigenen System installiert sind, werden zusätzliche Makros von [(GitHub) FreeCAD-Makros](https   *//github.com/FreeCAD/FreeCAD-macros/) geladen. Benutzerdefinierte Quellen können in den Voreinstellungen des [Addon-Managers](Preferences_Editor/de#Addon-Manager.md) hinzugefügt werden.
 
-<div class="mw-translate-fuzzy">
-
-Der **Std ErweiterungVerw** Befehl öffnet den Erweiterungsverwalter. Mit dem Erweiterungsverwalter kannst du [externe Arbeitsbereiche](external_workbenches/de.md) und [Makros](macros/de.md), die von der FreeCAD Gemeinschaft bereitgestellt werden, installieren und verwalten. Die verfügbaren Arbeitsbereiche und Makros stammen aus zwei Repositorien, [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) und [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/), sowie von der [Makrosrezepte](Macros_recipes/de.md) Seite.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Aufgrund von Änderungen an der GitHub Plattform im Jahr 2020 funktioniert der Erweiterungsverwalter nicht mehr, wenn du FreeCAD Version 0.17 oder früher verwendest. Du musst auf die Version [0.18.5](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) oder eine neuere Version [0.19](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre) aktualisieren. Alternativ kannst du Erweiterungen auch manuell installieren, siehe [Hinweise](#Hinweise.md) unten.
-
-
-</div>
+Aufgrund von Änderungen an der GitHub-Plattform im Jahr 2020 funktioniert der Addon-Manager nicht mehr, wenn man die FreeCAD-Version 0.17 oder älter verwendet. Man muss auf die Version [0.18.5](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) oder neuer aktualisieren. Alternativ könen die Erweiterungen auch manuell installiert werden, siehe [Hinweise](#Hinweise.md) unten.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle die **Werkzeuge → <img src="images/Std_AddonMgr.svg" width=16px> Erweiterungsverwalter** Option aus dem Menü.
-2.  Wenn du den Erweiterungsverwalter zum ersten Mal verwendest, wird ein Dialogfeld geöffnet, das dich darauf hinweist, dass die Erweiterungen im Erweiterungsverwalter nicht offiziell Teil von FreeCAD sind. Drücke die **OK** Schaltfläche, um zu bestätigen und fortzufahren.
-3.  Das Dialogfeld des Erweiterungsverwalters öffnet sich. Für weitere Informationen siehe [Optionen](#Options/de.md).
-4.  Die **<img src="images/Button_valid.svg" width=16px> Alles aktualisieren** Schaltfläche funktioniert zur Zeit nicht.
-5.  Drücke die **<img src="images/Process-stop.svg" width=16px> Schließen** Schaltfläche, um das Dialogfeld zu schließen.
-6.  Wenn du einen Arbeitsbereich installiert oder aktualisiert hast, wird ein neues Dialogfeld geöffnet, das dich darauf hinweist, dass du FreeCAD neu starten musst, damit die Änderungen wirksam werden.
-
-
-</div>
+1.  Den Menüeintrag **Werkzeuge → <img src="images/Std_AddonMgr.svg" width=16px> Addon-Manager** auswählen.
+2.  Wird der Addon-Manager zum ersten Mal verwendet, wird ein Dialogfeld geöffnet, das darauf hinweist, dass die Erweiterungen im Addon-Manager kein offizieller Bestandteil von FreeCAD sind. Es enthält auch mehrere Optionen, die mit der Verwendung von Daten durch den Addon-Manager zusammenhängen. Hat man diese Optionen den eigenen Vorlieben entsprechend eingestellt, drückt man die Schaltfläche **OK**, um zu bestätigen und fortzufahren.
+3.  Das Dialogfeld Addon-Manager öffnet sich. Für weitere Informationen siehe [Optionen](#Optionen.md).
+4.  Die Schaltfläche **<img src="images/Button_valid.svg" width=16px> Alles aktualisieren** funktioniert zurzeit nicht.
+5.  Die Schaltfläche **<img src="images/Process-stop.svg" width=16px> Schließen** drücken, um das Dialogfeld zu schließen.
+6.  Wenn ein Arbeitsbereich installiert oder aktualisiert wurde, wird ein neues Dialogfeld geöffnet, das darauf hinweist, dass FreeCAD neu gestartet werden muss, damit die Änderungen wirksam werden.
 
 ## Optionen
 
 <img alt="" src=images/AddonManager_Main.png  style="width   *600px;">
 
-1.  The Addon manager provides two view layouts   * \"Condensed\" and \"Expanded\". In \"Condensed\" view, each addon takes a single line, and its description is truncated to fit the available space. \"Expanded\" shows additional details, including more of the description text as well as maintainer information, more installation details, etc.
-2.  Three different types of addons are supported   * [workbenches](external_workbenches.md), [macros](macros.md), and [preference packs](Preference_Packs.md). You can choose to show just one type, or all of them in a single list.
-3.  The list can be limited to show just installed packages, just packages with available updates, or just packages that are not yet installed.
-4.  The list can be filtered, searching for a keyword in the title, description, and tags (description and tags must be specified by the addon developer in their addon\'s metadata). The filter can even be a regular expression, for fine-grained control of the exact search term.
-5.  The expanded view shows available version information, description, maintainer information, and installation version information, for packages that provide a [package metadata](Package_Metadata.md) file (or for macros with embedded metadata).
-6.  Addon data is cached locally, with a variable cache update frequency set in the user preferences.
-7.  At any time you can choose to manually update your local cache to see the latest updates available for each addon.
-8.  Update checks may be set up to be automatic, or done manually via a button click (configured in user preferences). If GitPython and git are installed on your system then update information is fetched using git. If not, then update information is obtained from any present metadata file.
+1.  Der Addon-Manager stellt zwei Layouts zur Verfügung   * \"Schmal\" and \"Erweitert\". In der \"schmalen\" Ansicht füllt eine Erweiterung eine einzelne Zeile und ihre Beschreibung wird gekürzt, um in den vorhandenen Platz zu passen. \"Erweitert\" stellt zusätzliche Einzelheiten dar, wie weiteren Beschreibungstext und auch Informationen für Bearbeiter, weitere Installationsdetails usw.
+2.  Drei Arten von Erweiterungen werden unterstützt   * [Arbeitsbereiche](external_workbenches/de.md), [Makros](macros/de.md), und [Voreinstellungspakete](Preference_Packs/de.md). Man kann wählen, ob nur eine Art angezeigt wird oder alle in einer einzigen Liste.
+3.  Die Liste kann so eingegrenzt werden, dass sie nur installierte Pakete, nur Pakete mit erhältlichen Aktualisierungen oder nur Pakete, die noch nicht installiert wurden, enthält.
+4.  Die Liste kann gefiltert werden durch die Suche nach Schlüsselwörtern in Benennung, Beschreibung und Kennzeichen (Beschreibung und Kennzeichnung müssen vom Addon-Entwickler in den Meta-Daten angegeben werden). Der Filter kann sogar ein regulärer Ausdruck sein, für eine präzise Steuerung des genauen Suchbegriffs.
+5.  Die erweiterte Ansicht zeigt enthaltene Versionsinformationen, Beschreibungen, Informationen für Bearbeiter und Informationen zur Version der Installation für Pakete mit einer [Paket-Meta-Daten](Package_Metadata/de.md)-Datei (oder für Makros mit eingebetteten Meta-Daten).
+6.  Die Addon-Daten werden lokal zwischengespeichert, mit einer variablen Häufigkeit der Aktualisierung des Zwischnspeichers, festgelegt in den Benutzereinstellungen.
+7.  Zu jeder Zeit kann die manuelle Aktualisierung des lokalen Zwischenspeichers ausgewählt werden, um die neuesten verfügbaren Aktualisierungen für alle Erweiterungen anzuzeigen.
+8.  Die Suche nach Aktualisierungen kann auf automatisch eingestellt sein oder manuell erfolgen durch einen Klick auf eine Schaltfläche (festgelegt in den Benutzereinstellungen). Wenn GitPython und git auf dem eigenen System installiert sind, werden die Aktualisierungsinformationen unter Verwendung von git abgeholt. Wenn nicht, werden Informationen zu Aktualisierungen aus allen vorhandenen Meta-Daten-Datein ausgelesen.
 
-Clicking on an addon in this view brings up the addon\'s Details page   *
+Klickt man in dieser Ansicht auf eine Erweiterung, wird eine Seite mit Einzelheiten zu dieser Erweiterung geöffnet   *
 
 <img alt="" src=images/AddonManager_Details.png  style="width   *600px;">
 
-The details page shows buttons allowing installing, uninstalling, updating, and temporarily disabling an addon. For installed addons it lists the currently installed version and the installation date, and whether that is the most recent version available. Below is an embedded web browser window showing the addon\'s README page (for workbenches and preference packs), or Wiki page (for macros).
+Diese Seite mit Einzelheiten zeigt Schaltflächen, die es erlauben Erweiterungen zu installieren, zu deinstallieren, zu aktualisieren und zeitweise zu deaktivieren. Sie listet die aktuell installierten Versionen mit dem Installationsdatum und ob es sich um die neueste verfügbare Version handelt. Darunter befindet sich ein eingebettetes Webbrowser-Fenster, das die README-Seite der Erweiterung anzeigt (für Arbeitsbereiche und Voreinstellungspakete), oder die Wiki-Seite (für Makros).
 
-## Preferences
+## Einstellungen
 
-The preferences for the Addon manager can be found in the [Preferences Editor](Preferences_Editor#Addon_Manager.md). <small>(v0.20)</small> 
+Die Einstellungen für den Addon-Manager findet man im [Voreinstellungseditor](Preferences_Editor/de#Addon-Manager.md). {{Version/de|0.20}}
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   Die Verwendung von Erweiterungen ist nicht auf die FreeCAD Version beschränkt, aus der sie installiert wurden. Du kannst sie auch in jeder anderen FreeCAD Version verwenden, die von der Erweiterung unterstützt wird und die du möglicherweise auf deinem System hast.
--   Die im Erweiterungsverwalter verfügbaren Erweiterungen sind nicht Teil des offiziellen FreeCAD Programms und werden vom FreeCAD Kernentwicklungsteam nicht unterstützt. Du solltest die bereitgestellten Informationen sorgfältig lesen, um sicherzustellen, daß du weißt, was du installierst.
--   Fehlerberichte und Funktionenanfragen sollten direkt an den Ersteller der Erweiterung gerichtet werden, durch Besuch der angegebene Webseite. Viele Erweiterungsentwickler sind regelmäßige Nutzer des [FreeCAD Forums](https   *//forum.freecadweb.org), und können dort auch kontaktiert werden.
--   Wenn das [GitPython](https   *//github.com/gitpython-developers/GitPython) Paket auf deinem Computer installiert ist, wird der Erweiterungsverwalter davon Gebrauch machen, was das Herunterladen beschleunigt.
--   Du kannst Erweiterungen auch manuell installieren. Siehe [Wie man zusätzliche Arbeitsbereiche installiert](How_to_install_additional_workbenches/de.md) und [Wie man Makros installiert](How_to_install_macros/de.md).
-
-
-</div>
+-   Die Verwendung von Erweiterungen ist nicht auf die FreeCAD-Version beschränkt, mit der sie installiert wurden. Sie können auch in jeder anderen FreeCAD-Version verwenden, die von der Erweiterung unterstützt wird, die möglicherweise auf dem eigenen System vorhanden ist.
+-   Die im Addon-Manager verfügbaren Erweiterungen sind nicht Teil des offiziellen FreeCAD-Programms und werden vom FreeCAD-Kernentwicklungsteam nicht unterstützt. Man solltet die bereitgestellten Informationen sorgfältig lesen, um sicherzustellen, daß man weiß, was man installiert.
+-   Fehlerberichte und Anfragen für neue Funktionen sollten direkt an den Ersteller der Erweiterung gerichtet werden, durch Besuch der angegebene Webseite. Viele Erweiterungsentwickler sind regelmäßige Nutzer des [FreeCAD-Forums](https   *//forum.freecadweb.org), und können dort auch kontaktiert werden.
+-   Wenn das [GitPython](https   *//github.com/gitpython-developers/GitPython)-Paket auf dem eigenen Computer installiert ist, wird der Addon-Manager davon Gebrauch machen, was das Herunterladen beschleunigt.
+-   Die Erweiterungen können auch manuell installiert werden. Siehe [Wie man zusätzliche Arbeitsbereiche installiert](How_to_install_additional_workbenches/de.md) und [Wie man Makros installiert](How_to_install_macros/de.md).
 
 ## Informationen für Entwickler 
 
-See [Addon](Addon#Information_for_developers.md).
+Siehe [Erweiterung](Addon/de#Informationen_für_Entwickler.md).
 
 
 

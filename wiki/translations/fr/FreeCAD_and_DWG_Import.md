@@ -24,13 +24,17 @@ Téléchargez et décompressez le [binaire Windows précompilé](https   *//gith
 
 #### Installation sous des systèmes Linux/Unix 
 
-git clone [https   *//git.savannah.gnu.org/git/libredwg.git](https   *//git.savannah.gnu.org/git/libredwg.git)
-cd libredwg
-mkdir build
-cd build
-cmake ..
+
+{{Code|lang=shell|code=
+git clone --Récupération des sous-modules https   *//git.savannah.gnu.org/git/libredwg.git
+cd libredwg
+mkdir build
+cd build
+cmake ..
 make
-make install (ou utiliser checkinstall, ou simplement localiser & copier l'utilitaire dwg2dxf dans le chemin de vos exécutables, il sera alors autodétecté par FreeCAD)
+make install # ou utiliser checkinstall, ou simplement localiser et copier l'utilitaire dwg2dxf 
+             # dans le chemin de vos exécutables, il sera alors autodétecté par FreeCAD.
+}}
 
 Vous devez définir manuellement le chemin d\'accès à l\'exécutable. Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md).
 
@@ -40,7 +44,7 @@ Pour éviter les problèmes, vous devez utiliser le paquetage LibreDWG compilé 
 
 L\'utilisateur plus expérimenté obtient d\'abord un aperçu des paquets possibles fournis. **Remarque   *** openSUSE a plusieurs options à choisir lors du téléchargement de LibreDWG. Pour voir ces options, allez sur [Survey of provided LibreDWG packages on openSUSE](https   *//software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=libredwg).
 
-Pour les ordinateurs de bureau, les ordinateurs portables et les serveurs Intel ou AMD 64 bits, la version (x86\_64) est à choisir. Ainsi, **libredwg0** et **libredwg-tools** sont le bon choix à installer.
+Pour les ordinateurs de bureau, les ordinateurs portables et les serveurs Intel ou AMD 64 bits, la version (x86_64) est à choisir. Ainsi, **libredwg0** et **libredwg-tools** sont le bon choix à installer.
 
 Il est recommandé de récupérer les paquets binaires directement. Sélectionnez ensuite la distribution appropriée pour votre OS openSUSE installé.
 
@@ -115,7 +119,7 @@ Dans la version de développement comme mentionné ci-dessus, vous pouvez passer
 
  
 
-[Category   *File\_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
+[Category   *File_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
 
 
 

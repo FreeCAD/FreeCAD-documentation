@@ -21,11 +21,11 @@ Creates an initial temperature constraint for a thermo-mechanical analysis.
 
 ## Limitations
 
-The constraint applies the initial temperature to all nodes in the FEA model
+This constraint applies the initial temperature to all nodes in the FEA model - it\'s not possible to select individual regions.
 
 ## Notes
 
-1.  The constraint uses the \*\*INITIAL CONDITIONS card in CalculiX. The initial temperature constraint is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
+-   This constraint uses the \*INITIAL CONDITIONS card in CalculiX. The initial temperature constraint is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
 
 
 

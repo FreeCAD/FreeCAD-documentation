@@ -145,7 +145,11 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Utwórz rowek \...](Sketcher_CreateSlot.md)   * Rysuje owal, wybierając środek jednego półkola i punkt końcowy drugiego półkola.
 
--   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Zaokrąglenie](Sketcher_CreateFillet/pl.md)   * Tworzy zaokrąglenie między dwiema liniami połączonymi w jednym punkcie. Zaznacz obie linie lub kliknij punkt narożny, a następnie aktywuj narzędzie.
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Komponent zaokrąglenie](Sketcher_CompCreateFillets/pl.md)   * Jest to menu ikon na pasku narzędziowym Szkicownika, które zawiera następujące polecenia   *
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Utwórz zaokrąglenie](Sketcher_CreateFillet/pl.md)   * Tworzy zaokrąglenie między dwiema liniami, które nie są równoległe.
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Utwórz zaokrąglenie z zachowaniem wiązań](Sketcher_CreatePointFillet/pl.md)   * Tworzy zaokrąglenie pomiędzy dwoma liniami które nie są równoległe, zachowując ich *(wirtualny)* punkt przecięcia.
 
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width   *32px;"> [Przytnij krawędź](Sketcher_Trimming/pl.md)   * Przycina linię, okrąg lub łuk w odniesieniu do klikniętego punktu.
 

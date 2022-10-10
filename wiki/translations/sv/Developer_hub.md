@@ -109,7 +109,7 @@ The development of a new solver architecture could improve the way the solver is
 
 FreeCAD, though usable in certain areas, is at the beginning of a long way into the CAD mainstream. There is still a lot to do to reach a state where we can compete with commercial software.
 
-[0.20 Development Cycle](0.20_Development_Cycle.md)
+[FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
 ## Community
 

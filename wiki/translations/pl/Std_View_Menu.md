@@ -125,7 +125,7 @@ W tym menu dostępne są następujące narzędzia   *
 -   Paski narzędzi **-- Każdy pasek narzędzi można włączyć lub wyłączyć w menu podrzędnym. Niektóre Środowiska pracy dodają swoje własne paski narzędziowe.**
     -   Plik.
     -   Środowisko pracy.
-    -   Makro.
+    -   Makrodefinicje.
     -   Widok.
     -   Struktura.
 
@@ -134,9 +134,9 @@ W tym menu dostępne są następujące narzędzia   *
     -   [Widok drzewa](Tree_view/pl.md).
     -   [Właściwości widoku](Property_editor/pl.md).
     -   [Wybór widoku](Selection_view/pl.md).
-    -   [Widok złożony](Combo_view/pl.md).
+    -   [Widok połączony](Combo_view/pl.md).
     -   [Konsola Python](Python_console/pl.md).
-    -   [Widok DAG](DAG_view/pl.md).
+    -   [Widok DAG](DAG_view/pl.md), funkcja eksperymentalna dla programistów.
 
 -   Działania w zakresie widoku drzewa. {{Version/pl|0.19}}
     -   <img alt="" src=images/Std_TreeSyncView.svg  style="width   *32px;"> [Widok synchroniczny](Std_TreeSyncView/pl.md)   * Przełącza [TWidok drzewa](Tree_view/pl.md) w tryb Widok synchroniczny. {{Version/pl|0.19}}

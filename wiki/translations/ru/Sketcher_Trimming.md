@@ -33,7 +33,13 @@
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

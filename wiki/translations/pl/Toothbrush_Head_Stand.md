@@ -1,43 +1,59 @@
-# Toothbrush Head Stand/pl
 ---
-- TutorialInfo   *   Topic   *Modeling   Level   *Beginner   Author   *[[User   *EmmanuelG   EmmanuelG]]|Time   *1 hour   FCVersion   *0.16 or greater   Files   *[https   *//www.thingiverse.com/thing   *2403310 Thingiverse 2403310]}}
+- TutorialInfo   */pl
+   Topic   *Modelowanie
+   Level   *Początkujący
+   Author   *[EmmanuelG](User_EmmanuelG.md)
+   Time   *1 godzina
+   FCVersion   *0.16 lub nowszy
+   Files   *[https   *//www.thingiverse.com/thing   *2403310 Thingiverse 2403310]
+---
+
+# Toothbrush Head Stand/pl
+
+
+
+
 
 ## Problem z życia codziennego 
 
-Electric toothbrushes rarely come with a head stand, while in a family you will often see multiple heads used with one body. Many people facing a common problem lead us to a variety of solutions, as you can see on Thingiverse (200-800 projects are related to that). Here is the first answer and how to design it.
+Elektryczne szczoteczki do zębów rzadko występują ze stojakiem na główkę, natomiast w rodzinie często można zobaczyć wiele główek używanych z jednym korpusem. Wiele osób borykających się ze wspólnym problemem prowadzi nas do różnych rozwiązań, co można zobaczyć na Thingiverse *(200-800 projektów jest związanych z tym tematem)*. Oto pierwsza odpowiedź i jak ją zaprojektować.
 
-This tutorial will take you through the steps needed to model the part shown in the image below using basic tools from the [Part Design Workbench](PartDesign_Workbench.md) (many of the tools and capabilities are not covered).
+Ten poradnik przeprowadzi Cię przez proces wymodelowania części pokazanej na poniższym obrazku przy użyciu podstawowych narzędzi ze środowiska [Projekt Części](PartDesign_Workbench/pl.md) *(wiele narzędzi i możliwości nie zostało omówionych)*.
 
 ![](images/TBHS-model.png )
 
-## First idea    * a plate 
+## Pierwszy pomysł   * płyta 
 
--   From the start-page, select ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design*, or create a new document and select the *Part Design* workbench.
+-   Na stronie startowej wybierz ![](images/Workbench_PartDesign.svg ) *Projekt Części* lub utwórz nowy dokument i wybierz środowisko *Projekt Części*.
 
 ![](images/TBHS-0.png )
 
-### Create a sketch 
+![](images/TBHS-0.png )
 
--   Click on <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> [**New sketch**](Sketcher_NewSketch.md). Either from the contextual task menu at the left, or the toolbar above or from the Part Design menu at the top.
+## Utwórz szkic 
+
+-   Kliknij na <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> [**Nowy szkic**](Sketcher_NewSketch/pl.md). Albo z menu podrzędnego w oknie zadania po lewej stronie, albo z paska narzędziowego powyżej, albo z menu Projekt Części na górze.
+
+[800px\|center](Plik   *TBHS-1.JPG.md)
 
 <img alt="" src=images/TBHS-1.JPG  style="width   *800px;">
 
-A dialog prompts you to choose the sketch orientation and provide an offset.
+W oknie dialogowym zostanie wyświetlony monit o wybranie orientacji szkicu i podanie odsunięcia.
 
--   We will pick the XY Plane as shown in the image above (that orientation correspond to the common build plate of most 3D printers), then click OK.
+-   Wybierzemy Płaszczyznę XY jak na powyższym obrazku *(ta orientacja odpowiada wspólnej płycie konstrukcyjnej większości drukarek 3D)*, a następnie kliknij OK.
 
 <img alt="" src=images/TBHS-2.JPG  style="width   *800px;">
 
-You now are facing the XY plane from above, and have access to the drawing tools.
+Jesteś teraz zwrócony do płaszczyzny XY z góry i masz dostęp do narzędzi kreślarskich.
 
--   Click on <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;"> [**Rectangle**](Sketcher_CreateRectangle.md).
--   Click to place a first point.
--   Click to place the opposite corner.
--   Press **ESC** or click the right mouse button to stop using the tool.
+-   Kliknij narzędzie <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;"> [**Utwórz prostokąt**](Sketcher_CreateRectangle/pl.md)
+-   Kliknij, aby umieścić pierwszy punkt.
+-   Kliknij, aby umieścić przeciwległy narożnik.
+-   Naciśnij **ESC** lub kliknij prawym przyciskiem myszy, aby zakończyć korzystanie z narzędzia.
 
 <img alt="" src=images/TBHS-3.JPG  style="width   *800px;">
 
-You now have a floating rectangle of unspecified dimensions.
+Masz teraz pływający prostokąt o nieokreślonych wymiarach.
 
 -   Click on a line of the rectangle, you now have access to the constraint tools at the right of the toolbar (depending of the size of your screen you may need to drag them to the left in order to see them all)
 -   Click on <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
@@ -46,7 +62,7 @@ You now have a floating rectangle of unspecified dimensions.
 
 <img alt="" src=images/TBHS-4.JPG  style="width   *800px;">
 
-You now have a floating square.
+Masz teraz ruchomy kwadrat.
 
 -   Click on the lower left point of the square.
 -   Click on the origin of the XY plane (at the intersection of the two thick lines).
@@ -56,7 +72,9 @@ You now have a floating square.
 
 You now have a totally constrained sketch, as you are told by the solver on the left and the change of color. It is a good practice to always have a totally constrained sketch.
 
-An under-constrained sketch can leave room for unwanted change, if you modify something later on. On the opposite, an over-constrained sketch is also not good. In that case the solver warn you of redundant constraints and you should remove some of them.
+An under-constrained sketch can leave room for unwanted change, if you modify something later on.
+
+On the opposite, an over-constrained sketch is also not good. In that case the solver warn you of redundant constraints and you should remove some of them.
 
 -   To leave the sketch, click either on the \"Close\" button on the left, or the <img alt="" src=images/Sketcher_LeaveSketch.png  style="width   *32px;"> icon in the toolbar, or press **ESC**.
 
@@ -149,7 +167,7 @@ Much better.
 
 ### Making it more robust 
 
-We need to add material at the base of the cylinders to make them less prone to snap. Because of the printing orientation these small surfaces will be fragile at the junction with the base.
+We need to add material at the base of the cylinders to make them less prone to snap. Because of the printing orientation these small surfaces will be fragile at the junction with the base.
 
 -   Select the circles at the base of the cylinders
 
@@ -401,7 +419,7 @@ Chamfer = left / Draft = right
 
 <img alt="" src=images/TBHS2-30-chamfer.JPG  style="width   *200px;"><img alt="" src=images/TBHS2-30-draft.JPG  style="width   *200px;">
 
-### Finitions
+### Finishes
 
 -   Holding **CTRL** select the bottom and top faces.
 
@@ -423,8 +441,7 @@ Perfect !
 -   Print it instead of the first version or to replace it if it eventually broke ;-)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}} {{Userdocnavi
----
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 

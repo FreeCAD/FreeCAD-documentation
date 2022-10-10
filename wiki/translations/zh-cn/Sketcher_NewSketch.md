@@ -47,7 +47,13 @@
 
 ## 备注
 
+
+<div class="mw-translate-fuzzy">
+
 通过[映射草图（Map Sketch） - 命令可将草图重新映射至另一存在的面上](Sketcher_MapSketch.md)。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

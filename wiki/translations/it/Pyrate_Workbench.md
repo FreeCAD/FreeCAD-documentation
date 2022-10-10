@@ -6,11 +6,11 @@
 
 {{TOCright}}
 
-Pyrate or pyrate optics is an optical raytracing core written completely in Python. It is supposed to provide as much as functionality like commercial optical design software. The workbench is intended as an easy to use FreeCAD interface for that purpose. Since a large refactor in 2017 the interface is mostly broken. Therefore the raytracer is only usable at the script level without good integration into FreeCAD. Although the Python interface provides functions to create, optimize and modify optical systems and therefore these capabilities are also available to FreeCAD.
+Pyrate o pyrate optics è un core di raytracing ottico scritto completamente in Python. Dovrebbe fornire la stessa funzionalità di un software di progettazione ottica commerciale. L\'ambiente di lavoro è inteso come un\'interfaccia di FreeCAD facile da usare a tale scopo. Dato che è stato fatto un grande refactoring nel 2017, l\'interfaccia per lo più non funziona. Pertanto il raytracer è utilizzabile solo a livello di script senza una buona integrazione in FreeCAD. Sebbene l\'interfaccia Python fornisca funzioni per creare, ottimizzare e modificare i sistemi ottici, queste capacità sono disponibili anche per FreeCAD.
 
-## Install
+## Installazione
 
-This workbench is a new style workbench. This means it is intended to install it by the AddOnInstaller with pip for FreeCAD versions \>= 0.18.
+Questo ambiente è di nuovo stile. Ciò significa che è destinato ad essere installato da AddOnInstaller con pip per le versioni di FreeCAD \>= 0.18.
 
 
 

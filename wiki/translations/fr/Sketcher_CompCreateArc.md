@@ -3,7 +3,7 @@
    Name   *Sketcher Arcs
    Name/fr   *Sketcher Arcs
    Icon   *Sketcher_CompCreateArc.png
-   MenuLocation   *Barre d'outils seulement
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
 ---
 

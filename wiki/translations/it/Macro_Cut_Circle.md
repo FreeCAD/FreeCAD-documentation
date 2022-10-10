@@ -17,15 +17,9 @@ Questa macro suddivide un cerchio(i) o arco(i) in archi, gli archi possono esser
 <img alt="" src=images/Macro_CutCircle_00.png  style="width   *400px;"> 
 *CutCircle*
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Copiare la macro **cutCirle** completa nella console Python di FreeCAD, selezionare il cerchio(i) e/o l\'arco(i) poi digitare nella console   *
-
-
-</div>
 
 per vedere i cerchi e gli archi tagliati, come in questo esempio, in 5 archi contigui.
 
@@ -35,7 +29,7 @@ Gli oggetti originali non vengono eliminati.
 
 ToolBar Icon ![](images/Macro_Cut_Circle.png )
 
-**Macro\_Cut\_Circle.FCMacro**
+**Macro_Cut_Circle.FCMacro**
 
 
 {{MacroCode|code=

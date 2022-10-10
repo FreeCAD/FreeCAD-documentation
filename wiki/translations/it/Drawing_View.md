@@ -46,13 +46,14 @@ Per generare automaticamente un foglio di disegno con viste standard, utilizzare
 Per commutare la vista 3D tra ortogonale e prospettica selezionare [Vista in prospettivo](Std_PerspectiveCamera/it.md) o [Vista ortografica](Std_OrthographicCamera/it.md)
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Nuovo disegno A3 orizzontale](Drawing_Landscape_A3/it.md)|[Annotazione](Drawing_Annotation/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Landscape_A3.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Annotation.png}}
-
-
-</div>
+{{docnav/it
+|[Nuovo disegno A3 orizzontale](Drawing_Landscape_A3/it.md)
+|[Annotazione](Drawing_Annotation/it.md)
+|[Drawing](Drawing_Workbench/it.md)
+|IconL=Drawing_Landscape_A3.png
+|IconC=Workbench_Drawing.svg
+|IconR=Drawing_Annotation.png
+}}
 
 
 {{Drawing Tools navi
@@ -62,4 +63,4 @@ Per commutare la vista 3D tra ortogonale e prospettica selezionare [Vista in pro
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/it

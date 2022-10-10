@@ -7,7 +7,7 @@ distcc is a free distributed C/C++ compiler system. Essentially it\'s a program 
 
 FreeCAD dev \'etrombly\' has published a short explanation on [how to install distcc to compile FreeCAD on a network of computers using Docker](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=50810&p=459142#p458614).
 
-### Related Links 
+## Related Links 
 
 -   [Official distcc website](https   *//distcc.github.io/)
 -   [Compiling (Speeding up)](Compiling_(Speeding_up).md)

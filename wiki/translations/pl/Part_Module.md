@@ -20,7 +20,7 @@ Obiekty części są bardziej złożone niż obiekty siatkowe utworzone przy uż
 
 *Środowisko pracy Część jest podstawową warstwą, która udostępnia funkcje rysowania '''OCCT''' dla każdego środowiska pracy w programie FreeCAD.*
 
-### Narzędzia
+## Narzędzia
 
 Wszystkie narzędzia zostały umieszczone w menu głównym środowiska pracy **Część**, lub menu **Wymiarowanie**.
 
@@ -96,7 +96,7 @@ Są to narzędzia do tworzenia i modyfikacji istniejących obiektów.
 
 -   <img alt="" src=images/Part_EditAttachment.svg  style="width   *32px;"> [Edycja mocowania](Part_EditAttachment/pl.md)   * jest to narzędzie służące do dołączania obiektu do innego obiektu.
 
-#### Narzędzia do przeprowadzania operacji logicznych 
+### Narzędzia do przeprowadzania operacji logicznych 
 
 Narzędzia te wykonują operacje logiczne.
 
@@ -126,21 +126,19 @@ Narzędzia te wykonują operacje logiczne.
 
 ### Pomiary
 
-<img alt="" src=images/Part_Measure_Menu.png  style="width   *64px;"> [Menu pomiary](Part_Measure_Menu.md)   * umożliwia wykonywanie pomiarów liniowych i kątowych pomiędzy punktami, krawędziami i ścianami.
+-   <img alt="" src=images/Part_Measure_Linear.svg  style="width   *32px;"> [Pomiar liniowy](Part_Measure_Linear/pl.md)   * pozwala na wykonywanie pomiarów wzdłuż linii.
 
--   <img alt="" src=images/Part_Measure_Linear.svg  style="width   *32px;"> [Pomiar liniowy](Part_Measure_Linear.md)   * pozwala na wykonywanie pomiarów wzdłuż linii.
+-   <img alt="" src=images/Part_Measure_Angular.svg  style="width   *32px;"> [Pomiar kąta](Part_Measure_Angular/pl.md)   * pozwala na wykonywanie pomiarów nachylenia linii prostej.
 
--   <img alt="" src=images/Part_Measure_Angular.svg  style="width   *32px;"> [Pomiar kąta](Part_Measure_Angular.md)   * pozwala na wykonywanie pomiarów nachylenia linii prostej.
+-   <img alt="" src=images/Part_Measure_Refresh.svg  style="width   *32px;"> [Odnów pomiary](Part_Measure_Refresh/pl.md)   * aktualizuje widok 3D, aby wyświetlić wszystkie utworzone pomiary.
 
--   <img alt="" src=images/Part_Measure_Refresh.svg  style="width   *32px;"> [Odnów pomiary](Part_Measure_Refresh.md)   * aktualizuje widok 3D, aby wyświetlić wszystkie utworzone pomiary.
+-   <img alt="" src=images/Part_Measure_Clear_All.svg  style="width   *32px;"> [Wyczyść wszystko](Part_Measure_Clear_All/pl.md)   * usuwa wszystkie pomiary.
 
--   <img alt="" src=images/Part_Measure_Clear_All.svg  style="width   *32px;"> [Wyczyść wszystko](Part_Measure_Clear_All.md)   * usuwa wszystkie pomiary.
+-   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width   *32px;"> [Przełacz widoczność](Part_Measure_Toggle_All/pl.md)   * pokazuje lub ukrywa widoczność wszystkich pomiarów.
 
--   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width   *32px;"> [Przełacz widoczność](Part_Measure_Toggle_All.md)   * pokazuje lub ukrywa widoczność wszystkich pomiarów.
+-   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width   *32px;"> [Pokaż wybrane](Part_Measure_Toggle_3D/pl.md)   * narzędzie to przełącza widoczność pomiarów liniowych *(kolor zielony)* i kątowych *(kolor niebieski)*.
 
--   <img alt="" src=images/Part_Measure_Toggle_3d.svg  style="width   *32px;"> [Pokaż wybrane](Part_Measure_Toggle_3d.md)   * narzędzie to przełącza widoczność pomiarów liniowych *(kolor zielony)* i kątowych *(kolor niebieski)*.
-
--   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *32px;"> [Przełącz deltę](Part_Measure_Toggle_Delta.md)   * narzędzie to przełącza widoczność pomiarów delta *(kolor zielony)*.
+-   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *32px;"> [Przełącz deltę](Part_Measure_Toggle_Delta/pl.md)   * narzędzie to przełącza widoczność pomiarów delta *(kolor zielony)*.
 
 ### Pozostałe narzędzia 
 
@@ -180,7 +178,7 @@ Narzędzia te wykonują operacje logiczne.
 -   <img alt="" src=images/Preferences-import-export.svg  style="width   *32px;"> [Ustawienia import - eksport](Import_Export_Preferences/pl.md)   * preferencje dostępne przy imporcie z i eksporcie do różnych formatów plików.
 -   [Dostrajanie parametrów](Fine-tuning/pl.md)   * kilka dodatkowych parametrów, aby dostosować zachowanie środowiska pracy Część.
 
-### Tworzenie skryptów 
+## Tworzenie skryptów 
 
 Zobacz również   * [skrypty dla środowiska Część](Part_scripting/pl.md)
 

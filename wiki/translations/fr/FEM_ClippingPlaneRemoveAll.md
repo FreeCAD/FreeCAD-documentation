@@ -11,9 +11,11 @@
 
 ## Description
 
-A faire
+Supprime tous les [Plans de coupe](FEM_ClippingPlaneAdd/fr.md) existants.
 
 ## Utilisation
+
+Utilisez le bouton de la barre d\'outils <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *16px;"> ou le menu {{MenuCommande|Utilitaires → <img src="images/FEM_ClippingPlaneRemoveAll.svg" width=16px> Supprimer tous les plans de coupe}}.
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand   *
    Name   *Sketcher Arcs
    Icon   *Sketcher_CompCreateArc.png
-   MenuLocation   *None (toolbar only) 
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench.md)
 ---
 

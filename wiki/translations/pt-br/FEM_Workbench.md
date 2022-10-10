@@ -17,6 +17,9 @@ A [ bancada FEM](FEM_Workbench/pt-br.md) fornece um fluxo de trabalho moderno de
 
 ## Fluxo de Trabalho 
 
+
+<div class="mw-translate-fuzzy">
+
 Os passos para realizar uma análise de elementos finitos são   *
 
 1.  Pré-processamento   * configurar o problema de análise.
@@ -25,7 +28,10 @@ Os passos para realizar uma análise de elementos finitos são   *
         1.  Adicionando restrições de simulação, como cargas e suportes fixos ao modelo geométrico.
         2.  Adicionando materiais às partes do modelo geométrico.
         3.  Criando uma malha de elementos finitos para o modelo geométrico ou importando-os de um aplicativo diferente.
-2.  Resolvendo   * executando um solucionador externo de dentro do FreeCAD.\# Pós-processamento   * visualizar os resultados da análise a partir do FreeCAD ou exportar os resultados para que possam ser pós-processados com outra aplicação.
+2.  Resolvendo   * executando um solucionador externo de dentro do FreeCAD.# Pós-processamento   * visualizar os resultados da análise a partir do FreeCAD ou exportar os resultados para que possam ser pós-processados com outra aplicação.
+
+
+</div>
 
 A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de trabalho usa solucionadores externos, a quantidade de configuração manual dependerá do sistema operacional que você está usando. Veja [ Instalação da FEM](FEM_Install/pt-br.md) para instruções sobre como configurar as ferramentas externas.
 
@@ -84,7 +90,15 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 ### Restrições do Fluido 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Restrição de velocidade inicial do fluxo](FEM_ConstraintInitialFlowVelocity/pt-br.md)   *
+
+
+</div>
+
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md)   * Used to define an initial pressure for the body. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width   *32px;"> [Restrição da velocidade de fluxo](FEM_ConstraintFlowVelocity/pt-br.md)
 
@@ -150,7 +164,13 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 ### Sobreescrever Restrições 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Permissividade de vácuo constante](FEM_ConstantVacuumPermittivity/pt-br.md)   * <small>(v0.19)</small> 
+
+
+</div>
 
 ## Menu   * Malhas 
 
@@ -204,17 +224,53 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Equação de elasticidade](FEM_EquationElasticity/pt-br.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Equação da força elétrica](FEM_EquationElectricforce/pt-br.md)   * <small>(v0.19)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Equação eletrostática](FEM_EquationElectrostatic/pt-br.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Equação de fluxo](FEM_EquationFlow/pt-br.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Equação de solucionador de fluxo](FEM_EquationFlux/pt-br.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Equação de calor](FEM_EquationHeat/pt-br.md)
+
+
+</div>
 
 -   <img alt="" src=images/FEM_SolverControl.svg  style="width   *32px;"> [Solucionador do controle de trabalho](FEM_SolverControl/pt-br.md)   * Abre
 
@@ -310,6 +366,10 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 </div>
 
+   ** <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md)   * Defines that the result mesh is cut with a plane.
+
+   ** <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md)   * Defines that the result mesh is cut with a sphere.
+
 ## Menu   * Utilidades 
 
 
@@ -372,11 +432,29 @@ Tutorial 3   * [FEM Tutorial Python](FEM_Tutorial_Python/pt-br.md); montar o exe
 
 Tutorial 4   * [FEM Corte de um Bloco Composto](FEM_Shear_of_a_Composite_Block/pt-br.md); ver a deformação de um bloco que é composto de dois materiais.
 
+
+<div class="mw-translate-fuzzy">
+
 Tutorial 5   * [Análise FEM transitória](Transient_FEM_analysis/pt-br.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Tutorial 6   * [Pós-processamento dos resultados FEM com Paraview](Post-Processing_of_FEM_Results_with_Paraview/pt-br.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Tutorial 7   * [Exemplo FEM Capacitância Duas Bolas](FEM_Example_Capacitance_Two_Ball.md); Elmer\'s GUI tutorial 6 \" Capacitância Eletrostática Duas Bolas\" usando exemplos FEM.
+
+
+</div>
 
 Acoplamento de tutoriais de análise mecânica térmica por [openSIM](https   *//opensimsa.github.io/training.html)
 
@@ -390,7 +468,13 @@ Muitos tutoriais em vídeo   * [anisim Software de Engenharia de Código Aberto]
 
 O bancada de trabalho FEM está em constante desenvolvimento. Um objetivo do projeto é encontrar maneiras de interagir facilmente com vários solucionadores FEM, para que o usuário final possa agilizar o processo de criação, enredamento, simulação e otimização de um problema de projeto de engenharia, tudo dentro do FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 As seguintes informações são destinadas aos usuários e desenvolvedores que desejam ampliar o Workbench FEM de diferentes maneiras. A familiaridade com C++ e Python é esperada, e também é necessário algum conhecimento do sistema \"objeto de documento\" usado no FreeCAD; esta informação está disponível no [Documentação para usuários avançados](Power_users_hub/pt-br.md) e no [Documentação para desenvolvedores](Developer_hub/pt-br.md).Observe que, como o FreeCAD está em desenvolvimento ativo, alguns artigos podem ser muito antigos e, portanto, obsoletos. As informações mais atualizadas são discutidas no [FreeCAD forums](https   *//forum.freecadweb.org/index.php) na seção Desenvolvimento. Para discussões FEM, conselhos ou assistência na ampliação do workbench, o leitor deve consultar o [FEM subforum](https   *//forum.freecadweb.org/viewforum.php?f=18).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

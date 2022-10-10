@@ -2,15 +2,11 @@
 - GuiCommand   */it
    Name   *Std DemoMode
    Name/it   *Visualizza rotazione oggetti
-   Empty   *1
    MenuLocation   *Strumenti → Visualizza rotazione oggetti...
    Workbenches   *Tutti
 ---
 
 # Std DemoMode/it
-
-
-</div>
 
 ## Descrizione
 
@@ -21,10 +17,7 @@ Il comando **Visualizza rotazione oggetti** ruota continuamente la telecamera in
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare l\'opzione **Strumenti → Visualizza rotazione oggetti...** dal menu.
+1.  Selezionare l\'opzione **Strumenti →  <img src="images/Std_DemoMode.svg" width=16px> Visualizza rotazione oggetti...** dal menu.
 2.  Viene visualizzata la finestra di dialogo Visualizza rotazione oggetti.
 3.  Spostare il cursore **Angolo** per inclinare la rotazione virtuale della videocamera.
 4.  Spostare il cursore **Velocità** per regolare la velocità di rotazione della videocamera.
@@ -36,21 +29,12 @@ Il comando **Visualizza rotazione oggetti** ruota continuamente la telecamera in
 10. Facoltativamente, modificare le impostazioni e riavviare.
 11. Premere il pulsante **Chiudi** per chiudere la finestra di dialogo.
 
-
-</div>
-
 ## Note
 
 -   Per ulteriori informazioni sulla modalità a schermo intero, consultare il comando [Vista 3D a schermo intero](Std_ViewFullscreen/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

@@ -40,15 +40,43 @@ Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Groupe de projec
 
 ## Propriétés
 
--    **Anchor**   * La vue de référence (centrale) dans le groupe. Normalement, la vue de face.
+### Données
 
--    **ProjectionType**   * \"Premier Angle (Premier dièdre)\" ou \"Troisième Angle (Troisième dièdre)\".
 
--    **AutoDistribute**   * Si la valeur est sur \"True\", espace les vues individuelles automatiquement. Utilisez \"False\" pour positionner les vues manuellement.
+{{TitleProperty|Base}}
 
--    **spacingX**   * Espace horizontal entre les vues si le positionnement automatique est demandé. Notez que l\'échelle et la taille des autres vues du groupe influencent également l\'espacement.
+-    **Source|LinkList**   * liens vers les objets dessinables à représenter.
 
--    **spacingY**   * Espace vertical entre les vues si le positionnement automatique est demandé.
+-    **XSource|XLLinkList**   * liens vers les objets dessinables dans un fichier externe. {{Version/fr|0.19}}
+
+-    **Anchor|Link**   * vue centrale du groupe. Normalement, il s\'agit de la vue de face.
+
+-    **ProjectionType|Enumeration**   * {{Value|First Angle}} ou {{Value|Third Angle}}.
+
+Pour les autres propriétés de ce groupe, voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md).
+
+
+{{TitleProperty|Collection}}
+
+-    **Views|LinkList**   * liens vers les vues de ce Groupe de projections.
+
+
+{{TitleProperty|Distribute}}
+
+-    **Auto Distribute|Bool**   * si `True`, espace automatiquement les vues individuelles. Utilisez `False` pour un positionnement manuel.
+
+-    **spacing X|Length**   * espace horizontal entre les vues lorsqu\'elles sont positionnées automatiquement. Notez que l\'échelle et la taille des autres vues du groupe influencent également l\'espacement.
+
+-    **spacing Y|Length**   * espace vertical entre les vues lorsqu\'elles sont positionnées automatiquement.
+
+### Vue
+
+
+{{TitleProperty|Base}}
+
+Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+
+## Remarques
 
 Groupe de projections dans son ensemble hérite de X, Y, ScaleType, Scale (Échelle) et Rotation à partir de la vue de base.
 

@@ -44,7 +44,7 @@ The material editor can currently be accessed by either   *
 
 -    **Delete property**   * Deletes a selected property. Only custom properties can be deleted
 
-Note   *
+## Notes
 
 -   The **OK** and **Cancel** buttons have the same effect when the Material editor is not used to edit directly the material property of an existing object.
 

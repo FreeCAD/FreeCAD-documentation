@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet eine Linie durch das Setzen zweier Punkte in der 3D-Ansicht. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Liniensymbol. Die Koordinaten werden in Echtzeit neben dem Mauszeiger angezeigt.
+Dieses Werkzeug zeichnet eine Linie durch das Setzen zweier Punkte in der [3D-Ansicht](3D_view/de.md). Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Liniensymbol. Die Koordinaten werden in Echtzeit neben dem Mauszeiger angezeigt.
 
 ![](images/Sketcher_LineExample1.png‎ )
 
@@ -20,7 +20,7 @@ Das erzeugte Linienobjekt beginnt und endet an den gegebenen Punkten, aber die L
 
 ## Anwendung
 
--   Die Punkte in einem leeren Bereich der 3D-Ansicht setzen, oder an einem bestehenden Objekt auswählen (Automatische Randbedingungen müssen im Aufgabenbereich aktiviert sein)
+-   Die Punkte in einem leeren Bereich der 3D-Ansicht setzen, oder an einem bestehenden Objekt auswählen (Automatische Randbedingungen müssen im [Aufgabenbereich](Task_panel/de.md) aktiviert sein)
 -   Das Drücken von **Esc** oder ein Klick mit der rechten Maustaste bricht die Funktion ab.
 
 

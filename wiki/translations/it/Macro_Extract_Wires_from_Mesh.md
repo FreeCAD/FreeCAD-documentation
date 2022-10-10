@@ -17,9 +17,9 @@ Trova i contorni di wire negli oggetti mesh selezionati. I contorni wire sono fo
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Extract_Wires_from_Mesh.png )
+Icona barra strumenti ![](images/Macro_Extract_Wires_from_Mesh.png )
 
-**Macro\_Extract\_Wires\_from\_Mesh.FCMacro**
+**Macro_Extract_Wires_from_Mesh.FCMacro**
 
 
 {{MacroCode|code=

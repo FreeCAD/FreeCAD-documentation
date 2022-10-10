@@ -43,31 +43,7 @@ Lo strumento Simbolo inserisce un file [SVG](SVG/it.md) nella pagina. Questo sim
 
 ## Properties
 
-
-{{TitleProperty|Base}}
-
-See [TechDraw View](TechDraw_View#Properties.md)
-
--    **X**
-    
-
--    **Y**
-    
-
--    **Lock Position**
-    
-
--    **Rotation**
-    
-
--    **Scale Type**
-    
-
--    **Scale**
-    
-
--    **Caption**
-    
+See also [TechDraw View](TechDraw_View#Properties.md).
 
 
 {{TitleProperty|Drawing view}}

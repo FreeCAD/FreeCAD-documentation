@@ -11,13 +11,13 @@
 
 ## Descripción
 
-The **[<img src=images/Spreadsheet_MergeCells.svg style="width   *16px"> [Spreadsheet MergeCells](Spreadsheet_MergeCells.md)** tool merges at least two selected cells in an existing spreadsheet in the active document.
+La herramienta **[<img src=images/Spreadsheet_MergeCells.svg style="width   *16px"> [Hoja de cálculo UnirCeldas](Spreadsheet_MergeCells/es.md)** une al menos dos celdas seleccionadasen una hoja de cálculo existente en el documento activo.
 
 ## Uso
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select at least two contiguous cells.
-3.  Press the **[<img src=images/Spreadsheet_MergeCells.svg style="width   *16px"> [Spreadsheet MergeCells](Spreadsheet_MergeCells.md)** button.
+1.  Asegúrate de que hay una **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [Hoja de cálculo](Spreadsheet_CreateSheet/es.md)** activa abierta para que el botón esté habilitado.
+2.  Seleccione al menos dos celdas contiguas.
+3.  Pulse el botón **[<img src=images/Spreadsheet_Export.svg style="width   *16px"> [Hoja de cálculo UnirCeldas](Spreadsheet_MergeCells/es.md)**.
 
 
 

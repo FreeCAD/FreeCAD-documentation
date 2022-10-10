@@ -23,6 +23,10 @@ L\'outil <img alt="" src=images/TechDraw_ShareView.svg  style="width   *24px;"> 
 3.  Une boîte de dialogue s\'ouvre pour vous permettre de sélectionner une Vue, de la Page de départ et à la Page d\'arrivée.
 4.  Appuyez sur le bouton **OK**.
 
+## Remarques
+
+Il n\'y a qu\'un seul objet Vue après l\'opération de partage. Toute modification apportée à la vue sera répercutée sur les deux pages. Si la vue est supprimée d\'une page, elle sera également supprimée de l\'autre.
+
 ## Script
 
 
@@ -38,10 +42,6 @@ import TechDrawTools
 #MoveView with a True parameter in the last position performs a copy
 TechDrawTools.MoveView(viewName, fromPageName, toPageName, True)
 ```
-
-## Remarques
-
-Il n\'y a qu\'un seul objet Vue après l\'opération de partage. Toute modification apportée à la vue sera répercutée sur les deux pages. Si la vue est supprimée d\'une page, elle sera également supprimée de l\'autre.
 
 
 

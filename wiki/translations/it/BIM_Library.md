@@ -12,13 +12,7 @@
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggetto della [Libreria di parti di FreeCAD](Parts_Library/it.md), che deve essere installata tramite <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr/it.md) per essere disponibile con questo strumento.
-
-
-</div>
+Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggetto della [Libreria di parti di FreeCAD](Parts_Library/it.md), che deve essere installata tramite <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr/it.md) per essere disponibile con questo strumento.
 
 <img alt="" src=images/BIM_Library_screenshot.png  style="width   *800px;"> 
 *Sopra   * vista della finestra di dialogo '''Browser della libreria''' nel [pannello delle azioni](Task_panel/it.md) a sinistra*

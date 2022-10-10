@@ -15,9 +15,15 @@ Mit dem Befehl **SkizzeVerlassen** wird der Skizzenbearbeitungsmodus verlassen u
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Es gibt mehrere Möglichkeiten, das Werkzeug SkizzeVerlassen aufzurufen   *
     -   Die Schaltfläche **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** drücken.
     -   Die Schaltfläche **Schließen** oben im [Aufgabenbereich](Task_panel/de.md) drücken.
+
+
+</div>
 
 
 

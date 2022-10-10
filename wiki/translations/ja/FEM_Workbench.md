@@ -17,6 +17,9 @@
 
 ## ワークフロー
 
+
+<div class="mw-translate-fuzzy">
+
 有限要素解析を実行する手順は次のとおりです。 ＃前処理：分析問題を設定する。
 
 1.  1.  ジオメトリのモデリング：FreeCADでジオメトリを作成するか、別のアプリケーションからジオメトリをインポートします。
@@ -26,6 +29,9 @@
         3.  解析モデルに材料を追加する。
 
 ＃Solving：FreeCAD内の外部ソルバーを使用して方程式系を解く。 ＃Postprocessing：FreeCAD内の解析結果を視覚化します。
+
+
+</div>
 
 FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォームで使用できます。 ワークベンチは外部ソルバーを使用するため、手動セットアップの量は使用しているオペレーティングシステムによって異なります。 外部ツールの設定方法については、[ FEM Installページを参照してください](FEM_Install.md)。
 
@@ -67,7 +73,9 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 ### 流体の制約
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)   * Used to define an initial flow velocity for the domain.
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)   * Used to define an initial flow velocity for the body.
+
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md)   * Used to define an initial pressure for the body. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width   *32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md)   * Used to define a flow velocity as a boundary condition at an edge (2D) or face (3D).
 
@@ -121,7 +129,7 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 ### Overwrite Constants 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)   * <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)   * Used to overwrite the [permittivity of vacuum](https   *//en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value. <small>(v0.19)</small> 
 
 ## メニュー：メッシュ
 
@@ -151,17 +159,17 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width   *32px;"> [Solver Z88](FEM_SolverZ88.md)   * Creates the solver controller for Z88. It is independent from other solver objects.
 
--   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Elasticity equation](FEM_EquationElasticity.md)   *
+-   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Elasticity equation](FEM_EquationElasticity.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform mechanical analyses.
 
--   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Electricforce equation](FEM_EquationElectricforce.md)   * <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Electricforce equation](FEM_EquationElectricforce.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate the electric force on surfaces. <small>(v0.19)</small> 
 
--   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Electrostatic equation](FEM_EquationElectrostatic.md)   *
+-   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Electrostatic equation](FEM_EquationElectrostatic.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform electrostatic analyses.
 
--   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Flow equation](FEM_EquationFlow.md)   *
+-   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Flow equation](FEM_EquationFlow.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform flow analyses.
 
--   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Flux equation](FEM_EquationFlux.md)   *
+-   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Flux equation](FEM_EquationFlux.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform flux analyses.
 
--   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Heat equation](FEM_EquationHeat.md)   *
+-   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Heat equation](FEM_EquationHeat.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform heat transfer analyses.
 
 -   <img alt="" src=images/FEM_SolverControl.svg  style="width   *32px;"> [Solver job control](FEM_SolverControl.md)   * Opens the menu to adjust and start the selected solver.
 
@@ -191,7 +199,11 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width   *32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint.md)   * Used to display value of a selected field at a given point.
 
--   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter functions](FEM_PostCreateFunctions.md)   * Used to define how the result mesh is cut for the [Function cut filter](FEM_PostFilterCutFunction.md) and [Region clip filter](FEM_PostFilterClipRegion.md).
+-   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width   *48px;"> [Filter functions](FEM_PostCreateFunctions.md)   * This is an icon menu in the FEM Results toolbar that holds the following commands   *
+
+   ** <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md)   * Defines that the result mesh is cut with a plane.
+
+   ** <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md)   * Defines that the result mesh is cut with a sphere.
 
 ## メニュー：ユーティリティ
 
@@ -247,7 +259,7 @@ Tutorial 4   * [FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.m
 
 Tutorial 5   * [Transient FEM analysis](Transient_FEM_analysis.md)
 
-Tutorial 6   * [Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)
+Tutorial 6   * [Post-Processing of FEM Results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)
 
 Tutorial 7   * [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md); Elmer\'s GUI tutorial 6 \"Electrostatics Capacitance Two Balls\" using FEM Examples.
 

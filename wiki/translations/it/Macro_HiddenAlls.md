@@ -1,7 +1,4 @@
 # Macro HiddenAlls/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro HiddenAlls
 |Icon=Macro_HiddenAlls.png
@@ -14,18 +11,15 @@
 |SeeAlso=[Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2/it.md)<br>[Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2/it.md)<br>[Macro_Toggle_Visibility](Macro_Toggle_Visibility/it.md)<br>[Macro VisibleAlls](Macro_VisibleAlls/it.md)<br>[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete/it.md)
 }}
 
-
-</div>
-
 ## Descrizione
 
 Questa macro nasconde tutti gli oggetti de documento (Visibility False).
 
 ## Script
 
-ToolBar Icon <img alt="" src=images/Macro_HiddenAlls.png  style="width   *64px;">
+Icona barra strumenti <img alt="" src=images/Macro_HiddenAlls.png  style="width   *64px;">
 
-**Macro\_HidenAlls.FCMacro**
+**Macro_HidenAlls.FCMacro**
 
 
 {{MacroCode|code=

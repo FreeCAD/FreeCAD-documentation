@@ -67,7 +67,7 @@ Múltiples objetos pueden ser restringidos con respecto a otro. Dos líneas se p
 
 <div class="mw-translate-fuzzy">
 
-Existen dos tipos de restricciones   * geométricas y dimensionales. Ambas son explicadas en la sección [\#Las herramientas](#Las_herramientas.md) más abajo.
+Existen dos tipos de restricciones   * geométricas y dimensionales. Ambas son explicadas en la sección [#Las herramientas](#Las_herramientas.md) más abajo.
 
 
 </div>
@@ -306,7 +306,17 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Ranura](Sketcher_CreateSlot/es.md)   * Dibuja un óvalo seleccionando el centro de un semicírculo y un punto final del otro semicírculo.
 
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Redondeo](Sketcher_CreateFillet/es.md)   * Hace un redondeo entre dos líneas unidas en un punto. Selecciona ambas líneas o haz clic en el punto de la esquina, y luego activa la herramienta.
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 
 <div class="mw-translate-fuzzy">

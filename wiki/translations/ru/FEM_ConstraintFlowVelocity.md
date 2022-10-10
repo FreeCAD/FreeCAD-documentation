@@ -13,12 +13,12 @@
 
 ## Описание
 
-Устанавливает скорость потока в качестве граничного условия к кромке в 2D или к грани в 3D.
+Устанавливает скорость потока в качестве граничного условия к ребру в 2D или к грани в 3D.
 
-![](images/FEM-constraint-flow-velocity_task-panel.png ) 
+<img alt="" src=images/FEM-constraint-flow-velocity_task-panel.png  style="width   *400px;"> 
 *Constraint flow velocity menus within the [task panel](Task_panel.md)*
 
-## Использование
+## Применение
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [FEM ConstraintFlowVelocity](FEM_ConstraintFlowVelocity.md)** button.
@@ -29,27 +29,21 @@
 5.  Deselect \"unspecified\" to activate the necessary fields for edition.
 6.  Fill in the values in mm/s for the main Cartesian components.
 
-## Notes
+## Примечания
 
--   Vector components that are ticked as \"unspecified\" will be interpolated by the selected solver.
+-   Компоненты вектора, отмеченные как *не указана*, будут интерполированы выбранным решателем.
 
-       *   Any vector that should be the result of the solver must be ticked as \"unspecified\".
--   If the target face or edge is not aligned with the main cartesian coordinate system, it is possible to tick \"normal to boundary\".
+       *   Любой вектор, который должен быть результатом решателя, должен быть помечен как *не указана*.
+-   Если целевая грань или ребро не выровнены с основной декартовой системой координат, можно поставить галочку *нормаль к границе*.
 
-       *   If \"normal to boundary\" is ticked, the normal vector to the selected edge or face is X and it will be oriented away from the mesh domain.
-       *   For example, if a flow of 20 mm/s of air must enter the domain, then after ticking \"normal to boundary\" the user will have to input -20 mm/s in the \"velocity X\" field.
+       *   Если установлен флажок *нормаль к границе*, вектор нормали к выбранному ребру или грани равен X, и он будет ориентирован от области сетки.
+       *   Например, если в домен должен поступать поток воздуха со скоростью 20 мм/с, то после отметки *нормаль к границе* пользователь должен будет ввести -20 мм/с в поле *скорость X*.
 
 -   For a Wall with non-slip condition, the flow will be (0,0,0)
 -   For a Symmetry condition, the flow will be (0, Unspecified, Unspecified) if \"normal to boundary\" is ticked.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

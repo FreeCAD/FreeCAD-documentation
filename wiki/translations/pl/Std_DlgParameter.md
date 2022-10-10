@@ -11,7 +11,7 @@
 
 ## Opis
 
-Polecenie **Std DlgParameter** otwiera Edytor Parametrów. W Edytorze parametrów można sprawdzać parametry sterujące zachowaniem programu FreeCAD i jego stanowisk pracy oraz opcjonalnie je usunąć, dodać lub zmienić. Parametry są przechowywane w pliku o nazwie **user.cfg**, lokalizacja tego pliku zależy od systemu operacyjnego.
+Polecenie **Edycja parametrów** otwiera Edytor parametrów. W Edytorze parametrów można sprawdzać parametry sterujące zachowaniem programu FreeCAD i jego środowisk pracy oraz opcjonalnie je usunąć, dodać lub zmienić. Parametry są przechowywane w pliku o nazwie **user.cfg**, lokalizacja tego pliku zależy od systemu operacyjnego.
 
 Praca z edytorem parametrów wymaga pewnego doświadczenia. Dla najpopularniejszych parametrów można również skorzystać z wygodniejszego [Edytora preferencji](Preferences_Editor/pl.md).
 
@@ -20,7 +20,7 @@ Praca z edytorem parametrów wymaga pewnego doświadczenia. Dla najpopularniejsz
 
 ## Użycie
 
-Przejdź do menu **Tools → <img src="images/Std_DlgParameter.svg" width=16px> Edycja parametrów**.
+Przejdź do menu **Przybory → <img src="images/Std_DlgParameter.svg" width=16px> Edycja parametrów**.
 
 1.  Otwiera się okno dialogowe Edytor parametrów. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
 2.  Opcjonalnie wciśnij przycisk **Zapisz na dysku**, aby natychmiast zaktualizować plik **user.cfg**. Nie jest to wymagane, ponieważ FreeCAD automatycznie zaktualizuje ten plik po zamknięciu aplikacji.
@@ -41,7 +41,7 @@ W lewym panelu wyświetlane jest drzewo z grupami parametrów oraz podgrupami.
 #### Dodaj grupę podrzędną 
 
 1.  Wybierz grupę.
-2.  Wybierz opcję **Dodaj podgrupę**z menu kontekstowego.
+2.  Wybierz opcję **Dodaj podgrupę** z menu podręcznego.
 3.  Wprowadź nazwę nowej grupy podrzędnej w otwartym oknie dialogowym.
 4.  Wciśnij przycisk **OK**.
 

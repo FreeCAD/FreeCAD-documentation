@@ -3,32 +3,32 @@
 
 {{TOCright}}
 
-## Einführung
+## Einleitung
 
-Der [FEM Arbeitsbereich](FEM_Workbench/de.md) bietet einen modernen [Finite Element Methode](https   *//de.wikipedia.org/wiki/Finite-Elemente-Methode) (FEM) Arbeitsablauf für FreeCAD. Im Wesentlichen bedeutet dies, dass alle Werkzeuge zur Durchführung einer Analyse in einer grafischen Benutzeroberfläche (GUI) zusammengefasst sind.
+Der Arbeitsbereich [FEM](FEM_Workbench/de.md) ermöglicht einen modernen Arbeitsablauf zur Finite-Elemente-Analyse (FEA) innerhalb von FreeCAD, siehe [Finite-Elemente-Methode](https   *//de.wikipedia.org/wiki/Finite-Elemente-Methode) (FEM). Dies bedeutet im Wesentlichen, dass alle Werkzeuge zur Durchführung einer Analyse in einer grafischen Benutzeroberfläche (GUI) zusammengefasst sind.
 
 <img alt="" src=images/FemWorkbench.jpg  style="width   *300px;">
 
 ## Arbeitsablauf
 
-Die Schritte zur Durchführung einer Finite Element Analyse sind   *
+Die Schritte zur Durchführung einer Finite-Elemente-Analyse sind   *
 
-1.  Vorverarbeitung   * Einrichten des Analyseproblems.
+1.  Vorbereitung   * Einrichten des Analyseproblems.
     1.  Modellierung der Geometrie   * Erstellung der Geometrie mit FreeCAD oder Import aus einer anderen Anwendung.
     2.  Erstellen einer Analyse.
-        1.  Hinzufügen von Simulationsbeschränkungen wie Lasten und festen Stützpunkten zum geometrischen Modell.
-        2.  Hinzufügen von Materialien zu den Teilen aus dem geometrischen Modell.
-        3.  Erstellen eines Finite-Elemente-Netzes für das geometrische Modell oder Importieren aus einer anderen Anwendung.
-2.  Lösen   * Ausführen eines externen Lösers aus FreeCAD heraus.
+        1.  Hinzufügen von Simulationsrandbedingungen wie Lasten und starren Einspannungen zum geometrischen Modell.
+        2.  Hinzufügen von Materialien zu Teilen des geometrischen Modells.
+        3.  Erstellen eines Finite-Elemente-Netzes für das geometrische Modell oder Importieren eines Netzes aus einer anderen Anwendung.
+2.  Berechnung   * Ausführen eines externen Lösers aus FreeCAD heraus.
 3.  Nachbearbeitung   * Visualisierung der Analyseergebnisse aus FreeCAD heraus oder Export der Ergebnisse, damit sie mit einer anderen Anwendung nachbearbeitet werden können.
 
-Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. Da der Arbeitsbereich mit externen Lösern arbeitet, hängt der Umfang der manuellen Einrichtung von dem Betriebssystem ab, das Sie verwenden. Siehe [FEM Einrichtung](FEM_Install/de.md) für Anweisungen zum Einrichten der externen Werkzeuge.
+Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. Da der Arbeitsbereich mit externen Lösern arbeitet, hängt der Umfang der manuellen Einrichtung von dem Betriebssystem des Benutzers ab. Siehe [FEM Einrichtung](FEM_Install/de.md) für Anweisungen zum Einrichten der externen Werkzeuge.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width   *600px;">
 
 
 
-* Arbeitsablauf des FEM Arbeitsbereichs; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung eines festen Objekts und die eigentliche Lösung des Finite Element Problems durchzuführen.*
+* Arbeitsablauf des Arbeitsbereichs FEM; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung eines festen Objekts und die eigentliche Lösung des Finite-Elemente-Problems durchzuführen.*
 
 ## Menü   * Modell 
 
@@ -46,13 +46,7 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 .
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Werkstoffeditor](FEM_MaterialEditor/de.md)   * Ermöglicht Dir, den Werkstoffeditor zu öffnen, um Werkstoffe zu bearbeiten.
-
-
-</div>
+-   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Werkstoffeditor](FEM_MaterialEditor/de.md)   * Ermöglicht es, den Werkstoffeditor zu öffnen, um Werkstoffe zu bearbeiten.
 
 ### Elementgeometrie
 
@@ -72,17 +66,13 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 ### Elektrostatische Beschränkungen 
 
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *32px;"> [RandbedingungElektrostatischesPotential](FEM_ConstraintElectrostaticPotential/de.md)   * Wird zum Festlegen eines elektrostatischen Potentials verwendet.
 
-<div class="mw-translate-fuzzy">
+### Randbedingungen für Strömungen 
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *32px;"> [Elektrostatisches Potential beschränken](FEM_ConstraintElectrostaticPotential/de.md)   *
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [RandbedingungStartfließgeschwindigkeit](FEM_ConstraintInitialFlowVelocity/de.md)   * Wird verwendet, um eine anfängliche Fließgeschwindigkeit für den Körper zu definieren.
 
-
-</div>
-
-### Fluidbeschränkungen
-
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Beschränkung der Anfangsströmungsgeschwindigkeit](FEM_ConstraintInitialFlowVelocity/de.md)   * Wird verwendet, um eine anfängliche Fließgeschwindigkeit für das Einsatzgebiet zu definieren.
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md)   * Used to define an initial pressure for the body. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width   *32px;"> [ Strömungsgeschwindigkeit Beschränken](FEM_ConstraintFlowVelocity/de.md)   * Wird verwendet, um eine Strömungsgeschwindigkeit als Randbedingung an einer Kante (2D) oder Fläche (3D) zu definieren.
 
@@ -148,7 +138,13 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 ### Überschreiben von Konstanten 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Konstante Vakuumdurchlässigkeit](FEM_ConstantVacuumPermittivity/de.md)   * <small>(v0.19)</small> 
+
+
+</div>
 
 ## Menü   * Netz 
 
@@ -208,17 +204,53 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Elastizitätsgleichung](FEM_EquationElasticity/de.md)   *
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Elektrische Kraftgleichung](FEM_EquationElectricforce.md)   * <small>(v0.19)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Elektrostatikgleichung](FEM_EquationElectrostatic/de.md)   *
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Strömungsgleichung](FEM_EquationFlow/de.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Durchflussgleichung](FEM_EquationFlux/de.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Wärmegleichung](FEM_EquationHeat/de.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/FEM_SolverControl.svg  style="width   *32px;"> [Löser Auftragssteuerung](FEM_SolverControl/de.md)   * Öffnet das Menü zum Einstellen und Starten des ausgewählten Lösers.
 
@@ -312,6 +344,10 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 </div>
 
+   ** <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md)   * Defines that the result mesh is cut with a plane.
+
+   ** <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md)   * Defines that the result mesh is cut with a sphere.
+
 ## Menü   * Hilfsmittel 
 
 
@@ -374,11 +410,29 @@ Tutorium 3   * [FEM Tutorium Python](FEM_Tutorial_Python/de.md); einrichten des 
 
 Tutorium 4   * [FEM Scherung eines Verbundwerkstoffblocks](FEM_Shear_of_a_Composite_Block/de.md); siehe die Verformung eines Blocks, der aus zwei Materialien besteht.
 
+
+<div class="mw-translate-fuzzy">
+
 Tutorium 5   * [Transiente FEM Analyse](Transient_FEM_analysis/de.md)
 
-Tutorium 6   * [Nachbearbeitung\_von\_FEM-Ergebnissen\_mit\_Paraview](Post-Processing_of_FEM_Results_with_Paraview/de.md)
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Tutorium 6   * [Nachbearbeitung_von_FEM-Ergebnissen_mit_Paraview](Post-Processing_of_FEM_Results_with_Paraview/de.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Tutorium 7   * [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md); Elmer\'s GUI tutorium 6 \"Electrostatics Capacitance Two Balls\" using FEM Examples.
+
+
+</div>
 
 Gekoppelte Tutorien zur thermomechanischen Analyse von [openSIM](https   *//opensimsa.github.io/training.html).
 
@@ -392,7 +446,13 @@ Viele Videotutorien   * [anisim Open Source Engineering Software](https   *//www
 
 Der FEM Arbeitsbereich wird ständig weiterentwickelt. Ein Ziel des Projekts ist es, Wege zu finden, wie man einfach mit verschiedenen FEM Lösern interagieren kann, so dass der Endanwender den Prozess der Erstellung, Vernetzung, Simulation und Optimierung eines Konstruktionsproblems in FreeCAD rationalisieren kann.
 
+
+<div class="mw-translate-fuzzy">
+
 Die folgenden Information richtet sich an fortgeschrittene Anwender und Entwickler, die den FEM Arbeitsbereich auf unterschiedliche Weise erweitern möchten. Vertrautheit mit C++ und Python werden vorausgesetzt, ebenso wie einige Kenntnisse des in FreeCAD verwendeten \"Dokumentobjekt\" Systems; diese Informationen sind im [Verteiler für Intensivnutzer](Power_users_hub/de.md) und im [Verteiler für Entwickler](Developer_hub/de.md) verfügbar. Bitte beachte, dass einige Artikel zu alt und damit veraltet sein können, da sich FreeCAD in der aktiven Entwicklung befindet. Die aktuellsten Informationen werden in den [FreeCAD Foren](https   *//forum.freecadweb.org/index.php), im Bereich Entwicklung, diskutiert. Für FEM Diskussionen, Ratschläge oder Unerstützung bei der Erweiterung des Arbeitsbereichs sollte sich der Leser auf das [FEM Unterforum](https   *//forum.freecadweb.org/viewforum.php?f=18) beziehen.
+
+
+</div>
 
 In den folgenden Artikeln wird erläutert, wie der Arbeitsbereich erweitert werden kann, z.B. durch Hinzufügen neuer Arten von Randbedingungen (Beschränkungen) oder Gleichungen.
 

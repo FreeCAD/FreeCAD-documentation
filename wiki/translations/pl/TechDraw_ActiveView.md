@@ -5,17 +5,17 @@
    MenuLocation   *Rysunek Techniczny → Wstaw aktywny widok (widok 3D)
    Workbenches   *[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version   *0.19
-   SeeAlso   *[Symbol](TechDraw_Symbol/pl.md)
+   SeeAlso   *[Obraz](TechDraw_Image/pl.md)
 ---
 
 # TechDraw ActiveView/pl
 
 ## Opis
 
-Narzędzie **Aktywny widok** wstawia reprezentację okna 3D na stronie rysunku.
+Narzędzie **Aktywny widok** wstawia obraz w postaci bitmapy aktywnego widoku okna 3D, na stronie rysunku.
 
 ![](images/TechDraw_ActiveView_example.png ) 
-*Prosty widok z modelu 3D, który nie wymaga żadnych złożonych obliczeń.*
+*Prosty widok modelu przestrzennego.*
 
 ## Użycie
 
@@ -35,57 +35,27 @@ Narzędzie **Aktywny widok** wstawia reprezentację okna 3D na stronie rysunku.
 
 Można określić następujące parametry   *
 
--    **Szerokość**   * Szerokość generowanego widoku.
+-    **Przytnij**   * Przytnij wygenerowaną bitmapę.
 
--    **Wysokość**   * Wysokość generowanego widoku.
+-    **Szerokość**   * Szerokość *(w mm)* do przycięcia wygenerowanego widoku.
 
--    **Ramka**   * Ilość pustego miejsca, które ma pozostać wokół widoku *(ale w granicach Szerokość x Wysokość)*.
+-    **Wysokość**   * Wysokość *(w mm)* do przycięcia wygenerowanego widoku.
 
--    **Tło**   * Jeśli opcja ta jest zaznaczona, dodawane jest tło o określonym kolorze.
+-    **Bez tła**   * Jeżeli opcja ta jest zaznaczona, to wygenerowana bitmapa będzie miała przezroczyste tło.
 
--    **Szerokość linii**   * Grubość linii w obrazie.
+-    **Jednolite tło**   * Jeżeli opcja ta jest zaznaczona, to tworzony obiekt będzie miał tło w wybranym kolorze.
 
--    **Tryb renderowania**   * Dostępne są następujące tryby   *
-
-    -   
-        {{Value|Domyślny}}
-        
-           * Renderuj elementy pierwotne takimi, jakimi są.
-
-    -   
-        {{Value|Szkieletowy}}
-        
-           * Renderuj wielokąty jako szkielet.
-
-    -   
-        {{Value|Punkty}}
-        
-           * Renderuj tylko wierzchołki wielokątów i linii.
-
-    -   
-        {{Value|Nadpisanie widoku szkieletowego}}
-        
-           * Oprócz trybu {{Value|Domyślny}} renderuje nakładkę ze szkieletem.
-
-    -   
-        {{Value|Cieniowany z ukrytymi krawędziami}}
-        
-           * Podobnie jak {{Value|Szkieletowy}}, ale usuwa linie, które w przeciwnym razie nie byłyby wyświetlane ze względu na geometryczny ubytek.
-
-    -   
-        {{Value|Ramka otaczająca}}
-        
-           * Pokaż tylko ramkę brzegową każdego obiektu.
+-    **Użyj tła widoku 3D**   * Jeżeli opcja ta jest zaznaczona, to wygenerowana bitmapa będzie wykorzystywać tło z okna widoku 3D.
 
 ## Uwagi
 
 -   Aktywny widok jest statyczny po wygenerowaniu, nigdy nie jest aktualizowany przy zmianach w modelu 3D.
--   Aktywny widok jest [Symbolem](TechDraw_Symbol/pl.md). Dlatego jego **Typ skali** jest zawsze inicjalizowany jako {{Value|Użytkownika}}.
--   To narzędzie jest wciąż w pewnym stopniu **eksperymentalne**.
+-   Aktywny widok z założenia jest [obrazem](TechDraw_Image/pl.md). Dlatego jego **Typ skali** jest zawsze inicjalizowany jako {{Value|Użytkownika}}.
+-   W {{VersionMinus/pl|0.20}} funkcjonalność tą realizowało narzędzie [Symbol](TechDraw_Symbol/pl.md).
 
 ## Właściwości
 
-Zobacz również stronę [Symbol](TechDraw_Symbol/pl.md).
+Zobacz również stronę [Obraz](TechDraw_Image/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md) środowiska Rysunek Techniczny.
 
 ## Tworzenie skryptów 
 
@@ -94,13 +64,7 @@ Zobacz również stronę [Symbol](TechDraw_Symbol/pl.md).
 
 [TechDraw API](TechDraw_API.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Narzędzie Aktywny widok może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji   *
-
-
-```python
-import TechDrawGui
-TechDrawGui.copyActiveViewToSvgFile(Gui.ActiveDocument.ActiveView,"myFile.svg")
-```
+Narzędzie Aktywny widok nie jest dostępne dla [makrodefinicji](macros/pl.md) i z konsoli [Python](Python/pl.md). Zamiast tego użyj funkcji [Zapisz zrzut ekranu](Std_ViewScreenShot/pl.md).
 
 
 

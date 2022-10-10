@@ -57,9 +57,9 @@ L\'atelier FEM charge les résultats de CalculiX dans l\'[objet résultat](FEM_R
 -   Déformation plastique équivalente (PEEQ) - si un matériau non linéaire a été utilisé.
 -   Température - pour l\'analyse thermomécanique.
 
-FreeCAD lit les résultats du fichier \*.frd qui a été créé par CalculiX. Si ces résultats contiennent plusieurs pas de temps, chaque pas de temps est importé dans FreeCAD comme un nouvel objet résultat. Le même comportement s\'applique à l\'analyse fréquencielle ou de flambage avec de multiples valeurs propres.
+FreeCAD lit les résultats du fichier \*.frd qui a été créé par CalculiX. Si ces résultats contiennent plusieurs pas de temps, chaque pas de temps est importé dans FreeCAD comme un nouvel objet résultat. Le même comportement s\'applique à l\'analyse fréquentielle ou de flambage avec de multiples valeurs propres.
 
-Les forces de réaction se trouvent dans le fichier ccx\_dat\_file qui contient les composantes des forces de réaction (fx, fy, fz) pour chaque contrainte fixée et pour chaque déplacement de contrainte qui contraint les degrés de liberté de déplacement.
+Les forces de réaction se trouvent dans le fichier ccx_dat_file qui contient les composantes des forces de réaction (fx, fy, fz) pour chaque contrainte fixée et pour chaque déplacement de contrainte qui contraint les degrés de liberté de déplacement.
 
 ## En relation 
 
@@ -71,7 +71,7 @@ Les forces de réaction se trouvent dans le fichier ccx\_dat\_file qui contient 
 
 }}
 
-[Category   *Poweruser\_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

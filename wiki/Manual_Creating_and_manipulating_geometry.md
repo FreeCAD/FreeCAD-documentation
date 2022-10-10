@@ -191,7 +191,7 @@ This is because when we extrude a single Face, we always get a Solid. This would
  
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
-print(s.ShapeType)
+print(S.ShapeType)
 ```
 
 Which will of course give us a hollow shell, with the top and bottom faces missing.

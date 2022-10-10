@@ -1,13 +1,7 @@
 # Release notes 0.13/it
 Questo è un riassunto dei cambiamenti più interessanti avvenuti in FreeCAD con la versione più recente. Vedere [qui](http   *//www.freecadweb.org/tracker/changelog_page.php) per la lista completa delle modifiche.
 
-
-<div class="mw-translate-fuzzy">
-
 Versioni precedenti   * ([0.11 en](Release_notes_0.11.md)) - [0.12](Release_notes_0.12/it.md)
-
-
-</div>
 
 ![800px](images/FreeCAD013.jpg)
 

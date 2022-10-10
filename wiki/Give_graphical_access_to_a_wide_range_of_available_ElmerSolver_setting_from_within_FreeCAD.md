@@ -1,5 +1,5 @@
 # Give graphical access to a wide range of available ElmerSolver setting from within FreeCAD
-This page is dedicated to the description of the [Google Summer of Code 2017](GSoC2017.md) project idea regarding setting up full-fledged multiphysics simulations from within FreeCAD while using ElmerFEM as external solver.
+This page is dedicated to the description of the [Google Summer of Code 2017](Google_Summer_of_Code_2017.md) project idea regarding setting up full-fledged multiphysics simulations from within FreeCAD while using ElmerFEM as external solver.
 
 ## Outline
 

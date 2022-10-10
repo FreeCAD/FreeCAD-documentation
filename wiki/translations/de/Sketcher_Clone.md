@@ -1,17 +1,15 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher Clone
-   Name/de   *Skizzierer Klonen
-   MenuLocation   *Skizze → Skizzierer Werkzeuge → Klonen
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Name/de   *Sketcher Klonen
+   MenuLocation   *Sketch → Skizzen-Werkzeuge → Klonen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***Z** **L**
    Version   *0.16
-   SeeAlso   *[Skizzierer Kopieren](Sketcher_Copy/de.md), [Skizzierer Verschieben](Sketcher_Move/de.md)
+   SeeAlso   *[Sketcher Kopieren](Sketcher_Copy/de.md), [Sketcher Verschieben](Sketcher_Move/de.md)
 ---
 
 # Sketcher Clone/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -21,17 +19,14 @@ Ein Klon eines Klons wird eine [Kopie](Sketcher_Copy/de.md). Wenn verbundene Bes
 
 ## Anwendung
 
+1.  Die zu klonenden Skizzenelemente auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **[<img src=images/Sketcher_Clone.svg style="width   *16px"> [Klonen](Sketcher_Clone/de.md)** drücken.
+    -   Den Menüeintrag **Sketch → Skizzen-Werkzeuge  → [<img src=images/Sketcher_Clone.svg style="width   *16px"> Klonen** auswählen.
+3.  Die Maus in der [3D-Ansicht](3D_view/de.md) auf die gewünschte Position für den Klon bewegen.Wird **Shift** gedrückt gehalten, kann der Winkel um den Einsetzpunkt in 5°-Schritten angepasst werden. {{Version/de|0.20}}
+4.  Mit der linken Maustaste in die 3D-Ansicht klicken, um den Klon zu erstellen.
 
-<div class="mw-translate-fuzzy">
-
-1.  Wähle die zu klonenden Skizzenelemente.
-2.  Klicke auf **[<img src=images/Sketcher_Clone.svg style="width   *16px"> [Skizierer Klonen](Sketcher_Clone/de.md)** oder wähle **Skizze → Skizierer Werkzeuge  → [<img src=images/Sketcher_Clone.svg style="width   *16px"> Klonen** aus dem Hauptmenü.
-3.  Platziere den Klon in der [3D Ansicht](3D_view.md).
-
-Es werden keine zusätzlichen Beschränkungen für das Klonverhalten hinzugefügt.
-
-
-</div>
+Es werden keine zusätzlichen Randbedingungen für den Klon hinzugefügt.
 
 
 

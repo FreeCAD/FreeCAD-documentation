@@ -8,11 +8,11 @@
 
 # Mesh CrossSections/pl
 
-## Description
+## Opis
 
 The **Mesh CrossSections** command creates multiple cross sections across mesh objects. The cross sections are taken parallel to one of the main global planes (XY, XZ or YZ). For each set of cross sections a single [Part Feature](Part_Feature.md) is created.
 
-## Usage
+## Użycie
 
 1.  Select one or more mesh objects.
 2.  There are several ways to invoke the command   *
@@ -54,7 +54,7 @@ The **Mesh CrossSections** command creates multiple cross sections across mesh o
 9.  Optionally change one or more settings and create additional sets of cross sections.
 10. Press the {{button|OK}} button or the {{button|Cancel}} button to close the task panel and finish the command.
 
-## Properties
+## Właściwości
 
 See   * [Part Feature](Part_Feature.md).
 

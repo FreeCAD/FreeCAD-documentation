@@ -4,7 +4,7 @@
    Name/fr   *FEM Région de maillage FEM
    MenuLocation   *Maillage → Région de maillage FEM
    Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshRegion/fr
@@ -17,13 +17,13 @@ Le réaffinement du maillage a l\'avantage de permettre une simulation précise 
 
 ## Utilisation
 
-1.  Pour activer la fonction, un maillage doit d\'abord être fourni <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [FEM Maillage MEF à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
+1.  Pour activer la fonction, un maillage doit d\'abord être fourni <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [FEM Maillage FEM à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
     -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et cliquez sur le bouton <img alt="" src=images/FEM_MeshRegion.svg  style="width   *32px;">.
     -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et sélectionnez l\'option **Maillage →  <img src="images/FEM_MeshRegion.svg" width=32px> Région de maillage FEM** dans le menu.
 2.  Modifiez la taille maximale des éléments pour la région.
 3.  Cliquez sur le bouton **OK**.
 4.  Fermez la tâche.
-5.  Résultat    * Vous devriez maintenant voir un nouvel objet `FEMMeshRegion` sous l\'objet `FEMMeshGMSH` (voir exemple \#3 ci-dessous) dans votre conteneur d\'analyse actif.
+5.  Résultat    * Vous devriez maintenant voir un nouvel objet `FEMMeshRegion` sous l\'objet `FEMMeshGMSH` (voir exemple #3 ci-dessous) dans votre conteneur d\'analyse actif.
 6.  Double-cliquez sur l\'objet parent `FEMMeshGMSH` dans votre arborescence de modèle et appuyez sur **Appliquer** pour forcer un recalcul de maillage.
 7.  Fermez la tâche.
 
@@ -33,7 +33,7 @@ Vous pouvez créer autant de maillages différents que nécessaire.
 
 ## Exemples visuels 
 
-<img alt="" src=images/FEMMeshRegion_Example1.png  style="width   *300px;"> 
+<img alt="" src=images/FEMMeshRegion_Example1.png style="width   *300px;"> 
 *Exemple 1    * Le FEMMeshGMSH grossier initial*
 
 <img alt="" src=images/FEMMeshRegion_Example2.png  style="width   *300px;"> 

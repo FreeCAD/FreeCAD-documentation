@@ -18,13 +18,7 @@ Questa piccola macro taglia una linea, crea dei punti e dei segmenti bicolore de
 <img alt="" src=images/Macro_cutLine_00.png  style="width   *400px;"> 
 *cutLine*
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-
-</div>
+## Utilizzo
 
 Può essere usata nell\'editor delle macro di FreeCAD.
 
@@ -41,7 +35,7 @@ Con bisColor sulla linea originale vengono create delle linee rosse e bianche \.
 
 ToolBar Icon ![](images/Macro_Cut_Line.png )
 
-**Macro\_cutLine.FCMacro**
+**Macro_cutLine.FCMacro**
 
 
 {{MacroCode|code=

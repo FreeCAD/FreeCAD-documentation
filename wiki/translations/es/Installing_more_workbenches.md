@@ -34,17 +34,11 @@ Copie la carpeta del ambiente de trabajo en `$INSTALL_DIR/Mod/`, donde `$INSTALL
 
 Los ambientes de trabajo instalados de esta manera estarán disponibles sólo para un usuario, pero no requerirán ningún privilegio de administrador.
 
+Copiar la carpeta del ambiente de trabajo en `$USER_DIR/Mod/`, donde `$USER_DIR` es el directorio de FreeCAD para un `username` particular (puede encontrar este último escribiendo `App.getUserAppDataDir()` en la [consola de Python](Python_console.md)).
 
-<div class="mw-translate-fuzzy">
-
-Copiar la carpeta del ambiente de trabajo en `$USER_DIR/Mod/`, donde `$USER_DIR` es el directorio de FreeCAD para un `username` particular.
-
--   En Linux es normalmente `/home/username/.FreeCAD/Mod/`.
--   En Windows es `%APPDATA%\FreeCAD\Mod`, que suele ser `C   *Users\''username''\Appdata\Roaming\FreeCAD\Mod`.
--   En macOS suele ser `/Users/username/Library/Preferences/FreeCAD/Mod/`. Una forma de llegar al directorio de preferencias es utilizar el elemento de menú del \"Finder\" **Ir → Ir a la carpeta**, e introducir `~/Librería/Preferencias/FreeCAD`.
-
-
-</div>
+-   En Linux es normalmente `/home/username/.local/share/FreeCAD/Mod/` (<small>(v0.20)</small> ) ó `/home/username/.FreeCAD/Mod/` ({{VersionMinus|0.19}}).
+-   En Windows es `%APPDATA%\FreeCAD\Mod`, que suele ser `C   *Users\username\Appdata\Roaming\FreeCAD\Mod`.
+-   En macOS suele ser `/Users/username/Library/Preferences/FreeCAD/Mod/`.
 
 ## Información adicional 
 

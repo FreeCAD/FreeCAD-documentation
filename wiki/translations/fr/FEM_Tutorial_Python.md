@@ -15,11 +15,11 @@
 
 ## Introduction
 
-Ce tutoriel est destiné à montrer comment une simple analyse par éléments finis (**FEA**) dans L\'<img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Atelier FEM](FEM_Workbench/fr.md) est conçu à l\'aide de Python. Le modèle du tutoriel [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) sera utilisé pour cet exemple.
+Ce tutoriel est destiné à montrer comment une simple analyse par éléments finis (**FEA**) dans l\'<img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Atelier FEM](FEM_Workbench/fr.md) est réalisée à l\'aide de Python. Le modèle du tutoriel [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) sera utilisé pour cet exemple.
 
 <img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
 
-### Requis
+## Conditions
 
 -   La version compatible de FreeCAD comme indiqué dans l\'aperçu du tutoriel.
 
@@ -98,9 +98,9 @@ analysis_object.addObject(force_constraint)
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width   *750px ">
 
-### Maillage MEF (manuel) 
+### Maillage FEM (manuel) 
 
-Cette section contient le code de maillage MEF. Veuillez l\'agrandir pour afficher le contenu.
+Cette section contient le code de maillage FEM. Veuillez l\'agrandir pour afficher le contenu.
 
 **Remarque   *** Consultez la section [Information supplémentaire](#Information_Suppl.C3.A9mentaire.md) ci-dessous pour savoir comment créer un script de génération de maillage avec GMSH ou objet maillé Netgen.
 
@@ -424,12 +424,10 @@ femmesh.addVolume([51, 44, 45, 34, 217, 95, 228, 218, 144, 136], 225)
 femmesh.addVolume([9, 29, 39, 30, 147, 127, 215, 148, 78, 126], 226)
 femmesh.addVolume([40, 9, 19, 39, 214, 105, 168, 90, 215, 169], 227)
 
-
 # add it to the analysis
 femmesh_obj = doc.addObject('Fem   *   *FemMeshObject', 'Box_Mesh')
 femmesh_obj.FemMesh = femmesh
 analysis_object.addObject(femmesh_obj)
-
 ```
 
 
@@ -534,7 +532,7 @@ if not message   *
     fea.load_results()
 else   *
     FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in report view
-    print("Houston, we have a problem! {}\n".format(message))  # in python console
+    print("Houston, we have a problem! {}\n".format(message))  # in Python console
 
 ###
 ```
@@ -561,11 +559,11 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 
 ##### Netgen
 
-Le scriptage de l\'objet maillé Netgen a été tenté dans le [\"Etude MEF paramétré\"](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (fil du sous-forum FreeCAD FEM) mais a certaines limites.
+Le script de l\'objet maillé Netgen a été tenté dans [\"Parametrized FEM study\"](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (fil du sous-forum FreeCAD FEM) mais a certaines limites.
 
 ##### GMSH
 
-Au contraire, l\'objet maillé GMSH prend entièrement en charge les scripts Python. Voir les messages de forum suivants   *
+Au contraire, l\'objet maillé GMSH prend entièrement en charge les scripts Python. Voir les messages des forum suivants   *
 
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
 -   sujet du forum <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=20087>
@@ -574,9 +572,9 @@ Au contraire, l\'objet maillé GMSH prend entièrement en charge les scripts Pyt
 
 Voir la publication du forum   * <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
-#### Script de résultats 
+#### Script des résultats 
 
-###### Objet de résultat standard de FreeCAD 
+###### Objet Résultat standard de FreeCAD 
 
 Voir les publications du forum    *
 
@@ -587,9 +585,9 @@ Voir les publications du forum    *
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → colorier un seul élément
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → réinitialiser tout le maillage des résultats, afficher l\'amplitude de déplacement colorée
 
-##### Objet de résultat Vtk 
+##### Objet Résultat Vtk 
 
-Voir les messages du forum   *
+Voir les messages du forum    *
 
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
@@ -602,7 +600,7 @@ L\'écriture du fichier d\'entrée en mode console FreeCAD (sans interface graph
 Amusez-vous! Aussi, si vous avez des commentaires ou des améliorations, n\'hésitez pas à participer sur le [sous-forum FreeCAD FEM](https   *//forum.freecadweb.org/viewforum.php?f=18).
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}} 
 
 [Category   *Python Code](Category_Python_Code.md)
 

@@ -15,9 +15,9 @@
 
 ## Utilisation
 
-1.  Lancez la commande de plusieurs manières    *
-    -   Appuyez sur le bouton **[<img src=images/Part_Measure_Refresh.svg style="width   *16px"> [Rafraîchir les mesures](Part_Measure_Refresh/fr.md)**.
-    -   Allez dans le menu, **Mesure → [<img src=images/Part_Measure_Refresh.svg style="width   *16px"> Rafraîchir les mesures**.
+1.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur le bouton **<img src="images/Part_Measure_Refresh.svg" width=16px> [Rafraîchir les mesures](Part_Measure_Refresh/fr.md)**.
+    -   Sélectionnez l\'option **Mesure → <img src="images/Part_Measure_Refresh.svg" width=16px> Rafraîchir les mesures** dans le menu.
 
 
 

@@ -7,7 +7,13 @@
 
 ## Popis
 
+
+<div class="mw-translate-fuzzy">
+
 Tento nástroj nakreslí přímku zadáním dvou bodů ve 3D pohledu. Při spuštění nástroje se ukazatel myši změní na bílý křížek s ikonou červené přímky. Vedle jsou zobrazeny souřadnice v reálném čase.
+
+
+</div>
 
 ![](images/Sketcher_LineExample1.png‎ )
 
@@ -21,8 +27,14 @@ The created line object starts and ends at the given points, but the line is inf
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Zadejte body na prázdné ploše ve 3D pohledu nebo na existujícím objektu (v okně Úkolů musí být aktivní automatická vazba (auto constraint)).
 -   Stisknutím klávesy **Esc** nebo kliknutím na pravé tlačítko myši se funkce přeruší.
+
+
+</div>
 
 
 

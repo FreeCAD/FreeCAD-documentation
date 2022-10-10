@@ -25,13 +25,7 @@ Per impostazione predefinita, la GUI viene visualizzata in alto a destra dello s
 
 ## Codice
 
-
-<div class="mw-translate-fuzzy">
-
 L\'ultima versione della macro è disponibile all\'indirizzo [ViewRotation.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
-
-
-</div>
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 

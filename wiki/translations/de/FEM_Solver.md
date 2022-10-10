@@ -3,25 +3,13 @@
 
 ## Vorwort
 
-
-<div class="mw-translate-fuzzy">
-
-Diese Seite sammelt Informationen über die von der [FEM Arbeitsbereich](FEM_Workbench/de.md) verwendeten Finite Elemente Löser. Die Schnittstelle zwischen einem Löser und FreeCAD sowohl in der Vor- als auch in der Nachbearbeitung erfolgt über Textdateien. Das bedeutet, dass theoretisch jeder Löser, der über Textdateien konfiguriert und gesteuert werden kann, mit FreeCAD zusammenarbeiten kann; für diese Kommunikation muss ein geeigneter Parser und Schreiber von Ein- und Ausgabedateien programmiert werden.
-
-
-</div>
+Diese Seite sammelt Informationen über die vom Arbeitsbereich [FEM](FEM_Workbench/de.md) verwendeten Finite-Elemente-Löser. Die Schnittstelle zwischen einem Löser und FreeCAD sowohl in der Vor- als auch in der Nachbearbeitung erfolgt über Textdateien. Das bedeutet, dass theoretisch jeder Löser, der über Textdateien konfiguriert und gesteuert werden kann, mit FreeCAD zusammenarbeiten kann; für diese Kommunikation muss ein geeigneter Parser und Schreiber von Ein- und Ausgabedateien programmiert werden. Im Forum findet sich ein Thema mit Diskussionen und Ankündigungen zu den verschiedenen Lösern   *[General FEM solvers discussion topic](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=26326).
 
 Wikipedia [listet viele Finite Elemente Softwarepakete auf](https   *//en.wikipedia.org/wiki/List_of_finite_element_software_packages). Einen Vergleich findest du auf [feacompare.com](https   *//feacompare.com/).
 
 ### Verfügbare Löser in verschiedenen Linux Distributionen 
 
-
-<div class="mw-translate-fuzzy">
-
-Das [FreeCAD-Abhängigkeiten](https   *//github.com/luzpaz/FreeCAD-dependencies) Repositorium verfolgt die Abhängigkeiten von FreeCAD über viele Linux Distributionen hinweg. Die [FEM.md](https   *//github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) Seite betrachtet verfügbare quelloffene FEA Löser, die mit der [FEM Workbench/de](FEM_Workbench/de.md) verwendet werden können. Die Seite zeigt die Version eines bestimmten Lösers im Repositorium einer bestimmten Linux Distribution. Diese Information ist nützlich, um zu wissen, ob ein Löser aktuell oder veraltet ist und aktualisiert werden muss.
-
-
-</div>
+Das [FreeCAD-Abhängigkeiten](https   *//github.com/luzpaz/FreeCAD-dependencies) Repositorium verfolgt die Abhängigkeiten von FreeCAD über viele Linux Distributionen hinweg. Die [FEM.md](https   *//github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) Seite betrachtet verfügbare quelloffene FEA Löser, die mit der [FEM_Workbench/de](FEM_Workbench/de.md) verwendet werden können. Die Seite zeigt die Version eines bestimmten Lösers im Repositorium einer bestimmten Linux Distribution. Diese Information ist nützlich, um zu wissen, ob ein Löser aktuell oder veraltet ist und aktualisiert werden muss.
 
 Die Informationen werden auch im Forum diskutiert   * [unterstützter und nicht unterstützter Löser](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=26326&start=10#p270325).
 
@@ -31,25 +19,11 @@ Diese Löser sind gut in FreeCAD integriert, was bedeutet, dass es möglich ist,
 
 ### CalculiX
 
-
-<div class="mw-translate-fuzzy">
-
-### CalculiX 
-
-Dies ist der erste Löser, der für die Arbeit mit dem FEM Arbeitsbereich integriert wurde. CalculiX ist vor allem für statische, thermo-mechanische und modale Analysen konzipiert. Weitere Informationen über diesen Löser findest Du unter [FEM CalculiX/de](FEM_CalculiX/de.md).
-
-
-</div>
+Dies ist der erste Löser, der für die Arbeit mit dem FEM Arbeitsbereich integriert wurde. CalculiX ist vor allem für statische, thermo-mechanische und modale Analysen konzipiert. Weitere Informationen über diesen Löser findet man unter [FEM CalculiX](FEM_CalculiX/de.md).
 
 ### Elmer
 
-
-<div class="mw-translate-fuzzy">
-
-Der Elmer Multiphysik Löser wurde als [Google Summer of Code 2017](Google_Summer_of_Code_2017.md) Projekt in FreeCAD integriert   * [Hauptwebsite](https   *//www.csc.fi/web/elmer), [Gemeinschaftsportal](http   *//www.elmerfem.org./), [Code Repositorium](https   *//github.com/ElmerCSC/elmerfem), [Elmer Integration (GSoC) - Aktivitätsprotokoll](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=22576) ( Forumsbeitrag).
-
-
-</div>
+Der Elmer-Multiphysics-Löser wurde als [Google-Summer-of-Code-2017](Google_Summer_of_Code_2017.md)-Projekt in FreeCAD integriert   * [Hauptwebsite](https   *//www.csc.fi/web/elmer), [Gemeinschaftsportal](http   *//www.elmerfem.org./), [Code Repositorium](https   *//github.com/ElmerCSC/elmerfem), [Elmer Integration (GSoC) - Aktivitätsprotokoll](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=22576) ( Forumsthema).
 
 ### Mystran
 
@@ -104,7 +78,7 @@ DesignSPHysics ist ein in FreeCAD integrierter externer Arbeitsbereich, der eine
 
 <div class="mw-translate-fuzzy">
 
-DesignSPHysics kann über den [Std\_AddonMgr/de](Std_AddonMgr/de.md) installiert werden.
+DesignSPHysics kann über den [Std_AddonMgr/de](Std_AddonMgr/de.md) installiert werden.
 
 
 </div>
@@ -166,7 +140,7 @@ Füor CfdOF   * [Computational Fluid Dynamics (CFD) Arbeitsbereich OpenFOAM verw
 
 <div class="mw-translate-fuzzy">
 
-Beide Arbeitsbereiche können über den [Std\_AddonMgr/de](Std_AddonMgr/de.md) installiert werden, und beide haben einen Platz für Diskussionen im [CfdOF / CFD Unterforum](https   *//forum.freecadweb.org/viewforum.php?f=37).
+Beide Arbeitsbereiche können über den [Std_AddonMgr/de](Std_AddonMgr/de.md) installiert werden, und beide haben einen Platz für Diskussionen im [CfdOF / CFD Unterforum](https   *//forum.freecadweb.org/viewforum.php?f=37).
 
 
 </div>

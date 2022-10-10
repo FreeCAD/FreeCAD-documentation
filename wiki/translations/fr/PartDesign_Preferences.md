@@ -3,11 +3,11 @@
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [atelier Part](Part_Workbench/fr.md) utilisent les mêmes préférences. Elles se trouvent dans la section <img alt="" src=images/Preferences-part_design.svg  style="width   *24px;"> **Part design** de l\'éditeur de préférences [Réglage des préférences](Preferences_Editor/fr.md). Cette section ne sera disponible que si l\'un des ateliers a été chargé dans la session FreeCAD en cours.
+L\'<img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [atelier Part](Part_Workbench/fr.md) utilisent les mêmes préférences. Elles se trouvent dans la section <img alt="" src=images/Preferences-part_design.svg  style="width   *24px;"> **Part/Part Design** de l\'[éditeur de préférences](Preferences_Editor/fr.md). Cette section ne sera disponible que si l\'un des ateliers a été chargé dans la session FreeCAD en cours.
 
 ## Préférences disponibles 
 
-Il y a trois onglets    * Général, Vue de la forme et Apparence de la forme.
+Il y a quatre onglets    * Général, Vue de la forme, Aspect de la forme et Mesure.
 
 ### Général
 
@@ -60,23 +60,23 @@ Dans l\'onglet *Aspect de la forme*, vous pouvez spécifier les éléments suiva
 | **Couleur de la forme**            |                                                                                                                                                                                                                                                                             |
 |                                             |                                                                                                                                                                                                                                                                             |
 +++
-|                                 | Transparence pour les nouvelles formes {{Version/fr|1.0}}                                                                                                                                                                                                     |
+|                                 | Transparence pour les nouvelles formes {{Version/fr|1.0}}.                                                                                                                                                                                                    |
 | **Transparence des formes**        |                                                                                                                                                                                                                                                                             |
 |                                             |                                                                                                                                                                                                                                                                             |
 +++
-|                                 | Couleur des lignes pour les nouvelles formes                                                                                                                                                                                                                                |
+|                                 | Couleur des lignes pour les nouvelles formes.                                                                                                                                                                                                                               |
 | **Couleur des traits**             |                                                                                                                                                                                                                                                                             |
 |                                             |                                                                                                                                                                                                                                                                             |
 +++
-|                                 | Epaisseur de ligne pour les nouvelles formes                                                                                                                                                                                                                                |
+|                                 | Epaisseur de ligne pour les nouvelles formes.                                                                                                                                                                                                                               |
 | **Épaisseur de ligne**             |                                                                                                                                                                                                                                                                             |
 |                                             |                                                                                                                                                                                                                                                                             |
 +++
-|                                 | Couleur des nouveaux [sommets](Glossary/fr#Vertex.md)                                                                                                                                                                                                               |
+|                                 | Couleur des nouveaux [sommets](Glossary/fr#Vertex.md).                                                                                                                                                                                                              |
 | **Couleur de sommet**              |                                                                                                                                                                                                                                                                             |
 |                                             |                                                                                                                                                                                                                                                                             |
 +++
-|                                 | Taille des nouveaux [sommets](Glossary/fr#Vertex.md)                                                                                                                                                                                                                |
+|                                 | Taille des nouveaux [sommets](Glossary/fr#Vertex.md).                                                                                                                                                                                                               |
 | **Taille de sommet**               |                                                                                                                                                                                                                                                                             |
 |                                             |                                                                                                                                                                                                                                                                             |
 +++
@@ -90,12 +90,56 @@ Dans l\'onglet *Aspect de la forme*, vous pouvez spécifier les éléments suiva
 +++
 |                                 | Couleur du texte pour les annotations du document. Il n\'existe actuellement aucun dialogue permettant d\'ajouter des annotations aux documents. Les annotations ne peuvent être ajoutées qu\'en utilisant la console Python avec cette commande    *                          |
 | **Couleur du texte**               |                                                                                                                                                                                                                                                                             |
-|                                             | obj=App.ActiveDocument.addObject("App   *   *Annotation", "Label")                                                                                                                                                                                                              |
+|                                             | obj = App.ActiveDocument.addObject("App   *   *Annotation", "Label")                                                                                                                                                                                                            |
 |                                                |                                                                                                                                                                                                                                                                             |
 |                                                | Cette console est affichée à l\'aide du menu **Affichage → Panneaux → Console Python**.                                                                                                                                                           |
 +++
 
 ![](images/Preferences_Part_design_Tab_Shape_appearance.png )
+
+### Mesure
+
+Ces préférences contrôlent l\'apparence des mesures créées avec les [outils Mesure](PartDesign_Preferences/fr#Mesure.md) disponibles dans l\'[atelier Part ](Part_Workbench/fr.md) et l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
+
+Dans l\'onglet *Mesure* ({{Version/fr|1.0}}), vous pouvez spécifier les éléments suivants    *
+
++++
+| Nom                                          | Description                                                                |
++==============================================+============================================================================+
+|                               | Couleur pour les dimensions linéaires 3D.                                  |
+| **Couleur 3D**                   |                                                                            |
+|                                           |                                                                            |
++++
+|                               | Couleur pour les dimensions delta (parallèles aux axes globaux X, Y et Z). |
+| **Couleur delta**                |                                                                            |
+|                                           |                                                                            |
++++
+|                               | Couleur pour les dimensions angulaires.                                    |
+| **Couleur angulaire**            |                                                                            |
+|                                           |                                                                            |
++++
+|                               | Taille de la police en pixels.                                             |
+| **Taille de la police**          |                                                                            |
+|                                           |                                                                            |
++++
+|                               | Si cette case est cochée, le style de police gras est utilisé.             |
+| **Gras**                         |                                                                            |
+|                                           |                                                                            |
++++
+|                               | Si la case est cochée, le style de police utilisé est l\'italique.         |
+| **Italique**                     |                                                                            |
+|                                           |                                                                            |
++++
+|                               | La police à utiliser.                                                      |
+| **Nom de la police**             |                                                                            |
+|                                           |                                                                            |
++++
+|                               | Appuyez sur ce bouton pour mettre à jour les mesures existantes.           |
+| **Rafraîchir les mesures existantes** |                                                                            |
+|                                           |                                                                            |
++++
+
+![](images/Preferences_Part_design_Tab_Measure.png )
 
 ## Tesselation
 

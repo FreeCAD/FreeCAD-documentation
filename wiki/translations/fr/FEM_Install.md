@@ -26,7 +26,7 @@ Si le solveur est installé, assurez-vous que l\'atelier FEM est capable de trou
 
 ### Générateur de maillage FEM 
 
-Afin de créer un [FEM Mesh](FEM_Mesh/fr.md), FreeCAD utilise [Gmsh](http   *//gmsh.info/) comme mailleur par défaut. Pour que cela fonctionne, Gmsh doit être installé séparément de FreeCAD.
+Afin de créer un [maillage FEM](FEM_Mesh/fr.md), FreeCAD utilise [Gmsh](http   *//gmsh.info/) comme mailleur par défaut. En fonction de votre système d\'exploitation et de votre installation de FreeCAD, Gmsh est inclus ou non dans les binaires d\'installation de FreeCAD. S\'il n\'est pas intégré, vous pouvez l\'installer séparément de FreeCAD et ensuite utiliser le menu **Edition → Préférences → FEM → Gmsh** pour définir le chemin vers le *gmsh.exe*.
 
 Si le programme est correctement installé, vous pouvez exécuter la commande `gmsh` dans le terminal pour lancer l\'interface graphique du programme. Cette interface n'est pas utilisée par FreeCAD mais montre que le programme est installé.
 
@@ -132,7 +132,7 @@ Récupérez le package CalculiX à partir de [AUR repository](https   *//aur.arc
 
 -   Debian 9 Buster   * les paquets [dépôts](https   *//packages.debian.org/buster/calculix-ccx) sont obsolètes, mais vous pouvez utiliser les paquets du PPA Ubuntu (`freecad-community`). Voir [Gmsh 4 package available for testing in Community Extras PPA](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=31360&start=10#p279925) (post de forum).
 -   Debian 8 Stretch   * les paquets [dépôts](https   *//packages.debian.org/stretch/calculix-ccx) sont obsolètes, mais vous pouvez utiliser les packages de la PPA Ubuntu (`freecad-community`). Voir [Gmsh 4 package available for testing in Community Extras PPA](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=31360&p=279925#p260872) (post de forum).
--   Debian 7 Jessie   * installez les paquets à partir de Debian 8 Stretch en utilisant `dpkg`. Voir [http   *//forum.freecadweb.org/viewtopic.php?f=4&t=5975&p=110597\#p110597 Debian source package for Calculix](http   *//forum.freecadweb.org/viewtopic.php?f=4&t=5975&p=110597#p110597_Debian_source_package_for_Calculix.md) (message sur le forum).
+-   Debian 7 Jessie   * installez les paquets à partir de Debian 8 Stretch en utilisant `dpkg`. Voir [http   *//forum.freecadweb.org/viewtopic.php?f=4&t=5975&p=110597#p110597 Debian source package for Calculix](http   *//forum.freecadweb.org/viewtopic.php?f=4&t=5975&p=110597#p110597_Debian_source_package_for_Calculix.md) (message sur le forum).
 
 ### openSUSE
 

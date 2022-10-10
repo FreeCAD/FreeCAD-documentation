@@ -16,10 +16,25 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Vista attiva inserisce una copia di una finestra 3D in una pagina di disegno.
 
-![](images/TechDraw_ActiveView_example.png ) 
+
+</div>
+
+![](images/TechDraw_ActiveView_example.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Una vista semplice dal modello 3D.*
+
+
+</div>
 
 ## Utilizzo
 
@@ -38,47 +53,17 @@ Lo strumento Vista attiva inserisce una copia di una finestra 3D in una pagina d
 
 The following can be specified   *
 
--    **Width**   * The width of the generated view.
+-    **Crop**   * Crop the generated bitmap.
 
--    **Height**   * The height of the generated view.
+-    **Width**   * The width (in mm) to crop the generated view.
 
--    **Border**   * The amount of empty space to be left around the view (but within Width x Height).
+-    **Height**   * The height (in mm) to crop the generated view.
 
--    **Background**   * If checked a background with the specified color is added.
+-    **No Background**   * If checked, the generated bitmap will have a transparent background.
 
--    **Line Width**   * The thickness of the lines in the view.
+-    **Solid Background**   * If checked, the generated will have a background of the selected color.
 
--    **Render Mode**   * The available modes are   *
-
-    -   
-        {{Value|As is}}
-        
-           * Render primitives as they are.
-
-    -   
-        {{Value|Wireframe}}
-        
-           * Render polygons as wireframe.
-
-    -   
-        {{Value|Points}}
-        
-           * Render only the vertices of the polygons and lines.
-
-    -   
-        {{Value|Wireframe overlay}}
-        
-           * Render a wireframe overlay in addition to the {{Value|As is}} mode.
-
-    -   
-        {{Value|Hidden Line}}
-        
-           * As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
-
-    -   
-        {{Value|Bounding box}}
-        
-           * Only show the bounding box of each object.
+-    **Use 3d Background**   * If checked, the generated bitmap will use the background from the 3D window.
 
 ## Note
 
@@ -122,12 +107,6 @@ Lo strumento Vista attiva può essere utilizzato nelle [macro](macros/it.md) e d
 
 
 </div>
-
-
-```python
-import TechDrawGui
-TechDrawGui.copyActiveViewToSvgFile(Gui.ActiveDocument.ActiveView,"myFile.svg")
-```
 
 
 <div class="mw-translate-fuzzy">

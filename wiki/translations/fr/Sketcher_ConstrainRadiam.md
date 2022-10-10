@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher ConstrainRadiam
    Name/fr   *Sketcher Contrainte automatique rayon/diamètre
-   MenuLocation   *Esquisse → Contraintes d'esquisse → Contrainte automatique rayon/diamètre
+   MenuLocation   *Sketch → Contraintes d'esquisse → Contrainte automatique rayon/diamètre
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut   ***K** **S**
    Version   *0.20
@@ -21,12 +21,12 @@ Cette contrainte contraint automatiquement la valeur du rayon/diamètre d\'un ce
 
 Si plus d\'un cercle ou d\'un arc est sélectionné avant de lancer la commande..    *
 
--   Si la contrainte est appliquée en mode \'Référence\', une nouvelle contrainte de référence est ajoutée à chaque objet séparément selon les règles ci-dessus.
--   Si la contrainte est appliquée en mode \'Normal\' (conduite), les règles suivantes sont appliquées
+-   Si la contrainte est appliquée en mode \"Référence\", une nouvelle contrainte de référence est ajoutée à chaque objet séparément selon les règles ci-dessus.
+-   Si la contrainte est appliquée en mode \"Normal\" (conduite), les règles suivantes sont appliquées
     -   Une contrainte de référence est appliquée séparément sur chaque objet qui est une géométrie externe.
     -   Des **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Contraintes égalités](Sketcher_ConstrainEqual/fr.md)** sont appliquées successivement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
 
-NB    * Les pôles des B-splines ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
+NB    * les pôles des B-splines ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
 ## Utilisation
 

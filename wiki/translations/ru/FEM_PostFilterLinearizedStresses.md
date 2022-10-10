@@ -18,12 +18,18 @@
 
 Creates a stress linearization plot.
 
-## Использование
+To learn more about stress linearization plots, you can read [this description](https   *//www.graspengineering.com/what-is-stress-linearization/).
+
+<img alt="" src=images/FEM_Stress-Linearization-Plot-Example.png  style="width   *500px;">
+
+*A stress linearization plot.*
+
+## Применение
 
 1.  Select a previously created [Line clip filter](FEM_PostFilterDataAlongLine.md).
-2.  Invoke the command in one of the several ways   *
-    -   Press the **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> [Stress linearization plot](FEM_PostFilterLinearizedStresses.md)** button.
-    -   Select the **Results → <img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> Stress linearization plot** option from the menu.
+2.  Invoke the command either by   *
+    -   Pressing the button **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> '''Stress linearization plot'''**.
+    -   Using the menu **Results → <img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> Stress linearization plot**.
 3.  An XY plot with linearized stress values (membrane, membrane+bending and total) along the line will be created in a separate window.
 
 

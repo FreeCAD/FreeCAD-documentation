@@ -2,7 +2,7 @@
 - GuiCommand   *
    Name   *Sketcher Circles
    Icon   *Sketcher_CompCreateCircle.png
-   MenuLocation   *None (toolbar only)
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench.md)
 ---
 

@@ -9,7 +9,9 @@ FreeCAD kann als ein [Python](Python/de.md)-Modul in anderen Programmen oder ein
 
 Die erste, direkte, einfache und nützliche Anwendung die für Sie daraus entsteht, ist, FreeCAD-Dokumente in Ihre Programme zu importieren. Im folgenden Beispiel werden wir die Part-Geometrie eines FreeCAD-Dokuments in [Blender](http   *//www.blender.org) importieren. Hier ist das komplette Skript. Ich hoffe, Sie werden durch seine Einfachheit beeindruckt sein   * {{Code|lang=python|code=
 <nowiki>
-FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
+FREECADPATH = '/usr/lib/freecad-python3/lib/' # path to your FreeCAD.so or FreeCAD.pyd file,
+# for Windows you must either use \\ or / in the path, using a single \ is problematic
+# FREECADPATH = 'C   *FreeCAD\\bin'
 import Blender, sys
 sys.path.append(FREECADPATH)
  
@@ -46,12 +48,18 @@ if __name__=='__main__'   *
 </nowiki>
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 Der erste und wichtigste Teil ist sicherzustellen, das Python unsere FreeCAD-Bibliothek finden wird. Nachdem Python sie findet, werden alle FreeCAD-Module wie Part (das wir auch nutzen werden) automatisch zur Verfügung stehen. Also nehmen wir einfach die {{Incode|sys.path}}-Variable, wo Python nach Modulen suchen wird, und wir ergänzen sie um den FreeCAD-library-Pfad. Diese Änderung ist nur temporär und geht verloren, wenn wir unseren Python-Interpreter schließen. Ein alternativer Weg wäre, einen Link zu Ihrer FreeCAD-Bibliothek in einem der Python-Suchpfade anzulegen. Ich speicherte den Pfad in einer Konstanten {{Incode|FREECADPATH}}, so dass es für einen anderen Benutzer des Skripts dann einfacher ist, dieses für sein eigenes System zu konfigurieren.
 
 
+</div>
+
+
 {{Code|lang=python|code=
-FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
-import Blender, sys
+FREECADPATH = 'C   *FreeCAD\\bin' # path to your FreeCAD.so or FreeCAD.pyd file
+import sys
 sys.path.append(FREECADPATH)
 }}
 

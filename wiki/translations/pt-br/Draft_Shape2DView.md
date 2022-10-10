@@ -3,6 +3,7 @@
    Name   *Draft Shape2DView
    MenuLocation   *Modification → Shape 2D view
    Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   SeeAlso   *[TechDraw ProjectShape](TechDraw_ProjectShape.md)
 ---
 
 # Draft Shape2DView/pt-br
@@ -91,6 +92,8 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 -    **Visible Only|Bool**   * specifies if the projection should only be recomputed if it is visible.
 
 -    **Exclusion Points|Vector list**   * A list of exclusion points. Any edge passing through any of those points will not be drawn. <small>(v0.20)</small> 
+
+-    **Exclusion Names|String list**   * A list of object names. Any viewed or cut child object with a name in that list will not be drawn. <small>(v1.0)</small> 
 
 ### Vista
 

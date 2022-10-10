@@ -1,8 +1,9 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *Surface Filling
+   Name/de   *Surface Füllfläche
    MenuLocation   *Surface → Filling
-   Workbenches   *[Surface](Surface_Workbench.md)
+   Workbenches   *[Surface](Surface_Workbench/de.md)
    Version   *0.17
 ---
 
@@ -11,9 +12,9 @@
 ## Beschreibung
 
 
-**[<img src=images/Surface_Filling.svg style="width   *16px"> [Surface Filling](Surface_Filling.md)**
+**[<img src=images/Surface_Filling.svg style="width   *16px"> [Surface Füllfläche](Surface_Filling/de.md)**
 
-creates a surface from a series of connected boundary edges. The curvature of the surface can be additionally controlled by non-boundary edges and vertices, and a support surface.
+erstellet eine Oberfläche aus einer Reihe von verbundenen Randkurven. Die Krümmung der Oberfläche kann zusätzlich über Kanten und Knotenpunkte innerhalb der Fläche sowie einer Stützfläche gesteuert werden.
 
 The base geometry can belong to curves created with the [Draft Workbench](Draft_Workbench.md) or the [Sketcher Workbench](Sketcher_Workbench.md), but can also belong to solid objects such as those created with the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md).
 
@@ -55,9 +56,9 @@ The base geometry can belong to curves created with the [Draft Workbench](Draft_
 
 -   Press **Esc** or the **Cancel** button to abort the operation.
 
-## Example
+## Beispiel
 
-The **Support surface** acts as an additional constraint for the surface. The following simple example will give you an idea how this works   *
+Die **Stützfläche** Stellt eine weitere Randbedingung für die Oberfläche dar. Das folgende einfache Beispiel gibt einen Eindruck davon, wie dies funktioniert   *
 
 1.  In the <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part Workbench](Part_Workbench.md) create a <img alt="" src=images/Part_Cylinder.svg  style="width   *16px;">[cylinder](Part_Cylinder.md) and set its **Angle** to {{Value|180°}}.
 2.  Switch to the <img alt="" src=images/Workbench_Surface.svg  style="width   *16px;"> [Surface Workbench](Surface_Workbench.md) and press the **[<img src=images/Surface_Filling.svg style="width   *16px"> [Filling](Surface_Filling.md)** button.

@@ -26,7 +26,7 @@ If the solver is installed, make sure the FEM Workbench is able to find the bina
 
 ### FEM mesh generator 
 
-In order to create a [FEM Mesh](FEM_Mesh.md), FreeCAD uses [Gmsh](http   *//gmsh.info/) as the default mesher. For this to work, Gmsh should be installed separately from FreeCAD.
+In order to create a [FEM Mesh](FEM_Mesh.md), FreeCAD uses [Gmsh](http   *//gmsh.info/) as the default mesher. Depending or your operating system and your FreeCAD installation Gmsh is bundled with the FreeCAD installation binaries or not. If it is not bundled you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
 
 If the program is correctly installed, you may run the command `gmsh` in the terminal to launch the graphical interface of the program. This interface is not used by FreeCAD but demonstrates that the program is installed.
 

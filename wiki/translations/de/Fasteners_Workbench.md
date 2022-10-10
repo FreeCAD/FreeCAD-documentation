@@ -73,15 +73,15 @@ Verbindungselemente können zugeordnet oder lose sein. Zugeordnete Verbindungsel
 
 ## Befehle
 
--   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Verbindungselement Umdrehen](Fasteners_Flip/de.md)   * Ausrichtung der ausgewählten Verbindungselemente umkehren.
+-   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Verbindungselement Umdrehen](Fasteners_Flip/de.md)   * Ausrichtung der zugeordneten Verbindungselemente umkehren.
 
 -   <img alt="" src=images/Fasteners_Move.svg  style="width   *32px;"> [Verbindungselement Bewegen](Fasteners_Move/de.md)   * Ein Verbindungselement auf eine kreisförmige Kante bewegen und mit dieser zu verbinden. Kann auch zum Lösen der Verbindung verwendet werden.
 
--   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Form vereinfachen](Fasteners_Shape/de.md)   * Erstellt nichtparametrische Kopien der ausgewählten Verbindungselemente.
+-   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Form vereinfachen](Fasteners_Shape/de.md)   * Erstellt nichtparametrische Kopien der Verbindungselemente.
 
--   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *32px;"> [Match screws by inner thread diameter (Tap hole)](Fasteners_MatchTypeInner/de.md)   * Kreisförmige Kanten werden als Gewindebohrungen angesehen, wenn neue Verbindungselemente mit ihnen verbunden werden.
+-   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *32px;"> [Match tap hole](Fasteners_MatchTypeInner/de.md)   * Kreisförmige Kanten werden als Gewindebohrungen angesehen, wenn neue Verbindungselemente mit ihnen verbunden werden.
 
--   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   *32px;"> [Match screws by outer thread diameter (Pass hole)](Fasteners_MatchTypeOuter/de.md)   * Kreisförmige Kanten werden als Durchgangslöcher angesehen, wenn neue Verbindungselemente mit ihnen verbunden werden.
+-   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   *32px;"> [Match for pass hole](Fasteners_MatchTypeOuter/de.md)   * Kreisförmige Kanten werden als Durchgangslöcher angesehen, wenn neue Verbindungselemente mit ihnen verbunden werden.
 
 -   <img alt="" src=images/Fasteners_BOM.svg  style="width   *32px;"> [Stückliste generieren](Fasteners_BOM/de.md)   * Erstellt eine Tabelle mit einer Stückliste für die im Dokument verwendeten Verbindungselemente.
 
@@ -89,7 +89,7 @@ Verbindungselemente können zugeordnet oder lose sein. Zugeordnete Verbindungsel
 
 -   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width   *32px;"> [Senkungen vornehmen](Fasteners_ChamferHole/de.md)   * Erstellt eine Senkung an einem Loch für Senkschrauben.
 
--   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Parameter der Verbindungselemente ändern](Fasteners_ChangeParameters/de.md)   * Ändert die Parameter der ausgewählten Verbindungselemente.
+-   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Parameter der Verbindungselemente ändern](Fasteners_ChangeParameters/de.md)   * Ändert die Parameter der Verbindungselemente.
 
 ## Verbindungselemente
 
@@ -119,31 +119,13 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_EN1662.svg  style="width   *32px;"> **EN 1662** Sechskantschrauben mit Flansch, leichte Reihe.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Fasteners_EN1665.svg  style="width   *32px;"> **EN 1665** Sechskantschrauben mit Flansch, schwere Reihe.
 
-
-</div>
-
--   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Hexagon head wood screw.
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Sechskantholzschraube.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width   *32px;"> **ASME B18.2.1.6** UNC Sechskantschraube.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width   *32px;"> **ASME B18.2.1.8** UNC Sechskantschraube mit Flansch.
-
-
-</div>
 
 ### Schrauben mit Innensechskant 
 
@@ -155,13 +137,7 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_ISO7380-1.svg  style="width   *32px;"> **ISO 7380-1** Halbrundkopfschrauben mit Innensechsrund.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Fasteners_ISO7380-2.svg  style="width   *32px;"> **ISO 7380-2** Halbrundkopfschrauben mit Innensechsrund und Bund.
-
-
-</div>
 
 -   <img alt="" src=images/Fasteners_ISO10642.svg  style="width   *32px;"> **ISO 10642** Senkschrauben mit Innensechskant.
 
@@ -176,6 +152,8 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_ISO4029.svg  style="width   *32px;"> **ISO 4029** Gewindestifte mit Innensechskant und Ringschneide.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.1A.svg  style="width   *32px;"> **ASME B18.3.1A** UNC Hexagon socket head cap screw.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.3.1G.svg  style="width   *32px;"> **ASME B18.3.1G** UNC Hexagon socket head cap screw with low head.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.2.svg  style="width   *32px;"> **ASME B18.3.2** UNC Hexagon socket countersunk head screw.
 
@@ -223,40 +201,16 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 ### Kreuzschlitzschrauben
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Fasteners_DIN967.svg  style="width   *32px;"> **DIN 967** Linsenkopfschrauben mit Bund und Kreuzschlitz.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fasteners_ISO7045.svg  style="width   *32px;"> 
 **ISO 7045** Linsenkopfschrauben mit Kreuzschlitz H. *Produktklasse A.*
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Fasteners_ISO7046.svg  style="width   *32px;"> 
 **ISO 7046** Senkschrauben mit Kreuzschlitz H. *Produktklasse A.*
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Fasteners_ISO7047.svg  style="width   *32px;"> 
 **ISO 7047** Linsensenkschrauben mit Kreuzschlitz H. *Produktklasse A.*
-
-
-</div>
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width   *32px;"> **ISO 7048** Zylinderschrauben mit Kreuzschlitz.
 
@@ -301,12 +255,24 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> 
 **ISO 7090** Scheiben mit Fase, Form B. *Produktklasse A.*
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Scheiben, kleine Reihe.
+
+
+</div>
 
 -   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> 
 **ISO 7093-1** Flache Scheiben, große Reihe. *Produktklasse A.*
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Scheiben, extra große Reihe.
+
+
+</div>
 
 -   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Countersunk washer.
 
@@ -382,16 +348,10 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 ## Verweise
 
-
-<div class="mw-translate-fuzzy">
-
--   [Generating holes for countersunk screws in freecad](http   *//theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/)
--   [BOLTS](https   *//github.com/jreinhardt/BOLTS)   * An Open Library for Technical Specifications
+-   [Generating holes for countersunk screws in freecad](http   *//theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/) (Erstellung von Bohrungen für Senkschrauben)
+-   [BOLTS](https   *//github.com/jreinhardt/BOLTS)   * Eine offene Bibliothek für technische Spezifikationen
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
 -   [Makro Rezepte](Macros_recipes/de.md)
-
-
-</div>
 
 
 

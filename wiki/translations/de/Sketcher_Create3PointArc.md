@@ -12,20 +12,14 @@
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet einen Kreisbogen durch setzen von drei Punkten   * Den Startpunkt, den Endpunkt und einen Punkt auf dem Kreisbogen.
+Dieses Werkzeug zeichnet einen Kreisbogen durch Setzen von drei Punkten   * Dem Startpunkt, dem Endpunkt und einem Punkt auf dem Kreisbogen.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 Beim Start des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Kreisbogen-Symbol. Die Koordinaten des Zeigers werden daneben in blau in Echtzeit angezeigt.
 
--   Setze Punkte auf einem leeren Bereich in der 3D-Ansicht oder auf ein existierendes Objekt (Auto-Beschränkungen müssen in der Aufgaben Ansicht aktiviert sein).
--   Drücken von **Esc** oder klicken des rechten Maustaste bricht die Funktion ab.
-
-
-</div>
+-   Punkte in einem leeren Bereich in der 3D-Ansicht setzen oder auf einem existierenden Objekt (Automatische Randbedingungen müssen im [Aufgabenbereich](Task_panel/de.md) aktiviert sein).
+-   Das Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
 
 

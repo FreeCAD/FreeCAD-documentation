@@ -1,10 +1,12 @@
 ---
 - GuiCommand   */fr
    Name   *FCGear TimingGear
-   Name/fr   *FCGear TimingGear
-   MenuLocation   *FCGear → Create a Timing gear
+   Name/fr   *FCGear Engrenage de distribution
+   MenuLocation   *Gear → Timing Gear
    Workbenches   *[FCGear](FCGear_Workbench/fr.md)
+   Shortcut   *Aucun
    Version   *v0.16
+   SeeAlso   *
 ---
 
 # FCGear TimingGear/fr
@@ -20,56 +22,52 @@ Les engrenages de distribution sont connectés à une courroie de distribution o
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
-2.  Lancez la commande d\'une de ces manières   *
-    -   Appuyez sur le bouton <img alt="" src=images/FCGear_TimingGear.svg  style="width   *22px;"> [Create a Timing gear](FCGear_WormGear/fr.md) dans la barre d\'outils.
-    -   Utilisez le **Gear Menu → Timing gear**.
-3.  Modifier le paramètre d\'engrenage selon les conditions requises (voir **Propriétés → Données** ci-dessous).
+1.  Passez à l\' <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [atelier FCGear](FCGear_Workbench/fr.md).
+2.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur **[<img src=images/FCGear_TimingGear.svg style="width   *16px"> [Timing Gear](FCGear_TimingGear/fr.md)** dans la barre d\'outils.
+    -   Sélectionnez l\'option **Gear → [<img src=images/FCGear_TimingGear.svg style="width   *16px"> Timing Gear** dans le menu.
+3.  Modifiez le paramètre de l\'engrenage en fonction des conditions requises (voir [Propriétés](#Propri.C3.A9t.C3.A9s.md)).
 
 ## Propriétés
+
+Un objet FCGear TimingGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|base}}
 
--    {{PropertyData/fr|Placement}}   * [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **height|Length**   * valeur par défaut à {{Value|5 mm}}. Valeur de la largeur de l\'engrenage.
 
--    {{PropertyData/fr|Label}}   * nom d\'utilisateur de l\'objet dans [vue en arborescence](tree_view/fr.md).
+-    **teeth|Integer**   * valeur par défaut à {{Value|15}}. Nombre de dents.
+
+-    **type|Enumeration**   * valeur par défaut à {{Value|gt2}}. Type de denture - pas de profil pour les courroies dentées (voir [Remarques](#Remarques.md)).
 
 
 {{Properties_Title|computed}}
 
--    {{PropertyData/fr|h}}   * Hauteur radiale des dents (non modifiable, calculée automatiquement).
+-    **h|Length**   * (lecture seule) hauteur radiale des dents.
 
--    {{PropertyData/fr|offset}}   * X-Offset du point médian du deuxième arc (non modifiable, calculé automatiquement).
+-    **offset|Length**   * (lecture seule) décalage en X du milieu du deuxième arc.
 
--    {{PropertyData/fr|pitch}}   * Pas de vitesse (non modifiable, calculé automatiquement).
+-    **pitch|Length**   * (lecture seule) pas de l\'engrenage.
 
--    {{PropertyData/fr|r0}}   * Le rayon du premier arc (non modifiable, calculé automatiquement).
+-    **r0|Length**   * (lecture seule) rayon du premier arc.
 
--    {{PropertyData/fr|r1}}   * Le rayon du deuxième arc (non modifiable, calculé automatiquement).
+-    **r1|Length**   * (lecture seule) rayon du second arc.
 
--    {{PropertyData/fr|rs}}   * Le rayon du troisième arc (non modifiable, calculé automatiquement).
+-    **rs|Length**   * (lecture seule) rayon du troisième arc.
 
--    {{PropertyData/fr|u}}   * Différence radiale entre le pas... diamètre et la tête d\'engrenage (non modifiable, calculée automatiquement).
+-    **u|Length**   * (lecture seule) différence radiale entre le diamètre du pas \... et la tête de l\'engrenage.
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|version}}
 
--    {{PropertyData/fr|height}}   * La valeur par défaut est 5,00 mm. Valeur de la largeur de l\'engrenage.
-
--    {{PropertyData/fr|teeth}}   * La valeur par défaut est 20. Nombre de dents.
-
--    {{PropertyData/fr|type}}   * La valeur par défaut est gt2. Type d\'engrenage de distribution - pas de profil pour les courroies de distribution (voir également les informations dans **Remarques**).
-
-### Vue
-
-La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur de propriétés](Property_editor/fr.md) dans **Exemple de propriétés d'un objet PartDesign**.
+-    **version|String**   *
 
 ## Remarques
 
--    **type**   * Le pas des courroies de distribution (distance du centre de la dent au centre de la dent des dents consécutives) est spécifié en types. GT2 a un pas de 2 mm, GT3 de 3 mm, GT5 de 5 mm etc\...
+-    **type**   * pas des courroies de distribution (distance du centre de la dent au centre de la dent des dents consécutives) est spécifié en types. GT2 a un pas de 2 mm, GT3 de 3 mm, GT5 de 5 mm etc.
 
 ## Formules utiles 
 

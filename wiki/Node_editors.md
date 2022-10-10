@@ -1,9 +1,6 @@
 # Node editors
 {{TOCright}}
 
-
-**WIP, feel free to help create it**
-
 ## Background
 
 This page is dedicated to tracking different node-editor paradigms related, in some fashion, to FreeCAD.
@@ -18,19 +15,23 @@ The following is a list of node editors that can or potentially can work in Free
 
 ### Sverchok
 
-Sverchok   * <https   *//forum.freecadweb.org/viewtopic.php?style=4&t=51069&p=438881>
+<https   *//forum.freecadweb.org/viewtopic.php?f=8&t=51069>
+
+<https   *//forum.freecadweb.org/viewtopic.php?f=8&t=67728>
+
+[BlenderSverchokAddonSetup](BlenderSverchokAddonSetup.md)
 
 ### Pure-Data 
 
-Pure Data   * <https   *//forum.freecadweb.org/viewtopic.php?f=24&t=51429>
+<https   *//forum.freecadweb.org/viewtopic.php?f=24&t=51429>
 
 ### Modelica
 
-Modelica   * <https   *//forum.freecadweb.org/viewtopic.php?t=32556>
+<https   *//forum.freecadweb.org/viewtopic.php?f=18&t=32556>
 
-### DynFreeCAD
+### DynFreeCAD (Dynamo) 
 
-Nodes for managing FreeCAD from Dynamo ([forum thread](https   *//forum.freecadweb.org/viewtopic.php?t=49910))
+<https   *//forum.freecadweb.org/viewtopic.php?f=8&t=49910>
 
 
 

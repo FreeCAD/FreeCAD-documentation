@@ -23,8 +23,27 @@ Das Bild Werkzeug fügt ein [Bitmap](bitmap/de.md) Bild (PNG, JPEG, JPG, BMP usw
 
 ## Eigenschaften
 
--   Verwende die Eigenschaft Skalieren, um die Größe des Bildes anzupassen.
--   Verwende die Eigenschaften Breite und Höhe, um das Bild auszuschneiden.
+See also [TechDraw View](TechDraw_View#Properties.md).
+
+### Data
+
+
+{{TitleProperty|Image}}
+
+-    **Image File|File**   * The file containing this bitmap.
+
+-    **Image Included|FileIncluded**   * Embedded image file. System use only.
+
+-    **Width|Float**   * The width of the cropped image in mm. Only used if **Crop** is `True`.
+
+-    **Height|Float**   * The height of the cropped image in mm. Idem.
+
+### View
+
+
+{{TitleProperty|Image}}
+
+-    **Crop|Bool**   * Crop the image to **Width** x **Height**.
 
 ## Skripten
 

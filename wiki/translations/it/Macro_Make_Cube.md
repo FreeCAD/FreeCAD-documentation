@@ -18,9 +18,9 @@ Questa macro crea un cubo chiedendo 4 punti
 
 ## Script
 
-ToolBar Icon ![](images/Macro_makeCube.png )
+Icona barra strumenti ![](images/Macro_makeCube.png )
 
-**Macro\_Make\_Cube.FCMacro**
+**Macro_Make_Cube.FCMacro**
 
 
 {{MacroCode|code=

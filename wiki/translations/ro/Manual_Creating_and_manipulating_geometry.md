@@ -209,7 +209,7 @@ Acest lucru se datorează faptului că atunci când extrudăm o singură față,
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
-print(s.ShapeType)
+print(S.ShapeType)
 ```
 
 Care, desigur, ne va da o cochilie goală, cu fațetele de sus și de jos lipsă.

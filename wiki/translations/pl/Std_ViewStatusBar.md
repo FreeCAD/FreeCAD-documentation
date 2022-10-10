@@ -11,7 +11,7 @@
 
 ## Opis
 
-Polecenie **Pasek stanu** przełącza wyświetlanie [Paska stanu](Status_bar/pl.md).
+Polecenie **Pasek stanu** przełącza wyświetlanie [Paska statusu](Status_bar/pl.md).
 
 ## Użycie
 

@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher ConstrainDistance
    Name/fr   *Sketcher Contrainte dimensionnelle
-   MenuLocation   *Esquisse → Contraintes d'esquisse → Contrainte dimensionnelle
+   MenuLocation   *Sketch → Contraintes d'esquisse → Contrainte de dimension
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut   ***K** **D**
    SeeAlso   *[Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
@@ -19,10 +19,10 @@ La **Contrainte dimensionnelle** spécifie par une valeur la longueur d\'une lig
 ## Utilisation
 
 1.  Choisissez deux points ou une ligne ou un point et une ligne.
-2.  Appelez la commande de plusieurs manières    *
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistance.svg style="width   *16px"> [Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md)**
+2.  Lancez la commande de plusieurs manières    *
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistance.svg style="width   *16px"> [Contrainte de dimension](Sketcher_ConstrainDistance/fr.md)**
     -   Utilisez les raccourcis clavier **K** puis **D**
-    -   Utilisez l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width   *16px"> Contrainte dimensionnelle** dans le menu supérieur.
+    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width   *16px"> Contrainte de dimension** dans le menu supérieur.
 3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 
 **Remarque    *** l\'outil de contrainte peut également être démarré sans sélection préalable. Pour définir la distance perpendiculaire entre un point et une droite, le point doit être sélectionné en premier. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes; appuyez sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.

@@ -19,7 +19,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 ### src/Mod/Part/Gui/Resources/icons/measure
 
-<img alt="" src=images/Part_Measure_Angular.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Linear.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Refresh.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Step_Active.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Step_Done.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Toggle_3d.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *64px;">
+<img alt="" src=images/Part_Measure_Angular.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Linear.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Refresh.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Step_Active.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Step_Done.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width   *64px;"> <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *64px;">
 
 ### src/Mod/Part/Gui/Resources/icons/parametric
 

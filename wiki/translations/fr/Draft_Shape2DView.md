@@ -4,6 +4,7 @@
    Name/fr   *Draft Vue 2D d'une forme
    MenuLocation   *Modification → Vue 2D de la forme
    Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[TechDraw Projection de forme](TechDraw_ProjectShape/fr.md)
 ---
 
 # Draft Shape2DView/fr
@@ -92,6 +93,8 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
 -    **Visible Only|Bool**   * spécifie si la projection doit être recalculée uniquement si elle est visible.
 
 -    **Exclusion Points|Vector list**   * Une liste de points d\'exclusion. Toute arête passant par l\'un de ces points ne sera pas dessinée. {{Version/fr|0.20}}
+
+-    **Exclusion Names|String list**   * Une liste de noms d\'objets. Tout objet enfant vu ou coupé dont le nom figure dans cette liste ne sera pas dessiné. {{Version/fr|1.0}}
 
 ### Vue
 

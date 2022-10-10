@@ -7,7 +7,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument creează o racordarea între două linii care se unesc într-un punct. Activați instrumentul, apoi selectați ambele linii sau click pe punctul de colț.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

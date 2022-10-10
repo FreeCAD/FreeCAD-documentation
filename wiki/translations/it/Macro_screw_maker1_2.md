@@ -29,7 +29,7 @@ Quando si seleziona una combinazione di proprietà non disponibile l\'utente vie
 
 <center>
 
-<File   *Macro_screw_maker_02.png%7CL'interfaccia> di **screw\_maker** e alcuni tipi di viti. <File   *Macro_screw_maker_03.png%7CUn> bullone con la filettatura
+<File   *Macro_screw_maker_02.png%7CL'interfaccia> di **screw_maker** e alcuni tipi di viti. <File   *Macro_screw_maker_03.png%7CUn> bullone con la filettatura
 
 
 </center>
@@ -38,17 +38,11 @@ Creare il filetto richiede molto tempo. Siate pazienti e date un\'occhiata all\'
 
 ## Codice
 
-
-<div class="mw-translate-fuzzy">
-
 L\'ultima versione della macro è disponibile all\'indirizzo [ScrewMaker.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
-
-
-</div>
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 
-**Macro\_screw\_maker\_2.FCMacro**
+**Macro_screw_maker_2.FCMacro**
 
 
 {{MacroCode|code=

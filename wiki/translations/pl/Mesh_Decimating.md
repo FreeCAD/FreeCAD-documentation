@@ -1,30 +1,31 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh Decimating
-   MenuLocation   *Meshes → Decimation...
-   Workbenches   *[Mesh](Mesh_Workbench.md)
+   Name/pl   *Siatka   * Decymacja
+   MenuLocation   *Siatki → Decymacja ...
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
 ---
 
 # Mesh Decimating/pl
 
-## Description
+## Opis
 
-The **Mesh Decimating** command reduces the number of faces in mesh objects.
+Polecenie **Decymacja** zmniejsza liczbę ścian w obiektach siatkowych.
 
-## Usage
+## Użycie
 
-1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_Decimating.svg" width=16px> [Mesh Decimating](Mesh_Decimating.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_Decimating.svg" width=16px> Decimation...** option from the menu.
-3.  The **Decimating** task panel opens.
-4.  Specify the **Reduction**   *
-    -   If only one mesh object has been selected and you choose the **Absolute number** option   *
-        -   Move the slider or enter a number to specify an absolute number of faces.
-    -   In other cases   *
-        -   Move the slider or enter a number to specify a percentage of faces.
-        -   Specify the **tolerance**.
-5.  Press the **OK** button to finish the command.
+1.  Wybierz jeden lub więcej obiektów siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_Decimating.svg" width=16px> [Decymacja](Mesh_Decimating.md)**.
+    -   Wybierz polecenie z menu **Meshes → <img src="images/Mesh_Decimating.svg" width=16px> Decymacja ...**.
+3.  Otworzy się panel zadań **Dziesiątkowanie**.
+4.  Określ opcję **Redukcja**   *
+    -   Jeśli zaznaczono tylko jeden obiekt siatkowy i wybrano opcję **Liczba bezwzględna**   *
+        -   Przesuń suwak lub wpisz liczbę, aby określić nieprzekraczalną liczbę ścian.
+    -   W pozostałych przypadkach   *
+        -   Przesuń suwak lub wprowadź liczbę, aby określić procentową liczbę ścian.
+        -   Określ parametr **Tolerancja**.
+5.  Naciśnij przycisk **OK**, aby zakończyć polecenie.
 
 
 

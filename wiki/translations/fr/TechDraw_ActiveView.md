@@ -5,17 +5,17 @@
    MenuLocation   *TechDraw → Insérer la vue active (dans la vue 3D)
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
    Version   *0.19
-   SeeAlso   *[TechDraw Symbole SVG](TechDraw_Symbol/fr.md)
+   SeeAlso   *[TechDraw Image](TechDraw_Image/fr.md)
 ---
 
 # TechDraw ActiveView/fr
 
 ## Description
 
-L\'outil Vue active insère une copie d\'une fenêtre 3D dans une page de dessin.
+L\'outil Vue active insère une image bitmap de la fenêtre 3D active dans une page de dessin.
 
 ![](images/TechDraw_ActiveView_example.png ) 
-*Une vue simple du modèle 3D qui n'effectue aucun calcul complexe.*
+*Une vue simple du modèle 3D.*
 
 ## utilisation
 
@@ -34,57 +34,27 @@ L\'outil Vue active insère une copie d\'une fenêtre 3D dans une page de dessin
 
 Les éléments suivants peuvent être spécifiés    *
 
--    **Largeur**   * La largeur de la vue générée.
+-    **Recadrer**   * recadrer le bitmap généré.
 
--    **Hauteur**   * La hauteur de la vue générée.
+-    **Largeur**   * largeur (en mm) pour recadrer la vue générée.
 
--    **Décalage**   * La quantité d\'espace vide à laisser autour de la vue (mais dans les limites de la largeur x de la hauteur).
+-    **Hauteur**   * hauteur (en mm) à recadrer la vue générée.
 
--    **Arrière-plan**   * Si la case est cochée, un arrière-plan de la couleur spécifiée est ajouté.
+-    **Pas d'arrière-plan**   * si cette case est cochée, le bitmap généré aura un fond transparent.
 
--    **Epaisseur de ligne**   * L\'épaisseur des lignes dans la vue.
+-    **Arrière-plan opaque**   * si cette case est cochée, le bitmap généré aura un arrière-plan de la couleur sélectionnée.
 
--    **Type de rendu**   * Les modes disponibles sont    *
-
-    -   
-        {{Value|Comme maintenant}}
-        
-           * Rendu des primitives telles qu\'elles sont.
-
-    -   
-        {{Value|Filaire}}
-        
-           * Rendu des polygones sous forme filaire.
-
-    -   
-        {{Value|Points}}
-        
-           * Rendu uniquement des sommets des polygones et des lignes.
-
-    -   
-        {{Value|Superposition filaire}}
-        
-           * Rendu d\'une superposition filaire en plus du mode {{Value|Comme maintenant}}.
-
-    -   
-        {{Value|Lignes cachées}}
-        
-           * Comme {{Value|Filaire}}, mais élimine les lignes qui ne seraient pas affichées autrement en raison de l\'élimination géométrique.
-
-    -   
-        {{Value|Cadre de sélection}}
-        
-           * Affiche uniquement la boîte englobante de chaque objet.
+-    **Utiliser un arrière-plan 3D**   * si cette case est cochée, le bitmap généré utilisera l\'arrière-plan de la fenêtre 3D.
 
 ## Remarques
 
--   Les vues actives sont statiques une fois générées, elles ne sont jamais mises à jour avec les modifications apportées au modèle 3D.
--   Une Vue active est en réalité un [Symbole](TechDraw_Symbol/fr.md). Sa **Scale Type** est donc toujours initialisée à {{Value|Custom}}.
--   Cet outil est encore quelque peu **Expérimental**.
+-   Les Vues actives sont statiques une fois générées, elles ne sont jamais mises à jour avec les modifications apportées au modèle 3D.
+-   Une Vue active est en réalité une [Image](TechDraw_Image/fr.md). Sa **Scale Type** est donc toujours initialisée comme {{Value|Custom}}.
+-   Dans {{VersionMinus/fr|0.20}}, une Vue active était un [Symbole](TechDraw_Symbol/fr.md).
 
 ## Propriétés
 
-Voir [TechDraw Symbole SVG](TechDraw_Symbol/fr.md).
+Voir [TechDraw Image](TechDraw_Image/fr#Propri.C3.A9t.C3.A9s.md).
 
 ## Script
 
@@ -93,13 +63,7 @@ Voir [TechDraw Symbole SVG](TechDraw_Symbol/fr.md).
 
 [TechDraw API](TechDraw_API/fr.md) et [FreeCAD Script de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil ActiveView peut être utilisé dans [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
-
-
-```python
-import TechDrawGui
-TechDrawGui.copyActiveViewToSvgFile(Gui.ActiveDocument.ActiveView,"myFile.svg")
-```
+L\'outil Vue active n\'est pas disponible pour [macros](Macros/fr.md) ou la [console Python](Python_console/fr.md). Utilisez [Std Capture d\'écran](Std_ViewScreenShot/fr.md) à la place.
 
 
 

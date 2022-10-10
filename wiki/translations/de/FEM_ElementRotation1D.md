@@ -10,14 +10,14 @@
 
 ## Beschreibung
 
-**ElementRotation1D** is used to rotate the beam profile around the axis of beam elements.
+Ein **ElementRotation1D**-Objekt wird zum drehen des Balkenprofils um die Achse von Balkenelementen verwendet.
 
-## Usage
+## Anwendung
 
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/FEM_ElementRotation1D.svg" width=16px> [FEM ElementRotation1D](FEM_ElementRotation1D.md)** button.
-    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementRotation1D.svg" width=16px> Beam rotation** option from the menu.
-2.  Specify the angle by which the beam profile is to be rotated.
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/FEM_ElementRotation1D.svg" width=16px> [Trägerrotation](FEM_ElementRotation1D/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Element-Geometrie → <img src="images/FEM_ElementRotation1D.svg" width=16px> Trägerrotation** auswählen.
+2.  Den Winkel festlegen, um den das Balkenprofil gedreht wird.
 
 ## Optionen
 
@@ -25,7 +25,7 @@
 
 ## Begrenzungen
 
--   Currently multiple rotations are not supported (a single rotation is applied to all beams in the model).
+-   Derzeit werden mehrere Drehungen nicht unterstützt (Eine einzige Drehung wird auf alle Balken im Modell angewendet).
 
 ## Hinweise
 

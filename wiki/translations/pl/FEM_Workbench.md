@@ -5,36 +5,36 @@
 
 ## Wprowadzenie
 
-The [FEM Workbench](FEM_Workbench.md) provides a modern [finite element analysis](https   *//en.wikipedia.org/wiki/Finite_element_analysis) (FEA) workflow for FreeCAD. Mainly this means all tools to make an analysis are combined into one graphical user interface (GUI).
+Środowisko pracy **MES** zapewnia nowoczesną [analizę metodą elementów skończonych](https   *//en.wikipedia.org/wiki/Finite_element_analysis) *(FEA)* dla FreeCAD. Głównie oznacza to, że wszystkie narzędzia do wykonania analizy są połączone w jeden graficzny interfejs użytkownika *(GUI)*.
 
 <img alt="" src=images/FemWorkbench.jpg  style="width   *300px;">
 
 ## Przepływ pracy 
 
-The steps to carry out a finite element analysis are   *
+Kroki przeprowadzania analizy metodą elementów skończonych   *
 
-1.  Preprocessing   * setting up the analysis problem.
-    1.  Modeling the geometry   * creating the geometry with FreeCAD, or importing it from a different application.
-    2.  Creating an analysis.
-        1.  Adding simulation constraints such as loads and fixed supports to the geometric model.
-        2.  Adding materials to the parts off the geometric model.
-        3.  Creating a finite element mesh for the geometrical model, or importing it from a different application.
-2.  Solving   * running an external solver from within FreeCAD.
-3.  Postprocessing   * visualizing the analysis results from within FreeCAD, or exporting the results so they can be postprocessed with another application.
+1.  Preprocessing   * ustawienie zagadnienia analizy.
+    1.  Modelowanie geometrii   * tworzenie geometrii za pomocą programu FreeCAD lub importowanie jej z innej aplikacji.
+    2.  Tworzenie analizy.
+        1.  Dodawanie do modelu geometrycznego uwarunkowań symulacyjnych, takich jak obciążenia i podpory stałe.
+        2.  Dodawanie materiałów do części poza modelem geometrycznym.
+        3.  Tworzenie siatki elementów skończonych dla modelu geometrycznego lub importowanie jej z innej aplikacji.
+2.  Rozwiązywanie   * uruchamianie zewnętrznego solwera z poziomu FreeCAD.
+3.  Postprocessing   * wizualizacja wyników analizy z poziomu FreeCAD lub eksportowanie wyników, aby można je było przetworzyć w innej aplikacji.
 
-The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbench makes use of external solvers, the amount of manual setup will depend on the operating system that you are using. See [FEM Install](FEM_Install.md) for instructions on setting up the external tools.
+Środowisko pracy MES może być używane w systemach Linux, Windows i Mac OSX. Ponieważ korzysta z zewnętrznych solverów, zakres ręcznej konfiguracji zależy od systemu operacyjnego, z którego korzystasz. Instrukcje dotyczące konfiguracji zewnętrznych narzędzi znajdują się na stronie [Instalacja środowiska MES](FEM_Install/pl.md).
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width   *600px;">
 
 
 
-*Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem*
+*Przepływ pracy w środowisku MES. Środowisko to wywołuje dwa zewnętrzne środowiska w celu wykonania siatkowania obiektu bryłowego oraz rozwiązania problemu metodą elementów skończonych.*
 
 ## Menu   * Model 
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width   *32px;"> [Analysis container](FEM_Analysis.md)   * Creates a new container for a mechanical analysis. If a solid is selected in the tree view before clicking on it, the meshing dialog will be opened next.
 
-### Materials
+### Materiał
 
 -   <img alt="" src=images/FEM_MaterialSolid.svg  style="width   *32px;"> [Material for solid](FEM_MaterialSolid.md)   * Lets you select a solid material from the database.
 
@@ -46,7 +46,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Material editor](FEM_MaterialEditor.md)   * Lets you open the material editor to edit materials.
 
-### Element Geometry 
+### Geometria elementu 
 
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width   *32px;"> [Beam cross section](FEM_ElementGeometry1D.md)   * Used to define cross sections for beam elements.
 
@@ -62,7 +62,9 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 ### Fluid Constraints 
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)   * Used to define an initial flow velocity for the domain.
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width   *32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)   * Used to define an initial flow velocity for the body.
+
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md)   * Used to define an initial pressure for the body. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width   *32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md)   * Used to define a flow velocity as a boundary condition at an edge (2D) or face (3D).
 
@@ -116,9 +118,9 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 ### Overwrite Constants 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)   * <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)   * Used to overwrite the [permittivity of vacuum](https   *//en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value. <small>(v0.19)</small> 
 
-## Menu   * Mesh 
+## Menu   * Siatka 
 
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width   *32px;"> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md)   * Generates a finite element mesh for a model using Netgen.
 
@@ -134,7 +136,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *32px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md)   * Convert the surface of a FEM mesh to a mesh.
 
-## Menu   * Solve 
+## Menu   * Rozwiąż 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md)   * Creates a new solver for this analysis. In most cases the solver is created together with the analysis.
 
@@ -146,17 +148,17 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width   *32px;"> [Solver Z88](FEM_SolverZ88.md)   * Creates the solver controller for Z88. It is independent from other solver objects.
 
--   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Elasticity equation](FEM_EquationElasticity.md)   *
+-   <img alt="" src=images/FEM_EquationElasticity.svg  style="width   *32px;"> [Elasticity equation](FEM_EquationElasticity.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform mechanical analyses.
 
--   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Electricforce equation](FEM_EquationElectricforce.md)   * <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Electricforce equation](FEM_EquationElectricforce.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate the electric force on surfaces. <small>(v0.19)</small> 
 
--   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Electrostatic equation](FEM_EquationElectrostatic.md)   *
+-   <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *32px;"> [Electrostatic equation](FEM_EquationElectrostatic.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform electrostatic analyses.
 
--   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Flow equation](FEM_EquationFlow.md)   *
+-   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Flow equation](FEM_EquationFlow.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform flow analyses.
 
--   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Flux equation](FEM_EquationFlux.md)   *
+-   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Flux equation](FEM_EquationFlux.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform flux analyses.
 
--   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Heat equation](FEM_EquationHeat.md)   *
+-   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Heat equation](FEM_EquationHeat.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform heat transfer analyses.
 
 -   <img alt="" src=images/FEM_SolverControl.svg  style="width   *32px;"> [Solver job control](FEM_SolverControl.md)   * Opens the menu to adjust and start the selected solver.
 
@@ -186,9 +188,13 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width   *32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint.md)   * Used to display value of a selected field at a given point.
 
--   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter functions](FEM_PostCreateFunctions.md)   * Used to define how the result mesh is cut for the [Function cut filter](FEM_PostFilterCutFunction.md) and [Region clip filter](FEM_PostFilterClipRegion.md).
+-   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width   *48px;"> [Filter functions](FEM_PostCreateFunctions.md)   * This is an icon menu in the FEM Results toolbar that holds the following commands   *
 
-## Menu   * Utilities 
+   ** <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md)   * Defines that the result mesh is cut with a plane.
+
+   ** <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md)   * Defines that the result mesh is cut with a sphere.
+
+## Menu   * Narzędzia 
 
 -   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width   *32px;"> [Clipping plane on face](FEM_ClippingPlaneAdd.md)   * Adds a clipping plane for the whole model view.
 
@@ -196,17 +202,17 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_Examples.svg  style="width   *32px;"> [Open FEM examples](FEM_Examples.md)   * Open the GUI to access FEM examples.
 
-## Context Menu 
+## Menu podręczne 
 
 -   <img alt="" src=images/FEM_MeshClear.svg  style="width   *32px;"> [Clear FEM mesh](FEM_MeshClear.md)   * Deletes the mesh file from the FreeCAD file. Useful to make a FreeCAD file lighter.
 
 -   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width   *32px;"> [Display FEM mesh info](FEM_MeshDisplayInfo.md)   * Displays basic statistics of existing mesh - number of nodes and elements of each type.
 
-## Preferences
+## Ustawienia
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width   *32px;"> [Preferences\...](FEM_Preferences.md)   * Preferences available in FEM Tools.
 
-## Information
+## Informacje dodatkowe 
 
 The following pages explain different topics of the FEM Workbench.
 
@@ -220,51 +226,51 @@ The following pages explain different topics of the FEM Workbench.
 
 [FEM Concrete](FEM_Concrete.md)   * interesting information on the topic of simulating concrete structures.
 
-## Tutorials
+## Poradniki
 
-Tutorial 1   * [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md); basic simply supported beam analysis.
+Poradnik 1   * [MES CalculiX wspornik 3D](FEM_CalculiX_Cantilever_3D/pl.md), podstawowa analiza belki swobodnie podpartej.
 
-Tutorial 2   * [FEM Tutorial](FEM_tutorial.md); simple tension analysis of a structure.
+Poradnik 2   * [Poradnik dla środowiska pracy MES](FEM_tutorial/pl.md), prosta analiza naprężenia konstrukcji.
 
-Tutorial 3   * [FEM Tutorial Python](FEM_Tutorial_Python.md); set up the cantilever example entirely through scripting in Python, including the mesh.
+Poradnik 3   * [Skrypty w środowisku MES](FEM_Tutorial_Python/pl.md), skonfiguruj przykład wspornika całkowicie poprzez skrypty w środowisku Python, w tym siatkę.
 
-Tutorial 4   * [FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md); see the deformation of a block that is comprised of two materials.
+Poradnik 4   * [Ścinanie bloku kompozytowego](FEM_Shear_of_a_Composite_Block/pl.md), obserwuj deformację bloku, który składa się z dwóch materiałów.
 
-Tutorial 5   * [Transient FEM analysis](Transient_FEM_analysis.md)
+Poradnik 5   * [Analiza MES w stanie przejściowym](Transient_FEM_analysis/pl.md).
 
-Tutorial 6   * [Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)
+Poradnik 6   * [Post-Processing wyników MES za pomocą Paraview](Post-Processing_of_FEM_Results_with_Paraview/pl.md).
 
-Tutorial 7   * [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md); Elmer\'s GUI tutorial 6 \"Electrostatics Capacitance Two Balls\" using FEM Examples.
+Poradnik 7   * [Przykład pojemność dwóch kul](FEM_Example_Capacitance_Two_Balls/pl.md), Elmer\'s GUI poradnik 6 \"Elektrostatyka Pojemność Dwóch Kul\" z wykorzystaniem przykładów FEM.
 
-Coupled thermal mechanical analysis tutorials by [openSIM](https   *//opensimsa.github.io/training.html)
+Sprzężona analiza termiczno-mechaniczna poradnik [openSIM](https   *//opensimsa.github.io/training.html).
 
-Video tutorial 1   * [FEM video for beginner](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499#p158353) (including YouTube link)
+Wideo poradnik 1   * [FEM wideo dla początkujących](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499#p158353) *(w tym link do YouTube)*.
 
-Video tutorial 2   * [FEM video for beginner](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162321) (including YouTube link)
+Wideo poradnik 2   * [FEM wideo dla początkujących](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162321) *(w tym link do YouTube)*.
 
-Many video tutorials   * [anisim Open Source Engineering Software](https   *//www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw) (in German)
+Wiele poradników w formie wideo   * [anisim Open Source Engineering Software](https   *//www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw), *(w języku niemieckim)*.
 
-## Extending the FEM Workbench 
+## Rozszerzenie środowiska pracy MES 
 
-The FEM Workbench is under constant development. An objective of the project is to find ways to easily interact with various FEM solvers, so that the end user can streamline the process of creating, meshing, simulating, and optimizing an engineering design problem, all within FreeCAD.
+Środowisko pracy MES jest w ciągłym rozwoju. Celem projektu jest znalezienie sposobu na łatwą interakcję z różnymi solverami MES, tak aby użytkownik końcowy mógł usprawnić proces tworzenia, siatkowania, symulacji i optymalizacji problemu projektowego, wszystko w ramach programu FreeCAD.
 
-The following information is aimed at power users and developers who want to extend the FEM Workbench in different ways. Familiarity with C++ and Python is expected, and also some knowledge of the \"document object\" system used in FreeCAD is necessary; this information is available in the [Power users hub](Power_users_hub.md) and the [Developer hub](Developer_hub.md). Please notice that since FreeCAD is under active development, some articles may be too old, and thus obsolete. The most up to date information is discussed in the [FreeCAD forums](https   *//forum.freecadweb.org/index.php), in the Development section. For FEM discussions, advice or assistance in extending the workbench, the reader should refer to the [FEM subforum](https   *//forum.freecadweb.org/viewforum.php?f=18).
+Poniższe informacje są skierowane do użytkowników i programistów, którzy chcą rozszerzyć środowisko MES na różne sposoby. Oczekiwana jest znajomość C++ i Pythona, a także pewna znajomość systemu \"document object\" używanego w FreeCAD. Informacje te są dostępne na stronach [Centrum Power użytkowników](Power_users_hub/pl.md) i [Centrum programisty](Developer_hub/pl.md). Proszę zauważyć, że ponieważ FreeCAD jest w trakcie aktywnego rozwoju, niektóre artykuły mogą być zbyt stare, a więc przestarzałe. Najbardziej aktualne informacje są omawiane na [forum FreeCAD](https   *//forum.freecadweb.org/index.php), w sekcji Development. W przypadku dyskusji na temat MES, porad lub pomocy w rozszerzeniu środowiska pracy, czytelnik powinien odnieść się do [forum FEM](https   *//forum.freecadweb.org/viewforum.php?f=18).
 
-The following articles explain how the workbench can be extended, for example, by adding new types of boundary conditions (constraints), or equations.
+Poniższe artykuły wyjaśniają, jak można rozszerzyć środowisko pracy, np. poprzez dodanie nowych typów warunków brzegowych *(wiązań)*, czy równań.
 
--   [Extend FEM Module](Extend_FEM_Module.md)
--   [Onboarding FEM Devs](Onboarding_FEM_Devs.md) attempts to orient new devs on how to contribute to the FEM workbench.
--   [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md)
--   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)
+-   [Rozszerzenie modułu FEM](Extend_FEM_Module/pl.md)
+-   [Wprowadzenie do MES dla programistów](Onboarding_FEM_Devs/pl.md) próbuje zorientować nowych twórców, w jaki sposób mogą przyczynić się do rozwoju środowiska pracy MES.
+-   [Dodawanie wiązań w środowisku MES](Add_FEM_Constraint_Tutorial/pl.md)
+-   [Dodawanie równań w środowisku MES](Add_FEM_Equation_Tutorial/pl.md)
 
-A developer\'s guide has been written to help power users in understanding the complex FreeCAD codebase and the interactions between the core elements and the individual workbenches. The book is hosted at github so multiple users can contribute to it and keep it updated.
+Przewodnik programisty został napisany, aby pomóc użytkownikom w zrozumieniu złożonej bazy kodowej FreeCAD i interakcji między podstawowymi elementami i poszczególnymi środowiskami pracy. Książka jest umieszczona w serwisie Github, więc wielu użytkowników może ją współtworzyć i aktualizować.
 
--   [Early preview of ebook   * Module developer\' guide to FreeCAD source](https   *//forum.freecadweb.org/viewtopic.php?t=17581) forum thread.
--   [FreeCAD Mod Dev Guide](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) github repository.
+-   [Wczesny podgląd ebooka   * Przewodnik programisty modułów po źródłach FreeCAD](https   *//forum.freecadweb.org/viewtopic.php?t=17581) wątek na forum.
+-   [FreeCAD Mod Dev Guide](https   *//github.com/qingfengxia/FreeCAD_Mod_Dev_Guide) repozytorium Github.
 
-## Extending the FEM Workbench documentation 
+## Rozszerzenie dokumentacji środowiska pracy MES 
 
--   More information regarding extending or missing FEM documentation can be found in the forum   * [FEM documentation missing on the Wiki](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20823)
+-   Więcej informacji dotyczących rozszerzenia lub braku dokumentacji dla MES można znaleźć na forum, w temacie   * [Brak dokumentacji MES na Wiki](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20823)
 
 
 

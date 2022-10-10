@@ -14,7 +14,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Esta herramienta crea un redondeo entre dos líneas unidas en un punto. Activa la herramienta, selecciona ambas líneas o pulsa sobre el punto de dicha esquina.
+
+
+</div>
 
 Al iniciar la herramienta, las selecciones se borran y el puntero del ratón cambia a una cruz blanca con un icono de filete rojo. Se mantiene activo para que puedas hacer múltiples redondeos.
 

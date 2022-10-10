@@ -3,13 +3,14 @@
    Name   *Rysunek Roboczy   * Widok 2D kształtu
    MenuLocation   *Modyfikacja → Widok 2D kształtu
    Workbenches   *[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso   *[Rysunek Techniczny   * Rzut kształtu](TechDraw_ProjectShape/pl.md)
 ---
 
 # Draft Shape2DView/pl
 
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Shape2DView.svg  style="width   *24px;"> **Widok 2D kształtu**\' tworzy rzuty 2D z wybranych obiektów, zwykle brył przestrzennych lub [Płaszczyzny przekroju](Arch_SectionPlane/pl.md) środowiska Architektura. Rzuty są umieszczane w oknie [widoku 3D](3D_view/pl.md).
+Polecenie <img alt="" src=images/Draft_Shape2DView.svg  style="width   *24px;"> **Widok 2D kształtu** tworzy rzuty 2D z wybranych obiektów, zwykle brył przestrzennych lub [Płaszczyzny przekroju](Arch_SectionPlane/pl.md) środowiska Architektura. Rzuty są umieszczane w oknie [widoku 3D](3D_view/pl.md).
 
 Rzuty **Widok 2D kształtu** mogą być wyświetlane w środowisku [Rysunek Techniczny](TechDraw_Workbench/pl.md) używając polecenia [Wstaw widok rysunku](TechDraw_DraftView/pl.md). Alternatywnie środowisko [Rysunek Techniczny](TechDraw_Workbench/pl.md) oferuje swoje własne narzędzia do rzutowania. Tworzą one jednak rzuty, które są wyświetlane tylko na stronie rysunku a nie w oknie [widoku 3D](3D_view/pl.md).
 
@@ -91,6 +92,8 @@ Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część   * Part2DObject](P
 -    **Wyłącznie widoczne|Bool**   * określa, czy rzut powinien być obliczany ponownie tylko wtedy, gdy jest widoczny.
 
 -    **Punkty wykluczenia|Vector list**   * Lista punktów wykluczenia. Krawędź przechodząca przez którykolwiek z tych punktów nie zostanie narysowana. {{Version/pl|0.20}}
+
+-    **Nazwy wykluczeń|String list**   * Lista nazw obiektów. Każdy oglądany lub wycinany obiekt podrzędny o nazwie zawartej w tej liście nie będzie rysowany. {{Version/pl|1.0}}
 
 ### Widok
 

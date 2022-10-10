@@ -35,35 +35,52 @@ Lo strumento Dettaglio crea una vista che contiene l\'ingrandimento di un\'area 
 
 La vista Dettaglio può essere visualizzata in una casella rotonda o quadrata. Questo è controllato dalle [preferenze](TechDraw_Preferences/it#Annotazioni.md) impostate in **Contorno del dettaglio**.
 
-## Proprietà
+## Properties Detail View 
 
-### Vista dettaglio 
+See also [TechDraw View](TechDraw_View#Properties.md).
 
--    **BaseView**   * la vista su cui si basa questa vista di dettaglio.
+### Data
 
--    **Anchor Point**   * il centro della vista Dettaglio all\'interno di **BaseView**.
 
--    **Radius**   * la dimensione dell\'area in **BaseView** che viene visualizzata nella vista Dettaglio.
+{{TitleProperty|Detail}}
 
--    **Scale Type**   * Tipo di scala. Le scelte sono   *
+-    **Base View|Link**   * The view on which this Detail view is based.
 
-    -   *Page*   * Viene utilizzato il fattore di scala della [Pagina](TechDraw_PageDefault/it.md) del disegno
-    -   *Automatic*   * Nel caso in cui la vista di dettaglio sia più grande della pagina, viene ridimensionata per adattarsi alla pagina
-    -   *Custom*   * Un fattore di scala personalizzato impostato da **Scale**
+-    **Anchor Point|Vector**   * The center of the Detail view within the **Base View**.
 
--    **Scale**   * grado di ingrandimento.
+-    **Radius|Float**   * The size of the area in the **Base View** that is displayed in the Detail view.
 
--    **Reference**   * un identificatore per indicare l\'area di **BaseView** che viene visualizzata.
+-    **Reference|String**   * An identifier for the Detail view in the **Base View**.
+
+## Properties Base View 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Vista base 
 
 Una vista Dettaglio eredita tutte le proprietà applicabili della vista specificata come **BaseView**. Nelle proprietà di questa vista è possibile modificare l\'aspetto del contorno del dettaglio   *
+
+
+</div>
 
 -    **Highlight Adjust**   * angolo di rotazione in senso orario della vista Dettaglio.
 
 -    **Highlight Line Color**   * Colore della linea per la forma del contorno. L\'impostazione predefinita per questo è l\'impostazione **Detail Highlight** nelle [preferenze di TechDraw](TechDraw_Preferences/it.md).
 
 -    **Highlight Line Style**   * Stile di linea per la forma del contorno. L\'impostazione predefinita per questo è l\'impostazione **Detail Highlight Style** nelle [preferenze di TechDraw](TechDraw_Preferences/it.md).
+
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
+## Note
+
+-   [Una buona discussione sull\'impostazione dell\'ancoraggio](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+
+
+</div>
 
 ## Script
 
@@ -91,35 +108,6 @@ Lo strumento Dettaglio può essere utilizzato nelle [macro](macros/it.md) e dall
 Detail = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDetail','Detail')
 ...TBA
 ```
-
-## Suggerimenti
-
-
-<div class="mw-translate-fuzzy">
-
--   Lo spazio attorno al contorno della vista e al bordo dell\'oggetto vista è di default un\'area bianca. Ciò significa che copre tutto ciò che c\'è dietro. A volte non c\'è abbastanza spazio sulla pagina e si può risparmiare spazio riducendo questa area bianca non necessaria. Questo viene fatto inserendo la vista Dettaglio in un [gruppo di clip](TechDraw_ClipGroup/it.md)   *
-
-
-</div>
-
-This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.md)   *
-
-![](images/TechDraw_DetailClipped.png ) 
-*Vista di dettaglio in un gruppo di clip*
-
--   Per le viste di dettaglio con un contorno arrotondato, la posizione dell\'etichetta di riferimento nella vista di base può essere modificata tramite la proprietà **Highlight Adjust** della vista di base.
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-## Note
-
--   [Una buona discussione sull\'impostazione dell\'ancoraggio](https   *//www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

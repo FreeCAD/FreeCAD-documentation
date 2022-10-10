@@ -1,16 +1,10 @@
 # Svg Namespace/it
-**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
+**Lo sviluppo del modulo Drawing è stato interrotto in FreeCAD 0.16 con il proposito di sostituirlo con il nuovo modulo [TechDraw](TechDraw_Workbench/it.md) che sarà introdotto nella versione 0.17. Nella versione 0.17 sono forniti entrambi i moduli, ma il modulo Drawing potrebbe essere rimosso nelle versioni future.**
 
 
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
 Nei documenti [SVG](http   *//it.wikipedia.org/wiki/Scalable_Vector_Graphics) esportati dal [Modulo Disegno](Drawing_Workbench/it.md) di FreeCAD e utilizzati come [modelli di pagina](Drawing_templates/it.md) (squadrature), si possono utilizzare diversi [attributi](http   *//www.w3schools.com/xml/xml_attributes.asp) personalizzati, originariamente per uso interno di FreeCAD, ma che, in futuro, potrebbero essere utilizzati anche da altre applicazioni oltre a FreeCAD . Tutti questi attributi utilizzano il prefisso **freecad   *** per il [namespace](http   *//www.w3schools.com/xml/xml_namespaces.asp). L\'URL del namespace definito in tali documenti SVG fa riferimento a questa pagina.
-
-
-</div>
 
 ## Utilizzo
 
@@ -23,11 +17,11 @@ Un pixel = un millimetro
 
 \'\'\'), la riga seguente    *
 
- {.xml}
+ xml
 
 
 
- {.xml}
+ xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
     xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
@@ -40,19 +34,13 @@ In questo caso deve essere formattato come nell\'esempio sottostante dove   *
 -   xxx = pixel width (larghezza)
 -   yyy = pixel height (altezza)
 
- {.xml}
+ xml
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
 
 
-
-<div class="mw-translate-fuzzy">
-
 Possono essere aggiunte informazioni supplementari per lo spazio di lavoro e il blocco del titolo e esse sono definite nella pagina [Modelli di squadrature](Drawing_templates/it.md).
-
-
-</div>
 
 ## Attributi
 
@@ -67,7 +55,7 @@ Definisce un testo in un modello che può essere modificato da FreeCAD.
 
 Esempio   *
 
- {.xml}
+ xml
 <text freecad   *EditableText="MyTitleText">
     <tspan>This is a title</tspan>
 </text>
@@ -75,17 +63,11 @@ Esempio   *
 
 ### freecad   *basepoint1
 
-
-<div class="mw-translate-fuzzy">
-
 Definisce il primo punto di un oggetto di [Quotatura](Draft_Dimension/it.md) (rappresentato come un gruppo in un documento SVG). Questo attributo viene utilizzato durante l\'importazione del frammento di SVG in FreeCAD, per ricreare l\'oggetto Quotatura. Il gruppo contiene i percorsi e altri elementi grafici per rappresentare correttamente l\'oggetto Quotatura in altre applicazioni SVG.
-
-
-</div>
 
 Esempio   *
 
- {.xml}
+ xml
 <g freecad   *basepoint1="0.5 4.34" freecad   *basepoint2="2.4 5.8" dimpoint="3.2 7.76">
     <path d="...">
 </g>
@@ -93,37 +75,25 @@ Esempio   *
 
 ### freecad   *basepoint2
 
-
-<div class="mw-translate-fuzzy">
-
 Definisce il secondo punto di un oggetto di [Quotatura](Draft_Dimension/it.md) (rappresentato come un gruppo in un documento SVG). Questo attributo viene utilizzato durante l\'importazione del frammento di SVG in FreeCAD, per ricreare l\'oggetto Quotatura. Il gruppo contiene i percorsi e altri elementi grafici per rappresentare correttamente l\'oggetto Quotatura in altre applicazioni SVG.
-
-
-</div>
 
 Esempio   * vedere [freecad   *basepoint1](#freecad_basepoint1.md)
 
 ### freecad   *dimpoint
 
-
-<div class="mw-translate-fuzzy">
-
 Definisce il punto di un oggetto di [Quotatura](Draft_Dimension/it.md) attraverso il quale passa la linea di quota. Questo attributo viene utilizzato durante l\'importazione del frammento di SVG in FreeCAD, per ricreare l\'oggetto Quotatura. Il gruppo contiene i percorsi e altri elementi grafici per rappresentare correttamente l\'oggetto Quotatura in altre applicazioni SVG.
-
-
-</div>
 
 Esempio   * vedere [freecad   *basepoint1](#freecad_basepoint1.md)
 
 ### Esempio di codice freecad   *EditableText 
 
-Questo esempio è tratto dalla tabella del modello di squadratura [A3\_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
+Questo esempio è tratto dalla tabella del modello di squadratura [A3_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
 
 #### 1    * Title without textedit 
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      id="g3587">
     <text
@@ -143,7 +113,7 @@ Questo esempio è tratto dalla tabella del modello di squadratura [A3\_Landscape
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
@@ -171,13 +141,13 @@ Questo esempio è tratto dalla tabella del modello di squadratura [A3\_Landscape
 
 #### Spiegazioni
 
- {.xml}
+ xml
   <g
 
 
 Inizio del riquadro
 
- {.xml}
+ xml
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
      transform="translate(0,4)">
@@ -185,20 +155,20 @@ Inizio del riquadro
 
 I dati relativi al riquadro
 
- {.xml}
+ xml
     <text
 
 
 Inizio del blocco di testo
 
- {.xml}
+ xml
        xml   *space="preserve"
        style="font-size   *4px;font-style   *normal;font-variant   *normal;font-weight   *normal;font-stretch   *normal;line-height   *125%;letter-spacing   *0px;word-spacing   *0px;fill   *#000000;fill-opacity   *1;stroke   *none;font-family   *sans;-inkscape-font-specification   *sans"
 
 
 Tutte le informazioni sul testo che verrà visualizzato
 
- {.xml}
+ xml
        x="220.9935"
        y="228.95425"
        id="text3331"
@@ -207,13 +177,13 @@ Tutte le informazioni sul testo che verrà visualizzato
 
 Coordinate e l\'identità in cui verrà visualizzato il testo
 
- {.xml}
+ xml
        freecad   *editable="AuthorName"><tspan
 
 
 Qui **AuthorName** è la var gestita da **freecad   *editable** che salva la stringa per cambiare ciò che verrà visualizzato
 
- {.xml}
+ xml
          sodipodi   *role="line"
          id="tspan3333"
          x="220.9935"
@@ -222,7 +192,7 @@ Qui **AuthorName** è la var gestita da **freecad   *editable** che salva la str
 
 Coordinate e l\'identità del testo che viene visualizzato per impostazione predefinita e **** significa la fine del blocco di testo
 
- {.xml}
+ xml
     <text
     ...
     ...
@@ -244,20 +214,14 @@ Esempio    *
 
 ## Altri attributi disponibili 
 
-
-<div class="mw-translate-fuzzy">
-
 Vedere la pagina dei [Modelli di squadrature](Drawing_templates/it.md)
-
-
-</div>
 
 
 {{Drawing Tools navi
 
 }}
 
-[Category   *Poweruser\_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python\_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
+[Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

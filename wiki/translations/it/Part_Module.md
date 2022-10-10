@@ -125,8 +125,6 @@ Questi strumenti eseguono operazioni booleane.
 
 ### Misure
 
-<img alt="" src=images/Std_Measure_Menu.png  style="width   *64px;"> [Misure](Part_Measure_Menu/it.md)   * Strumenti per misure lineari e angolari.
-
 -   <img alt="" src=images/Part_Measure_Linear.svg  style="width   *32px;"> [Misure Lineari](Part_Measure_Linear/it.md) Crea una misura lineare.
 
 -   <img alt="" src=images/Part_Measure_Angular.svg  style="width   *32px;"> [Misure angolari](Part_Measure_Angular/it.md)   * Crea una misura angolare.
@@ -137,7 +135,7 @@ Questi strumenti eseguono operazioni booleane.
 
 -   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width   *32px;"> [Attiva o Disattiva tutte le misure](Part_Measure_Toggle_All/it.md)   * Mostra o nasconde tutte le misure.
 
--   <img alt="" src=images/Part_Measure_Toggle_3d.svg  style="width   *32px;"> [Attiva o Disattiva le misure 3D](Part_Measure_Toggle_3d/it.md)   * Mostra o nasconde le misure 3D.
+-   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width   *32px;"> [Attiva o Disattiva le misure 3D](Part_Measure_Toggle_3D/it.md)   * Mostra o nasconde le misure 3D.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *32px;"> [Attiva o Disattiva le misure Delta](Part_Measure_Toggle_Delta/it.md)   * Mostra o nasconde le misure delta.
 

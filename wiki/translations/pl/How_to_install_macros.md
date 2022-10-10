@@ -1,9 +1,9 @@
 ---
 - TutorialInfo   */pl
    Topic   *Programowanie
-   Level   *Medium programmer
-   Time   *15 minutes
-   FCVersion   *All
+   Level   *programista średnio zaawansowany
+   Time   *15 minut
+   FCVersion   *wszystkie
    Author   *[Mario52](User_Mario52.md)
 ---
 
@@ -13,21 +13,21 @@
 
 
 
-## Description
+## Opis
 
-Since v0.17 it is easy to add macros by using the [Addon Manager](Std_AddonMgr.md). A regular user doesn\'t need to do more than use this tool. Keep reading for more information regarding installation of [macros](macros.md).
+Od wersji v0.17 można łatwo dodać makrodefinicje za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md). Użytkownik nie musi robić nic więcej niż używać tego narzędzia. Czytaj dalej, aby uzyskać więcej informacji na temat instalacji [makrodefinicji](Macros/pl.md).
 
-Macros are sequences of commands which are used to perform a complex drawing operation. Macros are [Python](Python.md) scripts, which means they are text files that can be written and edited with a text editor.
+Makrodefinicje to sekwencje poleceń, które służą do wykonania złożonej operacji rysunkowej. Makra są skryptami środowiska [Python](Python/pl.md), co oznacza, że są to pliki tekstowe, które można pisać i edytować za pomocą edytora tekstu.
 
-While Python scripts normally have the `.py` extension, FreeCAD macros should have the `.FCMacro` extension. A collection of macros written by experienced users is found in the [macros recipes](macros_recipes.md) page.
+Podczas gdy skrypty Pythona zwykle mają rozszerzenie `.py`, makra FreeCAD powinny mieć rozszerzenie `.FCMacro`. Zbiór makr napisanych przez doświadczonych użytkowników znajduje się na stronie [przepisy na makra](macros_recipes.md).
 
-See [Introduction to Python](Introduction_to_Python.md) to learn about the Python programming language, and then [Python scripting tutorial](Python_scripting_tutorial.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) to learn about writing macros.
+Zobacz [Wprowadzenie do Pythona](Introduction_to_Python.md), aby zapoznać się z językiem programowania **Python**, a następnie [Poradnik do pisania skryptów Python](Python_scripting_tutorial.md) i [Podstawy skryptów FreeCAD](FreeCAD_Scripting_Basics.md), które pomogą Ci nauczyć się pisania makr.
 
-Here is a video on [installing FreeCAD macros in Ubuntu](https   *//wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
+Tutaj jest filmik o [instalowaniu makrodefinicji FreeCAD w Ubuntu](https   *//wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
 
-## The Macro menu and toolbar 
+## Menu i pasek narzędziowy Makrodefinicji 
 
-### Toolbar
+### Pasek narzędzi 
 
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width   *32px;"> [Macro recording\...](Std_DlgMacroRecord.md)
 -   <img alt="" src=images/Std_MacroStopRecord.svg  style="width   *32px;"> [Stop macro recording](Std_MacroStopRecord.md)
@@ -45,7 +45,7 @@ Besides the tools in the toolbar, the following functions are also available in 
 -   [Step into](Std_MacroStepInto.md)
 -   [Toggle breakpoint](Std_ToggleBreakpoint.md)
 
-## Macros directory 
+## Katalog z makrodefinicjami 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -57,7 +57,7 @@ Downloaded macros should also be placed in this directory.
 
 <div class="mw-collapsible-content">
 
-### Default directory 
+### Katalog domyślny 
 
 Macros can be simply copied into
 
@@ -80,7 +80,7 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 -   On Windows it is usually `C   *Users\username\AppData\FreeCAD\`
 -   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
 
-### Configuring the user directory 
+### Konfiguracja katalogu użytkownika 
 
 1\. Open the menu **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Macros...](Std_DlgMacroExecute.md)** to open the [Execute macro dialog](Std_DlgMacroExecute.md).
 
@@ -123,21 +123,21 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 </div>
 
-## Installing macros 
+## Instalacja makropoleceń 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Automatic method 
+### Metoda automatyczna 
 
-Starting with FreeCAD 0.17, use the [Addon Manager](Std_AddonMgr.md) in **Tools → Addon manager** to install a macro that has been included in the [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros) repository.
+Poczynając od FreeCAD 0.17, użyj [Menadżera dodatków](Std_AddonMgr/pl.md) w menu głównym **Narzędzia → Menadżer dodatków** aby zainstalować makrodefinicje, która została dołączone do repozytorium [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros).
 
 
 <div class="mw-collapsible-content">
 
 In past versions of FreeCAD you could use two automated ways to install macros and other addons   *
 
--   [addons\_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
+-   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
 -   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * also a macro, it could be used to install new components to FreeCAD. It is no longer developed.
 
 The recommended way to install addons, that is, [external workbenches](external_workbenches.md) and macros, is the [Addon Manager](Std_AddonMgr.md). However, you can still add macros to your system with the manual methods described in the following sections; this is useful if you are developing and testing your own code.
@@ -151,7 +151,7 @@ The recommended way to install addons, that is, [external workbenches](external_
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Manual method 1. Copy the code to the macro editor 
+### Metoda manualna 1. Skopiuj kod do edytora makrodefinicji 
 
 For macros that are relatively small, 300 lines or less, the code can be copied and pasted directly into the FreeCAD macro editor.
 
@@ -215,7 +215,7 @@ Restart FreeCAD to correctly register the new macro.
 
 Create a new document with **File → <img src="images/Std_New.svg" width=16px> [New](Std_New.md)**, and then repeat the previous steps to execute the macro.
 
-![](images/Macro_Install_HowTo_23.png ) 
+![](images/Macro_Install_HowTo_23.png) 
 *align=center|The macro returning an error if no document is active*
 
 12\. Once an active document is available, the macro runs and creates an object.
@@ -242,7 +242,7 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### Manual method 2. Add a macro file from a compressed .zip file 
+### Metoda manualna 2. Dodanie pliku zawierającego makroinstrukcje ze skompresowanego pliku .zip 
 
 Some macros are too big that it\'s inconvenient to copy and paste them into the macro editor, or they cannot be hosted in the wiki. In this case, the code may be hosted somewhere else, in a Github repository, or in the [FreeCAD forum](https   *//forum.freecadweb.org/). The code may also be compressed into a `.zip` file, tarball `.tar.xz`, or other type of archive if it contains several files. If the code is distributed in this way, the archive should be extracted and the files placed in the macros directory.
 
@@ -312,7 +312,7 @@ unzip your_file.zip -d your_directory
 
 </div>
 
-## Execute a macro in command line 
+## Wykonanie makrodefinicji w wierszu poleceń 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -342,12 +342,12 @@ todo
 
 </div>
 
-## Errors in macros 
+## Błędy w makrodefinicjach 
 
 
-<div class="toccolours mw-collapsible mw-collapsed">
+<div class="mw-collapsible mw-collapsed">
 
-### Indentation errors 
+### Błędy wcięć 
 
 The white space at the beginning of the lines (indentation) in the [Python](Python.md) programming language is very important, and an integral part of the code. An inappropriate space may cause the code to not run or present errors.
 
@@ -363,7 +363,7 @@ A typical indentation error looks like this   *
 <unknown exception traceback><type 'exceptions.IndentationError'>   * ('expected an indented block', ('C   */Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self)   *n'))
 ```
 
-#### Example 1 
+#### Przykład 1 
 
 If the code lacks any indentation, the code won\'t work. Class (`class`) and function definitions (`def()`), as well as control structures (`if`, `while`, `for`) should be followed by a block of indented code.
 
@@ -382,14 +382,14 @@ If the code is selected, all lines should be highlighted all the way to the left
 ![](images/Macro_Install_HowTo_11.png ) 
 *align=center|Python code highlighted, showing that all lines start at the left edge*
 
-#### Example 2 
+#### Przykład 2 
 
 If an additional space is introduced at the beginning of all lines, the Python interpreter will fail and complain about unnecessary indentation. In this case, all lines need the initial space removed.
 
 ![](images/Macro_Install_HowTo_12.png ) 
 *align=center|Python code with additional space on each line*
 
-#### Example 3 
+#### Przykład 3 
 
 Here the code has been copied from a forum thread by using the **Select all** button. Apparently the selection is good.
 
@@ -408,14 +408,14 @@ In Windows, [Notepad++](http   *//notepad-plus-plus.org/) can perform selection 
 ![](images/Macro_Install_HowTo_16.png ) 
 *align=center|Python code with the correct indentation*
 
-#### Example 4 
+#### Przykład 4 
 
 Here the selection also selects the line numbers in the code example. If this selection is pasted into the macro editor, it won\'t work. All line numbers need to be removed, and the spaces adjusted so that the Python code has the proper indentation.
 
 ![](images/Macro_Install_HowTo_29.png ) 
 *align=center|Selection that also selects the line numbers; if this code is pasted into the macro editor, it won't work*
 
-#### Good code 
+#### Dobry kod 
 
 ![](images/Macro_Install_HowTo_13.png ) 
 *align=center|Python code with the correct indentation*
@@ -429,7 +429,7 @@ Here the selection also selects the line numbers in the code example. If this se
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-### No text output from macros 
+### Brak wyjścia tekstu z makrodefinicji 
 
 Macros may output information to the report view to detail what the code is doing when it is running.
 
@@ -438,7 +438,7 @@ If no information is displayed, make sure the report view and [Python](Python.md
 
 <div class="mw-collapsible-content">
 
-#### Printing information 
+#### Informacje dotyczące drukowania 
 
 FreeCAD macros have two methods to print information to the report view.
 
@@ -458,7 +458,7 @@ The simple Python function
 print("Hello World!")
 ```
 
-#### Enabling the report view 
+#### Uaktywnienie widoku raportu 
 
 To see the information displayed in the console you should   *
 
@@ -479,7 +479,7 @@ To see the information displayed in the console you should   *
 ![](images/Macro_Install_HowTo_34.png ) 
 *align=center|FreeCAD main window with the Report view and the Python console*
 
-#### Enabling the print() command 
+#### Włączenie polecenia print() 
 
 FreeCAD may need to be configured so the `print()` function of [Python](Python.md) redirects its output correctly to the report view.
 

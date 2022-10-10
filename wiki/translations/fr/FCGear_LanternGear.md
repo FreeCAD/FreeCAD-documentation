@@ -1,10 +1,12 @@
 ---
 - GuiCommand   */fr
    Name   *FCGear LanternGear
-   Name/fr   *FCGear LanternGear
-   MenuLocation   *FCGear → Create a Lantern gear
+   Name/fr   *FCGear Pignon lanterne
+   MenuLocation   *Gear → Lantern Gear
    Workbenches   *[FCGear](FCGear_Workbench/fr.md)
+   Shortcut   *Aucun
    Version   *v0.16
+   SeeAlso   *
 ---
 
 # FCGear LanternGear/fr
@@ -18,46 +20,50 @@ Parce que leur construction est très simple, ils sont parmi les plus anciennes 
 La roue dentée du pignon lanterne avec chaînes à rouleaux est une alternative économique et robuste aux entraînements à pignon et crémaillère. En guidant la chaîne de roue dentée de lanterne étirée tangentiellement le long de la roue dentée du pignon lanterne, un mouvement linéaire de la chaîne est converti en un mouvement de rotation de la roue. A l\'inverse, un mouvement linéaire de la chaîne peut également être obtenu par le mouvement de rotation du pignon lanterne (moto/vélo).
 
 ![](images/Latern_Gear_example.png ) 
-*Au-dessus   * pignon lanterne*
+*Ci-dessus    * pignon lanterne*
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
-2.  Lancez la commande d\'une de ces manières    *
-    -   Appuyez sur le bouton <img alt="" src=images/FCGear_LanternGear.svg  style="width   *22px;"> [Create a Lantern gear](FCGear_LanternGear/fr.md) dans la barre d\'outils.
-    -   Utilisez le **Menu → Lantern gear**.
-3.  Modifier le paramètre d\'engrenage selon les conditions requises (voir **Propriétés → Données** ci-dessous).
+1.  Passez à l\' <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [atelier FCGear](FCGear_Workbench/fr.md).
+2.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur **[<img src=images/FCGear_LanternGear.svg style="width   *16px"> [Lantern Gear](FCGear_LanternGear/fr.md)** dans la barre d\'outils.
+    -   Sélectionnez l\'option **Gear → [<img src=images/FCGear_LanternGear.svg style="width   *16px"> Lantern Gear** dans le menu.
+3.  Modifiez le paramètre de l\'engrenage en fonction des conditions requises (voir [Propriétés](#Propri.C3.A9t.C3.A9s.md)).
 
 ## Propriétés
 
 ### Données
 
-
-{{Properties_Title|Base}}
-
--    {{PropertyData/fr|Placement}}   * [placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
-
--    {{PropertyData/fr|Label}}   * nom d\'utilisateur de l\'objet dans la [vue en arborescence](tree_view/fr.md).
+Un objet FCGear LanternGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 
 {{Properties_Title|accuracy}}
 
--    {{PropertyData/fr|num_profiles}}   * la valeur par défaut est 10. La valeur n\'a normalement pas besoin d\'être modifiée.
+-    **num_profiles|Integer**   * valeur par défaut à {{Value|10}}. La valeur n\'a normalement pas besoin d\'être modifiée.
+
+
+{{Properties_Title|base}}
+
+-    **bolt_radius|Length**   * valeur par défaut à {{Value|1 mm}}. Diamètre du cylindre du disque rotatif qui fait office de deuxième \"roue dentée\".
+
+-    **height|Length**   * valeur par défaut à {{Value|5 mm}}. Valeur de la largeur de l\'engrenage.
+
+-    **module|Length**   * valeur par défaut à {{Value|1 mm}}. Le module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir [Remarques](#Remarques.md)).
 
 
 {{Properties_Title|gear_parameter}}
 
--    {{PropertyData/fr|bolt_radius}}   * la valeur par défaut est 1,00 mm. Diamètre du cylindre sur le disque rotatif qui fonctionne comme une seconde \"roue dentée\".
+-    **teeth|Integer**   * valeur par défaut à {{Value|15}}. Nombre de dents.
 
--    {{PropertyData/fr|height}}   * La valeur par défaut est 5,00 mm. Valeur de la largeur de l\'engrenage.
 
--    {{PropertyData/fr|module}}   * la valeur par défaut est 1,00 mm. Le module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarques**.
+{{Properties_Title|tolerance}}
 
--    {{PropertyData/fr|teeth}}   * La valeur par défaut est 15. Nombre de dents.
+-    **head|Float**   * valeur par défaut à {{Value|0}}.
 
-### Vue
 
-La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur de propriétés](Property_editor/fr.md) dans **Exemple de propriétés d'un objet PartDesign**.
+{{Properties_Title|version}}
+
+-    **version|String**   *
 
 ## Remarques
 
@@ -67,7 +73,7 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -    **addendum diameter**= **module** \* **(teeth +2)**
 
--    **ptch diameter**= **module** \* **teeth**
+-    **pitch diameter**= **module** \* **teeth**
 
 -    **axle base**= **pitch diameter (lantern gear 1 + 2)**   * 2
 

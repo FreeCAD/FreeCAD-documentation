@@ -571,7 +571,7 @@ vector4 : Base.Vector
 App.Metadata class.
 
 A Metadata object reads an XML-formatted package metadata file and provides
-read-only access to its contents.
+read and write access to its contents.
 
 The following constructors are supported:
 

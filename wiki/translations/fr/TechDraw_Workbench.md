@@ -25,6 +25,8 @@ Ce sont les outils pour créer des objets Pages.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width   *32px;"> [Rafraîchir](TechDraw_RedrawPage/fr.md)    * force la mise à jour de la page. {{Version/fr|0.19}}
 
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *32px;"> [Tout imprimer](TechDraw_PrintAll/fr.md)    * imprime toutes les pages d\'un document. {{Version/fr|1.0}}
+
 ## Vues
 
 Ce sont les outils pour créer des objets Vues.
@@ -33,7 +35,7 @@ Ce sont les outils pour créer des objets Vues.
 
 -   <img alt="" src=images/TechDraw_ActiveView.svg  style="width   *32px;"> [Vue active](TechDraw_ActiveView/fr.md)    * insère une vue de la vue 3D active. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Groupe de projections](TechDraw_ProjectionGroup/fr.md)    * ouvre une boîte de dialogue pour créer plusieurs vues d\'un objet à partir de plusieurs directions.
+-   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Groupe de projections](TechDraw_ProjectionGroup/fr.md)    * ouvre une boîte de dialogue pour créer plusieurs vues d\'un objet depuis différentes directions.
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Vue en coupe](TechDraw_SectionView/fr.md)    * ajoute une vue en coupe à partir d\'une vue existante.
 
@@ -43,11 +45,25 @@ Ce sont les outils pour créer des objets Vues.
 
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width   *32px;"> [Vue d\'un objet Arch](TechDraw_ArchView/fr.md)   * ajoute une vue d\'un objet [Arch Plan de section](Arch_SectionPlane/fr.md) de l\'[Atelier Arch](Arch_Workbench/fr.md).
 
--   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width   *32px;"> [Vue d\'un tableur](TechDraw_SpreadsheetView/fr.md)   * insère une vue d\'une feuille de calcul de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md).
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width   *32px;"> [Vue d\'un objet Spreadsheet](TechDraw_SpreadsheetView/fr.md)   * insère une vue d\'une feuille de calcul de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md).
 
--   <img alt="" src=images/TechDraw_MoveView.svg  style="width   *32px;"> [Déplacer une vue](TechDraw_MoveView/fr.md)   * déplace une vue et ses dépendants vers une page différente. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_MoveView.svg  style="width   *32px;"> [Déplacer une vue](TechDraw_MoveView/fr.md)    * déplace une vue et ses dépendants vers une page différente. {{Version/fr|0.20}}
 
--   <img alt="" src=images/TechDraw_ShareView.svg  style="width   *32px;"> [Copier une vue](TechDraw_ShareView/fr.md)    * Partagez une vue entre plusieurs pages. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ShareView.svg  style="width   *32px;"> [Copier une vue](TechDraw_ShareView/fr.md)    * partager une vue entre plusieurs pages. {{Version/fr|0.20}}
+
+-   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width   *32px;"> [Projection de forme](TechDraw_ProjectShape/fr.md)    * crée des projections de formes dans la [Vue 3D](3D_view/fr.md). {{Version/fr|0.20}}
+
+## Empilement
+
+Il s\'agit d\'outils permettant de modifier l\'ordre d\'empilement qui contrôle la profondeur apparente des vues sur une page.
+
+-   <img alt="" src=images/TechDraw_StackTop.svg  style="width   *32px;"> [Empiler en haut](TechDraw_StackTop/fr.md)    * déplace les vues au sommet de l\'ordre d\'empilement. {{Version/fr|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackBottom.svg  style="width   *32px;"> [Empiler en bas](TechDraw_StackBottom.md)    * déplace les vues au bas de l\'ordre d\'empilement. {{Version/fr|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackUp.svg  style="width   *32px;"> [Empiler vers le haut](TechDraw_StackUp/fr.md)    * déplace les vues d\'un niveau supérieur dans l\'ordre d\'empilement. {{Version/fr|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackDown.svg  style="width   *32px;"> [Empiler vers le bas](TechDraw_StackDown/fr.md)    * déplace les vues vers le bas d\'un niveau dans l\'ordre d\'empilement. {{Version/fr|1.0}}
 
 ## Rognages
 

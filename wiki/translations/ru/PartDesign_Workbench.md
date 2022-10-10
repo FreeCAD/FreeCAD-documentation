@@ -146,7 +146,7 @@
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [Уклон](PartDesign_Draft/ru.md)   * создает уклон выбранных граней активного тела
 
--   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Полость](PartDesign_Thickness/ru.md)   * создает толстостенную полую оболочку из активного твердого тела и убирая выбранные грани.
+-   <img alt="" src=images/PartDesign_Thickness.svg  style="width   *32px;"> [Преобразовать в полое тело](PartDesign_Thickness/ru.md)   * создает толстостенную полую оболочку из активного твердого тела и убирая выбранные грани.
 
 #### Логические операции 
 

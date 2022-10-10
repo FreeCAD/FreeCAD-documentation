@@ -39,15 +39,43 @@ If you only want to produce a single view, there is no advantage in using Projec
 
 ## Properties
 
--    **Anchor**   * The central view in the group. Normally the Front view.
+### Data
 
--    **ProjectionType**   * \"First Angle\" or Third Angle\".
 
--    **AutoDistribute**   * If true, space out individual views automatically. Use false to position manually.
+{{TitleProperty|Base}}
 
--    **spacingX**   * Horizontal space between views when automatically positioned. Note that Scale and the size of other views in the group also influence the spacing.
+-    **Source|LinkList**   * Links to the drawable objects to be depicted.
 
--    **spacingY**   * Vertical space between views when automatically positioned.
+-    **XSource|XLinkList**   * Links to the drawable objects in an external file. <small>(v0.19)</small> 
+
+-    **Anchor|Link**   * The central view in the group. Normally the Front view.
+
+-    **ProjectionType|Enumeration**   * {{Value|First Angle}} or {{Value|Third Angle}}.
+
+For the other properties in this group see [TechDraw View](TechDraw_View#Properties.md).
+
+
+{{TitleProperty|Collection}}
+
+-    **Views|LinkList**   * Links to the views in this ProjectionGroup.
+
+
+{{TitleProperty|Distribute}}
+
+-    **Auto Distribute|Bool**   * If `True`, space out individual views automatically. Use `False` to position manually.
+
+-    **spacing X|Length**   * Horizontal space between views when automatically positioned. Note that Scale and the size of other views in the group also influence the spacing.
+
+-    **spacing Y|Length**   * Vertical space between views when automatically positioned.
+
+### View
+
+
+{{TitleProperty|Base}}
+
+See [TechDraw View](TechDraw_View#Properties.md).
+
+## Notes
 
 The ProjectionGroup as a whole inherits X, Y, ScaleType, Scale and Rotation from the basic View.
 
@@ -97,7 +125,9 @@ The NewProjGroup tool can be used in [macros](Macros.md) and from the [Python](P
     #remove a view from projection group
     iv = group.removeProjection("Left")
 
-``` Programming note   * The Projection Group should always be added to the Page (ex. page.addView(group) before adding projections to the Group. This allows the Projection Group to use default parameter values derived from the parent page.
+```
+
+Programming note   * The Projection Group should always be added to the Page (ex. page.addView(group) before adding projections to the Group. This allows the Projection Group to use default parameter values derived from the parent page.
 
 
 

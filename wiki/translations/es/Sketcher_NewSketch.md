@@ -29,7 +29,7 @@ Al hacer clic en el icono con una cara (preseleccionada), el croquis se asignar√
 
 ## Notas
 
-The sketch can be re-mapped to another already existing face using the [Map Sketch - Command](Sketcher_MapSketch.md).
+The sketch can be re-mapped to another already existing face using the [Sketcher MapSketch](Sketcher_MapSketch.md) command.
 
 El croquis puede ser movido en la [Vista 3D](3D_view/es.md) usando [Colocaci√≥n](Placement/es.md).
 

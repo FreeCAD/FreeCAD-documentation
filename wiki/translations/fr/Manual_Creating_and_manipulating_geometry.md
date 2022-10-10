@@ -191,7 +191,7 @@ En effet, lorsque nous extrudons une seule face, nous obtenons toujours un solid
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
-print(s.ShapeType)
+print(S.ShapeType)
 ```
 
 Ce qui, bien sûr, nous donnera une coquille creuse, les faces supérieure et inférieure manquant.

@@ -30,7 +30,9 @@ O primă aplicație directă, ușoară și utilă pe care o puteți face este im
 
 {{Code|lang=python|code=
 <nowiki>
-FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
+FREECADPATH = '/usr/lib/freecad-python3/lib/' # path to your FreeCAD.so or FreeCAD.pyd file,
+# for Windows you must either use \\ or / in the path, using a single \ is problematic
+# FREECADPATH = 'C   *FreeCAD\\bin'
 import Blender, sys
 sys.path.append(FREECADPATH)
  
@@ -77,8 +79,8 @@ Prima parte importantă este să vă asigurați că Python va găsi biblioteca n
 
 
 {{Code|lang=python|code=
-FREECADPATH = '/opt/FreeCAD/lib' # path to your FreeCAD.so or FreeCAD.dll file
-import Blender, sys
+FREECADPATH = 'C   *FreeCAD\\bin' # path to your FreeCAD.so or FreeCAD.pyd file
+import sys
 sys.path.append(FREECADPATH)
 }}
 

@@ -7,7 +7,13 @@
 
 ## Popis
 
+
+<div class="mw-translate-fuzzy">
+
 Tento nástroj vytvoří zaoblení mezi dvěma přímkami, které se spojí v bodě. Aktivuje se tento nástroj a potom se vyberou obě přímky nebo se klikne na rohový bod.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

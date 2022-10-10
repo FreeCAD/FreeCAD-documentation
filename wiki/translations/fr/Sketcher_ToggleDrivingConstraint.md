@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher ToggleDrivingConstraint
    Name/fr   *Sketcher Basculer les contraintes pilotes
-   MenuLocation   *Esquisse → Contraintes d'esquisse → Basculer la contrainte entre pilotante/référence
+   MenuLocation   *Sketch → Contraintes d'esquisse → Basculer la contrainte entre pilotante/référence
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut   ***K** **X**
    Version   *0.16

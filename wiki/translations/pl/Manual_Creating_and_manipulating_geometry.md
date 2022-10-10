@@ -191,7 +191,7 @@ To dlatego, że kiedy wyciągamy pojedynczą powierzchnię, zawsze otrzymujemy b
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
-print(s.ShapeType)
+print(S.ShapeType)
 ```
 
 Co oczywiście da nam pustą powłokę, z brakującą górną i dolną powierzchnią.

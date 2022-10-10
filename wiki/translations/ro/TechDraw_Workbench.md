@@ -43,6 +43,8 @@ Acestea sunt instrumente pentru crearea obiectelor de pagină.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width   *32px;"> [Redraw Page](TechDraw_RedrawPage.md)   * forces an update of the selected page. <small>(v0.19)</small> 
 
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *32px;"> [Print All Pages](TechDraw_PrintAll.md)   * prints all pages in a document. <small>(v1.0)</small> 
+
 ## Vederi
 
 Acestea sunt instrumente pentru crearea de Vizualizare obiecte.
@@ -99,9 +101,23 @@ Acestea sunt instrumente pentru crearea de Vizualizare obiecte.
 
 </div>
 
--   <img alt="" src=images/TechDraw_MoveView.svg  style="width   *32px;"> [Move View](TechDraw_MoveView.md)   * Moves a view and its dependents to a different page. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_MoveView.svg  style="width   *32px;"> [Move View](TechDraw_MoveView.md)   * moves a view and its dependents to a different page. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ShareView.svg  style="width   *32px;"> [Share View](TechDraw_ShareView.md)   * Share a view between multiple pages. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ShareView.svg  style="width   *32px;"> [Share View](TechDraw_ShareView.md)   * shares a view between multiple pages. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width   *32px;"> [Project Shape](TechDraw_ProjectShape.md)   * creates projections of shapes in the [3D view](3D_view.md). <small>(v0.20)</small> 
+
+## Stacking
+
+These are tools for changing the stacking order which controls the apparent depth of views on a page.
+
+-   <img alt="" src=images/TechDraw_StackTop.svg  style="width   *32px;"> [Move view to top of stack](TechDraw_StackTop.md)   * moves views to the top of the stacking order. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/TechDraw_StackBottom.svg  style="width   *32px;"> [Move view to bottom of stack](TechDraw_StackBottom.md)   * moves views to the bottom of the stacking order. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/TechDraw_StackUp.svg  style="width   *32px;"> [Move view up one level](TechDraw_StackUp.md)   * moves views up one level in the stacking order. <small>(v1.0)</small> 
+
+-   <img alt="" src=images/TechDraw_StackDown.svg  style="width   *32px;"> [Move view down one level](TechDraw_StackDown.md)   * moves views down one level in the stacking order. <small>(v1.0)</small> 
 
 ## Măști
 

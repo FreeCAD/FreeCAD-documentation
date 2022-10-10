@@ -7,11 +7,11 @@
 
 # Mesh BuildRegularSolid/pl
 
-## Description
+## Opis
 
 The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh object.
 
-## Usage
+## Użycie
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Mesh BuildRegularSolid](Mesh_BuildRegularSolid.md)** button.
@@ -53,17 +53,17 @@ The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh o
 7.  Optionally create more mesh objects.
 8.  Press the {{button|Close}} button to close the dialog box and finish the command.
 
-## Notes
+## Uwagi
 
 -   Mesh objects created with this command are parametric. Whenever they are recomputed, for example after changing one of their parameters, their mesh is reconstructed. This means that manipulating them with commands such as [Mesh RemeshGmsh](Mesh_RemeshGmsh.md), [Mesh Scale](Mesh_Scale.md) etc. usually does not make sense.
 
-## Properties
+## Właściwości
 
 Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.md) properties. In addition each mesh object type has a number of properties to control its parametric behavior   *
 
 ### <img alt="" src=images/Mesh_Cube.svg  style="width   *32px;"> Cube 
 
-#### Data
+#### Dane
 
 
 {{TitleProperty|Cube}}
@@ -76,7 +76,7 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 ### <img alt="" src=images/Mesh_Cylinder.svg  style="width   *32px;"> Cylinder 
 
-#### Data 
+#### Dane 
 
 
 {{TitleProperty|Base}}
@@ -93,10 +93,10 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 ### <img alt="" src=images/Mesh_Cone.svg  style="width   *32px;"> Cone 
 
-#### Data 
+#### Dane 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
 -    **Closed|Bool**   * if set to `False`, the planar end(s) of the cone are left open.
 
@@ -112,10 +112,10 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 ### <img alt="" src=images/Mesh_Sphere.svg  style="width   *32px;"> Sphere 
 
-#### Data 
+#### Dane 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
 -    **Radius|FloatConstraint**   * the radius of the sphere.
 
@@ -123,10 +123,10 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 ### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width   *32px;"> Ellipsoid 
 
-#### Data 
+#### Dane 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
 -    **Radius 1|FloatConstraint**   * the first radius of the ellipsoid.
 
@@ -136,10 +136,10 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 ### <img alt="" src=images/Mesh_Torus.svg  style="width   *32px;"> Torus 
 
-#### Data 
+#### Dane 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
 -    **Radius 1|FloatConstraint**   * the first (main) radius the torus.
 

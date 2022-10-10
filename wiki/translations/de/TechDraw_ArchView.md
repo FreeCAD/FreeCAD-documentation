@@ -42,19 +42,32 @@ Die ArchView wird innerhalb des [Arch Arbeitsbereichs](Arch_Workbench/de.md) ger
 
 ## Eigenschaften
 
--    **Quelle**   * Das anzuzeigende Objekt der Schnittebene
+Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
--    **Alles an**   * Ob ausgeblendete Objekte angezeigt werden müssen oder nicht. Wenn False, werden nur Objekte gerendert, die in der 3D Ansicht sichtbar sind.
+### Daten
 
--    **Rendermodus**   * Der zu verwendende Rendermodus, Festkörper oder Drahtmodell
 
--    **Ausgeblendet anzeigen**   * Ob die ausgeblendete Geometrie (der Teil der Geometrie, der hinter der Schnittebene liegt) angezeigt wird oder nicht. Sie wird in gestrichelter Linie dargestellt, die in den Arch Einstellungen konfiguriert werden kann.
+{{TitleProperty|Arch view}}
 
--    **Füllung anzeigen**   * Wenn ausgeschnittene Bereiche mit einer grauen Farbe gefüllt werden müssen oder nicht
+-    {{PropertyData/de|Source|Link}}   * Das anzuzeigende Objekt der Schnittebene.
 
--    **Linienbreite**   * Die Breite der Hauptlinien. Schnittlinien und projizierte/2D Linienbreitenverhältnisse können in den Arch Einstellungen konfiguriert werden
+-    {{PropertyData/de|All On|Bool}}   * Ob ausgeblendete Objekte angezeigt werden müssen oder nicht. Wenn `False`, werden nur Objekte gerendert, die in der 3D Ansicht sichtbar sind.
 
--    **Schriftgröße**   * Die Größe aller Texte, die in dieser Ansicht erscheinen
+-    {{PropertyData/de|Render Mode|Enumeration}}   * Der zu verwendende Rendermodus, {{Value|Solid}} oder {{Value|Wireframe}}.
+
+-    {{PropertyData/de|Fill Spaces|Bool}}   * Wenn `True`, werden Arch-Spaces als farbige Fläche dargestellt.
+
+-    {{PropertyData/de|Show Hidden|Bool}}   * Ob die verdeckte Geometrie (der Teil der Geometrie, der hinter der Schnittebene liegt) angezeigt wird oder nicht. Sie wird mit einer Strichlinie dargestellt, die in den Arch-Einstellungen konfiguriert werden kann.
+
+-    {{PropertyData/de|Show Fill|Bool}}   * Ob geschnittene Bereiche mit einer grauen Farbe gefüllt werden müssen oder nicht.
+
+-    {{PropertyData/de|Line Width|Float}}   * Die Breite der Hauptlinien. Die Breitenverhältnisse von Schnittlinien, projizierte und 2D-Linien können in den Arch-Einstellungen konfiguriert werden.
+
+-    {{PropertyData/de|Font Size|Float}}   * Die Schrifthöhe aller Texte, die in dieser Ansicht erscheinen.
+
+-    {{PropertyData/de|Cut Line Width|Float}}   * Linienbreite der Schnittlinien in dieser Ansicht.
+
+-    {{PropertyData/de|Join Arch|Bool}}   * Wenn `True`, werden Wände und Strukturen mit Material vereinigt.
 
 ## Skripten
 

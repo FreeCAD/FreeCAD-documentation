@@ -2,8 +2,8 @@
 - GuiCommand   */pl
    Name   *Sketcher Circles
    Name/pl   *Szkicownik   * Komponent utwórz okrąg
-   MenuLocation   *brak ''(wyłącznie pasek narzędzi)''
    Icon   *Sketcher_CompCreateCircle.png
+   MenuLocation   *''(wyłącznie pasek narzędzi)''
    Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
 ---
 

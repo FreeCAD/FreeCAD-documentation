@@ -20,14 +20,8 @@ Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz m
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
--   Wähle einen Punkt in einen leeren Bereich der 3D Ansicht, oder auf einem bestehenden Objekt (Auto Beschränkungen müssen in der AufgabenAnsicht aktiviert sein)
--   Drücken von **Esc** oder klicken der rechten Maustaste bricht die Funktion ab.
-
-
-</div>
+-   Einen Punkt in einem leeren Bereich der 3D-Ansicht, oder auf einem bestehenden Objekt auswählen (Automatische Randbedingungen müssen im [Aufgabenbereich](Task_panel.md) aktiviert sein)
+-   Das Drücken von **Esc** oder ein Klick mit der rechten Maustaste bricht die Funktion ab.
 
 
 

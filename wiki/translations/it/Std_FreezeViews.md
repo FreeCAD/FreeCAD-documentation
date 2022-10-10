@@ -2,6 +2,9 @@
 ---
 - GuiCommand   */it   Name   *Std_FreezeViews   Name/it   *Viste bloccate   Empty   *1   MenuLocation   *Visualizza → Viste bloccate → ...   Workbenches   *Tutti   SeeAlso   *[Pubblica la posizione della camera](Std_ViewIvIssueCamPos/it.md)---
 
+
+</div>
+
 ## Introduzione
 
 

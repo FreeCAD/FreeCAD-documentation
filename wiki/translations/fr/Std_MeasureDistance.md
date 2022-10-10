@@ -4,7 +4,7 @@
    Name/fr   *Std Mesurer une distance
    MenuLocation   *Outils → Mesurer une distance‏‎
    Workbenches   *Tous
-   SeeAlso   *[Part Menu des mesures](Part_Measure_Menu/fr.md), [Draft Cote](Draft_Dimension/fr.md), [Arch Prendre des cotes](Arch_Survey/fr.md)
+   SeeAlso   *[Part Mesure linéaire](Part_Measure_Linear/fr.md), [Draft Cote](Draft_Dimension/fr.md)
 ---
 
 # Std MeasureDistance/fr

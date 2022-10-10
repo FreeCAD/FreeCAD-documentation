@@ -1,7 +1,7 @@
 # Artwork Drawing/it
-These icons are in the indicated source path.
+Queste icone si trovano nel percorso origine indicato.
 
-For all icons in the source tree, see [Artwork](Artwork.md).
+Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Artwork/it.md)
 
 ## src/Mod/Drawing/
 
@@ -15,7 +15,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/Drawing/Templates/
 
-These templates are large but displayed here at 240 px in width.
+Questi modelli sono grandi ma visualizzati qui a 240 px di larghezza
 
 #### A0
 
@@ -37,7 +37,7 @@ These templates are large but displayed here at 240 px in width.
 
 <img alt="" src=images/A4_Landscape.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_plain.svg  style="width   *240px;">
 
-The following image is \"A4\_Simple.svg\". It is an empty page.
+L\'immagine seguente è \"A4_Simple.svg\". È una pagina vuota.
 
 <img alt="" src=images/A4_Simple.svg  style="width   *240px;">
 

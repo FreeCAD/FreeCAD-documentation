@@ -108,7 +108,7 @@ El desarrollo de una nueva arquitectura del solucionador podría mejorar la form
 
 FreeCAD, es utilizable en ciertas áreas, está al principio de un largo camino dentro de la corriente del CAD. Aún queda mucho que hacer para alcanzar un estado en el que podamos competir con el software comercial.
 
-[0.20 Ciclo de desarrollo](0.20_Development_Cycle.md)
+[FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
 ## Comunidad
 

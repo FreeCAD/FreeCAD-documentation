@@ -128,8 +128,6 @@ Zerschneidet und teilt ein Objekt, indem es mit anderen Objekten verschnitten wi
 
 ### Messung
 
-<img alt="" src=images/Part_Measure_Menu.png  style="width   *64px;"> [Messung](Part_Measure_Menu/de.md)   * Werkzeuge für lineare und winklige Messungen.
-
 -   <img alt="" src=images/Part_Measure_Linear.svg  style="width   *32px;"> [Linear messen](Part_Measure_Linear/de.md) Erzeugt eine lineare Messung.
 
 -   <img alt="" src=images/Part_Measure_Angular.svg  style="width   *32px;"> [Winkel messen](Part_Measure_Angular/de.md) Erzeugt eine Winkelmessung.
@@ -140,7 +138,7 @@ Zerschneidet und teilt ein Objekt, indem es mit anderen Objekten verschnitten wi
 
 -   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width   *32px;"> [Alles umschalten](Part_Measure_Toggle_All/de.md) Zeigt oder blendet alle Messungen aus.
 
--   <img alt="" src=images/Part_Measure_Toggle_3d.svg  style="width   *32px;"> [3D umschalten](Part_Measure_Toggle_3d/de.md) Zeigt oder blendet 3D Messungen aus.
+-   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width   *32px;"> [3D umschalten](Part_Measure_Toggle_3D/de.md) Zeigt 3D-Messungen an oder blendet sie aus.
 
 -   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width   *32px;"> [Delta umschalten](Part_Measure_Toggle_Delta/de.md) Zeigt oder blendet Delta Messungen aus.
 

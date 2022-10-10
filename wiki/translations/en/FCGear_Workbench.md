@@ -1,9 +1,9 @@
 # <img alt="FCGear External Workbench icon" src=images/FCGear_workbench_icon.svg  style="width   *64px;"> FCGear Workbench/en
 
-## Introduction
-
 
 {{TOCright}}
+
+## Introduction
 
 The [FCGear Workbench](FCGear_Workbench.md) is an [external workbench](external_workbenches.md) for manufacturing different types of gears and worm gears in FreeCAD. The parametric modelling allows the required geometries to be changed at any time. For example, by changing a few parameters, the involute gear becomes either a spur gear, helical gear or double helical gear.
 
@@ -11,17 +11,39 @@ In order for the results from FC Gear to be usable, a certain amount of basic kn
 
 In conjunction with 3D printing, home users now have the opportunity to design and produce gears and worm gears according to their own personal ideas and, if necessary, to adapt them to the constructional conditions.
 
-Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be installed (how it is done see below at **Installation**). After installation, the tools are available in the toolbar.
+The FCGear Workbench can be installed via the <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
-   *   ![](images/FCGear_Drop-down-menu_example-en.png )
-   *   
-    
-*The FCGear Drop down menu*
-    
+After installation, the tools are available in the Gear toolbar and in the Gear menu.
+
+## Tools
+
+-   <img alt="" src=images/FCGear_InvoluteGear.svg  style="width   *32px;"> [Involute Gear](FCGear_InvoluteGear.md)   * Creates an external involute gear.
+
+-   <img alt="" src=images/FCGear_InternalInvoluteGear.svg  style="width   *32px;"> [Internal Involute Gear](FCGear_InternalInvoluteGear.md)   * Creates an internal involute gear.
+
+-   <img alt="" src=images/FCGear_InvoluteRack.svg  style="width   *32px;"> [Involute Rack](FCGear_InvoluteRack.md)   * Creates an involute rack.
+
+-   <img alt="" src=images/FCGear_CycloidGear.svg  style="width   *32px;"> [Cycloid Gear](FCGear_CycloidGear.md)   * Creates a cycloid gear.
+
+-   <img alt="" src=images/FCGear_CycloidRack.svg  style="width   *32px;"> [Cycloid Rack](FCGear_CycloidRack.md)   * Creates a cycloid rack.
+
+-   <img alt="" src=images/FCGear_BevelGear.svg  style="width   *32px;"> [Bevel Gear](FCGear_BevelGear.md)   * Creates a bevel gear.
+
+-   <img alt="" src=images/FCGear_CrownGear.svg  style="width   *32px;"> [Crown Gear](FCGear_CrownGear.md)   * Creates a crown gear.
+
+-   <img alt="" src=images/FCGear_WormGear.svg  style="width   *32px;"> [Worm Gear](FCGear_WormGear.md)   * Creates a worm gear.
+
+-   <img alt="" src=images/FCGear_TimingGear.svg  style="width   *32px;"> [Timing Gear](FCGear_TimingGear.md)   * Creates a timing gear.
+
+-   <img alt="" src=images/FCGear_LanternGear.svg  style="width   *32px;"> [Lantern Gear](FCGear_LanternGear.md)   * Creates a lantern gear.
+
+-   <img alt="" src=images/FCGear_HypoCycloidGear.svg  style="width   *32px;"> [HypoCycloid Gear](FCGear_HypoCycloidGear.md)   * Creates a hypocycloid gear with its pins.
+
+-   <img alt="" src=images/FCGear_GearConnector.svg  style="width   *32px;"> [Combine two gears](FCGear_GearConnector.md)   * Combines two gears.
 
 ## Types of gears 
 
-### Involute Gear 
+### Involute gear 
 
    *   ![](images/Involute-Gear_example.png )
    *   
@@ -29,7 +51,15 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 *From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
     
 
-### Involute Rack 
+### Internal involute gear 
+
+   *   ![](images/FCGear_InternalInvoluteGear-01.png )
+   *   
+    
+*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md))*
+    
+
+### Involute rack 
 
    *   ![](images/Involute-Rack_example.png )
    *   
@@ -37,15 +67,23 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 *From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
     
 
-### Cycloide Gear 
+### Cycloid gear 
 
    *   ![](images/Cycloid-Gear_example_1.png )
    *   
     
-*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear CycloideGear](FCGear_CycloideGear.md))*
+*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear CycloidGear](FCGear_CycloidGear.md))*
     
 
-### Bevel Gear 
+### Cycloid rack 
+
+   *   ![](images/FCGear_CycloidRack-01.png )
+   *   
+    
+*From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](FCGear_CycloidRack.md))*
+    
+
+### Bevel gear 
 
    *   ![](images/Bevel-Gear_example.png )
    *   
@@ -53,7 +91,7 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 *From left to right   * Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
     
 
-### Worm Gear 
+### Worm gear 
 
    *   ![](images/Worm-Gear_example.png )
    *   
@@ -61,7 +99,7 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 *Above   * Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
     
 
-### Crown Gear 
+### Crown gear 
 
    *   ![](images/Crown-Gear_example.png )
    *   
@@ -69,7 +107,7 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 *Above   * Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
     
 
-### Timing Gear and Lantern Gear 
+### Timing gear and lantern gear 
 
    *   ![](images/Timing+Latern-gear_example.png )
    *   
@@ -83,76 +121,10 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 -   Home page   * <https   *//github.com/looooo/FCGear>
 -   Source code on github   * <https   *//github.com/looooo/FCGear>
 
-## Tools
-
-### Toolbar
-
--   <img alt="" src=images/FCGear_InvoluteGear.svg  style="width   *32px;"> [FCGear InvoluteGear](FCGear_InvoluteGear.md) Creates an Involute gear
--   <img alt="" src=images/FCGear_InvoluteRack.svg  style="width   *32px;"> [FCGear InvoluteRack](FCGear_InvoluteRack.md) Creates an Involute rack
--   <img alt="" src=images/FCGear_CycloideGear.svg  style="width   *32px;"> [FCGear CycloideGear](FCGear_CycloideGear.md) Creates a Cycloide gear
--   <img alt="" src=images/FCGear_BevelGear.svg  style="width   *32px;"> [FCGear BevelGear](FCGear_BevelGear.md) Creates a Bevel gear
--   <img alt="" src=images/FCGear_WormGear.svg  style="width   *32px;"> [FCGear WormGear](FCGear_WormGear.md) Creates a Worm gear
--   <img alt="" src=images/FCGear_CrownGear.svg  style="width   *32px;"> [FCGear CrownGear](FCGear_CrownGear.md) Creates a Crown gear
--   <img alt="" src=images/FCGear_TimingGear.svg  style="width   *32px;"> [FCGear TimingGear](FCGear_TimingGear.md) Creates a Timing gear
--   <img alt="" src=images/FCGear_LanternGear.svg  style="width   *32px;"> [FCGear LanternGear](FCGear_LanternGear.md) Creates a Lantern gear
-
-## Installation
-
-### Automatic installation 
-
-The recommended method of installation as of v0.17 is via the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md). It can be found in the 
-**Tools → Addon Manager**
-
-
-<div class="mw-collapsible mw-collapsed toccolours" style="width   *700px">
-
-### Manual installation 
-
-If there is a necessity to manually install this workbench the following instructions are provided to do so   *
-
-
-<div class="mw-collapsible-content">
-
-#### Linux
-
--    `git clone https   *//github.com/looooo/FCGear.git`
-    
-
--   link or copy the folder into **/freecad/Mod**
-
-   *   
-
-       *   
-        `sudo ln -s (path_to_FCGear) (path_to_freecad)/Mod`
-        
-
-#### Windows
-
-Tested on (7/8/8.1/10) (From GitHub)
-
--   download ZIP-archive by clicking on button in top right corner
--   go to FreeCAD-Macro-Folder (inside FreeCAD, choose \"Edit \> Preferences \> General \> Macro to see Macro Path)
--   if you haven\'t changed the standard settings, it should be \"C   *Users\\Your\_Windows\_User\_Name\\AppData\\Roaming\\FreeCAD\"
--   \\appdata is a HIDDEN folder, so you may have to change the settings of the file explorer to see it
--   create a sub-folder called \"FCGear\"
--   make sure to copy files and folders EXACTLY as shown above to the just created sub-folder
--   restart FreeCAD and the workbench should appear in the pull-down menu
--   within FreeCAD you can choose \"Tools \> Customize \> Workbenches\" to enable/disable workbenches
-
-#### MacOSX
-
-See instructions for Linux above
-
-
-</div>
-
-
-</div>
-
-## Links to Gear WB 
+## Links to FCGear Workbench 
 
 -   Workbench Wiki   * <https   *//github.com/looooo/FCGear/wiki>
--   FreeCAD Wiki   * [Macro\_FCGear](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCGear) and [Bevel gear](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878)
+-   FreeCAD Wiki   * [Macro_FCGear](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCGear) and [Bevel gear](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878)
 -   FreeCAD Forum   * <http   *//forum.freecadweb.org/viewtopic.php?f=21&t=12968>
 -   Tutorials   *
 -   Videos   *
@@ -161,11 +133,11 @@ See instructions for Linux above
 
 ## Other useful links 
 
--   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width   *24px;"> [PartDesign InvoluteGear](PartDesign_InvoluteGear.md)   * This tool allows for the creation of a 2D profile of an Involute gear. This 2D profile is fully parametric, and can be padded with the [PartDesign Pad](PartDesign_Pad.md) feature.
+-   <img alt="PartDesign_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width   *24px;"> [PartDesign InvoluteGear](PartDesign_InvoluteGear.md)   * This tool allows for the creation of a 2D profile of an Involute gear. This 2D profile is fully parametric, and can be padded with the [PartDesign Pad](PartDesign_Pad.md) feature.
 -   [External Workbenches](External_workbenches.md)   * A list of all current external workbenches of FreeCAD
 -   [Macros recipes](Macros_recipes.md)
--   [The cycloidal gearing (german)](https   *//vivat-geo.de/zykloidenverzahnung.html)
--   [Involute gearing (german)](https   *//vivat-geo.de/evolventenverzahnung.html)
+-   [Cycloid gearing (German)](https   *//vivat-geo.de/zykloidenverzahnung.html)
+-   [Involute gearing (German)](https   *//vivat-geo.de/evolventenverzahnung.html)
 
 
 

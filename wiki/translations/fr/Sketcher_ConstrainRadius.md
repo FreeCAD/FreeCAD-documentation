@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher ConstrainRadius
    Name/fr   *Sketcher Contrainte rayon
-   MenuLocation   *Esquisse → Contraintes d'esquisse → Contrainte de rayon ou de poids
+   MenuLocation   *Sketch → Contraintes d'esquisse → Contrainte de rayon ou de poids
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut   ***K** **R**
    SeeAlso   *[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
@@ -14,12 +14,12 @@
 
 Cette contrainte contraint la valeur du rayon d\'un cercle ou d\'un arc à avoir une valeur spécifique. Si plus d\'un cercle ou d\'un arc est sélectionné avant de lancer la commande    *
 
--   Si la contrainte est appliquée en mode \'Référence\', une nouvelle contrainte de référence est ajoutée à chaque objet séparément selon les règles ci-dessus.
--   Si la contrainte est appliquée en mode \'Normal\', les règles suivantes s\'appliquent   *
+-   Si la contrainte est appliquée en mode \"Référence\", une nouvelle contrainte de référence est ajoutée à chaque objet séparément selon les règles ci-dessus.
+-   Si la contrainte est appliquée en mode \"Normal\", les règles suivantes s\'appliquent   *
     -   Une contrainte de référence est appliquée séparément sur chaque objet qui est une géométrie externe.
-    -   des **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Contraintes d'égalités](Sketcher_ConstrainEqual/fr.md)** sont appliquées séquentiellement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
+    -   Des **[<img src=images/Sketcher_ConstrainEqual.svg style="width   *16px"> [Contraintes d'égalités](Sketcher_ConstrainEqual/fr.md)** sont appliquées séquentiellement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
 
-NB    * Les pôles des B-splines ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
+NB    * les pôles des B-splines ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 

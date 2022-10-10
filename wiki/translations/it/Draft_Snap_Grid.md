@@ -2,63 +2,41 @@
 - GuiCommand   */it
    Name   *Draft Snap Grid
    Name/it   *Griglia
-   Icon   *Snap_Grid.svg
-   MenuLocation   *Draft → Aggancio → Griglia
    Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso   *[Mostra/nascondi griglia](Draft_ToggleGrid/it.md), [Aggancio](Draft_Snap/it.md)
+   SeeAlso   *[Draft Snap](Draft_Snap/it.md), [Draft Snap Lock](Draft_Snap_Lock/it.md), [Draft ToggleGrid](Draft_ToggleGrid/it.md), [Draft SelectPlane](Draft_SelectPlane/it.md)
 ---
 
 # Draft Snap Grid/it
 
-
-</div>
-
 ## Descrizione
 
+L\'opzione <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *24px;"> **Aggancia alla Griglia** aggancia all\'intersezione delle linee della griglia. La griglia può essere usata solo se la preferenza **Usa griglia** è selezionata. Vedere [Preferenze](#Preferenze.md).
 
-<div class="mw-translate-fuzzy">
-
-Questo metodo esegue lo snap all\'intersezione di due linee della griglia, se la griglia è visibile.
-
-
-</div>
-
-![](images/Draft_Snap_Grid_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Snap del secondo punto di una linea alla griglia visibile*
-
-
-</div>
+![](images/Draft_Snap_Grid_example.png ) 
+*Aggancio del secondo punto di una linea alla griglia*
 
 ## Utilizzo
 
+Per informazioni generali riguardo gli agganci vedere [Draft Snap](Draft_Snap/it.md).
 
-{{Draft Tools navi/it}}
+1.  Facoltativamente cambiare il [piano di lavoro e/o la griglia](Draft_SelectPlane/it.md).
+2.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;"> [Draft   * Attiva/Disattiva aggancio](Draft_Snap_Lock/it.md).
+3.  Se **Aggancia alla griglia** non è attivo fare una delle seguenti cose   *
+    -   Premere il bottone **<img src="images/Draft_Snap_Grid.svg" width=16px>** nella Draft Snap toolbar.
+    -   Premere il bottone **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** nella [Draft snap widget](Draft_snap_widget/it.md) e nel menu selezionare l\'opzione **<img src="images/Draft_Snap_Grid.svg" width=16px> Aggancia alla griglia**.
+4.  Scegliere un comando [Draft](Draft_Workbench.md) o [Arch](Arch_Workbench.md) per creare la propria geometria.
+5.  Nota che puoi anche cambiare le opzioni di aggancio mentre il comando è attivo.
+6.  La griglia ora è visibile se non lo era di già.
+7.  Muovi il cursore vicino all\'intersezione di due linee della griglia.
+8.  Se una intersezione viene trovata il punto viene selezionato e l\'icona <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *16px;"> è visualizzata vicino al cursore.
+9.  Cliccare per confermare il punto.
 
+## Preferenze
 
-<div class="mw-translate-fuzzy">
+Vedere [Draft Snap](Draft_Snap/it#Preferenze.md).
 
-1.  Assicurarsi che **<img src="images/Draft_Grid.svg" width=16px> [Mostra griglia](Draft_ToggleGrid/it.md)** sia attivo.
-2.  Assicurarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Attiva aggancio](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_Grid.svg" width=16px> [Aggancia la griglia](Draft_Snap_Grid/it.md)** siano attivi.
-3.  Scegliere uno strumento di Draft per disegnare una forma.
-4.  Spostare il cursore vicino all\'intersezione di due linee della griglia finché non viene visualizzato il simbolo di snap.
-5.  Cliccare per agganciare e attaccare il nuovo punto.
-
-
-</div>
-
-
-{{Userdocnavi/it}}
-
-See [Draft Snap](Draft_Snap#Preferences.md).
-
--   To use the grid select   * **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available   * **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   Per usare la griglia selezionare   * **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. Dopo aver cambiato questa preferenza bisogna riavviare FreeCAD.
+-   Alcune ulteriori preferenze sono disponibili   * **Edit → Preferences... → Draft → Grid and snapping → Grid**.
 
 
 

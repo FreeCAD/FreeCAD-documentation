@@ -1,38 +1,58 @@
 ---
 - GuiCommand   *
    Name   *TechDraw Image
-   MenuLocation   *TechDraw → Insert Bitmap Image
-   Workbenches   *[TechDraw](TechDraw_Workbench.md)
-   SeeAlso   *[TechDraw SVG Symbol](TechDraw_Symbol.md)
+   Name/pl   *Rysunek Techniczny   * Obraz
+   MenuLocation   *Rysunek Techniczny → Wstaw obraz bitmapy
+   Workbenches   *[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso   *[SVG Symbol](TechDraw_Symbol/pl.md)
 ---
 
 # TechDraw Image/pl
 
-## Description
+## Opis
 
-The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from a file into the page as a view.
+Narzędzie **Obraz** wstawia z pliku do strony widok obrazu [bitmapy](Bitmap/pl.md) *(PNG, TIFF, JPEG itp.)*.
 
 ![](images/TechDraw_Image_example.png ) 
-*Image inserted in the drawing page*
+*Obraz wstawiony do strony rysunku.*
 
-## Usage
+## Użycie
 
-1.  Press the **<img src="images/TechDraw_Image.svg" width=16px> [Insert Bitmap Image](TechDraw_Image.md)** button
-2.  A file dialog will open. Select a location and file name.
+1.  Naciśnij przycisk **<img src="images/TechDraw_Image.svg" width=16px> [Wstaw obraz bitmapy](TechDraw_Image/pl.md)**.
+2.  Otworzy się okno dialogowe pliku. Wybierz lokalizację i nazwę pliku.
 
-## Properties
+## Właściwości
 
--   Use the Scale property to adjust the size of the image.
--   Use the Width and Height properties to clip the image.
+Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw_View/pl#Widok.md) środowiska Rysunek Techniczny.
 
-## Scripting
+### Dane
 
 
-**See also   ***
+{{TitleProperty|Obraz}}
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+-    **Plik obrazu|File**   * Plik zawierający tę bitmapę.
 
-The Image tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
+-    **Obraz dołączony|FileIncluded**   * Wbudowany plik graficzny. Tylko do użytku systemowego.
+
+-    **Szerokość|Float**   * Szerokość wykadrowanego obrazu w mm. Używane tylko wtedy, gdy **Przytnij** ma wartość {{TRUE/pl}}.
+
+-    **Wysokość|Float**   * Wysokość wykadrowanego obrazu w mm. Analogicznie.
+
+### Widok
+
+
+{{TitleProperty|Obraz}}
+
+-    **Przytnmij|Bool**   * Przycina obraz do parametrów **Szerokość** x **Wysokość**.
+
+## Tworzenie skryptów 
+
+
+**Zobacz również   ***
+
+[TechDraw API](TechDraw_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie Obraz może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji   *
 
 
 ```python

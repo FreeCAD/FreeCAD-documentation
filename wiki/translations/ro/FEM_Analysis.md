@@ -39,8 +39,14 @@ Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Fini
 
 ## Opțiuni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Până în prezent nu există opțiune de alegere.
 -   O analiză de frecvență în dezvoltare. A se vedea[1](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=12189) for more informations.
+
+
+</div>
 
 ## Proprietăți
 
@@ -48,9 +54,15 @@ Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Fini
 
 ## Programare-Script 
 
+
+<div class="mw-translate-fuzzy">
+
 cea mai mare parte a codului a fost abandonat în versiunea 0.17.
 
 -   o nouă analiză
+
+
+</div>
 
 
 ```python

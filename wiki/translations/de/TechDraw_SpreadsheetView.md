@@ -22,6 +22,16 @@ Dieses Werkzeug ermöglicht dir eine [Kalkulationstabellen](Spreadsheet_Workbenc
 
 ## Eigenschaften
 
+Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
+
+### Daten
+
+
+{{TitleProperty|Spreadsheet}}
+
+
+<div class="mw-translate-fuzzy">
+
 -    **Quelle**   * Das der Seite hinzuzufügende Arbeitsblatt
 
 -    **Zellanfang**   * Die linke obere Zelle des Zellbereichs, der in diese Ansicht aufgenommen werden soll
@@ -35,6 +45,13 @@ Dieses Werkzeug ermöglicht dir eine [Kalkulationstabellen](Spreadsheet_Workbenc
 -    **Schriftgröße**   * Die Schriftgröße von Texten
 
 -    **Linienbreite**   * Die Breite der Zellränder
+
+
+</div>
+
+## Hinweise
+
+-   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are   * {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https   *//forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
 
 
 

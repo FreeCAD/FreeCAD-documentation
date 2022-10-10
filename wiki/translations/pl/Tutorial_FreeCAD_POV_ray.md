@@ -1,10 +1,11 @@
 ---
-- TutorialInfo   *   Topic   *Rendering
-   Level   *Intermediate
-   Time   *120 minutes
+- TutorialInfo   */pl
+   Topic   *Renderowanie
+   Level   *średniozaawansowany
+   Time   *120 minut
    Author   *[https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-   FCVersion   *0.18 or greater
-   Files   *none
+   FCVersion   *0.18 lub nowszy
+   Files   *brak
 ---
 
 # Tutorial FreeCAD POV ray/pl
@@ -12,23 +13,23 @@
 
 
 
-**The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https   *//github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench, and because the new workbench should basically work in the same way**
+**Środowisko [Raytracing](Raytracing_Workbench/pl.md) zostało zastąpione przez nowe [https   *//github.com/FreeCAD/FreeCAD-render środowisko Render], które ma je zastąpić. Środowisko pracy Render może być zainstalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Informacja tutaj jest podana, ponieważ domyślnie FreeCAD jest nadal dostarczany ''(od wersji 0.19-24276)'' ze środowiskiem Raytracing, i ponieważ nowy moduł powinien w zasadzie działać w ten sam sposób.**
 
 
 
 ## Wprowadzenie
 
-This tutorial shows how to produce a rendered image in FreeCAD, using the POV-Ray renderer. It assumes that the user already created a part or assembly in FreeCAD, or has imported one into it. It uses the [Raytracing Workbench](Raytracing_Workbench.md) to produce the file for rendering.
+Ten poradnik pokazuje jak stworzyć wyrenderowany obraz w programie FreeCAD, używając renderera POV-Ray. Zakłada on, że użytkownik stworzył już część lub złożenie w FreeCAD, lub zaimportował je do niego. Do wytworzenia pliku do renderowania użyto środowiska pracy [Raytracing](Raytracing_Workbench/pl.md).
 
-This tutorial is based on the forum post by schupin [FreeCAD / pov ray tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745), which also includes one `.pov` file required to produce a rendering.
+Ten poradnik jest oparty na poście forum autorstwa schupin [FreeCAD / pov ray tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745), który zawiera również jeden `.pov` plik wymagany do produkcji renderingu.
 
 <img alt="" src=images/Povray_before_after.png  style="width   *600px;">
 
 
 
-*align=center|Example by schupin of a 3D model and high quality render produced with FreeCAD and POV-Ray.*
+*align=center|Przykład autorstwa użytkownika ''schupin'' modelu 3D i wysokiej jakości renderu wykonanego za pomocą programu FreeCAD i POV-Ray.*
 
-The files used in this tutorial are in post \#8 [in the same thread](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
+The files used in this tutorial are in post #8 [in the same thread](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
 
 ## Konfiguracja podstawowa 
 

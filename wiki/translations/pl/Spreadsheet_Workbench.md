@@ -82,14 +82,14 @@ Zgodnie z informacjami na kartach można zmieniać następujące właściwości 
 
 ## Wyrażenia w komórkach 
 
-Komórka arkusza kalkulacyjnego może zawierać dowolny tekst lub wyrażenie. Technicznie rzecz biorąc, wyrażenia muszą zaczynać się od znaku równości \"=\". Jednak arkusz kalkulacyjny stara się być inteligentny. Jeśli wpiszesz coś, co wygląda jak wyrażenie bez znaku \"=\", zostanie on dodany automatycznie.
+Komórka arkusza kalkulacyjnego może zawierać dowolny tekst, cyfry lub wyrażenie. Wyrażenia muszą zaczynać się od znaku równości \"=\".
 
-Wyrażenia komórek mogą zawierać liczby, funkcje, odwołania do innych komórek i odwołania do właściwości modelu *(ale przeczytaj akapit [Obecne ograniczenia](#Obecne_ograniczenia.md) poniżej)*. Do komórek odwołujemy się za pomocą ich adresu utworzonego z indeksu kolumny *(wielka litera)* i wiersza *(liczba)*. Do komórki można się też odwoływać za pomocą jej [nazwy alias](#alias_name.md). Przykład   * B4 + A6
+Wyrażenia komórek mogą zawierać liczby, funkcje, odwołania do innych komórek i odwołania do właściwości modelu *(ale przeczytaj akapit [Obecne ograniczenia](#Obecne_ograniczenia.md) poniżej)*. Do komórek odwołujemy się za pomocą ich adresu utworzonego z indeksu kolumny *(wielka litera)* i wiersza *(liczba)*, np B4, lub przez jej [alias](Spreadsheet_SetAlias/pl.md).
 
 **Uwaga   *** Wyrażenia komórek są traktowane przez FreeCAD jak kod programowania. Dlatego podczas edycji zawartości komórki można zauważyć, że nie jest ona zgodna z ustawieniami wyświetlania   *
 
--   separatorem miejsc dziesiętnych jest zawsze kropka
--   liczba wyświetlanych miejsc po przecinku może się różnić od Twoich [ustawień w preferencjach](Preferences_Editor#Jednostki.md).
+-   Separatorem miejsc dziesiętnych jest zawsze kropka. Ale przy wprowadzaniu wartości można również używać przecinków.
+-   Liczba wyświetlanych miejsc po przecinku może się różnić od Twoich [ustawień w preferencjach](Preferences_Editor#Jednostki.md).
 
 Odwołania do obiektów w modelu wyjaśniono w sekcji [Odniesienia do danych CAD](#Odniesienia_do_danych_CAD.md) poniżej. Używanie wartości komórek arkusza kalkulacyjnego do definiowania właściwości modelu wyjaśniono w sekcji [Dane arkusza kalkulacyjnego w wyrażeniach](#Dane_arkusza_kalkulacyjnego_w_wyra.C5.BCeniach.md) poniżej. Więcej informacji na temat wyrażeń i dostępnych funkcji można znaleźć na stronie [Wyrażenia](Expressions/pl.md).
 
@@ -103,7 +103,7 @@ W dokumencie może być używany więcej niż jeden arkusz kalkulacyjny. Arkusz 
 
 FreeCAD automatycznie przypisuje unikalną nazwę do arkusza kalkulacyjnego podczas jego tworzenia. Nazwy te są zgodne z wzorcem `Arkusz kalkulacyjny`, `Arkusz kalkulacyjny001`, `Arkusz kalkulacyjny002` i tak dalej. Nazwy tej nie można zmienić ręcznie i nie jest ona widoczna we właściwościach arkusza kalkulacyjnego. Można jej użyć do odwołania się do arkusza kalkulacyjnego w [wyrażeniach](Expressions/pl.md) *(zobacz sekcję [Dane arkusza kalkulacyjnego w wyrażeniach](#Dane_arkusza_kalkulacyjnego_w_wyra.C5.BCeniach.md) poniżej)*.
 
-Etykieta arkusza kalkulacyjnego jest automatycznie ustawiana na nazwę arkusza podczas jego tworzenia. W przeciwieństwie do nazwy, etykietę można zmienić, np. w panelu właściwości lub za pomocą polecenia **Zmień nazwę** w menu podręcznym. Należy pamiętać, że etykieta arkusza kalkulacyjnego w dokumencie musi być unikalna. Jeśli spróbujesz zmienić etykietę na etykietę używaną już przez inny arkusz kalkulacyjny, FreeCAD nie zaakceptuje nowej etykiety.
+Etykieta arkusza kalkulacyjnego jest automatycznie ustawiana na nazwę arkusza podczas jego tworzenia. W przeciwieństwie do nazwy, etykietę można zmienić, np. w panelu właściwości lub za pomocą polecenia **Zmień nazwę** w menu podręcznym. Domyślnie FreeCAD nie akceptuje zduplikowanych etykiet, ale istnieje [preferencja](Preferences_Editor/pl#Dokument.md), aby to zmienić. Do arkuszy kalkulacyjnych ze zduplikowanymi etykietami w tym samym dokumencie nie można odwoływać się za pomocą ich etykiety.
 
 FreeCAD sprawdza, czy nie występują zależności cykliczne. Zobacz sekcję [obecne ograniczenia](#Obecne_ograniczenia.md).
 
@@ -111,24 +111,31 @@ FreeCAD sprawdza, czy nie występują zależności cykliczne. Zobacz sekcję [ob
 
 Jak wskazano powyżej, w wyrażeniach arkusza kalkulacyjnego można odwoływać się do danych z modelu CAD.
 
-Wyrażenia obliczeniowe w komórkach arkusza kalkulacyjnego zaczynają się od znaku równości {{ASCII|61|24}}. Jednak mechanizm wprowadzania danych w arkuszu kalkulacyjnym stara się być inteligentny. Wyrażenie może być wpisane bez znaku {{ASCII|61|24}}. Jeśli wpisany ciąg znaków jest poprawnym wyrażeniem, znak {{ASCII|61|24}} jest automatycznie dodawany po ostatnim naciśnięciu klawisza **Enter**. Jeśli wpisany ciąg nie jest poprawnym wyrażeniem *(często jest to wynik wpisania czegoś z niewłaściwą literą, np. \"MyCube.length\" zamiast \"MyCube.Length\")*, nie jest dodawany znak {{ASCII|61|24}} i jest on traktowany jako zwykły ciąg tekstowy.
-
-**Uwaga   *** Powyższe zachowanie *(automatyczne wstawianie {{ASCII|61|24}})* ma kilka nieprzyjemnych konsekwencji   *
-
--   Jeśli chcesz zachować kolumnę nazw odpowiadającą [nazwie alias](#alias_name.md) w sąsiedniej kolumnie wartości, musisz wprowadzić nazwę w kolumnie etykiety \"przed\" podaniem komórki w wartości kolumna jego alias-name. W przeciwnym razie, gdy wprowadzisz nazwę aliasu w kolumnie etykiety, arkusz kalkulacyjny przyjmie, że jest to wyrażenie i zmieni go na „=". Wyświetlany tekst będzie wtedy wartością z komórki .
--   Jeśli popełnisz błąd podczas wpisywania nazwy w kolumnie etykiety i chcesz go poprawić, nie możesz po prostu zmienić go na nazwę aliasu. Zamiast tego musisz najpierw zmienić nazwę aliasu na inną, następnie poprawić nazwę tekstową w kolumnie etykiety, a kolejnie zmienić nazwę aliasu w kolumnie wartości z powrotem na oryginalną.
-
-Jednym ze sposobów obejścia tych problemów jest poprzedzenie etykiet tekstowych odpowiadających nazwom aliasów stałym ciągiem znaków, dzięki czemu staną się one różne. Należy pamiętać, że znak {{ASCII|95|24}} nie będzie działał, ponieważ jest konwertowany na znak {{ASCII|61|24}}. Jednak spacja, choć niewidoczna, będzie działać.
-
 W poniższej tabeli przedstawiono kilka przykładów przy założeniu, że model ma cechę o nazwie \"MyCube\"   *
 
-  Dane CAD                                           Komórka w arkuszu              Rezultat
-    
-  Długość parametryczna sześcianu środowiska Część   =MyCube.Length                 Długość z jednostkami mm
-  Objętość sześcianu                                 =MyCube.Shape.Volume           Objętość w mm³ bez jednostek
-  Typ kształtu sześcianu                             =MyCube.Shape.ShapeType        String   * Solid
-  Etykieta sześcianu                                 =MyCube.Label                  String   * MyCube
-  Współrzędna x środka masy sześcianu                =MyCube.Shape.CenterOfMass.x   Współrzędna x w mm bez jednostek
+++++
+| Dane CAD                                         | Komórka w arkuszu                                        | Rezultat                       |
++==================================================+==========================================================+================================+
+| Długość parametryczna sześcianu środowiska Część |                                           | Długość z jednostkami mm       |
+|                                                  | {{Incode|<nowiki>=MyCube.Length</nowiki>}}               |                                |
+|                                                  |                                                       |                                |
+++++
+| Objętość sześcianu                               |                                           | Objętość w mm³ bez jednostek   |
+|                                                  | {{Incode|<nowiki>=MyCube.Shape.Volume</nowiki>}}         |                                |
+|                                                  |                                                       |                                |
+++++
+| Typ kształtu sześcianu                           |                                           | String   * Solid                  |
+|                                                  | {{Incode|<nowiki>=MyCube.Shape.ShapeType</nowiki>}}      |                                |
+|                                                  |                                                       |                                |
+++++
+| Etykieta sześcianu                               |                                           | String   * MyCube                 |
+|                                                  | {{Incode|<nowiki>=MyCube.Label</nowiki>}}                |                                |
+|                                                  |                                                       |                                |
+++++
+| Współrzędna X środka masy sześcianu              |                                           | Współrzędna w mm bez jednostek |
+|                                                  | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                                |
+|                                                  |                                                       |                                |
+++++
 
 ### Dane arkusza kalkulacyjnego w wyrażeniach 
 
@@ -192,7 +199,7 @@ W arkuszu kalkulacyjnym z wartościami komórek jest związane pojęcie wymiaru 
 
 Jeśli komórka zawiera wartość reprezentującą wymiar, należy ją wpisać wraz z odpowiadającą jej jednostką. Chociaż w wielu prostych przypadkach można się obejść bez podawania wartości bezwymiarowej, nie należy podawać jednostki. Jeśli wartość reprezentująca wymiar zostanie wprowadzona bez powiązanej z nią jednostki, pewne sekwencje operacji powodują, że FreeCAD zgłasza niezgodność jednostek w wyrażeniu, podczas gdy wydaje się, że wyrażenie powinno być poprawne. *(Można to lepiej zrozumieć, przeglądając [ten wątek](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) na forum FreeCAD)*.
 
-Jednostki wyświetlane dla wartości komórki można zmienić za pomocą okna dialogowego właściwości [zakłądka jednostki](#units_tab.md) *(powyżej)*. Nie zmienia to wartości zawartej w komórce, a jedynie konwertuje istniejącą wartość na potrzeby wyświetlania. Wartość używana do obliczeń nie ulega zmianie, a wyniki formuł wykorzystujących tę wartość pozostają niezmienione. Na przykład komórka zawierająca wartość {{value|5.08cm}} może zostać wyświetlona jako {{value|2cale}} po zmianie wartości na karcie Jednostki na \"cale\".
+Jednostki wyświetlane dla wartości komórki można zmienić za pomocą okna dialogowego właściwości [zakładka jednostki](#W.C5.82a.C5.9Bciwo.C5.9Bci_kom.C3.B3rek.md) *(powyżej)*. Nie zmienia to wartości zawartej w komórce, a jedynie konwertuje istniejącą wartość na potrzeby wyświetlania. Wartość używana do obliczeń nie ulega zmianie, a wyniki formuł wykorzystujących tę wartość pozostają niezmienione. Na przykład komórka zawierająca wartość {{value|5.08cm}} może zostać wyświetlona jako {{value|2cale}} po zmianie wartości na karcie Jednostki na \"cale\".
 
 Liczby bezwymiarowej nie można zmienić na liczbę z jednostką za pomocą okna dialogowego właściwości komórki. Można wprowadzić ciąg jednostek i zostanie on wyświetlony, ale komórka nadal będzie zawierać liczbę bezwymiarową. Aby zmienić wartość bezwymiarową na wartość z wymiarem, należy ponownie wprowadzić samą wartość wraz z przypisaną jej jednostką.
 

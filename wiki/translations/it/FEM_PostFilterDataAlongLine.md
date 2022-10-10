@@ -16,6 +16,10 @@ Da fare
 
 </div>
 
+![](images/FEM_Line-Clip-Filter-Example.png )
+
+*A line clip filter inside a [Region clip filter](FEM_PostFilterClipRegion.md).The Region clip filter is the semi-transparent object.The part of the line outside the Region clip filter is set to a value of zero and therefore appears blue.*
+
 
 {{Userdocnavi/it}}
 

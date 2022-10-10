@@ -2,7 +2,7 @@
 - GuiCommand   *
    Name   *Sketcher Regular Polygons
    Icon   *Sketcher_CompCreateRegularPolygon.png
-   MenuLocation   *None (toolbar only)
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench.md)
 ---
 

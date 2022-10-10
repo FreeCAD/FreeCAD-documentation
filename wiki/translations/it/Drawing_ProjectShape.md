@@ -3,14 +3,11 @@
    Name   *Drawing_ProjectShape
    Name/it   *Proietta le forme
    Empty   *1
-   Workbenches   *[Drawing](Drawing_Workbench/it.md), Completo
+   Workbenches   *[Drawing](Drawing_Workbench/it.md)
    MenuLocation   *Drawing → Proietta le forme
 ---
 
 # Drawing ProjectShape/it
-
-
-</div>
 
 ## Descrizione
 
@@ -21,12 +18,12 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 ## Utilizzo
 
 +++
-| ![](images/ProjectShapeSet_it.png ) | 1.  Selezionare un oggetto nella vista 3D o nella struttura del progetto                                                                |
-|                                                      | 2.  fare clic sullo strumento **Proietta le forme**                                                                                     |
-|                                                      | 3.  impostare le opzioni desiderate                                                                                                     |
-|                                                      | 4.  cliccare su **OK**                                                                                                |
-|                                                      |                                                                                                                                         |
-|                                                      | Nell\'albero del progetto viene aggiunto un oggetto **Nome\_proj**. Per le proiezioni successive, viene aggiunto un numero a tre cifre. |
+| ![](images/ProjectShapeSet_it.png ) | 1.  Selezionare un oggetto nella vista 3D o nella struttura del progetto                                                               |
+|                                                      | 2.  fare clic sullo strumento **Proietta le forme**                                                                                    |
+|                                                      | 3.  impostare le opzioni desiderate                                                                                                    |
+|                                                      | 4.  cliccare su **OK**                                                                                               |
+|                                                      |                                                                                                                                        |
+|                                                      | Nell\'albero del progetto viene aggiunto un oggetto **Nome_proj**. Per le proiezioni successive, viene aggiunto un numero a tre cifre. |
 +++
 
 ### Modificare una proiezione esistente 
@@ -116,4 +113,4 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing ProjectShape/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing ProjectShape/it

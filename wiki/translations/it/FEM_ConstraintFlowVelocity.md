@@ -6,7 +6,7 @@
 
 Applica una velocità del flusso come condizione al contorno a un bordo in 2D o a una faccia in 3D.
 
-![](images/FEM-constraint-flow-velocity_task-panel.png ) 
+<img alt="" src=images/FEM-constraint-flow-velocity_task-panel.png  style="width   *400px;"> 
 *Constraint flow velocity menus within the [task panel](Task_panel.md)*
 
 ## Utilizzo

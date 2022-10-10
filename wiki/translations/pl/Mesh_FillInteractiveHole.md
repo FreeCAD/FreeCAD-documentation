@@ -1,32 +1,33 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh FillInteractiveHole
-   MenuLocation   *Meshes → Close hole
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Mesh FillupHoles](Mesh_FillupHoles.md), [Mesh AddFacet](Mesh_AddFacet.md)
+   Name/pl   *Siatka   * Interaktywne wypełnienie otworów
+   MenuLocation   *Meshes → Zamknij otwór
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Wypełnienie otworów](Mesh_FillupHoles/pl.md), [Dodaj trójkąt](Mesh_AddFacet/pl.md)
 ---
 
 # Mesh FillInteractiveHole/pl
 
-## Description
+## Opis
 
-The **Mesh FillInteractiveHole** command fills selected holes in mesh objects.
+Polecenie **Zamknij otwór** wypełnia wybrane otwory w obiektach siatkowych.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_FillInteractiveHole.svg" width=16px> [Mesh FillInteractiveHole](Mesh_FillInteractiveHole.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Close hole** option from the menu.
-2.  The cursor changes to a triangle icon.
-3.  Select a face that shares an edge with the hole you wish to close.
-4.  The hole is closed.
-5.  Optionally repeat this to close additional holes.
-6.  If required you can use [Std Undo](Std_Undo.md) to undo the last action of the command.
-7.  Select the **Leave hole-filling mode** option from the [3D view](3D_view.md) context menu to finish the command.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_FillInteractiveHole.svg" width=16px> [Zamknij otwór](Mesh_FillInteractiveHole/pl.md)**.
+    -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Zamknij otwór**.
+2.  Kursor zmienia wygląd na ikonę trójkąta.
+3.  Wybierz ścianę, która ma wspólną krawędź z otworem, który chcesz zamknąć.
+4.  Otwór zostanie zamknięty.
+5.  Opcjonalnie powtórz to, aby zamknąć kolejne otwory.
+6.  W razie potrzeby możesz użyć [Cofnij](Std_Undo/pl.md) aby cofnąć ostatnie działanie polecenia.
+7.  Wybierz opcję **Opuść tryb wypełnienie otworu** z menu kontekstowego okna [widoku 3D](3D_view/pl.md), aby zakończyć polecenie.
 
-## Notes
+## Uwagi
 
--   If the edges of a hole do not lie in the same plane, the result of the command can depend on the selected face.
+-   Jeśli krawędzie otworu nie leżą w tej samej płaszczyźnie, wynik polecenia może zależeć od wybranej ściany.
 
 
 

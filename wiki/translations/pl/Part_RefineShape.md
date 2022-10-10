@@ -1,55 +1,53 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Part RefineShape
-   MenuLocation   *Part → Create a copy → Refine Shape
-   Workbenches   *[Part](Part_Workbench.md)
-   SeeAlso   *[Part SimpleCopy](Part_SimpleCopy.md), [Part TransformedCopy](Part_TransformedCopy.md), [Part ElementCopy](Part_ElementCopy.md), [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md)
+   Name/pl   *Część   * Udoskonal kształt
+   MenuLocation   *Część → Utwórz kopię → Udoskonal kształt
+   Workbenches   *[Część](Part_Workbench/pl.md)
+   SeeAlso   *[Szybka kopia](Part_SimpleCopy/pl.md), [Przekształcona kopia](Part_TransformedCopy/pl.md), [Kopia kształtu elementu](Part_ElementCopy/pl.md), [Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md)
 ---
 
 # Part RefineShape/pl
 
-## Description
+## Opis
 
-The **<img src="images/Part_RefineShape.svg" width=16px> [Part RefineShape](Part_RefineShape.md)** produces a non-parametric copy with a refined shape, that is, with certain edges and faces cleaned up.
+Narzędzie środowiska Część **<img src="images/Part_RefineShape.svg" width=16px> [Udoskonal kształt](Part_RefineShape/pl.md)** tworzy nieparametryczną kopię o dopracowanym kształcie, czyli z \"oczyszczonymi\" niektórymi krawędziami i powierzchniami.
 
-After certain boolean operations, like [Part Fuse](Part_Fuse.md), some lines from the previous shapes may remain visible. This tool produces a copy of that boolean result, and cleans up those seams.
+Po niektórych operacjach logicznych, takich jak [Połączenie](Part_Fuse/pl.md), pewne linie z poprzednich kształtów mogą pozostać widoczne. To narzędzie tworzy kopię wyniku operacji logicznej i usuwa te szwy.
 
-**Alternatively**, to produce other non-parametric copies use **<img src="images/Part_SimpleCopy.svg" width=16px> [Simple Copy](Part_SimpleCopy.md)
-**, **<img src="images/Part_TransformedCopy.svg" width=16px>[Transformed Copy](Part_TransformedCopy.md)**, and **<img src="images/Part_ElementCopy.svg" width=16px> [Element Copy](Part_ElementCopy.md)**
+**Alternatywnie**, aby stworzyć inne kopie nieparametryczne użyj narzędzi **<img src="images/Part_SimpleCopy.svg" width=16px> [Szybka kopia](Part_SimpleCopy/pl.md)**, **<img src="images/Part_TransformedCopy.svg" width=16px>[Przekształcona kopia](Part_TransformedCopy/pl.md)**, oraz **<img src="images/Part_ElementCopy.svg" width=16px> [Kopia kształtu elementu](Part_ElementCopy/pl.md)**.
 
 ![](images/PartRefineShape_it.png ) 
-*Original boolean result with 11 faces (left), and refined shape copy with 7 faces (right).*
+*Oryginalny wynik działania funkcji logicznej z 11 ścianami ''(po lewej)'' oraz dopracowana kopia kształtu z 7 ścianami ''(po prawej)''.*
 
-## Usage
+## Użycie
 
-1.  Select an object that you wish to clean and copy.
-2.  Go to the menu **Part → Create a copy → <img src="images/Part_RefineShape.svg" width=16px> Refine shape**.
-3.  A cleaned, independent copy of the original object is created; the original object is hidden.
+1.  Wybierz obiekt, który chcesz oczyścić i skopiować.
+2.  Przejdź do menu **Część → Utwórz kopię → <img src="images/Part_RefineShape.svg" width=16px> Udoskonal kształt**.
+3.  Tworzona jest ulepszona, niezależna kopia oryginalnego obiektu, oryginalny obiekt jest ukryty.
 
-As of <small>(v0.19)</small>  the result defaults to a parametric (linked) copy.
+Od {{VersionPlus/pl|0.19}} rezultat ten jest domyślny dla parametrycznej *(połączonej)* kopii.
 
-This behavior can be changed in the <img alt="" src=images/Std_DlgParameter.svg  style="width   *24px;"> [Parameter editor](Std_DlgParameter.md)   *
+To zachowanie można zmienić w <img alt="" src=images/Std_DlgParameter.svg  style="width   *24px;"> [Edytorze parametrów](Std_DlgParameter/pl.md)   *
 
-1.  Go to the subgroup   * `BaseApp/Preferences/Mod/Part`
-2.  Change `ParametricRefine` of type `Boolean` to `False` to get the old behavior (independent copy).
+1.  Przejdź do grupy podrzędnej   * `BaseApp/Preferences/Mod/Part`
+2.  Zmień wartość parametru `ParametricRefine` typu `Boolean` na {{FALSE/pl}}, aby uzyskać stare zachowanie *(niezależna kopia)*.
 
-See other parameters in [Fine-tuning](Fine-tuning.md).
+Zobacz inne parametry na stronie [Dostrajanie parametrów](Fine-tuning/pl.md).
 
-## Notes
+## Uwagi
 
--   This function can be used as the last step in the modelling work to clean up shapes in a traditional [constructive solid geometry](constructive_solid_geometry.md) workflow.
--   This function may help to clean up the model before applying another feature, such as a [Fillet](Part_Fillet.md).
--   This clean up may stop 3D printers from printing unwanted edges once the solid model is exported to a mesh format.
--   This function can also be used after converting a mesh to a shape ([ShapeFromMesh](Part_ShapeFromMesh.md)) to clean up the residual edges on flat faces.
+-   Funkcja ta może być używana jako ostatni etap prac nad modelowaniem w celu oczyszczenia kształtów w tradycyjnym przepływie pracy [konstrukcyjnej geometrii bryły](Constructive_solid_geometry/pl.md).
+-   Funkcja ta może pomóc w oczyszczeniu modelu przed zastosowaniem innej funkcji, takiej jak np. [zaokrąglenie](Part_Fillet/pl.md).
 
-## Limitations
+## Ograniczenia
 
--   The refinement algorithm only works on shells. Therefore it iterates over the shells of the input shape and then for each shell it creates a new shell with joined faces wherever possible. This means that if your input shape is only a face, wire, edge or vertex then the algorithm does nothing.
--   Unlike the <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width   *24px;"> [OpenSCAD RefineShapeFeature](OpenSCAD_RefineShapeFeature.md) command, <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Part RefineShape](Part_RefineShape.md) won\'t update when the preceding shapes are changed.
+-   Algorytm udoskonalania działa tylko na powłokach. Dlatego wykonuje iterację po powłokach kształtu wejściowego, a następnie dla każdej powłoki tworzy nową powłokę z połączonymi ścianami, jeśli to możliwe. Oznacza to, że jeśli twój kształt wejściowy jest tylko powierzchnią, polilinią , krawędzią lub wierzchołkiem, to algorytm nie zrobi nic.
+-   W przeciwieństwie do narzędzia <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width   *24px;"> [OpenSCAD   * Udoskonal kształt cechy](OpenSCAD_RefineShapeFeature/pl.md), narzędzie <img alt="" src=images/Part_RefineShape.svg  style="width   *24px;"> [Udoskonal kształt](Part_RefineShape/pl.md) środowiska Część nie będzie samoczynnie aktualizować bryły, gdy zostaną zmienione kształty poprzedzające.
 
-## Scripting
+## Tworzenie skryptów 
 
-The Python command for refining a shape is the following   *
+Polecenie środowiska Python służące do dopracowania kształtu jest następujące   *
 
 
 ```python

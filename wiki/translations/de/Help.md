@@ -11,7 +11,7 @@ Wenn Du Hilfe brauchst oder Fragen zu einer bestimmten Seite dieser Wiki-Dokumen
 
 ## Internet Relay Chat (IRC) 
 
-Es gibt auch einen [IRC \#freecad Chatroom auf Freenode](irc   *//chat.freenode.net/freecad). \#openFOAM-IRC ist auch auf Freenode.
+Es gibt auch einen [IRC #freecad Chatroom auf Freenode](irc   *//chat.freenode.net/freecad). #openFOAM-IRC ist auch auf Freenode.
 
 ## Reddit
 
@@ -19,7 +19,7 @@ Wenn Du auf Reddit bist, könntest Du die [r/FreeCAD](https   *//www.reddit.com/
 
 ## Telegram
 
-If you are on Telegram you may use the [t.me/FreeCAD\_EN](https   *//t.me/FreeCAD_EN).
+If you are on Telegram you may use the [t.me/FreeCAD_EN](https   *//t.me/FreeCAD_EN).
 
 ## Twitter and Mastodon 
 
@@ -31,7 +31,13 @@ Du kannst der [FreeCAD\'s Facebook public group](https   *//www.facebook.com/gro
 
 ## Discord
 
+
+<div class="mw-translate-fuzzy">
+
 Wir haben einen [offizieller FreeCAD Discord Server](https   *//discord.gg/NpMefpXWFT) mit einer Vielzahl von Kanälen für verschiedene Unterthemen. Es gibt auch mehrere Server von Drittanbietern mit FreeCAD-bezogenen Diskussionskanälen. Der [Elmer FEM](https   *//discordapp.com/invite/NeZEBZn) Server hat einen Kanal für fast jedes CAD, CAM und CAE Werkzeug, da draußen, egal ob Open Source oder proprietär, und er hat einen ziemlich gut etablierten \"freecad\" Kanal. Die große Vielfalt an Kanälen und Gemeinschaften, die dieser Server anzieht, bedeutet, dass er gut geeignet ist, um Diskussionen mit Leuten aus verwandten Gemeinschaften zu führen. Der [OpenFOAM](https   *//discordapp.com/invite/P9p9eHn) Server hat einen \"freecad-salome-etc\" Kanal, wo du vielleicht Leute findest, die sich mehr für die Überschneidungen zwischen FreeCAD und Computergestützte Fluiddynamik Werkzeuge wie OpenFOAM interessieren. Der [Modelica Language](https   *//discordapp.com/invite/bp2yeYU) Server hat auch einen \"freecad\" Kanal, wenn du an FreeCAD aus der Perspektive der Mehrdomänenmodellierung interessiert bist. Bitte verwende jedoch Chatgruppen nicht als Hauptmedium für den Datenaustausch. Sie werden von den Suchmaschinen nicht indiziert, und die auf diesen Plattformen produzierten Informationen werden nicht ordnungsgemäß gesammelt, wie dies bei Foren, Blogbeiträgen oder Wikiseiten der Fall ist.
+
+
+</div>
 
 
  

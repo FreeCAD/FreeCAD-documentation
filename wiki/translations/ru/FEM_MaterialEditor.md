@@ -1,47 +1,37 @@
 ---
-- GuiCommand   *
-   Name   *FEM MaterialEditor
-   Name/ru   *Material editor
-   MenuLocation   *Model → Material → Material editor
+- GuiCommand   */ru
+   Name/ru   *Редактор материалов
+   Name   *FEM_MaterialEditor
+   MenuLocation   *Модель → Материалы → Редактор материалов
    Workbenches   *[FEM](FEM_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
-   Shortcut   *
    Version   *0.18
-   SeeAlso   *[Material](Material.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso   *[Material/ru](Material/ru.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MaterialEditor/ru
-
-
-</div>
 
 ## Описание
 
 
 <div class="mw-translate-fuzzy">
 
-Редактор материалов позволяет редактировать и сохранять информацию в объекте [материала FreeCAD](Material.md). Сейчас эти материалы используются в верстаках **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench/ru.md)** и **<img src="images/Workbench_Arch.svg" width=24px> [Arch](Arch_Workbench/ru.md)**.
+Редактор материалов позволяет редактировать и сохранять информацию в объекте [материала FreeCAD](Material/ru.md). Эти материалы доступны для применения в верстаках **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench/ru.md)** и **<img src="images/Workbench_Arch.svg" width=24px> [Arch](Arch_Workbench/ru.md)**.
 
 
 </div>
 
 ![](images/Material_editor.png )
 
-## Использование
+## Применение
 
-Редактор материалов сейчас может быть доступен через   *
+На текущий момент редактор материалов может быть доступен   *
 
-
-<div class="mw-translate-fuzzy">
-
-1.  <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Верстак Arch](Arch_Workbench/ru.md)
-    -   Кнопку <img alt="" src=images/Arch_SetMaterial.svg  style="width   *32px;"> [Set Material](Arch_SetMaterial/ru.md) панели создания [нового материала](Arch_SetMaterial/ru.md) в [верстаке Arch](Arch_Workbench/ru.md)
-    -   Меню **Arch → Set material...**
-2.  <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [Верстак FEM](FEM_Workbench/ru.md)
-    -   Иконку <img alt="" src=images/FEM_MaterialEditor.svg  style="width   *32px;"> [Material editor](FEM_MaterialEditor/ru.md)
-    -   Меню **Models → Material → Material editor**
-
-
-</div>
+1.  <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> В [верстаке Arch](Arch_Workbench/ru.md) через   *
+    -   Кнопку **<img src="images/Arch_SetMaterial.svg" width=16px> [Set Material](Arch_SetMaterial/ru.md)**.
+    -   Меню **Arch → Material tools → <img src="images/Arch_SetMaterial.svg" width=16px> Material**.
+2.  <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> В [верстаке FEM](FEM_Workbench/ru.md) через   *
+    -   Кнопку **<img src="images/FEM_MaterialEditor.svg" width=16px> [Material editor](FEM_MaterialEditor/ru.md)**.
+    -   Меню **Models → Materials → <img src="images/FEM_MaterialEditor.svg" width=16px> Material editor**.
 
 ## Опции
 
@@ -61,11 +51,12 @@
 
 -    **Delete property**   * Удаляет выбранный параметр. Может быть удалён лишь пользовательский параметр
 
-Примечание   *
+## Notes
 
 -   Кнопки **OK** и **Cancel** имеют тот же эффект, если редактор материалов не используется для прямого редактирования параметров материала существующего объекта.
 
-!!FUZZY!!
+
+
 
 
 {{FEM Tools navi

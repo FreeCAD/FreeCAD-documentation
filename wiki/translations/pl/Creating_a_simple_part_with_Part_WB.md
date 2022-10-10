@@ -5,7 +5,8 @@
    Author   *heda
    Time   *2 godziny
    FCVersion   *0.19 lub nowszy
-   Files   *
+   Files   * nie dołączono
+   SeeAlso   *[Projekt Części   * tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md), [Tworzenie prostej części za pomocą środowiska pracy Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
 ---
 
 # Creating a simple part with Part WB/pl
@@ -34,9 +35,10 @@ Wielu nowych użytkowników programów CAD utknęło podczas nauki oprogramowani
 -   Tworzenie wydrążonego elementu,
 -   Alternatywny sposób na umieszczenie fazy,
 -   Edycja wymiarów,
--   Organizowanie drzewa w odmienny sposób.
+-   Organizowanie drzewa w odmienny sposób,
+-   Zawijanie.
 
-### Model do wykonania 
+## Model do wykonania 
 
 <img alt="" src=images/GGTuto1_Vue.PNG  style="width   *372px;">
 
@@ -48,273 +50,281 @@ Utwórz nowy dokument i zapisz go bezpośrednio pod nową nazwą, dobrą praktyk
 
 ### Utwórz główny blok bryły 
 
-Press <img alt="" src=images/Part_Box.svg  style="width   *24px;"> [Box](Part_Box.md) to make a default solid cube. The cube appears in the [3D view](3D_view.md) and also as a new object in the [Tree view](Tree_view.md) in the sidebar.
+Naciśnij przycisk narzędzia <img alt="" src=images/Part_Box.svg  style="width   *24px;"> [Sześcian](Part_Box/pl.md), aby stworzyć domyślną bryłę sześcianu. Sześcian pojawi się w oknie [widoku 3D](3D_view/pl.md), a także jako nowy obiekt w oknie [widoku drzewa](Tree_view/pl.md) na pasku bocznym.
 
-Press <img alt="" src=images/Std_ViewIsometric.svg  style="width   *24px;"> [Isometric](Std_ViewIsometric.md) to see the cube in 3D.
+Naciśnij przycisk narzędzia <img alt="" src=images/Std_ViewIsometric.svg  style="width   *24px;"> [Widok izometryczny](Std_ViewIsometric/pl.md) aby zobaczyć sześcian w przestrzeni 3D.
 
 ![](images/T101pwb01-03_cube1.png )
 
-Select the cube in the [Tree view](Tree_view.md), it becomes green in the 3D view. Below the tree view you will now see that the cube by default is created with the dimensions **Length x Width x Height** as *10 x 10 x 10 mm*. Change those dimensions to **100 x 30 x 50** as per the initial drawing of the model.
+Wybierz sześcian w oknie [widok drzewa](Tree_view.md), zostanie on podświetlony na zielono. Poniżej widoku drzewa zobaczysz teraz, że sześcian domyślnie jest tworzony z wymiarami **długość x szerokość x wysokość** jako **10 x 10 x 10 mm**. Zmień te wymiary na **100 x 30 x 50** zgodnie z założeniami początkowymi modelu.
 
 ![](images/T101pwb01-04_cubedims.png )
 
-When changing a property, like *Length* through the spinbox, one can either enter the values, or use the scroll-wheel to tick values up or down. The arrows for ticking values up or down can of course also be used. In the right most picture above, the *Height* property is in edit mode, rolling the scroll wheel when the mouse is over that cell will change the value by one up or down.
+Podczas zmiany właściwości, jak na przykład *Długość* poprzez pole wyboru, można albo wprowadzić wartości, albo użyć kółka przewijania do odmierzenia wartości w górę lub w dół. Oczywiście można również użyć strzałek do zmiany wartości w górę lub w dół. Na obrazku po prawej stronie, właściwość *Wysokość* znajduje się w trybie edycji, kręcenie kółkiem przewijania, gdy mysz znajduje się nad tą komórką, zmieni wartość o jeden w górę lub w dół.
 
-Click <img alt="" src=images/Std_ViewFitAll.svg  style="width   *24px;"> **[Fit all](Std_ViewFitAll.md)** to see the whole cube.
+Kliknij w narzędzie <img alt="" src=images/Std_ViewFitAll.svg  style="width   *24px;"> **[Przybliż i dopasuj wszystko](Std_ViewFitAll/pl.md)** aby zobaczyć cały sześcian.
 
 ![](images/T101pwb01-05_cube2.png )
 
-### Create the fillet 
+### Tworzenie zaokrąglenia 
 
-To make the filleted corner, in the toolbar press <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> **[Fillet](Part_Fillet.md)** which opens the *task panel* for fillets in the [combo view](Combo_view.md) to the side. Change the *radius* spinbox to 20 mm, then in the 3D view, select the width edge to the upper right and click **OK**.
+Aby wykonać zaokrąglony narożnik, w pasku narzędziowym naciśnij narzędzie <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> *[Zaokrąglenie](Part_Fillet/pl.md)*, co spowoduje otwarcie *panelu zadań* dla zaokrągleń w oknie [widoku połączonego](Combo_view/pl.md). Zmień wartość w polu wyboru *promień* na {{Value|20 mm}}, a następnie w widoku 3D wybierz krawędź szerokości w prawym górnym rogu i kliknij przycisk **OK**.
 
 ![](images/T101pwb01-06_filletrad.png )
 
-The *task panel* closes and you are back to the Tree view which now has a fillet object instead of the earlier cube.
+Zamykamy *panel zadań* i wracamy do widoku Drzewa, w którym zamiast wcześniejszego sześcianu znajduje się teraz obiekt zaokrąglenia.
 
-### Visibility of children 
+### Widoczność obiektów podrzędnych 
 
-Click the plus sign/caret to expand the children of the fillet, which in this case is the *cube* we created earlier, but it is grayed out. Select the cube and press the space bar -- this toggles visibility so the cube is now visible again and the icon is no longer grayed out. To deselect the cube click in a blank area in the Tree view or the 3D view.
+Kliknij na znak plusa, aby rozwinąć obiekty podrzędne zaokrąglenia, którym w tym przypadku jest *sześcian*, utworzony przez nas wcześniej, ale jest on poszarzony. Zaznacz sześcian i naciśnij spację - to przełącza widoczność, więc sześcian jest teraz ponownie widoczny, a ikona nie jest już nieaktywna. Aby usunąć zaznaczenie sześcianu, kliknij w pustym miejscu w widoku drzewa lub oknie widoku 3D.
 
 ![](images/T101pwb01-07_fillet.png )
 
-### Create the chamfer 
+### Tworzenie sfazowania 
 
-Next is to create the 30 degree *chamfer*, start by toggling the visibility of the child cube of the fillet. There is a chamfer tool in [Part Workbench](Part_Workbench.md), but instead of using it we will make the chamfer with another block and a boolean cut.
+Następnie tworzymy 30-stopniową *fazę*, zaczynamy od przełączenia widoczności sześcianu będącego obiektem podrzędnym zaokrąglenia. W środowisku pracy [ Część](Part_Workbench/pl.md) jest narzędzie do sfazowania, ale zamiast go używać zrobimy fazę za pomocą innego bloku i cięcia funkcją logiczną.
 
-Create a new <img alt="" src=images/Part_Box.svg  style="width   *24px;"> **[Box](Part_Box.md)** with dimensions 60 x 30 x 30. Change the **placement angle** to -30 degrees.
+Utwórz nowy <img alt="" src=images/Part_Box.svg  style="width   *24px;"> **[Sześcian](Part_Box/pl.md)** o wymiarach 60 x 30 x 30. Zmień *kąt umiejscowienia* na -30 stopni.
 
 ![](images/T101pwb01-08_chamfer1.png )
 
-The placement angle is using the **placement vector** (Axis) as axis of rotation. The default is the z-axis, which is not matching our target direction, changing the placement vector to the **y-axis** produces the desired orientation of the cutting tool for the chamfer.
+Kąt umieszczenia wykorzystuje *wektor umieszczenia* *(oś)* jako oś obrotu. Domyślnie jest to oś Z, która nie odpowiada naszemu kierunkowi docelowemu, zmiana wektora pozycjonowania na *oś Y* powoduje pożądaną orientację narzędzia tnącego dla fazy.
 
 ![](images/T101pwb01-09_chamfer2.png )
 
-The same placement can be attained with other values as well, the simplest alternative example of a placement that is the same is an angle of +30 degrees and a y-axis of -1.
+Takie samo umiejscowienie można osiągnąć również z innymi wartościami, najprostszym alternatywnym przykładem umiejscowienia, które jest takie samo, jest kąt +30 stopni i nadana wartość dla osi Y, równa -1.
 
-#### Python console 
+#### Konsola Python 
 
-Furthermore the position needs to be adjusted, looking at the drawing of the finished part, there is no direct dimension to use for the intended translation upwards. Since the upward dimension is the one needed, we have to calculate it. Let's make use of the built in **[Python console](Python_console.md)** for those calculations, it is basic trigonometry. If the FreeCAD Python console is not visible for you, just right-click in an empty space in the toolbar area and check the *Python console* and it should appear in the workspace, when there you should as well add the **[report view](Report_view.md)** if not already visible. The *report view* most of the times provides useful information or even hints of what to do next for different commands.
+Ponadto należy skorygować położenie, patrząc na rysunek gotowej części, nie ma bezpośredniego wymiaru, który można wykorzystać do zamierzonego przesunięcia w górę. Skoro wymiar w górę jest tym potrzebnym, musimy go obliczyć. Wykorzystajmy do tych obliczeń wbudowaną konsolę *[Python](Python_console/pl.md)*, jest to podstawowa trygonometria. Jeżeli konsola Python w programie FreeCAD nie jest widoczna, kliknij prawym przyciskiem myszki na puste miejsce w obszarze paska narzędzi i zaznacz opcję *konsola Python*, ta powinna pojawić się w obszarze roboczym. Gdy już się tam pojawi powinieneś również dodać okienko *[widoku raportu](Report_view/pl.md)* jeżeli nie jest jeszcze widoczne. Widok raportu w większości przypadków dostarcza przydatnych informacji lub nawet podpowiedzi, co należy zrobić dalej dla różnych poleceń.
 
 ![](images/T101pwb01-10_pyconsole.png )
 
-After importing the **[math](https   *//docs.python.org/3/library/math.html#module-math)** module from the standard libraries in python we can use the formula *(50 - math.tan(math.radians(30)) \* 50)* to find the distance in z-direction that the block should be moved. Copy the result of the formula from the Python console and paste it into the z position for **Cube001**. The *tool* to use for the chamfer *cut* is now properly oriented and positioned.
+Po zaimportowaniu modułu *[math](https   *//docs.python.org/3/library/math.html#module-math)* z bibliotek standardowych środowiska Python możemy użyć formuły *(50 - math.tan(math.radians(30)) \* 50)*, aby znaleźć odległość w kierunku Z, na jaką należy przesunąć sześcian. Skopiuj wynik formuły z konsoli Python i wklej go do pozycji z dla **Cube001**. Narzędzie, które ma zostać użyte do wykonania cięcia fazy jest teraz prawidłowo zorientowane i umieszczone.
 
 ![](images/T101pwb01-11_chamfer3.png )
 
-#### Expressions
+#### Wyrażenia
 
-One does not have to use the Python console to do the calculation, In most cases when dealing with numeric parametric values, FreeCAD has a short-cut to a built-in calculator. It is called **[Expressions](Expressions.md)** in FreeCAD, you can enter the *expression mode* by first clicking in the spinbox for the z-position, a small blueish circular icon will appear at the right side.
+Nie trzeba używać konsoli Python, aby wykonać obliczenia, W większości przypadków, gdy mamy do czynienia z numerycznymi wartościami parametrycznymi, FreeCAD posiada skrót do wbudowanego kalkulatora. Nazywa się on *[Wyrażenia](Expressions/pl.md)* w FreeCAD, do *trybu wyrażania* można wejść klikając najpierw w pole wyboru dla pozycji Z, po prawej stronie pojawi się mała niebieskawa okrągła ikona.
 
 ![](images/T101pwb01-12_expression1.png )
 
-Clicking that icon opens new window *Formula editor* where formulas and expressions can be entered as shown below. Using expressions is a powerful tool, since one can access parameters from the model, effectively making all parameters in the model available as variables to be used when creating an expression. In short, in our formula, instead of entering the number 50 when in the formula editor, we could enter a *named parameter* holding the value 50 from the cube, with the benefit that if we change the cube *height*, the position of the chamfer will automatically follow. The value of 50 in the current model is referred to as *Cube.Length*, i.e. the *Length* property of the *Cube* feature. Further information on this can be found on the wiki.
+Kliknięcie tej ikony otwiera nowe okno *Edytor formuły*, w którym można wprowadzać formuły i wyrażenia, jak pokazano poniżej. Posługiwanie się wyrażeniami jest potężnym narzędziem, ponieważ można uzyskać dostęp do parametrów z modelu, efektywnie udostępniając wszystkie parametry w modelu jako zmienne do wykorzystania przy tworzeniu wyrażenia. W skrócie, w naszej formule, zamiast wpisywać liczbę 50 w edytorze formuły, możemy wprowadzić *parametr nazwany* przechowujący wartość 50 sześcianu, z korzyścią, że jeśli zmienimy *wysokość* sześcianu, pozycja fazy będzie automatycznie podążała. Wartość 50 w obecnym modelu jest określana jako *Cube.Length*, czyli właściwość *Length* cechy *Cube*. Więcej informacji na ten temat można znaleźć na wiki.
 
 ![](images/T101pwb01-13_expression2.png )
 
-To make the cut, with the **Ctrl** key pressed down first select the **Fillet** in the Tree view and then the latest created cube (named **Cube001**) and finally in the toolbar press the <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Cut](Part_Cut.md)** button. Your Tree view should now again be a single object in the root called **Cut**.
+Aby wykonać cięcie, z wciśniętym klawiszem **Ctrl** najpierw wybierz obiekt **zaokrąglenie** w widoku drzewa, a następnie ostatnio utworzony sześcian *(nazwany **Cube001**)* i na koniec w pasku narzędzi naciśnij przycisk <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> *[Wytnij](Part_Cut/pl.md)*. Twój widok drzewa powinien teraz ponownie zawierać pojedynczy obiekt w korzeniu o nazwie **Cut**.
 
 ![](images/T101pwb01-14_model1.png )
 
-#### The measurement tool 
+### Pasek narzędzi 
 
-The **[measurement tool](Part_Measure_Menu.md)** in the **Part Workbench** can be used to check that our calculation and placement of the chamfer is correct. Press the <img alt="" src=images/Part_Measure_Linear.svg  style="width   *24px;"> **[Measure Linear](Part_Measure_Linear.md)** button and a *task panel* opens up, then select the 2 endpoints of one side of the chamfer.
+Uwaga poboczna do pasków narzędzi, ponieważ są one typowym sposobem wywoływania poleceń. Na marginesie pasków narzędzi, ponieważ są one typowym sposobem wywoływania poleceń. Chociaż istnieje podstawowe ustawienie dla układu pasków narzędzi, rzeczywisty układ na Twoim komputerze może okazać się mniej niż idealny. W takich przypadkach można go łatwo dostosować. Rozważmy górną część poniższego obrazu. Są tam dwa rzędy pasków narzędzi i widoczna jest tylko ograniczona liczba przycisków paska narzędzi [środowiska Część](Part_Workbench/pl.md). Najprostszym sposobem na zobaczenie większej ilości przycisków paska narzędzi jest zmaksymalizowanie okna FreeCAD, o ile oczywiście nie jest już zmaksymalizowane.
+
+Bardziej powszechne jest dostosowanie układu pasków narzędzi do potrzeb użytkownika i jego konkretnego komputera. Zmiana położenia odbywa się za pomocą uchwytu znajdującego się po lewej stronie każdego paska narzędzi. Możesz po prostu kliknąć i przeciągnąć za uchwyt w nowe miejsce. W dolnej części poniższego obrazu pozycje pasków narzędzi zostały dostosowane, odsłaniając ich pełną zawartość. Zmiany pozycji pasków narzędzi są trwałe przez całe sesje.
+
+![](images/T101pwb01-141_toolbars.png )
+
+#### Narzędzia pomiarowe 
+
+Za pomocą *[narzędzi pomiarowych](Part_Workbench/pl#Pomiary.md)* w środowisku pracy **Część** możemy sprawdzić czy nasze obliczenia i umiejscowienie fazy jest poprawne. Naciśnij przycisk <img alt="" src=images/Part_Measure_Linear.svg  style="width   *24px;"> *[Wymiarowanie Liniowe](Part_Measure_Linear/pl.md)*, otworzy się *panel zadań*, następnie wybierz 2 punkty końcowe jednej strony fazy.
 
 ![](images/T101pwb01-15_model1measure1.png )
 
-It checks out with an x dimension of 50 mm, clear the measurement and close the dialogue.
+Zgadza się z wymiarem X wynoszącym 50mm, wyczyść pomiar i zamknij okno dialogowe.
 
-### Create the hole 
+### Utwórz otwór 
 
-To make the hole, press the <img alt="" src=images/Part_Cylinder.svg  style="width   *24px;"> **[Cylinder](Part_Cylinder.md)** button, set the *radius* to 5 mm and *height* to 50 mm.
+Aby wykonać otwór, naciśnij przycisk narzędzia <img alt="" src=images/Part_Cylinder.svg  style="width   *24px;"> *[Walec](Part_Cylinder/pl.md)*, ustaw *promień* na wartość {{Value|5 mm}} i *wysokość* {{Value|50 mm}}.
 
 ![](images/T101pwb01-16_cyl1.png )
 
-Next we need to position the hole according to the dimensions in the drawing. Change the view to <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> **[Top](Std_ViewTop.md)** view, then right-click the **Cylinder** in the Tree view and select **Transform** from the pop-up menu.
+Następnie musimy ustawić otwór zgodnie z wymiarami na rysunku. Zmień widok na <img alt="" src=images/Std_ViewTop.svg  style="width   *24px;"> **[Od góry](Std_ViewTop/pl.md)**, następnie kliknij prawym przyciskiem myszy na **Walec** w widoku Drzewa i wybierz opcję **Przekształć** z menu podręcznego.
 
 ![](images/T101pwb01-17_cyl1translate.png )
 
-Change the *Translation increment* to 5 and use the red and green arrow to position the cylinder in the right position, moving it 15 mm in y and 65 in x by dragging the arrow ends with the mouse. Click **OK** to close the *Transform* dialogue. To make the hole press the **Ctrl** key and select the **Cut** and **Cylinder** in the Tree view, then press the <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> **[Cut](Part_Cut.md)** button in the toolbar. Your Tree view should once again have a single object in the root called **Cut001**.
+Zmień wartość parametru *Przyrost przesunięcia* na {{Value|5}} i za pomocą czerwonej i zielonej strzałki ustaw walec we właściwej pozycji, przesuwając go o {{Value|15mm}} w kierunku osi Y i {{Value|65mm}} w X, przeciągając myszką końce strzałek. Kliknij **OK**, aby zamknąć okienko dialogowe *Przemieszczenie*. Aby wykonać otwór naciśnij klawisz **Ctrl** i zaznacz obiekty **Cut** oraz **Walec** w widoku Drzewa, a następnie naciśnij przycisk narzędzia <img alt="" src=images/Part_Cut.svg  style="width   *24px;"> *[Wytnij](Part_Cut/pl.md)* na pasku narzędzi. Twój widok Drzewa powinien ponownie mieć pojedynczy obiekt w korzeniu o nazwie **Cut001**.
 
-Congratulations, the model is now ready.
+Gratulacje, model jest już skończony.
 
 ![](images/T101pwb01-18_model1complete.png )
 
-With the basic model ready, let us explore different ways to alter this model, some examples are related to the appearance, additional features, or simply a different way to do the same.
+Mając gotowy podstawowy model, poznajmy różne sposoby na zmianę tego modelu, niektóre przykłady są związane z wyglądem, dodatkowymi funkcjami lub po prostu innym rozwiązaniem na wykonanie tego samego.
 
-## Changing the color and transparency 
+## Zmiana koloru i przezroczystości 
 
-There are several different ways one can change the appearance of objects, for this case, let\'s use the view tab in the property part of the combo view. First select the object in the Tree view and then edit any property like line color, shape color or transparency via the **view tab** (found at the bottom of the *combo view*).
+Istnieje kilka różnych sposobów zmiany wyglądu obiektów, w tym przypadku użyjmy zakładki widok w części właściwości widoku złożonego. Najpierw wybierz obiekt w widoku drzewa, a następnie edytuj dowolną właściwość, taką jak kolor linii, kolor kształtu lub przezroczystość za pomocą **zakładki widoku** *(znajdującej się na dole okienka*widoku złożonego*)*.
 
 ![](images/T101pwb02-01_appearance1.png )
 
-Unfortunately when the object is selected it is a bit hard to see how it will look when tuning the new appearance. To see the final result one has to deselect the object. Here is the new look of the model, where one now can see the through hole also in the iso-view. Another way to edit the appearance is via the **View → ![](images/)_Appearance...** menu.
+Niestety, gdy obiekt jest zaznaczony, trochę trudno zobaczyć, jak będzie wyglądał po dostrojeniu nowego wyglądu. Aby zobaczyć efekt końcowy należy odznaczyć obiekt. Oto nowy wygląd modelu, gdzie teraz można zobaczyć otwór przelotowy również w widoku izometrycznym. Innym sposobem edycji wyglądu jest użycie opcji **Widok → ![](images/)_Wygląd_zewnętrzny_...**.
 
 ![](images/T101pwb02-02_appearance2.png )
 
-## A different way to locate the hole 
+## Inny sposób na rozmieszczenie otworu 
 
-Do a *save-as* under a new name. Then delete the cut that added the hole and move the cylinder back to zero position. Your model should look like the below picture, which is the starting point for using a different technique to locate the hole at the center of the upper face. Note that the color is back to the default gray, the change in appearance we did was on the cut object which now is deleted.
+Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. Następnie usuń obiekt *Cut*, który dodał otwór i przesuń walec z powrotem do pozycji zerowej. Twój model powinien wyglądać jak na poniższym zdjęciu, które jest punktem wyjścia do zastosowania innej techniki w celu zlokalizowania otworu na środku górnej powierzchni. Zauważ, że kolor wrócił do domyślnej szarości, zmiana wyglądu, której dokonaliśmy, dotyczyła obiektu *Cut*, który teraz jest usunięty.
 
 ![](images/T101pwb03-01_cyl.png )
 
-This time the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> **[Draft Workbench](Draft_Workbench.md)** will be used to locate the hole. The hole is as before to be located at the center of the upper face, which is the same as the midpoint of the diagonal of the upper face.
+Tym razem do usytuowania otworu posłuży środowisko pracy <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> **[Rysunek Roboczy](Draft_Workbench/pl.md)**. Otwór ma tak jak poprzednio znajdować się na środku górnej powierzchni czołowej, co pokrywa się z punktem środkowym przekątnej tej powierzchni.
 
-Start by switching the workbench to **Draft**, it might be that a *grid* appears in the 3D view, the grid visibility can be toggled with <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> [Toggle Grid](Draft_ToggleGrid.md) in the toolbar. When making use of the **[snap](Draft_Snap.md)** functionality in the **Draft Workbench** it helps to only have the *snap types* of interest enabled. This time it is sufficient to leave *endpoint, midpoint and circle center enabled*, so the settings for snapping should look something like below.
+Rozpocznij od przełączenia środowiska pracy na **Rysunek Roboczy**, może się okazać, że w widoku 3D pojawi się *siatka*, widoczność siatki można przełączać za pomocą narzędzia <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md) na pasku narzędzi. Podczas korzystania z funkcjonalności *[przyciągania](Draft_Snap.md)* w środowisku **Rysunek Roboczy** warto mieć włączone tylko interesujące nas *typy przyciągania*. Tym razem wystarczy pozostawić włączone *punkt końcowy, punkt środkowy i środek okręgu*, więc ustawienia przyciągania powinny wyglądać jak poniżej.
 
 ![](images/T101pwb03-02_snap.png )
 
-Finding the point to place the center of the cylinder could be done by making a diagonal as helpline and use the center of the cylinder and midpoint of the diagonal to identify the points to move between, however it turns out that we do not even need to make any helplines, we can snap on already existing solid geometry.
+Znalezienie punktu, w którym należy umieścić środek walca, można by zrobić poprzez wykonanie przekątnej jako linii pomocniczej i użyć środka walca i punktu środkowego przekątnej do zidentyfikowania punktów, między którymi należy się poruszać, jednak okazuje się, że nie musimy nawet tworzyć żadnych linii pomocniczych, możemy zatrzasnąć się na już istniejącej geometrii bryły.
 
-Select the **Cylinder** in the Tree view (it turns green in the 3D view) and press the <img alt="" src=images/Draft_Move.svg  style="width   *24px;"> **[Move](Draft_Move.md)** button in the toolbar. A *task panel* opens for moving objects, make sure that *Copy* is unchecked.
+Zaznacz **Walec** w widoku drzewa *(zmieni kolor na zielony w oknie widoku 3D)* i naciśnij przycisk <img alt="" src=images/Draft_Move.svg  style="width   *24px;"> **[Przesuń](Draft_Move/pl.md)** na pasku narzędzi. Otworzy się *panel zadań* do przesuwania obiektów, upewnij się, że *Kopiowanie* jest odznaczone.
 
 ![](images/T101pwb03-03_move.png )
 
-Then move the mouse to the upper face of the cylinder so that you see a *white dot* in the center of the circle as per the left picture below, this together with the center symbol next to the mouse pointer means that a left button mouse click will snap to the white point.
+Następnie przesuń kursor myszki do górnej części walca tak, aby w środku okręgu pojawiła się *biała kropka*, jak na lewym zdjęciu poniżej, to wraz z symbolem środka obok wskaźnika myszki oznacza, że kliknięcie lewym przyciskiem myszki spowoduje przyciągnięcie do białego punktu.
 
 ![](images/T101pwb03-04_snapselect.png )
 
-When you have the white dot on the upper face, click the left mouse button, and repeat for the upper square face of the main solid, like the right picture above, and confirm the choice with a left mouse button click. The snap function makes use of *mass-center* for any type of face, and in this case the mass center is the same as the geometrical center that is sought after. You will by now have noticed that the move of the cylinder is animated, so you always see what is about to happen.
+Gdy na górnej ścianie pojawi się biała kropka, kliknij lewym przyciskiem myszki i powtórz czynność dla górnej kwadratowej ściany głównej bryły, jak na prawym obrazku powyżej, i zatwierdź wybór kliknięciem lewego przycisku myszki. Funkcja przyciągania wykorzystuje *środek masy* dla każdego rodzaju ściany, a w tym przypadku środek masy jest identyczny z geometrycznym środkiem, który jest poszukiwany. Zauważyłeś już, że ruch walca jest animowany, więc zawsze widzisz, co się zaraz stanie.
 
-Repeating the step of the **boolean cut** from earlier once again will make the through hole that completes the model. Using the **linear measurement tool** in the Part Workbench, a check that the hole is correctly placed is done. The measurement can only be done between *points*, so the measurement is done from main body zero to the seam point of the cylinder, meaning that the correct distance is 70 mm instead of the 65 that is on the drawing to account for the extra radius that is included in the distance.
+Powtarzając jeszcze raz krok **cięcia logicznego** z wcześniejszego etapu, wykonamy otwór przelotowy, który uzupełni model. Korzystając z **narzędzia pomiaru liniowego** w środowisku Część sprawdzamy czy otwór jest prawidłowo umieszczony. Pomiar może być wykonany tylko pomiędzy *punktami*, więc pomiar jest wykonany od zera korpusu głównego do punktu szwu walca, co oznacza, że prawidłowa odległość wynosi {{Value|70mm}} zamiast {{Value|65mm}}, która znajduje się na rysunku, aby uwzględnić dodatkowy promień, zawarty w odległości.
 
 ![](images/T101pwb03-05_modelmeasure.png )
 
-## Making the hole a countersunk hole 
+## Wykonanie otworu z pogłębieniem stożkowym 
 
-Switch back to the [Part Workbench](Part_Workbench.md) and create a *cone* by pressing the <img alt="" src=images/Part_Cone.svg  style="width   *24px;"> **[Cone](Part_Cone.md)** button in the toolbar. Change *radius1* to 0 mm and *radius2* to 7 mm -- this will give a 2 mm *countersink* on the radius. Making the *height* of the cone 7 mm results in a 90 degree top angle of the cone, or 45 degree countersink angle. Worth to note is that again one could as well use the <img alt="" src=images/Part_Chamfer.svg  style="width   *24px;"> [Chamfer](Part_Chamfer.md) operation.
+Wróć do środowiska [Część](Part_Workbench/pl.md) i utwórz *stożek* używając narzędzia <img alt="" src=images/Part_Cone.svg  style="width   *24px;"> **[Stożek](Part_Cone/pl.md)** na pasku narzędzi. Zmień wartość *promień1* na {{Value|0mm}} i *promień2* na {{Value|7mm}} - da to 2mm *pogłębienia*. Nadając *wysokość* stożkowi 7mm otrzymamy kąt wierzchołkowy 90 stopni lub kąt pogłębienia 45 stopni. Warto zauważyć, że znów równie dobrze można by użyć narzędzia <img alt="" src=images/Part_Chamfer.svg  style="width   *24px;"> [Fazka](Part_Chamfer/pl.md).
 
-When working with FreeCAD you will continuously be faced with several different ways to achieve seemingly the same result. There is hardly any absolute truth in what is the right way to achieve a particular end result -- however when looking in a specific context one specific workflow can be more flexible, allow for later features to actually be used etc. How you build 3D models will evolve over time as you along the way learn more and more about the features and capabilities of FreeCAD.
+Podczas pracy z programem FreeCAD będziesz miał do czynienia z kilkoma różnymi sposobami na osiągnięcie pozornie tego samego rezultatu. Nie ma absolutnej pewności co do tego, jaki jest właściwy sposób na osiągnięcie konkretnego efektu końcowego - jednak w konkretnym kontekście jeden konkretny sposób pracy może być bardziej elastyczny, pozwalać na wykorzystanie późniejszych funkcji itp. Sposób w jaki budujesz modele 3D będzie ewoluował w czasie, gdy będziesz poznawał coraz więcej funkcji i możliwości programu FreeCAD.
 
 ![](images/T101pwb04-01_cone.png )
 
-Translate the cone so that it is *concentric* with the hole and *coplanar* with the main solid upper surface. Use any method described earlier in this tutorial to accomplish that.
+Przekształć stożek tak, by był \"współśrodkowy\" z otworem i \"współpłaszczyznowy\" z górną powierzchnią głównej bryły. Użyj do tego celu dowolnej metody opisanej wcześniej w tym poradniku.
 
-In the picture below the move is made with *Transform* and an *increment* setting of 1 mm, since the cone has a characteristic dimension of 7 mm, meaning that the earlier increment setting of 5 mm will not allow for correct positioning. The <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *24px;"> **[Wireframe](Std_DrawStyle#Wireframe.md)** rendering is used to easier see that the cone is in the right position.
+Na poniższym rysunku przesunięcie zostało wykonane przy użyciu funkcji *Przemieszczenia* i ustawieniu *przyrost* na {{Value|1mm}}, ponieważ stożek ma charakterystyczny wymiar {{Value|7mm}}, co oznacza, że wcześniejsze ustawienie przyrostu na {{Value|5mm}} nie pozwoli na poprawne pozycjonowanie. W celu łatwiejszego zorientowania się, że stożek znajduje się we właściwej pozycji, zastosowano renderowanie <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *24px;"> **[szkieletowe](Std_DrawStyle/pl#Szkieletowy.md)**.
 
 ![](images/T101pwb04-02_conetranslate.png )
 
-To complete the model, let\'s make use of the <img alt="" src=images/Part_Boolean.svg  style="width   *24px;"> **[Boolean](Part_Boolean.md)** command instead of first selecting objects and apply a specific boolean operation. Press the toolbar button and a *task panel* opens as per the below picture to the left.
+Aby ukończyć model, skorzystajmy z polecenia <img alt="" src=images/Part_Boolean.svg  style="width   *24px;"> **[Operacje logiczne na bryłach](Part_Boolean/pl.md)** zamiast najpierw wybierać obiekty i zastosować konkretną operację logiczną. Naciśnij przycisk na pasku narzędzi, otworzy się *panel zadań*, jak na poniższym obrazku po lewej stronie.
 
 ![](images/T101pwb04-03_boolean.png )
 
-Three items needs to be specified, the *operation type*, the *first shape* and the *second shape*. The cone is supposed to be cut, this is called *Difference* in this command, instead of *Cut*. The first shape is our **Cut001**, it is listed under *compounds*, since it is build from several solids. The second shape is the **Cone**. Once the correct settings are made for the command, click the **Apply** button to execute the operation. This has all been done in the picture to the right, and there one can also see that a *compound* **Cut002** is now listed, this is our final model shape. After having changed the appearance the final model looks like this.
+Należy podać trzy elementy, *typ operacji*, *pierwszy kształt* i *drugi kształt*. Stożek ma zostać wycięty, w tym poleceniu nazywa się to *Różnica*, a nie *Przecięcie*. Pierwszy kształt to nasz \'Cut001\', jest on wymieniony w kategorii *Kształt złożony*, ponieważ jest zbudowany z kilku brył. Drugi kształt to *Stożek*. Po wprowadzeniu prawidłowych ustawień dla polecenia, kliknij przycisk **Zastosuj**, aby wykonać operację. To wszystko zostało wykonane na rysunku po prawej stronie, można tam również zauważyć, że na liście znajduje się teraz *kształt złożony* *Cut002*, jest to nasz ostateczny kształt modelu. Po zmianie wyglądu zakończony model wygląda następująco   *
 
 ![](images/T101pwb04-04_modelcomplete.png )
 
-## Making a hollow piece 
+## Wykonanie elementu pustego 
 
-Do a *save-as* under a new name. FreeCAD has all of the typical operations of a 3D modeller, one of them is <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> **[Thickness](Part_Thickness.md)**, which is used to *hollow out* parts.
+Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. FreeCAD posiada wszystkie typowe operacje modelarza 3D, jedną z nich jest <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> *[Grubość](Part_Thickness/pl.md)*\', która użyjemy do *wydrążania* części.
 
-Rotate the view so that the bottom face of the model is visible.
+Obróć model tak, aby widoczna była dolna ściana.
 
 ![](images/T101pwb05-01_frombottom.png )
 
-Select the *bottom face* of the model, then in the [Part Workbench](Part_Workbench.md) select <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> **[Thickness](Part_Thickness.md)** and the screen should look like below.
+Zaznacz *dolną ścianę* modelu, a następnie w środowisku pracy [Część](Part_Workbench/pl.md) wybierz <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> *[Grubość](Part_Thickness/pl.md)* i ekran powinien wyglądać następująco   *
 
 ![](images/T101pwb05-02_thickness_cmd.png )
 
-Click **OK**, as you can see there is now a *radius* on the hollowed out part.
+Kliknij **OK**, jak widzisz na narożnikach części jest teraz *promień*.
 
 ![](images/T101pwb05-03_thickness_dimension.png )
 
-Moreover, when taking a measurement of the width of the part, it is now 32 mm, so the *thickness* has been applied *outwards*. Let's edit that, double-click the model in the Tree view and modify the *join-type* settings to *intersection* and the *thickness* setting to -1.
+Co więcej, po zmierzeniu szerokości części, obecnie wynosi ona 32 mm, a więc *grubość* została zastosowana *na zewnątrz*. Edytujmy to, kliknij dwukrotnie na model w widoku Drzewa i zmień ustawienia *typu dołączenia* na *przecięcie* oraz ustawienia *grubości* na wartość {{Value|-1}}.
 
 ![](images/T101pwb05-04_thickness_modify.png )
 
-Now the outer width of the part is 30 mm, same as before and the corners are all sharp corners.
+Teraz szerokość zewnętrzna części wynosi 30 mm, tak samo jak poprzednio, a narożniki są wszystkie ostre.
 
 ![](images/T101pwb05-05_thickness_modified.png )
 
-## A different way to position the chamfer 
+## Inny sposób umieszczenia fazki 
 
-Do a *save-as* under a new name. Then delete features so that the model looks like below.
+Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. Następnie usuń cechy tak, aby model wyglądał jak poniżej.
 
 ![](images/T101pwb06-01_startingpoint.png )
 
-Make a **Cube** with dimensions **30x30x60**, ending up like below.
+Utwórz **sześcian** o wymiarach **30 x 30 x 60**, kończąc jak poniżej   *
 
 ![](images/T101pwb06-02_with_cube.png )
 
-Change the **placement** by first rotating -120 degrees around the Y-axis.
+Zmień **umiejscowienie**, wykonując najpierw obrót o -120 stopni wokół osi Y.
 
 ![](images/T101pwb06-03_rotated_cube.png )
 
-Finally, change the position to **X=50** and **Z=50** and make the *cut* to produce the same result as earlier.
+Na koniec zmień pozycję na **X=50** i **Z=50** i wykonaj **wycięcie**, aby uzyskać taki sam efekt jak wcześniej.
 
 ![](images/T101pwb06-04_cube_cut.png )
 
-This once again highlights that there are always several ways to produce the same outcome, which is a recurring theme when it comes to 3D modeling. When it comes to basic geometries or solids, one can use different workbenches in FreeCAD as well as different commands and still have the same outer shape of a solid. You simply need to find your own way to a set of preferred tools and workflow that you are comfortable in using. Modeling in parametric 3D is a process of constant learning, and takes practice to master.
+To po raz kolejny potwierdza, że zawsze istnieje kilka sposobów na uzyskanie tego samego rezultatu, co jest powtarzającym się tematem, jeśli chodzi o modelowanie 3D. Jeśli chodzi o podstawowe geometrie lub bryły, można używać różnych środowisk w FreeCAD, jak również różnych poleceń i nadal mieć ten sam zewnętrzny kształt bryły. Po prostu musisz znaleźć własną drogę do zestawu preferowanych narzędzi i przepływu pracy, z których wygodnie korzystasz. Modelowanie w parametrycznym środowisku 3D jest procesem ciągłej nauki i wymaga praktyki, aby go opanować.
 
-## Editing dimensions, face colors and TNP 
+## Edycja wymiarów, kolorów ścian i problem nazewnictwa topologicznego 
 
-FreeCAD is a parametric 3D modeler, this allows you to change any *placement* or *dimension* and the model will update accordingly. In general this works, but it is possible to break a model when edited -- for example when a fillet is based on an edge that no longer exists due to editing. When a model breaks during editing, it is referred to as **TNP, [Topological Naming Problem](Topological_naming_problem.md)**.
+FreeCAD jest parametrycznym modelerem 3D, pozwala to na zmianę dowolnego *umiejscowienia* lub *wymiaru*, a model zostanie odpowiednio zaktualizowany. Ogólnie rzecz biorąc to działa, ale możliwe jest uszkodzenie modelu podczas edycji - na przykład, gdy zaokrąglenie jest oparte na krawędzi, która już nie istnieje z powodu edycji. Kiedy model ulega uszkodzeniu podczas edycji, określa się to jako **TNP, *(Topological Naming Problem)* [Problem nazewnictwa topologicznego](Topological_naming_problem/pl.md)**.
 
-Go ahead and experiment with changing dimensions and placements to see if you can break the model, do not forget to recalculate the model after changes if required. This can be done with the <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Refresh](Std_Refresh.md) button in the toolbar, if the icon is grayed out it is not needed to refresh the object.
+Śmiało eksperymentuj ze zmianą wymiarów i umiejscowień, aby zobaczyć, czy możesz naruszyć model, nie zapomnij przeliczyć modelu po zmianach, jeśli to konieczne. Można to zrobić za pomocą narzędzia na pasku narzędzi <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Przelicz](Std_Refresh/pl.md), jeśli ikona jest \"niedostępna\" to nie ma potrzeby odświeżania obiektu.
 
-### Reposition the cylinder 
+### Zmiana położenia walca 
 
-Here is an example of the cylinder moved from the center to one side of the main body by using *Transform* on the cylinder. As can be seen in the picture, the cone is still in the original position, not affected by the move of the cylinder.
+Oto przykład walca przesuniętego ze środka na jedną stronę korpusu głównego za pomocą funkcji *Przemieszczenie*. Jak widać na rysunku, stożek nadal znajduje się w oryginalnym położeniu, nie naruszonym przesunięciem walca.
 
 ![](images/T101pwb07-01_cylindermoved.png )
 
-When you move the cylinder and break through the outer surface, in version 0.19 you are loosing part of the color settings on your model. FreeCAD reverts to the user default settings for shape colors and transparency in the 3D view, however the **Cut002** shape still shows the colors and transparency that it had before as seen in below picture.
+Kiedy przesuwasz walec i przebijasz się przez zewnętrzną powierzchnię, w wersji 0.19 tracisz część ustawień kolorów w swoim modelu. FreeCAD powraca do domyślnych ustawień użytkownika dla kolorów kształtu i przezroczystości w widoku 3D, jednak kształt **Cut002** nadal pokazuje kolory i przezroczystość, które miał wcześniej, jak widać na poniższym obrazku   *
 
-### Fixing the colors 
+### Ustalenie kolorów 
 
 ![](images/T101pwb07-02_wrongcolor.png )
 
-Here is one way to get it back. First change *transparency* one tick up or down and then back, that brings back the transparency. You can do the same trick on *shape color*. Another way to get the color back is to *right-click* **Cut002** in the Tree view and select **Set Colors** in the context menu. In the *task panel* that displays, click **Set to Default**, that brings back the color to the one set in the view-properties.
+Oto jeden ze sposobów na przywrócenie ich. Najpierw zmień wartość *przezroczystości* o jeden w górę lub w dół, a następnie z powrotem, to przywraca przezroczystość. Możesz zrobić tę samą sztuczkę z kolorem kształtu. Innym sposobem na przywrócenie koloru jest kliknięcie prawym przyciskiem myszy na \"Cut002\" w widoku drzewa i wybranie z menu kontekstowego opcji \"Ustaw kolory \...\". W wyświetlonym panelu zadań kliknij **Ustaw na domyślne**, co spowoduje przywrócenie koloru ustawionego we właściwościach widoku.
 
 ![](images/T101pwb07-03_set_colors.png )
 
-The **Set Colors** command allows you to select individual faces of a shape and set a unique color on the selected faces.
+Polecenie **Ustaw kolory \...** umożliwia wybranie poszczególnych powierzchni kształtu i ustawienie indywidualnego koloru na wybranych powierzchniach.
 
-### Multiple solids 
+### Wiele brył 
 
-Another example where the cube that is making the chamfer has been translated and rotated.
+Inny przykład, gdzie sześcian tworzący fazę został przesunięty i obrócony.
 
 ![](images/T101pwb07-04_3solids.png )
 
-As can be seen when repositioning the chamfer in this way, the end result is *3 disjoint solids*. [Part Workbench](Part_Workbench.md) allows this, [PartDesign Workbench](PartDesign_Workbench.md) does not, either you will get an *multiple solids error* or it will simply not render all solids.
+Jak widać przy zmianie położenia fazy w ten sposób, efektem końcowym są *3 rozłączne bryły*. Środowisko pracy [Część](Part_Workbench/pl.md) pozwala na to, natomiast [Projekt Części](PartDesign_Workbench/pl.md) nie, albo otrzymasz *błąd wielu brył* albo po prostu nie zostaną wyrenderowane wszystkie bryły.
 
-### TNP
+### Problem nazewnictwa topologicznego 
 
-Going back to the original completed model, let's explore how the faces are named.
+Wracając do oryginalnego, ukończonego modelu, zbadajmy jak nazwane są ściany.
 
-Here the **[selection view](Selection_view.md)** has been made active, just to show clearly what is selected and not, also coloring is adjusted so that the selection is easier to see.
+Tutaj uaktywniony został **[Widok zaznaczenia](Selection_view/pl.md)** aby dobitnie pokazać co jest zaznaczone a co nie, również kolorystyka została dopasowana tak, aby zaznaczenie było łatwiejsze do zobaczenia.
 
 ![](images/T101pwb07-05_face2and9.png )
 
-Selecting one side face and the cylinder inner face gives that they are internally called face *2* and *9*, where face *2* is the side face. Face numbering can be different for you.
+Wybranie jednej powierzchni bocznej i powierzchni wewnętrznej walca powoduje, że są one wewnętrznie nazywane powierzchniami *2* i *9*, gdzie powierzchnia *2* jest powierzchnią boczną. Numeracja powierzchni może być inna.
 
-Moving the cylinder so that the cavity ends up on the side face, and doing the selection of faces now gives a different number for the cylindrical face.
+Przesunięcie walca tak, aby wgłębienie kończyło się na ścianie bocznej i wykonanie wyboru ścian powoduje teraz nadanie innego numeru dla ściany cylindrycznej.
 
 ![](images/T101pwb07-06_newfacenumbers.png )
 
-Face 2 is the right side of the original face 2, the left side of former face 2 is now face 8. The cylindrical part was face 9, but is now face 7. FreeCAD reassigns the numbering and the order is not necessarily preserved. The total face count in the first model is 10, in the version with the cylindrical face piercing the side face, the total face count is 11. So obviously face numbering has to change when the so called *topology* changes. This probably feels like a minute detail, but turns out to be quite important in parametric 3D cad. Imagine that you have used the cylindrical face as reference for another feature, it used to be called face 9, but is now called face 8. The reference to the intended cylindrical surface is lost. Since FreeCAD, at least in currently released versions does not keep track of the *intended face*, it only keeps track of the *numbered face*, a model breaks when a reference is made to a face that later is renumbered. This is called **TNP, [Topological Naming Problem](Topological_naming_problem.md)**.
+Twarz 2 jest prawą stroną pierwotnej ściany 2, lewa strona dawnej ściany 2 jest teraz ścianą 8. Część cylindryczna była ścianą 9, ale teraz jest ścianą 7. FreeCAD ponownie przypisuje numerację i kolejność nie musi być zachowana. Całkowita liczba ścian w pierwszym modelu wynosi 10, w wersji z walcową częścią przebijającą ścianę boczną całkowita liczba ścian wynosi 11. Więc oczywiście numeracja powierzchni musi się zmieniać, gdy zmienia się tzw. topologia. To pewnie wydaje się drobnym szczegółem, ale okazuje się dość istotne w parametrycznym modelowaniu CAD 3D. Wyobraź sobie, że użyłeś powierzchni cylindrycznej jako odniesienia dla innego elementu, wcześniej nazywała się ona powierzchnią 9, ale teraz nazywa się powierzchnią 8. Utracone zostało odniesienie do zamierzonej powierzchni cylindrycznej. Ponieważ FreeCAD, przynajmniej w obecnie wydanych wersjach, nie śledzi *zamierzonej powierzchni*, a jedynie *numerowaną powierzchnię*, model ulega uszkodzeniu, gdy odniesienie jest wykonane do powierzchni, która później jest przenumerowana. Zjawisku temu nadano nazwę **TNP *(Topological Naming Problem)*, [Problem nazewnictwa topologicznego](Topological_naming_problem/pl.md)**.
 
-You are encouraged to learn how to avoid broken models due to TNP, further reading can be done [elsewhere on the wiki](Topological_naming_problem.md), which largely focuses on a *sketch driven* workflow, the underlying mechanism is the same though. The renumbering described here for faces goes for all geometrical entities, faces, edges and vertexes.
+Zachęcamy do nauczenia się jak uniknąć uszkodzenia modeli z powodu TNP, dalszą lekturę można przeprowadzić [na stronie wiki dedykowanej tematowi](Topological_naming_problem/pl.md), która w dużej mierze koncentruje się na przepływie pracy *sterowanym szkicem*, mechanizm leżący u podstaw jest taki sam. Opisana tutaj zmiana numeracji ścian dotyczy wszystkich elementów geometrycznych, ścian, krawędzi i wierzchołków.
 
-## Organizing the tree a bit differently 
+## Organizowanie drzewa w odmienny sposób 
 
-Do a *save-as* under a new name. Then delete all the cuts ending up with a model looking like below.
+Wykonaj opcję *Zapisz jako \...* z podaniem nowej nazwy pliku. Następnie usuń wszystkie wycięcia kończąc na modelu wyglądającym jak poniżej   *
 
 ![](images/T101pwb08-01_primitives.png )
 
-When using the **Part Workbench** and modelling feature rich solids, the tree structure of a solid can become hard to decipher. So far we have created one primitive / feature and applied a boolean operation. In the Part Workbench one can bundle primitives into one boolean operation. In our case we have the cylinder, cone and cube that are all a cut boolean operation.
+Podczas używania środowiska pracy *Część* i modelowania brył bogatych w cechy, struktura drzewa bryły może być trudna do rozszyfrowania. Do tej pory utworzyliśmy jedną bryłę pierwotną / cechę i zastosowaliśmy operację logiczną. W środowisku Część można łączyć elementy pierwotne jedną operacją logiczną. W naszym przypadku mamy walec, stożek i sześcian, które są połączone operacją logiczną wycięcia.
 
-Instead of making a cut for each primitive, we can first apply a boolean union, <img alt="" src=images/Part_Fuse.svg  style="width   *24px;"> **[Fuse](Part_Fuse.md)** the primitives intended for the boolean cut, and then make the *cut* between the **Fillet** and the **Fusion**.
+Zamiast wykonywać wycięcie dla każdego elementu pierwotnego, możemy najpierw zastosować operację logiczną, <img alt="" src=images/Part_Fuse.svg  style="width   *24px;"> **[połączenia](Part_Fuse/pl.md)** brył pierwotnych przeznaczonych do wycięcia logicznego, a następnie wykonać *wycięcie* pomiędzy obiektami o nazwach *Fillet* oraz *Fusion*.
 
-Using this approach, the Tree view ends up looking like below, which is just a different way of building the same model. Compare this with the original Tree view, none is better than the other, however when making more complex models, one approach over the other can have benefits in ease of modifying/reorganizing the model if needed.
+Używając tego podejścia, widok drzewa kończy się wyglądając jak poniżej, co jest po prostu innym sposobem budowania tego samego modelu. Porównaj to z oryginalnym widokiem drzewa, żadne nie jest lepsze od drugiego, jednak podczas tworzenia bardziej złożonych modeli, jedno podejście nad drugim może mieć korzyści w łatwości modyfikacji / reorganizacji modelu w razie potrzeby.
 
 ![](images/T101pwb08-02_fused.png )
 
-## Wrapping up 
+## Zakończenie
 
-Having gone through the tutorial you are now briefly acquainted with the user interface of FreeCAD and you have learned the basics in using the **Part Workbench**. You should now be able to build simple models after your own liking. The **Part Workbench** is one of the workbenches that can be used to create solids, the **PartDesign Workbench** is another. The different workbenches have different capabilities and workflows. Learning FreeCAD in full, especially considering all add-ons and macros takes years, so keep on exploring new and different ways of making models -- take different tutorials on the wiki, the learning never stops when working with FreeCAD. It is suggested that you learn *sketches* and the **PartDesign Workbench** next if your focus is on creating solids. If your focus is modelling buildings your next learning should be the **Draft** and **Arch** workbenches.
+Po przebrnięciu przez ten poradnik jesteś teraz krótko zaznajomiony z interfejsem użytkownika FreeCAD i poznałeś podstawy korzystania ze **środowiska Część**. Powinieneś teraz być w stanie budować proste modele według własnych upodobań. Środowisko pracy **Część** jest jednym ze środowisk, które można wykorzystać do tworzenia brył, innym jest **Projekt Części**. Poszczególne środowiska mają różne możliwości i sposoby pracy. Pełne nauczenie się programu FreeCAD, szczególnie biorąc pod uwagę wszystkie dodatki i makrodefinicje zajmuje lata, więc kontynuuj odkrywanie nowych i różnych sposobów tworzenia modeli - skorzystaj z różnych poradników na Wiki, podczas pracy z programem FreeCAD nauka nigdy się nie kończy. Sugeruje się abyś nauczył się *szkicowania* i środowiska **Projekt Części** jeśli skupiasz się na tworzeniu brył. Jeśli skupiasz się na modelowaniu budynków, następnym etapem nauki powinno być środowisko **Rysunek Roboczy** i **Architektura**.
 
-At last, FreeCAD is made by volunteers in their spare time. If you want to further advance FreeCAD's capabilities, consider [contributing](Help_FreeCAD.md) to FreeCAD, for example by improving the documentation.
+W końcu FreeCAD jest tworzony przez wolontariuszy w ich wolnym czasie. Jeśli chcesz dalej rozwijać możliwości programu, rozważ [pomoc w rozwoju FreeCAD](Help_FreeCAD/pl.md), na przykład poprzez poprawę dokumentacji.
 
 [Category   *Part](Category_Part.md)
 

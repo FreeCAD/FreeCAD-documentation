@@ -3,13 +3,7 @@
 
 Questo è un esempio di [creazione di dialoghi](Dialog_creation/it.md) con [PySide](PySide/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
 In questo esempio, l\'intera interfaccia è definita in [Python](Python/it.md). Sebbene ciò sia possibile per interfacce di piccole dimensioni, per le interfacce più grandi si raccomanda di creare i file **.ui** tramite Qt Designer e caricarli nel programma.
-
-
-</div>
 
 ## Finestra di dialogo per scrivere in un file 
 

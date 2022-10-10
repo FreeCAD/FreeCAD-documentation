@@ -4,10 +4,13 @@
    Name/de   *Std AbstandMessen
    MenuLocation   *Werkzeuge → Abstand messen
    Workbenches   *All
-   SeeAlso   *[Part Menü Messen](Part_Measure_Menu/de.md), [Draft Maß](Draft_Dimension/de.md), [Arch Vermessung](Arch_Survey/de.md)
+   SeeAlso   *[Part Linear messen](Part_Measure_Linear/de.md), [Draft Maß](Draft_Dimension/de.md), [Arch Vermessung](Arch_Survey/de.md)
 ---
 
 # Std MeasureDistance/de
+
+
+</div>
 
 ## Beschreibung
 

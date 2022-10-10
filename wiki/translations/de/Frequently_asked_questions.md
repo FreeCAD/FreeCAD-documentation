@@ -138,7 +138,7 @@ FreeCAD ist [Open-Source Software](https   *//de.wikipedia.org/wiki/Open_Source)
 
 <center>
 
-Image   *Style\_of\_navigation.png\|Von der **right button** Maus Image   *Style of navigation menu.png\|Vom Menü **Bearbeiten → Einstellungen →**
+Image   *Style_of_navigation.png\|Von der **right button** Maus Image   *Style of navigation menu.png\|Vom Menü **Bearbeiten → Einstellungen →**
 
 
 </center>
@@ -146,38 +146,13 @@ Image   *Style\_of\_navigation.png\|Von der **right button** Maus Image   *Style
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD verfügt über mehrere verschiedene [Navigationsmodi](Mouse_navigation/de.md), die man im Einstellungsdialog einstellen oder durch einen Rechtsklick in der 3D Ansicht ändern kann. Ausführliche Informationen zu den Modi finden sich auf der Seite [Mausnavigation](Mouse_navigation/de.md). Für den Standardmodus (\"CAD Navigation\") lauten die Befehle wie folgt, 
 
 
-{{CAD Navigation
-|Select_name=Wähle
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotate view<br>Erste Methode
-|Rotate_view_alt_name=Rotate view<br>Alternative Methode
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Drücke die linke Maustaste über einem Objekt, das du auswählen möchtest.
-
-Das Gedrückthalten von **Ctrl** ermöglicht die Auswahl mehrerer Objekte.
-|Pan_text=Halte die mittlere Maustaste, dann bewege den Zeiger.
-|Pan_mode_text=Pan Modus   * Halte die **Ctrl** Taste gedrückt, drücke einmal die rechte Maustaste und bewege dann den Zeiger. {{Version/de|0.17}}
-|Zoom_text=Verwende das Mausrad zum Vergrößern und Verkleinern.
-
-Klicken der mittleren Maustaste zentriert die Ansicht wieder auf die Position des Mauszeigers.
-|Zoom_mode_text=Zoom Modus   * Halte die Tasten **Ctrl** und **Shift** gedrückt, drücke einmal die rechte Maustaste und bewege dann den Zeiger. {{Version/de|0.17}}
-|Rotate_view_text=Halte die mittlere Maustaste, dann die linke Maustaste gedrückt und bewege den Zeiger.
-
-Der Zeigerort bei gedrückter mittlerer Maustaste bestimmt das Zentrum der Drehung. Die Drehung funktioniert wie das Drehen eines Balls, der sich um seinen Mittelpunkt dreht. Wenn die Tasten losgelassen werden, bevor du die Mausbewegung stoppst, dreht sich die Ansicht weiter, wenn dies aktiviert ist.
-
-Ein Doppelklick mit der mittleren Maustaste setzt einen neuen Drehpunkt.
-|Rotate_view_mode_text=Drehmodus   * Halte die **Umschalten** Taste, drücke einmal die rechte Maustaste und bewege dann den Zeiger. {{Version/de|0.17}}
-|Rotate_view_alt_text=Halte die mittlere Maustaste gedrückt, drücke dann die rechte Maustaste und bewege den Zeiger.
-
-Bei dieser Methode kann die mittlere Maustaste losgelassen werden, nachdem die rechte Maustaste gedrückt gehalten wurde.
-
-Benutzer, die die Maus mit der rechten Hand verwenden, finden diese Methode möglicherweise einfacher als die erste Methode.
-}}
+</div>
 
 ### Was kann ich mit FreeCAD tun? Wo soll ich anfangen? 
 
@@ -280,6 +255,10 @@ Ja. Seit 2016 nimmt FreeCAD am Google Summer of Code teil. Siehe [Google Summer 
 Dieses Wiki beherbergt eine Vielzahl von Inhalten. Das aktuellste und interessanteste Material ist im [Handbuch](Online_Help_Toc/de.md) gesammelt.
 
 Siehe den [Dokumentation übersetzen](Help_FreeCAD/de#Bearbeiten_der_Dokumentation.md) Abschnitt der Seite für weitere Details, wie man das Wiki übersetzt.
+
+### Can I buy swag? 
+
+FreeCAD doesn\'t offer swag you can order to support the project. But you can create your own. See our [Swag](Swag.md) page for instructions.
 
 ## Lizenzierung, kopieren und Wiederverwendung 
 

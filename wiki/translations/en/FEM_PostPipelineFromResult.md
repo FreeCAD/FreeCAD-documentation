@@ -4,7 +4,7 @@
    MenuLocation   * Results → Post pipeline from result
    Workbenches   *[FEM](FEM_Workbench.md)
    Version   *0.17
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[FEM Result object](FEM_ResultShow.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM PostPipelineFromResult/en
@@ -16,7 +16,7 @@ Pipeline is a result object, which creates a new graphical representation of FEM
 ## Usage
 
 1.  Select a result object.
-2.  Click the **<img src="images/FEM_PostPipelineFromResult.svg" width=16px>** button, or select the **Results → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Post pipeline from result** option from the menu.
+2.  Click the **<img src="images/FEM_PostPipelineFromResult.svg" width=16px> '''Post pipeline from result'''** button, or select the **Results → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Post pipeline from result** option from the menu.
 3.  A new object called \"Pipeline\" is added to your analysis.
 4.  Double-click the new Pipeline object in the [Tree view](Tree_view.md) and select a display mode and the result field. For example for the mode {{Value|Surface}} and the field {{Value|Von Mises stress}} the pipeline will look like this   *
 
@@ -62,10 +62,6 @@ In the [property editor](property_editor.md) you can set in the *View* tab the s
     -   **Serial**   * In this mode every filter takes the previous filter as input. The order is hereby the order of creation. The first created filter takes the pipeline as input. Its **Input** property is therefore empty.
     -   **Parallel**   * In this mode all filters take the pipeline as input.
     -   **Custom**   * <small>(v0.20)</small>  This is the default and keeps the input of the filters as they are. Therefore it allows to have e.g. two filters that take the pipeline as input, and a third filter that takes one of the two filters as input.
-
-## Limitations
-
-The Pipeline representation of the results (called VTK) on the displayed part is different from the color gradient results which are visible when you finish solution. Values in the gradient scale cannot be applied to the solution result object.
 
 
 

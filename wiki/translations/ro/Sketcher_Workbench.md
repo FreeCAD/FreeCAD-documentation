@@ -72,7 +72,7 @@ Modul tradițional de schițare CAD moștenește de la vechea [drawing board](ht
 
 </div>
 
-Aplicarea unei constrângeri orizontale sau verticale sau a unei constrângeri de unghi (relativ la o altă linie sau la una dintre axe) va limita capacitatea sa de a se roti, lăsându-l astfel cu 3 grade de libertate. Blocarea unuia dintre punctele sale în raport cu originea va elimina încă 2 grade de libertate. Și aplicarea unei constrângeri de dimensiune va elimina ultimul grad de libertate. Linia este apoi considerată \'\'\' complet constrânsă \'\'\'.
+Aplicarea unei constrângeri orizontale sau verticale sau a unei constrângeri de unghi (relativ la o altă linie sau la una dintre axe) va limita capacitatea sa de a se roti, lăsându-l astfel cu 3 grade de libertate. Blocarea unuia dintre punctele sale în raport cu originea va elimina încă 2 grade de libertate. Și aplicarea unei constrângeri de dimensiune va elimina ultimul grad de libertate. Linia este apoi considerată **complet constrânsă**.
 
 
 <div class="mw-translate-fuzzy">
@@ -426,6 +426,8 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 </div>
 
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
 
 <div class="mw-translate-fuzzy">
 
@@ -433,6 +435,8 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 
 </div>
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 
 <div class="mw-translate-fuzzy">

@@ -37,82 +37,135 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 
 {{TitleProperty|Podstawowe}}
 
--    {{PropertyData/pl|X}}   * Położenie widoku w poziomie na stronie. *(1)*
+-    {{PropertyData/pl|Odległość X}}   * Położenie widoku w poziomie na stronie. *(1)*
 
--    {{PropertyData/pl|Y}}   * Położenie widoku w pionie na stronie. *(1)*
+-    {{PropertyData/pl|Odległość Y}}   * Położenie widoku w pionie na stronie. *(1)*
 
--    {{PropertyData/pl|Zablokuj pozycję}}   * Gdy wartość wynosi {{True}}, zapobiega przeciąganiu widoków w oknie GUI. Widok nadal może być przesuwany poprzez zmianę właściwości współrzędnych X,Y. *(1)*
+-    {{PropertyData/pl|Zablokuj pozycję|Bool}}   * Gdy wartość wynosi {{True/pl}}, zapobiega przeciąganiu widoków w oknie GUI. Widok nadal może być przesuwany poprzez zmianę właściwości współrzędnych X,Y. *(1)*
 
--    {{PropertyData/pl|Obrót}}   * Obrót widoku strony w kierunku przeciwnym do ruchu wskazówek zegara w stopniach. *(1)*
+-    {{PropertyData/pl|Obrót|Kąt}}   * Obrót widoku strony w kierunku przeciwnym do ruchu wskazówek zegara w stopniach. *(1)*
 
--    {{PropertyData/pl|Typ skali}}   * **Dokument**   * użyj skali strony. **Niestandardowy**   * użyj skali własnej, unikalnej dla tego widoku. **Automatyczny**   * dopasowanie rozmiaru widoku do strony. *(1)*
+-    {{PropertyData/pl|Typ skali|Enumeration}}   * Typ skali. Opcje   * *(1)*
 
--    {{PropertyData/pl|Skala}}   * Widok zostanie wyrenderowany na stronie w stosunku Skala   *1 w odniesieniu do źródła. *(1)*
+    -   
+        {{Value|Strona}}
+        
+           * Używa wartości z ustawień obiektu [Strony](TechDraw_PageDefault/pl.md).
 
--    {{PropertyData/pl|Podpis}}   * Opcjonalny krótki podpis.
+    -   
+        {{Value|Automatyczna}}
+        
+           * Dopasuje widok do rozmiaru strony.
 
-*(1)* właściwości te są wspólne dla wszystkich typów widoku.
+    -   
+        {{Value|Użytkownika}}
+        
+           * Użyj skali zdefiniowanej przez wartość **Skala**.
+
+-    {{PropertyData/pl|Skala|FloatConstant}}   * Widok zostanie wyrenderowany na stronie w stosunku Skala   *1 w odniesieniu do źródła. *(1)*
+
+-    {{PropertyData/pl|Podpis|String}}   * Opcjonalny krótki podpis. *(1)*
 
 
 {{Properties_Title/pl|Kosmetyczne}}
 
+-    **Wierzchołek kosmetyczny|TechDraw   *   *PropertyCosmeticVertexList|Ukryte**
+    
+
+-    **Krawędź kosmetyczna|TechDraw   *   *PropertyCosmeticEdgeList|Ukryte**
+    
+
+-    **Linie środka|TechDraw   *   *PropertyCenterLineList|Ukryte**
+    
+
+-    **Geom Formats|TechDraw   *   *PropertyGeomFormatList|Ukryte**
+    
+
 
 {{Properties_Title/pl|Parametry HLR}}
 
--    **Widok zgrubny**   * Jeśli wartość ta wynosi {{True}}, Rysunek Roboczy użyje przybliżenia wielokąta do obliczenia geometrii rysunku. Jeżeli {{False}}, Rysunek Roboczy użyje algorytmu precyzyjnego. Widok zgrubny może być wyliczany znacznie szybciej dla złożonych modeli. Jakość rysunku jest obniżona, ponieważ każda krzywa jest aproksymowana jako seria krótkich odcinków linii. Wierzchołki nie są wyświetlane w trybie Widok zgrubny, ponieważ każdy krótki odcinek spowodowałby utworzenie dwóch nowych wierzchołków, co spowodowałoby bałagan na ekranie. Wymiary liniowe mogą zostać dodane do okna Widoku zgrubnego, ale ich użyteczność jest mało prawdopodobna.
+-    **Widok zgrubny|Bool**   * Jeśli wartość ta wynosi {{True/pl}}, Rysunek Roboczy użyje przybliżenia wielokąta do obliczenia geometrii rysunku. Jeżeli jest to {{False/pl}}, Rysunek Roboczy użyje algorytmu precyzyjnego. Widok zgrubny może być wyliczany znacznie szybciej dla złożonych modeli. Jakość rysunku jest obniżona, ponieważ każda krzywa jest aproksymowana jako seria krótkich odcinków linii. Wierzchołki nie są wyświetlane w trybie Widok zgrubny, ponieważ każdy krótki odcinek spowodowałby utworzenie dwóch nowych wierzchołków, co spowodowałoby bałagan na ekranie. Wymiary liniowe mogą zostać dodane do okna Widoku zgrubnego, ale ich użyteczność jest mało prawdopodobna.
 
--    **Wygładzanie widoczne**   * Wyświetlanie wygładzonych linii włączone/wyłączone.
+-    **Wygładzanie widoczne|Bool**   * Wyświetlanie wygładzonych linii włączone/wyłączone.
 
--    **Szew widoczny**   * Wyświetlanie linii szwu włączone/wyłączone.
+-    **Szew widoczny|Bool**   * Wyświetlanie linii szwu włączone/wyłączone.
 
--    **Iso widoczne**   * Wyświetlanie linii izometrycznych *(u,v)* włączone/wyłączone.
+-    **Iso widoczne|Bool**   * Wyświetlanie linii izometrycznych *(u,v)* włączone/wyłączone.
 
--    **Hard Hidden**   * Wyświetlanie linii ukrytych włączone/wyłączone.
+-    **Hard Hidden|Bool**   * Wyświetlanie linii ukrytych włączone/wyłączone.
 
--    **Wygładzanie ukryte**   * Ukrywanie wygładzonych linii włączone/wyłączone.
+-    **Wygładzanie ukryte|Bool**   * Ukrywanie wygładzonych linii włączone/wyłączone.
 
--    **Szew ukryty**   * Ukrywanie linii szwu włączone/wyłączone.
+-    **Szew ukryty|Bool**   * Ukrywanie linii szwu włączone/wyłączone.
 
--    **Iso ukryte**   * Ukrywanie linii izometrycznych *(u,v)* włączone/wyłączone.
+-    **Iso ukryte|Bool**   * Ukrywanie linii izometrycznych *(u,v)* włączone/wyłączone.
 
--    **Licznik Iso**   * Liczba linii izometrycznych(u,v) do narysowania na każdej ścianie.
+-    **Licznik Iso|Integer**   * Liczba linii izometrycznych(u,v) do narysowania na każdej ścianie.
 
 
 {{TitleProperty|Rzutowanie}}
 
--    {{PropertyData/pl|Pochodzenie}}   * Powiązania z obiektami rysunkowymi, które mają być przedstawione.
+-    {{PropertyData/pl|Pochodzenie|LinkList}}   * Powiązania z obiektami rysunkowymi, które mają być przedstawione.
 
--    {{PropertyData/pl|XPochodzenie}}   * Odnośniki do obiektów rysunkowych w pliku zewnętrznym. {{Version/pl|0.19}}
+-    {{PropertyData/pl|XPochodzenie|XLinkList}}   * Odnośniki do obiektów rysunkowych w pliku zewnętrznym. {{Version/pl|0.19}}
 
--    {{PropertyData/pl|Kierunek}}   * Wektor ten kontroluje kierunek, z którego patrzysz na obiekt. +X to prawo, -X to lewo, +Y to tył, -Y to przód *(patrząc w ekran)*, +Z to góra, a -Z to dół. Zatem widok z przodu to *(0,-1,0)*, a widok izometryczny to *(1,-1,1)*.
+-    {{PropertyData/pl|Kierunek|Vector}}   * Wektor ten kontroluje kierunek, z którego patrzysz na obiekt. +X to prawo, -X to lewo, +Y to tył, -Y to przód *(patrząc w ekran)*, +Z to góra, a -Z to dół. Zatem widok z przodu to *(0,-1,0)*, a widok izometryczny to *(1,-1,1)*.
 
--    {{PropertyData/pl|XKierunek}}   * ten wektor kontroluje obrót widoku, według wartości Kierunek.{{Version/pl|0.19}}.
+-    {{PropertyData/pl|XKierunek|Vector}}   * ten wektor kontroluje obrót widoku, według wartości Kierunek.{{Version/pl|0.19}}.
 
--    {{PropertyData/pl|Perspektywa}}   * Przyjmuje wartość {{True}} dla projekcji perspektywicznej, {{False}} dla projekcji ortogonalnej.
+-    {{PropertyData/pl|Perspektywa|Bool}}   * Przyjmuje wartość {{True/pl}} dla projekcji perspektywicznej, {{False/pl}} dla projekcji ortogonalnej.
 
--    {{PropertyData/pl|Skupienie}}   * Odległość od kamery do płaszczyzny projekcji dla rzutów perspektywicznych. Musi być dostosowana do obiektu. Odległość zbyt duża powoduje utratę perspektywy, odległość zbyt mała powoduje zniekształcenie obiektu.
+-    {{PropertyData/pl|Skupienie|Distance}}   * Odległość od kamery do płaszczyzny projekcji dla rzutów perspektywicznych. Musi być dostosowana do obiektu. Odległość zbyt duża powoduje utratę perspektywy, odległość zbyt mała powoduje zniekształcenie obiektu.
 
 ### Widok
 
--    {{PropertyView/pl|UtrzymujEtykietę}}   * Zawsze pokazuj etykietę widoku jeśli wartość to {{True}}.
 
--    {{PropertyView/pl|SzerokośćLinii}}   * Grubość widocznych linii. Zobacz stronę [GrupyLinii](TechDraw_LineGroup/pl.md).
+{{TitleProperty|Podstawowe}}
 
--    {{PropertyView/pl|SzerokośćUkrytych}}   * Grubość ukrytych linii, jeśli jest włączona.
+-    **Utrzymaj etykietę|Bool**   * Zawsze pokazuj etykietę widoku, jeśli parametr ma wartość {{TRUE/pl}}. *(1)*
 
--    {{PropertyView/pl|SzerokośćIso}}   * Grubość izometrycznych *(u,v)* linii powierzchni i linii wymiarowych.
+-    **Kolejność na stosie|Integer**   * Nad lub pod w stosunku do innych widoków. *(1)* {{Version/pl|1.0}}
 
--    {{PropertyView/pl|SzerokośćDodatkowa}}   * jeszcze nie wdrożone.
 
--    {{PropertyView/pl|PokażŚrodki}}   * Włączanie / wyłączanie znaczników środka okręgu / łuku.
+{{TitleProperty|Dekoracja}}
 
--    {{PropertyView/pl|SkalaŚrodka}}   * Regulacja rozmiaru znacznika środka łuku po okręgu, jeśli jest włączona.
+-    **Arc Center Marks|Bool**   * Włączenie / wyłączenie znaczników środka łuku okręgu.
 
--    {{PropertyView/pl|PoziomąLinięŚrodka}}   * Pokaż poziomą linię środkową w widoku.
+-    **Center Scale|Float**   * Dostosowanie rozmiaru znacznika środka łuku okręgu, jeśli jest włączony.
 
--    {{PropertyView/pl|pionowąLinięŚrodka}}   * Pokaż pionową linię środkową w widoku.
+-    **Horiz Center Line|Bool**   * Pokaż poziomą oś symetrii w widoku.
 
--    {{PropertyView/pl|PokażLinięPrzekroju}}   * Pokaż / ukryj linię przekroju, jeśli dotyczy.
+-    **Section Line Color|Color**   * Ustaw kolor linii przekroju, jeśli ma to zastosowanie.
+
+-    **Section Line Style|Enumeration**   * Ustaw styl linii przekroju, jeśli ma to zastosowanie.
+
+-    **Show All Edges|Bool**   * Tymczasowo pokaż niewidoczne linie.
+
+-    **Show Section Line|Bool**   * W razie potrzeby pokaż / ukryj linię przekroju.
+
+-    **Vert Center Line|Bool**   * Pokaż pionową oś symetrii w widoku.
+
+
+{{TitleProperty|Podświetlenie}}
+
+-    **Highlight Adjust|Float**   * W razie potrzeby dostosuj obrót podświetlenia szczegółu.
+
+-    **Highlight Line Color|Color**   * W razie potrzeby ustaw kolor podświetlonej linii.
+
+-    **Highlight Line Style|Enumeration**   * Ustaw styl podświetlonej linii, jeśli ma to zastosowanie.
+
+
+{{TitleProperty|Linie}}
+
+-    **Extra Width|Length**   * Jeszcze nie wdrożone.
+
+-    **Hidden Width|Length**   * Grubość ukrytych linii, jeśli jest włączona.
+
+-    **Iso Width|Length**   * Grubość linii powierzchni izometrycznych *(u,v)* i linii wymiarowych.
+
+-    **Line Width|Length**   * Grubość widocznych linii. Zobacz informacje na stronie [Grupy linii](TechDraw_LineGroup/pl.md).
+
+*(1)* właściwości te są wspólne dla wszystkich typów widoku.
 
 ## Tworzenie skryptów 
 
@@ -125,10 +178,10 @@ Narzędzie Widok może być używane w [makrodefinicjach](Macros/pl.md) i z kons
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
+view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart', 'View')
 rc = page.addView(view)
 FreeCAD.ActiveDocument.View.Source = [App.ActiveDocument.Box]
-FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
+FreeCAD.ActiveDocument.View.Direction = (0.0, 0.0, 1.0)
 ```
 
 

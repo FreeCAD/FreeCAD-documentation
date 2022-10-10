@@ -144,7 +144,11 @@ These are tools for creating objects.
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Slot](Sketcher_CreateSlot.md)   * Draws an oval by selecting the center of one semicircle and an endpoint of the other semicircle.
 
--   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Fillet](Sketcher_CreateFillet.md)   * Makes a fillet between two lines joined at one point. Select both lines or click on the corner point, then activate the tool.
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
+   ** <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Fillet](Sketcher_CreateFillet.md)   * Creates a fillet between two non-parallel lines.
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width   *32px;"> [Trim](Sketcher_Trimming.md)   * Trims a line, circle or arc with respect to the clicked point.
 

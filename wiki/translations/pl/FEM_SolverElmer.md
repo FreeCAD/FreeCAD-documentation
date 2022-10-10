@@ -1,10 +1,10 @@
 ---
 - GuiCommand   *
    Name   *FEM SolverElmer
-   MenuLocation   * Solve → Solver Elmer
+   MenuLocation   *Solver → Solver Elmer
    Workbenches   *[FEM](FEM_Workbench.md)
    Shortcut   ***S** **E**
-   SeeAlso   *[FEM Solver CalculiX](FEM_SolverCalculiX.md), [FEM Solver Z88](FEM_SolverZ88.md), [FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[FEM SolverElmer SolverSettings](FEM_SolverElmer_SolverSettings.md), [FEM Solver CalculiX](FEM_SolverCalculiX.md), [FEM Solver Z88](FEM_SolverZ88.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM SolverElmer/pl
@@ -29,9 +29,9 @@ Elmer requires two components to be interfaced with FreeCAD   *
 There are standalone programs for both of these applications but their installation and usage are beyond the scope of the FreeCAD integration.
 
 1.  Go to the CSC binaries resources for Elmer   * [binaries](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/) OR [CSC binaries](https   *//www.csc.fi/web/elmer/binaries)
-2.  Download and install the version best suited to your Operating System ([Windows](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) or [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). It is recommended to install the `mpi` version to get multi CPU core support.
+2.  Download and install the version best suited to your Operating System ([Windows](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) or [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). It is recommended to install the `mpi` version to get multi CPU core support (<small>(v1.0)</small> ).
 3.  In FreeCAD go to **Edit → Preferences → FEM → Elmer**
-4.  Link the correct path for both `ElmerGrid` and `ElmerSolver` or, to make Elmer use all available CPU cores, `ElmerSolver_mpi`.
+4.  Link the correct path for both `ElmerGrid` and `ElmerSolver`, or <small>(v1.0)</small>    * to make Elmer use all available CPU cores, `ElmerSolver_mpi`.
 
        *   ![Elmer Tab in FEM Preferences](images/Preferences-ElmerPath.png )
        *   
@@ -70,7 +70,7 @@ You are ready to use Elmer in FreeCAD.
 7.  Click **Write** to write the case files in the directory selected previously
 8.  Click **Run** to start the analysis
 
-### About Equations 
+### Equations
 
 -   To perform the analysis of a particular physical behavior, an Equation must be used (Flow, Heat, Electrostatics\...)
 -   Disambiguation   * The term *Equation* is used in FreeCAD to describe the different physical mechanisms, the term *Solver* is used in all Elmer documents. Thus when using in FreeCAD the \"Flow Equation\", in reality Elmer uses the \"Flow Solver\" to find a solution to the Navier-Stokes equation.
@@ -84,6 +84,13 @@ You are ready to use Elmer in FreeCAD.
     -   <img alt="" src=images/FEM_EquationFlow.svg  style="width   *32px;"> [Flow equation](FEM_EquationFlow.md)
     -   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Flux equation](FEM_EquationFlux.md)
     -   <img alt="" src=images/FEM_EquationHeat.svg  style="width   *32px;"> [Heat equation](FEM_EquationHeat.md)
+
+### Solver Settings 
+
+-   Depending on the used equations, you must change the default solver settings.
+-   The solver will by default perform a steady-state simulation. To perform a transient simulation (how the model behaves/develops over time) see the [Elmer solver settings](FEM_SolverElmer_SolverSettings#Solver.md).
+
+Elmer has plenty of settings to determine how the equations should be solved. They are described in detail in the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
 
 ## Notes
 

@@ -1,51 +1,57 @@
 ---
 - GuiCommand   *
    Name   *Path Deburr
-   MenuLocation   *Menu   * Path → Deburr <br>Toolbar   * Path → Engraving options → Deburr
+   MenuLocation   *Path → Deburr
    Workbenches   *[Path](Path_Workbench.md)
+   Version   *0.18
 ---
 
 # Path Deburr
 
 ## Description
 
-The <img alt="" src=images/Path_Deburr.svg  style="width   *24px;"> [Path Deburr](Path_Deburr.md) tool is primarily for Deburring an edge.
+The <img alt="" src=images/Path_Deburr.svg  style="width   *24px;"> **Path Deburr** tool is primarily for Deburring an edge.
 
 ## Usage
 
-Use for de-burring edges.
-
-Start feature → select face or edge → configure options.
+1.  There are several ways to invoke the command   *
+    -   Press the **<img src="images/Path_Deburr.svg" width=16px> [Deburr](Path_Deburr.md)** button.
+    -   Select the **Path → <img src="images/Path_Deburr.svg" width=16px> Deburr** option from the menu.
+2.  The **Deburr** task panel opens. See [Options](#Options.md).
+3.  Select **Base Geometry**.
+4.  Specify the required parameters.
+5.  Press the **OK** button.
 
 ## Options
 
-After starting the feature you have to select the face or edge you want to de-burr in the Base Geometry tab in the Deburr feature menu. As seen in below   *
+After selecting the geometry in the **Base Geometry** section of the task panel you can press **Apply** to see the tool path as defined by the default options.
 
-   *   <img alt="Base Geometry tab within the Deburr feature menu" src=images/Path_Deburr_Base_Geometry-tab.png  style="width   *337" height="559px;">
+Next you can check your depths/step down and heights, just like with other path commands.
 
-After you selected the geometry you can press **Apply** to see the tool-path as set by the default options.
-When you have everything selected you can check your depths/step down and heights just like other path functions.
+The Final step is to activate the **Operation** section where you can specify the following   *
 
-Final step is the menu that as seen below, you can configure the feature as follows   *
+-    **Tool controller**   * Select the tool to use.
 
--    `Tool controller`   * The tool a 90 degree V-bit
+-    **Coolant Mode**   * Select {{Value|None}}, {{Value|Flood}} or {{Value|Mist}}.
 
--    `Coolant Mode`   * Do you want coolant? (On/Off)
+-    **Directions**   * Select {{Value|CW}} (clockwise) or {{Value|CCW}} (counter-clockwise).
 
--    `Directions`   * **CW** (clockwise) or **CCW** (counter-clockwise)
+-    **W**   * The dimension of your edge.
 
--    `W`   * is the dimension of your edge.
+-    **h**   * The offset from the bottom of the tool. It\'s a safety feature because if the tip gets above the edge it won\'t cut anymore.
 
--    `h`   * is the offset from the bottom of the V-bit. It\'s a safety feature because if the tip gets above the edge it won\'t cut anymore.
 
-   *   <img alt="Deburring interface with the options" src=images/Path_Deburr_Operations-tab.png  style="width   *337" height="599px;">
+
+   *   <img alt="Deburring interface with the options" src=images/Path_Deburr_Operations-tab.png  style="width   *300px;">
+
+
 
 ## Properties
 
 ### Data
 
 
-{{TitleProperty|Base Geometry}}
+{{TitleProperty|Base}}
 
 -    **Placement**   *
 
@@ -54,59 +60,59 @@ Final step is the menu that as seen below, you can configure the feature as foll
 
 {{TitleProperty|Deburr}}
 
--    **Direction**   * CCW or CW
+-    **Direction**   * {{Value|CCW}} or {{Value|CW}}.
 
--    **Entry Point**   * Change this to change Entry point, if set to 2 it will go in 2 corners from the default.
+-    **Entry Point**   * Entry point of the operation, if set to 2 it will go in 2 corners from the default.
 
--    **Extra depth**   * Extra depth or h in the menu.
+-    **Extra depth**   * Extra depth (**h** in the task panel).
 
--    **Join**   * How to join chamfer segments, Round or Miter. \[example needed\]
+-    **Join||Hidden**   * How to join chamfer segments, {{Value|Round}} or {{Value|Miter}}.
 
--    **Side**   * Can change sides. \[example needed\]
+-    **Side||Hidden**   * Side of the operation, {{Value|Outside}} or {{Value|Inside}}.
 
--    **Width**   * The width you fill in in the menu by W.
+-    **Width**   * The width of the chamfer (**W** in the task panel).
 
 
 {{TitleProperty|Depth}}
 
--    **Clearance Height**   * The height needed to clear clamps and obstructions (set by default to `OpStockZMax + SetupSheet.ClearanceHeightOffset`)
+-    **Clearance Height**   * The height needed to clear clamps and obstructions (set by default to `OpStockZMax + SetupSheet.ClearanceHeightOffset`).
 
--    **Safe Height**   * The above which Rapid motions are allowed. (set to `OpStockZMax + SetupSheet.SafeHeightOffset`)
+-    **Safe Height**   * The height above which rapid motions are allowed. (set to `OpStockZMax + SetupSheet.SafeHeightOffset`).
 
--    **Start Depth**   * Starting Depth of Tool- first cut depth in Z
+-    **Start Depth**   * Starting depth of of the tool, first cut depth in Z.
 
--    **Step Down**   * Incremental Step Down of Tool
+-    **Step Down**   * Incremental step down of the tool.
+
+
+{{TitleProperty|Op Values}}
+
+-    **Op Stock ZMax**   * The maximum Z value of the stock.
+
+-    **Op Stock ZMin**   * The minimum Z value of the stock.
+
+-    **Op Tool Diameter**   * The diameter of the tool.
 
 
 {{TitleProperty|Path}}
 
--    **Active**   * Make False, to prevent operation from generating code
+-    **Active**   * Make `False`, to prevent operation from generating code.
 
--    **Base**   * The base geometry for this operation, edges or a face
+-    **Base**   * The base geometry for this operation, edges or a face.
 
--    **Comment**   * An optional comment for this operation
+-    **Comment**   * An optional comment for this operation.
 
--    **Coolant Mode**   * Coolant mode for this operation
+-    **Coolant Mode**   * Coolant mode for this operation.
 
--    **Cycle Time**   * Estimated cycle time for this operation
+-    **Cycle Time**   * Estimated cycle time for this operation.
 
--    **Start Vertex**   * The vertex index to start the path from
+-    **Tool Controller**   * The tool controller that will be used to calculate the path.
 
--    **Tool Controller**   * The tool controller that will be used to calculate the path
-
--    **User Label**   * User assigned label
-
-### View
-
-Empty Example   *
+-    **User Label**   * User assigned label.
 
 
 
 
-
-{{Path_Tools_navi
-
-}}
+ {{Path_Tools_navi}}
 
 
 

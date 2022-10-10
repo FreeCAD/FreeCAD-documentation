@@ -13,26 +13,17 @@
 
 ## Beschreibung
 
-Dieses Werkzeug erzeugt einen Bogen der Parabel durch Fokus, Knoten und Endpunkte.
+Dieses Werkzeug erstellt einen Parabelbogen durch Brennpunkt, Scheitelpunkt und Endpunkte.
 
 ![](images/Sketcher_Arc_of_Parabola_01.png )
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **[<img src=images/Sketcher_CreateArcOfParabola.svg style="width   *16px"> [Parabelbogen](Sketcher_CreateArcOfParabola/de.md)**
-
-Schaltfläche.
-
-1.  Klicke in der 3D Ansicht, um den Fokuspunkt zu definieren (im obigen Bild mit 1 beschriftet).
-2.  Klicken in die 3D Ansicht, um die Spitze des Hyperbelbogens zu definieren (im obigen Bild mit 2 beschriftet).
-3.  Klicke in die 3D Ansicht, um den ersten Endpunkt zu definieren (im obigen Bild mit 3 beschriftet).
-4.  Klicke ein viertes Mal in der 3D Ansicht, um den anderen Endpunkt zu definieren (im obigen Bild mit 4 beschriftet).
-
-
-</div>
+1.  Die Schaltfläche **[<img src=images/Sketcher_CreateArcOfParabola.svg style="width   *16px"> [Parabelbogen erstellen](Sketcher_CreateArcOfParabola/de.md)** drücken.
+2.  In die 3D-Ansicht klicken, um den Brennpunkt zu definieren (im obigen Bild mit 1 beschriftet).
+3.  In die 3D-Ansicht klicken, um den Scheitelpunkt des Hyperbelbogens zu definieren (im obigen Bild mit 2 beschriftet).
+4.  In die 3D-Ansicht klicken, um den ersten Endpunkt zu definieren (im obigen Bild mit 3 beschriftet).
+5.  Ein viertes Mal In die 3D-Ansicht klicken, um den anderen Endpunkt zu definieren (im obigen Bild mit 4 beschriftet).
 
 
 

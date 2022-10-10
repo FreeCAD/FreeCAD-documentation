@@ -1,12 +1,9 @@
 # Macro Overlap/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Boolean Overlap
 |Translate=Sovrapposizione Booleana
 |Icon=Macro_Overlap.png
-|Description=Strumento booleano intermedio tra [Part Union](Part_Union/it.md) e [Part Common](Part_Common/it.md). Parametrico.
+|Description=Strumento booleano intermedio tra [Part Unione](Part_Fuse/it.md) e [Part Intersezione](Part_Common/it.md). Parametrico.
 |Author=DeepSOIC
 |Version=0.2
 |Date=2018-08-31
@@ -14,18 +11,9 @@
 |Download=[https   *//www.freecadweb.org/wiki/images/a/ac/Macro_Overlap.png ToolBar Icon]
 }}
 
-
-</div>
-
 <img alt="" src=images/Macro_Boolean_Overlap_Screenshot.png  style="width   *1000px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Sovrapposizione Booleana costruisce una forma che copre lo spazio occupato da non meno del \'OverlapIndex\' forme. \'OverlapIndex\' è una proprietà che può essere modificata. Il valore 1 fornisce il risultato equivalente a Part Union. Il valore pari al numero di forme rende lo strumento equivalente a Part Union. Il valore predefinito è 2, vale a dire il risultato riempie lo spazio in cui non vi è alcuna sovrapposizione.
-
-
-</div>
+Sovrapposizione Booleana costruisce una forma che copre lo spazio occupato da non meno del \'OverlapIndex\' forme. \'OverlapIndex\' è una proprietà che può essere modificata. Il valore 1 fornisce il risultato equivalente a [Part Unione](Part_Fuse/it.md). Il valore pari al numero di forme rende lo strumento equivalente a [Part Intersezione](Part_Common/it.md). Il valore predefinito è 2, vale a dire il risultato riempie lo spazio in cui non vi è alcuna sovrapposizione.
 
 Richiede FreeCAD v0.17+ costruito su OCC non inferiore a 6.9.0 (provato con 7.0.0).
 
@@ -41,13 +29,7 @@ Scaricare il file MacroOverlap.py e salvarlo nella directory delle macro   *
 2.  In FreeCAD menu   * Macro → Macros\... → doppio-click su MacroOverlap.py. Viene creato un nuovo oggetto.
 3.  Selezionare il nuovo oggetto, e se necessario modificare la proprietà \'Overlap Index\' nella scheda Dati
 
-
-<div class="mw-translate-fuzzy">
-
-\* si può fare anche due forme, ma l\'azione dello strumento è equivalente a Part Common or Part Fuse, e quindi si consiglia di utilizzare gli strumenti di Part.
-
-
-</div>
+\* si può fare anche due forme, ma l\'azione dello strumento è equivalente a [Part Intersezione](Part_Common/it.md) or [Part Unione](Part_Fuse/it.md), e quindi si consiglia di utilizzare gli strumenti di Part.
 
 ## Script
 

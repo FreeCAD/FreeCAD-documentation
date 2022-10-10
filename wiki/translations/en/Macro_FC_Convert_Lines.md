@@ -19,7 +19,14 @@ This macro convert the object line, wire in line Dash, DashDot, DashDotDot, ZigZ
 
 ## Usage
 
-Copy the macro in your macros folder and launch FCConvertLines Gui ![FCConvertLines Gui](images/Macro_FCConvertLines_01.png )  First section    *
+Copy the macro in your macros folder and launch FCConvertLines Gui
+
+![FCConvertLines Gui](images/Macro_FCConvertLines_01.png )
+
+
+
+
+First section    *
 
 Cut line (Checked by default) ![FCConvertLines](images/Macro_FCConvertLines_02.png )
 
@@ -134,7 +141,7 @@ Ninth section    *
 
 Button ![FCConvertLines](images/Macro_FCConvertLines_10.png ) 
 
--    **Save type**   * the line configured is saved in one file (one file for one type line). While saving a file header is predetermined depending on the chosen menu (example    * Dash is saved, in the save window is displayed \"Dash\_.FCConvertL\" you can modify to \"Dash\_my\_config\_10.FCConvertL\" or the name you want\... this method allow sharpens clear)
+-    **Save type**   * the line configured is saved in one file (one file for one type line). While saving a file header is predetermined depending on the chosen menu (example    * Dash is saved, in the save window is displayed \"Dash\_.FCConvertL\" you can modify to \"Dash_my_config_10.FCConvertL\" or the name you want\... this method allow sharpens clear)
 
 -    **Load type**   * load one file configured
 
@@ -153,21 +160,21 @@ Button ![FCConvertLines](images/Macro_FCConvertLines_10.png )
 
 ## The files to copy in your directory with the macro (10 files images) 
 
-**The icon for the toolBar** ![Macro\_FCConvertLines](images/Macro_FCConvertLines.png )  **Title** ![ConvertLines\_Title](images/Macro_FCConvertLines_Title.png )  **Line Dash**    * ![ConvertLines\_Dash](images/Macro_FCConvertLines_Dash.png )  **Line DashDot**    * ![ConvertLines Dash dot](images/Macro_FCConvertLines_DashDot.png_‎ )  **Line DashDotDot**    * ![ConvertLines Dash dot dot](images/Macro_FCConvertLines_DashDotDot.png )  **Line Zigzag**    * ![ConvertLines\_Zigzag](images/Macro_FCConvertLines_Zigzag.png )  **Line Hand**    * ![ConvertLines\_Hand](images/Macro_FCConvertLines_Hand.png )  **View**    *  ![ConvrtLines\_View-front](images/Macro_FCConvrtLines_View-front.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-right.png ) ![ConvrtLines\_View-right](images/Macro_FCConvrtLines_View-top.png ) 
+**The icon for the toolBar** ![Macro_FCConvertLines](images/Macro_FCConvertLines.png )  **Title** ![ConvertLines_Title](images/Macro_FCConvertLines_Title.png )  **Line Dash**    * ![ConvertLines_Dash](images/Macro_FCConvertLines_Dash.png )  **Line DashDot**    * ![ConvertLines Dash dot](images/Macro_FCConvertLines_DashDot.png_‎ )  **Line DashDotDot**    * ![ConvertLines Dash dot dot](images/Macro_FCConvertLines_DashDotDot.png )  **Line Zigzag**    * ![ConvertLines_Zigzag](images/Macro_FCConvertLines_Zigzag.png )  **Line Hand**    * ![ConvertLines_Hand](images/Macro_FCConvertLines_Hand.png )  **View**    *  ![ConvrtLines_View-front](images/Macro_FCConvrtLines_View-front.png ) ![ConvrtLines_View-right](images/Macro_FCConvrtLines_View-right.png ) ![ConvrtLines_View-right](images/Macro_FCConvrtLines_View-top.png ) 
 
 ## Script
 
-Copy the macro **Macro\_FCConvertLines.FCMacro** in your macros folder
+Copy the macro **Macro_FCConvertLines.FCMacro** in your macros folder.
 
-the script on Gist [Macro\_FCConvertLines.FCMacro](https   *//gist.github.com/mario52a/3d719574089a5f9044ec)
+The script on Gist [Macro_FCConvertLines.FCMacro](https   *//gist.github.com/mario52a/3d719574089a5f9044ec)
 
 ToolBar icon ![](images/Macro_FCConvertLines.png )
 
-**Macro\_FCConvertLines.FCMacro**
+**Macro_FCConvertLines.FCMacro**
 
 ## Examples
 
-Example dot, dash dot, dash dot, dash dot dot [center\|500px ](File   *Macro_FCConvertLines_11b.png.md)  Example hand, zigzag [center\|500px ](File   *Macro_FCConvertLines_11.png.md)  Example hand [center\|500px ](File   *Macro_FCConvertLines_012.png.md) All lines created the configuration specifications set in this Option lines  Example hand can make beautiful sine wave or totally anarchic [center\|500px ](File   *Macro_FCConvertLines_013.png.md) 
+Example dot, dash dot, dash dot, dash dot dot <img alt="" src=images/Macro_FCConvertLines_11b.png  style="width   *500px;">  Example hand, zigzag <img alt="" src=images/Macro_FCConvertLines_11.png  style="width   *500px;">  Example hand <img alt="" src=images/Macro_FCConvertLines_012.png  style="width   *500px;"> All lines created the configuration specifications set in this Option lines  Example hand can make beautiful sine wave or totally anarchic <img alt="" src=images/Macro_FCConvertLines_013.png  style="width   *500px;"> 
 
 Example convert ShapeString to sketch (the curves hare not authorized for convert Shape to Sketch) ![](images/ShapeString_To_Sketch.gif )
 
@@ -176,7 +183,7 @@ Example convert ShapeString to sketch (the curves hare not authorized for conver
 
 ## Version
 
-ver 00.07b 09/11/2020 correct bug \# (ajoute recompute() pour corriger)\# Cannot compute Inventor representation for the shape of Shape. And Line by Label
+ver 00.07b 09/11/2020 correct bug \# (ajoute recompute() pour corriger)# Cannot compute Inventor representation for the shape of Shape. And Line by Label
 
 ver 00.07 13/05/2017 correct bug after create \"Alternate \....\" the dimension of lines stay with the dimension alternative and not restitution the desired dimensions
 

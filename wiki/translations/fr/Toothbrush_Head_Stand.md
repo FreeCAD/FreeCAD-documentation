@@ -1,6 +1,18 @@
-# Toothbrush Head Stand/fr
 ---
-- TutorialInfo   */fr   Topic   *Modélisation   Level   *Débutant   Author   *[[User   *EmmanuelG   EmmanuelG]]|Time   *1 heure   FCVersion   *0.16 ou ultérieure   Files   *[https   *//www.thingiverse.com/thing   *2403310 Thingiverse 2403310]}}
+- TutorialInfo   */fr
+   Topic   *Modélisation
+   Level   *Débutant
+   Author   *[EmmanuelG](User_EmmanuelG.md)
+   Time   *1 heure
+   FCVersion   *0.16 ou ultérieure
+   Files   *[https   *//www.thingiverse.com/thing   *2403310 Thingiverse 2403310]
+---
+
+# Toothbrush Head Stand/fr
+
+
+
+
 
 ## Un problème de la vie courante 
 
@@ -10,9 +22,9 @@ Ce tutoriel vous guidera à travers les étapes nécessaires pour modéliser la 
 
 ![](images/TBHS-model.png )
 
-## Première idée   * un plateau 
+## Première idée    * un plateau 
 
--   A partir de la page d\'accueil, sélectionnez ![](images/Workbench_PartDesign.svg‎‎ ) \"Part Design\" ou créez un nouveau document et sélectionnez l\'espace de travail \"Part Design\".
+-   A partir de la page d\'accueil, sélectionnez ![](images/Workbench_PartDesign.svg‎‎ ) \"Part Design\" ou créez un nouveau document et sélectionnez l\'atelier \"Part Design\".
 
 ![](images/TBHS-0.png )
 
@@ -22,16 +34,15 @@ Ce tutoriel vous guidera à travers les étapes nécessaires pour modéliser la 
 
 <img alt="" src=images/TBHS-1.JPG  style="width   *800px;">
 
-Une boîte de dialogue vous invite à choisir l\'orientation de l\'esquisse et à fournir un décalage (si on ne veut pas que le dessin soit placer à XOY=0 (ou XOZ ou YOZ)).
+Une boîte de dialogue vous invite à choisir l\'orientation de l\'esquisse et à fournir un décalage.
 
--   Nous allons sélectionner le plan XY comme indiqué dans l\'image ci-dessus (cette orientation correspond à la plaque de construction commune de la plupart des imprimantes 3D), puis cliquez sur **OK**.
+-   Nous allons choisir le plan XY comme indiqué dans l\'image ci-dessus (cette orientation correspond à la plaque de construction commune de la plupart des imprimantes 3D), puis cliquez sur OK.
 
 <img alt="" src=images/TBHS-2.JPG  style="width   *800px;">
 
 Vous êtes maintenant face au plan XY vu d\'en haut, et avez accès aux outils de dessin.
 
-Cliquez sur le bouton <img alt="Sketcher_CreateRectangle.svg" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;"> [**Rectangle**](Sketcher_CreateRectangle/fr.md).
-
+-   Cliquez sur <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;"> [**Rectangle**](Sketcher_CreateRectangle/fr.md).
 -   Cliquez pour placer un premier point.
 -   Cliquez pour placer le coin opposé.
 -   Appuyez sur **Echap** ou cliquez sur le bouton droit de la souris pour arrêter d\'utiliser l\'outil.
@@ -40,15 +51,14 @@ Cliquez sur le bouton <img alt="Sketcher_CreateRectangle.svg" src=images/Ske
 
 Vous avez maintenant un rectangle mobile de dimensions non spécifiées.
 
-Cliquez sur une ligne du rectangle, vous avez maintenant accès aux outils de contrainte à droite de la barre d\'outils (en fonction de la taille de votre écran, vous devrez peut-être les faire glisser vers la gauche pour les voir tous)
-
--   Cliquez sur le bouton **['''Contrainte dimensionnelle'''](File   *Constraint_Length.png   32px]] [[Sketcher ConstrainDistance.md)**
--   Une boîte de dialogue vous invite à définir une dimension. Entrez 80mm, cliquez sur **OK**.
--   Répétez avec l\'autre côté du rectangle, également 80 mm.
+-   Cliquez sur une ligne du rectangle, vous avez maintenant accès aux outils de contrainte à droite de la barre d\'outils (selon la taille de votre écran, vous devrez peut-être les faire glisser vers la gauche pour les voir tous).
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 80mm, cliquez sur OK.
+-   Répétez l\'opération avec l\'autre côté du rectangle, également 80mm.
 
 <img alt="" src=images/TBHS-4.JPG  style="width   *800px;">
 
-Maintenant vous avez un carré mobile de 80mm de coté
+Maintenant vous avez un carré mobile.
 
 -   Cliquez sur le point en bas à gauche du carré.
 -   Cliquez sur l\'origine du plan XY (à l\'intersection des deux lignes épaisses).
@@ -56,17 +66,19 @@ Maintenant vous avez un carré mobile de 80mm de coté
 
 <img alt="" src=images/TBHS-5.JPG  style="width   *800px;">
 
-Vous avez maintenant un croquis totalement contraint, comme vous le dit le solveur sur la gauche et le changement de couleur (vert) dont un des sommets est confondu avec l\'origine des axes XOY et les cotés horizontaux et verticaux. C\'est une bonne pratique de toujours avoir un croquis totalement contraint.
+Vous avez maintenant une esquisse totalement contrainte, comme vous l\'indique le solveur à gauche et le changement de couleur. C\'est une bonne pratique de toujours avoir une esquisse totalement contrainte.
 
-Un croquis sous-contraint peut laisser place à des changements non désirés, si vous modifiez quelque chose plus tard. Au contraire, un croquis trop contraint n\'est pas bon non plus. Dans ce cas, le solveur vous avertit des contraintes redondantes et vous devez supprimer certaines d\'entre elles.
+Une esquisse sous-contrainte peut laisser la place à des changements non souhaités, si vous modifiez quelque chose par la suite.
 
--   Pour quitter l\'esquisse, cliquez sur le bouton **"Fermer"** à gauche ou sur l\'icône <img alt="" src=images/_Sketcher_LeaveSketch.png  style="width   *32px;"> dans la barre d\'outils, ou appuyez sur **ESC**, ou bouton droit de la souris (gauche pour gauchers).
+À l\'inverse, une esquisse surcontrainte n\'est pas bonne non plus. Dans ce cas, le solveur vous avertit des contraintes redondantes et vous devez en supprimer certaines.
+
+-   Pour quitter l\'esquisse, cliquez soit sur le bouton \"Fermer\" à gauche, soit sur l\'icône <img alt="" src=images/Sketcher_LeaveSketch.png  style="width   *32px;"> dans la barre d\'outils, ou appuyez sur **Echap**.
 
 <img alt="" src=images/TBHS-6.JPG  style="width   *800px;">
 
-Vous ne voyez maintenant que le carré et le menu contextuel de gauche vous montre plus d\'options qu\'avant.
+Vous ne voyez plus que le carré, et le menu contextuel des tâches sur la gauche vous montre plus d\'options qu\'auparavant.
 
-### Créer un volume (pad) 
+### Créer une protrusion 
 
 -   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonométrique** parmi les vues standard, pour mieux voir ce qui va se passer.
 -   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> **Protrusion**.
@@ -76,7 +88,7 @@ Vous ne voyez maintenant que le carré et le menu contextuel de gauche vous mont
 
 Votre carré est désormais un volume !
 
-### Créer un nouveau dessin sur une face 
+### Créer une esquisse dessus 
 
 -   Sélectionnez la face supérieure
 
@@ -95,7 +107,7 @@ La couleur de la face change (seulement la face doit changer de couleur, pas tou
 <img alt="" src=images/TBHS-10.JPG  style="width   *800px;">
 
 -   Sélectionnez les cercles
--   Cliquez sur le bouton <img alt="" src=images/_Constraint_EqualLength.png  style="width   *32px;"> [**Égalité**](Sketcher_ConstrainEqual/fr.md)
+-   Cliquez sur le bouton <img alt="" src=images/_Constraint_EqualLength.png  style="width   *32px;"> [**Contrainte d\'égalité**](Sketcher_ConstrainEqual/fr.md)
 
 <img alt="" src=images/TBHS-11.JPG  style="width   *800px;">
 
@@ -108,7 +120,7 @@ Maintenant les cercles ont le même rayons
 
 Ces lignes seront les références pour positionner les cercles
 
--   Cliquez sur l\'outil **['''Contrainte dimensionnelle'''](File   *Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
+-   Cliquez sur l\'outil **[<img src=images/Constraint_Length.png style="width   *32px"> ['''Contrainte dimensionnelle'''](Sketcher_ConstrainDistance/fr.md)**
 -   Cliquez sur le centre d\'un cercle
 -   Cliquez sur une ligne magenta du bord
 -   Définissez 20mm (pour chaque cercle, vers les deux bords les plus proches)
@@ -116,7 +128,7 @@ Ces lignes seront les références pour positionner les cercles
 <img alt="" src=images/TBHS-13.JPG  style="width   *800px;">
 
 -   Cliquez sur un cercle
--   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [**Contrainte radiale**](Sketcher_ConstrainRadius/fr.md) et mettez la valeur à 1,5 mm.
+-   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [**Contrainte rayon**](Sketcher_ConstrainRadius/fr.md) et mettez la valeur à 1,5 mm.
 
 <img alt="" src=images/TBHS-14.JPG  style="width   *800px;">
 
@@ -124,7 +136,7 @@ Ces lignes seront les références pour positionner les cercles
 
 <img alt="" src=images/TBHS-15.JPG  style="width   *800px;">
 
-### Créer un volume 
+### Créer une protrusion 
 
 -   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonometrique** en vue standard, pour mieux voir ce qui se passe devant vos yeux ébahis.
 -   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> **Protrusion**.
@@ -132,13 +144,13 @@ Ces lignes seront les références pour positionner les cercles
 
 <img alt="" src=images/TBHS-16.JPG  style="width   *800px;">
 
-Vous avez la forme de base, juste une touche finale\....
+Vous avez la forme de base, il ne manque que les touches finales.
 
 ### Arrondir les coins 
 
--   Enfoncer la touche **CTRL** et cliquez sur les quatre arrêtes verticales .
+-   En maintenant **CTRL**, cliquer sur le bord vertical de chaque coin pour en sélectionner les quatre.
 
-N\'hésitez pas à vous aider en changeant le mode d\'affichage (menu Affichage\>Style de représentation), entre <img alt="" src=images/_DrawStyleWireFrame.svg  style="width   *32px;"> **Filaire** et <img alt="" src=images/_DrawStyleFlatLines.svg  style="width   *32px;"> **Filaire et ombre**.
+N\'hésitez pas à vous aider en changeant le mode d\'affichage (juste à gauche de la Vue Axonométrique) entre <img alt="" src=images/DrawStyleWireFrame.svg  style="width   *32px;"> **Filaire** et <img alt="" src=images/DrawStyleFlatLines.svg  style="width   *32px;"> **Filaire et ombre**.
 
 <img alt="" src=images/TBHS-17.JPG  style="width   *800px;">
 
@@ -147,13 +159,13 @@ N\'hésitez pas à vous aider en changeant le mode d\'affichage (menu Affichage\
 
 <img alt="" src=images/TBHS-18.JPG  style="width   *800px;">
 
-Encore mieux!
+C\'est mieux.
 
 ### Rendre plus robuste 
 
-Nous devons ajouter du matériaux à la base des cylindres pour les rendre moins cassants. En raison de l\'orientation de l\'impression, ces petites surfaces seront fragiles à la jonction avec la base.
+Nous devons ajouter de la matière à la base des cylindres pour qu'ils soient moins enclins à se casser. En raison de l'orientation de l'impression, ces petites surfaces seront fragiles à la jonction avec la base.
 
-Sélectionner les cercles à la bases des cylindres
+-   Sélectionnez les cercles à la base des cylindres.
 
 <img alt="" src=images/TBHS-19.JPG  style="width   *800px;">
 
@@ -162,9 +174,9 @@ Sélectionner les cercles à la bases des cylindres
 
 <img alt="" src=images/TBHS-20.JPG  style="width   *800px;">
 
-### Chanfreiner les angles 
+### Chanfreiner les bords 
 
--   Sélectionnez la face inférieure de la base, utilisez un <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *32px;"> **chanfrein** de 0,5 mm.
+-   Sélectionnez la face sous la base, ajoutez un <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *32px;"> **Chanfrein** de 0,5mm.
 
 La première couche de plastique est souvent écrasée un peu trop, ceci compensera cela et vous fera gagner du temps dans le nettoyage du modèle. Si la première couche est correcte, cela ne fera que l\'améliorer
 
@@ -178,41 +190,36 @@ La première couche de plastique est souvent écrasée un peu trop, ceci compens
 
 <img alt="" src=images/TBHS-22.JPG  style="width   *800px;">
 
-Vous avez remarqué que nous avons changé plusieurs fois de mode de représentation pour tour à tour mieux voir les arêtes et le résultat.
-
-Tadaam youp\' la boom !
+Et voilà!
 
 ## Exporter en .STL 
 
--   Dans la vue combinée à gauche, dans l\'arborescence, cliquez sur la dernière opération \"Chamfer002\".
+-   Dans la vue combinée de gauche, sélectionnez la vue arborescente au lieu du menu contextuel des tâches, cliquez sur la dernière caractéristique (le chanfrein).
 
 <img alt="" src=images/TBHS-24.JPG  style="width   *800px;">
 
--   Dans le menu Fichier \> Exporter\...
--   De nombreux formats sont disponibles, mais le .STL reste un standard largement utilisé.
--   Il n\'y a plus qu\'a l\'imprimer sur une imprimante 3D    *-)
-
--   N\'oubliez pas de l\'enregistrer en tant que fichier dessin aussi, si vous voulez l\'archiver sur votre PC !
+-   Maintenant vous pouvez sélectionner \"Exporter\...\" dans le menu Fichier en haut à gauche, et sélectionner le format de fichier .STL.
+-   Imprimez-le simplement    *-)
 
 ## Inspiration
 
-Le modèle ci-dessous est un bon exercice pour utiliser Freecad.
+Le modèle ci-dessus constitue un bon point de départ pour utiliser FreeCAD, mais comme un support de tête de brosse à dents, il a ses défauts    * à cause de l\'orientation de l\'impression et de la petite surface, les bâtons sont susceptibles de se casser.
 
-Il y a une quantité de possibilités , nous allons en utiliser une seconde qui sera meilleur
+Inspirés par la variété des solutions proposées par d\'autres personnes, nous allons réaliser cette deuxième version qui sera bien meilleure.
 
 <img alt="" src=images/TBHS-v2.jpg  style="width   *800px;">
 
-Ne soyons pas étonnés d\'avoir de nouvelles idées Par exemple    * avoir plus de place entre chaque brosse
+Ne vous inquiétez pas, il est souvent nécessaire de passer par plusieurs révisions pour une idée (par exemple    * une fois le prototype de la photo utilisé, nous avons ajouté plus d\'espace entre les têtes pour qu\'elles ne se touchent pas).
 
-Dans cette seconde version, nous allons utiliser d\'autres outils, par exemple \"Répétition linéaire\"
+Dans cette deuxième partie, vous apprendrez également à utiliser d\'autres outils, comme la puissante *Répétition linéaire*.
 
-## Seconde idée    * une bande annulaire 
+## Deuxième idée    * un groupe 
 
--   Créez un nouveau document et sélectionnez ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design* workbench.
+-   Créez un nouveau document et sélectionnez l\'atelier ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design*.
 
-### Créer un sketch 
+### Créer une esquisse 
 
--   Créer une <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> **Nouvelle esquisse** dans le plan XY.
+-   Créez une <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> **Nouvelle esquisse** dans le plan XY.
 
 <img alt="" src=images/TBHS-1.JPG  style="width   *800px;">
 
@@ -225,63 +232,68 @@ Dans cette seconde version, nous allons utiliser d\'autres outils, par exemple \
 
 Maintenant nous avons un oblong mobile et sans dimensions spécifiées
 
--   Cliquez sur une des lignes horizontales de l\'oblong
--   Cliquez sur le bouton **['''Contrainte dimensionnelle '''](File   *Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
--   Dans la boite de dialogue. donnez une dimension. Entrer 75 mm, cliquez sur **OK**.
-    -   Pour un stand de trois tête, compter 25mm pour chaque, mais vous pouvez mettre plus
+-   Cliquez sur l\'une des lignes horizontales de la rainure
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 75mm, cliquez sur OK.
+    -   Pour un support à 3 têtes, comptez 25mm pour chacune, si vous en voulez plus
 
 <img alt="" src=images/TBHS2-2.JPG  style="width   *800px;">
 
-Cliquez en un point de la ligne horizontale Cliquez en un point de l\'autre ligne horizontale Cliquez sur le bouton **['''Contrainte dimensionnelle '''](File   *Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)** Dans la boite de dialogue indiquer la longueur 29 mm, cliquez sur le bouton **OK**. <img alt="" src=images/TBHS2-3.JPG  style="width   *800px;">
+-   Cliquez sur un point de la ligne horizontale
+-   Cliquez sur un point de l\'autre ligne horizontale
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 29mm, cliquez sur OK.
 
--   Dessinez un autre oblong <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [**Créer une rainure**](Sketcher_CreateSlot/fr.md) autour de la première rainure.
+<img alt="" src=images/TBHS2-3.JPG  style="width   *800px;">
+
+-   Dessinez une <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [**Rainure**](Sketcher_CreateSlot/fr.md) autour du premier emplacement.
 
 <img alt="" src=images/TBHS2-4.JPG  style="width   *800px;">
 
--   Mettre le centre du second en coïncidence avec le premier en utilisant l\'outil <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [**Coincident**](Sketcher_ConstrainCoincident/fr.md).
+-   Faites coïncider les centres du deuxième emplacement avec les centres du premier emplacement avec <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [**Contrainte de coïncidence**](Sketcher_ConstrainCoincident/fr.md).
 
 <img alt="" src=images/TBHS2-5.JPG  style="width   *800px;">
 
--   Cliquez sur un extrémité horizontale du second oblong
--   Cliquez sur l\'extrémité horizontale la plus proche du premier
--   Cliquez sur le bouton \"longueur **['''Contrainte dimensionnelle '''](File   *Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
--   Dans la boite de dialogue donner la valeur. Entrez 3 mm, cliquez sur **OK**.
+-   Cliquez sur un point de la ligne horizontale du premier emplacement.
+-   Cliquez sur un point de la ligne horizontale la plus proche du deuxième emplacement.
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 3mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-6.JPG  style="width   *800px;">
 
--   Pour avoir un dessin entièrement contraint   *
-    -   Cliquez sur le point central le plus éloigné du second oblong
-    -   Cliquez sur l\' origine du plan XY
-    -   Cliquez sur le bouton <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [**Coïncidence**](Sketcher_ConstrainCoincident/fr.md)
+-   Pour rendre l\'esquisse entièrement contrainte
+    -   Cliquez sur le point inférieur gauche de la deuxième rainure
+    -   Cliquez sur l\'origine du plan XY
+    -   Cliquez sur <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [**Contrainte de coïncidence**](Sketcher_ConstrainCoincident/fr.md)
 
-le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="width   *800px;">
+<img alt="" src=images/TBHS2-7.JPG  style="width   *800px;">
 
--   Pour quitter le sketcher, cliquez sur le bouton **Close** à gauche, ou sur l\'**[[File   *Sketcher_LeaveSketch.png   32px]] icône** de la barre d\'outils, ou **ESC** ou le bouton droit de la souris.
+-   Pour quitter l\'esquisse, cliquez soit sur le bouton \"Fermer\" à gauche, soit sur l\'icône <img alt="" src=images/Sketcher_LeaveSketch.png  style="width   *32px;"> dans la barre d\'outils, ou appuyez sur **Echap**.
 
 <img alt="" src=images/TBHS2-8.JPG  style="width   *800px;">
 
-### Créer un volume 
+### Créer une protrusion 
 
--   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonometrique** de la barre d\'outils \"Vues, pour avoir un meilleur spectacle devant vos yeux émerveillés.
--   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> **Protrusion**.
--   Entrez 30mm et cliquez sur **OK**.
+-   Cliquez sur <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonometrique** parmi les vues standards, pour mieux voir ce qui va se passer.
+-   Cliquez sur <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> **Protrusion**.
+-   Entrez 30mm et cliquez sur OK.
 
 <img alt="" src=images/TBHS2-9.JPG  style="width   *800px;">
 
-### Créer un dessin par dessus 
+### Créer une esquisse dessus 
 
--   Sélectionnez la face supérieure (seulement la face, pas tout le volume)
+-   Sélectionnez la face supérieure
 
 <img alt="" src=images/TBHS2-10.JPG  style="width   *800px;">
 
--   Créez une <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> **Nouvelle esquisse**. Comme la face est sélectionnée, il ne demandera pas de créer un nouveau plan
+-   Créez une <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> **Nouvelle esquisse**. Comme une face a été sélectionnée, il ne vous sera pas demandé de choisir un plan.
 
 <img alt="" src=images/TBHS2-11.JPG  style="width   *800px;">
 
--   Dessinez un hexagone <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width   *32px;"> [**Hexagone**](Sketcher_CreateHexagon/fr.md)
+-   Dessinez un <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width   *32px;"> [**Hexagone**](Sketcher_CreateHexagon/fr.md)
     -   Cliquez pour placer le centre
-    -   Bougez la souris pour placer le rayon (attention de ne pas placer le rayon sur un des axes, le dessin peu parfois s\'effondrer sur son centre)
-    -   Cliquez pour finir
+    -   Déplacez pour définir le rayon
+    -   Cliquez pour définir
 
 <img alt="" src=images/TBHS2-12.JPG  style="width   *800px;">
 
@@ -290,143 +302,142 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 <img alt="" src=images/TBHS2-13.JPG  style="width   *800px;">
 
--   Cliquez sur le centre de l\' hexagone
+-   Cliquez sur le centre de l\'hexagone
 -   Cliquez sur la ligne horizontale du plan XY
--   Cliquez sur le bouton **['''Contrainte dimensionnelle'''](File   *Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
--   Dans la boite de dialogue donner une dimension. Entrer 15 mm, Cliquez **OK**.
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 15 mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-14.JPG  style="width   *800px;">
 
 -   Cliquez sur le centre de l\' hexagone
 -   Cliquez sur la vertical du plan XY
--   Cliquez sur le bouton **['''Contrainte dimensionnelle '''](File   *Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
--   Dans la boite de dialogue, donner une dimension. Entrez 10 mm. Cliquez sur **OK**.
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 10 mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-15.JPG  style="width   *800px;">
 
--   Cliquez sur le cercle bleu de l\' hexagone
--   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [**Contrainte radiale**](Sketcher_ConstrainRadius/fr.md)
+-   Cliquez sur le cercle bleu de l\'hexagone
+-   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [**Contrainte rayon**](Sketcher_ConstrainRadius/fr.md)
 -   Une boîte de dialogue vous invite à définir une dimension. Entrez 8mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-16.JPG  style="width   *800px;">
 
--   Quittez le sketcher comme précédemment en cliquant sur le ** [[File   *Sketcher_LeaveSketch.png   32px]]** sur la barre d\'outils, ou pressez sur **ESC**.
+-   Pour quitter l\'esquisse, cliquez soit sur le bouton \"Fermer\" à gauche, soit sur l\'icône <img alt="" src=images/Sketcher_LeaveSketch.png  style="width   *32px;"> dans la barre d\'outils, ou appuyez sur **Echap**.
 
 <img alt="" src=images/TBHS2-17.JPG  style="width   *800px;">
 
-### Créer le trou 
+### Créer un trou 
 
--   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonometrique** de la barre d\'outil \"Vues\", toujours pour une meilleur vision.
--   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> [**Cavité**](PartDesign_Pocket/fr.md).
--   Sélectionnez *au premier* sur le menu déroulant et cliquer sur le **OK**.
+-   Cliquez sur <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonométrique** parmi les vues standards, pour mieux voir ce qui va se passer.
+-   Cliquez sur <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> [**Cavité**](PartDesign_Pocket/fr.md).
+-   Sélectionnez *au premier* dans le menu déroulant et cliquez sur OK.
 
-<img alt="" src=images/TBHS2-18.JPG  style="width   *800px;"> Si vous sélectionnez \"à travers tout\", vous aurez un trou identique de chaque coté
+<img alt="" src=images/TBHS2-18.JPG  style="width   *800px;">
 
 ### Répétition linéaire 
 
--   Dans l\'arborescence du tableau combiné à gauche, sélectionnez la dernière opération \"Pocket.
--   Cliquez sur le bouton <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [**Répétition linéaire**](PartDesign_LinearPattern/fr.md).
--   Donnez la longueur totale 55mm et 3 occurrences (la première compte il y en aura donc trois en tout) également répartie sur 55mm et cliquez **OK**.
+-   Dans la vue combinée de gauche, sélectionnez la vue arborescente au lieu du menu contextuel des tâches, cliquez sur la fonction pocket.
+-   Cliquez sur <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [**Répétition linéaire**](PartDesign_LinearPattern/fr.md).
+-   Définissez la longueur à 55mm et les occurrences à 3, puis cliquez sur OK.
 
 <img alt="" src=images/TBHS2-19.JPG  style="width   *800px;">
 
-### Créer un sketch par dessus 
+### Créer une esquisse dessus 
 
--   Sélectionnez la face inférieure
+-   Sélectionner la face interne
 
 <img alt="" src=images/TBHS2-20.JPG  style="width   *800px;">
 
--   Créez une <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> **Nouvelle esquisse**. Comme la face est sélectionnée, il ne demandera pas de choisir un plan.
+-   Créez une <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> **Nouvelle esquisse**. Comme une face a été sélectionnée, il ne vous sera pas demandé de choisir un plan.
 
 <img alt="" src=images/TBHS2-21.JPG  style="width   *800px;">
 
--   Cliquez sur le bouton <img alt="" src=images/Sketcher_Circle.svg  style="width   *32px;"> [**Cercle**](Sketcher_CreateCircle/fr.md), cliquez pour placer le centre et bougez la souris pour obtenir un rayon.
+-   Cliquez sur <img alt="" src=images/Sketcher_Circle.svg  style="width   *32px;"> [**Cercle**](Sketcher_CreateCircle/fr.md), cliquez pour placer le centre, déplacez le pointeur et cliquez pour définir le rayon.
 
 <img alt="" src=images/TBHS2-22.JPG  style="width   *800px;">
 
 -   Cliquez sur le centre du cercle
 -   Cliquez sur la ligne horizontale du plan XY
--   Cliquez sur le bouton **['''Contrainte dimensionnelle '''](File   *Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
--   Dans la boite de dialogue donnez une valeur. Entrez 15mm, et cliquez **OK**.
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 15mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-23.JPG  style="width   *800px;">
 
--   Cliquez au centre du cercle
--   Cliquez sur la verticale du plan XY
--   Cliquez sur le bouton **['''Distance'''](File   *Constraint_Length.png     32px]] [[Sketcher ConstrainDistance/fr.md)**
--   Une boîte de dialogue vous invite à définir une dimension. Entrez 10mm, cliquez sur **OK**.
+-   Cliquez sur le centre du cercle
+-   Cliquez sur la ligne horizontale du plan XY
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 10mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-24.JPG  style="width   *800px;">
 
--   Cliquez sur le cercle
--   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [**Contrainte radiale**](Sketcher_ConstrainRadius/fr.md)
--   Une boîte de dialogue vous invite à définir une dimension. Entrez 3,5 mm et cliquez sur OK.
+-   Cliquez sur le centre du cercle
+-   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width   *32px;"> [**Contrainte rayon**](Sketcher_ConstrainRadius/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 3.5mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-25.JPG  style="width   *800px;">
 
--   Quittez le sketch en cliquant sur le bouton **[[File   *Sketcher_LeaveSketch.png   32px]]** de la barre d\'outils, ou pressez sur **ESC**.
+-   Pour quitter l\'esquisse, cliquez soit sur le bouton \"Fermer\" à gauche, soit sur l\'icône <img alt="" src=images/Sketcher_LeaveSketch.png  style="width   *32px;"> dans la barre d\'outils, ou appuyez sur **Echap**.
 
 <img alt="" src=images/TBHS2-26.JPG  style="width   *800px;">
 
 ### Créer une protrusion 
 
--   Cliquez sur le bouton <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonometrique** parmi les vues standard, pour mieux voir la vue.
--   Cliquez sur le bouton <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> **Protrusion**.
--   Entrez 4 mm et cliquer **OK**.
+-   Cliquez sur <img alt="" src=images/View-axometric.svg  style="width   *32px;"> **Axonométrique** parmi les vues standards, pour mieux voir ce qui va se passer.
+-   Cliquez sur <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> **Protrusion**.
+-   Entrez 4mm et cliquez sur OK.
 
 <img alt="" src=images/TBHS2-27.JPG  style="width   *800px;">
 
 ### Répétition linéaire 
 
--   Dans l\'arborescence à gauche, sélectionnez la dernière opération.
--   Cliquez sur le bouton <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [**Répétition linéaire**](PartDesign_LinearPattern/fr.md)..
--   Entrez une valeur de 55mm et 3 occurrences et cliquez **OK**.
+-   Dans la vue combinée de gauche, sélectionnez la vue arborescente au lieu du menu contextuel des tâches, cliquez sur la fonction pad.
+-   Cliquez sur <img alt="" src=images/PartDesign_LinearPattern.svg  style="width   *32px;"> [**Répétition linéaire**](PartDesign_LinearPattern/fr.md).
+-   Définissez la longueur à 55mm et les occurrences à 3, puis cliquez sur OK.
 
 <img alt="" src=images/TBHS2-28.JPG  style="width   *800px;">
 
-### Draft
+### Dépouille
 
--   Sélectionnez le bord de chaque piliers ronds
+-   Sélectionnez le côté de chaque protrusion arrondie
 
 <img alt="" src=images/TBHS2-29.JPG  style="width   *800px;">
 
--   Cliquez sur le bouton <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [**Dépouille**](PartDesign_Draft/fr.md).
--   Mettez un angle à 40°.
--   Cliquez sur Plan neutre \"Neutral plane\" et sélectionnez la face sur laquelle le dessin sera créé.
--   Cochez \"Invert the draft direction\".
+-   Cliquez sur <img alt="" src=images/PartDesign_Draft.svg  style="width   *32px;"> [**Dépouille**](PartDesign_Draft/fr.md).
+-   Réglez l\'angle de dépouille à 40°.
+-   Cliquez sur \"Plan neutre\" et sélectionnez la face sur laquelle l\'esquisse est dessinée.
+-   Cochez \"Inverser le sens de la dépouille\".
 
 <img alt="" src=images/TBHS2-30.JPG  style="width   *800px;">
 
-Nous aurions pu utiliser l\'outil chanfrein pour obtenir quelque chose de similaire
+Nous aurions pu utiliser un chanfrein pour faire quelque chose de similaire, mais la dépouille est plus appropriée dans ce cas.
 
-Chanfrein = à gauche/Draft = à droite
+Chanfrein = gauche / Ébauche = droite
 
 <img alt="" src=images/TBHS2-30-chamfer.JPG  style="width   *200px;"><img alt="" src=images/TBHS2-30-draft.JPG  style="width   *200px;">
 
 ### Finitions
 
--   Enfoncez le bouton \"Ctrl **CTRL** sélectionnez les faces supérieures et inférieures.
+-   En maintenant **CTRL**, vous sélectionnez les faces inférieure et supérieure.
 
 <img alt="" src=images/TBHS2-31-bottom.JPG  style="width   *200px;"><img alt="" src=images/TBHS2-31-top.JPG  style="width   *200px;">
 
--   -   Ajoutez un <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *32px;"> **Chanfrein** de 0,5 mm.
+-   -   Ajoutez un <img alt="" src=images/PartDesign_Chamfer.svg  style="width   *32px;"> **Chanfrein** de 0,5mm.
 
 <img alt="" src=images/TBHS2-31.JPG  style="width   *800px;">
 
 Parfait !
 
-## Exportation en format .STL 
+## Exporter en .STL 
 
--   Voir le premier exemple.
+-   Dans la vue combinée de gauche, sélectionnez la vue arborescente au lieu du menu contextuel des tâches, cliquez sur la dernière caractéristique (le chanfrein).
 
 <img alt="" src=images/TBHS2-32.JPG  style="width   *800px;">
 
--   Exportez sous un autre nom ou remplacer le premier s\'il vous convient mieux
--   N\'oubliez pas non plus d\'enregistrer ce nouveau plan en tant que dessin
+-   Vous pouvez maintenant sélectionner \"Exporter\...\" dans le menu Fichier en haut à gauche, et choisir le format de fichier .STL.
+-   Imprimez-la à la place de la première version ou pour la remplacer si elle finit par se casser ;-)
 
 
- {{PartDesign Tools navi}} {{Sketcher Tools navi}} {{Userdocnavi
----
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 

@@ -12,7 +12,7 @@ The Drilling command generates a drilling Operation in the Job.
 <img alt="" src=images/Path_Drilling_Sample.png  style="width   *400px;"> 
 *Above   * Path Drilling operation sample*
 
-## Usage
+## Anwendung
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Path_Drilling.svg" width=16px> [Path Drilling](Path_Drilling.md)** button.
@@ -40,16 +40,16 @@ The Drilling command generates a drilling Operation in the Job.
 5.  In the **Heights** section check, and if required adjust, the **Safe Height** and the **Clearance Height**.
 6.  Press the **OK** button to generate the drilling path(s).
 
-## Notes
+## Hinweise
 
 -   When using edges for Base Geometry, always select the bottom edge of the hole.
 -   Always verify the tool chosen is the correct diameter for the hole(s) selected.
 -   **Peck disabled** generates (G81 canned drill cycles). **Peck enabled** generates (G83 canned drill cycles).
 -   **Dwell enabled** is currently unsupported, but is intended to generate (G82 canned drill cycles).
 
-## Properties
+## Eigenschaften
 
-\'\'\' *Note* \'\'\'   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
+***Note***   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
 
 {{TitleProperty|Base}}
@@ -156,7 +156,7 @@ Note   * It is suggested that you do not edit the Placement property of path ope
 -
 -    **Enable Rotation**   * Enable rotation to gain access to holes not normal to Z axis.
 
--    **Inverse Angle**   * Inverse the angle of the rotation. \'\' **Example   *** change a rotation from -22.5 to 22.5 degrees.\'\'
+-    **Inverse Angle**   * Inverse the angle of the rotation. ***Example   *** change a rotation from -22.5 to 22.5 degrees.*
 
 -    **Reverse Direction**   * Reverse orientation of Operation by 180 degrees.
 
@@ -198,14 +198,14 @@ This section is simply a layout map of the settings in the window editor for the
 -   **Dwell Time**   *
 -   **Use Tip Length**   *
 
-## Scripting
+## Skripten
 
 
 **See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Example   *
+Beispiel   *
 
 
 ```python

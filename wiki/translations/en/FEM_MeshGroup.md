@@ -31,7 +31,7 @@ FEM MeshGroup therefore enables FreeCAD to be used with external solvers (or vie
 6.  Double-click on the `FEMMeshGMSH` parent object in your Model Tree and press **Apply** to force a mesh recalculation / relabeling.
 7.  Close the task.
 
-### Notes
+## Notes
 
 -   After the mesh has been created you can change the label property using the [property editor](Property_editor.md).
 -   After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)

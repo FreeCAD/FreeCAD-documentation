@@ -3,7 +3,7 @@
    Name   *Sketcher Circles
    Name/fr   *Sketcher Cercles
    Icon   *Sketcher_CompCreateCircle.png
-   MenuLocation   *Barre d'outils seulement
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
 ---
 

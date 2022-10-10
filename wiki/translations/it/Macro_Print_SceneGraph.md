@@ -17,9 +17,9 @@ Questa macro attraversa SceneGraph e stampa tutti i nodi e i relativi campi nell
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Print_SceneGraph.png )
+Icona barra strumenti ![](images/Macro_Print_SceneGraph.png )
 
-**Macro\_Print\_SceneGraph.FCMacro**
+**Macro_Print_SceneGraph.FCMacro**
 
 
 {{MacroCode|code=

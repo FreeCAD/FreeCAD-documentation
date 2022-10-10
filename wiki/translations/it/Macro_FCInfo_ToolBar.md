@@ -1,4 +1,7 @@
 # Macro FCInfo ToolBar/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro
 |Name=Macro FCCInfo ToolBar
 |Icon=FCInfoToolBar.png
@@ -11,6 +14,9 @@
 |SeeAlso = [Arch Survey](Arch_Survey/it.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo/it.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass/it.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
 }}
 
+
+</div>
+
 ## Descrizione
 
 Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume \... in diverse unità (metriche e imperiali) in una barra degli strumenti. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
@@ -18,12 +24,12 @@ Fornisce informazioni sulla forma selezionata e può visualizzare una conversion
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
 
-![FCInfo\_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
+![FCInfo_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
 
 ## Usare
 
-Dopo aver eseguito la macro, andare a Menu → Strumenti → Modifica parametri \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo\_ToolBar
+Dopo aver eseguito la macro, andare a Menu → Strumenti → Modifica parametri \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar
 
 e aggiungere le informazioni da visualizzare.
 
@@ -33,112 +39,118 @@ Usate il pulsante reset dopo aver cambiato un\'opzione nella finestra dei parame
 
 L\'unità delle dimensione può essere selezionata   * km, hm, dam, m, dm, cm, mm, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
-![FCInfo\_ToolBar the info toolTip](images/Macro_FCInfo_ToolBar_01.png ) 
+![FCInfo_ToolBar the info toolTip](images/Macro_FCInfo_ToolBar_01.png ) 
 *FCInfo_ToolBar the info toolTip*
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 Le opzioni si trovano nel parametro di FreeCAD
 
-*Menu → Strumenti → Modifica parametri \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo\_ToolBar*
 
--   ***switch\_User\_ToolbarIconSize***
+</div>
+
+*Menu → Strumenti → Modifica parametri \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar*
+
+-   ***switch_User_ToolbarIconSize***
     -   se = `False`   * l\'icona della barra degli strumenti rispetta il valore di FreeCAD per la dimensione dell\'icona
-    -   se = `True`   * l\'icona prende i valori della variabile **seT\_User\_sizeIconX** e **seT\_User\_sizeIconY**
+    -   se = `True`   * l\'icona prende i valori della variabile **seT_User_sizeIconX** e **seT_User_sizeIconY**
 
--   ***seT\_User\_sizeIconX***
+-   ***seT_User_sizeIconX***
     -   imposta il valore X dell\'icona
 
--   ***seT\_User\_sizeIconY***
+-   ***seT_User_sizeIconY***
     -   imposta il valore Y dell\'icona
 
--   ***seT\_User\_setFixed\_Tool\_Bar\_Width***
+-   ***seT_User_setFixed_Tool_Bar_Width***
     -   imposta la lungunese del ToolBar
 
--   ***seT\_User\_setFixed\_Tool\_Bar\_Height***
+-   ***seT_User_setFixed_Tool_Bar_Height***
     -   imposta la altessa del ToolBar
 
--   ***switch\_User\_Work\_With\_Preselection***
+-   ***switch_User_Work_With_Preselection***
     -   Lavora con la preselezione, i dati sono calcolate in tempo reale
 
--   ***seT\_User\_StyleSheetColorToolBar***
-    -   imposta il colore della barra degli strumenti in formato HTML esempio   * **\#F8E6E0**\'.
+-   ***seT_User_StyleSheetColorToolBar***
+    -   imposta il colore della barra degli strumenti in formato HTML esempio   * **#F8E6E0**\'.
     -   se il valore è **0**\' la barra degli strumenti prende il colore del sistema
 
--   ***seT\_User\_DecimalValue***
+-   ***seT_User_DecimalValue***
     -   dare il numero di decimali del numero (Default **2**)
 
--   ***seT\_User\_TextHeigthValue***
+-   ***seT_User_TextHeigthValue***
     -   dare l\'altezza del testo della barra degli strumenti
 
--   ***switch\_User\_Display\_objectName***
+-   ***switch_User_Display_objectName***
     -   visualizza il Nome ()
 
--   ***switch\_User\_Display\_SubElementName***
+-   ***switch_User_Display_SubElementName***
     -   visualizza il nome del sotto-elemento ()
 
--   ***switch\_User\_Display\_ShapeType***
+-   ***switch_User_Display_ShapeType***
     -   visualizzare il Shape type (TyS   *)
 
--   ***switch\_User\_Display\_TypeId***
+-   ***switch_User_Display_TypeId***
     -   visualizzare il TypeId (TyI   *)
 
--   ***switch\_User\_Display\_RadiusObject***
+-   ***switch_User_Display_RadiusObject***
     -   visualizzare il raggio e il diametro (r   *) \[D   *]
 
--   ***switch\_User\_Display\_LengthObject***
+-   ***switch_User_Display_LengthObject***
     -   Visualizza la lunghezza del bordo selezionato o il perimetro della faccia selezionata
         -   (L   *) visualizza la lunghezza del filo, linea, bordo selezionato
         -   (P   *) visualizza il perimetro della fascia selezionata
 
--   ***switch\_User\_Display\_SommeAllEdgesObject***
+-   ***switch_User_Display_SommeAllEdgesObject***
     -   visualizza la lunghezza totale dei bordi (edges) di l\'obietto selezionato (Se   *)
 
--   ***switch\_User\_Display\_NumberFacesMesh***
+-   ***switch_User_Display_NumberFacesMesh***
     -   visualizza il numero di facce dell\'oggetto Mesh (Nf   *)
 
--   ***switch\_User\_Display\_NumberPointsMeshPoints***
+-   ***switch_User_Display_NumberPointsMeshPoints***
     -   visualizza il numero di punti dell\'oggetto Mesh (Np   *)
 
--   ***switch\_User\_Display\_NumberEdgesMesh***
+-   ***switch_User_Display_NumberEdgesMesh***
     -   visualizza il numero di bordi dell\'oggetto Mesh (Ne   *)
 
--   ***switch\_User\_Display\_AreaObject***
+-   ***switch_User_Display_AreaObject***
     -   visualizza la superficie dell\'oggetto (A   *)
 
--   ***switch\_User\_Display\_AreaSubObject***
+-   ***switch_User_Display_AreaSubObject***
     -   visualizza la superficie della faccia selezionata (Af   *)
 
--   ***switch\_User\_Display\_VolumeObject***
+-   ***switch_User_Display_VolumeObject***
     -   visualizza il volume dell\'oggetto (V   *)
 
--   ***switch\_User\_Display\_BsplineObject***
+-   ***switch_User_Display_BsplineObject***
     -   visualizza il numero di nodi della Bspline selezionata
         -   (BSpline) visualizza i nodi del BSpline
         -   (BSrA) BSPline raggio approximativo del primo raggio del BSpline
         -   (BSS) BSPline Points Shape numero di punti del BSPline (caso Shape)
         -   (BSc) BSPline Points Sub Obbietto numero di punti del sub obbietto selezionato (case Edge)
 
--   ***switch\_User\_Display\_CentreObject***
+-   ***switch_User_Display_CentreObject***
     -   visualizza il centro del cerchio (se viene rilevato un cerchio) o dell\'oggetto selezionato (Ce   *)
 
--   ***switch\_User\_Display\_CentreBoundBoxObject***
+-   ***switch_User_Display_CentreBoundBoxObject***
     -   visualizza il centro del boundingBox dell\'oggetto (BBCe   *)
 
--   ***switch\_User\_Display\_Position***
+-   ***switch_User_Display_Position***
     -   visualizza le coordinate del punto puntato dal mouse (Pos   *)
 
--   ***switch\_User\_NotInfoOnBeginning***
+-   ***switch_User_NotInfoOnBeginning***
     -   se è `False` l\'informazione (questa informazione) viene visualizzata
     -   se è `True` l\'informazione non viene visualizzata
 
--   ***seT\_User\_UnitSymbolSquare***
+-   ***seT_User_UnitSymbolSquare***
     -   dare il simbolo quadrato (Predefinito **2**)
 
--   ***seT\_User\_UnitSymbolCube***
+-   ***seT_User_UnitSymbolCube***
     -   datare il simbolo del cubo (Predefinito **3**)
 
--   ***seT\_User\_UnitSymbolMicro***
+-   ***seT_User_UnitSymbolMicro***
     -   dare il simbolo micro (Predefinito **u**)
 
 ## Per l\'esecuzione automatica 
@@ -147,7 +159,7 @@ Le opzioni si trovano nel parametro di FreeCAD
 
 Nella tua scorciatoia *verifica il tuo percorso giusto*.
 
-\"Percorso\_completo\_di\_FreeCAD\" \"Percorso\_completo\_della\_macro.FCMacro\"
+\"Percorso_completo_di_FreeCAD\" \"Percorso_completo_della_macro.FCMacro\"
 
 esempio   *
 
@@ -158,11 +170,17 @@ esempio   *
 
 #### nella directory Mod 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Dopo aver installato la macro con AddonManager
-2.  Creare la directory *FCInfo\_ToolBar*.
-3.  Copiare la macro FCInfo\_ToolBar.FCMacro (copiare non spostare) nella directory *FCInfo\_ToolBar* e rinominarla in FCInfo\_ToolBar.py
+2.  Creare la directory *FCInfo_ToolBar*.
+3.  Copiare la macro FCInfo_ToolBar.FCMacro (copiare non spostare) nella directory *FCInfo_ToolBar* e rinominarla in FCInfo_ToolBar.py
 4.  Creare un file chiamato InitGui.py
 5.  Incolla il codice in InitGui.py   *
+
+
+</div>
 
 
 ```python
@@ -191,7 +209,7 @@ if switch_User_NotRunAuto == False   *
 
 1.  salvare il file
 2.  eseguire FreeCAD
-3.  se la macro non viene eseguita (normale) eseguire la macro FCInfo\_ToolBar.FCMacro come una normale macro
+3.  se la macro non viene eseguita (normale) eseguire la macro FCInfo_ToolBar.FCMacro come una normale macro
 4.  al prossimo avvio di FreeCAD la macro deve partire automaticamente
 
 enjoy

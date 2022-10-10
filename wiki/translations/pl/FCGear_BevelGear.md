@@ -1,14 +1,14 @@
 ---
 - GuiCommand   *
    Name   *FCGear BevelGear
-   MenuLocation   *FCGear → Create a Bevel gear
+   MenuLocation   *Gear → Bevel Gear
    Workbenches   *[FCGear](FCGear_Workbench.md)
    Version   *v0.16
 ---
 
 # FCGear BevelGear/pl
 
-## Description
+## Opis
 
 Partly because of the noise they generate, bevel gears are not used as often as other types of gear. But they are still used in certain sectors, such as food packaging and canned food, lawn and garden equipment, machines such as drills and mills, compression systems for the gas and oil market and flow control valves.
 
@@ -19,55 +19,67 @@ Spiral bevel gears have curved teeth to provide softer engagement and greater to
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Invoke the command several way   *
-    -   Press the <img alt="" src=images/FCGear_BevelGear.svg  style="width   *22px;"> [Create a Bevel gear](FCGear_BevelGear.md) button in the tool bar.
-    -   Using the **Menu → Bevel gear**.
-3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
+1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [FCGear Workbench](FCGear_Workbench.md).
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/FCGear_BevelGear.svg style="width   *16px"> [Bevel Gear](FCGear_BevelGear.md)** button in the toolbar.
+    -   Select the **Gear → [<img src=images/FCGear_BevelGear.svg style="width   *16px"> Bevel Gear** option from the menu.
+3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
 ## Properties
+
+An FCGear BevelGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|base}}
 
--    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
+-    **height|Length**   * Default is {{Value|5}}. Value for the bevel gear width.
 
--    **Label**   * User name of the object in the [Tree view](Tree_view.md).
+-    **module|Length**   * Default is {{Value|1}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+
+-    **reset_origin|Bool**   * If {{True}} (default) the center of the axis is at the center of the bottom of the gear (see [Notes](#Notes.md)).
+
+-    **teeth|Integer**   * Default is {{Value|15}}. Number of teeth.
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|computed}}
 
--    **beta**   * With the angle β a helical bevel gear is created (positive value → rotation direction right, negative value → rotation direction left).
+-    **angular_backlash|Angle**   * (read-only)
+
+-    **dw|Length**   * (read-only) Working pitch diameter.
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|helical}}
 
--    **backslash**   * Default is 0,00. Backlash, also called lash or play, is the distance between the teeths at a gear pair.
+-    **beta|Angle**   * Default is {{Value|0 °}}. With the helix angle β a helical bevel gear is created -- positive value → rotation direction right, negative value → rotation direction left.
 
--    **clearance**   * Default is 0,10 (see also the information in **Note**).
 
--    **height**   * Value for the bevel gear width.
+{{Properties_Title|involute}}
 
--    **m**   * Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Note**).
-
--    **numpoints**   * Default is 6, change of the involute profile. Changing the value can lead to unexpected results.
-
--    **reset_origin**   * If the value is **True**, the center of the axis is at the center of the bottom of the gear (see also the information in **Note**).
-
--    **teeth**   * Number of teeth.
+-    **pitch_angle|Angle**   * Default is {{Value|45 °}}. Angle of taper.
 
 
 {{Properties_Title|involute_parameter}}
 
--    **pitch_angle**   * Angle of taper.
+-    **pressure_angle|Angle**   * Default is {{Value|20 °}} (see [Notes](#Notes.md)).
 
--    **pressure_parameter**   * Default is 20 (see also the information in **Note**).
 
-### View
+{{Properties_Title|precision}}
 
-The parameter descriptions of the **View** tab will be found in [Property editor](Property_editor.md), further below at **Example of the properties of a PartDesign object**.
+-    **numpoints|Integer**   * Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
+
+
+{{Properties_Title|tolerance}}
+
+-    **backlash|Length**   * Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
+
+-    **clearance|Float**   * Default is {{Value|0.1}} (see [Notes](#Notes.md)).
+
+
+{{Properties_Title|version}}
+
+-    **version|String**   *
 
 ## Notes
 

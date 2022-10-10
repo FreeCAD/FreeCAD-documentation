@@ -29,7 +29,13 @@ Klickt man auf die Schaltfläche und es ist eine Fläche (vor-)ausgewählt, wird
 
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 Die Skizze kann mit dem Befehl [SkizzeZuordnen](Sketcher_MapSketch/de.md) jederzeit einer anderen Fläche zugeordnet werden.
+
+
+</div>
 
 Die Skizze kann in der [3D-Ansicht](3D_view/de.md) mittels [Positionierung](Placement/de.md) verschoben werden.
 

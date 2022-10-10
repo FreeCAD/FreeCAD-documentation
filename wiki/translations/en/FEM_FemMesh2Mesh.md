@@ -19,7 +19,7 @@ Two dimensional elements from the FEM mesh are not taken into account. If you ne
 1.  Select a FEM mesh object.
 2.  Optionally also select the FEM results.
 3.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [FEM FemMesh2Mesh](FEM_FemMesh2Mesh.md)** button.
+    -   Press the **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [FEM mesh to mesh](FEM_FemMesh2Mesh.md)** button.
     -   Select the **Mesh → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> FEM mesh to mesh** option from the menu.
 
 ## Scripting
@@ -38,7 +38,7 @@ Mesh.show(Mesh.Mesh(out_mesh))
 
 ## Converting 2D elements 
 
-Select a mesh and run the following python script
+Select a mesh and run the following Python script   *
 
 
 ```python

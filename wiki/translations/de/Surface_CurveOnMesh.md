@@ -1,8 +1,9 @@
 ---
-- GuiCommand   *
+- GuiCommand   */de
    Name   *Surface CurveOnMesh
+   Name/de   *Surface KurveAufNetz
    MenuLocation   *Surface → Curve on mesh
-   Workbenches   *[Surface](Surface_Workbench.md)|
+   Workbenches   *[Surface](Surface_Workbench/de.md)|
    Version   *0.17
 ---
 
@@ -11,13 +12,13 @@
 ## Beschreibung
 
 
-**[<img src=images/Surface_CurveOnMesh.svg style="width   *16px"> [Surface CurveOnMesh](Surface_CurveOnMesh.md)**
+**[<img src=images/Surface_CurveOnMesh.svg style="width   *16px"> [Surface KurveAufNetz](Surface_CurveOnMesh.md)**
 
-creates approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
+erstellt angenäherte Spline-Abschnitte auf der Oberfläche eines ausgewählten [Netzes](Mesh_Workbench/de.md).
 
-If the object is not a [Mesh](Mesh.md), but a parametric [Shape](Shape.md) or surface, it must be converted first to a mesh using **[<img src=images/Mesh_FromPartShape.svg style="width   *16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)**.
+Ist das Objekt kein [Netzsondern](Mesh/de.md) eine parametrische [Form](Shape/de.md) oder Fläche, muss es als erstes mit **[<img src=images/Mesh_FromPartShape.svg style="width   *16px"> [Mesh AusPartForm](Mesh_FromPartShape/.md)** in ein Netz konvertiert werden.
 
-These edges created on top of the mesh may be further used to re-create the surface in a parametric way by using tools such as **[<img src=images/Surface_GeomFillSurface.svg style="width   *16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** and **[<img src=images/Surface_Sections.svg style="width   *16px"> [Sections](Surface_Sections.md)**.
+Diese auf der Oberfläche des Netzes erstellten Kanten können später genuzt werden, um die Oberfläche parametrisch nachzubauen mit Werkzeugen wie **[<img src=images/Surface_GeomFillSurface.svg style="width   *16px"> [GeomFüllfläche](Surface_GeomFillSurface/de.md)** und **[<img src=images/Surface_Sections.svg style="width   *16px"> [Querschnitte](Surface_Sections/de.md)**.
 
 ![](images/Surface_CurveOnMesh_mesh_example.png ) ![](images/Surface_CurveOnMesh_example.png )
 

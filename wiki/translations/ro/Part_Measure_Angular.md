@@ -10,6 +10,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -20,7 +22,9 @@ Acest instrument măsoară unghiul între două muchii drepte , două fațete pl
 
 </div>
 
-![](images/MeasureAngular1.PNG )
+The appearance of the measurements can be changed in the [preferences](PartDesign_Preferences#Measure.md).
+
+<img alt="" src=images/MeasureAngular1.PNG  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -40,6 +44,12 @@ Acest instrument măsoară unghiul între două muchii drepte , două fațete pl
 
 
 </div>
+
+## Notes
+
+-   You cannot use the [Draft](Draft_Workbench.md) snap tools with this command.
+-   To add dimensions to drawings use the dimension tools from the [TechDraw Workbench](TechDraw_Workbench.md).
+-   For more comprehensive measuring tools, install the <img alt="" src=images/Manipulator_workbench_icon.svg  style="width   *24px;"> [Manipulator Workbench](Manipulator_Workbench.md) (an [external workbench](External_workbenches.md)).
 
 
 

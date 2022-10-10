@@ -17,6 +17,9 @@
 
 ## Plan de lucru 
 
+
+<div class="mw-translate-fuzzy">
+
 Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
 
 -   Preprocesare, setting up the analysis problem.
@@ -27,6 +30,9 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
         -   Adăugați un material la modelul de analiză
 -   Rezolvarea   * Rezolvați sistemul de ecuații din cadrul GUI-ului FreeCAD.
 -   Postprocesare   * Vezi rezultatele din FreeCAD GUI.
+
+
+</div>
 
 Începând cu versiunea 0.15 a FreeCAD, Atelierul AEF poate fi folosit pe platforme Windows, Mac OSX și Linux. Deoarece Atelierul AEF folosește software extern, cantitatea de intervenție manuală până când Atelierul AEF este gata de utilizare va depinde de sistemul de operare pe care îl utilizați. Verificați [ FEM Install](FEM_Install.md) page for instructions on setting up the external tools.
 
@@ -86,7 +92,15 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
 
 ### Fluid constraints 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-constraint-initial-flow-velocity.svg  style="width   *32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)   *
+
+
+</div>
+
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md)   * Used to define an initial pressure for the body. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width   *32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md)   *
 
@@ -146,7 +160,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
 
 ### Overwrite Constants 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)   * <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)   * Used to overwrite the [permittivity of vacuum](https   *//en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value. <small>(v0.19)</small> 
 
 ## Meniu plase/Mesh 
 
@@ -200,17 +214,47 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-equation-elasticity.svg  style="width   *32px;"> [Equation elasticity](FEM_EquationElasticity.md)   *
 
--   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Electricforce equation](FEM_EquationElectricforce.md)   * <small>(v0.19)</small> 
+
+</div>
+
+-   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width   *32px;"> [Electricforce equation](FEM_EquationElectricforce.md)   * Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate the electric force on surfaces. <small>(v0.19)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fem-equation-electrostatic.svg  style="width   *32px;"> [Equation electrostatic](FEM_EquationElectrostatic.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-equation-flow.svg  style="width   *32px;"> [Equation flow](FEM_EquationFlow.md)   *
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_EquationFlux.svg  style="width   *32px;"> [Equation fluxsolver](FEM_EquationFlux.md)   *
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-equation-heat.svg  style="width   *32px;"> [Equation heat](FEM_EquationHeat.md)   *
+
+
+</div>
 
 -   <img alt="" src=images/Fem-control-solver.svg  style="width   *32px;"> [Solver job control](FEM_SolverControl/ro.md)   * Deschide meniul pentru a ajusta și porni rezolvitorul selectat.
 
@@ -302,6 +346,10 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt   *
 
 </div>
 
+   ** <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md)   * Defines that the result mesh is cut with a plane.
+
+   ** <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md)   * Defines that the result mesh is cut with a sphere.
+
 ## Meniu   * Utilități 
 
 
@@ -368,7 +416,7 @@ Tutorial 4 [FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md)
 
 Tutorial 5   * [Transient FEM analysis](Transient_FEM_analysis.md)
 
-Tutorial 6   * [Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)
+Tutorial 6   * [Post-Processing of FEM Results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)
 
 Tutorial 7   * [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md); Elmer\'s GUI tutorial 6 \"Electrostatics Capacitance Two Balls\" using FEM Examples.
 

@@ -22,19 +22,30 @@ This tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Wor
 
 ## Свойства
 
--    **Source**   * The spreadsheet to be added to the page
+See also [TechDraw View](TechDraw_View#Properties.md).
 
--    **Cell Start**   * The top left cell of the cells range to be included in this view
+### Data
 
--    **Cell End**   * The bottom right cell of the cells range to be included in this view
 
--    **Font**   * The name of the font used for texts
+{{TitleProperty|Spreadsheet}}
 
--    **Color**   * The color of lines and texts that have no color specified in the spreadsheet
+-    **Source|Link**   * The spreadsheet to be added to the page.
 
--    **Font Size**   * The font size of texts
+-    **Cell Start|String**   * The top left cell of the cell range to be included in this view.
 
--    **Line Width**   * The width of the cell borders
+-    **Cell End|String**   * The bottom right cell of the cell range to be included in this view.
+
+-    **Font|Font**   * The name of the font used for texts.
+
+-    **Text Color|Color**   * The color of texts and lines that have no color specified in the spreadsheet.
+
+-    **Text Size|Float**   * The font size of texts.
+
+-    **Line Width|Float**   * The width of the cell borders.
+
+## Notes
+
+-   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are   * {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https   *//forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
 
 
 <div class="mw-translate-fuzzy">

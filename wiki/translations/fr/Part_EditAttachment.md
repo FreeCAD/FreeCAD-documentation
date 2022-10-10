@@ -19,7 +19,7 @@
 1.  Sélectionnez l\'objet à ancrer.
 2.  Allez dans le menu **Part → Ancrage\...**.
 
-       *   **Remarque**   * lorsque vous travaillez dans [PartDesign](PartDesign_Workbench/fr.md) et que vous créez des esquisses, des géométries de référence ou des primitives, les étapes 1 et 2 sont inutiles   * la boite de dialogue Ancrage est automatiquement activé.
+       *   **Remarque**   * lorsque vous travaillez dans [PartDesign](PartDesign_Workbench/fr.md) et que vous créez des esquisses, des géométries de référence ou des primitives, les étapes 1 et 2 sont inutiles   * la boite de dialogue Ancrage est automatiquement activée.
 3.  Sous les paramètres **Ancrage**, *Non ancré* peut être lu. Le premier bouton est **Sélection...** pour indiquer qu\'il attend une sélection dans la vue 3D.
 4.  Sélectionnez un élément de topologie sur l\'objet auquel ancrer   * sommet, arête ou face/plan. La géométrie de référence à partir de [Part Conteneurs](Std_Part/fr.md) est également sélectionnable.
 5.  L\'étiquette du premier bouton adopte maintenant le type de topologie sélectionné. Dans le champ blanc à sa droite, l\'objet référencé et son élément sont ajoutés. Par exemple, si une face sur un cube primitif est sélectionnée, le champ affiche Box   *Face6.
@@ -215,7 +215,7 @@ Le plan est défini sur les axes tangente-binormale (TB) du [Système de Coordon
 
 #### Concentrique
 
-S\'aligne sur le plan au cercle oscillant d\'une arête. Un lien sommet optionnel définit l\'endroit.
+S\'aligne sur le plan au cercle osculateur d\'une arête. Un lien sommet optionnel définit l\'endroit.
 
    *; Combinaisons de référence   *
 
@@ -228,7 +228,7 @@ S\'aligne sur le plan au cercle oscillant d\'une arête. Un lien sommet optionne
 
 #### Section de révolution 
 
-Le plan est perpendiculaire à l\'arête et l\'axe Y correspond à l\'axe du cercle oscillant. Un lien sommet optionnel définit l\'endroit.
+Le plan est perpendiculaire à l\'arête et l\'axe Y correspond à l\'axe du cercle osculateur. Un lien sommet optionnel définit l\'endroit.
 
    *; Combinaisons de référence   *
 

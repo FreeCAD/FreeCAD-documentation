@@ -1,60 +1,27 @@
 # Introduction to Python/it
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Macro](Macros/it.md)|[Guida agli script Python](Python_scripting_tutorial/it.md)}}
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Introduzione
 
-Questo è un breve tutorial per quelli nuovi di [Python](https   *//it.wikipedia.org/wiki/Python). Python è un [Linguaggio di programmazione](https   *//it.wikipedia.org/wiki/Linguaggio_di_programmazione) sorgente-aperto e multipiattaforma . Ha diverse caratteristiche che lo rendono diverso dagli altri linguaggi di programmazione, e molto accessibile ai nuovi utenti   *
+Quello che segue è un breve tutorial per chi non conosce [Python](https   *//it.wikipedia.org/wiki/Python). Python è un [Linguaggio di programmazione](https   *//it.wikipedia.org/wiki/Linguaggio_di_programmazione) open source e multipiattaforma . Ha diverse caratteristiche, che lo rendono diverso dagli altri linguaggi di programmazione, ed è facilmente accessibile ai nuovi utenti   *
 
+-   È stato progettato per essere leggibile dagli esseri umani, rendendolo relativamente facile da imparare e da capire.
+-   Viene interpretato, questo significa che i programmi non devono essere compilati prima di poter essere eseguiti. Il codice Python può essere eseguito immediatamente, anche riga per riga, se si desidera.
+-   Può essere incorporato in altri programmi come linguaggio di scripting. FreeCAD ha un interprete Python incorporato. Si può scrivere codice Python per manipolare parti di FreeCAD. Questa funzionalità è molto potente e comporta che puoi costruire i tuoi strumenti personalizzati.
+-   È estensibile, si può facilmente inserire nuovi moduli nella tua installazione di Python ed estenderne la funzionalità. Ad esempio, ci sono moduli che consentono a Python di leggere e scrivere immagini, di comunicare con Twitter, di pianificare attività che devono essere eseguite dal tuo sistema operativo, ecc.
 
-<div class="mw-translate-fuzzy">
-
--   È stato progettato appositamente per essere letto facilmente dalle persone, quindi è molto facile da imparare e da capire.
--   È interpretato, ciò significa che, a differenza dei linguaggi compilati come il C, non è necessario compilare il programma prima di poterlo eseguire. Quando si desidera, il codice che si scrive può essere eseguito immediatamente, riga dopo riga. Siccome si procede gradualmente, passo dopo passo, è facile impararlo e trovare gli eventuali errori nel codice.
--   Può essere incorporato in altri programmi per essere usato come linguaggio di script. FreeCAD ha un interprete Python integrato, così, in FreeCAD, è possibile scrivere dei codici Python che manipolano parti di FreeCAD, ad esempio per creare la geometria. Questo è estremamente performante, perché invece di premere semplicemente un pulsante denominato \"Crea sfera\", che un programmatore ha messo a disposizione, si ha la libertà di creare facilmente dei propri strumenti per produrre una particolare geometria desiderata.
--   È estensibile. Si possono inserire facilmente dei nuovi moduli nella propria installazione di Python ed estenderne le funzionalità. Ad esempio, esistono moduli Python che permettono di leggere e scrivere le immagini jpg, di comunicare con Twitter, di programmare le operazioni del proprio sistema operativo, ecc.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ora, mettiamoci al lavoro! Ricordare che ciò che verrà dopo è solamente una semplice introduzione e non un tutorial completo. Ma la speranza è che dopo si avranno basi sufficienti per esplorare più in profondità i meccanismi di FreeCAD.
-
-
-</div>
+Quella che segue è un\'introduzione molto semplice e non un tutorial completo. Ma si spera che fornisca un buon punto di partenza per un\'ulteriore esplorazione di FreeCAD e dei suoi meccanismi. Si consiglia vivamente di inserire i seguenti frammenti di codice in un interprete Python.
 
 ## L\'interprete
 
+Di solito, per scrivere programmi per computer, basta aprire un editor di testo (o l\'ambiente di programmazione preferito che di base è un editor di testo con alcuni strumenti aggiuntivi), scrivere il programma, quindi compilarlo ed eseguirlo. Spesso si fanno degli errori di scrittura, per cui il programma non funziona, e si ottiene un messaggio di errore che dà informazioni su cosa è andato storto. Quindi si ritorna all\'editor di testo, si correggono gli errori, si esegue di nuovo, e così via fino a quando il programma funziona bene.
 
-<div class="mw-translate-fuzzy">
-
-Di solito, per scrivere programmi per computer, basta aprire un editor di testo (o l\'ambiente di programmazione preferito che, in genere, è un editor di testo con strumenti aggiuntivi), scrivere il programma, quindi compilarlo ed eseguirlo. Il più delle volte si fanno degli errori di scrittura, per cui il programma non funziona, e si ottiene un messaggio di errore che dà informazioni su cosa è andato storto. Quindi si ritorna all\'editor di testo, si correggono gli errori, si esegue di nuovo, e così via fino a quando il programma funziona bene.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-In Python, l\'intero processo, può essere eseguito in modo trasparente all\'interno del suo interprete. L\'interprete Python è una finestra con un prompt dei comandi, dove si può digitare direttamente il codice Python. Se si installa Python sul ​​proprio computer (scaricarlo dal [sito web di Python](http   *//www.python.org) se lavorate su Windows o Mac, installarlo dal repository dei pacchetti se utilizzate GNU/Linux), si avrà un interprete Python nel menu di avvio. FreeCAD dispone di un proprio interprete Python visualizzato nella sua finestra inferiore   *
-
-
-</div>
+In Python l\'intero processo può essere eseguito in modo trasparente all\'interno dell\'interprete Python. L\'interprete è una finestra Python con un prompt dei comandi, in cui puoi semplicemente digitare il codice Python. Se hai installato Python sul tuo computer (scaricalo dal [sito Web Python](https   *//www.python.org/) se sei su Windows o Mac, installalo dal repository del tuo pacchetto se sei su GNU/Linux), avrai un interprete Python nel tuo menu di avvio. Ma, come già accennato, FreeCAD ha anche un interprete Python integrato   * la [Console Python](Python_console/it.md).
 
 ![](images/FreeCAD_Python_console.png ) 
 *La console di FreeCAD Python*
 
-Se non la vedi, clicca su **Vista → Pannelli → Console Python**. La console Python può essere ridimensionata e anche sganciata.
+Se non la vedi, clicca su **Visualizza → Pannelli → Console Python**. La console Python può essere ridimensionata e anche sganciata.
 
 L\'interprete mostra la versione di Python, poi un simbolo `>>>` che è il prompt dei comandi. Scrivere codice nell\'interprete è semplice   * una linea è un\'istruzione. Quando premete **Invio**, la vostra linea di codice verrà eseguita (dopo essere stata istantaneamente e invisibilmente compilata). Per esempio, provate a scrivere questo   *
 
@@ -82,34 +49,13 @@ L\'interprete Python ha anche un sistema di aiuto integrato. Diciamo che non cap
 help("print")
 ```
 
+Si ottiene una lunga e completa descrizione di tutto quello che può fare il comando `print()`.
 
-<div class="mw-translate-fuzzy">
-
-Si ottiene una lunga e completa descrizione di tutto quello che può fare il comando print.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ora che si ha il controllo totale dell\'interprete, si può cominciare con le cose significative.
-
-
-</div>
-
-
-{{Top}}
+Ora che si è capito cos\'è l\'interprete Python, possiamo continuare con le cose più serie. {{Top}}
 
 ## Variabili
 
-
-<div class="mw-translate-fuzzy">
-
-Naturalmente, stampare \"ciao\" non è molto interessante. Più interessante è stampare cose che non si conoscono prima, o lasciare che Python le trovi per noi. Qui entra in gioco il concetto di variabile. Una variabile è semplicemente un valore che viene memorizzato con un nome specifico. Ad esempio, digitare questo   *
-
-
-</div>
+Molto spesso nella programmazione è necessario memorizzare un valore sotto un nome. È qui che entrano in gioco le variabili. Ad esempio, digita questo   *
 
 
 ```python
@@ -117,13 +63,7 @@ a = "hello"
 print(a)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Sicuramente si capisce quello che succede, la stringa \"ciao\" viene \"salvata\" sotto il nome \"a\". Ora, \"a\" non è più un nome sconosciuto! Si può usare ovunque, per esempio nel comando print. È possibile utilizzare qualsiasi nome che si desideri, basta rispettare alcune semplici regole, tipo non usare spazi o segni di punteggiatura. Ad esempio, si potrebbe tranquillamente scrivere   *
-
-
-</div>
 
 
 ```python
@@ -131,13 +71,7 @@ hello = "my own version of hello"
 print(hello)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Visto? ciao ora non è più una parola indefinita. E se, per sfortuna, si sceglie un nome che in Python esiste già? Supponiamo di voler conservare una stringa con il nome \"print\"   *
-
-
-</div>
+Ora `hello` non è più un indefinito. Le variabili possono essere modificate in qualsiasi momento, per questo si chiamano variabili, il loro contenuto può variare. Per esempio   *
 
 
 ```python
@@ -147,13 +81,7 @@ myVariable = "good bye"
 print(myVariable)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Il valore di myVariable è stato cambiato. Le variabili possono anche essere copiate   *
-
-
-</div>
+Il valore di `myVariable` è stato cambiato. Le variabili possono anche essere copiate   *
 
 
 ```python
@@ -162,42 +90,15 @@ var2 = var1
 print(var2)
 ```
 
+È consigliabile assegnare nomi significativi alle variabili. Dopo un po\' ci si ricorderà più cosa rappresenta la variabile denominata `a`. Ma se l\'hai chiamata, ad esempio, `myWelcomeMessage`, ricorderai facilmente il suo scopo. Inoltre, il tuo codice sarà un passo avanti verso l\'autodocumentazione.
 
-<div class="mw-translate-fuzzy">
-
-Notare che è importante dare alle variabili dei nomi descrittivi. Quando si scrivono programmi lunghi, dopo un po\' probabilmente non si ricorda più cosa rappresenta la variabile denominata \"a\". Se invece viene chiamata, ad esempio, MioMessaggioDiBenvenuto, quando la si vede, si capisce facilmente a cosa serve. In più è un passo avanti verso l\'autodocumentazione del proprio codice.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-La differenza tra maiuscole e minuscole è molto importante. myVariable non è uguale a myvariable, la differenza è tra **v** maiuscola e minuscola. Se si inserisce \"print myvariable\", viene restituito un errore non definito.
-
-
-</div>
-
-
-{{Top}}
+Il Maiuscolo o minuscolo è molto importante, `myVariable` non è lo stesso di `myvariable`. Se si dovesse inserire `print(myvariable)`, verrebbe restituito un errore come nome non definito. {{Top}}
 
 ## Numeri
 
+Ovviamente i programmi Python possono gestire tutti i tipi di dati, non solo le stringhe di testo. Una cosa è importante, Python deve sapere con che tipo di dati ha a che fare. Abbiamo visto nel nostro esempio print hello, che il comando `print()` ha riconosciuto la nostra stringa `"hello"`. Utilizzando i caratteri `" "`, abbiamo specificato che quella che segue è una stringa di testo.
 
-<div class="mw-translate-fuzzy">
-
-È noto che la programmazione serve per trattare ogni tipo di dati, non solo le stringhe di testo, ma soprattutto i numeri. È molto importante che Python sappia che tipo di dati deve trattare. Nell\'esempio precedente, con print ciao, si è visto che il comando print ha riconosciuto la nostra stringa \"ciao\". Questo perché utilizzando il segno \", abbiamo specificato al comando print che ciò che seguiva era una stringa di testo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per controllare in qualsiasi momento di quale tipo sono i dati contenuti in una variabile si utilizza la speciale parola chiave di Python type()   *
-
-
-</div>
+Possiamo sempre controllare il tipo di dati di una variabile con il comando `type()`   *
 
 
 ```python
@@ -205,13 +106,7 @@ myVar = "hello"
 type(myVar)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-In questo caso ci dice che il contenuto di myVar è \'str\', ovvero una stringa in gergo Python. Ci sono anche altri tipi di dati, ad esempio i numeri interi (integer) e i numeri in virgola mobile (float numbers)   *
-
-
-</div>
+Questo significa che il contenuto di `myVar` è un `'str'`, che è l\'abbreviazione di string. Esistono anche altri tipi di dati di base come numeri interi e a virgola mobile   *
 
 
 ```python
@@ -221,13 +116,7 @@ print(firstNumber + secondNumber)
 type(firstNumber)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Questo è già molto più interessante, vero? Ora si dispone di una potente calcolatrice! Notare bene come funziona. Python capisce che 10 e 20 sono numeri interi, quindi vengono memorizzati come \"int\", e con essi Python può fare tutte le operazioni consentite con numeri interi. Osservare i risultati di questo codice   *
-
-
-</div>
+Python sa che 10 e 20 sono numeri interi, quindi sono archiviati come `'int'` e Python può fare con loro tutto ciò che può fare con i numeri interi. Osserva i risultati di questo codice   *
 
 
 ```python
@@ -236,13 +125,7 @@ secondNumber = "20"
 print(firstNumber + secondNumber)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Visto? Python è stato indotto a considerare le due variabili non più come numeri, ma come semplici parti di testo. Python può unire insieme due parti di testo, ma con esse non cerca di produrre una somma. Torniamo ai numeri. Oltre ai numeri interi (int) ci sono anche i numeri in virgola mobile (float). I numeri interi non hanno una parte decimale, mentre i numeri float possono avere una parte decimale   *
-
-
-</div>
+Qui abbiamo costretto Python a considerare che le nostre due variabili non sono numeri ma parti di testo. Python può unire due parti di testo insieme, anche se in tal caso, ovviamente, non eseguirà alcuna operazione aritmetica. Ma si stava parlando di numeri interi. Ci sono anche i numeri a virgola mobile. La differenza è che i numeri a virgola mobile possono avere una parte decimale, mentre i numeri interi no   *
 
 
 ```python
@@ -252,13 +135,7 @@ print("var1 is of type ", type(var1))
 print("var2 is of type ", type(var2))
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-I numeri Int e Float possono essere mescolati tra di loro senza problemi   *
-
-
-</div>
+Numeri interi e a virgola mobile possono essere mescolati insieme senza problemi   *
 
 
 ```python
@@ -267,13 +144,7 @@ print(total)
 print(type(total))
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Naturalmente il totale ha dei decimali, vero? Quindi Python ha deciso automaticamente che il risultato è un float. In molti casi, come in questo, Python decide automaticamente il tipo da usare. In altri casi no. Ad esempio con   *
-
-
-</div>
+Poiché `var2` è un numero a virgola mobile, Python decide automaticamente, che anche il risultato deve essere un numero a virgola mobile. Ma ci sono casi in cui Python non sa quale tipo adottare. Per esempio   *
 
 
 ```python
@@ -282,13 +153,7 @@ varB = 456
 print(varA + varB)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Si produce un errore, varA è una stringa e varB è un int, quindi Python non sa cosa fare. Ma possiamo indurre Python a convertire i tipi   *
-
-
-</div>
+Quel codice provoca un errore, `varA` è una stringa e `varB` è un numero intero e Python non sa cosa fare. Tuttavia, possiamo forzare Python a convertire tra tipi   *
 
 
 ```python
@@ -297,26 +162,14 @@ varB = 123
 print(varA + str(varB))
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Ora entrambi sono stringhe, e l\'operazione funziona! Notare che, con questi comandi, varB è convertita in \"stringa\" solo al momento della stampa, però varB originale non viene modificata. Per trasformare varB permanentemente in una stringa, si deve fare   *
-
-
-</div>
+Ora che entrambe le variabili sono stringhe l\'operazione funziona. Nota che abbiamo \"stringificato\" `varB` al momento della stampa, ma non abbiamo modificato `varB` stesso. Se volessimo trasformare `varB` in modo permanente in una stringa, dovremmo farlo in questo modo   *
 
 
 ```python
 varB = str(varB)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Inoltre è possibile usare int() e float() per convertire in int e in float   *
-
-
-</div>
+Possiamo anche usare `int()` e `float()` per convertire tra numeri interi e numeri a virgola mobile se vogliamo   *
 
 
 ```python
@@ -325,13 +178,7 @@ print(int(varA))
 print(float(varA))
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Sicuramente avete notato che in questa sezione il comando di stampa (print) è stato utilizzato in diversi modi. Abbiamo stampato variabili, somme, parti separati da virgole, e anche il risultato di altri comandi Python, ad esempio type(). Forse avete anche notato che questi due comandi,
-
-
-</div>
+Avrai notato che abbiamo usato il comando `print()` in diversi modi. Abbiamo stampato variabili, somme, diverse cose separate da virgole e persino il risultato di un altro comando Python. Forse hai anche notato che questi due comandi   *
 
 
 ```python
@@ -339,13 +186,7 @@ type(varA)
 print(type(varA))
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-producono esattamente lo stesso risultato. Questo succede perché siamo nell\'interprete, dove ogni cosa viene sempre automaticamente stampata sullo schermo. Per velocizzare, d\'ora in avanti si può fare a meno di usarlo e quindi scrivere semplicemente   *
-
-
-</div>
+hanno lo stesso risultato. Questo perché siamo nell\'interprete e tutto viene stampato automaticamente. Quando scriviamo programmi più complessi, che vengono eseguiti al di fuori dell\'interprete, non verranno stampati automaticamente, quindi dovremo usare il comando `print()`. Tenendo questo presente, smetteremo di usarlo. D\'ora in poi scriveremo semplicemente   *
 
 
 ```python
@@ -358,13 +199,7 @@ myVar
 
 ## Liste
 
-
-<div class="mw-translate-fuzzy">
-
-Un altro tipo di dati interessante è una list (lista). Una lista è semplicemente un elenco di altri dati. In modo analogo a come si definisce una stringa di testo usando \" \", una lista si definisce usando \[\]   *
-
-
-</div>
+Un altro tipo di dati utile è la lista. Una lista è una raccolta di altri dati. Per definire una lista utilizziamo `[ ]`   *
 
 
 ```python
@@ -374,26 +209,14 @@ myOtherList = ["Bart", "Frank", "Bob"]
 myMixedList = ["hello", 345, 34.567]
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Come si vede, una lista può contenere dati di qualsiasi tipo. Le liste sono molto utili perché permettono di raggruppare le variabili. Con il gruppo, successivamente, è possibile fare diverse cose, ad esempio contare i suoi componenti   *
-
-
-</div>
+Come puoi notare una lista può contenere qualsiasi tipo di dato. Puoi fare molte cose con una lista. Ad esempio, contare i suoi elementi   *
 
 
 ```python
 len(myOtherList)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-o recuperare un elemento da una lista   *
-
-
-</div>
+o recuperare un elemento   *
 
 
 ```python
@@ -401,21 +224,9 @@ myName = myOtherList[0]
 myFriendsName = myOtherList[1]
 ```
 
+Mentre il comando `len()` restituisce il numero totale di elementi in una lista, il primo elemento in una lista è sempre nella posizione `0`, quindi nella nostra `myOtherList` `"Bob"` sarà nella posizione `2`. Possiamo fare molto di più con le liste, come l\'ordinamento degli elementi e la rimozione o l\'aggiunta di elementi.
 
-<div class="mw-translate-fuzzy">
-
-Come si vede, mentre il comando len() restituisce il numero totale di elementi in una lista, la loro \"posizione\" nella lista inizia con 0. Il primo elemento in una lista si trova sempre in posizione 0, quindi nella lista myOtherList, \"Bob\" è nella posizione 2. Con le liste è possibile eseguire molte altre operazioni, descritte in modo più completo [qui](http   *//diveintopython.org/native_data_types/lists.html), ad esempio, ordinare i suoi contenuti, rimuovere o aggiungere elementi.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Una cosa curiosa   * una stringa di testo è molto simile a una lista di caratteri! Provate a fare questo   *
-
-
-</div>
+È interessante notare che una stringa di testo è molto simile a un elenco di caratteri in Python. Prova a fare questo   *
 
 
 ```python
@@ -424,34 +235,13 @@ len(myvar)
 myvar[2]
 ```
 
+In genere tutto quello che si può fare con le liste si può fare anche con le stringhe. In effetti le liste e le stringhe sono entrambe delle sequenze.
 
-<div class="mw-translate-fuzzy">
-
-In genere, tutto quello che si può fare con le liste si può fare anche con le stringhe. In effetti le liste e le stringhe sono entrambe delle sequenze.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Oltre a stringhe, int, float e liste, in Python sono disponibili molti altri tipi di dati built-in (incorporati), quali ad esempio i [dictionaries](http   *//www.diveintopython.net/native_data_types/index.html#d0e5174) (collezione di oggetti), oppure si possono creare dei propri tipi di dati utilizzando le [classi](http   *//www.freenetpages.co.uk/hp/alan.gauld/tutclass.htm).
-
-
-</div>
-
-
-{{Top}}
+Oltre a stringhe, numeri interi, numeri a virgola mobile e liste, ci sono altri tipi di dati incorporati, come i dizionari, e puoi persino creare i tuoi tipi di dati con le classi. {{Top}}
 
 ## Indentazione
 
-
-<div class="mw-translate-fuzzy">
-
-Un tipico uso della lista consiste nel navigare al suo interno e di operare con i suoi elementi. Per esempio osservare questo   *
-
-
-</div>
+Un uso importante delle liste è la possibilità di \"attraversarle\" e fare qualcosa con ogni loro elemento. Ad esempio, si noti quanto segue   *
 
 
 ```python
@@ -460,39 +250,15 @@ for dalton in alldaltons   *
     print(dalton + " Dalton")
 ```
 
+In questo esempio, la lista viene iterata (nuovo gergo di programmazione!) con il comando `for in` e con ognuno dei suoi elementi viene eseguito qualcosa.
 
-<div class="mw-translate-fuzzy">
+Notare la speciale sintassi. Il comando `for` termina con un `   *` questo indica a Python che ciò che segue è un blocco di uno o più comandi. Subito dopo che viene inserita la riga con il comando che termina con `   *`, il prompt dei comandi cambia in `...` il che significa che Python sa che c\'è dell\'altro in arrivo..
 
-In questo esempio, la lista viene iterata (nuovo gergo di programmazione!) con il comando \"for \... in \...\" e con ognuno dei suoi elementi viene eseguito qualcosa.
+Come fa Python a sapere quante delle prossime righe devono essere eseguite all\'interno dell\'operazione `for in`? Per sapere questo, Python si basa sull\'indentazione. Le righe successive devono iniziare con uno spazio vuoto, o più spazi vuoti, o una tabulazione, o più tabulazioni. E finché l\'indentazione rimane la stessa, le righe saranno considerate parte del blocco `for in`. Se si inizia una riga con 2 spazi e la successiva con 4, darà un errore. Quando si finisce, scrivere un\'altra riga senza indentazione o premere **Enter** per uscire dal blocco `for in`.
 
-Notare la speciale sintassi. Il comando \"for\" termina con un \"   *" questo indica a Python che ciò che segue è un blocco di uno o più comandi. Subito dopo che viene inserita la riga con il comando che termina con    *, il prompt dei comandi cambia in \... il che significa che Python ha riconosciuto un comando terminato con un (   *) e quello che segue è parte del comando stesso.
+L\'indentazione è molto utile anche per la leggibilità del programma. Se si usano rientri lunghi (ad esempio le tabulazioni invece degli spazi) quando si scrive un programma di grandi dimensioni, si avrà una visione chiara di ciò che viene eseguito all\'interno dei blocchi. Vedremo che anche altri comandi utilizzano blocchi di codice indentati.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Come fa Python a sapere quante delle prossime righe sono da eseguire all\'interno dell\'operazione for \... in ? Per sapere questo, Python utilizza l\'indentazione. Cioè, le righe successive non iniziano immediatamente, ma iniziano con uno o più spazi vuoti, oppure con uno o più spazi di tabulazione. Altri linguaggi di programmazione utilizzano vari metodi, tipo inserire tutto dentro parentesi, ecc. Finché le righe successive sono scritte con la **stessa indentazione**, esse sono considerate come parte del blocco for-in. Quando si inizia una riga con 2 spazi vuoti e quella successiva con 4, si produce un errore. Per terminare e uscire dal blocco for-in, basta scrivere una nuova riga senza rientro, o semplicemente premere Invio.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'indentazione è molto utile perché conferisce leggibilità al promma. Se è ampia (usando, ad esempio, tab che crea più spazi invece di un solo), quando si scrive un programma lungo si ha una visione chiara di ciò che viene eseguito all\'interno di ogni blocco. Vedremo che anche molti altri comandi diversi da for-in richiedono blocchi indentati.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il comando for-in può essere utilizzato per varie operazioni che devono essere eseguite più volte. Ad esempio, può essere combinato con il comando range()   *
-
-
-</div>
+Il comando `for in` può essere utilizzato per molte cose che devono essere eseguite più di una volta. Può, ad esempio, essere combinato con il comando `range()`   *
 
 
 ```python
@@ -506,15 +272,9 @@ print("")
 print(total)
 ```
 
+Se è stato eseguito l\'esempio di codice in un interprete copiando e incollando, si noterà che il blocco di testo precedente genera un errore. Si copi invece fino alla fine del blocco rientrato, cioè alla fine della riga `total <nowiki>=</nowiki> total + number` e poi si incolli nell\'interprete. Quindi nell\'interprete si prema **Enter** fino a quando il prompt dei tre punti scompare e il codice viene eseguito. Infine, si copino le ultime due righe seguite da un altro **Enter**. Dovrebbe apparire la risposta finale.
 
-<div class="mw-translate-fuzzy">
-
-Per usare i decimali in un loop range.
-
-
-</div>
-
-If you type into the interpreter `help(range)` you will see   *
+Se si digita nell\'interprete `help(range)` si otterrà   *
 
 
 ```python
@@ -523,7 +283,7 @@ range(...)
     range(start, stop[, step]) -> list of integers
 ```
 
-Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`   *
+Qui le parentesi quadre denotano un parametro opzionale. Tuttavia, tutti dovrebbero essere interi. Di seguito forzeremo il parametro step a essere un intero usando `int()`   *
 
 
 ```python
@@ -532,13 +292,7 @@ for i in range(0, 180 * number, int(0.5 * number))   *
     print(float(i) / number)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-O per operazioni più complesse tipo questa   *
-
-
-</div>
+Un altro esempio con `range()`   *
 
 
 ```python
@@ -547,13 +301,7 @@ for n in range(4)   *
     print(alldaltons[n], " is Dalton number ", n)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Come si vede, anche il comando range() ha la strana particolarità di iniziare con 0 (quando non si specifica il numero di partenza) e che il suo ultimo numero è uno in meno del numero finale specificato. Ciò, naturalmente, perché questo modo funziona bene con gli altri comandi di Python. Ad esempio   *
-
-
-</div>
+Il comando `range()` ha la strana particolarità di iniziare con `0` (quando non si specifica il numero di partenza) e che il suo ultimo numero è uno in meno del numero finale specificato. Ciò, naturalmente, perché questo sistema funziona bene con gli altri comandi di Python. Ad esempio   *
 
 
 ```python
@@ -563,13 +311,7 @@ for n in range(total)   *
     print(alldaltons[n])
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Un altro uso interessante dei blocchi indentati si ha con il comando if. Il comando if esegue un blocco di codice solo se una certa condizione è soddisfatta, ad esempio   *
-
-
-</div>
+Un altro uso interessante dei blocchi indentati si ha con il comando `if`. Questo comando esegue un blocco di codice solo se una certa condizione è soddisfatta, ad esempio   *
 
 
 ```python
@@ -578,26 +320,14 @@ if "Joe" in alldaltons   *
     print("We found that Dalton!!!")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Naturalmente, questo esempio stampa sempre la prima frase, ma provare a sostituire la seconda riga con   *
-
-
-</div>
+Naturalmente, questo esempio stampa sempre la prima frase, ma si provi a sostituire la seconda riga con   *
 
 
 ```python
 if "Lucky" in alldaltons   *
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Ora non viene più stampato nulla. Si può anche specificare una dichiarazione   * else   *
-
-
-</div>
+Qui non viene stampato nulla. Possiamo anche specificare un\'istruzione `else`   *
 
 
 ```python
@@ -613,13 +343,7 @@ else   *
 
 ## Funzioni
 
-
-<div class="mw-translate-fuzzy">
-
-I [comandi standard di Python](http   *//docs.python.org/reference/lexical_analysis.html#identifiers) non sono molti. Nella versione corrente di Python ce ne sono circa 30, e ne conosciamo già alcuni di loro. Ma immaginate se potessimo inventare dei nostri propri comandi? Beh, possiamo, ed è estremamente facile. In effetti, la maggior parte dei moduli aggiuntivi che si possono aggiungere nella propria installazione di Python fanno esattamente questo, essi aggiungono dei comandi utilizzabili. In Python un comando personalizzato si chiama funzione e si crea in questo modo   *
-
-
-</div>
+I [comandi standard di Python](https   *//docs.python.org/3/reference/lexical_analysis.html#identifiers) non sono molti e ne conosciamo già alcuni di loro. Ma i comandi possono anche essere creati. In effetti, la maggior parte dei moduli aggiuntivi, che si possono inserire nella propria installazione di Python, fanno esattamente questo e aggiungono dei comandi, che si possono utilizzare. In Python un comando personalizzato si chiama funzione e si crea in questo modo   *
 
 
 ```python
@@ -629,36 +353,16 @@ def printsqm(myValue)   *
 printsqm(45)
 ```
 
+Il comando `def()` definisce una nuova funzione, le si assegna un nome e tra parentesi si definiscono gli argomenti, che la funzione utilizzerà. Gli argomenti sono dati, che verranno passati alla funzione. Ad esempio, si osservi il comando `len()`. Se si scrive semplicemente `len()`, Python dirà che ha bisogno di un argomento. Il che è ovvio   * vuoi conoscere la lunghezza di qualcosa. Se si scrive `len(myList)` allora `myList` è l\'argomento, che si passa alla funzione `len()`. E la funzione `len()` è definita in modo tale da sapere cosa fare con questo argomento. Abbiamo fatto la stessa cosa con la nostra funzione `printsqm`.
 
-<div class="mw-translate-fuzzy">
-
-Estremamente semplice   * il comando def() definisce una nuova funzione. Si può dargli un nome, e dentro la parentesi si definiscono gli argomenti che useremo nella nostra funzione. Gli argomenti sono i dati che verranno passati alla funzione.
-
-Ad esempio, osservare il comando len(). Se si scrive semplicemente len() da solo, Python vi dice che ha bisogno di un argomento. Cioè, si vuole len() di qualcosa. Quindi, ad esempio, bisogna scrivere len(myList) per ottenere la lunghezza di myList. Bene, myList è un argomento che viene passato alla funzione len(). La funzione len() è definita in modo da sapere come utilizzare ciò che gli viene passato. Esattamente come si è appena fatto qui.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il nome \"myValue\" può contenere qualsiasi oggetto, e viene utilizzato solo all\'interno della funzione. È solo un nome assegnato all\'argomento in modo da poter operare con esso, però serve anche a fare in modo che la funzione sappia quanti argomenti aspettarsi. Se, ad esempio, si esegue   *
-
-
-</div>
+Il nome `myValue` può essere un qualsiasi oggetto e verrà utilizzato solo all\'interno della funzione. È solo un nome, che dai all\'argomento, in modo da poterci fare qualcosa. Definendo gli argomenti si deve anche dire alla funzione quanti aspettarsene. Ad esempio, se facendo quanto segue   *
 
 
 ```python
 printsqm(45, 34)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Si ottiene un errore. La funzione è stata programmata per ricevere un solo argomento, ma ne ha ricevuto due, 45 e 34. In sostituzione, si può eseguire qualcosa di simile a   *
-
-
-</div>
+si otterrà un errore. La nostra funzione è stata programmata per ricevere un solo argomento, ma ne ha ricevuti due, `45` e `34`. Proviamo un altro esempio   *
 
 
 ```python
@@ -669,46 +373,21 @@ def sum(val1, val2)   *
 myTotal = sum(45, 34)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Dove si crea una funzione che riceve due argomenti, li somma, e restituisce il valore. Ottenere qualcosa è molto utile, perché permette di utilizzare il risultato ottenuto e, ad esempio, memorizzarlo nella variabile myTotal. Naturalmente, visto che siamo nell\'interprete e tutto quello che facciamo viene stampato, digitando   *
-
-
-</div>
-
-
-{{Top}}
+Qui abbiamo creato una funzione che riceve due argomenti, li somma e restituisce quel valore. Restituire qualcosa è molto utile, perché possiamo fare qualcosa con il risultato, come memorizzarlo nella variabile `myTotal`. {{Top}}
 
 ## Moduli
 
+Ora che si ha una buona idea di come funziona Python, c\'è bisogno di sapere un\'altra cosa   * come lavorare con file e moduli.
 
-<div class="mw-translate-fuzzy">
+Fino ad ora, abbiamo scritto le istruzioni Python riga per riga nell\'interprete. Questo metodo ovviamente non è adatto per programmi più grandi. Normalmente il codice per i programmi Python è memorizzato in file con estensione **.py**. Che sono solo semplici file di testo e qualsiasi editor di testo (Linux gedit, emacs, vi o persino Blocco note di Windows) può essere utilizzato per crearli e modificarli.
 
-Ora che si ha un\'idea di come funziona Python, serve una ultima cosa   * Come lavorare con i file e i moduli.
+Esistono diversi modi per eseguire un programma Python. In Windows, fai semplicemente clic con il pulsante destro del mouse, aprilo con Python ed eseguilo. Ma puoi anche eseguirlo dall\'interprete Python stesso. Per questo, l\'interprete deve sapere dove si trova il tuo programma. In FreeCAD il modo più semplice è posizionare il programma in una cartella, che l\'interprete Python di FreeCAD conosce per impostazione predefinita, come la cartella utente **Mod** di FreeCAD   *
 
+-   Su Linux è solitamente **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/it|0.20}}) o **/home/<username>/. FreeCAD/Mod/** ({{VersionMinus/it|0.19}}).
+-   Su Windows è **%APPDATA%\FreeCAD\Mod\**, che di solito è **C   *Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
+-   Su Mac OSX è solitamente **/Users/<username>/Library/Preferences/FreeCAD/Mod/**.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Fino ad ora, abbiamo scritto le istruzioni nell\'interprete di Python riga per riga, vero?
-
-Quando si intende fare delle cose più complesse, è certamente più comodo scrivere prima diverse righe di codice, e poi eseguirle tutte insieme in una unica volta. Bene, anche questo, è estremamente facile da farsi, e inoltre permette anche salvare il proprio lavoro.
-
-È sufficiente aprire un editor di testo (ad es. il Blocco Note di Windows, o gedit, emacs, o vi per Linux), e scrivere tutte le proprie righe di Python, nello stesso modo in cui si scrivono nell\'interprete, con indentazioni, ecc. Quindi, salvare il file da qualche parte, preferibilmente con estensione .py. Tutto qui, ora si dispone di un programma Python completo. Naturalmente, ci sono editor migliori di notepad, citato solo per dimostrare che un programma Python non è altro che un file di testo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per far eseguire questo programma da Python, ci sono centinaia di modi. In Windows, è sufficiente fare clic sul file, aprirlo con Python, ed eseguirlo. Ma si può anche eseguire con l\'interprete di Python stesso. Per fare questo, l\'interprete deve sapere dove si trova il programma .py. In FreeCAD, il modo più semplice è quello di inserire il programma in un luogo che l\'interprete Python di FreeCAD conosce di default, quale, ad esempio, la cartella bin di FreeCAD, o una qualsiasi delle cartelle Mod. (In Linux, si ha probabilmente una directory /home//.FreeCAD/Mod, aggiungiamo una sottodirectory a quegli script richiamati dove inseriremo il file di testo.) Supponiamo di scrivere questo file   *
-
-
-</div>
+Aggiungiamo una sottocartella chiamata **scripts** e quindi scriviamo un file come questo   *
 
 
 ```python
@@ -718,68 +397,32 @@ def sum(a,b)   *
 print("myTest.py succesfully loaded")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-e di salvarlo con il nome MioTest.py nella nostra directory /bin di FreeCAD (o on Linux to /home//.FreeCAD/Mod/scripts). Ora, avviamo FreeCAD e nella finestra interprete scriviamo   *
-
-
-</div>
+Salviamo il file come **myTest.py** nella cartella **scripts** e nella finestra dell\'interprete si scriva   *
 
 
 ```python
 import myTest
 ```
 
+senza l\'estensione **.py**. Questo eseguirà il contenuto del file, riga per riga, proprio come se lo avessimo scritto nell\'interprete. Verrà creata la funzione di somma e il messaggio verrà stampato. I file contenenti funzioni, come la nostra, sono chiamati moduli.
 
-<div class="mw-translate-fuzzy">
-
-senza l\'estensione. py. Questo comando esegue semplicemente il contenuto del file, riga per riga, esattamente come quando viene scritto nell\'interprete. Viene creata la funzione somma, poi viene stampato il messaggio. Però c\'è una grande differenza   * il comando di importazione (import) serve non solo per eseguire i programmi contenuti in un file, come il nostro, ma anche per caricare le funzioni interne, in modo da renderle disponibili nell\'interprete. I file, come il nostro, contenenti funzioni sono chiamati moduli.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Di solito, come si è fatto in precedenza, quando si scrive la funzione sum() nell\'interprete, si digita semplicemente   *
-
-
-</div>
+Quando scriviamo una funzione `sum()` nell\'interprete, la eseguiamo in questo modo   *
 
 
 ```python
 sum(14, 45)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Invece, quando si importa un modulo contenente una funzione sum(), la sintassi è un po\' diversa. Si scrive   *
-
-
-</div>
+Ma quando importiamo un modulo contenente una funzione `sum()` la sintassi è leggermente diversa   *
 
 
 ```python
 myTest.sum(14, 45)
 ```
 
+Cioè, il modulo viene importato come un \"contenitore\" e tutte le sue funzioni sono all\'interno di quel contenitore. Questo è molto utile, perché possiamo importare molti moduli e mantenere tutto ben organizzato. Fondamentalmente quando vedi `something.somethingElse`, con un punto in mezzo, significa che `somethingElse` è all\'interno di `something`.
 
-<div class="mw-translate-fuzzy">
-
-Cioè, il modulo viene importato come un \"contenitore\", e tutte le sue funzioni sono all\'interno. Dato che è possibile importare più moduli, ciò è estremamente utile per tenere il tutto ben organizzato. In sostanza, quando si vede \"qualcosa.qualcosaAltro\", con un punto in mezzo, significa che \"qualcosaAltro\" è contenuto in \"qualcosa\".
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Si può anche estrarre da test una sua parte, e importare la funzione sum() direttamente nello spazio principale dell\'interprete, in questo modo   *
-
-
-</div>
+Possiamo anche importare la nostra funzione sum() direttamente nello spazio dell\'interprete principale   *
 
 
 ```python
@@ -787,36 +430,16 @@ from myTest import *
 sum(12, 54)
 ```
 
+Quasi tutti i moduli lo fanno   * definiscono funzioni, nuovi tipi di dati e classi, che puoi usare nell\'interprete o nei tuoi moduli Python, perché nulla impedisce di importare altri moduli all\'interno del tuo modulo!
 
-<div class="mw-translate-fuzzy">
-
-In pratica tutti i moduli si comportano in questo modo. È possibile importare un modulo, e poi utilizzare le sue funzioni tramite l\'istruzione   * module.function (argomento). Quasi tutti i moduli eseguono le seguenti operazioni   * definiscono le funzioni, i nuovi tipi di dati e le classi che è possibile utilizzare nell\'interprete o nei moduli Python, perché nulla impedisce di importare altri moduli all\'interno di un proprio modulo!
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Un\'ultima cosa estremamente utile. Come si fa per sapere quali moduli sono disponibili, quali funzioni sono al loro interno e come usarli (cioè, di che tipo di argomenti hanno bisogno)? Si è già visto che Python ha una funzione help(). Digitare   *
-
-
-</div>
+Come facciamo a sapere quali moduli abbiamo, quali funzioni ci sono all\'interno e come usarli (ovvero, di che tipo di argomenti hanno bisogno)? Abbiamo già visto che Python ha una funzione `help()`. Facendo   *
 
 
 ```python
 help("modules")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Viene restituito un elenco di tutti i moduli disponibili. Digitare q per uscire dall\'aiuto interattivo e importare qualsiasi di essi.
-
-Si può anche sfogliare il contenuto del modulo tramite il comando dir()   *
-
-
-</div>
+ci restituirà un elenco di tutti i moduli disponibili. Possiamo importarne uno qualsiasi e sfogliarne il contenuto con il comando `dir()`   *
 
 
 ```python
@@ -824,34 +447,14 @@ import math
 dir(math)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-In questo caso, si vedono tutte le funzioni contenute nel modulo di matematica (il modulo math), come, ad esempio, cose con strani nomi \_\_ doc\_\_, \_\_ FILE\_\_, \_\_ name\_\_. L\'oggetto doc\_\_ \_\_ è estremamente utile, è un testo di documentazione. Ogni funzione dei moduli (se fatti bene) ha un proprio \_\_doc\_\_ che spiega come usarla. Se, per esempio, si vuole sapere come usare la funzione sin (seno) contenuta all\'interno del modulo math, basta digitare   *
-
-
-</div>
-
-
+Vedremo tutte le funzioni contenute nel modulo `math`, oltre a cose strane denominate `__doc__`, `__file__`, `__name__`. Ogni funzione in un modulo ben fatto ha un `__doc__` che spiega come usarla. Ad esempio, vediamo che c\'è una funzione `sin()` all\'interno del modulo matematico. Vuoi sapere come usarlo? 
 ```python
 print(math.sin.__doc__)
 ```
 
+(Potrebbe non essere evidente, ma su entrambi i lati del `doc` ci sono due caratteri di sottolineatura.)
 
-<div class="mw-translate-fuzzy">
-
-(Potrebbe non essere evidente, ma su entrambi i lati del doc ci sono due caratteri di sottolineatura.)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-E infine un ultimo piccolo omaggio   * quando lavoriamo su un modulo nuovo o esistente, è meglio sostituire l\'estensione del file con py come   * myModule.FCMacro =\> myModule.py. Spesso vogliamo testarlo, quindi lo caricheremo come sopra.
-
-
-</div>
+E infine un ultimo consiglio   * quando si lavora su del codice nuovo o esistente, è meglio non utilizzare l\'estensione del file macro di FreeCAD, **.FCMacro**, ma utilizzare invece l\'estensione standard **.py**. Questo perché Python non riconosce l\'estensione **.FCMacro**. Se usi **.py** il tuo codice può essere facilmente caricato con `import`, come abbiamo già visto, e anche ricaricato con `importlib.reload()`   *
 
 
 ```python
@@ -859,13 +462,7 @@ import importlib
 importlib.reload(myTest)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Però, si può fare in due modi   * 1. Utilizzare una funzione exec o execfile di Python all\'interno della macro.
-
-
-</div>
+C\'è comunque un\'alternativa   *
 
 
 ```python
@@ -877,13 +474,7 @@ exec(open("C   */PathToMyMacro/myMacro.FCMacro").read())
 
 ## Iniziare con FreeCAD 
 
-
-<div class="mw-translate-fuzzy">
-
-Ora che si ha un\'idea di come funziona Python si può iniziare ad esplorare quello che FreeCAD ha da offrire. Le funzioni Python di FreeCAD sono tutte ben organizzate in moduli diversi. Alcuni di loro vengono caricati (importati) all\'avvio di FreeCAD. Quindi, basta solo, digitare   *
-
-
-</div>
+Spero che ora tu ti sia fatto una buona idea di come funziona Python e che tu possa iniziare a esplorare ciò che FreeCAD ha da offrire. Le funzioni Python di FreeCAD sono tutte ben organizzate in diversi moduli. Alcuni di essi sono già caricati (importati) all\'avvio di FreeCAD. Prova   *
 
 
 ```python
@@ -893,22 +484,16 @@ dir()
 
 {{Top}}
 
-## Notes
+## Note
 
--   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
--   Much more information about Python can be found in the [official Python tutorial](https   *//docs.python.org/3/tutorial/index.html) and the [official Python reference](https   *//docs.python.org/3/reference/).
+-   FreeCAD è stato originariamente progettato per funzionare con Python 2. Poiché Python 2 ha raggiunto la fine del suo ciclo di vita nel 2020, lo sviluppo futuro di FreeCAD sarà effettuato esclusivamente con Python 3 e la compatibilità con le versioni precedenti non sarà supportata.
+-   Molte più informazioni su Python possono essere trovate nel [tutorial ufficiale di Python](https   *//docs.python.org/3/tutorial/index.html) e nel [manuale di riferimento ufficiale di Python](https   *//docs.python.org/3/reference/).
 
 
 {{Top}}
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/it|[Macro](Macros/it.md)|[Guida agli script Python](Python_scripting_tutorial/it.md)}}
-
-
-</div>
 
 
 

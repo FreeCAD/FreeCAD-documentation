@@ -6,6 +6,8 @@
    Time   *1 ora
    FCVersion   *0.17 o superiore
    Files   *[https   *//github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd]
+   SeeAlso   *[Creazione di una parte semplice con l'Ambiente Part ](Creating_a_simple_part_with_Part_WB/it.md),
+[Creazione di una parte semplice con gli Ambienti Draft e Part](Creating_a_simple_part_with_Draft_and_Part_WB/it.md)
 ---
 
 # Creating a simple part with PartDesign/it
@@ -38,7 +40,7 @@ Premere <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [Cre
 
 ![](images/PartDesign_Body_tree_Unnamed.png ) *Il Corpo attivo appena creato con il suo contenuto espanso.*
 
-L*\'Origine* è di colore grigio, disattivata, il che indica che il suo contenuto non è visibile nella vista 3D. Per rendere visibile il contenuto di \'\' Origin \'\' nella vista 3D selezionare \'\' Origin \'\' e premere la barra spaziatrice sulla tastiera. Ora \'\' Origin \'\' appare in nero nell\'albero. Premere nuovamente la barra spaziatrice per nascondere il suo contenuto nella vista 3D. Fare nuovamente clic sulla freccia o sul segno più davanti a \"Origin\" per comprimere il suo contenuto nell\'albero del modello.
+L*\'Origine* è di colore grigio, disattivata, il che indica che il suo contenuto non è visibile nella vista 3D. Per rendere visibile il contenuto di *Origin* nella vista 3D selezionare *Origin* e premere la barra spaziatrice sulla tastiera. Ora *Origin* appare in nero nell\'albero. Premere nuovamente la barra spaziatrice per nascondere il suo contenuto nella vista 3D. Fare nuovamente clic sulla freccia o sul segno più davanti a \"Origin\" per comprimere il suo contenuto nell\'albero del modello.
 
 Prima di continuare, rinominare il corpo.
 
@@ -165,7 +167,7 @@ Tasca è una funzione chiamata \"sottrattiva\", rimuove il materiale dalla parte
 
 È possibile cambiare il colore della parte, spesso è utile distinguere una parte tra le altre. Può anche essere modificata la trasparenza del pezzo, il che è utile per visualizzare i suoi interni.
 
-Selezionare il corpo **Body part1**; assicurarsi che la scheda Modello della vista combinata sia selezionata e andare nella parte inferiore della Vista combinata, poi fare clic sulla scheda Visualizza; individuare la proprietà *Colore forma*; potrebbe essere necessario utilizzare la barra di scorrimento verticale a destra per trovarlo. \'\'Si può anche allargare la colonna Proprietà   * posizionare il puntatore del mouse sulla linea di separazione tra le intestazioni *Proprietà* e *Valore*; quando il puntatore si trasforma in una freccia a doppia faccia, tenere premuto il tasto sinistro del mouse e trascinarlo lateralmente, quindi rilasciarlo.\'\' Nella colonna di destra, fare clic sul quadrato grigio per aprire la finestra di dialogo **Seleziona colore**. Scegliere un altro colore, quindi fare clic su OK. Successivamente, di nuovo nella scheda Visualizza, modificare il valore di Trasparenza, ad esempio su 50 e premere **Invio** per completare (0 = totalmente opaco, 100 = totalmente trasparente).
+Selezionare il corpo **Body part1**; assicurarsi che la scheda Modello della vista combinata sia selezionata e andare nella parte inferiore della Vista combinata, poi fare clic sulla scheda Visualizza; individuare la proprietà *Colore forma*; potrebbe essere necessario utilizzare la barra di scorrimento verticale a destra per trovarlo. *Si può anche allargare la colonna Proprietà   * posizionare il puntatore del mouse sulla linea di separazione tra le intestazioni*Proprietà*e*Valore*; quando il puntatore si trasforma in una freccia a doppia faccia, tenere premuto il tasto sinistro del mouse e trascinarlo lateralmente, quindi rilasciarlo.* Nella colonna di destra, fare clic sul quadrato grigio per aprire la finestra di dialogo **Seleziona colore**. Scegliere un altro colore, quindi fare clic su OK. Successivamente, di nuovo nella scheda Visualizza, modificare il valore di Trasparenza, ad esempio su 50 e premere **Invio** per completare (0 = totalmente opaco, 100 = totalmente trasparente).
 
 Ora, all\'interno della parte è visibile il foro. Questo spesso è utile per vedere le facce nascoste o interne del modello.
 

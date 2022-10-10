@@ -59,7 +59,7 @@ Cette ligne doit être ajoutée au fichier **InitGui.py** pour ajouter la nouvel
 FreeCAD.addImportType("Your new File Type (*.ext)","Import_Ext") 
 ```
 
-Puis, dans le fichier **Import\_Ext.py**, faites   *
+Puis, dans le fichier **Import_Ext.py**, faites   *
 
 
 ```python
@@ -1033,7 +1033,7 @@ App.activeDocument().recompute()
 
 Exemple de recherche et décodage des informations d\'un objet
 
-Chaque section est séparée par des dièses \"\#\#\#\#\#\#\#\#\#\#\#\#\" vous pouvez les copier directement dans la console, les utiliser dans vos macro ou utiliser la macro complète. La description de la commande est dans le commentaire.
+Chaque section est séparée par des dièses \"############\" vous pouvez les copier directement dans la console, les utiliser dans vos macro ou utiliser la macro complète. La description de la commande est dans le commentaire.
 
 L\'affichage se fait dans la \"vue rapport\" (Menu Affichage → Vues → Vue rapport)
 
@@ -1750,6 +1750,26 @@ myFace.cutHoles([wire1])
 myFace.validate()
 
 Part.show(myFace)
+```
+
+
+{{Top}}
+
+### Fermer et redémarrer FreeCAD 
+
+
+```python
+import PySide2 
+from PySide2 import QtWidgets, QtCore, QtGui
+
+def restart_freecad()   *
+    """Shuts down and restarts FreeCAD"""
+
+    args = QtWidgets.QApplication.arguments()[1   *]
+    if FreeCADGui.getMainWindow().close()   *
+        QtCore.QProcess.startDetached(
+            QtWidgets.QApplication.applicationFilePath(), args
+        )
 ```
 
 

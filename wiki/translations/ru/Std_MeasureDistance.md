@@ -4,10 +4,13 @@
    Name/ru   *Измерить расстояние
    MenuLocation   *Инструменты → Измерить расстояние
    Workbenches   *Все
-   SeeAlso   *[Part Measure Tools](Part_Measure_Menu/ru.md),<br>[Draft Dimension](Draft_Dimension/ru.md),<br> [Arch Survey](Arch_Survey/ru.md)
+   SeeAlso   *[Part Measure Linear](Part_Measure_Linear/ru.md), [Draft Dimension](Draft_Dimension/ru.md), [Arch Survey](Arch_Survey/ru.md)
 ---
 
 # Std MeasureDistance/ru
+
+
+</div>
 
 ## Описание
 

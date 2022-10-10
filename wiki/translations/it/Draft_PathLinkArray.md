@@ -10,27 +10,9 @@
 
 # Draft PathLinkArray/it
 
-
-</div>
-
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento [Serie di link su tracciato](Draft_PathLinkArray/it.md) posiziona copie di una forma selezionata lungo un percorso selezionato, che può essere una [polilinea](Draft_Wire/it.md), una [BSpline](Draft_BSpline/it.md) e bordi simili. Funziona come del normale strumento [Copie su tracciato](Draft_PathArray.md), ma questo strumento crea oggetti [App   *   *Link](Std_LinkMake/it.md), anziché semplici copie.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+Il comando <img alt="" src=images/Draft_PathLinkArray.svg  style="width   *24px;"> **Serie di link su tracciato** crea un array [Link](App_Link/it.md) da un oggetto selezionato posizionando le copie lungo un percorso. Utilizzare invece il comando [Copie su tracciato](Draft_PathArray/it.md) per creare un array regolare meno efficiente. Ad eccezione del tipo di array creato, [Link](App_Link/it.md) array o array regolare, questo comando è identico al comando [Copie su tracciato](Draft_PathArray.md). Vedi lì per ulteriori informazioni.
 
 
 

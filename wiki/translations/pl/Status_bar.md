@@ -1,15 +1,15 @@
 # Status bar/pl
-## Introduction
+## Wprowadzenie
 
-The [status bar](status_bar.md) is a simple ribbon that appears at the bottom of the FreeCAD [interface](interface.md).
+**Pasek statusu** to prosta wstążka, która pojawia się w dolnej części [interfejs](interface/pl.md) programu FreeCAD.
 
-When the mouse pointer is over a button or menu, the usage information of that command is displayed both in a textual popup and in the status bar.
+Gdy wskaźnik myszy znajduje się nad przyciskiem lub menu, informacje o użyciu tego polecenia są wyświetlane zarówno w wyskakującym okienku tekstowym, jak i na pasku statusu.
 
 ![](images/FreeCAD_Status_bar.png )
 
-The status bar shows the [mouse navigation](Mouse_navigation.md) mode and the zoom level on the right. The zoom level gives the size of the current [3D view](3D_view.md) in appropriate units for the current scale, for example, millimeters (mm) or meters (m).
+Pasek statusu pokazuje wybrany tryb [nawigacji myszką](Mouse_navigation/pl.md) i poziom powiększenia po prawej stronie. Poziom powiększenia podaje wielkość bieżącego [widoku 3D](3D_view/pl.md) w odpowiednich jednostkach dla bieżącej skali, na przykład milimetrach *(mm)* lub metrach *(m)*.
 
-The status bar also shows the last pre-selected object (any object under the pointer is pre-selected) or element of an object (vertex, edge, face), and the coordinates of the mouse pointer when the last pre-selection occurred; this is useful to know immediately the coordinate of specific vertices in your shapes. The 3D coordinates update automatically as long as the mouse pointer floats over a geometrical element; the update stops when the mouse pointer rests over an empty space in the [3D view](3D_view.md).
+Pasek stanu pokazuje również ostatni wskazany obiekt *(każdy obiekt pod kursorem jest wstępnie wybrany)* lub element obiektu *(wierzchołek, krawędź, ściana)* oraz współrzędne kursora myszki w momencie ostatniego wskazania. Jest to przydatne, aby od razu znać współrzędne konkretnych wierzchołków w swoich kształtach. Współrzędne 3D są aktualizowane automatycznie, dopóki kursor myszki znajduje się nad elementem geometrycznym. Aktualizacja zatrzymuje się, gdy kursor myszki spoczywa nad pustą przestrzenią w oknie [widoku 3D](3D_view/pl.md).
 
 ![](images/FreeCAD_Status_bar_selected.png )
 

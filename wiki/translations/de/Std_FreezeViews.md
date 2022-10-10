@@ -10,6 +10,9 @@
 
 # Std FreezeViews/de
 
+
+</div>
+
 ## Einführung
 
 FreeCAD can store camera settings in up to 50 \'frozen views\'. The menu options that deal with frozen views can be found in the **View → Freeze display** submenu. Frozen views are not stored in the document and, if not saved with the **[Save views\...](#Save_views.md)** menu option, will be lost when the FreeCAD application closes.

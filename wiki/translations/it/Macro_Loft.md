@@ -20,15 +20,9 @@ Questa macro è stata scritta appositamente per facilitare il lofting con le lin
 <img alt="" src=images/Texture_001_Logo.png  style="width   *480px;"> 
 *Texture_001_Logo*
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Copiare la macro e l\'icona nella cartella macro.
-
-
-</div>
 
 -   ****Sort****    * Ordina i dati in ingresso.
 -   ****Reverse****    * Inverte l\'ordine dei dati.
@@ -54,7 +48,7 @@ Copiare la macro e l\'icona nella cartella macro.
 
 L\'icona per la barra degli strumenti <img alt="" src=images/FCCreaLoft.png  style="width   *64px;">
 
-Scaricare la macro da Gist [**Macro\_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
+Scaricare la macro da Gist [**Macro_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
 
 ## Link
 

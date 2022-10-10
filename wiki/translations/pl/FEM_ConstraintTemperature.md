@@ -20,9 +20,13 @@ Creates a FEM constraint for a temperature boundary condition.
 2.  In the [3D view](3D_view.md) select the objects the constraint should be applied to, which can be a vertices (corners), edges, or faces.
 3.  Enter a temperature to apply to the objects.
 
+### Option
+
+By default the constraint defines a temperature. By using the option **Concentrated heat Flux** a heat flux trough the area of the face (Watt per face area) can be specified.
+
 ## Notes
 
-1.  The temperature constraint uses the \*BOUNDARY card in CalculiX. the temperature constraint is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
+-   The temperature constraint uses the \*BOUNDARY card in CalculiX. the temperature constraint is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
 
 
 

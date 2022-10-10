@@ -36,7 +36,7 @@ Algoritmul pentru crearea acestor instrucțiuni în FreeCAD, în limbajul G-cod,
 
 ## Concepte generale 
 
-Path Workbench generează G-Code care definește căile necesare pentru a mula Proiectul reprezentat de modelul 3D pe miezul țintă [https   *//www.freecadweb.org/wiki/Path\_scripting\#FreeCAD.27s\_internal\_GCode\_format the Path Job Operations FreeCAD G-Code dialect](https   *//www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_the_Path_Job_Operations_FreeCAD_G-Code_dialect.md), care ulterior se traduce în dialectul corespunzător pentru controlerul CNC țintă prin selectarea postprocesorului adecvat.   Codul G este generat de directivele și operațiile conținute într-o traiectorie. Fluxul de lucru al joburilor le afișează în ordinea în care vor fi executate. Lista este populată prin adăugarea operațiunilor de deplasare, a traiectoriile suplimentare(Dressup), a comenzilor parțiale ale traiectorilor și a modificărilor de parcurs - din meniul Path sau prin butoanele GUI.
+Path Workbench generează G-Code care definește căile necesare pentru a mula Proiectul reprezentat de modelul 3D pe miezul țintă [https   *//www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format the Path Job Operations FreeCAD G-Code dialect](https   *//www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_the_Path_Job_Operations_FreeCAD_G-Code_dialect.md), care ulterior se traduce în dialectul corespunzător pentru controlerul CNC țintă prin selectarea postprocesorului adecvat.   Codul G este generat de directivele și operațiile conținute într-o traiectorie. Fluxul de lucru al joburilor le afișează în ordinea în care vor fi executate. Lista este populată prin adăugarea operațiunilor de deplasare, a traiectoriile suplimentare(Dressup), a comenzilor parțiale ale traiectorilor și a modificărilor de parcurs - din meniul Path sau prin butoanele GUI.
 
 
 </div>
@@ -70,7 +70,7 @@ Path Workbench include dependențe externe   *
 Some current limitations of which you should be aware are   *
 
 -   Most of the Path Tools are not true 3D tools but only 2.5D capable. This means that they take a fixed 2D shape and can cut it down to a given depth. However, there are two tools which produce true 3D paths   * **<img src="images/Path_3DPocket.svg" width=24px> [3D Pocket](Path_Pocket_3D.md)** and **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** (which is still an [experimental feature](Path_experimental.md) as of November 2020).
--   Most of Path workbench is designed for a simple, standard 3-axis (xyz) CNC mill/router, but lathe tools are under development in 0.19\_pre.
+-   Most of Path workbench is designed for a simple, standard 3-axis (xyz) CNC mill/router, but lathe tools are under development in 0.19_pre.
 -   Most operations in Path workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** and **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** operations.
 -   The operations within the Path workbench are not aware of clamping mechanisms in use to secure the model to your machine. Consequently, please review and simulate the paths you generate prior to sending the code to your machine. If necessary, model your clamping mechanisms in FreeCAD in order to better inspect the paths generated. Look for possible collisions with clamps or other obstacles along the paths.
 
@@ -229,6 +229,8 @@ Some commands are experimental and not available by default. To enable them see 
 
 
 </div>
+
+-   <img alt="" src=images/Path_Deburr.svg  style="width   *32px;"> [Deburr](Path_Deburr.md)   * Creates a deburr path.
 
 
 <div class="mw-translate-fuzzy">

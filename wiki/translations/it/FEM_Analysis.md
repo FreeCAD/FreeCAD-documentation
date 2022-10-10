@@ -41,8 +41,14 @@ Analisi FEM può essere visto come il contenitore di tutti gli oggetti di una An
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Per ora non ci sono opzioni.
 -   L\'analisi in frequenza è in sviluppo. Vedere [1](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=12189) per maggiori informazioni.
+
+
+</div>
 
 ## Proprietà
 
@@ -50,9 +56,15 @@ Analisi FEM può essere visto come il contenitore di tutti gli oggetti di una An
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
 La maggior parte di questo codice è deprecato nella versione 0.17.
 
 -   nuova analisi
+
+
+</div>
 
 
 ```python

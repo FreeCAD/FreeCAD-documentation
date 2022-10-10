@@ -61,15 +61,43 @@ Se si desidera produrre una sola vista, non conviene utilizzare Gruppo di proiez
 
 ## Proprietà
 
--    **Anchor**   * la vista centrale del gruppo. Normalmente è la vista frontale.
+### Data
 
--    **ProjectionType**   * \"Primo angolo\" o \"Terzo angolo\".
 
--    **AutoDistribute**   * se è True (vero), spazia automaticamente le singole viste. Utilizzare false per posizionarle manualmente.
+{{TitleProperty|Base}}
 
--    **spacingX**   * lo spazio orizzontale tra le viste quando esse sono posizionate automaticamente.
+-    **Source|LinkList**   * Links to the drawable objects to be depicted.
 
--    **spacingY**   * lo spazio verticale tra le viste quando esse sono posizionate automaticamente.
+-    **XSource|XLinkList**   * Links to the drawable objects in an external file. <small>(v0.19)</small> 
+
+-    **Anchor|Link**   * The central view in the group. Normally the Front view.
+
+-    **ProjectionType|Enumeration**   * {{Value|First Angle}} or {{Value|Third Angle}}.
+
+For the other properties in this group see [TechDraw View](TechDraw_View#Properties.md).
+
+
+{{TitleProperty|Collection}}
+
+-    **Views|LinkList**   * Links to the views in this ProjectionGroup.
+
+
+{{TitleProperty|Distribute}}
+
+-    **Auto Distribute|Bool**   * If `True`, space out individual views automatically. Use `False` to position manually.
+
+-    **spacing X|Length**   * Horizontal space between views when automatically positioned. Note that Scale and the size of other views in the group also influence the spacing.
+
+-    **spacing Y|Length**   * Vertical space between views when automatically positioned.
+
+### View
+
+
+{{TitleProperty|Base}}
+
+See [TechDraw View](TechDraw_View#Properties.md).
+
+## Notes
 
 Le Proiezioni ereditano nel loro complesso X, Y, ScaleType, Scale e Rotation dalla vista di base.
 

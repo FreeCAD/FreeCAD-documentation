@@ -133,7 +133,7 @@ FreeCAD虽然在特定领域已经可用了，但是在跨入主流CAD的路途�
 
 </div>
 
-[0.20 Development Cycle](0.20_Development_Cycle.md)
+[FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
 ## Community
 

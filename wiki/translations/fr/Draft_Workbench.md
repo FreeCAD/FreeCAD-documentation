@@ -24,13 +24,13 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Wire.svg  style="width   *32px;"> [Polyligne](Draft_Wire/fr.md)    * crée une polyligne, une séquence de plusieurs segments de ligne connectés.
 
--   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Congé](Draft_Fillet/fr.md)    * crée un congé, un coin arrondi, ou un chanfrein, un bord droit, entre deux [Draft Lignes](Draft_Line/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Congé](Draft_Fillet/fr.md)    * crée un congé, un coin arrondi, ou un chanfrein, un bord droit, entre deux [Draft Lignes](Draft_Line/fr.md).
 
 -   <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> Outils d\'arc
 
    ** <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Arc](Draft_Arc/fr.md)    * crée un arc de cercle à partir d\'un centre, d\'un rayon, d\'un angle de départ et d\'un angle d\'ouverture.
 
-   ** <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Arc par 3 points](Draft_Arc_3Points/fr.md)    * crée un arc de cercle à partir de trois points qui définissent sa circonférence. {{Version/fr|0.19}}
+   ** <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Arc par 3 points](Draft_Arc_3Points/fr.md)    * crée un arc de cercle à partir de trois points qui définissent sa circonférence.
 
 -   <img alt="" src=images/Draft_Circle.svg  style="width   *32px;"> [Cercle](Draft_Circle/fr.md)    * crée un cercle à partir d\'un centre et d\'un rayon.
 
@@ -44,7 +44,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> Outils de Bézier
 
-   ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md)    * crée une courbe de Bézier du troisième degré. {{Version/fr|0.19}}
+   ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md)    * crée une courbe de Bézier du troisième degré.
 
    ** <img alt="" src=images/Draft_BezCurve.svg  style="width   *32px;"> [Courbe de Bézier](Draft_BezCurve/fr.md)    * crée une courbe de Bézier à partir de plusieurs points.
 
@@ -64,7 +64,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Label.svg  style="width   *32px;"> [Étiquette](Draft_Label/fr.md)    * crée un texte de plusieurs lignes avec une ligne de tête à deux segments et une flèche.
 
--   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width   *32px;"> [Éditeur de styles d\'annotations](Draft_AnnotationStyleEditor/fr.md)    * permet de définir des styles qui affectent les propriétés visuelles des objets de type annotation. {{Version/fr|0.19}}
+-   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width   *32px;"> [Éditeur de styles d\'annotations](Draft_AnnotationStyleEditor/fr.md)    * permet de définir des styles qui affectent les propriétés visuelles des objets de type annotation.
 
 ## Modification
 
@@ -86,19 +86,19 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> Outils de réseaux
 
-   ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Réseau orthogonal](Draft_OrthoArray/fr.md)    * crée un réseau orthogonal à partir d\'un objet sélectionné. Il peut éventuellement créer un réseau de [Link](App_Link/fr.md). {{Version/fr|0.19}}
+   ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Réseau orthogonal](Draft_OrthoArray/fr.md)    * crée un réseau orthogonal à partir d\'un objet sélectionné. Cela peut éventuellement créer un réseau de [Link](App_Link/fr.md).
 
-   ** <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> [Réseau polaire](Draft_PolarArray/fr.md)    * crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long d\'une circonférence. Il peut éventuellement créer un réseau de [Link](App_Link/fr.md). {{Version/fr|0.19}}
+   ** <img alt="" src=images/Draft_PolarArray.svg  style="width   *32px;"> [Réseau polaire](Draft_PolarArray/fr.md)    * crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long d\'une circonférence. Cela peut éventuellement créer un réseau de [Link](App_Link/fr.md).
 
-   ** <img alt="" src=images/Draft_CircularArray.svg  style="width   *32px;"> [Réseau circulaire](Draft_CircularArray/fr.md)    * crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long de circonférences concentriques. Il peut éventuellement créer un réseau de [Link](App_Link/fr.md). {{Version/fr|0.19}}
+   ** <img alt="" src=images/Draft_CircularArray.svg  style="width   *32px;"> [Réseau circulaire](Draft_CircularArray/fr.md)    * crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long de circonférences concentriques. Cela peut éventuellement créer un réseau de [Link](App_Link/fr.md).
 
    ** <img alt="" src=images/Draft_PathArray.svg  style="width   *32px;"> [Réseau selon une courbe](Draft_PathArray/fr.md)    * crée un réseau à partir d\'un objet sélectionné en plaçant des copies le long d\'un tracé.
 
-   ** <img alt="" src=images/Draft_PathLinkArray.svg  style="width   *32px;"> [Réseau lié selon une courbe](Draft_PathLinkArray/fr.md)    * idem, mais crée un réseau de [Link](App_Link/fr.md) au lieu d\'un réseau normal. {{Version/fr|0.19}}
+   ** <img alt="" src=images/Draft_PathLinkArray.svg  style="width   *32px;"> [Réseau lié selon une courbe](Draft_PathLinkArray/fr.md)    * idem, mais crée un réseau de [Link](App_Link/fr.md) au lieu d\'un réseau normal.
 
    ** <img alt="" src=images/Draft_PointArray.svg  style="width   *32px;"> [Réseau de points](Draft_PointArray/fr.md)    * crée un réseau à partir d\'un objet sélectionné en plaçant des copies aux points d\'un composé de points.
 
-   ** <img alt="" src=images/Draft_PointLinkArray.svg  style="width   *32px;"> [Réseau lié selon des points](Draft_PointLinkArray/fr.md)    * idem, mais crée un réseau de [Link](App_Link/fr.md) au lieu d\'un réseau normal. {{Version/fr|0.19}}
+   ** <img alt="" src=images/Draft_PointLinkArray.svg  style="width   *32px;"> [Réseau lié selon des points](Draft_PointLinkArray/fr.md)    * idem, mais crée un réseau de [Link](App_Link/fr.md) au lieu d\'un réseau normal.
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> [Éditer](Draft_Edit/fr.md)    * met les objets sélectionnés en mode d\'édition de Draft. Dans ce mode, les propriétés des objets peuvent être modifiées graphiquement.
 
@@ -130,7 +130,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   ![](images/Draft_tray_button_plane.png ) [Plan de travail](Draft_SelectPlane/fr.md)    * sélectionne le plan de travail Draft en cours. Egalement disponible dans le menu    * **Draft → Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez un plan**.
 
--   ![](images/Draft_tray_button_style.png ) [Définir le style](Draft_SetStyle/fr.md)    * définit le style par défaut pour les nouveaux objets. Egalement disponible dans le menu    * **Draft → Utilitaires → <img src="images/Draft_SetStyle.svg" width=16px> Définir le style**. {{Version/fr|0.19}}
+-   ![](images/Draft_tray_button_style.png ) [Définir le style](Draft_SetStyle/fr.md)    * définit le style par défaut pour les nouveaux objets. Egalement disponible dans le menu    * **Draft → Utilitaires → <img src="images/Draft_SetStyle.svg" width=16px> Définir le style**.
 
 -   ![](images/Draft_tray_button_construction.png ) [Basculer en mode construction](Draft_ToggleConstructionMode/fr.md)    * active ou désactive le mode de construction de Draft. Egalement disponible dans le menu    * **Draft → Utilitaires → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Basculer en mode construction**.
 
@@ -138,13 +138,13 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 ## Widget d\'échelle d\'annotation de Draft 
 
-Avec le [Draft Widget d\'échelle d\'annotation](Draft_annotation_scale_widget/fr.md), l\'échelle d\'annotation Draft peut être spécifiée. {{Version/fr|0.19}}
+Avec le [Draft Widget d\'échelle d\'annotation](Draft_annotation_scale_widget/fr.md), l\'échelle d\'annotation Draft peut être spécifiée.
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
 ## Widget d\'aimantation de Draft 
 
-Le [Draft Widget d\'aimantation](Draft_snap_widget/fr.md) peut être utilisé comme alternative à la [Barre d\'outils d\'aimantation de Draft](#Barre_d.27outils_d.27aimantation_de_Draft.md). {{Version/fr|0.19}}
+Le [Draft Widget d\'aimantation](Draft_snap_widget/fr.md) peut être utilisé comme alternative à la [Barre d\'outils d\'aimantation de Draft](#Barre_d.27outils_d.27aimantation_de_Draft.md).
 
 ![](images/Draft_snap_widget_button.png )
 
@@ -186,7 +186,7 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 ## Outils utilitaires de la barre d\'outils de Draft 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Calque](Draft_Layer/fr.md)    * crée un [Draft Calque](Draft_Layer/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Calque](Draft_Layer/fr.md)    * crée un [Draft Calque](Draft_Layer/fr.md).
 
 -   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width   *32px;"> [Nommer un groupe](Draft_AddNamedGroup/fr.md)    * crée un [Std Groupe](Std_Group/fr.md) nommé et déplace les objets sélectionnés vers ce groupe. {{Version/fr|0.20}}
 
@@ -232,15 +232,15 @@ S\'il y a un document actif, le menu contextuel contient un sous-menu supplémen
 
 ### Options des lignes 
 
-Cette option supplémentaire est disponible pour les [Draft Polyligne](Draft_Wire/fr.md), [Draft B-spline](Draft_BSpline/fr.md), [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md) et [Draft Courbe de Bézier](Draft_BezCurve/fr.md)    *
+Pour une [Draft Ligne](Draft_Line/fr.md) et une [Draft Polyligne](Draft_Wire/fr.md), cette option supplémentaire est disponible    *
 
--   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> Aplatir cette ligne    * aplatit la ligne en fonction de sa géométrie interne. Cette option ne fonctionne pas correctement pour le moment.
+-   <img alt="" src=images/Draft_Edit.svg  style="width   *32px;"> Aplatir    * aplatit la polyligne sur le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Cette option ne fonctionne pas correctement pour la {{VersionMinus/fr|0.19}}.
 
 ### Options du conteneur du calque 
 
 Pour un [Draft Calque](Draft_Layer/fr.md), les options supplémentaires sont disponibles    *
 
--   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Fusionner les calques en double](Draft_Layer/fr#Options_du_conteneur_du_calque.md)    * fusionne tous les calques ayant la même étiquette de base. Ne fonctionne pas avec Freecad version 0.19.
+-   <img alt="" src=images/Draft_Layer.svg  style="width   *32px;"> [Fusionner les calques en double](Draft_Layer/fr#Options_du_conteneur_du_calque.md)    * fusionne tous les calques ayant le même libellé de base.
 
 -   <img alt="" src=images/Draft_NewLayer.svg  style="width   *32px;"> [Ajouter un nouveau calque](Draft_Layer/fr#Options_du_conteneur_du_calque.md)    * ajoute un nouveau calque au document en cours.
 
@@ -309,7 +309,7 @@ freecad -t TestDraft
 
 Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'atelier comprend un module pour créer des échantillons de tous les objets dans un nouveau document. {{Version/fr|0.19}}
+L\'atelier comprend un module pour créer des échantillons de tous les objets dans un nouveau document.
 
 Utilisez-le pour tester que tous les objets sont produits correctement   *
 

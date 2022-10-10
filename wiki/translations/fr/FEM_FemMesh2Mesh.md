@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FEM FemMesh2Mesh
-   Name/fr   *FEM Maillage à maillage FEM
-   MenuLocation   *Maillage → Maillage à maillage FEM
+   Name/fr   *FEM Maillage FEM à maillage
+   MenuLocation   *Maillage → Maillage FEM à maillage
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
@@ -17,15 +17,15 @@ Les éléments bidimensionnels du maillage FEM ne sont pas pris en compte. Si vo
 
 ## Utilisation
 
-1.  Sélectionnez un objet de maillage FEM.
-2.  En option, sélectionnez également les résultats FEM.
-3.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Maillage à maillage FEM ](FEM_FemMesh2Mesh/fr.md)**.
-    -   Sélectionnez l\'option **Maillage → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Maillage à maillage FEM ** dans le menu.
+1.  Sélectionnez un objet FEM maillage.
+2.  Si vous le souhaitez, vous pouvez également sélectionner les résultats FEM.
+3.  Il existe plusieurs façons de lancer la commande   *
+    -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md)**.
+    -   Sélectionnez l\'option **Maillage → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Maillage FEM à maillage** dans le menu.
 
 ## Script
 
-Exemple   * Téléchargez l\'exemple 3D FEM de FreeCAD à partir de l\'atelier Start et exécutez le code suivant
+Exemple    * Téléchargez l\'exemple 3D FEM de FreeCAD à partir de l\'atelier Start et exécutez le code suivant.
 
 
 ```python
@@ -39,7 +39,7 @@ Mesh.show(Mesh.Mesh(out_mesh))
 
 ## Convertir 2D éléments 
 
-Sélectionnez un maillage et lancez le code suivant dans la fenêtre Python de FreeCAD
+Sélectionnez un maillage et lancez le script Python suivant    *
 
 
 ```python

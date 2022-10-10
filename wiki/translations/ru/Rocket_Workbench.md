@@ -15,9 +15,6 @@ Parts are created by specifying parameters in the task dialog. No drawing is req
 
 ## Установка
 
-
-**The Rocket workbench is a work in progress, and will change often. Be sure to update it regularly!**
-
 This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
 ## Getting Started 
@@ -39,6 +36,8 @@ Components created using the Rocket Workbench are essentially parts similar to w
 -   <img alt="" src=images/Rocket_Bulkhead.svg  style="width   *32px;"> [Bulkhead](Rocket_Bulkhead.md)   * Create a bulkhead
 
 -   <img alt="" src=images/Rocket_Fin.svg  style="width   *32px;"> [Fin](Rocket_Fin.md)   * Create a fin
+
+-   <img alt="" src=images/Rocket_FinCan.svg  style="width   *32px;"> [Fin Can](Rocket_FinCan.md)   * Create a fin can
 
 -   <img alt="" src=images/Rocket_LaunchGuideComposite.png  style="width   *32px;"> [Launch Guide](Rocket_CompLaunchGuide.md)   * Create a launch guide
 

@@ -13,7 +13,7 @@
 
 ## Descrizione
 
-Questa macro crea un cerchio o un arco e consente all\'utente, utilizzando la seguente opzione (tramite una finestra di dialogo), di personalizzare   * \'\'raggio, diametro, circonferenza, area, angolo iniziale, angolo finale, arco, angolo al centro, corda, freccia, centro (punto), \'\' e \'\' placemObject \'\'.
+Questa macro crea un cerchio o un arco e consente all\'utente, utilizzando la seguente opzione (tramite una finestra di dialogo), di personalizzare   * *raggio, diametro, circonferenza, area, angolo iniziale, angolo finale, arco, angolo al centro, corda, freccia, centro (punto),* e *placemObject*.
 
 Il cerchio, per impostazione predefinita, è rivolto verso lo schermo (si riferisce alla funzione getCameraOrientation per ottenere il suo orientamento). È possibile modificare manualmente questa funzione per personalizzare il posizionamento della forma.
 
@@ -24,13 +24,7 @@ Nella finestra di dialogo CirclePlus alcuni spinbox cambiano colore. Il verde in
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7/raw/3f810ac142dd0d9245c5ccc964b8b2d7d750b276/Macro%2520CirclePlus.FCMacro}}
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-
-</div>
+## Utilizzo
 
 Copiare il codice e incollarlo nella directory delle macro
 
@@ -48,7 +42,7 @@ Copiare il codice e incollarlo nella directory delle macro
 -   **Face**    * se selezionato, nel cerchio viene creata una faccia
 -   **Sector**    * se selezionato, viene creato un settore
 -   **Segment**    * se selezionato, viene creato un segmento
--   *SpinBox 1.0*\'    * incremento di passo per raggio e diametro (Default   * 1.0 (per modificare il valore cambiare il valore riga 87 **\"incrementDS = xx.xx\"**))
+-   *SpinBox 1.0**   * incremento di passo per raggio e diametro (Default   * 1.0 (per modificare il valore cambiare il valore riga 87**\"incrementDS = xx.xx\"*\'))
 -   **SpinBox 8**    * assegna l\'altezza del testo nella macro
 
 -   ****Quit****    * esce dalla macro (questo pulsante è colorato in rosso in caso di errore)

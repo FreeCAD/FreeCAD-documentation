@@ -80,7 +80,7 @@ The developer documentation comprises the following sections   *
 -   Add [Features](Gui_Command.md) to FreeCAD or a Workbench
 -   [Branding](Branding.md) or *how to give FreeCAD a unique look*
 -   [Artwork](Artwork.md) we made for FreeCAD, that you can freely reuse
--   [Artwork\_Guidelines](Artwork_Guidelines.md) standards for icons
+-   [Artwork_Guidelines](Artwork_Guidelines.md) standards for icons
 -   [Translating FreeCAD](Localisation.md)
 -   [Extra python modules](Extra_python_modules.md), or *how to extend python functionality within FreeCAD*
 -   [Google Summer of Code](Google_Summer_of_Code.md) get involved via Google\'s student support program
@@ -166,7 +166,7 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 </div>
 
-[0.20 Development Cycle](0.20_Development_Cycle.md)
+[FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
 ## Community
 

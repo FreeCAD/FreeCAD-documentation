@@ -22,7 +22,7 @@ Questa macro crea una piramide parametrica.
 Nota   *
 
 Se si è interessati anche ai poliedri, si può anche utilizzare Macro Polyhedrons.
-Se si è interessati esiste l\'ambiente esterno [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (link github) che contiene la stessa funzione.
+Se si è interessati esiste l\'ambiente esterno [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (link github) che contiene la stessa funzione.
 
 ![](images/Polyhedrons.png )
 
@@ -30,19 +30,13 @@ Se si è interessati esiste l\'ambiente esterno [Pyramids\_and\_Polyhedrons](htt
 
 *Esempio di creazione con il workbench esterno [https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] (github link) che contiene la stessa funzione.*
 
-
-<div class="mw-translate-fuzzy">
-
-## Come usare 
-
-
-</div>
+## Utilizzo
 
 -   Installazione   * utilizza Tools / Addon manager / Macro\'s <img alt="" src=images/AddonManager.svg  style="width   *24px;"> per installare la macro.
 -   Una volta installato, aprire il Menu → Macro → Macro. Fare clic su pyramid.py e quindi fare clic sul pulsante {{button|esegui}}.
 -   Appare una piramide a nodi, simile al cono di Part
 -   Modificare i parametri proprio come con il cono di Part.
---   Vedere le informazioni su [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+--   Vedere le informazioni su [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
 
 ## Script
 

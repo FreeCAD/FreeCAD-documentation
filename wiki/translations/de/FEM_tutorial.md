@@ -1,11 +1,10 @@
 ---
 - TutorialInfo   */de
-   Topic   * Finite Element Analyse
+   Topic   * Finite-Elemente-Analyse
    Level   * Anfänger
    Time   * 10 Minuten + Löserzeit
    Author   *[http   *//freecadweb.org/wiki/index.php?title=User   *Drei Drei]
-   FCVersion   *0.16.6700 oder höher
-   Files   *
+   FCVersion   *0.17 oder höher
 ---
 
 # FEM tutorial/de
@@ -13,211 +12,106 @@
 
 
 
-<div class="mw-translate-fuzzy">
 
+## Einleitung
 
-
-
-</div>
-
-## Introduction
-
-
-<div class="mw-translate-fuzzy">
-
-## Einführung
-
-Dieses Tutorium soll den Leser in den grundlegenden Arbeitsablauf des FEM Arbeitsbereichs sowie in die meisten Werkzeuge einführen, die zur Durchführung einer statischen Analyse zur Verfügung stehen.
-
-
-</div>
+Dieses Tutorium soll dem Leser den grundlegenden Arbeitsablauf des Arbeitsbereichs FEM sowie die meisten Werkzeuge vorstellen, die zur Durchführung einer statischen Analyse zur Verfügung stehen.
 
 <img alt="" src=images/FEM_tutorial_result.png  style="width   *600px;">
 
-## Requirements
+## Voraussetzungen
 
+-   FreeCAD Version 0.17 oder höher.
+-   [Netgen](http   *//sourceforge.net/projects/netgen-mesher/) und [GMSH](http   *//geuz.org/gmsh/) sind auf dem System installiert (in der FreeCAD-Installation enthalten).
+-   [Calculix](http   *//www.calculix.de/) ist auf dem System installiert (in der FreeCAD-Installation enthalten).
+-   Der Leser verfügt über Grundkenntnisse zur Verwendung der Arbeitsbereiche [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md).
 
-<div class="mw-translate-fuzzy">
+## Ablauf
 
-## Anforderungen
+### Modellieren
 
--   FreeCAD Version 0.16.6700 oder höher
--   [Netgen](http   *//sourceforge.net/projects/netgen-mesher/) und/oder [GMSH](http   *//geuz.org/gmsh/) ist auf dem System installiert
--   Im Falle von GMSH installiere [Makro GMSH](Macro_GMSH/de.md) aus dem [Erweiterungsverwalter](Std_AddonMgr/de.md), entwickelt von [psicofil](https   *//github.com/psicofil/Macros_FreeCAD).
--   [Calculix](http   *//www.calculix.de/) ist auf dem System installiert
--   Der Leser verfügt über die Grundkenntnisse zur Verwendung der [Part](Part_Workbench/de.md) und [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
+In diesem Beispiel wird ein Würfel als Studienobjekt verwendet, aber stattdessen kann auch jedes andere Modell verwendet werden, das in den Arbeitsbereichen Part oder PartDesign erstellt wurde.
 
+1.  Die Schaltfläche **![](images/)_[Std_Neu](Std_New/de.md)** drücken, um ein neues Dokument zu erstellen.
+2.  Den Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench.md) aktivieren.
+3.  Einen Würfel erstellen.
+4.  Seine **Abmessungen** wie folgt ändern   *
+    1.  Länge   * 8.000 m.
+    2.  Breite   * 1.000 m.
+    3.  Höhe   * 1.000 m.
 
-</div>
+Wir haben nun ein Modell, mit dem wir arbeiten können.
 
-## Prozedur
+### Analyse erstellen 
 
-### Modeling
+1.  Den Arbeitsbereich <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench.md) aktivieren.
+2.  Den Menüeintrag **Modell → <img src="images/FEM_Analysis.svg" width=16px> Analyse-Container‏‎** auswählen.
 
+### Randbedingungen und Kräfte 
 
-<div class="mw-translate-fuzzy">
+1.  Das Netz in der Baumansicht ausblenden.
+2.  Das Originalmodell anzeigen.
+3.  <img alt="" src=images/FEM_ConstraintFixed.svg  style="width   *24px;"> [Randbedingung Festsetzen](FEM_ConstraintFixed/de.md) auswählen.
+4.  Auf die Schaltfläche **Hinzufügen** klicken, die Rückseite des Würfelobjekts (die Fläche auf der YZ-Ebene) auswählen und **OK** drücken.
+5.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width   *24px;"> [Randbedingung Krafteinwirkung](FEM_ConstraintForce/de.md) auswählen.
+6.  Auf die Schaltfläche **Hinzufügen** klicken, die Vorderseite des Würfelobjekts (die zur Rückseite parallel liegende Fläche) und den Wert für **Load \[N\]** (Flächenlast \[N\]) auf 9000000 setzen.
+7.  **Direction** (Richtung) auf **-Z** setzen durch Auswahl einer der Flächenkanten, die parallel zu dieser Richtung liegen.
+8.  Auf **OK** klicken.
 
-### Modellierung
+Wir haben jetzt die Lagerstellen und Kräfte für unsere statische Studie festgelegt.
 
-In diesem Beispiel wird ein Würfel als Studienobjekt verwendet, aber stattdessen können auch Modelle verwendet werden, die in den Part oder PartDesign Arbeitsbereichen erstellt wurden.
+### Material
 
+1.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width   *24px;"> [Material für Feststoffe](FEM_MaterialSolid/de.md) auswählen und Calculix-Steel als Material auswählen.
+2.  Auf **OK** klicken.
 
-</div>
+### Netzerstellung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Erstelle ein neues Dokument
-2.  Aktiviere den Formteil Arbeitsbereichs
-3.  Erstelle einen Würfel
-4.  Ändere seine **Abmessungen** wie folgt   *
-    1.  Höhe   * 1.000 mm
-    2.  Länge   * 8.000 mm
-    3.  Breite   * 1.000 mm
-
-
-</div>
-
-Wir haben nun ein Modell, mit dem wir im Folgenden arbeiten können.
-
-### Creating the Analysis 
+Es wird empfohlen, das Erstellen eines Netzes als letzten Schritt der Analysevorbereitung auszuführen, da dies im Zusammenhang mit einer Geometrie in FreeCAD steht. Abhängig von der FreeCAD-Installation, können Die Vernetzugswerkzeuge Netgen oder GMSH vorhanden sein; beide können verwendet werden.
 
 #### Netgen
 
+1.  Model auswählen.
+2.  <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width   *24px;"> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape/de.md)   * Erstellt mit Hlfe von Netge ein Finite-Elemente-Netz eines Modells.
+3.  Im Vernetzungsdialog klickt man auf **Anwenden** und anschließend auf **OK**.
 
-<div class="mw-translate-fuzzy">
-
-### Erstellen der Analyse 
-
-#### Netgen 
-
-1.  Wähle das Modell
-2.  Klicke auf <img alt="" src=images/FEM_Analysis.png  style="width   *16px;"> [Neue mechanische Analyse](FEM_Analysis/de.md) aus dem Menü, um eine Analyse aus dem ausgewählten Objekt zu erstellen
-3.  Klicke im Vernetzungsdialog auf **OK**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Du kannst auch ein Netz auf eine Mechanische Analyse ziehen und ablegen, die kein Netz in der Baumansicht hat.
-
-
-</div>
+Man kann auch ein Netz auf eine mechanische Anylyse ziehen und ablegen, die noch kein Netz in der [Baumansicht](Tree_view/de.md) enthält.
 
 #### GMSH
 
+1.  Model auswählen.
+2.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> [FEMGmsh from shape by Gmsh](FEM_MeshGmshFromShape/de.md)   * Erstellt mit Hlfe von Gmsh ein Finite-Elemente-Netz eines Modells.
+3.  Im Vernetzungsdialog klickt man auf **Anwenden** und anschließend auf **OK**.
 
-<div class="mw-translate-fuzzy">
+Wir haben unser Objekt nun vernetzt und sind bereit, Randbedingungen und Kräfte hinzuzufügen.
 
-#### GMSH 
+### Berechnung
 
-Die Verwendung des Makros von psicofil wird empfohlen und wird für dieses Beispiel verwendet.
+#### Standardablauf
 
-1.  Aktiviere das Makro
-2.  Wähle das Objekt aus, das du verwenden möchtest, in diesem Fall unseren Wüprfel
-3.  Hake das Kästchen **Mechanische Analyse aus dem Netz erstellen** an
-4.  Klicke auf **OK**
+1.  Das imAnalyse-Container enthaltene Löser-Objekt <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> auswählen.
+2.  Den Menüeintrag <img alt="" src=images/FEM_SolverControl.svg  style="width   *24px;"> [Solver job control](FEM_SolverControl/de.md) auswählen.
+3.  **.inp Datei schreiben** auswählen.
+4.  **CalculiX ausführen** auswählen.
+5.  Die Schaltfläche **Schließen** drücken.
 
+#### Schneller Ablauf 
 
-</div>
-
-Wir haben unser Objekt nun vernetzt und sind bereit, Beschränkungen und Kräfte hinzuzufügen.
-
-### Constraints and Forces 
-
-
-<div class="mw-translate-fuzzy">
-
-### Beschränkungen und Kräfte 
-
-1.  Blende das Netz in der Baumansicht aus.
-2.  Zeige das Originalmodell
-3.  Wähle <img alt="" src=images/FEM_FixedConstraint.png  style="width   *16px;"> [Erstelle Feste FEM Beschränkung ](FEM_ConstraintFixed/de.md)
-4.  Wähle die Rückseite des Würfels (Fläche auf der **YZ** Achse) und klicke auf OK
-5.  Wähle <img alt="" src=images/FEM_ForceConstraint.png  style="width   *16px;"> [Erstelle FEM Kraftbeschränkung ](FEM_ConstraintForce/de.md)
-6.  Wähle die Vorderseite des Würfels (die Seite parallel zur Rückseite) und setze den Wert **Flächenbelastung** auf 9000000,00
-7.  Setze die **Richtung** auf **-Z**, durch Anwahl einer der Flächenkanten parallel zu dieser Richtung.
-8.  Klicke auf OK.
-
-
-</div>
-
-Wir haben jetzt die Beschränkungen und Kräfte für unsere statische Studie festgelegt.
-
-### Final preparations 
-
-
-<div class="mw-translate-fuzzy">
-
-### Letzte Vorbereitungen 
-
-1.  Wähle <img alt="" src=images/FEM_Material.png  style="width   *16px;"> [Mechanisches Material\...](FEM_MaterialSolid/de.md) und wähle als Material Calculix
-2.  Klicke **OK**
-
-
-</div>
-
-### Running the Solver 
-
-#### Standard Procedure 
-
-
-<div class="mw-translate-fuzzy">
-
-### Ausführen des Lösers 
-
-#### Standardverfahren
-
-1.  Wähle das Löserobjekt <img alt="" src=images/FEM_Solver.png  style="width   *16px;">, das in der **Mechanischen Analyse** enthalten ist
-2.  Wähle <img alt="" src=images/FEM_Calculation.png  style="width   *16px;"> [Berechnung starten](FEM_SolverControl/de.md) aus dem Menü
-3.  Wähle **Calculix Eingabedatei schreiben**
-4.  Wähle **Run Calculix**
-5.  Klicke **Schließen**
-
-
-</div>
-
-#### Quick Procedure 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Schnellverfahren
-
-1.  Wähle das Löserobjekt <img alt="" src=images/FEM_Solver.png  style="width   *16px;">, das in der *\'Mechanischen Analyse* enthalten ist
-2.  Klicke auf <img alt="" src=images/FEM_RunCalculiXccx.png  style="width   *16px;"> [Schnellanalyse](FEM_SolverRun/de.md).
-
-
-</div>
-
-### Analyzing Results 
-
-
-<div class="mw-translate-fuzzy">
+1.  Das Löserobjekt <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> auswählen, das sich im **Analysis**-Container befindet.
+2.  Auf <img alt="" src=images/FEM_SolverRun.svg  style="width   *24px;"> [Run solver calculations](FEM_SolverRun/de.md) klicken.
 
 ### Ergebnisse analysieren 
 
-1.  Wähle aus dem **Objektbaum** das **Ergebnisse** Objekt
-2.  Wähle <img alt="" src=images/FEM_ShowResult.png  style="width   *16px;"> [Ergebnis anzeigen](FEM_ResultShow/de.md)
-3.  Wähle unter den verschiedenen Ergebnistypen, um die Ergebnisse anzuzeigen
+1.  Das **CCX_Results**-Objekt im **Objektbaum** auswählen.
+2.  <img alt="" src=images/FEM_ResultShow.svg  style="width   *24px;"> [Ergebnis anzeigen](FEM_ResultShow/de.md) auswählen.
+3.  Einen der verschiedenen Ergebnistypen auswählen, um die Ergebnisse anzuzeigen.
 4.  Der Schieberegler am unteren Rand kann verwendet werden, um die Darstellung des Netzes zu ändern. Auf diese Weise können wir die Verformung, die das Objekt erfährt, visualisieren, wobei zu beachten ist, dass es sich hierbei um eine Annäherung handelt.
-5.  Um die Ergebnisse zu entfernen, wähle <img alt="" src=images/FEM_PurgeResults.png  style="width   *16px;"> [Säberungsergebnisse](FEM_ResultsPurge/de.md)
+5.  Um die Ergebnisse zu entfernen, wähle <img alt="" src=images/FEM_ResultsPurge.svg  style="width   *24px;"> [Purge results](FEM_ResultsPurge/de.md)
 
 
-</div>
+{{Note|Vergleich zur vorherigen Beispieldatei|Wird der Ergebnistyp '''Verschiebung Z''' gewählt, kann man sehen, dass der erhaltene Wert fast identisch mit dem von FreeCAD gelieferten Testbeispiel ist. Unterschiede können aufgrund der Qualität des Netzes und der Anzahl der Knoten, die es besitzt, auftreten.}}
 
-
-{{Note|Vergleich zur vorherigen Beispieldatei|Wenn du den Ergebnistyp '''Z Verschiebung''' wählst, kannst du sehen, dass der erhaltene Wert fast identisch mit dem von FreeCAD gelieferten Testbeispiel ist. Unterschiede können aufgrund der Qualität des Netzes und der Anzahl der Knoten, die es besitzt, auftreten.}}
-
-
-<div class="mw-translate-fuzzy">
-
-Wir sind nun mit dem grundlegenden Arbeitsablauf für das [FEM Modul](FEM_Workbench/de.md) fertig.
-
-
-</div>
+Wir sind nun mit dem grundlegenden Arbeitsablauf für den Arbeitsbereich [FEM](FEM_Workbench/de.md) fertig.
 
 
  {{FEM Tools navi}}

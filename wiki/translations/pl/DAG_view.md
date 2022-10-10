@@ -1,5 +1,5 @@
 # DAG view/pl
-## Introduction
+## Wprowadzenie
 
 
 {{TOCright}}
@@ -8,7 +8,7 @@ The [DAG view](DAG_view.md) is a [directed acyclic graph](https   *//en.wikipedi
 
 The DAG view resembles the graph that can be produced from a Git repository and its branches. Together with the standard [tree view](tree_view.md) and the [dependency graph](Std_DependencyGraph.md), the DAG view is a tool to inspect the parametric history of objects in a document.
 
-## Example
+## Przykład
 
 A simple model will be seen with different views.
 
@@ -55,7 +55,7 @@ In the [parameter editor](Std_DlgParameter.md) you can also change some properti
     -   1 - child on top, parent under it
     -   -1 - parent on top, children under it
 
-## Links
+## Odnośniki internetowe 
 
 -   [DAGView](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=11276), forum thread presenting the new tool.
 -   [easter egg of PartDesign Next   * DAG View](https   *//forum.freecadweb.org/viewtopic.php?t=15375), including the view together with the update to PartDesign.

@@ -33,7 +33,7 @@ Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et
 
 -    **Objects**   * Liste les objets a connecter. En général deux objets suffisent, un compound d\'objets fonctionne (Depuis V0.17, cette propriété n\'est pas affichée dans l\'[éditeur de propriétés](Property_editor/fr.md) mais seulement disponible via [Python](#Script.md)).
 
--    **Refine**   * choisir d\'appliquer ou non un [Affinage de forme](Part_RefineShape/fr.md) sur la forme finale. Par défaut cette valeur est déterminée par la case *Affiner les modèles automatiquement après une opération booléenne* dans les [PartDesign préférences](PartDesign_Preferences/fr.md).
+-    **Refine**   * choisir d\'appliquer ou non un [Affinage de forme](Part_RefineShape/fr.md) sur la forme finale. Par défaut cette valeur est déterminée par la case *Affiner les modèles automatiquement après une opération booléenne* dans les [PartDesign Préférences](PartDesign_Preferences/fr.md).
 
 -    **Tolerance**   * Valeur de \"flou\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes d\'entrée.
 
@@ -50,9 +50,9 @@ Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et
 
 ## Algorithme
 
-Les algorithmes derrière les outils Joindre sont très simples, et les comprendre est important pour utiliser les outils correctement. L\'algorithme de Connecter, en particulier, est plus complexe que les autres, mais il suffit généralement d\'y penser comme d\'une variante symétrique de l\'[algorithme Intégrer (Embed)](Part_JoinEmbed/fr#Algorithme.md).
+Les algorithmes derrière les outils Joindre sont très simples, et les comprendre est important pour utiliser les outils correctement. L\'algorithme de Connecter, en particulier, est plus complexe que les autres, mais il suffit généralement d\'y penser comme d\'une variante symétrique de l\'[algorithme intégré](Part_JoinEmbed/fr#Algorithme.md).
 
-1\. Chaque objet est coupé à l\'intersection avec l\'autre (voir [Fragmentation booléenne](Part_BooleanFragments/fr.md))
+1\. Chaque objet est coupé à l\'intersection avec l\'autre (voir [Part Fragments booléens](Part_BooleanFragments/fr.md))
 
 2\. Parmi les morceaux d\'un objet, seul le plus grand est conservé ; tout le reste est jeté.
 
@@ -67,7 +67,7 @@ Les algorithmes derrière les outils Joindre sont très simples, et les comprend
 
 ## Script
 
-L\'outil Joindre peut être utilisé dans des [macros](macros/fr.md) à partir de la console Python en utilisant la fonction suivante    *
+L\'outil Joindre peut être utilisé dans des [macros](Macros/fr.md) à partir de la [console Python](Python_console/fr.md) en utilisant la fonction suivante    *
 
 **BOPTools.JoinFeatures.makeConnect(name)**
 
@@ -80,17 +80,16 @@ Connecter peut également être appliqué à des formes simples, sans avoir beso
 
 Cela peut être utile pour créer des fonctionnalités de script personnalisées Python.
 
-Exemple    * {{code|code=
+Exemple    *
+
+
+{{code|code=
 import Part
 j = Part.BOPTools.JoinFeatures.makeConnect(name= 'Connect')
 j.Objects = FreeCADGui.Selection.getSelection()
-}} L\'outil lui-même est implémenté en Python, voir **/Mod/Part/BOPTools/JoinFeatures.py** ([Github lien](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) là où FreeCAD est installé.
+}}
 
-## Histoire
-
--   L\'outil a été introduit dans FreeCAD v0.16.5069
-
--   L\'outil a été ré-implémenté pour fonctionner via generalFuse dans FreeCAD V0.17.8053
+L\'outil lui-même est implémenté en Python, voir **/Mod/Part/BOPTools/JoinFeatures.py** ([Github lien](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) là où FreeCAD est installé.
 
 
 

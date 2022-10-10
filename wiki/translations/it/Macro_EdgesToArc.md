@@ -16,29 +16,17 @@
 
 A volte si incontrano contorni che contengono archi composti da piccoli segmenti retti. Questo accade spesso quando si lavora con i file di altri programmi. Questa macro rende relativamente facile riconvertire questi archi discretizzati in archi di cerchio. L\'operazione riduce la dimensione del file e lo rende più gestibile.
 
-
-<div class="mw-translate-fuzzy">
-
-Per utilizzare questa macro, è necessario degradare il contorno e scomporlo in singoli segmenti con la funzione {{KEY/it|<img src="images/Draft_Downgrade.png" width=16px> [Draft Downgrade](Draft_Downgrade/it.md)}}. Dopo basta selezionare i segmenti che si desidera sostituire con un arco di cerchio ed eseguire la macro. Servono almeno due segmenti.
-
-
-</div>
+Per utilizzare questa macro, è necessario degradare il contorno e scomporlo in singoli segmenti con la funzione {{KEY/it|<img src="images/Draft_Downgrade.svg" width=16px> [Draft Downgrade](Draft_Downgrade/it.md)}}. Dopo basta selezionare i segmenti che si desidera sostituire con un arco di cerchio ed eseguire la macro. Servono almeno due segmenti.
 
 La macro controlla se tutti i segmenti si trovano su un cerchio comune e in questo caso crea l\'arco e rimuove i segmenti, altrimenti si interrompe.
 
-
-<div class="mw-translate-fuzzy">
-
-A causa di piccole imprecisioni nei calcoli, la funzione {{KEY/it|<img src="images/Draft_Upgrade.png" width=16px> [Draft Upgrade](Draft_Upgrade/it.md)}} può talvolta non riuscire a ricombinare gli altri bordi e gli archi in un unico contorno. In questo caso la [Macro\_SuperWire](Macro_SuperWire/it.md) fornisce un modo più efficace per fare questo.
-
-
-</div>
+A causa di piccole imprecisioni nei calcoli, la funzione {{KEY/it|<img src="images/Draft_Upgrade.svg" width=16px> [Draft Upgrade](Draft_Upgrade/it.md)}} può talvolta non riuscire a ricombinare gli altri bordi e gli archi in un unico contorno. In questo caso la [Macro_SuperWire](Macro_SuperWire/it.md) fornisce un modo più efficace per fare questo.
 
 ## Script
 
 ToolBar Icon ![](images/Macro_EdgesToArc.png )
 
-**Macro\_EdgesToArc.FCMacro**
+**Macro_EdgesToArc.FCMacro**
 
 
 {{MacroCode|code=

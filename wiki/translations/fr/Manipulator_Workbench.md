@@ -9,28 +9,28 @@ L\'[Atelier Manipulator](Manipulator_Workbench/fr.md) est un [atelier externe](E
 
 ## Fonctionnalités
 
-![](images/Aligner-ico.png ) **Aligner    *** un ensemble d\'outils pour déplacer et aligner des pièces 3D ; on peut également aligner un objet (face, bord, point) sur l\'origine dans FreeCAD.
+![](images/Aligner-ico.png ) **Aligner    *** ensemble d\'outils permettant de déplacer et d\'aligner des pièces 3D ; il peut également aligner un objet (face, arête, point) sur l\'origine dans FreeCAD.
 
-![](images/Manipulator_Mover.svg ) **Mover   *** ensemble d\'outils pour déplacer et faire pivoter des pièces 3D sur différents axes.
+![](images/Manipulator_Mover.svg ) **Mover    *** ensemble d\'outils pour déplacer et faire pivoter des pièces 3D sur différents axes.
 
-![](images/Manipulator_Caliper.svg ) **Caliper   *** ensemble d\'outils pour mesurer les pièces en 3D avec des fonctions de capture, Rayon, Longueur, Angle.
+![](images/Manipulator_Caliper.svg ) **Caliper    *** ensemble d\'outils permettant de mesurer des pièces 3D, avec une fonction d\'aimantation et des mesures de rayon, de longueur et d\'angle.
 
 Ces aides fonctionnent avec les objets **Part, App   *   *Part et Body**.
 
-Les outils peuvent être **Flottants** ou **Dockés Gauche ou Droite**.
+Les outils peuvent être **flottants** ou **dockés à gauche ou à droite**.
 
 Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des conseils utiles.
 
 ## Références
 
--   Auteur sur github   * [\@easyw](https   *//github.com/easyw)
+-   Auteur sur github    * [\@easyw](https   *//github.com/easyw)
 -   Forums FreeCAD    * [easyw-fc](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
 -   Code source sur github   * <https   *//github.com/easyw/Manipulator>
 -   Annonces/discussion du forum    * <https   *//forum.freecadweb.org/viewtopic.php?t=24742>
 
 ## Tutoriel
 
-<img alt="Title Manipulator-WB-\@Work" src=images/Manipulator-WB-@Work.png  style="width   *1024px;">
+<img alt="Title Manipulator-WB-@Work" src=images/Manipulator-WB-@Work.png  style="width   *1024px;">
 
 
 
@@ -39,40 +39,40 @@ Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des
 ## Outils
 
 ![](images/Manipulator-WB-Tools.png ) 
-*Ci-dessus   * boîte de dialogue de l'atelier du manipulateur. Pour une description plus détaillée, voir [https   *//github.com/easyw/Manipulator/blob/master/README.md README.md] sur Github.*
+*Ci-dessus    * boîte de dialogue de l'atelier Manipulator. Pour une description plus détaillée, voir [https   *//github.com/easyw/Manipulator/blob/master/README.md README.md] sur Github.*
 
 ### Aligner
 
 ![](images/Manipulator-WB-Aligner.gif ) 
-*Aligner   * ensemble d'outils pour déplacer et aligner des pièces 3D; il peut également aligner un objet (face, arête, point) sur l'origine dans FreeCAD*
+*Aligner    * ensemble d'outils permettant de déplacer et d'aligner des pièces 3D ; il peut également aligner un objet (face, arête, point) sur l'origine dans FreeCAD.*
 
 ### Mover
 
 ![](images/Manipulator-WB-Mover.gif ) 
-*Mover   * ensemble d'outils pour déplacer et faire pivoter des pièces 3D sur différents axes*
+*Mover    * ensemble d'outils pour déplacer et faire pivoter des pièces 3D sur différents axes*
 
 ![](images/Manipulator-WB-Mover-with-App_Part&Body.gif ) 
-*Mover   * Utilisation de App   *Part et Corps*
+*Mover    * Utilisation de App   *Part et d'un corps*
 
 ![](images/Manipulator-WB-Mover-with-External-Reference.gif ) 
-*Mover   * avec référence externe*
+*Mover    * avec une référence externe*
 
 ### Caliper
 
 ![](images/Manipulator-WB-Measure-Radius.gif ) 
-*Caliper   * mesure du rayon*
+*Caliper    * mesure de rayon*
 
 ![](images/Manipulator-WB-Measure-Angles.gif ) 
 *Caliper   * mesure d'angles*
 
 ![](images/Manipulator-WB-Dimension.gif ) 
-*Caliper   * mesure de dimensions*
+*Caliper    * mesure de dimensions*
 
 ![](images/Manipulator-WB-Dimension-2.gif ) 
-*Caliper   * mesure de dimensions (cont.)*
+*Caliper    * mesure de dimensions (suite)*
 
 ![](images/Manipulator-WB-Parallel-Planes-Distance.gif ) 
-*Caliper   * distance entre deux plans parallèles*
+*Caliper    * distance entre deux plans parallèles*
 
 ### Manipulator
 
@@ -94,7 +94,7 @@ Si une installation manuelle est nécessaire, veuillez suivre les instructions s
 
 <div class="mw-collapsible-content">
 
--   Copie de la source Manipulator dans le sous-répertoire **Mod** de l\'application FreeCAD.
+-   Copier les sources de Manipulator dans le sous-répertoire **Mod** de l\'application FreeCAD.
 
 
 ```python

@@ -174,7 +174,17 @@ Sketcher не предназначен для создания 2D чертеже
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Паз](Sketcher_CreateSlot/ru.md)   * Построить овал, по двум точкам.
 
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Фаска](Sketcher_CreateFillet/ru.md)   * Создать фаску между двумя линиями, соединенными в одной точке. Выберите обе линии или нажмите на угловую точку, затем активируйте инструмент.
+
+
+</div>
+
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width   *32px;"> [Обрезать](Sketcher_Trimming/ru.md)   * Обрезать линию, окружность или дугу относительно выбранной точки.
 

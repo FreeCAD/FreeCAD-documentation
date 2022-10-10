@@ -24,7 +24,7 @@ Ayúdanos a construir, corregir y extender esta documentación. Corrige errores,
 
 Algunas áreas en las que será bienvenido tu trabajo   *
 
--   La página [   *Category   *Command\_Reference](   *Category_Command_Reference.md) lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
+-   La página [   *Category   *Command_Reference](   *Category_Command_Reference.md) lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
 -   La sección [Tutorials](Tutorials/es.md) necesita ejemplos sobre cómo usar los ambientes de trabajo. Si desarrollaste algo genial con FreeCAD, ¿por qué no documentar cómo lo hiciste para la posteridad?
 -   Hay tickets abiertos en el [bug tracker](Tracker/es.md) de FreeCAD etiquetados como [\"documentation\"](https   *//freecadweb.org/tracker/search.php?tag_string=documentation) que podrían necesitar algo de amor.
 
@@ -53,9 +53,9 @@ For details on translation, see [Localisation](Localisation.md).
 
 ## Traduce la documentación 
 
-Traducir esta wiki es sencillo, simplemente necesitas añadir una página con el código del idioma (/languagecode) para crear la traducción. Por ejemplo, para traducir la página [Part\_Workbench](Part_Workbench.md) (su url termina con index.php?title=Part\_Module) al francés, simplemente tendrías que añadir /fr a la url, lo cual creará una página [Part\_Workbench/fr](Part_Workbench/fr.md).
+Traducir esta wiki es sencillo, simplemente necesitas añadir una página con el código del idioma (/languagecode) para crear la traducción. Por ejemplo, para traducir la página [Part_Workbench](Part_Workbench.md) (su url termina con index.php?title=Part_Module) al francés, simplemente tendrías que añadir /fr a la url, lo cual creará una página [Part_Workbench/fr](Part_Workbench/fr.md).
 
-For details on translation, see [Localisation\#Translating the wiki](Localisation#Translating_the_wiki.md).
+For details on translation, see [Localisation#Translating the wiki](Localisation#Translating_the_wiki.md).
 
 Please be sure you are familiar with the basics of wiki markup; see [Help   *Editing](Help_Editing.md) for a reference.
 
@@ -114,7 +114,7 @@ Escribir código para FreeCAD no es difícil, y no necesitas ningún tipo de per
 
 </div>
 
-## Model
+## Create models 
 
 FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 

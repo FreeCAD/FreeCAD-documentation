@@ -26,6 +26,8 @@ Da fare
 
 </div>
 
+The value at this point for the given **Field** is output to the dialog. The value of the data point is also anytime accessible via the [property](Property_editor.md) **Point Data**.
+
 
 
 

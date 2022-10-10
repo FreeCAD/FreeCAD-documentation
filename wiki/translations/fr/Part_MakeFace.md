@@ -12,7 +12,7 @@
 
 ## Description
 
-Part Créer une face crée un [Part Plan](Part_Plane/fr.md) dans une forme personnalisée. La forme est définie par un contour d\'esquisse fermé.
+**Part Créer une face** crée un [Part Plan](Part_Plane/fr.md) dans une forme personnalisée. La forme est définie par un contour d\'esquisse fermé.
 
 Il est possible d\'imbriquer des contours fermés, par exemple pour avoir des cercles à l\'intérieur d\'un polygone. Dans ce cas, la face sera créée entre les contours comme dans cet exemple    *
 
@@ -25,7 +25,7 @@ Il est possible d\'imbriquer des contours fermés, par exemple pour avoir des ce
 ## Utilisation
 
 1.  Sélectionnez une esquisse définissant au moins un contour fermé.
-2.  Appuyez sur le bouton <img alt="" src=images/Part_MakeFace.svg  style="width   *24px;"> [Créer une face à partir de fils](Part_MakeFace/fr.md).
+2.  Appuyez sur le bouton **<img src="images/Part_MakeFace.svg" width=16px> [Créer une face à partir de fils](Part_MakeFace/fr.md)**.
 
 
 

@@ -12,13 +12,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Erhöht den Grad des B-Splines (siehe [B-Spline](https   *//en.wikipedia.org/wiki/B-spline)).
-
-
-</div>
+Erhöht den Grad (Ordnung) der B-Spline-Kurve (Siehe die Seite [B-Splines](B-Splines.md) für weitere Informationen über B-splines).
 
 B-splines are basically a combination of [Bézier curves](https   *//en.wikipedia.org/wiki/Bezier_curve#Constructing_B%C3%A9zier_curves) (nicely explained in [this](https   *//www.youtube.com/watch?v=bE1MrrqBAl8) and [this](https   *//www.youtube.com/watch?v=xXJylM2S72s) video).
 
@@ -44,7 +38,8 @@ You can see that now each segment has 2 control points and the knots are coincid
 
 ## Anwendung
 
-1.  Eine Kante eines existierenden B-Splines auswählen und die Schaltfläche **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width   *24px"> '''Grad des B-Splines erhöhen''' drücken**.
+1.  Eine Kante eines existierenden B-Splines auswählen.
+2.  Die Schaltfläche **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width   *24px"> '''Grad des B-Splines erhöhen''' drücken**.
 
 
 

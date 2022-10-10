@@ -61,7 +61,7 @@ Per aggiungere la nuova estensione di file all\'elenco si deve aggiungere questa
 FreeCAD.addImportType("Your new File Type (*.ext)","Import_Ext") 
 ```
 
-Poi nel file Import\_Ext.py   *
+Poi nel file Import_Ext.py   *
 
 
 ```python
@@ -1035,7 +1035,7 @@ App.activeDocument().recompute()
 
 Esempi di ricerca e decodifica di informazioni su un oggetto.
 
-Ogni sezione separata da \"\#\#\#\#\#\#\#\#\#\#\#\#\" è indipendente e può essere copiata direttamente nella console Python, o in una macro o usata come macro a sè stante. La descrizione della macro si trova nel commento.
+Ogni sezione separata da \"############\" è indipendente e può essere copiata direttamente nella console Python, o in una macro o usata come macro a sè stante. La descrizione della macro si trova nel commento.
 
 Le informazioni ricercate in questo modo sono visualizzate nella finestra dei rapporti attivabile con Visualizza -\> Viste -\> Report
 
@@ -1758,6 +1758,26 @@ myFace.cutHoles([wire1])
 myFace.validate()
 
 Part.show(myFace)
+```
+
+
+{{Top}}
+
+### Close and restart FreeCAD 
+
+
+```python
+import PySide2 
+from PySide2 import QtWidgets, QtCore, QtGui
+
+def restart_freecad()   *
+    """Shuts down and restarts FreeCAD"""
+
+    args = QtWidgets.QApplication.arguments()[1   *]
+    if FreeCADGui.getMainWindow().close()   *
+        QtCore.QProcess.startDetached(
+            QtWidgets.QApplication.applicationFilePath(), args
+        )
 ```
 
 

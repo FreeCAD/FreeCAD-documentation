@@ -25,6 +25,8 @@ Te narzędzia służą do tworzenia obiektów na stronie.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width   *32px;"> [Odśwież widok](TechDraw_RedrawPage/pl.md)   * wymusza aktualizację wybranej strony. {{Version/pl|0.19}}
 
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *32px;"> [Drukuj wszystkie strony](TechDraw_PrintAll/pl.md)   * drukuje wszystkie strony rysunku. {{Version/pl|1.0}}
+
 ## Widoki
 
 Są to narzędzia do tworzenia obiektów widoku.
@@ -33,7 +35,7 @@ Są to narzędzia do tworzenia obiektów widoku.
 
 -   <img alt="" src=images/TechDraw_ActiveView.svg  style="width   *32px;"> [Wstaw aktywny widok](TechDraw_ActiveView/pl.md)   * wstawia kopię widoku z okna 3D do strony rysunku. {{Version/pl|0.19}}
 
--   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Wstaw wiele połączonych widoków](TechDraw_ProjectionGroup/pl.md)   * otwiera okno dialogowe do tworzenia wielu widoków obiektu z wielu kierunków.
+-   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Wstaw wiele połączonych widoków](TechDraw_ProjectionGroup/pl.md)   * otwiera okno dialogowe do tworzenia wielu widoków obiektu z róznych kierunków.
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Wstaw widok sekcji na stronę](TechDraw_SectionView/pl.md)   * dodaje widok przekroju dla aktualnego widoku.
 
@@ -48,6 +50,20 @@ Są to narzędzia do tworzenia obiektów widoku.
 -   <img alt="" src=images/TechDraw_MoveView.svg  style="width   *32px;"> [Przenieś widok](TechDraw_MoveView/pl.md)   * przenosi widok i jego elementy zależne na inną stronę. {{Version/pl|0.20}}
 
 -   <img alt="" src=images/TechDraw_ShareView.svg  style="width   *32px;"> [Udostępnij widok](TechDraw_ShareView/pl.md)   * współdzieli widok pomiędzy wieloma stronami. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width   *32px;"> [Rzut kształtu](TechDraw_ProjectShape/pl.md)   * tworzy rzut kształtu w oknie [widoku 3D](3D_view/pl.md). {{Version/pl|0.20}}
+
+## Układanie widoków 
+
+Są to narzędzia do zmiany kolejności układania, która kontroluje pozorną głębokość widoków na stronie.
+
+-   <img alt="" src=images/TechDraw_StackTop.svg  style="width   *32px;"> [Przesuń widok na górę](TechDraw_StackTop/pl.md)   * przesuwa widoki na górny poziom. {{Version/pl|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackBottom.svg  style="width   *32px;"> [Przesuń widok na dół](TechDraw_StackBottom/pl.md)   * przesuwa widoki na dolny poziom. {{Version/pl|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackUp.svg  style="width   *32px;"> [Przesuwa widoki w górę](TechDraw_StackUp/pl.md)   * przesuwa widoki o jeden poziom w górę. {{Version/pl|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackDown.svg  style="width   *32px;"> [Przesuwa widoki w dół](TechDraw_StackDown/pl.md)   * przesuwa widoki o jeden poziom w dół. {{Version/pl|1.0}}
 
 ## Wycinki
 

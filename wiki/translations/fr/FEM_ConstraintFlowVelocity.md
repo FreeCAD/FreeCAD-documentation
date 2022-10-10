@@ -13,7 +13,7 @@
 
 Applique une vitesse d\'écoulement comme condition limite à un bord en 2D ou à une face en 3D.
 
-![](images/FEM-constraint-flow-velocity_task-panel.png ) 
+<img alt="" src=images/FEM-constraint-flow-velocity_task-panel.png  style="width   *400px;"> 
 *Menus des contraintes de vitesse d'écoulement dans le [Panneau des tâches](Task_panel/fr.md)*
 
 ## Utilisation

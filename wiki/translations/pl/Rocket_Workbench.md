@@ -15,9 +15,6 @@ Części są tworzone przez określenie parametrów w oknie dialogowym zadania. 
 
 ## Instalacja
 
-
-**Środowisko pracy Rakieta jest w trakcie opracowywania i będzie się często zmieniać. Pamiętaj, aby regularnie go aktualizować!**
-
 To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Menadżera dodatków](Std_AddonMgr.md). Aby zainstalować go ręcznie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
 
 ## Rozpoczęcie pracy 
@@ -39,6 +36,8 @@ Komponenty utworzone za pomocą środowiska pracy Rakieta są zasadniczo częśc
 -   <img alt="" src=images/Rocket_Bulkhead.svg  style="width   *32px;"> [Wręga](Rocket_Bulkhead/pl.md)   * Tworzy wręgę.
 
 -   <img alt="" src=images/Rocket_Fin.svg  style="width   *32px;"> [Statecznik](Rocket_Fin/pl.md)   * Tworzy statecznik.
+
+-   <img alt="" src=images/Rocket_FinCan.svg  style="width   *32px;"> [Płetwa ogonowa](Rocket_FinCan/pl.md)   * Tworzy płetwę ogonową.
 
 -   <img alt="" src=images/Rocket_LaunchGuideComposite.png  style="width   *32px;"> [Prowadnica startowa](Rocket_CompLaunchGuide/pl.md)   * Komponent do tworzenia prowadnicy startowej.
 

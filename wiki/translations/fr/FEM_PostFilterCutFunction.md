@@ -9,11 +9,21 @@
 
 # FEM PostFilterCutFunction/fr
 
+
+</div>
+
 ## Description
 
 Affiche les résultats sur une sphère ou un plan traversant le modèle.
 
+<img alt="" src=images/FEM_Function-Cut-Filter-Example.png  style="width   *400px;">
+
+*A function cut filter with a sphere as cut function.The original pipeline is the semi-transparent object.*
+
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé.
 2.  Lancez la commande de l\'une des façons suivantes    *
@@ -23,6 +33,11 @@ Affiche les résultats sur une sphère ou un plan traversant le modèle.
 4.  Appuyez sur le bouton **<img src="images/List-add.svg" width=16px> Créer** et sélectionnez **<img src="images/Fem-post-geo-plane.svg" width=16px> Plan** ou **<img src="images/Fem-post-geo-sphere.svg" width=16px> Sphère** ou choisissez un plan/sphère existant dans la liste déroulante. Si nécessaire, ajustez les paramètres du plan/sphère pour vous assurer qu\'il intersecte le modèle.
 5.  Les résultats seront affichés sur la surface du plan/sphère.
 6.  Cliquez sur le bouton **OK** pour terminer la commande.
+
+
+</div>
+
+**Note**   * If there exist not yet a filter function, you can only directly set a **Field** after its creation when <img alt="" src=images/FEM_PostApplyChanges.svg  style="width   *24px;"> [Apply Changes](FEM_PostApplyChanges.md) is on. Otherwise you can first do this after reopening the filter dialog.
 
 
 

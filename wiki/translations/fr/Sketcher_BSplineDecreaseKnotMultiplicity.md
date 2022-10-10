@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher BSplineDecreaseKnotMultiplicity
    Name/fr   *Sketcher Moins de nœuds d'une B-spline
-   MenuLocation   *Esquisse → Outils d'esquisse B-spline → Diminuer la multiplicité de noeuds
+   MenuLocation   *Sketch → Outils d'esquisse B-spline → Diminuer la multiplicité de noeuds
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Version   *0.17
    SeeAlso   *[Sketcher Multiplicité des nœuds d'une B-spline](Sketcher_BSplineKnotMultiplicity/fr.md), [Sketcher Plus de nœuds d'une B-spline](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)
@@ -38,7 +38,7 @@ On peut voir que la spline de multiplicité de nœud 1 est complètement modifi�
 
 1.  Sélectionnez un nœud B-spline, soit   *
     -   Par le bouton **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *16px"> [Diminuer la multiplicité des nœuds](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)**.
-    -   Par le menu **Esquisse → Outils d'esquisse B-spline → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *16px"> Diminuer la multiplicité de nœud**.
+    -   Par le menu **Sketch → Outils d'esquisse B-spline → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *16px"> Diminuer la multiplicité de nœud**.
 
 **Remarque   *** diminuer la multiplicité de 1 à 0 supprimera le nœud car le résultat serait une courbe avec un \"bord\" à la position du nœud (continuité *C*^0^) et cela n\'est pas pris en charge. (Pour créer des courbes par un \"bord\", vous pouvez créer deux splines et les relier.)
 

@@ -44,7 +44,7 @@ Tout travail dans Part Design commence par un [Corps (Body)](Glossary/fr#Body.md
 *Remarque   * cette étape peut être omise. Lors de la création d\'une esquisse, si aucun corps n\'est trouvé, un nouveau corps sera créé et activé automatiquement.*
 2.  Cliquer sur <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Créer une nouvelle esquisse](PartDesign_NewSketch/fr.md). Ceci créera l\'esquisse dans le corps que vous venez de créer.
 3.  Nous devons définir où l\'esquisse sera appliquée. Nous l\'attacherons sur un plan de l\'[Origine](Glossary/fr#Origin.md) du corps.
-4.  Sous l\'[onglet Tâches](Task_panel/fr.md) onglet Tâches de la [vue combinée](Combo_view/fr.md), sélectionnez **YZ\_Plane** dans la liste puis appuyez sur **OK**   *
+4.  Sous l\'[onglet Tâches](Task_panel/fr.md) onglet Tâches de la [vue combinée](Combo_view/fr.md), sélectionnez **YZ_Plane** dans la liste puis appuyez sur **OK**   *
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
@@ -62,7 +62,7 @@ Ensuite, vous utiliserez l\'outil <img alt="" src=images/Sketcher_CreatePolyline
 
 1.  Sélectionnez les deux lignes horizontales avec votre souris en cliquant dessus, et une fois sélectionnées, cliquez sur la <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width   *24px;"> [contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md).
 2.  Sélectionnez la ligne verticale sur la droite puis cliquez sur la <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width   *24px;"> [contrainte verticale](Sketcher_ConstrainVertical/fr.md).
-3.  Sélectionnez les points de début et de fin de votre polyligne et cliquez sur la <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> \[Sketcher\_ConstrainCoincident/fr\|contrainte de coïncidence\]\] pour fermer la polyligne.
+3.  Sélectionnez les points de début et de fin de votre polyligne et cliquez sur la <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) pour fermer la polyligne.
 4.  Sélectionnez la ligne horizontale inférieure et la ligne verticale droite et appliquez la <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width   *24px;"> [contrainte d\'égalité](Sketcher_ConstrainEqual/fr.md).
 5.  Sélectionnez la ligne horizontale ou verticale et appliquez une <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width   *24px;"> [contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md) ou <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width   *24px;"> [contrainte de distance verticale](Sketcher_ConstrainDistanceX/fr.md) et donnez-lui une valeur de 26 mm.
 6.  Sélectionnez la ligne horizontale supérieure, appliquez la contrainte de distance horizontale et donnez-lui une valeur de 5 mm.
@@ -92,7 +92,7 @@ Une fois la face sélectionnée, cliquez sur l\'icône Nouvelle esquisse dans la
 ![](images/tut17_slot_unconstrained.png )
 
 1.  Cliquez droit pour terminer le mode géométrie externe.
-2.  Sélectionnez le point que vous venez de mettre à disposition avec l\'outil de géométrie externe, puis sélectionnez le sommet supérieur droit du rectangle et cliquez sur la contrainte de coïncidence. À ce stade, l\'esquisse doit être entièrement contrainte et ressembler à l\'image suivante.
+2.  Sélectionnez le point que vous venez de mettre à disposition avec l\'outil de géométrie externe, puis sélectionnez le sommet supérieur droit du rectangle et cliquez sur la <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md). À ce stade, l\'esquisse doit être entièrement contrainte et ressembler à l\'image suivante.
 
 ![](images/tut17_slote_constrained.png )
 

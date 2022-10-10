@@ -12,39 +12,32 @@
 
 ## Beschreibung
 
-Bringt einen Punkt auf einem anderen Objekt an, z.B. einer Linien-, Bogen- oder Skizzenachse.
+Bringt einen Punkt an einem anderen Objekt an, z.B. einer Linie, einem Bogen oder einer Skizzenachse.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle den Punkt aus, den du auf einer Linie/Bogen/etc. anbringen möchtest. (**Ergebnis   *** Einmal ausgewählt, wird der Punkt grün).
-2.  Wähle die Linie, die du an dem soeben ausgewählten Punkt anbringen möchtest (**Ergebnis   *** Einmal ausgewählt, wird die Linie grün).
-3.  Rufe das **Punkt auf Objekt beschränken** Werkzeug mit verschiedenen Methoden auf   *
-    -   Drücke die **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** Schaltfläche in der Werkzeugleiste
-    -   Verwende die **Shift** + **O** Tastaturkürzel.
-    -   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Punkt auf Objekt beschränken}} Eintrag im oberen Menü.
-
-
-</div>
+1.  Einen Punkt und eine Kante in beliebiger Reihenfolge auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md)** drücken.
+    -   Das Tastaturkürzel **O**.
+    -   Den Menüeintrag **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width   *16px"> Punkt auf Objekt festlegen** auswählen.
 
 ## Skripten
 
-Die Beschränkung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch den folgenden Befehl erzeugt werden   *
+Die Randbedingung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch den folgenden Befehl erstellt werden   *
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`
 
--    `Skizze`ist ein Skizzenobjekt
+-    `Sketch`ist ein Skizzenobjekt
 
--    `LinieVerschieben`ist die Nummer, die die Linie kennzeichnet, welche den zu bewegenden Punkt enthält, der auf der `fixiertenLinie ` (die Linie, die fixiert ist).
+-    `LineMoving`ist die Nummer, die die Linie kennzeichnet, die den Punkt enthält, der auf die `LineFixed` (die Linie, die fixiert ist) verschoben werden soll.
 
--    `PointOfLineMoving`ist die Nummer des Linienknotens `LinieVerschieben`, der sich mit dem Punkt auf der `fixierte Linie` bewegen soll.
+-    `PointOfLineMoving`ist die Nummer des Knotens der Linie `LineMoving`, der sich auf die Linie `LineFixed` bewegen soll.
 
--    `fixierteLinie`ist die Nummer der Linie, auf die der Punkt `PunktDerLinienbewegung` gesetzt werden soll.
+-    `LineFixed`ist die Nummer der Linie, an die der Punkt `PointOfLineMoving` befestigt werden soll.
 
-Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt, wie man die Zahlen zur Bezeichnung von Linien und Punkten erkennt.
+Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt, wie man die Zahlen zur Bestimmung von Linien und Punkten erkennt.
 
 
 

@@ -26,30 +26,24 @@ Die Skizze enthält zwei zufällig ausgerichtete Linien.
 
 <img alt="" src=images/ConstrainParallel2.png  style="width   *500px;">
 
+Es gibt mehrere Möglichkeiten die Randbedingung ParallelFestlegen aufzurufen   *
 
-<div class="mw-translate-fuzzy">
-
-Wende die Beschränke Parallelbeschränkung entweder durch   *
-
--   Drücken der **[<img src=images/Sketcher_ConstrainParallel.svg style="width   *16px"> [Parallel beschränken](Sketcher_ConstrainParallel.md)** Schaltfläche in der Skizzierer Beschränkungen Werkzeugleiste, durch Wahl des Beschränkung Parallel Menüelements im Skizzierer Beschränkungen Untermenü des Skizzierers (Skizzierer Arbeitsbereich ausgewählt) oder Part Design (Part Design Arbeitsbereich ausgewählt) Menüelements.
--   Verwende das Tastaturkürzel **Umschalt** + **P**.
--   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Parallel beschränken}} Eintrag aus dem oberen Menü.
-
-
-</div>
+-   Die Schaltfläche **[<img src=images/Sketcher_ConstrainParallel.svg style="width   *16px"> [Parallel festlegen](Sketcher_ConstrainParallel.md)** der Sketcher-Werkzeugleiste Skizzen-Beschränkungen drücken.
+-   Das Tastaturkürzel **P**.
+-   Den Menüeintrag **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainParallel.svg style="width   *16px"> Parallel festlegen** auswählen.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width   *500px;">
 
 
 
-*Ergebnis   * Die ausgewählten Linien werden gezwungen, parallel zueinander zu verlaufen. Wenn du die Ausrichtung einer Linie änderst, ändert sich die Ausrichtung der anderen Linie, so dass sie gleich bleibt.*
+*Ergebnis   * Die ausgewählten Linien werden gezwungen, parallel zueinander zu verlaufen. Wird die Ausrichtung einer Linie geändert, ändert sich auch die der anderen Linie, so dass beide Ausrichtungen gleich bleiben.*
 
 ## Skripten
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Parallel', Line1, Line2))```
 
-Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, die für `Line1` und `Line2` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
+Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt die Werte, die für `Line1` und `Line2` verwendet werden können und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 
 

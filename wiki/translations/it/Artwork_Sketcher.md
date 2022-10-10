@@ -1,7 +1,7 @@
 # Artwork Sketcher/it
 Queste icone si trovano nel percorso origine indicato.
 
-For all icons in the source tree, see [Artwork](Artwork.md).
+Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Artwork/it.md)
 
 ## src/Mod/Sketcher/
 
@@ -33,17 +33,11 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  <img alt="" src=images/Sketcher_Pointer_CarbonCopy.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_3PointArc.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_3PointCircle.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_Arc.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_ArcOfEllipse.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_ArcOfHyperbola.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_ArcOfParabola.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_Box.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_BSpline.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_Circle.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_Ellipse.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_Fillet.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_Line.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_Lineset.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Create_Point.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Extension.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_External.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_InsertKnot.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Oblong.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Regular_Polygon.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Slot.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Splitting.svg  style="width   *64px;"> <img alt="" src=images/Sketcher_Pointer_Trimming.svg  style="width   *64px;"> 
 
+### src/Mod/Sketcher/Gui/Resources/icons/small/
 
-<div class="mw-translate-fuzzy">
+I file in questa cartella non possono essere caricati perché l\'estensione del file è `.xpm`.
 
-#### src/Mod/Sketcher/Gui/Resources/icons/small/
-
-
-</div>
-
-Files in this folder cannot be uploaded because the file extension is `.xpm`.
-
-In the past, the `.xpm` icons were used as overlays when displaying constraints in the [3D view](3D_view.md). Now the \"pointer\" SVGs are used instead.
+In passato, le icone `.xpm` sono state utilizzate come sovrapposizioni durante la visualizzazione dei vincoli nella [Vista 3D](3D_view/it.md). Ora vengono utilizzati i \"puntatori\" SVG.
 
 ### src/Mod/Sketcher/Gui/Resources/icons/splines/
 

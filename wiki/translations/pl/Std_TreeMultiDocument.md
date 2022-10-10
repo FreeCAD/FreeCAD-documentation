@@ -1,27 +1,28 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std TreeMultiDocument
-   MenuLocation   *View → TreeView actions → Multi document
-   Workbenches   *All
+   Name/pl   *Std   * Wiele dokumentów w widoku drzewa
+   MenuLocation   *Widok → Akcje widoku drzewa → Wiele dokumentów
+   Workbenches   *wszystkie
    Version   *0.19
-   SeeAlso   *[Std TreeSingleDocument](Std_TreeSingleDocument.md), [Std TreeCollapseDocument](Std_TreeCollapseDocument.md)
+   SeeAlso   *[Jeden dokument](Std_TreeSingleDocument/pl.md), [Zwiń / rozwiń dokument](Std_TreeCollapseDocument/pl.md)
 ---
 
 # Std TreeMultiDocument/pl
 
-## Description
+## Opis
 
-The **Std TreeMultiDocument** command switches the [Tree view](Tree_view.md) DocumentMode to MultiDocument. In this mode all documents are visible in the Tree view and multiple documents can be expanded. The other modes are [SingleDocument](Std_TreeSingleDocument.md) and [CollapseDocument](Std_TreeCollapseDocument.md).
+Polecenie **Wiele dokumentów w widoku drzewa** przełącza tryb widoczności dokumentu w [Widok drzewa](Tree_view/pl.md) na tryb wielu dokumentów. W tym trybie wszystkie dokumenty są widoczne w widoku drzewa i można rozwijać wiele dokumentów. Pozostałe tryby to [Jeden dokument](Std_TreeSingleDocument/pl.md) i [Zwiń / rozwiń dokumenty](Std_TreeCollapseDocument/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Multi document** option from the flyout. Note   * the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeMultiDocument.svg" width=16px> Multi document** option from the menu.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Kliknij czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz z menu opcję **Wiele dokumentów**. Uwaga   * ikonka przycisku zmieni się w zależności od wybranej opcji.
+    -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeMultiDocument.svg" width=16px> Wiele dokumentów**.
 
-## Preferences
+## Ustawienia
 
-The Tree view DocumentMode mode is stored   * **Tools → Edit parameters... → BaseApp → Preferences → TreeView → DocumentMode**. It is an integer value. Possible values are `0` (SingleDocument), `1` (MultiDocument) or `2` (CollapseDocument). The default is `2`.
+Tryb Tryb dokumentu w widoku drzewa jest zapisywany   * **Przybory → Edycja parametrów ... → BaseApp → Preferencje → TreeView → DocumentMode**. Jest to wartość całkowita. Możliwe wartości to `0` *(Jeden Dokument)*, `1` *(Wiele dokumentów)* lub `2` *(Zwiń / rozwiń)*. Domyślnie jest to wartość `2`.
 
 
 

@@ -12,7 +12,7 @@
 
 ![](images/MultiCuts_test.gif )
 
-## Code
+## Script
 
  {{MacroCode|code=
 

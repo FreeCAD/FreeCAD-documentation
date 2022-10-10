@@ -45,8 +45,27 @@ The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from 
 
 </div>
 
--   Use the Scale property to adjust the size of the image.
--   Use the Width and Height properties to clip the image.
+See also [TechDraw View](TechDraw_View#Properties.md).
+
+### Data
+
+
+{{TitleProperty|Image}}
+
+-    **Image File|File**   * The file containing this bitmap.
+
+-    **Image Included|FileIncluded**   * Embedded image file. System use only.
+
+-    **Width|Float**   * The width of the cropped image in mm. Only used if **Crop** is `True`.
+
+-    **Height|Float**   * The height of the cropped image in mm. Idem.
+
+### View
+
+
+{{TitleProperty|Image}}
+
+-    **Crop|Bool**   * Crop the image to **Width** x **Height**.
 
 
 <div class="mw-translate-fuzzy">

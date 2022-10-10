@@ -2,8 +2,8 @@
 - GuiCommand   */fr
    Name   *Sketcher constrain arc or circle
    Name/fr   *Sketcher Contrainte arc ou cercle
+   MenuLocation   *
    Workbenches   *[Atelier Sketcher](Sketcher_Workbench/fr.md)
-   MenuLocation   *Aucun (barre d'outils seulement)
 ---
 
 # Sketcher CompConstrainRadDia/fr

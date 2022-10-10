@@ -1,29 +1,37 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh RemoveCompByHand
-   MenuLocation   *Meshes → Remove components by hand...
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Mesh RemoveComponents](Mesh_RemoveComponents.md), [Arch SplitMesh](Arch_SplitMesh.md)
+   Name/pl   *Siatka   * Usuń elementy Interaktywnie
+   MenuLocation   *Siatki → Usuń elementy ręcznie ...
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Usuń elementy](Mesh_RemoveComponents/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
 ---
 
 # Mesh RemoveCompByHand/pl
 
-## Description
+## Opis
 
-The **Mesh RemoveCompByHand** command removes components from mesh objects.
+Polecenie **Usuń fragmenty ręcznie** usuwa wskazane elementy z obiektów siatkowych.
 
-## Usage
+## Użycie
 
-1.  A component refers to a complete group of connected faces. Usually a mesh object contains a single component. But, for example after using the [Mesh Merge](Mesh_Merge.md) command, a mesh object can contain multiple components.
-2.  The command uses the color red to mark selected components. To see them properly   *
-    -   The **Display Mode** of the mesh objects should show faces. If necessary use the [Std DrawStyle](Std_DrawStyle.md) command to override this property.
-    -   The **Shape Color** of the mesh objects should not be red.
-3.  Select the **Meshes → <img src="images/Mesh_RemoveCompByHand.svg" width=16px> Remove components by hand...** option from the menu.
-4.  The cursor changes to a hand icon.
-5.  Select the components you wish to delete in the [3D view](3D_view.md).
-6.  Optionally select **Clear selected faces** from the 3D view context menu to deselect all components.
-7.  Select **Delete selected faces** from the 3D view context menu to delete the selected components.
-8.  Select **Leave removal mode** from the 3D view context menu to finish the command.
+1.  Fragment odnosi się do kompletnej grupy połączonych powierzchni. Zazwyczaj obiekt siatki zawiera pojedynczy fragment. Ale, na przykład po użyciu polecenia [Scal](Mesh_Merge/pl.md), obiekt siatki może zawierać wiele fragmentów.
+2.  Polecenie używa koloru czerwonego do zaznaczania wybranych fragmentów. Aby je prawidłowo zobaczyć   *
+    -   
+        **Tryb wyświetlania**
+        
+        obiektów siatkowych powinien pokazywać ściany. W razie potrzeby użyj polecenia [Styl kreślenia](Std_DrawStyle/pl.md), aby nadpisać tę właściwość.
+
+    -   
+        **Kolor kształtu**
+        
+        obiektów siatki nie powinien być czerwony.
+3.  Wybierz opcję z menu **Siatki → <img src="images/Mesh_RemoveCompByHand.svg" width=16px> Usuń fragmenty ręcznie ...**.
+4.  Kursor zmienia się na ikonę dłoni.
+5.  Wybierz komponenty, które chcesz usunąć w oknie [widoku 3D](3D_view/pl.md).
+6.  Opcjonalnie wybierz opcję **Wyczyść zaznaczone powierzchnie** z menu podręcznego widoku 3D, aby odznaczyć wszystkie komponenty.
+7.  Wybierz opcję **Usuń zaznaczone powierzchnie** z menu podręcznego widoku 3D, aby usunąć wybrane komponenty.
+8.  Wybierz opcję **Opuść tryb usuwania** z menu podręcznego widoku 3D, aby zakończyć polecenie.
 
 
 

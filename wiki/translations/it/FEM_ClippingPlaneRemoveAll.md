@@ -7,9 +7,17 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Da fare
 
-## Utilizzo
+
+</div>
+
+## Usage
+
+Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width   *16px;"> or the menu **Utilities → <img src="images/FEM_ClippingPlaneRemoveAll.svg" width=16px> Remove all clipping planes**.
 
 
 <div class="mw-translate-fuzzy">

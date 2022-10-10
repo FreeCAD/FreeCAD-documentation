@@ -1,0 +1,49 @@
+---
+- GuiCommand   */fr
+   Name   *TechDraw PrintAll
+   Name/fr   *TechDraw Tout imprimer
+   MenuLocation   *TechDraw → Imprimer toutes les pages
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   Shortcut   *
+   Version   *1.0
+   SeeAlso   *[Std Imprimer](Std_Print/fr.md)
+---
+
+# TechDraw PrintAll/fr
+
+## Description
+
+L\'outil <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *24px;"> **TechDraw Tout imprimer** envoie toutes les pages d\'un document à l\'imprimante.
+
+## Utilisation
+
+1.  Il existe plusieurs façons de lancer l\'outil    *
+    -   Appuyez sur le bouton **<img src="images/TechDraw_PrintAll.svg" width=16px> [Imprimer toutes les pages](TechDraw_PrintAll/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → <img src="images/TechDraw_PrintAll.svg" width=16px> Imprimer toutes les pages** dans le menu.
+    -   Si une page est affichée dans la [zone de vue principale](Main_view_area/fr.md)    * cliquez avec le bouton droit de la souris sur la fenêtre de la page et sélectionnez l\'option **Imprimer toutes les pages** dans le menu contextuel.
+
+## Remarques
+
+-   Utilisez [Std Imprimer](Std_Print/fr.md) pour imprimer une seule page.
+
+## Script
+
+
+**Voir aussi   ***
+
+[TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+
+L\'outil Tout imprimer n\'est pas encore disponible pour les scripts.
+
+
+
+
+
+{{TechDraw Tools navi
+
+}}
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PrintAll/fr

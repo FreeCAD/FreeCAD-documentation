@@ -10,6 +10,9 @@
 
 # Std FreezeViews/ru
 
+
+</div>
+
 ## Введение
 
 FreeCAD can store camera settings in up to 50 \'frozen views\'. The menu options that deal with frozen views can be found in the **View → Freeze display** submenu. Frozen views are not stored in the document and, if not saved with the **[Save views\...](#Save_views.md)** menu option, will be lost when the FreeCAD application closes.
@@ -37,7 +40,7 @@ The **Save views\...** menu option saves all existing frozen views in a file wit
 
 The **Load views\...** menu option loads frozen views from a file with the \*.cam extension. All existing frozen views will be deleted.
 
-### Использование
+### Применение 
 
 1.  Select the **View → Freeze display → Load views...** option from the menu.
 2.  Press the **Yes** button in the Restore views dialog box to confirm you want to lose all existing frozen views.
@@ -85,7 +88,13 @@ For each frozen view a **Restore view** option is added with which it can be res
     -   For the first 9 frozen views   * use the keyboard shortcut   * **Ctrl**+**1** - **Ctrl**+**9**.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

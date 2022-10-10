@@ -16,15 +16,9 @@ Questa macro marca con un punto rosso (modificabile) il centro della faccia (mas
 <img alt="" src=images/Macro_CenterFace_00.png  style="width   *480px;"> 
 *Centro della faccia*
 
+## Utilizzo
 
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-Selezionare una faccia e lanciare la macro. Sulla faccia appare un punto di colore rosso (il colore può essere modificato).
-
-
-</div>
+Selezionare una faccia ed avviare la macro. Sulla faccia appare un punto di colore rosso (il colore può essere modificato).
 
 Per cambiare il colore del punto modificare le righe 36, 37, 38
 
@@ -46,7 +40,7 @@ Cliccare sull\'immagine con il tasto destro del mouse e salvarla nella nuova pos
 
 ## Script
 
-**Macro\_CenterFace.FCMacro**
+**Macro_CenterFace.FCMacro**
 
 
 {{MacroCode|code=

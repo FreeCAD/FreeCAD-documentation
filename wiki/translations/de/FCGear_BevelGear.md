@@ -1,9 +1,9 @@
 ---
 - GuiCommand   */de
    Name   *FCGear BevelGear
-   Name/de   *FCGetriebe KegelradGetriebe
-   MenuLocation   *FCGetriebe → Erstelle ein KegelradGetriebe
-   Workbenches   *[FCGetriebe](FCGear_Workbench/de.md)
+   Name/de   *FCGear Kegelrad
+   MenuLocation   *Gear → Bevel Gear
+   Workbenches   *[FCGear](FCGear_Workbench/de.md)
    Version   *v0.16
 ---
 
@@ -15,72 +15,72 @@ Unter anderem wegen der Geräuschentwicklung werden Kegelzahnräder nicht so hä
 
 Spiralförmige Kegelräder haben gekrümmte Zähne, die im Vergleich zu geraden Kegelrädern einen weicheren Eingriff und einen größeren Zahn zu Zahn Kontakt ermöglichen. Dadurch werden Vibrationen und Geräusche reduziert. Sie können bei hohen Geschwindigkeiten eingesetzt werden und werden normalerweise in Motorrad- und Fahrradgetrieben verwendet.
 
-![](images/Bevel-Gear_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-   *   ![](images/Bevel-Gear_example.png )
-   *   
-    
+![](images/Bevel-Gear_example.png ) 
 *Von links nach rechts   * Geradverzahnung, Spiralverzahnung*
-    
-
-
-</div>
 
 ## Anwendung
 
-1.  Wechsle zur <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md).
-2.  Rufe den Befehl auf verschiedene Weise auf   *
-    -   Drücke die <img alt="" src=images/FCGear_BevelGear.svg  style="width   *22px;"> [Erstellen eines Kegelzahnrads](FCGear_BevelGear/de.md) in der Werkzeugleiste.
-    -   Mit dem **Menü → Kegelradgetriebe**.
-3.  Ändere die Zahnradparameter auf die gewünschten Bedingungen (siehe **Eigenschaften → Daten** unten).
+1.  Zum Arbeitsbereich <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [FCGear](FCGear_Workbench/de.md) wechseln.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **[<img src=images/FCGear_BevelGear.svg style="width   *16px"> [Bevel Gear](FCGear_BevelGear/de.md)** drücken.
+    -   Den Menüeintrag **Gear → [<img src=images/FCGear_BevelGear.svg style="width   *16px"> Bevel Gear** auswählen.
+3.  Die Einstellungen den geforderten Randbedingungen entsprechend ändern (siehe [Eigenschaften](#Eigenschaften.md)).
 
 ## Eigenschaften
+
+Ein FCGear-BevelGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
 
 ### Daten
 
 
-{{Properties_Title|Basis}}
+{{Properties_Title|base}}
 
--    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
+-    **height|Length**   * Default is {{Value|5}}. Value for the bevel gear width.
 
--    **Label**   * User name of the object in the [Tree view](Tree_view.md).
+-    **module|Length**   * Default is {{Value|1}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+
+-    **reset_origin|Bool**   * If {{True}} (default) the center of the axis is at the center of the bottom of the gear (see [Notes](#Notes.md)).
+
+-    **teeth|Integer**   * Default is {{Value|15}}. Number of teeth.
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|computed}}
 
--    **beta**   * With the angle β a helical bevel gear is created (positive value → rotation direction right, negative value → rotation direction left).
+-    **angular_backlash|Angle**   * (read-only)
+
+-    **dw|Length**   * (read-only) Working pitch diameter.
 
 
-{{Properties_Title|gear_parameter}}
+{{Properties_Title|helical}}
 
--    **backslash**   * Default is 0,00. Backlash, also called lash or play, is the distance between the teeths at a gear pair.
+-    **beta|Angle**   * Default is {{Value|0 °}}. With the helix angle β a helical bevel gear is created -- positive value → rotation direction right, negative value → rotation direction left.
 
--    **clearance**   * Default is 0,10 (see also the information in **Note**).
 
--    **height**   * Value for the bevel gear width.
+{{Properties_Title|involute}}
 
--    **m**   * Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Note**).
-
--    **numpoints**   * Default is 6, change of the involute profile. Changing the value can lead to unexpected results.
-
--    **reset_origin**   * If the value is **True**, the center of the axis is at the center of the bottom of the gear (see also the information in **Note**).
-
--    **teeth**   * Number of teeth.
+-    **pitch_angle|Angle**   * Default is {{Value|45 °}}. Angle of taper.
 
 
 {{Properties_Title|involute_parameter}}
 
--    **pitch_angle**   * Angle of taper.
+-    **pressure_angle|Angle**   * Default is {{Value|20 °}} (see [Notes](#Notes.md)).
 
--    **pressure_parameter**   * Default is 20 (see also the information in **Note**).
 
-### Ansicht
+{{Properties_Title|precision}}
 
-The parameter descriptions of the **View** tab will be found in [Property editor](Property_editor.md), further below at **Example of the properties of a PartDesign object**.
+-    **numpoints|Integer**   * Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
+
+
+{{Properties_Title|tolerance}}
+
+-    **backlash|Length**   * Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
+
+-    **clearance|Float**   * Default is {{Value|0.1}} (see [Notes](#Notes.md)).
+
+
+{{Properties_Title|version}}
+
+-    {{PropertyData/de|version|String}}   *
 
 ## Hinweise
 
@@ -92,7 +92,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **pressure_parameter**   * Only change the parameter, if sufficient knowledge of the gear geometry is available.
 
-## Hilfreiche Formeln 
+## Nützliche Formeln 
 
 -    **Teilkreisdurchmesser**= **Modul** \* **Zähne**
 
@@ -108,22 +108,10 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **Achswinkel gesamt**= **Referenz-Kegelwinkel 1** + **Referenz-Kegelwinkel 2**
 
-
-<div class="mw-translate-fuzzy">
-
-Substantiv Referenz Kegelwinkel \[TECH.\]
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Substantiv Referenz-Kegelwinkel \[TECH.\]
 
 
 
-
-
-</div>
 
 [Category   *Addons](Category_Addons.md) [Category   *FCGear](Category_FCGear.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 

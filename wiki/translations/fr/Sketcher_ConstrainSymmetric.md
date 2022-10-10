@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher ConstrainSymmetric
    Name/fr   *Sketcher Contrainte symétrique
-   MenuLocation   *Esquisse → Contraintes d'esquisse → Contrainte symétrique
+   MenuLocation   *Sketch → Contraintes d'esquisse → Contrainte symétrique
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut   ***S**
    SeeAlso   *[Sketcher Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)
@@ -36,7 +36,7 @@ avant la version 0.19 (voir correctif [1](https   *//github.com/FreeCAD/FreeCAD/
 -   Si vous cliquiez d\'abord sur l\'outil   * sélectionnez le premier point, puis le point de référence de la symétrie et enfin le deuxième point.
 -   Si vous cliquiez sur l\'outil en dernier   * sélectionnez le premier point, puis le deuxième point et enfin le point de référence de symétrie.
 
-Voir le tracker [issue \#4144](https   *//freecadweb.org/tracker/view.php?id=4144), et [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+Voir le tracker [issue #4144](https   *//freecadweb.org/tracker/view.php?id=4144), et [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
 
 ## Script
 

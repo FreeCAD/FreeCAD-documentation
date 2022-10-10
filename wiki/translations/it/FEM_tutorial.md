@@ -78,9 +78,56 @@ In questo esempio viene utilizzato un cubo come oggetto di studio, ma al suo pos
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Ora abbiamo un modello con il quale lavorare.
 
+
+</div>
+
 ### Creating the Analysis 
+
+1.  Activate the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM Workbench](FEM_Workbench.md).
+2.  Select the **Model → <img src="images/FEM_Analysis.svg" width=16px> Analysis container‏‎** option from the menu.
+
+### Constraints and Forces 
+
+
+<div class="mw-translate-fuzzy">
+
+### Vincoli e Forze 
+
+1.  Nascondere la mesh dalla Vista ad albero.
+2.  Visualizzare il modello originale
+3.  Selezionare <img alt="" src=images/FEM_FixedConstraint.png  style="width   *16px;"> [Vincolo fissaggio FEM](FEM_ConstraintFixed/it.md)
+4.  Selezionare la faccia posteriore del cubo (la faccia sugli assi **YZ**) e fare clic su OK
+5.  Selezionare <img alt="" src=images/FEM_ForceConstraint.png  style="width   *16px;"> [Vincolo forza FEM](FEM_ConstraintForce/it.md)
+6.  Selezionare la faccia frontale del cubo (la faccia parallela a quella posteriore) e impostare il **Carico dell\'area** al valore di 9000000.00
+7.  Impostare la **Direzione** **-Z** selezionando uno dei bordi della faccia parallela a quella direzione.
+8.  Cliccare su OK
+
+
+</div>
+
+Con questo abbiamo stabilito i vincoli e le forze per lo studio statico.
+
+### Material
+
+
+<div class="mw-translate-fuzzy">
+
+### Ultimi preparativi 
+
+1.  Selezionare <img alt="" src=images/FEM_Material.png  style="width   *16px;"> [Materiale FEM per solidi](FEM_MaterialSolid/it.md) e scegliere Calculix
+2.  Cliccare su **OK**
+
+
+</div>
+
+### Meshing
+
+It is recommended to make a mesh as the last step in the analysis preparations due to association to a geometry in FreeCAD. Depending on FreeCAD installation, there can be Netgen or GMSH meshers, you can use any of them.
 
 #### Netgen
 
@@ -108,56 +155,11 @@ Ora abbiamo un modello con il quale lavorare.
 
 #### GMSH
 
-
-<div class="mw-translate-fuzzy">
-
-#### GMSH 
-
-Si consiglia l\'utilizzo della macro di psicofil che viene utilizzata per questo esempio.
-
-1.  Attivare la macro
-2.  Selezionare l\'oggetto che si desidera utilizzare, in questo caso il cubo
-3.  Attivare la casella **Create Mechanical Analysis from mesh**
-4.  Cliccare su **OK**
-
-
-</div>
+1.  Select the model
+2.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)   * Generates a finite element mesh for a model using Gmsh.
+3.  In the meshing dialog, click **Apply** and **OK**.
 
 Ora abbiamo reso mesh il nostro oggetto e siamo pronti ad aggiungere i vincoli e le forze.
-
-### Constraints and Forces 
-
-
-<div class="mw-translate-fuzzy">
-
-### Vincoli e Forze 
-
-1.  Nascondere la mesh dalla Vista ad albero.
-2.  Visualizzare il modello originale
-3.  Selezionare <img alt="" src=images/FEM_FixedConstraint.png  style="width   *16px;"> [Vincolo fissaggio FEM](FEM_ConstraintFixed/it.md)
-4.  Selezionare la faccia posteriore del cubo (la faccia sugli assi **YZ**) e fare clic su OK
-5.  Selezionare <img alt="" src=images/FEM_ForceConstraint.png  style="width   *16px;"> [Vincolo forza FEM](FEM_ConstraintForce/it.md)
-6.  Selezionare la faccia frontale del cubo (la faccia parallela a quella posteriore) e impostare il **Carico dell\'area** al valore di 9000000.00
-7.  Impostare la **Direzione** **-Z** selezionando uno dei bordi della faccia parallela a quella direzione.
-8.  Cliccare su OK
-
-
-</div>
-
-Con questo abbiamo stabilito i vincoli e le forze per lo studio statico.
-
-### Final preparations 
-
-
-<div class="mw-translate-fuzzy">
-
-### Ultimi preparativi 
-
-1.  Selezionare <img alt="" src=images/FEM_Material.png  style="width   *16px;"> [Materiale FEM per solidi](FEM_MaterialSolid/it.md) e scegliere Calculix
-2.  Cliccare su **OK**
-
-
-</div>
 
 ### Running the Solver 
 

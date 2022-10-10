@@ -25,6 +25,8 @@ Questi sono gli strumenti per crere gli oggetti Pagine.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width   *32px;"> [Ridisegna la pagina](TechDraw_RedrawPage/it.md)   * forza un aggiornamento della pagina selezionata. {{Version/it|0.19}}
 
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *32px;"> [Stampa tutte le pagine](TechDraw_PrintAll.md)   * stampa tutte le pagine di un documento. {{Version/it|1.0}}
+
 ## Viste
 
 Questi sono gli strumenti per crere gli oggetti Viste.
@@ -33,7 +35,7 @@ Questi sono gli strumenti per crere gli oggetti Viste.
 
 -   <img alt="" src=images/TechDraw_ActiveView.svg  style="width   *32px;"> [Vista attiva](TechDraw_ActiveView/it.md)   * inserisce una vista della vista 3D attiva. {{Version/it|0.19}}
 
--   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)   * richiama una finestra di dialogo per creare molte viste di un oggetto da più direzioni.
+-   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)   * richiama una finestra di dialogo per creare viste multiple di un oggetto da diverse direzioni.
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Vista di sezione](TechDraw_SectionView/it.md)   * aggiunge una vista in sezione trasversale di una vista esistente.
 
@@ -48,6 +50,20 @@ Questi sono gli strumenti per crere gli oggetti Viste.
 -   <img alt="" src=images/TechDraw_MoveView.svg  style="width   *32px;"> [Sposta vista](TechDraw_MoveView.md)   * sposta una vista e le sue dipendenze in una pagina diversa. {{Version/it|0.20}}
 
 -   <img alt="" src=images/TechDraw_ShareView.svg  style="width   *32px;"> [Condividi vista](TechDraw_ShareView.md)   * condivide una vista tra più pagine. {{Version/it|0.20}}
+
+-   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width   *32px;"> [Proietta le forme](TechDraw_ProjectShape.md)   * crea proiezioni di forme nella [Vista 3D](3D_view/it.md). {{Version/it|0.20}}
+
+## Sovrapposizioni
+
+Questi sono strumenti per modificare l\'ordine di sovrapposizione che controlla la profondità apparente delle visualizzazioni su una pagina.
+
+-   <img alt="" src=images/TechDraw_StackTop.svg  style="width   *32px;"> [Sposta la vista in cima alla sovrapposizione](TechDraw_StackTop/it.md)   * sposta le viste in cima all\'ordine di sovrapposizione. {{Version/it|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackBottom.svg  style="width   *32px;"> [Sposta vista in basso alla sovrapposizione](TechDraw_StackBottom/it.md)   * sposta le viste in fondo all\'ordine di sovrapposizione. {{Version/it|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackUp.svg  style="width   *32px;"> [Sposta la vista in alto di un livello](TechDraw_StackUp/it.md)   * sposta le viste in alto di un livello nell\'ordine di sovrapposizione. {{Version/it|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackDown.svg  style="width   *32px;"> [Sposta la vista in basso di un livello](TechDraw_StackDown/it.md)   * sposta le viste in basso di un livello nell\'ordine di sovrapposizione. {{Version/it|1.0}}
 
 ## Clip
 

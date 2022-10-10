@@ -1,8 +1,8 @@
 ---
 - GuiCommand   */fr
    Name   *FCGear InvoluteGear
-   Name/fr   *FCGear InvoluteGear
-   MenuLocation   *FCGear → Create an Involute gear
+   Name/fr   *FCGear Engrenage à développante
+   MenuLocation   *Gear → Involute Gear
    Workbenches   *[FCGear](FCGear_Workbench/fr.md)
    Shortcut   *Aucun
    Version   *v0.16
@@ -13,90 +13,94 @@
 
 ## Description
 
-En raison du rapport d\'engrènement favorable et de la production relativement simple, l\'engrenage à développante est la forme de dent la plus courante en génie mécanique. Les roues dentées se trouvent partout où le mouvement et la force doivent être transférés d\'une pièce à l\'autre. Par exemple, ils peuvent être trouvés dans des machines, des voitures, des montres ou des appareils électroménagers. Le mouvement est souvent transféré directement d\'une roue dentée à l\'autre, mais parfois aussi via une chaîne. De plus, le sens de rotation peut être modifié. Il est également possible de changer un mouvement radial en un mouvement linéaire via un engrenage à crémaillère (<img alt="" src=images/FCGear_InvoluteRack.svg  style="width   *22px;"> [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md)).
+En raison du rapport d\'engrènement favorable et de la production relativement simple, l\'engrenage à développante est la forme de dent la plus courante en génie mécanique. Les roues dentées se trouvent partout où le mouvement et la force doivent être transférés d\'une pièce à l\'autre. Par exemple, ils peuvent être trouvés dans des machines, des voitures, des montres ou des appareils électroménagers. Le mouvement est souvent transféré directement d\'une roue dentée à l\'autre, mais parfois aussi via une chaîne. De plus, le sens de rotation peut être modifié. Il est également possible de changer un mouvement radial en un mouvement linéaire via un [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md).
 
 ![](images/Involute-Gear_example.png ) 
 *De gauche à droite   * Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
-2.  Lancez la commande d\'une de ces manières    *
-    -   Appuyez sur le bouton <img alt="" src=images/FCGear_InvoluteGear.svg  style="width   *22px;"> [Create an Involute gear](FCGear_InvoluteGear/fr.md) dans la barre d\'outils.
-    -   Utilisez **Gear Menu → Involute gear**.
-3.  Modifiez le paramètre de démultiplication aux conditions requises (voir **Propriétés → Données** ci-dessous).
+1.  Passez à l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [atelier FCGear](FCGear_Workbench/fr.md).
+2.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur **[<img src=images/FCGear_InvoluteGear.svg style="width   *16px"> [Involute Gear](FCGear_InvoluteGear/fr.md)** dans la barre d\'outils.
+    -   Sélectionnez l\'option **Gear → [<img src=images/FCGear_InvoluteGear.svg style="width   *16px"> Involute Gear** dans le menu.
+3.  Modifiez le paramètre de l\'engrenage en fonction des conditions requises (voir [Propriétés](#Propri.C3.A9t.C3.A9s.md)).
 
 ## Propriétés
+
+Un objet FCGear InvoluteGear est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|accuracy}}
 
--    **Placement**   * [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **numpoints|Integer**   * valeur par défaut à {{Value|6}}. Changement du profil de la développante. La modification de la valeur peut conduire à des résultats inattendus.
 
--    **Label**   * nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
+-    **simple|Bool**   * valeur par défaut à {{False}}. {{True}} génère un affichage simplifié (sans dents et seulement un cylindre en diamètre primitif).
+
+
+{{Properties_Title|base}}
+
+-    **height|Length**   * valeur par défaut à {{Value|5 mm}}. Valeur de la largeur de l\'engrenage.
+
+-    **module|Length**   * valeur par défaut à {{Value|1 mm}}. Module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir [Remarques](#Remarques.md)).
+
+-    **teeth|Integer**   * valeur par défaut à {{Value|15}}. Nombre de dents (voir [Remarques](#Remarques.md)).
 
 
 {{Properties_Title|computed}}
 
-(Toutes les propriétés de ce groupe sont calculées automatiquement et donc en lecture seule)
+-    **angular_backlash|Angle**   * (lecture seule)
 
--    **da**   * Diamètre extérieur, mesuré à l\'addendum (la pointe des dents).
+-    **da|Length**   * (lecture seule) diamètre extérieur, mesuré à l\'addendum (la pointe des dents).
 
--    **df**   * Diamètre de la racine, mesuré au pied des dents.
+-    **df|Length**   * (lecture seule) diamètre de la racine, mesuré au pied des dents.
 
--    **dw**   * Diamètre du pas de travail.
+-    **dw|Length**   * (lecture seule) diamètre du pas de travail.
 
--    **transverse_pitch**   * Pas dans le plan de rotation.
-
-
-{{Properties_Title|gear_parameter}}
-
--    **beta**   * avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé   * valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche (voir aussi les informations dans **Remarques**).
-
--    **clearance**   * valeur par défaut est 0,25 (voir aussi les informations dans **Remarques**).
-
--    **double_gear**   * {{Emphasis | True}} crée un engrenage à double hélice (voir aussi les informations dans **Remarques**).
-
--    **head**   * valeur par défaut est 0,00. Cette valeur est utilisée pour modifier la hauteur des dents.
-
--    **height**   * valeur de la largeur de l\'engrenage.
-
--    **module**   * module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarques**).
-
--    **properties_from_tool**   * si l\'angle d\'hélice β est donné et que **properties_from-tool** est activé, les paramètres d\'engrenage sont recalculés en interne pour l\'engrenage tourné.
-
--    **shift**   * valeur par défaut est 0,00, génère un décalage de profil positif et négatif (voir aussi les informations dans **Remarques**).
-
--    **teeth**   * nombre de dents (voir aussi les informations dans **Remarques**).
-
--    **undercut**   * **True** modifie le profil de la racine de la dent (voir aussi les informations dans **Remarques**).
+-    **transverse_pitch|Length**   * (lecture seule) pas dans le plan de rotation.
 
 
-{{Properties_Title|involute_parameter}}
+{{Properties_Title|fillets}}
 
--    **pressure_angle**   * valeur par défaut 20° (voir aussi les informations dans les **Remarques**).
+-    **head_fillet|Float**   * valeur par défaut à {{Value|0 mm}}.
+
+-    **root_fillet|Float**   * valeur par défaut à {{Value|0 mm}}.
+
+-    **undercut|Bool**   * valeur par défaut à {{False}}. {{True}} modifie le profil de la racine de la dent (voir [Remarques](#Remarques.md)).
 
 
-{{Properties_Title|precision}}
+{{Properties_Title|helical}}
 
-.
+-    **beta|Angle**   * valeur par défaut à {{Value|0 °}}. Avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé - valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche (voir [Remarques](#Remarques.md)).
 
--    **numpoints**   * La valeur par défaut est 6, changement du profil de la développante. Changer la valeur peut conduire à des résultats inattendus.
+-    **double_helix|Bool**   * valeur par défaut à {{False}}, {{True}} crée un engrenage à double hélice (voir [Remarques](#Remarques.md)).
 
--    **simple**   * **True** génère un affichage simplifié (sans dents et seulement un cylindre en diamètre primitif).
+-    **properties_from_tool|Bool**   * valeur par défaut à {{False}}. Si {{True}} et **beta** est différent de zéro, les paramètres de l\'engrenage sont recalculés en interne pour l\'engrenage tourné.
+
+
+{{Properties_Title|involute}}
+
+-    **pressure_angle|Angle**   * valeur par défaut à {{Value|20 °}} (voir [Remarques](#Remarques.md)).
+
+-    **shift|Float**   * valeur par défaut à {{Value|0}}. Génère un décalage de profil positif et négatif (voir [Remarques](#Remarques.md)).
 
 
 {{Properties_Title|tolerance}}
 
--    **backslash**   * valeur par défaut est 0.00. Le contrecoup, également appelé claquement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
+-    **backlash|Length**   * valeur par défaut à {{Value|0}}. Le jeu, également appelé lash ou play, est la distance entre les dents d\'une paire d\'engrenages.
 
--    **reversed_backslash**   * **True** diminution du jeu ou **False** augmentation du jeu (voir aussi les informations dans les **Remarques**).
+-    **clearance|Float**   * valeur par défaut à {{Value|0.25}} (voir [Remarques](#Remarques.md)).
 
-### Vue
+-    **head|Float**   * valeur par défaut à {{Value|0}}. Cette valeur est utilisée pour modifier la hauteur de la dent.
 
-La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur de propriétés](Property_editor/fr.md) dans **Exemple de propriétés d'un objet PartDesign**.
+-    **reversed_backlash|Bool**   * {{True}} diminution du jeu, {{False}} (valeur par défaut) augmentation du jeu. (voir [Remarques](#Remarques.md)).
+
+
+{{Properties_Title|version}}
+
+-    **version|String**   *
 
 ## Remarques
 
@@ -110,13 +114,13 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -    **shift**   * le décalage de profil n\'est pas simplement utilisé pour empêcher la contre-dépouille. Il peut être utilisé pour régler la distance centrale entre deux vitesses. Si une correction positive est appliquée, de manière à éviter la contre-dépouille dans un pignon, l\'épaisseur de la dent en haut est plus fine.
 
--    **teeth**   * Si le nombre de dents est modifié, le diamètre primitif change également (**dw**).
+-    **teeth**   * si le nombre de dents est modifié, le diamètre primitif change également (**dw**).
 
--    **undercut**   * Undercut est utilisé lorsque le nombre de dents d\'un engrenage est trop petit. Dans le cas contraire, l\'accouplement coupera dans la racine de la dent. La contre-dépouille affaiblit non seulement la dent avec une taille de guêpe, mais supprime également une partie de la développante utile adjacente au cercle de base.
+-    **undercut**   * undercut est utilisé lorsque le nombre de dents d\'un engrenage est trop petit. Dans le cas contraire, l\'accouplement coupera dans la racine de la dent. La contre-dépouille affaiblit non seulement la dent avec une taille de guêpe, mais supprime également une partie de la développante utile adjacente au cercle de base.
 
 -    **pressure_angle**   * 20° est une valeur standard ici. L\'angle de pression est défini comme l\'angle entre la ligne d\'action (tangente commune aux cercles de base) et une perpendiculaire à la ligne de centre. Ainsi, pour les engrenages standard, les engrenages à angle de pression de 14,5° ont des cercles de base beaucoup plus proches des racines des dents que les engrenages à 20°. C\'est pour cette raison que les engrenages de 14,5° rencontrent des problèmes de sous-coupe plus importants que les engrenages de 20°. Important. l\'angle de pression change avec un changement de profil. ne modifiez le paramètre que si une connaissance suffisante de la géométrie de l\'engrenage est disponible.
 
--    **reversed_backslash**   * s\'il y a plusieurs vitesses, faites attention à la vitesse pour laquelle le paramètre est réglé.
+-    **reversed_backlash**   * s\'il y a plusieurs vitesses, faites attention à la vitesse pour laquelle le paramètre est réglé.
 
 ## Limitations
 
@@ -143,7 +147,7 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
 | $h^*_a$  | *Coefficient de l\'addendum*                    | \-                                     | $h^*_a = 1 + \texttt{ head}$                |
 |          |                                                 | Typiquement, $h^*_a = 1$               |                                             |
 +++++
-| $h^*_f$  | *Dedendum Coefficient*                          | \-                                     | $h^*_f = 1 + \texttt{ clearance}$           |
+| $h^*_f$  | *Coefficient du dedendum*                       | \-                                     | $h^*_f = 1 + \texttt{ clearance}$           |
 |          |                                                 | Typiquement, $h^*_f = 1.25$            |                                             |
 +++++
 | $h_a$    | *Addendum*                                      | $h_a = h^*_a \cdot m$                  | \-                                          |
@@ -160,37 +164,37 @@ Le terme \"standard\" désigne ici les engrenages droits sans coefficient de dé
    * style=\"text-align   * left;\" \| Formules de base communes aux engrenages cylindriques standard internes et externes
 
 ++++
-| Symbole | Terme                     | Formule                                |
-+=========+===========================+========================================+
-| $d_a$   | *Diamètre aux extrémités* | $d_a = d + 2 \cdot h_a$                |
-|         |                           | Typiquement, $d_a = (z + 2) \cdot m$   |
+| Symbole | Terme                 | Formule                                |
++=========+=======================+========================================+
+| $d_a$   | *Diamètre de la tête* | $d_a = d + 2 \cdot h_a$                |
+|         |                       | Typiquement, $d_a = (z + 2) \cdot m$   |
 ++++
-| $d_f$   | *Diamètre du coeur*       | $d_f = d - 2 \cdot h_f$                |
-|         |                           | Typiquement, $d_f = (z - 2.5) \cdot m$ |
+| $d_f$   | *Diamètre de base*    | $d_f = d - 2 \cdot h_f$                |
+|         |                       | Typiquement, $d_f = (z - 2.5) \cdot m$ |
 ++++
 
    * style=\"text-align   * left;\" \| Formules de base spécifiques aux engrenages cylindriques externes standard
 
 ++++
-| Symbole | Terme                     | Formule                                |
-+=========+===========================+========================================+
-| $d_a$   | *Diamètre aux extrémités* | $d_a = d - 2 \cdot h_a$                |
-|         |                           | Typiquement, $d_a = (z - 2) \cdot m$   |
+| Symbole | Terme                 | Formule                                |
++=========+=======================+========================================+
+| $d_a$   | *Diamètre de la tête* | $d_a = d - 2 \cdot h_a$                |
+|         |                       | Typiquement, $d_a = (z - 2) \cdot m$   |
 ++++
-| $d_f$   | *Diamètre du coeur*       | $d_f = d + 2 \cdot h_f$                |
-|         |                           | Typiquement, $d_f = (z + 2.5) \cdot m$ |
+| $d_f$   | *Diamètre de base*    | $d_f = d + 2 \cdot h_f$                |
+|         |                       | Typiquement, $d_f = (z + 2.5) \cdot m$ |
 ++++
 
    * style=\"text-align   * left;\" \| Formules de base spécifiques aux engrenages cylindriques standard internes
 
 ++++
-| Symbole | Terme                           | Formule                         |
-+=========+=================================+=================================+
-| $a$     | *Distance du centre*            | $d = \frac{d_1 + d_2}{2}$       |
+| Symbole | Terme                                 | Formule                         |
++=========+=======================================+=================================+
+| $a$     | *Distance entre centres*              | $d = \frac{d_1 + d_2}{2}$       |
 ++++
-| $c$     | *Dégagement extrémité et coeur* | $c_1 = h_{f2} - h_{a1}$         |
-|         |                                 | $c_2 = h_{f1} - h_{a2}$         |
-|         |                                 | Typiquement, $c = 0.25 \cdot m$ |
+| $c$     | *Dégagement de la tête et de la base* | $c_1 = h_{f2} - h_{a1}$         |
+|         |                                       | $c_2 = h_{f1} - h_{a2}$         |
+|         |                                       | Typiquement, $c = 0.25 \cdot m$ |
 ++++
 
    * style=\"text-align   * left;\" \| Formules de base spécifiques à une paire d\'engrenages cylindriques standard externes

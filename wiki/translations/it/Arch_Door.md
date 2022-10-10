@@ -11,9 +11,6 @@
 
 # Arch Door/it
 
-
-</div>
-
 ## Descrizione
 
 Le [Porte](Arch_Door/it.md) sono create con lo strumento [Finestra](Arch_Window/it.md).

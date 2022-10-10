@@ -32,7 +32,7 @@ Clicking on the icon with a (pre-selected) face will cause the sketch to be mapp
 
 ## Note
 
-The sketch can be re-mapped to another already existing face using the [Map Sketch - Command](Sketcher_MapSketch.md).
+The sketch can be re-mapped to another already existing face using the [Sketcher MapSketch](Sketcher_MapSketch.md) command.
 
 The sketch can be moved in the [3D view](3D_view.md) using [Placement](Placement.md).
 

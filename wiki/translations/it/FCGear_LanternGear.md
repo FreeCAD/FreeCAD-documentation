@@ -11,6 +11,9 @@
 
 # FCGear LanternGear/it
 
+
+</div>
+
 ## Descrizione
 
 La dentatura dell\'ingranaggio a lanterna è una forma speciale di dentatura cicloidale in cui il cerchio di rotolamento e il cerchio primitivo hanno la stessa dimensione. Inoltre, in un cambio i denti della ruota più grande sono sostituiti da cilindri. La piccola ruota è dotata di un ingranaggio cicloide. Ciò si traduce in un ingranaggio unilaterale. Gli ingranaggi delle lanterne possono essere solo dentati diritti.
@@ -24,42 +27,46 @@ L\'ingranaggio a lanterna combinato con una catena a rulli rappresenta un\'alter
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Invoke the command several way   *
-    -   Press the <img alt="" src=images/FCGear_LanternGear.svg  style="width   *22px;"> [Create a Lantern gear](FCGear_LanternGear.md) button in the tool bar.
-    -   Using the **Gear Menu → Lantern gear**.
-3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
+1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [FCGear Workbench](FCGear_Workbench.md).
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/FCGear_LanternGear.svg style="width   *16px"> [Lantern Gear](FCGear_LanternGear.md)** button in the toolbar.
+    -   Select the **Gear → [<img src=images/FCGear_LanternGear.svg style="width   *16px"> Lantern Gear** option from the menu.
+3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
 ## Properties
 
 ### Data
 
-
-{{Properties_Title|Base}}
-
--    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
-
--    **Label**   * User name of the object in the [Tree view](Tree_view.md).
+An FCGear LanternGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 
 {{Properties_Title|accuracy}}
 
--    **num_profiles**   * Default is 10. The value normally does not need to be changed.
+-    **num_profiles|Integer**   * Default is {{Value|10}}. The value normally does not need to be changed.
+
+
+{{Properties_Title|base}}
+
+-    **bolt_radius|Length**   * Default is {{Value|1 mm}}. Diameter of the cylinder on the rotating disc which functions as a second \"gear wheel\".
+
+-    **height|Length**   * Default is {{Value|5 mm}}. Value of the gear width.
+
+-    **module|Length**   * Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
 
 
 {{Properties_Title|gear_parameter}}
 
--    **bolt_radius**   * Default is 1,00 mm. Diameter of the cylinder on the rotating disc which functions as a second \"gear wheel\".
+-    **teeth|Integer**   * Default is {{Value|15}}. Number of teeth.
 
--    **height**   * Default is 5,00 mm. Value of the gear width.
 
--    **module**   * Default is 1,00 mm. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Notes**.
+{{Properties_Title|tolerance}}
 
--    **teeth**   * Default is 15. Number of teeth.
+-    **head|Float**   * Default is {{Value|0}}.
 
-### View
 
-The parameter descriptions of the **View** tab will be found in [Property editor](Property_editor.md), further below at **Example of the properties of a PartDesign object**.
+{{Properties_Title|version}}
+
+-    **version|String**   *
 
 ## Notes
 
@@ -69,7 +76,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **addendum diameter**= **module** \* **(teeth +2)**
 
--    **ptch diameter**= **module** \* **teeth**
+-    **pitch diameter**= **module** \* **teeth**
 
 -    **axle base**= **pitch diameter (lantern gear 1 + 2)**    * 2
 

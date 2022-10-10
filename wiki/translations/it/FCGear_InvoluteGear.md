@@ -11,90 +11,99 @@
 
 # FCGear InvoluteGear/it
 
+
+</div>
+
 ## Descrizione
 
-Due to the favourable meshing ratio and the relatively simple production, involute gearing is the most common tooth form in mechanical engineering. Gear wheels can be found wherever movement and force are to be transferred from one part to another. For example, they can be found in machines, cars, watches or household appliances. The movement is often transferred directly from one gear wheel to the other, but sometimes also via a chain. In addition, the direction of rotation can be changed. It is also possible to change a radial movement into a linear one via Involute Rack (<img alt="" src=images/FCGear_InvoluteRack.svg  style="width   *22px;"> [Create an Involute rack](FCGear_InvoluteRack.md)).
+Due to the favourable meshing ratio and the relatively simple production, involute gearing is the most common tooth form in mechanical engineering. Gear wheels can be found wherever movement and force are to be transferred from one part to another. For example, they can be found in machines, cars, watches or household appliances. The movement is often transferred directly from one gear wheel to the other, but sometimes also via a chain. In addition, the direction of rotation can be changed. It is also possible to change a radial movement into a linear one via an [involute rack](FCGear_InvoluteRack.md).
 
 ![](images/Involute-Gear_example.png ) 
 *From left to right   * Spur gearing, helical gearing, double helical gearing*
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *22px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Invoke the command several way   *
-    -   Press the <img alt="" src=images/FCGear_InvoluteGear.svg  style="width   *22px;"> [Create an Involute gear](FCGear_InvoluteGear.md) button in the tool bar.
-    -   Using the **Gear Menu → Involute gear**.
-3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
+1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width   *16px;"> [FCGear Workbench](FCGear_Workbench.md).
+2.  There are several ways to invoke the command   *
+    -   Press the **[<img src=images/FCGear_InvoluteGear.svg style="width   *16px"> [Involute Gear](FCGear_InvoluteGear.md)** button in the toolbar.
+    -   Select the **Gear → [<img src=images/FCGear_InvoluteGear.svg style="width   *16px"> Involute Gear** option from the menu.
+3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
 ## Properties
+
+An FCGear InvoluteGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
 ### Data
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|accuracy}}
 
--    **Placement**   * [Placement](Placement.md) is the location and orientation of an object in space.
+-    **numpoints|Integer**   * Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
 
--    **Label**   * User name of the object in the [Tree view](Tree_view.md).
+-    **simple|Bool**   * Default is {{False}}, {{True}} generates a simplified display (without teeth and only a cylinder in pitch diameter).
+
+
+{{Properties_Title|base}}
+
+-    **height|Length**   * Default is {{Value|5 mm}}. Value of the gear width.
+
+-    **module|Length**   * Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
+
+-    **teeth|Integer**   * Default is {{Value|15}}. Number of teeth (see [Notes](#Notes.md)).
 
 
 {{Properties_Title|computed}}
 
-(All properties in this group are calculated automatically and thus read only)
+-    **angular_backlash|Angle**   * (read-only)
 
--    **da**   * Outside diameter, measured at the addendum (the tip of the teeth).
+-    **da|Length**   * (read-only) Outside diameter, measured at the addendum (the tip of the teeth).
 
--    **df**   * Root diameter, measured at the foot of the teeth.
+-    **df|Length**   * (read-only) Root diameter, measured at the foot of the teeth.
 
--    **dw**   * Working pitch diameter.
+-    **dw|Length**   * (read-only) Working pitch diameter.
 
--    **transverse_pitch**   * Pitch in the plane of rotation.
-
-
-{{Properties_Title|gear_parameter}}
-
--    **beta**   * With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left (see also the information in **Notes**).
-
--    **clearance**   * Default is 0,25 (see also the information in **Notes**).
-
--    **double_gear**   * **True** creates a double helix gear (see also the information in **Notes**)
-
--    **head**   * Default is 0,00. This value is used to change the tooth height.
-
--    **height**   * Value of the gear width.
-
--    **module**   * Module is the ratio of the reference diameter of the gear divided by the number of teeth (see also the information in **Notes**).
-
--    **properties_from_tool**   * If helix angle β is given and **properties_from-tool** is enabled, gear parameters are internally recomputed for the rotated gear.
-
--    **shift**   * Default is 0,00, generates a positive and negative profile shift (see also the information in **Notes**).
-
--    **teeth**   * Number of teeth (see also the information in **Notes**)
-
--    **undercut**   * **True** changes the profil of the tooth root (see also the information in **Notes**).
+-    **transverse_pitch|Length**   * (read-only) Pitch in the plane of rotation.
 
 
-{{Properties_Title|involute_parameter}}
+{{Properties_Title|fillets}}
 
--    **pressure_angle**   * Default is 20° (see also the information in **Notes**).
+-    **head_fillet|Float**   * Default is {{Value|0 mm}}.
+
+-    **root_fillet|Float**   * Default is {{Value|0 mm}}.
+
+-    **undercut|Bool**   * Default is {{False}}, {{True}} changes the profile of the tooth root (see [Notes](#Notes.md)).
 
 
-{{Properties_Title|precision}}
+{{Properties_Title|helical}}
 
--    **numpoints**   * Default is 6, change of the involute profile. Changing the value can lead to unexpected results.
+-    **beta|Angle**   * Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left (see [Notes](#Notes.md)).
 
--    **simple**   * **True** generates a simplified display (without teeth and only a cylinder in pitch diameter).
+-    **double_helix|Bool**   * Default is {{False}}, {{True}} creates a double helix gear (see [Notes](#Notes.md)).
+
+-    **properties_from_tool|Bool**   * Default is {{False}}. If {{True}} and **beta** is not zero, gear parameters are recomputed internally for the rotated gear.
+
+
+{{Properties_Title|involute}}
+
+-    **pressure_angle|Angle**   * Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+
+-    **shift|Float**   * Default is {{Value|0}}. Generates a positive and negative profile shift (see [Notes](#Notes.md)).
 
 
 {{Properties_Title|tolerance}}
 
--    **backslash**   * Default is 0,00. Backlash, also called lash or play, is the distance between the teeths at a gear pair.
+-    **backlash|Length**   * Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
 
--    **reversed_backslash**   * **True** backlash decrease or **False** backlash increase (see also the information in **Notes**).
+-    **clearance|Float**   * Default is {{Value|0.25}} (see [Notes](#Notes.md)).
 
-### View
+-    **head|Float**   * Default is {{Value|0}}. This value is used to change the tooth height.
 
-The parameter descriptions of the **View** tab will be found in [Property editor](Property_editor.md), further below at **Example of the properties of a PartDesign object**.
+-    **reversed_backlash|Bool**   * {{True}} backlash decrease or {{False}} (default) backlash increase see [Notes](#Notes.md)).
+
+
+{{Properties_Title|version}}
+
+-    **version|String**   *
 
 ## Notes
 
@@ -114,7 +123,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **pressure_angle**   * 20° is a standard value here. The pressure angle is defined as the angle between the line-of-action (common tangent to the base circles) and a perpendicular to the line-of-centers. Thus, for standard gears, 14.5° pressure angle gears have base circles much nearer to the roots of teeth than 20° gears. It is for this reason that 14.5° gears encounter greater undercutting problems than 20° gears. Important. the pressure angle changes with a profile shift. Only change the parameter, if sufficient knowledge of the gear geometry is available.
 
--    **reversed_backslash**   * If there are several gears, pay attention to which gear the parameter is set for.
+-    **reversed_backlash**   * If there are several gears, pay attention to which gear the parameter is set for.
 
 ## Limitations
 

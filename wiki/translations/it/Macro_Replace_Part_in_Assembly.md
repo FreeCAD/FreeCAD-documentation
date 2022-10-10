@@ -15,10 +15,7 @@
 
 Specialmente quando si fanno degli \"insiemi\" con semplici copie di parti, capita di dover sostituire più volte una parte con un\'altra. Per queste operazioni è possibile utilizzare questa macro.
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 Accertarsi che i file che contengono la parte vecchia e la parte nuova siano aperti.
 
@@ -30,20 +27,17 @@ Accertarsi che i file che contengono la parte vecchia e la parte nuova siano ape
 6.  Utilizzare le altre opzioni a proprio piacimento.
 7.  Quindi cliccare su \"Replace Old Part\".
 
-
-</div>
-
 ![](images/Macro_Replace_Part_in_Assembly.jpg )
 
 Vedere anche [Demo su Youtube](http   *//youtu.be/rTqqqy4n1RE).
 
 ## Script
 
-Macro Replace\_Part\_in\_Assembly.py
+Macro Replace_Part_in_Assembly.py
 
 ToolBar Icon ![](images/Replace_Part.png )
 
-**Macro Replace\_Part\_in\_Assembly.py**
+**Macro Replace_Part_in_Assembly.py**
 
 
 {{MacroCode|code=

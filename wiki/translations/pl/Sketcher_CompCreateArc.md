@@ -2,8 +2,8 @@
 - GuiCommand   */pl
    Name   *Sketcher Arcs
    Name/pl   *Szkicownik   * Utwórz łuk w szkicowniku
-   MenuLocation   *Brak ''(tylko pasek narzędzi)''
    Icon   *Sketcher_CompCreateArc.png
+   MenuLocation   *''(tylko pasek narzędzi)''
    Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
 ---
 

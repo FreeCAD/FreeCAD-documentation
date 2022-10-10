@@ -15,16 +15,16 @@
 
 ## Introduction
 
-This tutorial is meant to show how a simple Finite Element Analysis (**FEA**) in FreeCAD\'s <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [FEM Workbench](FEM_Workbench.md) is done using python. The model from the [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) tutorial will be used for this example.
+This tutorial is meant to show how a simple Finite Element Analysis (**FEA**) in FreeCAD\'s <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [FEM Workbench](FEM_Workbench.md) is done using Python. The model from the [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) tutorial will be used for this example.
 
-<img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
+ <img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;"> 
 
 ### Requirements
 
 -   The compatible version of FreeCAD as designated in the tutorial overview.
 
        *   Use the **Help → About FreeCAD** to see the version of FreeCAD that is installed.
--   **Impotant Note   *** Due to the continuous development of the <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [FEM Workbench](FEM_Workbench.md) it is recommended to use the latest development snapshot of FreeCAD especially for python scripted FEM analyses.
+-   **Impotant Note   *** Due to the continuous development of the <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [FEM Workbench](FEM_Workbench.md) it is recommended to use the latest development snapshot of FreeCAD especially for Python scripted FEM analyses.
 -   A working FEM workbench. Run the [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) analysis to ascertain this.
 
 ## Let\'s start 
@@ -430,12 +430,10 @@ femmesh.addVolume([51, 44, 45, 34, 217, 95, 228, 218, 144, 136], 225)
 femmesh.addVolume([9, 29, 39, 30, 147, 127, 215, 148, 78, 126], 226)
 femmesh.addVolume([40, 9, 19, 39, 214, 105, 168, 90, 215, 169], 227)
 
-
 # add it to the analysis
 femmesh_obj = doc.addObject('Fem   *   *FemMeshObject', 'Box_Mesh')
 femmesh_obj.FemMesh = femmesh
 analysis_object.addObject(femmesh_obj)
-
 ```
 
 
@@ -463,8 +461,6 @@ print(error)
 analysis_object.addObject(femmesh_obj)
 ```
 
-
-
 ### FEM mesh (netgen) 
 
  
@@ -479,8 +475,6 @@ doc.recompute()
 
 analysis_object.addObject(mesh)
 ```
-
-
 
 ### Recompute
 
@@ -546,7 +540,7 @@ if not message   *
     fea.load_results()
 else   *
     FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in report view
-    print("Houston, we have a problem! {}\n".format(message))  # in python console
+    print("Houston, we have a problem! {}\n".format(message))  # in Python console
 
 ###
 ```
@@ -577,7 +571,7 @@ Scripting the Netgen mesh object was attempted in the [\"Parametrized FEM study\
 
 ##### GMSH
 
-On the contrary, the GMSH mesh object fully supports python scripting. See the following forum posts   *
+On the contrary, the GMSH mesh object fully supports Python scripting. See the following forum posts   *
 
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
 -   forum topic <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=20087>
@@ -613,7 +607,7 @@ Writing the input file in FreeCAD console mode (no Gui) could be done in test mo
 
 Have Fun! Also if you have feedback or any refinements, feel free to participate on the [FreeCAD FEM subforum](https   *//forum.freecadweb.org/viewforum.php?f=18).
 
-  {{FEM Tools navi}}  
+  {{FEM Tools navi}} 
 
 [Category   *Python Code](Category_Python_Code.md)
 

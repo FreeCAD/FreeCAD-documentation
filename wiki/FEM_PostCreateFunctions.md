@@ -10,17 +10,22 @@
 
 ## Description
 
-For the result filters [Funtion cut filter](FEM_PostFilterCutFunction.md) and [Region cut filter](FEM_PostFilterClipRegion.md) it is necessary how the mesh is cut geometrically. At the moment you can choose between the geometric functions <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> Plane and <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> Sphere.
+**FEM CompPostCreateFunctions** is an icon button in the FEM Results toolbar that groups tools to create functions for the result filters <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width   *16px;"> [PostFilterCutFunction](FEM_PostFilterCutFunction.md) and <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width   *16px;"> [PostFilterClipRegion](FEM_PostFilterClipRegion.md), that define how the mesh is cut geometrically. Click on the down arrow to its right to expand the icons below it and select a tool.
+
+## Types
+
+At the moment you can choose between two geometric functions   *
+
+-   <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> [FEM PostCreateFunctionPlane](FEM_PostCreateFunctionPlane.md)
+-   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> [FEM PostCreateFunctionSphere](FEM_PostCreateFunctionSphere.md).
 
 ## Usage
 
 To create a function, use the toolbar button <img alt="" src=images/Fem-post-geo-plane.svg  style="width   *32px;"> or <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *32px;"> (whatever is currently visible). Note the small triangle besides it allowing you to choose the function type. Alternatively use the menu **Results → Filter functions → <img src="images/Fem-post-geo-plane.svg" width=16px> Plane / <img src="images/Fem-post-geo-sphere.svg" width=16px> Sphere**.
 
-To edit a function see the section [Types](#Types.md) below.
+To edit a function see the sections below.
 
 Existing functions can be used for different filters and even for different [result pipelines](FEM_PostPipelineFromResult.md). It is nevertheless recommended to use for every pipeline on own set of functions to keep the overview in the [document tree](Tree_view.md).
-
-## Types
 
 ### Plane
 

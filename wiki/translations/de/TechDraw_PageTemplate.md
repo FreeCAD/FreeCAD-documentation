@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */de
    Name   *TechDraw PageTemplate
-   Name/de   *TechDraw SeitenVorlage
+   Name/de   *TechDraw Seitenvorlage
    MenuLocation   *TechDraw → Neues Zeichnungsblatt aus einer Vorlage erstellen
    Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso   *[TechDraw Standardseite](TechDraw_PageDefault/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
@@ -11,23 +11,23 @@
 
 ## Beschreibung
 
-Das Neue Auswahl Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der in einem Dialogfeld ausgewählten Vorlagendatei.
+Das Werkzeug Seitenvorlage erstellt ein neues Page-Objekt (Zeichnungsblatt) unter Verwendung der in einem Dialogfeld ausgewählten Vorlagendatei.
 
-Das Startverzeichnis für das Dialogfenster kann in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegt werden.
+Das Startverzeichnis für das Dialogfeld kann in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegt werden.
 
 <img alt="" src=images/A4_Landscape_ISO7200_Pep.svg  style="width   *400px;">
 
 
 
-*Eine der Vorlagen, die mit TechDraw geliefert wird   * A4 ISO 7200_Pep, Seite im Querformat, mit editierbaren Textfeldern*
+*Eine der Vorlagen, die TechDraw mitgeliefert   * A4 ISO 7200_Pep, Seite im Querformat, mit editierbaren Textfeldern*
 
 ## Anwendung
 
--   Drücke die **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Seite mittels Vorlage einfügen](TechDraw_PageTemplate/de.md)** Schaltfläche
+-   Die Schaltfläche **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Neues Zeichnungsblatt aus einer Vorlage erstellen](TechDraw_PageTemplate/de.md)** drücken.
 
 ## Eigenschaften
 
-See [TechDraw Standardseite](TechDraw_PageDefault/de#Eigenschaften.md).
+Siehe [TechDraw Standardseite](TechDraw_PageDefault/de#Eigenschaften.md).
 
 ## Skripten
 
@@ -48,7 +48,7 @@ template.Template = templateFileSpec
 page.Template = FreeCAD.ActiveDocument.Template
 ```
 
--   Erstellt eine neue Seite im aktuellen Dokument
+-   Erstellt ein neues Page-Objekt (Zeichnungsblatt) im aktuellen Dokument
 
 ### Editierbare Textfelder 
 
@@ -57,7 +57,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 
 [TechDraw Vorlagen](TechDraw_Templates/de.md) für mehr Informationen zur Erstellung von Vorlagen.
 
-Siehe die Informationen in [Standardseite einfügen](TechDraw_PageDefault/de.md), um die editierbaren Textfelder in einer Seitenvorlage programmtechnisch zu ändern.
+Siehe die Informationen unter [Standardseite](TechDraw_PageDefault/de.md), um die editierbaren Textfelder einer Seitenvorlage per Skript zu ändern.
 
 
 

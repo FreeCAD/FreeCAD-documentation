@@ -1,11 +1,11 @@
 ---
 - GuiCommand   */fr
    Name   *FEM PostPipelineFromResult
-   Name/fr   *FEM Pipeline à partir du résultat
-   MenuLocation   *Résultats → Afficher le pipeline à partir du résultat
+   Name/fr   *FEM Pipeline de résultats
+   MenuLocation   *Résultats → Pipeline de résultats
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    Version   *0.17
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM Afficher les résultats](FEM_ResultShow/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostPipelineFromResult/fr
@@ -16,6 +16,9 @@ Pipeline est un objet résultat, qui crée une nouvelle représentation graphiqu
 
 ## Utilisation
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Sélectionnez un objet résultat.
 2.  Cliquez sur le bouton **<img src="images/FEM_PostPipelineFromResult.svg" width=16px>**, ou sélectionnez l\'option **Résultats → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Afficher le pipeline à partir du résultat** dans le menu.
 3.  Un nouvel objet appelé \"Pipeline\" est ajouté à votre analyse.
@@ -23,9 +26,12 @@ Pipeline est un objet résultat, qui crée une nouvelle représentation graphiqu
 
 <img alt="" src=images/Pipeline.PNG  style="width   *500px;">
 
+
+</div>
+
 Si vous ne voyez aucun modèle dans la zone graphique, allez dans et activez **Edition → Préférences → Affichage → Vue 3D → Rendu → Couleur du rétroéclairage**.
 
-Si vous utilisez un dérivé du [https   *//fr.wikipedia.org/wiki/Syst%C3%A8me\_international\_d%27unit%C3%A9s SI](https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s_SI.md) du [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) de FreeCAD, les valeurs de l\'échelle de sortie sont également basées sur les unités SI. Cela signifie que le déplacement est en mètre, la contrainte est en Pascal et la température est en Kelvin.
+Si vous utilisez un dérivé du [https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s SI](https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s_SI.md) du [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) de FreeCAD, les valeurs de l\'échelle de sortie sont également basées sur les unités SI. Cela signifie que le déplacement est en mètre, la contrainte est en Pascal et la température est en Kelvin.
 
 ## Propriétés
 
@@ -63,10 +69,6 @@ Dans l\'[éditeur de propriétés](Property_editor/fr.md), vous pouvez définir 
     -   **Serial**    * Dans ce mode, chaque filtre prend le filtre précédent comme entrée. L\'ordre est donc l\'ordre de création. Le premier filtre créé prend le pipeline en entrée. Sa propriété **Input** est donc vide.
     -   **Parallel**    * Dans ce mode, tous les filtres prennent le pipeline en entrée.
     -   **Custom**    * {{Version/fr|0.20}} C\'est le mode par défaut et il garde les entrées des filtres telles qu\'elles sont. Il permet donc d\'avoir, par exemple, deux filtres qui prennent le pipeline en entrée, et un troisième filtre qui prend l\'un des deux filtres en entrée.
-
-## Limitations
-
-La représentation en pipeline des résultats (appelée VTK) sur la partie affichée est différente des résultats en gradient de couleur qui sont visibles lorsque vous terminez la solution. Les valeurs de l\'échelle de gradient ne peuvent pas être appliquées à l\'objet de résultat de solution.
 
 
 

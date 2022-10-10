@@ -14,17 +14,21 @@
 
 
 
+## Introduction
+
 
 <div class="mw-translate-fuzzy">
 
 ## Introducción
 
-Este ejemplo pretende mostrar cómo Python realiza un simple Análisis de elementos finitos (FEA) en FreeCADs [FEM Workbench](FEM_Workbench.md). El modelo de [FEM\_CalculiX\_Cantilever\_3D](FEM_CalculiX_Cantilever_3D.md) se tomará para este ejemplo.
+Este ejemplo pretende mostrar cómo Python realiza un simple Análisis de elementos finitos (FEA) en FreeCADs [FEM Workbench](FEM_Workbench.md). El modelo de [FEM_CalculiX_Cantilever_3D](FEM_CalculiX_Cantilever_3D.md) se tomará para este ejemplo.
 
 
 </div>
 
 <img alt="" src=images/FEM_example01_pic00.jpg  style="width   *700px;">
+
+### Requirements
 
 
 <div class="mw-translate-fuzzy">
@@ -34,7 +38,7 @@ Este ejemplo pretende mostrar cómo Python realiza un simple Análisis de elemen
 -   Versión de FreeCAD -\> Descripción general del tutorial correspondiente
 -   Esto se puede verificar en el menú Ayuda -\> acerca de FreeCAD.
 -   Al pensar que debido a los cambios continuos en el módulo FEM, se recomienda utilizar la última instantánea de desarrollo de FreeCAD para los análisis FEM con guión en Python.
--   Un módulo de configuración FEM. Marque [FEM\_CalculiX\_Cantilever\_3D](FEM_CalculiX_Cantilever_3D.md)
+-   Un módulo de configuración FEM. Marque [FEM_CalculiX_Cantilever_3D](FEM_CalculiX_Cantilever_3D.md)
 
 
 </div>
@@ -436,12 +440,10 @@ femmesh.addVolume([51, 44, 45, 34, 217, 95, 228, 218, 144, 136], 225)
 femmesh.addVolume([9, 29, 39, 30, 147, 127, 215, 148, 78, 126], 226)
 femmesh.addVolume([40, 9, 19, 39, 214, 105, 168, 90, 215, 169], 227)
 
-
 # add it to the analysis
 femmesh_obj = doc.addObject('Fem   *   *FemMeshObject', 'Box_Mesh')
 femmesh_obj.FemMesh = femmesh
 analysis_object.addObject(femmesh_obj)
-
 ```
 
 
@@ -546,7 +548,7 @@ if not message   *
     fea.load_results()
 else   *
     FreeCAD.Console.PrintError("Houston, we have a problem! {}\n".format(message))  # in report view
-    print("Houston, we have a problem! {}\n".format(message))  # in python console
+    print("Houston, we have a problem! {}\n".format(message))  # in Python console
 
 ###
 ```
@@ -577,7 +579,7 @@ Scripting the Netgen mesh object was attempted in the [\"Parametrized FEM study\
 
 ##### GMSH
 
-On the contrary, the GMSH mesh object fully supports python scripting. See the following forum posts   *
+On the contrary, the GMSH mesh object fully supports Python scripting. See the following forum posts   *
 
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
 -   forum topic <http   *//forum.freecadweb.org/viewtopic.php?f=18&t=20087>
@@ -605,6 +607,8 @@ See forum posts   *
 
 -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
+#### Console mode 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -614,6 +618,8 @@ Escribir el archivo de entrada en el modo de consola FreeCAD (sin Gui) se podrí
 
 
 </div>
+
+## Appendix
 
 
 <div class="mw-translate-fuzzy">
@@ -626,7 +632,7 @@ Escribir el archivo de entrada en el modo de consola FreeCAD (sin Gui) se podrí
 </div>
 
 
- {{FEM Tools navi}}  
+ {{FEM Tools navi}} 
 
 [Category   *Python Code](Category_Python_Code.md)
 

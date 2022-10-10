@@ -25,9 +25,19 @@
 2.  In the [3D view](3D_view.md) select the objects the constraint should be applied to, which can be a vertices (corners), edges, or faces.
 3.  Enter a temperature to apply to the objects.
 
+### Option
+
+By default the constraint defines a temperature. By using the option **Concentrated heat Flux** a heat flux trough the area of the face (Watt per face area) can be specified.
+
 ## Примечания
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Ограничение температуры использует карту \*BOUNDARY в CalculiX. Подробнее об ограничение температуры можно узнать по адрессу <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
+
+
+</div>
 
 
 

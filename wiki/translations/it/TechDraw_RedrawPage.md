@@ -29,21 +29,9 @@ Questo strumento è stato rimosso nella versione 0.18, ma reimplementato nella v
 
 </div>
 
-## Opzioni
-
-Nessuna.
-
-## Proprietà
-
--   n/a
-
 ## Script
 
 Il comando Ridisegna non è direttamente disponibile negli script.
-
-## Note
-
--   Nessuna per ora.
 
 
 <div class="mw-translate-fuzzy">

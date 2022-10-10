@@ -1,17 +1,13 @@
 ---
 - GuiCommand   */de
    Name   *FEM ConstraintPressure
-   Name/de   *FEM BeschränkungDruck
-   MenuLocation   *Model → Mechanische Beschränkungen → Beschränkung Druck
+   Name/de   *FEM RandbedingungDruck
+   MenuLocation   *Modell → Mechanische Randbedingungen → Randbedingung Druck
    Workbenches   *[FEM](FEM_Workbench/de.md)
-   Shortcut   *
-   SeeAlso   *[FEM Tutorium](FEM_tutorial/de.md)
+   SeeAlso   *[FEM RandbedingungKraft](FEM_ConstraintForce/de.md)
 ---
 
 # FEM ConstraintPressure/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -19,37 +15,21 @@ Wendet eine Druckbeschränkung auf eine Fläche an.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Klicke auf <img alt="" src=images/FEM_ConstraintPressure.png  style="width   *32px;"> oder wähle **Model** → **Mechanische Beschränkungen** → **<img src="images/FEM_ConstraintPressure.png" width=32px> Beschränkung Druck** aus dem Hauptmenü.
-2.  Klicke auf ** Add reference** und wähle Fläche in [ 3D Ansicht](3D_view/de.md)
-3.  Bearbeite das entsprechende Fenster, um die Drucklast in MPa anzugeben
-4.  Kästchen ankreuzen, um die Richtung umzukehren, falls erforderlich
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/FEM_ConstraintPressure.svg" width=16px> [Randbedingung Druck](FEM_ConstraintPressure/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Mechanische Randbedingungen → <img src="images/FEM_ConstraintPressure.svg" width=16px> Randbedingung Druck** auswählen.
+2.  Auf die Schaltfläche **Hinzufügen** klicken und Flächen in der [3D-Ansicht](3D_view/de.md) auswählen.
+3.  Die Druckbelastung in MPa im entsprechenden Fenster eingeben.
+4.  Falls erforderlich, die Checkbox Richtung umkehren aktivieren, um die Wirkrichtung umzukehren.
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Die Verteilung des Drucks auf die Fläche ist immer gleichmäßig und immer senkrecht zur Fläche.
-
-
-</div>
+-   Die Verteilung des Drucks auf die Fläche ist immer gleichmäßig und immer senkrecht zur Fläche.
 
 -   Pressure on faces   * <https   *//github.com/FreeCAD/FreeCAD/issues/5699>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

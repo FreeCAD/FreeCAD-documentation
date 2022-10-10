@@ -32,31 +32,7 @@ Si le symbole semble plus grand que prévu, utilisez la propriété scale (éche
 
 ## Propriétés
 
-
-{{TitleProperty|Base}}
-
 Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
-
--    **X**
-    
-
--    **Y**
-    
-
--    **Lock Position**
-    
-
--    **Rotation**
-    
-
--    **Scale Type**
-    
-
--    **Scale**
-    
-
--    **Caption**
-    
 
 
 {{TitleProperty|Drawing view}}

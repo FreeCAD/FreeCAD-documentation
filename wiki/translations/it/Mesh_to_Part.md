@@ -1,21 +1,9 @@
 # Mesh to Part/it
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Convertire oggetti Parte in Mesh 
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-La conversione di oggetti di alto livello come le [forme di Parte](Part_Workbench/it.md) in oggetti semplici come gli [oggetti Mesh](Mesh_Workbench/it.md) è una operazione piuttosto semplice, nella quale tutte le facce di un oggetto Parte vengono triangolate (suddivise in maglie di una rete). Il risultato di tale triangolazione (tassellatura) viene poi utilizzato per costruire un oggetto mesh   * (supponiamo che il nostro documento contenga un oggetto Parte)
-
-
-</div>
+La conversione di oggetti di alto livello come le [forme di Parte](Part_Workbench/it.md) in oggetti semplici come gli [oggetti Mesh](Mesh_Workbench/it.md) è una operazione piuttosto semplice, nella quale tutte le facce di un oggetto Parte vengono triangolate (suddivise in maglie di una rete). Il risultato di tale triangolazione (tassellatura) viene poi utilizzato per costruire un oggetto mesh   *
 
 
 ```python
@@ -36,7 +24,7 @@ m = Mesh.Mesh(faces)
 Mesh.show(m)
 ```
 
-Alternative example   *
+Esempio alternativo   *   *
 
 
 ```python
@@ -54,37 +42,13 @@ mesh.Mesh = MeshPart.meshFromShape(
         Relative=False)
 ```
 
+## Convertire Mesh in oggetti Parte 
 
-<div class="mw-translate-fuzzy">
+La conversione delle mesh in oggetti parte è un\'operazione comune. Molto spesso riceverai dati 3D in formato mesh. Le mesh sono abbastanza pratiche per rappresentare la geometria a forma libera e grandi scene visive, in quanto sono molto leggere. Ma in FreeCAD generalmente preferiamo oggetti di livello superiore, solidi, che possono trasportare molte più informazioni e consentire facce curve.
 
-## Convertire oggetti Mesh in Parte 
+Convertire gli oggetti mesh in oggetti di livello superiore, come sono gli oggetti gestiti dal [Ambiente Parte](Part_Workbench/it.md) di FreeCAD non è un\'operazione facile. L\'oggetto Mesh può contenere migliaia di triangoli (per esempio quando è generato da uno scanner 3D), e manipolare solidi costituiti dallo stesso numero di facce sarebbe estremamente difficile. Quindi, in genere, si desidera ottimizzare l\'oggetto durante la conversione.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-La conversione di oggetti Mesh in oggetti Parte è un\'operazione estremamente importante nel lavoro CAD perché molto spesso i dati 3D si ricevono da altri in formato mesh o sono generati da altre applicazioni. I mesh sono molto pratici per rappresentare le geometrie di forma libera e grandi scene visive in quanto sono molto leggeri, ma per lavori CAD si preferiscono generalmente oggetti di livello superiore, che contengono molte più informazioni, come il concetto di solido, o facce composte da curve invece che da triangoli.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Convertire gli oggetti mesh in oggetti di livello superiore, come sono gli oggetti gestiti dal [Modulo Parte](Part_Workbench/it.md) di FreeCAD non è un\'operazione facile. L\'oggetto Mesh può contenere migliaia di triangoli (per esempio quando è generato da uno scanner 3D), e manipolare solidi costituiti dallo stesso numero di facce sarebbe estremamente pesante. Quindi, in genere, si desidera ottimizzare l\'oggetto durante la conversione.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD attualmente offre due metodi per convertire Mesh in oggetti Parte. Il primo metodo è una semplice conversione, diretta, senza alcuna ottimizzazione   *
-
-
-</div>
+FreeCAD attualmente offre due metodi per convertire mesh in oggetti Parte. Il primo metodo è una semplice conversione, diretta, senza alcuna ottimizzazione   *
 
 
 ```python
@@ -98,13 +62,7 @@ solid = Part.makeSolid(shape)
 Part.show(solid)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Il secondo metodo offre la possibilità di considerare complanari le sfaccettature delle maglie quando l\'angolo tra di loro è inferiore a un certo valore. Questo permette di costruire delle forme molto più semplici   * (supponiamo che il nostro documento contenga un oggetto Mesh)
-
-
-</div>
+Il secondo metodo offre la possibilità di considerare complanari le sfaccettature delle maglie quando l\'angolo tra di loro è inferiore a un certo valore, riducendo il numero di facce nel risultato finale   *
 
 
 ```python

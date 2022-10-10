@@ -27,13 +27,7 @@ Il comando **Rimuovi componenti a mano** rimuove i componenti dagli oggetti mesh
 8.  Selezionare **Esci dalla modalità di rimozione** dal menu contestuale della vista 3D per terminare il comando.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

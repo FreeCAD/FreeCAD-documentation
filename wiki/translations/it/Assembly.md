@@ -20,17 +20,11 @@ Ad esempio, un bullone, una ranella e un dado sono tre corpi separati che, quand
 
 In termini generali, non c\'è bisogno di strumenti particolari per creare assemblaggi; è sufficiente avere diversi [corpi](Body/it.md) organizzati in qualche maniera.
 
-
-<div class="mw-translate-fuzzy">
-
 Per posizionare i corpi dove li si vuole, si può
 
--   usare lo strumento [Trasforma](Std_Transform/it.md), oppure
+-   usare lo strumento [Trasforma](Std_TransformManip/it.md), oppure
 -   usare il dialogo di <img alt="" src=images/Std_Placement.svg  style="width   *16px;"> [Posizionamento](Std_Placement/it.md), oppure
--   modificare direttamente la proprietà [Placement](Placement/it.md) nell\'[editore delle proprietà](property_editor/it.md).
-
-
-</div>
+-   modificare direttamente la proprietà [Placement](Placement/it.md) nell\'[Editore delle proprietà](Property_editor/it.md).
 
 Si può usare uno degli [ambienti complementari](External_workbenches/it.md) pseudo-assembly, come Lattice2, Manipulator, Part-o-magic, o WorkFeature, per avere un aiuto nel trovare intersezioni, misurare distanze e distribuire gli oggetti nel modo desiderato.
 

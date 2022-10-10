@@ -1,44 +1,29 @@
-# Testing/it
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Correggere i bug](Debugging/it.md)|[Integrazione continua](Continuous_Integration/it.md)}}
-
-
-</div>
-
-<img alt="Test workbench icon" src=images/Workbench_Test.svg  style="width   *128px;">
+# <img alt="Test workbench icon" src=images/Workbench_Test.svg  style="width   *64px;"> Testing/it
 
 
 {{TOCright}}
 
 ## Introduzione
 
+[Test Framework](Testing/it.md) non è in realtà un ambiente di modellazione, ma contiene un set di script [Python](Python/it.md) per eseguire diversi test sui componenti principali di FreeCAD, al fine di eseguire il debug dei problemi. Vedere anche come [individuare gli errori](debugging/it.md).
 
-<div class="mw-translate-fuzzy">
+Puoi avviare i test dalla riga di comando, usando le opzioni `-t` o `--run-test`.
 
-[Test Framework](Test_Framework/it.md) non è in realtà un ambiente di modellazione, ma contiene un set di script [Python](Python/it.md) per eseguire diversi test sui componenti principali di FreeCAD, al fine di eseguire il debug dei problemi. Vedere anche come [eliminare gli errori](debugging/it.md).
-
-
-</div>
-
-You can run the tests from the command line, by using the `-t` or `--run-test` options.
-
-Run all tests   *
+Avvia tutti i test   *
 
 
 ```python
 freecad --run-test 0
 ```
 
-Run only some the specified unit test, for example   *
+Avvia solo alcuni test specificati, per esempio
 
 
 ```python
 freecad -t TestDraft
 ```
 
-If a test does not need the GUI, it can also be executed in console mode by setting the `-c` or `--console` option in addition. This usually results in much faster startup time as the GUI is not loaded. For example   *
+Se un test non ha bisogno della GUI, può anche essere eseguito in modalità console impostando l\'opzione `-c` o `--console` in aggiunta. Questo di solito si traduce in tempi di avvio molto più rapidi poiché la GUI non viene caricata. Per esempio   *
 
 
 ```python
@@ -47,137 +32,57 @@ freecad -c -t TestPartDesignApp
 
 ## Test menu 
 
-Each top level directory in FreeCAD should have a file with the tests that can be run for that particular workbench or module. The file usually starts with the word `Test`.
+Ogni directory di primo livello in FreeCAD dovrebbe avere un file con i test che possono essere eseguiti per quel particolare ambiente di lavoro o modulo. Il file di solito inizia con la parola `Test`.
 
-To run a test from within FreeCAD, switch to the Test Workbench, then **Test commands → TestToolsGui → Self test → Select test name**, then enter the name of the Python file with the tests; for example, for the [Draft Workbench](Draft_Workbench.md), this would be **TestDraft**, then press **Start**.
-
-## Test functions 
-
-
-<div class="mw-translate-fuzzy">
+Per eseguire un test da FreeCAD, passare all\'Ambiente Test, quindi **Test commands → TestToolsGui → Self test → Select test name**, quindi immettere il nome del file Python con i test; ad esempio, per l\' [ Ambiente Draft](Draft_Workbench/it.md), sarebbe **TestDraft**, quindi premere **Start**.
 
 ## Funzioni di test 
 
 Questa è la lista delle applicazioni di test di 0.15 Git 4207   *
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ### TestAPP.All
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### BaseTests
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### UnitTests
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### Document
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### UnicodeTests
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### MeshTestsApp
 
-Add test function
-
-
-</div>
-
-Add test function
+Aggiungi funzione di test
 
 ### TestDraft
 
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### TestSketcherApp
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### TestPartApp
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### TestPartDesignApp
 
-Add test function
-
-
-</div>
-
-Add test function
+Aggiungi funzione di test
 
 ### TestPathApp
 
-Path workbench test cases   *
+Ambiente Path casistiche di test   *
 
 -   depthTestCases   *
 -   PathTestUtils   *
@@ -203,95 +108,63 @@ Path workbench test cases   *
 -   TestPathVcarve   * Test general functionality of Vcarve operation.
 -   TestPathVoronoi   *
 
-
-<div class="mw-translate-fuzzy">
-
 ### Workbench
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### Menu
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### Menu.MenuDeleteCases
 
-Add test function
-
-
-</div>
-
-Add test function
-
-
-<div class="mw-translate-fuzzy">
+Aggiungi funzione di test
 
 ### Menu.MenuCreateCases
 
-Add test function
-
-
-</div>
-
-Add test function
+Aggiungi funzione di test
 
 ## Scripting
 
 
-**See also   ***
+**Vedere anche   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
-### Get a list of all top-level test modules 
+### Ottieni un elenco di tutti i moduli di test di primo livello 
 
 
 ```python
 FreeCAD.__unit_test__
 ```
 
-Note that the test modules returned here depend on whether a GUI available or not. I.e. when executed in console mode, various tests ending in \"Gui\" are missing.
+Si noti che i moduli di test restituiti qui dipendono dal fatto che una GUI sia disponibile o meno. Cioè, quando viene eseguito in modalità console, mancano vari test che terminano in \"Gui\".
 
-### Run specific tests 
+### Eseguire test specifici 
 
-There are various ways of running tests using [Python\'s unittest library](https   *//docs.python.org/3/library/unittest.html). FreeCAD\'s test framework removes some of the boiler plate for the most common cases.
+Esistono vari modi per eseguire test utilizzando [Python\'s unittest library](https   *//docs.python.org/3/library/unittest.html). Il framework di test di FreeCAD porta alla luce i casi più comuni.
 
-Run all tests defined in a Python module   * 
+Eseguire tutti i test definiti in un modulo Python   * 
 ```python
 import Test, TestFemApp
 Test.runTestsFromModule(TestFemApp)
 ```
 
-Run all tests defined in a Python class   * 
+Eseguire tutti i test definiti in una classe Python   * 
 ```python
 import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
 ```
 
-### Example 1 
+### Esempio 1 
 
-Within the Python Console of FreeCAD, the following code format may be used to run built-in tests. Replace the red \"**TestFem**\" text in the code below with the desired module test name.
+All\'interno della console Python di FreeCAD, il seguente formato di codice può essere utilizzato per eseguire test incorporati. Sostituire il testo rosso \"**TestFem**\" nel codice sottostante con il nome del test del modulo desiderato.
 
--   For example, use \"**TestPathApp**\" to run all unit tests for the Path workbench unit test framework.
--   Submodules are available using dot notation, like \"**TestPathApp.TestPathAdaptive**\" to only run the Adaptive unit tests within the greater Path workbench test framework.
--   Multiple test modules or submodules may be combined by adding another \**suite.addTest(\...)**\ method call just like the one in the code below, but with a different module or submodule reference.
--   Output for the code below will be in the Report View panel within the FreeCAD GUI.
--   Code source is copied from post by FreeCAD forum user, *sgrogan*, in the [unit tests per python](https   *//forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251) topic, with credit there given to forum user, *wmayer*.
+-   Ad esempio, utilizzare \"**TestPathApp**\" per eseguire tutti gli unit test per il framework di unit test Path workbench.
+-   I sottomoduli sono disponibili utilizzando la notazione a punti, ad esempio \"**TestPathApp.TestPathAdaptive**\" per eseguire solo gli unit test adattivi all\'interno del framework di test workbench Path più grande.
+-   Più moduli di test o sottomoduli possono essere combinati aggiungendo un\'altra chiamata al metodo \**suite.addTest(\...)**\ proprio come quella nel codice seguente, ma con un modulo o un riferimento di sottomodulo diverso.
+-   L\'output per il codice riportato di seguito sarà nel pannello Report View all\'interno della GUI di FreeCAD.
+-   Il codice sorgente è copiato dal post dell\'utente del forum FreeCAD, *sgrogan*, nell\'argomento [unit test per python](https   *//forum.freecadweb.org/viewtopic.php?style=3&p=153251#p153251), con credito lì dato all\'utente del forum, *wmayer*.
 
 
 ```python
@@ -302,20 +175,14 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
-## Additional Resources 
+## Risorse aggiuntive 
 
-### Forum Topics 
+### Argomenti del Forum 
 
--   [Support for running specific unit tests with \--run-test \#331](https   *//forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
-
-
-<div class="mw-translate-fuzzy">
+-   [Support for running specific unit tests with \--run-test #331](https   *//forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
 
 
-{{docnav/it|[Correggere i bug](Debugging/it.md)|[Integrazione continua](Continuous_Integration/it.md)}}
 
-
-</div>
 
 
 

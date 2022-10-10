@@ -61,7 +61,7 @@ The user community around FreeCAD is still small, but already includes several a
 -   Showing the work you do with FreeCAD on the [Users Showcase forum](http   *//forum.freecadweb.org/viewforum.php?f=24). You can post screenshots, and, even better, attach the FreeCAD files so other people can examine it and understand how you did it.
 -   Recording [videos](http   *//www.youtube.com/user/FreeCADNews) showing how you did something interesting in FreeCAD. These videos usually do a great job in showing new features.
 -   Write [tutorials](http   *//freecad-tutorial.blogspot.com/) describing or teaching something interesting. You can write tutorials on your own blog, directly on our wiki, or even on the forum.
--   Post on the [Mastodon](https   *//joinmastodon.org/) open source social network (and [follow FreeCAD](https   *//fosstodon.org/@FreeCAD) there), on the [Facebook](https   *//www.facebook.com/groups/416491481766626) community or on [Twitter](https   *//twitter.com) (and [follow FreeCAD](https   *//twitter.com/FreeCADNews) there). Use the hashtags \#FreeCAD, \#MadeWithFreeCAD or \#fc3d to make your FreeCAD-related posts easier to find by other FreeCAD users.
+-   Post on the [Mastodon](https   *//joinmastodon.org/) open source social network (and [follow FreeCAD](https   *//fosstodon.org/@FreeCAD) there), on the [Facebook](https   *//www.facebook.com/groups/416491481766626) community or on [Twitter](https   *//twitter.com) (and [follow FreeCAD](https   *//twitter.com/FreeCADNews) there). Use the hashtags #FreeCAD, #MadeWithFreeCAD or #fc3d to make your FreeCAD-related posts easier to find by other FreeCAD users.
 -   Look into the latest FreeCAD posts on [Reddit](https   *//www.reddit.com/search/?q=freecad&type=link&sort=new), [3dprinting.stackexchange](https   *//3dprinting.stackexchange.com/search?tab=newest&q=freecad), [StackOverflow](https   *//stackoverflow.com/search?q=freecad)\... Try to answer them and participate in the discussions sharing your experience and information.
 -   Be present at the FreeCAD IRC channel or [other chat groups](https   *//www.freecadweb.org/wiki/Help#Chat).
 
@@ -91,7 +91,7 @@ Traducerea documentației este ușoară, wiki-ul FreeCAD acceptă un plugin de t
 
 Translating is easy, the FreeCAD wiki supports a translation plugin which allows you to translate the base English page to other languages.
 
-Pentru detalii asupra traducerii și localizării, a se vedea [Localisation\#Translating the wiki](Localisation#Translating_the_wiki.md).
+Pentru detalii asupra traducerii și localizării, a se vedea [Localisation#Translating the wiki](Localisation#Translating_the_wiki.md).
 
 Asigurați-vă că sunteți familiarizați cu elementele de bază ale marcajului wiki; a se vedea [Help   *Editing](Help_Editing.md) pentru referință.
 
@@ -107,7 +107,7 @@ Apoi mergeți la [ WikiPages](WikiPages.md) pentru a vă familiariza cu stilul f
 -   Stați pe forum și ajutați noii veniți să rezolve întrebările de bază
 -   Scrieți tutoriale, înregistrați videoclipuri etc., arătând ce faceți cu FreeCAD
 -   Contribuiți cu fișiere, desene, etc. Încă nu avem fișiere de exemple bune despre ceea ce se poate face cu FreeCAD
--   Ajutați să promovați FreeCAD pe GitHub de către [https   *//help.github.com/articles/be-social/\#watch-a-project \"Starring\" și \"Watching\"](https   *//help.github.com/articles/be-social/#watch-a-project_"Starring"_și_"Watching".md) [/ FreeCAD repository FreeCAD](https   *//github.com/FreeCAD)
+-   Ajutați să promovați FreeCAD pe GitHub de către [https   *//help.github.com/articles/be-social/#watch-a-project \"Starring\" și \"Watching\"](https   *//help.github.com/articles/be-social/#watch-a-project_"Starring"_și_"Watching".md) [/ FreeCAD repository FreeCAD](https   *//github.com/FreeCAD)
 
 
 </div>
@@ -124,7 +124,7 @@ Apoi mergeți la [ WikiPages](WikiPages.md) pentru a vă familiariza cu stilul f
 
 ### Raportați bug-uri și cereți funcții interesante 
 
-![](images/Bugreport-workflow.png ) Deși locul pentru a raporta bug-uri confirmate și pentru a sugera noi funcții este în cele din urmă \'\'\' [ FreeCAD Tracker](tracker.md) \'\'\', vă rugăm să postați întotdeauna rapoarte de erori și cereri de caracteristici mai întâi la forumul de ajutor. Pentru a salva timpul dezvoltatorilor (triajul și manipularea greu de înțeles a erorilor pot fi mari consumatoare de timp) și pentru a evita frustrările deoarece problema dvs. nu a fost tratată așa cum doriți, citiți următoarele   *
+![](images/Bugreport-workflow.png ) Deși locul pentru a raporta bug-uri confirmate și pentru a sugera noi funcții este în cele din urmă **[ FreeCAD Tracker](tracker.md)**, vă rugăm să postați întotdeauna rapoarte de erori și cereri de caracteristici mai întâi la forumul de ajutor. Pentru a salva timpul dezvoltatorilor (triajul și manipularea greu de înțeles a erorilor pot fi mari consumatoare de timp) și pentru a evita frustrările deoarece problema dvs. nu a fost tratată așa cum doriți, citiți următoarele   *
 
 -   Cererile de erori și caracteristici sunt tratate în același tracker. Doar marcați problema ca \"bug\" (ceva care nu funcționează așa cum ar trebui) sau \"feature\" (ceva care nu este acolo, dar credeți că ar fi bine să aveți)
 -   Deși inițial ați putea trimite probleme anonim, din păcate acest lucru a trebuit să fie anulat din cauza spamului. Acum, dacă doriți să creați / editați tichete, va trebui să vă creați un cont. Veți fi anunțat în mod implicit atunci când cineva adaugă note la problemă. În multe cazuri, persoana care va rezolva problema va avea nevoie de mai multe informații de la dvs.
@@ -192,7 +192,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 -   Since 2016, FreeCAD also participates in the [Google Summer of Code 2020](Google_Summer_of_Code_2020.md). Be sure to check our ideas there if you are interested in participating in the next edition.
 -   More and more of the FreeCAD functionality is not written in the FreeCAD code itself but in addons, macros and extensions. Together, this ecosystem is what makes FreeCAD powerful. Oftentimes, working on an addon is easier because there is less code to read and understand, and fewer people involved. check the [Addons repository](https   *//github.com/FreeCAD/FreeCAD-addons) and [Macros repository](https   *//github.com/FreeCAD/FreeCAD-macros) to get some ideas!
 
-## Model
+## Create models 
 
 FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 

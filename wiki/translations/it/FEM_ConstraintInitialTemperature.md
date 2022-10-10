@@ -30,11 +30,23 @@ Crea un vincolo temperatura iniziale per l\'analisi termomeccanica.
 
 ## Limitazioni
 
+
+<div class="mw-translate-fuzzy">
+
 Il vincolo applica la temperatura iniziale a tutti i nodi nel modello FEA
+
+
+</div>
 
 ## Note
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Il vincolo usa la \*\*INITIAL CONDITIONS card in CalculiX. Il vincolo temperatura iniziale è spiegato in <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

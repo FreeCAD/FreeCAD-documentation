@@ -3,13 +3,7 @@
 
 ## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo tutorial spiega come creare un pulsante nella barra degli strumenti per avviare velocemente una macro o per associare altri collegamenti a una icona personalizzata. Gli strumenti (inclusi gli strumenti Macro) possono essere usati in diversi ambienti di lavoro. In un esempio, una Macro diventa uno Strumento-macro creando un **\'Testo**\', un **\'Suggerimento**\' (Tool tip) e una **\'Icona**\'. Successivamente questo Strumento-macro diventa parte di una barra degli strumenti extra in un ambiente di lavoro.
-
-
-</div>
+Questo tutorial mostra la personalizzazione delle barre degli strumenti. Gli strumenti (inclusi gli strumenti Macro) possono essere usati in diversi ambienti di lavoro. In un esempio, una Macro diventa uno Strumento-macro creando un **\'Testo**\', un **\'Suggerimento**\' (Tool tip) e una **\'Icona**\'. Successivamente questo Strumento-macro diventa parte di una barra degli strumenti extra in un ambiente di lavoro.
 
 ## Utilizzo
 
@@ -101,13 +95,7 @@ Selezionare la tabella *Macro*
 
 -   Ora la barra è stata creata
 
-
-<div class="mw-translate-fuzzy">
-
--   Per aggiungere lo Strumeto-macro a questa barra degli strumenti, selezionarla nella finestra di sinistra e quindi fare clic sul **Pulsante** freccia destra.
-
-
-</div>
+-   Per aggiungere lo Strumento-macro a questa barra degli strumenti, selezionarla nella finestra di sinistra e quindi fare clic sul **Pulsante** freccia destra.
 
 <img alt="Select your macro" src=images/CustomizeToolBar_16.png  style="width   *640px;"> 
 

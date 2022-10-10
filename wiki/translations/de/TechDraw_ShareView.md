@@ -23,6 +23,10 @@ Das Werkzeug <img alt="" src=images/TechDraw_ShareView.svg  style="width   *24px
 3.  Es öffnet sich ein Dialog, der es erlaubt, eine Ansicht, eine Von-Seite und eine Nach-Seite auszuwählen.
 4.  Die Schaltfläche **OK** anklicken.
 
+## Hinweise
+
+Es gibt nur ein View-Objekt nach der Verteilungsoperation. Sämtliche Änderungen, die an der Ansicht erfolgen, werden auf beiden Seiten angezeigt. Wenn die Ansicht von einer Seite gelöscht wird, wird sie auch von der anderen Seite gelöscht.
+
 ## Skripten
 
 
@@ -39,12 +43,14 @@ import TechDrawTools
 TechDrawTools.MoveView(viewName, fromPageName, toPageName, True)
 ```
 
-## Hinweise
 
-Es gibt nur ein View-Objekt nach der Verteilungsoperation. Sämtliche Änderungen, die an der Ansicht erfolgen, werden auf beiden Seiten angezeigt. Wenn die Ansicht von einer Seite gelöscht wird, wird sie auch von der anderen Seite gelöscht.
-
+<div class="mw-translate-fuzzy">
 
 
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

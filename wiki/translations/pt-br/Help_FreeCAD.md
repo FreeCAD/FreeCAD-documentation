@@ -58,7 +58,7 @@ Para mais detalhes sobre a tradução, consulte [Localização](Special   *MyLan
 
 Traduzir é fácil, o wiki FreeCAD suporta um \"plugin\" de tradução que lhe permite traduzir a página base em inglês para outras línguas.
 
-Para detalhes sobre tradução, consulte [Localização\#Traduzindo o wiki do FreeCAD](Special   *MyLanguage/Localisation#Translate_the_FreeCAD_wiki.md).
+Para detalhes sobre tradução, consulte [Localização#Traduzindo o wiki do FreeCAD](Special   *MyLanguage/Localisation#Translate_the_FreeCAD_wiki.md).
 
 Por favor, certifique-se de que está familiarizado com os fundamentos de marcação wiki; ver [Ajuda   *Editando](Special   *MyLanguage/Help_Editing.md) como referência.
 
@@ -118,7 +118,7 @@ Escrever código para o FreeCAD não é difícil e você não precisa de nenhuma
 
 </div>
 
-## Model
+## Create models 
 
 FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 

@@ -1,7 +1,7 @@
 # Artwork Inspection/it
-These icons are in the indicated source path.
+Queste icone si trovano nel percorso origine indicato.
 
-For all icons in the source tree, see [Artwork](Artwork.md).
+Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Artwork/it.md)
 
 ## src/Mod/Inspection/
 

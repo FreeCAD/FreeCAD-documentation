@@ -1,27 +1,28 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Std TreeCollapseDocument
-   MenuLocation   *View → TreeView actions → Collapse/Expand
-   Workbenches   *All
+   Name/pl   *Std   * Przeciąganie w widoku drzewa
+   MenuLocation   *Widok → Akcje widoku drzewa → Rozpocznij przeciąganie
+   Workbenches   *wszystkie
    Version   *0.19
-   SeeAlso   *[Std TreeSingleDocument](Std_TreeSingleDocument.md), [Std TreeMultiDocument](Std_TreeMultiDocument.md)
+   SeeAlso   *[Jeden dokument](Std_TreeSingleDocument/pl.md), [Wiele dokumentów](Std_TreeMultiDocument/pl.md)
 ---
 
 # Std TreeCollapseDocument/pl
 
-## Description
+## Opis
 
-The **Std TreeCollapseDocument** command switches the [Tree view](Tree_view.md) DocumentMode to CollapseDocument. In this mode activating a document's [3D view](3D_view.md) will automatically expand that document in the Tree view and collapse all other documents. The other modes are [SingleDocument](Std_TreeSingleDocument.md) and [MultiDocument](Std_TreeMultiDocument.md).
+Polecenie **Zwiń / rozwiń dokumenty w widoku drzewa** przełącza tryb dokumentu w [Widoku drzewa](Tree_view/pl.md) na zwiń / rozwiń. W tym trybie aktywowanie dokumentu w oknie [widoku 3D](3D_view/pl.md) spowoduje automatyczne rozwinięcie tego dokumentu w widoku drzewa i zwinięcie wszystkich innych dokumentów. Pozostałe tryby to [Jeden dokument](Std_TreeSingleDocument/pl.md) i [Wiele dokumentów](Std_TreeMultiDocument/pl.md).
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command   *
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Collapse/Expand** option from the flyout. Note   * the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeCollapseDocument.svg" width=16px> Collapse/Expand** option from the menu.
+1.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Kliknij czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz z menu opcję **Zwiń / rozwiń**. Uwaga   * ikonka przycisku zmieni się w zależności od wybranej opcji.
+    -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeCollapseDocument.svg" width=16px> Zwiń / rozwiń**.
 
-## Preferences
+## Ustawienia
 
-The Tree view DocumentMode mode is stored   * **Tools → Edit parameters... → BaseApp → Preferences → TreeView → DocumentMode**. It is an integer value. Possible values are `0` (SingleDocument), `1` (MultiDocument) or `2` (CollapseDocument). The default is `2`.
+Tryb Tryb dokumentu w widoku drzewa jest zapisywany   * **Przybory → Edycja parametrów ... → BaseApp → Preferencje → TreeView → DocumentMode**. Jest to wartość całkowita. Możliwe wartości to `0` *(Jeden Dokument)*, `1` *(Wiele dokumentów)* lub `2` *(Zwiń / rozwiń)*. Domyślnie jest to wartość `2`.
 
 
 

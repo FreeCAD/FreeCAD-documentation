@@ -2,7 +2,7 @@
 - GuiCommand   *
    Name   *Sketcher Conics
    Icon   *Sketcher_CompCreateConic.png
-   MenuLocation   *None (toolbar only)
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench.md)
 ---
 

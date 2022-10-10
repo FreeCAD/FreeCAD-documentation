@@ -37,82 +37,135 @@ Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen
 
 {{TitleProperty|Basis}}
 
--    {{PropertyData/de|X}}   * Die horizontale Position der Ansicht auf der Seite. (1)
+-    {{PropertyData/de|X|Distance}}   * Die horizontale Position der Ansicht auf der Seite. (1)
 
--    {{PropertyData/de|Y}}   * Die vertikale Position der Ansicht auf der Seite. (1)
+-    {{PropertyData/de|Y|Distance}}   * Die vertikale Position der Ansicht auf der Seite. (1)
 
--    {{PropertyData/de|Lock Position}}   * Ist der Wert auf true gesetzt, wird verhindert, dass Ansichten mit der Benutzerschnittstelle (GUI) bewegt werden können. Die Ansicht kann weiterhin durch Ändern der X- und Y-Eigenschaften bewegt werden. (1)
+-    {{PropertyData/de|Lock Position|Bool}}   * Ist der Wert auf `True` gesetzt, wird verhindert, dass Ansichten mit der Benutzerschnittstelle (GUI) bewegt werden können. Die Ansicht kann weiterhin durch Ändern der X- und Y-Eigenschaften bewegt werden. (1)
 
--    {{PropertyData/de|Rotation}}   * Drehung der Ansicht auf dem Zeichnungsblatt gegen den Uhrzeigersinn in Grad. (1)
+-    {{PropertyData/de|Rotation|Angle}}   * Drehung der Ansicht auf dem Zeichnungsblatt gegen den Uhrzeigersinn in Grad. (1)
 
--    {{PropertyData/de|ScaleType}}   * \"Dokument\"   * Verwendet die Maßstabseinstellung des Zeichnungsblattes. \"Benutzerdefiniert\"   * Verwendet einen abweichenden Maßstab für diese Ansicht. \"Automatisch\"   * Passt die Ansicht an die Blattgröße an. (1)
+-    {{PropertyData/de|Scale Type|Enumeration}}   * Die Art der Skalierung. Optionen   * (1)
 
--    {{PropertyData/de|Scale}}   * Eine Ansicht wird auf dem Zeichnungsblatt im Verhältnis Scale   *1 zur Quelle gerendert. (1)
+    -   
+        {{Value|Seite}}
+        
+           * Verwendet die Maßstabseinestellung des [Zeichnungsblattes](TechDraw_PageDefault/de.md).
 
--    {{PropertyData/de|Caption}}   * Optionale kurze Textunterschrift.
+    -   
+        {{Value|Automatisch}}
+        
+           * Passt die Ansicht an die Blattgröße an.
 
-\(1\) Diese Eigenschaften sind allen Ansichtstypen gemeinsam.
+    -   
+        {{Value|Benutzerdefiniert}}
+        
+           * Verwendet den in der {{PropertyData/de|Scale}} definierten Maßstab.
+
+-    {{PropertyData/de|Scale|FloatConstant}}   * Die Ansicht wird auf dem Zeichnungsblatt im Verhältnis Scale   *1 zur Quelle gerendert. (1)
+
+-    {{PropertyData/de|Caption|String}}   * Optionale kurze Textunterschrift. (1)
 
 
 {{TitleProperty|Cosmetics}}
 
+-    {{PropertyData/de|Cosmetic Vertexes|TechDraw   *   *PropertyCosmeticVertexList|Hidden}}
+    
+
+-    {{PropertyData/de|Cosmetic Edges|TechDraw   *   *PropertyCosmeticEdgeList|Hidden}}
+    
+
+-    {{PropertyData/de|Center Lines|TechDraw   *   *PropertyCenterLineList|Hidden}}
+    
+
+-    {{PropertyData/de|Geom Formats|TechDraw   *   *PropertyGeomFormatList|Hidden}}
+    
+
 
 {{TitleProperty|HLR Parameters}}
 
--    {{PropertyData/de|Coarse View}}(Grobansicht)   * Wenn {{Incode|true}}, verwendet TechDraw eine Polygonnäherung zur Berechnung der Zeichnungsgeometrie. Wenn {{Incode|false}}, verwendet TechDraw einen Präzisionsalgorithmus. Eine Grobansicht kann bei komplexen Modellen sehr viel schneller sein. Die Qualität der Zeichnung wird verringert, da jede Kurve als eine Reihe kurzer Liniensegmente angenähert wird. Knoten werden in einer Grobansicht nicht angezeigt, da jedes kurze Segment zu zwei neuen Knoten führen würde und damit die Anzeige unübersichtlich werden ließe. Lineare Maße können einer Grobansicht hinzugefügt werden, sind aber wahrscheinlich nicht sinnvoll.
+-    **Coarse View|Bool**(Grobansicht)   * Wenn `True`, verwendet TechDraw eine Polygonnäherung zur Berechnung der Zeichnungsgeometrie. Wenn `False`, verwendet TechDraw einen Präzisionsalgorithmus. Eine Grobansicht kann bei komplexen Modellen sehr viel schneller sein. Die Qualität der Zeichnung wird verringert, da jede Kurve als eine Reihe kurzer Liniensegmente angenähert wird. Knoten werden in einer Grobansicht nicht angezeigt, da jedes kurze Segment zu zwei neuen Knoten führen würde und damit die Anzeige unübersichtlich werden ließe. Lineare Maße können einer Grobansicht hinzugefügt werden, sind aber wahrscheinlich nicht sinnvoll.
 
--    {{PropertyData/de|Smooth Visible}}   * Sichtbare Flächenübergangslinien ein/aus.
+-    **Smooth Visible|Bool**   * Sichtbare Flächenübergangslinien ein/aus.
 
--    {{PropertyData/de|Seam Visible}}   * Sichtbare Seam-Lines on/off.
+-    **Seam Visible|Bool**   * Sichtbare Seam-Lines on/off.
 
--    {{PropertyData/de|Iso Visible}}   * Sichtbare isoparametrische (U-, V-) Linien ein/aus.
+-    **Iso Visible|Bool**   * Sichtbare isoparametrische (U-, V-) Linien ein/aus.
 
--    {{PropertyData/de|Hard Hidden}}   * Verdeckte Kanten ein/aus.
+-    **Hard Hidden|Bool**   * Verdeckte Kanten ein/aus.
 
--    {{PropertyData/de|Smooth Hidden}}   * Verdeckte Flächenübergangslinien ein/aus.
+-    **Smooth Hidden|Bool**   * Verdeckte Flächenübergangslinien ein/aus.
 
--    {{PropertyData/de|Seam Hidden}}   * Verdeckte Seam-Lines ein/aus.
+-    **Seam Hidden|Bool**   * Verdeckte Seam-Lines ein/aus.
 
--    {{PropertyData/de|Iso Hidden}}   * Verdeckte isoparametrische (U-, V-) Linien ein/aus.
+-    **Iso Hidden|Bool**   * Verdeckte isoparametrische (U-, V-) Linien ein/aus.
 
--    {{PropertyData/de|Iso Count}}   * Anzahl der isoparametrischen (U-, V-) Linien, die auf jede Fläche gezeichnet werden.
+-    **Iso Count|Integer**   * Anzahl der isoparametrischen (U-, V-) Linien, die auf jede Fläche gezeichnet werden.
 
 
 {{TitleProperty|Projection}}
 
--    {{PropertyData/de|Source}}   * Verweise auf die darstellbaren Objekte, die abgebildet werden sollen.
+-    {{PropertyData/de|Source|LinkList}}   * Verweise auf die darstellbaren Objekte, die abgebildet werden sollen.
 
--    {{PropertyData/de|XSource}}   * Verweise auf die darstellbaren Objekten in einer externen Datei. {{Version/de|0.19}}
+-    {{PropertyData/de|XSource|XLinkList}}   * Verweise auf die darstellbaren Objekten in einer externen Datei. {{Version/de|0.19}}
 
--    {{PropertyData/de|Direction}}   * Dieser Vektor steuert die Richtung, aus der das Objekt betrachtet wird. +X ist rechts, -X ist links, +Y ist hinten, -Y ist vorne (Blick auf den Bildschirm), +Z ist oben und -Z ist unten. Eine Vorderansicht ist also (0,-1,0) und eine isometrische Ansicht ist (1,-1,1).
+-    {{PropertyData/de|Direction|Vector}}   * Dieser Vektor steuert die Richtung, aus der das Objekt betrachtet wird. +X ist rechts, -X ist links, +Y ist hinten, -Y ist vorne (Blick auf den Bildschirm), +Z ist oben und -Z ist unten. Eine Vorderansicht ist also (0,-1,0) und eine isometrische Ansicht ist (1,-1,1).
 
--    {{PropertyData/de|XDirection}}   * dieser Vektor steuert die Rotation der Ansicht um die Blickrichtung (Direction). {{Version/de|0.19}}.
+-    {{PropertyData/de|XDirection|Vector}}   * Dieser Vektor steuert die Rotation der Ansicht um die Blickrichtung (Direction). {{Version/de|0.19}}.
 
--    {{PropertyData/de|Perspective}}   * {{Incode|true}} für perspektivische Projektion, {{Incode|false}} für orthogonale Projektion.
+-    {{PropertyData/de|Perspective|Bool}}   * `True` für perspektivische Projektion `False` für orthogonale Projektion.
 
--    {{PropertyData/de|Focus}}   * Abstand von der Kamera zur Projektionsebene für perspektivische Projektionen. Muss auf das Objekt eingestellt werden. Zu weit und die Perspektive geht verloren, zu nah und das Objekt wird verzerrt.
+-    {{PropertyData/de|Focus|Distance}}   * Abstand von der Kamera zur Projektionsebene für perspektivische Projektionen. Muss auf das Objekt eingestellt werden. Zu weit und die Perspektive geht verloren, zu nah und das Objekt wird verzerrt.
 
 ### Ansicht
 
--    {{PropertyView/de|Keep Label}}   * Wenn True, wird die Bildunterschrift (Label) der Ansicht immer dargestellt.
 
--    {{PropertyView/de|LineWidth}}   * Strichstärke der sichtbaren Linien. Siehe auch [Liniengruppen](TechDraw_LineGroup/de.md).
+{{TitleProperty|Basis}}
 
--    {{PropertyView/de|HiddenWidth}}   * Strichstärke der verdeckten Linien, wenn aktiviert.
+-    {{PropertyView/de|Keep Label|Bool}}   * Zeigt die Bezeichnung (Label) der Ansicht immer an, wenn `True`. (1)
 
--    {{PropertyView/de|IsoWidth}}   * Strichstärke der isoparametrischen (U-, V-) Flächenlinien und der Maßlinien.
+-    {{PropertyView/de|Stack Order|Integer}}   * Liegt davor oder dahinter im Bezug auf andere Ansichten. (1) {{Version/de|1.0}}
 
--    {{PropertyView/de|ExtraWidth}}   * Noch nicht implementiert.
 
--    {{PropertyView/de|ShowCenters}}   * Kreis-und Bogenmittelpunkte ein-/ausschalten.
+{{TitleProperty|Decoration}}
 
--    {{PropertyView/de|CenterScale}}   * Größeneinstellung für Kreis- und Bogenmittelpunkte, wenn aktiviert.
+-    {{PropertyView/de|Arc Center Marks|Bool}}   * Markierungen der Kreisbogenmitten ein/aus.
 
--    {{PropertyView/de|HorizCenterLine}}   * Stellt eine horizontale Mittellinie durch die Ansicht dar.
+-    {{PropertyView/de|Center Scale|Float}}   * Größeneinstellung für Markierungen der Kreisbogenmitten, wenn aktiviert.
 
--    {{PropertyView/de|VertCenterLine}}   * Stellt eine vertikale Mittellinie durch die Ansicht dar.
+-    {{PropertyView/de|Horiz Center Line|Bool}}   * Stellt eine horizontale Mittellinie durch die Ansicht dar.
 
--    {{PropertyView/de|ShowSectionLine}}   * Schnittlinie ein-/ausblenden, falls anwendbar.
+-    {{PropertyView/de|Section Line Color|Color}}   * Legt die Farbe der Schnittlinien fest, wenn vorhanden.
+
+-    {{PropertyView/de|Section Line Style|Enumeration}}   * Legt die Linienart der Schnittlinien fest, wenn vorhanden.
+
+-    {{PropertyView/de|Show All Edges|Bool}}   * Stellt verdeckte Kanten zeitweise dar.
+
+-    {{PropertyView/de|Show Section Line|Bool}}   * Anzeigen/Ausblenden der Schnittlinien, wenn vorhanden.
+
+-    {{PropertyView/de|Vert Center Line|Bool}}   * Stellt eine Vertikale Mittellinie durch die Ansicht dar.
+
+
+{{TitleProperty|Highlight}}
+
+-    {{PropertyView/de|Highlight Adjust|Float}}   * Passt die Drehung des Detail-Auswahlrahmens an, wenn vorhanden.
+
+-    {{PropertyView/de|Highlight Line Color|Color}}   * Bestimmt die Linienfarbe des Auswahlrahmens, wenn vorhanden.
+
+-    {{PropertyView/de|Highlight Line Style|Enumeration}}   * Bestimmt die Linienart des Auswahlrahmens, wenn vorhanden.
+
+
+{{TitleProperty|Lines}}
+
+-    **Extra Width|Length**   * Noch nicht implementiert.
+
+-    **Hidden Width|Length**   * Linienstärke von verdeckten Kanten, wenn aktiviert.
+
+-    **Iso Width|Length**   * Die Linienstärke von isoparametrischen (U-, V-) Oberflächenl und Maßlinien.
+
+-    **Line Width|Length**   * Die Linienstärke von sichtbaren Kanten. Siehe [Liniengruppen](TechDraw_LineGroup/de.md).
+
+\(1\) Diese Eigenschaften sind allen Ansichtstypen gemeinsam.
 
 ## Skripten
 
@@ -125,10 +178,10 @@ Das Werkzeug Ansicht kann mit [Makros](Macros/de.md) und von der [Python](Python
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
+view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart', 'View')
 rc = page.addView(view)
 FreeCAD.ActiveDocument.View.Source = [App.ActiveDocument.Box]
-FreeCAD.ActiveDocument.View.Direction = (0.0,0.0,1.0)
+FreeCAD.ActiveDocument.View.Direction = (0.0, 0.0, 1.0)
 ```
 
 

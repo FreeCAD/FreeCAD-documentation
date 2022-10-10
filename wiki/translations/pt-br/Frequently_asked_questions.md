@@ -145,7 +145,7 @@ O FreeCAD é um [software de código aberto](http   *//en.wikipedia.org/wiki/Ope
 
 <center>
 
-Image   *Style\_of\_navigation.png\|A partir do **botão direito** do mouse Image   *Style of navigation menu.png\|No menu **Editar → Preferências →**
+Image   *Style_of_navigation.png\|A partir do **botão direito** do mouse Image   *Style of navigation menu.png\|No menu **Editar → Preferências →**
 
 
 </center>
@@ -153,41 +153,13 @@ Image   *Style\_of\_navigation.png\|A partir do **botão direito** do mouse Imag
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 O FreeCAD oferece vários [modos de navegação](Mouse_Model/pt-br.md), que podem ser definidos pela janela de preferências ou clicando com o botão direito do mouse. Para saber mais sobre os modos de navegação, consulte a página [Modelo do mousePara](Mouse_Model/pt-br.md) o modo padrão, o \"Navegação CAD\", os comandos são os seguintes,
 
 
-{{CAD Navigation
-|Select_name=Selecionar
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotacionar vista<br>Primeiro método
-|Rotate_view_alt_name=Rotacionar vista<br>Método alternativo
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
-
-Manter pressionado **Ctrl** permite a seleção de múltiplos objetos.
-|Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
-|Pan_mode_text=Pan mode   * segure a tecla **Ctrl**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
-|Zoom_text=Utilizar a roda do mouse para aumentar e diminuir o zoom.
-
-Clicando no botão do meio do mouse, a vista é centrada novamente na localização do cursor.
-|Zoom_mode_text=Zoom mode   * segure as teclas **Ctrl** e **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. 
-<small>(v0.17)</small> 
-|Rotate_view_text=Segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro.
-
-Pressione o botão central o mouse para rotacionar a câmera. O centro da rotação é determinado pela posição do cursor, na tela, quando você clica no botão central.
-
-A operação de rotação funciona como se você estivesse girando uma bola a partir de seu centro. Se você soltar o botão antes de parar de movimentar o mouse, a visualização continua, se a opção [girando](Std_DemoMode/pt-br.md) estiver habilitada.
-
-Um duplo clique com o botão do meio do mouse define um novo centro de rotação.
-|Rotate_view_mode_text=Rotate mode   * pressione a tecla **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
-|Rotate_view_alt_text=Segure o botão central do mouse, depois pressione e segure o botão direito do mouse, depois mova o ponteiro.
-
-Com este método, o botão central do mouse pode ser solto depois que o botão direito do mouse for pressionado.
-
-Os usuários que usam o mouse com a mão direita podem achar este método mais fácil do que o primeiro método.
-}}
+</div>
 
 ### O que eu posso fazer com o FreeCAD? Por onde eu começo? 
 
@@ -292,6 +264,10 @@ Sim. Desde 2016, o FreeCAD participa do Google Summer of Code. Veja [Google Summ
 Este wiki está hospedando um monte de conteúdos. O material mais atualizado e interessante está reunido no [manual](Online_Help_Toc/pt-br.md).
 
 Consulte o parágrafo [Traduza a documentação](Help_FreeCAD/pt-br#Traduza_a_documentação.md) para obter mais detalhes sobre como traduzir o wiki.
+
+### Can I buy swag? 
+
+FreeCAD doesn\'t offer swag you can order to support the project. But you can create your own. See our [Swag](Swag.md) page for instructions.
 
 ## Licenciamento, cópia e reutilização 
 

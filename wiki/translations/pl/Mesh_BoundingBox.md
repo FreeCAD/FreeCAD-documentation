@@ -1,25 +1,26 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh BoundingBox
-   MenuLocation   *Meshes → Analyze → Boundings info...
+   Name/pl   *Siatka   * Informacje o granicach
+   MenuLocation   *Siatki → Analizuj → Informacje o granicach ...
    Workbenches   *[Mesh](Mesh_Workbench.md)
 ---
 
 # Mesh BoundingBox/pl
 
-## Description
+## Opis
 
-The **Mesh BoundingBox** command shows the bounding box coordinates of a mesh object.
+Polecenie **Informacje o granicach** pokazuje współrzędne ramki otaczającej obiektu siatkowego.
 
-## Usage
+## Użycie
 
-1.  Select a single mesh object.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_BoundingBox.svg" width=16px> [Mesh BoundingBox](Mesh_BoundingBox.md)** button.
-    -   Select the **Meshes → Analyze → <img src="images/Mesh_BoundingBox.svg" width=16px> Boundings info...** option from the menu.
-3.  The **Boundings** dialog box opens showing the coordinates of the object\'s bounding box.
-4.  The same information is also displayed in the [Report view](Report_view.md).
-5.  Press the **OK** button to close the dialog box and finish the command.
+1.  Wybierz pojedynczy obiekt siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_BoundingBox.svg" width=16px> [Informacje o granicach ...](Mesh_BoundingBox.md)**.
+    -   Wybierz opcję z menu **Siatki → Analizuj → <img src="images/Mesh_BoundingBox.svg" width=16px> Informacje o granicach ...**.
+3.  Otwiera się okno dialogowe **Granice** pokazujące współrzędne pola ograniczającego obiektu.
+4.  Ta sama informacja jest również wyświetlana w [Widoku raportu](Report_view/pl.md).
+5.  Naciśnij przycisk **OK**, aby zamknąć okno dialogowe i zakończyć polecenie.
 
 
 

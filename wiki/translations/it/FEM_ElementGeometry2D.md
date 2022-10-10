@@ -15,7 +15,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Spessore di una lastra viene utilizzato per definire lo spessore degli elementi FEM 2D, tutti o posizionati sulla superficie scelta.
+
+
+</div>
 
 ## Utilizzo
 

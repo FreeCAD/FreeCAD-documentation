@@ -31,7 +31,13 @@ Dieses Werkzeug stutzt eine Kante bis zur nächsten überlappenden Kante.
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

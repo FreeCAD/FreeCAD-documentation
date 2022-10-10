@@ -24,22 +24,10 @@ Per tagliare altri oggetti è possibile utilizzare il comando [Std Copy](Std_Cop
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
--   La scorciatoia standard da tastiera **Ctrl** + **X** non richiama questo comando **Std Cut** ma utilizza invece la funzione Taglia del sistema operativo. È possibile utilizzare questo collegamento nella maggior parte delle finestre di testo e delle caselle di input di FreeCAD. Il collegamento funziona anche per le celle del foglio di calcolo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   La scorciatoia standard da tastiera **Ctrl** + **X** non richiama questo comando **Std Cut** ma utilizza invece la funzione Taglia del sistema operativo. È possibile utilizzare questo collegamento nella maggior parte delle finestre di testo e delle caselle di input di FreeCAD, esso funziona anche per le celle del foglio di calcolo.
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

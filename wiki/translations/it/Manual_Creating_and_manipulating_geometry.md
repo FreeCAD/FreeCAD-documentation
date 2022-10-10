@@ -212,7 +212,7 @@ Questo perché quando si estrude una sola faccia, si ottiene sempre una solido. 
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
-print(s.ShapeType)
+print(S.ShapeType)
 ```
 
 Che ovviamente ci dà un guscio vuoto, con le facce superiore e inferiore mancanti.

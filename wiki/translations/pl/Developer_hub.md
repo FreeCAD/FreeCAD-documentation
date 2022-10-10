@@ -3,13 +3,13 @@
 
 
 
-This is the place to come if you want to contribute to the development of the FreeCAD software.
+To jest miejsce, które należy odwiedzić, jeśli chcesz przyczynić się do rozwoju programu FreeCAD.
 
-These pages are in the early stage of development. If you can\'t find the information you are looking for, or have found useful information somewhere we have not linked to, then please leave a comment on the [forum](http   *//forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff) and someone will look into it (or, if you are feeling bold, why not edit this page directly!).
+Te strony są we wczesnej fazie rozwoju. Jeśli nie możesz znaleźć informacji, której szukasz, lub znalazłeś przydatne informacje gdzieś, gdzie nie zamieściliśmy linków, zostaw komentarz na [forum](http   *//forum.freecadweb.org/index.php?sid=5f84150e79db8842e277b042077097ff), a ktoś się tym zajmie *(lub jeśli jesteś odważny, dlaczego nie edytować tej strony bezpośrednio!)*.
 
-## Developer Documentation 
+## Dokumentacja programisty 
 
-The developer documentation comprises the following sections   *
+Dokumentacja dla programisty składa się z następujących części   *
 
 ### Kompilacja programu FreeCAD 
 
@@ -105,22 +105,21 @@ The sketcher solver isn\'t perfect, as there are some issues with numerical prec
 
 The development of a new solver architecture could improve the way the solver is used both in the [Sketcher Workbench](Sketcher_Workbench.md), and for assembly of 3D bodies. See [Reimplementing constraint solver](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=40525).
 
-## Roadmap
+## Plan rozwoju 
 
-FreeCAD, though usable in certain areas, is at the beginning of a long way into the CAD mainstream. There is still a lot to do to reach a state where we can compete with commercial software.
+FreeCAD, choć użyteczny w pewnych obszarach, jest na początku długiej drogi do głównego nurtu CAD. Jest jeszcze wiele do zrobienia aby osiągnąć stan, w którym będziemy mogli konkurować z oprogramowaniem komercyjnym.
 
-[0.20 Development Cycle](0.20_Development_Cycle.md)
+[FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
-## Community
+## Społeczność
 
--   [IRC channel](irc   *//chat.freenode.net/freecad) ,synchronized with [gitter channel](https   *//gitter.im/FreeCAD/FreeCAD)
--   [Development forum](https   *//forum.freecadweb.org/viewforum.php?f=6)
+-   [IRC channel](irc   *//chat.freenode.net/freecad) ,zsynchronizowany z [gitter channel](https   *//gitter.im/FreeCAD/FreeCAD)
+-   [Forum programistów](https   *//forum.freecadweb.org/viewforum.php?f=6)
 
--   [Development roadmap](Development_roadmap.md)
+-   [Plan rozwoju](Development_roadmap/pl.md)
 
-## Credits
-
-[Contributors](Contributors.md)
+-   Uznanie
+    -   [Współpracownicy](Contributors.md)
 
 
 

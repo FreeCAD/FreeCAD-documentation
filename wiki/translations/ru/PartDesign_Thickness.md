@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */ru
-   Name/ru   *Полость
+   Name/ru   *Преобразовать в полое тело
    Name   *PartDesign_Thickness
-   MenuLocation   *Part Design → Apply a dress up feature → Полость
+   MenuLocation   *Part Design → Apply a dress up feature → Преобразовать в полое тело
    Workbenches   *[PartDesign](PartDesign_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[Полость](Part_Thickness/ru.md)
+   SeeAlso   *[Преобразовать в полое тело](Part_Thickness/ru.md)
 ---
 
 # PartDesign Thickness/ru
-
-
-</div>
 
 ## Описание
 
@@ -88,22 +85,22 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **P
 
 -    **Make thickness inwards**   * When checked, faces are offset inward.
 
-## Notes
+## Примечания
 
 -   If thickness goes inwards, the value must be smaller than the smallest height of the Body.
 -   The tool may fail with complex shapes. [Additive Pipe](PartDesign_AdditivePipe.md) or [Additive Loft](PartDesign_AdditiveLoft.md) may work better to create complex shapes.
 -   Known errors   *
-    -   BRep\_API   * command not done.
-    -   BRep\_Tool   * no parameter on edge.
+    -   BRep_API   * command not done.
+    -   BRep_Tool   * no parameter on edge.
     -   Silently fails.
 
-## Properties
+## Свойства
 
 See also   * [Property editor](Property_editor.md).
 
 A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
-### Data
+### Данные
 
 
 {{Properties_Title|Base}}

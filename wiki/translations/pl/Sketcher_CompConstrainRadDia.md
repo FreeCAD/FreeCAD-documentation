@@ -3,7 +3,7 @@
    Name   *Sketcher constrain arc or circle
    Name/pl   *Szkicownik   * Wiązanie promienia lub średnicy
    Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
-   MenuLocation   *Brak ''(tylko pasek narzędzi)''
+   MenuLocation   *
 ---
 
 # Sketcher CompConstrainRadDia/pl

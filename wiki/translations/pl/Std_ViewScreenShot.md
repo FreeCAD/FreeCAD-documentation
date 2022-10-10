@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */pl
    Name   *Std ViewScreenShot
-   Name/pl   *Std   * Zrzut ekranu
+   Name/pl   *Std   * Zapisz zrzut ekranu
    MenuLocation   *Przybory → Zapisz obrazek ...
    Workbenches   *All
    SeeAlso   *[Drukuj](Std_Print/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Kopiuj widok 3D do schowka](Macro_Copy3DViewToClipboard/pl.md), [Ekran Wiki](Macro_Screen_Wiki/pl.md), [Wycinek](Macro_Snip/pl.md)
@@ -66,7 +66,7 @@ Polecenie **Zapisz obrazek** otwiera okno dialogowe umożliwiające utworzenie p
     -   
         {{Value|Bufor ramki (standardowy)}}
         
-        Ta metoda obsługuje antyaliasing. *\'Informacje techniczne   * Jeśli antyaliasing jest wyłączony, metoda ta wczytuje obraz bezpośrednio z renderera grafiki, w przeciwnym razie renderuje do bufora ramki i stamtąd pobiera obraz. Kluczową częścią tej metody jest klasa QOpenGLFramebufferObject firmy Qt.*
+        Ta metoda obsługuje antyaliasing. *Informacje techniczne   * Jeśli antyaliasing jest wyłączony, metoda ta wczytuje obraz bezpośrednio z renderera grafiki, w przeciwnym razie renderuje do bufora ramki i stamtąd pobiera obraz. Kluczową częścią tej metody jest klasa QOpenGLFramebufferObject firmy Qt.*
 
     -   
         {{Value|Bufor ramki (jak jest)}}

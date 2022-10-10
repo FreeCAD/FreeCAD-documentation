@@ -51,6 +51,9 @@ Se creează un obiect parametric Connect. Obiectele originale sunt ascunse, iar 
 ## Properties
 
 
+{{TitleProperty|Connect}}
+
+
 <div class="mw-translate-fuzzy">
 
 ## Proprietăți
@@ -86,11 +89,25 @@ Se creează un obiect parametric Connect. Obiectele originale sunt ascunse, iar 
 
 </div>
 
+## Algorithm
+
+
+<div class="mw-translate-fuzzy">
+
 ## Algoritm
 
 Algoritmii din spatele instrumentelor de conectare sunt relativ de simple, iar înțelegerea acestora este importantă pentru utilizarea corectă a instrumentelor. Algoritmul Connect, în special, este un pic mai complex decât alții, însă în general este suficient să ne gândim la acesta ca la o variantă simetrică [Embed algorithm](Part_JoinEmbed#Algorithm.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 1\. Each object is split into pieces by intersections with other objects. (see [Part BooleanFragments](Part_BooleanFragments.md))
+
+
+</div>
 
 2\. From the pieces of an object, only the largest one is kept; all the rest are thrown away.
 
@@ -113,7 +130,13 @@ Algoritmii din spatele instrumentelor de conectare sunt relativ de simple, iar �
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
 Instrumentul Join poate fi folosit în [macros](macros.md) și din consola python utilizând următoarea funcție   *
+
+
+</div>
 
 **BOPTools.JoinFeatures.makeConnect(name)**
 
@@ -126,7 +149,10 @@ Connect can also be applied to plain shapes, without the need to have a document
 
 This can be useful for making custom Python scripted features.
 
-Exempluː {{code|code=
+Exempluː
+
+
+{{code|code=
 import Part
 j = Part.BOPTools.JoinFeatures.makeConnect(name= 'Connect')
 j.Objects = FreeCADGui.Selection.getSelection()
@@ -136,24 +162,6 @@ j.Objects = FreeCADGui.Selection.getSelection()
 <div class="mw-translate-fuzzy">
 
 The tool itself is implemented in Python, see /Mod/Part/BOPTools/JoinFeatures.py under where FreeCAD is installed.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Versiune
-
-Instrumentul a fost introduc încpând cu FreeCAD v0.16.5069
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Instrumentul este re-implementat via generalFuse in FreeCAD v0.17.8053
 
 
 </div>

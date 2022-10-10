@@ -7,13 +7,13 @@ Jeśli chciałbyś pomóc w pisaniu dokumentacji Wiki i samouczków, zobacz ogó
 
 Proszę zwrócić uwagę na wersję FreeCAD stosowaną w poradniku, ponieważ niektóre poradniki mogą wykorzystywać starszą wersję programu. Chociaż ogólny proces modelowania może nadal działać, niektóre narzędzia mogły ulec zmianie.
 
-Warto zobaczyć stronę [poradniki wideo](Video_tutorials/pl.md).
+Warto zobaczyć stronę [poradniki wideo](Video_tutorials/pl.md) oraz [książki o FreeCAD](Books/pl.md).
 
 ## Architektura i BIM 
 
 <File   *Arch> tutorial 00.jpg\|link=[Arch tutorial](Arch_tutorial.md)\|[Arch tutorial](Arch_tutorial.md) *(v0.14)*
-Jest to niezbędne wprowadzenie do Środowiska pracy Arch. JOpracowanie jest obszerne i przedstawia typowy schemat pracy, od importu planów w formacie DXF do budowania modelu 3D. <File   *Exercise> arch 01.jpg\|link=[Manual   *BIM\_modeling](Manual_BIM_modeling.md)\|[BIM modeling](Manual_BIM_modeling.md)
-Jak modelować mały domek, stworzyć plan za pomocą TechDraw i wyeksportować do IFC. <File   *11_T01_window_all_symbol_top.png%7Clink=>[Tutorial\_for\_open\_windows](Tutorial_for_open_windows.md)\|[Open windows and doors](Tutorial_for_open_windows.md) *(v0.18)*
+Jest to niezbędne wprowadzenie do Środowiska pracy Arch. JOpracowanie jest obszerne i przedstawia typowy schemat pracy, od importu planów w formacie DXF do budowania modelu 3D. <File   *Exercise> arch 01.jpg\|link=[Manual   *BIM_modeling](Manual_BIM_modeling.md)\|[BIM modeling](Manual_BIM_modeling.md)
+Jak modelować mały domek, stworzyć plan za pomocą TechDraw i wyeksportować do IFC. <File   *11_T01_window_all_symbol_top.png%7Clink=>[Tutorial_for_open_windows](Tutorial_for_open_windows.md)\|[Open windows and doors](Tutorial_for_open_windows.md) *(v0.18)*
 Jak wyświetlać okna i drzwi jako otwarte, z symbolami elewacji i rzutu oraz jak utworzyć podstawowy plan piętra za pomocą TechDraw. <File   *17_T02_sketch_2_attached_correctly.png%7Clink=>[Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md)\|[Design custom windows](Tutorial_custom_placing_of_windows_and_doors.md) *(v0.18)*
 Jak rysować niestandardowe drzwi i okna za pomocą programu Sketcher i odpowiednio dostosować je do prawidłowego umieszczenia w ścianach. <File   *Arch_panel_tutorial_01.jpg%7Clink=>[Arch panel tutorial](Arch_panel_tutorial.md)\|[Arch panel tutorial](Arch_panel_tutorial.md) *(v0.15)*
 Modelowanie kasetonów dachowych w technologii mikrokompleksowej z wykorzystaniem narzędzia Szkicownik, i Panel. <File   *Arch_Wikihouse_01.jpg%7Clink=>[Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)\|[WikiHouse modelling](Wikihouse_porting_tutorial.md)
@@ -28,23 +28,23 @@ FreeCAD zapewnia dwa główne cykle robocze dla modelowania części   *
 
 Należy pamiętać, że tok pracy [PartDesign](PartDesign_Workbench/pl.md) został znacznie zmieniony w stosunku do FreeCAD **0.17**. Niektóre poradniki nie zostały zaktualizowane i mogą odnosić się do wersji **0.16**.
 
-<File   *GGTuto1> Vue.PNG\|link=[Creating\_a\_simple\_part\_with\_Part\_WB/pl](Creating_a_simple_part_with_Part_WB/pl.md)\|[Tworzenie prostej części za pomocą środowiska Część](Creating_a_simple_part_with_Part_WB/pl.md)
+<File   *GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_Part_WB/pl](Creating_a_simple_part_with_Part_WB/pl.md)\|[Tworzenie prostej części za pomocą środowiska Część](Creating_a_simple_part_with_Part_WB/pl.md)
 Wprowadzenie do programu FreeCAD i środowiska Część z wykorzystaniem brył pierwotnych.
 
-<File   *GGTuto1> Vue.PNG\|link=[Creating\_a\_simple\_part\_with\_Draft\_and\_Part\_WB/pl](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)\|[Tworzenie prostej części za pomocą środowisk Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
+<File   *GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_Draft_and_Part_WB/pl](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)\|[Tworzenie prostej części za pomocą środowisk Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
 Wprowadzenie do modelowania brył za pomocą środowisk Rysunek Roboczy poprzez tworzenie profilu 2d w środowisku Część.
 
-<File   *GGTuto1> Vue.PNG\|link=[Creating\_a\_simple\_part\_with\_PartDesign/pl](Creating_a_simple_part_with_PartDesign/pl.md)\|[Tworzenie podstawowych elementów z PartDesign](Creating_a_simple_part_with_PartDesign/pl.md) *(v0.17)*
-Wprowadzenie do cyklu pracy w środowisku Projekt Części, analiza szkicu, używanie wyciągnięcia, kieszeni i przesuwanie obiektu. PD WB Tutorial018.png\|link=[Basic\_Part\_Design\_Tutorial/pl](Basic_Part_Design_Tutorial/pl.md)\|[Podstawy dla Środowiska pracy Projekt części](Basic_Part_Design_Tutorial/pl.md)
-Wymodeluj prostą część przy użyciu metody edytora funkcji, tworzenie szkicu, z wykorzystaniem wyciągnięcia, zewnętrznych odniesień, kieszeni i lustra. TBHS-model.png\|link=[Toothbrush\_Head\_Stand/pl](Toothbrush_Head_Stand/pl.md)\|[Model podstawki pod główkę szczoteczki do zębów](Toothbrush_Head_Stand/pl.md)
-w środowisku Projekt Części*\' v0.16 lub nowszym*\' Zastosowano wiele użytecznych funkcji   * szkic, wiązania zbieżności i odległości, wyciągnięcie, odniesienia zewnętrzne, zaokrąglenie, faza, wzorzec liniowy i szkic. Exercise lego 01.jpg\|link=[Manual   *Modeling for product design](Manual_Modeling_for_product_design.md)\|[Modeling for product design](Manual_Modeling_for_product_design.md)
+<File   *GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_PartDesign/pl](Creating_a_simple_part_with_PartDesign/pl.md)\|[Tworzenie podstawowych elementów z PartDesign](Creating_a_simple_part_with_PartDesign/pl.md) *(v0.17)*
+Wprowadzenie do cyklu pracy w środowisku Projekt Części, analiza szkicu, używanie wyciągnięcia, kieszeni i przesuwanie obiektu. PD WB Tutorial018.png\|link=[Basic_Part_Design_Tutorial/pl](Basic_Part_Design_Tutorial/pl.md)\|[Podstawy dla Środowiska pracy Projekt części](Basic_Part_Design_Tutorial/pl.md)
+Wymodeluj prostą część przy użyciu metody edytora funkcji, tworzenie szkicu, z wykorzystaniem wyciągnięcia, zewnętrznych odniesień, kieszeni i lustra. TBHS-model.png\|link=[Toothbrush_Head_Stand/pl](Toothbrush_Head_Stand/pl.md)\|[Model podstawki pod główkę szczoteczki do zębów](Toothbrush_Head_Stand/pl.md)
+w środowisku Projekt Części**v0.16 lub nowszym** Zastosowano wiele użytecznych funkcji   * szkic, wiązania zbieżności i odległości, wyciągnięcie, odniesienia zewnętrzne, zaokrąglenie, faza, wzorzec liniowy i szkic. Exercise lego 01.jpg\|link=[Manual   *Modeling for product design](Manual_Modeling_for_product_design.md)\|[Modeling for product design](Manual_Modeling_for_product_design.md)
 Modelowanie klocka Lego **v0.16** szkice, ograniczenia odległości pionowych i poziomych, wyciągnięcie, kieszeń, odniesienie zewnętrzne, wzorzec liniowy i złożenie.. Exercise table complete.jpg\|link=[Manual   *Traditional modeling, the CSG way](Manual   *Traditional_modeling,_the_CSG_way.md)\|[Modelowanie stołu przy użyciu zwykłego cyklu roboczego CSG](Manual   *Traditional_modeling,_the_CSG_way.md)
-Modelowanie stołu przy użyciu prostych brył, takich jak kostki i cylindry, oraz wykonywanie na nich operacji logicznych (suma i cięcie). 08\_T04\_Part\_ShapesString\_Extrude\_final\_cut.png\|link=[Draft\_ShapeString\_tutorial/pl](Draft_ShapeString_tutorial/pl.md)\|[Draft\_ShapeString\_tutorial/pl](Draft_ShapeString_tutorial/pl.md) *(v0.19)*
-Utwórz wygrawerowany tekst na bryle. Wyciągnięcie ciągu kształtów do postaci bryły, a następnie *(przy użyciu cięcia logicznego)* grawerowanie w innej bryle. 10\_T03\_Part\_ball\_fillet.png\|link=[Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)\|[Stwórz piłkę Whiffle\'a](Whiffle_Ball_tutorial/pl.md) *(v0.19)*
+Modelowanie stołu przy użyciu prostych brył, takich jak kostki i cylindry, oraz wykonywanie na nich operacji logicznych (suma i cięcie). 08_T04_Part_ShapesString_Extrude_final_cut.png\|link=[Draft_ShapeString_tutorial/pl](Draft_ShapeString_tutorial/pl.md)\|[Draft_ShapeString_tutorial/pl](Draft_ShapeString_tutorial/pl.md) *(v0.19)*
+Utwórz wygrawerowany tekst na bryle. Wyciągnięcie ciągu kształtów do postaci bryły, a następnie *(przy użyciu cięcia logicznego)* grawerowanie w innej bryle. 10_T03_Part_ball_fillet.png\|link=[Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)\|[Stwórz piłkę Whiffle\'a](Whiffle_Ball_tutorial/pl.md) *(v0.19)*
 z części pierwotnych.
-Użyj bryły pierwotnej, jak kostki i cylindry, oraz operacji logicznych, jak połączenie i cięcie, aby stworzyć wydrążoną kulę. Tutorial-normand06.jpg\|link=[Basic\_modeling\_tutorial/pl](Basic_modeling_tutorial/pl.md)\|[Poradnik podstawy modelowania](Basic_modeling_tutorial.md)
+Użyj bryły pierwotnej, jak kostki i cylindry, oraz operacji logicznych, jak połączenie i cięcie, aby stworzyć wydrążoną kulę. Tutorial-normand06.jpg\|link=[Basic_modeling_tutorial/pl](Basic_modeling_tutorial/pl.md)\|[Poradnik podstawy modelowania](Basic_modeling_tutorial.md)
 Stwórz żelazny kątownik w 2 prostych metodach, przy użyciu brył pierwotnych i operacji logicznych *(CSG)*; oraz poprzez wyciągnięcie profilu płaskiego. <File   *HTCaeroplane04.png%7Clink=>[Aeroplane](Aeroplane.md)\|[Aeroplan](Aeroplane/pl.md)
-Zapoznanie się z rozmieszczeniem w FreeCAD poprzez stworzenie prostego modelu samolotu. Zapoznanie się z rozmieszczeniem elementu we FreeCAD poprzez stworzenie prostego modelu samolotu. W dalszej kolejności opanuj kąty obrotu   * odchylenia *(Z)*, nachylenia *(Y)* i przechyłu *(X)*. <File   *T13_14_Threads_components.png%7Clink=>[Thread\_for\_Screw\_Tutorial/pl](Thread_for_Screw_Tutorial/pl.md)\|[Poradnik dotyczący gwinty wkrętów](Thread_for_Screw_Tutorial/pl.md) *(v0.19)*
+Zapoznanie się z rozmieszczeniem w FreeCAD poprzez stworzenie prostego modelu samolotu. Zapoznanie się z rozmieszczeniem elementu we FreeCAD poprzez stworzenie prostego modelu samolotu. W dalszej kolejności opanuj kąty obrotu   * odchylenia *(Z)*, nachylenia *(Y)* i przechyłu *(X)*. <File   *T13_14_Threads_components.png%7Clink=>[Thread_for_Screw_Tutorial/pl](Thread_for_Screw_Tutorial/pl.md)\|[Poradnik dotyczący gwinty wkrętów](Thread_for_Screw_Tutorial/pl.md) *(v0.19)*
 Poznaj sposób tworzenia gwintów za pomocą kilku technik, które obejmują użycie narzędzi [Część   * Helisa](Part_Helix/pl.md), [Projekt Części   * AdditivePipe](PartDesign_AdditivePipe/pl.md), [Część   * Sweep](Part_Sweep/pl.md), [Część   * Suma](Part_Fuse/pl.md), oraz [Część   * Cut](Part_Cut/pl.md).
 
 Projekt Raspberry Pi stworzył proste poradniki, które są łatwe do naśladowania, szczególnie dla nowych użytkowników systemów CAD   *
@@ -57,41 +57,41 @@ Projekt Raspberry Pi stworzył proste poradniki, które są łatwe do naśladowa
 ## Rysowanie i szkicowanie 
 
 Exercise cabin 01.jpg\|link=[Manual   *Traditional 2D drafting](Manual_Traditional_2D_drafting.md)\|[Traditional 2D drafting](Manual_Traditional_2D_drafting.md)
-Narysuj plan podłogi z liniami, drutami, prostokątami, okrągami, łukami oraz dodawaj wypełnienia, adnotacje i wymiary. Eksport wyników do DXF. 00\_Dr01\_Draft\_Tutorial\_final.png\|link=[Draft\_tutorial](Draft_tutorial.md)\|[Draft tutorial](Draft_tutorial.md) *(v0.16)*
-Jest to podstawowa prezentacja narzędzi dla Środowiska pracy [Draft](Draft_Workbench/pl.md)   * płaszczyzna robocza, siatka, linia, łuk, uaktualnienie, prostokąt, okrąg, wielokąt, macierze, wymiary, adnotacje i struny kształtów. Sketcher\_reference.png\|link=[Sketcher reference](Sketcher_reference.md)\|[Sketcher reference](Sketcher_reference.md) *(v0.18)*
+Narysuj plan podłogi z liniami, drutami, prostokątami, okrągami, łukami oraz dodawaj wypełnienia, adnotacje i wymiary. Eksport wyników do DXF. 00_Dr01_Draft_Tutorial_final.png\|link=[Draft_tutorial](Draft_tutorial.md)\|[Draft tutorial](Draft_tutorial.md) *(v0.16)*
+Jest to podstawowa prezentacja narzędzi dla Środowiska pracy [Draft](Draft_Workbench/pl.md)   * płaszczyzna robocza, siatka, linia, łuk, uaktualnienie, prostokąt, okrąg, wielokąt, macierze, wymiary, adnotacje i struny kształtów. Sketcher_reference.png\|link=[Sketcher reference](Sketcher_reference.md)\|[Sketcher reference](Sketcher_reference.md) *(v0.18)*
 Jest to 70-stronicowy dokument PDF, który służy jako szczegółowa instrukcja obsługi Środowiska pracy [Sketcher](Sketcher_Workbench/pl.md). Wyjaśniono w nim podstawy użytkowania modułu Sketcher, oraz omówiono wiele szczegółów dotyczących tworzenia kształtów geometrycznych i każdego z wiązań.
 
    09b_Sk01_Sketcher_fully_constrained_clean.png|link=[Basic_Sketcher_Tutorial/pl](Basic_Sketcher_Tutorial/pl.md)|[Podstawy Środowiska pracy Sketcher](Basic_Sketcher_Tutorial/pl.md) *(v0.19)* 
 Jest to podstawowe wprowadzenie do narzędzi Środowiska pracy Sketcher   * tryb budowy, linia, koło, łuk, ograniczenia *(równość, pion, poziom, styczna, odległość, kąt, promień)*.
 
-03d\_Sk02\_Sketcher\_Rectangle\_constrained\_length.png\|link=[Sketcher\_Micro\_Tutorial\_-\_Constraint\_Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)\|[Sketcher constraints practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md) *(v0.19)*
+03d_Sk02_Sketcher_Rectangle_constrained_length.png\|link=[Sketcher_Micro_Tutorial\_-\_Constraint_Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)\|[Sketcher constraints practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md) *(v0.19)*
 Naucz się skutecznie tworzyć ograniczenia dla szkicu. Preferuj ograniczenia geometryczne nad ograniczeniami wymiarowymi.
 
 ## Rysunek techniczny 
 
 TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md)\|[Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md) *(v0.17)*
-Jest to niezbędne wprowadzenie do narzędzi Środowiska pracy TechDraw   * strona, widok, skala, wymiary pionowe i poziome, adnotacje, grupy projekcyjne, łączenie wymiarów z widokiem 3D. <File   *FCTemplateHow.png%7Clink=>[TechDraw\_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[Creating a new background template](TechDraw_TemplateHowTo.md) *(v0.17)*
+Jest to niezbędne wprowadzenie do narzędzi Środowiska pracy TechDraw   * strona, widok, skala, wymiary pionowe i poziome, adnotacje, grupy projekcyjne, łączenie wymiarów z widokiem 3D. <File   *FCTemplateHow.png%7Clink=>[TechDraw_TemplateHowTo](TechDraw_TemplateHowTo.md)\|[Creating a new background template](TechDraw_TemplateHowTo.md) *(v0.17)*
 Instrukcje tworzenia szablonu strony w Inkscape w celu wykorzystania go z TechDraw Workbench. Określ rozmiar arkusza, narysuj ramkę dla strony, zdefiniuj tekst stały i edytowalne pola tekstowe. <File   *AnHi1.png%7Clink=>[Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)\|[Pomiary kątów na otworach](Measurement_Of_Angles_On_Holes.md) (v0.19)
 Instrukcje dotyczące dodawania linii środkowych i kolejnych przedstawień kątowych na otworach.
 
 ## MES
 
-FEM example01 pic00.jpg\|link=[FEM\_CalculiX\_Cantilever\_3D/pl](FEM_CalculiX_Cantilever_3D/pl.md)\|[CalculiX cantilever FEM analysis](FEM_CalculiX_Cantilever_3D/pl.md) *(v0.20)*
+FEM example01 pic00.jpg\|link=[FEM_CalculiX_Cantilever_3D/pl](FEM_CalculiX_Cantilever_3D/pl.md)\|[CalculiX cantilever FEM analysis](FEM_CalculiX_Cantilever_3D/pl.md) *(v0.20)*
 Jest to przykład dołączony do każdej instalacji FreeCAD; demonstruje on podstawową analizę za pomocą solvera CalculiX FE. Wyczyść bieżący wynik, uruchom ponownie solver i obejrzyj przesunięcia i naprężenia w zdeformowanej siatce w rzutni.
 
-FEM tutorial result.png\|link=[FEM\_tutorial/pl](FEM_tutorial/pl.md)\|[Simple FEM introduction](FEM_tutorial/pl.md) *(v0.20)*
+FEM tutorial result.png\|link=[FEM_tutorial/pl](FEM_tutorial/pl.md)\|[Simple FEM introduction](FEM_tutorial/pl.md) *(v0.20)*
 Jest to krótkie wprowadzenie do działań wymaganych do przeprowadzenia analizy w środowisku pracy MES    * modelowanie obiektu, tworzenie siatki, dodawanie wiązań i sił, dodawanie materiału, uruchamianie solvera i wizualizacja wyników.
 
-Figure 11 Deformed Mesh.png\|link=[FEM\_Shear\_of\_a\_Composite\_Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) *(v0.17)*
+Figure 11 Deformed Mesh.png\|link=[FEM_Shear_of_a\_Composite_Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) *(v0.17)*
 Zbadaj deformację bloku wykonanego z twardego jądra otoczonego miękkim materiałem   * utwórz obszary siatki, dodaj materiały, ustaw ograniczenia ślizgowe, dodaj obciążenia ścinające, uruchom solver i wizualizuj wyniki za pomocą płaszczyzny zaciskowej.
 
-Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) *(v0.19)*
+Femconcrete_Wall_3D_rx_PSS.png\|link=[Analysis_of_reinforced_concrete_with_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) *(v0.19)*
 Oszacowanie poziomu zbrojenia wymaganego w konstrukcji betonowej w celu zapobieżenia kruchym uszkodzeniom pod wpływem naprężeń lub ścinania.
 
-Two\_balls\_result\_2-cropped.png\|link=[FEM\_Example\_Capacitance\_Two\_Balls](FEM_Example_Capacitance_Two_Balls.md)\|[MES   * Przykład pojemność Dwóch kul](FEM_Example_Capacitance_Two_Balls/pl.md) (v0.19)
+Two_balls_result_2-cropped.png\|link=[FEM_Example_Capacitance_Two_Balls](FEM_Example_Capacitance_Two_Balls.md)\|[MES   * Przykład pojemność Dwóch kul](FEM_Example_Capacitance_Two_Balls/pl.md) (v0.19)
 Ten przykład pokazuje, jak symulować pojemność. Pokazano, jak skonfigurować przykład, zbadać jego poszczególne części, rozwiązać go za pomocą [Solvera Elmer](FEM_SolverElmer/pl.md) i wizualizować wyniki za pomocą [Filtra odcięcia obszaru](FEM_PostFilterClipRegion/pl.md).
 
-FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Przetwarzanie wyników MES za pomocą Paraview](Post-Processing_of_FEM_Results_with_Paraview/pl.md) *(v0.19)*
+FEM_post-processing_Paraview.png\|link=[Post-Processing_of_FEM_Results_with_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Przetwarzanie wyników MES za pomocą Paraview](Post-Processing_of_FEM_Results_with_Paraview/pl.md) *(v0.19)*
 Ten poradnik wyjaśnia podstawy przenoszenia danych z środowiska pracy MES do Paraview i pokazuje niektóre z opcji i ustawień dotyczących wyświetlania danych.
 
 ## CNC i druk 3D 
@@ -104,8 +104,8 @@ Konwersja obiektu bryłowego do obiektu siatki przy użyciu Środowiska pracy Me
 
 Exercise raytracing 05.jpg\|link=[Manual   *Creating renderings](Manual_Creating_renderings.md)\|[Creating renderings](Manual_Creating_renderings.md)
 Szybko stwórz renderowany obraz swoich brył za pomocą POV-Ray i LuxRender, jeśli są one zainstalowane w Twoim systemie. Raytracing tutorial result.png\|link=[Raytracing tutorial](Raytracing_tutorial.md)\|[Raytracing tutorial](Raytracing_tutorial.md) *(v0.16)*
-Opisuje podstawowy przebieg pracy Środowiska pracy Raytracing przy użyciu POV-Ray lub LuxRender   * ustawia ścieżkę dostępu do programów renderujących, tworzy projekt, ustawia pozycję kamery, wybiera model, uruchamia program renderujący. 12\_T04\_FreeCAD\_POVray\_render\_floor\_wood\_walls\_radiosity\_final.png\|link=[Tutorial FreeCAD POV ray](Tutorial_FreeCAD_POV_ray.md)\|[Intermediate FreeCAD and POV-ray tutorial](Tutorial_FreeCAD_POV_ray.md) *(v0.18)*
-Usprawnia renderowanie za pomocą POV-Ray   * tworzenie projektu, dodawanie obiektów, ustawianie kamery, zapisywanie pliku .pov, ręczna edycja pliku w celu poprawy tekstur, płaszczyzn, świateł, a następnie uruchomienie programu renderującego. 07\_T03\_FreeCAD\_Blender\_EEVEE\_render.png\|link=[Tutorial\_Render\_with\_Blender](Tutorial_Render_with_Blender.md)\|[Rendering a FreeCAD assembly with Blender](Tutorial_Render_with_Blender.md) *(v0.18)*
+Opisuje podstawowy przebieg pracy Środowiska pracy Raytracing przy użyciu POV-Ray lub LuxRender   * ustawia ścieżkę dostępu do programów renderujących, tworzy projekt, ustawia pozycję kamery, wybiera model, uruchamia program renderujący. 12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png\|link=[Tutorial FreeCAD POV ray](Tutorial_FreeCAD_POV_ray.md)\|[Intermediate FreeCAD and POV-ray tutorial](Tutorial_FreeCAD_POV_ray.md) *(v0.18)*
+Usprawnia renderowanie za pomocą POV-Ray   * tworzenie projektu, dodawanie obiektów, ustawianie kamery, zapisywanie pliku .pov, ręczna edycja pliku w celu poprawy tekstur, płaszczyzn, świateł, a następnie uruchomienie programu renderującego. 07_T03_FreeCAD_Blender_EEVEE_render.png\|link=[Tutorial_Render_with_Blender](Tutorial_Render_with_Blender.md)\|[Rendering a FreeCAD assembly with Blender](Tutorial_Render_with_Blender.md) *(v0.18)*
 Eksportuj bryły z FreeCAD do Wavefront .obj, zaimportuj plik do Blendera, ustaw proste światło słoneczne, przypisz podstawowe materiały za pomocą shadera Principled BSDF i stwórz renderowany obraz za pomocą EEVEE i Cycles.
 
 ## Środowisko pracy Robot 
@@ -113,7 +113,7 @@ Eksportuj bryły z FreeCAD do Wavefront .obj, zaimportuj plik do Blendera, ustaw
 
 **Rozwój środowiska pracy [Robot](Robot_Workbench/pl.md) jest obecnie wstrzymany. Prosimy pytać na naszym forum o wszelkie nowości lub alternatywne środowiska pracy.**
 
-Robot Tutorial RobotSimulation.gif\|link=[Robot\_tutorial/pl](Robot_tutorial/pl.md)\|[Poradnik dla środowiska pracy Robot](Robot_tutorial/pl.md) *(v0.17)*
+Robot Tutorial RobotSimulation.gif\|link=[Robot_tutorial/pl](Robot_tutorial/pl.md)\|[Poradnik dla środowiska pracy Robot](Robot_tutorial/pl.md) *(v0.17)*
 Symulacja ruchu robota przemysłowego   * ustawianie trajektorii, ustawianie pozycji wyjściowej, zmiana pozycji robota, wstawianie różnych punktów orientacyjnych i symulacja ruchu robota.
 
 ## Tworzenie skryptów 
@@ -175,7 +175,7 @@ Poniżej wymienione są wszystkie poradniki, które nie znajdują się w podręc
 ++++++++
 | [Dostosowanie pasków narzędzi](Customize_Toolbars/pl.md)                                                                                         |                                      | Początkujący                       | 0   *05                 | [Mario52](User_Mario52.md)                                                               | Any                   | Nie dołączono                                                                                                                                                                                                                                                                                                                 |
 ++++++++
-| [Poradnik   * Rysunek Roboczy kształt z tekstu](Draft_ShapeString_tutorial/pl.md)                                                                   | Projekt produktu                     | Początkujący                       | 0   *30                 | r-frank and vocx                                                                                 | 0.17 i następne       | [Draft\_Shapestring\_Text](https   *//github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                |
+| [Poradnik   * Rysunek Roboczy kształt z tekstu](Draft_ShapeString_tutorial/pl.md)                                                                   | Projekt produktu                     | Początkujący                       | 0   *30                 | r-frank and vocx                                                                                 | 0.17 i następne       | [Draft_Shapestring_Text](https   *//github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Poradnik dla środowiska pracy Rysunek roboczy](Draft_tutorial/pl.md)                                                                            | Środowisko pracy Rysunek Roboczy     | Początkujący                       | 0   *30                 | [Drei](User_Drei.md) oraz vocx                                                           | 0.19                  | [Draft tutorial updated](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
 ++++++++
@@ -299,7 +299,7 @@ Poniżej wymienione są wszystkie poradniki, które nie znajdują się w podręc
 ++++++++
 | [Przygotowanie VRML do symulacji robota](VRML_Preparation_for_Robot_Simulation/pl.md)                                                            | Środowisko pracy Robot               | Średniozaawansowany                |                      |                                                                                                  | 0.11.4252ppa1         |                                                                                                                                                                                                                                                                                                                               |
 ++++++++
-| [Poradnik   * Kula Whiffle](Whiffle_Ball_tutorial/pl.md)                                                                                            | Projektowanie produktu               | Początkujący                       | 0   *30                 | r-frank and vocx                                                                                 | 0.17 lub nowszy       | [WhiffleBall\_Tutorial\_FCWiki.FCStd](https   *//github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true)                                                                                                                                                          |
+| [Poradnik   * Kula Whiffle](Whiffle_Ball_tutorial/pl.md)                                                                                            | Projektowanie produktu               | Początkujący                       | 0   *30                 | r-frank and vocx                                                                                 | 0.17 lub nowszy       | [WhiffleBall_Tutorial_FCWiki.FCStd](https   *//github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true)                                                                                                                                                            |
 ++++++++
 | [Poradnik przenoszenia Wikihouse](Wikihouse_porting_tutorial/pl.md)                                                                              | Import                               | Średniozaawansowany / Zaawansowany | 1   *00                 |                                                                                                  |                       |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

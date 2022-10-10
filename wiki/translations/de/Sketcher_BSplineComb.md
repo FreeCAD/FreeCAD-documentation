@@ -1,53 +1,33 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher BSplineComb
-   Name/de   *Skizzierer BSplineKamm
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   MenuLocation   *Skizze → Skizzierer B-Spline Werkzeuge → B-Spline Krümmungskamm ein-/ausblenden
+   Name/de   *Sketcher BSplineKamm
+   MenuLocation   *Sketch → B-Spline-Werkzeuge → B-Spline-Krümmungskamm ein-/ausblenden
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.17
-   SeeAlso   *[Erstelle B-spline](Sketcher_CompCreateBSpline/de.md)
+   SeeAlso   *[Sketcher AuswahlBSplineErstellen](Sketcher_CompCreateBSpline/de.md)
 ---
 
 # Sketcher BSplineComb/de
 
-
-</div>
-
 ## Beschreibung
 
+Blendet die Darstellung des Krümmungskamms einer B-Spline-Kurve ein oder aus (siehe Seite [B-Splines](B-Splines/de.md) für weitere Informationen über B-Splines).
 
-<div class="mw-translate-fuzzy">
-
-Zeigt oder blendet die Anzeige des Krümmungskamms einer B-Spline Kurve ein oder aus (siehe [B-Spline](https   *//en.wikipedia.org/wiki/B-spline)).
-
-
-</div>
-
-The curvature comb indicates the curvature (value of the second-order derivative) of the B-spline at every position. The higher the curvature at a position, the more is the the comb away from the curve. For positive curvatures (\"turn to the right\"), the comb is at the other side of the curve than for negative curvatures.
+Der Krümmungskamm zeigt die Krümmung (Wert der zweiten Ableitung ) der B-Spline-Kurve an jeder Position an. Je größer die Krümmung an einer Stelle ist, desto weiter steht der Kamm von der Kurve ab. Positive Werte (\"Drehung nach rechts\") werden auf der einen Seite der Kurve dargestellt, die negativen auf der anderen Seite.
 
 ![](images/sketcher_BSplineCurvatureShow.png ) 
-*B-spline with a saddle point at its mid position - the curvature comb there is zero.*
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
+*B-Spline mit einem Sattelpunkt an seiner mittleren Position - Der Krümmungskamm zeigt hier Null an.*
 
 ## Anwendung
 
-1.  Wähle einen B-Spline aus und wende ihn an.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Einen B-Spline auswählen.
+2.  Es gibt mehrere Möglichkeiten den Krümmumgskamm ein- bzw. auszublenden   *
+    -   Die Schaltfläche **[<img src=images/Sketcher_BSplineComb.svg style="width   *16px"> [B-Spline-Krümmungskamm ein- / ausblenden](Sketcher_BSplineComb/de.md)** drücken.
+    -   Den Menüeintrag **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineComb.svg style="width   *16px"> B-Spline-Krümmungskamm ein- / ausblenden** auswählen.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

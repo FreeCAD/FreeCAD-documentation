@@ -14,13 +14,7 @@ Consente di ingrandire l\'area di una casella rettangolare nella [vista 3D](3D_v
 2.  Trascinare il cursore e disegnare un rettangolo nella vista 3D.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

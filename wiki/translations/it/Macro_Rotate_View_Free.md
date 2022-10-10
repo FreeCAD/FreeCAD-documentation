@@ -14,19 +14,13 @@
 
 Questa def incollata nella console Python FreeCAD (o la tua macro) ti permette di ruotare la vista in 3 assi e l\'angolo (in gradi) dà interesse a creare un piano per una posizione desiderata
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
-
-
-</div>
 
 Incolla il codice nella console di Python FreeCAD e digita **Enter** → **Enter** (per validare) e entra ex   * {{ColoredText|**RotateView(0,1,0,45)** }}
 
 ## Script
 
-**Macro\_Rotate\_View\_Free.FCMacro**
+**Macro_Rotate_View_Free.FCMacro**
 
 
 {{MacroCode|code=

@@ -74,7 +74,7 @@ A bancada de trabalho Path tem dependências externas, incluindo   *
 
 Algumas das limitações atuais das quais você deve estar ciente são   * A maioria das ferramentas Path Tools não são verdadeiras ferramentas 3D, mas apenas 2.5D capazes. Isto significa que elas assumem uma forma 2D fixa e podem cortá-lo até uma determinada profundidade. Entretanto, existem duas ferramentas que produzem verdadeiros caminhos em 3D   ***<img src="images/Path_3DPocket.svg" width=24px> [Fenda 3D](Path_Pocket_3D/pt-br.md)** e **<img src="images/Path_Surface.svg" width=24px> [Superfície 3D](Path_Surface/pt-br.md)** (que ainda é um [recurso experimental](Path_experimental/pt-br.md) a partir de novembro 2020).
 
--   A maior parte da bancada de trabalho Path foi projetada para uma fresa/router CNC de 3 eixos (xyz) simples e padrão, mas as ferramentas de torno estão em desenvolvimento em 0,19\_pre.
+-   A maior parte da bancada de trabalho Path foi projetada para uma fresa/router CNC de 3 eixos (xyz) simples e padrão, mas as ferramentas de torno estão em desenvolvimento em 0,19_pre.
 -   A maioria das operações na bancada de trabalho Path retornará caminhos baseados apenas em uma ferramenta padrão de fresa/bit, independentemente do tipo de ferramenta/bit atribuído em um determinado controlador de ferramentas, com exceção dos **<img src="images/Path_Engrave.svg" width=24px> [Gravação](Path_Engrave/pt-br.md)** e **<img src="images/Path_Surface.svg" width=24px> [Superfície 3D](Path_Surface/pt-br.md)** operações.
 -   As operações dentro da bancada de trabalho Path não estão conscientes dos mecanismos de fixação em uso para fixar o modelo à sua máquina. Consequentemente, por favor, revise e simule os caminhos que você gera antes de enviar o código para sua máquina. Se necessário, modele seus mecanismos de fixação no FreeCAD a fim de inspecionar melhor os caminhos gerados. Procure por possíveis colisões com grampos ou outros obstáculos ao longo dos caminhos.
 
@@ -269,6 +269,8 @@ Some commands are experimental and not available by default. To enable them see 
 
 
 </div>
+
+-   <img alt="" src=images/Path_Deburr.svg  style="width   *32px;"> [Deburr](Path_Deburr.md)   * Creates a deburr path.
 
 
 <div class="mw-translate-fuzzy">

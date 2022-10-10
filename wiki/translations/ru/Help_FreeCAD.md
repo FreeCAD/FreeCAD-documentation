@@ -56,7 +56,7 @@ Although FreeCAD doesn\'t need money to be developed, donations can help the pro
 
 Переводить легко, вики FreeCAD поддерживает плагин для перевода, который позволяет переводить базовую английскую страницу на другие языки.
 
-Подробнее о переводе см. [Localisation\#Translating the wiki](Localisation#Translating_the_wiki.md).
+Подробнее о переводе см. [Localisation#Translating the wiki](Localisation#Translating_the_wiki.md).
 
 Пожалуйста, убедитесь, что вы знакомы с основами вики-разметки; для справки смотрите [Помощь   *Редактирование](Help_Editing.md).
 
@@ -116,7 +116,7 @@ There are dozens of bugs reported on [GitHub](https   *//github.com/FreeCAD/Free
 
 </div>
 
-## Model
+## Create models 
 
 FreeCAD features a [Models library](https   *//github.com/FreeCAD/FreeCAD-library) that is free and open to everyone. Why not add some useful parts there, that could be reused by others? Be sure to create models yourself from scratch, to keep the library 100% free of possibly copyrighted or non-free components.
 

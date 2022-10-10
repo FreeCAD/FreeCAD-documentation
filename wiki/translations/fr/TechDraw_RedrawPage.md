@@ -20,21 +20,9 @@ Cet outil a été supprimé de la v0.18 mais a été réimplémenté dans la v0.
 1.  Si vous avez plusieurs pages dans votre fichier, sélectionnez celle que vous souhaitez mettre à jour.
 2.  Appuyez sur le bouton **<img src="images/TechDraw_RedrawPage.svg" width=24px> [Redessiner la page](TechDraw_RedrawPage/fr.md)** .
 
-## Options
-
-Aucune.
-
-## Propriétés
-
--   n/a
-
 ## Script
 
 La commande Redessiner n\'est pas directement disponible dans les scripts.
-
-## Remarques
-
--   Rien pour le moment.
 
 
 

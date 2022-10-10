@@ -84,7 +84,7 @@ TechDraw.writeDXFPage(myPage,myFileName)
 
 #### CosmeticVertex (CV) Routinen, die von Python aus zugänglich sind 
 
-dvp = App.ActiveDocument.View \#CV\'s belong to views
+dvp = App.ActiveDocument.View #CV\'s gehören zu Ansichten
 füge einen KosmetikKnoten bei p1 (Ansichtskoordinaten) hinzu. Gibt einen eindeutigen Tag zurück.
 tag = dvp.makeCosmeticVertex(vector p1)
 
@@ -97,7 +97,7 @@ cv = dvp.getCosmeticVertex(string id)
 gibt KosmetikKnoten mit Namen zurück (Vertex6). In Auswahlen verwendet.
 cv = dvp.getCosmeticVertexBySelection(Zeichenfolgennamen)
 
-KosmetikKnoten aus der Ansicht entfernen. Gibt nicht zurück.
+KosmetikKnoten aus der Ansicht entfernen. Gibt nichts zurück.
 dvp.removeCosmeticVertex(object cv)
 
 alle KosmetikKnoten aus der Ansicht entfernen. Gibt nichts zurück.
@@ -144,31 +144,31 @@ print("3d point out   * {}".format(cv3.Point))
 
 #### CosmeticEdge (CE) Routinen, die von Python aus zugänglich sind 
 
-dvp = App.ActiveDocument.View \#CE\'s belong to views
-Make a CosmeticEdge from p1 to p2(View coordinates). Returns unique tag.
+dvp = App.ActiveDocument.View #CE\'s gehören zu Ansichten
+Erzeuge ein CosmeticEdge von p1 nach p2(Ansicht Koordinaten). Gibt eine Kennung zurück.
 tag = dvp.makeCosmeticLine(p1, p2)
 
-Make a CosmeticEdge at center with radius radius(View coordinates). Returns unique tag.
+Erzeuge ein CosmeticEdge bei center mit dem Radius radius (Ansicht Koordinaten). Gibt eine Kennung zurück.
 tag = dvp.makeCosmeticCircle(center, radius)
 
-Make a CosmeticEdge at center with radius radius(View coordinates) from start angle to end angle. Returns unique tag.
+Erzeuge ein CosmeticEdge bei center mit dem Radius radius (Ansicht Koordinaten) vom Startwinkel start zum Endwinkel end. Gibt eine Kennung zurück.
 tag = dvp.makeCosmeticCircleArc(center, radius, start, end)
 
-returns CosmeticEdge with unique id.
+Gibt das CosmeticEdge mit der Identitätsnummer id zurück.
 ce = dvp.getCosmeticEdge(id)
 
-returns CosmeticEdge by name (Edge25). Used in selections.
-ce = dvp.getCosmeticEdgeBySelection(name)
+Gibt das CosmeticEdge mit dem Namen (\'Edge25\') zurück. Wird in Auswahlen verwendet.
+ce = dvp.getCosmeticEdgeBySelection(\'Edge25\')
 
-remove CosmeticEdge ce from View. Returns None.
+Löscht das CosmeticEdge ce aus der Ansicht. Hat keine Rückgabe.
 dvp.removeCosmeticEdge(ce)
 
-remove all CosmeticLines from the View. Returns None.
+Löscht alle CosmeticLines aus der Ansicht. Hat keine Rückgabe.
 dvp.clearCosmeticEdges()
 
-CosmeticEdge attributes
-Tag   * unique identifier. String.
-Format   * appearance attributes (style, color, weight, visible). Tuple.
+CosmeticEdge Attribute
+Tag   * eindeutige Kennung. String.
+Format   * Darstellung Attribute (Stil, Farbe, Linienbreite, Durchsichtigkeit). Tuple.
 
 -   -   
 
@@ -247,30 +247,30 @@ print("finished")
 
 #### MittelLinien (ML) Routinen, die über Python zugänglich sind 
 
-make a new CenterLine
+Erzeuge eine neue CenterLine
 tag = dvp.makeCenterLine(subObjs, mode)
-retrieve CenterLine with unique tag.
+Abrufen einer CenterLine mit der Kennung tag.
 cl = dvp.getCenterLine(tag)
 
-retrieve CenterLine by subobject name. Used in selection.
+Abrufen einer CenterLine mit ihrem Namen. Wird in Auswahlen verwendet.
 cl = dvp.getCenterLine(\"Edge5\")
 
-remove CenterLine cl from View. Returns None.
+Lösche die CenterLine cl aus der Ansicht. Hat keine Rückgabe.
 dvp.removeCenterLine(cl)
 
-CenterLine Attributes
-Tag   * unique identifier. String. ReadOnly.
-Type   * 0 - face, 1 - 2 line, 2 - 2 point. Integer. ReadOnly.
-Mode   * 0 - vert, 1 - horiz, 2 - aligned. Integer.
-Format   * appearance attributes (style, color, weight, visible). Tuple.
-HorizShift   * left/right offset. Float.
-VertShift   * up/down offset. Float.
-Rotation   * rotation in degrees. Float.
-Extension   * additional length to be added. Float.
-Flip   * reverse the order of points for 2 point CenterLine. Boolean.
-Edges   * names of source edges. List of string.
-Faces   * names of source faces. List of string.
-Points   * names of source points (Vertices). List of string.
+CenterLine Attribute
+Tag   * eindeutige Kennung. String. ReadOnly.
+Type   * 0 - Fläche, 1 - 2 Linie, 2 - 2 Punkt. Integer. ReadOnly.
+Mode   * 0 - Vertikal, 1 - Horizontal, 2 - Verbunden. Integer.
+Format   * Sichtbarkeits Attribute (Stil, Farbe, Linienbreite, Durchsichtigkeit). Tuple.
+HorizShift   * links/rechts Abstand. Float.
+VertShift   * hoch/tief Abstand. Float.
+Rotation   * Verdrehwinkel in Grad. Float.
+Extension   * Zusätzliche Länge die angefügt wird. Float.
+Flip   * Vertauschen der Reihenfolge der Punkte bei 2 Punkt Mittellinie. Boolean.
+Edges   * Namen der Quelllinien. List of string.
+Faces   * Namen der Quellflächen. List of string.
+Points   * Namen der Quellpunkte (Vertices). List of string.
 
 -   -   
 
@@ -345,7 +345,7 @@ topoShapeEdge = dvp.getEdgeBySelection(\"Edge1\")
 topoShapeVertex = dvp.getVertexByIndex(i)
 topoShapeVertex = dvp.getVertexBySelection(\"Vertex1\")
 
-dvp.requestPaint() Redraw the graphic for this View.
+dvp.requestPaint() Neu zeichnen der Graphik für diese Ansicht.
 
 
 {{TechDraw Tools navi

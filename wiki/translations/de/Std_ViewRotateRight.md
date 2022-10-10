@@ -40,7 +40,13 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

@@ -11,7 +11,7 @@
 
 ## Description
 
-The Material Editor allows you to edit and save the information contained in a [FreeCAD material](Material.md). Currently such materials are used by the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench.md) and <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch](Arch_Workbench.md) workbenches.
+The **Material Editor** allows you to edit and save the information contained in a [FreeCAD material](Material.md). Currently such materials are used by the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench.md) and <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch](Arch_Workbench.md) workbenches.
 
 ![](images/Material_editor.png )
 
@@ -44,7 +44,8 @@ The material editor can currently be accessed by either   *
 
 -    **Delete property**   * Deletes a selected property. Only custom properties can be deleted
 
-Note   *
+
+
 
 -   The **OK** and **Cancel** buttons have the same effect when the Material editor is not used to edit directly the material property of an existing object.
 
@@ -59,4 +60,4 @@ Note   *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/en

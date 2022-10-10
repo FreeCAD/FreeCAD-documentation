@@ -25,7 +25,7 @@ Questa macro, che è anche inclusa nella libreria, visualizza nell\'interfaccia 
 
 ## Script
 
-ToolBar Icon ![](images/FreeCAD_Doc.png )
+Icona barra strumenti ![](images/FreeCAD_Doc.png )
 
 [PartsLibrary.FCMacro](http   *//github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
 

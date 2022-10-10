@@ -44,7 +44,13 @@ Nesne üzerinde bir yüz seçilerek tıklarsanız eskizin çizileceği düzlem y
 
 ## Not
 
+
+<div class="mw-translate-fuzzy">
+
 Eskiz, [Eskizi yüze eşle - komutuyla](Sketcher_MapSketch/tr.md) varolan başka bir yüze eşlenebilir.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

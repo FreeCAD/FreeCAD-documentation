@@ -37,20 +37,21 @@ L\'élément  de niveau supérieur doit contenir au moins les balises suivantes 
 -   [](#.3Cdate.3E.md)
 -   [](#.3Cdescription.3E.md)
 -   [](#.3Cmaintainer.3E.md) (plusieurs, mais au moins un)
--   [](#.3Clicense.3E.md) (multiple, mais au moins un) (plusieurs, mais au moins un)
--   [](#.3Cicon.3E.md) (multiple, mais au moins un)
+-   [](#.3Clicense.3E.md) (plusieurs, mais au moins un)
+-   [](#.3Cicon.3E.md) (plusieurs, mais au moins un)
 -   [](#.3Ccontent.3E.md) (élément conteneur pour les éléments de contenu du paquet)
 
 #### Balises enfant facultatives 
 
--   [](#.3Curl.3E.md) (multiple)
--   [](#.3Cauthor.3E.md) (multiple)
--   [](#.3Cdepend.3E.md) (multiple)
--   [](#.3Cconflict.3E.md) (multiple)
--   [](#.3Creplace.3E.md) (multiple)
--   [](#.3Ctag.3E.md) (multiple)
+-   [](#.3Curl.3E.md) (plusieurs)
+-   [](#.3Cauthor.3E.md) (plusieurs)
+-   [](#.3Cdepend.3E.md) (plusieurs)
+-   [](#.3Cconflict.3E.md) (plusieurs)
+-   [](#.3Creplace.3E.md) (plusieurs)
+-   [](#.3Ctag.3E.md) (plusieurs)
 -   [](#.3Cfreecadmin.3E.md)
 -   [](#.3Cfreecadmax.3E.md)
+-   [](#.3Cpythonmin.3E.md)
 
 ###  
 
@@ -84,7 +85,7 @@ Le nom de la personne qui maintient le paquet. Tous les paquets nécessitent un 
 
 #### Attributs 
 
--   email=\"name\@domain.tld\" (obligatoire)    * Adresse électronique du responsable.
+-   email=\"name@domain.tld\" (obligatoire)    * Adresse électronique du responsable.
 
 Un paquet orphelin est un paquet qui n\'a pas de mainteneur attitré. Les paquets orphelins doivent utiliser les informations suivantes sur le mainteneur    *
 
@@ -94,7 +95,7 @@ Un paquet orphelin est un paquet qui n\'a pas de mainteneur attitré. Les paquet
 
 AU MOINS UN OBLIGATOIRE (plusieurs autorisés)
 
-Nom de la licence pour ce paquet, par exemple BSD, GPL, LGPL. Afin de faciliter la lecture par les machines, n\'incluez que le nom de la licence dans cette balise. Pour les licences multiples, plusieurs balises distinctes doivent être utilisées. Un paquet aura plusieurs licences si les différents fichiers sources ont des licences différentes. Chaque licence apparaissant dans les fichiers sources doit avoir une balise  correspondante. Pour tout texte explicatif sur les mises en garde relatives aux licences, veuillez utiliser la balise .
+Nom de la licence de ce paquet, par exemple BSD, GPL, LGPL. Afin de faciliter la lecture par les machines, n\'incluez que l\'identifiant court SPDX de la licence (documenté par l\'OSI [leur site](https   *//opensource.org/licenses/alphabetical)). Pour les licences multiples, plusieurs balises distinctes doivent être utilisées. Un paquet aura plusieurs licences si différents fichiers sources ont des licences différentes. Chaque licence apparaissant dans les fichiers sources doit avoir une balise  correspondante. Pour tout texte explicatif sur les mises en garde relatives aux licences, veuillez utiliser la balise .
 
 Les licences de logiciels libres les plus courantes sont décrites sur le [site web de l\'OSI](https   *//opensource.org/licenses/alphabetical).
 
@@ -103,31 +104,34 @@ Les licences les plus utilisées    *
 -    `"Apache-2.0"`
     
 
--    `"BSD"`
+-    `"BSD-2-Clause"`
     
 
--    `"Boost Software License"`
+-    `"BSD-3-Clause"`
     
 
--    `"GPLv2"`
+-    `"BSL-1.0"`
     
 
--    `"GPLv3"`
+-    `"GPL-2"`
     
 
--    `"LGPLv2.1"`
+-    `"GPL-3"`
     
 
--    `"LGPLv3"`
+-    `"LGPL-2.1"`
+    
+
+-    `"LGPL-3"`
     
 
 -    `"MIT"`
     
 
--    `"Mozilla Public License Version 1.1"`
+-    `"MPL-1.1"`
     
 
--    `"CC0v1"`(Public Domain dedication)
+-    `"CC0v1"`(Déclaration du domaine public)
 
 #### Attributs 
 
@@ -207,7 +211,7 @@ C\'est une bonne idée d\'inclure des balises  pointant les utilisateurs vers le
 
 #### Attributs 
 
--   type=\"TYPE\" (obligatoire)    * Le type doit être l\'un des identifiants suivants    * \"website\", \"bugtracker\", \"repository\", \"readme\" ou \"documentation\".
+-   type=\"TYPE\" (obligatoire)    * Le type doit être l\'un des identifiants suivants    * \"website\", \"bugtracker\", \"repository\", \"readme\", \"documentation\" ou \"discussion\".
 -   branch=\"BRANCH\" (obligatoire pour type=\"repository\")    * Le nom de la branche à extraire pour obtenir ce paquet. Il s\'agit généralement du nom de votre branche de développement principale. Peut également spécifier tout autre type de référence git, par exemple une balise ou un commit spécifique.
 
 ###  
@@ -218,7 +222,7 @@ Le nom d\'une personne qui est un auteur du paquet, comme reconnaissance de son 
 
 #### Attributs 
 
--   email=\"name\@domain.tld\" (facultatif)    * Adresse électronique de l\'auteur.
+-   email=\"name@domain.tld\" (facultatif)    * Adresse électronique de l\'auteur.
 
 ###  
 
@@ -230,12 +234,14 @@ Déclare une dépendance sur un autre addon de FreeCAD ou un atelier interne, ou
 
 Toutes les dépendances et relations peuvent restreindre leur applicabilité à des versions particulières. Un attribut peut être utilisé pour chaque opérateur de comparaison. Deux de ces attributs peuvent être utilisés ensemble pour décrire une gamme de versions.
 
--   version\_lt=\"VERSION\" (facultatif)    * La dépendance au paquet est limitée aux versions inférieures au numéro de version indiqué.
--   version\_lte=\"VERSION\" (facultatif)    * La dépendance au paquet est limitée aux versions inférieures ou égales au numéro de version indiqué.
--   version\_eq=\"VERSION\" (facultatif)    * La dépendance au paquet est restreinte à une version égale au numéro de version indiqué.
--   version\_gte=\"VERSION\" (facultatif)    * La dépendance au paquet est limitée aux versions supérieures ou égales au numéro de version indiqué.
--   version\_gt=\"VERSION\" (facultatif)    * La dépendance au paquet est limitée aux versions supérieures au numéro de version indiqué.
--   condition=\"CONDITION\_EXPRESSION\"    * Chaque dépendance peut être conditionnée par une expression de condition. Si l\'expression de condition vaut \"true\", la dépendance est utilisée et considérée comme si elle n\'avait pas d\'attribut de condition. Si l\'expression conditionnelle vaut \"false\", la dépendance est ignorée et considérée comme si elle n\'existait pas. L\'expression doit être une expression FreeCAD valide (i.e. syntaxe en Python), et peut faire référence aux variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", et \"\$BuildRevision\" représentant la version de FreeCAD en cours d\'exécution.
+-   version_lt=\"VERSION\" (facultatif)    * la dépendance au paquet est limitée aux versions inférieures au numéro de version indiqué.
+-   version_lte=\"VERSION\" (facultatif)    * la dépendance au paquet est limitée aux versions inférieures ou égales au numéro de version indiqué.
+-   version_eq=\"VERSION\" (facultatif)    * la dépendance au paquet est restreinte à une version égale au numéro de version indiqué.
+-   version_gte=\"VERSION\" (facultatif)    * la dépendance au paquet est limitée aux versions supérieures ou égales au numéro de version indiqué.
+-   version_gt=\"VERSION\" (facultatif)    * la dépendance au paquet est limitée aux versions supérieures au numéro de version indiqué.
+-   condition=\"CONDITION_EXPRESSION\"    * chaque dépendance peut être conditionnée par une expression de condition. Si l\'expression de condition vaut \"true\", la dépendance est utilisée et considérée comme si elle n\'avait pas d\'attribut de condition. Si l\'expression conditionnelle vaut \"false\", la dépendance est ignorée et considérée comme si elle n\'existait pas. L\'expression doit être une expression FreeCAD valide (i.e. syntaxe en Python), et peut faire référence aux variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", et \"\$BuildRevision\" représentant la version de FreeCAD en cours d\'exécution.
+-   optional=\"true\|false\"    * si \"optional\" est \"true\", la dépendance est traitée comme facultative lorsque l\'addon est installé à l\'aide du gestionnaire d\'addons. En général, cela signifie qu\'un échec de l\'installation de la dépendance n\'empêche pas l\'installation de l\'addon, et l\'utilisateur peut être invité à dire s\'il veut l\'installer. Les versions de FreeCAD antérieures à 0.21 ne reconnaissent pas cet attribut et l\'ignorent.
+-   type=\"automatic\|addon\|internal\|python\"    * facultatif, la valeur par défaut est \"automatic\". Indique à quoi se réfère cette déclaration de dépendance. \"addon\" est pour les addons externes, \"internal\" est pour les ateliers internes (par exemple \"arch\", \"sketcher\", etc.), et \"python\" indique une dépendance du paquetage Python. Les versions de FreeCAD antérieures à 0.21 n\'utilisent pas cet attribut, et \"automatic\" est toujours supposé.
 
 ###  
 
@@ -269,6 +275,10 @@ La version minimale de FreeCAD requise pour utiliser ce paquetage/élément, sou
 
 La version maximale de FreeCAD requise pour utiliser le paquetage/élément, sous la forme d\'une chaîne sémantique de la version 2.0 au format MAJOR.MINOR.BUILD.
 
+###  
+
+(Nouveau dans FreeCAD 0.21, ignoré par les versions précédentes). La version minimale requise de Python pour utiliser le package/élément, sous la forme d\'une chaîne sémantique version 2.0 au format MAJOR.MINOR. Le gestionnaire d\'addons ne permettra pas l\'installation d\'un addon sur un système utilisant une version de Python antérieure à celle-ci. Seules les versions Python 3.x sont prises en charge. Bien que vous puissiez spécifier une version à trois composants, seul le numéro mineur est pris en compte lors de la vérification de la compatibilité.
+
 ## Validation
 
 Pour valider votre fichier package.xml, vous pouvez activer le \"mode développeur\" dans le gestionnaire d\'addons    * créez une variable booléenne appelée \"developerMode\" dans le groupe de paramètres \"Addons\" et définissez-la sur True    * **Outils → Editer les paramètres... → BaseApp → Préférences → Addons → developerMode**. Lorsque le gestionnaire d\'addons a fini de lire la base de données des addons, il examine tous les fichiers package.xml disponibles à la recherche d\'erreurs.
@@ -286,7 +296,7 @@ Un paquet simple réservé à l\'atelier (par exemple, pour ajouter un fichier d
       <version>1.0.1</version> 
       <date>2022-01-07</date> 
       <maintainer email="your_address@null.com">Your Name</maintainer>
-      <license file="LICENSE">LGPLv2.1</license> 
+      <license file="LICENSE">LGPL-2.1</license> 
       <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url> 
       <url type="readme">https   *//github.com/chennes/FreeCAD-Package/blob/main/README.md</url> 
       <icon>Resources/icons/PackageIcon.svg</icon> 
@@ -309,7 +319,7 @@ Un paquet complexe, à plusieurs composantes    *
       <version>2022.01</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPLv3</license>
+      <license file="LICENSE">GPL-3</license>
       <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
@@ -349,7 +359,7 @@ Un paquet avec des dépendances    *
       <version>1.0.1-beta3</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPLv3</license>
+      <license file="LICENSE">GPL-3</license>
       <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
@@ -365,6 +375,10 @@ Un paquet avec des dépendances    *
           <depend>FEM</depend>
           <depend version_gte="0.3.0">Curves workbench</depend>
           <depend version_gte="3.3" version_lt="4">Steel column</depend>
+
+          
+          <depend optional="true" type="python">markdown</depend>
+          <depend type="addon">TabBar</depend>
 
           
           <replace>Metadata Creation Workbench Beta</replace>

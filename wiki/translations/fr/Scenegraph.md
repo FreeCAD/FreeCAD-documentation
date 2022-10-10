@@ -44,7 +44,7 @@ Separator {
 }
 }}
 
-Comme vous pouvez le voir, la structure est très simple. Vous utilisez des séparateurs pour organiser vos données en blocs, un peu comme vous organiseriez vos fichiers en dossiers. Chaque instruction affecte ce qui vient ensuite, par exemple les deux premiers éléments de notre séparateur racine sont une rotation et une traduction, les deux affecteront l\'élément suivant, qui est un séparateur. Dans ce séparateur, un matériau est défini et une autre transformation. Notre cylindre sera donc affecté par les deux transformations, celle qui lui est appliquée directement et celle qui a été appliquée à son séparateur parent.
+Comme vous pouvez le voir, la structure est très simple. Vous utilisez des séparateurs pour organiser vos données en blocs, un peu comme vous organiseriez vos fichiers en dossiers. Chaque instruction affecte ce qui vient ensuite, par exemple les deux premiers éléments de notre séparateur racine sont une rotation et une translation, les deux affecteront l\'élément suivant, qui est un séparateur. Dans ce séparateur, un matériau est défini et une autre transformation. Notre cylindre sera donc affecté par les deux transformations, celle qui lui est appliquée directement et celle qui a été appliquée à son séparateur parent.
 
 Nous avons également beaucoup d\'autres d\'éléments pour organiser notre scène (projet), tels que des groupes, des commutateurs ou des annotations.
 Nous pouvons donner à nos objets des définitions très complexes, des couleurs, des textures des modes d\'ombrage et de transparence. Nous pouvons aussi définir de la lumière, des caméras et, même du mouvement.
@@ -52,9 +52,9 @@ Il est aussi possible d\'intégrer des portions de scripts dans des fichiers Ope
 
 Si vous souhaitez en savoir plus sur openInventor, rendez-vous directement à sa référence la plus célèbre   * [Inventor mentor](http   *//www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/).
 
-Normalement, dans FreeCAD, nous n\'avons pas besoin d\'interagir directement avec le scène de graphe OpenInventor. Dans un document FreeCAD, chaque objet maillé, forme Part ou toute autre chose, est automatiquement converti en code OpenInventor et est inséré dans le scène de graphe que vous voyez dans la [vue 3D](3D_view/fr.md). Ce graphe de scène est mis à jour en permanence lorsque vous modifiez, ajoutez ou supprimez des objets.. En fait, chaque objet (dans l\'espace App) dispose d\'un constructeur de vue (un objet correspondant dans l\'espace Gui) responsable de la création du code OpenInventor.
+Normalement, dans FreeCAD, nous n\'avons pas besoin d\'interagir directement avec le graphe de scène OpenInventor. Dans un document FreeCAD, chaque objet maillé, forme Part ou toute autre chose, est automatiquement converti en code OpenInventor et est inséré dans le graphe de scène que vous voyez dans la [vue 3D](3D_view/fr.md). Ce graphe de scène est mis à jour en permanence lorsque vous modifiez, ajoutez ou supprimez des objets.. En fait, chaque objet (dans l\'espace App) dispose d\'un constructeur de vue (un objet correspondant dans l\'espace Gui) responsable de la création du code OpenInventor.
 
-Mais il y a de nombreux avantages à accéder directement au scène de graphe. Par exemple, nous pouvons modifier temporairement l\'apparence d\'un objet ou nous pouvons ajouter des objets à la scène qui n\'ont aucune existence réelle dans le document FreeCAD, tels que la géométrie de construction, les aides, les conseils graphiques ou les outils telles que les manipulations ou les informations à l\'écran .
+Mais il y a de nombreux avantages à accéder directement au graphe de scène. Par exemple, nous pouvons modifier temporairement l\'apparence d\'un objet ou nous pouvons ajouter des objets à la scène qui n\'ont aucune existence réelle dans le document FreeCAD, tels que la géométrie de construction, les aides, les conseils graphiques ou les outils telles que les manipulations ou les informations à l\'écran .
 
 FreeCAD dispose de plusieurs outils pour voir ou modifier le code OpenInventor.
 Par exemple, le code Python suivant, montre la représentation OpenInventor d\'un objet sélectionné   *
@@ -67,12 +67,12 @@ print viewprovider.toString()
 
 ```
 
-Mais nous avons aussi un module Python qui permet un accès complet à toute chose gérée par Coin3D, comme, notre scène graphique FreeCAD.
+Mais nous avons aussi un module Python qui permet un accès complet à toute chose gérée par Coin3D, comme, notre graphe de scène FreeCAD.
 Alors, lisez la suite sur la page de [pivy](Pivy/fr.md).
 
 ## Exemples de codage 
 
-Voir les [Coin3d snippets](Coin3d_snippets/fr.md) grâce aux recherches de MariwanJ pour l\'[atelier Design456](Design456_Workbench/fr.md). Le dépôt de code de ces exemples se trouve à l\'adresse <https   *//github.com/MariwanJ/COIN3D_Examples>. {{Top}}
+Voir les [snippets Coin3d](Coin3d_snippets/fr.md) grâce aux recherches de MariwanJ pour l\'[atelier Design456](Design456_Workbench/fr.md). Le dépôt de code de ces exemples se trouve à l\'adresse <https   *//github.com/MariwanJ/COIN3D_Examples>. {{Top}}
 
 
 

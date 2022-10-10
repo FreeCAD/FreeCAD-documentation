@@ -7,50 +7,32 @@ En FreeCAD y en esta documentación, un [complemento](addon/es.md) es cualquier 
 
 ## Diferentes tipos 
 
+Existen tres tipos de complementos   *
 
-<div class="mw-translate-fuzzy">
-
-Existen aproximadamente tres tipos de addons   *
-
--   [Macro](Macros/es.md)   * breve fragmento de código [Python](Python/es.md) que proporciona una nueva herramienta o funcionalidad en un único archivo que termina en `.FCMacro`.
--   Módulo   * un único archivo fuente de Python, o una colección de archivos de Python, que amplía el software de alguna manera. Los módulos no definen necesariamente un \"ambiente de trabajo\" gráfico, pero pueden proporcionar una característica de apoyo, por ejemplo, una biblioteca que realiza la conversión de formatos, o el código que modifica la [interfaz](interface/es.md) gráfica.
--   [Ambiente de trabajo](External_workbenches/es.md)   * colecciones de archivos Python que proporcionan [Comandos Gui](Gui_Command/es.md) relacionados. (herramientas) centradas en un tema concreto, por ejemplo, herramientas para diseñar armarios, o herramientas para trabajar con arquitectura, o herramientas para diseñar barcos, etc. Estos bancos de trabajo suelen definir nuevas barras de herramientas donde los [comandos](Gui_Command/es.md) se colocan como botones.
-
-
-</div>
+-   [Macros](Macros/es.md)   * breve fragmento de código [Python](Python/es.md) que proporciona una nueva herramienta o funcionalidad en un único archivo que termina en `.FCMacro`.
+-   [Ambiente de trabajo](External_workbenches/es.md)   * colecciones de archivos Python que proporcionan [Comandos Gui](Gui_Command/es.md) relacionados (herramientas) centradas en un tema concreto, por ejemplo, herramientas para diseñar armarios, o herramientas para trabajar con arquitectura, o herramientas para diseñar barcos, etc. Estos bancos de trabajo suelen definir nuevas barras de herramientas donde los [comandos](Gui_Command/es.md) se colocan como botones.
+-   [Paquetes de preferencias](Preference_Packs/es.md)   * colecciones de preferencias de usuario distribuibles. <small>(v0.20)</small> 
 
 ## Instalación
 
+La forma recomendada de instalar los complementos es con el <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestor complementos](Std_AddonMgr/es.md).
 
-<div class="mw-translate-fuzzy">
-
-A partir de FreeCAD 0.17, la forma recomendada de instalar los complementos es con el <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestor complementos](Std_AddonMgr/es.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Sin embargo, la instalación manual sigue siendo posible.
+Pero para macros y ambientes de trabajo la instalación manual sigue siendo posible.
 
 -   [Cómo instalar macros](How_to_install_macros/es.md)
 -   [Instalar más ambientes de trabajo](Installing_more_workbenches/es.md)
 
+## Información para desarrolladores 
 
-</div>
+Si ha desarrollado una macro o un ambiente de trabajo y desea verlo incluido en el administrador de complementos, lea cómo hacerlo en las páginas del repositorio   * ([FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) y [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/)). Si agrega su macro a la página [Recetas de macros](Macros_recipes.md), no hay nada más que hacer, el administrador de complementos la recogerá automáticamente.
 
-## Information for developers 
+### Ambientes de trabajo Python 
 
-If you have developed a macro or workbench, and want to see it included in the Addon manager, read how to do so on the repository pages   * ([FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) and [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/)). If you add your macro to the [Macros recipes](Macros_recipes.md) page, there is nothing else to do, it will automatically be picked up by the Addon manager.
+Para los ambientes de trabajo de Python, no necesita ninguna aprobación específica para agregar su banco de trabajo al Administrador de complementos. Además, debido a que su complemento está fuera del código fuente de FreeCAD, puede elegir la licencia que desee. Si solicita que su ambiente de trabajo se agregue a la lista predeterminada del administrador de complementos (no agregaremos ningún ambiente de trabajo nuevo sin una solicitud de sus autores), ya sea solicitándolo en el foro o abriendo un problema (issue) en [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/), su código permanecerá en su propio repositorio de git, solo lo agregaremos como un submódulo al repositorio [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Por supuesto, antes de agregar su ambiente de trabajo, lo revisaremos y nos aseguraremos de que no haya nada potencialmente problemático con él. Para obtener más detalles sobre cómo estructurar su complemento, incluyendo información sobre los metadatos utilizados por el administrador de complementos, consulte [Creación de ambiente de trabajo](Workbench_creation.md).
 
-### Python workbenches 
+### Ambientes de trabajo C++ 
 
-For Python workbenches, you don\'t need any specific approval to have your workbench added to the Addon Manager. In addition, because your Addon is outside the FreeCAD source code, you can choose the license you want. If you request for your workbench to be added to the Addon Manager\'s default list (we will not add any new workbench without a request from its authors), either by asking so on the forum or by opening an issue on the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) repository, your code will stay on your own git repository, we will just add it as a submodule to the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) repository. Of course, before adding your workbench, we will take a look at it and make sure there is nothing potentially problematic with it. For more details about structuring your Addon, including information about metadata used by the Addon Manager, see [Workbench creation](Workbench_creation.md).
-
-### C++ workbenches 
-
-If you develop a workbench in C++, it cannot be run directly by users and must be compiled first. You then have two options, either you provide precompiled versions of your workbench yourself, for the different operating systems, or you should request to have your code merged into the FreeCAD source code. For that, you should use the LGPL license (or a fully compatible license like MIT or BSD), and you must present your new tools to the community in the [FreeCAD forum](https   *//forum.freecadweb.org) for review. Once your code has been tested and approved, you should fork the FreeCAD repository, if not done yet, create a new branch, push your code to it, and open a pull request so that your branch is merged into the main repository.
+Si desarrolla un banco de trabajo en C++, los usuarios no pueden ejecutarlo directamente y debe compilarse primero. Entonces tiene dos opciones, usted mismo proporciona versiones precompiladas de su ambiente de trabajo, para los diferentes sistemas operativos, o debe solicitar que su código se fusione con el código fuente de FreeCAD. Para eso, debe usar la licencia LGPL (o una licencia totalmente compatible como MIT o BSD), y debe presentar sus nuevas herramientas a la comunidad en el foro de [FreeCAD](https   *//forum.freecadweb.org) para su revisión. Una vez que su código haya sido probado y aprobado, debe bifurcar (hacer fork) al repositorio de FreeCAD, si aún no lo ha hecho, cree una nueva rama, envíe su código y abra un pull request para que su rama se fusione con el repositorio principal.
 
 
 

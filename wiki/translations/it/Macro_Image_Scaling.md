@@ -23,10 +23,7 @@ Nella seconda figura, gli oggetti rossi e verdi non sono complanari con i 2 ogge
 
 ![](images/Parallax.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 -   avviare la Macro - appare un dialogo
 -   cliccare nell\'immagine sui due punti di cui si conosce la vera distanza
@@ -34,14 +31,11 @@ Nella seconda figura, gli oggetti rossi e verdi non sono complanari con i 2 ogge
 -   Inserire in mm la vera distanza tra i punti nel campo di testo del dialogo e fare clic su OK
 -   L\'immagine viene ridimensionata e il dialogo si chiude.
 
-
-</div>
-
 ## Script
 
 ToolBar Icon ![](images/Image_Scaling.svg )
 
-**Macro\_Image\_Scaling.FCMacro**
+**Macro_Image_Scaling.FCMacro**
 
 
 {{MacroCode|code=

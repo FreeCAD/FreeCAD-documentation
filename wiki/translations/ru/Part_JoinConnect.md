@@ -66,7 +66,7 @@ The algorithms behind Join tools are quite simple, and understanding them is imp
 
 ## Программирование
 
-The Join tools can by used in [macros](macros.md) and from the python console by using the following function   *
+The Join tools can by used in [macros](Macros.md) and from the [Python console](Python_console.md) by using the following function   *
 
 **BOPTools.JoinFeatures.makeConnect(name)**
 
@@ -79,17 +79,16 @@ Connect can also be applied to plain shapes, without the need to have a document
 
 This can be useful for making custom Python scripted features.
 
-Example   * {{code|code=
+Example   *
+
+
+{{code|code=
 import Part
 j = Part.BOPTools.JoinFeatures.makeConnect(name= 'Connect')
 j.Objects = FreeCADGui.Selection.getSelection()
-}} The tool itself is implemented in Python, see **/Mod/Part/BOPTools/JoinFeatures.py** ([Github link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) under where FreeCAD is installed.
+}}
 
-## History
-
--   The tool was introduced in FreeCAD v0.16.5069
-
--   The tool was re-implemented to work via generalFuse in FreeCAD v0.17.8053
+The tool itself is implemented in Python, see **/Mod/Part/BOPTools/JoinFeatures.py** ([Github link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) under where FreeCAD is installed.
 
 
 

@@ -6,15 +6,9 @@
 
 {{TOCright}}
 
+La [console Python](Python_console/it.md) è un pannello che fa parte dell\'[interfaccia utente](interface/it.md) di FreeCAD . Esegue un\'istanza dell\'interprete [Python](Python/it.md) che può essere utilizzato per controllare i processi di FreeCAD e creare e modificare gli oggetti e le loro proprietà.
 
-<div class="mw-translate-fuzzy">
-
-La [console Python](Python_console/it.md) è un pannello che esegue un\'istanza dell\'interprete [Python](Python/it.md) che può essere usata per controllare i processi di FreeCAD e creare e modificare gli oggetti e le loro proprietà.
-
-
-</div>
-
-It can be made visible/hidden through the **View → Panels → Python console** drop-down menu.
+Può essere resa visibile/nascosta tramite il menu a tendina **Visualizza → Panelli → Console Python**.
 
 La console Python di FreeCAD ha l\'evidenziazione di base della sintassi, in grado di differenziare con vari stili e colori, commenti, stringhe, valori numerici, funzioni integrate, output di testo stampato e delimitatori come parentesi e virgole. Queste proprietà della console possono essere configurate nell\'[editor delle Preferenze](Preferences_Editor/it.md).
 
@@ -87,14 +81,14 @@ Un clic con il tasto destro sulla console Python mostra alcuni comandi   *
 
 -    **A capo automatico**   * avvolge le linee molto lunghe che superano la dimensione orizzontale della console Python.
 
-## Notes
+## Note
 
--   One has the ability to scroll the API in the Python console. Example   *
-    1.  In the console type   * `FreeCAD.`
-    2.  A dialog box will display with optional classes/functions to choose from
-    3.  Scroll through the list to read the description of each class/function
-    4.  By choosing a function and following it with a `.` one can repeat steps 2 and 3 to traverse deeper in to the API
--   Tab/Word completion is supported using the **Ctrl**+**Space** shortcut
+-   Si ha la possibilità di scorrere l\'API nella console Python. Esempio   *
+    1.  Nella console digita   * `FreeCAD.`
+    2.  Verrà visualizzata una finestra di dialogo con classi/funzioni opzionali tra cui scegliere
+    3.  Scorri l\'elenco per leggere la descrizione di ogni classe/funzione
+    4.  Scegliendo una funzione e facendola seguire da un `.` è possibile ripetere i passaggi 2 e 3 per approfondire l\'API
+-   Il completamento di etichette/parole è supportato utilizzando la scorciatoia **Ctrl**+**Space**
 
 
 {{Interface navi

@@ -1,11 +1,11 @@
 # Artwork Reinforcement/it
-These icons are in the indicated source path.
+Queste icone si trovano nel percorso origine indicato.
 
-For all icons in the source tree, see [Artwork](Artwork.md).
+Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Artwork/it.md)
 
 ## Mod/Reinforcement/
 
-### Mod/Reinforcement/icons/dropdown\_list/
+### Mod/Reinforcement/icons/dropdown_list/
 
 ![](images/Arch_Rebar_Straight.svg ) ![](images/Arch_Rebar_UShape.svg ) ![](images/Arch_Rebar_LShape.svg ) ![](images/Arch_Rebar_BentShape.svg ) ![](images/Arch_Rebar_Stirrup.svg ) ![](images/Arch_Rebar_Helical.svg )
 

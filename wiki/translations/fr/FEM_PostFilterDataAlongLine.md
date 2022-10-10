@@ -9,11 +9,21 @@
 
 # FEM PostFilterDataAlongLine/fr
 
+
+</div>
+
 ## Description
 
 Trace les valeurs d\'un champ le long d\'une ligne spécifiée.
 
+![](images/FEM_Line-Clip-Filter-Example.png )
+
+*A line clip filter inside a [Region clip filter](FEM_PostFilterClipRegion.md).The Region clip filter is the semi-transparent object.The part of the line outside the Region clip filter is set to a value of zero and therefore appears blue.*
+
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé.
 2.  Lancez la commande de l\'une des façons suivantes    *
@@ -24,6 +34,9 @@ Trace les valeurs d\'un champ le long d\'une ligne spécifiée.
 5.  Sélectionnez un **Champs** dans la liste déroulante.
 6.  Appuyez sur le bouton **Créer un tracé**. Un tracé XY de la valeur du champ en fonction de la longueur de la ligne sera créé dans une fenêtre séparée.
 7.  Cliquez sur le bouton **OK** pour terminer la commande.
+
+
+</div>
 
 
 

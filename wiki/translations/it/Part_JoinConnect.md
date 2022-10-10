@@ -30,9 +30,21 @@ Lo strumento Congiungi serve per unire due oggetti vuoti internamente, ad esempi
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Viene creato un oggetto parametrico Connect. Nella vista 3D viene mostrato il risultato della congiunzione, e gli oggetti originali sono nascosti.
 
+
+</div>
+
 ## Proprietà
+
+
+{{TitleProperty|Connect}}
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{TitleProperty|Connect}}
@@ -42,6 +54,9 @@ Viene creato un oggetto parametrico Connect. Nella vista 3D viene mostrato il ri
 -    **Refine**   * Stabilisce se alla forma finale deve applicare l\'operazione [Affina](Part_RefineShape/it.md), oppure no. Il valore di default è stabilito dalla casella di controllo \'Affina automaticamente la forma dopo l\'operazione booleana\' nelle [preferenze di PartDesign](PartDesign_Preferences/it.md).
 
 -    **Tolerance**   * valore di \"confusione\". Questa è una tolleranza supplementare da applicare durante la ricerca di intersezioni, oltre alle tolleranze memorizzate nelle forme di ingresso.
+
+
+</div>
 
 ## Esempio
 
@@ -54,11 +69,25 @@ Viene creato un oggetto parametrico Connect. Nella vista 3D viene mostrato il ri
 4.  Per visualizzare gli interni, utilizzare uno degli strumenti di sezione   * [Piano di taglio](Std_ToggleClipPlane/it.md) del menu Visualizza, [Piano di sezione](Arch_SectionPlane/it.md) di Arch, o [Piano di taglio](Arch_CutPlane/it.md) di Arch. Nell\'immagine seguente, è stato utilizzato il Piano si sezione di Arch.
     ![320px](images/JoinFeatures_Example_step4_Connect.png)
 
+## Algorithm
+
+
+<div class="mw-translate-fuzzy">
+
 ## Algoritmo
 
 Gli algoritmi sottostanti agli strumenti di Giunzione sono abbastanza semplici, ed è importante comprenderli per utilizzarli correttamente. L\'algoritmo di Connect, in particolare, è un po\' più complesso di altri, ma generalmente è sufficiente pensarlo come una variante simmetrica dell\'algoritmo di [Incastra](Part_JoinEmbed/it#Algoritmo.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 1\. Ogni oggetto è diviso in pezzi dagli incroci con altri oggetti. (vedere [Part Frammenti booleani](Part_BooleanFragments/it.md))
+
+
+</div>
 
 2\. Di tutte le parti di un oggetto, viene conservata solo la più grande; tutto il resto viene scartato.
 
@@ -79,7 +108,13 @@ Gli algoritmi sottostanti agli strumenti di Giunzione sono abbastanza semplici, 
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Giunzione può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
+
+
+</div>
 
 **BOPTools.JoinFeatures.makeConnect(name)**
 
@@ -92,17 +127,16 @@ Connect può essere applicato anche a forme piane, senza la necessità di avere 
 
 Questo può essere utile per creare funzioni personalizzate con script Python.
 
-Esempio   * {{code|code=
+Esempio   *
+
+
+{{code|code=
 import Part
 j = Part.BOPTools.JoinFeatures.makeConnect(name= 'Connect')
 j.Objects = FreeCADGui.Selection.getSelection()
-}} Lo strumento è implementato in Python, vedere **/Mod/Part/BOPTools/JoinFeatures.py** ([Github link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) in cui è installato FreeCAD.
+}}
 
-## Storico
-
--   Lo strumento è stato introdotto in FreeCAD v0.16.5069
-
--   Lo strumento è stato re-implementato in FreeCAD v0.17.8053 per lavorare via generalFuse
+Lo strumento è implementato in Python, vedere **/Mod/Part/BOPTools/JoinFeatures.py** ([Github link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) in cui è installato FreeCAD.
 
 
 <div class="mw-translate-fuzzy">

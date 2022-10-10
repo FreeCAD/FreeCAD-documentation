@@ -9,6 +9,9 @@
 
 # Sketcher CompCreateConic/it
 
+
+</div>
+
 ## Descrizione
 
 **Sezione conica** è un pulsante icona <img alt="" src=images/Sketcher_CompCreateConic.png  style="width   *64px;"> nella barra degli strumenti delle geometrie dello Sketcher che raggruppa gli strumenti per creare le curve basate sulla sezione di un cono. Fare clic sulla freccia giù alla sua destra per espandere le icone sotto di esso e selezionare uno strumento.

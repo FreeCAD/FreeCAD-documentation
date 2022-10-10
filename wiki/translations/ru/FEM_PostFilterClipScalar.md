@@ -17,12 +17,20 @@
 
 Clips a field using a specified scalar value.
 
-## Использование
+<img alt="" src=images/FEM_Scalar-Clip-Filter-Example.png  style="width   *400px;">
 
-1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md).
-2.  Invoke the command in one of the several ways   *
-    -   Press the **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> [Scalar clip filter](FEM_PostFilterClipScalar.md)** button.
-    -   Select the **Results → <img src="images/FEM_PostFilterClipScalar.svg" width=16px> Scalar clip filter** option from the menu.
+*A scalar clip filter result.The original pipeline is the semi-transparent object.*
+
+A scalar filter can be combined with other filters. Here is for example a scalar filter on a [warp filter](FEM_PostFilterWarp.md) (semi-transparent)   *
+
+<img alt="" src=images/FEM_Scalar-Clip-Filter-On-Warp-Example.png  style="width   *600px;">
+
+## Применение
+
+1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another existing filter.
+2.  Invoke the command either by   *
+    -   Pressing the button **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> '''Scalar clip filter'''**.
+    -   Using the menu **Results → <img src="images/FEM_PostFilterClipScalar.svg" width=16px> Scalar clip filter**.
 3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). Hide that pipeline to see the effect of a Scalar Clip Filter.
 4.  Select the **Scalar** type from the expandable list.
 5.  Specify the **Clip scalar** value directly or use the slider.

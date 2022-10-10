@@ -13,7 +13,7 @@
 
 </div>
 
-## Description
+## Описание
 
 The FEM Analysis could be seen as a Container that holds all objects of a Finite Element Analysis. It is mandatory to have a analysis container which holds all the needed objects. At least one of the following objects is needed for a mechanical analysis   *
 
@@ -21,7 +21,7 @@ The FEM Analysis could be seen as a Container that holds all objects of a Finite
 -   [fixed constraint](FEM_ConstraintFixed.md)
 -   [force constraint](FEM_ConstraintForce.md) or [pressure constraint](FEM_ConstraintPressure.md)
 
-## Usage
+## Применение
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_Analysis.svg" width=16px> [FEM Analysis](FEM_Analysis.md)** button.
@@ -31,18 +31,17 @@ The FEM Analysis could be seen as a Container that holds all objects of a Finite
 3.  Other objects could be added or removed to the analysis container by drag and drop.
 4.  To add new FEM Objects to the document the analysis has to be active. Double click on the analysis does activate the analysis.
 
-## Options
+## Опции
 
 -   Up to date there is no option to choose.
--   A frequency analysis in in development. See [1](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=12189) for more informations.
 
-## Properties
+## Свойства
 
 -    **OutpuDir**   * Specifies the working directory of the analysis
 
-## Scripting
+## Программирование
 
-most code here is depreciated in 0.17.
+most code here is deprecated in 0.17.
 
 -   new analysis
 
@@ -67,7 +66,7 @@ member.remove( documentobject )
  App.ActiveDocument.MechanicalAnalysis.Member = member
 ```
 
-Examples   * 
+Примеры   * 
 ```python
 import MechanicalAnalysis
 analysis = MechanicalAnalysis.makeMechanicalAnalysis("MechanicalAnalysis")

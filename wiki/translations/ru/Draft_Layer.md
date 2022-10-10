@@ -14,9 +14,7 @@
 
 The <img alt="" src=images/Draft_Layer.svg  style="width   *24px;"> **Draft Layer** command creates a Draft Layer. A layer is a special kind of group with a number of [visual properties](#View.md). These properties, and any changes to them, are propagated to the objects placed inside the layer. The layers themselves are put in another special group   * the Draft LayerContainer.
 
-This command has replaced the Draft VisGroup command in FreeCAD version 0.19.
-
-## Использование
+## Применение
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Layer.svg" width=16px> [Draft Layer](Draft_Layer.md)** button.
@@ -36,7 +34,7 @@ For a Draft LayerContainer these additional options are available in the [Tree v
 
 -    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**   * merges all layers with the same base label.
 
-   *   The base label of a layer is its **Label** stripped of trailing digits and spaces. All layers with the same base label are merged into a single layer with the **Label** set to that base label. This does not work in FreeCAD version 0.19.
+   *   The base label of a layer is its **Label** stripped of trailing digits and spaces. All layers with the same base label are merged into a single layer with the **Label** set to that base label.
 
 -    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**   * adds a new layer to the current document.
 
@@ -47,6 +45,13 @@ For a Draft Layer these additional options are available in the [Tree view](Tree
 -    **<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)**   * activates the selected layer.
 
 -    **<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)**   * selects the objects inside the selected layer.
+
+## Drag and drop behavior 
+
+
+<small>(v1.0)</small> 
+
+If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer in the [Tree view](Tree_view.md), it is not removed from the group, and vice versa. To remove an object from a layer it must be dropped on another layer or on the document node. There is no need to hold down the **Ctrl** key when dragging from or dropping on a layer.
 
 ## Примечания
 

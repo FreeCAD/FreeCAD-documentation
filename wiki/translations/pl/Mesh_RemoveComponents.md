@@ -1,38 +1,46 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh_RemoveComponents
-   MenuLocation   *Meshes → Remove components...
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Mesh RemoveCompByHand](Mesh_RemoveCompByHand.md), [Arch SplitMesh](Arch_SplitMesh.md)
+   Name/pl   *Siatka   * Usuń fragmenty
+   MenuLocation   *Siatki → Usuń fragmenty ...
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Usuń elementy interaktywnie](Mesh_RemoveCompByHand/pl.md), [Podziel siatkę](Arch_SplitMesh/pl.md)
 ---
 
 # Mesh RemoveComponents/pl
 
-## Description
+## Opis
 
-The **Mesh RemoveComponents** command removes faces from mesh objects.
+Polecenie **Usuń fragmenty** usuwa ściany z obiektów siatkowych.
 
 ![](images/Meshes_RemoveComponents.jpg ) 
-*The Remove components task panel*
+*Panel zadań Usuń fragmenty*
 
-## Usage
+## Użycie
 
-1.  The command uses the color red to mark selected faces. To see them properly   *
-    -   The **Display Mode** of the mesh objects ideally should be {{Value|Flat lines}}, but should at least show faces. If necessary use the [Std DrawStyle](Std_DrawStyle.md) command to override this property.
-    -   The **Shape Color** of the mesh objects should not be red.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Mesh RemoveComponents](Mesh_RemoveComponents.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_RemoveComponents.svg" width=16px> Remove components...** option from the menu.
-3.  The **Remove components** task panel opens.
-4.  Use one or more of the **Select** options to select faces   *
-    -   Press the **Region** button and while holding down the left mouse button draw a region, a closed spline, in the [3D view](3D_view.md). Faces that match the **Region options** and (partially) fall inside the region will be selected.
-    -   Press the **All** button to select all faces.
-    -   Press the **Components** button to select all components with fewer than the specified maximum number of faces. Here a component refers to a complete group of connected faces. Usually a mesh object contains a single component. But, for example after using the [Mesh Merge](Mesh_Merge.md) command, a mesh object can contain multiple components.
-    -   Press the **Pick triangle** button to select a single face in the 3D view. If the **Select whole component** option is checked, selecting a face will result in selecting the entire component the face belongs to.
-5.  Optionally use one or more of the **Deselect** options to deselect faces. These options are identical to the **Select** options, except that the number of faces for the **Components** button is a minimum number.
-6.  Optionally press the **Invert** button to invert the selection.
-7.  Press the **Delete** button to delete the selected faces.
-8.  Press the **Close** button to close the task panel and finish the command.
+1.  Polecenie używa koloru czerwonego do zaznaczenia wybranych ścian. Aby zobaczyć je poprawnie   *
+    -   
+        **Tryb wyświetlania**
+        
+        obiektów siatki powinien być ustawiony na {{Value|Linie płaskie}}, ale powinien przynajmniej pokazywać ściany. W razie potrzeby użyj polecenia [Styl kreślenia](Std_DrawStyle/pl.md), aby nadpisać tę właściwość.
+
+    -   
+        **Kolor kształtu**
+        
+        obiektów siatki nie powinien być czerwony.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Usuń fragmenty ...](Mesh_RemoveComponents/pl.md)**.
+    -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_RemoveComponents.svg" width=16px> Usuń fragmenty ...**.
+3.  Otwiera się panel zadań **Usuń fragmenty**.
+4.  Użyj jednej lub więcej opcji **Wybierz**, aby wybrać ściany   *
+    -   Naciśnij przycisk **Obszar** i trzymając wciśnięty lewy przycisk myszki narysuj zakres, zamkniętą łamaną w oknie [widoku 3D](3D_view/pl.md). Zostaną wybrane ściany, które pasują do opcji **Obszar** i *(częściowo)* mieszczą się wewnątrz regionu.
+    -   Naciśnij przycisk **Wszystkie**, aby wybrać wszystkie ściany.
+    -   Naciśnij przycisk **Fragmenty**, aby wybrać wszystkie fragmenty z mniejszą niż określona maksymalną liczbą powierzchni. W tym miejscu fragment odnosi się do kompletnej grupy połączonych powierzchni. Zazwyczaj obiekt siatki zawiera pojedynczy fragment. Ale, na przykład po użyciu polecenia [Scal](Mesh_Merge/pl.md), obiekt siatki może zawierać wiele fragmentów.
+    -   Naciśnij przycisk **Wybierz trójkąt**, aby wybrać pojedynczą ściankę w widoku 3D. Jeśli opcja **Akceptuj tylko widoczne trójkąty** jest zaznaczona, wybranie ścian spowoduje wybranie całego fragmentu, do którego należy ściana.
+5.  Opcjonalnie użyj jednej lub więcej opcji **Odznacz** aby odznaczyć ściany. Opcje te są identyczne jak opcje **Zaznacz**, z wyjątkiem tego, że liczba ścian dla przycisku **Fragmenty** jest liczbą minimalną.
+6.  Opcjonalnie naciśnij przycisk **Odwróć wybór**, aby odwrócić wybór.
+7.  Naciśnij przycisk **Usuń**, aby usunąć wybrane ściany.
+8.  Naciśnij przycisk **Zamknij**, aby zamknąć panel zadań i zakończyć wykonywanie polecenia.
 
 
 

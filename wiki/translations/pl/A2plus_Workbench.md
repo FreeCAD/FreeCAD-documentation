@@ -31,7 +31,7 @@ Zaimportowane części zachowują swoje zewnętrzne zależności i można je edy
 
 Aby zapisać złożenie i zamknąć je po zakończeniu, można użyć przycisku paska narzędzi <img alt="" src=images/A2p_Save_and_exit.svg  style="width   *24px;">.
 
-Toggling the toolbar button <img alt="" src=images/A2p_CD_OneButton.svg  style="width   *24px;"> sets the way you can select several several edges, faces etc.   * Either with a single click or by **Ctrl**+click.
+Przełączanie przycisku paska narzędzi <img alt="" src=images/A2p_CD_OneButton.svg  style="width   *24px;"> ustawia sposób, zaznaczenia kilku krawędzi, ścian itp.   * albo za pomocą pojedynczego kliknięcia, albo używając **Ctrl** + kliknięcie.
 
 ## Montaż
 
@@ -110,13 +110,13 @@ Zaznacz płaszczyznę na obu częściach. Przycisk na pasku narzędzi <img alt="
 
 #### Płaszczyzna na płaszczyźnie 
 
-Select a plane on both parts. The toolbar button <img alt="" src=images/A2p_PlaneCoincidentConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|planeCoincident}}. The constraint dialog allows you to specify a constraint direction and an offset between the planes. This offset can also be flipped. If the offset is zero, the constraint will make the planes coincident.
+Wybierz płaszczyznę na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_PlaneCoincidentConstraint.svg  style="width   *24px;"> dodaje wiązanie {{Variable|Zbieżność płaszczyzn}}. Okno dialogowe wiązania pozwala określić kierunek wiązania i przesunięcie między płaszczyznami. Przesunięcie to może być również odwrócone. Jeśli przesunięcie wynosi zero, wiązanie spowoduje, że płaszczyzny będą się pokrywać.
 
-#### Plane Angular 
+#### Płaszczyzna kątowa 
 
 Select a plane on both parts. The toolbar button <img alt="" src=images/A2p_AngleConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|angledPlanes}}. The constraint dialog allows you to specify an angle between the planes. The constraint will make the planes at first parallel and the set the specified angle.
 
-#### Coincidence at Center of Mass 
+#### Zbieżność w środku masy 
 
 Select either a closed [edge](Glossary#Edge.md) or a plane on both parts. The toolbar button <img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width   *24px;"> adds the constraint {{Variable|centerOfMass}}. The constraint dialog allows you to specify an offset between the edges or planes. This offset can also be flipped. You can furthermore set the constraint direction and lock the rotation of the parts. If the offset is zero, the constraint will put the edges or planes into the same plane.
 
@@ -128,7 +128,7 @@ An assembly can contain other assemblies. They are added like parts by pressing 
 
 Possible constraints for a selection are displayed in the toolbar and the *Constraint Tools* dialog by enabling the corresponding buttons. The *Constraint Tools* dialog is opened via the toolbar button <img alt="" src=images/A2p_DefineConstraints.svg  style="width   *24px;">. It is intended to stay open to be able to add quickly several constraints to the assembly.
 
-Existing constraints can be edited by selecting them in the model tree and then either double-clicking on it or using the toolbar button <img alt="" src=images/A2p_EditConstraint.svg  style="width   *24px;">. This opens the *Constraint Properties* dialog.
+Istniejące wiązania mogą być edytowane poprzez zaznaczenie ich w drzewie modelu, a następnie dwukrotne kliknięcie na nie lub użycie przycisku na pasku narzędzi <img alt="" src=images/A2p_EditConstraint.svg  style="width   *24px;">. Umożliwi to otwarcie okna dialogowego *Właściwości wiązania*.
 
 Wiązania można tymczasowo wyciszyć, zaznaczając je w drzewie modelu i zmieniając właściwość elementu drzewa **Stłumione**.
 
@@ -140,17 +140,17 @@ The toolbar button <img alt="" src=images/A2p_FlipConstraint.svg  style="width  
 
 With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
 
-## Part Lists 
+## Lista części 
 
-To create part lists of assemblies, the different parts of the assembly must get part info that can be read by A2plus. This is done by editing the part using the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">. In the opened part press the toolbar button <img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> and a [spreadsheet](Spreadsheet_Workbench.md) with the name *\#PARTINFO\#* is created.
+Aby stworzyć listę części dla złożenia, poszczególne części złożenia muszą otrzymać informacje, które mogą być odczytane przez A2plus. Robi się to poprzez edycję części za pomocą przycisku na pasku narzędzi <img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">. W otwartej części naciśnij przycisk paska narzędzi <img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> i zostanie utworzony [arkusz kalkulacyjny](Spreadsheet_Workbench/pl.md) nazwany *#PARTINFO#*.
 
-The structure of the spreadsheet is like this   *
+Struktura arkusza kalkulacyjnego wygląda następująco   *
 
 ![](images/A2p_PartinfoTable.png )
 
 Fill out the grey fields with info you have and want to have in the final parts list.
 
-In the assembly or subassembly use the toolbar button <img alt="" src=images/A2p_PartsList.svg  style="width   *24px;">. It will ask you if you want to iterate recursively over all subassemblies. Click on *Yes*. This creates a new spreadsheet with the name *\#PARTSLIST\#*. It contains the info from the different *\#PARTSINFO\#* spreadsheets of the parts in a list like this   *
+In the assembly or subassembly use the toolbar button <img alt="" src=images/A2p_PartsList.svg  style="width   *24px;">. It will ask you if you want to iterate recursively over all subassemblies. Click on *Yes*. This creates a new spreadsheet with the name *#PARTSLIST#*. It contains the info from the different *#PARTSINFO#* spreadsheets of the parts in a list like this   *
 
 ![](images/A2p_PartslistTable.png )
 
@@ -332,7 +332,7 @@ Dragging animations are interactive since you trigger it by dragging a part of t
 4.  Now you can move the mouse and the part will follow the movement of the mouse within the defined constraints.
 5.  To end the dragging mode, left click in the assembly or press ESC.
 
-Here is an example assembly to try out the dragging animation   * [A2p\_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
+Here is an example assembly to try out the dragging animation   * [A2p_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
 
@@ -340,7 +340,7 @@ Here is an example assembly to try out the dragging animation   * [A2p\_example-
 
 *Above   * The dragging animation using the example assembly*
 
-### Scripting
+### Tworzenie skryptów 
 
 Despite the dragging mode offers nice interactive animations, they are sometimes not precise enough for screencasts or videos. Scripted animations have the advantage that they animate movements and rotations in a defined way. You can for example rotate a part by exactly 10° back and forth. The following examples use an assembly where a part should be rotated. If you try to animate this using the dragging mode, you will see how hard it is to get a back and forth rotation that you can e.g. show your boss in a presentation. With the interactive example script, however, this is an easy task.
 
@@ -355,12 +355,12 @@ It is also possible to change instead of a placement parameter a constraint, for
 
 #### Simple Script Example 
 
-The simplest way to script an animation is a non-interactive animation that follows a defined movement. Here is an example   * First download this assembly file   * [A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and also this Python script   * [A2p\_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97981).
+The simplest way to script an animation is a non-interactive animation that follows a defined movement. Here is an example   * First download this assembly file   * [A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and also this Python script   * [A2p_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97981).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-This is the content of the script and the lines beginning with a \'\#\' describe what the different script lines do   *
+This is the content of the script and the lines beginning with a \'#\' describe what the different script lines do   *
 
 
 <div class="mw-collapsible-content">
@@ -431,7 +431,7 @@ The first script example demonstrated how to create an animation without any use
 
 This can be done by using a custom animation dialog with a slider. By moving the slider you can set the rotation angle and therefore rotate back and forth at interesting position.
 
-We use the same assembly file   * [A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and this Python script   * [A2p\_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97982).
+We use the same assembly file   * [A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and this Python script   * [A2p_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97982).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

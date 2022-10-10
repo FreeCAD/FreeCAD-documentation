@@ -10,7 +10,7 @@
 # Adding a new mouse navigation option to FreeCAD
 
 
-**This tutorial is still a WIP. Feel free to help improve it**
+
 
 
 

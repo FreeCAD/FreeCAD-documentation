@@ -19,14 +19,26 @@ Das Werkzeug Verbinden verbindet die Innenbereiche von zwei Hohlkörpern (z.B. R
 ## Anwendung
 
 1.  Wähle die zu verbindenden Objekte aus.
-    Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt (z.B. Flächen) eine Teilform auszuwählen. Du kannst auch eine Verbindung auswählen, die alle zu verbindenden Formen enthält, z.B. [Draft\_OrthoArray/de/Draft rechtwinklige Anordnung](Draft_OrthoArray/de/Draft_rechtwinklige_Anordnung.md).
+    Die Reihenfolge der Auswahl ist nicht wichtig, da die Wirkung des Werkzeugs symmetrisch ist. Es genügt, von jedem Objekt (z.B. Flächen) eine Teilform auszuwählen. Du kannst auch eine Verbindung auswählen, die alle zu verbindenden Formen enthält, z.B. [Draft_OrthoArray/de/Draft rechtwinklige Anordnung](Draft_OrthoArray/de/Draft_rechtwinklige_Anordnung.md).
 2.  Rufe den Befehl Part FügenVerbinden auf.
     -   Drücke die <img alt="" src=images/Part_JoinConnect.svg  style="width   *24px;"> [Part FügeVerbinden](Part_JoinConnect/de.md)-Schaltfläche in der Part-Werkzeugleiste
     -   Benutze den **Part → Join → Connect objects**-Eintrag im Part-Menü
 
+
+<div class="mw-translate-fuzzy">
+
 Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausgeblendet, und das Ergebnis der Verbindung wird in der [3D Ansicht](3D_view/de.md) angezeigt.
 
+
+</div>
+
 ## Eigenschaften
+
+
+{{TitleProperty|Connect}}
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{TitleProperty|Verbindung}}
@@ -36,6 +48,9 @@ Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausge
 -    {{PropertyData/de|Verfeinern}}   * Legt fest, ob die Operation [Verfeinern](Part_RefineShape/de.md) auf die endgültige Form angewendet werden soll oder nicht. Der Standardwert wird durch ein Kontrollkästchen \'Form nach boolescher Operation automatisch verfeinern\' in den PartDesign Einstellungen bestimmt.
 
 -    {{PropertyData/de|Toleranz}}   * \"Unschärfe\" Wert. Dies ist eine zusätzliche Toleranz, die bei der Suche nach Schnittmengen zusätzlich zu den in den Eingabeformen gespeicherten Toleranzen anzuwenden ist.
+
+
+</div>
 
 ## Beispiel
 
@@ -48,11 +63,25 @@ Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausge
 4.  Verwende ein Querschnittswerkzeug ([Ausschnittebene](Std_ToggleClipPlane/de.md), [Arch Abschnittebene](Arch_SectionPlane/de.md), [Arch Schneideebene](Arch_CutPlane/de.md)), um Einbauten freizulegen. Auf dem Bild unten wird die Bogenschnittebene verwendet.
     ![320px](images/JoinFeatures_Example_step4_Connect.png)
 
+## Algorithm
+
+
+<div class="mw-translate-fuzzy">
+
 ## Algorithmus
 
 Die Algorithmen hinter den Fügewerkzeugen sind recht einfach, und es ist wichtig, sie zu verstehen, um die Werkzeuge richtig zu verwenden. Insbesondere der Algorithmus von Verbinden ist etwas komplexer als andere, aber es genügt im Allgemeinen, ihn als symmetrische Variante von [Algorithmus einbetten](Part_JoinEmbed#Algorithm/de.md) zu betrachten.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 1\. Jedes Objekt wird durch Überschneidungen mit anderen Objekten in Stücke zerlegt. (siehe [Part Boolsche Fragmente](Part_BooleanFragments.md))
+
+
+</div>
 
 2\. Von den Teilen eines Objekts wird nur das größte beibehalten; alle anderen werden entfernt.
 
@@ -67,7 +96,13 @@ Die Algorithmen hinter den Fügewerkzeugen sind recht einfach, und es ist wichti
 
 ## Skripten
 
+
+<div class="mw-translate-fuzzy">
+
 Die Fügewerkzeuge können in [macros/de](macros/de.md) und von der Python-Konsole aus mit der folgenden Funktion verwendet werden   *
+
+
+</div>
 
 **BOPTools.JoinFeatures.makeConnect(name)**
 
@@ -80,17 +115,16 @@ Verbinden kann auch auf einfache Formen angewendet werden, ohne dass ein Dokumen
 
 Dies kann nützlich sein, um benutzerdefinierte Python Skriptfunktionen zu erstellen.
 
-Beispiel   * {{code|code=
+Beispiel   *
+
+
+{{code|code=
 import Part
 j = Part.BOPTools.JoinFeatures.makeConnect(name= 'Connect')
 j.Objects = FreeCADGui.Selection.getSelection()
-}} Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/BOPTools/JoinFeatures.py** ([GitHub link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
+}}
 
-## Geschichte
-
-Das Werkzeug wurde in FreeCAD v0.16.5069 eingeführt.
-
-Das Werkzeug wurde neu implementiert, um über generalFuse in FreeCAD v0.17.8053 zu arbeiten.
+Das Werkzeug selbst ist in Python implementiert, siehe **/Mod/Part/BOPTools/JoinFeatures.py** ([GitHub link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/BOPTools/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
 
 
 

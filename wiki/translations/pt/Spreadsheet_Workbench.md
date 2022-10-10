@@ -96,14 +96,14 @@ As indicated by the tabs, the following properties can be changed   *
 
 ## Cell expressions 
 
-A spreadsheet cell may contain arbitrary text or an expression. Technically, expressions must start with an equals \'=\' sign. However, the spreadsheet attempts to be intelligent; if you enter what looks like an expression without the leading \'=\', one will be added automatically.
+A spreadsheet cell may contain a number, a text or an expression. Expressions must start with an equal sign \'=\'.
 
-Cell expressions may contain numbers, functions, references to other cells, and references to properties of the model (But see [Current limitations](#Current_limitations.md) below). Cells are referenced by their column (CAPITAL letter) and row (number). A cell may also be referenced by its [alias-name](#alias_name.md). Example   * B4 + A6
+Cell expressions may contain numbers, functions, references to other cells, and references to properties of the model (But see [Current limitations](#Current_limitations.md) below). A cell can be referenced by its address (CAPITAL column letter + row number, e.g. B4) or by its [alias](Spreadsheet_SetAlias.md).
 
-**Note   *** Cell expressions are treated by FreeCAD as programming code. Therefore, when you edit a cell the content you see that it is not following your display settings   *
+**Note   *** Cell expressions are treated by FreeCAD as programming code. Therefore, when you edit a cell the content you see may not follow your display settings   *
 
--   the decimal separator is always a dot
--   the number of displayed decimals can differ from your [preferences settings](Preferences_Editor#Units.md)
+-   The decimal separator is always a dot. But commas can also be used when entering values.
+-   The number of displayed decimals can differ from your [preferences settings](Preferences_Editor#Units.md).
 
 References to objects in the model are explained under [References to CAD-data](#References_to_CAD-data.md) below. Using spreadsheet cell values to define model properties are explained under [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below. For more information on expressions and the available functions, see [Expressions](Expressions.md).
 
@@ -115,9 +115,9 @@ Similarly, properties from CAD model objects may be used in expressions in sprea
 
 More than one spreadsheet may be used in a document. A spreadsheet can be identified using either its name or its label.
 
-FreeCAD will automatically assign a unique name to a spreadsheet when it is created. These names follow the pattern `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` and so on. The name can not be changed manually, and it is not visible in the properties of the spreadsheet. It can be used to refer to the spreadsheet in an [Expression](Expressions.md) (see [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below.)
+FreeCAD will automatically assign a unique name to a spreadsheet when it is created. These names follow the pattern `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` and so on. The name can not be changed, and it is not visible in the properties of the spreadsheet. It can be used to refer to the spreadsheet in an [Expression](Expressions.md) (see [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below.)
 
-The label of a spreadsheet is automatically set to the name of the spreadsheet upon creation. Unlike the name, the label can be changed, for example in the properties panel or using the context menu action Rename. Note that the label of a spreadsheet within a document has to be unique; if you try to change the label to a label already used by another spreadsheet, FreeCAD will not accept the new label.
+The label of a spreadsheet is automatically set to the name of the spreadsheet upon creation. Unlike the name, the label can be changed, for example in the properties panel or using the context menu action Rename. By default FreeCAD does not accept duplicate labels, but there is a [preference](Preferences_Editor#Document.md) to override this. Spreadsheets with duplicate labels in the same document cannot be referenced by their label.
 
 FreeCAD checks for cyclic dependencies. See [Current limitations](Spreadsheet_Workbench#Current_limitations.md).
 
@@ -125,24 +125,31 @@ FreeCAD checks for cyclic dependencies. See [Current limitations](Spreadsheet_Wo
 
 As indicated above, one can reference data from the CAD model in spreadsheet expressions.
 
-Computed expressions in spreadsheet cells start with an equals (\'=\') sign. However, the spreadsheet entry mechanism attempts to be smart. An expression may be entered without the leading \'=\'; if the string entered is a valid expression, an \'=\' is automatically added when the final **Enter** is typed. If the string entered is not a valid expression (often the result of entering something with the wrong case, e.g. \"MyCube.length\" instead of \"MyCube.Length\"), no leading \'=\' is added and it is treated as simply a text string.
-
-**Note   *** The above behavior (auto insert of \'=\') has some unpleasant ramifications   *
-
--   If you want to keep a column of names corresponding to the [alias-names](#alias_name.md) in an adjacent column of values, you must enter the name in the label column *before* giving the cell in the value column its alias-name. Otherwise, when you enter the alias-name in the label column the spreadsheet will assume it is an expression and change it to \"=\"; and the displayed text will be the value from the  cell.
--   If you make an error when entering the name in the label column and wish to correct it, you cannot simply change it to the alias-name. Instead, you must first change the alias-name to something else, then fix the text name in the label column, then change the alias-name in the value column back to its original.
-
-One way to side-step these issues is to prefix text labels corresponding to alias-names with a fixed string, thereby making them different. Note that \"\_\" will not work, as it is converted to \"=\". However, a blank, while invisible, will work.
-
 The following table shows some examples assuming the model has a feature named \"MyCube\"   *
 
-  CAD-Data                                     Cell in Spreadsheet            Result
-    
-  Parametric Length of a Part-Workbench Cube   =MyCube.Length                 Length with units mm
-  Volume of the Cube                           =MyCube.Shape.Volume           Volume in mm³ without units
-  Type of the Cube-shape                       =MyCube.Shape.ShapeType        String   * Solid
-  Label of the Cube                            =MyCube.Label                  String   * MyCube
-  x-coordinate of center of mass of the Cube   =MyCube.Shape.CenterOfMass.x   x-coordinate in mm without units
+++++
+| CAD-Data                                       | Cell in Spreadsheet                                      | Result                         |
++================================================+==========================================================+================================+
+| Parametric Length of a Part-Workbench Cube     |                                           | Length with units mm           |
+|                                                | {{Incode|<nowiki>=MyCube.Length</nowiki>}}               |                                |
+|                                                |                                                       |                                |
+++++
+| Volume of the Cube                             |                                           | Volume in mm³ without units    |
+|                                                | {{Incode|<nowiki>=MyCube.Shape.Volume</nowiki>}}         |                                |
+|                                                |                                                       |                                |
+++++
+| Type of the Cube-shape                         |                                           | String   * Solid                  |
+|                                                | {{Incode|<nowiki>=MyCube.Shape.ShapeType</nowiki>}}      |                                |
+|                                                |                                                       |                                |
+++++
+| Label of the Cube                              |                                           | String   * MyCube                 |
+|                                                | {{Incode|<nowiki>=MyCube.Label</nowiki>}}                |                                |
+|                                                |                                                       |                                |
+++++
+| X coordinate of the center of mass of the Cube |                                           | Coordinate in mm without units |
+|                                                | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                                |
+|                                                |                                                       |                                |
+++++
 
 ### Spreadsheet data in expressions 
 
@@ -163,7 +170,7 @@ In order to use spreadsheet data in other parts of FreeCAD, you will usually cre
 
 <div class="mw-collapsible mw-collapsed">
 
-The recommended way to refer to spreadsheet data is to use the spreadsheet label and cell alias name. For a more in-depth explanation of the pros and cons of the addressing modes, see the expanded section below.
+The recommended way to refer to spreadsheet data is to use the spreadsheet label and cell alias name. For a more in-depth explanation of the pros and cons of the referencing modes, see the expanded section below.
 
 
 <div class="mw-collapsible-content">
@@ -172,7 +179,7 @@ Using the spreadsheet label has the advantage that it can be freely changed to d
 
 Be aware that when you create a new spreadsheet, the name and the label are the same, so it is easy to accidentally use the spreadsheet name instead of the label. A simple way to avoid this is to give the spreadsheet a meaningful name before starting to use it in expressions.
 
-While you may use the row and column number in an expression to reference a cell, best practice is to give the cell an alias name and use that. See [Cell Properties](#Cell_Properties.md) above on how to set the alias. For example, if the data in cell B1 contained the length parameter for an object, an alias name of `MyObject_Length` would allow the value to be referred to as `<<MyParams>>.MyObject_Length` instead of `Spreadsheet.B1`. Besides being much easier to read and understand, alias names are also much easier to change if you decide to adjust the structure of your spreadsheet. Using an alias also has the advantage that it is reasier to see which cells are used to control other parts of the document. Note that FreeCAD will automatically adjust the positional references in expressions if you insert or remove rows and columns in the spreadsheet, so even if you use row and column numbers in an expression, you can insert rows and columns without breaking the references to the surrounding cells.
+While you may use the row and column number in an expression to reference a cell, best practice is to give the cell an alias name and use that. See [Cell properties](#Cell_properties.md) on how to set the alias. For example, if the data in cell B1 contained the length parameter for an object, an alias name of `MyObject_Length` would allow the value to be referred to as `<<MyParams>>.MyObject_Length` instead of `Spreadsheet.B1`. Besides being much easier to read and understand, alias names are also much easier to change if you decide to adjust the structure of your spreadsheet. Using an alias also has the advantage that it is reasier to see which cells are used to control other parts of the document. Note that FreeCAD will automatically adjust the positional references in expressions if you insert or remove rows and columns in the spreadsheet, so even if you use row and column numbers in an expression, you can insert rows and columns without breaking the references to the surrounding cells.
 
 
 </div>
@@ -206,7 +213,7 @@ The Spreadsheet has a notion of dimension (units) associated with cell values. A
 
 If a cell contains a value which represents a dimension, it should be entered with its associated unit. While in many simple cases one can get by with a dimensionless value, it is unwise to not enter the unit. If a value representing a dimension is entered without its associated unit, there are some sequences of operations which cause FreeCAD to complain of incompatible units in an expression when it appears the expression should be valid. (This may be better understood by viewing [this thread](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) in the FreeCAD forums.)
 
-You can change the units displayed for a cell value using the properties dialog [units tab](#units_tab.md) (above). This does not change the value contained in the cell; it only converts the existing value for display. The value used for calculations does not change, and the results of formulas using the value do not change. For example, a cell containing the value \"5.08cm\" can be displayed as \"2in\" by changing the units tab value to \"in\".
+You can change the units displayed for a cell value using the [Cell properties dialog](#Cell_properties.md). This does not change the value contained in the cell; it only converts the existing value for display. The value used for calculations does not change, and the results of formulas using the value do not change. For example, a cell containing the value \"5.08cm\" can be displayed as \"2in\" by changing the units tab value to \"in\".
 
 A dimensionless number cannot be changed to a number with a unit by the cell properties dialog. One can put in a unit string, and that string will be displayed; but the cell still contains a dimensionless number. In order to change a dimensionless value to a value with a dimension, the value itself must be re-entered with its associated unit.
 

@@ -11,6 +11,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -21,9 +23,9 @@ Dieses Werkzeug schaltet die Sichtbarkeit aller Messungen in der [3D Ansicht](3D
 
 </div>
 
-![](images/MeasureLinear3DandDelta1.PNG )
+<img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width   *400px;">
 
-## Anwendung
+## Usage
 
 
 <div class="mw-translate-fuzzy">

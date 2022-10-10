@@ -44,7 +44,7 @@ All work in Part Design begins with a [Body](Glossary#Body.md). Then we will bui
 *Note   * this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
 2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**   *
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ_Plane** in the list and press **OK**   *
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
@@ -62,7 +62,7 @@ Next you will want to use the <img alt="" src=images/Sketcher_CreatePolyline.svg
 
 1.  Select the two horizontal lines with your mouse by clicking on them, and once selected, click on the <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width   *24px;"> [horizontal constraint](Sketcher_ConstrainHorizontal.md).
 2.  Select the vertical line on the right and then click on the <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width   *24px;"> [vertical constraint](Sketcher_ConstrainVertical.md).
-3.  Select the start and end points of your polyline and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> \[Sketcher\_ConstrainCoincident\|coincident constraint\]\] to close the polyline.
+3.  Select the start and end points of your polyline and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [coincident constraint](Sketcher_ConstrainCoincident.md) to close the polyline.
 4.  Select the bottom horizontal line and the right vertical line and apply and <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width   *24px;"> [equal constraint](Sketcher_ConstrainEqual.md).
 5.  Select either the horizontal or vertical line and apply either a corresponding <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width   *24px;"> [horizontal distance constraint](Sketcher_ConstrainDistanceX.md) or <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width   *24px;"> [vertical distance constraint](Sketcher_ConstrainDistanceX.md) and give it a value of 26 mm.
 6.  Select the top horizontal line and apply the horizontal distance constraint and give it a value of 5 mm
@@ -92,7 +92,7 @@ After the face is selected, click on the New sketch icon in the toolbar or from 
 ![](images/tut17_slot_unconstrained.png )
 
 1.  Right click to end the External geometry mode
-2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the coincident constraint. At this point the sketch should be fully constrained and look like the next image.
+2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Coinstrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
 
 ![](images/tut17_slote_constrained.png )
 

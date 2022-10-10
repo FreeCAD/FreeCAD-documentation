@@ -6,13 +6,7 @@
 
 La [Vista 3D](3D_view/it.md) di FreeCAD è un\'istanza di una [scena grafica](Scenegraph/it.md) di Coin3D che costituisce la finestra più importante dell\'[interfaccia](interface/it.md) . Coin3D è una libreria che implementa lo standard di descrizione della scena OpenInventor 2.1.
 
-
-<div class="mw-translate-fuzzy">
-
-Alcune proprietà della vista, come il colore di sfondo, lo stile di [navigazione con il mouse](Mouse_Model/it.md) e i passi dello zoom, possono essere configurate con l\'[editor delle preferenze](Preferences_Editor/it.md).
-
-
-</div>
+Alcune proprietà della vista, come il colore di sfondo, lo stile di [navigazione con il mouse](Mouse_navigation/it.md) e i passi dello zoom, possono essere configurate con l\'[editor delle preferenze](Preferences_Editor/it.md).
 
 <img alt="" src=images/FreeCAD_3D_view.png  style="width   *600px;">
 
@@ -29,15 +23,9 @@ Azioni link {{Version/it|0.19}}.
 
 Poiché la [vista ad albero](tree_view/it.md) elenca la maggior parte degli oggetti che sono visibili nella vista 3D, molte delle azioni sono uguali a quelle che possono essere eseguite dalla [vista ad albero](tree_view/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
 Quando è attivo l\'ambiente predefinito [Start](Start_Workbench/it.md), il clic destro sulla vista 3D mostra un solo comando   *
 
--    **[Stile di navigazione](Mouse_Model/it.md)**   * permette di scegliere lo stile dei pulsanti da utilizzare con un mouse a 3 pulsanti o un trackpad per laptop.
-
-
-</div>
+-    **[Stile di navigazione](Mouse_navigation/it.md)**   * permette di scegliere lo stile dei pulsanti da utilizzare con un mouse a 3 pulsanti o un trackpad per laptop.
 
 Dopo aver caricato un [Ambiente di lavoro](Workbenches/it.md), sono disponibili comandi aggiuntivi   *
 

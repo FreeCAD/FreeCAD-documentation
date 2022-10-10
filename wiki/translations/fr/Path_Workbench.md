@@ -38,7 +38,7 @@ L\'atelier Path possède des dépendances externes, notamment    *
 Certaines limitations actuelles dont vous devez être conscient    *
 
 -   La plupart des outils de Path ne sont pas de véritables outils 3D mais uniquement compatibles 2.5D. Cela signifie qu\'ils prennent une forme 2D fixe et peuvent la découper à une profondeur donnée. Cependant, il existe deux outils qui produisent de véritables chemins 3D   * **<img src="images/Path_3DPocket.svg" width=24px> [Évidement 3D](Path_Pocket_3D/fr.md)** et **<img src="images/Path_Surface.svg" width=24px> [Surface](Path_Surface/fr.md)** (qui est toujours une [fonction expérimentale](Path_experimental/fr.md) en novembre 2020).
--   La plupart des ateliers Path sont conçus pour une fraiseuse/routeur CNC standard à 3 axes (xyz) simple, mais les outils de tour sont en cours de développement dans la version 0.19\_pre.
+-   La plupart des ateliers Path sont conçus pour une fraiseuse/routeur CNC standard à 3 axes (xyz) simple, mais les outils de tour sont en cours de développement dans la version 0.19_pre.
 -   La plupart des opérations dans l\'atelier Path renverront des chemins basés sur un outil/un trépan de fraise standard uniquement, quel que soit le type d\'outil/trépan affecté dans un contrôleur d\'outil donné, à l\'exception de **![](images/)_[Gravure](Path_Engrave/fr.md)** et **<img src="images/Path_Surface.svg" width=24px> [Surface](Path_Surface/fr.md)**.
 -   Les opérations effectuées dans l\'atelier Path ne connaissent pas les mécanismes de serrage utilisés pour fixer le modèle à votre machine. Par conséquent, veuillez vérifier et simuler les chemins que vous générez avant d\'envoyer le code à votre machine. Si nécessaire, modélisez vos mécanismes de serrage dans FreeCAD afin de mieux inspecter les chemins générés. Recherchez les éventuelles collisions avec les fixations ou autres obstacles le long des trajectoires.
 
@@ -61,11 +61,11 @@ Sortie    *
 2.  L\'unité de sortie de la machine n\'a aucun lien avec le schéma de votre unité sélectionnée
 3.  Les post-processeurs produisent une sortie métrique (G21), une sortie impériale (G20) ou sont configurables.
 4.  Post-processeurs configurables par défaut à la mesure (G21)
-5.  Si vous voulez que votre post-processeur configurable produise un gcode impérial (G20), placez l\'argument correct dans votre config de sortie de travail (ie \--inches pour [linuxcnc](http   *//linuxcnc.org/)). Cela peut être stocké dans un modèle de travail et défini comme modèle par défaut pour le rendre automatique pour tous les travaux futurs
+5.  Si vous voulez que votre post-processeur configurable produise un gcode impérial (G20), placez l\'argument correct dans votre config de sortie de travail (ie \--inches pour linuxcnc). Cela peut être stocké dans un modèle de travail et défini comme modèle par défaut pour le rendre automatique pour tous les travaux futurs
 
 Path Inspection    *
 
-1.  Si vous utilisez l\'outil Path Inspect pour regarder le g-code, vous le verrez en \'mm/s\' car il n\'est pas post-traité
+1.  Si vous utilisez l\'outil Path Inspection pour regarder le G-code, vous le verrez en \"mm/s\" car il n\'est pas post-traité.
 
 ## Hauteurs et profondeurs 
 
@@ -80,99 +80,101 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 ### Commandes du projet 
 
--   <img alt="" src=images/Path_Job.svg  style="width   *32px;"> [Tâche](Path_Job/fr.md)    * Crée une nouvelle tâche CNC.
+-   <img alt="" src=images/Path_Job.svg  style="width   *32px;"> [Tâche](Path_Job/fr.md)    * crée une nouvelle tâche CNC.
 
--   <img alt="" src=images/Path_Post.svg  style="width   *32px;"> [Post-traitement](Path_Post/fr.md)    * Exporte un projet en G-code.
+-   <img alt="" src=images/Path_Post.svg  style="width   *32px;"> [Post-traitement](Path_Post/fr.md)    * exporte un projet en G-code.
 
--   <img alt="" src=images/Path_Sanity.svg  style="width   *32px;"> [Rechercher des erreurs](Path_Sanity/fr.md)    * Vérifie les valeurs manquantes dans la tâche sélectionnée. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Sanity.svg  style="width   *32px;"> [Rechercher des erreurs](Path_Sanity/fr.md)    * vérifie les valeurs manquantes dans la tâche sélectionnée. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
--   <img alt="" src=images/Path_ExportTemplate.svg  style="width   *32px;"> [Modèle d\'exportation](Path_ExportTemplate/fr.md)    * Exporte la tâche en cours en tant que modèle.
+-   <img alt="" src=images/Path_ExportTemplate.svg  style="width   *32px;"> [Modèle d\'exportation](Path_ExportTemplate/fr.md)    * exporte la tâche en cours en tant que modèle.
 
 ### Commandes d\'outils 
 
--   <img alt="" src=images/Path_Inspect.svg  style="width   *32px;"> [Inspecter commandes de trajectoire](Path_Inspect/fr.md)   * Affiche le G-code pour vérification.
+-   <img alt="" src=images/Path_Inspect.svg  style="width   *32px;"> [Inspecter commandes de trajectoire](Path_Inspect/fr.md)    * affiche le G-code pour vérification.
 
--   <img alt="" src=images/Path_Simulator.svg  style="width   *32px;"> [Simulateur FAO](Path_Simulator/fr.md)    * Montre l\'opération d\'usinage comme le ferait la machine.
+-   <img alt="" src=images/Path_Simulator.svg  style="width   *32px;"> [Simulateur FAO](Path_Simulator/fr.md)    * montre l\'opération d\'usinage comme le ferait la machine.
 
--   <img alt="" src=images/Path_SelectLoop.svg  style="width   *32px;"> [Terminer une boucle](Path_SelectLoop/fr.md)    * Complète une boucle à partir de deux arêtes sélectionnées.
+-   <img alt="" src=images/Path_SelectLoop.svg  style="width   *32px;"> [Terminer une boucle](Path_SelectLoop/fr.md)    * complète une boucle à partir de deux arêtes sélectionnées.
 
--   <img alt="" src=images/Path_OpActiveToggle.svg  style="width   *32px;"> [Activation de l\'opération](Path_OpActiveToggle/fr.md)    * Utilisé pour activer ou désactiver une opération d\'usinage.
+-   <img alt="" src=images/Path_OpActiveToggle.svg  style="width   *32px;"> [Activation de l\'opération](Path_OpActiveToggle/fr.md)    * utilisé pour activer ou désactiver une opération d\'usinage.
 
--   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width   *32px;"> [Gestionnaire des outils coupants](Path_ToolBitLibraryOpen/fr.md)    * Ouvre un éditeur pour gérer les bibliothèques des outils coupants. {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width   *32px;"> [Gestionnaire des outils coupants](Path_ToolBitLibraryOpen/fr.md)    * ouvre un éditeur pour gérer les bibliothèques des outils coupants. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Path_ToolBitDock.svg  style="width   *32px;"> [Sélecteur d\'outils coupants](Path_ToolBitDock/fr.md)    * Active le menu sélecteur des outils coupants. {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_ToolBitDock.svg  style="width   *32px;"> [Sélecteur d\'outils coupants](Path_ToolBitDock/fr.md)    * active le menu du sélecteur des outils coupants. {{Version/fr|0.19}}
 
 ### Opérations de base 
 
 -   <img alt="" src=images/Path_Profile.svg  style="width   *32px;"> [Profil](Path_Profile/fr.md)    * crée une opération de profil de l\'ensemble du modèle ou à partir d\'une ou plusieurs faces ou arêtes sélectionnées. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Path_Pocket_Shape.svg  style="width   *32px;"> [Poche](Path_Pocket_Shape/fr.md)    * Crée une opération de poche à partir d\'une ou de plusieurs poches sélectionnées.
+-   <img alt="" src=images/Path_Pocket_Shape.svg  style="width   *32px;"> [Poche](Path_Pocket_Shape/fr.md)    * crée une opération de poche à partir d\'une ou de plusieurs poches sélectionnées.
 
--   <img alt="" src=images/Path_Drilling.svg  style="width   *32px;"> [Perçage](Path_Drilling/fr.md)    * Effectue un cycle de perçage.
+-   <img alt="" src=images/Path_Drilling.svg  style="width   *32px;"> [Perçage](Path_Drilling/fr.md)    * effectue un cycle de perçage.
 
--   <img alt="" src=images/Path_Face.svg  style="width   *32px;"> [Surfaçage](Path_MillFace/fr.md)    * Crée un parcours de surfaçage.
+-   <img alt="" src=images/Path_Face.svg  style="width   *32px;"> [Surfaçage](Path_MillFace/fr.md)    * crée un parcours de surfaçage.
 
--   <img alt="" src=images/Path_Helix.svg  style="width   *32px;"> [Parcours hélicoïdal](Path_Helix/fr.md)    * Crée un parcours hélicoïdal.
+-   <img alt="" src=images/Path_Helix.svg  style="width   *32px;"> [Parcours hélicoïdal](Path_Helix/fr.md)    * crée un parcours hélicoïdal.
 
--   <img alt="" src=images/Path_Adaptive.svg  style="width   *32px;"> [Adaptation](Path_Adaptive/fr.md)    * Crée une opération adaptatif de compensation et de profilage.
+-   <img alt="" src=images/Path_Adaptive.svg  style="width   *32px;"> [Adaptation](Path_Adaptive/fr.md)    * crée une opération adaptatif de compensation et de profilage.
 
 -   <img alt="" src=images/Path_Slot.svg  style="width   *32px;"> [Rainure](Path_Slot/fr.md)    * crée une opération de rainurage à partir d\'entités sélectionnées ou de points personnalisés. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
--   <img alt="" src=images/Path_Engrave.svg  style="width   *32px;"> [Gravure](Path_Engrave/fr.md)    * Crée un parcours de gravure.
+-   <img alt="" src=images/Path_Engrave.svg  style="width   *32px;"> [Gravure](Path_Engrave/fr.md)    * crée un parcours de gravure.
 
--   <img alt="" src=images/Path_Vcarve.svg  style="width   *32px;"> [Gravure en V](Path_Vcarve/fr.md)    * Crée un parcours d\'usinage en utilisant une forme d\'outil en V. {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Deburr.svg  style="width   *32px;"> [Ebavurage](Path_Deburr/fr.md)    * crée un parcours d\'ébavurage.
+
+-   <img alt="" src=images/Path_Vcarve.svg  style="width   *32px;"> [Gravure en V](Path_Vcarve/fr.md)    * crée un parcours d\'usinage en utilisant une forme d\'outil en V. {{Version/fr|0.19}}
 
 ### Opérations 3D 
 
--   <img alt="" src=images/Path_3DPocket.svg  style="width   *32px;"> [Évidement 3D](Path_Pocket_3D/fr.md)    * Crée un parcours d\'usinage pour une poche 3D.
+-   <img alt="" src=images/Path_3DPocket.svg  style="width   *32px;"> [Évidement 3D](Path_Pocket_3D/fr.md)    * crée un parcours d\'usinage pour une poche 3D.
 
--   <img alt="" src=images/Path_Surface.svg  style="width   *32px;"> [Surface](Path_Surface/fr.md)    * Crée un parcours d\'usinage pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Surface.svg  style="width   *32px;"> [Surface](Path_Surface/fr.md)    * crée un parcours d\'usinage pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
--   <img alt="" src=images/Path_Waterline.svg  style="width   *32px;"> [Contour par lignes de niveau](Path_Waterline/fr.md)    * Crée un tracé défini par lignes de niveau pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Waterline.svg  style="width   *32px;"> [Contour par lignes de niveau](Path_Waterline/fr.md)    * crée un tracé défini par lignes de niveau pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
 ### Finitions de parcours 
 
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width   *32px;"> [Limitation de zones](Path_DressupPathBoundary/fr.md)    * Ajoute une finition aux limites à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width   *32px;"> [Limitation de zones](Path_DressupPathBoundary/fr.md)    * ajoute une finition aux limites à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupDogbone.svg  style="width   *32px;"> [Dégagement des angles](Path_DressupDogbone/fr.md)    * Ajoute une finition pour l\'usinage des coins à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupDogbone.svg  style="width   *32px;"> [Dégagement des angles](Path_DressupDogbone/fr.md)    * ajoute une finition pour l\'usinage des coins à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupDragKnife.svg  style="width   *32px;"> [Lame rotative](Path_DressupDragKnife/fr.md)    * Ajoute une finition pour lame rotative à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupDragKnife.svg  style="width   *32px;"> [Lame rotative](Path_DressupDragKnife/fr.md)    * ajoute une finition pour lame rotative à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width   *32px;"> [Trajectoire entrée/sortie](Path_DressupLeadInOut/fr.md)    * Ajoute un point d\'entrée et/ou de sortie à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width   *32px;"> [Trajectoire entrée/sortie](Path_DressupLeadInOut/fr.md)    * ajoute un point d\'entrée et/ou de sortie à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupRampEntry.svg  style="width   *32px;"> [Rampe d\'entrée](Path_DressupRampEntry/fr.md)    * Ajoute une finition de rampe d\'entrée d\'usinage à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupRampEntry.svg  style="width   *32px;"> [Rampe d\'entrée](Path_DressupRampEntry/fr.md)    * ajoute une finition de rampe d\'entrée d\'usinage à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupTag.svg  style="width   *32px;"> [Attaches](Path_DressupTag/fr.md)    * Ajoute une finition d\'attache à une trajectoire d\'usinage sélectionnée.
+-   <img alt="" src=images/Path_DressupTag.svg  style="width   *32px;"> [Attaches](Path_DressupTag/fr.md)    * ajoute une finition d\'attache à une trajectoire d\'usinage sélectionnée.
 
 ### Commandes supplémentaires 
 
--   <img alt="" src=images/Path_Fixture.svg  style="width   *32px;"> [Point de fixation](Path_Fixture/fr.md)    * Change la position du point de fixation.
+-   <img alt="" src=images/Path_Fixture.svg  style="width   *32px;"> [Point de fixation](Path_Fixture/fr.md)    * change la position du point de fixation.
 
--   <img alt="" src=images/Path_Comment.svg  style="width   *32px;"> [Commentaire](Path_Comment/fr.md)    * Insère un commentaire dans le G-code d\'un parcours d\'outil.
+-   <img alt="" src=images/Path_Comment.svg  style="width   *32px;"> [Commentaire](Path_Comment/fr.md)    * insère un commentaire dans le G-code d\'un parcours d\'outil.
 
--   <img alt="" src=images/Path_Stop.svg  style="width   *32px;"> [Stop](Path_Stop/fr.md)    * Insère un arrêt complet de la machine.
+-   <img alt="" src=images/Path_Stop.svg  style="width   *32px;"> [Stop](Path_Stop/fr.md)    * insère un arrêt complet de la machine.
 
--   <img alt="" src=images/Path_Custom.svg  style="width   *32px;"> [Personnaliser](Path_Custom/fr.md)    * Insère un G-code personnalisé.
+-   <img alt="" src=images/Path_Custom.svg  style="width   *32px;"> [Personnaliser](Path_Custom/fr.md)    * insère un G-code personnalisé.
 
--   <img alt="" src=images/Path_Shape.svg  style="width   *32px;"> [Parcours à partir de formes](Path_Shape/fr.md)    * Crée un objet parcours d\'usinage à partir d\'un objet Part sélectionné. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Shape.svg  style="width   *32px;"> [Parcours à partir de formes](Path_Shape/fr.md)    * crée un objet parcours d\'usinage à partir d\'un objet Part sélectionné. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
 ### Modification du parcours d\'usinage 
 
--   <img alt="" src=images/Path_Copy.svg  style="width   *32px;"> [Copie opération](Path_Copy/fr.md)    * Crée une copie paramétrique d\'un objet parcours sélectionné.
+-   <img alt="" src=images/Path_Copy.svg  style="width   *32px;"> [Copie opération](Path_Copy/fr.md)    * crée une copie paramétrique d\'un objet parcours sélectionné.
 
--   <img alt="" src=images/Path_Array.svg  style="width   *32px;"> [Réseau](Path_Array/fr.md)    * Crée une copie en réseau en dupliquant un parcours sélectionné.
+-   <img alt="" src=images/Path_Array.svg  style="width   *32px;"> [Réseau](Path_Array/fr.md)    * crée une copie en réseau en dupliquant un parcours sélectionné.
 
--   <img alt="" src=images/Path_SimpleCopy.svg  style="width   *32px;"> [Copie simple](Path_SimpleCopy/fr.md)    * Crée une copie non paramétrique d\'un objet parcours sélectionné.
+-   <img alt="" src=images/Path_SimpleCopy.svg  style="width   *32px;"> [Copie simple](Path_SimpleCopy/fr.md)    * crée une copie non paramétrique d\'un objet parcours sélectionné.
 
 ### Divers
 
--   <img alt="" src=images/Path_Area.svg  style="width   *32px;"> [Surface](Path_Area/fr.md)    * Crée une zone d\'usinage à partir d\'objets sélectionnés. [**Fonctions expérimentales**](Path_experimental/fr.md).
+-   <img alt="" src=images/Path_Area.svg  style="width   *32px;"> [Surface](Path_Area/fr.md)    * crée une zone d\'usinage à partir d\'objets sélectionnés. [**Fonctions expérimentales**](Path_experimental/fr.md).
 
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width   *32px;"> [Plan de travail](Path_Area_Workplane/fr.md)    * Crée une zone d\'usinage plane. [**Fonctions expérimentales**](Path_experimental/fr.md).
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width   *32px;"> [Plan de travail](Path_Area_Workplane/fr.md)    * crée une zone d\'usinage plane. [**Fonctions expérimentales**](Path_experimental/fr.md).
 
 ### Obsolète
 
--   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width   *32px;"> [Gestionnaire d\'outils](Path_ToolLibraryEdit/fr.md)    * Modifier le gestionnaire d\'outils. Système d\'outils \'historiques\'. {{VersionMinus/fr|0.18}}
+-   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width   *32px;"> [Gestionnaire d\'outils](Path_ToolLibraryEdit/fr.md)    * modifier le gestionnaire d\'outils. Système d\'outils \"historiques\". {{VersionMinus/fr|0.18}}
 
 ## Architecture des outils coupants 
 
@@ -186,14 +188,14 @@ Gestion des outils, des forets et de la bibliothèque d\'outils. Basé sur l\'ar
 
 ## Autre
 
--   [Path FAQ](Path_FAQ/fr.md)    * L\'atelier Path partage de nombreux concepts avec d\'autres logiciels de FAO mais possède ses propres particularités. Si quelque chose ne va pas, c\'est un bon point de départ.
--   [Path Feuille de configuration](Path_SetupSheet/fr.md)    * Vous pouvez utiliser une Feuille de configuration pour personnaliser la façon dont les diverses valeurs de propriété pour les opérations sont calculées.
--   [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md)    * Si vous avez une machine spéciale qui ne peut pas utiliser l\'un des post-processeurs disponibles, vous pouvez avoir besoin d\'écrire votre propre post-processeur.
--   [Path Quatrième axe](Path_fourth_axis/fr.md)    * Fraisage expérimental sur quatre axes.
+-   [Path FAQ](Path_FAQ/fr.md)    * l\'atelier Path partage de nombreux concepts avec d\'autres logiciels de FAO mais possède ses propres particularités. Si quelque chose ne va pas, c\'est un bon point de départ.
+-   [Path Feuille de configuration](Path_SetupSheet/fr.md)    * vous pouvez utiliser une Feuille de configuration pour personnaliser la façon dont les diverses valeurs de propriété pour les opérations sont calculées.
+-   [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md)    * si vous avez une machine spéciale qui ne peut pas utiliser l\'un des post-processeurs disponibles, vous pouvez avoir besoin d\'écrire votre propre post-processeur.
+-   [Path Quatrième axe](Path_fourth_axis/fr.md)    * fraisage expérimental sur quatre axes.
 
 ## Préférences
 
--   <img alt="" src=images/Preferences-path.svg  style="width   *32px;"> [Préférences\...](Path_Preferences/fr.md)   * Préférences disponibles dans l\'atelier Path.
+-   <img alt="" src=images/Preferences-path.svg  style="width   *32px;"> [Préférences\...](Path_Preferences/fr.md)    * préférences disponibles dans l\'atelier Path.
 
 ## Script
 
@@ -211,7 +213,7 @@ Voir la page [Path Ecrire un script](Path_scripting/fr.md).
 
 ## Feuille de route 
 
--   [Path Plan de développement](Path_Development_Roadmap/fr.md)    * Lisez ceci si vous êtes un développeur et que vous souhaitez contribuer à Path.
+-   [Path Plan de développement](Path_Development_Roadmap/fr.md)    * lisez ceci si vous êtes un développeur et que vous souhaitez contribuer à Path.
 
 
 

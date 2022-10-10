@@ -1,75 +1,76 @@
 ---
-- GuiCommand   *
+- GuiCommand   */pl
    Name   *Mesh VertexCurvature
-   MenuLocation   *Meshes → Curvature plot
-   Workbenches   *[Mesh](Mesh_Workbench.md)
-   SeeAlso   *[Mesh CurvatureInfo](Mesh_CurvatureInfo.md)
+   Name/pl   *Siatka   * Krzywizna siatki
+   MenuLocation   *Siatki → Wykres krzywizny
+   Workbenches   *[Siatka](Mesh_Workbench/pl.md)
+   SeeAlso   *[Informacje o krzywiźnie](Mesh_CurvatureInfo/pl.md)
 ---
 
 # Mesh VertexCurvature/pl
 
-## Description
+## Opis
 
-The **Mesh VertexCurvature** command creates Mesh Curvature objects for mesh objects. A curvature object displays the curvature of a mesh using different colors for the convex, flat and concave parts.
+Polecenie **Wykres krzywizny** tworzy obiekty krzywizny dla obiektów siatki. Obiekt krzywizny wyświetla krzywiznę siatki używając różnych kolorów dla części wypukłej, płaskiej i wklęsłej.
 
 ![](images/Mesh_VertexCurvature_example.png ) 
-*Example of a Mesh Curvature object*
+*Przykład obiektu krzywizny siatki*
 
-## Usage
+## Użycie
 
-1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Mesh VertexCurvature](Mesh_VertexCurvature.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_VertexCurvature.svg" width=16px> Curvature plot** option from the menu.
-    -   Select the **<img src="images/Mesh_VertexCurvature.svg" width=16px> Curvature plot** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
+1.  Wybierz jeden lub więcej obiektów siatki.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Krzywizna siatki](Mesh_VertexCurvature/pl.md)**.
+    -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_VertexCurvature.svg" width=16px> Wykres krzywizny**.
+    -   Wybierz opcję **<img src="images/Mesh_VertexCurvature.svg" width=16px> Wykres krzywizny** z menu podręcznego [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
 
-## Properties
+## Właściwości
 
-For a Mesh Curvature object the following properties are available in the [Property editor](Property_editor.md). Select the **Show all** option from the Property editor context menu to display the hidden properties.
+Dla obiektu krzywizny siatki następujące właściwości są dostępne w [edytorze właściwości](Property_editor/pl.md). Wybierz opcję **Wyświetl wszystko** z menu kontekstowego Edytora właściwości, aby wyświetlić ukryte właściwości.
 
-### Data
-
-
-{{TitleProperty|Base}}
-
--    **Label|String**   * a user editable name for the object, an arbitrary UTF8 string.
-
--    **Source|Link**   * a link to the mesh object.
-
-#### Data hidden 
+### Dane
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
--    **Curv Info|CurvatureList**   * a list of curvature information.
+-    **Etykieta|String**   * edytowalna przez użytkownika nazwa obiektu, dowolny ciąg znaków UTF8.
 
--    **Expression Engine|ExpressionEngine**   * a list of expressions.
+-    **Pochodzenie|Link**   * link do obiektu siatki.
 
--    **Label2|String**   * a user editable description for the object, an arbitrary UTF8 string that may include newlines.
-
--    **Visibility|Bool**   * if set to `True`, the object appears in the [3D view](3D_view.md).
-
-### View
+#### Ukryte dane 
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
--    **Display Mode|Enumeration**   * {{value|Absolute curvature}} (default), {{value|Mean curvature}}, {{value|Gaussian curvature}}, {{value|Maximum curvature}}, {{value|Minimum curvature}}.
+-    **Curv Info|CurvatureList**   * lista informacji o krzywiźnie.
 
--    **On Top When Selected|Enumeration**   * {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
+-    **Expression Engine|ExpressionEngine**   * lista wyrażeń.
 
--    **Selection Style|Enumeration**   * {{value|Shape}}, {{value|BoundBox}} (default).
+-    **Label2|String**   * opis obiektu edytowalny przez użytkownika, dowolny ciąg znaków UTF8, który może zawierać nowe linie.
 
--    **Show In Tree|Bool**   * if set to `True`, the object appears in the [Tree view](Tree_view.md).
+-    **Visibility|Bool**   * jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [widoku 3D](3D_view/pl.md).
 
--    **Visibility|Bool**   * if set to `True`, the object appears in the [3D view](3D_view.md).
-
-#### View hidden 
+### Widok
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
--    **Texture Material|Material**   * an [App Material](App_Material.md) associated with the object.
+-    **Display Mode|Enumeration**   * {{value|Krzywizna bezwzględna}} *(domyślnie)*, {{value|Krzywizna średnia}}, {{value|Krzywizna Gaussa}}, {{value|Krzywizna maksymalna}}, {{value|Krzywizna minimalna}}.
+
+-    **On Top When Selected|Enumeration**   * {{value|Wyłączone}} *(domyślnie)*, {{value|Włączone}}, {{value|Objekt}}, {{value|Element}}.
+
+-    **Selection Style|Enumeration**   * {{value|Kształt}}, {{value|Ramka otaczająca}} *(domyślnie)*.
+
+-    **Show In Tree|Bool**   * jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [Widoku drzewa](Tree_view/pl.md).
+
+-    **Visibility|Bool**   * jeśli opcja jest ustawiona na wartość {{TRUE/pl}}, obiekt pojawi się w oknie [Widoku 3D](3D_view/pl.md).
+
+#### Wyświetl ukryte 
+
+
+{{TitleProperty|Podstawowe}}
+
+-    **Texture Material|Material**   * [Materiał](App_Material/pl.md) związany z obiektem.
 
 
 

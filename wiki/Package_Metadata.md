@@ -53,6 +53,7 @@ The top-level  element must contain at least the following tags   *
 -   [](#.3Ctag.3E.md) (multiple)
 -   [](#.3Cfreecadmin.3E.md)
 -   [](#.3Cfreecadmax.3E.md)
+-   [](#.3Cpythonmin.3E.md)
 
 ###  
 
@@ -86,7 +87,7 @@ The name of the person maintaining the package. All packages require a maintaine
 
 #### Attributes 
 
--   email=\"name\@domain.tld\" (required)   * Email address of the maintainer.
+-   email=\"name@domain.tld\" (required)   * Email address of the maintainer.
 
 An orphaned package is one with no current maintainer. Orphaned packages should use the following maintainer information   *
 
@@ -100,7 +101,7 @@ An orphaned package is one with no current maintainer. Orphaned packages should 
 
 AT LEAST ONE REQUIRED (multiple allowed)
 
-Name of license for this package, e.g. BSD, GPL, LGPL. In order to assist machine readability, only include the license name in this tag. For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
+Name of license for this package, e.g. BSD, GPL, LGPL. In order to assist machine readability, only include the license\'s SPDX short identifier (documented by OSI at [their site](https   *//opensource.org/licenses/alphabetical)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
 
 Most common open-source licenses are described on the [OSI website](https   *//opensource.org/licenses/alphabetical).
 
@@ -109,28 +110,31 @@ Commonly-used license strings   *
 -    `"Apache-2.0"`
     
 
--    `"BSD"`
+-    `"BSD-2-Clause"`
     
 
--    `"Boost Software License"`
+-    `"BSD-3-Clause"`
     
 
--    `"GPLv2"`
+-    `"BSL-1.0"`
     
 
--    `"GPLv3"`
+-    `"GPL-2"`
     
 
--    `"LGPLv2.1"`
+-    `"GPL-3"`
     
 
--    `"LGPLv3"`
+-    `"LGPL-2.1"`
+    
+
+-    `"LGPL-3"`
     
 
 -    `"MIT"`
     
 
--    `"Mozilla Public License Version 1.1"`
+-    `"MPL-1.1"`
     
 
 -    `"CC0v1"`(Public Domain dedication)
@@ -225,7 +229,7 @@ It is a good idea to include  tags pointing users to your package\'s online reso
 
 #### Attributes 
 
--   type=\"TYPE\" (required)   * The type should be one of the following identifiers   * \"website\", \"bugtracker\", \"repository\", \"readme\", or \"documentation\".
+-   type=\"TYPE\" (required)   * The type should be one of the following identifiers   * \"website\", \"bugtracker\", \"repository\", \"readme\", \"documentation\", or \"discussion\".
 -   branch=\"BRANCH\" (required for type=\"repository\")   * The name of the branch to check out to obtain this package. Typically the name of your main development branch. May also specify any other type of git reference, e.g. a tag or specific commit.
 
 ###  
@@ -236,7 +240,7 @@ The name of a person who is an author of the package, as acknowledgement of thei
 
 #### Attributes 
 
--   email=\"name\@domain.tld\" (optional)   * Email address of author.
+-   email=\"name@domain.tld\" (optional)   * Email address of author.
 
 ###  
 
@@ -248,12 +252,14 @@ Declares a dependency on another FreeCAD Addon or internal workbench, or Python 
 
 All dependencies and relationships may restrict their applicability to particular versions. For each comparison operator an attribute can be used. Two of these attributes can be used together to describe a version range.
 
--   version\_lt=\"VERSION\" (optional)   * The dependency to the package is restricted to versions less than the stated version number.
--   version\_lte=\"VERSION\" (optional)   * The dependency to the package is restricted to versions less or equal than the stated version number.
--   version\_eq=\"VERSION\" (optional)   * The dependency to the package is restricted to a version equal than the stated version number.
--   version\_gte=\"VERSION\" (optional)   * The dependency to the package is restricted to versions greater or equal than the stated version number.
--   version\_gt=\"VERSION\" (optional)   * The dependency to the package is restricted to versions greater than the stated version number.
--   condition=\"CONDITION\_EXPRESSION\"   * Every dependency can be conditional on a condition expression. If the condition expression evaluates to \"true\" the dependency is used and considered as if it doesn\'t have a condition attribute. If the condition expression evaluates to \"false\" the dependency is ignored and considered as if it doesn\'t exist. The expression must be a valid FreeCAD Expression (i.e. Python syntax), and may refer to the variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", and \"\$BuildRevision\" representing the version of FreeCAD currently running.
+-   version_lt=\"VERSION\" (optional)   * The dependency to the package is restricted to versions less than the stated version number.
+-   version_lte=\"VERSION\" (optional)   * The dependency to the package is restricted to versions less or equal than the stated version number.
+-   version_eq=\"VERSION\" (optional)   * The dependency to the package is restricted to a version equal than the stated version number.
+-   version_gte=\"VERSION\" (optional)   * The dependency to the package is restricted to versions greater or equal than the stated version number.
+-   version_gt=\"VERSION\" (optional)   * The dependency to the package is restricted to versions greater than the stated version number.
+-   condition=\"CONDITION_EXPRESSION\"   * Every dependency can be conditional on a condition expression. If the condition expression evaluates to \"true\" the dependency is used and considered as if it doesn\'t have a condition attribute. If the condition expression evaluates to \"false\" the dependency is ignored and considered as if it doesn\'t exist. The expression must be a valid FreeCAD Expression (i.e. Python syntax), and may refer to the variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", and \"\$BuildRevision\" representing the version of FreeCAD currently running.
+-   optional=\"true\|false\"   * If \"optional\" is \"true\", then the dependency is treated as optional when the Addon is installed using the Addon Manager. In general this means that a failure to install the dependency does not prevent the Addon from installing, and the user may be prompted about whether they want to install it. Versions of FreeCAD prior to 0.21 do not recognize this attribute and will ignore it.
+-   type=\"automatic\|addon\|internal\|python\"   * Optional, defaults to \"automatic\". Indicates what this dependency statement refers to. \"addon\" is for external addons, \"internal\" is for internal workbenches (e.g. \"arch\", \"sketcher\", etc.), and \"python\" indicates a Python package dependency. Versions of FreeCAD prior to 0.21 do not use this attribute, and \"automatic\" is always assumed.
 
 ###  
 
@@ -287,6 +293,10 @@ The minimum version of FreeCAD required to use this package/element, as a semant
 
 The maximum version of FreeCAD required to use package/element, as a semantic version 2.0 string in the format MAJOR.MINOR.BUILD
 
+###  
+
+(New in FreeCAD 0.21, ignored by previous versions.) The minimum version of Python required to use package/element, as a semantic version 2.0 string in the format MAJOR.MINOR. The Addon Manager will not permit an Addon to be installed on a system running a version of Python before this one. Only Python 3.x versions are supported. Although you may specify a three-component version, only the minor number is considered during the compatibility check.
+
 ## Validation
 
 To validate your package.xml file you can enable \"developer mode\" in the Addon Manager   * create a boolean variable called \"developerMode\" in the \"Addons\" parameter group and set it to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**. When the Addon Manager has finished reading the Addons database it will examine all available package.xml files for errors.
@@ -306,7 +316,7 @@ A simple workbench-only package (for example, to add a metadata file to a packag
       <version>1.0.1</version> 
       <date>2022-01-07</date> 
       <maintainer email="your_address@null.com">Your Name</maintainer>
-      <license file="LICENSE">LGPLv2.1</license> 
+      <license file="LICENSE">LGPL-2.1</license> 
       <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url> 
       <url type="readme">https   *//github.com/chennes/FreeCAD-Package/blob/main/README.md</url> 
       <icon>Resources/icons/PackageIcon.svg</icon> 
@@ -333,7 +343,7 @@ A complex, multi-component package   *
       <version>2022.01</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPLv3</license>
+      <license file="LICENSE">GPL-3</license>
       <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
@@ -377,7 +387,7 @@ A package with dependencies   *
       <version>1.0.1-beta3</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="LICENSE">GPLv3</license>
+      <license file="LICENSE">GPL-3</license>
       <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
@@ -393,6 +403,10 @@ A package with dependencies   *
           <depend>FEM</depend>
           <depend version_gte="0.3.0">Curves workbench</depend>
           <depend version_gte="3.3" version_lt="4">Steel column</depend>
+
+          
+          <depend optional="true" type="python">markdown</depend>
+          <depend type="addon">TabBar</depend>
 
           
           <replace>Metadata Creation Workbench Beta</replace>

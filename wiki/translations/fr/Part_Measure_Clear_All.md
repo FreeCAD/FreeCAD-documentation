@@ -10,13 +10,13 @@
 
 ## Description
 
-Cet outil efface toutes les mesures de la vue 3D.
+Cet outil efface toutes les mesures de la [vue 3D](3D_view/fr.md).
 
 ## Utilisation
 
-1.  Lancez la commande de plusieurs manières    *
-    -   Appuyez sur le bouton **[<img src=images/Part_Measure_Clear_All.svg style="width   *16px"> [Tout effacer](Part_Measure_Clear_All/fr.md)**.
-    -   Utilisez **Mesure → Tout effacer**.
+1.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur le bouton **<img src="images/Part_Measure_Clear_All.svg" width=16px> [Tout effacer](Part_Measure_Clear_All/fr.md)**.
+    -   Sélectionnez l\'option **Mesure → <img src="images/Part_Measure_Clear_All.svg" width=16px> Tout effacer ** dans le menu.
 
 
 

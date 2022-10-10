@@ -21,12 +21,7 @@ The visualization of the results is only active when the dialog is open. However
 
 ## Usage
 
-To show the result dialog, select the result object in the [Tree view](Tree_view.md), then either   *
-
--   Press the toolbar button **<img src="images/FEM_ResultShow.svg" width=16px> '''Show result'''
-**
--   Use the menu **Results → <img src="images/FEM_ResultShow.svg" width=16px> Show result** (sortcut **R** then **S**).
--   Alternatively you can also double-click on the result object in the tree view.
+To show the result dialog, select the result object in the [Tree view](Tree_view.md), then either press the toolbar button **<img src="images/FEM_ResultShow.svg" width=16px> '''Show result'''** or use the menu **Results → <img src="images/FEM_ResultShow.svg" width=16px> Show result** (sortcut **R** then **S**). Alternatively you can also double-click on the result object in the tree view.
 
 When the dialog is open, the result mesh will automatically be shown.
 

@@ -1,7 +1,4 @@
 # Macro GMSH/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=GMSHMacro
 |Translate=GMSHMacro
@@ -12,10 +9,8 @@
 |Date=2015-08-24
 |FCVersion=Tutte versione
 |Download=[https   *//www.freecadweb.org/wiki/images/a/a2/Macro_GMSH.png Icona per la ToolBar]
+|SeeAlso = [Mesh FEM da forma con GMSH](FEM_MeshGmshFromShape/it.md)
 }}
-
-
-</div>
 
 ## Descrizione
 

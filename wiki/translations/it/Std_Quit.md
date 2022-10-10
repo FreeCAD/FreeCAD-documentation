@@ -5,13 +5,10 @@
    MenuLocation   *File → Esci
    Workbenches   *Tutti
    Shortcut   ***Alt**+**F4**
-   SeeAlso   *[Chiudi](Std_Close/it.md)
+   SeeAlso   *[Chiudi](Std_CloseActiveWindow/it.md)
 ---
 
 # Std Quit/it
-
-
-</div>
 
 ## Descrizione
 
@@ -36,13 +33,7 @@ Il comando **Esci** chiude l\'applicazione FreeCAD e facoltativamente salva i do
 -   L\'ultima posizione del file utilizzato viene memorizzata in   * **Strumenti → Modifica parametri... → BaseApp → Preferences → General → FileOpenSavePath**.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

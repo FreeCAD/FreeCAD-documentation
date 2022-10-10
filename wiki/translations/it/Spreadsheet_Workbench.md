@@ -82,14 +82,14 @@ Come indicato dalle schede, è possibile modificare le seguenti proprietà   *
 
 ## Espressioni nelle celle 
 
-Una cella del foglio di calcolo può contenere un testo arbitrario o un\'espressione. Tecnicamente, le espressioni devono iniziare con un segno \"=\" uguale. Tuttavia, il foglio elettronico tenta di essere intelligente; se si inserisce qualcosa che sembra un\'espressione senza il segno \'=\', lo aggiunge automaticamente.
+Una cella di un foglio di calcolo può contenere un numero, un testo o un\'espressione. Le espressioni devono iniziare con un segno di uguale \'=\'.
 
-Le espressioni inserite nelle celle possono contenere numeri, funzioni, riferimenti ad altre celle e riferimenti alle proprietà del modello (Ma vedere sotto le [ Limitazioni attuali](#Limitazioni_attuali.md)). Le celle sono referenziate dalla loro colonna (lettera maiuscola) e riga (numero). Una cella può anche essere referenziata dal suo [ alias](#Riferimento_ai_dati_CAD.md) (sottostante). Esempio   * B4 + A6
+Le espressioni inserite nelle celle possono contenere numeri, funzioni, riferimenti ad altre celle e riferimenti alle proprietà del modello (Ma vedere sotto le [ Limitazioni attuali](#Limitazioni_attuali.md)). Le celle sono referenziate dalla loro colonna (lettera maiuscola) e riga (numero). Una cella può essere referenziata dal suo indirizzo (lettera della colonna MAIUSCOLA + numero di riga, es. B4) o dal suo [alias](Spreadsheet_SetAlias/it.md).
 
-Le espressioni inserite nelle celle sono trattate da FreeCAD come codice di programmazione. Pertanto, quando modifichi una cella il contenuto che vedi non segue le tue impostazioni di visualizzazione   *
+Le espressioni inserite nelle celle sono trattate da FreeCAD come codice di programmazione. Pertanto, quando modifichi una cella il contenuto che vedi potrebbe non seguire le tue impostazioni di visualizzazione   *
 
--   il separatore dei decimali è sempre un punto
--   il numero di decimali visualizzati può differire dalle tue [impostazioni](Preferences_Editor/it#Unità.md)
+-   Il separatore dei decimali è sempre un punto. Ma le virgole possono essere utilizzate anche quando si immettono valori.
+-   Il numero di decimali visualizzati può differire dalle tue [impostazioni](Preferences_Editor/it#Unità.md).
 
 I riferimenti agli oggetti nel modello sono spiegati in seguito in [Riferimento ai dati CAD](#Riferimento_ai_dati_CAD.md). L\'utilizzo dei valori delle celle del foglio di calcolo per definire le proprietà del modello è spiegato in seguito in [Dati del foglio di calcolo nelle espressioni](#Dati_dei_fogli_di_calcolo_nelle_espressioni.md). Per ulteriori informazioni sulle espressioni e sulle funzioni dipsonibili, consultare la pagina [Espressioni](Expressions/it.md).
 
@@ -101,9 +101,9 @@ Allo stesso modo, le proprietà degli oggetti del modello CAD possono essere uti
 
 In un documento si possono utilizzare più fogli di calcolo. Un foglio di calcolo può essere identificato tramite sia il suo nome che la sua etichetta.
 
-FreeCAD assegna automaticamente un nome univoco ad un foglio di calcolo quando questo viene creato. Questi nome seguono il modello `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` e così via. Il nome non può essere modificato manualmente e non è visibile nelle proprietà del foglio di calcolo. Può essere utilizzato per fare riferimento al foglio di calcolo in un [ Espressione](Expressions/it.md) (vedere [ Dati del foglio di calcolo nelle espressioni](#Dati_dei_fogli_di_calcolo_nelle_espressioni.md) di seguito).
+FreeCAD assegna automaticamente un nome univoco ad un foglio di calcolo quando questo viene creato. Questi nome seguono il modello `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` e così via. Il nome non può essere modificato e non è visibile nelle proprietà del foglio di calcolo. Può essere utilizzato per fare riferimento al foglio di calcolo in un [ Espressione](Expressions/it.md) (vedere [ Dati del foglio di calcolo nelle espressioni](#Dati_dei_fogli_di_calcolo_nelle_espressioni.md) di seguito).
 
-L\'etichetta di un foglio di calcolo viene automaticamente impostata sul nome del foglio di calcolo al momento della creazione. A differenza del nome, l\'etichetta può essere modificata, ad esempio nel pannello delle proprietà o utilizzando l\'azione del menu contestuale Rinomina. Notare che l\'etichetta di un foglio di calcolo all\'interno di un documento deve essere univoca; se provi a cambiare l\'etichetta con un\'etichetta già utilizzata da un altro foglio di calcolo, FreeCAD non accetterà la nuova etichetta.
+L\'etichetta di un foglio di calcolo viene automaticamente impostata sul nome del foglio di calcolo al momento della creazione. A differenza del nome, l\'etichetta può essere modificata, ad esempio nel pannello delle proprietà o utilizzando l\'azione del menu contestuale Rinomina. Per impostazione predefinita, FreeCAD non accetta etichette duplicate, ma esiste una [preferenza](Preferences_Editor/it#Documento.md) per sovrascriverlo. I fogli di calcolo con etichette duplicate nello stesso documento non possono essere referenziati con la loro etichetta.
 
 FreeCAD verifica le dipendenze cicliche. Vedere [Limitazioni attuali](Spreadsheet_Workbench/it#Limitazioni_attuali.md).
 
@@ -111,24 +111,31 @@ FreeCAD verifica le dipendenze cicliche. Vedere [Limitazioni attuali](Spreadshee
 
 Come indicato sopra, è possibile fare riferimento ai dati del modello CAD nelle espressioni del foglio di calcolo.
 
-Le espressioni calcolate nelle celle del foglio di calcolo iniziano con un segno di uguale (\'=\'). Comunque, il meccanismo di immissione del foglio di calcolo tenta di essere intelligente. Un\'espressione può essere inserita senza il segno \'=\'; se la stringa inserita è un\'espressione valida, un \'=\' viene aggiunto automaticamente quando si premere **Enter** finale. Se la stringa inserita non è un\'espressione valida (spesso il risultato di una digitazione sbagliata, ad es. \"MyCube.length\" anziché \"MyCube.Length\"), non viene aggiunto il segno \'=\' e viene trattato semplicemente come una stringa di testo.
-
-**Nota   *** il comportamento precedente (inserimento automatico di \'=\') ha alcune spiacevoli conseguenze   *
-
--   se si desidera mantenere una colonna di nomi corrispondenti ai nomi [alias-names](#alias_name.md) in una colonna di valori adiacente, è necessario immettere il nome nella colonna dell\'etichetta prima di quello assegnato alla cella nella colonna del valore come nome alias. Altrimenti, quando inserisce il nome alias nella colonna dellle etichette il foglio di calcolo assume che è un\'espressione e lo cambia in \"= \"; e il testo visualizzato è il valore dalla cella .
--   Se si commette un errore quando si inserisce il nome nella colonna dell\'etichetta e si desidera correggerlo, non si può semplicemente cambiar con il nome alias. Invece, bisogna prima cambiare il nome alias in qualcos\'altro, quindi correggere il nome del testo nella colonna dell\'etichetta, quindi cambiare il nome alias nella colonna con il suo originale.
-
-Un modo per aggirare questi problemi è prefissare le etichette di testo corrispondenti ai nomi di alias con una stringa fissa, rendendoli così diversi. Notare che \"\_\" non funziona, poiché viene convertito in \"=\". Tuttavia, un spazio, anche se invisibile, funziona.
-
 La tabella seguente mostra alcuni esempi assumendo che il modello abbia una figura denominata \"MyCube\"   *
 
-  Dati CAD                                    Chiamata nel foglio di calcolo   Risultato
-    
-  Lunghezza parametrica di un Cubo di Part    =MyCube.Length                   Lunghezza in mm
-  Volume del Cubo                             =MyCube.Shape.Volume             Volume in mm³ senza unità
-  Tipo di forma del Cubo                      =MyCube.Shape.ShapeType          String   * Solid
-  Etichetta del Cubo                          =MyCube.Label                    String   * Cube
-  coordinata x del centro di massa del Cubo   =MyCube.Shape.CenterOfMass.x     coordinata x in mm senza unità di misura
+++++
+| Dati CAD                                  | Chiamata nel foglio di calcolo                           | Risultato                              |
++===========================================+==========================================================+========================================+
+| Lunghezza parametrica di un Cubo di Part  |                                           | Lunghezza in mm                        |
+|                                           | {{Incode|<nowiki>=MyCube.Length</nowiki>}}               |                                        |
+|                                           |                                                       |                                        |
+++++
+| Volume del Cubo                           |                                           | Volume in mm³ senza unità              |
+|                                           | {{Incode|<nowiki>=MyCube.Shape.Volume</nowiki>}}         |                                        |
+|                                           |                                                       |                                        |
+++++
+| Tipo di forma del Cubo                    |                                           | Stringa   * Solid                         |
+|                                           | {{Incode|<nowiki>=MyCube.Shape.ShapeType</nowiki>}}      |                                        |
+|                                           |                                                       |                                        |
+++++
+| Etichetta del Cubo                        |                                           | Stringa   * Cube                          |
+|                                           | {{Incode|<nowiki>=MyCube.Label</nowiki>}}                |                                        |
+|                                           |                                                       |                                        |
+++++
+| coordinata x del centro di massa del Cubo |                                           | coordinata in mm senza unità di misura |
+|                                           | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                                        |
+|                                           |                                                       |                                        |
+++++
 
 ### Dati dei fogli di calcolo nelle espressioni 
 
@@ -149,7 +156,7 @@ Per utilizzare i dati del foglio di calcolo in altre parti di FreeCAD, di solito
 
 <div class = "mw-collapsible mw-collapsed">
 
-Il modo consigliato per fare riferimento ai dati del foglio di calcolo è utilizzare l\'etichetta del foglio di calcolo e il nome dell\'alias della cella. Per una spiegazione più approfondita dei pro e dei contro delle modalità di indirizzamento, vedere la sezione espansa di seguito.
+Il modo consigliato per fare riferimento ai dati del foglio di calcolo è utilizzare l\'etichetta del foglio di calcolo e il nome dell\'alias della cella. Per una spiegazione più approfondita dei pro e dei contro delle modalità di riferimento, vedere la sezione espansa di seguito.
 
 
 <div class = "mw-collapsible-content">
@@ -192,7 +199,7 @@ Il foglio di calcolo ha il concetto dimensione (unità di misura) associata ai v
 
 Se una cella contiene un valore che rappresenta una dimensione, esso deve essere inserito con la relativa unità associata. Anche se molti casi semplici possono essere gestiti con un valore adimensionale, è sconsigliato non inserire l\'unità. Se un valore che rappresenta una dimensione viene inserito senza la relativa unità associata, alcune sequenze di operazioni costringono FreeCAD a segnalare l\'incompatibilità delle unità in un\'espressione quando sembra che dovrebbe essere convalidata. (Questo può essere compreso meglio compreso guardando [questa discussione](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=34713&p=292455#p292438) nel forum di FreeCAD).
 
-È possibile modificare le unità visualizzate per un valore di cella utilizzando la finestra di dialogo delle [ Proprietà delle celle](#Proprietà_delle_celle.md) (sopra). Questo non modifica il valore contenuto nella cella; converte solo il valore esistente per la visualizzazione. Il valore utilizzato per i calcoli non cambia, ed i risultati delle formule che utilizzano il valore non cambiano. Ad esempio, una cella contenente il valore \"5.08cm\" può essere visualizzata come \"2in\" modificando il valore della scheda delle unità su \"in\".
+È possibile modificare le unità visualizzate per un valore di cella utilizzando la finestra di dialogo delle [ Proprietà delle celle](#Proprietà_delle_celle.md). Questo non modifica il valore contenuto nella cella; converte solo il valore esistente per la visualizzazione. Il valore utilizzato per i calcoli non cambia, ed i risultati delle formule che utilizzano il valore non cambiano. Ad esempio, una cella contenente il valore \"5.08cm\" può essere visualizzata come \"2in\" modificando il valore della scheda delle unità su \"in\".
 
 Un numero adimensionale non può essere modificato in un numero con un\'unità tramite la finestra di dialogo delle proprietà della cella. Si può inserire una stringa di unità e tale stringa verrà visualizzata; ma la cella contiene ancora un numero adimensionale. Per modificare un valore adimensionale in un valore con una dimensione, è necessario reinserire il valore stesso con l\'unità associata.
 

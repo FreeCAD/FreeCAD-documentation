@@ -1,7 +1,7 @@
 # Artwork project
 {{TOCright}}
 
-**Artwork project** is a [project](project.md) dedicated to coming up with a new logo, icons, and pictures. Not to be confused with [Artwork](Artwork.md) page which captures the current state of the art ;) . See also [Artwork Guidelines](Artwork_Guidelines.md) which describe the current agreed-upon rules.
+**Artwork project** is a project dedicated to coming up with a new logo, icons, and pictures. Not to be confused with [Artwork](Artwork.md) page which captures the current state of the art ;) . See also [Artwork Guidelines](Artwork_Guidelines.md) which describe the current agreed-upon rules.
 
 This project is more of an experiment, to not be constrained by the current artwork guidelines set in stone many years ago.
 
@@ -58,7 +58,7 @@ Currently, there are hundreds of different colors and gradients in the existing 
 ### Traditional
 
       
-                                                                                                                                                              Use the Yellow tones for tools that create objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
+                                                                                                                                                          Use the Yellow tones for tools that create objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
   style=\"background-color   *#729fcf;\|   style=\"background-color   *#3465a4;\|   style=\"background-color   *#204a87;\|   style=\"background-color   *#0b1521;\|   Use the Blue tones for tools that modify objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
   style=\"background-color   *#34e0e2\|    style=\"background-color   *#16d0d2\|    style=\"background-color   *#06989a\|    style=\"background-color   *#042a2a\|    Use the Teal tones for view-related tools; for an example, see the [View Menu](Std_View_Menu.md).
   style=\"background-color   *#ef2929\|    style=\"background-color   *#cc0000\|    style=\"background-color   *#a40000\|    style=\"background-color   *#280000\|    Use the Red tones for Constraint related tools; for an example, see [Sketcher Workbench](Sketcher_Workbench.md).
@@ -87,7 +87,7 @@ The current color palette is captured in google drive   * <https   *//drive.goog
 
 #### Icon
 
--   [Std\_Part](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=50821)
+-   [Std_Part](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=50821)
 -   [Std Alignment](https   *//forum.freecadweb.org/viewtopic.php?f=34&t=50688)
 
 [Category   *Roadmap](Category_Roadmap.md)

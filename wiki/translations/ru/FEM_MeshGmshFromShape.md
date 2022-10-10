@@ -23,9 +23,9 @@
 
 </div>
 
-Gmsh is bundled with the FreeCAD installation binaries. Alternatively you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
+Depending on your operating system and your installation package Gmsh might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -108,12 +108,12 @@ When you get a meshing erro about nonpositive Jacobians, you can try out the fol
 
 ### Mesh Growth 
 
-At edges and small geometric entities the mesh has to be smaller than in areas without edges. So the mesh element size grows away from edges. The growing strategy of Gmsh is to grow between edges with different sizes. So the growing fails when an area has the same sized edges like for example this tube   *
+At edges and small geometric entities, the mesh has to be smaller than in areas without edges. So the mesh element size grows away from the edges. The growing strategy of Gmsh is to grow between edges of different sizes. So the growing fails when an area has the same sized edges like for example this tube   *
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-failing.png  style="width   *400px;"> 
-*Failing mesh growing because the cylindrical area is surrounded be the same edges*
+*Failing mesh growing because the cylindrical area is surrounded by the same edges*
 
-To enable a sensible mesh growing, you must in this case add an edge to the area. In the example this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https   *//forum.freecadweb.org/download/file.php?id=146255) of the example.
+To enable a sensible mesh growing, you must in this case add an edge to the area. In the example, this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https   *//forum.freecadweb.org/download/file.php?id=146255) of the example.
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width   *400px;"> 
 *Sensible mesh growing due to the additional edge in the middle of the cylindrical aread*

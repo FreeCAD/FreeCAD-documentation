@@ -5,23 +5,11 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 ## src/Mod/MeshPart/
 
-
-<div class="mw-translate-fuzzy">
-
-### src/Mod/MeshPart/Gui/Resources/Icons/
-
-
-</div>
+### src/Mod/MeshPart/Gui/Resources/icons/
 
 ![](images/MeshPart_Create_Flat_Face.svg ) ![](images/MeshPart_Create_Flat_Mesh.svg ) ![](images/MeshPart_CurveOnMesh.svg )
 
-
-<div class="mw-translate-fuzzy">
-
-### src/Mod/MeshPart/Gui/Resources/Icons/Actions/
-
-
-</div>
+#### src/Mod/MeshPart/Gui/Resources/icons/actions/
 
 ![](images/MeshFace.svg )
 

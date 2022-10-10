@@ -76,6 +76,13 @@ Poiché la Vista di Arch è resa all\'interno del modulo [Arch](Arch_Workbench/i
 
 ## Proprietà
 
+See also [TechDraw View](TechDraw_View#Properties.md).
+
+### Data
+
+
+{{TitleProperty|Arch view}}
+
 
 <div class="mw-translate-fuzzy">
 

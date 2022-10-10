@@ -59,7 +59,8 @@ All\'editor dei materiale attualmente si può accedere da   *
 -   **Add property**   * Permette di aggiungere una nuova proprietà personalizzata
 -   **Delete property**   * Elimina una proprietà selezionata. Possono essere eliminate solo le proprietà personalizzate
 
-Note   *
+
+{{Arch Tools navi/it}}
 
 -   I pulsanti **OK** e **Cancel** hanno e lo stesso effetto quando l\'editor del materiale non viene utilizzato per modificare direttamente la proprietà materiale di un oggetto esistente.
 
@@ -73,4 +74,4 @@ Note   *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/it

@@ -7,9 +7,15 @@
 
 ## 説明
 
+
+<div class="mw-translate-fuzzy">
+
 このツールは3Dビュー上の二点をピックすることで直線を描画します。
 
 このツールを起動するとマウスポインターが赤い直線アイコンのついた白い十字に変わります。またポインターの指す座標がリアルタイムに表示されます。
+
+
+</div>
 
 ![](images/Sketcher_LineExample1.png‎ )
 
@@ -23,12 +29,18 @@ The created line object starts and ends at the given points, but the line is inf
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   3Dビューの何もない領域または既存のオブジェクト上の点をピックします（タスクビューで自動拘束が有効になっている必要があります）。
 
 -    **ESC**キーを押すか、右マウスボタンをクリックするとこの機能は解除されます。
 
 
 
+
+
+</div>
 
 
 

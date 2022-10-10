@@ -21,9 +21,9 @@ Questa macro permette di trovare tutti gli elementi non collegati e di congiunge
 
 ## Script
 
-ToolBar Icon ![](images/Macro_JointWire.png )
+Icona barra strumenti ![](images/Macro_JointWire.png )
 
-**Macro\_JointWire.FCMacro**
+**Macro_JointWire.FCMacro**
 
 
 {{MacroCode|code=

@@ -108,7 +108,7 @@ Die Entwicklung einer neuen Löserarchitektur könnte die Verwendung des Lösers
 
 FreeCAD, obwohl in bestimmten Bereichen verwendbar, steht am Anfang eines langen Weges in den CAD Mainstream. Es gibt noch viel zu tun um einen Stand zu erreichen, in dem wir mit kommerzieller Software konkurrieren können.
 
-[0.20 Entwicklungszyklus Cycle](0.20_Development_Cycle.md)
+[FreeCAD 1.0 Development Cycle](FreeCAD_1.0_Development_Cycle.md)
 
 ## Gemeinschaft
 

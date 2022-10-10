@@ -13,7 +13,7 @@
 
 Pour une analyse par éléments finis, la géométrie doit être discrétisée en [FEM Maillage](FEM_Mesh/fr.md). Cette commande utilise le programme [Gmsh](https   *//fr.wikipedia.org/wiki/Gmsh) (qui doit être installé sur le système) pour calculer le maillage.
 
-Gmsh est fourni avec les binaires d\'installation de FreeCAD. Sinon, vous pouvez l\'installer séparément de FreeCAD et ensuite utiliser le menu **Édition → Préférences → FEM → Gmsh** pour définir le chemin vers le *gmsh.exe*.
+En fonction de votre système d\'exploitation et de votre paquetage d\'installation, Gmsh peut être fourni avec FreeCAD ou pas. Pour plus d\'informations voir [FEM Installation des composants requis](FEM_Install/fr.md).
 
 ## utilisation
 
@@ -92,7 +92,7 @@ Lorsque vous obtenez une erreur de maillage à cause de Jacobiens non positifs, 
 
 ### Croissance du maillage 
 
-Aux bords et aux petites entités géométriques, le maillage doit être plus petit que dans les zones sans bords. Ainsi, la taille des éléments du maillage augmente en s\'éloignant des bords. La stratégie de croissance de Gmsh consiste à croître entre des arêtes de tailles différentes. La croissance échoue donc lorsqu\'une zone a des arêtes de même taille, comme par exemple ce tube    *
+Au niveau des bords et des petites entités géométriques, le maillage doit être plus petit que dans les zones sans bords. Ainsi, la taille des éléments du maillage augmente en s\'éloignant des bords. La stratégie de croissance de Gmsh consiste à croître entre des bords de tailles différentes. La croissance échoue donc lorsqu\'une zone a des bords de même taille, comme par exemple ce tube    *
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-failing.png  style="width   *400px;"> 
 *Échec de la croissance du maillage car la zone cylindrique est entourée par les mêmes bords.*

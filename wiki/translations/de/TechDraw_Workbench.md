@@ -25,6 +25,8 @@ Diese Werkzeuge sind zum Erstellen von Seiten.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width   *32px;"> [Seite neu zeichnen](TechDraw_RedrawPage/de.md)   * Erzwingt eine Aktualisierung der ausgewählten Seite. {{Version/de|0.19}}
 
+-   <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *32px;"> [Drucke alle Seiten](TechDraw_PrintAll.md)   * Druckt alle Seiten in einem Dokument. {{Version/de|1.0}}
+
 ## Ansichten
 
 Dies sind Werkzeuge zum Erstellen von Ansichtsobjekten.
@@ -33,7 +35,7 @@ Dies sind Werkzeuge zum Erstellen von Ansichtsobjekten.
 
 -   <img alt="" src=images/TechDraw_ActiveView.svg  style="width   *32px;"> [Aktive Ansicht einfügen](TechDraw_ActiveView/de.md)   * Fügt eine Ansicht des aktiven 3D-Fensters ein. {{Version/de|0.19}}
 
--   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)   * Ruft einen Dialog auf, um mehrere (zusammenhängende) Ansichten eines Objekts aus mehreren Richtungen zu erstellen (Seitenansicht, Draufsicht usw.).
+-   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)   * Ruft einen Dialog auf, um mehrere (zusammenhängende) Ansichten eines Objekts aus verschiedenen Richtungen zu erstellen (Seitenansicht, Draufsicht usw.).
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Schnittansicht einfügen](TechDraw_SectionView/de.md)   * Fügt eine Schnittsansicht zu einer vorhandenen Ansicht ein.
 
@@ -48,6 +50,20 @@ Dies sind Werkzeuge zum Erstellen von Ansichtsobjekten.
 -   <img alt="" src=images/TechDraw_MoveView.svg  style="width   *32px;"> [Ansicht verschieben](TechDraw_MoveView/de.md)   * Verschiebt eine Ansicht samt Inhalt auf ein anderes Blatt. {{Version/de|0.20}}
 
 -   <img alt="" src=images/TechDraw_ShareView.svg  style="width   *32px;"> [Ansicht teilen](TechDraw_ShareView/de.md)   * Eine Ansicht wird auf mehreren Blättern gezeigt (geteilt). {{Version/de|0.20}}
+
+-   <img alt="" src=images/TechDraw_ProjectShape.svg  style="width   *32px;"> [Projiziere Formstück](TechDraw_ProjectShape/de.md)   * erzeugt Projektionen von Formstücken im [3D view](3D_view.md). <small>(v0.20)</small> 
+
+## Stapeln
+
+Diese Werkzeuge ändern die Stapel Reihenfolge welche die Tiefe der Sichtbarkeit von Ansichten auf einer Seite kontrolliert.
+
+-   <img alt="" src=images/TechDraw_StackTop.svg  style="width   *32px;"> [Bewege die Ansicht auf die Oberseite des Stapels](TechDraw_StackTop/de.md)   * bewegt die Ansicht auf die Oberseite des Stapels. {{Version/de|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackBottom.svg  style="width   *32px;"> [Bewege die Ansicht auf die Unterseite des Stapels](TechDraw_StackBottom/de.md)   * bewegt die Ansicht auf die Unterseite des Stapels. {{Version/de|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackUp.svg  style="width   *32px;"> [Hebe die Ansichten um eine Stufe](TechDraw_StackUp/de.md)   * hebt die Ansichten um eine Stufe. {{Version/de|1.0}}
+
+-   <img alt="" src=images/TechDraw_StackDown.svg  style="width   *32px;"> [Senke die Ansichten um eine Stufe](TechDraw_StackDown/de.md)   * senkt die Ansichten um eine Stufe. {{Version/de|1.0}}
 
 ## Ausschnittfenster
 
@@ -141,7 +157,7 @@ Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informatio
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width   *32px;"> [Hinzufügen von Schweißinformationen zur Hinweislinie](TechDraw_WeldSymbol/de.md)   * fügt Schweißspezifikationen zu einer vorhandenen Hinweislinie hinzu. {{Version/de|0.19}}
 
--   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *32px;"> [Add Surface Finish Symbol](TechDraw_SurfaceFinishSymbol.md)   * adds a surface finish symbol to a page. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_SurfaceFinishSymbol.svg  style="width   *32px;"> [Füge Oberflächen Fertigungssymbol ein](TechDraw_SurfaceFinishSymbol/de.md)   * fügt ein Oberflächen Fertigungssymbol ein. {{Version/de|1.0}}
 
 ## Erweiterungspaket
 
@@ -195,9 +211,9 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width   *32px;"> [Kreislinie](TechDraw_ExtensionDrawCosmCircle/de.md)   * Zeichne eine Kreislinie durch Mittelpunkt und Radiuspunkt. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionDrawArc.svg  style="width   *32px;"> [Kreisbogen](TechDraw_ExtensionDrawArc.md)   * Zeichne einen gegen den Uhrzeiger rotierenden Kreisbogen. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width   *32px;"> [Kreisbogen](TechDraw_ExtensionDrawCosmArc/de.md)   * Zeichne einen gegen den Uhrzeiger rotierenden Kreisbogen. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width   *32px;"> [Add Cosmetic Circle 3 Points](TechDraw_ExtensionDrawCosmCircle3Points.md)   * fügt einen hilfslinien 3 Punkte Kreis ein. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width   *32px;"> [Kreislinie durch 3 Punkte](TechDraw_ExtensionDrawCosmCircle3Points/de.md)   * fügt einen hilfslinien 3 Punkte Kreis ein. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width   *32px;"> [Parallel](TechDraw_ExtensionLineParallel/de.md)   * Zeichne eine Linie parallel zu einer Anderen durch einen Konstruktionspunkt. <small>(v0.20)</small> 
 
@@ -227,7 +243,7 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
 -   <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width   *32px;"> [Rohrsymbol](TechDraw_ExtensionInsertSquare/de.md)   * Füge eine Rohrsymbol als erstes Zeichen ein. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  style="width   *32px;"> [Remove Prefix](TechDraw_ExtensionRemovePrefixChar.md)   * entfernt alle Symbole am Anfang eines Maßtextes. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  style="width   *32px;"> [Entferne das Präfix](TechDraw_ExtensionRemovePrefixChar/de.md)   * entfernt alle Symbole am Anfang eines Maßtextes. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width   *32px;"> [Genauigkeit vergrößern](TechDraw_ExtensionIncreaseDecimal/de.md)   * vergrößere die Anzahl der Dezimalstellen . <small>(v0.20)</small> 
 

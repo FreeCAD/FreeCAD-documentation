@@ -9,6 +9,9 @@
 
 # Sketcher CompCreateArc/es
 
+
+</div>
+
 ## Descripción
 
 **Crear un arco** es un botón de icono en la barra de herramientas de geometrías de Croqizador que agrupa herramientas para crear un arco eligiendo tres puntos. Haz clic en la flecha hacia abajo situada a su derecha para expandir los iconos que hay debajo y seleccionar una herramienta.

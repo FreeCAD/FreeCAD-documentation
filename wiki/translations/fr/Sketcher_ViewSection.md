@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher ViewSection
    Name/fr   *Sketcher Vue en section
-   MenuLocation   *Esquisse → Vue section
+   MenuLocation   *Sketch → Vue section
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
    Shortcut   ***Q** **S**
    Version   *0.18
@@ -19,10 +19,10 @@ L\'outil **Vue en section** créé un plan de coupe qui masque temporairement la
 
 ## Utilisation
 
-Plusieurs façons d\'appeler cette commande   *
+Plusieurs façons de lancer cette commande   *
 
 -   Appuyez sur le bouton **[<img src=images/Sketcher_ViewSection.svg style="width   *16px"> [Vue section](Sketcher_ViewSection/fr.md)** pour basculer entre la section et la vue complète.
--   Faites **Esquisse → Vue section** dans le menu déroulant.
+-   Faites **Sketch → Vue section** dans le menu déroulant.
 
 
 

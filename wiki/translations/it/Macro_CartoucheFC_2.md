@@ -1,7 +1,4 @@
 # Macro CartoucheFC 2/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro CartoucheFC 2
 |Icon=Macro_CartoucheFC_2.png
@@ -13,9 +10,6 @@
 |FCVersion=Tutte versioni usando Drawing Workbench
 |Download=[https   *//www.freecadweb.org/wiki/images/0/00/Macro_CartoucheFC_2.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -39,7 +33,7 @@ Il suo utilizzo è molto semplice, eseguire la macro e modificare i campi.
 
 La finestra rimane sopra alle altre finestre per visualizzare i cambiamenti (questa funzione può essere spiacevole se si decide di aprire una nuova finestra e rimane inaccessibile)
 
-\'\'\'Notare che alcuni caratteri come & \$ non sono accettati (e forse anche altri caratteri speciali)! \'\'\'
+**Notare che alcuni caratteri come & \$ non sono accettati (e forse anche altri caratteri speciali)!**
 
 Se avete domande o volete aggiungere una funzione, è possibile rivolgersi al forum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 
@@ -47,7 +41,7 @@ Se avete domande o volete aggiungere una funzione, è possibile rivolgersi al fo
 
 ToolBar Icon ![](images/Macro_CartoucheFC_2.png )
 
-**Macro\_CartoucheFC\_2.FcMacro**
+**Macro_CartoucheFC_2.FcMacro**
 
 
 {{MacroCode|code=

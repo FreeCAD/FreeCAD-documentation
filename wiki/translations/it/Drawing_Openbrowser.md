@@ -19,13 +19,14 @@ Questo comando consente di visualizzare una [pagina di disegno](Drawing_Landscap
 -   Una pagina aperta nel browser web non si aggiorna automaticamente alle modifiche. È necessario aggiornarla manualmente utilizzando   * tasto destro del mouse → ricarica.
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Ritaglio](Drawing_Clip/it.md)|[Viste ortogonali](Drawing_Orthoviews/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Clip.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Orthoviews.png}}
-
-
-</div>
+{{docnav/it
+|[Ritaglio](Drawing_Clip/it.md)
+|[Viste ortogonali](Drawing_Orthoviews/it.md)
+|[Drawing](Drawing_Workbench/it.md)
+|IconL=Drawing_Clip.png
+|IconC=Workbench_Drawing.svg
+|IconR=Drawing_Orthoviews.png
+}}
 
 
 {{Drawing Tools navi
@@ -35,4 +36,4 @@ Questo comando consente di visualizzare una [pagina di disegno](Drawing_Landscap
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/it

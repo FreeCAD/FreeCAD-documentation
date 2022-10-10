@@ -20,46 +20,27 @@
 
 </div>
 
-## Introduction
-
-
-<div class="mw-translate-fuzzy">
-
 ## Введение
 
-Это руководство предназначено для того чтобы ознакомить с основными принципами работы с верстаком FEM, а также большинством доступных инструментов для статического анализа.
-
-
-</div>
+Данное руководство знакомит пользователя с основными принципами работы верстака FEM, а также с большинством доступных инструментов, предназначенных для выполнения статического анализа.
 
 <img alt="" src=images/FEM_tutorial_result.png  style="width   *600px;">
 
 ## Требования
 
-
-<div class="mw-translate-fuzzy">
-
-## Требования 
-
--   Версия FreeCAD 0.16.6700 и выше
--   [Netgen](http   *//sourceforge.net/projects/netgen-mesher/) и/или [GMSH](http   *//geuz.org/gmsh/) установленные в вашей системе
--   В случаем когда используется GMSH, рекомендуется установить в [AddonManager](Std_AddonMgr/ru.md) [Macro GMSH](Macro_GMSH/ru.md), разработанный [psicofil](https   *//github.com/psicofil/Macros_FreeCAD)
--   [Calculix](http   *//www.calculix.de/) установленный в вашей системе
--   Читатель должен обладать базовыми понятиями о том как использовать верстаки [Part](Part_Workbench/ru.md) и [PartDesign](PartDesign_Workbench/ru.md).
-
-
-</div>
+-   Версия FreeCAD должна быть 0.17 и старше.
+-   Наличие [Netgen](http   *//sourceforge.net/projects/netgen-mesher/) и/или [GMSH](http   *//geuz.org/gmsh/) в системе (устанавливаются вместе с FreeCAD).
+-   Наличие [Calculix](http   *//www.calculix.de/) в системе (устанавливается вместе с FreeCAD).
+-   Пользователь изучающий данный пример должен обладать базовыми понятиями о том, как использовать верстаки [Part](Part_Workbench/ru.md) и [PartDesign](PartDesign_Workbench/ru.md).
 
 ## Последовательность действий 
 
-### Modeling
-
-
-<div class="mw-translate-fuzzy">
-
 ### Моделирование
 
-В этом примере в качестве объекта исследования используется Куб, но также вместо него могут быть использованы модели созданные в Верстаках Part или PartDesign.
+
+<div class="mw-translate-fuzzy">
+
+В этом примере в качестве объекта исследования используется Куб, но также вместо него могут быть использованы любые другие модели созданные в Верстаках Part или PartDesign.
 
 
 </div>
@@ -67,70 +48,31 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Создать новый документ
-2.  Активировать верстак Part
-3.  Создать Куб
-4.  Изменить его размеры (**Box**) на следующие   *
-    1.  Length   * 8000 мм
-    2.  Width   * 1000 мм
-    3.  Height   * 1000 мм
+1.  Создайте [новый документ](Std_New/ru.md) (нажатием на кнопку <img alt="" src=images/Std_New.svg  style="width   *24px;">).
+2.  Активировать <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [верстак Part](Part_Workbench/ru.md).
+3.  Создайте Куб.
+4.  Измените его **Размеры** на следующие   *
+    1.  Length   * 8.000 м.
+    2.  Width   * 1.000 м.
+    3.  Height   * 1.000 м.
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
 
 Теперь у нас есть модель с которой можно работать.
 
-### Creating the Analysis 
-
-#### Netgen
-
-
-<div class="mw-translate-fuzzy">
-
-### Создание Анализа 
-
-#### Netgen 
-
-1.  Выбрать модель
-2.  Кликнуть в меню <img alt="" src=images/FEM_Analysis.png  style="width   *16px;"> [New mechanical analysis](FEM_Analysis/ru.md), чтобы создать анализ из выбранного объекта
-3.  В диалоге создания сетки кликнуть **OK**
-
 
 </div>
 
+### Проведение анализа 
 
-<div class="mw-translate-fuzzy">
+1.  Activate the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM Workbench](FEM_Workbench.md).
+2.  Select the **Model → <img src="images/FEM_Analysis.svg" width=16px> Analysis container‏‎** option from the menu.
 
-Вы также можете перетащить сетку в Mechanical Analysis, у которого нет сетки, внутри древа проекта.
-
-
-</div>
-
-#### GMSH
-
-
-<div class="mw-translate-fuzzy">
-
-#### GMSH 
-
-Макросы от psicofil\'s - строго рекомендуются и используется в данном примере.
-
-1.  Активировать макрос
-2.  Выбрать объект, который вы хотите использовать. В нашем случае это Куб
-3.  Выберете пункт **Create Mechanical Analysis from mesh**
-4.  Кликните **OK**
-
-
-</div>
-
-Мы создали сетку для нашего объекта и готовы добавить к нему ограничения и действующие силы.
-
-### Constraints and Forces 
-
-
-<div class="mw-translate-fuzzy">
-
-### Ограничения и силы 
+### Установка ограничений и приложение силы 
 
 1.  Скройте сетку внутри древа проекта.
 2.  Откройте оригинальную модель
@@ -141,12 +83,9 @@
 7.  Установите **Direction** в **-Z** выбором одной из граней параллельно этому направлеию.
 8.  Кликните OK
 
-
-</div>
-
 Теперь мы установили ограничения и силы для нашего статического анализа.
 
-### Final preparations 
+### Выбор материала 
 
 
 <div class="mw-translate-fuzzy">
@@ -159,28 +98,43 @@
 
 </div>
 
-### Running the Solver 
+### Создание Mesh 
 
-#### Стандартная Процедура 
+Рекомендуется создавать mesh в качестве последнего шага при подготовке к анализу из-за привязки к геометрии в FreeCAD. В зависимости от установки FreeCAD, mesh может быть с Netgen или GMSH, вы можете использовать любую из них.
+
+#### Netgen
+
+1.  Выбрать модель
+2.  Кликнуть в меню <img alt="" src=images/FEM_Analysis.png  style="width   *16px;"> [New mechanical analysis](FEM_Analysis/ru.md), чтобы создать анализ из выбранного объекта
+3.  В диалоге создания сетки кликнуть **OK**
 
 
 <div class="mw-translate-fuzzy">
 
-### Запуск решателя 
-
-#### Стандартная процедура 
-
-1.  Выберите объект решателя <img alt="" src=images/FEM_Solver.png  style="width   *16px;">, находящийся в 
-**Mechanical Analysis**
-2.  Выберите в меню <img alt="" src=images/FEM_Calculation.png  style="width   *16px;"> [Start solver job control](FEM_SolverControl/ru.md)
-3.  Выберите **Write Calculix Input File**
-4.  Выберите **Run Calculix**
-5.  Кликните **Close**
+Вы также можете перетащить сетку в Mechanical Analysis, у которого нет сетки, внутри древа проекта.
 
 
 </div>
 
-#### Быстрая Процедура 
+#### GMSH
+
+1.  Select the model
+2.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)   * Generates a finite element mesh for a model using Gmsh.
+3.  In the meshing dialog, click **Apply** and **OK**.
+
+Мы создали сетку для нашего объекта и готовы добавить к нему ограничения и действующие силы.
+
+### Запуск решателя 
+
+#### Стандартный способ 
+
+1.  Выберите объект решателя <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;">, находящийся в контейнере **Analysis**.
+2.  Выберите в меню <img alt="" src=images/FEM_SolverControl.svg  style="width   *24px;"> [Solver job control](FEM_SolverControl.md)
+3.  Выберите **Write .inp File**.
+4.  Выберите **Run Calculix**.
+5.  Click **OK**.
+
+#### Быстрый способ 
 
 
 <div class="mw-translate-fuzzy">

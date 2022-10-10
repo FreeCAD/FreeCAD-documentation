@@ -84,9 +84,56 @@ Acest tutorial are rolul de a introduce cititorul în fluxul de lucru de bază a
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Acum avem un model cu care să lucrăm.
 
+
+</div>
+
 ### Creating the Analysis 
+
+1.  Activate the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM Workbench](FEM_Workbench.md).
+2.  Select the **Model → <img src="images/FEM_Analysis.svg" width=16px> Analysis container‏‎** option from the menu.
+
+### Constraints and Forces 
+
+
+<div class="mw-translate-fuzzy">
+
+#### Constrângeri și Forțe 
+
+1.  Ascundeți plasa din vederea arorescentă Tree View.
+2.  Arătați modelul original
+3.  Selectați <img alt="" src=images/FEM_FixedConstraint.png  style="width   *16px;"> [Create FEM fixed constraint](FEM_ConstraintFixed.md)
+4.  Selectați fațeta din spate a Cube (fațeta de pe planul definit de axele **YZ**) și click OK
+5.  Selectați <img alt="" src=images/FEM_ForceConstraint.png  style="width   *16px;"> [Create FEM force constraint](FEM_ConstraintForce.md)
+6.  Selectați fațeta din față a Cube (Fațeta paralelă cu fațeta din spate) și definiți **Area load** cu valoarea de 9000000.00
+7.  Definiți **Direction** la **-Z** prin selectarea unei adintre fațetele paralele cu această direcție.
+8.  Click OK
+
+
+</div>
+
+Am stabilit restricțiile și forțele pentru studiul nostru static.
+
+### Material
+
+
+<div class="mw-translate-fuzzy">
+
+#### finalul Pregătirilor 
+
+1.  Select <img alt="" src=images/FEM_Material.png  style="width   *16px;"> [Mechanical material\...](FEM_MaterialSolid.md) and choose Calculix as the material
+2.  Click **OK**
+
+
+</div>
+
+### Meshing
+
+It is recommended to make a mesh as the last step in the analysis preparations due to association to a geometry in FreeCAD. Depending on FreeCAD installation, there can be Netgen or GMSH meshers, you can use any of them.
 
 #### Netgen
 
@@ -114,56 +161,11 @@ Puteți, de asemenea, să glisați și să plasați o plasă într-o Analiză Me
 
 #### GMSH
 
-
-<div class="mw-translate-fuzzy">
-
-##### GMSH 
-
-Gmsh este finite-element mesh generator folosirea macromenzii psicofil\'s este recomandată, și este folosită în acest exemplu.
-
-1.  Activați macrocomanda
-2.  Selectați obiectul pe dorinți să-l utilizați, în acest caz Cube-ul nostru
-3.  Bifați caseta**Create Mechanical Analysis from mesh**
-4.  Click **OK**
-
-
-</div>
+1.  Select the model
+2.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)   * Generates a finite element mesh for a model using Gmsh.
+3.  In the meshing dialog, click **Apply** and **OK**.
 
 Ne-am discretizat într-o plasă cu ochiuri acum obiectul și suntem gata să adăugăm constrângeri și forțe.
-
-### Constraints and Forces 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Constrângeri și Forțe 
-
-1.  Ascundeți plasa din vederea arorescentă Tree View.
-2.  Arătați modelul original
-3.  Selectați <img alt="" src=images/FEM_FixedConstraint.png  style="width   *16px;"> [Create FEM fixed constraint](FEM_ConstraintFixed.md)
-4.  Selectați fațeta din spate a Cube (fațeta de pe planul definit de axele **YZ**) și click OK
-5.  Selectați <img alt="" src=images/FEM_ForceConstraint.png  style="width   *16px;"> [Create FEM force constraint](FEM_ConstraintForce.md)
-6.  Selectați fațeta din față a Cube (Fațeta paralelă cu fațeta din spate) și definiți **Area load** cu valoarea de 9000000.00
-7.  Definiți **Direction** la **-Z** prin selectarea unei adintre fațetele paralele cu această direcție.
-8.  Click OK
-
-
-</div>
-
-Am stabilit restricțiile și forțele pentru studiul nostru static.
-
-### Final preparations 
-
-
-<div class="mw-translate-fuzzy">
-
-#### finalul Pregătirilor 
-
-1.  Select <img alt="" src=images/FEM_Material.png  style="width   *16px;"> [Mechanical material\...](FEM_MaterialSolid.md) and choose Calculix as the material
-2.  Click **OK**
-
-
-</div>
 
 ### Running the Solver 
 

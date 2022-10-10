@@ -20,13 +20,7 @@ Questa macro crea i piani e le pareti laterali di un armadio con le specifiche S
 <img alt="" src=images/cabinettop.png  style="width   *480px;"> 
 *Parte superiore dell'armadio*
 
-
-<div class="mw-translate-fuzzy">
-
-## Uso
-
-
-</div>
+## Utilizzo
 
 -   Avviare la macro e cambiare la lunghezza, l\'altezza e la larghezza dell\'armadio.
 -   La Gui chiede se volete praticare uno o due fori di connessione.
@@ -554,7 +548,7 @@ if guiok   *
 
 ## Link
 
--   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
+-   [Macro_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
 
 

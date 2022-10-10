@@ -111,7 +111,7 @@ Through the Wall fins add structural strength by extending though the outer body
 
 {{TitleProperty|Fin}}
 
--    **Fin Type**   * Defines the shape of the fin. At the moment, only Trapezoidal fins are supported.
+-    **Fin Type**   * Defines the shape of the fin.
 
 -    **Height**   * The fin height.
 

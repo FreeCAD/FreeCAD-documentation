@@ -3,7 +3,7 @@
    Name   *Std MeasureDistance
    MenuLocation   *Tools → Measure distance
    Workbenches   *All
-   SeeAlso   *[Part Measure Tools](Part_Measure_Menu.md), [Draft Dimension](Draft_Dimension.md), [Arch Survey](Arch_Survey.md)
+   SeeAlso   *[Part Measure Linear](Part_Measure_Linear.md), [Draft Dimension](Draft_Dimension.md)
 ---
 
 # Std MeasureDistance/en

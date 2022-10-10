@@ -1,85 +1,85 @@
 # Scripting and macros/it
-## Overview of Python scripting pages 
+## Panoramica delle pagine di scripting Python 
 
--   Python related pages in the Manual   *
-    -   [A gentle introduction](Manual_A_gentle_introduction.md)
-    -   [Creating and manipulating geometry](Manual_Creating_and_manipulating_geometry.md)
-    -   [Creating parametric objects](Manual_Creating_parametric_objects.md)
-    -   [Creating interface tools](Manual_Creating_interface_tools.md)
+-   Pagine relative a Python nel Manuale   *
+    -   [Breve introduzione a Python](Manual   *A_gentle_introduction/it.md)
+    -   [Creare e manipolare la geometria](Manual   *Creating_and_manipulating_geometry/it.md)
+    -   [Creare oggetti parametrici](Manual   *Creating_parametric_objects/it.md)
+    -   [Creare interfacce di strumenti](Manual   *Creating_interface_tools/it.md)
 
--   Basics   *
-    -   [Working with macros](Macros.md)
-    -   [Script tutorial](Scripts.md)
-    -   [Introduction to Python](Introduction_to_Python.md)
-    -   [Python scripting tutorial](Python_scripting_tutorial.md)
-    -   [FreeCAD scripting basics](FreeCAD_Scripting_Basics.md)
+-   Nozioni di base   *
+    -   [Macro](Macros/it.md)
+    -   [Script](Scripts/it.md)
+    -   [Introduzione a Python](Introduction_to_Python/it.md)
+    -   [Guida agli Script Python](Python_scripting_tutorial/it.md)
+    -   [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
--   Built-in workbench related   *
-    -   [Drawing scripting](Drawing_API_example.md) (**the Drawing workbench is obsolete**)
-    -   [FEM scripting](FEM_Tutorial_Python.md)
-    -   [Mesh scripting](Mesh_Scripting.md)
-    -   [Mesh   * Converting between Meshes and Parts](Mesh_to_Part.md)
-    -   [Part scripting](Part_scripting.md)
-    -   [Part   * Basic shape manipulation](Topological_data_scripting.md)
-    -   [Part   * Create a ball bearing part I](Scripted_Parts   *_Ball_Bearing_-_Part_1.md)
-    -   [Part   * Create a ball bearing part II](Scripted_Parts   *_Ball_Bearing_-_Part_2.md)
-    -   [Path scripting](Path_scripting.md)
-    -   [Raytracing scripting](Raytracing_API_example.md) (**the Raytracing workbench is obsolete**)
-    -   [Sketcher scripting](Sketcher_scripting.md)
+-   Relativamente agli ambienti integrati   *
+    -   [Esempi di API Drawing](Drawing_API_example/it.md) (**l'ambiente Drawing è obsoleto**)
+    -   [FEM Tutorial Python](FEM_Tutorial_Python/it.md)
+    -   [Script in ambiente Mesh](Mesh_Scripting/it.md)
+    -   [Da Mesh a Parte e viceversa](Mesh_to_Part/it.md)
+    -   [Script di Part](Part_scripting/it.md)
+    -   [Part   * Script di dati topologici](Topological_data_scripting/it.md)
+    -   [Part   * Cuscinetto a sfere - Parte 1](Scripted_Parts   *_Ball_Bearing_-_Part_1/it.md)
+    -   [Part   * Cuscinetto a sfere - Parte 2](Scripted_Parts   *_Ball_Bearing_-_Part_2/it.md)
+    -   [Script di Path](Path_scripting/it.md)
+    -   [Esempi di API Raytracing](Raytracing_API_example/it.md) (**l'ambiente Raytracing è obsoleto**)
+    -   [Script di Sketcher](Sketcher_scripting/it.md)
 
--   FeaturePython objects (also called \'scripted objects\')   *
-    -   [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I.md)
-    -   [Create a FeaturePython object part II](Create_a_FeaturePython_object_part_II.md)
-    -   [Scripted objects](Scripted_objects.md)
-    -   [Scripted objects saving attributes](Scripted_objects_saving_attributes.md)
-    -   [Scripted objects migration](Scripted_objects_migration.md)
-    -   [Scripted objects with attachment](Scripted_objects_with_attachment.md)
-    -   [Viewprovider](Viewprovider.md)
-    -   [Custom icon in tree view](Custom_icon_in_tree_view.md)
-    -   [Properties](Property.md)
-    -   [PropertyLink   * InList and OutList](PropertyLink__InList_and_OutList.md)
-    -   [Methods](FeaturePython_methods.md)
+-   Oggetti FeaturePython (chiamati anche \"oggetti con script\")   *
+    -   [Creare oggetti FeaturePython parte 1](Create_a_FeaturePython_object_part_I/it.md)
+    -   [Creare oggetti FeaturePython parte 2](Create_a_FeaturePython_object_part_II/it.md)
+    -   [Script di oggetti](Scripted_objects/it.md)
+    -   [Oggetti creati con script che salvano gli attributi](Scripted_objects_saving_attributes/it.md)
+    -   [Migrazione di oggetti creati con script](Scripted_objects_migration/it.md)
+    -   [Oggetti creati da script con parti associate](Scripted_objects_with_attachment/it.md)
+    -   [Viewprovider](Viewprovider/it.md)
+    -   [Icona personalizzata nella vista ad albero](Custom_icon_in_tree_view/it.md)
+    -   [Proprietà](Property/it.md)
+    -   [PropertyLink   * InList e OutList](PropertyLink   *_InList_and_OutList/it.md)
+    -   [Metodi](FeaturePython_methods/it.md)
 
--   [3D view](3D_view.md)   *
-    -   [The Coin scenegraph](Scenegraph.md)
-    -   [Pivy](Pivy.md)
+-   [Vista 3D](3D_view/it.md)   *
+    -   [La Scena grafica Coin](Scenegraph/it.md)
+    -   [Pivy](Pivy/it.md)
 
--   User interface   *
-    -   [PySide](PySide.md)
-    -   [PySide beginner examples](PySide_Beginner_Examples.md)
-    -   [PySide intermediate examples](PySide_Intermediate_Examples.md)
-    -   [PySide advanced examples](PySide_Advanced_Examples.md)
-    -   [PySide usage snippets](PySide_usage_snippets.md)
-    -   [Interface creation](Interface_creation.md)
-    -   [Dialog creation](Dialog_creation.md)
-    -   [Dialog creation with various widgets](Dialog_creation_with_various_widgets.md)
-    -   [Dialog creation reading and writing files](Dialog_creation_reading_and_writing_files.md)
-    -   [Dialog creation setting colors](Dialog_creation_setting_colors.md)
-    -   [Dialog creation image and animated GIF](Dialog_creation_image_and_animated_GIF.md)
-    -   [Qt Example](Qt_Example.md)
+-   Interfaccia utente   *
+    -   [PySide](PySide/it.md)
+    -   [Esempi di livello base di PySide](PySide_Beginner_Examples/it.md)
+    -   [Esempi di livello medio di PySide](PySide_Intermediate_Examples/it.md)
+    -   [Esempi di PySide di livello avanzato](PySide_Advanced_Examples/it.md)
+    -   [Frammenti di codice per l\'utilizzo di PySide](PySide_usage_snippets/it.md)
+    -   [Creare l\'interfaccia](Interface_creation/it.md)
+    -   [Creare delle finestre di dialogo](Dialog_creation/it.md)
+    -   [Creare una finestra di dialogo con diversi widget](Dialog_creation_with_various_widgets/it.md)
+    -   [Creare una finestra di dialogo per leggere e scrivere file](Dialog_creation_reading_and_writing_files/it.md)
+    -   [Creare una finestra di dialogo per la regolazione del colore](Dialog_creation_setting_colors/it.md)
+    -   [Creare una finestra di dialogo per immagini e GIF animate](Dialog_creation_image_and_animated_GIF/it.md)
+    -   [Esempio Qt](Qt_Example/it.md)
 
--   Snippets and examples   *
-    -   [Define a command](Command.md)
-    -   [Workbench creation](Workbench_creation.md)
-    -   [Code snippets](Code_snippets.md)
-    -   [Macros recipes](Macros_recipes.md)
-    -   [Line drawing function](Line_drawing_function.md)
+-   Frammenti di codice ed esempi   *
+    -   [Definire un comando](Command/it.md)
+    -   [Creare un Ambiente di lavoro](Workbench_creation/it.md)
+    -   [Frammenti di codice](Code_snippets/it.md)
+    -   [Raccolta di macro](Macros_recipes/it.md)
+    -   [Funzione per disegnare delle linee](Line_drawing_function/it.md)
 
--   Miscellaneous   *
-    -   [Debugging](Debugging.md)
-    -   [Embedding FreeCAD](Embedding_FreeCAD.md)
-    -   [Embedding FreeCADGui](Embedding_FreeCADGui.md)
-    -   [Extra python modules](Extra_python_modules.md)
-    -   [FreeCAD vector math library](FreeCAD_vector_math_library.md)
-    -   [How to install macros](How_to_install_macros.md)
+-   Varie   *
+    -   [Debugging](Debugging/it.md)
+    -   [Incorporare FreeCAD](Embedding_FreeCAD/it.md)
+    -   [Incorporare l\'interfaccia grafica di FreeCAD](Embedding_FreeCADGui/it.md)
+    -   [Moduli Python aggiuntivi](Extra_python_modules/it.md)
+    -   [Libreria di matematica vettoriale di FreeCAD](FreeCAD_vector_math_library/it.md)
+    -   [Come installare le macro](How_to_install_macros/it.md)
     -   [IPython notebook integration](IPython_notebook_integration.md)
-    -   [Macro at startup](Macro_at_Startup.md)
-    -   [Profiling](Profiling.md)
-    -   [Python](Python.md)
-    -   [PythonOCC](PythonOCC.md)
-    -   [Python development environment](Python_Development_Environment.md)
-    -   [Quantity](Quantity.md)
-    -   [Svg namespace](Svg_Namespace.md)
+    -   [Eseguire automaticamente una macro all\'avvio](Macro_at_Startup/it.md)
+    -   [Profilazione](Profiling/it.md)
+    -   [Python](Python/it.md)
+    -   [PythonOCC](PythonOCC/it.md)
+    -   [Ambiente di sviluppo Python](Python_Development_Environment/it.md)
+    -   [Quantity](Quantity/it.md)
+    -   [Svg namespace](Svg_Namespace/it.md)
 
 
 
