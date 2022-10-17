@@ -12,7 +12,7 @@ This page contains links related to FreeCAD and other FLOSS projects.
 -   [Slackware](http   *//slackbuilds.org/repository/14.2/graphics/FreeCAD/) Slackware package info
 -   [Gentoo](http   *//gpo.zugaina.org/media-gfx/freecad) Gentoo package info
 -   [OpenSUSE](https   *//software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD) openSUSE package info
--   [Freenode](irc   *//chat.freenode.net/#freecad) The official \#freecad IRC channel on Freenode
+-   [Freenode](irc   *//chat.freenode.net/#freecad) The official #freecad IRC channel on Freenode
 -   [Facebook](http   *//www.facebook.com/FreeCAD) The official FreeCAD facebook page
 
 ## Other CAD software 

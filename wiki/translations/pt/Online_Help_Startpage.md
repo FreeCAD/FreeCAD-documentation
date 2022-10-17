@@ -17,7 +17,7 @@ Este documento está dividido em várias secções   * introdução, utilizaçã
 
 ### Contribuir
 
-Como já deve ter reparado, os programadores são muito maus a escrever documentação. Para eles é tudo muito claro porque eles é que fizeram o programa. Por isso é fundamental que utilizadores experientes nos ajudem a escrever e a rever a documentação. Sim, estamos a falar de si! E como? vá ao wiki em <http   *//www.freecadweb.org/wiki/index.php> na secção dos utilizadores. Vai precisar de uma [conta no souceforge](http   *//sourceforge.net/) para entrar e depois pedir no forum ou no canal de irc permição de escrita (o wiki está protegido contra escrita para evitar *spamming*). Depois pode começar a escrever! Veja também a página em [Help\_FreeCAD](Help_FreeCAD.md) (em inglês) para outras maneiras de ajudar.
+Como já deve ter reparado, os programadores são muito maus a escrever documentação. Para eles é tudo muito claro porque eles é que fizeram o programa. Por isso é fundamental que utilizadores experientes nos ajudem a escrever e a rever a documentação. Sim, estamos a falar de si! E como? vá ao wiki em <http   *//www.freecadweb.org/wiki/index.php> na secção dos utilizadores. Vai precisar de uma [conta no souceforge](http   *//sourceforge.net/) para entrar e depois pedir no forum ou no canal de irc permição de escrita (o wiki está protegido contra escrita para evitar *spamming*). Depois pode começar a escrever! Veja também a página em [Help_FreeCAD](Help_FreeCAD.md) (em inglês) para outras maneiras de ajudar.
 
 
 {{docnav/pt|About_FreeCAD/pt|Acerca do FreeCAD}}
@@ -25,7 +25,7 @@ Como já deve ter reparado, os programadores são muito maus a escrever document
 
 
 
-[Category   *User\_Documentation](Category_User_Documentation.md)
+[Category   *User_Documentation](Category_User_Documentation.md)
 
 
 

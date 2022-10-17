@@ -403,7 +403,7 @@ def makeBCurveEdge(Points)   *
 
 ### Création d\'un plan 
 
-Un plan est une surface rectangulaire plate. La méthode utilisée pour le créer est `makePlane(length, width, [start_pnt, dir_normal])`. Par défaut start\_pnt = Vector(0, 0, 0) et dir\_normal = Vector(0, 0, 1). L\'utilisation de dir\_normal = Vector(0, 0, 1) créera le plan orienté dans la direction positive de l\'axe Z, tandis que dir\_normal = Vector(1, 0, 0) créera le plan orienté dans la direction positive de l\'axe X    *
+Un plan est une surface rectangulaire plate. La méthode utilisée pour le créer est `makePlane(length, width, [start_pnt, dir_normal])`. Par défaut start_pnt = Vector(0, 0, 0) et dir_normal = Vector(0, 0, 1). L\'utilisation de dir_normal = Vector(0, 0, 1) créera le plan orienté dans la direction positive de l\'axe Z, tandis que dir_normal = Vector(1, 0, 0) créera le plan orienté dans la direction positive de l\'axe X    *
 
 
 ```python
@@ -420,7 +420,7 @@ plane.BoundBox
 
 est un cuboïde entourant le plan avec une diagonale commençant à (3, 0, 0) et se terminant en (5, 0, 2). Ici, l\'épaisseur du `BoundBox` le long de l\'axe Y est nulle, puisque notre forme est totalement plate.
 
-Remarque    * `makePlane()` accepte uniquement `App.Vector()` pour start\_pnt et dir\_normal et pas les tuples. {{Top}}
+Remarque    * `makePlane()` accepte uniquement `App.Vector()` pour start_pnt et dir_normal et pas les tuples. {{Top}}
 
 ### Création d\'une ellipse 
 

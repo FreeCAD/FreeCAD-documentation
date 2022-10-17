@@ -89,12 +89,12 @@
 
 -   Adding manually a property named **RotateSolidRender** of type **App   *   *PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
 
-## Сценарии
+## Программирование
 
 
 **См. так же   ***
 
-[Arch API](Arch_API/ru.md) и [Основы написания скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 Инструмент SectionPlane может использоваться в [макросах](macros/ru.md) и в консоли [Python](Python.md) с использованием следующих функций   *
 
@@ -133,15 +133,6 @@ Section2 = Arch.makeSectionPlane([Structure])
 Section3 = Arch.makeSectionPlane([Site])
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

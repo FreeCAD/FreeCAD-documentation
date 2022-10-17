@@ -2,16 +2,12 @@
 - GuiCommand   */pl
    Name   *Std FreezeViews
    Name/pl   *Std   * Zamroź widok
-   Empty   *1
    MenuLocation   *Widok → Zamroź widok → ...
    Workbenches   *Wszystkie
    SeeAlso   *[Zachowaj widok](Std_StoreWorkingView/pl.md), [Odtwórz widok](Std_RecallWorkingView/pl.md),[Ustaw ujęcie widoku](Std_ViewIvIssueCamPos/pl.md)
 ---
 
 # Std FreezeViews/pl
-
-
-</div>
 
 ## Wprowadzenie
 

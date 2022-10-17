@@ -22,7 +22,7 @@ Cette macro crée une pyramide paramétrique.
 Note   *
 
 Si vous êtes également intéressé par les polyèdres, vous pouvez également utiliser Macro Polyhedrons.
-Vous pouvez également utiliser l\'atelier externe [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (lien github) qui contient la même fonction.
+Vous pouvez également utiliser l\'atelier externe [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (lien github) qui contient la même fonction.
 
 ![](images/Polyhedrons.png )
 
@@ -36,7 +36,7 @@ Vous pouvez également utiliser l\'atelier externe [Pyramids\_and\_Polyhedrons](
 -   Une fois installé, ouvrez Menu → Macro → Macros. Cliquez sur pyramid.py puis sur le bouton {{button|Executer}}.
 -   Une pyramide nouée apparaîtra, semblable à la partie cône
 -   Modifiez les paramètres comme avec Part Cone.
--   Allez sur [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README) pour plus d\'informations.
+-   Allez sur [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README) pour plus d\'informations.
 
 ## Script
 

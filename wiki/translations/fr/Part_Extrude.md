@@ -82,7 +82,7 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 
 -   Le bouton **Select** cliquez dessus, puis choisissez une arête en [vue 3D](3D_view/fr.md). Ce bord apparaîtra dans le champ de texte à côté du bouton, au format \"ObjectName   * EdgeN\". Vous pouvez également taper le lien manuellement. Les valeurs X, Y, Z seront remplies en fonction de la direction du bord.
 
--   Les boutons **X**, **Y**, **Z**   * cliquez sur le bouton *x* pour définir la direction d\'extrusion sur l\'axe +\'\' x*. Cliquez à nouveau pour définir l\'axe -* x \'\'.
+-   Les boutons **X**, **Y**, **Z**   * cliquez sur le bouton *x* pour définir la direction d\'extrusion sur l\'axe +*x*. Cliquez à nouveau pour définir l\'axe -*x*.
 
 -   Champs de saisie **X**, **Y**, **Z**   * définissez ou affichez le vecteur de direction de l\'extrusion. Si les deux longueurs sont égales à zéro, la longueur de ce vecteur définit la longueur de l\'extrusion et les valeurs sont toujours exprimées en mm, quelles que soient les préférences de l\'unité.
 

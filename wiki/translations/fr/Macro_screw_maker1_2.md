@@ -26,7 +26,7 @@ Si vous sélectionnez un cercle sur un forage, ou alternativement la surface int
 
 <center>
 
-<File   *Macro_screw_maker_02.png%7CInterface> de **screw\_maker** et quelques types de vis. <File   *Macro_screw_maker_03.png%7CUne> vis avec son filet
+<File   *Macro_screw_maker_02.png%7CInterface> de **screw_maker** et quelques types de vis. <File   *Macro_screw_maker_03.png%7CUne> vis avec son filet
 
 
 </center>
@@ -41,7 +41,7 @@ La dernière version de la macro se trouve à l\'adresse [ScrewMaker.FCMacro](ht
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 
-**Macro\_screw\_maker\_2.FCMacro**
+**Macro_screw_maker_2.FCMacro**
 
 
 {{MacroCode|code=

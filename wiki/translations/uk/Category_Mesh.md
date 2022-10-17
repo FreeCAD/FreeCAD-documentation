@@ -1,5 +1,5 @@
 # Category:Mesh/uk
-This category lists pages related to the [Mesh\_Workbench/uk](Mesh_Workbench/uk.md).
+This category lists pages related to the [Mesh_Workbench/uk](Mesh_Workbench/uk.md).
 
 [Category   *Workbenches/uk](Category   *Workbenches/uk.md)
 

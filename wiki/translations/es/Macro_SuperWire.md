@@ -29,7 +29,7 @@ Atención, necesitas una versión reciente de FreeCAD para que esto funcione
 
 ToolBar Icon ![](images/Macro_SuperWire.png )
 
-**Macro\_SuperWire.FCMacro**
+**Macro_SuperWire.FCMacro**
 
 
 {{MacroCode|code=

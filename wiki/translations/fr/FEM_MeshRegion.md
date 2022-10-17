@@ -34,13 +34,13 @@ Vous pouvez créer autant de maillages différents que nécessaire.
 ## Exemples visuels 
 
 <img alt="" src=images/FEMMeshRegion_Example1.png style="width   *300px;"> 
-*Exemple 1    * Le FEMMeshGMSH grossier initial*
+*Exemple 1    * le maillage FEM grossier initial par GMSH*
 
 <img alt="" src=images/FEMMeshRegion_Example2.png  style="width   *300px;"> 
-*Exemple 2    * Après avoir appliqué un raffinement du maillage à l'aide de deux FEMMeshRegion, le grand trou est raffiné à une taille d'élément maximale de 3 mm, le petit trou est raffiné à 1 mm.*
+*Exemple 2    * après application d'un raffinement du maillage à l'aide de deux régions de maillage FEM, le grand trou est raffiné à une taille d'élément maximale de 3 mm, le petit trou est raffiné à 1 mm.*
 
 <img alt="" src=images/FEMMeshRegion_Example3.png  style="width   *300px;"> 
-*Exemple 3    * Un exemple simple de la vue en arborescence résultante*
+*Exemple 3    * un exemple simple de la vue en arborescence résultante*
 
 ## Remarques
 

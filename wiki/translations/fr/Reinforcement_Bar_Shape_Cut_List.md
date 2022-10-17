@@ -132,7 +132,7 @@ getRebarShapeSVG(
 
 -    `rebar_stroke_width`spécifie la largeur de trait de l\'armature en SVG.
 
--    `rebar_color_style`spécifie le style de couleur de l\'armature. Il peut s\'agir de \"couleur de forme\" ou \"nom\_couleur ou valeur\_hexique\_de\_couleur\". \"couleur de forme\" signifie sélectionner la couleur de la forme de l\'armature.
+-    `rebar_color_style`spécifie le style de couleur de l\'armature. Il peut s\'agir de \"couleur de forme\" ou \"nom_couleur ou valeur_hexique_de_couleur\". \"couleur de forme\" signifie sélectionner la couleur de la forme de l\'armature.
 
 -    `include_dimensions`spécifie si chaque dimension d\'arête d\'armature et les dimensions d\'angle plié doivent être incluses dans le SVG de forme d\'armature.
 
@@ -154,7 +154,7 @@ getRebarShapeSVG(
    %R -> Rayon d'hélice de l'armature hélicoïdale
    %P -> Pas d'hélice de l'armature hélicoïdale
 
--    `scale`spécifie la valeur d\'échelle pour mettre à l\'échelle le SVG d\'armature. Le paramètre d\'échelle aide à réduire rebar\_stroke\_width et dimension\_font\_size pour les rendre indépendants de la résolution. Si max\_height ou max\_width est défini sur une valeur différente de zéro, le paramètre d\'échelle sera ignoré.
+-    `scale`spécifie la valeur d\'échelle pour mettre à l\'échelle le SVG d\'armature. Le paramètre d\'échelle aide à réduire rebar_stroke_width et dimension_font_size pour les rendre indépendants de la résolution. Si max_height ou max_width est défini sur une valeur différente de zéro, le paramètre d\'échelle sera ignoré.
 
 -    `max_height`spécifie la hauteur maximale du SVG de forme d\'armature. Définissez-le sur 0 pour avoir une hauteur de SVG de forme d\'armature basée sur le paramètre d\'échelle.
 
@@ -255,7 +255,7 @@ getRebarShapeCutList(
 
 -    `base_rebars_list`est une liste d\'objets \<ArchRebar.\_Rebar\> ou \<rebar2.BaseRebar\>, pour générer leur liste de coupe RebarShape. S\'il n\'est pas fourni, tous les objets ArchRebars et rebar2.BaseRebar avec une marque unique d\'ActiveDocument seront sélectionnés et les armatures sans marque attribuée seront ignorées.
 
--    `view_directions`est une liste de directions de viewpoint pour chaque forme d\'armature. Il peut être de type `FreeCAD.Vector` ou `WorkingPlane.Plane` OU leur liste. Gardez-le `FreeCAD.Vector(0, 0, 0)` pour choisir automatiquement view\_directions.
+-    `view_directions`est une liste de directions de viewpoint pour chaque forme d\'armature. Il peut être de type `FreeCAD.Vector` ou `WorkingPlane.Plane` OU leur liste. Gardez-le `FreeCAD.Vector(0, 0, 0)` pour choisir automatiquement view_directions.
 
 -    `include_mark`spécifie si rebar.Mark doit être inclus pour chaque forme d\'armature dans la liste de coupe de forme d\'armature SVG ou non.
 
@@ -263,7 +263,7 @@ getRebarShapeCutList(
 
 -    `rebars_stroke_width`spécifie la largeur de trait des armatures en SVG de liste de coupe de forme d\'armature.
 
--    `rebars_color_style`spécifie le style de couleur des armatures. Il peut s\'agir de \"shape color\" ou \"color\_name ou hex\_value\_of\_color\". \"shape color\" signifie sélectionner la couleur de la forme de l\'armature.
+-    `rebars_color_style`spécifie le style de couleur des armatures. Il peut s\'agir de \"shape color\" ou \"color_name ou hex_value_of_color\". \"shape color\" signifie sélectionner la couleur de la forme de l\'armature.
 
 -    `include_dimensions`spécifie si les dimensions de chaque arête d\'armature et les cotes d\'angle plié doivent être incluses dans la liste de coupe des formes d\'armature.
 
@@ -289,7 +289,7 @@ getRebarShapeCutList(
 
 -    `column_width`spécifie la largeur de chaque ligne de forme d\'armature dans la liste de coupe de forme d\'armature.
 
--    `column_count`spécifie le nombre de colonnes dans la liste de coupe de forme d\'armature. Définissez-le sur \"row\_count\" pour avoir column\_count \<= row\_count
+-    `column_count`spécifie le nombre de colonnes dans la liste de coupe de forme d\'armature. Définissez-le sur \"row_count\" pour avoir column_count \<= row_count
 
 -    `side_padding`spécifie le remplissage de chaque côté de la forme d\'armature dans la liste de coupe de forme d\'armature.
 

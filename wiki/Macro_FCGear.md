@@ -39,9 +39,9 @@ Note   *
 -   click on gear symbol
 -   change parameters
 
-<img alt="Involutegear" src=images/Involutegear.png  style="width   *100px;"><img alt="FCGear\_involutegear\_par" src=images/FCGear_involutegear_par.png  style="width   *300px;"> <img alt="Involuterack." src=images/Involuterack.png  style="width   *100px;"><img alt="FCGear\_involuterack\_par" src=images/FCGear_involuterack_par.png  style="width   *300px;">
+<img alt="Involutegear" src=images/Involutegear.png  style="width   *100px;"><img alt="FCGear_involutegear_par" src=images/FCGear_involutegear_par.png  style="width   *300px;"> <img alt="Involuterack." src=images/Involuterack.png  style="width   *100px;"><img alt="FCGear_involuterack_par" src=images/FCGear_involuterack_par.png  style="width   *300px;">
 
-<img alt="Cycloidegear" src=images/Cycloidegear.png  style="width   *100px;"><img alt="FCGear\_cycloide\_par" src=images/FCGear_cycloide_par.png  style="width   *300px;"> <img alt="Bevelgear" src=images/Bevelgear.png  style="width   *100px;"><img alt="FCGear\_bevel\_par" src=images/FCGear_bevel_par.png  style="width   *300px;">
+<img alt="Cycloidegear" src=images/Cycloidegear.png  style="width   *100px;"><img alt="FCGear_cycloide_par" src=images/FCGear_cycloide_par.png  style="width   *300px;"> <img alt="Bevelgear" src=images/Bevelgear.png  style="width   *100px;"><img alt="FCGear_bevel_par" src=images/FCGear_bevel_par.png  style="width   *300px;">
 
  
 

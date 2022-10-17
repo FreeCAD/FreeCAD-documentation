@@ -61,7 +61,7 @@ Empty
 
 ## Properties
 
-\'\'\' *Note* \'\'\'   * The names of some Properties in this list differ a little from the same settings used in the Task Window Editor.
+***Note***   * The names of some Properties in this list differ a little from the same settings used in the Task Window Editor.
 
 ### Data
 
@@ -188,7 +188,7 @@ Note   * It is suggested that you do not edit the Placement property of path ope
 
 -    **Enable Rotation**   * Enable rotation to gain access to pockets or areas not normal to Z axis.
 
--    **Inverse Angle**   * Inverse the angle of the rotation. \'\' **Example   *** change a rotation from -22.5 to 22.5 degrees.\'\'
+-    **Inverse Angle**   * Inverse the angle of the rotation. ***Example   *** change a rotation from -22.5 to 22.5 degrees.*
 
 -    **Limit Depth To Face**   * Enforce the Z-depth of the selected face as the lowest value for final depth. Higher user values for final depth will be observed.
 

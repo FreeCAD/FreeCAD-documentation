@@ -140,7 +140,7 @@ Alternatively, use the mouse wheel to zoom in and out.
 
 </div>
 
-Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
+Alternatively, use the mouse wheel to zoom in and out. \|Rotate_view_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
 ### OpenCascade navigation 
 

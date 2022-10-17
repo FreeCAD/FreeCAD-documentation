@@ -18,7 +18,7 @@ Cette macro aplatit les fils qui ne sont pas planaires sur un plan défini par 3
 
 Icône de la barre d\'outils ![](images/Macro_FlattenWire3Points.png )
 
-**Macro\_FlattenWire3Points.FCMacro**
+**Macro_FlattenWire3Points.FCMacro**
 
 
 {{MacroCode|code=

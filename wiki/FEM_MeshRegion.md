@@ -1,7 +1,7 @@
 ---
 - GuiCommand   *
    Name   *FEM MeshRegion
-   MenuLocation   * Mesh → FEM mesh region
+   MenuLocation   *Mesh → FEM mesh region
    Workbenches   *[FEM](FEM_Workbench.md)
    SeeAlso   *[FEM tutorial](FEM_tutorial.md)
 ---
@@ -23,7 +23,7 @@ Refining the mesh has the advantage of enabling accurate simulation where needed
 3.  Click the **OK** button.
 4.  Close the task.
 
-       *   Result   * You now should see a new `FEMMeshRegion` object under the `FEMMeshGMSH` object (see example \#3 below) in your active analysis container.
+       *   Result   * You now should see a new `FEMMeshRegion` object under the `FEMMeshGMSH` object (see example #3 below) in your active analysis container.
 5.  Double-click on the `FEMMeshGMSH` parent object in your Model Tree and press **Apply** to force a mesh recalculation.
 6.  Close the task.
 
@@ -33,11 +33,11 @@ You can create as many different mesh regions as needed.
 
 ## Visual examples 
 
-<img alt="" src=images/FEMMeshRegion_Example1.png  style="width   *300px;"> 
-*Example 1   * The initial coarse FEMMeshGMSH*
+<img alt="" src=images/FEMMeshRegion_Example1.png style="width   *300px;"> 
+*Example 1   * The initial coarse FEM Mesh by GMSH*
 
 <img alt="" src=images/FEMMeshRegion_Example2.png  style="width   *300px;"> 
-*Example 2   * After applying a Mesh refinement using two FEMMeshRegion, the large hole is refined to a maximum element size of 3 mm, the smaller hole is refined to 1 mm*
+*Example 2   * After applying a Mesh refinement using two FEM Mesh Region, the large hole is refined to a maximum element size of 3 mm, the smaller hole is refined to 1 mm*
 
 <img alt="" src=images/FEMMeshRegion_Example3.png  style="width   *300px;"> 
 *Example 3   * A simple example of the resulting Model Tree*

@@ -1,5 +1,5 @@
 # Path PathCommands
-1.  REDIRECT [Path\_Workbench](Path_Workbench.md)
+1.  REDIRECT [Path_Workbench](Path_Workbench.md)
 
 
 

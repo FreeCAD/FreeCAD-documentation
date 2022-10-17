@@ -1,5 +1,5 @@
 # Installing/cs
-1.  REDIRECT [Installing\_additional\_components/cs](Installing_additional_components/cs.md)
+1.  REDIRECT [Installing_additional_components/cs](Installing_additional_components/cs.md)
 
 
 

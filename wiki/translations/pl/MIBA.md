@@ -1,17 +1,17 @@
 # MIBA/pl
-## Introduction
+## Wprowadzenie
 
-Miba is a way to embed information about the 3D space into a 2D image. This makes it often possible to use the 2D picture instead of a 3D viewer. By the Miba information you\'re able to calculate the position of a 3D location in the 2D image. That allows you to decorate the image later with arbitrary 3D information. You can take the picture in an early state (design) and use it later (e.g. Production). You do not need to know the kind of 3D data or the positions when you take the picture. So the picture is completely separated from the 3D data.
+Miba to sposób na osadzenie informacji o przestrzeni 3D w obrazie 2D. Dzięki temu często możliwe jest użycie obrazu 2D zamiast przeglądarki 3D. Dzięki informacji Miba jesteś w stanie obliczyć pozycję miejsca 3D w obrazie 2D. To pozwala na późniejsze ozdobienie obrazu dowolnymi informacjami 3D. Możesz zrobić obraz we wczesnym stanie *(projekt)* i użyć go później *(np. produkcja)*. Nie musisz znać rodzaju danych 3D ani ich pozycji w momencie wykonywania zdjęcia. Zdjęcie jest więc całkowicie oddzielone od danych 3D.
 
-A detailed specification you can find here   * <http   *//miba.juergen-riegel.net/>
+Szczegółową specyfikację można znaleźć na stronie   * <http   *//miba.juergen-riegel.net/>
 
-## Miba in FreeCAD 
+## Miba w programie FreeCAD 
 
-If you choose a file format which has an comment ability ( JPG and PNG) you can choose to write a comment or insert the MIBA information in the comment fields (default)   *
+Jeśli wybierzesz format pliku, który ma możliwość komentowania *(JPG i PNG)* możesz wybrać opcję napisania komentarza lub wstawienia informacji MIBA w pola komentarza *(domyślnie)*   *
 
 <img alt="" src=images/Save_picture.png  style="width   *600px;">
 
-## Making Miba pictures by script 
+## Tworzenie obrazów Miba za pomocą skryptu 
 
 
 ```python
@@ -36,7 +36,7 @@ for p in ["PerspectiveCamera", "OrthographicCamera"]   *
 App.closeDocument(App.ActiveDocument.Name)
 ```
 
-[Category   *User\_Documentation](Category_User_Documentation.md)
+[Category   *User_Documentation](Category_User_Documentation.md)
 
 
 

@@ -136,7 +136,7 @@ Beachte, dass, wenn das Originalmakro über den Erweiterungsverwalter herunterge
 
 <div class="mw-translate-fuzzy">
 
--   [Extra\_python\_modules\#LazyLoader](Extra_python_modules#LazyLoader.md) LazyLoader ist ein Python-Modul, das verzögertes Laden erlaubt.
+-   [Extra_python_modules#LazyLoader](Extra_python_modules#LazyLoader.md) LazyLoader ist ein Python-Modul, das verzögertes Laden erlaubt.
 
 
 </div>

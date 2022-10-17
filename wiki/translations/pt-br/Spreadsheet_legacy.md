@@ -1,5 +1,5 @@
 # Spreadsheet legacy/pt-br
-1.  REDIRECT [Spreadsheet\_Workbench/pt-br](Spreadsheet_Workbench/pt-br.md)
+1.  REDIRECT [Spreadsheet_Workbench/pt-br](Spreadsheet_Workbench/pt-br.md)
 
 
 

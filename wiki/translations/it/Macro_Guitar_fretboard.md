@@ -22,7 +22,7 @@ Questa macro crea una tastiera conica composta (o no) multiscala (o no) con slot
 
 ## Codice
 
-The ToolBar Icon ![Macro\_Guitar\_fretboard](images/Macro_Guitar_fretboard.png )
+The ToolBar Icon ![Macro_Guitar_fretboard](images/Macro_Guitar_fretboard.png )
 
 **Macro Guitar fretboard.FCMacro**
 

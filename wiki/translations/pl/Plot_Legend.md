@@ -28,7 +28,7 @@ Pamiętaj, że style i etykiety serii danych mogą być edytowane za pomocą [na
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

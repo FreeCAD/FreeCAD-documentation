@@ -28,13 +28,13 @@ To stop animation type    * \"**animation.stop()**\"
 
 ## The File 
 
-[crank\_simul.fcstd](http   *//forum.freecadweb.org/download/file.php?id=5954)
+[crank_simul.fcstd](http   *//forum.freecadweb.org/download/file.php?id=5954)
 
 ## Script
 
 ToolBar Icon ![](images/Macro_crank_simul.png )
 
-**crank\_simul.FCMacro**
+**crank_simul.FCMacro**
 
 
 {{MacroCode|code=

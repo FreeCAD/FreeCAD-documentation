@@ -31,7 +31,7 @@ Ce tutoriel est basé sur le post de forum créé par schupin [FreeCAD / pov ray
 
 *align=center|Exemple d'un modèle 3D par schupin et d'un rendu haute qualité produit avec FreeCAD et POV-Ray.*
 
-Les fichiers utilisés dans ce tutoriel sont au post \#8 [du fil en question](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
+Les fichiers utilisés dans ce tutoriel sont au post #8 [du fil en question](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
 
 ## Configuration de base 
 

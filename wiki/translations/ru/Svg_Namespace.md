@@ -23,11 +23,11 @@
 
 \'\'\'), следующую строку    *
 
- {.xml}
+ xml
 
 
 
- {.xml}
+ xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
     xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
@@ -40,7 +40,7 @@
 -   xxx = ширина в пикселях
 -   yyy = высота пикселях
 
- {.xml}
+ xml
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -63,7 +63,7 @@ Defines a text in a template that can be edited by FreeCAD.
 
 Пример   *
 
- {.xml}
+ xml
 <text freecad   *EditableText="MyTitleText">
     <tspan>This is a title</tspan>
 </text>
@@ -75,7 +75,7 @@ Defines the first point of a [Draft Dimension](Draft_Dimension.md) object (repre
 
 Пример   *
 
- {.xml}
+ xml
 <g freecad   *basepoint1="0.5 4.34" freecad   *basepoint2="2.4 5.8" dimpoint="3.2 7.76">
     <path d="...">
 </g>
@@ -95,13 +95,13 @@ Example   * see [freecad   *basepoint1](#freecad_basepoint1.md)
 
 ### Example of code freecad   *EditableText 
 
-This example is taken from a cartridge to a sheet [A3\_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
+This example is taken from a cartridge to a sheet [A3_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
 
 #### 1    * Title without textedit 
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      id="g3587">
     <text
@@ -121,7 +121,7 @@ This example is taken from a cartridge to a sheet [A3\_Landscape](Misc_templates
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
@@ -149,13 +149,13 @@ This example is taken from a cartridge to a sheet [A3\_Landscape](Misc_templates
 
 #### Explanations
 
- {.xml}
+ xml
   <g
 
 
 Beginning of the framework
 
- {.xml}
+ xml
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
      transform="translate(0,4)">
@@ -163,20 +163,20 @@ Beginning of the framework
 
 Data on the framework
 
- {.xml}
+ xml
     <text
 
 
 Beginning of the text block
 
- {.xml}
+ xml
        xml   *space="preserve"
        style="font-size   *4px;font-style   *normal;font-variant   *normal;font-weight   *normal;font-stretch   *normal;line-height   *125%;letter-spacing   *0px;word-spacing   *0px;fill   *#000000;fill-opacity   *1;stroke   *none;font-family   *sans;-inkscape-font-specification   *sans"
 
 
 All the information about the text that will be displayed
 
- {.xml}
+ xml
        x="220.9935"
        y="228.95425"
        id="text3331"
@@ -185,13 +185,13 @@ All the information about the text that will be displayed
 
 Coordinates and identity where the text will appear
 
- {.xml}
+ xml
        freecad   *editable="AuthorName"><tspan
 
 
 Here **AuthorName** is the var managed by **freecad   *editable** who saves the string to change that will be displayed
 
- {.xml}
+ xml
          sodipodi   *role="line"
          id="tspan3333"
          x="220.9935"
@@ -200,7 +200,7 @@ Here **AuthorName** is the var managed by **freecad   *editable** who saves the 
 
 Coordinates and identity of the text that is displayed by default and **** means the end of the block text
 
- {.xml}
+ xml
     <text
     ...
     ...
@@ -229,7 +229,7 @@ See [Drawing templates](Drawing_templates.md)
 
 }}
 
-[Category   *Poweruser\_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python\_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
+[Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

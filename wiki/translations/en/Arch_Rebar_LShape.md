@@ -91,9 +91,9 @@ Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 -    `rounding`is the parameter that determines the bending radius of the reinforcement bars.
 
--    `amount_spacing_check`if it is True it will create as many reinforcement bars as given by amount\_spacing\_value; if it is False it will create reinforcement bars separated by the numerical value of amount\_spacing\_value.
+-    `amount_spacing_check`if it is True it will create as many reinforcement bars as given by amount_spacing_value; if it is False it will create reinforcement bars separated by the numerical value of amount_spacing_value.
 
--    `amount_spacing_value`specifies the number of reinforcement bars, or the value of the separation between them, depending on amount\_spacing\_check.
+-    `amount_spacing_value`specifies the number of reinforcement bars, or the value of the separation between them, depending on amount_spacing_check.
 
 -    `orientation`specifies the orientation of the rebar; it can be `"Bottom Right"`, `"Bottom Left"`, `"Top Right"`, or `"Top Left"`.
 

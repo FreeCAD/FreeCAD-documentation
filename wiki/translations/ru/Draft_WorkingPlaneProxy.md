@@ -15,7 +15,7 @@ The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width   *24px;"> 
 <img alt="" src=images/Draft_WPProxy_example.png  style="width   *400px;"> 
 *Three working plane proxies showing different orientations and offsets*
 
-## Использование
+## Применение
 
 1.  Optionally change the [working plane](Draft_SelectPlane.md).
 2.  Optionally change the [3D view](3D_view.md).

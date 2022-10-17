@@ -25,7 +25,7 @@ Wybierz właściwości śruby i kliknij przycisk create.
 
 <center>
 
-<File   *Macro_screw_maker_02.png%7CInterfejs> \"screw\_maker\" i kilka różnych typów śrub. [File   *Macro\_screw\_maker\_03.png\|Śruba](File   *Macro_screw_maker_03.png%7CŚruba) z gwintem
+<File   *Macro_screw_maker_02.png%7CInterfejs> \"screw_maker\" i kilka różnych typów śrub. [File   *Macro_screw_maker_03.png\|Śruba](File   *Macro_screw_maker_03.png%7CŚruba) z gwintem
 
 
 </center>
@@ -38,7 +38,7 @@ Najnowszą wersję makra można znaleźć na stronie [ScrewMaker.FCMacro](https 
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 
-**Macro\_screw\_maker\_2.FCMacro**
+**Macro_screw_maker_2.FCMacro**
 
 
 {{MacroCode|code=

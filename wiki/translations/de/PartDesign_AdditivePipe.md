@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-\'\'\' Additives Rohr \'\'\'erstellt einen Volumenkörper im aktiven Bauteil, indem eine oder mehrere Skizzen (auch als Querschnitte bezeichnet) entlang eines offenen oder geschlossenen Pfads verschoben werden. Wenn das Bauteil bereits Formelemente enthält, wird das additive Rohr mit ihnen zusammengeführt.
+**Additives Rohr**erstellt einen Volumenkörper im aktiven Bauteil, indem eine oder mehrere Skizzen (auch als Querschnitte bezeichnet) entlang eines offenen oder geschlossenen Pfads verschoben werden. Wenn das Bauteil bereits Formelemente enthält, wird das additive Rohr mit ihnen zusammengeführt.
 
 ![](images/PartDesign_AdditivePipe_example.svg )
 
@@ -120,9 +120,9 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 
 -    {{PropertyData/de|Binormal}}   * binormaler Vektor für den entsprechenden Orientierungsmodus.
 
--    {{PropertyData/de|Transition}}   * Übergangsmodus. Optionen sind \'\' Transformiert \'\', \'\' Rechte Ecke \'\' oder \'\' Runde Ecke \'\'.
+-    {{PropertyData/de|Transition}}   * Übergangsmodus. Optionen sind *Transformiert*, *Rechte Ecke* oder *Runde Ecke*.
 
--    {{PropertyData/de|Transformation}}   * \'\' Constant \'\' verwendet einen einzelnen Querschnitt. \'\' Multisection \'\' verwendet zwei oder mehr Querschnitte. \'\' Linear \'\', \'\' S-Form \'\' und \'\' Interpolation \'\' sind zur Zeit nicht funktionsfähig.
+-    {{PropertyData/de|Transformation}}   * *Constant* verwendet einen einzelnen Querschnitt. *Multisection* verwendet zwei oder mehr Querschnitte. *Linear*, *S-Form* und *Interpolation* sind zur Zeit nicht funktionsfähig.
 
 ## Notes
 

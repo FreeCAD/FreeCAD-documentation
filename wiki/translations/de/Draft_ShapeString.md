@@ -1,78 +1,47 @@
 ---
 - GuiCommand   */de
    Name   *Draft ShapeString
-   Name/de   *Entwurf FormZeichenfolge
-   MenuLocation   *Entwurf → Form aus Text ...
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
-   Shortcut   ***S** **S**
+   Name/de   *Draft Textform
+   MenuLocation   *Entwurf → Form von Text
+   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut   *
    Version   *0.14
-   SeeAlso   *[Entwurf Text](Draft_Text/de.md), [Part Extrudieren](Part_Extrude/de.md),
-[Makro Schriftarten Win10 PYMP](Macro_Fonts_Win10_PYMP/de.md)
+   SeeAlso   *[Draft Text](Draft_Text/de.md), [Draft Notiz](Draft_Label/de.md), [Part Extrudieren](Part_Extrude/de.md)
 ---
 
 # Draft ShapeString/de
 
-
-</div>
-
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_ShapeString.svg  style="width   *24px;"> **Draft Textform** erstellt eine Verbundform, die eine Zeichenfolge darstellt. Diese Form kann für die Erstellung von 3D-Buchstaben mit dem Befehl [Part Extrudieren](Part_Extrude/de.md) verwendet werden.
 
-<div class="mw-translate-fuzzy">
+Der Befehl Draft Textform ist nicht für normale Notizen gedacht. Dafür sollten die Befehle [Draft Text](Draft_Text.md) oder [Draft Notiz](Draft_Label.md) verwendet werden.
 
-Das Werkzeug **<img src="images/Draft_ShapeString.svg" width=16px> [Entwurf FormZeichenfolge](Draft_ShapeString/de.md)** fügt eine Verbundform ein, die eine TextZeichenfolge darstellt. Texthöhe, Laufweite und Schriftart können angegeben werden. Die resultierende Form kann mit dem Werkzeug <img alt="" src=images/Part_Extrude.svg  style="width   *24px;"> [Teil Extrusion](Part_Extrude/de.md) verwendet werden, um 3D Buchstaben zu erzeugen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-**Alternativ**   * Um ein einfacheres Textelement ohne geschlossene Form einzufügen, verwende <img alt="" src=images/Draft_Text.svg  style="width   *24px;"> [Entwurf Text](Draft_Text/de.md). Um eine Textbeschriftung mit einem Anfang und einem Pfeil zu erstellen, verwende <img alt="" src=images/Draft_Label.svg  style="width   *24px;">[Entwurf Beschriftung](Draft_Label/de.md)
-
-
-</div>
-
-![](images/Draft_ShapeString_Example400.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Einfacher Punkt zur Positionierung des Formzeichenfolge erforderlich*
-
-
-</div>
+![](images/Draft_ShapeString_Example400.png ) 
+*Ein einzelner Punkt wird zur Positionierung einer Textform benötigt*
 
 ## Anwendung
 
-For Windows users   * please read the [Font file selection on Windows](#Font_file_selection_on_Windows.md) paragraph first.
+Für Windows-Anwender   * Bitte zuerst den Abschnitt [Auswahl der Schriftdatei unter Windows](#Auswahl_der_Schriftdatei_unter_Windows.md) lesen.
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn der Entwurf Benutzeroberflächenmodus auf Aufgabenansicht eingestellt ist   *
-
-1.  Drücke den **![](images/)**_oder_drücke_die_Tasten_**S**_und_dann_**S**.
-2.  Ein Dialogfeld erscheint, in dem Du deine Parameter angeben kannst.
-3.  Drücke die Taste **OK**, um die Formfolge zu erstellen.
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Draft_ShapeString.svg" width=16px> [Form von Text](Draft_ShapeString/de.md)** drücken.
+    -   Dem Menüeintrag **Entwurf → <img src="images/Draft_ShapeString.svg" width=16px> Form von Text** auswählen.
+2.  Der Aufgabenbereich **Textform** wird geöffnet.
+3.  Einen Punkt in der [3D-Ansicht](3D_view/de.md) anklicken, oder die Koordinaten eingeben.
+4.  Wahlweise die Schaltfläche **Punkt zurücksetzen** drücken, um den Punkt auf den Ursprung zurückzusetzen.
+5.  Eine **Zeichenkette** eingeben.
+6.  Die **Höhe** eingeben.
+7.  Zur Auswahl einer Schrift hat man folgende Möglichkeiten   *
+    -   Einen Dateipfad im Eingabefeld **Font file** eintragen.
+    -   Die Schaltfläche **...** drücken und eine Datei auswählen.
+8.  Die Schaltfläche **OK** drücken, um den Befehl abzuschließen.
 
 ## Optionen
 
+-   Die **Esc**-Taste oder die Schaltfläche **Cancel** drücken, um den Befehl abzubrechen.
 
-<div class="mw-translate-fuzzy">
-
--   Um Koordinaten von Hand einzugeben, gib einfach die Zahlen ein und drücke dann **Enter** zwischen jeder X-, Y- und Z-Komponente. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügent** drücken, wenn Du die gewünschten Werte zum Einfügen des Punktes hast.
--   Drücke die Taste **Esc** oder die Taste **Close**, um den aktuellen Befehl abzubrechen.
-
-
-</div>
-
-## Notes
+## Hinweise
 
 
 <div class="mw-translate-fuzzy">
@@ -86,7 +55,7 @@ Wenn der Entwurf Benutzeroberflächenmodus auf Aufgabenansicht eingestellt ist  
 
 </div>
 
-## Font file selection on Windows 
+## Auswahl der Schriftdatei unter Windows 
 
 On Windows access to the default font folder is restricted. This affects the font file selection for ShapeStrings. There are three cases in FreeCAD where a font file for ShapeStrings can be specified   * in the ShapeString task panel, when changing the **Font File** property of a ShapeString, and when specifying the default font file in the [Draft Preferences](Draft_Preferences#Texts_and_dimensions.md).
 
@@ -104,7 +73,7 @@ See the [Preferences](#Preferences.md) paragraph below for the location of the m
 -   [Entwurf FormFolge Tutorium](Draft_ShapeString_tutorial/de.md)   * einen ShapeString extrudieren, im 3D Raum positionieren und eine Gravur in einem anderen Körper erzeugen.
 -   [Anwenden von Formfolgen in PartDesign](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=36623)
 
-## Preferences
+## Einstellungen
 
 See also   * [Preferences Editor](Preferences_Editor.md), [Draft Preferences](Draft_Preferences.md) and [Std DlgParameter](Std_DlgParameter.md).
 
@@ -115,11 +84,11 @@ See also   * [Preferences Editor](Preferences_Editor.md), [Draft Preferences](Dr
 
 ## Eigenschaften
 
-See also   * [Property editor](Property_editor.md).
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft ShapeString object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties   *
+Ein Draft ShapeString-Objekt (Textform-Objekt) wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
 
-### Data
+### Daten
 
 
 {{TitleProperty|Draft}}
@@ -144,7 +113,7 @@ A Draft ShapeString object is derived from a [Part Part2DObject](Part_Part2DObje
 
 </div>
 
-### View
+### Ansicht
 
 
 {{TitleProperty|Draft}}
@@ -153,28 +122,11 @@ A Draft ShapeString object is derived from a [Part Part2DObject](Part_Part2DObje
 
 -    **Pattern Size|Float**   * specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
+Siehe auch   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch   ***
-
-[Draft API](Draft_API/de.md) und [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das FormFolge Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion benutzt werden   *
-
-
-</div>
+Um eine Draft Textform zu erstellen, verwendet man die Methode `make_shapestring` ({{Version/de|0.19}}) des Arbeitsbereiches Draft. Diese Methode ersetzt die veraltete Methode `makeShapeString`.
 
 
 ```python
@@ -223,15 +175,6 @@ S3.Placement.Rotation = App.Rotation(zaxis, 180)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

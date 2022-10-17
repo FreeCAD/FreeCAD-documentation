@@ -20,7 +20,7 @@ The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width   *24px;"
 ![](images/Draft_SubelementHighlight_example.png ) 
 *An Arch Wall whose base, a Draft Wire, has been highlighted*
 
-## Использование
+## Применение
 
 1.  Optionally select one or more [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md), or objects whose **Base** objects are [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
 2.  There are several ways to invoke the command   *

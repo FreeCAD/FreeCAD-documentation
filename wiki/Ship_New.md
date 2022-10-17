@@ -1,5 +1,5 @@
 # Ship New
-1.  REDIRECT [Ship\_CreateShip](Ship_CreateShip.md)
+1.  REDIRECT [Ship_CreateShip](Ship_CreateShip.md)
 
 
 

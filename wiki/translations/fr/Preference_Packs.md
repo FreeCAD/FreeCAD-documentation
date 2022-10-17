@@ -143,13 +143,13 @@ Ces sections répertorient toutes les préférences contenues dans les modèles 
 
 <div class="mw-collapsible-content">
 
--   Preferences/MainWindow/DockWindows/Std\_SelectionView
--   Preferences/MainWindow/DockWindows/Std\_ComboView
--   Preferences/MainWindow/DockWindows/Std\_ReportView
--   Preferences/MainWindow/DockWindows/Std\_PythonView
--   Preferences/MainWindow/DockWindows/Std\_TreeView
--   Preferences/MainWindow/DockWindows/Std\_PropertyView
--   Preferences/MainWindow/DockWindows/Std\_DAGView
+-   Preferences/MainWindow/DockWindows/Std_SelectionView
+-   Preferences/MainWindow/DockWindows/Std_ComboView
+-   Preferences/MainWindow/DockWindows/Std_ReportView
+-   Preferences/MainWindow/DockWindows/Std_PythonView
+-   Preferences/MainWindow/DockWindows/Std_TreeView
+-   Preferences/MainWindow/DockWindows/Std_PropertyView
+-   Preferences/MainWindow/DockWindows/Std_DAGView
 -   Preferences/MainWindow/Toolbars/File
 -   Preferences/MainWindow/Toolbars/Workbench
 -   Preferences/MainWindow/Toolbars/Macro
@@ -357,7 +357,7 @@ Le fichier package.xml pour ce kit d\'exemple pourrait être    *
 
 ### Inclure des modèles dans votre add-on 
 
-De nombreux modules complémentaires comportent des informations de préférence spécifiables par l\'utilisateur qui sont ajoutées au fichier user.cfg. L\'auteur d\'un add-on peut également choisir de fournir un fichier modèle de kit de préférences qui répertorie les variables de configuration de l\'utilisateur pouvant être enregistrées automatiquement à l\'aide de la méthode \"Save new pack\" décrite ci-dessus. Pour inclure ces fichiers modèles, les auteurs de modules complémentaires doivent créer un sous-répertoire dans leur paquet appelé \"PreferencePackTemplates\" ou \"preference\_pack\_templates\". Ce dossier doit contenir un ou plusieurs fichiers \*.cfg    * chacun doit être un fichier XML user.cfg valide et bien formé contenant une ou plusieurs variables de configuration définies sur leurs valeurs par défaut. Le nom du fichier doit refléter son objectif, par exemple \"colors.cfg\", \"active\_tabs.cfg\", etc. Cet ensemble de fichiers sera présenté à l\'utilisateur lorsqu\'il enregistrera un nouveau kit de préférences, chaque fichier recevant une entrée cochable dans la liste des éléments à enregistrer. Le nom du fichier est utilisé pour générer l\'entrée de l\'interface utilisateur, les caractères de soulignement étant remplacés par des espaces (et l\'extension étant omise).
+De nombreux modules complémentaires comportent des informations de préférence spécifiables par l\'utilisateur qui sont ajoutées au fichier user.cfg. L\'auteur d\'un add-on peut également choisir de fournir un fichier modèle de kit de préférences qui répertorie les variables de configuration de l\'utilisateur pouvant être enregistrées automatiquement à l\'aide de la méthode \"Save new pack\" décrite ci-dessus. Pour inclure ces fichiers modèles, les auteurs de modules complémentaires doivent créer un sous-répertoire dans leur paquet appelé \"PreferencePackTemplates\" ou \"preference_pack_templates\". Ce dossier doit contenir un ou plusieurs fichiers \*.cfg    * chacun doit être un fichier XML user.cfg valide et bien formé contenant une ou plusieurs variables de configuration définies sur leurs valeurs par défaut. Le nom du fichier doit refléter son objectif, par exemple \"colors.cfg\", \"active_tabs.cfg\", etc. Cet ensemble de fichiers sera présenté à l\'utilisateur lorsqu\'il enregistrera un nouveau kit de préférences, chaque fichier recevant une entrée cochable dans la liste des éléments à enregistrer. Le nom du fichier est utilisé pour générer l\'entrée de l\'interface utilisateur, les caractères de soulignement étant remplacés par des espaces (et l\'extension étant omise).
 
 ## Distribuer un kit 
 

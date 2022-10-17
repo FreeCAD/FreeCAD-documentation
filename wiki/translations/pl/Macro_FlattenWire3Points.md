@@ -20,7 +20,7 @@ Aby użyć tego makra, wybierz pierwsze 3 wierzchołki z pojedynczej [polilinii]
 
 Ikonka paska narzędzi ![](images/Macro_FlattenWire3Points.png )
 
-**Macro\_FlattenWire3Points.FCMacro**
+**Macro_FlattenWire3Points.FCMacro**
 
 
 {{MacroCode|code=

@@ -23,11 +23,11 @@ Sélectionnez vos objets dans la vue 3D , si une sélection est dupliquée le cu
 
 ## Script
 
-**Macro\_Duplicate\_Selection.FCMacro**
+**Macro_Duplicate_Selection.FCMacro**
 
 Icon for the toolBar ![](images/Macro_Duplicate_Selection.png )
 
-**Macro\_Duplicate\_Selection.FCMacro**
+**Macro_Duplicate_Selection.FCMacro**
 
 
 {{MacroCode|code=

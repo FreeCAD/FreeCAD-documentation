@@ -52,7 +52,7 @@ if there is no parameter \"**circle()**\" a list of functions is displayed in th
 
 ToolBar Icon ![](images/Macro_Circle.png )
 
-**Macro\_circle.FCMacro**
+**Macro_circle.FCMacro**
 
 
 {{MacroCode|code=

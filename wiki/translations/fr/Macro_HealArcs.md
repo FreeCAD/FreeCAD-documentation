@@ -16,7 +16,7 @@ Parfois les arcs sont transformés en BSplines, par exemple, lorsqu\'une opérat
 
 ## Script
 
-Icône de la barre d\'outils ![](images/Macro_HealArcs.png ) **Macro\_HealArcs.FCMacro**
+Icône de la barre d\'outils ![](images/Macro_HealArcs.png ) **Macro_HealArcs.FCMacro**
 
 
 {{MacroCode|code=

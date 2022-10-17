@@ -46,7 +46,7 @@ Utilisez ce script pour tracer une fonction décrite par une équation \[z=F(x)\
 
 ToolBar Icon ![](images/Macro_Draw_2D_Function.png )
 
-**Macro\_Draw\_2D\_Function.FCMacro**
+**Macro_Draw_2D_Function.FCMacro**
 
 
 {{MacroCode|code=

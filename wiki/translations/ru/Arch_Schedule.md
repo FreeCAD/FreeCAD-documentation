@@ -12,60 +12,60 @@
 
 </div>
 
-## Description
+## Описание
 
 The Schedule tool allows you to create and automatically populate a [spreadsheet](Spreadsheet_Workbench.md) with contents gathered from the model.
 
 
-**Note**
+**Примечание**
 
-   * This tool has been rewritten in FreeCAD 0.17 and differs from previous versions.
+   * Данный инструмент был значительно переработан в FreeCAD 0.17 и отличается от предыдущих версий.
 
 For a more general solution, see the [Reporting Workbench](https   *//github.com/furti/FreeCAD-Reporting/tree/master) in the list of [external workbenches](External_workbenches.md). This workbench uses SQL syntax to extract information from the document.
 
-## Usage
+## Применение
 
 1.  Open or create a FreeCAD document which contains some objects.
 2.  Press the **<img src="images/Arch_Schedule.svg" width=16px> [Schedule](Arch_Schedule.md)** button.
 3.  Adjust the desired options.
 4.  Press **OK**.
 
-## Workflow
+## Рабочий процесс 
 
-First you need to have a model. For example, here is a document with a couple of Arch objects, but other objects are also supported.
+Для начала требуется некоторая готовая конструкция. Например, как здание в этом документе, которое содержит множество объектов созданных в верстаке Arch (хотя на самом деле также поддерживаются и другие объекты).
 
 ![](images/Arch_schedule_example01.jpg )
 
-Then you press the **<img src="images/Arch_Schedule.svg" width=16px> [Arch Schedule](Arch_Schedule.md)** button. You get a task panel like this. It is pretty wide, so you\'ll need to widen the task panel to be comfortable.
+Далее нажмите на кнопку **<img src="images/Arch_Schedule.svg" width=16px> [Планирование](Arch_Schedule/ru.md)**. В результате чего откроется панель задач, как на изображении ниже. Она довольно широкая, поэтому для удобной работы, вам нужно будет расширить комбо панель по горизонтали.
 
 ![](images/Arch_schedule_example02.jpg )
 
-Then you can fill line by line. Each line is a \"query\" and will render one line in the spreadsheet. Press the **Add** button to add a new line, and double-click each cell from that line to fill in the values. The **Del** button will delete the line which contains a currently selected cell, and **Clear** will delete all the lines. Possible values to put in columns are   *
+Затем вы можете заполнять строки таблицы друг за другом. Каждая строка представляет собой \"запрос\" и будет отображать одну строку в электронной таблице. Нажмите кнопку **Add**, чтобы добавить новую строку, и дважды щелкните каждую ячейку из этой строки, чтобы заполнить значения. Кнопка **Del** удаляет строку, содержащую выбранную в данный момент ячейку, а кнопка **Clear** удаляет абсолютно все строки. Доступными полями для заполнения в столбцах являются   *
 
--   **Description**   * A description for this query. The Description column will be the first column of the resulting spreadsheet. The description is mandatory to have a query performed. If you leave the description cell empty, the whole line will be skipped and left blank in the spreadsheet. This allows you to add \"separator\" lines.
--   **Value**   * This is the real query that you want to perform on all the objects selected by the query. It can be two things   * either the word `count` or an object property   *
-    -   If you enter `count` (or `Count` or `COUNT`, it\'s case-insensitive) the selected objects will simply be counted.
-    -   If you enter an object property the value of this property for each of the selected objects will be retrieved and summed up. Objects that do not have the property will be skipped. Use dot notation to retrieve properties of properties   * `PropertyOfObject.PropertyOfProperty1.PropertyOfProperty2`. If the property before the first dot starts with a lowercase letter it will be considered a reference to the object itself and be ignored. Entering for example `object.Shape.Volume` is the same as entering `Shape.Volume`.
--   **Unit**   * An optional unit to express the results in. It\'s up to you to give a unit that matches the query you are doing, for example, if you are retrieving volumes, you should use a volume unit, such as `m^3`. If you use a wrong unit, for ex. cm, you\'ll get wrong results.
--   **Objects**   * You can leave this empty, then all the objects of the document will be considered by this query, or give a semicolon (;)-separated list of object names (not labels). If any of the objects in this list is a group, its children will be selected as well. So the easiest way to use this feature is to group your objects meaningfully in the document, and just give a group name here. You can also use the **Selection** button to add objects currently selected in the document.
--   **Filter**   * Here you can add a semicolon`;`-separated list of filters. Each filter is written in the form   * `property   *value`. You can only use properties that hold a string value. Both the property and the value are case-insensitive. The `value` can be left out but not the `   *`. To properly handle schedules created with previous versions of Arch Schedule the `type` property will be translated to the `ifctype` property. It is advisable to not use `type` in new schedules.
+-   **Description**   * Описание для этого запроса. Столбец \"Описание\" - Это первый столбец результирующей электронной таблицы. В описании обязательно должен быть представлен запрос. Если вы оставите ячейку описания пустой, вся строка будет пропущена и оставлена пустой в электронной таблице. Это позволяет добавлять \"разделительные\" строки.
+-   **Value**   * Это реальный запрос, который вы хотите выполнить для всех объектов, выбранных этим запросом. Это может быть два типа вещей   * либо слово `count` или свойство объекта   *
+    -   Если вы войдете `count` (или `Count` или `COUNT`, не чувствителен к регистру) выбранные объекты будут просто подсчитаны.
+    -   Если вы введете свойство объекта, значение этого свойства для каждого из выбранных объектов будет извлечено и суммировано. Объекты, у которых нет этого свойства, будут пропущены. Используйте точечную нотацию для извлечения свойств свойств   *`PropertyOfObject.PropertyOfProperty1.PropertyOfProperty2`. Если свойство перед первой точкой начинается со строчной буквы, оно будет считаться ссылкой на сам объект и игнорироваться. Ввод, например `object.Shape.Volume` это то же самое, что`Shape.Volume`.
+-   **Unit**   * Дополнительная единица измерения для выражения результатов. Вы сами должны указать единицу измерения, соответствующую выполняемому вами запросу, например, если вы извлекаете тома, вы должны использовать единицу измерения объема, например `m^3`. Если вы используете неправильную единицу измерения, например, см, вы получите неправильные результаты.
+-   **Objects**   * Вы можете оставить это поле пустым, тогда все объекты документа будут рассматриваться этим запросом, или предоставить разделенный точкой с запятой (;) список имен объектов (не меток). Если какой-либо из объектов в этом списке является группой, то также будут выбраны его дочерние объекты. Таким образом, самый простой способ использовать эту функцию - правильно сгруппировать ваши объекты в документе и просто указать здесь имя группы. Вы также можете использовать кнопку **Selection** чтобы добавить объекты, выбранные в данный момент в документе.
+-   **Filter**   * Здесь вы можете добавить точку с запятой`;`-разделенный список фильтров. Каждый фильтр записывается в виде   * `property   *value`. Вы можете использовать только те свойства, которые содержат строковое значение. Как свойство, так и значение не чувствительны к регистру. The `value` can be left out but not the `   *`. To properly handle schedules created with previous versions of Arch Schedule the `type` property will be translated to the `ifctype` property. It is advisable to not use `type` in new schedules.
 
-   *   For example   *
+   *   Например   *
 
        *   
         `label   *floor1;ifctype   *window`
         
-        will retain only objects that have \"floor1\" in their **Label** and \"window\" in their **IFC Type**. A window with the **Label** \"Floor1-AA\" and the **IFC Type** \"Window Standard Case\" will be included.
+        сохранит только объекты, у которых есть \"floor1\" в их **Label** и \"window\" в их **IFC Type**. Окно с **Label** \"Floor1-AA\" и **IFC Type** равным \"Window Standard Case\" будет включено.
 
        *   
         `label   *door`
         
-        Will retain only objects that have \"door\" in their **Label**.
+        Сохранит только те объекты, которые имеют \"door\" в свойстве **Label**.
 
        *   
         `!label   *door`
         
-        Will retain only objects that do not have \"door\" in their **Label**.
+        Сохранит только объекты, которые не имеют \"door\" в свойстве **Label**.
 
        *   
         `ifctype   *structural`
@@ -84,11 +84,11 @@ Then you can fill line by line. Each line is a \"query\" and will render one lin
 
 The **Import** button allows you to build this list in another spreadsheet application, and import that as a csv file here.
 
-So we can build a list of queries like this   *
+Таким образом, мы можем составить список запросов, подобный этому   *
 
 ![](images/Arch_schedule_example03.jpg )
 
-After that, press **OK** and a new Schedule object is added to the document, which contains a result spreadsheet   *
+После этого нажмите **OK**, и в документ будет добавлен новый объект \"Планирование\", содержащий результат в виде электронной таблицы   *
 
 ![](images/Arch_schedule_example04.jpg )
 
@@ -98,7 +98,7 @@ By double-clicking the Schedule object, you get back to the task panel and chang
 
 The spreadsheet can then be exported to csv normally, from the Spreadsheet workbench.
 
-## Dynamic properties 
+## Динамические свойства 
 
 It is possible to add your own properties to objects. These are called [Dynamic properties](Property_editor#Actions.md). If they have been added with the **Prefix group name** option selected, their names will indeed start with the group name, but this prefix is not displayed in the [Property editor](Property_editor.md). Their names have this form   * `NameOfGroup_NameOfProperty`. To reference them in a schedule this full name must be used.
 

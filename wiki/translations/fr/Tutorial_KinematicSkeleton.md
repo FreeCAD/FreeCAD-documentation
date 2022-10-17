@@ -223,7 +223,7 @@ La section [Attachement de la géométrie 3D](#Attachement_de_la_g.C3.A9om.C3.A9
 
 Il est important de déplacer un tel assemblage cinématique par petits pas, sinon le solveur abandonnera et échouera. Il est presque impossible d\'utiliser <img alt="" src=images/Assembly_Move.svg  style="width   *16px;"> [Move part](Assembly3_MovePart/fr.md) ou <img alt="" src=images/Assembly_AxialMove.svg  style="width   *16px;"> [Axial move](Assembly3_AxialMove/fr.md) pour cette tâche.
 
-La contrainte <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Assembly3\_ConstraintCoincidence](Assembly3_ConstraintCoincidence/fr.md) est utilisée pour piloter l\'assemblage cinématique, sa propriété **Angle** (activée par la propriété **Lock Angle**) accepte des nombres positifs ou négatifs en virgule flottante supérieurs à 360 et peut donc faire plusieurs tours complets.
+La contrainte <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Assembly3_ConstraintCoincidence](Assembly3_ConstraintCoincidence/fr.md) est utilisée pour piloter l\'assemblage cinématique, sa propriété **Angle** (activée par la propriété **Lock Angle**) accepte des nombres positifs ou négatifs en virgule flottante supérieurs à 360 et peut donc faire plusieurs tours complets.
 
 
 

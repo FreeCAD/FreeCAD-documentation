@@ -14,45 +14,25 @@
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Tutorium führt den neuen Benutzer in einige der Werkzeuge und Techniken ein, die im [Part Design Arbeitsbereich](PartDesign_Workbench/de.md) verwendet werden. Dieses Tutorium ist keine vollständige und umfassende Anleitung für den Part Design Arbeitsbereich und viele der Werkzeuge und Funktionen werden nicht behandelt. In diesem Lernprogramm wird der Benutzer durch die Schritte geführt, die erforderlich sind, um das im Bild unten gezeigte Teil mithilfe von Skizzen zu modellieren.
-
-
-</div>
+Dieses Tutorium führt den neuen Benutzer in einige der Werkzeuge und Techniken ein, die im Arbeitsbereich [Part Design](PartDesign_Workbench/de.md) verwendet werden. Dieses Tutorium ist keine vollständige und umfassende Anleitung für den Arbeitsbereich Part Design und viele der Werkzeuge und Funktionen werden nicht behandelt. In diesem Lernprogramm wird der Benutzer durch die Schritte geführt, die erforderlich sind, um das im Bild unten gezeigte Teil mithilfe von Skizzen zu modellieren.
 
 ![](images/Tut17_final_refined.png )
 
 Ein Video der gesamten Konstruktion ist hier   * <https   *//youtu.be/geIrH1cOCzc>
 
-
-<div class="mw-translate-fuzzy">
-
-( jeder Abschnitt hat sein eigenes separates Video unten )
-
-
-</div>
+(jeder Abschnitt hat sein eigenes separates Video unten)
 
 ## Bevor du anfängst 
 
-## The Task 
-
-
-<div class="mw-translate-fuzzy">
-
 ## Die Aufgabe 
 
-In diesem Tutorium erstellst du mit dem Part Design Arbeitsbereich ein 3D Volumenmodell des Teils, das in der [Zeichnung](Drawing_Workbench/de.md) unten gezeigt wird. Alle für diese Aufgabe erforderlichen Maße sind vorhanden. Du fängst an mit der Erstellung einer Kernform aus einer Basisskizze und baust dann auf dieser Form auf, indem du so genannte Formelemente hinzufügst. Diese Funktionen fügen dem Festkörper entweder Material hinzu oder entfernen Material aus ihm, indem sie zusätzliche Skizzen und begleitende Formelemente Operationen verwenden. In diesem Tutorium werden nicht alle Funktionen und Werkzeuge verwendet, die im Part Design Arbeitsbereich zur Verfügung stehen, sondern es werden so viele verwendet, dass der Benutzer dieses Tutoriums eine grundlegende Basis erhält, auf der er sein Wissen und seine Fähigkeiten aufbauen kann.
-
-
-</div>
+In diesem Tutorium erstellst du mit dem Arbeitsbereich Part Design ein 3D-Volumenmodell des Teils, das in der [Zeichnung](TechDraw_Workbench/de.md) unten gezeigt wird. Alle für diese Aufgabe erforderlichen Maße sind vorhanden. Du fängst an mit der Erstellung einer Kernform aus einer Basisskizze und baust dann auf dieser Form auf, indem du so genannte Formelemente hinzufügst. Diese Funktionen fügen dem Festkörper entweder Material hinzu oder entfernen Material aus ihm, indem sie zusätzliche Skizzen und begleitende Formelemente Operationen verwenden. In diesem Tutorium werden nicht alle Funktionen und Werkzeuge verwendet, die im Arbeitsbereich Part Design zur Verfügung stehen, sondern es werden so viele verwendet, dass der Benutzer dieses Tutoriums eine grundlegende Basis erhält, auf der er sein Wissen und seine Fähigkeiten aufbauen kann.
 
 ## Das Bauteil 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
-## Constructing The Part 
+## Konstruktion des Bauteils 
 
 ### Startup
 
@@ -77,7 +57,7 @@ um einen neuen Körper Container zu erstellen und zu aktivieren. *Hinweis   * Di
 
 1.  Klicke auf <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *32px;"> [Neue Skizze erstellen](PartDesign_NewSketch/de.md). Dadurch wird die Skizze innerhalb des gerade erstellten Körpers erstellt.
 2.  Wir müssen definieren, wo die Skizze angehängt werden soll. Wir werden sie an eine Ebene aus dem [Ursprung](Glossary/de#Origin.md) des Körpers anhängen.
-3.  Wähle im Aufgabenreiter in der Combo Ansicht die Option **YZ\_Ebene** in der Liste und drücke **OK**   *
+3.  Wähle im Aufgabenreiter in der Combo Ansicht die Option **YZ_Ebene** in der Liste und drücke **OK**   *
 
 
 </div>
@@ -86,7 +66,7 @@ um einen neuen Körper Container zu erstellen und zu aktivieren. *Hinweis   * Di
 *Note   * this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
 2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**   *
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ_Plane** in the list and press **OK**   *
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
@@ -179,8 +159,14 @@ Nachdem die Oberfläche ausgewählt wurde, auf das Symbol **Neue Skizze** in der
 
 ![](images/tut17_slot_unconstrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Rechtsklicken Sie zur Beendigung des Externe-Geometrie-Modus
 2.  Wählen Sie den gerade mit dem **Externe Geometrie**-Werkzeug erstellten Projektionspunkt und wählen zudem den oberen rechten Eckpunkt des in der Skizze vorhandenen Rechtecks. Durch einen nun folgenden Klick auf **Koinzidenz** <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> sollte die Skizze komplett festgelegt sein und wie das nächste Bild aussehen.
+
+
+</div>
 
 ![](images/tut17_slote_constrained.png )
 

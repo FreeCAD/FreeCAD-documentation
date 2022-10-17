@@ -24,7 +24,7 @@ Si \"Fermé\" est à\"true\", FreeCAD essaye de lisser le dernier profil vers le
 
 Pour plus d\'informations sur la façon dont les profils sont réunis, consultez la page [Part Détails techniques du lissage](Part_Loft_Technical_Details/fr.md).
 
-![centre\|Part\_Loft. À partir de trois profils qui sont deux Part Cercles et une Part Ellipse. Les paramètres sont Solide \"True\" et Surface réglée \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+![centre\|Part_Loft. À partir de trois profils qui sont deux Part Cercles et une Part Ellipse. Les paramètres sont Solide \"True\" et Surface réglée \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
 
 ## Remarques
 

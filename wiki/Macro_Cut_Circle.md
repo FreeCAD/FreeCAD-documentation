@@ -31,7 +31,7 @@ The original object is not deleted.
 
 ToolBar Icon ![](images/Macro_Cut_Circle.png )
 
-**Macro\_Cut\_Circle.FCMacro**
+**Macro_Cut_Circle.FCMacro**
 
 
 {{MacroCode|code=

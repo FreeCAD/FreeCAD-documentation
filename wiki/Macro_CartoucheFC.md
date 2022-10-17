@@ -23,14 +23,14 @@ Fields in red are the **\"freecad   *editable\"** fields, fields in green are an
 
 ## Usage
 
-**Changing the map in Inkscape can at the moment cause operation problems in the program (where you remove the symbol on the worksheet, same problem with FreeCAD), work on a copy of A3\_Landscape.svg.**
+**Changing the map in Inkscape can at the moment cause operation problems in the program (where you remove the symbol on the worksheet, same problem with FreeCAD), work on a copy of A3_Landscape.svg.**
 **PS   * Some characters such as & \$ are not accepted (and possibly other special characters).**
 
 If you have any questions or want to add a function, you can address you on the french forum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 \*The window remains above other Windows, thereby controlling the cartridge without leaving the program.
 
--   Copy the code into a file named **Macro\_CartoucheFC.FCMacro** and place it in your usual macros directory.
--   After you have created your drawing sheet using the Drawing of FreeCAD module, run the macro **Macro\_CartoucheFC**.
+-   Copy the code into a file named **Macro_CartoucheFC.FCMacro** and place it in your usual macros directory.
+-   After you have created your drawing sheet using the Drawing of FreeCAD module, run the macro **Macro_CartoucheFC**.
 -   At the opening, the program will register in memory all data already present in the cartridge of the sheet (if they are filled), all these data will be automatically returned to using the button ** Memo** and kept in memory until the closure of the programme.
 -   Date button ** D.** and time ** H.** displayed the date and time of the system.
 
@@ -52,7 +52,7 @@ If you have any questions or want to add a function, you can address you on the 
 
 ToolBar Icon ![](images/Macro_CartoucheFC.png )
 
-**Macro\_CartoucheFC.FCMacro**
+**Macro_CartoucheFC.FCMacro**
 
 
 {{MacroCode|code=

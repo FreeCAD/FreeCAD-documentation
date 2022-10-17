@@ -2,8 +2,8 @@
 Cette page répertorie quelques modèles mixtes.
 Tous les modèles sont au format SVG directement téléchargeable et utilisable avec ou sans modification.
 Tous les modèles et cartouches sont équipés de textes éditables en FreeCAD.
-Pour être utilisé doit renommer en **A3\_Landscape.svg** (mis dans (Window) *\'C   *Program Files\\you FreeCAD version\\data\\Mod\\Drawing\\Templates\"* ).
-Pour y accéder après avoir créé la page, cliquez sur la page dans **Vue combinée \> Propriétés \> Données \> Textes modifiables \> cliquez sur les 3 points\...**
+Pour être utilisé doit renommer en **A3_Landscape.svg** (mis dans (Window) **C   *Program Files\\you FreeCAD version\\data\\Mod\\Drawing\\Templates\"\'\' ).
+Pour y accéder après avoir créé la page, cliquez sur la page dans**Vue combinée \> Propriétés \> Données \> Textes modifiables \> cliquez sur les 3 points\...\'\'\'
 
 Une macro est disponible pour chacun des cartouches les plus utilisés [modèle 1](Macro_CartoucheFC/fr.md) et [modèle 2](Macro_CartoucheFC_2/fr.md).
 Plusieurs attributs personnalisés peuvent être placés dans les feuilles. La liste des attributs pris en charge actuellement est disponible sur la page [Svg Namespace](Svg_Namespace/fr.md).
@@ -66,13 +66,13 @@ Symboles utilisés pour définir la [projection](http   *//commons.wikimedia.org
 
 Les modèles sont complets et reçoivent un cartouche et une table (K à Z caché par défaut) et des symboles US (caché par défaut) et EU. Il vous suffit de cacher ou d\'effacer ce qui ne vous sert pas.
 
-Modèle [A3\_paysage.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6499)
+Modèle [A3_paysage.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6499)
 
-Template [A4\_portrait.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6500)
+Template [A4_portrait.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6500)
 
-CompassRose\_2D [Rose\_des\_vents\_2D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6501)
+CompassRose_2D [Rose_des_vents_2D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6501)
 
-CompassRose\_3D [Rose\_des\_vents\_3D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6502)
+CompassRose_3D [Rose_des_vents_3D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6502)
 
 ### Autres standards disponibles 
 

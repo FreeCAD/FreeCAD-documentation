@@ -9,7 +9,7 @@
 
 ## Description
 
-The **Mesh\_FromPartShape** command creates non-parametric [mesh](mesh.md) objects ([Mesh Features](Mesh_Feature.md)) from [shape](shape.md) objects ([Part Features](Part_Feature.md)).
+The **Mesh_FromPartShape** command creates non-parametric [mesh](mesh.md) objects ([Mesh Features](Mesh_Feature.md)) from [shape](shape.md) objects ([Part Features](Part_Feature.md)).
 
 The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part Workbench](Part_Workbench.md).
 

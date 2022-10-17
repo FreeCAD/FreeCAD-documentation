@@ -19,13 +19,13 @@ Les éléments bidimensionnels du maillage FEM ne sont pas pris en compte. Si vo
 
 1.  Sélectionnez un objet FEM maillage.
 2.  Si vous le souhaitez, vous pouvez également sélectionner les résultats FEM.
-3.  Il existe plusieurs façons de lancer la commande   *
+3.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md)**.
     -   Sélectionnez l\'option **Maillage → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Maillage FEM à maillage** dans le menu.
 
 ## Script
 
-Exemple    * Téléchargez l\'exemple 3D FEM de FreeCAD à partir de l\'atelier Start et exécutez le code suivant.
+Exemple    * téléchargez l\'exemple 3D FEM de FreeCAD à partir de l\'atelier Start et exécutez le code suivant.
 
 
 ```python

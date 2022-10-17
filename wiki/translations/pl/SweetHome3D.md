@@ -7,7 +7,7 @@
 
 ## Związane z tematem odnośniki 
 
--   [Ticket \#2584](https   *//freecadweb.org/tracker/view.php?id=2584) - Obsługa plików SweetHome3D opartych na formacie xml
+-   [Ticket #2584](https   *//freecadweb.org/tracker/view.php?id=2584) - Obsługa plików SweetHome3D opartych na formacie xml
 -   [Jak szybko stworzyć swój plan piętra w Sweet Home 3D](https   *//www.youtube.com/watch?v=QAAYHTuqm9M)
 -   [Wątek forum FC omawiający SH3D](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=23965)
 -   [Wątek SH3D na forum](http   *//www.sweethome3d.com/support/forum/viewthread_thread,6708_offset,25) w sprawie FreeCAD

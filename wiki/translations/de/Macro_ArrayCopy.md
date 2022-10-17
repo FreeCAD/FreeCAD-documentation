@@ -18,7 +18,7 @@ Dieses Makro kopiert das Objekt mehrmals in einem Array-Raster. Sie können die 
 
 ToolBar Icon ![](images/Macro_ArrayCopy.png )
 
-**Macro\_ArrayCopy.FCMacro**
+**Macro_ArrayCopy.FCMacro**
 
 
 {{MacroCode|code=

@@ -1,5 +1,5 @@
 # TechDraw Toggle/fr
-1.  REDIRECT [TechDraw\_ToggleFrame/fr](TechDraw_ToggleFrame/fr.md)
+1.  REDIRECT [TechDraw_ToggleFrame/fr](TechDraw_ToggleFrame/fr.md)
 
 
 

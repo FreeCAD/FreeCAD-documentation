@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-\'\'\'Segnaposto per descrizioni approfondite delle proprietà delle funzioni Python \'\'\'
+**Segnaposto per descrizioni approfondite delle proprietà delle funzioni Python**
 
 
 </div>

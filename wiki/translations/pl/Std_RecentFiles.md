@@ -12,7 +12,7 @@
 
 ## Opis
 
-Opcja menu *\' Ostatnio używane pliki*\' wyświetla listę poprzednich plików, które można otworzyć.
+Opcja menu **Ostatnio używane pliki** wyświetla listę poprzednich plików, które można otworzyć.
 
 ## Użycie
 

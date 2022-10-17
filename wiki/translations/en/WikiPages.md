@@ -33,11 +33,11 @@ Good description
 
 Avoid duplicating the same information in different places. Insert the information in a new page, and link to this page from other pages that require this information.
 
-Do not use transclusion of pages ([Help   *Editing\#Templates and transcluding pages](Help   *Editing#Templates_and_transcluding_pages.md)), as this makes the wiki difficult to translate. Use only the templates described below in [\#Templates](#Templates.md).
+Do not use transclusion of pages ([Help   *Editing#Templates and transcluding pages](Help   *Editing#Templates_and_transcluding_pages.md)), as this makes the wiki difficult to translate. Use only the templates described below in [#Templates](#Templates.md).
 
 ### Styling
 
-Templates are used to style the help pages. They give the documentation a consistent look and feel. There is a template for menu commands, **File → Save**, a template to style keys to be pressed, **Shift**, to show a Boolean value, `True`, etc. Please get familiar with the [\#Templates](#Templates.md) section before writing help pages.
+Templates are used to style the help pages. They give the documentation a consistent look and feel. There is a template for menu commands, **File → Save**, a template to style keys to be pressed, **Shift**, to show a Boolean value, `True`, etc. Please get familiar with the [#Templates](#Templates.md) section before writing help pages.
 
 ### Temporary flags 
 
@@ -61,7 +61,7 @@ To quickly get familiar with the structure and style of the FreeCAD wiki look at
 
 The [User hub](User_hub.md) provides a [Table of Contents](Online_Help_Toc.md). This is used as the main reference for automatically building the offline help you can reach from FreeCAD, as well as the offline PDF documentation.
 
-The [Template   *Docnav](Template_Docnav.md) is used to sequentially link pages, following the structure of the [Table of Contents](Online_Help_Toc.md). See [\#Templates](#Templates.md) for a list of all templates.
+The [Template   *Docnav](Template_Docnav.md) is used to sequentially link pages, following the structure of the [Table of Contents](Online_Help_Toc.md). See [#Templates](#Templates.md) for a list of all templates.
 
 ### Page names 
 
@@ -126,7 +126,7 @@ To link to the top of the page you can use   *
 This template should automatically display the correct text depending on the language of the page. A link to the top of the page is especially useful for long pages as it allows the user to quickly jump back to the table of content. You can put it at the end of each paragraph. Make sure there is an empty line before and after the template.
 
 Image link
-   *   <img alt="Optional text that is shown when you hover the image\|link=Draft\_Wire" src=images/Draft_Wire.svg  style="width   *24px;">
+   *   <img alt="Optional text that is shown when you hover the image\|link=Draft_Wire" src=images/Draft_Wire.svg  style="width   *24px;">
 
 To use an image as a link   *
 
@@ -146,7 +146,7 @@ A top level workbench page should start with   *
 -   A description of what the workbench is used for.
 -   An image to illustrate the description.
 
-See [\#Screen capture](#Screen_capture.md) for conventions on including images.
+See [#Screen capture](#Screen_capture.md) for conventions on including images.
 
 ### Command pages 
 
@@ -174,7 +174,7 @@ For examples visit the [Tutorials](Tutorials.md) page.
 
 <div class="mw-collapsible-content">
 
-Styling of the FreeCAD wiki pages is achieved through the use of templates ([Help   *Editing\#Templates\_and\_transcluding\_pages](Help   *Editing#Templates_and_transcluding_pages.md)). They ensure a standardized look and feel across all pages, and also make it possible to re-style the wiki. You can see the complete list of defined templates by accessing [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md). But please only use the templates listed in the tables below. Only in very special cases should you use HTML tags directly.
+Styling of the FreeCAD wiki pages is achieved through the use of templates ([Help   *Editing#Templates_and_transcluding_pages](Help   *Editing#Templates_and_transcluding_pages.md)). They ensure a standardized look and feel across all pages, and also make it possible to re-style the wiki. You can see the complete list of defined templates by accessing [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md). But please only use the templates listed in the tables below. Only in very special cases should you use HTML tags directly.
 
 Click on the template link to see the usage instructions for a template, and to see its implementation. Templates are a powerful feature of the MediaWiki software. You should be an experienced wiki user if you wish to propose additions and modifications to existing templates. If implemented incorrectly, templates make it difficult to translate pages into other languages, so their use should be limited to text formatting, page transclusion should be avoided. See [MediaWiki Help   *Templates](https   *//www.mediawiki.org/wiki/Help   *Templates) to learn more.
 
@@ -491,8 +491,8 @@ Before creating a new page you should first check if a similar page already exis
 
 To create a new page do one of the following   *
 
--   Visit the URL with the desired page name, for example   * https   *//wiki.freecadweb.org/My_new_page, and click on \'create this page\'.
--   Do a wiki search for the page name, and click on the red text in \'Create the page \"My new page\" on this wiki!\'.
+-   Visit the URL with the desired page name, for example   * https   *//wiki.freecadweb.org/My_New_Page, and click on \'create this page\'.
+-   Do a wiki search for the page name, and click on the red text in \'Create the page \"My New Page\" on this wiki!\'.
 
 ### Rename pages 
 

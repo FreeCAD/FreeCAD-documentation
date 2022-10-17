@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-\[Start\_Workbench/zh-cn\[启动工作台（Start Workbench）\]\]实际上并不是一种工作台，而仅是在FreeCAD没有加载任何文档的时候向您展示的起始页面。
+\[Start_Workbench/zh-cn\[启动工作台（Start Workbench）\]\]实际上并不是一种工作台，而仅是在FreeCAD没有加载任何文档的时候向您展示的起始页面。
 
 
 </div>

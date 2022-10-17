@@ -56,7 +56,7 @@ Timing gears are connected to a timing belt or timing chain.
 
 ToolBar Icon ![](images/TimingGear_icon.png )
 
-**Macro\_TimingGear.FCMacro**
+**Macro_TimingGear.FCMacro**
 
 
 {{MacroCode|code=

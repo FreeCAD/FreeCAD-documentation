@@ -25,13 +25,13 @@ Es kann auch verwendet werden, um \'Form2DAnsicht\' in Skizze zu konvertieren un
 
 ## Optionen
 
--   Ändere create\_face=True oder create\_sketch=True zu False, um jeweils nur einen Objekttyp zu generieren.
+-   Ändere create_face=True oder create_sketch=True zu False, um jeweils nur einen Objekttyp zu generieren.
 
 ## Skript
 
 ToolBar Icon ![](images/Macro_DXF_to_Face_and_Sketch.png )
 
-**Macro\_DXF\_to\_Face\_and\_Sketch.FCMacro**
+**Macro_DXF_to_Face_and_Sketch.FCMacro**
 
 
 {{MacroCode|code=
@@ -252,7 +252,7 @@ else   *
 ## Verweis
 
 -   Forum [Creare uno sketch partendo da un file dxf importato](http   *//forum.freecadweb.org/viewtopic.php?f=28&t=16686)
--   Makros\_Rezepte [Makro Flächen aus einer DXF Datei erzeugen](http   *//www.freecadweb.org/wiki/index.php?title=Macros_recipes)
+-   Makros_Rezepte [Makro Flächen aus einer DXF Datei erzeugen](http   *//www.freecadweb.org/wiki/index.php?title=Macros_recipes)
 -   Previous version [Makro Flächen aus einer DXF Datei erzeugen](Macro_Creating_faces_from_a_DXF_file/de.md)
 
 

@@ -98,6 +98,8 @@ Din versiunea 0.17, Panoul Arch poate fi de asemenea utilizat pentru a crea prof
 
 -    **Bottom Wave**   * If the bottom wave of the panel is flat or not
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -133,7 +135,13 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 ## Tutoriale
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

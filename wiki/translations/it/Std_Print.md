@@ -22,12 +22,18 @@ Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechD
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Se necessario, attivare la pagina TechDraw corretta o modificare la vista 3D.
 2.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_Print.svg" width=16px> '''Stampa'''** button.
     -   Selezionare l\'opzione **File → <img src="images/Std_Print.svg" width=16px> Stampa...** dal menu.
     -   Usare la scorciatoia da tastiera   * **Ctrl**+**P**.
 3.  Viene visualizzata la finestra di dialogo di stampa standard.
+
+
+</div>
 
 ## Opzioni
 

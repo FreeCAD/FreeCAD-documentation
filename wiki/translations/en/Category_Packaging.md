@@ -1,7 +1,7 @@
 # Category:Packaging/en
 This category collects pages related to packing FreeCAD for different platforms, including Linux, Windows, and MacOS.
 
-[Category   *Developer\_Documentation/en](Category   *Developer_Documentation/en.md)
+[Category   *Developer_Documentation/en](Category   *Developer_Documentation/en.md)
 
 ### Contents
 

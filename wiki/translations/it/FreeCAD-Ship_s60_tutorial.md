@@ -89,7 +89,7 @@ Icona dello strumento per caricare le geometrie di esempio fornite con Ship
 
 </div>
 
-Eseguendo lo strumento (Caricare una geometria modello di nave) si apre una finestra di dialogo. Selezionare **Series 60 da Iowa Università** e premere il pulsante OK. Lo strumento carica un nuovo documento con la geometria **s60\_IowaUniversity**
+Eseguendo lo strumento (Caricare una geometria modello di nave) si apre una finestra di dialogo. Selezionare **Series 60 da Iowa Università** e premere il pulsante OK. Lo strumento carica un nuovo documento con la geometria **s60_IowaUniversity**
 
 
 <div class="mw-translate-fuzzy">
@@ -173,7 +173,7 @@ Lo stesso procedimento è valido per il baglio. Si noti che viene richiesto il v
 
 <div class="mw-translate-fuzzy">
 
-Quando si preme il pulsante **OK**, il programma crea la nuova istanza barca, questa nuova istanza è denominata **Ship** nell\'albero \'\' Etichette e Attributi\'\'. Ora la geometria originale non è più necessaria, quindi è possibile nasconderla.
+Quando si preme il pulsante **OK**, il programma crea la nuova istanza barca, questa nuova istanza è denominata **Ship** nell\'albero *Etichette e Attributi*. Ora la geometria originale non è più necessaria, quindi è possibile nasconderla.
 
 
 </div>

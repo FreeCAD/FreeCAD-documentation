@@ -1,11 +1,12 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch Panel Cut
-   Name/ru   *Arch Panel Cut
-   MenuLocation   *Arch → Panel Tools → Нарезка панелей
+   Name/ru   *Панельный контур
+   Name   *Arch_Panel_Cut
+   MenuLocation   *Arch → Инструменты панелирования → Панельный контур
    Workbenches   *[Arch](Arch_Workbench/ru.md), [Path](Path_Workbench/ru.md)
    Shortcut   ***P** **C**
-   SeeAlso   *[Arch Panel](Arch_Panel/ru.md), [Arch Panel Sheet](Arch_Panel_Sheet/ru.md), [Arch Nest](Arch_Nest/ru.md)
+   Version   *0.17
+   SeeAlso   *[Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md), [Компоновка](Arch_Nest/ru.md)
 ---
 
 # Arch Panel Cut/ru
@@ -15,60 +16,54 @@
 
 ## Описание
 
-
-<div class="mw-translate-fuzzy">
-
-Этот инструмент создает в 3D-документе плоский 2D-просмотр [Arch Panel](Arch_Panel.md), который должен быть включен в [Arch Panel Sheet](Arch_Panel_Sheet.md) или напрямую экспортирован в [ DXF](Draft_DXF.md). Объекты Panel Cut также поддерживаются [Path Workbench](Path_Workbench.md).
-
-
-</div>
+Данный инструмент создает плоский контур [Панели](Arch_Panel/ru.md) в 3D виде документа, который в дальнейшем, можно добавить в [панельный лист](Arch_Panel_Sheet/ru.md) или напрямую экспортировать в формат [DXF](Draft_DXF/ru.md). Объекты созданные с помощью инструмента \"Контур панели\" также поддерживаются в [верстаке Path](Path_Workbench/ru.md).
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width   *1024px;">
 
-## Использование
+## Применение
 
 1.  Select one or more [Arch Panel](Arch_Panel.md) objects.
 2.  Press the **<img src="images/Arch_Panel_Cut.svg" width=16px> [Arch Panel Cut](Arch_Panel_Cut.md)** button, or press **P** then **C** keys.
 3.  Adjust the desired properties.
 
-## Options
+## Опции
 
--   If the panel is not flat (corrugated, for example), the relief won\'t appear in the Panel cut. This tool is useful mainly for flat panels
--   The panel cut can display a tag. This tag can be a custom line of text or can automatically show the Tag, Label or Description of its linked Panel.
--   To be useful for CNC machining, the tag should be written using a sticky font, where letters are simple polylines that are easy for the machine to follow. Upon creation, the Panel Cut object will automatically use the font specified in Edit → Preferences → Draft → Texts and Dimensions → ShapeString Font
--   Double-clicking on the panel cut in the tree view after it is created allows you to enter edit mode and modify the position of the tag
--   When you need to layout different Panel Cuts together, Panel Cuts can display a margin, that is useful to make sure a certain space is always present between a cut and another
+-   Если панель не плоская (например, рифленая), рельеф не будет отображаться при вырезе панели. Этот инструмент применим в основном для плоских панелей.
+-   На вырезе панели может отображаться тег (метка). Этот тег может быть настраиваемой строкой текста или может автоматически отображать тег, метку или описание, с которыми связана его панель.
+-   Чтобы быть полезным при обработке с ЧПУ, метка должна быть написана шрифтом, где буквы представляют собой простые ломаные линии, по которым машина может легко следовать. При создании объекта вырезания панели автоматически будет использоваться шрифт, указанный в меню Правка → Настройки → Черновик → Тексты и размеры → Default ShapeString font file
+-   Двойной щелчок по вырезанной панели в древовидном представлении после ее создания позволяет перейти в режим редактирования и изменить положение тега.
+-   Когда вам нужно расположить разные вырезы панелей вместе, Вырезы панелей могут отображать поля, что полезно для обеспечения того, чтобы между вырезом и другим всегда присутствовал определенный зазор.
 
-## Properties
+## Свойства
 
-### Data
+### Данные
 
--    **Source**   * The [Arch Panel](Arch_Panel.md) object shown by this Cut
+-    **Source**   * Объект [Панель](Arch_Panel/ru.md) отображаемый в этом вырезе.
 
--    **Tag Text**   * The text to display. Can be %tag%, %label% or %description% to display the panel tag or label
+-    **Tag Text**   * Текст для отображения. Может быть %tag%, %label% или %description% для отображения тега или метки панели.
 
--    **Tag Size**   * The size of the tag text
+-    **Tag Size**   * Размер текста у тега.
 
--    **Tag Position**   * The position of the tag text. Keep (0,0,0) for automatic center position
+-    **Tag Position**   * Положение тега. Укажите (0,0,0) для автоматического положения по центру
 
--    **Tag Rotation**   * The rotation of the tag text
+-    **Tag Rotation**   * Угол поворота тега.
 
--    **Font File**   * The font of the tag text
+-    **Font File**   * Шрифт текста тега.
 
--    **Make Face**   * If True, the panel is a Part Face, otherwise a Part Wire
+-    **Make Face**   * Если значение равно True, то панель является гранью детали, в противоположном случае является контуром сформированным из граней детали.
 
-### View
+### Вид
 
--    **Margin**   * A margin that can be displayed outside the panel cut shape
+-    **Margin**   * Поле отступа, которое может отображаться за пределами контура панели.
 
--    **Show Margin**   * Turns the display of the margin on/off
+-    **Show Margin**   * Включает/выключает отображение полей.
 
-## Scripting
+## Программирование
 
 
-**See also   ***
+**См. так же   ***
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Panel Cut tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
@@ -76,7 +71,7 @@ View = makePanelCut(panel, name="PanelView")```
 
 -   Creates a `View` object (2D projection) from the existing `panel`.
 
-Example   * 
+Пример   * 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -103,18 +98,9 @@ View.ViewObject.LineWidth = 3
 FreeCAD.ActiveDocument.recompute()
 ```
 
-## Tutorials
+## Материалы для самостоятельного изучения 
 
--   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/ru|[Panel](Arch_Panel.md)|[Panel Sheet](Arch_Panel_Sheet.md)|[Arch](Arch_Workbench/ru.md)|IconL=Arch_Panel.svg |IconC=Workbench_Arch.svg |IconR=Arch_Panel_Sheet.svg}}
-
-
-</div>
+-   [Руководство по портированию файлов проекта Wikihouse в FreeCAD](Wikihouse_porting_tutorial/ru.md)
 
 
 

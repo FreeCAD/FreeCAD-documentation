@@ -498,10 +498,10 @@ For example, the label `Sketch\002` must be referenced as `<<Sketch\\002>>`.
   Characters / Character sequences                                                                                               Description
    
   **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**   Characters that are math operators or part of mathematical constructs
-  **A**, **kA**, **mA**, **MA**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, and many more!                         Characters and character sequences that are units (see the [Units](#Units.md) paragraph)
+  **A**, **kA**, **mA**, **MA**, **J**, **K**, **\'**, **ft**, **°**, and many more!                                             Characters and character sequences that are units (see the [Units](#Units.md) paragraph)
   **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **   ***, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!          Characters used as placeholder or to trigger special operations
   **pi**, **e**                                                                                                                  Mathematical constants
-  **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                        Characters used for accents
+  **´**, **\**, **\'**, **\"**                                                                                                  Characters used for accents
   space                                                                                                                          A space defines the end of a name and can therefore not be used
 
 For example, the following name is valid   * `<<Sketch>>.Constraints.T2üßµ@`. While these are invalid names   * `<<Sketch>>.Constraints.test\result_2` (\\r means \"carriage return\") or `<<Sketch>>.Constraints.mol` (mol is a unit).
@@ -519,47 +519,59 @@ It is possible to use data from the model itself in an expression. To reference 
 The following table shows some examples   *
 
 ++++
-| CAD data                                   | Call in expression                    | Result                                                                                                                                                                       |
-+============================================+=======================================+==============================================================================================================================================================================+
-| Parametric Length of a Part-Workbench Cube |                        | Length with units mm                                                                                                                                                         |
-|                                            | `Cube.Length`                |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| CAD data                                              | Call in expression                       | Result                                                                                                                                                                       |
++=======================================================+==========================================+==============================================================================================================================================================================+
+| Length of a [Part Box](Part_Box.md)           |                           | Length with units (mm)                                                                                                                                                       |
+|                                                       | `Box.Length`                    |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Volume of the Cube                         |                        | Volume in mm³ without units                                                                                                                                                  |
-|                                            | `Cube.Shape.Volume`          |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Volume of the Box                                     |                           | Volume in mm³ without units                                                                                                                                                  |
+|                                                       | `Box.Shape.Volume`              |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Type of the Cube-shape                     |                        | String   * Solid                                                                                                                                                                |
-|                                            | `Cube.Shape.ShapeType`       |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Shape type of the Box                                 |                           | String   * Solid                                                                                                                                                                |
+|                                                       | `Box.Shape.ShapeType`           |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Label of the Cube                          |                        | String   * Label                                                                                                                                                                |
-|                                            | `Cube.Label`                 |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Label of the Box                                      |                           | String   * Label                                                                                                                                                                |
+|                                                       | `Box.Label`                     |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| X-coordinate of center of mass of the Cube |                        | X-coordinate in mm without units                                                                                                                                             |
-|                                            | `Cube.Shape.CenterOfMass.x`  |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| X-coordinate of center of mass of the Box             |                           | X-coordinate in mm without units                                                                                                                                             |
+|                                                       | `Box.Shape.CenterOfMass.x`      |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Full Cube object                           |                                                                                                                                   |
-|                                            | `Cube._self`                 |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| X-coordinate of the Box placement                     |                           | X-coordinate with units (mm)                                                                                                                                                 |
+|                                                       | `Box.Placement.Base.x`          |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Value of constraint in a sketch            |                        | Numeric value of the named constraint `Width` in the sketch, if the expression is used in the sketch itself.                                          |
-|                                            | `Constraints.Width`          |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| X-component of the rotation axis of the Box placement |                           | X-component of the unit vector in mm without units                                                                                                                           |
+|                                                       | `Box.Placement.Rotation.Axis.x` |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Value of constraint in a sketch            |                        | Numeric value of the named constraint `Width` in the sketch, if the expression is used outside of the sketch.                                         |
-|                                            | `MySketch.Constraints.Width` |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Rotation angle of the Box placement                   |                           | Rotation angle with units (deg)                                                                                                                                              |
+|                                                       | `Box.Placement.Rotation.Angle`  |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Value of a spreadsheet alias               |                        | Value of the alias `Depth` in the spreadsheet `Spreadsheet`                                                                    |
-|                                            | `Spreadsheet.Depth`          |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Full Box object                                       |                                                                                                                                   |
+|                                                       | `Box._self`                     |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Value of a local property                  |                        | Value of the **Length** property in e.g a Pad object, if the expression is used in e.g **Length2** in the same object. |
-|                                            | `Length`                     |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Value of constraint in a sketch                       |                           | Numeric value of the named constraint `Width` in the sketch, if the expression is used in the sketch itself.                                          |
+|                                                       | `Constraints.Width`             |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
+++++
+| Value of constraint in a sketch                       |                           | Numeric value of the named constraint `Width` in the sketch, if the expression is used outside of the sketch.                                         |
+|                                                       | `MySketch.Constraints.Width`    |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
+++++
+| Value of a spreadsheet alias                          |                           | Value of the alias `Depth` in the spreadsheet `Spreadsheet`                                                                    |
+|                                                       | `Spreadsheet.Depth`             |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
+++++
+| Value of a local property                             |                           | Value of the **Length** property in e.g a Pad object, if the expression is used in e.g **Length2** in the same object. |
+|                                                       | `Length`                        |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
 
 

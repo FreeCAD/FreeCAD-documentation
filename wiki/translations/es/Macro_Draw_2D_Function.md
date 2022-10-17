@@ -31,7 +31,7 @@ ZZ=Función expresada express con xx
 
 ToolBar Icon ![](images/Macro_Draw_2D_Function.png )
 
-**Macro\_Draw\_2D\_Function.FCMacro**
+**Macro_Draw_2D_Function.FCMacro**
 
 
 {{MacroCode|code=

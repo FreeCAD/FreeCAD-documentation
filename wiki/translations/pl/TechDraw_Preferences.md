@@ -34,7 +34,7 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 ### Plik
 
 -   **Szablon domyślny**   * Domyślny plik [szablonu](TechDraw_Templates.md) dla nowych stron.
--   \'\'\' Katalog szablonów \'\'\'   * Katalog startowy dla przycisku narzędzia **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Wstaw nową stronę za pomocą szablonu](TechDraw_PageTemplate.md)**.
+-   **Katalog szablonów**   * Katalog startowy dla przycisku narzędzia **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Wstaw nową stronę za pomocą szablonu](TechDraw_PageTemplate.md)**.
 -   **Plik obrazka kreskowania**   * Domyślnie [SVG](SVG.md) lub [bitmapa](bitmap.md) dla pliku **<img src="images/TechDraw_Hatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku graficznego](TechDraw_Hatch.md)**.
 -   **Plik grupy linii**   * Alternatywny plik dla osobistych definicji [LineGroup](TechDraw_LineGroup.md).
 -   **Katalog spawalniczy**   * Domyślny katalog dla przycisku narzędzia **[<img src=images/TechDraw_WeldSymbol.svg style="width   *16px"> [Symboli spawalniczych](TechDraw_WeldSymbol.md)**. {{Version/pl|0.19}}

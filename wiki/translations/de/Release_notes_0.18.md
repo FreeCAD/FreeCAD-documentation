@@ -135,8 +135,8 @@ Die Materialhandhabung wurde verbessert. Es ist nun möglich, den globalen FreeC
 
 ### Nachbearbeiter
 
--   grbl\_post -- Argument zur Unterdrückung von Werkzeugwechselbefehlen
--   grbl\_g81 Nachbearbeiter
+-   grbl_post -- Argument zur Unterdrückung von Werkzeugwechselbefehlen
+-   grbl_g81 Nachbearbeiter
 
 ## Arbeitsbereich Skizzierer 
 
@@ -156,7 +156,7 @@ Die Materialhandhabung wurde verbessert. Es ist nun möglich, den globalen FreeC
 Entsprechende Forenverweise   *
 
 -   [Jüngste zahlreiche Verbesserungen am Sketcher](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192)
--   [Feature \#1632   * Erlaubt die Eingabe des Durchmessers anstelle des Radius für die Kreisradiusbeschränkung](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=29152)
+-   [Feature #1632   * Erlaubt die Eingabe des Durchmessers anstelle des Radius für die Kreisradiusbeschränkung](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=29152)
 -   [Skizzierermodus zur automatischen Entfernung von Redundanzen](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Beschränkungen erweiterte Benennung](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 

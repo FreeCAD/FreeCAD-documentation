@@ -25,7 +25,7 @@ Cette simple macro extrait le vecteur normal de la face précédemment choisie d
 
 Icône de la barre d\'outils ![](images/Macro_Normal_Vector.png )
 
-**Macro\_Normal\_Vector.FCMacro**
+**Macro_Normal_Vector.FCMacro**
 
 
 {{MacroCode|code=

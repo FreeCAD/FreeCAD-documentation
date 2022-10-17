@@ -44,7 +44,7 @@ Narzędzia do tworzenia, konfigurowania i eksportowania arkuszy rysunków 2D.
 
 ## Organizacja pracy 
 
-Dokument zawiera obiekt kształtu 3D *(leg)*, z którego chcemy wykonać rysunek. Dlatego też tworzona jest nowa **strona**. Jest ona generowana z szablonu, na przykład szablonu **A3\_Landscape**. Szablon jest dokumentem [SVG](SVG/pl.md), który może pomieścić ramkę strony, logo i inne elementy.
+Dokument zawiera obiekt kształtu 3D *(leg)*, z którego chcemy wykonać rysunek. Dlatego też tworzona jest nowa **strona**. Jest ona generowana z szablonu, na przykład szablonu **A3_Landscape**. Szablon jest dokumentem [SVG](SVG/pl.md), który może pomieścić ramkę strony, logo i inne elementy.
 
 Na tej stronie możemy wstawić jeden lub więcej widoków. Każdy widok posiada pozycję na stronie, współczynnik skali i dodatkowe właściwości. Za każdym razem, gdy zmienia się strona, widok lub obiekt, do którego się odwołuje, strona jest ponownie odtwarzana i wyświetlany jest zaktualizowany widok.
 

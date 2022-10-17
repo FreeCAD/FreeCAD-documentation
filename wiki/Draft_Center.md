@@ -1,5 +1,5 @@
 # Draft Center
-1.  REDIRECT [Draft\_Snap\_Center](Draft_Snap_Center.md)
+1.  REDIRECT [Draft_Snap_Center](Draft_Snap_Center.md)
 
 
 

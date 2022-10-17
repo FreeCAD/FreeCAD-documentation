@@ -19,7 +19,7 @@ Cette macro affiche tous les objets du document (Visibility True).
 
 Icône de la barre d\'outils <img alt="" src=images/Macro_VisibleAlls.png  style="width   *64px;">
 
-**Macro\_VisibleAlls.FCMacro**
+**Macro_VisibleAlls.FCMacro**
 
 
 {{MacroCode|code=

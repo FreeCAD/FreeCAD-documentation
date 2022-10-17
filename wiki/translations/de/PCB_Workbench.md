@@ -95,7 +95,7 @@ Sicherheit → Bearbeiten → Benutzer und markiere alle Kontrollkästchen unter
 -   FreeCAD Wiki   * [Wiki Hauptseite](https   *//wiki.freecadweb.org/Main_Page/de)
 -   FreeCAD Forum   * [EaglePCB Importeur für FreeCAD](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=5107)
 -   Tutorien   *
--   Videos   * [EaglePCB\_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https   *//www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
+-   Videos   * [EaglePCB_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https   *//www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
 -   Dateien   * [PCB Bibliothek](https   *//github.com/marmni/FreeCAD-PCB-library)
 -   Fehler melden   * Bitte melde Fehler unter <https   *//github.com/marmni/FreeCAD-PCB/issues>
 

@@ -187,9 +187,9 @@ Bouton pour votre barre d\'outils ![Bouton](images/FCSpring_Helix_Variable.png )
 
 ## Script
 
-**Macro\_FCSpring\_Helix\_Variable.FCMacro**
+**Macro_FCSpring_Helix_Variable.FCMacro**
 
-Téléchargez la macro sur Gist [Macro\_FCSpring\_Helix\_Variable](https   *//gist.github.com/mario52a/68c81c32a0727a693d3a)
+Téléchargez la macro sur Gist [Macro_FCSpring_Helix_Variable](https   *//gist.github.com/mario52a/68c81c32a0727a693d3a)
 
 ## Installation
 
@@ -272,7 +272,7 @@ Le fichier ci-dessus est une macro sous la forme de code GitHub. Téléchargez l
 
 <center>
 
-<File   *Macro_FCSpringHelixVariable_Spring_On_Circle.gif%7CExemple> pour créer un ressort sur un cercle [File   *Macro\_FCSpringHelixVarable\_Spring\_Along\_Axis.gif\|Déplacement](File   *Macro_FCSpringHelixVarable_Spring_Along_Axis.gif%7CDéplacement) le long de l\'axe
+<File   *Macro_FCSpringHelixVariable_Spring_On_Circle.gif%7CExemple> pour créer un ressort sur un cercle [File   *Macro_FCSpringHelixVarable_Spring_Along_Axis.gif\|Déplacement](File   *Macro_FCSpringHelixVarable_Spring_Along_Axis.gif%7CDéplacement) le long de l\'axe
 
 
 </center>
@@ -323,7 +323,7 @@ def chrono(switch)   *    # 0=depart autre=stop
 
 2020/10/18 Ver 00.16b    * suppression du test FC 18 line 56, et suppression de timer chrono j\'attends\...
 
-2020/05/01 Ver 00.16   * fichier d\'erreur de correction (sauvegarde et chargement) cause la suppression de \"label\_11\_Name\" \...
+2020/05/01 Ver 00.16   * fichier d\'erreur de correction (sauvegarde et chargement) cause la suppression de \"label_11_Name\" \...
 
 2020/04/11 Ver 01.15   * layout et présentation
 
@@ -381,7 +381,7 @@ Seul le cercle fonctionne bien
 
 <center>
 
-<File   *Macro> FCSpring Helix Variable 09.png\|VIOLATION D\'ACCÈS <File   *Macro> FCSpring Helix Variable 10.png\|TCollection\_IndexedDataMap
+<File   *Macro> FCSpring Helix Variable 09.png\|VIOLATION D\'ACCÈS <File   *Macro> FCSpring Helix Variable 10.png\|TCollection_IndexedDataMap
 
 
 </center>

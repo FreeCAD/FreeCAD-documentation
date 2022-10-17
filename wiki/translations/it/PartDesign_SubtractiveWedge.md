@@ -9,7 +9,7 @@
 
 Inserisce un cuneo sottrattivo nel corpo attivo. La sua forma viene sottratta dal solido esistente.
 
-![](images/PartDesign_SubtractiveWedge_example.svg ) \'\' A sinistra il corpo attivo (A) mostrato in grigio e il cuneo sottrattivo (B) mostrato in rosso trasparente; a destra il risultato. \'\'
+![](images/PartDesign_SubtractiveWedge_example.svg ) *A sinistra il corpo attivo (A) mostrato in grigio e il cuneo sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
 
 ## Utilizzo
 

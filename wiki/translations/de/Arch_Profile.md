@@ -41,32 +41,42 @@ Das Profil-Werḱzeug ist auch im [Arch Struktur](Arch_Structure.md)-Werkzeug in
 
 ## Hinzufügen von benutzerdefinierten Profilen 
 
-Eine zusätzliche CSV-Datei kann durch den Benutzer erstellt werden, die benutzerdefinierte Definitionen enthält. Sie muss **profiles.csv** heißen und in 
-```python
+Eine zusätzliche CSV-Datei kann durch den Benutzer erstellt werden, die benutzerdefinierte Definitionen enthält. Sie muss **profiles.csv** heißen und in {{Code|lang=bash|code=
 $FREECAD_USER_DIR/Arch/
-```
+}}
 
-Der Wert für `$FREECAD_USER_DIR` kann über die [Python-Konsole](Python_console/de.md) ermittelt werden   * 
-```python
+Der Wert für `$FREECAD_USER_DIR` kann über die [Python-Konsole](Python_console/de.md) ermittelt werden   * {{Code|lang=bash|code=
 FreeCAD.getUserAppDataDir()
-```
+}}
 
 Der Inhalt deiner **profiles.csv**-Datei muss den gleichen Regeln wie die Datei [profiles.csv](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) im Quell-Code entsprechen.
 
 Die CSV-Datei muss eine Zeile für jedes verfügbare Profil enthalten, formatiert wie folgt   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   Für C-Profile   * Kategorie, Name, Klasse, Durchmesser, Dicke
 -   Für H- und U-Profile   * Kategorie, Name, Klasse, Breite, Höhe, Stegdicke (/-breite), Flanschdicke (/-stärke)
 -   Für R-Profile   * Kategorie, Name, Klasse, Breite, Höhe
 -   Für RH-Profile   * Kategorie, Name, Klasse, Breite, Höhe, Dicke
 
+
+</div>
+
 Alle Maße müssen in Millimetern angegeben werden. Mögliche Profilklassen sind   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   C   * Kreisförmiges Rohr
 -   H   * H- oder I-Profil
 -   R   * Rechteckig
 -   RH   * Rechteckig hohl
 -   U   * U-Profil
+
+
+</div>
 
 Zusätzliche Profiltypen können erstellt werden, aber eine entsprechende Klasse muss zuerst definiert werden in [ArchProfile.py](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
 
@@ -86,7 +96,7 @@ Beispiel   *
 
 ```python
 import Arch
-Arch.makeProfile([0,'REC','REC100x100','R',100,100])
+Arch.makeProfile([0, 'REC', 'REC100x100', 'R', 100, 100])
 ```
 
 wobei das erste Element der Liste eine Bestellnummer (order number) ist, die bisher nicht verwendet wird.

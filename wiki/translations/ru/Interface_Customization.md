@@ -25,11 +25,11 @@ In the Customize dialog box the following tabs are available   *
 ### Команды
 
 ![](images/Std_DlgCustomize_tab_Commands.png ) 
-*The Commands tab*
+*Вкладка "Команды"*
 
 On this tab you can browse the available commands.
 
-#### Browse commands 
+#### Поиск команд 
 
 1.  Select a command category in the **Category** panel on the left. Some categories match menu entries.
 2.  The tools available in the selected category are shown in the panel on the right.
@@ -42,11 +42,11 @@ On this tab you can browse the available commands.
 ### Клавиатура
 
 ![](images/Std_DlgCustomize_tab_Keyboard.png ) 
-*The Keyboard tab*
+*Вкладка "Клавиатура"*
 
 On this tab custom keyboard shortcuts can be defined. Shortcuts for macro commands can be defined on the [Macros](#Macros.md) tab.
 
-#### Добавление собственной закладки 
+#### Добавление пользовательской комбинации клавиш 
 
 1.  Select a command category from the **Category** dropdown list.
 2.  Select a command from the **Commands** panel.
@@ -64,7 +64,7 @@ On this tab custom keyboard shortcuts can be defined. Shortcuts for macro comman
 
 #### Remove all custom shortcuts 
 
-1.  Press the **Reset All** button.
+1.  Нажмите на кнопку **Reset All**.
 
 #### Notes (Keyboard) 
 
@@ -79,35 +79,35 @@ On this tab custom keyboard shortcuts can be defined. Shortcuts for macro comman
 ### Верстаки
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) 
-*The Workbenches tab*
+*Вкладка "Верстаки"*
 
 On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The **Enabled workbenches** list shows the workbenches as they will appear in the Workbench selector.
 
-#### Disable a workbench 
+#### Отключение верстака 
 
 1.  Select a workbench in the **Enabled workbenches** list.
 2.  Press the **<img src="images/Button_left.svg" width=16px>** button.
 3.  The workbench will be moved to the **Disabled workbenches** list
 
-#### Re-enable a workbench 
+#### Подключение верстака 
 
 1.  Select a workbench in the **Disabled workbenches** list.
 2.  Press the **<img src="images/Button_right.svg" width=16px>** button.
 3.  The workbench will be moved to the **Enabled workbenches** list
 
-#### Re-enable all workbenches 
+#### Подключение всех отключенных верстаков 
 
-1.  Press the **<img src="images/Button_add_all.svg" width=16px>** button.
+1.  Нажмите на кнопку **<img src="images/Button_add_all.svg" width=16px>**.
 
-#### Change a workbench position 
+#### Изменение порядка верстака в списке 
 
 1.  Select a workbench in the **Enabled workbenches** list.
 2.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
 3.  Optionally repeat this until the workbench is in the correct position.
 
-#### Sort workbenches alphabetically 
+#### Сортировка верстаков по алфавиту 
 
-1.  Press the **<img src="images/Button_sort.svg" width=16px>** button.
+1.  Нажмите на кнопку **<img src="images/Button_sort.svg" width=16px>**.
 
 
 {{Top}}
@@ -115,29 +115,29 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 ### Панели инструментов 
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
-*The Toolbars tab*
+*Вкладка "Панели инструментов"*
 
 На этой вкладке можно создать и изменить специальные панели инструментов.
 
-#### Select the workbench 
+#### Выбор верстака 
 
 1.  In the dropdown list on the right select the workbench whose custom toolbars you want to modify. The {{Value|Global}} option is there for custom toolbars that should be available in all workbenches.
 
-#### Create a toolbar 
+#### Создание панели инструментов 
 
 1.  Press the **New...** button.
 2.  Enter a name in the dialog box that opens.
 3.  Press the **OK** button.
 4.  The new toolbar will appear in the panel on the right.
 
-#### Rename a toolbar 
+#### Переименование панели инструментов 
 
 1.  Select a toolbar in the panel on the right.
 2.  Press the **Rename...** button.
 3.  Enter a new name in the dialog box that opens.
 4.  Press the **OK** button.
 
-#### Delete a toolbar 
+#### Удаление панели инструментов 
 
 1.  Select a toolbar in the panel on the right.
 2.  Press the **Delete** button.
@@ -147,7 +147,7 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 1.  Uncheck the checkbox in front of the toolbar name in the panel on the right.
 2.  A disabled toolbar will be invisible in the FreeCAD interface.
 
-#### Add a command 
+#### Добавление команды 
 
 1.  At least one custom toolbar is required. See [Create a toolbar](#Create_a_toolbar.md).
 2.  Select the correct toolbar in the panel on the right. If no toolbar is selected, the command will be added to the first toolbar in the list.
@@ -156,20 +156,20 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 5.  Or select \'\' to add a separator (a line between two toolbar buttons).
 6.  Press **<img src="images/Button_right.svg" width=16px>** button.
 
-#### Remove a command 
+#### Переименовывание команды 
 
 1.  If required, expand the toolbar in the panel on the right.
 2.  Select a command.
 3.  Press **<img src="images/Button_left.svg" width=16px>** button.
 
-#### Change a command position 
+#### Изменение расположения команд на панели инструментов 
 
 1.  If required, expand the toolbar in the panel on the right.
 2.  Select a command.
 3.  Press the **<img src="images/Button_up.svg" width=16px>** button or the **<img src="images/Button_down.svg" width=16px>** button.
 4.  Optionally repeat this until the command is in the correct position.
 
-#### Notes (Toolbars) 
+#### Примечания касаемо панелей инструментов 
 
 -   Toolbars belonging to the current workbench are updated immediately, but after disabling/re-enabling a toolbar a workbench change is required (switch to a different workbench and then switch back).
 -   To update global toolbars a workbench change (if commands have been added or removed) or a restart (if the order of a toolbar has changed or a toolbar was renamed) is required.
@@ -179,10 +179,10 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 {{Top}}
 
-### Macros
+### Макросы
 
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
-*The Macros tab*
+*Вкладка "Макросы"*
 
 On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
 
@@ -190,7 +190,7 @@ If you download a macro with the <img alt="" src=images/Std_AddonMgr.svg  style=
 
 If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information.
 
-#### Add a macro command 
+#### Добавление макро команды 
 
 1.  In the **Macro** dropdown list select a macro.
 2.  Enter a **Menu text**. This will be the name used to identify the macro command and will also appear in the toolbar if there is no icon.
@@ -207,12 +207,12 @@ If you want to use a macro downloaded from a different source you will have to i
 9.  The macro command appears in the panel on the left.
 10. The macro command can now be selected on the [Toolbars](#Toolbars.md) tab.
 
-#### Remove a macro command 
+#### Переименовывание макро команды 
 
 1.  Select the macro command in the panel on the left.
 2.  Press the **Remove** button.
 
-#### Change a macro command 
+#### Изменение макро команды 
 
 1.  Double-click the macro command in the panel on the left.
 2.  Make the required changes. Note that you cannot remove the icon, you can only replace it.

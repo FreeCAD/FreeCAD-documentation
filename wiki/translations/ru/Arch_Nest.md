@@ -1,56 +1,46 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch Nest   Name/ru   *Arch Nest
-   MenuLocation   *Arch → Panel tools → Nest
-   Workbenches   *[Arch](Arch_Workbench.md)
-   SeeAlso   *[[Arch Panel/ru]], [[Arch Panel Sheet/ru]]
+   Name/ru   *Компоновка
+   Name   *Arch_Nest
+   MenuLocation   *Arch → Инструменты панелирования → Компоновка
+   Workbenches   *[Arch](Arch_Workbench/ru.md)
+   Version   *0.17
+   SeeAlso   *[Паенль](Arch_Panel/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md)
 ---
 
 # Arch Nest/ru
 
-
-</div>
-
 ## Описание
 
-The **<img src="images/Arch_Nest.svg" width=16px> [Arch Nest](Arch_Nest.md)** tool allows to select a flat shape to be a container, and a series of other flat shapes to be organized inside the space defined by the container shape. This is typically needed for CNC operations, where you want to cut a series of pieces out of a base panel, and need to organize those pieces in the best possible compact way so they occupy less space on the panel.
+Инструмент **<img src="images/Arch_Nest.svg" width=16px> [Компоновка](Arch_Nest.md)** позволяет выбрать плоскую фигуру в качестве контейнера и ряд других плоских фигур, которые будут размещены внутри пространства, определенного формой контейнера. Обычно это применяется для операций с ЧПУ, когда необходимо вырезать ряд деталей из базовой панели, и необходимо разместить эти детали максимально оптимальным образом, чтобы они занимали меньше места на панели.
 
-The algorithm behind the Nest tool is in constant evolution, and is currently not fully optimized. In the future the performance of this tool should become much better.
+Алгоритм, лежащий в основе инструмента Компоновка, постепенно дорабатывается и улучшается, но в на данный момент он не полностью оптимизирован. В будущем производительность данного инструмента должна стать намного лучше.
 
 <img alt="" src=images/Arch_Nest_example.jpg  style="width   *600px;">
 
-*The image above shows a series of shapes before and after the nesting operation.*
+\"На изображении выше показан ряд фигур до и после выполнения компоновки\".
 
-## Использование
+## Применение
 
-1.  Press the **<img src="images/Arch_Nest.svg" width=16px> [[Arch Nest]]** button.
-2.  Select an object to be the container. This object must be flat, and, at the moment, rectangular.
-3.  Click the **Pick container** button to use that object as the container.
-4.  Select a series of other flat objects that you wish to place inside the container. These objects must all be flat and in the same plane as the container.
-5.  Adjust desired options below.
-6.  Start the calculation process.
-7.  At the end of the calculation, click the **Preview** button to create a temporary preview of the result.
-8.  If you wish to apply the result (move and rotate the actual shapes into place), click **OK**.
+1.  \# Нажмите кнопку **<img src="images/Arch_Nest.svg" width=16px> [Компоновка](Arch_Nest/ru.md)**.
+2.  Выберите объект в качестве контейнера. Этот объект должен быть плоским и прямоугольным.
+3.  Нажмите кнопку **Указать контейнер**, чтобы использовать этот объект в качестве контейнера.
+4.  Выберите ряд других плоских объектов, которые вы хотите поместить внутрь контейнера. Все эти объекты должны быть плоскими и находиться в той же плоскости, что и контейнер.
+5.  Настройте желаемые параметры ниже.
+6.  Запустите процесс расчета.
+7.  В конце вычисления нажмите кнопку **Предварительный просмотр**, чтобы создать временный предварительный просмотр результата.
+8.  Если вы хотите применить результат (переместить и повернуть фактические фигуры на место), нажмите **OK**.
 
 <img alt="" src=images/Arch_Nest_panel.jpg  style="width   *800px;"> 
-*Taskview panel for the [Arch Nest](Arch_Nest.md) tool*
+*Внешний вид панели задач инструмента [Комоновка](Arch_Nest/ru.md)*
 
 ## Примечания
 
--   All objects must have a face
--   At the moment the tool will only work with flat objects that all have the same orientation.
--   At the moment, the container must be rectangular.
--   At the moment, margin / spacing between the pieces is not implemented yet
--   The calculation can take a lot of time with many objects. That will be optimized in the future
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/ru|[Panel Sheet](Arch_Panel_Sheet.md)|[Frame](Arch_Frame.md)|[Arch](Arch_Workbench.md)|IconL=Arch_Panel_Sheet.svg |IconC=Workbench_Arch.svg |IconR=Arch_Frame.svg}}
-
-
-</div>
+-   Все объекты должны иметь только одну грань
+-   На текущий момент инструмент может работать только с плоскими объектами, которые имеют одинаковую ориентацию.
+-   На текущий момент контейнер должен быть прямоугольным.
+-   На текущий момент поддержка полей / интервалов между фигурами еще не реализована.
+-   Вычисление может занять много времени при большом количестве объектов. Это будет оптимизировано в будущем.
 
 
 

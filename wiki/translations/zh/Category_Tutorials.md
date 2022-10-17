@@ -3,7 +3,7 @@ This is a complete list of pages under [   *Category   *Tutorials](   *Category_
 
 See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
-[Category   *User\_Documentation](Category_User_Documentation.md)
+[Category   *User_Documentation](Category_User_Documentation.md)
 
 ### Contents
 

@@ -1,5 +1,5 @@
 # Part Workbench/es
-1.  REDIRECT [Part\_Module/es](Part_Module/es.md)
+1.  REDIRECT [Part_Module/es](Part_Module/es.md)
 
 
 

@@ -46,7 +46,7 @@ The Blender navigation style was modeled after [Blender](https   *//www.blender.
 
 </div>
 
-Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold the middle mouse button, then move the pointer. }}
+Alternatively, hold both left and right mouse buttons, and then move the pointer. \|Zoom_text=Use the mouse wheel to zoom in and out. \|Rotate_view_text=Hold the middle mouse button, then move the pointer. }}
 
 ### CAD navigation 
 
@@ -109,11 +109,11 @@ This style was tailored for use with a touchscreen and pen. Nevertheless, it can
 
 </div>
 
-Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button. \|Zoom\_text=Use the mouse wheel to zoom in and out. \|Zoom\_gesture\_text=Drag two fingers (pinch) closer or farther apart. \|Rotate\_view\_text=Hold the left mouse button, then move the pointer. In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
+Alternatively, tap and hold, then drag. This simulates the pan with the right mouse button. \|Zoom_text=Use the mouse wheel to zoom in and out. \|Zoom_gesture_text=Drag two fingers (pinch) closer or farther apart. \|Rotate_view_text=Hold the left mouse button, then move the pointer. In [Sketcher](Sketcher_Workbench.md) and other edit modes, this behavior is disabled. Hold **Alt** when pressing the mouse button to enter rotation mode.
 
-To set the camera\'s focus point for rotation, click a point with the middle mouse button. Alternatively, aim the cursor at a point and press **H** on the keyboard. \|Rotate\_view\_gesture\_text=Drag with one finger to rotate.
+To set the camera\'s focus point for rotation, click a point with the middle mouse button. Alternatively, aim the cursor at a point and press **H** on the keyboard. \|Rotate_view_gesture_text=Drag with one finger to rotate.
 
-Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt\_view\_text=Hold both left and right mouse buttons, then move the pointer sideways. \|Tilt\_view\_gesture\_text=Rotate the imaginary line formed by two touch points.
+Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt_view_text=Hold both left and right mouse buttons, then move the pointer sideways. \|Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
 
 On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
 
@@ -135,7 +135,7 @@ In Maya-Gesture Navigation, panning, zooming, and rotating the view require the 
 
 </div>
 
-Alternatively, use the mouse wheel to zoom in and out. \|Rotate\_view\_text=Hold **Alt** and the left mouse button, then move the pointer. }}
+Alternatively, use the mouse wheel to zoom in and out. \|Rotate_view_text=Hold **Alt** and the left mouse button, then move the pointer. }}
 
 ### OpenCascade navigation 
 

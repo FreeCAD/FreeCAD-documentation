@@ -1,5 +1,5 @@
 # TechDraw TextLeader/it
-1.  REDIRECT [TechDraw\_RichTextAnnotation/it](TechDraw_RichTextAnnotation/it.md)
+1.  REDIRECT [TechDraw_RichTextAnnotation/it](TechDraw_RichTextAnnotation/it.md)
 
 
 

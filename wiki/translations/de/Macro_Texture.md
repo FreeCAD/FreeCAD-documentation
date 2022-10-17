@@ -181,7 +181,7 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 -    {{SpinBox|0/2 Contour}}   * Diese Spinbox gibt die Konturlinie nicht an (zB   * 0 für die Basis).
 
--   Capping {{CheckBox|White}}    * Die Capping-Funktion kann auf der Farbauswahl (Weiß (Standard) oder Schwarz) festgelegt werden. Der Grad der Verkappung der Regel 20 auf 0 (oder 255 auf 0), wenn das Kontrollkästchen auf **W** (nicht markiert) oder 0 bis 20 (oder 0 bis 255) gesetzt ist, wenn das Kontrollkästchen auf \'\'\'B gesetzt ist \'\'\'(geprüft).
+-   Capping {{CheckBox|White}}    * Die Capping-Funktion kann auf der Farbauswahl (Weiß (Standard) oder Schwarz) festgelegt werden. Der Grad der Verkappung der Regel 20 auf 0 (oder 255 auf 0), wenn das Kontrollkästchen auf **W** (nicht markiert) oder 0 bis 20 (oder 0 bis 255) gesetzt ist, wenn das Kontrollkästchen auf **B gesetzt ist**(geprüft).
 
 -    {{SpinBox|20 Capping}}   * Diese Spinbox gibt den Grad der Verkappung an.
 
@@ -200,7 +200,7 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 -    **Help**   * Zeigt die Wiki-Seite im FreeCAD-Browser
 
     -   Zeigt die Wiki-Seite im FreeCAD-Browser an
-    -   Um den Parameter zu ändern, gehen Sie zu \'\' \'Extras → Parameter bearbeiten \...\' \'\'
+    -   Um den Parameter zu ändern, gehen Sie zu *\'Extras → Parameter bearbeiten \...\'*
     -   \_\_Der globale Schritt auf spinBox   * \_
     -   User parameter   ***BaseApp/Preferences/Macros/FCMmacros/FCTexture → SingleStep**
     -   Passen Sie den gewünschten Wert an (standardmäßig 1,0).
@@ -217,7 +217,7 @@ Der Anfangswert des Bedienungswerts passt sich automatisch an die ausgewählte F
 
 The icons .png <img alt="" src=images/FCTexture.png  style="width   *64px;"> and .svg<img alt="" src=images/FCTexture.svg  style="width   *64px;">
 
-**Macro\_Texture.FCMacro**
+**Macro_Texture.FCMacro**
 
 Laden Sie das Makro in Gist herunter [Macro FCTexture.FCMacro](https   *//gist.github.com/mario52a/262317bc7d8555885b0e)
 
@@ -264,7 +264,7 @@ Image   *Texture 001 Logo.png\|The logo of FreeCAD. Image   *Texture 002 Fe FC.p
 
 <center>
 
-Image   *Texture\_003\_napperon.png\|A portion of a tablecloth. Image   *Texture\_005\_larme.png\|A diamond plate.
+Image   *Texture_003_napperon.png\|A portion of a tablecloth. Image   *Texture_005_larme.png\|A diamond plate.
 
 
 </center>
@@ -303,7 +303,7 @@ Image   *Texture\_003\_napperon.png\|A portion of a tablecloth. Image   *Texture
 <File   *FCTexture_Example.gif%7CProcedure> for create solid   *
 **1   *** Create loft with the <img alt="" src=images/Part_RuledSurface.svg  style="width   *24px;"> tools or with the <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;"> [Macro Loft](Macro_Loft/de.md)
 **2   *** Select all and extrude with the tools <img alt="" src=images/Part_Extrude.svg  style="width   *24px;">
-**3A   *** For Linux Download [GMSHMesh](https   *//github.com/psicofil/Macros_FreeCAD) (author psicofil) [Macro\_GMSH Wiki page](Macro_GMSH.md)
+**3A   *** For Linux Download [GMSHMesh](https   *//github.com/psicofil/Macros_FreeCAD) (author psicofil) [Macro_GMSH Wiki page](Macro_GMSH.md)
 **3B   *** For Windows Download [GmshMesh2.zip](http   *//forum.freecadweb.org/download/file.php?id=15220) unzip the file and install it in your Mod directory (author ulrich1a)
 **4   *** Create your Mesh file and use it
 
@@ -358,7 +358,7 @@ Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;
                 ####new
 ```
 
--   ver 0.13b   * 30/12/2020 add try for **time.clock()** and **time.process\_time()** for Python 3xyz\...
+-   ver 0.13b   * 30/12/2020 add try for **time.clock()** and **time.process_time()** for Python 3xyz\...
 -   ver 0.13    * 17/04/2020 Layout and PySide2 Qt5
 -   ver 0.12    * 04/08/2019 add spinbox button for height
 -   ver 0.11    *03/07/2019 adapt to Python 3
@@ -371,7 +371,7 @@ Das Makro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;
 
 -   ver 0.4    * 08/08/2014 PyQt4 PySide
 
--   ver 0.3    * 28/03/2014    *comment out the line \"**\# self.checkBox\_5.setAccessibleName(\_fromUtf8(\"\"))**\"
+-   ver 0.3    * 28/03/2014    *comment out the line \"**\# self.checkBox_5.setAccessibleName(\_fromUtf8(\"\"))**\"
 
 that causes an error with the version FreeCAD    * Version   * 0.14.3343 (Git), Python version   * 2.7.6, Qt version   * 4.8.5
 

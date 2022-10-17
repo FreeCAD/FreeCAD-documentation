@@ -1,5 +1,5 @@
 # Scripting examples/en
-1.  REDIRECT [Scripting\_and\_macros/en](Scripting_and_macros/en.md)
+1.  REDIRECT [Scripting_and_macros/en](Scripting_and_macros/en.md)
 
 
 

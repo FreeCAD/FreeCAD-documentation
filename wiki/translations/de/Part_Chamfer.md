@@ -36,7 +36,7 @@ Anfasen der gewählten Kante(n) eines Objekts. Ein Dialog erlaubt die Auswahl, w
 
 ## Eigenschaften
 
-![Part\_Faseneigenschaften](images/Part_Chamfer-Properties.png ) 
+![Part_Faseneigenschaften](images/Part_Chamfer-Properties.png ) 
 
 
 {{Properties_Title/de|Basis}}
@@ -96,7 +96,7 @@ cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
--   Erzeugt einen 5 mm Würfel, auf den wir gefaste Kanten aufbringen können. Siehe [Part\_API](Part_API/de.md) für eine Erklärung der makeBox Methode.
+-   Erzeugt einen 5 mm Würfel, auf den wir gefaste Kanten aufbringen können. Siehe [Part_API](Part_API/de.md) für eine Erklärung der makeBox Methode.
 
 
 ```python
@@ -130,7 +130,7 @@ myEdges.append((12, 1.5, 1.25))
 ```
 
 -   Erstellt ein leeres Feld \"myEdges\" und hängt dann das Feld mit den Fasenparametern jeder Kante an.
--   Die Syntax für jedes Element sollte sein (Kante\#, Fasenanfangslänge, Fasenendlänge)
+-   Die Syntax für jedes Element sollte sein (Kante#, Fasenanfangslänge, Fasenendlänge)
 
 
 ```python

@@ -24,7 +24,7 @@ Il file deve avere le tre coordinate X, Y e Z in formato ASCII senza intestazion
 
 ToolBar Icon ![](images/Macro_WireXYZ.png )
 
-**Macro\_WireXYZ.FCMacro**
+**Macro_WireXYZ.FCMacro**
 
 
 {{MacroCode|code=

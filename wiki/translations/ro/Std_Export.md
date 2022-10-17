@@ -60,7 +60,7 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 
 }}  
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

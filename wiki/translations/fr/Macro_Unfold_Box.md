@@ -30,7 +30,7 @@ Sujet du forum    * [Macro for unfolding box surfaces](http   *//forum.freecadwe
 -   Regrouper les dessins sur une même page si possible.
 -   Raccorde ou non les bords des pièces.
 
-![Macro\_unfoldBox](images/Macro_UnFoldBox_start_form.png )
+![Macro_unfoldBox](images/Macro_UnFoldBox_start_form.png )
 
 ## Utilisation
 
@@ -41,7 +41,7 @@ Sujet du forum    * [Macro for unfolding box surfaces](http   *//forum.freecadwe
 
 L\'algorithme de dépliage placera les faces sur le plan XY, mais il est rare qu\'il effectue le dépliage correctement. Un post-traitement manuel est donc nécessaire pour obtenir le résultat souhaité, comme le montre l\'image ci-dessous.
 
-![Macro\_unfoldBox](images/MacroUnFoldBoxInstruction.png )
+![Macro_unfoldBox](images/MacroUnFoldBoxInstruction.png )
 
 Le point de départ est une boîte comme celle de l\'image en haut à gauche.
 
@@ -57,7 +57,7 @@ Le résultat final est illustré dans l\'image en bas à droite ci-dessus.
 
 Icône de la barre d\'outils ![](images/Macro_Unfold_Box.png )
 
-**Macro\_unfoldBox.FCMacro**
+**Macro_unfoldBox.FCMacro**
 
     # -*- coding   * utf-8 -*-
     """

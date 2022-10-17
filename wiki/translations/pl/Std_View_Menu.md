@@ -55,6 +55,8 @@ W tym menu dostępne są następujące narzędzia   *
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width   *32px;"> [Od lewej](Std_ViewLeft/pl.md)   * Przełącz na widok z lewej strony.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width   *32px;"> [Obróć w lewo](Std_ViewRotateLeft/pl.md)   * Obraca widok na lewo.
     -   <img alt="" src=images/Std_RotateRight.png  style="width   *32px;"> [Obróć w prawo](Std_ViewRotateRight/pl.md)   * Obraca widok na prawo.
+    -   [Zachowaj widok](Std_StoreWorkingView/pl.md)   * Zapisuje ustawienia ujęcia aktywnego widoku 3D w swoim widoku roboczym. {{Version/pl|1.0}}
+    -   [Przywróć widok](Std_RecallWorkingView/pl.md)   * Przywołuje zapisany widok roboczy aktywnego widoku 3D. {{Version/pl|1.0}}
 
 -   [Przechwyć aktualny obraz](Std_FreezeViews/pl.md)
     -   [Zapisz widok \...](Std_FreezeViews/pl#Zapisz_widok.md)   * Zapisuje w pliku zamrożony widok.

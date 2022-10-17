@@ -63,7 +63,7 @@ Apportez des ajustements supplémentaires à l\'opération en modifiant les prop
 
 ## Propriétés
 
-\'\'\' *Remarque* \'\'\'   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
+***Remarque***   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
 
 {{TitleProperty|Base}}
@@ -184,7 +184,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 -    **Enable Rotation**   * active la rotation pour accéder aux poches ou aux zones qui ne sont pas normales à l\'axe Z.
 
--    **Inverse Angle**   * inverse l\'angle de rotation. \'\' **Exemple   *** change une rotation de -22,5 à 22,5 degrés.\'\'
+-    **Inverse Angle**   * inverse l\'angle de rotation. ***Exemple   *** change une rotation de -22,5 à 22,5 degrés.*
 
 -    **Limit Depth To Face**   * applique la profondeur Z de la face sélectionnée comme valeur la plus basse pour la profondeur finale. Des valeurs utilisateur plus élevées pour la profondeur finale seront observées.
 

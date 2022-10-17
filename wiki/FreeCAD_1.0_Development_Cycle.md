@@ -7,7 +7,7 @@ Development of FreeCAD 1.0 began after tagging [FreeCAD 0.20](https   *//github.
 
 The development of 1.0 targets Ubuntu 20.04 LTS as the oldest OS for compiling FreeCAD. The minimum supported infrastructure software versions are therefore the ones of Ubuntu 20.04 LTS   *
 
--   Boost 1.7.1
+-   Boost 1.71
 -   GCC 7.5
 -   Clang 6.0
 -   CMake 3.16

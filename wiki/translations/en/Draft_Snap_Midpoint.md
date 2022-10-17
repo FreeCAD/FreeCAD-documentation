@@ -11,8 +11,6 @@
 
 The <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width   *24px;"> **Draft Snap Midpoint** option snaps to the midpoint of edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
-In FreeCAD version 0.19 this snap option only works for straight and circular edges.
-
 ![](images/Draft_Snap_Midpoint_example.png ) 
 *Snapping the second point of a line to the midpoint of an edge*
 

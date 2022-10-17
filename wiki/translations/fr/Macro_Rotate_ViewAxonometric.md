@@ -22,9 +22,9 @@ Vous avez deux options   *
 
 ## Utilisation
 
-Pour utiliser les deux macros, copiez la première macro et nommez-la \"**Macro\_Rotate\_ViewAxonometric\_Y**\" (mode 1) sans changer le code et utilisez cette icône ![axonometric view with Y pointing upwards](images/Macro_Rotate_View_with_Y_pointing_upwards_.png ).
+Pour utiliser les deux macros, copiez la première macro et nommez-la \"**Macro_Rotate_ViewAxonometric_Y**\" (mode 1) sans changer le code et utilisez cette icône ![axonometric view with Y pointing upwards](images/Macro_Rotate_View_with_Y_pointing_upwards_.png ).
 
-Copiez la seconde macro et namez la \"**Macro\_Rotate\_ViewAxonometric\_Z**\" (mode 2) and   *
+Copiez la seconde macro et namez la \"**Macro_Rotate_ViewAxonometric_Z**\" (mode 2) and   *
 
 commentez la ligne
 
@@ -43,7 +43,7 @@ and use this icon ![axonometric view with Z pointing upwards](images/Macro_Rotat
 -   mode 1    * ToolBar Icon ![](images/Macro_Rotate_View_with_Y_pointing_upwards_.png )
 -   mode 2    * ToolBar Icon ![](images/Macro_Rotate_View_with_Z_pointing_upwards_.png ) (uncomment for use)
 
-**Macro\_Rotate\_ViewAxonometric.FCMacro**
+**Macro_Rotate_ViewAxonometric.FCMacro**
 
 
 {{MacroCode|code=

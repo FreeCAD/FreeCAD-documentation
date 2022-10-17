@@ -27,9 +27,9 @@ Select the plot tab that you want to edit, and run this tool. Then select the se
 
 -   **Label**   * You can set the label. [LaTeX](https   *//www.latex-project.org/) math formulas are accepted.
 -   **No label**   * If selected, the series is not shown at the plot legend. Otherwise the series will shown at the legend with the appropriate label.
--   **Line Style**   * The considered line style. Use \"\_draw\_nothing\" to don\'t consider lines for that specific series.
+-   **Line Style**   * The considered line style. Use \"\_draw_nothing\" to don\'t consider lines for that specific series.
 -   **Line Width**   * The line width.
--   **Marker**   * The considered marker. Use \"\_draw\_nothing\" to don\'t consider markers for that specific series.
+-   **Marker**   * The considered marker. Use \"\_draw_nothing\" to don\'t consider markers for that specific series.
 -   **Marker Size**   * The marker size.
 -   **Color**   * The series color.
 
@@ -41,7 +41,7 @@ Select the plot tab that you want to edit, and run this tool. Then select the se
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

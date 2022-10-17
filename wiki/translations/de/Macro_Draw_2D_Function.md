@@ -25,7 +25,7 @@ Verwenden Sie es, um eine Funktion zu zeichnen, die durch eine \"Gleichung\" bes
 
 ToolBar Icon ![](images/Macro_Draw_2D_Function.png )
 
-**Macro\_Draw\_2D\_Function.FCMacro**
+**Macro_Draw_2D_Function.FCMacro**
 
 
 {{MacroCode|code=

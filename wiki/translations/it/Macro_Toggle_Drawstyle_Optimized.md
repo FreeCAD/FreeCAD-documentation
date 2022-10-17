@@ -16,9 +16,9 @@ Script ottimizzato per tutte le lingue e per oggetti selezionati o tutti gli ogg
 
 Tre macro sono disponibile   *
 
--   Combinazione che attiva o disattiva la modalità di visualizzazione globale quando non è selezionato nulla e / o attiva la modalità di visualizzazione degli oggetti selezionati se gli oggetti sono selezionati. Quando gli oggetti sono selezionati, la modalità di visualizzazione globale viene automaticamente impostata su Come è   * [Macro\_Toggle\_Drawstyle\_Optimized.FCMacro](#Script.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized.png  style="width   *24px;">
--   Attiva/disattiva la modalità di visualizzazione globale   * [Macro\_Toggle\_Drawstyle\_Optimized\_2.FCMacro](#Script_2.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_2.png  style="width   *24px;">
--   Attiva/disattiva la modalità di visualizzazione degli oggetti selezionati (le modifiche sono visibili solo nella modalità di visualizzazione globale così com\'è (situata sulla barra degli strumenti Visualizza))   * [Macro\_Toggle\_Drawstyle\_Optimized\_3.FCMacro](#Script_3.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_3.png  style="width   *24px;">
+-   Combinazione che attiva o disattiva la modalità di visualizzazione globale quando non è selezionato nulla e / o attiva la modalità di visualizzazione degli oggetti selezionati se gli oggetti sono selezionati. Quando gli oggetti sono selezionati, la modalità di visualizzazione globale viene automaticamente impostata su Come è   * [Macro_Toggle_Drawstyle_Optimized.FCMacro](#Script.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized.png  style="width   *24px;">
+-   Attiva/disattiva la modalità di visualizzazione globale   * [Macro_Toggle_Drawstyle_Optimized_2.FCMacro](#Script_2.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_2.png  style="width   *24px;">
+-   Attiva/disattiva la modalità di visualizzazione degli oggetti selezionati (le modifiche sono visibili solo nella modalità di visualizzazione globale così com\'è (situata sulla barra degli strumenti Visualizza))   * [Macro_Toggle_Drawstyle_Optimized_3.FCMacro](#Script_3.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_3.png  style="width   *24px;">
 
 Quando lavori con FreeCAD ci sono momenti in cui vuoi cambiare rapidamente lo stile di disegno dell\'oggetto con cui stai lavorando. Questo è disponibile attraverso il menu a discesa Drawstyle in cui è possibile selezionare qualsiasi Drawstyle. Questa macro rende disponibili 2 stili di disegno come pulsante selezionabile su una barra degli strumenti su cui l\'utente può fare clic per alternare tra i due stili.
 
@@ -39,7 +39,7 @@ Combinazione che attiva o disattiva la modalità di visualizzazione globale quan
 
 The icon ToolBar ![](images/Macro_Toggle_Drawstyle_Optimized.png )
 
-**Macro\_Toggle\_Drawstyle\_Optimized.FCMacro**
+**Macro_Toggle_Drawstyle_Optimized.FCMacro**
 
 
 {{MacroCode|code=
@@ -122,7 +122,7 @@ Attiva/disattiva modalità di visualizzazione globale   *
 
 The icon ToolBar ![](images/Macro_Toggle_Drawstyle_Optimized_2.png )
 
-**Macro\_Toggle\_Drawstyle\_Optimized\_2.FCMacro**
+**Macro_Toggle_Drawstyle_Optimized_2.FCMacro**
 
 
 {{MacroCode|code=
@@ -176,7 +176,7 @@ Attiva/disattiva la modalità di visualizzazione degli oggetti selezionati (le m
 
 The icon ToolBar ![](images/Macro_Toggle_Drawstyle_Optimized_3.png )
 
-**Macro\_Toggle\_Drawstyle\_Optimized\_3.FCMacro**
+**Macro_Toggle_Drawstyle_Optimized_3.FCMacro**
 
 
 {{MacroCode|code=

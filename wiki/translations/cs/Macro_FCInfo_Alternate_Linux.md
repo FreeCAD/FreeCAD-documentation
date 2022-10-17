@@ -22,7 +22,7 @@ Server momentálně nepřijímá více stránek 64 kB a nebylo možné tuto str�
 
 Stáhnout soubor zde   *
 
-[FCInfo\_en\_Ver\_1-12\_No\_Docked\_Ubuntu.FCMacro.zip](http   *//forum.freecadweb.org/download/file.php?id=4453)
+[FCInfo_en_Ver_1-12_No_Docked_Ubuntu.FCMacro.zip](http   *//forum.freecadweb.org/download/file.php?id=4453)
 
 [Or on the forum](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=48579#p48579)
 

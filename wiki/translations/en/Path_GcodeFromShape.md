@@ -1,5 +1,5 @@
 # Path GcodeFromShape/en
-1.  REDIRECT [Path\_Shape/en](Path_Shape/en.md)
+1.  REDIRECT [Path_Shape/en](Path_Shape/en.md)
 
 
 

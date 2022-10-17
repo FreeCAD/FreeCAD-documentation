@@ -304,7 +304,7 @@ Es ist nicht einfach, das horizontale Profil zu ermitteln, um ein bestimmtes ver
 2.  trage das Schnittprofil entlang der Helix1 aus. Hake an *Erzeuge Volumenkörper* und *Frenet*.
 3.  Erstelle einen Kreis mit dem Nennradius des Gewindes in der x-y-Ebene.
 4.  Erstelle eine Fläche aus dem Kreis. (Part Arbeitsbereich   * erweitertes Dienstprogramm zum Erstellen von Formen oder [Entwurf Hochstufen](Draft_Upgrade/de.md) und ErstelleFläche = true)
-5.  die Fläche mit dem Sweep Profil schneiden\# einen Klon aus dem Schnitt erstellen (Entwurf Arbeitsbereich)
+5.  die Fläche mit dem Sweep Profil schneiden# einen Klon aus dem Schnitt erstellen (Entwurf Arbeitsbereich)
 6.  Herabstufung des Klons, um einen Draht zu erlangen. (Entwurf Arbeitsbereich) Dieser Draht ist das horizontale Profil, das für diese Methode benötigt wird.
 7.  Erstelle eine Spirale mit dem Radius des Nennradius des Gewindes und einer Steigung des Gewindes und der Höhe des benötigten Gewindes.
 8.  Trage den Draht entlang der Spirale aus. Hake Vollmaterial und Frenet an.

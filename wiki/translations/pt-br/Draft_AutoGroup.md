@@ -20,16 +20,15 @@ This command was originally intended for groups, hence its name, but was redesig
 
 ## Utilização
 
-1.  To use this command in FreeCAD version 0.19 at least one [layer](Draft_Layer.md) must exist.
-2.  Optionally select the layer you want to make active in the [Tree view](Tree_view.md).
-3.  There are several ways to invoke the command   *
+1.  Optionally select the layer you want to make active in the [Tree view](Tree_view.md).
+2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/button_invalid.svg" width=16px> [None](Draft_AutoGroup.md)** button in the [Draft Tray](Draft_Tray.md). This button can look different. If there is an active layer it will show the name of the layer and a layer icon with the **Line Color** and **Shape Color** of the layer.
     -   If you have selected a layer   * select the **<img src="images/button_right.svg" width=16px> Activate this layer** option from the [Tree view](Tree_view.md) context menu.
-4.  If you have not yet selected a layer the layer menu opens. Do one of the following   *
+3.  If you have not yet selected a layer the layer menu opens. Do one of the following   *
     -   Select **None** to work without an active layer.
     -   Select an existing layer to make active.
     -   Select **Add new Layer** to create a new layer. Selecting this option will not change the active layer.
-5.  If the active layer was changed the button in the [Draft Tray](Draft_Tray.md) is updated.
+4.  If the active layer was changed the button in the [Draft Tray](Draft_Tray.md) is updated.
 
 ## Notas
 

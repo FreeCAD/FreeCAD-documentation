@@ -151,7 +151,7 @@ Après avoir téléchargé et installé l\'extension, l\'ouvrir. ![](images/sm1.
 
 #### 2ème opération 
 
--   Ouvrez l\'atelier Sheet\_metal.
+-   Ouvrez l\'atelier Sheet_metal.
 -   Sélectionnez 1 épaisseur du bord (arête) de la plaque de base et cliquez sur l\'outil \"bend\" 90°/ L\'angle de courbure par défaut peut être modifié de 0 à 90°.
 -   La hauteur des bords est de 10 mm par défaut, modifiable de 0,1 à xxxmm.
 -   Le rayon de cintrage est par défaut égal à l\'épaisseur, modifiable de 0,1 à xxmm (ne jamais mettre 0).

@@ -1,5 +1,5 @@
 # Category:OpenSCAD/pt
-This category lists pages related to the [OpenSCAD\_Workbench/pt](OpenSCAD_Workbench/pt.md).
+This category lists pages related to the [OpenSCAD_Workbench/pt](OpenSCAD_Workbench/pt.md).
 
 [Category   *Workbenches/pt](Category   *Workbenches/pt.md)
 

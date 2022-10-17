@@ -35,8 +35,8 @@ This tool maps a sketch onto a face, like a label on a bottle. The sketch must b
     2.  Activate SketchOnSurface by either   *
         -   Pressing on the <img alt="" src=images/Curves_SketchOnSurface.svg  style="width   *24px;"> button
         -   Using the **Surfaces → Sketch on Surface** entry in the Curves menu
-    3.  A Sketch\_On\_Surface object appears in the [Tree view](Tree_view.md).
-    4.  Expand this object to make the Mapped\_Sketch appear below.
+    3.  A Sketch_On_Surface object appears in the [Tree view](Tree_view.md).
+    4.  Expand this object to make the Mapped_Sketch appear below.
     5.  Edit the sketch and add geometries inside the blue construction bounds.
     6.  A SketchOnSurface object will be created on the surface of your object based on this sketch.
 

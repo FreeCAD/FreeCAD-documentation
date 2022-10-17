@@ -377,7 +377,7 @@ os.remove(qrc_filename)
 
 -   [Traduction et ateliers externes](Translating_an_external_workbench/fr.md)
 -   [Discussion sur le forum - Namespaced Workbenches](https   *//forum.freecadweb.org/viewtopic.php?t=47460)
--   [freecad.workbench\_starterkit](https   *//github.com/FreeCAD/freecad.workbench_starterkit)
+-   [freecad.workbench_starterkit](https   *//github.com/FreeCAD/freecad.workbench_starterkit)
 
 
 

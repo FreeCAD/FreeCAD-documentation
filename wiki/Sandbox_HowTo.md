@@ -80,7 +80,7 @@ This can be done by making references of the sketches used for the holes in the 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
--   \'\'\'How to slice the 3D view \'\'\'
+-   **How to slice the 3D view**
 
 
 <div class="mw-collapsible-content">

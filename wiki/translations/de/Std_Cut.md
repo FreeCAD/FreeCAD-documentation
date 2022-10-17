@@ -16,10 +16,16 @@ Um andere Objekte auszuschneiden, kannst du den [Std Kopieren](Std_Copy/de.md)-B
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle ein oder mehrere Zellen in der Tabellenkalkulation.
 2.  Es gibt mehrere Wege, um den Befehl aufzurufen   *
     -   Drücke die **<img src="images/Std_Cut.svg" width=16px> [Std Ausschneiden](Std_Cut/de.md)**-Schaltfläche.
     -   Wähle die **Bearbeiten → <img src="images/Std_Cut.svg" width=16px> Ausschneiden**-Option aus dem Menü.
+
+
+</div>
 
 ## Hinweise
 

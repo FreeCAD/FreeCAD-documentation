@@ -11,7 +11,7 @@ Inserisce un prisma sottrattivo nel corpo attivo. La sua forma viene sottratta d
 
 ![](images/PartDesign_SubtractivePrism_example.svg )
 
-\'\' A sinistra il corpo attivo (A) mostrato in grigio e il prisma sottrattivo (B) mostrato in rosso trasparente; a destra il risultato. \'\'
+*A sinistra il corpo attivo (A) mostrato in grigio e il prisma sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
 
 ## Utilizzo
 

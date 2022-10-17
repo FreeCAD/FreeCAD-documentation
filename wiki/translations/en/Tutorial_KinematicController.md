@@ -1590,7 +1590,7 @@ if __name__ == "__main__"   *
 
 ## Some imperfections 
 
--   The order of the image sequence is reversed as we use the variable steps\_left which is counted down.
+-   The order of the image sequence is reversed as we use the variable steps_left which is counted down.
 -   The image directory and the image name are hard-coded.
 -   Multiple Controllers are not synchronised.
 

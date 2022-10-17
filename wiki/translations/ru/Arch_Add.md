@@ -34,18 +34,12 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 <div class="mw-translate-fuzzy">
 
-\'\' В приведенном выше изображении коробка добавляется к стене. \'\'
+*В приведенном выше изображении коробка добавляется к стене.*
 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 1.  Select the objects to be added together. The last object selected will be the host Arch object.
 2.  Press the **<img src="images/Arch_Add.svg" width=16px>** button, or use **Arch** → **<img src="images/Arch_Add.svg" width=16px> [Add](Arch_Add.md)** from the top menu.
@@ -74,7 +68,7 @@ The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md)
    *   The above code snippet adds the given objects in `objectsList` to the given `host` object.
    *   **Note   *** `objectsList` can be a single object or a list of objects.
 
-Example   *
+Пример   *
 
 
 ```python

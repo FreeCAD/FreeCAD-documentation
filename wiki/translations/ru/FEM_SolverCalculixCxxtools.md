@@ -21,7 +21,7 @@
 2.  Selecting working directory
 3.  Running the CalculiX solver
 
-## Использование
+## Применение
 
 1.  A <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *16px;"> CalculiXcxxTools solver object is created automatically with the creation of an <img alt="" src=images/FEM_Analysis.svg  style="width   *16px;"> [Analysis container](FEM_Analysis.md).
     To create it manually, use one of the following alternatives   *

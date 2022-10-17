@@ -71,7 +71,7 @@ Sélectionner l\'esquisse, presser le bouton **F2** et le renommer \"BaseSketch\
 
 Si nous laissons l\'esquisse où elle est, l\'exemple serait trop facile, alors changeons la position de l\'esquisse en modifiant le décalage de son ancrage.
 
-Dans la vue combinée (onglet Données), regardez dans la section Attachment du volet des propriétés, ici nous pouvons voir que BaseSketch a un support de XY\_Plane et est attaché avec le mode Flat Face. Regardez plus bas et trouvez Attachment Offset (décalage d\'ancrage) et développez-le, en cliquant sur le signe plus à côté.
+Dans la vue combinée (onglet Données), regardez dans la section Attachment du volet des propriétés, ici nous pouvons voir que BaseSketch a un support de XY_Plane et est attaché avec le mode Flat Face. Regardez plus bas et trouvez Attachment Offset (décalage d\'ancrage) et développez-le, en cliquant sur le signe plus à côté.
 
 Faire de même pour le sous-titre Position. Modifier le décalage X à 80 mm et le décalage Y à 90 mm.
 
@@ -87,7 +87,7 @@ Faisons l\'esquisse suivante, ce n\'est pas vraiment important celle que nous ch
 
 Faites une nouvelle esquisse, choisissez le plan que vous voulez (nous allons de toute façon changer son ancrage).
 
-Dessinez le triangle, rendez les deux côtés égaux et contraignez la longueur de la même manière que vous l\'avez fait pour la longueur du pavé, mais cette fois, faites la formule \"**Sketch.Constraints.width/2**\".
+Dessinez le triangle, rendez les deux côtés égaux et contraignez sa longueur de la même manière que vous l\'avez fait pour la longueur du pavé, mais cette fois, faites la formule \"**Sketch.Constraints.width/2**\".
 
 Il devrait rester deux degrés de liberté, à savoir la position par rapport à l\'origine. Fixez l\'un des coins à l\'origine de sorte que l\'esquisse ressemble à ceci   *
 
@@ -135,7 +135,7 @@ Il peut être utilisé avec l\'ajout de décalages pour positionner avec précis
 
 FreeCAD essaie de prédire le mode d\'ancrage pour vous et filtre les modes disponibles pour la sélection donnée.
 
-Dans ce cas, les options sont \"Deactivated,\" \"**Normal To Edge**\" et \"Inertia 2-3\". Normal à arête est en gras et est considéré comme la sélection préférée.
+Dans ce cas, les options sont \"Désactivées\", [**Normal à une arête**](Part_EditAttachment/fr#Normal_.C3.A0_une_ar.C3.AAte.md) et [Inertie 2-3](Part_EditAttachment/fr#Inertie_2-3.md). Normal à une arête est en gras et est considéré comme la sélection préférée.
 
 La zone de notification en haut de la boîte de dialogue affiche un message en vert indiquant le mode utilisé.
 
@@ -145,7 +145,7 @@ Les options grisées indiquent que d\'autres sélections sont nécessaires pour 
 
 L\'IsocelesSketch est maintenant correctement positionné, confirmez et quittez le dialogue.
 
-Vous pouvez maintenant découper l\'esquisse.
+Vous pouvez maintenant [découper](PartDesign_Pocket/fr.md) l\'esquisse.
 
 ![centre\|Découpe](images/Pocket.png )
 
@@ -171,9 +171,9 @@ La vue 3D doit être similaire à l\'image ci-dessus. Peu importe à quelle extr
 
 Si vous avez choisi la mauvaise ligne, changez-la maintenant. Si le triangle pointe dans le mauvais sens, vous pouvez le corriger en cochant la case \"Retourner les côtés\" au bas de la boîte de dialogue (ou plus tard après avoir fermé la boîte de dialogue, il peut être modifié dans l\'onglet des données des propriétés en définissant \"Map Reversed\" à \"True\").
 
-Le RightAngleTriangleSketch est maintenant dans une position qui nous donnera la bonne géométrie après une opération de pocket, mais nous pouvons être un peu inventifs ici et positionner l\'esquisse de manière à ce qu\'il nous soit plus facile d\'attacher plus tard la géométrie. Nous allons déplacer notre esquisse au milieu de la ligne afin qu\'elle nous fournisse un sommet en haut du chanfrein d\'angle.
+Le RightAngleTriangleSketch est maintenant dans une position qui nous donnera la bonne géométrie après une opération de pocket, mais nous pouvons être un peu inventifs ici et positionner l\'esquisse de manière à ce qu\'il nous soit plus facile d\'attacher plus tard la géométrie. Nous allons déplacer notre esquisse au milieu de la ligne afin qu\'elle nous fournisse un sommet en haut du [chanfrein](Glossary/fr#C.md) d\'angle.
 
-Dans la boîte de dialogue d\'attachement, nous allons changer le mode d\'ancrage de \"Normal To Edge\" à \"Inertia 2-3\". Cela changera la position au centre de la ligne, cela dépasse le cadre de ce tutoriel pour décrire tous les modes d\'ancrage, leurs descriptions peuvent être trouvées à la page <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Part Ancrage](Part_EditAttachment/fr.md). Il est clair qu\'inertia 2-3 utilise le centre de masse et fait l\'affaire ici.
+Dans la boîte de dialogue d\'attachement, nous allons changer le mode d\'ancrage de [**Normal à une arête**](Part_EditAttachment/fr#Normal_.C3.A0_une_ar.C3.AAte.md) à [Inertie 2-3](Part_EditAttachment/fr#Inertie_2-3.md). Cela changera la position au centre de la ligne, cela dépasse le cadre de ce tutoriel pour décrire tous les modes d\'ancrage, leurs descriptions peuvent être trouvées à la page <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Part Ancrage](Part_EditAttachment/fr.md). Il est clair qu\'inertia 2-3 utilise le centre de masse et fait l\'affaire ici.
 
 ![centre\|Boîte de dialogue Attachment en mode Inertia 2-3](images/ADInertia.png )
 
@@ -193,9 +193,9 @@ En général il vaut mieux positionner nos esquisses simplement avec des modes d
 
 FreeCAD fournit un certain nombre de moyens de le faire.
 
-1.  Attachment offset permet le positionnement par rapport aux coordonnées locales du point d\'ancrage. (où l\'origine de l\'esquisse positionnée est attachée).
-2.  Paramètre Map Path (dans l\'onglet Données de propriété avec l\'option Afficher tout activée)    * permet le positionnement le long d\'une arête sélectionnée.
-3.  Flip Sides/Map Reversed. Miroir effectif de l\'esquisse.
+1.  [Attachment Offset](Part_Part2DObject/fr#Property_Attachment_Offset.md) permet le positionnement par rapport aux coordonnées locales du point d\'ancrage. (où l\'origine de l\'esquisse positionnée est attachée).
+2.  [Map Path](Part_Part2DObject/fr#Property_Map_Path.md) (Propriété dans l\'onglet Données avec l\'option Afficher tout activée)    * permet le positionnement le long d\'une arête sélectionnée.
+3.  [Flip Sides/Map Reversed](Part_Part2DObject/fr#Property_Map_Reversed.md). Miroir effectif de l\'esquisse.
 
 Pour notre esquisse finale, nous l\'attacherons arbitrairement et corrigerons sa position à l\'aide des modificateurs répertoriés ci-dessus.
 
@@ -221,7 +221,7 @@ Au bas de la boîte de dialogue d\'ancrage se trouve une case à cocher intitul�
 
 Le FinalSketch se réfléchit lui-même.
 
-Nous allons maintenant translater de 90°. À partir de l\'illustration FinalSketch ci-dessus, nous pouvons voir que l\'axe de révolution devrait être l\'axe X. Dans le Wiki, cela s\'appelle Roll. N\'oubliez pas que ceci est relatif au système de coordonnées local. Entrez 90° dans la case \"around X-axis\" de la section décalage de la boîte de dialogue d\'ancrage.
+Nous allons maintenant translater de 90°. À partir de l\'illustration FinalSketch ci-dessus, nous pouvons voir que l\'axe de révolution devrait être l\'axe X. Dans le Wiki, cela s\'appelle [\"Roulis\"](Tasks_Placement/fr#Roll.md). N\'oubliez pas que ceci est relatif au système de coordonnées local. Entrez 90° dans la case \"around X-axis\" de la section décalage de la boîte de dialogue d\'ancrage.
 
 ![centre\|FinalSketch retourné et pivoté](images/FSFlipRot.png )
 

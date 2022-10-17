@@ -22,8 +22,6 @@ Diese Methode fängt den Mittelpunkt von Linien oder Kanten von Elmenten ein.
 
 </div>
 
-In FreeCAD version 0.19 this snap option only works for straight and circular edges.
-
 ![](images/Draft_Snap_Midpoint_example.png )
 
 

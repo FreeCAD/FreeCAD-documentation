@@ -67,19 +67,19 @@ The environment part of the settings took me the most trouble to configure.
 
 #### 64-bit 
 
-This is a little bit more tricky than 32-bit compiler. The main problem was that there is no nmake executable in C   *Qt\\msvc12rip\\VC\\bin\\**x86\_amd64**, and nmake keeps using the 32-bit compiler. To counter the problem, create a special folder \"C   *Qt\\msvc12rip\\VC\\bin\\**x86\_amd64\_sa**\", where mnake and 64-bit cl are combined. Read on for step-by-step instructions.
+This is a little bit more tricky than 32-bit compiler. The main problem was that there is no nmake executable in C   *Qt\\msvc12rip\\VC\\bin\\**x86_amd64**, and nmake keeps using the 32-bit compiler. To counter the problem, create a special folder \"C   *Qt\\msvc12rip\\VC\\bin\\**x86_amd64_sa**\", where mnake and 64-bit cl are combined. Read on for step-by-step instructions.
 
-4.1. in C   *Qt\\msvc12rip\\VC\\bin, create a folder named **x86\_amd64\_sa** (sa stands for Stand-Alone, use whatever name you like).
+4.1. in C   *Qt\\msvc12rip\\VC\\bin, create a folder named **x86_amd64_sa** (sa stands for Stand-Alone, use whatever name you like).
 
-4.2. copy contents of folder C   *Qt\\msvc12rip\\VC\\bin into x86\_amd64\_sa folder (now you have a 32-bit compiler there).
+4.2. copy contents of folder C   *Qt\\msvc12rip\\VC\\bin into x86_amd64_sa folder (now you have a 32-bit compiler there).
 
-4.3. copy contents of folder x86\_amd64 into x86\_amd64\_sa, replacing files in the process. Now you have a 64bit compiler with nmake there.
+4.3. copy contents of folder x86_amd64 into x86_amd64_sa, replacing files in the process. Now you have a 64bit compiler with nmake there.
 
 4.4. Set up the compiler under Compilers tab in settings   * Add a **custom** compiler   *
 
 -   Name = msvcrip**64** (the name doesn\'t matter, it is up to you)
--   Compiler path   * C   *Qt\\msvc12rip\\VC\\bin\\x86\_amd64\_sa\\cl.exe
--   Make path   * C   *Qt\\msvc12rip\\VC\\bin\\x86\_amd64\_sa\\nmake.exe
+-   Compiler path   * C   *Qt\\msvc12rip\\VC\\bin\\x86_amd64_sa\\cl.exe
+-   Make path   * C   *Qt\\msvc12rip\\VC\\bin\\x86_amd64_sa\\nmake.exe
 -   ABI   * x86-windows-msvc2013-pe-**64bit**
 -   Header paths - nothing
 -   Error parser   * MSVC
@@ -127,8 +127,8 @@ You can obtain these dlls from the other computer that has the Visual Studio you
 
 -   mount the downloaded .iso image as a disk (drive D   * on my system)
 -   locate the files   *
-    -   D   *packages\\vc\_librarycore86\\cab3.cab/F\_REDIST\_DLL\_APPLOCAL\_**msvcp120d\_x64** (\<- or x86, if you are building 32-bit)
-    -   D   *packages\\vc\_librarycore86\\cab3.cab/F\_REDIST\_DLL\_APPLOCAL\_**msvcr120d\_x64**
+    -   D   *packages\\vc_librarycore86\\cab3.cab/F_REDIST_DLL_APPLOCAL\_**msvcp120d_x64** (\<- or x86, if you are building 32-bit)
+    -   D   *packages\\vc_librarycore86\\cab3.cab/F_REDIST_DLL_APPLOCAL\_**msvcr120d_x64**
 -   extract the files, and name them \"msvcp120d.dll\", \"msvcr120d.dll\"
 -   copy the files to libpack folder, into bin
 
@@ -143,7 +143,7 @@ The idea is very simple   * instead of copying files - make links. On Windows, s
 
 Since there are way too many files to make links manually, a batch script should be used. Here is an example of such a script   *
 
-links\_libpack.bat   *
+links_libpack.bat   *
 
  {{code|code=
 @set libpackpath=C   *_vt\dev\PC\Qt\FreeCAD\libpack\active
@@ -158,7 +158,7 @@ pause
 First for loop creates links to files, the second loop - links to folders.
 You\'ll have to modify the path to libpack to match yours. Use absolute paths. Then, feed FreeCAD build folder path (full path!) to the script as an argument.
 
-This batch must be run with administrator privileges (or, you can set to allow users use mklink in local security policy settings in Windows). The batch may fail, if there are spaces in paths (it may work, but it is untested). Tip   * create a shortcut to links\_libpack.bat, set it up to run as admin (in shortcut properties), and drag the build folder onto the shortcut.
+This batch must be run with administrator privileges (or, you can set to allow users use mklink in local security policy settings in Windows). The batch may fail, if there are spaces in paths (it may work, but it is untested). Tip   * create a shortcut to links_libpack.bat, set it up to run as admin (in shortcut properties), and drag the build folder onto the shortcut.
 
 
 

@@ -97,9 +97,9 @@ template_name = "MyTemplate.svg"
 template_file = os.path.join(template_path, template_name)
 }}
 
-**parameter\_path** reçoit le chemin vers le \"dossier\" dans le fichier de configuration où se trouve le paramètre \"TemplateDir\".  **template\_path** reçoit le contenu de \"TemplateDir\" qui est le chemin vers le répertoire du modèle.  **template\_name** reçoit le nom du modèle à créer.
+**parameter_path** reçoit le chemin vers le \"dossier\" dans le fichier de configuration où se trouve le paramètre \"TemplateDir\".  **template_path** reçoit le contenu de \"TemplateDir\" qui est le chemin vers le répertoire du modèle.  **template_name** reçoit le nom du modèle à créer.
 
-Maintenant, le nom du modèle doit être associé au chemin du modèle d\'une manière qui soit compatible avec les systèmes d\'exploitation basés sur unix et Windows. Ceci est fait avec la commande \"os.path.join\" et stocké dans le **template\_file**.
+Maintenant, le nom du modèle doit être associé au chemin du modèle d\'une manière qui soit compatible avec les systèmes d\'exploitation basés sur unix et Windows. Ceci est fait avec la commande \"os.path.join\" et stocké dans le **template_file**.
 
 ### \... pour créer une page blanche 
 

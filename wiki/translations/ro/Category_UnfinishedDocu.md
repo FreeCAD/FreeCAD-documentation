@@ -9,8 +9,7 @@ This category contains all Unfinished Documents
 | --- | --- | --- |
 | [Engine Block Tutorial/ro](wiki/Engine Block Tutorial/ro.md) | [FEM ConstraintBearing/ro](wiki/FEM ConstraintBearing/ro.md) | [FEM ConstraintPulley/ro](wiki/FEM ConstraintPulley/ro.md) |
 | [FEM CreateNodesSet/ro](wiki/FEM CreateNodesSet/ro.md) | [FEM ElementGeometry1D/ro](wiki/FEM ElementGeometry1D/ro.md) | [FEM ElementGeometry2D/ro](wiki/FEM ElementGeometry2D/ro.md) |
-| [FEM ElementRotation1D/ro](wiki/FEM ElementRotation1D/ro.md) | [FEM EquationElasticity/ro](wiki/FEM EquationElasticity/ro.md) | [FEM EquationFlow/ro](wiki/FEM EquationFlow/ro.md) |
-| [FEM EquationFlux/ro](wiki/FEM EquationFlux/ro.md) | [FEM EquationHeat/ro](wiki/FEM EquationHeat/ro.md) | [FEM MaterialMechanicalNonlinear/ro](wiki/FEM MaterialMechanicalNonlinear/ro.md) |
+| [FEM ElementRotation1D/ro](wiki/FEM ElementRotation1D/ro.md) | [FEM EquationFlow/ro](wiki/FEM EquationFlow/ro.md) | [FEM MaterialMechanicalNonlinear/ro](wiki/FEM MaterialMechanicalNonlinear/ro.md) |
 | [Manual:BIM modeling/ro](wiki/Manual_BIM modeling/ro.md) | [OpenSCAD ColorCodeShape/ro](wiki/OpenSCAD ColorCodeShape/ro.md) | [Part Loft/ro](wiki/Part Loft/ro.md) |
 | [Part Mirror/ro](wiki/Part Mirror/ro.md) | [Part Offset/ro](wiki/Part Offset/ro.md) | [Part RuledSurface/ro](wiki/Part RuledSurface/ro.md) |
 | [Path Engrave/ro](wiki/Path Engrave/ro.md) | [Path Fixture/ro](wiki/Path Fixture/ro.md) | [Path Helix/ro](wiki/Path Helix/ro.md) |

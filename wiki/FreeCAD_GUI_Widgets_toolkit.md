@@ -47,11 +47,11 @@ sg.addChild(root)
 
 The [Design456 Workbench](Design456_Workbench.md) is a prerequisite to be able to use this widget system. There is an option to specifically import the toolkit via python code, but Design456 Workbench is still required
 
-### [Fr\_Widget Basics](Fr_Widget_Basics.md) 
+### [Fr_Widget Basics](Fr_Widget_Basics.md) 
 
-### [Fr\_Widget Common Widgets](Fr_Widget_Common_Widgets.md) 
+### [Fr_Widget Common Widgets](Fr_Widget_Common_Widgets.md) 
 
-There are some basic drawings written at the moment. Later I will list down them. But you can look at fr\_draw.py to find them. Some are used for developing direct modeling commands.
+There are some basic drawings written at the moment. Later I will list down them. But you can look at fr_draw.py to find them. Some are used for developing direct modeling commands.
 
 To be continued ..
 

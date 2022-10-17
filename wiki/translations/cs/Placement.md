@@ -128,9 +128,9 @@ Druhý tvar zadání **Umístění** ustaví místo objektu v prostoru pomocí P
 
 <center>
 
-Image   *Tache\_Placement\_Lacet\_fr\_Mini.gif\|**Yaw** je pootočení kolem **osy Z**, to jest rotace zleva doprava.
-(Úhel Yaw je **Psi ψ**). Image   *Tache\_Placement\_Tangage\_fr\_Mini.gif\|**Pitch** je pootočení kolem **osy Y**, to jest rotace předkem nahoru a dolu.
-(Úhel Pitch je **Phi φ**). Image   *Tache\_Placement\_Roulis\_fr\_Mini.gif\|**Roll** je pootočení kolem **osy X**, to jest rotace křídlem nahoru a dolu.
+Image   *Tache_Placement_Lacet_fr_Mini.gif\|**Yaw** je pootočení kolem **osy Z**, to jest rotace zleva doprava.
+(Úhel Yaw je **Psi ψ**). Image   *Tache_Placement_Tangage_fr_Mini.gif\|**Pitch** je pootočení kolem **osy Y**, to jest rotace předkem nahoru a dolu.
+(Úhel Pitch je **Phi φ**). Image   *Tache_Placement_Roulis_fr_Mini.gif\|**Roll** je pootočení kolem **osy X**, to jest rotace křídlem nahoru a dolu.
 (Úhel Roll je **Thêta θ**).
 
 

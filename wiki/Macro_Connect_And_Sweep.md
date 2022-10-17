@@ -49,13 +49,13 @@ These files must be copied to your macros directory
 
 ## Script
 
-*\' Macro\_Connect\_And\_Sweep.FCMacro*\'
+**Macro_Connect_And_Sweep.FCMacro**
 
-Download the macro to Gits [*\' Macro\_Connect\_And\_Sweep.FCMacro*\'](https   *//gist.github.com/mario52a/3ec67a3711202dab69592ce53b938924)
+Download the macro to Gits [**Macro_Connect_And_Sweep.FCMacro**](https   *//gist.github.com/mario52a/3ec67a3711202dab69592ce53b938924)
 
 ## Example
 
-Path and tubing with Macro\_Connect\_And\_Sweep and [Macro\_Repro\_Wire](http   *//www.freecadweb.org/wiki/index.php?title=Macro_Repro_Wire) <img alt="" src=images/Macro_ReproWire.png  style="width   *32px;"> 
+Path and tubing with Macro_Connect_And_Sweep and [Macro_Repro_Wire](http   *//www.freecadweb.org/wiki/index.php?title=Macro_Repro_Wire) <img alt="" src=images/Macro_ReproWire.png  style="width   *32px;"> 
 
 
 <center>
@@ -84,7 +84,7 @@ Path and tubing with Macro\_Connect\_And\_Sweep and [Macro\_Repro\_Wire](http   
 
 <center>
 
- <File   *Macro> Connect And Sweep 05.png\| select the border of cylinder and run the [Macro\_Repro\_Wire](Macro_Repro_Wire.md) <img alt="" src=images/Macro_ReproWire.png  style="width   *32px;"> 
+ <File   *Macro> Connect And Sweep 05.png\| select the border of cylinder and run the [Macro_Repro_Wire](Macro_Repro_Wire.md) <img alt="" src=images/Macro_ReproWire.png  style="width   *32px;"> 
 
 
 </center>
@@ -195,7 +195,7 @@ ver 0.12 2020/07/05    * include icons in source code
 ver 00.11b 2020-02-22    * adding the test \"try   * except\" on test FreeCAD version
 
 ver 00.11 2020-02-13    * modify for the HD dpi QGridLayout run only FC version 0.18 and more
-For the precedent version see [Macro\_Connect\_And\_Sweep.FCMacro](https   *//gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/b3554916e0dce63644a2d4d3f88ef114b5e1e390/Macro_Connect_And_Sweep.FCMacro)
+For the precedent version see [Macro_Connect_And_Sweep.FCMacro](https   *//gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/b3554916e0dce63644a2d4d3f88ef114b5e1e390/Macro_Connect_And_Sweep.FCMacro)
 
 ver 00.10 2020-01-09    * centering on face
 
@@ -227,7 +227,7 @@ The forum discussion [Scripting point to point tubing](http   *//forum.freecadwe
 
 This macro is based to the microelly2 code see [Looking for some helpful GUI-commands](http   *//forum.freecadweb.org/viewtopic.php?t=7029#p56746)
 
-Other forum discussion [Macro\_Connect\_And\_Sweep](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35432)
+Other forum discussion [Macro_Connect_And_Sweep](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35432)
 
 
 

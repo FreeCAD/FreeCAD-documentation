@@ -17,7 +17,7 @@ To solve the issue, Apple introduced \"HiDPI\", that is scaling all the UI eleme
 
 Goal   * Make sure that we make the most out of Qt support.
 
--   In progress. Migrate the user base to Qt \> 5.6 and set the AA\_EnableHighDpiScaling to true.
+-   In progress. Migrate the user base to Qt \> 5.6 and set the AA_EnableHighDpiScaling to true.
 -   Scale all cursors and icons (multiplying them by devicePixelRatio) <https   *//github.com/FreeCAD/FreeCAD/pull/3712>
 -   Make all pixel graphics vector or available at various pixel density
 
@@ -41,7 +41,7 @@ Goal   * Make all UI widgets size relative to the font size
 -   Choose a reference device relative to which UI could scale up and down.
 -   2D coordinates and sizes should assume device-independent pixels.
 -   Make sure qreal versions of APIs are used.
--   Turn off AA\_EnableHighDpiScaling
+-   Turn off AA_EnableHighDpiScaling
 
 ### Part four 
 
@@ -158,10 +158,10 @@ Qt doesn\'t provide the functionality to retrieve that value. So we have to eith
 -   [HiDPI Support in Sketcher View](https   *//forum.freecadweb.org/viewtopic.php?t=34853) - selection distance issue
 -   [High DPI Improvements](https   *//forum.freecadweb.org/viewtopic.php?t=10512) - PR \"High DPI Fixes\" <https   *//github.com/FreeCAD/FreeCAD/pull/54>, bad quality, 2015
 -   [High dpi](https   *//forum.freecadweb.org/viewtopic.php?t=12123) - experimental build with \"High DPI Improvements\" PR
--   [GUI font size](https   *//forum.freecadweb.org/viewtopic.php?t=41656) - font size issue and the QT\_SCALE\_FACTOR workaround
+-   [GUI font size](https   *//forum.freecadweb.org/viewtopic.php?t=41656) - font size issue and the QT_SCALE_FACTOR workaround
 -   [BUG? Cropped icons](https   *//forum.freecadweb.org/viewtopic.php?t=28838) - issues with HiDPI on multiple displays
 -   [FreeCAD 0.17 on macOS Update (Qt 5 builds now available)](https   *//forum.freecadweb.org/viewtopic.php?t=20977) - issues with HiDPI on OS X after upgrade to Qt5
--   [Ticket \#3537 - Draft Edit mode not working on MacOS X (HiDPi issue)](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=29743) - OS X + HiDPI, Qt5
+-   [Ticket #3537 - Draft Edit mode not working on MacOS X (HiDPi issue)](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=29743) - OS X + HiDPI, Qt5
 -   [Menu distorted on MAC external display](https   *//forum.freecadweb.org/viewtopic.php?t=39975) - OS X + HiDPI, external display
 -   [macOS Qt5 plan and status](https   *//forum.freecadweb.org/viewtopic.php?t=19724&start=60) - OS X dropped support for Qt4, HiDPI issues
 -   <https   *//www.google.com/search?q=freecad+hidpi+site   *forum.freecadweb.org>

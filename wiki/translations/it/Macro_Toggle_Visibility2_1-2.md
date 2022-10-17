@@ -40,7 +40,7 @@ Se tutti gli oggetti sono nascosti e nella Vista Combinata non ci sono oggetti s
 
 ToolBar Icon <img alt="" src=images/Macro_SelectVisible2.png  style="width   *64px;">
 
-**Macro\_Toggle\_Visibility2\_1-2.FCMacro**
+**Macro_Toggle_Visibility2_1-2.FCMacro**
 
 
 {{MacroCode|code=
@@ -88,7 +88,7 @@ Seconda macro [Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2/it.md)
 
 La discussione sul forum [Re   * Proposal   * select one or more pieces, hide the others.](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=13152&start=10#p184056)
 
-Idea originale [Macro\_Toggle\_Visibility](https   *//www.freecadweb.org/wiki/index.php?title=Macro_Toggle_Visibility)
+Idea originale [Macro_Toggle_Visibility](https   *//www.freecadweb.org/wiki/index.php?title=Macro_Toggle_Visibility)
 
 
 

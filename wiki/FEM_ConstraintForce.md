@@ -33,7 +33,7 @@ This command applies a force of given value \[N\] to selected target geometry.
 
 ## Notes
 
-Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
+-   Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
 
 
 

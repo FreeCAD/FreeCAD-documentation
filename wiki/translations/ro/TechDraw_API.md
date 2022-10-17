@@ -95,7 +95,7 @@ TechDraw.writeDXFPage(myPage,myFileName)
 
 #### CosmeticVertex (CV) routines accessible from Python 
 
-dvp = App.ActiveDocument.View \#CV\'s belong to views
+dvp = App.ActiveDocument.View #CV\'s belong to views
 add a CosmeticVertex at p1 (View coordinates). Returns unique tag.
 tag = dvp.makeCosmeticVertex(vector p1)
 
@@ -155,7 +155,7 @@ print("3d point out   * {}".format(cv3.Point))
 
 #### CosmeticEdge (CE) routines accessible from Python 
 
-dvp = App.ActiveDocument.View \#CE\'s belong to views
+dvp = App.ActiveDocument.View #CE\'s belong to views
 Make a CosmeticEdge from p1 to p2(View coordinates). Returns unique tag.
 tag = dvp.makeCosmeticLine(p1, p2)
 

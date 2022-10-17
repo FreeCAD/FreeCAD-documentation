@@ -143,13 +143,13 @@ Te sekcje zawierają listę wszystkich preferencji zawartych we wbudowanych szab
 
 <div class="mw-collapsible-content">
 
--   Preferences/MainWindow/DockWindows/Std\_SelectionView
--   Preferences/MainWindow/DockWindows/Std\_ComboView
--   Preferences/MainWindow/DockWindows/Std\_ReportView
--   Preferences/MainWindow/DockWindows/Std\_PythonView
--   Preferences/MainWindow/DockWindows/Std\_TreeView
--   Preferences/MainWindow/DockWindows/Std\_PropertyView
--   Preferences/MainWindow/DockWindows/Std\_DAGView
+-   Preferences/MainWindow/DockWindows/Std_SelectionView
+-   Preferences/MainWindow/DockWindows/Std_ComboView
+-   Preferences/MainWindow/DockWindows/Std_ReportView
+-   Preferences/MainWindow/DockWindows/Std_PythonView
+-   Preferences/MainWindow/DockWindows/Std_TreeView
+-   Preferences/MainWindow/DockWindows/Std_PropertyView
+-   Preferences/MainWindow/DockWindows/Std_DAGView
 -   Preferences/MainWindow/Toolbars/File
 -   Preferences/MainWindow/Toolbars/Workbench
 -   Preferences/MainWindow/Toolbars/Macro
@@ -357,7 +357,7 @@ Plik package.xml dla tego przykładowego pakietu może mieć następującą post
 
 ### Włączanie szablonów do dodatku 
 
-Wiele dodatków zawiera informacje o preferencjach użytkownika, które są dodawane do pliku user.cfg. Autor dodatku może również dostarczyć plik szablonu pakietu preferencji, zawierający listę zmiennych konfiguracyjnych użytkownika, które mogą być automatycznie zapisane za pomocą opisanej powyżej metody \"Zapisz nowy pakiet\". Aby dołączyć te pliki szablonów, autorzy dodatków powinni utworzyć w swoim pakiecie podkatalog o nazwie \"PreferencePackTemplates\" lub \"preference\_pack\_templates\". W tym katalogu powinien znajdować się jeden lub więcej plików \*.cfg   * każdy z nich musi być poprawnym, dobrze sformatowanym plikiem XML user.cfg, zawierającym jedną lub więcej zmiennych konfiguracyjnych ustawionych na wartości domyślne. Nazwa pliku powinna odzwierciedlać jego przeznaczenie, np. \"colors.cfg\", \"active\_tabs.cfg\" itd. Ten zestaw plików zostanie przedstawiony użytkownikowi podczas zapisywania nowego pakietu preferencji, a każdy z nich będzie miał zaznaczoną pozycję na liście elementów do zapisania. Do wygenerowania wpisu w interfejsie użytkownika używana jest nazwa pliku, przy czym podkreślenia są zastępowane spacjami (a rozszerzenie pomijane).
+Wiele dodatków zawiera informacje o preferencjach użytkownika, które są dodawane do pliku user.cfg. Autor dodatku może również dostarczyć plik szablonu pakietu preferencji, zawierający listę zmiennych konfiguracyjnych użytkownika, które mogą być automatycznie zapisane za pomocą opisanej powyżej metody \"Zapisz nowy pakiet\". Aby dołączyć te pliki szablonów, autorzy dodatków powinni utworzyć w swoim pakiecie podkatalog o nazwie \"PreferencePackTemplates\" lub \"preference_pack_templates\". W tym katalogu powinien znajdować się jeden lub więcej plików \*.cfg   * każdy z nich musi być poprawnym, dobrze sformatowanym plikiem XML user.cfg, zawierającym jedną lub więcej zmiennych konfiguracyjnych ustawionych na wartości domyślne. Nazwa pliku powinna odzwierciedlać jego przeznaczenie, np. \"colors.cfg\", \"active_tabs.cfg\" itd. Ten zestaw plików zostanie przedstawiony użytkownikowi podczas zapisywania nowego pakietu preferencji, a każdy z nich będzie miał zaznaczoną pozycję na liście elementów do zapisania. Do wygenerowania wpisu w interfejsie użytkownika używana jest nazwa pliku, przy czym podkreślenia są zastępowane spacjami (a rozszerzenie pomijane).
 
 ## Dystrybucja pakietu 
 

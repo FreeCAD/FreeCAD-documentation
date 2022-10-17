@@ -4,8 +4,9 @@
    Level   *Anfänger
    Author   *GlouGlou
    Time   *1 Stunde
-   FCVersion   *0.17 or above
+   FCVersion   *0.17 oder neuer
    Files   *[https   *//github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd]
+   SeeAlso   *[Creating a simple part with Part WB](Creating_a_simple_part_with_Part_WB/de.md), [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB/de.md)
 ---
 
 # Creating a simple part with PartDesign/de
@@ -16,7 +17,7 @@
 
 ![](images/GGTuto1_Vue.PNG )
 
-Dieses Tutorial soll FreeCAD Anfängern anhand eines Beispiels einige grundlegende Funktionen vermitteln. Nachdem die Grundlagen im [User hub/de](User_hub/de.md) behandelt wurden, wirst Du in der Lage sein, Schritt für Schritt ein erstes Teil zu modellieren.
+Dieses Tutorial soll FreeCAD-Anfängern anhand eines Beispiels einige grundlegende Funktionen vermitteln. Nachdem die Grundlagen im [Anwenderzentrum](User_hub/de.md) behandelt wurden, ist man in der Lage, Schritt für Schritt ein erstes Teil zu modellieren.
 
 **Wir werden in diesem Tutorial vor allem folgendes behandeln   ***
 
@@ -34,7 +35,7 @@ Erstelle ein neues Dokument und wechsle in den **[<img src=images/Workbench_Part
 
 **Erstelle Körper   ***
 
-Drücke <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [/de\|Körper erstellen](PartDesign_Body.md). **Hinweis   *** verwechsle nicht den Körper, dessen Symbol blau ist, mit dem Part Behälter, dessen Icon gelb ist.\'\' Im Modell Reiter unter der Combo Ansicht Sidebar erscheint ein neues Objekt mit der Bezeichnung \"Körper\" unter der Dokumentbezeichnung, das derzeit \"Unnamed\" ist, da wir unser Dokument noch nicht gespeichert haben. Der Körper ist ein Behälter, in dem die PartDesign Formelemente nacheinander angeordnet werden, um einen einzelnes Festkörper zu bilden. Er enthält seine eigenen Referenzachsen und -ebenen. Er wird im Modellbaum hellblau hervorgehoben, was bedeutet, dass er aktiv ist, d.h. wir können die darin enthaltenen Elemente bearbeiten und neue Elemente hinzufügen. Wenn er nicht hervorgehoben ist, doppelklicke darauf oder klicke mit der rechten Maustaste und wähle *Aktiven Körper umschalten* im Kontextmenü. Vor dem Körper Schild befindet sich ein blaues Symbol, das mit dem obigen identisch ist, sowie ein Pfeil oder ein Pluszeichen, je nach Betriebssystem. Ein Klick auf den Pfeil oder das Pluszeichen vor dem Körper erweitert den Inhalt. Er enthält an dieser Stelle nur ein Element mit der Bezeichnung *Origin*. Vor diesem *Ursprung* befindet sich ebenfalls ein Pfeil oder ein Pluszeichen. Klicke darauf, um den Inhalt zu erweitern. Es zeigt die oben genannten Bezugsachsen und -ebenen, wie im Bild unten dargestellt   *
+Drücke <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [/de\|Körper erstellen](PartDesign_Body.md). **Hinweis   *** verwechsle nicht den Körper, dessen Symbol blau ist, mit dem Part Behälter, dessen Icon gelb ist.*Im Modell Reiter unter der Combo Ansicht Sidebar erscheint ein neues Objekt mit der Bezeichnung \"Körper\" unter der Dokumentbezeichnung, das derzeit \"Unnamed\" ist, da wir unser Dokument noch nicht gespeichert haben. Der Körper ist ein Behälter, in dem die PartDesign Formelemente nacheinander angeordnet werden, um einen einzelnes Festkörper zu bilden. Er enthält seine eigenen Referenzachsen und -ebenen. Er wird im Modellbaum hellblau hervorgehoben, was bedeutet, dass er aktiv ist, d.h. wir können die darin enthaltenen Elemente bearbeiten und neue Elemente hinzufügen. Wenn er nicht hervorgehoben ist, doppelklicke darauf oder klicke mit der rechten Maustaste und wähle*Aktiven Körper umschalten*im Kontextmenü. Vor dem Körper Schild befindet sich ein blaues Symbol, das mit dem obigen identisch ist, sowie ein Pfeil oder ein Pluszeichen, je nach Betriebssystem. Ein Klick auf den Pfeil oder das Pluszeichen vor dem Körper erweitert den Inhalt. Er enthält an dieser Stelle nur ein Element mit der Bezeichnung*Origin*. Vor diesem*Ursprung\'\' befindet sich ebenfalls ein Pfeil oder ein Pluszeichen. Klicke darauf, um den Inhalt zu erweitern. Es zeigt die oben genannten Bezugsachsen und -ebenen, wie im Bild unten dargestellt   *
 
 ![](images/PartDesign_Body_tree_Unnamed.png ) *Der neu geschaffene aktive Körper mit seinem Inhalt erweitert.*
 
@@ -52,7 +53,7 @@ Wir werden nun die Skizze aufzeichnen, die die allgemeine Form des Teils definie
 
 Da die allgemeine Form des Bauteils entlang der Y Achse regelmäßig ist, werden wir das Polster entlang dieser Achse erzeugen.
 
-Drücke <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [Neue Skizze](Sketcher_NewSketch/de.md). Die Combo Ansicht wechselt nun zur **Aufgaben** Registerkarte und zeigt das *Formelement auswählen* Dialogfeld an. Dieser Dialog erwartet die Auswahl einer Ebene, an die unsere Skizze angefügt werden soll, und listet die verfügbaren Ebenen auf. Wähle *XZ\_Ebene (Basisebene)* und drücke **OK**. Die Benutzeroberfläche ändert sich nun, der Skizzenzeichner übernimmt nun und seine Symbolleisten erscheinen über der 3D Ansicht. Wir befinden uns nun auf der XZ Ebene des Körpers, um die Skizze zu zeichnen.
+Drücke <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [Neue Skizze](Sketcher_NewSketch/de.md). Die Combo Ansicht wechselt nun zur **Aufgaben** Registerkarte und zeigt das *Formelement auswählen* Dialogfeld an. Dieser Dialog erwartet die Auswahl einer Ebene, an die unsere Skizze angefügt werden soll, und listet die verfügbaren Ebenen auf. Wähle *XZ_Ebene (Basisebene)* und drücke **OK**. Die Benutzeroberfläche ändert sich nun, der Skizzenzeichner übernimmt nun und seine Symbolleisten erscheinen über der 3D Ansicht. Wir befinden uns nun auf der XZ Ebene des Körpers, um die Skizze zu zeichnen.
 
 Um das Skizzieren zu erleichtern, stellen Sie die folgenden Optionen unter \"Steuerelemente bearbeiten\" im Aufgabenpaneel auf der linken Seite ein   *
 
@@ -164,7 +165,7 @@ Pocket ist ein Formelement \"subtraktiv\" genannt, es entfernt Material von unse
 
 Es ist möglich, die Farbe des Teils zu ändern, es ist oft nützlich, ein Teil unter anderen zu unterscheiden. Auch die Transparenz des Teils kann verändert werden, was für die Anzeige seines Inneren nützlich ist.
 
-Wähle den **Body part1** Körper; stelle sicher, dass der Modellreiter der Combo Ansicht ausgewählt ist und gehe zum unteren Teil der Combo Ansicht, dann klicke auf den Ansichtsreiter; suche die *Form Farbe* Eigenschaft; möglicherweise musst Du die vertikale Bildlaufleiste auf der rechten Seite verwenden, um sie zu finden. \'\'Du kannst auch die Eigenschaftsspalte verbreitern   * Fahre mit dem Mauszeiger über die Trennlinie zwischen den Kopfzeilen *Eigenschaft* und *Wert*; wenn sich der Zeiger in einen doppelseitigen Pfeil verwandelt, drücke und halte die linke Maustaste und ziehe seitlich, dann lasse sie los. Klicke in der rechten Spalte auf das graue Quadrat, was den *\'Farbe auswählen* Dialog öffnet. Wähle eine andere Farbe aus und klicke dann auf OK. Als nächstes ändere wiederum in der Ansichts Registerkarte den Wert für \"Transparenz\", z. B. auf 50 und drücke **Enter**, um den Vorgang abzuschließen (0 = völlig deckend, 100 = völlig transparent).
+Wähle den **Body part1** Körper; stelle sicher, dass der Modellreiter der Combo Ansicht ausgewählt ist und gehe zum unteren Teil der Combo Ansicht, dann klicke auf den Ansichtsreiter; suche die *Form Farbe* Eigenschaft; möglicherweise musst Du die vertikale Bildlaufleiste auf der rechten Seite verwenden, um sie zu finden. *Du kannst auch die Eigenschaftsspalte verbreitern   * Fahre mit dem Mauszeiger über die Trennlinie zwischen den Kopfzeilen*Eigenschaft*und*Wert*; wenn sich der Zeiger in einen doppelseitigen Pfeil verwandelt, drücke und halte die linke Maustaste und ziehe seitlich, dann lasse sie los. Klicke in der rechten Spalte auf das graue Quadrat, was den*\'Farbe auswählen\'\' Dialog öffnet. Wähle eine andere Farbe aus und klicke dann auf OK. Als nächstes ändere wiederum in der Ansichts Registerkarte den Wert für \"Transparenz\", z. B. auf 50 und drücke **Enter**, um den Vorgang abzuschließen (0 = völlig deckend, 100 = völlig transparent).
 
 Die Bohrung ist nun im Inneren des Teils sichtbar. Dies ist oft nützlich, um die verborgenen oder inneren Flächen des Modells zu sehen.
 
@@ -230,7 +231,7 @@ Klicke auf <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width  
 
 Wähle dann den Mittelpunkt des Kreises, dann die beiden blauen diagonalen Linien und klicke auf <img alt="" src=images/Constraint_PointOnObject.svg  style="width   *24px;"> [Punkt auf Objekt](Sketcher_ConstrainPointOnObject.md), der Kreis muss am Schnittpunkt der Diagonalen, also in der Mitte der Fläche zentriert werden. Die Skizze muss grün, vollständig beschränkt sein (es ist unerlässlich). Beachte, dass es neben dem Radius des Kreises, nicht mehr erforderlich ist, Bemaßungsbeschränkungen zu erstellen.
 
-Bitte beachte , dass zusätzlich zum Umschalten der Symbolleiste in den Konstruktionsmodus die Datei <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width   *24px;"> [Sketcher\_Konstruktionsmodus umschalten](Sketcher_ToggleConstruction/de.md) Taste können auch einzelne Skizzierer Elemente in den Konstruktionsmodus geschaltet werden, wenn sie ausgewählt wurden. Wenn du versehentlich ein Element in den Konstruktionsmodus schaltest, kann beim Verlassen der Skizze ein Fehler auftreten.
+Bitte beachte , dass zusätzlich zum Umschalten der Symbolleiste in den Konstruktionsmodus die Datei <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width   *24px;"> [Sketcher_Konstruktionsmodus umschalten](Sketcher_ToggleConstruction/de.md) Taste können auch einzelne Skizzierer Elemente in den Konstruktionsmodus geschaltet werden, wenn sie ausgewählt wurden. Wenn du versehentlich ein Element in den Konstruktionsmodus schaltest, kann beim Verlassen der Skizze ein Fehler auftreten.
 
 ![](images/GGTuto1_8.PNG )
 

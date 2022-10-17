@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-FCStd este un fișier standard tip fișier zip, conținând fișiere[one or more](#Contents.md) îmtr-o [Structure](#structure.md) specifică. Ca atare, este posibilă dezarhivarea unui fișier FCStd utilizând un instrument de decompresie zip obișnuit. FreeCAD conține un \"Project Utility\" pentru rearhivarea fișierelor FCStd, utilizara sa este descrisă mai jos în [\#Change the source of the file .FCStd](#Change_the_source_of_the_file_.FCStd.md) .
+FCStd este un fișier standard tip fișier zip, conținând fișiere[one or more](#Contents.md) îmtr-o [Structure](#structure.md) specifică. Ca atare, este posibilă dezarhivarea unui fișier FCStd utilizând un instrument de decompresie zip obișnuit. FreeCAD conține un \"Project Utility\" pentru rearhivarea fișierelor FCStd, utilizara sa este descrisă mai jos în [#Change the source of the file .FCStd](#Change_the_source_of_the_file_.FCStd.md) .
 
 
 </div>
@@ -255,7 +255,7 @@ Here, a file Converter utility [ImageConv](ImageConv.md).
 
  
 
-[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

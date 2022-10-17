@@ -550,7 +550,7 @@ def makeBCurveEdge(Points)   *
 
 <div class="mw-translate-fuzzy">
 
-Un Piano è semplicemente una superficie piana rettangolare. Il metodo utilizzato per crearlo è questo   * **makePlane(lunghezza, larghezza, \[start\_pnt, dir\_normal\])**. Per impostazione predefinita start\_pnt=Vector (0,0,0) e dir\_normal=Vector(0,0,1). Utilizzando dir\_normal=Vector(0,0,1) creeremo il piano orientato come l\'asse z positivo, mentre con dir\_normal=Vector(1,0,0) creeremo il piano orientato come l\'asse x positivo   *
+Un Piano è semplicemente una superficie piana rettangolare. Il metodo utilizzato per crearlo è questo   * **makePlane(lunghezza, larghezza, \[start_pnt, dir_normal\])**. Per impostazione predefinita start_pnt=Vector (0,0,0) e dir_normal=Vector(0,0,1). Utilizzando dir_normal=Vector(0,0,1) creeremo il piano orientato come l\'asse z positivo, mentre con dir_normal=Vector(1,0,0) creeremo il piano orientato come l\'asse x positivo   *
 
 
 </div>
@@ -579,7 +579,7 @@ plane.BoundBox
 
 <div class="mw-translate-fuzzy">
 
-Nota   * `makePlane()` accetta solo `Base.Vector()` per start\_pnt e dir\_normal e non tuple.
+Nota   * `makePlane()` accetta solo `Base.Vector()` per start_pnt e dir_normal e non tuple.
 
 
 </div>

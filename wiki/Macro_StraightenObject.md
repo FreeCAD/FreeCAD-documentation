@@ -70,7 +70,7 @@ To Be Completed with picture example
 
  ToolBar Icon ![](images/Macro_StraightenObject.png )
 
-**Macro\_StraightenObject.FCMacro**
+**Macro_StraightenObject.FCMacro**
 
 
 {{MacroCode|code=

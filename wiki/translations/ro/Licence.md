@@ -57,7 +57,7 @@ Modelele și alte fișiere create cu FreeCAD nu sunt supuse niciunei licențe me
 
 ## Declarația dezvoltatorului principal 
 
-Știu că discuția despre \'\'\"dreptul\" \'\' licenței pentru open source a ocupat o parte semnificativă a lățimii de bandă a internetului și acesta este motivul pentru care, în opinia mea, FreeCAD ar trebui să aibă fie sub această licență LGPL.
+Știu că discuția despre *\"dreptul\"* licenței pentru open source a ocupat o parte semnificativă a lățimii de bandă a internetului și acesta este motivul pentru care, în opinia mea, FreeCAD ar trebui să aibă fie sub această licență LGPL.
 
 
 <div class="mw-translate-fuzzy">

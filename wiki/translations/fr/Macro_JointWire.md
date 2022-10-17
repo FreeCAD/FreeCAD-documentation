@@ -21,7 +21,7 @@ Cette macro permet de trouver et de mettre en collaboration, à l\'aide d\'une l
 
 Icône de la barre d\'outils ![](images/Macro_JointWire.png )
 
-**Macro\_JointWire.FCMacro**
+**Macro_JointWire.FCMacro**
 
 
 {{MacroCode|code=

@@ -108,7 +108,7 @@ Sur cette exemple l\'option est réglée sur **[Rayon variable](#Chanfrein_asym�
 
 ## Proprietăți
 
-![Part\_Chamfer Properties](images/Part_Chamfer-Properties.png )
+![Part_Chamfer Properties](images/Part_Chamfer-Properties.png )
 
 ## Propriétés
 
@@ -319,7 +319,7 @@ La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'an
 
 <center>
 
-Image   *Part\_Fillet\_fr\_07.png\|Sélectionnons une arête, sur la forme à modifier, Image   *Part\_Fillet\_fr\_08.png\|une fois sélectionnée, la fenêtre de propriétés de la forme s\'affiche.
+Image   *Part_Fillet_fr_07.png\|Sélectionnons une arête, sur la forme à modifier, Image   *Part_Fillet_fr_08.png\|une fois sélectionnée, la fenêtre de propriétés de la forme s\'affiche.
 
 
 </center>
@@ -328,7 +328,7 @@ Image   *Part\_Fillet\_fr\_07.png\|Sélectionnons une arête, sur la forme à mo
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image   *Part\_Chamfer\_fr\_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
+Image   *Part_Chamfer_fr_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image   *Part_Chamfer_fr_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
 
 
 </center>
@@ -337,7 +337,7 @@ Image   *Part\_Chamfer\_fr\_09.png\|Sélectionnez l\'outil **![](images/)_[chan
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_11.png\|pour voir notre arête cochée. Image   *Part\_Chamfer\_fr\_12.png\|Modifions notre rayon à **5 mm**,
+Image   *Part_Chamfer_fr_11.png\|pour voir notre arête cochée. Image   *Part_Chamfer_fr_12.png\|Modifions notre rayon à **5 mm**,
 
 
 </center>
@@ -346,7 +346,7 @@ Image   *Part\_Chamfer\_fr\_11.png\|pour voir notre arête cochée. Image   *Par
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_13.png\|et réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon constant**. (Valeur, par défaut, **Rayon constant**). Image   *Part\_Chamfer\_fr\_14.png\|Validons avec ** OK **, pour voir notre **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** s\'effectuer.
+Image   *Part_Chamfer_fr_13.png\|et réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon constant**. (Valeur, par défaut, **Rayon constant**). Image   *Part_Chamfer_fr_14.png\|Validons avec ** OK **, pour voir notre **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** s\'effectuer.
 
 
 </center>
@@ -356,7 +356,7 @@ Image   *Part\_Chamfer\_fr\_13.png\|et réglons notre paramètre {{OngletTache|T
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_15.png\|Sélectionnons notre deuxième arête à modifier. Image   *Part\_Chamfer\_fr\_16.png\|De nouveau notre {{OngletTache|Forme sélectionnée}} **Box** s\'affiche, et, notre arête est cochée.
+Image   *Part_Chamfer_fr_15.png\|Sélectionnons notre deuxième arête à modifier. Image   *Part_Chamfer_fr_16.png\|De nouveau notre {{OngletTache|Forme sélectionnée}} **Box** s\'affiche, et, notre arête est cochée.
 
 
 </center>
@@ -365,7 +365,7 @@ Image   *Part\_Chamfer\_fr\_15.png\|Sélectionnons notre deuxième arête à mod
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_17.png\|Réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon variable**. Image   *Part\_Chamfer\_fr\_18.png\|Une nouvelle fenêtre s\'affiche, et, ici, il y a deux paramètres de rayons à entrer.
+Image   *Part_Chamfer_fr_17.png\|Réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon variable**. Image   *Part_Chamfer_fr_18.png\|Une nouvelle fenêtre s\'affiche, et, ici, il y a deux paramètres de rayons à entrer.
 
 
 </center>
@@ -374,7 +374,7 @@ Image   *Part\_Chamfer\_fr\_17.png\|Réglons notre paramètre {{OngletTache|Type
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_19.png\|Entrons **5 mm**, pour le rayon de départ, Image   *Part\_Chamfer\_fr\_20.png\|et, **20 mm** pour le rayon d\'arrivée.
+Image   *Part_Chamfer_fr_19.png\|Entrons **5 mm**, pour le rayon de départ, Image   *Part_Chamfer_fr_20.png\|et, **20 mm** pour le rayon d\'arrivée.
 
 
 </center>
@@ -383,7 +383,7 @@ Image   *Part\_Chamfer\_fr\_19.png\|Entrons **5 mm**, pour le rayon de départ, 
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_21.png\|Validons avec ** OK **, pour voir s'effectuer notre **chanfrein variable**. Image   *Part\_Chamfer\_fr\_22.png\|Une nouvelle icône par opération s\'affiche dans la **Vue combinée**, renseignant l(es)\'opération(s).
+Image   *Part_Chamfer_fr_21.png\|Validons avec ** OK **, pour voir s'effectuer notre **chanfrein variable**. Image   *Part_Chamfer_fr_22.png\|Une nouvelle icône par opération s\'affiche dans la **Vue combinée**, renseignant l(es)\'opération(s).
 Si vous cliquez sur la flèche, vous pouvez voir les formes d\'origine, qui ont servi dans l\'opération de **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**.
 Les formes originales peuvent être effacées, pour ne conserver que le produit final.
 
@@ -391,7 +391,7 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 </center>
 
 
-## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign\_Chamfer/fr](File   *PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part\_Chamfer/fr](Image   *Part_Chamfer.png.md) 
+## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part_Chamfer/fr](Image   *Part_Chamfer.png.md) 
 
 **Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
@@ -419,7 +419,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 
 <center>
 
-Image   *Part\_Fillet\_fr\_07.png\|Sélectionnons une arête, sur la forme à modifier, Image   *Part\_Fillet\_fr\_08.png\|une fois sélectionnée, la fenêtre de propriétés de la forme s\'affiche.
+Image   *Part_Fillet_fr_07.png\|Sélectionnons une arête, sur la forme à modifier, Image   *Part_Fillet_fr_08.png\|une fois sélectionnée, la fenêtre de propriétés de la forme s\'affiche.
 
 
 </center>
@@ -428,7 +428,7 @@ Image   *Part\_Fillet\_fr\_07.png\|Sélectionnons une arête, sur la forme à mo
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image   *Part\_Chamfer\_fr\_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
+Image   *Part_Chamfer_fr_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image   *Part_Chamfer_fr_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
 
 
 </center>
@@ -437,7 +437,7 @@ Image   *Part\_Chamfer\_fr\_09.png\|Sélectionnez l\'outil **![](images/)_[chan
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_11.png\|pour voir notre arête cochée. Image   *Part\_Chamfer\_fr\_12.png\|Modifions notre rayon à **5 mm**,
+Image   *Part_Chamfer_fr_11.png\|pour voir notre arête cochée. Image   *Part_Chamfer_fr_12.png\|Modifions notre rayon à **5 mm**,
 
 
 </center>
@@ -446,7 +446,7 @@ Image   *Part\_Chamfer\_fr\_11.png\|pour voir notre arête cochée. Image   *Par
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_13.png\|et réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon constant**. (Valeur, par défaut, **Rayon constant**). Image   *Part\_Chamfer\_fr\_14.png\|Validons avec ** OK **, pour voir notre **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** s\'effectuer.
+Image   *Part_Chamfer_fr_13.png\|et réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon constant**. (Valeur, par défaut, **Rayon constant**). Image   *Part_Chamfer_fr_14.png\|Validons avec ** OK **, pour voir notre **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** s\'effectuer.
 
 
 </center>
@@ -456,7 +456,7 @@ Image   *Part\_Chamfer\_fr\_13.png\|et réglons notre paramètre {{OngletTache|T
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_15.png\|Sélectionnons notre deuxième arête à modifier. Image   *Part\_Chamfer\_fr\_16.png\|De nouveau notre {{OngletTache|Forme sélectionnée}} **Box** s\'affiche, et, notre arête est cochée.
+Image   *Part_Chamfer_fr_15.png\|Sélectionnons notre deuxième arête à modifier. Image   *Part_Chamfer_fr_16.png\|De nouveau notre {{OngletTache|Forme sélectionnée}} **Box** s\'affiche, et, notre arête est cochée.
 
 
 </center>
@@ -465,7 +465,7 @@ Image   *Part\_Chamfer\_fr\_15.png\|Sélectionnons notre deuxième arête à mod
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_17.png\|Réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon variable**. Image   *Part\_Chamfer\_fr\_18.png\|Une nouvelle fenêtre s\'affiche, et, ici, il y a deux paramètres de rayons à entrer.
+Image   *Part_Chamfer_fr_17.png\|Réglons notre paramètre {{OngletTache|Type de congé}} sur **Rayon variable**. Image   *Part_Chamfer_fr_18.png\|Une nouvelle fenêtre s\'affiche, et, ici, il y a deux paramètres de rayons à entrer.
 
 
 </center>
@@ -474,7 +474,7 @@ Image   *Part\_Chamfer\_fr\_17.png\|Réglons notre paramètre {{OngletTache|Type
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_19.png\|Entrons **5 mm**, pour le rayon de départ, Image   *Part\_Chamfer\_fr\_20.png\|et, **20 mm** pour le rayon d\'arrivée.
+Image   *Part_Chamfer_fr_19.png\|Entrons **5 mm**, pour le rayon de départ, Image   *Part_Chamfer_fr_20.png\|et, **20 mm** pour le rayon d\'arrivée.
 
 
 </center>
@@ -483,7 +483,7 @@ Image   *Part\_Chamfer\_fr\_19.png\|Entrons **5 mm**, pour le rayon de départ, 
 
 <center>
 
-Image   *Part\_Chamfer\_fr\_21.png\|Validons avec ** OK **, pour voir s'effectuer notre **chanfrein variable**. Image   *Part\_Chamfer\_fr\_22.png\|Une nouvelle icône par opération s\'affiche dans la **Vue combinée**, renseignant l(es)\'opération(s).
+Image   *Part_Chamfer_fr_21.png\|Validons avec ** OK **, pour voir s'effectuer notre **chanfrein variable**. Image   *Part_Chamfer_fr_22.png\|Une nouvelle icône par opération s\'affiche dans la **Vue combinée**, renseignant l(es)\'opération(s).
 Si vous cliquez sur la flèche, vous pouvez voir les formes d\'origine, qui ont servi dans l\'opération de **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**.
 Les formes originales peuvent être effacées, pour ne conserver que le produit final.
 
@@ -491,7 +491,7 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 </center>
 
 
-## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign\_Chamfer/fr](File   *PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part\_Chamfer/fr](Image   *Part_Chamfer.png.md) 
+## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part_Chamfer/fr](Image   *Part_Chamfer.png.md) 
 
 **Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
@@ -544,7 +544,7 @@ cube.Shape = Part.makeBox(5, 5, 5)
 
 <div class="mw-translate-fuzzy">
 
--   Creează un cub de 5 mm pentru noi cu marginile cotate la. Vedeți [Part\_API](Part_API.md) pentru o explicație a metodei makeBox.
+-   Creează un cub de 5 mm pentru noi cu marginile cotate la. Vedeți [Part_API](Part_API.md) pentru o explicație a metodei makeBox.
 
 
 </div>
@@ -581,7 +581,7 @@ myEdges.append((12, 1.5, 1.25))
 ```
 
 -   Creează o matrice goală \"myEdges\" și apoi adaugă matricele cu parametrii de șanfrare ale fiecărei margini.
--   Sintaxa pentru fiecare element ar trebui să fie (marginea \#, lungimea de start a șanfrenului, lungimea de final a șanfrenului)
+-   Sintaxa pentru fiecare element ar trebui să fie (marginea #, lungimea de start a șanfrenului, lungimea de final a șanfrenului)
 
 
 ```python

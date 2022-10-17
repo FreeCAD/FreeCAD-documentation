@@ -1,11 +1,11 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch_BuildingPart
    Name/ru   *Строительная деталь
-   MenuLocation   *Arch → BuildingPart
+   Name   *Arch_BuildingPart
+   MenuLocation   *Arch → Строительная деталь
    Workbenches   *[Arch](Arch_Workbench/ru.md)
    Version   *0.18
-   SeeAlso   *[Arch_Building](Arch_Building/ru.md), [Arch_Site](Arch_Site/ru.md)
+   SeeAlso   *[Здание](Arch_Building/ru.md), [Местность](Arch_Site/ru.md)
 ---
 
 # Arch BuildingPart/ru
@@ -48,10 +48,10 @@ See also   * [Property editor](Property_editor.md).
 
 An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) object and inherits all its properties. It also has the following additional properties   *
 
-### Data
+### Данные
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Основные}}
 
 -    **Group|LinkList**   * List of referenced objects.
 
@@ -117,7 +117,7 @@ An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) obje
 -    **User Defined Partitioning Type|String**
     
 
-### View
+### Вид
 
 
 {{TitleProperty|Auto Group}}
@@ -192,7 +192,7 @@ An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) obje
 
 -    **View Data|FloatList|Hidden**   * Camera position data associated with this object.
 
-## Scripting
+## Программирование
 
 
 **See also   ***

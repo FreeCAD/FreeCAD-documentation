@@ -63,7 +63,7 @@ Aceasta va tipări înălțimea curentă a casetei noastre. Acum, să încercăm
 
 box.Height = 5 
 
-Dacă selectați caseta dvs. cu mouse-ul, veți vedea că în panoul proprietăților, în fila **Data**, proprietatea \'\' Height \'\' \'apare cu noua valoare. Toate proprietățile unui obiect FreeCAD care apar în tab urile **Data** and **View** sunt accesibile direct și de Python prin apelarea numelor lor, așa cum am făcut cu proprietatea Height. Proprietățile de date sunt accesibile direct de la obiectul însuși, de exemplu   *
+Dacă selectați caseta dvs. cu mouse-ul, veți vedea că în panoul proprietăților, în fila **Data**, proprietatea *Height* \'apare cu noua valoare. Toate proprietățile unui obiect FreeCAD care apar în tab urile **Data** and **View** sunt accesibile direct și de Python prin apelarea numelor lor, așa cum am făcut cu proprietatea Height. Proprietățile de date sunt accesibile direct de la obiectul însuși, de exemplu   *
 
 box.Length 
 

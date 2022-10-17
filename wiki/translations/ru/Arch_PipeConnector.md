@@ -1,18 +1,15 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch PipeConnector
-   Name/ru   *Arch PipeConnector
-   MenuLocation   *Архитектура → Pipe Tools → Pipe Connector
+   Name/ru   *Arch_PipeConnector
+   Name   *Arch_PipeConnector
+   MenuLocation   *Arch → Pipe Tools → Pipe Connector
    Workbenches   *[Arch](Arch_Workbench/ru.md)
    Shortcut   ***P** **C**
-   SeeAlso   *[[Arch Pipe/ru]], [[Arch Equipment/ru]]
    Version   *0.17
+   SeeAlso   *[Arch Pipe](Arch_Pipe/ru.md), [Оборудование](Arch_Equipment/ru.md)
 ---
 
 # Arch PipeConnector/ru
-
-
-</div>
 
 ## Описание
 
@@ -27,7 +24,7 @@
 
 </div>
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -49,20 +46,17 @@
 
 <div class="mw-translate-fuzzy">
 
-См. [Arch Pipe\#Typical\_workflow](Arch_Pipe#Typical_workflow.md)
+См. [Arch Pipe#Typical_workflow](Arch_Pipe#Typical_workflow.md)
 
 
 </div>
 
-## Scripting
+## Программирование
 
 
-<div class="mw-translate-fuzzy">
+**См. так же   ***
 
-## Скриптование
-
-
-</div>
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -80,7 +74,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Example   * 
+Пример   * 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -112,15 +106,6 @@ FreeCAD.ActiveDocument.recompute()
 Conn3 = Arch.makePipeConnector([Pipe4, Pipe5], radius=400)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

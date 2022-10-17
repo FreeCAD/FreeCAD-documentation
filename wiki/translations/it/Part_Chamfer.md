@@ -64,7 +64,7 @@ Questo strumento smussa i bordi selezionati di un oggetto. Una finestra di dialo
 
 ## Proprietà
 
-![Part\_Chamfer Properties](images/Part_Chamfer-Properties.png )
+![Part_Chamfer Properties](images/Part_Chamfer-Properties.png )
 
 
 </div>
@@ -158,7 +158,7 @@ cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
--   Crea un cubo di 5 mm a cui applicare lo smusso dei bordi. Per una spiegazione del metodo makeBox vedere [Part\_API](Part_API/it.md).
+-   Crea un cubo di 5 mm a cui applicare lo smusso dei bordi. Per una spiegazione del metodo makeBox vedere [Part_API](Part_API/it.md).
 
 
 ```python
@@ -192,7 +192,7 @@ myEdges.append((12, 1.5, 1.25))
 ```
 
 -   Crea un array \"myEdges\" vuoto e poi aggiunge l\'array con i parametri di smusso di ogni bordo.
--   Las Sintassi per ogni voce deve essere (edge\#, chamfer start length, chamfer end length) (bordo\#, larghezza iniziale, larghezza finale)
+-   Las Sintassi per ogni voce deve essere (edge#, chamfer start length, chamfer end length) (bordo#, larghezza iniziale, larghezza finale)
 
 
 ```python

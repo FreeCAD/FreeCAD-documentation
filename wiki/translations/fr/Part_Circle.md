@@ -25,7 +25,7 @@ Un Part Cercle peut également être créé en sélectionnant trois points    *
 
 1.  Dans le panneau des tâches de la commande <img alt="" src=images/Part_Primitives.svg  style="width   *16px;"> [Part Primitives](Part_Primitives/fr.md), sélectionnez l\'option **<img src="images/Part_Circle.svg" width=16px> Cercle** dans la liste déroulante.
 2.  Appuyez sur le bouton **À partir de trois points**.
-3.  Sélectionnez trois sommets dans la [vue\_3D](3D_view/fr.md). Il n\'est pas nécessaire de maintenir la touche **Ctrl** enfoncée.
+3.  Sélectionnez trois sommets dans la [vue_3D](3D_view/fr.md). Il n\'est pas nécessaire de maintenir la touche **Ctrl** enfoncée.
 4.  Un cercle est créé.
 5.  Les sommets sélectionnés ne sont utilisés qu\'au moment de la création pour calculer les **Radius** et **Placement** du cercle.
 

@@ -15,18 +15,12 @@
 
 ## Описание
 
-ToDo
+В разработке\...
 
 ## Применение
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

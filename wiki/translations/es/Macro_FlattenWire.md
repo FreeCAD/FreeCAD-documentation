@@ -33,7 +33,7 @@ Esta macro aplana contornos de coquizado que no son planos a la mediana de su co
 
 ToolBar Icon ![](images/Macro_FlattenWire.png )
 
-**Macro\_FlattenWire.FCMacro**
+**Macro_FlattenWire.FCMacro**
 
 
 {{MacroCode|code=

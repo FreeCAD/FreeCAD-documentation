@@ -36,7 +36,7 @@ Finding the right radius may requires some testing. It depends on the length of 
 
 ToolBar Icon ![](images/Hilbert_curve_icon.png )
 
-**Macro\_HilbertCurve.FCMacro**
+**Macro_HilbertCurve.FCMacro**
 
 
 {{MacroCode|code=

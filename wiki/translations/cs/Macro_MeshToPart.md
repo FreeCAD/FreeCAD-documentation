@@ -19,7 +19,7 @@ Toto makro zkonvertuje vybrané sítě na díl. Má ovšem značné tolerance, t
 
 ToolBar Icon ![](images/Macro_MeshToPart.png )
 
-**Macro\_MeshToPart.FCMacro**
+**Macro_MeshToPart.FCMacro**
 
 
 {{MacroCode|code=

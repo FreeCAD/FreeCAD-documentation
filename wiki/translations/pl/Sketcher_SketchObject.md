@@ -31,7 +31,7 @@ Chociaż obiekt SketchObject może być używany samodzielnie do rysowania na p�
 3.  Naciśnij przycisk **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [Utwórz szkic](PartDesign_NewSketch/pl.md)**.
 
 4.  
-    **Wybierz cechę**   * Płaszczyzna\_XY *(płaszczyzna bazowa)*, Płaszczyzna\_XZ *(płaszczyzna bazowa)* lub Płaszczyzna\_YZ *(płaszczyzna bazowa)*.
+    **Wybierz cechę**   * Płaszczyzna_XY *(płaszczyzna bazowa)*, Płaszczyzna_XZ *(płaszczyzna bazowa)* lub Płaszczyzna_YZ *(płaszczyzna bazowa)*.
 
 5.  Naciśnij przycisk **OK**.
 

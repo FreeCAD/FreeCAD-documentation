@@ -13,14 +13,14 @@ The function **Placement** can be accessed in several ways   *
 
 -   or, in the window **Combo View → Properties → Data → Placement → **...****,
 
-   *   ![Task\_Placement](images/Tache_Placement_fr_01.png )
+   *   ![Task_Placement](images/Tache_Placement_fr_01.png )
 
 -   or by the menu **Edit → Placement\...**.
 
 ### Enable Placement in Combo View 
 
 -   Click a shape to select it.
--   Click **Placement** (the title, not the little arrow), and a button with an ellipsis **...** appears   * <img alt="Tache\_Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">
+-   Click **Placement** (the title, not the little arrow), and a button with an ellipsis **...** appears   * <img alt="Tache_Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">
 -   Click on the ellipsis, and the **Placement Dialog** is displayed   *
 
    *   ![](images/Tache_Placement_en_02.png )
@@ -52,7 +52,7 @@ The function **Placement** can be accessed in several ways   *
 
 To adjust our **rotation parameters** we have two methods available.
 
--   First option. Select \'\'\' Rotation axis with angle \'\'\'<img alt="Tache\_Placement Option rotation axis and angle" src=images/Tache_Placement_fr_05.png  style="width   *256px;"> (Default).
+-   First option. Select **Rotation axis with angle**<img alt="Tache_Placement Option rotation axis and angle" src=images/Tache_Placement_fr_05.png  style="width   *256px;"> (Default).
     -   
         {{TasksTag|Axis   * X}}
         
@@ -73,7 +73,7 @@ To adjust our **rotation parameters** we have two methods available.
         
         Angle of rotation in degrees from **-360.00 °** to **360.00 °**. (Default   * **0.00°**).
 
--   Second option. Select **Euler Angles** <img alt="Tache\_Placement Option Euler angles" src=images/Tache_Placement_fr_04.png  style="width   *256px;">.
+-   Second option. Select **Euler Angles** <img alt="Tache_Placement Option Euler angles" src=images/Tache_Placement_fr_04.png  style="width   *256px;">.
 
 This option may be easier to work with, however, even in this mode, there are important things to remember   * Positive rotations are in the **clockwise** direction, looking **out** from the origin along a positive axis. Or to put it differently, the rotations are positive in the **counterclockwise** direction, looking **in** to the origin along a positive axis.
 
@@ -113,15 +113,15 @@ Yaw, pitch and roll refer to the **attitude** of an object in 3D space. These te
 
 ![None\|Yaw](images/Tache_Placement_Lacet_fr_Mini.gif )
 
--    {{TasksTag|yaw axis}}**Yaw is the rotation about the Z axis**, that is to say a rotation from left to right. (The Yaw angle is the **Psi ψ**). Value **-360.00 °** to \'\'\'360, 00 ° \'\'\'(Default, **0.00 °**).
+-    {{TasksTag|yaw axis}}**Yaw is the rotation about the Z axis**, that is to say a rotation from left to right. (The Yaw angle is the **Psi ψ**). Value **-360.00 °** to **360, 00 °**(Default, **0.00 °**).
 
 ![None\|Pitch](images/Tache_Placement_Tangage_fr_Mini.gif )
 
--    {{TasksTag|pitch axis}}**Pitch is rotation about the Y axis**, that is to say nose-up and nose-down. (The Pitch angle is the **Phi φ**). Value **-360.00 °** to \'\'\'360, 00 ° \'\'\'(Default, **0.00 °**).
+-    {{TasksTag|pitch axis}}**Pitch is rotation about the Y axis**, that is to say nose-up and nose-down. (The Pitch angle is the **Phi φ**). Value **-360.00 °** to **360, 00 °**(Default, **0.00 °**).
 
 ![None\|Roll](images/Tache_Placement_Roulis_fr_Mini.gif )
 
--    {{TasksTag|roll axis}}**Roll is rotation about the X axis**, that is to say wing up and down. (The Roll angle is the **Thêta θ**). Value **-360.00 °** to \'\'\'360, 00 ° \'\'\'(Default, **0.00 °**).
+-    {{TasksTag|roll axis}}**Roll is rotation about the X axis**, that is to say wing up and down. (The Roll angle is the **Thêta θ**). Value **-360.00 °** to **360, 00 °**(Default, **0.00 °**).
 
 -    {{TasksTag|Apply incremental changes}}to the placement of the object   * Once selected, this option **virtually** sets all parameters to zero, to allow you to enter your values ​​without having to calculate with the original parameters of the form. Once you have confirmed with **OK**, the entered values ​​will be added to the values ​​on the form.
 
@@ -136,7 +136,7 @@ Other explanation on [Placement](Placement.md).
 
 
 
-[Category   *Command\_Reference](Category_Command_Reference.md)
+[Category   *Command_Reference](Category_Command_Reference.md)
 
 
 

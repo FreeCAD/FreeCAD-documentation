@@ -16,7 +16,7 @@ Czasami łuki są przekształcane w krzywą złożoną, na przykład gdy zastoso
 
 ## Tworzenie skryptów 
 
-Ikonka paska narzędzi ![](images/Macro_HealArcs.png ) **Macro\_HealArcs.FCMacro**
+Ikonka paska narzędzi ![](images/Macro_HealArcs.png ) **Macro_HealArcs.FCMacro**
 
 
 {{MacroCode|code=

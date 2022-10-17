@@ -36,8 +36,8 @@
 <div class="mw-translate-fuzzy">
 
 1.  În arborescența Model, selectați obiectul (obiectele) care urmează să fie mutat, apoi faceți clic dreapta pentru a deschide meniul contextual.
-2.  Selectați \'\' \'Mutare obiect după alt obiect\' \'\'.
-3.  În fereastra de selecție \'\' \'Selectați caracteristica\' \'\' \', selectați obiectul în care doriți să mutați obiectele.
+2.  Selectați *\'Mutare obiect după alt obiect\'*.
+3.  În fereastra de selecție *\'Selectați caracteristica\'* \', selectați obiectul în care doriți să mutați obiectele.
 4.  Apăsați tasta **OK**.
 
 

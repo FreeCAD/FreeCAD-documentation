@@ -16,7 +16,7 @@ La commande <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width
 
 Si le corps parent d\'une face planaire sélectionnée a déjà fait l\'objet d\'un dépliage, cet outil ignorera le menu du panneau des tâches. Sinon, il affichera un message d\'erreur demandant soit de \"définir un facteur K manuel\", soit d\'\"utiliser une feuille de définition de matériau\".
 
-Avec la première utilisation de l\'outil <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Déplier](SheetMetal_Unfold/fr.md), l\'étiquette du corps parent reçoit un suffixe (tel que *\_material\_0.5din*), après cela, il est prêt à être utilisé avec cet outil.
+Avec la première utilisation de l\'outil <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Déplier](SheetMetal_Unfold/fr.md), l\'étiquette du corps parent reçoit un suffixe (tel que *\_material_0.5din*), après cela, il est prêt à être utilisé avec cet outil.
 
 ## Utilisation
 

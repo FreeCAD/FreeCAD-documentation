@@ -44,13 +44,13 @@ Selon la sélection effectuée, certains champs seront activés ou resteront dé
 -   **Adapter**    * définit l\'ajustement standard ou proche pour les profils filetés.
 -   **Classe**    * définit la classe de tolérance.
 -   **Diamètre**    * définit le diamètre du trou si le *Profil* a été défini sur *Aucun*.
--   \'\'\'Profondeur \'\'\'    * profondeur du trou à partir du plan d\'esquisse. *Dimension* permet d\'indiquer une valeur dans un champ. *A travers tout* va réaliser le trou à travers tout le corps. **Remarque    *** Pour des raisons techniques, *A travers tout* est en fait un trou de 10 mètres de profondeur. Si vous avez besoin de trous plus profonds, utilisez *Dimension*.
+-   **Profondeur**    * profondeur du trou à partir du plan d\'esquisse. *Dimension* permet d\'indiquer une valeur dans un champ. *A travers tout* va réaliser le trou à travers tout le corps. **Remarque    *** Pour des raisons techniques, *A travers tout* est en fait un trou de 10 mètres de profondeur. Si vous avez besoin de trous plus profonds, utilisez *Dimension*.
 
 ### Trou découpé 
 
 -   **Type**    * définit le type de coupe de trou   * *Aucun* signifie pas de coupe, les autres types sont des normes différentes pour les vis ({{Version/fr|0.19}}) et les deux types génériques *Chambrage* et *Fraisure*.
 -   **Diamètre**    * définit le diamètre supérieur (au plan d\'esquisse) pour la découpe du trou.
--   \'\'\'Profondeur \'\'\'    * profondeur de la découpe du trou, mesurée à partir du plan d\'esquisse.
+-   **Profondeur**    * profondeur de la découpe du trou, mesurée à partir du plan d\'esquisse.
 -   **Angle de fraisage**    * angle de la découpe du trou conique. Applicable uniquement pour les fraisages.
 
 ### Pointe de perçage 
@@ -85,8 +85,8 @@ Les types de coupes (types de vis) sont définis dans des fichiers [json](https 
 Le fichier doit contenir    *
 
 -   **name**    * Le nom de la définition. Il doit être unique car il sera utilisé comme identifiant dans l\'interface utilisateur de FreeCAD et comme index interne.
--   **cut\_type**    * Soit `countersink` ou `counterbore`.
--   **thread\_type**    * Soit `metric` ou `metricfine`.
+-   **cut_type**    * Soit `countersink` ou `counterbore`.
+-   **thread_type**    * Soit `metric` ou `metricfine`.
 -   **angle**    * L\'angle d\'un chanfrein (pas nécessaire pour un alésage).
 -   **data**    * Une liste de dimensions, composée de    *
     -   **thread**    * Nom du filetage connu de FreeCAD.

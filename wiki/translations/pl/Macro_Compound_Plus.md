@@ -16,7 +16,7 @@ Draft command set in a small macro for the 2D wire example   * work with the DXF
 
 ## Usage
 
-![Macro\_Compound\_Plus\_00](images/Macro_Compound_Plus_00.png )
+![Macro_Compound_Plus_00](images/Macro_Compound_Plus_00.png )
 
 ### Choice
 
@@ -101,9 +101,9 @@ The icon for you toolBar ![](images/Macro_Compound_Plus.png ) copy in same direc
 
 [How to Customize Toolbars](Customize_Toolbars.md), [How to install macros](How_to_install_macros.md)
 
-The script to github [Macro\_Compound\_Plus.FCMacro](https   *//gist.github.com/mario52a/7be361a8c489deec918f664fdcfc4394)
+The script to github [Macro_Compound_Plus.FCMacro](https   *//gist.github.com/mario52a/7be361a8c489deec918f664fdcfc4394)
 
-**Macro\_Compound\_Plus.FCMacro**
+**Macro_Compound_Plus.FCMacro**
 
 
 {{MacroCode|code=

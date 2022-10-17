@@ -25,8 +25,6 @@ Diese Methode rastet an den Punkten von Kreisen und Kreisbögen in Schritten von
 
 </div>
 
-In FreeCAD version 0.19 and earlier this snap option only works properly for circular edges on a plane parallel to the XY plane of the global coordinate system.
-
 ![](images/Draft_Snap_Angle_example.png )
 
 

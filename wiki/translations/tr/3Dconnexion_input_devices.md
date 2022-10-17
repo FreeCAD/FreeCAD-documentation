@@ -134,7 +134,7 @@ Aşağıdaki dosyaları indirin   *
 
 <div class="mw-translate-fuzzy">
 
--   Bu başarılı olursa, aşağıdaki \'\' \'root\' \'\' (veya sudo ile öneki) komutlarını çalıştırın.
+-   Bu başarılı olursa, aşağıdaki *\'root\'* (veya sudo ile öneki) komutlarını çalıştırın.
 
 
 </div>

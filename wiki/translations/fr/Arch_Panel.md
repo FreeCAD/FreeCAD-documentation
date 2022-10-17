@@ -6,18 +6,18 @@
    Workbenches   *[Arch](Arch_Workbench/fr.md)
    Shortcut   ***P** **A**
    Version   *0.15
-   SeeAlso   *[Arch Découpe de panneaux](Arch_Panel_Cut/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md)
+   SeeAlso   *[Arch Découpe de panneau](Arch_Panel_Cut/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md)
 ---
 
 # Arch Panel/fr
 
 ## Description
 
-Cet outil vous permet de créer toutes sortes d\'éléments semblables à des panneaux, généralement pour des constructions de panneaux comme le projet [WikiHouse](http   *//www.wikihouse.cc/) , mais aussi pour toutes sortes d\'objets qui sont basés sur un profil plat.
+Cet outil vous permet de créer toutes sortes d\'éléments semblables à des panneaux, généralement pour des constructions de panneaux comme le projet [WikiHouse](http   *//www.wikihouse.cc/), mais aussi pour toutes sortes d\'objets qui sont basés sur un profil plat.
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width   *700px;">
 
-*L\'image ci-dessus montre une série d\'objets panneau, tout simplement fabriqués à partir de contours 2D importés à partir d\'un fichier DXF. Ils peuvent alors être entraînés en rotation et assemblés pour créer des structures.*
+*L\'image ci-dessus montre une série d\'objets panneaux, simplement réalisés à partir de contours 2D importés d\'un fichier DXF. Ils peuvent ensuite être tournés et assemblés pour créer des structures.*
 
 Depuis la version {{VersionPlus/fr|0.17}}, Arch Panneau peut également être utilisé pour créer des profils ondulées ou trapézoïdaux   *
 
@@ -25,23 +25,23 @@ Depuis la version {{VersionPlus/fr|0.17}}, Arch Panneau peut également être ut
 
 ## Utilisation
 
-1.  Sélectionnez une forme 2D (objet draft, face ou esquisse)
-2.  Cliquez sur le bouton **<img src="images/Arch_Panel.svg" width=16px>[Panneau](Arch_Panel/fr.md)
+1.  Sélectionnez une forme 2D (objet Draft, face ou esquisse)
+2.  Cliquez sur le bouton **<img src="images/Arch_Panel.svg" width=16px> [Panneau](Arch_Panel/fr.md)
 **, appuyez les touche **P** puis **A**
 3.  Ajustez les propriétés souhaitées
 
 ### Limitations
 
--   Il n\'existe actuellement pas de système automatique pour produire des feuilles de coupe 2D à partir d\'objets du panneau, mais cette fonction est dans les plans et sera ajouté à l\'avenir.
+-   Il n\'existe actuellement aucun système automatique permettant de produire des feuilles de découpe en 2D à partir de panneaux, mais cette fonctionnalité est prévue et sera ajoutée à l\'avenir.
 
 ## Options
 
--   L\'outil Pannels partage les propriétés et comportements communs de tous les composants [Arch Composants](Arch_Component/fr.md)
+-   L\'outil Panneaux partage les propriétés et comportements communs de tous les composants [Arch Composants](Arch_Component/fr.md)
 -   L\'épaisseur d\'un panneau peut être réglée après la création
--   Appuyez sur le bouton **Echap** ou **Annuler** pour abandonner la commande actuelle.
--   Un double-clic sur le panneau de l\'arborescence après sa création vous permet d\'entrer en mode d\'édition et d\'avoir l\'accès et de modifier ses additions et soustractions
--   Il est possible de faire automatiquement des groupes composés de plus d\'une feuille d\'un matériau, en augmentant sa propriété Feuilles.
--   Les panneaux peuvent utiliser la fonction <img alt="" src=images/Arch_MultiMaterial.svg  style="width   *24px;"> [Arch Matériaux multiples](Arch_MultiMaterial/fr.md). Lors de l\'utilisation d\'un multi-matériau, le panneau deviendra multi-couche, en utilisant les épaisseurs spécifiées par les multi-matériaux. Toute couche avec une épaisseur de zéro aura son épaisseur définie automatiquement par l\'espace restant défini par la valeur d\'épaisseur du panneau, après avoir soustrait les autres couches.
+-   Appuyez sur le bouton **Echap** ou **Annuler** pour abandonner la commande en cours.
+-   Un double-clic sur le panneau dans la vue enarborescence après sa création permet d\'entrer en mode édition et d\'accéder et de modifier ses ajouts et soustractions.
+-   Il est possible de créer automatiquement des panneaux composés de plus d\'une feuille d\'un matériau, en augmentant sa propriété Sheets.
+-   Les panneaux peuvent faire appel à <img alt="" src=images/Arch_MultiMaterial.svg  style="width   *24px;"> [Arch Matériaux multiples](Arch_MultiMaterial/fr.md). Lorsqu\'on utilise un multi-matériau, le panneau devient multi-couche, en utilisant les épaisseurs spécifiées par le multi-matériau. Toute couche dont l\'épaisseur est égale à zéro verra son épaisseur définie automatiquement par l\'espace restant défini par la valeur Thickness du panneau, après soustraction des autres couches.
 
 ## Propriétés
 
@@ -70,7 +70,7 @@ Depuis la version {{VersionPlus/fr|0.17}}, Arch Panneau peut également être ut
 
 **Voir aussi   ***
 
-[API](Arch_API/fr.md) and [Débuter avec les scripts](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil Panneau peut-être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante   * 
 ```python
@@ -91,7 +91,7 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 ## Tutoriels
 
--   [Wikihouse porting tutorial](Wikihouse_porting_tutorial/fr.md)
+-   [Tutoriel de portage Wikihouse](Wikihouse_porting_tutorial/fr.md)
 
 
 

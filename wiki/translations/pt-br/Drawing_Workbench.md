@@ -44,7 +44,7 @@ Estas são ferramentas para criar, configurar e exportar folhas de desenho 2D
 
 ## Workflow
 
-The document contains a 3D shape object (leg) from which we want to produce a drawing. Therefore a \"Page\" is created. A page it\'s instantiated from a template, for example, the \"A3\_Landscape\" template. The template is an [SVG](SVG.md) document which can hold a page frame, a logo, and other elements.
+The document contains a 3D shape object (leg) from which we want to produce a drawing. Therefore a \"Page\" is created. A page it\'s instantiated from a template, for example, the \"A3_Landscape\" template. The template is an [SVG](SVG.md) document which can hold a page frame, a logo, and other elements.
 
 Nesta página, podemos inserir uma ou mais vistas. Cada vista tem uma posição na página, um fator de escala e propriedades adicionais. Cada vez que a página ou a vista ou o objeto referenciado muda, a página é regenerada e a exibição da página é atualizada.
 

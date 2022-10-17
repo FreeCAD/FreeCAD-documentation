@@ -76,7 +76,7 @@ Todo el trabajo en Part Design comienza con un [Body](Glossary#Body.md). Luego c
 1.  Haga clic en ![ 32px](images/_PartDesign_Body.png ) [Create new body](PartDesign_Body.md) para crear y activar un nuevo contenedor de cuerpo. \"Nota   * este paso puede ser omitido. Al crear un boceto, si no se encuentra un cuerpo existente, se creará y activará automáticamente uno nuevo\".
 2.  Haga clic en <img alt="" src=images/PartDesign_NewSketch.png  style="width   *32px;"> [Create new sketch](PartDesign_NewSketch.md). Esto creará el boceto/sketch dentro del cuerpo recién creado.
 3.  Necesitamos definir dónde se adjuntará el boceto/sketch. Lo adjuntaremos a un plano desde el [Origin](Glossary#Origin.md) del Cuerpo.
-4.  En la pestaña Tareas de la vista Combo, seleccione **YZ\_Plane** en la lista y presione {{KEY | OK}}   *
+4.  En la pestaña Tareas de la vista Combo, seleccione **YZ_Plane** en la lista y presione {{KEY | OK}}   *
 
 
 </div>
@@ -85,7 +85,7 @@ Todo el trabajo en Part Design comienza con un [Body](Glossary#Body.md). Luego c
 *Note   * this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
 2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**   *
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ_Plane** in the list and press **OK**   *
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
@@ -178,7 +178,7 @@ Después de seleccionar la cara, haga clic en el ícono Nuevo boceto en la barra
 ![](images/tut17_slot_unconstrained.png )
 
 1.  Right click to end the External geometry mode
-2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the coincident constraint. At this point the sketch should be fully constrained and look like the next image.
+2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Coinstrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
 
 ![](images/tut17_slote_constrained.png )
 

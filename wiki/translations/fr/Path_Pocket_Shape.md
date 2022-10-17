@@ -26,7 +26,7 @@ L\'objet Path Forme de poche est fait pour travailler avec une <img alt="" src=i
 
 ## Propriétés
 
-\'\'\' *Remarque* \'\'\'   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
+***Remarque***   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
 
 {{TitleProperty|Base}}
@@ -93,7 +93,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 -    **Safe Height**   * hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (Hauteur de sécurité rapide entre les sites).
 
--    **Start Depth**   * profondeur de départ de l\'outil - \'\' Profondeur de la première coupe en Z \'\'.
+-    **Start Depth**   * profondeur de départ de l\'outil - *Profondeur de la première coupe en Z*.
 
 -    **Step Down**   * abaissement incrémental de l\'outil pendant l\'opération.
 
@@ -151,7 +151,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 -    **Enable Rotation**   * active la rotation pour accéder aux trous non normaux sur l\'axe Z.
 
--    **Angle Inverse**   * inverse l\'angle de la rotation. \'\' **Exemple   *** change une rotation de -22,5 à 22,5 degrés.\'\'
+-    **Angle Inverse**   * inverse l\'angle de la rotation. ***Exemple   *** change une rotation de -22,5 à 22,5 degrés.*
 
 -    **Reverse Direction**   * inverse l\'orientation de l\'opération de 180 degrés.
 

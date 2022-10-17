@@ -45,7 +45,7 @@ Esta herramienta permite crear una conexión de esquina o de salida en T entre d
 
 <div class="mw-translate-fuzzy">
 
-Ver [Arch Pipe\#Typical\_workflow](Arch_Pipe#Typical_workflow.md)
+Ver [Arch Pipe#Typical_workflow](Arch_Pipe#Typical_workflow.md)
 
 
 </div>

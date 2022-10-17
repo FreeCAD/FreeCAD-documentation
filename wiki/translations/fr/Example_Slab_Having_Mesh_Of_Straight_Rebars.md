@@ -169,9 +169,9 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **parallel_diameter**   * Diamètre des barres d\'armature parallèles.
 
--    **parallel_amount_spacing_check**   * Si elle vaut True, alors la valeur de parallel\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de parallel\_amount\_spacing\_value est utilisée comme espacement dans les barres parallèles.
+-    **parallel_amount_spacing_check**   * Si elle vaut True, alors la valeur de parallel_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de parallel_amount_spacing_value est utilisée comme espacement dans les barres parallèles.
 
--    **parallel_amount_spacing_value**   * Contient le nombre de barres ou l\'espacement entre les barres parallèles en fonction de la valeur de amount\_spacing\_check.
+-    **parallel_amount_spacing_value**   * Contient le nombre de barres ou l\'espacement entre les barres parallèles en fonction de la valeur de amount_spacing_check.
 
 **Propriétés des barres d\'armature dans le sens transversal de la face sélectionnée    ***
 
@@ -191,9 +191,9 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **cross_diameter**   * Diamètre des barres d\'armature transversales.
 
--    **cross_amount_spacing_check**   * Si elle vaut True, la valeur de cross\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de cross\_amount\_spacing\_value est utilisée comme espacement entre les barres.
+-    **cross_amount_spacing_check**   * Si elle vaut True, la valeur de cross_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de cross_amount_spacing_value est utilisée comme espacement entre les barres.
 
--    **cross_amount_spacing_value**   * Contient le nombre de barres ou l\'espacement entre les barres en fonction de la valeur de cross\_amount\_spacing\_check.
+-    **cross_amount_spacing_value**   * Contient le nombre de barres ou l\'espacement entre les barres en fonction de la valeur de cross_amount_spacing_check.
 
 **Propriétés communes aux armatures parallèles et croisées    ***
 

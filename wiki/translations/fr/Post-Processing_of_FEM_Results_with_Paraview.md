@@ -22,7 +22,7 @@ Certains messages et tutoriels sur le forum utilisent Paraview pour examiner et 
 
 ## Transfert de données depuis l\'atelier FEM 
 
-Dans l\'atelier FEM, mettez en surbrillance l\'objet CCX\_Results. Ensuite, utilisez l\'option de menu **Fichier > Exporter > FEM result VTK (*.vtk *.vtu)** pour exporter les données VTK.
+Dans l\'atelier FEM, mettez en surbrillance l\'objet CCX_Results. Ensuite, utilisez l\'option de menu **Fichier > Exporter > FEM result VTK (*.vtk *.vtu)** pour exporter les données VTK.
 
 ## Importation de données dans Paraview 
 
@@ -68,7 +68,7 @@ Jusqu\'à présent, aucun résultat n\'est affiché. Pour cela, nous devons chan
 
 <img alt="" src=images/PVPic9.png  style="width   *400px;">
 
-Pour les besoins de ce tutoriel, nous avons choisi ReinforcementRatio\_x, mais il est facile de le changer par n\'importe quel type de données.
+Pour les besoins de ce tutoriel, nous avons choisi ReinforcementRatio_x, mais il est facile de le changer par n\'importe quel type de données.
 
 La fenêtre RenderView affichera maintenant un iso-plot du type de données sélectionné et une légende de couleur de la plage de données.
 
@@ -152,7 +152,7 @@ Pour afficher les résultats numériques, nous devons sélectionner SpreadSheet 
 
 <img alt="" src=images/PVPic26.png  style="width   *400px;">
 
-Pour inspecter {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}}, nous pouvons faire défiler vers la droite le tableau, mais nous pouvons également supprimer tous les résultats indésirables en les désélectionnant, c\'est-à-dire désélectionner toutes les colonnes et sélectionner **ReinforcementRatio\_x**.
+Pour inspecter {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}}, nous pouvons faire défiler vers la droite le tableau, mais nous pouvons également supprimer tous les résultats indésirables en les désélectionnant, c\'est-à-dire désélectionner toutes les colonnes et sélectionner **ReinforcementRatio_x**.
 
 <img alt="" src=images/PVPic27.png  style="width   *300px;"> . <img alt="" src=images/PVPic28.png  style="width   *500px;">
 
@@ -164,9 +164,9 @@ Comme expliqué précédemment, c\'est la valeur négative de l\'intégrale que 
 
 Ce qui précède était un exemple de l\'intégration d\'une variable directement exportée par l\'atelier FEM. Dans certains cas, nous pouvons vouloir combiner des variables VTK pour obtenir de nouveaux résultats. Cela peut être fait de plusieurs manières, mais ici je ne discuterai que des plus simples, c\'est-à-dire avec le Calculator Filter.
 
-Par exemple, si nous voulons connaître le besoin total de renfort dans les trois directions de coordonnées, nous devons additionner ReinforcementRatio\_x, ReinforcementRatio\_y et ReinforcementRatio\_z.
+Par exemple, si nous voulons connaître le besoin total de renfort dans les trois directions de coordonnées, nous devons additionner ReinforcementRatio_x, ReinforcementRatio_y et ReinforcementRatio_z.
 
-Le Calculator filter se trouve sous forme d\'icône à gauche de la barre de filtre ou via le menu Filters \> Alphabetical. Le nom de la variable résultante peut être entré dans le champ Nom du tableau de résultats. Ici, nous appelons le résultat Total\_Reinforcement\_Ratio. La formule peut être composée dans la zone située sous le champ Result Array Name. Les valeurs d\'entrée peuvent être sélectionnées dans le menu déroulant Scalars et peuvent être combinées dans une formule pour le résultat en utilisant les opérateurs donnés. Après avoir appuyé sur le bouton Apply, le résultat sera disponible en tant que nouvelle variable dans toutes les opérations suivantes (par exemple, un filtre d\'intégration) ou vues (par exemple RenderView ou SpreadSheetView, voir ci-dessous).
+Le Calculator filter se trouve sous forme d\'icône à gauche de la barre de filtre ou via le menu Filters \> Alphabetical. Le nom de la variable résultante peut être entré dans le champ Nom du tableau de résultats. Ici, nous appelons le résultat Total_Reinforcement_Ratio. La formule peut être composée dans la zone située sous le champ Result Array Name. Les valeurs d\'entrée peuvent être sélectionnées dans le menu déroulant Scalars et peuvent être combinées dans une formule pour le résultat en utilisant les opérateurs donnés. Après avoir appuyé sur le bouton Apply, le résultat sera disponible en tant que nouvelle variable dans toutes les opérations suivantes (par exemple, un filtre d\'intégration) ou vues (par exemple RenderView ou SpreadSheetView, voir ci-dessous).
 
 <img alt="" src=images/PVPic30.png  style="width   *700px;">
 
@@ -178,7 +178,7 @@ Cela montre comment l\'exigence d\'armature totale se compare à celles des dire
 
 ## Intégration sur une tranche 
 
-Dans la section précédente, nous avons discuté du filtre d\'intégration et de son application à l\'ensemble de l\'objet VTK. Pour démontrer l\'intégration sur une tranche, nous allons dans cette section déterminer le besoin total de ferraillage et son centre de gravité pour la section centrale de la poutre. Le résultat final est illustré dans l\'image ci-dessous. L\'interaction de divers objets peut être inspectée dans le Pipeline Browser. Le filtre de tranche est appliqué à l\'objet poutre VTK et deux filtres Calculator sont appliqués au filtre de tranche pour dériver les nouvelles variables \"Reinforcement\_ratio\_x \* z\" et \"Reinforcement\_ratio\_x \* y\" des données de base. Ces variables doivent être intégrées pour déterminer le centre de gravité de l\'armature. Enfin, des filtres d\'intégration sont appliqués à chaque Calculator pour intégrer les résultats sur la tranche. Veuillez vous référer à la section précédente pour une présentation générale du filtre d\'intégration et de ses paramètres.
+Dans la section précédente, nous avons discuté du filtre d\'intégration et de son application à l\'ensemble de l\'objet VTK. Pour démontrer l\'intégration sur une tranche, nous allons dans cette section déterminer le besoin total de ferraillage et son centre de gravité pour la section centrale de la poutre. Le résultat final est illustré dans l\'image ci-dessous. L\'interaction de divers objets peut être inspectée dans le Pipeline Browser. Le filtre de tranche est appliqué à l\'objet poutre VTK et deux filtres Calculator sont appliqués au filtre de tranche pour dériver les nouvelles variables \"Reinforcement_ratio_x \* z\" et \"Reinforcement_ratio_x \* y\" des données de base. Ces variables doivent être intégrées pour déterminer le centre de gravité de l\'armature. Enfin, des filtres d\'intégration sont appliqués à chaque Calculator pour intégrer les résultats sur la tranche. Veuillez vous référer à la section précédente pour une présentation générale du filtre d\'intégration et de ses paramètres.
 
 <img alt="" src=images/PVPicSlice1.png  style="width   *700px;">
 
@@ -187,7 +187,7 @@ Appliquez les paramètres suivants dans l\'onglet Propriétés de l\'objet VTK  
   Paramètres de l\'onglet Propriétés   Commentaire
    
   Representation   * Wireframe            Ainsi, la tranche est visible
-  Coloring   * ReinforcementRatio\_x      Ou toute autre couleur
+  Coloring   * ReinforcementRatio_x       Ou toute autre couleur
   Styling \> Line Width   * 2             Ou tout autre paramètre qui donne un résultat agréable
 
 <img alt="" src=images/PVPicSlice2.png  style="width   *400px;">
@@ -199,36 +199,36 @@ Mettez ensuite en surbrillance l\'objet VTK et appliquez un filtre Slice (tranch
   Plane Parameters \> Show Plane   * deselect       Supprimer les boîtes englobantes
   Plane Parameters \> Origin   * 4000 / 100 / 200   Position de la section centrale
   Plane Parameters \> Normal   * 1 /0 /0            Normale des points Slice dans la direction x
-  Coloring   * ReinforcementRatio\_x                Optionnel
+  Coloring   * ReinforcementRatio_x                 Optionnel
   Styling \> Line Width   * 2                       Ou tout autre paramètre qui donne un résultat agréable
 
 <img alt="" src=images/PVPicSlice3.png  style="width   *400px;">
 
 \'\'\'Paramètres Calculator 1
 
-Calculator 1 calcule la nouvelle variable ReinforcementRatio\_x \* y qui doit être intégrée pour obtenir la coordonnée y du centre de gravité de l\'armature.
+Calculator 1 calcule la nouvelle variable ReinforcementRatio_x \* y qui doit être intégrée pour obtenir la coordonnée y du centre de gravité de l\'armature.
 
 <img alt="" src=images/PVPicSlice4.png  style="width   *400px;">
 
-Après avoir appuyé sur Apply, une nouvelle variable nommée «ReinforcementRatio\_x \* y» est disponible pour affichage ou traitement ultérieur.
+Après avoir appuyé sur Apply, une nouvelle variable nommée «ReinforcementRatio_x \* y» est disponible pour affichage ou traitement ultérieur.
 
 \'\'\'Paramètres Calculator 2
 
-Calculator 1 calcule la nouvelle variable ReinforcementRatio\_x \* z qui doit être intégrée pour obtenir la coordonnée z du centre de gravité de l\'armature.
+Calculator 1 calcule la nouvelle variable ReinforcementRatio_x \* z qui doit être intégrée pour obtenir la coordonnée z du centre de gravité de l\'armature.
 
 <img alt="" src=images/PVPicSlice5.png  style="width   *400px;">
 
-Après avoir appuyé sur Apply, une nouvelle variable nommée «ReinforcementRatio\_x \* z» est disponible pour affichage ou traitement ultérieur.
+Après avoir appuyé sur Apply, une nouvelle variable nommée «ReinforcementRatio_x \* z» est disponible pour affichage ou traitement ultérieur.
 
-Enfin, deux filtres d\'intégration sont appliqués, l\'un sur Calculator1 pour intégrer la variable ReinforcementRatio\_x \* y et l\'autre sur Calculator2 pour intégrer ReinforcementRatio\_x \* z. Chacun est affiché dans sa propre fenêtre avec SpreadSheetView sélectionné. La façon de désélectionner tous les autres résultats est expliquée plus haut.
+Enfin, deux filtres d\'intégration sont appliqués, l\'un sur Calculator1 pour intégrer la variable ReinforcementRatio_x \* y et l\'autre sur Calculator2 pour intégrer ReinforcementRatio_x \* z. Chacun est affiché dans sa propre fenêtre avec SpreadSheetView sélectionné. La façon de désélectionner tous les autres résultats est expliquée plus haut.
 
 <img alt="" src=images/PVPicSlice6.png  style="width   *700px;">
 
 Enfin, le centre de gravité peut être calculé à partir des résultats ci-dessus comme   *
 
-CoG\_y = 55744,2 / 556,277 = 100,2 mm (valeur exacte   * 100 mm)
+CoG_y = 55744,2 / 556,277 = 100,2 mm (valeur exacte   * 100 mm)
 
-CoG\_z = 187144 / 556,277 = 336,4 mm (valeur exacte   * 5/6 \* 400 mm)
+CoG_z = 187144 / 556,277 = 336,4 mm (valeur exacte   * 5/6 \* 400 mm)
 
 ## Intégration sur une ligne 
 
@@ -240,7 +240,7 @@ En commençant par l\'objet VTK importé de l\'atelier FEM, nous notons que les 
 
 <img alt="" src=images/PVPicLine1.png  style="width   *75px;">
 
-Pour l\'image ci-dessous, la propriété Coloring de l\'onglet Propriétés de l\'objet VTK a été définie sur ReinforcementRatio\_x.
+Pour l\'image ci-dessous, la propriété Coloring de l\'onglet Propriétés de l\'objet VTK a été définie sur ReinforcementRatio_x.
 
 Le seul objet supplémentaire requis pour visualiser une variable le long d\'une ligne droite est un filtre Plot Over Line. Ceci peut être activé à partir de la barre d\'icônes ou de l\'option de menu Filters \> Alphabetical.
 
@@ -250,7 +250,7 @@ Nous voulons ensuite afficher les exigences de renforcement horizontal dans la s
    
   Line Parameters \> Point 1   * 4000 / 0 / 0                               Point en bas du mur sous la colonne
   Line Parameters \> Point 2   * 4000 / 4000 / 0                            Point en haut du mur sous la colonne
-  x Axis Parameters \> x Array Name   * ReinforcementRatio\_x               Affiche ReinforcementRatio\_x sur l\'axe horizontal
+  x Axis Parameters \> x Array Name   * ReinforcementRatio_x                Affiche ReinforcementRatio_x sur l\'axe horizontal
   Series Parameters   * tick "arc length" only                              Ceci est le paramètre de longueur le long de la ligne
   Title \> Chart Title   * Mid Section                                      
   Annotation \> Show Legend   * deselect                                    Inutile pour le choix actuel de l\'axe vertical
@@ -261,7 +261,7 @@ Nous voulons ensuite afficher les exigences de renforcement horizontal dans la s
 
 <img alt="" src=images/PVPicLine2.png  style="width   *700px;">
 
-Notez que la distance le long de la ligne (longueur d\'arc) est généralement sur l\'axe horizontal et la variable que nous voulons afficher (ici ReinforcementRatio\_x) sur l\'axe vertical. Cependant, comme la section de mur dans cet exemple est verticale et que nous voulons voir les exigences de renforcement sur la hauteur du mur, il est plus naturel d\'inverser les axes. Cependant, cela se fait au détriment de beaucoup plus de changements dans les paramètres de l\'onglet Propriétés du filtre Plot Over Line.
+Notez que la distance le long de la ligne (longueur d\'arc) est généralement sur l\'axe horizontal et la variable que nous voulons afficher (ici ReinforcementRatio_x) sur l\'axe vertical. Cependant, comme la section de mur dans cet exemple est verticale et que nous voulons voir les exigences de renforcement sur la hauteur du mur, il est plus naturel d\'inverser les axes. Cependant, cela se fait au détriment de beaucoup plus de changements dans les paramètres de l\'onglet Propriétés du filtre Plot Over Line.
 
 Dans les deux images suivantes, seul l\'emplacement de la ligne a été modifié. Notez cependant que cette relocalisation modifiera automatiquement le paramètre Left Axis Range \> Use Custom Range pour «sélectionner». Cela peut signifier que le graphique ne tient pas correctement dans la fenêtre LineChartView. Il est donc nécessaire de désélectionner cette option à chaque changement de position de la ligne. Les autres paramètres sont conformes au tableau ci-dessus.
 
@@ -289,7 +289,7 @@ Le besoin total de ferraillage horizontal dans la dernière coupe peut maintenan
 
 <img alt="" src=images/PVPicLine5.png  style="width   *700px;">
 
-De la manière habituelle, désélectionnez tout sauf le résultat ReinforcementRatio\_x dans SpreadSheetView et lisez le résultat comme 23,11 mm2 / mm. Pour obtenir la section transversale totale de l\'acier, nous devons encore multiplier avec l\'épaisseur du mur, qui dans cet exemple est (impressionnant) 600 mm. Ainsi, la surface de coupe transversale totale de l\'acier traversant la section transversale près du support droit est de 23,11 \* 600 = 13866 mm2 = 139 cm2
+De la manière habituelle, désélectionnez tout sauf le résultat ReinforcementRatio_x dans SpreadSheetView et lisez le résultat comme 23,11 mm2 / mm. Pour obtenir la section transversale totale de l\'acier, nous devons encore multiplier avec l\'épaisseur du mur, qui dans cet exemple est (impressionnant) 600 mm. Ainsi, la surface de coupe transversale totale de l\'acier traversant la section transversale près du support droit est de 23,11 \* 600 = 13866 mm2 = 139 cm2
 
 Pour obtenir une distribution plus pratique des armatures, nous pourrions intégrer le graphique ci-dessus en plusieurs parties. Par exemple, si nous voulons connaître la section transversale requise de l\'acier dans les 400 mm supérieurs du mur, nous devons ajuster les propriétés de l\'objet Plot Over Line comme suit   *
 
@@ -350,7 +350,7 @@ Ajoutez ensuite un autre filtre Glyph avec les paramètres suivants pour la cont
 
 <img alt="" src=images/PVPic35.png  style="width   *700px;">
 
-Le résultat final montre les vecteurs de contrainte principaux majeurs et mineurs superposés à la poutre avec ReinforcementRatio\_x.
+Le résultat final montre les vecteurs de contrainte principaux majeurs et mineurs superposés à la poutre avec ReinforcementRatio_x.
 
 ## Exportation des résultats graphiques 
 

@@ -11,7 +11,7 @@ Bu belge resmi FreeCAD wiki belgelerinin içeriklerinden otomatik olarak oluştu
 
 </div>
 
-### \'\'\' Nasıl Kullanılır \'\'\' 
+### **Nasıl Kullanılır** 
 
 
 <div class="mw-translate-fuzzy">
@@ -21,7 +21,7 @@ Bu belge çeşitli bölümlere ayrılmıştır   * giriş, kullanım şekli, scr
 
 </div>
 
-### \'\'\' Katkıda Bulunmak \'\'\' 
+### **Katkıda Bulunmak** 
 
 
 <div class="mw-translate-fuzzy">
@@ -43,7 +43,7 @@ Bazen programcıların gerçekten kötü yardım belgeleri yazmış oldukların�
 
 
 
-[Category   *User\_Documentation](Category_User_Documentation.md)
+[Category   *User_Documentation](Category_User_Documentation.md)
 
 
 

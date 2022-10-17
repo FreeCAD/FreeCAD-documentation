@@ -39,7 +39,7 @@ Launch the macro select one object Draft complete the fields and apply. One new 
 
 <center>
 
-Image   *Macro\_FCPropertyMemo\_02.png\|One Property Memo list. Image   *Macro\_FCPropertyMemo\_03.png\|The window Memo list.
+Image   *Macro_FCPropertyMemo_02.png\|One Property Memo list. Image   *Macro_FCPropertyMemo_03.png\|The window Memo list.
 
 
 </center>
@@ -51,7 +51,7 @@ Image   *Macro\_FCPropertyMemo\_02.png\|One Property Memo list. Image   *Macro\_
 
 The icon for the ToolBar ![](images/PropertyMemo.png ) 
 
-**Macro\_FCPropertyMemo.FCMacro**
+**Macro_FCPropertyMemo.FCMacro**
 
 
 {{MacroCode|code=

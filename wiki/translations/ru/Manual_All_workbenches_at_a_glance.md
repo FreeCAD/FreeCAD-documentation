@@ -21,7 +21,7 @@
 
 <div class="mw-translate-fuzzy">
 
-  Инструмент                                                                                                            Описание                                                        Инструмент                                                                                                             Описание
+  Инструмент                                                                                                        Описание                                                        Инструмент                                                                                                         Описание
      
   <img alt="" src=images/Part_Box.svg  style="width   *32px;"> [Box](Part_Box/ru.md)                                        Рисует параллелепипед                                           <img alt="" src=images/Part_Cone.svg  style="width   *32px;"> [Cone](Part_Cone/ru.md)                                     Рисует конус
   <img alt="" src=images/Part_Cylinder.svg  style="width   *32px;"> [Cylinder](Part_Cylinder/ru.md)                    Рисует цилиндр                                                  <img alt="" src=images/Part_Sphere.svg  style="width   *32px;"> [Sphere](Part_Sphere/ru.md)                             Рисует сферу
@@ -35,7 +35,7 @@
   <img alt="" src=images/Part_Chamfer.svg  style="width   *32px;"> [Chamfer](Part_Chamfer/ru.md)                        Создаёт скос (фаску) граней объекта                             <img alt="" src=images/Part_Mirror.svg  style="width   *32px;"> [Mirror](Part_Mirror/ru.md)                             Отражает выбранный объект заданной отражающей плоскостью
   <img alt="" src=images/Part_RuledSurface.svg  style="width   *32px;"> [Ruled Surface](Part_RuledSurface/ru.md)   Создаёт линейную поверхность между выбранными кривыми           <img alt="" src=images/Part_Sweep.svg  style="width   *32px;"> [Sweep](Part_Sweep/ru.md)                                 Протягивает один или несколько профилей вдоль трассы
   <img alt="" src=images/Part_Loft.svg  style="width   *32px;"> [Part Loft](Part_Loft/ru.md)                               Создаёт объект через операцию лофтинга между двумя профилями    <img alt="" src=images/Part_Offset.svg  style="width   *32px;"> [Offset](Part_Offset/ru.md)                             Создаёт увеличенную копию оригинального объекта
-  <img alt="" src=images/Part_Thickness.svg  style="width   *32px;"> [Thickness](Part_Thickness/ru.md)                Назначает толщину граням формы                                                                                                                                                         
+  <img alt="" src=images/Part_Thickness.svg  style="width   *32px;"> [Thickness](Part_Thickness/ru.md)                Назначает толщину граням формы                                                                                                                                                     
 
 
 </div>
@@ -47,7 +47,7 @@
 
 <div class="mw-translate-fuzzy">
 
-  Инструмент                                                                                                                 Описание                                                           Инструмент                                                                                                            Описание
+  Инструмент                                                                                                             Описание                                                           Инструмент                                                                                                        Описание
      
   <img alt="" src=images/Draft_Line.svg  style="width   *32px;"> [Line](Draft_Line/ru.md)                                      Рисует отрезок между двумя точками                                 <img alt="" src=images/Draft_Wire.svg  style="width   *32px;"> [Wire](Draft_Wire/ru.md)                                 Рисует линию, составленную из нескольких линейных сегментов (полилиния)
   <img alt="" src=images/Draft_Circle.svg  style="width   *32px;"> [Circle](Draft_Circle/ru.md)                              Рисует окружность по центру и радиусу                              <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Arc](Draft_Arc/ru.md)                                     Рисует сегмент дуги по центру, радиусу, начальному и конечному углу
@@ -62,7 +62,7 @@
   <img alt="" src=images/Draft_Scale.svg  style="width   *32px;"> [Scale](Draft_Scale/ru.md)                                  Масштабирует объекты относительно точки                            <img alt="" src=images/Draft_Shape2DView.svg  style="width   *32px;"> [Shape 2D View](Draft_Shape2DView/ru.md)   Создаёт двумерный объект с плоским видом другого объекта
   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width   *32px;"> [Draft to Sketch](Draft_Draft2Sketch/ru.md)   Преобразует объект Draft в объект Sketch (эскиз) и наоборот        <img alt="" src=images/Draft_Array.svg  style="width   *32px;"> [Array](Draft_Array/ru.md)                             Создаёт из объекта полярный или прямоугольный массив
   <img alt="" src=images/Draft_PathArray.svg  style="width   *32px;"> [Path Array](Draft_PathArray/ru.md)                 Создаёт массив из объекта, помещая его вдоль трассы                <img alt="" src=images/Draft_Clone.svg  style="width   *32px;"> [Clone](Draft_Clone/ru.md)                             Создаёт связанные копии объектов
-  <img alt="" src=images/Draft_Mirror.svg  style="width   *32px;"> [Mirror](Draft_Mirror/ru.md)                              Отражает объекты вдоль линии                                                                                                                                                             
+  <img alt="" src=images/Draft_Mirror.svg  style="width   *32px;"> [Mirror](Draft_Mirror/ru.md)                              Отражает объекты вдоль линии                                                                                                                                                         
 
 
 </div>
@@ -74,7 +74,7 @@
 
 <div class="mw-translate-fuzzy">
 
-  Инструмент                                                                                                                                                         Описание                                                                                                                                                                     Инструмент                                                                                                                                                   Описание
+  Инструмент                                                                                                                                                     Описание                                                                                                                                                                     Инструмент                                                                                                                                               Описание
      
   <img alt="" src=images/Sketcher_CreatePoint.svg  style="width   *32px;"> [Point](Sketcher_CreatePoint/ru.md)                                               Рисует точку                                                                                                                                                                 <img alt="" src=images/Sketcher_Line.svg  style="width   *32px;"> [Line](Sketcher_CreateLine/ru.md)                                                         Рисует отрезок по двум точкам
   <img alt="" src=images/Sketcher_Arc.svg  style="width   *32px;"> [Arc](Sketcher_CreateArc/ru.md)                                                                   Рисует отрезок дуги по центру, радиусу, начальному и конечному углу                                                                                                          <img alt="" src=images/Sketcher_CreateArc3Point.png  style="width   *32px;"> [Arc 3 points](Sketcher_Create3PointArc/ru.md)                      Рисует отрезок дуги по двум конечным точкам и третьей точке на окружности
@@ -108,7 +108,7 @@
 
 <div class="mw-translate-fuzzy">
 
-  Инструмент                                                                                                                                  Описание                                                                     Инструмент                                                                                                                                     Описание
+  Инструмент                                                                                                                              Описание                                                                     Инструмент                                                                                                                                 Описание
      
   <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> [Pad](PartDesign_Pad/ru.md)                                            Выдавливает твердотельный объект из выбранного эскиза                        <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> [Pocket](PartDesign_Pocket/ru.md)                                   Создаёт выемку из выбранного эскиза. Эскиз должен быть привязан к грани существующего объекта
   <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> [Revolution](PartDesign_Revolution/ru.md)                Создаёт твёрдое тело вращением эскиза вокруг оси                             <img alt="" src=images/PartDesign_Groove.svg  style="width   *32px;"> [Groove](PartDesign_Groove/ru.md)                                   Создаёт канавку вращением эскиза вокруг оси
@@ -125,7 +125,7 @@
 
 Верстак Arch содержит инструменты для работы с проектами на основе [BIM](https   *//ru.wikipedia.org/wiki/BIM) (промышленно-гражданское строительство и архитектура). Он так же содержит все инструменты верстака Draft. Основное использование верстака Arch в создании объектов BIM или добавлении атрибутов BIM к объектам, созданным с помощью других верстаков, чтобы экспортировать их в [IFC](https   *//ru.wikipedia.org/wiki/Industry_Foundation_Classes).
 
-  Инструмент                                                                                               Описание                                                                       Инструмент                                                                                                            Описание
+  Инструмент                                                                                           Описание                                                                       Инструмент                                                                                                        Описание
      
   <img alt="" src=images/Arch_Wall.svg  style="width   *32px;"> [Wall](Arch_Wall/ru.md)                       Создаёт стену с нуля или с использованием выбранного объекта в качестве базы   <img alt="" src=images/Arch_Structure.svg  style="width   *32px;"> [Structure](Arch_Structure/ru.md)                Создаёт структурный элемент с нуля или используя выбранный объект в качестве базы
   <img alt="" src=images/Arch_Rebar.svg  style="width   *32px;"> [Rebar](Arch_Rebar/ru.md)                   Создаёт арматуру в выбранном структурном элементе                              <img alt="" src=images/Arch_Floor.svg  style="width   *32px;"> [Floor](Arch_Floor.md)                                   Создаёт пол, включающий выбранные объекты
@@ -137,7 +137,7 @@
   <img alt="" src=images/Arch_Equipment.svg  style="width   *32px;"> [Equipment](Arch_Equipment/ru.md)   Создаёт объект оборудования или мебели                                         <img alt="" src=images/Arch_SetMaterial.svg  style="width   *32px;"> [Material](Arch_SetMaterial/ru.md)           Назначает материал к выбранному объекту
   <img alt="" src=images/Arch_Schedule.svg  style="width   *32px;"> [Schedule](Arch_Schedule/ru.md)       Создаёт различные типы расписаний                                              <img alt="" src=images/Arch_CutPlane.svg  style="width   *32px;"> [Cut plane](Arch_CutPlane/ru.md)                   Обрезает объект в соответствии с планом
   <img alt="" src=images/Arch_Add.svg  style="width   *32px;"> [Add](Arch_Add/ru.md)                           Добавляет объекты к компоненту                                                 <img alt="" src=images/Arch_Remove.svg  style="width   *32px;"> [Remove](Arch_Remove/ru.md)                            Вычитает или удаляет объекты из компонента
-  <img alt="" src=images/Arch_Survey.svg  style="width   *32px;"> [Survey](Arch_Survey/ru.md)               Переходит в или покидает режим ревизии                                                                                                                                                               
+  <img alt="" src=images/Arch_Survey.svg  style="width   *32px;"> [Survey](Arch_Survey/ru.md)               Переходит в или покидает режим ревизии                                                                                                                                                           
 
 ### Верстак Drawing 
 
@@ -149,13 +149,13 @@
 
 <div class="mw-translate-fuzzy">
 
-  Инструмент                                                                                                                 Описание                                                                       Инструмент                                                                                                             Описание
+  Инструмент                                                                                                             Описание                                                                       Инструмент                                                                                                         Описание
      
   <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [New sheet](Drawing_Landscape_A3/ru.md)   Создаёт новый чертёжный лист                                                   <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [View](Drawing_View/ru.md)                            Вставляет вид выбранного объекта в активный чертёжный лист
   <img alt="" src=images/Drawing_Annotation.png  style="width   *32px;"> [Annotation](Drawing_Annotation/ru.md)        Добавляет аннотацию к текущему чертёжному листу                                <img alt="" src=images/Drawing_Clip.png  style="width   *32px;"> [Clip](Drawing_Clip/ru.md)                            Добавляет разрез к текущему чертёжному листу
   <img alt="" src=images/Drawing_Openbrowser.png  style="width   *32px;"> [Open browser](Drawing_Openbrowser/ru.md)   Открывает предпросмотр текущего листа в браузере                               <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Ortho views](Drawing_Orthoviews/ru.md)   Автоматически создаёт ортографическую проекцию объектов текущего чертёжного листа
   <img alt="" src=images/Drawing_Symbol.png  style="width   *32px;"> [Symbol](Drawing_Symbol/ru.md)                        Добавляет содержимое текущего файла SVG как символ в текущем чертёжном листе   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Draft view](Drawing_DraftView/ru.md)       Вставляет специальный вид Draft текущего объекта в текущий чертёжный лист
-  <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Save](Drawing_Save/ru.md)                                Сохраняет текущий лист в файл SVG                                                                                                                                                                     
+  <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Save](Drawing_Save/ru.md)                                Сохраняет текущий лист в файл SVG                                                                                                                                                                 
 
 
 </div>

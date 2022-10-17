@@ -46,11 +46,17 @@ Esta herramienta crea, en el documento 3D, una vista 2D plana de un [Arch Panel]
 
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 -   Si el panel no es plano (corrugado, por ejemplo), el relieve no aparecerá en el corte del panel. Esta herramienta es útil principalmente para paneles planos
 -   El corte del panel puede mostrar una etiqueta. Esta etiqueta puede ser una línea de texto personalizada o puede mostrar automáticamente la etiqueta, la etiqueta o la descripción de su panel vinculado.
 -   Para ser útil en el mecanizado CNC, la etiqueta debe escribirse con una fuente adhesiva, donde las letras son polilíneas simples que la máquina puede seguir fácilmente. Al momento de la creación, el objeto Corte de Panel utilizará automáticamente la fuente especificada en Editar → Preferencias → Borrador → Textos y dimensiones → Fuente ShapeString
 -   Al hacer doble clic en el corte del panel en la vista de árbol después de haber sido creado, puede ingresar al modo de edición y modificar la posición de la etiqueta.
 -   Cuando necesite diseñar diferentes Cortes de panel juntos, los Cortes de panel pueden mostrar un margen, que es útil para asegurarse de que siempre haya un cierto espacio entre un corte y otro.
+
+
+</div>
 
 ## Propiedades
 

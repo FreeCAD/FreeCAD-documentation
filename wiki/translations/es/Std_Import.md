@@ -20,7 +20,7 @@ Añade en el documento actual el contenido de un fichero creado con otra aplicac
 
 <div class="mw-translate-fuzzy">
 
-Cuando se carga, el fichero es **incorporado** al proyecto actual (que debe estar abierto). Si lo que deseas es cargar un nuevo archivo en una nueva ventana, usa el comando **[Std\_Open](Std_Open/es.md)**.
+Cuando se carga, el fichero es **incorporado** al proyecto actual (que debe estar abierto). Si lo que deseas es cargar un nuevo archivo en una nueva ventana, usa el comando **[Std_Open](Std_Open/es.md)**.
 
 
 </div>
@@ -49,7 +49,7 @@ Cuando se carga, el fichero es **incorporado** al proyecto actual (que debe esta
 
 }}  
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

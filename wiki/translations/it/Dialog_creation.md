@@ -122,7 +122,7 @@ class Ui_Dialog(object)   *
         Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Dialog", None, QtGui.QApplication.UnicodeUTF8))
         self.title.setText(QtGui.QApplication.translate("Dialog", "Plane-O-Matic", None, QtGui.QApplication.UnicodeUTF8))
         ...
-``` Come potete vedere ha una struttura molto semplice   * viene creata una classe denominata Ui\_Dialog, che memorizza gli elementi dell\'interfaccia del nostro widget. Questa classe ha due metodi, uno per la creazione del widget, e uno per la traduzione del suo contenuto, questo fa parte del meccanismo generale di Qt per tradurre gli elementi dell\'interfaccia. Il metodo di installazione crea semplicemente, uno per uno, i widget come li abbiamo definiti in Qt Designer, e imposta le loro opzioni come abbiamo deciso in precedenza. Poi, viene tradotta l\'intera interfaccia e, infine, vengono collegati gli slot (di cui parleremo più avanti).
+``` Come potete vedere ha una struttura molto semplice   * viene creata una classe denominata Ui_Dialog, che memorizza gli elementi dell\'interfaccia del nostro widget. Questa classe ha due metodi, uno per la creazione del widget, e uno per la traduzione del suo contenuto, questo fa parte del meccanismo generale di Qt per tradurre gli elementi dell\'interfaccia. Il metodo di installazione crea semplicemente, uno per uno, i widget come li abbiamo definiti in Qt Designer, e imposta le loro opzioni come abbiamo deciso in precedenza. Poi, viene tradotta l\'intera interfaccia e, infine, vengono collegati gli slot (di cui parleremo più avanti).
 
 Ora possiamo creare un nuovo widget, e utilizzare questa classe per creare la sua interfaccia. A questo punto, possiamo già vedere in azione il nostro widget e, per provarlo, mettiamo il nostro file mywidget.py in un luogo dove FreeCAD possa trovarlo (nella directory bin di FreeCAD, o in una qualsiasi delle sottodirectory Mod), e, nell\'interprete Python di FreeCAD, digitiamo   * 
 ```python
@@ -152,7 +152,7 @@ Qui, come esempio, creiamo una nuova funzione che genera un piano basato su alte
 Allora, cominciamo con l\'importazione dei nostri moduli FreeCAD, inserendo la seguente riga all\'inizio dello script, dove importiamo già QtCore e QtGui   * 
 ```python
 import FreeCAD, Part
-``` Dopo, aggiungiamo una nuova funzione alla nostra classe Ui\_Dialog   * 
+``` Dopo, aggiungiamo una nuova funzione alla nostra classe Ui_Dialog   * 
 ```python
 def createPlane(self)   *
     try   *
@@ -179,7 +179,7 @@ QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
 
 Ora, come tocco finale, possiamo aggiungere una piccola funzione per creare il dialogo, così sarà più facile chiamarlo.
 
-Fuori dalla classe Ui\_Dialog, aggiungiamo questo codice   * 
+Fuori dalla classe Ui_Dialog, aggiungiamo questo codice   * 
 ```python
 class plane()   *
    def __init__(self)   *

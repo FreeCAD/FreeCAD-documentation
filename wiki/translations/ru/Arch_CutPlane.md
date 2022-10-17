@@ -25,14 +25,14 @@
 
 *Left   * Before applying the CutPlane tool. Middle   * resulting wall after the cut is done. Right   * yet another optional result*
 
-## Usage
+## Применение
 
 1.  Select the object to be cut, then the face (the face must be the last one you selected, and must be selected in the [3D View](3D_View.md)).
 2.  Press the **<img src="images/Arch_CutPlane.svg" width=24px> [Cut Plane](Arch_CutPlane.md)** button.
 3.  Choose if the object is cut **behind** the normal face or in**front** of the normal face.
 4.  Click the **OK** button.
 
-## Scripting
+## Программирование
 
 
 **See also   ***
@@ -98,15 +98,6 @@ cut_face2 = selection2.SubObjects[0]
 cutObj2 = Arch.cutComponentwithPlane(main_object2, cut_face2, 1)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

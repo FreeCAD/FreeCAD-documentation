@@ -42,32 +42,33 @@ L\'outil Profilé est également intégré à l\'outil [Arch Structure](Arch_Str
 
 ## Ajouter des profilés personnalisés 
 
-Un fichier CSV supplémentaire peut être créé par l\'utilisateur contenant des définitions des profilés personnalisés. Il doit être nommé `profiles.csv` et placé dans 
-```python
+Un fichier CSV supplémentaire peut être créé par l\'utilisateur contenant des définitions des profilés personnalisés. Il doit être nommé `profiles.csv` et placé dans {{Code|lang=bash|code=
 $FREECAD_USER_DIR/Arch/
-```
+}}
 
-Le `$FREECAD_USER_DIR` peut être obtenu à partir de la [console Python](Python_console/fr.md)   * 
-```python
+Le `$FREECAD_USER_DIR` peut être obtenu à partir de la [console Python](Python_console/fr.md)   * {{Code|lang=bash|code=
 FreeCAD.getUserAppDataDir()
-```
+}}
 
 Le contenu de votre fichier `profiles.csv` personnalisé doit être calqué sur les mêmes règles que les profils intégrés [profiles.csv](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) dans le code source   *
 
 Le fichier CSV doit contenir une ligne par profilé disponible est formaté comme suit   *
 
--   Pour les profilés C   * catégorie, nom, classe, diamètre, épaisseur
--   Pour les profilés H et U   * catégorie, nom, classe, largeur, hauteur, épaisseur de l\'âme, épaisseur de la semelle
--   Pour les profilés R   * catégorie, nom, classe, largeur, hauteur
--   Pour les profilés RH   * catégorie, nom, classe, largeur, hauteur, épaisseur
+-   Pour les profils C    * catégorie, nom, classe, diamètre, épaisseur
+-   Pour les profilés H, U et T    * catégorie, nom, classe, largeur, hauteur, épaisseur de l\'âme, épaisseur de la bride
+-   Pour les profilés L    * catégorie, nom, classe, largeur, hauteur, épaisseur
+-   Pour les profilés R    * catégorie, nom, classe, largeur, hauteur
+-   Pour les profilés RH    * catégorie, nom, classe, largeur, hauteur, épaisseur
 
 Toutes les mesures doivent être en millimètres. Les classes possibles de profilés sont   *
 
--   C   * tube circulaire
--   H   * profil H ou I
--   R   * rectangulaire
--   RH   * creux rectangulaire
--   U   * profil en U
+-   C    * tube circulaire
+-   H    * profil H ou I
+-   R    * rectangulaire
+-   RH    * creux rectangulaire
+-   U    * profil en U
+-   L    * profil en L
+-   T    * profil en T
 
 Des types de profils supplémentaires peuvent être créés, mais une classe correspondante doit d\'abord être définie dans [ArchProfile.py](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
 
@@ -80,14 +81,14 @@ L\'outil Profilé peut être utilisé dans une [macro](macros/fr.md) et à parti
 profile = makeProfile(profile_list)
 ```
 
-Où profile\_list contient les différents éléments d\'une liste dans le fichier CSV.
+Où profile_list contient les différents éléments d\'une liste dans le fichier CSV.
 
 Exemple   *
 
 
 ```python
 import Arch
-Arch.makeProfile([0,'REC','REC100x100','R',100,100])
+Arch.makeProfile([0, 'REC', 'REC100x100', 'R', 100, 100])
 ```
 
 Lorsque le premier élément de la liste est un numéro ordonné pas encore utilisé.

@@ -45,7 +45,7 @@ Before Version 0.19 (see fix [1](https   *//github.com/FreeCAD/FreeCAD/pull/3746
 -   If you click the tool first   * select the first point, then the symmetry reference point, and finally the second point.
 -   If you click the tool last   * select the first point, then the second point, and finally the symmetry reference point.
 
-See the tracker [issue \#4144](https   *//freecadweb.org/tracker/view.php?id=4144), and [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+See the tracker [issue #4144](https   *//freecadweb.org/tracker/view.php?id=4144), and [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
 
 ## Программирование
 

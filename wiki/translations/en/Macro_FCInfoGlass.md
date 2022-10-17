@@ -43,7 +43,7 @@ global colorize              ; colorize                      ="black" # colorize
 
 ## Examples   *
 
-Availlable    * \'\'\' \"black\" \"white\" \"red\" \"green\" \"blue\" \"yellow\" \"magenta\" \"cyan\" \'\'\'
+Availlable    * **\"black\" \"white\" \"red\" \"green\" \"blue\" \"yellow\" \"magenta\" \"cyan\"**
 
 
 <center>
@@ -201,11 +201,11 @@ the **lines 87 and 88 and SizeX SizeY** for window dimensions
 
 ## Script
 
-The icon **Macro\_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width   *64px;">
+The icon **Macro_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width   *64px;">
 
-Copy the script on Gits [**Macro\_FCInfoGlass.FCMacro**](https   *//gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
+Copy the script on Gits [**Macro_FCInfoGlass.FCMacro**](https   *//gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
 
-and copy the Macro\_FCInfoGlass.FCMacro and the icon in your macro directory.
+and copy the Macro_FCInfoGlass.FCMacro and the icon in your macro directory.
 
 ## Links
 

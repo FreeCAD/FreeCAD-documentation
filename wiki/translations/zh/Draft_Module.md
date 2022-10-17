@@ -1,5 +1,5 @@
 # Draft Module/zh
-1.  REDIRECT [Draft\_Workbench/zh](Draft_Workbench/zh.md)
+1.  REDIRECT [Draft_Workbench/zh](Draft_Workbench/zh.md)
 
 
 

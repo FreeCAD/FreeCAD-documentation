@@ -50,7 +50,7 @@ Si vous voulez réduire un objet par exemple le cube de 25,4 mm (1 pouce) en un 
 Dans un cube de 5 mm, faites **5 / 25,4 = 0,1968503** et entrez la valeur **0,1968503** (avec une virgule) dans les champs Scale free XY et Z.
 
 **50%** = **0,50** dans les champs **\"Scale free\"**
-*\' 4%*\' = **0,04** dans les champs **\"Scale free\"**
+**4%** = **0,04** dans les champs **\"Scale free\"**
 
 Les unités prédéfinies sont    * km, hm, dam, m, dm, cm, **mm**, µm, nm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 <img alt="CloneConvert" src=images/Macro_CloneConvert_01.png  style="width   *350px;">
@@ -83,7 +83,7 @@ Les unités prédéfinies sont    * km, hm, dam, m, dm, cm, **mm**, µm, nm, inc
 -   **Scale predefined**
 -   **Scale predefined    ***Les unités d\'échelle predefinies, km, hm, dam, m, dm, cm, **mm**, µm, nm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique ou choisissez une valeur libre dans les champs Scale free.
 
--   \'\'\'Number copy \'\'\'
+-   **Number copy**
 -   **Number copy    *** Nombre de copies désirées
 
 -   **Scale free**
@@ -108,9 +108,9 @@ Les unités prédéfinies sont    * km, hm, dam, m, dm, cm, **mm**, µm, nm, inc
 
 L\'icône de la macro ![](images/Macro_CloneConvert.png ) qui servira pour votre barre d\'outils
 
-**Macro\_CloneConvert.FCMacro**
+**Macro_CloneConvert.FCMacro**
 
-Téléchargez la macro sur Gist [**Macro\_CloneConvert.FCMacro**](https   *//gist.github.com/mario52a/9f2f2f6144e1307a048f1840ef99300c)
+Téléchargez la macro sur Gist [**Macro_CloneConvert.FCMacro**](https   *//gist.github.com/mario52a/9f2f2f6144e1307a048f1840ef99300c)
 
 ## Révisions
 

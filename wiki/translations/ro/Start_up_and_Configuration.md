@@ -244,7 +244,7 @@ Unele biblioteci trebuie să apeleze variabilele mediului sistemului. Uneori, at
 
 -   PYTHONPATH
 -   PYTHONHOME
--   TCL\_LIBRARY
+-   TCL_LIBRARY
 -   TCLLIBPATH
 
 
@@ -255,18 +255,18 @@ Unele biblioteci trebuie să apeleze variabilele mediului sistemului. Uneori, at
 
 </div>
 
--   CSF\_MDTVFontDirectory
--   CSF\_MDTVTexturesDirectory
--   CSF\_UnitsDefinition
--   CSF\_UnitsLexicon
--   CSF\_StandardDefaults
--   CSF\_PluginDefaults
--   CSF\_LANGUAGE
--   CSF\_SHMessage
--   CSF\_XCAFDefaults
--   CSF\_GraphicShr
--   CSF\_IGESDefaults
--   CSF\_STEPDefaults
+-   CSF_MDTVFontDirectory
+-   CSF_MDTVTexturesDirectory
+-   CSF_UnitsDefinition
+-   CSF_UnitsLexicon
+-   CSF_StandardDefaults
+-   CSF_PluginDefaults
+-   CSF_LANGUAGE
+-   CSF_SHMessage
+-   CSF_XCAFDefaults
+-   CSF_GraphicShr
+-   CSF_IGESDefaults
+-   CSF_STEPDefaults
 
 
 <div class="mw-translate-fuzzy">
@@ -329,10 +329,10 @@ Note   * For Linux distributions, an additional configuration file that relates 
 
 <div class="mw-translate-fuzzy">
 
-  Config var name    Synopsis                                                                                            Example M\$                    Example Posix (Linux)
+  Config var name    Synopsis                                                                                            Example M\$                   Example Posix (Linux)
      
-  AppHomePath        Path where FreeCAD is installed                                                                     c   */Progam Files/FreeCAD\_0.7   /user/local/FreeCAD\_0.7
-  PythonSearchPath   Holds a list of paths which python search modules. This is at startup can change during execution                                  
+  AppHomePath        Path where FreeCAD is installed                                                                     c   */Progam Files/FreeCAD_0.7   /user/local/FreeCAD_0.7
+  PythonSearchPath   Holds a list of paths which python search modules. This is at startup can change during execution                                 
 
      * User config entries
 
@@ -383,7 +383,7 @@ Aceste intrări de configurare sunt legate de mecanismul de branding al FreeCAD.
   ConsoleBanner      Banner which is prompted in console mode                                                      
   SplashPicture      Name of the Icon used for the Splash Screen                                                   \"FreeCADSplasher\"
   SplashAlignment    Alignment of the Text in the Splash dialog                                                    \"Bottom\" or \"Left\"
-  SplashTextColor    Color of the splasher Text                                                                    \"\#000000\"
+  SplashTextColor    Color of the splasher Text                                                                    \"#000000\"
   StartWorkbench     Name of the Workbench which get started automatically after Startup                           \"Part design\"
   HiddenDockWindow   List of dockwindows (separated by a semicolon) which will be disabled                         \"Property editor\"
 

@@ -80,7 +80,7 @@ Most Draft objects are planar shapes so they are naturally based on a **working 
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare <img alt="" src=images/Draft_SelectPlane.png  style="width   *32px;"> [Seleziona piano](Draft_SelectPlane/it.md). Può essere situato all\'interno della **barra degli strumenti di Draft** o nella sezione **Utilità** del *\' menu Draft*\'.
+1.  Selezionare <img alt="" src=images/Draft_SelectPlane.png  style="width   *32px;"> [Seleziona piano](Draft_SelectPlane/it.md). Può essere situato all\'interno della **barra degli strumenti di Draft** o nella sezione **Utilità** del **menu Draft**.
 2.  Selezionare il piano **XY**
 
 

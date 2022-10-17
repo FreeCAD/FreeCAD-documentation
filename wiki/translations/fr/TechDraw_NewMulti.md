@@ -1,5 +1,5 @@
 # TechDraw NewMulti/fr
-1.  REDIRECT [TechDraw\_ProjectionGroup/fr](TechDraw_ProjectionGroup/fr.md)
+1.  REDIRECT [TechDraw_ProjectionGroup/fr](TechDraw_ProjectionGroup/fr.md)
 
 
 

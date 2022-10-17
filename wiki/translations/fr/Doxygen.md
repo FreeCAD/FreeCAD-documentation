@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Doxygen est un outil populaire pour générer de la documentation à partir de sources C ++ annotées. Il prend également en charge d\'autres langages de programmation populaires tels que C\#, PHP, Java et Python. Visitez le [site Web Doxygen](http   *//www.doxygen.nl/) pour en savoir plus sur le système et consultez le [Manuel Doxygen](http   *//www.doxygen.nl/manual/index.html) pour plus d\'informations.
+Doxygen est un outil populaire pour générer de la documentation à partir de sources C ++ annotées. Il prend également en charge d\'autres langages de programmation populaires tels que C#, PHP, Java et Python. Visitez le [site Web Doxygen](http   *//www.doxygen.nl/) pour en savoir plus sur le système et consultez le [Manuel Doxygen](http   *//www.doxygen.nl/manual/index.html) pour plus d\'informations.
 
 ## Doxygen et FreeCAD 
 
@@ -880,7 +880,7 @@ Voir cette réponse dans [Stackoverflow](https   *//stackoverflow.com/a/35377654
 -   [Documentation du code source](Source_documentation/fr.md)
 -   [FreeCAD API website](https   *//www.freecadweb.org/api/)
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *3rd Party](Category_3rd_Party.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *3rd Party](Category_3rd_Party.md)
 
 
 

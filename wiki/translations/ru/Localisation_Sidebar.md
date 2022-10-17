@@ -3,7 +3,7 @@
 
 The sidebar is an important navigation tool in the wiki world, see [Manual   *Interface/Sidebar](http   *//www.mediawiki.org/wiki/Manual   *Interface/Sidebar) for more information.
 
-## Translate the sidebar 
+## Перевод боковой панели 
 
 The sidebar is now fully translatable with the [Translation extension](http   *//www.mediawiki.org/wiki/Help   *Extension   *Translate), which is available in all pages of the wiki.
 

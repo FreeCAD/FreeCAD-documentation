@@ -83,7 +83,9 @@ See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft
     -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
     -   Use the keyboard shortcut   * **D** then **I**.
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
-3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
+3.  Do one of the following   *
+    -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a first straight edge in the [3D view](3D_view.md). Repeat this to select a second straight edge.
+    -   Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
 5.  The displayed angle depends on the edges and the picked point.
 
@@ -104,7 +106,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Presiona **T** o selecciona la casilla para activar/desactivar el botón **'''Continuar'''**. Si el modo continuar está activado, podrás dibujar cotas continuas, una tras otra, que comparten la misma línea base.
 -   Presiona **ESC** o el botón **'''Cancelar'''** para abortar el comando actual.
 -   Seleccionando una arista existente con **ALT**, en lugar de introducir puntos de medición, la cota se convertirá en **paramétrica** y recordará a que arista está vinculada. Si los puntos finales de la arista se mueven posteriormente, la cota los seguirá.
--   Si se selecciona un borde antes de iniciar el comando Dimensión, la dimensión creada también será \'\' \'paramétrica\' \'\'.
+-   Si se selecciona un borde antes de iniciar el comando Dimensión, la dimensión creada también será *\'paramétrica\'*.
 -   La dirección de la dimensión se puede cambiar luego, modificando su propiedad \"Dirección\"
 
 

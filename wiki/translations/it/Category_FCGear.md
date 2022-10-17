@@ -7,7 +7,7 @@ All relevant pages to the [FCGear workbench](FCGear_Workbench/it.md) (an [extern
 
 |     |     |     |
 | --- | --- | --- |
-| [FCGear BevelGear/it](wiki/FCGear BevelGear/it.md) | [FCGear CrownGear/it](wiki/FCGear CrownGear/it.md) | [FCGear CycloideGear/it](wiki/FCGear CycloideGear/it.md) |
+| [FCGear BevelGear/it](wiki/FCGear BevelGear/it.md) | [FCGear CrownGear/it](wiki/FCGear CrownGear/it.md) | [FCGear CycloidGear/it](wiki/FCGear CycloidGear/it.md) |
 | [FCGear InvoluteGear/it](wiki/FCGear InvoluteGear/it.md) | [FCGear InvoluteRack/it](wiki/FCGear InvoluteRack/it.md) | [FCGear LanternGear/it](wiki/FCGear LanternGear/it.md) |
 | [FCGear TimingGear/it](wiki/FCGear TimingGear/it.md) | [FCGear Workbench/it](wiki/FCGear Workbench/it.md) | [FCGear WormGear/it](wiki/FCGear WormGear/it.md) |
 |

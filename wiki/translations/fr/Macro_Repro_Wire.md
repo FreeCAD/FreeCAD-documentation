@@ -27,7 +27,7 @@ Les copies sont colorées en rouge et renommées en Shapexxx + nom original
 
 l\'icône pour votre barre d\'outils ![icône pour votre barre d\'outils](images/Macro_ReproWire.png )
 
-*\' Macro\_ReproWire.FCMacro*\'
+**Macro_ReproWire.FCMacro**
 
 
 {{MacroCode|code=

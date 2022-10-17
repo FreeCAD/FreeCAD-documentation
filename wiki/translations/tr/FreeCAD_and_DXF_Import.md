@@ -31,11 +31,11 @@ Draft-dxf-importer uygulamasını kurmak için   *
 
 -   Ubuntu\'da bu normal
 
-  /home/your\_user\_name/.FreeCAD Dizin gizlidir. Görünür hale getirmek için gizliliğini kaldırmanız gerekebilir.
+  /home/your_user_name/.FreeCAD Dizin gizlidir. Görünür hale getirmek için gizliliğini kaldırmanız gerekebilir.
 
 -   Windows\'ta, (standart) makro dizininiz
 
-  C   *Users\\kullanıcı\_adınız\\AppData\\Roaming\\FreeCAD
+  C   *Users\\kullanıcı_adınız\\AppData\\Roaming\\FreeCAD
 
 
 </div>
@@ -102,7 +102,7 @@ You can also try   *
 
 For an overview of all DXF related preferences see [Import Export Preferences](Import_Export_Preferences#DXF.md).
 
-[Category   *User\_Documentation](Category_User_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *User_Documentation](Category_User_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

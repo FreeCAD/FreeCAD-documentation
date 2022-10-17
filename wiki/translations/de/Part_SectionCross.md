@@ -1,5 +1,5 @@
 # Part SectionCross/de
-1.  REDIRECT [Part\_CrossSections/de](Part_CrossSections/de.md)
+1.  REDIRECT [Part_CrossSections/de](Part_CrossSections/de.md)
 
 
 

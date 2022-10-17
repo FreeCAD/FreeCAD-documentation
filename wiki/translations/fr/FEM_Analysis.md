@@ -12,21 +12,21 @@
 
 ## Description
 
-Le module FEM ([Méthode d\'éléments finis](https   *//fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis)) peut être considéré comme un conteneur qui contient tous les composants utiles servants à l\'analyse d\'éléments finis. Il est nécessaire de posséder un conteneur qui détient tous les objets nécessaires pour l\'analyse. Au moins un des objets suivants est nécessaire pour une analyse mécanique   *
+L\'analyse FEM peut être considérée comme un conteneur qui contient tous les objets d\'une analyse par éléments finis. Il est obligatoire d\'avoir un conteneur d\'analyse qui contient tous les objets nécessaires. Au moins un des objets suivants est nécessaire pour une analyse mécanique    *
 
--   [matériau](FEM_MaterialSolid/fr.md)
--   [contrainte fixée](FEM_ConstraintFixed/fr.md)
--   [contrainte de force](FEM_ConstraintForce/fr.md) ou [contrainte de pression](FEM_ConstraintPressure/fr.md)
+-   [Matériau](FEM_MaterialSolid/fr.md)
+-   [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md)
+-   [Contrainte de force](FEM_ConstraintForce/fr.md) ou [Contrainte de pression](FEM_ConstraintPressure/fr.md)
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_Analysis.svg" width=16px> [Conteneur d'analyse](FEM_Analysis/fr.md)**.
     -   Sélectionnez l\'option **Modèle → <img src="images/FEM_Analysis.svg" width=16px> Conteneur d'analyse** dans le menu.
-    -   Utilisez le raccourci clavier   * **S** puis **A**.
-2.  Une nouvelle analyse est créée et définie sur active.
-3.  D\'autres objets peuvent être ajoutés ou retirés du conteneur d\'analyse par glisser-déposer.
-4.  Pour ajouter un nouvel objet à analyser dans le conteneur, le conteneur FEM doit être actif. Double cliquez sur l\'élément dans le conteneur permet d\'activer l\'analyse.
+    -   Utilisez le raccourci clavier    * **S** puis **A**.
+2.  Une nouvelle analyse est créée et définie comme active.
+3.  D\'autres objets peuvent être ajoutés ou retirés du conteneur de l\'analyse par glisser-déposer.
+4.  Pour ajouter de nouveaux objets FEM au document, l\'analyse doit être active. Double-cliquez sur l\'analyse pour l\'activer.
 
 ## Options
 
@@ -34,7 +34,7 @@ Le module FEM ([Méthode d\'éléments finis](https   *//fr.wikipedia.org/wiki/M
 
 ## Propriétés
 
--    **OutpuDir**   * Spécifie le répertoire de travail pour l\'analyse
+-    **OutpuDir**   * spécifie le répertoire de travail pour l\'analyse
 
 ## Script
 
@@ -63,7 +63,7 @@ member.remove( documentobject )
  App.ActiveDocument.MechanicalAnalysis.Member = member
 ```
 
-Exemples   * 
+Exemples    * 
 ```python
 import MechanicalAnalysis
 analysis = MechanicalAnalysis.makeMechanicalAnalysis("MechanicalAnalysis")

@@ -1,5 +1,5 @@
 # Surface Module/zh-hant
-1.  REDIRECT [Surface\_Workbench/zh-hant](Surface_Workbench/zh-hant.md)
+1.  REDIRECT [Surface_Workbench/zh-hant](Surface_Workbench/zh-hant.md)
 
 
 

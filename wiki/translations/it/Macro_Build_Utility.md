@@ -27,7 +27,7 @@ Build Utility lavora sugli stessi principi dei file di costruzione che vengono u
 
 La macro chiede all\'utente un \"build file\", poi lo analizza, ci sono 3 tipi di righe lecite   *
 
--   le righe che iniziano con il carattere di commento \"\#\" che sono ignorate in quanto sono commenti o osservazioni
+-   le righe che iniziano con il carattere di commento \"#\" che sono ignorate in quanto sono commenti o osservazioni
 -   le righe che iniziano con il carattere sub-file \"@\" che sono ignorate
     Nota   * il carattere \"@\" è per una futura espansione, quando verranno trattati i sub-file
 -   tutte le altre righe che possono essere di un file di progetto o di una sotto-directory
@@ -60,7 +60,7 @@ nessuno (fino ad ora)
 
 ToolBar Icon ![](images/Macro_Build_Utility.png )
 
-**Macro\_Build\_Utility.FCMacro**
+**Macro_Build_Utility.FCMacro**
 
 
 {{MacroCode|code=

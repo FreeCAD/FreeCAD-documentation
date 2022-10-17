@@ -22,8 +22,8 @@ Groupe de maillage FEM permet donc à FreeCAD d\'être utilisé avec des solveur
     -   Soit appuyez sur le bouton <img alt="" src=images/FEM_MeshGroup.svg  style="width   *24px;"> de la barre d\'outils FEM
     -   Soit sélectionnez l\'option **Maillage → <img src="images/FEM_MeshGroup.svg" width=24px> Groupe de maillage FEM** dans le menu déroulant.
 3.  Sélectionnez si le groupe est nommé ou étiqueté.
-    -   Si **Name** est sélectionné, le nom du MeshGroup est utilisé lors de l\'exportation du maillage.
-    -   Si **Label** est sélectionné, le nom de l\'étiquette spécifiée sera utilisé lors de l\'exportation du maillage.
+    -   Si **Nom** est sélectionné, le nom du MeshGroup est utilisé lors de l\'exportation du maillage.
+    -   Si **Etiquette** est sélectionné, le nom de l\'étiquette spécifiée sera utilisé lors de l\'exportation du maillage.
 4.  Cliquez sur le bouton **OK**.
 5.  Fermez la tâche.
 

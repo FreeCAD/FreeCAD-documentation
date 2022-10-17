@@ -36,11 +36,11 @@ Opis dobry
 
 Należy unikać powielania tych samych informacji w różnych miejscach. Umieść informacje na nowej stronie i łącze do tej strony z innych stron, które wymagają tych informacji.
 
-Nie używaj funkcji przechodzenia stron *([Pomoc   *Edycja\#Szablony i transkluzja stron](Help   *Editing#Templates_and_transcluding_pages.md))*, ponieważ utrudnia to tłumaczenie wiki. Używaj tylko szablonów opisanych poniżej w sekcji [\#Szablony](#Szablony.md).
+Nie używaj funkcji przechodzenia stron *([Pomoc   *Edycja#Szablony i transkluzja stron](Help   *Editing#Templates_and_transcluding_pages.md))*, ponieważ utrudnia to tłumaczenie wiki. Używaj tylko szablonów opisanych poniżej w sekcji [#Szablony](#Szablony.md).
 
 ### Stylizacja
 
-Szablony są używane do stylizacji stron pomocy. Nadają one dokumentacji spójny wygląd i sposób działania. Istnieje szablon dla poleceń menu, **Plik → Zapisz**, szablon dla klawiszy, które mają być wciśnięte, **Shift**, dla wyświetlania wartości logicznej, `True`, itd. Proszę zapoznać się z sekcją [\#Szablony](#Szablony.md) przed rozpoczęciem pisania stron pomocy.
+Szablony są używane do stylizacji stron pomocy. Nadają one dokumentacji spójny wygląd i sposób działania. Istnieje szablon dla poleceń menu, **Plik → Zapisz**, szablon dla klawiszy, które mają być wciśnięte, **Shift**, dla wyświetlania wartości logicznej, `True`, itd. Proszę zapoznać się z sekcją [#Szablony](#Szablony.md) przed rozpoczęciem pisania stron pomocy.
 
 ### Flagi tymczasowe 
 
@@ -129,7 +129,7 @@ Aby przejść do górnej części strony możesz użyć   *
 Szablon ten powinien automatycznie wyświetlać poprawny tekst w zależności od tego w jakim języku dana strona jest napisana. Link do góry strony jest szczególnie przydatny w przypadku długich stron, ponieważ pozwala użytkownikowi szybko przeskoczyć z powrotem do spisu treści. Możesz go umieścić na końcu każdego akapitu. Upewnij się, że przed i po szablonie znajduje się pusta linia.
 
 Link do obrazu
-   *   <img alt="Opcjonalny tekst, który jest wyświetlany po najechaniu kursorem na obszar obrazka\|link=Draft\_Wire/pl" src=images/Draft_Wire.svg  style="width   *24px;">.
+   *   <img alt="Opcjonalny tekst, który jest wyświetlany po najechaniu kursorem na obszar obrazka\|link=Draft_Wire/pl" src=images/Draft_Wire.svg  style="width   *24px;">.
 
 Aby użyć obrazka jako odsyłacza   *
 
@@ -149,7 +149,7 @@ Strona najwyższego poziomu powinna zaczynać się od   *
 -   Opisu do czego służy dane środowisko pracy.
 -   Obrazka ilustrującego opis.
 
-Zobacz sekcję [\#Zrzut ekranu](#Zrzut_ekranu.md) dla rozwiązań dotyczących dołączania obrazów.
+Zobacz sekcję [#Zrzut ekranu](#Zrzut_ekranu.md) dla rozwiązań dotyczących dołączania obrazów.
 
 ### Strony poleceń 
 
@@ -494,8 +494,8 @@ Przed utworzeniem nowej strony powinieneś najpierw sprawdzić, czy podobna stro
 
 Aby utworzyć nową stronę wykonaj jedną z poniższych czynności   *
 
--   Odwiedź adres URL z żądaną nazwą strony, na przykład   * https   *//wiki.freecadweb.org/Moja_nowa_strona, i kliknij na przycisk *utwórz tą stronę*.
--   Wyszukaj w Wiki nazwę strony i kliknij na czerwony tekst w \'\'Utwórz stronę **Moja nowa strona** w tej Wiki!\'.
+-   Odwiedź adres URL z żądaną nazwą strony, na przykład   * https   *//wiki.freecadweb.org/Moja_Nowa_Strona, i kliknij na przycisk *utwórz tą stronę*.
+-   Wyszukaj w Wiki nazwę strony i kliknij na czerwony tekst w \'\'Utwórz stronę **Moja Nowa Strona** w tej Wiki!\'.
 
 ### Zmiana nazwy stron 
 

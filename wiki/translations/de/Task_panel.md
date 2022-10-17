@@ -35,7 +35,7 @@ Es gibt viele Befehle, die die Auswahl von vorhandenen Formen oder Objekten aus 
 
 ## Hinweise
 
--   Benutzer, die von anderen CAD Lösungen umsteigen, die die **ESC** Taste als Teil ihres Arbeitsablaufs verwenden, können in FreeCAD andere Ergebnisse erhalten. Wenn die **ESC** Taste in FreeCAD gedrückt wird und der Aufgabenbereich im Fokus ist, wird der Aufgabenbereich automatisch verlassen. Um diese Funktion zu deaktivieren, siehe [Fine-tuning/de\#ESC Taste](Fine-tuning/de#ESC_Taste.md).
+-   Benutzer, die von anderen CAD Lösungen umsteigen, die die **ESC** Taste als Teil ihres Arbeitsablaufs verwenden, können in FreeCAD andere Ergebnisse erhalten. Wenn die **ESC** Taste in FreeCAD gedrückt wird und der Aufgabenbereich im Fokus ist, wird der Aufgabenbereich automatisch verlassen. Um diese Funktion zu deaktivieren, siehe [Fine-tuning/de#ESC Taste](Fine-tuning/de#ESC_Taste.md).
 
 ## Skripten
 

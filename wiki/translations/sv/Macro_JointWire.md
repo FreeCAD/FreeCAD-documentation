@@ -22,7 +22,7 @@ Detta makro hittar alla oanslutna kanter och kopplar ihop dem med den närmaste 
 
 ToolBar Icon ![](images/Macro_JointWire.png )
 
-**Macro\_JointWire.FCMacro**
+**Macro_JointWire.FCMacro**
 
 
 {{MacroCode|code=

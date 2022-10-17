@@ -31,12 +31,12 @@ En primer lugar, descarga e instala FreeCAD. Consulte la página [Descargar](Dow
 **Vea una explicación completa en [Interfaz](Interface/es.md).**
 
 
-   *   1\. El [área\_de\_visión\_principal](main_view_area/es.md), que puede contener diferentes ventanas con pestañas, principalmente la [vista\_3D](3D_view/es.md).
-   *   2\. La [Vista\_3D](3D_view/es.md), que muestra los objetos geométricos del documento.
-   *   3\. La [vista\_árbol](tree_view/es.md) (parte de la [Vista combo](combo_view/es.md)), mostrando la jerarquía y el historial de construcción de los objetos del documento; también puede mostrar el [panel de tareas](task_panel/es.md) para los comandos activos.
+   *   1\. El [área_de_visión_principal](main_view_area/es.md), que puede contener diferentes ventanas con pestañas, principalmente la [vista_3D](3D_view/es.md).
+   *   2\. La [Vista_3D](3D_view/es.md), que muestra los objetos geométricos del documento.
+   *   3\. La [vista_árbol](tree_view/es.md) (parte de la [Vista combo](combo_view/es.md)), mostrando la jerarquía y el historial de construcción de los objetos del documento; también puede mostrar el [panel de tareas](task_panel/es.md) para los comandos activos.
    *   4\. El [editor de propiedades](property_editor/es.md) (parte de la [Vista combo](combo_view/es.md)), que permite ver y modificar las propiedades de los objetos seleccionados.
    *   5\. La [vista de selección](selection_view/es.md), que indica los objetos o subelementos de los objetos (vértices, bordes, caras) que están seleccionados.
-   *   6\. La [vista\_de\_informe](report_view/es.md) (o ventana de salida), donde se muestran los mensajes, advertencias y errores.
+   *   6\. La [vista_de_informe](report_view/es.md) (o ventana de salida), donde se muestran los mensajes, advertencias y errores.
    *   7\. La [Consola Python](Python_console/es.md), donde se imprimen todos los comandos ejecutados, y donde se puede introducir el código [Python](Python/es.md).
    *   8\. La [barra de estado](status_bar/es.md), donde aparecen algunos mensajes y tooltips.
    *   9\. El área de la barra de herramientas, donde están acopladas las barras de herramientas.

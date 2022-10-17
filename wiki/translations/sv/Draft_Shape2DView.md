@@ -90,6 +90,8 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 -    **Exclusion Points|Vector list**   * A list of exclusion points. Any edge passing through any of those points will not be drawn. <small>(v0.20)</small> 
 
+-    **Exclusion Names|String list**   * A list of object names. Any viewed or cut child object with a name in that list will not be drawn. <small>(v1.0)</small> 
+
 ### View
 
 

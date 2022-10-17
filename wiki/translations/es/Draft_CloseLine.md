@@ -1,5 +1,5 @@
 # Draft CloseLine/es
-1.  REDIRECT [Draft\_Wire/es](Draft_Wire/es.md)
+1.  REDIRECT [Draft_Wire/es](Draft_Wire/es.md)
 
 
 

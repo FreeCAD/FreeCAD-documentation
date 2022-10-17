@@ -328,7 +328,7 @@ Un nuovo [tutorial](Arch_tutorial/it.md) di 35 pagine descrive l\'ambiente Arch 
 
 ## Lista completa 
 
-L\'elenco completo delle correzioni e delle nuove funzionalità può essere letto suhttp   *//freecadweb.org/tracker/changelog\_page.php
+L\'elenco completo delle correzioni e delle nuove funzionalità può essere letto suhttp   *//freecadweb.org/tracker/changelog_page.php
 
 [Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 

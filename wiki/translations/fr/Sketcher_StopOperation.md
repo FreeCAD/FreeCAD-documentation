@@ -21,7 +21,7 @@ Cela revient à appuyer sur la touche **Echap**.
 
 1.  Assurez-vous qu\'une [esquisse](Sketch/fr.md) est en **[<img src=images/Sketcher_EditSketch.svg style="width   *16px"> [Mode édition](Sketcher_EditSketch/fr.md)**.
 2.  Assurez-vous qu\'un outil est actif tel que **[<img src=images/Sketcher_CreatePolyline.svg style="width   *16px"> [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)**, **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width   *16px"> [Sketcher Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md)** ou **[<img src=images/Sketcher_Move.svg style="width   *16px"> [Sketcher Déplacer](Sketcher_Move/fr.md)**.
-3.  Cliquez sur **[<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [Arrêter l'opération](Sketcher_StopOperation/fr.md)** ou choisissez **Sketch → [<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [Arrêter l'opération](Sketcher_StopOperation/fr.md)** dans le menu supérieur.
+3.  Cliquez sur **[<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [Arrêter l'opération](Sketcher_StopOperation/fr.md)**.
 4.  L\'outil est désactivé et le pointeur redevient un simple pointeur.
 
 

@@ -16,7 +16,7 @@
 
 Questa macro cambia la forma del mouse in una croce di precisione.
 
-<img alt="Macro\_Mouse\_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;">
+<img alt="Macro_Mouse_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;">
 
 
 *Breve esempio di utilizzo della classe '''ViewObserver()''' e della procedura d'uso. '''[SoKeyboardEvent](Code_snippets/it#Controllare_gli_eventi_del_mouse_nel_visualizzatore_3D_tramite_Python.md)'''*
@@ -33,7 +33,7 @@ Questa macro cambia la forma del mouse in una croce di precisione.
 
 ToolBar icon ![](images/Macro_Mouse_Cross.png )
 
-**Macro\_Mouse\_Cross.FCMacro**
+**Macro_Mouse_Cross.FCMacro**
 
 
 {{MacroCode|code=

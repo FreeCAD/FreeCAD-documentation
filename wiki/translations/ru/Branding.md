@@ -33,7 +33,7 @@ Would you be interested in using FreeCAD in a closed-source application, be sure
 
 </div>
 
- {.C}
+ C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
@@ -87,7 +87,7 @@ Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_scre
 
 In FreeCAD there is also a method supported without writing a customized main() function. For this method you must write a file name called **branding.xml** and put it into the installation directory of FreeCAD. Here is an example with all supported tags   *
 
- {.XML}
+ XML
 <?xml version="1.0" encoding="utf-8"?>
 <Branding>
     <Application>FooApp</Application>

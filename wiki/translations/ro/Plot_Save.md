@@ -56,7 +56,7 @@ Selectați fila de plotare pe care doriți să o salvați și rulați acest inst
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

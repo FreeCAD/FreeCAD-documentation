@@ -31,7 +31,7 @@ Create your stair nosing, select your object and launch the macro
 
 ToolBar Icon ![](images/Macro_Stairs.png )
 
-**Macro\_Stairs.FCMacro**
+**Macro_Stairs.FCMacro**
 
 
 {{MacroCode|code=

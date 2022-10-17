@@ -15,7 +15,13 @@
 
 ## Descrizione
 
-Questo vincolo specifica lo scambio termico (film heat transfer) di una superficie a temperatura *T* e con un coefficiente di scambio termico *h* e una temperatura ambiente \'\'T~0~ \'\'. Il flusso di calore convettivo *q* è in grado di soddisfare   * ***q = h(T -T~0~)***
+
+<div class="mw-translate-fuzzy">
+
+Questo vincolo specifica lo scambio termico (film heat transfer) di una superficie a temperatura *T* e con un coefficiente di scambio termico *h* e una temperatura ambiente *T~0~*. Il flusso di calore convettivo *q* è in grado di soddisfare   * ***q = h(T -T~0~)***
+
+
+</div>
 
 ## Utilizzo
 
@@ -31,7 +37,13 @@ Questo vincolo specifica lo scambio termico (film heat transfer) di una superfic
 
 ## Note
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Il vincolo utilizza la \*FILM card in CalculiX. Il vincolo scambio termico è spiegato in <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node203.html>
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

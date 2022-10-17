@@ -28,9 +28,15 @@ Dalla versione 0.17, il Pannello Arch può anche essere usato per creare dei pro
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 -   Selezionare una forma 2D (oggetto di Draft, faccia o schizzo) - opzionale.
 -   Premere il pulsante **<img src="images/Arch_Panel.svg" width=16px> [Pannello](Arch_Panel/it.md)**, oppure premere i tasti **P** e **A**.
 -   Regolare le proprietà come desiderate.
+
+
+</div>
 
 ### Limitazioni
 
@@ -38,12 +44,18 @@ Dalla versione 0.17, il Pannello Arch può anche essere usato per creare dei pro
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Gli elementi Pannello condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md).
 -   Lo spessore di un pannello può essere regolato dopo la creazione.
 -   Premere il tasto **Esc** o **Cancel** per uscire dal corrente comando.
 -   Facendo doppio click sul pannello nella vista ad albero dopo che è stato creato consente di entrare in modalità modifica e accedere alla modifica delle sue addizioni e sottrazioni.
 -   È possibile creare automaticamente dei pannelli composti da più fogli di materiale, incrementando la sua proprietà Sheets (fogli).
 -   I Pannelli possono utilizzare i <img alt="" src=images/Arch_MultiMaterial.svg  style="width   *24px;"> [ Multi-Materiali](Arch_MultiMaterial/it.md). Quando si utilizza un multi-materiale, il pannello diventa multistrato, utilizzando gli spessori specificati nel multi-materiale. A qualsiasi strato con uno spessore pari a zero viene assegnato lo spessore definito automaticamente dallo spazio rimanente definito dal valore dello spessore del pannello meno gli altri strati.
+
+
+</div>
 
 ## Proprietà
 
@@ -67,12 +79,20 @@ Dalla versione 0.17, il Pannello Arch può anche essere usato per creare dei pro
 
 -    **Bottom Wave**   * Se l\'onda inferiore del pannello è piatta o no
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
 **Vedere anche   ***
 
 [API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+
+</div>
 
 Lo strumento Pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   * 
 ```python
@@ -93,7 +113,13 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 ## Tutorial
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial/it.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

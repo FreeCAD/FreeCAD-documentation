@@ -25,4 +25,4 @@ This tool opens a drawing sheet previously saved as an SVG (scalable vector grap
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/en

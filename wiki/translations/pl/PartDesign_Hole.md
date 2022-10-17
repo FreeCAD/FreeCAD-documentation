@@ -84,8 +84,8 @@ Typy cięcia *(typy śrub)* są zdefiniowane od wersji 0.19 w plikach [json](htt
 Plik ten powinien zawierać   *
 
 -   **nazwa**   * Nazwa definicji. Musi być ona unikalna, ponieważ będzie używana jako identyfikator w interfejsie użytkownika FreeCAD, oraz jako wewnętrzny indeks.
--   **typ\_cięcia**   * Albo `pogłębienie stożkowe` lub `pogłębienie walcowe`.
--   **typ\_gwintu**   * Albo ` metryczny ` albo ` metryczny drobnozwojowy `..
+-   **typ_cięcia**   * Albo `pogłębienie stożkowe` lub `pogłębienie walcowe`.
+-   **typ_gwintu**   * Albo ` metryczny ` albo ` metryczny drobnozwojowy `..
 -   **kąt**   * Kąt pogłębiania (nie jest konieczny dla pogłębienia walcoweego).
 -   **dane**   * Lista rozmiarowa, obejmująca   *
     -   **gwint**   * Nazwa gwintu używana w programie FreeCAD.

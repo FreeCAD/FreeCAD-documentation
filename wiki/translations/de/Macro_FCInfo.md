@@ -78,7 +78,7 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 **Sector 2   * Coordinates click mouse**
 
 -   Koordinaten X, Y und Z klicken Sie mit der Maus
--   Die Schaltfläche Erstellen auf Punkt, Achse, Ebene, Vektorachse erstellen \'\' \'FreeCAD.Vector (-24.0, 240.0, 7.0)\' \'\'
+-   Die Schaltfläche Erstellen auf Punkt, Achse, Ebene, Vektorachse erstellen *\'FreeCAD.Vector (-24.0, 240.0, 7.0)\'*
 
 
 </div>
@@ -89,7 +89,7 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 **Sector 3   * Value**
 
 -   Länge des Objekts, wenn das Objekt ein Gesichtsumfang ist, Einheitsgröße kann ausgewählt werden   *
-    km, hm, dam, m, dm, cm, \'\' \'mm\' \'\', µm, nm, pm, fm, zoll, link, fuß, hof, barsch, kette, furlong, meile, liga, nautique. Wenn das Objekt ein Kreis ist, ist eine Sekunde lineEdit offen und zeigt den Radius des Kreises an.
+    km, hm, dam, m, dm, cm, *\'mm\'*, µm, nm, pm, fm, zoll, link, fuß, hof, barsch, kette, furlong, meile, liga, nautique. Wenn das Objekt ein Kreis ist, ist eine Sekunde lineEdit offen und zeigt den Radius des Kreises an.
 -   Umfang der Form
 
 
@@ -101,7 +101,7 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 **Sector 4   * Vertexes and details**
 
 -   CheckBox für die Suche oder nicht alle Details des Objekts, wenn nicht nur der Hauptwert angezeigt wird.
--   Scheitelpunkte und Details der Form (compt\_Edge), (compt\_Faces), (compt\_Vector of the Face)
+-   Scheitelpunkte und Details der Form (compt_Edge), (compt_Faces), (compt_Vector of the Face)
     max. 200 Zeilen in der Tabelle, wenn mehr als 200 Zeilen vorhanden sind (! + 200) und die Anzahl von Zeilen
     (vollständige Details können über die Schaltfläche {{KEY | Save}} in einer Datei im CSV-Format gespeichert werden. Die Datei kann in einer Tabelle mit dem {{KEY | Read}} oder von einer externen Tabelle als angezeigt werden [LibreOffice](https   *//www.libreoffice.org/) [OpenOffice](http   *//openoffice.apache.org/downloads.html) or other)
 
@@ -120,7 +120,7 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 -   **grade**, ex   * 194.257636235 gon
 -   **pourcent** ex   * 30 ° = 57,74%
 -   Neigungen in den Ebenen XY, YZ, ZX und deren Koordinaten
--   **Richtungsobjekt**, gibt die Richtung des Objekts an. Die Berechnung lautet   * coord\_1 - coord\_2 = Richtung (oder umgekehrt)
+-   **Richtungsobjekt**, gibt die Richtung des Objekts an. Die Berechnung lautet   * coord_1 - coord_2 = Richtung (oder umgekehrt)
     -   
         **Line**
         
@@ -249,7 +249,7 @@ Nach dem Starten des Makros bleibt das Makro aktiv und das Fenster bleibt sichtb
 
 <center>
 
-Image   *Macro\_FCInfo\_04.png\|Docked to rigth, Image   *Macro FCInfo 05.png\|or left with Combo view and reachable by a tab, or not docked to the choice.
+Image   *Macro_FCInfo_04.png\|Docked to rigth, Image   *Macro FCInfo 05.png\|or left with Combo view and reachable by a tab, or not docked to the choice.
 
 
 </center>
@@ -344,8 +344,8 @@ Eine Datei kann mit der Schaltfläche **Save** erstellt werden. Die Datei wird a
 
 Kopieren Sie den Inhalt des Makros in eine Datei mit dem Namen \"FCInfo.FCMacro\".
 
--   Windows   * Das Formular lautet normalerweise \'\'\' drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \'\'\'
--   Ubuntu   * Das Formular lautet normalerweise **/home/your\_user\_name/.FreeCAD**.
+-   Windows   * Das Formular lautet normalerweise **drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\**
+-   Ubuntu   * Das Formular lautet normalerweise **/home/your_user_name/.FreeCAD**.
 
 Oder direkt in der Oberfläche von FreeCAD
 Das Symbol muss sich im selben Verzeichnis wie das Makro befinden.
@@ -356,8 +356,8 @@ Laden Sie die Bildpositionierung auf das Symbol herunter <img alt=" 64px" src=im
 
 Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
 
--   Windows   * the form is usually **\" drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
--   Ubuntu   * the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+-   Windows   * the form is usually **\" drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu   * the form is usually **\" /home/your_user_name/.FreeCAD \"**.
 
 Or, directly in the interface of FreeCAD
 The icon must be in the same directory as the macro.
@@ -378,7 +378,7 @@ gestellt
 
 <div class="mw-translate-fuzzy">
 
-Es gibt auch FCInfo\_Alternate\_Linux nur für die FreeCAD-Version 0.13 \... und PyQt4
+Es gibt auch FCInfo_Alternate_Linux nur für die FreeCAD-Version 0.13 \... und PyQt4
 
 
 <div class="mw-collapsible-content">
@@ -389,7 +389,7 @@ Es gibt auch FCInfo\_Alternate\_Linux nur für die FreeCAD-Version 0.13 \... und
 
 <div class="mw-translate-fuzzy">
 
-Es gibt auch eine [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Hier wird der Code geändert (aufgrund des Zeichenanzeigefehlers   * \'\' \'² ³ °\' \'\' Ordinalzahl nicht im Bereich (128) \"), was bei bestimmten Konfigurationen zu Problemen führte, die Funktionen sind gleich
+Es gibt auch eine [Macro_FCInfo_Alternate_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Hier wird der Code geändert (aufgrund des Zeichenanzeigefehlers   * *\'² ³ °\'* Ordinalzahl nicht im Bereich (128) \"), was bei bestimmten Konfigurationen zu Problemen führte, die Funktionen sind gleich
 Beispiel    * 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
@@ -467,7 +467,7 @@ Normalerweise beginnt die Zählung von Arrays/Listen in OpenCascade immer bei **
 ### Einschränkungen
 
 Lassen Sie immer die Taste **Exit**. Wenn man das Programm verlässt, ohne die Taste **Exit** zu durchlaufen, bleibt das Programm im Speicher und läuft weiter, und die Anzeige bleibt im \"Bericht anzeigen\". Sie müssen FreeCAD verlassen, um es aus dem Speicher zu löschen.
-In der Tabelle sind nur die ersten 200 Elemente des Objekts sichtbar, wenn das Objekt mehr als 200 Elemente enthält, wird ein Signal durch \'\'\'(! +200) \'\'\' angezeigt. Die vollständige Datenliste ist in der Datei sichtbar, die mit der Schaltfläche **Save** gespeichert wird.
+In der Tabelle sind nur die ersten 200 Elemente des Objekts sichtbar, wenn das Objekt mehr als 200 Elemente enthält, wird ein Signal durch **(! +200)** angezeigt. Die vollständige Datenliste ist in der Datei sichtbar, die mit der Schaltfläche **Save** gespeichert wird.
 
 
 </div>
@@ -562,7 +562,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 -   ver 1.16 , 21/06/2017 add control height police (here PointSize 8) and checkbox for position the window to right or left
 -   ver 1.15 , 19/12/2015 suppression PyQt4 option [see](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=13541) , add checkBox for editing infos in report view
 -   ver 1.14 , 04/08/2014 replace PyQt4 and PySide and correct tooltip not displayed cause on PySide and add fg
--   ver 1.13 , 27/07/2014 replace FCInfo\_en\_Ver\_1-12\_Docked.FCMacro to FCInfo\_en\_Ver\_1-13\_Docked.FCMacro accept PyQt4 and PySide
+-   ver 1.13 , 27/07/2014 replace FCInfo_en_Ver_1-12_Docked.FCMacro to FCInfo_en_Ver_1-13_Docked.FCMacro accept PyQt4 and PySide
 -   ver 1.12 , 10/03/2014 adding tooltip
 -   ver 1.11 , 04/03/2014 adding µm, nm, pm, fm, µg, ng, pg, pourcent, fixed of grandeur carat ~~\"cd\"~~ in **\"ct\"**, display of the label and internal name, fixed calculation of angles XY YZ ZX could give an error on a compound shape, window dockable in FreeCAD
 -   ver 1.10.b , 19/11/2013 buttons outside the scrollbar and the dimensions of the window blocking
@@ -570,7 +570,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 (ver 1.10 , 18/11/2013 create scrollbar)
 \*ver 1.08.b , 10/11/2013 translation units in English, error correction to display the area of the faces listed in the table and replacement of the\"**print**\" by \"**App.Console.PrintMessage**\"
 ~~ver 1.09 , 04/11/2013 works perfectly on Windows and Linux (cause of errors on Linux the characters    * ² ³ ° \"ordinal not in range(128)\")~~
-In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro\_FCInfo\_Alternate\_Linux](Macro_FCInfo_Alternate_Linux.md)
+In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
 \*ver 1.08 , 24/10/2013 correction of high top \"Faces\" and \"Edges\" displaying 100 objects (in the saved file)
 \*ver 1.07 , 11/10/2013 matches the \"Faces\" and their coordinates.
 \*ver 1.06 , 22/09/2013 matches the \"Edges\" and their coordinates, inclination on the element rather than the global object

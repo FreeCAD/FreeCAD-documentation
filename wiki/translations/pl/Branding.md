@@ -17,7 +17,7 @@ Jeśli jesteś zainteresowany użyciem FreeCAD w aplikacji o zamkniętym kodzie 
 
 Przeważającą część pracy przeprowadza się w **MainCmd.cpp** lub **MainGui.cpp**. Projekty te generują pliki wykonywalne FreeCAD. Aby stworzyć własną markę, wystarczy skopiować projekty **Main** lub **MainGui** i nadać plikom wykonywalnym własną nazwę, np. **FooApp.exe**. Najważniejszych ustawienia dla nowego wyglądu można dokonać w jednym miejscu w funkcji **main()**. Oto fragment kodu sterujący brandingiem   *
 
- {.C}
+ C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
@@ -71,7 +71,7 @@ Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_scre
 
 W FreeCAD istnieje również metoda obsługiwana bez pisania niestandardowych funkcji main(). Dla tej metody musisz napisać nazwę pliku o nazwie **branding.xml** i umieścić go w katalogu instalacyjnym programu FreeCAD. Oto przykład z wszystkimi obsługiwanymi znacznikami   *
 
- {.XML}
+ XML
 <?xml version="1.0" encoding="utf-8"?>
 <Branding>
     <Application>FooApp</Application>

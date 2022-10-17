@@ -1,41 +1,29 @@
 ---
 - GuiCommand   */de
    Name   *Draft ToggleContinueMode
-   Name/de   *Draft ToggleContinueMode
+   Name/de   *Draft FortsetzungsmodusUmschalten
+   MenuLocation   *Werkzeuge → In den Fortsetzungsmodus umschalten
    Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   MenuLocation   *Enwurf → Dienstprogramme → In den Fortsetzungsmodus umschalten
 ---
 
 # Draft ToggleContinueMode/de
 
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Einige Werkzeuge der Draft- und Arch-Arbeitsbereiche bieten ein Nächstes-Ankreuzkästchen, das, wenn es aktiviert ist, den Befehl neustartet, nachdem Du ihn beendet hast, so dass Du den Button nicht erneut drücken musst und schnell mehrere Objekte hintereinander erstellen kannst. Dieser Befehl de/aktiviert dieses Ankreuzkästchen für die nächsten Befehle.
+Der Befehl <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width   *24px;"> **Draft FortsetzungsmodusUmschalten** schaltet den Fortsetzungsmodus ein bzw. aus. Viele Befehle der Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md) unterstützen diesen Modus. Wenn der Fortsetzungsmodus aktiviert ist, werden sie erneut gestartet, sobald sie fertig sind. Der Fortsetzungsmodus kann auch im Aufgabenbereich dieser Befehle umgeschaltet werden, sodass dieser Befehl in der Praxis selten genutzt wird.
 
+## Anwendung
 
-</div>
+1.  Den Menüeintrag **Werkzeuge → <img src="images/Draft_ToggleContinueMode.svg" width=16px> In den Fortsetzungsmodus umschalten** auswählen.
 
-## Usage
+2.  Einen Befehl aufrufen, der diesen Modus unterstützt, wie z.B. [Draft Linie](Draft_Line/de.md) oder [Arch Wand](Arch_Wall/de.md).
 
+3.  Zum Umschalten des Fortsetzungsmodus im Aufgabenbereich des Befehls   * **T** drücken oder die Checkbox **Fortsetzen** anklicken.
 
-<div class="mw-translate-fuzzy">
+4.  Geometry erstellen.
 
-## Verwendung
-
-1.  Drücke den **<img src="images/Draft_ToggleContinueMode.png" width=16px> [In den Fortsetzungsmodus umschalten](Draft_ToggleContinueMode/de.md)**-Button
-2.  Starte einen Befehl, der ein Nächstes-Ankreuzkästche hast, wie [Draft Line/Draft Linie](Draft_Line/Draft_Linie.md) oder [Arch Wand](Arch_Wall/de.md)
-3.  Breche den Befehl ab oder drücken **ESC**, um sowohl den Befehl als auch den Fortsetzungsmodus zu verlassen.
-
-
-</div>
+5.  
+    **Esc**oder die Schaltfläche **Close** drücken, um den Befehl zu beenden und den Fortsetzungsmodus auszuschalten.
 
 
 

@@ -605,7 +605,7 @@ Part.show(arc_edge)
 
 <div class="mw-translate-fuzzy">
 
-Arc only accepts Base.Vector() for points but not tuples. arc\_edge is what we want which we can display using Part.show(arc\_edge). You can also obtain an arc by using a portion of a circle   *
+Arc only accepts Base.Vector() for points but not tuples. arc_edge is what we want which we can display using Part.show(arc_edge). You can also obtain an arc by using a portion of a circle   *
 
 
 </div>
@@ -677,12 +677,12 @@ def makeBCurveEdge(Points)   *
 
 #### Crearea unui Plan 
 
-A Plane este o suprafață simplă rectangulară. Meteoda pentru crearea unuia este aceasta   * **makePlane(length,width,\[start\_pnt,dir\_normal\])**. Implicit start\_pnt = Vector(0,0,0) and dir\_normal = Vector(0,0,1). Utilizând dir\_normal = Vector(0,0,1) va crea un plan pe axa z, în timp ce dir\_normal = Vector(1,0,0) va crea planul pe axa x   *
+A Plane este o suprafață simplă rectangulară. Meteoda pentru crearea unuia este aceasta   * **makePlane(length,width,\[start_pnt,dir_normal\])**. Implicit start_pnt = Vector(0,0,0) and dir_normal = Vector(0,0,1). Utilizând dir_normal = Vector(0,0,1) va crea un plan pe axa z, în timp ce dir_normal = Vector(1,0,0) va crea planul pe axa x   *
 
 
 </div>
 
-A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start\_pnt = Vector(0, 0, 0) and dir\_normal = Vector(0, 0, 1). Using dir\_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir\_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
+A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start_pnt = Vector(0, 0, 0) and dir_normal = Vector(0, 0, 1). Using dir_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
 
 
 ```python
@@ -705,7 +705,7 @@ BoundBox este un cuboid care înconjoară planul cu o diagonală începând de l
 
 <div class="mw-translate-fuzzy">
 
-Notă   * makePlane acceptă doar Base.Vector() pentru start\_pnt and dir\_normal dar nu și tuplele
+Notă   * makePlane acceptă doar Base.Vector() pentru start_pnt and dir_normal dar nu și tuplele
 
 
 </div>

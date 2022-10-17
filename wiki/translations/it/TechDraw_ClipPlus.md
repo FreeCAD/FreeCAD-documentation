@@ -1,5 +1,5 @@
 # TechDraw ClipPlus/it
-1.  REDIRECT [TechDraw\_ClipGroupAdd/it](TechDraw_ClipGroupAdd/it.md)
+1.  REDIRECT [TechDraw_ClipGroupAdd/it](TechDraw_ClipGroupAdd/it.md)
 
 
 

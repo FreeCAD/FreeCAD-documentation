@@ -1,11 +1,11 @@
-# <img alt="Логотип верстака Fasteners" src=images/Fasteners_workbench_icon.svg  style="width   *64px;"> Fasteners Workbench/ru
+# <img alt="Логотип верстака Стандартные изделия (Fasteners)" src=images/Fasteners_workbench_icon.svg  style="width   *64px;"> Fasteners Workbench/ru
 
 
 {{TOCright}}
 
 ## Введение
 
-[Внешний](External_workbenches/ru.md) верстак <img alt="" src=images/Fasteners_workbench_icon.svg  style="width   *24px;"> [Fasteners (Стандартные Изделия)](Fasteners_Workbench/ru.md) позволяет быстро и удобно создавать различные крепёжные изделия а также устанавливать их в посадочные места деталей.
+[Внешний](External_workbenches/ru.md) верстак <img alt="" src=images/Fasteners_workbench_icon.svg  style="width   *24px;"> [Стандартные Изделия (Fasteners)](Fasteners_Workbench/ru.md) позволяет быстро и удобно создавать различные крепёжные изделия а также устанавливать их в посадочные места деталей.
 
 ![](images/Fasteners_toolbars.png ) 
 *Внешний вид панели инструментов верстака.<br>
@@ -16,7 +16,7 @@
 
 1.  Установите верстак Fasteners через <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [менеджер дополнений](Std_AddonMgr/ru.md). В случае установки вручную ознакомьтесь с руководством по [установке дополнительных верстаков](Installing_more_workbenches/ru.md).
 2.  Перезапустите FreeCAD.
-3.  Выберете <img alt="" src=images/Fasteners_workbench_icon.svg  style="width   *24px;"> [верстак Fasteners](Fasteners_Workbench/ru.md) в [в списке доступных верстаков](Std_Workbench/ru.md).
+3.  Выберете верстак <img alt="" src=images/Fasteners_workbench_icon.svg  style="width   *24px;"> [Fasteners](Fasteners_Workbench/ru.md) в [в списке доступных верстаков](Std_Workbench/ru.md).
 4.  При необходимости настройте панель инструментов и расположение меню   *
     1.  Перейдите в меню   * **Правка → Настройки... → Fasteners → Основные настройки → Toolbar screw icons grouping**.
     2.  Выберите один из доступных вариантов   *
@@ -40,7 +40,7 @@
 
 Крепёжные элементы могут быть прикреплены к посадочному месту или не прикреплены. У прикрепленныех крепёжных изделий в свойстве **base Object**, указанно ребро круглой формы к которому прикреплено изделие, следовательно свойство **Placement** динамический связано с этим ребом. Команда <img alt="" src=images/Fasteners_Move.svg  style="width   *16px;"> [Перемещения крепежа](Fasteners_Move/ru.md) может быть использована для прикрепления или отсоединения крепежа.
 
-### Создание крепёжных изделий без их крепления к чему либо 
+### Добавление изделий без их крепления к чему либо 
 
 1.  Select the desired fastener by clicking its button or by picking it from the menu.
 2.  A fastener is created at the origin.
@@ -49,7 +49,7 @@
     2.  Go to the **Data** tab of the [Property editor](Property_editor.md).
     3.  Change the required properties.
 
-### Создание крепёжных изделий с креплением к посадочным местам 
+### Добавление изделий с креплением к посадочным местам 
 
 <img alt="" src=images/Fasteners_Attached_Selected.png  style="width   *200px;"> <img alt="" src=images/Fasteners_Attached_Created.png  style="width   *200px;"> 
 *Слева в посадочных местах выбрано две грани круглой формы. Справа крепёжные изделия установленны в указанные места.*
@@ -65,16 +65,16 @@
 
 ## Примечания
 
--   Чтобы крепеж имел резьбу его свойство **thread** должно быть установлено как `True`. Создание резьбы поглощает много ресурсов. Обновление трехмерного Вида (Recompute) занимает гораздо больше времени, если в документе много крепёжных изделий с резьбой.
+-   Если вы хотите, чтобы крепеж имел реалистичную резьбу (по умолчанию при добавлении крепежа резьба на нем не строится) его свойство **thread** должно быть установлено как `True`. Создание такой резьбы поглощает много ресурсов. Перерасчет трехмерного Вида (Recompute) занимает гораздо больше времени, если в документе много крепёжных изделий с реалистичной резьбой.
 -   Свойства **invert** и **offset** игнорируются для крепёжных изделий которые не установлены в посадочные места.
 
 ## Команды
 
--   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Invert fastener (Перевернуть крепёж)](Fasteners_Flip/ru.md)   * Обращает ориентацию уже установленного крепежа на противоположную.
+-   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Перевернуть крепёж](Fasteners_Flip/ru.md)   * Обращает ориентацию уже установленного крепежа на противоположную.
 
--   <img alt="" src=images/Fasteners_Move.svg  style="width   *32px;"> [Move fastener (Переместить крепёж)](Fasteners_Move/ru.md)   * Перемещает и устанавливает крепёж в указанную грань круглой формы. Может также использоваться для отсоединения крепёжа.
+-   <img alt="" src=images/Fasteners_Move.svg  style="width   *32px;"> [Переместить крепёж](Fasteners_Move/ru.md)   * Перемещает и устанавливает крепёж в указанную грань круглой формы. Может также использоваться для отсоединения крепёжа.
 
--   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Simplify shape (Создать непараметрическую копию)](Fasteners_Shape/ru.md)   * Создает непараметрическую копию объекта (стандартного изделия).
+-   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Создать непараметрическую копию](Fasteners_Shape/ru.md)   * Создает непараметрическую копию объекта (стандартного изделия).
 
 -   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *32px;"> [Match for tap hole (Установить винты/болты в указанные места)](Fasteners_MatchTypeInner/ru.md)   * По диаметру выбранных ребер отверстий, автоматический подбирает крепёж по размеру в соответствии со стандартами и прикрепляет его к этим посадочным местам.
 
@@ -86,13 +86,13 @@
 
 </div>
 
--   <img alt="" src=images/Fasteners_BOM.svg  style="width   *32px;"> [Generate BOM (Спецификация)](Fasteners_BOM/ru.md)   * Создает электронную таблицу со спецификацией крепежных элементов имеющихся в документе.
+-   <img alt="" src=images/Fasteners_BOM.svg  style="width   *32px;"> [Спецификация](Fasteners_BOM/ru.md)   * Создает электронную таблицу со спецификацией крепежных элементов имеющихся в документе.
 
--   <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *32px;"> [Screw calculator (Подбор диаметра сверла под резьбу)](Fasteners_ScrewCalculator/ru.md)   * Открывает калькулятор для определения размера отверстия под резьбу определенного диаметра.
+-   <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *32px;"> [Калькулятор отверстия под резьбу](Fasteners_ScrewCalculator/ru.md)   * Открывает калькулятор для определения размера отверстия под резьбу определенного диаметра.
 
--   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width   *32px;"> [Make countersunk (Зенкование)](Fasteners_ChamferHole/ru.md)   * Зенковать отверстия (добавить фаску) для крепежа с потайной головкой.
+-   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width   *32px;"> [Зенкование](Fasteners_ChamferHole/ru.md)   * Зенковать отверстия (добавить фаску) для крепежа с потайной головкой.
 
--   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Change fastener parameters (Изменить параметры изделия)](Fasteners_ChangeParameters/ru.md)   * Изменить параметры стандартных изделий.
+-   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Изменить параметры крепежа](Fasteners_ChangeParameters/ru.md)   * Изменить параметры стандартных изделий.
 
 ## Крепёжные изделия 
 

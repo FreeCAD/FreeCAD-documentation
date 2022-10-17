@@ -38,7 +38,7 @@ A l\'heure où j\'écris ceci l\'atelier [Arch](Arch_Workbench/fr.md) comme le r
 
 -   Support préliminaire de [IFC](http   *//fr.wikipedia.org/wiki/Industry_Foundation_Classes). Vous pouvez dès à présent [importer des fichiers IFC](Arch_IFC/fr.md), tout à fait sûrement, si [IfcOpenShell](http   *//ifcopenshell.org) est installé sur votre système, mais l\'exportation n\'est toujours pas officiellement supportée. Ceci est en cours de développement des deux côtés des promoteurs de FreeCAD et d\'IfcOpenShell, et à l\'avenir nous pouvons nous attendre à un support complet d\'IFC.
 
--   La plupart des outils Arch sont encore en développement. Cela signifie que les outils \"magiques\" qui créent des géométries complexes automatiquement, comme [Toiture](Arch_Roof/fr.md) ou [Escaliers](Arch_Stairs/fr.md) ne peuvent créer que certains types d\'objets, et que les outils qui ont des pré-réglages, comme [Arch\_Structure](Arch_Structure/fr.md) ou [Arch\_Window](Arch_Window/fr.md), n\'ont que quelques pré-réglages disponibles. Ceux ci devraient s'étoffer au fil du temps bien sûr.
+-   La plupart des outils Arch sont encore en développement. Cela signifie que les outils \"magiques\" qui créent des géométries complexes automatiquement, comme [Toiture](Arch_Roof/fr.md) ou [Escaliers](Arch_Stairs/fr.md) ne peuvent créer que certains types d\'objets, et que les outils qui ont des pré-réglages, comme [Arch_Structure](Arch_Structure/fr.md) ou [Arch_Window](Arch_Window/fr.md), n\'ont que quelques pré-réglages disponibles. Ceux ci devraient s'étoffer au fil du temps bien sûr.
 
 -   [Les unités](Units/fr.md) sont en cours d'implémentation dans FreeCAD, ce qui vous permettra de travailler avec n\'importe quelles unités que vous souhaitez (même les unités impériales, à ce sujet vous pouvez être éternellement reconnaissant envers Jürgen, le parrain et initiateur de FreeCAD). Mais pour le moment l\'atelier [Architecture](Arch_Workbench/fr.md) ne les supporte toujours pas. Vous devez le considérer « sans unités ».
 
@@ -461,13 +461,13 @@ C\'est une autre tâche très importante qui doit être réalisée dans un modè
 
 **Utiliser les tableurs**
 
-Pour remplir une feuille de calcul avec les valeurs extraites du modèle, l\'outil Arch\_Schedule peut être utilisé.
+Pour remplir une feuille de calcul avec les valeurs extraites du modèle, l\'outil Arch_Schedule peut être utilisé.
 
 ![](images/Arch_schedule_example03.jpg )
 
 **Le mode relevé**
 
-Une autre manière d\'examiner votre modèle et d\'extraire des valeurs, est d\'utiliser le mode [Arch\_Survey](Arch_Survey/fr.md). Dans ce mode, vous pouvez cliquer sur des points, des bords, des faces ou le double-cliquer pour choisir les objets entiers, et vous obtenez respectivement l\'affichage dans le modèle de l\'altitude, la longueur, l\'aire ou le volume. De plus la valeur est copiée dans le presse-papiers, ainsi vous pouvez facilement sélectionner et coller des valeurs dans une autre application ouverte.
+Une autre manière d\'examiner votre modèle et d\'extraire des valeurs, est d\'utiliser le mode [Arch_Survey](Arch_Survey/fr.md). Dans ce mode, vous pouvez cliquer sur des points, des bords, des faces ou le double-cliquer pour choisir les objets entiers, et vous obtenez respectivement l\'affichage dans le modèle de l\'altitude, la longueur, l\'aire ou le volume. De plus la valeur est copiée dans le presse-papiers, ainsi vous pouvez facilement sélectionner et coller des valeurs dans une autre application ouverte.
 
 <img alt="" src=images/Arch_tutorial_54.jpg  style="width   *1024px;">
 

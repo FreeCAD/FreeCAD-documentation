@@ -1,5 +1,5 @@
 # Spreadsheet legacy
-1.  REDIRECT [Spreadsheet\_Workbench](Spreadsheet_Workbench.md)
+1.  REDIRECT [Spreadsheet_Workbench](Spreadsheet_Workbench.md)
 
 
 

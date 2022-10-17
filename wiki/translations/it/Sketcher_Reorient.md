@@ -1,5 +1,5 @@
 # Sketcher Reorient/it
-1.  REDIRECT [Sketcher\_ReorientSketch/it](Sketcher_ReorientSketch/it.md)
+1.  REDIRECT [Sketcher_ReorientSketch/it](Sketcher_ReorientSketch/it.md)
 
 
 

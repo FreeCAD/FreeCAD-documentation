@@ -22,7 +22,7 @@ Ta makrodefinicja pozwala znaleźć i połączyć wszystkie niepołączone kraw�
 
 Ikonka paska narzędzi ![](images/Macro_JointWire.png )
 
-**Macro\_JointWire.FCMacro**
+**Macro_JointWire.FCMacro**
 
 
 {{MacroCode|code=

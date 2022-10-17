@@ -34,10 +34,6 @@ The Draft module features a construction mode, which allows to draw certain obje
 
 </div>
 
-## Bug in version 0.19 
-
-In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddConstruction.md) command will typically use different groups. To avoid this change the **Construction group name** in the preferences to {{Value|Draft_Construction}}   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**. In version 0.20 the **Construction group name** is used for the label of the construction group, the name of the group is always {{Value|Draft_Construction}}.
-
 ## Usage
 
 1.  There are several ways to invoke the command   *
@@ -52,7 +48,7 @@ In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddCo
 
 ## Preferences
 
--   To change the label (<small>(v0.20)</small> ) of the construction group   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
+-   To change the label of the construction group   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
 -   To change the color that is used   * **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
 
 

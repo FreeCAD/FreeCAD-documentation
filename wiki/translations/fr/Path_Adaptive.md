@@ -38,7 +38,7 @@ Les instructions d\'utilisation pour l\'opération [Adaptation](Path_Adaptive/fr
 
 ## Propriétés
 
-\'\'\' *Remarque* \'\'\'   * les noms de certaines propriétés de cette liste diffèrent un peu des mêmes paramètres que ceux utilisés dans l\'éditeur de fenêtre de tâche.
+***Remarque***   * les noms de certaines propriétés de cette liste diffèrent un peu des mêmes paramètres que ceux utilisés dans l\'éditeur de fenêtre de tâche.
 
 
 {{TitleProperty|Adaptive}}
@@ -219,7 +219,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 ## Ressources
 
--   Page GitHub de l\'auteur pour le projet d\'origine   * [kreso-t/FreeCAD\_Mod\_Adaptive\_Path](https   *//github.com/kreso-t/FreeCAD_Mod_Adaptive_Path).
+-   Page GitHub de l\'auteur pour le projet d\'origine   * [kreso-t/FreeCAD_Mod_Adaptive_Path](https   *//github.com/kreso-t/FreeCAD_Mod_Adaptive_Path).
 -   Sujet actif dans les forums FreeCAD pour l\'opération Adaptive de chemin   * [Adaptive Path/CAM Operation](https   *//forum.freecadweb.org/viewtopic.php?f=15&t=30127).
 
 

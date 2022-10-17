@@ -1,16 +1,7 @@
 # Pivy/it
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Grafo di scena](Scenegraph/it.md)|[PySide](PySide/it.md)}}
-
-
-</div>
-
-
 {{TOCright}}
 
-## Introduction
+## Introduzione
 
 
 <div class="mw-translate-fuzzy">
@@ -263,7 +254,7 @@ SoFile.getClassId()
 
 ### Older
 
-These links provide reference documentation for Coin v3.x. The differences with v4.x are minimal, so they may still be useful.
+Questi collegamenti forniscono documentazione di riferimento per Coin v3.x. Le differenze con v4.x sono minime, quindi potrebbero essere comunque utili.
 
 -   [Coin3D Documentation](https   *//coin3d.bitbucket.io/Coin/index.html), at BitBucket.
 -   [Coin3D Documentation](https   *//grey.colorado.edu/coin3d/index.html), at University of Colorado.
@@ -273,13 +264,7 @@ These links provide reference documentation for Coin v3.x. The differences with 
 {{Top}}
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/it|[Grafo di scena](Scenegraph/it.md)|[PySide](PySide/it.md)}}
-
-
-</div>
 
 
 

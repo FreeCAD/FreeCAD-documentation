@@ -1,7 +1,7 @@
 # Category:Web
 This category lists pages that relate to the [Web Workbench](Web_Workbench.md).
 
-[Category   *Workbenches](Category_Workbenches.md) [Category   *User\_Documentation](Category_User_Documentation.md)
+[Category   *Workbenches](Category_Workbenches.md) [Category   *User_Documentation](Category_User_Documentation.md)
 
 ### Contents
 

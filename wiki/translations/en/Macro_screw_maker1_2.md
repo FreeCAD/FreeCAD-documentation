@@ -25,7 +25,7 @@ If you select a circle on a hole, or alternatively the inner surface of a circul
 
 <center>
 
-<File   *Macro_screw_maker_02.png%7CInterface> of **screw\_maker** and a few types of screws. <File   *Macro_screw_maker_03.png%7CA> screw with thread
+<File   *Macro_screw_maker_02.png%7CInterface> of **screw_maker** and a few types of screws. <File   *Macro_screw_maker_03.png%7CA> screw with thread
 
 
 </center>
@@ -38,7 +38,7 @@ The lastest version of the macro is to be found at [ScrewMaker.FCMacro](https   
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 
-**Macro\_screw\_maker\_2.FCMacro**
+**Macro_screw_maker_2.FCMacro**
 
 
 {{MacroCode|code=

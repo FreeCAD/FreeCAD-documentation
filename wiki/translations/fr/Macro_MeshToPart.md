@@ -18,7 +18,7 @@ Cette macro convertit les objets Mesh sélectionnés en objets Part. Il a une gr
 
 ToolBar Icon ![](images/Macro_MeshToPart.png )
 
-**Macro\_MeshToPart.FCMacro**
+**Macro_MeshToPart.FCMacro**
 
 
 {{MacroCode|code=

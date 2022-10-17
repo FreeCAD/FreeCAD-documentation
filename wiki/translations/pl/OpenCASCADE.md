@@ -77,7 +77,7 @@ Zatem z kształtów można budować bardzo złożone części lub, odwrotnie, wy
 -   OCCT [najnowsze wydanie](https   *//www.opencascade.com/content/latest-release)
 -   OCCT [repozytorium git](https   *//git.dev.opencascade.org/gitweb/?p=occt.git)
 -   OpenCASCADE Community Edition (OCE) [repozytorium git](https   *//github.com/tpaviot/oce)
--   w Wikipedii [http   *//en.wikipedia.org/wiki/Open\_Cascade\_Technology Open Cascade Technology OCCT](http   *//en.wikipedia.org/wiki/Open_Cascade_Technology_Open_Cascade_Technology_OCCT.md)
+-   w Wikipedii [http   *//en.wikipedia.org/wiki/Open_Cascade_Technology Open Cascade Technology OCCT](http   *//en.wikipedia.org/wiki/Open_Cascade_Technology_Open_Cascade_Technology_OCCT.md)
 -   Słownik pojęć, [Open CASCADE](Glossary/pl#Open_CASCADE.md)
 -   Śledzenie błędów OCCT w bugtrackerze programu FreeCAD [*(wątek)*](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=20264)
 

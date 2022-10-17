@@ -1,16 +1,13 @@
 ---
 - GuiCommand   */ru
    Name   *Arch CompRebarStraight
-   Name/ru   *Arch CompRebarStraight
+   Name/ru   *Инструменты армирования
    MenuLocation   *Arch → Rebar tools
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Version   *0.17
 ---
 
 # Arch CompRebarStraight/ru
-
-
-</div>
 
 ## Описание
 
@@ -24,36 +21,27 @@ Back to [Workbenches](Workbenches#External_workbenches.md) / [External Workbench
 
 ## Типы арматуры 
 
--   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width   *32px;"> [Straight Rebar](Arch_Rebar_Straight.md)   * Creates a straight reinforcement bar in a selected structural element.
+-   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width   *32px;"> [Прямая арматура](Arch_Rebar_Straight/ru.md)   * Создает прямой арматурный стержень в выбранном структурном элементе.
 
--   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width   *32px;"> [U-Shape Rebar](Arch_Rebar_UShape.md)   * Creates a U-shape reinforcement bar in a selected structural element.
+-   <img alt="" src=images/Arch_Rebar_UShape.png  style="width   *32px;"> [U-Образная арматура](Arch_Rebar_UShape/ru.md)   * Создает U-образный арматурный стержень в выбранном структурном элементе.
 
--   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width   *32px;"> [L-Shape Rebar](Arch_Rebar_LShape.md)   * Creates an L-shape reinforcement bar in a selected structural element.
+-   <img alt="" src=images/Arch_Rebar_LShape.png  style="width   *32px;"> [L-Образная арматура](Arch_Rebar_LShape/ru.md)   * Создает L-образный арматурный стержень в выбранном структурном элементе.
 
--   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width   *32px;"> [Stirrup Rebar](Arch_Rebar_Stirrup.md)   * Creates a stirrup reinforcement bar in a selected structural element.
+-   <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width   *32px;"> [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md)   * Создает кольцевой арматурный стержень в выбранном структурном элементе.
 
--   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width   *32px;"> [Bent-Shape Rebar](Arch_Rebar_BentShape.md)   * Creates a bent-shape reinforcement bar in a selected structural element.
+-   <img alt="" src=images/Arch_Rebar_BentShape.png  style="width   *32px;"> [Изогнутая арматура](Arch_Rebar_BentShape/ru.md)   * Создает изогнутый арматурный стержень в выбранном структурном элементе.
 
--   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width   *32px;"> [Helical Rebar](Arch_Rebar_Helical.md)   * Creates a helical reinforcement bar in a selected structural element.
+-   <img alt="" src=images/Arch_Rebar_Helical.png  style="width   *32px;"> [Спиральная арматура](Arch_Rebar_Helical/ru.md)   * Создает спиральный арматурный стержень в выбранном структурном элементе.
 
--   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width   *32px;"> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)   * Creates reinforcement bars in a selected rectangular column.
+-   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width   *32px;"> [Армировать колонну](Arch_Rebar_ColumnReinforcement/ru.md)   * Добавляет арматуру внутрь указанной прямоугольной колонны.
 
--   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width   *32px;"> [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md)   * Creates reinforcement bars in a selected beam.
+-   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width   *32px;"> [Армировать балку](Arch_Rebar_BeamReinforcement/ru.md)   * Добавляет арматуру внутрь указанной балки.
 
--   <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width   *32px;"> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md)   * Creates reinforcement bars in a selected slab.
+-   <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width   *32px;"> [Армировать плиту](Arch_Rebar_Slab_Reinforcement/ru.md)   * Добавляет арматуру внутрь указанной плиты.
 
--   <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width   *32px;"> [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md)   * Creates reinforcement bars inside a selected footing.
+-   <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width   *32px;"> [Армировать фундамент](Arch_Rebar_Footing_Reinforcement/ru.md)   * Добавляет арматуру в указанный фундамент.
 
--   <img alt="" src=images/Arch_Rebar.svg  style="width   *32px;"> [Custom Rebar](Arch_Rebar.md)   * Creates a custom reinforcement bar in a selected structural element using a sketch.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   <img alt="" src=images/Arch_Rebar.svg  style="width   *32px;"> [Арматура по эскизу](Arch_Rebar/ru.md)   * Создает арматурный стержень в выбранном элементе конструкции по эскизу.
 
 
 

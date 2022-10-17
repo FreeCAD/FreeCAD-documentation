@@ -66,7 +66,6 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 -   To manually enter the coordinates for the base point enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   The other checkboxes in this task panel, displayed in FreeCAD version 0.19 and earlier, are ignored by the command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press the **Close** button to abort the command.
 
@@ -82,18 +81,12 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   Tre opzioni controllano il risultato dell\'operazione di ridimensionamento   *
     -   Crea un clone. Viene creato un [Clone](Draft_Clone/it.md) dell\'oggetto originale. Questo funziona per tutti i tipi di oggetto.
 
-   *   ***Nota   *** anche se i fattori di scala vengono lasciati ai valori predefiniti (1.0, 1.0, 1.0), un clone può essere modificato manualmente editando i fattori nell\'[editor delle proprietà](property_editor/it.md).
-
-   ** Modifica l\'originale. Modifica le dimensioni dell\'oggetto originale. Funziona solo con oggetti Draft e forme di Part non parametriche.
-
-   ** Crea una copia. Viene creata una copia ridimensionata dell\'oggetto originale. Questo funziona per tutti i tipi di oggetto, ma solo le copie degli oggetti Draft sono parametriche.
-
    *   
 
        *   
         **Nota   ***
         
-        una copia è un oggetto completamente diverso, indipendente dalla forma originale; viene creato nella scala specificata e quindi ha il proprio set di proprietà. Invece, un [Clone](Draft_Clone/it.md) è collegato alla forma originale e l\'unica proprietà che può essere modificata è la scala.
+        anche se i fattori di scala vengono lasciati ai valori predefiniti (1.0, 1.0, 1.0), un clone può essere modificato manualmente editando i fattori nell\'[editor delle proprietà](property_editor/it.md).
 
 
 </div>
@@ -107,7 +100,6 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 See also   * [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
 -   To change the number of decimals used for the input of scale factors (<small>(v0.20)</small> ) and coordinates   * **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the number of decimals used for the input of scale factors ({{VersionMinus|0.19}})   * **Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level**.
 -   To reselect the base objects after copying objects   * **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting

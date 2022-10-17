@@ -36,7 +36,7 @@ Per trovare il raggio corretto dovrai fare alcune prove. Dipende dalla lunghezza
 
 Icona per la barra degli utensili ![](images/Hilbert_curve_icon.png )
 
-**Macro\_HilbertCurve.FCMacro**
+**Macro_HilbertCurve.FCMacro**
 
 
 {{MacroCode|code=

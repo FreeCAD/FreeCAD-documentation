@@ -19,7 +19,7 @@ Use this macro to manage visibility of document objects either by type or indivi
 
 ToolBar icon  ![](images/Macro_Visibility_Manager.png )
 
-**Macro\_Visibility\_Manager.FCMacro**
+**Macro_Visibility_Manager.FCMacro**
 
 
 {{MacroCode|code=

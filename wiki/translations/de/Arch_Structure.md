@@ -1,16 +1,14 @@
 ---
 - GuiCommand   */de
-   Name   *Arch_Structure   Name/de   *Bauelement
-   MenuLocation   *Architektur → Struktur
+   Name   *Arch Structure
+   Name/de   *Arch Struktur
+   MenuLocation   *Arch → Strukturwerkzeug → Struktur
    Workbenches   *[Arch](Arch_Workbench/de.md)
    Shortcut   ***S** **T**
-   SeeAlso   *[Wand](Arch_Wall/de.md), [Arch Rebar](Arch_Rebar/de.md)
+   SeeAlso   *[Arch Wand](Arch_Wall/de.md), [Arch Bewehrung](Arch_Rebar/de.md)
 ---
 
 # Arch Structure/de
-
-
-</div>
 
 ## Beschreibung
 

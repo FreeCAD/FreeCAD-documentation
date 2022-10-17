@@ -133,7 +133,7 @@ Vom plasa cote și indicații pe desenul nostru. Există două moduri de a adău
 <div class="mw-translate-fuzzy">
 
 -   Instrumentul Dimensiune liniară, ca și în cazul majorității celorlalte instrumente de cotare a desenului, nu va ieși după ce ați terminat, permițându-vă să plasați mai multe dimensiuni. Când ați terminat, faceți clic pur și simplu pe butonul **Close** în Task panel.
--   Repetați operația, până când sunt plasate toate dimensiunile pe care doriți să le indicați. Faceți un minut pentru a căuta diferitele opțiuni propuse în panoul de sarcini Dimensiunile liniare. De exemplu, prin decuplarea opțiunii \'\'\' auto place text \'\'\', veți putea plasa textul cotei în altă parte, ca în imaginea de mai jos   *
+-   Repetați operația, până când sunt plasate toate dimensiunile pe care doriți să le indicați. Faceți un minut pentru a căuta diferitele opțiuni propuse în panoul de sarcini Dimensiunile liniare. De exemplu, prin decuplarea opțiunii **auto place text**, veți putea plasa textul cotei în altă parte, ca în imaginea de mai jos   *
 
 
 </div>

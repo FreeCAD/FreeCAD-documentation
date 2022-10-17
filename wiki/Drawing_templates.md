@@ -13,7 +13,7 @@ Creating templates for the Drawing module is very easy. See also the tutorial [D
 
 
 
- {.html}
+ html
 width="1067mm"
 height="762mm"
 
@@ -24,7 +24,7 @@ or
 
 
 
- {.html}
+ html
 width="1067"
 height = "762"
 
@@ -35,14 +35,14 @@ Although svg supports inches (\"42 in\"), these are currently not supported by F
 
 
 
- {.html}
+ html
 viewBox="0 0 1067 762"
 
 -   You must insert, somewhere inside your svg code, where you want the contents of the drawing to appear (for example at the end of the file, just before the last</svg>tag), the following line   *
 
 
 
- {.html}
+ html
 
 
 
@@ -64,7 +64,7 @@ To define the Border, the following line must appear before the  tag in the svg 
 
 
 
- {.html}
+ html
 
 
 
@@ -83,7 +83,7 @@ To define the Title block the following line must be inserted before the  tag an
 
 
 
- {.html}
+ html
 
 
 
@@ -104,7 +104,7 @@ The following is an example of the code that defines the Working space and Title
 
 
 
- {.html}
+ html
 
 
 
@@ -120,7 +120,7 @@ The following is to be formatted like the example below where   *
 
 
 
- {.html}
+ html
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -241,4 +241,4 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates

@@ -14,7 +14,7 @@ Questa pagina elenca i componenti aggiuntivi esterni che hanno una pagina in que
 | [Curves Workbench/it](wiki/Curves Workbench/it.md) | [Defeaturing Workbench/it](wiki/Defeaturing Workbench/it.md) | [Defeaturing/it](wiki/Defeaturing/it.md) |
 | [Drawing Dimensioning Addon/it](wiki/Drawing Dimensioning Addon/it.md) | [DynamicData Workbench/it](wiki/DynamicData Workbench/it.md) | [External workbenches/it](wiki/External workbenches/it.md) |
 | [Fasteners Workbench/it](wiki/Fasteners Workbench/it.md) | [FCGear BevelGear/it](wiki/FCGear BevelGear/it.md) | [FCGear CrownGear/it](wiki/FCGear CrownGear/it.md) |
-| [FCGear CycloideGear/it](wiki/FCGear CycloideGear/it.md) | [FCGear InvoluteGear/it](wiki/FCGear InvoluteGear/it.md) | [FCGear InvoluteRack/it](wiki/FCGear InvoluteRack/it.md) |
+| [FCGear CycloidGear/it](wiki/FCGear CycloidGear/it.md) | [FCGear InvoluteGear/it](wiki/FCGear InvoluteGear/it.md) | [FCGear InvoluteRack/it](wiki/FCGear InvoluteRack/it.md) |
 | [FCGear LanternGear/it](wiki/FCGear LanternGear/it.md) | [FCGear TimingGear/it](wiki/FCGear TimingGear/it.md) | [FCGear Workbench/it](wiki/FCGear Workbench/it.md) |
 | [FCGear WormGear/it](wiki/FCGear WormGear/it.md) | [Flamingo Workbench/it](wiki/Flamingo Workbench/it.md) | [How to install additional workbenches/it](wiki/How to install additional workbenches/it.md) |
 | [KicadStepUp Workbench/it](wiki/KicadStepUp Workbench/it.md) | [Lattice2 Workbench/it](wiki/Lattice2 Workbench/it.md) | [Macro Kerkythea/it](wiki/Macro Kerkythea/it.md) |

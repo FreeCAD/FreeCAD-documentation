@@ -1,20 +1,21 @@
 ---
-- GuiCommand   *
-   Name   *Arch Rebar Straight
+- GuiCommand   */ru
+   Name/ru   *Прямая арматура
+   Name   *Arch_Rebar_Straight
    MenuLocation   *Arch → Rebar tools → Straight Rebar<br>3D/BIM → Reinforcement tools → Straight Rebar
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar BOM](Arch_Rebar_BOM.md)
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Arch Rebar BOM](Arch_Rebar_BOM/ru.md)
 ---
 
 # Arch Rebar Straight/ru
 
-## Description
+## Описание
 
 
 <div class="mw-translate-fuzzy">
 
-## Описание
+## Описание 
 
 Инструмент [Straight Rebar](Arch_Rebar_Straight/ru.md) позволяет создавать набор прямых арматурных стержней внутри объектов [архитектурных структур](Arch_Structure/ru.md).
 
@@ -64,7 +65,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Spacing**   * The distance between the axes of each bar.
 
-## Scripting
+## Программирование
 
 
 **See also   ***
@@ -211,13 +212,7 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

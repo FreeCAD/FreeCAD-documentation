@@ -1,7 +1,4 @@
 # Macro FCInfo ToolBar/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro
 |Name=Macro FCCInfo ToolBar
 |Icon=FCInfoToolBar.png
@@ -10,12 +7,9 @@
 |Version=00.03
 |Date=2022/03/29
 |FCVersion=0.18 and more
-|Download= [https   *//wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
-|SeeAlso = [Arch Survey](Arch_Survey/it.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo/it.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass/it.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
+|Download=[https   *//wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
+|SeeAlso=[Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -44,13 +38,7 @@ L\'unità delle dimensione può essere selezionata   * km, hm, dam, m, dm, cm, m
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
-Le opzioni si trovano nel parametro di FreeCAD
-
-
-</div>
+Le opzioni si trovano nel parametro di FreeCAD   *
 
 *Menu → Strumenti → Modifica parametri \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar*
 
@@ -170,17 +158,11 @@ esempio   *
 
 #### nella directory Mod 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Dopo aver installato la macro con AddonManager
+1.  Dopo aver installato la macro con [Addon Manager](Std_AddonMgr/it.md)
 2.  Creare la directory *FCInfo_ToolBar*.
 3.  Copiare la macro FCInfo_ToolBar.FCMacro (copiare non spostare) nella directory *FCInfo_ToolBar* e rinominarla in FCInfo_ToolBar.py
 4.  Creare un file chiamato InitGui.py
 5.  Incolla il codice in InitGui.py   *
-
-
-</div>
 
 
 ```python

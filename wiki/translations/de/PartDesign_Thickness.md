@@ -90,8 +90,8 @@ Das Werkzeug <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24
 -   Wenn die Wandstärke nach innen aufgetragen wird, muss der Wert kleiner sein als die kleinste Höhe des Körpers.
 -   Das Wekzeug kann bei komplexen Formen versagen. [Rohr](PartDesign_AdditivePipe/de.md) oder [Ausformung](PartDesign_AdditiveLoft.md) können geeigneter sein, um komplexe Formen zu erstellen.
 -   Bekannte Fehler   *
-    -   BRep\_API   * command not done (Befehl nicht ausgeführt).
-    -   BRep\_Tool   * no parameter on edge (Kein Parameter auf der Kante).
+    -   BRep_API   * command not done (Befehl nicht ausgeführt).
+    -   BRep_Tool   * no parameter on edge (Kein Parameter auf der Kante).
     -   Silently fails (Stilles Versagen).
 
 ## Eigenschaften

@@ -36,7 +36,7 @@
 
 1.  În arborescența Model, faceți clic dreapta pe obiectul care urmează să fie mutat.
 2.  Selectați **Mutare obiect în alt corp**.
-3.  În dialogul \'\' Selectați corpul \'\', selectați Corpul pentru a muta obiectul în meniul derulant/contextual.
+3.  În dialogul *Selectați corpul*, selectați Corpul pentru a muta obiectul în meniul derulant/contextual.
 4.  Apăsați tasta **OK**.
 
 

@@ -22,7 +22,7 @@ La commande <img alt="" src=images/Draft_Edit.svg  style="width   *24px;"> **Dra
 Voir aussi    * [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionnez un ou plusieurs objets. Notez que bien que plusieurs objets puissent être en mode Draft Édition, les objets ne peuvent être édités qu\'un par un.
-2.  Il existe plusieurs façons d\'invoquer la commande    *
+2.  Il existe plusieurs façons de lancer la commande    *
     -   Si vous n\'avez pas encore sélectionné d\'objet    * double-cliquez sur un objet dans la [Vue en arborescence](Tree_view/fr.md). Cela ne fonctionne que pour les objets Draft pris en charge.
     -   Appuyez sur le bouton **<img src="images/Draft_Edit.svg" width=16px> [Éditer](Draft_Edit/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Edit.svg" width=16px> Éditer** dans le menu.
@@ -37,11 +37,11 @@ Voir aussi    * [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draf
         -   Sous macOS    * maintenez la touche **Option** enfoncée et cliquez sur le nœud ou l\'arête.
     -   Sélectionnez une option dans le menu contextuel.
     -   Si l\'option sélectionnée nécessite la saisie d\'un point    *
-        -   Le [Panneau des tâches des nœuds](#Panneau_des_t.C3.A2ches_des_n.C5.93uds.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+        -   Le [Panneau des tâches des nœuds](#Modifier_les_n.C5.93uds_par_le_panneau_des_t.C3.A2ches.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
         -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 6.  Déplacez un nœud de manière facultative    *
     -   Cliquez sur le nœud dans la [Vue 3D](3D_view/fr.md).
-    -   Le [Panneau des tâches du nœud](#Panneau_des_t.C3.A2ches_des_n.C5.93uds.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Le [Panneau des tâches du nœud](#Modifier_les_n.C5.93uds_par_le_panneau_des_t.C3.A2ches.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
     -   Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez un point**.
     -   Le résultat dépend de l\'objet et du nœud sélectionné.
 7.  Appuyez sur **Echap** ou sur le bouton **Fermer** (le bouton en haut du panneau des tâches, sans l\'image) pour terminer la commande.
@@ -52,35 +52,31 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 ### Panneau principal des tâches 
 
--   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande. Si une seule [Draft Polyligne](Draft_Wire/fr.md), [Draft B-spline](Draft_BSpline/fr.md), [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md) or [Draft Courbe de Bézier](Draft_BezCurve/fr.md) a été sélectionnée, l\'objet est fermé.
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
 
-### Panneau des tâches des nœuds 
+### Modifier les nœuds par le panneau des tâches 
 
 -   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Vous pouvez aussi appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Ajouter un point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Pour utiliser des coordonnées polaires, entrez une valeur pour la **Length** et une valeur pour la **Angle**, et appuyez sur **Entrée** après chacune d\'elles.
+-   Pour utiliser des coordonnées polaires, entrez une valeur pour **Length** et une valeur pour **Angle**, et appuyez sur **Entrée** après chacune d\'elles.
 -   Cochez la case **Angle** pour contraindre le pointeur à l\'angle spécifié.
--   La case à cocher **Relative** n\'a pas d\'utilité pour cette commande.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   La case à cocher **Continue** n\'a aucune utilité pour cette commande.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** n\'a pas d\'utilité pour cette commande.
 
 ## Objets pris en charge 
 
 ### <img alt="" src=images/Draft_Line.svg  style="width   *24px;"> [Draft Ligne](Draft_Line/fr.md) et <img alt="" src=images/Draft_Wire.svg  style="width   *24px;"> [Draft Polyligne](Draft_Wire/fr.md) 
 
 -   Si le nœud de début ou de fin d\'un fil ouvert est déplacé de manière à coïncider, le fil est fermé.
--   Menu contextuel du noeud    * {{Value|delete point}}. Il doit rester au moins deux points.
--   Menu contextuel de l\'arête    * {{Value|add point}}, {{Value|reverse wire}}. ({{Version/fr|0.20}}).
+-   Menu contextuel du noeud    * {{Value|Delete point}}. Il doit rester au moins deux points.
+-   Menu contextuel de l\'arête    * {{Value|Add point}}, {{Value|Close/Open wire}} ({{Version/fr|1.0}}) et {{Value|Reverse wire}} ({{Version/fr|0.20}}).
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width   *24px;"> [Draft Arc](Draft_Arc/fr.md) et <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *24px;"> [Draft Arc par 3 points](Draft_Arc_3Points/fr.md) 
 
--   Menu contextuel du nœud central    * {{Value|move arc}}.
--   Menu contextuel du nœud de départ    * {{Value|set first angle}}.
--   Menu contextuel du nœud final    * {{Value|set last angle}}.
--   Menu contextuel du nœud central    * {{Value|set radius}}.
--   Menu contextuel du bord    * {{Value|invert arc}}. Ne fonctionne pas avec la version 0.19.
+-   Menu contextuel du nœud central    * {{Value|Move arc}}.
+-   Menu contextuel du nœud de départ    * {{Value|Set first angle}}.
+-   Menu contextuel du nœud final    * {{Value|Set last angle}}.
+-   Menu contextuel du nœud central    * {{Value|Set radius}}.
+-   Menu contextuel du bord    * {{Value|Invert arc}}.
 
 ### <img alt="" src=images/Draft_Circle.svg  style="width   *24px;"> [Draft Cercle](Draft_Circle/fr.md) 
 
@@ -101,14 +97,14 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 ### <img alt="" src=images/Draft_BSpline.svg  style="width   *24px;"> [Draft B-spline](Draft_BSpline/fr.md) 
 
 -   Si le nœud de début ou de fin d\'une spline ouverte est déplacé de façon à ce qu\'ils coïncident, la spline est fermée.
--   Menu contextuel du nœud    * {{Value|delete point}}. Pour une spline ouverte, il doit rester au moins deux points. Pour une spline fermée, le nombre minimum de points est de trois.
--   Menu contextuel de l\'arête    * {{Value|add point}}.
+-   Menu contextuel du nœud    * {{Value|Delete point}}. Pour une spline ouverte, il doit rester au moins deux points. Pour une spline fermée, le nombre minimum de points est de trois.
+-   Menu contextuel de l\'arête    * {{Value|Add point}}, {{Value|Close/Open spline}} ({{Version/fr|1.0}}) et {{Value|Reverse spline}} ({{Version/fr|1.0}}).
 
 ### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *24px;"> [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md) et <img alt="" src=images/Draft_BezCurve.svg  style="width   *24px;"> [Draft Courbe de Bézier](Draft_BezCurve/fr.md) 
 
 -   Si le nœud de début ou de fin d\'une courbe ouverte est déplacé de façon à ce qu\'ils coïncident, la courbe est fermée.
--   Menu contextuel du nœud    * {{Value|make sharp}}, {{Value|make tangent}}, {{Value|make symmetric}} et {{Value|delete point}}.
--   Menu contextuel de l\'arête    * {{Value|add point}}.
+-   Menu contextuel du nœud    * {{Value|Delete point}}, {{Value|Make sharp}}, {{Value|Make tangent}} et {{Value|Make symmetric}}.
+-   Menu contextuel de l\'arête    * {{Value|Add point}}, {{Value|Close/Open curve}} ({{Version/fr|1.0}}) et {{Value|Reverse curve}} ({{Version/fr|1.0}}).
 
 ### <img alt="" src=images/Draft_Dimension.svg  style="width   *24px;"> [Draft Dimension](Draft_Dimension/fr.md) 
 
@@ -163,7 +159,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 ### <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [Sketcher Esquisse](Sketcher_NewSketch/fr.md) 
 
--   Seules les esquisses qui contiennent une seule ligne non contrainte peuvent être éditées. Cela ne fonctionne pas correctement dans FreeCAD version 0.19.
+-   Seules les esquisses qui contiennent une seule ligne non contrainte peuvent être éditées.
 -   Pas de menus contextuels pour cet objet.
 
 ## Préférences

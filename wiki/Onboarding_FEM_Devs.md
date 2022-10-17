@@ -96,7 +96,7 @@ The FEM code lives in `src/Mod/Fem`
 
 ### Coding Conventions 
 
-Please see [coding\_conventions.md](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) file on the FreeCAD repository.
+Please see [coding_conventions.md](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) file on the FreeCAD repository.
 
 ## Adding New FEM Solvers 
 

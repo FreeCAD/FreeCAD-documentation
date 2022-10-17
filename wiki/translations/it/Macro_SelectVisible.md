@@ -27,7 +27,7 @@ L\'ultima versione della macro si trova in <https   *//github.com/FreeCAD/FreeCA
 
 ToolBar Icon ![](images/SelectVisible.png )
 
-**Macro\_Select.FCMacro** {{MacroCode|code=
+**Macro_Select.FCMacro** {{MacroCode|code=
 # FreeCAD Macro SelectVisible
 
 __Name__ = 'Select Visible'

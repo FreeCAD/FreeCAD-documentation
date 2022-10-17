@@ -377,10 +377,10 @@ Le projet App Link a démarré après que la refonte de l\'[atelier PartDesign](
 
 Enfin, le pull request et le merge ont eu lieu    *
 
--   [App   *   *Link   * the big merge](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=38621), ancien fil de discussion (juillet 2019), [pull request \#2350](https   *//github.com/FreeCAD/FreeCAD/pull/2350) (the BIG merge), [LinkMerge branch](https   *//github.com/realthunder/FreeCAD/tree/LinkMerge).
+-   [App   *   *Link   * the big merge](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=38621), ancien fil de discussion (juillet 2019), [pull request #2350](https   *//github.com/FreeCAD/FreeCAD/pull/2350) (the BIG merge), [LinkMerge branch](https   *//github.com/realthunder/FreeCAD/tree/LinkMerge).
 -   [App   *   *Link   * the big merge](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=37757), fil de discussion principal (juillet 2019)
 -   [A simple path description of Link, 019, Link stage, Asm3, merge?](https   *//forum.freecadweb.org/viewtopic.php?p=329054#p329054) (août 2019)
--   [PR\#2559   * expose link and navigation actions](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=39672), une introduction à la fonctionnalité Lien dans la version 0.19 (septembre 2019).
+-   [PR#2559   * expose link and navigation actions](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=39672), une introduction à la fonctionnalité Lien dans la version 0.19 (septembre 2019).
 
 D\'autres \"liens\" divers à propos de Link incluent    *
 

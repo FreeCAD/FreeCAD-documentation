@@ -7,7 +7,7 @@ Le **format de fichier** (**.FCStd**) est le format de fichier principal de Free
 
 ## Contenu d\'un fichier .FCStd 
 
-FCStd est un [ fichier zip standard contenant un ou plusieurs fichiers](#Contenu_du_fichier_.fcstd.md) dans une [ structure spécifique](#Structure.md). En tant que tel, il est possible de décompresser un fichier **.FCStd** à l\'aide d\'un outil de décompression zip, mais des précautions doivent être prises lors de la reconstruction du fichier **.FCStd**. FreeCAD possède un \"Utilitaire de Projet\" pour reconstruire les fichiers **.FCStd**, dont l\'utilisation est décrite dans [Modifier le code source du fichier .FCStd](#Modifier_le_code_source_du_fichier_.FCStd.md) ci-dessous.
+FCStd est un [fichier zip standard contenant un ou plusieurs fichiers](#Structure_typique.md) dans une [structure spécifique](#Structure.md). En tant que tel, il est possible de décompresser un fichier **.FCStd** à l\'aide d\'un outil de décompression zip, mais des précautions doivent être prises lors de la reconstruction du fichier **.FCStd**. FreeCAD possède un \"Utilitaire de projet\" pour reconstruire les fichiers **.FCStd**, dont l\'utilisation est décrite dans [Modifier le code source du fichier .FCStd](#Modifier_le_code_source_du_fichier_.FCStd.md) ci-dessous.
 
 ### Document.xml
 
@@ -166,7 +166,7 @@ Voir le fil du forum [PDF inside the project](https   *//forum.freecadweb.org/vi
 
  
 
-[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

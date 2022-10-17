@@ -16,9 +16,9 @@ Script optimisé pour toutes les langues, pour les objets sélectionnés ou tous
 
 Trois macros sont disponibles   *
 
--   Combinaison qui bascule le mode d\'affichage global lorsque rien n\'est sélectionné et/ou bascule le mode d\'affichage des objets sélectionnés si des objets sont sélectionnés. Lorsque les objets sont sélectionnés, le mode d\'affichage global est automatiquement défini sur Tel quel   * [Macro\_Toggle\_Drawstyle\_Optimized.FCMacro](#Script.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized.png  style="width   *24px;">
--   Basculer le mode d\'affichage global   * [Macro\_Toggle\_Drawstyle\_Optimized\_2.FCMacro](#Script_2.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_2.png  style="width   *24px;">
--   Basculer le mode d\'affichage du ou des objets sélectionnés (modifications visibles uniquement dans le mode d\'affichage général tel quel (situé dans la barre d\'outils Afficher))   * [Macro\_Toggle\_Drawstyle\_Optimized\_3.FCMacro](#Script_3.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_3.png  style="width   *24px;">
+-   Combinaison qui bascule le mode d\'affichage global lorsque rien n\'est sélectionné et/ou bascule le mode d\'affichage des objets sélectionnés si des objets sont sélectionnés. Lorsque les objets sont sélectionnés, le mode d\'affichage global est automatiquement défini sur Tel quel   * [Macro_Toggle_Drawstyle_Optimized.FCMacro](#Script.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized.png  style="width   *24px;">
+-   Basculer le mode d\'affichage global   * [Macro_Toggle_Drawstyle_Optimized_2.FCMacro](#Script_2.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_2.png  style="width   *24px;">
+-   Basculer le mode d\'affichage du ou des objets sélectionnés (modifications visibles uniquement dans le mode d\'affichage général tel quel (situé dans la barre d\'outils Afficher))   * [Macro_Toggle_Drawstyle_Optimized_3.FCMacro](#Script_3.md) <img alt="" src=images/Macro_Toggle_Drawstyle_Optimized_3.png  style="width   *24px;">
 
 Lorsque vous travaillez avec FreeCAD, vous pouvez parfois changer rapidement le style de dessin de l\'objet avec lequel vous travaillez. Ceci est disponible via le menu déroulant Drawstyle où n\'importe quel style Drawstyle peut être sélectionné. Cette macro rend disponibles 2 des styles de dessin sous forme de bouton cliquable sur une barre d\'outils sur laquelle l\'utilisateur peut cliquer pour basculer entre les deux styles de dessin.
 
@@ -39,7 +39,7 @@ Combinaison qui bascule le mode d\'affichage global lorsque rien n\'est sélecti
 
 The icon ToolBar ![](images/Macro_Toggle_Drawstyle_Optimized.png )
 
-**Macro\_Toggle\_Drawstyle\_Optimized.FCMacro**
+**Macro_Toggle_Drawstyle_Optimized.FCMacro**
 
 
 {{MacroCode|code=
@@ -122,7 +122,7 @@ Basculer le mode d\'affichage global   *
 
 The icon ToolBar ![](images/Macro_Toggle_Drawstyle_Optimized_2.png )
 
-**Macro\_Toggle\_Drawstyle\_Optimized\_2.FCMacro**
+**Macro_Toggle_Drawstyle_Optimized_2.FCMacro**
 
 
 {{MacroCode|code=
@@ -176,7 +176,7 @@ Basculer le mode d\'affichage du ou des objets sélectionnés (les modifications
 
 The icon ToolBar ![](images/Macro_Toggle_Drawstyle_Optimized_3.png )
 
-**Macro\_Toggle\_Drawstyle\_Optimized\_3.FCMacro**
+**Macro_Toggle_Drawstyle_Optimized_3.FCMacro**
 
 
 {{MacroCode|code=

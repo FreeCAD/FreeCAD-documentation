@@ -68,7 +68,7 @@ Per spiegazioni più dettagliate, consultare la pagina [Come installare le macro
 
 ToolBar Icon ![](images/Macro_SimpleProperties.png )
 
-**Macro\_SimpleProperties.FCMacro**
+**Macro_SimpleProperties.FCMacro**
 
 
 {{MacroCode|code=

@@ -15,7 +15,7 @@ Crée une contrainte de vitesse initiale d\'écoulement pour une analyse d\'éco
 
 ## Utilisation
 
-1.  Vous pouvez soit appuyer sur le bouton de la barre d\'outils **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> [Contrainte de vitesse initiale d'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md)** soit sélectionner le menu **Modèle → Contraintes de fluide → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Contrainte de vitesse initiale d'écoulement**.
+1.  Vous pouvez soit appuyer sur le bouton de la barre d\'outils **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> '''Contrainte de vitesse initiale d'écoulement'''** soit sélectionner le menu **Modèle → Contraintes du fluide → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Contrainte de vitesse initiale d'écoulement**.
 2.  Saisissez une valeur de vitesse d\'écoulement initiale pour l\'analyse. La valeur est entrée comme une combinaison des 3 composantes principales des vecteurs cartésiens (X,Y,Z).
 3.  Pour une analyse 3D, sélectionnez un \"solide\" (corps) de votre modèle. Pour une analyse 2D, sélectionnez une face.
 

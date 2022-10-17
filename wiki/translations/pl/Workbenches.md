@@ -59,9 +59,11 @@ Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD   *
 
 Następujące środowiska pracy są nadal objęte zakresem instalacji podstawowej w celu zapewnienia kompatybilności, ale nie powinny być dłużej używane.
 
--   <img alt="" src=images/Workbench_Complete.svg  style="width   *32px;"> [Complete](Complete_Workbench/pl.md) posiada wszystkie polecenia i funkcje ze wszystkich modułów i stołów warsztatowych, które spełniały określone kryteria jakości. \'\'\' {{Obsolete/pl|0.17}} \'\'\'
+-   <img alt="" src=images/Workbench_Complete.svg  style="width   *32px;"> [Complete](Complete_Workbench/pl.md) posiada wszystkie polecenia i funkcje ze wszystkich modułów i stołów warsztatowych, które spełniały określone kryteria jakości. 
+**{{Obsolete/pl|0.17}}**
 
--   <img alt="" src=images/Workbench_Drawing.svg  style="width   *32px;"> [Kreślenie](Drawing_Workbench/pl.md) został stworzony do prezentacji projektów 3D na kartce papieru, ale teraz został usunięty. Jednak nadal konieczne jest odczytanie starych plików FreeCAD, które zawierają obiekt rysunkowy wykonany pierwotnie w tym Środowisku pracy. Zobacz [Rysunek Techniczny](TechDraw_Workbench/pl.md), który jest bardziej zaawansowanym zamiennikiem. *\' {{Obsolete/pl|0.17}}*\'
+-   <img alt="" src=images/Workbench_Drawing.svg  style="width   *32px;"> [Kreślenie](Drawing_Workbench/pl.md) został stworzony do prezentacji projektów 3D na kartce papieru, ale teraz został usunięty. Jednak nadal konieczne jest odczytanie starych plików FreeCAD, które zawierają obiekt rysunkowy wykonany pierwotnie w tym Środowisku pracy. Zobacz [Rysunek Techniczny](TechDraw_Workbench/pl.md), który jest bardziej zaawansowanym zamiennikiem. 
+**{{Obsolete/pl|0.17}}**
 
 ## Zewnętrzne Środowiska pracy 
 

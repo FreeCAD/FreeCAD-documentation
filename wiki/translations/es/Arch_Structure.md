@@ -133,7 +133,7 @@ Los objetos estructurales también tienen la capacidad de mostrar nodos estructu
 
 **Ver también   ***
 
-[Arch\_API/es](Arch_API/es.md) y [FreeCAD\_Scripting\_Basics/es](FreeCAD_Scripting_Basics/es.md).
+[Arch_API/es](Arch_API/es.md) y [FreeCAD_Scripting_Basics/es](FreeCAD_Scripting_Basics/es.md).
 
 
 </div>

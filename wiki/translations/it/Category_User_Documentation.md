@@ -113,7 +113,7 @@ E\' anche la lista centrale di download per la documentazione in linea di FreeCA
 | [EM FHSolver/it](wiki/EM FHSolver/it.md) | [EM Workbench/it](wiki/EM Workbench/it.md) | [Export to STL or OBJ/it](wiki/Export to STL or OBJ/it.md) |
 | [External workbenches/it](wiki/External workbenches/it.md) | [Extra python modules/it](wiki/Extra python modules/it.md) | [Fasteners BOM/it](wiki/Fasteners BOM/it.md) |
 | [Fasteners Workbench/it](wiki/Fasteners Workbench/it.md) | [FCGear BevelGear/it](wiki/FCGear BevelGear/it.md) | [FCGear CrownGear/it](wiki/FCGear CrownGear/it.md) |
-| [FCGear CycloideGear/it](wiki/FCGear CycloideGear/it.md) | [FCGear InvoluteGear/it](wiki/FCGear InvoluteGear/it.md) | [FCGear InvoluteRack/it](wiki/FCGear InvoluteRack/it.md) |
+| [FCGear CycloidGear/it](wiki/FCGear CycloidGear/it.md) | [FCGear InvoluteGear/it](wiki/FCGear InvoluteGear/it.md) | [FCGear InvoluteRack/it](wiki/FCGear InvoluteRack/it.md) |
 | [FCGear LanternGear/it](wiki/FCGear LanternGear/it.md) | [FCGear TimingGear/it](wiki/FCGear TimingGear/it.md) | [FCGear Workbench/it](wiki/FCGear Workbench/it.md) |
 | [FCGear WormGear/it](wiki/FCGear WormGear/it.md) | [Feature editing/it](wiki/Feature editing/it.md) | [Feature list/it](wiki/Feature list/it.md) |
 | [Feature/it](wiki/Feature/it.md) | [FeaturePython Custom Properties/it](wiki/FeaturePython Custom Properties/it.md) | [FEM Analysis/it](wiki/FEM Analysis/it.md) |

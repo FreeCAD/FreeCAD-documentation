@@ -1,5 +1,5 @@
 # Ship PlotGZ/en
-1.  REDIRECT [Ship\_GZ/en](Ship_GZ/en.md)
+1.  REDIRECT [Ship_GZ/en](Ship_GZ/en.md)
 
 
 

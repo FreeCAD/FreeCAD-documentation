@@ -28,13 +28,7 @@ Zauważ, że koliste krawędzie nie muszą być pełnymi okręgami.
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Przecięcie](Draft_Snap_Intersection.md)   * Przyciąga do przecięcia dwóch odcinków linii lub łuku. Najedź kursorem myszki na dwa pożądane obiekty, aby aktywować przyciąganie ich przecięcia.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md)   * Na odcinkach linii i łuku, przyciąga prostopadle do ostatniego punktu.
-
-
-</div>
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md)   * Na odcinkach linii i łuku, przyciąga prostopadle do ostatniego punktu ściany *({{Version/pl|1.0}})* lub krawędzi.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Rozszerzenie](Draft_Snap_Extension/pl.md)   * Przyciąga do umownej linii, która rozciąga się poza punkty końcowe segmentów linii. Aby uaktywnić przyciąganie rozszerzenia, należy najechać myszką na żądany obiekt.
 

@@ -1,5 +1,5 @@
 # Mesh Sphere
-1.  REDIRECT [Mesh\_BuildRegularSolid](Mesh_BuildRegularSolid.md)
+1.  REDIRECT [Mesh_BuildRegularSolid](Mesh_BuildRegularSolid.md)
 
 
 

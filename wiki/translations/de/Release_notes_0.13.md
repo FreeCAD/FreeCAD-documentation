@@ -24,13 +24,13 @@ Dieses ist die Übersicht über die interessantesten Neuerungen bzw. Änderungen
 
 ## Arbeitsbereich parametrischer Entwurf 
 
--   \'\'\'Punkt - Erzeugung \'\'\'
+-   **Punkt - Erzeugung**
 
 ![](images/Release-0.13-PointTool.png )
 
 Punkte können nun im Entwurf zugefügt und als Element verwendet werden.
 
--   **Sketch Origin** - *\' Entwurfs-Ursprung*\'
+-   **Sketch Origin** - **Entwurfs-Ursprung**
 
 ![](images/Release-0.13-Origin.png )
 
@@ -144,7 +144,7 @@ Der Arbeitsbereich Arch kann nun IfcOpenShell [IfcOpenShell](http   *//www.ifcop
 
 -   **Oberfläche verfeinern** ist ein neues Werkzeug, das Oberflächen nach einigen Operationen auf eine Fläche bereinigt. Das Werkzeug kann in den Benutzer-Einstellungen so eingestellt werden, dass es automatisch nach Booleschen Operationen aufgerufen wird
 
--   *\' Neues Werkzeug Freiformfläche*\' [Loft-Werkzeug - Freiformfläche](Part_Loft/de.md)
+-   **Neues Werkzeug Freiformfläche** [Loft-Werkzeug - Freiformfläche](Part_Loft/de.md)
 
 dieses Werkzeug ist in der Lage, einen komplexen Satz von Oberflächen oder Festkörper-Flächen entlang einer Reihe von parametrischen oder freien Entwürfen (z.B. offenen oder geschlossenen Linienzügen) zu entsprechenden Freiformflächen auszuformen.
 
@@ -166,7 +166,7 @@ dieses Werkzeug ist in der Lage, einen komplexen Satz von Oberflächen oder Fest
 
 -   **Lineare Wiederholung**. **Zirkuläre Wiederholung** und **Mehrfache Wiederholung** Werkzeuge erlauben die Ausrichtung und verteilte Wiederholung von Auftragungen (pads) und Taschen (Aussparungen) auf / in einem Teil.
 
--   *\' Ein Wellen-Assistent*\' hilft Ihnen, Wellen zu entwerfen.
+-   **Ein Wellen-Assistent** hilft Ihnen, Wellen zu entwerfen.
 
 ## Arbeitsbereich Schiffs-Entwurf 
 

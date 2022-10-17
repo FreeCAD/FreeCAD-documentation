@@ -1,5 +1,5 @@
 # Ship Loading/it
-1.  REDIRECT [Ship\_LoadCondition/it](Ship_LoadCondition/it.md)
+1.  REDIRECT [Ship_LoadCondition/it](Ship_LoadCondition/it.md)
 
 
 

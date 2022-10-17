@@ -100,7 +100,7 @@ Välj ett objekt eller starta programmet och välj ett objekt och en serie infor
 **Sektor 4   * Vertexes och detaljer**
 
 -   Checkbox för att söka eller inte alla detaljer om objektet om det inte är markerat visas endast huvudvärdet.
--   Vertexes och detaljer om formen (compt\_Edge), (compt\_Faces), (compt\_Vector of the Face)
+-   Vertexes och detaljer om formen (compt_Edge), (compt_Faces), (compt_Vector of the Face)
     Max 200 linjer i tabellen, om det finns mer än 200 linjer visas det (! + 200) och antalet rader
     (fullständiga detaljer kan spara **Save** -knappen i en fil i CSV-format och kan ses i filen i kalkylbladet med **Read** eller av ett externt kalkylblad som[LibreOffice](https   *//www.libreoffice.org/) [OpenOffice](http   *//openoffice.apache.org/downloads.html) or other)
 
@@ -119,12 +119,12 @@ Välj ett objekt eller starta programmet och välj ett objekt och en serie infor
 -   **betyg**, ex   * 194.257636235 gon
 -   **pourcent** ex   * 30° = 57,74%
 -   Höjningar i plan XY, YZ, ZX och deras koordinater
--   **Riktningsobjekt**, ge objektets riktning beräkningen är   * coord\_1 - coord\_2 = riktning (eller omvänd)
+-   **Riktningsobjekt**, ge objektets riktning beräkningen är   * coord_1 - coord_2 = riktning (eller omvänd)
     -   
         **Line**
         
         den här knappen skapar en rad i riktning mot objektet
--   *\' ValueAt*\' returnerar 3D-vektorn som motsvarar ett parametervärde.
+-   **ValueAt** returnerar 3D-vektorn som motsvarar ett parametervärde.
 
 
 </div>
@@ -137,7 +137,7 @@ Välj ett objekt eller starta programmet och välj ett objekt och en serie infor
 -   Ytan på formuläret visat enhetsstorlek kan väljas
 -   Ytan på ansiktets visade enhetsstorlek kan väljas
 -   Volymen av formuläret visat enhetsstorlek kan väljas
--   Täthet av materialet i \'\'\'kg av dm3 \'\'\'
+-   Täthet av materialet i **kg av dm3**
     (\"spinBox\" är inställt på **7,5** kg, medeltäthet av stål. Om du vill ha ett annat standardvärde , ändra värdet på densiteten, linje 204)
 -   Massfältet **gram** buttom kan väljas   *
     ton, kvintal, kg, hg, dag, gramm, dg, cg, mg, μg, ng, pg, fg, gr (korn), dr (drachm), oz (en gång), oz t (en gång troj),
@@ -221,13 +221,13 @@ Om du vill konvertera ditt gamla FCInfo-kalkylblad   * Öppna det i FCInfo och s
 
 **Avsnitt 11   * Huvud**
 
--    **CheckBox Klippkort**   * om markerad sparas koordinaterna i clipboardform   * \'\' \'FreeCAD.Vector (-24.0, 240.0, 7.0)\'\'\'
+-    **CheckBox Klippkort**   * om markerad sparas koordinaterna i clipboardform   * *\'FreeCAD.Vector (-24.0, 240.0, 7.0)*\'
 
--    **CheckBox Point**   * om kryssad en punkt skapas i den visade koordinaten   * \'\' \'FreeCAD.Vector (-24.0, 240.0, 7.0)\'\'\'
+-    **CheckBox Point**   * om kryssad en punkt skapas i den visade koordinaten   * *\'FreeCAD.Vector (-24.0, 240.0, 7.0)*\'
 
 -    **CheckBox Axis**   * om den markerade enaxeln skapas i den visade koordinaten   * **FreeCAD.Vector (-24.0, 240.0, 7.0)**
 
--    **CheckBox Plane**   * om det markerade ettaxelplanet skapas i den koordinat som visas   * \'\' \'FreeCAD.Vector (-24.0, 240.0, 7.0)\'\'\'
+-    **CheckBox Plane**   * om det markerade ettaxelplanet skapas i den koordinat som visas   * *\'FreeCAD.Vector (-24.0, 240.0, 7.0)*\'
 
 -    **Ref**   * Uppdatera visning av data i rapportvy
 
@@ -248,7 +248,7 @@ När makroen är lanserad, förblir makroen aktiv och fönstret är synligt. Fö
 
 <center>
 
-Image   *Macro\_FCInfo\_04.png\|Dockad till höger, Image   *Macro FCInfo 05.png\|eller vänster med kombinationsvy och nås med en flik, eller inte dockad till valet.
+Image   *Macro_FCInfo_04.png\|Dockad till höger, Image   *Macro FCInfo 05.png\|eller vänster med kombinationsvy och nås med en flik, eller inte dockad till valet.
 
 
 </center>
@@ -343,8 +343,8 @@ En fil kan skapas med knappen **Save**. Filen är skriven som en fil [csv](https
 
 Kopiera innehållet i makroet i en fil med namnet \"FCInfo.FCMacro\"
 
--   Windows   * formen är vanligtvis **\" drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
--   Ubuntu   * formen är vanligtvis **\" /home/your\_user\_name/.FreeCAD \"**.
+-   Windows   * formen är vanligtvis **\" drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu   * formen är vanligtvis **\" /home/your_user_name/.FreeCAD \"**.
 
 Eller direkt i gränssnittet till FreeCAD
 Ikonen måste vara i samma katalog som makroen.
@@ -355,8 +355,8 @@ Ladda ner bildpositionering på ikonen <img alt="" src=images/FCInfo.png  style=
 
 Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
 
--   Windows   * the form is usually **\" drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
--   Ubuntu   * the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+-   Windows   * the form is usually **\" drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu   * the form is usually **\" /home/your_user_name/.FreeCAD \"**.
 
 Or, directly in the interface of FreeCAD
 The icon must be in the same directory as the macro.
@@ -376,7 +376,7 @@ Download image positioning on the icon <img alt="" src=images/FCInfo.png  style=
 
 <div class="mw-translate-fuzzy">
 
-Det finns också FCInfo\_Alternate\_Linux för endast för FreeCAD-versionen 0.13\... and PyQt4
+Det finns också FCInfo_Alternate_Linux för endast för FreeCAD-versionen 0.13\... and PyQt4
 
 
 <div class="mw-collapsible-content">
@@ -387,7 +387,7 @@ Det finns också FCInfo\_Alternate\_Linux för endast för FreeCAD-versionen 0.1
 
 <div class="mw-translate-fuzzy">
 
-Det finns även en [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) här ändras koden (på grund av teckenfönstret    * **² ³ ° μ** ordinal not in range (128)\") vilket innebar problem i vissa konfigurationer funktionerna är desamma
+Det finns även en [Macro_FCInfo_Alternate_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) här ändras koden (på grund av teckenfönstret    * **² ³ ° μ** ordinal not in range (128)\") vilket innebar problem i vissa konfigurationer funktionerna är desamma
 Example    * 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
@@ -551,7 +551,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 ```
 
 -   ver 1.21-3.01 , 07/11/2019 \# 07/11/2019 ver \"01.21-3-rmu\" replace character micro = \"U\", square = \"2\", cube = \"3\", degrees = \" deg\" see \"<https   *//forum.freecadweb.org/viewtopic.php?f=3&t=6005&start=70#p345819>\"
--   ver 1.21-2.01 (1.21-rmu) 11/06/2019 rmu replace all characters over 127 in ex   * \"°\" in chr(176)) \#degree
+-   ver 1.21-2.01 (1.21-rmu) 11/06/2019 rmu replace all characters over 127 in ex   * \"°\" in chr(176)) #degree
 -   ver 1.21.01 (1.21-rmu) 30/05/2019 rmu change fixed positions to qt layouts grid.addWidget() by rmu75 see the rmu75 fork \"<https   *//gist.github.com/rmu75/b165147bd1c2f2659c014103793ae1d8>\"
 -   Ver 1.20, 29/01/2018 optimering
 -   ver 1.19, 20/01/2018 skapa checkbox för att upptäcka alla element i objektet om det är önskat eller inte, makroet är snabbare. Optimering
@@ -562,7 +562,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 -   ver 1.16, 21/06/2017 lägg till kontrollhöjds polis (här PointSize 8) och kryssrutan för att placera fönstret åt höger eller vänster
 -   ver 1.15, 19/12/2015 suppression PyQt4 alternativ [se](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=13541), lägg till checkbox för att redigera infos i rapportvy
 -   ver 1.14, 04/08/2014 ersätt PyQt4 och PySide och korrigera verktygstips inte visad orsak på PySide och lägg till fg
--   ver 1.13, 27/07/2014 ersätt FCInfo\_en\_Ver\_1-12\_Docked.FCMacro till FCInfo\_en\_Ver\_1-13\_Docked.FCMacro acceptera PyQt4 och PySide
+-   ver 1.13, 27/07/2014 ersätt FCInfo_en_Ver_1-12_Docked.FCMacro till FCInfo_en_Ver_1-13_Docked.FCMacro acceptera PyQt4 och PySide
 -   ver 1.12, 10/03/2014 lägger till verktygstips
 -   ver 1.11, 04/03/2014 Lägga till μm, nm, pm, fm, μg, ng, pg, hällande, fast av storhet karat ~~\"cd\"~~ i \'\' \'\"ct\" , visning av etiketten och internt namn, fast beräkning av vinklar XY YZ ZX kan ge ett fel på en sammansatt form, fönstret dockbart i FreeCAD
 -   Ver 1.10.b, 19/11/2013 knappar utanför rullningsfältet och dimensionerna i fönstret blockerar
@@ -570,7 +570,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 (ver 1.10, 18/11/2013 skapa rullningsfältet)
 \* ver 1.08.b, 10/11/2013 översättningsenheter på engelska, felkorrigering för att visa området för ansikten som anges i tabellen och ersättning av **print** **App.Console .PrintMessage**
 ~~ver 1.09, 04/11/2013 fungerar perfekt på Windows och Linux (orsak till fel på Linux karaktärerna   * ² ³ ° ordinal inte inom intervallet (128) \")~~
-I en Linux-distribution och i händelse av ett fel på \'\' \'\' ordinär inte inom intervallet (128) finns det en alternativ version på den här sidan [Macro\_FCInfo\_Alternate\_Linux](Macro_FCInfo_Alternate_Linux/sv.md)
+I en Linux-distribution och i händelse av ett fel på ordinär inte inom intervallet (128) finns det en alternativ version på den här sidan [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux/sv.md)
 \* Ver 1.08, 24/10/2013 korrigering av högsta \"Faces\" och \"Edges\" som visar 100 objekt (i den sparade filen)
 \* ver 1.07, 11/10/2013 matchar \"Faces\" och deras koordinater.
 \* ver 1.06, 22/09/2013 matchar \"Edges\" och deras koordinater, lutning på elementet snarare än det globala objektet

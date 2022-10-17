@@ -6,6 +6,7 @@
    Time   *1 godzina
    FCVersion   *0.17 lub nowszy
    Files   *[https   *//github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd]
+   SeeAlso   *[Projekt Części   * Tworzenie prostej części](Creating_a_simple_part_with_Part_WB/pl.md), [Tworzenie prostej części za pomocą środowiska pracy Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
 ---
 
 # Creating a simple part with PartDesign/pl
@@ -20,7 +21,7 @@ Ten samouczek ma na celu nauczenie początkujących użytkowników FreeCAD kilku
 
 **W tym Poradniku omówimy w szczegółach   ***
 
--   Używanie [Środowiska pracy Part Design](PartDesign_Workbench.md), rysowanie szkicu.
+-   Używanie [Środowiska pracy Projekt Części](PartDesign_Workbench/pl.md), rysowanie szkicu.
 -   Używanie funkcji wyciągnięcia *(Pad)* i kieszeni *(Pocket)*.
 -   Zmiana koloru i przezroczystości.
 -   Ręczne przenoszenie części.
@@ -28,37 +29,35 @@ Ten samouczek ma na celu nauczenie początkujących użytkowników FreeCAD kilku
 -   Edycja jednego lub wielu wymiarów.
 -   Korzystanie z funkcji geometrii zewnętrznej i użycie płaszczyzny odniesienia do wyśrodkowania otworu.
 
-### Używanie [Środowiska pracy Part Design](PartDesign_Workbench/pl.md), rysowanie szkicu 
+### Używanie [Środowiska pracy Projekt Części](PartDesign_Workbench/pl.md), rysowanie szkicu 
 
-Stwórz nowy dokument i wybierz Środowisko pracy **[<img src=images/Workbench_PartDesign.svg style="width   *24px"> '''Part Design'''** używając [okienka wyboru](Getting_started/pl#Poznawaj_interfejs_użytkownika.md) *(numer 10 na obrazku)* lub przez menu *Widok → Środowiska pracy*. FreeCAD uruchamia się z paskami narzędzi u góry, \"widokiem łączonym\" po lewej, i widokiem 3d po prawej.
+Stwórz nowy dokument i wybierz Środowisko pracy **[<img src=images/Workbench_PartDesign.svg style="width   *24px"> '''Projekt Części'''** używając [okienka wyboru](Getting_started/pl#Poznawaj_interfejs_użytkownika.md) *(numer 10 na obrazku)* lub przez menu *Widok → Środowiska pracy*. FreeCAD uruchamia się z paskami narzędzi u góry, \"widokiem łączonym\" po lewej, i widokiem 3d po prawej.
 
-**Tworzenie nowej bryły (body)   ***
+**Tworzenie nowej zawartości (body)   ***
 
-Wciśnij <img alt="" src=images/PartDesign_Body.svg  style="width   *32px;"> [Stwórz nową zawartość i ustaw ją jako aktywną](PartDesign_Body/pl.md). ***Uwaga   *** nie pomyl tej ikony która jest niebieska, z ikoną od Part Container która jest żółta.*. W zakładce **Model** pod paskiem bocznym z widokiem łączonym pojawi się nowy obiekt nazwany **Body**. Pojawi się on pod nazwą dokumentu, która jest \"Unnamed\" do czasu aż dokument nie zostanie zapisany. Body jest pojemnikiem/kontenerem, w którym elementy Part Design są kolejno rozmieszczane w celu utworzenia pojedynczej bryły. Zawiera własne osie odniesienia i płaszczyzny. Zostanie oznaczony na niebiesko w drzewie modelu *(model tree)*, co oznacza że jest aktywny, czyli możemy edytować elementy które zawiera jak również dodawać nowe elementy do niego. Jeśli nie jest zaznaczony na niebiesko, kliknij na niego dwukrotnie, lub wciśnij prawy przycisk myszy i w menu kontekstowym wybierz opcję **Przełącz na aktywną zawartość**. Przed nazwą \"Body\" jest niebieska ikona identyczna z tą, za pomocą której stworzyłeś obiekt \"Body\". Klikając w strzałkę lub znak plusa znajdujący się przed \"Body\" możesz rozwinąć jego zawartość. W tej chwili zawiera on jedynie element nazwany **Origin**. Przed **Origin** także znajduje się znak strzałki lub plusa. Kliknij na niego aby rozwinąć jego zawartość. Odsłania to wyżej wymienione osie i płaszczyzny odniesienia, jak pokazano na poniższym obrazku   *
+Wciśnij przycisk <img alt="" src=images/PartDesign_Body.svg  style="width   *32px;"> [Stwórz nową zawartość i ustaw ją jako aktywną](PartDesign_Body/pl.md). ***Uwaga   ***nie pomyl tej ikony która jest niebieska, z ikoną od Part Container która jest żółta.*. W zakładce*\'Model** pod paskiem bocznym z widokiem łączonym pojawi się nowy obiekt nazwany **Body**. Pojawi się on pod nazwą dokumentu, która jest \"Nienazwany\" do czasu aż dokument nie zostanie zapisany. Zawartość jest pojemnikiem / kontenerem, w którym elementy środowiska Projekt Części są kolejno rozmieszczane w celu utworzenia pojedynczej bryły. Zawiera własne osie odniesienia i płaszczyzny. Zostanie oznaczony na niebiesko w drzewie modelu, co oznacza że jest aktywna, czyli możemy edytować elementy które zawiera jak również dodawać nowe elementy do niej. Jeśli nie jest podświetlona na niebiesko, kliknij na nią dwukrotnie, lub wciśnij prawy przycisk myszy i w menu kontekstowym wybierz opcję **Przełącz na aktywną zawartość**. Przed nazwą \"Body\" znajduje się niebieska ikona identyczna z tą, za pomocą której stworzyłeś obiekt \"Body\". Klikając w strzałkę lub znak plusa znajdujący się przed \"Body\" możesz rozwinąć jego zawartość. W tej chwili zawiera on jedynie element nazwany **Odniesienie położenia***(origin)\'\'. Przed**odniesieniem położenia\'\'\' także znajduje się znak strzałki lub plusa. Kliknij na niego aby rozwinąć jego zawartość. Odsłania to wyżej wymienione osie i płaszczyzny odniesienia, jak pokazano na poniższym obrazku   *
 
-![](images/PartDesign_Body_tree_Unnamed.png ) *Nowo stworzone aktywne \"Body\" z jego zawartością*
-
-Źródło *(Origin)* jest wyszarzone, co oznacza, że jego zawartość nie jest widoczna w oknie widoku 3D. Możesz przełączyć jego widoczność w widoku 3D zaznaczając pozycję Origin i wciskając spacje na klawiaturze. \"Origin\" teraz będzie oznaczone na czarno na drzewie. Wciśnij spacje ponownie aby ukryć \"Origin\" w widoku 3D. Naciśnij ponownie na klawisz strzałki lub znak plusa przed \"Origin\" aby zwinąć jego zawartość.
+![](images/PartDesign_Body_tree_Unnamed.png ) *Nowo stworzone aktywne \"Body\" z jego zawartością* Odniesienie połóżenia *(Origin)* jest niedostępne, co oznacza, że jego zawartość nie jest widoczna w oknie widoku 3D. Możesz przełączyć jego widoczność w widoku 3D zaznaczając obiekt Origin i wciskając spacje na klawiaturze. \"Origin\" teraz będzie oznaczone na czarno na drzewie. Wciśnij spacje ponownie aby ukryć \"Origin\" w widoku 3D. Naciśnij ponownie na klawisz strzałki lub znak plusa przed \"Origin\" aby zwinąć jego zawartość.
 
 Zanim będziemy kontynuować, skorzystajmy z okazji do zmiany nazwy Body.
 
-**Zmiana nazwy \"Body\"   ***
+**Zmiana nazwy \"Zawartości\" (Body)   ***
 
 Na drzewie modelu kliknij prawym przyciskiem myszki na Body. Wybierz Zmień nazwę i wpisz nazwę, na przykład \"Body part1\" i naciśnij **Enter**, aby potwierdzić.
 
 **Tworzenie szkicu   ***
 
-Teraz będziemy zajmować się szkicem, określającym ogólny kształt części. Szkic jest rysunkiem opisującym profil, który należy zastosować dla elementu w celu uzyskania kształtu. Może być albo \"dodatni\" lub \" dodawany\", jak np. wyciągnięcie; albo \"ujemny\" alub \"odejmowalny\", jak kieszeń.
+Teraz będziemy zajmować się szkicem, określającym ogólny kształt części. Szkic jest rysunkiem opisującym profil, który należy zastosować dla elementu w celu uzyskania kształtu. Może być albo \"dodatni\" lub \" dodawany\", jak np. wyciągnięcie; albo \"ujemny\" lub \"odejmowalny\", jak kieszeń.
 
 Ponieważ w tym przypadku ogólny kształt części jest regularny wzdłuż osi Y, stworzymy wyciągnięcie wzdłuż tej osi.
 
-Wciśnij przycisk <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [Utwórz nowy szkic](Sketcher_NewSketch/pl.md). Okienko widok połączony przełącza się teraz na zakładkę **Zadania** i wyświetla okno dialogowe **Wybierz funkcję**. To okno dialogowe oczekuje wyboru płaszczyzny, do której ma zostać dołączony nasz szkic i wyświetla listę dostępnych płaszczyzn. Wybierz *XZ\_Plane (płaszczyzna podstawowa)*\' i naciśnij **OK**. Interfejs teraz się zmienia, Szkicownik przejmuje kontrolę, a jego paski narzędzi pojawiają się nad widokiem okna 3D. Znajdujemy się na płaszczyźnie XZ bryły, aby można było utworzyć szkic.
+Wciśnij przycisk <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [Utwórz nowy szkic](Sketcher_NewSketch/pl.md). Okienko widok połączony przełącza się teraz na zakładkę **Zadania** i wyświetla okno dialogowe **Wybierz funkcję**. To okno dialogowe oczekuje wyboru płaszczyzny, do której ma zostać dołączony nasz szkic i wyświetla listę dostępnych płaszczyzn. Wybierz *XZ_Plane (płaszczyzna podstawowa)*\' i naciśnij **OK**. Interfejs teraz się zmienia, Szkicownik przejmuje kontrolę, a jego paski narzędzi pojawiają się nad widokiem okna 3D. Znajdujemy się na płaszczyźnie XZ bryły, aby można było utworzyć szkic.
 
 Aby ułatwić szkicowanie, można ustawić następujące opcje w polu **Edycja elementów sterujących** w panelu Zadania po lewej stronie   *
 
--   Pokaż siatkę   * zaznaczone
+-   Pokaż siatkę   * zaznaczone.
 -   Rozmiar siatki   * 10 mm.
--   Automatyczne wiązania   * zaznaczone
+-   Automatyczne wiązania   * zaznaczone.
 
 Narysujemy poniższy szkic   *
 
@@ -120,7 +119,7 @@ Jeśli działałeś sprawnie, to powinieneś otrzymać to samo   *
 
 Szkic zmienił kolor na zielony, co oznacza, że cały został ograniczony. Nie ma w nim żadnych dwuznaczności, wszystko jest perfekcyjnie zdefiniowane. Potwierdza to komunikat solwera w lewym górnym rogu. Zwróć także uwagę na to, że środek łuku lekko się przemieścił, tak naprawdę podając te trzy ostatnie ograniczenia, FreeCAD obliczył poprawną pozycję punktu środka.
 
-Jeśli Twój szkic nie jest jeszcze prezentowany w kolorze zielonym, oznacza to, że jeden lub więcej punktów nie zbiega się we właściwym miejscu *(2 punkty mogą być jeszcze nie zbieżne, ale znajduja sie w sąsiedztwie)*. Zrób małe okno *(okno przechwytywania)* wokół punktu, aby wybrać i utworzyć <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *24px;"> [Wiązanie zgodności na wybranym elemencie](Sketcher_ConstrainCoincident/pl.md). Uwaga   * nie myl *\'Wiązanie zgodności* z *Utwórz punkt na szkicu*\'. Ich ikony są bardzo podobne, jednak drugie narzędzie ma większą ikonę i dodaje indywidualny punkt w szkicu.
+Jeśli Twój szkic nie jest jeszcze prezentowany w kolorze zielonym, oznacza to, że jeden lub więcej punktów nie zbiega się we właściwym miejscu *(2 punkty mogą być jeszcze nie zbieżne, ale znajduja sie w sąsiedztwie)*. Zrób małe okno *(okno przechwytywania)* wokół punktu, aby wybrać i utworzyć <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *24px;"> [Wiązanie zgodności na wybranym elemencie](Sketcher_ConstrainCoincident/pl.md). Uwaga   * nie myl **Wiązanie zgodności*z*Utwórz punkt na szkicu**. Ich ikony są bardzo podobne, jednak drugie narzędzie ma większą ikonę i dodaje indywidualny punkt w szkicu.
 
 Czynności należy przeprowadzić w ten sam sposób w odniesieniu do wszystkich punktów.
 

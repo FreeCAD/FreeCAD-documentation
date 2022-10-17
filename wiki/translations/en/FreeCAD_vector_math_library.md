@@ -1,7 +1,7 @@
 # FreeCAD vector math library/en
 ## Introduction
 
-This is a [Python](Python.md) module containing a couple of useful functions to manipulate vectors. This library is included in the [Draft\_Workbench](Draft_Workbench.md) and can be accessed like this from the Python interpreter   * 
+This is a [Python](Python.md) module containing a couple of useful functions to manipulate vectors. This library is included in the [Draft_Workbench](Draft_Workbench.md) and can be accessed like this from the Python interpreter   * 
 ```python
 import DraftVecUtils
 ```

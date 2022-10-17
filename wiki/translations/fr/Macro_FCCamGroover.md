@@ -24,7 +24,7 @@ Animation   * ![](images/Cam-groover-animated-opt.gif )
 
 ToolBar Icon ![](images/Cam-groover-icon-32x32.png )
 
-**Macro\_FCCamGroover.FCMacro**
+**Macro_FCCamGroover.FCMacro**
 
 
 {{MacroCode|code=

@@ -168,7 +168,7 @@ Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea 
 
 <div class="mw-translate-fuzzy">
 
--   Încă o dată faceți o matrice. Selectați obiectul FacePocket, și apăsați butonul <img alt="" src=images/Path_Array.png  style="width   *16px;"> [Array](Path_Array.md). reglați numărul *Copies*\' la 1 și **offset** la -2mm in direcția Z . Deplasați poziționarea matricei cu 2 mm în direcția Z. Cele două operațiuni se fac acum   *
+-   Încă o dată faceți o matrice. Selectați obiectul FacePocket, și apăsați butonul <img alt="" src=images/Path_Array.png  style="width   *16px;"> [Array](Path_Array.md). reglați numărul *Copies**la 1 și**offset*\' la -2mm in direcția Z . Deplasați poziționarea matricei cu 2 mm în direcția Z. Cele două operațiuni se fac acum   *
 
 
 </div>

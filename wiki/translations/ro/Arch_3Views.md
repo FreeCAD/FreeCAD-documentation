@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-\'\'\'Această comandă nu este în prezent utilizată \'\'\'. Acesta va servi la generarea de vizualizări plane, bazate pe forme dintr-un obiect [Mesh](Mesh_Workbench.md), care va fi utilizat de instrumentul [Arch Equipment](Arch_Equipment.md)
+**Această comandă nu este în prezent utilizată**. Acesta va servi la generarea de vizualizări plane, bazate pe forme dintr-un obiect [Mesh](Mesh_Workbench.md), care va fi utilizat de instrumentul [Arch Equipment](Arch_Equipment.md)
 
 
 </div>

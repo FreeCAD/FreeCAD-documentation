@@ -73,7 +73,7 @@ Remembering that screen dimensions are measured from the upper-left corner, on t
 -   the width of the screen in pixels (400)
 -   the height of the screen in pixels (350)
 
-The title of the window is set and the final line simply means that this window will never be obscured by another window - if this is not desired then simply place a Python comment character (\'\#\') as the first character of the line.
+The title of the window is set and the final line simply means that this window will never be obscured by another window - if this is not desired then simply place a Python comment character (\'#\') as the first character of the line.
 
 ### Label Creation 
 
@@ -109,7 +109,7 @@ self.checkbox2.clicked.connect(self.onCheckbox2)
 self.checkbox2.move(210,30)
 ```
 
-Checkboxes can be off and on in any combination (unlike radio buttons). Line 2 declares one and set\'s it initial Value. Line 3 specifies which method will be executed when the Checkbox is clicked (in this case the method \'onCheckBox1\'). If the 4th line did not have the Python comment character (\'\#\') as the first character, then it would be executed and it would mark the checkbox as checked. Finally the 5th line moves the Checkbox into position.
+Checkboxes can be off and on in any combination (unlike radio buttons). Line 2 declares one and set\'s it initial Value. Line 3 specifies which method will be executed when the Checkbox is clicked (in this case the method \'onCheckBox1\'). If the 4th line did not have the Python comment character (\'#\') as the first character, then it would be executed and it would mark the checkbox as checked. Finally the 5th line moves the Checkbox into position.
 
 ### Radio Button Creation 
 

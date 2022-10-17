@@ -16,7 +16,7 @@
 
 The [CreateImagePlane](Image_CreateImagePlane.md) tool imports a [bitmap](bitmap.md) image and places it on one of the XY, YZ or XZ planes.
 
-## Использование
+## Применение
 
 1.  Press the **<img src="images/Image_CreateImagePlane.svg" width=16px> [Image CreateImagePlane](Image_CreateImagePlane.md)** button.
 2.  Select the desired image in your system.

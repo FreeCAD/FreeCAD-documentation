@@ -39,7 +39,7 @@ Even a relatively simple sketch may contain dozens of indeterminacies (indicated
 
 *A simple sketch; completely determined by 25 constraints, of which only 5 are dimension constraints.*
 
-This work is clearer and simpler if one immediately eliminates the \"freedoms\" of each added geometric element, i. this \'\' dimensions \'\' (that is, values for dimensions and placements). The provisional completeness is reached if all lines are displayed in green.
+This work is clearer and simpler if one immediately eliminates the \"freedoms\" of each added geometric element, i. this *dimensions* (that is, values for dimensions and placements). The provisional completeness is reached if all lines are displayed in green.
 
 If one waits until the end of the drawing to determine, one finds remaining \"freedoms\" by touching the points and lines with the mouse pointer and determining where they are not yet fixed. When complete, the entire drawing is displayed in green.
 

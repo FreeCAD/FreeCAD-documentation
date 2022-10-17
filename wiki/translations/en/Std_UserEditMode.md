@@ -15,9 +15,7 @@ The **Std UserEditMode** command defines the edit mode to be used when an object
 
 ## Usage
 
-1.  There are several ways to invoke the command   *
-    -   Click on the black down arrow to the right of the **<img src="images/Std_UserEditModeDefault.svg" width=16px> [Std UserEditMode](Std_UserEditMode.md)** button and select an edit mode from the flyout. Note   * the button image will change depending on the selected option.
-    -   In the menu go to **Edit → Edit mode** and select an edit mode.
+1.  In the menu go to **Edit → Edit mode** and select an edit mode.
 
 ## Available edit modes 
 

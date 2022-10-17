@@ -1,5 +1,5 @@
 # Image Module/it
-1.  REDIRECT [Image\_Workbench/it](Image_Workbench/it.md)
+1.  REDIRECT [Image_Workbench/it](Image_Workbench/it.md)
 
 
 

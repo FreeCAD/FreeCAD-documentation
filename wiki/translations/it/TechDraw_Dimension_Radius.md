@@ -1,5 +1,5 @@
 # TechDraw Dimension Radius/it
-1.  REDIRECT [TechDraw\_RadiusDimension/it](TechDraw_RadiusDimension/it.md)
+1.  REDIRECT [TechDraw_RadiusDimension/it](TechDraw_RadiusDimension/it.md)
 
 
 

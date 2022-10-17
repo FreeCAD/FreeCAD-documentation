@@ -1,5 +1,5 @@
 # TechDraw GeomHatch/it
-1.  REDIRECT [TechDraw\_GeometricHatch/it](TechDraw_GeometricHatch/it.md)
+1.  REDIRECT [TechDraw_GeometricHatch/it](TechDraw_GeometricHatch/it.md)
 
 
 

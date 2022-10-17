@@ -40,7 +40,7 @@ v0.2 2022-03-26    * première version
 
 ## Code
 
-**Macro\_Iges\_PyImporter.FCMacro**
+**Macro_Iges_PyImporter.FCMacro**
 
 
 {{MacroCode|code=
@@ -337,7 +337,7 @@ ticker.end()
 # end
 }}
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

@@ -36,11 +36,11 @@ See also   * [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.m
         -   On macOS   * hold down **Option** and click the node or edge.
     -   Select an option from the context menu.
     -   If the selected option requires point input   *
-        -   The [Node task panel](#Node_task_panel.md) opens. See [Options](#Options.md) for more information.
+        -   The [Edit node task panel](#Edit_node_task_panel.md) opens. See [Options](#Options.md) for more information.
         -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 6.  Optionally move a node   *
     -   Click the node in the [3D view](3D_view.md).
-    -   The [Node task panel](#Node_task_panel.md) opens. See [Options](#Options.md) for more information.
+    -   The [Edit node task panel](#Edit_node_task_panel.md) opens. See [Options](#Options.md) for more information.
     -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
     -   The result depends on the object and the selected node.
 7.  Press **Esc** or the **Close** button (the button at the top of the task panel, without the image) to finish the command.
@@ -51,35 +51,31 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ### Main task panel 
 
--   Press **O** or the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button to finish the command. If a single [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) or [Draft BezCurve](Draft_BezCurve.md) has been selected the object is closed.
 -   Press **Esc** or the **Close** button to finish the command.
 
-### Node task panel 
+### Edit node task panel 
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   To use polar coordinates enter a value for the **Length** and a value for the **Angle**, and press **Enter** after each.
 -   Check the **Angle** checkbox to constrain the pointer to the specified angle.
--   The **Relative** checkbox has no purpose for this command.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   The **Continue** checkbox has no purpose for this command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   The **<img src="images/Draft_UndoLine.svg" width=16px> Undo** button has no purpose for this command.
 
 ## Supported objects 
 
 ### <img alt="" src=images/Draft_Line.svg  style="width   *24px;"> [Draft Line](Draft_Line.md) and <img alt="" src=images/Draft_Wire.svg  style="width   *24px;"> [Draft Wire](Draft_Wire.md) 
 
 -   If the start or end node of an open wire is moved so that they coincide, the wire is closed.
--   Node context menu   * {{Value|delete point}}. At least two points must remain.
--   Edge context menu   * {{Value|add point}}, {{Value|reverse wire}} (<small>(v0.20)</small> ).
+-   Node context menu   * {{Value|Delete point}}. At least two points must remain.
+-   Edge context menu   * {{Value|Add point}}, {{Value|Close/Open wire}} (<small>(v1.0)</small> ) and {{Value|Reverse wire}} (<small>(v0.20)</small> ).
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width   *24px;"> [Draft Arc](Draft_Arc.md) and <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *24px;"> [Draft Arc 3Points](Draft_Arc_3Points.md) 
 
--   Center node context menu   * {{Value|move arc}}.
--   Start node context menu   * {{Value|set first angle}}.
--   End node context menu   * {{Value|set last angle}}.
--   Mid node context menu   * {{Value|set radius}}.
--   Edge context menu   * {{Value|invert arc}}. This does not work in FreeCAD version 0.19.
+-   Center node context menu   * {{Value|Move arc}}.
+-   Start node context menu   * {{Value|Set first angle}}.
+-   End node context menu   * {{Value|Set last angle}}.
+-   Mid node context menu   * {{Value|Set radius}}.
+-   Edge context menu   * {{Value|Invert arc}}.
 
 ### <img alt="" src=images/Draft_Circle.svg  style="width   *24px;"> [Draft Circle](Draft_Circle.md) 
 
@@ -100,14 +96,14 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 ### <img alt="" src=images/Draft_BSpline.svg  style="width   *24px;"> [Draft BSpline](Draft_BSpline.md) 
 
 -   If the start or end node of an open spline is moved so that they coincide, the spline is closed.
--   Node context menu   * {{Value|delete point}}. At least two points must remain for an open spline. For a closed spline the minimum number of points is three.
--   Edge context menu   * {{Value|add point}}.
+-   Node context menu   * {{Value|Delete point}}. At least two points must remain for an open spline. For a closed spline the minimum number of points is three.
+-   Edge context menu   * {{Value|Add point}}, {{Value|Close/Open spline}} (<small>(v1.0)</small> ) and {{Value|Reverse spline}} (<small>(v1.0)</small> ).
 
 ### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *24px;"> [Draft CubicBezCurve](Draft_CubicBezCurve.md) and <img alt="" src=images/Draft_BezCurve.svg  style="width   *24px;"> [Draft BezCurve](Draft_BezCurve.md) 
 
 -   If the start or end node of an open curve is moved so that they coincide, the curve is closed.
--   Node context menu   * {{Value|make sharp}}, {{Value|make tangent}}, {{Value|make symmetric}} and {{Value|delete point}}.
--   Edge context menu   * {{Value|add point}}.
+-   Node context menu   * {{Value|Delete point}}, {{Value|Make sharp}}, {{Value|Make tangent}} and {{Value|Make symmetric}}.
+-   Edge context menu   * {{Value|Add point}}, {{Value|Close/Open curve}} (<small>(v1.0)</small> ) and {{Value|Reverse curve}} (<small>(v1.0)</small> ).
 
 ### <img alt="" src=images/Draft_Dimension.svg  style="width   *24px;"> [Draft Dimension](Draft_Dimension.md) 
 
@@ -162,7 +158,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ### <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [Sketcher Sketch](Sketcher_NewSketch.md) 
 
--   Only sketches that contain a single unconstrained line can be edited. This does not work properly in FreeCAD version 0.19.
+-   Only sketches that contain a single unconstrained line can be edited.
 -   No context menus for this object.
 
 ## Preferences

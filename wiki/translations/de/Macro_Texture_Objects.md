@@ -27,7 +27,7 @@ Mit diesem Makro können Sie ein Texturbild vorübergehend auf ausgewählten Obj
 
 ## Skript
 
-**Macro\_Texture\_Objects.FCMacro**
+**Macro_Texture_Objects.FCMacro**
 
 
 {{MacroCode|code=

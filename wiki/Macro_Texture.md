@@ -131,7 +131,7 @@ The beginning of the operation value automatically adapts to the selected functi
 
 The icons .png <img alt="" src=images/FCTexture.png  style="width   *64px;"> and .svg<img alt="" src=images/FCTexture.svg  style="width   *64px;">
 
-**Macro\_Texture.FCMacro**
+**Macro_Texture.FCMacro**
 
 Download the macro to Gist [Macro FCTexture.FCMacro](https   *//gist.github.com/mario52a/262317bc7d8555885b0e)
 
@@ -178,7 +178,7 @@ Image   *Texture 001 Logo.png\|The logo of FreeCAD. Image   *Texture 002 Fe FC.p
 
 <center>
 
-Image   *Texture\_003\_napperon.png\|A portion of a tablecloth. Image   *Texture\_005\_larme.png\|A diamond plate.
+Image   *Texture_003_napperon.png\|A portion of a tablecloth. Image   *Texture_005_larme.png\|A diamond plate.
 
 
 </center>
@@ -217,7 +217,7 @@ Image   *Texture\_003\_napperon.png\|A portion of a tablecloth. Image   *Texture
 <File   *FCTexture_Example.gif%7CProcedure> for create solid   *
 **1   *** Create loft with the <img alt="" src=images/Part_RuledSurface.svg  style="width   *24px;"> tools or with the <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;"> [Macro Loft](Macro_Loft.md)
 **2   *** Select all and extrude with the tools <img alt="" src=images/Part_Extrude.svg  style="width   *24px;">
-**3A   *** For Linux Download [GMSHMesh](https   *//github.com/psicofil/Macros_FreeCAD) (author psicofil) [Macro\_GMSH Wiki page](Macro_GMSH.md)
+**3A   *** For Linux Download [GMSHMesh](https   *//github.com/psicofil/Macros_FreeCAD) (author psicofil) [Macro_GMSH Wiki page](Macro_GMSH.md)
 **3B   *** For Windows Download [GmshMesh2.zip](http   *//forum.freecadweb.org/download/file.php?id=15220) unzip the file and install it in your Mod directory (author ulrich1a)
 **4   *** Create your Mesh file and use it
 
@@ -264,7 +264,7 @@ The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;
                 ####new
 ```
 
--   ver 0.13b   * 30/12/2020 add try for **time.clock()** and **time.process\_time()** for Python 3xyz\...
+-   ver 0.13b   * 30/12/2020 add try for **time.clock()** and **time.process_time()** for Python 3xyz\...
 -   ver 0.13    * 17/04/2020 Layout and PySide2 Qt5
 -   ver 0.12    * 04/08/2019 add spinbox button for height
 -   ver 0.11    *03/07/2019 adapt to Python 3
@@ -277,7 +277,7 @@ The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;
 
 -   ver 0.4    * 08/08/2014 PyQt4 PySide
 
--   ver 0.3    * 28/03/2014    *comment out the line \"**\# self.checkBox\_5.setAccessibleName(\_fromUtf8(\"\"))**\"
+-   ver 0.3    * 28/03/2014    *comment out the line \"**\# self.checkBox_5.setAccessibleName(\_fromUtf8(\"\"))**\"
 
 that causes an error with the version FreeCAD    * Version   * 0.14.3343 (Git), Python version   * 2.7.6, Qt version   * 4.8.5
 

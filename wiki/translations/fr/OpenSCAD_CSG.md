@@ -39,7 +39,7 @@ Les objets dérivés de **Part   *   *Feature** ne sont pas (encore) pris en cha
 
  {{OpenSCAD Tools navi}}
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

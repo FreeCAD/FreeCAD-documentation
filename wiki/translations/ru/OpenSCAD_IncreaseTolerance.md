@@ -1,5 +1,5 @@
 # OpenSCAD IncreaseTolerance/ru
-1.  REDIRECT [OpenSCAD\_IncreaseToleranceFeature/ru](OpenSCAD_IncreaseToleranceFeature/ru.md)
+1.  REDIRECT [OpenSCAD_IncreaseToleranceFeature/ru](OpenSCAD_IncreaseToleranceFeature/ru.md)
 
 
 

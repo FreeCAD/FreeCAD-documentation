@@ -28,7 +28,7 @@ Copy the macro in your macro directory, create your tool bar and launch.
 
 ToolBar Icon .PNG ![](images/Macro_ExpandTreeItem.png ) and the .SVG ![](images/Macro_ExpandTreeItem.svg )
 
-**Macro\_ExpandTreeItem.FCMacro**
+**Macro_ExpandTreeItem.FCMacro**
 
 
 {{MacroCode|code=

@@ -7,7 +7,7 @@ Aktuell stößt das FreeCAD-Repository auf GitHub einen Build auf den beiden unt
 
 ### TravisCI
 
-<img alt="" src=images/Travis-logo.png  style="width   *50px;"> Tests gegen Linux und OSX. Die Konfigurationsdatei namens [.travis.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) ist im obersten Verzeichnis von FreeCAD zu finden. Aktuelle und vergangene Builds sind [hier](https   *//travis-ci.org/FreeCAD/FreeCAD/builds) zu finden.
+<img alt="" src=images/Travis-logo.png  style="width   *50px;"> Tests gegen Linux und OSX. Die Konfigurationsdatei namens [.travis.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) ist im obersten Verzeichnis von FreeCAD zu finden. Aktuelle und vergangene Builds sind [hier](https   *//travis-ci.com/FreeCAD/FreeCAD/builds) zu finden.
 
 ### Appveyor
 
@@ -27,7 +27,7 @@ Aktuell stößt das FreeCAD-Repository auf GitHub einen Build auf den beiden unt
 
  
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
 
 
 

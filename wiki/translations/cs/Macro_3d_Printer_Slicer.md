@@ -31,7 +31,7 @@ Proměnnou SLICER lze změnit na libovolný řezací software podle vašeho výb
 
 ToolBar Icon ![](images/Macro_3d_Printer_Slicer.png )
 
-**Macro\_3d\_Printer\_Slicer.py**
+**Macro_3d_Printer_Slicer.py**
 
 
 {{MacroCode|code=

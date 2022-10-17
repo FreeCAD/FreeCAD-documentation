@@ -6,6 +6,7 @@
    Time   *1 heure
    FCVersion   *0.17 ou ultérieure
    Files   *[https   *//github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd]
+   SeeAlso   *[Créer une simple pièce avec l'atelier Part](Creating_a_simple_part_with_Part_WB/fr.md), [Créer une simple pièce avec les ateliers Draft et Part](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md)
 ---
 
 # Creating a simple part with PartDesign/fr
@@ -52,7 +53,7 @@ Nous allons maintenant dessiner l\'esquisse (ou sketch) qui possède la forme g�
 
 Ici, comme la forme générale de la pièce est régulière suivant l\'axe des Y, nous allons faire un Pad suivant cet axe, une extrusion d\'une forme.
 
-Cliquez sur <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [Nouvelle esquisse](Sketcher_NewSketch/fr.md). La vue combinée bascule maintenant sur l\'onglet **Tâches** et affiche le dialogue *Sélectionner une fonction*. Ce dialogue demande la sélection d\'un plan sur lequel appliquer notre esquisse, et liste les plans disponibles. Choisissez *XZ\_Plane (Plan de base)* et appuyez sur **OK**. L\'interface change alors, c\'est à présent l\'atelier \"Sketcher\" qui prend le relais. Nous nous retrouvons sur le plan XZ du corps (Body) pour tracer l\'esquisse.
+Cliquez sur <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [Nouvelle esquisse](Sketcher_NewSketch/fr.md). La vue combinée bascule maintenant sur l\'onglet **Tâches** et affiche le dialogue *Sélectionner une fonction*. Ce dialogue demande la sélection d\'un plan sur lequel appliquer notre esquisse, et liste les plans disponibles. Choisissez *XZ_Plane (Plan de base)* et appuyez sur **OK**. L\'interface change alors, c\'est à présent l\'atelier \"Sketcher\" qui prend le relais. Nous nous retrouvons sur le plan XZ du corps (Body) pour tracer l\'esquisse.
 
 Pour faciliter le dessin, vérifiez à gauche dans \"Modifier les contrôles\" les options choisies    *
 
@@ -165,7 +166,7 @@ Cavité (\"Pocket\" en anglais) est une fonction dite \"soustractive\", elle enl
 
 Il est possible de changer la couleur de la pièce, c\'est souvent utile pour distinguer une pièce parmi d\'autres. La transparence de la pièce peut être aussi modifiée, ce qui est pratique pour visualiser les formes internes.
 
-Sélectionnez le corps **Body part1** ; assurez-vous que l\'onglet Modèle de la vue combinée est sélectionné, et allez dans la partie inférieure de la vue combinée, cliquez sur l\'onglet Vue ; localisez la propriété *Shape Color*; vous devrez peut-être utiliser la barre de défilement verticale vers la droite pour la trouver. \'\'Vous pouvez également élargir la colonne Propriété    * placez le pointeur de votre souris sur la ligne séparant les en-têtes *Property* et *Value* ; lorsque le pointeur se transforme en une flèche à 2 sens, maintenez le bouton gauche de la souris enfoncé, faites glisser le curseur latéralement, puis relâchez-le.\'\' Dans la colonne de droite, cliquez sur le carré gris, ce qui ouvre la boîte de dialogue **Sélectionner une couleur**. Choisissez une autre couleur, puis cliquez sur OK. Ensuite, toujours dans l\'onglet Vue, définissez la valeur Transparency (transparence), par exemple sur 50, puis appuyez sur **Entrée** pour terminer (0 = totalement opaque, 100 = totalement transparent).
+Sélectionnez le corps **Body part1** ; assurez-vous que l\'onglet Modèle de la vue combinée est sélectionné, et allez dans la partie inférieure de la vue combinée, cliquez sur l\'onglet Vue ; localisez la propriété *Shape Color*; vous devrez peut-être utiliser la barre de défilement verticale vers la droite pour la trouver. *Vous pouvez également élargir la colonne Propriété    * placez le pointeur de votre souris sur la ligne séparant les en-têtes*Property*et*Value*; lorsque le pointeur se transforme en une flèche à 2 sens, maintenez le bouton gauche de la souris enfoncé, faites glisser le curseur latéralement, puis relâchez-le.* Dans la colonne de droite, cliquez sur le carré gris, ce qui ouvre la boîte de dialogue **Sélectionner une couleur**. Choisissez une autre couleur, puis cliquez sur OK. Ensuite, toujours dans l\'onglet Vue, définissez la valeur Transparency (transparence), par exemple sur 50, puis appuyez sur **Entrée** pour terminer (0 = totalement opaque, 100 = totalement transparent).
 
 Le trou est désormais visible à l'intérieur de la pièce. C\'est souvent utile pour voir les faces cachées ou internes du modèle.
 

@@ -1,5 +1,5 @@
 # FEM MeshPrintInfo
-1.  REDIRECT [FEM\_MeshDisplayInfo](FEM_MeshDisplayInfo.md)
+1.  REDIRECT [FEM_MeshDisplayInfo](FEM_MeshDisplayInfo.md)
 
 
 

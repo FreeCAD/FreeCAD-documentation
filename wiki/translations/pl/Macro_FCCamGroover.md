@@ -24,7 +24,7 @@ The object created is similar to the one shown in this [youtube video](https   *
 
 ToolBar Icon ![](images/Cam-groover-icon-32x32.png )
 
-**Macro\_FCCamGroover.FCMacro**
+**Macro_FCCamGroover.FCMacro**
 
 
 {{MacroCode|code=

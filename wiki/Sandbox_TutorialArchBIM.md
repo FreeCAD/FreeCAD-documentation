@@ -135,7 +135,7 @@ To model your project using plan views, sections and elevations, another method 
 
 ![](images/At2_Tip.png )Tip You may also want to try to import or save the various views into separate [FCStd](File_Format_FCStd.md) files. This keeps the files smaller and quicker to work with. Naming of files is Your choice, but it is a good idea to use a naming convention.
 
-Example files produced at various levels of this tutorial will be placed on [GitHub FreeCad Examples at2\_Examples](https   *//github.com/FreeCAD/Examples/tree/master/at2_Examples)
+Example files produced at various levels of this tutorial will be placed on [GitHub FreeCad Examples at2_Examples](https   *//github.com/FreeCAD/Examples/tree/master/at2_Examples)
 
 *For dxf files, they are placed in a directory named ./ref/dxf below the project directory. If You want to skip this step, the imported dxf files can be found here.*
 
@@ -271,7 +271,7 @@ By placing and rotating the imported 2d view, You will have a good way of checki
 
 ![](images/At2_Fixme.gif )FIXME needs documenting
 
-After starting to look at [\#WokFeature\_Approach](#WokFeature_Approach.md). Think this is a great way of implementing working planes.
+After starting to look at [#WokFeature_Approach](#WokFeature_Approach.md). Think this is a great way of implementing working planes.
 
 ## Modeling
 
@@ -333,7 +333,7 @@ One way of doing this is creating a new file.
 -   Activate Your new file
 -   Choose Edit-\>Paste, or Ctrl+v
 -   Save Your new file to something meaningful for Your workflow.
-    -   Suggestion At2\_Walls\_Initial
+    -   Suggestion At2_Walls_Initial
 
 With this work flow   *
 
@@ -569,7 +569,7 @@ The cut results in error when exporting
 
 #### Roof Center Slab 
 
-Open at2\_ReferenceComplete ([can be downloaded from here](https   *//github.com/FreeCAD/Examples/blob/master/at2_Examples/ref/2dReferenceComplete.fcstd))
+Open at2_ReferenceComplete ([can be downloaded from here](https   *//github.com/FreeCAD/Examples/blob/master/at2_Examples/ref/2dReferenceComplete.fcstd))
 
 ![](images/AT2_RoofCenterSlab.svg.png )
 
@@ -665,7 +665,7 @@ Try to use [Work features](Macro_WorkFeatures.md), installed as WorkBench
 
 <img alt="" src=images/WF.png  style="width   *800px;">
 
-Also try [Macro\_Align\_View\_to\_Face](Macro_Align_View_to_Face.md)
+Also try [Macro_Align_View_to_Face](Macro_Align_View_to_Face.md)
 
 [For Myself\....](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=10838)
 
@@ -826,7 +826,7 @@ Reference any input from users or outside sources
 
 ### FCStd file 
 
-\[File\_Format\_FCStd\| File FormatFCStd\]
+\[File_Format_FCStd\| File FormatFCStd\]
 
 ### Command line 
 

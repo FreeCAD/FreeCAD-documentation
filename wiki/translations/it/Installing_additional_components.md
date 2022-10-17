@@ -107,7 +107,7 @@ Vedere [Preferenze di Importa/Esporta](Import_Export_Preferences/it#DWG.md) e [I
 
 ### OpenFOAM
 
-[OpenFOAM](https   *//openfoam.org) è una vasta raccolta di librerie per simulazioni di fluidodinamica computazionale (CFD). OpenFOAM è utilizzato dall\'ambiente [Cfd](Cfd_Workbench/it.md) e [CfdOF](https   *//github.com/jaheyns/CfdOF) [external\_workbench](external_workbench.md).
+[OpenFOAM](https   *//openfoam.org) è una vasta raccolta di librerie per simulazioni di fluidodinamica computazionale (CFD). OpenFOAM è utilizzato dall\'ambiente [Cfd](Cfd_Workbench/it.md) e [CfdOF](https   *//github.com/jaheyns/CfdOF) [external_workbench](external_workbench.md).
 
 # Pagine correlate 
 

@@ -1,5 +1,12 @@
 ---
-- TutorialInfo   */it   Topic   *Programmazione   Level   *Medio   Time   *15 minuti   FCVersion   *Tutte   Author   *[[User   *R-Frank   r-frank]]|Files   *none}}
+- TutorialInfo   */it   Topic   *Programmazione   Level   *Medio   Time   *15 minuti   FCVersion   *Tutte   Author   *[[User   *R-Frank   r-frank]]|Files   *none
+---
+
+# How to install additional workbenches/it
+
+
+
+
 
 ## Descrizione
 
@@ -44,6 +51,8 @@ Usare [addons-installer da Github](https   *//github.com/FreeCAD/FreeCAD-addons)
 Durante il Google Summer of Code 2016 lo studente Mandeep Singh ha iniziato a lavorare su una versione migliore
 ([disponibile qui](https   *//github.com/mandeeps708/PluginManager)) ma tale versione necessita di ulteriori lavori prima di poter essere completamente integrata in FreeCAD.
 
+### Manual Install 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -86,22 +95,27 @@ Come installare ulteriori ambienti e componenti aggiuntivi su Linux
 
 <div class="mw-collapsible-content">
 
+### Using git 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Usando git 
 
 Aggiungere il [community-ppa](https   *//launchpad.net/~freecad-community/+archive/ubuntu/ppa) al ppa-manager.
 Installare gli ambienti tramite il gestore dei pacchetti synaptic.
 
 
-{{Code   code   *
+</div>
+
+
+```python
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
 $ git clone https   *//github.com/tomate44/CurvesWB.git
----
+```
 
-# How to install additional workbenches/it
-
- 
 Ora negli ambienti di FreeCAD ci dovrebbe essere una nuova voce denominata \"CurvesWB\". Una volta installato, utilizzare git per l\'aggiornamento alla versione più recente in questo modo   *
 
 
@@ -110,6 +124,8 @@ $ cd ~/.FreeCAD/Mod/CurvesWB
 $ git pull
 $ rm *.pyc
 ```
+
+### Manual Installation 
 
 
 <div class="mw-translate-fuzzy">
@@ -148,6 +164,8 @@ Come installare ulteriori ambienti e componenti aggiuntivi su MacOS
 
 
 <div class="mw-collapsible-content">
+
+### Manual Installation 
 
 
 <div class="mw-translate-fuzzy">
@@ -193,9 +211,7 @@ Per questo esempio, supponiamo di aver scelto [Curves](Curves_Workbench/it.md) c
     -   vedere nel forum questa discussione   * [Assembly2 in Version   * 0.16.5602 (Git)](http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
-{{Userdocnavi
-
-}} 
+ 
 
 [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 

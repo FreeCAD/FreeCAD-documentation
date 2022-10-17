@@ -353,7 +353,7 @@ To extrude letters and engrave them on to solids, see the [Draft ShapeString tut
 
 #### Crearea planşelor 
 
-Pentru a realiza planşe, este necesară crearea unei pagini \'\'\'Desenare \'\'\' cu elementele pe care doriţi să le folosiţi. Vă rugăm să citiţi [Îndrumător pentru Desenare](Drawing_tutorial/ro.md) pentru o descriere detaliată.
+Pentru a realiza planşe, este necesară crearea unei pagini **Desenare** cu elementele pe care doriţi să le folosiţi. Vă rugăm să citiţi [Îndrumător pentru Desenare](Drawing_tutorial/ro.md) pentru o descriere detaliată.
 
 
 </div>

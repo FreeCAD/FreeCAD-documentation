@@ -1,5 +1,5 @@
 # Ship TankNew/de
-1.  REDIRECT [Ship\_Tank/de](Ship_Tank/de.md)
+1.  REDIRECT [Ship_Tank/de](Ship_Tank/de.md)
 
 
 

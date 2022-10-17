@@ -72,4 +72,4 @@ Jeśli szukasz przełączania persektywnego i ortogonalnego w widoku 3D, sprawd�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/pl

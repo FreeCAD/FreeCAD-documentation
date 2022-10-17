@@ -21,7 +21,7 @@ Cette macro crée un composé conique (ou pas) avec un écrou et une fente de fr
 
 ## Script
 
-The ToolBar Icon ![Macro\_Guitar\_fretboard](images/Macro_Guitar_fretboard.png )
+The ToolBar Icon ![Macro_Guitar_fretboard](images/Macro_Guitar_fretboard.png )
 
 **Macro Guitar fretboard.FCMacro**
 

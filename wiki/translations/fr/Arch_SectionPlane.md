@@ -65,7 +65,7 @@ Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objet
 
 ## Ajustements
 
--   Ajout manuel d\'une propriété nommée **RotateSolidRender** de type **App   *   *PropertyAngle** aux propriétés \'\' \'View\' \'\' du plan de coupe (cliquez avec le bouton droit sur la vue des propriétés -\> tout afficher, clic droit de nouveau -\> ajouter une propriété) permet de faire pivoter le rendu lors de l\'utilisation du mode Solide. Ceci est utile lorsqu\'une vue rendue comporte, par exemple, des éléments Arch et Draft, et que le rendu des éléments Arch pivote par rapport aux éléments Draft. {{version/fr|0.19}}
+-   Ajout manuel d\'une propriété nommée **RotateSolidRender** de type **App   *   *PropertyAngle** aux propriétés *\'View\'* du plan de coupe (cliquez avec le bouton droit sur la vue des propriétés -\> tout afficher, clic droit de nouveau -\> ajouter une propriété) permet de faire pivoter le rendu lors de l\'utilisation du mode Solide. Ceci est utile lorsqu\'une vue rendue comporte, par exemple, des éléments Arch et Draft, et que le rendu des éléments Arch pivote par rapport aux éléments Draft. {{version/fr|0.19}}
 
 ## Script
 

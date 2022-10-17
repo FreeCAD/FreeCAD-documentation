@@ -56,7 +56,7 @@ Dopo la sua creazione l\'ellissoide può essere modificato in due modi   *
 
 -    {{PropertyData/it|Angle2}}   * (non etichettato nei parametri primitivi) troncatura superiore dell\'ellissoide, parallelo alla sezione trasversale circolare (90 gradi in uno sferoide completo).
 
--    {{PropertyData/it|Angle3}}   * (etichettato \'\' parametro U \'\' nei parametri primitivi) angolo di rotazione della sezione trasversale ellittica (360 gradi in uno sferoide completo).
+-    {{PropertyData/it|Angle3}}   * (etichettato *parametro U* nei parametri primitivi) angolo di rotazione della sezione trasversale ellittica (360 gradi in uno sferoide completo).
 
 
 </div>

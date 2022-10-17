@@ -1,5 +1,5 @@
 # FAQ/hr
-1.  REDIRECT [Frequently\_asked\_questions/hr](Frequently_asked_questions/hr.md)
+1.  REDIRECT [Frequently_asked_questions/hr](Frequently_asked_questions/hr.md)
 
 
 

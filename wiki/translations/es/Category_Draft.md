@@ -1,5 +1,5 @@
 # Category:Draft/es
-This category list pages related to the \"User\_Documentation/es\" and \"Workbenches/es\"
+This category list pages related to the \"User_Documentation/es\" and \"Workbenches/es\"
 
 [Category   *User Documentation/es](Category   *User_Documentation/es.md) [Category   *Workbenches/es](Category   *Workbenches/es.md)
 

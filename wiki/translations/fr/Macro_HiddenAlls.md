@@ -19,7 +19,7 @@ Cette macro cache tous les objets du document (Visibility False).
 
 Icône de la barre d\'outils <img alt="" src=images/Macro_HiddenAlls.png  style="width   *64px;">
 
-**Macro\_HidenAlls.FCMacro**
+**Macro_HidenAlls.FCMacro**
 
 
 {{MacroCode|code=

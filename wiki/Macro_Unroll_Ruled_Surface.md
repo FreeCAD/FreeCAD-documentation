@@ -28,7 +28,7 @@ See also   * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org
 -   Page format   * A4/A3, cartridge (cf FreeCAD templates).
 -   Group drawings on the same page if possible.
 
- ![Macro\_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png ) 
+ ![Macro_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png ) 
 
 ## Usage
 
@@ -39,11 +39,11 @@ See also   * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org
 
 ## Script
 
-The latest version of the macro is here on the wiki. An earlier version can be found at [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), but the easiest way to install this macro is through the <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr.md).
+The latest version of the macro is here on the wiki. An earlier version can be found at [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), but the easiest way to install this macro is through the <img alt="Std_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr.md).
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 
- **Macro\_unrollRuledSurface.py**
+ **Macro_unrollRuledSurface.py**
 
     # -*- coding   * utf-8 -*-
     #***************************************************************************

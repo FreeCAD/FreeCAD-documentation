@@ -68,7 +68,7 @@
 **Сектор 4   * вершины и детали**
 
 -   CheckBox для поиска или не все детали объекта, если не отмечен, отображаются только основные значения.
--   Вершины и детали фигуры (compt\_Edge), (compt\_Faces), (compt\_Vector of Face)
+-   Вершины и детали фигуры (compt_Edge), (compt_Faces), (compt_Vector of Face)
     макс. 200 строк в таблице, если отображается более 200 строк (! + 200) и количество строки
     (полная информация может быть сохранена с помощью кнопки **Save** в файле в формате CSV, и его можно просмотреть в электронной таблице с помощью **Read** или с помощью внешней таблицы в виде[LibreOffice](https   *//www.libreoffice.org/) [OpenOffice](http   *//openoffice.apache.org/downloads.html) or other)
 
@@ -87,7 +87,7 @@
 -   *\'оценка*, например   * 194.257636235 гон
 -   **pourcent** ex   * 30 ° = 57,74%
 -   Наклоны в плоскостях XY, YZ, ZX и их координаты
--   **Направление объекта**, укажите направление объекта для расчета   * координируйте\_1 - координируйте\_2 = направление (или обратное)
+-   **Направление объекта**, укажите направление объекта для расчета   * координируйте_1 - координируйте_2 = направление (или обратное)
     -   
         **Line**
         
@@ -118,7 +118,7 @@
 
 <div class="mw-translate-fuzzy">
 
-\'\' \'Сектор 7   * BoundBox\' \'\'
+*\'Сектор 7   * BoundBox\'*
 
 -   BoundBox экстремальные размеры фигуры
 
@@ -216,7 +216,7 @@ COMMA - это старый (01.16 и ранее) разделитель мак�
 
 <center>
 
-Image   *Macro\_FCInfo\_04.png\|Docked to rigth, Image   *Macro FCInfo 05.png\|or left with Combo view and reachable by a tab, or not docked to the choice.
+Image   *Macro_FCInfo_04.png\|Docked to rigth, Image   *Macro FCInfo 05.png\|or left with Combo view and reachable by a tab, or not docked to the choice.
 
 
 </center>
@@ -311,8 +311,8 @@ the \"spinBox\" is set to **7,5** kg, средняя плотность стал
 
 Скопируйте содержимое макроса в файл с именем \"FCInfo.FCMacro\"
 
--   Windows   * the form is usually **\" drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
--   Ubuntu   * the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+-   Windows   * the form is usually **\" drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu   * the form is usually **\" /home/your_user_name/.FreeCAD \"**.
 
 Или прямо в интерфейсе FreeCAD
 Значок должен находиться в том же каталоге, что и макрос.
@@ -323,8 +323,8 @@ the \"spinBox\" is set to **7,5** kg, средняя плотность стал
 
 Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
 
--   Windows   * the form is usually **\" drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
--   Ubuntu   * the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+-   Windows   * the form is usually **\" drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu   * the form is usually **\" /home/your_user_name/.FreeCAD \"**.
 
 Or, directly in the interface of FreeCAD
 The icon must be in the same directory as the macro.
@@ -344,7 +344,7 @@ Download image positioning on the icon <img alt="" src=images/FCInfo.png  style=
 
 <div class="mw-translate-fuzzy">
 
-Существует также FCInfo\_Alternate\_Linux только для FreeCAD версии 0.13 \... и PyQt4
+Существует также FCInfo_Alternate_Linux только для FreeCAD версии 0.13 \... и PyQt4
 
 
 <div class="mw-collapsible-content">
@@ -355,7 +355,7 @@ Download image positioning on the icon <img alt="" src=images/FCInfo.png  style=
 
 <div class="mw-translate-fuzzy">
 
-Также есть [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) здесь код изменяется (из-за ошибки отображения символов    * **² ³ ° μ** порядковый номер не в диапазоне (128)\") что создает проблемы в определенных конфигурациях, функции одинаковы
+Также есть [Macro_FCInfo_Alternate_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) здесь код изменяется (из-за ошибки отображения символов    * **² ³ ° μ** порядковый номер не в диапазоне (128)\") что создает проблемы в определенных конфигурациях, функции одинаковы
 Example    * 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
@@ -529,7 +529,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 -   ver 1.16 , 21/06/2017 add control height police (here PointSize 8) and checkbox for position the window to right or left
 -   ver 1.15 , 19/12/2015 suppression PyQt4 option [see](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=13541) , add checkBox for editing infos in report view
 -   ver 1.14 , 04/08/2014 replace PyQt4 and PySide and correct tooltip not displayed cause on PySide and add fg
--   ver 1.13 , 27/07/2014 replace FCInfo\_en\_Ver\_1-12\_Docked.FCMacro to FCInfo\_en\_Ver\_1-13\_Docked.FCMacro accept PyQt4 and PySide
+-   ver 1.13 , 27/07/2014 replace FCInfo_en_Ver_1-12_Docked.FCMacro to FCInfo_en_Ver_1-13_Docked.FCMacro accept PyQt4 and PySide
 -   ver 1.12 , 10/03/2014 adding tooltip
 -   ver 1.11 , 04/03/2014 adding µm, nm, pm, fm, µg, ng, pg, pourcent, fixed of grandeur carat ~~\"cd\"~~ in **\"ct\"**, display of the label and internal name, fixed calculation of angles XY YZ ZX could give an error on a compound shape, window dockable in FreeCAD
 -   ver 1.10.b , 19/11/2013 buttons outside the scrollbar and the dimensions of the window blocking
@@ -537,7 +537,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 (ver 1.10 , 18/11/2013 create scrollbar)
 \*ver 1.08.b , 10/11/2013 translation units in English, error correction to display the area of the faces listed in the table and replacement of the\"**print**\" by \"**App.Console.PrintMessage**\"
 ~~ver 1.09 , 04/11/2013 works perfectly on Windows and Linux (cause of errors on Linux the characters    * ² ³ ° \"ordinal not in range(128)\")~~
-In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro\_FCInfo\_Alternate\_Linux](Macro_FCInfo_Alternate_Linux.md)
+In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
 \*ver 1.08 , 24/10/2013 correction of high top \"Faces\" and \"Edges\" displaying 100 objects (in the saved file)
 \*ver 1.07 , 11/10/2013 matches the \"Faces\" and their coordinates.
 \*ver 1.06 , 22/09/2013 matches the \"Edges\" and their coordinates, inclination on the element rather than the global object

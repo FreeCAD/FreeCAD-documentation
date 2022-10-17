@@ -30,7 +30,7 @@ Select the plot tab that you want to edit, and run this tool. Then you can selec
 
  {{Plot_Tools_navi}} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

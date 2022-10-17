@@ -35,7 +35,7 @@ Sur lancement du macro (par bouton ou a partir du liste des macros) les fenêtre
 
 Toolbar icon ![](images/Macro_Toggle_Views_Visibility.png )
 
-**Macro\_Toggle\_Panels\_Visibility.FCMacro**
+**Macro_Toggle_Panels_Visibility.FCMacro**
 
 
 {{MacroCode|code=

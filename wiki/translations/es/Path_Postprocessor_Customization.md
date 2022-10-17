@@ -105,7 +105,7 @@ Este post discute algunos aspectos internos de los postprocesadores linuxcnc. La
 
 This post discusses some internals from the linuxcnc postprocessors. The same strucure is used in other postprocessors as well.
 
-Mirando linux\_cnc\_post.py, verás la función de exportación (a partir de 0.19.20514 está en la línea 156)
+Mirando linux_cnc_post.py, verás la función de exportación (a partir de 0.19.20514 está en la línea 156)
 
 
 ```python

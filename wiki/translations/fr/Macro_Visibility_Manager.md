@@ -19,7 +19,7 @@ Utilisez cette macro pour gérer la visibilité des objets de document par type 
 
 Icône de la toolBar ![](images/Macro_Visibility_Manager.png )
 
-**Macro\_Visibility\_Manager.FCMacro**
+**Macro_Visibility_Manager.FCMacro**
 
 
 {{MacroCode|code=

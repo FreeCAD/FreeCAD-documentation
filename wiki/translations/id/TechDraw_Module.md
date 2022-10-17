@@ -1,5 +1,5 @@
 # TechDraw Module/id
-1.  REDIRECT [TechDraw\_Workbench/id](TechDraw_Workbench/id.md)
+1.  REDIRECT [TechDraw_Workbench/id](TechDraw_Workbench/id.md)
 
 
 

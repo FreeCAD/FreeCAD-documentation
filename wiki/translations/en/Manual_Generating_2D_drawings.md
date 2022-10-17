@@ -21,7 +21,7 @@ In the following exercise, we will see how to create a simple drawing of a chair
 
 -   Switch to the <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw Workbench](TechDraw_Workbench.md)
 -   Press the <img alt="" src=images/TechDraw_PageTemplate.svg  style="width   *16px;"> [TechDraw PageTemplate](TechDraw_PageTemplate.md) button.
--   Select the **A4\_Portrait\_ISO7200TD** template. A new tab will open in your FreeCAD window, showing the new page.
+-   Select the **A4_Portrait_ISO7200TD** template. A new tab will open in your FreeCAD window, showing the new page.
 -   In the [tree view](tree_view.md) (or in the model tab), select the chair model. It will most likely be named something like \"Open CASCADE STEP translator.\"
 -   Press the <img alt="" src=images/TechDraw_View.svg  style="width   *16px;"> [TechDraw View](TechDraw_View.md) button.
 -   A View object will be created on our page. Select the view object in the tree view, and then give the view the following [properties](TechDraw_View#Properties.md) in the data tab of the combo view   *

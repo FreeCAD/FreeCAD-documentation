@@ -307,7 +307,7 @@ By default, [PartDesign Features](PartDesign_Feature.md) inside a Body are selec
 
 <div class="mw-translate-fuzzy">
 
-Prin urmare, pentru interacțiunile cu alte bannere de lucru, numai corpul însuși ar trebui selectat din arborele Model. În cazurile în care este necesar să se selecteze topologia specifică pe corp (vârf, muchie, față), atunci proprietatea de vizualizare **Display Mode Body** poate fi comutată de la \'\'Through \'\' (implicit) la *Tip*. Această proprietate este accesibilă din panoul Vizualizare. În modul \"Tip\", accesul la obiectele din corp (funcții, date, schițe) este dezactivat; totul, dar caracteristica vârf va fi ascuns în vizualizarea 3D, indiferent de obiectul care este setat ca vizibil.
+Prin urmare, pentru interacțiunile cu alte bannere de lucru, numai corpul însuși ar trebui selectat din arborele Model. În cazurile în care este necesar să se selecteze topologia specifică pe corp (vârf, muchie, față), atunci proprietatea de vizualizare **Display Mode Body** poate fi comutată de la *Through* (implicit) la *Tip*. Această proprietate este accesibilă din panoul Vizualizare. În modul \"Tip\", accesul la obiectele din corp (funcții, date, schițe) este dezactivat; totul, dar caracteristica vârf va fi ascuns în vizualizarea 3D, indiferent de obiectul care este setat ca vizibil.
 
 
 </div>

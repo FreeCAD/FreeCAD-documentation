@@ -50,7 +50,7 @@ Il est à noter que le solide généré ne sera **pas** paramétrique. Si vous d
 
 ToolBar Icon ![](images/Macro_Solid_Sweep.png )
 
-**Macro\_Solid\_Sweep.FCMacro**
+**Macro_Solid_Sweep.FCMacro**
 
 
 {{MacroCode|code=

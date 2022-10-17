@@ -177,7 +177,7 @@ As a resource   * there is an excellent explanation on - [Jason\'s Blog](https  
 
 # Harvesting from IFC 
 
-[IfcOpenShell\_code\_examples](https   *//wiki.osarch.org/index.php?title=IfcOpenShell_code_examples)
+[IfcOpenShell_code_examples](https   *//wiki.osarch.org/index.php?title=IfcOpenShell_code_examples)
 
 [Category   *Sandbox](Category_Sandbox.md)
 

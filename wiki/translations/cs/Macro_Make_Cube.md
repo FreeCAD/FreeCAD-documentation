@@ -19,7 +19,7 @@ Toto makro vytvoří kostku tím, že požádá o 4 body
 
 ToolBar Icon ![](images/Macro_makeCube.png )
 
-**Macro\_Make\_Cube.FCMacro**
+**Macro_Make_Cube.FCMacro**
 
 
 {{MacroCode|code=

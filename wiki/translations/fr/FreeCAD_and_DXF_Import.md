@@ -31,7 +31,7 @@ Pour FreeCAD version 0.14 ou antérieure, vous devez les installer manuellement.
 
 -   Sous Windows, votre dossier de macros est normalement   *
 
-C   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD
+C   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD
 
 voir aussi   * [Installation du module d\'import DXF](Dxf_Importer_Install/fr.md)
 
@@ -51,7 +51,7 @@ Vous pouvez également essayer   *
 
 Pour un aperçu de toutes les préférences liées à DXF, voir les [Préférences d\'Import Export](Import_Export_Preferences/fr#DXF.md).
 
-[Category   *User\_Documentation](Category_User_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *User_Documentation](Category_User_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

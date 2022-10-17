@@ -12,13 +12,13 @@
 
 ## Description
 
-Ce code faisait partie intégrante de l\' [atelier Draft](Draft_Workbench/fr.md) et a été retiré voir [issue \#490](http   *//freecadweb.org/tracker/view.php?id=490).
+Ce code faisait partie intégrante de l\' [atelier Draft](Draft_Workbench/fr.md) et a été retiré voir [issue #490](http   *//freecadweb.org/tracker/view.php?id=490).
 
 ## Script
 
 Icône de la barre d\'outils ![](images/Macro_MacroMenu.png )
 
-**Macro\_MacroMenu.FCMacro**
+**Macro_MacroMenu.FCMacro**
 
 
 {{MacroCode|code=

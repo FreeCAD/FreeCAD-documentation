@@ -22,7 +22,7 @@ Funcția **Placement** poate fi accesată în mai multe feluri   *
 
 -   sau, îm fereastra **Combo View → Properties → Data → Placement → **...****,
 
-![Task\_Placement](images/_Tache_Placement_fr_01.png )
+![Task_Placement](images/_Tache_Placement_fr_01.png )
 
 -   sau prin meniul **Edit → Placement\...**.
 
@@ -35,7 +35,7 @@ Funcția **Placement** poate fi accesată în mai multe feluri   *
 <div class="mw-translate-fuzzy">
 
 -   Click pe o formă pentru a o selecta.
--   Click pe **Placement** (titlul, nu mica săgeată) și un buton cu trei puncte apare   * ![ 256px \| Tache\_Placement](images/_Tache_Placement_01_fr_00.png )
+-   Click pe **Placement** (titlul, nu mica săgeată) și un buton cu trei puncte apare   * ![ 256px \| Tache_Placement](images/_Tache_Placement_01_fr_00.png )
 -   click pe acest buton, și este afișat **Placement Dialog**    *
 
 
@@ -108,7 +108,7 @@ Pentru a regla **rotation parameters** , avem două metode disponibile.
 
 <div class="mw-translate-fuzzy">
 
--   Prima oțiune. Selectați \'\'\' Rotation axis with angle \'\'\'![ 256px \| Tache\_Placement Option rotation axis and angle](images/_Tache_Placement_fr_05.png ) (Implicit).
+-   Prima oțiune. Selectați **Rotation axis with angle**![ 256px \| Tache_Placement Option rotation axis and angle](images/_Tache_Placement_fr_05.png ) (Implicit).
     -   
         {{TasksTag | Axis   * X}}
         
@@ -135,7 +135,7 @@ Pentru a regla **rotation parameters** , avem două metode disponibile.
 
 <div class="mw-translate-fuzzy">
 
--   A doua opțiune. Selectați **Euler Angles** ![ 256px \| Tache\_Placement Option Euler angles](images/_Tache_Placement_fr_04.png ).
+-   A doua opțiune. Selectați **Euler Angles** ![ 256px \| Tache_Placement Option Euler angles](images/_Tache_Placement_fr_04.png ).
 
 
 </div>
@@ -181,7 +181,7 @@ Girația, tangajul și ruliu se referă la atitudinea unui obiect într-un spaț
 
 ![ Left \| Yaw](images/_Tache_Placement_Lacet_fr_Mini.gif )
 
--    {{TasksTag | yaw axis}}\'\'\'Girația este rotația față de axa Z \'\'\', adică o rație de la stanga la dreapta. (Unghiul de girație este **Psi ψ**). Valoarea fiind cuprinsă între **-360.00 °** și \'\'\'360, 00 ° \'\'\'(Valorea Implicită este , **0.00 °**).
+-    {{TasksTag | yaw axis}}**Girația este rotația față de axa Z**, adică o rație de la stanga la dreapta. (Unghiul de girație este **Psi ψ**). Valoarea fiind cuprinsă între **-360.00 °** și **360, 00 °**(Valorea Implicită este , **0.00 °**).
 
 
 </div>
@@ -191,7 +191,7 @@ Girația, tangajul și ruliu se referă la atitudinea unui obiect într-un spaț
 
 ![ Left \| Pitch](images/_Tache_Placement_Tangage_fr_Mini.gif )
 
--    {{TasksTag | pitch axis}}\'\'\'Tangajul este rotația față de axa Y \'\'\', adică botul sus și botul jos. (Unghiul de tangaj este simbolizat prin **Phi φ**). Valoarea este cuprinsă între **-360.00 °** și \'\'\'360, 00 ° \'\'\'(Valoarea Implicită este, **0.00 °**).
+-    {{TasksTag | pitch axis}}**Tangajul este rotația față de axa Y**, adică botul sus și botul jos. (Unghiul de tangaj este simbolizat prin **Phi φ**). Valoarea este cuprinsă între **-360.00 °** și **360, 00 °**(Valoarea Implicită este, **0.00 °**).
 
 
 </div>
@@ -201,7 +201,7 @@ Girația, tangajul și ruliu se referă la atitudinea unui obiect într-un spaț
 
 ![ Left \| Roll](images/_Tache_Placement_Roulis_fr_Mini.gif )
 
--    {{TasksTag | roll axis}}**Ruliu este rotația în jurul axei X**, ca și cum aripile oscilează când sus când jos. (Unghiul de ruliu este simbolizat prin **Thêta θ**). Valoarea este cuprinsă între**-360.00 °** și \'\'\'360, 00 ° \'\'\'(Valoarea implicită este, **0.00 °**).
+-    {{TasksTag | roll axis}}**Ruliu este rotația în jurul axei X**, ca și cum aripile oscilează când sus când jos. (Unghiul de ruliu este simbolizat prin **Thêta θ**). Valoarea este cuprinsă între**-360.00 °** și **360, 00 °**(Valoarea implicită este, **0.00 °**).
 
 
 </div>
@@ -243,7 +243,7 @@ Altă explicație este pe [Placement](Placement.md)
 
 
 
-[Category   *Command\_Reference](Category_Command_Reference.md)
+[Category   *Command_Reference](Category_Command_Reference.md)
 
 
 

@@ -142,8 +142,8 @@ The material handling was improved. It is now possible to use the global FreeCAD
 
 ### Post Processors 
 
--   grbl\_post -- argument to suppress tool change commands
--   grbl\_g81 post processor
+-   grbl_post -- argument to suppress tool change commands
+-   grbl_g81 post processor
 
 ## 草图工作台
 
@@ -163,7 +163,7 @@ The material handling was improved. It is now possible to use the global FreeCAD
 Relevant forum links   *
 
 -   [Recent Several Sketcher improvements](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192)
--   [Feature \#1632   * Allow entering of diameter instead of radius for circle radius constraint](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=29152)
+-   [Feature #1632   * Allow entering of diameter instead of radius for circle radius constraint](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=29152)
 -   [Sketcher Auto Remove Redundants mode](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Constraints extended naming](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 

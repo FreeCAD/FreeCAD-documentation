@@ -298,7 +298,7 @@ Si la compilation réussit, vous devriez avoir un sous-répertoire `examples/` a
 example/IfcOpenHouse
 ```
 
-L\'exemple de fichier [IFC](Arch_IFC/fr.md) doit apparaître dans le répertoire build et peut être utilisé comme entrée dans l\'exécutable `IfcConvert` également récemment compilé. Cet utilitaire prend en entrée un fichier IFC et produit en sortie un format différent comprenant [OBJ](Arch_OBJ/fr.md), [DAE](Arch_DAE/fr.md) si le support OpenCOLLADA était activé, STEP, IGS, XML, \[\[Draft\_SVG/fr\|SVG\] \] ou un autre [IFC](Arch_IFC/fr.md). 
+L\'exemple de fichier [IFC](Arch_IFC/fr.md) doit apparaître dans le répertoire build et peut être utilisé comme entrée dans l\'exécutable `IfcConvert` également récemment compilé. Cet utilitaire prend en entrée un fichier IFC et produit en sortie un format différent comprenant [OBJ](Arch_OBJ/fr.md), [DAE](Arch_DAE/fr.md) si le support OpenCOLLADA était activé, STEP, IGS, XML, \[\[Draft_SVG/fr\|SVG\] \] ou un autre [IFC](Arch_IFC/fr.md). 
 ```python
 ./IfcConvert IfcOpenHouse.ifc
 ```

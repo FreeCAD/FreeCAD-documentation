@@ -20,7 +20,7 @@ The <img alt="" src=images/Curves_ProfileSupport.svg  style="width   *24px;"> [C
 
 ## Notes
 
-1.  To see a workflow how this tool can be used to construct a curved section of a guitar body, see [this forum reply](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=22675&start=90#p203978) from Chris\_G (author of the curves workbench)
+1.  To see a workflow how this tool can be used to construct a curved section of a guitar body, see [this forum reply](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=22675&start=90#p203978) from Chris_G (author of the curves workbench)
 
 ## Limitations
 

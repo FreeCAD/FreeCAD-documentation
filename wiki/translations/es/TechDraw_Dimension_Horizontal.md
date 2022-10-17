@@ -1,5 +1,5 @@
 # TechDraw Dimension Horizontal/es
-1.  REDIRECT [TechDraw\_HorizontalDimension/es](TechDraw_HorizontalDimension/es.md)
+1.  REDIRECT [TechDraw_HorizontalDimension/es](TechDraw_HorizontalDimension/es.md)
 
 
 

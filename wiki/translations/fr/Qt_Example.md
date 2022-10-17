@@ -22,7 +22,7 @@
 
 Cette macro est un exemple d\'utilisation des commandes Qt pour les connexions, l\'extraction et l\'affectation des données.
 
-Image   *Qt\_Example\_00.png\|Exemple Qt Image   *Qt\_Example\_01.png\|Details des exemples
+Image   *Qt_Example_00.png\|Exemple Qt Image   *Qt_Example_01.png\|Details des exemples
 
 Sont traités    *
 
@@ -53,15 +53,15 @@ Pour convertir votre fichier .ui en .py vous devez utiliser **pyuic.py** qui est
 
 vous pouvez créer un fichier convertuitopy.bat pour automatiser la procédure    *
 
-\'\'\'1   * \'\'\'créer un nouveau fichier dans votre répertoire de travail Qt et nommez le en **convertuitopy.bat**
+**1   ***créer un nouveau fichier dans votre répertoire de travail Qt et nommez le en **convertuitopy.bat**
 
-\'\'\'2   * \'\'\'éditez le fichier et collez y cette ligne   *
+**2   ***éditez le fichier et collez y cette ligne   *
 
 **@\"C   *Python27\\python\" \"C   *Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" -x %1.ui \> %1.py**
 
-\'\'\'3   * \'\'\'puis dans une console Dos faites **convertuitopy myproject** (ne pas donner d\'extension la commande l\'ajoute automatiquement)
+**3   ***puis dans une console Dos faites **convertuitopy myproject** (ne pas donner d\'extension la commande l\'ajoute automatiquement)
 
-\'\'\'4   * \'\'\'votre fichier monprojet.py est créé
+**4   ***votre fichier monprojet.py est créé
 
 ### Les icônes utilisés 
 
@@ -77,7 +77,7 @@ Windows    * \"**C   *Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
 ## Script
 
-Le contenu du fichier **Qt\_Example.FCMacro** est donné ci-dessous    *
+Le contenu du fichier **Qt_Example.FCMacro** est donné ci-dessous    *
 
 
 {{MacroCode|code=

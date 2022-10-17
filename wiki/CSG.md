@@ -1,5 +1,5 @@
 # CSG
-1.  REDIRECT [OpenSCAD\_CSG](OpenSCAD_CSG.md)
+1.  REDIRECT [OpenSCAD_CSG](OpenSCAD_CSG.md)
 
 
 

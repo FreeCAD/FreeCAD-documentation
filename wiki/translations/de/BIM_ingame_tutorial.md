@@ -475,7 +475,7 @@ Each object of a construction has a material. So it makes sense to give each obj
 
 #### Eigenschaften
 
-Each BIM object can also receive additional properties, for example to indicate that a wall is load-bearing or not. IFC allows you to add custom properties to just anything, but most types such as Wall or Beam also have special, predefined sets of properties, usually named Pset\_WallCommon or Pset\_BeamCommon. You can choose to add these sets to your objects, modify the value of the properties contained in the set, or add your custom properties. Managing the IFC properties for a selected object or bulk edit the properties of several objects at a time is done using the properties manager under menu **Manage-\>IFC properties**.
+Each BIM object can also receive additional properties, for example to indicate that a wall is load-bearing or not. IFC allows you to add custom properties to just anything, but most types such as Wall or Beam also have special, predefined sets of properties, usually named Pset_WallCommon or Pset_BeamCommon. You can choose to add these sets to your objects, modify the value of the properties contained in the set, or add your custom properties. Managing the IFC properties for a selected object or bulk edit the properties of several objects at a time is done using the properties manager under menu **Manage-\>IFC properties**.
 
 #### Größen
 

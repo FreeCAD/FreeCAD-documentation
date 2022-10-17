@@ -1,5 +1,5 @@
 # TechDraw ClipMinus/it
-1.  REDIRECT [TechDraw\_ClipGroupRemove/it](TechDraw_ClipGroupRemove/it.md)
+1.  REDIRECT [TechDraw_ClipGroupRemove/it](TechDraw_ClipGroupRemove/it.md)
 
 
 

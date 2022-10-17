@@ -341,7 +341,7 @@ Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) 
 
 }} {{Plot_Tools_navi}} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

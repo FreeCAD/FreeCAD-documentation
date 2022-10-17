@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande \'\' \'Std Fermer\'\'\' ferme la fenêtre active. Pour fermer un document, toutes ses fenêtres doivent être fermées.
+La commande *\'Std Fermer*\' ferme la fenêtre active. Pour fermer un document, toutes ses fenêtres doivent être fermées.
 
 ## Utilisation
 

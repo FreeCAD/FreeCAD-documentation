@@ -19,6 +19,9 @@ Dies ist ähnlich wie das Drücken der **Esc** Taste.
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Stelle sicher, dass sich eine **[<img src=images/Sketcher_EditSketch.svg style="width   *16px"> [Bearbeitungsmodus](Sketcher_EditSketch/de.md)** befindet.
 2.  Stelle sicher, dass ein Werkzeug aktiv ist, wie **[<img src=images/Sketcher_CreatePolyline.svg style="width   *16px"> [Polylinie erstellen](Sketcher_CreatePolyline/de.md)**,
 
@@ -26,6 +29,9 @@ Dies ist ähnlich wie das Drücken der **Esc** Taste.
 
 1.  Klicke auf **[<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [Vorgang Beenden](Sketcher_StopOperation/de.md)** oder wähle **Skizze → [<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [Vorgang Beenden](Sketcher_StopOperation/de.md)** aus dem oberen Menü.
 2.  Das Werkzeug wird deaktiviert und der Zeiger wird wieder zu einem einfachen Zeiger.
+
+
+</div>
 
 
 

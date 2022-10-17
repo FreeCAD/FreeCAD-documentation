@@ -219,11 +219,11 @@ Wenn an jedes 2D-Objekt ein 3D-Objekt angefügt wurde, könnte es ungefähr so a
 
 ## Hinweise
 
-Der Abschnitt [3D-Geometrie\_befestigen](#3D-Geometrie_befestigen.md) kratzt nur an der Oberfläche des Themas Erweiterung von Unterbaugruppen und andere Randbedingungen oder Kombinationen von Randbedingungen können passender sein als die Randbedingung Attachment.
+Der Abschnitt [3D-Geometrie_befestigen](#3D-Geometrie_befestigen.md) kratzt nur an der Oberfläche des Themas Erweiterung von Unterbaugruppen und andere Randbedingungen oder Kombinationen von Randbedingungen können passender sein als die Randbedingung Attachment.
 
 Es ist wichtig, dass ein kinematischer Zusammenbau nur in kleinen Schritten bewegt wird, da sonst der Gleichungslöser aufgibt und versagt. Es is fast unmöglich <img alt="" src=images/Assembly_Move.svg‎‎  style="width   *16px;"> [Move part](Assembly3_MovePart/de.md) oder <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width   *16px;"> [Axial move](Assembly3_AxialMove/de.md) für diese Aufgabe zu verwenden.
 
-Die Randbedingung <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Assembly3\_ConstraintCoincidence](Assembly3_ConstraintCoincidence/de.md) wird dazu verwendet, den kinematischen Zusammenbaut anzutreiben, ihre {{PropertyData/de|Angle}} (durch die {{PropertyData/de|Lock Angle}} aktiviert) akzeptiert positive oder negative Gleitkommazahlen größer als 360 und kann daher mehrere vollständige Drehungen ausführen.
+Die Randbedingung <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Assembly3_ConstraintCoincidence](Assembly3_ConstraintCoincidence/de.md) wird dazu verwendet, den kinematischen Zusammenbaut anzutreiben, ihre {{PropertyData/de|Angle}} (durch die {{PropertyData/de|Lock Angle}} aktiviert) akzeptiert positive oder negative Gleitkommazahlen größer als 360 und kann daher mehrere vollständige Drehungen ausführen.
 
 
 

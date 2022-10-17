@@ -47,7 +47,7 @@ Sélectionnez l\'objet (solide), la macro calcule les valeurs par défaut   *
 
 **Command   ***
 
--    **Quit**   * Quitte FCSpring\_On\_Surface.
+-    **Quit**   * Quitte FCSpring_On_Surface.
 
 -    **Ok**   * Lance la création.
 
@@ -55,7 +55,7 @@ Sélectionnez l\'objet (solide), la macro calcule les valeurs par défaut   *
 
 Icône de la barre d\'outils ![](images/FCSpring_On_Surface.png )
 
-**Macro\_FCSpring\_On\_Surface.FCMacro**
+**Macro_FCSpring_On_Surface.FCMacro**
 
 
 {{MacroCode|code=

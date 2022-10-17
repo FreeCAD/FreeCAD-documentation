@@ -58,7 +58,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 </div>
 
--   El proyecto FreeCAD reconoce las contribuciones de su comunidad al agregar una pestaña de créditos en el diálogo \'\' Acerca de FreeCAD \'\'. Las nuevas pestañas de Licencias y Bibliotecas incluyen la licencia de FreeCAD y proporcionan información sobre bibliotecas usadas de terceros.
+-   El proyecto FreeCAD reconoce las contribuciones de su comunidad al agregar una pestaña de créditos en el diálogo *Acerca de FreeCAD*. Las nuevas pestañas de Licencias y Bibliotecas incluyen la licencia de FreeCAD y proporcionan información sobre bibliotecas usadas de terceros.
 
 <img alt="" src=images/AboutFreeCAD_Credits.png  style="width   *300px;">
 
@@ -178,7 +178,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
     -   **GUI clear mesh tool** borra la malla pero mantiene todos los ajustes de malla. Esto es muy útil si los archivos deben ser compartidos.
     -   **GUI print mesh information tool** imprime todo tipo de información de malla.
     -   **Proveedor de vista de malla GUI** puede mostrar malla de cuádruple cara así como elementos de malla hexadecimal, pentaeder y de pirámide.
-    -   \'\'\' Modelo de datos de malla \'\'\'se actualizó a SMESH a la versión 7.7.1 <https   *//github.com/FreeCAD/FreeCAD/commit/666a3e5a>
+    -   **Modelo de datos de malla**se actualizó a SMESH a la versión 7.7.1 <https   *//github.com/FreeCAD/FreeCAD/commit/666a3e5a>
     -   **Mesh API** se extendió para leer los datos del grupo de malla de los datos de malla de FreeCAD SMESH FEM por Python. Esta fue la base para el objeto grupal Gmsh.
     -   **Mesh API** se amplió para exportar grupos de malla al formato de archivo inp Abaqus y CalculiX.
     -   **Herramienta de malla 2 de malla FEM**convierte una superficie de una malla de volumen en una malla para el módulo de malla de FreeCAD.
@@ -258,7 +258,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 <div class="mw-translate-fuzzy">
 
--   La nueva utilidad [Part EditAttachment](Part_EditAttachment.md) accesible desde el menú \'\' Part → Attachment\... \'\' se puede usar para unir paramétricamente la mayoría de los tipos de objetos a otra geometría.
+-   La nueva utilidad [Part EditAttachment](Part_EditAttachment.md) accesible desde el menú *Part → Attachment\...* se puede usar para unir paramétricamente la mayoría de los tipos de objetos a otra geometría.
 
 
 </div>

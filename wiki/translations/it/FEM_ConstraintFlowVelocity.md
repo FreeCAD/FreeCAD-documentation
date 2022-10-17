@@ -2,6 +2,9 @@
 ---
 - GuiCommand   */it   Name   *FEM_ConstraintFlowVelocity   Name/it   *Vincolo velocità del flusso   Icon   *Fem-constraint-flow-velocity.svg   MenuLocation   * Modello → Vincoli dei fluidi → Vincolo velocità del flusso   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
 
+
+</div>
+
 ## Descrizione
 
 Applica una velocità del flusso come condizione al contorno a un bordo in 2D o a una faccia in 3D.
@@ -48,8 +51,14 @@ Applica una velocità del flusso come condizione al contorno a un bordo in 2D o 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Per una parete con una condizione antiscivolo, il flusso sarà (0,0,0)
 -   Per una condizione di simmetria, il flusso sarà (0, Non specificato, Non specificato) se \"normale al contorno\" è selezionato.
+
+
+</div>
 
 
 

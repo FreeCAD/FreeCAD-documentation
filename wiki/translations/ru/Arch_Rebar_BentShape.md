@@ -1,10 +1,11 @@
 ---
-- GuiCommand   *
-   Name   *Arch Rebar BentShape
+- GuiCommand   */ru
+   Name/ru   *Изогнутая арматура
+   Name   *Arch_Rebar_BentShape
    MenuLocation   *Arch → Rebar tools → Bent-Shape Rebar<br>3D/BIM → Reinforcement tools → Bent-Shape Rebar
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Version   *0.17
-   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md)
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md)
 ---
 
 # Arch Rebar BentShape/ru
@@ -171,13 +172,7 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

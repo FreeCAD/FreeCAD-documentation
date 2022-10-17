@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-<img alt="" src=images/FrontISTR.svg  style="width   *24px;"> FEM\_FrontISTR is a FreeCAD addon that enables FrontISTR, an open-source large-scale parallel FEM program for nonlinear structural analysis.
+<img alt="" src=images/FrontISTR.svg  style="width   *24px;"> FEM_FrontISTR is a FreeCAD addon that enables FrontISTR, an open-source large-scale parallel FEM program for nonlinear structural analysis.
 
 <img alt="" src=images/FEM_FrontISTR_bikeframe_screenshot.png  style="width   *512px;">
 
@@ -15,7 +15,7 @@
 3.  Open the task panel of SolverFISTRTools and set working directory.
 4.  Click \"Write input file\"
 5.  Click \"Run FrontISTR\"
-6.  Check FISTR\_Results for post processing.
+6.  Check FISTR_Results for post processing.
 
 ### Features   *
 
@@ -42,7 +42,7 @@
 
 ### Limitations   *
 
--   FISTR\_Results only contains results for surfaces. If you need the interior results, change Output File Format to VTK and visualize the results with paraview.
+-   FISTR_Results only contains results for surfaces. If you need the interior results, change Output File Format to VTK and visualize the results with paraview.
 
 ## Installation
 
@@ -66,8 +66,8 @@ FrontISTR binaries will be automatically downloaded and installed on the first r
 #### Windows
 
 1.  Download [FrontISTR-latest.zip](https   *//www.frontistr.com/download/link.php?https   *//frontistr-commons.gitlab.io/FrontISTR/release/x86_64-w64-mingw32-msmpi/FrontISTR-latest.zip)
-2.  Create directory FEM\_FrontISTR/bin
-3.  Extract FrontISTR-latest.zip and put all files in FEM\_FrontISTR/bin directory.
+2.  Create directory FEM_FrontISTR/bin
+3.  Extract FrontISTR-latest.zip and put all files in FEM_FrontISTR/bin directory.
 
 #### Linux
 

@@ -3,47 +3,23 @@
 
 ## Обзор
 
-
-<div class="mw-translate-fuzzy">
-
-Свойства можно определять с помощью математических выражений. В графическом интерфейсе счетчики или поля ввода, привязанные к свойствам, содержат синий значок <img alt="" src=images/Bound-expression.svg  style="width   *24px;">. Щелчок по значку или ввод знака равенства **&#61;** вызывает редактор выражения для этого конкретного свойства.
-
-
-</div>
+Некоторые свойства объектов могут быть определены с помощью математических выражений. В графическом интерфейсе счетчики или поля ввода свойств которые поддерживают выражения, содержат синий значок <img alt="" src=images/Bound-expression.svg  style="width   *24px;">. Щелчок по значку или ввод знака равенства **&#61;** вызывает редактор выражений для этого конкретного свойства.
 
 Выражение FreeCAD - это математическое выражение, следующее за обозначениями стандартных математических операторов и функций, как описано ниже. Кроме того, выражение может ссылаться на другие свойства, а также использовать условные выражения. К числам в выражении может быть добавлена необязательная единица измерения.
 
+В числах, для отделение целых цифр от десятичных, можно использовать запятую `,` или десятичную точку `.`. Когда используется такой разделитель (точка или запятая), за ним *должна* следовать хотя бы одна цифра. Таким образом, выражения **1.+2.** и **1,+2,** недопустимы, но **1.0 + 2.0** и **1,0 + 2,0** действительны.
 
-<div class="mw-translate-fuzzy">
+Операторы и функции зависят от единиц измерения и требуют допустимых комбинаций единиц, если таковые имеются. Например, `2mm + 4mm` является допустимым выражением, а `2mm + 4` - нет (причина в том, что выражение типа `1in + 4` люди обычно интерпретируют как `1 дюйм + 4 дюйма`, но все единицы внутренне преобразуются в систему СИ, и система не может это угадать). В настоящее время распознаются такие [единицы](#Единицы_измерения.md).
 
-В числах, для отделение целых цифр от десятичных, можно использовать запятую \',\' или десятичную точку \'.\'. Когда используется десятичный маркер, за ним *должна* следовать хотя бы одна цифра. Таким образом, выражения **1.+2.** и **1,+2,** недопустимы, но **1.0 + 2.0** и **1,0 + 2,0** действительны.
+Вы можете использовать [константные значения](#Поддерживаемые_константы.md) и [функции](#Поддерживаемые_функции.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Операторы и функции зависят от единиц измерения и требуют допустимых комбинаций единиц, если таковые имеются. Например, **2mm + 4mm** является допустимым выражением, а **2mm + 4** - нет (причина в том, что выражение типа **1in + 4** люди обычно интерпретируют как **1 дюйм + 4 дюйма**, но все единицы внутренне преобразуются в систему СИ, и система не может это угадать). В настоящее время распознаются такие [единицы](#Единицы_измерения.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Вы можете использовать [предопределенные константы](#Поддерживаемые_константы.md) и [функции](#Поддерживаемые_функции.md).
-
-
-</div>
-
-### Function arguments 
+### Аргументы функции 
 
 Multiple arguments to a function may be separated by either a semicolon followed by a space `, `. In the latter case, the comma is converted to a semicolon after entry. When a semicolon is used, no trailing space is necessary.
 
 Arguments may include references to cells in a spreadsheet. A cell reference consists of the cell\'s uppercase row letter followed by its column number, for example `A1`. A cell may also be referenced by using the cell\'s alias instead, for example `Spreadsheet.MyPartWidth`.
 
-### Referencing objects 
+### Ссылка на объект в выражении 
 
 You can reference an object by its **Name** or by its **Label**. In the case of a **Label**, it must be enclosed in double `<<` and `>>` symbols, such as `<<Label>>`.
 
@@ -52,11 +28,11 @@ You can reference any property of an object. For example, to reference a Cylinde
 To reference list objects, use `<<object_label>>.list[list_index]` or `object_name.list[list_index]`. If you want for example to reference a constraint in a sketch, use `<<MySketch>>.Constraints[16]`. If you are in the same sketch you may omit its name and just use `Constraints[16]`.
 **Note   *** The index starts with 0, therefore constraint 17 has the index 16.
 
-For more information about referencing objects, see [Reference to CAD\_data](#Reference_to_CAD_data.md). {{Top}}
+For more information about referencing objects, see [Reference to CAD_data](#Reference_to_CAD_data.md). {{Top}}
 
 ## Поддерживаемые константы 
 
-The following constants are supported   *
+Поддерживаются следующие константные значения   *
 
   Constant   Description
    
@@ -68,16 +44,16 @@ The following constants are supported   *
 
 ## Поддерживаемые операторы 
 
-The following operators are supported   *
+Поддерживаются следующие операторы   *
 
-  Operator   Description
+  Оператор   Описание
    
-  **+**      [Addition](https   *//en.wikipedia.org/wiki/Addition)
-  **-**      [Subtraction](https   *//en.wikipedia.org/wiki/Subtraction)
-  **\***     [Multiplication](https   *//en.wikipedia.org/wiki/Multiplication)
-  **/**      Floating point [Division](https   *//en.wikipedia.org/wiki/Division_(mathematics))
-  **%**      [Remainder](https   *//en.wikipedia.org/wiki/Remainder)
-  **\^**     [Exponentiation](https   *//en.wikipedia.org/wiki/Exponentiation)
+  **+**      [Сложение](https   *//ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5)
+  **-**      [Вычитание](https   *//ru.wikipedia.org/wiki/%D0%92%D1%8B%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5)
+  **\***     [Умножение](https   *//ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5)
+  **/**      [Деление](https   *//ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0))
+  **%**      [Остаток от деления](https   *//ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D1%81_%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BA%D0%BE%D0%BC)
+  **\^**     [Возведение в степень](https   *//ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B7%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_%D1%81%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D1%8C)
 
 
 {{Top}}
@@ -86,28 +62,28 @@ The following operators are supported   *
 
 ### Основные математические функции 
 
-The following mathematical functions are supported   *
+Поддерживаются следующие математические функции   *
 
-#### Trigonometric functions 
+#### Функции тригонометрии 
 
 [Trigonometric functions](https   *//en.wikipedia.org/wiki/Trigonometric_functions) use degree as their default unit. For radian measure, add first value in an expression. So e.g. `cos(45)` is the same as `cos(pi rad / 4)`. Expressions in degrees can use either `deg` or `°`, e.g. `360deg - atan2(3; 4)` or `360&deg; - atan2(3; 4)`. If an expression is without units and needs to be converted to degrees or radians for compatibility, multiply by `1&nbsp;deg`, `1&nbsp;°` or `1&nbsp;rad` as appropriate, e.g. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
 
-  Function      Description                                                                                                          Value range
+  Функция       Описание                                                                                                                                                                                                                                                                                                 Допустимый диапазон значений
     
-  acos(x)       [Arc cosine](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                         -1 \<= x \<= 1
-  asin(x)       [Arc sine](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                           -1 \<= x \<= 1
-  atan(x)       [Arc tangent](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                        all
-  atan2(x; y)   [Arc tangent](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties) of *x/y*               all, except y = 0
-  cos(x)        [Cosine](https   *//en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                    all
-  cosh(x)       [Hyperbolic cosine](https   *//en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                     all
-  sin(x)        [Sine](https   *//en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                      all
-  sinh(x)       [Hyperbolic sine](https   *//en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                       all
-  tan(x)        [Tangent](https   *//en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                   all, except x = n\*90 with n = uneven integer
-  tanh(x)       [Hyperbolic tangent](https   *//en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                    all
-  hypot(x; y)   [Pythagorean addition](https   *//en.wikipedia.org/wiki/Pythagorean_addition) (**hypot**enuse). E.g. hypot(4; 3) = 5.   x and y \> 0
-  cath(x; y)    Given hypotenuse, and one side, returns other side of triangle. E.g. cath(5; 3) = 4.                                 x and y \> 0, x \>= y
+  acos(x)       [Арккосинус](https   *//ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B5_%D1%82%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_arccos)   -1 \<= x \<= 1
+  asin(x)       [Арксинус](https   *//ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B5_%D1%82%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_arcsin)     -1 \<= x \<= 1
+  atan(x)       [Арктангенс](https   *//ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B5_%D1%82%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_arctg)    любое значение
+  atan2(x; y)   [Функция Atan2](https   *//en.wikipedia.org/wiki/Atan2) of *x/y*                                                                                                                                                                                                                                            любое значение, за исключением y = 0
+  cos(x)        [Косинус](https   *//ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)                                                                                                         любое значение
+  cosh(x)       [Гиперболический косинус](https   *//ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D0%B1%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)                                                                                                           любое значение
+  sin(x)        [Синус](https   *//ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)                                                                                                           любое значение
+  sinh(x)       [Гиперболический синус](https   *//ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D0%B1%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)                                                                                                             любое значение
+  tan(x)        [Тангенс](https   *//ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)                                                                                                         любое значение, за исключением x = n\*90, где n = целое число
+  tanh(x)       [Гиперболический тангенс](https   *//ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D0%B1%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)                                                                                                           любое значение
+  hypot(x; y)   [Сумма Пифагора](https   *//en.wikipedia.org/wiki/Pythagorean_addition) (**hypot**инуза). Например, hypot(4; 3) = 5.                                                                                                                                                                                        x и y \> 0
+  cath(x; y)    Учитывая гипотенузу и одну сторону, возвращает другую сторону треугольника. Например, cath (5; 3) = 4.                                                                                                                                                                                                   x и y \> 0, x \>= y
 
-#### Exponential and logarithmic functions 
+#### Экспоненциальные и логарифмические функции 
 
   Function    Description                                                                                    Value range
     
@@ -117,7 +93,7 @@ The following mathematical functions are supported   *
   pow(x; y)   [Exponentiation](https   *//en.wikipedia.org/wiki/Exponentiation)                                 all
   sqrt(x)     [Square root](https   *//en.wikipedia.org/wiki/Square_root)                                       x \>= 0
 
-#### Rounding, truncation and remainder functions 
+#### Функции округления, усечения и вычисления остатка от деления 
 
   Function    Description                                                                                                                        Value range
     
@@ -131,12 +107,12 @@ The following mathematical functions are supported   *
 
 {{Top}}
 
-### Statistical / aggregate functions 
+### Функции агрегирования и статистики 
 
 [Aggregate functions](https   *//en.wikipedia.org/wiki/Aggregate_function) take one or more arguments.
 Individual arguments to aggregate functions may consist of ranges of cells. A range of cells is expressed as two cell references separated by a colon {{Incode|   *}}, for example {{Incode|average(B1   *B8)}} or {{Incode|sum(A1   *A4; B1   *B4)}}. The cell references may also use cell aliases, for example {{Incode|average(StartTemp   *EndTemp)}}.
 
-The following aggregate functions are supported   *
+Поддерживаются следующие функции агрегирования   *
 
   Function                 Description                                                                                                                          Value range
     
@@ -160,32 +136,32 @@ In following example, \"TEXT\" is recognized as a string    * `<<TEXT>>`
 
 #### Объединение строк 
 
-Strings can be concatenated using the \'+\' sign.
+Строки могут быть объединены с помощью символа \"+\".
 
-Following example `<<MY>> + <<TEXT>>` will be concatenated to \"MYTEXT\".
+Например строки `<<МОЙ>> + <<ТЕКСТ>>` будут объединены в \"МОЙТЕКСТ\".
 
-#### String conversion 
+#### Преобразование числа в строку 
 
-Numerical values can be converted to strings with the `str` function   *
+Числовые значения могут быть преобразованы в строки с помощью функции `str`   *
 
 
 `str(Box.Length.Value)`
 
 #### Форматирование строк 
 
-String formatting is supported using the (old) %-style Python way.
+Форматирование строк поддерживается с использованием (старого) Python способа в стиле %.
 
-All %-specifiers as defined in [Python documentation](https   *//docs.python.org/3/library/stdtypes.html#printf-style-string-formatting).
+Сведения о всех %-спецификаторах, можно узнать из [документации Python](https   *//docs.python.org/3/library/stdtypes.html#printf-style-string-formatting).
 
 As an example, supposing you have a default 10mm-side cube named \'Box\' (default FreeCAD naming), the following expression `<<Cube length    * %s>> % Box.Length` will expand to \"Cube length    * 10.0 mm\"
 
 For more than one %-specifier use the following syntax   * `<<Cube length is %s and width is %s>> % tuple(Box.Length; Box.Width)`. Or use concatenation   * `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width`. Both will expand to \"Cube length is 10.0 mm and width is 10.0 mm\".
 
-A FreeCAD sample file using string formatting is available [in the forum](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=58657) {{Top}}
+Пример файла FreeCAD с применением форматирования строк доступен [на форуме](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=58657) {{Top}}
 
-### Create function 
+### Функция Create 
 
-The following objects may be created in expressions via the `create` function   *
+С помощью функции `create` в выражениях могут быть созданы следующие объекты    *
 
 -   Vector
 -   Matrix
@@ -209,7 +185,7 @@ Example   *
 
 When `create` is passed `<<matrix>>` as the 1st argument, the next 16 arguments are the elements for the `Matrix` in [row-major order](https   *//en.wikipedia.org/wiki/Row-_and_column-major_order).
 
-Example   *
+Пример   *
 
 
 `create(<<matrix>>; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16)`
@@ -220,14 +196,14 @@ When `create` is passed `<<rotation>>` as the 1st argument, there are two ways t
 
 1\. Specify an axis vector and a rotation angle.
 
-Example   *
+Пример   *
 
 
 `create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45)`
 
 2\. Specify 3 rotations about the X, Y, and Z axes as Euler angles.
 
-Example   *
+Пример   *
 
 
 `create(<<rotation>>; 30; 30; 30)`
@@ -297,9 +273,9 @@ Invert the given `Matrix`, `Rotation`, or `Placement`.
 
 {{Top}}
 
-### Tuple & list 
+### Кортежи и списки 
 
-You can create Python `tuple` or `list` objects via their respective functions.
+Вы можете создавать Python объекты   * кортежи `tuple` или списки `list` с помощью соответствующих функций.
 
 
 `tuple(2; 1; 2)`
@@ -341,34 +317,26 @@ If you have a variable whose name is that of a unit you must put the variable be
 
 The following units are recognized by the expression parser   *
 
-### Amount of substance 
+### Количество вещества 
 
   Unit   Description
    
   mol    [Mole](https   *//en.wikipedia.org/wiki/Mole_(unit))
 
-### Angle
-
-
-<div class="mw-translate-fuzzy">
-
-Угол   *
+### Угол
 
   Единица измерения   Описание
    
-  °                   [Градус](https   *//ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)); тоже самое, что и *deg*
-  deg                 [Градус](https   *//ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)); тоже самое, что и *°*
+  °                   [Градус](https   *//ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)); тоже самое, что и deg
+  deg                 [Градус](https   *//ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)); тоже самое, что и °
   rad                 [Радиан](https   *//ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D0%B8%D0%B0%D0%BD)
   gon                 [Град](https   *//ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F))
-  S                   [Угловая секунда](https   *//ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)#%D0%A3%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B0)
-  ″                   [Угловая секунда](https   *//ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)#%D0%A3%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B0); тоже самое, что и *S*
-  M                   [Минута дуги](https   *//ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8)
-  ′                   [Минута дуги](https   *//ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8); тоже самое, что и *M*
+  S                   [Угловая секунда](https   *//ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)#%D0%A3%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B0); тоже самое, что и ″
+  ″                   [Угловая секунда](https   *//ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B4%D1%83%D1%81_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)#%D0%A3%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B0); тоже самое, что и S
+  M                   [Минута дуги](https   *//ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8); тоже самое, что и ′
+  ′                   [Минута дуги](https   *//ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%83%D1%82%D0%B0_%D0%B4%D1%83%D0%B3%D0%B8); тоже самое, что и M
 
-
-</div>
-
-### Current
+### Ток
 
   Unit   Description
    
@@ -377,7 +345,7 @@ The following units are recognized by the expression parser   *
   kA     Kilo[ampere](https   *//en.wikipedia.org/wiki/Ampere)
   MA     Mega[ampere](https   *//en.wikipedia.org/wiki/Ampere)
 
-### Energy/work
+### Энергия/работа
 
   Unit   Description
    
@@ -386,12 +354,7 @@ The following units are recognized by the expression parser   *
   VAs    [Volt-ampere-second](https   *//en.wikipedia.org/wiki/Joule); alternative to the unit Joule
   CV     [Coulomb-volt](https   *//en.wikipedia.org/wiki/Joule); alternative to the unit Joule
 
-### Force
-
-
-<div class="mw-translate-fuzzy">
-
-Сила   *
+### Сила
 
   Единица измерения   Описание
    
@@ -401,10 +364,7 @@ The following units are recognized by the expression parser   *
   MN                  Мега[ньютон](https   *//ru.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_(%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D1%8F))
   lbf                 [Фунт-сила](https   *//en.wikipedia.org/wiki/Pound_(force))(Английская единица)
 
-
-</div>
-
-### Length
+### Длина
 
   Unit   Description
    
@@ -425,13 +385,13 @@ The following units are recognized by the expression parser   *
   yd     [Yard](https   *//en.wikipedia.org/wiki/Yard)
   mi     [Mile](https   *//en.wikipedia.org/wiki/Mile)
 
-### Luminous intensity 
+### Интенсивность света 
 
   Unit   Description
    
   cd     [Candela](https   *//en.wikipedia.org/wiki/Candela)
 
-### Mass
+### Масса
 
   Unit   Description
    
@@ -447,14 +407,14 @@ The following units are recognized by the expression parser   *
   st     [Stone](https   *//en.wikipedia.org/wiki/Stone_(weight))
   cwt    [Hundredweight](https   *//en.wikipedia.org/wiki/Hundredweight)
 
-### Power
+### Мощность
 
   Unit   Description
    
   W      [Watt](https   *//en.wikipedia.org/wiki/Watt)
   VA     [Volt-ampere](https   *//en.wikipedia.org/wiki/Volt-ampere)
 
-### Pressure
+### Давление
 
   Unit    Description
    
@@ -469,7 +429,7 @@ The following units are recognized by the expression parser   *
   psi     [Pound-force per square inch](https   *//en.wikipedia.org/wiki/Pounds_per_square_inch); 1 psi = 6.895 kPa
   ksi     Kilo[pound-force per square inch](https   *//en.wikipedia.org/wiki/Pounds_per_square_inch)
 
-### Temperature
+### Температура
 
   Unit   Description
    
@@ -478,7 +438,7 @@ The following units are recognized by the expression parser   *
   mK     Milli[kelvin](https   *//en.wikipedia.org/wiki/Kelvin)
   K      [Kelvin](https   *//en.wikipedia.org/wiki/Kelvin)
 
-### Time
+### Время
 
   Unit   Description
    
@@ -486,13 +446,13 @@ The following units are recognized by the expression parser   *
   min    [Minute](https   *//en.wikipedia.org/wiki/Minute)
   h      [Hour](https   *//en.wikipedia.org/wiki/Hour)
 
-### Volume
+### Объем
 
   Unit   Description
    
   l      [Liter](https   *//en.wikipedia.org/wiki/Litre)
 
-### Unsupported units 
+### Неподдерживаемые единицы измерения 
 
 The following commonly used units are not yet supported, for some an alternative is provided   *
 
@@ -531,17 +491,17 @@ For [labels](Object_name#Label.md) there are no invalid characters, however some
 
 For example, the label `Sketch\002` must be referenced as `<<Sketch\\002>>`.
 
-### Names
+### Названия
 
 [Names](Object_name#Name.md) of objects like dimensions, sketches, etc. may not have the characters or character sequences listed below, otherwise the name is invalid   *
 
   Characters / Character sequences                                                                                               Description
    
   **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**   Characters that are math operators or part of mathematical constructs
-  **A**, **kA**, **mA**, **MA**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, and many more!                         Characters and character sequences that are units (see the [Units](#Units.md) paragraph)
+  **A**, **kA**, **mA**, **MA**, **J**, **K**, **\'**, **ft**, **°**, and many more!                                             Characters and character sequences that are units (see the [Units](#Units.md) paragraph)
   **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **   ***, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!          Characters used as placeholder or to trigger special operations
   **pi**, **e**                                                                                                                  Mathematical constants
-  **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                        Characters used for accents
+  **´**, **\**, **\'**, **\"**                                                                                                  Characters used for accents
   space                                                                                                                          A space defines the end of a name and can therefore not be used
 
 For example, the following name is valid   * `<<Sketch>>.Constraints.T2üßµ@`. While these are invalid names   * `<<Sketch>>.Constraints.test\result_2` (\\r means \"carriage return\") or `<<Sketch>>.Constraints.mol` (mol is a unit).
@@ -559,47 +519,59 @@ It is possible to use data from the model itself in an expression. To reference 
 The following table shows some examples   *
 
 ++++
-| CAD data                                   | Call in expression                    | Result                                                                                                                                                                       |
-+============================================+=======================================+==============================================================================================================================================================================+
-| Parametric Length of a Part-Workbench Cube |                        | Length with units mm                                                                                                                                                         |
-|                                            | `Cube.Length`                |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| CAD data                                              | Call in expression                       | Result                                                                                                                                                                       |
++=======================================================+==========================================+==============================================================================================================================================================================+
+| Length of a [Part Box](Part_Box.md)           |                           | Length with units (mm)                                                                                                                                                       |
+|                                                       | `Box.Length`                    |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Volume of the Cube                         |                        | Volume in mm³ without units                                                                                                                                                  |
-|                                            | `Cube.Shape.Volume`          |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Volume of the Box                                     |                           | Volume in mm³ without units                                                                                                                                                  |
+|                                                       | `Box.Shape.Volume`              |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Type of the Cube-shape                     |                        | String   * Solid                                                                                                                                                                |
-|                                            | `Cube.Shape.ShapeType`       |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Shape type of the Box                                 |                           | String   * Solid                                                                                                                                                                |
+|                                                       | `Box.Shape.ShapeType`           |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Label of the Cube                          |                        | String   * Label                                                                                                                                                                |
-|                                            | `Cube.Label`                 |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Label of the Box                                      |                           | String   * Label                                                                                                                                                                |
+|                                                       | `Box.Label`                     |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| X-coordinate of center of mass of the Cube |                        | X-coordinate in mm without units                                                                                                                                             |
-|                                            | `Cube.Shape.CenterOfMass.x`  |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| X-coordinate of center of mass of the Box             |                           | X-coordinate in mm without units                                                                                                                                             |
+|                                                       | `Box.Shape.CenterOfMass.x`      |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Full Cube object                           |                                                                                                                                   |
-|                                            | `Cube._self`                 |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| X-coordinate of the Box placement                     |                           | X-coordinate with units (mm)                                                                                                                                                 |
+|                                                       | `Box.Placement.Base.x`          |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Value of constraint in a sketch            |                        | Numeric value of the named constraint `Width` in the sketch, if the expression is used in the sketch itself.                                          |
-|                                            | `Constraints.Width`          |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| X-component of the rotation axis of the Box placement |                           | X-component of the unit vector in mm without units                                                                                                                           |
+|                                                       | `Box.Placement.Rotation.Axis.x` |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Value of constraint in a sketch            |                        | Numeric value of the named constraint `Width` in the sketch, if the expression is used outside of the sketch.                                         |
-|                                            | `MySketch.Constraints.Width` |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Rotation angle of the Box placement                   |                           | Rotation angle with units (deg)                                                                                                                                              |
+|                                                       | `Box.Placement.Rotation.Angle`  |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Value of a spreadsheet alias               |                        | Value of the alias `Depth` in the spreadsheet `Spreadsheet`                                                                    |
-|                                            | `Spreadsheet.Depth`          |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Full Box object                                       |                                                                                                                                   |
+|                                                       | `Box._self`                     |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
-| Value of a local property                  |                        | Value of the **Length** property in e.g a Pad object, if the expression is used in e.g **Length2** in the same object. |
-|                                            | `Length`                     |                                                                                                                                                                              |
-|                                            |                                    |                                                                                                                                                                              |
+| Value of constraint in a sketch                       |                           | Numeric value of the named constraint `Width` in the sketch, if the expression is used in the sketch itself.                                          |
+|                                                       | `Constraints.Width`             |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
+++++
+| Value of constraint in a sketch                       |                           | Numeric value of the named constraint `Width` in the sketch, if the expression is used outside of the sketch.                                         |
+|                                                       | `MySketch.Constraints.Width`    |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
+++++
+| Value of a spreadsheet alias                          |                           | Value of the alias `Depth` in the spreadsheet `Spreadsheet`                                                                    |
+|                                                       | `Spreadsheet.Depth`             |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
+++++
+| Value of a local property                             |                           | Value of the **Length** property in e.g a Pad object, if the expression is used in e.g **Length2** in the same object. |
+|                                                       | `Length`                        |                                                                                                                                                                              |
+|                                                       |                                       |                                                                                                                                                                              |
 ++++
 
 
@@ -626,7 +598,7 @@ Unfortunately, the integrated checker sometimes claims that a valid name doesn\'
 
 Of course, it\'s up to you to load the corresponding documents later when you want to change anything. {{Top}}
 
-## Known issues / remaining tasks 
+## Известные проблемы / нерешённые задачи 
 
 -   The dependency graph is based on the relationship between document objects, not properties. This means that you cannot provide data to an object and query that same object for results. For example, even though there are no cyclic dependencies when the properties themselves are considered, you may not have an object which gets its dimensions from a spreadsheet and then display the volume of that object in the same spreadsheet. As a work-around use multiple spreadsheets, one to drive your model and the other for reporting.
 -   The expression parser does not handle parentheses well, and is unable to properly parse some expressions. For example   * `<nowiki>=</nowiki> (A1 > A2) ? 1    * 0` results in an error, while `<nowiki>=</nowiki> A1 > A2 ? 1    * 0` is accepted. The expression `<nowiki>=</nowiki> 5 + ((A1>A2) ? 1    * 0)` cannot be entered in any form.

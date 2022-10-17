@@ -19,7 +19,7 @@ La maggior parte della marchiatura avviene in **MainCmd.cpp** oppure in **MainGu
 
 Le impostazioni più importanti per dare all\'applicazione un nuovo aspetto possono essere fatte all\'interno della funzione main(). Ecco la sezione di codice che controlla la marchiatura   *
 
- {.C}
+ C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
@@ -73,7 +73,7 @@ Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_scre
 
 In FreeCAD c\'è anche un metodo supportato senza scrivere una funzione main() personalizzata. Per questo metodo basta scrivere un file chiamato **branding.xml** e metterlo nella directory di installazione di FreeCAD. Ecco un esempio con tutti i tag supportati   *
 
- {.XML}
+ XML
 <?xml version="1.0" encoding="utf-8"?>
 <Branding>
     <Application>FooApp</Application>

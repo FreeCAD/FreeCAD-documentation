@@ -287,7 +287,7 @@ Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 
 What has happened?
 
-FreeCAD has translated the `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)` in other word our `Placement` definition that specifies three components, **Translation**, **Rotation** and *center of rotation*\' in the \"internal\" values of only two components, **Translation** and **Rotation**.
+FreeCAD has translated the `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)` in other word our `Placement` definition that specifies three components, **Translation**, **Rotation** and *center of rotation**in the \"internal\" values of only two components,**Translation**and**Rotation*\'.
 
 you can easily visualize the value of `pos_ali` using a print statement in the `aeroplano(...` method and see that it is   *
 

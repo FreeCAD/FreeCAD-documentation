@@ -1,5 +1,5 @@
 # Draft Linestyle/es
-1.  REDIRECT [Draft\_Tray](Draft_Tray.md)
+1.  REDIRECT [Draft_Tray](Draft_Tray.md)
 
 
 

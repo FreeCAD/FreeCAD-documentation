@@ -14,9 +14,9 @@ Creates a FEM constraint for the electrostatic potential. To be used together wi
 
 ## Usage
 
-\#\* Either press the **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [FEM ConstraintElectrostaticPotential](FEM_ConstraintElectrostaticPotential.md)** button
+#\* Either press the **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [FEM ConstraintElectrostaticPotential](FEM_ConstraintElectrostaticPotential.md)** button
 
-\#\* Or use the menu **Model → Electrostatic Constraints → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Constraint electrostatic potential**.
+#\* Or use the menu **Model → Electrostatic Constraints → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Constraint electrostatic potential**.
 
 1.  In the [3D view](3D_view.md) select the object the constraint should be applied to.
 2.  Press the **Add** button.
@@ -29,9 +29,9 @@ The dialog offers the following settings   *
 
 -   **Potential**   * The electric potential in V.
 -   **Potential Constant**   * Option to set a constant potential.
--   **Farfield / Electric infinity**   * Option to specify that the volume as for away from an electric potential.
+-   **Farfield / Electric infinity**   * Option to make spherical approximation that the volume above the face extends to infinity.
 -   **Calculate Electric Force**   * Option to trigger the calculation of the electric for using the [Electricforce](FEM_EquationElectricforce.md) equation.
--   \'\'\'Capacity Body   * \'\'\'   * Counter of the body (or face) with a capacitance.
+-   **Capacity Body   ***   * Counter of the body (or face) with a capacitance.
 
 
 

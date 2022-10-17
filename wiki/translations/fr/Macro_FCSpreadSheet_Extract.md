@@ -22,7 +22,7 @@ Lancez la macro.
 
 L\'icône pour votre barre d\'outils qui est à placer dans le même répertoire que la macro ![](images/Macro_FCSpreadsheet_Extract.png )
 
-**Macro\_FCSpreadSheet\_Extract.FCMacro**
+**Macro_FCSpreadSheet_Extract.FCMacro**
 
 
 {{MacroCode|code=

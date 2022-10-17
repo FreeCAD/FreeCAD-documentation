@@ -53,7 +53,7 @@ L\'immagine di esempio sopra mostra due diverse forme di sezione trasversale. Il
 
 <div class="mw-translate-fuzzy">
 
-Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo della sezione trasversale come descritto sopra. Quindi in **Trasformazione della sezione** impostare la Modalità di trasformazione su *\' Multisezione*\', poi premere **Aggiungi sezione** quindi selezionare uno schizzo nella [vista 3D](3D_view/it.md). Ripetere l\'operazione per ogni sezione trasversale aggiuntiva.
+Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo della sezione trasversale come descritto sopra. Quindi in **Trasformazione della sezione** impostare la Modalità di trasformazione su **Multisezione**, poi premere **Aggiungi sezione** quindi selezionare uno schizzo nella [vista 3D](3D_view/it.md). Ripetere l\'operazione per ogni sezione trasversale aggiuntiva.
 
 
 </div>

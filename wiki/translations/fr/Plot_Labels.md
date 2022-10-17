@@ -38,7 +38,7 @@ Sélectionnez l\'onglet du tracé que vous souhaitez modifier, puis exécutez ce
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

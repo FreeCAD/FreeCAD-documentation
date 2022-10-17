@@ -1,48 +1,33 @@
 # Continuous Integration/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
-## Continuous Integration 
+## Integrazione Continua 
 
-Currently the FreeCAD repository on GitHub will trigger a build on the below two CI systems. Between these systems pretty much all the main cross-platforms OSs are coveredː Linux, MacOSX, and Windows. CIs can also be used to run [unit tests](Testing.md).
+Attualmente il repository di FreeCAD su GitHub attiverà una build sui due sistemi CI seguenti. Tra questi sistemi sono coperti praticamente tutti i principali sistemi operativi multipiattaforma Linux, MacOSX e Windows. Gli elementi della configurazione possono essere utilizzati anche per eseguire [unità test](Testing/it.md).
 
 ### TravisCI
 
-<img alt="" src=images/Travis-logo.png  style="width   *50px;"> Tests against Linux and OSX. The config file is called [.travis.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) and it lives in the top directory of FreeCAD. To view current and past buildsː <https   *//travis-ci.org/FreeCAD/FreeCAD/builds>
+<img alt="sinistra" src=images/Travis-logo.png  style="width   *50px;"> Test su Linux e OSX. Il file di configurazione si chiama [.travis.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) e si trova nella directory principale di FreeCAD. Per visualizzare le build attuali e passateː <https   *//travis-ci.com/FreeCAD/FreeCAD/builds>
 
 ### Appveyor
 
-<img alt="" src=images/Appveyor.svg  style="width   *40px;"> Tests against Windows. The config file is called [appveyor.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/appveyor.yml) and it lives in the top directory of FreeCAD. To view current and previous Appveyor buildsː <https   *//ci.appveyor.com/project/yorikvanhavre/freecad/history>
+<img alt="" src=images/Appveyor.svg  style="width   *40px;"> Test su Windows. Il file di configurazione si chiama [appveyor.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/appveyor.yml) e si trova nella directory principale di FreeCAD. Per visualizzare le build di Appveyor correnti e precedentiː <https   *//ci.appveyor.com/project/yorikvanhavre/freecad/history>
 
-## Tips
+## Suggerimenti
 
-\- If you add [skip ci] or [ci skip] to a git commit it will cancel a CI build.
+\- Se aggiungi [skip ci] o [ci skip] a un git commit, verrà annullata una build CI.
 
-### Relevant Links 
+### Collegamenti rilevanti 
 
 -   [LGTM](LGTM.md)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
 
 
 

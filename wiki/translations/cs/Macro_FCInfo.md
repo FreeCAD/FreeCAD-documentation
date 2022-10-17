@@ -80,7 +80,7 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
 **Sector 2   * Coordinates click mouse**
 
 -   Souřadnice X, Y a Z kliknutím myší
--   Tlačítko vytváří na bodové, osové, rovinné, kopírovací vektorové formě osy \'\' \'FreeCAD.Vector (-24.0, 240.0, 7.0)\' \'\'
+-   Tlačítko vytváří na bodové, osové, rovinné, kopírovací vektorové formě osy *\'FreeCAD.Vector (-24.0, 240.0, 7.0)\'*
 
 
 </div>
@@ -91,7 +91,7 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
 **Sector 3   * Value**
 
 -   Délka objektu, je-li objekt obrys obličeje, zobrazí se velikost jednotky   *
-    km, hm, přehrada, m, dm, cm, \'\' \'mm\' \'\', μm, fm, palec, propojení, noha, yard, bidélko, řetěz, furlong, míle, ligy, námořní. Je-li objekt kružnicí o jednu sekundu, zobrazí se políčkoEdit a zobrazí poloměr kružnice.
+    km, hm, přehrada, m, dm, cm, *\'mm\'*, μm, fm, palec, propojení, noha, yard, bidélko, řetěz, furlong, míle, ligy, námořní. Je-li objekt kružnicí o jednu sekundu, zobrazí se políčkoEdit a zobrazí poloměr kružnice.
 -   Obvod tvaru
 
 
@@ -103,7 +103,7 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
 **Sector 4   * Vertexes and details**
 
 -   CheckBox pro vyhledávání nebo ne všechny detaily objektu, pokud není zaškrtnuto pouze hlavní hodnota jsou zobrazeny.
--   Vertexy a detaily tvaru (compt\_Edge), (compt\_Faces), (compt\_Vector of Face)
+-   Vertexy a detaily tvaru (compt_Edge), (compt_Faces), (compt_Vector of Face)
     max 200 řádků v tabulce, pokud je více než 200 řádků se objeví (! + 200) a počet linky
     (všechny podrobnosti mohou uložit tlačítko **Save** ve formátu CSV a soubor v tabulce lze zobrazit pomocí **Read** nebo externí tabulky jako[LibreOffice](https   *//www.libreoffice.org/) [OpenOffice](http   *//openoffice.apache.org/downloads.html) or other)
 
@@ -122,7 +122,7 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
 -   **stupeň**, např .   * 194.257636235 gon
 -   **pourcent** ex   * 30 ° = 57,74%
 -   Záhyby v rovinách XY, YZ, ZX a jejich souřadnicích
--   **Direction object**, udává směr objektu vypočítá se   * coord\_1 - coord\_2 = směr (nebo reverzní)
+-   **Direction object**, udává směr objektu vypočítá se   * coord_1 - coord_2 = směr (nebo reverzní)
     -   
         **Line**
         
@@ -141,7 +141,7 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
 -   Může být vybrán povrch zobrazené velikosti obličeje
 -   Může být vybrána hlasitost zobrazené velikosti jednotky
 -   hustota materiálu v **kg dm3**
-    (\"spinBox\" je nastaven na \'\'\'7,5 \'\'\' kg, průměrná hustota oceli.Pokud chcete jinou výchozí hodnotu , změňte hodnotu hustoty, řádek 204)
+    (\"spinBox\" je nastaven na **7,5** kg, průměrná hustota oceli.Pokud chcete jinou výchozí hodnotu , změňte hodnotu hustoty, řádek 204)
 -   Hmotnost **gram** buttom jednotky může být vybrána   *
     t, quintal, kg, hg, dag, **gram**, dg, cg, fg, gr (obilí), dr (drachm), oz (jednou), oz t (troy trojúhelník), lb (livre troy), lb (livre av) , cwt (sto váha), tonneau fr, ct
 -   může být vybrána váha zobrazené jednotky
@@ -177,7 +177,7 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
 **Sector 9   * Inertia**
 
 -   Moment setrvačnosti a tyto souřadnice délky a váhy
--   Tlačítko vytváří na bodové, osové, rovinné, kopírovací vektorové formě osy \'\' \'FreeCAD.Vector (-24.0, 240.0, 7.0)\' \'\'
+-   Tlačítko vytváří na bodové, osové, rovinné, kopírovací vektorové formě osy *\'FreeCAD.Vector (-24.0, 240.0, 7.0)\'*
     -   Akční řádek 1   * x1, y1, z1
     -   Akční řádek 2   * x2, y2, z2
     -   Akční řádek 3   * x3, y3, z3
@@ -195,7 +195,7 @@ stejné pro délku a váhu
 
 -    **Read**   * přečtěte si data v tabulce uložené **.FCInfo** nebo txt, asc, csv
 
--    **Save**   * uloží data na disk ve formátu vybraném pod \'\'\' .FCInfo \'\'\' nebo txt, asc, csv
+-    **Save**   * uloží data na disk ve formátu vybraném pod **.FCInfo** nebo txt, asc, csv
 
 -    **Tabulation**   * oddělovač je Tabulation
 
@@ -250,7 +250,7 @@ Po spuštění makra zůstane makro aktivní a okno zůstane viditelné. Chcete-
 
 <center>
 
-Image   *Macro\_FCInfo\_04.png\|Zakotveno vpravo, Image   *Macro FCInfo 05.png\|nebo ponecháno v zobrazení Combo a dosažitelné pomocí karty, nebo není zakotveno k výběru.
+Image   *Macro_FCInfo_04.png\|Zakotveno vpravo, Image   *Macro FCInfo 05.png\|nebo ponecháno v zobrazení Combo a dosažitelné pomocí karty, nebo není zakotveno k výběru.
 
 
 </center>
@@ -353,8 +353,8 @@ Stáhněte umístění obrázků u ikon <img alt="" src=images/FCInfo.png  style
 
 Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
 
--   Windows   * the form is usually **\" drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
--   Ubuntu   * the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+-   Windows   * the form is usually **\" drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu   * the form is usually **\" /home/your_user_name/.FreeCAD \"**.
 
 Or, directly in the interface of FreeCAD
 The icon must be in the same directory as the macro.
@@ -374,7 +374,7 @@ Download image positioning on the icon <img alt="" src=images/FCInfo.png  style=
 
 <div class="mw-translate-fuzzy">
 
-Tam je také FCInfo\_Alternate\_Linux pouze pro FreeCAD verze 0.13 \... a PyQt4
+Tam je také FCInfo_Alternate_Linux pouze pro FreeCAD verze 0.13 \... a PyQt4
 
 
 <div class="mw-collapsible-content">
@@ -385,7 +385,7 @@ Tam je také FCInfo\_Alternate\_Linux pouze pro FreeCAD verze 0.13 \... a PyQt4
 
 <div class="mw-translate-fuzzy">
 
-Je tam také [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) zde je kód změněn (kvůli chybě zobrazení znaků   * \'\' \'² ³ ° μ\' \'\' ordinal není v rozsahu (128) \"), které představovaly problémy v určitých konfiguracích, funkce jsou stejné
+Je tam také [Macro_FCInfo_Alternate_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) zde je kód změněn (kvůli chybě zobrazení znaků   * *\'² ³ ° μ\'* ordinal není v rozsahu (128) \"), které představovaly problémy v určitých konfiguracích, funkce jsou stejné
 Příklad    * 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
@@ -559,7 +559,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 -   ver 1.16 , 21/06/2017 add control height police (here PointSize 8) and checkbox for position the window to right or left
 -   ver 1.15 , 19/12/2015 suppression PyQt4 option [see](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=13541) , add checkBox for editing infos in report view
 -   ver 1.14 , 04/08/2014 replace PyQt4 and PySide and correct tooltip not displayed cause on PySide and add fg
--   ver 1.13 , 27/07/2014 replace FCInfo\_en\_Ver\_1-12\_Docked.FCMacro to FCInfo\_en\_Ver\_1-13\_Docked.FCMacro accept PyQt4 and PySide
+-   ver 1.13 , 27/07/2014 replace FCInfo_en_Ver_1-12_Docked.FCMacro to FCInfo_en_Ver_1-13_Docked.FCMacro accept PyQt4 and PySide
 -   ver 1.12 , 10/03/2014 adding tooltip
 -   ver 1.11 , 04/03/2014 adding µm, nm, pm, fm, µg, ng, pg, pourcent, fixed of grandeur carat ~~\"cd\"~~ in **\"ct\"**, display of the label and internal name, fixed calculation of angles XY YZ ZX could give an error on a compound shape, window dockable in FreeCAD
 -   ver 1.10.b , 19/11/2013 buttons outside the scrollbar and the dimensions of the window blocking
@@ -567,7 +567,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 (ver 1.10 , 18/11/2013 create scrollbar)
 \*ver 1.08.b , 10/11/2013 translation units in English, error correction to display the area of the faces listed in the table and replacement of the\"**print**\" by \"**App.Console.PrintMessage**\"
 ~~ver 1.09 , 04/11/2013 works perfectly on Windows and Linux (cause of errors on Linux the characters    * ² ³ ° \"ordinal not in range(128)\")~~
-In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro\_FCInfo\_Alternate\_Linux](Macro_FCInfo_Alternate_Linux.md)
+In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
 \*ver 1.08 , 24/10/2013 correction of high top \"Faces\" and \"Edges\" displaying 100 objects (in the saved file)
 \*ver 1.07 , 11/10/2013 matches the \"Faces\" and their coordinates.
 \*ver 1.06 , 22/09/2013 matches the \"Edges\" and their coordinates, inclination on the element rather than the global object

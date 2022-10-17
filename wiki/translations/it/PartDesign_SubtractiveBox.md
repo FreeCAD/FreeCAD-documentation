@@ -9,7 +9,7 @@
 
 Inserisce un cubo sottrattivo nel corpo attivo. La sua forma viene sottratta dal solido esistente.
 
-![](images/PartDesign_SubtractiveBox_example.png ) \'\' A sinistra il corpo attivo (A) mostrato in grigio e il cubo sottrattivo (B) mostrato in rosso trasparente; a destra il risultato. \'\'
+![](images/PartDesign_SubtractiveBox_example.png ) *A sinistra il corpo attivo (A) mostrato in grigio e il cubo sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
 
 ## Utilizzo
 

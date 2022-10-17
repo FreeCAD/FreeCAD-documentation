@@ -25,7 +25,7 @@ Este comando permite gestionar el documento actual con [GIT](https   *//es.wikip
 
 Git es una herramienta compleja, considere la posibilidad de aprender los fundamentos de la misma antes de utilizar esta herramienta, para evitar operaciones erróneas que pueden causar la pérdida de datos. Hay una abundante literatura sobre GIT disponible y fácil de encontrar en Internet.
 
-Requisito   *'\'\' Para poder utilizar este comando, el paquete [gitpython](https   *//github.com/gitpython-developers/GitPython) debe estar instalado en tu sistema. En la mayoría de las distribuciones de linux, gitpython está disponible en los repositorios de software estándar como *gitpython* o *python-git*.
+Requisito   **\' Para poder utilizar este comando, el paquete [gitpython](https   *//github.com/gitpython-developers/GitPython) debe estar instalado en tu sistema. En la mayoría de las distribuciones de linux, gitpython está disponible en los repositorios de software estándar como*gitpython*o*python-git\'\'.
 
 ## Utilización
 

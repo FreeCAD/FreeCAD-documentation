@@ -51,7 +51,7 @@ Możesz również spróbować   *
 
 Aby uzyskać przegląd wszystkich preferencji związanych z DXF, zobacz stronę [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DXF.md).
 
-[Category   *User\_Documentation](Category_User_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *User_Documentation](Category_User_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

@@ -108,7 +108,7 @@ For a tutorial on how to create a template for that workbench see [TechDraw Temp
 
 Прежде всего, нужно вставить следующую строку в документ. Эта строка является объявлением пространства имен SVG и должна быть предоставлена ​​так, чтобы все элементы SVG были идентифицированы как принадлежащие к пространству имен SVG.
 
- {.XML}
+ XML
 xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
@@ -139,7 +139,7 @@ xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespac
 
 </div>
 
- {.html}
+ html
 width="279mm"
 height="216mm"
 viewBox="0 0 279 216"
@@ -179,7 +179,7 @@ viewBox="0 0 279 216"
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -192,7 +192,7 @@ viewBox="0 0 279 216"
 
 В нашем случае для шаблона этого руководства будет использоваться следующий тег рабочего пространства.
 
- {.html}
+ html
 
 
 
@@ -206,7 +206,7 @@ viewBox="0 0 279 216"
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -221,7 +221,7 @@ viewBox="0 0 279 216"
 
 Опять же, ссылаясь на шаблон, созданный с помощью этого руководства, тег заголовка будет выглядеть следующим образом   *
 
- {.html}
+ html
 
 
 
@@ -243,7 +243,7 @@ viewBox="0 0 279 216"
 
 Этот тег формируется следующим образом и вставляется непосредственно перед последним тегом \</ svg\>.
 
- {.html}
+ html
 
 
 
@@ -278,4 +278,4 @@ viewBox="0 0 279 216"
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/ru

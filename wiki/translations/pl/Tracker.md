@@ -41,8 +41,8 @@ Jeśli chcesz, aby w FreeCAD pojawiło się coś, co nie jest jeszcze zaimplemen
 2.  Utwórz wątek na forum, aby przedyskutować swoją prośbę o funkcje ze społecznością poprzez [forum](http   *//forum.freecadweb.org/viewforum.php?f=8).
 3.  Gdy społeczność zgodzi się, że jest to ważna funkcja, możesz otworzyć zgłoszenie na trackerze *(wpisz je pod **żądanie funkcji** zamiast **błąd**)*.
 
--   **UWAGA \#1** Aby zachować porządek, należy pamiętać o umieszczeniu adresu URL zgłoszenia w wątku forum, oraz numeru zgłoszenia *(jako linku)*.
--   **UWAGA \#2** Pamiętaj, że nie ma gwarancji, że twoje życzenie zostanie spełnione. ![Strona z raportem FreeCAD Bugtracker - użyj rozwijanego menu, aby poprawnie określić, czym jest zgłoszenie.](images/MantisBT-setting-Feature-Request.jpg )
+-   **UWAGA #1** Aby zachować porządek, należy pamiętać o umieszczeniu adresu URL zgłoszenia w wątku forum, oraz numeru zgłoszenia *(jako linku)*.
+-   **UWAGA #2** Pamiętaj, że nie ma gwarancji, że twoje życzenie zostanie spełnione. ![Strona z raportem FreeCAD Bugtracker - użyj rozwijanego menu, aby poprawnie określić, czym jest zgłoszenie.](images/MantisBT-setting-Feature-Request.jpg )
 
 ## Przesyłanie łatek 
 
@@ -74,7 +74,7 @@ MantisBT (Mantis Bug Tracker) ma swój własny unikalny znacznik.
 
 <img alt="" src=images/mantisbt-ticket-shortcut-example.jpg  style="width   *600px;">
 
--   **\~**5678 - skrót, który łączy się z notatką o błędzie w zgłoszeniu. Może być użyty do odniesienia się do czyjejś odpowiedzi w obrębie wątku. Każda osoba, która umieściła zgłoszenie, będzie miała przy swojej nazwie użytkownika wyświetlony unikalny numer \~\#\#\#\#\#. Jeśli spojrzysz na obrazek w przykładzie, zobaczysz, że skrót odnosi się do *numeru zgłoszenia   *numeru komentarza* tego zgłoszenia.
+-   **\~**5678 - skrót, który łączy się z notatką o błędzie w zgłoszeniu. Może być użyty do odniesienia się do czyjejś odpowiedzi w obrębie wątku. Każda osoba, która umieściła zgłoszenie, będzie miała przy swojej nazwie użytkownika wyświetlony unikalny numer \~#####. Jeśli spojrzysz na obrazek w przykładzie, zobaczysz, że skrót odnosi się do *numeru zgłoszenia   *numeru komentarza* tego zgłoszenia.
 
 <img alt="" src=images/mantisbt-comment-shortcut-example.jpg  style="width   *600px;">
 
@@ -138,12 +138,12 @@ FreeCAD bugtracker posiada wtyczkę o nazwie [Source Integration](https   *//git
 
 Użycie tego wzorca automatycznie połączy git commit do zgłoszenia (**Uwaga   *** to nie zamknie zgłoszenia). Format MantisBT rozpozna   *
 
--   bug \#1234
--   bugs \#1234, \#5678
--   issue \#1234
--   issues \#1234, \#5678
--   report \#1234
--   reports \#1234, \#5678
+-   bug #1234
+-   bugs #1234, #5678
+-   issue #1234
+-   issues #1234, #5678
+-   report #1234
+-   reports #1234, #5678
 
 Dla dociekliwych tutaj jest wyrażenie regularne, którego używa MantisBT do tej operacji   *
 
@@ -152,16 +152,16 @@ Dla dociekliwych tutaj jest wyrażenie regularne, którego używa MantisBT do te
 
 Interfejs MantisBT rozpoznaje format   *
 
--   fix \#1234
--   fixed \#1234
--   fixes \#1234
--   fixed \#1234, \#5678
--   fixes \#1234, \#5678
--   resolve \#1234
--   resolved \#1234
--   resolves \#1234
--   resolved \#1234, \#5678
--   resolves \#1234, \#5678
+-   fix #1234
+-   fixed #1234
+-   fixes #1234
+-   fixed #1234, #5678
+-   fixes #1234, #5678
+-   resolve #1234
+-   resolved #1234
+-   resolves #1234
+-   resolved #1234, #5678
+-   resolves #1234, #5678
 
 Dla dociekliwych   * mamy tu zastosowanie wyrażenia regularnego MantisBT do tej operacji   *
 

@@ -168,7 +168,7 @@ Set the output image size in inches, for example use 11.7x8.3 to get a **DIN A4*
 
 }} {{Plot_Tools_navi}} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

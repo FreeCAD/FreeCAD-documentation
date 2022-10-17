@@ -37,7 +37,7 @@ Vor Version 0.19 (siehe Fix [1](https   *//github.com/FreeCAD/FreeCAD/pull/3746)
 -   Wenn du das Werkzeug zuerst anklickst   * Wähle den ersten Punkt, dann den Symmetriereferenzpunkt und schließlich den zweiten Punkt.
 -   Wenn du zuletzt auf das Werkzeug klickst   * Wähle den ersten Punkt, dann den zweiten Punkt und zuletzt den Symmetriereferenzpunkt.
 
-Siehe den Tracker [issue\#4144](https   *//freecadweb.org/tracker/view.php?id=4144) und [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+Siehe den Tracker [issue#4144](https   *//freecadweb.org/tracker/view.php?id=4144) und [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
 
 ## Skripten
 

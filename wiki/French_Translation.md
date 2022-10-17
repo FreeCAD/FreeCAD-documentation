@@ -18,7 +18,7 @@ Chaque recommandation devrait être validée sur le forum en français    * **[d
        *   **PartDesign Workbench** -\> **PartDesign    * Atelier (conception de pièces)**
        *   **PartDesign Body** -\> **PartDesign    * Corps (objet Body)**
 
-**Remarque typographique    *** A la différence de l\'anglais qui n\'utilise pas d\'espace avant les signes de ponctuation double que sont les \" \'\'\'   * ? ; **et** ! \'\'\' \" mais seulement après, c\'est le cas en français avec des espaces avant et après les signes de ponctuation double.
+**Remarque typographique    *** A la différence de l\'anglais qui n\'utilise pas d\'espace avant les signes de ponctuation double que sont les \" **   * ? ;**et**!** \" mais seulement après, c\'est le cas en français avec des espaces avant et après les signes de ponctuation double.
 Exemples    *
 Application Overview**   *** A general overview of FreeCAD (pas d\'espace avant les \" **   *** \" mais seulement après).
 Vue d\'ensemble de l\'Application **   *** Un aperçu général de FreeCAD (espace avant et après les \" **   *** \").

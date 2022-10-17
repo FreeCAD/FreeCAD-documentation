@@ -414,7 +414,7 @@ Cet exemple est basé sur une [discussion sur le forum germanophone](https   *//
 
 -   Créer un solide avec ShapeString comme Cutout
 -   Créer un travail en utilisant ce solide comme son BaseObject
--   Créez une opération ProfileFromFaces nommée \"Profile\_Faces\" avec une BaseGeometry vide.
+-   Créez une opération ProfileFromFaces nommée \"Profile_Faces\" avec une BaseGeometry vide.
 
 ### Le code 
 

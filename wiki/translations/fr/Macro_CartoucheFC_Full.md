@@ -14,11 +14,11 @@
 
 Cette macro est une application complète, elle permet de remplir simplement tous les champs du cartouche.
 
-Téléchargez les feuilles [Misc\_templates\_Full](Misc_templates_Full/fr.md)
+Téléchargez les feuilles [Misc_templates_Full](Misc_templates_Full/fr.md)
 
-Voici l\'ordre de remplissage de la ligne éditable de FreeCAD. Les champs date et heure sont séparés par un **\'espace négatif espace\'\' \" - \"** et constituent une seule ligne éditable.
+Voici l\'ordre de remplissage de la ligne éditable de FreeCAD. Les champs date et heure sont séparés par un \'*\'espace négatif espace* \" - \"\'\'\' et constituent une seule ligne éditable.
 
-<img alt="CartoucheFC\_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
+<img alt="CartoucheFC_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
 
 ## Utilisation
 
@@ -28,9 +28,9 @@ Si vous avez des questions ou si vous voulez ajouter une fonction, vous pouvez v
 
 -   La fenêtre reste au dessus des autres fenêtres et permet ainsi de contrôler le cartouche sans quitter le programme.
 
--   Copiez le code dans un fichier nommé **Macro\_CartoucheFC\_Full.py** et placez le dans votre répertoire de macros habituelle.
+-   Copiez le code dans un fichier nommé **Macro_CartoucheFC_Full.py** et placez le dans votre répertoire de macros habituelle.
 
--   Après avoir créé votre feuille de dessin à l\'aide du module Drawing de FreeCAD, lancez la macro **Macro\_CartoucheFC\_Full**.
+-   Après avoir créé votre feuille de dessin à l\'aide du module Drawing de FreeCAD, lancez la macro **Macro_CartoucheFC_Full**.
 
 -   A l\'ouverture, le programme enregistrera en mémoire toutes les données déjà présente dans le cartouche de la feuille (s\'ils sont remplis), toutes ces données seront automatiquement restituées à l\'aide du bouton **Memo** et tenus en mémoire jusqu'à la fermeture du programme.
 
@@ -56,7 +56,7 @@ Si vous avez des questions ou si vous voulez ajouter une fonction, vous pouvez v
 
 L\' icône pour votre barre d\'outils ![](images/Macro_CartoucheFC_Full.png )
 
-**Macro\_CartoucheFC\_Full.FCMacro**
+**Macro_CartoucheFC_Full.FCMacro**
 
 
 {{MacroCode|code=

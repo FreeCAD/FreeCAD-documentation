@@ -73,7 +73,7 @@ Zaznacz szkic, naciśnij klawisz **F2** i zmień nazwę na \"BaseSketch\".
 
 Gdybyśmy pozostawili szkic tam, gdzie jest, przykład byłby zbyt prosty, więc zmieńmy położenie szkicu, zmieniając przesunięcie jego dołączenia.
 
-W widoku połączonym *(zakładka Dane)*, spójrz na sekcję Dołączenie w panelu właściwości, tutaj widzimy, że BaseSketch ma podparcie XY\_Plane i jest dołączony z trybem Płaska ściana. Spójrz dalej w dół i znajdź pozycje Odsunięcie dołączenia i rozwiń ją, klikając znak plusa obok.
+W widoku połączonym *(zakładka Dane)*, spójrz na sekcję Dołączenie w panelu właściwości, tutaj widzimy, że BaseSketch ma podparcie XY_Plane i jest dołączony z trybem Płaska ściana. Spójrz dalej w dół i znajdź pozycje Odsunięcie dołączenia i rozwiń ją, klikając znak plusa obok.
 
 Zrób to samo dla podtytułu Pozycja. Zmień wartość odsunięcia X na 80mm, a wartość odsunięcia Y na 90mm.
 
@@ -138,7 +138,7 @@ Można go używać z dodatkiem przesunięć, aby precyzyjnie pozycjonować szkic
 
 FreeCAD próbuje przewidzieć tryb dołączania dla Ciebie, i filtruje tryby dostępne dla danego zaznaczenia.
 
-W tym przypadku opcje są następujące   * \"Wyłączone\", \"**Normalnie do krawędzi**\" i \"Bezwładność 2-3\". Opcja \"Normalnie do krawędzi\" jest pogrubiona i jest uważana za preferowany wybór.
+W tym przypadku opcje są następujące   * \"Wyłączone\", [\"**Normalna do krawędzi**\"](Part_EditAttachment/pl#Normalna_do_kraw.C4.99dzi.md) i [\"Bezwładność 2-3\"](Part_EditAttachment/pl#Bezw.C5.82adno.C5.9B.C4.87_2-3.md). Opcja \"Normalnie do krawędzi\" jest pogrubiona i jest uważana za preferowany wybór.
 
 W obszarze powiadomień w górnej części okna dialogowego wyświetlany jest komunikat w kolorze zielonym informujący o używanym trybie.
 
@@ -148,7 +148,7 @@ W tym momencie możesz dokonać kolejnego zaznaczenia i zobaczyć różnicę w t
 
 Szkic równoramienny jest teraz prawidłowo ustawiony, więc potwierdź i opuść okienko dialogowe.
 
-Teraz można wprowadzić kieszeń do szkicu.
+Teraz można wprowadzić [kieszeń](PartDesign_Pocket/pl.md) do szkicu.
 
 ![centre\|Kieszeń](images/Pocket.png )
 
@@ -175,9 +175,9 @@ Widok 3D powinien być podobny do tego na powyższym rysunku. Nie jest ważne, d
 
 Jeśli wybrałeś złą linię, zmień ją teraz. Jeśli trójkąt jest skierowany w złą stronę, możesz to skorygować, zaznaczając pole wyboru \"Odwróć strony\" na dole okna dialogowego *(lub później, po zamknięciu okna dialogowego, można to zmienić w zakładce Danych właściwości, ustawiając opcję \"Mapowanie odwrócone\" na wartość {{True/pl}})*.
 
-Szkic RightAngleTriangleSketch jest teraz w pozycji, która zapewni nam poprawną geometrię po operacji kieszeni, jednak możemy być trochę bardziej pomysłowi i ustawić szkic tak, aby ułatwić sobie dołączenie dalszej geometrii w późniejszym czasie. Przesuniemy nasz szkic na środek linii tak, aby uzyskać wierzchołek w górnej części fazy narożnika.
+Szkic RightAngleTriangleSketch jest teraz w pozycji, która zapewni nam poprawną geometrię po operacji kieszeni, jednak możemy być trochę bardziej pomysłowi i ustawić szkic tak, aby ułatwić sobie dołączenie dalszej geometrii w późniejszym czasie. Przesuniemy nasz szkic na środek linii tak, aby uzyskać wierzchołek w górnej części [fazy](Glossary/pl#C.md) narożnika.
 
-W dialogu dołączania zmienimy tryb dołączania z \"Normal To Edge\" na \"Inercja 2-3\". To zmieni położenie na środek linii, opisanie wszystkich trybów dołączania wykracza poza zakres tego poradnika, ich opisy można znaleźć na stronie <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Część   * Edytuj mocowanie](Part_EditAttachment/pl.md). Wystarczy powiedzieć, że tryb **inercja 2-3** wykorzystuje środek masy i tutaj spełnia swoje zadanie.
+W dialogu dołączania zmienimy tryb dołączania z [\"Normalna do krawędzi\"](Part_EditAttachment/pl#Normalna_do_kraw.C4.99dzi.md) na [\"Bezwładność 2-3\"](Part_EditAttachment/pl#Bezw.C5.82adno.C5.9B.C4.87_2-3.md). To zmieni położenie na środek linii, opisanie wszystkich trybów dołączania wykracza poza zakres tego poradnika, ich opisy można znaleźć na stronie <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Część   * Edytuj mocowanie](Part_EditAttachment/pl.md). Wystarczy powiedzieć, że tryb **inercja 2-3** wykorzystuje środek masy i tutaj spełnia swoje zadanie.
 
 ![centre\|Okienko dialogowe   * Dołączanie, tryb Inercja 2-3](images/ADInertia.png )
 
@@ -198,9 +198,9 @@ Ogólnie rzecz biorąc, lepiej jest pozycjonować nasze szkice po prostu za pomo
 
 FreeCAD oferuje kilka sposobów, aby to zrobić.
 
-1.  Odsunięcie dołączenia, umożliwia pozycjonowanie względem lokalnych współrzędnych punktu dołączenia *(gdzie dołączony jest początek pozycjonowanego szkicu)*.
-2.  Parametr Map Path *(w zakładce Dane właściwości z włączoną opcją Pokaż wszystko)* Umożliwia pozycjonowanie wzdłuż wybranej krawędzi.
-3.  Odwróć strony/mapuj odwrotnie. Powoduje odbicie lustrzane szkicu.
+1.  [Odsunięcie mocowania](Part_Part2DObject/pl#Property_Odsunięcie_mocowania.md), umożliwia pozycjonowanie względem lokalnych współrzędnych punktu dołączenia *(gdzie dołączony jest początek pozycjonowanego szkicu)*.
+2.  Parametr [Ścieżka dołączenia](Part_Part2DObject/pl#Property_.C5.9Acie.C5.BCka_do.C5.82.C4.85czenia.md) *(w zakładce Dane właściwości z włączoną opcją Pokaż wszystko)* Umożliwia pozycjonowanie wzdłuż wybranej krawędzi.
+3.  Parametr [Odwróć strony / mapuj odwrotnie](Part_Part2DObject/pl#Property_Dołączenie_odwrotne.md) powoduje odbicie lustrzane szkicu.
 
 W naszym ostatecznym szkicu zamocujemy go arbitralnie i skorygujemy jego położenie za pomocą modyfikatorów wymienionych powyżej.
 
@@ -226,7 +226,7 @@ W dolnej części okna dialogowego załącznika znajduje się pole wyboru {{Chec
 
 FinalSketch w odbiciu lustrzanym
 
-Teraz dokonamy obrotu o 90°. Na ilustracji FinalSketch powyżej widzimy, że osią obrotu powinna być oś X. W Wiki jest to określane jako Obrót. Pamiętaj, że operacja odbywa się względne w stosunku do lokalnego układu współrzędnych. Wprowadź wartość {{SpinBox|90°}} w polu \"Wokół osi X\" w sekcji **Odsunięcie dołączenia** okna dialogowego.
+Teraz dokonamy obrotu o 90°. Na ilustracji FinalSketch powyżej widzimy, że osią obrotu powinna być oś X. W Wiki jest to określane jako [Obrót](Tasks_Placement/pl#Obrót.md). Pamiętaj, że operacja odbywa się względne w stosunku do lokalnego układu współrzędnych. Wprowadź wartość {{SpinBox|90°}} w polu \"Wokół osi X\" w sekcji **Odsunięcie dołączenia** okna dialogowego.
 
 ![centre\|Szkic \"FinalSketch\" odwrócony i obrócony](images/FSFlipRot.png )
 

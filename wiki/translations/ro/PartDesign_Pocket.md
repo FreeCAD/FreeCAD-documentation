@@ -17,7 +17,7 @@ Instrumentul **Pocket** așchiază un solid prin extrudarea unei schițe în tra
 
 </div>
 
-![](images/PartDesign_Pocket_example.svg ) \'\'Sketch profile (A) was mapped to the top face of base solid (B); result after pocketing through on the right. \'\'
+![](images/PartDesign_Pocket_example.svg ) *Sketch profile (A) was mapped to the top face of base solid (B); result after pocketing through on the right.*
 
 ## Usage
 

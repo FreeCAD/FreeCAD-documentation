@@ -18,7 +18,7 @@ This macro traverses the SceneGraph and prints all the nodes and their fields in
 
 ToolBar Icon  ![](images/Macro_Print_SceneGraph.png )
 
-**Macro\_Print\_SceneGraph.FCMacro**
+**Macro_Print_SceneGraph.FCMacro**
 
 
 {{MacroCode|code=

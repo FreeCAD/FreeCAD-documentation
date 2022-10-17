@@ -29,7 +29,7 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 ## Optionen
 
--   Das Schnittebenenobjekt berücksichtigt nur einen bestimmten Satz von Objekten, nicht alle Objekte des Dokuments. Objekte können einem Schnittebenenobjekt mit den [Arch Hinzufügen](Arch_Add/de.md) und [Arch Entfernen](Arch_Remove/de.md) Werkzeugen hinzugefügt oder entfernt werden, oder durch Doppelklicken auf die Schnittebene in der Baumansicht, Auswählen von Objekten entweder in der Liste oder in der 3D Szene und Drücken der Schaltflächen *\'hinzufügen* oder **entfernen**.
+-   Das Schnittebenenobjekt berücksichtigt nur einen bestimmten Satz von Objekten, nicht alle Objekte des Dokuments. Objekte können einem Schnittebenenobjekt mit den [Arch Hinzufügen](Arch_Add/de.md) und [Arch Entfernen](Arch_Remove/de.md) Werkzeugen hinzugefügt oder entfernt werden, oder durch Doppelklicken auf die Schnittebene in der Baumansicht, Auswählen von Objekten entweder in der Liste oder in der 3D Szene und Drücken der Schaltflächen **hinzufügen\'\' oder**entfernen\'\'\'.
 
 -   Wenn ein Schnittebenenobjekt ausgewählt ist, verwendedas [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md) Werkzeug, um ein Formobjekt zu erstellen, das die Schnittansicht im Dokument darstellt.
 

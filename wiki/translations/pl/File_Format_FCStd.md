@@ -166,7 +166,7 @@ Zobacz wątek na forum, [PDF wewnątrz projektu](https   *//forum.freecadweb.org
 
  
 
-[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

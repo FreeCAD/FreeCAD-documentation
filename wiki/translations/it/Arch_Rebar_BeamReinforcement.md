@@ -179,7 +179,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 **Top/Bottom Reinforcement Rebars   *** barre di armatura presenti nella parte superiore e inferiore della trave
 
--    **NumberDiameterOffset**   * Una tupla della stringa Number\#Diameter\@Offset. Ogni elemento della tupla rappresenta il rinforzo per ogni nuovo livello.
+-    **NumberDiameterOffset**   * Una tupla della stringa Number#Diameter@Offset. Ogni elemento della tupla rappresenta il rinforzo per ogni nuovo livello.
 
 -    **Rebar Type**   * Elenco di tuple del tipo di barre di rinforzo.
 
@@ -193,7 +193,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 **Left/Right Reinforcement Rebars   *** barre di armatura presenti nella parte sinistra e destra della trave
 
--    **NumberDiameterOffset**   * Stringa di Number\#Diameter\@Offset per barre di rinforzo..
+-    **NumberDiameterOffset**   * Stringa di Number#Diameter@Offset per barre di rinforzo..
 
 -    **Rebar Type**   * Elenco dei tipi di barre di rinforzo.
 
@@ -274,7 +274,7 @@ RebarGroup = makeReinforcement(
 
 -    `number_spacing_value`specifies the number of stirrups, or the value of the separation between them, depending on `number_spacing_check`.
 
--    `top_reinforcement_number_diameter_offset`and `bottom_reinforcement_number_diameter_offset` are tuple of number\_diameter\_offset string. Each element of tuple represents reinforcement for each new layer.
+-    `top_reinforcement_number_diameter_offset`and `bottom_reinforcement_number_diameter_offset` are tuple of number_diameter_offset string. Each element of tuple represents reinforcement for each new layer.
 
    Syntax   * (
                "number1#diameter1@offset1+number2#diameter2@offset2+...",
@@ -308,7 +308,7 @@ RebarGroup = makeReinforcement(
 , ...) and number of elements of tuple must be
       equal to one less than number of layers.
 
--    `left_rebars_number_diameter_offset`and `right_rebars_number_diameter_offset` are string of number\_diameter\_offset.
+-    `left_rebars_number_diameter_offset`and `right_rebars_number_diameter_offset` are string of number_diameter_offset.
 
    Syntax   * "number1#diameter1@offset1+number2#diameter2@offset2+..."
 

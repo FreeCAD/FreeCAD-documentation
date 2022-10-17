@@ -18,7 +18,7 @@ Cette macro aplatit les Draft fils qui ne sont pas planaires à leur coordonnée
 
 Icône de la barre d\'outils ![](images/Macro_FlattenWire.png )
 
-**Macro\_FlattenWire.FCMacro**
+**Macro_FlattenWire.FCMacro**
 
 
 {{MacroCode|code=

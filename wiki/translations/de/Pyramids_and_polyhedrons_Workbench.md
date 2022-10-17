@@ -6,7 +6,7 @@
 Dieser Arbeitsbereich erstellt   *
 
 -   Parametrische Pyramiden
--   Parametrische Polyeder   * Tetraeder, Hexaeder, Oktaeder, Dodekaeder, Ikosaeder, Ikosaeder\_abgestumpft
+-   Parametrische Polyeder   * Tetraeder, Hexaeder, Oktaeder, Dodekaeder, Ikosaeder, Ikosaeder_abgestumpft
 -   Geodätische Kugeln (mit den Unterteilungen 1 bis 10)
 
 Parameter wie Radius und Seite, \...können genau wie bei normalen Teilen eingestellt werden

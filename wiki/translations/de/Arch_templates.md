@@ -3,81 +3,81 @@ Dieses Seite zeigt die Vorlagen entsprechend dem American National Standards Ins
 
 ### Arch A 
 
-#### Arch\_A\_Querformat
+#### Arch_A\_Querformat
 
 <img alt="" src=images/Arch_A_Landscape.svg  style="width   *800px;">
 
-#### Arch\_A\_Hochformat
+#### Arch_A\_Hochformat
 
 <img alt="" src=images/Arch_A_Portrait.svg  style="width   *800px;">
 
 ### Arch B 
 
-#### Arch\_B\_Querformat
+#### Arch_B\_Querformat
 
 <img alt="" src=images/Arch_B_Landscape.svg  style="width   *800px;">
 
-#### Arch\_B\_Hochformat
+#### Arch_B\_Hochformat
 
 <img alt="" src=images/Arch_B_Portrait.svg  style="width   *800px;">
 
 ### Arch C 
 
-#### Arch\_C\_Querformat
+#### Arch_C\_Querformat
 
 <img alt="" src=images/Arch_C_Landscape.svg  style="width   *800px;">
 
-#### Arch\_C\_Hochformat
+#### Arch_C\_Hochformat
 
 <img alt="" src=images/Arch_C_Portrait.svg  style="width   *800px;">
 
 ### Arch D 
 
-#### Arch\_D\_Querformat
+#### Arch_D\_Querformat
 
 <img alt="" src=images/Arch_D_Landscape.svg  style="width   *800px;">
 
-#### Arch\_D\_Hochformat
+#### Arch_D\_Hochformat
 
 <img alt="" src=images/Arch_D_Portrait.svg  style="width   *800px;">
 
 ### Arch E 
 
-#### Arch\_E\_Querformat
+#### Arch_E\_Querformat
 
 <img alt="" src=images/Arch_E_Landscape.svg  style="width   *800px;">
 
-#### Arch\_E\_Hochformat
+#### Arch_E\_Hochformat
 
 <img alt="" src=images/Arch_E_Portrait.svg  style="width   *800px;">
 
 ### Arch E1 
 
-#### Arch\_E1\_Querformat
+#### Arch_E1_Querformat
 
 <img alt="" src=images/Arch_E1_Landscape.svg  style="width   *800px;">
 
-#### Arch\_E1\_Hochformat
+#### Arch_E1_Hochformat
 
 <img alt="" src=images/Arch_E1_Portrait.svg  style="width   *800px;">
 
 ### Arch E2 
 
-#### Arch\_E2\_Querformat
+#### Arch_E2_Querformat
 
 <img alt="" src=images/Arch_E2_Landscape.svg  style="width   *800px;">
 
-#### Arch\_E2\_Hochformat
+#### Arch_E2_Hochformat
 
 <img alt="" src=images/Arch_E2_Portrait.svg  style="width   *800px;">
 
 ### Arch E3 
 
-#### Arch\_E3\_Querformat
+#### Arch_E3_Querformat
 
 <img alt="" src=images/Arch_E3_Landscape.svg  style="width   *800px;">
 
-#### Arch\_E3\_Hochformat
+#### Arch_E3_Hochformat
 
 <img alt="" src=images/Arch_E3_Portrait.svg  style="width   *800px;">
 

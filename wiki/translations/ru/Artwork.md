@@ -167,7 +167,7 @@ See [Artwork Render](Artwork_Render.md).
 
 Смотри [Художественное оформление Ship](Artwork_Ship/ru.md).
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Developer\_Documentation](Category_Developer_Documentation.md)
+[Category   *Artwork](Category_Artwork.md) [Category   *Developer_Documentation](Category_Developer_Documentation.md)
 
 
 

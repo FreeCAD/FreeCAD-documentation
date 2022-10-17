@@ -6,7 +6,7 @@
 Questo banco di lavoro crea   *
 
 -   Piramidi parametriche
--   Poliedri parametrici   * tetraedro, esaedro, ottaedro, dodecaedro, icosaedro, icosaedro\_troncato
+-   Poliedri parametrici   * tetraedro, esaedro, ottaedro, dodecaedro, icosaedro, icosaedro_troncato
 -   Sfere geodetiche (con divisioni da 1 a 10)
 
 Parametri come raggio e lato, \... possono essere regolati proprio come con le parti normali

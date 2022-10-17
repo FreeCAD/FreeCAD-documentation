@@ -47,7 +47,7 @@ L\'icona per la ToolBar da salvare nella stessa cartella della macro ![](images/
 
 </div>
 
-**Macro\_FCSpreadSheet\_Extract.FCMacro**
+**Macro_FCSpreadSheet_Extract.FCMacro**
 
 
 {{MacroCode|code=

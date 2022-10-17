@@ -222,7 +222,7 @@ The section [Attaching 3D geometry](#Attaching_3D_geometry.md) just scratches th
 
 It is important to move such a kinematic assembly in tiny steps or the solver will give up and fail. It is almost impossible to use <img alt="" src=images/Assembly_Move.svg‎‎  style="width   *16px;"> [Move part](Assembly3_MovePart.md) or <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width   *16px;"> [Axial move](Assembly3_AxialMove.md) for this task.
 
-The <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Assembly3\_ConstraintCoincidence](Assembly3_ConstraintCoincidence.md) constraint is used to drive the kinematic assembly, its property **Angle** (enabled by the property **Lock Angle**) accepts positive or negative floating point numbers greater than 360 and so could do several full turns.
+The <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *16px;"> [Assembly3_ConstraintCoincidence](Assembly3_ConstraintCoincidence.md) constraint is used to drive the kinematic assembly, its property **Angle** (enabled by the property **Lock Angle**) accepts positive or negative floating point numbers greater than 360 and so could do several full turns.
 
 
 

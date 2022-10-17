@@ -23,7 +23,7 @@ Select yours objects selected is duplicate the cursor mouse ere displayed \"Forb
 
 Icon for the toolBar ![](images/Macro_Duplicate_Selection.png )
 
-**Macro\_Duplicate\_Selection.FCMacro**
+**Macro_Duplicate_Selection.FCMacro**
 
 
 {{MacroCode|code=

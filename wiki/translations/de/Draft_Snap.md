@@ -1,13 +1,4 @@
 # Draft Snap/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Beschreibung
@@ -142,15 +133,6 @@ Note that after changing some preferences you must restart FreeCAD.
 Diese Einstellung wird gespeichert   * **|Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Mod → Entwurf → FangBereich**.
 
 -   Die genannten Tasten können in den [Entwurf Einstellungen](Draft_Preferences/de.md) angepasst werden   * **Bearbeiten → Einstellungen... → Entwurf → Einstellungen der Benutzeroberfläche → Befehlsinterne Tastenkombinationen**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
 
 
 </div>

@@ -23,7 +23,7 @@ Erstellt einen Bezugspunkt. Dieser kann innerhalb des aktuellen Körpers referen
 
 2.  Die Parameter des Punktes definieren. Eine erste Referenz in der 3D-Ansicht auswählen, um die verfügbaren Verbindungsarten zu filtern.
 
-3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text \'\'Angehängt im Modus   * \'\' zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
+3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text *Angehängt im Modus   ** zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
 
 4.  Um eine weitere Referenz hinzuzufügen, drückt man die nächste **Referenz**-Schaltfläche. Sobald sie gerückt wurde ändert sich die Beschriftung zu *Auswählen\...*, bis etwas ausgewählt wurde.
 

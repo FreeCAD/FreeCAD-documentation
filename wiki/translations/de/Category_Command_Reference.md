@@ -97,13 +97,33 @@ Diese Kategorie enthält die Hilfeseiten jedes FreeCAD-Befehls.
 | [Fasteners ChangeParameters/de](wiki/Fasteners ChangeParameters/de.md) | [Fasteners Flip/de](wiki/Fasteners Flip/de.md) | [Fasteners MatchTypeInner/de](wiki/Fasteners MatchTypeInner/de.md) |
 | [Fasteners MatchTypeOuter/de](wiki/Fasteners MatchTypeOuter/de.md) | [Fasteners Move/de](wiki/Fasteners Move/de.md) | [Fasteners ScrewCalculator/de](wiki/Fasteners ScrewCalculator/de.md) |
 | [Fasteners Shape/de](wiki/Fasteners Shape/de.md) | [FCGear BevelGear/de](wiki/FCGear BevelGear/de.md) | [FCGear CrownGear/de](wiki/FCGear CrownGear/de.md) |
-| [FCGear CycloideGear/de](wiki/FCGear CycloideGear/de.md) | [FCGear InvoluteGear/de](wiki/FCGear InvoluteGear/de.md) | [FCGear InvoluteRack/de](wiki/FCGear InvoluteRack/de.md) |
-| [FCGear LanternGear/de](wiki/FCGear LanternGear/de.md) | [FCGear WormGear/de](wiki/FCGear WormGear/de.md) | [FEM Analysis/de](wiki/FEM Analysis/de.md) |
-| [FEM ConstraintBodyHeatSource/de](wiki/FEM ConstraintBodyHeatSource/de.md) | [FEM ConstraintFixed/de](wiki/FEM ConstraintFixed/de.md) | [FEM ConstraintForce/de](wiki/FEM ConstraintForce/de.md) |
-| [FEM ConstraintPressure/de](wiki/FEM ConstraintPressure/de.md) | [FEM ConstraintTemperature/de](wiki/FEM ConstraintTemperature/de.md) | [FEM ElementRotation1D/de](wiki/FEM ElementRotation1D/de.md) |
-| [FEM MaterialFluid/de](wiki/FEM MaterialFluid/de.md) | [FEM MaterialMechanicalNonlinear/de](wiki/FEM MaterialMechanicalNonlinear/de.md) | [FEM MaterialSolid/de](wiki/FEM MaterialSolid/de.md) |
-| [FEM MeshBoundaryLayer/de](wiki/FEM MeshBoundaryLayer/de.md) | [FEM MeshGmshFromShape/de](wiki/FEM MeshGmshFromShape/de.md) | [FEM MeshNetgenFromShape/de](wiki/FEM MeshNetgenFromShape/de.md) |
-| [FEM SolverCalculiX/de](wiki/FEM SolverCalculiX/de.md) | [GuiCommand model/de](wiki/GuiCommand model/de.md) | [Template:GuiCommand/de](wiki/Template_GuiCommand/de.md) |
+| [FCGear CycloidGear/de](wiki/FCGear CycloidGear/de.md) | [FCGear CycloidRack/de](wiki/FCGear CycloidRack/de.md) | [FCGear GearConnector/de](wiki/FCGear GearConnector/de.md) |
+| [FCGear HypoCycloidGear/de](wiki/FCGear HypoCycloidGear/de.md) | [FCGear InternalInvoluteGear/de](wiki/FCGear InternalInvoluteGear/de.md) | [FCGear InvoluteGear/de](wiki/FCGear InvoluteGear/de.md) |
+| [FCGear InvoluteRack/de](wiki/FCGear InvoluteRack/de.md) | [FCGear LanternGear/de](wiki/FCGear LanternGear/de.md) | [FCGear TimingGear/de](wiki/FCGear TimingGear/de.md) |
+| [FCGear WormGear/de](wiki/FCGear WormGear/de.md) | [FEM Analysis/de](wiki/FEM Analysis/de.md) | [FEM ClippingPlaneAdd/de](wiki/FEM ClippingPlaneAdd/de.md) |
+| [FEM ClippingPlaneRemoveAll/de](wiki/FEM ClippingPlaneRemoveAll/de.md) | [FEM ConstantVacuumPermittivity/de](wiki/FEM ConstantVacuumPermittivity/de.md) | [FEM ConstraintBearing/de](wiki/FEM ConstraintBearing/de.md) |
+| [FEM ConstraintBodyHeatSource/de](wiki/FEM ConstraintBodyHeatSource/de.md) | [FEM ConstraintCentrif/de](wiki/FEM ConstraintCentrif/de.md) | [FEM ConstraintContact/de](wiki/FEM ConstraintContact/de.md) |
+| [FEM ConstraintDisplacement/de](wiki/FEM ConstraintDisplacement/de.md) | [FEM ConstraintElectrostaticPotential/de](wiki/FEM ConstraintElectrostaticPotential/de.md) | [FEM ConstraintFixed/de](wiki/FEM ConstraintFixed/de.md) |
+| [FEM ConstraintFlowVelocity/de](wiki/FEM ConstraintFlowVelocity/de.md) | [FEM ConstraintFluidBoundary/de](wiki/FEM ConstraintFluidBoundary/de.md) | [FEM ConstraintForce/de](wiki/FEM ConstraintForce/de.md) |
+| [FEM ConstraintGear/de](wiki/FEM ConstraintGear/de.md) | [FEM ConstraintHeatflux/de](wiki/FEM ConstraintHeatflux/de.md) | [FEM ConstraintInitialFlowVelocity/de](wiki/FEM ConstraintInitialFlowVelocity/de.md) |
+| [FEM ConstraintInitialTemperature/de](wiki/FEM ConstraintInitialTemperature/de.md) | [FEM ConstraintPlaneRotation/de](wiki/FEM ConstraintPlaneRotation/de.md) | [FEM ConstraintPressure/de](wiki/FEM ConstraintPressure/de.md) |
+| [FEM ConstraintPulley/de](wiki/FEM ConstraintPulley/de.md) | [FEM ConstraintSectionPrint/de](wiki/FEM ConstraintSectionPrint/de.md) | [FEM ConstraintSelfWeight/de](wiki/FEM ConstraintSelfWeight/de.md) |
+| [FEM ConstraintSpring/de](wiki/FEM ConstraintSpring/de.md) | [FEM ConstraintTemperature/de](wiki/FEM ConstraintTemperature/de.md) | [FEM ConstraintTie/de](wiki/FEM ConstraintTie/de.md) |
+| [FEM ConstraintTransform/de](wiki/FEM ConstraintTransform/de.md) | [FEM CreateNodesSet/de](wiki/FEM CreateNodesSet/de.md) | [FEM ElementFluid1D/de](wiki/FEM ElementFluid1D/de.md) |
+| [FEM ElementGeometry1D/de](wiki/FEM ElementGeometry1D/de.md) | [FEM ElementGeometry2D/de](wiki/FEM ElementGeometry2D/de.md) | [FEM ElementRotation1D/de](wiki/FEM ElementRotation1D/de.md) |
+| [FEM EquationElasticity/de](wiki/FEM EquationElasticity/de.md) | [FEM EquationElectricforce/de](wiki/FEM EquationElectricforce/de.md) | [FEM EquationElectrostatic/de](wiki/FEM EquationElectrostatic/de.md) |
+| [FEM EquationFlow/de](wiki/FEM EquationFlow/de.md) | [FEM EquationFlux/de](wiki/FEM EquationFlux/de.md) | [FEM EquationHeat/de](wiki/FEM EquationHeat/de.md) |
+| [FEM Examples/de](wiki/FEM Examples/de.md) | [FEM FemMesh2Mesh/de](wiki/FEM FemMesh2Mesh/de.md) | [FEM MaterialEditor/de](wiki/FEM MaterialEditor/de.md) |
+| [FEM MaterialFluid/de](wiki/FEM MaterialFluid/de.md) | [FEM MaterialMechanicalNonlinear/de](wiki/FEM MaterialMechanicalNonlinear/de.md) | [FEM MaterialReinforced/de](wiki/FEM MaterialReinforced/de.md) |
+| [FEM MaterialSolid/de](wiki/FEM MaterialSolid/de.md) | [FEM MeshBoundaryLayer/de](wiki/FEM MeshBoundaryLayer/de.md) | [FEM MeshClear/de](wiki/FEM MeshClear/de.md) |
+| [FEM MeshDisplayInfo/de](wiki/FEM MeshDisplayInfo/de.md) | [FEM MeshGmshFromShape/de](wiki/FEM MeshGmshFromShape/de.md) | [FEM MeshGroup/de](wiki/FEM MeshGroup/de.md) |
+| [FEM MeshNetgenFromShape/de](wiki/FEM MeshNetgenFromShape/de.md) | [FEM MeshRegion/de](wiki/FEM MeshRegion/de.md) | [FEM PostApplyChanges/de](wiki/FEM PostApplyChanges/de.md) |
+| [FEM PostCreateFunctionPlane/de](wiki/FEM PostCreateFunctionPlane/de.md) | [FEM PostCreateFunctions/de](wiki/FEM PostCreateFunctions/de.md) | [FEM PostCreateFunctionSphere/de](wiki/FEM PostCreateFunctionSphere/de.md) |
+| [FEM PostFilterClipRegion/de](wiki/FEM PostFilterClipRegion/de.md) | [FEM PostFilterClipScalar/de](wiki/FEM PostFilterClipScalar/de.md) | [FEM PostFilterCutFunction/de](wiki/FEM PostFilterCutFunction/de.md) |
+| [FEM PostFilterWarp/de](wiki/FEM PostFilterWarp/de.md) | [FEM PostPipelineFromResult/de](wiki/FEM PostPipelineFromResult/de.md) | [FEM ResultShow/de](wiki/FEM ResultShow/de.md) |
+| [FEM SolverCalculiX/de](wiki/FEM SolverCalculiX/de.md) | [FEM SolverCalculixCxxtools/de](wiki/FEM SolverCalculixCxxtools/de.md) | [FEM SolverControl/de](wiki/FEM SolverControl/de.md) |
+| [FEM SolverElmer/de](wiki/FEM SolverElmer/de.md) | [FEM SolverMystran/de](wiki/FEM SolverMystran/de.md) | [FEM SolverRun/de](wiki/FEM SolverRun/de.md) |
+| [FEM SolverZ88/de](wiki/FEM SolverZ88/de.md) | [GuiCommand model/de](wiki/GuiCommand model/de.md) | [Template:GuiCommand/de](wiki/Template_GuiCommand/de.md) |
 | [Template:GuiCommandAddon/de](wiki/Template_GuiCommandAddon/de.md) | [Image CreateImagePlane/de](wiki/Image CreateImagePlane/de.md) | [Image Open/de](wiki/Image Open/de.md) |
 | [Image Scaling/de](wiki/Image Scaling/de.md) | [Mesh AddFacet/de](wiki/Mesh AddFacet/de.md) | [Mesh BoundingBox/de](wiki/Mesh BoundingBox/de.md) |
 | [Mesh BuildRegularSolid/de](wiki/Mesh BuildRegularSolid/de.md) | [Mesh CurvatureInfo/de](wiki/Mesh CurvatureInfo/de.md) | [Mesh Difference/de](wiki/Mesh Difference/de.md) |
@@ -131,52 +151,32 @@ Diese Kategorie enthält die Hilfeseiten jedes FreeCAD-Befehls.
 | [Part JoinConnect/de](wiki/Part JoinConnect/de.md) | [Part JoinCutout/de](wiki/Part JoinCutout/de.md) | [Part JoinEmbed/de](wiki/Part JoinEmbed/de.md) |
 | [Part Line/de](wiki/Part Line/de.md) | [Part Loft/de](wiki/Part Loft/de.md) | [Part MakeFace/de](wiki/Part MakeFace/de.md) |
 | [Part MakeSolid/de](wiki/Part MakeSolid/de.md) | [Part Measure Angular/de](wiki/Part Measure Angular/de.md) | [Part Measure Clear All/de](wiki/Part Measure Clear All/de.md) |
-| [Part Measure Linear/de](wiki/Part Measure Linear/de.md) | [Part Measure Menu/de](wiki/Part Measure Menu/de.md) | [Part Measure Refresh/de](wiki/Part Measure Refresh/de.md) |
-| [Part Measure Toggle 3d/de](wiki/Part Measure Toggle 3d/de.md) | [Part Measure Toggle All/de](wiki/Part Measure Toggle All/de.md) | [Part Measure Toggle Delta/de](wiki/Part Measure Toggle Delta/de.md) |
-| [Part Mirror/de](wiki/Part Mirror/de.md) | [Part Offset/de](wiki/Part Offset/de.md) | [Part Offset2D/de](wiki/Part Offset2D/de.md) |
-| [Part Plane/de](wiki/Part Plane/de.md) | [Part Point/de](wiki/Part Point/de.md) | [Part PointsFromMesh/de](wiki/Part PointsFromMesh/de.md) |
-| [Part Primitives/de](wiki/Part Primitives/de.md) | [Part Prism/de](wiki/Part Prism/de.md) | [Part ProjectionOnSurface/de](wiki/Part ProjectionOnSurface/de.md) |
-| [Part RefineShape/de](wiki/Part RefineShape/de.md) | [Part RegularPolygon/de](wiki/Part RegularPolygon/de.md) | [Part ReverseShapes/de](wiki/Part ReverseShapes/de.md) |
-| [Part Revolve/de](wiki/Part Revolve/de.md) | [Part RuledSurface/de](wiki/Part RuledSurface/de.md) | [Part Section/de](wiki/Part Section/de.md) |
-| [Part SectionCut/de](wiki/Part SectionCut/de.md) | [Part ShapeFromMesh/de](wiki/Part ShapeFromMesh/de.md) | [Part SimpleCopy/de](wiki/Part SimpleCopy/de.md) |
-| [Part Slice/de](wiki/Part Slice/de.md) | [Part SliceApart/de](wiki/Part SliceApart/de.md) | [Part Sphere/de](wiki/Part Sphere/de.md) |
-| [Part Spiral/de](wiki/Part Spiral/de.md) | [Part Sweep/de](wiki/Part Sweep/de.md) | [Part Thickness/de](wiki/Part Thickness/de.md) |
-| [Part Torus/de](wiki/Part Torus/de.md) | [Part TransformedCopy/de](wiki/Part TransformedCopy/de.md) | [Part Tube/de](wiki/Part Tube/de.md) |
-| [Part Wedge/de](wiki/Part Wedge/de.md) | [Part XOR/de](wiki/Part XOR/de.md) | [PartDesign AdditiveBox/de](wiki/PartDesign AdditiveBox/de.md) |
-| [PartDesign AdditiveCone/de](wiki/PartDesign AdditiveCone/de.md) | [PartDesign AdditiveCylinder/de](wiki/PartDesign AdditiveCylinder/de.md) | [PartDesign AdditiveEllipsoid/de](wiki/PartDesign AdditiveEllipsoid/de.md) |
-| [PartDesign AdditiveHelix/de](wiki/PartDesign AdditiveHelix/de.md) | [PartDesign AdditiveLoft/de](wiki/PartDesign AdditiveLoft/de.md) | [PartDesign AdditivePipe/de](wiki/PartDesign AdditivePipe/de.md) |
-| [PartDesign AdditivePrism/de](wiki/PartDesign AdditivePrism/de.md) | [PartDesign AdditiveSphere/de](wiki/PartDesign AdditiveSphere/de.md) | [PartDesign AdditiveTorus/de](wiki/PartDesign AdditiveTorus/de.md) |
-| [PartDesign AdditiveWedge/de](wiki/PartDesign AdditiveWedge/de.md) | [PartDesign Body/de](wiki/PartDesign Body/de.md) | [PartDesign Boolean/de](wiki/PartDesign Boolean/de.md) |
-| [PartDesign Chamfer/de](wiki/PartDesign Chamfer/de.md) | [PartDesign Clone/de](wiki/PartDesign Clone/de.md) | [PartDesign CompPrimitiveAdditive/de](wiki/PartDesign CompPrimitiveAdditive/de.md) |
-| [PartDesign CompPrimitiveSubtractive/de](wiki/PartDesign CompPrimitiveSubtractive/de.md) | [PartDesign CoordinateSystem/de](wiki/PartDesign CoordinateSystem/de.md) | [PartDesign Draft/de](wiki/PartDesign Draft/de.md) |
-| [PartDesign Fillet/de](wiki/PartDesign Fillet/de.md) | [PartDesign Groove/de](wiki/PartDesign Groove/de.md) | [PartDesign Hole/de](wiki/PartDesign Hole/de.md) |
-| [PartDesign InvoluteGear/de](wiki/PartDesign InvoluteGear/de.md) | [PartDesign Line/de](wiki/PartDesign Line/de.md) | [PartDesign LinearPattern/de](wiki/PartDesign LinearPattern/de.md) |
-| [PartDesign Migrate/de](wiki/PartDesign Migrate/de.md) | [PartDesign Mirrored/de](wiki/PartDesign Mirrored/de.md) | [PartDesign MoveFeature/de](wiki/PartDesign MoveFeature/de.md) |
-| [PartDesign MoveFeatureInTree/de](wiki/PartDesign MoveFeatureInTree/de.md) | [PartDesign MoveTip/de](wiki/PartDesign MoveTip/de.md) | [PartDesign MultiTransform/de](wiki/PartDesign MultiTransform/de.md) |
-| [PartDesign NewSketch/de](wiki/PartDesign NewSketch/de.md) | [PartDesign Pad/de](wiki/PartDesign Pad/de.md) | [PartDesign Plane/de](wiki/PartDesign Plane/de.md) |
-| [PartDesign Pocket/de](wiki/PartDesign Pocket/de.md) | [PartDesign Point/de](wiki/PartDesign Point/de.md) | [PartDesign PolarPattern/de](wiki/PartDesign PolarPattern/de.md) |
-| [PartDesign Revolution/de](wiki/PartDesign Revolution/de.md) | [PartDesign Scaled/de](wiki/PartDesign Scaled/de.md) | [PartDesign ShapeBinder/de](wiki/PartDesign ShapeBinder/de.md) |
-| [PartDesign Sprocket/de](wiki/PartDesign Sprocket/de.md) | [PartDesign SubShapeBinder/de](wiki/PartDesign SubShapeBinder/de.md) | [PartDesign SubtractiveBox/de](wiki/PartDesign SubtractiveBox/de.md) |
-| [PartDesign SubtractiveCone/de](wiki/PartDesign SubtractiveCone/de.md) | [PartDesign SubtractiveCylinder/de](wiki/PartDesign SubtractiveCylinder/de.md) | [PartDesign SubtractiveEllipsoid/de](wiki/PartDesign SubtractiveEllipsoid/de.md) |
-| [PartDesign SubtractiveHelix/de](wiki/PartDesign SubtractiveHelix/de.md) | [PartDesign SubtractiveLoft/de](wiki/PartDesign SubtractiveLoft/de.md) | [PartDesign SubtractivePipe/de](wiki/PartDesign SubtractivePipe/de.md) |
-| [PartDesign SubtractivePrism/de](wiki/PartDesign SubtractivePrism/de.md) | [PartDesign SubtractiveSphere/de](wiki/PartDesign SubtractiveSphere/de.md) | [PartDesign SubtractiveTorus/de](wiki/PartDesign SubtractiveTorus/de.md) |
-| [PartDesign SubtractiveWedge/de](wiki/PartDesign SubtractiveWedge/de.md) | [PartDesign Thickness/de](wiki/PartDesign Thickness/de.md) | [PartDesign WizardShaft/de](wiki/PartDesign WizardShaft/de.md) |
-| [Path Adaptive/de](wiki/Path Adaptive/de.md) | [Path Comment/de](wiki/Path Comment/de.md) | [Path Drilling/de](wiki/Path Drilling/de.md) |
-| [Path Engrave/de](wiki/Path Engrave/de.md) | [Path ExportTemplate/de](wiki/Path ExportTemplate/de.md) | [Path Inspect/de](wiki/Path Inspect/de.md) |
-| [Path Job/de](wiki/Path Job/de.md) | [Path MillFace/de](wiki/Path MillFace/de.md) | [Path Pocket Shape/de](wiki/Path Pocket Shape/de.md) |
-| [Path Post/de](wiki/Path Post/de.md) | [Path Profile/de](wiki/Path Profile/de.md) | [Path SelectLoop/de](wiki/Path SelectLoop/de.md) |
-| [Path Simulator/de](wiki/Path Simulator/de.md) | [Path ToolLibraryEdit/de](wiki/Path ToolLibraryEdit/de.md) | [Path Vcarve/de](wiki/Path Vcarve/de.md) |
-| [Plot Axes/de](wiki/Plot Axes/de.md) | [Plot Grid/de](wiki/Plot Grid/de.md) | [Plot Labels/de](wiki/Plot Labels/de.md) |
-| [Plot Legend/de](wiki/Plot Legend/de.md) | [Plot Positions/de](wiki/Plot Positions/de.md) | [Plot Save/de](wiki/Plot Save/de.md) |
-| [Plot Series/de](wiki/Plot Series/de.md) | [Points Convert/de](wiki/Points Convert/de.md) | [Points Export/de](wiki/Points Export/de.md) |
-| [Points Import/de](wiki/Points Import/de.md) | [Points Merge/de](wiki/Points Merge/de.md) | [Points PolyCut/de](wiki/Points PolyCut/de.md) |
-| [Points Structure/de](wiki/Points Structure/de.md) | [Raytracing ExportProject/de](wiki/Raytracing ExportProject/de.md) | [Raytracing InsertPart/de](wiki/Raytracing InsertPart/de.md) |
-| [Raytracing Lux/de](wiki/Raytracing Lux/de.md) | [Raytracing New/de](wiki/Raytracing New/de.md) | [Raytracing Render/de](wiki/Raytracing Render/de.md) |
-| [Raytracing ResetCamera/de](wiki/Raytracing ResetCamera/de.md) | [Raytracing WriteCamera/de](wiki/Raytracing WriteCamera/de.md) | [Raytracing WritePart/de](wiki/Raytracing WritePart/de.md) |
-| [Raytracing WriteView/de](wiki/Raytracing WriteView/de.md) | [Reinforcement Bar Bending Schedule/de](wiki/Reinforcement Bar Bending Schedule/de.md) | [Robot CreateRobot/de](wiki/Robot CreateRobot/de.md) |
-| [Robot CreateTrajectory/de](wiki/Robot CreateTrajectory/de.md) | [Robot Export/de](wiki/Robot Export/de.md) | [Robot InsertWaypoint/de](wiki/Robot InsertWaypoint/de.md) |
-| [Robot InsertWaypointPre/de](wiki/Robot InsertWaypointPre/de.md) | [Robot RestoreHomePos/de](wiki/Robot RestoreHomePos/de.md) | [Robot SetDefaultValues/de](wiki/Robot SetDefaultValues/de.md) |
-| [Robot SetHomePos/de](wiki/Robot SetHomePos/de.md) | [Robot Simulate/de](wiki/Robot Simulate/de.md) |
+| [Part Measure Linear/de](wiki/Part Measure Linear/de.md) | [Part Measure Refresh/de](wiki/Part Measure Refresh/de.md) | [Part Measure Toggle 3D/de](wiki/Part Measure Toggle 3D/de.md) |
+| [Part Measure Toggle All/de](wiki/Part Measure Toggle All/de.md) | [Part Measure Toggle Delta/de](wiki/Part Measure Toggle Delta/de.md) | [Part Mirror/de](wiki/Part Mirror/de.md) |
+| [Part Offset/de](wiki/Part Offset/de.md) | [Part Offset2D/de](wiki/Part Offset2D/de.md) | [Part Plane/de](wiki/Part Plane/de.md) |
+| [Part Point/de](wiki/Part Point/de.md) | [Part PointsFromMesh/de](wiki/Part PointsFromMesh/de.md) | [Part Primitives/de](wiki/Part Primitives/de.md) |
+| [Part Prism/de](wiki/Part Prism/de.md) | [Part ProjectionOnSurface/de](wiki/Part ProjectionOnSurface/de.md) | [Part RefineShape/de](wiki/Part RefineShape/de.md) |
+| [Part RegularPolygon/de](wiki/Part RegularPolygon/de.md) | [Part ReverseShapes/de](wiki/Part ReverseShapes/de.md) | [Part Revolve/de](wiki/Part Revolve/de.md) |
+| [Part RuledSurface/de](wiki/Part RuledSurface/de.md) | [Part Section/de](wiki/Part Section/de.md) | [Part SectionCut/de](wiki/Part SectionCut/de.md) |
+| [Part ShapeFromMesh/de](wiki/Part ShapeFromMesh/de.md) | [Part SimpleCopy/de](wiki/Part SimpleCopy/de.md) | [Part Slice/de](wiki/Part Slice/de.md) |
+| [Part SliceApart/de](wiki/Part SliceApart/de.md) | [Part Sphere/de](wiki/Part Sphere/de.md) | [Part Spiral/de](wiki/Part Spiral/de.md) |
+| [Part Sweep/de](wiki/Part Sweep/de.md) | [Part Thickness/de](wiki/Part Thickness/de.md) | [Part Torus/de](wiki/Part Torus/de.md) |
+| [Part TransformedCopy/de](wiki/Part TransformedCopy/de.md) | [Part Tube/de](wiki/Part Tube/de.md) | [Part Wedge/de](wiki/Part Wedge/de.md) |
+| [Part XOR/de](wiki/Part XOR/de.md) | [PartDesign AdditiveBox/de](wiki/PartDesign AdditiveBox/de.md) | [PartDesign AdditiveCone/de](wiki/PartDesign AdditiveCone/de.md) |
+| [PartDesign AdditiveCylinder/de](wiki/PartDesign AdditiveCylinder/de.md) | [PartDesign AdditiveEllipsoid/de](wiki/PartDesign AdditiveEllipsoid/de.md) | [PartDesign AdditiveHelix/de](wiki/PartDesign AdditiveHelix/de.md) |
+| [PartDesign AdditiveLoft/de](wiki/PartDesign AdditiveLoft/de.md) | [PartDesign AdditivePipe/de](wiki/PartDesign AdditivePipe/de.md) | [PartDesign AdditivePrism/de](wiki/PartDesign AdditivePrism/de.md) |
+| [PartDesign AdditiveSphere/de](wiki/PartDesign AdditiveSphere/de.md) | [PartDesign AdditiveTorus/de](wiki/PartDesign AdditiveTorus/de.md) | [PartDesign AdditiveWedge/de](wiki/PartDesign AdditiveWedge/de.md) |
+| [PartDesign Body/de](wiki/PartDesign Body/de.md) | [PartDesign Boolean/de](wiki/PartDesign Boolean/de.md) | [PartDesign Chamfer/de](wiki/PartDesign Chamfer/de.md) |
+| [PartDesign Clone/de](wiki/PartDesign Clone/de.md) | [PartDesign CompPrimitiveAdditive/de](wiki/PartDesign CompPrimitiveAdditive/de.md) | [PartDesign CompPrimitiveSubtractive/de](wiki/PartDesign CompPrimitiveSubtractive/de.md) |
+| [PartDesign CoordinateSystem/de](wiki/PartDesign CoordinateSystem/de.md) | [PartDesign Draft/de](wiki/PartDesign Draft/de.md) | [PartDesign Fillet/de](wiki/PartDesign Fillet/de.md) |
+| [PartDesign Groove/de](wiki/PartDesign Groove/de.md) | [PartDesign Hole/de](wiki/PartDesign Hole/de.md) | [PartDesign InvoluteGear/de](wiki/PartDesign InvoluteGear/de.md) |
+| [PartDesign Line/de](wiki/PartDesign Line/de.md) | [PartDesign LinearPattern/de](wiki/PartDesign LinearPattern/de.md) | [PartDesign Migrate/de](wiki/PartDesign Migrate/de.md) |
+| [PartDesign Mirrored/de](wiki/PartDesign Mirrored/de.md) | [PartDesign MoveFeature/de](wiki/PartDesign MoveFeature/de.md) | [PartDesign MoveFeatureInTree/de](wiki/PartDesign MoveFeatureInTree/de.md) |
+| [PartDesign MoveTip/de](wiki/PartDesign MoveTip/de.md) | [PartDesign MultiTransform/de](wiki/PartDesign MultiTransform/de.md) | [PartDesign NewSketch/de](wiki/PartDesign NewSketch/de.md) |
+| [PartDesign Pad/de](wiki/PartDesign Pad/de.md) | [PartDesign Plane/de](wiki/PartDesign Plane/de.md) | [PartDesign Pocket/de](wiki/PartDesign Pocket/de.md) |
+| [PartDesign Point/de](wiki/PartDesign Point/de.md) | [PartDesign PolarPattern/de](wiki/PartDesign PolarPattern/de.md) | [PartDesign Revolution/de](wiki/PartDesign Revolution/de.md) |
+| [PartDesign Scaled/de](wiki/PartDesign Scaled/de.md) | [PartDesign ShapeBinder/de](wiki/PartDesign ShapeBinder/de.md) | [PartDesign Sprocket/de](wiki/PartDesign Sprocket/de.md) |
+| [PartDesign SubShapeBinder/de](wiki/PartDesign SubShapeBinder/de.md) | [PartDesign SubtractiveBox/de](wiki/PartDesign SubtractiveBox/de.md) |
 
 
 

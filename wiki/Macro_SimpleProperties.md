@@ -42,7 +42,7 @@ For more detailed explanations, see the [How to install macros](How_to_install_m
 
 ToolBar Icon  ![](images/Macro_SimpleProperties.png )
 
-**Macro\_SimpleProperties.FCMacro**
+**Macro_SimpleProperties.FCMacro**
 
 
 {{MacroCode|code=

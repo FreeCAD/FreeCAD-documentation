@@ -52,7 +52,7 @@ La commande Perçage génère une opération de perçage durant l\'opération.
 
 ## Propriétés
 
-\'\'\' *Remarque* \'\'\'   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
+***Remarque***   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
 
 {{TitleProperty|Base}}
@@ -159,7 +159,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 -
 -    **Enable Rotation**   * active la rotation pour accéder aux trous non normaux sur l\'axe Z.
 
--    **Angle Inverse**   * inverse l\'angle de la rotation. \'\' **Exemple    *** change une rotation de -22,5 à 22,5 degrés.\'\'
+-    **Angle Inverse**   * inverse l\'angle de la rotation. ***Exemple    *** change une rotation de -22,5 à 22,5 degrés.*
 
 -    **Reverse Direction**   * inverse l\'orientation de l\'opération de 180 degrés.
 

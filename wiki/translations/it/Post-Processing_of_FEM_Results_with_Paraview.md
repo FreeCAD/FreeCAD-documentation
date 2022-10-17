@@ -33,7 +33,7 @@ Some forum posts and tutorials use Paraview (PV) to review and analyse FreeCAD <
 
 ## Data Transfer from FEM workbench 
 
-In FEM workbench highlight the CCX\_Results object. Next, use menu option **File > Export > FEM result VTK (*.vtk *.vtu)** to export the VTK data.
+In FEM workbench highlight the CCX_Results object. Next, use menu option **File > Export > FEM result VTK (*.vtk *.vtu)** to export the VTK data.
 
 ## Data Import in Paraview 
 
@@ -79,7 +79,7 @@ So far no results are displayed. For this we need to change the Coloring option.
 
 <img alt="" src=images/PVPic9.png  style="width   *400px;">
 
-For the purpose of this tutorial we choose ReinforcementRatio\_x, but it is easy to change to any data type.
+For the purpose of this tutorial we choose ReinforcementRatio_x, but it is easy to change to any data type.
 
 The RenderView window will now show an iso-plot of the selected data type and a Color Legend of the data range.
 
@@ -163,7 +163,7 @@ To display numerical results we need to select SpreadSheet View at the bottom of
 
 <img alt="" src=images/PVPic26.png  style="width   *400px;">
 
-To inspect `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` we could scroll to the right through the table, but we can also remove all unwanted results by deselecting them, i.e. deselect All Columns and select **ReinforcementRatio\_x**.
+To inspect `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` we could scroll to the right through the table, but we can also remove all unwanted results by deselecting them, i.e. deselect All Columns and select **ReinforcementRatio_x**.
 
 <img alt="" src=images/PVPic27.png  style="width   *300px;"> . <img alt="" src=images/PVPic28.png  style="width   *500px;">
 
@@ -175,9 +175,9 @@ As explained before this is the negative value of the integral we are looking fo
 
 The above was an example of the integration of a variable directly exported by FEM Workbench. In some cases we may want to combine VTK variables to obtain new results. This can be done in several ways, but here I will only discuss the simplest, i.e. with the Calculator Filter.
 
-For example, if we want to know the total reinforcement requirement in all three coordinate directions we would have to sum ReinforcementRatio\_x, ReinforcementRatio\_y and ReinforcementRatio\_z.
+For example, if we want to know the total reinforcement requirement in all three coordinate directions we would have to sum ReinforcementRatio_x, ReinforcementRatio_y and ReinforcementRatio_z.
 
-The Calculator filter can be found as an icon on the left of the filter bar or via the menu Filters \> Alphabetical. The name for the resulting variable can be entered in field Result Array Name. Here we name the result Total\_Reinforcement\_Ratio. The formula can be composed in the box below the Result Array Name field. Input values can be selected from the Scalars drop down menu and they can be combined into a formula for the result using the operators given. After pressing the Apply button, the result will be available as a new variable in any subsequent operations (e.g. an Integration Filter) or views (e.g. RenderView or SpreadSheetView, see below).
+The Calculator filter can be found as an icon on the left of the filter bar or via the menu Filters \> Alphabetical. The name for the resulting variable can be entered in field Result Array Name. Here we name the result Total_Reinforcement_Ratio. The formula can be composed in the box below the Result Array Name field. Input values can be selected from the Scalars drop down menu and they can be combined into a formula for the result using the operators given. After pressing the Apply button, the result will be available as a new variable in any subsequent operations (e.g. an Integration Filter) or views (e.g. RenderView or SpreadSheetView, see below).
 
 <img alt="" src=images/PVPic30.png  style="width   *700px;">
 
@@ -189,17 +189,17 @@ This shows how the total reinforcement requirement compares to those in the indi
 
 ## Integration over a Slice 
 
-In the previous section we discussed the Integration filter and its application to the entire VTK object. To demonstrate integration over a slice we will in this section determine the total reinforcement requirement and its center of gravity for the central cross section of the beam. The end result is shown in the picture below. The interaction of various objects can be inspected in the Pipeline Browser. The slice filter is applied to the beam VTK object and two Calculator filters are applied to the slice filter to derive the new variables "Reinforcement\_ratio\_x \* z" and "Reinforcement\_ratio\_x \* y" from the base data. These variables need to be integrated to determine the center of gravity of the reinforcement. Finally, Integration filters are applied to each Calculator to integrate results over the Slice. Please refer to the previous section for a general introduction of the Integration filter and its settings.
+In the previous section we discussed the Integration filter and its application to the entire VTK object. To demonstrate integration over a slice we will in this section determine the total reinforcement requirement and its center of gravity for the central cross section of the beam. The end result is shown in the picture below. The interaction of various objects can be inspected in the Pipeline Browser. The slice filter is applied to the beam VTK object and two Calculator filters are applied to the slice filter to derive the new variables "Reinforcement_ratio_x \* z" and "Reinforcement_ratio_x \* y" from the base data. These variables need to be integrated to determine the center of gravity of the reinforcement. Finally, Integration filters are applied to each Calculator to integrate results over the Slice. Please refer to the previous section for a general introduction of the Integration filter and its settings.
 
 <img alt="" src=images/PVPicSlice1.png  style="width   *700px;">
 
 Apply the following Settings in the Properties tab for the VTK object   *
 
-  Properties Tab Settings           Comment
+  Properties Tab Settings          Comment
    
-  Representation   * Wireframe         So the Slice is visible
-  Coloring   * ReinforcementRatio\_x   Or any other color
-  Styling \> Line Width   * 2          Or any other setting that gives a pleasing result
+  Representation   * Wireframe        So the Slice is visible
+  Coloring   * ReinforcementRatio_x   Or any other color
+  Styling \> Line Width   * 2         Or any other setting that gives a pleasing result
 
 <img alt="" src=images/PVPicSlice2.png  style="width   *400px;">
 
@@ -210,36 +210,36 @@ Next highlight the VTK object and apply a Slice filter with the following settin
   Plane Parameters \> Show Plane   * deselect       Remove the bounding boxes
   Plane Parameters \> Origin   * 4000 / 100 / 200   Position of central section
   Plane Parameters \> Normal   * 1 /0 /0            Normal of Slice points in x -direction
-  Coloring   * ReinforcementRatio\_x                Optional
+  Coloring   * ReinforcementRatio_x                 Optional
   Styling \> Line Width   * 2                       Or any other setting that gives a pleasing result
 
 <img alt="" src=images/PVPicSlice3.png  style="width   *400px;">
 
 \'\'\'Settings Calculator 1
 
-Calculator 1 computes the new variable ReinforcementRatio\_x \* y which needs to be integrated to obtain the y-coordinate of the reinforcement's center of gravity.
+Calculator 1 computes the new variable ReinforcementRatio_x \* y which needs to be integrated to obtain the y-coordinate of the reinforcement's center of gravity.
 
 <img alt="" src=images/PVPicSlice4.png  style="width   *400px;">
 
-After pressing Apply, a new variable named "ReinforcementRatio\_x \* y" is available for display or further processing.
+After pressing Apply, a new variable named "ReinforcementRatio_x \* y" is available for display or further processing.
 
 \'\'\'Settings Calculator 2
 
-Calculator 2 computes the new variable ReinforcementRatio\_x \* z which needs to be integrated to obtain the z-coordinate of the reinforcement's center of gravity.
+Calculator 2 computes the new variable ReinforcementRatio_x \* z which needs to be integrated to obtain the z-coordinate of the reinforcement's center of gravity.
 
 <img alt="" src=images/PVPicSlice5.png  style="width   *400px;">
 
-After pressing Apply, a new variable named "ReinforcementRatio\_x \* z" is available for display or further processing.
+After pressing Apply, a new variable named "ReinforcementRatio_x \* z" is available for display or further processing.
 
-Finally, two Integration filters are applied, one on Calculator1 to integrate variable ReinforcementRatio\_x \* y and on Calculator2 to integrate ReinforcementRatio\_x \* z. Each are displayed in their own window with SpreadSheetView selected. The way to deselect all other results is explained earlier.
+Finally, two Integration filters are applied, one on Calculator1 to integrate variable ReinforcementRatio_x \* y and on Calculator2 to integrate ReinforcementRatio_x \* z. Each are displayed in their own window with SpreadSheetView selected. The way to deselect all other results is explained earlier.
 
 <img alt="" src=images/PVPicSlice6.png  style="width   *700px;">
 
 Finally the Center of Gravity can be calculated from the above results as   *
 
-CoG\_y = 55744.2 / 556.277 = 100.2 mm (exact value   * 100 mm)
+CoG_y = 55744.2 / 556.277 = 100.2 mm (exact value   * 100 mm)
 
-CoG\_z = 187144 / 556.277 = 336.4 mm (exact value   * 5/6 \* 400 mm)
+CoG_z = 187144 / 556.277 = 336.4 mm (exact value   * 5/6 \* 400 mm)
 
 ## Integration over a Line 
 
@@ -251,7 +251,7 @@ Starting with the VTK object imported from FEM Workbench, we note that the PV co
 
 <img alt="" src=images/PVPicLine1.png  style="width   *75px;">
 
-For the picture below the Coloring property on the Properties tab for the VTK object was set to ReinforcementRatio\_x.
+For the picture below the Coloring property on the Properties tab for the VTK object was set to ReinforcementRatio_x.
 
 The only additional object required to visualise a variable along a straight line is a Plot Over Line filter. This can be activated from the icon bar or the menu option Filters \> Alphabetical.
 
@@ -261,7 +261,7 @@ We next want to display the horizontal reinforcement requirements in the vertica
    
   Line Parameters \> Point 1   * 4000 / 0 / 0                               Point at bottom of wall under the column
   Line Parameters \> Point 2   * 4000 / 4000 / 0                            Point at top of wall under the column
-  x Axis Parameters \> x Array Name   * ReinforcementRatio\_x               Displays ReinforcementRatio\_x on the horizontal axis
+  x Axis Parameters \> x Array Name   * ReinforcementRatio_x                Displays ReinforcementRatio_x on the horizontal axis
   Series Parameters   * tick "arc length" only                              This is the length parameter along the line
   Title \> Chart Title   * Mid Section                                      
   Annotation \> Show Legend   * deselect                                    Meaningless for the current choice of vertical axis
@@ -272,7 +272,7 @@ We next want to display the horizontal reinforcement requirements in the vertica
 
 <img alt="" src=images/PVPicLine2.png  style="width   *700px;">
 
-Note that the distance along the line (arc length) is usually on the horizontal axis and the variable that we want to display (here ReinforcementRatio\_x) on the vertical axis. However, as the wall section in this example is vertical and we want to see the reinforcement requirement over the height of the wall, it is more natural to inverse the axes. This, however, comes at the expense of a lot more changes to the settings in the Properties tab for the Plot Over Line filter.
+Note that the distance along the line (arc length) is usually on the horizontal axis and the variable that we want to display (here ReinforcementRatio_x) on the vertical axis. However, as the wall section in this example is vertical and we want to see the reinforcement requirement over the height of the wall, it is more natural to inverse the axes. This, however, comes at the expense of a lot more changes to the settings in the Properties tab for the Plot Over Line filter.
 
 In the next two picture only the location of the line was changed. Note however that this relocation will automatically change the Left Axis Range \> Use Custom Range setting to "select". This may mean that the graph does not properly fit in the LineChartView window. It is therefore necessary to deselect this option every time the position of the line is changed. Other settings are as per the above table.
 
@@ -300,7 +300,7 @@ The total horizontal reinforcement requirement in the last cross section can now
 
 <img alt="" src=images/PVPicLine5.png  style="width   *700px;">
 
-In the usual way deselect all but the ReinforcementRatio\_x result in the SpreadSheetView and read off the result as 23.11 mm2 / mm. To obtain the total cross sectional area of steel, we still need to multiply with the thickness of the wall, which in this example is (an impressive) 600 mm. So the total cross sectional area of steel running through the cross section near the right hand support is 23.11 \* 600 = 13866 mm2 = 139 cm2
+In the usual way deselect all but the ReinforcementRatio_x result in the SpreadSheetView and read off the result as 23.11 mm2 / mm. To obtain the total cross sectional area of steel, we still need to multiply with the thickness of the wall, which in this example is (an impressive) 600 mm. So the total cross sectional area of steel running through the cross section near the right hand support is 23.11 \* 600 = 13866 mm2 = 139 cm2
 
 To achieve a more practical distribution of reinforcement we could integrate the above graph in parts. For example, if we want to know the required cross sectional area of steel in the top 400mm of the wall then we should adjust the properties of the Plot Over Line object as follows
 
@@ -361,7 +361,7 @@ Next add another Glyph Filter with the following settings for the Minor Principa
 
 <img alt="" src=images/PVPic35.png  style="width   *700px;">
 
-The final result shows the major and minor principal stress vectors superimposed on the beam with ReinforcementRatio\_x.
+The final result shows the major and minor principal stress vectors superimposed on the beam with ReinforcementRatio_x.
 
 ## Export of Graphical Results 
 

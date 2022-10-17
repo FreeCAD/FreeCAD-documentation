@@ -22,7 +22,7 @@
 
 This macro is an example of using Qt commands their connections, extraction and data assignment.
 
-Image   *Qt\_Example\_00.png\|Qt example Image   *Qt\_Example\_01.png\|Qt example details
+Image   *Qt_Example_00.png\|Qt example Image   *Qt_Example_01.png\|Qt example details
 
 Are treated   *
 
@@ -77,7 +77,7 @@ Windows    * \"**C   *Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
 ## Script
 
-The contents of the file **Qt\_Example.FCMacro** are given below   *
+The contents of the file **Qt_Example.FCMacro** are given below   *
 
 
 {{MacroCode|code=

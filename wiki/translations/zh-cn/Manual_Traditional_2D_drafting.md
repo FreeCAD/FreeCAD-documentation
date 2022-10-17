@@ -109,7 +109,7 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 
 <div class="mw-translate-fuzzy">
 
--   现在将更改门线，创建一个打开的门的符号。首先使用 <img alt="" src=images/Draft_Rotate.png  style="width   *16px;"> [Rotate](Draft_Rotate/zh-cn.md) 工具。单击线的端点作为旋转中心，将其起始角度设置为 *0*\' ，结束角度为 **-90**。
+-   现在将更改门线，创建一个打开的门的符号。首先使用 <img alt="" src=images/Draft_Rotate.png  style="width   *16px;"> [Rotate](Draft_Rotate/zh-cn.md) 工具。单击线的端点作为旋转中心，将其起始角度设置为 *0**，结束角度为**-90*\'。
 -   然后用 <img alt="" src=images/Draft_Arc.png  style="width   *16px;"> [Arc](Draft_Arc/zh-cn.md) 工具创建开门的弧线。选中与上一步中使用的旋转中心相同的点作为中心，单击该线的另一个点以给出半径，然后选择起点和终点，如下所示。
 
 
@@ -157,7 +157,7 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 
 <div class="mw-translate-fuzzy">
 
--   然而，使用 Draft 工作台最重要的是要知道，这里创建的几何体可以用作基础，或轻易地拉伸成 3D 对象。你可以使用 [Part 工作台](Part_Workbench/zh-cn.md) 中的<img alt="" src=images/Part_Extrude.png  style="width   *16px;">[Part\_Extrude](Part_Extrude/zh-cn.md) 工具。或者，留在 Draft 工作台中，用 <img alt="" src=images/Draft_Trimex.png  style="width   *16px;"> [Trimex](Draft_Trimex/zh-cn.md) (Trim/Extend/Extrude) 工具。它在面具下执行的是 **Part Extrusion**，但是更符合 \"Draft 方式\"，也就是说，允许用图形的方式指示和捕捉拉伸的长度。尝试一下拉伸本例中做过的墙壁，如下所示。
+-   然而，使用 Draft 工作台最重要的是要知道，这里创建的几何体可以用作基础，或轻易地拉伸成 3D 对象。你可以使用 [Part 工作台](Part_Workbench/zh-cn.md) 中的<img alt="" src=images/Part_Extrude.png  style="width   *16px;">[Part_Extrude](Part_Extrude/zh-cn.md) 工具。或者，留在 Draft 工作台中，用 <img alt="" src=images/Draft_Trimex.png  style="width   *16px;"> [Trimex](Draft_Trimex/zh-cn.md) (Trim/Extend/Extrude) 工具。它在面具下执行的是 **Part Extrusion**，但是更符合 \"Draft 方式\"，也就是说，允许用图形的方式指示和捕捉拉伸的长度。尝试一下拉伸本例中做过的墙壁，如下所示。
 -   选中对象的一个面后，按下 <img alt="" src=images/Draft_SelectPlane.png  style="width   *16px;"> [working plane](Draft_SelectPlane/zh-cn.md) 按钮，可以将工作平面放置在任何位置。因此可以在不同的平面上绘制 Draft 对象，例如在墙面上，之后便可以将它们拉伸成 3D 固体。尝试一下将工作平面设置在墙壁的顶面上，然后就地绘制几个矩形。
 
 

@@ -41,8 +41,6 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 -   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point du déplacement sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   La case à cocher **Rempli**, affichée dans FreeCAD version 0.19 et antérieure, n\'a aucune utilité pour cette commande.
--   La case à cocher **Continuer**, affichée dans FreeCAD version 0.19 et antérieure, n\'a pas d\'utilité pour cette commande.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 

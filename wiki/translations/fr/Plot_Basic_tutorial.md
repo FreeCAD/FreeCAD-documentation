@@ -156,7 +156,7 @@ Définissez la taille de l\'image de sortie en pouces, par exemple, utilisez 11,
 
 }} {{Plot_Tools_navi}} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

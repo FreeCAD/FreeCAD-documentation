@@ -27,16 +27,17 @@ Par défaut, il s\'agit de la direction normale du plan contenant le contour (pl
 ### Primitives prismatiques 
 
 ++++
-| **Cylindre**           | <img alt="Cylinder/fr" src=images/PartDesign_ExamplePad-01.png  style="width   *200px;">           | -   Contour    * **cercle**.                                         |
+| **Cylindre**          | <img alt="Cylinder/fr" src=images/PartDesign_ExamplePad-01.png  style="width   *200px;">           | -   Contour    * **cercle**.                                         |
 ++++
-| **Cube**               | <img alt="Cube/fr" src=images/PartDesign_ExamplePad-02.png  style="width   *200px;">                   | -   Contour    * **carré**.                                          |
-|                        |                                                                                   | -   Longueur d\'extrusion    * égale à la longueur des bords carrés. |
+| **Cube**              | <img alt="Cube/fr" src=images/PartDesign_ExamplePad-02.png  style="width   *200px;">                   | -   Contour    * **carré**.                                          |
+|                       |                                                                                   | -   Longueur d\'extrusion    * égale à la longueur des bords carrés. |
 ++++
-| **Cuboïde**            | <img alt="Cuboid/fr" src=images/PartDesign_ExamplePad-03.png  style="width   *200px;">               | -   Contour    * **rectangle**.                                      |
+| **Cuboïde**           | <img alt="Cuboid/fr" src=images/PartDesign_ExamplePad-03.png  style="width   *200px;">               | -   Contour    * **rectangle**.                                      |
 ++++
-| **Prisme régulier**    | <img alt="Regular Prism/fr" src=images/PartDesign_ExamplePad-04.png  style="width   *200px;"> | -   Contour    * **hexagone**.                                       |
+| **Prisme régulier**   | <img alt="Regular Prism/fr" src=images/PartDesign_ExamplePad-04.png  style="width   *200px;"> | -   Contour    * **hexagone**.                                       |
 ++++
-| **‎Pyramide tronquée** | <img alt="Wedge/fr" src=images/PartDesign_ExamplePad-05.png  style="width   *200px;">                 | -   Contour    * **triangle**.                                       |
+| **‎Pyramide            | <img alt="Wedge/fr" src=images/PartDesign_ExamplePad-05.png  style="width   *200px;">                 | -   Contour    * **triangle**.                                       |
+| tronquée**            |                                                                                   |                                                                   |
 ++++
 
 ### Profils prismatiques 
@@ -161,13 +162,13 @@ Objets à balayage droit
 ### Objets spiralés et hélicoïdaux 
 
 ++++
-| Ressort hélicoïdal     | <img alt="Ressort" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;">                           | -   Contour    * **cercle**.                                                                                                     |
+| Ressort hélicoïdal     | <img alt="Ressort" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;">                           | -   Contour    * **cercle**.                                                                                                 |
 |                        |                                                                                              | -   Trajectoire    * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Part Hélice](Part_Helix/fr.md).               |
 ++++
-| Spirale                | <img alt="Ressort de balancier" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;"> | -   Contour    * **rectangle**.                                                                                                  |
+| Spirale                | <img alt="Ressort de balancier" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;"> | -   Contour    * **rectangle**.                                                                                              |
 | Ressort de balancier   |                                                                                              | -   Trajectoire    * <img alt="" src=images/Part_Spiral.svg  style="width   *16px;"> [Part Spirale](Part_Spiral/fr.md).           |
 ++++
-| **Ressort de volute**, | <img alt="Ressort de volute" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">       | -   Contour    * **rectangle**.                                                                                                  |
+| **Ressort de volute**, | <img alt="Ressort de volute" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">       | -   Contour    * **rectangle**.                                                                                              |
 | Ressort conique        |                                                                                              | -   Trajectoire    * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Part Hélice](Part_Helix/fr.md) avec un angle. |
 ++++
 

@@ -43,7 +43,7 @@ Dato che l\'angolo è fisicamente adimensionale, ma in un sistema CAD non è men
 
 Sovente è necessario convertire le unità da un sistema a un altro. Per esempio, quando i parametri sono contenuti in vecchie tabelle e espressi in determinate unità. In questi casi FreeCAD offre uno strumento di conversione denominato Units-Calculator che aiuta a tradurre le unità.
 
-La sua desrizione si trova nella pagina   * [Std\_UnitsCalculator](Std_UnitsCalculator/it.md)
+La sua desrizione si trova nella pagina   * [Std_UnitsCalculator](Std_UnitsCalculator/it.md)
 
 ## InputField
 

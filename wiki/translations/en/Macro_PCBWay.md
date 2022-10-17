@@ -33,7 +33,7 @@ This macro sends the currently selected object (mesh, shape or body) to the [PCB
 
 The latest version of the macro is to be found at <https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/pcbway.FCMacro>
 
-**Macro\_PCBWay.FCMacro** {{MacroCode|code=
+**Macro_PCBWay.FCMacro** {{MacroCode|code=
 #***************************************************************************
 #*                                                                         *
 #*   Copyright (c) 2022 Yorik van Havre <yorik@uncreated.net>              *

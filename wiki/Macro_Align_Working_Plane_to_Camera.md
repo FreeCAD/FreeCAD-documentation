@@ -24,7 +24,7 @@ This macro moves the current [Draft Working Plane](Draft_SelectPlane.md) to the 
 
 ToolBar Icon  ![](images/Macro_Align_Working_Plane_to_Camera.png )
 
-**Macro\_Align\_Working\_Plane\_to\_Camera.FCMacro**
+**Macro_Align_Working_Plane_to_Camera.FCMacro**
 
 
 {{MacroCode|code=

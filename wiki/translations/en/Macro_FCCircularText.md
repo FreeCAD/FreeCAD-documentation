@@ -93,7 +93,7 @@ After the first use, you must modify the following parameters   *
 
 **setSystemFonts**
 
--   0 = matplotlib.font\_manager.findSystemFonts(\"C   */\", \"ttf\")
+-   0 = matplotlib.font_manager.findSystemFonts(\"C   */\", \"ttf\")
 -   do all the fonts (in all folders and sub-folders of the DD) time !!
 -   1 = fontman.findSystemFonts(self.pathFont)
 -   do all the fonts in the directory (and in all the sub-folders)
@@ -188,7 +188,7 @@ Image   *FCCircularText 20.png\|**Outdoor** Image   *FCCircularText 21.png\|**In
 
 <center>
 
-Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** The text will be written up. Image   *FCCircularText\_40.png\|**Mode Flat** **Outdoor** The text will be placed flat.
+Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** The text will be written up. Image   *FCCircularText_40.png\|**Mode Flat** **Outdoor** The text will be placed flat.
 
 
 </center>
@@ -196,7 +196,7 @@ Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** The text will be writ
 
 <center>
 
-Image   *FCCircularText 39.png\|**Mode Flat** **Indoor** The text will be placed flat. Image   *FCCircularText\_03.png\|**Mode Stand** **Indoor** The text will stand registered (same as clock).
+Image   *FCCircularText 39.png\|**Mode Flat** **Indoor** The text will be placed flat. Image   *FCCircularText_03.png\|**Mode Stand** **Indoor** The text will stand registered (same as clock).
 
 
 </center>
@@ -274,7 +274,7 @@ Image   *FCCircularText 22.png\| **Helix** Image   *FCCircularText 33.png\| Imag
 
 -   All characters configuration options are available.
 -   **Step of helix** which corresponds to the pitch of the helix turns and displays 2 (character height) by default.
--   \'\'\'Char. per turn \'\'\'activates and displays 10 by default, which corresponds to 10 characters per helical turn.
+-   **Char. per turn**activates and displays 10 by default, which corresponds to 10 characters per helical turn.
 
 
 
@@ -282,7 +282,7 @@ Image   *FCCircularText 22.png\| **Helix** Image   *FCCircularText 33.png\| Imag
 ![](images/FCCircularText_15.png )
 
 -   If **Step of helix** (helix pitch) is zero, Spinboxes **Base Helix** and **End Helix** are activated.
--   **Base Helix** provides the basis for starting the helix (even Placement Z). If \'\' \'Placement Z\' \'\' is different from zero, the starting point is added to Z Placement
+-   **Base Helix** provides the basis for starting the helix (even Placement Z). If *\'Placement Z\'* is different from zero, the starting point is added to Z Placement
 -   **End Helix** End of the helix pitch of the helix will be calculated relative to the height and the number of characters per helical turn.
 
 ##### Clock
@@ -318,7 +318,7 @@ Image   *FCCircularText 23.png\|**Clock** Image   *FCCircularText 35.png\|**Axia
 ![](images/FCCircularText_19.png )
 
 -   **Radius of support**    * If a value is given, support will be created (default 0).
--   If **Support number face** is different from zero a support is created. (If \'\'\'Extrude support \'\'\'= zero then a face is created).
+-   If **Support number face** is different from zero a support is created. (If **Extrude support**= zero then a face is created).
     -   1 = A circle is created (circle appears).
     -   2 = A rectangle is created (length = (Radius of media \* 1.5) width = Radius of support) (Rectangle appears).
     -   3 = A triangle is created (circumscribed) (Triangle appears).
@@ -421,7 +421,7 @@ Certain parameter are available in the parameters of FreeCAD see   * **Menu → 
         -   
             `False`
             
-            matplotlib.font\_manager.findSystemFonts (\"C   * /\", \"ttf\") do all fonts (in all folders and subfolders of the HD) time !!
+            matplotlib.font_manager.findSystemFonts (\"C   * /\", \"ttf\") do all fonts (in all folders and subfolders of the HD) time !!
 
         -   
             `True`
@@ -488,15 +488,15 @@ The button icon   *
 
 \- in .SVG <File   *FCCircularTextButtom.svg>
 
-(See [ Customize\_Toolbars](Customize_Toolbars.md) for more)
+(See [ Customize_Toolbars](Customize_Toolbars.md) for more)
 
 ### Script 
 
-**Macro\_Circular\_Text.FCMacro**
+**Macro_Circular_Text.FCMacro**
 
 or download the script    *
 
-\- on github [Macro\_FCCircularText.FCMacro](https   *//gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
+\- on github [Macro_FCCircularText.FCMacro](https   *//gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
 
 \- at the forum [Extrude from curved surface of cylinder](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
 
@@ -550,7 +550,7 @@ Image   *FCCircularText 29.png\|Internal curve extrusion material designated and
 
 <center>
 
-Image   *FCCircularText 32.png\|Internal curve with subtraction. Image   *FCCircularText 41.png\|Extrusion on a cone with \'\'\'Sp. Inclination \'\'\'45° axis Z.
+Image   *FCCircularText 32.png\|Internal curve with subtraction. Image   *FCCircularText 41.png\|Extrusion on a cone with **Sp. Inclination**45° axis Z.
 
 
 </center>
@@ -568,7 +568,7 @@ Image   *FCCircularText 42.png\|Ring Internal curve with subtraction. Image   *F
 
 <center>
 
-Image   *FCCircularText\_Path\_00\_002\_000.png\| {{CheckBox|TRUE|Word}} The text is cutting on space character
+Image   *FCCircularText_Path_00_002_000.png\| {{CheckBox|TRUE|Word}} The text is cutting on space character
 
 
 </center>
@@ -666,7 +666,7 @@ Image   *FCCircularText 59.png\|Select the Ellipse extruded , the Cut (text) and
 
 <center>
 
-Image   *FCCircularText\_Path\_00\_Orth\_Base\_000.png\|Text on BoundBox Base (normal) Image   *FCCircularText\_Path\_00\_Orth\_Center\_000.png\|Text on BoundBox Center character
+Image   *FCCircularText_Path_00_Orth_Base_000.png\|Text on BoundBox Base (normal) Image   *FCCircularText_Path_00_Orth_Center_000.png\|Text on BoundBox Center character
 
 
 </center>
@@ -675,7 +675,7 @@ Image   *FCCircularText\_Path\_00\_Orth\_Base\_000.png\|Text on BoundBox Base (n
 
 <center>
 
-Image   *FCCircularText\_Path\_00\_Orth\_Top\_000.png\|Text on BoundBox Top character Image   *FCCircularText\_Path\_00\_001\_000\_000.png\|Text on selected line   *
+Image   *FCCircularText_Path_00_Orth_Top_000.png\|Text on BoundBox Top character Image   *FCCircularText_Path_00_001_000_000.png\|Text on selected line   *
 1   * Orthogonal
 2   * Tangent
 

@@ -26,7 +26,7 @@ Das Werkzeug **LinearesMuster** erzeugt gleichmäßig verteilte Kopien eines For
 
 <div class="mw-translate-fuzzy">
 
-\'\'Oben   * Ein L-förmiger Block (B), der auf einer Grundplatte (A, auch als *Träger* bezeichnet) angebracht ist, wird für ein lineares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.\'\'
+*Oben   * Ein L-förmiger Block (B), der auf einer Grundplatte (A, auch als*Träger*bezeichnet) angebracht ist, wird für ein lineares Muster verwendet. Das Ergebnis (C) ist rechts dargestellt.*
 
 
 </div>

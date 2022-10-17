@@ -5,7 +5,7 @@
 
 ## Introduction
 
-L\'[atelier FEM](FEM_Workbench/fr.md) fournit un flux de travail moderne d\'[analyse par éléments finis](https   *//fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis) (FEA) pour FreeCAD. Cela signifie principalement que tous les outils permettant d\'effectuer une analyse sont combinés dans une seule interface utilisateur graphique (GUI).
+L\'[atelier FEM](FEM_Workbench/fr.md) fournit un déroulement de tâches moderne d\'[analyse par éléments finis](https   *//fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis) (FEA) pour FreeCAD. Cela signifie que tous les outils permettant d\'effectuer une analyse sont réunis dans une seule interface utilisateur graphique (GUI).
 
 <img alt="" src=images/FemWorkbench.jpg  style="width   *300px;">
 
@@ -22,13 +22,13 @@ Les étapes pour effectuer une analyse d'éléments finis sont les suivantes    
 2.  Résolution    * exécution d\'un solveur externe à partir de FreeCAD.
 3.  Post-traitement    * visualiser les résultats de l\'analyse depuis FreeCAD, ou exporter les résultats pour qu\'ils puissent être post-traités avec une autre application.
 
-L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linux. Étant donné que l\'atelier utilise des solveurs externes, la quantité d'installation manuelle dépend du système d'exploitation utilisé. Voir la page [FEM Installation des composants requis](FEM_Install/fr.md) pour des instructions sur la configuration des outils externes.
+L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné que l\'atelier utilise des solveurs externes, la quantité d'installation manuelle dépend du système d'exploitation utilisé. Voir [FEM Installation des composants requis](FEM_Install/fr.md) pour des instructions sur la configuration des outils externes.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width   *600px;">
 
 
 
-*Flux de travail de l'atelier FEM ; l'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et la solution proprement dite du problème des éléments finis*
+*Déroulement des tâches de l'atelier FEM; l'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et la solution proprement dite du problème des éléments finis.*
 
 ## Menu    * Modèle 
 

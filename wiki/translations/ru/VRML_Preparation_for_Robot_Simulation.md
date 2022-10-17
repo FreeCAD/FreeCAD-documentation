@@ -38,20 +38,20 @@ Notice, that on import, the robot is made of 8 shapes, directly on the root of t
 
   FreeCAD name   STEP name
    
-  TX40\_HB       HORIZONTAL BASE CABLE OUTLET
-  TX40\_HB001    SHOULDER
-  TX40\_HB002    ARM
-  TX40\_HB003    ELBOW
-  TX40\_HB004    FOREARM
-  TX40\_HB005    WRIST
-  TX40\_HB006    TOOL FLANGE
-  TX40\_HB007    ?
+  TX40_HB        HORIZONTAL BASE CABLE OUTLET
+  TX40_HB001     SHOULDER
+  TX40_HB002     ARM
+  TX40_HB003     ELBOW
+  TX40_HB004     FOREARM
+  TX40_HB005     WRIST
+  TX40_HB006     TOOL FLANGE
+  TX40_HB007     ?
 
-For this import, change the "Display Mode" of each shape, TX40\_HB007 excepted, from "Flat Lines" to "Shaded" for the VRML export to look good. I also changed the colors to \[245, 196, 0\] and \[204, 204, 204\] to better correspond to Stäubli\'s yellow. Hide TX40\_HB007 because it contains the axes of all joints and cannot be taken apart.
+For this import, change the "Display Mode" of each shape, TX40_HB007 excepted, from "Flat Lines" to "Shaded" for the VRML export to look good. I also changed the colors to \[245, 196, 0\] and \[204, 204, 204\] to better correspond to Stäubli\'s yellow. Hide TX40_HB007 because it contains the axes of all joints and cannot be taken apart.
 
 ## Measure geometric characteristics 
 
-In order to build the Denavit-Hartenberg table (see [Robot 6-Axis](Robot_6-Axis.md)) and prepare the vrml file, you need to get characteristics of the robot. For now, the measurement tool of FreeCAD is not ready, you can use the axes included in TX40\_HB007 (the co-ordinates are indicated on the bottom left when you point an object with the mouse) or you have to use the Python console to get some information about the geometry. Note that the DH-table is only required if you need to use the inverse kinematics, i.e. get the Cartesian coordinates or drive the robot with Cartesian coordinates. The DH-table for this robot is the following (mm, deg and deg/s)   *
+In order to build the Denavit-Hartenberg table (see [Robot 6-Axis](Robot_6-Axis.md)) and prepare the vrml file, you need to get characteristics of the robot. For now, the measurement tool of FreeCAD is not ready, you can use the axes included in TX40_HB007 (the co-ordinates are indicated on the bottom left when you point an object with the mouse) or you have to use the Python console to get some information about the geometry. Note that the DH-table is only required if you need to use the inverse kinematics, i.e. get the Cartesian coordinates or drive the robot with Cartesian coordinates. The DH-table for this robot is the following (mm, deg and deg/s)   *
 
   i   d     θ         r     α     θmin   θmax    Axis velocity
   ---       

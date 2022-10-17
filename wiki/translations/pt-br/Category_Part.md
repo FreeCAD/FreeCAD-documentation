@@ -21,19 +21,19 @@ This category lists pages related to the [Part Workbench/pt-br](Part_Workbench/p
 | [Part Import/pt-br](wiki/Part Import/pt-br.md) | [Part JoinConnect/pt-br](wiki/Part JoinConnect/pt-br.md) | [Part JoinCutout/pt-br](wiki/Part JoinCutout/pt-br.md) |
 | [Part JoinEmbed/pt-br](wiki/Part JoinEmbed/pt-br.md) | [Part Line/pt-br](wiki/Part Line/pt-br.md) | [Part Loft/pt-br](wiki/Part Loft/pt-br.md) |
 | [Part MakeFace/pt-br](wiki/Part MakeFace/pt-br.md) | [Part MakeSolid/pt-br](wiki/Part MakeSolid/pt-br.md) | [Part Measure Angular/pt-br](wiki/Part Measure Angular/pt-br.md) |
-| [Part Measure Clear All/pt-br](wiki/Part Measure Clear All/pt-br.md) | [Part Measure Linear/pt-br](wiki/Part Measure Linear/pt-br.md) | [Part Measure Menu/pt-br](wiki/Part Measure Menu/pt-br.md) |
-| [Part Measure Refresh/pt-br](wiki/Part Measure Refresh/pt-br.md) | [Part Measure Toggle 3d/pt-br](wiki/Part Measure Toggle 3d/pt-br.md) | [Part Measure Toggle All/pt-br](wiki/Part Measure Toggle All/pt-br.md) |
-| [Part Measure Toggle Delta/pt-br](wiki/Part Measure Toggle Delta/pt-br.md) | [Part Mirror/pt-br](wiki/Part Mirror/pt-br.md) | [Part Module/pt-br](wiki/Part Module/pt-br.md) |
-| [Part Offset/pt-br](wiki/Part Offset/pt-br.md) | [Part Offset2D/pt-br](wiki/Part Offset2D/pt-br.md) | [Part Plane/pt-br](wiki/Part Plane/pt-br.md) |
-| [Part Point/pt-br](wiki/Part Point/pt-br.md) | [Part PointsFromMesh/pt-br](wiki/Part PointsFromMesh/pt-br.md) | [Part Primitives/pt-br](wiki/Part Primitives/pt-br.md) |
-| [Part Prism/pt-br](wiki/Part Prism/pt-br.md) | [Part ProjectionOnSurface/pt-br](wiki/Part ProjectionOnSurface/pt-br.md) | [Part RefineShape/pt-br](wiki/Part RefineShape/pt-br.md) |
-| [Part RegularPolygon/pt-br](wiki/Part RegularPolygon/pt-br.md) | [Part ReverseShapes/pt-br](wiki/Part ReverseShapes/pt-br.md) | [Part Revolve/pt-br](wiki/Part Revolve/pt-br.md) |
-| [Part RuledSurface/pt-br](wiki/Part RuledSurface/pt-br.md) | [Part scripting/pt-br](wiki/Part scripting/pt-br.md) | [Part Section/pt-br](wiki/Part Section/pt-br.md) |
-| [Part ShapeFromMesh/pt-br](wiki/Part ShapeFromMesh/pt-br.md) | [Part SimpleCopy/pt-br](wiki/Part SimpleCopy/pt-br.md) | [Part Slice/pt-br](wiki/Part Slice/pt-br.md) |
-| [Part SliceApart/pt-br](wiki/Part SliceApart/pt-br.md) | [Part Sphere/pt-br](wiki/Part Sphere/pt-br.md) | [Part Spiral/pt-br](wiki/Part Spiral/pt-br.md) |
-| [Part Sweep/pt-br](wiki/Part Sweep/pt-br.md) | [Part Thickness/pt-br](wiki/Part Thickness/pt-br.md) | [Part Torus/pt-br](wiki/Part Torus/pt-br.md) |
-| [Part TransformedCopy/pt-br](wiki/Part TransformedCopy/pt-br.md) | [Part Tube/pt-br](wiki/Part Tube/pt-br.md) | [Part Wedge/pt-br](wiki/Part Wedge/pt-br.md) |
-| [Part XOR/pt-br](wiki/Part XOR/pt-br.md) | [Topological naming problem/pt-br](wiki/Topological naming problem/pt-br.md) |
+| [Part Measure Clear All/pt-br](wiki/Part Measure Clear All/pt-br.md) | [Part Measure Linear/pt-br](wiki/Part Measure Linear/pt-br.md) | [Part Measure Refresh/pt-br](wiki/Part Measure Refresh/pt-br.md) |
+| [Part Measure Toggle 3D/pt-br](wiki/Part Measure Toggle 3D/pt-br.md) | [Part Measure Toggle All/pt-br](wiki/Part Measure Toggle All/pt-br.md) | [Part Measure Toggle Delta/pt-br](wiki/Part Measure Toggle Delta/pt-br.md) |
+| [Part Mirror/pt-br](wiki/Part Mirror/pt-br.md) | [Part Module/pt-br](wiki/Part Module/pt-br.md) | [Part Offset/pt-br](wiki/Part Offset/pt-br.md) |
+| [Part Offset2D/pt-br](wiki/Part Offset2D/pt-br.md) | [Part Plane/pt-br](wiki/Part Plane/pt-br.md) | [Part Point/pt-br](wiki/Part Point/pt-br.md) |
+| [Part PointsFromMesh/pt-br](wiki/Part PointsFromMesh/pt-br.md) | [Part Primitives/pt-br](wiki/Part Primitives/pt-br.md) | [Part Prism/pt-br](wiki/Part Prism/pt-br.md) |
+| [Part ProjectionOnSurface/pt-br](wiki/Part ProjectionOnSurface/pt-br.md) | [Part RefineShape/pt-br](wiki/Part RefineShape/pt-br.md) | [Part RegularPolygon/pt-br](wiki/Part RegularPolygon/pt-br.md) |
+| [Part ReverseShapes/pt-br](wiki/Part ReverseShapes/pt-br.md) | [Part Revolve/pt-br](wiki/Part Revolve/pt-br.md) | [Part RuledSurface/pt-br](wiki/Part RuledSurface/pt-br.md) |
+| [Part scripting/pt-br](wiki/Part scripting/pt-br.md) | [Part Section/pt-br](wiki/Part Section/pt-br.md) | [Part ShapeFromMesh/pt-br](wiki/Part ShapeFromMesh/pt-br.md) |
+| [Part SimpleCopy/pt-br](wiki/Part SimpleCopy/pt-br.md) | [Part Slice/pt-br](wiki/Part Slice/pt-br.md) | [Part SliceApart/pt-br](wiki/Part SliceApart/pt-br.md) |
+| [Part Sphere/pt-br](wiki/Part Sphere/pt-br.md) | [Part Spiral/pt-br](wiki/Part Spiral/pt-br.md) | [Part Sweep/pt-br](wiki/Part Sweep/pt-br.md) |
+| [Part Thickness/pt-br](wiki/Part Thickness/pt-br.md) | [Part Torus/pt-br](wiki/Part Torus/pt-br.md) | [Part TransformedCopy/pt-br](wiki/Part TransformedCopy/pt-br.md) |
+| [Part Tube/pt-br](wiki/Part Tube/pt-br.md) | [Part Wedge/pt-br](wiki/Part Wedge/pt-br.md) | [Part XOR/pt-br](wiki/Part XOR/pt-br.md) |
+| [Topological naming problem/pt-br](wiki/Topological naming problem/pt-br.md) |
 
 
 

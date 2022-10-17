@@ -37,7 +37,7 @@ Cette opération contient une propriété **BoundaryShape** qui permet de modifi
 
 ## Surfaçage de face verticale 
 
--   Cet outil ne fonctionnera pas sur un **plan vertical** ou une surface verticale non plane. Les opérations verticales peuvent être réalisées en utilisant l\'outil de profil de face ou l\'outil de profil de bord. Ceux-ci nécessiteront la sélection d\'une face ou d\'une boucle fermée d\'arêtes \'\'incluant le bord supérieur ou inférieur de la surface verticale souhaitée \'\'. L\'étendue de la trajectoire peut alors être réduite à l\'aide de l\'outil *Boundary Dress-up* qui se trouve dans le menu *Path*. Avec l\'outil Dress-up, sélectionnez l\'option *Create Box* et réduisez la taille pour limiter la portée de la trajectoire du profil. Ces réglages ne permettent toutefois pas de déplacer l\'origine de la zone de contour. Cela doit être fait en ajustant les paramètres de placement dans la [vue en arborescence](Tree_view/fr.md).
+-   Cet outil ne fonctionnera pas sur un **plan vertical** ou une surface verticale non plane. Les opérations verticales peuvent être réalisées en utilisant l\'outil de profil de face ou l\'outil de profil de bord. Ceux-ci nécessiteront la sélection d\'une face ou d\'une boucle fermée d\'arêtes *incluant le bord supérieur ou inférieur de la surface verticale souhaitée*. L\'étendue de la trajectoire peut alors être réduite à l\'aide de l\'outil *Boundary Dress-up* qui se trouve dans le menu *Path*. Avec l\'outil Dress-up, sélectionnez l\'option *Create Box* et réduisez la taille pour limiter la portée de la trajectoire du profil. Ces réglages ne permettent toutefois pas de déplacer l\'origine de la zone de contour. Cela doit être fait en ajustant les paramètres de placement dans la [vue en arborescence](Tree_view/fr.md).
 -   Cela fonctionnera sur des surfaces composées telles que plusieurs plans verticaux ou surfaces cylindriques assemblées reliées entre elles, à condition qu\'elles forment une surface continue.
 
 ## Options
@@ -46,7 +46,7 @@ Vide
 
 ## Propriétés
 
-\'\'\' *Remarque* \'\'\'   * les noms de certaines propriétés de cette liste diffèrent un peu des mêmes paramètres que ceux utilisés dans l\'éditeur de fenêtre de tâche.
+***Remarque***   * les noms de certaines propriétés de cette liste diffèrent un peu des mêmes paramètres que ceux utilisés dans l\'éditeur de fenêtre de tâche.
 
 ### Données
 
@@ -173,7 +173,7 @@ Remarque   * il est conseillé de ne pas modifier la propriété Placement des o
 
 -    **Enable Rotation**   * Active la rotation pour accéder aux poches ou aux zones non normales à l\'axe Z.
 
--    **Inverse Angle**   * Inverse l\'angle de la rotation. \'\' **Exemple   *** changer une rotation de -22,5 à 22,5 degrés.\'\'
+-    **Inverse Angle**   * Inverse l\'angle de la rotation. ***Exemple   *** changer une rotation de -22,5 à 22,5 degrés.*
 
 -    **Limit Depth To Face**   * Impose la profondeur Z de la face sélectionnée comme valeur minimale de la profondeur finale. Des valeurs utilisateur plus élevées pour la profondeur finale seront observées.
 

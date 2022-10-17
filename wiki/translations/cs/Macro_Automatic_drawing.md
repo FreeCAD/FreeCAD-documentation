@@ -42,7 +42,7 @@ Před spuštěním makra musí být vybrán objekt.
 
 ToolBar icon ![](images/Macro_Automatic_drawing.png )
 
-**Macro\_Automatic\_drawing.FCMacro**
+**Macro_Automatic_drawing.FCMacro**
 
 
 {{MacroCode|code=

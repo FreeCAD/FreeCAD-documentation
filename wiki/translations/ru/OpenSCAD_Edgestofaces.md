@@ -26,7 +26,7 @@
 
 ## Notes
 
-See also <img alt="Draft\_Upgrade" src=images/Draft_Upgrade.svg  style="width   *24px;"> [Draft Upgrade](Draft_Upgrade.md) for an alternative way to get faces.
+See also <img alt="Draft_Upgrade" src=images/Draft_Upgrade.svg  style="width   *24px;"> [Draft Upgrade](Draft_Upgrade.md) for an alternative way to get faces.
 
 
 

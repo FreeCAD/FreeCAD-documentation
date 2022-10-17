@@ -21,7 +21,7 @@ Both commands can be used on 2D objects created with the [Draft Workbench](Draft
 ## Usage
 
 1.  Select the object you wish to array.
-2.  Add the path object to the selection. It is also possible to select edges instead. The edges must belong to the same object and they must be connected. In FreeCAD version 0.19 and earlier edges must be selected in the correct order.
+2.  Add the path object to the selection. It is also possible to select edges instead. The edges must belong to the same object and they must be connected.
 3.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_PathArray.svg" width=16px> [Draft PathArray](Draft_PathArray.md)** button.
     -   Select the **Modification → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Path array** option from the menu.
@@ -109,11 +109,11 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 -    **Extra Translation|VectorDistance**   * specifies an additional displacement for each element along the path.
 
--    **Force Vertical|Bool**   * specifies whether to override the default normal direction with the value of **Vertical Vector**. Only used if **Align Mode** is {{Value|Original}} or {{Value|Tangent}}. <small>(v0.19)</small> 
+-    **Force Vertical|Bool**   * specifies whether to override the default normal direction with the value of **Vertical Vector**. Only used if **Align Mode** is {{Value|Original}} or {{Value|Tangent}}.
 
--    **Tangent Vector|Vector**   * specifies the alignment vector. Only used if **Align Mode** is {{Value|Tangent}}. <small>(v0.19)</small> 
+-    **Tangent Vector|Vector**   * specifies the alignment vector. Only used if **Align Mode** is {{Value|Tangent}}.
 
--    **Vertical Vector|Vector**   * specifies the override for the default normal direction. Only used if **Vertical Vector** is `True`. <small>(v0.19)</small> 
+-    **Vertical Vector|Vector**   * specifies the override for the default normal direction. Only used if **Vertical Vector** is `True`.
 
 
 {{TitleProperty|Objects}}

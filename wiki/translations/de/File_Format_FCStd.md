@@ -3,15 +3,15 @@
 
 ## Übersicht
 
-Das **FreeCAD Standard Dateiformat** (**.FCStd**) ist das Hauptdateiformat von FreeCAD. Es ist ein zusammengesetztes Format, das die Komprimierung und Einbettung verschiedener Arten von Daten unterstützt.
+Das **FreeCAD-Standard-Dateiformat** (**.FCStd**) ist das Hauptdateiformat von FreeCAD. Es ist ein zusammengesetztes Format, das die Komprimierung und Einbettung verschiedener Arten von Daten unterstützt.
 
-## Internas von .FCStd Dateien 
+## Internas von .FCStd-Dateien 
 
-FCStd ist eine [ Standard Zip Datei eine oder mehrere Dateien enthaltend](#Contents/de.md) in einer [speziellen Struktur](#structure/de.md). Daher ist es möglich, eine **.FCStd** Datei mit einem regulären Zip Dekomprimierungswerkzeug zu entpacken, aber beim Packen des Inhalts einer **.FCStd** Datei ist Vorsicht geboten. FreeCAD enthält ein \"Projekt Hilfsprogramm\" zum erneuten Packen von **.FCStd** Dateien, dessen Verwendung in [Ändere die Quelle der Datei .FCStd](#Change_the_source_of_the_file_.FCStd/de.md) unten beschrieben wird.
+FCStd ist eine [Standard-Zip-Datei, die eine oder mehrere Dateien in einer speziellen Struktur enthält](#Typische_Struktur.md). Daher ist es zwar möglich, eine **.FCStd**-Datei mit einem regulären Zip-Entpacker auszulesen, aber das Packen des Inhalts einer **.FCStd**-Datei erfordert etwas mehr Aufmerksamkeit. FreeCAD enthält ein \"Projekt-Hilfsprogramm\" zum erneuten Packen von **.FCStd**-Dateien, dessen Verwendung in [Ändere die Quelle der Datei .FCStd](#Ändere_die_Quelle_der_Datei_.FCStd.md) weiter unten beschrieben wird.
 
 ### Document.xml
 
-Dies ist die Haupt **.xml** datei, die alle Objekte innerhalb eines FreeCAD Dokuments beschreibt, d.h. nur die geometrische und parametrische Definition der Objekte, nicht ihre visuelle Darstellung. Wenn FreeCAD im Konsolenmodus (ohne die GUI) ausgeführt wird, wird nur diese **Dokument.xml** verwendet.
+Dies ist die Haupt-**.xml**-Datei, die alle Objekte innerhalb eines FreeCAD-Dokuments beschreibt, d.h. nur die geometrische und parametrische Definition der Objekte, nicht ihre visuelle Darstellung. Wenn FreeCAD im Konsolenmodus (ohne die GUI) ausgeführt wird, wird nur dieses **Dokument.xml** verwendet.
 
 #### Beispiel Document.xml 
 
@@ -110,15 +110,15 @@ Dies ist die Haupt **.xml** datei, die alle Objekte innerhalb eines FreeCAD Doku
 
 ### GuiDocument.xml
 
-Dies ist das GUI Gegenstück zur **Document.xml** Datei. Für jedes in **Document.xml** beschriebene Objekt gibt es ein entsprechendes Objekt in **GuiDocument.xml**, das die visuelle Darstellung dieses Objekts (Farbe, Linienbreite usw.) beschreibt.
+Dies ist das GUI-Gegenstück zur **Document.xml**-Datei. Für jedes im **Document.xml** beschriebene Objekt gibt es ein entsprechendes Objekt im **GuiDocument.xml**, das die visuelle Darstellung dieses Objekts (Farbe, Linienbreite usw.) beschreibt.
 
 ### Thumbnails/thumbnail.png
 
-Hierbei handelt es sich um eine 128x128 Pixel große Miniaturansicht des Dokuments, bei der es sich um ein Bildschirmfoto der 3D Ansicht zur Speicherzeit handelt. Miniaturansichten werden nur erzeugt, wenn die entsprechende Option in den FreeCAD Einstellungen aktiviert ist.
+Hierbei handelt es sich um eine 128x128 Pixel große Miniaturansicht des Dokuments, bei der es sich um ein Bildschirmfoto der 3D-Ansicht zur Speicherzeit handelt. Miniaturansichten werden nur erzeugt, wenn die entsprechende Option in den FreeCAD-Einstellungen aktiviert ist.
 
 ### \*.brep
 
-Dies sind die [B-rep](wikipedia_Boundary_representation.md) Formen aller Objekte, die eine Teilform in der **Document.xml**. haben. Jedes Objekt, auch wenn es parametrisch ist, hat seine Form als individuelle **.brep** Datei gespeichert, so dass Komponenten darauf zugreifen können, ohne die Form neu berechnen zu müssen.
+Dies sind die [B-rep](wikipedia_Boundary_representation.md)-Formen aller Objekte, die eine Teilform im **Document.xml** haben. Jedes Objekt, auch wenn es parametrisch ist, hat seine Form als individuelle **.brep**-Datei gespeichert, so dass Komponenten darauf zugreifen können, ohne die Form neu berechnen zu müssen.
 
 ### \*.svg
 
@@ -126,7 +126,7 @@ Dies sind die Vorlagen-svg-Dateien, die auf [TechDraw](TechDraw_Workbench/de.md)
 
 ### Typische Struktur 
 
-Struktur einer typischen **.FCStd** Datei. Die Erweiterung kann in **.zip** geändert werden, um sie wie ein normales Verzeichnis zu untersuchen. Die **Dokument.xml** und **GuiDocument.xml** befinden sich zusammen mit einer beliebigen Anzahl von **.brp** (BREP) Dateien im Archivstamm. Ein Unterverzeichnis kann die Miniaturansicht und ein anderes die von [TechDraw](TechDraw_Workbench/de.md) verwendeten SVG Vorlagen enthalten.
+Struktur einer typischen **.FCStd**-Datei. Die Erweiterung kann in **.zip** geändert werden, um sie wie ein normales Verzeichnis zu untersuchen. Die **Dokument.xml** und **GuiDocument.xml** befinden sich zusammen mit einer beliebigen Anzahl von **.brp**-Dateien (BREP-Dateien) im Archivstamm. Ein Unterverzeichnis kann die Miniaturansicht und ein anderes die, von [TechDraw](TechDraw_Workbench/de.md) verwendeten, SVG-Vorlagen enthalten.
 
     File.FCStd (File.zip)
       |
@@ -141,11 +141,11 @@ Struktur einer typischen **.FCStd** Datei. Die Erweiterung kann in **.zip** geä
          *--MyPage.svg
          *--etc.
 
-## Einbetten anderer Dateien 
+## Andere Dateien einbetten 
 
-Um andere Dateitypen in eine FCStd Datei einzubetten, musst du zunächst ein [geskriptetes Objekt](Scripted_objects/de.md) aus der [Python Konsole](Python_console/de.md) erstellen und ihm eine `App   *   *PropertyFileIncluded`-Eigenschaft geben.
+Um andere Dateitypen in eine FCStd-Datei einzubetten, muss zunächst ein [skriptgeneriertes Objekt](Scripted_objects/de.md) in der [Python-Konsole](Python_console/de.md) erstellt und ihm dann eine `App   *   *PropertyFileIncluded`-Eigenschaft gegeben werden.
 
-Im [Eigenschaftseditor](Property_editor/de.md) kannst du dann zu der hinzugefügten Eigenschaft gehen und eine Datei auf dem Computer auswählen. Sobald die FCStd Datei gespeichert ist, wird die Datei, die der Eigenschaft **PropertyFileIncluded** zugewiesen ist, in den `.FCStd` gepackt. Wenn das Dokument wiederhergestellt wird, wird die gleiche Datei mit der Eigenschaft **PropertyFileIncluded** wiederhergestellt.
+Anschließend kann im [Eigenschafteneditor](Property_editor/de.md) der hinzugefügten Eigenschaft eine Datei auf dem Computer zugeordnet werden. Wird die FCStd-Datei gespeichert, wird auch die der Eigenschaft **PropertyFileIncluded** zugewiesene Datei in das `.FCStd`-Dokument gepackt. Wenn das Dokument wiederhergestellt wird, wird dieselbe Datei mit der Eigenschaft **PropertyFileIncluded** auch wiederhergestellt.
 
 
 ```python
@@ -155,18 +155,18 @@ custom_obj.addProperty("App   *   *PropertyFileIncluded", "AttachedFile")
 
 Siehe den Forumsbeitrag, [PDF innerhalb des Projekts](https   *//forum.freecadweb.org/viewtopic.php?t=38201).
 
-## Ändere die Quelle der Datei .FCStd 
+## Die Quelle der .FCStd-Datei ändern 
 
 -   Siehe [Std ProjektHilfsprogramm](Std_ProjectUtil/de.md).
 
 ## Andere
 
--   Ein Dateikonvertierungshilfsprogramm [ImageConv](ImageConv.md).
+-   Ein Dateikonvertierungshilfsprogramm [ImageConv](ImageConv/de.md).
 
 
  
 
-[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

@@ -144,7 +144,7 @@ class Ui_Dialog(object)   *
 
 <div class="mw-translate-fuzzy">
 
-Som du ser så har det en mycket enkel struktur   * En klass benämnd Ui\_Dialog skapas, som sparar din widgets gränssnittselement. Den klassen har två metoder, en fär att ställa in widgeten, och en för att översätta dess innehåll, som är en del av de allmäna Qt mekanismerna för översättning av gränssnittselement. Inställningsmetoden skapar, en och en, widgetarna som vi har definierat dem i Qt Designer, och sätter deras alternativ som vi bestämt tidigare. Sedan blir hela gränssnittet översatt, och slutligen, blir sloten anslutna (vi pratar om det senare).
+Som du ser så har det en mycket enkel struktur   * En klass benämnd Ui_Dialog skapas, som sparar din widgets gränssnittselement. Den klassen har två metoder, en fär att ställa in widgeten, och en för att översätta dess innehåll, som är en del av de allmäna Qt mekanismerna för översättning av gränssnittselement. Inställningsmetoden skapar, en och en, widgetarna som vi har definierat dem i Qt Designer, och sätter deras alternativ som vi bestämt tidigare. Sedan blir hela gränssnittet översatt, och slutligen, blir sloten anslutna (vi pratar om det senare).
 
 
 </div>
@@ -187,7 +187,7 @@ Nu när vi kan visa och gömma vår dialog, så behöver vi bara lägga till en 
 Vad vi kommer att göra här, är att skapa en ny funktion som kommer att skapa ett plan, baserat på höjd och bredd, och ansluta denna funktion till nedtryckt signalen som sänds av vår \"Skapa!\" button. Så, låt os börja med att importera våra FreeCAD moduler, genom att sätta följande rader i toppen på skriptet, där vi redan har importerat QtCore och QtGui   * 
 ```python
 import FreeCAD, Part
-``` Låt oss sedan lägga till en ny funktion till vår Ui\_Dialog klass   * 
+``` Låt oss sedan lägga till en ny funktion till vår Ui_Dialog klass   * 
 ```python
 def createPlane(self)   *
     try   *
@@ -210,7 +210,7 @@ def createPlane(self)   *
 ``` Sedan behöver vi informera Qt att ansluta knappen till funktionen, genom att placera följande rad precis innan QtCore.QMetaObject.connectSlotsByName(Dialog)   * 
 ```python
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
-``` Detta ansluter, som du ser, pressed() signalen från vårt skapade objekt (\"Skapa!\" knappen), till en slot benämnd createPlane, som vi just definierade. Klart! Nu, som en slutlig justering, så kan vi lägga till lite funktion för att skapa dialogen, så kommer den bli lättare att anropa. Utanför Ui\_Dialog klassan, så lägger vi till denna kod   * 
+``` Detta ansluter, som du ser, pressed() signalen från vårt skapade objekt (\"Skapa!\" knappen), till en slot benämnd createPlane, som vi just definierade. Klart! Nu, som en slutlig justering, så kan vi lägga till lite funktion för att skapa dialogen, så kommer den bli lättare att anropa. Utanför Ui_Dialog klassan, så lägger vi till denna kod   * 
 ```python
 class plane()   *
    def __init__(self)   *

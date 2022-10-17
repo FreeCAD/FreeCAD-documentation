@@ -56,22 +56,22 @@ FreeCAD depends on many 3rd-party libraries for its functionality. They may be i
 
 Now, install the following required dependencies using pacman   *
 
--   mingw-w64-x86\_64-opencascade
--   mingw-w64-x86\_64-xerces-c
--   mingw-w64-x86\_64-qt5
--   mingw-w64-x86\_64-med
--   mingw-w64-x86\_64-swig
--   mingw-w64-x86\_64-qtwebkit
--   mingw-w64-x86\_64-coin
--   mingw-w64-x86\_64-python-pivy
--   mingw-w64-x86\_64-python-ply
--   mingw-w64-x86\_64-python-six
--   mingw-w64-x86\_64-python-yaml
--   mingw-w64-x86\_64-python-numpy
--   mingw-w64-x86\_64-python-matplotlib
--   mingw-w64-x86\_64-pyside2-qt5
--   mingw-w64-x86\_64-python-markdown
--   mingw-w64-x86\_64-python-pygit2
+-   mingw-w64-x86_64-opencascade
+-   mingw-w64-x86_64-xerces-c
+-   mingw-w64-x86_64-qt5
+-   mingw-w64-x86_64-med
+-   mingw-w64-x86_64-swig
+-   mingw-w64-x86_64-qtwebkit
+-   mingw-w64-x86_64-coin
+-   mingw-w64-x86_64-python-pivy
+-   mingw-w64-x86_64-python-ply
+-   mingw-w64-x86_64-python-six
+-   mingw-w64-x86_64-python-yaml
+-   mingw-w64-x86_64-python-numpy
+-   mingw-w64-x86_64-python-matplotlib
+-   mingw-w64-x86_64-pyside2-qt5
+-   mingw-w64-x86_64-python-markdown
+-   mingw-w64-x86_64-python-pygit2
 
 The following is a single command to install everything in the list above   *
 
@@ -95,7 +95,7 @@ And finally   *
 
 
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

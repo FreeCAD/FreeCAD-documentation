@@ -59,7 +59,7 @@ Icône de chargement d\'exemples de géométrie de bateaux
 
 </center>
 
-En exécutant le menu (Ship design/Load an example ship geometry) une boîte de dialogue apparaît. Sélectionnez **Series 60 from Iowa University** et appuyez sur *OK*. L\'outil charge un nouveau document avec la forme **s60\_IowaUniversity**.
+En exécutant le menu (Ship design/Load an example ship geometry) une boîte de dialogue apparaît. Sélectionnez **Series 60 from Iowa University** et appuyez sur *OK*. L\'outil charge un nouveau document avec la forme **s60_IowaUniversity**.
 
 
 **'''Attention, avant de modifier quoi que ce soit !'''
@@ -152,7 +152,7 @@ Le dessin des lignes est un ensemble de lignes à partir de coupes de section da
 
 ### Coupes transversales 
 
-Habituellement, il faut effectuer 21 sections transversales équidistantes entre perpendiculaires. Pour le faire, FreeCAD fournit un outil automatique pour le faire, il suffit de sélectionner le type de sections *\' Transversales **, aller à la zone** Créer automatiquement*\' et définir le nombres de sections **21** , puis appuyez sur **Create sections**
+Habituellement, il faut effectuer 21 sections transversales équidistantes entre perpendiculaires. Pour le faire, FreeCAD fournit un outil automatique pour le faire, il suffit de sélectionner le type de sections **Transversales**, aller à la zone**Créer automatiquement** et définir le nombres de sections **21** , puis appuyez sur **Create sections**
 
 ![Outline draw transversal sections preview.](images/S60OutlineTransversal.png )
 

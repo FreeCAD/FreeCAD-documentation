@@ -39,11 +39,17 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 
 ## Opţiuni
 
+
+<div class="mw-translate-fuzzy">
+
 -   În cazul în care panoul nu este plat (de exemplu, ondulat), relieful nu va apărea în panoul tăiat. Acest instrument este util în special pentru panourile plate
 -   The panel cut can display a tag. This tag can be a custom line of text or can automatically show the Tag, Label or Description of its linked Panel.
 -   To be useful for CNC machining, the tag should be written using a sticky font, where letters are simple polylines that are easy for the machine to follow. Upon creation, the Panel Cut object will automatically use the font specified in Edit → Preferences → Draft → Texts and Dimensions → ShapeString Font
 -   Double-clicking on the panel cut in the tree view after it is created allows you to enter edit mode and modify the position of the tag
 -   Atunci când aveți nevoie să structurați diferite tăieturi de panouri împreună, panourile de tăiere pot afișa o marjă, care este utilă pentru a vă asigura că un spațiu este întotdeauna prezent între o tăietură și alta
+
+
+</div>
 
 ## Proprietăți
 

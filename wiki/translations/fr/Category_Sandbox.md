@@ -8,8 +8,9 @@ Cette catégorie regroupe toutes les pages utilisées comme Sandbox (Bac à sabl
 |     |     |     |
 | --- | --- | --- |
 | [CadQuery Workbench/fr](wiki/CadQuery Workbench/fr.md) | [Cfd Workbench/fr](wiki/Cfd Workbench/fr.md) | [FEM FrontISTR Workbench/fr](wiki/FEM FrontISTR Workbench/fr.md) |
-| [Macro Kerkythea/fr](wiki/Macro Kerkythea/fr.md) | [PCB Workbench/fr](wiki/PCB Workbench/fr.md) | [Symbols Library Workbench/fr](wiki/Symbols Library Workbench/fr.md) |
-| [Timber Workbench/fr](wiki/Timber Workbench/fr.md) | [Workfeature Workbench/fr](wiki/Workfeature Workbench/fr.md) |
+| [FEMbyGEN Workbench/fr](wiki/FEMbyGEN Workbench/fr.md) | [Macro Kerkythea/fr](wiki/Macro Kerkythea/fr.md) | [PCB Workbench/fr](wiki/PCB Workbench/fr.md) |
+| [Symbols Library Workbench/fr](wiki/Symbols Library Workbench/fr.md) | [Timber Workbench/fr](wiki/Timber Workbench/fr.md) | [Workfeature Workbench/fr](wiki/Workfeature Workbench/fr.md) |
+|
 
 
 

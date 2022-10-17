@@ -1,5 +1,5 @@
 # Spreadsheet Create/en
-1.  REDIRECT [Spreadsheet\_CreateSheet/en](Spreadsheet_CreateSheet/en.md)
+1.  REDIRECT [Spreadsheet_CreateSheet/en](Spreadsheet_CreateSheet/en.md)
 
 
 

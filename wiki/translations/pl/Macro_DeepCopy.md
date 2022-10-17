@@ -21,7 +21,7 @@ Select a part in the tree, run the macro and it will create a compound with a co
 
 ToolBar Icon ![](images/Macro_DeepCopy.png )
 
-**Macro\_DeepCopy.FCMacro**
+**Macro_DeepCopy.FCMacro**
 
 
 {{MacroCode|code=

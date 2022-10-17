@@ -31,7 +31,7 @@ Si tous le objets sélectionnés ont la même hauteur Z ex   * (xy **Z5**, xy **
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Draft\_Circle\_3\_Points.FCMacro**
+**Draft_Circle_3\_Points.FCMacro**
 
 
 {{MacroCode|code=
@@ -281,7 +281,7 @@ Regardez en alternance avec l\'oeil gauche et l\'oeil droit pour voir les vues s
 ## Credits
 
 La genèse de la macro **Draft Circle 3 Points** [on the forum (PYTHON) coordonnées d\'un point](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) avec l\'aide flachyjoe merci.
-La formule vient de [cercle\_3pts.pdf](http   *//www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) et utilisée avec l\'aimable permission de son auteur.
+La formule vient de [cercle_3pts.pdf](http   *//www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) et utilisée avec l\'aimable permission de son auteur.
 
 
 

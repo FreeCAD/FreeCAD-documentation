@@ -10,28 +10,28 @@
 
 ## Beschreibung
 
-The <img alt="" src=images/Fasteners_Move.svg  style="width   *24px;"> **Fasteners Move** command moves and attaches a fastener to a circular edge. It can also be used to detach a fastener. An attached fastener has a **base Object** and its **Placement** is dynamically linked to that object.
+Der Befehl <img alt="" src=images/Fasteners_Move.svg  style="width   *24px;"> **Fasteners Move** bewegt Verbindungselemente und befestigt sie an eine kreisförmige Kante. Er kann auch zum Lösen eines Verbindungselementes verwendet werden. Ein befestigtes Verbindungselement besitzt eine {{PropertyData/de|base Object}} und seine {{PropertyData/de|Placement}} ist dynamisch mit dem Objekt verknüpft.
 
 ## Anwendung
 
-### Attach
+### Befestigen
 
 <img alt="" src=images/Fasteners_Move_Selected.png  style="width   *200px;"> <img alt="" src=images/Fasteners_Move_Result.png  style="width   *200px;"> 
-*On the left a fastener and a circular edge are selected. On the right the fastener has been moved and attached to the selected edge.*
+*Links sind ein Verbindungselement und eine kreisförmige Kante ausgewählt. Rechts ist das Verbindungselement bewegt und an der ausgewählten Kante befestigt worden.*
 
-1.  Select a single fastener and a single circular edge.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Fasteners Move](Fasteners_Move.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** option from the menu.
-3.  The fastener moves to the selected edge and is attached to it.
+1.  Ein einzelnes Verbindungselement und eine Kreisförmige Kante auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move/de.md)** drücken.
+    -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** auswählen.
+3.  Das Verbindungselement wird zur ausgewählten Kante bewegt und daran befestigt.
 
-### Detach
+### Lösen
 
-1.  Select a single fastener.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Fasteners Move](Fasteners_Move.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** option from the menu.
-3.  The fastener is detached.
+1.  Ein einzelnes Verbindungselement auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move/de.md)** drücken.
+    -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** auswählen.
+3.  Das Verbindungselement wird gelöst.
 
 
 

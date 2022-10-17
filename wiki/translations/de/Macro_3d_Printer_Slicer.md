@@ -26,7 +26,7 @@ Die SLICER-Variable kann in eine beliebige Slicing-Software Ihrer Wahl geändert
 
 ToolBar Icon ![](images/Macro_3d_Printer_Slicer.png )
 
-**Macro\_3d\_Printer\_Slicer.py**
+**Macro_3d_Printer_Slicer.py**
 
 
 {{MacroCode|code=

@@ -16,10 +16,6 @@ Der <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width   *24p
 <img alt="" src=images/Draft_construction_mode_example.jpg  style="width   *400px;"> 
 *Konstruktionsgeometrie, in blau, hilft bei der Festlegung des Mittelpunkts und Radius eines Kreises*
 
-## Fehler in Version 0.19 
-
-In FreeCAD Version 0.19 benutzen dieser und der [Draft ZurKonstruktionsgruppeHinzufügen](Draft_AddConstruction/de.md)-Befehl typischer Weise verschiedene Gruppen. Um dies zu vermeiden, ändere den **Konstruktionsgruppenname**n in den Einstellungen auf {{Value|Draft_Construction}}   * **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Konstruktionsgruppenname**. In Version 0.20 wird **Konstruktionsgruppenname** für die Bezeichnung der Konstruktionsgruppe verwendet, der Name der Gruppe ist immer {{Value|Draft_Construction}}.
-
 ## Anwendung
 
 1.  Es gibt mehrere Wege, um den Befehl aufzurufen   *
@@ -34,8 +30,14 @@ In FreeCAD Version 0.19 benutzen dieser und der [Draft ZurKonstruktionsgruppeHin
 
 ## Einstellungen
 
+
+<div class="mw-translate-fuzzy">
+
 -   Zur Änderung der Bezeichnung ({{Version/de|0.20}}) der Konstruktionsgruppe   * **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Konstruktionsgruppenname**.
 -   Zur Änderung der zu verwendenden Farbe   * **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Hilfsgeometriefarbe**.
+
+
+</div>
 
 
 

@@ -5,7 +5,7 @@
 
 ## Introduzione
 
-Il modulo <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> Arch fornisce a FreeCAD un moderno flusso di lavoro di tipo [building information modelling](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) (BIM), con supporto per funzionalità come entità architettoniche completamente parametriche come muri, travi, tetti, finestre, scale, tubazioni e mobili. Supporta i file [industry foundation classes](http   *//en.wikipedia.org/wiki/Industry_Foundation_Classes) ([IFC](Arch_IFC/it.md)), e la produzione di planimetrie 2D in combinazione con l\'ambiente <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw](TechDraw_Workbench/it.md).
+L\'[Ambiente Arch](Arch_Workbench/it.md) <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> fornisce a FreeCAD un moderno flusso di lavoro di tipo [building information modelling](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) (BIM), con supporto per funzionalità come entità architettoniche completamente parametriche come muri, travi, tetti, finestre, scale, tubazioni e mobili. Supporta i file [industry foundation classes](http   *//en.wikipedia.org/wiki/Industry_Foundation_Classes) ([IFC](Arch_IFC/it.md)), e la produzione di planimetrie 2D in combinazione con l\'ambiente <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw](TechDraw_Workbench/it.md).
 
 L\'ambiente Arch importa tutti gli strumenti dall\'ambiente <img alt="" src=images/Workbench_Draft.svg  style="width   *16px;"> [Draft](Draft_Workbench/it.md), poiché usa oggetti 2D per costruire i suoi oggetti architettonici 3D parametrici. Tuttavia, Arch può anche utilizzare oggetti solidi creati in altri ambiente di lavoro come <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Parte](Part_Workbench/it.md) e <img alt="" src=images/Workbench_PartDesign.svg  style="width   *16px;"> [PartDesign](PartDesign_Workbench/it.md).
 
@@ -47,7 +47,7 @@ Strumenti per creare gli oggetti architettonici.
 
    ** <img alt="" src=images/Arch_Rebar.svg  style="width   *32px;"> [Armatura personalizzata](Arch_Rebar/it.md)   * Crea una barra d\'armatura personalizzata in un elemento strutturale selezionato utilizzando uno schizzo.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width   *32px;"> [Facciata continua](Arch_CurtainWall/it.md)   * Crea una facciata continua da zero o utilizzando un oggetto selezionato come base. {{Versione|0.19}}
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width   *32px;"> [Facciata continua](Arch_CurtainWall/it.md)   * Crea una facciata continua da zero o utilizzando un oggetto selezionato come base. {{Version/it|0.19}}
 
 -   <img alt="" src=images/Arch_BuildingPart.svg  style="width   *32px;"> [Parte di edificio](Arch_BuildingPart/it.md)   * Crea una parte dell\'edificio che include gli oggetti selezionati.
 
@@ -93,11 +93,11 @@ Strumenti per creare gli oggetti architettonici.
 
 -   <img alt="" src=images/Arch_Frame.svg  style="width   *32px;"> [Telaio](Arch_Frame/it.md)   * Crea un oggetto di carpenteria da un layout selezionato.
 
--   <img alt="" src=images/Arch_Fence.svg  style="width   *32px;"> [Recinzione](Arch_Fence/it.md)   * Crea un oggetto recinzione da un palo e un percorso selezionati. {{Versione|0.19}}
+-   <img alt="" src=images/Arch_Fence.svg  style="width   *32px;"> [Recinzione](Arch_Fence/it.md)   * Crea un oggetto recinzione da un palo e un percorso selezionati. {{Version/it|0.19}}
 
--   <img alt="" src=images/Arch_Truss.svg  style="width   *32px;"> [Travatura](Arch_Truss/it.md)   * Crea una travatura reticolare da una linea selezionata o da zero. {{Versione|0.19}}
+-   <img alt="" src=images/Arch_Truss.svg  style="width   *32px;"> [Travatura](Arch_Truss/it.md)   * Crea una travatura reticolare da una linea selezionata o da zero. {{Version/it|0.19}}
 
--   <img alt="" src=images/Arch_Profile.svg  style="width   *32px;"> [Profilo](Arch_Profile/it.md)   * Crea un profilo 2D parametrico. {{Versione|0.19}}
+-   <img alt="" src=images/Arch_Profile.svg  style="width   *32px;"> [Profilo](Arch_Profile/it.md)   * Crea un profilo 2D parametrico. {{Version/it|0.19}}
 
 -   <img alt="" src=images/Arch_CompSetMaterial.png  style="width   *48px;"> [Materiali](Arch_CompSetMaterial/it.md)
 
@@ -119,7 +119,7 @@ Strumenti per modificare gli oggetti architettonici.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width   *32px;"> [Taglio con piano](Arch_CutPlane/it.md)   * Taglia un oggetto secondo un piano.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width   *32px;"> [Taglio con una linea](Arch_CutLine/it.md)   * Taglia un oggetto secondo una linea. {{Versione|0.19}}
+-   <img alt="" src=images/Arch_CutLine.svg  style="width   *32px;"> [Taglio con una linea](Arch_CutLine/it.md)   * Taglia un oggetto secondo una linea. {{Version/it|0.19}}
 
 -   <img alt="" src=images/Arch_Add.svg  style="width   *32px;"> [Aggiungi componente](Arch_Add/it.md)   * Aggiunge oggetti a un componente.
 

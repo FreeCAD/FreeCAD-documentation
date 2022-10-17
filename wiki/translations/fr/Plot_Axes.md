@@ -53,7 +53,7 @@ Enfin, vous pouvez définir les valeurs minimales et maximales prises en compte 
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

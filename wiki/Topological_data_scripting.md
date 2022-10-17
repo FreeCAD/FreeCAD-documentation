@@ -398,7 +398,7 @@ def makeBCurveEdge(Points)   *
 
 ### Create a plane 
 
-A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start\_pnt = Vector(0, 0, 0) and dir\_normal = Vector(0, 0, 1). Using dir\_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir\_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
+A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start_pnt = Vector(0, 0, 0) and dir_normal = Vector(0, 0, 1). Using dir_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
 
  
 ```python
@@ -415,7 +415,7 @@ plane.BoundBox
 
 is a cuboid enclosing the plane with a diagonal starting at (3, 0, 0) and ending at (5, 0, 2). Here the `BoundBox` thickness along the Y axis is zero, since our shape is totally flat.
 
-Note   * `makePlane()` only accepts `App.Vector()` for start\_pnt and dir\_normal and not tuples.
+Note   * `makePlane()` only accepts `App.Vector()` for start_pnt and dir_normal and not tuples.
 
 
 

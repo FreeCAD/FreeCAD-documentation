@@ -161,13 +161,13 @@ Gerade ausgetragene Objekte
 ### Spiral- und wendelförmige Objekte 
 
 ++++
-| Schraubenfeder   | <img alt="Schraubenfeder" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;"> | -   Kontur   * **Kreis**.                                                                                               |
+| Schraubenfeder   | <img alt="Schraubenfeder" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;"> | -   Kontur   * **Kreis**.                                                                                           |
 |                  |                                                                                  | -   Pfad   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Part Helix](Part_Helix.md).                  |
 ++++
-| Spiralfeder      | <img alt="Unruhfeder" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;">         | -   Kontur   * **Rechteck**.                                                                                            |
+| Spiralfeder      | <img alt="Unruhfeder" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;">         | -   Kontur   * **Rechteck**.                                                                                        |
 | Unruhfeder       |                                                                                  | -   Pfad   * <img alt="" src=images/Part_Spiral.svg  style="width   *16px;"> [Part Spirale](Part_Spiral.md).             |
 ++++
-| **Evolutfeder**, | <img alt="Wickelfeder" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">       | -   Kontur   * **Rechteck**.                                                                                            |
+| **Evolutfeder**, | <img alt="Wickelfeder" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">       | -   Kontur   * **Rechteck**.                                                                                        |
 | Wickelfeder      |                                                                                  | -   Pfad   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Part Helix](Part_Helix.md) mit einem Winkel. |
 ++++
 

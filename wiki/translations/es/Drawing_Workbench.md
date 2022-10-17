@@ -47,7 +47,7 @@ La herramienta [Borrador boceto](Draft_Drawing/es.md) es utilizada para [ objeto
 
 ## Flujo de trabajo 
 
-El documento contiene un objeto de forma 3D (pierna) del que queremos producir un dibujo. Por lo tanto, se crea una \"Página\". Una página es instanciada desde una plantilla, por ejemplo, la plantilla \"A3\_Landscape\". La plantilla es un documento [SVG](SVG/es.md) que puede contener un marco de página, un logotipo y otros elementos.
+El documento contiene un objeto de forma 3D (pierna) del que queremos producir un dibujo. Por lo tanto, se crea una \"Página\". Una página es instanciada desde una plantilla, por ejemplo, la plantilla \"A3_Landscape\". La plantilla es un documento [SVG](SVG/es.md) que puede contener un marco de página, un logotipo y otros elementos.
 
 En esta página podemos insertar una o varias vistas. Cada vista tiene una posición en la página, un factor de escala y propiedades adicionales. Cada vez que la página o la vista o el objeto referenciado cambian, la página se regenera y la visualización de la página se actualiza.
 

@@ -1,8 +1,9 @@
 ---
-- GuiCommand   *
-   Name   *Arch CompPipe
-   MenuLocation   *Arch → Pipe tools
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+- GuiCommand   */ru
+   Name/ru   *Инструменты для создания труб
+   Name   *Arch_CompPipe
+   MenuLocation   *Arch → Инструменты для создания труб
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Version   *0.17
    SeeAlso   *
 ---
@@ -11,9 +12,9 @@
 
 ## Описание
 
-Grouping of several pipe related tools.
+Группа инструментов, связанных с трубами.
 
-## Types of 
+## Типы
 
 -   <img alt="" src=images/Arch_Pipe.svg  style="width   *32px;"> [Pipe](Arch_Pipe.md)   * Creates a pipe.
 

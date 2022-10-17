@@ -22,7 +22,7 @@ This macro creates a circle circumscribed on 3 selected points, orthogonal manne
 Select 3 points, or forms in the 3D view and run the macro.
 If the shape is a line, the coordinate will be the center of the line.
 
-![Circle\_on\_3\_points](images/Circle_on_3_points.png ) 
+![Circle_on_3\_points](images/Circle_on_3_points.png ) 
 
 ## Options
 
@@ -80,13 +80,13 @@ If the shape is a line, the coordinate will be the center of the line.
 ![](images/View-Top.png ) ![](images/View-Left.png ) ![](images/View-Front.png ) ![](images/View-C3P.png )
 
 The three icons must be in the same directory as the module.
-To download them, resting your mouse over the icon and then right-click and *\' save image as\...*\'
+To download them, resting your mouse over the icon and then right-click and **save image as\...**
 
 
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Make\_Circle\_3\_Points.FCMacro**
+**Make_Circle_3\_Points.FCMacro**
 
 
 {{MacroCode|code=
@@ -632,9 +632,9 @@ Watch alternately with the left eye and the right eye to see the views separatel
 
 ## Crédits
 
-The genesis of the macro **Draft\_Circle\_3\_Points** [sur le forum (PYTHON) coordonnées d\'un point](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) helped flachyjoe thanks.
-The formula comes from [cercle\_3pts.pdf](http   *//www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) and used with the kind permission of its author.
-The formula adapted by \" galou\_breizh \" circle in 3D space comes from [Circumscribed\_circle](http   *//en.wikipedia.org/wiki/Circumscribed_circle)
+The genesis of the macro **Draft_Circle_3\_Points** [sur le forum (PYTHON) coordonnées d\'un point](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) helped flachyjoe thanks.
+The formula comes from [cercle_3pts.pdf](http   *//www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) and used with the kind permission of its author.
+The formula adapted by \" galou_breizh \" circle in 3D space comes from [Circumscribed_circle](http   *//en.wikipedia.org/wiki/Circumscribed_circle)
 Separate programs are located here,
 [Macro Draft Circle 3 Points](Macro_Draft_Circle_3_Points.md)
 [Macro Draft Circle 3 Points 3D](Macro_Draft_Circle_3_Points_3D.md)

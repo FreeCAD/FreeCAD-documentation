@@ -1,119 +1,115 @@
 ---
 - GuiCommand   */de
    Name   *Draft Dimension
-   Name/de   *Entwurf Bemaßung
-   MenuLocation   *Entwurf → Bemaßung
+   Name/de   *Draft Maß
+   MenuLocation   *Anmerkung → Abmessung
    Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut   ***D** **I**
-   SeeAlso   *[BemaßungKippen](Draft_FlipDimension/de.md)[TechDraw Arbeitsbereich](TechDraw_Workbench/de.md)
    Version   *0.8
+   SeeAlso   *[Draft MaßKippen](Draft_FlipDimension/de.md)
 ---
 
 # Draft Dimension/de
 
-
-</div>
-
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_Dimension.svg  style="width   *24px;"> **Draft Maß** [erstellt](#Erstellen.md) ein [lineares Maß](#Anwendung_lineares_Maß.md), ein [radiales Maß](#Anwendung_radiales_Maß.md) oder ein [Winkelmaß](#Anwendung_Winkelmaß.md). Der Befehl kann auch verwendet werden, um mit [Std AbstandMessen](Std_MeasureDistance/de.md) erstellte Objekte [umzuwandeln](#Umwandeln.md).
 
-<div class="mw-translate-fuzzy">
+Lineare Maße auf Basis von Kanten und radiale Maße sind parametrisch. Das heißt, dass sie aktualisiert werden, wenn die bemaßte Kante verändert wird. Die bemaßten Kanten können zu Draft-Objekten gehören oder zu Volumenkörpern. Winkelmaße sind nicht parametrisch.
 
-Das **<img src="images/Draft_Dimension.svg" width=16px> [Entwurf Bemaßung](Draft_Dimension/de.md)**s Werkzeug erstellt ein Objekt, das den Abstand zwischen zwei Punkten misst und anzeigt; ein dritter Punkt gibt die Position der Bemaßungslinie an.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug kann Kanten oder Linien messen, die direkt an festen Körpern befestigt sind; wenn sich der Körper ändert, aktualisiert sich die Dimension von selbst. Das Werkzeug kann auch einen Durchmesser oder Krümmungsradius messen, wie er beispielsweise durch einen [Draft Arc](Draft_Arc.md) oder durch die Operationen [Part Fillet](Part_Fillet.md), [Sketcher CreateFillet](Sketcher_CreateFillet.md), und [PartDesign Fillet](PartDesign_Fillet.md) erzeugt wird.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Die resultierende Größe wird in der 3D-Ansicht angezeigt und als Zeichenobjekt behandelt. Das Zeichenobjekt kann auf einer [TechDraw Workbench](TechDraw_Workbench/de.md)-Seite angezeigt werden, in dem man die [Neue Draft-Ansicht](TechDraw_DraftView/de.md)- oder [TechDraw Neuer Bogen](TechDraw_ArchView/de.md)-Werkzeuge verwendet. Alternativ hat TechDraw seine eigenen Werkzeuge, um Größen anzuzeigen. Diese Tools sind jedoch für die Bereitung technischer Zeichnungen gedacht, wodurch sie die Größen nur auf der Zeichenfläche und nicht in der 3D-Ansicht generieren.
-
-
-</div>
+Draft-Maße können auf einem [TechDraw](TechDraw_Workbench/de.md)-Zeichnungsblatt in einer [TechDraw DraftAnsicht](TechDraw_DraftView/de.md) oder [TechDraw ArchAnsicht](TechDraw_ArchView/de.md) angezeigt werden. Alternativ bietet der Arbeitsbereich [TechDraw](TechDraw_Workbench.md) eigene Bemaßungsbefehle, aber die erstellen Maße, die nur auf dem Zeichnungsblatt dargestellt werden und nicht in der [3D-Ansicht](3D_view/de.md).
 
 <img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width   *400px;"> 
-*Durch drei Punkte definierte geradlinige Bemaßung*
+*Durch drei Punkte definiertes lineares Maß (Längenmaß)*
 
-## Create
+## Erstellen
 
-Siehe auch   * [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
+Siehe auch   * [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-### Anwendung geradlinige Bemaßung 
+### Anwendung lineares Maß 
 
+1.  Wahlweise eine gerade Kante in der [3D-Ansicht](3D_view/de.md) auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Draft_Dimension.svg" width=16px> [Abmessung](Draft_Dimension/de.md)** drücken.
+    -   Den Menüeintrag **Anmerkung → <img src="images/Draft_Dimension.svg" width=16px> Abmessung** auswählen.
+    -   Das Tastaturkürzel **D** dann **I**.
+3.  Der Aufgabenbereich **Dimension** wird geöffnet. Siehe [Optionen](#Optionen.md) für mehr Informationen.
+4.  Wenn bisher noch keine Kante ausgewählt wurde, wählt man eine der folgenden Möglichkeiten   *
+    -   
+        **E**
+        
+        oder die Schaltfläche **<img src="images/view-select.svg" width=16px> Kante auswählen** drücken und eine gerade Kante in der [3D-Ansicht](3D_view/de.md) auswählen.
 
-<div class="mw-translate-fuzzy">
+    -   Die **Alt**-Taste drücken und halten, eine gerade Kante in der [3D-Ansicht](3D_view/de.md) auswählen und die **Alt**-Taste loslassen.
 
-## Verwendung
+    -   Den zu messenden Abstand festlegen durch Auswahl von Punkten   *
+        -   Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+        -   Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+5.  Zum Positionieren der Maßlinie hat man folgende Möglichkeiten   *
+    -   Für ein ausgerichtetes Maß   *
+        -   Einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+    -   Für ein horizontales Maß   *
+        -   Den Mauszeiger über oder unter die Kante oder die Punkte bewegen.
+        -   Die **Shift**-Taste dücken und halten, den Mauszeiger bewegen und einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Für ein vertikales Maß   *
+        -   Den Mauszeiger links oder rechts neben die Kante oder die Punkte bewegen.
+        -   Die **Shift**-Taste dücken und halten, den Mauszeiger bewegen und einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen.
 
-1.  Die Schaltfläche **<img src="images/Draft_Dimension.png" width=16px> [Draft-Dimension](Draft_Dimension/de.md)** klicken oder die Tasten **D** und dann **I** betätigen.
-2.  Einen Punkt in der 3D-Ansicht anklicken oder eine Koordinate eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** drücken.
-3.  Einen zweiten Punkt in der 3D-Ansicht anklicken oder eine Koordinate eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** drücken. Die ersten beiden Punkte den zu messenden Abstand.
-4.  Einen dritten Punkt in der 3D-Ansicht anklicken oder eine Koordinate eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** drücken. Der letzte Punkt definiert die Position der Bemaßungslinie.
+### Anwendung radiales Maß 
 
+1.  Wahlweise eine kreisförmige Kante in der [3D-Ansicht](3D_view/de.md) auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension/de.md)** drücken.
+    -   Den Menüeintrag **Anmerkung → <img src="images/Draft_Dimension.svg" width=16px> Abmessung** auswählen.
+    -   Das Tastaturkürzel **D** dann **I**.
+3.  Der Aufgabenbereich **Dimension** wird geöffnet. Siehe [Optionen](#Optionen.md) für mehr Informationen.
+4.  Wenn bisher noch keine Kante ausgewählt wurde, wählt man eine der folgenden Möglichkeiten   *
+    -   
+        **E**
+        
+        oder die Schaltfläche **<img src="images/view-select.svg" width=16px> Kante auswählen** drücken und eine kreisförmige Kante in der [3D-Ansicht](3D_view/de.md) auswählen.
 
-</div>
+    -   Die **Alt**-Taste drücken und halten, eine kreisförmige Kante in der [3D-Ansicht](3D_view/de.md) auswählen unddie **Alt**-Taste loslassen.
+5.  Zum Positionieren der Maßlinie hat man folgende Möglichkeiten   *
+    -   Für ein Durchmessermaß   *
+        -   Einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+    -   Für ein radiales Maß   *
+        -   Die **Shift**-Tast drücken und halten und einen Punkt in der [3D-Ansicht](3D_view/de.md).
 
-### Usage radial dimension 
+### Anwendung Winkelmaß 
 
-1.  Optionally select a circular edge in the [3D view](3D_view.md).
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut   * **D** then **I**.
-3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an edge do one of the following   *
-    -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a circular edge in the [3D view](3D_view.md).
-    -   Hold down the **Alt** key, select a circular edge in the [3D view](3D_view.md) and release the **Alt** key.
-5.  To position the dimension line do one of the following   *
-    -   For a diameter dimension   *
-        -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-    -   For a radial dimension   *
-        -   Hold down the **Shift** key and pick a point in the [3D view](3D_view.md).
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** drücken.
+    -   Den Menüeintrag **Anmerkung → <img src="images/Draft_Dimension.svg" width=16px> Abmessung** auswählen.
+    -   Das Tastaturkürzel **D** dann **I**.
+2.  Der Aufgabenbereich **Dimension** wird geöffnet. Siehe [Optionen](#Optionen.md) für mehr Informationen.
+3.  Eine der folgenden Möglichkeiten auswählen   *
+    -   
+        **E**
+        
+        oder die Schaltfläche **<img src="images/view-select.svg" width=16px> Kante auswählen** drücken und eine erste gerade Kante in der [3D-Ansicht](3D_view/de.md) auswählen. Diesen Schritt zur Auswahl einer zweiten geraden Kante wiederholen.
 
-### Usage angular dimension 
-
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut   * **D** then **I**.
-2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
-3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
-4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
-5.  The displayed angle depends on the edges and the picked point.
+    -   Die **Alt**-Taste drücken und halten, zwei gerade Kanten in der [3D-Ansicht](3D_view/de.md) auswählen und die **Alt**-Taste loslassen.
+4.  Zum Positionieren der Maßlinie einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen.
+5.  Der angezeigte Winkel hängt von den Kanten und dem ausgewählten Punkt ab.
 
 ### Optionen
 
-Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
+Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die voreingestellten Tastenkürzel.
 
+-   Um Koordinaten von Hand einzugeben, gibt man die werte der X-, Y- und Z-Komponenten jeweils gefolgt von einem **Enter** ein. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, wenn die gewünschten Werte erreicht sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view.md) herauszubewegen, bevor man Koordinaten eingibt.
 
-<div class="mw-translate-fuzzy">
+-    **R**drücken oder die Checkbox **Relativ** aktivieren, um den relativen Modus ein- bzw. auszuschalten. Wenn der relative Modus aktiviert ist, beziehen sich Koordinaten auf den letzten Punkt, falls vorhanden, andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
 
-## Optionen 
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den globalen Modus ein- bzw. auszuschalten. Wenn der globale Modus aktiviert ist, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
 
--   Drücke die Taste **X**, **Y** oder **Z** nach einem Punkt, um den nächsten Punkt auf die entsprechende Achse festzulegen.
--   Um Koordinaten von Hand einzugeben, tippe einfach die Zahlen gefolgt von **ENTER** zwischen der X-, Y- und Z-Komponente.
--   Drücken von **CTRL** während des Zeichnens lässt [snapping](Draft_Snap.md) Deinen Punkt bei der nächsten Rastposition einschnappen, unabhängig vom Abstand.
--   Halten von **SHIFT** legt [constrain](Draft_Constrain.md) die Maßlinie in horizontaler oder vertikaler Richtung fest oder wechselt zwischen Radius und Durchmesser, falls an einem Kreisbogen gearbeitet wird.
--   Tippe auf **R** oder klicke in das Kontrollkästchen, um den **'''Relativ'''** Modus ein- oder abzuschalten. Wenn der Relativmodus ausgewählt ist, sind die Koordinaten des nächsten Punktes relativ zum vorherigen Punkt. Ansonsten sind die Koordinaten absolute zum Ursprung (0,0,0) des Koordinatensystems.
--   Drücke **T** oder klicke das Kontrollkästchen neben **Nächstes**, um es zu de/aktivieren. Bei aktiviertem Nächstes-Modus kannst Du fortlaufende Bemaßungen zeichnen, eine nach der anderen, die die gleichen Basislinie haben.
--   Drücke **ESC** oder den **'''Abbrechen'''**-Button, um den aktuelle Linien-Befehl abzubrechen.
--   Anstatt Messpunkte einzugeben, wird durch Auswahl einer existierenden Kante mit **Alt** die Bemaßung **parametrisch** und merkt sich, mit welcher Kante sie verbunden ist. Wenn sich die Endpunkte der Kante später verschieben, folgt ihnen die Bemaßung.
--   Wenn eine Kante vor dem Beginn des Bemaßungsbefehl gewählt wird, ist die erstellte Bemaßung ebenfalls **parametrisch**.
--   Die Richtung der Bemaßung kann später durch Anpassung der \"Direction\"-Eigenschaft verändert werden.
+-    **T**drücken oder die Checkbox **Continue** aktivieren, um den Fortsetzungsmodus ein- bzw. auszuschalten. Wenn der Fortsetzungsmodus aktiviert ist, wird der Befehl nach jeder Fertigstellung wieder neu starten und ermöglicht so, dass man kontinuierlich weitere Maße erstellen kann. Alle folgenden Maße starten am Endpunkt des vorhergehenden Maßes und verwenden dieselbe Grundlinie für das erste Maß. Man beachte, dass die Auswahl von Kanten bei aufeinader folgenden Maßen nicht möglicht ist.
 
+-    **S**drücken, um [Draft Fangen](Draft_Snap/de.md) ein- bzw. auszuschalten.
 
-</div>
+-    **Esc**oder die Schaltfläche **Close** drücken, um den Befehl fertigzustellen.
 
-## Convert
+## Umwandeln
 
 ### Anwendung
 
@@ -126,13 +122,7 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Die Bemaßung kann durch doppelklicken des Elements in der Baumansicht geändert werden oder durch drücken des **<img src="images/Draft_Edit.svg" width=16px> [Bearbeiten](Draft_Edit/de.md)**-Buttons. Dann kannst Du die Punkte an eine andere Position ziehen.
-
-
-</div>
+-   Lineare und radiale Draft-Maße können mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) editiert werden.
 
 
 <div class="mw-translate-fuzzy">
@@ -172,9 +162,9 @@ Die Bemaßung kann durch doppelklicken des Elements in der Baumansicht geändert
 
 </div>
 
-See also   * [Property editor](Property_editor.md).
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated   *
+Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften   *
 
 ### Data linear and radial dimension 
 
@@ -229,7 +219,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 -    **Support|Link|hidden**   * not used.
 
-### View
+### Ansicht
 
 
 {{TitleProperty|Annotation}}
@@ -288,20 +278,9 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 -    **Unit Override|String**   * specifies the unit in which to express the measurement, for example, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} or {{value|arch}} for arch units. Leave this blank to use the default unit. Not used for angular dimensions.
 
-## Scripting
+## Skripten
 
-
-<div class="mw-translate-fuzzy">
-
-## Scripting 
-
-
-**Siehe auch   ***
-
-[Draft API](Draft_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
+Siehe auch   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 To create a Draft Dimension use the `make_dimension` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeDimension` method.
 
@@ -385,15 +364,6 @@ dimension4.ViewObject.FontSize = 200
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

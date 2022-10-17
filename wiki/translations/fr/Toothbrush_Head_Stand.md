@@ -223,16 +223,16 @@ Dans cette deuxième partie, vous apprendrez également à utiliser d\'autres ou
 
 <img alt="" src=images/TBHS-1.JPG  style="width   *800px;">
 
--   Dessinez un oblong <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [**Créer une rainure**](Sketcher_CreateSlot/fr.md)
+-   Dessinez un oblong <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [**Contour oblong**](Sketcher_CreateSlot/fr.md)
     -   Cliquez pour placer le premier centre
     -   Bougez la souris pour donner de la longueur et un rayon
     -   Cliquez pour donner le second centre.
 
 <img alt="" src=images/TBHS2-1.JPG  style="width   *800px;">
 
-Maintenant nous avons un oblong mobile et sans dimensions spécifiées
+Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 
--   Cliquez sur l\'une des lignes horizontales de la rainure
+-   Cliquez sur l\'une des lignes horizontales du contour oblong
 -   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width   *32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
 -   Une boîte de dialogue vous invite à définir une dimension. Entrez 75mm, cliquez sur OK.
     -   Pour un support à 3 têtes, comptez 25mm pour chacune, si vous en voulez plus
@@ -246,7 +246,7 @@ Maintenant nous avons un oblong mobile et sans dimensions spécifiées
 
 <img alt="" src=images/TBHS2-3.JPG  style="width   *800px;">
 
--   Dessinez une <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [**Rainure**](Sketcher_CreateSlot/fr.md) autour du premier emplacement.
+-   Dessinez un <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [**Contour oblong**](Sketcher_CreateSlot/fr.md) autour du premier emplacement.
 
 <img alt="" src=images/TBHS2-4.JPG  style="width   *800px;">
 
@@ -262,7 +262,7 @@ Maintenant nous avons un oblong mobile et sans dimensions spécifiées
 <img alt="" src=images/TBHS2-6.JPG  style="width   *800px;">
 
 -   Pour rendre l\'esquisse entièrement contrainte
-    -   Cliquez sur le point inférieur gauche de la deuxième rainure
+    -   Cliquez sur le point inférieur gauche de le deuxième contour oblong
     -   Cliquez sur l\'origine du plan XY
     -   Cliquez sur <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> [**Contrainte de coïncidence**](Sketcher_ConstrainCoincident/fr.md)
 

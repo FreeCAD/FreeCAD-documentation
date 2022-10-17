@@ -16,7 +16,7 @@
 
 Esta pequeña macro gira la flecha del mouse en una cruz de precisión.
 
-<img alt="Macro\_Mouse\_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;"> 
+<img alt="Macro_Mouse_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;"> 
 *Pequeño ejemplo de uso de la clase '''ViewObserver()''' y el uso del teclado con '''[SoKeyboardEvent](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)'''*
 
 ## Cómo usar 
@@ -31,7 +31,7 @@ Esta pequeña macro gira la flecha del mouse en una cruz de precisión.
 
 ToolBar icon ![](images/Macro_Mouse_Cross.png )
 
-**Macro\_Mouse\_Cross.FCMacro**
+**Macro_Mouse_Cross.FCMacro**
 
 
 {{MacroCode|code=

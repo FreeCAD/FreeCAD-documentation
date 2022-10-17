@@ -47,7 +47,7 @@ Acest instrument permite crearea unui conector de colț sau T între două sau t
 
 <div class="mw-translate-fuzzy">
 
-See [Arch Pipe\#Typical\_workflow](Arch_Pipe#Typical_workflow.md)
+See [Arch Pipe#Typical_workflow](Arch_Pipe#Typical_workflow.md)
 
 
 </div>

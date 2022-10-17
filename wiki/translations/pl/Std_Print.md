@@ -18,7 +18,6 @@ Polecenie **Drukuj** jest przeznaczone głównie do drukowania stron środowiska
 
 1.  W razie potrzeby aktywuj właściwą stronę Rysunku Technicznego lub zmień widok 3D zgodnie z własnymi upodobaniami.
 2.  Istnieje kilka sposobów na wywołanie polecenia   *
-    -   Naciśnij przycisk **<img src="images/Std_Print.svg" width=16px> [Drukuj](Std_Print/pl.md)**.
     -   Wybierz z menu opcje **Plik → <img src="images/Std_Print.svg" width=16px> Drukuj ...**.
     -   Użyj skrótu klawiaturowego   * **Ctrl** + **P**.
 3.  Pojawi się standardowe okno dialogowe drukowania.

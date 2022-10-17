@@ -19,11 +19,11 @@ Simple example animation Draft wires by use the [expressions](Expressions.md) fo
 
 ## Uses
 
-Download the file example [Constraint\_Draft00.FCStd](http   *//forum.freecadweb.org/download/file.php?id=36559), open it in FreeCAD
+Download the file example [Constraint_Draft00.FCStd](http   *//forum.freecadweb.org/download/file.php?id=36559), open it in FreeCAD
 
 ## Script
 
-Select the **Line005\_with\_Code** object in the Combo View Select Data tab → Memo code → Code for rotation → ** ... ** (**This macro run with FreeCAD version 16** )
+Select the **Line005_with_Code** object in the Combo View Select Data tab → Memo code → Code for rotation → ** ... ** (**This macro run with FreeCAD version 16** )
 
 Select the complete code and paste in the Python Console
 
@@ -35,7 +35,7 @@ How copy the code snippet
 
  ToolBar Icon ![](images/Macro_Constraint_Draft.png )
 
-**Macro\_Constraint\_Draft.FCMacro**
+**Macro_Constraint_Draft.FCMacro**
 
 
 {{MacroCode|code=

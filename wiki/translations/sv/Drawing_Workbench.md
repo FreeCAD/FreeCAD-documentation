@@ -40,9 +40,9 @@ Detta är verktyg för att skapa, konfigurera och exportera 2D ritningsark
 
 -   [Project Shape](Drawing_ProjectShape.md)   * Creates a projection of the selected object (Source) in the 3D view.
 
-**Note** The [Draft Workbench](Draft_Workbench.md) has its own [Draft\_Drawing](Draft_Drawing.md) too to place Draft objects on paper. It has a couple of extra capabilities over the standard Drawing tools, and supports specific objects like [Draft dimensions](Draft_Dimension.md).
+**Note** The [Draft Workbench](Draft_Workbench.md) has its own [Draft_Drawing](Draft_Drawing.md) too to place Draft objects on paper. It has a couple of extra capabilities over the standard Drawing tools, and supports specific objects like [Draft dimensions](Draft_Dimension.md).
 
-I bilden så ser du huvudkoncepten av Ritningsmodulen. Dokumentet innehåller ett formobjekt (Schenkel) som vi vill göra en ritning av. Därför så är en \"Sida\" skapad. Sidan fås genom en mall, i detta fall \"A3\_Landskap\" mallen. Mallen är ett SVG dokument som kan innehålla din vanliga sidram, din logotyp eller så den överensstämmer med dina presentationsstandarder.
+I bilden så ser du huvudkoncepten av Ritningsmodulen. Dokumentet innehåller ett formobjekt (Schenkel) som vi vill göra en ritning av. Därför så är en \"Sida\" skapad. Sidan fås genom en mall, i detta fall \"A3_Landskap\" mallen. Mallen är ett SVG dokument som kan innehålla din vanliga sidram, din logotyp eller så den överensstämmer med dina presentationsstandarder.
 
 I denna sida så kan vi sätta in en eller fler vyer. Varje vy har en position på sidan (Egenskaper X,Y), en skalfaktor (Egenskap skala) och ytterligare egenskaper. Varje gång som sidan ,eller vyn, eller det refererade objektet ändras så regenereras sidan och visningen uppdateras.
 
@@ -52,7 +52,7 @@ För tillfället så är arbetsflödet för slutanvändaren väldigt begränsat,
 
 See the [Drawing API example](Drawing_API_example.md) page for a description of the functions used to create drawing pages and views.
 
-Here a script that can easily fill the [Macro\_CartoucheFC](Macro_CartoucheFC.md) leaf FreeCAD A3\_Landscape.
+Here a script that can easily fill the [Macro_CartoucheFC](Macro_CartoucheFC.md) leaf FreeCAD A3_Landscape.
 
 ## Exempel
 

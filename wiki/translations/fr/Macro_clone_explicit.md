@@ -39,7 +39,7 @@ Ce clone est une copie de l\'objet original, comme dans la commande **Edition ‚Ü
 
 Ic√¥ne de la barre d\'outils ![](images/Macro_clone_explicit.png )
 
-**Macro\_clone\_explicit.FCMacro**
+**Macro_clone_explicit.FCMacro**
 
 
 {{MacroCode|code=

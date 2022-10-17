@@ -79,7 +79,7 @@ After the first launch, see    *
     -   
         `False`
         
-        matplotlib.font\_manager.findSystemFonts(\"C   */\", \"ttf\")
+        matplotlib.font_manager.findSystemFonts(\"C   */\", \"ttf\")
 
         -   do all the fonts (in all the folders and sub-folders of the DD) time !!
 

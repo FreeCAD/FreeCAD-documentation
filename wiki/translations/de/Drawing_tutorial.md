@@ -40,9 +40,9 @@ Um den Zeitaufwand für dieses Tutorial zu reduzieren, ist es zwingend erforderl
 
 Erstellen Sie folgende Gruppen   *
 
--   Draft\_objects
--   Draft\_dimensions
--   Draft\_annotations\_text
+-   Draft_objects
+-   Draft_dimensions
+-   Draft_annotations_text
 
 #### Schablonen zeichnen 
 
@@ -58,7 +58,7 @@ Projektionen sind definiert als visuelle Repräsentation eines 3D-Objektes auf e
 
 ##### Orthografische Projektionen 
 
-Diese Art der Projektion wird in den Ingenieurwissenschaften genutzt, um bestimmte Eigenschaften des Objektes, z.B. Maße oder Winkel, vor der Herstellung festzulegen und darzustellen. Dabei gibt es zwei übliche Standards   * *\' Dritter Winkel*\' und **Erster Winkel** Projektionen.
+Diese Art der Projektion wird in den Ingenieurwissenschaften genutzt, um bestimmte Eigenschaften des Objektes, z.B. Maße oder Winkel, vor der Herstellung festzulegen und darzustellen. Dabei gibt es zwei übliche Standards   * **Dritter Winkel** und **Erster Winkel** Projektionen.
 
 In diesem Tutorial werden diese beiden Standardprojektionen jedoch nicht verwendet, weil das Beispielobjekt nur in der XY-Ebene sinnvoll dargestellt werden kann.
 
@@ -83,7 +83,7 @@ Im gleich Tab lassen sich auch der Ort (*location*), die Skalierung (*scale*) un
 Objekte die mittels des Arbeitsbereichs *Draft* erstellt wurden, sollten idealerweise mit dem dort verfügbaren Werkzeug *Zeichnung* <img alt="" src=images/Draft_PutOnSheet.png  style="width   *16px;"> dargestellt werden. Auf diesem Wege lassen sich Maße, Anmerkungen, *Shapestrings* und andere Elemente des Arbeitsbereichs *Draft* einfügen.
 
 1.  Wechseln Sie in den Arbeitsbereich *Draft*
-2.  Wählen Sie die Gruppe von Objekten oder das Objekt, das dargestellt werden soll. In diesem Falls ist das **Draft\_dimensions**.
+2.  Wählen Sie die Gruppe von Objekten oder das Objekt, das dargestellt werden soll. In diesem Falls ist das **Draft_dimensions**.
 3.  Klicken Sie auf [Zeichnung](Draft_Drawing/de.md) ![](images/Draft_PutOnSheet.png )
 4.  Ändern Sie die X- und Y-Koordinate in (140, 100)
 5.  Ändern Sie die Skalierung in 0.5
@@ -117,4 +117,4 @@ Wir sind nun fertig mit dem grundlegenden Arbeitsablauf für den [Drawing-Arbeit
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/de

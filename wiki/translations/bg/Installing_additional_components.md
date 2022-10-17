@@ -11,8 +11,8 @@
 FreeCAD е напълно мулти-платформена програма разработена върху световно известния [Qt](http   *//en.wikipedia.org/wiki/Qt_(framework)) фреймуърк. Блгаодарение на това FreeCAD изглежда и работи по един и същ начин на Windows, Linux и Mac. Въпреки това процедурата по инсталиране е различна на трите операционни системи. Кликнете върху вашата операционна система за специфични инструкции за инсталация.
 
     
-   ![ alt=\'Windows\' \| link= Install\_on\_Windows/bg](images/Windows.png )   ![ alt=\'Linux\' \| link= Install\_on\_Unix/bg](images/Linux.png )   ![ alt=\'Mac\' \| link= Install\_on\_Mac/bg](images/Mac.png )
-                              [Инсталация на Windows](Install_on_Windows/bg.md)                                                    [ Инсталация на Linux/Unix](Install_on_Unix/bg.md)                                             [Инсталация на Mac](Install_on_Mac/bg.md)
+   ![ alt=\'Windows\' \| link= Install_on_Windows/bg](images/Windows.png )   ![ alt=\'Linux\' \| link= Install_on_Unix/bg](images/Linux.png )   ![ alt=\'Mac\' \| link= Install_on_Mac/bg](images/Mac.png )
+                             [Инсталация на Windows](Install_on_Windows/bg.md)                                                  [ Инсталация на Linux/Unix](Install_on_Unix/bg.md)                                           [Инсталация на Mac](Install_on_Mac/bg.md)
     
 
 

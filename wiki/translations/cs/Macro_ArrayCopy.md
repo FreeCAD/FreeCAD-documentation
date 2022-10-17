@@ -19,7 +19,7 @@ Toto makro několikrát zkopíruje vybraný objekt do mřížkového pole. Můž
 
 ToolBar Icon ![](images/Macro_ArrayCopy.png )
 
-**Macro\_ArrayCopy.FCMacro**
+**Macro_ArrayCopy.FCMacro**
 
 
 {{MacroCode|code=

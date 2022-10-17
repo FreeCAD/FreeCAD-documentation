@@ -334,7 +334,13 @@ Puede usar un [Std Link](Std_LinkMake.md) o un [PartDesign SubShapeBinder](PartD
 2.  Mueva el Link a un nuevo lugar cambiando su **Posición** para que sea más fácil distinguirlo del objeto original.
 3.  Seleccione una **Configuración** diferente para el Link para crear una instancia de una variante.
 
+
+<div class="mw-translate-fuzzy">
+
 Pasos similares se aplican a un [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), excepto que su propiedad para activar una instancia de una variante se llama **Binder Copy On Change**.
+
+
+</div>
 
 
 </div>

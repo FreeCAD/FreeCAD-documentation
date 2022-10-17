@@ -39,7 +39,7 @@ Todo objeto derivado de Part   *   *Feature que aún no es soportado será malla
 
  {{OpenSCAD Tools navi}}
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

@@ -49,7 +49,7 @@ It should be noted that the resulting solid will **not** be parametric. If you d
 
 ToolBar Icon ![](images/Macro_Solid_Sweep.png )
 
-**Macro\_Solid\_Sweep.FCMacro**
+**Macro_Solid_Sweep.FCMacro**
 
 
 {{MacroCode|code=

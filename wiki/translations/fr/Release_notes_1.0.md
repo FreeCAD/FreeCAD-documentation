@@ -34,6 +34,8 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 -   Un bouton a été ajouté pour changer les couleurs du dégradé de fond de la [Vue 3D](3D_view/fr.md) dans les [Réglages des préférences](Preferences_Editor/fr#Couleurs.md). [Pull request #7155](https   *//github.com/FreeCAD/FreeCAD/pull/7155)
 -   Des commandes pour [enregistrer](Std_StoreWorkingView/fr.md) et [rappeler](Std_RecallWorkingView/fr.md) une vue de travail temporaire ont été ajoutées. [Pull request #7525](https   *//github.com/FreeCAD/FreeCAD/pull/7525)
 -   Les changements de valeur avec la molette de la souris dans les \"champs de saisie\" (un type de widget utilisé pour entrer des valeurs dans les panneaux de tâches, par exemple par [Draft Ligne](Draft_Line/fr.md)) sont désactivés si le widget n\'a pas le focus et si [ComboBoxWheelEventFilter](Fine-tuning/fr.md) est activé. Cela permet d\'éviter les changements de valeur indésirables lors du défilement, comme c\'était déjà le cas pour les boîtes d\'incrémentx et les boîtes combo. [request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561%7CPull)
+-   Le bouton de la barre d\'outils pour [Mode d\'édition](Std_UserEditMode/fr.md) a été supprimé. [Pull request #7570](https   *//github.com/FreeCAD/FreeCAD/pull/7570)
+-   Les boutons de la barre d\'outils pour [Imprimer](Std_Print/fr.md), [Copier](Std_Copy/fr.md), [Coller](Std_Paste/fr.md) et [Couper](Std_Cut/fr.md) ont été supprimés. [Pull request #7571](https   *//github.com/FreeCAD/FreeCAD/pull/7571) et [commit ea9a04e](https   *//github.com/FreeCAD/FreeCAD/commit/ea9a04e)
 
 ## Noyau et API 
 
@@ -93,8 +95,12 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 -   Le manque de précision de [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) lors de l\'aimantation à des courbes a été corrigé. De plus, [Draft Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md) peut maintenant aussi s\'accrocher à des faces et trouver des points multiples. Pour s\'accrocher à un sommet (par exemple un [Draft Point](Draft_Point/fr.md)) [Draft Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) doit maintenant être utilisé au lieu de [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md). [Pull request #7132](https   *//github.com/FreeCAD/FreeCAD/pull/7132)
 -   Pour faciliter le travail avec des [calques](Draft_Layer/fr.md), leur comportement de glisser-déposer a été modifié. Si vous déposez un objet d\'un [Std Groupe](Std_Group/fr.md), ou un objet de type groupe tel qu\'un [Arch Partie de bâtiment](Arch_BuildingPart/fr.md), sur un calque, il n\'est plus retiré du groupe, et vice versa. Cela fonctionne sans maintenir la touche **Ctrl** enfoncée. [Pull request #7462](https   *//github.com/FreeCAD/FreeCAD/pull/7462)
+-   La commande [Draft Réseau de points](Draft_PointArray.md) prend désormais en charge davantage de types d\'objets Points. Tout objet ayant une forme et des sommets, ainsi qu\'un [maillage](Mesh_Workbench/fr.md) et un [nuage de points](Points_Workbench/fr.md) peuvent être utilisés. [Pull request #7597](https   *//github.com/FreeCAD/FreeCAD/pull/7597)
 
 ### Autres améliorations de Draft 
+
+-   Plusieurs problèmes liés à [Draft Réseau selon une courbe](Draft_PathArray.md) ont été corrigés. [Pull request #7506](https   *//github.com/FreeCAD/FreeCAD/pull/7506)
+-   La commande [Draft Edition](Draft_Edit/fr.md) a reçu plusieurs améliorations. Pour les [polylignes](Draft_Wire/fr.md), les [B-splines](Draft_BSpline/fr.md) et les [Courbes de Bézier](Draft_BezCurve/fr.md), une option Fermer/Ouvrir a été ajoutée au menu contextuel des bords. Pour les B-splines et les courbes de Bézier, une option Inverser a également été ajoutée au même menu. Les panneaux de tâches ont été améliorés. [Pull request #7527](https   *//github.com/FreeCAD/FreeCAD/pull/7527) et [Pull request #7541](https   *//github.com/FreeCAD/FreeCAD/pull/7541)
 
 ## Atelier FEM 
 
@@ -104,8 +110,8 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 ### Autres améliorations de FEM 
 
--   Il existe maintenant une <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) pour définir la pression interne initiale des fluides. [Pull request #7364](https   *//github.com/FreeCAD/FreeCAD/pull/7364)
--   La <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *32px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md) a maintenant un panneau de tâches et il est possible de définir la chaleur pour plusieurs corps ou d\'utiliser plusieurs contraintes pour différents corps dans une analyse. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
+-   Il existe maintenant une <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *24px;"> [contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) pour définir la pression interne initiale des fluides. [Pull request #7364](https   *//github.com/FreeCAD/FreeCAD/pull/7364)
+-   La <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *24px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md) a maintenant un panneau de tâches et il est possible de définir la chaleur pour plusieurs corps ou d\'utiliser plusieurs contraintes pour différents corps dans une analyse. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
 -   Il est maintenant possible d\'ouvrir (et ainsi de visualiser) des fichiers \*.pvtu (données de grille non structurées VTK partitionnées). Un fichier \*.pvtu est également le résultat d\'une simulation par [Elmer](FEM_SolverElmer/fr.md), lorsque plus d\'un coeur de CPU a été utilisé. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 -   Le rapport de déformation critique a été ajouté au pipeline de résultats de VTK. Il donne une indication de la rupture ductile pour les matériaux avec un objet \"MaterialMechanicalNonlinear\" (Matériau mécanique non linéaire). [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
 
@@ -148,6 +154,11 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
    
 
 ### Autres améliorations de Sketcher 
+
+-   Le bouton de la barre d\'outils pour [Contrainte de réfraction (loi de Snell)](Sketcher_ConstrainSnellsLaw/fr.md) a été supprimé. [Commit ef62fc3](https   *//github.com/FreeCAD/FreeCAD/commit/ef62fc3)
+-   Les boutons de la barre d\'outils pour [Sélection contraintes redondantes](Sketcher_SelectRedundantConstraints/fr.md) et [Sélection des contraintes conflictuelles](Sketcher_SelectConflictingConstraints/fr.md) ont été supprimés. [Pull request #7568](https   *//github.com/FreeCAD/FreeCAD/pull/7568)
+-   Le bouton de la barre d\'outils pour [Arrêt de l\'opération](Sketcher_StopOperation/fr.md) a été supprimé. [Pull request #7569](https   *//github.com/FreeCAD/FreeCAD/pull/7569)
+-   Contrôle de l\'édition des widgets, l\'étiquette \"Taille de la grille\" a été supprimée, la case à cocher \"Afficher la grille\" a été renommée \"Grille\". [Pull request #7577](https   *//github.com/FreeCAD/FreeCAD/pull/7577)
 
 ## Atelier Spreadsheet 
 

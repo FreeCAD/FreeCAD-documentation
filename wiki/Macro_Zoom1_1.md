@@ -18,7 +18,7 @@ Zooms the camera so objects appear their actual size on your screen. For example
 
 Execute the macro to zoom to the actual size of your objects. Sometimes, due to limitations with Qt the hardware information given to the macro might be incorrect, for example the screen width, in millimeters might be incorrect. For such cases there is a calibration dialog. To bring up the dialog, press Ctrl key while executing the macro. A 100 mm temporary cube is created. Measure the cube that appears on your screen with a ruler or caliper and enter your measurements (in MM) into the dialog. It will compute the appropriate tweak parameter to use for your hardware.
 
-This tweak parameter is stored in user parameters at Plugins/Zoom1\_1\_Macro/Tweak.
+This tweak parameter is stored in user parameters at Plugins/Zoom1_1\_Macro/Tweak.
 
 ## How it works 
 
@@ -38,7 +38,7 @@ Care must be taken when holding up objects or attempting to measure things on th
 
 The macro icon  <img alt="" src=images/Zoom1_1.svg  style="width   *48px;">
 
-**Zoom1\_1.FCMacro**
+**Zoom1_1.FCMacro**
 
 
 {{MacroCode|code=

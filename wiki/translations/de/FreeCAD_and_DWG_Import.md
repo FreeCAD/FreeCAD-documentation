@@ -95,7 +95,7 @@ Der erfahrenere Benutzer erhält zunächst einen Überblick über mögliche bere
 
 <div class="mw-translate-fuzzy">
 
-Für z. B. Intel oder AMD 64-Bit Desktops, Laptops und Server ist die (x86\_64) Version die richtige Wahl. Daher sind **libredwg0** und **libredwg-tools** die richtige Wahl zur Installation.
+Für z. B. Intel oder AMD 64-Bit Desktops, Laptops und Server ist die (x86_64) Version die richtige Wahl. Daher sind **libredwg0** und **libredwg-tools** die richtige Wahl zur Installation.
 
 
 </div>
@@ -215,7 +215,7 @@ In der Entwicklungsversion kannst du, wie oben erwähnt, vom proprietären ODA K
 
  
 
-[Category   *File\_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
+[Category   *File_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
 
 
 

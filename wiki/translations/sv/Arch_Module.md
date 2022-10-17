@@ -1,5 +1,5 @@
 # Arch Module/sv
-1.  REDIRECT [Arch\_Workbench/sv](Arch_Workbench/sv.md)
+1.  REDIRECT [Arch_Workbench/sv](Arch_Workbench/sv.md)
 
 
 

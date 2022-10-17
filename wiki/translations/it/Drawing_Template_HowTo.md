@@ -111,7 +111,7 @@ Aprendo il file SVG con l\'editor di testo si vede quanto segue.
 
 La prima cosa da fare è inserire nel documento la riga sottostante. Questa riga è la dichiarazione \"SVG namespace\" e deve essere fornita affinché tutti gli elementi SVG siano identificati come appartenenti a SVG namespace.
 
- {.XML}
+ XML
 xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
@@ -139,7 +139,7 @@ Nel \<SVG\>-Tag viene aggiunta l\'unità \"mm\" ai campi Larghezza e Altezza. De
 
 </div>
 
- {.html}
+ html
 width="279mm"
 height="216mm"
 viewBox="0 0 279 216"
@@ -179,7 +179,7 @@ Il primo tag è il tag Working space ed è formattato in questo modo   *
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -192,7 +192,7 @@ Dove   *
 
 Quindi, per questo modello di esercitazione, il tag Working space è   *
 
- {.html}
+ html
 
 
 
@@ -206,7 +206,7 @@ Il tag successivo è il tag Title block ed è formattato in questo modo   *
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -221,7 +221,7 @@ Dove   *
 
 In questo caso, sempre in riferimento al modello creato con questo tutorial, il tag Title block è   *
 
- {.html}
+ html
 
 
 
@@ -243,7 +243,7 @@ L\'ultimo tag necessario nel modello è il tag DrawingContent. Senza di esso, Fr
 
 Questo tag è formattato come segue e si inserisce immediatamente prima dell\'ultimo tag \</ svg\>.
 
- {.html}
+ html
 
 
 
@@ -278,4 +278,4 @@ I due strumenti utilizzati in questa esercitazione sono Inkscape e Kate. Si poss
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/it

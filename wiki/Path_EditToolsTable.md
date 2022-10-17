@@ -1,5 +1,5 @@
 # Path EditToolsTable
-1.  REDIRECT [Path\_ToolLibraryEdit](Path_ToolLibraryEdit.md)
+1.  REDIRECT [Path_ToolLibraryEdit](Path_ToolLibraryEdit.md)
 
 
 

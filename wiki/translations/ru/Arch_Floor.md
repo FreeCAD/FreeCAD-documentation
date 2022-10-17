@@ -36,12 +36,12 @@ As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch 
 
 An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_BuildingPart.md), with the **Ifc Type** set to `"Building Storey"`.
 
-## Scripting
+## Программирование
 
 
-**See also   ***
+**См. так же   ***
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Floor tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
@@ -71,15 +71,6 @@ Building = Arch.makeBuilding([Floor])
 Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute() 
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

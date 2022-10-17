@@ -1,11 +1,11 @@
 ---
 - TutorialInfo   */fr
-   Topic   * Analyse par les éléments finis
+   Topic   *Analyse par les éléments finis
    Level   *Débutant
-   Time   *Non donné
+   Time   *30 min
    Author   *[https   *//wiki.freecadweb.org/User   *Sudhanshu_Dubey Sudhanshu Dubey]
    FCVersion   *0.19 et au-dessus
-   Files   *
+   Files   *Créé par programme
 ---
 
 # FEM Example Capacitance Two Balls/fr
@@ -18,7 +18,8 @@
 
 Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer GUI Tutorials](https   *//www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, en utilisant les nouveaux [FEM Exemples](FEM_Examples/fr.md). Ce tutoriel illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [FEM Solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant [FEM Filtre de découpe selon une région](FEM_PostFilterClipRegion/fr.md).
 
-<img alt="" src=images/Two_balls_result_2.png  style="width   *1000px;">
+<img alt="" src=images/Two_balls_result_2.png  style="width   *1000px;"> 
+*Le résultat final de ce tutoriel*
 
 ## Conditions
 
@@ -55,22 +56,24 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 -   Les deux sphères plus petites sont fusionnées ensemble puis cette fusion est coupée de la plus grande sphère.
 
-![ 1000px](images/Two_balls_model_full.png )
+<img alt="" src=images/Two_balls_model_full.png  style="width   *1000px;"> 
+*Le modèle initial*
 
 ## Conteneur d\'analyse et ses objets 
 
--   Il faut au moins les 7 objets pour faire cette analyse électrostatique.
--   Un <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> containeur d\'analyse
+Les objets utilisés dans cette analyse électrostatique    *
 
-1.  <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;"> SolverElmer
-2.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *24px;"> Electrostatic, l\'équation de l\'électrostatique
-3.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *24px;"> FemMaterial, un matériau fluide pour représenter l\'air environnant.
-4.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *24px;"> ElectrostaticPotential, des contraintes (3 d\'entre elles)
-5.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width   *24px;"> ConstantVaccumPermittivity, optionnel
-6.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> Mesh, un maillage [Gmsh](FEM_MeshGmshFromShape/fr.md)
-7.  <img alt="" src=images/FEM_MeshRegion.svg  style="width   *24px;"> MeshRegion, une région maillée pour les petites sphères
+1.  <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> Containeur d\'analyse
+2.  <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;"> SolverElmer
+3.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *24px;"> Electrostatic, l\'équation de l\'électrostatique
+4.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *24px;"> FemMaterial, un matériau fluide pour représenter l\'air environnant.
+5.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *24px;"> ElectrostaticPotential, des contraintes (3 d\'entre elles)
+6.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width   *24px;"> ConstantVaccumPermittivity, optionnel
+7.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> Mesh, un maillage [Gmsh](FEM_MeshGmshFromShape/fr.md)
+8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width   *24px;"> MeshRegion, une région maillée pour les petites sphères
 
-![](images/Two_balls_analysis.png )
+![](images/Two_balls_analysis.png ) 
+*Les objets tels qu'ils apparaissent dans la [vue en arborescence](Tree_view/fr.md)*
 
 ## Exécution de l\'Analyse des éléments finis (FEA) 
 

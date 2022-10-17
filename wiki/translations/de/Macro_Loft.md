@@ -47,7 +47,7 @@ Kopieren Sie das Makro und das Symbol in Ihr Makroverzeichnis.
 
 Die Symbole für Ihre Werkzeugleiste <img alt="" src=images/FCCreaLoft.png  style="width   *64px;">
 
-Laden Sie das Makro in herunter Gist [**Macro\_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
+Laden Sie das Makro in herunter Gist [**Macro_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
 
 ## Links
 

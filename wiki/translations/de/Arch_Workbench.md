@@ -19,7 +19,7 @@ Die Entwickler von Draft, Arch und BIM arbeiten auch mit der größeren [OSArch 
 
 Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
--   <img alt="" src=images/Arch_Wall.svg  style="width   *32px;"> [Wall](Arch_Wall.md)   * Creates a wall from scratch or using a selected object as a base.
+-   <img alt="" src=images/Arch_Wall.svg  style="width   *32px;"> [Wand](Arch_Wall/de.md)   * Erstellt eine Wand aus dem Nichts oder unter Verwendung eines ausgewählten Objekts als Basis.
 
 -   <img alt="" src=images/Arch_Structure.svg  style="width   *32px;"> [Structure](Arch_Structure.md)   * Creates a structural element from scratch or using a selected object as a base.
 
@@ -179,9 +179,7 @@ Der Arbeitsbereich Arch kann mit den Funktionen der [Arch Python API](http   *//
 
 ## Übungen
 
-
-<div class="mw-translate-fuzzy">
-
+-   [Umstieg auf FreeCAD von Revit](Migrating_to_FreeCAD_from_Revit/de.md)
 -   [Architektur Arbeitsablauf](http   *//yorik.uncreated.net/guestblog.php?tag=freecad)   * Ein Beispiel, wie FreeCAD anfangen kann, einen vorbereitenden Platz in einem Architektur Arbeitsablauf einzunehmen.
 -   [Arch Tutorium](Arch_tutorial/de.md)(v0.14)
 -   [Schnelle Arch Übersicht auf Yorik\'s Blog](http   *//yorik.uncreated.net/guestblog.php?2012=180)(v0.13)
@@ -190,9 +188,6 @@ Der Arbeitsbereich Arch kann mit den Funktionen der [Arch Python API](http   *//
 -   [BIM Modellierungskapitel aus dem FreeCAD Handbuch](Manual   *BIM_modeling/de.md)
 -   [Import von STL oder OBJ](Import_from_STL_or_OBJ/de.md)
 -   [Export nach STL oder OBJ](Export_to_STL_or_OBJ/de.md)
-
-
-</div>
 
 
 

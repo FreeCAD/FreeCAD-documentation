@@ -122,7 +122,7 @@ Quando il codice è stabile, potete salvarlo in un file Python o in un file macr
 
 **Altro esempio**
 
-You are trying to find out what is going wrong with the Rotation values of various objects in an Assembly. Out of 27 objects you can\'t see any pattern as to which objects will be affected. So you put a few lines of Python together to isolate the incorrect objects, paste it into the PAW. Then take a couple of lines of Python to get the Label and Rotation values, paste that code to the PAW as well. Copy the code to detail all the objects you need to see listed and repeat it for each object - all in the PAW. The Python Console will have all these results (including any typing errors and error messages) but it will have scrolled off the visible portion of the window long ago. So now you have a concise set of Python lines, you copy it from the PAW, paste it into the Python Console and there is the exact list of the objects which need debugging - along with their specific values. If needed you could then paste the results from the Python Console back into the PAW - prefix it with the Python comment character (\'\#\') if you want to save it in the Python code and keep it executable. Finally you can save this conglomeration to a file from the PAW so it is secure on disk. Ready for the next time you need to steal or adapt the logic in the code.
+You are trying to find out what is going wrong with the Rotation values of various objects in an Assembly. Out of 27 objects you can\'t see any pattern as to which objects will be affected. So you put a few lines of Python together to isolate the incorrect objects, paste it into the PAW. Then take a couple of lines of Python to get the Label and Rotation values, paste that code to the PAW as well. Copy the code to detail all the objects you need to see listed and repeat it for each object - all in the PAW. The Python Console will have all these results (including any typing errors and error messages) but it will have scrolled off the visible portion of the window long ago. So now you have a concise set of Python lines, you copy it from the PAW, paste it into the Python Console and there is the exact list of the objects which need debugging - along with their specific values. If needed you could then paste the results from the Python Console back into the PAW - prefix it with the Python comment character (\'#\') if you want to save it in the Python code and keep it executable. Finally you can save this conglomeration to a file from the PAW so it is secure on disk. Ready for the next time you need to steal or adapt the logic in the code.
 
 ## Opzioni
 
@@ -143,7 +143,7 @@ nessuno (fino ad ora)
 
 ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
 
-**Macro\_Python\_Assistant\_Window.FCMacro**
+**Macro_Python_Assistant_Window.FCMacro**
 
     #
     #

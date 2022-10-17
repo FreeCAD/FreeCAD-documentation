@@ -15,11 +15,11 @@
 
 Toto makro je kompletní aplikace, umožňuje jednoduše vyplňovat všechna pole kazety
 
-Wahl auf der Seite [Misc\_templates\_Full](Misc_templates_Full.md)
+Wahl auf der Seite [Misc_templates_Full](Misc_templates_Full.md)
 
-Hier die Reihenfolge der Eingabe der Zeile FreeCAD texteditable. Die Datums- und Uhrzeitfelder sind durch ein Leerzeichen (\'\'\' - Leerzeichen - \'\'\') getrennt und bilden eine einzeilige Textbearbeitung.
+Hier die Reihenfolge der Eingabe der Zeile FreeCAD texteditable. Die Datums- und Uhrzeitfelder sind durch ein Leerzeichen (**- Leerzeichen -**) getrennt und bilden eine einzeilige Textbearbeitung.
 
-<img alt="CartoucheFC\_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
+<img alt="CartoucheFC_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
 
 ## Anwendung
 
@@ -28,8 +28,8 @@ Hier die Reihenfolge der Eingabe der Zeile FreeCAD texteditable. Die Datums- und
 Wenn Sie Fragen haben oder eine Funktion hinzufügen möchten, können Sie sich im französischen Forum an Sie wenden [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 
 -   Das Fenster bleibt über anderen Fenstern und steuert so die Kassette, ohne das Programm zu verlassen.
--   Kopieren Sie den Code in eine Datei mit dem Namen **Macro\_CartoucheFC\_Full.FCMacro** und platzieren Sie ihn in Ihrem üblichen Makros-Verzeichnis.
--   Nachdem Sie Ihr Zeichenblatt mit dem Modul \"Zeichnen von FreeCAD\" erstellt haben, führen Sie das Makro **Macro\_CartoucheFC\_Full** aus.
+-   Kopieren Sie den Code in eine Datei mit dem Namen **Macro_CartoucheFC_Full.FCMacro** und platzieren Sie ihn in Ihrem üblichen Makros-Verzeichnis.
+-   Nachdem Sie Ihr Zeichenblatt mit dem Modul \"Zeichnen von FreeCAD\" erstellt haben, führen Sie das Makro **Macro_CartoucheFC_Full** aus.
 -   Beim Öffnen des Programms werden alle bereits in der Blattkassette vorhandenen Daten im Speicher gespeichert (wenn sie gefüllt sind). Alle diese Daten werden automatisch mit der Taste **Memo** und bleibt bis zum Abschluss des Programms im Speicher.
 -   Wählen Sie zuerst Ihre Seite aus, um zu arbeiten
 -   Datumstaste **D.** und Zeit **H.** zeigte Datum und Uhrzeit des Systems an.
@@ -50,7 +50,7 @@ Mit der Schaltfläche **Apply** werden alle Felder der Patrone im Blatt gespeich
 
 Das Symbol für Ihre Werkzeugleiste ![](images/Macro_CartoucheFC_Full.png )
 
-**Macro\_CartoucheFC\_Full.FCMacro**
+**Macro_CartoucheFC_Full.FCMacro**
 
 
 {{MacroCode|code=

@@ -87,7 +87,7 @@ In order to generate tanks we load [Part module](Part_Workbench.md), and create 
 
 We need to edit the box, so we select it at **Attributes and tags** tree, and change from view to data tab. Expand Placement, and into them Position, and set *x* to 1.5, and z to -1. We want to change box length too changing it for 5.0 (note that units can be in mm, don\'t take care about this).
 
-Tank geometry will be common part of created box and ship geometry, so we can hide **Ship** instance, and show **s60\_IowaUniversity** geometry. Selecting box and **s60\_IowaUniversity** we can use Common operation generating our starboard tank geometry.
+Tank geometry will be common part of created box and ship geometry, so we can hide **Ship** instance, and show **s60_IowaUniversity** geometry. Selecting box and **s60_IowaUniversity** we can use Common operation generating our starboard tank geometry.
 
 ![Generated tank geometry.](images/FreeCAD-Ship-S60TankGeometry.png )
 
@@ -101,7 +101,7 @@ Generated tank geometry.
 
 We can perform port side tank selecting our starboard geometry and executing mirror tool, selecting XZ as mirror plane.
 
-In order to convert geometry into a ussual solid shape our tanks, and recover our **s60\_IowaUniversity** geometry, we can load [Draft module](Draft_Workbench.md), and with starboard tank geometry selected execute Upgrade, and repeat with port side tank geometry. We can rename geometries as   *
+In order to convert geometry into a ussual solid shape our tanks, and recover our **s60_IowaUniversity** geometry, we can load [Draft module](Draft_Workbench.md), and with starboard tank geometry selected execute Upgrade, and repeat with port side tank geometry. We can rename geometries as   *
 
 -   StarboardTankGeom
 -   PortTankGeom

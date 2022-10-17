@@ -1,18 +1,14 @@
 ---
-- GuiCommand   *Addon/ru
-   Name   *Arch Rebar UShape
-   Name/ru   *Arch Rebar LShape
-   MenuLocation   *Arch → Rebar tools
-   Workbenches   *[Arch](Arch_Workbench/ru.md)
-   Addon   *Reinforcement
-   Shortcut   *None
-   SeeAlso   *[Bent UShape Rebar](Arch_Rebar_BentShape/ru.md)
+- GuiCommand   */ru
+   Name/ru   *U-Образная арматура
+   Name   *Arch_Rebar_UShape
+   MenuLocation   *Arch → Rebar tools → U-Shape Rebar<br>3D/BIM → Reinforcement tools → U-Shape Rebar
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [L-Образная арматура](Arch_Rebar_LShape/ru.md)
 ---
 
 # Arch Rebar UShape/ru
-
-
-</div>
 
 ## Описание
 
@@ -86,7 +82,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Spacing**   * The distance between the axes of each bar.
 
-## Scripting
+## Программирование
 
 
 <div class="mw-translate-fuzzy">
@@ -180,13 +176,7 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

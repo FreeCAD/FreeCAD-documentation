@@ -46,7 +46,7 @@ Instrumentul [Draft View](Draft_Drawing.md) este utilizat în special pentru a p
 
 ## Flux de lucru 
 
-Documentul conține un obiect 3D (Schenkel) din care dorim să realizăm un desen. Prin urmare, este creată o \"pagină\". O pagină este instanțiată dintr-un șablon, de exemplu șablonul \"A3\_Landscape\". Șablonul este un document [SVG](SVG.md) care poate conține un cadru de pagină, un logo și alte elemente.
+Documentul conține un obiect 3D (Schenkel) din care dorim să realizăm un desen. Prin urmare, este creată o \"pagină\". O pagină este instanțiată dintr-un șablon, de exemplu șablonul \"A3_Landscape\". Șablonul este un document [SVG](SVG.md) care poate conține un cadru de pagină, un logo și alte elemente.
 
 În această pagină putem introduce una sau mai multe vizualizări. Fiecare vizualizare are o poziție pe pagină (Proprietăți X, Y), un factor de scară (Scala proprietății) și proprietăți suplimentare. De fiecare dată când pagina sau vizualizarea sau obiectul referință se modifică, pagina este regenerată și actualizarea paginii este actualizată.
 

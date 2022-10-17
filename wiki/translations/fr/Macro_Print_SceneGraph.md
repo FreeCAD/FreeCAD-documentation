@@ -18,7 +18,7 @@ Cette macro parcourt la vue3D et imprime tous les nœuds et leurs champs dans la
 
 Icône de la barre d\'outils ![](images/Macro_Print_SceneGraph.png )
 
-**Macro\_Print\_SceneGraph.FCMacro**
+**Macro_Print_SceneGraph.FCMacro**
 
 
 {{MacroCode|code=

@@ -88,7 +88,7 @@ Um Tanks zu generieren, laden wir [Part Modul](Part_Workbench/de.md), und erzeug
 
 Wir müssen den Kasten bearbeiten, also markieren wir ihn im **Attribute und Markierungen** Baum und wechseln von der Ansicht zum Datenreiter. Erweitere Platzierung, und in ihnen Position, und setze *x* auf 1,5, und z auf -1. Wir wollen auch die Kastenlänge ändern, indem wir sie für 5.0 ändern (beachte, dass die Einheiten in mm angegeben werden können, kümmere dich nicht darum).
 
-Die Tankgeometrie wird gemeinsamer Bestandteil der erstellten Kasten- und Schiffsgeometrie sein, so dass wir die **Schiff** Instanz ausblenden und die **s60\_IowaUniversity** Geometrie anzeigen können. Wenn wir Kasten und **s60\_IowaUniversity** auswählen, können wir die Gemeinsame Arbeitsgang Erzeugung verwenden, die unsere Steuerbordtankgeometrie erzeugt.
+Die Tankgeometrie wird gemeinsamer Bestandteil der erstellten Kasten- und Schiffsgeometrie sein, so dass wir die **Schiff** Instanz ausblenden und die **s60_IowaUniversity** Geometrie anzeigen können. Wenn wir Kasten und **s60_IowaUniversity** auswählen, können wir die Gemeinsame Arbeitsgang Erzeugung verwenden, die unsere Steuerbordtankgeometrie erzeugt.
 
 ![Generierte Tankgeometrie.](images/FreeCAD-Ship-S60TankGeometry.png )
 
@@ -102,7 +102,7 @@ Generierte Tankgeometrie.
 
 Wir können den Tank auf der Backbordseite ausführen, indem wir unsere Steuerbordgeometrie auswählen und das Spiegelwerkzeug ausführen und XZ als Spiegelebene wählen.
 
-Um die Geometrie in eine gewöhnliche feste Form unserer Tanks umzuwandeln und unsere **s60\_IowaUniversity** Geometrie wiederherzustellen, können wir [Entwurf Modul](Draft_Workbench/de.md) laden und mit gewählter Steuerbord Tankgeometrie die Höherstufung ausführen und mit der Backbordseite der Tankgeometrie wiederholen. Wir können Geometrien umbenennen als   *
+Um die Geometrie in eine gewöhnliche feste Form unserer Tanks umzuwandeln und unsere **s60_IowaUniversity** Geometrie wiederherzustellen, können wir [Entwurf Modul](Draft_Workbench/de.md) laden und mit gewählter Steuerbord Tankgeometrie die Höherstufung ausführen und mit der Backbordseite der Tankgeometrie wiederholen. Wir können Geometrien umbenennen als   *
 
 -   SteuerbordTankGeom
 -   BackbordTankGeom

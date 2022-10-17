@@ -56,7 +56,7 @@ Selecciona el gráfico que deseas salvar mediante las pestañas de la vista prin
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

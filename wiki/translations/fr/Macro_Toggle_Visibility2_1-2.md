@@ -39,7 +39,7 @@ Si tous les objets sont cachés et non sélectionné(s) tous les objets devienne
 
 ToolBar Icon <img alt="" src=images/Macro_SelectVisible2.png  style="width   *64px;">
 
-**Macro\_Toggle\_Visibility2\_1-2.FCMacro**
+**Macro_Toggle_Visibility2_1-2.FCMacro**
 
 
 {{MacroCode|code=
@@ -87,7 +87,7 @@ Seconde macro [Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2/fr.md)
 
 La discussion sure forum [Re   * Proposal   * select one or more pieces, hide the others.](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=13152&start=10#p184056)
 
-Idée Originale [Macro\_Toggle\_Visibility](https   *//www.freecadweb.org/wiki/index.php?title=Macro_Toggle_Visibility)
+Idée Originale [Macro_Toggle_Visibility](https   *//www.freecadweb.org/wiki/index.php?title=Macro_Toggle_Visibility)
 
 
 

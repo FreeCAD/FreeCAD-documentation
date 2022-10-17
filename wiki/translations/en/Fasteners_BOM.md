@@ -18,7 +18,7 @@ The <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **Fastener
 ## Usage
 
 1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_BOM.svg" width=16px> [Fasteners BOM](Fasteners_BOM.md)** button.
+    -   Press the **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** option from the menu.
 2.  A Fasteners BOM spreadsheet is created.
 

@@ -1,18 +1,14 @@
 ---
-- GuiCommand   *Addon/ru
-   Name   *Arch Rebar Helical   Name/ru   *Arch Rebar Helical
-   MenuLocation   *Arch → Rebar tools
+- GuiCommand   */ru
+   Name/ru   *Спиральная арматура
+   Name   *Arch_Rebar_Helical
+   MenuLocation   *Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar
    Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   Addon   *Reinforcement
-   Shortcut   *None
-   SeeAlso   *[Arch Rebar](Arch_Rebar/ru.md), [Stirrup Rebar](Arch_Rebar_Stirrup/ru.md), [Column Reinforcement](Arch_Rebar_ColumnReinforcement/ru.md)
    Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Кольцевая арматура](Arch_Rebar_Stirrup/ru.md), [Армировать колонну](Arch_Rebar_ColumnReinforcement/ru.md)
 ---
 
 # Arch Rebar Helical/ru
-
-
-</div>
 
 ## Описание
 
@@ -139,13 +135,7 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

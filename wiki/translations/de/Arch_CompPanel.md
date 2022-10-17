@@ -10,6 +10,9 @@
 
 # Arch CompPanel/de
 
+
+</div>
+
 ## Beschreibung
 
 Gruppierung mehrerer Paneel bezogener Werkzeuge.

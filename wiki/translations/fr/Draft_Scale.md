@@ -43,14 +43,13 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 
 -   Pour saisir manuellement les coordonnées du point de base, saisissez les composantes X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **G** ou cochez la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées de [Draft Plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Les autres cases à cocher de ce panneau de tâches, affichées dans FreeCAD version 0.19 et antérieure, sont ignorées par la commande.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur le bouton **Fermer** pour annuler la commande.
 
 ### Deuxième panneau de tâches 
 
 -   Entrez les facteurs X, Y et Z pour définir l\'échelle. Les valeurs doivent être supérieures à zéro.
--   Cochez la case **Mise à l'échelle uniforme** pour verrouiller les facteurs X, Y et Z sur la même valeur. Dans FreeCAD version 0.19 et antérieures, pour que ce paramètre prenne effet, l\'un des facteurs d\'échelle doit être modifié.
+-   Cochez la case **Mise à l'échelle uniforme** pour verrouiller les facteurs X, Y et Z sur la même valeur.
 -   Si la case **Orientation du plan de travail** est cochée, les facteurs d\'échelle sont relatifs au système de coordonnées de [Draft Plan de travail](Draft_SelectPlane/fr.md), sinon ils sont relatifs au système de coordonnées global.
 -   Si la case **Copie** est cochée, une copie à l\'échelle de l\'objet d\'origine est créée. Cela ne fonctionne que pour les objets Draft qui ont une propriété **Points**, tels que [Draft Polylignes](Draft_Wire/fr.md).
 -   Si la case **Modifier les sous-éléments** est cochée, la commande utilisera les sous-éléments sélectionnés au lieu de l\'ensemble des objets. Les sous-éléments doivent appartenir à [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
@@ -67,7 +66,6 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
 -   Pour modifier le nombre de décimales utilisées pour la saisie des facteurs d\'échelle ({{Version/fr|0.20}}) et des coordonnées    * **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
--   Pour modifier le nombre de décimales utilisées pour la saisie des facteurs d\'échelle ({{VersionMinus/fr|0.19}})    * **Édition → Préférences... → Draft → Paramètres généraux → Paramètres généraux Draft → Niveau de précision interne**.
 -   Pour resélectionner les objets de base après avoir copié les objets    * **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
 
 ## Script

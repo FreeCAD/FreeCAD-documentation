@@ -7,7 +7,7 @@
 
 ### Liens en relation 
 
--   [Ticket \#2584](https   *//freecadweb.org/tracker/view.php?id=2584) - Prise en charge des fichiers XML SweetHome3D.
+-   [Ticket #2584](https   *//freecadweb.org/tracker/view.php?id=2584) - Prise en charge des fichiers XML SweetHome3D.
 -   [Comment créer rapidement votre plan d\'étage dans Sweet Home 3D](https   *//www.youtube.com/watch?v=QAAYHTuqm9M)
 -   [sujet du forum FC traitant de SH3D](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=23965)
 -   [Discussion sur les forums SH3D](http   *//www.sweethome3d.com/support/forum/viewthread_thread,6708_offset,25) concernant FreeCAD.

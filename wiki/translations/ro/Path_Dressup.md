@@ -1,5 +1,5 @@
 # Path Dressup/ro
-1.  REDIRECT [Path\_Workbench/ro](Path_Workbench/ro.md)
+1.  REDIRECT [Path_Workbench/ro](Path_Workbench/ro.md)
 
 
 

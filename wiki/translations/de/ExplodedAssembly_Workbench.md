@@ -1,35 +1,35 @@
-# <img alt="Symbol des Arbeitsbereichs ExplosionsansichtBaugruppe" src=images/ExplodedAssembly_workbench_icon.svg  style="width   *64px;"> ExplodedAssembly Workbench/de
+# <img alt="Symbol des Arbeitsbereichs ExplodedAssembly" src=images/ExplodedAssembly_workbench_icon.svg  style="width   *64px;"> ExplodedAssembly Workbench/de
 
 
 {{TOCright}}
 
 ## Einleitung
 
-Der Arbeitsbereich <img alt="" src=images/ExplodedAssembly_workbench_icon.svg  style="width   *24px;"> [ExplosionsansichtBaugruppe](ExplodedAssembly_Workbench/de.md) ist ein externer Arbeitsbereich zum erstellen von Explosionsansichten und Animationen von Baugruppen.
+Der Arbeitsbereich <img alt="" src=images/ExplodedAssembly_workbench_icon.svg  style="width   *24px;"> [ExplodedAssembly](ExplodedAssembly_Workbench/de.md) ist ein externer Arbeitsbereich zum erstellen von Explosionsansichten und Animationen von Baugruppen.
 
-### Features
+## Funktionsumfang
 
--   Create nice explosions of assemblies graphically (no code at all!)
--   Create sub-exploded groups
--   Give rotation to screws and nuts for realistic disassembles
--   Use the provided auxiliary assembly tools to place your parts together
--   TODO feature   * create trajectory from wires and sketches
+-   Graphische Erstellung der Explosionsansichten von Baugruppen (ganz ohne Programmieren!)
+-   Erstellung einzelner Explosionsansichten von Unterbaugruppen
+-   Drehung von Schrauben und Muttern für realistische Montage bzw. Demontage
+-   Mit den mitgelieferten HIlfs-Zusammenbauwekzeuge lassen sich Einzelteile zueinander Positionieren
+-   Funktion in Arbeit   * Erstellung eines Bewegungsablaufs aus Linienzügen und Skizzen
 
-## References
+## Referenzen
 
--   Author   * JMG1
--   Home page   * [ExplodedAssembly](https   *//github.com/JMG1/ExplodedAssembly)
--   Source code on github   * [ExplodedAssembly](https   *//github.com/JMG1/ExplodedAssembly)
+-   Autor   * JMG1
+-   Homepage   * [ExplodedAssembly](https   *//github.com/JMG1/ExplodedAssembly)
+-   Quellkode auf github   * [ExplodedAssembly](https   *//github.com/JMG1/ExplodedAssembly)
 
-## Tools
+## Werkzeuge
 
 ![](images/ExplodedAssembly-menu-orizz.png ) 
-*Toolbar*
+*Werkzeugleiste*
 
 ![](images/ExplodedAssembly-menu-vert.png ) 
-*Menu*
+*Menü*
 
-### Standard tools 
+### Standardwerkzeuge
 
 -   <img alt="" src=images/ExplodedAssembly_CreateBoltGroup.png  style="width   *32px;"> Create Bolt Group
 -   <img alt="" src=images/ExplodedAssembly_CreateSimpleGroup.png  style="width   *32px;"> Create Simple Group
@@ -47,7 +47,7 @@ Der Arbeitsbereich <img alt="" src=images/ExplodedAssembly_workbench_icon.svg  s
 -   <img alt="" src=images/ExplodedAssembly_PoinToPoint.png  style="width   *32px;"> Poin To Point
 -   <img alt="" src=images/ExplodedAssembly_PlaceConcentrically.png  style="width   *32px;"> Place Concentrically
 
-### Additional tools 
+### Zusätzliche Werkzeuge 
 
 These tools can be added to a custom toolbar. See [Interface Customization](Interface_Customization.md).
 

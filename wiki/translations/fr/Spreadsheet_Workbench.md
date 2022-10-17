@@ -310,7 +310,7 @@ Vous pouvez utiliser un [Std Lien](Std_LinkMake/fr.md) ou une [PartDesign Sous f
 2.  Déplacez le lien vers un nouvel emplacement en modifiant **Placement** afin qu\'il soit plus facile à distinguer de l\'objet d\'origine.
 3.  Sélectionnez une **Configuration** différente pour le lien afin de créer une instance variante.
 
-Des étapes similaires s\'appliquent à une [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md), sauf que sa propriété permettant d\'activer une instance de variante s\'appelle **Binder Copy On Change**.
+Des étapes similaires s\'appliquent à une [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md), sauf que sa propriété permettant d\'activer une instance de variante s\'appelle **Bind Copy On Change**.
 
 
 </div>

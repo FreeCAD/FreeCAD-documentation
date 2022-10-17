@@ -40,7 +40,7 @@ Klicken Sie auf das Bild, positionieren Sie im neuen Fenster die Maus über dem 
 
 ## Skript
 
-**Macro\_CenterFace.FCMacro**
+**Macro_CenterFace.FCMacro**
 
 
 {{MacroCode|code=

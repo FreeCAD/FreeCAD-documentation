@@ -1,5 +1,5 @@
 # Install on Mac/uk
-1.  REDIRECT [Installing\_on\_Mac/uk](Installing_on_Mac/uk.md)
+1.  REDIRECT [Installing_on_Mac/uk](Installing_on_Mac/uk.md)
 
 
 

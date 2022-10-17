@@ -19,7 +19,7 @@ Crée une contrainte de pression initiale pour une analyse d\'écoulement de flu
 1.  Vous pouvez
     -   soit appuyer sur le bouton de la barre d\'outils **<img src="images/FEM_ConstraintInitialPressure.svg" width=16px> '''Contrainte de pression initiale '''
 **
-    -   soit sélectionner le menu **Modèle → Contraintes de fluide → Contrainte pression initiale**.
+    -   soit sélectionner le menu **Modèle → Contraintes du fluide → Contrainte de pression initiale**.
 2.  Saisissez une valeur de pression initiale.
 3.  Pour une analyse 3D, sélectionnez un \"solide\" (corps) de votre modèle. Pour une analyse 2D, sélectionnez une face.
 

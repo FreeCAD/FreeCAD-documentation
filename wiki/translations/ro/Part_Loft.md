@@ -62,7 +62,7 @@ Pentru mai multe informații supra modului cum profilele sunt legate împreună 
 
 <div class="mw-translate-fuzzy">
 
-![centre\|Part\_Loft. From three profiles which are two Part\_Circles and one Part\_Ellipse. Parameters are Solid \"True\" and Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+![centre\|Part_Loft. From three profiles which are two Part_Circles and one Part_Ellipse. Parameters are Solid \"True\" and Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
 
 
 </div>

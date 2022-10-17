@@ -7,7 +7,13 @@ El **FreeCAD Standard formato de archivo** (**.FCStd**) es el principal formato 
 
 ## Internos de los archivos .FCStd 
 
+
+<div class="mw-translate-fuzzy">
+
 FCStd es un [ archivo zip estándar que contiene uno o más archivos](#Contenido.md) en una [específica](#estructura.md). Como tal, es posible desempaquetar un archivo **.FCStd** utilizando una herramienta de descompresión zip normal, pero hay que tener cuidado al empaquetar el contenido de un archivo **.FCStd**. FreeCAD contiene una \"Utilidad de Proyecto\" para re-empaquetar archivos **.FCStd**, su uso se describe en [Cambiar la fuente del archivo .FCStd](#Cambiar_la_fuente_del_archivo_.FCStd.md) más abajo.
+
+
+</div>
 
 ### Document.xml
 
@@ -166,7 +172,7 @@ Ver el hilo del foro, [PDF dentro del proyecto](https   *//forum.freecadweb.org/
 
  
 
-[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

@@ -3,25 +3,16 @@
    Name   *Arch Roof
    Name/it   *Tetto
    MenuLocation   *Arch → Tetto
-   Workbenches   *[Architettura](Arch_Workbench/it.md)
+   Workbenches   *[Arch](Arch_Workbench/it.md)
    Shortcut   ***R** **F**
    SeeAlso   *[Struttura](Arch_Structure/it.md), [Muro](Arch_Wall/it.md)
 ---
 
 # Arch Roof/it
 
-
-</div>
-
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/Arch_Roof.svg  style="width   *16px;"> Tetto consente di creare un tetto inclinato selezionando un contorno. L\'oggetto Tetto creato in questo modo è parametrico e mantiene le sue relazioni con l\'oggetto base. Si basa sul principio che ad ogni bordo viene assegnata una falda del tetto (con le caratteristiche di pendenza, larghezza coperta, sbalzo, spessore).
-
-
-</div>
+Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.md)** consente di creare un tetto inclinato selezionando un contorno. L\'oggetto Tetto creato in questo modo è parametrico e mantiene le sue relazioni con l\'oggetto base. Si basa sul principio che ad ogni bordo viene assegnata una falda del tetto (con le caratteristiche di pendenza, larghezza coperta, sbalzo, spessore).
 
 **Nota   *** Questo strumento è ancora in sviluppo e potrebbe non funzionare correttamente con le forme molto complesse.
 
@@ -117,15 +108,6 @@ roof1 = Arch.makeRoof(wire)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

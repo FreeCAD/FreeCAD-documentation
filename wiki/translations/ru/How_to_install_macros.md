@@ -152,7 +152,7 @@ Starting with FreeCAD 0.17, use the [Addon Manager](Std_AddonMgr.md) in **Tools 
 
 In past versions of FreeCAD you could use two automated ways to install macros and other addons   *
 
--   [addons\_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
+-   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
 -   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * also a macro, it could be used to install new components to FreeCAD. It is no longer developed.
 
 The recommended way to install addons, that is, [external workbenches](external_workbenches.md) and macros, is the [Addon Manager](Std_AddonMgr.md). However, you can still add macros to your system with the manual methods described in the following sections; this is useful if you are developing and testing your own code.
@@ -230,7 +230,7 @@ Restart FreeCAD to correctly register the new macro.
 
 Create a new document with **File → <img src="images/Std_New.svg" width=16px> [New](Std_New.md)**, and then repeat the previous steps to execute the macro.
 
-![](images/Macro_Install_HowTo_23.png ) 
+![](images/Macro_Install_HowTo_23.png) 
 *align=center|The macro returning an error if no document is active*
 
 12\. Once an active document is available, the macro runs and creates an object.

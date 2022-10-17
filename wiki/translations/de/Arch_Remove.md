@@ -2,15 +2,12 @@
 - GuiCommand   */de
    Name   *Arch Remove
    Name/de   *Arch Entfernen
-   MenuLocation   *Architektur → Entfernen
+   MenuLocation   *Arch → Komponente entfernen
    Workbenches   *[Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Arch SchneideLinie](Arch_CutLine/de.md), [Arch SchneideEbene](Arch_CutPlane/de.md), [Arch Hinzufügen](Arch_Add/de.md)
+   SeeAlso   *[Arch Schnittlinie](Arch_CutLine/de.md), [Arch Schnittebene](Arch_CutPlane/de.md), [Arch Hinzufügen](Arch_Add/de.md)
 ---
 
 # Arch Remove/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -70,15 +67,6 @@ Draft.move(Box, FreeCAD.Vector(1000, 700, 0))
 Arch.removeComponents(Box, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

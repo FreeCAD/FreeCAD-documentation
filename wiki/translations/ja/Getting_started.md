@@ -244,7 +244,7 @@ There are two types of addons   *
 
 
 
-[Category   *User\_Documentation/ja](Category   *User_Documentation/ja.md)
+[Category   *User_Documentation/ja](Category   *User_Documentation/ja.md)
 
 
 

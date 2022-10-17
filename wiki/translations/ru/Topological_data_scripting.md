@@ -438,7 +438,7 @@ Part.show(arc_edge)
 
 <div class="mw-translate-fuzzy">
 
-Arc принимает только Base.Vector() для точек. arc\_edge - это то, что нам нужно, и мы можем отобразить его с помощью Part.show(arc\_edge). Вы также можете получить дугу, используя часть круга   *
+Arc принимает только Base.Vector() для точек. arc_edge - это то, что нам нужно, и мы можем отобразить его с помощью Part.show(arc_edge). Вы также можете получить дугу, используя часть круга   *
 
 
 </div>
@@ -503,7 +503,7 @@ def makeBCurveEdge(Points)   *
 
 <div class="mw-translate-fuzzy">
 
-Плоскость это ровная поверхность, в смысле 2D грань. Метод создания её это **makePlane(length,width,\[start\_pnt,dir\_normal\])**. По умолчанию start\_pnt=Vector(0,0,0) и dir\_normal=Vector(0,0,1). Используя dir\_normal = Vector(0,0,1) создаёт плоскость, обращённую к положительному направлению оси z, в то время как dir\_normal=Vector(1,0,0) создаёт плоскость обращённую к положительному направлению оси х   *
+Плоскость это ровная поверхность, в смысле 2D грань. Метод создания её это **makePlane(length,width,\[start_pnt,dir_normal\])**. По умолчанию start_pnt=Vector(0,0,0) и dir_normal=Vector(0,0,1). Используя dir_normal = Vector(0,0,1) создаёт плоскость, обращённую к положительному направлению оси z, в то время как dir_normal=Vector(1,0,0) создаёт плоскость обращённую к положительному направлению оси х   *
 
 
 </div>
@@ -529,7 +529,7 @@ BoundBox является параллелепипед вмещающих пло
 
 <div class="mw-translate-fuzzy">
 
-Примечание   * makePlane доступны только Base.Vector() для задания start\_pnt и dir\_normal а не кортежи
+Примечание   * makePlane доступны только Base.Vector() для задания start_pnt и dir_normal а не кортежи
 
 
 </div>

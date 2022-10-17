@@ -21,7 +21,7 @@ Achtung, Sie benötigen eine aktuelle Version von FreeCAD, damit dies funktionie
 
 Werkzeugleisten-Symbol ![](images/Macro_SuperWire.png )
 
-**Macro\_SuperWire.FCMacro**
+**Macro_SuperWire.FCMacro**
 
 
 {{MacroCode|code=

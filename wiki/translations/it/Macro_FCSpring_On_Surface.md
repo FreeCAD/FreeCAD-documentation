@@ -77,7 +77,7 @@ Seleziona l\'oggetto (solido), la macro calcola per valore predefinito   *
 
 **Command   ***
 
--    **Quit**   * Chiude FCSpring\_On\_Surface
+-    **Quit**   * Chiude FCSpring_On_Surface
 
 -    **Ok**   * Lancia la creazione
 
@@ -85,7 +85,7 @@ Seleziona l\'oggetto (solido), la macro calcola per valore predefinito   *
 
 ToolBar icon ![](images/FCSpring_On_Surface.png )
 
-**Macro\_FCSpring\_On\_Surface.FCMacro**
+**Macro_FCSpring_On_Surface.FCMacro**
 
 
 {{MacroCode|code=

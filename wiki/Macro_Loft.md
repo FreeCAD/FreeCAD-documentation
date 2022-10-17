@@ -49,7 +49,7 @@ Copy the macro and the icon in your macro directory.
 
 The icons for you toolBar <img alt="" src=images/FCCreaLoft.png  style="width   *64px;">
 
-Download the macro to Gist [**Macro\_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
+Download the macro to Gist [**Macro_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
 
 ## Links
 

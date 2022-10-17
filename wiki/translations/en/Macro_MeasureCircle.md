@@ -32,7 +32,7 @@ The latest version of the macro is to be found at [MeasureCircle.FCMacro](https 
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 
-**Macro\_MeasureCircle.FCMacro**
+**Macro_MeasureCircle.FCMacro**
 
 
 

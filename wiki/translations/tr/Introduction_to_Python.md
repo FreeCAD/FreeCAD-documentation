@@ -503,7 +503,7 @@ for dalton in alldaltons   *
 
 <div class="mw-translate-fuzzy">
 
-Listemiz boyunca \"for \... in \...\" komutunu kullanarak yineledik (programlama jargonu) ve her bir öğe için bir şeyler yaptık. Özel sözdizimine dikkat edin   * \'\' \'için\' \'\' komutu \'\' \'   *' \'ile sonlanır ve aşağıdakilerin birden fazla komuttan birinin bir bloğu olacağını belirtir. Tercümanda, biten komut satırına girdikten hemen sonra   * komut istemi \... olarak değişecektir, bu da Python\'un iki nokta üst üste (   *) son satırın gerçekleştiğini ve daha fazlasının geldiğini bildiği anlamına gelir.
+Listemiz boyunca \"for \... in \...\" komutunu kullanarak yineledik (programlama jargonu) ve her bir öğe için bir şeyler yaptık. Özel sözdizimine dikkat edin   * *\'için\'* komutu \'\' \'   *' \'ile sonlanır ve aşağıdakilerin birden fazla komuttan birinin bir bloğu olacağını belirtir. Tercümanda, biten komut satırına girdikten hemen sonra   * komut istemi \... olarak değişecektir, bu da Python\'un iki nokta üst üste (   *) son satırın gerçekleştiğini ve daha fazlasının geldiğini bildiği anlamına gelir.
 
 
 </div>
@@ -511,7 +511,7 @@ Listemiz boyunca \"for \... in \...\" komutunu kullanarak yineledik (programlama
 
 <div class="mw-translate-fuzzy">
 
-Python, for \... operasyonunun içinde bir sonraki satırın kaç tanesinde yürütüleceğini nasıl bilecek? Bunun için Python girintiyi kullanır. Yani, bir sonraki satırınız hemen başlamayacak. Onlara bir boşlukla ya da birkaç boşlukla ya da bir sekmeyle ya da birkaç sekmeyle başlayacaksınız. Diğer programlama dilleri, her şeyi parantez içine koymak vb. Gibi diğer yöntemleri kullanır. Sonraki satırlarınızı \'\' \'aynı\' \'\' girintiyle yazdığınız sürece for-in bloğunun bir parçası olarak kabul edilirler. Bir satıra 2 boşlukla, bir başkasını da 4 ile başlarsanız, bir hata olacaktır. İşiniz bittiğinde, girintisiz başka bir satır yazın veya for-in bloğundan geri dönmek için Enter tuşuna basın
+Python, for \... operasyonunun içinde bir sonraki satırın kaç tanesinde yürütüleceğini nasıl bilecek? Bunun için Python girintiyi kullanır. Yani, bir sonraki satırınız hemen başlamayacak. Onlara bir boşlukla ya da birkaç boşlukla ya da bir sekmeyle ya da birkaç sekmeyle başlayacaksınız. Diğer programlama dilleri, her şeyi parantez içine koymak vb. Gibi diğer yöntemleri kullanır. Sonraki satırlarınızı *\'aynı\'* girintiyle yazdığınız sürece for-in bloğunun bir parçası olarak kabul edilirler. Bir satıra 2 boşlukla, bir başkasını da 4 ile başlarsanız, bir hata olacaktır. İşiniz bittiğinde, girintisiz başka bir satır yazın veya for-in bloğundan geri dönmek için Enter tuşuna basın
 
 
 </div>
@@ -547,7 +547,7 @@ print(total)
 
 <div class="mw-translate-fuzzy">
 
-(Kod örneklerini Kopyalama ve Yapıştırma yoluyla bir yorumlayıcı da çalıştırıyorsanız, önceki metin bloğunun bir hata vereceğini göreceksiniz. Bunun yerine, girintili bloğun sonuna, yani satırın sonuna \'\' toplamı kopyalayın = toplam sayı \'\' ve ardından yorumlayıcıya yapıştırın. Yorumlayıcı da üç nokta istemi kaybolup kod çalıştırılana kadar bir  basın. Sonra son iki satırı yorumlayıcıya kopyalayın, ardından bir veya daha fazla  cevap görünmelidir.)
+(Kod örneklerini Kopyalama ve Yapıştırma yoluyla bir yorumlayıcı da çalıştırıyorsanız, önceki metin bloğunun bir hata vereceğini göreceksiniz. Bunun yerine, girintili bloğun sonuna, yani satırın sonuna *toplamı kopyalayın = toplam sayı* ve ardından yorumlayıcıya yapıştırın. Yorumlayıcı da üç nokta istemi kaybolup kod çalıştırılana kadar bir  basın. Sonra son iki satırı yorumlayıcıya kopyalayın, ardından bir veya daha fazla  cevap görünmelidir.)
 
 
 </div>

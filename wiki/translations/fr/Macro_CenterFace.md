@@ -39,7 +39,7 @@ Cliquez sur l\'image, dans la nouvelle fenêtre faites clic droit de la souris e
 
 ## Macro
 
-**Macro\_CenterFace.FCMacro**
+**Macro_CenterFace.FCMacro**
 
 
 {{MacroCode|code=

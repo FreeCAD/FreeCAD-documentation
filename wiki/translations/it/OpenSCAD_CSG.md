@@ -39,7 +39,7 @@ Qualsiasi oggetto derivato da Part   *   *Feature che non è (ancora) supportato
 
  {{OpenSCAD Tools navi}}
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

@@ -57,7 +57,7 @@ El sólido resultante no es paramétrico. Si cambias el perfil o la trayectoria,
 
 ToolBar Icon ![](images/Macro_Solid_Sweep.png )
 
-**Macro\_Solid\_Sweep.FCMacro**
+**Macro_Solid_Sweep.FCMacro**
 
 
 {{MacroCode|code=

@@ -11,6 +11,9 @@
 
 # FEM ConstraintFlowVelocity/ru
 
+
+</div>
+
 ## Описание
 
 Устанавливает скорость потока в качестве граничного условия к ребру в 2D или к грани в 3D.
@@ -39,7 +42,7 @@
        *   Если установлен флажок *нормаль к границе*, вектор нормали к выбранному ребру или грани равен X, и он будет ориентирован от области сетки.
        *   Например, если в домен должен поступать поток воздуха со скоростью 20 мм/с, то после отметки *нормаль к границе* пользователь должен будет ввести -20 мм/с в поле *скорость X*.
 
--   For a Wall with non-slip condition, the flow will be (0,0,0)
+-   For a Wall with non-slip condition, the flow will be (0,0,0).
 -   For a Symmetry condition, the flow will be (0, Unspecified, Unspecified) if \"normal to boundary\" is ticked.
 
 

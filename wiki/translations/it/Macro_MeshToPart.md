@@ -19,7 +19,7 @@ Questa macro converte gli oggetti Mesh selezionati in Parti. Ha una tolleranza a
 
 ToolBar Icon ![](images/Macro_MeshToPart.png )
 
-**Macro\_MeshToPart.FCMacro**
+**Macro_MeshToPart.FCMacro**
 
 
 {{MacroCode|code=

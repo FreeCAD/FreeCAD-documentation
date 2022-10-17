@@ -84,7 +84,7 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 
 Des temps de traitement excessivement longs (plus de 10 minutes) peuvent se produire lors du traitement de grands modèles complexes. En plus des facteurs déjà mentionnés, les étapes suivantes peuvent aider à identifier les causes et les solutions potentielles.
 
-***Mémoire insuffisante***
+**\'\'Mémoire insuffisante**\'\'
 Vérifiez la quantité de mémoire disponible pendant l\'exécution du scan à l\'aide d\'un outil tel que le **Gestionnaire des tâches, onglet Mémoire** de Windows. Si plus de 90 % de la mémoire est constamment utilisée, alors un petit paramètre **Déflexion linéaire** pourrait générer un maillage trop important pour la mémoire disponible.
 Pour confirmer cela \...
 
@@ -127,7 +127,7 @@ REMARQUE   * à compter de mai 2019, seule la fraise en bout dispose d\'un type 
 
 ## Propriétés   * Version 0.19 
 
-\'\'\' *Remarque* \'\'\'   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
+***Remarque***   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
 
 {{TitleProperty|Base}}

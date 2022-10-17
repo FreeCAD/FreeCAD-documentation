@@ -21,10 +21,10 @@ When you have a .pov file ready, you need to open it with a text editor, and do 
 
 Note that FreeCAD will also add some declarations, that you can use in your template, after the //RaytracingContent tag. These are   *
 
--   cam\_location   * the location of the camera
--   cam\_look\_at   * the location of the target point of the camera
--   cam\_sky   * the up vector of the camera.
--   cam\_angle   * the angle of the camera
+-   cam_location   * the location of the camera
+-   cam_look_at   * the location of the target point of the camera
+-   cam_sky   * the up vector of the camera.
+-   cam_angle   * the angle of the camera
 
 If you want, for example, to place a lamp above the camera, you can use this   * 
 ```python
@@ -46,7 +46,7 @@ If you are exporting a scene file from blender, and wish to merge everything int
 
 After you have your scene file ready, to turn it into a FreeCAD template, you need to perform the following steps   *
 
-1.  Locate the camera position, a single line that begins with LookAt, and delete it (or place a \"\#\" at the beginning of the line to comment it out)
+1.  Locate the camera position, a single line that begins with LookAt, and delete it (or place a \"#\" at the beginning of the line to comment it out)
 2.  At that place, insert the following line   * #RaytracingCamera
 3.  At a desired point, for example just after the end of the materials definition, before the geometry information, or at the very end, just before the final WorldEnd line, insert the following line   * #RaytracingContent. That is where FreeCAD will insert its own objects.
 

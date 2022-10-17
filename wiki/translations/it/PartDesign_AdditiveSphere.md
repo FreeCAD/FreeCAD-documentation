@@ -48,11 +48,11 @@ Dopo la sua creazione la sfera può essere modificata in due modi   *
 
 -    {{PropertyData/it|Radius}}   * Raggio della sfera.
 
--    {{PropertyData/it|Angle1}}   * (etichettato \'\' Parametro V \'\' nei parametri Primitive) Troncamento inferiore della sfera, parallelo alla sezione trasversale circolare (-90 gradi in una sfera piena)
+-    {{PropertyData/it|Angle1}}   * (etichettato *Parametro V* nei parametri Primitive) Troncamento inferiore della sfera, parallelo alla sezione trasversale circolare (-90 gradi in una sfera piena)
 
 -    {{PropertyData/it|Angle2}}   * (non etichettato nei parametri primitivi) troncatura superiore dell\'ellissoide, parallelo alla sezione trasversale circolare (90 gradi in una sfera completa).
 
--    {{PropertyData/it|Angle3}}   * (etichettato \'\' parametro U \'\' nei parametri primitivi) angolo di rotazione della sezione trasversale (360 gradi in una sfera piena).
+-    {{PropertyData/it|Angle3}}   * (etichettato *parametro U* nei parametri primitivi) angolo di rotazione della sezione trasversale (360 gradi in una sfera piena).
 
 
 </div>

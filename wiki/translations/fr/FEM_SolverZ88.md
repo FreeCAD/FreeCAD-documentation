@@ -36,7 +36,7 @@ Pour utiliser le solveur Z88, la version OpenSource de Z88 (Z88OS) doit être in
 4.  Cliquez sur le bouton **Écrire**.
 5.  Cliquez sur le bouton **Exécuter**.
 
-Pour résultat, vous obtenez un objet appelé *Z88\_xxx\_results* (selon la simulation exécutée) dans la [Vue en arborescence](Tree_view/fr.md). C\'est le même type d\'objet de résultat que l\'on obtient en exécutant le [solveur CalculiX](FEM_SolverCalculixCxxtools/fr.md). À partir de là, vous pouvez visualiser les résultats en utilisant [Post pipeline des résultats](FEM_PostPipelineFromResult/fr.md) et les [Filtres](FEM_Workbench/fr#Menu_   *_R.C3.A9sultats.md).
+Pour résultat, vous obtenez un objet appelé *Z88_xxx_results* (selon la simulation exécutée) dans la [Vue en arborescence](Tree_view/fr.md). C\'est le même type d\'objet de résultat que l\'on obtient en exécutant le [solveur CalculiX](FEM_SolverCalculixCxxtools/fr.md). À partir de là, vous pouvez visualiser les résultats en utilisant [Post pipeline des résultats](FEM_PostPipelineFromResult/fr.md) et les [Filtres](FEM_Workbench/fr#Menu_   *_R.C3.A9sultats.md).
 
 ## Préférences
 

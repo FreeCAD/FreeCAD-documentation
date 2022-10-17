@@ -6,7 +6,7 @@
 
 Une [commande](Command/fr.md) est ce qui est en cours d'exécution lorsque vous appuyez sur un bouton de la barre d'outils ou tapez un raccourci clavier. Cela peut être une action très simple, comme changer le niveau de zoom de la [vue 3D](3D_view/fr.md) ou faire pivoter le point de vue, ou un système complexe qui ouvrira des boîtes de dialogue et attendra que l\'utilisateur exécute des tâches spécifiques.
 
-Chaque commande FreeCAD a un nom unique, qui apparaît dans la page [   *Category   *Command\_Reference](   *Category_Command_Reference.md). Les commandes peuvent être lancées à l\'aide d\'un bouton de la barre d\'outils, d\'un élément de menu, d\'un script [Python](Python/fr.md) ou de la [console Python](Python_console/fr.md), en exécutant    *
+Chaque commande FreeCAD a un nom unique, qui apparaît dans la page [   *Category   *Command_Reference](   *Category_Command_Reference.md). Les commandes peuvent être lancées à l\'aide d\'un bouton de la barre d\'outils, d\'un élément de menu, d\'un script [Python](Python/fr.md) ou de la [console Python](Python_console/fr.md), en exécutant    *
 
 
 ```python

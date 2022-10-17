@@ -1,5 +1,5 @@
 # Plugin Loader/ru
-1.  REDIRECT [Std\_AddonMgr/ru](Std_AddonMgr/ru.md)
+1.  REDIRECT [Std_AddonMgr/ru](Std_AddonMgr/ru.md)
 
 
 

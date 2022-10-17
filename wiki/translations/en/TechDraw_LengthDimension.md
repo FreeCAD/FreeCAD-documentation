@@ -290,7 +290,7 @@ rc = page.addView(dim1)
 
 ## Notes
 
--   **Edge selection**. Edges can be difficult to select. You can adjust the selection area for edges using the parameter \"/Mod/TechDraw/General/EdgeFuzz\" (see [Std\_DlgParameter](Std_DlgParameter.md)). This is a dimension-less number. The default is 10.0. Values in the 20-30 range will make it noticeably easier to select edges. Large numbers will cause overlaps with other drawing elements.
+-   **Edge selection**. Edges can be difficult to select. You can adjust the selection area for edges using the parameter \"/Mod/TechDraw/General/EdgeFuzz\" (see [Std_DlgParameter](Std_DlgParameter.md)). This is a dimension-less number. The default is 10.0. Values in the 20-30 range will make it noticeably easier to select edges. Large numbers will cause overlaps with other drawing elements.
 -   **Decimal places**. Dimensions use the global decimal places setting by default. This can be changed via [preferences](TechDraw_Preferences#Dimensions.md) or by changing the FormatSpec property.
 -   **Multiple objects**. Views may contain multiple 3D objects as Source. Dimensions may be applied to geometry from any object(s) in the View (ex from Object1.Vertex0 to Object2.Vertex3).
 

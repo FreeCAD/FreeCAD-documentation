@@ -5,23 +5,23 @@ Simple configurable and toggleable grid for FreeCAD
 
 In order to configure it you should open the macro and change the variables at your desire. The following shows the available variables and their defaults   *
 
-*size\_x = 100*
+*size_x = 100*
 
-*size\_y = 100*
+*size_y = 100*
 
-*spacing\_x = 10*
+*spacing_x = 10*
 
-*spacing\_y = 10*
+*spacing_y = 10*
 
-*line\_width = 2.0*
+*line_width = 2.0*
 
-*axis\_width = line\_width \* 2*
+*axis_width = line_width \* 2*
 
-*line\_color = (0.5, 0.5, 0.5)*
+*line_color = (0.5, 0.5, 0.5)*
 
-*x\_axis\_color = (0.7, 0.3, 0.3)*
+*x_axis_color = (0.7, 0.3, 0.3)*
 
-*y\_axis\_color = (0.3, 0.7, 0.3)*
+*y_axis_color = (0.3, 0.7, 0.3)*
 
 *globalAxisCross = False*
 

@@ -1,5 +1,5 @@
 # Std MergeProject/it
-1.  REDIRECT [Std\_MergeProjects/it](Std_MergeProjects/it.md)
+1.  REDIRECT [Std_MergeProjects/it](Std_MergeProjects/it.md)
 
 
 

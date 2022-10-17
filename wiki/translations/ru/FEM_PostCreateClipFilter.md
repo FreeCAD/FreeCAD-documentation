@@ -1,5 +1,5 @@
 # FEM PostCreateClipFilter/ru
-1.  REDIRECT [FEM\_PostFilterClipScalar/ru](FEM_PostFilterClipScalar/ru.md)
+1.  REDIRECT [FEM_PostFilterClipScalar/ru](FEM_PostFilterClipScalar/ru.md)
 
 
 

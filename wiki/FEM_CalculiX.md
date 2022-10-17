@@ -57,7 +57,7 @@ The FEM Workbench loads CalculiX results into a [result object](FEM_ResultShow.m
 
 FreeCAD reads results from \*.frd file which was created by CalculiX. If these results contain multiple time steps, each time step is imported to FreeCAD as a new result object. Same behavior applies for Frequency or Buckling analysis with multiple eigenvalues.
 
-Reaction forces can be found in ccx\_dat\_file which contains reaction force components (fx, fy, fz) for each Constraint fixed and for each Constraint displacement which constrains translation degrees of freedom.
+Reaction forces can be found in ccx_dat_file which contains reaction force components (fx, fy, fz) for each Constraint fixed and for each Constraint displacement which constrains translation degrees of freedom.
 
 ## Related
 
@@ -66,7 +66,7 @@ Reaction forces can be found in ccx\_dat\_file which contains reaction force com
 
  {{FEM Tools navi}}
 
-[Category   *Poweruser\_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

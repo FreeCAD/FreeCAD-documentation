@@ -40,11 +40,17 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Se il pannello non è piatto, ma, per esempio è ondulato il rilievo non appare nella Sagoma del pannello. Questo strumento è utile soprattutto per i pannelli piatti
 -   Sagoma del pannello può visualizzare un tag. Questo tag può essere una linea di testo personalizzata o può mostrare automaticamente il tag, l\'etichetta o la descrizione del pannello a cui è collegato.
 -   Per essere utilizzato nelle lavorazioni CNC, il tag deve essere scritto con un font \"appiccicoso\", in cui le lettere sono semplici polilinee che la macchina possa seguire facilmente. Alla creazione, l\'oggetto Sagoma del pannello utilizza automaticamente il carattere specificato in Modifica → Preferenze → Draft → Testi e Dimensioni → Font ShapeString
 -   Facendo doppio click su Sagoma del pannello nella vista ad albero dopo che essa è stata creata permette di entrare nella modalità di modifica e modificare la posizione del tag
 -   Quando è necessario posizionare insieme diverse sagome di pannelli, Sagoma pannello può visualizzare un margine, che è utile per assicurare che tra di loro sia sempre presente un certo spazio
+
+
+</div>
 
 ## Proprietà
 

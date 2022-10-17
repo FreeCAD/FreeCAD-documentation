@@ -12,22 +12,17 @@
 
 ## Description
 
-FEM Purger les résultats supprime tous les [objets de résultat](FEM_ResultShow/fr.md) et tous les maillages de résultat du conteneur d\'analyse actif de la [Vue en arborescence](Tree_view/fr.md).
+FEM Purger les résultats supprime tous les [objets de résultat](FEM_ResultShow/fr.md) et tous les maillages de résultat du conteneur d\'analyse actif de la [vue en arborescence](Tree_view/fr.md).
 
-If you only want to delete a result object and keep the result mesh, create a copy of the result mesh, then select select the result object in the tree view and delete it by pressing **Del**. This way the created copy of the mesh will remain. (Using FEM ResultsPurge would also delete the copy.)
+Si vous voulez seulement supprimer un objet résultat et garder le maillage résultat, créez une copie du maillage résultat, puis sélectionnez l\'objet résultat dans la vue en arborescence et supprimez-le en appuyant sur **Suppr**. De cette façon, la copie créée du maillage sera conservée. (L\'utilisation de FEM Purger les résultats supprimerait également la copie).
 
 ## Utilisation
 
+Il existe plusieurs façons de lancer la commande    *
 
-<div class="mw-translate-fuzzy">
-
-1.  Il existe plusieurs façons de lancer la commande   *
-    -   Appuyez sur le bouton **<img src="images/FEM_ResultsPurge.svg" width=16px> [Purger les résultats](FEM_ResultsPurge/fr.md)**.
-    -   Sélectionnez l\'option **Résultats → <img src="images/FEM_ResultsPurge.svg" width=16px> Purger les résultats** dans le menu.
-    -   Utilisez le raccourci clavier   * **R** puis **P**.
-
-
-</div>
+-   Appuyez sur le bouton **<img src="images/FEM_ResultsPurge.svg" width=16px> [Purger les résultats](FEM_ResultsPurge/fr.md)**.
+-   Sélectionnez l\'option **Résultats → <img src="images/FEM_ResultsPurge.svg" width=16px> Purger les résultats** dans le menu.
+-   Utilisez le raccourci clavier    * **R** puis **P**.
 
 
 

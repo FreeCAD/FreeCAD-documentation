@@ -39,15 +39,9 @@ brew install --only-dependencies freecad
 ```
 
 
-<div class="mw-translate-fuzzy">
+{{Incode|brew install}}
 
-Hinweise   *
-
-1.  \'brew install\' kann eine ganze Weile dauern, also solltest du dir vielleicht ein Getränk holen    *-).
-2.  Homebrew wird derzeit mit Boost 1.73 ausgeliefert, das einen Fehler enthält. Um FreeCAD zu kompilieren, bearbeitest du bitte die Datei /usr/local/opt/boost/include/boost/geometry/index/detail/rtree/visitors/insert.hpp und deklarierst in Zeile 265 MembersHolder   *   *visitor als öffentlichen Wert, indem du    * MembersHolder   *   *visitor durch    * public MembersHolder   *   *visitor ersetzst.
-
-
-</div>
+kann eine ganze Weile dauern, also genug Zeit, um sich ein Getränk zu holen    *-).
 
 ## Quellcode beziehen 
 
@@ -86,17 +80,17 @@ Zunächst führen wir CMake aus, um die Kompilierkonfiguration zu erzeugen. Mehr
 
 ### CMake Optionen 
 
-  Name                          Wert                                     Anmerkungen
+  Name                       Wert                                     Anmerkungen
     
-  CMAKE\_BUILD\_TYPE            Release (STRING)                         Release oder Debug. Debug wird im Allgemeinen für Tests auf Entwicklerebene verwendet, kann aber auch für Tests auf Benutzerebene und zur Fehlersuche erforderlich sein.
-  BUILD\_QT5                    1 (BOOL)                                 Erforderlich für die Erstellung mit Qt5.
-  CMAKE\_PREFIX\_PATH           \"/usr/local/opt/qt5152;\" \... (PATH)   Erforderlich für die Erstellung mit Qt5. Siehe Hinweis unten. Du musst auch den Pfad zu den VTK Bibliotheken und NGLIB Bibliotheken der cmake Konfigurationsdatei hinzufügen.
-  FREECAD\_CREATE\_MAC\_APP     1 (BOOL)                                 Erzeugt ein FreeCAD.app Bündel an dem in CMAKE\_INSTALL\_PREFIX angegebenen Ort, wenn der Befehl \'make install\' ausgegeben wird.
-  CMAKE\_INSTALL\_PREFIX        \"./..\" (PATH)                          Pfad, wo du das FreeCAD.app Bündel erzeugen möchtest.
-  FREECAD\_USE\_EXTERNAL\_KDL   1 (BOOL)                                 Erforderlich, falls die FEM-Werkzeuge kompiliert werden sollen.
-  BUILD\_FEM\_NETGEN            1 (BOOL)                                 Erforderlich.
+  CMAKE_BUILD_TYPE           Release (STRING)                         Release oder Debug. Debug wird im Allgemeinen für Tests auf Entwicklerebene verwendet, kann aber auch für Tests auf Benutzerebene und zur Fehlersuche erforderlich sein.
+  BUILD_QT5                  1 (BOOL)                                 Erforderlich für die Erstellung mit Qt5.
+  CMAKE_PREFIX_PATH          \"/usr/local/opt/qt5152;\" \... (PATH)   Erforderlich für die Erstellung mit Qt5. Siehe Hinweis unten. Du musst auch den Pfad zu den VTK Bibliotheken und NGLIB Bibliotheken der cmake Konfigurationsdatei hinzufügen.
+  FREECAD_CREATE_MAC_APP     1 (BOOL)                                 Erzeugt ein FreeCAD.app Bündel an dem in CMAKE_INSTALL_PREFIX angegebenen Ort, wenn der Befehl \'make install\' ausgegeben wird.
+  CMAKE_INSTALL_PREFIX       \"./..\" (PATH)                          Pfad, wo du das FreeCAD.app Bündel erzeugen möchtest.
+  FREECAD_USE_EXTERNAL_KDL   1 (BOOL)                                 Erforderlich, falls die FEM-Werkzeuge kompiliert werden sollen.
+  BUILD_FEM_NETGEN           1 (BOOL)                                 Erforderlich.
 
-Hinweis   * Kommandozeile zum Erzeugen von CMAKE\_PREFIX\_PATH   *
+Hinweis   * Kommandozeile zum Erzeugen von CMAKE_PREFIX_PATH   *
 
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
@@ -165,7 +159,7 @@ FreeCAD hat von Qt 4 auf Qt 5 sowie Homebrew umgestellt. Qt 4 ist nach der Umste
 
 ### Segfault beim Start von Qt5 
 
-If Qt4 was previously installed via brew, and you then build with Qt5, you may get a EXC\_BAD\_ACCESS (SEGSEGV) exception when launching the new Qt5 build. The fix for this is to manually uninstall Qt4.
+If Qt4 was previously installed via brew, and you then build with Qt5, you may get a EXC_BAD_ACCESS (SEGSEGV) exception when launching the new Qt5 build. The fix for this is to manually uninstall Qt4.
 
 
 ```python
@@ -174,11 +168,11 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 
 ### Fortran
 
-*\"No CMAKE\_Fortran\_COMPILER could be found.\"* during configuration - Older versions of FreeCAD will need a fortran compiler installed. With Homebrew, do \"brew install gcc\" and try configuring again, giving cmake the path to Fortran ie -DCMAKE\_Fortran\_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Or, preferably use a more current version of FreeCAD source!
+*\"No CMAKE_Fortran_COMPILER could be found.\"* during configuration - Older versions of FreeCAD will need a fortran compiler installed. With Homebrew, do \"brew install gcc\" and try configuring again, giving cmake the path to Fortran ie -DCMAKE_Fortran_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Or, preferably use a more current version of FreeCAD source!
 
 ### FreeType
 
-When using CMake versions older than 3.1.0, it\'s necessary to set CMake variable FREETYPE\_INCLUDE\_DIR\_freetype2 manually, eg /usr/local/include/freetype2
+When using CMake versions older than 3.1.0, it\'s necessary to set CMake variable FREETYPE_INCLUDE_DIR_freetype2 manually, eg /usr/local/include/freetype2
 
 ### Additional Build Instructions 
 
@@ -190,7 +184,7 @@ FreeCAD can be built against the latest git master hosted on github, and launche
 
 
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

@@ -164,7 +164,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 **Top/Bottom Reinforcement Rebars    *** Barres d\'armature présentes sur la face supérieure/inférieure de la poutre
 
--    {{PropertyData/fr|NumberDiameterOffset}}   * Un tuple de Number\#Diameter\@Offset chaîne. Chaque élément du tuple représente le ferraillage pour chaque nouveau calque.
+-    {{PropertyData/fr|NumberDiameterOffset}}   * Un tuple de Number#Diameter@Offset chaîne. Chaque élément du tuple représente le ferraillage pour chaque nouveau calque.
 
 -    {{PropertyData/fr|Rebar Type}}   * Liste de tuple de type de barres d\'armature.
 
@@ -178,7 +178,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 **Left/Right Reinforcement Rebars    *** Barres d\'armature présentes à gauche et à droite de la poutre
 
--    {{PropertyData/fr|NumberDiameterOffset}}   * Chaîne de Number\#Diameter\@Offset pour les barres d\'armature.
+-    {{PropertyData/fr|NumberDiameterOffset}}   * Chaîne de Number#Diameter@Offset pour les barres d\'armature.
 
 -    {{PropertyData/fr|Rebar Type}}   * Liste des types de barres d\'armature.
 
@@ -259,7 +259,7 @@ RebarGroup = makeReinforcement(
 
 -    `number_spacing_spue`spécifie le nombre d\'étriers ou la valeur de la séparation qui les sépare, en fonction de `number_spacing_check`.
 
--    `top_reinforcement_number_diameter_offset`et `bottom_reinforcement_number_diameter_offset` sont un tuple de la chaîne number\_diameter\_offset. Chaque élément du tuple représente le ferraillage pour chaque nouvel ensemble.
+-    `top_reinforcement_number_diameter_offset`et `bottom_reinforcement_number_diameter_offset` sont un tuple de la chaîne number_diameter_offset. Chaque élément du tuple représente le ferraillage pour chaque nouvel ensemble.
 
    Syntaxe    * (
                "number1#diameter1@offset1+number2#diameter2@offset2+...",
@@ -290,7 +290,7 @@ RebarGroup = makeReinforcement(
 
 , ...) et le nombre d'éléments du tuple doit être égal à un de moins que le nombre d'ensembles.
 
--    `left_rebars_number_diameter_offset`et `right_rebars_number_diameter_offset` sont une chaîne de number\_diameter\_offset.
+-    `left_rebars_number_diameter_offset`et `right_rebars_number_diameter_offset` sont une chaîne de number_diameter_offset.
 
    Syntaxe    * "number1#diameter1@offset1+number2#diameter2@offset2+..."
 

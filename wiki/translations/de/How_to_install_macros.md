@@ -181,7 +181,7 @@ Ab FreeCAD 0.17 verwendet man den [Addon-Manager](Std_AddonMgr/de.md) in {{MenuC
 
 In früheren Versionen von FreeCAD konntest du zwei automatisierte Wege nutzen, um Makros und andere Addons zu installieren   *
 
--   [addons\_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * selbst ein Makro, dies war der Vorläufer des Zusatzmanagers, und wird im [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) Repositorium beherbergt. Bei Neuinstallationen von FreeCAD muss dieses Tool nicht verwendet werden.
+-   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * selbst ein Makro, dies war der Vorläufer des Zusatzmanagers, und wird im [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) Repositorium beherbergt. Bei Neuinstallationen von FreeCAD muss dieses Tool nicht verwendet werden.
 -   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * ebenfalls ein Makro, es kann verwendet werden, um neue Komponenten in FreeCAD zu installieren. Es wird nicht mehr weiterentwickelt.
 
 Der empfohlene Weg, Zusätze, d.h. [externe Arbeitsbereiche](external_workbenches/de.md) und Makros zu installieren, ist mit dem [Addon-Manager](Std_AddonMgr/de.md). Du kannst jedoch immer noch Makros mit den in den folgenden Abschnitten beschriebenen manuellen Methoden zu deinem System hinzufügen; dies ist nützlich, wenn du deinen eigenen Code entwickelst und testest.
@@ -261,7 +261,7 @@ Starte FreeCAD neu, um das neue Makro korrekt zu registrieren.
 
 Erstelle ein neues Dokument mit **Datei → <img src="images/Std_New.svg" width=16px>  [Neu](Std_New/de.md)**, und wiederhole dann die vorherigen Schritte, um das Makro auszuführen.
 
-![](images/Macro_Install_HowTo_23.png ) 
+![](images/Macro_Install_HowTo_23.png) 
 *align=center|Das Makro gibt einen Fehler zurück, wenn kein Dokument aktiv ist*
 
 12\. Sobald ein aktives Dokument verfügbar ist, wird das Makro ausgeführt und ein Objekt erstellt.

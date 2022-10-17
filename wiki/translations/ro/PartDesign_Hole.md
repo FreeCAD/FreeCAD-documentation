@@ -116,7 +116,7 @@ Much of the Data properties are the same as those shown in [Options](#Options.md
 <div class="mw-translate-fuzzy">
 
 -   The selected sketch must contain one or more circle(s). The radius of the circle(s) inside the sketch is not taken into account. The generated holes will be identical even if the circles in the sketch have varying radii.
--   By default, the hole feature extrudes below the sketch plane. If the solid lies on the XY\_Plane, and the hole sketch is attached to the XY\_Plane, it will try to extrude away from the solid and seemingly produce no result. In such a case, the Reversed property needs to be manually set to true; otherwise the sketch needs to be mapped to the bottom face of the solid.
+-   By default, the hole feature extrudes below the sketch plane. If the solid lies on the XY_Plane, and the hole sketch is attached to the XY_Plane, it will try to extrude away from the solid and seemingly produce no result. In such a case, the Reversed property needs to be manually set to true; otherwise the sketch needs to be mapped to the bottom face of the solid.
 
 
 </div>
@@ -128,8 +128,8 @@ Cut types (screw-types) are defined in [json](https   *//de.wikipedia.org/wiki/J
 The file should contain   *
 
 -   **name**   * The name of the definition. This must be unique as it will be used as identifier in the FreeCAD UI and as internal index.
--   **cut\_type**   * Either `countersink` or `counterbore`.
--   **thread\_type**   * Either `metric` or `metricfine`.
+-   **cut_type**   * Either `countersink` or `counterbore`.
+-   **thread_type**   * Either `metric` or `metricfine`.
 -   **angle**   * The angle of a countersink (not necessary for counterbore).
 -   **data**   * A list of sizes, consisting of   *
     -   **thread**   * Name of thread known to FreeCAD.

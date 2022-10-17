@@ -16,7 +16,7 @@
 
 Toto malé makro mění šipku kurzoru myši na jemný křížek.
 
-<img alt="Macro\_Mouse\_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;"> 
+<img alt="Macro_Mouse_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;"> 
 *Malý příklad použití třídy '''ViewObserver()''' a použití klávesnice '''[SoKeyboardEvent](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)'''*
 
 ## Použití
@@ -31,7 +31,7 @@ Toto malé makro mění šipku kurzoru myši na jemný křížek.
 
 ToolBar icon ![](images/Macro_Mouse_Cross.png )
 
-**Macro\_Mouse\_Cross.FCMacro**
+**Macro_Mouse_Cross.FCMacro**
 
 
 {{MacroCode|code=

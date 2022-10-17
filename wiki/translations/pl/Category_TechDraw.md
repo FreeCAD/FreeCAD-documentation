@@ -37,9 +37,11 @@ This category lists pages related to the [TechDraw Workbench/pl](TechDraw_Workbe
 | [TechDraw LengthDimension/pl](wiki/TechDraw LengthDimension/pl.md) | [TechDraw LineGroup/pl](wiki/TechDraw LineGroup/pl.md) | [TechDraw LinkDimension/pl](wiki/TechDraw LinkDimension/pl.md) |
 | [TechDraw Midpoints/pl](wiki/TechDraw Midpoints/pl.md) | [TechDraw MoveView/pl](wiki/TechDraw MoveView/pl.md) | [TechDraw PageDefault/pl](wiki/TechDraw PageDefault/pl.md) |
 | [TechDraw PageTemplate/pl](wiki/TechDraw PageTemplate/pl.md) | [TechDraw Pitch Circle Tutorial/pl](wiki/TechDraw Pitch Circle Tutorial/pl.md) | [TechDraw Preferences/pl](wiki/TechDraw Preferences/pl.md) |
-| [TechDraw ProjectionGroup/pl](wiki/TechDraw ProjectionGroup/pl.md) | [TechDraw Quadrants/pl](wiki/TechDraw Quadrants/pl.md) | [TechDraw RadiusDimension/pl](wiki/TechDraw RadiusDimension/pl.md) |
-| [TechDraw RedrawPage/pl](wiki/TechDraw RedrawPage/pl.md) | [TechDraw RichTextAnnotation/pl](wiki/TechDraw RichTextAnnotation/pl.md) | [TechDraw SectionView/pl](wiki/TechDraw SectionView/pl.md) |
-| [TechDraw ShareView/pl](wiki/TechDraw ShareView/pl.md) | [TechDraw ShowAll/pl](wiki/TechDraw ShowAll/pl.md) | [TechDraw SpreadsheetView/pl](wiki/TechDraw SpreadsheetView/pl.md) |
+| [TechDraw PrintAll/pl](wiki/TechDraw PrintAll/pl.md) | [TechDraw ProjectionGroup/pl](wiki/TechDraw ProjectionGroup/pl.md) | [TechDraw ProjectShape/pl](wiki/TechDraw ProjectShape/pl.md) |
+| [TechDraw Quadrants/pl](wiki/TechDraw Quadrants/pl.md) | [TechDraw RadiusDimension/pl](wiki/TechDraw RadiusDimension/pl.md) | [TechDraw RedrawPage/pl](wiki/TechDraw RedrawPage/pl.md) |
+| [TechDraw RichTextAnnotation/pl](wiki/TechDraw RichTextAnnotation/pl.md) | [TechDraw SectionView/pl](wiki/TechDraw SectionView/pl.md) | [TechDraw ShareView/pl](wiki/TechDraw ShareView/pl.md) |
+| [TechDraw ShowAll/pl](wiki/TechDraw ShowAll/pl.md) | [TechDraw SpreadsheetView/pl](wiki/TechDraw SpreadsheetView/pl.md) | [TechDraw StackBottom/pl](wiki/TechDraw StackBottom/pl.md) |
+| [TechDraw StackDown/pl](wiki/TechDraw StackDown/pl.md) | [TechDraw StackTop/pl](wiki/TechDraw StackTop/pl.md) | [TechDraw StackUp/pl](wiki/TechDraw StackUp/pl.md) |
 | [TechDraw SurfaceFinishSymbol/pl](wiki/TechDraw SurfaceFinishSymbol/pl.md) | [TechDraw Symbol/pl](wiki/TechDraw Symbol/pl.md) | [TechDraw TemplateHowTo/pl](wiki/TechDraw TemplateHowTo/pl.md) |
 | [TechDraw Templates/pl](wiki/TechDraw Templates/pl.md) | [TechDraw ToggleFrame/pl](wiki/TechDraw ToggleFrame/pl.md) | [Template:TechDraw Tools navi/pl](wiki/Template_TechDraw Tools navi/pl.md) |
 | [TechDraw VerticalDimension/pl](wiki/TechDraw VerticalDimension/pl.md) | [TechDraw VerticalExtentDimension/pl](wiki/TechDraw VerticalExtentDimension/pl.md) | [TechDraw View/pl](wiki/TechDraw View/pl.md) |

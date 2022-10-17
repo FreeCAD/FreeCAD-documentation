@@ -98,15 +98,6 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/ru

@@ -1,5 +1,5 @@
 # Std Help
-1.  REDIRECT [Std\_Help\_Menu](Std_Help_Menu.md)
+1.  REDIRECT [Std_Help_Menu](Std_Help_Menu.md)
 
 
 

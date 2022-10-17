@@ -1,5 +1,5 @@
 # Category:OpenSCAD/zh
-This category lists pages related to the [OpenSCAD\_Workbench/zh](OpenSCAD_Workbench/zh.md).
+This category lists pages related to the [OpenSCAD_Workbench/zh](OpenSCAD_Workbench/zh.md).
 
 [Category   *Workbenches/zh](Category   *Workbenches/zh.md)
 

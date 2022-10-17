@@ -6,19 +6,19 @@
 
 {{TOCright}}
 
-建築ワークベンチによって近代的なBIMワークフローをFreeCADで使用することができます。IFCサポート、壁や構造要素や窓といった完全にパラメトリックな建築物の構成要素、優れた2Dドキュメント制作といった機能がサポートされています。また建築ワークベンチでは製図ワークベンチの全てのツールが使用できます。
+## はじめに
 
-The <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch Workbench](Arch_Workbench.md) provides a modern [building information modelling](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports industry foundation classes ([IFC](Arch_IFC.md)) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
+<img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Archワークベンチにより](Arch_Workbench/ja.md)、壁・梁・屋根・窓・階段・配管・家具等の建築的存在物をパラメトリックに操作可能な機能等を用いて、FreeCADにて現代的な[building information modelling](http   *//ja.wikipedia.org/wiki/BIM) (BIM)の作業工程が可能です。本ワークベンチは、industry foundation classes ([IFC](Arch_IFC.md))のファイルに対応しており、<img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw ワークベンチと組み合わせて](TechDraw_Workbench/ja.md)2次元の平面図の作成も可能です。
 
-The Arch Workbench imports all tools from the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft Workbench](Draft_Workbench.md), as it uses its 2D objects to build 3D parametric architectural objects. Nevertheless, Arch can also use solid shapes created with other workbenches like <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench.md) and <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench.md).
+Archワークベンチは<img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draftワークベンチのすべてのツールを受け継いでおり](Draft_Workbench/ja.md)、2次元のオブジェクトから3次元のパラメトリックな建築用オブジェクトを作成することが可能です。しかしそれだけではなく<img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Partや](Part_Workbench/ja.md)<img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesignといった他のワークベンチにより作成されたソリッドの図形を使うことも可能です](PartDesign_Workbench/ja.md)。
 
-建築ワークベンチによって近代的な[BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling)ワークフローをFreeCADで使用することができます。[IFC](http   *//en.wikipedia.org/wiki/Industry_Foundation_Classes)サポート、壁や構造要素や窓といった完全にパラメトリックな建築物の構成要素、優れた2Dドキュメント制作といった機能がサポートされています。また建築ワークベンチでは[製図ワークベンチの全てのツールが使用できます](Draft_Workbench/jp.md)。
+FreeCADのBIM関連機能は徐々にこのArchワークベンチと<img alt="" src=images/Workbench_BIM.svg  style="width   *24px;"> [BIMワークベンチ](BIM_Workbench/ja.md)（<img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Managerから導入可能](Std_AddonMgr.md)）に分担されるように実装していっています。前者が基本的な建築ツールを担い、後者はより直接的なBIMの作業工程を担っており、直感的かつ使いやすいようArchのツール群の上に新たなインターフェースを追加して成り立っているものです。詳しくは[FreeCAD BIM migration guide](https   *//yorik.uncreated.net/blog/2020-010-freecad-bim-guide)をご覧ください。
 
-The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch community](https   *//osarch.org), with the ultimate goal of improving building design by using entirely free software.
+Draft、Arch及びBIMの各ワークベンチの開発者達はより大きな[OSArchコミュニティー](https   *//osarch.org)とも連携しており、共に建築土木の設計をフリーソフトのみを用いて改良するという究極の目標に向かって努力しています。
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width   *600px;">
 
-### 構築用ツール
+## ツール
 
 建築用オブジェクトを作成するためのツールです。
 

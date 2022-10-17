@@ -50,7 +50,7 @@ Kopieren Sie die Datei in das Makroverzeichnis   *
 -   **Linux & Mac**    * \$home/.Freecad/Mod/UnrollRuledSurface.
 -   **Windows**    * C   *Program Files\\FreeCAD0.13
 
-Add templates    * A3\_Landscape\_Empty.svg A3\_Landscape.svg A4\_Landscape\_Empty.svg A4\_Landscape.svg
+Add templates    * A3_Landscape_Empty.svg A3_Landscape.svg A4_Landscape_Empty.svg A4_Landscape.svg
 Cf [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737)
 
 
@@ -73,7 +73,7 @@ See also   * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org
 
 </div>
 
-![Macro\_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png )
+![Macro_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png )
 
 ## Usage
 
@@ -95,14 +95,14 @@ See also   * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org
 
 <div class="mw-translate-fuzzy">
 
-Die neueste Version des Makros ist zu finden auf [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](Std_AddonMgr/de.md) <img alt="Std\_AddonMgr/de" src=images/Std_AddonMgr.svg  style="width   *24px;">.
+Die neueste Version des Makros ist zu finden auf [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](Std_AddonMgr/de.md) <img alt="Std_AddonMgr/de" src=images/Std_AddonMgr.svg  style="width   *24px;">.
 
 
 </div>
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 
-**Macro\_unrollRuledSurface.py**
+**Macro_unrollRuledSurface.py**
 
     # -*- coding   * utf-8 -*-
     #***************************************************************************

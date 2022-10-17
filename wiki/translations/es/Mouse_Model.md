@@ -1,5 +1,5 @@
 # Mouse Model/es
-1.  REDIRECT [Mouse\_navigation/es](Mouse_navigation/es.md)
+1.  REDIRECT [Mouse_navigation/es](Mouse_navigation/es.md)
 
 
 

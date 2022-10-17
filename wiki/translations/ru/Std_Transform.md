@@ -1,5 +1,5 @@
 # Std Transform/ru
-1.  REDIRECT [Std\_TransformManip/ru](Std_TransformManip/ru.md)
+1.  REDIRECT [Std_TransformManip/ru](Std_TransformManip/ru.md)
 
 
 

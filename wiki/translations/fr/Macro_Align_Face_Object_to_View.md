@@ -24,7 +24,7 @@ Cette macro dirige la face de l\'objet sur la face de la vue active (caméra). D
 
 Icône de la barre d\'outils ![](images/Macro_Align_Face_Object_to_View.png )
 
-**Macro\_Align\_Face\_Object\_to\_View.FCMacro**
+**Macro_Align_Face_Object_to_View.FCMacro**
 
 
 {{MacroCode|code=

@@ -22,7 +22,7 @@ Run the macro
 
 The icon for the tool bar to be placed in the same directory of the macro ![](images/Macro_FCSpreadsheet_Extract.png )
 
-**Macro\_FCSpreadSheet\_Extract.FCMacro**
+**Macro_FCSpreadSheet_Extract.FCMacro**
 
 
 {{MacroCode|code=

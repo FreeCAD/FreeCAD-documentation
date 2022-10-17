@@ -18,7 +18,7 @@ This macro converts selected meshes to parts. It has a broad tolerance, so use i
 
 ToolBar Icon ![](images/Macro_MeshToPart.png )
 
-**Macro\_MeshToPart.FCMacro**
+**Macro_MeshToPart.FCMacro**
 
 
 {{MacroCode|code=

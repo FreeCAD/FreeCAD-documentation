@@ -1,5 +1,5 @@
 # Category:Mesh/hr
-This category lists pages related to the [Mesh\_Workbench/hr](Mesh_Workbench/hr.md).
+This category lists pages related to the [Mesh_Workbench/hr](Mesh_Workbench/hr.md).
 
 [Category   *Workbenches/hr](Category   *Workbenches/hr.md)
 

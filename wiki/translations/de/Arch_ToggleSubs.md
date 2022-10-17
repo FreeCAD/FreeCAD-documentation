@@ -25,7 +25,7 @@ Mit diesem Werkzeug werden die inneren subtrahierten Objekte alle sichtbar oder 
 
 ## Optionen
 
-Die Farbe eines Subtraktionselements kann dem Stil der [Entwurfskonstruktion](Draft_ToggleConstructionMode/de.md) Elemente folgen, indem die entsprechende Option in den [Arch\_Einstellungen](Arch_Preferences/de.md), im Menü {{MenuCommand/de|Bearbeiten → Einstellungen → Arch → Allgemeine Einstellungen → Entwurfskonstruktionsstil auf Unterkomponenten anwenden}} aktiviert wird.
+Die Farbe eines Subtraktionselements kann dem Stil der [Entwurfskonstruktion](Draft_ToggleConstructionMode/de.md) Elemente folgen, indem die entsprechende Option in den [Arch_Einstellungen](Arch_Preferences/de.md), im Menü {{MenuCommand/de|Bearbeiten → Einstellungen → Arch → Allgemeine Einstellungen → Entwurfskonstruktionsstil auf Unterkomponenten anwenden}} aktiviert wird.
 
 Der [Entwurfskonstruktion](Draft_ToggleConstructionMode/de.md) Stil kann in den [Entwurf Einstellungen](Draft_Preferences/de.md), im Menü {{MenuCommand/de|Einstellungen → Entwurf → Allgemeiner Entwurf}} eingestellt werden.
 

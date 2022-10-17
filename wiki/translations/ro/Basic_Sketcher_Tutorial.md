@@ -131,7 +131,7 @@ In the **Combo View**, expand the option **Edit controls** and make sure **Autoc
 
 ##### Sketcher construction geometry 
 
-Construction geometry is used as guides for the creation of complex profiles. To access it, we need to enable \'\'\'Construction mode \'\'\'.
+Construction geometry is used as guides for the creation of complex profiles. To access it, we need to enable **Construction mode**.
 
 
 </div>

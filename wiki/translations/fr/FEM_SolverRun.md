@@ -12,20 +12,15 @@
 
 ## Description
 
-This command is used to easily trigger the FEM solver. It is a simplified version of the <img alt="" src=images/FEM_SolverControl.svg  style="width   *24px;"> [Solver job control](FEM_SolverControl.md) which enables more settings.
+Cette commande est utilisée pour déclencher facilement le solveur FEM. C\'est une version simplifiée de <img alt="" src=images/FEM_SolverControl.svg  style="width   *24px;"> [FEM Réglage du solveur](FEM_SolverControl/fr.md) qui permet plus de réglages.
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Sélectionnez l\'objet Solver dans la [vue en arborescence](Tree_view/fr.md), par exemple, pour le solveur CalcuilX <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> **Solveur Calculix standard**.
+2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_SolverRun.svg" width=16px> [Lancer les calculs du solveur](FEM_SolverRun/fr.md)**.
     -   Sélectionnez l\'option **Solveur →  <img src="images/FEM_SolverRun.svg" width=16px> Lancer les calculs du solveur** dans le menu.
-    -   Utilisez le raccourci clavier   * **S** puis **R**.
-
-
-</div>
+    -   Utilisez le raccourci clavier    * **S** puis **R**.
 
 
 

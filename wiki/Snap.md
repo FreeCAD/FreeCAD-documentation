@@ -1,5 +1,5 @@
 # Snap
-1.  REDIRECT [Ubuntu\_Snap](Ubuntu_Snap.md)
+1.  REDIRECT [Ubuntu_Snap](Ubuntu_Snap.md)
 
 
 

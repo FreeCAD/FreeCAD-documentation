@@ -27,7 +27,7 @@ Cette macro crée un escalier tournant à gauche ou à droite avec le fichier st
 
 ToolBar Icon <img alt="" src=images/Half_turn_stairs.png  style="width   *64px;">
 
-**Half\_turn\_stairs.FCMacro**
+**Half_turn_stairs.FCMacro**
 
 
 {{MacroCode|code=
@@ -295,7 +295,7 @@ Sauvez les données dans un fichier nommé **stairs.dat** dans votre répertoire
 
 ### Liens
 
--   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
+-   [Macro_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
 
 

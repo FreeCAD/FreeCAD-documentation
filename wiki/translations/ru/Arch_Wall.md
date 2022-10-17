@@ -110,17 +110,9 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 ## Scripting
 
 
-<div class="mw-translate-fuzzy">
-
-## Программирование
-
-
 **См. так же   ***
 
-[Arch API](Arch_API/ru.md) и [Основы написания скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-
-</div>
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 
 <div class="mw-translate-fuzzy">

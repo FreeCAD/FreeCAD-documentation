@@ -22,7 +22,7 @@ Copiez la macro **Triangle AH** complète dans la console Python de FreeCAD
 
 ToolBar Icon ![](images/Macro_Triangle_AH.png )
 
-**Macro\_triangleAH.FCMacro**
+**Macro_triangleAH.FCMacro**
 
 
 {{MacroCode|code=

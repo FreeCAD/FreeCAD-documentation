@@ -1,60 +1,21 @@
-# Inspection Workbench/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-<img alt="L\'icona di Inspection" src=images/Workbench_Inspection.svg  style="width   *128px;">
-
-## Introduction
-
-
-<div class="mw-translate-fuzzy">
+# <img alt="L\'icona dell\'Ambiente Ispezione" src=images/Workbench_Inspection.svg  style="width   *64px;"> Inspection Workbench/it
 
 ## Introduzione
 
-L\'ambiente <img alt="" src=images/Workbench_Inspection.svg  style="width   *24px;"> **Inspection** serve a fornire gli strumenti specifici per esaminare le forme. È ancora in sviluppo.
-
-
-</div>
+L\'[Ambiente Inspection](Inspection_Workbench/it.md) <img alt="" src=images/Workbench_Inspection.svg  style="width   *24px;"> è progettato per fornire gli strumenti specifici per esaminare le forme. È ancora in fase di sviluppo.
 
 <img alt="Screenshot" src=images/InspectionEx.png  style="width   *500px;">
 
-
-<div class="mw-translate-fuzzy">
-
-## Flusso di lavoro previsto 
+## Utilizzo
 
 -   Selezionare due forme da confrontare, preferibilmente che si intersechino tra loro.
--   Quindi utilizzare il menu **Ispezione → Ispezione visiva**.
+-   Quindi utilizzare il menu **Inspection → Visual inspection**.
 -   Si ottiene un\'immagine colorata che mostra lo scostamento tra le due forme.
-
-
-</div>
-
--   Select two shapes to be compared, preferably that intersect each other.
--   Then use the menu **Inspection → Visual inspection**.
--   You will get a colored image showing the deviation between the two shapes.
-
-
-<div class="mw-translate-fuzzy">
 
 In alternativa utilizzare la macro <img alt="" src=images/HighlightDifference.png  style="width   *24px;"> [HighlightDifference](Macro_HighlightDifference/it.md) per confrontare due forme.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

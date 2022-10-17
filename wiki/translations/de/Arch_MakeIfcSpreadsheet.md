@@ -1,5 +1,5 @@
 # Arch MakeIfcSpreadsheet/de
-1.  REDIRECT [Arch\_IfcSpreadsheet/de](Arch_IfcSpreadsheet/de.md)
+1.  REDIRECT [Arch_IfcSpreadsheet/de](Arch_IfcSpreadsheet/de.md)
 
 
 

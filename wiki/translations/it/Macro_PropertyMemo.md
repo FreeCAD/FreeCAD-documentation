@@ -45,7 +45,7 @@ Se nella lista esiste una proprietà la casella è attiva, fare clic sui tre pun
 
 <center>
 
-Image   *Macro\_FCPropertyMemo\_02.png\|Una proprietà Memo nella lista. Image   *Macro\_FCPropertyMemo\_03.png\|La finestra con l\'elenco delle Memo.
+Image   *Macro_FCPropertyMemo_02.png\|Una proprietà Memo nella lista. Image   *Macro_FCPropertyMemo_03.png\|La finestra con l\'elenco delle Memo.
 
 
 </center>
@@ -57,7 +57,7 @@ Image   *Macro\_FCPropertyMemo\_02.png\|Una proprietà Memo nella lista. Image  
 
 L\'icona per la barra degli strumenti   * ![](images/PropertyMemo.png )
 
-**Macro\_FCPropertyMemo.FCMacro**
+**Macro_FCPropertyMemo.FCMacro**
 
 
 {{MacroCode|code=

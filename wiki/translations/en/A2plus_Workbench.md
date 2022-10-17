@@ -142,7 +142,7 @@ With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24p
 
 ## Part Lists 
 
-To create part lists of assemblies, the different parts of the assembly must get part info that can be read by A2plus. This is done by editing the part using the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">. In the opened part press the toolbar button <img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> and a [spreadsheet](Spreadsheet_Workbench.md) with the name *\#PARTINFO\#* is created.
+To create part lists of assemblies, the different parts of the assembly must get part info that can be read by A2plus. This is done by editing the part using the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">. In the opened part press the toolbar button <img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> and a [spreadsheet](Spreadsheet_Workbench.md) with the name *#PARTINFO#* is created.
 
 The structure of the spreadsheet is like this   *
 
@@ -150,7 +150,7 @@ The structure of the spreadsheet is like this   *
 
 Fill out the grey fields with info you have and want to have in the final parts list.
 
-In the assembly or subassembly use the toolbar button <img alt="" src=images/A2p_PartsList.svg  style="width   *24px;">. It will ask you if you want to iterate recursively over all subassemblies. Click on *Yes*. This creates a new spreadsheet with the name *\#PARTSLIST\#*. It contains the info from the different *\#PARTSINFO\#* spreadsheets of the parts in a list like this   *
+In the assembly or subassembly use the toolbar button <img alt="" src=images/A2p_PartsList.svg  style="width   *24px;">. It will ask you if you want to iterate recursively over all subassemblies. Click on *Yes*. This creates a new spreadsheet with the name *#PARTSLIST#*. It contains the info from the different *#PARTSINFO#* spreadsheets of the parts in a list like this   *
 
 ![](images/A2p_PartslistTable.png )
 
@@ -332,7 +332,7 @@ Dragging animations are interactive since you trigger it by dragging a part of t
 4.  Now you can move the mouse and the part will follow the movement of the mouse within the defined constraints.
 5.  To end the dragging mode, left click in the assembly or press ESC.
 
-Here is an example assembly to try out the dragging animation   * [A2p\_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
+Here is an example assembly to try out the dragging animation   * [A2p_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
 
@@ -355,12 +355,12 @@ It is also possible to change instead of a placement parameter a constraint, for
 
 #### Simple Script Example 
 
-The simplest way to script an animation is a non-interactive animation that follows a defined movement. Here is an example   * First download this assembly file   * [A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and also this Python script   * [A2p\_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97981).
+The simplest way to script an animation is a non-interactive animation that follows a defined movement. Here is an example   * First download this assembly file   * [A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and also this Python script   * [A2p_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97981).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-This is the content of the script and the lines beginning with a \'\#\' describe what the different script lines do   *
+This is the content of the script and the lines beginning with a \'#\' describe what the different script lines do   *
 
 
 <div class="mw-collapsible-content">
@@ -431,7 +431,7 @@ The first script example demonstrated how to create an animation without any use
 
 This can be done by using a custom animation dialog with a slider. By moving the slider you can set the rotation angle and therefore rotate back and forth at interesting position.
 
-We use the same assembly file   * [A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and this Python script   * [A2p\_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97982).
+We use the same assembly file   * [A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and this Python script   * [A2p_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97982).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

@@ -30,7 +30,7 @@ v0.1 2021-08-09    * première version
 
 ## Code
 
-**Macro\_Spreadsheet2html.FCMacro**
+**Macro_Spreadsheet2html.FCMacro**
 
     #!/usr/bin/env python3
     # -*- coding   * utf-8 -*-

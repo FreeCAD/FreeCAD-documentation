@@ -6,7 +6,13 @@
    FCVersion   *Todos
    Author   *[r-frank](User   *R-Frank.md)
    Files   *ninguno
-}}
+---
+
+# How to install additional workbenches/es
+
+
+
+
 
 ## Descripción
 
@@ -38,12 +44,20 @@ Use el [addons-installer de Github](https   *//github.com/FreeCAD/FreeCAD-addons
 
 Durante el verano del código 2016 de Google, el estudiante Mandeep Singh comenzó a trabajar en una versión mejorada ([disponible aquí](https   *//github.com/mandeeps708/PluginManager)), pero esa versión necesita más trabajo antes de que pueda ser totalmente integrada en FreeCAD.
 
+### Manual Install 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Instalación manual 
 
 
 **Nota   ***
 
 Este método es posible pero no necesario con la introducción del [Administrador de complementos](Std_AddonMgr/es.md). Sin embargo, la información aquí puede ser útil para algunos.
+
+
+</div>
 
 -   Download the workbench from github by clicking on the button **Clone** or **Download** on the github page (upper right corner) and choosing \"Download ZIP\"
 -   Unpack the downloaded archive on your local hard disk
@@ -80,16 +94,13 @@ Adding the [community-ppa](https   *//launchpad.net/~freecad-community/+archive/
 Installing the workbenches via synaptic packet manager.
 
 
-{{Code   code   *
+```python
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
 $ git clone  https   *//github.com/tomate44/CurvesWB.git
----
+```
 
-# How to install additional workbenches/es
-
- 
 In FreeCAD you will now have a new workbench-entry called \"CurvesWB\". Once installed, use git to upgrade to the latest version   *
 
 
@@ -169,9 +180,7 @@ For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_W
     -   see this forum thread [Assembly2 in Version   * 0.16.5602 (Git)](http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
-{{Userdocnavi
-
-}} 
+ 
 
 [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 

@@ -66,4 +66,4 @@ If you are looking for persective-orthographic toggling in 3D view check [Std Pe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/ru

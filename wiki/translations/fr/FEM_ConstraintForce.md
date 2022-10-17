@@ -35,7 +35,7 @@ Cette commande applique une force de valeur donnée \[N\] à la géométrie cibl
 
 ## Remarques
 
-La force définie est appliquée uniformément aux objets sélectionnés. Par exemple, si vous définissez une contrainte de force de 200 N appliquée à deux faces ayant la même surface, chaque face sera chargée uniformément de 100 N.
+-   La force définie est appliquée uniformément aux objets sélectionnés. Par exemple, si vous définissez une contrainte de force de 200 N appliquée à deux faces ayant la même surface, chaque face sera chargée uniformément de 100 N.
 
 
 

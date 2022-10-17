@@ -31,7 +31,7 @@ A maioria das \'branding\' é feita no {**MainCmd.cpp** ou **MainGui.cpp**}. Est
 
 </div>
 
- {.C}
+ C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
@@ -101,7 +101,7 @@ No FreeCAD há também outro método suportado que não utiliza uma função mai
 
 </div>
 
- {.XML}
+ XML
 <?xml version="1.0" encoding="utf-8"?>
 <Branding>
     <Application>FooApp</Application>

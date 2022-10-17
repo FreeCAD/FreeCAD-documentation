@@ -19,7 +19,7 @@ Le **Balayage soustractif** crée un solide soustractif dans le corps actif en b
 1.  Appuyer sur le bouton **<img src="images/_PartDesign_SubtractivePipe.svg" width=24px> '''Enlèvement de matière par balayage'''**.
 2.  Dans la boîte de dialogue **Sélectionner la fonction**, sélectionner une esquisse à utiliser comme première section et cliquer sur **OK**.
 
-\#\* Il est également possible de sélectionner une esquisse ou une face d\'un objet 3D ({{Version/fr|0.20}}) avant d\'appuyer sur le bouton Balayage soustractif.
+#\* Il est également possible de sélectionner une esquisse ou une face d\'un objet 3D ({{Version/fr|0.20}}) avant d\'appuyer sur le bouton Balayage soustractif.
 
 1.  Dans **Paramètres du balayage** sous **Profil**, appuyer sur le bouton **Objet**.
 2.  Sélectionner l\'esquisse à utiliser comme chemin dans la vue 3D   *
@@ -74,7 +74,7 @@ Le **Balayage soustractif** crée un solide soustractif dans le corps actif en b
 
 -    **Binormal**   * vecteur de la binormale pour le mode d\'orientation correspondant.
 
--    **Transition**   * mode de transition. Les options sont *Transformé*, *Coin Droit* ou \'\' Coin rond\'\'.
+-    **Transition**   * mode de transition. Les options sont *Transformé*, *Coin Droit* ou *Coin rond*.
 
 -    **Transformation**   * *Constant* utilise une section unique. *Multisection* utilise deux ou plusieurs sections transversales. *Linear*, *S-shape* et *Interpolation* ne sont actuellement pas fonctionnels.
 

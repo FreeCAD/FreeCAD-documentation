@@ -59,7 +59,7 @@ Um neue Anwender zu unterstützen, enthält der Arbeitsbereich Schiff einen Geom
 
 </center>
 
-Beim Ausführen des Werkzeugs (Schiffskonstruktion/Laden einer Beispielschiffsgeometrie) wird ein Aufgabendialog angezeigt. Wähle **Series 60 der Iowa Universität** und drücke Annehmen. Das Werkzeug lädt ein neues Dokument mit der **s60\_IowaUniversity** Geometrie.
+Beim Ausführen des Werkzeugs (Schiffskonstruktion/Laden einer Beispielschiffsgeometrie) wird ein Aufgabendialog angezeigt. Wähle **Series 60 der Iowa Universität** und drücke Annehmen. Das Werkzeug lädt ein neues Dokument mit der **s60_IowaUniversity** Geometrie.
 
 
 **'''Warnung, bevor irgendetwas bearbeitet wird!'''
@@ -183,7 +183,7 @@ Es müssen zwei Längsschnitte hinzugefügt werden, wähle also **Längsschnitte
 
 ### Wasserlinien
 
-6 Wasserlinien zwischen Grundlinie und Konstruktionsentwurf müssen hinzugefügt werden, wähle also **Wasserlinien** Art der Abschnitte, gehe zum Feld *\'Automatisch erstellen* und stelle **5** ein (Z = 0 m wird nicht berücksichtigt, füge es manuell hinzu, wenn du es benötigst) Abschnitte, dann drücke **Abschnitte erstellen**. Die Schnitttabelle wird gefüllt und die Schnittvorschau aktualisiert.
+6 Wasserlinien zwischen Grundlinie und Konstruktionsentwurf müssen hinzugefügt werden, wähle also **Wasserlinien** Art der Abschnitte, gehe zum Feld **Automatisch erstellen\'\' und stelle**5\'\'\' ein (Z = 0 m wird nicht berücksichtigt, füge es manuell hinzu, wenn du es benötigst) Abschnitte, dann drücke **Abschnitte erstellen**. Die Schnitttabelle wird gefüllt und die Schnittvorschau aktualisiert.
 
 Weitere zusätzliche Wasserlinien müssen hinzugefügt werden   *
 

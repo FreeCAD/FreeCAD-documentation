@@ -1,5 +1,5 @@
 # Points Module/ru
-1.  REDIRECT [Points\_Workbench/ru](Points_Workbench/ru.md)
+1.  REDIRECT [Points_Workbench/ru](Points_Workbench/ru.md)
 
 
 

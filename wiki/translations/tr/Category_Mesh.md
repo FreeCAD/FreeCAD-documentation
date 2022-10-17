@@ -1,5 +1,5 @@
 # Category:Mesh/tr
-This category lists pages related to the [Mesh\_Workbench/tr](Mesh_Workbench/tr.md).
+This category lists pages related to the [Mesh_Workbench/tr](Mesh_Workbench/tr.md).
 
 [Category   *Workbenches/tr](Category   *Workbenches/tr.md)
 

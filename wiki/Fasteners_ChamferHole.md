@@ -19,7 +19,7 @@ The <img alt="" src=images/Fasteners_ChamferHole.svg  style="width   *24px;"> **
 1.  The command can detect screw diameters automatically. Holes must have the correct diameter for this to work. For example an M5 screw requires a 5mm pass hole or a 4.2mm tap hole. The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *16px;"> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator.md) command can be used to determine tap hole diameters.
 2.  Select a part with circular holes.
 3.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_ChamferHole.svg" width=16px> [Fasteners ChamferHole](Fasteners_ChamferHole.md)** button.
+    -   Press the **<img src="images/Fasteners_ChamferHole.svg" width=16px> [Make countersunk](Fasteners_ChamferHole.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_ChamferHole.svg" width=16px> Make countersunk** option from the menu.
 4.  The **Chamfer holes for countersunk screws** task panel opens.
 5.  The **Edges to chamfer** list shows all circular edges of the selected part.

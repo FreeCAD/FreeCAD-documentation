@@ -19,13 +19,13 @@ Pour utiliser cette macro, vous devez briser le fil en bords individuels à l\'a
 
 La macro va vérifier si les segments se situent tous sur un cercle commun (segments contigus) et s\'arrêtera si ce n\'est pas le cas. Sinon, un arc sera créé et les segments enlevés.
 
-En raison de petites erreurs dans les calculs, de la fonction **<img src="images/Draft_Upgrade.svg" width=16px> [Draft Upgrade](Draft_Upgrade/fr.md)** la macro peut parfois ne pas de reconstituer toutes les arêtes et arcs. Dans ce cas, la macro [Macro\_SuperWire](Macro_SuperWire/fr.md) offre un moyen plus robuste pour le faire.
+En raison de petites erreurs dans les calculs, de la fonction **<img src="images/Draft_Upgrade.svg" width=16px> [Draft Upgrade](Draft_Upgrade/fr.md)** la macro peut parfois ne pas de reconstituer toutes les arêtes et arcs. Dans ce cas, la macro [Macro_SuperWire](Macro_SuperWire/fr.md) offre un moyen plus robuste pour le faire.
 
 ## Script
 
 ToolBar Icon ![](images/Macro_EdgesToArc.png )
 
-**Macro\_EdgesToArc.FCMacro**
+**Macro_EdgesToArc.FCMacro**
 
 
 {{MacroCode|code=

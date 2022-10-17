@@ -11,13 +11,13 @@
 
 ## Description
 
-The <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *24px;"> **Fasteners ChangeParameters** command can be used to change the parameters of selected fasteners.
+The <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *24px;"> **Fasteners ChangeParameters** command can be used to change the parameters of fasteners.
 
 ## Usage
 
 1.  Select one or more fasteners. If multiple fasteners are selected they must be either only screws, only washers or only nuts.
 2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_ChangeParameters.svg" width=16px> [Fasteners ChangeParameters](Fasteners_ChangeParameters.md)** button.
+    -   Press the **<img src="images/Fasteners_ChangeParameters.svg" width=16px> [Change fastener parameters](Fasteners_ChangeParameters.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_ChangeParameters.svg" width=16px> Change fastener parameters** option from the menu.
 3.  The **Change fastener parameters** task panel open.
 4.  Optionally change the **Fastener type**.

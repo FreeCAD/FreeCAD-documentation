@@ -14,7 +14,7 @@ Poniższa lista przedstawia parametry, które nie są dostępne za pośrednictwe
 -   **Addons/developerMode** (boolean)   * Ustaw wartość opcji na {{TRUE/pl}} aby włączyć tryb deweloperski [Menadżera dodatków](Std_AddonMgr.md). Zobacz stronę [Metadane pakietu](Package_Metadata/pl#Sprawdzanie_poprawno.C5.9Bci.md).
 -   **Bitmaps/Theme/ThemeSearchPaths** *(boolean)*   * Ustaw wartość opcji na {{FALSE/pl}} aby FreeCAD używał dołączonych ikon zamiast systemowego motywu ikon w Linuksie.
 -   **Dialog/DontUseNativeColorDialog** *(boolean)*   * Ustawienie okna dialogowego selektora kolorów. Ustaw wartość na {{FALSE/pl}}, jeśli chcesz, aby FreeCAD używał natywnego okna dialogowego koloru w twoim systemie, a nie okna Qt Color. Wartość domyślna to {{TRUE/pl}}.
--   **Dialog/DontUseNativeDialog** *(boolean)*   * Ustawienie okna dialogowego pliku. Ustaw wartość na {{FALSE/pl}}, jeśli chcesz używać natywnego okna dialogowego Plik podczas otwierania plików lub {{TRUE/pl}}, aby używać okna dialogowego Qt File Picker. Domyślne zależy od ustawienia podczas kompilacji   * \#define (USE\_QT\_FILEDIALOG).
+-   **Dialog/DontUseNativeDialog** *(boolean)*   * Ustawienie okna dialogowego pliku. Ustaw wartość na {{FALSE/pl}}, jeśli chcesz używać natywnego okna dialogowego Plik podczas otwierania plików lub {{TRUE/pl}}, aby używać okna dialogowego Qt File Picker. Domyślne zależy od ustawienia podczas kompilacji   * #define (USE_QT_FILEDIALOG).
 -   **Dialog/DontUseNativeFontDialog** *(boolean)*   * Używane przez polecenie [Kształt z tekstu](Draft_ShapeString/pl.md). Ustaw wartość na {{FALSE/pl}}, aby użyć natywnego okna dialogowego Czcionka. Wartość domyślna to {{TRUE/pl}}.
 -   **DockWindows/TreeView/Enabled** *(boolean)*   * Ustaw wartość opcji na {{TRUE/pl}} aby umożliwić dokowanie widżetu [Widok drzewa](Document_structure/pl.md) niezależnie od Widoku Połączonego. Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok połączony.
 -   **DockWindows/PropertyView/Enabled** *(boolean)*   * Ustaw wartość opcji na {{TRUE/pl}} aby umożliwić dokowanie widżetu [Widok właściwości](Property_editor/pl.md) niezależnie od Widoku Połączonego. Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok.
@@ -26,7 +26,7 @@ Poniższa lista przedstawia parametry, które nie są dostępne za pośrednictwe
 -   **General/RecentIncludesExported** *(boolean)*   * Ustaw wartość opcji na {{TRUE/pl}} to include exported files in the Recent Files list. Defaults to {{FALSE/pl}}.
 -   **General/RecentIncludesImported** *(boolean)*   * Ustaw wartość opcji na {{FALSE/pl}} to exclude imported files from the Recent Files list. Defaults to {{TRUE/pl}}.
 -   **Macro/DuplicateFrom001** *(boolean)*   * Ustaw wartość opcji na {{TRUE/pl}} aby zawsze rozpoczynać poszukiwanie sugerowanej nazwy pliku z duplikatem makra od \@001 zamiast aktualnego \@NNN *(jeśli dotyczy)*. Domyślna wartość {{FALSE/pl}}.
--   **Macro/DuplicateIgnoreExtraNote** *(boolean)*   * Ustaw wartość na {{TRUE/pl}}, aby zignorować dodatkową notatkę podczas sugerowania zduplikowanej nazwy pliku makra. Dodatkowa uwaga to tekst w nazwie pliku po \"\@NNN\" i przed \".FCMacro\". Przykład   * \"my\_macro\@005.my\_note.FCMacro\". Jeżeli ustawiono wartość {{TRUE/pl}}, następną sugerowaną nazwą pliku będzie \"my\_macro\@006.FCMacro\". Jeżeli {{FALSE/pl}}, to następną sugerowaną nazwą pliku jest \"my\_macro\@006.my\_note.FCMacro\". Aby tekst został rozpoznany jako dodatkowa notatka, powinien zaczynać się od kropki (\".\") po członie \"\@NNN\". W przeciwnym razie, na przykład \"my\_macro\@006\_my\_note.FCMacro\" otrzyma \"my\_macro\@006\_my\_note\@001.FCMacro\" jako sugerowaną nową nazwę pliku, co może być pożądane w niektórych przypadkach. Domyślną wartością jest {{FALSE/pl}}.
+-   **Macro/DuplicateIgnoreExtraNote** *(boolean)*   * Ustaw wartość na {{TRUE/pl}}, aby zignorować dodatkową notatkę podczas sugerowania zduplikowanej nazwy pliku makra. Dodatkowa uwaga to tekst w nazwie pliku po \"@NNN\" i przed \".FCMacro\". Przykład   * \"my_macro@005.my_note.FCMacro\". Jeżeli ustawiono wartość {{TRUE/pl}}, następną sugerowaną nazwą pliku będzie \"my_macro@006.FCMacro\". Jeżeli {{FALSE/pl}}, to następną sugerowaną nazwą pliku jest \"my_macro@006.my_note.FCMacro\". Aby tekst został rozpoznany jako dodatkowa notatka, powinien zaczynać się od kropki (\".\") po członie \"@NNN\". W przeciwnym razie, na przykład \"my_macro@006_my_note.FCMacro\" otrzyma \"my_macro@006_my_note@001.FCMacro\" jako sugerowaną nową nazwę pliku, co może być pożądane w niektórych przypadkach. Domyślną wartością jest {{FALSE/pl}}.
 -   **Macro/ReplaceSpaces** *(boolean)*   * Ustaw wartość na {{FALSE/pl}}, jeśli nie chcesz, aby spacje w nazwach plików były automatycznie zamieniane na podkreślenia podczas tworzenia, zmiany nazwy lub powielania makra. Nie ma to wpływu na istniejące pliki, ma znaczenie tylko przy tworzeniu nowego pliku, zmianie nazwy lub powielaniu istniejącego. Domyślną wartością jest {{TRUE/pl}}.
 -   **MainWindow/ClearMenuBar** (boolean)   * Ustaw wartość na {{TRUE/pl}} aby wyczyścić pasek menu przy zmianie środowiska pracy, przydatne gdy używasz globalnego menu, gdyż może ono nie aktualizować się przy zmianie środowiska pracy i szybko stać się zagracone wpisami w menu każdego środowiska. Domyślna wartość to {{FALSE/pl}}. Na macOS jest oczyszczane w każdym przypadku, aby obejść błąd w Qt.
 -   **MainWindow/ToolBarNameAsToolTip** (boolean)   * Ustaw wartość na {{FALSE/pl}}, aby nie wyświetlać nazwy paska narzędzi jako etykiety. Domyślnie {{TRUE/pl}}.
@@ -62,7 +62,7 @@ Obie te opcje umożliwiają automatyczne wstawianie do nazwy pliku różnych inf
 -   %U - data i godzina, w UTC, [ISO 8601](https   *//en.wikipedia.org/wiki/ISO_8601)
 -   %D - data i czas, w lokalnej strefie czasowej, [ISO 8601](https   *//en.wikipedia.org/wiki/ISO_8601).
 
-Wszelkie inne znaki traktowane są dosłownie. Jeśli wynikowa nazwa pliku jest nieprawidłowa, zostanie zmieniona przy zapisie, a nieprawidłowe znaki zostaną zastąpione znakiem podkreślenia \'\' \' **\_** \' \'\'.
+Wszelkie inne znaki traktowane są dosłownie. Jeśli wynikowa nazwa pliku jest nieprawidłowa, zostanie zmieniona przy zapisie, a nieprawidłowe znaki zostaną zastąpione znakiem podkreślenia *\' **\_** \'*.
 
 ### Kolory etykiet wiązań Szkicownika 
 
@@ -94,7 +94,7 @@ Etykieta w Szkicowniku, która wyświetla aktualny stan wiązań (np. \" Nie w p
 
 ## Szczególne Środowiska pracy 
 
--   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *16px;"> [TechDraw](TechDraw_Workbench/pl.md) ma kilka ukrytych przełączników opisanych w \[\[TechDraw\_Preferences/pl\#
+-   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *16px;"> [TechDraw](TechDraw_Workbench/pl.md) ma kilka ukrytych przełączników opisanych w \[\[TechDraw_Preferences/pl#
 
 Ustawienia ukryte\|Tech Draw   * Preferencje\]\].
 

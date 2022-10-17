@@ -25,17 +25,17 @@ A equipa do FreeCAD disponibiliza pacotes prontos a instalar para <img alt="" sr
 
 </div>
 
-You can find SHA256 checksums to verify the integrity of your download on the [0.20 release page](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.20).
+You can find SHA256 checksums to verify the integrity of your download on the [0.20.1 release page](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.20.1).
 
 Previous versions can be downloaded from the [releases](https   *//github.com/FreeCAD/FreeCAD/releases) page.
 
-+   *   *+---+   *   *+---+   *   *+
-| ![](images/Windows.png )                                                                                       |   | ![](images/Mac.png )                                                                                |   | ![](images/Linux_with_text.png )     |
-|                                                                                                                      |   |                                                                                                       |   |                                                    |
-| [Install on Windows](Installing_on_Windows.md)                                                               |   | [Install on Mac](Installing_on_Mac.md)                                                        |   | [Install on Linux](Installing_on_Linux.md) |
-|                                                                                                                      |   |                                                                                                       |   |                                                    |
-| [64-bit installer](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-WIN-x64-installer-1.exe) |   | [macOS 64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20/FreeCAD-0.20.0-OSX-i386.dmg) |   | [AppImage 64-bit](AppImage.md)             |
-++---++---++
++   *   *+   *   *+   *   *+
+| ![](images/Windows.png )                                                                                         | ![](images/Mac.png )                                                                                                             | ![](images/Linux_with_text.png )     |
+|                                                                                                                        |                                                                                                                                    |                                                    |
+| [Install on Windows](Installing_on_Windows.md)                                                                 | [Install on Mac](Installing_on_Mac.md)                                                                                     | [Install on Linux](Installing_on_Linux.md) |
+|                                                                                                                        |                                                                                                                                    |                                                    |
+| [64-bit installer](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20.1/FreeCAD-0.20.1-WIN-x64-installer-1.exe) | [macOS 64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.20.1/FreeCAD_0.20-1-2022-08-20-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
+++++
 
 
 <div class="mw-translate-fuzzy">
@@ -57,12 +57,14 @@ Most distributions carry FreeCAD in their official repositories, however, if the
 
 Please see the [Installing on Linux](Installing_on_Linux.md) page for more installation options, including daily packages for Ubuntu and derivatives.
 
-A portable version that doesn\'t need installation can be achieved by starting FreeCAD with these commands   * <small>(v0.19)</small>  
-```python
+A portable version that doesn\'t need installation can be achieved by starting FreeCAD with these commands   *
+
+
+{{Code|lang=text|code=
 cd path/to/directory_containing_AppImage/
-chmod +x ./FreeCAD-0.20.0-Linux-x86_64.AppImage
-HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD-0.20.0-Linux-x86_64.AppImage
-```
+chmod +x ./name_of_AppImage_file.AppImage
+HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./name_of_AppImage_file.AppImage
+}}
 
 More information about FreeCAD\'s environment variables can be found on [the configuration page](Start_up_and_Configuration#Environment_variables.md).
 

@@ -32,7 +32,7 @@ To create a text element with an arrow use the [Draft Label](Draft_Label.md) com
 
 </div>
 
-## Использование
+## Применение
 
 See also   * [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 

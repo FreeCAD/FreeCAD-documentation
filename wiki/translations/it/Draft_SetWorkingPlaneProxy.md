@@ -1,5 +1,5 @@
 # Draft SetWorkingPlaneProxy/it
-1.  REDIRECT [Draft\_WorkingPlaneProxy/it](Draft_WorkingPlaneProxy/it.md)
+1.  REDIRECT [Draft_WorkingPlaneProxy/it](Draft_WorkingPlaneProxy/it.md)
 
 
 

@@ -1,5 +1,5 @@
 # FreeCADShip Workbench/es
-1.  REDIRECT [Ship\_Workbench/es](Ship_Workbench/es.md)
+1.  REDIRECT [Ship_Workbench/es](Ship_Workbench/es.md)
 
 
 

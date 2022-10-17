@@ -109,71 +109,71 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Part JoinConnect/pt-br](wiki/Part JoinConnect/pt-br.md) | [Part JoinCutout/pt-br](wiki/Part JoinCutout/pt-br.md) | [Part JoinEmbed/pt-br](wiki/Part JoinEmbed/pt-br.md) |
 | [Part Line/pt-br](wiki/Part Line/pt-br.md) | [Part Loft/pt-br](wiki/Part Loft/pt-br.md) | [Part MakeFace/pt-br](wiki/Part MakeFace/pt-br.md) |
 | [Part MakeSolid/pt-br](wiki/Part MakeSolid/pt-br.md) | [Part Measure Angular/pt-br](wiki/Part Measure Angular/pt-br.md) | [Part Measure Clear All/pt-br](wiki/Part Measure Clear All/pt-br.md) |
-| [Part Measure Linear/pt-br](wiki/Part Measure Linear/pt-br.md) | [Part Measure Menu/pt-br](wiki/Part Measure Menu/pt-br.md) | [Part Measure Refresh/pt-br](wiki/Part Measure Refresh/pt-br.md) |
-| [Part Measure Toggle 3d/pt-br](wiki/Part Measure Toggle 3d/pt-br.md) | [Part Measure Toggle All/pt-br](wiki/Part Measure Toggle All/pt-br.md) | [Part Measure Toggle Delta/pt-br](wiki/Part Measure Toggle Delta/pt-br.md) |
-| [Part Mirror/pt-br](wiki/Part Mirror/pt-br.md) | [Part Module/pt-br](wiki/Part Module/pt-br.md) | [Part Offset/pt-br](wiki/Part Offset/pt-br.md) |
-| [Part Offset2D/pt-br](wiki/Part Offset2D/pt-br.md) | [Part Part2DObject/pt-br](wiki/Part Part2DObject/pt-br.md) | [Part Plane/pt-br](wiki/Part Plane/pt-br.md) |
-| [Part Point/pt-br](wiki/Part Point/pt-br.md) | [Part PointsFromMesh/pt-br](wiki/Part PointsFromMesh/pt-br.md) | [Part Primitives/pt-br](wiki/Part Primitives/pt-br.md) |
-| [Part Prism/pt-br](wiki/Part Prism/pt-br.md) | [Part ProjectionOnSurface/pt-br](wiki/Part ProjectionOnSurface/pt-br.md) | [Part RefineShape/pt-br](wiki/Part RefineShape/pt-br.md) |
-| [Part RegularPolygon/pt-br](wiki/Part RegularPolygon/pt-br.md) | [Part ReverseShapes/pt-br](wiki/Part ReverseShapes/pt-br.md) | [Part Revolve/pt-br](wiki/Part Revolve/pt-br.md) |
-| [Part RuledSurface/pt-br](wiki/Part RuledSurface/pt-br.md) | [Part Section/pt-br](wiki/Part Section/pt-br.md) | [Part ShapeFromMesh/pt-br](wiki/Part ShapeFromMesh/pt-br.md) |
-| [Part SimpleCopy/pt-br](wiki/Part SimpleCopy/pt-br.md) | [Part Slice/pt-br](wiki/Part Slice/pt-br.md) | [Part SliceApart/pt-br](wiki/Part SliceApart/pt-br.md) |
-| [Part Sphere/pt-br](wiki/Part Sphere/pt-br.md) | [Part Spiral/pt-br](wiki/Part Spiral/pt-br.md) | [Part Sweep/pt-br](wiki/Part Sweep/pt-br.md) |
-| [Part Thickness/pt-br](wiki/Part Thickness/pt-br.md) | [Part Torus/pt-br](wiki/Part Torus/pt-br.md) | [Part TransformedCopy/pt-br](wiki/Part TransformedCopy/pt-br.md) |
-| [Part Tube/pt-br](wiki/Part Tube/pt-br.md) | [Part Wedge/pt-br](wiki/Part Wedge/pt-br.md) | [Part XOR/pt-br](wiki/Part XOR/pt-br.md) |
-| [PartDesign AdditiveBox/pt-br](wiki/PartDesign AdditiveBox/pt-br.md) | [PartDesign AdditiveCone/pt-br](wiki/PartDesign AdditiveCone/pt-br.md) | [PartDesign AdditiveCylinder/pt-br](wiki/PartDesign AdditiveCylinder/pt-br.md) |
-| [PartDesign AdditiveEllipsoid/pt-br](wiki/PartDesign AdditiveEllipsoid/pt-br.md) | [PartDesign AdditiveHelix/pt-br](wiki/PartDesign AdditiveHelix/pt-br.md) | [PartDesign AdditiveLoft/pt-br](wiki/PartDesign AdditiveLoft/pt-br.md) |
-| [PartDesign AdditivePipe/pt-br](wiki/PartDesign AdditivePipe/pt-br.md) | [PartDesign AdditivePrism/pt-br](wiki/PartDesign AdditivePrism/pt-br.md) | [PartDesign AdditiveSphere/pt-br](wiki/PartDesign AdditiveSphere/pt-br.md) |
-| [PartDesign AdditiveTorus/pt-br](wiki/PartDesign AdditiveTorus/pt-br.md) | [PartDesign AdditiveWedge/pt-br](wiki/PartDesign AdditiveWedge/pt-br.md) | [PartDesign Body/pt-br](wiki/PartDesign Body/pt-br.md) |
-| [PartDesign Boolean/pt-br](wiki/PartDesign Boolean/pt-br.md) | [PartDesign Chamfer/pt-br](wiki/PartDesign Chamfer/pt-br.md) | [PartDesign Clone/pt-br](wiki/PartDesign Clone/pt-br.md) |
-| [PartDesign CompPrimitiveAdditive/pt-br](wiki/PartDesign CompPrimitiveAdditive/pt-br.md) | [PartDesign CompPrimitiveSubtractive/pt-br](wiki/PartDesign CompPrimitiveSubtractive/pt-br.md) | [PartDesign CoordinateSystem/pt-br](wiki/PartDesign CoordinateSystem/pt-br.md) |
-| [PartDesign Draft/pt-br](wiki/PartDesign Draft/pt-br.md) | [PartDesign Fillet/pt-br](wiki/PartDesign Fillet/pt-br.md) | [PartDesign Groove/pt-br](wiki/PartDesign Groove/pt-br.md) |
-| [PartDesign Hole/pt-br](wiki/PartDesign Hole/pt-br.md) | [PartDesign InvoluteGear/pt-br](wiki/PartDesign InvoluteGear/pt-br.md) | [PartDesign Line/pt-br](wiki/PartDesign Line/pt-br.md) |
-| [PartDesign LinearPattern/pt-br](wiki/PartDesign LinearPattern/pt-br.md) | [PartDesign Migrate/pt-br](wiki/PartDesign Migrate/pt-br.md) | [PartDesign Mirrored/pt-br](wiki/PartDesign Mirrored/pt-br.md) |
-| [PartDesign MoveFeature/pt-br](wiki/PartDesign MoveFeature/pt-br.md) | [PartDesign MoveFeatureInTree/pt-br](wiki/PartDesign MoveFeatureInTree/pt-br.md) | [PartDesign MoveTip/pt-br](wiki/PartDesign MoveTip/pt-br.md) |
-| [PartDesign MultiTransform/pt-br](wiki/PartDesign MultiTransform/pt-br.md) | [PartDesign NewSketch/pt-br](wiki/PartDesign NewSketch/pt-br.md) | [PartDesign Pad/pt-br](wiki/PartDesign Pad/pt-br.md) |
-| [PartDesign Plane/pt-br](wiki/PartDesign Plane/pt-br.md) | [PartDesign Pocket/pt-br](wiki/PartDesign Pocket/pt-br.md) | [PartDesign Point/pt-br](wiki/PartDesign Point/pt-br.md) |
-| [PartDesign PolarPattern/pt-br](wiki/PartDesign PolarPattern/pt-br.md) | [PartDesign Preferences/pt-br](wiki/PartDesign Preferences/pt-br.md) | [PartDesign Revolution/pt-br](wiki/PartDesign Revolution/pt-br.md) |
-| [PartDesign ShapeBinder/pt-br](wiki/PartDesign ShapeBinder/pt-br.md) | [PartDesign Sprocket/pt-br](wiki/PartDesign Sprocket/pt-br.md) | [PartDesign SubShapeBinder/pt-br](wiki/PartDesign SubShapeBinder/pt-br.md) |
-| [PartDesign SubtractiveBox/pt-br](wiki/PartDesign SubtractiveBox/pt-br.md) | [PartDesign SubtractiveCone/pt-br](wiki/PartDesign SubtractiveCone/pt-br.md) | [PartDesign SubtractiveCylinder/pt-br](wiki/PartDesign SubtractiveCylinder/pt-br.md) |
-| [PartDesign SubtractiveEllipsoid/pt-br](wiki/PartDesign SubtractiveEllipsoid/pt-br.md) | [PartDesign SubtractiveHelix/pt-br](wiki/PartDesign SubtractiveHelix/pt-br.md) | [PartDesign SubtractiveLoft/pt-br](wiki/PartDesign SubtractiveLoft/pt-br.md) |
-| [PartDesign SubtractivePipe/pt-br](wiki/PartDesign SubtractivePipe/pt-br.md) | [PartDesign SubtractivePrism/pt-br](wiki/PartDesign SubtractivePrism/pt-br.md) | [PartDesign SubtractiveSphere/pt-br](wiki/PartDesign SubtractiveSphere/pt-br.md) |
-| [PartDesign SubtractiveTorus/pt-br](wiki/PartDesign SubtractiveTorus/pt-br.md) | [PartDesign SubtractiveWedge/pt-br](wiki/PartDesign SubtractiveWedge/pt-br.md) | [PartDesign Thickness/pt-br](wiki/PartDesign Thickness/pt-br.md) |
-| [PartDesign WizardShaft/pt-br](wiki/PartDesign WizardShaft/pt-br.md) | [PartDesign Workbench/pt-br](wiki/PartDesign Workbench/pt-br.md) | [Path Adaptive/pt-br](wiki/Path Adaptive/pt-br.md) |
-| [Path Area Workplane/pt-br](wiki/Path Area Workplane/pt-br.md) | [Path Area/pt-br](wiki/Path Area/pt-br.md) | [Path Array/pt-br](wiki/Path Array/pt-br.md) |
-| [Path Comment/pt-br](wiki/Path Comment/pt-br.md) | [Path Copy/pt-br](wiki/Path Copy/pt-br.md) | [Path Custom/pt-br](wiki/Path Custom/pt-br.md) |
-| [Path DressupDogbone/pt-br](wiki/Path DressupDogbone/pt-br.md) | [Path DressupDragKnife/pt-br](wiki/Path DressupDragKnife/pt-br.md) | [Path DressupLeadInOut/pt-br](wiki/Path DressupLeadInOut/pt-br.md) |
-| [Path DressupPathBoundary/pt-br](wiki/Path DressupPathBoundary/pt-br.md) | [Path DressupRampEntry/pt-br](wiki/Path DressupRampEntry/pt-br.md) | [Path DressupTag/pt-br](wiki/Path DressupTag/pt-br.md) |
-| [Path Drilling/pt-br](wiki/Path Drilling/pt-br.md) | [Path Engrave/pt-br](wiki/Path Engrave/pt-br.md) | [Path experimental/pt-br](wiki/Path experimental/pt-br.md) |
-| [Path ExportTemplate/pt-br](wiki/Path ExportTemplate/pt-br.md) | [Path Fixture/pt-br](wiki/Path Fixture/pt-br.md) | [Path Helix/pt-br](wiki/Path Helix/pt-br.md) |
-| [Path Inspect/pt-br](wiki/Path Inspect/pt-br.md) | [Path Job/pt-br](wiki/Path Job/pt-br.md) | [Path MillFace/pt-br](wiki/Path MillFace/pt-br.md) |
-| [Path OpActiveToggle/pt-br](wiki/Path OpActiveToggle/pt-br.md) | [Path Pocket 3D/pt-br](wiki/Path Pocket 3D/pt-br.md) | [Path Pocket Shape/pt-br](wiki/Path Pocket Shape/pt-br.md) |
-| [Path Post/pt-br](wiki/Path Post/pt-br.md) | [Path Postprocessor Customization/pt-br](wiki/Path Postprocessor Customization/pt-br.md) | [Path Preferences/pt-br](wiki/Path Preferences/pt-br.md) |
-| [Path Profile/pt-br](wiki/Path Profile/pt-br.md) | [Path Sanity/pt-br](wiki/Path Sanity/pt-br.md) | [Path SelectLoop/pt-br](wiki/Path SelectLoop/pt-br.md) |
-| [Path Shape/pt-br](wiki/Path Shape/pt-br.md) | [Path SimpleCopy/pt-br](wiki/Path SimpleCopy/pt-br.md) | [Path Simulator/pt-br](wiki/Path Simulator/pt-br.md) |
-| [Path Slot/pt-br](wiki/Path Slot/pt-br.md) | [Path Stop/pt-br](wiki/Path Stop/pt-br.md) | [Path Surface/pt-br](wiki/Path Surface/pt-br.md) |
-| [Path ToolLibraryEdit/pt-br](wiki/Path ToolLibraryEdit/pt-br.md) | [Path Vcarve/pt-br](wiki/Path Vcarve/pt-br.md) | [Path Walkthrough for the Impatient/pt-br](wiki/Path Walkthrough for the Impatient/pt-br.md) |
-| [Path Waterline/pt-br](wiki/Path Waterline/pt-br.md) | [Path Workbench/pt-br](wiki/Path Workbench/pt-br.md) | [Plot Workbench/pt-br](wiki/Plot Workbench/pt-br.md) |
-| [Points Convert/pt-br](wiki/Points Convert/pt-br.md) | [Points Export/pt-br](wiki/Points Export/pt-br.md) | [Points Import/pt-br](wiki/Points Import/pt-br.md) |
-| [Points Merge/pt-br](wiki/Points Merge/pt-br.md) | [Points PolyCut/pt-br](wiki/Points PolyCut/pt-br.md) | [Points Structure/pt-br](wiki/Points Structure/pt-br.md) |
-| [Points Workbench/pt-br](wiki/Points Workbench/pt-br.md) | [Preferences Editor/pt-br](wiki/Preferences Editor/pt-br.md) | [Property editor/pt-br](wiki/Property editor/pt-br.md) |
-| [Python console/pt-br](wiki/Python console/pt-br.md) | [Raytracing Workbench/pt-br](wiki/Raytracing Workbench/pt-br.md) | [Reinforcement Bar Bending Schedule/pt-br](wiki/Reinforcement Bar Bending Schedule/pt-br.md) |
-| [Reinforcement Bar Shape Cut List/pt-br](wiki/Reinforcement Bar Shape Cut List/pt-br.md) | [Reinforcement Workbench/pt-br](wiki/Reinforcement Workbench/pt-br.md) | [Report view/pt-br](wiki/Report view/pt-br.md) |
-| [Reverse Engineering Workbench/pt-br](wiki/Reverse Engineering Workbench/pt-br.md) | [Robot 6-Axis/pt-br](wiki/Robot 6-Axis/pt-br.md) | [Robot API example/pt-br](wiki/Robot API example/pt-br.md) |
-| [Robot CreateRobot/pt-br](wiki/Robot CreateRobot/pt-br.md) | [Robot CreateTrajectory/pt-br](wiki/Robot CreateTrajectory/pt-br.md) | [Robot Edge2Trac/pt-br](wiki/Robot Edge2Trac/pt-br.md) |
-| [Robot Export/pt-br](wiki/Robot Export/pt-br.md) | [Robot InsertWaypoint/pt-br](wiki/Robot InsertWaypoint/pt-br.md) | [Robot InsertWaypointPre/pt-br](wiki/Robot InsertWaypointPre/pt-br.md) |
-| [Robot RestoreHomePos/pt-br](wiki/Robot RestoreHomePos/pt-br.md) | [Robot SetDefaultOrientation/pt-br](wiki/Robot SetDefaultOrientation/pt-br.md) | [Robot SetDefaultValues/pt-br](wiki/Robot SetDefaultValues/pt-br.md) |
-| [Robot SetHomePos/pt-br](wiki/Robot SetHomePos/pt-br.md) | [Robot Simulate/pt-br](wiki/Robot Simulate/pt-br.md) | [Robot TrajectoryCompound/pt-br](wiki/Robot TrajectoryCompound/pt-br.md) |
-| [Robot TrajectoryDressUp/pt-br](wiki/Robot TrajectoryDressUp/pt-br.md) | [Robot tutorial/pt-br](wiki/Robot tutorial/pt-br.md) | [Robot Workbench/pt-br](wiki/Robot Workbench/pt-br.md) |
-| [Screenshots/pt-br](wiki/Screenshots/pt-br.md) | [Selection methods/pt-br](wiki/Selection methods/pt-br.md) | [Selection view/pt-br](wiki/Selection view/pt-br.md) |
-| [Ship Workbench/pt-br](wiki/Ship Workbench/pt-br.md) | [Sketch/pt-br](wiki/Sketch/pt-br.md) | [Sketcher BSplineApproximate/pt-br](wiki/Sketcher BSplineApproximate/pt-br.md) |
-| [Sketcher BSplineComb/pt-br](wiki/Sketcher BSplineComb/pt-br.md) | [Sketcher BSplineDecreaseDegree/pt-br](wiki/Sketcher BSplineDecreaseDegree/pt-br.md) | [Sketcher BSplineDecreaseKnotMultiplicity/pt-br](wiki/Sketcher BSplineDecreaseKnotMultiplicity/pt-br.md) |
-| [Sketcher BSplineDegree/pt-br](wiki/Sketcher BSplineDegree/pt-br.md) | [Sketcher BSplineIncreaseDegree/pt-br](wiki/Sketcher BSplineIncreaseDegree/pt-br.md) | [Sketcher BSplineIncreaseKnotMultiplicity/pt-br](wiki/Sketcher BSplineIncreaseKnotMultiplicity/pt-br.md) |
-| [Sketcher BSplineKnotMultiplicity/pt-br](wiki/Sketcher BSplineKnotMultiplicity/pt-br.md) | [Sketcher BSplinePoleWeight/pt-br](wiki/Sketcher BSplinePoleWeight/pt-br.md) | [Sketcher BSplinePolygon/pt-br](wiki/Sketcher BSplinePolygon/pt-br.md) |
-| [Sketcher CarbonCopy/pt-br](wiki/Sketcher CarbonCopy/pt-br.md) | [Sketcher Clone/pt-br](wiki/Sketcher Clone/pt-br.md) | [Sketcher CloseShape/pt-br](wiki/Sketcher CloseShape/pt-br.md) |
-| [Sketcher CompCreateArc/pt-br](wiki/Sketcher CompCreateArc/pt-br.md) | [Sketcher CompCreateBSpline/pt-br](wiki/Sketcher CompCreateBSpline/pt-br.md) | [Sketcher CompCreateCircle/pt-br](wiki/Sketcher CompCreateCircle/pt-br.md) |
-| [Sketcher CompCreateConic/pt-br](wiki/Sketcher CompCreateConic/pt-br.md) | [Sketcher CompCreateRectangles/pt-br](wiki/Sketcher CompCreateRectangles/pt-br.md) | [Sketcher CompCreateRegularPolygon/pt-br](wiki/Sketcher CompCreateRegularPolygon/pt-br.md) |
-| [Sketcher ConnectLines/pt-br](wiki/Sketcher ConnectLines/pt-br.md) | [Sketcher ConstrainAngle/pt-br](wiki/Sketcher ConstrainAngle/pt-br.md) |
+| [Part Measure Linear/pt-br](wiki/Part Measure Linear/pt-br.md) | [Part Measure Refresh/pt-br](wiki/Part Measure Refresh/pt-br.md) | [Part Measure Toggle 3D/pt-br](wiki/Part Measure Toggle 3D/pt-br.md) |
+| [Part Measure Toggle All/pt-br](wiki/Part Measure Toggle All/pt-br.md) | [Part Measure Toggle Delta/pt-br](wiki/Part Measure Toggle Delta/pt-br.md) | [Part Mirror/pt-br](wiki/Part Mirror/pt-br.md) |
+| [Part Module/pt-br](wiki/Part Module/pt-br.md) | [Part Offset/pt-br](wiki/Part Offset/pt-br.md) | [Part Offset2D/pt-br](wiki/Part Offset2D/pt-br.md) |
+| [Part Part2DObject/pt-br](wiki/Part Part2DObject/pt-br.md) | [Part Plane/pt-br](wiki/Part Plane/pt-br.md) | [Part Point/pt-br](wiki/Part Point/pt-br.md) |
+| [Part PointsFromMesh/pt-br](wiki/Part PointsFromMesh/pt-br.md) | [Part Primitives/pt-br](wiki/Part Primitives/pt-br.md) | [Part Prism/pt-br](wiki/Part Prism/pt-br.md) |
+| [Part ProjectionOnSurface/pt-br](wiki/Part ProjectionOnSurface/pt-br.md) | [Part RefineShape/pt-br](wiki/Part RefineShape/pt-br.md) | [Part RegularPolygon/pt-br](wiki/Part RegularPolygon/pt-br.md) |
+| [Part ReverseShapes/pt-br](wiki/Part ReverseShapes/pt-br.md) | [Part Revolve/pt-br](wiki/Part Revolve/pt-br.md) | [Part RuledSurface/pt-br](wiki/Part RuledSurface/pt-br.md) |
+| [Part Section/pt-br](wiki/Part Section/pt-br.md) | [Part ShapeFromMesh/pt-br](wiki/Part ShapeFromMesh/pt-br.md) | [Part SimpleCopy/pt-br](wiki/Part SimpleCopy/pt-br.md) |
+| [Part Slice/pt-br](wiki/Part Slice/pt-br.md) | [Part SliceApart/pt-br](wiki/Part SliceApart/pt-br.md) | [Part Sphere/pt-br](wiki/Part Sphere/pt-br.md) |
+| [Part Spiral/pt-br](wiki/Part Spiral/pt-br.md) | [Part Sweep/pt-br](wiki/Part Sweep/pt-br.md) | [Part Thickness/pt-br](wiki/Part Thickness/pt-br.md) |
+| [Part Torus/pt-br](wiki/Part Torus/pt-br.md) | [Part TransformedCopy/pt-br](wiki/Part TransformedCopy/pt-br.md) | [Part Tube/pt-br](wiki/Part Tube/pt-br.md) |
+| [Part Wedge/pt-br](wiki/Part Wedge/pt-br.md) | [Part XOR/pt-br](wiki/Part XOR/pt-br.md) | [PartDesign AdditiveBox/pt-br](wiki/PartDesign AdditiveBox/pt-br.md) |
+| [PartDesign AdditiveCone/pt-br](wiki/PartDesign AdditiveCone/pt-br.md) | [PartDesign AdditiveCylinder/pt-br](wiki/PartDesign AdditiveCylinder/pt-br.md) | [PartDesign AdditiveEllipsoid/pt-br](wiki/PartDesign AdditiveEllipsoid/pt-br.md) |
+| [PartDesign AdditiveHelix/pt-br](wiki/PartDesign AdditiveHelix/pt-br.md) | [PartDesign AdditiveLoft/pt-br](wiki/PartDesign AdditiveLoft/pt-br.md) | [PartDesign AdditivePipe/pt-br](wiki/PartDesign AdditivePipe/pt-br.md) |
+| [PartDesign AdditivePrism/pt-br](wiki/PartDesign AdditivePrism/pt-br.md) | [PartDesign AdditiveSphere/pt-br](wiki/PartDesign AdditiveSphere/pt-br.md) | [PartDesign AdditiveTorus/pt-br](wiki/PartDesign AdditiveTorus/pt-br.md) |
+| [PartDesign AdditiveWedge/pt-br](wiki/PartDesign AdditiveWedge/pt-br.md) | [PartDesign Body/pt-br](wiki/PartDesign Body/pt-br.md) | [PartDesign Boolean/pt-br](wiki/PartDesign Boolean/pt-br.md) |
+| [PartDesign Chamfer/pt-br](wiki/PartDesign Chamfer/pt-br.md) | [PartDesign Clone/pt-br](wiki/PartDesign Clone/pt-br.md) | [PartDesign CompPrimitiveAdditive/pt-br](wiki/PartDesign CompPrimitiveAdditive/pt-br.md) |
+| [PartDesign CompPrimitiveSubtractive/pt-br](wiki/PartDesign CompPrimitiveSubtractive/pt-br.md) | [PartDesign CoordinateSystem/pt-br](wiki/PartDesign CoordinateSystem/pt-br.md) | [PartDesign Draft/pt-br](wiki/PartDesign Draft/pt-br.md) |
+| [PartDesign Fillet/pt-br](wiki/PartDesign Fillet/pt-br.md) | [PartDesign Groove/pt-br](wiki/PartDesign Groove/pt-br.md) | [PartDesign Hole/pt-br](wiki/PartDesign Hole/pt-br.md) |
+| [PartDesign InvoluteGear/pt-br](wiki/PartDesign InvoluteGear/pt-br.md) | [PartDesign Line/pt-br](wiki/PartDesign Line/pt-br.md) | [PartDesign LinearPattern/pt-br](wiki/PartDesign LinearPattern/pt-br.md) |
+| [PartDesign Migrate/pt-br](wiki/PartDesign Migrate/pt-br.md) | [PartDesign Mirrored/pt-br](wiki/PartDesign Mirrored/pt-br.md) | [PartDesign MoveFeature/pt-br](wiki/PartDesign MoveFeature/pt-br.md) |
+| [PartDesign MoveFeatureInTree/pt-br](wiki/PartDesign MoveFeatureInTree/pt-br.md) | [PartDesign MoveTip/pt-br](wiki/PartDesign MoveTip/pt-br.md) | [PartDesign MultiTransform/pt-br](wiki/PartDesign MultiTransform/pt-br.md) |
+| [PartDesign NewSketch/pt-br](wiki/PartDesign NewSketch/pt-br.md) | [PartDesign Pad/pt-br](wiki/PartDesign Pad/pt-br.md) | [PartDesign Plane/pt-br](wiki/PartDesign Plane/pt-br.md) |
+| [PartDesign Pocket/pt-br](wiki/PartDesign Pocket/pt-br.md) | [PartDesign Point/pt-br](wiki/PartDesign Point/pt-br.md) | [PartDesign PolarPattern/pt-br](wiki/PartDesign PolarPattern/pt-br.md) |
+| [PartDesign Preferences/pt-br](wiki/PartDesign Preferences/pt-br.md) | [PartDesign Revolution/pt-br](wiki/PartDesign Revolution/pt-br.md) | [PartDesign ShapeBinder/pt-br](wiki/PartDesign ShapeBinder/pt-br.md) |
+| [PartDesign Sprocket/pt-br](wiki/PartDesign Sprocket/pt-br.md) | [PartDesign SubShapeBinder/pt-br](wiki/PartDesign SubShapeBinder/pt-br.md) | [PartDesign SubtractiveBox/pt-br](wiki/PartDesign SubtractiveBox/pt-br.md) |
+| [PartDesign SubtractiveCone/pt-br](wiki/PartDesign SubtractiveCone/pt-br.md) | [PartDesign SubtractiveCylinder/pt-br](wiki/PartDesign SubtractiveCylinder/pt-br.md) | [PartDesign SubtractiveEllipsoid/pt-br](wiki/PartDesign SubtractiveEllipsoid/pt-br.md) |
+| [PartDesign SubtractiveHelix/pt-br](wiki/PartDesign SubtractiveHelix/pt-br.md) | [PartDesign SubtractiveLoft/pt-br](wiki/PartDesign SubtractiveLoft/pt-br.md) | [PartDesign SubtractivePipe/pt-br](wiki/PartDesign SubtractivePipe/pt-br.md) |
+| [PartDesign SubtractivePrism/pt-br](wiki/PartDesign SubtractivePrism/pt-br.md) | [PartDesign SubtractiveSphere/pt-br](wiki/PartDesign SubtractiveSphere/pt-br.md) | [PartDesign SubtractiveTorus/pt-br](wiki/PartDesign SubtractiveTorus/pt-br.md) |
+| [PartDesign SubtractiveWedge/pt-br](wiki/PartDesign SubtractiveWedge/pt-br.md) | [PartDesign Thickness/pt-br](wiki/PartDesign Thickness/pt-br.md) | [PartDesign WizardShaft/pt-br](wiki/PartDesign WizardShaft/pt-br.md) |
+| [PartDesign Workbench/pt-br](wiki/PartDesign Workbench/pt-br.md) | [Path Adaptive/pt-br](wiki/Path Adaptive/pt-br.md) | [Path Area Workplane/pt-br](wiki/Path Area Workplane/pt-br.md) |
+| [Path Area/pt-br](wiki/Path Area/pt-br.md) | [Path Array/pt-br](wiki/Path Array/pt-br.md) | [Path Comment/pt-br](wiki/Path Comment/pt-br.md) |
+| [Path Copy/pt-br](wiki/Path Copy/pt-br.md) | [Path Custom/pt-br](wiki/Path Custom/pt-br.md) | [Path DressupDogbone/pt-br](wiki/Path DressupDogbone/pt-br.md) |
+| [Path DressupDragKnife/pt-br](wiki/Path DressupDragKnife/pt-br.md) | [Path DressupLeadInOut/pt-br](wiki/Path DressupLeadInOut/pt-br.md) | [Path DressupPathBoundary/pt-br](wiki/Path DressupPathBoundary/pt-br.md) |
+| [Path DressupRampEntry/pt-br](wiki/Path DressupRampEntry/pt-br.md) | [Path DressupTag/pt-br](wiki/Path DressupTag/pt-br.md) | [Path Drilling/pt-br](wiki/Path Drilling/pt-br.md) |
+| [Path Engrave/pt-br](wiki/Path Engrave/pt-br.md) | [Path experimental/pt-br](wiki/Path experimental/pt-br.md) | [Path ExportTemplate/pt-br](wiki/Path ExportTemplate/pt-br.md) |
+| [Path Fixture/pt-br](wiki/Path Fixture/pt-br.md) | [Path Helix/pt-br](wiki/Path Helix/pt-br.md) | [Path Inspect/pt-br](wiki/Path Inspect/pt-br.md) |
+| [Path Job/pt-br](wiki/Path Job/pt-br.md) | [Path MillFace/pt-br](wiki/Path MillFace/pt-br.md) | [Path OpActiveToggle/pt-br](wiki/Path OpActiveToggle/pt-br.md) |
+| [Path Pocket 3D/pt-br](wiki/Path Pocket 3D/pt-br.md) | [Path Pocket Shape/pt-br](wiki/Path Pocket Shape/pt-br.md) | [Path Post/pt-br](wiki/Path Post/pt-br.md) |
+| [Path Postprocessor Customization/pt-br](wiki/Path Postprocessor Customization/pt-br.md) | [Path Preferences/pt-br](wiki/Path Preferences/pt-br.md) | [Path Profile/pt-br](wiki/Path Profile/pt-br.md) |
+| [Path Sanity/pt-br](wiki/Path Sanity/pt-br.md) | [Path SelectLoop/pt-br](wiki/Path SelectLoop/pt-br.md) | [Path Shape/pt-br](wiki/Path Shape/pt-br.md) |
+| [Path SimpleCopy/pt-br](wiki/Path SimpleCopy/pt-br.md) | [Path Simulator/pt-br](wiki/Path Simulator/pt-br.md) | [Path Slot/pt-br](wiki/Path Slot/pt-br.md) |
+| [Path Stop/pt-br](wiki/Path Stop/pt-br.md) | [Path Surface/pt-br](wiki/Path Surface/pt-br.md) | [Path ToolLibraryEdit/pt-br](wiki/Path ToolLibraryEdit/pt-br.md) |
+| [Path Vcarve/pt-br](wiki/Path Vcarve/pt-br.md) | [Path Walkthrough for the Impatient/pt-br](wiki/Path Walkthrough for the Impatient/pt-br.md) | [Path Waterline/pt-br](wiki/Path Waterline/pt-br.md) |
+| [Path Workbench/pt-br](wiki/Path Workbench/pt-br.md) | [Plot Workbench/pt-br](wiki/Plot Workbench/pt-br.md) | [Points Convert/pt-br](wiki/Points Convert/pt-br.md) |
+| [Points Export/pt-br](wiki/Points Export/pt-br.md) | [Points Import/pt-br](wiki/Points Import/pt-br.md) | [Points Merge/pt-br](wiki/Points Merge/pt-br.md) |
+| [Points PolyCut/pt-br](wiki/Points PolyCut/pt-br.md) | [Points Structure/pt-br](wiki/Points Structure/pt-br.md) | [Points Workbench/pt-br](wiki/Points Workbench/pt-br.md) |
+| [Preferences Editor/pt-br](wiki/Preferences Editor/pt-br.md) | [Property editor/pt-br](wiki/Property editor/pt-br.md) | [Python console/pt-br](wiki/Python console/pt-br.md) |
+| [Raytracing Workbench/pt-br](wiki/Raytracing Workbench/pt-br.md) | [Reinforcement Bar Bending Schedule/pt-br](wiki/Reinforcement Bar Bending Schedule/pt-br.md) | [Reinforcement Bar Shape Cut List/pt-br](wiki/Reinforcement Bar Shape Cut List/pt-br.md) |
+| [Reinforcement Workbench/pt-br](wiki/Reinforcement Workbench/pt-br.md) | [Report view/pt-br](wiki/Report view/pt-br.md) | [Reverse Engineering Workbench/pt-br](wiki/Reverse Engineering Workbench/pt-br.md) |
+| [Robot 6-Axis/pt-br](wiki/Robot 6-Axis/pt-br.md) | [Robot API example/pt-br](wiki/Robot API example/pt-br.md) | [Robot CreateRobot/pt-br](wiki/Robot CreateRobot/pt-br.md) |
+| [Robot CreateTrajectory/pt-br](wiki/Robot CreateTrajectory/pt-br.md) | [Robot Edge2Trac/pt-br](wiki/Robot Edge2Trac/pt-br.md) | [Robot Export/pt-br](wiki/Robot Export/pt-br.md) |
+| [Robot InsertWaypoint/pt-br](wiki/Robot InsertWaypoint/pt-br.md) | [Robot InsertWaypointPre/pt-br](wiki/Robot InsertWaypointPre/pt-br.md) | [Robot RestoreHomePos/pt-br](wiki/Robot RestoreHomePos/pt-br.md) |
+| [Robot SetDefaultOrientation/pt-br](wiki/Robot SetDefaultOrientation/pt-br.md) | [Robot SetDefaultValues/pt-br](wiki/Robot SetDefaultValues/pt-br.md) | [Robot SetHomePos/pt-br](wiki/Robot SetHomePos/pt-br.md) |
+| [Robot Simulate/pt-br](wiki/Robot Simulate/pt-br.md) | [Robot TrajectoryCompound/pt-br](wiki/Robot TrajectoryCompound/pt-br.md) | [Robot TrajectoryDressUp/pt-br](wiki/Robot TrajectoryDressUp/pt-br.md) |
+| [Robot tutorial/pt-br](wiki/Robot tutorial/pt-br.md) | [Robot Workbench/pt-br](wiki/Robot Workbench/pt-br.md) | [Screenshots/pt-br](wiki/Screenshots/pt-br.md) |
+| [Selection methods/pt-br](wiki/Selection methods/pt-br.md) | [Selection view/pt-br](wiki/Selection view/pt-br.md) | [Ship Workbench/pt-br](wiki/Ship Workbench/pt-br.md) |
+| [Sketch/pt-br](wiki/Sketch/pt-br.md) | [Sketcher BSplineApproximate/pt-br](wiki/Sketcher BSplineApproximate/pt-br.md) | [Sketcher BSplineComb/pt-br](wiki/Sketcher BSplineComb/pt-br.md) |
+| [Sketcher BSplineDecreaseDegree/pt-br](wiki/Sketcher BSplineDecreaseDegree/pt-br.md) | [Sketcher BSplineDecreaseKnotMultiplicity/pt-br](wiki/Sketcher BSplineDecreaseKnotMultiplicity/pt-br.md) | [Sketcher BSplineDegree/pt-br](wiki/Sketcher BSplineDegree/pt-br.md) |
+| [Sketcher BSplineIncreaseDegree/pt-br](wiki/Sketcher BSplineIncreaseDegree/pt-br.md) | [Sketcher BSplineIncreaseKnotMultiplicity/pt-br](wiki/Sketcher BSplineIncreaseKnotMultiplicity/pt-br.md) | [Sketcher BSplineKnotMultiplicity/pt-br](wiki/Sketcher BSplineKnotMultiplicity/pt-br.md) |
+| [Sketcher BSplinePoleWeight/pt-br](wiki/Sketcher BSplinePoleWeight/pt-br.md) | [Sketcher BSplinePolygon/pt-br](wiki/Sketcher BSplinePolygon/pt-br.md) | [Sketcher CarbonCopy/pt-br](wiki/Sketcher CarbonCopy/pt-br.md) |
+| [Sketcher Clone/pt-br](wiki/Sketcher Clone/pt-br.md) | [Sketcher CloseShape/pt-br](wiki/Sketcher CloseShape/pt-br.md) | [Sketcher CompCreateArc/pt-br](wiki/Sketcher CompCreateArc/pt-br.md) |
+| [Sketcher CompCreateBSpline/pt-br](wiki/Sketcher CompCreateBSpline/pt-br.md) | [Sketcher CompCreateCircle/pt-br](wiki/Sketcher CompCreateCircle/pt-br.md) | [Sketcher CompCreateConic/pt-br](wiki/Sketcher CompCreateConic/pt-br.md) |
+| [Sketcher CompCreateRectangles/pt-br](wiki/Sketcher CompCreateRectangles/pt-br.md) | [Sketcher CompCreateRegularPolygon/pt-br](wiki/Sketcher CompCreateRegularPolygon/pt-br.md) | [Sketcher ConnectLines/pt-br](wiki/Sketcher ConnectLines/pt-br.md) |
+| [Sketcher ConstrainAngle/pt-br](wiki/Sketcher ConstrainAngle/pt-br.md) | [Sketcher ConstrainBlock/pt-br](wiki/Sketcher ConstrainBlock/pt-br.md) |
 
 
 

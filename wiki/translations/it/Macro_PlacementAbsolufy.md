@@ -34,7 +34,7 @@ Per spiegazioni più dettagliate, vedere la pagina [Come installare le macro](Ho
 
 ToolBar Icon ![](images/Macro_PlacementAbsolufy.png )
 
-**Macro\_PlacementAbsolufy.FCMacro**
+**Macro_PlacementAbsolufy.FCMacro**
 
 
 {{MacroCode|code=

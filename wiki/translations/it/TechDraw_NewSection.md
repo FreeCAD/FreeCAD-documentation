@@ -1,5 +1,5 @@
 # TechDraw NewSection/it
-1.  REDIRECT [TechDraw\_SectionView/it](TechDraw_SectionView/it.md)
+1.  REDIRECT [TechDraw_SectionView/it](TechDraw_SectionView/it.md)
 
 
 

@@ -11,7 +11,7 @@ Inserisce un ellissoide sottrattivo nel corpo attivo. La sua forma viene sottrat
 
 ![](images/PartDesign_SubtractiveEllipsoid_example.svg )
 
-\'\' A sinistra il corpo attivo (A) mostrato in grigio e l\'ellissoide sottrattivo (B) mostrato in rosso trasparente; a destra il risultato. \'\'
+*A sinistra il corpo attivo (A) mostrato in grigio e l\'ellissoide sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
 
 ## Utilizzo
 
@@ -58,7 +58,7 @@ Dopo la sua creazione l\'ellissoide può essere modificato in due modi   *
 
 -    {{PropertyData/it|Angle2}}   * (non etichettato nei parametri primitivi) troncatura superiore dell\'ellissoide, parallelo alla sezione trasversale circolare (90 gradi in uno sferoide completo).
 
--    {{PropertyData/it|Angle3}}   * (etichettato \'\' parametro U \'\' nei parametri primitivi) angolo di rotazione della sezione trasversale ellittica (360 gradi in uno sferoide completo).
+-    {{PropertyData/it|Angle3}}   * (etichettato *parametro U* nei parametri primitivi) angolo di rotazione della sezione trasversale ellittica (360 gradi in uno sferoide completo).
 
 
 </div>

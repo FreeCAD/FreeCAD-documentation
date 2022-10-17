@@ -89,7 +89,7 @@ Arch Fenêtre peut inclure trois types de composants    * panneaux, cadres et gr
 ## Options
 
 -   L\'objet Windows partage les propriétés communes et le comportement de tous les objet [Arch Composants](Arch_Component/fr.md)
--   Si la case \'\' Auto-include \'\' est cochée , la fenêtre ne sera pas insérée dans l\'objet hôte.
+-   Si la case *Auto-include* est cochée , la fenêtre ne sera pas insérée dans l\'objet hôte.
 -   Ajoutez une fenêtre sélectionnée sur un [mur](Arch_Wall/fr.md), pressez sur le bouton **<img src="images/Arch_Add.svg" width=16px> [Ajouter](Arch_Add/fr.md)**.
 -   Supprimez la fenêtre sélectionnée du [mur](Arch_Wall/fr.md), pressez sur le bouton **<img src="images/Arch_Remove.svg" width=16px> [Effacer](Arch_Remove/fr.md)**.
 -   Lors de l\'utilisation des préréglages, il est souvent commode de transformer le \"Plus proche\" de [Draft Aimantation](Draft_Snap/fr.md), donc vous pouvez coller votre fenêtre sur une face existante.

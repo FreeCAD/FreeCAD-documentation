@@ -88,7 +88,7 @@ Para generar tanques cargamos [modulo de piezas](Part_Workbench/es.md), y creamo
 
 Tenemos que editar la caja, por lo que la seleccionamos en el árbol **Atributos y etiquetas**, y cambiamos de vista a la pestaña de datos. Expandir Colocación, y en ellos Posición, y establecer *x* a 1,5, y z a -1. Queremos cambiar la longitud de la caja también el cambio de 5,0 (tenga en cuenta que las unidades pueden ser en mm, no se preocupe por esto).
 
-La geometría de nuestro tanque será la parte común de la caja que acabamos de crear, y del nave. Como estamos interesados en la geometría del nave podemos ocultar nuestra instancia de buque **Ship**, y mostrar la geometría **s60\_IowaUniversity**. Seleccionando la caja y la geometría del buque empleamos la herramienta intersección, generandose así la geometría de nuestro tanque de estribor.
+La geometría de nuestro tanque será la parte común de la caja que acabamos de crear, y del nave. Como estamos interesados en la geometría del nave podemos ocultar nuestra instancia de buque **Ship**, y mostrar la geometría **s60_IowaUniversity**. Seleccionando la caja y la geometría del buque empleamos la herramienta intersección, generandose así la geometría de nuestro tanque de estribor.
 
 ![Geometría del tanque generada.](images/FreeCAD-Ship-S60TankGeometry.png )
 

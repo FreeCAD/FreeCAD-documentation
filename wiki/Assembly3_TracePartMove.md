@@ -28,7 +28,7 @@ The <img alt="" src=images/Assembly_Trace.svg  style="width   *24px;"> [Trace pa
 
 ## Notes
 
--   If you don\'t select any shape in the first step, you will be tracing the moving shape.
+-   If you don\'t select any shape in the first step, you will be tracing the shape that was selected in the third step.
 -   To change the element to trace, you need to disable this tool before selecting a new element and enabling it again.
 -   If you control the movement with another tool such as this [kinematic controller](Tutorial_KinematicController.md) that allows to use a mover tool in parallel, you could use this tool to alter the assembly step by step and use the mover tool to add a point and connecting line on each step. It is possible to use the mover tool as a trigger by picking and dragging any of the arrows - just a tiny bit until the next point and line appears (use transparency if necessary).
 

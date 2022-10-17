@@ -56,7 +56,7 @@ Since the Plot Workbench is a layer on top of `matplotlib`, you are free to use 
 
  {{Plot_Tools_navi}} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

@@ -43,4 +43,4 @@ Dieser Befehl erlaubt, ein beschneidendes Rechteck auf einer [Zeichnungsseite](D
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/de

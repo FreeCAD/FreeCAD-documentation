@@ -26,27 +26,27 @@ Creare dei nuovi modelli di fogli per il modulo di disegno di proiezione [Drawin
 
 </div>
 
- {.html}
+ html
 width="1067mm"
 height="762mm"
 
 
 oppure
 
- {.html}
+ html
 width="1067"
 height = "762"
 
 
 Anche se svg supporta i pollici (\"42 in\"), questi non sono attualmente supportati da FreeCAD, quindi è sempre meglio avere le dimensioni della pagina SVG specificata in millimetri. L\'attributo \"viewBox\" deve avere lo stesso valore, ad esempio   *
 
- {.html}
+ html
 viewBox="0 0 1067 762"
 
 
 -   È necessario inserire, da qualche parte all\'interno del proprio codice svg, dove si desidera che appaia il contenuto del disegno (per esempio alla fine del file, appena prima dell\'ultimo tag</svg>), la seguente riga   *
 
- {.html}
+ html
 
 
 
@@ -59,7 +59,7 @@ Questo testo sopra (che è in realtà un commento XML) deve essere su una riga s
 
 ### Namespace 
 
--   Diversi oggetti (in particolare quelli creati con il comando [Draft\_Drawing](Draft_Drawing/it.md), e se il modello ha dei testi modificabili) utilizzano uno speciale [Svg Namespace](Svg_Namespace.md) specifico per FreeCAD. Questo rende FreeCAD in grado di rilevare gli elementi specifici all\'interno di file SVG, che altre applicazioni semplicemente ignorano. Se si prevede di utilizzare uno di questi, è necessario aggiungere questa linea all\'interno del tag di apertura<svg>, ad esempio insieme alle altre righe xml aggiunte da inkscape   *
+-   Diversi oggetti (in particolare quelli creati con il comando [Draft_Drawing](Draft_Drawing/it.md), e se il modello ha dei testi modificabili) utilizzano uno speciale [Svg Namespace](Svg_Namespace.md) specifico per FreeCAD. Questo rende FreeCAD in grado di rilevare gli elementi specifici all\'interno di file SVG, che altre applicazioni semplicemente ignorano. Se si prevede di utilizzare uno di questi, è necessario aggiungere questa linea all\'interno del tag di apertura<svg>, ad esempio insieme alle altre righe xml aggiunte da inkscape   *
 
 
 </div>
@@ -80,7 +80,7 @@ Oltre a queste due regole, a partire da FreeCAD 0.14, al modello possono essere 
 
 Per definire il bordo dell\'area utilizzata, prima del tag \<metadata nel file svg, deve apparire la seguente riga   *
 
- {.html}
+ html
 
 
 
@@ -95,7 +95,7 @@ Dove X1, Y1, X2, Y2 sono definiti in questo modo   *
 
 Per definire l\'area della tabella, prima del tag \<metadata e dopo il tag dell\'area di lavoro, si deve inserire la seguente riga   *
 
- {.html}
+ html
 
 
 
@@ -112,7 +112,7 @@ Dove X1a, Y1a, X2a, Y2a sono definiti come   *
 
 Il seguente è un esempio del codice che deve essere inserito prima del tag \<metadata per definire l\'area di lavoro e l\'area della tabella. Non è obbligatorio definire una tabella, ma quando si fa la tabella deve essere definita nella riga successiva a quella della definizione dello spazio di lavoro   *
 
- {.html}
+ html
 
 
 
@@ -124,7 +124,7 @@ In questo caso deve essere formattato come nell\'esempio sottostante dove   *
 -   xxx = pixel width larghezza
 -   yyy = pixel height altezza
 
- {.html}
+ html
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -135,7 +135,7 @@ viewBox="0 0 xxx yyy"
 
 -   Nelle squadrature si possono posizionare diversi attributi personalizzati. L\'elenco degli attributi attualmente supportati sono disponibili nella pagina [Svg Namespace](Svg_Namespace/it.md).
 
--   Di default, i modelli di squadrature, nei sistemi Windows si trovano in *C   */Program Files/FreeCAD0.13/data/Mod/Drawing/Templates/A3\_Landscape.svg*, e nei sistemi Linux in */usr/share/freecad/Mod/Drawing/Templates/A3\_Landscape.svg*.
+-   Di default, i modelli di squadrature, nei sistemi Windows si trovano in *C   */Program Files/FreeCAD0.13/data/Mod/Drawing/Templates/A3_Landscape.svg*, e nei sistemi Linux in */usr/share/freecad/Mod/Drawing/Templates/A3_Landscape.svg*.
 
 
 </div>
@@ -299,4 +299,4 @@ Le due righe cercate da FreeCAD sono \"\$blocks\" e \"\$entities\". Esse devono 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/it

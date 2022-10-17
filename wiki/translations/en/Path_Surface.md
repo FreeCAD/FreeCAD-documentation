@@ -83,7 +83,7 @@ To achieve different, or more complex, effects, adjust additional operation prop
 
 Excessively long processing times (longer than 10 minutes) can occur when processing large complex models. In addition to the factors already mentioned the following steps could help identify potential causes and solutions.
 
-***Low Memory***
+**\'\'Low Memory**\'\'
 Check how much memory is available while the scan is running using a tool such as the Windows **Task Manager, Memory tab**. If more than 90% of memory is consistently being used then a small **Linear Deflection** parameter could be generating a mesh that is too large for the available memory.
 To confirm this \...
 
@@ -125,7 +125,7 @@ NOTE   * As of May 2019, only the End Mill has any type of testing to determine 
 
 ## Properties   * Version 0.19 
 
-\'\'\' *Note* \'\'\'   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
+***Note***   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
 
 {{TitleProperty|Base}}

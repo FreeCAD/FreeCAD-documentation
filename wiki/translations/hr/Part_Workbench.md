@@ -1,5 +1,5 @@
 # Part Workbench/hr
-1.  REDIRECT [Part\_Module/hr](Part_Module/hr.md)
+1.  REDIRECT [Part_Module/hr](Part_Module/hr.md)
 
 
 

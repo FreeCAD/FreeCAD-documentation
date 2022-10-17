@@ -37,7 +37,7 @@ This macro help you to create an Arch Axis System along a line with a set of par
 
 ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 
-**Macro\_Repartition.FCMacro**
+**Macro_Repartition.FCMacro**
 
 
     #!/usr/bin/env python
@@ -270,7 +270,7 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 ## Links
 
 -   Video [Macro in action](https   *//www.youtube.com/watch?v=jfDTkH9-I5Q)
--   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
+-   [Macro_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 -   Github [Macro wood galaxy](https   *//github.com/wood-galaxy/FreeCAD-scripts)
 
 

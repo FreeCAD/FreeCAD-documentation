@@ -103,6 +103,8 @@ Desde la versión 0.17, el Arch panel también se puede usar para crear perfiles
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

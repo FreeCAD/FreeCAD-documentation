@@ -1,5 +1,5 @@
 # Macro Circular Text
-1.  REDIRECT [Macro\_FCCircularText](Macro_FCCircularText.md)
+1.  REDIRECT [Macro_FCCircularText](Macro_FCCircularText.md)
 
 
 

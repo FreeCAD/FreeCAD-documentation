@@ -1,5 +1,5 @@
 # Draft UndoLine/it
-1.  REDIRECT [Draft\_Wire/it](Draft_Wire/it.md)
+1.  REDIRECT [Draft_Wire/it](Draft_Wire/it.md)
 
 
 

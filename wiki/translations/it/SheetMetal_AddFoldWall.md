@@ -105,7 +105,7 @@ This clip is made of a blank that receives three folds and so we need four sketc
    *   \- one for the upward bend
    *   \- one for the downward bend
 
-Easiest way to guarantee that one face of the blank and all folding lines are coplanar is to create all sketches on the same plane - the **XY\_Plane** in this case.
+Easiest way to guarantee that one face of the blank and all folding lines are coplanar is to create all sketches on the same plane - the **XY_Plane** in this case.
 
 The folding lines could be created with other tools but hey, we have a <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> [Sketcher](Sketcher_Workbench.md)!
 

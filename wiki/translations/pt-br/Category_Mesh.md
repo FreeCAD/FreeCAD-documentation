@@ -1,5 +1,5 @@
 # Category:Mesh/pt-br
-This category lists pages related to the [Mesh\_Workbench/pt-br](Mesh_Workbench/pt-br.md).
+This category lists pages related to the [Mesh_Workbench/pt-br](Mesh_Workbench/pt-br.md).
 
 [Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
 

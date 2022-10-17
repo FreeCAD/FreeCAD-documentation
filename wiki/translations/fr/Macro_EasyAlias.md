@@ -1,11 +1,11 @@
 # Macro EasyAlias/fr
 {{Macro/fr
-|Name=EasyAlias
+|Name=Macro EasyAlias
 |Icon=easy-alias-icon.png
 |Description=Utilisez cette fonction pour créer rapidement et facilement des alias pour les cellules de vos feuilles de calcul. Elle prend les étiquettes de texte que vous avez déjà créées dans une colonne et les utilise comme alias dans la colonne suivante.
 |Author=TheMarkster
-|Version=2022.03.21
-|Date=2022-13-21
+|Version=2022.07.31
+|Date=2022-07-31
 |FCVersion=Tous
 |Download=[https   *//www.freecadweb.org/wiki/images/5/5e/Easy-alias-icon.png Icône de la barre d'outils]
 }}
@@ -25,7 +25,7 @@ Mettez en surbrillance les cellules contenant les étiquettes de texte et exécu
 
 Icône de la barre d\'outils ![](images/easy-alias-icon.png )
 
-**Macro\_EasyAlias.FCMacro**
+**Macro_EasyAlias.FCMacro**
 
 
 {{MacroCode|code=
@@ -81,7 +81,7 @@ __title__ = "EasyAlias"
 __author__ = "TheMarkster"
 __url__ = "https   *//wiki.freecadweb.org/Macro_EasyAlias"
 __Wiki__ = "https   *//wiki.freecadweb.org/Macro_EasyAlias"
-__date__ = "2022.03.21" #year.month.date
+__date__ = "2022.07.31" #year.month.date
 __version__ = __date__
 
 
@@ -174,12 +174,16 @@ if len(cellIndices) == 0   *
 s.Document.openTransaction("EasyAlias")
 for ci in cellIndices   *
     #FreeCAD.Console.PrintMessage("setting alias   * "+s.Name+'['+str(cellIndexToAddress(getCellIndexNextColumn(ci)))+"] ---> "+getCellContent(s,ci).replace(' ','_')+"\n")
-    try   *
-        setAlias(s, getCellIndexNextColumn(ci), str(getCellContent(s,ci).replace(' ','_').replace('.','_')))  #use e.g. content of A5 as alias for B5
-    except   *
-        FreeCAD.Console.PrintError("Error.  Unable to set alias   * "+getCellContent(s,ci).replace(' ','_')+" for spreadsheet   * "+str(s)+" cell "+cellIndexToAddress(getCellIndexNextColumn(ci))+"\n")
-        FreeCAD.Console.PrintError("Remember, aliases cannot begin with a numeral or an underscore or contain any invalid characters.\n")
+# credit to red6rick for this bit of code to allow for skipped rows
+    addr = cellIndexToAddress(ci)          
+    if (len(s.getContents(addr)) > 0)   *
+       try   *
+           setAlias(s, getCellIndexNextColumn(ci), str(getCellContent(s,ci).replace(' ','_').replace('.','_')))  #use e.g. content of A5 as alias for B5
+       except   *
+           FreeCAD.Console.PrintError("Error.  Unable to set alias   * "+getCellContent(s,ci).replace(' ','_')+" for spreadsheet   * "+str(s)+" cell "+cellIndexToAddress(getCellIndexNextColumn(ci))+"\n")
+           FreeCAD.Console.PrintError("Remember, aliases cannot begin with a numeral or an underscore or contain any invalid characters.\n")
 s.Document.commitTransaction()
+
 
 App.ActiveDocument.recompute()
 }}

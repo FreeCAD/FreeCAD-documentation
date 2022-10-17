@@ -1,5 +1,5 @@
 # TechDraw Module/zh
-1.  REDIRECT [TechDraw\_Workbench/zh](TechDraw_Workbench/zh.md)
+1.  REDIRECT [TechDraw_Workbench/zh](TechDraw_Workbench/zh.md)
 
 
 

@@ -55,7 +55,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 **General   ***
 
--    **Column Headers**   * A dictionary with column\_data as key and tuple (column\_display\_header, column\_sequence) as value.
+-    **Column Headers**   * A dictionary with column_data as key and tuple (column_display_header, column_sequence) as value.
 
 -    **Column Units**   * A dictionary with keys   * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and their corresponding units as value.
 
@@ -119,7 +119,7 @@ bom_spreadsheet = makeBillOfMaterial(
 -   Creates a `RebarBillOfMaterial` spreadsheet object for given `rebar_objects`.
     -   If `rebar_objects` list is empty, then `RebarBillOfMaterial` spreadsheet will be created for all rebars in a model.
 
--    `column_headers`is a dictionary with keys   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and values are tuple of column\_header and their sequence number.
+-    `column_headers`is a dictionary with keys   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and values are tuple of column_header and their sequence number.
 
    Example   * {
                 "Host"   * ("Member", 1),
@@ -322,10 +322,10 @@ makeBillOfMaterialSVG(
 ) -> BOMContent
 ```
 
--   Creates and return a RebarBillOfMaterial\_SVG `BOMContent` object for given `rebar_objects`.
+-   Creates and return a RebarBillOfMaterial_SVG `BOMContent` object for given `rebar_objects`.
     -   If `rebar_objects` list is empty, then `BOMContent` object will be created for all rebars in a model.
 
--    `column_headers`is a dictionary with keys   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and values are tuple of column\_header and their sequence number.
+-    `column_headers`is a dictionary with keys   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and values are tuple of column_header and their sequence number.
 
    Example   * {
                 "Host"   * ("Member", 1),
@@ -359,7 +359,7 @@ makeBillOfMaterialSVG(
 
 -    `font_family`specifies the font family of data text.
 
--    `font_filename`specifies font filename or full path of the font file corresponding to font\_family. This is required if you are working in pure console mode, without any GUI.
+-    `font_filename`specifies font filename or full path of the font file corresponding to font_family. This is required if you are working in pure console mode, without any GUI.
 
 -    `font_size`specifies the font size of the data text.
 

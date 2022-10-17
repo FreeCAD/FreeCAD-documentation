@@ -28,7 +28,7 @@ Note   * an unclosed object return an error
 
 ToolBar Icon ![](images/Macro_Creating_faces_from_a_DXF_file.png )
 
-**Macro\_Creating\_faces\_from\_a\_DXF\_file.FCMacro**
+**Macro_Creating_faces_from_a\_DXF_file.FCMacro**
 
 
 {{MacroCode|code=

@@ -19,13 +19,13 @@ To use this macro, you have to break down the wire into individual edges using t
 
 The macro will check whether the segments all lie on a common circle and will abort if this is not the case. Otherwise it will create the arc and remove the segments.
 
-Because of small inaccuracies in the calculations, the **<img src="images/Draft_Upgrade.svg" width=16px> [[Draft Upgrade]]** function can sometimes fail to recombine the other edges and the arcs back into a wire. In this case the [Macro\_SuperWire](Macro_SuperWire.md) provides a more robust way to do this.
+Because of small inaccuracies in the calculations, the **<img src="images/Draft_Upgrade.svg" width=16px> [[Draft Upgrade]]** function can sometimes fail to recombine the other edges and the arcs back into a wire. In this case the [Macro_SuperWire](Macro_SuperWire.md) provides a more robust way to do this.
 
 ## Script
 
 ToolBar Icon ![](images/Macro_EdgesToArc.png )
 
-**Macro\_EdgesToArc.FCMacro**
+**Macro_EdgesToArc.FCMacro**
 
 
 {{MacroCode|code=

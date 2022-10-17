@@ -19,20 +19,20 @@ La date et l\'heure sont séparés par un \"espace tiret espace\" et constitue u
 <img alt="CartoucheFC" src=images/CartoucheFC.png  style="width   *480px;">
 
 Les champs en rouge sont les champs **\"FreeCAD   * modifiable\"**., les champs en vert sont des annotations insérées dans le modèle
-Ici une version de[Macro\_CartoucheFC\_Full](Macro_CartoucheFC_Full/fr.md) pour les [nouvelles feuilles](Misc_templates/fr.md) avec textéditable à tous les champs.
+Ici une version de[Macro_CartoucheFC_Full](Macro_CartoucheFC_Full/fr.md) pour les [nouvelles feuilles](Misc_templates/fr.md) avec textéditable à tous les champs.
 
 ## Utilisation
 
-**La modification de la feuille dans Inkscape peut pour le moment poser des problèmes de fonctionnement au programme (dans le cas ou vous enlevez le symbole sur la feuille, même problème avec FreeCAD), travaillez sur une copie de A3\_Landscape.svg.**
+**La modification de la feuille dans Inkscape peut pour le moment poser des problèmes de fonctionnement au programme (dans le cas ou vous enlevez le symbole sur la feuille, même problème avec FreeCAD), travaillez sur une copie de A3_Landscape.svg.**
 **PS   * certains caractères comme & \$ ne sont pas acceptés (et peut être d\'autres caractères spéciaux)!**
 
 Si vous avez des questions ou désirez ajouter une fonction, vous pouvez vous adresse sur le forum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 
 -   La fenêtre reste au dessus des autres fenêtres et permet ainsi de contrôler le cartouche sans quitter le programme.
 
--   Copiez le code dans un fichier nommé **Macro\_CartoucheFC.py** et placez le dans votre répertoire de macros habituelle.
+-   Copiez le code dans un fichier nommé **Macro_CartoucheFC.py** et placez le dans votre répertoire de macros habituelle.
 
--   Après avoir créé votre feuille de dessin à l\'aide du module Drawing de FreeCAD, lancez la macro **Macro\_CartoucheFC**.
+-   Après avoir créé votre feuille de dessin à l\'aide du module Drawing de FreeCAD, lancez la macro **Macro_CartoucheFC**.
 
 -   A l\'ouverture, le programme enregistrera en mémoire toutes les données déjà présente dans le cartouche de la feuille (s\'ils sont remplis), toutes ces données seront automatiquement restituées à l\'aide du bouton **Memo** et tenus en mémoire jusqu'à la fermeture du programme.
 
@@ -56,7 +56,7 @@ Si vous avez des questions ou désirez ajouter une fonction, vous pouvez vous ad
 
 ToolBar Icon ![](images/Macro_CartoucheFC.png )
 
-**Macro\_CartoucheFC.FCMacro**
+**Macro_CartoucheFC.FCMacro**
 
 
 {{MacroCode|code=

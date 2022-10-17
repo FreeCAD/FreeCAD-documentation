@@ -185,7 +185,7 @@ With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24p
 
 ## 零件清单
 
-要创建部件的零件清单，部件的不同零件必须获取A2plus可以读取的零件信息。 这可以通过使用工具栏按钮<img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">编辑零件来完成。 在打开的部件中，按下工具栏按钮<img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> ，并创建一个名称为*\#PARTINFO\#*的 [电子表格](Spreadsheet_Workbench/zh-hans.md)。
+要创建部件的零件清单，部件的不同零件必须获取A2plus可以读取的零件信息。 这可以通过使用工具栏按钮<img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">编辑零件来完成。 在打开的部件中，按下工具栏按钮<img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> ，并创建一个名称为*#PARTINFO#*的 [电子表格](Spreadsheet_Workbench/zh-hans.md)。
 
 电子表格的结构如下：
 
@@ -472,7 +472,7 @@ A2plus通过拖动和Python脚本提供动画功能。
 4.  现在，您可以移动鼠标，并且零件将在定义的约束内跟随鼠标的移动。
 5.  要结束拖动模式，请在部件中单击鼠标左键或按ESC。
 
-这是一个尝试拖动动画的示例部件：[A2p\_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
+这是一个尝试拖动动画的示例部件：[A2p_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
 
@@ -499,7 +499,7 @@ A2plus通过拖动和Python脚本提供动画功能。
 
 #### 简单脚本示例
 
-编写动画脚本的最简单方法是遵循定义的动作的非交互式动画。 这是一个例子： 首先下载此程序集文件：[A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554)以及此Python脚本：[/file.php?id=97981 A2p\_animation-example-script.py](https   *//forum.freecadweb.org/download)。
+编写动画脚本的最简单方法是遵循定义的动作的非交互式动画。 这是一个例子： 首先下载此程序集文件：[A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554)以及此Python脚本：[/file.php?id=97981 A2p_animation-example-script.py](https   *//forum.freecadweb.org/download)。
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -575,7 +575,7 @@ while angle < 360   * # run this loop until we have one full turn (360 degrees)
 
 这可以通过使用带有滑块的自定义动画对话框来完成。 通过移动滑块，您可以设置旋转角度，从而在有趣的位置来回旋转。
 
-我们使用相同的装配体文件：[A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554)和此Python脚本：[/file.php?id=97982 A2p\_animation-example-script.py](https   *//forum.freecadweb.org/download)。
+我们使用相同的装配体文件：[A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554)和此Python脚本：[/file.php?id=97982 A2p_animation-example-script.py](https   *//forum.freecadweb.org/download)。
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

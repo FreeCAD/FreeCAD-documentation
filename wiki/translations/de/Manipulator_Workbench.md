@@ -30,7 +30,7 @@ Each Tool has a **Help Button** ![](images/Help-btn.png ) to get some useful tip
 
 ## Tutorial
 
-<img alt="Title Manipulator-WB-\@Work" src=images/Manipulator-WB-@Work.png  style="width   *1024px;">
+<img alt="Title Manipulator-WB-@Work" src=images/Manipulator-WB-@Work.png  style="width   *1024px;">
 
 
 

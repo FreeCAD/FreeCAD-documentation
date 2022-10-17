@@ -60,7 +60,7 @@ Pour tout commentaire (bug, demande de fonctionnalité, commentaires\...), merci
 
 ### Code
 
-**Macro\_FCTree2Ascii.FCMacro**
+**Macro_FCTree2Ascii.FCMacro**
 
 
 {{MacroCode|code=

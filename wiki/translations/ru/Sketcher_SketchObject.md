@@ -31,7 +31,7 @@ Although the SketchObject can be used by itself to draw on a plane, it is most c
 3.  Press **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
 
 4.  
-    **Select feature**   * XY\_Plane (Base plane), XZ\_Plane (Base plane), or YZ\_Plane (Base plane).
+    **Select feature**   * XY_Plane (Base plane), XZ_Plane (Base plane), or YZ_Plane (Base plane).
 
 5.  Press **OK**.
 

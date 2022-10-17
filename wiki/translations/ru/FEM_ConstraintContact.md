@@ -5,11 +5,11 @@
 
 </div>
 
-## Description
+## Описание
 
 Creates a FEM constraint for contact between 2 surfaces.
 
-## Usage
+## Применение
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ConstraintContact.svg" width=16px> [FEM ConstraintContact](FEM_ConstraintContact.md)** button.
@@ -19,13 +19,13 @@ Creates a FEM constraint for contact between 2 surfaces.
 4.  Enter a contact stiffness.
 5.  Enter a friction coefficient.
 
-## Limitations
+## Ограничения
 
 -   The contact constraint can only be applied to two faces.
 -   Development for multiple contact at once   * <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=130#p303275>
 -   Because multiple meshes are currently not supported, contact must be applied to faces that are separated by (at least) a small distance. If the faces were touching (no gap between them), the result of a boolean union or boolean fragments operation (necessary to avoid having multiple meshes which is not allowed at the moment) would be a continuous mesh and thus no need to use contact anymore. See [Forum discussion](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=62307).
 
-## Notes
+## Примечания
 
 ### Tips for modeling 
 

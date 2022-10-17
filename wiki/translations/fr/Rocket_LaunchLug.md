@@ -15,7 +15,7 @@ Une Rampe de lancement est un petit tube fixé sur le côté de la fusée qui pe
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Rocket_LaunchLug.svg" width=16px> [Launch Lug](Rocket_LaunchLug/fr.md)**.
     -   Sélectionnez l\'option **Rocket → Launch Guides→ <img src="images/Rocket_LaunchLug.svg" width=16px> Launch Lug** dans le menu.
     -   Double-cliquez sur un objet Bulkhead dans la [Vue en arborescence](Tree_view/fr.md).
@@ -26,24 +26,24 @@ Une Rampe de lancement est un petit tube fixé sur le côté de la fusée qui pe
 
 {{TitleProperty|Launch Lug}}
 
--    {{PropertyData/fr|Inner Diameter}}   * Le diamètre de l\'intérieur de la rampe de lancement
+-    {{PropertyData/fr|Inner Diameter}}   * diamètre de l\'intérieur de la rampe de lancement
 
--    {{PropertyData/fr|Length}}   * La longueur de la rampe de lancement
+-    {{PropertyData/fr|Length}}   * longueur de la rampe de lancement
 
--    {{PropertyData/fr|Outer Diameter}}   * Le diamètre de l\'extérieur de la rampe de lancement
+-    {{PropertyData/fr|Outer Diameter}}   * diamètre de l\'extérieur de la rampe de lancement
 
 
 {{TitleProperty|Rocket Component}}
 
 Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    **Description**   * Description du composant
+-    **Description**   * description du composant
 
--    **Manufacturer**   * Fabricant lorsqu\'il est connu
+-    **Manufacturer**   * fabricant lorsqu\'il est connu
 
--    **Material**   * Matériau lorsqu\'il est connu
+-    **Material**   * matériau lorsqu\'il est connu
 
--    **Part Number**   * Numéro de pièce du fabricant
+-    **Part Number**   * numéro de pièce du fabricant
 
 
 

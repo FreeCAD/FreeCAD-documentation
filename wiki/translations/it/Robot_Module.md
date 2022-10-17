@@ -1,5 +1,5 @@
 # Robot Module/it
-1.  REDIRECT [Robot\_Workbench/it](Robot_Workbench/it.md)
+1.  REDIRECT [Robot_Workbench/it](Robot_Workbench/it.md)
 
 
 

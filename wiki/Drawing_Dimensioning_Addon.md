@@ -45,16 +45,16 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 
 To use this workbench clone this git repository under your FreeCAD MyScripts directory, and install the pyside and numpy python libraries. On a Linux Debian based system such as Ubuntu, installation can be done through BASH as follows  \$ sudo apt-get install git python-numpy python-pyside \$ mkdir \~/.FreeCAD/Mod \$ cd \~/.FreeCAD/Mod \$ git clone <https   *//github.com/hamish2014/FreeCAD_drawing_dimensioning.git> 
 
-Once installed, use git to easily update to the latest version   *  \$ cd \~/.FreeCAD/Mod/FreeCAD\_drawing\_dimensioning \$ git pull \$ rm \*.pyc 
+Once installed, use git to easily update to the latest version   *  \$ cd \~/.FreeCAD/Mod/FreeCAD_drawing_dimensioning \$ git pull \$ rm \*.pyc 
 
 #### Windows Installation Instructions (From GitHub) 
 
 Tested with 015.4415 Development Snapshot on a Windows 7 64bit-System (thanks BPLRFE )
 
 -   download the git repository as ZIP
--   assuming FreeCAD is installed in \"C   *PortableApps\\FreeCAD 0\_15\", go to \"C   *PortableApps\\FreeCAD 0\_15\\Mod\" within Windows Explorer
+-   assuming FreeCAD is installed in \"C   *PortableApps\\FreeCAD 0_15\", go to \"C   *PortableApps\\FreeCAD 0_15\\Mod\" within Windows Explorer
 -   create new directory named \"DrawingDimensioning\"
--   unzip downloaded repository in \"C   *PortableApps\\FreeCAD 0\_15\\Mod\\DrawingDimensioning\"
+-   unzip downloaded repository in \"C   *PortableApps\\FreeCAD 0_15\\Mod\\DrawingDimensioning\"
 
 FreeCAD will now have a new workbench-entry called \"DrawingDimensioning\".
 
@@ -199,7 +199,7 @@ Tipps   *
 
 -   changing the placement of the dimensions afterwards can be done by selecting the dimension in the tree view, and changing the values in the section \"Placement Clicks\" in the data tab
 
--   changing the dimension to a half linear dimension ca be done by selecting the dimension in the tree view and setting the value for \"half Dimension\_linear\" to true. The dimension will be using the half towrds the second click point
+-   changing the dimension to a half linear dimension ca be done by selecting the dimension in the tree view and setting the value for \"half Dimension_linear\" to true. The dimension will be using the half towrds the second click point
 
 ## Links to Drawing Dimensioning WB 
 
@@ -223,4 +223,4 @@ Tipps   *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [Drawing](Category_Drawing.md) > Drawing Dimensioning Addon

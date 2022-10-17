@@ -13,7 +13,7 @@ The installation of FreeCAD on the most well-known Linux systems has been now en
 
 ## Ubuntu and Ubuntu-based systems 
 
-Many Linux distributions are based on Ubuntu and share its repositories. Besides official variants (Kubuntu, Lubuntu and Xubuntu), there are non official derivatives like Linux Mint, Voyager and others. The installation options below should be compatible with these systems.
+Many Linux distributions are based on Ubuntu and share its repositories. Besides official variants (Kubuntu, Lubuntu and Xubuntu), there are non official derivatives like Linux Mint, Voyager and others. The installation options below (Expand) should be compatible with these systems.
 
 
 <div class="mw-collapsible-content">
@@ -33,6 +33,8 @@ sudo apt install freecad
 the Ubuntu Universe package may be outdated as the packaging may lag behind the latest stable source code. In this case, it is suggested to install the package from the `-stable` PPA below. In addition, installing the `-daily` package can be done to test the development branch.
 
 ### Stable PPA version 
+
+**Warning   *** The FreeCAD PPA is currently unmaintained and [looking for volunteers](https   *//forum.freecadweb.org/viewtopic.php?f=42&t=69055&start=20). Please use an alternative (snap, appimage) until the issue is fixed!
 
 Personal Package Archive (PPA) for the stable FreeCAD release is maintained by the FreeCAD community on Launchpad. The Launchpad repository is called [FreeCAD Stable Releases](https   *//launchpad.net/~freecad-maintainers/+archive/freecad-stable) .
 
@@ -322,22 +324,6 @@ If you find out that your system features FreeCAD but is not documented in this 
 
 Many alternative, non-official FreeCAD packages are available on the net, for example for systems like slackware or fedora. A search on the net can quickly give you some results.
 
-### Manual install on .deb based systems 
-
-If for some reason you cannot use one of the above methods, you can always download one of the .deb packages available on the [Download](Download.md) page.
-{{DownloadLinuxStable}}
-
-Once you downloaded the .deb corresponding to your system version, if you have the [Gdebi](wikipedia   *Debian#GDEBI.md) package installed (usually it is), you just need to navigate to where you downloaded the file, and double-click on it. The necessary dependencies will be taken care of automatically by your system package manager. Alternatively you can also install it from the terminal, navigating to where you downloaded the file, and type   *
-
-
-```python
-sudo dpkg -i Name_of_your_FreeCAD_package.deb
-```
-
-changing Name\_of\_your\_FreeCAD\_package.deb by the name of the file you downloaded.
-
-After you installed FreeCAD, a startup icon will be added in the \"Graphic\" section of your Start Menu.
-
 ### Installing on other Linux/Unix systems 
 
 Many common Linux distros now include a precompiled FreeCAD as part of the standard packages. This is often out of date, but is a place to start. Check the standard package managers for your system. One of the following (partial) list of commands could install the official version of FreeCAD for your distro from the terminal. These probably need administrator privileges.
@@ -350,15 +336,12 @@ emerge freecad
 slackpkg install freecad
 yum install freecad
 zypper install freecad
+pacman -Sy freecad
 ```
 
-The package name is case sensitive, so try \FreeCAD\ as well as \freecad\. If that does not work for you, either because your package manager does not have a precompiled FreeCAD version available, or because the available version is too old for your needs, you can try downloading one of the [.AppImage](https   *//github.com/FreeCAD/FreeCAD/releases/) releases from the github repository. These tend to work on most 64 bit Linux distributions, without any special installation. Just make sure the downloaded file is marked as executable, then run it.
+The package name is case sensitive, so try \FreeCAD\ as well as \freecad\. If that does not work for you, either because your package manager does not have a precompiled FreeCAD version available, or because the available version is too old for your needs, you can try installing the [Flatpak](Flatpak.md) or [Snap](Ubuntu_Snap.md) packages (these work on most x86_64 Linux distributions) or try downloading one of the [.AppImage](https   *//github.com/FreeCAD/FreeCAD/releases/) releases from the github repository. These also tend to work on most x86_64 Linux distributions, without any special installation. Just make sure the downloaded file is marked as executable, then run it.
 
 If that still is not good enough, and you cannot locate another source of a precompiled package for your situation, you will need to [compile FreeCAD yourself](Compile_on_Linux.md).
-
-### Installing Windows Version on Linux 
-
-See the [Installing on Windows](Installing_on_Windows.md) page.
 
 ## Next Step 
 

@@ -67,15 +67,6 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/ru

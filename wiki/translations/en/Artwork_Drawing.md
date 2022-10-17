@@ -37,7 +37,7 @@ These templates are large but displayed here at 240 px in width.
 
 <img alt="" src=images/A4_Landscape.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_plain.svg  style="width   *240px;">
 
-The following image is \"A4\_Simple.svg\". It is an empty page.
+The following image is \"A4_Simple.svg\". It is an empty page.
 
 <img alt="" src=images/A4_Simple.svg  style="width   *240px;">
 

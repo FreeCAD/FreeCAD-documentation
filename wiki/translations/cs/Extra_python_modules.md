@@ -437,7 +437,7 @@ Retry once again. If you get again an error like
 error   * Python was built with Visual Studio version 8.0, and extensions need to be built with the same version of the compiler, but it isn't installed.
 ```
 
-then you should check the environment variables DISTUTILS\_USE\_SDK and MSSDK with
+then you should check the environment variables DISTUTILS_USE_SDK and MSSDK with
 
 
 ```python
@@ -496,7 +496,7 @@ pyCollada is a python library that allow programs to read and write [Collada (\*
 
 ### Installation 
 
-Pycollada is usually not yet available in linux distributions repositories, but since it is made only of python files, it doesn\'t require compilation, and is easy to install. You have 2 ways, or directly from the official pycollada git repository, or with the easy\_install tool.
+Pycollada is usually not yet available in linux distributions repositories, but since it is made only of python files, it doesn\'t require compilation, and is easy to install. You have 2 ways, or directly from the official pycollada git repository, or with the easy_install tool.
 
 #### Linux 
 
@@ -518,9 +518,9 @@ cd pycollada
 sudo python setup.py install
 ```
 
-##### With easy\_install 
+##### With easy_install 
 
-Assuming you have a complete python installation already, the easy\_install utility should be present already   *
+Assuming you have a complete python installation already, the easy_install utility should be present already   *
 
 
 ```python

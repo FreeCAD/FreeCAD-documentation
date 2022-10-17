@@ -21,4 +21,4 @@ Acest instrument deschide o foaie de desen creată anterior ca fișier SVG (graf
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/ro

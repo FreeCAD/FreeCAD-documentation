@@ -17,7 +17,7 @@ Si vous souhaitez utiliser FreeCAD dans une application à code source fermé, a
 
 La plupart des marques (branding) se font dans **MainCmd.cpp** ou **MainGui.cpp**. Ces projets génèrent les fichiers exécutables de **FreeCAD**. Pour faire votre propre marque (branding), il suffit de copier **Main** (les projets principaux) ou **MainGui** (les projets graphiques GUI) et donner à l\'exécutable un nom qui vous est propre, pour notre exemple, **FooApp.exe**. Les réglages les plus importants pour un nouveau visuel sont effectués à un seul endroit, dans la fonction main(). Voici la section de code qui contrôle l\'image de marque (branding)    *
 
- {.C}
+ C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
@@ -71,7 +71,7 @@ Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_scre
 
 Dans FreeCAD, une méthode est également prise en charge sans écrire de fonction main() personnalisée. Pour cette méthode, vous devez écrire un nom de fichier appelé **branding.xml** et le placer dans le répertoire d\'installation de FreeCAD. Voici un exemple avec toutes les balises prises en charge   *
 
- {.XML}
+ XML
 <?xml version="1.0" encoding="utf-8"?>
 <Branding>
     <Application>FooApp</Application>

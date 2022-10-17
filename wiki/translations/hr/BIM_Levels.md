@@ -1,5 +1,5 @@
 # BIM Levels/hr
-1.  REDIRECT [BIM\_Views/hr](BIM_Views/hr.md)
+1.  REDIRECT [BIM_Views/hr](BIM_Views/hr.md)
 
 
 

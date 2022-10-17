@@ -163,13 +163,13 @@ Straight Sweep Objects
 ### Spiral and Helical Objects 
 
 ++++
-| Coil Spring        | <img alt="Spring" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;">                 | -   Outline   * **circle**.                                                                                          |
+| Coil Spring        | <img alt="Spring" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;">                 | -   Outline   * **circle**.                                                                                      |
 |                    |                                                                                  | -   Path   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Part Helix](Part_Helix.md).               |
 ++++
-| Hairspring         | <img alt="Balance Spring" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;"> | -   Outline   * **rectangle**.                                                                                       |
+| Hairspring         | <img alt="Balance Spring" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;"> | -   Outline   * **rectangle**.                                                                                   |
 | Balance Spring     |                                                                                  | -   Path   * <img alt="" src=images/Part_Spiral.svg  style="width   *16px;"> [Part Spiral](Part_Spiral.md).           |
 ++++
-| **Volute Spring**, | <img alt="Volute Spring" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">   | -   Outline   * **rectangle**.                                                                                       |
+| **Volute Spring**, | <img alt="Volute Spring" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">   | -   Outline   * **rectangle**.                                                                                   |
 | Conical Spring     |                                                                                  | -   Path   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Part Helix](Part_Helix.md) with an angle. |
 ++++
 

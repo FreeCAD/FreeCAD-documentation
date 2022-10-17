@@ -42,9 +42,9 @@
 | **[TechDraw](Special   *WhatLinksHere/TechDraw_Module.md)**       | <img alt="" src=images/Edit_OK.svg  style="width   *16px;">         |
 +++
 
-## Renaming Part\_Module currently not possible 
+## Renaming Part_Module currently not possible 
 
-For some reason it is currently not possible to rename the Part\_Module page.
+For some reason it is currently not possible to rename the Part_Module page.
 
 ## Under construction 
 

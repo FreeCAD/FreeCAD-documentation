@@ -1,5 +1,5 @@
 # Sketcher
-1.  REDIRECT [Sketcher\_Workbench](Sketcher_Workbench.md)
+1.  REDIRECT [Sketcher_Workbench](Sketcher_Workbench.md)
 
 
 

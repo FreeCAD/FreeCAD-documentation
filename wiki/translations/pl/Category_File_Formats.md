@@ -13,9 +13,10 @@ This category collects pages about all the different file formats that FreeCAD i
 | [FreeCAD and DXF Import/pl](wiki/FreeCAD and DXF Import/pl.md) | [FreeCAD and Mesh Import/pl](wiki/FreeCAD and Mesh Import/pl.md) | [GlTF/pl](wiki/GlTF/pl.md) |
 | [Import Export Preferences/pl](wiki/Import Export Preferences/pl.md) | [Import Export/pl](wiki/Import Export/pl.md) | [Import from STL or OBJ/pl](wiki/Import from STL or OBJ/pl.md) |
 | [Import/Export IFC - compiling IfcOpenShell/pl](wiki/Import/Export IFC - compiling IfcOpenShell/pl.md) | [Importing From Sketchup/pl](wiki/Importing From Sketchup/pl.md) | [Macro 3DXML import/pl](wiki/Macro 3DXML import/pl.md) |
-| [Macro FCBmpImport/pl](wiki/Macro FCBmpImport/pl.md) | [Macro Iges PyImporter/pl](wiki/Macro Iges PyImporter/pl.md) | [OpenSCAD CSG/pl](wiki/OpenSCAD CSG/pl.md) |
-| [PDF/pl](wiki/PDF/pl.md) | [Spreadsheet CSV/pl](wiki/Spreadsheet CSV/pl.md) | [Std Export/pl](wiki/Std Export/pl.md) |
-| [Std Import/pl](wiki/Std Import/pl.md) | [SVG/pl](wiki/SVG/pl.md) |
+| [Macro FCBmpImport/pl](wiki/Macro FCBmpImport/pl.md) | [Macro Iges PyImporter/pl](wiki/Macro Iges PyImporter/pl.md) | [Macro Z Height Map/pl](wiki/Macro Z Height Map/pl.md) |
+| [OpenSCAD CSG/pl](wiki/OpenSCAD CSG/pl.md) | [PDF/pl](wiki/PDF/pl.md) | [Spreadsheet CSV/pl](wiki/Spreadsheet CSV/pl.md) |
+| [Std Export/pl](wiki/Std Export/pl.md) | [Std Import/pl](wiki/Std Import/pl.md) | [SVG/pl](wiki/SVG/pl.md) |
+|
 
 
 

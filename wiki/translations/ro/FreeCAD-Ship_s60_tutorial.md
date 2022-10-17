@@ -39,7 +39,7 @@ You can learn more about [FreeCAD-Ship here](Ship_Workbench.md)
 
 ### Introducere
 
-FreeCAD-Ship lucrează peste \'\'\'entitățile navei \'\'\', care trebuie să fie create peste geometria furnizată. Geometria trebuie să fie un solid sau un set de solide, trebuie luate în considerare următoarele criterii   *
+FreeCAD-Ship lucrează peste **entitățile navei**, care trebuie să fie create peste geometria furnizată. Geometria trebuie să fie un solid sau un set de solide, trebuie luate în considerare următoarele criterii   *
 
 -   Trebuie asigurată toată geometria cocii (inclusiv corpurile simetrice).
 -   Geometria tribordului trebuie inclusă în domeniul negativ \"y\".
@@ -89,7 +89,7 @@ Pentru a ajuta noii utilizatori FreeCAD-Ship include un loader de exemple de geo
 
 </div>
 
-Executarea instrumentului (Ship design/Load an example ship geometry) va afișa un dialog de activități. Selectați seria 60 din Universitatea din Iowa \'\' \'și apăsați Accept. Instrumentul încarcă un nou document cu geometria **s60\_IowaUniversity**.
+Executarea instrumentului (Ship design/Load an example ship geometry) va afișa un dialog de activități. Selectați seria 60 din Universitatea din Iowa \'\' \'și apăsați Accept. Instrumentul încarcă un nou document cu geometria **s60_IowaUniversity**.
 
 
 <div class="mw-translate-fuzzy">
@@ -104,7 +104,7 @@ Executarea instrumentului (Ship design/Load an example ship geometry) va afișa 
 
 ## Crează instanța navei 
 
-Pentru a crea o instanță \'\' \'Ship\' \'\' selectați geometria s60 și executați instrumentul de creare a navei \'\' \'\' (Ship design/Create a new ship).
+Pentru a crea o instanță *\'Ship\'* selectați geometria s60 și executați instrumentul de creare a navei (Ship design/Create a new ship).
 
 
 <div class="mw-translate-fuzzy">
@@ -232,7 +232,7 @@ Linia de desen este un set de linii din secțiuni tăiate în toate cele trei ax
 
 ### Secțiuni transversale 
 
-De obicei, trebuie efectuate 21 de secțiuni transversale echidistante între perpendiculare. pentru a face acest lucru, FreeCAD oferă un instrument automat pentru a face acest lucru, pur și simplu selectați tipul de secțiune transversală, mergeți la caseta \"Creare automată\" și setați secțiunile \"21\" , apoi apăsați \'\' \'Creare secțiuni\' \'\'.
+De obicei, trebuie efectuate 21 de secțiuni transversale echidistante între perpendiculare. pentru a face acest lucru, FreeCAD oferă un instrument automat pentru a face acest lucru, pur și simplu selectați tipul de secțiune transversală, mergeți la caseta \"Creare automată\" și setați secțiunile \"21\" , apoi apăsați *\'Creare secțiuni\'*.
 
 
 </div>
@@ -281,7 +281,7 @@ Two longitudinal cuts must be added, so select **Longitudinal** type of sections
 
 ### Linii de plutire 
 
-6 Linii de plutire Trebuie să adăugați între linia de bază și schița de proiectare, deci selectați tipul secțiunilor \"Waterlines\" \"\", mergeți la caseta \"Creare automată\" și setați \"5\" (Z = 0 m nu va fi luată în considerare, adăugați-o manual dacă aveți nevoie de ea), apoi apăsați \'\' \'Creare secțiuni\' \'\'. Tabelul secțiunilor este umplut și previzualizarea secțiunilor este actualizată.
+6 Linii de plutire Trebuie să adăugați între linia de bază și schița de proiectare, deci selectați tipul secțiunilor \"Waterlines\" \"\", mergeți la caseta \"Creare automată\" și setați \"5\" (Z = 0 m nu va fi luată în considerare, adăugați-o manual dacă aveți nevoie de ea), apoi apăsați *\'Creare secțiuni\'*. Tabelul secțiunilor este umplut și previzualizarea secțiunilor este actualizată.
 
 
 </div>
@@ -433,7 +433,7 @@ Așadar, am stabilit următoarele date   *
 -   **Ruliu** = 0 grade
 -   **Pescaj minim** = 0,1 m
 -   **Pescaj maxim** = 2,0 m
--   \'\'\'\' Numărul de puncte \'\' \'= 39. O mulțime de puncte sau geometrii sunt cu adevărat complexe implică timpi lungi de calcul, în acest caz pot fi cheltuit aproximativ un minut.
+-   \'*\' Numărul de puncte* \'= 39. O mulțime de puncte sau geometrii sunt cu adevărat complexe implică timpi lungi de calcul, în acest caz pot fi cheltuit aproximativ un minut.
 
 
 <div class="mw-translate-fuzzy">

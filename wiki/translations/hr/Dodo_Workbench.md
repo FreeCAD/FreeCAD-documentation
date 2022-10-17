@@ -1,5 +1,5 @@
 # Dodo Workbench/hr
-1.  REDIRECT [Flamingo\_Workbench/hr](Flamingo_Workbench/hr.md)
+1.  REDIRECT [Flamingo_Workbench/hr](Flamingo_Workbench/hr.md)
 
 
 

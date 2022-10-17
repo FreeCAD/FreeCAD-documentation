@@ -370,17 +370,17 @@ The App Link project started after the redesign of the [PartDesign Workbench](Pa
 -   [Introducing App   *   *Link/XLink](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=21586) (March 2017)
 -   [Links](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=22216) (May 2017)
 -   [Realthunder Link implementation   * Architecture discussion](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=23015) (June 2017)
--   [PR \#876   * Link, stage one, context aware selection](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=23419) (July 2017)
+-   [PR #876   * Link, stage one, context aware selection](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=23419) (July 2017)
 -   [Preview   * Link, stage two, API groundwork](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=23626) (July 2017)
 -   [Assembly3 preview](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=25712) (December 2017)
 -   [Merging of my Link branch](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=29542) (June 2018)
 
 Finally, the pull request and merge happened   *
 
--   [App   *   *Link   * the big merge](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=38621), old thread (July 2019), [pull request \#2350](https   *//github.com/FreeCAD/FreeCAD/pull/2350) (the BIG merge), [LinkMerge branch](https   *//github.com/realthunder/FreeCAD/tree/LinkMerge).
+-   [App   *   *Link   * the big merge](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=38621), old thread (July 2019), [pull request #2350](https   *//github.com/FreeCAD/FreeCAD/pull/2350) (the BIG merge), [LinkMerge branch](https   *//github.com/realthunder/FreeCAD/tree/LinkMerge).
 -   [App   *   *Link   * the big merge](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=37757), main thread (July 2019)
 -   [A simple path description of Link, 019, Link stage, Asm3, merge?](https   *//forum.freecadweb.org/viewtopic.php?p=329054#p329054) (August 2019)
--   [PR\#2559   * expose link and navigation actions](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=39672), an introduction to the Link feature in 0.19 (September 2019).
+-   [PR#2559   * expose link and navigation actions](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=39672), an introduction to the Link feature in 0.19 (September 2019).
 
 Other miscellaneous \"links\" about Link include   *
 

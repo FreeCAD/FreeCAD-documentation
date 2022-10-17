@@ -1,5 +1,5 @@
 # Install on Mac/ja
-1.  REDIRECT [Installing\_on\_Mac/ja](Installing_on_Mac/ja.md)
+1.  REDIRECT [Installing_on_Mac/ja](Installing_on_Mac/ja.md)
 
 
 

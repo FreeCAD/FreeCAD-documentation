@@ -45,7 +45,7 @@ Esta herramienta recorta/corta y extiende líneas y polilíneas, y extruye caras
 
 The single character keyboard shortcut and the modifier keys mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
--   The solution with the largest length determines the default direction of the command. Hold down **Alt** to invert this direction.
+-   Hold down **Alt** to invert the default result of the command.
 -   Hold down **Shift** to restrict the operation to the current segment of a [Draft Wire](Draft_Wire.md).
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 

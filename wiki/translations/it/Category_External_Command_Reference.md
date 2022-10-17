@@ -1,5 +1,5 @@
 # Category:External Command Reference/it
-This categorizes all **external** workbench commands separate from the internal [   *Category   *Command\_Reference/it](   *Category   *Command_Reference/it.md)
+This categorizes all **external** workbench commands separate from the internal [   *Category   *Command_Reference/it](   *Category   *Command_Reference/it.md)
 
 ### Contents
 
@@ -17,7 +17,7 @@ This categorizes all **external** workbench commands separate from the internal 
 | [EM FHPlaneAddRemoveNodeHole/it](wiki/EM FHPlaneAddRemoveNodeHole/it.md) | [EM FHPlaneHole/it](wiki/EM FHPlaneHole/it.md) | [EM FHPort/it](wiki/EM FHPort/it.md) |
 | [EM FHSegment/it](wiki/EM FHSegment/it.md) | [EM FHSolver/it](wiki/EM FHSolver/it.md) | [EM Workbench/it](wiki/EM Workbench/it.md) |
 | [Fasteners BOM/it](wiki/Fasteners BOM/it.md) | [Fasteners Workbench/it](wiki/Fasteners Workbench/it.md) | [FCGear BevelGear/it](wiki/FCGear BevelGear/it.md) |
-| [FCGear CrownGear/it](wiki/FCGear CrownGear/it.md) | [FCGear CycloideGear/it](wiki/FCGear CycloideGear/it.md) | [FCGear InvoluteGear/it](wiki/FCGear InvoluteGear/it.md) |
+| [FCGear CrownGear/it](wiki/FCGear CrownGear/it.md) | [FCGear CycloidGear/it](wiki/FCGear CycloidGear/it.md) | [FCGear InvoluteGear/it](wiki/FCGear InvoluteGear/it.md) |
 | [FCGear InvoluteRack/it](wiki/FCGear InvoluteRack/it.md) | [FCGear LanternGear/it](wiki/FCGear LanternGear/it.md) | [FCGear TimingGear/it](wiki/FCGear TimingGear/it.md) |
 | [FCGear WormGear/it](wiki/FCGear WormGear/it.md) | [Lattice2 AttachablePlacement/it](wiki/Lattice2 AttachablePlacement/it.md) | [Reinforcement Bar Bending Schedule/it](wiki/Reinforcement Bar Bending Schedule/it.md) |
 | [Reinforcement Bar Shape Cut List/it](wiki/Reinforcement Bar Shape Cut List/it.md) | [SheetMetal AddBase/it](wiki/SheetMetal AddBase/it.md) | [SheetMetal AddBend/it](wiki/SheetMetal AddBend/it.md) |

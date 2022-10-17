@@ -5,26 +5,17 @@
    MenuLocation   *Arch → Инструменты для труб → Труба
    Workbenches   *[Arch](Arch_Workbench/ru.md)
    Shortcut   ***P** **I**
-   SeeAlso   *[Arch Соединитель труб](Arch_PipeConnector/ru.md), [[Arch Equipment/ru]]
+   SeeAlso   *[Соединитель труб](Arch_PipeConnector/ru.md), [Оборудование](Arch_Equipment/ru.md)
    Version   *0.17
 ---
 
 # Arch Pipe/ru
 
-
-</div>
-
 ## Описание
 
-Этот инструмент позволяет создавать трубы с нуля или из выбранных объектов. Выбранные объекты должны быть основами деталей (Draft, Sketch, и дт..) и содержать одну и только одну незамкнутую линию (или кривую).
+Этот инструмент позволяет создавать трубы с нуля или из выбранных объектов. Выбранные объекты должны быть основами деталей (Draft, Sketch, и дт..) и содержать одну и только одну незамкнутую линию.
 
-
-<div class="mw-translate-fuzzy">
-
-### Как использовать 
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -37,7 +28,7 @@
 
 ## Параметры
 
--   Трубы имеют общие свойства и поведение характерные для всех [ Компонентов](Arch_Component.md)
+-   Трубы обладают таким же общими свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
 
 ## Свойства
 
@@ -55,25 +46,13 @@
 
 ![](images/Arch_pipe_example_01.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 -   Теперь Оборудование имеет новое свойство **SnapPoints**, представляющее собой список трехмерных векторов. Это позволяет добавлять пользовательские точки привязки, к которым вы можете привязываться, когда включена кнопка привязки [Специальные](Draft_Snap_Special/ru.md). В настоящее время это свойство доступно только для Python. В приведенном выше примере я добавил новую точку привязки на выходе устройства wc. Внутренние векторы Точек Привязки отображаются на модели в виде белых точек   *
-
-
-</div>
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_02.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Теперь к \"Специальными\" точками привязки вы можете привязаться   *
-
-
-</div>
+-   Теперь к [\"Специальными\"](Draft_Snap_Special/ru.md) точками привязки вы можете привязаться   *
 
 ![](images/Arch_pipe_example_03.jpg )
 
@@ -97,12 +76,12 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 Также возможно создать Трубы без базовой линии, в этом случае используйте свойство «Length» для задания длины.
 
-## Скрипты
+## Программирование
 
 
-**Смотрите также   ***
+**Смотрите так же   ***
 
-[Arch API](Arch_API.md) и [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 Инструмент Труба можно использовать в [макросах](macros/ru.md) и в консоли [Python](Python.md), используя следующую функцию   * 
 ```python
@@ -134,15 +113,6 @@ FreeCAD.ActiveDocument.recompute()
 Pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

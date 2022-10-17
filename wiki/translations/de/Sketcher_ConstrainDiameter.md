@@ -33,7 +33,7 @@ NB   * B-Spline-Pole können nicht mit anderen Objekttypen in der Auswahl gemisc
 3.  Ein Aufklappdialog öffnet sich, um den Wert zu bearbeiten oder zu bestätigen. Zum Bestätigen **OK** drücken. Falls mehrere Kreise/Bögen ausgewählt wurden, werden alle Randbedingungen diesen Wert übernehmen. Die einzelnen Werte werden bearbeitet, indem man in der 3D-Ansicht auf die Maßzahl doppelklickt; oder indem man in der Liste der Randbedingungen auf die Bedingung doppelklickt oder rechtsklickt und **Wert ändern** auswählt.
 4.  Optional können Maßzahl und Maßlinie in der 3D-Ansicht durch Klicken auf die Maßzahl und Ziehen bei gedrückter linker Maustaste verschoben und gedreht werden.
 
-\'\'\'Hinweis   * \'\'\' Das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal, um den Befehl zu beenden.
+**Hinweis   *** Das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden. Standardmäßig befindet sich der Befehl im Fortsetzungsmodus, um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal, um den Befehl zu beenden.
 
 ## Skripten
 

@@ -22,11 +22,11 @@ Simple exemple d\'animation dans l\'atelier Draft en utilsant les [expressions](
 
 ## Utilisation
 
-Téléchargez le fichier exemple [Constraint\_Draft00.FCStd](http   *//forum.freecadweb.org/download/file.php?id=36559), ouvrez le dans FreeCAD
+Téléchargez le fichier exemple [Constraint_Draft00.FCStd](http   *//forum.freecadweb.org/download/file.php?id=36559), ouvrez le dans FreeCAD
 
 ## Script
 
-Pour copier le script, sélectionnez la ligne **Line005\_with\_Code** dans la Vue combinée sélectionnez l\'onglet Données puis → section → Memo code → Code for rotation → ** ... ** (La macro fonctionne avec FreeCAD version 16)
+Pour copier le script, sélectionnez la ligne **Line005_with_Code** dans la Vue combinée sélectionnez l\'onglet Données puis → section → Memo code → Code for rotation → ** ... ** (La macro fonctionne avec FreeCAD version 16)
 
 Sélectionnez le code complet et copiez le dans la console Python
 
@@ -38,7 +38,7 @@ Petite vidéo, comment copier le code
 
 ToolBar Icon ![](images/Macro_Constraint_Draft.png )
 
-**Macro\_Constraint\_Draft.FCMacro**
+**Macro_Constraint_Draft.FCMacro**
 
 
 {{MacroCode|code=

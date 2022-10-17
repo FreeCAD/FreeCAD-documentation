@@ -98,7 +98,7 @@ cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
--   Creates a 5 mm cube for us to apply chamfered edges to. See [Part\_API](Part_API.md) for an explanation of the makeBox method.
+-   Creates a 5 mm cube for us to apply chamfered edges to. See [Part_API](Part_API.md) for an explanation of the makeBox method.
 
 
 ```python
@@ -132,7 +132,7 @@ myEdges.append((12, 1.5, 1.25))
 ```
 
 -   Creates an empty array \"myEdges\" and then appends the array with each edge\'s chamfer parameters.
--   Syntax for each item should be (edge\#, chamfer start length, chamfer end length)
+-   Syntax for each item should be (edge#, chamfer start length, chamfer end length)
 
 
 ```python

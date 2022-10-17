@@ -19,7 +19,7 @@ FreeCADはCATIAやSolidWorks，Solid Edgeと類似のツールを備えている
 
 <div class="mw-translate-fuzzy">
 
-多くの最新の3D、[CAD](http   *//ja.wikipedia.org/wiki/CAD)モデラーと同様に、2D形状をスケッチしたり、3Dモデルから設計の詳細を抽出して2D生産図面を作成したり、2D図面を作成したりするために、多くの2Dコンポーネントがあります 図面（[AutoCAD LT](http   *//en.wikipedia.org/wiki/AutoCAD#AutoCAD_LT)のような）は焦点ではなく、アニメーションも有機的な形もありません（[（ソフトウェア）Maya](http   *//en.wikipedia.org/wiki/Maya_)、[3ds Max](http   *//ja.wikipedia.org/wiki/3ds_Max)、[Blender](http   *//en.wikipedia.org/wiki/Blender_%28software%29)または\[http：// en.wikipedia.org/wiki/CINEMA\_4D Cinema 4D\]）、その幅広い適応性のおかげで、FreeCADは現在の焦点よりもはるかに広い領域で有用になるかもしれません。
+多くの最新の3D、[CAD](http   *//ja.wikipedia.org/wiki/CAD)モデラーと同様に、2D形状をスケッチしたり、3Dモデルから設計の詳細を抽出して2D生産図面を作成したり、2D図面を作成したりするために、多くの2Dコンポーネントがあります 図面（[AutoCAD LT](http   *//en.wikipedia.org/wiki/AutoCAD#AutoCAD_LT)のような）は焦点ではなく、アニメーションも有機的な形もありません（[（ソフトウェア）Maya](http   *//en.wikipedia.org/wiki/Maya_)、[3ds Max](http   *//ja.wikipedia.org/wiki/3ds_Max)、[Blender](http   *//en.wikipedia.org/wiki/Blender_%28software%29)または\[http：// en.wikipedia.org/wiki/CINEMA_4D Cinema 4D\]）、その幅広い適応性のおかげで、FreeCADは現在の焦点よりもはるかに広い領域で有用になるかもしれません。
 
 
 </div>

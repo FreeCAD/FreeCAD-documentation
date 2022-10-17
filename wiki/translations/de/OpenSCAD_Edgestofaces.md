@@ -21,7 +21,7 @@ Wandelt Kanten in Flächen um. Nützlich, um importierte DXF-Geometrien für die
 
 ## Hinweise
 
-Lies auch <img alt="Draft\_Upgrade" src=images/Draft_Upgrade.svg  style="width   *24px;"> [Hochstufen](Draft_Upgrade/de.md) für einen alternativen Weg, um Flächen zu bekommen.
+Lies auch <img alt="Draft_Upgrade" src=images/Draft_Upgrade.svg  style="width   *24px;"> [Hochstufen](Draft_Upgrade/de.md) für einen alternativen Weg, um Flächen zu bekommen.
 
 
 

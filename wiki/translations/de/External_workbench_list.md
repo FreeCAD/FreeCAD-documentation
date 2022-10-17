@@ -1,5 +1,5 @@
 # External workbench list/de
-1.  REDIRECT [External\_workbenches/de](External_workbenches/de.md)
+1.  REDIRECT [External_workbenches/de](External_workbenches/de.md)
 
 
 

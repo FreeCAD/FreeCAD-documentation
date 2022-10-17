@@ -14,8 +14,7 @@ This category lists pages related to the [Drawing Workbench/it](Drawing_Workbenc
 | [Drawing ProjectShape/it](wiki/Drawing ProjectShape/it.md) | [Drawing Save/it](wiki/Drawing Save/it.md) | [Drawing SpreadsheetView/it](wiki/Drawing SpreadsheetView/it.md) |
 | [Drawing Symbol/it](wiki/Drawing Symbol/it.md) | [Drawing Template HowTo/it](wiki/Drawing Template HowTo/it.md) | [Drawing templates/it](wiki/Drawing templates/it.md) |
 | [Drawing tutorial/it](wiki/Drawing tutorial/it.md) | [Drawing View/it](wiki/Drawing View/it.md) | [Drawing Workbench/it](wiki/Drawing Workbench/it.md) |
-| [ManualDrawing/it](wiki/ManualDrawing/it.md) | [Misc templates/it](wiki/Misc templates/it.md) | [Svg Namespace/it](wiki/Svg Namespace/it.md) |
-|
+| [Misc templates/it](wiki/Misc templates/it.md) | [Svg Namespace/it](wiki/Svg Namespace/it.md) |
 
 
 

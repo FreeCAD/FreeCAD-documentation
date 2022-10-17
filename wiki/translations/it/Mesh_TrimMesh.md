@@ -1,5 +1,5 @@
 # Mesh TrimMesh/it
-1.  REDIRECT [Mesh\_PolyTrim/it](Mesh_PolyTrim/it.md)
+1.  REDIRECT [Mesh_PolyTrim/it](Mesh_PolyTrim/it.md)
 
 
 

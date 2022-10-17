@@ -67,7 +67,7 @@ se si desidera definire un vincolo di simmetria rispetto a un punto, l\'ordine d
 
 </div>
 
-Vedere il tracker [issue \#4144](https   *//freecadweb.org/tracker/view.php?id=4144), e la [discussione nel forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+Vedere il tracker [issue #4144](https   *//freecadweb.org/tracker/view.php?id=4144), e la [discussione nel forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
 
 ## Scripting
 

@@ -15,7 +15,7 @@ Applique une contrainte de pression sur une face.
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintPressure.svg" width=16px> [Contrainte de pression](FEM_ConstraintPressure/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintPressure.svg" width=16px> Contrainte de pression** dans le menu.
 2.  Cliquez sur **Ajouter** et sélectionnez la face dans la [vue 3D](3D_view/fr.md).
@@ -26,7 +26,7 @@ Applique une contrainte de pression sur une face.
 
 -   La répartition de la pression sur la face est toujours uniforme et perpendiculaire à la face.
 
--   Pression sur les faces   * <https   *//github.com/FreeCAD/FreeCAD/issues/5699>
+-   Pression sur les faces    * <https   *//github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 

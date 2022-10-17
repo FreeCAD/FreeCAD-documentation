@@ -1,5 +1,5 @@
 # Category:Draft/hu
-This category list pages related to the \"User\_Documentation/hu\" and \"Workbenches/hu\"
+This category list pages related to the \"User_Documentation/hu\" and \"Workbenches/hu\"
 
 [Category   *User Documentation/hu](Category   *User_Documentation/hu.md) [Category   *Workbenches/hu](Category   *Workbenches/hu.md)
 

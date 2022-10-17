@@ -2,89 +2,36 @@
 - GuiCommand   */fr
    Name   *Draft Array
    Name/fr   *Draft Réseau
-   MenuLocation   *Draft → Réseau
-   Workbenches   *[Draft](Draft_Workbench/fr.md)
-   SeeAlso   *[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Chemin pour série de copies](Draft_PathArray/fr.md), [Draft Matrice de points](Draft_PointArray/fr.md), [Draft Clone](Draft_Clone/fr.md)
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md)
 ---
 
 # Draft Array/fr
 
-
-</div>
-
 ## Description
 
+La commande <img alt="" src=images/Draft_Array.svg  style="width   *24px;"> **Draft Réseau** crée un réseau orthogonal (3 axes) à partir d\'un objet sélectionné. Le réseau créé peut être transformé en un [réseau polaire](Draft_PolarArray/fr.md) ou un [réseau circulaire](Draft_CircularArray/fr.md) en modifiant sa propriété **Array Type**.
 
-<div class="mw-translate-fuzzy">
+Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
-L\'outil **<img src="images/Draft_Array.svg" width=16px> [Draft Réseau (tableau ou copies multiples)](Draft_Array/fr.md)** crée une copie orthogonale (3 axes) ou un tableau polaire ou ciruclaire de l\'objet sélectionné.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Cet outil peut être utilisé sur des formes 2D créées avec l\'[atelier Draft](Draft_Workbench/fr.md), mais également sur de nombreux types d\'objets 3D, tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md) ou l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
-
-
-</div>
-
-This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md) or [Draft CircularArray](Draft_CircularArray.md) command instead.
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
+Cette commande est désormais obsolète. Utilisez plutôt la commande [Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md) ou [Draft Réseau circulaire](Draft_CircularArray/fr.md)
 
 ## Utilisation
 
-1.  Sélectionnez l\'objet pour créer un réseau.
-2.  Pressez le bouton **<img src="images/Draft_Array.png" width=16px> [Réseau Draft](Draft_Array/fr.md)**. Si aucun objet n\'est sélectionné vous serez invité à en sélectionner un.
-3.  L\'objet Array est créé immédiatement. Vous devez modifier les propriétés du tableau pour modifier le nombre et la direction des copies créées.
-
-
-</div>
-
-## Properties
-
-
-<div class="mw-translate-fuzzy">
+1.  Pour utiliser cette commande dans FreeCAD version 0.19 et suivantes, vous devez ajouter un bouton à une barre d\'outils personnalisée. Voir [Personnalisation de l\'interface](Interface_Customization/fr.md).
+2.  Sélectionnez au choix un objet.
+3.  Appuyez sur le bouton **<img src="images/Draft_Array.svg" width=16px> [Draft Réseau](Draft_Array/fr.md)**.
+4.  Si vous n\'avez pas encore sélectionné d\'objet    * sélectionnez un objet.
+5.  Le réseau est créé.
+6.  Vous pouvez éventuellement modifier ses [propriétés](Draft_OrthoArray/fr#Propri.C3.A9t.C3.A9s.md).
 
 ## Propriétés
 
--    {{PropertyData/fr|Base}}   * spécifie l\'objet à dupliquer dans le tableau.
-
--    {{PropertyData/fr|Array Type|Enumeration}}   * spécifie le type de tableau à créer, {{value|"ortho"}}, {{value|"polar"}}, ou {{value|"circular"}}.
-
--    {{PropertyData/fr|Fuse}}   * si elle est réglée sur `True` et que les copies se croisent, elles seront fusionnées en une seule forme.
-
-
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
+Voir [Draft Réseau orthogonal](Draft_OrthoArray/fr#Propri.C3.A9t.C3.A9s.md).
 
 ## Script
 
-
-**Voir aussi    ***
-
-[Draft API](Draft_API/fr.md) et [FreeCAD Scripts de base](FreeCAD_Scripting_Basics/fr.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+Voir [Draft Réseau orthogonal](Draft_OrthoArray/fr#Propri.C3.A9t.C3.A9s.md).
 
 
 

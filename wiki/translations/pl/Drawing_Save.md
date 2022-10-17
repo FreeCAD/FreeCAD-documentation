@@ -24,4 +24,4 @@ Pliki SVG są powszechne i mogą być przeglądane w większości nowoczesnych p
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/pl

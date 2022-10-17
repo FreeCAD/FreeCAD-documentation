@@ -155,7 +155,7 @@ Zobacz stronę [Grafika środowiska pracy Render](Artwork_Render/pl.md).
 
 Zobacz stronę [Grafika środowiska pracy Statek](Artwork_Ship/pl.md).
 
-[Category   *Artwork](Category_Artwork.md) [Category   *Developer\_Documentation](Category_Developer_Documentation.md)
+[Category   *Artwork](Category_Artwork.md) [Category   *Developer_Documentation](Category_Developer_Documentation.md)
 
 
 

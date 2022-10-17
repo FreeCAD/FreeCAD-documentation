@@ -126,7 +126,7 @@ Toolbar Icon
 
 ![](images/Macro_Dump_Objects.png )
 
-**Macro\_Dump\_Objects.FCMacro**
+**Macro_Dump_Objects.FCMacro**
 
 
 {{MacroCode|code=

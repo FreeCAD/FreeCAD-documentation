@@ -1,17 +1,15 @@
 ---
 - GuiCommand   */ru
-   Name/ru   *Arch_Panel_Sheet
+   Name/ru   *Панельный лист
    Name   *Arch_Panel_Sheet
-   MenuLocation   *Arch → Инструменты панели → Лист панелей
+   MenuLocation   *Arch → Инструменты панелирования → Панельный лист
    Workbenches   *[Arch](Arch_Workbench/ru.md)
    Shortcut   ***P** **S**
-   SeeAlso   *[Arch Panel](Arch_Panel/ru.md), [Arch Panel Cut](Arch_Panel_Cut/ru.md), [Arch Nest](Arch_Nest/ru.md)
+   Version   *0.17
+   SeeAlso   *[Паенль](Arch_Panel/ru.md), [Панельный контур](Arch_Panel_Cut/ru.md), [Компоновка](Arch_Nest/ru.md)
 ---
 
 # Arch Panel Sheet/ru
-
-
-</div>
 
 ## Описание
 
@@ -21,7 +19,7 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 <img alt="" src=images/Arch_Wikihouse_04.jpg  style="width   *1024px;">
 
-*The above image shows how Panel Sheets appear when exported to DXF.*
+\"На приведенном выше изображении показано, как выглядят листы раскроеные на плоские панельные элементы при экспорте в формат DXF\".
 
 ## Применение
 
@@ -69,7 +67,7 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 -    **Show Grain**   * Shows a fiber texture (Make Face must be set to True)
 
-## Сценарии
+## Программирование
 
 
 **See also   ***
@@ -115,18 +113,9 @@ FreeCAD.ActiveDocument.recompute()
 Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 ```
 
-## Учебники
+## Материалы для самостоятельного изучения 
 
--   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   [Руководство по портированию файлов проекта Wikihouse в FreeCAD](Wikihouse_porting_tutorial/ru.md)
 
 
 

@@ -28,7 +28,7 @@ Download the files in FreeCAD and run the macro
 
  ToolBar Icon ![](images/Macro_Assembly.png )
 
-**Macro\_Assembly.FCMacro**
+**Macro_Assembly.FCMacro**
 
 
 {{MacroCode|code=

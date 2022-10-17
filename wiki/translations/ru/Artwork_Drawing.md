@@ -37,7 +37,7 @@
 
 <img alt="" src=images/A4_Landscape.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_plain.svg  style="width   *240px;">
 
-Следующее изображение - \"A4\_Simple.svg\". Это просто пустая страница.
+Следующее изображение - \"A4_Simple.svg\". Это просто пустая страница.
 
 <img alt="" src=images/A4_Simple.svg  style="width   *240px;">
 

@@ -1,5 +1,5 @@
 # Image Module/sv
-1.  REDIRECT [Image\_Workbench/sv](Image_Workbench/sv.md)
+1.  REDIRECT [Image_Workbench/sv](Image_Workbench/sv.md)
 
 
 

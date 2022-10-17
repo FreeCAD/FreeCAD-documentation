@@ -1,7 +1,7 @@
 ---
 - GuiCommand   *
    Name   *Arch Panel Cut
-   MenuLocation   *Arch → Panel Tools → Panel Cut
+   MenuLocation   *Arch → Panel tools → Panel Cut
    Workbenches   *[Arch](Arch_Workbench.md), [Path](Path_Workbench.md)
    Shortcut   ***P** **C**
    Version   *0.17
@@ -26,7 +26,7 @@ This tool creates, in the 3D document, a flat, 2D view of an [Arch Panel](Arch_P
 
 -   If the panel is not flat (corrugated, for example), the relief won\'t appear in the Panel cut. This tool is useful mainly for flat panels
 -   The panel cut can display a tag. This tag can be a custom line of text or can automatically show the Tag, Label or Description of its linked Panel.
--   To be useful for CNC machining, the tag should be written using a sticky font, where letters are simple polylines that are easy for the machine to follow. Upon creation, the Panel Cut object will automatically use the font specified in Edit → Preferences → Draft → Texts and Dimensions → ShapeString Font
+-   To be useful for CNC machining, the tag should be written using a stick font, where letters are simple polylines that are easy for the machine to follow. Upon creation, the Panel Cut object will automatically use the font specified in Edit → Preferences → Draft → Texts and Dimensions → Default ShapeString font file
 -   Double-clicking on the panel cut in the tree view after it is created allows you to enter edit mode and modify the position of the tag
 -   When you need to layout different Panel Cuts together, Panel Cuts can display a margin, that is useful to make sure a certain space is always present between a cut and another
 

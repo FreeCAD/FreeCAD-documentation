@@ -142,7 +142,7 @@ class Ui_Dialog(object)   *
 
 <div class="mw-translate-fuzzy">
 
-Como verás, tiene una estructura muy simple   * se crea una clase denominada Ui\_Dialog, que almacena los elementos de interfaz de nuestro widget o complemento. Esa clase tiene dos métodos, uno para la configuración del widget, y otro para la traducción de su contenido, eso es parte del mecanismo general de Qt para la traducción de elementos de la interfaz. El método de configuración simplemente crea, uno a uno, los widgets tal como los has definido en Qt Designer, y establece sus opciones, como hayamos decidido con anterioridad. Despues, toda la interfaz se traduce, y por último, se conectan las ranuras (slots) (hablaremos de eso más adelante).
+Como verás, tiene una estructura muy simple   * se crea una clase denominada Ui_Dialog, que almacena los elementos de interfaz de nuestro widget o complemento. Esa clase tiene dos métodos, uno para la configuración del widget, y otro para la traducción de su contenido, eso es parte del mecanismo general de Qt para la traducción de elementos de la interfaz. El método de configuración simplemente crea, uno a uno, los widgets tal como los has definido en Qt Designer, y establece sus opciones, como hayamos decidido con anterioridad. Despues, toda la interfaz se traduce, y por último, se conectan las ranuras (slots) (hablaremos de eso más adelante).
 
 
 </div>
@@ -185,7 +185,7 @@ Ahora que podemos mostrar y ocultar nuestro letrero de diálogo, sólo tenemos q
 Lo que haremos aquí, es crear una nueva función que va a formar un plano basado en la altura y anchura, y conectar dicha función a la señal de \"pulsado\" emitida por nuestro botón \"Create!\". Empezaremos con la importación de nuestros módulos FreeCAD, poniendo la siguiente línea al comienzo del archivo de guión, donde ya hemos mandado también la importación de QtCore y QtGui   * 
 ```python
 import FreeCAD, Part
-``` ahora, añadamos una nueva función a nuestra clase Ui\_Dialog   * 
+``` ahora, añadamos una nueva función a nuestra clase Ui_Dialog   * 
 ```python
 def createPlane(self)   *
     try   *
@@ -208,7 +208,7 @@ def createPlane(self)   *
 ``` A continuación, tenemos que informar a Qt para que conecte el botón con la función, mediante la colocación de la siguiente línea justo antes de QtCore.QMetaObject.connectSlotsByName(Dialog)   * 
 ```python
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
-``` Como ves, esto conecta la señal pressed() de nuestro objeto create (el Botón \"Create!\"), a un slot llamado createPlane, que acabamos de definir. Eso es! Ahora, como toque final, podemos añadir una pequeña función para crear el cuadro de diálogo. Así será más fácil hacer las llamadas. Fuera de la clase Ui\_Dialog, vamos a añadir este código   * 
+``` Como ves, esto conecta la señal pressed() de nuestro objeto create (el Botón \"Create!\"), a un slot llamado createPlane, que acabamos de definir. Eso es! Ahora, como toque final, podemos añadir una pequeña función para crear el cuadro de diálogo. Así será más fácil hacer las llamadas. Fuera de la clase Ui_Dialog, vamos a añadir este código   * 
 ```python
 class plane()   *
    def __init__(self)   *

@@ -51,13 +51,13 @@ L\'icône pour votre barre d\'outils ![Icon for the button](images/Macro_Connect
 
 ![icon for the button](images/Macro_Connect_And_Sweep.png )\'\'\'
 
-Macro\_Connect\_And\_Sweep.FCMacro\'\'\'
+Macro_Connect_And_Sweep.FCMacro\'\'\'
 
-Téléchargez la macro sur Gits [*\' Macro\_Connect\_And\_Sweep.FCMacro*\'](https   *//gist.github.com/mario52a/3ec67a3711202dab69592ce53b938924)
+Téléchargez la macro sur Gits [**Macro_Connect_And_Sweep.FCMacro**](https   *//gist.github.com/mario52a/3ec67a3711202dab69592ce53b938924)
 
 ## Exemple
 
-Créer un tubage en suivant un chemin avec Macro\_Connect\_And\_Sweep et [Macro\_Repro\_Wire](Macro_Repro_Wire/fr.md) <img alt="" src=images/Macro_ReproWire.png  style="width   *32px;">
+Créer un tubage en suivant un chemin avec Macro_Connect_And_Sweep et [Macro_Repro_Wire](Macro_Repro_Wire/fr.md) <img alt="" src=images/Macro_ReproWire.png  style="width   *32px;">
 
 
 <center>
@@ -86,7 +86,7 @@ Créer un tubage en suivant un chemin avec Macro\_Connect\_And\_Sweep et [Macro\
 
 <center>
 
-<File   *Macro> Connect And Sweep 05.png\| sélectionnez le bord du cylindre et exécutez la macro [Macro\_Repro\_Wire](Macro_Repro_Wire.md) <img alt="" src=images/Macro_ReproWire.png  style="width   *32px;">
+<File   *Macro> Connect And Sweep 05.png\| sélectionnez le bord du cylindre et exécutez la macro [Macro_Repro_Wire](Macro_Repro_Wire.md) <img alt="" src=images/Macro_ReproWire.png  style="width   *32px;">
 
 
 </center>
@@ -176,7 +176,7 @@ ver 0.12 2020/07/05    * inclusion des icônes dans le code source
 ver 00.11b 2020-02-22    * ajout d\'un test \"try   * except\" au test FreeCAD version
 
 ver 00.11 2020-02-13    * modifier pour HD dpi QGridLayout exécuter uniquement la version FC 0.18 et plus
-Pour la version précédente, voir[Macro\_Connect\_And\_Sweep.FCMacro](https   *//gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/b3554916e0dce63644a2d4d3f88ef114b5e1e390/Macro_Connect_And_Sweep.FCMacro)
+Pour la version précédente, voir[Macro_Connect_And_Sweep.FCMacro](https   *//gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/b3554916e0dce63644a2d4d3f88ef114b5e1e390/Macro_Connect_And_Sweep.FCMacro)
 
 ver 00.10 2020-01-09    * centrage de la poutrelle sur les faces
 
@@ -206,7 +206,7 @@ La discussion sur le forum [Scripting point to point tubing](http   *//forum.fre
 
 Cette macro est basée sur le code de microelly2 voir sur le forum [Looking for some helpful GUI-commands](http   *//forum.freecadweb.org/viewtopic.php?t=7029#p56746)
 
-Autre discussion sur le forum [Macro\_Connect\_And\_Sweep](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35432)
+Autre discussion sur le forum [Macro_Connect_And_Sweep](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35432)
 
 
 

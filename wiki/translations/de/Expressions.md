@@ -23,13 +23,7 @@ Die Argumente können Verweise auf Zellen in einer Kalkulationstabelle enthalten
 
 Du kannst auf ein Objekt über seinen {{PropertyData/de|Namen}} oder über seine {{PropertyData/de|Beschriftung}} verweisen. Im Falle einer {{PropertyData/de|Beschriftung}} muss es in doppelten {{PropertyData/de|<<}} und {{PropertyData/de|>>}} Symbolen eingeschlossen sein, wie z.B. {{PropertyData/de|<<Beschriftung>>}}.
 
-
-<div class="mw-translate-fuzzy">
-
-Du kannst auf jede numerische Eigenschaft eines Objekts referenzieren. Um sich beispielsweise auf die Höhe eines Zylinders zu beziehen, kann `Zylinder.Hoehe` oder `<<Langer_Name_des_Zylinders>>.Hoehe` verwendet werden.
-
-
-</div>
+Es kann auf jede Eigenschaft eines Objekts referenziert werden. Um sich beispielsweise auf die Höhe eines Zylinders zu beziehen, können `Zylinder.Height` oder `<<Langer_Name_des_Zylinders>>.Height` verwendet werden. Um auf das Objekt selbst zu referenzieren, verwendet man die Pseudeo-Eigenschaft `_self`. Z.B. können `Zylinder._self` oder `<<Label_des_Zylinders>>._self` verwendet werden.
 
 Um auf Listenobjekte zu verweisen, verwende `<<object_label>>.list[list_index]` oder `object_name.list[list_index]`. Wenn du beispielsweise auf eine Beschränkung in einer Skizze verweisen möchtest, verwende `<<MeineSkizze>>.Constraints[16]`. Wenn du dich in derselben Skizze befindest, kann man den Namen weglassen und einfach `Constraints[16]` verwenden.
 **Hinweis   *** Der Index beginnt mit 0, daher hat die Beschränkung 17 den Index 16.
@@ -104,8 +98,8 @@ Die folgenden mathematischen Funktionen werden untertstützt   *
   Funktion    Beschreibung                                                                                                                                               Wertebereich
     
   abs(x)      [Betragsfunktion](https   *//de.wikipedia.org/wiki/Betragsfunktion)                                                                                           alle
-  ceil(x)     [Abrundungsfunktion](https   *//de.wikipedia.org/wiki/Abrundungsfunktion_und_Aufrundungsfunktion), kleinster ganzzahliger Wert größer oder gleich x           alle
-  floor(x)    [Aufrundungsfunktion](https   *//de.wikipedia.org/wiki/Abrundungsfunktion_und_Aufrundungsfunktion), größter ganzzahliger Wert kleiner oder gleich x           alle
+  ceil(x)     [Aufrundungsfunktion](https   *//de.wikipedia.org/wiki/Abrundungsfunktion_und_Aufrundungsfunktion), kleinster ganzzahliger Wert größer oder gleich x          alle
+  floor(x)    [Abrundungsfunktion](https   *//de.wikipedia.org/wiki/Abrundungsfunktion_und_Aufrundungsfunktion), größter ganzzahliger Wert kleiner oder gleich x            alle
   mod(x, y)   [Division mit Rest](https   *//de.wikipedia.org/wiki/Division_mit_Rest) nach einer Division *x* durch *y*                                                     alle, außer y = 0
   round(x)    [Rundung](https   *//de.wikipedia.org/wiki/Rundung) auf die nächste Ganzzahl in Richtung Null                                                                 alle
   trunc(x)    [Trunkierung](https   *//de.wikipedia.org/wiki/Trunkierung_(Mathematik)) auf die nächste Ganzzahl (Kürzen auf einer Reihe oder Zahl auf eine gewisse Länge)   alle
@@ -146,9 +140,9 @@ Zeichenketten können durch das \'+\'-Zeichen aneinandergehängt werden.
 
 Das folgende Beispiel {{Incode|<<MY>>+<<TEXT>>}} wird verbunden zu \"MYTEXT\".
 
-#### String conversion 
+#### Umwandlung in Zeichenketten 
 
-Numerical values can be converted to strings with the `str` function   *
+Numerische Werte können mit der Funktion `str` in Zeichenketten gewandelt werden   *
 
 
 `str(Box.Length.Value)`
@@ -501,28 +495,22 @@ Zum Beispiel muss der Bezeichner `Skizze\002` als `<<Skizze\002>>` referenziert 
 
 [Namen](Object_name/de#Name.md) von Objekten wie Dimensionen, Skizzen, usw. dürfen folgende Zeichen oder Zeichenfolgen nicht enthalten. Anderenfalls ist der Namen ungültig.
 
-
-<div class="mw-translate-fuzzy">
-
-  Zeichen / Zeichenfolgen                                                                                                                          Beschreibung
+  Zeichen / Zeichenfolgen                                                                                                        Beschreibung
    
-  **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**                     Zeichen die mathematische Operatoren oder mathematische Konstruktionen sind.
-  **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, und viele andere!   Zeichen oder Zeichenfolgen, die [Einheiten](Expressions/de#Units.md) sind.
-  **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **   ***, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, und viele andere!                         Zeichen, die als Platzhalter verwendet werden oder die Funktionen auslösen.
-  **pi**, **e**                                                                                                                                    Mathematische Konstanten
-  **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                                          Akzente
-  Leerzeichen (Space)                                                                                                                              Ein Leerzeichen definiert das Ende eines Namens und kann daher nicht verwendet werden.
-
-
-</div>
+  **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**   Zeichen die mathematische Operatoren oder mathematische Konstruktionen sind.
+  **A**, **kA**, **mA**, **MA**, **J**, **K**, **\'**, **ft**, **°**, und viele andere!                                          Zeichen und Zeichenfolgen, die Einheiten sind (siehe Abschnitt [Einheiten](#Einheiten.md) ).
+  **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **   ***, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, und viele andere!       Zeichen, die als Platzhalter verwendet werden oder die Funktionen auslösen.
+  **pi**, **e**                                                                                                                  Mathematische Konstanten
+  **´**, **\**, **\'**, **\"**                                                                                                  Akzente
+  Leerzeichen (Space)                                                                                                            Ein Leerzeichen definiert das Ende eines Namens und kann daher nicht verwendet werden.
 
 Beispielsweise ist folgender Name gültig   * \>.Constraints.mol** (mol ist eine Einheit).
 
 Da kürzere Namen (vor allem, wenn sie nur ein oder zwei Zeichen haben) leicht zu ungültigen Namen führen können, sollte die Verwendung längerer Namen in Betracht gezogen und/oder eine geeignete Namenskonvention festgelegt werden.
 
-### Zell Aliase 
+### Zell Aliasse 
 
-See [Spreadsheet SetAlias](Spreadsheet_SetAlias#Usage.md). {{Top}}
+Siehe [Spreadsheet Alias-Namen festlegen](Spreadsheet_SetAlias/de#Anwendung.md). {{Top}}
 
 ## Referenzen auf CAD Daten 
 
@@ -534,44 +522,48 @@ Es ist möglich, Daten aus dem Modell selbst in einem Ausdruck zu verwenden. Um 
 Die folgende Tabelle zeigt einige Beispiele   *
 
 ++++
-| CAD-Daten                                                | Aufruf im Ausdruck                       | Ergebnis                                                                                                                                                                                                         |
-+==========================================================+==========================================+==================================================================================================================================================================================================================+
-| Parametrische Länge eines Quaders im Arbeitsbereich Part |                           |                                                                                                                                                                                                   |
-|                                                          | `Cube.Length`                   | `Length`                                                                                                                                                                                                |
-|                                                          |                                       |                                                                                                                                                                                                               |
-|                                                          |                                          | mit der Einheit mm                                                                                                                                                                                               |
+| CAD-Daten                                                          | Aufruf im Ausdruck                       | Ergebnis                                                                                                                                                                                                         |
++====================================================================+==========================================+==================================================================================================================================================================================================================+
+| Parametrische Länge eines Würfels (Quaders) im Arbeitsbereich Part |                           |                                                                                                                                                                                                   |
+|                                                                    | `Würfel.Length`                 | `Length`                                                                                                                                                                                                |
+|                                                                    |                                       |                                                                                                                                                                                                               |
+|                                                                    |                                          | mit der Einheit mm                                                                                                                                                                                               |
 ++++
-| Volumen des Würfels                                      |                           | Volume in mm³ ohne Einheiten                                                                                                                                                                                     |
-|                                                          | `Cube.Shape.Volume`             |                                                                                                                                                                                                                  |
-|                                                          |                                       |                                                                                                                                                                                                                  |
+| Volumen des Würfels                                                |                           | Volume in mm³ ohne Einheiten                                                                                                                                                                                     |
+|                                                                    | `Würfel.Shape.Volume`           |                                                                                                                                                                                                                  |
+|                                                                    |                                       |                                                                                                                                                                                                                  |
 ++++
-| Typ der Würfelform (geometrische Figur)                  |                           | String   * Solid                                                                                                                                                                                                    |
-|                                                          | `Cube.Shape.ShapeType`          |                                                                                                                                                                                                                  |
-|                                                          |                                       |                                                                                                                                                                                                                  |
+| Typ der Würfelform (geometrische Figur)                            |                           | String   * Solid                                                                                                                                                                                                    |
+|                                                                    | `Würfel.Shape.ShapeType`        |                                                                                                                                                                                                                  |
+|                                                                    |                                       |                                                                                                                                                                                                                  |
 ++++
-| Bezeichnung des Würfels                                  |                           | String   * Label                                                                                                                                                                                                    |
-|                                                          | `Cube.Label`                    |                                                                                                                                                                                                                  |
-|                                                          |                                       |                                                                                                                                                                                                                  |
+| Bezeichnung des Würfels                                            |                           | String   * Label                                                                                                                                                                                                    |
+|                                                                    | `Würfel.Label`                  |                                                                                                                                                                                                                  |
+|                                                                    |                                       |                                                                                                                                                                                                                  |
 ++++
-| X-Koordinate des Schwerpunktes des Würfels               |                           | X-Koordinate in mm ohne Einheiten                                                                                                                                                                                |
-|                                                          | `Cube.Shape.CenterOfMass.x`     |                                                                                                                                                                                                                  |
-|                                                          |                                       |                                                                                                                                                                                                                  |
+| X-Koordinate des Schwerpunktes des Würfels                         |                           | X-Koordinate in mm ohne Einheiten                                                                                                                                                                                |
+|                                                                    | `Würfel.Shape.CenterOfMass.x`   |                                                                                                                                                                                                                  |
+|                                                                    |                                       |                                                                                                                                                                                                                  |
 ++++
-| Wert der Beschränkung in einer Skizze                    |                           | numerischer Wert der benannten Beschränkung \"`Width`\" (Breite) in der Skizze, wenn der Ausdruck in der Skizze selbst verwendet wird.                                                    |
-|                                                          | `Constraints.Width`             |                                                                                                                                                                                                                  |
-|                                                          |                                       |                                                                                                                                                                                                                  |
+| Vollständiges Würfel-Objekt                                        |                                                                                                                                                                            |
+|                                                                    | `Würfel._self`                  |                                                                                                                                                                                                                  |
+|                                                                    |                                       |                                                                                                                                                                                                                  |
 ++++
-| Wert der Beschränkung in einer Skizze                    |                           | numerischer Wert der benannten Beschränkung `Width` in der Skizze, wenn der Ausdruck außerhalb der Skizze verwendet wird.                                                                 |
-|                                                          | `MeineSkizze.Constraints.Width` |                                                                                                                                                                                                                  |
-|                                                          |                                       |                                                                                                                                                                                                                  |
+| Wert der Beschränkung in einer Skizze                              |                           | numerischer Wert der benannten Beschränkung \"`Width`\" (Breite) in der Skizze, wenn der Ausdruck in der Skizze selbst verwendet wird.                                                    |
+|                                                                    | `Constraints.Width`             |                                                                                                                                                                                                                  |
+|                                                                    |                                       |                                                                                                                                                                                                                  |
 ++++
-| Wert eines Alias einer Kalkulationstabelle               |                           | Wert eines Alias \"`Depth`\" (Tiefe) in der Kalkulationstabelle `Spreadsheet`                                                                                      |
-|                                                          | `Spreadsheet.Depth`             |                                                                                                                                                                                                                  |
-|                                                          |                                       |                                                                                                                                                                                                                  |
+| Wert der Beschränkung in einer Skizze                              |                           | numerischer Wert der benannten Beschränkung `Width` in der Skizze, wenn der Ausdruck außerhalb der Skizze verwendet wird.                                                                 |
+|                                                                    | `MeineSkizze.Constraints.Width` |                                                                                                                                                                                                                  |
+|                                                                    |                                       |                                                                                                                                                                                                                  |
 ++++
-| Wert einer lokalen Eigenschaft eines Objekts             |                           | Wert der Eigenschaft \"`Length`\" (Länge) z.B. in einem aufgepolsteren (Pad-) Objekt, wenn der Ausdruck z.B. in **Length2** im gleichen Objekt verwendet wird. |
-|                                                          | `Length`                        |                                                                                                                                                                                                                  |
-|                                                          |                                       |                                                                                                                                                                                                                  |
+| Wert eines Alias einer Kalkulationstabelle                         |                           | Wert eines Alias \"`Depth`\" (Tiefe) in der Kalkulationstabelle `Spreadsheet`                                                                                      |
+|                                                                    | `Spreadsheet.Depth`             |                                                                                                                                                                                                                  |
+|                                                                    |                                       |                                                                                                                                                                                                                  |
+++++
+| Wert einer lokalen Eigenschaft eines Objekts                       |                           | Wert der Eigenschaft \"`Length`\" (Länge) z.B. in einem aufgepolsteren (Pad-) Objekt, wenn der Ausdruck z.B. in **Length2** im gleichen Objekt verwendet wird. |
+|                                                                    | `Length`                        |                                                                                                                                                                                                                  |
+|                                                                    |                                       |                                                                                                                                                                                                                  |
 ++++
 
 

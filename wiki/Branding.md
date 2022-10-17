@@ -17,7 +17,7 @@ Most of the branding is done in the **MainCmd.cpp** or **MainGui.cpp**. These Pr
 
 
 
- {.C}
+ C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
@@ -75,7 +75,7 @@ In FreeCAD there is also a method supported without writing a customized main() 
 
 
 
- {.XML}
+ XML
 <?xml version="1.0" encoding="utf-8"?>
 <Branding>
     <Application>FooApp</Application>

@@ -65,7 +65,7 @@ Just adds a property for a list of pages, does not much else.
 
 ### Precompiled.cppp
 
-Just \#include \"PreCompiled.h\"
+Just #include \"PreCompiled.h\"
 
 ### ProjectionAlgos.cpp
 
@@ -138,9 +138,9 @@ CanvasView is the actual QGraphicsScene object and DrawingView processes a list 
 
 {{Drawing Tools navi}} 
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Documentation/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing Documentation/pl

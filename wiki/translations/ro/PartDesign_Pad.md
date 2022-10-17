@@ -45,7 +45,7 @@ When selecting a single sketch, it can have multiple enclosed profiles inside a 
 
 <div class="mw-translate-fuzzy">
 
-Când se creează o protuberanță(Pad), vizualizarea Combo se comută automat în panoul Activități, afișând dialogul \'\'\' Parametri pad \'\'\'.
+Când se creează o protuberanță(Pad), vizualizarea Combo se comută automat în panoul Activități, afișând dialogul **Parametri pad**.
 
 
 </div>

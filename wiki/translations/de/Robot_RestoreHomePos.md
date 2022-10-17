@@ -39,7 +39,7 @@ Lässt den selektierten Roboter zu seiner Ausgangsposition zurückkehren.
 
 Der Befehl erlaubt nur für einen Roboter die Home-Position zu definieren.
 Wenn keiner oder mehr als ein Roboter ausgewählt wurde, werden Sie aufgefordert, nur einen einzigen Roboter auszuwählen.
-Wenn über [Robot\_SetHomePos](Robot_SetHomePos.md) keine Ausgangsposition festgelegt wurde, wird die Position des Roboters zum Einfügezeitpunkt als Ausgangsposition benutzt.
+Wenn über [Robot_SetHomePos](Robot_SetHomePos.md) keine Ausgangsposition festgelegt wurde, wird die Position des Roboters zum Einfügezeitpunkt als Ausgangsposition benutzt.
 
 
 </div>

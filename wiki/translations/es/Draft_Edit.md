@@ -44,7 +44,7 @@ Ver también   * [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restringir](Dr
         -   En macOS   * mantén pulsado **Option** y haz clic en el nodo o arista.
     -   Selecciona una opción del menú contextual.
     -   Si la opción seleccionada requiere la introducción de puntos   *
-        -   Se abre el [Panel\_de\_tareas\_del\_nodo](#Panel_de_tareas_del_nodo.md). Ver [Opciones](#Opciones.md) para más información.
+        -   Se abre el [Panel_de_tareas_del_nodo](#Panel_de_tareas_del_nodo.md). Ver [Opciones](#Opciones.md) para más información.
         -   Elige un punto en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
 6.  Opcionalmente mueva un nodo   *
     -   Haz clic en el nodo en la [Vista 3D](3D_view/es.md).
@@ -71,7 +71,13 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### Panel de tareas Nodo 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -92,9 +98,15 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 ### <img alt="" src=images/Draft_Line.svg  style="width   *24px;"> [Borrador Línea](Draft_Line/es.md) and <img alt="" src=images/Draft_Wire.svg  style="width   *24px;"> [Borrador Hilo](Draft_Wire/es.md) 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Si el nodo inicial o final de un cable abierto se mueve de forma que coincidan, el cable se cierra.
 -   Menú contextual del nodo   * {{Value|borrar punto}}. Deben quedar al menos dos puntos.
 -   Menú contextual de la arista   * {{Value|añadir punto}}, {{Value|invertir cable}} ({{Version/es|0.20}}).
+
+
+</div>
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width   *24px;"> [Borrador Arco](Draft_Arc/es.md) y <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *24px;"> [Borrador Arco 3Puntos](Draft_Arc_3Points/es.md) 
 
@@ -128,15 +140,21 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 ### <img alt="" src=images/Draft_BSpline.svg  style="width   *24px;"> [Borrador BSpline](Draft_BSpline/es.md) 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Si el nodo inicial o final de una spline abierta se mueve de forma que coincidan, la spline se cierra.
 -   Menú contextual del nodo   * {{Value|borrar punto}}. Para una spline abierta deben quedar al menos dos puntos. Para una spline cerrada el número mínimo de puntos es de tres.
 -   Menú contextual de la arista   * {{Value|añadir punto}}.
 
+
+</div>
+
 ### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *24px;"> [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md) y <img alt="" src=images/Draft_BezCurve.svg  style="width   *24px;"> [Borrador BezCurva](Draft_BezCurve/es.md) 
 
 -   If the start or end node of an open curve is moved so that they coincide, the curve is closed.
--   Node context menu   * {{Value|make sharp}}, {{Value|make tangent}}, {{Value|make symmetric}} and {{Value|delete point}}.
--   Edge context menu   * {{Value|add point}}.
+-   Node context menu   * {{Value|Delete point}}, {{Value|Make sharp}}, {{Value|Make tangent}} and {{Value|Make symmetric}}.
+-   Edge context menu   * {{Value|Add point}}, {{Value|Close/Open curve}} (<small>(v1.0)</small> ) and {{Value|Reverse curve}} (<small>(v1.0)</small> ).
 
 ### <img alt="" src=images/Draft_Dimension.svg  style="width   *24px;"> [Draft Dimension](Draft_Dimension.md) 
 

@@ -44,7 +44,7 @@ node = createFHInputFile(doc=None,filename=None,folder=None)
 
 -   Génère un fichier d\'entrée FastHenry basé sur la géométrie du document actif.
 
--    `doc`est l\'objet Document qui doit contenir au moins un objet EM\_FHSolver et la géométrie appropriée. Si aucun `doc` n\'est donné, le document actif est utilisé, le cas échéant.
+-    `doc`est l\'objet Document qui doit contenir au moins un objet EM_FHSolver et la géométrie appropriée. Si aucun `doc` n\'est donné, le document actif est utilisé, le cas échéant.
 
 -    `filename`est le nom de fichier à utiliser. Si elle n\'est pas passée en argument, la propriété **Filename** de l\'objet FHSolver contenu dans le document sera utilisée. Si la chaîne **Folder** dans l\'objet FHSolver est vide, la fonction crée un nom de fichier concaténant le nom du document avec l\'extension par défaut `EMFHSOLVER_DEF_FILENAME`.
 

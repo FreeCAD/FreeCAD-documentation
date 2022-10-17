@@ -32,7 +32,7 @@ Creare lo scalino modello, selezionare l\'oggetto e avviare la macro
 
 ToolBar Icon ![](images/Macro_Stairs.png )
 
-**Macro\_Stairs.FCMacro**
+**Macro_Stairs.FCMacro**
 
 
 {{MacroCode|code=

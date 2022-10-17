@@ -1,16 +1,14 @@
 ---
 - GuiCommand   */ru
-   Name/ru   *Arch Rebar Stirrup
-   MenuLocation   *Arch → Rebar tools
-   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   SeeAlso   *[Helical Rebar](Arch_Rebar_Helical.md), [[Arch Rebar]]
+   Name/ru   *Кольцевая арматура
+   Name   *Arch_Rebar_Stirrup
+   MenuLocation   *Arch → Rebar tools → Stirrup<br>3D/BIM → Reinforcement tools → Stirrup
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
    Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Спиральная арматура](Arch_Rebar_Helical/ru.md)
 ---
 
 # Arch Rebar Stirrup/ru
-
-
-</div>
 
 ## Описание
 
@@ -165,13 +163,7 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

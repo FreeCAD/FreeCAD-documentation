@@ -31,7 +31,7 @@ La dernière version est téléchargeable sur [MeasureCircle.FCMacro](https   */
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 
-**Macro\_MeasureCircle.FCMacro**
+**Macro_MeasureCircle.FCMacro**
 
 
 

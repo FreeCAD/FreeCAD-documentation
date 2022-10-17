@@ -1,5 +1,5 @@
 # Plot Module/bg
-1.  REDIRECT [Plot\_Workbench/bg](Plot_Workbench/bg.md)
+1.  REDIRECT [Plot_Workbench/bg](Plot_Workbench/bg.md)
 
 
 

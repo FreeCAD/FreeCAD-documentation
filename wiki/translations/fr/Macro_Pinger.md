@@ -26,7 +26,7 @@ La macro prend en charge les paramètres utilisateur, qui sont utilisés pour la
 
 Icône de la toolBar ![](images/Pinger_Icon.svg )
 
-**Macro\_Snip.FCMacro**
+**Macro_Snip.FCMacro**
 
 
 {{MacroCode|code=

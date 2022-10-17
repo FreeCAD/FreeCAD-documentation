@@ -25,7 +25,7 @@ Scaricare i modelli dalla pagina [Modelli vari completi](Misc_templates_Full/it.
 
 L\'ordine di compilazione dei campi di testo è quello descritto nella figura seguente . I campi di data e ora sono separati da \"spazio trattino spazio\" \" - \" e costituiscono una unica riga di testo.
 
-<img alt="CartoucheFC\_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
+<img alt="CartoucheFC_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -40,8 +40,8 @@ L\'ordine di compilazione dei campi di testo è quello descritto nella figura se
 Se avete domande o volete aggiungere una funzione, potete contattarmi sul forum francese [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 
 -   La finestra rimane sovrapposta alle altre, questo permette di controllare la tabella senza uscire dal programma.
--   Copiare il codice in un file denominato **Macro\_CartoucheFC\_Full.FCMacro** e posizionarlo nella directory usuale delle macro.
--   Creare un foglio di disegno utilizzando il modulo Drawing di FreeCAD, poi avviare la macro **Macro\_CartoucheFC\_Full**.
+-   Copiare il codice in un file denominato **Macro_CartoucheFC_Full.FCMacro** e posizionarlo nella directory usuale delle macro.
+-   Creare un foglio di disegno utilizzando il modulo Drawing di FreeCAD, poi avviare la macro **Macro_CartoucheFC_Full**.
 -   All\'avvio, il programma carica in memoria tutti i dati già presenti nella tabella del foglio (se è già stata compilata). Tutti i dati caricati sono resi automaticamente utilizzando il pulsante {{KEY/it| Memo}} e rimangono in memoria fino alla chiusura del programma.
 -   I pulsanti Data {{KEY/it| D.}} e Ora {{KEY/it| H.}} visualizzano la data e l\'ora del sistema.
 
@@ -62,7 +62,7 @@ Se avete domande o volete aggiungere una funzione, potete contattarmi sul forum 
 
 L\'icona per la vostra toolBar ![](images/Macro_CartoucheFC_Full.png )
 
-**Macro\_CartoucheFC\_Full.FCMacro**
+**Macro_CartoucheFC_Full.FCMacro**
 
 
 {{MacroCode|code=

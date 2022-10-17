@@ -39,11 +39,11 @@ Boa descrição
 
 Evitar duplicar informações. Insira a informação numa nova página, e crie um link para esta, e utilize o quando precisar reutilizar informação.
 
-Não utilizar a tranclusão de páginas ([Help   *Editing\#Modelos e paginas Transcluidas](Special   *MyLanguage/Help   *Editing#Templates_and_transcluding_pages.md)), visto que isto torna o wiki difícil de traduzir. Utilize apenas os modelos descritos abaixo em [\#Modelos](#Modelos.md).
+Não utilizar a tranclusão de páginas ([Help   *Editing#Modelos e paginas Transcluidas](Special   *MyLanguage/Help   *Editing#Templates_and_transcluding_pages.md)), visto que isto torna o wiki difícil de traduzir. Utilize apenas os modelos descritos abaixo em [#Modelos](#Modelos.md).
 
 ### Estilo
 
-Os modelos são usados para estilizar as páginas de ajuda. Eles dão à documentação uma aparência uniforme. Há um modelo para comandos de \'menu\', Arquivo → Salvar, um modelo para mostrar as teclas a serem pressionadas, **Shift**, para mostrar um valor booleano, `True`, etc. Familiarize-se com a seção [\#Modelos](#Modelos.md) antes de escrever páginas de ajuda.
+Os modelos são usados para estilizar as páginas de ajuda. Eles dão à documentação uma aparência uniforme. Há um modelo para comandos de \'menu\', Arquivo → Salvar, um modelo para mostrar as teclas a serem pressionadas, **Shift**, para mostrar um valor booleano, `True`, etc. Familiarize-se com a seção [#Modelos](#Modelos.md) antes de escrever páginas de ajuda.
 
 ### Sinalizadores temporários 
 
@@ -76,7 +76,7 @@ A [Central do Usuário](Special   *MyLanguage/User_hub.md) fornece um [Índice \
 
 <div class="mw-translate-fuzzy">
 
-O [Modelo   *Docnav](Template_Docnav.md) é utilizado para ligar páginas sequencialmente, seguindo a estrutura do [Índice \'On-line\' de Ajuda](Special   *MyLanguage/Online_Help_Toc.md). Veja [\#Modelos](#Modelos.md) para uma lista de todos os Modelos.
+O [Modelo   *Docnav](Template_Docnav.md) é utilizado para ligar páginas sequencialmente, seguindo a estrutura do [Índice \'On-line\' de Ajuda](Special   *MyLanguage/Online_Help_Toc.md). Veja [#Modelos](#Modelos.md) para uma lista de todos os Modelos.
 
 
 </div>
@@ -186,7 +186,7 @@ Este link funcionará até mesmo se não houver parágrafo \'Topo\' na página. 
 
 
 Image link
-   *   <img alt="Optional text that is shown when you hover the image\|link=Draft\_Wire" src=images/Draft_Wire.svg  style="width   *24px;">
+   *   <img alt="Optional text that is shown when you hover the image\|link=Draft_Wire" src=images/Draft_Wire.svg  style="width   *24px;">
 
 To use an image as a link   *
 
@@ -206,7 +206,7 @@ Uma página de bancada de trabalho de alto nível deve começar com   *
 -   Uma descrição de para que serve a bancada de trabalho.
 -   Uma imagem para ilustrar a descrição.
 
-Consulte [\#Captura de tela](#Captura_de_tela.md) para obter convenções sobre a inclusão de imagens.
+Consulte [#Captura de tela](#Captura_de_tela.md) para obter convenções sobre a inclusão de imagens.
 
 ### Páginas de comando 
 
@@ -234,7 +234,7 @@ Para obter exemplos, visite a página [Tutoriais](Tutorials/pt-br.md).
 
 <div class="mw-collapsible-content">
 
-A estilização das páginas wiki do FreeCAD é conseguida através da utilização de modelos ([Help   *Editing\#Templates\_and\_transcluding\_pages](Special   *MyLanguage/Help   *Editing#Templates_and_transcluding_pages.md)). Garantem um aspecto e uma sensação padronizados em todas as páginas, e também tornam possível reestilizar o wiki. Para consultar a lista completa de modelos definidos, acesse [Todas as páginas com prefixo (Template   *)](Special   *PrefixIndex/Template   *.md). Mas, por favor, utilize apenas os modelos listados nas tabelas abaixo. Apenas em casos muito especiais deverá utilizar diretamente as marcações HTML.
+A estilização das páginas wiki do FreeCAD é conseguida através da utilização de modelos ([Help   *Editing#Templates_and_transcluding_pages](Special   *MyLanguage/Help   *Editing#Templates_and_transcluding_pages.md)). Garantem um aspecto e uma sensação padronizados em todas as páginas, e também tornam possível reestilizar o wiki. Para consultar a lista completa de modelos definidos, acesse [Todas as páginas com prefixo (Template   *)](Special   *PrefixIndex/Template   *.md). Mas, por favor, utilize apenas os modelos listados nas tabelas abaixo. Apenas em casos muito especiais deverá utilizar diretamente as marcações HTML.
 
 Clique no link do modelo para ver as instruções de utilização de um modelo, e para ver a sua implementação. Os modelos são uma característica poderosa do 'software' MediaWiki. Deve ser um usuário wiki experiente se desejar propor adições e modificações aos modelos existentes. Se implementados de forma errada, os modelos dificultam a tradução de páginas para outras línguas, pelo que a sua utilização deve ser limitada à formatação de texto, a transclusão de páginas deve ser evitada. Veja [MediaWiki Help   *Predefinições](https   *//www.mediawiki.org/wiki/Help   *Templates/pt-br) para saber mais.
 
@@ -569,8 +569,8 @@ Before creating a new page you should first check if a similar page already exis
 
 To create a new page do one of the following   *
 
--   Visit the URL with the desired page name, for example   * https   *//wiki.freecadweb.org/My_new_page, and click on \'create this page\'.
--   Do a wiki search for the page name, and click on the red text in \'Create the page \"My new page\" on this wiki!\'.
+-   Visit the URL with the desired page name, for example   * https   *//wiki.freecadweb.org/My_New_Page, and click on \'create this page\'.
+-   Do a wiki search for the page name, and click on the red text in \'Create the page \"My New Page\" on this wiki!\'.
 
 ### Renomear páginas 
 

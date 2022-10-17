@@ -42,7 +42,6 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating lines.
--   The **<img src="images/Draft_UndoLine.svg" width=16px> Undo** button, displayed in FreeCAD version 0.19 and earlier, has no purpose for this command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 

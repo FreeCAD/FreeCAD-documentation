@@ -2,7 +2,7 @@
 - GuiCommand   */de
    Name   *Fasteners MatchTypeInner
    Name/de   *Fasteners AuswahlNachInnenmaß
-   MenuLocation   *Fasteners → Match screws by inner thread diameter (Tap hole)
+   MenuLocation   *Fasteners → Match for tap hole
    Workbenches   *[Fasteners](Fasteners_Workbench/de.md)
    SeeAlso   *[Fasteners AuswahlNachAußenmaß](Fasteners_MatchTypeOuter/de.md)
 ---
@@ -16,8 +16,8 @@ Der Befehl <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *
 ## Anwendung
 
 1.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücken der Schaltfläche **<img src="images/Fasteners_MatchTypeInner.svg" width=16px> [Match screws by inner thread diameter (Tap hole)](Fasteners_MatchTypeInner/de.md)**.
-    -   Auswahl des Menüeintrags **Fasteners → <img src="images/Fasteners_MatchTypeInner.svg" width=16px> Match screws by inner thread diameter (Tap hole)**.
+    -   Die Schaltfläche **<img src="images/Fasteners_MatchTypeInner.svg" width=16px> [Match for tap hole](Fasteners_MatchTypeInner/de.md)** drücken.
+    -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_MatchTypeInner.svg" width=16px> Match for Tap hole** auswählen.
 2.  Die Schaltfläche bleibt gedrückt, um die Auswahl anzuzeigen.
 
 

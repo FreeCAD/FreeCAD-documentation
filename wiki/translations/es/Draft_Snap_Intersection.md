@@ -17,6 +17,8 @@ Este modo de ajuste le permite seleccionar la intersecci√≥n de 2 segmentos de l√
 
 </div>
 
+This snap option will also find apparent intersections of (extended) straight edges if <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *16px;"> [Draft Snap WorkingPlane](Draft_Snap_WorkingPlane.md) is active as well.
+
 ![](images/Draft_Snap_Intersection_example.png ) 
 *Snapping the second point of a line to the intersection of two edges*
 

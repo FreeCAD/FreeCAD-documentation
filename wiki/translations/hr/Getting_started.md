@@ -68,7 +68,7 @@ Start stranica omogućuje brzi prijelaz na uobičajene radne ploče, otvara uobi
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD ima na raspolaganju nekoliko različitih [navigacijski načini](Mouse_navigation.md) koji mijenjaju način na koji miš koristi za interakciju s objektima u 3D prikazu i samom prikazu. Jedan od njih posebno je izrađen za [touchpads](Mouse_navigation#Touchpad_Navigation.md), gdje se ne koristi srednja tipka miša. Sljedeća tablica opisuje zadani način rada, nazvan \'\' \'CAD Navigation\' \'\' (trenutni način navigacije možete brzo promijeniti desnim klikom na prazno područje 3D prikaza)   *
+FreeCAD ima na raspolaganju nekoliko različitih [navigacijski načini](Mouse_navigation.md) koji mijenjaju način na koji miš koristi za interakciju s objektima u 3D prikazu i samom prikazu. Jedan od njih posebno je izrađen za [touchpads](Mouse_navigation#Touchpad_Navigation.md), gdje se ne koristi srednja tipka miša. Sljedeća tablica opisuje zadani način rada, nazvan *\'CAD Navigation\'* (trenutni način navigacije možete brzo promijeniti desnim klikom na prazno područje 3D prikaza)   *
 
 
 </div>

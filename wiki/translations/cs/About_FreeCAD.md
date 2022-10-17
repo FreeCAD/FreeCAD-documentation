@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**FreeCAD** je univerzální parametrický 3D [\'\' \'CAD\' \'\'](http   *//en.wikipedia.org/wiki/CAD) modelovací systém. Vývoj je kompletně pod [Open Source](http   *//en.wikipedia.org/wiki/Open_source) (LGPL License). FreeCAD je přímo zaměřen na [strojírenství](http   *//en.wikipedia.org/wiki/Mechanical_engineering) a [produktový design](http   *//en.wikipedia.org/wiki/Product_design), ale je vhodný i pro širokou oblast použití v inženýrství jako je stavebnictví nebo další technické speciality.
+**FreeCAD** je univerzální parametrický 3D [*\'CAD\'*](http   *//en.wikipedia.org/wiki/CAD) modelovací systém. Vývoj je kompletně pod [Open Source](http   *//en.wikipedia.org/wiki/Open_source) (LGPL License). FreeCAD je přímo zaměřen na [strojírenství](http   *//en.wikipedia.org/wiki/Mechanical_engineering) a [produktový design](http   *//en.wikipedia.org/wiki/Product_design), ale je vhodný i pro širokou oblast použití v inženýrství jako je stavebnictví nebo další technické speciality.
 
 
 </div>

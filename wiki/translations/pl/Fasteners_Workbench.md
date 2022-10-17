@@ -69,15 +69,15 @@ Elementy złączne mogą być dołączone lub nie dołączone. Dołączone eleme
 
 ## Polecenia
 
--   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Odwróć](Fasteners_Flip.md)   * odwrócenie orientacji wybranego elementu złącznego.
+-   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Odwróć](Fasteners_Flip/pl.md)   * odwrócenie orientacji dołączonego elementu złącznego.
 
 -   <img alt="" src=images/Fasteners_Move.svg  style="width   *32px;"> [Przenieś](Fasteners_Move/pl.md)   * przesuń i przymocuj element złączny do okrągłej krawędzi. Może być również używany do odłączania elementu złącznego.
 
--   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Kształt](Fasteners_Shape/pl.md)   * tworzy nieparametryczne kopie wybranych elementów złącznych.
+-   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Kształt](Fasteners_Shape/pl.md)   * tworzy nieparametryczne kopie elementów złącznych.
 
--   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *32px;"> [Typ dopasowania Wewnętrzny](Fasteners_MatchTypeInner/pl.md)   * okrągłe krawędzie należy traktować jako otwory gwintowane, gdy mocowane są do nich nowe elementy złączne.
+-   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *32px;"> [Typ dopasowania wewnętrzny](Fasteners_MatchTypeInner/pl.md)   * okrągłe krawędzie należy traktować jako otwory gwintowane, gdy mocowane są do nich nowe elementy złączne.
 
--   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   *32px;"> [Typ dopasowania Zewnętrzny](Fasteners_MatchTypeOuter/pl.md)   * okrągłe krawędzie należy traktować jako otwory przelotowe, gdy mocowane są do nich nowe elementy złączne.
+-   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   *32px;"> [Typ dopasowania zewnętrzny](Fasteners_MatchTypeOuter/pl.md)   * okrągłe krawędzie należy traktować jako otwory przelotowe, gdy mocowane są do nich nowe elementy złączne.
 
 -   <img alt="" src=images/Fasteners_BOM.svg  style="width   *32px;"> [BOM](Fasteners_BOM/pl.md)   * utwórz arkusz kalkulacyjny z zestawieniem materiałów dla elementów złącznych w dokumencie.
 
@@ -85,7 +85,7 @@ Elementy złączne mogą być dołączone lub nie dołączone. Dołączone eleme
 
 -   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width   *32px;"> [Fazka otworu](Fasteners_ChamferHole/pl.md)   * sfazowanie otworów pod wkręty z łbem stożkowym.
 
--   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Zmiana parametrów](Fasteners_ChangeParameters/pl.md)   * umożliwia dokonanie zmian parametrów wybranych elementów złącznych.
+-   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Zmiana parametrów](Fasteners_ChangeParameters/pl.md)   * umożliwia dokonanie zmian parametrów elementów złącznych.
 
 ## Elementy złączne 
 
@@ -115,7 +115,7 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_EN1665.svg  style="width   *32px;"> **EN 1665** Śruba sześciokątna z kołnierzem, seria gruba.
 
--   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Hexagon head wood screw.
+-   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Wkręt do drewna z łbem sześciokątnym.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width   *32px;"> **ASME B18.2.1.6** UNC Śruba z łbem sześciokątnym.
 
@@ -146,6 +146,8 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 -   <img alt="" src=images/Fasteners_ISO4029.svg  style="width   *32px;"> **ISO 4029** Śruba z gniazdem sześciokątnym z czubkiem.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.1A.svg  style="width   *32px;"> **ASME B18.3.1A** UNC Śruba z łbem walcowym z gniazdem sześciokątnym.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.3.1G.svg  style="width   *32px;"> **ASME B18.3.1G** Śruba z łbem sześciokątnym UNC niskim.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.2.svg  style="width   *32px;"> **ASME B18.3.2** UNC Śruba z łbem stożkowym z gniazdem sześciokątnym.
 
@@ -213,9 +215,9 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width   *32px;"> **EN 1661** Nakrętka sześciokątna z kołnierzem.
 
--   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Cap nut, low form.
+-   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Nakrętka kołpakowa, niska.
 
--   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Cap nut.
+-   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Nakrętka kołpakowa.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Nakrętka czworokątna.
 
@@ -236,12 +238,14 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 -   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> **ISO 7090** Podkładka ślizgowa fazowana, seria normalna. Gatunek produktu A.
 
--   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Podkładka zwykła, seria mała.
+-   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> 
+**ISO 7092** Podkładka zwykła, seria mała. *Gatunek produktu A.*
 
 -   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> 
 **ISO 7093-1** Podkładka ślizgowa, seria duża. *Klasa produktu A.*
 
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Podkładka zwykła, seria ekstra duża.
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> 
+**ISO 7094** Podkładka zwykła, seria ekstra duża. *Gatunek produktu C.*
 
 -   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Podkładka stożkowa.
 

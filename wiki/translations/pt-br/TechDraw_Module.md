@@ -1,5 +1,5 @@
 # TechDraw Module/pt-br
-1.  REDIRECT [TechDraw\_Workbench/pt-br](TechDraw_Workbench/pt-br.md)
+1.  REDIRECT [TechDraw_Workbench/pt-br](TechDraw_Workbench/pt-br.md)
 
 
 

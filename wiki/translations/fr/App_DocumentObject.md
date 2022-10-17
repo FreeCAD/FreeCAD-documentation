@@ -28,7 +28,7 @@ De manière générale, un \"DocumentObject\" est toute \"chose\" qui peut appar
 Certains des DocumentObjects les plus importants sont les suivants   *
 
 -   La classe [App FeaturePython](App_FeaturePython/fr.md), un objet vide qui peut être utilisé à différentes fins, en fonction des propriétés ajoutées.
--   La classe [App GeoFeature](App_GeoFeature/fr.md) , l\'objet de base de tous les objets géométriques, c\'est-à-dire des objets qui ont une propriété [Placement](Placement/fr.md) qui définit leur position dans la \[\[3D\_view/fr\|vue 3D\] \].
+-   La classe [App GeoFeature](App_GeoFeature/fr.md) , l\'objet de base de tous les objets géométriques, c\'est-à-dire des objets qui ont une propriété [Placement](Placement/fr.md) qui définit leur position dans la \[\[3D_view/fr\|vue 3D\] \].
 -   La classe [Part Feature](Part_Feature/fr.md), dérivée d\'App GeoFeature, et la classe parent d\'objets avec 2D et 3D [topological shapes](Part_TopoShape/fr.md).
 -   La classe [Mesh Feature](Mesh_Feature/fr.md), dérivée d\'App GeoFeature, et la classe parent d\'objets avec 2D et 3D [maillages](Mesh_MeshObject/fr.md).
 

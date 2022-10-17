@@ -17,14 +17,14 @@ The [Arch Truss](Arch_Truss.md) tool builds a [truss](https   *//en.wikipedia.or
 
 ## Применение
 
-### Creating from a selected object 
+### Создание из выбранного объекта 
 
 1.  Use a workbench of your choice to create a single line
 2.  Select that line
 3.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
 4.  Adjust the truss properties to your liking
 
-### Creating from scratch 
+### Создание с нуля 
 
 1.  Make sure nothing is selected
 2.  Press the **<img src="images/Arch_Truss.svg" width=16px> [Arch Truss](Arch_Truss.md)** button
@@ -91,15 +91,6 @@ truss.HeightStart = 200
 truss.HeightEnd = 400
 # adjust other needed properties
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

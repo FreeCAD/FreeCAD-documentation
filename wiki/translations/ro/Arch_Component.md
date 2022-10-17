@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Creează o componentă non-parametrică [ Arch](Arch_Workbench.md) din orice obiect [ Part](Part_Workbench.md). Aceasta oferă obiectului bazat pe Atelierul Part/Piesă aceleași atribute și proprietăți ca și alte obiecte Arch și permite specificarea modului în care ar trebui exportat la IFC prin setarea proprietății\'\'\'Role \'\'\'.
+Creează o componentă non-parametrică [ Arch](Arch_Workbench.md) din orice obiect [ Part](Part_Workbench.md). Aceasta oferă obiectului bazat pe Atelierul Part/Piesă aceleași atribute și proprietăți ca și alte obiecte Arch și permite specificarea modului în care ar trebui exportat la IFC prin setarea proprietății**Role**.
 
 
 </div>
@@ -69,7 +69,7 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 <div class="mw-translate-fuzzy">
 
--   \'\'\' Subtractions \'\'\'   * Componentele arhitecturale au o proprietate de substracție/scădere, care poate deține referință la orice număr de obiecte bazate pe [Formă](Part_Workbench.md). Forma acestor obiecte va fi scăzută din forma de bază a componentei, pentru a produce forma finală.
+-   **Subtractions**   * Componentele arhitecturale au o proprietate de substracție/scădere, care poate deține referință la orice număr de obiecte bazate pe [Formă](Part_Workbench.md). Forma acestor obiecte va fi scăzută din forma de bază a componentei, pentru a produce forma finală.
 
 
 </div>

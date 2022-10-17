@@ -55,7 +55,7 @@ Estos son unos ejemplos de características del [Módulo de arquitectura](Arch_W
 
 <div class="mw-translate-fuzzy">
 
--   Toda la potencia de FreeCAD en tus dedos. Puede diseñarse cualquier objeto arquitectónico con cualquier herramienta de FreeCAD, como el [PartDesign Workbench/es](PartDesign_Workbench/es.md), y una vez listos convertirlos en objetos arquitectónicos. Una vez transformados seguirán conservando todo el histórico de modelado y seguirán siendo totalmente editables. El [ módulo de arquitectura](Arch_Workbench/es.md) también hereda gran parte de las funcionalidades del [Draft\_Workbench/es](Draft_Workbench/es.md), como el [snapping](Draft_Snap/es.md) y los [planos de trabajo](Draft_SelectPlane/es.md).
+-   Toda la potencia de FreeCAD en tus dedos. Puede diseñarse cualquier objeto arquitectónico con cualquier herramienta de FreeCAD, como el [PartDesign Workbench/es](PartDesign_Workbench/es.md), y una vez listos convertirlos en objetos arquitectónicos. Una vez transformados seguirán conservando todo el histórico de modelado y seguirán siendo totalmente editables. El [ módulo de arquitectura](Arch_Workbench/es.md) también hereda gran parte de las funcionalidades del [Draft_Workbench/es](Draft_Workbench/es.md), como el [snapping](Draft_Snap/es.md) y los [planos de trabajo](Draft_SelectPlane/es.md).
 
 
 </div>
@@ -79,7 +79,7 @@ En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Workbenc
 
 <div class="mw-translate-fuzzy">
 
--   FreeCAD no es una aplicación 2D, sino que está pensada para trabajar en 3D. A pesar de ello, hay numerosas herramientas para dibujar y editar objetos en 2D con el [Módulo de bocetado](Draft_Workbench/es.md) y el [Sketcher\_Workbench/es](Sketcher_Workbench/es.md).Sin embargo hay que tener en cuenta que no está pensado para manejar archivos de CAD en 2D demasiado complejos (y no siempre bien dibujados). Pueden importarse archivos en 2D, pero no puede esperarse un gran rendimiento en caso de querer seguir trabajando en 2D. Estáis advertidos.
+-   FreeCAD no es una aplicación 2D, sino que está pensada para trabajar en 3D. A pesar de ello, hay numerosas herramientas para dibujar y editar objetos en 2D con el [Módulo de bocetado](Draft_Workbench/es.md) y el [Sketcher_Workbench/es](Sketcher_Workbench/es.md).Sin embargo hay que tener en cuenta que no está pensado para manejar archivos de CAD en 2D demasiado complejos (y no siempre bien dibujados). Pueden importarse archivos en 2D, pero no puede esperarse un gran rendimiento en caso de querer seguir trabajando en 2D. Estáis advertidos.
 
 
 </div>
@@ -543,7 +543,7 @@ This is another very important task to be performed on BIM models. In FreeCAD, t
 
 **Using spreadsheets**
 
-To populate a spreadsheet with values extracted from the model the Arch\_Schedule tool can be used.
+To populate a spreadsheet with values extracted from the model the Arch_Schedule tool can be used.
 
 ![](images/Arch_schedule_example03.jpg )
 

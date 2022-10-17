@@ -1,5 +1,5 @@
 # Ship TankCapacity/ro
-1.  REDIRECT [Ship\_Capacity/ro](Ship_Capacity/ro.md)
+1.  REDIRECT [Ship_Capacity/ro](Ship_Capacity/ro.md)
 
 
 

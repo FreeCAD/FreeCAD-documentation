@@ -20,7 +20,7 @@ The following information doesn\'t need to be used anymore and will likely becom
 -   Once it\'s completely done, save your file
 -   [send the files to us](http   *//www.freecadweb.org/tracker/main_page.php) so we can include them in the Freecad source code so they benefit other users too.
 
-\'\'\' Available translation files \'\'\'
+**Available translation files**
 
 -   The following links all direct to the sourceforge which is no longer used by FreeCAD. The code is hosted at <https   *//github.com/FreeCAD/FreeCAD>.
 -   [FreeCAD main GUI](http   *//free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Gui/Language/)
@@ -82,7 +82,7 @@ This scans your project directory for files containing text strings and creates 
  TRANSLATIONS += MyMod_de.ts
 ```
 
-You can manually add files here. The section TRANSLATIONS contains a list of files with the translation for each language. In the above example *MyMod\_de.ts* is the german translation.
+You can manually add files here. The section TRANSLATIONS contains a list of files with the translation for each language. In the above example *MyMod_de.ts* is the german translation.
 
 Now you need to run lupdate to extract all string literals in your GUI. Running lupdate after changes in the source code is allways safe since it never deletes strings from your translations files. It only adds new strings.
 
@@ -114,7 +114,7 @@ To ease localization for the py files you can use the tool \"pylupdate4\" which 
 pylupdate4 *.py -ts YourModule_fr.ts 
 ```
 
-the pylupdate tool will scan your .py files for translate() or tr() functions and create a YourModule\_fr.ts file. That file can the be translated with QLinguist and a YourModule\_fr.qm file produced from QLinguist or with the command
+the pylupdate tool will scan your .py files for translate() or tr() functions and create a YourModule_fr.ts file. That file can the be translated with QLinguist and a YourModule_fr.qm file produced from QLinguist or with the command
 
  
 ```python
@@ -141,7 +141,7 @@ Optionally, you can also create the file XML Draft.qrc with this content   *
 </RCC> 
 ```
 
-and running pyrcc4 Draft.qrc -o qrc\_Draft.py creates a big Python containing all resources. BTW this approach also works to put icon files in one resource file
+and running pyrcc4 Draft.qrc -o qrc_Draft.py creates a big Python containing all resources. BTW this approach also works to put icon files in one resource file
 
 
 {{docnav

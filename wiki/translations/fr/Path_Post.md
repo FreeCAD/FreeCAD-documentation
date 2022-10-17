@@ -76,24 +76,24 @@ Les post-processeurs fournis sont écrits avec des commentaires indiquant les zo
 
 Les indicateurs True/False de la configuration type incluent   *
 
--   OUTPUT\_COMMENTS (True=Autoriser, False=Supprimer), Utilisé pour insérer des commentaires texte dans le fichier G-Code de sortie.
--   OUTPUT\_HEADER (True=Autoriser, False=Supprimer), Utilisé pour insérer des en-têtes de texte dans le fichier G-Code de sortie.
--   OUTPUT\_LINE\_NUMBERS (True=Autoriser, False=Supprimer), Utilisé pour insérer des numéros de ligne dans le fichier G-Code de sortie.
--   SHOW\_EDITOR (True=Autoriser, False=Supprimer), Utilisé pour afficher le G-code de sortie dans une fenêtre contextuelle lors de l\'appel du Post-processeur.
+-   OUTPUT_COMMENTS (True=Autoriser, False=Supprimer), Utilisé pour insérer des commentaires texte dans le fichier G-Code de sortie.
+-   OUTPUT_HEADER (True=Autoriser, False=Supprimer), Utilisé pour insérer des en-têtes de texte dans le fichier G-Code de sortie.
+-   OUTPUT_LINE_NUMBERS (True=Autoriser, False=Supprimer), Utilisé pour insérer des numéros de ligne dans le fichier G-Code de sortie.
+-   SHOW_EDITOR (True=Autoriser, False=Supprimer), Utilisé pour afficher le G-code de sortie dans une fenêtre contextuelle lors de l\'appel du Post-processeur.
 -   MODAL (True=Autoriser, False=Supprimer), Utilisé pour réduire le nombre de lignes G-Code en sortie en supprimant les informations de Mode lorsque le Mode ne change pas.
 
 Les variables de configuration typiques incluent   *
 
 -   LINENR (numéro de ligne), utilisé pour définir l\'index du numéro de ligne.
 -   UNITS (G20 ou G21), Utilisé pour communiquer explicitement au contrôleur CNC cible quelles unités utiliser pour interpréter le fichier de sortie final.
--   MACHINE\_NAME (nom de la fraiseuse CNC cible), utilisé pour insérer une étiquette de nom de machine dans le fichier de sortie final.
+-   MACHINE_NAME (nom de la fraiseuse CNC cible), utilisé pour insérer une étiquette de nom de machine dans le fichier de sortie final.
 -   PRECISION, Utilisé pour définir le nombre de chiffres à inclure après la décimale dans le fichier de sortie final
 
 Les sections de configuration typiques incluent   *
 
 -   PREAMBULE (Configuration du code insérée au début du Travail)
 -   POSTAMBLE (Configuration du code annexée au Travail, permettant de stationner la machine, etc \...)
--   TOOL\_CHANGE (code inséré avec chaque changement d\'outil dans le Travail)
+-   TOOL_CHANGE (code inséré avec chaque changement d\'outil dans le Travail)
 
 
 **Édition**
@@ -109,7 +109,7 @@ Les post-processeurs inclus sont enregistrés dans le fichier **FreeCAD.Mod.Path
 -   grbl, y compris la prise en charge des blocs d\'en-tête bCNC à l\'aide de l\'argument de sortie du travail \--bcnc
 -   jtech (laser)
 -   [linuxcnc](http   *//linuxcnc.org/docs/html/gcode/g-code.html#gcode   *g17-g19.1)
--   mach3\_mach4
+-   mach3_mach4
 -   nccad
 -   opensbp
 -   phillips

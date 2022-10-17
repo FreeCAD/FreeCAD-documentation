@@ -19,7 +19,7 @@ Cette macro efface tous les objets qui ne sont pas sélectionnés.
 
 Icône de la barre d\'outils <img alt="" src=images/Macro_If_Selected_Stay_If_Not_Then_Delete.png  style="width   *64px;">
 
-**Macro\_If\_Selected\_Stay\_If\_Not\_Then\_Delete.FCMacro**
+**Macro_If_Selected_Stay_If_Not_Then_Delete.FCMacro**
 
 
 {{MacroCode|code=

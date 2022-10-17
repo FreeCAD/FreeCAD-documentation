@@ -15,7 +15,7 @@ Dzięki użyciu tej makrodefinicji pojawi się okno dialogowe z listą skal Arch
 
 ## Skrypt
 
-**Macro\_ImperialScales.FCMacro**
+**Macro_ImperialScales.FCMacro**
 
 
 {{MacroCode|code=

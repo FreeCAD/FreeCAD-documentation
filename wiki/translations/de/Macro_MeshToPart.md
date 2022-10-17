@@ -19,7 +19,7 @@ Dieses Makro konvertiert ausgewählte Netze in Teile. Es hat eine große Toleran
 
 ToolBar Icon ![](images/Macro_MeshToPart.png )
 
-**Macro\_MeshToPart.FCMacro**
+**Macro_MeshToPart.FCMacro**
 
 
 {{MacroCode|code=

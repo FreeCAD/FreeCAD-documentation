@@ -1,5 +1,5 @@
 # Draft Apply
-1.  REDIRECT [Draft\_ApplyStyle](Draft_ApplyStyle.md)
+1.  REDIRECT [Draft_ApplyStyle](Draft_ApplyStyle.md)
 
 
 

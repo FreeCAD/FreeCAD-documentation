@@ -37,7 +37,7 @@ Diese Vorlagen sind groß, werden hier aber mit 240 px Breite angezeigt.
 
 <img alt="" src=images/A4_Landscape.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_plain.svg  style="width   *240px;">
 
-Die folgende Grafik ist \"A4\_Simple.svg\". Es ist eine leere Seite.
+Die folgende Grafik ist \"A4_Simple.svg\". Es ist eine leere Seite.
 
 <img alt="" src=images/A4_Simple.svg  style="width   *240px;">
 

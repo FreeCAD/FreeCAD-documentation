@@ -1,5 +1,5 @@
 # Part Attachment/pl
-1.  REDIRECT [Part\_EditAttachment/pl](Part_EditAttachment/pl.md)
+1.  REDIRECT [Part_EditAttachment/pl](Part_EditAttachment/pl.md)
 
 
 

@@ -14,7 +14,7 @@ Cette macro utilise l'outil [Draft Formes à partir texte](Draft_ShapeString/fr.
 
 ## Description
 
-Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style="width   *24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, notamment circonférentielle et hélicoïdale comme par ex [Colonne Trajane](https   *//fr.wikipedia.org/wiki/Colonne_Trajane). Elle peut également être utilisée pour créer un cadran d\'horloge avec des chiffres arabes *1, 2, 3\...* ou des chiffres romains \'\' I, II, III\... \'\'. Cette dernière utilisation a été inspirée par le fil du Forum [Macro pour créer un cadran d\'horloge](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) par un membre de la communauté FC, cblt2l.
+Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style="width   *24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) pour créer une ligne de texte placée dans différentes orientations circulaires, notamment circonférentielle et hélicoïdale comme par ex [Colonne Trajane](https   *//fr.wikipedia.org/wiki/Colonne_Trajane). Elle peut également être utilisée pour créer un cadran d\'horloge avec des chiffres arabes *1, 2, 3\...* ou des chiffres romains *I, II, III\...*. Cette dernière utilisation a été inspirée par le fil du Forum [Macro pour créer un cadran d\'horloge](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) par un membre de la communauté FC, cblt2l.
 
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/cffba4018708a61e43c7f19627993c3e80182312/Macro_FCCircularText.FCMacro}}
@@ -95,7 +95,7 @@ Après la première utilisation, vous devez modifier les paramètres suivants   
 
 **setSystemFonts**
 
--   0 = matplotlib.font\_manager.findSystemFonts(\"C   */\", \"ttf\")
+-   0 = matplotlib.font_manager.findSystemFonts(\"C   */\", \"ttf\")
 -   faire toutes les polices (dans tous les dossiers et sous-dossiers du DD) à temps !
 -   1 = fontman.findSystemFonts(self.pathFont)
 -   faire toutes les polices du répertoire (et de tous les sous-dossiers)
@@ -190,7 +190,7 @@ Image   *FCCircularText 20.png\|**Outdoor** Image   *FCCircularText 21.png\|**In
 
 <center>
 
-Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** Le texte est écrit debout (direction Z lecture externe). Image   *FCCircularText\_40.png\|**Mode Flat** **Outdoor** Le texte est écrit à plat (lecture externe).
+Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** Le texte est écrit debout (direction Z lecture externe). Image   *FCCircularText_40.png\|**Mode Flat** **Outdoor** Le texte est écrit à plat (lecture externe).
 
 
 </center>
@@ -198,7 +198,7 @@ Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** Le texte est écrit d
 
 <center>
 
-Image   *FCCircularText 39.png\|**Mode Flat** **Indoor** Le texte est placé à plat lecture interne (comme clock). Image   *FCCircularText\_03.png\|**Mode Stand** **Indoor** Le texte est écrit debout avec lecture interne.
+Image   *FCCircularText 39.png\|**Mode Flat** **Indoor** Le texte est placé à plat lecture interne (comme clock). Image   *FCCircularText_03.png\|**Mode Stand** **Indoor** Le texte est écrit debout avec lecture interne.
 
 
 </center>
@@ -277,7 +277,7 @@ Image   *FCCircularText 22.png\| **Helix** Image   *FCCircularText 33.png\| Imag
 
 -   Toute les options de configurations des caractères sont actives.
 -   **Step of helix** Step correspond au pas de la spire de l\'hélice    * 2 (correspond à la hauteur du caractère) par défaut.
--   \'\'\'Char. per turn \'\'\'Nombre de caractères par tour ici 10 par défaut, qui correspond à 10 caractères par tour d\'hélice.
+-   **Char. per turn**Nombre de caractères par tour ici 10 par défaut, qui correspond à 10 caractères par tour d\'hélice.
 
 
 
@@ -321,7 +321,7 @@ Image   *FCCircularText 23.png\|**Clock** Image   *FCCircularText 35.png\|**Axia
 ![](images/FCCircularText_19.png )
 
 -   **Radius of support**    * Si une valeur est entrée, un support sera créé (defaut 0).
--   Si **Support number face** est différent de zéro un support est créé. (Si \'\'\'Extrude support \'\'\'= zéro une face est créée).
+-   Si **Support number face** est différent de zéro un support est créé. (Si **Extrude support**= zéro une face est créée).
     -   1 = Un cercle est créé (le cercle apparaît).
     -   2 = Un rectangle est créé (longueur = (Radius \* 2) hauteur = Radius (rayon) du support) (le rectangle apparaît).
     -   3 = Un triangle (circonscrit) est créé (Le triangle apparaît).
@@ -424,7 +424,7 @@ Certains paramètres sont disponibles dans les paramètres de FreeCAD voir   * *
         -   
             `False`
             
-            matplotlib.font\_manager.findSystemFonts (\"C   * /\", \"ttf\") font toutes les polices (dans tous les dossiers et sous-dossiers du HD) temps!!
+            matplotlib.font_manager.findSystemFonts (\"C   * /\", \"ttf\") font toutes les polices (dans tous les dossiers et sous-dossiers du HD) temps!!
 
         -   
             `True`
@@ -495,11 +495,11 @@ L\'icône pour votre barre à outils   *
 
 ### Script 
 
-**Macro\_Circular\_Text.FCMacro**
+**Macro_Circular_Text.FCMacro**
 
 ou téléchargez le script   *
 
-Téléchargez le script sur github [Macro\_FCCircularText.FCMacro](https   *//gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
+Téléchargez le script sur github [Macro_FCCircularText.FCMacro](https   *//gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
 
 ou sur le forum [Extrude from curved surface of cylinder](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
 
@@ -553,7 +553,7 @@ Image   *FCCircularText 29.png\|Courbe interne avec extrusion et soustraction bo
 
 <center>
 
-Image   *FCCircularText 32.png\|Courbe interne et soustraction. Image   *FCCircularText 41.png\|Extrusion sur un cône avec comme paramètres \'\'\'Sp. Inclination \'\'\'45° axe Z.
+Image   *FCCircularText 32.png\|Courbe interne et soustraction. Image   *FCCircularText 41.png\|Extrusion sur un cône avec comme paramètres **Sp. Inclination**45° axe Z.
 
 
 </center>
@@ -571,7 +571,7 @@ Image   *FCCircularText 42.png\|Anneau avec courbe interne et soustraction. Imag
 
 <center>
 
-Image   *FCCircularText\_Path\_00\_002\_000.png\| {{CheckBox|TRUE|Word}} Le texte est coupé à chaque caractère **espace**.
+Image   *FCCircularText_Path_00_002_000.png\| {{CheckBox|TRUE|Word}} Le texte est coupé à chaque caractère **espace**.
 
 
 </center>
@@ -669,7 +669,7 @@ Image   *FCCircularText 59.png\|Sélectionnez Ellipse extruded , Cut (text) fusi
 
 <center>
 
-Image   *FCCircularText\_Path\_00\_Orth\_Base\_000.png\|Texte placé BoundBox Base (normal) Image   *FCCircularText\_Path\_00\_Orth\_Center\_000.png\|Texte placé BoundBox Centre du caractere
+Image   *FCCircularText_Path_00_Orth_Base_000.png\|Texte placé BoundBox Base (normal) Image   *FCCircularText_Path_00_Orth_Center_000.png\|Texte placé BoundBox Centre du caractere
 
 
 </center>
@@ -678,7 +678,7 @@ Image   *FCCircularText\_Path\_00\_Orth\_Base\_000.png\|Texte placé BoundBox Ba
 
 <center>
 
-Image   *FCCircularText\_Path\_00\_Orth\_Top\_000.png\|Texte placé BoundBox Top caracter Image   *FCCircularText\_Path\_00\_001\_000\_000.png\|Texte placé sur la linge sélectionnée   *
+Image   *FCCircularText_Path_00_Orth_Top_000.png\|Texte placé BoundBox Top caracter Image   *FCCircularText_Path_00_001_000_000.png\|Texte placé sur la linge sélectionnée   *
 1   * Orthogonal
 2   * Tangent
 

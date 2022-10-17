@@ -18,7 +18,7 @@ This macro copies the selected object several times, on an array grid. You can d
 
  ToolBar Icon ![](images/Macro_ArrayCopy.png )
 
-**Macro\_ArrayCopy.FCMacro**
+**Macro_ArrayCopy.FCMacro**
 
 
 {{MacroCode|code=

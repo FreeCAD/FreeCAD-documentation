@@ -179,7 +179,7 @@ r.run(suite)
 
 ### Sujets du forum 
 
--   [Support for running specific unit tests with \--run-test \#331](https   *//forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
+-   [Support for running specific unit tests with \--run-test #331](https   *//forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
 
 
 

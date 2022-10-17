@@ -18,7 +18,7 @@ Makro kopiuje zaznaczony obiekt kilka razy, na siatce tablicy Możesz zdefiniowa
 
 ToolBar Icon ![](images/Macro_ArrayCopy.png )
 
-**Macro\_ArrayCopy.FCMacro**
+**Macro_ArrayCopy.FCMacro**
 
 
 {{MacroCode|code=

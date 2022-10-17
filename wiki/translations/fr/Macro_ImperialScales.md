@@ -14,7 +14,7 @@ Cette macro fait apparaître une boîte de dialogue contenant une liste d\'éche
 
 ## Code
 
-**Macro\_ImperialScales.FCMacro**
+**Macro_ImperialScales.FCMacro**
 
 
 {{MacroCode|code=

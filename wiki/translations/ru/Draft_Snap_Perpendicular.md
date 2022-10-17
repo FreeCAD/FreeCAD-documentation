@@ -41,8 +41,9 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 5.  Pick a first point. This snap option requires a previous point. The perpendicular point will be determined in relation to this point.
 6.  Move the cursor over a face or edge.
 7.  The face or edge is highlighted.
-8.  If a perpendicular is found the point is marked and the <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *16px;"> icon is displayed near the cursor.
-9.  Click to confirm the point.
+8.  If a perpendicular point is found the point is marked and the <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *16px;"> icon is displayed near the cursor.
+9.  If there are multiple perpendicular points   * optionally move the cursor closer to another perpendicular point. <small>(v1.0)</small> 
+10. Click to confirm the point.
 
 ## Preferences
 

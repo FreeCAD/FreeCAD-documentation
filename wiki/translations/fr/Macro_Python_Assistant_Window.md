@@ -115,7 +115,7 @@ Une fois le code stabilisé, vous pouvez l\'enregistrer dans un fichier pour un 
 
 **Autre Exemple**
 
-Vous essayez de savoir ce qui ne va pas avec les valeurs de rotation de divers objets dans un assemblage. Sur 27 objets, vous ne pouvez voir aucun motif quant aux objets qui seront affectés. Vous devez donc regrouper quelques lignes de Python pour isoler les objets incorrects, puis les coller dans le PAW. Ensuite, prenez quelques lignes de Python pour obtenir les valeurs Label et Rotation, collez également ce code dans PAW. Copiez le code pour détailler tous les objets que vous avez besoin de voir dans la liste et répétez-le pour chaque objet, le tout dans le PAW. La console Python aura tous ces résultats (y compris les erreurs de frappe et les messages d\'erreurs), mais elle aura fait défiler la partie visible de la fenêtre il y a longtemps. Vous avez maintenant un ensemble concis de lignes Python, vous le copiez à partir de PAW, vous le collez dans la console Python et vous obtenez la liste exacte des objets nécessitant un débogage, ainsi que leurs valeurs spécifiques. Si nécessaire, vous pouvez ensuite coller les résultats de la console Python dans PAW - préfixez-le avec le caractère de commentaire Python (\'\#\') si vous souhaitez l\'enregistrer dans le code Python et le garder exécutable. Enfin, vous pouvez enregistrer cette agglomération dans un fichier du PAW afin qu'elle soit sécurisée sur disque. Prêt pour la prochaine fois que vous devez voler ou adapter la logique du code.
+Vous essayez de savoir ce qui ne va pas avec les valeurs de rotation de divers objets dans un assemblage. Sur 27 objets, vous ne pouvez voir aucun motif quant aux objets qui seront affectés. Vous devez donc regrouper quelques lignes de Python pour isoler les objets incorrects, puis les coller dans le PAW. Ensuite, prenez quelques lignes de Python pour obtenir les valeurs Label et Rotation, collez également ce code dans PAW. Copiez le code pour détailler tous les objets que vous avez besoin de voir dans la liste et répétez-le pour chaque objet, le tout dans le PAW. La console Python aura tous ces résultats (y compris les erreurs de frappe et les messages d\'erreurs), mais elle aura fait défiler la partie visible de la fenêtre il y a longtemps. Vous avez maintenant un ensemble concis de lignes Python, vous le copiez à partir de PAW, vous le collez dans la console Python et vous obtenez la liste exacte des objets nécessitant un débogage, ainsi que leurs valeurs spécifiques. Si nécessaire, vous pouvez ensuite coller les résultats de la console Python dans PAW - préfixez-le avec le caractère de commentaire Python (\'#\') si vous souhaitez l\'enregistrer dans le code Python et le garder exécutable. Enfin, vous pouvez enregistrer cette agglomération dans un fichier du PAW afin qu'elle soit sécurisée sur disque. Prêt pour la prochaine fois que vous devez voler ou adapter la logique du code.
 
 ## Options
 
@@ -136,7 +136,7 @@ none (so far)
 
 ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
 
-**Macro\_Python\_Assistant\_Window.FCMacro**
+**Macro_Python_Assistant_Window.FCMacro**
 
     #
     #

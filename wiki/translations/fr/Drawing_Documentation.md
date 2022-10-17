@@ -65,7 +65,7 @@ Ajoute simplement une propriété pour une liste de pages, pas grand chose d\'au
 
 ### Precompiled.cppp
 
-Simplement \#inclus \"PreCompiled.h\"
+Simplement #inclus \"PreCompiled.h\"
 
 ### ProjectionAlgos.cpp
 
@@ -138,9 +138,9 @@ CanvasView est l\'objet QGraphicsScene et DrawingView traite une liste de Featur
 
 {{Drawing Tools navi}} 
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Documentation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing Documentation/fr

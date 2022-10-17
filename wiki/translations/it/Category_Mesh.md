@@ -1,7 +1,7 @@
 # Category:Mesh/it
-This category lists pages related to the [Mesh\_Workbench/it](Mesh_Workbench/it.md).
+This category lists pages related to the [Mesh_Workbench/it](Mesh_Workbench/it.md).
 
-[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User\_Documentation/it](Category   *User_Documentation/it.md)
+[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User_Documentation/it](Category   *User_Documentation/it.md)
 
 ### Contents
 

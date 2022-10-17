@@ -54,7 +54,7 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 <div class="mw-translate-fuzzy">
 
--   Planul de secțiune va considera doar un set de obiece , nu toate obiectele din document. Obiectele pot fi adăugate sau eliminate dintr-un obiect SectionPlane utilizând instrumentele [Arch Add](Arch_Add.md) și [Arch Remove](Arch_Remove.md) sau făcând dublu clic pe planul de secțiuni din vizualizarea arborescentă, selectând obiecte fie în lista din Scena 3D și apăsarea butonului \'\'\' adăuga \'\'\' sau **ștergeți**.
+-   Planul de secțiune va considera doar un set de obiece , nu toate obiectele din document. Obiectele pot fi adăugate sau eliminate dintr-un obiect SectionPlane utilizând instrumentele [Arch Add](Arch_Add.md) și [Arch Remove](Arch_Remove.md) sau făcând dublu clic pe planul de secțiuni din vizualizarea arborescentă, selectând obiecte fie în lista din Scena 3D și apăsarea butonului **adăuga** sau **ștergeți**.
 
 
 </div>

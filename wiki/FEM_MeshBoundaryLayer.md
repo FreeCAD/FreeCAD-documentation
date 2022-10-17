@@ -24,7 +24,7 @@ The boundary layer has the advantage of creating highly defined, anisotropic mes
 4.  Click the **OK** button.
 5.  Close the task.
 
-       *   Result   * You now should see a new `FEMMeshBoundaryLayer` object under the `FEMMeshGMSH` object (see example \#3 below) in your active analysis container.
+       *   Result   * You now should see a new `FEMMeshBoundaryLayer` object under the `FEMMeshGMSH` object (see example #3 below) in your active analysis container.
 6.  Double-click on the `FEMMeshGMSH` parent object in your Model Tree and press **Apply** to force a mesh recalculation.
 7.  Close the task.
 

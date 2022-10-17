@@ -1,5 +1,5 @@
 # Compile on Linux/Unix
-1.  REDIRECT [Compile\_on\_Linux](Compile_on_Linux.md)
+1.  REDIRECT [Compile_on_Linux](Compile_on_Linux.md)
 
 
 

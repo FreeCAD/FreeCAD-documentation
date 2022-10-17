@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_Slope.svg  style="width   *24px;"> *\' Entwurf Neigung*\' neigt ausgewählte [Entwurf Linien](Draft_Line/de.md) oder [Entwurf Drähte](Draft_Wire/de.md), indem er die Z-Koordinate aller Punkte nach dem ersten Punkt erhöht oder verringert. Er kann auch zum Abflachen von [Entwurf Drähte](Draft_Wire/de.md) verwendet werden. Beachten, dass die Neigung relativ zur auf XY Ebene ist, die durch die **Placement** der Objekte definiert ist.
+Der Befehl <img alt="" src=images/Draft_Slope.svg  style="width   *24px;"> **Entwurf Neigung** neigt ausgewählte [Entwurf Linien](Draft_Line/de.md) oder [Entwurf Drähte](Draft_Wire/de.md), indem er die Z-Koordinate aller Punkte nach dem ersten Punkt erhöht oder verringert. Er kann auch zum Abflachen von [Entwurf Drähte](Draft_Wire/de.md) verwendet werden. Beachten, dass die Neigung relativ zur auf XY Ebene ist, die durch die **Placement** der Objekte definiert ist.
 
 <img alt="" src=images/Draft_Slope_example.png  style="width   *400px;"> 
 *Links eine horizontale Entwurfslinie. Rechts die gleiche Linie mit einem Neigungswert von 1 (Winkel ist 45°)*

@@ -45,7 +45,7 @@ Available in Addon manager, or manual install.
 
 ToolBar Icon ![](images/Macro_Shake_Sketch.png )
 
-**Macro Shake\_Sketch.py**
+**Macro Shake_Sketch.py**
 
     # -*- coding   * utf-8 -*-
 

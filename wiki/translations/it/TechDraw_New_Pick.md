@@ -1,5 +1,5 @@
 # TechDraw New Pick/it
-1.  REDIRECT [TechDraw\_PageTemplate/it](TechDraw_PageTemplate/it.md)
+1.  REDIRECT [TechDraw_PageTemplate/it](TechDraw_PageTemplate/it.md)
 
 
 

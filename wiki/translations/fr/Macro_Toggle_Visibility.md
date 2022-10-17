@@ -36,7 +36,7 @@ Si les objets sont cachés et qu\'aucun objet n\'est sélectionné dans la Vue c
 
 L\'icône pour votre barre d\'outils <img alt="" src=images/Macro_SelectVisible.png  style="width   *48px;">
 
-**Macro\_ToggleSelectedObjectVisibility.FCMacro**
+**Macro_ToggleSelectedObjectVisibility.FCMacro**
 
 
 {{MacroCode|code=
@@ -78,7 +78,7 @@ La discussion sur le forum [Proposal   * select one or more pieces, hide the oth
 
 ## Version
 
-ver 00.02 12/11/2015 **macro Macro\_SelectVisible**    * Si aucun objet n\'est sélectionné tous les objets seront cachés, si les objets sont cachés et qu\'aucun objet n\'est sélectionné dans la Vue combinée tous les objets seront visibles. Cette nouvelle version inclus les trois macros en une seule.
+ver 00.02 12/11/2015 **macro Macro_SelectVisible**    * Si aucun objet n\'est sélectionné tous les objets seront cachés, si les objets sont cachés et qu\'aucun objet n\'est sélectionné dans la Vue combinée tous les objets seront visibles. Cette nouvelle version inclus les trois macros en une seule.
 
 
 

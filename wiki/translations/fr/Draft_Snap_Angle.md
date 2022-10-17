@@ -12,8 +12,6 @@
 
 L\'option <img alt="" src=images/Draft_Snap_Angle.svg  style="width   *24px;"> **Draft Aimantation Angle** permet de s\'aimanter aux points cardinaux spéciaux sur les bords circulaires, pour des multiples de 30° et 45°. Les bords peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
-Dans FreeCAD version 0.19 et antérieures, cette option d\'aimantation ne fonctionne correctement que pour les arêtes circulaires sur un plan parallèle au plan XY du système de coordonnées global.
-
 ![](images/Draft_Snap_Angle_example.png ) 
 *Aimantation du deuxième point d'une ligne au point -30° d'un bord circulaire. Les petits cercles magenta indiquent tous les points cardinaux spéciaux disponibles.*
 

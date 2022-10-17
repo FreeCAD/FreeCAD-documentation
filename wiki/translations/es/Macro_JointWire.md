@@ -23,7 +23,7 @@ Esta macro permite encontrar y juntar todas las aristas con la respectiva arista
 
 ToolBar Icon ![](images/Macro_JointWire.png )
 
-**Macro\_JointWire.FCMacro**
+**Macro_JointWire.FCMacro**
 
 
 {{MacroCode|code=

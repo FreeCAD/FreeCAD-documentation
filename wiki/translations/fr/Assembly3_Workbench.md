@@ -73,7 +73,7 @@ La **Barre d\'outils principale** contient des outils qui couvrent les fonctions
 
    ** <img alt="" src=images/Assembly_SmartRecompute.svg  style="width   *32px;"> [Recomputation intelligente](Assembly3_SmartRecompute/fr.md)    * Recalcul intelligent. Habituellement activé.
 
-   ** <img alt="" src=images/Assembly_AutoFixElement.svg  style="width   *32px;"> [Auto réparation d\'un élement](Assembly3_AutoFixElement/fr.md)    * Auto réparation d\'un élement. Fonctionnalité expérimentale dans 0.19\_pre.
+   ** <img alt="" src=images/Assembly_AutoFixElement.svg  style="width   *32px;"> [Auto réparation d\'un élement](Assembly3_AutoFixElement/fr.md)    * Auto réparation d\'un élement. Fonctionnalité expérimentale dans 0.19_pre.
 
    ** Style d\'élément. Cela a deux paramètres
 
@@ -111,7 +111,7 @@ La **Barre d\'outils principale** contient des outils qui couvrent les fonctions
 
 #### Barre d\'outils des contraintes principales 
 
-   *   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *28px;">
+   *   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width   *14px;"><img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -137,9 +137,15 @@ Certains outils sont en fait un menu pour d\'autres outils.
 
    **   * Les faces coïncident en leurs centres avec une distance facultative.
 
-   ** <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *32px;"> [Contrainte d\'accrochage](Assembly3_ConstraintAttachment/fr.md)    * Ajoute une contrainte \"Attachment\" pour accrocher deux pièces par les éléments géométriques sélectionnés.
+   ** Accrochage. Il y a deux paramètres
 
-   **   * Cette contrainte fixe complètement les pièces les unes par rapport aux autres.
+   **\* <img alt="" src=images/Assembly_ConstraintAttachment.svg  style="width   *32px;"> [Contrainte d\'accrochage](Assembly3_ConstraintAttachment/fr.md)    * Ajoute une contrainte \"Attachment\" pour attacher deux pièces avec les éléments géométriques sélectionnés.
+
+   **\*   * Cette contrainte fixe complètement les pièces l\'une par rapport à l\'autre.
+
+   **\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg  style="width   *32px;"> [Contrainte décalage d\'accrochage](Assembly3_ConstraintAttachmentOffset/fr.md)    * Identique à la contrainte \"Accrochage\", mais maintient le placement relatif des pièces en question en appliquant un décalage d\'élément.
+
+   **\*   * Cette contrainte fixe complètement les pièces les unes par rapport aux autres.
 
    ** <img alt="" src=images/Assembly_ConstraintAxial.svg  style="width   *32px;"> [Contrainte axiale](Assembly3_ConstraintAxial/fr.md)    * Ajoute une contrainte \"Alignement axial\" pour aligner les arêtes/faces de deux pièces ou plus.
 
@@ -432,7 +438,7 @@ L\'[Atelier Assembly3](Assembly3_Workbench/fr.md) est disponible (à partir de m
 
 Il existe deux autres façons d\'installer Assembly3    *
 
--   Un fork spécial de FreeCAD fait par realthunder ; voir [FreeCAD\_assembly3 releases](https   *//github.com/realthunder/FreeCAD_assembly3/releases). Ce fork est basé sur un commit particulier de la branche master de FreeCAD, mais il a également des fonctionnalités supplémentaires qui ne sont actuellement pas présentes dans la branche master. Étant donné que ce fork est basé sur un instantané de développement particulier, il n\'a pas les dernières fonctionnalités fusionnées quotidiennement à la branche principale.
+-   Un fork spécial de FreeCAD fait par realthunder ; voir [FreeCAD_assembly3 releases](https   *//github.com/realthunder/FreeCAD_assembly3/releases). Ce fork est basé sur un commit particulier de la branche master de FreeCAD, mais il a également des fonctionnalités supplémentaires qui ne sont actuellement pas présentes dans la branche master. Étant donné que ce fork est basé sur un instantané de développement particulier, il n\'a pas les dernières fonctionnalités fusionnées quotidiennement à la branche principale.
 -   Le développement [AppImage](AppImage/fr.md) est basé sur la branche principale en cours et inclut les dépendances nécessaires pour travailler avec Assembly3, comme le solveur SolveSpace.
 
 Comme l\'AppImage ne fonctionne que pour Linux, pour les utilisateurs de Windows (qui veulent une installation alternative d\'Assembly3) l\'option pour tester Assembly3 est la première option (fork de realthunder).
@@ -571,7 +577,7 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 -   L\'utilisation d\'assemblages hiérarchiques permet d\'éviter les problèmes de solveur et de maintenir la fluidité du modèle. Vous pouvez figer un sous-assemblage en un seul clic et enregistrer facilement les ressources CPU (utilisez le menu contextuel dans l\'arborescence). Lors du chargement d\'un assemblage, Assembly3 n\'a pas besoin d\'ouvrir les fichiers externes pour les sous-assemblages figés, ce qui maintient l\'arborescence compacte.
 -   Il est très utile de prendre l\'habitude de nommer les éléments et les contraintes. Utilisez la touche **F2** pour le faire rapidement dans l\'arborescence. Vous trouverez les outils de tri d\'arbre dans la barre d\'outils principale très utiles. Un assemblage avec des contraintes et des éléments entièrement nommés est très facile à comprendre pour d\'autres personnes ou pour soi-même lorsque l\'on regarde un fichier plus ancien.
 
-       *   Des exemples de noms de contraintes pour une table peuvent être \"Align\_FrontLegs\", \"Align\_FrameBottom-LegTops\" et les noms d\'élément peuvent être \"Leg1\_Top\" ou \"TableTop\_Front\", \"TableTop\_Left\".
+       *   Des exemples de noms de contraintes pour une table peuvent être \"Align_FrontLegs\", \"Align_FrameBottom-LegTops\" et les noms d\'élément peuvent être \"Leg1_Top\" ou \"TableTop_Front\", \"TableTop_Left\".
 -   Veuillez noter qu\'une fois que les fichiers externes sont ouverts par un assemblage, il n\'est pas possible de les refermer facilement sans fermer l\'assemblage. Étant donné que l\'assemblage garde ouvert ces fichiers dans l\'arrière-plan, l\'onglet peut disparaître mais le fichier reste visible dans l\'arborescence. Si vous avez plusieurs couches de sous-assemblages, il devient pratiquement impossible de fermer des fichiers uniques. Ce comportement peut changer, mais jusque-là une approche possible pourrait être d\'utiliser régulièrement les commandes *Fichier/Enregistrer tout* et *Fichier/Fermer tout* pour nettoyer l\'arborescence avant de travailler sur un autre sous-assemblage.
 
        *   \'\'Exemple   * considérez que vous avez une grande machine CNC avec un ensemble principal et un sous-ensemble pour chaque module. Une fois que vous avez ouvert l\'assemblage principal, vous pouvez ouvrir des centaines de fichiers jusqu\'au roulement à billes. Avant de travailler sur le sous-ensemble de l\'armoire électronique de la machine, il est judicieux d\'enregistrer et de fermer tous les fichiers pour vider l\'arbre. Ouvrez ensuite uniquement le sous-ensemble de l\'armoire électronique. Cela ouvrira tous les fichiers dont vous avez besoin sauf ceux-là.
@@ -588,7 +594,7 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 ## Liens
 
 -   L\'objet [App Link](App_Link/fr.md) qui fait fonctionner Assembly3.
--   [FreeCAD\_assembly3](https   *//github.com/realthunder/FreeCAD_assembly3) dépôt et documentation.
+-   [FreeCAD_assembly3](https   *//github.com/realthunder/FreeCAD_assembly3) dépôt et documentation.
 -   [Assembly3 preview](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=25712), grand fil de discussion.
 -   [Tutoriel pour l\'atelier Assembly 3](http   *//help-freecad-jpg87.fr/02_ass_ind.php) par jpg87.
 -   [État actuel de l\'assemblage](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=34583)

@@ -19,8 +19,8 @@ Der Befehl <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **F
 ## Anwendung
 
 1.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücken der Schaltfläche **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM.md)**.
-    -   Auswahl des Menüeintrags **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM**.
+    -   Die Schaltfläche **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM.md)** drücken.
+    -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** auswählen.
 2.  Eine Stücklistentabelle für Verbindungselemente wird erstellt.
 
 ## Hinweise

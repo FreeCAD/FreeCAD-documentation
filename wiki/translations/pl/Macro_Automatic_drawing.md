@@ -29,7 +29,7 @@ An object needs to be selected before launching the macro.
 
 ToolBar icon ![](images/Macro_Automatic_drawing.png )
 
-**Macro\_Automatic\_drawing.FCMacro**
+**Macro_Automatic_drawing.FCMacro**
 
 
 {{MacroCode|code=

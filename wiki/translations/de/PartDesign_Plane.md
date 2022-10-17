@@ -24,7 +24,7 @@ In FreeCAD 0.18 kann eine Bezugsebene nur innerhalb eines <img alt="" src=images
 
 2.  Die Parameter der Bezugsebene definieren. Eine erste Referenz in der 3D-Ansicht auswählen, um die verfügbaren [Part Befestigungsarten](Part_EditAttachment/de.md) zu filtern.
 
-3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text \'\'Angehängt im Modus   * \'\' zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
+3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text *Angehängt im Modus   ** zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
 
 4.  Um eine weitere Referenz hinzuzufügen, drückt man die nächste Schaltfläche **Referenz2**. Sobald sie gerückt wurde ändert sich die Beschriftung zu *Auswählen\...*, bis etwas ausgewählt wurde.
 

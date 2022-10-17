@@ -107,7 +107,7 @@ class Ui_Dialog(object)   *
         Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Dialog", None, QtGui.QApplication.UnicodeUTF8))
         self.title.setText(QtGui.QApplication.translate("Dialog", "Plane-O-Matic", None, QtGui.QApplication.UnicodeUTF8))
         ...
-``` As you see it has a very simple structure   * a class named Ui\_Dialog is created, that stores the interface elements of our widget. That class has two methods, one for setting up the widget, and one for translating its contents, which is part of the general Qt mechanism for translating interface elements. The setup method simply creates, one by one, the widgets as we defined them in Qt Designer, and sets their options as we decided earlier. Then, the whole interface gets translated, and finally, the slots get connected (we\'ll talk about that later).
+``` As you see it has a very simple structure   * a class named Ui_Dialog is created, that stores the interface elements of our widget. That class has two methods, one for setting up the widget, and one for translating its contents, which is part of the general Qt mechanism for translating interface elements. The setup method simply creates, one by one, the widgets as we defined them in Qt Designer, and sets their options as we decided earlier. Then, the whole interface gets translated, and finally, the slots get connected (we\'ll talk about that later).
 
 We can now create a new widget and use this class to create its interface. We can already see our widget in action, by putting our mywidget.py file in a place where FreeCAD will find it (in the FreeCAD bin directory, or in any of the Mod subdirectories), and, in the FreeCAD python interpreter, issue   * 
 ```python
@@ -129,7 +129,7 @@ Now that we can show and hide our dialog, we just need to add one last part   * 
 What we will do here, is to create a new function that will create a plane based on height and width, and to connect that function to the pressed signal emitted by our \"Create!\" button. So, let\'s begin with importing our FreeCAD modules, by putting the following line at the top of the script, where we already import QtCore and QtGui   * 
 ```python
 import FreeCAD, Part
-``` Then, let\'s add a new function to our Ui\_Dialog class   * 
+``` Then, let\'s add a new function to our Ui_Dialog class   * 
 ```python
 def createPlane(self)   *
     try   *
@@ -152,7 +152,7 @@ def createPlane(self)   *
 ``` Then, we need to inform Qt to connect the button to the function, by placing the following line just before QtCore.QMetaObject.connectSlotsByName(Dialog)   * 
 ```python
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
-``` This, as you see, connects the pressed() signal of our create object (the \"Create!\" button), to a slot named createPlane, which we just defined. That\'s it! Now, as a final touch, we can add a little function to create the dialog, it will be easier to call. Outside the Ui\_Dialog class, let\'s add this code   * 
+``` This, as you see, connects the pressed() signal of our create object (the \"Create!\" button), to a slot named createPlane, which we just defined. That\'s it! Now, as a final touch, we can add a little function to create the dialog, it will be easier to call. Outside the Ui_Dialog class, let\'s add this code   * 
 ```python
 class plane()   *
    def __init__(self)   *

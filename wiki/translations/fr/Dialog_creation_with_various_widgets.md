@@ -317,7 +317,7 @@ class Form(object)   *
       control.setText(_translate(self.title, text, None))
 ``` Le fichier appelant, qui contient la fenêtre et votre code.
 
-Le fichier **my\_file.py**
+Le fichier **my_file.py**
 
 Les connections sont à faire, un bon exercice. 
 ```python
@@ -364,7 +364,7 @@ myWindow.show()
 
 <center>
 
-Image   *Qt\_Example\_00.png\|Qt example 1 Image   *Qt\_Example\_01.png\|Qt example details
+Image   *Qt_Example_00.png\|Qt example 1 Image   *Qt_Example_01.png\|Qt example details
 
 
 </center>

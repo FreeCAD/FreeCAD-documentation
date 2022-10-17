@@ -41,8 +41,6 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   The **Continue** checkbox, displayed in FreeCAD version 0.19 and earlier, has no purpose for this command.
--   The **Modify subelements** checkbox, displayed in FreeCAD version 0.19 and earlier, has no purpose for this command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 

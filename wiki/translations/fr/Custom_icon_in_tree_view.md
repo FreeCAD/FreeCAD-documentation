@@ -9,7 +9,7 @@ Voici un exemple pour créer un objet avec des propriétés et une icône person
 
 Téléchargez l\'icône exemple et placez le dans votre répertoire de macro ![icône Exemple pour la macro\|24px](images/FreeCADIco.png ).
 
-Utilisation d\'une icône pour trois cas d\'utilisation différents   * icon\_in\_file\_disk (format .png), icon\_XPM\_in\_macro (format .XPM) et icon\_resource\_FreeCAD
+Utilisation d\'une icône pour trois cas d\'utilisation différents   * icon_in_file_disk (format .png), icon_XPM_in_macro (format .XPM) et icon_resource_FreeCAD
 
 ![icon personalised](images/Qt_Example_02.png ) 
 

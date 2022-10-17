@@ -116,38 +116,20 @@ An jeder Spline Position $t$ ist die Summe der Polynome 1 (gekennzeichnet durch 
 
 Eine Eigenschaft der Bernstein Polynome ist, dass bei Betrachtung der verschiedenen S-Spline Bézier Teile die Pfadlänge jedes Teils gleich ist. (Die Pfadlänge wird oft als \"Laufzeit\" bezeichnet). Wie Sie sich vorstellen können, kann es nützlich sein, B-Splines zu haben, deren Bézier Teile unterschiedliche Pfadlängen haben. Dies kann durch Gewichtung der verschiedenen Polynome erreicht werden   *
 
-
-<div class="mw-translate-fuzzy">
-
 $\quad
-c(t)=\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k$
-
-
-</div>
+c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k$
 
 $w_k$ ist dabei das Gewicht des $k$-ten Kontrollpunktes. Wenn die Gewichte nicht gleich sind, nennt man den B-Spline **nicht-uniform**.
 
 Vor allem wenn B-Splines für die 3D Modellierung verwendet werden sollen, sind normalisierte, nicht-uniforme B-Splines erforderlich. Die Normalisierung erfolgt durch eine Division durch die gewichteten Basisfunktionen. Wenn also alle $w_k$ gleich sind, erhält man einen einheitlichen B-Spline, unabhängig von der Gewichtung selbst   *
 
-
-<div class="mw-translate-fuzzy">
-
 $\quad
-c(t)=\cfrac{\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
-
-
-</div>
+c(t)=\cfrac{\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
 
 Diese nicht-uniformen und rationalen (wegen der Division) B-Splines werden oft **NURBS** genannt. Ein Blick auf die Formel zeigt, dass es sich tatsächlich um einen B-Spline mit einer gewichteten Basis $R_{k, D}(t)$ handelt   *
 
-
-<div class="mw-translate-fuzzy">
-
 $\quad
-c(t)=\sum_{k=0}^{N}d_{k}R_{k, D}(t)$
-
-
-</div>
+c(t)=\sum_{k=0}^{N}p_{k}R_{k, D}(t)$
 
 wohingegen
 
@@ -170,7 +152,7 @@ Um periodische B-Splines (B-Splines, die eine geschlossene Kurve bilden) zu erst
 
 B-Splines können auch aus bestehenden Skizzen Segmenten erzeugt werden. Markiere dazu die Elemente und drücke den Werkzeugleistenknopfltfläche **[<img src=images/Sketcher_BSplineApproximate.svg style="width   *24px"> [Geometrie in B-Spline umwandeln](Sketcher_BSplineApproximate/de.md)**.
 
-While creating a B-spline, its degree can be specified by pressing the **D** key. With this, the default to create a cubic B-spline if possible, can be overridden. <small>(v0.20)</small> 
+Während der Erstellung eines B-Splines kann sein Grad angegeben werden, indem die Taste **D** gedrückt wird. Hiermit kann die Voreinstellung, die Erstellung eines kubischen B-Splines, überschrieben werden. {{Version/de|0.20}}
 
 ### Ändern des Grads 
 
@@ -204,38 +186,38 @@ Am Beispiel des Ziehens siehst du, dass ein hohes Gewicht die Kurve zum Kontroll
 
 Wenn du dir die [Erstellungsfunktion](#Nicht-uniforme_B-splines.md) für nicht-uniformee rationale B-Splines ansehst, siehst du, dass ein Gewicht von Null zu einer Division durch Null führen würde. Daher kannst du nur Gewichte größer als Null angeben.
 
-### Editing Knots 
+### Knoten barbeiten 
 
-New knots can be added using the **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width   *24px"> [B-spline insert knot](Sketcher_BSplineInsertKnot.md)** button. <small>(v0.20)</small> 
+Neue Knoten (Kontrollpunkte) können mit der Schaltfläche **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width   *24px"> [ Knoten einfügen](Sketcher_BSplineInsertKnot/de.md)** hinzugefügt werden. {{Version/de|0.20}}
 
-Deleting knots is not yet possible, see section [Limitations](#Limitations.md).
+Das Löschen von Knoten ist bisher noch nicht möglich, siehe Abschnitt [Begrenzungen](#Begrenzungen.md).
 
 ### Informationen anzeigen 
 
 Da die Form eines B-Splines nicht viel über seine Eigenschaften aussagt, bietet FreeCAD [verschiedene Werkzeuge](Sketcher_Workbench/de#Skizzierer_B-spline_Werkzeuge.md), um die Eigenschaften anzuzeigen   *
 
 +++
-| Eigenschaft         | Werkzeugleistenschaltfläche                                                                                                                        |
+| Eigenschaft            | Schaltfläche in der Werkzeugleiste                                                                                                                        |
 +++
-| **Grad**            |                                                                                                                                     |
-|                     | **[<img src=images/Sketcher_BSplineDegree.svg style="width   *16px"> [B-Spline-Grad anzeigen/ausblenden](Sketcher_BSplineDegree/de.md)**                                |
-|                     |                                                                                                                                                 |
+| **Grad**               |                                                                                                                                            |
+|                        | **[<img src=images/Sketcher_BSplineDegree.svg style="width   *16px"> [B-Spline-Grad ein- / ausblenden](Sketcher_BSplineDegree/de.md)**                                         |
+|                        |                                                                                                                                                        |
 +++
-| **Kontrollpolygon** |                                                                                                                                     |
-|                     | **[<img src=images/Sketcher_BSplinePolygon.svg style="width   *16px"> [Kontrollpolygon für B-Spline anzeigen/ausblenden](Sketcher_BSplinePolygon/de.md)**               |
-|                     |                                                                                                                                                 |
+| **Kontrollpolygon**    |                                                                                                                                            |
+|                        | **[<img src=images/Sketcher_BSplinePolygon.svg style="width   *16px"> [B-Spline-Kontrollpolygon ein- / ausblenden](Sketcher_BSplinePolygon/de.md)**                            |
+|                        |                                                                                                                                                        |
 +++
-| **Krümmungskamm**   |                                                                                                                                     |
-|                     | **[<img src=images/Sketcher_BSplineComb.svg style="width   *16px"> [B-Spline Krümmungskamm anzeigen/ausblenden](Sketcher_BSplineComb/de.md)**                           |
-|                     |                                                                                                                                                 |
+| **Krümmungskamm**      |                                                                                                                                            |
+|                        | **[<img src=images/Sketcher_BSplineComb.svg style="width   *16px"> [B-Spline-Krümmungskamm ein- / ausblenden](Sketcher_BSplineComb/de.md)**                                    |
+|                        |                                                                                                                                                        |
 +++
-| **Knotenvielfalt**  |                                                                                                                                     |
-|                     | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width   *16px"> [B-Spline Knotenvielfalt anzeigen/ausblendenn](Sketcher_BSplineKnotMultiplicity/de.md)** |
-|                     |                                                                                                                                                 |
+| **Knotenvielfachheit** |                                                                                                                                            |
+|                        | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width   *16px"> [Vielfachheit der B-Spline-Knoten ein- / ausblendenn](Sketcher_BSplineKnotMultiplicity/de.md)** |
+|                        |                                                                                                                                                        |
 +++
-| **Gewichte**        |                                                                                                                                     |
-|                     | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width   *16px"> [Gewicht des B-Spline Kontrollpunkts anzeigen/ausblenden](Sketcher_BSplinePoleWeight/de.md)**  |
-|                     |                                                                                                                                                 |
+| **Knotengewichte**     |                                                                                                                                            |
+|                        | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width   *16px"> [Gewicht der B-Spline-Kontrollpunkte anzeigen / ausblenden](Sketcher_BSplinePoleWeight/de.md)**       |
+|                        |                                                                                                                                                        |
 +++
 
 ### Begrenzungen

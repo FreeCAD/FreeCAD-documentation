@@ -43,7 +43,7 @@ Agrega propiedades de material a una parte.
 
 <div class="mw-translate-fuzzy">
 
-1.  El material mecánico utiliza la tarjeta \* MATERIAL en CalculiX. Los detalles sobre el material mecánico se explican enhttp   *//web.mit.edu/calculix\_v2.7/CalculiX/ccx\_2.7/doc/ccx/node216.html
+1.  El material mecánico utiliza la tarjeta \* MATERIAL en CalculiX. Los detalles sobre el material mecánico se explican enhttp   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html
 
 
 </div>

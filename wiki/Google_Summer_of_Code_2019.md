@@ -33,7 +33,7 @@ Our whole umbrella organisation will be allocated by Google a certain number slo
 
 ## Possible Mentors 
 
-[Bernd](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2069), [Yorik](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68), [Amritpal](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=9146), chrisb, Kunda1, kkremitzki, Joel\_graff. The best way to contact us is through the [FreeCAD forums](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=32284). You can also look on the IRC channel.
+[Bernd](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=2069), [Yorik](http   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68), [Amritpal](https   *//forum.freecadweb.org/memberlist.php?mode=viewprofile&u=9146), chrisb, Kunda1, kkremitzki, Joel_graff. The best way to contact us is through the [FreeCAD forums](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=32284). You can also look on the IRC channel.
 
 ## Implementation Ideas 
 

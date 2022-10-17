@@ -57,7 +57,7 @@ Pentru a ajuta utilizatorii noi, nava include un exemplu de încărcător de geo
 
 <div class="mw-translate-fuzzy">
 
-Executing the tool (Ship design/Load an example ship geometry) a task dialogue will shown. Select **Series 60 from Iowa University** and press Accept. Tool loads new document with **s60\_IowaUniversity** geometry.
+Executing the tool (Ship design/Load an example ship geometry) a task dialogue will shown. Select **Series 60 from Iowa University** and press Accept. Tool loads new document with **s60_IowaUniversity** geometry.
 
 
 </div>

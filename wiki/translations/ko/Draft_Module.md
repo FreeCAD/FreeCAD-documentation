@@ -1,5 +1,5 @@
 # Draft Module/ko
-1.  REDIRECT [Draft\_Workbench/ko](Draft_Workbench/ko.md)
+1.  REDIRECT [Draft_Workbench/ko](Draft_Workbench/ko.md)
 
 
 

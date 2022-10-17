@@ -96,7 +96,7 @@ cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
--   Tworzy sześcian o boku 5 mm, na który będziemy nakładać sfazowane krawędzie. Zobacz stronę [Part\_API](Part_API/pl.md) aby uzyskać wyjaśnienie metody **makeBox**.
+-   Tworzy sześcian o boku 5 mm, na który będziemy nakładać sfazowane krawędzie. Zobacz stronę [Part_API](Part_API/pl.md) aby uzyskać wyjaśnienie metody **makeBox**.
 
 
 ```python
@@ -130,7 +130,7 @@ myEdges.append((12, 1.5, 1.25))
 ```
 
 -   Tworzy pustą tablicę \"myEdges\", a następnie dodaje do niej parametry fazy każdej krawędzi.
--   Składnia dla każdego elementu powinna być następująca *(krawędź\#, długość początkowa fazy, długość końcowa fazy)*.
+-   Składnia dla każdego elementu powinna być następująca *(krawędź#, długość początkowa fazy, długość końcowa fazy)*.
 
 
 ```python

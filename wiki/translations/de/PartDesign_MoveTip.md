@@ -24,7 +24,7 @@ Die Arbeitsposition wird im Modellbaum durch einen kleinen weißen Abwärtspfeil
 2.  Wählen Sie aus dem Kontextmenü ![ 24px](images/PartDesign_MoveTip.svg ) **Spitze**.
 3.  Die nun aktuelle Spitze wird auf sichtbar gesetzt und alle Elemente unterhalb der Spitze werden ausgeblendet. Von diesem Punkt aus neu erstellte Elemente werden unter der Spitze und über den anderen vorhandenen Elementen platziert.
 
-\'\' \'Hinweis\' \'\'   * Es ist wichtig, nicht zu vergessen, die Arbeitsposition wieder auf das letzte Merkmal am unteren Rand des Körperbaums zu setzen um weiter zu konstruieren.
+*\'Hinweis\'*   * Es ist wichtig, nicht zu vergessen, die Arbeitsposition wieder auf das letzte Merkmal am unteren Rand des Körperbaums zu setzen um weiter zu konstruieren.
 
 
 

@@ -84,7 +84,7 @@ Per convertire un oggetto, ad esempio un cubo di 25,4 mm (1 inch) in un cubo di 
 Per un cubo di 5mm, fare **5 / 25,4 = 0,1968503**e inserire il valore **0,1968503** (con la virgola) nel campo Scale X, Y e Z.
 
 **50%** = **0,50** nel campo **\"Scale free\"**
-*\' 4%*\' = **0,04** nel campo **\"Scale free\"**
+**4%** = **0,04** nel campo **\"Scale free\"**
 
 
 <div class="mw-translate-fuzzy">
@@ -121,7 +121,7 @@ Le unita predefinite sono   * km, hm, dam, m, dm, cm, **mm**, µm, nm, inch, lin
 -   **Scale predefined**
 -   **Scale predefined    *** le scale predefinite sono km, hm, dam, m, dm, cm, **mm**, µm, nm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique, oppure impostare l\'unità desiderata nel campo Scale free.
 
--   \'\'\'Number copy \'\'\'
+-   **Number copy**
 -   **Number copy    *** numero di copie
 
 -   **Scale free**
@@ -141,11 +141,11 @@ Le unita predefinite sono   * km, hm, dam, m, dm, cm, **mm**, µm, nm, inch, lin
 
 ## Script
 
-L\'icona di Macro\_CloneConvert   * ![](images/Macro_CloneConvert.png )
+L\'icona di Macro_CloneConvert   * ![](images/Macro_CloneConvert.png )
 
-**Macro\_CloneConvert.FCMacro**
+**Macro_CloneConvert.FCMacro**
 
-Scaricare la macro da Gist [Macro\_CloneConvert.FCMacro](https   *//gist.github.com/mario52a/9f2f2f6144e1307a048f1840ef99300c)
+Scaricare la macro da Gist [Macro_CloneConvert.FCMacro](https   *//gist.github.com/mario52a/9f2f2f6144e1307a048f1840ef99300c)
 
 ## Revision
 

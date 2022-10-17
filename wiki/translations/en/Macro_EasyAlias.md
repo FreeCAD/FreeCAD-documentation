@@ -1,6 +1,6 @@
 # Macro EasyAlias/en
 {{Macro
-|Name=EasyAlias
+|Name=Macro EasyAlias
 |Icon=easy-alias-icon.png
 |Description=Use this to quickly and easily create aliases for cells in your spreadsheets. It takes the text labels you will have already created in one column and uses those labels as aliases in the next column.
 |Author=TheMarkster
@@ -25,7 +25,7 @@ Highlight the cells containing the text labels and run the macro. Adjacent cells
 
 ToolBar icon ![](images/easy-alias-icon.png )
 
-**Macro\_EasyAlias.FCMacro**
+**Macro_EasyAlias.FCMacro**
 
 
 {{MacroCode|code=

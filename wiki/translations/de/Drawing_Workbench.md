@@ -44,7 +44,7 @@ Diese Werkzeuge ermöglichen das Erstellen, Konfigurieren und exportieren von 2D
 
 ## Arbeitsablauf
 
-Das Dokument enthält ein 3D Formobjekt (Schenkel), von dem wir eine Zeichnung erstellen wollen. Deshalb wird eine \"Seite\" erstellt. Eine Seite wird aus einer Vorlage realisiert, z. B. aus der Vorlage \"A3\_Landscape\". Die Vorlage ist ein [SVG](SVG/de.md) Dokument, das einen Seitenrahmen, ein Logo und andere Elemente enthalten kann.
+Das Dokument enthält ein 3D Formobjekt (Schenkel), von dem wir eine Zeichnung erstellen wollen. Deshalb wird eine \"Seite\" erstellt. Eine Seite wird aus einer Vorlage realisiert, z. B. aus der Vorlage \"A3_Landscape\". Die Vorlage ist ein [SVG](SVG/de.md) Dokument, das einen Seitenrahmen, ein Logo und andere Elemente enthalten kann.
 
 In diese Seite können wir eine oder mehrere Ansichten einfügen. Jede Ansicht hat eine Position auf der Seite, einen Skalierungsfaktor und zusätzliche Eigenschaften. Jedes Mal, wenn sich die Seite oder die Ansicht oder das referenzierte Objekt ändert, wird die Seite regeneriert und die Seitenanzeige aktualisiert.
 

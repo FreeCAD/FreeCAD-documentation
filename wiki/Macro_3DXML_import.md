@@ -32,7 +32,7 @@ v0.1 2021-10-03    * first release
 
 ## Code
 
- **Macro\_3DXML\_import.FCMacro**
+ **Macro_3DXML_import.FCMacro**
 
 
 {{MacroCode|code=
@@ -217,7 +217,7 @@ print('... completed import')
 # end
 }}
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

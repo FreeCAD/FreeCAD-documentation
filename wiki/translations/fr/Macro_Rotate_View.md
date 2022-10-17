@@ -18,13 +18,13 @@ Cette macro fait pivoter l\'affichage actuel de 90 ° vers la gauche.
 
 ## Limitations
 
-Ne fonctionne que si vous êtes en vue de dessus   * ![Std\_ViewTop\|16px\|link=Std\_ViewTop](images/View-top.svg ) [XY (top)](Std_ViewTop/fr.md)
+Ne fonctionne que si vous êtes en vue de dessus   * ![Std_ViewTop\|16px\|link=Std_ViewTop](images/View-top.svg ) [XY (top)](Std_ViewTop/fr.md)
 
 ## Script
 
 ToolBar Icon ![](images/Macro_Rotate_View_view_90_Degrees.png )
 
-**Macro\_Rotate\_View\_90\_Degrees.FCMacro**
+**Macro_Rotate_View_90_Degrees.FCMacro**
 
 
 {{MacroCode|code=

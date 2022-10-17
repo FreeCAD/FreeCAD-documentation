@@ -71,15 +71,15 @@ Les fixations peuvent être attachées ou non attachées. Les fixations attaché
 
 ## Commandes
 
--   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Invert fastener](Fasteners_Flip/fr.md)    * inverse l\'orientation des fixations sélectionnées.
+-   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Invert fastener](Fasteners_Flip/fr.md)    * inverse l\'orientation des fixations attachées.
 
 -   <img alt="" src=images/Fasteners_Move.svg  style="width   *32px;"> [Move fastener](Fasteners_Move/fr.md)    * déplace et fixe une fixation sur un bord circulaire. Peut également être utilisé pour détacher une fixation.
 
--   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Simplify shape](Fasteners_Shape/fr.md)    * crée des copies non paramétriques des fixations sélectionnées.
+-   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Simplify shape](Fasteners_Shape/fr.md)    * crée des copies non paramétriques des fixations.
 
--   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *32px;"> [Match screws by inner thread diameter (Tap hole)](Fasteners_MatchTypeInner/fr.md)    * considére les bords circulaires comme des trous à fileter lorsque de nouvelles fixations y sont attachées.
+-   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *32px;"> [Match for tap hole](Fasteners_MatchTypeInner/fr.md)    * prend les bords circulaires comme des trous à fileter lorsque de nouvelles fixations y sont attachées.
 
--   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   *32px;"> [Match screws by outer thread diameter (Pass hole)](Fasteners_MatchTypeOuter/fr.md)    * considére les bords circulaires comme des trous de passage lorsque de nouvelles fixations y sont attachées.
+-   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   *32px;"> [Match for pass hole](Fasteners_MatchTypeOuter/fr.md)    * prend les bords circulaires comme des trous de passage lorsque de nouvelles fixations y sont attachées.
 
 -   <img alt="" src=images/Fasteners_BOM.svg  style="width   *32px;"> [Generate BOM](Fasteners_BOM/fr.md)    * crée une feuille de calcul avec une nomenclature pour les fixations du document.
 
@@ -87,7 +87,7 @@ Les fixations peuvent être attachées ou non attachées. Les fixations attaché
 
 -   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width   *32px;"> [Make countersunk](Fasteners_ChamferHole/fr.md)    * chanfreine les trous pour les vis à tête fraisée.
 
--   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Change fastener parameters](Fasteners_ChangeParameters/fr.md)    * change les paramètres des fixations sélectionnées.
+-   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Change fastener parameters](Fasteners_ChangeParameters/fr.md)    * change les paramètres des fixations.
 
 ## Fixations
 
@@ -119,7 +119,7 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_EN1665.svg  style="width   *32px;"> **EN 1665** Boulon à tête hexagonale avec embase, série large.
 
--   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Hexagon head wood screw.
+-   <img alt="" src=images/Fasteners_DIN571.svg  style="width   *32px;"> **DIN 571** Tirefond vis à bois à tête hexagonale.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width   *32px;"> **ASME B18.2.1.6** Vis à tête hexagonale UNC.
 
@@ -150,6 +150,8 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_ISO4029.svg  style="width   *32px;"> **ISO 4029** Vis sans tête à six pans creux à bout cuvette.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.1A.svg  style="width   *32px;"> **ASME B18.3.1A** Vis à tête cylindrique à six pans creux UNC.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.3.1G.svg  style="width   *32px;"> **ASME B18.3.1G** Vis à tête cylindrique à six pans creux UNC à tête basse.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.2.svg  style="width   *32px;"> **ASME B18.3.2** Vis à tête fraisée à six pans creux UNC.
 
@@ -223,9 +225,9 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width   *32px;"> **EN 1661** Écrou hexagonal avec embase.
 
--   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Cap nut, low form.
+-   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Écrou borgne, forme basse.
 
--   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Cap nut.
+-   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Écrou borgne.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Écrou carré.
 
@@ -245,11 +247,11 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> **ISO 7090** Rondelle plate chanfreinée, série normale. *Grade de produit A*.
 
--   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Rondelle plate, série étroite.
+-   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Rondelle plate, série étroite. *Produit de qualité A*.
 
 -   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> **ISO 7093-1** Rondelle plate, série large. *Grade du produit A*.
 
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Rondelle plate, série très large.
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Rondelle plate, série très large. *Produit de qualité C*.
 
 -   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Rondelles cuvette décolletées.
 

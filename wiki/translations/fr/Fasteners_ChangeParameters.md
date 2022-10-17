@@ -12,13 +12,13 @@
 
 ## Description
 
-La commande <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *24px;"> **Fasteners ChangeParameters** peut être utilisée pour modifier les paramètres des fixations sélectionnées.
+La commande <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *24px;"> **Fasteners ChangeParameters** peut être utilisée pour modifier les paramètres des fixations.
 
 ## Utilisation
 
 1.  Sélectionnez une ou plusieurs fixations. Si plusieurs fixations sont sélectionnées, elles doivent être soit uniquement des vis, soit uniquement des rondelles, soit uniquement des écrous.
 2.  Il existe plusieurs façons de lancer la commande    *
-    -   Appuyez sur le **<img src="images/Fasteners_ChangeParameters.svg" width=16px> [Fasteners ChangeParameters](Fasteners_ChangeParameters/fr.md)**.
+    -   Appuyez sur le **<img src="images/Fasteners_ChangeParameters.svg" width=16px> [Change fastener parameters](Fasteners_ChangeParameters/fr.md)**.
     -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_ChangeParameters.svg" width=16px> Change fastener parameters** dans le menu.
 3.  Le panneau de tâches **Change fastener parameters** s\'ouvre.
 4.  Vous pouvez changer le **Fastener type**.

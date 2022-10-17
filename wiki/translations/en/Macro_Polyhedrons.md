@@ -13,12 +13,12 @@
 
 ## Description
 
-This macro creates parametric polyhedrons   * tetrahedron, hexahedron, octahedron, dodecahedron, icosahedron, icosahedron\_truncated, and geodesic spheres at several levels
+This macro creates parametric polyhedrons   * tetrahedron, hexahedron, octahedron, dodecahedron, icosahedron, icosahedron_truncated, and geodesic spheres at several levels
 
 ## Notes
 
 -   If you\'re also interested in pyramids, then you can use <img alt="" src=images/Pyramidicon.svg  style="width   *24px;"> [Pyramid macro](Macro_Pyramid.md).
--   You can also make use of the the external workbench [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github link) that contains the same functions.
+-   You can also make use of the the external workbench [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github link) that contains the same functions.
 
 ![](images/Polyhedrons.png )
 
@@ -38,7 +38,7 @@ This macro creates parametric polyhedrons   * tetrahedron, hexahedron, octahedro
 
 Note   * You can always adjust the radius or the size, just like with normal parts.
 
--   More info at [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+-   More info at [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
 
 ## Related
 

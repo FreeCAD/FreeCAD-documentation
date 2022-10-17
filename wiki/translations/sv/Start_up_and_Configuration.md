@@ -236,7 +236,7 @@ En del bibliotek behöver anropa systemmiljövariabler. ibland när det är ett 
 
 -   PYTHONPATH
 -   PYTHONHOME
--   TCL\_LIBRARY
+-   TCL_LIBRARY
 -   TCLLIBPATH
 
 
@@ -247,18 +247,18 @@ En del bibliotek behöver anropa systemmiljövariabler. ibland när det är ett 
 
 </div>
 
--   CSF\_MDTVFontDirectory
--   CSF\_MDTVTexturesDirectory
--   CSF\_UnitsDefinition
--   CSF\_UnitsLexicon
--   CSF\_StandardDefaults
--   CSF\_PluginDefaults
--   CSF\_LANGUAGE
--   CSF\_SHMessage
--   CSF\_XCAFDefaults
--   CSF\_GraphicShr
--   CSF\_IGESDefaults
--   CSF\_STEPDefaults
+-   CSF_MDTVFontDirectory
+-   CSF_MDTVTexturesDirectory
+-   CSF_UnitsDefinition
+-   CSF_UnitsLexicon
+-   CSF_StandardDefaults
+-   CSF_PluginDefaults
+-   CSF_LANGUAGE
+-   CSF_SHMessage
+-   CSF_XCAFDefaults
+-   CSF_GraphicShr
+-   CSF_IGESDefaults
+-   CSF_STEPDefaults
 
 
 <div class="mw-translate-fuzzy">
@@ -321,10 +321,10 @@ Note   * For Linux distributions, an additional configuration file that relates 
 
 <div class="mw-translate-fuzzy">
 
-  Konfig. var. namn   Förklaring                                                                                                           Exempel M\$                    Exempel Posix (Linux)
+  Konfig. var. namn   Förklaring                                                                                                           Exempel M\$                   Exempel Posix (Linux)
      
-  AppHomePath         Sökväg där FreeCAD är installerat                                                                                    c   */Progam Files/FreeCAD\_0.7   /user/local/FreeCAD\_0.7
-  PythonSearchPath    Innehåller en lista på sökvägar där python söker efter moduler. Detta är vid uppstart och kan ändras under körning                                  
+  AppHomePath         Sökväg där FreeCAD är installerat                                                                                    c   */Progam Files/FreeCAD_0.7   /user/local/FreeCAD_0.7
+  PythonSearchPath    Innehåller en lista på sökvägar där python söker efter moduler. Detta är vid uppstart och kan ändras under körning                                 
 
      * Användarkonfiguration
 
@@ -381,7 +381,7 @@ Dessa konfigurationspunkter är relaterade till FreeCADs märkningsmekanism. Se 
   ConsoleBanner       Den banner som visas i konsolläge                                                        
   SplashPicture       Namn på den ikon som används till uppstartsskärmen                                       \"FreeCADSplasher\"
   SplashAlignment     Textjustering i uppstartsdialogen                                                        \"Bottom\|Left\"
-  SplashTextColor     Textfärg i uppstartsfönstret                                                             \"\#000000\"
+  SplashTextColor     Textfärg i uppstartsfönstret                                                             \"#000000\"
   StartWorkbench      Namn på den arbetsbänk som ska startas automatiskt efter uppstart                        \"Part design\"
   HiddenDockWindow    Lista på dockningsfönster (separerade av semikolon) som kommer att inaktiveras           \"Property editor\"
 

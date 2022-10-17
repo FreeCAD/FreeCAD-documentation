@@ -26,7 +26,7 @@ L\'option d\'exportation au format PDF est disponible dans le menu **Fichier →
 
 
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

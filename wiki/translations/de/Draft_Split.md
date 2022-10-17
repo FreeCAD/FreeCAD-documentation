@@ -17,13 +17,13 @@ Der <img alt="" src=images/Draft_Split.svg  style="width   *24px;"> **Entwurf Te
 
 ## Anwendung
 
-\#\* Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+#\* Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
 
-\#\* Drücke die **<img src="images/Draft_Split.svg" width=16px> [Entwurf teilen](Draft_Split/de.md)**.
+#\* Drücke die **<img src="images/Draft_Split.svg" width=16px> [Entwurf teilen](Draft_Split/de.md)**.
 
-\#\* Wähle die Option **Änderung → <img src="images/Draft_Split.svg" width=16px> Teilen** aus dem Menü.
+#\* Wähle die Option **Änderung → <img src="images/Draft_Split.svg" width=16px> Teilen** aus dem Menü.
 
-\#\* Verwende die Tastaturkürzel   * **S** und dann **P**.
+#\* Verwende die Tastaturkürzel   * **S** und dann **P**.
 
 1.  Bewege den Mauszeiger über die richtige Kante einer [Entwurf Linie](Draft_Line/de.md) oder eines [Entwurf Draht](Draft_Wire/de.md).
 2.  Die Kante wird markiert.

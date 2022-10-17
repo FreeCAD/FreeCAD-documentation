@@ -33,7 +33,7 @@ Bonne description
 
 Évitez de dupliquer les mêmes informations à différents endroits. Insérez les informations dans une nouvelle page et créez un lien vers cette page à partir d\'autres pages qui nécessitent ces informations.
 
-N\'utilisez pas la transclusion de pages ([Help   *Editing\#Templates and transcluding pages](Help   *Editing#Templates_and_transcluding_pages.md)) car cela rend le wiki difficile à traduire. Utilisez uniquement les modèles décrits ci-dessous dans [Modèles](#Mod.C3.A8les.md).
+N\'utilisez pas la transclusion de pages ([Help   *Editing#Templates and transcluding pages](Help   *Editing#Templates_and_transcluding_pages.md)) car cela rend le wiki difficile à traduire. Utilisez uniquement les modèles décrits ci-dessous dans [Modèles](#Mod.C3.A8les.md).
 
 ### Style
 
@@ -126,7 +126,7 @@ Pour créer un lien vers le haut de la page, vous pouvez utiliser   *
 Ce modèle doit automatiquement afficher le texte correct en fonction de la langue de la page. Un lien vers le haut de la page est particulièrement utile pour les pages longues, car il permet à l\'utilisateur de revenir rapidement à la table des matières. Vous pouvez le placer à la fin de chaque paragraphe. Assurez-vous qu\'il y a une ligne vide avant et après le modèle.
 
 Lien image
-   *   <img alt="Texte facultatif qui s\'affiche lorsque vous survolez l\'image\|link=Draft\_Wire" src=images/Draft_Wire.svg  style="width   *24px;">.
+   *   <img alt="Texte facultatif qui s\'affiche lorsque vous survolez l\'image\|link=Draft_Wire" src=images/Draft_Wire.svg  style="width   *24px;">.
 
 Pour utiliser une image comme lien    *
 
@@ -174,7 +174,7 @@ Pour des exemples, consultez la page [Tutoriels](Tutorials/fr.md).
 
 <div class="mw-collapsible-content">
 
-Le style des pages du wiki FreeCAD est réalisé grâce à l\'utilisation de modèles ([Help   *Editing\#Templates\_and\_transcluding\_pages](Help   *Editing#Templates_and_transcluding_pages.md)). Ils garantissent une apparence standardisée pour toutes les pages et permettent également de modifier le style du wiki. Vous pouvez voir la liste complète des modèles définis en accédant à [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md). Mais veuillez n\'utiliser que les modèles figurant dans les tableaux ci-dessous. Vous ne devez utiliser directement les balises HTML que dans des cas très particuliers.
+Le style des pages du wiki FreeCAD est réalisé grâce à l\'utilisation de modèles ([Help   *Editing#Templates_and_transcluding_pages](Help   *Editing#Templates_and_transcluding_pages.md)). Ils garantissent une apparence standardisée pour toutes les pages et permettent également de modifier le style du wiki. Vous pouvez voir la liste complète des modèles définis en accédant à [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md). Mais veuillez n\'utiliser que les modèles figurant dans les tableaux ci-dessous. Vous ne devez utiliser directement les balises HTML que dans des cas très particuliers.
 
 Cliquez sur le lien du modèle pour voir les instructions d\'utilisation d\'un modèle et voir son implémentation. Les modèles sont une fonctionnalité puissante du logiciel MediaWiki. Vous devez être un utilisateur expérimenté de wiki si vous souhaitez proposer des ajouts et des modifications aux modèles existants. S\'ils ne sont pas correctement mis en œuvre, les modèles rendent difficile la traduction des pages dans d\'autres langues. Leur utilisation doit donc être limitée au formatage du texte et la transclusion des pages doit être évitée. Voir [MediaWiki Help   *Templates](https   *//www.mediawiki.org/wiki/Help   *Templates) pour en savoir plus.
 
@@ -492,8 +492,8 @@ Avant de créer une nouvelle page, vous devez d\'abord vérifier si une page sim
 
 Pour créer une nouvelle page, effectuez l\'une des opérations suivantes    *
 
--   Visitez l\'URL avec le nom de page souhaité, par exemple    * https   *//wiki.freecadweb.org/My_new_page et cliquez sur \'créer cette page\'.
--   Faites une recherche wiki sur le nom de la page et cliquez sur le texte rouge dans \'Créer la page \"Ma nouvelle page\" sur ce wiki!\'.
+-   Visitez l\'URL avec le nom de page souhaité, par exemple    * https   *//wiki.freecadweb.org/My_New_Page et cliquez sur \"créer cette page\".
+-   Faites une recherche wiki sur le nom de la page et cliquez sur le texte rouge dans \"Créer la page \"Ma nouvelle page\" sur ce wiki!\".
 
 ### Renommer les pages 
 

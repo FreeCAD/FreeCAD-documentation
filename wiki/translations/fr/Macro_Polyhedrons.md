@@ -19,7 +19,7 @@ Cette macro crée des polyèdres paramétriques   * tétraèdre, hexaèdre, octa
 ## Remarques
 
 -   Si vous êtes également intéressé par les pyramides, vous pouvez utiliser <img alt="" src=images/Pyramidicon.svg  style="width   *24px;"> [Pyramid macro](Macro_Pyramid/fr.md).
--   Vous pouvez également utiliser le plan de travail externe [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (lien github) qui contient les mêmes fonctions.
+-   Vous pouvez également utiliser le plan de travail externe [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (lien github) qui contient les mêmes fonctions.
 
 ![](images/Polyhedrons.png )
 
@@ -39,7 +39,7 @@ Cette macro crée des polyèdres paramétriques   * tétraèdre, hexaèdre, octa
 
 Remarque   * Vous pouvez toujours ajuster le rayon ou la taille, comme avec les pièces normales.
 
--   Plus d\'informations sur [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+-   Plus d\'informations sur [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
 
 ## En relation 
 

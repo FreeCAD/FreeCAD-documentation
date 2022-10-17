@@ -28,7 +28,7 @@ Questa pagina contiene alcuni link ad altre risorse FLOSS che possono essere uti
 -   [Slackware](http   *//slackbuilds.org/repository/13.1/graphics/FreeCAD/) Slackware package info
 -   [Gentoo](http   *//gpo.zugaina.org/media-gfx/freecad) Gentoo package info
 -   [OpenSuse/Fedora](http   *//packman.links2linux.org/package/FreeCAD) Packman package info
--   [Freenode](irc   *//chat.freenode.net/#freecad) The official \#freecad IRC channel on Freenode
+-   [Freenode](irc   *//chat.freenode.net/#freecad) The official #freecad IRC channel on Freenode
 -   [Facebook](http   *//www.facebook.com/FreeCAD) The official FreeCAD facebook page
 -   [Pardus Linux build script](https   *//svn.pardus.org.tr/pardus/playground/kaan.aksit/2011/freecad/actions.py)
 

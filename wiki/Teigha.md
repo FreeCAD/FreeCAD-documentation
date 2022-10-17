@@ -1,5 +1,5 @@
 # Teigha
-1.  REDIRECT [FreeCAD\_and\_DWG\_Import](FreeCAD_and_DWG_Import.md)
+1.  REDIRECT [FreeCAD_and_DWG_Import](FreeCAD_and_DWG_Import.md)
 
 
 

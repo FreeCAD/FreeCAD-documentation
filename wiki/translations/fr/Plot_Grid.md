@@ -28,7 +28,7 @@ Cet outil agit sur le jeu d\'axes actif. Dans le cas de tracés multi-axes, vous
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

@@ -30,7 +30,7 @@ Questo strumento permette di creare delle forme creando
     2.  Selezionare se la faccia deve essere planare
     3.  Cliccare su ** Crea**
     4.  L\'oggetto viene creato nella vista 3D ed elencato nella vista ad albero
-3.  Polilinea da bordi {{Version/it|0.18}}\#\#Selezionare un set di bordi adiacenti nella vista 3D
+3.  Polilinea da bordi {{Version/it|0.18}}##Selezionare un set di bordi adiacenti nella vista 3D
     1.  Cliccare su ** Crea**
 4.  Faccia da spigoli
     1.  Selezionare nella vista 3D un insieme chiuso di spigoli che delimitano la faccia

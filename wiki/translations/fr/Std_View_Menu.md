@@ -55,21 +55,23 @@ Les outils suivants sont disponibles dans ce menu   *
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width   *32px;"> [Vue de gauche](Std_ViewLeft/fr.md)   * bascule vers la vue de gauche.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width   *32px;"> [Rotation à gauche](Std_ViewRotateLeft/fr.md)   * fait pivoter la vue vers la gauche.
     -   <img alt="" src=images/Std_RotateRight.png  style="width   *32px;"> [Rotation à droite](Std_ViewRotateRight/fr.md)   * fait pivoter la vue vers la droite.
+    -   [Stocker la vue de travail](Std_StoreWorkingView/fr.md)    * stocke les paramètres de la caméra de la vue 3D active dans sa vue de travail. {{Version/fr|1.0}}
+    -   [Rappel de la vue de travail](Std_RecallWorkingView/fr.md)    * rappelle la vue de travail stockée de la vue 3D active. {{Version/fr|1.0}}
 
 -   [Figer Affichage](Std_FreezeViews/fr.md)
-    -   [Enregistrer vues\...](Std_FreezeViews#Save_views.../fr.md)   * enregistre les vues figées dans un fichier.
-    -   [Charger vues\...](Std_FreezeViews#Load_views.../fr.md)   * charge les vues figées à partir d\'un fichier.
-    -   [Figer la vue](Std_FreezeViews#Freeze_view/fr.md)   * stocke la vue actuelle dans une vue figée.
-    -   [Effacer vues](Std_FreezeViews#Clear_views/fr.md)   * supprime toutes les vues figées.
+    -   [Enregistrer les vues](Std_FreezeViews/fr#Enregistrer_les_vues.md)    * enregistre les vues figées dans un fichier.
+    -   [Charger les vues\...](Std_FreezeViews/fr#Charger_les_vues.md)    * charge les vues figées à partir d\'un fichier.
+    -   [Figer l\'affichage](Std_FreezeViews/fr#Figer_l.27affichage.md)    * stocke la vue en cours dans une vue figée.
+    -   [Effacer les vues](Std_FreezeViews/fr#Effacer_les_vues.md)    * supprime toutes les vues figées.
 
 -   [Style de représentation](Std_DrawStyle/fr.md)
-    -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width   *32px;"> [Comme actuellement](Std_DrawStyle#As_is/fr.md)   * bascule le style de dessin sur   * Comme actuellement.
-    -   <img alt="" src=images/Std_DrawStylePoints.svg  style="width   *32px;"> [Points](Std_DrawStyle#Points/fr.md)   * bascule le style de dessin sur   * Points.
-    -   <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *32px;"> [Filaire](Std_DrawStyle#Wireframe/fr.md)   * bascule le style de dessin sur   * Filaire.
-    -   <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width   *32px;"> [Ligne cachée](Std_DrawStyle#Hidden_line/fr.md)   * bascule le style de dessin sur   * Ligne cachée.
-    -   <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width   *32px;"> [Pas d\'ombrage](Std_DrawStyle#No_shading/fr.md)   * bascule le style de dessin sur   * Pas d\'ombrage.
-    -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width   *32px;"> [Ombrée](Std_DrawStyle#Shaded/fr.md)   * bascule le style de dessin sur   * Ombrée.
-    -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width   *32px;"> [Filaire ombré](Std_DrawStyle#Flat_lines/fr.md)   * bascule le style de dessin sur   * Filaire ombré.
+    -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width   *32px;"> [Comme actuellement](Std_DrawStyle#As_is/fr.md)    * bascule le style de dessin sur   * Comme actuellement.
+    -   <img alt="" src=images/Std_DrawStylePoints.svg  style="width   *32px;"> [Points](Std_DrawStyle#Points/fr.md)    * bascule le style de dessin sur   * Points.
+    -   <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width   *32px;"> [Filaire](Std_DrawStyle#Wireframe/fr.md)    * bascule le style de dessin sur   * Filaire.
+    -   <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width   *32px;"> [Ligne cachée](Std_DrawStyle#Hidden_line/fr.md)    * bascule le style de dessin sur   * Ligne cachée.
+    -   <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width   *32px;"> [Pas d\'ombrage](Std_DrawStyle#No_shading/fr.md)    * bascule le style de dessin sur   * Pas d\'ombrage.
+    -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width   *32px;"> [Ombrée](Std_DrawStyle#Shaded/fr.md)    * bascule le style de dessin sur   * Ombrée.
+    -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width   *32px;"> [Filaire ombré](Std_DrawStyle#Flat_lines/fr.md)    * bascule le style de dessin sur   * Filaire ombré.
 
 -   <img alt="" src=images/Std_SelBoundingBox.svg  style="width   *32px;"> [Boîte englobante](Std_SelBoundingBox/fr.md)   * bascule le mode de surbrillance du cadre de sélection. {{Version/fr|0.19}}
 

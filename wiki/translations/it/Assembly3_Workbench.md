@@ -60,7 +60,7 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
            *   Può essere non selezionato quando si riparano vincoli o si fissano parti in cui il solutore dà un messaggio *non convergente* (ad esempio ruotando la parte di 180deg)
     -   Smart-Recompute. Di solito è abilitato.
-    -   Element Auto Fixing. Caratteristica sperimentale in 0.19\_pre
+    -   Element Auto Fixing. Caratteristica sperimentale in 0.19_pre
     -   Element Style. Questo ha due impostazioni
         -   Auto visibilità dell\' elemento.
         -   Mostra il sistema di coordinate dell\'elemento
@@ -129,7 +129,7 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
    ** <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width   *32px;"> [Smart recompute](Assembly3_SmartRecompute.md)   * Smart recompute. Usually enabled.
 
-   ** <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width   *32px;"> [Auto fix element](Assembly3_AutoFixElement.md)   * Element Auto Fixing. Experimental feature in 0.19\_pre
+   ** <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width   *32px;"> [Auto fix element](Assembly3_AutoFixElement.md)   * Element Auto Fixing. Experimental feature in 0.19_pre
 
    ** Element Style. This has two settings
 
@@ -174,7 +174,7 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 </div>
 
 
-   *   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *28px;">
+   *   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width   *14px;"><img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -201,9 +201,15 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
    **   * The faces are coincided at their centers with an optional distance.
 
-   ** <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *32px;"> [Attachment](Assembly3_ConstraintAttachment.md)   * Add an \"Attachment\" constraint to attach two parts by the selected geometry elements.
+   ** Attachment. This has two settings
 
-   **   * This constraint completely fixes the parts relative to each other.
+   **\* <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *32px;"> [Attachment](Assembly3_ConstraintAttachment.md)   * Add an \"Attachment\" constraint to attach two parts with the selected geometry elements.
+
+   **\*   * This constraint completely fixes the parts relative to each other.
+
+   **\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg‎‎  style="width   *32px;"> [AttachmentOffset](Assembly3_ConstraintAttachmentOffset.md)   * Same as \"Attachment\" constraint, but maintaining the current relative placement of the involved parts by applying an element offset.
+
+   **\*   * This constraint completely fixes the parts relative to each other.
 
    ** <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *32px;"> [Axial Alignment](Assembly3_ConstraintAxial.md)   * Add an \"Axial alignment\" constraint to align edges/faces of two or more parts.
 
@@ -565,7 +571,7 @@ Il [Assembly3 Workbench](Assembly3_Workbench.md) è in fase di sviluppo e non è
 
 Si può provare in due modi   *
 
--   Uno speciale fork di FreeCAD realizzata da realthunder; vedi [FreeCAD\_assembly3 releases](https   *//github.com/realthunder/FreeCAD_assembly3/releases). Questo fork si basa su un particolare commit del ramo master di FreeCAD, ma ha anche caratteristiche aggiuntive attualmente non presenti nel ramo master. Dato che questo fork è basato su un particolare snapshot di sviluppo, non ha le ultime caratteristiche unite quotidianamente al ramo master.
+-   Uno speciale fork di FreeCAD realizzata da realthunder; vedi [FreeCAD_assembly3 releases](https   *//github.com/realthunder/FreeCAD_assembly3/releases). Questo fork si basa su un particolare commit del ramo master di FreeCAD, ma ha anche caratteristiche aggiuntive attualmente non presenti nel ramo master. Dato che questo fork è basato su un particolare snapshot di sviluppo, non ha le ultime caratteristiche unite quotidianamente al ramo master.
 -   Lo sviluppo [AppImage](AppImage.md); questo si basa sul ramo master corrente, e include le dipendenze necessarie per lavorare con Assembly3 come il solutore SolveSpace.
 
 
@@ -587,8 +593,15 @@ Dato che l\'AppImage funziona solo per Linux, per gli utenti Windows al momento 
 
 Ci sono molti modi per creare un assemblaggio con Assembly3. Ecco il più semplice che si possa fare.
 
+
+<div class="mw-translate-fuzzy">
+
+
    *   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width   *600px;">
    *   *Risultato finale del primo esempio. Nell\'immagine è selezionato il banco di lavoro Assembly3 Worksbench, quindi sono visibili le sue barre degli strumenti multiple. Si noti che la \"TabBar\" verticale a sinistra della vista ad albero è un AddOn Workbench che non è contenuto nel FreeCAD standard (ma può essere installato con l\'Addon-Manager)*\'.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -781,7 +794,7 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 -   L\'utilizzo di assemblaggi gerarchici aiuta ad evitare problemi di risoluzione e a mantenere il modello fluido. È possibile congelare un sottoassieme con un clic e risparmiare facilmente le risorse della CPU (utilizzare il menu contestuale nell\'albero). Quando si carica un assemblaggio l\'assieme3 non ha bisogno di aprire file esterni per i sottoinsiemi congelati, il che mantiene l\'albero compatto.
 -   È molto utile per abituarsi a dare un nome agli elementi e ai vincoli. Usare il tasto **F2** per farlo rapidamente nella struttura ad albero. Troverete molto utili gli strumenti di ordinamento dell\'albero nella barra degli strumenti principale. Un insieme con i vincoli e con elementi con nome completo è più facilmente comprensibile per le altre persone o per voi stessi quando guardate un file vecchio.
 
-       *   Esempi di nomi di vincoli per una tabella potrebbero essere \"Align\_FrontLegs\", \"Align\_FrameBottom-LegTops\" e i nomi degli elementi potrebbero essere \"Leg1\_Top\" o \"TableTop\_Front\", \"TableTop\_Left\".
+       *   Esempi di nomi di vincoli per una tabella potrebbero essere \"Align_FrontLegs\", \"Align_FrameBottom-LegTops\" e i nomi degli elementi potrebbero essere \"Leg1_Top\" o \"TableTop_Front\", \"TableTop_Left\".
 -   Si noti che una volta aperti i file esterni da un assemblaggio non è possibile chiuderli nuovamente senza chiudere l\'assemblaggio. Poiché l\'assemblaggio tiene aperti i file in backgound, la scheda può scomparire, ma il file rimane visibile nell\'albero. Se si dispone di più sottoinsiemi, diventa quasi impossibile chiudere i singoli file. Questo approccio potrebbe cambiare, ma fino ad allora un possibile metodo potrebbe essere quello di utilizzare regolarmente i comandi *File/Salva tutto* e *File/Chiudi tutto* per ripulire la struttura ad albero prima di lavorare su un altro sottoinsieme.
 
        *   \'\'Esempio   * si consideri di avere una grande macchina CNC con un gruppo principale e un sottoinsieme per ogni modulo. Una volta aperto l\'assemblaggio principale, si possono aprire letteralmente centinaia di file fino a un singolo cuscinetto a sfere. Prima di lavorare sul sottoinsieme del quadro elettrico della macchina è una buona idea salvare e chiudere tutti i file per ottenere un albero vuoto. Poi aprire solo il sottoinsieme per il quadro elettrico. Questo aprirà tutti i file di cui ha bisogno, ma solo quelli.
@@ -799,7 +812,7 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 <div class="mw-translate-fuzzy">
 
 -   [App Link](App_Link/it.md) oggetto che fa funzionare Assembly3.
--   [FreeCAD\_assembly3](https   *//github.com/realthunder/FreeCAD_assembly3) archivio e documentazione.
+-   [FreeCAD_assembly3](https   *//github.com/realthunder/FreeCAD_assembly3) archivio e documentazione.
 -   [Assembly3 preview](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=25712), big discussion thread.
 -   [Test tutorial for Assembly 3 WB](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=29562) by jpg87.
 -   [Current Assembly Status](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=34583)

@@ -7,8 +7,8 @@
 |Version=00.01
 |Date=2016-09-14
 |FCVersion= <=0.17
-|Download=[https   *//www.freecadweb.org/wiki/images/8/84/Macro_Copy3DViewToClipboard.png ToolBar Icon]
-|Shortcut=G Q
+|Download=[https   *//www.freecadweb.org/wiki/images/8/84/Macro_Copy3DViewToClipboard.png Icône de la barre d'outils]
+|Shortcut=G, Q
 |SeeAlso=[Macro Snip](Macro_Snip/fr.md) <img src="images/Snip.png" width=24px><br/>[Macro Screen Wiki](Macro_Screen_Wiki/fr.md) <img src="images/Macro_Screen_Wiki.png" width=24px>
 }}
 
@@ -21,11 +21,11 @@ Cette macro copie le contenu de la vue 3D redimensionnée en 640 x 480 pixels da
 
 ## Utilisation
 
--   Lancez la macro.
--   Pressez la touche **G** pour copier le contenu de la vue 3D.
--   Pressez la touche **Q** pour quitter la macro.
+-   Lancer une fois pour activer la macro (la macro est chargée de manière résidente dans la mémoire du PC).
+-   Appuyez sur **G** pour saisir le contenu de la vue 3D et le copier dans le presse-papiers.
+-   Appuyez sur **Q** pour quitter.
 
-PS   * Si vous voulez définir une autre résolution d\'image, modifiez les valeurs de la ligne numéro 33 ex   *
+PS    * si vous voulez d\'autres formats, modifiez les valeurs du numéro de ligne 33 ex    *
 
 line 33    * ***glw.resize(640, 480) \# reduce the SubWindow***
 
@@ -41,7 +41,7 @@ La discussion sur le forum [Copy contents of 3D view to clipboard](http   *//for
 
 L\'icône pour votre barre d\'outil ![](images/Macro_Copy3DViewToClipboard.png )
 
-**Macro\_Copy3DViewToClipboard.FCMacro**
+**Macro_Copy3DViewToClipboard.FCMacro**
 
 
 {{MacroCode|code=

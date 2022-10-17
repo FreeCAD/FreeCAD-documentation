@@ -101,7 +101,7 @@ El usuario más experimentado obtiene primero una visión general de los posible
 
 <div class="mw-translate-fuzzy">
 
-Para, por ejemplo, ordenadores de sobremesa, portátiles y servidores de 64 bits de Intel o AMD, la versión (x86\_64) es la que hay que seleccionar. Por lo tanto, **libredwg0** y **libredwg-tools**\' son la opción correcta para instalar.
+Para, por ejemplo, ordenadores de sobremesa, portátiles y servidores de 64 bits de Intel o AMD, la versión (x86_64) es la que hay que seleccionar. Por lo tanto, **libredwg0** y **libredwg-tools**\' son la opción correcta para instalar.
 
 
 </div>
@@ -221,7 +221,7 @@ En la versión de desarrollo, como se mencionó anteriormente, se puede cambiar 
 
  
 
-[Category   *File\_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
+[Category   *File_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
 
 
 

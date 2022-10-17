@@ -49,7 +49,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Rebar Length Type**   * Rebar Length Type specifies the type of rebar length used for BOM calculations i.e. \"RealLength\" or \"LengthWithSharpEdges\".
 
--    **Column Headers**   * A dictionary with column\_data as key and tuple (column\_display\_header, column\_sequence) as value.
+-    **Column Headers**   * A dictionary with column_data as key and tuple (column_display_header, column_sequence) as value.
 
 -    **Column Units**   * A dictionary with keys   * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and their corresponding units as value.
 
@@ -142,7 +142,7 @@ getBarBendingSchedule(
 
 -    `rebar_objects`is a list of \<ArchRebar.\_Rebar\> or \<rebar2.BaseRebar\> objects, to generate their bar bending schedule. If not provided, then all ArchRebars and rebar2.BaseRebar objects with unique Mark from ActiveDocument will be selected.
 
--    `column_headers`is a dictionary with keys   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and values are tuple of column\_header and their sequence number.
+-    `column_headers`is a dictionary with keys   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" and values are tuple of column_header and their sequence number.
 
    Example   * {
                 "Host"   * ("Member", 1),
@@ -186,11 +186,11 @@ getBarBendingSchedule(
 
 -    `rebar_shape_column_header`specifies the column header for the rebar shape column.
 
--    `rebar_shape_view_directions`is a list of viewpoint directions for each rebar shape. It can be either of type `FreeCAD.Vector` or `WorkingPlane.Plane` OR their list. Keep it `FreeCAD.Vector(0, 0, 0)` to automatically choose view\_directions.
+-    `rebar_shape_view_directions`is a list of viewpoint directions for each rebar shape. It can be either of type `FreeCAD.Vector` or `WorkingPlane.Plane` OR their list. Keep it `FreeCAD.Vector(0, 0, 0)` to automatically choose view_directions.
 
 -    `rebar_shape_stirrup_extended_edge_offset`specifies the offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
 
--    `rebar_shape_color_style`specifies the color style of rebars. It can be \"shape color\" or \"color\_name or hex\_value\_of\_color\". \"shape color\" means to select the color of rebar shape.
+-    `rebar_shape_color_style`specifies the color style of rebars. It can be \"shape color\" or \"color_name or hex_value_of_color\". \"shape color\" means to select the color of rebar shape.
 
 -    `rebar_shape_stroke_width`specifies the stroke-width of rebars in rebar shape SVG.
 

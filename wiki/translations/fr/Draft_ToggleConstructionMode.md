@@ -17,17 +17,13 @@ La commande <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="widt
 <img alt="" src=images/Draft_construction_mode_example.jpg  style="width   *400px;"> 
 *Géométrie de construction, en bleu, utilisée pour déterminer le centre et le rayon d'un cercle*
 
-## Bug dans la version 0.19 
-
-Dans la version 0.19 de FreeCAD, cette commande et la commande [Draft Ajouter au groupe de construction](Draft_AddConstruction/fr.md) utilisent généralement des groupes différents. Pour éviter cela, changez **Construction group name** dans les préférences en {{Value|Draft_Construction}}    * **Edition → Préférences... → Draft → Paramètres généraux → Géométrie de construction → Nom du groupe de construction**. Dans la version 0.20, **Construction group name** est utilisé pour le libellé du groupe de construction, le nom du groupe est toujours {{Value|Draft_Construction}}.
-
 ## Utilisation
 
-1.  Il y a plusieurs façons d\'invoquer la commande    *
-    -   Appuyez sur le bouton **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Basculer en mode construction](Draft_ToggleConstructionMode/fr.md)** de [Draft La barre](Draft_Tray/fr.md). Ce bouton est enfoncé si le mode de construction Draft est activé.
+1.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur le bouton **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Basculer en mode construction](Draft_ToggleConstructionMode/fr.md)** de la [Draft Barre](Draft_Tray/fr.md). Ce bouton est activé si le mode de construction Draft est en cours.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Basculer en mode construction** dans le menu.
     -   Utilisez le raccourci clavier    * **C** puis **M**.
-2.  Le bouton de [Draft La barre](Draft_Tray/fr.md) est mis à jour.
+2.  Le bouton de la [Draft Barre](Draft_Tray/fr.md) est mis à jour.
 
 ## Remarques
 
@@ -35,7 +31,7 @@ Dans la version 0.19 de FreeCAD, cette commande et la commande [Draft Ajouter au
 
 ## Préférences
 
--   Pour modifier l\'étiquette ({{Version/fr|0.20}}) du groupe de construction    * **Edition → Préférences... → Draft → Paramètres généraux → Géométrie de construction → Nom du groupe de construction**.
+-   Pour modifier le libellé du groupe de construction    * **Edition → Préférences... → Draft → Paramètres généraux → Géométrie de construction → Nom du groupe de construction**.
 -   Pour modifier la couleur utilisée    * **Edition → Préférences... → Draft → Paramètres généraux → Géométrie de construction → Couleur de la géométrie de construction**.
 
 

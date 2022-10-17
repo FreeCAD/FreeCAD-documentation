@@ -1,5 +1,5 @@
 # Mouse Model/pt-br
-1.  REDIRECT [Mouse\_navigation/pt-br](Mouse_navigation/pt-br.md)
+1.  REDIRECT [Mouse_navigation/pt-br](Mouse_navigation/pt-br.md)
 
 
 

@@ -448,7 +448,7 @@ Intenta de nuevo. Si tienes un nuevo error como
 error   * Python was built with Visual Studio version 8.0, and extensions need to be built with the same version of the compiler, but it isn't installed.
 ```
 
-entonces deberías comprobar las variables de entorno DISTUTILS\_USE\_SDK y MSSDK con
+entonces deberías comprobar las variables de entorno DISTUTILS_USE_SDK y MSSDK con
 
 
 ```python
@@ -514,7 +514,7 @@ También puedes echar un vistazo al archivo Draft.py en el directorio de FreeCAD
 
 ### Instalación 
 
-Pycollada no está normalmente disponible en los repositorios de las distribuciones de Linux, pero ya que está creado únicamente por archivos de Python, no es necesaria su compilación, y es sencillo de instalar. Tienes dos métodos, o directamente desde el repositorio ofician en Git de pycollada, o con la herramienta easy\_install.
+Pycollada no está normalmente disponible en los repositorios de las distribuciones de Linux, pero ya que está creado únicamente por archivos de Python, no es necesaria su compilación, y es sencillo de instalar. Tienes dos métodos, o directamente desde el repositorio ofician en Git de pycollada, o con la herramienta easy_install.
 
 #### Linux 
 
@@ -536,9 +536,9 @@ cd pycollada
 sudo python setup.py install
 ```
 
-##### Con easy\_install 
+##### Con easy_install 
 
-Asumiendo que ya tienes una instalación completa de Python, la utilidad easy\_install ya debería estar presente   *
+Asumiendo que ya tienes una instalación completa de Python, la utilidad easy_install ya debería estar presente   *
 
 
 ```python

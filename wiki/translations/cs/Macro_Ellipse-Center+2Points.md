@@ -31,7 +31,7 @@ Vytvoří elipsu výběrem 3 bodů (v tomto pořadí)   * střed, velký polomě
 
 ToolBar Icon ![](images/Macro_Ellipse-Center%2B2Points.png )
 
-**Macro\_EllipseCenter2Points.FCMacro**
+**Macro_EllipseCenter2Points.FCMacro**
 
 
 {{MacroCode|code=

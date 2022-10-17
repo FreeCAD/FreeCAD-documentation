@@ -29,7 +29,7 @@ This Macro creates a half turning Stair with the design of stairs.dat file left 
 
 ToolBar Icon <img alt="" src=images/Half_turn_stairs.png  style="width   *64px;">
 
-**Half\_turn\_stairs.FCMacro**
+**Half_turn_stairs.FCMacro**
 
 
 {{MacroCode|code=
@@ -301,7 +301,7 @@ Save this Data as file **stairs.dat** in your macro directory
 
 ## Links
 
--   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
+-   [Macro_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
 
 

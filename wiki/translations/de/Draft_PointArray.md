@@ -31,6 +31,10 @@ Beide Befehle können auf 2D Objekte angewendet werden, die mit dem [ Arbeitsber
 
 </div>
 
+The point object can be any object with a shape and vertices (including a [Std Part](Std_Part.md) containing one or more of such objects), as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md). Duplicate points in the point object are filtered out. <small>(v1.0)</small> 
+
+In {{VersionMinus|0.20}} only three point object types are supported see [Point object version 0.20 and below](#Point_object_version_0.20_and_below.md).
+
 <img alt="" src=images/Draft_PointArray_Example.png  style="width   *400px;"> 
 *Entwurf PunktAnordnung*
 
@@ -44,13 +48,19 @@ Beide Befehle können auf 2D Objekte angewendet werden, die mit dem [ Arbeitsber
 4.  Die Anordnung wird erzeugt.
 5.  Ändere optional die [Eigenschaften](#Eigenschaften.md) der Anordnung im [Eigenschaftseditor](Property_editor/de.md).
 
-## Punktverbund
+## Point object version 0.20 and below 
+
+
+<div class="mw-translate-fuzzy">
 
 Eine Punktverbindung ist ein Objekt, das einen oder mehrere Punkte enthält. Dies sind die unterstützten Punktverbindungen und wie sie erstellt werden können   *
 
 -   [Part Verbund](Part_Compound/de.md)   * Erzeugen einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), wähle diese aus und rufe den Befehl [Part Verbund](Part_Compound/de.md) auf.
 -   Zeichnungsblock   * Erzeuge einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), markiere diese und rufe den Befehl [Entwurf Heraufstufen](Draft_Upgrade/de.md) auf.
 -   [Skizzierer Skizze](Sketcher_NewSketch/de.md)   * Erstelle eine [Skizze](Sketcher_NewSketch/de.md) und füge der Skizze einen oder mehrere [Skizzierer Punkte](Sketcher_CreatePoint/de.md) hinzu.
+
+
+</div>
 
 ## Eigenschaften
 
@@ -110,7 +120,7 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 -    **Expand Array|Bool**   * specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
 
--    **Extra Placement|Placement**   *    * specifies an additional [placement](Placement.md), translation and rotation, for each element in the array. <small>(v0.19)</small> 
+-    **Extra Placement|Placement**   *    * specifies an additional [placement](Placement.md), translation and rotation, for each element in the array.
 
 -    **Point Object|Link**   * specifies the compound object whose points are used to position the elements in the array. The object must have a **Links**, **Components** or **Geometry** property, and contain at least one element with **X**, **Y**, and **Z** properties.
 

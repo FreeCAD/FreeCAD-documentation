@@ -45,7 +45,7 @@ Si tienes una versión a partir de la 0.15 puedes utilizar el paquete DXF de act
 
 **3    *** one dialog box open
 
-**4    *** copy the address of \"Macro destination\" (here **C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**) In Ubuntu, this is normally **/home/your\_user\_name/.FreeCAD**
+**4    *** copy the address of \"Macro destination\" (here **C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**) In Ubuntu, this is normally **/home/your_user_name/.FreeCAD**
 
 ![Open a dialog to let you execute a macro Recorded](images/Dxf_Importer_Install_02.png ) 
 
@@ -55,7 +55,7 @@ Si tienes una versión a partir de la 0.15 puedes utilizar el paquete DXF de act
 
 **6    *** leave open the explorer
 
-![](images/Dxf_Importer_Install_04.png ) 
+![](images/Dxf_Importer_Install_04.png) 
 
 **7    *** Close FreeCAD
 
@@ -99,7 +99,7 @@ Descargue los archivos
 
 **13    *** paste the files in the folder FreeCAD macros in the explorer open (step 6) (**C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**)
 
-In Ubuntu, this is normally **/home/your\_user\_name/.FreeCAD**
+In Ubuntu, this is normally **/home/your_user_name/.FreeCAD**
 
 ![paste the files in the folder](images/Dxf_Importer_Install_09.png ) 
 

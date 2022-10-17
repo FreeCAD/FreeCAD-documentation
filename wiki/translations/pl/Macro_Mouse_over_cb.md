@@ -23,7 +23,7 @@ Run the macro, the macro stay resident in memory.
 
 Toolbar icon ![](images/Macro_Mouse_over_cb.png )
 
-**Macro\_Mouse\_over\_cb.FCMacro**
+**Macro_Mouse_over_cb.FCMacro**
 
 
 {{MacroCode|code=
@@ -57,7 +57,7 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 
 The forum discussion [finding/selecting all elements below cursor](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=19072)
 
-Other similar macro [Selecting internal faces of a pressure vessel](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950) (download the file [FC\_element\_selector\_v1p1p1.py](https   *//forum.freecadweb.org/download/file.php?id=31041))
+Other similar macro [Selecting internal faces of a pressure vessel](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950) (download the file [FC_element_selector_v1p1p1.py](https   *//forum.freecadweb.org/download/file.php?id=31041))
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *FEM ElementRotation1D
    Name/fr   *FEM Rotation élément type poutre
-   MenuLocation   *Modèle → Géométrie de l'élement → Rotation d'élément de type poutre
+   MenuLocation   *Modèle → Géométrie de l'élement → Rotation de poutre
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
@@ -16,8 +16,8 @@
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande    *
-    -   Appuyez sur le bouton **<img src="images/FEM_ElementRotation1D.svg" width=16px> [Rotation d'élément de type poutre](FEM_ElementRotation1D/fr.md)**.
-    -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementRotation1D.svg" width=16px> Rotation d'élément de type poutre** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/FEM_ElementRotation1D.svg" width=16px> [Rotation de poutre](FEM_ElementRotation1D/fr.md)**.
+    -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementRotation1D.svg" width=16px> Rotation de poutre** dans le menu.
 2.  Spécifiez l\'angle selon lequel le profilé de la poutre doit être tourné.
 
 ## Options
@@ -30,7 +30,7 @@
 
 ## Remarques
 
--   Pour visualiser la section transversale tournée, il est nécessaire de définir `Beam Shell Result Output 3D` dans le [FEM Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) à `True` et exécuter l\'analyse.
+-   Pour visualiser la section transversale tournée, il est nécessaire de définir `Beam Shell Result Output 3D` dans le [FEM Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) sur `True` et de lancer l\'analyse.
 
 
 

@@ -20,4 +20,4 @@ SVG files are common and can be viewed in most modern browsers and image viewers
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/sv

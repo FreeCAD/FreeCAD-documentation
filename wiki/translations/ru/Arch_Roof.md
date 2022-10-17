@@ -53,7 +53,7 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 ## Опции
 
--   Roofs share the common properties and behaviors of all [Arch Components](Arch_Component.md)
+-   Крыши обладают таким же свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
 
 ## Свойства
 
@@ -110,15 +110,6 @@ roof1 = Arch.makeRoof(wire)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

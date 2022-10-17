@@ -75,7 +75,7 @@ En vous rappelant que les dimensions de l\'écran sont mesurées à partir du co
 -   la largeur de l\'écran en pixels (400)
 -   la hauteur de l\'écran en pixels (350)
 
-Le titre de la fenêtre est défini et la dernière ligne signifie simplement que cette fenêtre ne sera jamais obscurcie par une autre fenêtre - si cela n\'est pas souhaité, placez simplement un caractère de commentaire Python (\'\#\') comme premier caractère de la ligne.
+Le titre de la fenêtre est défini et la dernière ligne signifie simplement que cette fenêtre ne sera jamais obscurcie par une autre fenêtre - si cela n\'est pas souhaité, placez simplement un caractère de commentaire Python (\'#\') comme premier caractère de la ligne.
 
 ### Création d\'étiquettes 
 
@@ -111,7 +111,7 @@ self.checkbox2.clicked.connect(self.onCheckbox2)
 self.checkbox2.move(210,30)
 ```
 
-Les cases à cocher peuvent être désactivées et activées dans n\'importe quelle combinaison (contrairement aux boutons radio). La ligne 2 en déclare un et définit sa valeur initiale. La ligne 3 spécifie quelle méthode sera exécutée lorsque la case à cocher est cliquée (dans ce cas, la méthode \'onCheckBox1\'). Si la 4ème ligne n\'avait pas le caractère de commentaire Python (\'\#\') comme premier caractère, alors elle serait exécutée et il marquerait la case comme cochée. Enfin, la 5ème ligne place la case à cocher en position.
+Les cases à cocher peuvent être désactivées et activées dans n\'importe quelle combinaison (contrairement aux boutons radio). La ligne 2 en déclare un et définit sa valeur initiale. La ligne 3 spécifie quelle méthode sera exécutée lorsque la case à cocher est cliquée (dans ce cas, la méthode \'onCheckBox1\'). Si la 4ème ligne n\'avait pas le caractère de commentaire Python (\'#\') comme premier caractère, alors elle serait exécutée et il marquerait la case comme cochée. Enfin, la 5ème ligne place la case à cocher en position.
 
 ### Création de boutons radio 
 

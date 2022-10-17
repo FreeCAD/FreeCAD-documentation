@@ -1,28 +1,18 @@
 ---
 - GuiCommand   */ru
-   Name   *FEM MaterialReinforced
-   Name/ru   *FEM MaterialReinforced
-   MenuLocation   * Model → Material reinforced
+   Name/ru   *Усиленный материал (бетон)
+   Name   *FEM_MaterialReinforced
+   MenuLocation   * Model → Материалы → Усиленный материал (бетон)
    Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   *
    SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM MaterialReinforced/ru
 
-
-</div>
-
-ToDo
-
-
-<div class="mw-translate-fuzzy">
+В разработке\...
 
 
 
-
-
-</div>
 
 
 {{FEM Tools navi

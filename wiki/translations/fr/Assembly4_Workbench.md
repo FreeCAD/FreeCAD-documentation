@@ -22,7 +22,7 @@ Assembly4 a été inspiré par <img alt="" src=images/A2p_workbench.svg  style="
 ## Liens
 
 -   L\'objet [App Link](App_Link/fr.md) qui fait fonctionner Assembly3.
--   [FreeCAD\_assembly3](https   *//github.com/realthunder/FreeCAD_assembly3) dépôt et documentation.
+-   [FreeCAD_assembly3](https   *//github.com/realthunder/FreeCAD_assembly3) dépôt et documentation.
 -   [Assembly3 preview](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=25712), grand fil de discussion.
 -   [État actuel de l\'assemblage](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Ateliers externes](External_workbenches/fr.md)

@@ -98,7 +98,7 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 -   **Analyse de Fréquence** On peut faire une analyse de fréquence. Le nombre de valeur eigen et de forme eigen peut être ajusté dans la fenêtre des préférences.
 -   **View provider** Les maillages FEM de type coques et poutres peuvent être vus dans FreeCAD ainsi que les résultats de l\'analyse.
 -   **API Python** Ajout de méthodes pour travailler avec les maillages FEM et réaliser des analyses depuis python.
--   **Macro GMSH** La [Macro\_GMSH](Macro_GMSH.md) est un développement externe interessant qui rend possible le maillage avec GMSH. C\'est très pratique pour ceux qui ne peuvent pas installé ou compiler Netgen ou pour le maillage de coques et d\'arêtes.
+-   **Macro GMSH** La [Macro_GMSH](Macro_GMSH.md) est un développement externe interessant qui rend possible le maillage avec GMSH. C\'est très pratique pour ceux qui ne peuvent pas installé ou compiler Netgen ou pour le maillage de coques et d\'arêtes.
 -   **Améliorations générales** En raison de la forte augmentation du développement, il y a eu des tonnes d\'améliorations sur la base du code du module FEM.
 
 ## Atelier Path 

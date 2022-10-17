@@ -25,7 +25,7 @@ Jestliže vyberete otvor nebo vnitřní povrch kruhové díry a zároveň kružn
 
 <center>
 
-<File   *Macro_screw_maker_02.png%7COkno> **tvorby šroubu** a několik typů šroubů. [File   *Macro\_screw\_maker\_03.png\|Šroub](File   *Macro_screw_maker_03.png%7CŠroub) se závitem
+<File   *Macro_screw_maker_02.png%7COkno> **tvorby šroubu** a několik typů šroubů. [File   *Macro_screw_maker_03.png\|Šroub](File   *Macro_screw_maker_03.png%7CŠroub) se závitem
 
 
 </center>
@@ -44,7 +44,7 @@ Nejnovější verze makra se nachází na adrese [ScrewMaker.FCMacro](https   */
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 
-**Macro\_screw\_maker\_2.FCMacro**
+**Macro_screw_maker_2.FCMacro**
 
 
 {{MacroCode|code=

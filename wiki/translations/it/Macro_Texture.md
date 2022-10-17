@@ -248,7 +248,7 @@ Il valore iniziale dell\'operazione si adegua automaticamente alla funzione sele
 -    **Help**   * Apre la pagina del wiki dentro il FreeCAD webBrowser
 
     -   Visualizza la pagina Wiki nel browser di FreeCAD
-    -   Per modificare il parametro disponibile   * vai su \'\' \'Strumenti → Modifica parametro \...\' \'\'
+    -   Per modificare il parametro disponibile   * vai su *\'Strumenti → Modifica parametro \...\'*
     -   \_\_ Il passaggio globale su spinBox   * \_\_
     -   User parameter   ***BaseApp/Preferences/Macros/FCMmacros/FCTexture → SingleStep**
     -   Regola il valore desiderato (1.0 per impostazione predefinita)
@@ -271,7 +271,7 @@ Il valore iniziale dell\'operazione si adegua automaticamente alla funzione sele
 
 Le icone in formato .png <img alt="" src=images/FCTexture.png  style="width   *64px;"> e .svg<img alt="" src=images/FCTexture.svg  style="width   *64px;">
 
-**Macro\_Texture.FCMacro**
+**Macro_Texture.FCMacro**
 
 Scaricare la macro da Gist [Macro FCTexture.FCMacro](https   *//gist.github.com/mario52a/262317bc7d8555885b0e)
 
@@ -319,7 +319,7 @@ Image   *Texture 001 Logo.png\|Il logo di FreeCAD. Image   *Texture 002 Fe FC.pn
 
 <center>
 
-Image   *Texture\_003\_napperon.png\|Una porzione di una tovaglia. Image   *Texture\_005\_larme.png\|Una lastra zigrinata.
+Image   *Texture_003_napperon.png\|Una porzione di una tovaglia. Image   *Texture_005_larme.png\|Una lastra zigrinata.
 
 
 </center>
@@ -419,7 +419,7 @@ La <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;"> [Mac
                 ####new
 ```
 
--   ver 0.13b   * 30/12/2020 add try for **time.clock()** and **time.process\_time()** for Python 3xyz\...
+-   ver 0.13b   * 30/12/2020 add try for **time.clock()** and **time.process_time()** for Python 3xyz\...
 -   ver 0.13    * 17/04/2020 Layout and PySide2 Qt5
 -   ver 0.12    * 04/08/2019 add spinbox button for height
 -   ver 0.11    *03/07/2019 adapt to Python 3
@@ -432,7 +432,7 @@ La <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;"> [Mac
 
 ver 0.4    * 08/08/2014 PyQt4 PySide
 
-ver 0.3    * 28/03/2014    *commentata la riga \"**\# self.checkBox\_5.setAccessibleName(\_fromUtf8(\"\"))**\" che causa un errore con la seguente versione di FreeCAD    * 0.14.3343 (Git), Python version   * 2.7.6, Qt version   * 4.8.5
+ver 0.3    * 28/03/2014    *commentata la riga \"**\# self.checkBox_5.setAccessibleName(\_fromUtf8(\"\"))**\" che causa un errore con la seguente versione di FreeCAD    * 0.14.3343 (Git), Python version   * 2.7.6, Qt version   * 4.8.5
 
 
 

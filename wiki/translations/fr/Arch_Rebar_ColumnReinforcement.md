@@ -104,7 +104,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 -    {{PropertyData/fr|Bottom Offset}}   * distance entre les barres d\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Number#Diameter}}   * Number\#Diameter ensemble des armatures dans la direction X.
+-    {{PropertyData/fr|Number#Diameter}}   * Number#Diameter ensemble des armatures dans la direction X.
 
 **Barres d\'armature secondaires YDir    *** barres d\'armature suivant la direction Y sauf les barres d\'armature principales
 
@@ -120,7 +120,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 -    {{PropertyData/fr|Bottom Offset}}   * distance entre les barres d\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Number#Diameter}}   * Number\#Diameter ensemble des armatures dans la direction Y.
+-    {{PropertyData/fr|Number#Diameter}}   * Number#Diameter ensemble des armatures dans la direction Y.
 
 ## Script
 
@@ -346,17 +346,17 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `main_hook_extension`est la longueur du crochet des barres d\'armature principales en L.
 
--    `sec_rebars_t_offset`et `sec_rebars_b_offset` sont respectivement des tuples (xdir\_rebars\_t\_offset, ydir\_rebars\_t\_offset) et (xdir\_rebars\_b\_offset, ydir\_rebars\_b\_offset), qui définit les distances de décalage intérieures des barres d\'armature secondaires à axe des x et à axe des y par rapport aux faces supérieure et inférieure de la structure, respectivement.
+-    `sec_rebars_t_offset`et `sec_rebars_b_offset` sont respectivement des tuples (xdir_rebars_t\_offset, ydir_rebars_t\_offset) et (xdir_rebars_b\_offset, ydir_rebars_b\_offset), qui définit les distances de décalage intérieures des barres d\'armature secondaires à axe des x et à axe des y par rapport aux faces supérieure et inférieure de la structure, respectivement.
 
--    `sec_rebars_number_diameter`est un tuple (xdir\_rebars\_number\_diameter, ydir\_rebars\_number\_diameter) qui définit l\'ensemble nombre\#diamètre des armatures secondaires des directions x et y, respectivement.
+-    `sec_rebars_number_diameter`est un tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) qui définit l\'ensemble nombre#diamètre des armatures secondaires des directions x et y, respectivement.
 
--    `sec_rebars_type`est un tuple (xdir\_rebars\_type, ydir\_rebars\_type) qui définit le type de barres d\'armature secondaires en direction x et en direction y, respectivement. Il peut prendre pour valeur `"StraightRebar"` ou `"LShapeRebar"` comme type de barre.
+-    `sec_rebars_type`est un tuple (xdir_rebars_type, ydir_rebars_type) qui définit le type de barres d\'armature secondaires en direction x et en direction y, respectivement. Il peut prendre pour valeur `"StraightRebar"` ou `"LShapeRebar"` comme type de barre.
 
--    `sec_hook_orientation`est un tuple (xdir\_hook\_orientation, ydir\_hook\_orientation) qui définit l\'orientation de la direction secondaire x et de la direction y du crochet en L. Il peut prendre pour valeur `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Left"`.
+-    `sec_hook_orientation`est un tuple (xdir_hook_orientation, ydir_hook_orientation) qui définit l\'orientation de la direction secondaire x et de la direction y du crochet en L. Il peut prendre pour valeur `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Left"`.
 
--    `l_sec_rebar_rounding`est un tuple (l\_xdir\_rebar\_rounding, l\_ydir\_rebar\_rounding) qui détermine le rayon de courbure des barres d\'armature secondaires en X et en Y en forme de L, exprimé en nombre de diamètre des barres en L en direction x et y respectivement.
+-    `l_sec_rebar_rounding`est un tuple (l_xdir_rebar_rounding, l_ydir_rebar_rounding) qui détermine le rayon de courbure des barres d\'armature secondaires en X et en Y en forme de L, exprimé en nombre de diamètre des barres en L en direction x et y respectivement.
 
--    `sec_hook_extension`est un tuple (xdir\_hook\_extension, ydir\_hook\_extension) qui définit la longueur du crochet des armatures secondaires en forme de L en direction x et y.
+-    `sec_hook_extension`est un tuple (xdir_hook_extension, ydir_hook_extension) qui définit la longueur du crochet des armatures secondaires en forme de L en direction x et y.
 
 #### Exemple 
 

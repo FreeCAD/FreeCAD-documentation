@@ -11,7 +11,7 @@
 |SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Screen Wiki](Macro_Screen_Wiki.md)
 |Shortcut=On Windows   * Windows Key + Shift + S<br/>
 On Mac   * Command + Shift + 4<br/>
-On Linux   * gnone-screenshot utility<br/>
+On Linux   * gnome-screenshot utility<br/>
 }}
 
 ## Description
@@ -27,12 +27,12 @@ When posting to the FreeCAD forum it is often useful to be able to include scree
 The macro can take screenshots or it can use existing screenshots that have already been copied to the system clipboard. To bypass the image already in clipboard press the **Shift** key while invoking the macro. To use the macro to take the screenshot adjust the size and placement of the dialog that pops up, then click **OK**. Upon clicking **OK** the macro will attempt to take a screenshot of the area of the screen covered by the dialog. The dialog itself is semi-transparent, so you can see the contents beneath.
 
 <img alt="" src=images/Snip-Screenshot1.png  style="width   *600px;"> 
-*Snip screenshot1,  Notice how the dialog is semi-transparent.  Only the screen contents below the dialog will be captured.*
+*Notice how the dialog is semi-transparent. Only the screen contents below the dialog will be captured.*
 
 After clicking **OK**, the macro then takes the screenshot and saves it to a temporary file. A file open dialog is then opened at the file\'s location. You can drag and drop the file from there to the forum into the textarea where you type in your text for your forum post. Upon canceling the dialog the temporary screenshot file is deleted automatically. You may also open the screenshot file in your default application installed for opening **.png** files (on Windows this is typically Paint). This can be useful if you wish to add some annotations to the screenshot or perhaps additional editing, such as cropping.
 
 <img alt="" src=images/Snip-Screenshot2.png  style="width   *600px;"> 
-*Snip screenshot2,  This is the open file dialog that pops up automatically after taking the screenshot.  The image can be dragged and dropped to the forum or it can be opened for further processing in your system default application for opening png files.  Alternatively, you can right-click on the image and **Open with..* another application of your choice.**
+*This is the open file dialog that pops up automatically after taking the screenshot. The image can be dragged and dropped to the forum or it can be opened for further processing in your system default application for opening png files. Alternatively, you can right-click on the image and **Open with..* another application of your choice.**
 
 If the macro doesn\'t work on your system to capture screenshots it can still be useful for screenshots you have captured using other tools. Simply copy the screenshot to the clipboard, then run the macro. It will create the temporary file and open the file\'s directory in an open file dialog for you. Some other tools for taking screenshots   *
 
@@ -75,7 +75,7 @@ You can bypass all scaling by holding down the Ctrl key while clicking the Ok bu
 
 ToolBar icon ![](images/Snip.png ) 
 
-**Macro\_Snip.FCMacro**
+**Macro_Snip.FCMacro**
 
 
 {{MacroCode|code=

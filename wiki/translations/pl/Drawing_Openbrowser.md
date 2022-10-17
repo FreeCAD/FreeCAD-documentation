@@ -35,4 +35,4 @@ To polecenie pozwala wyświetlić wybraną [Stronę rysunku](Drawing_Landscape_A
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/pl

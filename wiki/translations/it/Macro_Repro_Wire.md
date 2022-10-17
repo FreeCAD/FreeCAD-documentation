@@ -28,7 +28,7 @@ Le copie sono di colore rosso e denominate \"Shapexxx + il nome dell\'originale\
 
 L\'icona per la barra degli strumenti ![icon for the button](images/Macro_ReproWire.png )
 
-*\' Macro\_ReproWire.FCMacro*\'
+**Macro_ReproWire.FCMacro**
 
 
 {{MacroCode|code=

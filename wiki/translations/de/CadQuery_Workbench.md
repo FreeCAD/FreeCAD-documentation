@@ -43,7 +43,7 @@ Der CadAbfrage Arbeitsbereich enthält Beispielskripte, die unter **CadAbfrage �
 
 Andere Beispiele   *
 
--   Prusa i3 Extruder Unterstützung (direkt verfügbar als Arbeitsbereichs Beispielskript **Ex032\_3D\_Printer\_Extruder\_Support**)   * <https   *//github.com/adam-urbanczyk/cadquery-models>
+-   Prusa i3 Extruder Unterstützung (direkt verfügbar als Arbeitsbereichs Beispielskript **Ex032_3D_Printer_Extruder_Support**)   * <https   *//github.com/adam-urbanczyk/cadquery-models>
 
 ## Neueste CadAbfrage 
 

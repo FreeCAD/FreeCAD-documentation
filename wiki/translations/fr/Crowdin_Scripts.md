@@ -36,7 +36,7 @@ Le script updatecrowdin.py pousse les modifications vers Crowdin (service de tra
 
 Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre répertoire FreeCAD/ local.
 
-## Pour envoyer les dernières modifications à crowdin 
+## Pour envoyer les dernières modifications à Crowdin 
 
 -   Testé uniquement sur Linux
 -   Vous avez besoin d'un fichier .credentials dans votre répertoire /home/YourUser. Ce fichier est un simple fichier texte contenant une seule ligne, qui correspond à la clé API que vous obtenez sur <https   *//crowdin.com/project/freecad/settings#api> (uniquement pour les administrateurs).
@@ -47,7 +47,7 @@ Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre r
 -   cd ../.. (retournez au dossier racine du code source)
 -   git Checkout. (annulez toutes les modifications apportées aux fichiers .ts, aucune raison de les valider maintenant, car elles ne sont pas traduites)
 
-## Pour fusionner les dernières traductions de crowdin 
+## Pour fusionner les dernières traductions de Crowdin 
 
 -   Testé uniquement sur Linux
 -   Vous avez besoin d'un fichier .credentials dans votre répertoire /home/YourUser. Ce fichier est un simple fichier texte contenant une seule ligne, qui correspond à la clé API que vous obtenez sur <https   *//crowdin.com/project/freecad/settings#api> (uniquement pour les administrateurs).
@@ -56,30 +56,30 @@ Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre r
 -   Python updatecrowdin.py build (créera un zip du côté de crowdin avec tous les fichiers, peut prendre un certain temps .. Cette étape peut également être effectuée sur le site web de crowdin)
 -   python updatecrowdin.py télécharger (téléchargera le fichier freecad.zip dans ce répertoire)
 -   mv freecad.zip \~ déplace le fichier zip dans votre répertoire personnel, pour éviter de le commettre accidentellement plus tard)
--   (facultatif) éditez le script updatefromcrowdin.py et vérifiez que les default\_languages ​​contiennent tous ceux que vous voulez (essentiellement tous ceux qui sont à plus de 50%)
+-   (facultatif) éditez le script updatefromcrowdin.py et vérifiez que les default_languages ​​contiennent tous ceux que vous voulez (essentiellement tous ceux qui sont à plus de 50%)
 -   python updatefromcrowdin.py -z /home/YourUser/freecad.zip
 -   cd ../.. (retourne au dossier racine du code source)
 -   Si quelque chose s\'est mal passé ou si vous avez un doute, nettoyez tout avec Git Checkout.
 -   Si tout se passe bien (statut git), validez avec git add. && git commit
 -   Créer un PR sur FreeCAD
 
-## Pour générer un fichier de traduction à partir du site Web 
+## Pour générer un fichier de traduction à partir du site web 
 
 -   Cloner le dépôt de la page d\'accueil
 -   cd /path/to/FreeCAD-homepage
 -   xgettext \--from-code=UTF-8 -o lang/homepage.pot \*.php
--   Mettre à jour manuellement le \"homepage.po\" sur le site web de crowdin, en utilisant le fichier lang/homepage.pot
+-   Mettre à jour manuellement le \"homepage.po\" sur le site web de Crowdin, en utilisant le fichier lang/homepage.pot
 
-## Mettre à jour les traductions du site 
+## Mettre à jour les traductions du site web 
 
--   Obtenez le fichier freecad.zip en le téléchargeant depuis le site Web de crowdin ou en suivant les instructions ci-dessus (téléchargement de python updatecrowdin.py).
+-   Récupérez le fichier freecad.zip en le téléchargeant depuis le site web de Crowdin ou en suivant les instructions ci-dessus (téléchargement de python updatecrowdin.py)
 -   cd /path/to/FreeCAD-homepage
--   Assurez-vous que votre dépôt est libre (git pull, git stash si nécessaire)
--   python updatefromcrowdin.py -z /path/to/freecad.zip
--   Si quelque chose s\'est mal passé ou si vous avez un doute, nettoyez tout avec Git Checkout.
--   Si tout se passe bien (statut git), validez avec git add. && git commit
--   Créer un PR sur FreeCAD-Homepage
--   Après la fusion du RP, l'un des administrateurs va s'appuyer sur l'hôte Web
+-   Assurez-vous que votre dépôt est propre (git pull, git stash si nécessaire).
+-   Python updatefromcrowdin.py -z /path/to/freecad.zip
+-   Si quelque chose ne va pas ou si vous n\'êtes pas sûr, nettoyez tout avec git checkout.
+-   Si tout semble correct (git status), faites un commit avec git add . && git commit
+-   Créez un PR sur FreeCAD-Homepage.
+-   Après que le PR soit fusionné, un des admins va le pousser par ftp vers l\'hébergeur.
 
 ## En relation 
 

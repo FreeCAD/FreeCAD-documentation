@@ -34,7 +34,7 @@ Z prawej strony dwie bryły Łącznika kształtów podrzędnych odwołujące si�
 3.  Narzędzie można wywołać na kilka sposobów   *
     -   Naciśnij przycisk **<img src="images/PartDesign_SubShapeBinder.svg" width=16px> [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md)**.
 
-\#\* Wybierz z menu opcję **Projekt Części → <img src="images/PartDesign_SubShapeBinder.svg" width=16px> Utwórz łącznik kształtu obiektu podrzędnego**.
+#\* Wybierz z menu opcję **Projekt Części → <img src="images/PartDesign_SubShapeBinder.svg" width=16px> Utwórz łącznik kształtu obiektu podrzędnego**.
 
 1.  Zostanie utworzony Łącznik kształtów podrzędnych.
 2.  Jeśli w dokumencie jest tylko jeden obiekt Zawartość, obiekt Łącznik kształtów podrzędnych jest do niego automatycznie dodawany, a Zawartość zostaje automatycznie aktywowana. Jeśli tak jest, a Łącznik kształtów podrzędnych nie powinien być zagnieżdżony, można go przeciągnąć z Zawartości i upuścić na węzeł dokumentu <img alt="" src=images/Document.svg  style="width   *16px;"> w oknie [widoku drzewa](Tree_view/pl.md).

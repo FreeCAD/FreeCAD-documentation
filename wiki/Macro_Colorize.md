@@ -39,7 +39,7 @@ This macro allows to quickly and easily set the color and transparency of indivi
 
 ToolBar Icon ![](images/Workbench_Image.svg )
 
- **Macro\_Colorize.FCMacro**
+ **Macro_Colorize.FCMacro**
 
 
 {{MacroCode|code=

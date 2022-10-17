@@ -71,7 +71,7 @@ For comparison you may look at the postprocessors which come with your FreeCAD i
 
 This post discusses some internals from the linuxcnc postprocessors. The same strucure is used in other postprocessors as well.
 
-Looking at linux\_cnc\_post.py, you\'ll see the export function (as of 0.19.20514 its at line 156)
+Looking at linux_cnc_post.py, you\'ll see the export function (as of 0.19.20514 its at line 156)
 
 
 ```python

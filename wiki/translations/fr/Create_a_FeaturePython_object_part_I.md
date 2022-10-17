@@ -116,21 +116,21 @@ def create(obj_name)   *
 **La méthode `create()` se décompose comme suit   ***
 
 +++
-|                                       | Importation standard pour la plupart des scripts Python, l\'alias d\'application n\'est pas requis.                                                                                                                                                |
-| `import FreeCAD as App`                     |                                                                                                                                                                                                                                                    |
-|                                                   |                                                                                                                                                                                                                                                    |
+|                                       | Importation standard pour la plupart des scripts Python, l\'alias d\'application n\'est pas requis.                                                                                                                                               |
+| `import FreeCAD as App`                     |                                                                                                                                                                                                                                                   |
+|                                                   |                                                                                                                                                                                                                                                   |
 +++
-|                                       | Crée un nouvel objet FreeCAD FeaturePython avec le nom transmis à la méthode. S\'il n\'y a pas de conflit de nom, ce sera le libellé et le nom de l\'objet créé. Sinon, un nom et une étiquette uniques seront créés en fonction de \'obj\_name\'. |
-| `obj <nowiki>=</nowiki> ... addObject(...)` |                                                                                                                                                                                                                                                    |
-|                                                   |                                                                                                                                                                                                                                                    |
+|                                       | Crée un nouvel objet FreeCAD FeaturePython avec le nom transmis à la méthode. S\'il n\'y a pas de conflit de nom, ce sera le libellé et le nom de l\'objet créé. Sinon, un nom et une étiquette uniques seront créés en fonction de \'obj_name\'. |
+| `obj <nowiki>=</nowiki> ... addObject(...)` |                                                                                                                                                                                                                                                   |
+|                                                   |                                                                                                                                                                                                                                                   |
 +++
-|                                       | Crée notre instance de classe personnalisée.                                                                                                                                                                                                       |
-| `box(obj)`                                  |                                                                                                                                                                                                                                                    |
-|                                                   |                                                                                                                                                                                                                                                    |
+|                                       | Crée notre instance de classe personnalisée.                                                                                                                                                                                                      |
+| `box(obj)`                                  |                                                                                                                                                                                                                                                   |
+|                                                   |                                                                                                                                                                                                                                                   |
 +++
-|                                       | Renvoie l\'objet FeaturePython.                                                                                                                                                                                                                    |
-| `return obj`                                |                                                                                                                                                                                                                                                    |
-|                                                   |                                                                                                                                                                                                                                                    |
+|                                       | Renvoie l\'objet FeaturePython.                                                                                                                                                                                                                   |
+| `return obj`                                |                                                                                                                                                                                                                                                   |
+|                                                   |                                                                                                                                                                                                                                                   |
 +++
 
 La méthode `create()` n\'est pas requise mais elle fournit un bon moyen d\'encapsuler le code de création d\'objet.
@@ -155,7 +155,7 @@ Maintenant, nous devons créer notre objet   *
 mybox = box.create('my_box')
 ```
 
-![](images/Fpo_treeview.png ) Vous devriez voir apparaître un nouvel objet dans la [Vue en arborescence](Tree_view/fr.md) étiqueté \"my\_box\".
+![](images/Fpo_treeview.png ) Vous devriez voir apparaître un nouvel objet dans la [Vue en arborescence](Tree_view/fr.md) étiqueté \"my_box\".
 
 Notez que l\'icône est grise. FreeCAD nous dit que l\'objet ne peut rien afficher dans la [Vue 3D](3D_view/fr.md). Cliquez sur l\'objet et regardez ses propriétés dans l\'[Éditeur de propriétés](Property_editor/fr.md). Il n\'y a pas grand-chose là-bas, juste le nom de l\'objet.
 

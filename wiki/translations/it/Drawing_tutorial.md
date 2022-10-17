@@ -46,9 +46,9 @@ Per velocizzare questo tutorial, è necessario raggruppare gli elementi simili n
 
 Creare i seguenti gruppi   *
 
--   Draft\_oggetti
--   Draft\_dimensioni
--   Draft\_annotazioni\_testi
+-   Draft_oggetti
+-   Draft_dimensioni
+-   Draft_annotazioni_testi
 
 #### Modelli di squadrature 
 
@@ -91,7 +91,7 @@ Dalla tabella dei **Dati** si può anche modificare **posizione**, **scala** e *
 Il modo migliore per aggiungere gli elementi creati nell\'ambiente **Draft** è quello di usare lo strumento di questo ambiente che è progettato specificamente per questo. Con questa procedura, è possibile importare **Dimensioni**, **Annotazioni**, **Forme-testo** e ogni altro elemento creato all\'interno di Draft.
 
 1.  Passare all\'ambiente **Draft**
-2.  Selezionare il **gruppo** o gli **elementi** da proiettare. In questo caso **Draft\_dimensioni**
+2.  Selezionare il **gruppo** o gli **elementi** da proiettare. In questo caso **Draft_dimensioni**
 3.  Selezionare ![](images/Draft_PutOnSheet.png ) [Disegno](Draft_Drawing/it.md)
 4.  Impostare le coordinate **X** e **Y** a **(140,100)**
 5.  Impostare la scala 0.5
@@ -137,4 +137,4 @@ Il flusso di lavoro di base per l\'ambiente [Drawing](Drawing_Workbench/it.md) �
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/it

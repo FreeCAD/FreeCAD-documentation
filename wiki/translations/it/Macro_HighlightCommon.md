@@ -25,13 +25,13 @@ Evidenzia e visualizza le parti comuni in rosso e imposta la semi-trasparenza de
 
 ToolBar Icon ![](images/Macro_HighlightCommon.png )
 
-**Macro\_HighlightCommon.FCMacro**
+**Macro_HighlightCommon.FCMacro**
 
 Il codice è visibile in Github   * [Utility/HighlightCommon.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightCommon.FCMacro).
 
 ## Link
 
--   Vedere la macro complementare   * [Macro\_HighlightDifference](Macro_HighlightDifference/it.md)
+-   Vedere la macro complementare   * [Macro_HighlightDifference](Macro_HighlightDifference/it.md)
 -   Il mio blog [Linux for an engineer](http   *//linuxforanengineer.blogspot.com.es/) per il codice e altre interessanti macro per FreeCAD
 -   La discussione nel forum   * [\"collision detection\", overlapping](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 

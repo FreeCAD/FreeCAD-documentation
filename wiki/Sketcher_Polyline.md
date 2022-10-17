@@ -1,5 +1,5 @@
 # Sketcher Polyline
-1.  REDIRECT [Sketcher\_CreatePolyline](Sketcher_CreatePolyline.md)
+1.  REDIRECT [Sketcher_CreatePolyline](Sketcher_CreatePolyline.md)
 
 
 

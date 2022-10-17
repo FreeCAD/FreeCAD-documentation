@@ -310,8 +310,8 @@ ptvsd.wait_for_attach()
 -   In VS Code startest Du die Fehlerdiagnose durch Verwendung der erstellten Konfiguration. Du solltest Variablen im Fehlerdiagnosebereich sehen.
 -   Beim Setzen von Haltepunkten wird sich VS Code darüber beschweren, die im VS Code-Editor geöffnete .py-Datei nicht zu finden.
     -   Ändere \"remoteRoot\"   * \".\" zu \"remoteRoot\"   * \"\"
-    -   z.B. wenn sich die Python-Datei in */home/FC\_myscripts/myscript.py* befindet
-    -   ändere zu \"remoteRoot\"   * \"/home/FC\_myscripts/myscript.py\"
+    -   z.B. wenn sich die Python-Datei in */home/FC_myscripts/myscript.py* befindet
+    -   ändere zu \"remoteRoot\"   * \"/home/FC_myscripts/myscript.py\"
 -   Wenn dein Makro ptvsd nicht findet, obwohl du es irgendwo installiert hast, stelle \'import ptvsd\' folgendes voran
 
 

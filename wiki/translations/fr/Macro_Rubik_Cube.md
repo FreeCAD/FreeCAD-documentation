@@ -21,7 +21,7 @@ Macro qui affiche un Rubik cube permet faire interactivement des rotations de se
 
 ToolBar Icon <img alt="" src=images/Macro_Rubik_Cube.png  style="width   *64px;">
 
-**Macro\_Rubik\_Cube.FCMacro**
+**Macro_Rubik_Cube.FCMacro**
 
     # -*- coding   * utf-8 -*-
     """

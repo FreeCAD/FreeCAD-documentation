@@ -310,7 +310,13 @@ Espandi questa sezione per un breve tutorial sulla creazione di una tabella di c
 2.  Sposta il collegamento in una nuova posizione modificandone **Placement** in modo che sia più facile distinguerlo dall\'oggetto originale.
 3.  Selezionare una **Configurazione** diversa per il collegamento per creare un\'istanza variante.
 
+
+<div class="mw-translate-fuzzy">
+
 Passaggi simili si applicano a un [PartDesign Riferimento a Forma di Part Design](PartDesign_SubShapeBinder/it.md), tranne per il fatto che la sua proprietà per l\'attivazione di un\'istanza variante è denominata **Bind Copy On Change**.
+
+
+</div>
 
 
 </div>

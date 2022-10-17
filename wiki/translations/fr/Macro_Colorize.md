@@ -39,7 +39,7 @@ Cette macro permet de définir rapidement et facilement la couleur et la transpa
 
 Icône de la barre d\'outils ![](images/Workbench_Image.svg )
 
-**Macro\_Colorize.FCMacro**
+**Macro_Colorize.FCMacro**
 
 
 {{MacroCode|code=

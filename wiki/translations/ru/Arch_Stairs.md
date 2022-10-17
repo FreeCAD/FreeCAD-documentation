@@ -1,75 +1,37 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch Stairs
-   Name/ru   *Arch Stairs
-   MenuLocation   *Архитектура → Лестницы
+   Name/ru   *Лестница
+   Name   *Arch_Stairs
+   MenuLocation   *Arch → Лестница
    Workbenches   *[Arch](Arch_Workbench/ru.md)
    Shortcut   ***S** **R**
    Version   *0.14
-   SeeAlso   *[[Arch Structure/ru]], [[Arch Equipment/ru]]
+   SeeAlso   *[Структура](Arch_Structure/ru.md), [Оборудование](Arch_Equipment/ru.md)
 ---
 
 # Arch Stairs/ru
 
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Описание
 
-Инструмент лестницы позволяет автоматически создавать несколько типов лестниц. В настоящий момент поддерживаются только прямые лестницы (с или без центральной посадки). Лестница может быть построена с нуля или с прямой [ line](Draft_Line.md), и в этом случае лестница следует за строкой. Если линия не горизонтальна, а имеет вертикальный наклон, лестница также будет следовать ее наклону.
+Инструмент [Лестница](Arch_Stairs/ru.md) позволяет автоматически создавать несколько типов лестниц. инструмент позволяет автоматически создавать несколько типов лестниц. На данный момент поддерживаются только прямые лестницы (лестничной площадкой или без нее). Лестница может быть построена с нуля или вдоль [Линии (верстак Draft)](Draft_Line/ru.md). Если линия не горизонтальна, а имеет наклон по вертикали, лестница также будет иметь наклон.
 
+Смотрите [статью о лестницах на википедии](https   *//en.wikipedia.org/wiki/Stairs) для определения значения различных терминов, используемых при описании частей лестницы.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-См. [Stairs entry in wikipedia](Http   *//en.wikipedia.org/wiki/Stairs) для определения различных терминов, используемых для описания частей лестницы.
-
-
-</div>
-
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width   *640px;">
-
-
-<div class="mw-translate-fuzzy">
-
-«На вышеупомянутом изображении были созданы две лестницы, одна с массивной структурой и посадкой, а другая с одним стрингером».
-
-
-</div>
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width   *640px;"> 
+*Изображение двух сконструированных лестниц, одна с массивной конструкцией и лестничной площадкой, а другая с одним косоуром.*
 
 ## Опции
 
+-   Лестницы обладают таким же свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
 
-<div class="mw-translate-fuzzy">
+## Применение
 
--   Лестницы разделяют общие свойства и поведение всех [ Arch Components](Arch_Component.md)
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-1.  Нажмите кнопку {{KEY | <img src="images/_Arch_Stairs.png_" width= 16px> [[Arch Stairs]]}} или нажмите клавиши {{KEY | S}}, {{KEY | R}}
-2.  Adjust the desired properties. Some parts of the stairs, such as the structure, might not appear immediately, if any of the properties makes it impossible, such as a structure thickness of 0.
-
-
-</div>
+1.  Нажмите кнопку **<img src="images/Arch_Stairs.svg" width=16px> [Лестница](Arch_Stairs.md)** или нажмите клавиши **S**, **R**.
+2.  Настройте нужные свойства. Некоторые части лестницы, такие как конструкция, могут изначально отсутствовать, если какое-либо из свойств делает это невозможным, например, толщина конструкции равна 0.
 
 ## Свойства
 
-### Data
+### Данные
 
 
 {{TitleProperty|Segment and Parts}}
@@ -101,6 +63,8 @@
 
 {{TitleProperty|Stairs}}
 
+(Лестница)
+
 -    **Align|Enumeration**   * The alignment of the stairs on the baseline. Only used if a baseline is defined. Can be {{value|Left}}, {{value|Right}} or {{value|Center}}.
 
 -    **Height|Length**   * The total height of the stairs. Only used if no baseline is defined, or if the baseline is horizontal. Ignored if **Riser Height Enforce** is non-zero.
@@ -114,25 +78,27 @@
 
 {{TitleProperty|Steps}}
 
--    **Blondel Ratio|Float**   * (read-only) The calculated Blondel ratio. This ratio indicates comfortable stairs and should be between 62 and 64cm or 24.5 and 25.5in.
+(Ступени)
 
--    **Landing Depth|Length**   * The depth of the landing of the flight, if enabled in **Landings**. Defaults to the **Width** if 0.
+-    **Blondel Ratio|Float**   * (только для чтения) Рассчитанный коэффициент Блонделя. Это соотношение позволяет определить наиболее удобную для человека лестницу и должно составлять от 62 до 64 см или от 24,5 до 25,5 дюйма.
 
--    **Nosing|Length**   * The size of the nosing.
+-    **Landing Depth|Length**   * Длина лестничной площадки находящейся по ходу лестницы, указывается только если площадка **Landings** добавлена. По умолчанию значение **Width** равно 0.
 
--    **Number Of Steps|Integer**   * The numbers of steps (risers).
+-    **Nosing|Length**   * Размер выступа ступени.
 
--    **Riser Height|Length**   * (read-only) The height of the risers. If **Riser Height Enforce** is 0 it is calculated (**Height** / **Number of Steps**). Else it is the same as **Riser Height Enforce**.
+-    **Number Of Steps|Integer**   * Количество ступеней (подступенников).
 
--    **Riser Height Enforce|Length**   * The enforced height of the risers.
+-    **Riser Height|Length**   * (только для чтения) Высота подступенников лестницы. Если высота ступеней **Riser Height Enforce** равна нулю, тогда она вычисляется как (**Height** / **Number of Steps**). В других случаях это значение эквивалентно **Riser Height Enforce**.
 
--    **Riser Thickness|Length**   * The thickness of the risers.
+-    **Riser Height Enforce|Length**   * Принудительная высота подступенников лестницы.
 
--    **Tread Depth|Length**   * (read-only) The depth of the treads. If **Tread Depth Enforce** is 0 it is calculated (**Length** / **Number of Steps**). Else it is the same as **Tread Depth Enforce**.
+-    **Riser Thickness|Length**   * Толщина подступенников лестницы.
 
--    **Tread Depth Enforce|Length**   * The enforced depth of the treads.
+-    **Tread Depth|Length**   * (только для чтения) Длина ступеней. Если **Tread Depth Enforce** равно 0, то вычисляется как (**Length** / **Number of Steps**). В других случаях это значение эквивалентно **Tread Depth Enforce**.
 
--    **Tread Thickness|Length**   * The thickness of the treads.
+-    **Tread Depth Enforce|Length**   * Принудительная длина ступеней
+
+-    **Tread Thickness|Length**   * Толщина ступеней.
 
 
 {{TitleProperty|Structure}}
@@ -161,27 +127,18 @@
 
 -    **Winders|Enumeration**   * The type of winders. Not implemented.
 
-## Limitations
-
-
-<div class="mw-translate-fuzzy">
-
 ## Ограничения
 
--   Недоступно до версии 0.14 FreeCAD
--   Only straight stairs are available at the moment
--   See the [forum entry](http   *//forum.freecadweb.org/viewtopic.php?f=23&t=6534) for circle stairs.
--   See the [forum announcement](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=4564).
+-   На данный момент доступны только прямые лестницы
+-   См. [тему на форуме](http   *//forum.freecadweb.org/viewtopic.php?f=23&t=6534) про круговые лестницы.
+-   См. [уведомления](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=4564) о данном инструменте на форуме.
+
+## Программирование
 
 
-</div>
+**См. так же   ***
 
-## Scripting
-
-
-**See also   ***
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Stairs tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
@@ -197,15 +154,6 @@ import Arch
 
 Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

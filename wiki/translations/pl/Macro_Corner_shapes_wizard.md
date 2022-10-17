@@ -19,7 +19,7 @@ Oryginalne źródło   * [Macro Corner shapes wizard](Macro_Corner_shapes_wizard
 
 ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
 
-**Macro\_Corner\_shapes\_wizard\_update.FCMacro**
+**Macro_Corner_shapes_wizard_update.FCMacro**
 
      
     # Corner Shape Wizard

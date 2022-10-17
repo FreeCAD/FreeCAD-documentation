@@ -21,7 +21,7 @@ Macro to Display a Rubik Cube and interactively do slice rotations.
 
 ToolBar Icon <img alt="" src=images/Macro_Rubik_Cube.png  style="width   *64px;">
 
-**Macro\_Rubik\_Cube.FCMacro**
+**Macro_Rubik_Cube.FCMacro**
 
     # -*- coding   * utf-8 -*-
     """

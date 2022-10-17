@@ -1,5 +1,5 @@
 # Scripting/bg
-1.  REDIRECT [Power\_users\_hub](Power_users_hub.md)
+1.  REDIRECT [Power_users_hub](Power_users_hub.md)
 
 
 

@@ -58,7 +58,7 @@ Per aiutare i nuovi utenti, Ship include una serie di esempi di geometrie, dove 
 
 <div class="mw-translate-fuzzy">
 
-Eseguendo lo strumento (Caricare una geometria modello di nave) si apre una finestra di dialogo. Selezionare **Series 60 da Iowa Università** e premere il pulsante OK. Lo strumento carica un nuovo documento con la geometria **s60\_IowaUniversity**
+Eseguendo lo strumento (Caricare una geometria modello di nave) si apre una finestra di dialogo. Selezionare **Series 60 da Iowa Università** e premere il pulsante OK. Lo strumento carica un nuovo documento con la geometria **s60_IowaUniversity**
 
 
 </div>

@@ -33,7 +33,7 @@ Cette macro envoie l\'objet sélectionné (maillage, forme ou corps) au [site We
 
 La dernière version de la macro se trouve à l\'adresse <https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/pcbway.FCMacro>.
 
-**Macro\_PCBWay.FCMacro** {{MacroCode|code=
+**Macro_PCBWay.FCMacro** {{MacroCode|code=
 #***************************************************************************
 #*                                                                         *
 #*   Copyright (c) 2022 Yorik van Havre <yorik@uncreated.net>              *

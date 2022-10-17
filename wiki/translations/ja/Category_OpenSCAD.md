@@ -1,5 +1,5 @@
 # Category:OpenSCAD/ja
-This category lists pages related to the [OpenSCAD\_Workbench/ja](OpenSCAD_Workbench/ja.md).
+This category lists pages related to the [OpenSCAD_Workbench/ja](OpenSCAD_Workbench/ja.md).
 
 [Category   *Workbenches/ja](Category   *Workbenches/ja.md)
 

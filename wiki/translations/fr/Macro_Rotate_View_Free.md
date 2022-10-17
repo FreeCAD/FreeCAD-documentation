@@ -21,7 +21,7 @@ Collez le code dans la console Python, tapez **Enter** → **Enter** (pour valid
 
 ## Script
 
-**Macro\_Rotate\_View\_Free.FCMacro**
+**Macro_Rotate_View_Free.FCMacro**
 
 
 {{MacroCode|code=

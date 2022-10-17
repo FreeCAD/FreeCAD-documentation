@@ -1,5 +1,5 @@
 # Category:OpenSCAD/es
-This category lists pages related to the [OpenSCAD\_Workbench/es](OpenSCAD_Workbench/es.md).
+This category lists pages related to the [OpenSCAD_Workbench/es](OpenSCAD_Workbench/es.md).
 
 [Category   *Workbenches/es](Category   *Workbenches/es.md)
 

@@ -32,13 +32,13 @@ La commande <img alt="" src=images/Draft_Trimex.svg  style="width   *24px;"> **D
 6.  Effectuez l\'une des opérations suivantes    *
     -   Choisissez un point dans la [Vue 3D](3D_view/fr.md).
     -   Saisissez une **Distance** ou un **Angle**. La distance est une distance relative. Cette option ne fonctionne pas si des touches modificatrices sont utilisées.
-    -   Déplacez le pointeur sur une arête appartenant à un autre objet, et cliquez lorsque cette arête est mise en évidence, pour découper ou étendre l\'objet sélectionné en utilisant une intersection avec l\'arête mise en évidence comme nouveau point d\'arrivée. Notez que [Draft Aimantation](Draft_Snap/fr.md) peut avoir un impact indésirable ici. Dans certains cas, il peut être nécessaire de les désactiver temporairement.
+    -   Déplacez le pointeur sur une arête appartenant à un autre objet, et cliquez lorsque cette arête est mise en surbrillance, pour couper ou étendre l\'objet sélectionné en utilisant une intersection avec l\'arête mise en surbrillance comme nouveau point d\'arrivée. Lors du rognage, la projection du point où l\'arête de coupe est sélectionnée sur l\'objet à rogner, détermine le résultat par défaut. Notez que les [Draft Aimantations](Draft_Snap/fr.md) peuvent avoir un impact indésirable ici. Dans certains cas, il peut être utile de les désactiver temporairement.
 
 ### Options
 
 Le raccourci clavier à caractère unique et les touches de modification mentionnées ici peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md).
 
--   La solution ayant la plus grande longueur détermine la direction par défaut de la commande. Maintenez **Alt** pour inverser ce sens.
+-   Maintenez la touche **Alt** enfoncée pour inverser le résultat par défaut de la commande.
 -   Maintenez la touche **Shift** enfoncée pour limiter l\'opération au segment en cours d\'une [Draft Polyligne](Draft_Wire/fr.md).
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 
@@ -46,7 +46,7 @@ Voici un exemple pour expliquer les touches de modification. Le bord gauche ou l
 
 ![](images/Draft_Trimex_example2.png )
 
-1.  L\'arc a été cliqué près du coin inférieur gauche de la polyligne. C\'est le comportement par défaut.
+1.  L\'arc a été cliqué près du coin inférieur gauche de la polyligne. C\'est le résultat par défaut.
 
 2.  
     **Alt**a été maintenu enfoncé pendant que l\'arc était cliqué près du coin inférieur gauche de la polyligne.

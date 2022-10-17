@@ -23,7 +23,7 @@ Na [modifikované verzi](Macro_Corner_shapes_wizard/update.md) jsou změny GUI.
 
 ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
 
-**Macro\_Corner\_shapes\_wizard.FCMacro**
+**Macro_Corner_shapes_wizard.FCMacro**
 
     # -*- coding   *utf-8 -*-
      

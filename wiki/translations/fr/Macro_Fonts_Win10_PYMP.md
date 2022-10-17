@@ -77,7 +77,7 @@ Après le premier lancement, configurer    *
     -   
         `False`
         
-        matplotlib.font\_manager.findSystemFonts(\"C   */\", \"ttf\")
+        matplotlib.font_manager.findSystemFonts(\"C   */\", \"ttf\")
 
         -   fait toutes les fontes (dans tous les dossiers et sous dossiers du DD) !!
 

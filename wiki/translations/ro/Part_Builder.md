@@ -38,7 +38,7 @@ This tool will let you create shapes by creating
     2.  Select if face should be planar
     3.  Click on ** Create**
     4.  Object will be created in 3D view and will be listed in tree view
-3.  Wire from edges <small>(v0.18)</small> \#\#Select a set of adjacent edges in the 3D view
+3.  Wire from edges <small>(v0.18)</small> ##Select a set of adjacent edges in the 3D view
     1.  Click on ** Create**
 4.  Face from edges
     1.  Select a closed set of edges bounding the face in the 3D view

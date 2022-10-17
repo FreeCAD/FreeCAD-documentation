@@ -24,8 +24,8 @@ Sur le plan fonctionnel, la macro supprimera le mappage actuel de l\'esquisse su
 Pour ce faire, la macro proposera essentiellement 3 options (si votre esquisse n\'est pas dans un corps PartDesign, seule la première option est disponible et sera appliquée automatiquement)   *
 
 -   Mode \"Raw\" =\> le placement de l\'esquisse est rendu absolu dans le référentiel de corps, rien de plus
--   \"Mode DP\@Face\" =\> un plan de référence est créé à l\'emplacement de la face de mappage, puis l\'esquisse y est attachée en respectant son décalage d\'attache
--   Mode \"DP\@Sketch\" =\> un lieu de référence est créé à l\'emplacement de l\'esquisse (y compris le décalage de la pièce jointe), puis l\'esquisse est attachée à son origine
+-   \"Mode DP@Face\" =\> un plan de référence est créé à l\'emplacement de la face de mappage, puis l\'esquisse y est attachée en respectant son décalage d\'attache
+-   Mode \"DP@Sketch\" =\> un lieu de référence est créé à l\'emplacement de l\'esquisse (y compris le décalage de la pièce jointe), puis l\'esquisse est attachée à son origine
 
 Pour utiliser la macro, sélectionnez simplement l\'esquisse cible (par exemple, dans l\'arborescence), puis exécutez la macro. C\'est tout !
 
@@ -50,8 +50,8 @@ L\'arborescence indique une erreur, la vue 3D n\'est pas mise à jour et l\'esqu
 Vient maintenant le travail de la macro (que vous devez exécuter avant de changer la face de référence, lorsque l\'esquisse est toujours à la bonne place). Sélectionnez l\'esquisse et exécutez-le. Si votre esquisse est dans un corps, une boîte de message vous demandera de choisir parmi les 3 options différentes (si votre esquisse sort d'un corps, elle appliquera automatiquement la première)   *
 
 -   \"Raw\" mode
--   \"DP\@Face mode\"
--   \"DP\@Sketch\" mode
+-   \"DP@Face mode\"
+-   \"DP@Sketch\" mode
 
 Ce qui en terme d\'image donne ce qui suit   *
 
@@ -61,7 +61,7 @@ Ce qui en terme d\'image donne ce qui suit   *
 
 ToolBar Icon ![](images/SketchUnmap.svg )
 
-**Macro\_SketchUnmap.FCMacro**
+**Macro_SketchUnmap.FCMacro**
 
 
 {{MacroCode|code=

@@ -26,4 +26,4 @@ Los archivos SVG son comunes y se pueden visualizar en la mayoría de visores y 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Save/es

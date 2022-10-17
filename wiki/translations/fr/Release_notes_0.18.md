@@ -135,8 +135,8 @@ La gestion des matériaux a été améliorée. Il est maintenant possible d\'uti
 
 ### Post-traitement 
 
--   grbl\_post -- argument pour supprimer les commandes de changement d\'outil
--   post-traitement grbl\_g81
+-   grbl_post -- argument pour supprimer les commandes de changement d\'outil
+-   post-traitement grbl_g81
 
 ## Atelier Sketcher (Esquisseur) 
 
@@ -156,7 +156,7 @@ La gestion des matériaux a été améliorée. Il est maintenant possible d\'uti
 Liens de forum pertinents    *
 
 -   [améliorations récentes de Sketcher](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192)
--   [Feature \#1632   * autoriser la saisie d\'un diamètre au lieu d\'un rayon pour la contrainte de rayon du cercle](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=29152)
+-   [Feature #1632   * autoriser la saisie d\'un diamètre au lieu d\'un rayon pour la contrainte de rayon du cercle](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=29152)
 -   [Sketcher Suppression automatiquement des modes redondants](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Nomenclature étendue des contraintes](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 

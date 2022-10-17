@@ -20,7 +20,7 @@ La [Bandeja Borrador](Draft_Tray.md) te permite cambiar rápidamente las propied
 
 -   ![](images/Draft_tray_button_plane.png ) [Select Plane](Draft_SelectPlane.md)   * selects the current Draft working plane.
 
--   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md)   * sets the default style for new objects. <small>(v0.19)</small> 
+-   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md)   * sets the default style for new objects.
 
 -   ![](images/Draft_tray_button_construction.png ) [Toggle construction mode](Draft_ToggleConstructionMode.md)   * switches Draft construction mode on or off.
 

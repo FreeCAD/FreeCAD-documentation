@@ -100,7 +100,7 @@ The first thing is to insert the following line into the document. This line is 
 
 
 
- {.XML}
+ XML
 xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
@@ -121,7 +121,7 @@ In order to allow a final drawing to be printed in the right scale, the template
 
 
 
- {.html}
+ html
 width="279mm"
 height="216mm"
 viewBox="0 0 279 216"
@@ -145,7 +145,7 @@ The first tag is the Working space tag and is formatted as follows.
 
 
 
- {.html}
+ html
 
 
 
@@ -162,7 +162,7 @@ So for this tutorial template, the Working space tag will be.
 
 
 
- {.html}
+ html
 
 
 
@@ -174,7 +174,7 @@ The next tag will be the Title block tag and is formatted as follows   *
 
 
 
- {.html}
+ html
 
 
 
@@ -193,7 +193,7 @@ Again, referencing the template created with this tutorial, the title block tag 
 
 
 
- {.html}
+ html
 
 
 
@@ -224,7 +224,7 @@ tag.
 
 
 
- {.html}
+ html
 
 
 
@@ -252,4 +252,4 @@ The two tools used in this tutorial were Inkscape and Kate. They can be found by
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo

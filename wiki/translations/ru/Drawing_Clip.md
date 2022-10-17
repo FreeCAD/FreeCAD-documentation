@@ -40,4 +40,4 @@ This command allows you to place a clipping rectangle on a [Drawing page](Drawin
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/ru

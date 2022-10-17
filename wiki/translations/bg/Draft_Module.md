@@ -1,5 +1,5 @@
 # Draft Module/bg
-1.  REDIRECT [Draft\_Workbench/bg](Draft_Workbench/bg.md)
+1.  REDIRECT [Draft_Workbench/bg](Draft_Workbench/bg.md)
 
 
 

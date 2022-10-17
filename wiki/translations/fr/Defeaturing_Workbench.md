@@ -88,7 +88,7 @@ Fonction enlèvement utilisant le nouvel outil OCC7.3
 
 [480px\|left\|thumb \|link=<https   *//raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4%7CAtelier> Defeaturing - Les fonctions suppression (trous)](Image   *Defeaturing-WB-@Work_v3.png.md)
 
-[480px\|left\|thumb \|link=<https   *//youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-\@Work\|YouTube   * outils Defeaturing - Simplification du modèle](Image   *Defeaturing-WB-@Work_v1.png.md)
+[480px\|left\|thumb \|link=<https   *//youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-@Work\|YouTube   * outils Defeaturing - Simplification du modèle](Image   *Defeaturing-WB-@Work_v1.png.md)
 
 [480px\|left\|thumb \|link=<https   *//youtu.be/vgQwGI6Fk6Q%7CYouTube>   * Outils Defeaturing - Sélection de plusieurs faces pour être défaites](Image   *Defeaturing-WB-@Work_v2.png.md)
 

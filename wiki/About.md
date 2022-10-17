@@ -1,5 +1,5 @@
 # About
-1.  REDIRECT [Std\_About](Std_About.md)
+1.  REDIRECT [Std_About](Std_About.md)
 
 [Category   *Redirects](Category_Redirects.md)
 

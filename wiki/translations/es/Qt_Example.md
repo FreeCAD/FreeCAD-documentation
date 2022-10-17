@@ -33,7 +33,7 @@ Esta macro es un ejemplo del uso de los comandos de Qt en sus conexiones, extrac
 
 <center>
 
-Image   *Qt\_Example\_00.png\|Qt ejemplo Image   *Qt\_Example\_01.png\|Qt ejemplo detalles
+Image   *Qt_Example_00.png\|Qt ejemplo Image   *Qt_Example_01.png\|Qt ejemplo detalles
 
 
 </center>
@@ -87,7 +87,7 @@ Las herramientas utilizadas son..   *
 
 [PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32](https   *//riverbankcomputing.com/software/pyqt/download)
 
-Para convertir el archivo .ui en .py debes usar \'\' pyuic.py\'\' se encuentra en \"C   *Python27\\Lib\\N-sitio-packages\\N-PyQt4\\Npyuic.py\" (para Windows)
+Para convertir el archivo .ui en .py debes usar *pyuic.py* se encuentra en \"C   *Python27\\Lib\\N-sitio-packages\\N-PyQt4\\Npyuic.py\" (para Windows)
 
 
 <div class="mw-translate-fuzzy">
@@ -97,7 +97,7 @@ puedes crear un archivo convertuitopy.bat para automatizar el proceso
 
 </div>
 
-\'\' 1   *'\'\' Crear un nuevo archivo en el directorio de trabajo de Qt y nombrarlo *\'convertuitopy.bat*.
+*1   ***Crear un nuevo archivo en el directorio de trabajo de Qt y nombrarlo**convertuitopy.bat*.
 
 \"2   *" Edita el archivo y pega esta línea allí.
 
@@ -127,7 +127,7 @@ Windows    * \"**C   *Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
 ## Guión
 
-The contents of the file **Qt\_Example.FCMacro** are given below   *
+The contents of the file **Qt_Example.FCMacro** are given below   *
 
 
 {{MacroCode|code=

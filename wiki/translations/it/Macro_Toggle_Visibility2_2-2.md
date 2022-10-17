@@ -25,11 +25,11 @@ Copia le macro e le icone nelle macro delle cartelle ed esegui (vedi [Comme inst
 
 ## Script
 
-Questa macro rende visibili tutti gli oggetti rispettando gli oggetti visibili e nascosti originali dopo l\'uso di [Macro\_Toggle\_Visibility2\_1-2](Macro_Toggle_Visibility2_1-2/it.md) macro.
+Questa macro rende visibili tutti gli oggetti rispettando gli oggetti visibili e nascosti originali dopo l\'uso di [Macro_Toggle_Visibility2_1-2](Macro_Toggle_Visibility2_1-2/it.md) macro.
 
 ToolBar Icon <img alt="" src=images/Macro_VisibleAlls2.png  style="width   *64px;">
 
-**Macro\_DisplayAllObjects2\_2-2.FCMacro**
+**Macro_DisplayAllObjects2_2-2.FCMacro**
 
 
 {{MacroCode|code=

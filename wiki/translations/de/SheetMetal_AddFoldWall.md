@@ -120,18 +120,18 @@ Die Biegelinien könnten mit einem anderen Werkzeug erstellt werden, aber hey, w
     2.  Schaltfläche  oder das Tastenkürzel  <img alt="" src=images/SheetMetal_AddFoldWall-02.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-03.png  style="width   *280px;"> 
 2.  Abkanten der Vorderkante
     1.  **Unterseite** der Platine auswählen
-    2.  Die \'\'\'Skizze \'\'\' namens ***Tip Fold line*** auswählen (vorzugsweise aus der Baumansicht)  (und nicht die Steuerung- bzw. Befehlstaste vergessen)
+    2.  Die **Skizze** namens ***Tip Fold line*** auswählen (vorzugsweise aus der Baumansicht)  (und nicht die Steuerung- bzw. Befehlstaste vergessen)
     3.  Schaltfläche  oder das Tastenkürzel  <img alt="" src=images/SheetMetal_AddFoldWall-10.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-04.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-05.png  style="width   *280px;">
     4.  Die Kante sollte 90° nach unten zeigen, d.h. einige werte des Eigenschaftenfensters müssen geändert werden z.B.   *  - Der Wert des *Biegewinkels* **angle** auf 60°  - Der Wert für *Biegerichtung umkehren* **invert** auf true für eine Kantung nach oben  
 3.  Abkanten nach unten
     1.  **Unterseite** der Platine auswählen
-    2.  Die \'\'\'Skizze \'\'\' namens ***Down-Fold line*** auswählen (vorzugsweise aus der Baumansicht)
+    2.  Die **Skizze** namens ***Down-Fold line*** auswählen (vorzugsweise aus der Baumansicht)
     3.  Schaltfläche  oder das Tastenkürzel  <img alt="" src=images/SheetMetal_AddFoldWall-11.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-06.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-07.png  style="width   *280px;">
     4.  Den Wert des *Biegewinkels* **angle** auf 92° setzen
     5.  Wenn die falsche Seite des Teiles bewegt wurde, den Wert für *Abzukantende Seite wechseln* **invertbend** auf true setzen  
 4.  Abkanten nach oben
     1.  **Unterseite** der Platine auswählen
-    2.  Die \'\'\'Skizze \'\'\' namens ***Up-Fold line*** auswählen (vorzugsweise aus der Baumansicht)
+    2.  Die **Skizze** namens ***Up-Fold line*** auswählen (vorzugsweise aus der Baumansicht)
     3.  Schaltfläche  oder das Tastenkürzel  <img alt="" src=images/SheetMetal_AddFoldWall-12.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-08.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-09.png  style="width   *280px;">
     4.  Den Wert des *Biegewinkels* **angle** auf 80° setzen
     5.  Wenn die Kantung nach unten ausgeführt wurde, Wert für *Biegerichtung umkehren* **invert** auf true setzen

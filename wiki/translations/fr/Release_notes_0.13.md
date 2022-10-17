@@ -25,13 +25,13 @@ Les versions plus anciennes    * [0.12](Release_notes_0.12/fr.md) - [0.11](Relea
 
 ## Module esquisse (Sketcher) 
 
--   *\' Création de point*\'
+-   **Création de point**
 
 ![](images/Release-0.13-PointTool.png )
 
 Les points peuvent maintenant être ajoutés et utilisés comme un élément à part entière dans l\'esquisse.
 
--   *\' Origine d\'esquisse*\'
+-   **Origine d\'esquisse**
 
 ![](images/Release-0.13-Origin.png )
 
@@ -65,7 +65,7 @@ Les géométrie (points, lignes et courbes) peuvent être sélectionnés en fais
 
 -   **Appliquer une esquisse sur une face** est un nouvel outil qui permet d\'associer une esquisse existante à la face sélectionnée d\'un solide. Ceci permet l\'utilisation de l\'esquisse pour des fonctions telles que Protrusion ou Cavité ([exemple sur le forum](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3907&p=30704#p30704)).
 
--   *\' Petites améliorations   **\'
+-   **Petites améliorations   ***
     -   Lors de la construction d\'une géométrie, une info-bulle s\'affiche à côté du curseur, donnant des informations sur la commande.
     -   L\'outil **Vue normale au plan d\'esquisse** fait maintenant partie de la barre d\'outil du module Sketcher pour un accès rapide.
 

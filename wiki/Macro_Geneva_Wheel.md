@@ -41,7 +41,7 @@ This Macro creates the main parts of a Geneva Wheel Mechanism. It depends on six
 
 ToolBar Icon ![](images/GW_Dim.png )
 
-**Macro\_Geneva\_Wheel.FCMacro**
+**Macro_Geneva_Wheel.FCMacro**
 
 
 {{MacroCode|code=

@@ -46,7 +46,7 @@ Klikněte na obrázek, v novém okně umístěte myš nad obrázek, klikněte pr
 
 ## Skript
 
-**Macro\_CenterFace.FCMacro**
+**Macro_CenterFace.FCMacro**
 
 
 {{MacroCode|code=

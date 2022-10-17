@@ -32,7 +32,7 @@ Un objet Part Intégrer est créé, avec le mode défini sur \'Embed\' (Intégr�
 
 -    **Tool**   * Référence à l\'objet Insert (l\'objet à incorporer). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
 
--    **Mode**   * Le mode opératoire est égal à \'Intégrer\' (Changer ce qui transformera l\'Insert en une autre Part\_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé de Base et Insert sera créé, ce qui est une opération rapide).
+-    **Mode**   * Le mode opératoire est égal à \'Intégrer\' (Changer ce qui transformera l\'Insert en une autre Part_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé de Base et Insert sera créé, ce qui est une opération rapide).
 
 -    **Refine**   * Définit si l\'opération [Affiner](Part_RefineShape/fr.md) doit être appliquée ou non à la forme finale. La valeur par défaut est déterminée par une case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est réglée sur \"bypass\", Affiner est ignoré (jamais appliqué).
 

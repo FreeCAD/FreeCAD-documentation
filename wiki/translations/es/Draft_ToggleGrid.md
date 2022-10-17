@@ -16,8 +16,6 @@
 
 The <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> **Draft ToggleGrid** command switches the grid on or off. The grid can only be used if the **Use grid** preference is selected. See [Preferences](#Preferences.md).
 
-In FreeCAD version 0.19 the grid is always displayed when a command becomes active and toggling the grid while a command is active does not work.
-
 ## Usage
 
 For general information about snapping see [Draft Snap](Draft_Snap.md).

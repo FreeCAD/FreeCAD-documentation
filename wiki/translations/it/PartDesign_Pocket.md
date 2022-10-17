@@ -17,7 +17,7 @@ Lo strumento **Tasca** scava un solido estrudendo uno schizzo, o una faccia di u
 
 </div>
 
-![](images/PartDesign_Pocket_example.svg ) \'\'A sinistra lo schizzo del profilo (A) è mappato sulla faccia superiore del solido di base (B); a destra il risultato della tasca. \'\'
+![](images/PartDesign_Pocket_example.svg ) *A sinistra lo schizzo del profilo (A) è mappato sulla faccia superiore del solido di base (B); a destra il risultato della tasca.*
 
 ## Usage
 

@@ -82,7 +82,7 @@ Ceci analyse votre répertoire de projet pour les fichiers contenant des chaîne
  TRANSLATIONS += MyMod_de.ts
 ```
 
-Vous pouvez ajouter manuellement des fichiers ici. La section TRANSLATIONS contient une liste de fichiers avec la traduction pour chaque langue. Dans l\'exemple ci-dessus, *MyMod\_de.ts* est la traduction allemande.
+Vous pouvez ajouter manuellement des fichiers ici. La section TRANSLATIONS contient une liste de fichiers avec la traduction pour chaque langue. Dans l\'exemple ci-dessus, *MyMod_de.ts* est la traduction allemande.
 
 Vous devez maintenant exécuter lupdate pour extraire tous les littéraux de chaîne de votre interface graphique. L\'exécution de lupdate après des modifications du code source est toujours sûre, car elle ne supprime jamais les chaînes de vos fichiers de traduction. Il ajoute seulement de nouvelles chaînes.
 
@@ -114,7 +114,7 @@ Pour faciliter la localisation des fichiers py, vous pouvez utiliser l\'outil \"
 pylupdate4 *.py -ts YourModule_fr.ts 
 ```
 
-l\'outil pylupdate analysera vos fichiers .py à la recherche des fonctions translate() ou tr() et créera un fichier YourModule\_fr.ts. Ce fichier peut être traduit avec QLinguist et un fichier YourModule\_fr.qm produit à partir de QLinguist ou avec la commande
+l\'outil pylupdate analysera vos fichiers .py à la recherche des fonctions translate() ou tr() et créera un fichier YourModule_fr.ts. Ce fichier peut être traduit avec QLinguist et un fichier YourModule_fr.qm produit à partir de QLinguist ou avec la commande
 
 
 ```python
@@ -141,7 +141,7 @@ Vous pouvez également créer le fichier XML Draft.qrc avec le contenu suivant  
 </RCC> 
 ```
 
-et exécutant pyrcc4 Draft.qrc -o qrc\_Draft.py crée un grand fichier Python contenant toutes les ressources. BTW cette approche fonctionne également pour mettre des fichiers d\'icônes dans un fichier de ressources
+et exécutant pyrcc4 Draft.qrc -o qrc_Draft.py crée un grand fichier Python contenant toutes les ressources. BTW cette approche fonctionne également pour mettre des fichiers d\'icônes dans un fichier de ressources
 
 
 {{docnav/fr

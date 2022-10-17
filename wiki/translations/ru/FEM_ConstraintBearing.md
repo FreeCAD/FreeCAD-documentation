@@ -5,17 +5,17 @@
 
 </div>
 
-## Description
+## Описание
 
-Not supported by CalculiX Interface!
+Не поддерживается интерфейсом CalculiX!
 
-## Usage
+## Применение
 
-## Options
+## Опции
 
-## Properties
+## Свойства
 
-## Scripting
+## Программирование
 
 
 

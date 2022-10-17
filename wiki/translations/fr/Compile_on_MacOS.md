@@ -79,17 +79,17 @@ Ensuite, nous allons lancer CMake pour générer la configuration de constructio
 
 ### Les options de CMake 
 
-  Nom                           Valeur                                     Remarques
+  Nom                        Valeur                                     Remarques
     
-  CMAKE\_BUILD\_TYPE            Release (STRING)                           Release ou Debug. Le débogage est généralement utilisé pour les tests au niveau développeur mais peut également être requis pour des tests et le dépannage au niveau utilisateur.
-  BUILD\_QT5                    1 (BOOL)                                   Nécessaire pour un build avec Qt5.
-  CMAKE\_PREFIX\_PATH           \"/usr/local/opt/qt5152;\" \... (Chemin)   Nécessaire pour un build avec Qt5. Voir la remarque ci-dessous. Vous devez également ajouter le chemin d\'accès au fichier de configuration cmake des librairies VTK et NGLIB.
-  FREECAD\_CREATE\_MAC\_APP     1 (BOOL)                                   Crée un paquet FreeCAD.app à l\'emplacement spécifié dans CMAKE\_INSTALL\_PREFIX lorsque la commande \'make install\' a été émise.
-  CMAKE\_INSTALL\_PREFIX        \"./..\" (PATH)                            Chemin où vous souhaitez générer le paquet FreeCAD.app.
-  FREECAD\_USE\_EXTERNAL\_KDL   1 (BOOL)                                   Nécessaire.
-  BUILD\_FEM\_NETGEN            1 (BOOL)                                   Requis si vous choisissez de construire les outils FEM.
+  CMAKE_BUILD_TYPE           Release (STRING)                           Release ou Debug. Le débogage est généralement utilisé pour les tests au niveau développeur mais peut également être requis pour des tests et le dépannage au niveau utilisateur.
+  BUILD_QT5                  1 (BOOL)                                   Nécessaire pour un build avec Qt5.
+  CMAKE_PREFIX_PATH          \"/usr/local/opt/qt5152;\" \... (Chemin)   Nécessaire pour un build avec Qt5. Voir la remarque ci-dessous. Vous devez également ajouter le chemin d\'accès au fichier de configuration cmake des librairies VTK et NGLIB.
+  FREECAD_CREATE_MAC_APP     1 (BOOL)                                   Crée un paquet FreeCAD.app à l\'emplacement spécifié dans CMAKE_INSTALL_PREFIX lorsque la commande \'make install\' a été émise.
+  CMAKE_INSTALL_PREFIX       \"./..\" (PATH)                            Chemin où vous souhaitez générer le paquet FreeCAD.app.
+  FREECAD_USE_EXTERNAL_KDL   1 (BOOL)                                   Nécessaire.
+  BUILD_FEM_NETGEN           1 (BOOL)                                   Requis si vous choisissez de construire les outils FEM.
 
-Remarque    * ligne de commande pour générer CMAKE\_PREFIX\_PATH    *
+Remarque    * ligne de commande pour générer CMAKE_PREFIX_PATH    *
 
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
@@ -158,7 +158,7 @@ FreeCAD est passé de Qt 4 à Qt 5 comme homebrew. Qt 4 n\'est plus disponible e
 
 ### Un segfault sur le lancement de Qt5 
 
-Si Qt4 a été précédemment installé via Homebrew et que vous faites un build ensuite avec Qt5, vous pouvez obtenir une exception EXC\_BAD\_ACCESS (SEGSEGV) lors du lancement de la nouvelle version de Qt5. Le correctif consiste à désinstaller manuellement Qt4.
+Si Qt4 a été précédemment installé via Homebrew et que vous faites un build ensuite avec Qt5, vous pouvez obtenir une exception EXC_BAD_ACCESS (SEGSEGV) lors du lancement de la nouvelle version de Qt5. Le correctif consiste à désinstaller manuellement Qt4.
 
 
 ```python
@@ -167,11 +167,11 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 
 ### Fortran
 
-*\"No CMAKE\_Fortran\_COMPILER could be found.\"* (Aucun CMAKE\_Fortran\_COMPILER n\'a pu être trouvé) lors de la configuration - Les anciennes versions de FreeCAD nécessiteront l\'installation d\'un compilateur Fortran. Avec Homebrew, faites \"brew install gcc\" et essayez à nouveau de configurer cmake en donnant le chemin à Fortran, c\'est-à-dire -DCMAKE\_Fortran\_COMPILER=/opt/local/bin/gfortran-mp-4.9, ou utilisez de préférence une version plus récente de la source FreeCAD!
+*\"No CMAKE_Fortran_COMPILER could be found.\"* (Aucun CMAKE_Fortran_COMPILER n\'a pu être trouvé) lors de la configuration - Les anciennes versions de FreeCAD nécessiteront l\'installation d\'un compilateur Fortran. Avec Homebrew, faites \"brew install gcc\" et essayez à nouveau de configurer cmake en donnant le chemin à Fortran, c\'est-à-dire -DCMAKE_Fortran_COMPILER=/opt/local/bin/gfortran-mp-4.9, ou utilisez de préférence une version plus récente de la source FreeCAD!
 
 ### FreeType
 
-Si vous utilisez des versions de CMake antérieures à la version 3.1.0, il est nécessaire de définir la variable CMake FREETYPE\_INCLUDE\_DIR\_freetype2 manuellement, par exemple /usr/local/include/freetype2.
+Si vous utilisez des versions de CMake antérieures à la version 3.1.0, il est nécessaire de définir la variable CMake FREETYPE_INCLUDE_DIR_freetype2 manuellement, par exemple /usr/local/include/freetype2.
 
 ### Instructions de compilation supplémentaires 
 
@@ -183,7 +183,7 @@ FreeCAD peut être construit à partir du dernier master git hébergé sur githu
 
 
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

@@ -56,7 +56,7 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 -   python updatecrowdin.py build (will create a zip on crowdin side with all the files, can take a while.. This step can also be done on the crowdin website)
 -   python updatecrowdin.py download (will download a freecad.zip file in this directory)
 -   mv freecad.zip \~ move the zip file to your home dir, to avoid accidentally committing it later)
--   (optional) edit updatefromcrowdin.py script and check that the default\_languages contain all the ones you want (basically all that are at more than 50%)
+-   (optional) edit updatefromcrowdin.py script and check that the default_languages contain all the ones you want (basically all that are at more than 50%)
 -   python updatefromcrowdin.py -z /home/YourUser/freecad.zip
 -   cd ../.. (go back to the source code root folder)
 -   if something went wrong or you are unsure, clean everything with git checkout .

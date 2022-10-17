@@ -12,20 +12,20 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *24px;"> **Fasteners ParameterÄndern** kann verwendet werden, um die Parameter ausgewählter Verbindungselemente zu ändern.
+Der Befehl <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *24px;"> **Fasteners ParameterÄndern** kann verwendet werden, um die Parameter von Verbindungselementen zu ändern.
 
 ## Anwendung
 
-1.  Select one or more fasteners. If multiple fasteners are selected they must be either only screws, only washers or only nuts.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_ChangeParameters.svg" width=16px> [Fasteners ChangeParameters](Fasteners_ChangeParameters.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_ChangeParameters.svg" width=16px> Change fastener parameters** option from the menu.
-3.  The **Change fastener parameters** task panel open.
-4.  Optionally change the **Fastener type**.
-5.  Optionally change the diameter by doing one of the following   *
-    -   Check the **Auto set diameter** checkbox to match the diameter of the fasteners with the edge they are attached to.
-    -   Uncheck the **Auto set diameter** checkbox and select a **Diameter** from the dropdown list.
-6.  Leave the **Set length** check box unchecked. This option currently does not work.
+1.  Ein oder mehrere Verbindungselemente auswählen. Wenn mehrere Verbindungselemente ausgewählt werden, darf die Auswahl entweder nur Schrauben, nur Scheiben oder nur Muttern enthalten.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Fasteners_ChangeParameters.svg" width=16px> [Change fastener parameters](Fasteners_ChangeParameters/de.md)** drücken.
+    -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_ChangeParameters.svg" width=16px> Change fastener parameters** auswählen.
+3.  Der Aufgabenbereich **Change fastener parameters** wird geöffnet.
+4.  Wahlweise die art des Verbindungselements (**Fastener type**) ändern.
+5.  Wahlweise den Durchmesser ändern mit einer der folgenden Möglichkeiten   *
+    -   Checkbox **Auto set diameter** aktivieren, um den Durchmesser der Verbindungselemente an die Kante anzupassen, an die sie befestigt werden.
+    -   Checkbox **Auto set diameter** deaktivieren und einen Durchmesser (**Diameter**) aus der Ausklappliste auswählen.
+6.  Die Checkbox **Set length** deaktiviert lassen. Diese Möglichkeit funktioniert noch nicht.
 
 
 

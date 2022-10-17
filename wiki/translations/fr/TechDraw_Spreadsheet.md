@@ -1,5 +1,5 @@
 # TechDraw Spreadsheet/fr
-1.  REDIRECT [TechDraw\_SpreadsheetView/fr](TechDraw_SpreadsheetView/fr.md)
+1.  REDIRECT [TechDraw_SpreadsheetView/fr](TechDraw_SpreadsheetView/fr.md)
 
 
 

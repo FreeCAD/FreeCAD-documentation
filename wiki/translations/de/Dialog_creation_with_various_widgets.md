@@ -277,7 +277,7 @@ self.pushButton.setLayoutDirection(QtCore.Qt.RightToLeft) # This command reverse
 
 Eine andere Methode zur Anzeige eines Fensters, hier durch die Erstellung einer Datei **QtForm.py**, die das Kopfzeilenprogramm (Modul, das mit **import QtForm** aufgerufen wird) und ein zweites Modul enthält, das das Code Fenster, all dieses Zubehör und deinen Code (das aufrufende Modul) enthält.
 
-Diese Methode erfordert zwei separate Dateien, erlaubt es aber, dein Programm mit Hilfe der Datei \'\' QtForm.py \'\' import zu kürzen. Verteile dann die beiden Dateien zusammen, sie sind untrennbar.
+Diese Methode erfordert zwei separate Dateien, erlaubt es aber, dein Programm mit Hilfe der Datei *QtForm.py* import zu kürzen. Verteile dann die beiden Dateien zusammen, sie sind untrennbar.
 
 Die Datei **QtForm.py** 
 ```python
@@ -317,7 +317,7 @@ class Form(object)   *
       control.setText(_translate(self.title, text, None))
 ``` Die aufrufende Datei, die das Fenster und Ihren Code enthält.
 
-Die Datei my\_file.py
+Die Datei my_file.py
 
 Die Verbindungen fehlen noch, eine gute Übung. 
 ```python
@@ -364,7 +364,7 @@ myWindow.show()
 
 <center>
 
-Image   *Qt\_Example\_00.png\|Qt-Beispiel 1 Image   *Qt\_Example\_01.png\|Qt-Beispiel-Details
+Image   *Qt_Example_00.png\|Qt-Beispiel 1 Image   *Qt_Example_01.png\|Qt-Beispiel-Details
 
 
 </center>
@@ -391,7 +391,7 @@ Behandelt werden   *
 15. textEdit
 16. Grafikansicht mit zwei Graphen (graphicsView with 2 graphes)
 
-Die Code-Seite und die Piktogramme [Qt\_Beispiel](Qt_Example/de.md)
+Die Code-Seite und die Piktogramme [Qt_Beispiel](Qt_Example/de.md)
 
 
  

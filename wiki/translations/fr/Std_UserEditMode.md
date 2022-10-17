@@ -16,9 +16,7 @@ La commande **Std Mode d\'édition** définit le mode d\'édition à utiliser lo
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande    *
-    -   Cliquez sur la flèche noire descendante à droite du bouton **<img src="images/Std_UserEditModeDefault.svg" width=16px> [Mode d'édition](Std_UserEditMode/fr.md)** et sélectionnez un mode d\'édition dans le menu déroulant. Remarque    * l\'image du bouton change en fonction de l\'option sélectionnée.
-    -   Dans le menu, allez à **Édition → Mode d'édition** et sélectionnez un mode d\'édition.
+1.  Dans le menu, allez à **Edition → Mode d'édition** et sélectionnez un mode d\'édition.
 
 ## Modes d\'édition disponibles 
 

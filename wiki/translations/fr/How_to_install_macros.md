@@ -137,7 +137,7 @@ Le `$ROOT_DIR` pourrait être le répertoire d\'un utilisateur particulier.
 
 Dans les versions précédentes de FreeCAD, vous pouviez utiliser deux méthodes automatisées pour installer des macros et d'autres addons   *
 
--   [addons\_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * elle-même une macro, elle était le précurseur du gestionnaire d\'addon et est hébergée dans le répertoire [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Vous n\'avez pas besoin d\'utiliser cet outil dans les nouvelles installations de FreeCAD.
+-   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * elle-même une macro, elle était le précurseur du gestionnaire d\'addon et est hébergée dans le répertoire [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Vous n\'avez pas besoin d\'utiliser cet outil dans les nouvelles installations de FreeCAD.
 -   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * également une macro, elle pourrait être utilisée pour installer de nouveaux composants dans FreeCAD. Ce n\'est plus développé.
 
 La méthode recommandée pour installer des addons, c\'est-à-dire des [Ateliers externes](External_workbenches/fr.md) et les macros, est le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Toutefois, vous pouvez toujours ajouter des macros à votre système avec les méthodes manuelles décrites dans les sections suivantes. Ceci est utile si vous développez et testez votre propre code.
@@ -215,7 +215,7 @@ Redémarrez FreeCAD pour enregistrer correctement la nouvelle macro.
 
 Créez un nouveau document avec **Fichier → <img src="images/Std_New.svg" width=16px> [Nouveau](Std_New/fr.md)** puis répétez les étapes précédentes pour exécuter la macro.
 
-![](images/Macro_Install_HowTo_23.png ) 
+![](images/Macro_Install_HowTo_23.png) 
 *align=center|La macro renvoyant une erreur si aucun document n'est actif*
 
 12\. Lorsqu\'un document actif est disponible, la macro s\'exécute et crée un objet.

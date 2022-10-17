@@ -108,13 +108,13 @@ The required area of steel at the central support can be obtained with a ParaVie
 
 The panel at the bottom of this picture shows that the total required steel area at this cross section is 389.6 mm\^2. As one reinforcement bar of diameter 12mm has a cross sectional area of 113mm\^2, it means that 4 bars would be required, giving a cross sectional area of 452 mm\^2. These would need to be placed near the top of the beam, while maintaining sufficient concrete cover. The theoretical center of gravity for the reinforcement can be found by integration   *
 
-CoG\_y = Integrate (rx \* y dy dz) / Integrate (rx dy dz)
+CoG_y = Integrate (rx \* y dy dz) / Integrate (rx dy dz)
 
    CoG_z = Integrate (rx * z dy dz) / Integrate (rx dy dz)
 
 These integrals can also be determined with ParaView and give for the present case (see bottom panels in the above picture)   *
 
-CoG\_y = 38961 / 389.6 = 100.0 mm
+CoG_y = 38961 / 389.6 = 100.0 mm
 
    CoG_z = 134917 / 389.6 = 346.3 mm
 

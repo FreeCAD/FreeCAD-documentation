@@ -123,7 +123,7 @@ class Ui_Dialog(object)   *
         Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Dialog", None, QtGui.QApplication.UnicodeUTF8))
         self.title.setText(QtGui.QApplication.translate("Dialog", "Plane-O-Matic", None, QtGui.QApplication.UnicodeUTF8))
         ...
-``` Comme vous voyez, il a une structure très simple   * une classe nommée **Ui\_Dialog** est créé, qui stocke les éléments de l\'interface de notre widget.
+``` Comme vous voyez, il a une structure très simple   * une classe nommée **Ui_Dialog** est créé, qui stocke les éléments de l\'interface de notre widget.
 Cette classe dispose de deux méthodes, une pour la mise en place du widget, et l\'autre pour traduire son contenu, qui fait partie du mécanisme général de Qt pour la traduction des éléments d\'interface. La méthode de configuration, crée simplement, un par un, les widgets tels que nous les avons définis dans Qt Designer, et définit leurs options aussi comme nous avons décidé plus tôt. Puis, toute l\'interface est traduite, et enfin, les \"slots\" se connectent (nous en reparlerons plus tard).
 
 Nous pouvons maintenant créer un nouveau widget, et utiliser cette classe pour créer son interface. Nous pouvons déjà voir notre widget en action, en mettant notre fichier mywidget.py dans un endroit où FreeCAD la trouvera (dans le répertoire bin FreeCAD, ou dans l\'un des sous-répertoires Mod), et, dans l\'interpréteur Python de FreeCAD, faisons   * 
@@ -153,7 +153,7 @@ Ce que nous allons faire ici, c\'est créer une nouvelle fonction qui permettra 
 Donc, nous allons commencer par importer nos modules FreeCAD, en mettant la ligne suivante en haut du script, où nous importons déjà **QtCore** et **QtGui**   * 
 ```python
 import FreeCAD, Part
-``` Ensuite, nous allons ajouter une nouvelle fonction à notre classe **Ui\_Dialog**   * 
+``` Ensuite, nous allons ajouter une nouvelle fonction à notre classe **Ui_Dialog**   * 
 ```python
 def createPlane(self)   *
     try   *
@@ -178,7 +178,7 @@ def createPlane(self)   *
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
 ``` Il s\'agit, comme vous le voyez, de relier le signal du bouton enfoncé de l\'objet a créer (**\"Create!\" Bouton**), à un emplacement nommé **createPlane**, dont nous venons de définir.
 Ça y est ! Maintenant, la touche finale, nous pouvons ajouter une petite fonction, pour créer la boîte de dialogue, elle sera plus facile a appeler.
-En dehors de la classe **Ui\_Dialog class**, nous allons ajouter le code suivant   * 
+En dehors de la classe **Ui_Dialog class**, nous allons ajouter le code suivant   * 
 ```python
 class plane()   *
    def __init__(self)   *

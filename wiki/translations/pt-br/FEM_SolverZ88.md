@@ -35,7 +35,7 @@ To use the Z88 solver, the OpenSource version of Z88 (Z88OS) needs to be install
 4.  Click the **Write** button.
 5.  Click the **Run** button.
 
-As a result you get an object called *Z88\_xxx\_results* (depending on the run simulation) in the [Tree view](Tree_view.md). This is the same kind of result object one gets when running the [CalculiX solver](FEM_SolverCalculixCxxtools.md). Starting from this, you can visualize the results using [Post Pipeline](FEM_PostPipelineFromResult.md) and [Clip Filters](FEM_Workbench#Menu__Results.md).
+As a result you get an object called *Z88_xxx_results* (depending on the run simulation) in the [Tree view](Tree_view.md). This is the same kind of result object one gets when running the [CalculiX solver](FEM_SolverCalculixCxxtools.md). Starting from this, you can visualize the results using [Post Pipeline](FEM_PostPipelineFromResult.md) and [Clip Filters](FEM_Workbench#Menu__Results.md).
 
 ## Preferences
 

@@ -25,7 +25,7 @@ Le script peut être modifiés pour être utilisé avec n\'importe quel logiciel
 
 ToolBar Icon ![](images/Macro_3d_Printer_Slicer.png )
 
-**Macro\_3d\_Printer\_Slicer.py**
+**Macro_3d_Printer_Slicer.py**
 
 
 {{MacroCode|code=

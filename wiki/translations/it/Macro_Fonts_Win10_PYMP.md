@@ -61,7 +61,7 @@ Lancia la macro cerca la tua font è applica
 
 {{Incode|Menu → Tools → User parameter    * BaseApp/Preferences/Macros/FCMmacros/Fonts Win10 PYMP}}
 
--   \'\' \'SwitchModeTextList\' \'\'
+-   *\'SwitchModeTextList\'*
     -   
         `False`
         
@@ -71,18 +71,18 @@ Lancia la macro cerca la tua font è applica
         `True`
         
         consente switchFontComBox
--   \'\' \'SwitchFontComBox\' \'\'
+-   *\'SwitchFontComBox\'*
     -   
         `False`
         
         (e switchModeTextList = `True`) modalità di testo più veloce (a colori) nell\'elenco ComboBox
 
     -   L\'elenco `True` (e switchModeTextList = `True`) in ComboBox viene visualizzato in fontFamily, più lento ma più bello!
--   \'\' \'SetSystemFonts\' \'\'
+-   *\'SetSystemFonts\'*
     -   
         `False`
         
-        matplotlib.font\_manager.findSystemFonts (\"C   * /\", \"ttf\")
+        matplotlib.font_manager.findSystemFonts (\"C   * /\", \"ttf\")
 
         -   fa tutti le polizia (in tutte le cartelle e sottocartelle del DD) tempo !!
 
@@ -92,7 +92,7 @@ Lancia la macro cerca la tua font è applica
         fontman.findSystemFonts (self.pathFont)
 
         -   esegui tutti le font nella directory (e in tutte le sottocartelle)
--   \'\' \'SeTtextAlignement\' \'\'
+-   *\'SeTtextAlignement\'*
     -   0 = AlignLeft (impostazione predefinita)
     -   1 = AlignCenter
     -   2 = AlignRight

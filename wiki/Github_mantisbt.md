@@ -1,5 +1,5 @@
 # Github mantisbt
-1.  REDIRECT [Tracker\#GitHub\_and\_MantisBT](Tracker#GitHub_and_MantisBT.md)
+1.  REDIRECT [Tracker#GitHub_and_MantisBT](Tracker#GitHub_and_MantisBT.md)
 
 
 

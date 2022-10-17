@@ -45,7 +45,7 @@ If there are more than two profiles, the surfaces are made of splines in the sam
 
 The splines are B-spline interpolation.
 
--   If the number of profiles is below 10, interpolation is done with by a B-spline with a maximum possible degree (i.e. degree = number\_of\_profiles - 1).
+-   If the number of profiles is below 10, interpolation is done with by a B-spline with a maximum possible degree (i.e. degree = number_of_profiles - 1).
 -   If the number of profiles exceeds 10, the interpolation is switched to 3rd degree B-splines.
 
 The knotting method used is \"approximate chord length\". Approximate stands for the fact that the knot vector is exactly the same for every spline in a loft. For more info on what is B-spline interpolation, knot vector, chord length method, see, for example, [cs.mtu.edu Curve Global Interpolation](http   *//www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/INT-APP/CURVE-INT-global.html).

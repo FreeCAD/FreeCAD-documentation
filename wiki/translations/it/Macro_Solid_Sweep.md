@@ -61,7 +61,7 @@ Nella seguente figura tutte le estrusioni sono realizzate utilizzando la stessa 
 
 ToolBar Icon ![](images/Macro_Solid_Sweep.png )
 
-**Macro\_Solid\_Sweep.FCMacro**
+**Macro_Solid_Sweep.FCMacro**
 
 
 {{MacroCode|code=

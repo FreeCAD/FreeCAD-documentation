@@ -354,7 +354,7 @@ So all we need to do now is select the door, press the [Draft Clone](Draft_Clone
 
 <img alt="" src=images/Arch_tutorial_24.jpg  style="width   *400px;">
 
-Acum ar fi un moment bun pentru a face un pic de curățenie de casă. Din moment ce avem deja două ferestre, este un moment bun să facem o curățare în arborescența vizualizărilor   * Creați un nou grup [Std\_Group ](Std_Group.md), redenumiți-l \"windows\" și plasați cele 2 ferestre în el. De asemenea, vă recomandăm să separați alte elemente în acest fel, cum ar fi pereții și structurile. Deoarece puteți crea și grupuri [groups](Std_Group.md) în interiorul grupurilor, le puteți organiza mai departe, de exemplu prin plasarea tuturor elementelor care formează acoperișul într-un grup separat, astfel încât este ușor să activați și să dezactivați (să faceți un grup vizibil sau invizibil și să faceți același lucru cu toate obiectele din interior).
+Acum ar fi un moment bun pentru a face un pic de curățenie de casă. Din moment ce avem deja două ferestre, este un moment bun să facem o curățare în arborescența vizualizărilor   * Creați un nou grup [Std_Group ](Std_Group.md), redenumiți-l \"windows\" și plasați cele 2 ferestre în el. De asemenea, vă recomandăm să separați alte elemente în acest fel, cum ar fi pereții și structurile. Deoarece puteți crea și grupuri [groups](Std_Group.md) în interiorul grupurilor, le puteți organiza mai departe, de exemplu prin plasarea tuturor elementelor care formează acoperișul într-un grup separat, astfel încât este ușor să activați și să dezactivați (să faceți un grup vizibil sau invizibil și să faceți același lucru cu toate obiectele din interior).
 
 
 <div class="mw-translate-fuzzy">
@@ -623,7 +623,7 @@ Aceasta este o altă sarcină foarte importantă care trebuie efectuată pe mode
 
 **Using spreadsheets**
 
-To populate a spreadsheet with values extracted from the model the Arch\_Schedule tool can be used.
+To populate a spreadsheet with values extracted from the model the Arch_Schedule tool can be used.
 
 ![](images/Arch_schedule_example03.jpg )
 

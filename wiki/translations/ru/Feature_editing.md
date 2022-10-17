@@ -15,7 +15,7 @@
 
 ## Feature editing methodology 
 
-Первая feature обычно называется **base feature**. По мере добавления features к модели, каждая feature берёт форму предыдущей и добавляет или убирает matter, создавая последовательность зависимостей от одной feature к другой. Как результат, эта методология имитирует общие производственные процессы   * блок обрезается по одной стороне, затем по другой, добавляются отверстия, скругления и так далее.
+Первый конструктивный элемент обычно называется **базовым**. По мере добавления конструктивных элементов к модели, каждая конструктивный элемент берёт форму предыдущего и добавляет или убирает матерю, создавая последовательность зависимостей от одного элемента к другому. Как результат, эта методика повторяет общие производственные процессы   * блок обрезается по одной стороне, затем по другой, добавляются отверстия, скругления (галтели) и так далее.
 
 Все features перечислены последовательно в древе модели и могут редактироваться в любое время, где последняя feature внизу представляет итоговую деталь.
 
@@ -172,7 +172,7 @@ Sketches can be supported by the faces of previous solid operations. This may be
 
 Datum planes are useful to support the sketches. These auxiliary planes should be attached to the base planes of the body.
 
-\'\'Note   * In many cases, a sketch attached to a base plane with attachment offsets can accomplish the same function. Datums are particularly useful when multiple sketches or other constructs will use the datum. This means all changes to the datum will be apply to attached sketches, etc. Adding a single sketch to a datum, rather than using attachment offsets in the sketch properties, is an extra step and is essentially redundant. \'\'
+*Note   * In many cases, a sketch attached to a base plane with attachment offsets can accomplish the same function. Datums are particularly useful when multiple sketches or other constructs will use the datum. This means all changes to the datum will be apply to attached sketches, etc. Adding a single sketch to a datum, rather than using attachment offsets in the sketch properties, is an extra step and is essentially redundant.*
 
 As with sketches, it is possible to attach Datum planes to generated geometry (edges, faces of previously created solids), ***but this is not recommended*** since it can cause the topological naming problem.
 

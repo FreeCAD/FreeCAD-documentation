@@ -1,5 +1,5 @@
 # Ray Tracing Workbench/zh
-1.  REDIRECT [Raytracing\_Workbench/zh](Raytracing_Workbench/zh.md)
+1.  REDIRECT [Raytracing_Workbench/zh](Raytracing_Workbench/zh.md)
 
 
 

@@ -1,5 +1,5 @@
 # Draft LinkArray
-1.  REDIRECT [Draft\_OrthoArray](Draft_OrthoArray.md)
+1.  REDIRECT [Draft_OrthoArray](Draft_OrthoArray.md)
 
 
 

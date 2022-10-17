@@ -11,7 +11,7 @@
 
 ## Description
 
-Non supporté par l\'interface Interface!
+Pas supporté avec l\'interface Calculix
 
 ## Utilisation
 

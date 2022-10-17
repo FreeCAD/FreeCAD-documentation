@@ -400,7 +400,7 @@ def makeBCurveEdge(Points)   *
 
 ### Utwórz płaszczyznę 
 
-Płaszczyzna jest płaską prostokątną powierzchnią. Metoda używana do jej utworzenia to `makePlane(length, width, [start_pnt, dir_normal])`. Domyślnie start\_pnt = Vector(0, 0, 0) i dir\_normal = Vector(0, 0, 1). Użycie dir\_normal = Vector(0, 0, 1) spowoduje utworzenie płaszczyzny zwróconej w dodatnim kierunku osi Z, natomiast dir\_normal = Vector(1, 0, 0) utworzy płaszczyznę zwróconą w dodatnim kierunku osi X   *
+Płaszczyzna jest płaską prostokątną powierzchnią. Metoda używana do jej utworzenia to `makePlane(length, width, [start_pnt, dir_normal])`. Domyślnie start_pnt = Vector(0, 0, 0) i dir_normal = Vector(0, 0, 1). Użycie dir_normal = Vector(0, 0, 1) spowoduje utworzenie płaszczyzny zwróconej w dodatnim kierunku osi Z, natomiast dir_normal = Vector(1, 0, 0) utworzy płaszczyznę zwróconą w dodatnim kierunku osi X   *
 
 
 ```python
@@ -417,7 +417,7 @@ plane.BoundBox
 
 jest prostopadłościanem zamykającym płaszczyznę o przekątnej zaczynającej się w punkcie (3, 0, 0) i kończącej w punkcie (5, 0, 2). W tym przypadku grubość `BoundBox` wzdłuż osi Y wynosi zero, ponieważ nasz kształt jest całkowicie płaski.
 
-Uwaga   * `makePlane()` akceptuje tylko `App.Vector()` dla start\_pnt i dir\_normal, a nie krotki. {{Top}}
+Uwaga   * `makePlane()` akceptuje tylko `App.Vector()` dla start_pnt i dir_normal, a nie krotki. {{Top}}
 
 ### Utwórz elipsę 
 

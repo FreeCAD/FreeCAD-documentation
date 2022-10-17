@@ -1,5 +1,5 @@
 # Install on Linux/ro
-1.  REDIRECT [Installing\_on\_Linux/ro](Installing_on_Linux/ro.md)
+1.  REDIRECT [Installing_on_Linux/ro](Installing_on_Linux/ro.md)
 
 
 

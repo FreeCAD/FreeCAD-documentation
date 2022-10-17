@@ -19,7 +19,7 @@ Esta macro copia el objeto seleccionado varias veces, a lo largo de una matriz r
 
 ToolBar Icon ![](images/Macro_ArrayCopy.png )
 
-**Macro\_ArrayCopy.FCMacro**
+**Macro_ArrayCopy.FCMacro**
 
 
 {{MacroCode|code=

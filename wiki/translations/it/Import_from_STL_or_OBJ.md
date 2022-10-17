@@ -148,7 +148,7 @@ Dato che il solido creato in questo modo non ha cronologia e non ha funzioni mod
 
  
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

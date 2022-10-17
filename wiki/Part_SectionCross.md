@@ -1,5 +1,5 @@
 # Part SectionCross
-1.  REDIRECT [Part\_CrossSections](Part_CrossSections.md)
+1.  REDIRECT [Part_CrossSections](Part_CrossSections.md)
 
 
 

@@ -54,7 +54,7 @@ Copiare il file del codice nella directory   *
 -   **Linux & Mac**    * \$home/.Freecad/Mod/unfoldBox.
 -   **Windows**    * C   *Program Files\\FreeCAD0.13
 
-Aggiungere i modelli del foglio    * A3\_Landscape\_Empty.svg A3\_Landscape.svg A4\_Landscape\_Empty.svg A4\_Landscape.svg
+Aggiungere i modelli del foglio    * A3_Landscape_Empty.svg A3_Landscape.svg A4_Landscape_Empty.svg A4_Landscape.svg
 
 
 </div>
@@ -77,7 +77,7 @@ Forum topic   * [Macro for unfolding box surfaces](http   *//forum.freecadweb.or
 
 </div>
 
-![Macro\_unfoldBox](images/Macro_UnFoldBox_start_form.png )
+![Macro_unfoldBox](images/Macro_UnFoldBox_start_form.png )
 
 ## Usage
 
@@ -96,7 +96,7 @@ Forum topic   * [Macro for unfolding box surfaces](http   *//forum.freecadweb.or
 
 The unfolding algorithm will place the faces on the XY plane, however it seldom does the unfolding correctly. Thus some manual post-processing is needed to get to desired result, as shown in the picture below.
 
-![Macro\_unfoldBox](images/MacroUnFoldBoxInstruction.png )
+![Macro_unfoldBox](images/MacroUnFoldBoxInstruction.png )
 
 Starting point is a box like the upper left picture.
 
@@ -112,7 +112,7 @@ The finished result is shown in the lower right picture above.
 
 ToolBar icon ![](images/Macro_Unfold_Box.png )
 
-**Macro\_unfoldBox.FCMacro**
+**Macro_unfoldBox.FCMacro**
 
     # -*- coding   * utf-8 -*-
     """

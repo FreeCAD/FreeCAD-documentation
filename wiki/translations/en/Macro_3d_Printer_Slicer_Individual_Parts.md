@@ -25,7 +25,7 @@ The SLICERAPP variable can be changed to any slicing software of your choosing. 
 
 ToolBar Icon <img alt="" src=images/Macro_3d_Printer_Slicer_Individual_Parts.svg  style="width   *64px;">
 
-**Macro\_3d\_Printer\_Slicer\_Individual\_Parts.py**
+**Macro_3d_Printer_Slicer_Individual_Parts.py**
 
 
 {{MacroCode|code=

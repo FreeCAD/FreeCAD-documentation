@@ -37,7 +37,7 @@ Ces modèles sont grands mais affichés ici à 240 px de largeur.
 
 <img alt="" src=images/A4_Landscape.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Landscape_plain.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_ISO7200.svg  style="width   *240px;"> <img alt="" src=images/A4_Portrait_plain.svg  style="width   *240px;">
 
-L\'image suivante est \"A4\_Simple.svg\". C\'est une page vide.
+L\'image suivante est \"A4_Simple.svg\". C\'est une page vide.
 
 <img alt="" src=images/A4_Simple.svg  style="width   *240px;">
 

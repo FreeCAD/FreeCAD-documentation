@@ -77,7 +77,7 @@ Ten poradnik pokazuje, jak dostosować paski narzędzi do własnych potrzeb. Nar
 
 **3.** Utwórz pasek narzędzi poza obszarem roboczym **Makrodefinicji**, który zawiera utworzone **Makro-narzędzie**.
 
--   Wybierz zakładkę *\'Paski narzędzi* i wybierz Środowisko pracy *(dla którego przeznaczony jest pasek narzędzi)* w rozwijanej liście po prawej stronie *(*\'Part\'\' w tym przykładzie)\'\'.
+-   Wybierz zakładkę **Paski narzędzi*i wybierz Środowisko pracy*(dla którego przeznaczony jest pasek narzędzi)*w rozwijanej liście po prawej stronie*(**Part*w tym przykładzie)*.
 
      \[Od wersji 0.15 istnieje pasek  **[<img src=images/Freecad.svg style="width   *16px"> dostępny wszędzie** . W przypadku wybrania tej opcji, dostarczony pasek narzędzi będzie znajdował się w każdym Środowisku pracy.\]
 

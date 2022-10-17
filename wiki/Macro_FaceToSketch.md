@@ -18,7 +18,7 @@ This macro breaks down your form with function **<img src="images/Draft_Downgrad
 
 ToolBar Icon ![](images/Macro_FaceToSketch.png ) 
 
-**Macro\_FaceToSketch.FCMacro**
+**Macro_FaceToSketch.FCMacro**
 
 
 {{MacroCode|code=

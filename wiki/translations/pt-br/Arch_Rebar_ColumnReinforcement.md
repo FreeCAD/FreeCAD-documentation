@@ -104,7 +104,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Bottom Offset**   * The distance between rebar from the bottom face of the structure.
 
--    **Number#Diameter**   * Number\#Diameter set of the x-direction rebars.
+-    **Number#Diameter**   * Number#Diameter set of the x-direction rebars.
 
 **YDir Secondary Rebars   *** Rebars along y-direction except main rebars
 
@@ -120,7 +120,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    **Bottom Offset**   * The distance between rebar from the bottom face of the structure.
 
--    **Number#Diameter**   * Number\#Diameter set of the y-direction rebars.
+-    **Number#Diameter**   * Number#Diameter set of the y-direction rebars.
 
 ## Scripting
 
@@ -346,17 +346,17 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `main_hook_extension`is the length of hook of main LShaped rebars.
 
--    `sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir\_rebars\_t\_offset, ydir\_rebars\_t\_offset) and (xdir\_rebars\_b\_offset, ydir\_rebars\_b\_offset) respectively, that defines inner offset distances for the secondary x-direction and y-direction rebars with respect to the top and bottom faces of the structure, respectively.
+-    `sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t\_offset, ydir_rebars_t\_offset) and (xdir_rebars_b\_offset, ydir_rebars_b\_offset) respectively, that defines inner offset distances for the secondary x-direction and y-direction rebars with respect to the top and bottom faces of the structure, respectively.
 
--    `sec_rebars_number_diameter`is a tuple (xdir\_rebars\_number\_diameter, ydir\_rebars\_number\_diameter) that defines number\#diameter set of the secondary x-direction and y-direction rebars, respectively.
+-    `sec_rebars_number_diameter`is a tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) that defines number#diameter set of the secondary x-direction and y-direction rebars, respectively.
 
--    `sec_rebars_type`is a tuple (xdir\_rebars\_type, ydir\_rebars\_type) that defines the type of secondary x-direction and y-direction rebars ,respectively; it can have `"StraightRebar"` or `"LShapeRebar"` as rebar type.
+-    `sec_rebars_type`is a tuple (xdir_rebars_type, ydir_rebars_type) that defines the type of secondary x-direction and y-direction rebars ,respectively; it can have `"StraightRebar"` or `"LShapeRebar"` as rebar type.
 
--    `sec_hook_orientation`is a tuple (xdir\_hook\_orientation, ydir\_hook\_orientation) that defines the orientation of secondary x-direction and y-direction LShaped hook; it can have `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"` as hook\_orientation.
+-    `sec_hook_orientation`is a tuple (xdir_hook_orientation, ydir_hook_orientation) that defines the orientation of secondary x-direction and y-direction LShaped hook; it can have `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"` as hook_orientation.
 
--    `l_sec_rebar_rounding`is a tuple (l\_xdir\_rebar\_rounding, l\_ydir\_rebar\_rounding) that determines the bending radius of the LShaped secondary x-direction and y-direction LShaped rebars, expressed as times the diameter of x-direction and y-direction LShaped rebars, respectively.
+-    `l_sec_rebar_rounding`is a tuple (l_xdir_rebar_rounding, l_ydir_rebar_rounding) that determines the bending radius of the LShaped secondary x-direction and y-direction LShaped rebars, expressed as times the diameter of x-direction and y-direction LShaped rebars, respectively.
 
--    `sec_hook_extension`is a tuple (xdir\_hook\_extension, ydir\_hook\_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
+-    `sec_hook_extension`is a tuple (xdir_hook_extension, ydir_hook_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
 
 #### Exemplo 
 

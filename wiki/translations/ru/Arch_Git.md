@@ -1,5 +1,5 @@
 # Arch Git/ru
-1.  REDIRECT [WebTools\_Git/ru](WebTools_Git/ru.md)
+1.  REDIRECT [WebTools_Git/ru](WebTools_Git/ru.md)
 
 
 

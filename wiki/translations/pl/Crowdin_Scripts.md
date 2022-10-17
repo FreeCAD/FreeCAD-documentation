@@ -56,7 +56,7 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 -   python updatecrowdin.py build *(stworzy zip po stronie Crowdin z wszystkimi plikami, może potrwać chwilę\... Krok ten może zostać też wykonany na stronie internetowej Crowdin)*,
 -   python updatecrowdin.py download *(pobierze plik freecad.zip do tego katalogu)*,
 -   mv freecad.zip \~ przenieś plik zip do twojego katalogu domowego, *(by uniknąć przypadkowego wprowadzenia go później)*,
--   *(opcjonalnie)* zedytuj skrypt updatefromcrowdin.py i sprawdź czy default\_languages zawiera wszystkie języki, których wymagasz *(co do zasady wszystkie, które maja ponad 50% zaawansowania)*,
+-   *(opcjonalnie)* zedytuj skrypt updatefromcrowdin.py i sprawdź czy default_languages zawiera wszystkie języki, których wymagasz *(co do zasady wszystkie, które maja ponad 50% zaawansowania)*,
 -   python updatefromcrowdin.py -z /home/TwójUżytkownik/freecad.zip,
 -   cd ../.. *(przejdź z powrotem go głównego katalogu źródeł)*.
 -   jeśli coś pójdzie nie tak lub nie jesteś pewien, wyczyść wszytko używając git checkout,

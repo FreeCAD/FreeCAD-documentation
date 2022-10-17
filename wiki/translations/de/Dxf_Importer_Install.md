@@ -45,7 +45,7 @@ Wenn Du eine Version ab 0.15 hast, kannst Du das automatische Aktualisierungspak
 
 **3    *** ein Dialogfeld geöffnet
 
-**4    *** kopiere die Adresse des \"Makro-Zielortes\" (hier **C   *Benutzer\\d\\AppData\\Roaming\\FreeCAD\\**) In Ubuntu ist dies normalerweise **/home/Dein\_Benutzername /.FreeCAD**
+**4    *** kopiere die Adresse des \"Makro-Zielortes\" (hier **C   *Benutzer\\d\\AppData\\Roaming\\FreeCAD\\**) In Ubuntu ist dies normalerweise **/home/Dein_Benutzername /.FreeCAD**
 
 ![Open a dialog to let you execute a macro Recorded](images/Dxf_Importer_Install_02.png ) 
 
@@ -55,7 +55,7 @@ Wenn Du eine Version ab 0.15 hast, kannst Du das automatische Aktualisierungspak
 
 **6    *** lasse den Explorer geöffnet
 
-![](images/Dxf_Importer_Install_04.png ) 
+![](images/Dxf_Importer_Install_04.png) 
 
 **7    *** Schließe FreeCAD
 
@@ -99,7 +99,7 @@ Herunterladen der Dateien
 
 **13    *** füge die Dateien im Ordner FreeCAD Makros im geöffneten Explorer (Schritt 6) ein (**C   *Benutzer\\d\\AppData\\Roaming\\FreeCAD\\**)
 
-In Ubuntu ist dies normalerweise **/home/Dein\_Benutzername /.FreeCAD**
+In Ubuntu ist dies normalerweise **/home/Dein_Benutzername /.FreeCAD**
 
 ![paste the files in the folder](images/Dxf_Importer_Install_09.png ) 
 

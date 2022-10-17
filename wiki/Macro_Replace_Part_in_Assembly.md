@@ -36,7 +36,7 @@ See also [Demo on Youtube](http   *//youtu.be/rTqqqy4n1RE).
 
 ToolBar Icon ![](images/Replace_Part.png )
 
-**Macro Replace\_Part\_in\_Assembly.py**
+**Macro Replace_Part_in_Assembly.py**
 
 
 {{MacroCode|code=

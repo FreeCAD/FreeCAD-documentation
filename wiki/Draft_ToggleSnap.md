@@ -1,5 +1,5 @@
 # Draft ToggleSnap
-1.  REDIRECT [Draft\_Snap\_Lock](Draft_Snap_Lock.md)
+1.  REDIRECT [Draft_Snap_Lock](Draft_Snap_Lock.md)
 
 
 

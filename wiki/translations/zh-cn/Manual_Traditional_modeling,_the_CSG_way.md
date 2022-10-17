@@ -97,7 +97,7 @@ You can use Cut -tool and other Boolean tools also through \"Combo view\" with <
 
 <div class="mw-translate-fuzzy">
 
--   我们使用相同的 Cut 方法为螺钉打孔。由于需要 8 个洞，每个脚两个，我们本来可以制作 8 个物体作减法。然而让我们探索一下其他方法，制作4个管子，这些管子被两个脚重复使用。所以让我们用 <img alt="" src=images/Part_Cylinder.png  style="width   *16px;"> **Cylinder** 创建四个管子。这次同样的，你可以先造一个，然后作复制。给所有圆柱体的半径设为 6mm。需要旋转它们，这也是通过 Data 选项卡下的**Placement** 属性完成的。\'\'（ **注意**：在设置 Angle *之前* 更改 Axis 属性，否则旋转不会生效）\'\' ：
+-   我们使用相同的 Cut 方法为螺钉打孔。由于需要 8 个洞，每个脚两个，我们本来可以制作 8 个物体作减法。然而让我们探索一下其他方法，制作4个管子，这些管子被两个脚重复使用。所以让我们用 <img alt="" src=images/Part_Cylinder.png  style="width   *16px;"> **Cylinder** 创建四个管子。这次同样的，你可以先造一个，然后作复制。给所有圆柱体的半径设为 6mm。需要旋转它们，这也是通过 Data 选项卡下的**Placement** 属性完成的。*（ **注意**：在设置 Angle*之前*更改 Axis 属性，否则旋转不会生效）* ：
     -   Cylinder   * height   * 130cm, angle   * 90°, axis   * x   *0,y   *1,z   *0, position   * x   *-10mm, y   *40mm, z   *72cm
     -   Cylinder001   * height   * 130cm, angle   * 90°, axis   * x   *0,y   *1,z   *0, position   * x   *-10mm, y   *84cm, z   *72cm
     -   Cylinder002   * height   * 90cm, angle   * 90°, axis   * x   *-1,y   *0,z   *0, position   * x   *40mm, y   *-10mm, z   *70cm

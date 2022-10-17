@@ -9,9 +9,6 @@
 
 # FEM MeshNetgenFromShape/fr
 
-
-</div>
-
 ## Description
 
 Pour une analyse par éléments finis, la géométrie doit être discrétisée en [FEM Maillage](FEM_Mesh/fr.md). Cette commande utilise Netgen (qui doit être installé sur le système) pour calculer le maillage.
@@ -20,17 +17,11 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Sélectionnez la forme que vous voulez analyser. Pour un volume, il doit s\'agir d\'un solide ou d\'un compsolide (composé de solides). Un compsolid est nécessaire si votre pièce est faite de plusieurs matériaux. (Un compsolid peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md)).
     -   Appuyez sur le bouton **<img src="images/FEM_MeshNetgenFromShape.svg" width=16px> [Maillage FEM à partir d'une forme de Netgen](FEM_MeshNetgenFromShape/fr.md)**, ou bien
     -   Sélectionnez le bouton **Maillage → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Maillage FEM à partir d'une forme de Netgen** dans le menu.
 2.  Modifiez éventuellement les paramètres.
 3.  Cliquez sur le bouton **Appliquer** pour réaliser un maillage, ou sur le bouton **OK** pour réaliser un maillage et fermer le dialogue.
-
-
-</div>
 
 ## Propriétés
 
@@ -51,8 +42,8 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 -    **Optimize**   *
 
-    -   true (valueur par défaut) ; applique un algorithme d\'optimisation pour améliorer la qualité du maillage,
-    -   false ;
+    -   true (valeur par défaut); applique un algorithme d\'optimisation pour améliorer la qualité du maillage,
+    -   false;
 
 
 

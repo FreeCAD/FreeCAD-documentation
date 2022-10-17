@@ -1,7 +1,7 @@
 ---
 - GuiCommand   *
    Name   *FEM ConstraintFlowVelocity
-   MenuLocation   * Model → Fluid Constraints → Constraint flow velocity
+   MenuLocation   *Model → Fluid Constraints → Constraint flow velocity
    Workbenches   *[FEM](FEM_Workbench.md)
    SeeAlso   *[FEM Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)
 ---
@@ -12,7 +12,7 @@
 
 Applies a flow velocity as boundary condition to an edge in 2D or to a face in 3D.
 
- ![](images/FEM-constraint-flow-velocity_task-panel.png )  
+ <img alt="" src=images/FEM-constraint-flow-velocity_task-panel.png  style="width   *400px;">  
 *Constraint flow velocity menus within the [task panel](Task_panel.md)*
 
 ## Usage
@@ -36,7 +36,7 @@ Applies a flow velocity as boundary condition to an edge in 2D or to a face in 3
        *   If \"normal to boundary\" is ticked, the normal vector to the selected edge or face is X and it will be oriented away from the mesh domain.
        *   For example, if a flow of 20 mm/s of air must enter the domain, then after ticking \"normal to boundary\" the user will have to input -20 mm/s in the \"velocity X\" field.
 
--   For a Wall with non-slip condition, the flow will be (0,0,0)
+-   For a Wall with non-slip condition, the flow will be (0,0,0).
 -   For a Symmetry condition, the flow will be (0, Unspecified, Unspecified) if \"normal to boundary\" is ticked.
 
 

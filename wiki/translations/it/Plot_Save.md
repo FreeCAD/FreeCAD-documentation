@@ -62,7 +62,7 @@ Selezionare l\'immagine che si desidera salvare utilizzando le schede nella vist
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

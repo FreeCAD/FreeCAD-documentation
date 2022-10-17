@@ -21,7 +21,7 @@ In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuh
 
 -   Wechsle zum <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md)
 -   Drücke die <img alt="" src=images/TechDraw_PageTemplate.svg  style="width   *16px;"> [SeitenVorlage](TechDraw_PageTemplate/de.md) Schaltfläche
--   Wähle die **A4\_Hochformat\_ISO 7200TD** Vorlage. Ein neuer Reiter öffnet sich im Deinem FreeCAD Fenster und zeigt die neue Seite.
+-   Wähle die **A4_Hochformat_ISO 7200TD** Vorlage. Ein neuer Reiter öffnet sich im Deinem FreeCAD Fenster und zeigt die neue Seite.
 -   Wähle in der [Baumansicht](tree_view/de.md) (oder dem Modell Reiter) das Stuhlmodell. Es wird höchstwahrscheinlich so etwas wie \"Open CASCADE STEP Übersetzer\" genannt werden.
 -   Drücke die <img alt="" src=images/TechDraw_View.svg  style="width   *16px;"> [Ansicht](TechDraw_View/de.md)-Schaltfläche.
 -   Ein Ansichtsobjekt wird auf unserer Seite erstellt. Wähle das Ansichtsobjekt in der Baumansicht aus, und gib der Ansicht dann die folgenden [Eigenschaften](TechDraw_View/de#Properties.md) im Datenreiter der Combo-Ansicht   *

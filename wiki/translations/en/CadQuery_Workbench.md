@@ -43,7 +43,7 @@ The CadQuery workbench includes sample scripts that are available at **CadQuery 
 
 Other examples   *
 
--   Prusa i3 extruder support (directly available as workbench sample script **Ex032\_3D\_Printer\_Extruder\_Support**)   * <https   *//github.com/adam-urbanczyk/cadquery-models>
+-   Prusa i3 extruder support (directly available as workbench sample script **Ex032_3D_Printer_Extruder_Support**)   * <https   *//github.com/adam-urbanczyk/cadquery-models>
 
 ## Latest CadQuery 
 

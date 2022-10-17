@@ -14,7 +14,7 @@ Calcule la différence entre deux formes. Les ajouts sont marqués en rouge, les
 
 {{Codeextralink|https   *//raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightDifference.FCMacro}}
 
-<img alt="" src=images/Macro_HighlightDifference_02.png  style="width   *400px;"> 
+<img alt="" src=images/Macro_HighlightDifference_02.png style="width   *400px;"> 
 *Le résultat de la différence entre les deux objets est créé*
 
 ## Exemple
@@ -36,7 +36,7 @@ Le code est visible sur Github   * [Utility/HighlightDifference.FCMacro](https  
 
 ## Liens
 
--   Voir la macro complémentaire [Macro\_HighlightCommon](Macro_HighlightCommon/fr.md)
+-   Voir la macro complémentaire [Macro_HighlightCommon](Macro_HighlightCommon/fr.md)
 -   La discussion sur le forum [\"collision detection\", overlapping](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 
 

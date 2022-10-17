@@ -1,5 +1,5 @@
 # TechDraw NewArch/en
-1.  REDIRECT [TechDraw\_ArchView/en](TechDraw_ArchView/en.md)
+1.  REDIRECT [TechDraw_ArchView/en](TechDraw_ArchView/en.md)
 
 
 

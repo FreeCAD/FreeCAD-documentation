@@ -1,13 +1,7 @@
 # Import Export/it
 ## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
-Questa pagina elenca i vari formati di file che FreeCAD può importare ed esportare. Per completezza, il formato nativo di FreeCAD è incluso nell\'elenco.
-
-
-</div>
+Questa pagina elenca i vari formati di file che FreeCAD può importare ed esportare. Per completezza, il formato nativo di FreeCAD è incluso nell\'elenco. Alcuni formati hanno una relativa pagina wiki che può essere raggiunta cliccando sull\'estensione nella prima colonna.
 
 ## Correlazioni
 
@@ -141,7 +135,7 @@ Per maggiori informazioni consultare queste pagine   *
 
 
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

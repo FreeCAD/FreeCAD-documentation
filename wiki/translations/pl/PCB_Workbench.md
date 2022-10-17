@@ -95,7 +95,7 @@ Zabezpieczenia → Edytuj → Użytkownicy i zaznacz wszystkie pola wyboru w opc
 -   Wiki FreeCAD   * [strona główna Wiki](https   *//wiki.freecadweb.org/Main_Page)
 -   Forum FreeCAD   * [Importer EaglePCB dla FreeCAD](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=5107)
 -   Poradniki   *
--   Wideo   * [EaglePCB\_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https   *//www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
+-   Wideo   * [EaglePCB_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https   *//www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
 -   Files   * [PCB library](https   *//github.com/marmni/FreeCAD-PCB-library)
 -   Zgłaszanie błędów   * Proszę zgłaszać błędy na stronie <https   *//github.com/marmni/FreeCAD-PCB/issues>
 

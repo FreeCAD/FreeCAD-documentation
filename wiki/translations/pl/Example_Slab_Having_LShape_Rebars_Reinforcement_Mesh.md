@@ -75,7 +75,7 @@ In this example we will create Slab Reinforcement having L-Shape Rebars for both
 
 -    **Rear Cover**   * Rear cover for slab reinforcement of parallel rebars.
 
--    **Hook Orientation**   * It represents orintation of hook of parallel L-Shape rebar if parallel\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\".
+-    **Hook Orientation**   * It represents orintation of hook of parallel L-Shape rebar if parallel_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\".
 
 -    **Diameter**   * Diameter of parallel rebars.
 
@@ -103,7 +103,7 @@ In this example we will create Slab Reinforcement having L-Shape Rebars for both
 
 -    **Rounding**   * A rounding value to be applied to the corners of the bars, expressed in times of diameter of cross rebars.
 
--    **Hook Orientation**   * It represents orintation of hook of corss L-Shape rebar if cross\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\".
+-    **Hook Orientation**   * It represents orintation of hook of corss L-Shape rebar if cross_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\".
 
 -    **Diameter**   * Diameter of cross rebars
 
@@ -179,41 +179,41 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **parallel_bottom_cover**   * The distance between parallel rebars from the bottom face of the structure.
 
--    **parallel_l_shape_hook_orintation**   * It represents orintation of hook of parallel L-Shape rebar if parallel\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\"
+-    **parallel_l_shape_hook_orintation**   * It represents orintation of hook of parallel L-Shape rebar if parallel_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\"
 
 -    **parallel_diameter**   * Diameter of parallel rebars.
 
--    **parallel_amount_spacing_check**   * If is set to True, then value of parallel\_amount\_spacing\_value is used as rebars count else parallel\_amount\_spacing\_value\'s value is used as spacing in parallel rebars.
+-    **parallel_amount_spacing_check**   * If is set to True, then value of parallel_amount_spacing_value is used as rebars count else parallel_amount_spacing_value\'s value is used as spacing in parallel rebars.
 
--    **parallel_amount_spacing_value**   * It contains count of rebars or spacing between parallel rebars based on value of amount\_spacing\_check.
+-    **parallel_amount_spacing_value**   * It contains count of rebars or spacing between parallel rebars based on value of amount_spacing_check.
 
--    **parallel_rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the parallel\_diameter.
+-    **parallel_rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the parallel_diameter.
 
 **Properties for Rebars in Cross Direction to selected face   ***
 
 -    **cross_rebar_type**   * Type of rebar for cross rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
 
--    **cross_front_cover**   * The distance between cross rebar and cross\_face (face perpendicular to selected face).
+-    **cross_front_cover**   * The distance between cross rebar and cross_face (face perpendicular to selected face).
 
 -    **cross_rear_cover**   * Rear cover for slab reinforcement of cross rebars.
 
 -    **cross_left_cover**   * The distance between the left end of the cross rebar to the left face of the structure.
 
--    **cross_right_cover**   * The distance between the right end of the rebar to right face of the structure relative to cross\_face.
+-    **cross_right_cover**   * The distance between the right end of the rebar to right face of the structure relative to cross_face.
 
 -    **cross_top_cover**   * The distance between cross rebar from the top face of the structure.
 
 -    **cross_bottom_cover**   * The distance between cross rebar from the bottom face of the structure.
 
--    **cross_l_shape_hook_orintation**   * It represents orintation of hook of cross L-Shape rebar if cross\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\", \"Alternate\"
+-    **cross_l_shape_hook_orintation**   * It represents orintation of hook of cross L-Shape rebar if cross_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\", \"Alternate\"
 
 -    **cross_diameter**   * Diameter of cross rebars.
 
--    **cross_amount_spacing_check**   * If is set to True, then value of cross\_amount\_spacing\_value is used as rebars count else cross\_amount\_spacing\_value\'s value is used as spacing in rebars.
+-    **cross_amount_spacing_check**   * If is set to True, then value of cross_amount_spacing_value is used as rebars count else cross_amount_spacing_value\'s value is used as spacing in rebars.
 
--    **cross_amount_spacing_value**   * It contains count of rebars or spacing between rebars based on value of cross\_amount\_spacing\_check.
+-    **cross_amount_spacing_value**   * It contains count of rebars or spacing between rebars based on value of cross_amount_spacing_check.
 
--    **cross_rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the cross\_diameter.
+-    **cross_rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the cross_diameter.
 
 **Common Properties for Parallel and Cross Rebars   ***
 

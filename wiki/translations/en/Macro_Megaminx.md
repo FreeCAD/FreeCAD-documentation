@@ -23,7 +23,7 @@ ToolBar icon <img alt="" src=images/Macro_Megaminx.png  style="width   *64px;">
 
 {{Codeextralink|https   *//raw.githubusercontent.com/rparkins999/Megaminx/master/Megaminx.FCMacro}}
 
-**Macro\_Megaminx.FCMacro**
+**Macro_Megaminx.FCMacro**
 
 ![](images/Macro_Megaminx.png )
 
@@ -32,7 +32,7 @@ ToolBar icon <img alt="" src=images/Macro_Megaminx.png  style="width   *64px;">
 
 ## Use
 
-Download the code from <https   *//github.com/rparkins999/Megaminx> into your macro directory. Run the macro to create a Megaminx document. Then you can play with it. The history functions can be used to construct and save operators (aka algorithms) which do useful transformations on the Megaminx. A suitable set of these will give you a complete solution. The step\_history function can be used to help you play back an operator onto a real Megaminx.
+Download the code from <https   *//github.com/rparkins999/Megaminx> into your macro directory. Run the macro to create a Megaminx document. Then you can play with it. The history functions can be used to construct and save operators (aka algorithms) which do useful transformations on the Megaminx. A suitable set of these will give you a complete solution. The step_history function can be used to help you play back an operator onto a real Megaminx.
 
 
 

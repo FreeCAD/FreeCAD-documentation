@@ -1,5 +1,5 @@
 # Scripting/pt-br
-1.  REDIRECT [Power\_users\_hub/pt-br](Power_users_hub/pt-br.md)
+1.  REDIRECT [Power_users_hub/pt-br](Power_users_hub/pt-br.md)
 
 
 

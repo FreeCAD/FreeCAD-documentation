@@ -30,7 +30,7 @@ Cu fiecare clic al mouse-ului sau combinația de taste, ultima operație anulat�
 
 Numărul de operațiuni care pot fi modificate poate fi definit în **Modifica → Preferenze → Generale → Documento**. În mod implicit, pot fi restaurate ultimele \"\" 20 \"\" de operațiuni modificate.
 
-![Menu\_Annulla\_Ripristina](images/PreferenzeAnnulla.png )
+![Menu_Annulla_Ripristina](images/PreferenzeAnnulla.png )
 
 
 </div>

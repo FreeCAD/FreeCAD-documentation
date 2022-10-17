@@ -33,7 +33,7 @@ Se è configurato \"Permanente\" (continuo), fare clic sul tasto **Q** per uscir
 
 ## Configurazione
 
-Per modificare il valore   * vai a    * FreeCAD → Menu → Tools → Edit parameters\... → BaseApp/Preferences/Macros/FCMmacros/Delta\_XYZ.
+Per modificare il valore   * vai a    * FreeCAD → Menu → Tools → Edit parameters\... → BaseApp/Preferences/Macros/FCMmacros/Delta_XYZ.
 
 **\_\_\_\_\_switchDecimalsPref\_\_\_\_\_**
 
@@ -58,7 +58,7 @@ Per modificare il valore   * vai a    * FreeCAD → Menu → Tools → Edit para
 
 ToolBar Icon ![](images/Macro_Delta_xyz.png )
 
-**Macro\_Delta\_xyz.FCMacro**
+**Macro_Delta_xyz.FCMacro**
 
 
 {{MacroCode|code=

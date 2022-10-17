@@ -186,9 +186,9 @@ ToolBar button ![Button](images/FCSpring_Helix_Variable.png )  Macro icons
 
 ## Script
 
-**Macro\_FCSpring\_Helix\_Variable.FCMacro**
+**Macro_FCSpring_Helix_Variable.FCMacro**
 
-Download the macro to Gist [Macro\_FCSpring\_Helix\_Variable](https   *//gist.github.com/mario52a/68c81c32a0727a693d3a)
+Download the macro to Gist [Macro_FCSpring_Helix_Variable](https   *//gist.github.com/mario52a/68c81c32a0727a693d3a)
 
 ## Installation
 
@@ -322,7 +322,7 @@ def chrono(switch)   *    # 0=depart autre=stop
 
 2020/10/18 Ver 00.16b    * i suppress the test on FC 18 line 56, i suppress the timer chrono and i wait one little
 
-2020/05/01 Ver 00.16   * correction error file (save and load) cause \"label\_11\_Name\" suppressed\...
+2020/05/01 Ver 00.16   * correction error file (save and load) cause \"label_11_Name\" suppressed\...
 
 2020/04/11 Ver 01.15   * layout and little presentation
 
@@ -380,7 +380,7 @@ Only circle work well
 
 <center>
 
-<File   *Macro> FCSpring Helix Variable 09.png\|ACCESS VIOLATION <File   *Macro> FCSpring Helix Variable 10.png\|TCollection\_IndexedDataMap
+<File   *Macro> FCSpring Helix Variable 09.png\|ACCESS VIOLATION <File   *Macro> FCSpring Helix Variable 10.png\|TCollection_IndexedDataMap
 
 
 </center>

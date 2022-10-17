@@ -45,7 +45,7 @@ Dacă există mai mult de două profile, suprafețele sunt realizate din curbe s
 
 Curebele sunt interpolare B-spline.
 
--   Dacă numărul de profile este mai mic de 10, interpolarea se face cu o funcție B-spline cu un grad maxim posibil (adică grad = number\_of\_profiles - 1).
+-   Dacă numărul de profile este mai mic de 10, interpolarea se face cu o funcție B-spline cu un grad maxim posibil (adică grad = number_of_profiles - 1).
 -   În cazul în care numărul de profile depășește 10, interpolarea este trecută la funcții B-splinele de gradul 3.
 
 Metoda de îmbinare utilizată este \"lungimea aproximativă a coardei\". Aproximarea constă în faptul că vectorul nodului este exact același pentru fiecare curbă spline dintr-o mansardă/loft. Pentru mai multe informații despre ceea ce este interpolarea B-spline, vectorul nodului, metoda lungimii coardei, a se vedea, de exemplu,[cs.mtu.edu Curve Global Interpolation](http   *//www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/INT-APP/CURVE-INT-global.html).

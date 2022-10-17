@@ -1,5 +1,5 @@
 # Mesh CreateMeshSegment/en
-1.  REDIRECT [Mesh\_Segmentation/en](Mesh_Segmentation/en.md)
+1.  REDIRECT [Mesh_Segmentation/en](Mesh_Segmentation/en.md)
 
 
 

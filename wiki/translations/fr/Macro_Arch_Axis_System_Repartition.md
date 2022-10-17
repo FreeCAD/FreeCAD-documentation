@@ -35,7 +35,7 @@ Voici une macro qui va vous aider dans la création d\'un système d\'axes de l\
 
 ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 
-**Macro\_Repartition.FCMacro**
+**Macro_Repartition.FCMacro**
 
 
     #!/usr/bin/env python
@@ -266,7 +266,7 @@ ToolBar Icon ![](images/Macro_Arch_Axis_System_Repartition.png )
 ## Liens
 
 -   Vidéo [Macro en action](https   *//www.youtube.com/watch?v=jfDTkH9-I5Q)
--   [Macro\_PartsLibrary](Macro_PartsLibrary.md) Librairie FreeCAD
+-   [Macro_PartsLibrary](Macro_PartsLibrary.md) Librairie FreeCAD
 -   Github [Macro wood galaxy](https   *//github.com/wood-galaxy/FreeCAD-scripts)
 
 

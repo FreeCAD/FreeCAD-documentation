@@ -1,9 +1,9 @@
 # DWG
-1.  REDIRECT [FreeCAD\_and\_DWG\_Import](FreeCAD_and_DWG_Import.md)
+1.  REDIRECT [FreeCAD_and_DWG_Import](FreeCAD_and_DWG_Import.md)
 
 
 
-[Category   *Redirects](Category_Redirects.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Redirects](Category_Redirects.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

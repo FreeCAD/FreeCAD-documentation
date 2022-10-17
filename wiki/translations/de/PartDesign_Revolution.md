@@ -48,7 +48,7 @@ Diese Option gibt die Achse an, um welche die Skizze zu rotieren ist.
 
 ### Winkel
 
-Dies steuert den Winkel, über den die Rotation zu bilden ist. 360 ° wäre z.B. eine vollständige, zusammenhängende Rotation. Die Bilder im Abschnitt [ Beispiele](#Examples.md) zeigen einige der Möglichkeiten bei der Angabe verschiedener Winkel. Es ist nicht möglich, negative Winkel anzugeben (verwenden Sie stattdessen die Option \'\' \'Umgekehrt\' \'\') oder Winkel größer als 360 °.
+Dies steuert den Winkel, über den die Rotation zu bilden ist. 360 ° wäre z.B. eine vollständige, zusammenhängende Rotation. Die Bilder im Abschnitt [ Beispiele](#Examples.md) zeigen einige der Möglichkeiten bei der Angabe verschiedener Winkel. Es ist nicht möglich, negative Winkel anzugeben (verwenden Sie stattdessen die Option *\'Umgekehrt\'*) oder Winkel größer als 360 °.
 
 ### Symmetrisch zur Ebene 
 

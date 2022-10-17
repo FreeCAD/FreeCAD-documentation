@@ -41,10 +41,11 @@ A SheetMetal Unfold object is derived from a [Part Feature](Part_Feature.md) obj
 
 ## Limitations
 
--   Sheet metal should have constant thickness
--   Flat faces should be planar with no split lines
--   Bend angles should be radius with cylindrical faces
--   Unfold feature is not parametric at the moment.
+-   The sheet metal should have a constant thickness.
+-   Flat faces should not contain split lines.
+-   Flat faces must be truly planar and not B-spline approximations.
+-   Faces of bend angles must be truly cylindrical and also not B-spline approximations.
+-   The Unfold feature is not parametric. If the model is modified you have to unfold it again.
 
 
 

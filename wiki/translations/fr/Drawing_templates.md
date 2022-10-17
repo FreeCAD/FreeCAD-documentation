@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Créer des modèles pour le module de dessin est très facile. Voir aussi le tutoriel [Drawing\_Template\_HowTo](Drawing_Template_HowTo.md). Les modèles sont des fichiers svg, créés avec n\'importe quelle application capable d\'exporter des fichiers svg, tels que [Inkscape](http   *//www.inkscape.org). Cependant, vous devrez souvent ouvrir le fichier svg dans un éditeur de texte par la suite, afin de respecter les règles suivantes. Seulement deux règles doivent être suivies   *
+Créer des modèles pour le module de dessin est très facile. Voir aussi le tutoriel [Drawing_Template_HowTo](Drawing_Template_HowTo.md). Les modèles sont des fichiers svg, créés avec n\'importe quelle application capable d\'exporter des fichiers svg, tels que [Inkscape](http   *//www.inkscape.org). Cependant, vous devrez souvent ouvrir le fichier svg dans un éditeur de texte par la suite, afin de respecter les règles suivantes. Seulement deux règles doivent être suivies   *
 
 
 </div>
@@ -26,27 +26,27 @@ Créer des modèles pour le module de dessin est très facile. Voir aussi le tut
 
 </div>
 
- {.html}
+ html
 width="1067mm"
 height="762mm"
 
 
 ou
 
- {.html}
+ html
 width="1067"
 height = "762"
 
 
 Bien que svg supporte les pouces (\"42in\"), ceux-ci ne sont actuellement pas supportés par FreeCAD, donc il est toujours préférable d\'avoir la taille de votre page svg spécifiée en millimètres. L\'attribut \"viewBox\" doit avoir la même valeur, par exemple   *
 
- {.html}
+ html
 viewBox="0 0 1067 762"
 
 
 -   Vous devez insérer, quelque part dans votre code svg, l\'endroit où vous voulez que le contenu du dessin apparaisse (par exemple à la fin du fichier, juste avant la dernière balise \</ svg\>), la ligne suivante   *
 
- {.html}
+ html
 
 
 
@@ -59,7 +59,7 @@ Ce texte ci-dessus (qui est en fait un commentaire XML) doit se trouver sur une 
 
 ### Espace de noms 
 
--   Plusieurs objets (en particulier ceux créés avec la commande [Draft\_Drawing](Draft_Drawing/fr.md) et si votre modèle contient des textes éditables) utilisent un [Espace de noms Svg](Svg_Namespace/fr.md) spécifique à FreeCAD. Cela permet à FreeCAD de détecter des éléments spécifiques dans les fichiers svg, que les autres applications vont ignorer. Si vous prévoyez d\'utiliser l\'un de ces éléments, vous devez ajouter cette ligne dans la balise d\'ouverture<svg>, par exemple avec les autres lignes xmlns ajoutées par inkscape   *
+-   Plusieurs objets (en particulier ceux créés avec la commande [Draft_Drawing](Draft_Drawing/fr.md) et si votre modèle contient des textes éditables) utilisent un [Espace de noms Svg](Svg_Namespace/fr.md) spécifique à FreeCAD. Cela permet à FreeCAD de détecter des éléments spécifiques dans les fichiers svg, que les autres applications vont ignorer. Si vous prévoyez d\'utiliser l\'un de ces éléments, vous devez ajouter cette ligne dans la balise d\'ouverture<svg>, par exemple avec les autres lignes xmlns ajoutées par inkscape   *
 
 
 </div>
@@ -80,7 +80,7 @@ En plus de ces règles, depuis FreeCAD 0.14, des informations sur le bloc Border
 
 Pour définir la bordure, la ligne suivante doit apparaître avant la balise  dans le fichier svg.
 
- {.html}
+ html
 
 
 
@@ -95,7 +95,7 @@ Où X1, Y1, X2, Y2 sont définies comme suit   *
 
 Pour définir le cartouche, la ligne suivante doit être insérée avant la balise  et après la balise Working space.
 
- {.html}
+ html
 
 
 
@@ -112,7 +112,7 @@ Où X1a, Y1a, X2a Y2a sont définies comme suit   *
 
 Voici un exemple de code qui définit les zones Espace de travail et Bloc de titre à insérer avant la balise . Vous n\'avez pas besoin de spécifier un cartouche, mais si vous le faites, vous devez le définir sur la ligne suivante immédiatement après l\'espace de travail   *
 
- {.html}
+ html
 
 
 
@@ -124,7 +124,7 @@ Ce qui suit doit être formaté comme dans l\'exemple ci-dessous où   *
 -   xxx = pixel width
 -   yyy = pixel height
 
- {.html}
+ html
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -297,4 +297,4 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/fr

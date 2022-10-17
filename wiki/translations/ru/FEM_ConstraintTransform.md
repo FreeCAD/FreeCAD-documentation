@@ -16,7 +16,7 @@
 
 Transforms the coordinate system of a face to a particular coordinate system - rectangular or cylindrical.
 
-## Использование
+## Применение
 
 1.  Apply the [Constraint displacement](FEM_ConstraintDisplacement.md) to a face first.
 2.  There are several ways to invoke the command   *

@@ -18,19 +18,19 @@ Simuliert Scharnierbewegung
 
 ## Verwendet
 
-Öffne die 2 Dateien (20140908b\_Hinge-1.FCMacro und 20140908b\_Hinge-1.FCStd) in FreeCAD mit 2 Bildschirmen (Menü   * Fenster \> Kacheln) und klicke in das Fenster und das Makro und klicke F6 (Makro debuggen), um das Makro auszuführen oder führe das Makro mit ![](images/Std_DlgMacroExecuteDirect.svg ) aus
+Öffne die 2 Dateien (20140908b_Hinge-1.FCMacro und 20140908b_Hinge-1.FCStd) in FreeCAD mit 2 Bildschirmen (Menü   * Fenster \> Kacheln) und klicke in das Fenster und das Makro und klicke F6 (Makro debuggen), um das Makro auszuführen oder führe das Makro mit ![](images/Std_DlgMacroExecuteDirect.svg ) aus
 
 <img alt="" src=images/Hing_01.png  style="width   *300px;">
 
 ## Die Datei 
 
-[20140908b\_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628)
+[20140908b_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628)
 
 ## Skript
 
 ToolBar Icon ![](images/Macro_hinge.png )
 
-**20140908b\_Hinge-1.FCMacro**
+**20140908b_Hinge-1.FCMacro**
 
 
 {{MacroCode|code=

@@ -15,8 +15,8 @@ Transforme le système de coordonnées d\'une face en un système de coordonnée
 
 ## Utilisation
 
-1.  Appliquer d\'abord le [Contrainte de déplacement](FEM_ConstraintDisplacement/fr.md) à une face.
-2.  Il existe plusieurs façons d\'invoquer la commande    *
+1.  Appliquer d\'abord une [Contrainte de déplacement](FEM_ConstraintDisplacement/fr.md) à une face.
+2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintTransform.svg" width=16px> [Contrainte de transformation](FEM_ConstraintTransform/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes géométriques → <img src="images/FEM_ConstraintTransform.svg" width=16px> Contrainte de transformation** depuis le menu.
 3.  Sélectionnez la transformation rectangulaire ou cylindrique. La première peut être appliquée à n\'importe quelle face, la seconde n\'est disponible que pour les faces cylindriques.

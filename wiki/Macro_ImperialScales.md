@@ -16,7 +16,7 @@ This macro pops up a dialog with a list of US Imperial Arch scales list as retri
 
 
 
-**Macro\_ImperialScales.FCMacro**
+**Macro_ImperialScales.FCMacro**
 
 
 {{MacroCode|code=

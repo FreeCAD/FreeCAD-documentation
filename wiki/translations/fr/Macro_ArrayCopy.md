@@ -18,7 +18,7 @@ Cette macro copie l\'objet sélectionné plusieurs fois selon une matrice rectan
 
 ToolBar Icon ![](images/Macro_ArrayCopy.png )
 
-**Macro\_ArrayCopy.FCMacro**
+**Macro_ArrayCopy.FCMacro**
 
 
 {{MacroCode|code=

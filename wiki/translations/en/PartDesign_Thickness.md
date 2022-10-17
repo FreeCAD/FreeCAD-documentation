@@ -89,8 +89,8 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **P
 -   If thickness goes inwards, the value must be smaller than the smallest height of the Body.
 -   The tool may fail with complex shapes. [Additive Pipe](PartDesign_AdditivePipe.md) or [Additive Loft](PartDesign_AdditiveLoft.md) may work better to create complex shapes.
 -   Known errors   *
-    -   BRep\_API   * command not done.
-    -   BRep\_Tool   * no parameter on edge.
+    -   BRep_API   * command not done.
+    -   BRep_Tool   * no parameter on edge.
     -   Silently fails.
 
 ## Properties

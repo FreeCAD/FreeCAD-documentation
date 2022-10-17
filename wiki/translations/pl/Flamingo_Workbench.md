@@ -77,11 +77,11 @@ Okno dialogowe do tworzenia zestawu profili, które będą używane w modelu dla
 
 -   Lista **Przekroje**   * zawiera wszystkie przekroje zdefiniowane w pliku .csv odpowiadającym wybranemu typowi przekroju.
 -   Lista **Typy przekrojów**   * typy przekrojów zdefiniowane za pomocą plików .csv znajdujących się w folderze /tables
--   Przycisk **Wstaw**   * tworzy grupę \"Profile\_zestaw\", jeśli jeszcze nie istnieje, i dodaje do niej obiekt wybranego profilu.
+-   Przycisk **Wstaw**   * tworzy grupę \"Profile_zestaw\", jeśli jeszcze nie istnieje, i dodaje do niej obiekt wybranego profilu.
 
 Inne tabele profili można tworzyć poprzez dodanie odpowiedniego pliku .csv w folderze /tables. Zasady tworzenia i dostosowywania takich tabel są podobne do tych, które obowiązują w przypadku linii rurowych.
 
-Inne profile można szkicować w modelu i przeciągać do grupy \"Profile\_zestaw\".
+Inne profile można szkicować w modelu i przeciągać do grupy \"Profile_zestaw\".
 
 Orientacja dwuteowników może mieć wpływ na odwzorowanie belek.
 
@@ -342,7 +342,7 @@ Tak rozumiane polecenie otwiera okno dialogowe umożliwiające utworzenie lub mo
 
 Okno dialogowe jest bardzo podobne do okna dialogowego wstawiania innych obiektów, które widzieliśmy wcześniej.
 
-Tabele klasyfikacji rur, w których określa się średnicę zewnętrzną i grubość, są takie same jak tabele dla rur *(np. Pipe\_SCH-STD.csv)*.
+Tabele klasyfikacji rur, w których określa się średnicę zewnętrzną i grubość, są takie same jak tabele dla rur *(np. Pipe_SCH-STD.csv)*.
 
 Gdy  znajduje się w kombi i zostanie naciśnięty klawisz **Wstaw**, w dokumencie zostanie utworzony nowy obiekt linii rurowej z odpowiednią grupą.
 

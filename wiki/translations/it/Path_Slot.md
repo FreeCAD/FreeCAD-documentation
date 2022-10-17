@@ -29,11 +29,11 @@ The Path Slot object is made to be part of a <img alt="" src=images/Path_Job.svg
 1.  Select the reference geometry on the model   *.
     -   one or more faces or edges.
     -   two vertices.
-    -   \'\'\' *nothing* \'\'\' to use two custom points entered in the Property View of the Data tab   * Custom Point1 and Custom Point2.
+    -   ***nothing*** to use two custom points entered in the Property View of the Data tab   * Custom Point1 and Custom Point2.
 2.  Invoke the Slot command using several methods   *
     -   Pressing the **<img src="images/Path_Slot.svg" width=24px> [Slot](Path_Slot.md)** button in the toolbar.
 
-\#\* Using the ** Path** → **<img src="images/Path_Slot.svg" width=24px> [Slot](Path_Slot.md)** entry from the top menu.
+#\* Using the ** Path** → **<img src="images/Path_Slot.svg" width=24px> [Slot](Path_Slot.md)** entry from the top menu.
 
 1.  Adjust the desired properties. Descriptions of available properties are found below.
 
@@ -45,8 +45,8 @@ The Path Slot object is made to be part of a <img alt="" src=images/Path_Job.svg
     -   Toggle the \Reverse Direction\ property to reverse the direction of the cut path.
 
 -   Linear slots   *
-    -   Currently there is no capability to offset linear slots laterally (parallel to path of travel). \'\' **Example   *** \'\' Say you have a tool diameter smaller than the width of the slot area you are clearing. Current behavior of this operation is to create a single slot path down the center of the designated slot, which will result in the slot area not being fully cleared. Some users would want the operation to create multiple paths that are offset laterally to clear the entire slot area; this operation is not intended to due so - use the Pocket operation for such clearing.
-    -   Create a custom linear slot using the \Custom Point1\ and \Custom Point2\ properties with no geometry selection. \'\' **Example   *** \'\' Initiate a Slot operation in the GUI and click \OK\ to save. Now locate and edit the \Custom Point1\ and \Custom Point2\ properties in the Data tab of the newly created Slot operation. Recompute the operation to update the path.
+    -   Currently there is no capability to offset linear slots laterally (parallel to path of travel). ***Example   **** Say you have a tool diameter smaller than the width of the slot area you are clearing. Current behavior of this operation is to create a single slot path down the center of the designated slot, which will result in the slot area not being fully cleared. Some users would want the operation to create multiple paths that are offset laterally to clear the entire slot area; this operation is not intended to due so - use the Pocket operation for such clearing.
+    -   Create a custom linear slot using the \Custom Point1\ and \Custom Point2\ properties with no geometry selection. ***Example   **** Initiate a Slot operation in the GUI and click \OK\ to save. Now locate and edit the \Custom Point1\ and \Custom Point2\ properties in the Data tab of the newly created Slot operation. Recompute the operation to update the path.
 
 -   Arc/Circular slots   *
     -   Creating arc/circular slots
@@ -58,7 +58,7 @@ The Path Slot object is made to be part of a <img alt="" src=images/Path_Job.svg
 
 ## Properties
 
-\'\'\' *Note* \'\'\'   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
+***Note***   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
 
 {{TitleProperty|Base}}

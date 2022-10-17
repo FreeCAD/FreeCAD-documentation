@@ -1,5 +1,5 @@
 # Category:Draft/pl
-This category list pages related to the \"User\_Documentation/pl\" and \"Workbenches/pl\"
+This category list pages related to the \"User_Documentation/pl\" and \"Workbenches/pl\"
 
 [Category   *User Documentation/pl](Category   *User_Documentation/pl.md) [Category   *Workbenches/pl](Category   *Workbenches/pl.md)
 

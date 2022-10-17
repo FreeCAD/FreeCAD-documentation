@@ -43,7 +43,7 @@ Vedere nel forum la discussione [Come disattivare (disabilitare) la navigazione 
 
 ToolBar Icon ![](images/Macro_Unbind_Numpad_Shortcuts.png )
 
-**Macro\_Unbind\_Numpad\_Shortcuts.FCMacro**
+**Macro_Unbind_Numpad_Shortcuts.FCMacro**
 
 
 {{MacroCode|code=

@@ -193,7 +193,7 @@ Per rendere la configurazione dell\'annotazione permanente è possibile modifica
 
 L\'icona **FCInfoToMouse.png** <img alt="FCInfoToMouse" src=images/FCInfoToMouse.png  style="width   *64px;"> per [personalizzare la barra degli strumenti](http   *//www.freecadweb.org/wiki/index.php?title=Customize_ToolsBar/it)
 
-**Macro\_FCInfoToMouse.FCMacro**
+**Macro_FCInfoToMouse.FCMacro**
 
 
 {{MacroCode|code=
@@ -511,7 +511,7 @@ except Exception   *
 
 }}
 
-or to Gists [Macro\_FCInfoToMouse.FCMacro](https   *//gist.github.com/mario52a/974214c4b83beaa41495) or the zip [Macro\_FCInfoToMouse.FCMacro.zip](https   *//gist.github.com/mario52a/974214c4b83beaa41495/archive/d62630049d4663369fc80519a7655ee4c32c8711.zip)
+or to Gists [Macro_FCInfoToMouse.FCMacro](https   *//gist.github.com/mario52a/974214c4b83beaa41495) or the zip [Macro_FCInfoToMouse.FCMacro.zip](https   *//gist.github.com/mario52a/974214c4b83beaa41495/archive/d62630049d4663369fc80519a7655ee4c32c8711.zip)
 
 ## Limitazioni
 

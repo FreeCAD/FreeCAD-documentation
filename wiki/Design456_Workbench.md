@@ -106,7 +106,7 @@ Main goal of Design456 is to provide Direct Modeling tool set. There are some to
 
 ### [FreeCAD GUI Widgets toolkit](FreeCAD_GUI_Widgets_toolkit.md) 
 
-Fr\_Widget system is a work for providing easy to use Coin3D drawing GUI toolkit. The toolkit will make it easy to draw and should provide an interactive way to manipulate FreeCAD e objects. The simplicity of the toolkit should make it easy to use it.
+Fr_Widget system is a work for providing easy to use Coin3D drawing GUI toolkit. The toolkit will make it easy to draw and should provide an interactive way to manipulate FreeCAD e objects. The simplicity of the toolkit should make it easy to use it.
 
 Widgets gives you the ability to get callbacks, and are inspired by the well known multi-platform toolkit www.fltk.org. Almost all smart tools must have a widget from this toolkit.
 

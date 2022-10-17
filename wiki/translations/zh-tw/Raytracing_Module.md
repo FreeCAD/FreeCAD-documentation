@@ -1,5 +1,5 @@
 # Raytracing Module/zh-tw
-1.  REDIRECT [Raytracing\_Workbench/zh-tw](Raytracing_Workbench/zh-tw.md)
+1.  REDIRECT [Raytracing_Workbench/zh-tw](Raytracing_Workbench/zh-tw.md)
 
 
 

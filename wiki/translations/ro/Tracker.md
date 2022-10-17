@@ -56,8 +56,8 @@ Dacă doriți să apară ceva în FreeCAD, care încă nu este implementat, it n
 2.  Începeți un fir de discuții de forum pentru a discuta despre cererea dvs. cu comunitatea prin [Open Discussion forum](http   *//forum.freecadweb.org/viewforum.php?f=8).
 3.  Odată ce comunitatea este de acord că aceasta este o caracteristică valabilă, puteți deschide un token/tiket pe tracker(file it under *feature request* instead of *bug*).
 
--   **NOTE \#1** Pentru a păstra lucrurile organizate, nu uitați să conectați adresa URL a firului la tichet și numărul (ca legătură) în firul de pe forum.
--   **NOTE \#2** Rețineți că nu există garanții că dorința dvs. va fi îndeplinită.
+-   **NOTE #1** Pentru a păstra lucrurile organizate, nu uitați să conectați adresa URL a firului la tichet și numărul (ca legătură) în firul de pe forum.
+-   **NOTE #2** Rețineți că nu există garanții că dorința dvs. va fi îndeplinită.
 
 ![FreeCAD Bugtracker report page - use the dropdown to correctly designate what the ticket is](images/MantisBT-setting-Feature-Request.jpg )
 
@@ -89,11 +89,11 @@ MantisBT (Mantis Bug Tracker) are propria marcă.
 
 -   **\#**1234 - Prin adăugarea unei etichete de tip hash tag în fața unui număr, va fi prezentată o comandă rapidă către un link către un alt bilet în MantisBT.
 
-       *   **Note**   * Dacă survolați cu mouse-ul peste un bilet, acesta vă va afișa rezumatul + dacă biletul este închis, acesta va fi blocat ca\#1234.
+       *   **Note**   * Dacă survolați cu mouse-ul peste un bilet, acesta vă va afișa rezumatul + dacă biletul este închis, acesta va fi blocat ca#1234.
 
 <img alt="" src=images/mantisbt-ticket-shortcut-example.jpg  style="width   *600px;">
 
--   **\~**5678 - o comandă rapidă care face legătura cu o notă de bug în cadrul unui bilet. Acest lucru poate fi folosit pentru răspunsul cuiva în cadrul firului. Fiecare persoană va avea un număr unic de postare \#\#\#\# la numele de utilizator. Dacă priviți imaginea din exemplu, veți observa că comanda rapidă face referire la numărul *ticket number   *comment number* al biletului menționat
+-   **\~**5678 - o comandă rapidă care face legătura cu o notă de bug în cadrul unui bilet. Acest lucru poate fi folosit pentru răspunsul cuiva în cadrul firului. Fiecare persoană va avea un număr unic de postare \#### la numele de utilizator. Dacă priviți imaginea din exemplu, veți observa că comanda rapidă face referire la numărul *ticket number   *comment number* al biletului menționat
 
 <img alt="" src=images/mantisbt-comment-shortcut-example.jpg  style="width   *600px;">
 
@@ -140,7 +140,7 @@ MantisBT (Mantis Bug Tracker) are propria marcă.
 [code start=3][/code] - Code block with line numbers starting at number
 [quote][/quote] - Quote by *someone* (no name)
 [quote=name][/quote] - Quote by *name*
- === MantisBT \<=\> GitHub Markup === Mai jos sunt cuvintele cheie speciale pentru plugin-ul MantisBT Source-Integration, care vor face legătura cu repo-ul FreeCAD GitHub. Vezi [Tracker\#GitHub\_and\_MantisBT](Tracker#GitHub_and_MantisBT.md).
+ === MantisBT \<=\> GitHub Markup === Mai jos sunt cuvintele cheie speciale pentru plugin-ul MantisBT Source-Integration, care vor face legătura cu repo-ul FreeCAD GitHub. Vezi [Tracker#GitHub_and_MantisBT](Tracker#GitHub_and_MantisBT.md).
 
 -   **c   *FreeCAD   *git commit hash   *** - **c** stands for \'commit\'. FreeCAD stands for the FreeCAD GitHub repo. \'git commit hash\' is the specific git commit hash to reference. Note   * the trailing colon is necessary. Exampleː cːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
 -   **d   *FreeCAD   *git commit hash   *** - similar to the above, **d** stands for \'diff\' which will provide a Diff view of the commit. Exampleː dːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
@@ -161,20 +161,20 @@ MantisBT (Mantis Bug Tracker) are propria marcă.
 
 ## GitHub și MantisBT 
 
-FreeCAD bugtracker are un plug-in numit [Source Integration](https   *//github.com/mantisbt-plugins/source-integration) care în principiu care, în esență, leagă atât repo-ul FreeCAD GitHub cât și tracker-ul nostru MantisBT. El facilitează urmărirea și asocierea git commits cu tichetele lor MantisBT. \'\'\'Pluginul Source Integration scanează mesajele de git commits pentru anumite cuvinte cheie pentru a executa următoarele acțiuni   *' \'\'
+FreeCAD bugtracker are un plug-in numit [Source Integration](https   *//github.com/mantisbt-plugins/source-integration) care în principiu care, în esență, leagă atât repo-ul FreeCAD GitHub cât și tracker-ul nostru MantisBT. El facilitează urmărirea și asocierea git commits cu tichetele lor MantisBT. *\'Pluginul Source Integration scanează mesajele de git commits pentru anumite cuvinte cheie pentru a executa următoarele acțiuni   *'*
 
 **Notă** Cuvintele cheie de mai jos trebuie adăugate în git commit message și nu în subiectul PR
 
 ### Referința distantă a unui tichet 
 
-Folosind acest model, se va asocia automat o comanda git cu un ticket (\'\' \'Notă   *' \'\' acest lucru nu va închide biletul.)Formatul MantisBT va recunoaște   *
+Folosind acest model, se va asocia automat o comanda git cu un ticket (*\'Notă   *'* acest lucru nu va închide biletul.)Formatul MantisBT va recunoaște   *
 
--   bug \#1234
--   bugs \#1234, \#5678
--   issue \#1234
--   issues \#1234, \#5678
--   report \#1234
--   reports \#1234, \#5678
+-   bug #1234
+-   bugs #1234, #5678
+-   issue #1234
+-   issues #1234, #5678
+-   report #1234
+-   reports #1234, #5678
 
 For the inquisitive here is the regex MantisBT uses for this operation   *
 
@@ -183,16 +183,16 @@ For the inquisitive here is the regex MantisBT uses for this operation   *
 
 Formatul MantisBT va recunoaște   *
 
--   fix \#1234
--   fixed \#1234
--   fixes \#1234
--   fixed \#1234, \#5678
--   fixes \#1234, \#5678
--   resolve \#1234
--   resolved \#1234
--   resolves \#1234
--   resolved \#1234, \#5678
--   resolves \#1234, \#5678
+-   fix #1234
+-   fixed #1234
+-   fixes #1234
+-   fixed #1234, #5678
+-   fixes #1234, #5678
+-   resolve #1234
+-   resolved #1234
+-   resolves #1234
+-   resolved #1234, #5678
+-   resolves #1234, #5678
 
 For the inquisitive here is the regex MantisBT uses for this operation   *
 

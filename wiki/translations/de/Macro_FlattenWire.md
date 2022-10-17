@@ -32,7 +32,7 @@ Dieser Makroentwurf ist nicht bindend für den Median
 
 ToolBar Icon ![](images/Macro_FlattenWire.png )
 
-**Macro\_FlattenWire.FCMacro**
+**Macro_FlattenWire.FCMacro**
 
 
 {{MacroCode|code=

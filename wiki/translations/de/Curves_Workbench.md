@@ -22,7 +22,7 @@ Lade den Arbeitsbereich Kurven über den <img alt="" src=images/Std_AddonMgr.svg
 
 <div class="mw-translate-fuzzy">
 
--   Entwickler   * \@Chris\_G
+-   Entwickler   * \@Chris_G
 -   Github   * <https   *//github.com/tomate44/CurvesWB>
 -   Diskussion   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=22675>
 

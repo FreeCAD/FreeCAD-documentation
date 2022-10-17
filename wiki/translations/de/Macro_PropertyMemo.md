@@ -38,8 +38,8 @@ Starten Sie das Makro, wählen Sie ein Objekt aus. Entwurf vervollständigen die
 
 ![One Property Memo is adding](images/Macro_FCPropertyMemo_01.png )
 
--   \'\' \'Memo\' \'\'   * Eigenschaftstitel hier Memo
--   \'\' \'Name\' \'\'   * Name der Eigenschaft hier Name
+-   *\'Memo\'*   * Eigenschaftstitel hier Memo
+-   *\'Name\'*   * Name der Eigenschaft hier Name
 -   Das Feld kann manuell ausgefüllt werden
 
 
@@ -50,7 +50,7 @@ Wenn das Kontrollkästchen markiert ist, haben Sie ein Memo in der Liste. Klicke
 
 <center>
 
-Image   *Macro\_FCPropertyMemo\_02.png\|One Property Memo list. Image   *Macro\_FCPropertyMemo\_03.png\|The window Memo list.
+Image   *Macro_FCPropertyMemo_02.png\|One Property Memo list. Image   *Macro_FCPropertyMemo_03.png\|The window Memo list.
 
 
 </center>
@@ -62,7 +62,7 @@ Image   *Macro\_FCPropertyMemo\_02.png\|One Property Memo list. Image   *Macro\_
 
 Das Symbol für die Toolbar ![](images/PropertyMemo.png )
 
-**Macro\_FCPropertyMemo.FCMacro**
+**Macro_FCPropertyMemo.FCMacro**
 
 
 {{MacroCode|code=

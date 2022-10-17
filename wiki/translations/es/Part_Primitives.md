@@ -43,9 +43,9 @@
 
 Se puede crear una Primitiva de las siguientes maneras   *
 
-\#\* Presionando el botón **<img src="images/Part_Primitives.svg" width=24px> '''Crear Primitivas'''** en la barra de herramientas.
+#\* Presionando el botón **<img src="images/Part_Primitives.svg" width=24px> '''Crear Primitivas'''** en la barra de herramientas.
 
-\#\* Seleccionando **Pieza → Crear primitivas...** desde la barra de menú.
+#\* Seleccionando **Pieza → Crear primitivas...** desde la barra de menú.
 
 1.  Se abre una ventana en la que se puede seleccionar el tipo de Primitiva, sus parámetros y emplazamiento, tras lo cual, pulsar sobre el botón **Crear**
 

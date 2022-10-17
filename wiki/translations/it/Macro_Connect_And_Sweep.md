@@ -46,13 +46,13 @@ Questi file devono essere copiati nella directory delle macro
 
 ![Center](images/Macro_Connect_And_Sweep_CE.png ) ![Top left](images/Macro_Connect_And_Sweep_TL.png ) ![Top rigth](images/Macro_Connect_And_Sweep_TR.png ) ![Low left](images/Macro_Connect_And_Sweep_LL.png ) ![Low rigth](images/Macro_Connect_And_Sweep_LR.png )
 
-L\'icona di *\' Macro\_Connect\_And\_Sweep*\' per personalizzare la barra degli strumenti   * ![Icon for the button](images/Macro_Connect_And_Sweep.png )
+L\'icona di **Macro_Connect_And_Sweep** per personalizzare la barra degli strumenti   * ![Icon for the button](images/Macro_Connect_And_Sweep.png )
 
 ## Script
 
-*\' Macro\_Connect\_And\_Sweep.FCMacro*\'
+**Macro_Connect_And_Sweep.FCMacro**
 
-Scaricare la macro da Gits [*\' Macro\_Connect\_And\_Sweep.FCMacro*\'](https   *//gist.github.com/mario52a/3ec67a3711202dab69592ce53b938924)
+Scaricare la macro da Gits [**Macro_Connect_And_Sweep.FCMacro**](https   *//gist.github.com/mario52a/3ec67a3711202dab69592ce53b938924)
 
 ## Esempio
 
@@ -175,7 +175,7 @@ ver 0.12 2020/07/05    * include gli icona dentro la macro
 ver 00.11b 2020-02-22    * aggiunto di uno test \"try   * except\" al testo FreeCAD version
 
 ver 00.11 2020-02-13    * modificata per HD dpi QGridLayout eseguire solo FC versione 0.18 e successive
-Per la versione precedente vedere [Macro\_Connect\_And\_Sweep.FCMacro](https   *//gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/b3554916e0dce63644a2d4d3f88ef114b5e1e390/Macro_Connect_And_Sweep.FCMacro)
+Per la versione precedente vedere [Macro_Connect_And_Sweep.FCMacro](https   *//gist.githubusercontent.com/mario52a/3ec67a3711202dab69592ce53b938924/raw/b3554916e0dce63644a2d4d3f88ef114b5e1e390/Macro_Connect_And_Sweep.FCMacro)
 
 ver 00.10 2020-01-09    * centraggio su la faccia
 
@@ -205,7 +205,7 @@ La discussione [Scripting point to point tubing](http   *//forum.freecadweb.org/
 
 Questa macro si basa sul codice di microelly2, vedere [Looking for some helpful GUI-commands](http   *//forum.freecadweb.org/viewtopic.php?t=7029#p56746)
 
-Altra discussione sul foro [Macro\_Connect\_And\_Sweep](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35432)
+Altra discussione sul foro [Macro_Connect_And_Sweep](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=35432)
 
 
 

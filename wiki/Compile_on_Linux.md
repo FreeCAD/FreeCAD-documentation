@@ -272,6 +272,9 @@ To compile FreeCAD for Debian Buster, Ubuntu 19.04 and newer, as well as Ubuntu 
 -    `python3-matplotlib`
     
 
+-    `python3-packaging`
+    
+
 -    `python3-pivy`
     
 
@@ -402,7 +405,7 @@ Optionally you can also install these extra packages   *
 Requires Pyside2 available in Debian buster and the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md).
 
  {{Code|lang=bash|code=
-sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-pyside2.qtwebengine python3-pyside2.qtwebenginecore python3-pyside2.qtwebenginewidgets python3-pyside2.qtwebchannel python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
+sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-packaging python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-pyside2.qtwebengine python3-pyside2.qtwebenginecore python3-pyside2.qtwebenginewidgets python3-pyside2.qtwebchannel python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
 }}
 
 NOTE   * On some versions of Ubuntu and some versions of Qt, you will get an error that python3-pyside2uic cannot be found \-- on those systems you can safely omit it. On Ubuntu 20.04 you will need to add `pyqt5-dev-tools`. More information can be found in [this forum discussion](https   *//forum.freecadweb.org/viewtopic.php?t=51324).
@@ -458,11 +461,11 @@ sudo apt install cmake debhelper dh-exec dh-python libboost-date-time-dev libboo
 
  Follow the same steps as in Debian and Ubuntu.
 
-There are problems reported when trying to compile in Raspbian with Python 3 and Qt5, but the combination Python 3 and Qt4 seems to work for older versions of FreeCAD.
+There are problems reported when trying to compile in Raspberry PI OS 32-bit with Python 3 and Qt5, but the combination Python 3 and Qt4 seems to work for older versions of FreeCAD (with minor issues).
 
-For newer versions of FreeCAD the compilation with Py3/Qt5 is successful if the operating system installed is Ubuntu 20.04.
+For newer versions of FreeCAD (\>= 0.20) the compilation with Py3/Qt5 is successful if the operating system installed is Raspberry Pi OS 64-bit or Ubuntu 20.04.
 
-Due to different issues with Qt, in this version the normal PySide tools won\'t be found.  {{Code|lang=bash|code=
+Due to different issues with Qt, in Ubuntu 20.04 the normal PySide tools won\'t be found.  {{Code|lang=bash|code=
 E   * Unable to locate package python3-pyside2uic
 }}
 
@@ -529,17 +532,21 @@ You need the following packages   *
 -   libXmu-devel
 -   freeimage-devel
 -   mesa-libGLU-devel
--   OCE-devel
--   python
--   python-devel
--   python-pyside-devel
--   pyside-tools
+-   opencascade-devel
+-   openmpi-devel
+-   python3
+-   python3-devel
+-   python3-pyside2
+-   python3-pyside2-devel
+-   pyside2-tools
 -   boost-devel
 -   tbb-devel
 -   eigen3-devel
 -   qt-devel
 -   qt-webkit-devel
 -   qt5-qtxmlpatterns
+-   qt5-qtxmlpatterns-devel
+-   qt5-qtsvg-devel
 -   qt5-qttools-static
 -   ode-devel
 -   xerces-c
@@ -555,6 +562,7 @@ You need the following packages   *
 -   SoQt-devel
 -   freetype
 -   freetype-devel
+-   vtk
 -   vtk-devel
 -   med
 -   med-devel
@@ -566,7 +574,13 @@ And optionally   *
 -   libspnav-devel (for 3Dconnexion devices support like the Space Navigator or Space Pilot)
 -   python3-pivy ( <https   *//bugzilla.redhat.com/show_bug.cgi?id=458975> Pivy is not mandatory but needed for the Draft Workbench)
 -   python3-markdown (for the Addon Manager to display native markdown)
--   python3-git (for the Addon Manager to use git to checkout and update workbenches and macros)
+-   python3-GitPython (for the Addon Manager to use git to checkout and update workbenches and macros)
+
+To install all dependencies at once (tested on fedora 36)   *
+
+ {{Code|lang=bash|code=
+sudo dnf install gcc-c++ cmake doxygen swig gettext dos2unix desktop-file-utils libXmu-devel freeimage-devel mesa-libGLU-devel opencascade-devel openmpi-devel python3 python3-devel python3-pyside2 python3-pyside2-devel pyside2-tools boost-devel tbb-devel eigen3-devel qt-devel qt-webkit-devel qt5-qtxmlpatterns qt5-qtxmlpatterns-devel qt5-qtsvg-devel qt5-qttools-static ode-devel xerces-c xerces-c-devel opencv-devel smesh-devel Coin3 Coin3-devel SoQt-devel freetype freetype-devel vtk vtk-devel med med-devel libspnav-devel python3-pivy python3-markdown python3-GitPython
+}}
 
 
 
@@ -644,7 +658,7 @@ Also, check to see if there are any patches you need to apply (such as [0001-fin
 
 If there is a difference between the available packages on Tumbleweed and Leap, then you can read the Leap [\"FreeCAD.spec\"](https   *//build.opensuse.org/package/view_file/openSUSE   *Leap   *15.0/FreeCAD/FreeCAD.spec) file on the [Open Build Service](https   *//build.opensuse.org/) to determine the required packages.
 
-See [piano\_jonas unofficial \"Compile On openSUSE\" guide](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=49726).
+See [piano_jonas unofficial \"Compile On openSUSE\" guide](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=49726).
 
 
 
@@ -801,7 +815,7 @@ GNU libc 2.34 introduces a change to the library that can cause builds on some L
 No rule to make target '/usr/lib/x86_64-linux-gnu/libdl.so
 }}
 
-To resolve this, a symbolic link must be manually created from the (now empty) system-installed libdl.so.\* to the location your compiler says it is looking for the file. For example (if the actual installed copy of libdl.so on your system is /usr/lib/x86\_64-linux-gnu/libdl.so.2)   *
+To resolve this, a symbolic link must be manually created from the (now empty) system-installed libdl.so.\* to the location your compiler says it is looking for the file. For example (if the actual installed copy of libdl.so on your system is /usr/lib/x86_64-linux-gnu/libdl.so.2)   *
 
 
 {{Code|lang=bash|code=
@@ -900,7 +914,7 @@ For 0.19   *  {{Code|lang=bash|code=
 cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
 }}
 
-For 0.20\_dev   *  {{Code|lang=bash|code=
+For 0.20_dev   *  {{Code|lang=bash|code=
 cmake ../freecad-source
 }}
 
@@ -1044,6 +1058,32 @@ Once the package is built, you can use `lintian` to check if the package contain
 lintian freecad-package.deb
 }}
 
+#### \*.deb package with checkinstall 
+
+The Debian script `checkinstall` allows to create a \*.deb package that can be installed and removed with the standard `dpkg` commands. It may need to be installed first (on Ubuntu use `sudo apt install checkinstall`). It\'s interactive and asks for the required information providing helpful defaults. During the process the package is installed and a \*.deb file and a backup archive are created.
+
+It\'s a good idea to define a name and a short description for the package. The name must be entered to uninstall it again and the desription will be listed by `dpkg -l`. The default name \"build\" is not very informative.
+
+Example   *
+
+ {{Code|lang=bash|code=
+cd freecad-source/freecad-build
+cmake ..
+make
+sudo checkinstall                                  # e.g. name=freecad-test1
+}}
+
+The result is a \*.deb file in the freecad-build folder. `checkinstall` will install the build by default. This is how you can install or uninstall it   *
+
+ {{Code|lang=bash|code=
+cd freecad-source/freecad-build
+ ls <nowiki>|</nowiki>grep freecad
+        freecad-test1_20220814-1_amd64.deb
+ sudo dpkg -i freecad-test1_20220814-1_amd64.deb   # install
+ dkpg -l <nowiki>|</nowiki>grep freecad                             # find by name
+ sudo dpkg -r freecad-test1                        # uninstall by name
+}}
+
 ## Updating the source code 
 
 The CMake system allows you to intelligently update the source code, and only recompile what has changed, making subsequent compilations faster.
@@ -1061,6 +1101,15 @@ Then move into the build directory where the code was compiled initially, and ru
 cd ../freecad-build
 cmake .
 make -j$(nproc --ignore=2)
+}}
+
+## Uninstalling the source code 
+
+In case the compiled source code was installed with `sudo make install` (for Debian) the files were copied to the **/usr/local** folder into several subfolders. For uninstallation the file **install_manifest.txt** can be used. It has been created into the build folder during compilation and contains all installed files. As long as this file exists, the installation can be uninstalled.
+
+ {{Code|lang=bash|code=
+cd freecad-source/freecad-build
+xargs sudo rm < install_manifest.txt
 }}
 
 ## Troubleshooting
@@ -1344,7 +1393,7 @@ Prerequisite    * git
 Steps    *
 
 1.  Open a terminal. Optionally create a directory eg. {{incode | mkdir git}}. Optionally change directory eg. `cd git`.
-2.  Clone the AUR repository    * `git clone http   *//aur.archlinux.org/packages/freecad-git`
+2.  Clone the AUR repository    * `git clone https   *//aur.archlinux.org/freecad-git.git`
 3.  Enter AUR repository folder    * `cd freecad-git`
 4.  Compile using [Arch makepkg](https   *//wiki.archlinux.org/index.php/Makepkg)    * `makepkg -s`. The -s or \--syncdeps flag will also install required dependencies.
 5.  Install created package    * `makepkg --install` or double click on the pkgname-pkgver.pkg.tar.xz inside your file browser.
@@ -1356,7 +1405,7 @@ To update FreeCAD to latest build just repeat from step 3. Update AUR repo when 
 
  
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

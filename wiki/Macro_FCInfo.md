@@ -53,7 +53,7 @@ Select an object or launch the application and select an object, and a series of
 **Sector 4   * Vertexes and details**
 
 -   CheckBox for for search or not all details of the object. If it is not checked, only the principal value is displayed.
--   Vertexes and details of the shape (compt\_Edge), (compt\_Faces), (compt\_Vector of the Face)
+-   Vertexes and details of the shape (compt_Edge), (compt_Faces), (compt_Vector of the Face)
     max 200 lines in the table, if there are more than 200 lines it appears (!+ 200) and the number of lines
     (full details can save be the **Save** button in a file in CSV format and can be viewed the file in spreadsheet with the **Read** or by an external spreadsheet as [LibreOffice](https   *//www.libreoffice.org/) [OpenOffice](http   *//openoffice.apache.org/downloads.html) or other)
 
@@ -66,7 +66,7 @@ Select an object or launch the application and select an object, and a series of
     -   grade, ex   * 194.257636235 gon
     -   pourcent, ex   * 30° = 57.74%
 -   **Inclinations in planes XY, YZ, ZX** and their coordinates
--   **Direction object**, give the direction of object. The calculate is    * coord\_1 - coord\_2 = direction (or reverse)
+-   **Direction object**, give the direction of object. The calculate is    * coord_1 - coord_2 = direction (or reverse)
     -   
         **Line**
         
@@ -124,7 +124,7 @@ same for length and weigth
 -    **Space**   * the separator is Space
 
 Option for save or read the spreadsheet with different separator, Tabulation, Comma, Semicolon, Space
-The Tabulation are the separator for the FreeCAD \[Spreadsheet\_Workbench\|Spreadsheet workbench\]
+The Tabulation are the separator for the FreeCAD \[Spreadsheet_Workbench\|Spreadsheet workbench\]
 The number of this four separator are calculate for help if unknown
 The COMMA are the old (01.16 and before) separator of the FCInfo macro
 Now for compatibility with the FreeCAD spreadsheet and since 01.17 version the TABULATION is the separator by default
@@ -153,7 +153,7 @@ Once launched macro, the macro remains active and the window remains visible. To
 
 <center>
 
-Image   *Macro\_FCInfo\_04.png\|Docked to right, Image   *Macro FCInfo 05.png\|or left with Combo view and reachable by a tab, or not docked, to the choice.
+Image   *Macro_FCInfo_04.png\|Docked to right, Image   *Macro FCInfo 05.png\|or left with Combo view and reachable by a tab, or not docked, to the choice.
 
 
 </center>
@@ -208,8 +208,8 @@ A file can be created by the button **Save**. The file is written as a file [csv
 
 Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
 
--   Windows   * the form is usually **\" drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
--   Ubuntu   * the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+-   Windows   * the form is usually **\" drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu   * the form is usually **\" /home/your_user_name/.FreeCAD \"**.
 
 Or, directly in the interface of FreeCAD
 The icon must be in the same directory as the macro.
@@ -322,7 +322,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 ```
 
 -   ver 1.21-3.01 , 07/11/2019 \# 07/11/2019 ver \"01.21-3-rmu\" replace character micro = \"U\", square = \"2\", cube = \"3\", degrees = \" deg\" see \"<https   *//forum.freecadweb.org/viewtopic.php?f=3&t=6005&start=70#p345819>\"
--   ver 1.21-2.01 (1.21-rmu) 11/06/2019 rmu replace all characters over 127 in ex   * \"°\" in chr(176)) \#degree
+-   ver 1.21-2.01 (1.21-rmu) 11/06/2019 rmu replace all characters over 127 in ex   * \"°\" in chr(176)) #degree
 -   ver 1.21.01 (1.21-rmu) 30/05/2019 rmu change fixed positions to qt layouts grid.addWidget() by rmu75 see the rmu75 fork \"<https   *//gist.github.com/rmu75/b165147bd1c2f2659c014103793ae1d8>\"
 -   ver 1.21 , 16/04/2019 optimization for Py 3\... Qt 5\... FreeCAD 0.15 to 0.19 release
 -   ver 1.20 , 29/01/2018 optimization
@@ -334,7 +334,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 -   ver 1.16 , 21/06/2017 add control height police (here PointSize 8) and checkbox for position the window to right or left
 -   ver 1.15 , 19/12/2015 suppression PyQt4 option [see](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=13541) , add checkBox for editing infos in report view
 -   ver 1.14 , 04/08/2014 replace PyQt4 and PySide and correct tooltip not displayed cause on PySide and add fg
--   ver 1.13 , 27/07/2014 replace FCInfo\_en\_Ver\_1-12\_Docked.FCMacro to FCInfo\_en\_Ver\_1-13\_Docked.FCMacro accept PyQt4 and PySide
+-   ver 1.13 , 27/07/2014 replace FCInfo_en_Ver_1-12_Docked.FCMacro to FCInfo_en_Ver_1-13_Docked.FCMacro accept PyQt4 and PySide
 -   ver 1.12 , 10/03/2014 adding tooltip
 -   ver 1.11 , 04/03/2014 adding µm, nm, pm, fm, µg, ng, pg, pourcent, fixed of grandeur carat ~~\"cd\"~~ in **\"ct\"**, display of the label and internal name, fixed calculation of angles XY YZ ZX could give an error on a compound shape, window dockable in FreeCAD
 -   ver 1.10.b , 19/11/2013 buttons outside the scrollbar and the dimensions of the window blocking
@@ -342,7 +342,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 (ver 1.10 , 18/11/2013 create scrollbar)
 \*ver 1.08.b , 10/11/2013 translation units in English, error correction to display the area of the faces listed in the table and replacement of the\"**print**\" by \"**App.Console.PrintMessage**\"
 ~~ver 1.09 , 04/11/2013 works perfectly on Windows and Linux (cause of errors on Linux the characters    * ² ³ ° \"ordinal not in range(128)\")~~
-In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro\_FCInfo\_Alternate\_Linux](Macro_FCInfo_Alternate_Linux.md)
+In a Linux distribution and in the case of an error of **\"ordinal not in range (128)\"** an alternative version exists on this page [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
 \*ver 1.08 , 24/10/2013 correction of high top \"Faces\" and \"Edges\" displaying 100 objects (in the saved file)
 \*ver 1.07 , 11/10/2013 matches the \"Faces\" and their coordinates.
 \*ver 1.06 , 22/09/2013 matches the \"Edges\" and their coordinates, inclination on the element rather than the global object

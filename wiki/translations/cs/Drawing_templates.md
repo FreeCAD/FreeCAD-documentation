@@ -21,27 +21,27 @@ Vytváření šablon pro modul Výkresy je velmi snadné. Koukněte na výukový
 
 </div>
 
- {.html}
+ html
 width="1067mm"
 height="762mm"
 
 
 or
 
- {.html}
+ html
 width="1067"
 height = "762"
 
 
 Although svg supports inches (\"42 in\"), these are currently not supported by FreeCAD, so it\'s always better to have your svg page size specified in millimeters. The \"viewBox\" attribute must have the same value, for example   *
 
- {.html}
+ html
 viewBox="0 0 1067 762"
 
 
 -   You must insert, somewhere inside your svg code, where you want the contents of the drawing to appear (for example at the end of the file, just before the last</svg>tag), the following line   *
 
- {.html}
+ html
 
 
 
@@ -71,7 +71,7 @@ Pro definování rámečku výkresu se musí před značku \<metadata v souboru 
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -98,7 +98,7 @@ Pro definování Popisového pole musí být před značku \<metadata, ale za zn
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -125,7 +125,7 @@ Následuje příklad kódu, který definuje Pracovní prostor (Working space) a 
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -137,7 +137,7 @@ The following is to be formatted like the example below where   *
 -   xxx = pixel width
 -   yyy = pixel height
 
- {.html}
+ html
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -304,4 +304,4 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/cs

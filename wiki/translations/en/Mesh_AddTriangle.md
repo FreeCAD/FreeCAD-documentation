@@ -1,5 +1,5 @@
 # Mesh AddTriangle/en
-1.  REDIRECT [Mesh\_AddFacet/en](Mesh_AddFacet/en.md)
+1.  REDIRECT [Mesh_AddFacet/en](Mesh_AddFacet/en.md)
 
 
 

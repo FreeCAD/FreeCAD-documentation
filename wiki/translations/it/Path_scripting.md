@@ -420,7 +420,7 @@ import example_pre
 example_pre.insert("/path/to/myfile.ncc","DocumentName")
 ```
 
-Allo stesso modo, è possibile emettere un oggetto tracciato per GCode, utilizzando uno script post\_processor in questo modo   *
+Allo stesso modo, è possibile emettere un oggetto tracciato per GCode, utilizzando uno script post_processor in questo modo   *
 
 
 ```python
@@ -470,7 +470,7 @@ This example is based on a [discussion in the german forum](https   *//forum.fre
 
 -   Create a solid with ShapeString as Cutout
 -   Create a Job using this solid as its BaseObject
--   Create a ProfileFromFaces operation named \"Profile\_Faces\" with empty BaseGeometry.
+-   Create a ProfileFromFaces operation named \"Profile_Faces\" with empty BaseGeometry.
 
 ### The code 
 

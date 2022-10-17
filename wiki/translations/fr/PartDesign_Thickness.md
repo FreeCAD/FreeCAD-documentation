@@ -90,8 +90,8 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"
 -   Si la coque va vers l\'intérieur, la valeur doit être inférieure à la plus petite hauteur du corps.
 -   L\'outil peut échouer avec des formes complexes. Les outils [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md) ou [PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md) peuvent mieux fonctionner pour créer des formes complexes.
 -   Erreurs connues    *
-    -   BRep\_API    * commande non effectuée.
-    -   BRep\_Tool    * aucun paramètre sur le bord.
+    -   BRep_API    * commande non effectuée.
+    -   BRep_Tool    * aucun paramètre sur le bord.
     -   Echec silencieux.
 
 ## Propriétés

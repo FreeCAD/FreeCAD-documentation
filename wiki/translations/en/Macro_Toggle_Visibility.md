@@ -36,7 +36,7 @@ This version new version (00.02) include the tree macro in one.
 
 The macro icon <img alt="" src=images/Macro_SelectVisible.png  style="width   *48px;">
 
-**Macro\_ToggleSelectedObjectVisibility.FCMacro**
+**Macro_ToggleSelectedObjectVisibility.FCMacro**
 
 
 {{MacroCode|code=
@@ -78,7 +78,7 @@ The discussion on the forum [Proposal   * select one or more pieces, hide the ot
 
 ## Version
 
-ver 00.02 12/11/2015 **macro Macro\_SelectVisible**    * hidden the objects not selected, if not object selected displayed all objects, hidden all objects. This version include the tree macro in one
+ver 00.02 12/11/2015 **macro Macro_SelectVisible**    * hidden the objects not selected, if not object selected displayed all objects, hidden all objects. This version include the tree macro in one
 
 
 

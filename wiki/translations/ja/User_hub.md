@@ -53,7 +53,7 @@
 -   [アプリケーションの概要](About_FreeCAD/ja.md)   * ：FreeCADの一般的な概要
 -   [FreeCADのインストール](Install_on_Windows/ja.md)：Linux / UnixおよびWindowsでの、FreeCADのインストールの仕方
 -   [はじめよう](Getting_started/ja.md)：利用可能なツールの簡単な概要
--   [Frequently\_asked\_questions/ja](Frequently_asked_questions/ja.md)：よくある質問
+-   [Frequently_asked_questions/ja](Frequently_asked_questions/ja.md)：よくある質問
 -   [Tutorials](Tutorials/jp.md) covering different parts of FreeCAD
 
 

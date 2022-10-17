@@ -86,7 +86,7 @@ Tutti i lavori in Part Design iniziano con un [Corpo](Glossary#Body.md). Quindi 
 *Note   * this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
 2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**   *
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ_Plane** in the list and press **OK**   *
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
@@ -179,8 +179,14 @@ Dopo aver selezionato la faccia, fare clic sull\'icona Nuovo schizzo nella barra
 
 ![](images/tut17_slot_unconstrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Fare clic con il tasto destro per terminare la modalità geometria esterna
 2.  Selezionare il punto appena reso disponibile con lo strumento Geometria esterna, quindi selezionare il vertice in alto a destra del rettangolo e fare clic sul vincolo coincidente. A questo punto il disegno dovrebbe essere completamente vincolato e apparire come nell\'immagine successiva.
+
+
+</div>
 
 ![](images/tut17_slote_constrained.png )
 
@@ -330,7 +336,7 @@ Per concludere questo tutorial, chiudere la finestra di sketch usando *Chiudi* o
 
 ![](images/Tut17_final.png )
 
-A questo punto, sono visibili alcune linee che provengono dalle funzioni intersecanti precedenti. In questo caso il \'\' blocco laterale \'\' interseca il \'\' profilo base \'\' facendolo apparire come un blocco triangolare sopra al profilo (cioè, c\'è una linea extra visibile nell\'immagine sopra sul lato destro del modello). Per rimuovere queste linee, si può attivare \"Affina forma\" nelle impostazioni di Part Design o, per mantenere una discreta velocità di elaborazione, ma avere queste linee mentre si costruisce, attivare l\'affinazione individualmente per ciascuna funzione che crea tali linee. L\'impostazione della funzione può essere eseguita nella scheda \"Dati\" della funzione. Impostare la [**proprietà *refine***](Property_editor/it#Dati.md) su TRUE per la funzione pocket Pocket001 per invocare l\'affinamento.
+A questo punto, sono visibili alcune linee che provengono dalle funzioni intersecanti precedenti. In questo caso il *blocco laterale* interseca il *profilo base* facendolo apparire come un blocco triangolare sopra al profilo (cioè, c\'è una linea extra visibile nell\'immagine sopra sul lato destro del modello). Per rimuovere queste linee, si può attivare \"Affina forma\" nelle impostazioni di Part Design o, per mantenere una discreta velocità di elaborazione, ma avere queste linee mentre si costruisce, attivare l\'affinazione individualmente per ciascuna funzione che crea tali linee. L\'impostazione della funzione può essere eseguita nella scheda \"Dati\" della funzione. Impostare la [**proprietà *refine***](Property_editor/it#Dati.md) su TRUE per la funzione pocket Pocket001 per invocare l\'affinamento.
 
 ![](images/Tut17_refine.png ) ![](images/Tut17_final_refined.png )
 

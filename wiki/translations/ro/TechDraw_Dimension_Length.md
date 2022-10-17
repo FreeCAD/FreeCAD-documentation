@@ -1,5 +1,5 @@
 # TechDraw Dimension Length/ro
-1.  REDIRECT [TechDraw\_LengthDimension/ro](TechDraw_LengthDimension/ro.md)
+1.  REDIRECT [TechDraw_LengthDimension/ro](TechDraw_LengthDimension/ro.md)
 
 
 

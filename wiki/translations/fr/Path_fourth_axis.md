@@ -43,7 +43,7 @@ Il n\'y a actuellement aucune intégration GUI des paramètres de rotation du 4�
 
 -   Cliquez sur l\'icône Path Pocket Shape pour démarrer l\'opération.
 -   Cliquez sur OK pour créer l\'opération - aucune face sélectionnée
--   Sélectionnez la nouvelle opération Pocket\_Shape dans la fenêtre des tâches
+-   Sélectionnez la nouvelle opération Pocket_Shape dans la fenêtre des tâches
 -   Dans la liste Propriétés de l\'opération, faites défiler jusqu\'à la section Path et modifiez la propriété \"Enable Rotation\" sur le paramètre de 4ème axe souhaité.
 -   Recalculez l\'opération
 -   Double-cliquez sur la même opération, pour modifier les paramètres dans la fenêtre des tâches.

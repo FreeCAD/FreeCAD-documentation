@@ -49,7 +49,7 @@ Zkopíruj kód makra do souboru v adresáři    *
 -   **Linux & Mac**    * \$home/.Freecad/Mod/UnrollRuledSurface.
 -   **Windows**    * C   *Program Files\\FreeCAD0.13
 
-Přidej šablony    * A3\_Landscape\_Empty.svg A3\_Landscape.svg A4\_Landscape\_Empty.svg A4\_Landscape.svg
+Přidej šablony    * A3_Landscape_Empty.svg A3_Landscape.svg A4_Landscape_Empty.svg A4_Landscape.svg
 Cf [Makro pro rozvinutí svinutých povrchů](http   *//forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737)
 
 
@@ -72,7 +72,7 @@ See also   * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org
 
 </div>
 
-![Macro\_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png )
+![Macro_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png )
 
 ## Usage
 
@@ -91,11 +91,11 @@ See also   * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org
 
 ## Python kód 
 
-The latest version of the macro is here on the wiki. An earlier version can be found at [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), but the easiest way to install this macro is through the <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr.md).
+The latest version of the macro is here on the wiki. An earlier version can be found at [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), but the easiest way to install this macro is through the <img alt="Std_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr.md).
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 
-**Macro\_unrollRuledSurface.py**
+**Macro_unrollRuledSurface.py**
 
     # -*- coding   * utf-8 -*-
     #***************************************************************************

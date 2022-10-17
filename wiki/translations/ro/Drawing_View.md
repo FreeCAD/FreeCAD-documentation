@@ -19,7 +19,7 @@ Selectați un obiect în vizualizarea 3D sau în arborescența Proiect, apoi fac
 
 </div>
 
-Un obiect \'\'\' View *\' se adaugă la obiectul*\' Page \'\'\' din arborescența Project. Pentru afișările ulterioare, se va adăuga un număr de trei cifre la nume. Faceți clic pe săgeata din fața obiectului Pagină pentru a o deschide și afișați vizualizările pe care le conține.
+Un obiect **View** se adaugă la obiectul**Page** din arborescența Project. Pentru afișările ulterioare, se va adăuga un număr de trei cifre la nume. Faceți clic pe săgeata din fața obiectului Pagină pentru a o deschide și afișați vizualizările pe care le conține.
 
 Dacă numai obiectul este selectat în Arborescența proiectului, vizualizarea este adăugată la prima pagină a proiectului. Dacă aveți mai multe pagini în proiect, selectați obiectul și pagina la care ar trebui adăugată. Apoi faceți clic pe pictograma pentru a adăuga vizualizarea la pagina selectată.
 
@@ -35,7 +35,7 @@ Deschideți obiectul Page din arborele Project și selectați View. Parametrii s
 -   **X**   * setează poziția orizontală a vederii pe pagină în milimetri.
 -   **Y**   * stabilește poziția verticală a vederii pe pagină în milimetri. Rețineți că coordonatele (0,0) sunt localizate în partea din stânga sus a paginii, deci cu cât este mai mare numărul, cu atât mai mic va fi vizualizarea pe pagină.
 -   **Direction**   * schimbă direcția de vizualizare. Acesta este setat de valorile xyz care definesc un vector normal pentru pagină. Vederea de sus va fi (0,0,1), iar izometria va fi (1,1,1). Valorile pot fi negative.
--   **Afișează liniile ascunse**   * comută sau dezactivează vizibilitatea liniilor ascunse selectând \'\' Adevărat \'\' sau \'\' Fals \'\'.
+-   **Afișează liniile ascunse**   * comută sau dezactivează vizibilitatea liniilor ascunse selectând *Adevărat* sau *Fals*.
 -   **Afișează liniile netede**   * comută sau dezactivează vizibilitatea liniilor netede prin selectarea*True*sau*False*. Liniile netede sunt de asemenea numite margini de tangență. Aceste margini indică schimbări de suprafață între suprafețele tangente.
 
 ### Expertul vizualizării desenului 
@@ -64,4 +64,4 @@ If you are looking for persective-orthographic toggling in 3D view check [Std Pe
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing View/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing View/ro

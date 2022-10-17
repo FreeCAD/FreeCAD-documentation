@@ -1,5 +1,5 @@
 # Spreadsheet Controller/en
-1.  REDIRECT [Arch\_Schedule/en](Arch_Schedule/en.md)
+1.  REDIRECT [Arch_Schedule/en](Arch_Schedule/en.md)
 
 
 

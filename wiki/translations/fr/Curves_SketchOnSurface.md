@@ -34,8 +34,8 @@ Cet outil applique une esquisse sur une face comme une étiquette sur une boutei
 
         -   En appuyant sur le bouton <img alt="" src=images/Curves_SketchOnSurface.svg  style="width   *24px;">.
         -   En utilisant l\'entrée **Surfaces → Sketch on Surface** dans le menu Curves.
-    7.  Un objet Sketch\_On\_Surface apparaît dans la [Vue en arborescence](Tree_view/fr.md).
-    8.  Développez cet objet pour faire apparaître l\'esquisse Mapped\_Sketch ci-dessous.
+    7.  Un objet Sketch_On_Surface apparaît dans la [Vue en arborescence](Tree_view/fr.md).
+    8.  Développez cet objet pour faire apparaître l\'esquisse Mapped_Sketch ci-dessous.
     9.  Modifiez l\'esquisse et ajoutez des géométries à l\'intérieur des limites de construction bleues.
     10. Un objet SketchOnSurface sera créé sur la surface de votre objet à partir de cette esquisse.
 

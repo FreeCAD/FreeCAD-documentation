@@ -39,7 +39,7 @@ This clone is a copy of the original object, as in the **Edit → Duplicate sele
 
 ToolBar Icon ![](images/Macro_clone_explicit.png )
 
- **Macro\_clone\_explicit.FCMacro**
+ **Macro_clone_explicit.FCMacro**
 
 
 {{MacroCode|code=

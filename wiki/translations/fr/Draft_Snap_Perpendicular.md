@@ -30,8 +30,9 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 5.  Choisissez un premier point. Cette option d\'aimantation nécessite un point précédent. Le point perpendiculaire sera déterminé par rapport à ce point.
 6.  Déplacez le curseur sur une face ou un bord.
 7.  La face ou l\'arête est mise en évidence.
-8.  Si une perpendiculaire est trouvée, le point est marqué et l\'icône <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *16px;"> s\'affiche près du curseur.
-9.  Cliquez pour confirmer le point.
+8.  Si un point perpendiculaire est trouvé, le point est marqué et l\'icône <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *16px;"> est affichée près du curseur.
+9.  S\'il y a plusieurs points perpendiculaires    * déplacez éventuellement le curseur vers un autre point perpendiculaire. {{Version/fr|1.0}}
+10. Cliquez pour confirmer le point.
 
 ## Préférences
 

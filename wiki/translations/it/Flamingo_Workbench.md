@@ -23,19 +23,13 @@ Per comodità gli strumenti di Flamingo e Dodo sono raggruppati in tre barre di 
 
 ![](images/dodoBlob.png )
 
-
-<div class="mw-translate-fuzzy">
-
    ** **Frame tools**   * strumenti struttura che hanno lo scopo di posizionare strutture, travi e simili in FreeCAD usando gli oggetti Structure del modulo Arch. \.../flamingo/tutorials/tutorialFrame.pdf
 
    ** **Pype tools**   * strumenti tubazione che sono la continuazione logica dello strumento Frame poiché si occupano della creazione di condutture e strutture tubolari. Questo gruppo dispone inoltre di proprie classi Python per creare gli oggetti tubazioni, come tubi, gomiti, flange, ecc. \.../flamingo/tutorials/tutorialPype2.pdf
 
    ** **Eagle tools**   * è fondamentalmente un\'aggiunta, e una scorciatoia, al molto professionale ambiente [FreeCAD-PCB](https   *//github.com/marmni/FreeCAD-PCB) (disponibile anche nel repository aggiuntivo di FreeCAD) to import position of objects from a .brd Eagle\'s file on a PCB drawn in FreeCAD with the a.m. workbench relating only on their names. È anche l\'origine, per estensione, del nome dell\'intero workbench. \.../flamingo/tutorials/tutorialEagle.pdf
 
-   ** **Utilities** è una barra degli strumenti fornisce alcune funzionalità per interrogare gli oggetti nel modello e la loro distanza, per spostare o ruotare il piano di lavoro e una scorciatoia alla finestra di dialogo per la creazione di poligoni del modulo Draft, che consente di modificare la posizione del piano di lavoro al volo.
-
-
-</div>
+   ** **Utils** è una barra degli strumenti fornisce alcune funzionalità per interrogare gli oggetti nel modello e la loro distanza, per spostare o ruotare il piano di lavoro e una scorciatoia alla finestra di dialogo per la creazione di [Draft Wire](Draft_Wire/it.md) del modulo Draft, che consente di modificare la posizione del piano di lavoro al volo.
 
 ## Riferimenti
 
@@ -48,13 +42,7 @@ Per comodità gli strumenti di Flamingo e Dodo sono raggruppati in tre barre di 
 
 ## Installazione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo ambiente è facile da installare e aggiornare dal [Addon Manager](Std_AddonMgr/it.md) disponibile in FreeCAD 0.17 e superiore. Per gli utenti di FreeCAD 0.16 e per altri metodi di installazione, fare riferimento alla pagina [Installare componenti aggiuntivi](Installing/it#Installare_componenti_aggiuntivi.md). In particolare, la pagina di download di GitHub contiene le istruzioni per l\'installazione   * scaricare il file Zip, decomprimere e posizionare la cartella di flamingo-master nella propria directory **.FreeCAD/Mod**. Se la directory **/Mod** non esiste, crearla con **Crea nuova cartella** su Ubuntu.
-
-
-</div>
+Questo ambiente può essere installato dall\'[Addon Manager](Std_AddonMgr/it.md). Per una installazione manuale vedere [Installare ulteriori ambienti di lavoro](Installing_more_workbenches/it.md).
 
 ## Strumenti Frame 
 
@@ -91,11 +79,11 @@ Finestra di dialogo per creare il set di profili da utilizzare nel modello per l
 
 -   **Section** lista   * include tutte le sezioni definite nel file .csv corrispondente al tipo di sezione selezionato.
 -   **Section types** elenco   * i tipi di profili definiti con i file .csv inclusi nella cartella / tabelle
--   **Insert** pulsante   * crea il gruppo \"Profiles\_set\", se non già esistente, e aggiunge ad esso l\'oggetto del profilo selezionato.
+-   **Insert** pulsante   * crea il gruppo \"Profiles_set\", se non già esistente, e aggiunge ad esso l\'oggetto del profilo selezionato.
 
 Possono essere create altre tabelle profili aggiungendo il file .csv pertinente nella cartella / tabelle. Le regole per creare o personalizzare tali tabelle sono simili a quelle per le pipe lines.
 
-Nel modello possono essere disegnati altri profili e poi trascinati all\'interno del gruppo \"Profili\_set\".
+Nel modello possono essere disegnati altri profili e poi trascinati all\'interno del gruppo \"Profili_set\".
 
 L\'orientamento dei DWire può influenzare il rendering delle travi.
 
@@ -128,13 +116,9 @@ Analogamente a quanto visto sopra, le frame-lines sono oggetti che raccolgono le
 
 Se il nome di un oggetto FrameLine viene modificato, anche il nome del gruppo pertinente cambia automaticamente ma non viceversa
 
-
-<div class="mw-translate-fuzzy">
-
-
    *   6\) FrameBranch manager
 
-Simile alla funzione analoga nel menu [Strumenti Pype](#Strumenti_Pype.md), questo è un contenitore per travi strutturato su una .Base. La base può essere un DWire, uno Sketch o anche i bordi di una forma solida. Quando viene modificata la base sottostante, anche la posizione e la lunghezza delle travi vengono modificate di conseguenza. È possibile tagliare o estendere a qualsiasi geometria le travi e ruotare le sezioni intorno alla linea centrale attraverso i comandi forniti nella finestra di dialogo   * in questo modo la modifica non viene persa quando il documento viene ricalcolato.
+Simile alla funzione analoga nel menu Pype, questo è un contenitore per travi strutturato su una .Base. La base può essere un DWire, uno Sketch o anche i bordi di una forma solida. Quando viene modificata la base sottostante, anche la posizione e la lunghezza delle travi vengono modificate di conseguenza. È possibile tagliare o estendere a qualsiasi geometria le travi e ruotare le sezioni intorno alla linea centrale attraverso i comandi forniti nella finestra di dialogo   * in questo modo la modifica non viene persa quando il documento viene ricalcolato.
 
 -   **OK** crea un FrameBranch sulla geometria preselezionata.
 -   **Cancel** chiude la finestra di dialogo.
@@ -149,10 +133,6 @@ Simile alla funzione analoga nel menu [Strumenti Pype](#Strumenti_Pype.md), ques
 -   **Redraw** ricrea la struttura, cancellando tutti gli offset e le rotazioni.
 
 Quando viene selezionata una trave appartenente a un framebranch nell\'area di visualizzazione, TAIL (la coda) viene evidenziata visivamente. Ciò consente di modificare manualmente gli offset di coda e di testa, oltre alla rotazione della sezione, utilizzando i comandi forniti nella finestra di dialogo.
-
-
-</div>
-
 
    *   7\) Spin beams by 45 deg. (class spinSect). Ruota le travi di 45 gradi
 
@@ -345,7 +325,7 @@ Capito questo, il comando apre la finestra di dialogo per creare o modificare un
 
 La finestra di dialogo è molto simile a quella per inserire altri oggetti visti prima.
 
-Le tabelle delle classificazioni delle tubazioni, dove è definito il valore del diametro esterno O.D. e lo spessore, sono le stesse di quelle per tubi (es. Pipe\_SCH-STD.csv).
+Le tabelle delle classificazioni delle tubazioni, dove è definito il valore del diametro esterno O.D. e lo spessore, sono le stesse di quelle per tubi (es. Pipe_SCH-STD.csv).
 
 Quando nella casella combo c\'è  e viene premuto **Insert**, nel documento viene creato un nuovo oggetto pype-line con il gruppo pertinente.
 
@@ -460,20 +440,11 @@ Strumento per ottenere varie informazioni in base all\'oggetto o agli oggetti se
 
 Strumento per impostare la posizione e la rotazione del piano di lavoro in base alla geometria esistente selezionata.
 
-
-<div class="mw-translate-fuzzy">
-
 La normale del piano di lavoro è definita analizzando gli elementi nel seguente ordine   *
 
 1.  la normale di una faccia
 2.  la normale del piano di una curva
 3.  la normale del piano contenente due segmenti
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 L\'origine del piano di lavoro è definita (in ordine) da
 
@@ -482,42 +453,17 @@ L\'origine del piano di lavoro è definita (in ordine) da
 3.  l\'intersezione di due linee
 4.  il centro di un bordo
 
-
-</div>
-
-
    *   5\) Offset piano di lavoro
-
-
-<div class="mw-translate-fuzzy">
 
 Sposta il piano di lavoro lungo il suo vettore normale. Per mostrare la direzione dell\'offset viene visualizzata sullo schermo una freccia verde temporanea. Chiaramente sono ammessi anche valori negativi.
 
-
-</div>
-
-
    *   6\) Ruota il piano di lavoro
-
-
-<div class="mw-translate-fuzzy">
 
 Ruota il piano di lavoro attorno a uno dei suoi assi. Anche in questo caso viene visualizzata una freccia verde nella finestra per identificare l\'orientamento attuale del piano di lavoro   * la freccia è puntata nella direzione Z e la base lunga della freccia è posizionata sopra la direzione X.
 
-
-</div>
-
-
    *   7\) Disegna un DWire
 
-
-<div class="mw-translate-fuzzy">
-
 Questo strumento funziona esattamente come lo strumento corrispondente dell\'ambiente Draft, ma con alcune opzioni aggiuntive alla fine della finestra di dialogo. Come impostazione predefinita, l\'origine del piano di lavoro viene ridefinita ad ogni punto aggiunto poiché ciò semplifica il tracciamento mediante l\'opzione snap-to-grid dei segmenti con lunghezza e orientamento noti. Quindi due pulsanti, richiamati anche con la combinazione di tasti Ctrl+Maiusc+(), consentono di ruotare e sfalsare il piano di lavoro come visto sopra senza interrompere l\'oggetto DWire. Gli ultimi tre pulsanti consentono di modificare rapidamente la rotazione del piano di lavoro per renderlo parallelo ai piani principali.
-
-
-</div>
-
 
    *   8\) Sposta rapidamente gli oggetti
 
@@ -546,15 +492,9 @@ Apre una finestra di dialogo per calcolare le perdite di carico attraverso le pa
 
 ## Altri link utili 
 
-
-<div class="mw-translate-fuzzy">
-
--   [DevWorkbenches](Template_DevWorkbenches.md)   * Elenco di ambienti di lavoro in fase di sviluppo.
+-   [Ambienti complementari](External_workbenches/it.md)
 -   [Esempi di Macro](Macros_recipes/it.md)
 -   [OSE-Piping-Workbench   * applicazione per creare ulteriori raccordi per tubi](https   *//wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
-
-
-</div>
 
 ## Ambienti esterni 
 

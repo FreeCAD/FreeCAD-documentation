@@ -123,16 +123,16 @@ This style was tailored for use with a touchscreen and pen. Nevertheless, it can
 
 <div class="mw-translate-fuzzy">
 
-Este estilo foi introduzido na versão 0.16, e foi adaptado para uso com uma tela sensível ao toque e uma caneta. No entanto, também pode ser usado com um mouse, recomendado para uso quando se usa um Mac com trackpad. {{Gesture Navigation \|Select\_name=Selecionar \|Pan\_name=Pan(movimento panorâmico) \|Zoom\_name=Zoom \|Rotate\_view\_name=Rotacionar vista \|Tilt\_view\_name=Vista inclinada \|Select\_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar. \|Select\_gesture\_text=Toque para selecionar. \|Pan\_text=Segure o botão direito do mouse, depois mova o ponteiro. \|Pan\_gesture\_text=Arrastar com dois dedos.
+Este estilo foi introduzido na versão 0.16, e foi adaptado para uso com uma tela sensível ao toque e uma caneta. No entanto, também pode ser usado com um mouse, recomendado para uso quando se usa um Mac com trackpad. {{Gesture Navigation \|Select_name=Selecionar \|Pan_name=Pan(movimento panorâmico) \|Zoom_name=Zoom \|Rotate_view_name=Rotacionar vista \|Tilt_view_name=Vista inclinada \|Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar. \|Select_gesture_text=Toque para selecionar. \|Pan_text=Segure o botão direito do mouse, depois mova o ponteiro. \|Pan_gesture_text=Arrastar com dois dedos.
 
 
 </div>
 
-Você também pode clicar e segurar, depois arrastar. Isto simula o Pan(movimento panorâmico) com o botão direito do mouse. \|Zoom\_text=Use a rodinha do mouse para aumentar e diminuir o zoom. \|Zoom\_gesture\_text=Faça o movimento de pinça fechando os dedos para aproximar ou de abertura para afastar. \|Rotate\_view\_text=Mantenha o botão esquerdo do mouse pressionado, depois mova o ponteiro. Em [Sketcher](Sketcher_Workbench/pt-br.md) e outros modos de edição, este comportamento é desativado. Segure **Alt** ao pressionar o botão do mouse para entrar no modo de rotação.
+Você também pode clicar e segurar, depois arrastar. Isto simula o Pan(movimento panorâmico) com o botão direito do mouse. \|Zoom_text=Use a rodinha do mouse para aumentar e diminuir o zoom. \|Zoom_gesture_text=Faça o movimento de pinça fechando os dedos para aproximar ou de abertura para afastar. \|Rotate_view_text=Mantenha o botão esquerdo do mouse pressionado, depois mova o ponteiro. Em [Sketcher](Sketcher_Workbench/pt-br.md) e outros modos de edição, este comportamento é desativado. Segure **Alt** ao pressionar o botão do mouse para entrar no modo de rotação.
 
-Para definir o ponto de foco da câmera para rotação, clique em um ponto com o botão central do mouse. Alternativamente, aponte o cursor para um ponto e pressione **H** no teclado. \|Rotate\_view\_gesture\_text=Arraste com um dedo para girar.
+Para definir o ponto de foco da câmera para rotação, clique em um ponto com o botão central do mouse. Alternativamente, aponte o cursor para um ponto e pressione **H** no teclado. \|Rotate_view_gesture_text=Arraste com um dedo para girar.
 
-Segure **Alt** quando no [Sketcher](Sketcher_Workbench/pt-br.md). \|Tilt\_view\_text=Segure os botões esquerdo e direito do mouse, depois mova o ponteiro para o lado. \|Tilt\_view\_gesture\_text=Gire a linha imaginária formada por dois pontos de contato.
+Segure **Alt** quando no [Sketcher](Sketcher_Workbench/pt-br.md). \|Tilt_view_text=Segure os botões esquerdo e direito do mouse, depois mova o ponteiro para o lado. \|Tilt_view_gesture_text=Gire a linha imaginária formada por dois pontos de contato.
 
 Na v0.18 este método é desativado por padrão. Para ativar, vá para {**Editar → Preferências → Tela → Navegação → Navegação**, e desmarque a caixa de seleção "Desabilitar gesto de inclinação da tela sensível ao toque".
 }}

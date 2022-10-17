@@ -186,7 +186,7 @@ git remote show upstream
 
 ## En desarrollo 
 
-Antes de nada \'\'\'nunca desarrolles en el **ramal principal**! Crea un ramal local para el desarrollo. Puedes aprender a hacer esto [aquí](http   *//book.git-scm.com/3_basic_branching_and_merging.html).
+Antes de nada **nunca desarrolles en el**ramal principal\'\'\'! Crea un ramal local para el desarrollo. Puedes aprender a hacer esto [aquí](http   *//book.git-scm.com/3_basic_branching_and_merging.html).
 
 
 </div>
@@ -269,7 +269,7 @@ Where `path` can be any directory or file.
 
 ### Escribiendo buenos mensajes de envío 
 
-Deberías tratar de trabajar en pedazos pequeños. Si no puedes resumir tus cambios en una frase, entonces posiblemente ha pasado pasado demasiado tiempo desde que hiciste un envío. También es importante que ofrezcas descripciones de tu trabajo que sean útiles y ayuden. Para los mensajes de envío, FreeCAD ha adoptado un formato mencionado en el libro Pro Git (mira [\#Otras lecturas](#Otras_lecturas.md)).
+Deberías tratar de trabajar en pedazos pequeños. Si no puedes resumir tus cambios en una frase, entonces posiblemente ha pasado pasado demasiado tiempo desde que hiciste un envío. También es importante que ofrezcas descripciones de tu trabajo que sean útiles y ayuden. Para los mensajes de envío, FreeCAD ha adoptado un formato mencionado en el libro Pro Git (mira [#Otras lecturas](#Otras_lecturas.md)).
 
 
 </div>

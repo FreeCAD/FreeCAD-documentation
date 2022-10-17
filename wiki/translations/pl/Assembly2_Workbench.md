@@ -115,7 +115,7 @@ W Windows
 
 -   pobierz repozytorium git jako ZIP,
 -   zakładając, że FreeCAD jest zainstalowany w 
-```python C   *PortableApps\FreeCAD 0_15\```, przejdź do \"C   *PortableApps\\FreeCAD 0\_15\\Mod\" w Eksploratorze Windows,
+```python C   *PortableApps\FreeCAD 0_15\```, przejdź do \"C   *PortableApps\\FreeCAD 0_15\\Mod\" w Eksploratorze Windows,
 -   utwórz nowy katalog o nazwie \"assembly2\",
 -   rozpakuj pobrane repozytorium w 
 ```pythonC   *PortableApps\FreeCAD 0_15\Mod\assembly2```

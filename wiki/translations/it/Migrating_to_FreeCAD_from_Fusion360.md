@@ -23,7 +23,7 @@ Fate riferimento alla pagina del [Glossario](Glossary/it.md) in generale, ma qui
 
 <div class="mw-translate-fuzzy">
 
--   Vincolo tangente - la forma di FreeCAD di **Vincolo Collineare**. Vedi <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width   *24px;"> [Sketcher\_VincoloTangente](Sketcher_ConstrainTangent/it#Tra_due_linee_.28collineari.29.md).
+-   Vincolo tangente - la forma di FreeCAD di **Vincolo Collineare**. Vedi <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width   *24px;"> [Sketcher_VincoloTangente](Sketcher_ConstrainTangent/it#Tra_due_linee_.28collineari.29.md).
 -   Pad - La funzione **estrudi** in FreeCAD. Leggi il <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;"> [PartDesign Pad](PartDesign_Pad/it.md) per saperne di più.
 -   Toponaming - Abbreviazione di [Problema di denominazione topologica](Topological_naming_problem/it.md). Coperto molto bene in [Brodie Fairhall\'s youtube clip](https   *//www.youtube.com/watch?v=6p2vqEEmWq4)\].
 --   

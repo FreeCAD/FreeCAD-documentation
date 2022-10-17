@@ -10,18 +10,18 @@ W dokumentach [SVG](http   *//en.wikipedia.org/wiki/Scalable_Vector_Graphics) ek
 
 Jeden piksel = jeden milimetr.
 
-Musisz wstawić, gdzieś wewnątrz swojego kodu svg, gdzie chcesz, aby zawartość rysunku się pojawiła \'\'(na przykład na końcu pliku, tuż przed ostatnim znacznikiem \'\'\'
+Musisz wstawić, gdzieś wewnątrz swojego kodu svg, gdzie chcesz, aby zawartość rysunku się pojawiła *(na przykład na końcu pliku, tuż przed ostatnim znacznikiem*\'
 
 
 </svg>
 
 *\')*, następującą linię   *
 
- {.xml}
+ xml
 
 
 
- {.xml}
+ xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
     xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
@@ -34,7 +34,7 @@ Poniższe dane mają być sformatowane jak w podanym przykładzie, gdzie   *
 -   xxx = szerokość piksela,
 -   yyy = wysokość w pikselach.
 
- {.xml}
+ xml
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -55,7 +55,7 @@ Definiuje tekst w szablonie, który może być edytowany przez FreeCAD.
 
 Przykład   *
 
- {.xml}
+ xml
 <text freecad   *EditableText="MyTitleText">
     <tspan>This is a title</tspan>
 </text>
@@ -67,7 +67,7 @@ Określa pierwszy punkt obiektu [Wymiarowanie](Draft_Dimension/pl.md) *(reprezen
 
 Przykład   *
 
- {.xml}
+ xml
 <g freecad   *basepoint1="0.5 4.34" freecad   *basepoint2="2.4 5.8" dimpoint="3.2 7.76">
     <path d="...">
 </g>
@@ -93,7 +93,7 @@ Ten przykład został przeniesiony z tabeli na arkusz [A3 Poziomy](Misc_template
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      id="g3587">
     <text
@@ -113,7 +113,7 @@ Ten przykład został przeniesiony z tabeli na arkusz [A3 Poziomy](Misc_template
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
@@ -141,13 +141,13 @@ Ten przykład został przeniesiony z tabeli na arkusz [A3 Poziomy](Misc_template
 
 #### Objaśnienia
 
- {.xml}
+ xml
   <g
 
 
 Początek struktury
 
- {.xml}
+ xml
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
      transform="translate(0,4)">
@@ -155,20 +155,20 @@ Początek struktury
 
 Dane struktury
 
- {.xml}
+ xml
     <text
 
 
 Początek bloku tekstu
 
- {.xml}
+ xml
        xml   *space="preserve"
        style="font-size   *4px;font-style   *normal;font-variant   *normal;font-weight   *normal;font-stretch   *normal;line-height   *125%;letter-spacing   *0px;word-spacing   *0px;fill   *#000000;fill-opacity   *1;stroke   *none;font-family   *sans;-inkscape-font-specification   *sans"
 
 
 Wszystkie informacje o tekście, który będzie wyświetlany
 
- {.xml}
+ xml
        x="220.9935"
        y="228.95425"
        id="text3331"
@@ -177,13 +177,13 @@ Wszystkie informacje o tekście, który będzie wyświetlany
 
 Współrzędne i identyfikator gdzie pojawi się tekst
 
- {.xml}
+ xml
        freecad   *editable="AuthorName"><tspan
 
 
 Tutaj **AuthorName** jest zmienną zarządzaną przez **freecad   *editable**, zapisującą ciąg znaków do zmiany, który zostanie wyświetlony
 
- {.xml}
+ xml
          sodipodi   *role="line"
          id="tspan3333"
          x="220.9935"
@@ -192,7 +192,7 @@ Tutaj **AuthorName** jest zmienną zarządzaną przez **freecad   *editable**, z
 
 Współrzędne i identyfikator tekstu , który jest wyświetlany domyślnie, a **** oznacza koniec tekstu bloku
 
- {.xml}
+ xml
     <text
     ...
     ...
@@ -221,7 +221,7 @@ Zobacz [Szablony środowiska Kreślenie](Drawing_templates/pl.md)
 
 }}
 
-[Category   *Poweruser\_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python\_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
+[Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

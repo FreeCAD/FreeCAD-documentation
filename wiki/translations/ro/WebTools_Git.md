@@ -29,7 +29,7 @@ Git este un instrument complex, înainte de a folosi acest instrument să ia în
 
 <div class="mw-translate-fuzzy">
 
-**Notă   *** Pentru a putea să utilizați această comandă pachetul [gitpython](https   *//github.com/gitpython-developers/GitPython) trebuie să fie instalat pe sistemul dvs. Pe majoritatea distribuțiilor linux, gitpython este disponibil din depozitele standard de software ca \'\' gitpython \'\' sau \'\' python-git \'\'.
+**Notă   *** Pentru a putea să utilizați această comandă pachetul [gitpython](https   *//github.com/gitpython-developers/GitPython) trebuie să fie instalat pe sistemul dvs. Pe majoritatea distribuțiilor linux, gitpython este disponibil din depozitele standard de software ca *gitpython* sau *python-git*.
 
 
 </div>
@@ -62,13 +62,13 @@ Git este un instrument complex, înainte de a folosi acest instrument să ia în
 
 -   Asigurați-vă că **Report Window** este deschis deoarece mesajele Git vor fi tipărite acolo.
 -   Instrumentul Git se va deschide numai dacă fișierul curent este salvat într-un depozit Git. Poate fi într-un subdirector.
--   Butonul \'\'\' Log \'\'\'va afișa un dialog care prezintă cele mai recente înregistrări din jurnal.
--   Butonul \'\'\' Refresh \'\'\' va re-scana depozitul pentru fișierele modificate.
--   Butonul \'\'\' Diff \'\'\' va afișa diferențele dintre versiunea curentă a unui fișier selectat și versiunea anterioară stocată în depozit.
+-   Butonul **Log**va afișa un dialog care prezintă cele mai recente înregistrări din jurnal.
+-   Butonul **Refresh** va re-scana depozitul pentru fișierele modificate.
+-   Butonul **Diff** va afișa diferențele dintre versiunea curentă a unui fișier selectat și versiunea anterioară stocată în depozit.
 -   Butonul **Select all** va selecta toate fișierele care urmează să fie angajate.
--   Butonul \'\'\' Commit \'\'\'va angaja fișierele selectate. Asigurați-vă că ați scris un mesaj de comitere care descrie schimbările pe care le comiteți.
--   Butonul *Pull*\' va **downloada** \'orice modificări noi în depozit de pe telecomanda selectată. Dacă fișierul deschis în prezent în FreeCAD este modificat printr-o tragere, un mesaj de avertizare vă va informa astfel încât să puteți salva din nou fișierul sau să îl salvați în altă parte.
--   Butonul \'\'\' Push **va** uploada \'\'\'cel mai recent comitet (e) pe telecomanda selectată.
+-   Butonul **Commit**va angaja fișierele selectate. Asigurați-vă că ați scris un mesaj de comitere care descrie schimbările pe care le comiteți.
+-   Butonul *Pull**va**downloada*\' \'orice modificări noi în depozit de pe telecomanda selectată. Dacă fișierul deschis în prezent în FreeCAD este modificat printr-o tragere, un mesaj de avertizare vă va informa astfel încât să puteți salva din nou fișierul sau să îl salvați în altă parte.
+-   Butonul **Push**va**uploada**cel mai recent comitet (e) pe telecomanda selectată.
 
 
 </div>

@@ -25,7 +25,7 @@ Exécutez la macro sur un projet FreeCAD qui inclut plusieurs objets de résulta
 
 A titre d\'exemple, le pliage d\'une bande bimétal aluminium/acier est utilisé. Un pas à pas pour créer l\'exemple de fichier est fourni [ici](Transient_FEM_analysis/fr.md), ou vous pouvez télécharger le fichier à partir de la [section téléchargements](#Téléchargements.md) de cette page. Enregistrez le fichier FCMacro dans le dossier de macros FreeCAD, qui peut être trouvé via Edition → Préférences → Général → Macro.
 
-Avec l\'exemple de fichier ouvert, nous allons dans Macro → Macros \..., sélectionnez \"ExportTransientResults\_190830.FCMacro\" (ou le nom sous lequel vous l\'avez enregistré) et exécutons la. La macro va maintenant créer un sous-dossier \'vtk-export\' en plus du fichier .FCStd. Selon le nombre et la taille des objets de résultat, cela peut prendre un certain temps. Dans la vue Rapport (Vue → Vue Rapport), nous devrions voir \'Macro finished\' si tout s\'est bien passé - ou quelques messages d\'erreur. (Remarque   * Parfois, des messages comme \'PropertyFloatList NOT exported to vtk\' apparaissent mais j\'ai quand même pu travailler avec les fichiers VTK \...) Dans le sous-dossier \'vtk-export\', nous trouverons des fichiers .vtu, un pour chaque résultat défini pour chaque horodatage. De plus, un fichier .pvd est créé, qui indique à ParaView quel jeu de résultats appartient à quel horodatage.
+Avec l\'exemple de fichier ouvert, nous allons dans Macro → Macros \..., sélectionnez \"ExportTransientResults_190830.FCMacro\" (ou le nom sous lequel vous l\'avez enregistré) et exécutons la. La macro va maintenant créer un sous-dossier \'vtk-export\' en plus du fichier .FCStd. Selon le nombre et la taille des objets de résultat, cela peut prendre un certain temps. Dans la vue Rapport (Vue → Vue Rapport), nous devrions voir \'Macro finished\' si tout s\'est bien passé - ou quelques messages d\'erreur. (Remarque   * Parfois, des messages comme \'PropertyFloatList NOT exported to vtk\' apparaissent mais j\'ai quand même pu travailler avec les fichiers VTK \...) Dans le sous-dossier \'vtk-export\', nous trouverons des fichiers .vtu, un pour chaque résultat défini pour chaque horodatage. De plus, un fichier .pvd est créé, qui indique à ParaView quel jeu de résultats appartient à quel horodatage.
 
 Maintenant, nous ouvrons ParaView et allons dans Fichier → Ouvrir \... et ouvrons le fichier .pvd. Dans l\'onglet \'Properties\', nous cliquons sur \'Apply\' pour charger les résultats. Dans l\'onglet \'Information\', nous verrons une liste *Index* et *Value*, correspondant aux horodatages des résultats que nous venons d\'importer. (Bien sûr, il est toujours judicieux de vérifier si les heures indiquées ici sont correctes ou si quelque chose d\'étrange s\'est produit pendant l\'exportation.) À partir de là, nous pouvons utiliser ParaView pour jouer avec les résultats. Étant donné que ParaView offre de nombreuses possibilités, veuillez vous référer aux documentations appropriées sur Internet.
 
@@ -50,7 +50,7 @@ Le post-traitement que nous venons de faire peut être enregistré comme un \'st
 
 The ToolBar Icon
 
-**Macro\_export\_transient\_FEM\_results.FCMacro**
+**Macro_export_transient_FEM_results.FCMacro**
 
 
 {{MacroCode|code=

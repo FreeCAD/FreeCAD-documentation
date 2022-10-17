@@ -16,7 +16,7 @@ This macro converts selected parts to VRML meshes for small size and faster load
 
 The icone ![](images/PartToVRML.png ) 
 
-**Macro\_PartToVRML.FCMacro**
+**Macro_PartToVRML.FCMacro**
 
 
     # -*- coding   * utf-8 -*-
@@ -236,7 +236,7 @@ The icone ![](images/PartToVRML.png )
 
  The forum discussion [export VRML from FreeCAD with python for smaller size, kicad and Blender compatible](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=14099)
 
-The macro reverse, [Macro\_MeshToPart](Macro_MeshToPart.md)
+The macro reverse, [Macro_MeshToPart](Macro_MeshToPart.md)
 
 
 

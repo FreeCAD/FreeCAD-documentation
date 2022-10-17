@@ -25,7 +25,7 @@ Políčka data a času jsou oddělena \"prostorovým negativním prostorem\" \"-
 
 <img alt="CartoucheFC" src=images/CartoucheFC.png  style="width   *480px;">
 
-Políčka v červeném poli jsou \'\' \'\' \'freecad   * editable\' \'\' \'pole, zelená pole jsou anotace vložené do šablony.
+Políčka v červeném poli jsou \'freecad   * editable\' \'\' \'pole, zelená pole jsou anotace vložené do šablony.
 [Here](Macro_CartoucheFC_Full/cs.md) verze pro nový list se všemi editovatelnými textovými poli.
 
 
@@ -33,7 +33,7 @@ Políčka v červeném poli jsou \'\' \'\' \'freecad   * editable\' \'\' \'pole,
 
 ## Použijte
 
-**Změna mapy v aplikaci Inkscape může v současné době způsobit problémy s operacemi v programu (kde odstraníte symbol na listu, stejný problém s FreeCADem), pracovat na kopii souboru A3\_Landscape.svg.**
+**Změna mapy v aplikaci Inkscape může v současné době způsobit problémy s operacemi v programu (kde odstraníte symbol na listu, stejný problém s FreeCADem), pracovat na kopii souboru A3_Landscape.svg.**
 **PS   * Některé znaky jako \$ & \$ nejsou přijaty (a možná i další speciální znaky).**
 
 
@@ -42,8 +42,8 @@ Políčka v červeném poli jsou \'\' \'\' \'freecad   * editable\' \'\' \'pole,
 Pokud máte nějaké dotazy nebo chcete přidat funkci, můžete se obrátit na francouzské fórum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 \* Okno zůstává nad ostatními Windows, čímž se řídí kazeta bez opuštění programu.
 
--   Zkopírujte kód do souboru s názvem **Macro\_CartoucheFC.FCMacro** a umístěte jej do vašeho obvyklého adresáře maker.
--   Po vytvoření kreslicího listu pomocí výkresu modulu FreeCAD spusťte makro **Macro\_CartoucheFC**.
+-   Zkopírujte kód do souboru s názvem **Macro_CartoucheFC.FCMacro** a umístěte jej do vašeho obvyklého adresáře maker.
+-   Po vytvoření kreslicího listu pomocí výkresu modulu FreeCAD spusťte makro **Macro_CartoucheFC**.
 -   Při otevírání se program zapíše do paměti všechna data, která jsou již obsažena v kazetě listu (pokud jsou vyplněny), všechna tato data budou automaticky vrácena tlačítkem **Memo** a uchovávají se v paměti až do ukončení programu.
 -   Tlačítko Datum **D.** a čas **H.** zobrazil datum a čas systému.
 
@@ -62,7 +62,7 @@ Pokud máte nějaké dotazy nebo chcete přidat funkci, můžete se obrátit na 
 
 ToolBar Icon ![](images/Macro_CartoucheFC.png )
 
-**Macro\_CartoucheFC.FCMacro**
+**Macro_CartoucheFC.FCMacro**
 
 
 {{MacroCode|code=
@@ -950,7 +950,7 @@ et
 ```
 
 (Měl jsem někdy chybu v provedení, když byl symbol vymazán)
-Tento modul pracuje s výkresovou dokumentací obsaženou v FreeCADu, tento list se nazývá \'\' \'Page\' \'\', neměňte jméno tohoto listu!
+Tento modul pracuje s výkresovou dokumentací obsaženou v FreeCADu, tento list se nazývá *\'Page\'*, neměňte jméno tohoto listu!
 
 ## Revize
 

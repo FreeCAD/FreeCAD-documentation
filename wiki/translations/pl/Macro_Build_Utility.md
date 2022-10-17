@@ -26,7 +26,7 @@ The Build Utility works on the same principals as the build files that are used 
 
 The macro asks the user for a \"build file\". It then parses that build file, there are 3 legal line types   *
 
--   lines starting with the comment character \"\#\" which are ignored as being comments or remarks
+-   lines starting with the comment character \"#\" which are ignored as being comments or remarks
 -   lines starting with the subfile character \"@\" which are ignored
     Note   * the \"@\" character is for future enhancement when sub-build files will be handled
 -   all other lines which may be a project file or a sub-directory
@@ -59,7 +59,7 @@ none (so far)
 
 ToolBar Icon ![](images/Macro_Build_Utility.png )
 
-**Macro\_Build\_Utility.FCMacro**
+**Macro_Build_Utility.FCMacro**
 
 
 {{MacroCode|code=

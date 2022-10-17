@@ -30,7 +30,7 @@ Acest instrument permite setarea pantei (orizontală verticală) a filamentelor 
 1.  Selectați unul sau mai multe obiecte [ Wire](Draft_Wire.md) sau [ Line](Draft_Line.md)
 2.  Selectați meniul Schiță → Utilitare → {{KEY | <img src="images/_Draft_Slope.svg_" width= 16px> [ Setați panta](Draft_Slope/ro.md)}}
 3.  Setați valoarea dorită \"\" panta \"\" în caseta panoului de activități
-4.  Apăsați butonul \'\' \'OK\' \'\'
+4.  Apăsați butonul *\'OK\'*
 
 
 </div>

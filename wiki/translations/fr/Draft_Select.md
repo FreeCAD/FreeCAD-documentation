@@ -1,5 +1,5 @@
 # Draft Select/fr
-1.  REDIRECT [Selection\_methods/fr](Selection_methods/fr.md)
+1.  REDIRECT [Selection_methods/fr](Selection_methods/fr.md)
 
 
 

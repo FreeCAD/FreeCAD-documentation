@@ -64,7 +64,7 @@ Deoarece Plot este un strat peste `matplotlib`, aveți libertatea de a folosi or
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

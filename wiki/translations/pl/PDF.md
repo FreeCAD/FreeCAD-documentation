@@ -26,7 +26,7 @@ The option to export to PDF is available in the **File → [Export PDF](Std_Expo
 
 
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

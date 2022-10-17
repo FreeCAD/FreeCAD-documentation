@@ -3,7 +3,7 @@
 
 Cette page présente des informations détaillées sur les modules intégrés dans FreeCAD, et, quelles sont les fonctions, et, propriétés disponibles.
 
-Cette page n\'est pas une liste complète du contenus de ces modules, et, en raison de l\'évolution rapide de FreeCAD, les informations présentées ici peuvent être dépassées, mais devraient vous donner un bon aperçu de ses possibilités. Pour une liste complète du contenu des modules, utilisez la fonction **dir(nom\_du\_module)** dans l\'interpréteur incorporé dans FreeCAD. 
+Cette page n\'est pas une liste complète du contenus de ces modules, et, en raison de l\'évolution rapide de FreeCAD, les informations présentées ici peuvent être dépassées, mais devraient vous donner un bon aperçu de ses possibilités. Pour une liste complète du contenu des modules, utilisez la fonction **dir(nom_du_module)** dans l\'interpréteur incorporé dans FreeCAD. 
 
 ## Non graphique 
 

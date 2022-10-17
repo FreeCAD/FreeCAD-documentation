@@ -16,9 +16,7 @@ Polecenie **Std   * Tryb edycji użytkownika** definiuje tryb edycji, który bę
 
 ## Użycie
 
-1.  Istnieje kilka sposobów na wywołanie polecenia   *
-    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_UserEditModeDefault.svg" width=24px> [Tryb edycji](Std_UserEditMode/pl.md)** a następnie wybierz tryb edycji z menu rozwijanego. Uwaga   * ikonka przycisku będzie się zmieniać w zależności od wybranej opcji.
-    -   W menu głównym przejdź do **Edycja → Przełącz tryb Edycji** i wybierz tryb edycji.
+1.  W menu głównym przejdź do **Edycja → Przełącz tryb Edycji** i wybierz tryb edycji.
 
 ## Dostępne tryby edycji 
 

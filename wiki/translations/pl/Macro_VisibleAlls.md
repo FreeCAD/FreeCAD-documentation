@@ -19,7 +19,7 @@ This macro display all objects in the document (Visibility True).
 
 ToolBar Icon <img alt="" src=images/Macro_VisibleAlls.png  style="width   *64px;">
 
-**Macro\_VisibleAlls.FCMacro**
+**Macro_VisibleAlls.FCMacro**
 
 
 {{MacroCode|code=

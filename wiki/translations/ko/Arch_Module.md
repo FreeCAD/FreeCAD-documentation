@@ -1,5 +1,5 @@
 # Arch Module/ko
-1.  REDIRECT [Arch\_Workbench/ko](Arch_Workbench/ko.md)
+1.  REDIRECT [Arch_Workbench/ko](Arch_Workbench/ko.md)
 
 
 

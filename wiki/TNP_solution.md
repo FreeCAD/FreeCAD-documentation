@@ -1,5 +1,5 @@
 # TNP solution
-1.  REDIRECT [Macro\_TNP\_Solution](Macro_TNP_Solution.md)
+1.  REDIRECT [Macro_TNP_Solution](Macro_TNP_Solution.md)
 
 
 

@@ -1,5 +1,5 @@
 # Mesh Torus/fr
-1.  REDIRECT [Mesh\_BuildRegularSolid/fr](Mesh_BuildRegularSolid/fr.md)
+1.  REDIRECT [Mesh_BuildRegularSolid/fr](Mesh_BuildRegularSolid/fr.md)
 
 
 

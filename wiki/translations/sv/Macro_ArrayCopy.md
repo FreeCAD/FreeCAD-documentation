@@ -19,7 +19,7 @@ Detta makro kopierar det valda objektet flera gånger på ett rutnät. Du kan de
 
 ToolBar Icon ![](images/Macro_ArrayCopy.png )
 
-**Macro\_ArrayCopy.FCMacro**
+**Macro_ArrayCopy.FCMacro**
 
 
 {{MacroCode|code=

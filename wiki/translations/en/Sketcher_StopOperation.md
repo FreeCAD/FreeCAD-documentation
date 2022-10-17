@@ -20,7 +20,7 @@ This is similar to pressing the **Esc** key.
 
 1.  Make sure a [sketch](Sketch.md) is in **[<img src=images/Sketcher_EditSketch.svg style="width   *16px"> [Edit mode](Sketcher_EditSketch.md)**.
 2.  Make sure a tool is active such as **[<img src=images/Sketcher_CreatePolyline.svg style="width   *16px"> [Create polyline](Sketcher_CreatePolyline.md)**, **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width   *16px"> [Constrain distance Y](Sketcher_ConstrainDistanceY.md)**, or **[<img src=images/Sketcher_Move.svg style="width   *16px"> [Move](Sketcher_Move.md)**.
-3.  Click on **[<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [Stop operation](Sketcher_StopOperation.md)** or choose **Sketch → [<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [Stop operation](Sketcher_StopOperation.md)** from the top menu.
+3.  Choose **Sketch → [<img src=images/Sketcher_StopOperation.svg style="width   *16px"> [Stop operation](Sketcher_StopOperation.md)** from the top menu.
 4.  The tool is deactivated and the pointer returns to being a simple pointer.
 
 

@@ -24,13 +24,13 @@ It can be used also to convert \'Shape2DView\' to Sketch and it works also if BS
 
 ## Options
 
--   Change create\_face=True or create\_sketch=True to False to generate only one item
+-   Change create_face=True or create_sketch=True to False to generate only one item
 
 ## Script
 
 ToolBar Icon ![](images/Macro_DXF_to_Face_and_Sketch.png )
 
-**Macro\_DXF\_to\_Face\_and\_Sketch.FCMacro**
+**Macro_DXF_to_Face_and_Sketch.FCMacro**
 
 
 {{MacroCode|code=
@@ -251,7 +251,7 @@ else   *
 ## Link
 
 -   Forum [Creare uno sketch partendo da un file dxf importato](http   *//forum.freecadweb.org/viewtopic.php?f=28&t=16686)
--   Macros\_recipes [Macro Creating faces from a DXF file](http   *//www.freecadweb.org/wiki/index.php?title=Macros_recipes)
+-   Macros_recipes [Macro Creating faces from a DXF file](http   *//www.freecadweb.org/wiki/index.php?title=Macros_recipes)
 -   Previous version [Macro Creating faces from a DXF file](Macro_Creating_faces_from_a_DXF_file.md)
 
 

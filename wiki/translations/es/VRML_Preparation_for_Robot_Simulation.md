@@ -38,19 +38,19 @@ Observa, que en la importación, el robot es creado en 8 formas, directamente en
 
   FreeCAD name   STEP name
    
-  TX40\_HB       HORIZONTAL BASE CABLE OUTLET
-  TX40\_HB001    SHOULDER
-  TX40\_HB002    ARM
-  TX40\_HB003    ELBOW
-  TX40\_HB004    FOREARM
-  TX40\_HB005    WRIST
-  TX40\_HB006    TOOL FLANGE
-  TX40\_HB007    ?
+  TX40_HB        HORIZONTAL BASE CABLE OUTLET
+  TX40_HB001     SHOULDER
+  TX40_HB002     ARM
+  TX40_HB003     ELBOW
+  TX40_HB004     FOREARM
+  TX40_HB005     WRIST
+  TX40_HB006     TOOL FLANGE
+  TX40_HB007     ?
 
 
 <div class="mw-translate-fuzzy">
 
-Cambia el "modo de visualización" de cada forma, excepto TX40\_HB007, de "líneas planas" a "sombreado" para que la exportación a VRML tenga un buen aspecto. Yo también he cambiado el color a \[245, 196, 0\] y \[204, 204, 204\] para corresponderse mejor con el amarillo de Stäubli. Oculta TX40\_HB007 porque contiene los ejes de todas las uniones y no puede cogerse aparte.
+Cambia el "modo de visualización" de cada forma, excepto TX40_HB007, de "líneas planas" a "sombreado" para que la exportación a VRML tenga un buen aspecto. Yo también he cambiado el color a \[245, 196, 0\] y \[204, 204, 204\] para corresponderse mejor con el amarillo de Stäubli. Oculta TX40_HB007 porque contiene los ejes de todas las uniones y no puede cogerse aparte.
 
 
 </div>
@@ -60,7 +60,7 @@ Cambia el "modo de visualización" de cada forma, excepto TX40\_HB007, de "líne
 
 ## Medición de características geométricas 
 
-Para construir la tabla Denavit-Hartenberg (mira <http   *//www.freecadweb.org/wiki/index.php?title=6-Axis_Robot>) y preparar el archivo VRML, necesitas obtener las características del robot. De momento, la herramienta de medición de FreeCAD aún no está disponible, puedes utilizar los ejes incluidos en TX40\_HB007 (las coordenadas son indicadas en la parte inferior izquierda cuando apuntas un objeto con el ratón) o tienes que utilizar la consola de Python para obtener algo de información sobre la geometría. Observa que la tabla DH-table sólo es requerida si necesitas utilizar cinemática inversa, por ejemplo obtener las coordenadas cartesianas o conducir el robot con coordenadas cartesianas. La tabla DH-table para este robot es la siguiente (mm, deg y deg/s)   *
+Para construir la tabla Denavit-Hartenberg (mira <http   *//www.freecadweb.org/wiki/index.php?title=6-Axis_Robot>) y preparar el archivo VRML, necesitas obtener las características del robot. De momento, la herramienta de medición de FreeCAD aún no está disponible, puedes utilizar los ejes incluidos en TX40_HB007 (las coordenadas son indicadas en la parte inferior izquierda cuando apuntas un objeto con el ratón) o tienes que utilizar la consola de Python para obtener algo de información sobre la geometría. Observa que la tabla DH-table sólo es requerida si necesitas utilizar cinemática inversa, por ejemplo obtener las coordenadas cartesianas o conducir el robot con coordenadas cartesianas. La tabla DH-table para este robot es la siguiente (mm, deg y deg/s)   *
 
 
 </div>

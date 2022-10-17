@@ -30,7 +30,7 @@ Note   * The macro does not rename the files or make any changes to your setting
 
 ToolBar icon ![](images/Macro_findConfigFiles.png )
 
- **Macro\_findConfigFiles.FCMacro**
+ **Macro_findConfigFiles.FCMacro**
 
 
 {{MacroCode|code=

@@ -21,4 +21,4 @@ Tento nástroj otevírá výkres předtím uložený jako SVG (scalable vector g
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/cs

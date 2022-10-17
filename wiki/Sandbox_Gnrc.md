@@ -12,7 +12,7 @@ Bonjour !
 -   Image (défaut à droite)    * <img alt="Légende vignette ou au survol image" src=images/GGTuto1_Vue.PNG  style="width   *128px;"> 
 -   video (défaut à droite)    *
 
-[256px\|left\|thumb \|link=<https   *//raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4> \|Title=title\_Defeaturing-WB-removing-features](Image   *Defeaturing-WB-@Work_v3.png.md) 
+[256px\|left\|thumb \|link=<https   *//raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4> \|Title=title_Defeaturing-WB-removing-features](Image   *Defeaturing-WB-@Work_v3.png.md) 
 
 -   [Template ](Template_Docnav.md)
 

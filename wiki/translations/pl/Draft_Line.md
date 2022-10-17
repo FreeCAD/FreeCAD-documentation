@@ -43,7 +43,6 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 -   Naciśnij klawisz **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu odnoszą się do pierwszego punktu, w przeciwnym razie odnoszą się do początku układu współrzędnych.
 -   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do głównego układu współrzędnych, w przeciwnym razie do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
 -   Naciśnij klawisz **T** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, pozwalając Ci kontynuować tworzenie linii.
--   Przycisk **<img src="images/Draft_UndoLine.svg" width=16px> Cofnij** wyświetlany w programie FreeCAD w wersji 0.19 i wcześniejszych, nie ma zastosowania w tym poleceniu.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.
 

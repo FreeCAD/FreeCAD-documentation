@@ -34,7 +34,7 @@ Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il e
 3.  Appuyez sur **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**.
 
 4.  
-    {{MenuCommand/fr|Fonction sélectionnée}}   * XY\_Plane (Plan de base), XZ\_Plane (Plan de base) ou YZ\_Plane (Plan de base).
+    {{MenuCommand/fr|Fonction sélectionnée}}   * XY_Plane (Plan de base), XZ_Plane (Plan de base) ou YZ_Plane (Plan de base).
 
 5.  Appuyez sur **OK**.
 

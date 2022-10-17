@@ -123,9 +123,9 @@ sudo apt-get install freecad-extras-assembly2
 In Windows
 
 -   download the git repository as ZIP
--   assuming FreeCAD is installed in \"C   *PortableApps\\FreeCAD 0\_15\", go to \"C   *PortableApps\\FreeCAD 0\_15\\Mod\" within Windows Explorer
+-   assuming FreeCAD is installed in \"C   *PortableApps\\FreeCAD 0_15\", go to \"C   *PortableApps\\FreeCAD 0_15\\Mod\" within Windows Explorer
 -   create new directory named \"assembly2\"
--   unzip downloaded repository in \"C   *PortableApps\\FreeCAD 0\_15\\Mod\\assembly2\"
+-   unzip downloaded repository in \"C   *PortableApps\\FreeCAD 0_15\\Mod\\assembly2\"
 
 FreeCAD will now have a new workbench-entry called \"Assembly 2\".
 

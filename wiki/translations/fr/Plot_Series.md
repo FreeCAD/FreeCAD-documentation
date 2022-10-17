@@ -25,9 +25,9 @@ Sélectionnez l\'onglet du graphique que vous voulez modifier et exécutez cet o
 
 -   **Label**    * Vous pouvez définir l\'étiquette. Les formules mathématiques [LaTeX](https   *//www.latex-project.org/) sont acceptées.
 -   **No label**    * Si cette option est sélectionnée, la série n\'est pas affichée dans la légende du graphique. Sinon, la série sera affichée dans la légende avec l\'étiquette appropriée.
--   **Line Style**    * Le style de ligne considéré. Utilisez \"\_draw\_nothing\" pour ne pas considérer les lignes pour cette série spécifique.
+-   **Line Style**    * Le style de ligne considéré. Utilisez \"\_draw_nothing\" pour ne pas considérer les lignes pour cette série spécifique.
 -   **Line Width**    * La largeur de la ligne.
--   **Marker**    * Le marqueur considéré. Utilisez \"\_draw\_nothing\" pour ne pas considérer les marqueurs pour cette série spécifique.
+-   **Marker**    * Le marqueur considéré. Utilisez \"\_draw_nothing\" pour ne pas considérer les marqueurs pour cette série spécifique.
 -   **Marker Size**    * La taille du marqueur.
 -   **Color**    * La couleur de la série.
 
@@ -39,7 +39,7 @@ Sélectionnez l\'onglet du graphique que vous voulez modifier et exécutez cet o
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

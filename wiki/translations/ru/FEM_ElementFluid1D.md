@@ -1,46 +1,39 @@
 ---
 - GuiCommand   */ru
-   Name   *FEM ElementFluid1D
-   Name/ru   *FEM ElementFluid1D
-   MenuLocation   *Model → Fluid section for 1D flow
+   Name/ru   *Одномерная секция для текучего вещества
+   Name   *FEM_ElementFluid1D
+   MenuLocation   *Модель → Геометрия элемента → Одномерная секция для текучего вещества
    Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso   *[Руководство по МКЭ](FEM_tutorial/ru.md)
 ---
 
 # FEM ElementFluid1D/ru
 
 ## Описание
 
-Создает элемент жидкостной секции МКЭ для пневматических и гидравлических сетей.
+Создает секцию для анализа жидкостей методом конечных элементов в пневматических и гидравлических сетях.
 
-## Использование
+## Применение
 
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/FEM_ElementFluid1D.svg" width=16px> [FEM ElementFluid1D](FEM_ElementFluid1D.md)** button.
-    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Fluid section for 1D flow** option from the menu.
-2.  Select Fluid type   * Liquid, Gas or Open Channel
-3.  Select Section type   * Pipe Manning, Pipe Inlet etc.
-4.  Enter Section type parameters.
-5.  Select and add edge.
+1.  Существует несколько способов вызова команды   *
+    -   Нажмите кнопку **<img src="images/FEM_ElementFluid1D.svg" width=16px> [FEM ElementFluid1D](FEM_ElementFluid1D.md)**.
+    -   Или выберите пункт меню **Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Fluid section for 1D flow**.
+2.  Выберите тип жидкости   * жидкость, газ или открытый канал
+3.  Выберите тип секции   * заполнение трубы, ввод трубы и т.д.
+4.  Введите параметры типа раздела.
+5.  Выберите и добавьте ребро.
 
 ## Ограничения
 
-1.  The card only works with a 3 noded network element type. Information can be found here   * <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
+1.  Карта работает только с 3 узловыми конечными элементами. Подробную информацию можно см.    * <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
 
 ## Примечания
 
-1.  An example of the set up of a hydraulic network can be found here   * <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
-2.  The \*FLUID SECTION card is used to model fluid elements for 1D flow. Information on the card can be found here   * <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html>
-
-
-<div class="mw-translate-fuzzy">
+1.  С примером построения гидравлической системы трубопроводов можно ознакомится по ссылке   * <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
+2.  Модель расчета **fluid elements for 1D flow** использует \*FLUID SECTION параметры карточки материала. Подробную информацию о данном разделе параметров можно найти здесь   *
 
 
 
-
-
-</div>
 
 
 {{FEM Tools navi

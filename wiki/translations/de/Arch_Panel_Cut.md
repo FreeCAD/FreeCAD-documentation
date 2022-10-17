@@ -11,6 +11,9 @@
 
 # Arch Panel Cut/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platte](Arch_Panel/de.md), die in eine [Arch Tafel Platte](Arch_Panel_Sheet/de.md) eingefügt oder direkt nach [DXF](Draft_DXF/de.md) exportiert wird. Die Tafelschnitt-Objekte werden auch durch den [Path-Arbeitsbereich](Path_Workbench/de.md) unterstützt.
@@ -25,11 +28,17 @@ Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platt
 
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 -   Falls die Platte nicht flach ist (z.B. gewellt), wird die Wölbung nicht im Tafelschnitt erscheinen. Dieses Werkzeug ist hauptsächlich für flache Platten geeignet.
 -   Der Tafelschnitt kann eine Markierung anzeigen. Diese Markierung kann ein benutzerdefinierte Textzeile sein oder automatisch Tag, Label oder Description der verbundenen Platte anzeigen.
 -   Um nützlich bei CNC-Verarbeitung zu sein, sollte die Markierung in einer einfachen (?,\"sticky\") Schriftart sein, in der Zeichen einfache Polylinien sind, denen die Maschine einfach folgen kann. Bei der Erstellung wird das Tafelschnitt-Objekt automatisch die Schriftart nutzen, die in Bearbeiten → Einstellungen → Draft → Texte und Bemaßungen → Standardschriftart für Textformen angegeben ist
 -   Doppelklicken des Tafelschnitts in der Baumansicht nach der Erstellung aktiviert den Änderungsmodus und ermöglicht die Änderung der Position der Markierung
 -   Wenn du verschiedene Tafelschnitte anordnen musst, kann Tafelschnitt einen Rand anzeigen, der hilfreich ist, um zu prüfen, ob genug Platz zwischen den einzelnen Schnitten ist
+
+
+</div>
 
 ## Eigenschaften
 

@@ -926,7 +926,7 @@ il bordo superiore curvo della faccia di poppa che può essere piana o curva
 
 ToolBar Icon ![](images/Macro_Half_Hull_Model.png )
 
-**Macro\_Half\_Hull\_Model.FCMacro**
+**Macro_Half_Hull_Model.FCMacro**
 
 Questo script funziona senza bug. Ma a causa della grande varietà di possibili input può fallire per alcuni input. Se succede siete pregati di segnalarlo.
 

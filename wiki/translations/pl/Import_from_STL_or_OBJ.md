@@ -100,7 +100,7 @@ Ponieważ utworzona bryła nie posiada historii i żadnych edytowalnych funkcji 
 
  
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

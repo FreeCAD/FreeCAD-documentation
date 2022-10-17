@@ -42,7 +42,7 @@ Pour tout commentaire (bug, demande de fonctionnalité, commentaires, \...), mer
 
 ### Code
 
-**Macro\_SplitPropEditor.FCMacro**
+**Macro_SplitPropEditor.FCMacro**
 
 
 {{MacroCode|code=

@@ -24,7 +24,7 @@ La dernière version de la macro peut être téléchargée à l\'adresse suivant
 
 ToolBar Icon ![](images/Macro_Ellipse-Center%2B2Points.png )
 
-**Macro\_EllipseCenter2Points.FCMacro**
+**Macro_EllipseCenter2Points.FCMacro**
 
 
 {{MacroCode|code=

@@ -2,26 +2,17 @@
 - GuiCommand   */it
    Name   *Arch Wall
    Name/it   *Muro
-   Workbenches   *[Architettura](Arch_Workbench/it.md)
    MenuLocation   *Architettura → Muro
+   Workbenches   *[Architettura](Arch_Workbench/it.md)
    Shortcut   ***W** **A**
    SeeAlso   *[Struttura](Arch_Structure/it.md)
 ---
 
 # Arch Wall/it
 
-
-</div>
-
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
 Questo strumento crea un oggetto Muro utilizzando come base una [forma](Part_Workbench/it.md) o oggetto [mesh](Mesh_Workbench/it.md). Un muro può essere costruito anche senza alcun oggetto di base, nel qual caso si comporta come un *volume cubico*, utilizzando le proprietà lunghezza, larghezza e altezza. Quando è costruito usando una forma esistente, un muro può essere basato su   *
-
-
-</div>
 
 -   Un **oggetto lineare 2D**, come ad esempio una linea, un arco, una spezzata o uno schizzo, in questo caso è possibile modificarne lo spessore, l\'allineamento (a destra, a sinistra o al centro) e l\'altezza. La proprietà length non ha alcun effetto.
 -   Una **faccia** o una superficie piana, nel qual caso si può modificare solo l\'altezza. Le proprietà Lunghezza e larghezza non hanno alcun effetto. Se la faccia di base è verticale, invece, il muro utilizza la proprietà larghezza invece di altezza, e consente di costruire pareti usando lo spazio come oggetto o studi della massa.
@@ -43,15 +34,9 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 
 ### Disegnare un muro dall\'inizio 
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Premere il pulsante **<img src="images/Arch_Wall.svg" width=16px> [Muro](Arch_Wall/it.md)**, oppure premere i tasti **W** e poi **A**.
 2.  Definire un primo punto nella vista 3D, o digitare le sue coordinate.
 3.  Definire un secondo punto nella vista 3D, o digitare le sue coordinate.
-
-
-</div>
 
 ### Disegnare un muro su un oggetto selezionato 
 
@@ -84,9 +69,6 @@ Con i muri dell\'ambiente Arch l\'aggancio funziona un po\' diversamente da come
 
 ## Proprietà
 
-
-<div class="mw-translate-fuzzy">
-
 Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.md), e hanno anche le seguenti proprietà supplementari   *
 
 -    {{ProprietaDati|Align}}   * L\'allineamento del muro sulla sua linea di base   * a sinistra, a destra o al centro
@@ -106,9 +88,6 @@ Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.
 -    {{ProprietaDati|Normal}}   * La direzione di estrusione per il muro. Se è impostata a (0,0,0), la direzione di estrusione è automatica.
 
 -    {{ProprietaDati|Offset}}   * Specifica la distanza tra il muro e la sua linea base. Funziona solo se la proprietà Align è impostata a destra o a sinistra.
-
-
-</div>
 
 
 {{Version/it|0.18}}
@@ -132,25 +111,11 @@ Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.
 ## Scripting
 
 
-<div class="mw-translate-fuzzy">
-
-## Script
-
-
 **Vedere anche   ***
 
 [API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Muro può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
-
-
-</div>
+Lo strumento Muro può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 ```python
@@ -181,15 +146,6 @@ Wall2 = Arch.makeWall(None, length=2000, width=200, height=1000)
 Draft.move(Wall2, FreeCAD.Vector(0, -1000, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

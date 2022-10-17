@@ -1,5 +1,5 @@
 # Sketcher Module/de
-1.  Redirect [Sketcher\_Workbench/de](Sketcher_Workbench/de.md)
+1.  Redirect [Sketcher_Workbench/de](Sketcher_Workbench/de.md)
 
 
 

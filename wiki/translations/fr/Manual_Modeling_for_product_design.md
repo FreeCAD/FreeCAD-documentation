@@ -128,7 +128,7 @@ Mais le meilleur des deux mondes existe également, qui est l\'atelier Assembly2
 -   Appuyez sur **Importer une pièce à partir d\'un autre document FreeCAD**.
 -   Sélectionnez le fichier que nous avons enregistré ci-dessus.
 -   La pièce finale sera importée dans le document actuel. L\'atelier Assembly2 déterminera automatiquement quelle est la pièce finale dans notre fichier qui doit être utilisée, et le nouvel objet reste lié au fichier d'origine. Si nous revenons en arrière et modifions le contenu du premier fichier, nous pouvons appuyer sur le bouton **Mettre à jour les pièces importées dans l\'assemblage** pour les mettre à jour ici.
--   En utilisant le bouton*\' Importer une pièce à partir d\'un autre document FreeCAD*\' plusieurs fois, et en déplaçant et en orientant les pièces convenablement (avec les outils de l'atelier Draft ou en manipulant leurs propriétés de placement), nous pouvons créer rapidement un petit assemblage    *
+-   En utilisant le bouton**Importer une pièce à partir d\'un autre document FreeCAD** plusieurs fois, et en déplaçant et en orientant les pièces convenablement (avec les outils de l'atelier Draft ou en manipulant leurs propriétés de placement), nous pouvons créer rapidement un petit assemblage    *
 
 ![](images/Exercise_lego_16.jpg )
 

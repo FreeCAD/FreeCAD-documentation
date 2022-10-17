@@ -37,8 +37,7 @@ Zobacz również   * [Rysunek roboczy   * Tacka narzędziowa](Draft_Tray/pl.md) 
 
 Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
--   Aby ręcznie wprowadzić współrzędne, po prostu wprowadź liczby, a następnie naciśnij klawisz **Enter** pomiędzy każdą składową X, Y i Z. Możesz wcisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> dodaj punkt**, gdy już wprowadzisz żądane wartości. Zaleca się wysunięcie kursora poza okno [widoku 3D](3D_view.md) przed wprowadzeniem współrzędnych.
--   Pole wyboru **Względny** wyświetlane w programie FreeCAD w wersji 0.19 i wcześniejszych, nie ma zastosowania dla tego polecenia.
+-   Aby ręcznie wprowadzić współrzędne, po prostu wprowadź liczby, a następnie naciśnij klawisz **Enter** pomiędzy każdą składową X, Y i Z. Możesz wcisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> dodaj punkt**, gdy już wprowadzisz żądane wartości. Zaleca się wysunięcie kursora poza okno [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
 -   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są względne w stosunku do globalnego układu współrzędnych, w przeciwnym razie są względne w stosunku do układu współrzędnych [płaszczyznay roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
 -   Naciśnij klawisz **T** lub zaznacz pole wyboru **Kontynuuj** aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu pracy, umożliwiając kontynuowanie tworzenia tekstów. Skrót ten nie działa w drugim panelu zadań. Opcja ta nie jest dostępna w pierwszym panelu zadań w programie FreeCAD w wersji 0.19 i wcześniejszych.
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).

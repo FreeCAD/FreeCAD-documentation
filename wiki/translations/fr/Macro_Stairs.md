@@ -31,7 +31,7 @@ Créez une marche réglez les paramètres dans la macro sélectionnez votre marc
 
 ToolBar Icon ![](images/Macro_Stairs.png )
 
-**Macro\_Stairs.FCMacro**
+**Macro_Stairs.FCMacro**
 
 
 {{MacroCode|code=

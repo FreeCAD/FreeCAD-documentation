@@ -53,7 +53,7 @@ Weitere Informationen, wie Profile miteinander verbunden werden, entnehme bitte 
 
 <div class="mw-translate-fuzzy">
 
-![centre\|Part\_Loft. Aus drei Profilen, die zwei Part\_Kreise und eine Part\_Ellipse sind. Die Parameter sind Festkörper \"wahr\" und Regelfläche \"wahr\".](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+![centre\|Part_Loft. Aus drei Profilen, die zwei Part_Kreise und eine Part_Ellipse sind. Die Parameter sind Festkörper \"wahr\" und Regelfläche \"wahr\".](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
 
 
 </div>

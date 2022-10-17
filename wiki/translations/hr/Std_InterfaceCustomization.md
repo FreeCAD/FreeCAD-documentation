@@ -1,5 +1,5 @@
 # Std InterfaceCustomization/hr
-1.  REDIRECT [Interface\_Customization/hr](Interface_Customization/hr.md)
+1.  REDIRECT [Interface_Customization/hr](Interface_Customization/hr.md)
 
 
 

@@ -130,7 +130,7 @@ myEdges.append((12, 1.5, 1.25))
 ```
 
 -   Crée un tableau vide \"myEdges\" puis l\'ajoute aux paramètres de chanfrein de chaque bord.
--   La syntaxe pour chaque élément doit être (edge\#, chamfer start length, chamfer end length) c\'est-à-dire (arête\#, longueur du début du chanfrein, longueur de l\'extrémité du chanfrein).
+-   La syntaxe pour chaque élément doit être (edge#, chamfer start length, chamfer end length) c\'est-à-dire (arête#, longueur du début du chanfrein, longueur de l\'extrémité du chanfrein).
 
 
 ```python

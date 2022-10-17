@@ -46,7 +46,7 @@ Questi strumenti permettono di creare, configurare e esportare le proiezioni dei
 
 ## Flusso di lavoro 
 
-Il documento contiene un oggetto di forma 3D (Schenkel) da si vuole produrre un disegno. Pertanto viene creata una \"Pagina\". Una pagina è istanziata da un modello, ad esempio il modello \"A3\_Landscape\". Il modello è un documento [SVG](SVG/it.md) che può contenere una cornice di pagina, un logo e altri elementi.
+Il documento contiene un oggetto di forma 3D (Schenkel) da si vuole produrre un disegno. Pertanto viene creata una \"Pagina\". Una pagina è istanziata da un modello, ad esempio il modello \"A3_Landscape\". Il modello è un documento [SVG](SVG/it.md) che può contenere una cornice di pagina, un logo e altri elementi.
 
 Nella pagina si possono inserire una o più viste. Ogni vista ha una posizione nella pagina, un fattore di scala (proprietà di scala) e delle proprietà aggiuntive. Ogni volta che la pagina, la vista o l\'oggetto a cui si fa riferimento subiscono delle modifiche, la pagina viene rigenerata e viene anche aggiornata la sua visualizzazione.
 
@@ -56,7 +56,7 @@ Per ora le funzioni offerte dall\'interfaccia grafica (GUI) sono molto limitate,
 
 Vedere la pagina [Esempi dell\'API di Drawing](Drawing_API_example/it.md) per una descrizione delle funzioni utilizzate per creare pagine e viste di disegno.
 
-Lo script [Macro\_CartoucheFC](Macro_CartoucheFC/it.md) permette di compilare agevolmente la tabella del modello di tavola FreeCAD A3\_Landscape.
+Lo script [Macro_CartoucheFC](Macro_CartoucheFC/it.md) permette di compilare agevolmente la tabella del modello di tavola FreeCAD A3_Landscape.
 
 ## Modelli di squadrature 
 

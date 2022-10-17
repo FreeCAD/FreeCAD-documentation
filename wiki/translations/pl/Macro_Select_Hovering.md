@@ -32,7 +32,7 @@ The icon must be copied into the same directory as the macro
 
 The icon ToolBar ![Macro Select Hovering](images/Macro_Select_Hovering.png )
 
-**Macro\_Select\_Hovering.FCMacro**
+**Macro_Select_Hovering.FCMacro**
 
 
 {{MacroCode|code=

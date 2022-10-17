@@ -19,7 +19,7 @@ Questa macro copia più volte gli oggetti selezionati in una griglia (matrice). 
 
 ToolBar Icon ![](images/Macro_ArrayCopy.png )
 
-**Macro\_ArrayCopy.FCMacro**
+**Macro_ArrayCopy.FCMacro**
 
 
 {{MacroCode|code=

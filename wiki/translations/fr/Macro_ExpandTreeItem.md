@@ -28,7 +28,7 @@ Copier la macro dans votre répertoire de macros, créez votre barre d\'outils a
 
 L\'icone pour votre barre d\'outils .PNG ![](images/Macro_ExpandTreeItem.png ) et .SVG ![](images/Macro_ExpandTreeItem.svg )
 
-**Macro\_ExpandTreeItem.FCMacro**
+**Macro_ExpandTreeItem.FCMacro**
 
 
 {{MacroCode|code=

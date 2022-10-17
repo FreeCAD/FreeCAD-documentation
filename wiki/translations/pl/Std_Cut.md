@@ -18,9 +18,7 @@ Aby wyciąć obiekty innych typów, można użyć polecenia [Kopiuj](Std_Copy/pl
 ## Użycie
 
 1.  Zaznacz jedną lub więcej komórek w arkuszu kalkulacyjnym.
-2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
-    -   Naciśnij przycisk **<img src="images/Std_Cut.svg" width=16px> [Wytnij](Std_Cut/pl.md)**.
-    -   Wybierz z menu opcję z menu **Edycja → <img src="images/Std_Cut.svg" width=16px> Wytnij**.
+2.  Wybierz z menu opcję z menu **Edycja → <img src="images/Std_Cut.svg" width=16px> Wytnij**.
 
 ## Uwagi
 

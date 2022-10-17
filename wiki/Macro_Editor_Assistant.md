@@ -35,7 +35,7 @@ ToolBar Icon  ![](images/Editor_Assistant_Icon.svg )
 
 ## Script
 
- **Macro Editor\_Assitant.FCMacro**
+ **Macro Editor_Assitant.FCMacro**
 
 
 {{CodeDownload|https   *//gist.github.com/mwganson/20475dad57d9b659190f082d20e3bde6|Editor_Assitant.FCMacro}}

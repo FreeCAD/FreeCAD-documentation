@@ -22,7 +22,7 @@
 
 <div class="mw-translate-fuzzy">
 
-\'\' A sinistra le sezioni trasversali (A), (B) e (C); a destra il loft additivo che viene creato. \'\'
+*A sinistra le sezioni trasversali (A), (B) e (C); a destra il loft additivo che viene creato.*
 
 
 </div>

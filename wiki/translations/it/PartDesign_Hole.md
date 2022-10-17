@@ -124,8 +124,8 @@ Cut types (screw-types) are defined in [json](https   *//de.wikipedia.org/wiki/J
 The file should contain   *
 
 -   **name**   * The name of the definition. This must be unique as it will be used as identifier in the FreeCAD UI and as internal index.
--   **cut\_type**   * Either `countersink` or `counterbore`.
--   **thread\_type**   * Either `metric` or `metricfine`.
+-   **cut_type**   * Either `countersink` or `counterbore`.
+-   **thread_type**   * Either `metric` or `metricfine`.
 -   **angle**   * The angle of a countersink (not necessary for counterbore).
 -   **data**   * A list of sizes, consisting of   *
     -   **thread**   * Name of thread known to FreeCAD.

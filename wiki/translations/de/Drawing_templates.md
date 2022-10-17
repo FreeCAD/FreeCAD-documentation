@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das Anlegen von Vorlagen für den Zeichnungs-Arbeitsbereich ist sehr einfach (siehe auch das Tutorial [Drawing\_Template\_HowTo/de](Drawing_Template_HowTo/de.md)). Vorlagen sind svg-Dateien, die mit jeder Anwendung erstellt werden können, die svg-Dateien exportieren kann, wie z.B. [Inkscape](http   *//www.inkscape.org). Trotzdem musst Du oftmals später die Datei mit einem Texteditor öffnen, um die folgenden Regeln zu erfüllen. Es geht nur um zwei Regeln   *
+Das Anlegen von Vorlagen für den Zeichnungs-Arbeitsbereich ist sehr einfach (siehe auch das Tutorial [Drawing_Template_HowTo/de](Drawing_Template_HowTo/de.md)). Vorlagen sind svg-Dateien, die mit jeder Anwendung erstellt werden können, die svg-Dateien exportieren kann, wie z.B. [Inkscape](http   *//www.inkscape.org). Trotzdem musst Du oftmals später die Datei mit einem Texteditor öffnen, um die folgenden Regeln zu erfüllen. Es geht nur um zwei Regeln   *
 
 
 </div>
@@ -29,27 +29,27 @@ Das Anlegen von Vorlagen für den Zeichnungs-Arbeitsbereich ist sehr einfach (si
 
 </div>
 
- {.html}
+ html
 width="1067mm"
 height="762mm"
 
 
 oder
 
- {.html}
+ html
 width="1067"
 height = "762"
 
 
 Obwohl svg Inches (\"42 in\") unterstützt, ist das bei FreeCAD bisher nicht der Fall, so dass es immer besser ist, die svg-Seitengröße in Millimeter anzugeben. Das \"viewBox\"-Attribut muss den gleichen Wert haben, z.B.   *
 
- {.html}
+ html
 viewBox="0 0 1067 762"
 
 
 -   Du musst irgendwo innerhalb Deines svg-Codes angeben, wo der Inhalt der Zeichnung auftauchen soll (z.B. am Ende der Datei, direkt vor dem letzten</svg>-Tag). Dazu dient die folgende Zeile   *
 
- {.html}
+ html
 
 
 
@@ -62,7 +62,7 @@ Der Text oben (bei dem es sich eigentlich um einen XML-Kommentar handelt) muss a
 
 ### Namensraum
 
--   Verschiedene Objekte (besonders die mit dem [Draft\_Drawing](Draft_Drawing/de.md)-Befehl erstellten und wenn Deine Vorlage editierbaren Text enthält) benutzen einen speziellen [Namensraum](Svg_Namespace/de.md), der spezifisch für FreeCAD ist. Dies erlaubt FreeCAD, diese Elemente in svg-Dateien zu erkennen, die andere Anwendungen einfach ignorieren. Wenn Du beabsichtigst, diese Elemente zu nutzen, musst Du diese Zeile nach dem öffnenden<svg>-Tag einfügen, z.B. zusammen mit den anderen xmlns-Zeilen, die durch Inkscape hinzugefügt werden.
+-   Verschiedene Objekte (besonders die mit dem [Draft_Drawing](Draft_Drawing/de.md)-Befehl erstellten und wenn Deine Vorlage editierbaren Text enthält) benutzen einen speziellen [Namensraum](Svg_Namespace/de.md), der spezifisch für FreeCAD ist. Dies erlaubt FreeCAD, diese Elemente in svg-Dateien zu erkennen, die andere Anwendungen einfach ignorieren. Wenn Du beabsichtigst, diese Elemente zu nutzen, musst Du diese Zeile nach dem öffnenden<svg>-Tag einfügen, z.B. zusammen mit den anderen xmlns-Zeilen, die durch Inkscape hinzugefügt werden.
 
 
 </div>
@@ -83,7 +83,7 @@ Zusätzlich zu diesen Regeln können der Vorlage (seit FreeCAD v0.14) Informatio
 
 Um die Umrandung zu definieren, muss die folgende Zeile vor dem -Tag der svg-Datei stehen.
 
- {.html}
+ html
 
 
 
@@ -98,7 +98,7 @@ wo X1, Y1, X2, Y2 definiert sind als   *
 
 Um den Titelblock zu definieren, muss die folgende Zeile vor dem -Tag und nach dem \"Working space\"-Tag der svg-Datei stehen.
 
- {.html}
+ html
 
 
 
@@ -115,7 +115,7 @@ wo X1a, Y1a, X2a, Y2a definiert sind als   *
 
 Das Folgende ist ein Beispiel für den Code, der die \"Working space\"- und \"Title block\"-Bereiche definiert, die vor dem -Tag einzufügen ist. Du musst keinen Titelblock definieren, aber wenn Du es tust, muss es in der Zeile direkt nach \"Working space\" sein.
 
- {.html}
+ html
 
 
 
@@ -127,7 +127,7 @@ Das Folgende muss wie im nachfolgenden Beispiel formattiert werden   *
 -   xxx = Pixel-Breite
 -   yyy = Pixel-Höhe
 
- {.html}
+ html
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -269,4 +269,4 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/de

@@ -23,7 +23,7 @@ This macro creates a parametric pyramid.
 Note   *
 
 If you\'re also interested in polyhedrons, then you can use Macro Polyhedrons.
-You can also make use of the the external workbench [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github link) that contains the same function.
+You can also make use of the the external workbench [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github link) that contains the same function.
 
 ![](images/Polyhedrons.png )
 
@@ -37,7 +37,7 @@ You can also make use of the the external workbench [Pyramids\_and\_Polyhedrons]
 -   Once installed, open Menu → Macro → Macros. Click on pyramid.py and then click on button {{button|execute}}.
 -   A knotted pyramid will appear, similar to Part Cone
 -   Change the parameters just like with Part Cone.
---   More info at [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+--   More info at [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
 
 ## Script
 

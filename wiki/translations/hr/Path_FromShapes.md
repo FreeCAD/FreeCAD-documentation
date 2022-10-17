@@ -1,5 +1,5 @@
 # Path FromShapes/hr
-1.  REDIRECT [Path\_Shape/hr](Path_Shape/hr.md)
+1.  REDIRECT [Path_Shape/hr](Path_Shape/hr.md)
 
 
 

@@ -1,42 +1,42 @@
 ---
 - GuiCommand   */fr
    Name   *Arch Panel Cut
-   Name/fr   *Arch Découpe de panneaux
-   MenuLocation   *Arch → Outils pour les panneaux → Panneau de coupe
+   Name/fr   *Arch Découpe de panneau
+   MenuLocation   *Arch → Outils pour les panneaux → Découpe de panneau
    Workbenches   *[Arch](Arch_Workbench/fr.md), [Path](Path_Workbench/fr.md)
    Shortcut   ***P** **C**
    Version   *0.17
-   SeeAlso   *[Arch Panneaux](Arch_Panel/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
+   SeeAlso   *[Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
 ---
 
 # Arch Panel Cut/fr
 
 ## Description
 
-Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneaux](Arch_Panel/fr.md), à inclure dans un [Arch Panneau feuille](Arch_Panel_Sheet/fr.md) ou directement exportée vers [DXF](Draft_DXF/fr.md). Les objets Découpe de panneaux sont également pris en charge par l\'[atelier Path](Path_Workbench/fr.md).
+Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneau](Arch_Panel/fr.md), à inclure dans un [Arch Feuille de panneaux](Arch_Panel_Sheet/fr.md) ou directement exportée vers [DXF](Draft_DXF/fr.md). Les objets Découpe de panneau sont également pris en charge par l\'[atelier Path](Path_Workbench/fr.md).
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width   *1024px;">
 
 ## Utilisation
 
-1.  Sélectionner un ou plusieurs objets [Arch Panneaux](Arch_Panel/fr.md)
-2.  Presser la touche **<img src="images/Arch_Panel_Cut.svg" width=16px> [Panneau de coupe](Arch_Panel_Cut/fr.md)
+1.  Sélectionner un ou plusieurs objets [Arch Panneau](Arch_Panel/fr.md)
+2.  Presser la touche **<img src="images/Arch_Panel_Cut.svg" width=16px> [Découpe de panneau](Arch_Panel_Cut/fr.md)
 ** ou presser les touches **P** et **C**
 3.  Ajuster les propriétés désirées
 
 ## Options
 
--   Si le panneau n\'est pas plat (par exemple un panneau ondulé), le relief n\'apparaîtra pas dans la coupe du panneau. Cet outil est utile principalement pour les panneaux plats
--   La découpe du panneau peut afficher une étiquette. Cette balise peut être une ligne de texte personnalisée ou peut afficher automatiquement la balise, l\'étiquette ou la description de son panneau est liée.
--   Pour être utile à l\'usinage CNC, l\'étiquette doit être écrite en utilisant une police collante, où les lettres sont de simples polylignes que la machine peut facilement suivre. Lors de sa création, l\'objet Panel Cut utilisera automatiquement la police spécifiée dans Édition → Préférences → Brouillon → Textes et dimensions → Police ShapeString
--   Après sa création double-cliquer dans l\'arborescence sur le panneau coupé vous fait passer en mode édition et vous permet de modifier la position du tag
--   Lorsque vous devez mettre en forme différentes découpes de panneaux, les découpes de panneaux peuvent afficher une marge, ce qui est utile pour s\'assurer qu\'un certain espace est toujours présent entre une découpe et une autre
+-   Si le panneau n\'est pas plat (par exemple un panneau ondulé), le relief n\'apparaîtra pas dans la découpe du panneau. Cet outil est surtout utile pour les panneaux plats.
+-   La découpe du panneau peut afficher une balise. Cette balise peut être une ligne de texte personnalisée ou peut automatiquement afficher la balise, l\'étiquette ou la description du panneau auquel elle est liée.
+-   Pour être utile à l\'usinage CNC, la balise doit être écrite en utilisant une police de caractères bâton, où les lettres sont des polylignes simples qui sont faciles à suivre par la machine. Lors de sa création, l\'objet Panel Cut utilise automatiquement la police spécifiée dans Édition → Préférences → Draft → Textes et cotes → Fichier de la police par défaut de Formes à partir de texte.
+-   Un double-clic sur la découpe de panneau dans la vue en arborescence après sa création vous permet d\'entrer en mode édition et de modifier la position de la balise.
+-   Lorsque vous avez besoin de mettre en page différentes découpes de panneaux ensemble, les découpes de panneaux peuvent afficher une marge, ce qui est utile pour s\'assurer qu\'un certain espace est toujours présent entre une coupe et une autre.
 
 ## Propriétés
 
 ### Données
 
--    **Source**   * L\'objet [Arch Panneaux](Arch_Panel/fr.md) montré par cette coupe.
+-    **Source**   * L\'objet [Arch Panneau](Arch_Panel/fr.md) montré par cette découpe.
 
 -    **Tag Text**   * Le texte à afficher. Peut être %tag%, %label% ou %description% pour afficher la balise ou l\'étiquette du panneau.
 
@@ -48,13 +48,13 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneaux](Ar
 
 -    **Font File**   * La police du texte de la balise
 
--    **Make Face**   * Si True, le panneau est un Part Face, sinon une Part Polyligne.
+-    **Make Face**   * Si True, le panneau est une Part Face, sinon une Part Polyligne.
 
 ### Vue
 
 -    **Margin**   * La marge à afficher hors du panneau coupé.
 
--    **Show Margin**   * Tourne l\'affichage des marges oui/non.
+-    **Show Margin**   * Active/désactive l\'affichage de la marge
 
 ## Script
 
@@ -63,7 +63,7 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneaux](Ar
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil panneau peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant le code suivant   * 
+L\'outil Découpe de panneau peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant le code suivant   * 
 ```python
 View = makePanelCut(panel, name="PanelView")```
 
@@ -98,7 +98,7 @@ FreeCAD.ActiveDocument.recompute()
 
 ## Tutoriels
 
--   [tutoriel Wikihouse](Wikihouse_porting_tutorial/fr.md)
+-   [Tutoriel de portage Wikihouse](Wikihouse_porting_tutorial/fr.md)
 
 
 

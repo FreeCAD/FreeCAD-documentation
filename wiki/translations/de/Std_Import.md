@@ -47,7 +47,7 @@ Der Befehl **Std Import** importiert Geometrie aus einem anderen Dateiformat in 
 
 }}  
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

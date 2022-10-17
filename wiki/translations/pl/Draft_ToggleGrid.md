@@ -13,8 +13,6 @@
 
 Polecenie <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> **Przełącz widoczność siatki** włącza lub wyłącza siatkę. Siatka może być używana tylko wtedy, gdy preferencja **Użyj siatki** jest wybrana. Zobacz akapit [Ustawienia](Draft_ToggleGrid/pl#Ustawienia.md).
 
-W wersji 0.19 programu FreeCAD siatka jest zawsze wyświetlana, gdy polecenie staje się aktywne, a przełączanie widoczności siatki, gdy polecenie jest aktywne, nie działa.
-
 ## Użycie
 
 Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).

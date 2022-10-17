@@ -1,5 +1,5 @@
 # Part Shapebuilder/ru
-1.  REDIRECT [Part\_Builder/ru](Part_Builder/ru.md)
+1.  REDIRECT [Part_Builder/ru](Part_Builder/ru.md)
 
 
 

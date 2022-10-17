@@ -44,7 +44,7 @@ Samouczek [Obsługa BIM](BIM_ingame_tutorial/pl.md) jest łatwym sposobem na szy
 
 ## Przybory
 
-Środowisko pracy BIM gromadzi narzędzia z kilku innych środowisk programu FreeCAD, głównie [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md) i [Część](Part_Workbench/pl.md), z grubsza zreorganizowane w logiczne kategorie   * **rysowanie 2D**, **modelowanie 3D**, **adnotacje** i *\'modyfikacje*. Kategoria **zarządzanie** zawiera narzędzia, które są specyficzne dla środowiska BIM.
+Środowisko pracy BIM gromadzi narzędzia z kilku innych środowisk programu FreeCAD, głównie [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md) i [Część](Part_Workbench/pl.md), z grubsza zreorganizowane w logiczne kategorie   * **rysowanie 2D**, **modelowanie 3D**, **adnotacje** i **modyfikacje\'\'. Kategoria**zarządzanie\'\'\' zawiera narzędzia, które są specyficzne dla środowiska BIM.
 
 Dodatkowo, jeżeli są zainstalowane [dodatki](External_workbenches/pl.md), narzędzia ze środowiska [Zbrojenie](Arch_Rebar/pl.md) *(dodatkowe narzędzia do prętów zbrojeniowych)*, [Elementy złączne](Fasteners_Workbench/pl.md) *(śruby i wkręty)*, [Flamingo / Dodo](Flamingo_Workbench/pl.md) *(narzędzia do konstrukcji stalowych i rurociągów)* oraz [Biblioteka podzespołów](Parts_Library_Workbench/pl.md) są automatycznie dołączane do środowiska BIM.
 

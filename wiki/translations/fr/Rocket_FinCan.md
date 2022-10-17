@@ -1,8 +1,9 @@
 ---
-- GuiCommand   *
+- GuiCommand   */fr
    Name   *Rocket FinCan
-   MenuLocation   *Rocket → Fin Can
-   Workbenches   *[Rocket Workbench](Rocket_Workbench.md)
+   Name/fr   *Rocket Échappement avec ailerons
+   MenuLocation   *Rocket → Échappement avec ailerons
+   Workbenches   *[Rocket](Rocket_Workbench/fr.md)
    Version   *0.19
 ---
 
@@ -10,86 +11,86 @@
 
 ## Description
 
-Fins are used to aerodynamically control the direction of flight. A fin can is a complete assembly including fins and body tube, often fitted over the outside of the main rocket body tube. Optionally, a fin can may include a launch lug.
+Les ailerons sont utilisés pour contrôler aérodynamiquement la direction du vol. Un Échappement avec ailerons est un ensemble complet comprenant des ailerons et un tube de corps, souvent monté sur l\'extérieur du tube de corps principal de la fusée. En option, un Échappement avec ailerons peut comprendre un sabot de lancement.
 
 <img alt="" src=images/FinCan.png  style="width   *256px;"> 
-*A fin can with launch lug*
+*Un Échappement avec ailerons avec un sabot de lancement*
 
-## Usage
+## Utilisation
 
-1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Rocket_FinCan.svg" width=16px> [Fin Can](Rocket_FinCan.md)** button.
-    -   Select the **Rocket → <img src="images/Rocket_FinCan.svg" width=16px> Fin Can** option from the menu.
-    -   Double click on a Fin Can object in the [Tree view](Tree_view.md).
-2.  Set options and press **OK**.
+1.  Il existe plusieurs façons d\'appeler la commande   *
+    -   Appuyez sur le bouton **<img src="images/Rocket_FinCan.svg" width=16px> [Fin Can](Rocket_FinCan.md)**.
+    -   Sélectionnez l\'option **Rocket → <img src="images/Rocket_FinCan.svg" width=16px> Fin Can** dans le menu.
+    -   Double-cliquez sur un objet Fin dans la [Vue en arborescence](Tree_view/fr.md).
+2.  Définissez les options et appuyez sur **OK**.
 
 ## Options
 
-### Fin Options 
+### Options des ailerons 
 
-Fin options for the fin can are the same as for individual fins. See <img alt="" src=images/Rocket_Fin.svg  style="width   *16px;"> [Fin](Rocket_Fin.md) for more details
+Les options pour l\'Échappement avec ailerons sont les mêmes que pour les ailerons seuls. Voir <img alt="" src=images/Rocket_Fin.svg  style="width   *16px;"> [Ailerons](Rocket_Fin/fr.md) pour plus de détails.
 
-However due to the one piece nature of fin cans, they do not have the option to include Through The Wall (TTW) tabs.
+Cependant, en raison de la nature monobloc des Échappements avec ailerons, elles ne peuvent pas inclure d\'ailerons à travers la paroi (TTW).
 
-### Fin Can Options 
+### Options de l\'échappement avec ailerons 
 
-### Launch Lug Options 
+### Options du sabot de lancement 
 
-## Properties
+## Propriétés
 
 
 {{TitleProperty|Fin Can}}
 
--    **Fin Type**   * Defines the shape of the fins.
+-    **Fin Type**   * définit la forme des ailerons.
 
--    **Height**   * The fin height.
+-    **Height**   * hauteur de l\'aileron.
 
--    **Profile**   * The sketch associated with the custom fin type.
+-    **Profile**   * esquisse associée au type d\'aileron personnalisé.
 
--    **Root Chord**   * The distance between the fin leading and trailing edges at the root
+-    **Root Chord**   * distance entre les bords d\'attaque et de fuite de l\'aileron à la racine.
 
--    **Root Cross Section**   * The cross section shape of the fin at the root, see [Options](#Options.md)
+-    **Root Cross Section**   * forme de la section transversale de l\'aileron à l\'emplanture, voir [Options](#Options.md).
 
--    **Root Length 1**   * Usage depends on the **Fin Root Cross Section** and will apply to a taper length or similar, see [Options](#Options.md)
+-    **Root Length 1**   * l\'utilisation dépend de **Fin Root Cross Section** et s\'appliquera à une longueur conique ou similaire, voir [Options](#Options.md).
 
--    **Root Length 2**   * Usage depends on the **Fin Root Cross Section** and will apply to a taper length or similar when multiple values are required, see [Options](#Options.md)
+-    **Root Length 2**   * l\'utilisation dépend de de **Fin Root Cross Section** et s\'appliquera à une longueur conique ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md).
 
--    **Root Per Cent**   * Expresses the **Fin Root Length 1** and **Fin Root Length 2** properties as a percentage of the **Fin Root Chord**
+-    **Root Per Cent**   * exprime les propriétés **Fin Root Length 1** et **Fin Root Length 2** en pourcentage de la **Fin Root Chord**.
 
--    **Root Thickness**   * Maximum thickness at the root of the fin
+-    **Root Thickness**   * épaisseur maximale à la base de l\'aileron
 
--    **Sweep Angle**   * The angle of the front of the fin, with a vertical front being 0 degrees. This may be negative. Setting this value will cause the **Sweep Length** to be adjusted.
+-    **Sweep Angle**   * angle de l\'avant de l\'aileron, avec un avant vertical égal à 0 degré. Cette valeur peut être négative. Le réglage de cette valeur entraînera l\'ajustement de la **Sweep Length**.
 
--    **Sweep Length**   * The distance from the front of the fin root to the front of the fin tip along the x axis. This may be negative. Setting this value will cause the **Sweep Angle** to be adjusted.
+-    **Sweep Length**   * distance entre l\'avant de l\'emplanture de l\'aileron et l\'avant de l\'extrémité de l\'aileron le long de l\'axe x. Cette valeur peut être négative. Si vous définissez cette valeur, **Sweep Angle** sera ajusté.
 
--    **Tip Chord**   * The distance between the fin leading and trailing edges at the tip
+-    **Tip Chord**   * distance entre le bord d\'attaque et le bord de fuite de l\'aileron à l\'extrémité.
 
--    **Tip Cross Section**   * The cross section shape of the fin at the tip, see [Options](#Options.md)
+-    **Tip Cross Section**   * forme de la section transversale de l\'aileron à l\'extrémité, voir [Options](#Options.md).
 
--    **Tip Length 1**   * Usage depends on the **Fin Tip Cross Section** and will apply to a taper length or similar, see [Options](#Options.md)
+-    **Tip Length 1**   * l\'utilisation dépend de la **Fin Tip Cross Section** et s\'applique à une longueur conique ou similaire, voir [Options](#Options.md).
 
--    **Tip Length 2**   * Usage depends on the **Fin Tip Cross Section** and will apply to a taper length or similar when multiple values are required, see [Options](#Options.md)
+-    **Tip Length 2**   * l\'utilisation dépend de la **Fin Tip Cross Section** et s\'appliquera à une longueur conique ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md).
 
--    **Tip Per Cent**   * Expresses the **Fin Tip Length 1** and **Fin Tip Length 2** properties as a percentage of the **Fin Tip Chord**
+-    **Tip Per Cent**   * exprime les propriétés **Fin Tip Length 1** et **Fin Tip Length 2** en pourcentage de la **Fin Tip Chord**.
 
--    **Tip Thickness**   * Maximum thickness at the tip of the fin
+-    **Tip Thickness**   * épaisseur maximale à l\'extrémité de l\'ailette
 
 
 {{TitleProperty|Rocket Component}}
 
-These parameters are provided for information and have no effect on the design of the component.
+Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    **Description**   * Description of the component
+-    **Description**   * description du composant
 
--    **Manufacturer**   * Manufacturer when known
+-    **Manufacturer**   * fabricant lorsqu\'il est connu
 
--    **Material**   * Material when known
+-    **Material**   * matériau lorsqu\'il est connu
 
--    **Part Number**   * Manufacturer part number
+-    **Part Number**   * numéro de pièce du fabricant
 
-## Tutorials and Learning 
+## Tutoriels et apprentissage 
 
-[Rocket Workbench Fins](https   *//youtu.be/8MmEVyGkA0I) Tutorial on YouTube
+[Aileron atelier Rocket](https   *//youtu.be/8MmEVyGkA0I) Tutoriel sur YouTube
 
 
 

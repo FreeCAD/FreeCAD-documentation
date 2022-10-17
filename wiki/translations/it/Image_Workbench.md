@@ -5,7 +5,7 @@
 
 ## Introduzione
 
-L\'ambiente <img alt="" src=images/Workbench_Image.svg  style="width   *24px;"> [Immagine](Image_Workbench/it.md) gestisce diversi tipi di immagini [bitmap](bitmap/it.md), e permette di aprirle in FreeCAD.
+L\'[Ambiente Image](Image_Workbench/it.md) <img alt="" src=images/Workbench_Image.svg  style="width   *24px;"> gestisce diversi tipi di immagini [bitmap](bitmap/it.md), e permette di aprirle in FreeCAD.
 
 ## Strumenti
 

@@ -30,7 +30,6 @@ The FEM Analysis could be seen as a Container that holds all objects of a Finite
 ## Options
 
 -   Up to date there is no option to choose.
--   A frequency analysis in in development. See [1](http   *//forum.freecadweb.org/viewtopic.php?f=18&t=12189) for more informations.
 
 ## Properties
 
@@ -38,7 +37,7 @@ The FEM Analysis could be seen as a Container that holds all objects of a Finite
 
 ## Scripting
 
-most code here is depreciated in 0.17.
+most code here is deprecated in 0.17.
 
 -   new analysis
 

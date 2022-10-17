@@ -15,13 +15,13 @@ Der Befehl **Polygonnetz Import** importiert Geometrie aus einem Netzdateiformat
 
 ## Anwendung
 
-\#\* Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
+#\* Es gibt mehrere Möglichkeiten, den Befehl aufzurufen   *
 
-\#\* Drücke den **<img src="images/Mesh_Import.svg" width=16px> [Polygonnetz Import](Mesh_Import/de.md)**.
+#\* Drücke den **<img src="images/Mesh_Import.svg" width=16px> [Polygonnetz Import](Mesh_Import/de.md)**.
 
-\#\* Wähle die **Polygonnetze → <img src="images/Mesh_Import.svg" width=16px> Polygonnetz importieren...** aus dem Menü.
+#\* Wähle die **Polygonnetze → <img src="images/Mesh_Import.svg" width=16px> Polygonnetz importieren...** aus dem Menü.
 
-\#\* Wähle die **<img src="images/Mesh_Import.svg" width=16px> Polygonnetz importieren...** aus dem Kontextmenü der [Baumansicht](3D_view/de.md) oder der [3D Ansicht](3D_view/de.md) aus. Diese Option ist nur verfügbar, wenn ein bestehendes Polygonnetzobjekt ausgewählt wurde. Beachte, dass das ausgewählte Objekt durch den Befehl eigentlich nicht verwendet oder verändert wird.
+#\* Wähle die **<img src="images/Mesh_Import.svg" width=16px> Polygonnetz importieren...** aus dem Kontextmenü der [Baumansicht](3D_view/de.md) oder der [3D Ansicht](3D_view/de.md) aus. Diese Option ist nur verfügbar, wenn ein bestehendes Polygonnetzobjekt ausgewählt wurde. Beachte, dass das ausgewählte Objekt durch den Befehl eigentlich nicht verwendet oder verändert wird.
 
 1.  Wähle optional das richtige Dateiformat im Dialogfeld aus.
 2.  Wähle eine Datei aus.

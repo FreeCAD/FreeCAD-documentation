@@ -26,11 +26,11 @@ Several custom attributes can be placed in templates. The list of currently supp
 
 ### A4 Landscape US Text Complet With Convention EU 
 
-<img alt="A4\_Landscape US Text Complet With Convention EU" src=images/A4_Landscape_US_Text_Complet_With_Convention_EU.svg  style="width   *800px;">
+<img alt="A4_Landscape US Text Complet With Convention EU" src=images/A4_Landscape_US_Text_Complet_With_Convention_EU.svg  style="width   *800px;">
 
 ### A4 Portrait US Text Complet With Convention EU 
 
-<img alt="A4\_Portrait US Text Complet With Convention EU" src=images/A4_Portrait_US_Text_Complet_With_Convention_EU.svg  style="width   *400px;">
+<img alt="A4_Portrait US Text Complet With Convention EU" src=images/A4_Portrait_US_Text_Complet_With_Convention_EU.svg  style="width   *400px;">
 
 ### The most used cartridges in templates FreeCAD 
 
@@ -70,13 +70,13 @@ Symbols used to define a [projection](http   *//commons.wikimedia.org/wiki/File 
 
 The templates are complete and are equipped of cartouche and with a table (K to Z hidden by default) and symbols US (hidden by default) and EU. You just hide or erase what does not serve you.
 
-Template [A3\_Landscape.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6499)
+Template [A3_Landscape.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6499)
 
-Template [A4\_Portrait.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6500)
+Template [A4_Portrait.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6500)
 
-CompassRose\_2D [CompassRose\_2D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6501)
+CompassRose_2D [CompassRose_2D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6501)
 
-CompassRose\_3D [CompassRose\_3D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6502)
+CompassRose_3D [CompassRose_3D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6502)
 
 ### Other standards available 
 

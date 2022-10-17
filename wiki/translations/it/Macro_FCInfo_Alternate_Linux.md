@@ -24,12 +24,12 @@ Il server non accetta per il momento delle pagine più grandi di 64 KB e mi era 
 
 Scaricare il file da qui   *
 
-[FCInfo\_en\_Ver\_1-12\_No\_Docked\_Ubuntu.FCMacro.zip](http   *//forum.freecadweb.org/download/file.php?id=4453)
+[FCInfo_en_Ver_1-12_No_Docked_Ubuntu.FCMacro.zip](http   *//forum.freecadweb.org/download/file.php?id=4453)
 
 [oppure nel forum](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=48579#p48579)
 
 La differenza tra la versione normale e la versione \"Ubuntu\" consiste in un diverso tipo di di procedura di codifica dei caratteri sopra + 128
-Questa versione è derivata dalla versione originale, la differenza si trova al livello di codifica dei caratteri \'\' \'² ³ ° μ\'\'\' che possono causare l\'errore \"ordinal not in range (128)\" in alcune configurazioni.
+Questa versione è derivata dalla versione originale, la differenza si trova al livello di codifica dei caratteri *\'² ³ ° μ*\' che possono causare l\'errore \"ordinal not in range (128)\" in alcune configurazioni.
 
 Esempio   * 
 ```python

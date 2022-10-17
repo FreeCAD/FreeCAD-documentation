@@ -26,7 +26,7 @@ Die Option, nach PDF zu exportieren, ist im Menü unter **Datei → [PDF exporti
 
 
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

@@ -44,7 +44,7 @@ Pokud máte nějaké dotazy nebo chcete přidat funkci, můžete se obrátit na 
 
 ToolBar Icon ![](images/Macro_CartoucheFC_2.png )
 
-**Macro\_CartoucheFC\_2.FcMacro**
+**Macro_CartoucheFC_2.FcMacro**
 
 
 {{MacroCode|code=

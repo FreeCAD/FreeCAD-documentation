@@ -20,7 +20,7 @@ This macro creates a red outline of the BoundingBox (6 Faces with 6 rectangles) 
 *BoundingBox Tracing macro in action*
     
 
-## Использование
+## Применение
 
 1.  Select an object
 2.  Launch the macro
@@ -51,7 +51,7 @@ ToolBar Icon ![](images/BoundBoxTracing.png )
 
 ## Скрипт
 
-**Macro\_BoundingBox\_Tracing.FCMacro**
+**Macro_BoundingBox_Tracing.FCMacro**
 
 
 {{MacroCode|code=

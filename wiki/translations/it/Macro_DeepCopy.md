@@ -22,7 +22,7 @@ Seleziona una parte nell\'albero, esegui la macro e creerai un composto con una 
 
 ToolBar Icon ![](images/Macro_DeepCopy.png )
 
-**Macro\_DeepCopy.FCMacro**
+**Macro_DeepCopy.FCMacro**
 
 
 {{MacroCode|code=

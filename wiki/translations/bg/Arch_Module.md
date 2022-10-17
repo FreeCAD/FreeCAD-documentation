@@ -1,5 +1,5 @@
 # Arch Module/bg
-1.  REDIRECT [Arch\_Workbench/bg](Arch_Workbench/bg.md)
+1.  REDIRECT [Arch_Workbench/bg](Arch_Workbench/bg.md)
 
 
 

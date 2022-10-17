@@ -45,7 +45,7 @@ ToolBar Icon ![](images/FCBmpImportLogo.svg )
 
 {{CodeDownload|https   *//gist.github.com/mwganson/ea7aa4dcb79d7492caa24e8970967174|FCBmpImport.FCMacro}}
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

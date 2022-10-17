@@ -26,7 +26,7 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu, sélectionnez l\'option **<img src="images/Draft_Snap_Grid.svg" width=16px> Aimanter sur la grille (OFF)**.
 4.  Choisissez une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 5.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
-6.  Dans FreeCAD version 0.19 et 0.20, la grille est maintenant affichée si elle n\'était pas encore visible. Dans les versions précédentes, vous pouvez avoir à [basculer la grille](Draft_ToggleGrid/fr.md) pour la rendre visible.
+6.  La grille est maintenant affichée si elle n\'était pas encore visible.
 7.  Déplacez le curseur près de l\'intersection de deux lignes de la grille.
 8.  Si une intersection est trouvée, le point est marqué et l\'icône <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *16px;"> est affichée près du curseur.
 9.  Cliquez pour confirmer le point.

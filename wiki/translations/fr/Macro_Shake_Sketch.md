@@ -14,7 +14,7 @@
 
 Secoue une esquisse pour révéler ses parties non-contraintes. Entrez en mode édition d\'une esquisse et lancez la macro. Cette macro ajoute un bruit aléatoire dans tous les points de l\'esquisse. Les contraintes de l\'esquisse sont alors résolues, les parties contraintes gardent leur position et les parties libres bougent. Exécutez toujours cette macro sur une copie de l\'esquisse originale.
 
-Restaure l\'original Sketch avec les boutons **Undo (Ctrl+Z)** et **Redo (Ctrl+Y)** (labeled \"Shake Sketch\") *\' ou travaillez sur une copie de votre fichier car la macro \"démantèle tout\" pour la visualisation et vous devrez peut-être recommencer à zéro.*\'
+Restaure l\'original Sketch avec les boutons **Undo (Ctrl+Z)** et **Redo (Ctrl+Y)** (labeled \"Shake Sketch\") **ou travaillez sur une copie de votre fichier car la macro \"démantèle tout\" pour la visualisation et vous devrez peut-être recommencer à zéro.**
 
 ## Installation
 
@@ -24,7 +24,7 @@ Disponible dans le gestionnaire d\'addons, ou par installation manuelle.
 
 Icône de la barre d\'outils ![](images/Macro_Shake_Sketch.png )
 
-**Macro Shake\_Sketch.py**
+**Macro Shake_Sketch.py**
 
     # -*- coding   * utf-8 -*-
 

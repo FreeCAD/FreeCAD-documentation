@@ -39,7 +39,7 @@ Damit das direkte Rendern funktioniert, muss die ausführbare Datei `povray` in 
 
 ## Einrichten der .pov Datei 
 
-1\. Erstelle eine Baugruppe mit Körpern aus der [Part](Part_Workbench/de.md) oder [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder eines anderen Arbeitsbereichs, die Volumenkörper erzeugt, z.B. der [Arch\_Workbench](Arch_Workbench.md). Weise den einzelnen Körpern, aus denen die Baugruppe besteht, Farben oder Materialien zu, die ungefähr der Farbe entsprechen, die du in deinem Rendering wünschst.
+1\. Erstelle eine Baugruppe mit Körpern aus der [Part](Part_Workbench/de.md) oder [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder eines anderen Arbeitsbereichs, die Volumenkörper erzeugt, z.B. der [Arch_Workbench](Arch_Workbench.md). Weise den einzelnen Körpern, aus denen die Baugruppe besteht, Farben oder Materialien zu, die ungefähr der Farbe entsprechen, die du in deinem Rendering wünschst.
 
 <img alt="" src=images/01_T04_FreeCAD_POVray_model.png  style="width   *600px;">
 

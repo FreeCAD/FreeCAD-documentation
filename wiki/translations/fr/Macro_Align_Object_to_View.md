@@ -25,7 +25,7 @@ Cette macro aligne l\'objet sélectionné sur la vue 3D.
 
 ToolBar Icon ![](images/Macro_Align_Object_to_View.png )
 
-**Macro\_Align\_Object\_to\_View.FCMacro**
+**Macro_Align_Object_to_View.FCMacro**
 
 
 {{MacroCode|code=
@@ -58,7 +58,7 @@ App.ActiveDocument.getObject(Nameelement).Placement=pl
 
 <center>
 
-Image   *Macro Align Object to View 01.png\|Votre objet dans sa position originale XY. Image   *Macro Align Object to View 02.png\|Faites une rotation de l\'écran X? Y? Z? ou utilisez cette macro [Macro\_Rotate\_View](Macro_Rotate_View.md) pour une rotation précise.
+Image   *Macro Align Object to View 01.png\|Votre objet dans sa position originale XY. Image   *Macro Align Object to View 02.png\|Faites une rotation de l\'écran X? Y? Z? ou utilisez cette macro [Macro_Rotate_View](Macro_Rotate_View.md) pour une rotation précise.
 
 
 </center>
@@ -73,7 +73,7 @@ Image   *Macro Align Object to View 03.png\|Sélectionnez l\'objet et lancez la 
 
 ## Credits
 
-Merci rentlau\_64 pour avoir simplifié le code
+Merci rentlau_64 pour avoir simplifié le code
 
 
 

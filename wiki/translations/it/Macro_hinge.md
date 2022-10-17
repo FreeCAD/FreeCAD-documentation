@@ -19,19 +19,19 @@ Simula il movimento di una cerniera di una porta.
 
 ## Uso
 
-Per eseguire la macro aprire in FreeCAD i 2 file (20140908b\_Hinge-1.FCMacro e 20140908b\_Hinge-1.FCStd) in 2 schermi (Menu   * Finestre -\> Affiancate) poi fare clic nella finestra e nella macro fare clic su F6 (avvia macro), oppure avviare la macro con ![](images/Std_DlgMacroExecuteDirect.svg )
+Per eseguire la macro aprire in FreeCAD i 2 file (20140908b_Hinge-1.FCMacro e 20140908b_Hinge-1.FCStd) in 2 schermi (Menu   * Finestre -\> Affiancate) poi fare clic nella finestra e nella macro fare clic su F6 (avvia macro), oppure avviare la macro con ![](images/Std_DlgMacroExecuteDirect.svg )
 
 <img alt="" src=images/Hing_01.png  style="width   *300px;">
 
 ## Il File 
 
-[20140908b\_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628)
+[20140908b_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628)
 
 ## Lo Script 
 
 ToolBar Icon ![](images/Macro_hinge.png )
 
-**20140908b\_Hinge-1.FCMacro**
+**20140908b_Hinge-1.FCMacro**
 
 
 {{MacroCode|code=

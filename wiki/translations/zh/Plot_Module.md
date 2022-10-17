@@ -1,5 +1,5 @@
 # Plot Module/zh
-1.  REDIRECT [Plot\_Workbench/zh](Plot_Workbench/zh.md)
+1.  REDIRECT [Plot_Workbench/zh](Plot_Workbench/zh.md)
 
 
 

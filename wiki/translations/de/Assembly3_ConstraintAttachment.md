@@ -10,7 +10,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus her und fixiert den Abstand zwischen ihnen sowie ihre Ausrichtung zueinander. Die Gewählten Elemente beider Objekte oder präziser ihre lokalen Koordinatensysteme werden genutzt, um ein Objekt zum anderen zu positionieren.
+Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus her und fixiert den Abstand zwischen ihnen sowie ihre Ausrichtung zueinander. Die Gewählten Elemente beider Objekte oder präziser ihre Element-Koordinatensysteme (EKS) werden genutzt, um die Objekte relativ zueinander neu anzuordnen.
 
 Diese Verbindung lässt keinen Freiheitsgrad unbestimmt.
 
@@ -19,6 +19,7 @@ Diese Verbindung lässt keinen Freiheitsgrad unbestimmt.
 1.  Zwei Objekte in einen Zusammenbau einfügen.
 2.  Je ein Element beider Objekte auswählen.
 3.  Schaltfläche **<img src="images/Part_Attachment.svg" width=16px> [Befestigung](Assembly3_ConstraintAttachment/de.md)** drücken.
+4.  Die Objekte werden so angeordnet, dass ihre EKS einen gemeinsamen Ursprung und dieselbe Ausrichtung haben.
 
 
 

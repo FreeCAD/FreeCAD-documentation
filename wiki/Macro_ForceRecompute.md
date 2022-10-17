@@ -24,7 +24,7 @@ Run the macro when necessary.
 
 ToolBar Icon  <img alt="" src=images/Force_Recompute.png  style="width   *24px;">
 
-**Macro Force\_Recompute.py**
+**Macro Force_Recompute.py**
 
 
 {{MacroCode|code=

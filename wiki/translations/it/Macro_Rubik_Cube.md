@@ -22,7 +22,7 @@ Macro per visualizzare un cubo di Rubik e fare le rotazioni delle sezioni in mod
 
 ToolBar Icon <img alt="" src=images/Macro_Rubik_Cube.png  style="width   *64px;">
 
-**Macro\_Rubik\_Cube.FCMacro**
+**Macro_Rubik_Cube.FCMacro**
 
     # -*- coding   * utf-8 -*-
     """

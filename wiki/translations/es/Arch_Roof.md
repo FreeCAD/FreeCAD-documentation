@@ -90,7 +90,7 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 
 -    {{PropertyData/es|Overhang}}   * Lista del saliente del panel del techo (un saliente para cada borde en el wire).
 
--    {{PropertyData/es|Face}}   * El índice de la cara del objeto base que se utilizará \#No realmente utilizado
+-    {{PropertyData/es|Face}}   * El índice de la cara del objeto base que se utilizará #No realmente utilizado
 
 
 </div>

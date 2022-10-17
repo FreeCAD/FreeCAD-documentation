@@ -1,5 +1,5 @@
 # TechDraw Module/bg
-1.  REDIRECT [TechDraw\_Workbench/bg](TechDraw_Workbench/bg.md)
+1.  REDIRECT [TechDraw_Workbench/bg](TechDraw_Workbench/bg.md)
 
 
 

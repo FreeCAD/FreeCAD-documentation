@@ -1,5 +1,5 @@
 # Path ProfileEdges
-1.  REDIRECT [Path\_Profile](Path_Profile.md)
+1.  REDIRECT [Path_Profile](Path_Profile.md)
 
 
 

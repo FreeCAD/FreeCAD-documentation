@@ -1,5 +1,5 @@
 # Mesh Smooth
-1.  REDIRECT [Mesh\_Smoothing](Mesh_Smoothing.md)
+1.  REDIRECT [Mesh_Smoothing](Mesh_Smoothing.md)
 
 
 

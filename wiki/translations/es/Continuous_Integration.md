@@ -13,7 +13,7 @@ Actualmente, el repositorio de FreeCAD en GitHub activará una compilación en l
 
 ### TravisCI
 
-<img alt="" src=images/Travis-logo.png  style="width   *50px;"> Tests against Linux and OSX. The config file is called [.travis.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) and it lives in the top directory of FreeCAD. To view current and past buildsː <https   *//travis-ci.org/FreeCAD/FreeCAD/builds>
+<img alt="" src=images/Travis-logo.png  style="width   *50px;"> Tests against Linux and OSX. The config file is called [.travis.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) and it lives in the top directory of FreeCAD. To view current and past buildsː <https   *//travis-ci.com/FreeCAD/FreeCAD/builds>
 
 ### Appveyor
 
@@ -39,7 +39,7 @@ Actualmente, el repositorio de FreeCAD en GitHub activará una compilación en l
 
  
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
 
 
 

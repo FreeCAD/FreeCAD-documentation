@@ -20,7 +20,7 @@ This macro allows you to temporarily put a texture image on selected objects. To
 
 
 
-**Macro\_Texture\_Objects.FCMacro**
+**Macro_Texture_Objects.FCMacro**
 
 
 {{MacroCode|code=

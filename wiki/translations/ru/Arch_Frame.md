@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch Frame
-   Name/ru   *Arch Frame
-   MenuLocation   *Архитектура -> Каркас
+   Name/ru   *Каркас
+   Name   *Arch_Frame
+   MenuLocation   *Arch → Каркас
    Workbenches   *[Arch](Arch_Workbench/ru.md)
    Shortcut   ***F** **R**
-   SeeAlso   *[[Arch Wall/ru]], [[Arch Structure/ru]]
+   SeeAlso   *[Стена](Arch_Wall/ru.md), [Структура](Arch_Structure/ru.md)
 ---
 
 # Arch Frame/ru
-
-
-</div>
 
 ## Описание
 
@@ -57,12 +54,12 @@
 
 -    **Rotation**   * The rotation of the profile around its extrusion axis.
 
-## Scripting
+## Программирование
 
 
 <div class="mw-translate-fuzzy">
 
-## Программирование
+## Программирование 
 
 
 **См. так же   ***
@@ -99,15 +96,6 @@ profile = Draft.makeCircle(200)
 Frame = Arch.makeFrame(baseobj, profile)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

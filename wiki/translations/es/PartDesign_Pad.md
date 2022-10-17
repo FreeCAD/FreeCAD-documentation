@@ -227,12 +227,12 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 <div class="mw-translate-fuzzy">
 
 -   Al igual que todas las características de Diseño piezas, Pastilla crea un sólido, por lo tanto, el boceto debe incluir un perfil cerrado o fallará con un error \"No se pudo validar la cara rota\". Puede haber múltiples perfiles cerrados dentro de uno más grande, siempre que ninguno se cruce entre sí (por ejemplo, un rectángulo con dos círculos en su interior).
--   El algoritmo utilizado para \'\' \'Al primero\' \'\' y \'\' \'Al último\' \'\' es   *
+-   El algoritmo utilizado para *\'Al primero\'* y *\'Al último\'* es   *
     -   Crea una línea a través del centro de gravedad del boceto
     -   Encuentra todas las caras del soporte cortadas por esta línea
     -   Elija la cara donde el punto de intersección está más cerca / más alejado del boceto
 
-   *   Esto significa que la cara que se encuentra puede no ser siempre la que esperaba. Si se encuentra con este problema, utilice el tipo \'\' \'Up to face\' \'\' en su lugar y elija la cara que desee.
+   *   Esto significa que la cara que se encuentra puede no ser siempre la que esperaba. Si se encuentra con este problema, utilice el tipo *\'Up to face\'* en su lugar y elija la cara que desee.
    *   Para el caso muy especial de extrusión a una superficie cóncava, donde el boceto es más grande que esta superficie, la extrusión fallará. Este es un error no resuelto.
 
 -    {{VersionMinus/es|0.16}}No hay limpieza automática, por ejemplo, de superficies planas adyacentes en una sola superficie. Puedes arreglar esto manualmente en el <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Ambiente de trabajo Piezas](Part_Workbench/es.md) con **<img src="images/Part_RefineShape.svg" width=16px> [Piezas AfinarForma](Part_RefineShape/es.md)** (que crea un sólido no paramétrico no vinculado) o con el **<img src="images/OpenSCAD_RefineShapeFeature.svg" width=16px> [OpenSCAD FunciónRefinarForma](OpenSCAD_RefineShapeFeature/es.md)** del <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *16px;"> [Ambiente de Trabajo de OpenSCAD](OpenSCAD_Workbench/es.md) que crea una característica paramétrica.

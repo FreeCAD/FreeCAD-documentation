@@ -45,7 +45,7 @@ Questa è una lista estesa, ma non completa, delle funzioni implementate in Free
 
 -   **multipiattaforma**. FreeCAD funziona esattamente allo stesso modo su piattaforme Microsoft Windows®, Linux e macOS®.
 
--   \'\'\'interfaccia grafica completa \'\'\' basata sulla piattaforma [Qt](http   *//www.qt.io/) e una interfaccia di visualizzazione 3D basata su [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor) che garantisce un rendering rapido e permette di accedere facilmente alle varie proiezioni della scena.
+-   **interfaccia grafica completa** basata sulla piattaforma [Qt](http   *//www.qt.io/) e una interfaccia di visualizzazione 3D basata su [Open Inventor](http   *//en.wikipedia.org/wiki/Open_Inventor) che garantisce un rendering rapido e permette di accedere facilmente alle varie proiezioni della scena.
 
 -   **funziona tramite riga di comando**. In modalità riga di comando, FreeCAD viene eseguito senza la sua interfaccia ma con tutti i suoi strumenti di geometria. In questa modalità ha un ingombro di memoria relativamente basso e può essere utilizzato, ad esempio, come server per produrre contenuti per altre applicazioni.
 

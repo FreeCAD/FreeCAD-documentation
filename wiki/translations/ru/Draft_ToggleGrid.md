@@ -23,8 +23,6 @@
 
 </div>
 
-In FreeCAD version 0.19 the grid is always displayed when a command becomes active and toggling the grid while a command is active does not work.
-
 ## Usage
 
 For general information about snapping see [Draft Snap](Draft_Snap.md).

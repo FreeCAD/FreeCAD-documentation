@@ -1,5 +1,5 @@
 # TechDraw Module/ko
-1.  REDIRECT [TechDraw\_Workbench/ko](TechDraw_Workbench/ko.md)
+1.  REDIRECT [TechDraw_Workbench/ko](TechDraw_Workbench/ko.md)
 
 
 

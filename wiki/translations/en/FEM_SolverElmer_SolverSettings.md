@@ -19,7 +19,7 @@ The solver settings can be found in the [property editor](Property_editor.md) af
 
 For transient simulations the time steps need to be defined. This is done by the following settings   *
 
--    **BDFOrder**   * Order for the method *BDF* (Backward Differentiation Formula). It is currently only used for the <img alt="" src=images/FEM_EquationHeat.svg  style="width   *24px;"> [Heat equation](FEM_EquationHeat.md). It is recommended to use use the default of 2.
+-    **BDFOrder**   * Order for the method *BDF* ([Backward Differentiation Formula](https   *//en.wikipedia.org/wiki/Backward_differentiation_formula)). It is currently only used for the <img alt="" src=images/FEM_EquationHeat.svg  style="width   *24px;"> [Heat equation](FEM_EquationHeat.md). It is recommended to use use the default of 2.
 
 -    **Timestep Intervals**   * An array of calculations per time interval.The solver will perform one time interval after another. For example if the solver should calculate the first 10 seconds in steps of 0.1 second, then 50 seconds in steps of 1 second and then stop, you need to set the timestep intervals \[100, 50\] and the timestep size intervals \[0.1, 1.0\].
 
@@ -29,9 +29,9 @@ For transient simulations the time steps need to be defined. This is done by the
 
 -    **Simulation type**   * If the simulation is *Steady state*, *Transient* or just *Scanning*. Transient means the development over time is calculated. See section [Timestepping](#Timestepping.md) for the necessary settings.
 
--    **Steady State Max Iterations**   * The maximal number of steady-state solver runs.
+-    **Steady State Max Iterations**   * The maximum number of steady-state solver runs.
 
--    **Steady State Min Iterations**   * The minimal number of steady-state solver runs.
+-    **Steady State Min Iterations**   * The minimum number of steady-state solver runs.
 
 ## Equation
 

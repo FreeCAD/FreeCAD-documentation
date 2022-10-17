@@ -11,7 +11,7 @@
 
 ## Descripción
 
-El comando \'\'\'Ambiente de trabajo Std \'\'\' activa un [Ambiente de trabajo](Workbenches/es.md) seleccionado incluyendo su interfaz gráfica de usuario (GUI).
+El comando **Ambiente de trabajo Std** activa un [Ambiente de trabajo](Workbenches/es.md) seleccionado incluyendo su interfaz gráfica de usuario (GUI).
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width   *800px;"> 
 *La lista desplegable de Ambiente de trabajo indicada con el número 10 en la [interfaz](interface/es.md) estándar*

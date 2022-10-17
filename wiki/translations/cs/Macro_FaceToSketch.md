@@ -25,7 +25,7 @@ Toto makro rozloží tvar funkcí **<img src="images/Draft_Downgrade.png" width=
 
 ToolBar Icon ![](images/Macro_FaceToSketch.png )
 
-**Macro\_FaceToSketch.FCMacro**
+**Macro_FaceToSketch.FCMacro**
 
 
 {{MacroCode|code=

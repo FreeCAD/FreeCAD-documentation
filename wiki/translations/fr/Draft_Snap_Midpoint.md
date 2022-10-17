@@ -12,8 +12,6 @@
 
 L\'option <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width   *24px;"> **Draft Aimantation Milieu** permet de s\'aimanter au point milieu des segments. Les segments peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
-Dans la version 0.19 de FreeCAD, cette option d\'aimantation ne fonctionne que pour les segments droits et circulaires.
-
 ![](images/Draft_Snap_Midpoint_example.png ) 
 *Aimantation du deuxième point d'une ligne au milieu d'une segment*
 

@@ -1,5 +1,5 @@
 # Install on Mac/tr
-1.  REDIRECT [Installing\_on\_Mac/tr](Installing_on_Mac/tr.md)
+1.  REDIRECT [Installing_on_Mac/tr](Installing_on_Mac/tr.md)
 
 
 

@@ -33,7 +33,7 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 
 ## Create the base document 
 
-1\. Open a new document in Inkscape. All of the following steps will be carried out within Inkscape. During this tutorial, FreeCAD and TechDraw are only useful for inspecting the state of your template by opening the TechDraw workbench, clicking <img alt="TechDraw PageTemplate\|link=TechDraw\_PageTemplate" src=images/TechDraw_PageTemplate.svg  style="width   *32px;"> [TechDraw PageTemplate](TechDraw_PageTemplate.md) and selecting the template you are working on.
+1\. Open a new document in Inkscape. All of the following steps will be carried out within Inkscape. During this tutorial, FreeCAD and TechDraw are only useful for inspecting the state of your template by opening the TechDraw workbench, clicking <img alt="TechDraw PageTemplate\|link=TechDraw_PageTemplate" src=images/TechDraw_PageTemplate.svg  style="width   *32px;"> [TechDraw PageTemplate](TechDraw_PageTemplate.md) and selecting the template you are working on.
 
 2\. Use the built-in XML Editor **Edit → XML Editor...** or **Shift**+**Ctrl**+**X**) to add a \"freecad\" namespace clause to the `<svg>` item.
 

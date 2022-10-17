@@ -19,7 +19,13 @@ A instalação do FreeCAD nos sistemas Linux mais populares já foi aprovada pel
 
 ## Sistemas baseados em Ubuntu e Ubuntu 
 
+
+<div class="mw-translate-fuzzy">
+
 Muitas distribuições Linux são baseadas no Ubuntu e compartilham seus repositórios. Além das variantes oficiais (Kubuntu, Lubuntu e Xubuntu), existem derivados não oficiais como Linux Mint, Voyager e outros. As opções de instalação abaixo devem ser compatíveis com estes sistemas.
+
+
+</div>
 
 
 <div class="mw-collapsible-content">
@@ -51,6 +57,8 @@ O repositório Ubuntu pode estar desatualizado. O pacote pode ficar desatualizad
 
 
 </div>
+
+**Warning   *** The FreeCAD PPA is currently unmaintained and [looking for volunteers](https   *//forum.freecadweb.org/viewtopic.php?f=42&t=69055&start=20). Please use an alternative (snap, appimage) until the issue is fixed!
 
 O arquivo de pacotes pessoais (PPA) para a versão estável do FreeCAD é mantido pela comunidade FreeCAD no Launchpad. O repositório Launchpad é chamado de [versões estáveis do FreeCAD](https   *//launchpad.net/~freecad-maintainers/+archive/freecad-stable).
 
@@ -342,28 +350,6 @@ Se sua distribuição Linux oferece FreeCAD mas não está documentada nesta pá
 
 Muitos pacotes FreeCAD alternativos e não-oficiais estão disponíveis na rede, por exemplo, para sistemas como slackware ou fedora. Uma busca na rede pode lhe dar rapidamente alguns resultados.
 
-### Instalação manual em sistemas baseados em .deb 
-
-
-<div class="mw-translate-fuzzy">
-
-Se por algum motivo você não puder usar nenhum dos métodos acima, você pode baixar um dos pacotes .deb disponíveis na página de [Download](Download/pt-br.md).
-{{DownloadLinuxStable}}
-
-
-</div>
-
-Uma vez que você tenha baixado o .deb para sua versão do sistema, se você tiver o pacote [Gdebi](wikipedia   *Debian#GDEBI.md) instalado, basta ir até o local do arquivo baixado e clicar duas vezes sobre ele. Seu gerente de pacotes instalará automaticamente as dependências necessárias. Alternativamente, você também pode instalá-lo a partir do terminal, navegando até onde você baixou o arquivo, e digitar   *
-
-
-```python
-sudo dpkg -i Name_of_your_FreeCAD_package.deb
-```
-
-mudando Nome\_do\_seu\_pacote\_FreeCAD.deb pelo nome do arquivo que você baixou.
-
-Após instalar o FreeCAD, um ícone de inicialização será adicionado na seção \"Gráfico\" do seu Menu Iniciar.
-
 ### Instalando em outros sistemas Linux/Unix 
 
 Muitas distros Linux comuns incluem agora um FreeCAD pré-compilado como parte dos pacotes padrão. Isto está freqüentemente desatualizado, mas é um lugar para se começar. Verifique os gerentes de pacotes padrão para o seu sistema. Uma das seguintes listas (parciais) de comandos poderia instalar a versão oficial do FreeCAD para sua distro do terminal. Estes provavelmente precisam de privilégios de administrador.
@@ -376,9 +362,26 @@ emerge freecad
 slackpkg install freecad
 yum install freecad
 zypper install freecad
+pacman -Sy freecad
 ```
 
-O nome do pacote é sensível a maiúsculas e minúsculas, portanto tente \"FreeCAD\" e \"freecad\". Se isso não funcionar para você, ou porque seu gerente de pacotes não tem uma versão FreeCAD pré-compilada disponível, ou porque a versão disponível é muito antiga para suas necessidades, você pode tentar fazer o download de um dos pacotes [.AppImage](https   *//github.com/FreeCAD/FreeCAD/releases/) liberações do repositório github. Estes tendem a funcionar na maioria das distribuições Linux de 64 bits, sem nenhuma instalação especial. Apenas certifique-se de que o arquivo baixado esteja marcado como executável, depois execute-o.
+
+<div class="mw-translate-fuzzy">
+
+O nome do pacote é sensível a maiúsculas e minúsculas, portanto tente \"FreeCAD\" e \"freecad\". Se isso não funcionar para você, ou porque seu gerente de pacotes não tem uma versão FreeCAD pré-compilada disponível, ou porque a versão disponível é muito antiga para suas necessidades, você pode tentar fazer o download de um dos pacotes
+
+
+</div>
+
+[.AppImage](https   *//github.com/FreeCAD/FreeCAD/releases/)
+
+
+<div class="mw-translate-fuzzy">
+
+liberações do repositório github. Estes tendem a funcionar na maioria das distribuições Linux de 64 bits, sem nenhuma instalação especial. Apenas certifique-se de que o arquivo baixado esteja marcado como executável, depois execute-o.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -387,10 +390,6 @@ Se isso ainda não for suficiente, e você não puder localizar outra fonte de u
 
 
 </div>
-
-### Instalando a versão Windows no Linux 
-
-Veja a página [Instalando no Windows](Installing_on_Windows/pt-br.md).
 
 ## Próximo Passo 
 

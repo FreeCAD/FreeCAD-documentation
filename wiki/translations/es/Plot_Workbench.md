@@ -64,7 +64,7 @@ Siendo el módulo de graficado una adaptación de `matplotlib`, usted puede hace
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

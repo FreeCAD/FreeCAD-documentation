@@ -5,7 +5,7 @@ Tutti i modelli sono in formato SVG direttamente scaricabili e utilizzabili con 
 
 Tutti i modelli e i cartigli sono provviste di testi editabili in FreeCAD.
 
-Per usarli si devono rinominare in **A3\_Landscape.svg** (in (Window) **\"C   *Program Files\\you FreeCAD version\\data\\Mod\\Drawing\\Templates\"** ).
+Per usarli si devono rinominare in **A3_Landscape.svg** (in (Window) **\"C   *Program Files\\you FreeCAD version\\data\\Mod\\Drawing\\Templates\"** ).
 Per accedere dopo aver creato la pagina, fare clic sulla pagina nella **Vista combinata \> Proprietà \> Dati \> Editable Texts \> fare clic su 3 punti \...**
 
 
@@ -38,11 +38,11 @@ Nei modelli possono essere inseriti diversi attributi personalizzati. L\'elenco 
 
 ### A4 Orizzontale US 
 
-<img alt="A4\_Landscape US Text Complet With Convention EU" src=images/A4_Landscape_US_Text_Complet_With_Convention_EU.svg  style="width   *800px;">
+<img alt="A4_Landscape US Text Complet With Convention EU" src=images/A4_Landscape_US_Text_Complet_With_Convention_EU.svg  style="width   *800px;">
 
 ### A4 Portrait US Text Complet With Convention EU 
 
-<img alt="A4\_Portrait US Text Complet With Convention EU" src=images/A4_Portrait_US_Text_Complet_With_Convention_EU.svg  style="width   *400px;">
+<img alt="A4_Portrait US Text Complet With Convention EU" src=images/A4_Portrait_US_Text_Complet_With_Convention_EU.svg  style="width   *400px;">
 
 ### I cartigli più utilizzati nei modelli FreeCAD 
 
@@ -88,13 +88,13 @@ I modelli sono completi e sono dotati di cartiglio e con una tabella (da K a Z n
 
 </div>
 
-Template [A3\_Landscape.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6499)
+Template [A3_Landscape.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6499)
 
-Template [A4\_Portrait.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6500)
+Template [A4_Portrait.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6500)
 
-CompassRose\_2D [CompassRose\_2D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6501)
+CompassRose_2D [CompassRose_2D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6501)
 
-CompassRose\_3D [CompassRose\_3D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6502)
+CompassRose_3D [CompassRose_3D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6502)
 
 ### Altri modelli standard disponibili 
 

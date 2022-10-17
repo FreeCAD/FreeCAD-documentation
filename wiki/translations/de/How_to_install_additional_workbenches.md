@@ -6,7 +6,13 @@
    FCVersion   *Alle
    Author   *[r-frank](User   *R-Frank.md)
    Files   *keine
-}}
+---
+
+# How to install additional workbenches/de
+
+
+
+
 
 ## Beschreibung
 
@@ -50,6 +56,8 @@ Benutze den [addons-installer von Github](https   *//github.com/FreeCAD/FreeCAD-
 
 Während des Google Summer of Code 2016 begann der Student Mandeep Singh mit der Arbeit an einer verbesserten Version ([hier verfügbar](https   *//github.com/mandeeps708/PluginManager)), die jedoch noch weitere Bearbeitung benötigt, bevor sie vollständig in FreeCAD integriert werden kann.
 
+### Manual Install 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -92,22 +100,27 @@ Wie man zusätzliche Arbeitsbereiche und Erweiterungen unter Linux installiert
 
 <div class="mw-collapsible-content">
 
+### Using git 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Benutzung von git 
 
 Hinzufügen der [community-ppa](https   *//launchpad.net/~freecad-community/+archive/ubuntu/ppa) innerhalb des ppa-manager.
 Installation der Arbeitsbereiche über synaptische Paketmanager.
 
 
-{{Code   code   *
+</div>
+
+
+```python
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
 $ git clone  https   *//github.com/tomate44/CurvesWB.git
----
+```
 
-# How to install additional workbenches/de
-
- 
 In FreeCAD hast du nun einen neuen Arbeitsbereichs-Eintrag namens \"CurvesWB\". Nach der Installation kannst du git verwenden, um auf die neueste Version zu aktualisieren   *
 
 
@@ -116,6 +129,8 @@ $ cd ~/.FreeCAD/Mod/CurvesWB
 $ git pull
 $ rm *.pyc
 ```
+
+### Manual Installation 
 
 
 <div class="mw-translate-fuzzy">
@@ -154,6 +169,8 @@ Wie man zusätzliche Arbeitsbereiche und Erweiterungen auf MacOS installiert
 
 
 <div class="mw-collapsible-content">
+
+### Manual Installation 
 
 
 <div class="mw-translate-fuzzy">
@@ -200,9 +217,7 @@ Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Ku
     -   siehe diesen Forumsbeitrag   * [Assembly2 in Version   * 0.16.5602 (Git)](http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
-{{Userdocnavi
-
-}} 
+ 
 
 [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 

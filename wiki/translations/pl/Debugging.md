@@ -296,8 +296,8 @@ ptvsd.wait_for_attach()
 -   W VS Code rozpocznij debugowanie używając stworzonej konfiguracji. Powinieneś zobaczyć zmienne w obszarze debuggera.
 -   Podczas ustawiania punktów przerwania VS Code będzie zgłaszał, że nie znalazł pliku .py otwartego w edytorze VS Code.
     -   Zmień \"remoteRoot\"   * \".\" na \"remoteRoot\"   * \"\"
-    -   Na przykład, jeśli plik Python rezyduje w */home/FC\_myscripts/myscript.py*
-    -   Zmień na   * \"remoteRoot\"   * \"/home/FC\_myscripts\"
+    -   Na przykład, jeśli plik Python rezyduje w */home/FC_myscripts/myscript.py*
+    -   Zmień na   * \"remoteRoot\"   * \"/home/FC_myscripts\"
     -   Jeśli tylko debugujesz makrodefinicje FreeCAD z folderu makr FreeCAD, a ten folder to \"C   */Users//AppData/Roaming/FreeCAD/Macro\", to użyj   *
         -   \"localRoot\"   * \"C   */Users//AppData/Roaming/FreeCAD/Macro\",
         -   \"remoteRoot\"   * \"C   */Users//AppData/Roaming/FreeCAD/Macro\".

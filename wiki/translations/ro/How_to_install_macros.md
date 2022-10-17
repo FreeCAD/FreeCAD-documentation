@@ -130,11 +130,11 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 <div class="mw-translate-fuzzy">
 
-**3    *** The address of \"Macro destination\" (**C   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\** in the screen snapshot below)
+**3    *** The address of \"Macro destination\" (**C   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\** in the screen snapshot below)
 
--   Windows   * the form is usually **drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\**
--   Ubuntu   * the form is usually **/home/your\_user\_name/.FreeCAD**
--   Macintosh   * the form is usually \"/Users/your\_user\_name/Library/Preferences/FreeCAD\"
+-   Windows   * the form is usually **drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\**
+-   Ubuntu   * the form is usually **/home/your_user_name/.FreeCAD**
+-   Macintosh   * the form is usually \"/Users/your_user_name/Library/Preferences/FreeCAD\"
 
 
 </div>
@@ -208,7 +208,7 @@ Starting with FreeCAD 0.17, use the [Addon Manager](Std_AddonMgr.md) in **Tools 
 
 In past versions of FreeCAD you could use two automated ways to install macros and other addons   *
 
--   [addons\_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
+-   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
 -   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * also a macro, it could be used to install new components to FreeCAD. It is no longer developed.
 
 The recommended way to install addons, that is, [external workbenches](external_workbenches.md) and macros, is the [Addon Manager](Std_AddonMgr.md). However, you can still add macros to your system with the manual methods described in the following sections; this is useful if you are developing and testing your own code.
@@ -304,7 +304,7 @@ After copying your code we will paste the code in FreeCAD editor.
 
 <div class="mw-translate-fuzzy">
 
-**3    *** A new window opens, enter the macro name (here \"**Macro\_Apothem\_Based\_Prism\_GUI**\")and click the create **Ok** button
+**3    *** A new window opens, enter the macro name (here \"**Macro_Apothem_Based_Prism_GUI**\")and click the create **Ok** button
 
 
 </div>
@@ -485,7 +485,7 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="mw-translate-fuzzy">
 
-Download the file compressed here (example) [Macro\_screw\_maker 1.7](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887). (the page [Macro\_screw\_maker](Macro_screw_maker1_2.md))
+Download the file compressed here (example) [Macro_screw_maker 1.7](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887). (the page [Macro_screw_maker](Macro_screw_maker1_2.md))
 
 
 </div>
@@ -577,7 +577,7 @@ unzip your_file.zip -d your_directory
 
 <div class="mw-translate-fuzzy">
 
-**5    *** Return to your File explorer remained open in the macro location (here **C   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\**) and close the File explorer.
+**5    *** Return to your File explorer remained open in the macro location (here **C   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\**) and close the File explorer.
 
 
 </div>
@@ -714,7 +714,7 @@ This section describes some errors that may be encountered when copying and past
 
 <div class="mw-translate-fuzzy">
 
- **\<type \'exceptions.IndentationError\'\>   * (\'expected an indented block\', (\'C   */Users/d/AppData/Roaming/FreeCAD/Macro\_Apothem\_Based\_Prism\_GUI.FCMacro\', 21, 3, \'def priSm(self)   *n\'))** 
+ **\<type \'exceptions.IndentationError\'\>   * (\'expected an indented block\', (\'C   */Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro\', 21, 3, \'def priSm(self)   *n\'))** 
 
 
 </div>

@@ -24,13 +24,13 @@ Può essere utilizzato anche per convertire \'Shape2DView\' in Schizzi e funzion
 
 ## Opzioni
 
--   Modificare create\_face=True oppure create\_sketch=True in False per generare solo un tipo di oggetti
+-   Modificare create_face=True oppure create_sketch=True in False per generare solo un tipo di oggetti
 
 ## Script
 
 ToolBar Icon ![](images/Macro_DXF_to_Face_and_Sketch.png )
 
-**Macro\_DXF\_to\_Face\_and\_Sketch.FCMacro**
+**Macro_DXF_to_Face_and_Sketch.FCMacro**
 
 
 {{MacroCode|code=

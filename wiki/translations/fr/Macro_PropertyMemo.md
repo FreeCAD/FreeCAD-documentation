@@ -42,7 +42,7 @@ La case à cocher vous donne le choix entre deux options. Si la case à cocher e
 
 <center>
 
-Image   *Macro\_FCPropertyMemo\_02.png\|Property Mémo liste. Image   *Macro\_FCPropertyMemo\_03.png\|La fenêtre Mémo liste.
+Image   *Macro_FCPropertyMemo_02.png\|Property Mémo liste. Image   *Macro_FCPropertyMemo_03.png\|La fenêtre Mémo liste.
 
 
 </center>
@@ -54,7 +54,7 @@ Image   *Macro\_FCPropertyMemo\_02.png\|Property Mémo liste. Image   *Macro\_FC
 
 L\'icône disponible pour votre barre d\'outils ![](images/PropertyMemo.png )
 
-**Macro\_FCPropertyMemo.FCMacro**
+**Macro_FCPropertyMemo.FCMacro**
 
 
 {{MacroCode|code=

@@ -12,17 +12,17 @@
 
 ## Описание
 
-The Equipment tool offers you a simple and convenient way to insert non-structural, standalone elements such as pieces of furniture, hidro-sanitary equipments or electrical appliances to your projects. Equipments are based on [Part shapes](Part_Workbench.md), which allow them to benefit from the solidity and possibilities of BRep geometry, and generate nice views when rendered to plan and section views.
+Инструмент \"Оборудование\" предлагает вам простой и удобный способ добавления в интерьер ваших проектов неструктурных, автономных элементов, таких как   * предметы мебели, бытовая техника, сантехническое оборудование или электроприборы. Оборудование основано на [деталях верстака Part](Part_Workbench/ru.md), что позволяет извлечь выгоду из солидных возможностей геометрии BRep и создавать красивые виды при визуализации в виде плана и сечения.
 
 ![](images/Arch_equipment_example.jpg ) 
 *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object. The flat projections can be obtained by the [Draft Shape2DView](Draft_Shape2DView.md) tool*
 
-As of version 0.17, equipment objects also have a **HiRes** property where a [Mesh](Mesh_Workbench.md) object can be attached. Equipment objects can then be made to display that mesh in the 3D view instead of their shape, which allows to use any high-resolution mesh objects such as detailed pieces of furniture commonly found on websites.
+Начиная с версии 0.17, объекты оборудования также имеют свойство **HiRes (высокая детализация)**, к которому может быть присоединен [Mesh](Mesh_Workbench/ru.md) объект. Объекты оборудования затем могут быть созданы для отображения этой высокоспециализированной модели в 3D-представлении вместо их формы, что позволяет использовать любые объекты с высокой детализацией, такие как реалистичные предметы мебели, обычно встречающиеся на веб-сайтах.
 
 ![](images/Arch_equipment_mesh.jpg ) 
 *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object, with a high resolution mesh attached*
 
-When using the Arch OBJ exporter, all equipment objects that are in mesh display mode will be exported as their mesh instead of their shape.
+При использовании экспортера Arch OBJ все объекты оборудования, находящиеся в режиме отображения сетки, будут экспортироваться как mesh сетка, а не как форма.
 
 ## Применение
 
@@ -31,7 +31,7 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 
 ## Опции
 
--   Equipments share the common properties and behaviours of all [Arch Components](Arch_Component.md)
+-   Оборудование обладает такими же общими свойствами и моделью поведения, как и все остальные [компоненты верстака Arch](Arch_Component/ru.md)
 
 ## Свойства
 
@@ -41,23 +41,12 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 
 -    **Mesh**   * A [Mesh](Mesh_Workbench.md) representation to use for this equipment. When set, the **Mesh** display mode becomes available.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Программирование
 
 
 **См. так же   ***
 
-[Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-
-</div>
-
-
-**See also   ***
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Equipment tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
@@ -80,15 +69,6 @@ Box.Height = 600
 Equip = Arch.makeEquipment(Box)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

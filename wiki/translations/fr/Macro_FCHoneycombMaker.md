@@ -24,7 +24,7 @@ Vous pouvez également modifier l\'objet de base de la grille en nid d\'abeille 
 
 ToolBar Icon ![](images/FCHoneycombMakerIcon.png )
 
-**Macro\_FCHoneycombMaker.FCMacro**
+**Macro_FCHoneycombMaker.FCMacro**
 
 
 {{MacroCode|code=

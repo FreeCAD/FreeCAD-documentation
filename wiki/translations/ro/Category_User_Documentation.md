@@ -105,73 +105,73 @@
 | [Part Import/ro](wiki/Part Import/ro.md) | [Part JoinConnect/ro](wiki/Part JoinConnect/ro.md) | [Part JoinCutout/ro](wiki/Part JoinCutout/ro.md) |
 | [Part JoinEmbed/ro](wiki/Part JoinEmbed/ro.md) | [Part Line/ro](wiki/Part Line/ro.md) | [Part Loft Technical Details/ro](wiki/Part Loft Technical Details/ro.md) |
 | [Part Loft/ro](wiki/Part Loft/ro.md) | [Part MakeSolid/ro](wiki/Part MakeSolid/ro.md) | [Part Measure Angular/ro](wiki/Part Measure Angular/ro.md) |
-| [Part Measure Clear All/ro](wiki/Part Measure Clear All/ro.md) | [Part Measure Linear/ro](wiki/Part Measure Linear/ro.md) | [Part Measure Menu/ro](wiki/Part Measure Menu/ro.md) |
-| [Part Measure Toggle 3d/ro](wiki/Part Measure Toggle 3d/ro.md) | [Part Measure Toggle All/ro](wiki/Part Measure Toggle All/ro.md) | [Part Measure Toggle Delta/ro](wiki/Part Measure Toggle Delta/ro.md) |
-| [Part Mirror/ro](wiki/Part Mirror/ro.md) | [Part Module/ro](wiki/Part Module/ro.md) | [Part Offset/ro](wiki/Part Offset/ro.md) |
-| [Part Offset2D/ro](wiki/Part Offset2D/ro.md) | [Part Plane/ro](wiki/Part Plane/ro.md) | [Part Primitives/ro](wiki/Part Primitives/ro.md) |
-| [Part RefineShape/ro](wiki/Part RefineShape/ro.md) | [Part RegularPolygon/ro](wiki/Part RegularPolygon/ro.md) | [Part ReverseShapes/ro](wiki/Part ReverseShapes/ro.md) |
-| [Part Revolve/ro](wiki/Part Revolve/ro.md) | [Part RuledSurface/ro](wiki/Part RuledSurface/ro.md) | [Part Section/ro](wiki/Part Section/ro.md) |
-| [Part ShapeFromMesh/ro](wiki/Part ShapeFromMesh/ro.md) | [Part SimpleCopy/ro](wiki/Part SimpleCopy/ro.md) | [Part Slice/ro](wiki/Part Slice/ro.md) |
-| [Part Sphere/ro](wiki/Part Sphere/ro.md) | [Part Spiral/ro](wiki/Part Spiral/ro.md) | [Part Sweep/ro](wiki/Part Sweep/ro.md) |
-| [Part Thickness/ro](wiki/Part Thickness/ro.md) | [Part Torus/ro](wiki/Part Torus/ro.md) | [Part Wedge/ro](wiki/Part Wedge/ro.md) |
-| [PartDesign AdditiveBox/ro](wiki/PartDesign AdditiveBox/ro.md) | [PartDesign AdditiveCone/ro](wiki/PartDesign AdditiveCone/ro.md) | [PartDesign AdditiveCylinder/ro](wiki/PartDesign AdditiveCylinder/ro.md) |
-| [PartDesign AdditiveEllipsoid/ro](wiki/PartDesign AdditiveEllipsoid/ro.md) | [PartDesign AdditiveLoft/ro](wiki/PartDesign AdditiveLoft/ro.md) | [PartDesign AdditivePipe/ro](wiki/PartDesign AdditivePipe/ro.md) |
-| [PartDesign AdditivePrism/ro](wiki/PartDesign AdditivePrism/ro.md) | [PartDesign AdditiveSphere/ro](wiki/PartDesign AdditiveSphere/ro.md) | [PartDesign AdditiveTorus/ro](wiki/PartDesign AdditiveTorus/ro.md) |
-| [PartDesign AdditiveWedge/ro](wiki/PartDesign AdditiveWedge/ro.md) | [PartDesign Body/ro](wiki/PartDesign Body/ro.md) | [PartDesign Boolean/ro](wiki/PartDesign Boolean/ro.md) |
-| [PartDesign Chamfer/ro](wiki/PartDesign Chamfer/ro.md) | [PartDesign Clone/ro](wiki/PartDesign Clone/ro.md) | [PartDesign CompPrimitiveAdditive/ro](wiki/PartDesign CompPrimitiveAdditive/ro.md) |
-| [PartDesign CompPrimitiveSubtractive/ro](wiki/PartDesign CompPrimitiveSubtractive/ro.md) | [PartDesign Draft/ro](wiki/PartDesign Draft/ro.md) | [PartDesign Fillet/ro](wiki/PartDesign Fillet/ro.md) |
-| [PartDesign Groove/ro](wiki/PartDesign Groove/ro.md) | [PartDesign Hole/ro](wiki/PartDesign Hole/ro.md) | [PartDesign InvoluteGear/ro](wiki/PartDesign InvoluteGear/ro.md) |
-| [PartDesign Line/ro](wiki/PartDesign Line/ro.md) | [PartDesign LinearPattern/ro](wiki/PartDesign LinearPattern/ro.md) | [PartDesign Migrate/ro](wiki/PartDesign Migrate/ro.md) |
-| [PartDesign Mirrored/ro](wiki/PartDesign Mirrored/ro.md) | [PartDesign MoveFeature/ro](wiki/PartDesign MoveFeature/ro.md) | [PartDesign MoveFeatureInTree/ro](wiki/PartDesign MoveFeatureInTree/ro.md) |
-| [PartDesign MoveTip/ro](wiki/PartDesign MoveTip/ro.md) | [PartDesign MultiTransform/ro](wiki/PartDesign MultiTransform/ro.md) | [PartDesign NewSketch/ro](wiki/PartDesign NewSketch/ro.md) |
-| [PartDesign Pad/ro](wiki/PartDesign Pad/ro.md) | [PartDesign Plane/ro](wiki/PartDesign Plane/ro.md) | [PartDesign Pocket/ro](wiki/PartDesign Pocket/ro.md) |
-| [PartDesign Point/ro](wiki/PartDesign Point/ro.md) | [PartDesign PolarPattern/ro](wiki/PartDesign PolarPattern/ro.md) | [PartDesign Revolution/ro](wiki/PartDesign Revolution/ro.md) |
-| [PartDesign Scaled/ro](wiki/PartDesign Scaled/ro.md) | [PartDesign ShapeBinder/ro](wiki/PartDesign ShapeBinder/ro.md) | [PartDesign SubtractiveBox/ro](wiki/PartDesign SubtractiveBox/ro.md) |
-| [PartDesign SubtractiveCone/ro](wiki/PartDesign SubtractiveCone/ro.md) | [PartDesign SubtractiveCylinder/ro](wiki/PartDesign SubtractiveCylinder/ro.md) | [PartDesign SubtractiveEllipsoid/ro](wiki/PartDesign SubtractiveEllipsoid/ro.md) |
-| [PartDesign SubtractiveLoft/ro](wiki/PartDesign SubtractiveLoft/ro.md) | [PartDesign SubtractivePipe/ro](wiki/PartDesign SubtractivePipe/ro.md) | [PartDesign SubtractivePrism/ro](wiki/PartDesign SubtractivePrism/ro.md) |
-| [PartDesign SubtractiveSphere/ro](wiki/PartDesign SubtractiveSphere/ro.md) | [PartDesign SubtractiveTorus/ro](wiki/PartDesign SubtractiveTorus/ro.md) | [PartDesign SubtractiveWedge/ro](wiki/PartDesign SubtractiveWedge/ro.md) |
-| [PartDesign Thickness/ro](wiki/PartDesign Thickness/ro.md) | [PartDesign WizardShaft/ro](wiki/PartDesign WizardShaft/ro.md) | [PartDesign Workbench/ro](wiki/PartDesign Workbench/ro.md) |
-| [Path Array/ro](wiki/Path Array/ro.md) | [Path Comment/ro](wiki/Path Comment/ro.md) | [Path Copy/ro](wiki/Path Copy/ro.md) |
-| [Path Custom/ro](wiki/Path Custom/ro.md) | [Path DressupDogbone/ro](wiki/Path DressupDogbone/ro.md) | [Path DressupDragKnife/ro](wiki/Path DressupDragKnife/ro.md) |
-| [Path DressupRampEntry/ro](wiki/Path DressupRampEntry/ro.md) | [Path DressupTag/ro](wiki/Path DressupTag/ro.md) | [Path Drilling/ro](wiki/Path Drilling/ro.md) |
-| [Path Engrave/ro](wiki/Path Engrave/ro.md) | [Path ExportTemplate/ro](wiki/Path ExportTemplate/ro.md) | [Path Fixture/ro](wiki/Path Fixture/ro.md) |
-| [Path Helix/ro](wiki/Path Helix/ro.md) | [Path Inspect/ro](wiki/Path Inspect/ro.md) | [Path Job/ro](wiki/Path Job/ro.md) |
-| [Path MillFace/ro](wiki/Path MillFace/ro.md) | [Path Pocket 3D/ro](wiki/Path Pocket 3D/ro.md) | [Path Post/ro](wiki/Path Post/ro.md) |
-| [Path Profile/ro](wiki/Path Profile/ro.md) | [Path SelectLoop/ro](wiki/Path SelectLoop/ro.md) | [Path Shape/ro](wiki/Path Shape/ro.md) |
-| [Path SimpleCopy/ro](wiki/Path SimpleCopy/ro.md) | [Path Simulator/ro](wiki/Path Simulator/ro.md) | [Path Stop/ro](wiki/Path Stop/ro.md) |
-| [Path Surface/ro](wiki/Path Surface/ro.md) | [Path Walkthrough for the Impatient/ro](wiki/Path Walkthrough for the Impatient/ro.md) | [Path Workbench/ro](wiki/Path Workbench/ro.md) |
-| [Placement API/ro](wiki/Placement API/ro.md) | [Placement/ro](wiki/Placement/ro.md) | [Plot Axes/ro](wiki/Plot Axes/ro.md) |
-| [Plot Grid/ro](wiki/Plot Grid/ro.md) | [Plot Labels/ro](wiki/Plot Labels/ro.md) | [Plot Legend/ro](wiki/Plot Legend/ro.md) |
-| [Plot Positions/ro](wiki/Plot Positions/ro.md) | [Plot Save/ro](wiki/Plot Save/ro.md) | [Plot Series/ro](wiki/Plot Series/ro.md) |
-| [Plot Workbench/ro](wiki/Plot Workbench/ro.md) | [Points Workbench/ro](wiki/Points Workbench/ro.md) | [Preferences Editor/ro](wiki/Preferences Editor/ro.md) |
-| [Property editor/ro](wiki/Property editor/ro.md) | [Raytracing ExportProject/ro](wiki/Raytracing ExportProject/ro.md) | [Raytracing InsertPart/ro](wiki/Raytracing InsertPart/ro.md) |
-| [Raytracing Lux/ro](wiki/Raytracing Lux/ro.md) | [Raytracing New/ro](wiki/Raytracing New/ro.md) | [Raytracing Render/ro](wiki/Raytracing Render/ro.md) |
-| [Raytracing ResetCamera/ro](wiki/Raytracing ResetCamera/ro.md) | [Raytracing tutorial/ro](wiki/Raytracing tutorial/ro.md) | [Raytracing Workbench/ro](wiki/Raytracing Workbench/ro.md) |
-| [Raytracing WriteCamera/ro](wiki/Raytracing WriteCamera/ro.md) | [Raytracing WritePart/ro](wiki/Raytracing WritePart/ro.md) | [Raytracing WriteView/ro](wiki/Raytracing WriteView/ro.md) |
-| [Reverse Engineering Workbench/ro](wiki/Reverse Engineering Workbench/ro.md) | [Robot 6-Axis/ro](wiki/Robot 6-Axis/ro.md) | [Robot CreateRobot/ro](wiki/Robot CreateRobot/ro.md) |
-| [Robot CreateTrajectory/ro](wiki/Robot CreateTrajectory/ro.md) | [Robot Edge2Trac/ro](wiki/Robot Edge2Trac/ro.md) | [Robot Export/ro](wiki/Robot Export/ro.md) |
-| [Robot InsertWaypoint/ro](wiki/Robot InsertWaypoint/ro.md) | [Robot InsertWaypointPre/ro](wiki/Robot InsertWaypointPre/ro.md) | [Robot RestoreHomePos/ro](wiki/Robot RestoreHomePos/ro.md) |
-| [Robot SetDefaultOrientation/ro](wiki/Robot SetDefaultOrientation/ro.md) | [Robot SetDefaultValues/ro](wiki/Robot SetDefaultValues/ro.md) | [Robot SetHomePos/ro](wiki/Robot SetHomePos/ro.md) |
-| [Robot Simulate/ro](wiki/Robot Simulate/ro.md) | [Robot TrajectoryCompound/ro](wiki/Robot TrajectoryCompound/ro.md) | [Robot TrajectoryDressUp/ro](wiki/Robot TrajectoryDressUp/ro.md) |
-| [Robot tutorial/ro](wiki/Robot tutorial/ro.md) | [Robot Workbench/ro](wiki/Robot Workbench/ro.md) | [Ship AreasCurve/ro](wiki/Ship AreasCurve/ro.md) |
-| [Ship Capacity/ro](wiki/Ship Capacity/ro.md) | [Ship CreateShip/ro](wiki/Ship CreateShip/ro.md) | [Ship GZ/ro](wiki/Ship GZ/ro.md) |
-| [Ship Hydrostatics/ro](wiki/Ship Hydrostatics/ro.md) | [Ship LoadCondition/ro](wiki/Ship LoadCondition/ro.md) | [Ship LoadExample/ro](wiki/Ship LoadExample/ro.md) |
-| [Ship Tank/ro](wiki/Ship Tank/ro.md) | [Ship Workbench/ro](wiki/Ship Workbench/ro.md) | [Sketcher CarbonCopy/ro](wiki/Sketcher CarbonCopy/ro.md) |
-| [Sketcher Clone/ro](wiki/Sketcher Clone/ro.md) | [Sketcher CloseShape/ro](wiki/Sketcher CloseShape/ro.md) | [Sketcher CompCreateArc/ro](wiki/Sketcher CompCreateArc/ro.md) |
-| [Sketcher CompCreateConic/ro](wiki/Sketcher CompCreateConic/ro.md) | [Sketcher ConnectLines/ro](wiki/Sketcher ConnectLines/ro.md) | [Sketcher ConstrainAngle/ro](wiki/Sketcher ConstrainAngle/ro.md) |
-| [Sketcher ConstrainBlock/ro](wiki/Sketcher ConstrainBlock/ro.md) | [Sketcher ConstrainCoincident/ro](wiki/Sketcher ConstrainCoincident/ro.md) | [Sketcher ConstrainDistance/ro](wiki/Sketcher ConstrainDistance/ro.md) |
-| [Sketcher ConstrainDistanceX/ro](wiki/Sketcher ConstrainDistanceX/ro.md) | [Sketcher ConstrainDistanceY/ro](wiki/Sketcher ConstrainDistanceY/ro.md) | [Sketcher ConstrainEqual/ro](wiki/Sketcher ConstrainEqual/ro.md) |
-| [Sketcher ConstrainHorizontal/ro](wiki/Sketcher ConstrainHorizontal/ro.md) | [Sketcher ConstrainInternalAlignment/ro](wiki/Sketcher ConstrainInternalAlignment/ro.md) | [Sketcher ConstrainLock/ro](wiki/Sketcher ConstrainLock/ro.md) |
-| [Sketcher ConstrainParallel/ro](wiki/Sketcher ConstrainParallel/ro.md) | [Sketcher ConstrainPointOnObject/ro](wiki/Sketcher ConstrainPointOnObject/ro.md) | [Sketcher ConstrainRadius/ro](wiki/Sketcher ConstrainRadius/ro.md) |
-| [Sketcher ConstrainSymmetric/ro](wiki/Sketcher ConstrainSymmetric/ro.md) | [Sketcher ConstrainTangent/ro](wiki/Sketcher ConstrainTangent/ro.md) | [Sketcher ConstrainVertical/ro](wiki/Sketcher ConstrainVertical/ro.md) |
-| [Sketcher Copy/ro](wiki/Sketcher Copy/ro.md) | [Sketcher Create3PointArc/ro](wiki/Sketcher Create3PointArc/ro.md) | [Sketcher Create3PointCircle/ro](wiki/Sketcher Create3PointCircle/ro.md) |
-| [Sketcher CreateArc/ro](wiki/Sketcher CreateArc/ro.md) | [Sketcher CreateArcOfEllipse/ro](wiki/Sketcher CreateArcOfEllipse/ro.md) | [Sketcher CreateArcOfHyperbola/ro](wiki/Sketcher CreateArcOfHyperbola/ro.md) |
-| [Sketcher CreateArcOfParabola/ro](wiki/Sketcher CreateArcOfParabola/ro.md) | [Sketcher CreateCircle/ro](wiki/Sketcher CreateCircle/ro.md) | [Sketcher CreateEllipseBy3Points/ro](wiki/Sketcher CreateEllipseBy3Points/ro.md) |
-| [Sketcher CreateEllipseByCenter/ro](wiki/Sketcher CreateEllipseByCenter/ro.md) | [Sketcher CreateFillet/ro](wiki/Sketcher CreateFillet/ro.md) | [Sketcher CreateHeptagon/ro](wiki/Sketcher CreateHeptagon/ro.md) |
-| [Sketcher CreateHexagon/ro](wiki/Sketcher CreateHexagon/ro.md) | [Sketcher CreateOctagon/ro](wiki/Sketcher CreateOctagon/ro.md) | [Sketcher CreatePentagon/ro](wiki/Sketcher CreatePentagon/ro.md) |
-| [Sketcher CreatePoint/ro](wiki/Sketcher CreatePoint/ro.md) | [Sketcher CreatePolyline/ro](wiki/Sketcher CreatePolyline/ro.md) | [Sketcher CreateRectangle/ro](wiki/Sketcher CreateRectangle/ro.md) |
-| [Sketcher CreateSlot/ro](wiki/Sketcher CreateSlot/ro.md) | [Sketcher CreateSquare/ro](wiki/Sketcher CreateSquare/ro.md) | [Sketcher CreateTriangle/ro](wiki/Sketcher CreateTriangle/ro.md) |
-| [Sketcher EditSketch/ro](wiki/Sketcher EditSketch/ro.md) | [Sketcher Extend/ro](wiki/Sketcher Extend/ro.md) |
+| [Part Measure Clear All/ro](wiki/Part Measure Clear All/ro.md) | [Part Measure Linear/ro](wiki/Part Measure Linear/ro.md) | [Part Measure Toggle 3D/ro](wiki/Part Measure Toggle 3D/ro.md) |
+| [Part Measure Toggle All/ro](wiki/Part Measure Toggle All/ro.md) | [Part Measure Toggle Delta/ro](wiki/Part Measure Toggle Delta/ro.md) | [Part Mirror/ro](wiki/Part Mirror/ro.md) |
+| [Part Module/ro](wiki/Part Module/ro.md) | [Part Offset/ro](wiki/Part Offset/ro.md) | [Part Offset2D/ro](wiki/Part Offset2D/ro.md) |
+| [Part Plane/ro](wiki/Part Plane/ro.md) | [Part Primitives/ro](wiki/Part Primitives/ro.md) | [Part RefineShape/ro](wiki/Part RefineShape/ro.md) |
+| [Part RegularPolygon/ro](wiki/Part RegularPolygon/ro.md) | [Part ReverseShapes/ro](wiki/Part ReverseShapes/ro.md) | [Part Revolve/ro](wiki/Part Revolve/ro.md) |
+| [Part RuledSurface/ro](wiki/Part RuledSurface/ro.md) | [Part Section/ro](wiki/Part Section/ro.md) | [Part ShapeFromMesh/ro](wiki/Part ShapeFromMesh/ro.md) |
+| [Part SimpleCopy/ro](wiki/Part SimpleCopy/ro.md) | [Part Slice/ro](wiki/Part Slice/ro.md) | [Part Sphere/ro](wiki/Part Sphere/ro.md) |
+| [Part Spiral/ro](wiki/Part Spiral/ro.md) | [Part Sweep/ro](wiki/Part Sweep/ro.md) | [Part Thickness/ro](wiki/Part Thickness/ro.md) |
+| [Part Torus/ro](wiki/Part Torus/ro.md) | [Part Wedge/ro](wiki/Part Wedge/ro.md) | [PartDesign AdditiveBox/ro](wiki/PartDesign AdditiveBox/ro.md) |
+| [PartDesign AdditiveCone/ro](wiki/PartDesign AdditiveCone/ro.md) | [PartDesign AdditiveCylinder/ro](wiki/PartDesign AdditiveCylinder/ro.md) | [PartDesign AdditiveEllipsoid/ro](wiki/PartDesign AdditiveEllipsoid/ro.md) |
+| [PartDesign AdditiveLoft/ro](wiki/PartDesign AdditiveLoft/ro.md) | [PartDesign AdditivePipe/ro](wiki/PartDesign AdditivePipe/ro.md) | [PartDesign AdditivePrism/ro](wiki/PartDesign AdditivePrism/ro.md) |
+| [PartDesign AdditiveSphere/ro](wiki/PartDesign AdditiveSphere/ro.md) | [PartDesign AdditiveTorus/ro](wiki/PartDesign AdditiveTorus/ro.md) | [PartDesign AdditiveWedge/ro](wiki/PartDesign AdditiveWedge/ro.md) |
+| [PartDesign Body/ro](wiki/PartDesign Body/ro.md) | [PartDesign Boolean/ro](wiki/PartDesign Boolean/ro.md) | [PartDesign Chamfer/ro](wiki/PartDesign Chamfer/ro.md) |
+| [PartDesign Clone/ro](wiki/PartDesign Clone/ro.md) | [PartDesign CompPrimitiveAdditive/ro](wiki/PartDesign CompPrimitiveAdditive/ro.md) | [PartDesign CompPrimitiveSubtractive/ro](wiki/PartDesign CompPrimitiveSubtractive/ro.md) |
+| [PartDesign Draft/ro](wiki/PartDesign Draft/ro.md) | [PartDesign Fillet/ro](wiki/PartDesign Fillet/ro.md) | [PartDesign Groove/ro](wiki/PartDesign Groove/ro.md) |
+| [PartDesign Hole/ro](wiki/PartDesign Hole/ro.md) | [PartDesign InvoluteGear/ro](wiki/PartDesign InvoluteGear/ro.md) | [PartDesign Line/ro](wiki/PartDesign Line/ro.md) |
+| [PartDesign LinearPattern/ro](wiki/PartDesign LinearPattern/ro.md) | [PartDesign Migrate/ro](wiki/PartDesign Migrate/ro.md) | [PartDesign Mirrored/ro](wiki/PartDesign Mirrored/ro.md) |
+| [PartDesign MoveFeature/ro](wiki/PartDesign MoveFeature/ro.md) | [PartDesign MoveFeatureInTree/ro](wiki/PartDesign MoveFeatureInTree/ro.md) | [PartDesign MoveTip/ro](wiki/PartDesign MoveTip/ro.md) |
+| [PartDesign MultiTransform/ro](wiki/PartDesign MultiTransform/ro.md) | [PartDesign NewSketch/ro](wiki/PartDesign NewSketch/ro.md) | [PartDesign Pad/ro](wiki/PartDesign Pad/ro.md) |
+| [PartDesign Plane/ro](wiki/PartDesign Plane/ro.md) | [PartDesign Pocket/ro](wiki/PartDesign Pocket/ro.md) | [PartDesign Point/ro](wiki/PartDesign Point/ro.md) |
+| [PartDesign PolarPattern/ro](wiki/PartDesign PolarPattern/ro.md) | [PartDesign Revolution/ro](wiki/PartDesign Revolution/ro.md) | [PartDesign Scaled/ro](wiki/PartDesign Scaled/ro.md) |
+| [PartDesign ShapeBinder/ro](wiki/PartDesign ShapeBinder/ro.md) | [PartDesign SubtractiveBox/ro](wiki/PartDesign SubtractiveBox/ro.md) | [PartDesign SubtractiveCone/ro](wiki/PartDesign SubtractiveCone/ro.md) |
+| [PartDesign SubtractiveCylinder/ro](wiki/PartDesign SubtractiveCylinder/ro.md) | [PartDesign SubtractiveEllipsoid/ro](wiki/PartDesign SubtractiveEllipsoid/ro.md) | [PartDesign SubtractiveLoft/ro](wiki/PartDesign SubtractiveLoft/ro.md) |
+| [PartDesign SubtractivePipe/ro](wiki/PartDesign SubtractivePipe/ro.md) | [PartDesign SubtractivePrism/ro](wiki/PartDesign SubtractivePrism/ro.md) | [PartDesign SubtractiveSphere/ro](wiki/PartDesign SubtractiveSphere/ro.md) |
+| [PartDesign SubtractiveTorus/ro](wiki/PartDesign SubtractiveTorus/ro.md) | [PartDesign SubtractiveWedge/ro](wiki/PartDesign SubtractiveWedge/ro.md) | [PartDesign Thickness/ro](wiki/PartDesign Thickness/ro.md) |
+| [PartDesign WizardShaft/ro](wiki/PartDesign WizardShaft/ro.md) | [PartDesign Workbench/ro](wiki/PartDesign Workbench/ro.md) | [Path Array/ro](wiki/Path Array/ro.md) |
+| [Path Comment/ro](wiki/Path Comment/ro.md) | [Path Copy/ro](wiki/Path Copy/ro.md) | [Path Custom/ro](wiki/Path Custom/ro.md) |
+| [Path DressupDogbone/ro](wiki/Path DressupDogbone/ro.md) | [Path DressupDragKnife/ro](wiki/Path DressupDragKnife/ro.md) | [Path DressupRampEntry/ro](wiki/Path DressupRampEntry/ro.md) |
+| [Path DressupTag/ro](wiki/Path DressupTag/ro.md) | [Path Drilling/ro](wiki/Path Drilling/ro.md) | [Path Engrave/ro](wiki/Path Engrave/ro.md) |
+| [Path ExportTemplate/ro](wiki/Path ExportTemplate/ro.md) | [Path Fixture/ro](wiki/Path Fixture/ro.md) | [Path Helix/ro](wiki/Path Helix/ro.md) |
+| [Path Inspect/ro](wiki/Path Inspect/ro.md) | [Path Job/ro](wiki/Path Job/ro.md) | [Path MillFace/ro](wiki/Path MillFace/ro.md) |
+| [Path Pocket 3D/ro](wiki/Path Pocket 3D/ro.md) | [Path Post/ro](wiki/Path Post/ro.md) | [Path Profile/ro](wiki/Path Profile/ro.md) |
+| [Path SelectLoop/ro](wiki/Path SelectLoop/ro.md) | [Path Shape/ro](wiki/Path Shape/ro.md) | [Path SimpleCopy/ro](wiki/Path SimpleCopy/ro.md) |
+| [Path Simulator/ro](wiki/Path Simulator/ro.md) | [Path Stop/ro](wiki/Path Stop/ro.md) | [Path Surface/ro](wiki/Path Surface/ro.md) |
+| [Path Walkthrough for the Impatient/ro](wiki/Path Walkthrough for the Impatient/ro.md) | [Path Workbench/ro](wiki/Path Workbench/ro.md) | [Placement API/ro](wiki/Placement API/ro.md) |
+| [Placement/ro](wiki/Placement/ro.md) | [Plot Axes/ro](wiki/Plot Axes/ro.md) | [Plot Grid/ro](wiki/Plot Grid/ro.md) |
+| [Plot Labels/ro](wiki/Plot Labels/ro.md) | [Plot Legend/ro](wiki/Plot Legend/ro.md) | [Plot Positions/ro](wiki/Plot Positions/ro.md) |
+| [Plot Save/ro](wiki/Plot Save/ro.md) | [Plot Series/ro](wiki/Plot Series/ro.md) | [Plot Workbench/ro](wiki/Plot Workbench/ro.md) |
+| [Points Workbench/ro](wiki/Points Workbench/ro.md) | [Preferences Editor/ro](wiki/Preferences Editor/ro.md) | [Property editor/ro](wiki/Property editor/ro.md) |
+| [Raytracing ExportProject/ro](wiki/Raytracing ExportProject/ro.md) | [Raytracing InsertPart/ro](wiki/Raytracing InsertPart/ro.md) | [Raytracing Lux/ro](wiki/Raytracing Lux/ro.md) |
+| [Raytracing New/ro](wiki/Raytracing New/ro.md) | [Raytracing Render/ro](wiki/Raytracing Render/ro.md) | [Raytracing ResetCamera/ro](wiki/Raytracing ResetCamera/ro.md) |
+| [Raytracing tutorial/ro](wiki/Raytracing tutorial/ro.md) | [Raytracing Workbench/ro](wiki/Raytracing Workbench/ro.md) | [Raytracing WriteCamera/ro](wiki/Raytracing WriteCamera/ro.md) |
+| [Raytracing WritePart/ro](wiki/Raytracing WritePart/ro.md) | [Raytracing WriteView/ro](wiki/Raytracing WriteView/ro.md) | [Reverse Engineering Workbench/ro](wiki/Reverse Engineering Workbench/ro.md) |
+| [Robot 6-Axis/ro](wiki/Robot 6-Axis/ro.md) | [Robot CreateRobot/ro](wiki/Robot CreateRobot/ro.md) | [Robot CreateTrajectory/ro](wiki/Robot CreateTrajectory/ro.md) |
+| [Robot Edge2Trac/ro](wiki/Robot Edge2Trac/ro.md) | [Robot Export/ro](wiki/Robot Export/ro.md) | [Robot InsertWaypoint/ro](wiki/Robot InsertWaypoint/ro.md) |
+| [Robot InsertWaypointPre/ro](wiki/Robot InsertWaypointPre/ro.md) | [Robot RestoreHomePos/ro](wiki/Robot RestoreHomePos/ro.md) | [Robot SetDefaultOrientation/ro](wiki/Robot SetDefaultOrientation/ro.md) |
+| [Robot SetDefaultValues/ro](wiki/Robot SetDefaultValues/ro.md) | [Robot SetHomePos/ro](wiki/Robot SetHomePos/ro.md) | [Robot Simulate/ro](wiki/Robot Simulate/ro.md) |
+| [Robot TrajectoryCompound/ro](wiki/Robot TrajectoryCompound/ro.md) | [Robot TrajectoryDressUp/ro](wiki/Robot TrajectoryDressUp/ro.md) | [Robot tutorial/ro](wiki/Robot tutorial/ro.md) |
+| [Robot Workbench/ro](wiki/Robot Workbench/ro.md) | [Ship AreasCurve/ro](wiki/Ship AreasCurve/ro.md) | [Ship Capacity/ro](wiki/Ship Capacity/ro.md) |
+| [Ship CreateShip/ro](wiki/Ship CreateShip/ro.md) | [Ship GZ/ro](wiki/Ship GZ/ro.md) | [Ship Hydrostatics/ro](wiki/Ship Hydrostatics/ro.md) |
+| [Ship LoadCondition/ro](wiki/Ship LoadCondition/ro.md) | [Ship LoadExample/ro](wiki/Ship LoadExample/ro.md) | [Ship Tank/ro](wiki/Ship Tank/ro.md) |
+| [Ship Workbench/ro](wiki/Ship Workbench/ro.md) | [Sketcher CarbonCopy/ro](wiki/Sketcher CarbonCopy/ro.md) | [Sketcher Clone/ro](wiki/Sketcher Clone/ro.md) |
+| [Sketcher CloseShape/ro](wiki/Sketcher CloseShape/ro.md) | [Sketcher CompCreateArc/ro](wiki/Sketcher CompCreateArc/ro.md) | [Sketcher CompCreateConic/ro](wiki/Sketcher CompCreateConic/ro.md) |
+| [Sketcher ConnectLines/ro](wiki/Sketcher ConnectLines/ro.md) | [Sketcher ConstrainAngle/ro](wiki/Sketcher ConstrainAngle/ro.md) | [Sketcher ConstrainBlock/ro](wiki/Sketcher ConstrainBlock/ro.md) |
+| [Sketcher ConstrainCoincident/ro](wiki/Sketcher ConstrainCoincident/ro.md) | [Sketcher ConstrainDistance/ro](wiki/Sketcher ConstrainDistance/ro.md) | [Sketcher ConstrainDistanceX/ro](wiki/Sketcher ConstrainDistanceX/ro.md) |
+| [Sketcher ConstrainDistanceY/ro](wiki/Sketcher ConstrainDistanceY/ro.md) | [Sketcher ConstrainEqual/ro](wiki/Sketcher ConstrainEqual/ro.md) | [Sketcher ConstrainHorizontal/ro](wiki/Sketcher ConstrainHorizontal/ro.md) |
+| [Sketcher ConstrainInternalAlignment/ro](wiki/Sketcher ConstrainInternalAlignment/ro.md) | [Sketcher ConstrainLock/ro](wiki/Sketcher ConstrainLock/ro.md) | [Sketcher ConstrainParallel/ro](wiki/Sketcher ConstrainParallel/ro.md) |
+| [Sketcher ConstrainPointOnObject/ro](wiki/Sketcher ConstrainPointOnObject/ro.md) | [Sketcher ConstrainRadius/ro](wiki/Sketcher ConstrainRadius/ro.md) | [Sketcher ConstrainSymmetric/ro](wiki/Sketcher ConstrainSymmetric/ro.md) |
+| [Sketcher ConstrainTangent/ro](wiki/Sketcher ConstrainTangent/ro.md) | [Sketcher ConstrainVertical/ro](wiki/Sketcher ConstrainVertical/ro.md) | [Sketcher Copy/ro](wiki/Sketcher Copy/ro.md) |
+| [Sketcher Create3PointArc/ro](wiki/Sketcher Create3PointArc/ro.md) | [Sketcher Create3PointCircle/ro](wiki/Sketcher Create3PointCircle/ro.md) | [Sketcher CreateArc/ro](wiki/Sketcher CreateArc/ro.md) |
+| [Sketcher CreateArcOfEllipse/ro](wiki/Sketcher CreateArcOfEllipse/ro.md) | [Sketcher CreateArcOfHyperbola/ro](wiki/Sketcher CreateArcOfHyperbola/ro.md) | [Sketcher CreateArcOfParabola/ro](wiki/Sketcher CreateArcOfParabola/ro.md) |
+| [Sketcher CreateCircle/ro](wiki/Sketcher CreateCircle/ro.md) | [Sketcher CreateEllipseBy3Points/ro](wiki/Sketcher CreateEllipseBy3Points/ro.md) | [Sketcher CreateEllipseByCenter/ro](wiki/Sketcher CreateEllipseByCenter/ro.md) |
+| [Sketcher CreateFillet/ro](wiki/Sketcher CreateFillet/ro.md) | [Sketcher CreateHeptagon/ro](wiki/Sketcher CreateHeptagon/ro.md) | [Sketcher CreateHexagon/ro](wiki/Sketcher CreateHexagon/ro.md) |
+| [Sketcher CreateOctagon/ro](wiki/Sketcher CreateOctagon/ro.md) | [Sketcher CreatePentagon/ro](wiki/Sketcher CreatePentagon/ro.md) | [Sketcher CreatePoint/ro](wiki/Sketcher CreatePoint/ro.md) |
+| [Sketcher CreatePolyline/ro](wiki/Sketcher CreatePolyline/ro.md) | [Sketcher CreateRectangle/ro](wiki/Sketcher CreateRectangle/ro.md) | [Sketcher CreateSlot/ro](wiki/Sketcher CreateSlot/ro.md) |
+| [Sketcher CreateSquare/ro](wiki/Sketcher CreateSquare/ro.md) | [Sketcher CreateTriangle/ro](wiki/Sketcher CreateTriangle/ro.md) | [Sketcher EditSketch/ro](wiki/Sketcher EditSketch/ro.md) |
+| [Sketcher Extend/ro](wiki/Sketcher Extend/ro.md) | [Sketcher External/ro](wiki/Sketcher External/ro.md) |
 
 
 

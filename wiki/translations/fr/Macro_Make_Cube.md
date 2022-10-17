@@ -18,7 +18,7 @@ Cette macro crée un cube en donnant 4 points
 
 Icône de la barre d\'outils ![](images/Macro_makeCube.png )
 
-**Macro\_Make\_Cube.FCMacro**
+**Macro_Make_Cube.FCMacro**
 
 
 {{MacroCode|code=

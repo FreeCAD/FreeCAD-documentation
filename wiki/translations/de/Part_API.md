@@ -1,7 +1,7 @@
 # Part API/de
 **(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die (engl.) [https   *//www.freecadweb.org/api autogenerierte API-Dokumentation].**
 
-Das Part-Modul ist die direkte Verbindung zwischen FreeCAD und dem OpenCasCade-Kern. Es bietet im Wesentlichen \[TopoShape\_API/de\|TopoShapes\], welches der von OpenCasCade hauptsächlich verwendete Objekttyp ist. Das Part-Modul enthält außerdem verschiedene nützliche Funktionen zur Erzeugung und Behandlung von topoShapes. Beispiel   * 
+Das Part-Modul ist die direkte Verbindung zwischen FreeCAD und dem OpenCasCade-Kern. Es bietet im Wesentlichen \[TopoShape_API/de\|TopoShapes\], welches der von OpenCasCade hauptsächlich verwendete Objekttyp ist. Das Part-Modul enthält außerdem verschiedene nützliche Funktionen zur Erzeugung und Behandlung von topoShapes. Beispiel   * 
 ```python
 import Part
 mycube = Part.makeBox(2,2,2)

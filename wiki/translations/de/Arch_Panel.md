@@ -11,6 +11,9 @@
 
 # Arch Panel/de
 
+
+</div>
+
 ## Beschreibung
 
 Mit diesem Werkzeug kannst du alle Arten von platten-artigen Elementen bauen, typischerweise für Plattenkonstruktionen wie das [WikiHouse](http   *//www.wikihouse.cc/) Projekt, aber auch für alle Arten von Objekten, die auf einem flachen Profil basieren.
@@ -25,9 +28,15 @@ Seit Version <small>(v0.17)</small>  kann Arch Tafel auch zur Erstellung von gew
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle eine 2D Form (Entwurfsobjekt, Fläche oder Skizze) - optional
 2.  Drücke die **<img src="images/Arch_Structure.svg" width=16px>[Arch Tafel](Arch_Panel/de.md)** Schaltfläche oder die **P** und **A** Tasten.
 3.  Passe die gewünschten Eigenschaften an.
+
+
+</div>
 
 ### Begrenzungen
 
@@ -35,12 +44,18 @@ Seit Version <small>(v0.17)</small>  kann Arch Tafel auch zur Erstellung von gew
 
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 -   Tafeln teilen die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch Komponenten](Arch_Component/de.md).
 -   Die Dicke einer Tafel kann nach der Erstellung angepasst werden.
 -   Drücke **Esc** or the **Cancel** Schaltfläche, um den aktuellen Befehl abzubrechen.
 -   Durch Doppelklicken auf die Tafel in der Baumansicht nach seiner Erstellung kannst du in den Bearbeitungsmodus wechseln und auf seine Additionen und Subtraktionen zugreifen und diese ändern.
 -   Es ist möglich, automatisch Tafeln zu erstellen, die aus mehr als einem Blech eines Materials zusammengesetzt sind, indem man seine Blecheigenschaft erhöht.
 -   Tafeln können <img alt="" src=images/Arch_MultiMaterial.svg  style="width   *24px;"> [Mehrfachmaterial](Arch_MultiMaterial/de.md) n Anspruch nehmen. Wenn ein Mehrfachmaterial verwendet wird, wird die Platte mehrschichtig, wobei die durch das Mehrfachmaterial vorgegebenen Dicken verwendet werden. Bei jeder Schicht mit einer Dicke von Null wird die Dicke automatisch durch den verbleibenden Raum definiert, der durch den eigenen Dickenwert der Tafel definiert ist, nachdem die anderen Schichten abgezogen wurden.
+
+
+</div>
 
 ## Eigenschaften
 
@@ -64,12 +79,20 @@ Seit Version <small>(v0.17)</small>  kann Arch Tafel auch zur Erstellung von gew
 
 -    **Untere Welle**   * Wenn die untere Welle der Tafel flach ist oder nicht
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 
 **Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+
+
+</div>
 
 Das Plattenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   * 
 ```python
@@ -90,7 +113,13 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 ## Tutorien
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Wikihouse Portierungs Tutorium](Wikihouse_porting_tutorial/de.md)
+
+
+</div>
 
 
 

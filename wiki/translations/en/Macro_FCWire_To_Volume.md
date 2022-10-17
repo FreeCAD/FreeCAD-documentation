@@ -105,7 +105,7 @@ Copy the macro in your macro folder.
 
 The icon for the tool bar <img alt="" src=images/Macro_FCWire_To_Volume.png  style="width   *32px;">
 
-**Macro\_FCWire\_To\_Volume.FCMacro**
+**Macro_FCWire_To_Volume.FCMacro**
 
 
 {{MacroCode|code=

@@ -44,7 +44,7 @@ Ces outils permettent de créer, configurer et exporter des mises en plan 2D
 
 ## Flux de travail 
 
-Le document contient un objet de forme 3D à partir duquel nous voulons produire un dessin. Une \"Page\" est donc créée. Une page est instanciée à partir d\'un modèle, par exemple, le modèle \"A3\_Landscape\". Le modèle est un document [SVG](SVG/fr.md) qui peut contenir un cadre de page, un logo et d\'autres éléments.
+Le document contient un objet de forme 3D à partir duquel nous voulons produire un dessin. Une \"Page\" est donc créée. Une page est instanciée à partir d\'un modèle, par exemple, le modèle \"A3_Landscape\". Le modèle est un document [SVG](SVG/fr.md) qui peut contenir un cadre de page, un logo et d\'autres éléments.
 
 Dans cette page peuvent être insérées une ou plusieurs vues. Chaque vue a une position sur la page (Propriétés X,Y), une échelle (Propriété d\'échelle) et des propriétés additionnelles. Chaque fois que la page, la vue ou l\'objet référencé subit une modification, la page est régénérée et l\'affichage mis à jour.
 
@@ -54,7 +54,7 @@ Pour l\'instant la méthodologie de travail par l\'interface graphique est sév�
 
 Voir la page [Drawing API exemples](Drawing_API_example/fr.md) pour une description des fonctions utilisées pour la création des pages et vues du dessin.
 
-Ici un script qui permet de remplir facilement le [cartouche](Macro_CartoucheFC/fr.md) de la feuille originelle A3\_Landscape de FreeCAD.
+Ici un script qui permet de remplir facilement le [cartouche](Macro_CartoucheFC/fr.md) de la feuille originelle A3_Landscape de FreeCAD.
 
 ## Modèles
 

@@ -21,7 +21,7 @@
 
 ## Remarques
 
-1.  Pour voir comment cet outil peut être utilisé pour construire une section incurvée d\'un corps de guitare, voir [cette réponse du forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=22675&start=90#p203978) de Chris\_G (auteur de l\'atelier des courbes).
+1.  Pour voir comment cet outil peut être utilisé pour construire une section incurvée d\'un corps de guitare, voir [cette réponse du forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=22675&start=90#p203978) de Chris_G (auteur de l\'atelier des courbes).
 
 ## Limitations
 

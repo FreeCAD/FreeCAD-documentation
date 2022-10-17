@@ -1,5 +1,5 @@
 # Fcstd file format/it
-1.  REDIRECT [File\_Format\_FCStd/it](File_Format_FCStd/it.md)
+1.  REDIRECT [File_Format_FCStd/it](File_Format_FCStd/it.md)
 
 
 

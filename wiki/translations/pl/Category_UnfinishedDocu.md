@@ -36,15 +36,13 @@ This category contains all Unfinished Documents
 | [BOLTSFC Workbench/pl](wiki/BOLTSFC Workbench/pl.md) | [Compile on Docker/pl](wiki/Compile on Docker/pl.md) | [CurvedShapes Workbench/pl](wiki/CurvedShapes Workbench/pl.md) |
 | [Curves Pipeshell/pl](wiki/Curves Pipeshell/pl.md) | [Curves SketchOnSurface/pl](wiki/Curves SketchOnSurface/pl.md) | [Curves SplitCurve/pl](wiki/Curves SplitCurve/pl.md) |
 | [Curves Workbench/pl](wiki/Curves Workbench/pl.md) | [Curves ZebraTool/pl](wiki/Curves ZebraTool/pl.md) | [Developing FreeCAD with KDevelop/pl](wiki/Developing FreeCAD with KDevelop/pl.md) |
-| [Engine Block Tutorial/pl](wiki/Engine Block Tutorial/pl.md) | [FEM ClippingPlaneAdd/pl](wiki/FEM ClippingPlaneAdd/pl.md) | [FEM ClippingPlaneRemoveAll/pl](wiki/FEM ClippingPlaneRemoveAll/pl.md) |
-| [FEM ConstantVacuumPermittivity/pl](wiki/FEM ConstantVacuumPermittivity/pl.md) | [FEM ConstraintBearing/pl](wiki/FEM ConstraintBearing/pl.md) | [FEM ConstraintFluidBoundary/pl](wiki/FEM ConstraintFluidBoundary/pl.md) |
-| [FEM ConstraintGear/pl](wiki/FEM ConstraintGear/pl.md) | [FEM ConstraintPulley/pl](wiki/FEM ConstraintPulley/pl.md) | [FEM ConstraintSpring/pl](wiki/FEM ConstraintSpring/pl.md) |
-| [FEM CreateNodesSet/pl](wiki/FEM CreateNodesSet/pl.md) | [FEM ElementGeometry1D/pl](wiki/FEM ElementGeometry1D/pl.md) | [FEM ElementGeometry2D/pl](wiki/FEM ElementGeometry2D/pl.md) |
-| [FEM ElementRotation1D/pl](wiki/FEM ElementRotation1D/pl.md) | [FEM EquationElasticity/pl](wiki/FEM EquationElasticity/pl.md) | [FEM EquationElectricforce/pl](wiki/FEM EquationElectricforce/pl.md) |
-| [FEM EquationElectrostatic/pl](wiki/FEM EquationElectrostatic/pl.md) | [FEM EquationFlow/pl](wiki/FEM EquationFlow/pl.md) | [FEM EquationFlux/pl](wiki/FEM EquationFlux/pl.md) |
-| [FEM EquationHeat/pl](wiki/FEM EquationHeat/pl.md) | [FEM MaterialMechanicalNonlinear/pl](wiki/FEM MaterialMechanicalNonlinear/pl.md) | [FEM MaterialReinforced/pl](wiki/FEM MaterialReinforced/pl.md) |
-| [FEM MeshClear/pl](wiki/FEM MeshClear/pl.md) | [FEM MeshGroup/pl](wiki/FEM MeshGroup/pl.md) | [FEM MeshNetgenFromShape/pl](wiki/FEM MeshNetgenFromShape/pl.md) |
-| [FEM PostApplyChanges/pl](wiki/FEM PostApplyChanges/pl.md) | [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) | [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) |
+| [Engine Block Tutorial/pl](wiki/Engine Block Tutorial/pl.md) | [FCGear CycloidRack/pl](wiki/FCGear CycloidRack/pl.md) | [FCGear GearConnector/pl](wiki/FCGear GearConnector/pl.md) |
+| [FCGear HypoCycloidGear/pl](wiki/FCGear HypoCycloidGear/pl.md) | [FCGear InternalInvoluteGear/pl](wiki/FCGear InternalInvoluteGear/pl.md) | [FEM ConstantVacuumPermittivity/pl](wiki/FEM ConstantVacuumPermittivity/pl.md) |
+| [FEM ConstraintBearing/pl](wiki/FEM ConstraintBearing/pl.md) | [FEM ConstraintFluidBoundary/pl](wiki/FEM ConstraintFluidBoundary/pl.md) | [FEM ConstraintGear/pl](wiki/FEM ConstraintGear/pl.md) |
+| [FEM ConstraintPulley/pl](wiki/FEM ConstraintPulley/pl.md) | [FEM ConstraintSpring/pl](wiki/FEM ConstraintSpring/pl.md) | [FEM CreateNodesSet/pl](wiki/FEM CreateNodesSet/pl.md) |
+| [FEM ElementGeometry1D/pl](wiki/FEM ElementGeometry1D/pl.md) | [FEM ElementGeometry2D/pl](wiki/FEM ElementGeometry2D/pl.md) | [FEM ElementRotation1D/pl](wiki/FEM ElementRotation1D/pl.md) |
+| [FEM EquationElectrostatic/pl](wiki/FEM EquationElectrostatic/pl.md) | [FEM EquationFlow/pl](wiki/FEM EquationFlow/pl.md) | [FEM MaterialMechanicalNonlinear/pl](wiki/FEM MaterialMechanicalNonlinear/pl.md) |
+| [FEM MaterialReinforced/pl](wiki/FEM MaterialReinforced/pl.md) | [FEM MeshClear/pl](wiki/FEM MeshClear/pl.md) | [FEM MeshNetgenFromShape/pl](wiki/FEM MeshNetgenFromShape/pl.md) |
 | [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) | [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) | [FEM SolverMystran/pl](wiki/FEM SolverMystran/pl.md) |
 | [FEM SolverRun/pl](wiki/FEM SolverRun/pl.md) | [FreeCAD Docker CLI mode/pl](wiki/FreeCAD Docker CLI mode/pl.md) | [InputField/pl](wiki/InputField/pl.md) |
 | [Lattice2 AttachablePlacement/pl](wiki/Lattice2 AttachablePlacement/pl.md) | [Lattice2 Workbench/pl](wiki/Lattice2 Workbench/pl.md) | [Manual:BIM modeling/pl](wiki/Manual_BIM modeling/pl.md) |

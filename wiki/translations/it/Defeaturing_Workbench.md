@@ -1,4 +1,4 @@
-# <img alt="Defeaturing workbench icon" src=images/Defeaturing_workbench_icon.svg  style="width   *64px;"> Defeaturing Workbench/it
+# <img alt="L\'icona dell\'ambiente Defeaturing" src=images/Defeaturing_workbench_icon.svg  style="width   *64px;"> Defeaturing Workbench/it
 
 ## Introduzione
 
@@ -20,7 +20,7 @@ Nota   * è possibile utilizzare gli strumenti di Defeaturing più avanzati se �
 
 ### Automatica (consigliata) 
 
-Using the FreeCAD <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) available in v0.17+ via **Tools → Addon Manager**. Search for the <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width   *24px;"> Defeaturing workbench icon. The Addon Manager also notifies the user when a new version of this Addon is available.
+Utilizzando FreeCAD <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr/it.md) disponibile in v0.17+ tramite **Strumenti → Addon Manager**. Cerca l\'icona <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width   *24px;"> Defeaturing_workbench. Addon Manager avvisa anche l\'utente quando è disponibile una nuova versione di questo Addon.
 
 ### Manuale
 
@@ -35,15 +35,9 @@ Vedere [Come installare ambienti di lavoro aggiuntivi](How_to_install_additional
 
 ## Riferimenti
 
-
-<div class="mw-translate-fuzzy">
-
 -   Autore   * Github   * [\@easyw](https   *//github.com/easyw) \| FreeCAD Forums   * [1](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29506)
 -   Codice sorgente in github   * <https   *//github.com/easyw/Defeaturing_WB>
--   Discussione nel forum di FreeCAD <https   *//forum.freecadweb.org/viewtopic.php?style=3&f=9&t=29506>
-
-
-</div>
+-   Discussione nel forum di FreeCAD <https   *//forum.freecadweb.org/viewtopic.php?t=29506>
 
 ## Strumenti
 
@@ -94,7 +88,7 @@ Rimozione delle funzioni mediante i nuovi strumenti OCC7.3
 
 [480px\|left\|thumb \|link=<https   *//raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4%7CDefeaturing-WB>   * removing-features (holes)](Image   *Defeaturing-WB-@Work_v3.png.md)
 
-[480px\|left\|thumb \|link=<https   *//youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-\@Work\|YouTube   * Defeaturing tools - Simplifying the model](Image   *Defeaturing-WB-@Work_v1.png.md)
+[480px\|left\|thumb \|link=<https   *//youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-@Work\|YouTube   * Defeaturing tools - Simplifying the model](Image   *Defeaturing-WB-@Work_v1.png.md)
 
 [480px\|left\|thumb \|link=<https   *//youtu.be/vgQwGI6Fk6Q%7CYouTube>   * Defeaturing tools - Multi-select faces for defeaturing](Image   *Defeaturing-WB-@Work_v2.png.md)
 

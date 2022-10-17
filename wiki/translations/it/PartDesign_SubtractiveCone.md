@@ -11,7 +11,7 @@ Inserisce un cono sottrattivo nel corpo attivo. La sua forma viene sottratta dal
 
 ![](images/PartDesign_SubtractiveCone_example.png )
 
-\'\' A sinistra il corpo attivo (A) mostrato in grigio e il cono sottrattivo (B) mostrato in rosso trasparente; a destra il risultato. \'\'
+*A sinistra il corpo attivo (A) mostrato in grigio e il cono sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
 
 ## Utilizzo
 

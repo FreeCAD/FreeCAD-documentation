@@ -46,7 +46,7 @@ Dacă aveți o versiune începând cu pachetul 0.15, puteți utiliza actualizare
 
 **3    *** deschide o casetă de dialog
 
-**4    *** copiază adresa \"Macro destination\" (here **C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**) In Ubuntu, este normal aceasta **/home/your\_user\_name/.FreeCAD**
+**4    *** copiază adresa \"Macro destination\" (here **C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**) In Ubuntu, este normal aceasta **/home/your_user_name/.FreeCAD**
 
 ![Open a dialog to let you execute a macro Recorded](images/Dxf_Importer_Install_02.png ) 
 
@@ -56,7 +56,7 @@ Dacă aveți o versiune începând cu pachetul 0.15, puteți utiliza actualizare
 
 **6    *** lăsați deschis explorer
 
-![](images/Dxf_Importer_Install_04.png ) 
+![](images/Dxf_Importer_Install_04.png) 
 
 **7    *** Închideți FreeCAD
 
@@ -100,7 +100,7 @@ Descărcați fișierele
 
 **13    *** lipește fișierele în folderul FreeCAD cu macrocomenzi în deschiderea explorer (step 6) (**C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**)
 
-In Ubuntu, este normal aceasta **/home/your\_user\_name/.FreeCAD**
+In Ubuntu, este normal aceasta **/home/your_user_name/.FreeCAD**
 
 ![paste the files in the folder](images/Dxf_Importer_Install_09.png ) 
 

@@ -1,53 +1,53 @@
 # ANSI templates/de
-Dieses Seite zeigt die Vorlagen entsprechend dem American National Standards Institute [ANSI](https   *//de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
+Dieses Seite zeigt die Vorlagen entsprechend der [ANSI](https   *//de.wikipedia.org/wiki/American_National_Standards_Institute)-Norm des American National Standards Institute
 
 ### ANSI A 
 
-#### ANSI\_A\_Querformat
+#### ANSI_A\_Querformat
 
 <img alt="" src=images/ANSI_A_Landscape.svg  style="width   *800px;">
 
-#### ANSI\_A\_Hochformat
+#### ANSI_A\_Hochformat
 
 <img alt="" src=images/ANSI_A_Portrait.svg  style="width   *800px;">
 
 ### ANSI B 
 
-#### ANSI\_B\_Querformat
+#### ANSI_B\_Querformat
 
 <img alt="" src=images/ANSI_B_Landscape.svg  style="width   *800px;">
 
-#### ANSI\_B\_Hochformat
+#### ANSI_B\_Hochformat
 
 <img alt="" src=images/ANSI_B_Portrait.svg  style="width   *800px;">
 
 ### ANSI C 
 
-#### ANSI\_C\_Querformat
+#### ANSI_C\_Querformat
 
 <img alt="" src=images/ANSI_C_Landscape.svg  style="width   *800px;">
 
-#### ANSI\_C\_Hochformat
+#### ANSI_C\_Hochformat
 
 <img alt="" src=images/ANSI_C_Portrait.svg  style="width   *800px;">
 
 ### ANSI D 
 
-#### ANSI\_D\_Querformat
+#### ANSI_D\_Querformat
 
 <img alt="" src=images/ANSI_D_Landscape.svg  style="width   *800px;">
 
-#### ANSI\_D\_Hochformat
+#### ANSI_D\_Hochformat
 
 <img alt="" src=images/ANSI_D_Portrait.svg  style="width   *800px;">
 
 ### ANSI E 
 
-#### ANSI\_E\_Querformat
+#### ANSI_E\_Querformat
 
 <img alt="" src=images/ANSI_E_Landscape.svg  style="width   *800px;">
 
-#### ANSI\_E\_Hochformat
+#### ANSI_E\_Hochformat
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width   *800px;">
 

@@ -17,7 +17,7 @@ The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *24px;"
 ## Usage
 
 1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator.md)** button.
+    -   Press the **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Screw calculator](Fasteners_ScrewCalculator.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Screw calculator** option from the menu.
 2.  The **Screw hole calculator** dialog box opens.
 3.  Specify the **Fastener type** and the **Screw diameter**.

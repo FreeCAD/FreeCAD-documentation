@@ -20,7 +20,7 @@ Se serve un aiuto o si hanno domande relative a una determinata pagina di questa
 
 <div class="mw-translate-fuzzy">
 
-C\'è anche un [IRC \#freecad chat room on Freenode](irc   *//chat.freenode.net/freecad). \#openFOAM-IRC è anche su Freenode. Ci sono server Discord per [Modelica Language](https   *//discordapp.com/invite/bp2yeYU), [Elmer FEM](https   *//discordapp.com/invite/NeZEBZn), e [OpenFOAM](https   *//discordapp.com/invite/P9p9eHn). Non utilizzare i gruppi di chat come mezzo principale di scambio di dati. Non vengono indicizzati dai motori di ricerca e le informazioni prodotte su tali piattaforme non vengono accumulate, come invece avviene con i forum.
+C\'è anche un [IRC #freecad chat room on Freenode](irc   *//chat.freenode.net/freecad). #openFOAM-IRC è anche su Freenode. Ci sono server Discord per [Modelica Language](https   *//discordapp.com/invite/bp2yeYU), [Elmer FEM](https   *//discordapp.com/invite/NeZEBZn), e [OpenFOAM](https   *//discordapp.com/invite/P9p9eHn). Non utilizzare i gruppi di chat come mezzo principale di scambio di dati. Non vengono indicizzati dai motori di ricerca e le informazioni prodotte su tali piattaforme non vengono accumulate, come invece avviene con i forum.
 
 
 </div>
@@ -31,7 +31,7 @@ Se siete su Reddit potete usare [r/FreeCAD](https   *//www.reddit.com/r/FreeCAD/
 
 ## Telegram
 
-If you are on Telegram you may use the [t.me/FreeCAD\_EN](https   *//t.me/FreeCAD_EN).
+If you are on Telegram you may use the [t.me/FreeCAD_EN](https   *//t.me/FreeCAD_EN).
 
 ## Twitter and Mastodon 
 

@@ -34,7 +34,7 @@ Sélectionnez l\'onglet du graphique que vous souhaitez modifier, puis exécutez
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

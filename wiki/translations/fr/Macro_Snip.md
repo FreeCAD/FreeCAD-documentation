@@ -6,12 +6,13 @@
 |Author=TheMarkster
 |Version=1.22
 |Date=2022.02.23
-|FCVersion=Tous
+|FCVersion=Toutes
 |Download=[https   *//wiki.freecadweb.org/images/a/a0/Snip.png Icône de la barre d'outils]
 |SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard/fr.md), [Macro Screen Wiki](Macro_Screen_Wiki/fr.md)
-|Shortcut=Sur Windows   * Windows Key + Shift + S<br/>
-Sur Mac   * Command + Shift + 4<br/>
-Sur Linux   * gnone-screenshot utility<br/>
+|Shortcut=
+Windows    * touche Windows + Shift + S<br/>
+Mac    * Command + Shift + 4<br/>
+Linux    * utilitaire gnome-screenshot<br/>
 }}
 
 ## Description
@@ -27,37 +28,37 @@ Lors de la publication sur le forum FreeCAD, il est souvent utile de   * être e
 La macro peut prendre des captures d'écran ou utiliser des captures d'écran existantes déjà copiées dans le Presse-papiers du système. Pour ignorer l\'image déjà dans le presse-papiers, appuyez sur la touche **Maj** tout en appelant la macro. Pour utiliser la macro afin de prendre la capture d\'écran, ajustez la taille et l\'emplacement de la boîte de dialogue qui apparaît, puis cliquez sur **OK**. En cliquant sur **OK**, la macro tentera de prendre une capture d\'écran de la zone de l\'écran couverte par la boîte de dialogue. La boîte de dialogue elle-même est semi-transparente, vous pouvez donc voir le contenu ci-dessous.
 
 <img alt="" src=images/Snip-Screenshot1.png  style="width   *600px;"> 
-*Snip screenshot1,  Remarquez comment le dialogue est semi-transparent. Seul le contenu de l'écran situé sous la boîte de dialogue sera capturé..*
+*Remarquez comment le dialogue est semi-transparent. Seul le contenu de l'écran situé sous la boîte de dialogue sera capturé.*
 
 Après avoir cliqué sur **OK**, la macro prend ensuite la capture d\'écran et l\'enregistre dans un fichier temporaire. Une boîte de dialogue d'ouverture de fichier s'ouvre alors à l'emplacement du fichier. Vous pouvez glisser-déposer le fichier de là vers le forum dans la zone de texte où vous tapez le texte de votre message. Lors de l\'annulation de la boîte de dialogue, le fichier de capture d\'écran temporaire est automatiquement supprimé. Vous pouvez également ouvrir le fichier de capture d\'écran dans votre application par défaut installée pour ouvrir les fichiers **.png** (sous Windows, il s'agit généralement de Paint). Cela peut être utile si vous souhaitez ajouter des annotations à la capture d\'écran ou éventuellement des modifications supplémentaires, telles que le rognage.
 
 <img alt="" src=images/Snip-Screenshot2.png  style="width   *600px;"> 
-*Snip screenshot2, Ceci est la boîte de dialogue d'ouverture de fichier qui apparaît automatiquement après la capture d'écran. L'image peut être glissée et déposée sur le forum ou elle peut être ouverte pour un traitement ultérieur dans votre application système par défaut pour l'ouverture de fichiers png. Vous pouvez également cliquer sur l'image avec le bouton droit de la souris et l'ouvrir **Open with..* avec une autre application de votre choix.**
+*Ceci est la boîte de dialogue d'ouverture de fichier qui apparaît automatiquement après la capture d'écran. L'image peut être glissée et déposée sur le forum ou elle peut être ouverte pour un traitement ultérieur dans votre application système par défaut pour l'ouverture de fichiers png. Vous pouvez également cliquer sur l'image avec le bouton droit de la souris et l'ouvrir **Open with..* avec une autre application de votre choix.**
 
 Si la macro ne fonctionne pas sur votre système pour capturer des captures d\'écran, elle peut toujours être utile pour les captures que vous avez capturées à l\'aide d\'autres outils. Copiez simplement la capture d\'écran dans le presse-papiers, puis exécutez la macro. Il créera le fichier temporaire et ouvrira le répertoire du fichier dans une boîte de dialogue d\'ouverture de fichier pour vous. Quelques autres outils pour prendre des screenshots   *
 
-   *   Sur Windows   * Touche Windows + **Shift** + **S**
-   *   Sur Mac   * **Command** + **Shift** + **4**
-   *   Sur Linux   * utilitaire gnome-screenshot
+   *   Sur Windows    * touche Windows + **Shift** + **S**
+   *   Sur Mac    * **Command** + **Shift** + **4**
+   *   Sur Linux    * utilitaire gnome-screenshot
 
 ## Paramètres
 
 La macro prend en charge les paramètres utilisateur qui peuvent être définis à l\'aide de **Outils → Editer paramètres... → Plugins → Snip_Macro**
 
    *   
-    `LastX`, `LastY`, `LastWidth`, `LastHeight`   * emplacement et taille de la dernière utilisation de la zone de capture
+    `LastX`, `LastY`, `LastWidth`, `LastHeight`    * emplacement et taille de la dernière utilisation de la zone de capture
 
    *   
     `WindowOpacity`(0.85)   * une valeur entre 0,0 (moins opaque) et 1,0 (plus opaque)
 
    *   
-    `SnipDelay`(0.5)   * délai (en secondes) entre la fermeture de la zone de capture et la capture
+    `SnipDelay`(0.5)    * délai (en secondes) entre la fermeture de la zone de capture et la capture
 
    *   
-    `DesiredWidth`(0)   * largeur souhaitée (en pixels), ignorée si 0 \-- redimensionne l\'image à votre convenance en conservant le rapport hauteur/largeur actuel
+    `DesiredWidth`\(0\)    * largeur souhaitée (en pixels), ignorée si 0 \-- redimensionne l\'image à votre convenance en conservant le rapport hauteur/largeur actuel
 
    *   
-    `ScaleFactor`(1.0)   * facteur d\'échelle souhaité, (remplace DesiredWidth si ScaleFactor n\'est pas 1.0) \-- met l\'image à l\'échelle au facteur d\'échelle
+    `ScaleFactor`(1.0)    * facteur d\'échelle souhaité, (remplace DesiredWidth si ScaleFactor n\'est pas 1.0) \-- met l\'image à l\'échelle au facteur d\'échelle
 
 Les paramètres `Last` sont réinitialisés par la macro à chaque exécution. Ainsi la macro garde une trace de l\'endroit où placer la boîte de sélection, à la dernière position qu\'elle avait quand l\'utilisateur a pris une capture d\'écran.
 
@@ -75,7 +76,7 @@ Vous pouvez contourner toute mise à l\'échelle en maintenant la touche Ctrl en
 
 Icône de la barre d\'outils ![](images/Snip.png )
 
-**Macro\_Snip.FCMacro**
+**Macro_Snip.FCMacro**
 
 
 {{MacroCode|code=

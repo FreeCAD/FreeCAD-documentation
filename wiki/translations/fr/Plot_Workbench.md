@@ -60,7 +60,7 @@ Puisque l\'atelier Plot est une couche sur `matplotlib`, vous êtes libre d\'uti
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

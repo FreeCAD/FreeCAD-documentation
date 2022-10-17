@@ -1,30 +1,21 @@
 ---
 - GuiCommand   */it
-   Name   *Draft_Wire
+   Name   *Draft Wire
    Name/it   *Polilinea
+   MenuLocation   *Drafting → Polilinea
    Workbenches   *[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
    Shortcut   ***P** **L**
-   MenuLocation   *Draft → Polilinea
-   SeeAlso   *[Linea](Draft_Line/it.md), [BSpline](Draft_BSpline/it.md)
    Version   *0.7
+   SeeAlso   *[Linea](Draft_Line/it.md), [BSpline](Draft_BSpline/it.md)
 ---
 
 # Draft Wire/it
 
-
-</div>
-
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_Wire.svg  style="width   *24px;"> **Polilinea** [crea](#Create.md) una polilinea, ovvero una sequenza di segmenti di linea collegati. Il comando può anche essere usato per [unire](#Join.md) [Linee](Draft_Line.md) e Polilinee.
 
-<div class="mw-translate-fuzzy">
-
-Questo strumento crea una polilinea (una sequenza di segmenti) nel [piano di lavoro](Draft_SelectPlane/it.md) corrente. La polilinea assume [il tipo di linea e il colore](Draft_Linestyle/it.md) impostati in precedenza nella [barra di Draft](Draft_Tray/it.md). Lo strumento Polilinea si comporta come lo strumento [Linea](Draft_Line/it.md), con la differenza che consente di inserire più di due punti.
-
-
-</div>
-
-The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide the edges of a Draft Wire by changing its **Subdivisions** property.
+I vertici di una Polilinea possono essere raccordati (stondati) o smussati cambiando le sue **Fillet Radius** or **Chamfer Size** rispettivamente. E\' anche possibile suddividere i bordi di una Polilinea cambiando la sua **Subdivisions** proprietà.
 
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width   *400px;"> 
 *Polilinea definita da più punti*

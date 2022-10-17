@@ -18,7 +18,6 @@ Polecenie **Kopiuj** kopiuje zaznaczone obiekty do schowka.
 
 1.  Wybierz jeden lub więcej obiektów.
 2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
-    -   Naciśnij przycisk **<img src="images/Std_Copy.svg" width=16px> [Std Copy](Std_Copy/pl.md)** na pasku narzędzi.
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Copy.svg" width=16px> Kopiuj**.
     -   Wybierz opcję **<img src="images/Std_Copy.svg" width=16px> Kopiuj** z menu podręcznego [Widoku drzewa](Tree_view/pl.md).
     -   Użyj skrótu klawiaturowego   * **Ctrl** + **C**.

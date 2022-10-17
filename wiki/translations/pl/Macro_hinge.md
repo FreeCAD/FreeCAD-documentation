@@ -18,19 +18,19 @@ Simulates hinge movement
 
 ## Uses
 
-Open the 2 files (20140908b\_Hinge-1.FCMacro and 20140908b\_Hinge-1.FCStd) in FreeCAD with 2 screens (Menu   * Windows \> Tile) and click in the window and the macro and click F6 (debug macro) to run the macro or run the macro with ![](images/Std_DlgMacroExecuteDirect.svg )
+Open the 2 files (20140908b_Hinge-1.FCMacro and 20140908b_Hinge-1.FCStd) in FreeCAD with 2 screens (Menu   * Windows \> Tile) and click in the window and the macro and click F6 (debug macro) to run the macro or run the macro with ![](images/Std_DlgMacroExecuteDirect.svg )
 
 <img alt="" src=images/Hing_01.png  style="width   *300px;">
 
 ## The File 
 
-[20140908b\_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628)
+[20140908b_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628)
 
 ## Script
 
 ToolBar Icon ![](images/Macro_hinge.png )
 
-**20140908b\_Hinge-1.FCMacro**
+**20140908b_Hinge-1.FCMacro**
 
 
 {{MacroCode|code=

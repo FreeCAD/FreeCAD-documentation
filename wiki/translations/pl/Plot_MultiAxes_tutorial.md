@@ -62,7 +62,7 @@ Plot.plot(t,s,r"$\sin\left( 2 \pi t \right)$")
 Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 ```
 
-W tym przykładzie przekazujemy bezpośrednio etykiety serii dla legendy. Zwróć uwagę, że łańcuchy etykiet mają przedrostek *r*, aby zapobiec próbom interpretacji znaków specjalnych przez środowisko [Python](Python/pl.md) \'\'(symbol *r* jest często używany w składni [LaTeX](http   *//www.latex-project.org))\'\'.
+W tym przykładzie przekazujemy bezpośrednio etykiety serii dla legendy. Zwróć uwagę, że łańcuchy etykiet mają przedrostek *r*, aby zapobiec próbom interpretacji znaków specjalnych przez środowisko [Python](Python/pl.md) *(symbol*r*jest często używany w składni [LaTeX](http   *//www.latex-project.org))*.
 
 Zanim będziemy mogli wykreślić funkcję wielomianową, musimy utworzyć nowe osie. W środowisku pracy [Wykres](Plot_Workbench/pl.md) nowe osie są automatycznie wybierane jako aktywne, a nowe wykresy będą powiązane z tymi osiami.
 
@@ -136,7 +136,7 @@ Teraz możesz zapisać swoją pracę. Zobacz [poprzedni poradnik](Plot_Basic_tut
 
 }} {{Plot_Tools_navi}} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

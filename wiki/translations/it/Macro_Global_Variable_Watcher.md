@@ -77,7 +77,7 @@ Questa è una versione pre-release e non tutti gli aspetti sono finalizzati - in
 
 ToolBar Icon ![](images/Macro_Global_Variable_Watcher.png )
 
-**Macro\_Global\_Variable\_Watcher.FCMacro**
+**Macro_Global_Variable_Watcher.FCMacro**
 
 
 {{MacroCode|code=

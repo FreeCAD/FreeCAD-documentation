@@ -20,7 +20,7 @@
 1.  Wähle das Objekt aus, das angehängt werden soll.
 2.  Gehe in das Menü **Formteil → Attachment\...**.
 3.  **Hinweis**   * Wenn in [PartDesign](PartDesign_Workbench/de.md) gearbeitet wird und Skizzen, Bezugsgeometrien oder Grundkörper erstellt werden, sind die Schritte 1 und 2 überflüssig   * der Anhang Dialog wird automatisch aufgerufen.
-4.  Unter \'\'\'Anhang \'\'\' Parameter kann *Nicht angehängt* gelesen werden. Die erste Schaltfläche unten ist mit **Auswahl...** beschriftet, um anzuzeigen, dass sie eine Auswahl in der 3D Ansicht erwartet.
+4.  Unter **Anhang** Parameter kann *Nicht angehängt* gelesen werden. Die erste Schaltfläche unten ist mit **Auswahl...** beschriftet, um anzuzeigen, dass sie eine Auswahl in der 3D Ansicht erwartet.
 5.  Wähle ein Topologieelement auf dem Objekt, an das angehängt werden soll   * Knoten, Kante oder Fläche/Ebene. Bezugsgeometrien aus [Part Behältern](Std_Part/de.md) sind ebenfalls wählbar.
 6.  Die Beschriftung der ersten Schaltfläche übernimmt nun die Art der ausgewählten Topologie. In dem weißen Feld rechts daneben wird das referenzierte Objekt und sein Element hinzugefügt. Wenn zum Beispiel eine Fläche auf einem Grundelement Würfel ausgewählt ist, zeigt das Feld Box   *Face6 an.
 7.  Wähle einen [Anhangsmodus](#Anhangsmodus.md) aus der Liste. Die verfügbaren Modi werden nach den ausgewählten Referenzen gefiltert. **Angefügt mit Modus ** wird unter der **Anhang**s Überschrift angezeigt.

@@ -64,8 +64,8 @@ Une fois que FreeCAD est installé, vous voudrez peut-être l\'ouvrir et défini
 5.  **Autorisation et licence**    * (onglet *Document*, catégorie *Création et Licence*) ici vous pouvez définir les paramètres par défaut qui seront utilisés pour vos nouveaux fichiers. Pensez à rendre vos fichiers partageables dès leur création, en utilisant une licence copyleft comme [copyleft](https   *//fr.wikipedia.org/wiki/Copyleft) licence like [Creative Commons](https   *//creativecommons.org/).
 6.  **Rediriger les messages internes Python** vers la sortie    * (onglet *Fenêtre de sortie*, catégorie *Interpréteur python*) ces deux options sont toujours bonnes à cocher, car elles vous permettront de voir ce qui ne va pas dans [La vue rapport](Manual   *The_FreeCAD_Interface#Report_view/fr.md) quand il y a un problème avec l\'exécution d\'un script python particulier. ![](images/Freecad-basic-options03.jpg )
 7.  **Unités**    * (onglet *Unités*) ici, vous pouvez définir le système d\'unités par défaut que vous souhaitez utiliser. ![](images/Freecad-basic-options04.jpg )
-8.  **Zoom au curseur**   * (catégorie \'\' Affichage \'\', onglet \'\' Vue 3D \'\') Si cette option est définie, les opérations de zoom se feront sur le pointeur de la souris. Si l\'option n\'est pas défini, le centre de la vue en cours est la mise au point du zoom.
-9.  **Inverser le zoom**   * (catégorie \'\' Affichage \'\', onglet \'\' Vue 3D \'\') Inverse le sens du zoom par rapport au mouvement de la souris. ![](images/_FreeCAD-v0-18-Preferences-Display.png )
+8.  **Zoom au curseur**   * (catégorie *Affichage*, onglet *Vue 3D*) Si cette option est définie, les opérations de zoom se feront sur le pointeur de la souris. Si l\'option n\'est pas défini, le centre de la vue en cours est la mise au point du zoom.
+9.  **Inverser le zoom**   * (catégorie *Affichage*, onglet *Vue 3D*) Inverse le sens du zoom par rapport au mouvement de la souris. ![](images/_FreeCAD-v0-18-Preferences-Display.png )
 
 ### Installation de contenu supplémentaire 
 

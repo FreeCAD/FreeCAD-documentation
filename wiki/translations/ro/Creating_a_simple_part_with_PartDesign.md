@@ -13,6 +13,12 @@
 
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
 
 ![](images/GGTuto1_Vue.PNG )
 
@@ -58,7 +64,7 @@ We will now trace the sketch which defines the general shape of the part. A sket
 
 Here, since the part\'s general shape is regular along the Y axis, we will create the Pad along this axis.
 
-Press <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [New sketch](Sketcher_NewSketch.md). The Combo View now switches to the **Tasks** tab and displays the *Select feature* dialog. This dialog expects the selection of a plane to which to attach our sketch, and lists the available planes. Select *XZ\_Plane (Base plane)* and press **OK**. The interface now changes, the Sketcher now takes over and its toolbars appear above the 3D view. We find ourselves on the XZ plane of the body to trace the sketch.
+Press <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *24px;"> [New sketch](Sketcher_NewSketch.md). The Combo View now switches to the **Tasks** tab and displays the *Select feature* dialog. This dialog expects the selection of a plane to which to attach our sketch, and lists the available planes. Select *XZ_Plane (Base plane)* and press **OK**. The interface now changes, the Sketcher now takes over and its toolbars appear above the 3D view. We find ourselves on the XZ plane of the body to trace the sketch.
 
 To aid with sketching, set the following options in \"Edit controls\" in the Tasks panel to the left   *
 
@@ -171,7 +177,7 @@ Pocket is a feature called \"subtractive\", it removes material from our part, h
 
 It is possible to change the color of the part, it is often useful to distinguish a part among others. The transparency of the piece can also be modified, which is useful for visualizing its internals.
 
-Select the **Body part1** body; make sure that the Model tab of the Combo View is selected and go to the lower part of the Combo View, then click on the View tab; locate the *Shape Color* property; you may need to use the vertical scroll bar to the right to find it. \'\'You can also widen the Property column   * hover your mouse pointer over the separating line between the *Property* and *Value* headers; when the pointer turns into a double-sided arrow, press and hold your left mouse button and drag sideways, then release.\'\' In the right column, click on the gray square, which opens the **Select Color** dialog. Pick another color then click OK. Next, again in the View tab, change the value of Transparency, for example to 50 and press **Enter** to complete (0 = totally opaque, 100 = totally transparent).
+Select the **Body part1** body; make sure that the Model tab of the Combo View is selected and go to the lower part of the Combo View, then click on the View tab; locate the *Shape Color* property; you may need to use the vertical scroll bar to the right to find it. *You can also widen the Property column   * hover your mouse pointer over the separating line between the*Property*and*Value*headers; when the pointer turns into a double-sided arrow, press and hold your left mouse button and drag sideways, then release.* In the right column, click on the gray square, which opens the **Select Color** dialog. Pick another color then click OK. Next, again in the View tab, change the value of Transparency, for example to 50 and press **Enter** to complete (0 = totally opaque, 100 = totally transparent).
 
 The hole is now visible inside the part. This is often useful for seeing the hidden or internal faces of the model.
 

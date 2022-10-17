@@ -28,7 +28,7 @@ Voir le thread sur forum [How to turn off (disable) Numpad navigation?](https   
 
 Icône de la barre d\'outils ![](images/Macro_Unbind_Numpad_Shortcuts.png )
 
-**Macro\_Unbind\_Numpad\_Shortcuts.FCMacro**
+**Macro_Unbind_Numpad_Shortcuts.FCMacro**
 
 
 {{MacroCode|code=

@@ -53,7 +53,7 @@ Comanda \"DS\" **creează sursa de distribuire** a arborelui sursă curent
 
 ### DistBin
 
-Comanda \"DB\" \'\'\'creează o distribuție binară \'\'\' a arborelui sursă curent.
+Comanda \"DB\" **creează o distribuție binară** a arborelui sursă curent.
 
 ### DistSetup
 

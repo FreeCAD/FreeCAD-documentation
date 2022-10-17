@@ -1,17 +1,15 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch Panel   Name/ru   *Arch Panel
-   MenuLocation   *Архитектура → Панель
+   Name/ru   *Паенль
+   Name   *Arch_Panel
+   MenuLocation   *Arch → Инструменты панелирования → Панель
    Workbenches   *[Arch](Arch_Workbench/ru.md)
    Shortcut   ***P** **A**
    Version   *0.15
-   SeeAlso   *[Структура](Arch_Structure/ru.md), [Arch Panel Cut](Arch_Panel_Cut/ru.md), [Arch Panel Sheet](Arch_Panel_Sheet/ru.md)
+   SeeAlso   *[Панельный контур](Arch_Panel_Cut/ru.md), [Панельный лист](Arch_Panel_Sheet/ru.md)
 ---
 
 # Arch Panel/ru
-
-
-</div>
 
 ## Описание
 
@@ -21,40 +19,21 @@
 
 *На приведенном выше рисунке показана серия объектов панели, просто сделанных из импортированных 2D-контуров из файла DXF. Затем они могут быть повернуты и собраны для создания структур.*
 
-
-<div class="mw-translate-fuzzy">
-
-Начиная с версии 0.17, панель Arch также может использоваться для создания гофрированных или трапециевидных профилей   *
-
-
-</div>
+Данный инструмент может также применятся для создания гофрированных или трапециевидных профилей ({{VersionPlus/ru|0.17}})   *
 
 <img alt="" src=images/Arch_panel_wave.jpg  style="width   *700px;">
 
-## Использование
+## Применение
 
-1.  Select a 2D shape (draft object, face or sketch) - optional.
+1.  Select a 2D shape (Draft object, face or sketch) - optional.
 2.  Press the **<img src="images/Arch_Panel.svg" width=16px> [Arch Panel](Arch_Panel.md)** button, or press **P** then **A** keys.
 3.  Adjust the desired properties.
 
+### Ограничения
 
-<div class="mw-translate-fuzzy">
+-   В настоящее время нет автоматической системы для создания листов 2D-резки из панельных объектов, но такая функция есть в планах и будет добавлена в будущем.
 
-## Ограничения
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   В настоящее время нет автоматической системы для производства двумерных разрезанных листов из панельных объектов, но такая функция находится в планах и будет добавлена в будущем.
--   Этот инструмент недоступен в версиях FreeCAD до 0,15
-
-
-</div>
-
-## Options
+## Опции
 
 -   Panels share the common properties and behaviours of all [Arch Components](Arch_Component.md).
 -   The thickness of a panel can be adjusted after creation.
@@ -63,7 +42,7 @@
 -   It is possible to automatically make panels composed of more than one sheet of a material, by raising its Sheets property.
 -   Panels can make use of <img alt="" src=images/Arch_MultiMaterial.svg  style="width   *24px;"> [Multi-Materials](Arch_MultiMaterial.md). When using a multi-material, the panel will become multi-layer, using the thicknesses specified by the multi-material. Any layer with a thickness of zero will have its thickness defined automatically by the remaining space defined by the Panel\'s own Thickness value, after subtracting the other layers.
 
-## Properties
+## Свойства
 
 -    **Length**   * The length of the panel
 
@@ -85,10 +64,17 @@
 
 -    **Bottom Wave**   * If the bottom wave of the panel is flat or not
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
-## Написание скриптов 
+## Программирование
+
+
+**См. так же   ***
+
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 
 </div>
@@ -102,7 +88,7 @@ Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, 
     -   If no `baseobj` is given, you can provide the numerical values for the `length`, `width`, and `thickness` to create a block panel.
 -   If a `placement` is given, it is used.
 
-Example   * 
+Пример   * 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -110,15 +96,12 @@ Rect = Draft.makeRectangle(1000, 400)
 Panel = Arch.makePanel(Rect, thickness=36)
 ```
 
-## Учебники
-
--   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
+## Материалы для самостоятельного изучения 
 
 
 <div class="mw-translate-fuzzy">
 
-
-{{docnav/ru|[Arch CompPanel](Arch_CompPanel.md)|[Panel Cut](Arch_Panel_Cut.md)|[Arch](Arch_Workbench.md)|IconL=Arch_CompPanel.png |IconC=Workbench_Arch.svg |IconR=Arch_Panel_Cut.svg}}
+-   [Руководство по портированию файлов проекта Wikihouse в FreeCAD](Wikihouse_porting_tutorial/ru.md)
 
 
 </div>

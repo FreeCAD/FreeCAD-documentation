@@ -15,7 +15,7 @@ Un comando de FreeCAD es lo que se ejecuta cuando presiona un botón de la barra
 
 <div class="mw-translate-fuzzy">
 
-Cada comando de FreeCAD tiene un nombre único, que aparece en la página [   * Category   * Command\_Reference](   *_Category__Command_Reference.md). Los comandos se pueden iniciar mediante un botón de la barra de herramientas, un elemento del menú o desde una secuencia de comandos de Python o la consola de Python, ejecutando   *
+Cada comando de FreeCAD tiene un nombre único, que aparece en la página [   * Category   * Command_Reference](   *_Category__Command_Reference.md). Los comandos se pueden iniciar mediante un botón de la barra de herramientas, un elemento del menú o desde una secuencia de comandos de Python o la consola de Python, ejecutando   *
 
 
 </div>

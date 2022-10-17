@@ -1,5 +1,5 @@
 # Part Shapebuilder/sv
-1.  REDIRECT [Part\_Builder/sv](Part_Builder/sv.md)
+1.  REDIRECT [Part_Builder/sv](Part_Builder/sv.md)
 
 
 

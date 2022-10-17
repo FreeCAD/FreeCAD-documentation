@@ -10,9 +10,6 @@
 
 # Std FreezeViews/fr
 
-
-</div>
-
 ## Introduction
 
 FreeCAD peut stocker les paramètres de la caméra dans jusqu\'à 50 «vues figées». Les options de menu relatives aux vues figées se trouvent dans le sous-menu **Affichage → Figer l'affichage**. Les vues figées ne sont pas stockées dans le document et si elles ne sont pas enregistrées avec l\'option de menu **[Enregistrer les vues](#Enregistrer_les_vues.md)** seront perdues à la fermeture de l\'application FreeCAD.

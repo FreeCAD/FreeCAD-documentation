@@ -39,11 +39,11 @@ Buena descripción
 
 Evite duplicar la misma información en diferentes lugares. Inserte la información en una nueva página, y enlace a esta página desde otras páginas que requieran esta información.
 
-No utilices la transclusión de páginas ([Ayuda   *Edición\#Plantillas y páginas transcluidas](Help   *Editing#Templates_and_transcluding_pages.md)), ya que esto dificulta la traducción del wiki. Utiliza sólo las plantillas descritas en [\#Plantillas](#Templates.md).
+No utilices la transclusión de páginas ([Ayuda   *Edición#Plantillas y páginas transcluidas](Help   *Editing#Templates_and_transcluding_pages.md)), ya que esto dificulta la traducción del wiki. Utiliza sólo las plantillas descritas en [#Plantillas](#Templates.md).
 
 ### Estilismo
 
-Las plantillas se utilizan para dar estilo a las páginas de ayuda. Proporcionan a la documentación un aspecto consistente. Hay una plantilla para los comandos del menú, **Archivo → Guardar**, una plantilla para dar estilo a las teclas a pulsar, **Shift**, para mostrar un valor booleano, `True`, etc. Por favor, familiarícese con la sección [\#Plantillas](#Templates.md) antes de escribir páginas de ayuda.
+Las plantillas se utilizan para dar estilo a las páginas de ayuda. Proporcionan a la documentación un aspecto consistente. Hay una plantilla para los comandos del menú, **Archivo → Guardar**, una plantilla para dar estilo a las teclas a pulsar, **Shift**, para mostrar un valor booleano, `True`, etc. Por favor, familiarícese con la sección [#Plantillas](#Templates.md) antes de escribir páginas de ayuda.
 
 ### Banderas temporales 
 
@@ -76,7 +76,7 @@ El [El centro de usuarios](User_hub/es.md) proporciona un [Índice de contenidos
 
 <div class="mw-translate-fuzzy">
 
-La [Template   *Docnav](Template_Docnav.md) se utiliza para enlazar secuencialmente las páginas, siguiendo la estructura del [Índice de contenidos](Online_Help_Toc/es.md). Ver [\#Plantillas](#Plantillas.md) para una lista de todas las plantillas.
+La [Template   *Docnav](Template_Docnav.md) se utiliza para enlazar secuencialmente las páginas, siguiendo la estructura del [Índice de contenidos](Online_Help_Toc/es.md). Ver [#Plantillas](#Plantillas.md) para una lista de todas las plantillas.
 
 
 </div>
@@ -160,7 +160,7 @@ To link to the top of the page you can use   *
 This template should automatically display the correct text depending on the language of the page. A link to the top of the page is especially useful for long pages as it allows the user to quickly jump back to the table of content. You can put it at the end of each paragraph. Make sure there is an empty line before and after the template.
 
 Image link
-   *   <img alt="Optional text that is shown when you hover the image\|link=Draft\_Wire" src=images/Draft_Wire.svg  style="width   *24px;">
+   *   <img alt="Optional text that is shown when you hover the image\|link=Draft_Wire" src=images/Draft_Wire.svg  style="width   *24px;">
 
 To use an image as a link   *
 
@@ -180,7 +180,7 @@ A top level workbench page should start with   *
 -   A description of what the workbench is used for.
 -   An image to illustrate the description.
 
-See [\#Screen capture](#Screen_capture.md) for conventions on including images.
+See [#Screen capture](#Screen_capture.md) for conventions on including images.
 
 ### Páginas de comandos 
 
@@ -217,7 +217,7 @@ For examples visit the [Tutorials](Tutorials.md) page.
 
 <div class="mw-collapsible-content">
 
-Styling of the FreeCAD wiki pages is achieved through the use of templates ([Help   *Editing\#Templates\_and\_transcluding\_pages](Help   *Editing#Templates_and_transcluding_pages.md)). They ensure a standardized look and feel across all pages, and also make it possible to re-style the wiki. You can see the complete list of defined templates by accessing [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md). But please only use the templates listed in the tables below. Only in very special cases should you use HTML tags directly.
+Styling of the FreeCAD wiki pages is achieved through the use of templates ([Help   *Editing#Templates_and_transcluding_pages](Help   *Editing#Templates_and_transcluding_pages.md)). They ensure a standardized look and feel across all pages, and also make it possible to re-style the wiki. You can see the complete list of defined templates by accessing [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md). But please only use the templates listed in the tables below. Only in very special cases should you use HTML tags directly.
 
 Click on the template link to see the usage instructions for a template, and to see its implementation. Templates are a powerful feature of the MediaWiki software. You should be an experienced wiki user if you wish to propose additions and modifications to existing templates. If implemented incorrectly, templates make it difficult to translate pages into other languages, so their use should be limited to text formatting, page transclusion should be avoided. See [MediaWiki Help   *Templates](https   *//www.mediawiki.org/wiki/Help   *Templates) to learn more.
 
@@ -560,8 +560,8 @@ Before creating a new page you should first check if a similar page already exis
 
 To create a new page do one of the following   *
 
--   Visit the URL with the desired page name, for example   * https   *//wiki.freecadweb.org/My_new_page, and click on \'create this page\'.
--   Do a wiki search for the page name, and click on the red text in \'Create the page \"My new page\" on this wiki!\'.
+-   Visit the URL with the desired page name, for example   * https   *//wiki.freecadweb.org/My_New_Page, and click on \'create this page\'.
+-   Do a wiki search for the page name, and click on the red text in \'Create the page \"My New Page\" on this wiki!\'.
 
 ### Cambiar el nombre de las páginas 
 

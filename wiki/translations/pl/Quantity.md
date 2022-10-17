@@ -43,7 +43,7 @@ Since angle is physically dimensionless, but nevertheless important to a CAD sys
 
 Often you are in need of converting values from one system of units to another. For example you have old parameter tables with wired units. In these cases FreeCAD offers a conversion tool called Units-Calculator which helps in translating units.
 
-Its description in detail is here   * [Std\_UnitsCalculator](Std_UnitsCalculator.md)
+Its description in detail is here   * [Std_UnitsCalculator](Std_UnitsCalculator.md)
 
 ## InputField
 

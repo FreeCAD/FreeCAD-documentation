@@ -56,7 +56,7 @@ Postprocesoarele conțin steaguri de configurare și sunt proiectate pentru a fi
 -   Răcire pornită / oprită
 -   Etc \...
 
-Postprocesoarele utilizează   * [https   *//www.freecadweb.org/wiki/Path\_scripting\#FreeCAD.27s\_internal\_GCode\_format Path Job Operations FreeCAD G-Code dialect](https   *//www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_Path_Job_Operations_FreeCAD_G-Code_dialect.md), în combinație cu definițiile de configurare Postprocessor, pentru a genera G-Codul corect pentru diagramele pentru mașinile țintă. Acest lucru permite ca Atelierul Path să genereze codul G corect pentru a viza diferite controlere de mașini CNC invocând diferite postprocesoare.
+Postprocesoarele utilizează   * [https   *//www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format Path Job Operations FreeCAD G-Code dialect](https   *//www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_Path_Job_Operations_FreeCAD_G-Code_dialect.md), în combinație cu definițiile de configurare Postprocessor, pentru a genera G-Codul corect pentru diagramele pentru mașinile țintă. Acest lucru permite ca Atelierul Path să genereze codul G corect pentru a viza diferite controlere de mașini CNC invocând diferite postprocesoare.
 
 CNC Machine Controller types include   *
 
@@ -93,24 +93,24 @@ Postprocesoarele furnizate sunt scrise cu comentarii care indică zone care con�
 
 Typical Configuration True/False Flags include   *
 
--   OUTPUT\_COMMENTS (True = Allow, False = Suppress), Used to insert Text Comments in the output G-Code file.
--   OUTPUT\_HEADER (True = Allow, False = Suppress), Used to insert Text Headers in the output G-Code file.
--   OUTPUT\_LINE\_NUMBERS (True = Allow, False = Suppress), Used to insert Line Numbers in the output G-Code file.
--   SHOW\_EDITOR (True = Allow, False = Suppress), Used to show the output G-Code in a Pop-up window when invoking the Postprocessor.
+-   OUTPUT_COMMENTS (True = Allow, False = Suppress), Used to insert Text Comments in the output G-Code file.
+-   OUTPUT_HEADER (True = Allow, False = Suppress), Used to insert Text Headers in the output G-Code file.
+-   OUTPUT_LINE_NUMBERS (True = Allow, False = Suppress), Used to insert Line Numbers in the output G-Code file.
+-   SHOW_EDITOR (True = Allow, False = Suppress), Used to show the output G-Code in a Pop-up window when invoking the Postprocessor.
 -   MODAL (True = Allow, False = Suppress), Used to reduce the number of output G-Code lines by stripping Mode information when the Mode is not changing.
 
 Typical Configuration Variables include   *
 
 -   LINENR (Line Number), Used to Set the Line Number index.
 -   UNITS (G20 or G21), Used to explicitly communicate to the target CNC controller what Units to use to interpret the final output file.
--   MACHINE\_NAME (Name of Target CNC Mill), Used to Insert a machine name label in the final output file.
+-   MACHINE_NAME (Name of Target CNC Mill), Used to Insert a machine name label in the final output file.
 -   PRECISION, Used to Set the number of digits to include after the decimal place in final output file
 
 Typical Configuration Sections include   *
 
 -   PREAMBLE (Code configuration inserted at beginning of the Job)
 -   POSTAMBLE (Code configuration appended to the Job, providing for parking the machine, etc\...)
--   TOOL\_CHANGE (Code inserted with each tool change in the Job)
+-   TOOL_CHANGE (Code inserted with each tool change in the Job)
 
 The Edit-\>Preferences\...-\>Path-\>Job Preferences tab, Defaults-\>Path is used to set the default Postprocessor selected on Job creation. This allows Path workbench to be configured to only display desired Postprocessors, and to set a default.
 

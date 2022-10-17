@@ -46,7 +46,7 @@ For example   * The `App   *   *Link` feature (<small>(v0.19)</small> ) allows l
 
 <div class="mw-translate-fuzzy">
 
-Aggiungere un\'immagine se possibile, e per favore seguire le linee guida di [WikiPages\#Graphics](WikiPages#Graphics.md). Esempio tratto da Draft Linea   *
+Aggiungere un\'immagine se possibile, e per favore seguire le linee guida di [WikiPages#Graphics](WikiPages#Graphics.md). Esempio tratto da Draft Linea   *
 
 
 </div>

@@ -1,5 +1,5 @@
 # TechDraw Dimension Angle3Pt/pl
-1.  REDIRECT [TechDraw\_3PtAngleDimension/pl](TechDraw_3PtAngleDimension/pl.md)
+1.  REDIRECT [TechDraw_3PtAngleDimension/pl](TechDraw_3PtAngleDimension/pl.md)
 
 
 

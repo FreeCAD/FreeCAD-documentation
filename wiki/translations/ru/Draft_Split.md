@@ -18,7 +18,7 @@
 
 The <img alt="" src=images/Draft_Split.svg  style="width   *24px;"> **Draft Split** command splits a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md) at a specified point or edge. This command is the counterpart of the [Draft Join](Draft_Join.md) command.
 
-## Использование
+## Применение
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Draft_Split.svg" width=16px> [Draft Split](Draft_Split.md)** button.

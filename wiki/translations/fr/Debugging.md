@@ -293,8 +293,8 @@ ptvsd.wait_for_attach()
 -   Dans VS Code commencez le débogage en utilisant la configuration créée. Vous devriez voir des variables dans la zone du débogueur.
 -   Lors de la mise en place de points d\'arrêt, VS Code se plaindra de ne pas trouver le fichier .py ouvert dans l\'éditeur VS Code.
     -   Changer \"remoteRoot\"    * \".\" en \"remoteRoot\"    * \"\"
-        -   Par exemple, si le fichier Python se trouve dans */home/FC\_myscripts/myscript.py*.
-        -   Changez en    * \"remoteRoot\"    * \"/home/FC\_myscripts\"
+        -   Par exemple, si le fichier Python se trouve dans */home/FC_myscripts/myscript.py*.
+        -   Changez en    * \"remoteRoot\"    * \"/home/FC_myscripts\"
     -   Si vous ne faites que déboguer les macros FreeCAD depuis le dossier des macros FreeCAD, et que ce dossier est \"C   */Users//AppData/Roaming/FreeCAD/Macro\", alors utilisez    *
         -   \"localRoot\"    * \"C   */Users//AppData/Roaming/FreeCAD/Macro\",
         -   \"remoteRoot\"    * \"C   */Users//AppData/Roaming/FreeCAD/Macro\".

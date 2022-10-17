@@ -1,173 +1,109 @@
 ---
 - GuiCommand   */de
    Name   *Draft Label
-   Name/de   *Entwurf Etikett
-   MenuLocation   *Entwurf → Etikett
-   Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Name/de   *Draft Notiz
+   MenuLocation   *Anmerkung → Bezeichnung
+   Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut   ***D** **L**
-   SeeAlso   *[Entwurf Text](Draft_Text/de.md), [Entwurf FormZeichenfolge](Draft_ShapeString/de.md)
    Version   *0.17
+   SeeAlso   *[Draft Text](Draft_Text/de.md), [Draft Textform](Draft_ShapeString/de.md)
 ---
 
 # Draft Label/de
 
-
-</div>
-
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_Label.svg  style="width   *24px;"> **Draft Notiz** erstellt einen mehrzeiligen Text an einer zweiteiligen Hinweislinie mit Pfeilspitze.
 
-<div class="mw-translate-fuzzy">
+Wenn ein Objekt oder ein Teilelement (Fläche, Kante oder Knotenpunkt) ausgewählt ist, wenn der Befehl aufgerufen wird, kann der Text dazu verwendet werden ein oder zwei Attribute des ausgewählten Elements darzustellen, einschließlich Position, Länge, Volumen und Material. Der Text ist dann mit den Attributen verknüpft und wird aktualisiert, wenn sie ihre Werte ändern.
 
-Das Etikettenwerkzeug fügt ein mehrzeiliges Textfeld mit einer 2-teiligen Führungslinie und einem Pfeil ein. Wenn beim Starten des Befehls ein Objekt oder ein Unterelement (Fläche, Kante oder Knoten) ausgewählt wird, kann das Etikett veranlasst werden, ein bestimmtes Attribut des ausgewählten Elements anzuzeigen, einschließlich Position, Länge, Fläche, Volumen oder Material.
+Um stattdessen ein Textelement ohne Hinweispfeil zu erstellen, verwendet man den Befehl [Draft Text](Draft_Text.md).
 
-
-</div>
-
-If an object or a sub-element (face, edge or vertex) is selected when starting the command, the text can be made to display one or two attributes of the selected element, including position, length, area, volume and material. The text will then be linked to the attributes and will update if their values change.
-
-
-<div class="mw-translate-fuzzy">
-
-Um ein einfacheres Textelement ohne Pfeil einzufügen, verwende [Entwurf Text](Draft_Text/de.md). Um feste Textformen zu erstellen, verwende [Entwurf FormZeichenfolge](Draft_ShapeString/de.md) mit [Part extrudieren](Part_Extrude/de.md).
-
-
-</div>
-
-<img alt="" src=images/Draft_Label_example.jpg  style="width   *400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Verschiedene Etiketten mit unterschiedlichen Ausrichtungen, Hinweissymbolen und Informationen*
-
-
-</div>
+<img alt="" src=images/Draft_Label_example.jpg  style="width   *400px;"> 
+*Verschiedene Notizen mit unterschiedlichen Ausrichtungen, Hinweispfeilen und Informationen*
 
 ## Anwendung
 
-See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Siehe auch   * [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **<img src="images/Draft_Label.svg" width=16px> [Entwurf Etikett](Draft_Label/de.md)** Schaltfläche oder drücke **D** und dann **L** Schaltflächen.
-2.  Klicke auf einen ersten Punkt in der 3D Ansicht oder gib eine Koordinate ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche. Dieser Punkt gibt das Ziel (Pfeilspitze) an. Dies kann überall sein, es muss kein Element sein.
-3.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine Koordinate ein, und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  hinzufügen** Schaltfläche. Dieser Punkt zeigt den Beginn einer horizontalen oder vertikalen Führungslinie an.
-4.  Klicke auf einen dritten Punkt in der 3D Ansicht, oder gib eine Koordinate ein, und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  hinzufügen** Schaltfläche. Dieser Punkt gibt den Basispunkt des Textes an.
-
-
-</div>
+1.  Wahlweise ein Objekt oder ein Teilelement (Knotenpunkt, Kante oder Fläche) auswählen, dessen Attribute man darstellen möchte.
+2.  Es gibt mehrere Möglichkeiten denBefehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Draft_Label.svg" width=16px> [Bezeichnung](Draft_Label/de.md)** drücken.
+    -   Den Menüeintrag **Anmerkung → <img src="images/Draft_Label.svg" width=16px> Bezeichnung** auswählen.
+    -   Das Tastaturkürzel **D** dann **L**.
+3.  Der Aufgabenbereich **Bezeichnung** wird geöffnet. Siehe [Optionen](#Optionen.md) für mehr Informationen.
+4.  Wenn ein Element ausgewählt wurde   * Eine Möglichkeit aus dem Ausklappmenü **Label type** auswählen. Siehe [Notizarten](#Notizarten.md) weiter unten.
+5.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken. Dieser Punkt bestimmt das Ziel (Pfeilspitze). Es kann irgendwo liegen und muss sich nicht auf einem Element befinden.
+6.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken. Dieser Punkt bestimmt den Beginn des horizontalen bzw. vertikalen Abschnitts der Hinweislinie.
+7.  Den dritten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**drücken. Dieser Punkt bestimmt den Basispunkt des Texts.
 
 ## Optionen
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die voreingestellten Tastenkürzel.
 
+-   Zur manuellen Eingabe der Koordinaten, werden die X-, Y- und Z-Komponenten einzeln eingegeben und jeweils mit **Enter** bestätigt. Es kann auch die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** gedrückt werden, wenn die gewünschten Werte vorhanden sind. Es ist ratsam den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
-<div class="mw-translate-fuzzy">
+-    **R**drücken oder die Checkbox **Relativ** aktivieren, um den Relativmodus ein- bzw. auszuschalten. Bei aktiviertem Relativmodus haben Koordinaten einen Bezug zum letzten Punkt, wenn vorhanden, andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
 
--   Klicke auf **Etikettentyp**, um die Art der anzuzeigenden Informationen auszuwählen, einschließlich \"Benutzerdefiniert\", \"Name\", \"Etikett\", \"Position\", \"Länge\", \"Bereich\", \"Volumen\", \"Tag\" und \"Material\". (Siehe Erklärung der [Labeltypen](#Label_types/de.md) unten)
--   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücke dann **Eingabe** zwischen jeder X, Y und Z Komponente. Du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche drücken wenn du die gewünschten Werte zum Einfügen des Punktes hast.
--   Halte **Strg** gedrückt, während der Platzierung der Beschriftung, um [Fang](Draft_Snap/de.md) deinen Punkt unabhängig von der Entfernung an die nächstgelegene Fangposition zu zwingen.
--   Drücke **Esc** oder die **Schließen** Schaltfläche, um den aktuellen Befehl abzubrechen.
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Globalmodus ein- bzw. auszuschalten. Bei aktiviertem Globalmodus haben Koordinaten einen Bezug zum globalen Koordinatensystem, andernfalls beziehen sich Koordinaten auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
 
+-    **S**drücken, um [Draft Fangen](Draft_Snap.md) ein- oder auszuschalten.
 
-</div>
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl abzubrechen.
 
+## Notizarten
 
-<div class="mw-translate-fuzzy">
+Die folgenden Arten von Notizen stehen zur Verfügung   *
 
-#### Etikettentypen
+-    {{Value|Custom}}   * zeigt den Inhalt der {{PropertyData/de|Custom Text}} an.
 
+-    {{Value|Name}}   * zeigt den internen Namen des Zielobjekts an; der interne Name wird dem Objekt bei seiner Erstellung zugewiesen und ist während der gesamten Existenz des Objekts unveränderlich.
 
-</div>
+-    {{Value|Label}}   * zeigt die Bezeichnung (Label) des Zielobjekts an; die Bezeichnung eines Objekts kann jederzeit vom Benutzer geändert werden.
 
-The following label types are available   *
+-    {{Value|Position}}   * zeigt die Koordinaten des Basispunktes des Zielobjekts, des Zielknotenpunktes oder des Schwerpunktes des Ziel-Teilelements an, falls vorhanden.
 
+-    {{Value|Length}}   * zeigt die Länge des Zielobjekts oder des Teilelements an, falls vorhanden.
 
-<div class="mw-translate-fuzzy">
+-    {{Value|Area   *}}zeigt die Fläche des Zielobjekts oder des Teilelements an, falls vorhanden.
 
--    **Benutzerdefiniert   ***zeigt den Inhalt von **Benutzerdefinierter Text** an.
+-    {{Value|Volume}}   * zeigt das Volumen des Zielobjekts an, falls vorhanden.
 
--    **Name   ***zeigt den internen Namen des Zielobjekts an; der interne Name wird dem Objekt zum Zeitpunkt seiner Erstellung zugewiesen und bleibt während der gesamten Existenz des Objekts fest.
+-    {{Value|Tag   *}}zeigt das Attribut `Tag` des Zielobjekts an, falls vorhanden. Objekte, die mit dem Arbeitsbereich [Arch](Arch_Workbench/de.md) erstellte wurden, können dieses Attribut besitzen.
 
--    **Etikett   ***zeigt die Beschriftung des Zielobjekts an; die Beschriftung des Objekts kann jederzeit vom Benutzer geändert werden.
+-    {{Value|Material   *}}zeigt die Bezeichnung des Materials des Zielobjekts an, falls vorhanden
 
--    **Position   ***zeigt die Koordinaten des Basispunkts des Zielobjekts, des Zielscheitelpunkts oder des Massenschwerpunkts des Zielunterelements an, falls zutreffend.
+## Hinweise
 
--    **Länge   ***zeigt ggf. die Länge des Ziel Unterelements an.
-
--    **Fläche   ***zeigt ggf. die Fläche des Ziel Unterelements an.
-
--    **Volumen   ***zeigt das Volumen des Zielobjekts an, falls zutreffend.
-
--    **Tag   ***zeigt das `Tag` Attribut des Zielobjekts an, wenn das Objekt eine solche Eigenschaft hat, z.B. mit der [Arch Arbeitsbereich](Arch_Workbench/de.md) erstellte Objekte.
-
--    **Material   ***zeigt die Bezeichnung des Materials des Zielobjekts an, wenn das Zielobjekt eine solche Eigenschaft hat.
-
-
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-
-**Hinweis   ***
-
-die Richtung des horizontalen geraden Segments, nach rechts oder links, richtet den Text automatisch in die entgegengesetzte Richtung aus. Wenn die Führungslinie vertikal nach oben geht, wird der Text nach links ausgerichtet; wenn sie vertikal nach unten geht, wird sie nach rechts ausgerichtet.
-
-
-</div>
+-   Die Richtung des zweiten Abschnitts der Hinweislinie bestimmt die Ausrichtung des Textes. Wenn der Abschnitt horizontal ist und nach rechts zeigt, wird der Text links (-bündig) ausgerichtet und umgekehrt. Wenn der zweite Abschnitt vertikal nach oben zeigt, wird der Text links ausgerichtet. Zeigt er vertikal nach unten, wird der Text rechts ausgerichtet.
 
 ## Eigenschaften
 
-See also   * [Property editor](Property_editor.md).
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated   *
+Ein Draft Notiz-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften   *
 
-### Data
+### Daten
 
 
 {{TitleProperty|Label}}
 
+-    {{PropertyData/de|Custom Text|StringList}}   * bestimmt den Inhalt des Textes, wenn die {{PropertyData/de|Label Type}} auf {{Value|Custom}} gesetzt ist. Jedes Element der Liste stellt eine neue Textzeile dar.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Label Type|Enumeration}}   * bestimmt die Art der von der Notiz dargestellten Information. Siehe [Notizarten](#Notizarten.md).
 
-### Daten
+-    {{PropertyData/de|Placement|Placement}}   * bestimmt die Position des Textes in der [3D-Ansicht](3D_view/de.md) und, solange die {{PropertyData/de|Straight Direction}} nicht auf {{Value|Custom}} gesetzt ist, auch die des ersten Abschnitts der Hinweislinie, an dem der Text befestigt ist. Siehe [Positionierung](Placement/de.md).
 
--    **Etikettentyp**   * legt die Art der von diesem Etikett angezeigten Informationen fest (siehe [Etikettentypen](#Etikett_typen.md) unten).
-
--    **Benutzerdefinierter Text**   * gibt den Textblock an, der angezeigt werden soll, wenn **Etikettentyp** auf \"Benutzerdefiniert\" gesetzt ist oder das Etikett nicht parametrisiert ist. Der Text wird als Liste von Zeichenketten angegeben; jedes Element der Liste, getrennt durch ein Komma, zeigt eine neue Textzeile an.
-
--    **Text**   * (schreibgeschützt) gibt den tatsächlichen Text an, der vom Etikett angezeigt wird, abhängig vom **Etikettentyp**.
-
--    **Zielpukt**   * gibt die Position der Spitze des Vorspanns an.
-
--    **Gerade Richtung**   * gibt die Richtung des geraden Segments der Führungslinie an, entweder horizontal oder vertikal.
-
--    **Gerader Abstand**   * gibt die Länge des geraden Abschnitts der Führungslinie, ausgehend vom Basispunkt des Textes, an. Ist der Abstand positiv, beginnt der Vorspann an der rechten Seite des Textes und der Text wird rechtsbündig ausgerichtet; andernfalls beginnt der Vorspann an der linken Seite des Textes und der Text wird linksbündig ausgerichtet.
-
--    **Position**   * gibt den Basispunkt der ersten Zeile des Textblocks an; er beeinflusst auch, wie der Vorspann gezeichnet wird.
-
--    **Winkel**   * gibt die Drehung der Grundlinie der ersten Zeile des Textblocks an; beeinflusst auch die Zeichnung des Vorspanns, da dieser nicht mehr horizontal oder vertikal ist.
-
--    **Achse**   * legt die Achse fest, die für die Drehung verwendet werden soll.
-
-
-</div>
+-    {{PropertyData/de|Text|StringList}}   * (read-only) bestimmt den Inhalt des Textes, der aktuell dargestellt wird. Jedes Element der Liste stellt eine neue Textzeile dar.
 
 
 {{TitleProperty|Leader}}
 
--    **Points|VectorList**   * specifies the points of the leader.
+-    {{PropertyData/de|Points|VectorList}}   * Bestimmt die Punkte der Hinweislinie.
 
--    **Straight Direction|Enumeration**   * specifies the direction of the first leader segment   * {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
+-    {{PropertyData/de|Straight Direction|Enumeration}}   * Bestimmt die Richtung des ersten Abschnitts der HInweislinie   * {{Value|Custom}}, {{Value|Horizontal}} oder {{Value|Vertikal}}.
 
--    **Straight Distance|Distance**   * specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
+-    {{PropertyData/de|Straight Distance|Distance}}   * Bestimmt die Länge des ersten Abschnitts der Hinweislinie. Wird nur verwendet, wenn die {{PropertyData/de|Straight Direction}} auf {{Value|Horizontal}} oder {{Value|Vertical}} gesetzt wurde. Wenn der Abstand positiv ist, startet die Hinweislinie auf der rechten Seite des Textes und der Text wird nach rechts ausgerichtet. Andernfalls startet die Hinweislinie von der linken Seite des Textes und der Text wird nach links ausgerichtet
 
 
 {{TitleProperty|Target}}
@@ -176,7 +112,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Target Point|Vector**   * specifies the position of the tip of the leader, which is where the arrow is attached.
 
-### View
+### Ansicht
 
 
 {{TitleProperty|Annotation}}
@@ -196,7 +132,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 <div class="mw-translate-fuzzy">
 
-### Ansicht
+### Ansicht 
 
 -    **Text  Schriftart**   * gibt die Schriftart an, die zum Zeichnen des Textes verwendet werden soll. Es kann ein Schriftname sein, wie z. B. \"Arial\", ein Standardstil wie \"sans\", \"serif\" oder \"mono\", eine Familie wie \"Arial,Helvetica,sans\" oder ein Name mit einem Stil wie \"Arial   *Bold\". Wenn die angegebene Schriftart nicht auf dem System gefunden wird, wird stattdessen eine generische Schriftart verwendet.
 
@@ -240,28 +176,11 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Font Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
+Siehe auch   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch   ***
-
-[Entwurf API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Etikett Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden   *
-
-
-</div>
+Das Werkzeug Draft Notiz kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus mit der folgenden Funktion verwendet werden   *
 
 
 ```python
@@ -306,15 +225,6 @@ label3.ViewObject.TextSize = 200
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

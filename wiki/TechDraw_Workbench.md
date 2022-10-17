@@ -140,7 +140,7 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 
    ** <img alt="" src=images/TechDraw_Quadrants.svg  style="width   *32px;"> [Add Quadrant Vertices](TechDraw_Quadrants.md)   * adds Cosmetic Vertices at quarter points of selected (circular) edges. <small>(v0.19)</small> 
 
--   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Add Center Lines   *
+-   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Add Centerlines   *
 
    ** <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width   *32px;"> [Add Centerline to Faces](TechDraw_FaceCenterLine.md)   * adds a centerline to selected face(s). <small>(v0.19)</small> 
 
@@ -170,7 +170,7 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width   *32px;"> [Change Line Attributes](TechDraw_ExtensionChangeLineAttributes.md)   * changes the attributes (style, width and color) of cosmetic lines and centerlines. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Change Length of Cosmetic Lines and CenterLines   *
+-   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Change Length of Cosmetic Lines or Centerlines   *
 
    ** <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width   *32px;"> [Extend Line](TechDraw_ExtensionExtendLine.md)   * extends a cosmetic line or centerline at both ends. <small>(v0.20)</small> 
 

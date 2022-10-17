@@ -74,7 +74,7 @@ Proste obiekty utworzone przeciąganiem przez obrót
 | **Sfera**         | <img alt="Sfera" src=images/PartDesign_ExampleSphere-01.png  style="width   *200px;">                                    | -   Kontur   * **łuk o kącie 180°** oraz **linia** łącząca punkty końcowe.                                                                                          |
 |                   |                                                                                                   | -   Ścieżka   * pełny **okrąg**.                                                                                                                                    |
 ++++
-| **Segment sfery** | <img alt="Segment sfery 240°" src=images/PartDesign_ExampleSphere-02.png  style="width   *200px;">          | -   Kontur   * *\'łuk o kącie 180°* i **linia** łącząca punkty końcowe.                                                                                             |
+| **Segment sfery** | <img alt="Segment sfery 240°" src=images/PartDesign_ExampleSphere-02.png  style="width   *200px;">          | -   Kontur   * **łuk o kącie 180°\'\' i**linia\'\'\' łącząca punkty końcowe.                                                                                        |
 |                   |                                                                                                   | -   Ścieżka   * **łuk o kącie 240°**.                                                                                                                               |
 |                   |                                                                                                   |                                                                                                                                                                  |
 |                   |                                                                                                   |    *   Funkcja ta może tworzyć odcinki o dowolnym kącie z wyjątkiem dokładnie 180°, ponieważ ma problem z płaszczyzną początkową i końcową będącą współpłaszczyzną. |
@@ -163,13 +163,13 @@ Proste obiekty utworzone przeciąganiem
 ### Obiekty spiralne i walcowate 
 
 ++++
-| Sprężyna spiralna      | <img alt="Sprężyna" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;">                     | -   Kontur   * **okrąg**.                                                                                                                    |
+| Sprężyna spiralna      | <img alt="Sprężyna" src=images/PartDesign_ExampleSpring-01.png  style="width   *200px;">                     | -   Kontur   * **okrąg**.                                                                                                                |
 |                        |                                                                                          | -   Ścieżka   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Helisa](Part_Helix/pl.md) środowiska Część.                    |
 ++++
-| Sprężyna włosowa       | <img alt="Sprężyna balansowa" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;"> | -   Kontur   * **prostokąt**.                                                                                                                |
+| Sprężyna włosowa       | <img alt="Sprężyna balansowa" src=images/PartDesign_ExampleSpring-03.png  style="width   *200px;"> | -   Kontur   * **prostokąt**.                                                                                                            |
 | Sprężyna balansowa     |                                                                                          | -   Ścieżka   * <img alt="" src=images/Part_Spiral.svg  style="width   *16px;"> [Spirala](Part_Spiral.md) środowiska Część.                   |
 ++++
-| **Sprężyna spiralna**, | <img alt="Sprężyna spiralna" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">   | -   Kontur   * **prostokąt**.                                                                                                                |
+| **Sprężyna spiralna**, | <img alt="Sprężyna spiralna" src=images/PartDesign_ExampleSpring-04.png  style="width   *200px;">   | -   Kontur   * **prostokąt**.                                                                                                            |
 | Sprężyna stożkowa      |                                                                                          | -   Ścieżka   * <img alt="" src=images/Part_Helix.svg  style="width   *16px;"> [Helisa](Part_Helix/pl.md) środowiska Część z kątem nachylenia. |
 ++++
 

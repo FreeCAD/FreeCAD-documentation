@@ -83,7 +83,7 @@ Viele der Dateneigenschaften sind die gleichen wie unter [Optionen](#Options.md)
 
 Die ausgewählte Skizze muss einen oder mehrere Kreis(e) enthalten. Der Radius des Kreises (der Kreise) innerhalb der Skizze wird nicht berücksichtigt. Die erzeugten Löcher sind identisch, auch wenn die Kreise in der Skizze unterschiedliche Radien haben.
 
--   Standardmäßig wird die Loch Funktion unterhalb der Skizzierebene extrudiert. Wenn der Festkörper auf der XY\_Ebene liegt und die Lochskizze mit der XY\_Ebene verbunden ist, wird es versuchen, sich vom Festkörper weg zu extrudieren und scheinbar kein Ergebnis zu erzielen. In diesem Fall muss die Option *Umgekehrt* gesetzt werden, alternativ kann die Skizze auf die Unterseite des Festkörpers abgebildet werden.
+-   Standardmäßig wird die Loch Funktion unterhalb der Skizzierebene extrudiert. Wenn der Festkörper auf der XY_Ebene liegt und die Lochskizze mit der XY_Ebene verbunden ist, wird es versuchen, sich vom Festkörper weg zu extrudieren und scheinbar kein Ergebnis zu erzielen. In diesem Fall muss die Option *Umgekehrt* gesetzt werden, alternativ kann die Skizze auf die Unterseite des Festkörpers abgebildet werden.
 -   Gewinde darstellen funktioniert nur, wenn Umgekehrt nich aktiviert ist.
 
 ## Schnitttyp Definitionen 
@@ -93,8 +93,8 @@ Schnittarten (Schraubentypen) werden seit Version 0.19 in [json](https   *//de.w
 Die Datei sollte enthalten   *
 
 -   **name**   * Der Name der Definition. Dieser muss eindeutig sein, da er als Bezeichner in der FreeCAD Benutzeroberfläche und als interner Index verwendet wird.
--   **cut\_type**   * Entweder `countersink` oder `counterbore`.
--   **thread\_type**   * Entweder `metric` oder `metricfine`.
+-   **cut_type**   * Entweder `countersink` oder `counterbore`.
+-   **thread_type**   * Entweder `metric` oder `metricfine`.
 -   **angle**   * Der Winkel einer Kegelsenkung (nicht notwendig bei Flachsenkungen).
 -   **data**   * Eine Liste von Größen, bestehend aus   *
     -   **thread**   * Name des Gewindes, das FreeCAD bekannt ist.

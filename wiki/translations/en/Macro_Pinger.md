@@ -26,7 +26,7 @@ The Macro supports user parameters, which are used for the added users list. It 
 
 ToolBar icon ![](images/Pinger_Icon.svg )
 
-**Macro\_Snip.FCMacro**
+**Macro_Snip.FCMacro**
 
 
 {{MacroCode|code=

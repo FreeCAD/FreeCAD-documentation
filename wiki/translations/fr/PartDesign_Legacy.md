@@ -1,5 +1,5 @@
 # PartDesign Legacy/fr
-1.  REDIRECT [PartDesign\_Workbench/fr](PartDesign_Workbench/fr.md)
+1.  REDIRECT [PartDesign_Workbench/fr](PartDesign_Workbench/fr.md)
 
 
 

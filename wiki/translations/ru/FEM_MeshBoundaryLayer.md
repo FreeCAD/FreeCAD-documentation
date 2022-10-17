@@ -18,7 +18,7 @@ FEM MeshBoundaryLayer enables the user to set a localized set of meshing paramet
 
 The boundary layer has the advantage of creating highly defined, anisotropic meshes. As the name implies it supports accurate calculations near boundaries, e.g. a wall where friction occurs, generating a velocity gradient.
 
-## Использование
+## Применение
 
 1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md).
     -   Select the Mesh object in the Model Tree and press the <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width   *32px;"> button.
@@ -28,7 +28,7 @@ The boundary layer has the advantage of creating highly defined, anisotropic mes
 4.  Click the **OK** button.
 5.  Close the task.
 
-       *   Result   * You now should see a new `FEMMeshBoundaryLayer` object under the `FEMMeshGMSH` object (see example \#3 below) in your active analysis container.
+       *   Result   * You now should see a new `FEMMeshBoundaryLayer` object under the `FEMMeshGMSH` object (see example #3 below) in your active analysis container.
 6.  Double-click on the `FEMMeshGMSH` parent object in your Model Tree and press **Apply** to force a mesh recalculation.
 7.  Close the task.
 

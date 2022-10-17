@@ -186,7 +186,7 @@ Barres le long de la direction x, sauf les barres principales.
 
 -    **Top Offset**   * distance entre les barres d\'armature à partir de la face supérieure de la structure.
 
--    **Number#Diameter**   * Jeu de numéros\#Diamètre des barres d\'armature dans l\'axe x.
+-    **Number#Diameter**   * Jeu de numéros#Diamètre des barres d\'armature dans l\'axe x.
 
 **Propriétés des armatures de direction Y dans les colonnes de la semelle renforcée    ***
 
@@ -202,7 +202,7 @@ Barres de renfort le long de la direction y, à l\'exception des barres de renfo
 
 -    **Top Offset**   * distance entre les barres d\'armature à partir de la face supérieure de la structure.
 
--    **Number#Diameter**   * jeu de numéros\#Diamètre des barres d\'armature dans la direction y.
+-    **Number#Diameter**   * jeu de numéros#Diamètre des barres d\'armature dans la direction y.
 
 ## Script
 
@@ -311,11 +311,11 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `parallel_diameter`   * diamètre des barres d\'armature parallèles.
 
--    `parallel_amount_spacing_check`   * mis à True, alors la valeur de parallel\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de parallel\_amount\_spacing\_value est utilisée comme espacement dans les barres parallèles.
+-    `parallel_amount_spacing_check`   * mis à True, alors la valeur de parallel_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de parallel_amount_spacing_value est utilisée comme espacement dans les barres parallèles.
 
--    `parallel_amount_spacing_value`   * contient le nombre d\'armatures ou l\'espacement entre les armatures parallèles en fonction de la valeur de amount\_spacing\_check.
+-    `parallel_amount_spacing_value`   * contient le nombre d\'armatures ou l\'espacement entre les armatures parallèles en fonction de la valeur de amount_spacing_check.
 
--    `parallel_rounding`   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le parallel\_diamètre.
+-    `parallel_rounding`   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le parallel_diamètre.
 
 -    `parallel_l_shape_hook_orintation`   * représente l\'orientation du crochet de la barre d\'armature parallèle en forme de L si le type de barre parallèle est LShapeRebar. Peut avoir trois valeurs    * \"Left\", \"Right\", \"Alternate\".
 
@@ -337,11 +337,11 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `cross_diameter`   * diamètre des barres d\'armature transversales.
 
--    `cross_amount_spacing_check`   * mis à True, la valeur de cross\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de cross\_amount\_spacing\_value est utilisée comme espacement entre les barres.
+-    `cross_amount_spacing_check`   * mis à True, la valeur de cross_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de cross_amount_spacing_value est utilisée comme espacement entre les barres.
 
--    `cross_amount_spacing_value`   * contient le nombre de barres ou l\'espacement entre les barres en fonction de la valeur de cross\_amount\_spacing\_check.
+-    `cross_amount_spacing_value`   * contient le nombre de barres ou l\'espacement entre les barres en fonction de la valeur de cross_amount_spacing_check.
 
--    `cross_rounding`   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le cross\_diameter.
+-    `cross_rounding`   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le cross_diameter.
 
 -    `cross_l_shape_hook_orintation`   * représente l\'orientation du crochet de la barre d\'armature transversale en forme de L si le type de barre transversale est LShapeRebar. Peut avoir trois valeurs    * \"Left\", \"Right\", \"Alternate\".
 
@@ -359,13 +359,13 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `column_length`   * longueur des colonnes.
 
--    `xdir_column_amount_spacing_check`   * mis à True, alors la valeur de xdir\_column\_amount\_spacing\_value est utilisée comme nombre de colonnes, sinon la valeur de xdir\_column\_amount\_spacing\_value est utilisée comme espacement entre les colonnes dans la direction x.
+-    `xdir_column_amount_spacing_check`   * mis à True, alors la valeur de xdir_column_amount_spacing_value est utilisée comme nombre de colonnes, sinon la valeur de xdir_column_amount_spacing_value est utilisée comme espacement entre les colonnes dans la direction x.
 
--    `xdir_column_amount_spacing_value`   * contient le nombre de colonnes ou l\'espacement entre les colonnes dans le sens x en fonction de la valeur de xdir\_column\_amount\_spacing\_check.
+-    `xdir_column_amount_spacing_value`   * contient le nombre de colonnes ou l\'espacement entre les colonnes dans le sens x en fonction de la valeur de xdir_column_amount_spacing_check.
 
--    `ydir_column_amount_spacing_check`   * mis à True, alors la valeur de ydir\_column\_amount\_spacing\_value est utilisée comme nombre de colonnes, sinon la valeur de ydir\_column\_amount\_spacing\_value est utilisée comme espacement entre les colonnes dans la direction y.
+-    `ydir_column_amount_spacing_check`   * mis à True, alors la valeur de ydir_column_amount_spacing_value est utilisée comme nombre de colonnes, sinon la valeur de ydir_column_amount_spacing_value est utilisée comme espacement entre les colonnes dans la direction y.
 
--    `ydir_column_amount_spacing_value`   * contient le nombre de colonnes ou l\'espacement entre les colonnes dans le sens des y en fonction de la valeur de ydir\_column\_amount\_spacing\_check.
+-    `ydir_column_amount_spacing_value`   * contient le nombre de colonnes ou l\'espacement entre les colonnes dans le sens des y en fonction de la valeur de ydir_column_amount_spacing_check.
 
 -    `column_sec_rebar_check`   * mis à True, ajoute des barres secondaires dans les directions x et y dans les colonnes.
 
@@ -381,9 +381,9 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `tie_diameter`   * diamètre des attaches.
 
--    `tie_number_spacing_check`   * mis à True, alors la valeur de tie\_number\_spacing\_value est utilisée comme nombre de liens, sinon la valeur de tie\_number\_spacing\_value est utilisée comme espacement dans les liens.
+-    `tie_number_spacing_check`   * mis à True, alors la valeur de tie_number_spacing_value est utilisée comme nombre de liens, sinon la valeur de tie_number_spacing_value est utilisée comme espacement dans les liens.
 
--    `tie_number_spacing_value`   * contient le nombre d\'égalités ou l\'espacement entre les égalités en fonction de la valeur de tie\_number\_spacing\_check.
+-    `tie_number_spacing_value`   * contient le nombre d\'égalités ou l\'espacement entre les égalités en fonction de la valeur de tie_number_spacing_check.
 
 **Propriétés des armatures principales des colonnes de la semelle renforcée    ***
 
@@ -393,27 +393,27 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `column_main_hook_extend_along`   * direction du crochet de la barre d\'armature principale (LShapeRebar). Il a deux options \"x-axis\" et \"y-axis\".
 
--    `column_l_main_rebar_rounding`   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre de la colonne\_main\_rebar\_.
+-    `column_l_main_rebar_rounding`   * valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre de la colonne_main_rebar\_.
 
 -    `column_main_hook_extension`   * indique la longueur du crochet de la barre d\'armature principale (LShapeRebar).
 
 -    `column_main_rebars_type`   * type de barre d\'armature pour les barres d\'armature principales du poteau. Prend deux entrées différentes pour \'StraightRebar\', \'LShapeRebar\'. La valeur par défaut est StraightRebar.
 
--    `column_main_hook_orientation`   * orientation du crochet des barres principales dans les colonnes si column\_main\_rebars\_type est LShapeRebar. Prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    `column_main_hook_orientation`   * orientation du crochet des barres principales dans les colonnes si column_main_rebars_type est LShapeRebar. Prend huit orientations différentes pour les crochets en forme de L, à savoir \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
 **Propriétés pour les directions secondaires X et Y des barres d\'armature des colonnes de la semelle renforcée    ***
 
--    `column_sec_rebars_t_offset`et `sec_rebars_b_offset` sont des n-uplets (xdir\_rebars\_t\_offset, ydir\_rebars\_t\_offset) qui définissent les distances de décalage (ou hauteur) pour les armatures secondaires de direction x et de direction y par rapport aux faces supérieures de la structure, respectivement.
+-    `column_sec_rebars_t_offset`et `sec_rebars_b_offset` sont des n-uplets (xdir_rebars_t\_offset, ydir_rebars_t\_offset) qui définissent les distances de décalage (ou hauteur) pour les armatures secondaires de direction x et de direction y par rapport aux faces supérieures de la structure, respectivement.
 
--    `column_sec_rebars_number_diameter`est un tuple (xdir\_rebars\_number\_diameter, ydir\_rebars\_number\_diameter) qui définit le jeu de nombres\#diamètres des barres secondaires de direction x et de direction y, respectivement.
+-    `column_sec_rebars_number_diameter`est un tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) qui définit le jeu de nombres#diamètres des barres secondaires de direction x et de direction y, respectivement.
 
--    `column_sec_rebars_type`est un tuple (xdir\_rebars\_type, ydir\_rebars\_type) qui définit le type des barres secondaires de direction x et de direction y, respectivement ; il peut avoir `"StraightRebar"` ou `"LShapeRebar"` comme type de barre.
+-    `column_sec_rebars_type`est un tuple (xdir_rebars_type, ydir_rebars_type) qui définit le type des barres secondaires de direction x et de direction y, respectivement ; il peut avoir `"StraightRebar"` ou `"LShapeRebar"` comme type de barre.
 
--    `column_sec_hook_orientation`est un tuple (xdir\_hook\_orientation, ydir\_hook\_orientation) qui définit l\'orientation du crochet secondaire en forme de LS dans les directions x et y. Il peut avoir `"StraightRebar"` ou `"LShapeRebar"` comme type de barre d\'armature ; il peut avoir `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` ou `"Bottom Left"` comme orientation du crochet.
+-    `column_sec_hook_orientation`est un tuple (xdir_hook_orientation, ydir_hook_orientation) qui définit l\'orientation du crochet secondaire en forme de LS dans les directions x et y. Il peut avoir `"StraightRebar"` ou `"LShapeRebar"` comme type de barre d\'armature ; il peut avoir `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` ou `"Bottom Left"` comme orientation du crochet.
 
--    `column_l_sec_rebar_rounding`est un tuple (l\_xdir\_rebar\_rounding, l\_ydir\_rebar\_rounding) qui détermine le rayon de courbure des barres d\'armature secondaires en forme de LS dans les directions x et y, exprimé sous forme de fois le diamètre des barres d\'armature en forme de LS dans les directions x et y, respectivement.
+-    `column_l_sec_rebar_rounding`est un tuple (l_xdir_rebar_rounding, l_ydir_rebar_rounding) qui détermine le rayon de courbure des barres d\'armature secondaires en forme de LS dans les directions x et y, exprimé sous forme de fois le diamètre des barres d\'armature en forme de LS dans les directions x et y, respectivement.
 
--    `column_sec_hook_extension`est un tuple (xdir\_hook\_extension, ydir\_hook\_extension) qui définit la longueur du crochet des barres d\'armature secondaires en forme de LS dans les directions x et y.
+-    `column_sec_hook_extension`est un tuple (xdir_hook_extension, ydir_hook_extension) qui définit la longueur du crochet des barres d\'armature secondaires en forme de LS dans les directions x et y.
 
 **Propriétés communes de la semelle renforcée    ***
 

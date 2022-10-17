@@ -33,7 +33,7 @@ Toto makro vyrovná nakreslený drát, který není vyrovnán (není v jedné ro
 
 ToolBar Icon ![](images/Macro_FlattenWire.png )
 
-**Macro\_FlattenWire.FCMacro**
+**Macro_FlattenWire.FCMacro**
 
 
 {{MacroCode|code=

@@ -621,7 +621,7 @@ Questo è un altro compito molto importante che deve essere eseguito sui modelli
 
 **Utilizzare i fogli di calcolo**
 
-To populate a spreadsheet with values extracted from the model the Arch\_Schedule tool can be used.
+To populate a spreadsheet with values extracted from the model the Arch_Schedule tool can be used.
 
 ![](images/Arch_schedule_example03.jpg )
 

@@ -23,7 +23,7 @@ Toto makro umožňuje najít a spojit nespojené hrany do jedné uzavřené nesp
 
 ToolBar Icon ![](images/Macro_JointWire.png )
 
-**Macro\_JointWire.FCMacro**
+**Macro_JointWire.FCMacro**
 
 
 {{MacroCode|code=

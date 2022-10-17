@@ -108,7 +108,7 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 -   **Oggetto Materiale** Multiple materials are supported for edge, shell and solid meshes. Like for the beam section and shell thickness objects a appropriate FEM Mesh is needed to use the multiple material.
 -   **Oggetto Solver** Come base per molteplici risolutori è stato implementato un oggetto risolutore. E tutte le proprietà dell\'analisi spostate dall\'analisi alla risolutore.
 -   **Analisi di Frequenza** Si può eseguire l\'analisi della frequenza. Il dati eigenvalue o eigenshape possono essere regolati nella GUI delle preferenze.
--   *\' View provider*\' Solai e Travi FEM-mesh possono essere visualizzati in FreeCAD e, quindi, anche i risultati di tali analisi.
+-   **View provider** Solai e Travi FEM-mesh possono essere visualizzati in FreeCAD e, quindi, anche i risultati di tali analisi.
 -   **API Python** Sono stati aggiunti i metodi per lavorare con le mesh FEM e per eseguire una analisi con python.
 -   **Macro GMSH** Uno sviluppo esterno interessante è la [Macro GMSH](Macro_GMSH/it.md) che rende possibile l\'uso di GMSH per il meshing. Molto utile per tutti coloro che non sono in grado di compilare FreeCAD con NetGen o per meshing shell or edge meshes.
 -   **Miglioramenti generali** Dato il suo consistente sviluppo, ci sono stati molti miglioramenti nel codice di base del modulo FEM.

@@ -437,7 +437,7 @@ Versuche es noch einmal. Wenn du wieder einen Fehler wie
 error   * Python was built with Visual Studio version 8.0, and extensions need to be built with the same version of the compiler, but it isn't installed.
 ```
 
-dann solltest du die Umgebungsvariablen DISTUTILS\_USE\_SDK und MSSDK prüfen mit
+dann solltest du die Umgebungsvariablen DISTUTILS_USE_SDK und MSSDK prüfen mit
 
 
 ```python
@@ -496,7 +496,7 @@ pyCollada ist eine Python Bibliothek, die es Programmen ermöglicht, Dateien [Co
 
 ### Installation 
 
-Pycollada ist normalerweise noch nicht in den Repositorien der Linux Distributionen verfügbar, aber da es nur aus Python Dateien besteht, muss es nicht kompiliert werden und ist einfach zu installieren. Es gibt 2 Wege, oder direkt aus dem offiziellen pycollada git Repositorium, oder mit dem easy\_install Werkzeug.
+Pycollada ist normalerweise noch nicht in den Repositorien der Linux Distributionen verfügbar, aber da es nur aus Python Dateien besteht, muss es nicht kompiliert werden und ist einfach zu installieren. Es gibt 2 Wege, oder direkt aus dem offiziellen pycollada git Repositorium, oder mit dem easy_install Werkzeug.
 
 #### Linux 
 
@@ -518,7 +518,7 @@ cd pycollada
 sudo python setup.py install
 ```
 
-======= Mit easy\_install ======= Angenommen, du hast bereits eine komplette Python Installation, sollte das easy\_install Hilfsprogramm bereits vorhanden sein   *
+======= Mit easy_install ======= Angenommen, du hast bereits eine komplette Python Installation, sollte das easy_install Hilfsprogramm bereits vorhanden sein   *
 
 
 ```python
@@ -577,7 +577,7 @@ $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 -   Lizenz. \* LGPL
 -   optional, notwendig zur Erweiterung der Importfähigkeit von IFC-Dateien
 
-IFCOpenShell ist eine derzeit in Entwicklung befindliche Bibliothek, die es erlaubt, Dateien [Industry Foundation Classes (\*.IFC)](https   *//de.wikipedia.org/wiki/Industry_Foundation_Classes) zu importieren (und bald auch zu exportieren). IFC ist eine Erweiterung des STEP-Formats und wird zum Standard in \[hhttps   *//de.wikipedia.org/wiki/Building\_Information\_Modeling BIM\]-Arbeitsabläufen. Wenn ifcopenshell korrekt auf Ihrem System installiert ist, wird das FreeCAD [Arch-Arbeitsgebiet](Arch_Workbench/de.md) es erkennen und zum Importieren von IFC-Dateien verwenden, anstelle des eingebauten rudimentären Importeurs. Da ifcopenshell wie FreeCAD auf OpenCasCade basiert, ist die Qualität des Imports sehr hoch und erzeugt hochwertige Volumenkörpergeometrie.
+IFCOpenShell ist eine derzeit in Entwicklung befindliche Bibliothek, die es erlaubt, Dateien [Industry Foundation Classes (\*.IFC)](https   *//de.wikipedia.org/wiki/Industry_Foundation_Classes) zu importieren (und bald auch zu exportieren). IFC ist eine Erweiterung des STEP-Formats und wird zum Standard in \[hhttps   *//de.wikipedia.org/wiki/Building_Information_Modeling BIM\]-Arbeitsabläufen. Wenn ifcopenshell korrekt auf Ihrem System installiert ist, wird das FreeCAD [Arch-Arbeitsgebiet](Arch_Workbench/de.md) es erkennen und zum Importieren von IFC-Dateien verwenden, anstelle des eingebauten rudimentären Importeurs. Da ifcopenshell wie FreeCAD auf OpenCasCade basiert, ist die Qualität des Imports sehr hoch und erzeugt hochwertige Volumenkörpergeometrie.
 
 ### Installation 
 

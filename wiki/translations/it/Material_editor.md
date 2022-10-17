@@ -1,5 +1,5 @@
 # Material editor/it
-1.  REDIRECT [FEM\_MaterialEditor/it](FEM_MaterialEditor/it.md)
+1.  REDIRECT [FEM_MaterialEditor/it](FEM_MaterialEditor/it.md)
 
 
 

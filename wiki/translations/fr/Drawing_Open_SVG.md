@@ -35,4 +35,4 @@ Cette commande ouvre une feuille de dessin précédemment sauvegardée au format
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Open SVG/fr

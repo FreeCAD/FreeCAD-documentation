@@ -1,5 +1,5 @@
 # Scripting/tr
-1.  REDIRECT [Power\_users\_hub/tr](Power_users_hub/tr.md)
+1.  REDIRECT [Power_users_hub/tr](Power_users_hub/tr.md)
 
 
 

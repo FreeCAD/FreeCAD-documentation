@@ -3,7 +3,7 @@ Cada sistema operativo tiene su propia p√°gina para compilar FreeCAD en la [Docu
 
      
     <img alt="" src=images/Windows.png  style="width   *" height="32px;">      <img alt="" src=images/Linux.png  style="width   *" height="32px;">        <img alt="" src=images/Mac.png  style="width   *" height="32px;">       [Compile en el contenedor Docker](Compile_on_Docker/es.md)\<! \--<img alt="" src=images/Docker_logo_FreeCAD.svg  style="width   *" height="32px;">\--\>
-   [Compilar en Windows](Compile_on_Windows/es.md)   [Compilar en Linux](Compile_on_Linux/es.md)   [Compilar en MacOS](Compile_on_MacOS/es.md)                                                [Compilar en un contenedor Docker](Compile_on_Docker/es.md)
+   [Compilar en Windows](Compile_on_Windows/es.md)   [Compilar en Linux](Compile_on_Linux/es.md)   [Compilar en MacOS](Compile_on_MacOS/es.md)                                              [Compilar en un contenedor Docker](Compile_on_Docker/es.md)
      
 
 Para compilar en BSD, y otros sistemas Unix, puede seguir las instrucciones generales en [Compilar en Linux](Compile_on_Linux/es.md) pero utilizando las dependencias apropiadas en esos sistemas.
@@ -25,7 +25,7 @@ Para aprender a utilizar el sistema de control de revisiones y contribuir con c√
 
 
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

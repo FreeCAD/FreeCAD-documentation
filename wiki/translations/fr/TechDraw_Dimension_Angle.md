@@ -1,5 +1,5 @@
 # TechDraw Dimension Angle/fr
-1.  REDIRECT [TechDraw\_AngleDimension/fr](TechDraw_AngleDimension/fr.md)
+1.  REDIRECT [TechDraw_AngleDimension/fr](TechDraw_AngleDimension/fr.md)
 
 
 

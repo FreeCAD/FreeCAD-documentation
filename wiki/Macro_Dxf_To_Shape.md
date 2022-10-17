@@ -39,7 +39,7 @@ you can also   the file to disk
 
 
 
-![Macro\_Dxf\_To\_Shape](images/Macro_DXF_To_Shape_00.png ) 
+![Macro_Dxf_To_Shape](images/Macro_DXF_To_Shape_00.png ) 
 
 ## Script
 
@@ -47,7 +47,7 @@ The icon for you toolBar ![](images/Macro_Dxf_To_Shape.png ) copy in same direct
 
 [How to Customize Toolbars](Customize_Toolbars.md), [How to install macros](How_to_install_macros.md)
 
-The script on github [Macro\_DXF\_to\_Shape.FCMacro](https   *//gist.github.com/mario52a/0596ad522b151806d5970586a5051e4b)
+The script on github [Macro_DXF_to_Shape.FCMacro](https   *//gist.github.com/mario52a/0596ad522b151806d5970586a5051e4b)
 
 ## Example
 

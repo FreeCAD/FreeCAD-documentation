@@ -303,7 +303,7 @@ Pozwala to określić, że renderowanie powinno odbywać się w tle za pomocą `
 
 Stworzenie pośredniej siatki Wavefront (.obj) i następnie zaimportowanie jej do Blendera zadziała w większości sytuacji. Jednakże, istnieje również możliwość importu pliku FreeCAD (.FCStd) bezpośrednio do Blendera za pomocą pluginu.
 
--   [io\_import\_fcstd.py](https   *//gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), oryginalna wersja dla Blendera 2.79
+-   [io_import_fcstd.py](https   *//gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), oryginalna wersja dla Blendera 2.79
 -   [FreeCAD .FCStd importer for Blender 2.80](https   *//gist.github.com/yorikvanhavre/680156f59e2b42df8f5f5391cae2660b)
 
 Jest to wtyczka do Blendera. Aby działała, Blender musi być w stanie zaimportować FreeCAD jako moduł z `Python Console`. 

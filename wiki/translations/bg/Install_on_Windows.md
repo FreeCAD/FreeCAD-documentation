@@ -1,5 +1,5 @@
 # Install on Windows/bg
-1.  REDIRECT [Installing\_on\_Windows/bg](Installing_on_Windows/bg.md)
+1.  REDIRECT [Installing_on_Windows/bg](Installing_on_Windows/bg.md)
 
 
 

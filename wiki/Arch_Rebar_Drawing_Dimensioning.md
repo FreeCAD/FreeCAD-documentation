@@ -124,7 +124,7 @@ structure_drawing_page_dict = make_reinforcement_drawing.makeStructuresReinforce
 
 -    `structure_list`is the list of structural objects to generate their reinforcement drawing. If not provided, structures will be selected from the active document acting as Host for rebar objects.
 
--    `rebars_list`is the list of rebar objects to be included in the drawing. If not provided, rebars objects having Host in structure\_list will be selected from the active document.
+-    `rebars_list`is the list of rebar objects to be included in the drawing. If not provided, rebars objects having Host in structure_list will be selected from the active document.
 
 -    `view`specifies the view of drawing to be generated. It can be \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" or \"Bottom\".
 
@@ -661,7 +661,7 @@ structure_drawing_page_dict = makeStructuresReinforcementDrawing(
 
 -    `structure_list`is the list of structural objects to generate their reinforcement drawing. If not provided, structures will be selected from the active document acting as Host for rebar objects.
 
--    `rebars_list`is the list of rebar objects to be included in the drawing. If not provided, rebars objects having Host in structure\_list will be selected from the active document.
+-    `rebars_list`is the list of rebar objects to be included in the drawing. If not provided, rebars objects having Host in structure_list will be selected from the active document.
 
 
 

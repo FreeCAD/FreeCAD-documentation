@@ -23,7 +23,9 @@ Creates a FEM constraint for a prescribed displacement of a selected object for 
 
 ## Notes
 
-1.  The constraint uses the \*BOUNDARY card in CalculiX. Fixing a degree of freedom is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html> and prescribing a displacement for a degree of freedom is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
+-   The constraint uses the \*BOUNDARY card in CalculiX.
+-   Fixing a degree of freedom is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>
+-   Prescribing a displacement for a degree of freedom is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
 
 
 

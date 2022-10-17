@@ -23,7 +23,7 @@ FreeCAD jest przede wszystkim aplikacją do modelowania przestrzennego, a więc 
 
 
 
-[Category   *Draft](Category_Draft.md) [Category   *TechDraw](Category_TechDraw.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Draft](Category_Draft.md) [Category   *TechDraw](Category_TechDraw.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

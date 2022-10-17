@@ -1,5 +1,5 @@
 # Arch BimServer/es
-1.  REDIRECT [WebTools\_BimServer/es](WebTools_BimServer/es.md)
+1.  REDIRECT [WebTools_BimServer/es](WebTools_BimServer/es.md)
 
 
 

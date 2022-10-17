@@ -1,5 +1,5 @@
 # Path DressupBoundary/fr
-1.  REDIRECT [Path\_DressupPathBoundary/fr](Path_DressupPathBoundary/fr.md)
+1.  REDIRECT [Path_DressupPathBoundary/fr](Path_DressupPathBoundary/fr.md)
 
 
 

@@ -1,7 +1,7 @@
 # Category:Points/it
 This category lists pages related to the [Points Workbench/it](Points_Workbench/it.md).
 
-[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User\_Documentation/it](Category   *User_Documentation/it.md)
+[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User_Documentation/it](Category   *User_Documentation/it.md)
 
 ### Contents
 

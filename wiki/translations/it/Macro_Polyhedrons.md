@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questa macro crea poliedri parametrici   * tetraedro, esaedro, ottaedro, dodecaedro, icosaedro, icosaedro\_troncato.
+Questa macro crea poliedri parametrici   * tetraedro, esaedro, ottaedro, dodecaedro, icosaedro, icosaedro_troncato.
 
 
 </div>
@@ -29,7 +29,7 @@ Questa macro crea poliedri parametrici   * tetraedro, esaedro, ottaedro, dodecae
 
 Se sei interessato anche alle piramidi, puoi utilizzare Macro piramide.
 
-Puoi anche utilizzare il workbench esterno [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (link github) che contiene le stesse funzioni.
+Puoi anche utilizzare il workbench esterno [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (link github) che contiene le stesse funzioni.
 
 
 </div>
@@ -62,7 +62,7 @@ Puoi anche utilizzare il workbench esterno [Pyramids\_and\_Polyhedrons](https   
 
 </div>
 
--   Maggiori informazioni su [Pyramids\_and\_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+-   Maggiori informazioni su [Pyramids_and_Polyhedrons](https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
 
 
 <div class="mw-translate-fuzzy">

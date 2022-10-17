@@ -125,7 +125,7 @@ structure_drawing_page_dict = make_reinforcement_drawing.makeStructuresReinforce
 
 -    `structure_list`est la liste des objets structurels pour générer leur dessin des armatures. Si elles ne sont pas fournies, les structures seront sélectionnées dans le document actif agissant en tant qu\'hôte pour les objets d\'armature.
 
--    `rebars_list`est la liste des objets d\'armature à inclure dans le dessin. S\'ils ne sont pas fournis, les objets d\'armature ayant Host dans structure\_list seront sélectionnés dans le document actif.
+-    `rebars_list`est la liste des objets d\'armature à inclure dans le dessin. S\'ils ne sont pas fournis, les objets d\'armature ayant Host dans structure_list seront sélectionnés dans le document actif.
 
 -    `view`spécifie la vue du dessin à générer. Il peut s\'agir de \"Front\", \"Rear\", \"Left\", \"Right\", \"Top\" or \"Bottom\". (Avant, Arrière, Gauche, Droite, Haut ou Bas).
 
@@ -631,7 +631,7 @@ structure_drawing_page_dict = makeStructuresReinforcementDrawing(
 
 -    `structure_list`est la liste des objets structurels pour générer leur dessin des armatures. Si elles ne sont pas fournies, les structures seront sélectionnées à partir du document actif agissant comme hôte pour les objets d\'armature.
 
--    `rebars_list`est la liste des objets d\'armature à inclure dans le dessin. S\'ils ne sont pas fournis, les objets d\'armature ayant Host dans structure\_list seront sélectionnés à partir du document actif.
+-    `rebars_list`est la liste des objets d\'armature à inclure dans le dessin. S\'ils ne sont pas fournis, les objets d\'armature ayant Host dans structure_list seront sélectionnés à partir du document actif.
 
 
 <div class="mw-collapsible toccolours mw-collapsed">

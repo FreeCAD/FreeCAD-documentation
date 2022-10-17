@@ -107,7 +107,7 @@ class Ui_Dialog(object)   *
         Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Dialog", None, QtGui.QApplication.UnicodeUTF8))
         self.title.setText(QtGui.QApplication.translate("Dialog", "Plane-O-Matic", None, QtGui.QApplication.UnicodeUTF8))
         ...
-``` Wie du siehst, hat es eine sehr einfache Struktur   * eine Klasse genannt Ui\_Dialog wird erstellt, die die Elemente der Benutzeroberfläche unseres Widgets speichert. Diese Klasse hat zwei Methoden, eine für die Einrichtung des Widgets und eine für die Übersetzung ihres Inhalts, was ein Teil des allgemeinen Qt Mechanismus für die Übersetzung von Oberflächenelementen ist. Das Einrichtungsverfahren erzeugt einfach eins nach dem anderen die Widgets, wie wir sie in Qt Designer festgelegt haben und setzt ihre Optionen, die wir ebenfalls gewählt haben. Dann wird die ganze Schnittstelle schließlich übersetzt, die Slots werden verbunden (wir werden darüber später sprechen).
+``` Wie du siehst, hat es eine sehr einfache Struktur   * eine Klasse genannt Ui_Dialog wird erstellt, die die Elemente der Benutzeroberfläche unseres Widgets speichert. Diese Klasse hat zwei Methoden, eine für die Einrichtung des Widgets und eine für die Übersetzung ihres Inhalts, was ein Teil des allgemeinen Qt Mechanismus für die Übersetzung von Oberflächenelementen ist. Das Einrichtungsverfahren erzeugt einfach eins nach dem anderen die Widgets, wie wir sie in Qt Designer festgelegt haben und setzt ihre Optionen, die wir ebenfalls gewählt haben. Dann wird die ganze Schnittstelle schließlich übersetzt, die Slots werden verbunden (wir werden darüber später sprechen).
 
 Wir können jetzt ein neues Widget erstellen und diese Klasse verwenden, um seine Oberfläche zu schaffen. Wir können bereits unser Widget in Aktion sehen, indem wir unsere mywidget.py Datei an einem Ort speichern, wo FreeCAD es findet (im FreeCAD bin Verzeichnis, oder in einem der Mod Unterverzeichnisse), und dann im FreeCAD Python Interpreter eintippen   * 
 ```python
@@ -129,7 +129,7 @@ Nun, da wir unseren Dialog ein- und ausblenden können, müssen wir nur noch ein
 Was wir hier tun werden, ist eine neue Funktion zu erstellen, die eine Ebene erzeugt, beruhend auf Höhe und Breite, und in Verbindung steht diese Funktion mit dem gedrückt Signal, das unser \"Create\" Knopf abgibt. Also lass uns mit dem Importieren unserer FreeCAD Module beginnen, durch setzen der folgenden Zeile an den Anfang des Skripts, wo wir bereits QtCore und QtGui importieren   * 
 ```python
 import FreeCAD, Part
-``` Dann lass uns eine neue Funktion zu unserer Ui\_Dialog Klasse hinzufügen   * 
+``` Dann lass uns eine neue Funktion zu unserer Ui_Dialog Klasse hinzufügen   * 
 ```python
 def createPlane(self)   *
     try   *
@@ -152,7 +152,7 @@ def createPlane(self)   *
 ``` Dann müssen wir Qt mitteilen, dass die Schaltfläche mit der Funktion verbunden werden soll, indem wir die folgende Zeile unmittelbar vor QtCore.QMetaObject.connectSlotsByName(Dialog) setzen   * 
 ```python
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
-``` Dies verbindet, wie du siehst, das pressed() Signal unseres create Objekts (die Schaltfläche \"Create!\") mit einem Slot namens createPlane, den wir gerade definiert haben. Das war\'s! Als letzten Schliff können wir nun noch eine kleine Funktion zum Erstellen des Dialogs hinzufügen, die einfacher aufzurufen sein wird. Außerhalb der Klasse Ui\_Dialog fügen wir diesen Code hinzu   * 
+``` Dies verbindet, wie du siehst, das pressed() Signal unseres create Objekts (die Schaltfläche \"Create!\") mit einem Slot namens createPlane, den wir gerade definiert haben. Das war\'s! Als letzten Schliff können wir nun noch eine kleine Funktion zum Erstellen des Dialogs hinzufügen, die einfacher aufzurufen sein wird. Außerhalb der Klasse Ui_Dialog fügen wir diesen Code hinzu   * 
 ```python
 class plane()   *
    def __init__(self)   *

@@ -24,7 +24,9 @@ Erstellt eine FEM-Randbedingungn für einen festgelegten Versatz eines ausgewäh
 
 ## Hinweise
 
-1.  The constraint uses the \*BOUNDARY card in CalculiX. Fixing a degree of freedom is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html> and prescribing a displacement for a degree of freedom is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
+-   The constraint uses the \*BOUNDARY card in CalculiX.
+-   Fixing a degree of freedom is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>
+-   Prescribing a displacement for a degree of freedom is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
 
 
 

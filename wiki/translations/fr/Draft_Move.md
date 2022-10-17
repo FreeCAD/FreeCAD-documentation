@@ -49,7 +49,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 -   Appuyez sur **P** ou cliquez sur la case **Copie** pour activer le mode copie. Si le mode copie est activé, la commande créera des copies déplacées au lieu de déplacer les objets originaux.
 -   Appuyez sur **D** ou cliquez sur la case **Modifier les sous-éléments** pour faire basculer le mode sous-élément. Si le mode sous-élément est activé, la commande utilisera les sous-éléments sélectionnés au lieu des objets entiers. Les sous-éléments doivent appartenir à [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 -   Si le mode copie et le mode sous-élément sont tous deux activés et que les bords de [Draft Polylignes](Draft_Wire/fr.md) sont sélectionnés, de nouveaux fils seront créés à partir de ces bords.
--   En maintenant la touche **Alt** enfoncée après avoir choisi le point de base, vous basculerez également en mode copie. Pendant que vous maintenez la touche **Alt** enfoncée, vous pouvez choisir plusieurs points cibles. Relâchez **Alt** pour terminer la commande et voir les copies créées. Cette option ne fonctionne pas dans la version 0.19 de FreeCAD.
+-   En maintenant la touche **Alt** enfoncée après avoir choisi le point de base, vous basculerez également en mode copie. Pendant que vous maintenez la touche **Alt** enfoncée, vous pouvez choisir plusieurs points cibles. Relâchez **Alt** pour terminer la commande et voir les copies créées.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 

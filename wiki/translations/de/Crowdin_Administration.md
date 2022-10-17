@@ -7,17 +7,11 @@
     -   Kann Übersetzungen in einer Sprache vorschlagen und darüber abstimmen.
     -   Kann Zusammenhänge/Verständlichkeit erfragen, Fehler in der zu übersetzenden Passage melden, einen aktuellen Übersetzungsbeitrag diskutieren, etc\...
 
-
-<div class="mw-translate-fuzzy">
-
 -   Korrekturleser/in
-    -   Handhabt die Übersetzungen, die Übersetzer vorgeschlagen/erstellt haben. Die Übersetzung wird von der Korrekturleser/in akzeptiert/zurückgewiesen.
-    -   Ein weiterer Schritt wird benötigt, um die abschließende Zustimmung zu erteilen. Weil einer Übersetzung \'zuzustimmen\' ein erneutes Lesen und das Setzen eines Kontrollvermerks erfordert, bietet es eine Art von \"Qualitätssicherung\"s-Ebene. Sobald einer Übersetzung zugestimmt wurde, wird die Zeichenkette grün markiert und der grüne Anteil des Statusbalkens der Sprache wird wachsen. Der grüne Anteil kann die \'Gesundheit\' der zu übersetzenden Sprache anzeigen. Es erlaubt den Entwicklern eine zusätzliche Flexibilität, nur Übersetzungen zusammenzuführen, denen zugestimmt wurde.
-    -   Befasst sich mit den Fragen der Übersetzer innerhalb der Crowdin-Oberfläche. Bspw. wenn mehr Kontext benötigt wird oder wenn ein Fehler in der zu übersetzenden Passage ist oder falls über eine Übersetzung diskutiert wird, die akzeptiert bzw. der zugestimmt wurde, etc\...
-    -   Meldet relevante Themen an Entwickler, die Änderungen am Quell-Code erfordern, etc\...
-
-
-</div>
+    -   Verwaltet die Übersetzungen, die Übersetzer vorgeschlagen/erstellt haben. Die Übersetzung wird von der Korrekturleser/in akzeptiert/zurückgewiesen.
+    -   Ein weiterer Schritt wird benötigt, um die abschließende Bestätigung zu erteilen. Weil die \'Bestätigung\' einer Übersetzung ein erneutes Lesen und das Setzen eines Kontrollvermerks erfordert, bietet es eine Art von \"Qualitätssicherungsebene\". Sobald eine Übersetzung bestätigt wurde, wird die Zeichenkette grün markiert und der grüne Anteil des Statusbalkens der Sprache wird wachsen. Der grüne Anteil kann die \'Gesundheit\' der zu übersetzenden Sprache anzeigen. Es erlaubt den Entwicklern eine zusätzliche Flexibilität, nur Übersetzungen zu übernehmen, denen zugestimmt wurde.
+    -   Befasst sich mit den Fragen der Übersetzer innerhalb der Crowdin-Oberfläche. Wenn z.B. mehr Angaben zum Kontext benötigt werden, wenn die zu übersetzende Passage Fehler enthält, falls über eine Übersetzung diskutiert wird, die schon bestätigt wurde usw\...
+    -   Meldet relevante Themen, die Änderungen am Quell-Code erfordern usw., an die Entwickler.
 
 ## Zeichenketten filtern 
 
@@ -33,13 +27,13 @@ Die Verwendung von Tastaturkürzeln ist ein wichtiger Beitrag zur Zeitersparnis 
 
 **Wichtiger Hinweis   *** Bitte achte sorgfältig darauf, keine Fehler in Übersetzungszeichenfolgen einzuführen, die durch unsachgemäße Tastendrücke erzeugt wurden, die als Tastenkürzel gedacht waren.
 
-**Frequently used shortcuts   ***
+**Oft genutzte Tastaturkürzel   ***
 
 -   Copy source translation   * **Alt**+**C**
--   Save translation   * **Ctrl**+**Enter**
--   Approve translation   * **Alt**+**L** (relevant for proofreaders)
+-   Übersetzung speichern   * **Ctrl**+**Enter**
+-   Übersetzung bestätigen   * **Alt**+**L** (relevant für Kurrekturlesende)
 
-## Fix translation issues 
+## Überstzungsprobleme beheben 
 
 If you notice a string in the FreeCAD UI that is not translated do the following   *
 

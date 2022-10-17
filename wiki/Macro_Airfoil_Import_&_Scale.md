@@ -52,7 +52,7 @@ The latest version of the macro is to be found at [AirfoilImportAndScale.FCMacro
 
 ToolBar icon ![](images/Macro_Airfoil_Import_&_Scale.png )
 
-**Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
+**Macro_Airfoil_Import\_&\_Scale.FCMacro**
 
 
 {{MacroCode|code=
@@ -213,7 +213,7 @@ AirfoilImporterAndScaler()
 
 
 
-**Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
+**Macro_Airfoil_Import\_&\_Scale.FCMacro**
 
 
 {{MacroCode|code=

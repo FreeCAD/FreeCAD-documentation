@@ -31,7 +31,7 @@ Zkopírujte makro a ikonu do adresáře maker.
 
 -   ****Sort |****   * Třídit položky dat.
 -   ****Reverse****   * Obrácení pořadí dat.
--   \'\'\' **Reset** / **Upgrade** \'\'\'   * Toto tlačítko tolik funkcí   *
+-   ****Reset** / **Upgrade****   * Toto tlačítko tolik funkcí   *
 -   \# Je-li výběr v 3D zobrazen, zobrazí se toto tlačítko **Upgrade**.
     Vyberte objekt v zobrazení 3Dview nebo Combo a klepnutím na toto tlačítko aktualizujete údaje v makru, změní se tlačítko **Reset**.
 -   \# Je-li vybrán jeden nebo více objektů před spuštěním makra, zobrazí se toto tlačítko **Reset**.
@@ -52,7 +52,7 @@ Zkopírujte makro a ikonu do adresáře maker.
 
 Ikony pro nástroj Toolbar <img alt="" src=images/FCCreaLoft.png  style="width   *64px;">
 
-Stáhněte makro na Gist [**Macro\_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
+Stáhněte makro na Gist [**Macro_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
 
 ## Odkazy
 

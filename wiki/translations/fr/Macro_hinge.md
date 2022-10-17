@@ -18,19 +18,19 @@ Simulation de pivotement d\'une charnière
 
 ## Utilisation
 
-Ouvrez les deux fichiers (20140908b\_Hinge-1.FCMacro et 20140908b\_Hinge-1.FCStd) dans FreeCAD avec 2 écrans (Menu   * Fenêtre \> Mosaïque) et lancez la macro ou lancez la macro avec le bouton ![](images/Std_DlgMacroExecuteDirect.svg )
+Ouvrez les deux fichiers (20140908b_Hinge-1.FCMacro et 20140908b_Hinge-1.FCStd) dans FreeCAD avec 2 écrans (Menu   * Fenêtre \> Mosaïque) et lancez la macro ou lancez la macro avec le bouton ![](images/Std_DlgMacroExecuteDirect.svg )
 
 <img alt="Charnière" src=images/Hing_01.png  style="width   *300px;">
 
 ## Le Fichier 
 
-[20140908b\_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628)
+[20140908b_Hinge-1.fcstd](http   *//forum.freecadweb.org/download/file.php?id=7628)
 
 ## Script
 
 ToolBar Icon ![](images/Macro_hinge.png )
 
-**20140908b\_Hinge-1.FCMacro**
+**20140908b_Hinge-1.FCMacro**
 
 
 {{MacroCode|code=

@@ -34,7 +34,7 @@ a dome shape should appear. You can then edit dome parameters by altering proper
 
 ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
 
-**Macro\_Geodesic\_Dome.FCMacro**
+**Macro_Geodesic_Dome.FCMacro**
 
     # -*- coding   * utf-8 -*-
 

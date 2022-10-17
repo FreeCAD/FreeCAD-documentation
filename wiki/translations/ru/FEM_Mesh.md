@@ -1,121 +1,642 @@
 # FEM Mesh/ru
 {{TOCright}}
 
-## Create a finite element mesh 
+## Создание сетки конечных элементов 
 
+Анализ методом конечных элементов выполняется над сеткой состоящей из множества соединенных между собой треугольных и четырехугольных конечных элементов, которые формируются в результате разделения исходного тела. Чем точнее сформирована эта сетка, тем точнее будут результаты вычислений, но и время потраченное на вычисления тоже будет больше. Баланс между размером сетки, временем вычислений и точностью результатов является важной характеристикой качественного анализа методом конечных элементов.
 
-<div class="mw-translate-fuzzy">
+В [верстаке FEM](FEM_Workbench/ru.md) существует несколько способов получения сетки для расчета МКЭ   *
 
-## Создать FEM Mesh 
+-   Через графический интерфейс с помощью инструмента [GMSH](FEM_MeshGmshFromShape/ru.md).
+-   Через графический интерфейс с помощью инструмента [Netgen](FEM_MeshNetgenFromShape/ru.md).
+-   Импорт сетки из другой программы. В частности, Gmsh и Netgen могут использоваться сами по себе вне FreeCAD для генерации сеток из твердых тел таких как Step-файлы.
+-   Создание сетки \"вручную\" с помощью [Python](Python/ru.md) скриптов.
 
-Анализ методом конечных элементов выполняется на сетке, состоящей из множества треугольных и четырехугольных конечных элементов, которые разделяют исходное тело. Чем точнее будет сетка, тем точнее будут численные результаты, но и время вычисления будет больше. Баланс между размером сетки, временем вычислений и точностью результатов является важной характеристикой четко определенного анализа методом конечных элементов.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Существуют различные возможности для создания сетки МКЭ в [верстаке FEM](FEM_Workbench/ru.md)   *
-
--   [Инструмент GMSH](FEM_MeshGmshFromShape/ru.md) с использованием графического интерфейса.
--   [Инструмент Netgen](FEM_MeshNetgenFromShape/ru.md) с использованием графического интерфейса.
--   Импорт сетки из другой программы. В частности, Gmsh и Netgen могут использоваться сами по себе вне FreeCAD с сетками твердых тел вроде файлов Step.
--   Создание сетки вручную с помощью скриптов [Python](Python/ru.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Инструменты Gmsh и Netgen поддерживают создание сеток из тела, созданных с помощью [верстаков Part](Part_Workbench/ru.md) и [PartDesign](PartDesign_Workbench/ru.md), а также простые копии этих тел. В общем, любой верстак, который генерирует твердые объекты, например [верстак Arch](Arch_Workbench/ru.md), можно использовать для создания сеток. Обратите внимание, что сетка, используемая для FEA, не то же самое что сетка, созданная или импортированная из [верстака Mesh](Mesh_Workbench/ru.md).
-
-
-</div>
+Инструменты Gmsh и Netgen поддерживают создание сеток из тел, созданных в верстаках [Part](Part_Workbench/ru.md) и [PartDesign](PartDesign_Workbench/ru.md), а также из простых копии этих тел. В общем, любой верстак, который генерирует твердые объекты, например [верстак Arch](Arch_Workbench/ru.md), также можно использовать для создания сеток. Обратите внимание, что сетка, используемая для АКЭ, не то же самое что сетка, созданная или импортированная из [верстака Mesh](Mesh_Workbench/ru.md).
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width   *600px;"> 
-*The FEM Workbench calls the external tool Gmsh to obtain a mesh from a solid body created with any workbench in FreeCAD; it can also import a mesh created externally*
+*Вестак FEM вызывает внешний инструмент Gmsh для получения сетки сгенерированной из твердого тела, которое может быть создано в нескольких верстаках FreeCAD; также можно импортировать сетку, созданную внешним приложением*
 
 <img alt="" src=images/FEM_Mesh.png  style="width   *600px;"> 
-*(1) Solid body created with PartDesign; (2) mesh produced by the Gmsh tool inside the FEM Workbench (all triangles); and (3) mesh produced externally by Gmsh, exported to Abaqus format **.inp*, and then imported into FreeCAD (all quadrangles)**
+*(1) Твердое тело, созданное с помощью PartDesign; (2) сетка, созданная инструментом Gmsh в FEM верстке (все элементы треугольные); и (3) сетка, созданная Gmsh извне, экспортированная в формат Abaqus **.inp*, а затем импортированная в FreeCAD (все элементы четырехугольные)**
 
 The [Gmsh](FEM_MeshGmshFromShape.md) and [Netgen tools](FEM_MeshNetgenFromShape.md) are convenience tools to quickly mesh a body, and thus don\'t expose the full capabilities of these programs; they normally create triangular meshes, which may not be ideal for some types of analysis. If you\'d like to have more control of the created mesh (use only quadrilaterals, precise element number and size, variable resolution of the mesh, etc.), you should use these programs externally, produce a mesh file in a supported format (**.inp**, **.unv**, **.vtk**, **.z88**), and import this file into FreeCAD.
 
 Previously, Netgen was included with FreeCAD and could be used immediately. Now, both Netgen and Gmsh should be installed before they can be used by the [FEM Workbench](FEM_Workbench.md). Refer to [FEM Install](FEM_Install.md) for instructions.
 
-## Meshing software 
+## Программное обеспечение для разделения тел на сетки конечных элементов 
 
 Meshing software operates on solid bodies that can be in different formats, like Step and Brep. These programs can be used independently of FreeCAD, and typically have many options to control the meshing algorithms, element size, and boundary conditions.
 
 The [FEM Workbench](FEM_Workbench.md) has developed simple communication interfaces to use Gmsh and Netgen directly inside FreeCAD. Other programs don\'t have an interface, but this could change in the future if there is interest from the community, and if those applications are easy to integrate. The meshing software can be compiled and distributed together with FreeCAD only if its license is compatible with the LGPL2 license; otherwise, the program has to be used as an external binary, like Gmsh (GPL2) is used.
 
-### Interface implemented in FreeCAD 
+### Встроенные в интерфейс FreeCAD 
 
--   Gmsh   * [main website](http   *//gmsh.info/), [code repository](https   *//gitlab.onelab.info/gmsh/gmsh)
--   Netgen   * [main website](https   *//ngsolve.org/), [code repository](https   *//github.com/NGSolve/netgen)
+-   Gmsh   * [основной вебсайт](http   *//gmsh.info/), [исходный код](https   *//gitlab.onelab.info/gmsh/gmsh)
+-   Netgen   * [основной вебсайт](https   *//ngsolve.org/), [исходный код](https   *//github.com/NGSolve/netgen)
 
-### No interface in FreeCAD 
+### Не встроенные в интерфейс FreeCAD 
 
--   ENigMA, [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=33048), [code repository](https   *//github.com/bjaraujo/ENigMA)
--   libMesh, [main website](http   *//libmesh.github.io/), [code repository](https   *//github.com/libMesh/libmesh), [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=33621); it\'s a very active project, and it\'s C++ only
--   PythonOCC, [main website](http   *//www.pythonocc.org/)
--   SnappyHexMesh, [main website](https   *//openfoamwiki.net/index.php/SnappyHexMesh)
--   Tetgen, [main website](http   *//wias-berlin.de/software/tetgen/)
+-   ENigMA, [ветка на форуме](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=33048), [исходный код](https   *//github.com/bjaraujo/ENigMA)
+-   libMesh, [основной вебсайт](http   *//libmesh.github.io/), [исходный код](https   *//github.com/libMesh/libmesh), [ветка на форуме](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=33621); это активный проект, но работает только на C++
+-   PythonOCC, [основной вебсайт](http   *//www.pythonocc.org/)
+-   SnappyHexMesh, [основной вебсайт](https   *//openfoamwiki.net/index.php/SnappyHexMesh)
+-   Tetgen, [основной вебсайт](http   *//wias-berlin.de/software/tetgen/)
 
-## Mesh elements in FreeCAD 
+## Поддерживаемые в FreeCAD элементы сетки 
 
 FreeCAD supports various element types. The following article explains the difference between them, and when should be used   * [Meshing Your Geometry   * When to Use the Various Element Types](https   *//www.comsol.com/blogs/meshing-your-geometry-various-element-types/).
 
-<table><caption>Import and export of mesh elements</caption><thead><tr class="header"><th><p>Element</p></th><th><p>Element</p></th><th><p>FreeCAD API</p></th><th><p>FreeCAD GUI</p></th><th><p>med</p></th><th><p>unv</p></th><th><p>inp</p></th><th><p>frd</p></th><th><p>txt</p></th><th><p>xml</p></th></tr></thead><tbody><tr class="odd"><td><p>Med</p></td><td><p>CalculiX</p></td><td><p>Python</p></td><td><p>FEM Mesh</p></td><td><p>SMESH</p></td><td><p>IDEAS/FreeCAD</p></td><td><p>Abaqus/CalculiX</p></td><td><p>Result Mesh</p></td><td><p>Z88</p></td><td><p>FEniCS</p></td></tr><tr class="even"><td><p>Name</p></td><td><p>Name</p></td><td><p>create elements</p></td><td><p>view elements</p></td><td><p>import/export</p></td><td><p>import/export</p></td><td><p>import/export</p></td><td><p>import</p></td><td><p>import/export</p></td><td><p>import/export</p></td></tr><tr class="odd"><td><p>seg 2</p></td><td><p>B31</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td></tr><tr class="even"><td><p>seg 3</p></td><td><p>B32</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><p>NI</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>tria 3</p></td><td><p>S3</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td></tr><tr class="even"><td><p>tria 6</p></td><td><p>S6</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>quad 4</p></td><td><p>S4</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td></tr><tr class="even"><td><p>quad 8</p></td><td><p>S8</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>tetra 4</p></td><td><p>C3D4</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td></tr><tr class="even"><td><p>tetra 10</p></td><td><p>C3D10</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>hexa 8</p></td><td><p>C3D8</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><p>(<img src="Edit_Cancel.svg" title="fig   *Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />) the format allows it,<br />
-but it's not readable or writable by FEniCS</p></td></tr><tr class="even"><td><p>hexa 20</p></td><td><p>C3D20</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>penta 6</p></td><td><p>C3D6</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><p>?</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="even"><td><p>penta 15</p></td><td><p>C3D15</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><p>?</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>pyra 5</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="even"><td><p>pyra 13</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr></tbody></table>
+<table>
+<caption>Импорт и экспорт элементов сетки</caption>
+<thead>
+<tr class="header">
+<th><p>Element</p></th>
+<th><p>Element</p></th>
+<th><p>FreeCAD API</p></th>
+<th><p>FreeCAD GUI</p></th>
+<th><p>med</p></th>
+<th><p>unv</p></th>
+<th><p>inp</p></th>
+<th><p>frd</p></th>
+<th><p>txt</p></th>
+<th><p>xml</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Med</p></td>
+<td><p>CalculiX</p></td>
+<td><p>Python</p></td>
+<td><p>FEM Mesh</p></td>
+<td><p>SMESH</p></td>
+<td><p>IDEAS/FreeCAD</p></td>
+<td><p>Abaqus/CalculiX</p></td>
+<td><p>Result Mesh</p></td>
+<td><p>Z88</p></td>
+<td><p>FEniCS</p></td>
+</tr>
+<tr class="even">
+<td><p>Название</p></td>
+<td><p>Название</p></td>
+<td><p>создание элементов</p></td>
+<td><p>просмотр элементов</p></td>
+<td><p>импорт/экспорт</p></td>
+<td><p>импорт/экспорт</p></td>
+<td><p>импорт/экспорт</p></td>
+<td><p>импорт</p></td>
+<td><p>импорт/экспорт</p></td>
+<td><p>импорт/экспорт</p></td>
+</tr>
+<tr class="odd">
+<td><p>seg 2</p></td>
+<td><p>B31</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<td><p>seg 3</p></td>
+<td><p>B32</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><p>НР</p></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="odd">
+<td><p>tria 3</p></td>
+<td><p>S3</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<td><p>tria 6</p></td>
+<td><p>S6</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="odd">
+<td><p>quad 4</p></td>
+<td><p>S4</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<td><p>quad 8</p></td>
+<td><p>S8</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="odd">
+<td><p>tetra 4</p></td>
+<td><p>C3D4</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<td><p>tetra 10</p></td>
+<td><p>C3D10</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="odd">
+<td><p>hexa 8</p></td>
+<td><p>C3D8</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><p>(<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />) допускается форматом,<br />
+но не доступно для чтения или записи<br />
+с помощью FEniCS</p></td>
+</tr>
+<tr class="even">
+<td><p>hexa 20</p></td>
+<td><p>C3D20</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="odd">
+<td><p>penta 6</p></td>
+<td><p>C3D6</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><p>?</p></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<td><p>penta 15</p></td>
+<td><p>C3D15</p></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><p>?</p></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="odd">
+<td><p>pyra 5</p></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<td><p>pyra 13</p></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
+<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+<td><figure>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
+<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+</figure></td>
+</tr>
+</tbody>
+</table>
 
-   * Import and export of mesh elements
+   * Импорт и экспорт элементов сетки
 
--   \"NI\" means the element type is not implemented in FreeCAD but the format would support it.
--   <img alt="" src=images/Edit_Cancel.svg  style="width   *20px;"> means the format specification does not support this element type, thus FreeCAD cannot support it.
--   \"?\" means it is not known if the format supports this element type.
+-   \"НР\" означает, что тип элемента Не Реализован в FreeCAD, но формат будет поддерживать его.
+-   <img alt="" src=images/Edit_Cancel.svg  style="width   *20px;"> означает, что спецификация формата не поддерживает этот тип элемента, поэтому FreeCAD не поддерживает его.
+-   \"?\" означает, что неизвестно, поддерживает ли формат этот тип элементов.
 
-## FEM element types 
+## Типы элементов МКЭ 
 
 More information on the elements, and their data structure inside FreeCAD can be found in [FEM Element Types](FEM_Element_Types.md).
 
-### Segment element 
+### Сегмент (сегментный элемент) 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width   *600px;">
 
-### Triangle element 
+### Треугольный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width   *600px;">
 
-### Quadrangle element 
+### Четырехугольный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width   *600px;">
 
-### Tetrahedron element 
+### Тетраэдральный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width   *600px;">
 
-### Hexahedron element 
+### Шестигранный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width   *600px;">
 
-### Pentahedron element (prism) 
+### Пентаэдральный (призматический) элемент 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width   *600px;">
 
-### Pyramid element 
+### Пирамидальный элемент 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width   *600px;">
 
-## Scripting
+## Программирование
 
 ### Create a FEM mesh completely in Python 
 
 
-**See also   ***
+**Смотрите так же   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Python API allows the user to define a finite element mesh by directly adding individual nodes, and defining edges, faces, and volumes.
 

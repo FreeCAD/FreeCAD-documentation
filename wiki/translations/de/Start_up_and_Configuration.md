@@ -188,23 +188,23 @@ Einige Bibliotheken müssen Systemumgebungsvariablen aufrufen. Manchmal, wenn es
 
 -   PYTHONPATH
 -   PYTHONHOME
--   TCL\_LIBRARY
+-   TCL_LIBRARY
 -   TCLLIBPATH
 
 **OpenCascade**
 
--   CSF\_MDTVFontDirectory
--   CSF\_MDTVTexturesDirectory
--   CSF\_UnitsDefinition
--   CSF\_UnitsLexicon
--   CSF\_StandardDefaults
--   CSF\_PluginDefaults
--   CSF\_LANGUAGE
--   CSF\_SHMessage
--   CSF\_XCAFDefaults
--   CSF\_GraphicShr
--   CSF\_IGESDefaults
--   CSF\_STEPDefaults
+-   CSF_MDTVFontDirectory
+-   CSF_MDTVTexturesDirectory
+-   CSF_UnitsDefinition
+-   CSF_UnitsLexicon
+-   CSF_StandardDefaults
+-   CSF_PluginDefaults
+-   CSF_LANGUAGE
+-   CSF_SHMessage
+-   CSF_XCAFDefaults
+-   CSF_GraphicShr
+-   CSF_IGESDefaults
+-   CSF_STEPDefaults
 
 ## Konfigurationssatz
 
@@ -213,39 +213,39 @@ Bei jedem Start prüft FreeCAD seine Umgebung und die Kommandozeilenparameter. E
 ### Benutzerbezogene Informationen 
 
 +++++
-| Konfig.-Variable | Beschreibung                                                 | Beispiel Windows                                                             | Beispiel Posix (Linux)                                                |
-+==================+==============================================================+==============================================================================+=======================================================================+
-| UserAppData      | Pfad, wo FreeCAD benutzerbezogene Anwendungsdaten speichert  |                                                               |                                                        |
-|                  |                                                              | **C   *Documents and Settings\username\AppData\FreeCAD**              | **/home/username/.FreeCAD**                                  |
-|                  |                                                              |                                                                           |                                                                    |
-|                  |                                                              |                                                                    |                                                             |
-|                  |                                                              | <hr />                                                                       | <hr />                                                                |
-|                  |                                                              |                                                                           |                                                                    |
-|                  |                                                              | \'\'Short path    * \'\'**%APPDATA%\FreeCAD**            | \'\'Short path    * \'\'**~/.FreeCAD**            |
+| Konfig.-Variable | Beschreibung                                                 | Beispiel Windows                                                           | Beispiel Posix (Linux)                                         |
++==================+==============================================================+============================================================================+================================================================+
+| UserAppData      | Pfad, wo FreeCAD benutzerbezogene Anwendungsdaten speichert  |                                                             |                                                 |
+|                  |                                                              | **C   *Documents and Settings\username\AppData\FreeCAD**            | **/home/username/.FreeCAD**                           |
+|                  |                                                              |                                                                         |                                                             |
+|                  |                                                              |                                                                  |                                                      |
+|                  |                                                              | <hr />                                                                     | <hr />                                                         |
+|                  |                                                              |                                                                         |                                                             |
+|                  |                                                              | *Short path    ****%APPDATA%\FreeCAD**                 | *Short path    ****~/.FreeCAD**            |
 +++++
-| UserParameter    | Datei, wo FreeCAD benutzerbezogene Anwendungsdaten speichert |                                                               |                                                        |
-|                  |                                                              | **C   *Documents and Settings\username\AppData\FreeCAD\user.cfg**     | **/home/username/.FreeCAD/user.cfg**                         |
-|                  |                                                              |                                                                           |                                                                    |
-|                  |                                                              |                                                                    |                                                             |
-|                  |                                                              | <hr />                                                                       | <hr />                                                                |
-|                  |                                                              |                                                                           |                                                                    |
-|                  |                                                              | \'\'Short path    * \'\'**%APPDATA%\FreeCAD\user.cfg**   | \'\'Short path    * \'\'**~/.FreeCAD/user.cfg**   |
+| UserParameter    | Datei, wo FreeCAD benutzerbezogene Anwendungsdaten speichert |                                                             |                                                 |
+|                  |                                                              | **C   *Documents and Settings\username\AppData\FreeCAD\user.cfg**   | **/home/username/.FreeCAD/user.cfg**                  |
+|                  |                                                              |                                                                         |                                                             |
+|                  |                                                              |                                                                  |                                                      |
+|                  |                                                              | <hr />                                                                     | <hr />                                                         |
+|                  |                                                              |                                                                         |                                                             |
+|                  |                                                              | *Short path    ****%APPDATA%\FreeCAD\user.cfg**        | *Short path    ****~/.FreeCAD/user.cfg**   |
 +++++
-| SystemParameter  | Datei, wo FreeCAD anwendungsbezogene Daten speichert         |                                                               |                                                        |
-|                  |                                                              | **C   *Documents and Settings\username\AppData\FreeCAD\system.cfg**   | **/home/username/.FreeCAD/system.cfg**                       |
-|                  |                                                              |                                                                           |                                                                    |
-|                  |                                                              |                                                                    |                                                             |
-|                  |                                                              | <hr />                                                                       | <hr />                                                                |
-|                  |                                                              |                                                                           |                                                                    |
-|                  |                                                              | \'\'Short path    * \'\'**%APPDATA%\FreeCAD\system.cfg** | \'\'Short path    * \'\'**~/.FreeCAD/system.cfg** |
+| SystemParameter  | Datei, wo FreeCAD anwendungsbezogene Daten speichert         |                                                             |                                                 |
+|                  |                                                              | **C   *Documents and Settings\username\AppData\FreeCAD\system.cfg** | **/home/username/.FreeCAD/system.cfg**                |
+|                  |                                                              |                                                                         |                                                             |
+|                  |                                                              |                                                                  |                                                      |
+|                  |                                                              | <hr />                                                                     | <hr />                                                         |
+|                  |                                                              |                                                                         |                                                             |
+|                  |                                                              | *Short path    ****%APPDATA%\FreeCAD\system.cfg**      | *Short path    ****~/.FreeCAD/system.cfg** |
 +++++
-| UserHomePath     | Home-Verzeichnis des aktuellen Benutzers                     |                                                               |                                                        |
-|                  |                                                              | **C   *Documents and Settings\username**                              | **/home/username**                                           |
-|                  |                                                              |                                                                           |                                                                    |
-|                  |                                                              |                                                                    |                                                             |
-|                  |                                                              | <hr />                                                                       | <hr />                                                                |
-|                  |                                                              |                                                                           |                                                                    |
-|                  |                                                              | \'\'Short path    * \'\'**%USERPROFILE%**                | \'\'Short path    * \'\'**~**                     |
+| UserHomePath     | Home-Verzeichnis des aktuellen Benutzers                     |                                                             |                                                 |
+|                  |                                                              | **C   *Documents and Settings\username**                            | **/home/username**                                    |
+|                  |                                                              |                                                                         |                                                             |
+|                  |                                                              |                                                                  |                                                      |
+|                  |                                                              | <hr />                                                                     | <hr />                                                         |
+|                  |                                                              |                                                                         |                                                             |
+|                  |                                                              | *Short path    ****%USERPROFILE%**                     | *Short path    ****~**                     |
 +++++
 
    * Benutzerkonfigurationseinträge
@@ -279,18 +279,18 @@ Hinweis   * Bei Linux-Distributionen kann es eine weitere Konfigurationsdatei ge
 ### Systembezogen
 
 +++++
-| Konfig var name  | Zusammenfassung                                                                                                                                                                                                                                                                                                                                                        | Beispiel Windows                          | Beispiel Linux                        |
-+==================+========================================================================================================================================================================================================================================================================================================================================================================+===========================================+=======================================+
-| AppHomePath      | Pfad, in dem FreeCAD installiert ist                                                                                                                                                                                                                                                                                                                                   |                            |                        |
-|                  |                                                                                                                                                                                                                                                                                                                                                                        | **c   */Progam Files/FreeCAD_0.19** | **/user/local/FreeCAD_0.19** |
-|                  |                                                                                                                                                                                                                                                                                                                                                                        |                                        |                                    |
+| Konfig var name  | Zusammenfassung                                                                                                                                                                                                                                                                                                                                                    | Beispiel Windows                          | Beispiel Linux                        |
++==================+====================================================================================================================================================================================================================================================================================================================================================================+===========================================+=======================================+
+| AppHomePath      | Pfad, in dem FreeCAD installiert ist                                                                                                                                                                                                                                                                                                                               |                            |                        |
+|                  |                                                                                                                                                                                                                                                                                                                                                                    | **c   */Progam Files/FreeCAD_0.19** | **/user/local/FreeCAD_0.19** |
+|                  |                                                                                                                                                                                                                                                                                                                                                                    |                                        |                                    |
 +++++
-| PythonSearchPath | Enthält eine Liste von Pfaden, die Python Suchmodule. Dies ist beim Start und kann sich während der Ausführung ändern                                                                                                                                                                                                                                                  |                                           |                                       |
+| PythonSearchPath | Enthält eine Liste von Pfaden, die Python Suchmodule. Dies ist beim Start und kann sich während der Ausführung ändern                                                                                                                                                                                                                                              |                                           |                                       |
 +++++
 | AppTempPath      | Pfad des temporären Verzeichnisses. Kann mit der Umgebungsvariablen `TMPDIR` oder mit der Option <img alt="" src=images/Std_DlgParameter.svg  style="width   *16px;"> [Parameter Editor](Std_DlgParameter/de.md)   * **Werkzeuge → Parameter bearbeiten... → BasisAnwendung → Einstellungen → Allgemein → TempPfad** |                                           |                        |
-|                  |                                                                                                                                                                                                                                                                                                                                                                        |                                           | **/tmp/**                    |
-|                  |                                                                                                                                                                                                                                                                                                                                                                        |                                           |                                    |
-|                  |                                                                                                                                                                                                                                                                                                                                                                        |                                           | (default)                             |
+|                  |                                                                                                                                                                                                                                                                                                                                                                    |                                           | **/tmp/**                    |
+|                  |                                                                                                                                                                                                                                                                                                                                                                    |                                           |                                    |
+|                  |                                                                                                                                                                                                                                                                                                                                                                    |                                           | (default)                             |
 +++++
 
 ### Baubezogene Informationen 
@@ -329,7 +329,7 @@ Diese Konfig Einträge beziehen sich auf den Markenmechanismus von FreeCAD. Sieh
 ++++
 | SplashAlignment  | Ausrichtung des Textes im Splash-Dialog                                                                                                    | \"Bottom\" oder \"Left\" |
 ++++
-| SplashTextColor  | Farbe des Splasher-Textes                                                                                                                  | \"\#000000\"             |
+| SplashTextColor  | Farbe des Splasher-Textes                                                                                                                  | \"#000000\"              |
 ++++
 | StartWorkbench   | Name des Arbeitsbereichs, der automatisch nach dem Programmstart gestartet wird                                                            | \"Part design\"          |
 ++++

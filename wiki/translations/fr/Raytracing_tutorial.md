@@ -31,7 +31,7 @@ Ce tutoriel est destiné à présenter au lecteur le fonctionnement de base de l
 
 -   FreeCAD la version 0.16 ou au-dessus.
 -   [POV-Ray](http   *//www.povray.org/) et/ou [LuxRender](https   *//luxcorerender.org/) est installé sur le système.
--   Dans le cas de POV-Ray, il ne suffit pas d\'avoir l\'exécutable binaire en place, cela ***demande*** aussi l\'installation des ***fichiers de support***. Dans Ubuntu, ceux-ci sont fournis par le paquet Recommends-flagged [povray-includes](https   *//packages.ubuntu.com/search?keywords=povray-includes). Des problèmes potentiels ont également été constatés lors d\'installations de Linux nécessitant la création manuelle de fichiers de configuration locaux dans le dossier personnel de l\'utilisateur, comme nous l\'avons vu [ici](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=27548&start=10#p224576).
+-   Dans le cas de POV-Ray, il ne suffit pas d\'avoir l\'exécutable binaire en place, cela ***demande***aussi l\'installation des***fichiers de support***. Dans Ubuntu, ceux-ci sont fournis par le paquet Recommends-flagged [povray-includes](https   *//packages.ubuntu.com/search?keywords=povray-includes). Des problèmes potentiels ont également été constatés lors d\'installations de Linux nécessitant la création manuelle de fichiers de configuration locaux dans le dossier personnel de l\'utilisateur, comme nous l\'avons vu [ici](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=27548&start=10#p224576).
 -   Dans le cas de POV-Ray, l\'installation de [macro de psicofil](https   *//github.com/psicofil/Macros_FreeCAD) est recommandée.
 -   Le lecteur a les connaissances de base pour utiliser les ateliers Part et PartDesign.
 

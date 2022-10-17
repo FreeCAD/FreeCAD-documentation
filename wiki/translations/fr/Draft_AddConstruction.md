@@ -14,10 +14,6 @@
 
 La commande <img alt="" src=images/Draft_AddConstruction.svg  style="width   *24px;"> **Draft Ajouter au groupe de construction** déplace les objets vers le [Draft Groupe de construction](Draft_ToggleConstructionMode/fr.md). Elle applique également la [couleur de la géométrie de la construction](Draft_ToggleConstructionMode/fr#Pr.C3.A9f.C3.A9rences.md) aux objets.
 
-## Bug dans la version 0.19 
-
-Dans la version 0.19 de FreeCAD, cette commande et la commande [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) utilisent généralement des groupes différents. Pour éviter cela, changez **Construction group name** dans les préférences en {{Value|Draft_Construction}}    * **Edition → Préférences... → Draft → Paramètres généraux → Géométrie de construction → Nom du groupe de construction**. Dans la version 0.20, **Construction group name** est utilisé pour le libellé du groupe de construction, le nom du groupe est toujours {{Value|Draft_Construction}}.
-
 ## Utilisation
 
 1.  Sélectionner un ou plusieurs objets.

@@ -1,5 +1,5 @@
 # Std SetColors/fr
-1.  REDIRECT [Part\_FaceColors/fr](Part_FaceColors/fr.md)
+1.  REDIRECT [Part_FaceColors/fr](Part_FaceColors/fr.md)
 
 
 

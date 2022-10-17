@@ -1,5 +1,5 @@
 # Assembly3/de
-1.  REDIRECT [Assembly3\_Workbench/de](Assembly3_Workbench/de.md)
+1.  REDIRECT [Assembly3_Workbench/de](Assembly3_Workbench/de.md)
 
 
 

@@ -76,7 +76,7 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 
 -    **Přesah**   * Seznam přesahů střešních panelů (přesah pro každou hranu v drátu).
 
--    **Povrch**   * Index povrchu, který má být použit u základního objektu \#Ve skutečnosti není použit
+-    **Povrch**   * Index povrchu, který má být použit u základního objektu #Ve skutečnosti není použit
 
 
 </div>

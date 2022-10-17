@@ -1,5 +1,5 @@
 # TechDraw NewDraft/fr
-1.  REDIRECT [TechDraw\_DraftView/fr](TechDraw_DraftView/fr.md)
+1.  REDIRECT [TechDraw_DraftView/fr](TechDraw_DraftView/fr.md)
 
 
 

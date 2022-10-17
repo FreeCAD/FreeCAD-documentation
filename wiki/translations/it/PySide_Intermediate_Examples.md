@@ -89,7 +89,7 @@ Ricordando che le dimensioni dello schermo sono misurate partendo dall\'angolo i
 -   larghezza in pixel della finestra (400)
 -   altezza in pixel della finestra (350)
 
-Dopo viene impostato il titolo della finestra e la riga finale significa semplicemente che questa finestra non sarà mai oscurata da un\'altra finestra, se non si desidera questo, basta semplicemente inserire il carattere di commento Python (\'\#\') come primo carattere della riga.
+Dopo viene impostato il titolo della finestra e la riga finale significa semplicemente che questa finestra non sarà mai oscurata da un\'altra finestra, se non si desidera questo, basta semplicemente inserire il carattere di commento Python (\'#\') come primo carattere della riga.
 
 ### Creare le etichette 
 
@@ -125,7 +125,7 @@ self.checkbox2.clicked.connect(self.onCheckbox2)
 self.checkbox2.move(210,30)
 ```
 
-Le caselle di controllo (Checkbox) possono essere selezionate o deselezionate in qualsiasi combinazione (a differenza dei pulsanti di opzione). La riga 2 ne dichiara una e imposta il suo valore iniziale. La riga 3 specifica quale metodo viene eseguito quando si clicca sulla casella di controllo (in questo caso il metodo \'onCheckBox1\'). Se la riga 4 non non è stata commentata mettendo il carattere di commento Python (\'\#\') come primo carattere, essa viene eseguita e segna la casella di controllo come selezionata. Infine la riga 5 sposta la casella di controllo nella sua posizione.
+Le caselle di controllo (Checkbox) possono essere selezionate o deselezionate in qualsiasi combinazione (a differenza dei pulsanti di opzione). La riga 2 ne dichiara una e imposta il suo valore iniziale. La riga 3 specifica quale metodo viene eseguito quando si clicca sulla casella di controllo (in questo caso il metodo \'onCheckBox1\'). Se la riga 4 non non è stata commentata mettendo il carattere di commento Python (\'#\') come primo carattere, essa viene eseguita e segna la casella di controllo come selezionata. Infine la riga 5 sposta la casella di controllo nella sua posizione.
 
 ### Creare i pulsanti di opzione 
 

@@ -1,5 +1,5 @@
 # Path 3DSurface/fr
-1.  REDIRECT [Path\_Surface/fr](Path_Surface/fr.md)
+1.  REDIRECT [Path_Surface/fr](Path_Surface/fr.md)
 
 
 

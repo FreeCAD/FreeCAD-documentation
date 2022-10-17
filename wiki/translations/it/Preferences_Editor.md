@@ -662,9 +662,6 @@ Nella scheda *Navigazione* si può specificare quanto segue   *
 
 Nella scheda *Colori* si può specificare quanto segue   *
 
-
-<div class="mw-translate-fuzzy">
-
 +++
 | Nome                                                    | Descrizione                                                                                                                                                                                                                                       |
 +=========================================================+===================================================================================================================================================================================================================================================+
@@ -684,6 +681,10 @@ Nella scheda *Colori* si può specificare quanto segue   *
 | **Gradiente di colore**                     |                                                                                                                                                                                                                                                   |
 |                                                      |                                                                                                                                                                                                                                                   |
 +++
+|                                          | Premere questo pulsante per commutare la cima ed il fondo dei colori del gradiente. <small>(v1.0)</small>                                                                                                                                  |
+| **Commuta**                                      |                                                                                                                                                                                                                                                   |
+|                                                      |                                                                                                                                                                                                                                                   |
++++
 |                                          | Questa opzione è abilitata solo se è selezionato **Gradiente di colore**. Se selezionato, il gradiente di colore applicherà il colore selezionato come colore centrale.                                                 |
 | **Colore centrale**                         |                                                                                                                                                                                                                                                   |
 |                                                      |                                                                                                                                                                                                                                                   |
@@ -696,9 +697,6 @@ Nella scheda *Colori* si può specificare quanto segue   *
 | **Contenitore attivo**                      |                                                                                                                                                                                                                                                   |
 |                                                      |                                                                                                                                                                                                                                                   |
 +++
-
-
-</div>
 
 ![](images/Preferences_Display_Tab_Colors_it.png )
 

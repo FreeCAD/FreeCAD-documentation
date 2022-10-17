@@ -2,67 +2,40 @@
 - GuiCommand   */de
    Name   *Draft Text
    Name/de   *Draft Text
-   MenuLocation   *Entwurf → Text
+   MenuLocation   *Anmerkung → Text
    Workbenches   *[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut   ***T** **E**
-   SeeAlso   *[Draft Label](Draft_Label/de.md), [Draft ShapeString](Draft_ShapeString/de.md)
    Version   *0.7
+   SeeAlso   *[Draft Notiz](Draft_Label/de.md), [Draft Textform](Draft_ShapeString/de.md)
 ---
 
 # Draft Text/de
 
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-== Das Textwerkzeug fügt an einer bestimmten Stelle eine mehrzeilige Textbox ein. Es wird das [Draft Linestyle](Draft_Linestyle/de.md) verwendet, das auf dem [Draft Tray](Draft_Tray/de.md) eingestellt ist.
+Der Befehl <img alt="" src=images/Draft_Text.svg  style="width   *24px;"> **Draft Text** erstellt einen mehrzeiligen Text an einem vorgegebenen Punkt.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Um ein Textfeld mit einem Führungszeichen und einem Pfeil zu erstellen, verwenden Sie [Draft Label](Draft_Label.md). Um Volltext oder 3D Buchstaben zu erstellen, verwende [Draft ShapeString](Draft_ShapeString/de.md) mit [Part Extrude](Part_Extrude/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Um stattdessen ein Textelement mit einem Hinweispfeil zu erstellen, verwendet man den Befehl [Draft Notiz](Draft_Label/de.md).
 
 <img alt="" src=images/Draft_Text_example.png  style="width   *400px;"> 
-*Einzelner Punkt erforderlich zum Positionieren der Text-Box*
-
-
-</div>
-
-## Usage
-
-See also   * [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
-
-
-<div class="mw-translate-fuzzy">
+*Ein einzelner Punkt, den das Positionieren des Textes erfordert*
 
 ## Anwendung
 
-1.  Drücke die Schaltfläche **<img src="images/Draft_Text.png" width=16px> [Draft Text](Draft_Text/de.md)** oder drücke **T**, dann **E** Tasten.
-2.  Klicke auf einen Punkt in der 3D Ansicht oder gib eine Koordinate ein und drücke die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**.
-3.  Gib den gewünschten Text ein, drücke **Enter** zwischen jeder Zeile.
-4.  Drücke **Enter** zweimal , um den Vorgang abzuschließen.
+Siehe auch   * [Draft Fach](Draft_Tray/de.md) and [Draft Fangen](Draft_Snap/de.md).
 
-
-</div>
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Draft_Text.svg" width=16px> [Draft Text](Draft_Text.md)** drücken.
+    -   Den Menüeintrag **Anmerkung → <img src="images/Draft_Text.svg" width=16px> Text** auswählen.
+    -   Das Tastaturkürzel **T** dann **E**.
+2.  Der Aufgabenbereich **Text** wird geöffnet. Siehe [Optionen](#Optionen.md) für mehr Informationen.
+3.  Einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+4.  Den gewünschten Text eingeben, **Enter** drücken, um eine neue Zeile zu beginnen.
+5.  Zweimal **Enter** drücken oder die Schaltfläche **<img src="images/Button_valid.svg" width=16px> Text erstellen** drücken, um den Befehl abzuschließen.
 
 ## Optionen
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die voreingestellten Tastenkürzel.
 
 
 <div class="mw-translate-fuzzy">
@@ -77,31 +50,26 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
-## Notes
+## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-**Warnung   *** Die mit [version 0.18](Release_notes_0.18.md) erstellten Texte sind nicht abwärtskompatibel, sichern Sie also Ihre Arbeit, wenn Sie versuchen, mit 0.18 erstellte Dateien mit älteren Versionen zu öffnen.
-
-
-</div>
+-   Ein Draft-Text kann durch Doppelklick in der [Baumansicht](Tree_view/de.md) zum Bearbeiten geöffnet werden. {{Version/de|0.20}}
+-   Mit [FreeCAD Version 0.18](Release_notes_0.18/de.md) erstellte Draft-Texte sind nicht abwärtskompatibel.
 
 ## Eigenschaften
 
-See also   * [Property editor](Property_editor.md).
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated.
+Ein Draft Text-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften   *
 
-### Data
+### Daten
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
 
 <div class="mw-translate-fuzzy">
 
-### Daten
+### Daten 
 
 -    {{PropertyData/de|Text}}   * gibt den Inhalt des Textblocks als Liste von Zeichenketten an; jedes Element auf der Liste, durch ein Komma getrennt, zeigt eine neue Zeile an.
 
@@ -114,7 +82,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 </div>
 
-### View
+### Ansicht
 
 
 {{TitleProperty|Annotation}}
@@ -141,7 +109,7 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 <div class="mw-translate-fuzzy">
 
-### Ansicht
+### Ansicht 
 
 -    {{PropertyView/de|Ansichtsmodus}}   * wenn es sich um \"3D Text\" handelt, wird der Text an den Szenenachsen ausgerichtet, wobei er zunächst auf der XY Ebene liegt; wenn es sich um \"2D Text\" handelt, wird der Text immer der Kamera zugewandt sein.
 
@@ -156,20 +124,9 @@ A Draft Text object is derived from an [App FeaturePython](App_FeaturePython.md)
 
 </div>
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
-
-**Siehe auch   ***
-
-[Draft API](Draft_API/de.md) und [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
+Siehe auch   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -234,15 +191,6 @@ text3.ViewObject.FontSize = 200
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

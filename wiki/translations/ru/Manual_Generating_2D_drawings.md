@@ -33,7 +33,7 @@
 
 -   Переключимся на <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [верстак TechDraw](TechDraw_Workbench/ru.md)
 -   Нажмём на кнопку <img alt="" src=images/TechDraw_PageTemplate.svg  style="width   *16px;"> [Вставить новую страницу с помощью шаблона](TechDraw_PageTemplate/ru.md).
--   Выберем шаблон **A4\_Portrait\_ISO7200TD**. В окне FreeCAD откроется новая вкладка, показывающая новый лист.
+-   Выберем шаблон **A4_Portrait_ISO7200TD**. В окне FreeCAD откроется новая вкладка, показывающая новый лист.
 -   В [древе проекта](tree_view/ru.md) (или вкладке модели) выделим модель стула. Она скорее всего будет названа как-то вроде \"Open CASCADE STEP translator.\"
 -   Нажмём кнопку <img alt="" src=images/TechDraw_View.svg  style="width   *16px;"> [Вставить вид на страницу](TechDraw_View/ru.md).
 -   На нашей странице будет создан объект View. Выделите объект view в древе проекта и зададите ему следующие [параметры](TechDraw_View#Properties/ru.md) на вкладке Данные комбинированного вида   *

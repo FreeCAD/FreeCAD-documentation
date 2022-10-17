@@ -34,11 +34,11 @@ Gute Beschreibung
 
 Vermeide es, die gleichen Informationen an verschiedenen Orten zu duplizieren. Füge die Informationen in eine neue Seite ein und verknüpfe diese Seite von anderen Seiten aus, die diese Informationen benötigen.
 
-Verwende keine Transklusion von Seiten ([Hilfe   *Bearbeiten\#Vorlagen und Transklusion von Seiten](Help   *Editing#Templates_and_transcluding_pages.md)), da dies die Übersetzung des Wikis erschwert. Verwende nur die unten unter [\#Vorlagen](#Templates/de.md) beschriebenen Vorlagen.
+Verwende keine Transklusion von Seiten ([Hilfe   *Bearbeiten#Vorlagen und Transklusion von Seiten](Help   *Editing#Templates_and_transcluding_pages.md)), da dies die Übersetzung des Wikis erschwert. Verwende nur die unten unter [#Vorlagen](#Templates/de.md) beschriebenen Vorlagen.
 
 ### Formgestaltung
 
-Vorlagen werden zum Gestalten der Hilfeseiten verwendet. Sie geben der Dokumentation ein einheitliches Aussehen und Gefühl. Es gibt eine Vorlage für Menübefehle, wie **Datei → Speichern**, eine Vorlage zum Gestalten von zu drückenden Tasten, wie **Shift**, eine weitere Vorlage zum Anzeigen eines booleschen Wertes `True` usw. Bitte mache dich mit dem Abschnitt [\#Templates](#Templates.md) vertraut, vor dem Schreiben von Hilfeseiten.
+Vorlagen werden zum Gestalten der Hilfeseiten verwendet. Sie geben der Dokumentation ein einheitliches Aussehen und Gefühl. Es gibt eine Vorlage für Menübefehle, wie **Datei → Speichern**, eine Vorlage zum Gestalten von zu drückenden Tasten, wie **Shift**, eine weitere Vorlage zum Anzeigen eines booleschen Wertes `True` usw. Bitte mache dich mit dem Abschnitt [#Templates](#Templates.md) vertraut, vor dem Schreiben von Hilfeseiten.
 
 ### Temporäre Merker 
 
@@ -127,7 +127,7 @@ Um einen Verweis zum Anfang der Seite zu erstellen, kannst du verwenden   *
 Diese Vorlage sollte automatisch den richtigen Text abhängig von der Sprache der Seite anzeigen. Ein Verweis oben auf die Seite ist besonders nützlich für lange Seiten, da er dem Benutzer erlaubt, schnell zum Inhaltsverzeichnis zurückzuspringen. Du kannst ihn an das Ende eines jeden Absatzes setzen. Achte darauf, dass sich vor und nach der Vorlage eine Leerzeile befindet.
 
 Image link
-   *   <img alt="Optionaler Text, der beim Schweben über dem Bild angezeigt wird\|link=Draft\_Wire" src=images/Draft_Wire.svg  style="width   *24px;">
+   *   <img alt="Optionaler Text, der beim Schweben über dem Bild angezeigt wird\|link=Draft_Wire" src=images/Draft_Wire.svg  style="width   *24px;">
 
 Um ein Bild als Verweis zu benutzen   *
 
@@ -148,7 +148,7 @@ Jede Seite eines Arbeitsbereichs sollte mit
 -   ein Bild des Aussehens der Arbeitsbereichs (Menü und Werkzeugleiste in deiner Standardposition), und
 -   eine Beschreibung dessen, wofür der Arbeitsbereich verwendet wird
 
-Siehe [\#Screen capture](#Screen_capture.md) für Konventionen zum Einbeziehen von Bildern.
+Siehe [#Screen capture](#Screen_capture.md) für Konventionen zum Einbeziehen von Bildern.
 
 ### Befehlsseiten
 
@@ -176,7 +176,7 @@ Für Beispiele besuche die [Tutorien](Tutorials/de.md) Seite.
 
 <div class="mw-collapsible-content">
 
-Das Gestalten der FreeCAD Wiki Seiten wird durch die Verwendung von Vorlagen ([Help   *Editing\#Templates\_and\_transcluding\_pages](Help   *Editing#Templates_and_transcluding_pages.md)) erreicht. Sie sorgen für ein einheitliches Erscheinungsbild aller Seiten und ermöglichen es auch, das Wiki neu zu gestalten. Die komplette Liste der definierten Vorlagen kannst du unter [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md) einsehen. Bitte verwende aber nur die in den Tabellen unten aufgeführten Vorlagen. Nur in ganz speziellen Fällen solltest du HTML Kennzeichen direkt verwenden.
+Das Gestalten der FreeCAD Wiki Seiten wird durch die Verwendung von Vorlagen ([Help   *Editing#Templates_and_transcluding_pages](Help   *Editing#Templates_and_transcluding_pages.md)) erreicht. Sie sorgen für ein einheitliches Erscheinungsbild aller Seiten und ermöglichen es auch, das Wiki neu zu gestalten. Die komplette Liste der definierten Vorlagen kannst du unter [Special   *PrefixIndex/Template   *](Special   *PrefixIndex/Template   *.md) einsehen. Bitte verwende aber nur die in den Tabellen unten aufgeführten Vorlagen. Nur in ganz speziellen Fällen solltest du HTML Kennzeichen direkt verwenden.
 
 Klicke auf den Vorlagenverweis, um die Gebrauchsanweisungen für eine Vorlage und ihre Einführung zu sehen. Vorlagen sind eine leistungsstarke Funktion der MediaWiki Software; Du solltest ein erfahrener Wiki Benutzer sein, wenn du Ergänzungen und Änderungen an bestehenden Vorlagen vorschlagen möchtest. Wenn Vorlagen falsch implementiert sind, erschweren sie die Übersetzung von Seiten in andere Sprachen, so dass ihre Verwendung auf die Textformatierung beschränkt werden sollte; Seitentransklusion sollte vermieden werden. Siehe [MediaWiki Hilfe   *Vorlagen](https   *//www.mediawiki.org/wiki/Help   *Templates), um mehr zu erfahren.
 
@@ -492,10 +492,16 @@ Beispiel mit Symbolen   *
 
 Vor dem Erstellen einer neuen Seiten solltest du zuerst prüfen, ob bereits eine ähnliche Seite existiert. Sollte das der Fall sein, ist es meist besser, die vorhandene Seite zu ändern. Im Zweifel öffne bitte zuerst ein neues Thema im [Wiki-Forum](https   *//forum.freecadweb.org/viewforum.php?f=21).
 
+
+<div class="mw-translate-fuzzy">
+
 Um eine neue Seite zu erstellen, tue eins der folgenden Dinge   *
 
 -   Besuche die URL mit dem gewünschten Seitennamen, z.B.   * https   *//wiki.freecadweb.org/MeineNeueSeite/de, und klicke auf \'Erstellen\'.
 -   Führe eine Wiki-Suche nach dem Seitennamen durch und klicke auf den roten Text in \'Erstelle die Seite \"MeineneueSeite\" in diesem Wiki.\'.
+
+
+</div>
 
 ### Seiten umbenennen 
 

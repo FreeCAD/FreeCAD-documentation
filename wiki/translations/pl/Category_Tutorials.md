@@ -3,7 +3,7 @@ To jest kompletna lista stron zawierających [   *Category   *Tutorials](   *Cat
 
 Warto zobaczyć również [Poradniki](Tutorials.md) oraz [Wideo poradniki](video_tutorials.md)
 
-[Category   *User\_Documentation](Category_User_Documentation.md)
+[Category   *User_Documentation](Category_User_Documentation.md)
 
 ### Contents
 

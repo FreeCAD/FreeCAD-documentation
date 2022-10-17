@@ -1,5 +1,5 @@
 # TechDraw Module/pl
-1.  REDIRECT [TechDraw\_Workbench/pl](TechDraw_Workbench/pl.md)
+1.  REDIRECT [TechDraw_Workbench/pl](TechDraw_Workbench/pl.md)
 
 
 

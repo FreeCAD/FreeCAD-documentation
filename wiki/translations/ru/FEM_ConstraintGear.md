@@ -13,11 +13,11 @@
 
 </div>
 
-## Description
+## Описание
 
-Not supported by CalculiX Interface!
+Не поддерживается интерфейсом CalculiX!
 
-## Usage
+## Применение
 
 
 

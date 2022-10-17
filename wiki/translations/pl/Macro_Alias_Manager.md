@@ -36,7 +36,7 @@ And most updated versions of the macro can be downloaded from GitHub   * <https 
 
 ToolBar Icon <img alt="" src=images/Aliasmanager_icon.png  style="width   *32px;">
 
-**Macro\_Alias\_Manager.FCMacro**
+**Macro_Alias_Manager.FCMacro**
 
 
     # ============================================================================================================

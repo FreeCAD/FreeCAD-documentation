@@ -87,7 +87,7 @@ Removing Features using OCC7.3 new tools
 
 [480px\|left\|thumb \|link=<https   *//raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4%7CDefeaturing-WB>   * removing-features (holes)](Image   *Defeaturing-WB-@Work_v3.png.md)
 
-[480px\|left\|thumb \|link=<https   *//youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-\@Work\|YouTube   * Defeaturing tools - Simplifying the model](Image   *Defeaturing-WB-@Work_v1.png.md)
+[480px\|left\|thumb \|link=<https   *//youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-@Work\|YouTube   * Defeaturing tools - Simplifying the model](Image   *Defeaturing-WB-@Work_v1.png.md)
 
 [480px\|left\|thumb \|link=<https   *//youtu.be/vgQwGI6Fk6Q%7CYouTube>   * Defeaturing tools - Multi-select faces for defeaturing](Image   *Defeaturing-WB-@Work_v2.png.md)
 

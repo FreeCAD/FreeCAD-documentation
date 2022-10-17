@@ -40,32 +40,33 @@ The profile tool is also integrated to the [Arch Structure](Arch_Structure.md) t
 
 ## Adding custom profiles 
 
-An additional CSV file can be created by the user, containing custom profile definitions. It must be named `profiles.csv`, and placed in 
-```python
+An additional CSV file can be created by the user, containing custom profile definitions. It must be named `profiles.csv`, and placed in {{Code|lang=bash|code=
 $FREECAD_USER_DIR/Arch/
-```
+}}
 
-The `$FREECAD_USER_DIR` can be obtained from the [Python console](Python_console.md)   * 
-```python
+The `$FREECAD_USER_DIR` can be obtained from the [Python console](Python_console.md)   * {{Code|lang=bash|code=
 FreeCAD.getUserAppDataDir()
-```
+}}
 
 The contents of your custom `profiles.csv` file must be modeled upon the same rules as the [profiles.csv](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) in the source code.
 
 The CSV file must contain one line per available profile, formatted as follows   *
 
 -   For C profiles   * Category, Name, Class, Diameter, Thickness
--   For H and U profiles   * Category, Name, Class, Width, Height, Web thickness, Flange thickness
+-   For H, U and T profiles   * Category, Name, Class, Width, Height, Web thickness, Flange thickness
+-   For L profiles   * Category, Name, Class, Width, Height, Thickness
 -   For R profiles   * Category, Name, Class, Width, Height
 -   For RH profiles   * Category, Name, Class, Width, Height, Thickness
 
 All measures must be in millimeters. Possible profile classes are   *
 
 -   C   * Circular tube
--   H   * H- or I-profile
+-   H   * H or I profile
 -   R   * Rectangular
 -   RH   * Rectangular hollow
--   U   * U-profile
+-   U   * U profile
+-   L   * L profile
+-   T   * T profile
 
 Additional profile types can be created, but a corresponding class must first be defined in [ArchProfile.py](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
 
@@ -78,14 +79,14 @@ The Profile tool can be used in [macros](macros.md) and from the [Python](Python
 profile = makeProfile(profile_list)
 ```
 
-Where profile\_list contains the different elements of a list in the CSV file.
+Where profile_list contains the different elements of a list in the CSV file.
 
 Example   *
 
 
 ```python
 import Arch
-Arch.makeProfile([0,'REC','REC100x100','R',100,100])
+Arch.makeProfile([0, 'REC', 'REC100x100', 'R', 100, 100])
 ```
 
 Where the first element of the list is an order number that is not used yet.

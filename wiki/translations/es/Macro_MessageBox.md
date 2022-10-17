@@ -22,7 +22,7 @@ Muestra como dar información al usuario en las macros
 
 ToolBar Icon ![](images/Macro_MessageBox.png )
 
-**Macro\_MessageBox.FCMacro**
+**Macro_MessageBox.FCMacro**
 
 
 {{MacroCode|code=
@@ -57,7 +57,7 @@ msg = u'Élément sélectionnés affichés'
 }}
 
 Para mostrar varias líneas en un cuadro de diálogo **Qt**, debe agregarse **\"\\ n\"** (cita, válida también entre apóstrofes) entre cada línea.
-Válido también **\"\\ r \\ n\"** que corresponde a **CR** retorno de carro, y **LF** fin de línea, válido también **\"\\ t\"** es una pestaña, los caracteres deben estar entre comillas (y apóstrofes) como una cadena de caracteres, las etiquetas se pueden encontrar al lado del texto para mostrar \'\'\'\"\\ nRayon \\ t   *" \'\'\', la etiqueta **\"\\\"** (barra invertida) define el comando.
+Válido también **\"\\ r \\ n\"** que corresponde a **CR** retorno de carro, y **LF** fin de línea, válido también **\"\\ t\"** es una pestaña, los caracteres deben estar entre comillas (y apóstrofes) como una cadena de caracteres, las etiquetas se pueden encontrar al lado del texto para mostrar **\"\\ nRayon \\ t   *"**, la etiqueta **\"\\\"** (barra invertida) define el comando.
 Ejemplo   *
 
 

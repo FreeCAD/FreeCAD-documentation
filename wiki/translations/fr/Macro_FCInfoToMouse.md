@@ -15,7 +15,7 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/974214c4b83beaa41495/raw/7789c1995dba2af74a14d549638267f7740c036c/Macro_FCInfoToMouse.FCMacro}}
 
-<img alt="" src=images/Macro_FCInfoToMouse_00.png  style="width   *480px;"> 
+<img alt="" src=images/Macro_FCInfoToMouse_00.png style="width   *480px;"> 
 *La macro FCInfoToMouse en action*
 
 ## Utilisation
@@ -143,7 +143,7 @@ Pour rendre la configuration de l\'annotation permanente vous pouvez modifier le
 
 L\'icône **FCInfoToMouse.png** <img alt="FCInfoToMouse" src=images/FCInfoToMouse.png  style="width   *64px;"> pour votre [barre d\'outils](http   *//www.freecadweb.org/wiki/index.php?title=Customize_ToolsBar/fr)
 
-**Macro\_FCInfoToMouse.FCMacro**
+**Macro_FCInfoToMouse.FCMacro**
 
 
 {{MacroCode|code=
@@ -461,7 +461,7 @@ except Exception   *
 
 }}
 
-ou sur Gists [Macro\_FCInfoToMouse.FCMacro](https   *//gist.github.com/mario52a/974214c4b83beaa41495) ou le fichier zip [Macro\_FCInfoToMouse.FCMacro.zip](https   *//gist.github.com/mario52a/974214c4b83beaa41495/archive/d62630049d4663369fc80519a7655ee4c32c8711.zip)
+ou sur Gists [Macro_FCInfoToMouse.FCMacro](https   *//gist.github.com/mario52a/974214c4b83beaa41495) ou le fichier zip [Macro_FCInfoToMouse.FCMacro.zip](https   *//gist.github.com/mario52a/974214c4b83beaa41495/archive/d62630049d4663369fc80519a7655ee4c32c8711.zip)
 
 ## Limitation
 

@@ -19,7 +19,7 @@ To makro rozbija twoją formę za pomocą funkcji **<img src="images/Draft_Downg
 
 Ikonka paska narzędzi ![](images/Macro_FaceToSketch.png )
 
-**Macro\_FaceToSketch.FCMacro**
+**Macro_FaceToSketch.FCMacro**
 
 
 {{MacroCode|code=

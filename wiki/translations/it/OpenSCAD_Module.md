@@ -1,5 +1,5 @@
 # OpenSCAD Module/it
-1.  REDIRECT [OpenSCAD\_Workbench/it](OpenSCAD_Workbench/it.md)
+1.  REDIRECT [OpenSCAD_Workbench/it](OpenSCAD_Workbench/it.md)
 
 
 

@@ -3,6 +3,7 @@
    Name   *Arch Nest
    MenuLocation   *Arch → Panel tools → Nest
    Workbenches   *[Arch](Arch_Workbench.md)
+   Version   *0.17
    SeeAlso   *[Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md)
 ---
 
@@ -20,7 +21,7 @@ The algorithm behind the Nest tool is in constant evolution, and is currently no
 
 ## Utilização
 
-1.  Press the **<img src="images/Arch_Nest.svg" width=16px> [[Arch Nest]]** button.
+1.  Press the **<img src="images/Arch_Nest.svg" width=16px> [Arch Nest](Arch_Nest.md)** button.
 2.  Select an object to be the container. This object must be flat, and, at the moment, rectangular.
 3.  Click the **Pick container** button to use that object as the container.
 4.  Select a series of other flat objects that you wish to place inside the container. These objects must all be flat and in the same plane as the container.

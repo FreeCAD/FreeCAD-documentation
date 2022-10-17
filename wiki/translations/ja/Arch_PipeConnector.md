@@ -45,7 +45,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Arch Pipe\#Typical\_workflow](Arch_Pipe#Typical_workflow.md) を参照してください。
+[Arch Pipe#Typical_workflow](Arch_Pipe#Typical_workflow.md) を参照してください。
 
 
 </div>

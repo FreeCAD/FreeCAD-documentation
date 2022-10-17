@@ -20,7 +20,7 @@ The <img alt="" src=images/Fasteners_Move.svg  style="width   *24px;"> **Fastene
 
 1.  Select a single fastener and a single circular edge.
 2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Fasteners Move](Fasteners_Move.md)** button.
+    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** option from the menu.
 3.  The fastener moves to the selected edge and is attached to it.
 
@@ -28,7 +28,7 @@ The <img alt="" src=images/Fasteners_Move.svg  style="width   *24px;"> **Fastene
 
 1.  Select a single fastener.
 2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Fasteners Move](Fasteners_Move.md)** button.
+    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** option from the menu.
 3.  The fastener is detached.
 

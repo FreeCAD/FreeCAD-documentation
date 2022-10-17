@@ -20,7 +20,7 @@ Paste the code in the Python console FreeCAD and type **Enter** → **Enter** (f
 
 ## Script
 
-**Macro\_Rotate\_View\_Free.FCMacro**
+**Macro_Rotate_View_Free.FCMacro**
 
 
 {{MacroCode|code=

@@ -24,7 +24,7 @@ To makro przesuwa bieżącą [Plaszczyzne roboczą](Draft_SelectPlane/pl.md) na 
 
 Ikonka paska narzędzi ![](images/Macro_Align_Working_Plane_to_Camera.png )
 
-**Macro\_Align\_Working\_Plane\_to\_Camera.FCMacro**
+**Macro_Align_Working_Plane_to_Camera.FCMacro**
 
 
 {{MacroCode|code=

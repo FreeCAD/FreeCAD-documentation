@@ -26,7 +26,7 @@ La variabile SLICER può essere cambiata a piacere per adattare il codice a qual
 
 ToolBar Icon ![](images/Macro_3d_Printer_Slicer.png )
 
-**Macro\_3d\_Printer\_Slicer.py**
+**Macro_3d_Printer_Slicer.py**
 
 
 {{MacroCode|code=

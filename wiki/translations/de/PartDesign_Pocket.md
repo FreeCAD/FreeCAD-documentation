@@ -13,7 +13,7 @@
 
 Das Werkzeug **Tasche** beschneidet einen Volumenkörper, indem es eine Skizze oder eine Fläche eines Volumenkörpers entlang eines geraden Pfades extrudiert.
 
-![](images/PartDesign_Pocket_example.svg ) \'\'Die Skizze mit dem Profil (A) wurde an die obere Fläche des Basis-Volumenkörpers (B) angeheftet; Ergebnis nach dem Taschenschnitt auf der rechten Seite. \'\' \'\'
+![](images/PartDesign_Pocket_example.svg ) *Die Skizze mit dem Profil (A) wurde an die obere Fläche des Basis-Volumenkörpers (B) angeheftet; Ergebnis nach dem Taschenschnitt auf der rechten Seite.* \'\'
 
 ## Anwendung
 

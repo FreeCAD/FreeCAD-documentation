@@ -24,13 +24,13 @@ Highlight common parts by showing the common shape in red and setting half-trans
 
 ToolBar Icon ![](images/Macro_HighlightCommon.png )
 
-**Macro\_HighlightCommon.FCMacro**
+**Macro_HighlightCommon.FCMacro**
 
 The code is visible on Github   * [Utility/HighlightCommon.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightCommon.FCMacro).
 
 ## Links
 
--   See for the complementary macro [Macro\_HighlightDifference](Macro_HighlightDifference.md)
+-   See for the complementary macro [Macro_HighlightDifference](Macro_HighlightDifference.md)
 -   My blog [Linux for an engineer](http   *//linuxforanengineer.blogspot.com.es/) for the code and other interesting macros for FreeCAD
 -   The discussion on forum [\"collision detection\", overlapping](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 

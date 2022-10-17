@@ -33,7 +33,7 @@ Makro zkontroluje jestli segmenty leží na obecné kružnici a pokud ne, samo s
 
 <div class="mw-translate-fuzzy">
 
-Kvůli malým nepřesnostem ve výpočtu, může funkce **<img src="images/Draft_Upgrade.png" width=16px> [[Draft Upgrade]]** někdy skončit chybně a vrátit oblouk zpět do drátu. V takovém případě poskytne lepší výsledek mnohem robustnější makro [Macro\_SuperWire](Macro_SuperWire.md).
+Kvůli malým nepřesnostem ve výpočtu, může funkce **<img src="images/Draft_Upgrade.png" width=16px> [[Draft Upgrade]]** někdy skončit chybně a vrátit oblouk zpět do drátu. V takovém případě poskytne lepší výsledek mnohem robustnější makro [Macro_SuperWire](Macro_SuperWire.md).
 
 
 </div>
@@ -42,7 +42,7 @@ Kvůli malým nepřesnostem ve výpočtu, může funkce **<img src="images/Draft
 
 ToolBar Icon ![](images/Macro_EdgesToArc.png )
 
-**Macro\_EdgesToArc.FCMacro**
+**Macro_EdgesToArc.FCMacro**
 
 
 {{MacroCode|code=

@@ -1,5 +1,5 @@
 # TechDraw Dimension Vertical Extent/en
-1.  REDIRECT [TechDraw\_VerticalExtentDimension/en](TechDraw_VerticalExtentDimension/en.md)
+1.  REDIRECT [TechDraw_VerticalExtentDimension/en](TechDraw_VerticalExtentDimension/en.md)
 
 
 

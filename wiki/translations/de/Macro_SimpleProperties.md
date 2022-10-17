@@ -69,7 +69,7 @@ Für ausführlichere Erklärungen siehe die [So installieren Sie Makros](How_to_
 
 ToolBar Icon ![](images/Macro_SimpleProperties.png )
 
-**Macro\_SimpleProperties.FCMacro**
+**Macro_SimpleProperties.FCMacro**
 
 
 {{MacroCode|code=

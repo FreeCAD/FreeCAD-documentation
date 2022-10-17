@@ -232,7 +232,7 @@ Teraz musimy przesunąć naszą nową płytę dachową do jej właściwej pozycj
 
 <img alt="" src=images/BIM_Tutorial_21.jpg  style="width   *300px;">
 
-Innym sposobem na przesunięcie naszej płyty na właściwą pozycję, jest użycie <img alt="" src=images/Draft_Move.png  style="width   *16px;"> narzędzia **Przesunięcie** z menu **Modyfikacja**. W tym celu musimy najpierw ustawić naszą płaszczyznę roboczą w płaszczyźnie pionowej, naciskając przycisk <img alt="" src=images/Draft_SelectPlane.png  style="width   *16px;"> **płaszczyzna robocza** *(upewnij się, że nie masz wybranej żadnej ściany)*, i ustawiając ją na **XY *(Od przodu)***. Ustawiając się w widoku z przodu *(wciśnij klawisz **1**)*, możemy teraz wybrać płytę, wcisnąć przycisk <img alt="" src=images/Draft_Move.png  style="width   *16px;"> **Przesuń**, **Shift**, aby ograniczyć ruch w pionie, kliknij na jeden z punktów na szczycie ścian   *
+Innym sposobem na przesunięcie naszej płyty na właściwą pozycję, jest użycie <img alt="" src=images/Draft_Move.png  style="width   *16px;"> narzędzia **Przesunięcie** z menu **Modyfikacja**. W tym celu musimy najpierw ustawić naszą płaszczyznę roboczą w płaszczyźnie pionowej, naciskając przycisk <img alt="" src=images/Draft_SelectPlane.png  style="width   *16px;"> **płaszczyzna robocza** *(upewnij się, że nie masz wybranej żadnej ściany)*, i ustawiając ją na **XY \'\'(Od przodu)***. Ustawiając się w widoku z przodu*(wciśnij klawisz **1**)\'\', możemy teraz wybrać płytę, wcisnąć przycisk <img alt="" src=images/Draft_Move.png  style="width   *16px;"> **Przesuń**, **Shift**, aby ograniczyć ruch w pionie, kliknij na jeden z punktów na szczycie ścian   *
 
 <img alt="" src=images/BIM_Tutorial_23.jpg  style="width   *300px;">
 
@@ -475,7 +475,7 @@ Każdy obiekt w konstrukcji ma swój materiał. Sensowne jest więc nadanie każ
 
 #### Właściwości
 
-Każdy obiekt BIM może również otrzymać dodatkowe właściwości, na przykład w celu wskazania, czy ściana jest nośną czy nie. IFC pozwala na dodawanie własnych właściwości do wszystkiego, ale większość typów takich jak Ściana czy Belka posiada również specjalne, predefiniowane zestawy właściwości, zwykle nazwane Pset\_WallCommon lub Pset\_BeamCommon. Możesz dodać te zestawy do swoich obiektów, zmodyfikować wartości właściwości zawartych w zestawie lub dodać swoje własne właściwości. Zarządzanie właściwościami IFC dla wybranego obiektu lub masowa edycja właściwości kilku obiektów na raz odbywa się za pomocą menedżera właściwości w menu **Zarządzanie → Edytuj właściwości IFC**.
+Każdy obiekt BIM może również otrzymać dodatkowe właściwości, na przykład w celu wskazania, czy ściana jest nośną czy nie. IFC pozwala na dodawanie własnych właściwości do wszystkiego, ale większość typów takich jak Ściana czy Belka posiada również specjalne, predefiniowane zestawy właściwości, zwykle nazwane Pset_WallCommon lub Pset_BeamCommon. Możesz dodać te zestawy do swoich obiektów, zmodyfikować wartości właściwości zawartych w zestawie lub dodać swoje własne właściwości. Zarządzanie właściwościami IFC dla wybranego obiektu lub masowa edycja właściwości kilku obiektów na raz odbywa się za pomocą menedżera właściwości w menu **Zarządzanie → Edytuj właściwości IFC**.
 
 #### Ilości
 

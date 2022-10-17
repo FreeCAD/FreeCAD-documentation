@@ -26,7 +26,7 @@ You could also change the base object for the honeycomb grid to achieve other in
 
 ToolBar Icon ![](images/FCHoneycombMakerIcon.png )
 
-**Macro\_FCHoneycombMaker.FCMacro**
+**Macro_FCHoneycombMaker.FCMacro**
 
 
 {{MacroCode|code=

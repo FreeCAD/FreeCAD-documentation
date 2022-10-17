@@ -30,7 +30,7 @@ Remarque   * La macro ne renomme pas les fichiers ou n\'apporte aucune modificat
 
 Icône de la barre d\'outils ![](images/Macro_findConfigFiles.png )
 
-**Macro\_findConfigFiles.FCMacro**
+**Macro_findConfigFiles.FCMacro**
 
 
 {{MacroCode|code=

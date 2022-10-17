@@ -29,9 +29,9 @@
 -   **Добавьте пример файла FreeCAD** (файл .FCStd), чтобы разработчики/тестировщики могли быстро воспроизвести ошибку.
     -   Не архивируйте файл \* .FCStd, он уже заархивирован.
     -   Размер прикрепленных файлов ограничен. Если ваш файл \* .FCStd слишком велик для прикрепления, вы можете использовать онлайн-хранилище (многие из них бесплатны, например, Google Диск, Microsoft OneDrive, Dropbox).
--   Включите всю информацию из кнопки «Копировать в буфер обмена» в диалоге \'\' \'Help (меню) -\> About FreeCAD\' \'\'. Убедитесь, что ваши данные включают версию OCC или OCE.
+-   Включите всю информацию из кнопки «Копировать в буфер обмена» в диалоге *\'Help (меню) -\> About FreeCAD\'*. Убедитесь, что ваши данные включают версию OCC или OCE.
 -   Пожалуйста, отправляйте отдельный отчет по каждой ошибке.
--   Если ваша ошибка вызывает сбой в FreeCAD, и вы используете систему, которая ее поддерживает, вы можете попробовать запустить \'\' \'обратную трассировку отладки\' \'\' и прикрепить указанную трассировку к заявке. Это может сэкономить разработчикам много времени на выявление источника сбоя. Смотрите [Отладку](Debugging/ru.md) для получения более подробной информации.
+-   Если ваша ошибка вызывает сбой в FreeCAD, и вы используете систему, которая ее поддерживает, вы можете попробовать запустить *\'обратную трассировку отладки\'* и прикрепить указанную трассировку к заявке. Это может сэкономить разработчикам много времени на выявление источника сбоя. Смотрите [Отладку](Debugging/ru.md) для получения более подробной информации.
 
 ## Запрос о новой возможности 
 
@@ -41,8 +41,8 @@
 2.  Start a forum thread to discuss your feature request with the community via the [Open Discussion forum](http   *//forum.freecadweb.org/viewforum.php?f=8).
 3.  Once the community agrees that this is a valid Feature, you then can open a ticket on the tracker (file it under *feature request* instead of *bug*).
 
--   **NOTE \#1** To keep things organized please remember to link the forum thread URL into the ticket and the ticket number (as a link) in to the forum thread.
--   **NOTE \#2** Keep in mind there are no guarantees that your wish will be fulfilled.
+-   **NOTE #1** To keep things organized please remember to link the forum thread URL into the ticket and the ticket number (as a link) in to the forum thread.
+-   **NOTE #2** Keep in mind there are no guarantees that your wish will be fulfilled.
 
 ![FreeCAD Bugtracker report page - use the dropdown to correctly designate what the ticket is](images/MantisBT-setting-Feature-Request.jpg )
 
@@ -74,11 +74,11 @@ MantisBT (Mantis Bug Tracker) has it\'s own unique markup.
 
 -   **\#**1234 - By adding a hash tag in front of a number a shortcut to link to another ticket within MantisBT will present.
 
-       *   **Note**   * if you hover over a ticket it will show you the summary + if the ticket is closed, it will be struck-through like \#1234.
+       *   **Note**   * if you hover over a ticket it will show you the summary + if the ticket is closed, it will be struck-through like #1234.
 
 <img alt="" src=images/mantisbt-ticket-shortcut-example.jpg  style="width   *600px;">
 
--   **\~**5678 - a shortcut that links to a bug note within a ticket. This can be used to reference someone\'s response within the thread. Each person that posts will show a unique \~\#\#\#\# number next to their username. If you look at the image in the example, you see that the shortcut is referencing the *ticket number   *comment number* of said ticket
+-   **\~**5678 - a shortcut that links to a bug note within a ticket. This can be used to reference someone\'s response within the thread. Each person that posts will show a unique \~#### number next to their username. If you look at the image in the example, you see that the shortcut is referencing the *ticket number   *comment number* of said ticket
 
 <img alt="" src=images/mantisbt-comment-shortcut-example.jpg  style="width   *600px;">
 
@@ -142,12 +142,12 @@ The FreeCAD bugtracker has a plug-in called [Source Integration](https   *//gith
 
 Using this pattern will automagically associate a git commit to a ticket (**Note   *** this will not close the ticket.) The format MantisBT will recognize   *
 
--   bug \#1234
--   bugs \#1234, \#5678
--   issue \#1234
--   issues \#1234, \#5678
--   report \#1234
--   reports \#1234, \#5678
+-   bug #1234
+-   bugs #1234, #5678
+-   issue #1234
+-   issues #1234, #5678
+-   report #1234
+-   reports #1234, #5678
 
 For the inquisitive here is the regex MantisBT uses for this operation   *
 
@@ -156,16 +156,16 @@ For the inquisitive here is the regex MantisBT uses for this operation   *
 
 The format MantisBT will recognize   *
 
--   fix \#1234
--   fixed \#1234
--   fixes \#1234
--   fixed \#1234, \#5678
--   fixes \#1234, \#5678
--   resolve \#1234
--   resolved \#1234
--   resolves \#1234
--   resolved \#1234, \#5678
--   resolves \#1234, \#5678
+-   fix #1234
+-   fixed #1234
+-   fixes #1234
+-   fixed #1234, #5678
+-   fixes #1234, #5678
+-   resolve #1234
+-   resolved #1234
+-   resolves #1234
+-   resolved #1234, #5678
+-   resolves #1234, #5678
 
 For the inquisitive here is the regex MantisBT uses for this operation   *
 

@@ -67,13 +67,13 @@ Un guide rail est un composant fixé sur le côté de la fusée qui permet de gu
 
 Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    **Description**   * Description du composant
+-    **Description**   * description du composant
 
--    **Manufacturer**   * Fabricant lorsqu\'il est connu
+-    **Manufacturer**   * fabricant lorsqu\'il est connu
 
--    **Material**   * Matériau lorsqu\'il est connu
+-    **Material**   * matériau lorsqu\'il est connu
 
--    **Part Number**   * Numéro de pièce du fabricant
+-    **Part Number**   * numéro de pièce du fabricant
 
 
 

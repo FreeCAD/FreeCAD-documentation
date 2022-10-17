@@ -71,7 +71,13 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### Knoten Aufgabenpaneel 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -92,9 +98,15 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 ### <img alt="" src=images/Draft_Line.svg  style="width   *24px;"> [Entwurf Linie](Draft_Line/de.md) und <img alt="" src=images/Draft_Wire.svg  style="width   *24px;"> [Entwurf Draht](Draft_Wire/de.md) 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Wenn der Anfangs- oder Endknoten eines offenen Drahtes so verschoben wird, dass sie zusammenfallen, wird der Draht geschlossen.
 -   Kontextmenü des Knotens   * {{Value|Punkt löschen}}. Es müssen mindestens zwei Punkte verbleiben.
 -   Kante Kontextmenü   * {{Value|Punkt hinzufügen}}, {{Value|Draht umkehren}} ({{Version/de|0.20}}).
+
+
+</div>
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width   *24px;"> [Entwurf Bogen](Draft_Arc/de.md) und <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *24px;"> [Entwurf Bogen 3Punkte](Draft_Arc_3Points/de.md) 
 
@@ -128,15 +140,27 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 ### <img alt="" src=images/Draft_BSpline.svg  style="width   *24px;"> [Entwurf BSpline](Draft_BSpline/de.md) 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Wenn der Anfangs- oder Endknoten eines offenen Splines so verschoben wird, dass sie zusammenfallen, wird der Spline geschlossen.
 -   Kontextmenü Knoten   * {{Value|Punkt löschen}}. Für einen offenen Spline müssen mindestens zwei Punkte übrig bleiben. Bei einem geschlossenen Spline sind es mindestens drei Punkte.
 -   Kontextmenü Kante   * {{Value|Punkt hinzufügen}}.
 
+
+</div>
+
 ### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *24px;"> [Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md) und <img alt="" src=images/Draft_BezCurve.svg  style="width   *24px;"> [Entwurf BezKurve](Draft_BezCurve/de.md) 
+
+
+<div class="mw-translate-fuzzy">
 
 -   Wenn der Anfangs- oder Endknoten einer offenen Kurve so verschoben wird, dass sie zusammenfallen, wird die Kurve geschlossen.
 -   Kontextmenü Knoten   * {{Value|Scharf machen}}, {{Value|Tangente machen}}, {{Value|Symmetrisch machen}} und {{Value|Punkt löschen}}.
 -   Kontextmenü Kante   * {{Value|Punkt hinzufügen}}.
+
+
+</div>
 
 ### <img alt="" src=images/Draft_Dimension.svg  style="width   *24px;"> [Entwurf Bemaßen](Draft_Dimension/de.md) 
 

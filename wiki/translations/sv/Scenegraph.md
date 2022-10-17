@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Den geometri som syns i FreeCAD\'s \#D vyer är renderade av Coin3D biblioteket. Coin3D är en implementering av [OpenInventor](http   *//en.wikipedia.org/wiki/Open_Inventor) standarden. openCascade mjukvaran erbjuder också samma funktionalitet, men det beslöts när FreeCAD påbörjades att inte använda openCascade\'s inbyggda visare utan istället använda sig av den snabbare coin3D mjukvaran.
+Den geometri som syns i FreeCAD\'s #D vyer är renderade av Coin3D biblioteket. Coin3D är en implementering av [OpenInventor](http   *//en.wikipedia.org/wiki/Open_Inventor) standarden. openCascade mjukvaran erbjuder också samma funktionalitet, men det beslöts när FreeCAD påbörjades att inte använda openCascade\'s inbyggda visare utan istället använda sig av den snabbare coin3D mjukvaran.
 
 
 </div>

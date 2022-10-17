@@ -1,5 +1,5 @@
 # Path ProfileFace/fr
-1.  REDIRECT [Path\_Profile/fr](Path_Profile/fr.md)
+1.  REDIRECT [Path_Profile/fr](Path_Profile/fr.md)
 
 
 

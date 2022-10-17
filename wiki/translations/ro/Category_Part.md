@@ -19,16 +19,15 @@ This category lists pages related to the [Part Workbench/ro](Part_Workbench/ro.m
 | [Part JoinCutout/ro](wiki/Part JoinCutout/ro.md) | [Part JoinEmbed/ro](wiki/Part JoinEmbed/ro.md) | [Part Line/ro](wiki/Part Line/ro.md) |
 | [Part Loft Technical Details/ro](wiki/Part Loft Technical Details/ro.md) | [Part Loft/ro](wiki/Part Loft/ro.md) | [Part MakeSolid/ro](wiki/Part MakeSolid/ro.md) |
 | [Part Measure Angular/ro](wiki/Part Measure Angular/ro.md) | [Part Measure Clear All/ro](wiki/Part Measure Clear All/ro.md) | [Part Measure Linear/ro](wiki/Part Measure Linear/ro.md) |
-| [Part Measure Menu/ro](wiki/Part Measure Menu/ro.md) | [Part Measure Toggle 3d/ro](wiki/Part Measure Toggle 3d/ro.md) | [Part Measure Toggle All/ro](wiki/Part Measure Toggle All/ro.md) |
-| [Part Measure Toggle Delta/ro](wiki/Part Measure Toggle Delta/ro.md) | [Part Mirror/ro](wiki/Part Mirror/ro.md) | [Part Module/ro](wiki/Part Module/ro.md) |
-| [Part Offset/ro](wiki/Part Offset/ro.md) | [Part Offset2D/ro](wiki/Part Offset2D/ro.md) | [Part Plane/ro](wiki/Part Plane/ro.md) |
-| [Part Primitives/ro](wiki/Part Primitives/ro.md) | [Part RefineShape/ro](wiki/Part RefineShape/ro.md) | [Part RegularPolygon/ro](wiki/Part RegularPolygon/ro.md) |
-| [Part ReverseShapes/ro](wiki/Part ReverseShapes/ro.md) | [Part Revolve/ro](wiki/Part Revolve/ro.md) | [Part RuledSurface/ro](wiki/Part RuledSurface/ro.md) |
-| [Part Section/ro](wiki/Part Section/ro.md) | [Part ShapeFromMesh/ro](wiki/Part ShapeFromMesh/ro.md) | [Part SimpleCopy/ro](wiki/Part SimpleCopy/ro.md) |
-| [Part Slice/ro](wiki/Part Slice/ro.md) | [Part Sphere/ro](wiki/Part Sphere/ro.md) | [Part Spiral/ro](wiki/Part Spiral/ro.md) |
-| [Part Sweep/ro](wiki/Part Sweep/ro.md) | [Part Thickness/ro](wiki/Part Thickness/ro.md) | [Part Torus/ro](wiki/Part Torus/ro.md) |
-| [Part Wedge/ro](wiki/Part Wedge/ro.md) | [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) | [Whiffle Ball tutorial/ro](wiki/Whiffle Ball tutorial/ro.md) |
-|
+| [Part Measure Toggle 3D/ro](wiki/Part Measure Toggle 3D/ro.md) | [Part Measure Toggle All/ro](wiki/Part Measure Toggle All/ro.md) | [Part Measure Toggle Delta/ro](wiki/Part Measure Toggle Delta/ro.md) |
+| [Part Mirror/ro](wiki/Part Mirror/ro.md) | [Part Module/ro](wiki/Part Module/ro.md) | [Part Offset/ro](wiki/Part Offset/ro.md) |
+| [Part Offset2D/ro](wiki/Part Offset2D/ro.md) | [Part Plane/ro](wiki/Part Plane/ro.md) | [Part Primitives/ro](wiki/Part Primitives/ro.md) |
+| [Part RefineShape/ro](wiki/Part RefineShape/ro.md) | [Part RegularPolygon/ro](wiki/Part RegularPolygon/ro.md) | [Part ReverseShapes/ro](wiki/Part ReverseShapes/ro.md) |
+| [Part Revolve/ro](wiki/Part Revolve/ro.md) | [Part RuledSurface/ro](wiki/Part RuledSurface/ro.md) | [Part Section/ro](wiki/Part Section/ro.md) |
+| [Part ShapeFromMesh/ro](wiki/Part ShapeFromMesh/ro.md) | [Part SimpleCopy/ro](wiki/Part SimpleCopy/ro.md) | [Part Slice/ro](wiki/Part Slice/ro.md) |
+| [Part Sphere/ro](wiki/Part Sphere/ro.md) | [Part Spiral/ro](wiki/Part Spiral/ro.md) | [Part Sweep/ro](wiki/Part Sweep/ro.md) |
+| [Part Thickness/ro](wiki/Part Thickness/ro.md) | [Part Torus/ro](wiki/Part Torus/ro.md) | [Part Wedge/ro](wiki/Part Wedge/ro.md) |
+| [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) | [Whiffle Ball tutorial/ro](wiki/Whiffle Ball tutorial/ro.md) |
 
 
 

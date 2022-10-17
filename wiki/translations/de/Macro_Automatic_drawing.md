@@ -30,7 +30,7 @@ Ein Objekt muss ausgewählt werden, bevor das Makro gestartet wird.
 
 ToolBar icon ![](images/Macro_Automatic_drawing.png )
 
-**Macro\_Automatic\_drawing.FCMacro**
+**Macro_Automatic_drawing.FCMacro**
 
 
 {{MacroCode|code=

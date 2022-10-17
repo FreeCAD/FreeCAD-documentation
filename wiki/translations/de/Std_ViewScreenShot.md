@@ -34,15 +34,15 @@ Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, e
 
 ### Bildeigenschaften
 
-\#\* Wähle eine Option aus der **Hintergrund** Aufklappliste   *
+#\* Wähle eine Option aus der **Hintergrund** Aufklappliste   *
 
-\#\* {{Value|Aktuell}} Diese Option verwendet tWerthe Hintergrund der 3D Ansicht.
+#\* {{Value|Aktuell}} Diese Option verwendet tWerthe Hintergrund der 3D Ansicht.
 
-\#\* {{Value|Weiß}}
+#\* {{Value|Weiß}}
 
-\#\* {{Value|Schwarz}}
+#\* {{Value|Schwarz}}
 
-\#\* {{Value|Durchsichtig}} Nicht alle Bildformate unterstützen Transparenz.
+#\* {{Value|Durchsichtig}} Nicht alle Bildformate unterstützen Transparenz.
 
 1.  Wähle eine Option aus der **Erstellungsmethode** Aufklappliste   *
     -   

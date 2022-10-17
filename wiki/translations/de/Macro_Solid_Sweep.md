@@ -44,14 +44,14 @@ Mělo by být poznamenáno, že výsledná pevná látka nebude **parametrická*
 -   Der Abschnitt muss ein geschlossenes Profil sein, oder das Ergebnis ist nicht solide.
 -   Der Abschnitt muss nicht auf der Flugbahn liegen, es ist jedoch vorzuziehen, dass er normal (senkrecht) zur Flugbahn ist.
 -   Die Flugbahn kann entweder ein offenes oder ein geschlossenes Profil sein (Kreis-, Linien- und Bogensegmente), aber alle Elemente müssen tangential sein, da sonst die Form unerwartet ist. Beispielsweise erzeugt eine Flugbahn mit geraden Ecken wie ein Rechteck keinen Volumenkörper.
--   Wenn der Volumenkörper verdreht wird, bearbeiten Sie das Makro, um den Wert \'\' isFrenet \'\' in 0 (Null) zu ändern, und versuchen Sie es erneut.
--   Wenn Sie die Variable \'\' makeSolid \'\' im Makro auf 0 (Null) setzen, werden mehrere Flächen mit offenen Enden erzeugt.
+-   Wenn der Volumenkörper verdreht wird, bearbeiten Sie das Makro, um den Wert *isFrenet* in 0 (Null) zu ändern, und versuchen Sie es erneut.
+-   Wenn Sie die Variable *makeSolid* im Makro auf 0 (Null) setzen, werden mehrere Flächen mit offenen Enden erzeugt.
 
 ## Skript
 
 ToolBar Icon ![](images/Macro_Solid_Sweep.png )
 
-**Macro\_Solid\_Sweep.FCMacro**
+**Macro_Solid_Sweep.FCMacro**
 
 
 {{MacroCode|code=

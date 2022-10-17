@@ -49,7 +49,7 @@ Primeiramente, baixe e instale o FreeCAD. Consulte a página [Download](Download
 
    *   1\. O [área de visão principal](main_view_area/pt-br.md), que pode conter diferentes janelas com abas, principalmente o [3D view](3D_view/pt-br.md).
    *   2\. A [3D view](3D_view/pt-br.md), que mostra os objetos geométricos do documento.
-   *   3\. A [vista em árvore](tree_view/pt-br.md). (parte do [visualização combinada](combo_view/pt-br.md)), mostrando a hierarquia e o histórico de construção dos objetos no documento; também pode exibir o [painel\_de\_tarefa](task_panel/pt-br.md) para comandos ativos.
+   *   3\. A [vista em árvore](tree_view/pt-br.md). (parte do [visualização combinada](combo_view/pt-br.md)), mostrando a hierarquia e o histórico de construção dos objetos no documento; também pode exibir o [painel_de_tarefa](task_panel/pt-br.md) para comandos ativos.
    *   4\. O editor [editor de propriedade](property_editor/pt-br.md). (parte do [visualização combinada](combo_view/pt-br.md)), que permite visualizar e modificar as propriedades dos objetos selecionados.
    *   5\. A [vista de seleção](selection_view/pt-br.md), que indica os objetos ou subelementos dos objetos (vértices, bordas, faces) que são selecionados.
    *   6\. A [visualização de relatório](report_view/pt-br.md). (ou janela de saída), onde são mostradas mensagens, avisos e erros.
@@ -238,7 +238,7 @@ E, finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente [ scripti
 
 
 
-[Category   *User\_Documentation/pt-br](Category   *User_Documentation/pt-br.md)
+[Category   *User_Documentation/pt-br](Category   *User_Documentation/pt-br.md)
 
 
 

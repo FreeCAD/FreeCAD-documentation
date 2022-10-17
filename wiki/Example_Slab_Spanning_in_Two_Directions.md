@@ -194,7 +194,7 @@ SlabReinforcementGroup = makeSlabReinforcement(
 -   Creates a `SlabReinforcementGroup` object for slab spanning in two direction from the given `structure`, which is a Slab [Arch Structure](Arch_Structure.md), and `facename`, which is a face of that structure.
     -   If no `structure` nor `facename` are given, it will take the user selected face as input.
 
-*\' Properties used for slab spanning in two direction for scripting*\'
+**Properties used for slab spanning in two direction for scripting**
 
 **Properties for Rebars in Parallel Direction to selected face   ***
 
@@ -214,35 +214,35 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **parallel_diameter**   * Diameter of parallel rebars.
 
--    **parallel_amount_spacing_check**   * If is set to True, then value of parallel\_amount\_spacing\_value is used as rebars count else parallel\_amount\_spacing\_value\'s value is used as spacing in parallel rebars.
+-    **parallel_amount_spacing_check**   * If is set to True, then value of parallel_amount_spacing_value is used as rebars count else parallel_amount_spacing_value\'s value is used as spacing in parallel rebars.
 
--    **parallel_amount_spacing_value**   * It contains count of rebars or spacing between parallel rebars based on value of amount\_spacing\_check.
+-    **parallel_amount_spacing_value**   * It contains count of rebars or spacing between parallel rebars based on value of amount_spacing_check.
 
--    **parallel_rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the parallel\_diameter.
+-    **parallel_rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the parallel_diameter.
 
--    **parallel_bent_bar_length**   * It represents arm\'s length of bent shape parallel rebar when parallel\_rebar\_type is BentShapeRebar
+-    **parallel_bent_bar_length**   * It represents arm\'s length of bent shape parallel rebar when parallel_rebar_type is BentShapeRebar
 
--    **parallel_bent_bar_angle**   * It represents angle for bent shape parallel rebar when parallel\_rebar\_type is BentShapeRebar
+-    **parallel_bent_bar_angle**   * It represents angle for bent shape parallel rebar when parallel_rebar_type is BentShapeRebar
 
 -    **parallel_distribution_rebars_check**   * If True add distribution rebars for parallel bent shape rebars. Default is False.
 
 -    **parallel_distribution_rebars_diameter**   * Diameter of distribution rebars for parallel bent shape rebars.
 
--    **parallel_distribution_rebars_amount_spacing_check**   * If is set to True, then value of parallel\_distribution\_rebars\_amount\_spacing\_value is used as rebars count else parallel\_distribution\_rebars\_amount\_spacing\_value\'s value is used as spacing in parallel\_distribution\_rebars. Default is True.
+-    **parallel_distribution_rebars_amount_spacing_check**   * If is set to True, then value of parallel_distribution_rebars_amount_spacing_value is used as rebars count else parallel_distribution_rebars_amount_spacing_value\'s value is used as spacing in parallel_distribution_rebars. Default is True.
 
--    **parallel_distribution_rebars_amount_spacing_value**   * It contains count or spacing between distribution rebars for one side of parallel bent shape rebars based on value of parallel\_distribution\_rebars\_check. Default is 2.
+-    **parallel_distribution_rebars_amount_spacing_value**   * It contains count or spacing between distribution rebars for one side of parallel bent shape rebars based on value of parallel_distribution_rebars_check. Default is 2.
 
 **Properties for Rebars in Cross Direction to selected face   ***
 
 -    **cross_rebar_type**   * Type of rebar for cross rebars for slab reinforcement. It can have four values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\', \'BentShapeRebar\'.
 
--    **cross_front_cover**   * The distance between cross rebar and cross\_face (face perpendicular to selected face).
+-    **cross_front_cover**   * The distance between cross rebar and cross_face (face perpendicular to selected face).
 
 -    **cross_rear_cover**   * Rear cover for slab reinforcement of cross rebars.
 
 -    **cross_left_cover**   * The distance between the left end of the cross rebar to the left face of the structure.
 
--    **cross_right_cover**   * The distance between the right end of the rebar to right face of the structure relative to cross\_face.
+-    **cross_right_cover**   * The distance between the right end of the rebar to right face of the structure relative to cross_face.
 
 -    **cross_top_cover**   * The distance between cross rebar from the top face of the structure.
 
@@ -250,23 +250,23 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **cross_diameter**   * Diameter of cross rebars.
 
--    **cross_amount_spacing_check**   * If is set to True, then value of cross\_amount\_spacing\_value is used as rebars count else cross\_amount\_spacing\_value\'s value is used as spacing in rebars.
+-    **cross_amount_spacing_check**   * If is set to True, then value of cross_amount_spacing_value is used as rebars count else cross_amount_spacing_value\'s value is used as spacing in rebars.
 
--    **cross_amount_spacing_value**   * It contains count of rebars or spacing between rebars based on value of cross\_amount\_spacing\_check.
+-    **cross_amount_spacing_value**   * It contains count of rebars or spacing between rebars based on value of cross_amount_spacing_check.
 
--    **cross_rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the cross\_diameter.
+-    **cross_rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the cross_diameter.
 
--    **cross_bent_bar_length**   * It represents arm\'s length of bent shape cross rebar when cross\_rebar\_type is BentShapeRebar
+-    **cross_bent_bar_length**   * It represents arm\'s length of bent shape cross rebar when cross_rebar_type is BentShapeRebar
 
--    **cross_bent_bar_angle**   * It represents angle for bent shape cross rebar when cross\_rebar\_type is BentShapeRebar
+-    **cross_bent_bar_angle**   * It represents angle for bent shape cross rebar when cross_rebar_type is BentShapeRebar
 
 -    **cross_distribution_rebars_check**   * If True add distribution rebars for cross bent shape rebars. Default is False.
 
 -    **cross_distribution_rebars_diameter**   * Diameter for distribution rebars for cross bent shape rebars.
 
--    **cross_distribution_rebars_amount_spacing_check**   * If is set to True, then value of cross\_distribution\_rebars\_amount\_spacing\_value is used as rebars count else cross\_distribution\_rebars\_amount\_spacing\_value\'s value is used as spacing in cross\_distribution\_rebars. Default is True.
+-    **cross_distribution_rebars_amount_spacing_check**   * If is set to True, then value of cross_distribution_rebars_amount_spacing_value is used as rebars count else cross_distribution_rebars_amount_spacing_value\'s value is used as spacing in cross_distribution_rebars. Default is True.
 
--    **cross_distribution_rebars_amount_spacing_value**   * It contains count or spacing between distribution rebars for one side of cross bent shape rebars based on value of cross\_distribution\_rebars\_check. Default is 2.
+-    **cross_distribution_rebars_amount_spacing_value**   * It contains count or spacing between distribution rebars for one side of cross bent shape rebars based on value of cross_distribution_rebars_check. Default is 2.
 
 **Common Properties for Parallel and Cross Rebars   ***
 

@@ -294,8 +294,8 @@ ptvsd.wait_for_attach()
 -   In VS Code start debugging using created configuration. You should see variables in debugger area.
 -   When setting breakpoints, VS Code will complain about not finding the .py file opened in the VS Code editor.
     -   Change \"remoteRoot\"   * \".\" to \"remoteRoot\"   * \"\"
-        -   For example, if the Python file resides in */home/FC\_myscripts/myscript.py*
-        -   Change to   * \"remoteRoot\"   * \"/home/FC\_myscripts\"
+        -   For example, if the Python file resides in */home/FC_myscripts/myscript.py*
+        -   Change to   * \"remoteRoot\"   * \"/home/FC_myscripts\"
     -   If you\'re just debugging FreeCAD macros from the FreeCAD macro folder, and that folder is \"C   */Users//AppData/Roaming/FreeCAD/Macro\", then use   *
         -   \"localRoot\"   * \"C   */Users//AppData/Roaming/FreeCAD/Macro\",
         -   \"remoteRoot\"   * \"C   */Users//AppData/Roaming/FreeCAD/Macro\"

@@ -27,7 +27,7 @@ The copies are coloured red and renamed with the Shapexxx + original names
 
 the icon for the toolbar ![icon for the button](images/Macro_ReproWire.png ) 
 
-*\' Macro\_ReproWire.FCMacro*\'
+**Macro_ReproWire.FCMacro**
 
 
 {{MacroCode|code=

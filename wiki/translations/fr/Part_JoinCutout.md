@@ -35,7 +35,7 @@ Un objet Part JoinFeature est créé avec le mode défini sur \"Cutout\" (Décou
 
 -    **Tool**   * Référence à l\'objet Empreinte (l\'objet à utiliser pour la découpe). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
 
--    **Mode**   * Le mode de fonctionnement est égal à \'Cutout\' (Découpe) (Changement qui transformera l\'Empreinte en une autre Part\_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé composé de Base et d\'Empreinte sera créé, ce qui est une opération rapide).
+-    **Mode**   * Le mode de fonctionnement est égal à \'Cutout\' (Découpe) (Changement qui transformera l\'Empreinte en une autre Part_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé composé de Base et d\'Empreinte sera créé, ce qui est une opération rapide).
 
 -    **Refine**   * définit s\'il faut appliquer l\'opération [Part Affiner](Part_RefineShape/fr.md) ou non, à la forme finale. La valeur par défaut est déterminée par la case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est \'bypass\', affiner est ignoré (jamais appliqué).
 

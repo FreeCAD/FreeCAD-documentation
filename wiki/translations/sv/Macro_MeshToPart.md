@@ -19,7 +19,7 @@ Detta makro omvandlar utvalda maskor till delar. Den har en bred tolerans, så a
 
 ToolBar Icon ![](images/Macro_MeshToPart.png )
 
-**Macro\_MeshToPart.FCMacro**
+**Macro_MeshToPart.FCMacro**
 
 
 {{MacroCode|code=

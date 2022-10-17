@@ -75,7 +75,7 @@ Głównymi cechami środowiska **Złożenie 3** są   *
 
    ** <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width   *32px;"> [Inteligentne przeliczanie](Assembly3_SmartRecompute/pl.md)   * Inteligentne ponowne obliczanie. Zazwyczaj włączone.
 
-   ** <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width   *32px;"> [Napraw element automatycznie](Assembly3_AutoFixElement/pl.md)   * Automatyczne naprawianie elementów. Funkcja eksperymentalna w wersji 0.19\_pre.
+   ** <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width   *32px;"> [Napraw element automatycznie](Assembly3_AutoFixElement/pl.md)   * Automatyczne naprawianie elementów. Funkcja eksperymentalna w wersji 0.19_pre.
 
    ** Styl elementu. Ma on dwa ustawienia
 
@@ -113,7 +113,7 @@ Głównymi cechami środowiska **Złożenie 3** są   *
 
 #### Główny pasek wiązań 
 
-   *   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *28px;">
+   *   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width   *14px;"><img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -140,9 +140,15 @@ Głównymi cechami środowiska **Złożenie 3** są   *
 
    **   * Ściany są zbieżne w swoich środkach z opcjonalną odległością.
 
-   ** <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *32px;"> [Wiązanie umocowania](Assembly3_ConstraintAttachment/pl.md)   * Dodaj wiązanie **Umocowania**, aby połączyć dwie części za pomocą wybranych elementów geometrii.
+   ** Dołączenie. Posiada ono dwa ustawienia   *
 
-   **   * To wiązanie całkowicie unieruchamia części względem siebie.
+   **\* <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *32px;"> [Wiązanie umocowania](Assembly3_ConstraintAttachment/pl.md)   * Dodaj wiązanie **Umocowania**, aby połączyć dwie części za pomocą wybranych elementów geometrii.
+
+   **\*   * To wiązanie całkowicie unieruchamia części względem siebie.
+
+   **\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg  style="width   *32px;"> [Odsunięcie dołączenia](Assembly3_ConstraintAttachmentOffset/pl.md)   * Analogicznie jak wiązanie \"Dołączenie\", ale zachowuje aktualne względne umiejscowienie zaangażowanych części poprzez zastosowanie odsunięcia elementu.
+
+   **\*   * To wiązanie całkowicie unieruchamia części względem siebie.
 
    ** <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *32px;"> [Wiązanie wyrównanie do osi](Assembly3_ConstraintAxial.md)   * Dodaj wiązanie \"wyrównanie osiowe\", aby wyrównać krawędzie/ściany dwóch lub więcej części.
 
@@ -431,7 +437,7 @@ Mimo, że mogą mieć podobne narzędzia, środowisko Złożenie 3 nie jest zgod
 
 Istnieją dwa alternatywne sposoby instalacji środowiska pracy Złożenie 3   *
 
--   Specjalny fork programu FreeCAD wykonany przez użytkownika realthunder; zobacz [FreeCAD\_assembly3 releases](https   *//github.com/realthunder/FreeCAD_assembly3/releases). Ten fork jest oparty o konkretnym commit z głównej gałęzi FreeCAD, ale posiada również dodatkowe funkcje, które obecnie nie są obecne w głównej gałęzi. Ze względu na to, że to rozwidlenie jest oparte na konkretnym zrzucie rozwojowym, nie posiada najnowszych funkcji scalanych codziennie do gałęzi głównej.
+-   Specjalny fork programu FreeCAD wykonany przez użytkownika realthunder; zobacz [FreeCAD_assembly3 releases](https   *//github.com/realthunder/FreeCAD_assembly3/releases). Ten fork jest oparty o konkretnym commit z głównej gałęzi FreeCAD, ale posiada również dodatkowe funkcje, które obecnie nie są obecne w głównej gałęzi. Ze względu na to, że to rozwidlenie jest oparte na konkretnym zrzucie rozwojowym, nie posiada najnowszych funkcji scalanych codziennie do gałęzi głównej.
 -   Rozwojowy [AppImage](AppImage/pl.md), jest oparty na aktualnej gałęzi głównej i zawiera zależności potrzebne do pracy ze środowiskiem Złożenie 3, takie jak solver SolveSpace.
 
 Ponieważ AppImage działa tylko dla Linuksa, dla użytkowników Windows *(którzy chcą alternatywnie zainstalować to środowisko pracy)* jedyną możliwością przetestowania Złożenie 3 jest pierwsza opcja *(fork realthunder-a)*.
@@ -575,7 +581,7 @@ Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystk
 -   Używanie hierarchicznych złożeń pomaga uniknąć problemów z solverami i zachować płynność modelu. Można zamrozić podzespół jednym kliknięciem i w ten sposób łatwo zaoszczędzić zasoby procesora *(użyj menu kontekstowego w drzewie)*. Podczas wczytywania zespołu Assembly3 nie musi otwierać zewnętrznych plików dla zamrożonych podzespołów, dzięki czemu drzewo jest zwarte.
 -   Bardzo pomocne jest wyrobienie sobie nawyku nadawania nazw elementom i wiązaniom. Użyj klawisza **F2** aby zrobić to szybko na drzewie. Bardzo przydatne są narzędzia do sortowania drzewa w głównym pasku narzędzi. Zespół z w pełni nazwanymi wiązaniami i elementami jest bardzo łatwy do zrozumienia dla innych osób lub dla siebie, gdy przeglądasz starszy plik.
 
-       *   Przykłady dla nazw wiązań dla tabeli   * \"Align\_FrontLegs\", \"Align\_FrameBottom-LegTops\", a nazwami elementów mogą być \"Leg1\_Top\" lub \"TableTop\_Front\", \"TableTop\_Left\".
+       *   Przykłady dla nazw wiązań dla tabeli   * \"Align_FrontLegs\", \"Align_FrameBottom-LegTops\", a nazwami elementów mogą być \"Leg1_Top\" lub \"TableTop_Front\", \"TableTop_Left\".
 -   Należy pamiętać, że gdy zewnętrzne pliki zostaną otwarte przez złożenie, nie jest możliwe łatwe ich ponowne zamknięcie bez zamykania złożenia. Ponieważ złożenie utrzymuje otwarte pliki w tle, zakładka może zniknąć, ale plik pozostaje widoczny w drzewie. Jeśli masz kilka warstw podzespołów, staje się prawie niemożliwe, aby zamknąć pojedyncze pliki. To zachowanie może się zmienić, ale do tego czasu możliwym podejściem może być regularne używanie komend **Plik → Zapisz wszystkie** i **Plik → Zamknij wszystkie** w celu wyczyszczenia drzewa przed pracą nad innym złożeniem podrzędnym.
 
        *   \'\'Przykład   * Załóżmy, że masz dużą maszynę CNC z głównym złożeniem i złożeniem podrzędnym dla każdego modułu. Gdy główne złożenie jest otwarte, może otworzyć dosłownie setki plików aż do pojedynczego łożyska kulkowego. Przed rozpoczęciem pracy na złożeniu podrzędnym szafy elektroniki maszyny jest to dobry pomysł, aby zapisać i zamknąć wszystkie pliki, aby uzyskać puste drzewo. Następnie otwórz tylko złożenie podrzędne dla szafy elektroniki. To otworzy wszystkie pliki, których potrzebuje, ale tylko te.

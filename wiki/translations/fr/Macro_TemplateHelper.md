@@ -53,7 +53,7 @@ L\'anglais est par défaut, mais peut-être que quelqu\'un aimera distinguer l\'
 
 La macro doit se trouver dans le répertoire macro. Pour l\'y placer, vous devez    *
 
-1.  Sélectionner la macro ci-dessous (de *\#! pyth\...*\' à **\...main()**).
+1.  Sélectionner la macro ci-dessous (de *#! pyth\...**à**\...main()*\').
 2.  Copier la sélection.
 3.  Créez un nouveau fichier macro en utilisant <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Macros\...](Std_DlgMacroExecute/fr.md) et sélectionnez **Create**.
 4.  Saisissez le nom (TemplateHelper) et sélectionnez **OK**. (*.FCMacro* est ajouté automatiquement.)

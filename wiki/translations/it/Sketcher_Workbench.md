@@ -146,17 +146,11 @@ Gli strumenti per creare gli oggetti.
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Asola](Sketcher_CreateSlot/it.md)   * Disegna un rettangolo con due lati opposti raccordati con un semicerchio, un\'asola.
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Crea un raccordo](Sketcher_CompCreateFillets.md)   * Questo è un menu di icone nella barra degli strumenti di Sketcher che contiene i seguenti comandi   *
 
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Raccorda](Sketcher_CreateFillet/it.md)   * Crea un raccordo tra due linee non parallele.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Raccorda](Sketcher_CreateFillet/it.md)   * Raccorda due linee unite in un punto. Selezionare entrambe le linee o fare clic sul punto di angolo, poi attivare lo strumento.
-
-
-</div>
-
-   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Filetto salva angolo](Sketcher_CreatePointFillet.md)   * Crea un raccordo tra due linee non parallele preservandone l\'intersezione (virtuale).
 
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width   *32px;"> [Rifila](Sketcher_Trimming/it.md)   * Accorcia una linea, un cerchio o un arco fino al primo nodo, punto di intersezione.
 

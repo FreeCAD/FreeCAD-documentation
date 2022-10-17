@@ -57,13 +57,39 @@ Questi sono gli strumenti per crere gli oggetti Viste.
 
 Questi sono strumenti per modificare l\'ordine di sovrapposizione che controlla la profondità apparente delle visualizzazioni su una pagina.
 
+-   <img alt="" src=images/TechDraw_StackTop.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Adjust Stacking Order   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_StackTop.svg  style="width   *32px;"> [Sposta la vista in cima alla sovrapposizione](TechDraw_StackTop/it.md)   * sposta le viste in cima all\'ordine di sovrapposizione. {{Version/it|1.0}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_StackBottom.svg  style="width   *32px;"> [Sposta vista in basso alla sovrapposizione](TechDraw_StackBottom/it.md)   * sposta le viste in fondo all\'ordine di sovrapposizione. {{Version/it|1.0}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_StackUp.svg  style="width   *32px;"> [Sposta la vista in alto di un livello](TechDraw_StackUp/it.md)   * sposta le viste in alto di un livello nell\'ordine di sovrapposizione. {{Version/it|1.0}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_StackDown.svg  style="width   *32px;"> [Sposta la vista in basso di un livello](TechDraw_StackDown/it.md)   * sposta le viste in basso di un livello nell\'ordine di sovrapposizione. {{Version/it|1.0}}
+
+
+</div>
 
 ## Clip
 
@@ -109,9 +135,23 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 -   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width   *32px;"> [Angolo da 3 punti](TechDraw_3PtAngleDimension/it.md)   * aggiunge una quota angolare usando tre vertici.
 
+-   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Insert Extent Dimensions   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width   *32px;"> [Estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md)   * aggiunge una quota di estensione orizzontale. {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width   *32px;"> [Estensione verticale](TechDraw_VerticalExtentDimension/it.md)   * aggiunge una quota di estensione verticale. {{Version/it|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width   *32px;"> [Link alla geometria 3D](TechDraw_LinkDimension/it.md)   * collega una quota esistente alla geometria 3D.
 
@@ -129,17 +169,57 @@ Gli strumenti di annotazione servono per \"commentare\" un disegno con informazi
 
 -   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width   *32px;"> [Blocco di testo](TechDraw_RichTextAnnotation/it.md)   * aggiunge un blocco di annotazione rich text a una [Linea guida](TechDraw_LeaderLine/it.md) o una vista. {{Version/it|0.19}}
 
+-   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Add Cosmetic Vertices   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width   *32px;"> [Vertice cosmetico](TechDraw_CosmeticVertex/it.md)   * Lo strumento Vertice cosmetico aggiunge un vertice che non fa parte della geometria originale. {{Version/it|0.19}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Midpoints.svg  style="width   *32px;"> [Punti mediani](TechDraw_Midpoints/it.md)   * Lo strumento Punti mediani aggiunge dei Vertici cosmetici nei punti medi di uno o più bordi. {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Quadrants.svg  style="width   *32px;"> [Quadrante](TechDraw_Quadrants/it.md)   * Lo strumento Quadrante aggiunge dei Vertici cosmetici nei punti quarti di uno o più bordi circolari. {{Version/it|0.19}}
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Add Centerlines   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width   *32px;"> [Linea a centro faccia](TechDraw_FaceCenterLine/it.md)   * Lo strumento Linea a centro faccia aggiunge una linea centrale alle facce selezionate. {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width   *32px;"> [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md)   * Lo strumento Linea a centro linee aggiunge una linea centrale tra 2 bordi. {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width   *32px;"> [Linea centrale a 2 punti](TechDraw_2PointCenterLine/it.md)   * Lo strumento Linea a centro punti aggiunge una linea centrale tra 2 punti. {{Version/it|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width   *32px;"> [Linea Cosmetica tra due punti](TechDraw_2PointCosmeticLine/it.md)   * aggiunge una linea cosmetica che collega 2 vertici. {{Version/it|0.19}}
 
@@ -163,25 +243,79 @@ Questi sono strumenti per migliorare i tuoi disegni TechDraw.
 
 -   <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width   *32px;"> [Cambia attributi linea](TechDraw_ExtensionChangeLineAttributes.md)   * cambia gli attributi (stile, larghezza e colore) delle linee cosmetiche e delle linee centrali. {{Version/it|0.20}}
 
+-   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Change Length of Cosmetic Lines or Centerlines   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width   *32px;"> [Estende Linea](TechDraw_ExtensionExtensionExtendLine/it.md)   * estende una linea cosmetica o una linea centrale a entrambe le estremità. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width   *32px;"> [Accorcia Linea](TechDraw_ExtensionShortenLine/it.md)   * accorcia una linea cosmetica o una linea centrale a entrambe le estremità. {{Version/it|0.20}}
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width   *32px;"> [Blocca/sblocca Vista](TechDraw_ExtensionLockUnlockView/it.md)   * blocca o sblocca la posizione di una vista. {{Version/it|0.20}}
 
 -   <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width   *32px;"> [Posiziona Vista di Sezione](TechDraw_ExtensionPositionSectionView/it.md)   * allinea ortogonalmente una vista di sezione alla sua vista sorgente. {{Version/it|0.20}}
 
+-   <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Align Dimensions   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width   *32px;"> [Allinea Orizzontalmente una Catena di Quote](TechDraw_ExtensionPosHorizChainDimension/it.md)   * allinea le quote orizzontali per creare una quotatura a catena. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width   *32px;"> [Allinea Verticalmente una Catena di Quote](TechDraw_ExtensionPosVertChainDimension/it.md)   * allinea le quote verticali per creare una quotatura a catena. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width   *32px;"> [Allinea in Obliquo una Catena di Quote](TechDraw_ExtensionPosObliqueChainDimension/it.md)   * allinea le quote oblique per creare una quotatura a catena. {{Version/it|0.20}}
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Evenly Space Dimensions   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width   *32px;"> [Distanzia Quote Orizzontali](TechDraw_ExtensionCascadeHorizDimension/it.md)   * distanzia uniformemente le quote orizzontali. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width   *32px;"> [Distanzia Quote Verticali](TechDraw_ExtensionCascadeVertDimension/it.md)   * distanzia uniformemente le quote verticali. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width   *32px;"> [Distanzia Quote Oblique](TechDraw_ExtensionCascadeObliqueDimension/it.md)   * distanzia uniformemente le quote oblique. {{Version/it|0.20}}
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width   *32px;"> [Calcola l\'area delle facce selezionate](TechDraw_ExtensionAreaAnnotation/it.md)   * calcola l\'area delle facce selezionate e inserisce un\'annotazione dell\'area. {{Version/it|0.20}}
 
@@ -189,59 +323,221 @@ Questi sono strumenti per migliorare i tuoi disegni TechDraw.
 
 ### Linee di centro e filettature 
 
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Add Centerlines   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width   *32px;"> [Aggiunge linee di Centro del Cerchio](TechDraw_ExtensionCircleCenterLines/it.md)   * aggiunge linee di centro a cerchi e archi. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width   *32px;"> [Aggiunge Linee di Centro del Cerchio dei Bulloni](TechDraw_ExtensionHoleCircle/it.md)   * aggiunge le linee di centro ad una serie circolare di cerchi. {{Version/it|0.20}}
 
+
+</div>
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Add Cosmetic Threads   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width   *32px;"> [Aggiunge Vista Laterale Filettatura Cosmetica Foro](TechDraw_ExtensionThreadHoleSide/it.md)   * aggiunge una filettatura cosmetica alla vista laterale di un foro. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width   *32px;"> [Aggiunge Vista Inferiore Filettatura Cosmetica Foro](TechDraw_ExtensionThreadHoleBottom/it.md)   * aggiunge una filettatura cosmetica alla vista superiore o inferiore dei fori. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width   *32px;"> [Aggiunge Vista Laterale Filettatura Cosmetica Bullone](TechDraw_ExtensionThreadBoltSide/it.md)   * aggiunge una filettatura cosmetica alla vista laterale di un bullone/vite/barra. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width   *32px;"> [Aggiunge Vista Inferiore Filettatura Cosmetica Bullone](TechDraw_ExtensionThreadBoltBottom/it.md)   * aggiunge una filettatura cosmetica alla vista superiore o inferiore di bulloni/viti/barre. {{Version/it|0.20}}
 
+
+</div>
+
 -   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width   *32px;"> [Aggiunge Vertici di Intersezione Cosmetici](TechDraw_ExtensionVertexAtIntersection/it.md)   * aggiunge vertici cosmetici all\'intersezione dei bordi selezionati. {{Version/it|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Add Cosmetic Circles or Arcs   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width   *32px;"> [Aggiunge Cerchio Cosmetico](TechDraw_ExtensionDrawCosmCircle/it.md)   * aggiunge un cerchio cosmetico basato su due vertici. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width   *32px;"> [Aggiunge Arco Cosmetico](TechDraw_ExtensionDrawCosmArc/it.md)   * aggiunge un arco cosmetico in senso antiorario basato su tre vertici. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width   *32px;"> [Aggiunge un Cerchio Cosmetico per 3 Punti](TechDraw_ExtensionDrawCosmCircle3Points/it.md)   * aggiunge un cerchio cosmetico basato su tre vertici. {{Version/it|0.20}}
 
+
+</div>
+
+-   <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Add Cosmetic Parallel or Perpendicular Lines   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width   *32px;"> [Aggiunge Linea Parallela Cosmetica](TechDraw_ExtensionLineParallel/it.md)   * aggiunge una linea cosmetica parallela a un\'altra linea attraverso un vertice. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width   *32px;"> [Aggiunge Linea Perpendicolare Cosmetica](TechDraw_ExtensionLinePerpendicular/it.md)   * aggiunge una linea cosmetica perpendicolare a un\'altra linea attraverso un vertice. {{Version/it|0.20}}
 
+
+</div>
+
 ### Quote
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Create Chain Dimensions   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width   *32px;"> [Crea una Catena Orizzontale di Quote](TechDraw_ExtensionCreateHorizChainDimension/it.md)   * crea una sequenza di quote orizzontali allineate. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width   *32px;"> [Crea una Catena Verticale di Quote](TechDraw_ExtensionCreateVertChainDimension/it.md)   * crea una sequenza di quote verticali allineate. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  style="width   *32px;"> [Crea una Catena Obliqua di Quote](TechDraw_ExtensionCreateObliqueChainDimension/it.md)   * crea una sequenza di quote oblique allineate. {{Version/it|0.20}}
 
+
+</div>
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Create Coordinate Dimensions   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width   *32px;"> [Crea Quote Coordinate Orizzontali](TechDraw_ExtensionCreateHorizCoordDimension/it.md)   * crea più quote orizzontali equidistanti a partire dalla stessa linea di base. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width   *32px;"> [Crea Quote Coordinate Verticali](TechDraw_ExtensionCreateVertCoordDimension/it.md)   * crea più quote verticali equidistanti a partire dalla stessa linea di base. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width   *32px;"> [Crea Quote Coordinate Oblique](TechDraw_ExtensionCreateObliqueCoordDimension/it.md)   * crea più quote oblique equidistanti a partire dalla stessa linea di base. {{Version/it|0.20}}
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Create Chamfer Dimensions   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width   *32px;"> [Crea Quota Smusso Orizzontale](TechDraw_ExtensionCreateHorizChamferDimension.md)   * crea una quota orizzontale e una quota angolare per uno smusso. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width   *32px;"> [Crea Quota Smusso Verticale](TechDraw_ExtensionCreateVertChamferDimension/it.md)   * crea una quota verticale e una quota angolare per uno smusso. {{Version/it|0.20}}
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width   *32px;"> [Crea Quota Lunghezza Arco](TechDraw_ExtensionCreateLengthArc/it.md)   * crea una quota lunghezza arco. {{Version/it|0.20}}
 
+-   <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Insert Prefix   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width   *32px;"> [Inserisce il Prefisso \'⌀\'](TechDraw_ExtensionInsertDiameter/it.md)   * inserisce un simbolo \'⌀\' all\'inizio del testo della quota. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width   *32px;"> [Inserisce il Prefisso \'〼\'](TechDraw_ExtensionInsertSquare/it.md)   * inserisce un simbolo \'〼\' all\'inizio del testo della quota. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  style="width   *32px;"> [Rimuove Prefisso](TechDraw_ExtensionRemovePrefixChar/it.md)   * rimuove tutti i simboli all\'inizio del testo della quota. {{Version/it|0.20}}
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Change Decimal Places   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width   *32px;"> [Aumenta Posizioni Decimali](TechDraw_ExtensionIncreaseDecimal/it.md)   * aumenta il numero di posizioni decimali del testo della quota. {{Version/it|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width   *32px;"> [Diminuisce Posizioni Decimali](TechDraw_ExtensionDecreaseDecimal/it.md)   * riduce il numero di posizioni decimali del testo della quota. {{Version/it|0.20}}
+
+
+</div>
 
 ## Esportazione
 

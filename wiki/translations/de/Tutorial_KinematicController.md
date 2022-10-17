@@ -1590,7 +1590,7 @@ if __name__ == "__main__"   *
 
 ## Ein paar Schwachstellen 
 
--   Die Numerierung der Bildfolge ist umgekehrt, da die Variable steps\_left (verbleibende Schritte) heruntergezählt wird.
+-   Die Numerierung der Bildfolge ist umgekehrt, da die Variable steps_left (verbleibende Schritte) heruntergezählt wird.
 -   Das Bildverzeichnis und der Name des Bildes sind im Makro hinterlegt (hard-coded).
 -   Mehrfach geöffnete Steuerungsfenster sind nicht synchronisiert.
 

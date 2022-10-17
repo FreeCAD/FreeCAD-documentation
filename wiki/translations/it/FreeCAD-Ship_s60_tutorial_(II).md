@@ -142,7 +142,7 @@ Per creare i serbatoi caricare il [Modulo Part](Part_Workbench/it.md) e creare u
 
 </div>
 
-La geometria del serbatoio sarà costituita dalla parte comune del box e della geometria della nave, perciò nascondere l\'istanza **Ship** e mostrare la geometria originale **s60\_IowaUniversity**. Selezionare il **box** e **s60\_IowaUniversity** e poi usare l\'operazione booleana di intersezione per generare la geometria del serbatoio di dritta.
+La geometria del serbatoio sarà costituita dalla parte comune del box e della geometria della nave, perciò nascondere l\'istanza **Ship** e mostrare la geometria originale **s60_IowaUniversity**. Selezionare il **box** e **s60_IowaUniversity** e poi usare l\'operazione booleana di intersezione per generare la geometria del serbatoio di dritta.
 
 ![Generated tank geometry.](images/FreeCAD-Ship-S60TankGeometry.png )
 
@@ -156,7 +156,7 @@ Geometria del serbatoio generato.
 
 Per costruire il serbatoio di babordo basta selezionare la geometria di dritta e eseguire lo strumento specchio, selezionando XZ come piano di riflessione.
 
-Per convertire la geometria dei serbatoi in una forma solida usuale, and recover our **s60\_IowaUniversity** geometry, caricare il [modulo Draft](Draft_Workbench/it.md), poi selezionare la geometria del serbatoio di dritta e eseguire Upgrade. Ripetere l\'operazione con la geometria del serbatoio di babordo. Si possono rinominare le geometrie con   *
+Per convertire la geometria dei serbatoi in una forma solida usuale, and recover our **s60_IowaUniversity** geometry, caricare il [modulo Draft](Draft_Workbench/it.md), poi selezionare la geometria del serbatoio di dritta e eseguire Upgrade. Ripetere l\'operazione con la geometria del serbatoio di babordo. Si possono rinominare le geometrie con   *
 
 -   StarboardTankGeom
 -   PortTankGeom

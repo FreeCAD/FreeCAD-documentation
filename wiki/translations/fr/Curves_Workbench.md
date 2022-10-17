@@ -14,7 +14,7 @@ Télécharger l\'atelier externe via le <img alt="" src=images/Std_AddonMgr.svg 
 
 ## Références
 
--   Developpeur    * \@Chris\_G
+-   Developpeur    * \@Chris_G
 -   Github    * <https   *//github.com/tomate44/CurvesWB>
 -   Discussion    * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=22675>
 -   Tutoriel sur YouTube utilisant l\'atelier de courbes   * <https   *//www.youtube.com/watch?v=ZVdbvxmJ3Mo>

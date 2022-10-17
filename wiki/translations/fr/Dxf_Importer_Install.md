@@ -45,7 +45,7 @@ Si vous avez une version 0,15, vous pouvez utiliser le package de mise à jour a
 
 **3    *** la boîte de dialogue s\'ouvre
 
-**4    *** copiez l\'adresse de \"Destination de la macro\" (ici **C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**) dans Ubuntu, normalement **/home/your\_user\_name/.FreeCAD**
+**4    *** copiez l\'adresse de \"Destination de la macro\" (ici **C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**) dans Ubuntu, normalement **/home/your_user_name/.FreeCAD**
 
 ![Ouvre une boîte de dialogue pour exécuter une macro enregistrée](images/Dxf_Importer_Install_02.png ) 
 
@@ -99,7 +99,7 @@ Télécharger les fichiers
 
 **13    *** revenez dans l\'explorateur laissé ouvert (étape 6) et collez les fichiers dans le répertoire (**C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**)
 
-Dans Ubuntu, normalement ce doit être **/home/your\_user\_name/.FreeCAD**
+Dans Ubuntu, normalement ce doit être **/home/your_user_name/.FreeCAD**
 
 ![Collez les fichiers](images/Dxf_Importer_Install_09.png ) 
 
@@ -147,7 +147,7 @@ Téléchargez et installez Teigha converter pour utiliser les fichiers au format
 
 **21    *** Fermez la fenêtre des macros
 
-**22    *** et activez \'\'\'Atelier Planche à Dessin \'\'\'
+**22    *** et activez **Atelier Planche à Dessin**
 
 ![activez atelier Planche à Dessin](images/Dxf_Importer_Install_16.png ) 
 

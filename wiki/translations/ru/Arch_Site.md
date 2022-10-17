@@ -29,7 +29,7 @@ The Arch Site is a special object that combines properties of a standard FreeCAD
 
 ## Свойства
 
-### Data
+### Данные
 
 -    **Terrain**   * The base terrain of this site
 
@@ -63,7 +63,7 @@ The Arch Site is a special object that combines properties of a standard FreeCAD
 
 -    **EPW File**   * Allow to attach an EPW file from the [Ladybug EPW data website](https   *//www.ladybug.tools/epwmap/) to this site. This is needed to display wind rose diagrams <small>(v0.19)</small> 
 
-### View
+### Вид
 
 -    **Solar Diagram**   * Shows or hides the solar diagram
 
@@ -97,7 +97,7 @@ If [Ladybug](https   *//www.ladybug.tools/ladybug.html) is installed on your sys
 
 ![](images/Freecad-solar-diagram.jpg )
 
-## Scripting
+## Программирование
 
 
 **See also   ***
@@ -165,15 +165,6 @@ import FreeCADGui, Arch
 Node = Arch.makeSolarDiagram(-46.38, -23.33, scale=10000, complete=True)
 FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

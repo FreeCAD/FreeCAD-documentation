@@ -34,7 +34,7 @@ L\'azione dell\'utente è immediatamente confermata dal fatto che le finestre di
 
 Toolbar icon ![](images/Macro_Toggle_Views_Visibility.png )
 
-**Macro\_Toggle\_Panels\_Visibility.FCMacro**
+**Macro_Toggle_Panels_Visibility.FCMacro**
 
 
 {{MacroCode|code=

@@ -21,7 +21,7 @@ Sélectionnez un objet dans l\'arbre, exécutez la macro et un un composé sera 
 
 ToolBar Icon ![](images/Macro_DeepCopy.png )
 
-**Macro\_DeepCopy.FCMacro**
+**Macro_DeepCopy.FCMacro**
 
 
 {{MacroCode|code=

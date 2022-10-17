@@ -15,7 +15,7 @@ Crée une contrainte FEM pour maintenir les nœuds d\'une surface planaire dans 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> [Contrainte de rotation plane](FEM_ConstraintPlaneRotation/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes géométriques → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Contrainte de rotation plane** dans le menu.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la contrainte doit être appliquée, qui peut être une face.

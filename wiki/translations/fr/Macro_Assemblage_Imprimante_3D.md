@@ -26,7 +26,7 @@ Pour arrêter l\'animation faites    * **animation.stop()**
 
 ## Le fichier 
 
-[00\_assemblage\_total.fcstd](http   *//blog.passion-tarn-et-garonne.info/public/3D/pb-avec-freecad/00-assemblage-total.fcstd)
+[00_assemblage_total.fcstd](http   *//blog.passion-tarn-et-garonne.info/public/3D/pb-avec-freecad/00-assemblage-total.fcstd)
 
 ## Script
 

@@ -48,11 +48,11 @@ Pipeline es un objeto de resultado, que crea una nueva representación gráfica 
 
     This pipeline dialog box  has the following settings   *
     * '''Mode'''   * How to draw the results. The possible modes are
-    ** '''Outline'''   * The outline of the result mesh. In fact is displays no results but only the borders of the mesh
-    ** '''Nodes'''   * The result mesh nodes
+    ** '''Outline'''   * The outline of the result mesh. In fact is displays no results but only the borders of the mesh.
+    ** '''Nodes'''   * The result mesh nodes.
     ** '''Surface'''   * This is the default and displays the surface of the result mesh.
     ** '''Surface with Edges'''   * Like '''Surface''' but with the mesh outline edges and the surface mesh node connection lines.
-    * '''Field'''   * Which result property to draw
+    * '''Field'''   * Which result property to draw.
     * '''Vector'''   * Is only active if the '''Field''' is a vector. You can select whether to display the vector ''Magnitude'' or its X, Y, Z components.
 
     ===Scale===
@@ -61,7 +61,7 @@ Pipeline es un objeto de resultado, que crea una nueva representación gráfica 
 
     [[File   *SIMTUT 05.PNG]]
 
-    and can modify these properties   *
+    and you can modify these properties   *
     * '''Gradient'''   * You can select reversed order of the default color gradient, ''Red-White-Blue'', ''Black-White'' or ''White-Black''.
     * '''Style'''   * The default option ''Flow'' uses the full color gradient range. The option ''Zero'' uses only the color gradient range starting form the color that would display the mean value to the maximum.
     * '''Visibility'''   * The option ''Out grayed'' will color all mesh nodes whose values are outside the set minimum/maximum range in gray. The option ''Out transparent'' will make these mesh nodes transparent.
@@ -69,7 +69,7 @@ Pipeline es un objeto de resultado, que crea una nueva representación gráfica 
 
     ===Property Editor===
 
-    In the [[property editor]] you can set in the ''View'' tab the settings from the dialog box. In the ''Data'' tab you can additionally set this   *
+    In the [property editor](Property_editor.md) you can set in the ''View'' tab the settings from the dialog box. In the ''Data'' tab you can additionally set this   *
     * **Mode**   * How the filters used in the pipeline will be treated. These modes are possible   *
     ** '''Serial'''   * In this mode every filter takes the previous filter as input. The order is hereby the order of creation. The first created filter takes the pipeline as input. Its '''Input''' property is therefore empty.
     ** '''Parallel'''   * In this mode all filters take the pipeline as input.

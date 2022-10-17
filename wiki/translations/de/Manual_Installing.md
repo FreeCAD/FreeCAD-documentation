@@ -66,7 +66,7 @@ Sobald FreeCAD installiert ist, möchtest du es vielleicht öffnen und einige Ei
 5.  **Autor und Lizenz**   * (Kategorie *Allgemein*, Reiter *Dokument*) Hier stellst du die Werte ein, die für neue Dateien, die du erstellst, verwendet werden sollen. Berücksichtige, deine Dateien von Anfang an tauschbar zu machen, indem du eine benutzerfreundlichere [copyleft](https   *//en.wikipedia.org/wiki/Copyleft) Lizenz wie [Creative Commons](https   *//creativecommons.org/) verwendest.
 6.  **Interne Python Meldungen umleiten**   * (Kategorie *Allgemein*, Reiter *Ausgabefenster*) Es ist immer gut diese beiden Optionen anzuhaken, da sie dazu führen, dass Meldungen des internen Python Interpreters im [Ausgabefenster](Manual   *The_FreeCAD_Interface#Report_view.md) angezeigt werden, wenn es ein Problem beim Ausführen eines Python Skripts gibt. ![](images/Freecad-basic-options03.jpg )
 7.  **Einheiten**   * (Kategorie *Allgemein*, Reiter *Einheiten*) Hier kannst du das Standard Einheitensystem einstellen, das du verwenden möchtest. ![](images/Freecad-basic-options04.jpg )
-8.  \'\'\'Zoom am Mauszeiger \'\'\'   * (Kategorie *Anzeige* , Reiter *3D*) Wenn gesetzt, werden Zoomoperationen am Mauszeiger fokussiert. Wenn nicht gesetzt, ist das Zentrum der aktuellen Ansicht der Zoom Fokus.
+8.  **Zoom am Mauszeiger**   * (Kategorie *Anzeige* , Reiter *3D*) Wenn gesetzt, werden Zoomoperationen am Mauszeiger fokussiert. Wenn nicht gesetzt, ist das Zentrum der aktuellen Ansicht der Zoom Fokus.
 9.  **Zoom umkehren**   * (Kategorie *Anzeige* , Reiter *3D*) Kehrt die Richtung des Zooms relativ zur Mausbewegung um. ![](images/FreeCAD-v0-18-Preferences-Display.png )
 
 ## Installieren zusätzlicher Inhalte 

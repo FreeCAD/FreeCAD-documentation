@@ -200,9 +200,9 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 * {{PropertyView/ro|Selectable}}   * Permite selectarea caracteristicii. Valoare False, True (implicită, True). 
 
--    {{PropertyView/ro|Shape Color}}   * Dați culoarea formei (implicit, \'\' \'204, 204, 204\' \'\').
+-    {{PropertyView/ro|Shape Color}}   * Dați culoarea formei (implicit, *\'204, 204, 204\'*).
 
--    {{PropertyView/ro|Transparency}}   * Setează gradul de transparență în caracteristica de la **0** la \'\'\' 100 **(Implicit,** 0 \'\'\').
+-    {{PropertyView/ro|Transparency}}   * Setează gradul de transparență în caracteristica de la **0** la **100**(Implicit,**0**).
 
 * {{PropertyView/ro|Visibility}}   * Determină vizibilitatea funcționalității (de exemplu, bara **SPACE**). Valoare False sau True (Implicit, True). 
 
@@ -244,7 +244,7 @@ In this case we observe the properties of the [PartDesign Revolution](PartDesign
 {{PropertyData/ro|Placement}}
 
    * Rezumatul datelor de mai jos. Fiecare caracteristică are o destinație de plasare care poate fi controlată prin tabelul Proprietăți date. Controlează amplasarea piesei în raport cu sistemul de coordonate. NOTĂ   * Proprietățile de plasare nu afectează dimensiunile fizice ale elementului, ci doar poziția sa în spațiu!
-If you select the title **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">, a button with **three small points** appears to the right. Clicking this button ** '''...'''**, opens the **[Tasks\_Placement](Tasks_Placement.md)** options window.
+If you select the title **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">, a button with **three small points** appears to the right. Clicking this button ** '''...'''**, opens the **[Tasks_Placement](Tasks_Placement.md)** options window.
 
 
 </div>

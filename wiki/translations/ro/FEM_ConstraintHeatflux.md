@@ -7,7 +7,13 @@
 
 ## Descriere
 
-Această constrângere specifică schimbul de căldură (transferul de căldură al filmului) al unei suprafețe la temperatura *T* și cu un coeficient de schimb termic h și o temperatură ambiantă \'\'T~0~ \'\'. Fluxul de căldură convectiv *q* poate satisface   * ***q = h(T -T~0~)***
+
+<div class="mw-translate-fuzzy">
+
+Această constrângere specifică schimbul de căldură (transferul de căldură al filmului) al unei suprafețe la temperatura *T* și cu un coeficient de schimb termic h și o temperatură ambiantă *T~0~*. Fluxul de căldură convectiv *q* poate satisface   * ***q = h(T -T~0~)***
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -29,7 +35,13 @@ Această constrângere specifică schimbul de căldură (transferul de căldură
 
 ## Notă
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Constrângerea utilizează \*FILM card in CalculiX. constrângerea fluxului de căldură este explicat la <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node203.html>
+
+
+</div>
 
 
 

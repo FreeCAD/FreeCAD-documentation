@@ -11,11 +11,11 @@
 
 ## Description
 
-Crée une contrainte FEM pour fixer une géométrie bloquée tous les 6 degrés de liberté sur l\'objet sélectionné.
+Crée une contrainte FEM pour une géométrie donnée en verrouillant les 6 degrés de liberté de l\'objet sélectionné.
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintFixed.svg" width=16px> [Contrainte d'immobilisation](FEM_ConstraintFixed/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintFixed.svg" width=16px> Contrainte d'immobilisation** dans le menu.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la contrainte doit être appliquée, qui peut être un sommet (coin), une arête ou une face.

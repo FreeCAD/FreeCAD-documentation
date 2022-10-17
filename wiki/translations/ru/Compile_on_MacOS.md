@@ -79,17 +79,17 @@ Next, we will run CMake to generate the build configuration. Several options mus
 
 ### CMake Options 
 
-  Name                          Value                                    Notes
+  Name                       Value                                    Notes
     
-  CMAKE\_BUILD\_TYPE            Release (STRING)                         Release or Debug. Debug is generally used for developer-level testing but may also be required for user-level testing and troubleshooting.
-  BUILD\_QT5                    1 (BOOL)                                 Required to build with Qt5.
-  CMAKE\_PREFIX\_PATH           \"/usr/local/opt/qt5152;\" \... (PATH)   Required to build with Qt5. See note below. You also need to add path to VTK libraries and NGLIB libraries cmake configuration file.
-  FREECAD\_CREATE\_MAC\_APP     1 (BOOL)                                 Create a FreeCAD.app bundle at the location specified in CMAKE\_INSTALL\_PREFIX, when the \'make install\' command issued.
-  CMAKE\_INSTALL\_PREFIX        \"./..\" (PATH)                          Path where you want to generate the FreeCAD.app bundle.
-  FREECAD\_USE\_EXTERNAL\_KDL   1 (BOOL)                                 Required.
-  BUILD\_FEM\_NETGEN            1 (BOOL)                                 Required if choosing to build the FEM tools.
+  CMAKE_BUILD_TYPE           Release (STRING)                         Release or Debug. Debug is generally used for developer-level testing but may also be required for user-level testing and troubleshooting.
+  BUILD_QT5                  1 (BOOL)                                 Required to build with Qt5.
+  CMAKE_PREFIX_PATH          \"/usr/local/opt/qt5152;\" \... (PATH)   Required to build with Qt5. See note below. You also need to add path to VTK libraries and NGLIB libraries cmake configuration file.
+  FREECAD_CREATE_MAC_APP     1 (BOOL)                                 Create a FreeCAD.app bundle at the location specified in CMAKE_INSTALL_PREFIX, when the \'make install\' command issued.
+  CMAKE_INSTALL_PREFIX       \"./..\" (PATH)                          Path where you want to generate the FreeCAD.app bundle.
+  FREECAD_USE_EXTERNAL_KDL   1 (BOOL)                                 Required.
+  BUILD_FEM_NETGEN           1 (BOOL)                                 Required if choosing to build the FEM tools.
 
-Note   * Command line to generate CMAKE\_PREFIX\_PATH   *
+Note   * Command line to generate CMAKE_PREFIX_PATH   *
 
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
@@ -158,7 +158,7 @@ FreeCAD has transitioned from Qt 4 to Qt 5 as well as homebrew. Qt 4 is no longe
 
 ### Segfault on Qt5 launch 
 
-If Qt4 was previously installed via brew, and you then build with Qt5, you may get a EXC\_BAD\_ACCESS (SEGSEGV) exception when launching the new Qt5 build. The fix for this is to manually uninstall Qt4.
+If Qt4 was previously installed via brew, and you then build with Qt5, you may get a EXC_BAD_ACCESS (SEGSEGV) exception when launching the new Qt5 build. The fix for this is to manually uninstall Qt4.
 
 
 ```python
@@ -167,11 +167,11 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 
 ### Fortran
 
-*\"No CMAKE\_Fortran\_COMPILER could be found.\"* during configuration - Older versions of FreeCAD will need a fortran compiler installed. With Homebrew, do \"brew install gcc\" and try configuring again, giving cmake the path to Fortran ie -DCMAKE\_Fortran\_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Or, preferably use a more current version of FreeCAD source!
+*\"No CMAKE_Fortran_COMPILER could be found.\"* during configuration - Older versions of FreeCAD will need a fortran compiler installed. With Homebrew, do \"brew install gcc\" and try configuring again, giving cmake the path to Fortran ie -DCMAKE_Fortran_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Or, preferably use a more current version of FreeCAD source!
 
 ### FreeType
 
-When using CMake versions older than 3.1.0, it\'s necessary to set CMake variable FREETYPE\_INCLUDE\_DIR\_freetype2 manually, eg /usr/local/include/freetype2
+When using CMake versions older than 3.1.0, it\'s necessary to set CMake variable FREETYPE_INCLUDE_DIR_freetype2 manually, eg /usr/local/include/freetype2
 
 ### Additional Build Instructions 
 
@@ -188,7 +188,7 @@ Docnav/ru \|[Компиляция в Linux](Compile_on_Linux/ru.md) \|[Комп�
 
 
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

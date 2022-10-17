@@ -87,7 +87,7 @@ La forma Estrusione è definita dai seguenti parametri, che dopo la sua creazion
 
 -   **Dir Mode**   * imposta il controllo di **Dir**. \'Custom\' significa che **Dir** è modificabile. \'Edge\' significa che Dir è ottenuta da un bordo (linea) collegato a **Dir Link**. \'Normal\' significa che Dir è perpendicolare al piano della forma di input.
 
--   **Length Fwd**   * La lunghezza di estrusione. Se entrambi **Length Fwd** e **Length Rev** sono zero, viene utilizzata la lunghezza del vettore \'\' \'Dir\' \'\'.
+-   **Length Fwd**   * La lunghezza di estrusione. Se entrambi **Length Fwd** e **Length Rev** sono zero, viene utilizzata la lunghezza del vettore *\'Dir\'*.
 
 -   **Length Rev**   * Lunghezza aggiuntiva di estrusione in senso contrario a **Dir**.
 

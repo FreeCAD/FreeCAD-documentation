@@ -15,7 +15,7 @@ Narzędzie <img alt="" src=images/Part_Sweep.svg  style="width   *24px;"> [Wyci�
 
 Narzędzie *\'Wyciągnięcie po ścieżce* środowiska pracy Część jest podobne do <img alt="" src=images/Part_Loft.svg  style="width   *24px;"> [Wyciągnięcia po profilach](Part_Loft/pl.md) z dodatkiem ścieżki do definiowania rzutu pomiędzy profilami.
 
-![](images/Part_Sweep_simple.png ) \'\'Bryła wykonana metodą przeciągnięcia wygenerowana z pojedynczego profilu *(A)* rzutowanego wzdłuż ścieżki *(B)*.\'\'
+![](images/Part_Sweep_simple.png ) *Bryła wykonana metodą przeciągnięcia wygenerowana z pojedynczego profilu*(A)*rzutowanego wzdłuż ścieżki*(B)*.*
 
 ## Użycie
 
@@ -24,7 +24,7 @@ Narzędzie *\'Wyciągnięcie po ścieżce* środowiska pracy Część jest podob
 3.  Kliknij na przycisk **Ścieżka wyciągnięcia**, następnie wybierz jeden z trybów selekcji   *
     -   *Wybór pojedynczego segmentu*   * zaznacz jedną lub więcej sąsiadujących krawędzi w oknie [widoku 3D](3D_view/pl.md) *(naciśnij **CTRL** dla wielokrotnego wyboru)* i kliknij przycisk **Zakończ**. Przeciągnięcie zostanie wygenerowane tylko wzdłuż wybranych krawędzi.
     -   *Pełny wybór ścieżki*   * przełącz się na zakładkę Model, w drzewie wybierz obiekt 2D, który ma być użyty jako ścieżka, przełącz się z powrotem na [Panel zadań](Task_panel/pl.md) i kliknij przycisk **Zakończ**. Ścieżka zostanie wygenerowana wzdłuż wszystkich sąsiadujących krawędzi obiektu 2D.
-4.  Zdefiniuj opcje [Utwórz bryłę](#Utw.C3.B3rz_bry.C5.82.C4.99.md) i [Wektor\_Freneta](#Wektor_Freneta.md).
+4.  Zdefiniuj opcje [Utwórz bryłę](#Utw.C3.B3rz_bry.C5.82.C4.99.md) i [Wektor_Freneta](#Wektor_Freneta.md).
 5.  Kliknij w przycisk **OK**
 
 ### Akceptowana geometria 

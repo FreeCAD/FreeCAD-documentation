@@ -24,7 +24,7 @@ To makro kieruje ścianę obiektu na stronę aktywnego widoku. W przypadku czoł
 
 Ikonka paska narzędzi ![](images/Macro_Align_Face_Object_to_View.png )
 
-**Macro\_Align\_Face\_Object\_to\_View.FCMacro**
+**Macro_Align_Face_Object_to_View.FCMacro**
 
 
 {{MacroCode|code=

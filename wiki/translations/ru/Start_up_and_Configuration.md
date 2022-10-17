@@ -245,23 +245,23 @@ The default temporary directory is **/tmp/**. The `TMPDIR` environmental variabl
 
 -   PYTHONPATH
 -   PYTHONHOME
--   TCL\_LIBRARY
+-   TCL_LIBRARY
 -   TCLLIBPATH
 
 **OpenCascade**
 
--   CSF\_MDTVFontDirectory
--   CSF\_MDTVTexturesDirectory
--   CSF\_UnitsDefinition
--   CSF\_UnitsLexicon
--   CSF\_StandardDefaults
--   CSF\_PluginDefaults
--   CSF\_LANGUAGE
--   CSF\_SHMessage
--   CSF\_XCAFDefaults
--   CSF\_GraphicShr
--   CSF\_IGESDefaults
--   CSF\_STEPDefaults
+-   CSF_MDTVFontDirectory
+-   CSF_MDTVTexturesDirectory
+-   CSF_UnitsDefinition
+-   CSF_UnitsLexicon
+-   CSF_StandardDefaults
+-   CSF_PluginDefaults
+-   CSF_LANGUAGE
+-   CSF_SHMessage
+-   CSF_XCAFDefaults
+-   CSF_GraphicShr
+-   CSF_IGESDefaults
+-   CSF_STEPDefaults
 
 
 <div class="mw-translate-fuzzy">
@@ -285,39 +285,39 @@ The default temporary directory is **/tmp/**. The `TMPDIR` environmental variabl
 <div class="mw-translate-fuzzy">
 
 +++++
-| Имя конф. переменной | Краткий обзор                                              | Пример для M\$                                                               | Пример для Posix (Linux)                                              |
-+======================+============================================================+==============================================================================+=======================================================================+
-| UserAppData          | Путь где FreeCAD хранит пользовательские данные программы. |                                                               |                                                        |
-|                      |                                                            | **C   *Documents and Settings\username\AppData\FreeCAD**              | **/home/username/.FreeCAD**                                  |
-|                      |                                                            |                                                                           |                                                                    |
-|                      |                                                            |                                                                    |                                                             |
-|                      |                                                            | <hr />                                                                       | <hr />                                                                |
-|                      |                                                            |                                                                           |                                                                    |
-|                      |                                                            | \'\'Short path    * \'\'**%APPDATA%\FreeCAD**            | \'\'Short path    * \'\'**~/.FreeCAD**            |
+| Имя конф. переменной | Краткий обзор                                              | Пример для M\$                                                             | Пример для Posix (Linux)                                       |
++======================+============================================================+============================================================================+================================================================+
+| UserAppData          | Путь где FreeCAD хранит пользовательские данные программы. |                                                             |                                                 |
+|                      |                                                            | **C   *Documents and Settings\username\AppData\FreeCAD**            | **/home/username/.FreeCAD**                           |
+|                      |                                                            |                                                                         |                                                             |
+|                      |                                                            |                                                                  |                                                      |
+|                      |                                                            | <hr />                                                                     | <hr />                                                         |
+|                      |                                                            |                                                                         |                                                             |
+|                      |                                                            | *Short path    ****%APPDATA%\FreeCAD**                 | *Short path    ****~/.FreeCAD**            |
 +++++
-| UserParameter        | Файл где FreeCAD хранит пользовательские данные программы. |                                                               |                                                        |
-|                      |                                                            | **C   *Documents and Settings\username\AppData\FreeCAD\user.cfg**     | **/home/username/.FreeCAD/user.cfg**                         |
-|                      |                                                            |                                                                           |                                                                    |
-|                      |                                                            |                                                                    |                                                             |
-|                      |                                                            | <hr />                                                                       | <hr />                                                                |
-|                      |                                                            |                                                                           |                                                                    |
-|                      |                                                            | \'\'Short path    * \'\'**%APPDATA%\FreeCAD\user.cfg**   | \'\'Short path    * \'\'**~/.FreeCAD/user.cfg**   |
+| UserParameter        | Файл где FreeCAD хранит пользовательские данные программы. |                                                             |                                                 |
+|                      |                                                            | **C   *Documents and Settings\username\AppData\FreeCAD\user.cfg**   | **/home/username/.FreeCAD/user.cfg**                  |
+|                      |                                                            |                                                                         |                                                             |
+|                      |                                                            |                                                                  |                                                      |
+|                      |                                                            | <hr />                                                                     | <hr />                                                         |
+|                      |                                                            |                                                                         |                                                             |
+|                      |                                                            | *Short path    ****%APPDATA%\FreeCAD\user.cfg**        | *Short path    ****~/.FreeCAD/user.cfg**   |
 +++++
-| SystemParameter      | Файл где FreeCAD хранит данные программы.                  |                                                               |                                                        |
-|                      |                                                            | **C   *Documents and Settings\username\AppData\FreeCAD\system.cfg**   | **/home/username/.FreeCAD/system.cfg**                       |
-|                      |                                                            |                                                                           |                                                                    |
-|                      |                                                            |                                                                    |                                                             |
-|                      |                                                            | <hr />                                                                       | <hr />                                                                |
-|                      |                                                            |                                                                           |                                                                    |
-|                      |                                                            | \'\'Short path    * \'\'**%APPDATA%\FreeCAD\system.cfg** | \'\'Short path    * \'\'**~/.FreeCAD/system.cfg** |
+| SystemParameter      | Файл где FreeCAD хранит данные программы.                  |                                                             |                                                 |
+|                      |                                                            | **C   *Documents and Settings\username\AppData\FreeCAD\system.cfg** | **/home/username/.FreeCAD/system.cfg**                |
+|                      |                                                            |                                                                         |                                                             |
+|                      |                                                            |                                                                  |                                                      |
+|                      |                                                            | <hr />                                                                     | <hr />                                                         |
+|                      |                                                            |                                                                         |                                                             |
+|                      |                                                            | *Short path    ****%APPDATA%\FreeCAD\system.cfg**      | *Short path    ****~/.FreeCAD/system.cfg** |
 +++++
-| UserHomePath         | Домашняя папка текущего пользователя.                      |                                                               |                                                        |
-|                      |                                                            | **C   *Documents and Settings\username**                              | **/home/username**                                           |
-|                      |                                                            |                                                                           |                                                                    |
-|                      |                                                            |                                                                    |                                                             |
-|                      |                                                            | <hr />                                                                       | <hr />                                                                |
-|                      |                                                            |                                                                           |                                                                    |
-|                      |                                                            | \'\'Short path    * \'\'**%USERPROFILE%**                | \'\'Short path    * \'\'**~**                     |
+| UserHomePath         | Домашняя папка текущего пользователя.                      |                                                             |                                                 |
+|                      |                                                            | **C   *Documents and Settings\username**                            | **/home/username**                                    |
+|                      |                                                            |                                                                         |                                                             |
+|                      |                                                            |                                                                  |                                                      |
+|                      |                                                            | <hr />                                                                     | <hr />                                                         |
+|                      |                                                            |                                                                         |                                                             |
+|                      |                                                            | *Short path    ****%USERPROFILE%**                     | *Short path    ****~**                     |
 +++++
 
    * Записи пользовательской конфигурации
@@ -426,7 +426,7 @@ Note   * For Linux distributions, an additional configuration file that relates 
 ++++
 | SplashAlignment      | Alignment of the Text in the Splash dialog                                                                                            | \"Bottom\" or \"Left\"   |
 ++++
-| SplashTextColor      | Выравнивание текста в окне заставки                                                                                                   | \"\#000000\"             |
+| SplashTextColor      | Выравнивание текста в окне заставки                                                                                                   | \"#000000\"              |
 ++++
 | StartWorkbench       | Название верстака, автоматически открывающегося при запуске приложения                                                                | \"Part design\"          |
 ++++

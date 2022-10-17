@@ -23,7 +23,7 @@ Show how to give information to the user in macros
 
 ToolBar Icon ![](images/Macro_MessageBox.png )
 
-**Macro\_MessageBox.FCMacro**
+**Macro_MessageBox.FCMacro**
 
 
 {{MacroCode|code=
@@ -48,7 +48,7 @@ raise(Exception(msg))
 
 
 
-In order to use the accented characters in the text field from **Qt**, using the tag \'\'\' \#-\*-coding   * utf-8-\*- \'\'\' must be added a **u** before the message to display
+In order to use the accented characters in the text field from **Qt**, using the tag **#-\*-coding   * utf-8-\*-** must be added a **u** before the message to display
 Example    * 
 
 
@@ -62,7 +62,7 @@ msg = u'Élément sélectionnés affichés'
 
 
 To display multiple lines in a dialog box **Qt**, must be added **\"\\n\"** (quotation, valid also between apostrophes) between each line.
-Valid also *\' \"\\r\\n\"*\' which correspond to **CR** carriage return, and **LF** end of line, valid also **\" \\t\"** is a tab, characters should be between quotation marks (and apostrophes) as a character string, the tags can be found next to the text to display **\" \\nRayon\\t   * \"**, the tag **\" \\ \"** (reversed slash) defines the command.
+Valid also **\"\\r\\n\"** which correspond to **CR** carriage return, and **LF** end of line, valid also **\" \\t\"** is a tab, characters should be between quotation marks (and apostrophes) as a character string, the tags can be found next to the text to display **\" \\nRayon\\t   * \"**, the tag **\" \\ \"** (reversed slash) defines the command.
 Example    * 
 
 

@@ -24,7 +24,7 @@ Lancez la macro, sélectionnez 3 points, un arc sera créé les coordonnées et 
 
 L\'icône pour votre barre d\'outils <img alt="" src=images/Macro_Make_Arc_3_Points.png  style="width   *36px;">
 
-**Macro\_Make\_Arc\_3\_Points.FCMacro**
+**Macro_Make_Arc_3\_Points.FCMacro**
 
 
 {{MacroCode|code=

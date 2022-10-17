@@ -63,7 +63,7 @@ Vedere l\'esempio [Esempio di API Robot](Robot_API_example/it.md) per una descri
 
 ## Tutorials
 
--   [6-Axis\_Robot](Robot_6-Axis/it.md)
+-   [6-Axis_Robot](Robot_6-Axis/it.md)
 -   [VRML Preparation for Robot Simulation](VRML_Preparation_for_Robot_Simulation/it.md)
 
 

@@ -160,7 +160,7 @@ def getpoint(self, event_cb)   *
 
 <div class="mw-translate-fuzzy">
 
-Acum definim funcția GetPoint, care va fi executată atunci când un buton al mouse-ului este apăsat într-o vizualizare 3D. Această funcție va primi un argument, pe care îl vom numi event\_cb. De la acest apel al evenimentului, putem accesa obiectul eveniment, care conține mai multe informații -mai multe informații pe această pagină (modul info[here](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)).
+Acum definim funcția GetPoint, care va fi executată atunci când un buton al mouse-ului este apăsat într-o vizualizare 3D. Această funcție va primi un argument, pe care îl vom numi event_cb. De la acest apel al evenimentului, putem accesa obiectul eveniment, care conține mai multe informații -mai multe informații pe această pagină (modul info[here](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)).
 
 
 </div>

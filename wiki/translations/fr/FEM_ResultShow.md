@@ -5,50 +5,44 @@
    MenuLocation   *Résultats → Afficher les résultats
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    Shortcut   ***R** **S**
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM Pipeline de résultats](FEM_PostPipelineFromResult/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ResultShow/fr
 
-
-</div>
-
 ## Description
 
-FEM ResultShow opens the dialog for a FEM results object. A result object is automatically created when a FEM analysis was performed using either the solver [Calculix](FEM_SolverCalculixCxxtools.md) or [Z88](FEM_SolverZ88.md).
+La commande **Afficher les résultats** ouvre la boîte de dialogue pour un objet résultat FEM. Un objet Result est automatiquement créé lorsqu\'une analyse FEM a été effectuée en utilisant le solveur [Calculix](FEM_SolverCalculixCxxtools/fr.md) ou [Z88](FEM_SolverZ88/fr.md).
 
-A result objects holds the resulting mesh and allows to visualize results. It is designed and therefore limited to thermomechanical results. For these result types the result object can be used as alternative to a [result pipeline](FEM_PostPipelineFromResult.md). A result pipeline can be used to visualize any kind of results (also electrical etc.).
+Un objet Result contient le maillage résultant et permet de visualiser les résultats. Il est conçu et donc limité aux résultats thermomécaniques. Pour ces types de résultats, l\'objet Result peut être utilisé comme alternative à un [pipeline de résultats](FEM_PostPipelineFromResult.md). Un pipeline de résultats peut être utilisé pour visualiser n\'importe quel type de résultats (également électriques, etc.).
 
-The units used for the result object are those of the set [unit system](Preferences_Editor#Units.md) while for a result pipelines the units are [SI](https   *//en.wikipedia.org/wiki/International_System_of_Units).
+Les unités utilisées pour l\'objet Result sont celles du [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) alors que pour un pipeline de résultats les unités sont [SI](https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s).
 
-The visualization of the results is only active when the dialog is open. However, the dialog settings are stored in the FreeCAD model file.
+La visualisation des résultats n\'est active que lorsque la boîte de dialogue est ouvert. Cependant, les paramètres de la boîte de dialogue sont stockés dans le fichier du modèle FreeCAD.
 
 ## Utilisation
 
+Pour afficher la boîte de dialogue des résultats    *
 
-<div class="mw-translate-fuzzy">
+-   sélectionnez l\'objet résultat dans la [vue en arborescence](Tree_view/fr.md),
+-   puis appuyez sur le bouton de la barre d\'outils **<img src="images/FEM_ResultShow.svg" width=16px> '''Afficher les résultats'''
+**
+-   ou utilisez le menu **Résultats → <img src="images/FEM_ResultShow.svg" width=16px> Afficher le résultat** (raccourci **R** puis **S**).
+-   vous pouvez également double-cliquer sur l\'objet résultat dans l\'arborescence.
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
-    -   Appuyez sur le bouton **<img src="images/FEM_ResultShow.svg" width=16px> [Afficher les résultats](FEM_ResultShow/fr.md)**.
-    -   Sélectionnez l\'option **Résultats → <img src="images/FEM_ResultShow.svg" width=16px> Afficher les résultats** dans le menu.
-    -   Utilisez le raccourci clavier   * **R** puis **S**.
-
-
-</div>
-
-When the dialog is open, the result mesh will automatically be shown.
+Lorsque la boîte de dialogue est ouverte, le maillage résultant s\'affiche automatiquement.
 
 [left\|framed](File   *FEM_Result-Object-Dialog.png.md)
 
-The dialog is shown at the left and offers the following features   *
+La boîte de dialogue est illustrée à gauche et offre les fonctionnalités suivantes    *
 
--   Select a result type and the minimum and maximum will be displayed in the dialog. The result mesh will be colored accordingly.
+-   Sélectionnez un type de résultat et le minimum et le maximum seront affichés dans le dialogue. Le maillage du résultat sera coloré en conséquence.
 
--   Click on the button **'''Histogram'''** to get a histogram what amount of result mesh nodes have a certain result. The histogram plot can be modified by the buttons in its toolbar. it is also possible to save the histogram as image using the save button from its toolbar.
+-   Cliquez sur le bouton **'''Histogramme'''** pour obtenir un histogramme indiquant la quantité de nœuds de maillages ayant un certain résultat. Le tracé de l\'histogramme peut être modifié par les boutons de sa barre d\'outils. Il est également possible de sauvegarder l\'histogramme en tant qu\'image en utilisant le bouton de sauvegarde de sa barre d\'outils.
 
--   Check the option **Show** to enables the slider and to visualize the result mesh deformation. The slider value is a factor with which the result *Displacement Magnitude* is multiplied.**Note**   * The slider only affects the Displacement Magnitude, not its X, Y, Z components.
+-   Cochez l\'option **Afficher** pour activer le curseur et visualiser la déformation du maillage résultant. La valeur du curseur est un facteur avec lequel le résultat *Magnitude de déplacement* est multiplié.Remarque    * le curseur n\'affecte que la magnitude de déplacement, pas ses composantes X, Y et Z.
 
--   With the button After you input an equation press the button and the result will be shown in the fields displaying the minimum and maximum. The result mesh will be colored accordingly.**Note**   * The calculation results always have the unit MPa, mm or T, no matter what [unit system](Preferences_Editor#Units.md) you use.
+-   Avec le bouton Après avoir saisi une équation, appuyez sur le bouton et le résultat sera affiché dans les champs affichant le minimum et le maximum. Le maillage du résultat sera coloré en conséquence.**Remarque**    * les résultats des calculs ont toujours l\'unité MPa, mm ou T, quel que soit le [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) que vous utilisez.
 
 
 

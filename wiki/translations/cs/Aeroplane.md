@@ -189,7 +189,7 @@ Klikněte na Aeroplane a dostanete jeho [Umístění do Úloh](Tasks_Placement/c
 
 <center>
 
-Image   *Tache\_Placement\_Lacet\_fr\_Mini.gif\|**Yaw** je otáčení podle *\' osy Z*\', tj. otáčení zleva doprava. (Úhel odchylky (yaw) je **Psi ψ**). Image   *Tache\_Placement\_Tangage\_fr\_Mini.gif\|**Pitch** je otáčení podle *\' osy Y**, tj. předkem nahoru nebo dolu. Image   *Tache\_Placement\_Roulis\_fr\_Mini.gif\|**Roll*\' je otáčení podle *\' osy X*\', tj. křidlem nahoru nebo dolu.
+Image   *Tache_Placement_Lacet_fr_Mini.gif\|**Yaw** je otáčení podle **osy Z**, tj. otáčení zleva doprava. (Úhel odchylky (yaw) je **Psi ψ**). Image   *Tache_Placement_Tangage_fr_Mini.gif\|**Pitch** je otáčení podle **osy Y**, tj. předkem nahoru nebo dolu. Image   *Tache_Placement_Roulis_fr_Mini.gif\|**Roll** je otáčení podle **osy X**, tj. křidlem nahoru nebo dolu.
 
 
 </center>

@@ -16,7 +16,7 @@ Download the Curves workbench via the <img alt="" src=images/Std_AddonMgr.svg  s
 
 ## References
 
--   Developer   * \@Chris\_G
+-   Developer   * \@Chris_G
 -   Github   * <https   *//github.com/tomate44/CurvesWB>
 -   Discussion   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=22675>
 -   YouTube tutorial using curves workbench   * <https   *//www.youtube.com/watch?v=ZVdbvxmJ3Mo>

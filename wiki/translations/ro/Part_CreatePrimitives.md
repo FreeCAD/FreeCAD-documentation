@@ -1,5 +1,5 @@
 # Part CreatePrimitives/ro
-1.  REDIRECT [Part\_Primitives/ro](Part_Primitives/ro.md)
+1.  REDIRECT [Part_Primitives/ro](Part_Primitives/ro.md)
 
 
 

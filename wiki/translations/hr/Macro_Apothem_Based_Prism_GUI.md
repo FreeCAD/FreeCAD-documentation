@@ -25,7 +25,7 @@ Kada se pokrene, Macro će korisniku predstaviti dijalog kao što je prikazano u
 
 ToolBar Icon ![](images/Part_Prism_Apothem.svg )
 
-**Macro\_Apothem\_Based\_Prism\_GUI.FCMacro**
+**Macro_Apothem_Based_Prism_GUI.FCMacro**
 
 
 {{MacroCode|code=

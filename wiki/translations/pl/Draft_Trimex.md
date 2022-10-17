@@ -34,13 +34,13 @@ Polecenie <img alt="" src=images/Draft_Trimex.svg  style="width   *24px;"> **Prz
 6.  Wykonaj jedną z następujących czynności   *
     -   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md)
     -   Wprowadź **Odległość** lub **Kąt**. Odległość jest odległością delta. Ta opcja nie działa, jeśli używane są klawisze modyfikatorów.
-    -   Przesuń kursor nad krawędź należącą do innego obiektu i kliknij, gdy ta krawędź zostanie podświetlona, aby przyciąć lub wydłużyć wybrany obiekt, używając przecięcia z podświetloną krawędzią jako nowego punktu końcowego. Zauważ, że [przyciąganie](Draft_Snap/pl.md) może mieć tutaj niepożądany wpływ. W niektórych przypadkach może być konieczne tymczasowe wyłączenie tej funkcjonalności.
+    -   Przesuń kursor nad krawędź należącą do innego obiektu i kliknij, gdy ta krawędź zostanie podświetlona, aby przyciąć lub wydłużyć wybrany obiekt, używając przecięcia z podświetloną krawędzią jako nowego punktu końcowego. Podczas ucinania rzut punktu, w którym krawędź tnąca jest zaznaczona, na obiekt, który ma zostać ucięty, określa wynik domyślny. Zauważ, że [przyciąganie](Draft_Snap/pl.md) może mieć tutaj niepożądany wpływ. W niektórych przypadkach może być konieczne tymczasowe wyłączenie tej funkcjonalności.
 
 ### Opcje
 
 Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy   * Preferencje](Draft_Preferences/pl.md).
 
--   Rozwiązanie o największej długości określa domyślny kierunek polecenia. Przytrzymaj **Alt** by odwrócić ten kierunek.
+-   Przytrzymaj **Alt** aby odwrócić domyślny kierunek polecenia.
 -   Przytrzymaj **Shift** by ograniczyć operację do bieżącego segmentu [linii łamanej](Draft_Wire/pl.md).
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 

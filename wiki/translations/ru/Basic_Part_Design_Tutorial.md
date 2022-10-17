@@ -83,7 +83,7 @@
 *Примечание   * этот шаг можно пропустить. При создании эскиза, если существующее тело не найдено, будет автоматически создано и активировано новое тело.*
 2.  Нажмите на <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *32px;"> [Создать новый эскиз](PartDesign_NewSketch.md). Это создаст эскиз в только что созданном теле.
 3.  Нам нужно определить, куда эскиз будет прикреплен. Мы прикрепим его к плоскости тела [Origin](Glossary/ru#Origin.md).
-4.  На вкладке «Задачи» в Комбо панели выберите «YZ\_Plane» в списке и нажмите **OK**   *
+4.  На вкладке «Задачи» в Комбо панели выберите «YZ_Plane» в списке и нажмите **OK**   *
 
 
 </div>
@@ -92,7 +92,7 @@
 *Note   * this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
 2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**   *
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ_Plane** in the list and press **OK**   *
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
@@ -185,8 +185,14 @@
 
 ![](images/tut17_slot_unconstrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Нажмите правую кнопку мыши, чтобы завершить режим работы с внешней геометрией.
 2.  Выберите ту точку, которую вы только что сделали доступной, с помощью инструмента Внешняя геометрия, затем выберите верхнюю правую вершину прямоугольника и объедините выбранные точки. На этом этапе эскиз должен быть полностью ограничен и выглядеть следующим образом.
+
+
+</div>
 
 ![](images/tut17_slote_constrained.png )
 

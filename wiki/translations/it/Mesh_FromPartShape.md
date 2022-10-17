@@ -23,7 +23,7 @@ The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <i
 3.  Si apre il pannello delle azioni **Tessellazione**.
 4.  Mentre il pannello delle azioni è aperto, si può fare una nuova selezione o modificare una selezione esistente.
 5.  Selezionare la scheda per il mesher che si desidera utilizzare.
-6.  Specificare le impostazioni richieste. Vedere [Programmi\_mesher](Mesh_FromPartShape/it#Programmi_mesher.md).
+6.  Specificare le impostazioni richieste. Vedere [Programmi_mesher](Mesh_FromPartShape/it#Programmi_mesher.md).
 7.  Premere il pulsante **OK** per chiudere il pannello delle attività e terminare il comando.
 
 ## Programmi mesher 

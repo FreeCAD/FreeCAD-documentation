@@ -1,109 +1,67 @@
 # Draft SVG/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Beschreibung
 
-Draft SVG ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Std Öffnen](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width   *24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width   *24px;"> [Std Export](Std_Export/de.md) Befehlen verwendet wird, um das [SVG](SVG/de.md) Dateiformat handzuhaben.
+Draft SVG ist ein Softwaremodul, das von den Befehlen <img alt="" src=images/Std_Open.svg  style="width   *24px;"> [Std Öffnen](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width   *24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width   *24px;"> [Std Export](Std_Export/de.md) verwendet wird, um das [SVG](SVG/de.md)-Dateiformat zu verarbeiten.
 
 ![](images/Screenshot_inkscape.jpg ) 
-*Inkscape Zeichnung in SVG exportiert, die anschließend in FreeCAD geöffnet wird*
+*Inkscape-Zeichnung als SVG-Datei exportiert und anschließend in FreeCAD geöffnet*
 
 ## Importieren
 
 Die folgenden SVG Objekte können importiert werden   *
 
--   PFAD Objekte
--   LINIE Objekte
--   RECHTWINKLIG Objekte
--   KREIS Objekte
--   ELLIPSE Objekte
--   POLYGON Objekte
--   POLYLINIE Objekte
+-   PATH-Objekte (Pfade)
+-   LINE-Objekte (Linien)
+-   RECT-Objekte (Rechtecke)
+-   CIRCLE-Objekte (Kreise)
+-   ELLIPSE-Objekte (Ellipsen)
+-   POLYGON-Objekte (Vielecke)
+-   POLYLINE-Objekte (Linienzüge)
 
-### Begrenzungen
+### Einschränkungen
 
-FreeCAD importiert keine Pfadobjekte, die nur einen Punkt haben ([Forumsdiskussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
+FreeCAD importiert keine Pfadobjekte, die nur einen Punkt beinhalten ([Forumsdiskussion](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=43856)).
 
 ## Exportieren
 
-Die folgenden FreeCAD Objekte können exportiert werden   *
+Die folgenden FreeCAD-Objekte können exportiert werden   *
 
 -   Linien und Drähte (Polylinien)
 -   Bögen und Kreise
 -   Flächen
 -   Texte
--   Abmessungen
+-   Maße
 
-### Begrenzungen 
+### Einschränkungen 
 
-SVG ist ein 2D Format, daher werden alle Z Informationen nicht berücksichtigt (alle Objekte werden abgeflacht).
+SVG ist ein 2D-Format, daher werden alle Z-Informationen ignoriert (alle Objekte werden geebnet).
 
-## Einheiten Handhabung 
+## Umgang mit Maßeinheiten 
 
 Beim Export ist eine Benutzereinheit (px) gleich einem Millimeter.
 
+Beim Importieren werden die Attribute width (Breite), height (Höhe) und viewBox (Ansichtsrahmen) beachtet. Alle Elemente werden auf ihre Größe in Millimeter skaliert, FreeCADs interner Einheit. Wenn die SVG-Datei keine Information über ihre physikalische Größe enthält, wird angenommen, dass sie eine Auflösung von 90 DPI verwendet. Die Verwendung von absoluten Einheiten in den Attributen innerhalb der SVG-Datei sollte vermieden werden. Relative Einheiten wie em, ex und % werden derzeit nicht unterstützt.
 
-<div class="mw-translate-fuzzy">
-
-Beim Importieren werden die Attribute Breite, Höhe und Ansichtskasten beachtet. Alle Elemente werden auf ihre Größe in Millimeter skaliert, was der internen FreeCAD Einheit entspricht. Wenn das SVG keine Informationen über seine physikalische Größe enthält, wird angenommen, dass es eine Auflösung von 90 DPI hat. Die Verwendung von absoluten Einheiten in den Attributen innerhalb der SVG sollte vermieden werden. Relative Einheiten wie em,ex und % werden derzeit nicht unterstützt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Der [Inkscape](https   *//inkscape.org/) SVG Editor arbeitet derzeit nur mit **90 DPI** Dokumenten. Unabhängig davon, welche Einheit in Inkscape ausgewählt ist. Die gesamte Ausgabe muss als in 90 DPI konvertiert und **gerundet** auf 6 Dezimalstellen betrachtet werden. Da FreeCAD (und der SVG Standard) die Genauigkeit der Rundung in Inkscape nicht berücksichtigt, werden diese Werte bei der Eingabe nicht gerundet. Und ungerade Werte in Millimeter bleiben erhalten. Wenn du möchtest, dass der SVG Import nicht gerundet wird, arbeite mit Anwendereinheiten (px) in Inkscape. Die Skalierung kann nach dem Import in FreeCAD oder durch Ändern der Breiten-, Höhen- und Ansichtskasten Attribute erfolgen.
-
-
-</div>
+Der [Inkscape](https   *//inkscape.org/)-SVG-Editor arbeitet derzeit nur mit 90-DPI-Dokumenten. Unabhängig von der in Inkscape ausgewählten Einheit. Die gesamte Ausgabe muss als in 90 DPI konvertiert und auf 6 Dezimalstellen gerundet angesehen werden. Da FreeCAD (und der SVG-Standard) die Genauigkeit der Rundung in Inkscape nicht berücksichtigt, werden diese Werte bei der Eingabe nicht gerundet. Und ungerade Werte in Millimeter bleiben erhalten. Wenn der SVG Import nicht gerundet werden darf, sollte man in Inkscape mit Benutzereinheiten (px) arbeiten. Das Skalieren kann nach dem Import in FreeCAD erfolgen oder durch Ändern der Attribute width, height und viewbox erfolgen.
 
 ## Einstellungen
 
-
-<div class="mw-translate-fuzzy">
-
-Für weitere Informationen siehe   * [Import Export Einstellungen](Import_Export_Preferences/de.md).
-
-
-</div>
+Siehe [Import Export Einstellungen](Import_Export_Preferences/de.md).
 
 ## Skripten
 
+Siehe auch   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-<div class="mw-translate-fuzzy">
-
-
-**Siehe auch   ***
-
-[Entwurf API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Du kannst Elemente durch die folgende Funktion nach DXF exportieren   *
-
-
-</div>
+Um Objekte in eine SVG-Datei zu exportieren, verwendet man die Methode `export` des Moduls importSVG.
 
 
 ```python
 importSVG.export(exportList, filename)
 ```
 
--   For the Windows OS   * use a **/** (forward slash) as the path separator in {{Incode|filename}}.
+-   Für Windows   * Man verwendet **/** (forward slash) als Pfad-Trennzeichen in {{Incode|filename}}.
 
 Beispiel   *
 
@@ -125,13 +83,7 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

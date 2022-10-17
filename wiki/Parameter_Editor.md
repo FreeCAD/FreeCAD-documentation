@@ -1,5 +1,5 @@
 # Parameter Editor
-1.  REDIRECT [Std\_DlgParameter](Std_DlgParameter.md)
+1.  REDIRECT [Std_DlgParameter](Std_DlgParameter.md)
 
 
 

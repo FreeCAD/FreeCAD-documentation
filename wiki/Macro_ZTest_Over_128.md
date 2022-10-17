@@ -25,7 +25,7 @@ None
 
 ToolBar Icon ![](images/Macro_ZTest_Over_128.png )
 
-**Macro\_ZTest\_Over\_128.FCMacro**
+**Macro_ZTest_Over_128.FCMacro**
 
 
     # -*- coding   * utf-8 -*-

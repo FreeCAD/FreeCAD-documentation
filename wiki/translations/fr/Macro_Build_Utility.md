@@ -26,7 +26,7 @@ L\'utilitaire de construction fonctionne sur les mêmes principes que les fichie
 
 La macro demande à l\'utilisateur un \"fichier de construction\". Il analyse ensuite le fichier de construction, il existe 3 types de lignes   *
 
--   lignes commençant par le caractère de commentaire \"\#\", qui sont ignorées en tant que commentaires ou remarques
+-   lignes commençant par le caractère de commentaire \"#\", qui sont ignorées en tant que commentaires ou remarques
 -   lignes commençant par le caractère de sous-fichier \"@\" qui sont ignorées
      Remarque    * le caractère \"@\" est destiné à une amélioration future lorsque les fichiers de construction inférieurs seront gérés.
 -   toutes les autres lignes pouvant être un fichier de projet ou un sous-répertoire
@@ -59,7 +59,7 @@ none (so far)
 
 ToolBar Icon ![](images/Macro_Build_Utility.png )
 
-**Macro\_Build\_Utility.FCMacro**
+**Macro_Build_Utility.FCMacro**
 
 
 {{MacroCode|code=

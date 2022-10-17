@@ -18,7 +18,7 @@ Cherche les bords dans les objets de maillage sélectionnés. Les bords recherch
 
 Icône de la barre d\'outils ![](images/Macro_Extract_Wires_from_Mesh.png )
 
-**Macro\_Extract\_Wires\_from\_Mesh.FCMacro**
+**Macro_Extract_Wires_from_Mesh.FCMacro**
 
 
 {{MacroCode|code=

@@ -26,27 +26,27 @@
 
 </div>
 
- {.html}
+ html
 width="1067mm"
 height="762mm"
 
 
 или
 
- {.html}
+ html
 width="1067"
 height = "762"
 
 
 Хотя svg поддерживает дюймы (\"42 in\"), в настоящее время они не поддерживаются FreeCAD, поэтому всегда лучше указывать размер страницы svg в миллиметрах. Атрибут \"viewBox\" (видимая область) должен иметь то же значение, например   *
 
- {.html}
+ html
 viewBox="0 0 1067 762"
 
 
 -   Вы должны вставить где-нибудь внутри вашего svg-кода, где вы хотите, чтобы отображалось содержимое чертежа (например, в конце файла, непосредственно перед последним тегом</svg>), следующую строку   *
 
- {.html}
+ html
 
 
 
@@ -72,7 +72,7 @@ xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namesp
 
 Чтобы задать положение рамки, необходимо вставить следующую строку перед тегом  в svg файле   *
 
- {.html}
+ html
 
 
 
@@ -87,7 +87,7 @@ xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namesp
 
 Для определения блока Title необходимо вставить следующую строку после тега рабочего пространства и перед тегом .
 
- {.html}
+ html
 
 
 
@@ -116,7 +116,7 @@ xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namesp
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -128,7 +128,7 @@ xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namesp
 -   xxx = ширина в пикселях,
 -   yyy = высота в пикселях.
 
- {.html}
+ html
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -255,4 +255,4 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/ru

@@ -1,5 +1,5 @@
 # Media kit
-1.  REDIRECT [Press\_kit](Press_kit.md)
+1.  REDIRECT [Press_kit](Press_kit.md)
 
 
 

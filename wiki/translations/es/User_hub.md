@@ -49,7 +49,7 @@ Ver también   *
 -   [Interfaz](Interface/es.md)   * la interfaz de FreeCAD se compone de varios elementos gráficos en la pantalla, incluyendo la [vista 3D](3D_view/es.md), la [vista de árbol](Tree_view/es.md), el [editor de propiedades](Property_editor/es.md), el [panel de tareas](Task_panel/es.md), y la [consola Python](Python_console/es.md).
 -   [Navegación con ratón](Mouse_navigation/es.md)   * los diferentes tipos de uso del ratón o trackpad para navegar en la vista 3D.
 -   [Métodos de selección](Selection_methods/es.md)   * los diferentes métodos de selección de objetos en el software.
--   [Nombre\_de\_objeto](Object_name/es.md)   * todos los objetos tienen un `Name` de sólo lectura que los identifica de forma única, y un `Label` que es editable por el usuario.
+-   [Nombre_de_objeto](Object_name/es.md)   * todos los objetos tienen un `Name` de sólo lectura que los identifica de forma única, y un `Label` que es editable por el usuario.
 -   [Editor de Preferencias](Preferences_Editor/es.md)   * el sistema que permite controlar muchas propiedades del sistema base y de los ambientes de trabajo individuales.
 -   [Formatos de archivo](Import_Export/es.md)   * los diferentes formatos de archivo que FreeCAD puede leer y escribir.
 

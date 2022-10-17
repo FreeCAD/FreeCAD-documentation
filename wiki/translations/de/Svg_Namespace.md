@@ -17,11 +17,11 @@ An irgendeiner Stelle im SVG-Code muss angegeben werden, wo sich die Inhalte der
 
 \'\'\' tag. Die folgende Zeile   *
 
- {.xml}
+ xml
 
 
 
- {.xml}
+ xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
     xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
@@ -34,7 +34,7 @@ Das Folgende muss wie im nachfolgenden Beispiel formattiert werden   *
 -   xxx = Pixel-Breite
 -   yyy = Pixel-Höhe
 
- {.xml}
+ xml
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -57,7 +57,7 @@ Dies beschreibt einen Text, der in FreeCAD geändert werden kann.
 
 Beispiel   *
 
- {.xml}
+ xml
 <text freecad   *EditableText="MyTitleText">
     <tspan>This is a title</tspan>
 </text>
@@ -69,7 +69,7 @@ Definiert den ersten Basispunkt eines [Entwurf Abmessung](Draft_Dimension/de.md)
 
 Beispiel   *
 
- {.xml}
+ xml
 <g freecad   *basepoint1="0.5 4.34" freecad   *basepoint2="2.4 5.8" dimpoint="3.2 7.76">
     <path d="...">
 </g>
@@ -89,13 +89,13 @@ Beispiel   * siehe [freecad   *basepoint1](#freecad_basepoint1.md)
 
 ### Beispiel eines freecad-Codes   *EditierbarerText 
 
-Diese Beispiel wurde von einer Kartusche auf ein Blatt übertragen [A3\_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
+Diese Beispiel wurde von einer Kartusche auf ein Blatt übertragen [A3_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
 
 #### 1    * Titel ohne Textbearbeitung (textedit) 
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      id="g3587">
     <text
@@ -115,7 +115,7 @@ Diese Beispiel wurde von einer Kartusche auf ein Blatt übertragen [A3\_Landscap
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
@@ -143,13 +143,13 @@ Diese Beispiel wurde von einer Kartusche auf ein Blatt übertragen [A3\_Landscap
 
 #### Erklärungen
 
- {.xml}
+ xml
   <g
 
 
 Beginn der Rahmensumbebung (framework)
 
- {.xml}
+ xml
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
      transform="translate(0,4)">
@@ -157,20 +157,20 @@ Beginn der Rahmensumbebung (framework)
 
 Datum (data) in der Rahmensumgebung (framework)
 
- {.xml}
+ xml
     <text
 
 
 Beginn des Textblockes
 
- {.xml}
+ xml
        xml   *space="preserve"
        style="font-size   *4px;font-style   *normal;font-variant   *normal;font-weight   *normal;font-stretch   *normal;line-height   *125%;letter-spacing   *0px;word-spacing   *0px;fill   *#000000;fill-opacity   *1;stroke   *none;font-family   *sans;-inkscape-font-specification   *sans"
 
 
 Alle Informationen über den Text, der angezeigt wird
 
- {.xml}
+ xml
        x="220.9935"
        y="228.95425"
        id="text3331"
@@ -179,13 +179,13 @@ Alle Informationen über den Text, der angezeigt wird
 
 Koordiniert und identifiziert den Text, wo dieser angezeigt wird
 
- {.xml}
+ xml
        freecad   *editable="AuthorName"><tspan
 
 
 Hier ist **AuthorName** die Variable, die durch **freecad   *editable** gemanaged wird und den zu ändernden Text (string) speichert, der angezeigt wird.
 
- {.xml}
+ xml
          sodipodi   *role="line"
          id="tspan3333"
          x="220.9935"
@@ -194,7 +194,7 @@ Hier ist **AuthorName** die Variable, die durch **freecad   *editable** gemanage
 
 Koordiniert und identifiziert den vorgegebenen Text, der angezeigt wird. **** ist das Ende des Blockes \'Text\'.
 
- {.xml}
+ xml
     <text
     ...
     ...
@@ -223,7 +223,7 @@ Siehe [Zeichnungsvorlagen](Drawing_templates/de.md)
 
 }}
 
-[Category   *Poweruser\_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python\_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
+[Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

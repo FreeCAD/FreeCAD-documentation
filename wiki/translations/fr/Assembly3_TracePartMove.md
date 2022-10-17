@@ -29,7 +29,7 @@ La commande <img alt="" src=images/Assembly_Trace.svg  style="width   *24px;"> [
 
 ## Remarques
 
--   Si vous ne sélectionnez aucune forme dans la première étape, vous tracerez la forme en mouvement.
+-   Si vous ne sélectionnez aucune forme dans la première étape, vous tracerez la forme qui a été sélectionnée dans la troisième étape.
 -   Pour changer l\'élément à tracer, vous devez désactiver cet outil avant de sélectionner un nouvel élément et de le réactiver.
 -   Si vous contrôlez le mouvement avec un autre outil tel que ce [contrôleur cinématique](Tutorial_KinematicController/fr.md) qui permet d\'utiliser un outil de déplacement en parallèle, vous pouvez utiliser cet outil pour modifier l\'assemblage étape par étape et utiliser l\'outil de déplacement pour ajouter un point et une ligne de connexion à chaque étape. Il est possible d\'utiliser l\'outil de déplacement comme déclencheur en prenant et en faisant glisser l\'une des flèches - juste un tout petit peu jusqu\'à ce que le point et la ligne suivants apparaissent (utilisez la transparence si nécessaire).
 

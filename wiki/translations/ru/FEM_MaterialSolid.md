@@ -2,7 +2,7 @@
 - GuiCommand   */ru
    Name   *FEM MaterialSolid
    Name/ru   *FEM MaterialSolid 
-   MenuLocation   *Model → FEM material for solid
+   MenuLocation   *Model → Materials → Material for solid
    Workbenches   *[FEM](FEM_Workbench/ru.md)
    Shortcut   ***M** **M**
    SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
@@ -10,17 +10,14 @@
 
 # FEM MaterialSolid/ru
 
-
-</div>
-
 ## Описание
 
 Добавляет свойства материала к детали.
 
 ![](images/FEMMaterialSolidProperties.png ) 
-*The FEM material task panel*
+*Внешний вид панели материалов верстака МКЭ*
 
-## Использование
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -44,22 +41,10 @@
 
 ## Примечания
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Механический материал использует карту \*MATERIAL в CalculiX. Подробности о механическом материале объясняются на <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

@@ -28,15 +28,6 @@ Questo metodo si aggancia a un punto su una linea immaginaria che è parallela a
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{Userdocnavi/it}}
-
-
-</div>
-
 ![](images/Draft_Snap_Parallel_example.png )
 
 

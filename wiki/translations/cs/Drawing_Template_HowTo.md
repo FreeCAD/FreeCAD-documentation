@@ -112,7 +112,7 @@ Po otevření SVG souboru Vašim textovým editorem uvidíte následující.
 
 První věci bude vložení následující řádky do dokumentu. Tento řádek je deklarace jmenného prostoru SVG a musí být zadána aby všechny SVG prvky byly identifikovány jako součást jmenného prostoru SVG.
 
- {.XML}
+ XML
 xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
@@ -130,7 +130,7 @@ Tento řádek je zadán ihned za první \<svg značku a se stejným odsazením j
 
 In order to allow a final drawing to be printed in the right scale, the template must contain it\'s dimensions in real world units. Otherwise the whole drawing page would be printed scaled down by a factor of 3.54 (90(px/in)/25.4(in/mm)). Inside the the \<SVG\>-Tag the unit \"mm\" is added to the width and height fields. And a viewBox Attribute has to be added. The viewBox ranges from 0 0 to the width and height of the template. This way the SVG user unit (px) is redefined to be 1mm long. In consequence programs like Inkscape will be able to print a resulting drawing up to scale. Current versions of Inkscape handle this information very badly. Inkscape effectively rescales the whole document to 90dpi. This is not much of a problem for a final drawing, but imposes difficulties for editing drawing templates. After editing a template in Inkscape, it would have the same real word size on its own but elements of the drawing would be scaled down by a factor of 3.54. (Because the template would be in 90dpi but FreeCAD assumes 1px/mm.) Therefore it\'s recommended to remove the \"mm\" from the width and height attributes before opening an existing template in inkscape and recreate the units and viewBox attribute afterwards.
 
- {.html}
+ html
 width="279mm"
 height="216mm"
 viewBox="0 0 279 216"
@@ -170,7 +170,7 @@ První značka je Working space a je utvořena následovně.
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -183,7 +183,7 @@ Kde X1, Y1, X2, Y2 jsou definovány jako   *
 
 Takže pro tento výukový program šablony bude značka Working space.
 
- {.html}
+ html
 
 
 
@@ -197,7 +197,7 @@ Další značka bude značka Title block a bude utvořena následovně   *
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -210,7 +210,7 @@ Kde X1a, Y1a, X2a, Y2a jsou definovány jako   *
 
 Ještě jednou, s odkazem na šablonu vytvořenou v tomto výukovém programu, bude značka Title block vypadat takto   *
 
- {.html}
+ html
 
 
 
@@ -237,7 +237,7 @@ Značka je utvořena následovně a je vložena právě před poslední značku
 
 .
 
- {.html}
+ html
 
 
 
@@ -272,4 +272,4 @@ Dva použité nástroje v tomto výukovém programu byly Inkscape a Kate. Oba m�
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/cs

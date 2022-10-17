@@ -26,7 +26,7 @@
 Для позиционирования тел в нужные места, Вы можете
 
 -   использовать инструмент [Преобразовать](Std_Transform/ru.md), или
--   использовать диалоговое окно [1](File   *Std_Placement.svg%7C16px)\] \[\[Std\_Placement/ru\|Расположение\], или
+-   использовать диалоговое окно [1](File   *Std_Placement.svg%7C16px)\] \[\[Std_Placement/ru\|Расположение\], или
 -   менять параметр [placement](Placement/ru.md) в [редакторе свойств](property_editor/ru.md).
 
 

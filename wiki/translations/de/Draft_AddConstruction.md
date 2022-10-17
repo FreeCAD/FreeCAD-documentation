@@ -14,10 +14,6 @@
 
 Der <img alt="" src=images/Draft_AddConstruction.svg  style="width   *24px;"> **Draft ZurKonstruktionsgruppeHinzufügen**-Befehl verschiebt Objekte zur [Draft Konstruktionsgruppe](Draft_ToggleConstructionMode/de.md). Er wendet auch die [Hilfsgeometriefarbe](Draft_ToggleConstructionMode/de#Preferences.md) auf die Objekte an.
 
-## Fehler in Version 0.19 
-
-In FreeCAD Version 0.19 benutzen dieser und der [Draft UmschaltenKonstruktionsmodus](Draft_ToggleConstructionMode/de.md)-Befehl typischer Weise verschiedene Gruppen. Um dies zu vermeiden, ändere den **Konstruktionsgruppenname**n in den Einstellungen auf {{Value|Draft_Construction}}   * **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Konstruktionsgruppenname**. In Version 0.20 wird **Konstruktionsgruppenname** für die Bezeichnung der Konstruktionsgruppe verwendet, der Name der Gruppe ist immer {{Value|Draft_Construction}}.
-
 ## Anwendung
 
 1.  Wähle ein oder mehrere Objekte.

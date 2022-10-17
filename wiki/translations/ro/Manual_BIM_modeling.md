@@ -17,7 +17,7 @@ Atelierul Arch(Arhitectură) [Arch Workbench](Arch_Workbench/ro.md) a FreeCAD im
 
 </div>
 
-Ca și în Atelierul [PartDesign Workbench](PartDesign_Workbench.md), obeictele produse În Arch Workbench sunt concepute pentru a fi construite în lumea reală. Prin urmare, ele trebuie să fie \'\'\'solide \'\'\'. Instrumentele atelierului Arch au, de obicei, grijă de aceasta în mod automat și oferă, de asemenea, unelte utilitare pentru a vă ajuta să verificați validitatea obiectelor.
+Ca și în Atelierul [PartDesign Workbench](PartDesign_Workbench.md), obeictele produse În Arch Workbench sunt concepute pentru a fi construite în lumea reală. Prin urmare, ele trebuie să fie **solide**. Instrumentele atelierului Arch au, de obicei, grijă de aceasta în mod automat și oferă, de asemenea, unelte utilitare pentru a vă ajuta să verificați validitatea obiectelor.
 
 
 <div class="mw-translate-fuzzy">

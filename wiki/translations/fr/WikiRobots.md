@@ -46,7 +46,7 @@ console_encoding = 'cp437'
 Dans le code ci-dessus    *
 
 -   remplacez *\<\>* par votre nom d\'utilisateur Wiki
--   remplacer *cp437* par votre *console\_encoding*. Pour connaître l\'encodage de votre console, pour Windows et Linux, lancez l\'interpréteur Python, entrez {{SystemInput|import sys}} suivi de {{SystemInput|print sys.stdout.encoding}}. Python écrira votre {{SystemOutput|console_encoding}} à l\'écran.
+-   remplacer *cp437* par votre *console_encoding*. Pour connaître l\'encodage de votre console, pour Windows et Linux, lancez l\'interpréteur Python, entrez {{SystemInput|import sys}} suivi de {{SystemInput|print sys.stdout.encoding}}. Python écrira votre {{SystemOutput|console_encoding}} à l\'écran.
 
 Vous devez ensuite enregistrer le code Python suivant dans un fichier portant le nom **freecadwiki_family.py** dans le sous-répertoire **/pywikibot/families**. (avec les autres fichiers **family_xxx.py**).
 

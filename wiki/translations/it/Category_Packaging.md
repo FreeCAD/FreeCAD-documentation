@@ -1,7 +1,7 @@
 # Category:Packaging/it
 This category collects pages related to packing FreeCAD for different platforms, including Linux, Windows, and MacOS.
 
-[Category   *Developer\_Documentation/it](Category   *Developer_Documentation/it.md)
+[Category   *Developer_Documentation/it](Category   *Developer_Documentation/it.md)
 
 ### Contents
 
@@ -9,7 +9,7 @@ This category collects pages related to packing FreeCAD for different platforms,
 | --- | --- | --- |
 | [AppImage/it](wiki/AppImage/it.md) | [Debian development/it](wiki/Debian development/it.md) | [Debian Unstable/it](wiki/Debian Unstable/it.md) |
 | [Git buildpackage/it](wiki/Git buildpackage/it.md) | [Linux packaging/it](wiki/Linux packaging/it.md) | [Packaging/it](wiki/Packaging/it.md) |
-| [Ubuntu Snap/it](wiki/Ubuntu Snap/it.md) |
+| [Ubuntu Snap/it](wiki/Ubuntu Snap/it.md) | [Windows packaging/it](wiki/Windows packaging/it.md) |
 
 
 

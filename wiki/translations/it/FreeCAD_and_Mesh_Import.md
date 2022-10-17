@@ -84,7 +84,7 @@ Il guscio (shell dell\'oggetto mesh) sembra avere degli errori, forse non è chi
 
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 
-[Category   *User\_Documentation](Category_User_Documentation.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *User_Documentation](Category_User_Documentation.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

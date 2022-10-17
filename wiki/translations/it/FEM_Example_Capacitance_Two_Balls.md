@@ -13,6 +13,12 @@
 
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
 
 ## Introduzione
 
@@ -24,7 +30,8 @@ Questo esempio ha lo scopo di mostrare come simulare il sesto esempio di [Elmer 
 
 </div>
 
-<img alt="" src=images/Two_balls_result_2.png  style="width   *1000px;">
+<img alt="" src=images/Two_balls_result_2.png  style="width   *1000px;"> 
+*The final result of this tutorial*
 
 ## Requirements
 
@@ -61,29 +68,31 @@ This case presents the solution of the capacitance of perfectly conducting balls
 
 -   The two smaller spheres are fused together and then that fusion is is cut from the bigger sphere.
 
-![ 1000px](images/Two_balls_model_full.png )
+<img alt="" src=images/Two_balls_model_full.png  style="width   *1000px;"> 
+*The initial model*
 
 ## Analysis container and its objects 
 
--   There are at least the 7 objects needed to make this electrostatic analysis.
--   <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> analysis container
+The objects used in this electrostatic analysis   *
 
-1.  <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;"> SolverElmer
-2.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *24px;"> Electrostatic, the electrostatics equation
-3.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *24px;"> FemMaterial, a fluid material to represent the surrounding air
-4.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *24px;"> ElectrostaticPotential, constraints (3 of them)
-5.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width   *24px;"> ConstantVaccumPermittivity, optional
-6.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> Mesh, a [Gmsh](FEM_MeshGmshFromShape.md) mesh
-7.  <img alt="" src=images/FEM_MeshRegion.svg  style="width   *24px;"> MeshRegion, a mesh region for the smaller spheres
+1.  <img alt="" src=images/FEM_Analysis.svg  style="width   *24px;"> Analysis container
+2.  <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;"> SolverElmer
+3.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width   *24px;"> Electrostatic, the electrostatics equation
+4.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width   *24px;"> FemMaterial, a fluid material to represent the surrounding air
+5.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *24px;"> ElectrostaticPotential, constraints (3 of them)
+6.  <img alt="" src=images/Fem-thermomechanical-analysis.svg  style="width   *24px;"> ConstantVaccumPermittivity, optional
+7.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width   *24px;"> Mesh, a [Gmsh](FEM_MeshGmshFromShape.md) mesh
+8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width   *24px;"> MeshRegion, a mesh region for the smaller spheres
 
-![](images/Two_balls_analysis.png )
+![](images/Two_balls_analysis.png ) 
+*The objects as they appear in the [Tree view](Tree_view.md)*
 
 ## Running the FEA 
 
 -   In [Tree view](Tree_view.md) double click on the solver object <img alt="" src=images/FEM_SolverElmer.svg  style="width   *24px;">.
--   Click on **Write** file in the same task window. Watch the log window until it prints \"write completed.\" You can ignore the warning about the vacuum permittivity that might appear.
+-   Click on **Write** file in the same task panel. Watch the log window until it prints \"write completed.\" You can ignore the warning about the vacuum permittivity that might appear.
 -   Click on **Run**. Since this is a small analysis it should take a few seconds to run so wait till you see \"ELMER SOLVER FINISHED AT\" in the output.
--   Click on **Close** in the task window after the run is finished.
+-   Click on **Close** in the task panel after the run is finished.
 -   Two new result objects should be created in the tree view, <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width   *24px;"> SolverElmerResult and <img alt="" src=images/TextDocument.svg  style="width   *24px;"> SolverElmerOutput.
 
 If you get an error message on solver binary or similar when triggering the analysis, check [the installation](FEM_SolverElmer#Installation.md) of Elmer.

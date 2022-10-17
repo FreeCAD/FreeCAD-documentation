@@ -120,7 +120,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 -   Solveur
     -   **Solver frame work** a été écrit à partir de zéro lors d\'un projet Google Summer of Code.
     -   Ajout du support pour le logiciel de résolution de problèmes FEM **ElmerFEM**, <https   *//www.csc.fi/web/elmer>.
-    -   A l\'intérieur du cadre de travail, le type d\'analyse peut être choisi par un \'\'\'objet d\'équation \'\'\'(solveur d\'Elmer seulement, ATM.)
+    -   A l\'intérieur du cadre de travail, le type d\'analyse peut être choisi par un **objet d\'équation**(solveur d\'Elmer seulement, ATM.)
     -   Un support de base pour le logiciel de résolution FEM **Z88**, <https   *//fr.z88.de/z88os/>, a été ajouté.
     -   **CalculiX** a été porté sur le travail du cadre de résolution. L\'objet ccxtools solveur reste dans FreeCAD FEM car il est très bien testé et a des pré-vérifications étendues.
 
@@ -171,7 +171,7 @@ Quelques images <img alt="" src=images/bridge-all.png  style="width   *640px;"> 
 
 -   Amélioration   * L\'outil [Solide par révolution](Part_Revolve/fr.md) supporte maintenant le lien paramétrique à l\'axe de révolution.
 
--   Le nouvel utilitaire [Ancrage](Part_EditAttachment/fr.md) accessible depuis le menu \'\'Pièce → Attachement \... \'\' peut être utilisé pour ancrer paramétriquement la plupart des types d\'objets à une autre géométrie.
+-   Le nouvel utilitaire [Ancrage](Part_EditAttachment/fr.md) accessible depuis le menu *Pièce → Attachement \...* peut être utilisé pour ancrer paramétriquement la plupart des types d\'objets à une autre géométrie.
 
 -   Le nouveau [conteneur Part](Std_Part/fr.md) peut être utilisé pour regrouper la plupart des types de formes et pour les déplacer comme une unité. Il contient également des plans et des axes standard auxquels attacher des objets. Il servira de base pour le futur atelier d\'assemblage en fournissant un moyen de déplacer les pièces. Il est disponible dans tous les ateliers à partir d\'une barre d\'outils avec [Groupe](Std_Group/fr.md).
 

@@ -7,8 +7,8 @@ Pages using duplicate arguments in template calls
 | --- | --- | --- |
 | [Inspection Workbench/it](wiki/Inspection Workbench/it.md) | [Mouse navigation/de](wiki/Mouse navigation/de.md) | [Mouse navigation/pt-br](wiki/Mouse navigation/pt-br.md) |
 | [Mouse navigation/zh](wiki/Mouse navigation/zh.md) | [Mouse navigation/zh-cn](wiki/Mouse navigation/zh-cn.md) | [Part Loft/de](wiki/Part Loft/de.md) |
-| [Sketcher CloseShape/de](wiki/Sketcher CloseShape/de.md) | [Std SendToPythonConsole/pl](wiki/Std SendToPythonConsole/pl.md) | [Std SetAppearance/pl](wiki/Std SetAppearance/pl.md) |
-|
+| [Robot SetHomePos/it](wiki/Robot SetHomePos/it.md) | [Std FreezeViews/fr](wiki/Std FreezeViews/fr.md) | [Std SendToPythonConsole/pl](wiki/Std SendToPythonConsole/pl.md) |
+| [Std SetAppearance/pl](wiki/Std SetAppearance/pl.md) |
 
 
 

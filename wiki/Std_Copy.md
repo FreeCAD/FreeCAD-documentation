@@ -17,7 +17,6 @@ The **Std Copy** command copies objects to the Clipboard.
 
 1.  Select one or more objects.
 2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Std_Copy.svg" width=16px> [Std Copy](Std_Copy.md)** button.
     -   Select the **Edit → <img src="images/Std_Copy.svg" width=16px> Copy** option from the menu.
     -   Select the **<img src="images/Std_Copy.svg" width=16px> Copy** option from the [Tree view](Tree_view.md) context menu.
     -   Use the keyboard shortcut   * **Ctrl**+**C**.

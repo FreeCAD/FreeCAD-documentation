@@ -1,4 +1,6 @@
 # Gui Command/en
+{{TOCright}}
+
 The GuiCommand is one of the most important functions of FreeCAD in the main interaction point of the user. Every time the user selects a menu item or presses a toolbar button it activates a GuiCommand. Some of the attributes of a GuiCommand are   *
 
 -   Defines a name
@@ -11,7 +13,7 @@ The GuiCommand is one of the most important functions of FreeCAD in the main int
 
 ## Naming
 
-The GuiCommand is named in a standard way   * *ModuleName\_CommandName* e.g., \"[Base\_Open](Base_Open.md)\" this is the Open Gui Command in the Base system. The GuiCommand in a certain module is named with the module name in front e.g., \"[Part\_Cylinder](Part_Cylinder.md)\".
+The GuiCommand is named in a standard way   * *ModuleName_CommandName* e.g., \"[Base_Open](Base_Open.md)\" this is the Open Gui Command in the Base system. The GuiCommand in a certain module is named with the module name in front e.g., \"[Part_Cylinder](Part_Cylinder.md)\".
 
 If the documentation is not finished use [Template   *UnfinishedDocu](Template_UnfinishedDocu.md).
 
@@ -39,23 +41,6 @@ All icons should be created in [SVG](SVG.md) format with a vector image applicat
 <img alt="" src=images/Colorchart.png  style="width   *200px;">
 
 We try as much as possible to respect this chart, so the color of the icons has a direct meaning.
-
-## Quality requirements 
-
-
-**The [Complete Workbench](Complete_Workbench.md) is deprecated, it no longer holds each of the commands in FreeCAD.**
-
-There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used for a short time to test implementation of new features. These GuiCommands are mostly in the dedicated workbenches like Part, Mesh or Cam. To ensure a good user experience the workbench *Complete* was created. This workbench incorporates all GuiCommands which meet certain quality requirements which are described here   *
-
--   The command or feature has to be \"finished\", that is, not be a work in progress.
--   It has to set up a proper icon and menu position.
--   It has to have a help page, like [Draft ShapeString](Draft_ShapeString.md).
-    -   All the fields in [Template   *GuiCommand](Template_GuiCommand.md) have to be filled in
-    -   It should have a detailed description of the command and all its parameters and settings.
-    -   It should have a picture of the dialogs that the command will produce.
-    -   It should have a description of the related [Python](Python.md) interfaces and classes with example code.
-
-Hopefully this becomes true for all GuiCommands in the [List of Commands](List_of_Commands.md).
 
 
 

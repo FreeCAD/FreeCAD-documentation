@@ -90,7 +90,7 @@ Instrumentul Acoperiș vă permite să creați un acoperiș înclinat de la o li
 
 -    **Overhang**   * Proiecția orizontală a streașinei fiecărei ape/versat al acoperișului (o sreașină pentru fiecare margine a filamentului original).
 
--    **Face**   * Indexul fațetei obiectului de bază de utilizat \#Nu este deocamdaă utilizat
+-    **Face**   * Indexul fațetei obiectului de bază de utilizat #Nu este deocamdaă utilizat
 
 
 </div>

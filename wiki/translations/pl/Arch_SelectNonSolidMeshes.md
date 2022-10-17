@@ -11,7 +11,7 @@
 
 ## Opis
 
-Narzędzie to identyfikuje i wybiera siatki niebryłowe *(non-[manifold](http   *//en.wikipedia.org/wiki/Manifold))* w wybranej grupie zaznaczonych obiektów <img alt="Mesh\_Workbench/pl" src=images/Workbench_Mesh.svg  style="width   *24px;"> [siatki](Mesh_Workbench/pl.md).
+Narzędzie to identyfikuje i wybiera siatki niebryłowe *(non-[manifold](http   *//en.wikipedia.org/wiki/Manifold))* w wybranej grupie zaznaczonych obiektów <img alt="Mesh_Workbench/pl" src=images/Workbench_Mesh.svg  style="width   *24px;"> [siatki](Mesh_Workbench/pl.md).
 
 ## Użycie
 

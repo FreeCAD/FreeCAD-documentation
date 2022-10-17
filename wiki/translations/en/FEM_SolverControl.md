@@ -15,7 +15,7 @@ This command is used to control the FEM solver (write the input file, edit it, a
 
 ## Usage
 
-1.  Select the solver object in the [Tree view](Tree_view.md), e.g., for CalcuilX solver <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> **SolverCcxTools**.
+1.  Select the Solver object in the [Tree view](Tree_view.md), e.g., for CalcuilX solver <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *24px;"> **SolverCcxTools**.
 2.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_SolverControl.svg" width=16px> [Solver job control](FEM_SolverControl.md)** button.
     -   Select the **Solve → <img src="images/FEM_SolverControl.svg" width=16px> Solver job control** option from the menu.

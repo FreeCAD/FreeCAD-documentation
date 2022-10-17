@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Shows or hides the display of the **weights** for the control points of a B-spline curve (see [below](#Weight_Explanation.md) for an explanation of weights).
+Blendet die Darstellung der Kontrollpunkt**gewichte** für die Kontrollpunkte einer B-Spline-Kurve ein oder aus (siehe [unten](#Erklärung_Gewichte.md) für eine Erklärung der Gewichte).
 
 <img alt="" src=images/sketcher_BSplineWeightShow.png  style="width   *468px;"> 
 *B-spline with control point weights displayed in brackets*

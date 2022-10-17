@@ -23,7 +23,7 @@ This macro creates a conical compound (or not) multiscale (or not) fretboard wit
 
 
 
-The ToolBar Icon ![Macro\_Guitar\_fretboard](images/Macro_Guitar_fretboard.png )
+The ToolBar Icon ![Macro_Guitar_fretboard](images/Macro_Guitar_fretboard.png )
 
 **Macro Guitar fretboard.FCMacro**
 

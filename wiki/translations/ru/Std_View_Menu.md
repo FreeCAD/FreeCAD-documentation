@@ -39,6 +39,9 @@
 
 -   <img alt="" src=images/Std_MainFullscreen.svg  style="width   *32px;"> [На весь экран](Std_MainFullscreen/ru.md)   * Переключает главное окно в полноэкранный режим.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Стандартные виды
     -   <img alt="" src=images/Std_ViewFitAll.svg  style="width   *32px;"> [Уместить всё](Std_ViewFitAll/ru.md)   * Уместить всё содержимое на экране.
     -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width   *32px;"> [Уместить выделенное](Std_ViewFitSelection/ru.md)   * Уместить выбранные объекты на экране.
@@ -55,6 +58,9 @@
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width   *32px;"> [Слева](Std_ViewLeft/ru.md)   * Установить вид слева.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width   *32px;"> [Повернуть влево](Std_ViewRotateLeft/ru.md)   * Повернуть вид на 90 градусов против часовой стрелки.
     -   <img alt="" src=images/Std_RotateRight.png  style="width   *32px;"> [Повернуть вправо](Std_ViewRotateRight/ru.md)   * Повернуть вид на 90 градусов по часовой стрелке.
+
+
+</div>
 
 -   [Положения камеры](Std_FreezeViews/ru.md)
     -   [Сохранить виды в файл\...](Std_FreezeViews/ru#Сохранить_виды_в_файл....md)   * Сохраняет виды в файл.

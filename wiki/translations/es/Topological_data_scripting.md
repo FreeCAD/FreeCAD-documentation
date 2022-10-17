@@ -414,9 +414,9 @@ Part.show(arc_edge)
 
 <div class="mw-translate-fuzzy">
 
-Arc solo acepta puntos como Base.Vector() no acepta tuplas. arc\_edge es lo que queremos que podemos mostrar utilizando Part.show(arc\_edge). También puedes obtener un arco utilizando una porción de una circunferencia   *
+Arc solo acepta puntos como Base.Vector() no acepta tuplas. arc_edge es lo que queremos que podemos mostrar utilizando Part.show(arc_edge). También puedes obtener un arco utilizando una porción de una circunferencia   *
 
-arc\_edge es lo que queríamos conseguir, y podemos visualizar utilizando Part.show (arc\_edge). Si desea una pequeña parte de un círculo como un arco, también es posible   *
+arc_edge es lo que queríamos conseguir, y podemos visualizar utilizando Part.show (arc_edge). Si desea una pequeña parte de un círculo como un arco, también es posible   *
 
 
 </div>
@@ -480,12 +480,12 @@ def makeBCurveEdge(Points)   *
 
 #### Creación de un plano 
 
-Un plano es simplemente una superficie rectangular plana. El método utilizado para crear uno es este   * **makePlane(length,width,\[start\_pnt,dir\_normal\])**. Por defecto start\_pnt = Vector(0,0,0) y dir\_normal = Vector(0,0,1). Utilizando dir\_normal = Vector(0,0,1) crearemos el plano orientado hacia el eje Z, mientras que con dir\_normal = Vector(1,0,0) crearemos el plano orientado hacia el eje X   *
+Un plano es simplemente una superficie rectangular plana. El método utilizado para crear uno es este   * **makePlane(length,width,\[start_pnt,dir_normal\])**. Por defecto start_pnt = Vector(0,0,0) y dir_normal = Vector(0,0,1). Utilizando dir_normal = Vector(0,0,1) crearemos el plano orientado hacia el eje Z, mientras que con dir_normal = Vector(1,0,0) crearemos el plano orientado hacia el eje X   *
 
 
 </div>
 
-A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start\_pnt = Vector(0, 0, 0) and dir\_normal = Vector(0, 0, 1). Using dir\_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir\_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
+A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start_pnt = Vector(0, 0, 0) and dir_normal = Vector(0, 0, 1). Using dir_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
 
 
 ```python
@@ -508,7 +508,7 @@ BoundBox es un prisma encerrando el plano con una diagonal empezando en (3,0,0) 
 
 <div class="mw-translate-fuzzy">
 
-Nota   * makePlane sólo acepta Base.Vector() para start\_pnt y dir\_normal pero no tuplas
+Nota   * makePlane sólo acepta Base.Vector() para start_pnt y dir_normal pero no tuplas
 
 
 </div>

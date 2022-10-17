@@ -18,7 +18,7 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 <img alt="" src=images/Draft_Array_example.png  style="width   *300px;"> 
 *Draft OrthoArray*
 
-## Использование
+## Применение
 
 1.  Optionally select one object.
 2.  There are several ways to invoke the command   *

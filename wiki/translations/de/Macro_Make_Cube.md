@@ -19,7 +19,7 @@ Dieses Makro erstellt einen Würfel, indem 4 Punkte abgefragt werden
 
 Werkzeugleisten-Symbol ![](images/Macro_makeCube.png )
 
-**Macro\_Make\_Cube.FCMacro**
+**Macro_Make_Cube.FCMacro**
 
 
 {{MacroCode|code=

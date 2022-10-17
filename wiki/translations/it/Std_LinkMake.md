@@ -23,7 +23,7 @@ L\'oggetto [App Link](App_Link/it.md) è stato introdotto di recente nella versi
 
 <div class="mw-translate-fuzzy">
 
-Di per sé l\'oggetto [Link](App_Link/it.md) può comportarsi come un array, duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"[Link\_Array](Std_LinkMake/it#Link_Array.md)\" può essere creato anche con i diversi strumenti dell\'array <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Ambiente Draft](Draft_Workbench/it.md), per esempio, **[<img src=images/Draft_OrthoArray.svg style="width   *16px"> [Draft Serie ortogonale](Draft_OrthoArray/it.md)**, **[<img src=images/Draft_PolarArray.svg style="width   *16px"> [Draft Serie polare](Draft_PolarArray/it.md)**, and **[<img src=images/Draft_CircularArray.svg style="width   *16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
+Di per sé l\'oggetto [Link](App_Link/it.md) può comportarsi come un array, duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"[Link_Array](Std_LinkMake/it#Link_Array.md)\" può essere creato anche con i diversi strumenti dell\'array <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Ambiente Draft](Draft_Workbench/it.md), per esempio, **[<img src=images/Draft_OrthoArray.svg style="width   *16px"> [Draft Serie ortogonale](Draft_OrthoArray/it.md)**, **[<img src=images/Draft_PolarArray.svg style="width   *16px"> [Draft Serie polare](Draft_PolarArray/it.md)**, and **[<img src=images/Draft_CircularArray.svg style="width   *16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
 
 
 </div>
@@ -401,17 +401,17 @@ Il progetto App Link è iniziato dopo la riprogettazione del [Ambiente PartDesig
 -   [Introducing App   *   *Link/XLink](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=21586) (Marzo 2017)
 -   [Links](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=22216) (Maggio 2017)
 -   [Realthunder Link implementation   * Architecture discussion](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=23015) (Giugno 2017)
--   [PR \#876   * Link, stage one, context aware selection](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=23419) (Luglio 2017)
+-   [PR #876   * Link, stage one, context aware selection](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=23419) (Luglio 2017)
 -   [Preview   * Link, stage two, API groundwork](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=23626) (Luglio 2017)
 -   [Assembly3 preview](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=25712) (Deicembre 2017)
 -   [Merging of my Link branch](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=29542) (Giugno 2018)
 
 Infine, la richiesta di pull e il merge sono avvenuti   *
 
--   [App   *   *Link   * the big merge](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=38621), vecchio thread (Luglio 2019), [pull request \#2350](https   *//github.com/FreeCAD/FreeCAD/pull/2350) (la GRANDE fusione), [LinkMerge branch](https   *//github.com/realthunder/FreeCAD/tree/LinkMerge).
+-   [App   *   *Link   * the big merge](https   *//forum.freecadweb.org/viewtopic.php?f=27&t=38621), vecchio thread (Luglio 2019), [pull request #2350](https   *//github.com/FreeCAD/FreeCAD/pull/2350) (la GRANDE fusione), [LinkMerge branch](https   *//github.com/realthunder/FreeCAD/tree/LinkMerge).
 -   [App   *   *Link   * the big merge](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=37757), thread principale (Luglio 2019)
 -   [A simple path description of Link, 019, Link stage, Asm3, merge?](https   *//forum.freecadweb.org/viewtopic.php?p=329054#p329054) (Agosto 2019)
--   [PR\#2559   * expose link and navigation actions](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=39672), un\'introduzione alla funzione Link in 0.19 (Settembre 2019).
+-   [PR#2559   * expose link and navigation actions](https   *//forum.freecadweb.org/viewtopic.php?f=17&t=39672), un\'introduzione alla funzione Link in 0.19 (Settembre 2019).
 
 Other miscellaneous \"links\" about Link include   *
 

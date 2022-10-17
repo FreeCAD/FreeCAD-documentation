@@ -1,5 +1,5 @@
 # Spreadsheet legacy/hr
-1.  REDIRECT [Spreadsheet\_Workbench/hr](Spreadsheet_Workbench/hr.md)
+1.  REDIRECT [Spreadsheet_Workbench/hr](Spreadsheet_Workbench/hr.md)
 
 
 

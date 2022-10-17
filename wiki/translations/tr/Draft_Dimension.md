@@ -100,7 +100,9 @@ See also   * [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft
     -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
     -   Use the keyboard shortcut   * **D** then **I**.
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
-3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
+3.  Do one of the following   *
+    -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a first straight edge in the [3D view](3D_view.md). Repeat this to select a second straight edge.
+    -   Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
 5.  The displayed angle depends on the edges and the picked point.
 

@@ -18,7 +18,7 @@ La commande <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width  
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'invoquer la commande    *
-    -   Appuyez sur le bouton **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Screw calculator](Fasteners_ScrewCalculator/fr.md)**.
     -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Screw calculator** dans le menu.
 
 2.  La boîte de dialogue **Screw hole calculator** s\'ouvre.

@@ -45,7 +45,7 @@ Wenn mehr als zwei Profile vorhanden sind, werden die Flächen aus Splines in de
 
 Die Splines sind B-Spline Interpolation.
 
--   Wenn die Anzahl der Profile unter 10 liegt, wird die Interpolation mit einem B Spline mit einem maximal möglichen Grad (d.h. Grad = Anzahl\_der\_Profile - 1) durchgeführt.
+-   Wenn die Anzahl der Profile unter 10 liegt, wird die Interpolation mit einem B Spline mit einem maximal möglichen Grad (d.h. Grad = Anzahl_der_Profile - 1) durchgeführt.
 -   Ist die Anzahl der Profile größer als 10, wird die Interpolation auf B Splines 3. Grades umgeschaltet.
 
 Die verwendete Knüpfmethode ist \"ungefähre Sehnenlänge\". Näherung steht für die Tatsache, dass der Knotenvektor für jeden Spline in einer Ausformung genau gleich ist. Weitere Informationen über die B Spline Interpolation, den Knotenvektor und die Methode der Sehnenlänge findest du z.B. unter [cs.mtu.edu Curve Global Interpolation](http   *//www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/INT-APP/CURVE-INT-global.html).

@@ -29,7 +29,7 @@ The Icon for you ToolBar ![](images/Macro_Easy_cutouts_for_Enclosure_Design_icon
 
 
 
-**Macro\_Easy\_cutouts\_for\_Enclosure\_Design.FCMacro**
+**Macro_Easy_cutouts_for_Enclosure_Design.FCMacro**
 
 
 {{MacroCode|code=

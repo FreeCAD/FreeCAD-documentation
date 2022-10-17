@@ -1,5 +1,11 @@
 # AppImage/de
+<div class="mw-translate-fuzzy">
+
+
 **Seit dem 7. Juli 2019 beobachtet die FreeCAD Gemeinschaft, dass das Herunterladen von AppImages von Github vor der Fertigstellung eine Zeitüberschreitung zu haben scheint. Wir sind uns nicht sicher, warum dies geschieht. Wenn dies bei dir passiert, versuche bitte das Herunterladen erneut. Es dauert ein paar Versuche. Es wird empfohlen, die Funktion AppImage [https   *//www.freecadweb.org/wiki/Appimage#Automatic_updating Auto-Aktualisierungsfunktion] zu verwenden, die das Herunterladen an der Stelle wiederherstellt, an der er fehlgeschlagen ist.**
+
+
+</div>
 
 
 {{TOCright}}
@@ -10,13 +16,7 @@
 
 AnwendungsAbbild ist ein \"universelles Binärpaket\", das dazu bestimmt ist, eine Anwendung an jede beliebige Linux Distribution zu verteilen. Lies mehr darüber auf der [Appimage Homepage](https   *//appimage.org) und [Wikipedia](https   *//en.wikipedia.org/wiki/AppImage).
 
-
-<div class="mw-translate-fuzzy">
-
 Um es auszuführen, mache es zunächst ausführbar und gib dann den relativen oder vollständigen Pfad ein.
-
-
-</div>
 
 
 ```python
@@ -33,7 +33,7 @@ Für andere Installationsarten siehe [Herunterladen](Download/de.md).
 
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.20.1](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.1)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
      * style=\"text-align   * center; font-size   * 150%; \| Available FreeCAD AppImages \|+
 
@@ -63,7 +63,7 @@ Dank der Bemühungen mehrerer wichtiger Schlüsselentwickler gibt es [laufende B
 
 Dies ist die offizielle AppImageUpdate GUI-Anwendung.
 
-1.  Herunterladen [AppImageUpdate-x86\_64.AppImage](https   *//github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
+1.  Herunterladen [AppImageUpdate-x86_64.AppImage](https   *//github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
 2.  Mache es ausführbar, indem Du mit der rechten Maustaste auf die Datei klickst, in die Eigenschaften gehst und \"Als ausführbare Datei ausführen\".
 3.  Doppelklicke auf das AppImage Symbol, ein Dialogfeld erscheint und Du wirst aufgefordert, anzugeben, welches AppImage Du aktualisieren möchtest.
 4.  Gib den Pfad zu Deinem vorhandenen AppImage an.
@@ -73,7 +73,7 @@ Dies ist die offizielle AppImageUpdate GUI-Anwendung.
 
 Dies ist eine elegantere inoffizielle Version von AppImageUpdate von Drittanbietern mit dem Namen   * **AppImageUpdater**. Es befindet sich noch in der Entwicklung (zum Zeitpunkt dieser Wiki-Bearbeitung), ist aber dennoch recht angenehm zu bedienen.
 
-1.  Herunterladen [AppImageUpdater-\*-x86\_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
+1.  Herunterladen [AppImageUpdater-\*-x86_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
 2.  Mache es ausführbar   * 
 ```pythonchmod +x AppImageUpdater*-x86_64.AppImage```
 3.  Lauf es durch   * 
@@ -101,13 +101,25 @@ Anmerkungen   *
 -   Führen Sie `./appimageupdatetool-x86_64.AppImage --help` aus, um mehr über Funktionen wie `--remove-old`, `--overwrite` und `--self-update` zu erfahren.
 -   Es gibt auch eine i386-Version; siehe die Seite [AppImageUpdate release](https   *//github.com/AppImage/AppImageUpdate/releases).
 
+
+<div class="mw-translate-fuzzy">
+
 Zu erledigen   * Teile ein Skript, das als Alias oder Cron Job hinzugefügt werden kann.
+
+
+</div>
 
 ### CLI Methode 2 (inoffiziell) 
 
+
+<div class="mw-translate-fuzzy">
+
 Ähnlich wie bei den grafischen Methoden mit offiziellen und inoffiziellen Ansätzen zum Herunterladen von AppImages gilt dies auch für die Befehlszeile. Dies ist eine elegantere Drittanbieter Befehlszeilenoption zum Herunterladen von AppImages.
 
-1.  Herunterladen [appimageupdater-\*-x86\_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
+
+</div>
+
+1.  Herunterladen [appimageupdater-\*-x86_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
 2.  Mache es ausführbar   * 
 ```pythonchmod +x appimageupdater*-x86_64.AppImage```
 3.  Ausführen   * 
@@ -119,7 +131,13 @@ Zu erledigen   * Teile ein Skript, das als Alias oder Cron Job hinzugefügt werd
 
 ## AppImage zsync korrigieren 
 
+
+<div class="mw-translate-fuzzy">
+
 Es kann sein, dass ein AppImage nicht aktualisiert werden kann, weil die Zieldatei auf irgendeine Weise verändert wurde. Anstatt ein komplett neues appimage herunterzuladen, ist es möglich, die von AppImage verwendete zsync-Datei so umzuschreiben, dass nur das Delta heruntergeladen wird. Mehr Informationen gibt es unter [1](https   *//github.com/antony-jr/appimage-update-info-writer).
+
+
+</div>
 
 Dieser Abschnitt benötigt mehr Details.
 
@@ -157,7 +175,7 @@ cd squashfs-root/
 
 ### AnwendungsAbbilder neu packen 
 
-Wenn du den Code geändert hast und nun das AnwendungsAbbild mit deinen letzten Änderungen neu packen möchtest, verwende das Werkzeug [appimagetool-x86\_64](https   *//github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) auf dem extrahierten Dateisystem.
+Wenn du den Code geändert hast und nun das AnwendungsAbbild mit deinen letzten Änderungen neu packen möchtest, verwende das Werkzeug [appimagetool-x86_64](https   *//github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) auf dem extrahierten Dateisystem.
 
 
 ```python

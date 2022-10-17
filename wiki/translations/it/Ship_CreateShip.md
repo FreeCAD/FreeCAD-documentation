@@ -70,7 +70,7 @@ Annotazioni sulla vista laterale.
 
 Lo stesso procedimento è valido per il baglio. Si noti che viene richiesto il valore del [baglio maestro](http   *//it.wikipedia.org/wiki/Baglio_%28nautica%29) (larghezza massima) , ma l\'annotazione si riferisce solo alla metà di dritta della barca.
 
-Quando si preme il pulsante **OK**, il programma crea la nuova istanza barca, questa nuova istanza è denominata **Ship** nell\'albero \'\' Etichette e Attributi\'\'. Ora la geometria originale non è più necessaria, quindi è possibile nasconderla.
+Quando si preme il pulsante **OK**, il programma crea la nuova istanza barca, questa nuova istanza è denominata **Ship** nell\'albero *Etichette e Attributi*. Ora la geometria originale non è più necessaria, quindi è possibile nasconderla.
 
 ## Tutorial
 

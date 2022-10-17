@@ -50,26 +50,26 @@ Observați că importăm, robotul este alcătuit din 8 forme, direct pe rădăci
 
   FreeCAD name   STEP name
    
-  TX40\_HB       HORIZONTAL BASE CABLE OUTLET
-  TX40\_HB001    SHOULDER
-  TX40\_HB002    ARM
-  TX40\_HB003    ELBOW
-  TX40\_HB004    FOREARM
-  TX40\_HB005    WRIST
-  TX40\_HB006    TOOL FLANGE
-  TX40\_HB007    ?
+  TX40_HB        HORIZONTAL BASE CABLE OUTLET
+  TX40_HB001     SHOULDER
+  TX40_HB002     ARM
+  TX40_HB003     ELBOW
+  TX40_HB004     FOREARM
+  TX40_HB005     WRIST
+  TX40_HB006     TOOL FLANGE
+  TX40_HB007     ?
 
 
 <div class="mw-translate-fuzzy">
 
-Pentru acest import, schimbați \"Display Mode\" pentru fiecare formă, exceptând TX40\_HB007, de la \"Flat Lines\" la \"Shaded\" pentru exportul vrml pentru a arăta bine. Am schimbat de asemenea culoarile la \[245, 196, 0\] și \[204, 204, 204\] pentru a corespunde mai bine cu galbenul Stäubli\'s. Ascunde TX40\_HB007 deoarece conține axele tuturorl articulațiilor și nu poate fi luat de o parte.
+Pentru acest import, schimbați \"Display Mode\" pentru fiecare formă, exceptând TX40_HB007, de la \"Flat Lines\" la \"Shaded\" pentru exportul vrml pentru a arăta bine. Am schimbat de asemenea culoarile la \[245, 196, 0\] și \[204, 204, 204\] pentru a corespunde mai bine cu galbenul Stäubli\'s. Ascunde TX40_HB007 deoarece conține axele tuturorl articulațiilor și nu poate fi luat de o parte.
 
 
 </div>
 
 ## Măsurați caracteristicile geometrice 
 
-În vederea construirii tabelului Denavit-Hartenberg (see [Robot 6-Axis](Robot_6-Axis.md)) și pregătiți fișierul vrml, trebuie să obțineți caracteristicile robotului. Deocamdată, instrumentul de măsurare FreeCAD nu este gata, puteți utiliza axele incluse în TX40\_HB007 (coordonatele sunt indicate în partea stângă jos atunci când indicați un obiect cu mouse-ul) sau trebuie să utilizați consola Python pentru a obține unele informații despre geometrie. Rețineți că tabelul DH este necesar numai dacă trebuie să utilizați cinematica inversă, adică să obțineți coordonatele carteziene sau să dirijați robotul cu coordonate carteziene. Tabelul DH-table pentru acest robot este următorul (mm, deg and deg/s)   *
+În vederea construirii tabelului Denavit-Hartenberg (see [Robot 6-Axis](Robot_6-Axis.md)) și pregătiți fișierul vrml, trebuie să obțineți caracteristicile robotului. Deocamdată, instrumentul de măsurare FreeCAD nu este gata, puteți utiliza axele incluse în TX40_HB007 (coordonatele sunt indicate în partea stângă jos atunci când indicați un obiect cu mouse-ul) sau trebuie să utilizați consola Python pentru a obține unele informații despre geometrie. Rețineți că tabelul DH este necesar numai dacă trebuie să utilizați cinematica inversă, adică să obțineți coordonatele carteziene sau să dirijați robotul cu coordonate carteziene. Tabelul DH-table pentru acest robot este următorul (mm, deg and deg/s)   *
 
   i   d     θ         r     α     θmin   θmax    Axis velocity
   ---       

@@ -4,7 +4,7 @@
    Name/fr   *FEM Contrainte de contact
    MenuLocation   *Modèle → Contraintes mécaniques → Contrainte de contact
    Workbenches   *[Atelier FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[FEM Contrainte fixe](FEM_ConstraintFixed/fr.md)
+   SeeAlso   *[FEM Contrainte d'immobilisation](FEM_ConstraintFixed/fr.md)
 ---
 
 # FEM ConstraintContact/fr
@@ -26,36 +26,35 @@ Crée une contrainte FEM de contact entre deux surfaces.
 ## Limitations
 
 -   La contrainte de contact ne peut être appliquée qu\'à deux faces.
--   Développement pour un contact multiple en même temps    * <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=130#p303275>
--   Parce que les maillages multiples ne sont actuellement pas supportés, le contact doit être appliqué à des faces séparées par (au moins) une petite distance. Si les faces se touchaient (sans espace entre elles), le résultat d\'une opération d\'union booléenne ou de fragmentation booléenne (nécessaire pour éviter d\'avoir des maillages multiples, ce qui n\'est pas autorisé pour le moment) serait un maillage continu et donc plus besoin d\'utiliser le contact. Voir [Discussion sur le forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=62307).
+-   Développement pour un contact multiple à la fois    * <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=130#p303275>
+-   Parce que les maillages multiples ne sont actuellement pas pris en charge, le contact doit être appliqué à des faces qui sont séparées par (au moins) une petite distance. Si les faces se touchaient (sans espace entre elles), le résultat d\'une opération d\'union booléenne ou de fragmentation booléenne (nécessaire pour éviter d\'avoir des maillages multiples, ce qui n\'est pas autorisé pour le moment) serait un maillage continu et donc plus besoin d\'utiliser le contact. Voir [Discussion sur le forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=62307).
 
 ## Remarques
 
 ### Astuces pour modéliser 
 
--   à partir de <https   *//forum.freecadweb.org/viewtopic.php?f=18&p=340874#p340494>
--   mieux utiliser les éléments linéaires, sinon les calculs prennent beaucoup de temps
--   attribution maître/esclave    *
-    -   la plus grande des deux surfaces doit servir de surface maître.
-    -   si les surfaces sont de taille comparable, la surface du corps le plus rigide devrait faire office de surface principale.
-    -   si les surfaces sont de taille et de rigidité comparables, la surface avec le maillage plus grossier devrait servir de surface maîtresse.
+-   A partir de <https   *//forum.freecadweb.org/viewtopic.php?f=18&p=340874#p340494>
+-   Il vaut mieux utiliser des éléments linéaires, sinon les calculs prennent beaucoup de temps.
+-   Affectation maître/esclave    *
+    -   La plus grande des deux surfaces doit être la surface maîtresse.
+    -   Si les surfaces sont de taille comparable, la surface du corps le plus rigide doit être la surface maîtresse.
+    -   Si les surfaces sont de taille et de rigidité comparables, la surface dont le maillage est le plus grossier doit être considérée comme la surface maîtresse.
 
 ### CalculiX
 
-1.  La rigidité du contact doit être 10 fois plus tendre (young\'s modulus) que le modulus pour avoir un contact dur. Plus la valeur de la rigidité du contact est élevée, plus le contact entre les surfaces est difficile.
-2.  La face esclave est la face qui pénètre dans la face maître, et présente donc plus de déformation.
-3.  La carte \*CONTACT PAIR est utilisée pour modéliser le contact dans CalculiX. La contrainte utilise le contact de pénalité face à face et la formule du contact est expliquée en détail ici <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node112.html>
-
--   Vue d\'ensemble pour différents types de contact   * <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=90#p188736>
--   Autres informations intéressantes   *
-    -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=23102#p180709> et messages suivants!!!
+-   La rigidité de contact doit être 10 fois supérieure au module de Young du matériau pour un contact dur. Plus la valeur de la rigidité de contact est élevée, plus le contact entre les surfaces est dur.
+-   La face esclave est la face qui pénètre dans la face maître, et subit donc plus de déformation.
+-   La carte \*CONTACT PAIR est utilisée pour modéliser le contact dans CalculiX. La contrainte utilise le contact de pénalité Face-à-Face et la formulation du contact est expliquée en détail sur <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node112.html>.
+-   Vue d\'ensemble des différents types de contact    * <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=90#p188736>
+-   Autres informations intéressantes    *
+    -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=23102#p180709> et les posts suivants !!!
     -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20276>
     -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=21331>
-    -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=15699> (sujet de contact initial)
+    -   <https   *//forum.freecadweb.org/viewtopic.php?f=18&t=15699> (sujet du contact initial)
 
 -   Un exemple de contact très détaillé avec CalculiX. ([lien](http   *//dip28p.web.fc2.com/calculix/netgen2calculix/index.html))
 
--   Un exemple très cool aussi dans le sous forum allemand. ([Lien](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=39663&start=10#p337254))
+-   Un très bon exemple aussi dans le sous forum allemand. ([Lien](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=39663&start=10#p337254))
 
 
 

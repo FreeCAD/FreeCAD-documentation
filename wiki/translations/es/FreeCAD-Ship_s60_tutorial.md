@@ -59,7 +59,7 @@ Icono del cargador de ejemplos de geometrías de naves
 
 </center>
 
-Ejecutando la herramienta (Diseño de buques/Cargar un ejemplo de geometría de nave) se mostrará un cuadro de diálogo. Selecciona **Serie 60 de la Universidad de Iowa** y pulsa Aceptar. La herramienta carga un nuevo documento con la geometría **s60\_IowaUniversity**.
+Ejecutando la herramienta (Diseño de buques/Cargar un ejemplo de geometría de nave) se mostrará un cuadro de diálogo. Selecciona **Serie 60 de la Universidad de Iowa** y pulsa Aceptar. La herramienta carga un nuevo documento con la geometría **s60_IowaUniversity**.
 
 
 **'''¡Atención, antes de editar nada!''

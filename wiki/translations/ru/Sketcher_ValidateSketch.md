@@ -35,7 +35,7 @@
        *   **Примечание   *** эскиз не должен быть в режиме редактирования. Если вы находитесь в режиме редактирования эскиза, вам нужно использовать кнопку **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Покинуть эскиз](Sketcher_LeaveSketch/ru.md)**, или кнопку **Close** наверху панели задач.
 2.  Откройте утилиту проверки эскиза либо   *
     -   из ниспадающего меню **Sketch → Проверить набросок**
-    -   нажав кнопку <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *24px;"> в <img alt="Sketcher\_Workbench" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [верстаке Sketcher](Sketcher_Workbench/ru.md).
+    -   нажав кнопку <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *24px;"> в <img alt="Sketcher_Workbench" src=images/Workbench_Sketcher.svg  style="width   *16px;"> [верстаке Sketcher](Sketcher_Workbench/ru.md).
 3.  Ознакомьтесь с [Параметрами](#Options/ru.md) для работы, ниже.
 4.  Нажмите кнопку **Закрыть** когда закончите.
 

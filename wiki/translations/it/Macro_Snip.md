@@ -100,7 +100,7 @@ You can bypass all scaling by holding down the Ctrl key while clicking the Ok bu
 
 ToolBar icon ![](images/Snip.png )
 
-**Macro\_Snip.FCMacro**
+**Macro_Snip.FCMacro**
 
 
 {{MacroCode|code=

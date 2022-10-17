@@ -310,7 +310,7 @@ You can use either a [Std Link](Std_LinkMake.md) or a [PartDesign SubShapeBinder
 2.  Move the Link to a new place by changing its **Placement** so that it is easier to distinguish from the original object.
 3.  Select a different **Configuration** for the Link to create a variant instance.
 
-Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), except that its property for activating a variant instance is called **Binder Copy On Change**.
+Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md), except that its property for activating a variant instance is called **Bind Copy On Change**.
 
 
 </div>

@@ -45,29 +45,30 @@ Questa categoria contiene le macro per estendere l\'installazione FreeCAD con nu
 | [Macro Make Arc 3 Points/it](wiki/Macro Make Arc 3 Points/it.md) | [Macro Make Circle 3 Points/it](wiki/Macro Make Circle 3 Points/it.md) | [Macro Make Cube/it](wiki/Macro Make Cube/it.md) |
 | [Macro MatrixTransform/it](wiki/Macro MatrixTransform/it.md) | [Macro MeasureCircle/it](wiki/Macro MeasureCircle/it.md) | [Macro Megaminx/it](wiki/Macro Megaminx/it.md) |
 | [Macro merge duplicate materials/it](wiki/Macro merge duplicate materials/it.md) | [Macro MeshToPart/it](wiki/Macro MeshToPart/it.md) | [Macro MessageBox/it](wiki/Macro MessageBox/it.md) |
-| [Macro Mouse Cross/it](wiki/Macro Mouse Cross/it.md) | [Macro Mouse over cb/it](wiki/Macro Mouse over cb/it.md) | [Macro Normal Vector/it](wiki/Macro Normal Vector/it.md) |
-| [Macro ObjectInfo/it](wiki/Macro ObjectInfo/it.md) | [Macro Overlap/it](wiki/Macro Overlap/it.md) | [Macro Parametric Curve FP/it](wiki/Macro Parametric Curve FP/it.md) |
-| [Macro PartsLibrary/it](wiki/Macro PartsLibrary/it.md) | [Macro PartToVRML/it](wiki/Macro PartToVRML/it.md) | [Macro Perpendicular To Wire/it](wiki/Macro Perpendicular To Wire/it.md) |
-| [Macro PlacementAbsolufy/it](wiki/Macro PlacementAbsolufy/it.md) | [Macro Polyhedrons/it](wiki/Macro Polyhedrons/it.md) | [Macro Print SceneGraph/it](wiki/Macro Print SceneGraph/it.md) |
-| [Macro PropertyMemo/it](wiki/Macro PropertyMemo/it.md) | [Macro Pyramid/it](wiki/Macro Pyramid/it.md) | [Macro Python Assistant Window/it](wiki/Macro Python Assistant Window/it.md) |
-| [Macro Recompute Profiler/it](wiki/Macro Recompute Profiler/it.md) | [Macro Rectellipse/it](wiki/Macro Rectellipse/it.md) | [Macro Remove parametric history/it](wiki/Macro Remove parametric history/it.md) |
-| [Macro Replace Part in Assembly/it](wiki/Macro Replace Part in Assembly/it.md) | [Macro Repro Wire/it](wiki/Macro Repro Wire/it.md) | [Macro Rotate To Point/it](wiki/Macro Rotate To Point/it.md) |
-| [Macro Rotate View Free/it](wiki/Macro Rotate View Free/it.md) | [Macro Rotate View/it](wiki/Macro Rotate View/it.md) | [Macro Rotate ViewAxonometric/it](wiki/Macro Rotate ViewAxonometric/it.md) |
-| [Macro Rubik Cube/it](wiki/Macro Rubik Cube/it.md) | [Macro Screen Wiki/it](wiki/Macro Screen Wiki/it.md) | [Macro screw maker1 2/it](wiki/Macro screw maker1 2/it.md) |
-| [Macro Section/it](wiki/Macro Section/it.md) | [Macro Select Hovering/it](wiki/Macro Select Hovering/it.md) | [Macro SelectVisible/it](wiki/Macro SelectVisible/it.md) |
-| [Macro Shake Sketch/it](wiki/Macro Shake Sketch/it.md) | [Macro Sheet Metal Unfolder/it](wiki/Macro Sheet Metal Unfolder/it.md) | [Macro SimpleProperties/it](wiki/Macro SimpleProperties/it.md) |
-| [Macro Site From Contours/it](wiki/Macro Site From Contours/it.md) | [Macro SketchUnmap/it](wiki/Macro SketchUnmap/it.md) | [Macro Snip/it](wiki/Macro Snip/it.md) |
-| [Macro Solid Sweep/it](wiki/Macro Solid Sweep/it.md) | [Macro SplitPropEditor/it](wiki/Macro SplitPropEditor/it.md) | [Macro SpreadsheetTools/it](wiki/Macro SpreadsheetTools/it.md) |
-| [Macro Spring/it](wiki/Macro Spring/it.md) | [Macro Stairs/it](wiki/Macro Stairs/it.md) | [Macro StraightenObject/it](wiki/Macro StraightenObject/it.md) |
-| [Macro SuperWire/it](wiki/Macro SuperWire/it.md) | [Macro Texture Objects/it](wiki/Macro Texture Objects/it.md) | [Macro Texture/it](wiki/Macro Texture/it.md) |
-| [Macro Toggle Drawstyle Optimized/it](wiki/Macro Toggle Drawstyle Optimized/it.md) | [Macro Toggle Drawstyle/it](wiki/Macro Toggle Drawstyle/it.md) | [Macro Toggle Panels Visibility/it](wiki/Macro Toggle Panels Visibility/it.md) |
-| [Macro Toggle Visibility/it](wiki/Macro Toggle Visibility/it.md) | [Macro Toggle Visibility2 1-2/it](wiki/Macro Toggle Visibility2 1-2/it.md) | [Macro Toggle Visibility2 2-2/it](wiki/Macro Toggle Visibility2 2-2/it.md) |
-| [Macro TreeToAscii/it](wiki/Macro TreeToAscii/it.md) | [Macro Triangle AH/it](wiki/Macro Triangle AH/it.md) | [Macro Unbind Numpad Shortcuts/it](wiki/Macro Unbind Numpad Shortcuts/it.md) |
-| [Macro Unfold Box/it](wiki/Macro Unfold Box/it.md) | [Macro Unroll Ruled Surface/it](wiki/Macro Unroll Ruled Surface/it.md) | [Macro View Rotation/it](wiki/Macro View Rotation/it.md) |
-| [Macro Visibility Manager/it](wiki/Macro Visibility Manager/it.md) | [Macro VisibleAlls/it](wiki/Macro VisibleAlls/it.md) | [Macro WireXYZ/it](wiki/Macro WireXYZ/it.md) |
-| [Macro Wiring And Hoses/it](wiki/Macro Wiring And Hoses/it.md) | [Macro WorkFeatures/it](wiki/Macro WorkFeatures/it.md) | [Template:Macro/it](wiki/Template_Macro/it.md) |
-| [Macros recipes/it](wiki/Macros recipes/it.md) | [Macros/it](wiki/Macros/it.md) | [Misc templates Full/it](wiki/Misc templates Full/it.md) |
-| [Qt Example/it](wiki/Qt Example/it.md) | [Svg Namespace/it](wiki/Svg Namespace/it.md) |
+| [Macro Mouse Cross/it](wiki/Macro Mouse Cross/it.md) | [Macro Mouse over cb/it](wiki/Macro Mouse over cb/it.md) | [Macro MultiCuts/it](wiki/Macro MultiCuts/it.md) |
+| [Macro Normal Vector/it](wiki/Macro Normal Vector/it.md) | [Macro ObjectInfo/it](wiki/Macro ObjectInfo/it.md) | [Macro Overlap/it](wiki/Macro Overlap/it.md) |
+| [Macro Parametric Curve FP/it](wiki/Macro Parametric Curve FP/it.md) | [Macro PartsLibrary/it](wiki/Macro PartsLibrary/it.md) | [Macro PartToVRML/it](wiki/Macro PartToVRML/it.md) |
+| [Macro Perpendicular To Wire/it](wiki/Macro Perpendicular To Wire/it.md) | [Macro PlacementAbsolufy/it](wiki/Macro PlacementAbsolufy/it.md) | [Macro Polyhedrons/it](wiki/Macro Polyhedrons/it.md) |
+| [Macro Print SceneGraph/it](wiki/Macro Print SceneGraph/it.md) | [Macro PropertyMemo/it](wiki/Macro PropertyMemo/it.md) | [Macro Pyramid/it](wiki/Macro Pyramid/it.md) |
+| [Macro Python Assistant Window/it](wiki/Macro Python Assistant Window/it.md) | [Macro Recompute Profiler/it](wiki/Macro Recompute Profiler/it.md) | [Macro Rectellipse/it](wiki/Macro Rectellipse/it.md) |
+| [Macro Remove parametric history/it](wiki/Macro Remove parametric history/it.md) | [Macro Replace Part in Assembly/it](wiki/Macro Replace Part in Assembly/it.md) | [Macro Repro Wire/it](wiki/Macro Repro Wire/it.md) |
+| [Macro Rotate To Point/it](wiki/Macro Rotate To Point/it.md) | [Macro Rotate View Free/it](wiki/Macro Rotate View Free/it.md) | [Macro Rotate View/it](wiki/Macro Rotate View/it.md) |
+| [Macro Rotate ViewAxonometric/it](wiki/Macro Rotate ViewAxonometric/it.md) | [Macro Rubik Cube/it](wiki/Macro Rubik Cube/it.md) | [Macro Screen Wiki/it](wiki/Macro Screen Wiki/it.md) |
+| [Macro screw maker1 2/it](wiki/Macro screw maker1 2/it.md) | [Macro Section/it](wiki/Macro Section/it.md) | [Macro Select Hovering/it](wiki/Macro Select Hovering/it.md) |
+| [Macro SelectVisible/it](wiki/Macro SelectVisible/it.md) | [Macro Shake Sketch/it](wiki/Macro Shake Sketch/it.md) | [Macro Sheet Metal Unfolder/it](wiki/Macro Sheet Metal Unfolder/it.md) |
+| [Macro SimpleProperties/it](wiki/Macro SimpleProperties/it.md) | [Macro Site From Contours/it](wiki/Macro Site From Contours/it.md) | [Macro SketchUnmap/it](wiki/Macro SketchUnmap/it.md) |
+| [Macro Snip/it](wiki/Macro Snip/it.md) | [Macro Solid Sweep/it](wiki/Macro Solid Sweep/it.md) | [Macro SplitPropEditor/it](wiki/Macro SplitPropEditor/it.md) |
+| [Macro SpreadsheetTools/it](wiki/Macro SpreadsheetTools/it.md) | [Macro Spring/it](wiki/Macro Spring/it.md) | [Macro Stairs/it](wiki/Macro Stairs/it.md) |
+| [Macro StraightenObject/it](wiki/Macro StraightenObject/it.md) | [Macro SuperWire/it](wiki/Macro SuperWire/it.md) | [Macro Texture Objects/it](wiki/Macro Texture Objects/it.md) |
+| [Macro Texture/it](wiki/Macro Texture/it.md) | [Macro Toggle Drawstyle Optimized/it](wiki/Macro Toggle Drawstyle Optimized/it.md) | [Macro Toggle Drawstyle/it](wiki/Macro Toggle Drawstyle/it.md) |
+| [Macro Toggle Panels Visibility/it](wiki/Macro Toggle Panels Visibility/it.md) | [Macro Toggle Visibility/it](wiki/Macro Toggle Visibility/it.md) | [Macro Toggle Visibility2 1-2/it](wiki/Macro Toggle Visibility2 1-2/it.md) |
+| [Macro Toggle Visibility2 2-2/it](wiki/Macro Toggle Visibility2 2-2/it.md) | [Macro TreeToAscii/it](wiki/Macro TreeToAscii/it.md) | [Macro Triangle AH/it](wiki/Macro Triangle AH/it.md) |
+| [Macro Unbind Numpad Shortcuts/it](wiki/Macro Unbind Numpad Shortcuts/it.md) | [Macro Unfold Box/it](wiki/Macro Unfold Box/it.md) | [Macro Unroll Ruled Surface/it](wiki/Macro Unroll Ruled Surface/it.md) |
+| [Macro View Rotation/it](wiki/Macro View Rotation/it.md) | [Macro Visibility Manager/it](wiki/Macro Visibility Manager/it.md) | [Macro VisibleAlls/it](wiki/Macro VisibleAlls/it.md) |
+| [Macro WireXYZ/it](wiki/Macro WireXYZ/it.md) | [Macro Wiring And Hoses/it](wiki/Macro Wiring And Hoses/it.md) | [Macro WorkFeatures/it](wiki/Macro WorkFeatures/it.md) |
+| [Template:Macro/it](wiki/Template_Macro/it.md) | [Macros recipes/it](wiki/Macros recipes/it.md) | [Macros/it](wiki/Macros/it.md) |
+| [Misc templates Full/it](wiki/Misc templates Full/it.md) | [Qt Example/it](wiki/Qt Example/it.md) | [Svg Namespace/it](wiki/Svg Namespace/it.md) |
+|
 
 
 

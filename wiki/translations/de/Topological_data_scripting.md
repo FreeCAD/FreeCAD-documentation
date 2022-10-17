@@ -439,7 +439,7 @@ def makeBCurveEdge(Points)   *
 
 ### Erstellen einer Ebene 
 
-Eine Ebene ist einfach eine flache rechteckige Fläche. Die Methode, mit der eine solche erstellt wird, ist **makePlane(length,width,\[start\_pnt,dir\_normal\])**\'. Standardmäßig start\_pnt = Vektor(0,0,0,0) und dir\_normal = Vektor(0,0,1). Verwendung von dir\_normal = Vector(0,0,0,1) erzeugt die Ebene, die in Richtung der positiven z Achse zeigt, während dir\_normal = Vector(1,0,0,0) die Ebene erzeugt, die in Richtung der positiven x Achse zeigt   *
+Eine Ebene ist einfach eine flache rechteckige Fläche. Die Methode, mit der eine solche erstellt wird, ist **makePlane(length,width,\[start_pnt,dir_normal\])**\'. Standardmäßig start_pnt = Vektor(0,0,0,0) und dir_normal = Vektor(0,0,1). Verwendung von dir_normal = Vector(0,0,0,1) erzeugt die Ebene, die in Richtung der positiven z Achse zeigt, während dir_normal = Vector(1,0,0,0) die Ebene erzeugt, die in Richtung der positiven x Achse zeigt   *
 
 
 ```python
@@ -459,7 +459,7 @@ ist ein Quader, der die Ebene mit einer Diagonale beginnend bei (3,0,0,0) und en
 
 <div class="mw-translate-fuzzy">
 
-Hinweis   * `makePlane()` akzeptiert nur `Base.Vector()` für start\_pnt und dir\_normal, nicht aber Tupel.
+Hinweis   * `makePlane()` akzeptiert nur `Base.Vector()` für start_pnt und dir_normal, nicht aber Tupel.
 
 
 </div>

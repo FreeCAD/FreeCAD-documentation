@@ -7,12 +7,12 @@ Cette page contient des liens relatifs à FreeCAD et à d\'autres projets FLOSS.
 
 -   [GitHub](https   *//github.com/FreeCAD/FreeCAD) Le code FreeCAD et les fichiers de version sont hébergés sur GitHub.
 -   [SourceForge](http   *//sourceforge.net/projects/free-cad) FreeCAD était auparavant hébergé sur SourceForge.
--   [Debian](http   *//packages.debian.org/freecad) Informations sur le paquet Debian
--   [Ubuntu](http   *//packages.ubuntu.com/freecad) Informations sur le package Ubuntu
--   [Slackware](http   *//slackbuilds.org/repository/14.2/graphics/FreeCAD/) Informations sur le package Slackware
--   [Gentoo](http   *//gpo.zugaina.org/media-gfx/freecad) Informations sur le paquet Gentoo
--   [OpenSUSE](https   *//software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD) Informations sur le package openSUSE
--   [Freenode](irc   *//chat.freenode.net/#freecad) Le canal IRC officiel \#freecad sur Freenode
+-   [Debian](http   *//packages.debian.org/freecad) Informations sur les paquets Debian
+-   [Ubuntu](http   *//packages.ubuntu.com/freecad) Informations sur les paquets Ubuntu
+-   [Slackware](http   *//slackbuilds.org/repository/14.2/graphics/FreeCAD/) Informations sur les paquets Slackware
+-   [Gentoo](http   *//gpo.zugaina.org/media-gfx/freecad) Informations sur les paquets Gentoo
+-   [OpenSUSE](https   *//software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD) Informations sur les paquets openSUSE
+-   [Freenode](irc   *//chat.freenode.net/#freecad) Le canal IRC officiel #freecad sur Freenode
 -   [Facebook](http   *//www.facebook.com/FreeCAD) La page Facebook officielle de FreeCAD
 
 ### Autres logiciels de CAO 
@@ -22,7 +22,7 @@ Cette page contient des liens relatifs à FreeCAD et à d\'autres projets FLOSS.
 -   [Heekscad](https   *//github.com/Heeks) une application CAD/CAM basée sur OpenCasCade et WxWidgets
 -   [Narocad](http   *//narocad.com/) un autre projet basé sur OpenCasCade, uniquement pour windows
 -   [Salome](http   *//www.salome-platform.org/) plus qu\'un système FEM, possède également un cadre de modélisation
--   [PythonOCC](http   *//www.pythonocc.org/) fixations complète en Python pour OpenCasCade, avec leurs propre constructeur de GUI
+-   [PythonOCC](http   *//www.pythonocc.org/) interfaces complètes en Python pour OpenCasCade, avec un constructeur d\'interface graphique propre.
 -   [PythonCAD](http   *//pythoncad.sourceforge.net/dokuwiki/doku.php) une simple application de Cao 2D programmée en Python
 -   [LibreCAD](http   *//librecad.org/cms/home.html) un projet de CAO 2D basé sur [QCad](http   *//www.qcad.org)
 
@@ -40,8 +40,8 @@ Cette page contient des liens relatifs à FreeCAD et à d\'autres projets FLOSS.
 
 ### Math
 
--   [NumPy](http   *//numpy.scipy.org/) Scientific computing en Python (les commandes de base sont très similaires à [MATLAB](http   *//fr.wikipedia.org/wiki/MATLAB)).
--   [matplotlib](http   *//matplotlib.sourceforge.net/) Bibliothèque traceur 2D en Python (habituellement utilisé en conjonction avec [NumPy](http   *//numpy.scipy.org/)).
+-   [NumPy](http   *//numpy.scipy.org/) calcul scientifique en Python (commandes de base très similaires à celles de MATLAB).
+-   [matplotlib](http   *//matplotlib.sourceforge.net/) bibliothèque en Python de traçage 2D (généralement utilisée conjointement avec [NumPy](http   *//numpy.scipy.org/)).
 -   [Octave](http   *//www.gnu.org/software/octave/) puissant clone de MATLAB.
 
 ## Autres listes de projets FLOSS 

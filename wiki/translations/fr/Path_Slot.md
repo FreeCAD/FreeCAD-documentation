@@ -24,11 +24,11 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
 1.  Sélectionner la géométrie de référence sur le modèle    *.
     -   une ou plusieurs faces ou arêtes.
     -   deux sommets.
-    -   \'\'\' \'\' rien \'\' \'\' pour utiliser deux points personnalisés saisis dans la vue Propriété de l\'onglet Données    * Custom Point1 et Custom Point2.
+    -   *\'* rien pour utiliser deux points personnalisés saisis dans la vue Propriété de l\'onglet Données    * Custom Point1 et Custom Point2.
 2.  Lancez la commande Rainure en utilisant plusieurs méthodes    *
     -   En appuyant sur la touche **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans la barre d\'outils.
 
-\#\* En utilisant **Path** → **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans le menu supérieur.
+#\* En utilisant **Path** → **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans le menu supérieur.
 
 1.  Ajustez les propriétés souhaitées. Les descriptions des propriétés disponibles se trouvent ci-dessous.
 
@@ -40,8 +40,8 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
     -   Activez la propriété \Reverse Direction\ pour inverser la direction du chemin de coupe.
 
 -   Fentes linéaires   *
-    -   Actuellement, il n\'est pas possible de décaler les fentes linéaires latéralement (parallèlement à la trajectoire de déplacement). \'\' **Exemple   *** \'\' Supposons que vous ayez un diamètre d\'outil inférieur à la largeur de la zone de rainure que vous effacez. Le comportement actuel de cette opération est de créer un chemin de fente unique au centre de la fente désignée, ce qui aura pour résultat que la zone de fente ne sera pas complètement effacée. Certains utilisateurs souhaiteraient que l\'opération crée plusieurs chemins décalés latéralement pour effacer toute la zone de logement; cette opération n\'est pas prévue, alors - utilisez l\'opération Pocket pour un tel effacement.
-    -   Créez une fente linéaire personnalisée en utilisant les propriétés \Custom Point1\ et \Custom Point2\ sans sélection de géométrie. \'\' **Exemple   *** \'\' Lancez une opération de slot dans l\'interface graphique et cliquez sur \OK\ pour enregistrer. Recherchez et modifiez maintenant les propriétés \Custom Point1\ et \Custom Point2\ dans l\'onglet Data de l\'opération Slot nouvellement créée. Recalculez l\'opération pour mettre à jour le chemin.
+    -   Actuellement, il n\'est pas possible de décaler les fentes linéaires latéralement (parallèlement à la trajectoire de déplacement). ***Exemple   **** Supposons que vous ayez un diamètre d\'outil inférieur à la largeur de la zone de rainure que vous effacez. Le comportement actuel de cette opération est de créer un chemin de fente unique au centre de la fente désignée, ce qui aura pour résultat que la zone de fente ne sera pas complètement effacée. Certains utilisateurs souhaiteraient que l\'opération crée plusieurs chemins décalés latéralement pour effacer toute la zone de logement; cette opération n\'est pas prévue, alors - utilisez l\'opération Pocket pour un tel effacement.
+    -   Créez une fente linéaire personnalisée en utilisant les propriétés \Custom Point1\ et \Custom Point2\ sans sélection de géométrie. ***Exemple   **** Lancez une opération de slot dans l\'interface graphique et cliquez sur \OK\ pour enregistrer. Recherchez et modifiez maintenant les propriétés \Custom Point1\ et \Custom Point2\ dans l\'onglet Data de l\'opération Slot nouvellement créée. Recalculez l\'opération pour mettre à jour le chemin.
 
 -   Arc/fentes circulaires   *
     -   Création de rainures en arc/circulaire
@@ -53,7 +53,7 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
 
 ## Propriétés
 
-\'\'\' *Remarque* \'\'\'   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
+***Remarque***   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
 
 {{TitleProperty|Base}}

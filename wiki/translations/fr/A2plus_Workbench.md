@@ -142,7 +142,7 @@ Avec l\'outil <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width  
 
 ## Listes de pièces 
 
-Pour créer des listes de pièces d\'assemblages, les différentes pièces de l\'assemblage doivent obtenir des informations sur les pièces pouvant être lues par A2plus. Ceci est fait en éditant la pièce en utilisant le bouton de la barre d'outils <img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">. Dans la partie ouverte, appuyez sur le bouton de la barre d'outils <img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> et une [feuille de calcul](Spreadsheet_Workbench/fr.md) portant le nom *\#PARTINFO\#* est créée.
+Pour créer des listes de pièces d\'assemblages, les différentes pièces de l\'assemblage doivent obtenir des informations sur les pièces pouvant être lues par A2plus. Ceci est fait en éditant la pièce en utilisant le bouton de la barre d'outils <img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">. Dans la partie ouverte, appuyez sur le bouton de la barre d'outils <img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> et une [feuille de calcul](Spreadsheet_Workbench/fr.md) portant le nom *#PARTINFO#* est créée.
 
 La structure de la feuille de calcul est la suivante    *
 
@@ -150,7 +150,7 @@ La structure de la feuille de calcul est la suivante    *
 
 Remplissez les champs gris avec les informations que vous avez et que vous souhaitez inclure dans la liste de pièces finale.
 
-Dans l\'assemblage ou le sous-assemblage, utilisez le bouton de la barre d\'outils <img alt="" src=images/A2p_PartsList.svg  style="width   *24px;">. Il vous demandera si vous souhaitez effectuer une itération récursive sur tous les sous-assemblages. Cliquez sur \"Oui\". Cela crée une nouvelle feuille de calcul avec le nom *\#PARTSLIST\#*. Il contient les informations des différentes feuilles de calcul *\#PARTSINFO\#* des pièces dans une liste comme celle-ci    *
+Dans l\'assemblage ou le sous-assemblage, utilisez le bouton de la barre d\'outils <img alt="" src=images/A2p_PartsList.svg  style="width   *24px;">. Il vous demandera si vous souhaitez effectuer une itération récursive sur tous les sous-assemblages. Cliquez sur \"Oui\". Cela crée une nouvelle feuille de calcul avec le nom *#PARTSLIST#*. Il contient les informations des différentes feuilles de calcul *#PARTSINFO#* des pièces dans une liste comme celle-ci    *
 
 ![](images/A2p_PartslistTable.png )
 
@@ -329,7 +329,7 @@ Les animations de glissement sont interactives. Vous les déclenchez en faisant 
 4.  Vous pouvez maintenant déplacer la souris et la pièce suivra le mouvement de la souris dans les contraintes définies.
 5.  Pour terminer le mode de glissement, faites un clic gauche dans l\'assemblage ou appuyez sur ÉCHAP.
 
-Voici un exemple d\'assemblage pour tester l\'animation de glissement   * [A2p\_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
+Voici un exemple d\'assemblage pour tester l\'animation de glissement   * [A2p_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
 
@@ -352,12 +352,12 @@ Il est également possible de modifier au lieu d\'un paramètre de placement une
 
 #### Exemple simple de script 
 
-La façon la plus simple de scénariser une animation est une animation non interactive qui suit un mouvement défini. Voici un exemple    * Téléchargez d\'abord ce fichier d\'assemblage    * [A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) et aussi ce script Python    * [A2p\_animation-exemple-script.py](https   *//forum.freecadweb.org/download/file.php?id=97981).
+La façon la plus simple de scénariser une animation est une animation non interactive qui suit un mouvement défini. Voici un exemple    * Téléchargez d\'abord ce fichier d\'assemblage    * [A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) et aussi ce script Python    * [A2p_animation-exemple-script.py](https   *//forum.freecadweb.org/download/file.php?id=97981).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-Contenu du script. Les lignes commençant par un \'\#\' décrivent ce que font les différentes lignes de script   *
+Contenu du script. Les lignes commençant par un \'#\' décrivent ce que font les différentes lignes de script   *
 
 
 <div class="mw-collapsible-content">
@@ -428,7 +428,7 @@ Le premier exemple de script a montré comment créer une animation sans rétroa
 
 Cela peut être fait en utilisant une boîte de dialogue d\'animation personnalisée avec un curseur. En déplaçant le curseur, vous pouvez définir l\'angle de rotation et donc faire pivoter d\'avant en arrière à une position intéressante.
 
-Nous utilisons le même fichier d\'assemblage   *[A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) et ce script Python   * [A2p\_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97982).
+Nous utilisons le même fichier d\'assemblage   *[A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) et ce script Python   * [A2p_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97982).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

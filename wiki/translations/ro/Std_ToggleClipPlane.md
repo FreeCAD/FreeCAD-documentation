@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Un \'\'\'plan de secționare \'\'\' este un plan care împarte volumul obiectului în două jumătăți. Toate părțile obiectului dintr-un jumătate de spațiu sunt vizibile, părțile din celălalt spațiu al jumătății sunt invizibile. Obiectele arată ca niște felii și detaliile interiorului devin vizibile. Planul de tăiere este activat de meniul [ View](Std_View_Menu.md) → **Clipping plane**.
+Un **plan de secționare** este un plan care împarte volumul obiectului în două jumătăți. Toate părțile obiectului dintr-un jumătate de spațiu sunt vizibile, părțile din celălalt spațiu al jumătății sunt invizibile. Obiectele arată ca niște felii și detaliile interiorului devin vizibile. Planul de tăiere este activat de meniul [ View](Std_View_Menu.md) → **Clipping plane**.
 
 
 </div>

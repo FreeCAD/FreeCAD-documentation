@@ -65,7 +65,7 @@ A titre de comparaison, vous pouvez regarder les post-processeurs qui sont fourn
 
 Cet article traite de certains éléments internes des postprocesseurs linuxcnc. La même structure est également utilisée dans d\'autres postprocesseurs.
 
-En regardant le fichier linux\_cnc\_post.py, vous verrez la fonction d\'exportation (à partir du 0.19.20514, elle se trouve à la ligne 156)
+En regardant le fichier linux_cnc_post.py, vous verrez la fonction d\'exportation (à partir du 0.19.20514, elle se trouve à la ligne 156)
 
 
 ```python

@@ -6,7 +6,7 @@
 This workbench creates   *
 
 -   Parametric pyramids
--   Parametric polyhedrons   * tetrahedron, hexahedron, octahedron, dodecahedron, icosahedron, icosahedron\_truncated
+-   Parametric polyhedrons   * tetrahedron, hexahedron, octahedron, dodecahedron, icosahedron, icosahedron_truncated
 -   Geodesic spheres (with divisions 1 to 10)
 
 Parameters like radius and side, \...can be adjusted just like with normal parts

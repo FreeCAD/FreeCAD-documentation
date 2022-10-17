@@ -36,7 +36,7 @@ Trouver le bon rayon peut nécessiter des tests. Cela dépend de la longueur des
 
 Icône de la barre d\'outils ![](images/Hilbert_curve_icon.png )
 
-**Macro\_HilbertCurve.FCMacro**
+**Macro_HilbertCurve.FCMacro**
 
 
 {{MacroCode|code=

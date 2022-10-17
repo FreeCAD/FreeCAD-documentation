@@ -1,5 +1,5 @@
 # Install on Mac
-1.  REDIRECT [Installing\_on\_Mac](Installing_on_Mac.md)
+1.  REDIRECT [Installing_on_Mac](Installing_on_Mac.md)
 
 
 

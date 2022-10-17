@@ -4,7 +4,7 @@
    Name/fr   *FEM Contrainte de température
    MenuLocation   *Modèle → Contraintes thermiques → Contrainte de température
    Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintTemperature/fr
@@ -15,7 +15,7 @@ Crée une contrainte FEM pour une condition de limite de température.
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande   *
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [Contrainte de température](FEM_ConstraintTemperature/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes thermiques → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Contrainte de température
 **
@@ -24,7 +24,7 @@ Crée une contrainte FEM pour une condition de limite de température.
 
 ### Options
 
-Par défaut, la contrainte définit une température. En utilisant l\'option **Concentrated heat Flux**, un flux de chaleur à travers la surface de la face (Watt par surface de la face) peut être spécifié.
+Par défaut, la contrainte définit une température. En utilisant l\'option **Flux de chaleur concentré**, un flux de chaleur à travers la surface de la face (Watt par surface de face) peut être spécifié.
 
 ## Remarques
 

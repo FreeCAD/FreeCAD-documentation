@@ -1,5 +1,5 @@
 # TechDraw NewAnnotation
-1.  REDIRECT [TechDraw\_Annotation](TechDraw_Annotation.md)
+1.  REDIRECT [TechDraw_Annotation](TechDraw_Annotation.md)
 
 
 

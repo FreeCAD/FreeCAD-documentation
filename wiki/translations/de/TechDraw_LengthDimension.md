@@ -344,7 +344,7 @@ rc = page.addView(dim1)
 
 <div class="mw-translate-fuzzy">
 
--   **Kantenauswahl**. Die Auswahl von Kanten kann schwierig sein. Du kannst den Auswahlbereich für Kanten mit dem Parameter \"/Mod/TechDraw/General/EdgeFuzz\" anpassen (siehe [Std\_DlgParameter](Std_DlgParameter.md)). Dies ist eine dimensionslose Zahl. Die Voreinstellung ist 10.0. Werte im Bereich von 20-30 erleichtern die Auswahl von Kanten spürbar. Große Zahlen führen zu Überlappungen mit anderen Zeichnungselementen.
+-   **Kantenauswahl**. Die Auswahl von Kanten kann schwierig sein. Du kannst den Auswahlbereich für Kanten mit dem Parameter \"/Mod/TechDraw/General/EdgeFuzz\" anpassen (siehe [Std_DlgParameter](Std_DlgParameter.md)). Dies ist eine dimensionslose Zahl. Die Voreinstellung ist 10.0. Werte im Bereich von 20-30 erleichtern die Auswahl von Kanten spürbar. Große Zahlen führen zu Überlappungen mit anderen Zeichnungselementen.
 -   **Nachkommastellen**. Bei Bemaßungen wird standardmäßig die globale Einstellung der Dezimalstellen verwendet. Diese kann über [Einstellungen](TechDraw_Preferences#Dimensions/de.md) oder durch Ändern der FormatSpec Eigenschaft geändert werden.
 -   **Mehrfache Objekte**\'. Ansichten können mehrere 3D Objekte als Quelle enthalten. Bemaßungen können auf die Geometrie von jedem Objekt in der Ansicht angewendet werden (z.B. von Objekt1.Vertex0 bis Objekt2.Vertex3).
 

@@ -97,9 +97,9 @@ template_name = "MyTemplate.svg"
 template_file = os.path.join(template_path, template_name)
 }}
 
-**parameter\_path** erhält den Pfad zum \"Verzeichnis\" innerhalb der Konfigurationsdatei, wo die Variable \"TemplateDir\" gefunden werden kann.  **template\_path** erhält den Inhalt von \"TemplateDir\", also den Pfad zum Vorlagenverzeichnis.  **template\_name** erhält den Namen der neu zu erstellenden Vorlage.
+**parameter_path** erhält den Pfad zum \"Verzeichnis\" innerhalb der Konfigurationsdatei, wo die Variable \"TemplateDir\" gefunden werden kann.  **template_path** erhält den Inhalt von \"TemplateDir\", also den Pfad zum Vorlagenverzeichnis.  **template_name** erhält den Namen der neu zu erstellenden Vorlage.
 
-Nun muss der **template\_name** noch so mit dem **template\_path** verknüpft werden, dass das Ergebnis sowohl zu unix-basierten Betriebssystemen als auch zu Windows kompatibel ist.  Dies wird mit dem Befehl \"os.path.join\" erreicht und in der Variablen **template\_file** gespeichert.
+Nun muss der **template_name** noch so mit dem **template_path** verknüpft werden, dass das Ergebnis sowohl zu unix-basierten Betriebssystemen als auch zu Windows kompatibel ist.  Dies wird mit dem Befehl \"os.path.join\" erreicht und in der Variablen **template_file** gespeichert.
 
 ### \... zum Erstellen einer leeren Seite 
 

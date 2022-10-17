@@ -87,7 +87,7 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 -    **Transition**   * transition mode. Options are *Transformed*, *Right Corner* or *Round Corner*.
 
--    **Transformation**   * \"Constant\" folosește o singură secțiune transversală. \"Multisecția\" utilizează două sau mai multe secțiuni transversale. \'\' Linear \'\', \'\' S-shape \'\' și \'\' Interpolation \'\' nu sunt în prezent funcționale.
+-    **Transformation**   * \"Constant\" folosește o singură secțiune transversală. \"Multisecția\" utilizează două sau mai multe secțiuni transversale. *Linear*, *S-shape* și *Interpolation* nu sunt în prezent funcționale.
 
 
 </div>

@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul șterge selecția din document și o plasează în clipboard. Partea tăiată poate fi inserată într-o poziție nouă folosind comanda \'\'\' Paste \'\'\'.
+Instrumentul șterge selecția din document și o plasează în clipboard. Partea tăiată poate fi inserată într-o poziție nouă folosind comanda **Paste**.
 
 
 </div>
@@ -39,8 +39,8 @@ Același rezultat poate fi obținut prin utilizarea butoanelor din bara de instr
 Pentru [select](Draft_Select/it.md) mai multe obiecte   *
 
 -   folosiți tasta {{KEY/it|CTRL}} făcând clic pe funcțiile pe care doriți să le copiați,
--   sau în meniul \'\'\'Editați *\' utilizați elementul*\'Caseta de selectare \'\'\' pentru a selecta obiectele incluse într-o anumită zonă,
--   sau în meniul \'\'\'Edit \'\'\' utilizați intrarea {{KEY | [ <img src=images/_Std_SelectAll.png  style="width   *16px"> Selectați toate}} pentru a selecta întregul document.
+-   sau în meniul **Editați** utilizați elementul**Caseta de selectare** pentru a selecta obiectele incluse într-o anumită zonă,
+-   sau în meniul **Edit** utilizați intrarea {{KEY | [ <img src=images/_Std_SelectAll.png  style="width   *16px"> Selectați toate}} pentru a selecta întregul document.
 
 
 </div>

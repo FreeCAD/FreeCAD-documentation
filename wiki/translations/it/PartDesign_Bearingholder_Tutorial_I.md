@@ -29,7 +29,7 @@ Questa è la prima parte del tutorial. Usa il flusso di lavoro che può essere c
 
 Ovviamente, per seguire questo tutorial è necessario attivare l\'ambiente PartDesign.
 
-~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a [http   *//ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa questo link](http   *//ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_questo_link.md).~~ \'\' Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento \'\'.
+~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a [http   *//ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa questo link](http   *//ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_questo_link.md).~~ *Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento*.
 
 ## Dati di progetto 
 
@@ -102,7 +102,7 @@ Come per lo sformo, in una parte complessa si dovrebbe eseguire il raccordo su u
 -   Se si spostano i piani scheletro di riferimento, allora sia la geometria solida che la lavorazione si adatteranno automaticamente.
 -   Se si commette un errore nella geometria solida la lavorazione è ancora nella posizione corretta e molto probabilmente l\'errore diventa lampante (ad esempio lo spessore della parete che diventa di 2 mm invece che di 5 mm). Invece, se si riferisce la lavorazione alla geometria solida, ci si adatterà all\'errore del solido e, ad esempio si mantiene lo spessore di 5 mm, proprio nello stesso posto sbagliato, come è nel solido.
 
-Prima di iniziare a lavorare sulla geometria di lavorazione, mi piace mettere un punto di riferimento nella struttura ad albero e dargli un nome simile a \"La\_lavorazione\_inizia\_qui\". Questo è utile se si desidera passare dallo stato grezzo allo stato lavorato della parte perché si può vedere a colpo d\'occhio dove posizionarsi per essere nello stato grezzo.
+Prima di iniziare a lavorare sulla geometria di lavorazione, mi piace mettere un punto di riferimento nella struttura ad albero e dargli un nome simile a \"La_lavorazione_inizia_qui\". Questo è utile se si desidera passare dallo stato grezzo allo stato lavorato della parte perché si può vedere a colpo d\'occhio dove posizionarsi per essere nello stato grezzo.
 
 Per lavorare il fondo del supporto, disegnare semplicemente un grande rettangolo nel piano XZ e con esso eseguire uno scavo. Per la parte superiore, disegnare un cerchio sul piano di riferimento che definisce la posizione della testa del bullone, con esso eseguire uno scavo e quindi rispecchiare lo scavo sul piano YZ. Nello stesso modo, creare uno scavo per il foro attraverso cui passerà il bullone e poi rifletterlo. Per la lavorazione all\'interno del supporto, creare uno schizzo sul piano YZ e con esso eseguire una scanalatura.
 <img alt="La parte finita" src=images/HolderTop1-1.jpg  style="width   *400px;"> Dopo aver concluso la lavorazione, si può ottenere un piacevole effetto visivo colorando tutte le superfici lavorate in modo che si possa vedere a colpo d\'occhio quali parti sono getto grezzo e quali sono lavorate dopo la fusione.

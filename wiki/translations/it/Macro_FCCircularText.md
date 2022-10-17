@@ -89,7 +89,7 @@ Dopo il primo utilizzo, è possibile modificare i parametri vedere   *
 
 **setSystemFonts**
 
--   0 = matplotlib.font\_manager.findSystemFonts (\"C   */\", \"ttf\")
+-   0 = matplotlib.font_manager.findSystemFonts (\"C   */\", \"ttf\")
 -   fare tutti i caratteri (in tutte le cartelle e sottocartelle del DD) tempo !!
 -   1 = fontman.findSystemFonts (self.pathFont)
 -   esegue tutti i caratteri nella directory (e in tutte le sottocartelle)
@@ -184,7 +184,7 @@ Image   *FCCircularText 20.png\|**Outdoor** esterno Image   *FCCircularText 21.p
 
 <center>
 
-Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** Il testo è disposto verticale, leggibile dall\'esterno. Image   *FCCircularText\_40.png\|**Mode Flat** **Outdoor** Il testo è posizionato orizzontale, leggibile dall\'esterno.
+Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** Il testo è disposto verticale, leggibile dall\'esterno. Image   *FCCircularText_40.png\|**Mode Flat** **Outdoor** Il testo è posizionato orizzontale, leggibile dall\'esterno.
 
 
 </center>
@@ -192,7 +192,7 @@ Image   *FCCircularText 01.png\|**Mode Stand** **Outdoor** Il testo è disposto 
 
 <center>
 
-Image   *FCCircularText 39.png\|**Mode Flat** **Indoor** Il testo è orizzontale, leggibile dall\'interno. Image   *FCCircularText\_03.png\|**Mode Stand** **Indoor** Il testo è verticale, leggibile dall\'interno.
+Image   *FCCircularText 39.png\|**Mode Flat** **Indoor** Il testo è orizzontale, leggibile dall\'interno. Image   *FCCircularText_03.png\|**Mode Stand** **Indoor** Il testo è verticale, leggibile dall\'interno.
 
 
 </center>
@@ -272,7 +272,7 @@ Image   *FCCircularText 22.png\| **Helix** Image   *FCCircularText 33.png\| Imag
 
 -   Tutte le opzioni di configurazione dei caratteri sono disponibili.
 -   **Step of helix** passo dell\'elica
--   \'\'\'Char. per turn \'\'\' numero di caratteri per ogni spira dell\'elica.
+-   **Char. per turn** numero di caratteri per ogni spira dell\'elica.
 
 
 
@@ -280,7 +280,7 @@ Image   *FCCircularText 22.png\| **Helix** Image   *FCCircularText 33.png\| Imag
 ![](images/FCCircularText_15.png )
 
 -   Se **Step of helix** (passo dell\'elica) è zero, i campi **Base Helix** e **End Helix** sono attivi.
--   **Base Helix** fornisce la base per iniziare l\'elica (anche Placement Z). Se \'\' \'Placement Z\' \'\' è diverso da zero, il punto di partenza viene aggiunto a Placement Z.
+-   **Base Helix** fornisce la base per iniziare l\'elica (anche Placement Z). Se *\'Placement Z\'* è diverso da zero, il punto di partenza viene aggiunto a Placement Z.
 -   **End Helix** Fine di passo dell\'elica che è calcolato rispetto all\'altezza e al numero di caratteri per spira.
 
 ##### Orologio
@@ -316,7 +316,7 @@ Image   *FCCircularText 23.png\|**Clock** Image   *FCCircularText 35.png\|**Axia
 ![](images/FCCircularText_19.png )
 
 -   **Radius of support**    * Se viene dato un valore, viene creato un supporto (default 0).
--   Se **Support number face** è diverso da zero viene creato un supporto. Se \'\'\'Extrude support \'\'\'= zero viene creata una faccia.
+-   Se **Support number face** è diverso da zero viene creato un supporto. Se **Extrude support**= zero viene creata una faccia.
     -   1 = Viene creato un cerchio. Appare un cerchio.
     -   2 = Viene creato un rettangolo. Lunghezza = (Radius of media \* 1.5) width = Radius of support. Appare un rettangolo.
     -   3 = Viene creato un triangolo circoscritto. Appare un triangolo.
@@ -419,7 +419,7 @@ Alcuni parametri sono disponibili nei parametri di FreeCAD vedere   ***Menu → 
         -   
             `False`
             
-            matplotlib.font\_manager.findSystemFonts (\"C   * /\", \"ttf\") fare tutti i caratteri (in tutte le cartelle e sottocartelle dell\'HD) tempo !!
+            matplotlib.font_manager.findSystemFonts (\"C   * /\", \"ttf\") fare tutti i caratteri (in tutte le cartelle e sottocartelle dell\'HD) tempo !!
 
         -   
             `True`
@@ -492,11 +492,11 @@ Per maggiori informazioni vedere [Personalizzare la barra degli strumenti](Custo
 
 ### Vedi il Codice 
 
-**Macro\_Circular\_Text.FCMacro**
+**Macro_Circular_Text.FCMacro**
 
 o tele carica lo script    *
 
-\- on github [Macro\_FCCircularText.FCMacro](https   *//gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
+\- on github [Macro_FCCircularText.FCMacro](https   *//gist.github.com/mario52a/a25e802498bae6959335) ver 0.21 2022/05/31
 
 \- o dal forum [Extrude from curved surface of cylinder](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
 
@@ -550,7 +550,7 @@ Image   *FCCircularText 29.png\|Interno e sottratto. Image   *FCCircularText 31.
 
 <center>
 
-Image   *FCCircularText 32.png\|interno e sottratto. Image   *FCCircularText 41.png\|Estrusione su un cono con \'\'\'Sp. Inclination \'\'\' di 45° sull\'asse Z.
+Image   *FCCircularText 32.png\|interno e sottratto. Image   *FCCircularText 41.png\|Estrusione su un cono con **Sp. Inclination** di 45° sull\'asse Z.
 
 
 </center>
@@ -568,7 +568,7 @@ Image   *FCCircularText 42.png\|Anello, interno alla curva con sottrazione. Imag
 
 <center>
 
-Image   *FCCircularText\_Path\_00\_002\_000.png\| {{CheckBox|TRUE|Word}} Il testo sta tagliando sul carattere dello spazio
+Image   *FCCircularText_Path_00_002_000.png\| {{CheckBox|TRUE|Word}} Il testo sta tagliando sul carattere dello spazio
 
 
 </center>
@@ -666,7 +666,7 @@ Image   *FCCircularText 59.png\|Selezionare Ellisse estruso e il Cut (testo) e p
 
 <center>
 
-Image   *FCCircularText\_Path\_00\_Orth\_Base\_000.png\|Testo su BoundBox Base (normale) Image   *FCCircularText\_Path\_00\_Orth\_Center\_000.png\|Testo sul carattere BoundBox Center
+Image   *FCCircularText_Path_00_Orth_Base_000.png\|Testo su BoundBox Base (normale) Image   *FCCircularText_Path_00_Orth_Center_000.png\|Testo sul carattere BoundBox Center
 
 
 </center>
@@ -675,7 +675,7 @@ Image   *FCCircularText\_Path\_00\_Orth\_Base\_000.png\|Testo su BoundBox Base (
 
 <center>
 
-Image   *FCCircularText\_Path\_00\_Orth\_Top\_000.png\|Testo su BoundBox Carattere superiore Image   *FCCircularText\_Path\_00\_001\_000\_000.png\|Testo sulla riga selezionata   *
+Image   *FCCircularText_Path_00_Orth_Top_000.png\|Testo su BoundBox Carattere superiore Image   *FCCircularText_Path_00_001_000_000.png\|Testo sulla riga selezionata   *
 1   * Orthogonal
 2   * Tangent
 
@@ -689,7 +689,7 @@ Image   *FCCircularText\_Path\_00\_Orth\_Top\_000.png\|Testo su BoundBox Caratte
 
 (PS   * è possibile che si verifichi un errore tra le versioni. Pubblica il problema sul forum e attendi la correzione aggiornata o il rollback a una versione precedente della macro. Grazie)
 
-È possibile che due caratteri si sovrappongano, qui un piccolo rimedio con [Macro\_Rotate\_To\_Point](https   *//www.freecadweb.org/wiki/Macro_Rotate_To_Point)
+È possibile che due caratteri si sovrappongano, qui un piccolo rimedio con [Macro_Rotate_To_Point](https   *//www.freecadweb.org/wiki/Macro_Rotate_To_Point)
 
 
 <center>

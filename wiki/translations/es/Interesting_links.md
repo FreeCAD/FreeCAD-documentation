@@ -31,7 +31,7 @@ Esta página contiene algunos enlaces útiles a otros recursos FLOSS y recursos 
 
 [openSUSE](https   *//software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD) Información del paquete openSUSE
 
--   [Freenode](irc   *//chat.freenode.net/#freecad) El canal de IRC oficial \#freecad en Freenode
+-   [Freenode](irc   *//chat.freenode.net/#freecad) El canal de IRC oficial #freecad en Freenode
 -   [Facebook](http   *//www.facebook.com/FreeCAD) La página oficial de FreeCAD en Facebook
 -   [Archivo de guión para la construcción en Pardus Linux (enlace obsoleto, 09/2020)](https   *//svn.pardus.org.tr/pardus/playground/kaan.aksit/2011/freecad/actions.py)
 

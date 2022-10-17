@@ -25,7 +25,7 @@ Quando viene eseguita, la Macro presenta all\'utente la finestra di dialogo che 
 
 ToolBar Icon ![](images/Part_Prism_Apothem.svg )
 
-**Macro\_Apothem\_Based\_Prism\_GUI.FCMacro**
+**Macro_Apothem_Based_Prism_GUI.FCMacro**
 
 
 {{MacroCode|code=

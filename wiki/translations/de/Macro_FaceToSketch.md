@@ -19,7 +19,7 @@ Dieses Makro zerlegt deine Form mit der Funktion **<img src="images/Draft_Downgr
 
 Werkzeugleistensymbol ![](images/Macro_FaceToSketch.png )
 
-**Macro\_FaceToSketch.FCMacro**
+**Macro_FaceToSketch.FCMacro**
 
 
 {{MacroCode|code=

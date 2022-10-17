@@ -28,14 +28,14 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 ### Utilisation pour une dimension linéaire 
 
-1.  Sélectionnez éventuellement une règle dans la [Vue 3D](3D_view/fr.md).
-2.  Il existe plusieurs façons d\'invoquer la commande    *
+1.  Sélectionnez une arête droite dans la [Vue 3D](3D_view/fr.md).
+2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Dimension.svg" width=16px> [Dimension](Draft_Dimension/fr.md)**.
     -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez les raccourcis clavier    * **D** puis **I**.
 3.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'arête, effectuez l\'une des opérations suivantes    *
-    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> sélection d'un bord** et sélectionnez une arête droite dans la [Vue 3D](3D_view/fr.md).
+    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une arête droite dans la [Vue 3D](3D_view/fr.md).
     -   Maintenez la touche **Alt** enfoncée, sélectionnez une arête droite dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
     -   Définissez la distance mesurée en choisissant des points    *
         -   Choisissez un premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
@@ -44,7 +44,7 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
     -   Pour une cote alignée    *
         -   Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
     -   Pour une dimension horizontale    *
-        -   Déplacez le pointeur au-dessus ou au-dessous du bord ou des points.
+        -   Déplacez le pointeur au-dessus ou au-dessous de l\'arête ou des points.
         -   Maintenez la touche **Shift** enfoncée, déplacez le pointeur et choisissez un point dans la [Vue 3D](3D_view/fr.md).
     -   Pour une dimension verticale    *
         -   Déplacez le pointeur à gauche ou à droite de l\'arête ou des points.
@@ -52,14 +52,14 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
 
 ### Utilisation pour une dimension radiale 
 
-1.  Sélectionnez éventuellement un bord circulaire dans la [Vue 3D](3D_view/fr.md).
-2.  Il existe plusieurs façons d\'invoquer la commande    *
+1.  Sélectionnez éventuellement une arête circulaire dans la [Vue 3D](3D_view/fr.md).
+2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Dimension.svg" width=16px> [Dimension](Draft_Dimension/fr.md)**.
     -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez le raccourci clavier    * **D** puis **I**.
 3.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'arête, effectuez l\'une des opérations suivantes    *
-    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> sélection d'un bord** et sélectionnez une arête circulaire dans la [Vue 3D](3D_view/fr.md).
+    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une arête circulaire dans la [Vue 3D](3D_view/fr.md).
     -   Maintenez la touche **Alt** enfoncée, sélectionnez une arête circulaire dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
 5.  Pour positionner la ligne de cote, effectuez l\'une des opérations suivantes    *
     -   Pour une cote de diamètre    *
@@ -74,7 +74,9 @@ Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Sn
     -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez le raccourci clavier    * **D** puis **I**.
 2.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Maintenez la touche **Alt** enfoncée, sélectionnez deux arêtes droites dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
+3.  Faites l\'une des choses suivantes    *
+    -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une première arête droite dans la [Vue 3D](3D_view/fr.md). Répétez cette opération pour sélectionner une deuxième arête droite.
+    -   Maintenez la touche **Alt** enfoncée, sélectionnez deux arêtes droites dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
 4.  Pour positionner l\'arc de cotes, sélectionnez un point dans la [Vue 3D](3D_view/fr.md).
 5.  L\'angle affiché dépend des bords et du point choisi.
 
@@ -94,7 +96,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 ### Utilisation
 
 1.  Sélectionnez un ou plusieurs objets [Std Mesurer une distance](Std_MeasureDistance/fr.md).
-2.  Il existe plusieurs façons d\'invoquer la commande    *
+2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le **<img src="images/Draft_Dimension.svg" width=16px> [Dimension](Draft_Dimension/fr.md)**.
     -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez le raccourci clavier    * **D** puis **I**.
@@ -102,7 +104,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Remarques
 
--   Les Draft Dimensions linéaires et radiales peuvent être éditées avec la commande [Draft Editer](Draft_Edit/fr.md).
+-   Les Draft Dimensions linéaires et radiales peuvent être modifiées avec la commande [Draft Editer](Draft_Edit/fr.md).
 
 ## Propriétés
 

@@ -303,7 +303,7 @@ This specifies that rendering should happen in the background with `-b`; the ren
 
 Creating the intermediate Wavefront mesh (.obj) and then importing it into Blender will work in most situations. However, there is also the option of importing the FreeCAD file (.FCStd) directly into Blender by means of a plugin.
 
--   [io\_import\_fcstd.py](https   *//gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), original version for Blender 2.79
+-   [io_import_fcstd.py](https   *//gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), original version for Blender 2.79
 -   [FreeCAD .FCStd importer for Blender 2.80](https   *//gist.github.com/yorikvanhavre/680156f59e2b42df8f5f5391cae2660b)
 
 This is a Blender plugin; for it to work, Blender needs to be able to import FreeCAD as a module from the `Python Console`. 

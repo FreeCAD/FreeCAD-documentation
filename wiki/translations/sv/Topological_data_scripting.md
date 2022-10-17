@@ -514,9 +514,9 @@ Endast ytor har en area, inte trådar eller kanter.
 
 #### Hur skapar man en cirkel? 
 
-circle = Part.makeCircle(radius,\[center,dir\_normal,angle1,angle2\]) \-- Skapa en cirkel med en given radie
+circle = Part.makeCircle(radius,\[center,dir_normal,angle1,angle2\]) \-- Skapa en cirkel med en given radie
 
-Som standard är, center=Vektor(0,0,0), dir\_normal=Vektor(0,0,1), angle1=0 och angle2=360.
+Som standard är, center=Vektor(0,0,0), dir_normal=Vektor(0,0,1), angle1=0 och angle2=360.
 
 En cirkel kan skapas så här   *
 
@@ -623,7 +623,7 @@ Part.show(arc_edge)
 
 Notera   * Arc accepterar endast Base.Vector() för punkter men inte tupler.
 
-arc\_edge är vad vi vill ha, vilken vi kan visa med Part.show(arc\_edge).
+arc_edge är vad vi vill ha, vilken vi kan visa med Part.show(arc_edge).
 
 Om du vill ha en liten del av en cirkel som en cirkelbåge, så är det också möjligt   *
 
@@ -684,18 +684,18 @@ def makeBCurveEdge(Points)   *
 
 Ett plan är en platt yta, alltså en yta i 2D
 
-makePlane(length,width,\[start\_pnt,dir\_normal\]) \-- Skapa ett plan
+makePlane(length,width,\[start_pnt,dir_normal\]) \-- Skapa ett plan
 
-Som standard start\_pnt=Vector(0,0,0) och dir\_normal=Vector(0,0,1).
+Som standard start_pnt=Vector(0,0,0) och dir_normal=Vector(0,0,1).
 
-dir\_normal=Vector(0,0,1) kommer att skapa ett plan vinkelrätt mot z axeln.
+dir_normal=Vector(0,0,1) kommer att skapa ett plan vinkelrätt mot z axeln.
 
-dir\_normal=Vector(1,0,0) kommer att skapa ett plan vinkelrätt mot x axeln   *
+dir_normal=Vector(1,0,0) kommer att skapa ett plan vinkelrätt mot x axeln   *
 
 
 </div>
 
-A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start\_pnt = Vector(0, 0, 0) and dir\_normal = Vector(0, 0, 1). Using dir\_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir\_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
+A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start_pnt = Vector(0, 0, 0) and dir_normal = Vector(0, 0, 1). Using dir_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
 
 
 ```python
@@ -720,7 +720,7 @@ Här ar BoundBox tjockleken i y axeln noll.
 
 <div class="mw-translate-fuzzy">
 
-Notera   * makePlane accepterar endast Base.Vector() för start\_pnt och dir\_normal men inte tupler
+Notera   * makePlane accepterar endast Base.Vector() för start_pnt och dir_normal men inte tupler
 
 
 </div>

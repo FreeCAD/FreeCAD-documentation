@@ -1,9 +1,9 @@
 # Fcstd file format
-1.  REDIRECT [File\_Format\_FCStd](File_Format_FCStd.md)
+1.  REDIRECT [File_Format_FCStd](File_Format_FCStd.md)
 
 
 
-[Category   *Redirects](Category_Redirects.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Redirects](Category_Redirects.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

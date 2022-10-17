@@ -42,13 +42,13 @@ Pour réduire le temps nécessaire à ce tutoriel, il est obligatoire de regroup
 
 1.  Dans la **Vue Arborescente**, cliquez avec le bouton droit de la souris sur le nom du document. Dans ce cas **Sans nom** .
 2.  Sélectionnez **Créer un groupe**. Vous pouvez modifier le nom du groupe en double-cliquant sur le **Vue Arborescente**.
-3.  Sélectionnez les éléments que vous souhaitez ajouter et \'\'\'le glisser \'\'\' dans le groupe
+3.  Sélectionnez les éléments que vous souhaitez ajouter et **le glisser** dans le groupe
 
 Créez les groupes suivants   *
 
--   Draft\_objects
--   Draft\_dimensions
--   Draft\_annotations\_text
+-   Draft_objects
+-   Draft_dimensions
+-   Draft_annotations_text
 
 #### Exemples de Dessin 
 
@@ -57,7 +57,7 @@ Les modèles sont la base de la création des dessins, vous pouvez utiliser les 
 1.  Sélectionnez le menu déroulant à côté de ![ 32px](images/_Drawing_Landscape_A3.png ) [Nouveau Dessin A3 Paysage](Drawing_Landscape_A3/fr.md)
 2.  Sélectionnez **A4 Paysage**
 
-Nous avons maintenant un dossier intitulé \'\' \'Page\' \'\' dans \'\' \'\' vue Arborescente \'\'\'. Cet objet contiendra tout ce qui concerne le **Dessin**.
+Nous avons maintenant un dossier intitulé *\'Page\'* dans vue Arborescente **. Cet objet contiendra tout ce qui concerne le**Dessin\'\'\'.
 
 #### Projections
 
@@ -65,7 +65,7 @@ Les projections sont définies comme la représentation visuelle d\'un objet sur
 
 ##### Projections orthographiques 
 
-Celles-ci sont utilisées dans l\'atelier Ingénierie (en cours de développement)pour spécifier les propriétés d\'un objet qui sera usiné. Il existe deux normes communes   * les projections \'\'\' Troisième Angle \'\'\' et \'\'\'Premier Angle \'\'\'.
+Celles-ci sont utilisées dans l\'atelier Ingénierie (en cours de développement)pour spécifier les propriétés d\'un objet qui sera usiné. Il existe deux normes communes   * les projections **Troisième Angle** et **Premier Angle**.
 
 Pour ce tutoriel, ces projections ne sont pas utilisées car nos objets n\'ont qu\'une représentation significative dans le plan XY
 
@@ -84,14 +84,14 @@ Il est possible de créer des vues personnalisées de l\'objet.
 2.  Sélectionnez ![ 32px](images/_Drawing_View.png ) [ Insérer une vue](Drawing_View/fr.md)
 3.  Dans l\'onglet **Données**, éditez la **Direction** de **Shape View** en modifiant les valeurs pour les axes **X**, **Y** et **Z** . Par défaut, les valeurs sont **(0, 0, 1)**
 
-Vous pouvez également modifier l\' **Échelle** et la **rotation** de la **Vue** dans l\'onglet **Données**. La même chose peut être faite pour les \'\'\'Projections Orthographiques \'\'\'.
+Vous pouvez également modifier l\' **Échelle** et la **rotation** de la **Vue** dans l\'onglet **Données**. La même chose peut être faite pour les **Projections Orthographiques**.
 
 ##### Projections Planche à Dessin 
 
-La manière préférée d\'ajouter des éléments créés dans l\' *\' Atelier Planche à Dessin*\' c\'est avec un outil contenu dans l\' **Atelier Planche à Dessin** conçu spécifiquement pour cela. Avec cette procédure, il est possible d\'importer **Dimensions**, **Annotations**, **Shapestrings** et tout autre élément créé dans l\'Atelier **Planche à Dessin**.
+La manière préférée d\'ajouter des éléments créés dans l\' **Atelier Planche à Dessin** c\'est avec un outil contenu dans l\' **Atelier Planche à Dessin** conçu spécifiquement pour cela. Avec cette procédure, il est possible d\'importer **Dimensions**, **Annotations**, **Shapestrings** et tout autre élément créé dans l\'Atelier **Planche à Dessin**.
 
-1.  Passez à Atelier *\' Planche à Dessin*\'
-2.  Sélectionnez le **groupe** ou **éléments** que vous souhaitez projeter. Dans ce cas, **Draft\_dimensions**
+1.  Passez à Atelier **Planche à Dessin**
+2.  Sélectionnez le **groupe** ou **éléments** que vous souhaitez projeter. Dans ce cas, **Draft_dimensions**
 3.  Sélectionnez ![](images/_Draft_PutOnSheet.png ) [Dessin](Draft_Drawing/fr.md)
 4.  Modifier les coordonnées **X** \'et **Y** vers **(140, 100)**
 5.  Réglez l\'échelle à 0,5
@@ -137,4 +137,4 @@ Nous avons terminé le travail de base pour [Atelier de mise en plan ](Drawing_W
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial/fr

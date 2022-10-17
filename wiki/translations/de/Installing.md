@@ -1,5 +1,5 @@
 # Installing/de
-1.  REDIRECT [Installing\_additional\_components/de](Installing_additional_components/de.md)
+1.  REDIRECT [Installing_additional_components/de](Installing_additional_components/de.md)
 
 
 

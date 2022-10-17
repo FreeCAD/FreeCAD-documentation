@@ -12,9 +12,13 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_PointArray.svg  style="width   *24px;"> **Draft Réseau de points** crée un réseau régulier à partir d\'un objet sélectionné en plaçant des copies aux points d\'un [composé de points](#Compos.C3.A9_de_points.md). Utilisez la commande [Draft Réseau lié selon une courbe](Draft_PointLinkArray/fr.md) pour créer un réseau lié [Link](App_Link/fr.md) plus efficace. À l\'exception du type de réseau créé, réseau de liens ou réseau régulier, la commande [Draft Réseau lié selon une courbe](Draft_PointLinkArray/fr.md) est identique à cette commande.
+La commande <img alt="" src=images/Draft_PointArray.svg  style="width   *24px;"> **Draft Réseau de points** crée un réseau régulier à partir d\'un objet de base sélectionné en plaçant des copies aux points d\'un objet ponctuel. Utilisez la commande [Draft Réseau lié selon une courbe](Draft_PointLinkArray/fr.md) pour créer un réseau lié [Link](App_Link/fr.md) plus efficace. À l\'exception du type de réseau créé, réseau de liens ou réseau régulier, la commande [Draft Réseau lié selon une courbe](Draft_PointLinkArray/fr.md) est identique à cette commande.
 
-Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
+L\'objet de base peut être un objet 2D créé avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi un objet 3D tel que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
+
+L\'objet Point peut être n\'importe quel objet ayant une forme et des sommets (y compris un [Std Part](Std_Part/fr.md) contenant un ou plusieurs de ces objets), ainsi qu\'un [maillage](Mesh_Workbench/fr.md) et un [nuage de point](Points_Workbench/fr.md). Les points en double dans l\'objet point sont filtrés. {{Version/fr|1.0}}
+
+Dans {{VersionMinus|0.20}}, seuls trois types d\'objets Point sont pris en charge ; voir [Objet Point version 0.20 et inférieure](#Objet_Point_version_0.20_et_inf.C3.A9rieure.md).
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width   *400px;"> 
 *Un réseau Draft de points*
@@ -29,9 +33,9 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 4.  Le réseau est créé.
 5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
-## Composé de points 
+## Objet Point version 0.20 et inférieure 
 
-Un composé de points est un objet qui contient un ou plusieurs points. Voici les composés de points pris en charge et la façon dont ils peuvent être créés    *
+Voici les objets Point pris en charge dans {{VersionMinus/fr|0.20}} et la manière dont ils peuvent être créés    *
 
 -   [Part Composé](Part_Compound/fr.md)    * créez un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Part Composé](Part_Compound/fr.md).
 -   Draft Bloc    * créez un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Draft Agréger](Draft_Upgrade/fr.md).
@@ -89,7 +93,7 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 -    **Expand Array|Bool**   * spécifie s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
 
--    **Extra Placement|Placement**   * spécifie un [placement](Placement.md), une translation et une rotation supplémentaires pour chaque élément du réseau. {{Version/fr|0.19}}
+-    **Extra Placement|Placement**   * spécifie un [placement](Placement.md), une translation et une rotation supplémentaires pour chaque élément du réseau.
 
 -    **Point Object|Link**   * spécifie l\'objet composé dont les points sont utilisés pour positionner les éléments du réseau. L\'objet doit avoir une propriété **Links**, **Components** ou **Geometry** et contenir au moins un élément avec les propriétés **X**, **Y**, et **Z**.
 

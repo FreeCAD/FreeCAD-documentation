@@ -3,81 +3,81 @@ Cette page répertorie les modèles selon le standard American National Standard
 
 ### Arch A 
 
-#### Arch\_A\_Paysage
+#### Arch_A\_Paysage
 
 <img alt="" src=images/Arch_A_Landscape.svg  style="width   *800px;">
 
-#### Arch\_A\_Portrait
+#### Arch_A\_Portrait
 
 <img alt="" src=images/Arch_A_Portrait.svg  style="width   *800px;">
 
 ### Arch B 
 
-#### Arch\_B\_Paysage
+#### Arch_B\_Paysage
 
 <img alt="" src=images/Arch_B_Landscape.svg  style="width   *800px;">
 
-#### Arch\_B\_Portrait
+#### Arch_B\_Portrait
 
 <img alt="" src=images/Arch_B_Portrait.svg  style="width   *800px;">
 
 ### Arch C 
 
-#### Arch\_C\_Paysage
+#### Arch_C\_Paysage
 
 <img alt="" src=images/Arch_C_Landscape.svg  style="width   *800px;">
 
-#### Arch\_C\_Portrait
+#### Arch_C\_Portrait
 
 <img alt="" src=images/Arch_C_Portrait.svg  style="width   *800px;">
 
 ### Arch D 
 
-#### Arch\_D\_Paysage
+#### Arch_D\_Paysage
 
 <img alt="" src=images/Arch_D_Landscape.svg  style="width   *800px;">
 
-#### Arch\_D\_Portrait
+#### Arch_D\_Portrait
 
 <img alt="" src=images/Arch_D_Portrait.svg  style="width   *800px;">
 
 ### Arch E 
 
-#### Arch\_E\_Paysage
+#### Arch_E\_Paysage
 
 <img alt="" src=images/Arch_E_Landscape.svg  style="width   *800px;">
 
-#### Arch\_E\_Portrait
+#### Arch_E\_Portrait
 
 <img alt="" src=images/Arch_E_Portrait.svg  style="width   *800px;">
 
 ### Arch E1 
 
-#### Arch\_E1\_Paysage
+#### Arch_E1_Paysage
 
 <img alt="" src=images/Arch_E1_Landscape.svg  style="width   *800px;">
 
-#### Arch\_E1\_Portrait
+#### Arch_E1_Portrait
 
 <img alt="" src=images/Arch_E1_Portrait.svg  style="width   *800px;">
 
 ### Arch E2 
 
-#### Arch\_E2\_Paysage
+#### Arch_E2_Paysage
 
 <img alt="" src=images/Arch_E2_Landscape.svg  style="width   *800px;">
 
-#### Arch\_E2\_Portrait
+#### Arch_E2_Portrait
 
 <img alt="" src=images/Arch_E2_Portrait.svg  style="width   *800px;">
 
 ### Arch E3 
 
-#### Arch\_E3\_Paysage
+#### Arch_E3_Paysage
 
 <img alt="" src=images/Arch_E3_Landscape.svg  style="width   *800px;">
 
-#### Arch\_E3\_Portrait
+#### Arch_E3_Portrait
 
 <img alt="" src=images/Arch_E3_Portrait.svg  style="width   *800px;">
 

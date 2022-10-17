@@ -36,7 +36,7 @@ ToolBar Icon ![](images/parametric_defeaturing.svg )
 
 ## Script
 
-**Macro parametric\_defeaturing.FCMacro**
+**Macro parametric_defeaturing.FCMacro**
 
 
 {{CodeDownload|https   *//gist.github.com/mwganson/0d55a5c51b1d6ff488b7a2f62bf50656|parametric_defeaturing.FCMacro}}

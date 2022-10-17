@@ -7,7 +7,7 @@
 
 ### Related links 
 
--   [Ticket \#2584](https   *//freecadweb.org/tracker/view.php?id=2584) - Support for SweetHome3D xml-based files
+-   [Ticket #2584](https   *//freecadweb.org/tracker/view.php?id=2584) - Support for SweetHome3D xml-based files
 -   [How to quickly create your floor plan in Sweet Home 3D](https   *//www.youtube.com/watch?v=QAAYHTuqm9M)
 -   [FC forum thread discussing SH3D](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=23965)
 -   [Thread on SH3D forums](http   *//www.sweethome3d.com/support/forum/viewthread_thread,6708_offset,25) regarding FreeCAD

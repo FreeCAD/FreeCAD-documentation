@@ -33,8 +33,8 @@ Puteți învăța mai mult despre vapoare [FreeCAD-Ship here](Ship_Workbench.md)
 OMI (Organizația Maritimă Internațională) stabilește următoarele criterii   *
 
 -   \"GM\"\> = 0,15 m. \'GM\' \'(înălțimea metacentrică) este tangenta inițială a curbei\' \'GZ\' \'.
--   Valoarea maximă \'\' GZ \'\' trebuie plasată peste 30 de grade de unghi de rulare.
--   Cu un unghi de rotire de 30 de grade, valoarea \'\' GZ \'\' trebuie să fie de cel puțin 0,2 m.
+-   Valoarea maximă *GZ* trebuie plasată peste 30 de grade de unghi de rulare.
+-   Cu un unghi de rotire de 30 de grade, valoarea *GZ* trebuie să fie de cel puțin 0,2 m.
 -   Zona implicată de curba \"GZ\" până la 40 de grade de unghi de rulare trebuie să fie de cel puțin 0,090 m.
 -   Zona implicată de curba \"GZ\" până la 30 de grade de unghi de rulare trebuie să fie de cel puțin 0,055 m.
 -   Zona implicată de curba \"GZ\" de la 30 la 40 de grade de unghi de rulare trebuie să fie de cel puțin 0,030 m · rad.
@@ -136,7 +136,7 @@ Trebuie să editați caseta, așa că o selectăm pe arborele **Atribute și eti
 
 </div>
 
-Geometria rezervoarelor va fi o parte comună a cadrului creat și a geometriei navei, astfel încât să putem ascunde exemplul**Ship** și să arătăm geometria \'\'\'s60\_IowaUniversity \'\'\'. Selectând caseta și **s60\_IowaUniversity** putem folosi operațiunea comună generând geometria rezervorului nostru la tribord.
+Geometria rezervoarelor va fi o parte comună a cadrului creat și a geometriei navei, astfel încât să putem ascunde exemplul**Ship** și să arătăm geometria **s60_IowaUniversity**. Selectând caseta și **s60_IowaUniversity** putem folosi operațiunea comună generând geometria rezervorului nostru la tribord.
 
 ![Generated tank geometry.](images/FreeCAD-Ship-S60TankGeometry.png )
 
@@ -150,7 +150,7 @@ Generated tank geometry.
 
 We can perform port side tank selecting our starboard geometry and executing mirror tool, selecting XZ as mirror plane.
 
-In order to convert geometry into a ussual solid shape our tanks, and recover our **s60\_IowaUniversity** geometry, we can load [Draft module](Draft_Workbench.md), and with starboard tank geometry selected execute Upgrade, and repeat with port side tank geometry. We can rename geometries as   *
+In order to convert geometry into a ussual solid shape our tanks, and recover our **s60_IowaUniversity** geometry, we can load [Draft module](Draft_Workbench.md), and with starboard tank geometry selected execute Upgrade, and repeat with port side tank geometry. We can rename geometries as   *
 
 -   StarboardTankGeom
 -   PortTankGeom
@@ -245,7 +245,7 @@ Unele unghiuri de ruliu sunt luate în considerate de asemenea În acest caz vre
 
 <div class="mw-translate-fuzzy">
 
-Când apăsăm butonul \'\'\'Accept \'\'\', instrumentul începe calculul. Dacă rulați FreeCAD din terminal, puteți vedea progresul lucrului. În câteva secunde vom primi curba GZ.
+Când apăsăm butonul **Accept**, instrumentul începe calculul. Dacă rulați FreeCAD din terminal, puteți vedea progresul lucrului. În câteva secunde vom primi curba GZ.
 
 
 </div>

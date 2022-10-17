@@ -26,7 +26,7 @@ The latest version of the macro is to be found at [EllipseCenter2Points.FCMacro]
 
 ToolBar Icon ![](images/Macro_Ellipse-Center%2B2Points.png )
 
-**Macro\_EllipseCenter2Points.FCMacro**
+**Macro_EllipseCenter2Points.FCMacro**
 
 
 {{MacroCode|code=

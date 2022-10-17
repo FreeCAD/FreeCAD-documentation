@@ -42,7 +42,7 @@ The bodies created with PartDesign are often subject to the [topological naming 
 
 <div class="mw-translate-fuzzy">
 
-Instrumentele de proiectare a componentelor sunt amplasate în meniul *\' Design Part*\' și în bara de instrumente PartDesign care apare atunci când încărcați atelierul Part Design.
+Instrumentele de proiectare a componentelor sunt amplasate în meniul **Design Part** și în bara de instrumente PartDesign care apare atunci când încărcați atelierul Part Design.
 
 
 </div>
@@ -81,7 +81,7 @@ These are tools to organize the Model tree.
 
 <div class="mw-translate-fuzzy">
 
--   ![ 32px](images/_PartDesign_NewSketch.png ) [ Creare schiță](PartDesign_NewSketch.md)   * creează o schiță nouă pe o față sau pe un plane selectat. Dacă nu este selectată nicio față în timp ce această unealtă este executată, utilizatorul este chemat să selecteze un plan din panoul Activități. Interfața trece apoi în modul [ Sketcher\_Workbench](Sketcher_Workbench.md) în modul de editare a schițelor.
+-   ![ 32px](images/_PartDesign_NewSketch.png ) [ Creare schiță](PartDesign_NewSketch.md)   * creează o schiță nouă pe o față sau pe un plane selectat. Dacă nu este selectată nicio față în timp ce această unealtă este executată, utilizatorul este chemat să selecteze un plan din panoul Activități. Interfața trece apoi în modul [ Sketcher_Workbench](Sketcher_Workbench.md) în modul de editare a schițelor.
 
 
 </div>

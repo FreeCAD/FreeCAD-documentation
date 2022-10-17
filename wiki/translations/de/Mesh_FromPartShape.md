@@ -10,7 +10,7 @@
 
 ## Beschreibung
 
-Der Befehl **Netz\_AusTeilForm** erzeugt nicht-parametrische [Polygonnetz](Mesh/de.md) Objekte ([Polygonnetz Formelemente](Mesh_Feature/de.md)) aus [Form](shape/de.md) Objekten ([Part Formelemente](Part_Feature/de.md)).
+Der Befehl **Netz_AusTeilForm** erzeugt nicht-parametrische [Polygonnetz](Mesh/de.md) Objekte ([Polygonnetz Formelemente](Mesh_Feature/de.md)) aus [Form](shape/de.md) Objekten ([Part Formelemente](Part_Feature/de.md)).
 
 Die Umkehrbearbeitung ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part Arbeitsbereich](Part_Workbench/de.md).
 

@@ -1,5 +1,5 @@
 # Plot Module/hr
-1.  REDIRECT [Plot\_Workbench/hr](Plot_Workbench/hr.md)
+1.  REDIRECT [Plot_Workbench/hr](Plot_Workbench/hr.md)
 
 
 

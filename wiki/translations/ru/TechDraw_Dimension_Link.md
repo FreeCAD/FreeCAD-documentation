@@ -1,5 +1,5 @@
 # TechDraw Dimension Link/ru
-1.  REDIRECT [TechDraw\_LinkDimension/ru](TechDraw_LinkDimension/ru.md)
+1.  REDIRECT [TechDraw_LinkDimension/ru](TechDraw_LinkDimension/ru.md)
 
 
 

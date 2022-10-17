@@ -1,30 +1,30 @@
 # Category:Part/it
 This category lists pages related to the [Part Workbench/it](Part_Workbench/it.md).
 
-[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User\_Documentation/it](Category   *User_Documentation/it.md)
+[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User_Documentation/it](Category   *User_Documentation/it.md)
 
 ### Contents
 
 |     |     |     |
 | --- | --- | --- |
 | [Aeroplane/it](wiki/Aeroplane/it.md) | [Artwork Part/it](wiki/Artwork Part/it.md) | [Basic modeling tutorial/it](wiki/Basic modeling tutorial/it.md) |
-| [Constructive solid geometry/it](wiki/Constructive solid geometry/it.md) | [Draft ShapeString tutorial/it](wiki/Draft ShapeString tutorial/it.md) | [Feature/it](wiki/Feature/it.md) |
-| [Part and PartDesign/it](wiki/Part and PartDesign/it.md) | [Part Boolean/it](wiki/Part Boolean/it.md) | [Part BooleanFragments/it](wiki/Part BooleanFragments/it.md) |
-| [Part Box/it](wiki/Part Box/it.md) | [Part BoxSelection/it](wiki/Part BoxSelection/it.md) | [Part Builder/it](wiki/Part Builder/it.md) |
-| [Part Chamfer/it](wiki/Part Chamfer/it.md) | [Part CheckGeometry/it](wiki/Part CheckGeometry/it.md) | [Part Circle/it](wiki/Part Circle/it.md) |
-| [Part Common/it](wiki/Part Common/it.md) | [Part CompCompoundTools/it](wiki/Part CompCompoundTools/it.md) | [Part CompJoinFeatures/it](wiki/Part CompJoinFeatures/it.md) |
-| [Part CompOffsetTools/it](wiki/Part CompOffsetTools/it.md) | [Part Compound/it](wiki/Part Compound/it.md) | [Part CompoundFilter/it](wiki/Part CompoundFilter/it.md) |
-| [Part CompSplittingTools/it](wiki/Part CompSplittingTools/it.md) | [Part Cone/it](wiki/Part Cone/it.md) | [Part CrossSections/it](wiki/Part CrossSections/it.md) |
-| [Part Cut/it](wiki/Part Cut/it.md) | [Part Cylinder/it](wiki/Part Cylinder/it.md) | [Part Defeaturing/it](wiki/Part Defeaturing/it.md) |
-| [Part EditAttachment/it](wiki/Part EditAttachment/it.md) | [Part ElementCopy/it](wiki/Part ElementCopy/it.md) | [Part Ellipse/it](wiki/Part Ellipse/it.md) |
-| [Part Ellipsoid/it](wiki/Part Ellipsoid/it.md) | [Part ExplodeCompound/it](wiki/Part ExplodeCompound/it.md) | [Part Export/it](wiki/Part Export/it.md) |
-| [Part Extrude/it](wiki/Part Extrude/it.md) | [Part Fillet/it](wiki/Part Fillet/it.md) | [Part Fuse/it](wiki/Part Fuse/it.md) |
-| [Part Helix/it](wiki/Part Helix/it.md) | [Part Import/it](wiki/Part Import/it.md) | [Part JoinConnect/it](wiki/Part JoinConnect/it.md) |
-| [Part JoinCutout/it](wiki/Part JoinCutout/it.md) | [Part JoinEmbed/it](wiki/Part JoinEmbed/it.md) | [Part Line/it](wiki/Part Line/it.md) |
-| [Part Loft Technical Details/it](wiki/Part Loft Technical Details/it.md) | [Part Loft/it](wiki/Part Loft/it.md) | [Part MakeFace/it](wiki/Part MakeFace/it.md) |
-| [Part MakeSolid/it](wiki/Part MakeSolid/it.md) | [Part Measure Angular/it](wiki/Part Measure Angular/it.md) | [Part Measure Clear All/it](wiki/Part Measure Clear All/it.md) |
-| [Part Measure Linear/it](wiki/Part Measure Linear/it.md) | [Part Measure Menu/it](wiki/Part Measure Menu/it.md) | [Part Measure Refresh/it](wiki/Part Measure Refresh/it.md) |
-| [Part Measure Toggle 3d/it](wiki/Part Measure Toggle 3d/it.md) | [Part Measure Toggle All/it](wiki/Part Measure Toggle All/it.md) | [Part Measure Toggle Delta/it](wiki/Part Measure Toggle Delta/it.md) |
+| [Constructive solid geometry/it](wiki/Constructive solid geometry/it.md) | [Creating a simple part with Part WB/it](wiki/Creating a simple part with Part WB/it.md) | [Draft ShapeString tutorial/it](wiki/Draft ShapeString tutorial/it.md) |
+| [Feature/it](wiki/Feature/it.md) | [Part and PartDesign/it](wiki/Part and PartDesign/it.md) | [Part Boolean/it](wiki/Part Boolean/it.md) |
+| [Part BooleanFragments/it](wiki/Part BooleanFragments/it.md) | [Part Box/it](wiki/Part Box/it.md) | [Part BoxSelection/it](wiki/Part BoxSelection/it.md) |
+| [Part Builder/it](wiki/Part Builder/it.md) | [Part Chamfer/it](wiki/Part Chamfer/it.md) | [Part CheckGeometry/it](wiki/Part CheckGeometry/it.md) |
+| [Part Circle/it](wiki/Part Circle/it.md) | [Part Common/it](wiki/Part Common/it.md) | [Part CompCompoundTools/it](wiki/Part CompCompoundTools/it.md) |
+| [Part CompJoinFeatures/it](wiki/Part CompJoinFeatures/it.md) | [Part CompOffsetTools/it](wiki/Part CompOffsetTools/it.md) | [Part Compound/it](wiki/Part Compound/it.md) |
+| [Part CompoundFilter/it](wiki/Part CompoundFilter/it.md) | [Part CompSplittingTools/it](wiki/Part CompSplittingTools/it.md) | [Part Cone/it](wiki/Part Cone/it.md) |
+| [Part CrossSections/it](wiki/Part CrossSections/it.md) | [Part Cut/it](wiki/Part Cut/it.md) | [Part Cylinder/it](wiki/Part Cylinder/it.md) |
+| [Part Defeaturing/it](wiki/Part Defeaturing/it.md) | [Part EditAttachment/it](wiki/Part EditAttachment/it.md) | [Part ElementCopy/it](wiki/Part ElementCopy/it.md) |
+| [Part Ellipse/it](wiki/Part Ellipse/it.md) | [Part Ellipsoid/it](wiki/Part Ellipsoid/it.md) | [Part ExplodeCompound/it](wiki/Part ExplodeCompound/it.md) |
+| [Part Export/it](wiki/Part Export/it.md) | [Part Extrude/it](wiki/Part Extrude/it.md) | [Part Fillet/it](wiki/Part Fillet/it.md) |
+| [Part Fuse/it](wiki/Part Fuse/it.md) | [Part Helix/it](wiki/Part Helix/it.md) | [Part Import/it](wiki/Part Import/it.md) |
+| [Part JoinConnect/it](wiki/Part JoinConnect/it.md) | [Part JoinCutout/it](wiki/Part JoinCutout/it.md) | [Part JoinEmbed/it](wiki/Part JoinEmbed/it.md) |
+| [Part Line/it](wiki/Part Line/it.md) | [Part Loft Technical Details/it](wiki/Part Loft Technical Details/it.md) | [Part Loft/it](wiki/Part Loft/it.md) |
+| [Part MakeFace/it](wiki/Part MakeFace/it.md) | [Part MakeSolid/it](wiki/Part MakeSolid/it.md) | [Part Measure Angular/it](wiki/Part Measure Angular/it.md) |
+| [Part Measure Clear All/it](wiki/Part Measure Clear All/it.md) | [Part Measure Linear/it](wiki/Part Measure Linear/it.md) | [Part Measure Refresh/it](wiki/Part Measure Refresh/it.md) |
+| [Part Measure Toggle 3D/it](wiki/Part Measure Toggle 3D/it.md) | [Part Measure Toggle All/it](wiki/Part Measure Toggle All/it.md) | [Part Measure Toggle Delta/it](wiki/Part Measure Toggle Delta/it.md) |
 | [Part Mirror/it](wiki/Part Mirror/it.md) | [Part Module/it](wiki/Part Module/it.md) | [Part Offset/it](wiki/Part Offset/it.md) |
 | [Part Offset2D/it](wiki/Part Offset2D/it.md) | [Part Plane/it](wiki/Part Plane/it.md) | [Part Point/it](wiki/Part Point/it.md) |
 | [Part PointsFromMesh/it](wiki/Part PointsFromMesh/it.md) | [Part Primitives/it](wiki/Part Primitives/it.md) | [Part Prism/it](wiki/Part Prism/it.md) |

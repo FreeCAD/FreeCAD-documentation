@@ -13,13 +13,13 @@
 
 ## Opis
 
-Ten kod był częścią środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i został usunięty [sprawa \#490](http   *//freecadweb.org/tracker/view.php?id=490).
+Ten kod był częścią środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i został usunięty [sprawa #490](http   *//freecadweb.org/tracker/view.php?id=490).
 
 ## Tworzenie skryptów 
 
 Ikonka paska narzędzi ![](images/Macro_MacroMenu.png )
 
-**Macro\_MacroMenu.FCMacro**
+**Macro_MacroMenu.FCMacro**
 
 
 {{MacroCode|code=

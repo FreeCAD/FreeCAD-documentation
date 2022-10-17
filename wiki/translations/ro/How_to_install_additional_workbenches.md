@@ -69,6 +69,8 @@ versiunea ([available here](https   *//github.com/mandeeps708/PluginManager)) da
 
 During Google Summer of Code 2016 student Mandeep Singh started work on an improved version ([available here](https   *//github.com/mandeeps708/PluginManager)) but that version needs further work before it can be fully integrated in FreeCAD.
 
+### Manual Install 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -132,6 +134,8 @@ How to install additional workbenches and addons on Linux
 
 <div class="mw-collapsible-content">
 
+### Using git 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -175,6 +179,8 @@ $ rm *.pyc
 
 
 </div>
+
+### Manual Installation 
 
 
 <div class="mw-translate-fuzzy">
@@ -254,7 +260,7 @@ This method is possible but not necessary with the introduction of the [Addon Ma
 -   Nu utilizați caractere speciale (de exemplu, în germană umlauts) în numele dvs. de utilizator Windows, altfel FreeCAD nu va recunoaște fișierele și folderele în calea macrocomenzii
 -   If you have already set up a user name with special characters either create a new user name or point the macro path to a directory not using special characters
 -   Workbench still not showing up ? In FreeCAD, choose "Tools \> Customize \> Workbenches" and make sure it is not set to invisible
--   \'\'\'Notes for users with 32-bit system and FreeCAD 0.16.6706 \'\'\'. After attempts to install, the additional Workbenches may not be available. In this case
+-   **Notes for users with 32-bit system and FreeCAD 0.16.6706**. After attempts to install, the additional Workbenches may not be available. In this case
     -   hold the Report panel open while starting FreeCAD, and read the error
     -   urmăriți firul discuțiilor pe forumul acesta   * <http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933>
 

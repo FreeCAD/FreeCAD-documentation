@@ -19,7 +19,7 @@ Questa macro è un\'applicazione completa che apre una finestra di dialogo per d
 
 ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
 
-**Macro\_Corner\_shapes\_wizard\_update.FCMacro**
+**Macro_Corner_shapes_wizard_update.FCMacro**
 
      
     # Corner Shape Wizard

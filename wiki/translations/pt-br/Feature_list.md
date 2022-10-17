@@ -102,7 +102,7 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 
 -   **modelagem de extrusões, seções ou filetes a partir do uso de perfis**, **que seguem uma direção reta** ou **que giram ao redor de um eixo**.
 
--   **componentes topológicos** como *\'vértices*, *\'arestas*, **fios** e **planos**.
+-   **componentes topológicos** como **vértices\'\',**arestas\'\', **fios** e **planos**.
 
 
 <div class="mw-translate-fuzzy">

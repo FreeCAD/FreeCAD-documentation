@@ -23,7 +23,7 @@
     -   Rectangulaire    * largeur et hauteur,
     -   Circulaire    * diamètre,
     -   Tube    * diamètre et épaisseur.
-3.  En option, appuyez sur le bouton **Ajouter** dans le panneau des tâches, puis cliquez sur l\'arête à laquelle vous voulez donner une section transversale prescrite. Si la sélection de l\'arête est libre, toutes les arêtes restantes (dont la section transversale n\'est pas définie par d\'autres [Eléments de géométries 1D](FEM_ElementGeometry1D/fr.md)) seront automatiquement attribuées.
+3.  En option, appuyez sur le bouton **Ajouter** dans le panneau des tâches, puis cliquez sur l\'arête à laquelle vous voulez donner une section transversale prescrite. Si la sélection de l\'arête est libre, toutes les arêtes restantes (dont la section transversale n\'est pas définie par d\'autres [Coupes transversales d\'élément type poutre](FEM_ElementGeometry1D/fr.md)) seront automatiquement attribuées.
 
 ## Options
 

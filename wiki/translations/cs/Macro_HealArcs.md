@@ -17,7 +17,7 @@ Oblouky jsou někdy transformovány do B-křivek, například když na ně jsou 
 
 ## Skript
 
-ToolBar Icon ![](images/Macro_HealArcs.png ) **Macro\_HealArcs.FCMacro**
+ToolBar Icon ![](images/Macro_HealArcs.png ) **Macro_HealArcs.FCMacro**
 
 
 {{MacroCode|code=

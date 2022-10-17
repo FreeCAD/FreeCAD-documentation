@@ -44,7 +44,7 @@ Das [in-game tutorial](BIM_ingame_tutorial/de.md) ist ein einfacher Weg, um schn
 
 ## Werkzeuge
 
-Der BIM Arbeitsbereich versammelt Werkzeuge aus mehreren anderen FreeCAD Arbeitsbereichen, hauptsächlich [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md) und [Part](Part_Workbench/de.md), die grob in logische Kategorien eingeteilt sind   * *\'2D Zeichnungs*, *\'3D Modellierungs*, **Anmerkungs** und **Änderungs** Werkzeuge. Die **verwalten** Kategorie enthält Werkzeuge, die spezifisch für den BIM Arbeitsbereich sind.
+Der BIM Arbeitsbereich versammelt Werkzeuge aus mehreren anderen FreeCAD Arbeitsbereichen, hauptsächlich [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md) und [Part](Part_Workbench/de.md), die grob in logische Kategorien eingeteilt sind   * **2D Zeichnungs\'\',**3D Modellierungs\'\', **Anmerkungs** und **Änderungs** Werkzeuge. Die **verwalten** Kategorie enthält Werkzeuge, die spezifisch für den BIM Arbeitsbereich sind.
 
 Zusätzlich, falls solche [Erweiterungen](External_workbenches/de.md) installiert sind, Werkzeuge von [Reinforcement](Arch_Rebar/de.md) (zusätzliche Werkzeuge für Bewehrungsstäbe), [Verbindungselemente](Fasteners_Workbench/de.md) (Bolzen und Schrauben), [Flamingo/Dodo](Flamingo_Workbench/de.md) (Metallstruktur- und Rohrleitungswerkzeuge) und [Teilebibliothek](Parts_Library_Workbench/de.md) sind automatisch im BIM Arbeitsbereich enthalten.
 
@@ -169,16 +169,11 @@ Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden k�
 
 ## Tutorien und Lernen 
 
-
-<div class="mw-translate-fuzzy">
-
+-   [Umstieg auf FreeCAD von Revit](Migrating_to_FreeCAD_from_Revit/de.md)
 -   [Arch & BIM Tutorien in diesem Wiki](Tutorials#Architecture_and_BIM/de.md)
 -   [\"BIM mit FreeCAD\" Videoserie von Yorik](https   *//www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD Tutorien\" Videoserie von Regis](https   *//www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" Videoserie von Regis](https   *//www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
-
-
-</div>
 
 ## Externe Arbeitsbereiche 
 

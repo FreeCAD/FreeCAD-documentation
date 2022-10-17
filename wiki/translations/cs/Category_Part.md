@@ -1,5 +1,5 @@
 # Category:Part/cs
-This category lists pages related to the [Part\_Workbench/cs](Part_Workbench/cs.md).
+This category lists pages related to the [Part_Workbench/cs](Part_Workbench/cs.md).
 
 [Category   *Workbenches/cs](Category   *Workbenches/cs.md)
 

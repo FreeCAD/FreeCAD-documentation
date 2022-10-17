@@ -2,7 +2,7 @@
 - GuiCommand   */de
    Name   *Fasteners MatchTypeOuter
    Name/de   *Fasteners AuswahlNachAußenmaß
-   MenuLocation   *Fasteners → Match screws by outer thread diameter (Pass hole)
+   MenuLocation   *Fasteners → Match for pass hole
    Workbenches   *[Fasteners](Fasteners_Workbench/de.md)
    SeeAlso   *[Fasteners AuswahlNachInnenmaß](Fasteners_MatchTypeInner/de.md)
 ---
@@ -16,8 +16,8 @@ Der Befehl <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   *
 ## Anwendung
 
 1.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen   *
-    -   Drücken der Schaltfläche **<img src="images/Fasteners_MatchTypeOuter.svg" width=16px> [Match screws by outer thread diameter (Pass hole)](Fasteners_MatchTypeOuter.md)**.
-    -   Auswahl des Menüeintrags **Fasteners → <img src="images/Fasteners_MatchTypeOuter.svg" width=16px> Match screws by outer thread diameter (Pass hole)**.
+    -   Die Schaltfläche **<img src="images/Fasteners_MatchTypeOuter.svg" width=16px> [Match for pass hole](Fasteners_MatchTypeOuter/de.md)** drücken.
+    -   Den Menüeintrag **Fasteners → <img src="images/Fasteners_MatchTypeOuter.svg" width=16px> Match for Pass hole** auswählen.
 2.  Die Schaltfläche bleibt gedrückt, um die Auswahl anzuzeigen.
 
 

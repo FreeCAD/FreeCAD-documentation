@@ -19,7 +19,7 @@ This macro hidden all objects in the document (Visibility False).
 
 ToolBar Icon <img alt="" src=images/Macro_HiddenAlls.png  style="width   *64px;">
 
-**Macro\_HidenAlls.FCMacro**
+**Macro_HidenAlls.FCMacro**
 
 
 {{MacroCode|code=

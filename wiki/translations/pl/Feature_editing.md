@@ -144,7 +144,7 @@ Płaszczyzny bazowe są przydatne do oparcia szkiców. Te pomocnicze płaszczyzn
 
 *Uwaga   * W wielu przypadkach szkic dołączony do płaszczyzny bazowej z przesunięciami dołączenia może spełnić tę samą funkcję. Układy odniesienia są szczególnie przydatne, gdy wiele szkiców lub innych konstrukcji będzie korzystało z tego układu odniesienia. Oznacza to, że wszystkie zmiany w układzie odniesienia zostaną zastosowane do dołączonych szkiców itp. Dodanie pojedynczego szkicu do układu odniesienia, zamiast używania przesunięć dołączenia we właściwościach szkicu, stanowi dodatkowy krok i jest w zasadzie zbędne.*
 
-Podobnie jak w przypadku szkiców, możliwe jest dołączanie płaszczyzn odniesienia do generowanej geometrii *(krawędzi, powierzchni wcześniej utworzonych brył)*, **\'\' ale nie jest to zalecane**\'\', gdyż może powodować problem z nazewnictwem topologicznym.
+Podobnie jak w przypadku szkiców, możliwe jest dołączanie płaszczyzn odniesienia do generowanej geometrii *(krawędzi, powierzchni wcześniej utworzonych brył)*, ***ale nie jest to zalecane***, gdyż może powodować problem z nazewnictwem topologicznym.
 
 Dodatkowo, <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *24px;"> [łącznik kształtów](PartDesign_ShapeBinder/pl.md) może być użyty do zaimportowania zewnętrznej geometrii do bryły, aby służyła jako odniesienie; następnie szkice mogą być dołączone do tej pomocniczej zawartości, używając płaszczyzn odniesienia lub nie.
 
@@ -154,7 +154,7 @@ Używanie obiektów odniesienia jest często najlepszym sposobem na tworzenie st
 
 ## Poradniki
 
-Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów użycia metody [Edycja cech](Feature_editing/pl.md) w środowisku <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign\_Workbench/pl](PartDesign_Workbench/pl.md).
+Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów użycia metody [Edycja cech](Feature_editing/pl.md) w środowisku <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign_Workbench/pl](PartDesign_Workbench/pl.md).
 
 -   [Projekt części   * tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)
 -   [Poradnik   * Podstawy dla Środowiska pracy Projekt Części](Basic_Part_Design_Tutorial/pl.md)

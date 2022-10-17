@@ -21,7 +21,7 @@ Mit diesem Makro können Sie alle nicht verbundenen Kanten über eine Linie mit 
 
 Werkzeugleistensymbol ![](images/Macro_JointWire.png )
 
-**Macro\_JointWire.FCMacro**
+**Macro_JointWire.FCMacro**
 
 
 {{MacroCode|code=

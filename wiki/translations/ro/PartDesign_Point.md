@@ -41,7 +41,7 @@ Un punct de referință atașat la o sferă care are un decalaj al atașamentulu
 1.  Apăsați pe butonul **<img src="images/PartDesign_Point.png" width=24px> '''Create a datum point'''** .
 2.  Definiți parametrii punctului. Selectați o primă referință în vizualizarea 3D pentru a filtra modurile de atașare disponibile.
 3.  În funcție de referința selectată, este posibil să existe unul sau mai multe moduri de atașare în listă. Cel mai probabil va fi selectată automat și afișată cu caractere aldine din listă. Textul *Attached with mode* iar numele modului de atașare apare verde în partea de sus a panoului Setări.
-4.  Pentru a adăuga o referință suplimentară, apăsați butonul următor **Référence**. Odată butonul apăsat, eticheta sa va deveni \'\' Sélection \... \'\' până ce o selecție va fi făcută.
+4.  Pentru a adăuga o referință suplimentară, apăsați butonul următor **Référence**. Odată butonul apăsat, eticheta sa va deveni *Sélection \...* până ce o selecție va fi făcută.
 5.  Selecționați un mode atașare în listă.
 6.  Definiți valorile decalajului de atașament.
 7.  Apăsați pe **OK**.

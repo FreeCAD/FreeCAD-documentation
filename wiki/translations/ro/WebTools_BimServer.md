@@ -63,26 +63,26 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții 
 
 <div class="mw-translate-fuzzy">
 
--   Dacă aceasta este prima dată când vă conectați la un BIMServer de pe FreeCAD, apăsați butonul \'\'\' Connect **și completați URL-ul serverului, login-ul dvs. (care este întotdeauna o adresă de email) și parola în caseta de dialog care va apărea. Dacă doriți să vă conectați automat data viitoare când veți folosi comanda BimServer, bifați opțiunea \"\'save credentials**(numele și parola dvs. nu sunt salvate de FreeCAD, ci doar o cookie de sesiune).
+-   Dacă aceasta este prima dată când vă conectați la un BIMServer de pe FreeCAD, apăsați butonul **Connect**și completați URL-ul serverului, login-ul dvs. (care este întotdeauna o adresă de email) și parola în caseta de dialog care va apărea. Dacă doriți să vă conectați automat data viitoare când veți folosi comanda BimServer, bifați opțiunea \"\'save credentials\'\'\'(numele și parola dvs. nu sunt salvate de FreeCAD, ci doar o cookie de sesiune).
 -   Odată ce FreeCAD s-a conectat cu succes la o instanță BIMServer, butonul **Connect** se va transforma în **Connected**. Faceți clic din nou pe buton pentru a vă deconecta. De asemenea, aceasta va șterge cookie-ul de sesiune stocat, deci va trebui să introduceți din nou datele dvs. de acreditare data viitoare.
 -   Pentru a șterge manual cookie-ul de sesiune și pentru a reseta totul, puteți să ștergeți pur și simplu URL-ul BIMServer stocat în **Edit -\> Preferences -\> Arch -\> BimServer**.
--   Butonul **Open in browser** va deschide interfata web a serverului BIMServer fie in browserul web intern al FreeCAD, fie daca ați marcat acea opțiune în\'\'\' Edit -\> Preferences -\> Arch -\> BimServer \'\'\', într-un browser web extern. Aceasta permite, de exemplu, crearea de proiecte noi sau analizarea conținutului stocat pe serverul BIMServer.
+-   Butonul **Open in browser** va deschide interfata web a serverului BIMServer fie in browserul web intern al FreeCAD, fie daca ați marcat acea opțiune în**Edit -\> Preferences -\> Arch -\> BimServer**, într-un browser web extern. Aceasta permite, de exemplu, crearea de proiecte noi sau analizarea conținutului stocat pe serverul BIMServer.
 
 
 </div>
 
 ### Descărcarea reviziilor 
 
--   Caseta derulantă contextuală \'\'\' Project \'\'\' va afișa proiectele disponibile stocate pe serverul BIMServer. Alegeți una pentru a vedea reviziile disponibile pentru acel proiect.
+-   Caseta derulantă contextuală **Project** va afișa proiectele disponibile stocate pe serverul BIMServer. Alegeți una pentru a vedea reviziile disponibile pentru acel proiect.
 -   Selectați o revizuire și faceți clic pe **Open** pentru a descărca și deschide fișierul IFC corespunzător acelei revizuiri în FreeCAD.
--   Când apăsați butonul \'\'\' Open \'\'\', se va deschide o casetă de dialog pentru a vă permite să salvați fișierul IFC descărcat într-o locație la alegere înainte de a o deschide. Dacă apăsați **Cancel**, fișierul va fi salvat sub un nume temporar în directorul temporar al sistemului.
+-   Când apăsați butonul **Open**, se va deschide o casetă de dialog pentru a vă permite să salvați fișierul IFC descărcat într-o locație la alegere înainte de a o deschide. Dacă apăsați **Cancel**, fișierul va fi salvat sub un nume temporar în directorul temporar al sistemului.
 
 ### Încărcarea reviziilor 
 
 
 <div class="mw-translate-fuzzy">
 
--   Dacă doriți să încărcați o nouă versiune, asigurați-vă că proiectul potrivit a fost selectat în caseta derulantă \'\'\' Project \'\'\'
+-   Dacă doriți să încărcați o nouă versiune, asigurați-vă că proiectul potrivit a fost selectat în caseta derulantă **Project**
 -   Alegeți **Root object** pe care doriți să îl încărcați. Trebuie să fie fie [Arch Site](Arch_Site.md), fie [Arch Building](Arch_Building.md). Numai obiectele aparținând acelui obiect rădăcină vor fi încărcate.
 -   Scrieți un **Comentariu**, care va fi descrierea (numele) reviziei.
 -   Apăsați butonul **Upload**. Se va deschide o casetă de dialog pentru a vă permite să salvați fișierul IFC produs într-o locație la alegere înainte de al încărca. Dacă apăsați **Cancel**, fișierul va fi salvat sub un nume temporar în directorul temporar al sistemului.

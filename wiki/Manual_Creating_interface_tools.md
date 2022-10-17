@@ -7,7 +7,7 @@ In many situations, it is not very user-friendly to construct an object with zer
 
 Python offers a basic tool to have the user enter text on screen   *
 
-text = raw\_input(\"Height of the rectangle?\")
+text = raw_input(\"Height of the rectangle?\")
 
 print("The entered height is ",text)
 

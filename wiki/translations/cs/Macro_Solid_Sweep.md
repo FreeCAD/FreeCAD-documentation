@@ -57,7 +57,7 @@ Musí být podotknuto, že výsledné těleso **nebude** parametrické. Jestliž
 
 ToolBar Icon ![](images/Macro_Solid_Sweep.png )
 
-**Macro\_Solid\_Sweep.FCMacro**
+**Macro_Solid_Sweep.FCMacro**
 
 
 {{MacroCode|code=

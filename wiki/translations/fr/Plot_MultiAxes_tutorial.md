@@ -134,7 +134,7 @@ Vous pouvez maintenant enregistrer votre travail. Voir le [tutoriel précédent]
 
 }} {{Plot_Tools_navi}} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

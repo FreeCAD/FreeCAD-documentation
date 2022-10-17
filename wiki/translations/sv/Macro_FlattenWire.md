@@ -33,7 +33,7 @@ Detta makro plattar ut ritlinjer som inte är parallella (i Z-axeln) till deras 
 
 ToolBar Icon ![](images/Macro_FlattenWire.png )
 
-**Macro\_FlattenWire.FCMacro**
+**Macro_FlattenWire.FCMacro**
 
 
 {{MacroCode|code=

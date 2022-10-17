@@ -41,8 +41,8 @@ Si vous souhaitez que quelque chose apparaisse dans FreeCAD qui ne soit pas enco
 2.  Démarrer un fil de discussion pour discuter de votre demande de fonctionnalité avec la communauté via le [Open Discussion forum](http   *//forum.freecadweb.org/viewforum.php?f=8).
 3.  Une fois que la communauté accepte que cette fonctionnalité est valide, vous pouvez ensuite ouvrir un ticket sur le suivi (enregistrez-la sous *feature request* au lieu de \"bug\").
 
--   **REMARQUE \#1** Pour que tout reste organisé, rappelez-vous de lier l\'URL du fil de discussion au ticket et le numéro du ticket (sous forme de lien) au fil de discussion.
--   **REMARQUE \#2** Gardez à l\'esprit qu\'il n\'y a aucune garantie que votre souhait soit exaucé.
+-   **REMARQUE #1** Pour que tout reste organisé, rappelez-vous de lier l\'URL du fil de discussion au ticket et le numéro du ticket (sous forme de lien) au fil de discussion.
+-   **REMARQUE #2** Gardez à l\'esprit qu\'il n\'y a aucune garantie que votre souhait soit exaucé.
 
 ![Page de rapport de FreeCAD Bugtracker - utilisez le menu déroulant pour désigner correctement le ticket](images/MantisBT-setting-Feature-Request.jpg )
 
@@ -72,11 +72,11 @@ MantisBT (Mantis Bug Tracker) a son propre balisage.
 
 -   **\#**1234 - en ajoutant une balise de hachage devant un numéro, un raccourci pour créer un lien vers un autre ticket dans MantisBT sera présenté.
 
-       *   **Remarque**    * si vous survolez un ticket, il vous montrera le récapitulatif + si le ticket est fermé, il sera barré ainsi \#1234.
+       *   **Remarque**    * si vous survolez un ticket, il vous montrera le récapitulatif + si le ticket est fermé, il sera barré ainsi #1234.
 
 <img alt="" src=images/mantisbt-ticket-shortcut-example.jpg  style="width   *600px;">
 
--   **\~**5678 - raccourci qui relie à une note de bug dans un ticket. Cela peut être utilisé pour référencer la réponse de quelqu\'un dans le fil. Chaque personne qui publie affiche un numéro \~\#\#\#\# unique à côté de son nom d\'utilisateur. Si vous regardez l\'image dans l\'exemple, vous voyez que le raccourci fait référence au *ticket number   *comment number* de ce ticket.
+-   **\~**5678 - raccourci qui relie à une note de bug dans un ticket. Cela peut être utilisé pour référencer la réponse de quelqu\'un dans le fil. Chaque personne qui publie affiche un numéro \~#### unique à côté de son nom d\'utilisateur. Si vous regardez l\'image dans l\'exemple, vous voyez que le raccourci fait référence au *ticket number   *comment number* de ce ticket.
 
 <img alt="" src=images/mantisbt-comment-shortcut-example.jpg  style="width   *600px;">
 
@@ -134,18 +134,18 @@ En plus du [balisage de MantisBT](Tracker/fr#Le_balisage_de_MantisBT.md) ci-dess
 
 Le bugtracker de FreeCAD a un plug-in appelé [Source Integration](https   *//github.com/mantisbt-plugins/source-integration) qui lie essentiellement le référentiel FreeCAD GitHub à notre traqueur MantisBT. Cela facilite le suivi et l'association des commits git avec leurs tickets MantisBT respectifs. **Le plug-in Source Integration recherche dans les messages de git commit des mots-clés spécifiques afin d\'exécuter les actions suivantes    ***
 
-\'\'\'Remarque    * \'\'\'les mots-clés ci-dessous doivent être ajoutés au git commit message et non au sujet du PR.
+**Remarque    ***les mots-clés ci-dessous doivent être ajoutés au git commit message et non au sujet du PR.
 
 ### Référencement à distance d\'un ticket 
 
 L\'utilisation de ce modèle associera automatiquement un commit git à un ticket (**Remarque   *** cela ne fermera pas le ticket.) Le format MantisBT reconnaîtra   *
 
--   bug \#1234
--   bugs \#1234, \#5678
--   issue \#1234
--   issues \#1234, \#5678
--   report \#1234
--   reports \#1234, \#5678
+-   bug #1234
+-   bugs #1234, #5678
+-   issue #1234
+-   issues #1234, #5678
+-   report #1234
+-   reports #1234, #5678
 
 Pour les curieux, voici le regex que MantisBT utilise pour cette opération   *
 
@@ -154,16 +154,16 @@ Pour les curieux, voici le regex que MantisBT utilise pour cette opération   *
 
 Le format que MantisBT reconnaîtra    *
 
--   fix \#1234
--   fixed \#1234
--   fixes \#1234
--   fixed \#1234, \#5678
--   fixes \#1234, \#5678
--   resolve \#1234
--   resolved \#1234
--   resolves \#1234
--   resolved \#1234, \#5678
--   resolves \#1234, \#5678
+-   fix #1234
+-   fixed #1234
+-   fixes #1234
+-   fixed #1234, #5678
+-   fixes #1234, #5678
+-   resolve #1234
+-   resolved #1234
+-   resolves #1234
+-   resolved #1234, #5678
+-   resolves #1234, #5678
 
 Pour les curieux, voici le regex que MantisBT utilise pour cette opération   *
 

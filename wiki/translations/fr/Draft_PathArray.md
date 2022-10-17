@@ -22,7 +22,7 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 ## Utilisation
 
 1.  Sélectionnez l\'objet que vous souhaitez mettre en réseau.
-2.  Ajouter l\'objet trajectoire à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet et doivent être connectées. Dans FreeCAD version 0.19 et antérieures, les arêtes doivent être sélectionnées dans le bon ordre.
+2.  Ajouter l\'objet trajectoire à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet et doivent être connectées.
 3.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le **<img src="images/Draft_PathArray.svg" width=16px> [Réseau selon une courbe](Draft_PathArray/fr.md)**.
     -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** dans le menu.
@@ -110,11 +110,11 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 -    **Extra Translation|VectorDistance**   * spécifie un déplacement supplémentaire pour chaque élément le long du chemin.
 
--    **Force Vertical|Bool**   * spécifie s\'il faut remplacer la direction normale par défaut par la valeur de **Vecteur Vertical**. Utilisé uniquement si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}. <small>(v0.19)</small> 
+-    **Force Vertical|Bool**   * spécifie s\'il faut remplacer la direction normale par défaut par la valeur de **Vecteur Vertical**. Utilisé uniquement si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}.
 
--    **Tangent Vector|Vector**   * spécifie le vecteur d\'alignement. Utilisé uniquement si **Align Mode** est {{Value|Tangent}}. {{Version/fr|0.19}}
+-    **Tangent Vector|Vector**   * spécifie le vecteur d\'alignement. Utilisé uniquement si **Align Mode** est {{Value|Tangent}}.
 
--    **Vertical Vector|Vector**   * spécifie le remplacement de la direction normale par défaut. Utilisé uniquement si **Vertical Vector** est `True`. {{Version/fr|0.19}}
+-    **Vertical Vector|Vector**   * spécifie le remplacement de la direction normale par défaut. Utilisé uniquement si **Vertical Vector** est `True`.
 
 
 {{TitleProperty|Objects}}

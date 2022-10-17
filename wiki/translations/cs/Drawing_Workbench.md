@@ -42,7 +42,7 @@ These are tools for creating, configuring and exporting 2D drawing sheets
 
 **Poznámka** [Kreslicí modul](Draft_Workbench/cs.md) má také svůj vlastní [Výkres](Draft_Drawing/cs.md) pro umístění Kreslených objektů na papír. Má pár zvláštních možností nad standardními nástroji Výkresu a podporuje specifické objekty jako je [Kótování](Draft_Dimension/cs.md).
 
-Na obrázku vidíte koncept modulu Výkresu. Dokument obsahuje konstrukční objekt, který chceme vyjmout do výkresu. Proto je vytvořena \"Stránka (Page)\". Stránka je realizována pomocí šablony, v tomto případě přes šablonu \"A3\_Landscape\". Šablona je SVG dokument, který může obsahovat Váš běžný rámeček stránky, Vaše logo nebo dodržuje Vaše prezentační standardy.
+Na obrázku vidíte koncept modulu Výkresu. Dokument obsahuje konstrukční objekt, který chceme vyjmout do výkresu. Proto je vytvořena \"Stránka (Page)\". Stránka je realizována pomocí šablony, v tomto případě přes šablonu \"A3_Landscape\". Šablona je SVG dokument, který může obsahovat Váš běžný rámeček stránky, Vaše logo nebo dodržuje Vaše prezentační standardy.
 
 Do stránky můžeme vložit jeden nebo více pohledů. Každý pohled má svoji pozici na stránce (Vlastnosti X,Y), měřítko (Vlastnost měřítko) a další vlastnosti. Pokaždé když se stránka, pohled nebo odkazovaný objekt změní, stránka změny zachytí a zobrazení se aktualizuje.
 
@@ -52,7 +52,7 @@ V současnosti je uživatelské rozhraní (GUI) velmi omezené, proto je skripto
 
 See the [Drawing API example](Drawing_API_example.md) page for a description of the functions used to create drawing pages and views.
 
-Tento skript může snadno vyplnit [Macro\_CartoucheFC](Macro_CartoucheFC.md) stránku FreeCAD A3\_Landscape.
+Tento skript může snadno vyplnit [Macro_CartoucheFC](Macro_CartoucheFC.md) stránku FreeCAD A3_Landscape.
 
 ## Šablony
 

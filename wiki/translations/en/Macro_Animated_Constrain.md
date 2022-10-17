@@ -19,7 +19,7 @@ Simple macro to animate angles constraints in the sketcher. Based on the work of
 
 ## Script
 
-The macro you can find in the following github repository   * [Macro\_Animated\_Constrain.FCMacro](https   *//github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
+The macro you can find in the following github repository   * [Macro_Animated_Constrain.FCMacro](https   *//github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
 
 ToolBar Icon ![](images/Macro_Animated_Constrain.png )
 

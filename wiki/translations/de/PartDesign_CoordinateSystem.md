@@ -20,7 +20,7 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 
 2.  Die Parameter des Koordinatensystems definieren. Eine erste Referenz in der 3D-Ansicht auswählen, um die verfügbaren Verbindungsarten zu filtern.
 
-3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text \'\'Angehängt im Modus   * \'\' zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
+3.  Abhängig von der ausgewählten Referenz, können eine oder mehrere Verbindungsarten in der Liste vorhanden sein. Die wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text *Angehängt im Modus   ** zusammen mit dem Namen der Verbindungsart erscheint in grün über der Liste der Referenzen.
 
 4.  Um eine weitere Referenz hinzuzufügen, drückt man die nächste Schaltfläche **Referenz2**. Sobald sie gerückt wurde ändert sich die Beschriftung zu *Auswählen\...*, bis etwas ausgewählt wurde.
 
@@ -33,7 +33,7 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 
 ## Optionen
 
-Mit einem Doppelklick auf (Lokales KS) **Local\_CS** in der Baumstruktur oder durch einen Rechtsklick und Auswählen von **Bezug ändern** im Kontextmenü können die Werte geändert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [Part AnhangBearbeiten](Part_EditAttachment/de.md).
+Mit einem Doppelklick auf (Lokales KS) **Local_CS** in der Baumstruktur oder durch einen Rechtsklick und Auswählen von **Bezug ändern** im Kontextmenü können die Werte geändert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [Part AnhangBearbeiten](Part_EditAttachment/de.md).
 
 ## Eigenschaften
 

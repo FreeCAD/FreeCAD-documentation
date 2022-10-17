@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Această pagină descrie modul de compilare a celei mai recente surse FreeCAD pe macOS X. \'\' Latest \'\' înseamnă cel mai recent angajament al filialei principale a depozitului Github al FreeCAD.
+Această pagină descrie modul de compilare a celei mai recente surse FreeCAD pe macOS X. *Latest* înseamnă cel mai recent angajament al filialei principale a depozitului Github al FreeCAD.
 
 
 </div>
@@ -134,34 +134,34 @@ Next, we will run CMake to generate the build configuration. Several options mus
 <div class="mw-translate-fuzzy">
 
 ++++
-| Name                        | Value                                                | Notes                                                                                                                                      |
-+=============================+======================================================+============================================================================================================================================+
-| CMAKE\_BUILD\_TYPE          | Release (STRING)                                     | Release or Debug. Debug is generally used for developer-level testing but may also be required for user-level testing and troubleshooting. |
+| Name                     | Value                                               | Notes                                                                                                                                      |
++==========================+=====================================================+============================================================================================================================================+
+| CMAKE_BUILD_TYPE         | Release (STRING)                                    | Release or Debug. Debug is generally used for developer-level testing but may also be required for user-level testing and troubleshooting. |
 ++++
-| BUILD\_QT5                  | 1 (BOOL)                                             | Required to build with Qt5.                                                                                                                |
+| BUILD_QT5                | 1 (BOOL)                                            | Required to build with Qt5.                                                                                                                |
 ++++
-| CMAKE\_PREFIX\_PATH         | \"/usr/local/Cellar/qt\@5.6/5.6.2/lib/cmake\" (PATH) | Required to build with Qt5. See note below.                                                                                                |
-|                             |                                                      |                                                                                                                                            |
-|                             |                                                      |                                                                                                                                  |
-|                             |                                                      | </div>                                                                                                                                     |
-|                             |                                                      |                                                                                                                                         |
-|                             |                                                      |                                                                                                                                  |
-|                             |                                                      | <div class="mw-translate-fuzzy">                                                                                                           |
-|                             |                                                      |                                                                                                                                         |
+| CMAKE_PREFIX_PATH        | \"/usr/local/Cellar/qt@5.6/5.6.2/lib/cmake\" (PATH) | Required to build with Qt5. See note below.                                                                                                |
+|                          |                                                     |                                                                                                                                            |
+|                          |                                                     |                                                                                                                                  |
+|                          |                                                     | </div>                                                                                                                                     |
+|                          |                                                     |                                                                                                                                         |
+|                          |                                                     |                                                                                                                                  |
+|                          |                                                     | <div class="mw-translate-fuzzy">                                                                                                           |
+|                          |                                                     |                                                                                                                                         |
 ++++
-| FREECAD\_CREATE\_MAC\_APP   | 1 (BOOL)                                             | Create a FreeCAD.app bundle at the location specified in CMAKE\_INSTALL\_PREFIX, when the \'make install\' command issued.                 |
+| FREECAD_CREATE_MAC_APP   | 1 (BOOL)                                            | Create a FreeCAD.app bundle at the location specified in CMAKE_INSTALL_PREFIX, when the \'make install\' command issued.                   |
 ++++
-| CMAKE\_INSTALL\_PREFIX      | \"./..\" (PATH)                                      | Path where you want to generate the FreeCAD.app bundle.                                                                                    |
+| CMAKE_INSTALL_PREFIX     | \"./..\" (PATH)                                     | Path where you want to generate the FreeCAD.app bundle.                                                                                    |
 ++++
-| FREECAD\_USE\_EXTERNAL\_KDL | 1 (BOOL)                                             | Required.                                                                                                                                  |
+| FREECAD_USE_EXTERNAL_KDL | 1 (BOOL)                                            | Required.                                                                                                                                  |
 ++++
-| BUILD\_FEM\_NETGEN          | 1 (BOOL)                                             | Required.                                                                                                                                  |
+| BUILD_FEM_NETGEN         | 1 (BOOL)                                            | Required.                                                                                                                                  |
 ++++
 
 
 </div>
 
-Note   * Command line to generate CMAKE\_PREFIX\_PATH   *
+Note   * Command line to generate CMAKE_PREFIX_PATH   *
 
 ls -d $(brew list -1 | grep qt | tail -1 | xargs brew --cellar)/*/lib/cmake
 
@@ -275,12 +275,12 @@ FreeCAD has transitioned from Qt 4 to Qt 5 as well as homebrew. Qt 4 is no longe
 
 ### Segfault on Qt5 launch 
 
-În cazul în care Qt4 a fost instalat anterior via brew, și apoi ați construit cu Qt5, puteți obține o excepție EXC\_BAD\_ACCESS (SEGSEGV) atunci când lansați compilarea nouli Qt5 . Remedierea pentru aceasta este de a dezinstala manual Qt4.
+În cazul în care Qt4 a fost instalat anterior via brew, și apoi ați construit cu Qt5, puteți obține o excepție EXC_BAD_ACCESS (SEGSEGV) atunci când lansați compilarea nouli Qt5 . Remedierea pentru aceasta este de a dezinstala manual Qt4.
 
 
 </div>
 
-If Qt4 was previously installed via brew, and you then build with Qt5, you may get a EXC\_BAD\_ACCESS (SEGSEGV) exception when launching the new Qt5 build. The fix for this is to manually uninstall Qt4.
+If Qt4 was previously installed via brew, and you then build with Qt5, you may get a EXC_BAD_ACCESS (SEGSEGV) exception when launching the new Qt5 build. The fix for this is to manually uninstall Qt4.
 
 
 ```python
@@ -292,24 +292,24 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 
 ### Fortran
 
-*\"No CMAKE\_Fortran\_COMPILER could be found.\"* în timpul configurației - versiunile mai vechi ale FreeCAD vor trebui să compileze instalate. Cu Homebrew, procedați la \"brew install gcc\" și încerdați configurarea din nou, dând lui cmake cale spre Fortran ie -DCMAKE\_Fortran\_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Sau, de preferat, utilizați o versiune mai nouă a sursei FreeCAD!
+*\"No CMAKE_Fortran_COMPILER could be found.\"* în timpul configurației - versiunile mai vechi ale FreeCAD vor trebui să compileze instalate. Cu Homebrew, procedați la \"brew install gcc\" și încerdați configurarea din nou, dând lui cmake cale spre Fortran ie -DCMAKE_Fortran_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Sau, de preferat, utilizați o versiune mai nouă a sursei FreeCAD!
 
 
 </div>
 
-*\"No CMAKE\_Fortran\_COMPILER could be found.\"* during configuration - Older versions of FreeCAD will need a fortran compiler installed. With Homebrew, do \"brew install gcc\" and try configuring again, giving cmake the path to Fortran ie -DCMAKE\_Fortran\_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Or, preferably use a more current version of FreeCAD source!
+*\"No CMAKE_Fortran_COMPILER could be found.\"* during configuration - Older versions of FreeCAD will need a fortran compiler installed. With Homebrew, do \"brew install gcc\" and try configuring again, giving cmake the path to Fortran ie -DCMAKE_Fortran_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Or, preferably use a more current version of FreeCAD source!
 
 
 <div class="mw-translate-fuzzy">
 
 ### FreeType
 
-Atunci când se utilizează versiuni CMake mai vechi de 3.1.0, este necesar să setați variabila CMake FREETYPE\_INCLUDE\_DIR\_freetype2 manually, eg /usr/local/include/freetype2
+Atunci când se utilizează versiuni CMake mai vechi de 3.1.0, este necesar să setați variabila CMake FREETYPE_INCLUDE_DIR_freetype2 manually, eg /usr/local/include/freetype2
 
 
 </div>
 
-When using CMake versions older than 3.1.0, it\'s necessary to set CMake variable FREETYPE\_INCLUDE\_DIR\_freetype2 manually, eg /usr/local/include/freetype2
+When using CMake versions older than 3.1.0, it\'s necessary to set CMake variable FREETYPE_INCLUDE_DIR_freetype2 manually, eg /usr/local/include/freetype2
 
 ### Additional Build Instructions 
 
@@ -321,7 +321,7 @@ FreeCAD can be built against the latest git master hosted on github, and launche
 
 
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

@@ -27,7 +27,7 @@ Esta macro permite poner temporalmente una imagen de textura en los objetos sele
 
 ## Guión
 
-**Macro\_Texture\_Objects.FCMacro**
+**Macro_Texture_Objects.FCMacro**
 
 
 {{MacroCode|code=

@@ -28,7 +28,7 @@ This tutorial is based on the forum post by schupin [FreeCAD / pov ray tutorial]
 
 *align=center|Example by schupin of a 3D model and high quality render produced with FreeCAD and POV-Ray.*
 
-The files used in this tutorial are in post \#8 [in the same thread](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
+The files used in this tutorial are in post #8 [in the same thread](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
 
 ## Basic setup 
 

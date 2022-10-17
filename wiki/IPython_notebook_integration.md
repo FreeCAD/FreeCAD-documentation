@@ -46,8 +46,8 @@ Easy
 
 ### Additional Information 
 
--   Ticket on FreeCAD bug tracker   * [\#2869](https   *//freecadweb.org/tracker/view.php?id=2869)
--   A FreeCAD kernel for Jupyter   * [looooo/jupyter\_freecad\_kernel](https   *//github.com/looooo/jupyter_freecad_kernel)
+-   Ticket on FreeCAD bug tracker   * [#2869](https   *//freecadweb.org/tracker/view.php?id=2869)
+-   A FreeCAD kernel for Jupyter   * [looooo/jupyter_freecad_kernel](https   *//github.com/looooo/jupyter_freecad_kernel)
 -   Dedicated discussion   * [IPython notebook integration](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=14740)
 -   Thread discussion   * [How to use Jupyter Notebook with FreeCad (Guide)](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=38976)
 -   Thread discussion   * [Embedding FreeCAD in IPython](https   *//forum.freecadweb.org/viewtopic.php?t=13620)

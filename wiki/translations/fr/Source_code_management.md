@@ -42,7 +42,7 @@ Où `"YOUR_NAME"` représente votre nom complet ou votre pseudonyme, utilisé po
 
 ### Dépôts distants 
 
-Veuillez lire [what-is-the-difference-between-origin-and-upstream-on-github\#9257901 Quelle est la différence entre l\'origine et l\'upstream sur GitHub?](https   *//stackoverflow.com/questions/9257533/) (Stackoverflow) pour vous aider à comprendre la différence entre `origin` et `upstream` dans Git. Cette section explique comment définir les référentiels appropriés pour le développement. En gros    *
+Veuillez lire [what-is-the-difference-between-origin-and-upstream-on-github#9257901 Quelle est la différence entre l\'origine et l\'upstream sur GitHub?](https   *//stackoverflow.com/questions/9257533/) (Stackoverflow) pour vous aider à comprendre la différence entre `origin` et `upstream` dans Git. Cette section explique comment définir les référentiels appropriés pour le développement. En gros    *
 
 -    `origin`est votre branche personnelle du référentiel officiel de FreeCAD, à savoir, {{URL|https   *//github.com/GITHUB_USERNAME/FreeCAD}}
 

@@ -100,9 +100,9 @@ Ouvrez le fichier SVG avec votre éditeur de texte, vous verrez le texte suivant
 
 ### Le Tag \"xmlns   *freecad\" 
 
-La première chose à faire est d\'insérer la ligne suivante dans le document. Cette ligne est la déclaration **SVG\_namespace** et doit être fournie afin que tous les éléments SVG soient identifiés comme appartenant à **SVG\_namespace**
+La première chose à faire est d\'insérer la ligne suivante dans le document. Cette ligne est la déclaration **SVG_namespace** et doit être fournie afin que tous les éléments SVG soient identifiés comme appartenant à **SVG_namespace**
 
- {.XML}
+ XML
 xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
@@ -119,7 +119,7 @@ Cette ligne est ajoutée immédiatement après la première balise
 
 Afin de permettre l\'impression du dessin final dans la bonne échelle, la page doit contenir ses dimensions en unités réelles 1/1. Sinon la page de dessin entière serait imprimée à une échelle plus basse avec un facteur de 3.54 (90 (px/in) / 25.4 (mm/po)). A l\'intérieur de la feuille \<SVG\>-Tag l\'unité \"mm\" est ajoutée aux champs de width et height. Et un attribut viewBox doit être ajouté. Les données dans viewBox varient de 0 0 à width et height (largeur et hauteur) de la feuille. De cette façon, l\'unité utilisée par la feuille SVG qui est le (px) est redéfini pour être 1 mm de longueur. Dans les programmes comme Inkscape pourront imprimer une élaboration résultante à l\'échelle. Les versions actuelles de Inkscape gèrent très mal cette information. Inkscape redimensionne efficacement l\'ensemble du document à 90dpi. Ce n\'est pas vraiment un problème pour un dessin final, mais impose des difficultés pour l\'édition de modèles de dessin. Après modification d\'une feuille dans Inkscape, elle aurait la même taille de format sur Inkscape mais les éléments du dessin seraient réduits d\'un facteur de 3.54. (Parce que le modèle serait créé en 90dpi mais FreeCAD l\'interprète comme 1px/mm.) Par conséquent, il est recommandé de retirer le \"mm\" de la largeur et la hauteur des attributs avant d\'ouvrir une feuille existante dans Inkscape et après de recréer les unités et attribut dans la balise viewBox.
 
- {.html}
+ html
 width="279mm"
 height="216mm"
 viewBox="0 0 279 216"
@@ -159,7 +159,7 @@ La première balise est la balise **Working space** et est formatée comme suit.
 
 </div>
 
- {.html}
+ html
 
 
 
@@ -172,7 +172,7 @@ Où X1, Y1, X2, Y2 sont définis comme    *
 
 Donc pour la feuille de ce tutoriel, la balise sera **Working space**.
 
- {.html}
+ html
 
 
 
@@ -180,7 +180,7 @@ Donc pour la feuille de ce tutoriel, la balise sera **Working space**.
 
 La balise suivante est la balise **Title block** et est formatée comme suit    *
 
- {.html}
+ html
 
 
 
@@ -194,7 +194,7 @@ Où X1a, Y1a, X2a Y2a sont définis comme   *
 
 Pour, la balise qui référence le cartouche créé avec ce tutoriel, elle est défini comme suit    *
 
- {.html}
+ html
 
 
 
@@ -206,7 +206,7 @@ La position des deux balises, dans l\'ordre et en haut du document ressemble à 
 
 Ajouter la balise **freecad   *editable** permet à FreeCAD d\'accéder aux blocs de textes modifiables définis pour l\'édition dans le document SVG. Pour modifier les blocs de textes que vous souhaitez modifier à partir de FreeCAD, procédez comme suit.
 
-Cherchez vers le bas dans le document SVG jusqu\'à trouver la section qui contient le texte que vous souhaitez modifier. Lorsque vous avez effectué votre feuille, vous les avez placés dans un groupe, et par conséquent, ils doivent apparaître dans le document aussi comme un groupe. Les groupes sont délimités par les balises **\<g . . . . \<g/\>**. Une fois que ce groupe d\'éléments de textes est trouvé, vous allez ajouter la ligne \'\'\'freecad   *editable = \"\" \'\'\' la variable de chaque bloc de texte que vous souhaitez modifier est contenu entre guillemets. Placez la ligne comme indiqué pour les quatre lignes de texte modifiables.
+Cherchez vers le bas dans le document SVG jusqu\'à trouver la section qui contient le texte que vous souhaitez modifier. Lorsque vous avez effectué votre feuille, vous les avez placés dans un groupe, et par conséquent, ils doivent apparaître dans le document aussi comme un groupe. Les groupes sont délimités par les balises **\<g . . . . \<g/\>**. Une fois que ce groupe d\'éléments de textes est trouvé, vous allez ajouter la ligne **freecad   *editable = \"\"** la variable de chaque bloc de texte que vous souhaitez modifier est contenu entre guillemets. Placez la ligne comme indiqué pour les quatre lignes de texte modifiables.
 
 ![](images/Kate4.png )
 
@@ -221,7 +221,7 @@ Cette balise est formatée comme suit et est insérée juste avant la dernière 
 
 \'\'\'.
 
- {.html}
+ html
 
 
 
@@ -256,4 +256,4 @@ Les deux outils utilisés dans ce tutoriel sont Inkscape et Kate. Ils peuvent ê
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/fr

@@ -14,7 +14,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento <img alt="" src=images/Arch_Nest.svg  style="width   *16px;"> Nido consente di selezionare una forma piatta destinata ad essere un contenitore e una serie di altre forme piatte da organizzare all\'interno dello spazio definito dalla forma del contenitore. Tipicamente questo è necessario per le operazioni CNC, in cui si desidera tagliare una serie di pezzi da un pannello di base e si devono organizzare tali pezzi nel modo più compatto possibile in modo che occupino meno spazio sul pannello.
+
+
+</div>
 
 L\'algoritmo sottostante allo strumento Nido è in continua evoluzione e al momento non è completamente ottimizzato. In futuro le prestazioni di questo strumento dovrebbero migliorare molto.
 
@@ -24,6 +30,9 @@ L\'algoritmo sottostante allo strumento Nido è in continua evoluzione e al mome
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **<img src="images/Arch_Nest.svg" width=16px> [Arch Nido](Arch_Nest/it.md)**.
 2.  Selezionare un oggetto destinato ad essere il contenitore. Questo oggetto deve essere piatto e, al momento, rettangolare.
 3.  Cliccare sul pulsante **Pick container** per usare l\'oggetto come contenitore.
@@ -32,6 +41,9 @@ L\'algoritmo sottostante allo strumento Nido è in continua evoluzione e al mome
 6.  Avviare il processo di calcolo.
 7.  Alla fine del calcolo, fare clic sul pulsante **Anteprima** per creare un\'anteprima temporanea del risultato.
 8.  Se si desidera applicare il risultato (spostare e ruotare effettivamente le forme nella posizione), fare clic su **OK**.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

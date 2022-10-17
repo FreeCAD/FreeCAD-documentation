@@ -26,7 +26,7 @@ When run, the Macro wil present the user with a dialog like seen below. First en
 
 ToolBar Icon ![](images/Part_Prism_Apothem.svg )
 
-**Macro\_Apothem\_Based\_Prism\_GUI.FCMacro**
+**Macro_Apothem_Based_Prism_GUI.FCMacro**
 
 
 {{MacroCode|code=

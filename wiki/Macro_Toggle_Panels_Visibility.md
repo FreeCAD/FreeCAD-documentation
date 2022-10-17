@@ -34,7 +34,7 @@ There is immediate confirmation of the user action as the supporting windows eit
 
  Toolbar icon ![](images/Macro_Toggle_Views_Visibility.png )
 
-**Macro\_Toggle\_Panels\_Visibility.FCMacro**
+**Macro_Toggle_Panels_Visibility.FCMacro**
 
 
 {{MacroCode|code=

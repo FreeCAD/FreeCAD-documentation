@@ -6,7 +6,7 @@
 
 ## Descrizione
 
-*\' Placement*\' (Posizionamento) è la funzione utilizzata da FreeCAD per specificare la localizzazione (dove si trova) e l\'assetto (orientamento) di un oggetto nello spazio. Placement può essere specificato in diversi modi e manipolato tramite [script](Python_scripting_tutorial/it#Vettori_e_posizionamenti.md), tramite la scheda delle Proprietà oppure il dialogo **Placement** del menu **Modifica**.
+**Placement** (Posizionamento) è la funzione utilizzata da FreeCAD per specificare la localizzazione (dove si trova) e l\'assetto (orientamento) di un oggetto nello spazio. Placement può essere specificato in diversi modi e manipolato tramite [script](Python_scripting_tutorial/it#Vettori_e_posizionamenti.md), tramite la scheda delle Proprietà oppure il dialogo **Placement** del menu **Modifica**.
 
 ### Accedere agli attributi di Placement 
 
@@ -547,13 +547,13 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 -   Assi e Angolo possono anche essere espressi con un [quaternione](http   *//it.wikipedia.org/wiki/Rotazioni_spaziali_con_i_quaternioni).
 -   Il punto di riferimento di un oggetto varia a seconda dell\'oggetto. Alcuni esempi di oggetti di uso comune   *
 
-  Oggetto                                Punto di riferimento
+  Oggetto                              Punto di riferimento
    
-  Part.Box                               vertice sinistro (minimo x), frontale (minimo y), in basso (minimo z)
-  Part.Sphere                            centro della sfera (centro del suo contenitore cubico)
-  Part.Cylinder                          centro della faccia di base
-  Part.Cone                              centro della faccia di base (o superiore se il raggio della faccia di base vale **0**)
-  Part.Torus                             centro del toro
+  Part.Box                             vertice sinistro (minimo x), frontale (minimo y), in basso (minimo z)
+  Part.Sphere                          centro della sfera (centro del suo contenitore cubico)
+  Part.Cylinder                        centro della faccia di base
+  Part.Cone                            centro della faccia di base (o superiore se il raggio della faccia di base vale **0**)
+  Part.Torus                           centro del toro
   Caratteristiche derivate ​​da Sketch   la caratteristica eredita la posizione dello schizzo sottostante. Lo schizzo inizia sempre con Position = (0,0,0).
 
 

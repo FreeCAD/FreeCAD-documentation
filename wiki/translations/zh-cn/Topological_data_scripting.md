@@ -596,7 +596,7 @@ Part.show(arc_edge)
 
 <div class="mw-translate-fuzzy">
 
-Arc函数仅接受Base.Vector()作为绘弧所用的点，而非元组（tuples）。arc\_edge就是我们要借助Part.show(arc\_edge)语句所显示的边。您也通过截取部分圆来获得一条弧：
+Arc函数仅接受Base.Vector()作为绘弧所用的点，而非元组（tuples）。arc_edge就是我们要借助Part.show(arc_edge)语句所显示的边。您也通过截取部分圆来获得一条弧：
 
 
 </div>
@@ -659,12 +659,12 @@ def makeBCurveEdge(Points)   *
 
 #### 创建一个平面
 
-平面就是一个简单的矩形平面。**makePlane(length,width,\[start\_pnt,dir\_normal\])**方法可用于创建一个平面。默认值为 start\_pnt = Vector(0,0,0)与dir\_normal = Vector(0,0,1)。通过dir\_normal = Vector(0,0,1)将创建一个面向z轴正方向的平面，而dir\_normal = Vector(1,0,0)将创建一个面向x轴正方向的平面：
+平面就是一个简单的矩形平面。**makePlane(length,width,\[start_pnt,dir_normal\])**方法可用于创建一个平面。默认值为 start_pnt = Vector(0,0,0)与dir_normal = Vector(0,0,1)。通过dir_normal = Vector(0,0,1)将创建一个面向z轴正方向的平面，而dir_normal = Vector(1,0,0)将创建一个面向x轴正方向的平面：
 
 
 </div>
 
-A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start\_pnt = Vector(0, 0, 0) and dir\_normal = Vector(0, 0, 1). Using dir\_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir\_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
+A Plane is a flat rectangular surface. The method used to create one is `makePlane(length, width, [start_pnt, dir_normal])`. By default start_pnt = Vector(0, 0, 0) and dir_normal = Vector(0, 0, 1). Using dir_normal = Vector(0, 0, 1) will create the plane facing in the positive Z axis direction, while dir_normal = Vector(1, 0, 0) will create the plane facing in the positive X axis direction   *
 
 
 ```python
@@ -687,7 +687,7 @@ plane.BoundBox
 
 <div class="mw-translate-fuzzy">
 
-请注意，makePlane仅接收Base.Vector()作为其start\_pnt与dir\_normal参数，而非元组（tuples）。
+请注意，makePlane仅接收Base.Vector()作为其start_pnt与dir_normal参数，而非元组（tuples）。
 
 
 </div>

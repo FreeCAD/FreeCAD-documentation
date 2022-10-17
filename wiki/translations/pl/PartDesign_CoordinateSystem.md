@@ -26,7 +26,7 @@ Creates a **local coordinate system** which can be used as reference for other d
 
 ## Options
 
-Double-click the **Local\_CS** label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Attachment](Part_EditAttachment.md).
+Double-click the **Local_CS** label in the Model tree or right-click and select **Edit datum** in the contextual menu to edit its parameters. For more details about Attachment mode and Attachment offset, see [Attachment](Part_EditAttachment.md).
 
 ## Properties
 

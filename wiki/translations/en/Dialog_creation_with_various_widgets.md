@@ -317,7 +317,7 @@ class Form(object)   *
       control.setText(_translate(self.title, text, None))
 ``` The calling file that contains the window and your code.
 
-The file my\_file.py
+The file my_file.py
 
 The connections are to do, a good exercise. 
 ```python
@@ -364,7 +364,7 @@ myWindow.show()
 
 <center>
 
-Image   *Qt\_Example\_00.png\|Qt example 1 Image   *Qt\_Example\_01.png\|Qt example details
+Image   *Qt_Example_00.png\|Qt example 1 Image   *Qt_Example_01.png\|Qt example details
 
 
 </center>
@@ -391,7 +391,7 @@ Are treated    *
 15. textEdit
 16. graphicsView with 2 graphes
 
-The code page and the icons [Qt\_Example](Qt_Example.md)
+The code page and the icons [Qt_Example](Qt_Example.md)
 
 
  

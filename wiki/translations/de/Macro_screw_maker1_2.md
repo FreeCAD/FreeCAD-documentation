@@ -26,7 +26,7 @@ Wenn Sie einen Kreis in einem Loch auswählen, oder alternativ gleichzeitig die 
 
 <center>
 
-<File   *Macro_screw_maker_02.png%7CInterface> of **screw\_maker** and a few types of screws. <File   *Macro_screw_maker_03.png%7CA> screw with thread
+<File   *Macro_screw_maker_02.png%7CInterface> of **screw_maker** and a few types of screws. <File   *Macro_screw_maker_03.png%7CA> screw with thread
 
 
 </center>
@@ -45,7 +45,7 @@ Die neueste Version des Makros finden Sie unter [ScrewMaker.FCMacro](https   *//
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 
-**Macro\_screw\_maker\_2.FCMacro**
+**Macro_screw_maker_2.FCMacro**
 
 
 {{MacroCode|code=

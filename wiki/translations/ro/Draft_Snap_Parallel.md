@@ -20,8 +20,6 @@ The <img alt="" src=images/Draft_Snap_Parallel.svg  style="width   *24px;"> **Dr
 
 Up to 2 (or 8 <small>(v0.20)</small> ) edges can be referenced by this snap option and [Draft Snap Extension](Draft_Snap_Extension.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
 
-In FreeCAD version 0.19 and earlier this snap option does not work if the cursor is next to the referenced edge.
-
 ![](images/Draft_Snap_Parallel_example.png ) 
 *Snapping the second point of a line to an invisible line that is parallel to an edge*
 

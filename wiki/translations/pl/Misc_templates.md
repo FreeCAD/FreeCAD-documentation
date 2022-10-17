@@ -2,7 +2,7 @@
 Poniższa strona zawiera listę niektórych mieszanych szablonów.
 Wszystkie wzory są w formacie SVG, które można bezpośrednio pobrać i używać z lub bez modyfikacji.
 Wszystkie szablony i tabele są wyposażone w edytowalny tekst w programie FreeCAD.
-Do użytkowania należy zmienić nazwę pliku **A3\_Landscape.svg** \'\'(umieszczonego w folderze *(Windows)* **C   *Program Files\\you FreeCAD version\\data\\Mod\\Drawing\\Templates** )\'\'.
+Do użytkowania należy zmienić nazwę pliku **A3_Landscape.svg** *(umieszczonego w folderze*(Windows)***C   *Program Files\\you FreeCAD version\\data\\Mod\\Drawing\\Templates** )*.
 Aby uzyskać dostęp po utworzeniu strony, kliknij w okienku **Widok połączony → Właściwości → Dane → Tekst edytowalny → \...**.
 
 Dostępne są makrodefinicje dla dwóch głównych wzorów tabel [model 1](Macro_CartoucheFC_Full/pl.md) i [model 2](Macro_CartoucheFC_2/pl.md).
@@ -66,13 +66,13 @@ Symbole użyte do określenia [projekcji](http   *//commons.wikimedia.org/wiki/F
 
 Szablony są kompletne i wyposażone w ramki, tabelę *(od K do Z domyślnie ukryte)* oraz symbole USA *(domyślnie ukryte)* i UE. Wystarczy ukryć lub wymazać to, co Ci nie odpowiada.
 
-Szablon [A3\_Landscape.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6499)
+Szablon [A3_Landscape.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6499)
 
-Szablon [A4\_Portrait.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6500)
+Szablon [A4_Portrait.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6500)
 
-Kompas Róża 2D [CompassRose\_2D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6501)
+Kompas Róża 2D [CompassRose_2D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6501)
 
-Kompas Róża 3D [CompassRose\_3D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6502)
+Kompas Róża 3D [CompassRose_3D.FCStd](http   *//forum.freecadweb.org/download/file.php?id=6502)
 
 ### Inne dostępne standardy 
 

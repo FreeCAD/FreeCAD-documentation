@@ -24,7 +24,7 @@ Cette macro aligne la caméra sur le [Draft Plan de travail](Draft_SelectPlane/f
 
 Icône de la barre d\'outils ![](images/Macro_Align_Camera_to_Working_Plane.png )
 
-**Macro\_Align\_Camera\_to\_Working\_Plane.FCMacro**
+**Macro_Align_Camera_to_Working_Plane.FCMacro**
 
 
 {{MacroCode|code=

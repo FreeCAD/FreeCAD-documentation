@@ -1,5 +1,5 @@
 # Plugin Loader
-1.  REDIRECT [Std\_AddonMgr](Std_AddonMgr.md)
+1.  REDIRECT [Std_AddonMgr](Std_AddonMgr.md)
 
 
 

@@ -17,7 +17,6 @@ Der Befehl **Std Einfügen** fügt Objekte aus der Zwischenablage in das aktuell
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
-    -   Die Schaltfläche **<img src="images/Std_Paste.svg" width=16px> [Std Einfügen](Std_Paste/de.md)** drücken.
     -   Den Menüeintrag {{MenuCommand/de|Bearbeiten → <img src="images/Std_Paste.svg" width=16px> Einfügen}} im Hauptmenü auswählen.
     -   Den Menüeintrag **<img src="images/Std_Paste.svg" width=16px> Einfügen** im Kontextmenü der [Baumansicht](Tree_view/de.md) auswählen. Diese option steht nur dann zur Verfügung, wenn ein vorhandendes Objekt ausgewählt wurde.
     -   Das Tastaturkürzel **Strg**+**V**.

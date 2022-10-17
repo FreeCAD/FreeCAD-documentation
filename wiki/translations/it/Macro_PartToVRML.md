@@ -16,7 +16,7 @@ Questa macro converte le parti selezionate in mesh VRML per caricare velocemente
 
 L\'icona ![](images/PartToVRML.png )
 
-**Macro\_PartToVRML.FCMacro**
+**Macro_PartToVRML.FCMacro**
 
 
     # -*- coding   * utf-8 -*-
@@ -236,7 +236,7 @@ L\'icona ![](images/PartToVRML.png )
 
 La discussione nel forum   * [export VRML from FreeCAD with python for smaller size, kicad and Blender compatible](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=14099)
 
-La macro inversa, [Macro\_MeshToPart](Macro_MeshToPart/it.md)
+La macro inversa, [Macro_MeshToPart](Macro_MeshToPart/it.md)
 
 
 

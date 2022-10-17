@@ -78,7 +78,7 @@ Pour ajuster nos **paramètres de rotation**, deux moyens sont possibles.
 
 -   Deuxième option. Sélectionnez **Angles d\'Euler** <img alt="Tache Placement Option Angles d\'Euler" src=images/Tache_Placement_fr_04.png  style="width   *256px;">.
 
-Cette option peut être plus facile à travailler, toutefois, même dans ce mode, il y a des choses importantes à retenir    * les rotations positives sont dans le sens **Horaire**, en regardant depuis l\'origine le long d\'un axe positif. Ou pour le dire autrement, les rotations positives sont dans le sens \'\'\' anti-horaire \'\'\', en regardant vers l\'origine le long d\'un axe positif.
+Cette option peut être plus facile à travailler, toutefois, même dans ce mode, il y a des choses importantes à retenir    * les rotations positives sont dans le sens **Horaire**, en regardant depuis l\'origine le long d\'un axe positif. Ou pour le dire autrement, les rotations positives sont dans le sens **anti-horaire**, en regardant vers l\'origine le long d\'un axe positif.
 
    **
 
@@ -139,7 +139,7 @@ Autres explications sur le [Placement](Placement/fr.md).
 
 
 
-[Category   *Command\_Reference](Category_Command_Reference.md)
+[Category   *Command_Reference](Category_Command_Reference.md)
 
 
 

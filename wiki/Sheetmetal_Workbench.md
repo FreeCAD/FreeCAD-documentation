@@ -1,5 +1,5 @@
 # Sheetmetal Workbench
-1.  REDIRECT [SheetMetal\_Workbench](SheetMetal_Workbench.md)
+1.  REDIRECT [SheetMetal_Workbench](SheetMetal_Workbench.md)
 
 
 

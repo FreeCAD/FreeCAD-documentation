@@ -62,7 +62,7 @@ Method 2 is to be preferred. Among the reasons   *
 
 
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

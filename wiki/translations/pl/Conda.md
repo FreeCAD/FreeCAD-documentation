@@ -92,7 +92,7 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 -   <https   *//github.com/FreeCAD/FreeCAD_Conda>
 -   <https   *//github.com/FreeCAD/FreeCAD-AppImage>
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

@@ -72,7 +72,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basabilirsiniz.
 -   **Göreceli**moduna geçmek için **R** tuşuna basın veya onay kutusunu tıklayın. Göreceli mod açıksa, ikinci noktanın koordinatları birincisine göredir; değilse, kesindir, kökenlerinden alınır (0,0,0).
 -   **Devam**moduna geçmek için **T** tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, Elips aracı şekli tamamladıktan sonra yeniden başlatılır ve araç düğmesine tekrar basmadan bir tane daha çizmenize olanak sağlar.
--   \'\'\' Dolu \'\'\' moduna geçmek için **L** tuşuna basın veya onay kutusunu tıklayın. Dolu mod açıksa, elips dolu bir yüz oluşturur ({{PropertyData/tr|Make Face}} `True`); değilse, elips bir yüz oluşturmaz ({{PropertyData/tr|Make Face}} `False`).
+-   **Dolu** moduna geçmek için **L** tuşuna basın veya onay kutusunu tıklayın. Dolu mod açıksa, elips dolu bir yüz oluşturur ({{PropertyData/tr|Make Face}} `True`); değilse, elips bir yüz oluşturmaz ({{PropertyData/tr|Make Face}} `False`).
 -   [Yakalama](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken **Ctrl** tuşunu basılı tutun.
 -   İlk noktanıza göre ikinci noktanızı yatay veya dikey olarak [Kısıtlama](Draft_Constrain/tr.md) çizerken **Shift** tuşunu basılı tutun.
 -   Geçerli komutu iptal etmek için **Esc** veya **Kapat** düğmesine basınız.

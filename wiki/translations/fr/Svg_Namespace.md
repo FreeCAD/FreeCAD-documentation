@@ -17,11 +17,11 @@ Vous devez insérer, quelque part dans votre code svg, où vous souhaitez que le
 
 \'\'\'), la ligne suivante    *
 
- {.xml}
+ xml
 
 
 
- {.xml}
+ xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
     xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
@@ -34,7 +34,7 @@ Ce qui suit doit être formaté comme dans l\'exemple ci-dessous    *
 -   xxx = pixel width (largeur)
 -   yyy = pixel height (hauteur)
 
- {.xml}
+ xml
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -55,7 +55,7 @@ Définit un texte dans un modèle qui peut être édité par FreeCAD.
 
 Exemple    *
 
- {.xml}
+ xml
 <text freecad   *EditableText="MyTitleText">
     <tspan>This is a title</tspan>
 </text>
@@ -67,7 +67,7 @@ Définit le premier point d\'un objet [Draft Dimension](Draft_Dimension/fr.md) (
 
 Exemple    *
 
- {.xml}
+ xml
 <g freecad   *basepoint1="0.5 4.34" freecad   *basepoint2="2.4 5.8" dimpoint="3.2 7.76">
     <path d="...">
 </g>
@@ -93,7 +93,7 @@ Cet exemple provient du cartouche de la feuille [A3 Paysage](Misc_templates/fr#A
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      id="g3587">
     <text
@@ -113,7 +113,7 @@ Cet exemple provient du cartouche de la feuille [A3 Paysage](Misc_templates/fr#A
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width   *300px;">
 
- {.xml}
+ xml
   <g
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
@@ -141,13 +141,13 @@ Cet exemple provient du cartouche de la feuille [A3 Paysage](Misc_templates/fr#A
 
 #### Explications
 
- {.xml}
+ xml
   <g
 
 
 Début du cadre
 
- {.xml}
+ xml
      style="fill   *none;stroke   *#000000;stroke-width   *0.13;stroke-linecap   *butt;stroke-linejoin   *miter"
      id="g578-7"
      transform="translate(0,4)">
@@ -155,20 +155,20 @@ Début du cadre
 
 Données dans le cadre
 
- {.xml}
+ xml
     <text
 
 
 Début du bloc de textes
 
- {.xml}
+ xml
        xml   *space="preserve"
        style="font-size   *4px;font-style   *normal;font-variant   *normal;font-weight   *normal;font-stretch   *normal;line-height   *125%;letter-spacing   *0px;word-spacing   *0px;fill   *#000000;fill-opacity   *1;stroke   *none;font-family   *sans;-inkscape-font-specification   *sans"
 
 
 Toutes les informations sur le texte qui va être affiché
 
- {.xml}
+ xml
        x="220.9935"
        y="228.95425"
        id="text3331"
@@ -177,13 +177,13 @@ Toutes les informations sur le texte qui va être affiché
 
 Coordonnées et renseignements du texte qui va être affiché.
 
- {.xml}
+ xml
        freecad   *editable="AuthorName"><tspan
 
 
 Ici **AuthorName** est la variable qui va mémoriser la chaîne **freecad   *editable** qui sera modifiée et affichée dans la feuille.
 
- {.xml}
+ xml
          sodipodi   *role="line"
          id="tspan3333"
          x="220.9935"
@@ -192,7 +192,7 @@ Ici **AuthorName** est la variable qui va mémoriser la chaîne **freecad   *edi
 
 Coordonnées et renseignements sur le texte qui est affiché par défaut, la balise **** délimite la fin du bloc texte.
 
- {.xml}
+ xml
     <text
     ...
     ...
@@ -221,7 +221,7 @@ Voir [Drawing Modèles](Drawing_templates/fr.md)
 
 }}
 
-[Category   *Poweruser\_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python\_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
+[Category   *Poweruser_Documentation](Category_Poweruser_Documentation.md) [Category   *Developer](Category_Developer.md) [Category   *Python_Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

@@ -24,7 +24,7 @@ Za pomocą tej makrodefinicji ujęcie widoku jest wyrównywane do bieżącej [P�
 
 Ikonka paska narzędzi ![](images/Macro_Align_Camera_to_Working_Plane.png )
 
-**Macro\_Align\_Camera\_to\_Working\_Plane.FCMacro**
+**Macro_Align_Camera_to_Working_Plane.FCMacro**
 
 
 {{MacroCode|code=

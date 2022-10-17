@@ -24,14 +24,14 @@ Rote Felder sind die Felder **\"freecad   * editable\"**, grüne Felder sind Anm
 
 ## Anwendung
 
-**Wenn Sie die Karte in Inkscape ändern, kann dies zu Programmproblemen führen (wenn Sie das Symbol auf dem Arbeitsblatt entfernen, dasselbe Problem mit FreeCAD), und eine Kopie von A3\_Landscape.svg.**
+**Wenn Sie die Karte in Inkscape ändern, kann dies zu Programmproblemen führen (wenn Sie das Symbol auf dem Arbeitsblatt entfernen, dasselbe Problem mit FreeCAD), und eine Kopie von A3_Landscape.svg.**
 funktionieren **PS   * Einige Zeichen wie & \$ werden nicht akzeptiert (und möglicherweise andere Sonderzeichen).**
 
 Wenn Sie Fragen haben oder eine Funktion hinzufügen möchten, wenden Sie sich an das französische Forum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 \* Das Fenster bleibt über anderen Fenstern und steuert so die Kassette, ohne das Programm zu verlassen.
 
--   Kopieren Sie den Code in eine Datei mit dem Namen **Macro\_CartoucheFC.FCMacro** und platzieren Sie ihn in Ihrem üblichen Makros-Verzeichnis.
--   Nachdem Sie Ihr Zeichenblatt mit dem Modul \"Zeichnen von FreeCAD\" erstellt haben, führen Sie das Makro **Macro\_CartoucheFC** aus.
+-   Kopieren Sie den Code in eine Datei mit dem Namen **Macro_CartoucheFC.FCMacro** und platzieren Sie ihn in Ihrem üblichen Makros-Verzeichnis.
+-   Nachdem Sie Ihr Zeichenblatt mit dem Modul \"Zeichnen von FreeCAD\" erstellt haben, führen Sie das Makro **Macro_CartoucheFC** aus.
 -   Beim Öffnen des Programms werden alle bereits in der Blattkassette vorhandenen Daten im Speicher gespeichert (wenn sie gefüllt sind). Alle diese Daten werden automatisch mit der Taste **Memo** und bleibt bis zum Abschluss des Programms im Speicher.
 -   Datumstaste **D.** und Zeit **H.** zeigte Datum und Uhrzeit des Systems an.
 
@@ -51,7 +51,7 @@ Mit der Schaltfläche **Apply** werden alle Felder der Patrone im Blatt gespeich
 
 ToolBar Icon ![](images/Macro_CartoucheFC.png )
 
-**Macro\_CartoucheFC.FCMacro**
+**Macro_CartoucheFC.FCMacro**
 
 
 {{MacroCode|code=
@@ -939,7 +939,7 @@ et
 ```
 
 (Ich hatte manchmal einen Fehler in der Ausführung, als das Symbol gelöscht wurde.)
-Dieses Modul funktioniert mit dem in FreeCAD enthaltenen Zeichnungsblatt. Dieses Blatt heißt \'\' \'Page\' \'\'. Ändern Sie nicht den Namen dieses Blattes!
+Dieses Modul funktioniert mit dem in FreeCAD enthaltenen Zeichnungsblatt. Dieses Blatt heißt *\'Page\'*. Ändern Sie nicht den Namen dieses Blattes!
 
 ## Revision
 

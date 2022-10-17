@@ -21,7 +21,7 @@ Dans l\'exercice suivant, nous verrons comment créer un dessin simple d\'un mod
 
 -   Passer à l'<img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md)
 -   Appuyez sur le bouton <img alt="" src=images/TechDraw_PageTemplate.svg  style="width   *16px;"> [TechDraw Page à partir d\'un modèle](TechDraw_PageTemplate/fr.md).
--   Sélectionnez le modèle **A4\_Portrait\_ISO7200TD**. Un nouvel onglet s\'ouvrira dans votre fenêtre FreeCAD montrant la nouvelle page.
+-   Sélectionnez le modèle **A4_Portrait_ISO7200TD**. Un nouvel onglet s\'ouvrira dans votre fenêtre FreeCAD montrant la nouvelle page.
 -   Dans la [vue en arborescence](tree_view/fr.md) (ou dans l\'onglet modèle), sélectionnez le modèle de chaise. Il sera très probablement nommé quelque chose comme \"Open CASCADE STEP translator.\"
 -   Appuyez sur le bouton <img alt="" src=images/TechDraw_View.svg  style="width   *16px;"> [TechDraw Vue](TechDraw_View/fr.md).
 -   Un objet Vue sera créé sur notre page. Sélectionnez l\'objet Vue dans l\'arborescence puis donnez à la vue les [propriétés](TechDraw_View/fr#Vue.md) dans l\'onglet de données de la vue combinée   *

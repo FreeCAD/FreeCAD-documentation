@@ -71,7 +71,7 @@ Select the sketch, press **F2**, and rename it to \"BaseSketch\".
 
 If we leave the sketch where it is, the example would be too easy, so let\'s change the sketch\'s position by altering its attachment offset.
 
-In the combo view (Data tab), look in the Attachment section of the properties pane, here we can see that BaseSketch has a support of XY\_Plane and is attached with mode Flat Face. Look further down and find attachment Offset and expand it, by clicking the plus sign next to it.
+In the combo view (Data tab), look in the Attachment section of the properties pane, here we can see that BaseSketch has a support of XY_Plane and is attached with mode Flat Face. Look further down and find attachment Offset and expand it, by clicking the plus sign next to it.
 
 Do the same for the Position sub heading. Change the X offset to 80mm, and the Y offset to 90mm.
 
@@ -85,21 +85,9 @@ The Sketch can now be padded <img alt="" src=images/PartDesign_Pad.svg  style="w
 
 Let\'s make the next sketch, it\'s not really important which one we choose, but the easiest one is the 20x20 isosceles triangle that pockets through the length of the block.
 
-
-<div id="CA1">
-
-
-</div>
-
 Make a new sketch, choose whichever plane you like (we\'re going to change its attachment anyway.)
 
-
-<div id="CA2">
-
-
-</div>
-
-Draw the triangle, make two sides equal and constrain it\'s length the same way as you did the Pad Length, only this time make the formula \"**Sketch.Constraints.width/2**\".
+Draw the triangle, make two sides equal and constrain its length the same way as you did the Pad Length, only this time make the formula \"**Sketch.Constraints.width/2**\".
 
 There should be two degrees of freedom remaining, they are the position with regards to the origin. Fix one of the corners to the origin so that the sketch looks thus   *-
 
@@ -147,7 +135,7 @@ It can be used with the addition of offsets to precisely position sketches witho
 
 FreeCAD tries to predict the attachment mode for you, and filters the modes available for the given selection.
 
-In this case, the options are \"Deactivated,\" \"**Normal To Edge**\" and \"Inertia 2-3\". Normal To Edge is in bold and is deemed the preferred selection.
+In this case, the options are \"Deactivated\", [\"**Normal To Edge**\"](Part_EditAttachment#Normal_to_edge.md) and [\"Inertia 2-3\"](Part_EditAttachment#Inertia_2-3.md). Normal To Edge is in bold and is deemed the preferred selection.
 
 The notification area at the top of the dialogue, shows a message in green stating the mode in use.
 
@@ -157,7 +145,7 @@ At this point you could make another selection, and see the difference in modes.
 
 The IsoscelesSketch is now correctly positioned so confirm and exit the dialogue.
 
-You can now [Pocket](PartDesign_Pocket.md) the sketch.
+You can now [pocket](PartDesign_Pocket.md) the sketch.
 
 ![centre\|Pocket](images/Pocket.png )
 
@@ -185,7 +173,7 @@ If you chose the wrong line, change it now. If the triangle is pointing the wron
 
 The RightAngleTriangleSketch is now in a position that will give us the correct Geometry after a pocket operation, however we can get a little inventive here, and position the sketch so that it makes it easier for us to attach further geometry later on. We are going to shift our sketch to the middle of the line so that it provides us with a vertex at the top of the corner [chamfer](Glossary#C.md).
 
-In the attachment dialogue, we are going to change the attachment mode from \"[Normal To Edge](Part_EditAttachment#Normal_to_edge.md)\" to \"[Inertia 2-3](Part_EditAttachment#Inertia_2-3.md)\". This will change the position to the centre of the line, it\'s beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Part EditAttachment](Part_EditAttachment.md). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
+In the attachment dialogue, we are going to change the attachment mode from [\"Normal To Edge\"](Part_EditAttachment#Normal_to_edge.md) to [\"Inertia 2-3\"](Part_EditAttachment#Inertia_2-3.md). This will change the position to the centre of the line, it\'s beyond the scope of this tutorial to describe all the attachment modes, their descriptions can be found at <img alt="" src=images/Part_Attachment.svg  style="width   *24px;"> [Part EditAttachment](Part_EditAttachment.md). Suffice to say inertia 2-3 uses the centre of mass and does the job here.
 
 ![centre\|Attachment Dialogue Inertia 2-3 mode](images/ADInertia.png )
 
@@ -205,8 +193,8 @@ In general it is better to position our sketches simply with attachment modes. B
 
 FreeCAD provides a number of ways to do this.
 
-1.  [Attachment offset](Part_Part2DObject#Property_Attachment_Offset.md), allows positioning relative to the local coordinates of the attachment point. (where the origin of the positioned sketch is attached.)
-2.  [Map Path parameter](Part_Part2DObject#Property_Map_Path.md) (in the Property data tab with show all enabled) This allows for the positioning along a selected edge.
+1.  [Attachment Offset](Part_Part2DObject#Property_Attachment_Offset.md), allows positioning relative to the local coordinates of the attachment point. (where the origin of the positioned sketch is attached.)
+2.  [Map Path](Part_Part2DObject#Property_Map_Path.md) (in the Property data tab with show all enabled) This allows for the positioning along a selected edge.
 3.  [Flip Sides/Map Reversed](Part_Part2DObject#Property_Map_Reversed.md). Effectively mirrors the sketch.
 
 For our final sketch, we will Attach it arbitrarily, and correct its position using the modifiers listed above.
@@ -233,7 +221,7 @@ At the bottom of the attachment dialogue is a check box labeled \'Flip Sides\', 
 
 The FinalSketch mirrors itself.
 
-Now we will translate through 90°. From the illustration FinalSketch above we can see the axis of revolution should be the X axis. In the Wiki this term is *[Roll](Tasks_Placement#Roll.md)*. Remember this is relative to the local Coordinate System. Enter 90° in the \"around X-axis\" box of the attachment offset section of the dialogue.
+Now we will translate through 90°. From the illustration FinalSketch above we can see the axis of revolution should be the X axis. In the Wiki this is called [\"Roll\"](Tasks_Placement#Roll.md). Remember this is relative to the local Coordinate System. Enter 90° in the \"around X-axis\" box of the attachment offset section of the dialogue.
 
 ![centre\|FinalSketch flipped and rotated](images/FSFlipRot.png )
 

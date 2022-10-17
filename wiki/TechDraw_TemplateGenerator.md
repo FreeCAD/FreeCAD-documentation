@@ -92,9 +92,9 @@ template_name = "MyTemplate.svg"
 template_file = os.path.join(template_path, template_name)
 }}
 
-**parameter\_path** receives the path to the \"folder\" within the configuration file where \"TemplateDir\" parameter can be found.  **template\_path** receives the content of \"TemplateDir\" which is the path to the template directory.  **template\_name** recieves the name of the template to be created.
+**parameter_path** receives the path to the \"folder\" within the configuration file where \"TemplateDir\" parameter can be found.  **template_path** receives the content of \"TemplateDir\" which is the path to the template directory.  **template_name** recieves the name of the template to be created.
 
-Now the template name needs to be linked to the template path in a way that is compatible to unix based OSs and Windows. This is done with the \"os.path.join\" command and stored into the **template\_file**.
+Now the template name needs to be linked to the template path in a way that is compatible to unix based OSs and Windows. This is done with the \"os.path.join\" command and stored into the **template_file**.
 
 ### \... to create a blank page 
 

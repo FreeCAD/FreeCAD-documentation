@@ -11,16 +11,24 @@
 |Download=[https   *//www.freecadweb.org/wiki/images/a/af/Macro_Animated_Constrain.png ToolBar Icon]<br/>Not file for testing [https   *//www.youtube.com/watch?v=kmqDcomLnk0 See the animation on YouTube.]
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Einfaches Makro zum Animieren von Winkelbeschränkungen im Skizzierer. Basierend auf der Arbeit von \@microelly. Animiere eine Beschränkung und prüfe die resultierenden Effekte.
+
+
+</div>
 
 
 {{Codeextralink|https   *//raw.githubusercontent.com/psicofil/Macros_FreeCAD/master/Macros/AnimatedConstrain.FCMacro}}
 
 ## Skript
 
-Das Makro findest du im folgenden Github Repositorium   *[Macro\_Animated\_Constrain.FCMacro](https   *//github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
+Das Makro findest du im folgenden Github Repositorium   *[Macro_Animated_Constrain.FCMacro](https   *//github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
 
 ToolBar Icon ![](images/Macro_Animated_Constrain.png )
 

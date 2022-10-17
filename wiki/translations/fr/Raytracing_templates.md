@@ -21,10 +21,10 @@ Lorsque vous avez un fichier .pov prêt, vous devez l\'ouvrir avec un éditeur d
 
 Notez que FreeCAD ajoutera également des déclarations que vous pourrez utiliser dans votre modèle, après la //RaytracingContent tag. Ceux-ci sont   *
 
--   cam\_location   * la location de la camera
--   cam\_look\_at   * la location de la cible de la camera
--   cam\_sky   * le vecteur supérieur de la camera.
--   cam\_angle   * l\'angle de la camera
+-   cam_location   * la location de la camera
+-   cam_look_at   * la location de la cible de la camera
+-   cam_sky   * le vecteur supérieur de la camera.
+-   cam_angle   * l\'angle de la camera
 
 Si vous souhaitez, par exemple, placer une lampe au-dessus de l\'appareil photo, vous pouvez utiliser ceci   * 
 ```python
@@ -46,7 +46,7 @@ Si vous exportez un fichier de scène à partir de blender et souhaitez tout fus
 
 Une fois votre fichier de scène prêt, pour le transformer en modèle FreeCAD, vous devez suivre les étapes suivantes   *
 
-1.  Localisez la position de la caméra, une ligne qui commence par LookAt, et supprimez-la (ou placez un \"\#\" au début de la ligne pour la commenter)
+1.  Localisez la position de la caméra, une ligne qui commence par LookAt, et supprimez-la (ou placez un \"#\" au début de la ligne pour la commenter)
 2.  À cet endroit, insérez la ligne suivante   * #RaytracingCamera
 3.  À un point souhaité, par exemple juste après la fin de la définition des matériaux, avant les informations de géométrie ou tout à la fin, juste avant la dernière ligne WorldEnd, insérez la ligne suivante   * #RaytracingContent. C\'est là que FreeCAD va insérer ses propres objets.
 

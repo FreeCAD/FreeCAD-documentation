@@ -15,7 +15,7 @@ O comandă în FreeCAD este o aplicație care se execută atunci când apăsați
 
 <div class="mw-translate-fuzzy">
 
-Fiecare comandă FreeCAD are un nume unic care apare în lista tuturor comenzilor [   *Category   *Command\_Reference](   *Category_Command_Reference.md). Comenzile pot fi invocate prin intermediul unui buton al barei de instrumente, al unei intrări în meniu, al unui script Python sau al consolei Python rulând   *
+Fiecare comandă FreeCAD are un nume unic care apare în lista tuturor comenzilor [   *Category   *Command_Reference](   *Category_Command_Reference.md). Comenzile pot fi invocate prin intermediul unui buton al barei de instrumente, al unei intrări în meniu, al unui script Python sau al consolei Python rulând   *
 
 
 </div>

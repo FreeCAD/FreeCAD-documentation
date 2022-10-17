@@ -21,7 +21,7 @@ Wszystkie narzędzia Środowiska pracy Siatka są dostępne w menu **Siatki**. P
 
 -   <img alt="" src=images/Mesh_Export.svg  style="width   *32px;"> [Eksport siatki\...](Mesh_Export.md)   * Eksport obiektów siatek do pliku.
 
--   <img alt="" src=images/Mesh_FromPartShape.svg  style="width   *32px;"> \[\[Mesh\_FromPartShape\|
+-   <img alt="" src=images/Mesh_FromPartShape.svg  style="width   *32px;"> \[\[Mesh_FromPartShape\|
 
 Utwórz siatkę z kształtu \...\]\]   * Tworzy obiekty siatkowe z obiektów kształtu.
 

@@ -43,7 +43,7 @@ L\'atelier CadQuery inclut des exemples de scripts disponibles dans les entrées
 
 Autres exemples   *
 
--   Prise en charge de l\'imprimante Prusa i3 (directement disponible en tant qu\'exemple de script de l\'atelier **Ex032\_3D\_Printer\_Extruder\_Support**)   * <https   *//github.com/adam-urbanczyk/cadquery-models>
+-   Prise en charge de l\'imprimante Prusa i3 (directement disponible en tant qu\'exemple de script de l\'atelier **Ex032_3D_Printer_Extruder_Support**)   * <https   *//github.com/adam-urbanczyk/cadquery-models>
 
 ## Dernière version de CadQuery 
 

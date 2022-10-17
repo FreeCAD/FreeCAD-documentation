@@ -1,5 +1,5 @@
 # Path 3DPocket/en
-1.  REDIRECT [Path\_Pocket\_3D/en](Path_Pocket_3D/en.md)
+1.  REDIRECT [Path_Pocket_3D/en](Path_Pocket_3D/en.md)
 
 
 

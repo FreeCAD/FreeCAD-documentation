@@ -1,5 +1,5 @@
 # TechDraw Dimension Landmark/de
-1.  REDIRECT [TechDraw\_LandmarkDimension/de](TechDraw_LandmarkDimension/de.md)
+1.  REDIRECT [TechDraw_LandmarkDimension/de](TechDraw_LandmarkDimension/de.md)
 
 
 

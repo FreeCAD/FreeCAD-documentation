@@ -1,5 +1,5 @@
 # Mesh CurvaturePlot/en
-1.  REDIRECT [Mesh\_VertexCurvature/en](Mesh_VertexCurvature/en.md)
+1.  REDIRECT [Mesh_VertexCurvature/en](Mesh_VertexCurvature/en.md)
 
 
 

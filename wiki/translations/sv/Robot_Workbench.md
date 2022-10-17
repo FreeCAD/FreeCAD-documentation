@@ -11,7 +11,7 @@ The reason this workbench is still in the master source code is because this wor
 
 <div class="mw-translate-fuzzy">
 
-Robot arbetsbänken är ett verktyg för simulering av 6-axliga industrirobotar, som t.ex. [Kuka](http   *//kuka.com/). Denna arbetsbänk är ett pågående arbete för att implementera ett off-line programmeringsverktyg för [Robot\_6-Axis](Robot_6-Axis/sv.md) industrirobotar i FreeCAD. You can do following tasks   *
+Robot arbetsbänken är ett verktyg för simulering av 6-axliga industrirobotar, som t.ex. [Kuka](http   *//kuka.com/). Denna arbetsbänk är ett pågående arbete för att implementera ett off-line programmeringsverktyg för [Robot_6-Axis](Robot_6-Axis/sv.md) industrirobotar i FreeCAD. You can do following tasks   *
 
 -   set up a simulation environment with a robot and work pieces
 -   create and fill up trajectories
@@ -89,7 +89,7 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
 
 ## Tutorials
 
--   [6-Axis\_Robot](Robot_6-Axis/sv.md)
+-   [6-Axis_Robot](Robot_6-Axis/sv.md)
 -   [VRML Preparation for Robot Simulation](VRML_Preparation_for_Robot_Simulation/sv.md)
 
 

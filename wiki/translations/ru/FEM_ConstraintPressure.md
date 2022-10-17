@@ -32,13 +32,7 @@ Applies a pressure constraint to a face.
 -   Pressure on faces   * <https   *//github.com/FreeCAD/FreeCAD/issues/5699>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

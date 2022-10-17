@@ -34,7 +34,7 @@ Opcje   *
 -   backgroundColor - tuple - (r,g,b,a)
 -   lineWidth - float - szerokość linii
 -   border - float - pusta przestrzeń wokół obrazu
--   mode - int - tryb renderowania (AS\_IS, WIREFRAME, POINTS, WIREFRAME\_OVERLAY, HIDDEN\_LINE, BOUNDING\_BOX)
+-   mode - int - tryb renderowania (AS_IS, WIREFRAME, POINTS, WIREFRAME_OVERLAY, HIDDEN_LINE, BOUNDING_BOX)
 
 {{APIFunction|addQGIToView|view, QGraphicsItem|add element QGraphicsItem ''(utworzony przy użyciu PySide)'' dla Widoku.|}}
 

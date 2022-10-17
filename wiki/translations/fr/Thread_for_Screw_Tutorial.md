@@ -126,7 +126,7 @@ Ce processus peut également être effectué à l\'aide des outils de l\'[Atelie
 2.  Dans ce cas, vous n\'avez pas besoin d\'un **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Corps](PartDesign_Body/fr.md)**. Passez à l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> [Atelier Sketcher](Sketcher_Workbench/fr.md), puis cliquez sur **[<img src=images/Sketcher_NewSketch.svg style="width   *16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)** et choisissez le plan global XZ.
 3.  Ensuite, retournez dans l\'<img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Atelier Part](Part_Workbench/fr.md) et utilisez **[<img src=images/Part_Sweep.svg style="width   *16px"> [Part Balayage](Part_Sweep/fr.md)**.
 4.  Sélectionnez l\'esquisse appropriée dans **Profil disponible** et cliquez sur la flèche pour la faire passer dans **Profils sélectionnés**.
-5.  Cliquez sur **Chemin de balayage** et choisissez toutes les arêtes de l\'hélice existante dans la [vue\_3D](3D_view/fr.md). Cliquez sur **Fait**.
+5.  Cliquez sur **Chemin de balayage** et choisissez toutes les arêtes de l\'hélice existante dans la [vue_3D](3D_view/fr.md). Cliquez sur **Fait**.
 6.  Assurez-vous de cocher {{CheckBox|TRUE|Créer un solide}} et {{CheckBox|TRUE|Frenet}}. L\'obtention d\'un solide est la clé pour pouvoir effectuer des [Part Opérations booléennes](Part_Boolean/fr.md) avec la bobine résultante, sinon seule une surface sera produite.
 7.  Cliquez sur **OK** pour quitter le dialogue et créer la bobine.
 

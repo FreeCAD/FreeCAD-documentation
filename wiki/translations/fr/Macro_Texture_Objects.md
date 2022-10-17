@@ -18,7 +18,7 @@ Cette macro permet de mettre temporairement une image qui servira de texture sur
 
 ## Script
 
-**Macro\_Texture\_Objects.FCMacro**
+**Macro_Texture_Objects.FCMacro**
 
 
 {{MacroCode|code=

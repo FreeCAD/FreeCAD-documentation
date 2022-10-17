@@ -109,12 +109,12 @@ Volba 1 je jednodušší volbou. Chcete-li udělat otvor na určitém místě ob
 
 One can use this to dimension one sketch off of another using the following order of operations   *
 
-1.  Vytvořte náčrt\#1
-2.  Nástrojem Deska nebo vysunutím z něj vytvořte těleso, těleso\#1
-3.  Vytvořte náčrt\#2 ve stejné rovině jako náčrt\#1
-4.  Přetáhněte linky tělesa\#1 do náčrtu\#2
-5.  Nástrojem Deska nebo vysunutím z náčrtu\#2 vytvořte těleso, těleso\#2
-6.  Volitelné skryjte těleso\#1
+1.  Vytvořte náčrt#1
+2.  Nástrojem Deska nebo vysunutím z něj vytvořte těleso, těleso#1
+3.  Vytvořte náčrt#2 ve stejné rovině jako náčrt#1
+4.  Přetáhněte linky tělesa#1 do náčrtu#2
+5.  Nástrojem Deska nebo vysunutím z náčrtu#2 vytvořte těleso, těleso#2
+6.  Volitelné skryjte těleso#1
 
 
 </div>

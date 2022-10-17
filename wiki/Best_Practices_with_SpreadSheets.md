@@ -15,14 +15,14 @@ Use the spreadsheet workbench to add a spreadsheet. Then put you important dimen
 
 Like programming good names can really help you keep track of what you are doing. So be systematic in making up your names. Some bad names   *
 
--   part\_size ( a radius, diameter\....? )
+-   part_size ( a radius, diameter\....? )
 -   distance ( what direction, from what? )
 
 Better names   *
 
--   bolt\_diameter
--   bolt\_length
--   shaft\_dia
+-   bolt_diameter
+-   bolt_length
+-   shaft_dia
 
 But note that you should try to be consistent   * try to use dia or diameter but not both.
 
@@ -34,13 +34,13 @@ Most values/measurements in the model that can be entered as numbers can also be
 
 Here is an approach   *
 
--   In the spreadsheet have a cell shaft\_radius, and another shaft\_clearance, each with a numerical value. The clearance is the amount ( in radius ) that the hole needs to be larger than the shaft for the parts to fit.
+-   In the spreadsheet have a cell shaft_radius, and another shaft_clearance, each with a numerical value. The clearance is the amount ( in radius ) that the hole needs to be larger than the shaft for the parts to fit.
 
 -   In a sketch where you have a circle for the shaft apply the radius   * when the value box come up press the formula icon at its right hand side, or hit the = sign. Now you can enter the formula   *
 
-ss.shaft\_radius. Note that as you type FreeCad will try to help, if you type ss.s then FreeCad will suggest shaft\_radius, and you can just click on it.
+ss.shaft_radius. Note that as you type FreeCad will try to help, if you type ss.s then FreeCad will suggest shaft_radius, and you can just click on it.
 
--   For a shaft hole try the radius ss.shaft\_radius + ss.shaft\_clearance
+-   For a shaft hole try the radius ss.shaft_radius + ss.shaft_clearance
 
 # Units
 
@@ -72,7 +72,7 @@ Base -\> Placement -\> Position ( x, y, z )
 
 The directions x, y, and z are not the x, y, and z of the overall model but of the plane of the sketch. z is always out of plane and x and y in the plane so the whole thing is a right handed coordinate system. Move z to get the plane to move perpendicular to z. This amount can ( and should ) be entered from the spreadsheet. Here is an example of the idea.
 
-Suppose you have a cube constructed from a sketch sitting on the xy plane and extending up in the z direction ( lets this be cube\_z\_size in the spreadsheet ). You want to \"drill\" some cylindrical holds on the top face half way down through the cube. The simple thing to do is attach a second sketch sitting on the top face. Don\'t. It is very liable to break on resizing. Instead place you sketch on the xy plane then set the sketches z position to cube\_z\_size. It now moves with the cube as if it were attached but is not subject to TNP. You set the depth of the holes ( in the pocket ) to cube\_z\_size/2 and now one parameter in the spread sheet changes everything in the model that needs changing.
+Suppose you have a cube constructed from a sketch sitting on the xy plane and extending up in the z direction ( lets this be cube_z\_size in the spreadsheet ). You want to \"drill\" some cylindrical holds on the top face half way down through the cube. The simple thing to do is attach a second sketch sitting on the top face. Don\'t. It is very liable to break on resizing. Instead place you sketch on the xy plane then set the sketches z position to cube_z\_size. It now moves with the cube as if it were attached but is not subject to TNP. You set the depth of the holes ( in the pocket ) to cube_z\_size/2 and now one parameter in the spread sheet changes everything in the model that needs changing.
 
 ## Datums
 
@@ -80,7 +80,7 @@ A datum is another way of moving a sketch placement. A datum ( for planes ) is s
 
 # Name the parts of the Model 
 
-After I have constructed a model I am often a bit confused as to what is what in the model and how the pieces relate to each other. Because of this I often name parts of the model and think that this is a best practice for some parts of some models. Say you have bolt holes based on a sketch. You could name the sketch bolt\_holes, then pocket them and name this bolt\_holes\.... well not quite two things with the same name is one route to insanity. So I prefix them po\_ for pocket (pd- for pad ), s\_ for sketch. The names are then s\_bolt\_holes and po\_bolt\_holes. As usual with names try to pick a scheme and stick to it.
+After I have constructed a model I am often a bit confused as to what is what in the model and how the pieces relate to each other. Because of this I often name parts of the model and think that this is a best practice for some parts of some models. Say you have bolt holes based on a sketch. You could name the sketch bolt_holes, then pocket them and name this bolt_holes\.... well not quite two things with the same name is one route to insanity. So I prefix them po\_ for pocket (pd- for pad ), s\_ for sketch. The names are then s_bolt_holes and po_bolt_holes. As usual with names try to pick a scheme and stick to it.
 
 # In the Sketch 
 
@@ -127,7 +127,7 @@ Reviews take a lot of time, these pretty much make sure the video is on topic, b
 -   **[FreeCAD Tutorial - Framing BasicShed Window - Sketch Driven, Part Attachment and Spreadsheet Driven - YouTube](https   *//www.youtube.com/watch?v=qoutY6HQyBY)** \-- fairly complex with 2 spreadsheets
 -   **[FreeCAD Excel CSV import 2019-05-13 - YouTube](https   *//www.youtube.com/watch?v=S_YHy_m1jwg)** \-- seems on topic, csv is nice addition
 -   **[FreeCAD 0.18 Expressions - YouTube](https   *//www.youtube.com/watch?v=ilkG1cwt1Ic)** \-- expressions are important, this covers in detail
--   **[FreeCAD Beginner - \#13 Spreadsheet for dimensions - Drawing tutorial not only for 3D print - YouTube](https   *//www.youtube.com/watch?v=3_p-hRKCKOA)** \-- basic intro
+-   **[FreeCAD Beginner - #13 Spreadsheet for dimensions - Drawing tutorial not only for 3D print - YouTube](https   *//www.youtube.com/watch?v=3_p-hRKCKOA)** \-- basic intro
 -   **[FreeCAD spreadsheet / parametric design - YouTube](https   *//www.youtube.com/watch?v=-HRDcCL73lM)** \-- some basics, no verbal narration
 -   **[(59) FreeCAD \| Spreadsheet, Part Design, Part Workbench - YouTube](https   *//www.youtube.com/watch?v=xWG05uh2sxM)** \-- basics for spreadsheets with several workbenches.
 -   **[FreeCAD Tutorial Part 3/3 \| Creation Parametric Assembly of Wind Turbine Using Spreadsheet - YouTube](https   *//www.youtube.com/watch?v=fjkxCXyHHnk)** \-- a lot of content about assembly, but includes use with spreadsheets.
@@ -141,10 +141,10 @@ Reviews take a lot of time, these pretty much make sure the video is on topic, b
 -   **[FreeCAD spreadsheet - parametric design - YouTube](https   *//www.youtube.com/watch?v=fQR-ef1FwJk)** a jewellery design application with 2 spreadsheets.
 -   **[046 FreeCAD Part Design Draft and new Spreadsheet Alias Control - YouTube](https   *//www.youtube.com/watch?v=xoeQqf_wlN4)** \-- new alias control, a feature I missed ( v.19 )
 -   **[How to create a ifcRoom from a Excel /CSV List with FreeCAD - YouTube](https   *//www.youtube.com/watch?v=TQYvez80Qhw)** \-- integration with Excel/CSV is not commonly covered. Also an interesting macro.
--   **[5\# Tuto 3 Freecad l\'atelier tableau (Spreadsheet) - YouTube](https   *//www.youtube.com/watch?v=vBmDO7qq7Go)**
+-   **[5# Tuto 3 Freecad l\'atelier tableau (Spreadsheet) - YouTube](https   *//www.youtube.com/watch?v=vBmDO7qq7Go)**
 -   **[Crazy Simple 3D Printed Enclosure with FreeCAD 0.18 Parametric Design Part 1 - YouTube](https   *//www.youtube.com/watch?v=OLIUQtrMGBo)** \-- real world example, nice. First of a 6 part series. Lots of detail. English audio.
 -   **[FreeCAD Tutorial - Parametrischer Möbelbau mit der PartDesign und Spreadsheet Workbench - YouTube](https   *//www.youtube.com/watch?v=63PfO0W5x-I)** seems to cover the basics, German audio.
--   **[FREECAD \#122 - L BAR - SPREADSHEET - YouTube](https   *//www.youtube.com/watch?v=PdpeQgsh3LQ)** nice video, music I can stand with very clear mouse/key indications.
+-   **[FREECAD #122 - L BAR - SPREADSHEET - YouTube](https   *//www.youtube.com/watch?v=PdpeQgsh3LQ)** nice video, music I can stand with very clear mouse/key indications.
 -   **[FreeCAD - Part variation with spreadsheets and Inventor Workbench - YouTube](https   *//www.youtube.com/watch?v=IjnB1zgYJm8)** Not best practice \.... but an interesting parametric add on, this is the only video at this time by this creator.
 -   **[FreeCAD - Parameterized Lead Screw using Construction Geometries - YouTube](https   *//www.youtube.com/watch?v=BcKklSvVpM8)** Fairly complex design, heavy use of spreadsheet.
 -   **[Tuto \|\| FreeCad 0.18    * apprendre à utiliser les tableurs - YouTube](https   *//www.youtube.com/watch?v=5HN6KuD87uE)** French ( I think ). A fairly complicated design with large spreadsheet.
@@ -163,12 +163,12 @@ Just starting this section, a draft inside a draft. Macros may or may not help y
 
 -   **[tools for the spreadsheet - FreeCAD Forum](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=20508)** \-- one result from the search above.
 
-## FreeCAD\_AliasManager pgilfernandez 
+## FreeCAD_AliasManager pgilfernandez 
 
 -   **[Macro Alias Manager - FreeCAD Documentation](https   *//wiki.freecadweb.org/Macro_Alias_Manager)**
--   **[pgilfernandez/FreeCAD\_AliasManager   * This macro helps managing aliases inside FreeCAD Spreadsheet workbench. It is able to create, delete, move aliases and create a \'part family\' group of files](https   *//github.com/pgilfernandez/FreeCAD_AliasManager)**
+-   **[pgilfernandez/FreeCAD_AliasManager   * This macro helps managing aliases inside FreeCAD Spreadsheet workbench. It is able to create, delete, move aliases and create a \'part family\' group of files](https   *//github.com/pgilfernandez/FreeCAD_AliasManager)**
 
-Review   * ( russ\_hensel, dec 2020, Version   * 0.19.23141 (Git) )
+Review   * ( russ_hensel, dec 2020, Version   * 0.19.23141 (Git) )
 
 -   Just want to create alias\'s from names in one column to another column.
 -   Installed with Addon Manager, this went fine. +
@@ -182,7 +182,7 @@ Review   * ( russ\_hensel, dec 2020, Version   * 0.19.23141 (Git) )
 
 -   **[uribench/SheetProperties   * FreeCAD Macro for manipulating properties of spreadsheet cells](https   *//github.com/uribench/SheetProperties)**
 
-Review   * ( russ\_hensel, dec 2020, Version   * 0.19.23141 (Git) )
+Review   * ( russ_hensel, dec 2020, Version   * 0.19.23141 (Git) )
 
 -   Just want to create alias\'s from names in one column to another column.
 -   Manual install, this went fine following directions at github but not sure about inclusion of \_\_init\_\_.py +
@@ -195,7 +195,7 @@ Review   * ( russ\_hensel, dec 2020, Version   * 0.19.23141 (Git) )
 
 -   **[Macro SpreadsheetTools - FreeCAD Documentation](https   *//wiki.freecadweb.org/Macro_SpreadsheetTools)**
 
-Review   * ( russ\_hensel, dec 2020, Version   * 0.19.23141 (Git) )
+Review   * ( russ_hensel, dec 2020, Version   * 0.19.23141 (Git) )
 
 -   Just want to create alias\'s from names in one column to another column.
 -   Installed with Addon Manager, this went fine. +
@@ -221,9 +221,9 @@ Review   * ( russ\_hensel, dec 2020, Version   * 0.19.23141 (Git) )
 -   **[Best practice   * fuselage + wing - FreeCAD Forum](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=33113)**
 -   **[Some Tutorials on Methodology (v0.17) - Master Sketch, Skeleton Geometry, Spreadsheets - FreeCAD Forum](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=43451)**
 
-[Category   *Sandbox‏‎](Category   *Sandbox‏‎.md) [Category   *Spreadsheet‏‎](Category   *Spreadsheet‏‎.md) [Category   *Tutorials‏‎](Category   *Tutorials‏‎.md)
+[Category   *Sandbox‏‎](Category   *Sandbox‏‎.md) [Category   *Spreadsheet‏‎](Category   *Spreadsheet‏‎.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox‏‎]]  ](Category_Sandbox‏‎]]  .md) > [Spreadsheet‏‎]]   ](Category_Spreadsheet‏‎]]   .md) > Best Practices with SpreadSheets
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox‏‎]]  ](Category_Sandbox‏‎]]  .md) > Best Practices with SpreadSheets

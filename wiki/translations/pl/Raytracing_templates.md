@@ -21,10 +21,10 @@ Gdy plik .pov jest już gotowy, należy otworzyć go w edytorze tekstu i wykona�
 
 Zauważ, że FreeCAD doda również pewne deklaracje, które możesz wykorzystać w swoim szablonie, po znaczniku //RaytracingContent. Są to   *
 
--   cam\_location   * położenie kamery
--   cam\_look\_at   * położenie punktu docelowego kamery
--   cam\_sky   * wektor górny kamery.
--   cam\_angle   * kąt kamery.
+-   cam_location   * położenie kamery
+-   cam_look_at   * położenie punktu docelowego kamery
+-   cam_sky   * wektor górny kamery.
+-   cam_angle   * kąt kamery.
 
 Można tego użyć, na przykład, do umieszczenia lampy nad aparatem   * 
 ```python
@@ -46,7 +46,7 @@ Jeśli eksportujesz plik sceny z blendera i chcesz scalić wszystko w jeden plik
 
 Po przygotowaniu pliku sceny, aby przekształcić go w szablon FreeCAD, należy wykonać następujące czynności   *
 
-1.  Znajdź pozycję kamery, pojedynczy wiersz zaczynający się od LookAt, i usuń go *(lub umieść znak \"\#\" na początku wiersza, aby go wykomentować)*.
+1.  Znajdź pozycję kamery, pojedynczy wiersz zaczynający się od LookAt, i usuń go *(lub umieść znak \"#\" na początku wiersza, aby go wykomentować)*.
 2.  W tym miejscu wstaw następujący wiersz   *#RaytracingCamera
 3.  W odpowiednim miejscu, na przykład tuż za końcem definicji materiałów, przed informacją o geometrii lub na samym końcu, tuż przed ostatnią linią WorldEnd, wstaw następującą linię   * #RaytracingContent.
 

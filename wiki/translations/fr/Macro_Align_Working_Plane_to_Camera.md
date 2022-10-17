@@ -24,7 +24,7 @@ Cette macro déplace le [Draft Plan de travail](Draft_SelectPlane/fr.md) au cent
 
 Icône de la barre d\'outils ![](images/Macro_Align_Working_Plane_to_Camera.png )
 
-**Macro\_Align\_Working\_Plane\_to\_Camera.FCMacro**
+**Macro_Align_Working_Plane_to_Camera.FCMacro**
 
 
 {{MacroCode|code=

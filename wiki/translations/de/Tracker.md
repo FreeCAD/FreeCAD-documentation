@@ -41,8 +41,8 @@ Wenn du möchtest, dass etwas in FreeCAD erscheint, das noch nicht implementiert
 2.  Starte einen Forumsbeitrag, um deinen Funktionsanfrage mit der Gemeinschaft über das [Diskussionsforum öffnen](http   *//forum.freecadweb.org/viewforum.php?f=8) zu diskutieren.
 3.  Sobald die Gemeinschaft damit einverstanden ist, dass es sich um ein gültige Funktion handelt, kannst du ein Ticket auf dem Fehlerverfolger öffnen (legen es unter *Funktionsanfrage* statt *Fehler* ab).
 
--   **ANMERKUNG \#1** Um die Dinge in Ordnung zu halten, denke bitte daran, die URL des Forumsbeitrag in das Ticket und die Ticketnummer (als Verknüpfung) in den Forumbeitrag zu verknüpfen.
--   **ANMERKUNG \#2** Beachte bitte, dass es keine Garantien gibt, dass dein Wunsch erfüllt wird.
+-   **ANMERKUNG #1** Um die Dinge in Ordnung zu halten, denke bitte daran, die URL des Forumsbeitrag in das Ticket und die Ticketnummer (als Verknüpfung) in den Forumbeitrag zu verknüpfen.
+-   **ANMERKUNG #2** Beachte bitte, dass es keine Garantien gibt, dass dein Wunsch erfüllt wird.
 
 ![FreeCAD Fehlerverfolger-Berichtsseite - verwende die Auswahlliste, um korrekt zu bestimmen, was das Ticket ist](images/MantisBT-setting-Feature-Request.jpg )
 
@@ -74,11 +74,11 @@ MantisBT (Mantis Bug Tracker) hat seine eigene einzigartige Kennzeichnung.
 
 -   **\#**1234 - Durch Hinzufügen eines Hashtags vor einer Nummer wird eine Verknüpfung zu einem anderen Ticket innerhalb von MantisBT angezeigt.
 
-       *   **Hinweis**\'   * wenn du der Maus über ein Ticket fährst, wird dir die Zusammenfassung angezeigt + wenn das Ticket geschlossen ist, wird es durchgestrichen wie \#1234.
+       *   **Hinweis**\'   * wenn du der Maus über ein Ticket fährst, wird dir die Zusammenfassung angezeigt + wenn das Ticket geschlossen ist, wird es durchgestrichen wie #1234.
 
 <img alt="" src=images/mantisbt-ticket-shortcut-example.jpg  style="width   *600px;">
 
--   **\~**5678 - eine Abkürzung, die auf einen Fehlerhinweis innerhalb eines Tickets verweist. Dies kann verwendet werden, um auf die Antwort von jemandem innerhalb des Beitrags zu verweisen. Jede Person, die einen Beitrag verfasst, zeigt eine eindeutige Nummer \~\#\#\#\# neben ihrem Benutzernamen. Wenn du dir das Bild im Beispiel ansiehst, siehst du, dass die Abkürzung auf die *Ticketnummer   *Kommentarnummer* des besagten Tickets verweist
+-   **\~**5678 - eine Abkürzung, die auf einen Fehlerhinweis innerhalb eines Tickets verweist. Dies kann verwendet werden, um auf die Antwort von jemandem innerhalb des Beitrags zu verweisen. Jede Person, die einen Beitrag verfasst, zeigt eine eindeutige Nummer \~#### neben ihrem Benutzernamen. Wenn du dir das Bild im Beispiel ansiehst, siehst du, dass die Abkürzung auf die *Ticketnummer   *Kommentarnummer* des besagten Tickets verweist
 
 <img alt="" src=images/mantisbt-comment-shortcut-example.jpg  style="width   *600px;">
 
@@ -142,29 +142,29 @@ Der FreeCAD Fehlerverfolger verfügt über ein ZUsatzprogramm namens [Quellinteg
 
 Durch die Verwendung dieses Musters wird ein Git Commit automatisch einem Ticket zugeordnet (**Hinweis   ***\' dies wird das Ticket nicht schließen). Das Format wird von MantisBT erkannt   * The format MantisBT will recognize   *
 
--   bug \#1234
--   bugs \#1234, \#5678
--   issue \#1234
--   issues \#1234, \#5678
--   report \#1234
--   reports \#1234, \#5678
+-   bug #1234
+-   bugs #1234, #5678
+-   issue #1234
+-   issues #1234, #5678
+-   report #1234
+-   reports #1234, #5678
 
 Für die Neugierigen hier ist die regex, die MantisBT für diese Operation verwendet   *
 
 
 ### Ferngesteuerte Lösung eines Tickets 
 
-Das Format wird von MantisBT erkannt   ** fix \#1234
+Das Format wird von MantisBT erkannt   ** fix #1234
 
--   fixed \#1234
--   fixes \#1234
--   fixed \#1234, \#5678
--   fixes \#1234, \#5678
--   resolve \#1234
--   resolved \#1234
--   resolves \#1234
--   resolved \#1234, \#5678
--   resolves \#1234, \#5678
+-   fixed #1234
+-   fixes #1234
+-   fixed #1234, #5678
+-   fixes #1234, #5678
+-   resolve #1234
+-   resolved #1234
+-   resolves #1234
+-   resolved #1234, #5678
+-   resolves #1234, #5678
 
 Für die Neugierigen hier ist die regex, die MantisBT für diese Operation verwendet   *
 

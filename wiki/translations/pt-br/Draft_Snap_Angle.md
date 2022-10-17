@@ -11,8 +11,6 @@
 
 The <img alt="" src=images/Draft_Snap_Angle.svg  style="width   *24px;"> **Draft Snap Angle** option snaps to the special cardinal points on circular edges, at multiples of 30° and 45°. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
-In FreeCAD version 0.19 and earlier this snap option only works properly for circular edges on a plane parallel to the XY plane of the global coordinate system.
-
 ![](images/Draft_Snap_Angle_example.png ) 
 *Snapping the second point of a line to the -30° point on a circular edge. The small magenta circles indicate all available special cardinal points.*
 

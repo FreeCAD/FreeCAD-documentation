@@ -82,7 +82,7 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 <div class="mw-translate-fuzzy">
 
--   \'\'\'FreeCAD, [Python modülü](Embedding_FreeCAD.md) olarak \'\'\', Python komut dosyalarını çalıştırabilen diğer uygulamaların içine veya bir Python konsoluna alınabilir. Konsol kipinde olduğu gibi, FreeCAD\'in arayüz kısmı kullanılamaz, ancak tüm geometri araçlarına erişilebilir.
+-   **FreeCAD, [Python modülü](Embedding_FreeCAD.md) olarak**, Python komut dosyalarını çalıştırabilen diğer uygulamaların içine veya bir Python konsoluna alınabilir. Konsol kipinde olduğu gibi, FreeCAD\'in arayüz kısmı kullanılamaz, ancak tüm geometri araçlarına erişilebilir.
 
 
 </div>

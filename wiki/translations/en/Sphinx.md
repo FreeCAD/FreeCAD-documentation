@@ -17,7 +17,7 @@ This document gives a brief introduction to Sphinx, in particular how it is used
 
 ## Sphinx and FreeCAD Preview 
 
-Encouraging results from David\_D   *
+Encouraging results from David_D   *
 
 -   [FreeCAD Forum Post](https   *//forum.freecadweb.org/viewtopic.php?p=411563#p411563)
 -   GitHub Repo - <https   *//github.com/DavidDaish/freecad_sphinx_docs>
@@ -31,7 +31,7 @@ Encouraging results from David\_D   *
 -   [Automatic Documentation Generation & Hosting](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=47229)
 -   [FreeCAD Forum Post](https   *//forum.freecadweb.org/viewtopic.php?p=411563#p411563) - <https   *//github.com/DavidDaish/freecad_sphinx_docs>
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md)
 
 
 

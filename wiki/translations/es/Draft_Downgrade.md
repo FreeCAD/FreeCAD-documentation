@@ -12,7 +12,7 @@
 
 ## Descripción
 
-El <img alt="" src=images/Draft_Downgrade.svg  style="width   *24px;"> comando \'\'\'Borrador Rebajar \'\'\' rebaja los objetos seleccionados. El resultado depende del número de objetos seleccionados y de su tipo. El comando puede, por ejemplo, deconstruir un sólido 3D en caras separadas y un hilo en aristas separadas. Si se seleccionan dos caras, se crea un objeto [Pieza Corte](Part_Cut/es.md) a partir de ellas. Tenga en cuenta que no todos los objetos pueden ser rebajados. Este comando es la contraparte del comando [Borrador Elevar](Draft_Upgrade/es.md).
+El <img alt="" src=images/Draft_Downgrade.svg  style="width   *24px;"> comando **Borrador Rebajar** rebaja los objetos seleccionados. El resultado depende del número de objetos seleccionados y de su tipo. El comando puede, por ejemplo, deconstruir un sólido 3D en caras separadas y un hilo en aristas separadas. Si se seleccionan dos caras, se crea un objeto [Pieza Corte](Part_Cut/es.md) a partir de ellas. Tenga en cuenta que no todos los objetos pueden ser rebajados. Este comando es la contraparte del comando [Borrador Elevar](Draft_Upgrade/es.md).
 
 <img alt="" src=images/Draft_Downgrade_example.jpg  style="width   *400px;"> 
 *Dos caras superpuestas se rebajan a un objeto Pieza Corte, que se rebaja a una cara. Esa cara se rebaja a continuación a un hilo cerrado, que finalmente se rebajan a aristas separadas.*

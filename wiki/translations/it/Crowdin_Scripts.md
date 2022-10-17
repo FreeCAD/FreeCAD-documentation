@@ -56,7 +56,7 @@ Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory loc
 -   python updatecrowdin.py build (crea un file zip nel sito di crowdin con tutti i file, può richiedere un po \'di tempo. Questo passaggio può essere fatto anche sul sito Web di crowdin)
 -   python updatecrowdin.py download (scarica un file freecad.zip in questa directory)
 -   mv freecad.zip \~ sposta il file zip nella vostra directory home, per evitare un commit accidentalmente in seguito)
--   (optionale) edita lo updatefromcrowdin.py script e controlla che le default\_languages contengano tutte le lingue che si vuole (in pratica tutte quelle che superano il 50% di traduzione)
+-   (optionale) edita lo updatefromcrowdin.py script e controlla che le default_languages contengano tutte le lingue che si vuole (in pratica tutte quelle che superano il 50% di traduzione)
 -   python updatefromcrowdin.py -z /home/YourUser/freecad.zip
 -   cd ../.. (torna alla cartella radice del codice sorgente)
 -   Se qualcosa è andato storto o non si è sicuri, pulire tutto con il git checkout.

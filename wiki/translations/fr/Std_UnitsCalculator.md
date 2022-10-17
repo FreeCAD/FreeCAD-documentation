@@ -48,7 +48,7 @@ La commande **Std Convertisseur d\'unités** ouvre la boîte de dialogue calcula
 1.  Sélectionnez une option dans la liste déroulante **Système d\'unités**. Ce sera le système d\'unités cible. Sélectionnez **Preference system** pour utiliser le système d\'unités défini dans [Préférences](Preferences_Editor/fr#Unit.C3.A9s.md).
 2.  Sélectionnez une option dans la liste déroulante **Catégorie d\'unité**.
 3.  Entrez une valeur avec des unités dans la zone de saisie **Quantity**. Les unités doivent correspondre à la catégorie d\'unité.
-    -   Si la catégorie d\'unité \'\' \'Zone\' \'\' a été sélectionnée, la saisie de certaines unités est problématique. Par exemple, pour saisir {{Value|m^2}}, vous devez d\'abord saisir {{Value|m^2}}, placez le curseur avant le caractère {{Value|^}}, puis entrez {{Value|m}}.
+    -   Si la catégorie d\'unité *\'Zone\'* a été sélectionnée, la saisie de certaines unités est problématique. Par exemple, pour saisir {{Value|m^2}}, vous devez d\'abord saisir {{Value|m^2}}, placez le curseur avant le caractère {{Value|^}}, puis entrez {{Value|m}}.
 4.  Cliquez dans la zone de saisie **Décimales** et appuyez sur **Entrée** pour convertir la valeur dans la zone de saisie **Quantity**.
 
 ## Remarques

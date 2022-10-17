@@ -15,9 +15,9 @@
 
 ## Описание
 
-**ElementGeometry1D** is used to define cross sections for beam elements. Currently the following types of cross sections are available   * rectangular, circular and pipe.
+Команда **Поперечное сечение балки** используется для определения поперечных сечений элементов балки. В настоящее время доступны следующие типы поперечных сечений   * прямоугольное, круглое и трубное.
 
-## Использование
+## Применение
 
 1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [FEM ElementGeometry1D](FEM_ElementGeometry1D.md)** button.
@@ -38,16 +38,10 @@
 
 -   For viewing results from CalculiX solver on the mesh expanded to the prescribed cross section, property `Beam Shell Result Output 3D` in the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) need to be set to `True`.
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
+## Программирование
 
 
 
-
-
-</div>
 
 
 {{FEM Tools navi

@@ -26,7 +26,7 @@ Einfaches Makro, um den aus der zuvor in der 3D-Ansicht gewählten Oberfläche N
 
 ToolBar Icon ![](images/Macro_Normal_Vector.png )
 
-**Macro\_Normal\_Vector.FCMacro**
+**Macro_Normal_Vector.FCMacro**
 
 
 {{MacroCode|code=

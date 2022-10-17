@@ -1,5 +1,5 @@
 # Path Project/fr
-1.  REDIRECT [Path\_Job/fr](Path_Job/fr.md)
+1.  REDIRECT [Path_Job/fr](Path_Job/fr.md)
 
 
 

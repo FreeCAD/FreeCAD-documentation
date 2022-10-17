@@ -34,7 +34,7 @@ Questa macro è un esempio di utilizzo dei principali comandi della finestra di 
 
 <center>
 
-Image   *Qt\_Example\_00.png\|Esempio con Qt Image   *Qt\_Example\_01.png\|Descrizione dell\'esempio Qt
+Image   *Qt_Example_00.png\|Esempio con Qt Image   *Qt_Example_01.png\|Descrizione dell\'esempio Qt
 
 
 </center>
@@ -73,7 +73,7 @@ Sono trattati   *
 15. Campo editabile con un testo
 16. Campo di vista grafica con 2 grafici
 
-La pagina del codice e delle icone   * [Qt\_Example](Qt_Example/it.md)
+La pagina del codice e delle icone   * [Qt_Example](Qt_Example/it.md)
 
 
 </div>
@@ -130,7 +130,7 @@ Windows    * \"**C   *Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
 ## Script
 
-The contents of the file **Qt\_Example.FCMacro** are given below   *
+The contents of the file **Qt_Example.FCMacro** are given below   *
 
 
 {{MacroCode|code=

@@ -47,7 +47,7 @@ Copiez la macro et son icône dans votre répertoire de macro habituelle.
 
 L\'icone pour votre barre d\'outils <img alt="" src=images/FCCreaLoft.png  style="width   *64px;">
 
-Téléchargez la macro sur Gist [**Macro\_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
+Téléchargez la macro sur Gist [**Macro_FCCreaLoft.FCMacro**](https   *//gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
 
 ## Liens
 

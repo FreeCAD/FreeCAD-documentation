@@ -56,7 +56,7 @@ Aquí usaremos el archivo example005.scad de los (antiguos) ejemplos de OpenSCAD
 ## Relacionados
 
 -   [FreeCAD Cómo Importar Exportar](FreeCAD_Howto_Import_Export/es.md)
--   \[\[Import\_Export\_Preferences/es\|Preferencias de importación y exportación
+-   \[\[Import_Export_Preferences/es\|Preferencias de importación y exportación
 
 \]\]
 

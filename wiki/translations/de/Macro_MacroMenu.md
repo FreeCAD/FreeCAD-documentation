@@ -13,13 +13,13 @@
 
 ## Beschreibung
 
-Dieser Code war Teil des [Draft Module](Draft_Workbench/de.md) und wurde entfernt [issue \#490](http   *//freecadweb.org/tracker/view.php?id=490).
+Dieser Code war Teil des [Draft Module](Draft_Workbench/de.md) und wurde entfernt [issue #490](http   *//freecadweb.org/tracker/view.php?id=490).
 
 ## Skript
 
 Werkzeugleistensymbol ![](images/Macro_MacroMenu.png )
 
-**Macro\_MacroMenu.FCMacro**
+**Macro_MacroMenu.FCMacro**
 
 
 {{MacroCode|code=

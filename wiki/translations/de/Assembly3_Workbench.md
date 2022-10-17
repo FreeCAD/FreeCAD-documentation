@@ -74,7 +74,7 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
    ** <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width   *32px;"> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)   * Smarte Berechnung. Standardmäßig aktiviert.
 
-   ** <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width   *32px;"> [Element automatisch fixieren](Assembly3_AutoFixElement/de.md)   * Automatische Elementfixierung. Experimentelle Funktion in 0.19\_pre
+   ** <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width   *32px;"> [Element automatisch fixieren](Assembly3_AutoFixElement/de.md)   * Automatische Elementfixierung. Experimentelle Funktion in 0.19_pre
 
    ** Element Darstellung. Dies hat zwei Einstellmöglichkeiten   *
 
@@ -110,7 +110,7 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
 #### Hauptwerkzeugleiste für Bedingungen 
 
-   *   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *28px;">
+   *   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width   *14px;"><img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -137,9 +137,15 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
    **   * Die Flächen werden mit deckungsgleichen Ursprüngen komplanar ausgerichtet oder optional parallel mit Abstand.
 
-   ** <img alt="" src=images/Part_Attachment.svg‎‎  style="width   *32px;"> [Befestigung](Assembly3_ConstraintAttachment/de.md)   * Zum Befestigen eines Teils an ein zweites mittels der ausgewählten (Geometrie-) Elemente.
+   ** Befestigung. Dies hat zwei Varianten
 
-   **   * Diese Bedingung verbindet beide Teile starr miteinander.
+   **\* <img alt="" src=images/Part_Attachment.svg‎‎  style="width   *32px;"> [Befestigung](Assembly3_ConstraintAttachment/de.md)   * Zum Befestigen eines Teils an ein zweites mittels der ausgewählten (Geometrie-) Elemente.
+
+   **\*   * Diese Bedingung verbindet beide Teile starr miteinander.
+
+   **\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg‎‎  style="width   *32px;"> [BefestigungVersatz](Assembly3_ConstraintAttachmentOffset/de.md)   * Wie die Bedingung \"Befestigung\", aber unter Beibehaltung der relativen Ausrichtung der beteiligten Teile durch Anpassung der Offset-Werte eines Elements.
+
+   **\*   * Diese Bedingung verbindet beide Teile starr miteinander.
 
    ** <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *32px;"> [Axiale Ausrichtung](Assembly3_ConstraintAxial/de.md)   * Zum axialen Ausrichten (Fluchten) von Kanten und Flächen zweier oder mehrerer Teile.
 
@@ -347,9 +353,6 @@ Hinweis   * Wenn der Gleichungslöser auf eine Kombination trifft, die nicht gel
 
 Assembly3-Bedingungen definieren, wie die Möglichkeiten der Positionierung oder Orientierung zwischen zwei [Elementen](#Elemente.md) reduziert werden. Einige Bedingungen arbeiten sogar mit mehr als zwei Elementen. Ein Element kann eine Fläche, eine Linie oder Kante oder ein Punkt eines Teils sein. Im Allgemeinen werden Bedingungen definiert, indem man erst die gewünschten Elemente und dann die Bedingung aus einer der [Werkzeugleisten](#Werkzeugleisten.md) für Bedingungen auswählt.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Fixiert 6 Freiheitsgrade, 0 bleiben unbestimmt   *
     -   **Fixierung (Schloss)**   * Die Fixiereinschränkung legt alle Freiheitsgrade einer Fläche. Sie sollte in jedem Zusammenbau zur Festlegung eines Basisteils genutzt werden. Es ist sinnvoll auch gleich die \"Bewegung ausschließen für fixierte Teile\"-Funktion (in der Werkzeugleiste) zu aktivieren, um damit ein unbeabsichtigtes Verschieben zu verhindern. In der Regel ist es egal welche Fläche, Linie oder Punkt benutzt wird um ein Teil zu fixieren. Man beachte, dass die Fixierung nur auf den aktuellen Zusammenbau wirkt, d.h. im Falle einer Unterbaugruppe braucht der übergeordnete Zusammenbau noch ein eigenes fixiertes Teil.
     -   **Anhang**   * Legt die Koordinatensysteme der ausgewählten Elemente (zweier oder mehrerer Teile) deckungsgleich aufeinander. Dies ist die für die Berechnung günstigste Funktion und sollte, wo immer möglich, benutzt werden. Man beachte, dass man die Eigenschaften der Elemente nutzen kann, um Abstände und Winkel einzustellen, wenn die [Elemente](#Elements.md) nicht optimal zueinander ausgerichtet sind.
@@ -362,7 +365,7 @@ Assembly3-Bedingungen definieren, wie die Möglichkeiten der Positionierung oder
     -   **Same Orientation**   * fixes Rx,Rz,Rz. All T\'s remain free.
     -   **Points Coincident**   * fixes Tx,Ty,Tz. All R\'s remain free.
     -   **PointOnPoint** constraint eliminates the 3 translations.
-    -   **Plane Alignment**   * fixes Tz, Rx,Ry. In plane motion and Rz. This eliminates the translation along the normal to the reference plane and the two rotations around the axes of this plane.
+    -   **Plane Alignment**   * fixes Tz, Rx,Ry (plane motion) and Rz. This eliminates the translation along the normal to the reference plane and the two rotations around the axes of this plane.
 -   Fixiert 2 Freiheitsgrade, 4 bleiben unbestimmt   *
     -   **Multi Parallel**   * fixes Rx,Ry. all T\'s and Rz remain. This eliminates the two rotations around the axes of the reference plane.
 -   Fixiert 1 Freiheitsgrad, 5 bleiben unbestimmt   *
@@ -375,9 +378,6 @@ Other
 
 -   **Points on Circle**   * fixes Tz and partially Tx,Ty. Freezes the point translation (or several points) on a circle or disk area. You must pick the circle second. This leaves all rotations free and gives limited translation in the circle reference plane.
 
-
-</div>
-
 \'\'   * Hinweis   * In der folgenden Liste werden Tx,Ty,Tz und Rx,Ry,Rz benutzt, um Translations- (Verschiebe-) und Rotations- (Dreh-) Bewegungen bezogen auf die Koordinatenachsen des betreffenden Elements zu beschreiben. Dies ist nicht immer exakt oder vollständig beschrieben, wie z.B. wenn es eine Linie betrifft, ist es nicht definiert, ob sie in X-Richtung, Y-Richtung oder einem beliebigen Winkel dazwischen verläuft. Das System sorgt eher für Kürze und einfache Vergleichbarkeit, als für eine korrekte aber komplexere Definition. So ist Z normalerweise die Richtung der Flächennormalen der betroffenen Flächen.
 
 [Zum Anfang](#top.md)
@@ -388,49 +388,25 @@ Elemente wird in der Assembly3-Arbeitsumgebung als besonderer Begriff benutzt, u
 
 Es ist hilfreich ein Element als einen generellen Begriff für \'auswählbarer Bestandteil\' eines Teiles zu sehen wie z.B. eine Fläche , eine Kante, ein Kreis, eine Ecke oder ein Punkt. Dies sind die Elemente, die ausgewählt werden, um Teile zueinander in Beziehung zu setzen. Im Baum hat ein \'Assembly\'-Ordner drei Unterordner. Neben \'Parts\' und \'Constraints\' gibt es einen Ordner namens \'Elements\', der leer bleibt, solange keine Einschränkungen hinzugefügt werden. Wenn eine Einschränkungen hinzugefügt wird, erhält sie selbst zwei (oder mehr) Blätter, dies sind die ausgewählten Elemente. Auch werden diese Elemente dem \'Elements\'-Ordner hinzugefügt, der eine Liste aller im Zusammenbau benutzten Elemente darstellt. Es ist eine gute Idee, ihre Namen zu ändern (mit der F2-Taste), besonders in größeren Zusammenbauten.
 
-
-<div class="mw-translate-fuzzy">
-
 Sehen wir uns ein Beispiel an
 
    *   Es wird eine neue Datei erstellt und mit der Part-Arbeitsumgebung ein Würfel und ein Zylinder hinzugefügt. Es soll der Zylinder auf den Würfel gestellt werden. Zuerst wird das Basisteil fixiert, in diesem Fall der Würfel. Dazu wird die Unterseite des Würfels und danach die Fixiereinschränkung (das erste Symbol in der [Werkzeugleiste](#Toolbars.md) der Haupteinschränkungen) ausgewählt. Es werden die Oberseite des Würfels und die Oberseite des Zylinders ausgewählt. Danach wird die \'Plane Coincident\'-Einschränkung ausgewählt. Nun hat sich der Zylinder in den Würfel hinein bewegt und im Baum wurde ein neues Blatt mit zwei Kindknoten unter \'Constraints\' hinzugefügt. Zusätzlich wurden die selben zwei Kindknoten unter \'Elements\' hinzugefügt. Falls der Zylinder im Inneren des Würfels liegt, anstatt auf seiner Oberseite wird dies als nächstes korrigiert   * Den Kindknoten unter \'Constraints\' auswählen, zu dem die Zylinderfläche gehört, und mit einem Rechtsklick im Kontextmenü \'Flip Part\' auswählen. Nun wurde der Zylinder auf die Würfeloberseite gestapelt.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Der wichtigste Gedanke, den es zu verstehen gilt, ist dass die Beschränkung auf Verknüpfungen zu Elementen in der Liste im \"Elements\"-Baumabschnitt wirkt. Dies erlaubt, die Bindungsstruktur intakt zu halten, während die Teile geändert werden. Dies ist ohne ein Beispiel sehr schwer zu erkennen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Der wesentliche Punkt für das Verständnis ist, dass die Randbedingung mit Verknüpfungen zu Elementen in der Liste des \"Elements\"-Baumabschnitts arbeitet. Dies erlaubt, die Bindungsstruktur intakt zu halten, während die Teile geändert werden. Dies ist ohne ein Beispiel sehr schwer zu erkennen.
 
 Zurück zum obigen Beispiel
 
-   *   Achtung   * Es sollte darauf geachtet werden, dass die Fixiereinschränkung zum Würfel hinzugefügt wurde, andernfalls wird es verwirrend aussehen.
-   *   Im CAD-Fenster wird eine weitere Fläche des Würfels ausgewählt. Ab jetzt wird nur noch in der Baumansicht gearbeitet. Im Baum wird die Maus über dem auszuwählenden Würfel platziert. Der Würfel wird per \'Drag&Drop\' auf den \'Elements\'-Ordner gezogen und abgelegt. Das Ablegen sollte auf dem Namen des \'Elements\' erfolgen, nicht anderswo im Ordner - warum, sehen wir später. Es sollte erkennbar sein, das ein weiteres Element zur \'Elements\'-Liste hinzugefügt wurde. Nun wird im \'Constraints\'-Ordner der Kindknoten der Würfelfläche in der \'Plane Coincident\'-Einschränkung ausgewählt und aus der Liste entfernt. Die Einschränkung ist nun mit einem Ausrufezeichen gekennzeichnet, da ihr ein Element fehlt. Hierbei ist zu beachten, dass ein Element, das aus der Einschränkung entfernt wurde, *nicht* auch aus der (Element-)Liste gelöscht wurde. Der Grund dafür ist, dass in der Einschränkung nur ein Verweis zum Element in der Liste abgelegt wird. Nun kann das neu zur \'Elements\'-Liste hinzugefügte Element per \'drag&drop\' auf die \'Plane Coincident\'-Einschränkung gezogen und abgelegt. Damit bewegt sich der Zylinder zu der anderen Fläche des Würfels, die vorher ausgewählt wurde. Wenn der Zylinder im Inneren des Würfels liegt, muss nochmals im Kontextmenü \'flip part\' ausgewählt werden.
+   *   Achtung   * Es sollte darauf geachtet werden, dass die Fixierbedingung zum Würfel hinzugefügt wurde, andernfalls wird es merkwürdig aussehen.
+   *   Im CAD-Fenster wird eine weitere Fläche des Würfels ausgewählt. Ab jetzt wird nur noch in der Baumansicht gearbeitet. In der Baumansicht wird die Maus verwendet; der Würfel sollte ausgewählt sein. Der Würfel wird per \'Drag&Drop\' auf den \'Elements\'-Ordner gezogen und abgelegt. Das Ablegen sollte auf dem Namen des \'Elements\' erfolgen, nicht anderswo im Ordner - warum, sehen wir später. Es sollte erkennbar sein, dass ein weiteres Element zur \'Elements\'-Liste hinzugefügt wurde. Nun wird im \'Constraints\'-Ordner der Kindknoten der Würfelfläche in der Bedingung \'Plane Coincident\' ausgewählt und aus der Liste entfernt. Die Bedingung ist nun mit einem Ausrufezeichen gekennzeichnet, da ihr ein Element fehlt. Hierbei ist zu beachten, dass ein Element, das aus der Bedingung entfernt wurde, *nicht* auch aus der (Element-)Liste gelöscht wurde. Der Grund dafür ist, dass in der Einschränkung nur ein Verweis zum Element in der Liste abgelegt wird. Nun kann das neu zur \'Elements\'-Liste hinzugefügte Element per \'drag&drop\' auf die Bedingung \'Plane Coincident\' gezogen und abgelegt werden. Damit bewegt sich der Zylinder zu der anderen Fläche des Würfels, die vorher ausgewählt wurde. Wenn der Zylinder im Inneren des Würfels liegt, muss nochmals im Kontextmenü \'flip part\' ausgewählt werden.
 
+Das Beispiel zeigt, dass man die zur Randbedingung gehörenden Elemente austauschen kann, ohne die Bedingung zu Löschen. Auf dieselbe Weise kann der Zylinder auch zu einem ganz anderen Teil bewegt werden. Nachdem man etwas mit diesem Beispiel herumgespielt hat, wird man noch zusätzliche Möglichkeiten entdecken, wie z.B.   *
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Beispiel zeigt, dass man die zur Einschränkung gehörenden Elemente austauschen kann, ohne die Einschränkung zu Löschen. Auf dieselbe Weise kann der Zylinder auch zu einem ganz anderen Teil bewegt werden. Nachdem man etwas mit diesem Beispiel herumgespielt hat, wird man noch zusätzliche Möglichkeiten entdecken, wie z.B.
-
--   Wenn ein Element in der Liste umbenannt wird, wird es auch in allen Einschränkungen umbenannt
--   Ein Element der Liste kann für mehrere Einschränkungen verwendet werden.
--   Das Eigenschaftsfenster eines Elements kann verwendet werden, um \'\'\'Versatzangaben \'\'\' (Offsets) hinzuzufügen. Z.B. kann hiermit der Zylinder auf unterschiedliche Positionen auf der gewählten Würfelfläche platziert werden.
--   Man kann den \'Show Element Coordinate System\'-Knopf der Hauptwerkzeugleiste benutzen, um zu sehen, wie sich \'Flip Part\' und \'Flip Element\' aus dem Kontextmenü auswirken. Nicht vergessen, die Änderungen im Eigenschaftsfenster zu beobachten.
--   Eine Einschränkung kann auch in einer ganz anderen Reihenfolge hinzugefügt werden   * Zuerst werden Elemente zur \'Elements\'-Liste hinzugefügt (Eine Benennung ist hier nützlich, z.B. \"Würfel-Oberseite\" oder \"Würfel-Unterseite\"), dann wird eine Einschränkung hinzugefügt, ohne etwas auszuwählen - Das ergibt eine leere Einschränkung. Dann werden Elemente aus der Liste per \'Drag&Drop\' hierher gezogen und abgelegt. Das Ergebnis ist das gleiche, wie in dem ersten Beispiel. Nach dieser Übung sollte klar sein, wie Einschränkungen und Elemente zusammenarbeiten.
--   Eine bestehende Einschränkung zwischen bestehenden Elementen kann einfach ausgetauscht werden, indem man eine andere Auswahl in der \'ConstraintType\'-Eigenschaft im Eigenschaftsfenster trifft.
-
-
-</div>
+-   Wenn ein Element in der Liste umbenannt wird, wird es auch in allen Bedingungen umbenannt
+-   Ein Element der Liste kann für mehrere Randbedingungen verwendet werden.
+-   Das Eigenschaftenfenster eines Elements kann verwendet werden, um **Versatzangaben** (Offsets) hinzuzufügen. Z.B. kann hiermit der Zylinder auf unterschiedliche Positionen auf der gewählten Würfelfläche platziert werden.
+-   Man kann die Schaltfläche \'Show Element Coordinate System\' der Hauptwerkzeugleiste benutzen, um zu sehen, wie sich \'Flip Part\' und \'Flip Element\' aus dem Kontextmenü auswirken. Nicht vergessen, die Änderungen im Eigenschaftenfenster zu beobachten.
+-   Eine Randbedingung kann auch in einer ganz anderen Reihenfolge hinzugefügt werden   * Zuerst werden Elemente zur \'Elements\'-Liste hinzugefügt (Eine Benennung ist hier nützlich, z.B. \"Würfel-Oberseite\" oder \"Würfel-Unterseite\"), dann wird eine Bedingung hinzugefügt, ohne etwas auszuwählen - Das ergibt eine leere Randbedingung. Dann werden Elemente aus der Liste per \'Drag&Drop\' hierher gezogen und abgelegt. Das Ergebnis ist das gleiche, wie in dem ersten Beispiel. Nach dieser Übung sollte klar sein, wie Randbedingungen und Elemente zusammenarbeiten.
+-   Eine bestehende Bedingung zwischen bestehenden Elementen kann einfach ausgetauscht werden, indem man eine andere Auswahl in der \'ConstraintType\'-Eigenschaft im Eigenschaftenfenster trifft.
 
 [Zum Anfang](#top.md)
 
@@ -444,40 +420,18 @@ Obwohl sie möglicherweise ähnliche Werkzeuge haben, ist Assembly3 nicht kompat
 
 [Zum Anfang](#top.md)
 
+## Installation
 
-<div class="mw-translate-fuzzy">
+Der Arbeitsbereich [Assembly3](Assembly3_Workbench/de.md) ist (seit März 2022) über den [Addon-Manager](Std_AddonMgr/de.md) verfügbar. Jede Abhängigkeit von Assembly3 zu (Modulen von) Drittanbietern sollte automatisch durch den Addon_Manager verwaltet werden.
 
-## Testen
+#### Alternative Installationen 
 
+Es gibt 2 alternative Wege Assembly3 zu installieren   *
 
-</div>
+-   Eine spezielle Abspaltung von FreeCAD von realthunder; siehe [FreeCAD_assembly3 releases](https   *//github.com/realthunder/FreeCAD_assembly3/releases). Dieser Fork basiert auf einem bestimmten Commit des Master-Zweiges von FreeCAD, hat aber auch zusätzliche Funktionen, die derzeit im Master-Zweig nicht vorhanden sind. Da dieser Fork auf einem bestimmten Entwicklungs-Snapshot basiert, verfügt er nicht über die neuesten Funktionen, die täglich in den Master-Zweig eingebunden werden.
+-   Das Entwicklungs-[App-Image](AppImage/de.md); dieses basiert auf dem aktuellen Master-Zweig und beinhaltet die Abhängigkeiten, die für die Arbeit mit Assembly3 benötigt werden, wie z.B. den SolveSpace Solver.
 
-
-<div class="mw-translate-fuzzy">
-
-Der [Assembly3 Arbeitsbereich](Assembly3_Workbench.md) befindet sich in der Entwicklung und ist noch nicht (April 2020) über den [Addon Manager](Std_AddonMgr.md) verfügbar, aber es ist zu erwarten, dass dies irgendwann geschieht.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Assembly3 kann auf zwei Arten getest werden   *
-
--   Eine spezielle Abspaltung von FreeCAD von realthunder; siehe [FreeCAD\_assembly3 releases](https   *//github.com/realthunder/FreeCAD_assembly3/releases). Dieser Fork basiert auf einem bestimmten Commit des Master-Zweiges von FreeCAD, hat aber auch zusätzliche Funktionen, die derzeit im Master-Zweig nicht vorhanden sind. Da dieser Fork auf einem bestimmten Entwicklungs-Snapshot basiert, verfügt er nicht über die neuesten Funktionen, die täglich in den Master-Zweig eingebunden werden.
--   Die Entwicklung [AppImage](AppImage.md); diese basiert auf dem aktuellen Master-Zweig und beinhaltet die Abhängigkeiten, die für die Arbeit mit Assembly3 benötigt werden, wie z.B. den SolveSpace Solver.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Da das AppImage nur unter Linux funktioniert, ist für Windows-Benutzer im Moment die erste Option (realthunder\'s fork) die einzige Möglichkeit, Assembly3 zu testen.
-
-
-</div>
+Da das App-Image nur unter Linux funktioniert, ist für Windows-Benutzer (die gerne eine alternative Assembly3-Installation hätten) die erste Option die einzige Möglichkeit, Assembly3 zu testen (realthunder\'s fork) .
 
 [Zum Anfang](#top.md)
 
@@ -488,7 +442,7 @@ Da das AppImage nur unter Linux funktioniert, ist für Windows-Benutzer im Momen
 Es gibt viele Wege einen Zusammenbau mit Assembly3 zu erstellen. Hier ist der einfachste, den du machen kannst.
 
    *   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width   *600px;">
-   *   *Endergebnis des \'Wie man startet\'-Beispiels. In dem Bild ist die Assembly3-Arbeitsumgebung ausgewählt, sodass ihre unterschiedlichen Werkzeugleisten sichtbar sind. Beachte, dass die vertikale \'TabBar\'-Leiste links neben der Baumansicht eine zusätzliche Arbeitsumgebung ist und nicht Bestandteil von Standard-FreeCAD (aber mit dem Addon-Manager installiert werden kann).*
+   *   *Endergebnis des \'Wie man startet\'-Beispiels. In dem Bild ist die Arbeitsumgebung Assembly3 ausgewählt, sodass ihre unterschiedlichen Werkzeugleisten sichtbar sind. Beachte, dass die vertikale \'TabBar\'-Leiste links neben der Baumansicht eine zusätzliche Arbeitsumgebung ist und nicht Bestandteil von Standard-FreeCAD (aber mit dem Addon-Manager installiert werden kann).*
 
 -   Schaltfläche **<img src="images/Std_New.svg" width=16px> [Neu](Std_New/de.md)** drücken, um eine neue FreeCAD-Datei zu erstellen
 -   Zur <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *16px;"> [Assembly3 Arbeitsumgebung](Assembly3_Workbench/de.md) wechseln
@@ -610,7 +564,7 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 -   Hierarchisch aufgebaute Zusammenbauten helfen dabei, Probleme des Gleichnungslösers zu vermeiden und das Modell schlank zu halten. Man kann eine Unterbaugruppe mit einem Klick einfrieren und so ohne Aufwand CPU-Resourcen einsparen (Im Kontextmenü des Baumes). Wenn ein Zusammenbau geladen wird, muss Assembly3 die externen Dateien der eingefrorenen Unterbaugruppen nicht öffnen, wodurch der Baum kompakt gehalten wird.
 -   Es ist sehr hilfreich, sich anzugewöhnen, Einschränkungen und Elemente zu benennen. Im Baum lässt es sich schnell durch Benutzung der **F2**-Taste erledigen. Sehr nützlich ist auch das Werkzeug zum Sortieren des Baumes, das man in der Hauptwerkzeugleiste findet. Ein Zusammenbau mit vollständig benannten Einschränkungen und Elementen ist für andere Leute sehr einfach zu verstehen, oder auch für einen selbst, wenn man sich ältere Modelle ansieht.
 
-       *   Beispiele für Namen von Einschränkungen für einen Tisch könnten lauten   * \"Ausrichtung\_Beine\_vorne\", \"Ausrichtung\_RahmenUnterseite-BeinOberseite\" und Elementnamen könnten sein   * \"Bein1\_Oberseite\", \"Tischplatte\_Vorderseite\" oder \"Tischplatte\_linke\_Seite\".
+       *   Beispiele für Namen von Einschränkungen für einen Tisch könnten lauten   * \"Ausrichtung_Beine_vorne\", \"Ausrichtung_RahmenUnterseite-BeinOberseite\" und Elementnamen könnten sein   * \"Bein1_Oberseite\", \"Tischplatte_Vorderseite\" oder \"Tischplatte_linke_Seite\".
 -   Bitte beachten, dass, sobald externe Dateien durch einen Zusamenbau geöffnet werden, es nicht mehr möglich ist, diese auf einfache Weise zu schließen, ohne auch den Zusammenbau zu schließen. Da der Zusammenbau die Dateien im Hintergrund offen hält, kann der Reiter verschwinden, aber die Dateien bleiben im Baum sichtbar. Wenn man Zusammenbauten über mehrere Ebenen hat, kann es fast unmöglich sein einzelne Dateien zu schließen. Dieses Verhalten kann sich in Zukunft ändern, aber bis dahin bleibt die Möglichkeit, Die Befehle *File/Save All* und *File/Close All* zu nutzen, um den Baum aufzuräumen, bevor an einer anderen Unterbaugruppe gearbeitet wird.
 
        *   \'\'Beispiel   * Man hat eine große CNC-Maschine mit einem Hauptzusammenbau und Unterbaugruppen für alle Module. Sobald man den Hauptzusammenbau geladen hat, wird er hunderte Dateien bis hin zur kleinsten Schraube öffnen. Bevor man nun die Baugruppe des Elektronikfachs der Maschine bearbeitet, ist es eine gute Idee, alle Dateien zu speichern und zu schließen, um einen leeren Baum zu erhalten. Dann wird nur die Unterbaugruppe des Elektronikfachs geöffnet. Sie öffnet alle benötigten Dateien, aber auch nur diese.
@@ -625,7 +579,7 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 ## Verweise
 
 -   Das [App-Link](App_Link.md)-Objekt ermöglicht, dass Assembly3 funktioniert.
--   [FreeCAD\_assembly3](https   *//github.com/realthunder/FreeCAD_assembly3) Repository und Dokumentation.
+-   [FreeCAD_assembly3](https   *//github.com/realthunder/FreeCAD_assembly3) Repository und Dokumentation.
 -   [Assembly3 preview](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=25712), große Diskussionsrunde.
 -   [Tutorial for Assembly 3 Workbench](http   *//help-freecad-jpg87.fr/02_ass_ind.php) von jpg87.
 -   [Current Assembly Status](https   *//forum.freecadweb.org/viewtopic.php?f=20&t=34583)

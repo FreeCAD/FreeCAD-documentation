@@ -42,7 +42,7 @@ Macro semplice per ottenere l\'output nella console python di un vettore normale
 
 ToolBar Icon ![](images/Macro_Normal_Vector.png )
 
-**Macro\_Normal\_Vector.FCMacro**
+**Macro_Normal_Vector.FCMacro**
 
 
 {{MacroCode|code=

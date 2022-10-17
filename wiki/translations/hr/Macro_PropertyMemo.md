@@ -51,7 +51,7 @@ Ja checkBox je označen imate jednu memo u popisu, kliknite na točku stabla za 
 
 <center>
 
-Image   *Macro\_FCPropertyMemo\_02.png\|One Property Memo list. Image   *Macro\_FCPropertyMemo\_03.png\|The window Memo list.
+Image   *Macro_FCPropertyMemo_02.png\|One Property Memo list. Image   *Macro_FCPropertyMemo_03.png\|The window Memo list.
 
 
 </center>
@@ -63,7 +63,7 @@ Image   *Macro\_FCPropertyMemo\_02.png\|One Property Memo list. Image   *Macro\_
 
 Ikona za alatnu ploču ![](images/PropertyMemo.png )
 
-**Macro\_FCPropertyMemo.FCMacro**
+**Macro_FCPropertyMemo.FCMacro**
 
 
 {{MacroCode|code=

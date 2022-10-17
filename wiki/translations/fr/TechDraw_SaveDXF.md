@@ -1,5 +1,5 @@
 # TechDraw SaveDXF/fr
-1.  REDIRECT [TechDraw\_ExportPageDXF/fr](TechDraw_ExportPageDXF/fr.md)
+1.  REDIRECT [TechDraw_ExportPageDXF/fr](TechDraw_ExportPageDXF/fr.md)
 
 
 

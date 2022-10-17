@@ -13,22 +13,14 @@
 
 </div>
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Описание
 
 Добавляет свойства жидкости к детали.
 
-
-</div>
-
 ![](images/FEMMaterialFluidProperties.png ) 
-*The FEM material task panel*
+*Внешний вид панели материалов верстака МКЭ*
 
-## Использование
+## Применение
 
 1.  To create a new MaterialFluid object do one of the following   *
     -   Press the **<img src="images/FEM_MaterialFluid.svg" width=16px> [FEM MaterialFluid](FEM_MaterialFluid.md)** button.
@@ -43,13 +35,7 @@
 8.  Press the **Close** button to close the task panel.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

@@ -370,7 +370,7 @@ import example_pre
 example_pre.insert("/path/to/myfile.ncc","DocumentName")
 ```
 
-In the same manner, you can output a path object to GCode, using a post\_processor script like this   *
+In the same manner, you can output a path object to GCode, using a post_processor script like this   *
 
 
 ```python
@@ -426,7 +426,7 @@ This example is based on a [discussion in the german forum](https   *//forum.fre
 
 -   Create a solid with ShapeString as Cutout
 -   Create a Job using this solid as its BaseObject
--   Create a ProfileFromFaces operation named \"Profile\_Faces\" with empty BaseGeometry.
+-   Create a ProfileFromFaces operation named \"Profile_Faces\" with empty BaseGeometry.
 
 ### Der Code 
 

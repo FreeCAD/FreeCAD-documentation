@@ -1,5 +1,5 @@
 # Ship TankNew
-1.  REDIRECT [Ship\_Tank](Ship_Tank.md)
+1.  REDIRECT [Ship_Tank](Ship_Tank.md)
 
 
 

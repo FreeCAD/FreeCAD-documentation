@@ -34,7 +34,7 @@ draw2Dfunction(xFunction=\"0.5\*n\", yFunction=\"-0.75\*n\", n=0, nd=-math.pi, s
 
 ToolBar Icon ![](images/Macro_Draw_Parametric_2D_Function.png )
 
-**Macro\_drawParametric2DFunction.FCMacro**
+**Macro_drawParametric2DFunction.FCMacro**
 
 
 {{MacroCode|code=

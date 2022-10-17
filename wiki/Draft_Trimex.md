@@ -31,13 +31,13 @@ The <img alt="" src=images/Draft_Trimex.svg  style="width   *24px;"> **Draft Tri
 6.  Do one of the following   *
     -   Pick a point in the [3D view](3D_view.md).
     -   Enter a **Distance** or an **Angle**. The distance is a delta distance. This option does not work if modifier keys are used.
-    -   Move the pointer over an edge belonging to another object, and click when this edge is highlighted, to trim or extend the selected object using an intersection with the highlighted edge as the new endpoint. Note that [Draft Snaps](Draft_Snap.md) can have an undesirable impact here. In some cases it may be required to turn them off temporarily.
+    -   Move the pointer over an edge belonging to another object, and click when this edge is highlighted, to trim or extend the selected object using an intersection with the highlighted edge as the new endpoint. When trimming, the projection of the point where the cutting edge is selected onto the object to be trimmed, determines the default result. Note that [Draft Snaps](Draft_Snap.md) can have an undesirable impact here. In some cases it can be useful to turn them off temporarily.
 
 ### Options
 
 The single character keyboard shortcut and the modifier keys mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
--   The solution with the largest length determines the default direction of the command. Hold down **Alt** to invert this direction.
+-   Hold down **Alt** to invert the default result of the command.
 -   Hold down **Shift** to restrict the operation to the current segment of a [Draft Wire](Draft_Wire.md).
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 
@@ -45,7 +45,7 @@ Here is an example to explain the modifier keys. The left edge or the bottom edg
 
  ![](images/Draft_Trimex_example2.png ) 
 
-1.  The arc was clicked near the bottom left corner of the wire. This is the default behavior.
+1.  The arc was clicked near the bottom left corner of the wire. This is the default result.
 
 2.  
     **Alt**was held down while the arc was clicked near the bottom left corner of the wire.

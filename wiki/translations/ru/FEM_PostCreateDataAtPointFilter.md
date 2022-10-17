@@ -1,5 +1,5 @@
 # FEM PostCreateDataAtPointFilter/ru
-1.  REDIRECT [FEM\_PostFilterDataAtPoint/ru](FEM_PostFilterDataAtPoint/ru.md)
+1.  REDIRECT [FEM_PostFilterDataAtPoint/ru](FEM_PostFilterDataAtPoint/ru.md)
 
 
 

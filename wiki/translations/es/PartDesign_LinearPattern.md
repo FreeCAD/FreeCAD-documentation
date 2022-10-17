@@ -26,7 +26,7 @@ La herramienta **[<img src=images/PartDesign_LinearPattern.svg style="width   *2
 
 <div class="mw-translate-fuzzy">
 
-\'\'Arriba   * Una forma extruida con forma de L (B) construida encima de una base extruida (A, también referida como *soporte*) es usada para crear un patrón lineal. El resultado (C) se muestra a la derecha.\'\'
+*Arriba   * Una forma extruida con forma de L (B) construida encima de una base extruida (A, también referida como*soporte*) es usada para crear un patrón lineal. El resultado (C) se muestra a la derecha.*
 
 
 </div>

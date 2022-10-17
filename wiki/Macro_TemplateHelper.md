@@ -53,7 +53,7 @@ English is default and just one version, but maybe someone likes to distinguish 
 
 The Macro should be found in the macro directory. To put it there, you need to   *
 
-1.  Select the macro below (from **\#! pyth\...** to **\...main()**).
+1.  Select the macro below (from **#! pyth\...** to **\...main()**).
 2.  Copy the selection.
 3.  Create a new macro file using <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Macros\...](Std_DlgMacroExecute.md) and select **Create**.
 4.  Type in the name (TemplateHelper) and select **OK**. (*.FCMacro* is added automatically.)

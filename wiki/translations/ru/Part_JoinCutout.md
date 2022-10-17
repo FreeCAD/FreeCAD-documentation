@@ -38,7 +38,7 @@ A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original obje
 
 -    **Tool**   * Reference to tool object (the object that is to fit into the cutout). The object can be a single solid, or a [valid compound](Part_Compound.md) of solids.
 
--    **Mode**   * The mode of operation, equals \'Cutout\' (Changing that will transform the tool into another Part\_JoinXXX). The value of \'bypass\' can be used to temporarily disable the long computations (a compound of Base and Tool will be created, which is a fast operation).
+-    **Mode**   * The mode of operation, equals \'Cutout\' (Changing that will transform the tool into another Part_JoinXXX). The value of \'bypass\' can be used to temporarily disable the long computations (a compound of Base and Tool will be created, which is a fast operation).
 
 -    **Refine**   * Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 

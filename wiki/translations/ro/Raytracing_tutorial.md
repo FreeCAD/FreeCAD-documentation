@@ -35,7 +35,7 @@ This tutorial is meant to introduce the reader to the basic workflow of the Rayt
 
 -   FreeCAD version 0.16 or above
 -   [POV-Ray](http   *//www.povray.org/) and/or [LuxRender](https   *//luxcorerender.org/) is installed on the system
--   In the case of POV-Ray, it\'s not enough to have just the binary executable in place, but it also ***requires*** the installation of ***supporting files***. In Ubuntu, these are provided by the Recommends-flagged package [povray-includes](https   *//packages.ubuntu.com/search?keywords=povray-includes). Potential issues have also been seen with Linux installations requiring local configuration files to be manually created in a user\'s home folder, as discussed [here](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=27548&start=10#p224576).
+-   In the case of POV-Ray, it\'s not enough to have just the binary executable in place, but it also ***requires***the installation of***supporting files***. In Ubuntu, these are provided by the Recommends-flagged package [povray-includes](https   *//packages.ubuntu.com/search?keywords=povray-includes). Potential issues have also been seen with Linux installations requiring local configuration files to be manually created in a user\'s home folder, as discussed [here](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=27548&start=10#p224576).
 -   In the case of POV-Ray, installation of [psicofil\'s macro](https   *//github.com/psicofil/Macros_FreeCAD) is recommended
 -   The reader has the basic knowledge to use the Part and PartDesign Workbenches
 

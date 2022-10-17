@@ -1,5 +1,5 @@
 # Scripting/ro
-1.  REDIRECT [Power\_users\_hub/ro](Power_users_hub/ro.md)
+1.  REDIRECT [Power_users_hub/ro](Power_users_hub/ro.md)
 
 
 

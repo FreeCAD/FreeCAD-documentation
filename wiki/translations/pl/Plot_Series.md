@@ -25,9 +25,9 @@ Wybierz zakładkę wykresu, którą chcesz edytować i uruchom to narzędzie. Na
 
 -   **Etykieta**   * Możesz ustawić etykietę. Akceptowane są formuły matematyczne [LaTeX](https   *//www.latex-project.org/).
 -   **Bez etykiety**   * Jeśli wybrane, seria nie jest wyświetlana w legendzie wykresu. W przeciwnym razie seria będzie wyświetlana w legendzie z odpowiednią etykietą.
--   **Styl linii**   * Rozważany styl linii. Użyj \"\_draw\_nothing\" aby nie uwzględniać linii dla tej konkretnej serii.
+-   **Styl linii**   * Rozważany styl linii. Użyj \"\_draw_nothing\" aby nie uwzględniać linii dla tej konkretnej serii.
 -   **Szerokość linii**   * Szerokość linii.
--   **Marker**   * Rozważany marker. Użyj \"\_draw\_nothing\" aby nie brać pod uwagę markerów dla tej serii.
+-   **Marker**   * Rozważany marker. Użyj \"\_draw_nothing\" aby nie brać pod uwagę markerów dla tej serii.
 -   **Rozmiar markera**   * Wielkość markera.
 -   **Kolor**   * Kolor serii.
 
@@ -39,7 +39,7 @@ Wybierz zakładkę wykresu, którą chcesz edytować i uruchom to narzędzie. Na
 
 }} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

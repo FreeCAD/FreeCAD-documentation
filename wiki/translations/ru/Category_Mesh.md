@@ -1,5 +1,5 @@
 # Category:Mesh/ru
-This category lists pages related to the [Mesh\_Workbench/ru](Mesh_Workbench/ru.md).
+This category lists pages related to the [Mesh_Workbench/ru](Mesh_Workbench/ru.md).
 
 [Category   *Workbenches/ru](Category   *Workbenches/ru.md)
 

@@ -5,7 +5,7 @@ Często osoby używające dystrybucji Debiana Testing powinny używać Debiana U
 
 Istnieją dwie kluczowe rzeczy dla uzyskania dobrego doświadczenia użytkownika w systemie Unstable. Pierwszą z nich jest to, aby nigdy nie uruchamiać sudo apt full-upgrade lub jego odpowiedników bez uprzedniego sprawdzenia wyników operacji. Jeśli jest napisane, że zwolnisz setki MB miejsca, to znaczy, że trwa zmiana pakietów, która usunie sporą część twojego systemu. Zamiast tego, można bezpiecznie uruchomić sudo apt upgrade i pobrać nowe pakiety. Czasami spowoduje to, że pakiety będą wstrzymane, co oznacza, że może być właściwe uruchomienie full-upgrade, ponieważ deinstalacja pakietów może być rzeczywiście konieczna.
 
-Drugim kluczem jest zrozumienie, że bierzesz udział w rozwoju Debiana i używanie odpowiednich narzędzi i metod. Na przykład, może to oznaczać instalację pakietów takich jak apt-listbugs lub apt-listchanges lub zapisanie się na listy dyskusyjne Debiana, takie jak [debian-devel-announce\@lists.debian.org](https   *//lists.debian.org/debian-devel-announce/).
+Drugim kluczem jest zrozumienie, że bierzesz udział w rozwoju Debiana i używanie odpowiednich narzędzi i metod. Na przykład, może to oznaczać instalację pakietów takich jak apt-listbugs lub apt-listchanges lub zapisanie się na listy dyskusyjne Debiana, takie jak [debian-devel-announce@lists.debian.org](https   *//lists.debian.org/debian-devel-announce/).
 
 Debian Unstable doskonale nadaje się do codziennego użytku przez dłuższy czas, ale można go też łatwo uruchomić w maszynie wirtualnej, gdzie awarie nie będą aż tak wielkim problemem. Wystarczy pobrać ISO testowego Debiana, zainstalować go w maszynie wirtualnej i zaktualizować, a następnie edytować /etc/apt/sources.list, aby zawierał coś takiego   *
 

@@ -32,7 +32,13 @@ Creează o constrângere MEF pentru a o deplasare prescrisă a unui obiect selec
 
 ## Note
 
+
+<div class="mw-translate-fuzzy">
+
 1.  constrângerea utilizează tabelul \*BOUNDARY în CalculiX. Fixarea unui grad de libertate este explicată la <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html> și se precizează o deplasare pentru un anumit grad de libertate <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
+
+
+</div>
 
 
 

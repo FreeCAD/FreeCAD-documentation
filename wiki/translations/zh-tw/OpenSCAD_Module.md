@@ -1,5 +1,5 @@
 # OpenSCAD Module/zh-tw
-1.  REDIRECT [OpenSCAD\_Workbench/zh-tw](OpenSCAD_Workbench/zh-tw.md)
+1.  REDIRECT [OpenSCAD_Workbench/zh-tw](OpenSCAD_Workbench/zh-tw.md)
 
 
 

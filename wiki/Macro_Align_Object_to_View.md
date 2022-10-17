@@ -24,7 +24,7 @@ This macro aligns and Position the selected object to the current View.
 
  ToolBar Icon ![](images/Macro_Align_Object_to_View.png )
 
-**Macro\_Align\_Object\_to\_View.FCMacro**
+**Macro_Align_Object_to_View.FCMacro**
 
 
 {{MacroCode|code=
@@ -59,7 +59,7 @@ App.ActiveDocument.getObject(Nameelement).Placement=pl
 
 <center>
 
-Image   *Macro Align Object to View 01.png\|Your object in its original position XY. Image   *Macro Align Object to View 02.png\|Rotate the screen X? Y? Z? or use this macro [Macro\_Rotate\_View](Macro_Rotate_View.md) for precise rotation.
+Image   *Macro Align Object to View 01.png\|Your object in its original position XY. Image   *Macro Align Object to View 02.png\|Rotate the screen X? Y? Z? or use this macro [Macro_Rotate_View](Macro_Rotate_View.md) for precise rotation.
 
 
 </center>
@@ -74,7 +74,7 @@ Image   *Macro Align Object to View 03.png\|Select the object and run the macro 
 
 ## Credits
 
-Tanks Simplified code to rentlau\_64
+Tanks Simplified code to rentlau_64
 
 
 

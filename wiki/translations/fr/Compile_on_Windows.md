@@ -160,13 +160,7 @@ Voici la description de certaines de ces variables    *
 
 ## Compilation de FreeCAD 
 
-
-<div class="mw-translate-fuzzy">
-
 En fonction de votre compilateur, le processus de compilation de FreeCAD sera légèrement différent. Dans les sections suivantes, les processus connus sont décrits. Si vous compilez avec Qt Creator, passez à [Compilation avec Qt Creator (obsolète)](#Compilation_avec_Qt_Creator_.28obsol.C3.A8te.29.md), sinon procédez directement    *
-
-
-</div>
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

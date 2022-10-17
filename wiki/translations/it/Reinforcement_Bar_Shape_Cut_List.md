@@ -141,7 +141,7 @@ getRebarShapeSVG(
 
 -    `rebar_stroke_width`specifies the stroke-width of rebar in svg.
 
--    `rebar_color_style`specifies the color style of rebar. It can be \"shape color\" or \"color\_name or hex\_value\_of\_color\". \"shape color\" means to select the color of the rebar shape.
+-    `rebar_color_style`specifies the color style of rebar. It can be \"shape color\" or \"color_name or hex_value_of_color\". \"shape color\" means to select the color of the rebar shape.
 
 -    `include_dimensions`specifies if each rebar edge dimensions and bent angle dimensions are to be included in rebar shape SVG.
 
@@ -163,7 +163,7 @@ getRebarShapeSVG(
    %R -> Helix radius of helical rebar
    %P -> Helix pitch of helical rebar
 
--    `scale`specifies the scale value to scale rebar SVG. The scale parameter helps to scale down rebar\_stroke\_width and dimension\_font\_size to make them resolution-independent. If max\_height or max\_width is set to a non-zero value, then the scale parameter will be ignored.
+-    `scale`specifies the scale value to scale rebar SVG. The scale parameter helps to scale down rebar_stroke_width and dimension_font_size to make them resolution-independent. If max_height or max_width is set to a non-zero value, then the scale parameter will be ignored.
 
 -    `max_height`specifies the maximum height of rebar shape SVG. Set it to 0 to have rebar shape SVG height based on the scale parameter.
 
@@ -264,7 +264,7 @@ getRebarShapeCutList(
 
 -    `base_rebars_list`is a list of \<ArchRebar.\_Rebar\> or \<rebar2.BaseRebar\> objects, to generate their RebarShape cut list. If not provided, then all ArchRebars and rebar2.BaseRebar objects with unique Mark from ActiveDocument will be selected and rebars with no Mark assigned will be ignored.
 
--    `view_directions`is a list of viewpoint directions for each rebar shape. It can be either of type `FreeCAD.Vector` or `WorkingPlane.Plane` OR their list. Keep it `FreeCAD.Vector(0, 0, 0)` to automatically choose view\_directions.
+-    `view_directions`is a list of viewpoint directions for each rebar shape. It can be either of type `FreeCAD.Vector` or `WorkingPlane.Plane` OR their list. Keep it `FreeCAD.Vector(0, 0, 0)` to automatically choose view_directions.
 
 -    `include_mark`specifies if rebar.Mark is to be included for each rebar shape in rebar shape cut list SVG or not.
 
@@ -272,7 +272,7 @@ getRebarShapeCutList(
 
 -    `rebars_stroke_width`specifies the stroke-width of rebars in rebar shape cut list SVG.
 
--    `rebars_color_style`specifies the color style of rebars. It can be \"shape color\" or \"color\_name or hex\_value\_of\_color\". \"shape color\" means to select the color of the rebar shape.
+-    `rebars_color_style`specifies the color style of rebars. It can be \"shape color\" or \"color_name or hex_value_of_color\". \"shape color\" means to select the color of the rebar shape.
 
 -    `include_dimensions`specifies if each rebar edge dimensions and bent angle dimensions are to be included in the rebar shape cut list.
 
@@ -298,7 +298,7 @@ getRebarShapeCutList(
 
 -    `column_width`specifies the width of each row of rebar shape in the rebar shape cut list.
 
--    `column_count`specifies the number of columns in the rebar shape cut list. Set it to \"row\_count\" to have column\_count \<= row\_count
+-    `column_count`specifies the number of columns in the rebar shape cut list. Set it to \"row_count\" to have column_count \<= row_count
 
 -    `side_padding`specifies the padding on each side of the rebar shape in the rebar shape cut list.
 

@@ -33,7 +33,7 @@ L\'icona deve essere copiata nella stessa directory della macro
 
 L\'icona per la barra degli strumenti ![Macro Select Hovering](images/Macro_Select_Hovering.png )
 
-**Macro\_Select\_Hovering.FCMacro**
+**Macro_Select_Hovering.FCMacro**
 
 
 {{MacroCode|code=

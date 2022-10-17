@@ -85,22 +85,22 @@ Rappeler le profil extrudé créé au début du tutoriel.
 5.  Renseigner le rayon à 3 mm
 6.  Faire traverser le sketch à travers la pièce encoure
 
-Au lieu de créer un cercle pour chaque trou dans l\'esquisse, Utiliser le concept de \'\' \'Reprodution du motif\' \'\'. Ces outils fonctionnent en reproduisant une caractéristique de la pièce déjà créée à reproduire dans un arrangement linéaire ou circulaire. Utiliser une combinaison de fonctions de motif \'\' \'Linear\' \'et\' \'\' Polar \'\' pour simuler la pièce finale.
+Au lieu de créer un cercle pour chaque trou dans l\'esquisse, Utiliser le concept de *\'Reprodution du motif\'*. Ces outils fonctionnent en reproduisant une caractéristique de la pièce déjà créée à reproduire dans un arrangement linéaire ou circulaire. Utiliser une combinaison de fonctions de motif *\'Linear\' \'et\'* Polar \'\' pour simuler la pièce finale.
 
 1.  Sélectionner la cavité (Pocket) qui vient juste d\'être crée dans la **Vue en arborescence**
 2.  Sélectionner <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *32px;"> [Transformation multiple](PartDesign_MultiTransform/fr.md)
 
-Dans le Combo View, les \'\' \'\' Transformations \'\' désirées sont présentées.
+Dans le Combo View, les Transformations \'\' désirées sont présentées.
 
-Noter que dans le menu \'\' \'MultiTransform parameters\' \'\', FreeCAD a identifié le Pocket comme \'\' \'Original\' \'\' et une deuxième case demande de \'\' \'Cliquer avec le bouton droit\' \'\' pour introduire les caractéristiques du motif.
+Noter que dans le menu *\'MultiTransform parameters\'*, FreeCAD a identifié le Pocket comme *\'Original\'* et une deuxième case demande de *\'Cliquer avec le bouton droit\'* pour introduire les caractéristiques du motif.
 
 1.  Faire un clic droit sur la case
-2.  Sélectionner \'\' \'Ajouter un motif linéaire\' \'\'
-3.  Régler la \'\' \'Direction\' \'\' sur \'\' \'Vertical Sketch Axis\' \'\'
+2.  Sélectionner *\'Ajouter un motif linéaire\'*
+3.  Régler la *\'Direction\'* sur *\'Vertical Sketch Axis\'*
 4.  Définir la longueur à 10 mm
 5.  Laisser les occurrences à 2
 6.  Cliquer sur OK
-7.  Cliquer avec le bouton droit de la souris sur la boîte pour ajouter un \'\' \'Motif Polaire\' \'\'. Notez que la vue 3D a maintenant ajouté le motif linéaire.
+7.  Cliquer avec le bouton droit de la souris sur la boîte pour ajouter un *\'Motif Polaire\'*. Notez que la vue 3D a maintenant ajouté le motif linéaire.
 8.  Définir les occurrences sur 5
 9.  Cliquer deux fois sur OK
 
@@ -110,7 +110,7 @@ Après avoir terminé cette tâche, le résultat suivant apparait.
 
 Sinon, rééditer l\'opération MultiTransform en double-cliquant dessus dans l\'arborescence.
 
-Vérifier les deux fonctions de motif pour détecter les modifications nécessaires, telles que l\'axe \'\' \'\' et si la \'\' \'Direction\' \'\' doit être inversée.
+Vérifier les deux fonctions de motif pour détecter les modifications nécessaires, telles que l\'axe et si la *\'Direction\'* doit être inversée.
 
 C\'est maintenant terminé la routine de base pour le [PartDesign Workbench](PartDesign_Workbench.md).
 

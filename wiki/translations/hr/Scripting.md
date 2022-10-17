@@ -1,5 +1,5 @@
 # Scripting/hr
-1.  REDIRECT [Power\_users\_hub/hr](Power_users_hub/hr.md)
+1.  REDIRECT [Power_users_hub/hr](Power_users_hub/hr.md)
 
 
 

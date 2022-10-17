@@ -22,16 +22,16 @@ Das Dienstprogramm **Skizze validieren** kann verwendet werden, um eine Skizze z
 
 -   Drücke die **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** Taste.
 
-\#\* Drücke die Schaltfläche **Schließen** am oberen Rand des [Aufgabenpaneels](Task_panel/de.md).
+#\* Drücke die Schaltfläche **Schließen** am oberen Rand des [Aufgabenpaneels](Task_panel/de.md).
 
-\#\* Verwende das Tastaturkürzel   * **Esc** (falls in den [Skizzierer Einstellungen](Sketcher_Preferences/de#Allgemein.md) aktiviert).
+#\* Verwende das Tastaturkürzel   * **Esc** (falls in den [Skizzierer Einstellungen](Sketcher_Preferences/de#Allgemein.md) aktiviert).
 
 1.  Wähle die zu prüfende Skizze in der [Baumansicht](Tree_view/de.md) oder durch Klicken auf eine ihrer Kanten in der [3D Ansicht](3D_view/de.md) aus.
 2.  Führe einen der folgenden Schritte aus, um das Dienstprogramm \"Skizze validieren\" zu öffnen   *
 
 -   Wähle im Menü die Option **Skizze → Skizze validieren...**.
 
-\#\* Drücke den **<img src="images/Sketcher_ValidateSketch.svg" width=16px> [Skizze validieren](Sketcher_ValidateSketch/de.md)** (nicht verfügbar im [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)).
+#\* Drücke den **<img src="images/Sketcher_ValidateSketch.svg" width=16px> [Skizze validieren](Sketcher_ValidateSketch/de.md)** (nicht verfügbar im [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)).
 
 1.  Siehe [Optionen](#Optionen.md) unten für die verfügbaren Arbeitsschritte.
 2.  Drücke die Schaltfläche **Close**, wenn alles erledigt ist.

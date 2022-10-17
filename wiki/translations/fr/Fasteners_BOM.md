@@ -19,9 +19,9 @@ La commande <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande    *
-    -   Appuyez sur le bouton **<img src="images/Fasteners_BOM.svg" width=16px> [Fasteners BOM](Fasteners_BOM/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM/fr.md)**.
     -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** dans le menu.
-2.  Une feuille de tableur Fasteners de la nomenclature est créée.
+2.  Une feuille de tableur de nomenclature Fasteners est créée.
 
 ## Remarques
 

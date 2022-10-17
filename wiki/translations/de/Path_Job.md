@@ -35,13 +35,13 @@ Das Auftrag Werkzeug erstellt ein neues Auftragsobjekt im aktiven Dokument. Das 
 
 <div class="mw-translate-fuzzy">
 
-\#\* Rufe den Auftrag Befehl über mehrere Methoden auf   *
+#\* Rufe den Auftrag Befehl über mehrere Methoden auf   *
 
-\#\* Drücke die **<img src="images/Path_Job.svg" width=16px> [Auftrag](Path_Job/de.md)** Schaltfläche in der Werkzeugleiste.
+#\* Drücke die **<img src="images/Path_Job.svg" width=16px> [Auftrag](Path_Job/de.md)** Schaltfläche in der Werkzeugleiste.
 
-\#\* Verwende das Tastaturkürzel **P** und dann **F**.
+#\* Verwende das Tastaturkürzel **P** und dann **F**.
 
-\#\* Mit dem **Pfad → Auftrag** Eintrag aus dem oberen Menü.
+#\* Mit dem **Pfad → Auftrag** Eintrag aus dem oberen Menü.
 
 
 </div>

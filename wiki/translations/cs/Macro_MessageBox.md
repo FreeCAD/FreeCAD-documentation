@@ -26,7 +26,7 @@ Ukazuje jak uživateli dávat informace v makrech.
 
 ToolBar Icon ![](images/Macro_MessageBox.png )
 
-**Macro\_MessageBox.FCMacro**
+**Macro_MessageBox.FCMacro**
 
 
 {{MacroCode|code=
@@ -49,7 +49,7 @@ errorDialog(msg)
 raise(Exception(msg))
 }}
 
-Aby bylo možné používat znaky s diakritickými znaménky v textových polích z **Qt**, musí se při použítí značky \'\'\' \#-\*-coding   * utf-8-\*- \'\'\' přidávat **u** před zobrazovanou zprávou
+Aby bylo možné používat znaky s diakritickými znaménky v textových polích z **Qt**, musí se při použítí značky **#-\*-coding   * utf-8-\*-** přidávat **u** před zobrazovanou zprávou
 Příklad    *
 
 
@@ -61,7 +61,7 @@ msg = u'Élément sélectionnés affichés'
 }}
 
 Pro zobrazení víceřádkového textu v dialogovém okně **Qt**, musí být přidáno **\"\\n\"** (uvozovky, platné jsou i apostrofy) za každým řádkem.
-Platné je i *\' \"\\r\\n\"*\' což koresponduje s **CR** carriage return (návrat vozíku), a **LF** end of line(posun řádku). Lze použít i **\" \\t\"** což je tabulátor. Znaky by měly být mezi uvozovkami (a apostrofy) jako znakový řetězec. Značky mohou být hned vedle zobrazovaného textu **\" \\nRayon\\t   * \"**, značka **\" \\ \"** (obrácené lomítko) znamená, že jde o příkaz.
+Platné je i **\"\\r\\n\"** což koresponduje s **CR** carriage return (návrat vozíku), a **LF** end of line(posun řádku). Lze použít i **\" \\t\"** což je tabulátor. Znaky by měly být mezi uvozovkami (a apostrofy) jako znakový řetězec. Značky mohou být hned vedle zobrazovaného textu **\" \\nRayon\\t   * \"**, značka **\" \\ \"** (obrácené lomítko) znamená, že jde o příkaz.
 Příklad    *
 
 

@@ -1,25 +1,5 @@
 # Macro FCInfo/it
-<div class="mw-translate-fuzzy">
-
-
 **[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br> (This wiki page correspond in date ver 1.22 , 12/11/2020 and not include the new features) **
-
-
-{{Macro/it
-|Name=Macro FCInfo
-|Translate=Infoin scheda
-|Icon=FCInfo.png
-|Description=Fornisce una ampia serie di informazioni sulla forma selezionata.<br />FRench Version [https   *//gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/c1dd823886fe2e75dc5c6dd490157c259051b651/FCInfo_fr_Ver_1-22-rmu_Docked.FCMacro]
-|Author=Mario52
-|Version=1.26c
-|Date=2022/04/19
-|FCVersion=Tutte
-|Download=Tele-carica il zip file [https   *//forum.freecadweb.org/download/file.php?id=50755 Macro_FCInfo_Icon] e copia le imagine nello stesso repertorio ché la macro.
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width   *24px"> [Arch Survey](Arch_Survey/it.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/it.md)
-}}
-
-
-</div>
 
 
 {{Macro
@@ -46,15 +26,9 @@ Fornisce una ampia serie di informazioni sulla forma selezionata quali lunghezza
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
 
-Selezionare un oggetto e avviare l\'applicazione o viceversa. Viene visualizzata la tabella delle informazioni. I calcoli sono basati sull\'unità di FreeCAD, che è il **mm**. Ogni nuova selezione ripristina il **mm** per l\'unità di lunghezza e i **gradi sessadecimali** (**°**) per gli angoli. <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width   *200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width   *200px;">
-
-
-</div>
+Selezionare un oggetto e avviare l\'applicazione o viceversa. Viene visualizzata la tabella delle informazioni. I calcoli sono basati sull\'unità di FreeCAD, che è il **mm**. Ogni nuova selezione ripristina il **mm** per l\'unità di lunghezza e i **gradi decimali** per gli angoli. <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width   *200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width   *200px;">
 
 
 
@@ -67,16 +41,10 @@ Selezionare un oggetto e avviare l\'applicazione o viceversa. Viene visualizzata
 -   Nome dei sottoelementi dell\'oggetto
 -   Tipo di oggetto
 
-
-<div class="mw-translate-fuzzy">
-
 **Settore 2   * Coordinate del clic mouse**
 
 -   Coordinate X,Y e Z del punto cliccato con il mouse
--   Il bottone crea un punto, asso, piano, copia dei vettori su la forma **FreeCAD.Vector(-24.0, 240.0, 7.0)**
-
-
-</div>
+-   Il bottone crea un punto, assi, piano,copia l\'asse dei vettori da **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
 
 <div class="mw-translate-fuzzy">
@@ -96,7 +64,7 @@ Selezionare un oggetto e avviare l\'applicazione o viceversa. Viene visualizzata
 **Settore 4   * Vertexes and details**
 
 -   CheckBox per attivare la funzione spreadSheet ché prende molto tempo a ogni clic mouse con uno obietto complicato perché la ricerca dei completi dati si fa a ogni clic mouse.
--   Vertici e dettagli della forma (compt\_Edge), (compt\_Faces), (compt\_Vector of the Face)
+-   Vertici e dettagli della forma (compt_Edge), (compt_Faces), (compt_Vector of the Face)
     la tabella contiene al massimo 200 righe, se ci sono più di 200 righe appare (!+ 200) e il numero di righe
     (tutti i dettagli possono essere salvati con il pulsante **Save** in un file in formato CSV e possono essere visualizzati nel foglio di calcolo con **Read** o da un foglio esterno come [LibreOffice](https   *//www.libreoffice.org/) [OpenOffice](http   *//openoffice.apache.org/downloads.html) o altri)
 
@@ -116,7 +84,7 @@ Selezionare un oggetto e avviare l\'applicazione o viceversa. Viene visualizzata
 -   **percentuale** ex   * 30° = 57.74% \*Inclinazione nei piani XY, YZ, ZX e loro coordinate
 
 -   Inclinazione su i piani XY, YZ, ZX é le loro coordinate
--   **Direction object**, calcola la direzione del obietto, il calcolo si fa    * coord\_1 - coord\_2 = direzione (o reverse)
+-   **Direction object**, calcola la direzione del obietto, il calcolo si fa    * coord_1 - coord_2 = direzione (o reverse)
     -   
         **Line**
         
@@ -245,7 +213,7 @@ Una volta lanciata, la macro rimane attiva e la finestra rimane visibile. Per ch
 
 <center>
 
-Image   *Macro\_FCInfo\_04.png\|La tabella dei dati può essere dislocata a destra, Image   *Macro FCInfo 05.png\|o a sinistra con Vista combinata , o non dislocata, a piacere.
+Image   *Macro_FCInfo_04.png\|La tabella dei dati può essere dislocata a destra, Image   *Macro FCInfo 05.png\|o a sinistra con Vista combinata , o non dislocata, a piacere.
 
 
 </center>
@@ -339,9 +307,9 @@ Tramite il pulsante **Save** è possibile archiviare i dati ottenuti in un file 
 
 Copiare il contenuto della macro in un file chiamato \"FCInfo.FCMacro\"
 
--   Windows   * di solito \"C   *Utenti\\nome\_utente\\AppData\\Roaming\\FreeCAD\\ \"
+-   Windows   * di solito \"C   *Utenti\\nome_utente\\AppData\\Roaming\\FreeCAD\\ \"
 
--   Ubuntu   * di solito \"/home/nome\_utente/.FreeCAD\".
+-   Ubuntu   * di solito \"/home/nome_utente/.FreeCAD\".
 
 Oppure, direttamente nell\'interfaccia di FreeCAD
 
@@ -354,8 +322,8 @@ Scaricare l\'immagine posizionando il puntatore sull\'icona <img alt="" src=imag
 
 Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
 
--   Windows   * the form is usually **\" drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
--   Ubuntu   * the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+-   Windows   * the form is usually **\" drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu   * the form is usually **\" /home/your_user_name/.FreeCAD \"**.
 
 Or, directly in the interface of FreeCAD
 The icon must be in the same directory as the macro.
@@ -375,7 +343,7 @@ Dato che, per il momento, le pagine wiki accettano solo 64 KB e il file della ma
 
 <div class="mw-translate-fuzzy">
 
-There is also FCInfo\_Alternate\_Linux for only for FreeCAD version 0.13\... and PyQt4
+There is also FCInfo_Alternate_Linux for only for FreeCAD version 0.13\... and PyQt4
 
 
 <div class="mw-collapsible-content">
@@ -386,7 +354,7 @@ There is also FCInfo\_Alternate\_Linux for only for FreeCAD version 0.13\... and
 
 <div class="mw-translate-fuzzy">
 
-There is also a [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) here the code is changed (due to the character display error    * **² ³ ° μ** ordinal not in range (128)\") which posed problems in certain configurations the functions are the same
+There is also a [Macro_FCInfo_Alternate_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) here the code is changed (due to the character display error    * **² ³ ° μ** ordinal not in range (128)\") which posed problems in certain configurations the functions are the same
 Example    * 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
@@ -432,7 +400,7 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))      # also   *  deg
 
 <div class="mw-translate-fuzzy">
 
-Scaricare il file **docked to right** [FCInfo\_en\_Ver\_latest\_Docked.FCMacro](https   *//gist.github.com/mario52a/8d40ab6c018c2bde678f). PySide
+Scaricare il file **docked to right** [FCInfo_en_Ver_latest_Docked.FCMacro](https   *//gist.github.com/mario52a/8d40ab6c018c2bde678f). PySide
 
 
 </div>
@@ -557,7 +525,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 
 -   ver 1.21-3.01 , 07/11/2019 \# 07/11/2019 ver \"01.21-3-rmu\" replace character micro = \"U\", square = \"2\", cube = \"3\", degrees = \" deg\" see \"<https   *//forum.freecadweb.org/viewtopic.php?f=3&t=6005&start=70#p345819>\"
 
--   ver 1.21-2.01 (1.21-rmu) 11/06/2019 rmu replace all characters over 127 in ex   * \"°\" in chr(176)) \#degree
+-   ver 1.21-2.01 (1.21-rmu) 11/06/2019 rmu replace all characters over 127 in ex   * \"°\" in chr(176)) #degree
 
 ver 1.21.01 (1.21-rmu) 30/05/2019 rmu change fixed positions to qt layouts grid.addWidget() by rmu75 see the rmu75 fork \"<https   *//gist.github.com/rmu75/b165147bd1c2f2659c014103793ae1d8>\"
 
@@ -579,7 +547,7 @@ ver 1.16 , 21/06/2017 aggiunto controllo della altezza della pollice (qui PointS
 ver 1.15 , 19/12/2015 soppressione PyQt4 option [see](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=13541) , add checkBox for editing infos in report view
 ver 1.14 , 04/08/2014 PyQt4 and PySide, corretto tooltip che non funzionava con PySide, aggiunto \"fg\"
 
-ver 1.13 , 27/07/2014 sostituzione FCInfo\_en\_Ver\_1-12\_Docked.FCMacro con FCInfo\_en\_Ver\_1-13\_Docked.FCMacro accetta PyQt4 and PySide
+ver 1.13 , 27/07/2014 sostituzione FCInfo_en_Ver_1-12_Docked.FCMacro con FCInfo_en_Ver_1-13_Docked.FCMacro accetta PyQt4 and PySide
 
 ver 1.12 , 10/03/2014 aggiunto tooltip sopra i pulsanti
 
@@ -592,7 +560,7 @@ ver 1.08.b 10/10/2013 correzione dell\'errore di superficie delle facce elencati
 
 ~~ver 1.09 , 04/11/2013 funziona perfettamente su Windows e Linux (causa dell\'errore i caratteri    * ² ³ ° \" ordinal not in range (128)\")~~
 
-In alcune distribuzioni Linux e nel caso di un errore **\"ordinal not in range (128)\"** esiste un\'altra versione su questa pagina [Macro\_FCInfo\_Alternate\_Linux](Macro_FCInfo_Alternate_Linux.md)
+In alcune distribuzioni Linux e nel caso di un errore **\"ordinal not in range (128)\"** esiste un\'altra versione su questa pagina [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
 
 ver 1.08 , 24/10/2013 correzione della mappa dei titoli \"Faces\" e \"Edges\" sopra 100 objeti
 

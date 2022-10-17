@@ -41,7 +41,7 @@ See [forum-thread here](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=16731
 
 The icon for you toolbar ![](images/Macro_Copy3DViewToClipboard.png )
 
-**Macro\_Copy3DViewToClipboard.FCMacro**
+**Macro_Copy3DViewToClipboard.FCMacro**
 
 
 {{MacroCode|code=

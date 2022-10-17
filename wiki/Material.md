@@ -16,12 +16,12 @@ Every property set has only one mandatory entry which is \"Name\". This is the p
 
 Property names (key) are ordered by strings separated by underscores. The first substring is named by the application or standard, the following can be used to further group the properties. The Values can also be grouped by underscores, e.g. to separate different sorts of steel. Examples   *
 
--   Name=Steel\_Cast
+-   Name=Steel_Cast
 -   SpecificWeight=7.85 (at 20° in kg/mm3)
--   EN10027\_name = S235JR+AR (steel standard EN 10027-1)
--   FEM\_YoungsModulus = xx (in mm−1·kg·s−2)
--   FEM\_YoungsModulus\_Z
--   FEM\_YoungsModulus\_X
+-   EN10027_name = S235JR+AR (steel standard EN 10027-1)
+-   FEM_YoungsModulus = xx (in mm−1·kg·s−2)
+-   FEM_YoungsModulus_Z
+-   FEM_YoungsModulus_X
 
 Each property has a human readable description on this Material page, with links to further information (e.g. Wikipedia).
 
@@ -92,7 +92,7 @@ Here now the description of agreed material-properties. Feel free to add a subse
   Name             Unique name of the property, following the rules described above                                                                                                                  ASCII string 7-bit
   Father           Name of the material group this material belongs to. If defined this material inherits all the father properties. That means if not defined the father properties will be used.   ASCII string 7-bit
   Description      A placeholder for a longer description of the material                                                                                                                            ASCII string 7-bit
-  SpecificWeight   The specific weight (also known as the unit weight) is the weight per unit volume of a material. see   * [Specific\_weight](http   *//en.wikipedia.org/wiki/Specific_weight)            kg/mm$^3$
+  SpecificWeight   The specific weight (also known as the unit weight) is the weight per unit volume of a material. see   * [Specific_weight](http   *//en.wikipedia.org/wiki/Specific_weight)             kg/mm$^3$
   Vendor           Specifies the brand or vendor of the material                                                                                                                                     ASCII string 7-bit
   ProductURL       An URL where to find more information about the material                                                                                                                          ASCII string 7-bit
   SpecificPrice    The price per unit of this material. Units can vary a lot (USD/m$^3$, EUR/piece, etc\...)                                                                                         ASCII string 7-bit
@@ -167,7 +167,7 @@ This section defines material-properties which are related to the visual appeara
 
  {{FEM Tools navi}} 
 
-[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Roadmap](Category_Roadmap.md) [Category   *BIM](Category_BIM.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Developer](Category_Developer.md) [Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Roadmap](Category_Roadmap.md) [Category   *BIM](Category_BIM.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

@@ -1,5 +1,5 @@
 # Path FacePocket/it
-1.  REDIRECT [Path\_Pocket\_Shape/it](Path_Pocket_Shape/it.md)
+1.  REDIRECT [Path_Pocket_Shape/it](Path_Pocket_Shape/it.md)
 
 
 

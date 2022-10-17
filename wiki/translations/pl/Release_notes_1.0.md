@@ -33,6 +33,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Dodano przycisk do przełączania kolorów gradientu tła okna [widoku 3D](3D_view/pl.md) w [Ustawieniach](Preferences_Editor/pl#Kolory.md). [Pull request #7155](https   *//github.com/FreeCAD/FreeCAD/pull/7155).
 -   Dodano polecenia [zachowaj](Std_StoreWorkingView/pl.md) i [odtwórz](Std_RecallWorkingView/pl.md) tymczasowego widoku roboczego. [Pull request #7525](https   *//github.com/FreeCAD/FreeCAD/pull/7525)
 -   Zmiany wartości za pomocą kółka myszy w \"polach wejściowych\" *(typ widżetu używany do wprowadzania wartości w panelach zadań, na przykład przez [linia](Draft_Line/pl.md))*środowiska Rysunek Roboczy są wyłączone, jeśli widżet nie ma aktywności i przełącznik [ComboBoxWheelEventFilter](Fine-tuning/pl.md) jest włączony. Zapobiega to niepożądanym zmianom wartości podczas przewijania, jak to już miało miejsce w przypadku pól wyboru różnego typu. [request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561%7CPull)
+-   Przycisk [Tryb edycji](Std_UserEditMode/pl.md) paska narzędzi został usunięty. [Pull request #7570](https   *//github.com/FreeCAD/FreeCAD/pull/7570)
+-   Przyciski [Drukuj](Std_Print/pl.md), [Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md) i [Wytnij](Std_Cut/pl.md) paska narzędzi zostały usunięte. [Pull request #7571](https   *//github.com/FreeCAD/FreeCAD/pull/7571) i [commit ea9a04e](https   *//github.com/FreeCAD/FreeCAD/commit/ea9a04e)
 
 ## System podstawowy i API 
 
@@ -92,8 +94,12 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 -   Naprawiono niedokładność narzędzia [Przyciąganij do najbliższego](Draft_Snap_Near/pl.md) podczas przyciągania do krzywych. Dodatkowo narzędzie, [Przyciągnij prostopadle](Draft_Snap_Perpendicular/pl.md) może teraz również przyciągać do powierzchni i znajdować wiele punktów. Aby przyciągnąć do wierzchołka *(np. [punktu](Draft_Point/pl.md))* narzędzie [Przyciągnij do punktu końcowego](Draft_Snap_Endpoint/pl.md) musi być teraz użyte zamiast dotychczasowego [Przyciąganij do najbliższego](Draft_Snap_Near/pl.md). [Pull request #7132](https   *//github.com/FreeCAD/FreeCAD/pull/7132).
 -   Aby ułatwić pracę z [warstwami](Draft_Layer/pl.md) zmodyfikowano ich zachowanie podczas przeciągania i upuszczania. Jeśli upuścisz obiekt z [grupy](Std_Group/pl.md) lub obiekt podobny do grupy, taki jak [Część budowli - piętro](Arch_BuildingPart/pl.md) środowiska Architektura, na warstwę, nie zostanie on już usunięty z grupy i odwrotnie. Działa to bez przytrzymywania klawisza **Ctrl**. [Pull request #7462](https   *//github.com/FreeCAD/FreeCAD/pull/7462)
+-   Polecenie [Szyk punktów](Draft_PointArray/pl.md) obsługuje teraz więcej typów obiektów punktowych. Można użyć dowolnego obiektu o kształcie i wierzchołkach, a także [siatki](Mesh_Workbench/pl.md) i [chmury punktów](Points_Workbench/pl.md). [Żądanie ściągnięcia #7597](https   *//github.com/FreeCAD/FreeCAD/pull/7597)
 
 ### Planowane ulepszenie dla środowiska Rysunek Roboczy 
+
+-   Naprawiono kilka problemów związanych z [Szyk po ścieżce](Draft_PathArray/pl.md). [Pull request #7506](https   *//github.com/FreeCAD/FreeCAD/pull/7506)
+-   Polecenie [Edycja](Draft_Edit/pl.md) otrzymało kilka ulepszeń. Dla [linii łamanej](Draft_Wire/pl.md), [krzywej złożonej](Draft_BSpline/pl.md) i [krzywej Béziera](Draft_BezCurve/pl.md) dodano opcję Zamknij / Otwórz do menu podręcznego krawędzi. W przypadku krzywych złożonych i krzywych Béziera do tego samego menu dodano również opcję Odwróć. Panele zadań zostały wyczyszczone. [Żądanie ściągnięcia #7527](https   *//github.com/FreeCAD/FreeCAD/pull/7527) i [Pull request #7541](https   *//github.com/FreeCAD/FreeCAD/pull/7541)
 
 ## Środowisko pracy MES 
 
@@ -103,8 +109,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 ### Planowane ulepszenie dla środowiska MES 
 
--   Dodano narzędzie <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [Ciśnienie początkowe](FEM_ConstraintInitialPressure/pl.md), aby ustawić początkowe ciśnienie wewnętrzne płynów. [Pull request #7364](https   *//github.com/FreeCAD/FreeCAD/pull/7364)
--   Narzędzie <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *32px;"> [Objętościowe źródło ciepła](FEM_ConstraintBodyHeatSource/pl.md) ma teraz panel zadań i możliwe jest ustawienie ciepła dla kilku ciał lub użycie kilku wiązań dla różnych ciał w jednej analizie. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
+-   Dodano narzędzie <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *24px;"> [Ciśnienie początkowe](FEM_ConstraintInitialPressure/pl.md), aby ustawić początkowe ciśnienie wewnętrzne płynów. [Pull request #7364](https   *//github.com/FreeCAD/FreeCAD/pull/7364)
+-   Narzędzie <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *24px;"> [Objętościowe źródło ciepła](FEM_ConstraintBodyHeatSource/pl.md) ma teraz panel zadań i możliwe jest ustawienie ciepła dla kilku ciał lub użycie kilku wiązań dla różnych ciał w jednej analizie. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
 -   Teraz można otwierać *(i w ten sposób wizualizować)* pliki \*.pvtu *(partycjonowane niestrukturalne dane siatki VTK)*. Plik \*.pvtu jest również wynikiem symulacji [Elmer](FEM_SolverElmer/pl.md), w której zastosowano więcej niż jeden rdzeń procesora. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio został dodany do potoku wyników VTK. Daje wskazanie rozerwania ciągliwego dla materiałów z obiektem „MaterialMechanicalNonlinear". [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
 
@@ -147,6 +153,11 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
    
 
 ### Planowane ulepszenia dla środowiska Szkicownik 
+
+-   Przycisk paska narzędzi [Wiązanie prawo Snella](Sketcher_ConstrainSnellsLaw/pl.md) został usunięty. [Commit ef62fc3](https   *//github.com/FreeCAD/FreeCAD/commit/ef62fc3)
+-   Przyciski paska narzędzi [Wybierz zbędne wiązania](Sketcher_SelectRedundantConstraints/pl.md) i [Wybierz wiązania konfliktowe](Sketcher_SelectConflictingConstraints/pl.md) zostały usunięte. [Pull request #7568](https   *//github.com/FreeCAD/FreeCAD/pull/7568)
+-   Przycisk paska narzędzi dla [Przerwij operację](Sketcher_StopOperation/pl.md) został usunięty. [Pull request #7569](https   *//github.com/FreeCAD/FreeCAD/pull/7569)
+-   Edycja widżetu sterowania, usunięto etykietę „Rozmiar siatki", zmieniono nazwę pola wyboru „Pokaż siatkę" na „Siatka". [Pull request #7577](https   *//github.com/FreeCAD/FreeCAD/pull/7577)
 
 ## Środowisko pracy Arkusz Kalkulacyjny 
 

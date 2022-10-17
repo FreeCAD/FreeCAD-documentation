@@ -1,5 +1,5 @@
 # Ship Area/ru
-1.  REDIRECT [Ship\_AreasCurve/ru](Ship_AreasCurve/ru.md)
+1.  REDIRECT [Ship_AreasCurve/ru](Ship_AreasCurve/ru.md)
 
 
 

@@ -16,14 +16,14 @@
 
 ## Description
 
-This tool creates a new Waterline operation. As of 0.19\_pre, the Waterline operation works on the entire model to generate G-Code for the Job. Currently, within the operation\'s settings there is no functionality to select specific areas, faces, or regions of the model.
+This tool creates a new Waterline operation. As of 0.19_pre, the Waterline operation works on the entire model to generate G-Code for the Job. Currently, within the operation\'s settings there is no functionality to select specific areas, faces, or regions of the model.
 
 The Waterline operation has two algorithms   * OCL Drop Cutter and Experimental.
 
 -   The OCL Drop Cutter algorithm interfaces to OCL.pyd, a 3rd party Open Source module titled [OpenCamLib](OpenCamLib.md), that generates tool paths from a 3D Model. OpenCamLib is not integrated directly into FreeCAD.
 -   The Experimental algorithm makes use of the built-in Path.Area() class.
 
-\'\'\' *Note* \'\'\'   * In order to use the Waterline operation you must   *
+***Note***   * In order to use the Waterline operation you must   *
 
 1.  Properly install [OpenCamLib](OpenCamLib.md).
 2.  Enable [Experimental Features](Path_experimental.md) for the Path Workbench.
@@ -63,7 +63,7 @@ To achieve different, or more complex, effects, adjust additional operation prop
 
 #### Available Tool (Cutter) Shapes 
 
-When using the \'\'\' *OCL Dropcutter* \'\'\' algorithm, the Waterline operation uses OpenCamLib \[OCL\] to extract paths from the part base. As such, a tool translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape. These tool shapes are(should be) respected and available for the OCL Dropcutter so long as the built-in tool shapes are used, whether Legacy or ToolBit tools   *
+When using the ***OCL Dropcutter*** algorithm, the Waterline operation uses OpenCamLib \[OCL\] to extract paths from the part base. As such, a tool translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape. These tool shapes are(should be) respected and available for the OCL Dropcutter so long as the built-in tool shapes are used, whether Legacy or ToolBit tools   *
 
 -   End mill
 -   Ball end mill
@@ -78,7 +78,7 @@ When using the \'\'\' *OCL Dropcutter* \'\'\' algorithm, the Waterline operation
 
 ## Properties
 
-\'\'\' *Note* \'\'\'   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
+***Note***   * Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
 
 {{TitleProperty|Base}}

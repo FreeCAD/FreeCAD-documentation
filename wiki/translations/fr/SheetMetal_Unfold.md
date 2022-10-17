@@ -42,10 +42,11 @@ Un objet SheetMetal Unfold est dérivé d\'un objet [Part Feature](Part_Feature/
 
 ## Limites
 
--   La tôle doit avoir une épaisseur constante , y compris dans les rayons
--   Les faces plates doivent être planes sans lignes de division.
--   Les angles de pliage doivent être des rayons avec des faces cylindriques.
--   La fonction de dépliage n\'est pas paramétrique pour le moment.
+-   La tôle doit avoir une épaisseur constante.
+-   Les faces planes ne doivent pas contenir de lignes de séparation.
+-   Les faces planes doivent être réellement planes et non des approximations de B-splines.
+-   Les faces des angles de pliage doivent être réellement cylindriques et non des approximations de B-splines.
+-   La fonction de dépliage Unfold n\'est pas paramétrique. Si le modèle est modifié, vous devez le déplier à nouveau.
 
 
 

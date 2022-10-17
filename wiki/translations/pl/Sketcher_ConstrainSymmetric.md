@@ -36,7 +36,7 @@ Przed wersją 0.19 (zobacz poprawkę [1](https   *//github.com/FreeCAD/FreeCAD/p
 -   Jeśli klikniesz w narzędzie jako pierwsze   * wybierz najpierw pierwszy punkt, następnie punkt odniesienia symetrii, a na końcu drugi punkt.
 -   Jeśli narzędzie zostanie kliknięte jako ostatnie   * wybierz pierwszy punkt, następnie drugi punkt, a na końcu punkt odniesienia symetrii.
 
-Zobacz tracker [issue \#4144](https   *//freecadweb.org/tracker/view.php?id=4144), oraz [wątek na forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
+Zobacz tracker [issue #4144](https   *//freecadweb.org/tracker/view.php?id=4144), oraz [wątek na forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=39611).
 
 ## Tworzenie skryptów 
 

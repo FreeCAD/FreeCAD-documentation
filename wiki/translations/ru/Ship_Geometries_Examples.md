@@ -1,5 +1,5 @@
 # Ship Geometries Examples/ru
-1.  REDIRECT [Ship\_LoadExample/ru](Ship_LoadExample/ru.md)
+1.  REDIRECT [Ship_LoadExample/ru](Ship_LoadExample/ru.md)
 
 
 

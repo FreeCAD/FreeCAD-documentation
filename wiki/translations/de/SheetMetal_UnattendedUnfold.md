@@ -16,7 +16,7 @@ Der Befehl <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width 
 
 Wenn der Elternkörper einer ausgewählten ebenen Fläche schon zuvor von einer Abwicklung betroffen war, überspringt dieses Werkzeug das Menü im Aufgaben-Fenster. Andernfalls zeigt es eine Fehlermeldung, die auffordert einen K-Faktor anzugeben (\"set a Manual K-factor\") oder ein Materialdatenblatt zu verwenden (\"use a Material Definition Sheet\").
 
-   *   Mit der ersten Benutzung des <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Abwickeln](SheetMetal_Unfold.md)-Befehls erhält das **Label** des Elternkörpers einen Zusatz (wie z.B. *\_material\_0.5din*) und ist danach bereit für die Benutzung mit diesem Werkzeug.
+   *   Mit der ersten Benutzung des <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Abwickeln](SheetMetal_Unfold.md)-Befehls erhält das **Label** des Elternkörpers einen Zusatz (wie z.B. *\_material_0.5din*) und ist danach bereit für die Benutzung mit diesem Werkzeug.
 
 ## Anwendung
 

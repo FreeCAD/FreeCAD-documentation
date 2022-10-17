@@ -11,9 +11,15 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### TravisCI
 
 <img alt="" src=images/Travis-logo.png  style="width   *50px;"> Testeză comportamentul sub Linux și OSX. Fișierul de configurare se numește [.travis.yml](https   *//github.com/FreeCAD/FreeCAD/blob/master/.travis.yml) și se află în directorul de bază al FreeCAD. Pentru a vedea versiunea curentă și cele trecute   * <https   *//travis-ci.org/FreeCAD/FreeCAD/builds>
+
+
+</div>
 
 ### Appveyor
 
@@ -39,7 +45,7 @@ Dacă adăugaţi [skip ci] sau [ci skip] pentru comiterea unui \"git\", aceasta 
 
  
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Testing](Category_Testing.md)
 
 
 

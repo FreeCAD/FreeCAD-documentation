@@ -37,7 +37,7 @@ Dieses Tutorium zielt auf die Verwendung von [Industrieroboter](http   *//en.wik
 2.  Aktiviere den Modell Reiter in der [Baumansicht](tree_view/de.md), durch Klicken darauf
 3.  Erstelle eine neue Bewegungsbahn durch Klick auf die <img alt="" src=images/Robot_CreateTrajectory.svg  style="width   *24px;"> [Roboter Erstelle Bewegungsbahn](Robot_CreateTrajectory/de.md) Schaltfläche
 4.  Wähle den Roboter in der [Baumansicht](tree_view/de.md)
-5.  Lege die Home Position für den Roboter durch Klick auf <img alt="" src=images/Robot_SetHomePos.svg  style="width   *24px;"> [Robot\_SetzeHomePos](Robot_SetHomePos/de.md)
+5.  Lege die Home Position für den Roboter durch Klick auf <img alt="" src=images/Robot_SetHomePos.svg  style="width   *24px;"> [Robot_SetzeHomePos](Robot_SetHomePos/de.md)
 6.  Wechsle zum [Aufgabenpaneel](Task_Panel/de.md)
 7.  Durch Benutzung der Schieber verändere die Roboterposition
 8.  Wenn der Roboter und Bewegungsbahn in der [Baumansicht](tree_view/de.md) ausgewählt wurden

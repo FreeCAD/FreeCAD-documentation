@@ -1,5 +1,5 @@
 # TechDraw Dimension Diameter/es
-1.  REDIRECT [TechDraw\_DiameterDimension/es](TechDraw_DiameterDimension/es.md)
+1.  REDIRECT [TechDraw_DiameterDimension/es](TechDraw_DiameterDimension/es.md)
 
 
 

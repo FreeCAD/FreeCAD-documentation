@@ -1,5 +1,5 @@
 # TechDraw Dimension Horizontal Extent/pl
-1.  REDIRECT [TechDraw\_HorizontalExtentDimension/pl](TechDraw_HorizontalExtentDimension/pl.md)
+1.  REDIRECT [TechDraw_HorizontalExtentDimension/pl](TechDraw_HorizontalExtentDimension/pl.md)
 
 
 

@@ -52,8 +52,8 @@ Se desiderate qualcosa che in FreeCAD che non è ancora implementato, it is not 
 2.  Avviare un thread del forum per discutere la propria richiesta di funzione con la comunità tramite il [Open Discussion forum](http   *//forum.freecadweb.org/viewforum.php?f=8).
 3.  Una volta che la comunità ha accettato che si tratta di una funzione valida, è quindi possibile aprire un ticket sul tracker (da registrare come \"richiesta di funzione\" invece di \"bug\").
 
--   **NOTA \#1** Per mantenere le cose organizzate, ricordarsi di indicare l\'URL del thread del forum nel ticket e il numero del ticket (come collegamento) nel thread del forum.
--   **NOTA \#2** Tenere presente che non ci sono garanzie che il desiderio sarà soddisfatto.
+-   **NOTA #1** Per mantenere le cose organizzate, ricordarsi di indicare l\'URL del thread del forum nel ticket e il numero del ticket (come collegamento) nel thread del forum.
+-   **NOTA #2** Tenere presente che non ci sono garanzie che il desiderio sarà soddisfatto.
 
 ![Pagina di segnalazione Bugtracker di FreeCAD   * utilizzare il menu a discesa per designare correttamente il tipo di ticket](images/MantisBT-setting-Feature-Request.jpg )
 
@@ -85,11 +85,11 @@ MantisBT (Mantis Bug Tracker) ha il proprio markup.
 
 -   **\#**1234 - Aggiungendo un hash tag davanti a un numero viene presentata una scorciatoia per collegarsi a un altro ticket all\'interno di MantisBT.
 
-       *   **Nota**   * se si passa il mouse su un ticket, viene mostrato il riepilogo + se il ticket è chiuso, e sarà anche barrato come \#1234.
+       *   **Nota**   * se si passa il mouse su un ticket, viene mostrato il riepilogo + se il ticket è chiuso, e sarà anche barrato come #1234.
 
 <img alt="" src=images/mantisbt-ticket-shortcut-example.jpg  style="width   *600px;">
 
--   **\~**5678 - una scorciatoia che collega a una nota di bug all\'interno di un ticket. Questo può essere utilizzato per fare riferimento alla risposta di qualcuno all\'interno del thread. Per ogni persona che pubblica un post viene mostrato un numero \~\#\#\#\# univoco accanto al proprio nome utente. Guardando l\'immagine nell\'esempio, si vede che la scorciatoia fa riferimento al *numero del ticket   *numero del commento* di detto ticket
+-   **\~**5678 - una scorciatoia che collega a una nota di bug all\'interno di un ticket. Questo può essere utilizzato per fare riferimento alla risposta di qualcuno all\'interno del thread. Per ogni persona che pubblica un post viene mostrato un numero \~#### univoco accanto al proprio nome utente. Guardando l\'immagine nell\'esempio, si vede che la scorciatoia fa riferimento al *numero del ticket   *numero del commento* di detto ticket
 
 <img alt="" src=images/mantisbt-comment-shortcut-example.jpg  style="width   *600px;">
 
@@ -153,12 +153,12 @@ The FreeCAD bugtracker has a plug-in called [Source Integration](https   *//gith
 
 Using this pattern will automagically associate a git commit to a ticket (**Note   *** this will not close the ticket.) The format MantisBT will recognize   *
 
--   bug \#1234
--   bugs \#1234, \#5678
--   issue \#1234
--   issues \#1234, \#5678
--   report \#1234
--   reports \#1234, \#5678
+-   bug #1234
+-   bugs #1234, #5678
+-   issue #1234
+-   issues #1234, #5678
+-   report #1234
+-   reports #1234, #5678
 
 For the inquisitive here is the regex MantisBT uses for this operation   *
 
@@ -167,16 +167,16 @@ For the inquisitive here is the regex MantisBT uses for this operation   *
 
 The format MantisBT will recognize   *
 
--   fix \#1234
--   fixed \#1234
--   fixes \#1234
--   fixed \#1234, \#5678
--   fixes \#1234, \#5678
--   resolve \#1234
--   resolved \#1234
--   resolves \#1234
--   resolved \#1234, \#5678
--   resolves \#1234, \#5678
+-   fix #1234
+-   fixed #1234
+-   fixes #1234
+-   fixed #1234, #5678
+-   fixes #1234, #5678
+-   resolve #1234
+-   resolved #1234
+-   resolves #1234
+-   resolved #1234, #5678
+-   resolves #1234, #5678
 
 For the inquisitive here is the regex MantisBT uses for this operation   *
 

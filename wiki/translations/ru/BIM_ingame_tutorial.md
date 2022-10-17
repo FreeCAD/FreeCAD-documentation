@@ -169,7 +169,7 @@ FreeCAD имеет обширную систему настроек с множ�
 
 ### Проведём первую стену 
 
-Начнем строить павильон со стен. Стены можно нарисовать либо напрямую с помощью инструмента [стена](Arch_Wall/ru.md), либо сначала нарисовав 2D-объекты, такие как [линии](Draft_Line/ru.md), [полилинии](Draft_Wire/ru.md) или \[\[Sketcher\_NewSketch/ru\|эскизы\] \], которые будут определять базовую линию наших стен. Когда у вас выбран такой базовый объект, нажатие инструмента «Стена» автоматически преобразует его в стену.
+Начнем строить павильон со стен. Стены можно нарисовать либо напрямую с помощью инструмента [стена](Arch_Wall/ru.md), либо сначала нарисовав 2D-объекты, такие как [линии](Draft_Line/ru.md), [полилинии](Draft_Wire/ru.md) или \[\[Sketcher_NewSketch/ru\|эскизы\] \], которые будут определять базовую линию наших стен. Когда у вас выбран такой базовый объект, нажатие инструмента «Стена» автоматически преобразует его в стену.
 
 Сначала масштабируйте, пока не будет видна большая часть или вся сетка. Так будет легче видеть, что мы делаем   *
 
@@ -488,7 +488,7 @@ Each object of a construction has a material. So it makes sense to give each obj
 
 #### Properties
 
-Each BIM object can also receive additional properties, for example to indicate that a wall is load-bearing or not. IFC allows you to add custom properties to just anything, but most types such as Wall or Beam also have special, predefined sets of properties, usually named Pset\_WallCommon or Pset\_BeamCommon. You can choose to add these sets to your objects, modify the value of the properties contained in the set, or add your custom properties. Managing the IFC properties for a selected object or bulk edit the properties of several objects at a time is done using the properties manager under menu **Manage-\>IFC properties**.
+Each BIM object can also receive additional properties, for example to indicate that a wall is load-bearing or not. IFC allows you to add custom properties to just anything, but most types such as Wall or Beam also have special, predefined sets of properties, usually named Pset_WallCommon or Pset_BeamCommon. You can choose to add these sets to your objects, modify the value of the properties contained in the set, or add your custom properties. Managing the IFC properties for a selected object or bulk edit the properties of several objects at a time is done using the properties manager under menu **Manage-\>IFC properties**.
 
 #### Quantities
 

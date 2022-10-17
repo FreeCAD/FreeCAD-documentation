@@ -1,5 +1,5 @@
 # Macro multiCuts
-1.  REDIRECT [Macro\_MultiCuts](Macro_MultiCuts.md)
+1.  REDIRECT [Macro_MultiCuts](Macro_MultiCuts.md)
 
 
 

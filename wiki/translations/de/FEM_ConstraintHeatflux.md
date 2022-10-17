@@ -23,7 +23,7 @@ This constraint specifies film heat transfer of a surface at temperature *T* and
 
 ## Hinweise
 
-1.  The constraint uses the \*FILM card in CalculiX. The heatflux constraint is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node203.html>
+-   The constraint uses the \*FILM card in CalculiX. The heatflux constraint is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node203.html>
 
 
 

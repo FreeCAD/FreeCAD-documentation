@@ -37,7 +37,7 @@ Noul [Addon Manager](Std_AddonMgr.md) disponibil din Tools menu (care înainte e
 
 **Sketcher** suportă acum crearea de curbeB-spline cu mai mult acăi și mijloace de control a curbelor și afișarea a informațiilor despre curbe. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width   *300px;">
 
-Noul \'\'\'Atelier TechDraw \'\'\' își propune să înlocuiască atelierul Drawing, și tot odată furnizează mai multe caracteristici decât vechiul Atelier Drawing . <img alt="" src=images/TechDraw_Workbench_Example.png  style="width   *300px;">
+Noul **Atelier TechDraw** își propune să înlocuiască atelierul Drawing, și tot odată furnizează mai multe caracteristici decât vechiul Atelier Drawing . <img alt="" src=images/TechDraw_Workbench_Example.png  style="width   *300px;">
 
 ## General
 

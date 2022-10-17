@@ -20,7 +20,7 @@ La commande <img alt="" src=images/Fasteners_ChamferHole.svg  style="width   *24
 1.  La commande peut détecter automatiquement le diamètre des vis. Les trous doivent avoir le bon diamètre pour que cela fonctionne. Par exemple, une vis M5 nécessite un trou de passage de 5 mm ou un trou de taraudage de 4,2 mm. La commande <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *16px;"> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator/fr.md) peut être utilisée pour déterminer le diamètre des trous taraudés.
 2.  Sélectionnez une pièce avec des trous circulaires.
 3.  Il existe plusieurs façons de lancer la commande    *
-    -   Appuyez sur le bouton **<img src="images/Fasteners_ChamferHole.svg" width=16px> [Fasteners ChamferHole](Fasteners_ChamferHole/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Fasteners_ChamferHole.svg" width=16px> [Make countersunk](Fasteners_ChamferHole/fr.md)**.
     -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_ChamferHole.svg" width=16px> Make countersunk** dans le menu.
 4.  Le panneau de tâches **Chamfer holes for countersunk screws** s\'ouvre.
 5.  La liste **Edges to chamfer** affiche tous les bords circulaires de la pièce sélectionnée.

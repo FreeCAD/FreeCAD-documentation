@@ -26,7 +26,7 @@ Bei den Berechnungen treten kleine Fehler auf. Aus diesem Grund kann es manchmal
 
 ToolBar Icon ![](images/Macro_EdgesToArc.png )
 
-**Macro\_EdgesToArc.FCMacro**
+**Macro_EdgesToArc.FCMacro**
 
 
 {{MacroCode|code=

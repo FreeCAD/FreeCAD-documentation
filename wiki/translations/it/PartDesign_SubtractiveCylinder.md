@@ -11,7 +11,7 @@ Inserisce un cilindro sottrattivo nel corpo attivo. La sua forma viene sottratta
 
 ![](images/PartDesign_SubtractiveCylinder_example.svg )
 
-\'\' A sinistra il corpo attivo (A) mostrato in grigio e il cilindro sottrattivo (B) mostrato in rosso trasparente; a destra il risultato. \'\'
+*A sinistra il corpo attivo (A) mostrato in grigio e il cilindro sottrattivo (B) mostrato in rosso trasparente; a destra il risultato.*
 
 ## Utilizzo
 

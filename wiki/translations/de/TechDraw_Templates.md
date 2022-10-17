@@ -5,7 +5,7 @@
 
 Jede TechDraw Seite basiert auf einem Vorlagenobjekt. Die Vorlage steuert die Papiergröße und enthält feste Textgrafiken und Text, z.B. einen Seitenrahmen oder eine Umrandung.
 
-Die Vorlage kann auch änderbare Textfelder für Attribute wie *Titel*, *Untertitel*, *Autor*, *Datum*, *Maßstab*, \'\'Gewicht\", *Zeichnungsnummer* und *Blatt*.
+Die Vorlage kann auch änderbare Textfelder für Attribute wie *Titel*, *Untertitel*, *Autor*, *Datum*, *Maßstab*, *Gewicht\",*Zeichnungsnummer*und*Blatt\'\'.
 
 Die Vorlagen sind [SVG](SVG.md)-Dateien, die außerhalb von FreeCAD mit einer Anwendung wie [Inkscape](https   *//de.wikipedia.org/wiki/Inkscape) erstellt und geändert werden können.
 

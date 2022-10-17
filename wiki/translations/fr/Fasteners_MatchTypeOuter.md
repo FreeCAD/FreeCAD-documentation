@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Fasteners MatchTypeOuter
    Name/fr   *Fasteners MatchTypeOuter
-   MenuLocation   *Fasteners → Match screws by outer thread diameter (Pass hole)
+   MenuLocation   *Fasteners → Match for pass hole
    Workbenches   *[Fasteners](Fasteners_Workbench/fr.md)
    SeeAlso   *[Fasteners MatchTypeInner](Fasteners_MatchTypeInner/fr.md)
 ---
@@ -16,8 +16,8 @@ La commande <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande    *
-    -   Appuyez sur le bouton **<img src="images/Fasteners_MatchTypeOuter.svg" width=16px> [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md)**.
-    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_MatchTypeOuter.svg" width=16px> Match screws by outer thread diameter (Pass hole)** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Fasteners_MatchTypeOuter.svg" width=16px> [Match for pass hole](Fasteners_MatchTypeOuter.md)**.
+    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_MatchTypeOuter.svg" width=16px> Match for pass hole** dans le menu.
 2.  Le bouton reste enfoncé pour indiquer l\'option sélectionnée.
 
 

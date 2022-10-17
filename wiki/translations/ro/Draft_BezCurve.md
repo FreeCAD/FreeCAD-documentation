@@ -25,7 +25,7 @@ Instrumentul BezCurve creează o [Bezier Curve](http   *//en.wikipedia.org/wiki/
 
 <div class="mw-translate-fuzzy">
 
-Obiectul este creat ca o singură curbă Bezier de grad (număr\_de\_ puncte - 1). Aceasta poate fi modificată la o curbă Bezier în parte, de un anumit grad după crearea folosind [ editor proprietăți](Property.md). Bezier Curves poate fi editat folosind {{KEY | <img src="images/_Draft_Edit.png_" width= 16px> Editare proiect}}.
+Obiectul este creat ca o singură curbă Bezier de grad (număr_de\_ puncte - 1). Aceasta poate fi modificată la o curbă Bezier în parte, de un anumit grad după crearea folosind [ editor proprietăți](Property.md). Bezier Curves poate fi editat folosind {{KEY | <img src="images/_Draft_Edit.png_" width= 16px> Editare proiect}}.
 
 
 </div>

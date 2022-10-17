@@ -9,7 +9,7 @@ Here an example to create an object with properties and icon personalised in Com
 
 Download the example icon to the same directory as the macro ![icon Example for the macro\|24px](images/FreeCADIco.png )
 
-Use of an icon for three different use cases   * icon\_in\_file\_disk (format .png), icon\_XPM\_in\_macro (format .XPM) and icon\_resource\_FreeCAD
+Use of an icon for three different use cases   * icon_in_file_disk (format .png), icon_XPM_in_macro (format .XPM) and icon_resource_FreeCAD
 
 ![icon personalised](images/Qt_Example_02.png ) 
 

@@ -25,7 +25,7 @@ Vytvoří parametrickou rectellipovu
 
 ToolBar Icon ![](images/Macro_Rectellipse.png )
 
-**Macro\_Rectellipse.FCMacro**
+**Macro_Rectellipse.FCMacro**
 
 
 {{MacroCode|code=

@@ -35,7 +35,7 @@ Example usage   *
 
 ToolBar Icon ![](images/Macro_Draw_Parametric_2D_Function.png )
 
-**Macro\_drawParametric2DFunction.FCMacro**
+**Macro_drawParametric2DFunction.FCMacro**
 
 
 {{MacroCode|code=

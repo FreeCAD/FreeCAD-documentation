@@ -24,13 +24,7 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 1.  Press the **<img src="images/BIM_Box.png" width=16px> [BIM Box](BIM_Box.md)** button
 2.  Click a first point to define a first corner of the box. It can be any of the box corners

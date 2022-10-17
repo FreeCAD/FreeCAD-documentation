@@ -12,17 +12,17 @@
 
 </div>
 
-## Description
+## Описание
 
 This tool attempts at removing the inner cubic shape of an **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**, and adjusting its properties, making it totally parametric. This tool will only work if the underlying shape is cubic (exactly 6 faces, all corners have only right angles).
 
-## Usage
+## Применение
 
 1.  Select an **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)
 ** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**
 2.  Press the **<img src="images/Arch_RemoveShape.svg" width=16px>** button or use **Arch** → **Utilities** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Remove Shape](Arch_RemoveShape.md)** from the top menu.
 
-## Scripting
+## Программирование
 
 
 **See also   ***

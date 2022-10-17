@@ -37,7 +37,7 @@ Applique une vitesse d\'écoulement comme condition limite à un bord en 2D ou �
        *   Si \"normal to boundary\" est coché, le vecteur normal au bord ou à la face sélectionné est X et il sera orienté loin du domaine du maillage.
        *   Par exemple, si un flux de 20 mm/s d\'air doit entrer dans le domaine, après avoir coché \"normal à la limite\", l\'utilisateur devra entrer -20 mm/s dans le champ \"velocity X\".
 
--   Pour un mur avec une condition antidérapante, le débit sera de (0,0,0)
+-   Pour une paroi avec une condition adhérente, le débit sera de (0,0,0)
 -   Pour une condition de symétrie, l\'écoulement sera (0, Unspecified, Unspecified) si \"normal to boundary\" est coché.
 
 

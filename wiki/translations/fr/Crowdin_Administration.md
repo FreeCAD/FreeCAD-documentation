@@ -56,7 +56,7 @@ Si vous remarquez une chaîne dans l\'interface utilisateur de FreeCAD qui n\'es
 ## Liens
 
 -   [Localisation](Localisation/fr.md)
--   [Crowdin Scripts](Crowdin_Scripts/fr.md)
+-   [Scripts pour Crowdin](Crowdin_Scripts/fr.md)
 -   [Processus de mise à jour](Release_process.md)
 
 

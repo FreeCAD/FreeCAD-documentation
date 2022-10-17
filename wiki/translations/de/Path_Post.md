@@ -106,24 +106,24 @@ Die bereitgestellten Postprozessoren sind mit Kommentaren versehen, die Bereiche
 
 Zu den typischen True/False Merkern der Konfiguration gehören   *
 
--   OUTPUT\_COMMENTS (True = Zulassen, False = Unterdrücken), wird verwendet, um Textkommentare in die G-Code Ausgabedatei einzufügen.
--   OUTPUT\_HEADER (True = Zulassen, False = Unterdrücken), Dient zum Einfügen von Textkopfzeilen in die G-Code Ausgabedatei.
--   OUTPUT\_LINE\_NUMBERS (True = Zulassen, False = Unterdrücken), Dient zum Einfügen von Zeilennummern in die G-Code Ausgabedatei.
--   SHOW\_EDITOR (True = Zulassen, False = Unterdrücken), Dient zur Anzeige des ausgegebenen G-Codes in einem Aufklappfenster beim Aufruf des Postprozessors.
+-   OUTPUT_COMMENTS (True = Zulassen, False = Unterdrücken), wird verwendet, um Textkommentare in die G-Code Ausgabedatei einzufügen.
+-   OUTPUT_HEADER (True = Zulassen, False = Unterdrücken), Dient zum Einfügen von Textkopfzeilen in die G-Code Ausgabedatei.
+-   OUTPUT_LINE_NUMBERS (True = Zulassen, False = Unterdrücken), Dient zum Einfügen von Zeilennummern in die G-Code Ausgabedatei.
+-   SHOW_EDITOR (True = Zulassen, False = Unterdrücken), Dient zur Anzeige des ausgegebenen G-Codes in einem Aufklappfenster beim Aufruf des Postprozessors.
 -   MODAL (True = Allow, False = Suppress), Reduziert die Anzahl der ausgegebenen G-Code Zeilen, indem die Modusinformationen entfernt werden, wenn sich der Modus nicht ändert.
 
 Typische Konfigurationsvariablen schließen ein   *
 
 -   LINENR (Zeilennummer), wird verwendet, um den Zeilennummernindex einzustellen.
 -   UNITS (G20 oder G21), wird verwendet, um der Ziel CNC Steuerung ausdrücklich mitzuteilen, welche Einheiten zur Interpretation der endgültigen Ausgabedatei verwendet werden sollen.
--   MACHINE\_NAME (Name der Ziel CNC Fräse), wird verwendet, um eine Maschinennamen Kennzeichnung in die endgültige Ausgabedatei einzufügen.
+-   MACHINE_NAME (Name der Ziel CNC Fräse), wird verwendet, um eine Maschinennamen Kennzeichnung in die endgültige Ausgabedatei einzufügen.
 -   PRECISION, wird verwendet, um die Anzahl der Ziffern nach der Dezimalstelle in der endgültigen Ausgabedatei festzulegen.
 
 Typische Konfigurationsabschnitte sind   *
 
 -   PREAMBLE (Code Konfiguration, die zu Beginn des Auftrags eingefügt wird)
 -   POSTAMBLE (Code Konfiguration, die an den Auftrag angehängt wird und das Parken der Maschine vorsieht, usw\...)
--   TOOL\_CHANGE (Code, der bei jedem Werkzeugwechsel im Auftrag eingefügt wird)
+-   TOOL_CHANGE (Code, der bei jedem Werkzeugwechsel im Auftrag eingefügt wird)
 
 Der **Bearbeiten** → **Einstellungen...** → **Pfad** → **Auftragseinstellungen Reiter** → **Standardeinstellungen** → **Pfad** wird verwendet, um den bei der Auftragserstellung ausgewählten Standard Postprozessor festzulegen. Dies erlaubt Pfad Arbeitsbereich so konfiguriert zu werden, dass nur die gewünschten Postprozessoren angezeigt werden und ein Standard festgelegt wird.
 

@@ -25,11 +25,11 @@ Copy the macros and the icons in your folder macros and run (see [How to install
 
 ## Script
 
-This macro makes all objects visible respecting the original visible and hidden objects after use the [Macro\_Toggle\_Visibility2\_1-2](Macro_Toggle_Visibility2_1-2.md) macro.
+This macro makes all objects visible respecting the original visible and hidden objects after use the [Macro_Toggle_Visibility2_1-2](Macro_Toggle_Visibility2_1-2.md) macro.
 
 ToolBar Icon <img alt="" src=images/Macro_VisibleAlls2.png  style="width   *64px;">
 
-**Macro\_DisplayAllObjects2\_2-2.FCMacro**
+**Macro_DisplayAllObjects2_2-2.FCMacro**
 
 
 {{MacroCode|code=

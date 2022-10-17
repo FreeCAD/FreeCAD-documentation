@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch Rebar LShape
-   Name/ru   *Arch Rebar LShape
-   MenuLocation   *Arch → Rebar tools
+   Name/ru   *L-Образная арматура
+   Name   *Arch_Rebar_LShape
+   MenuLocation   *Arch → Rebar tools → L-Shape Rebar<br>3D/BIM → Reinforcement tools → L-Shape Rebar
    Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   SeeAlso   *[Bent Rebar](Arch_Rebar_BentShape/ru.md), [Rebar](Arch_Rebar/ru.md)
    Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Изогнутая арматура](Arch_Rebar_BentShape/ru.md)
 ---
 
 # Arch Rebar LShape/ru
-
-
-</div>
 
 ## Описание
 
@@ -108,9 +105,9 @@ Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 -    `rounding`is the parameter that determines the bending radius of the reinforcement bars.
 
--    `amount_spacing_check`if it is True it will create as many reinforcement bars as given by amount\_spacing\_value; if it is False it will create reinforcement bars separated by the numerical value of amount\_spacing\_value.
+-    `amount_spacing_check`if it is True it will create as many reinforcement bars as given by amount_spacing_value; if it is False it will create reinforcement bars separated by the numerical value of amount_spacing_value.
 
--    `amount_spacing_value`specifies the number of reinforcement bars, or the value of the separation between them, depending on amount\_spacing\_check.
+-    `amount_spacing_value`specifies the number of reinforcement bars, or the value of the separation between them, depending on amount_spacing_check.
 
 -    `orientation`specifies the orientation of the rebar; it can be `"Bottom Right"`, `"Bottom Left"`, `"Top Right"`, or `"Top Left"`.
 
@@ -160,13 +157,7 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

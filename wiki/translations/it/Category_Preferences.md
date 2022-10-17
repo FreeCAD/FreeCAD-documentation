@@ -1,5 +1,5 @@
 # Category:Preferences/it
-This category lists all existing Preference menus of different FreeCAD workbenches. See [Preferences\_Editor/it\#Preferenze\_degli\_ambienti](Preferences_Editor/it#Preferenze_degli_ambienti.md)
+This category lists all existing Preference menus of different FreeCAD workbenches. See [Preferences_Editor/it#Preferenze_degli_ambienti](Preferences_Editor/it#Preferenze_degli_ambienti.md)
 
 ### Contents
 

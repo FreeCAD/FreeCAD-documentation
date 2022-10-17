@@ -151,7 +151,7 @@ Nella Vista combinata viene chiesto di introdurre le trasformazioni che si desid
 4.  Impostare la lunghezza su 10 mm
 5.  Lasciare le occorrenze a 2
 6.  Cliccare OK
-7.  Fare nuovamente clic sulla casella per aggiungere un \'\'\'Polar Pattern \'\'\'. Notare che nella visualizzazione 3D ora è stata aggiunta la schiera lineare.
+7.  Fare nuovamente clic sulla casella per aggiungere un **Polar Pattern**. Notare che nella visualizzazione 3D ora è stata aggiunta la schiera lineare.
 8.  Impostare le occorrenze a 5
 9.  Fare due volte clic su OK
 

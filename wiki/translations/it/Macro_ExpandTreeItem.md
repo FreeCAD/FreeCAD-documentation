@@ -52,7 +52,7 @@ Copiare la macro nella directory macro, creare la barra degli strumenti e avviar
 
 ToolBar Icon .PNG ![](images/Macro_ExpandTreeItem.png ) and the .SVG ![](images/Macro_ExpandTreeItem.svg )
 
-**Macro\_ExpandTreeItem.FCMacro**
+**Macro_ExpandTreeItem.FCMacro**
 
 
 {{MacroCode|code=

@@ -15,12 +15,12 @@ La ventana principal de la aplicación puede dividirse a grandes rasgos en 11 se
 
 1.  El [área de vista principal](main_view_area/es.md), que puede contener diferentes ventanas con pestañas.
 2.  La [vista 3D](3D_view/es.md), normalmente incrustada en el [área de vista principal](main_view_area/es.md)
-3.  La parte superior de la [vista\_combo](combo_view/es.md), que incluye la [vista\_árbol](tree_view/es.md) y el [panel\_tarea](task_panel/es.md)
-4.  La parte inferior de la [vista\_combo](combo_view/es.md), que incluye el [editor de propiedades](property_editor/es.md)
+3.  La parte superior de la [vista_combo](combo_view/es.md), que incluye la [vista_árbol](tree_view/es.md) y el [panel_tarea](task_panel/es.md)
+4.  La parte inferior de la [vista_combo](combo_view/es.md), que incluye el [editor de propiedades](property_editor/es.md)
 5.  La [vista de selección](selection_view/es.md)
 6.  La [vista de informe](report_view/es.md)
 7.  La [consola de Python](Python_console/es.md)
-8.  La [barra\_de\_estado](status_bar/es.md)
+8.  La [barra_de_estado](status_bar/es.md)
 9.  El área de la barra de herramientas, ver la siguiente información sobre las barras de herramientas
 10. El [Selector de ambientes de trabajo](Std_Workbench/es.md), que es una barra de herramientas
 11. El [menú estándar](Standard_Menu/es.md)

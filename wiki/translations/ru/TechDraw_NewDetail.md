@@ -1,5 +1,5 @@
 # TechDraw NewDetail/ru
-1.  REDIRECT [TechDraw\_DetailView](TechDraw_DetailView.md)
+1.  REDIRECT [TechDraw_DetailView](TechDraw_DetailView.md)
 
 
 

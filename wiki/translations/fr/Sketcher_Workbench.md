@@ -144,7 +144,7 @@ Ces outils permettent de créer des objets.
 
    ** <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width   *32px;"> [Polygone régulier](Sketcher_CompCreateRegularPolygon/fr.md)    * dessine un polygone régulier en sélectionnant le nombre de côtés et en choisissant deux points   * le centre et un coin.
 
--   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Rainure](Sketcher_CreateSlot/fr.md)    * dessine un contour oblong (ex    * clavette de type A) en entrant le centre du demi-cercle, le centre d\'un rayon et le point final du deuxième demi-cercle.
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Contour oblong](Sketcher_CreateSlot/fr.md)    * dessine un contour oblong (ex    * clavette de type A) en entrant le centre du demi-cercle, le centre d\'un rayon et le point final du deuxième demi-cercle.
 
 -   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Congés](Sketcher_CompCreateFillets/fr.md)    * menu d\'icônes dans la barre d\'outils des contraintes de Sketcher qui contient les commandes suivantes    *
 

@@ -34,7 +34,13 @@ Crea un vincolo FEM per un determinato dislocamento di un oggetto selezionato pe
 
 ## Note
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Il vincolo utilizza \*BOUNDARY card in CalculiX. Come stabilire un grado di libertà è spiegato in <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html> e prescrivere uno dislocamento per un grado di libertà è spiegato in <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

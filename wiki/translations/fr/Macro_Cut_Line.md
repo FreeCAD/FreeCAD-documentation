@@ -34,7 +34,7 @@ Avec l\'option bisColor les lignes sont créées de couleurs rouge et blanche, l
 
 ToolBar Icon ![](images/Macro_Cut_Line.png )
 
-**Macro\_cutLine.FCMacro**
+**Macro_cutLine.FCMacro**
 
 
 {{MacroCode|code=

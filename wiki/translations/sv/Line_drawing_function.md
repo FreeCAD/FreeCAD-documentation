@@ -160,7 +160,7 @@ def getpoint(self, event_cb)   *
 
 <div class="mw-translate-fuzzy">
 
-Nu definierar vi getpoint funktionen, som kommer utföras när en musknapp trycks ned i en 3D vy. Denna funktion kommer att ta emot ett argument, som vi kommer kalla event\_cb. Från denna händelses återanrop kan vi komma åt händelseobjektet, vilket innehåller flera informationsbitar (läge info [här](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python/sv.md)).
+Nu definierar vi getpoint funktionen, som kommer utföras när en musknapp trycks ned i en 3D vy. Denna funktion kommer att ta emot ett argument, som vi kommer kalla event_cb. Från denna händelses återanrop kan vi komma åt händelseobjektet, vilket innehåller flera informationsbitar (läge info [här](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python/sv.md)).
 
 
 </div>

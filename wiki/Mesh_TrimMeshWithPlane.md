@@ -1,5 +1,5 @@
 # Mesh TrimMeshWithPlane
-1.  REDIRECT [Mesh\_TrimByPlane](Mesh_TrimByPlane.md)
+1.  REDIRECT [Mesh_TrimByPlane](Mesh_TrimByPlane.md)
 
 
 

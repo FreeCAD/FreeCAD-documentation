@@ -20,7 +20,7 @@ Der Befehl <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *24px;">
 2.  Den Befehl <img alt="" src=images/SheetMetal_Unfold.svg  style="width   *16px;"> [Abwickeln](SheetMetal_UnattendedUnfold/de.md) aktivieren durch   *
     -   Die Schaltfläche **<img src="images/_SheetMetal_Unfold.svg_" width=16px> [Unfold](SheetMetal_Unfold/de.md)
 **
-    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold/de.md)
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/de.md)
 **
     -   Das Tastenkürzel   * **U**
 3.  Einstellung der Abwicklungseinstellungen im [Aufgabenbereich](Task_panel/de.md) durch   *
@@ -44,10 +44,11 @@ Das SheetMetal-**Unfold**-Objekt, wird von einem [Part-Formelement](Part_Feature
 
 ## Einschränkungen
 
--   Blechobjekte sollten eine konstante Wandstärke haben
--   Flat faces should be planar with no split lines
--   Bend angles should be radius with cylindrical faces
--   Das Unfold-Objekt ist bisher nicht parametrisch.
+-   Die Blechobjekte sollten eine konstante Wandstärke haben.
+-   Ebene Flächen sollten keine Trennlinien (?) enthalten.
+-   Ebene Flächen sollten wirklich eben sein und keine B-Spline-Annäherungen.
+-   Die Flächen der Bögen müssen wirklich zylindrisch sein und ebenfalls keine B-Spline-Annäherungen.
+-   Das Unfold-Objekt ist nicht parametrisch. Wird das Modell geändert, muss es erneut abgewickelt werden.
 
 
 

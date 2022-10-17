@@ -30,13 +30,13 @@ Toto makro otočí objekt o 90° doleva. Funguje jen pokud jste v pohledu shora 
 
 ## Limitations
 
-Only works if you are in Top view   * ![Std\_ViewTop\|16px\|link=Std\_ViewTop](images/View-top.svg ) [XY (top)](Std_ViewTop.md)
+Only works if you are in Top view   * ![Std_ViewTop\|16px\|link=Std_ViewTop](images/View-top.svg ) [XY (top)](Std_ViewTop.md)
 
 ## Script
 
 ToolBar Icon ![](images/Macro_Rotate_View_view_90_Degrees.png )
 
-**Macro\_Rotate\_View\_90\_Degrees.FCMacro**
+**Macro_Rotate_View_90_Degrees.FCMacro**
 
 
 {{MacroCode|code=

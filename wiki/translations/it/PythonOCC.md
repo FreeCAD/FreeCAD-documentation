@@ -22,7 +22,7 @@ PythonOCC, d\'altra parte, dato che fornisce l\'accesso a tutte le classi e funz
 
 <div class="mw-translate-fuzzy">
 
-Attualmente nel modulo Parte abbiamo i metodi   * **Part.\_\_toPythonOCC\_\_()** e **Part.\_\_fromPythonOCC\_\_()** per scambiare entità TopoDS\_Shape da o per pythonOCC. Questo permette di utilizzare tutta la potenza di OCC in python (con pythonocc) e poi di mettere nuovamente le forme risultanti in FreeCAD.
+Attualmente nel modulo Parte abbiamo i metodi   * **Part.\_\_toPythonOCC\_\_()** e **Part.\_\_fromPythonOCC\_\_()** per scambiare entità TopoDS_Shape da o per pythonOCC. Questo permette di utilizzare tutta la potenza di OCC in python (con pythonocc) e poi di mettere nuovamente le forme risultanti in FreeCAD.
 
 
 </div>

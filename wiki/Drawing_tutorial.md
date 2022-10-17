@@ -39,9 +39,9 @@ To reduce the time required for this tutorial, it is compulsory to group togethe
 
 Create the following groups   *
 
--   Draft\_objects
--   Draft\_dimensions
--   Draft\_annotations\_text
+-   Draft_objects
+-   Draft_dimensions
+-   Draft_annotations_text
 
 #### Drawing Templates 
 
@@ -84,7 +84,7 @@ You can also alter the **location**, **scale** and **rotation** of the **View** 
 The preferred way to add elements created in the **Draft Workbench** is with a tool contained in the **Draft Workbench** designed specifically for this. With this procedure, it is possible to import **Dimensions**, **Annotations**, **Shapestrings** and any other element created whithin the **Draft** Workbench.
 
 1.  Switch to the **Draft** Workbench
-2.  Select the **group** or **elements** that you wish to project. In this case **Draft\_dimensions**
+2.  Select the **group** or **elements** that you wish to project. In this case **Draft_dimensions**
 3.  Select ![](images/Draft_PutOnSheet.png ) [Drawing](Draft_Drawing.md)
 4.  Edit the **X** and **Y** coordinates to **(140,100)**
 5.  Set the scale to 0.5
@@ -117,4 +117,4 @@ We are now finished with the basic workflow for the [Drawing Workbench](Drawing_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Category_Drawing.md) > Drawing tutorial

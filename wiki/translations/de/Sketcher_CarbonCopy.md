@@ -12,9 +12,9 @@
 
 ## Beschreibung
 
-Das **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [Skizzierer Kopie](Sketcher_CarbonCopy/de.md)** Werkzeug kopiert alle Geometrien und Beschränkungen aus einer anderen Skizze in die aktive Skizze.
+Das Werkzeug **[<img src=images/Sketcher_CarbonCopy.svg style="width   *16px"> [Sketcher Pause](Sketcher_CarbonCopy/de.md)** paust (kopiert) alle Geometrien und Randbedingungen aus einer anderen Skizze in die aktive Skizze durch.
 
-Maßbeschränkungen, die vor der Kopierfunktion bestehen, bleiben über [ Ausdrücke](expressions/de.md) mit den Maßbeschränkungen der Originalskizze verknüpft.
+Maßliche Randbedingungen, die vor der Pausfunktion bestehen, bleiben über [Ausdrücke](expressions/de.md) mit den maßliche Randbedingungen der Originalskizze verknüpft.
 
 ## Anwendung
 
@@ -31,20 +31,14 @@ Maßbeschränkungen, die vor der Kopierfunktion bestehen, bleiben über [ Ausdr�
 
 ## Anmerkungen
 
-
-<div class="mw-translate-fuzzy">
-
--   Wenn Skizzen im <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) verwendet werden, sollte normalerweise die Skizze zur Kopie im gleichen **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Körper](PartDesign_Body/de.md)** wie die derzeit aktive Skizze sein. Wenn sich die zu kopierende Skizze nicht in der aktiven Skizze [Körper](PartDesign_Body/de.md) befindet, lässt der Mauszeiger keine Auswahl zu. Halte in diesem Fall **Ctrl** gedrückt, um die Auswahl von Skizzen aus anderen Körpern zu ermöglichen.
--   Normalerweise sollte sich die auszuwählende Skizze in einer Ebene befinden, die parallel zur derzeit aktiven Skizze liegt. Wenn die zu kopierende Skizze nicht parallel zur derzeit aktiven Skizze ist, halte **Strg**+**Alt** gedrückt, um die Auswahl nicht-paralleler Skizzen zu ermöglichen. Das Objekt wird dann an die Ebene der aktiven Skizze angepasst. Hinweisː ab diesem Schreiben muss das Dokument gespeichert und neu geladen werden, um es sichtbar zu machen. Dies funktioniert auch für Skizzen, die sich außerhalb der aktiven Skizze [Körper](PartDesign_Body/de.md) befinden.
--   Da kopierte Maßbeschränkungen Ausdrücke verwenden, werden sie in einer anderen Farbe gerendert. Die Farbe kann mit dem [Voreinstellungeneditor](Preferences_Editor/de.md) unter **Bearbeiten → Einstellungen → Skizzierer → Farben → Ausdrucksabhängige Beschränkungsfarbe** angepasst werden.
--   Wenn der Skizzierer Modus mit **[<img src=images/Sketcher_ToggleConstruction.svg style="width   *24px"> in den Konstruktionsmodus umgeschaltet wurde [Umschalten Konstruktion](Sketcher_ToggleConstruction/de.md)** werden alle kopierten Geometrien im Konstruktionsmodus erstellt.
-
-
-</div>
+-   Wenn Skizzen im Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench/de.md) verwendet werden, sollte sich die durchzupausende Skizze normalerweise im selben **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Körper](PartDesign_Body.md)** befinden, wie die aktuell aktive Skizze. Ist die zu kopierende Skizze nicht im aktiven [Körper](PartDesign_Body.md), wird der Mauszeiger keine Auswahl zulassen. In diesem Falle hält man **Ctrl** gedrückt, um die Auswahl von Skizzen aus anderen Körpern zu erlauben.
+-   Normalerweise soll die auszuwählende Skizze auf einer Ebene parallel zur Skizzenebene liegen. Ist die zu kopierende Skizze nicht parallel zur aktuell aktiven Skizze, hält man **Ctrl** + **Alt** gedrückt, um die Auswahl von nicht parallelen Skizzen zu erlauben. Das Objekt wird dann auf die Ebene der aktiven Skizze angepasst. Achtung   * Zum Zeitpunkt des Schreibens muss das Dokument noch gespeichert und wieder geöffnet werden, damit die Anpassung sichtbar wird. Dies funktioniert auch mit Skizzen, die sich außerhalb des aktiven [Körpers](PartDesign_Body/de.md) befinden.
+-   Da durchgepauste maßliche Randbedingungen Ausdrücke (Expressions) verwenden, werden sie in einer anderen Farbe dargestellt. Die Farbe kann mit dem [Voreinstellungseditor](Preferences_Editor/de.md) unter **Bearbeiten → Einstellungen → Skizze → Farben → Ausdrucksabhängige Beschränkung** angepasst werden.
+-   Wenn der Sketcher-Modus mit ** [<img src=images/Sketcher_ToggleConstruction.svg style="width   *16px"> [UmschalterKonstruktion](Sketcher_ToggleConstruction/de.md)** in den Konstruktionsmodus umgeschaltet wurde, werden alle kopierten Geometrien im Konstruktionsmodus erstellt.
 
 ## Begrenzungen
 
--   Die komplette Skizze wird kopiert, es ist nicht möglich, nur einen Teil davon auszuwählen. Nach dem Kopieren kannst du jedoch unerwünschte Elemente aus der kopierten Skizze löschen.
+-   Die komplette Skizze wird kopiert, es ist nicht möglich, nur einen Teil davon auszuwählen. Nach dem Kopieren können jedoch unerwünschte Elemente aus der kopierten Skizze gelöscht werden.
 
 
 

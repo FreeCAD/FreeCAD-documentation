@@ -88,7 +88,7 @@ Afin de générer des réservoirs, nous chargeons [l\'atelier Part](Part_Workben
 
 Nous devons modifier la boîte, donc nous la sélectionnons dans l\'arborescence **Attributes and tags**, et nous passons de la vue à l\'onglet Données. Développez Placement, et à l\'intérieur Position, et définissez *x* à 1.5, et z à -1. Nous voulons également modifier la longueur de la boîte en la changeant pour 5.0 (notez que les unités peuvent être en mm, n\'y prêtez pas attention).
 
-La géométrie du réservoir fait partie intégrante de la géométrie de boîte et de navire créée. Vous pouvez ainsi masquer l\'instance **Ship**, et afficher la géométrie **s60\_IowaUniversity**. En sélectionnant la case et **s60\_IowaUniversity**, nous pouvons utiliser l\'opération commune générant la géométrie de notre réservoir tribord.
+La géométrie du réservoir fait partie intégrante de la géométrie de boîte et de navire créée. Vous pouvez ainsi masquer l\'instance **Ship**, et afficher la géométrie **s60_IowaUniversity**. En sélectionnant la case et **s60_IowaUniversity**, nous pouvons utiliser l\'opération commune générant la géométrie de notre réservoir tribord.
 
 ![Géométrie de réservoir générée.](images/FreeCAD-Ship-S60TankGeometry.png )
 
@@ -102,7 +102,7 @@ Géométrie de réservoir générée.
 
 Nous pouvons effectuer une opération à bâbord en sélectionnant notre géométrie tribord et en exécutant l'outil miroir, en sélectionnant XZ comme plan miroir.
 
-Afin de convertir la géométrie en une forme solide habituelle de nos réservoirs et de récupérer notre géométrie **s60\_IowaUniversity**, nous pouvons charger [l\'atelier Draft](Draft_Workbench/fr.md), et avec la géométrie du réservoir tribord sélectionnée, exécuter Mettre à jour, puis répéter avec la géométrie du réservoir latéral. Nous pouvons renommer les géométries en   *
+Afin de convertir la géométrie en une forme solide habituelle de nos réservoirs et de récupérer notre géométrie **s60_IowaUniversity**, nous pouvons charger [l\'atelier Draft](Draft_Workbench/fr.md), et avec la géométrie du réservoir tribord sélectionnée, exécuter Mettre à jour, puis répéter avec la géométrie du réservoir latéral. Nous pouvons renommer les géométries en   *
 
 -   StarboardTankGeom
 -   PortTankGeom

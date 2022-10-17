@@ -36,7 +36,7 @@ In the second diagram, the red and green objects are not co-planar with the 2 bl
 
 ToolBar Icon ![](images/Image_Scaling.svg )
 
-**Macro\_Image\_Scaling.FCMacro**
+**Macro_Image_Scaling.FCMacro**
 
 
 {{MacroCode|code=

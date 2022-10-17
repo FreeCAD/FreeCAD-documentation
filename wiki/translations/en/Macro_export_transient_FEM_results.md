@@ -25,7 +25,7 @@ Run the macro on a FreeCAD project that includes several FEM result objects from
 
 As an example, the bending of a aluminium/steel bimetal strip is used. A step-by-step guide to create the sample file is given [here](Transient_FEM_analysis.md), or you can download the file from the [downloads section](#Downloads.md) of this page. Save the FCMacro file in the FreeCAD macro folder, which can be found via Edit → Preferences → General → Macro.
 
-With the example file opened, we go to Macro → Macros\..., select \"ExportTransientResults\_190830.FCMacro\" (or whatever name you saved it as) and execute it. The macro will now create a subfolder \'vtk-export\' besides the .FCStd file. Depending on the number and size of the result objects, this may take some time. In the Report View (View → Report View), we should see \'Macro finished\', if eveything went fine - or some error messages. (Note   * Sometimes messages like \'PropertyFloatList NOT exported to vtk\' appear, but I was able to work with the VTK files anyway\...) In the subfolder \'vtk-export\', we will find .vtu files, one for each result set for each timestamp. Additionally, a .pvd file is created, which tells ParaView which result set belongs to which timestamp.
+With the example file opened, we go to Macro → Macros\..., select \"ExportTransientResults_190830.FCMacro\" (or whatever name you saved it as) and execute it. The macro will now create a subfolder \'vtk-export\' besides the .FCStd file. Depending on the number and size of the result objects, this may take some time. In the Report View (View → Report View), we should see \'Macro finished\', if eveything went fine - or some error messages. (Note   * Sometimes messages like \'PropertyFloatList NOT exported to vtk\' appear, but I was able to work with the VTK files anyway\...) In the subfolder \'vtk-export\', we will find .vtu files, one for each result set for each timestamp. Additionally, a .pvd file is created, which tells ParaView which result set belongs to which timestamp.
 
 Now, we open ParaView and go to File → Open\... and open the .pvd file. In the \'Properties\' tab, we click \'Apply\' to load the results. In the \'Information\' tab we will see a list of *Index* and *Value*, corresponding to the timestamps of the results that we just imported. (Of course, it always makes sense to check if the times given here are correct or if something strange happened during the export.) From here, we can use ParaView to play around with the results. Since ParaView offers a lot of possibilities, please refer to the appropriate documentations around the internet.
 
@@ -50,7 +50,7 @@ The post-processing we have just done can be saved as a \'state\' in ParaView, w
 
 The ToolBar Icon
 
-**Macro\_export\_transient\_FEM\_results.FCMacro**
+**Macro_export_transient_FEM_results.FCMacro**
 
 
 {{MacroCode|code=

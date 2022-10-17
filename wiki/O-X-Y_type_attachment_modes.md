@@ -1,5 +1,5 @@
 # O-X-Y type attachment modes
-Here we provide more detailed information on the use of **Align O-X-Y** type modes in the [Part\_EditAttachment](Part_EditAttachment.md) attachment editor. These modes are
+Here we provide more detailed information on the use of **Align O-X-Y** type modes in the [Part_EditAttachment](Part_EditAttachment.md) attachment editor. These modes are
 
 -   Align O-X-Y
 -   Align O-X-Z

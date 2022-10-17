@@ -20,7 +20,7 @@ Save your work often, from time to time save your work under a different name, s
 
 ## Modeling Techniques Intro 
 
-The first (and basic) technique of solid modeling is [Constructive Solid Geometry (CSG)](http   *//en.wikipedia.org/wiki/Constructive_solid_geometry). There is also a detailed explanation (in the context of FreeCAD) of [Constructive\_solid\_geometry](Constructive_solid_geometry.md) on the wiki. You work with primitive shapes like cubes, cylinders, spheres and cones to construct your geometry by combining them, subtracting one shape from the other, or intersecting them. These tools are part of the [Part Workbench](Part_Workbench.md). You can also apply transformations on shapes, like applying rounds or chamfers on edges. These tools are also in the [Part Workbench](Part_Workbench.md).
+The first (and basic) technique of solid modeling is [Constructive Solid Geometry (CSG)](http   *//en.wikipedia.org/wiki/Constructive_solid_geometry). There is also a detailed explanation (in the context of FreeCAD) of [Constructive_solid_geometry](Constructive_solid_geometry.md) on the wiki. You work with primitive shapes like cubes, cylinders, spheres and cones to construct your geometry by combining them, subtracting one shape from the other, or intersecting them. These tools are part of the [Part Workbench](Part_Workbench.md). You can also apply transformations on shapes, like applying rounds or chamfers on edges. These tools are also in the [Part Workbench](Part_Workbench.md).
 
 Then there are more advanced tools. You start by drawing a 2D profile which you\'ll either extrude or revolve.
 

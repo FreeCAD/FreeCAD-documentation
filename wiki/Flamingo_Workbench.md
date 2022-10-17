@@ -82,11 +82,11 @@ Dialog to create the set of profiles to be used in the model for object FrameLin
 
 -   **Section** list   * it includes all the sections defined in the .csv file corresponding to the selected section type.
 -   **Section types** list   * the types of profiles defined with the .csv files included in the folder /tables
--   **Insert** button   * creates the group \"Profiles\_set\", if not already existing, and adds to it the object of the selected profile.
+-   **Insert** button   * creates the group \"Profiles_set\", if not already existing, and adds to it the object of the selected profile.
 
 Other profiles tables can be created by adding the relevant .csv file in the /tables folder. The rules to create or customize such tables are similar to those for pipe-lines.
 
-Other profiles can be drafted in the model and dragged inside the group \"Profiles\_set\".
+Other profiles can be drafted in the model and dragged inside the group \"Profiles_set\".
 
 The orientation of the DWires may influence the rendering of beams.
 
@@ -337,7 +337,7 @@ This understood, the command opens the dialog to create or modify one pype-line.
 
 The dialog is very similar to those for insert other objects seen before.
 
-The pipe ratings tables, where the O.D. and thickness are defined, are the same of those for tubes (e.g. Pipe\_SCH-STD.csv).
+The pipe ratings tables, where the O.D. and thickness are defined, are the same of those for tubes (e.g. Pipe_SCH-STD.csv).
 
 When  is in the combo and **Insert** is pressed, a new pype-line object is created in the document with the relevant group.
 

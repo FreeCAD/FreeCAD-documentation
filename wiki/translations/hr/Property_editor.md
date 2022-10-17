@@ -120,7 +120,7 @@ There are two types of feature properties accessible through tabs at the bottom 
 **Placement**
 
    * Summary of the data below. Every feature has a placement that can be controlled through the Data Properties table. It controls the placement of the part with respect to the coordinate system. NOTE   * The placement properties do not affect the physical dimensions of the feature, but merely its position in space!
-If you select the title **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">, a button with **three small points** appears to the right. Clicking this button ** '''...'''**, opens the **[Tasks\_Placement](Tasks_Placement.md)** options window.
+If you select the title **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">, a button with **three small points** appears to the right. Clicking this button ** '''...'''**, opens the **[Tasks_Placement](Tasks_Placement.md)** options window.
 
 
 **Angle**

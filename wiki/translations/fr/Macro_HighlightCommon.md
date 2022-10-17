@@ -24,13 +24,13 @@ Mise en évidence des parties communes en affichant la forme commune en rouge et
 
 Icône de la barre d\'outils ![](images/Macro_HighlightCommon.png )
 
-**Macro\_HighlightCommon.FCMacro**
+**Macro_HighlightCommon.FCMacro**
 
 Le code est visible sur Github    * [Utility/HighlightCommon.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightCommon.FCMacro).
 
 ## Links
 
--   Ici la macro complémentaire [Macro\_HighlightDifference](Macro_HighlightDifference/fr.md)
+-   Ici la macro complémentaire [Macro_HighlightDifference](Macro_HighlightDifference/fr.md)
 -   Mon blog [Linux for an engineer](http   *//linuxforanengineer.blogspot.com.es/) pour le code et d\'autres macros intéressantes pour FreeCAD
 -   La discussion sur le forum [\"collision detection\", overlapping](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 

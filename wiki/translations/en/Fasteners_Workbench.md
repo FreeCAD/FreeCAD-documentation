@@ -70,15 +70,15 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 
 ## Commands
 
--   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Invert fastener](Fasteners_Flip.md)   * Invert the orientation of selected fasteners.
+-   <img alt="" src=images/Fasteners_Flip.svg  style="width   *32px;"> [Invert fastener](Fasteners_Flip.md)   * Invert the orientation of attached fasteners.
 
 -   <img alt="" src=images/Fasteners_Move.svg  style="width   *32px;"> [Move fastener](Fasteners_Move.md)   * Move and attach a fastener to a circular edge. Can also be used to detach a fastener.
 
--   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Simplify shape](Fasteners_Shape.md)   * Create non-parametric copies of selected fasteners.
+-   <img alt="" src=images/Fasteners_Shape.svg  style="width   *32px;"> [Simplify shape](Fasteners_Shape.md)   * Create non-parametric copies of fasteners.
 
--   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *32px;"> [Match screws by inner thread diameter (Tap hole)](Fasteners_MatchTypeInner.md)   * Consider circular edges to be tap holes when new fasteners are attached to them.
+-   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width   *32px;"> [Match for tap hole](Fasteners_MatchTypeInner.md)   * Consider circular edges to be tap holes when new fasteners are attached to them.
 
--   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   *32px;"> [Match screws by outer thread diameter (Pass hole)](Fasteners_MatchTypeOuter.md)   * Consider circular edges to be pass holes when new fasteners are attached to them.
+-   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width   *32px;"> [Match for pass hole](Fasteners_MatchTypeOuter.md)   * Consider circular edges to be pass holes when new fasteners are attached to them.
 
 -   <img alt="" src=images/Fasteners_BOM.svg  style="width   *32px;"> [Generate BOM](Fasteners_BOM.md)   * Create a spreadsheet with a bill of materials for the fasteners in the document.
 
@@ -86,7 +86,7 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 
 -   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width   *32px;"> [Make countersunk](Fasteners_ChamferHole.md)   * Chamfer holes for countersunk screws.
 
--   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md)   * Change the parameters of selected fasteners.
+-   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width   *32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md)   * Change the parameters of fasteners.
 
 ## Fasteners
 
@@ -149,6 +149,8 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 -   <img alt="" src=images/Fasteners_ISO4029.svg  style="width   *32px;"> **ISO 4029** Hexagon socket set screw with cup point.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.1A.svg  style="width   *32px;"> **ASME B18.3.1A** UNC Hexagon socket head cap screw.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.3.1G.svg  style="width   *32px;"> **ASME B18.3.1G** UNC Hexagon socket head cap screw with low head.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.2.svg  style="width   *32px;"> **ASME B18.3.2** UNC Hexagon socket countersunk head screw.
 
@@ -250,12 +252,14 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 -   <img alt="" src=images/Fasteners_ISO7090.svg  style="width   *32px;"> 
 **ISO 7090** Plain washer chamfered, normal series. *Product grade A.*
 
--   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> **ISO 7092** Plain washer, small series.
+-   <img alt="" src=images/Fasteners_ISO7092.svg  style="width   *32px;"> 
+**ISO 7092** Plain washer, small series. *Product grade A.*
 
 -   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> 
 **ISO 7093-1** Plain washer, large series. *Product grade A.*
 
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Plain washer, extra large series.
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> 
+**ISO 7094** Plain washer, extra large series. *Product grade C.*
 
 -   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Countersunk washer.
 

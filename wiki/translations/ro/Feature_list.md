@@ -124,7 +124,7 @@ este nedisponibilă, dar uneltele geometrice sunt accesibile.
 
 <div class="mw-translate-fuzzy">
 
--   \'\'\'Operatii de modificare \'\'\' grafică precum translații, rotații, scalari, copiere in oglindă, expandare, (trivial or after [Jung/Shin/Choi](https   *//www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting)) convertirea formei în orice plan sau în spațiul 3D
+-   **Operatii de modificare** grafică precum translații, rotații, scalari, copiere in oglindă, expandare, (trivial or after [Jung/Shin/Choi](https   *//www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting)) convertirea formei în orice plan sau în spațiul 3D
 
 
 </div>

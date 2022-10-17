@@ -21,7 +21,7 @@ L\'ambiente Parte fornisce gli strumenti di base per lavorare con le parti solid
 
 <div class="mw-translate-fuzzy">
 
-  Tool                                                                                                                           Descrizione                                                                Tool                                                                                                                               Descrizione
+  Tool                                                                                                                       Descrizione                                                                Tool                                                                                                                           Descrizione
      
   <img alt="" src=images/Part_Box.png  style="width   *32px;"> [Box](Part_Box/it.md)                                                 Disegna un cubo                                                            <img alt="" src=images/Part_Cone.png  style="width   *32px;"> [Cono](Part_Cone/it.md)                                                 Disegna un cono
   <img alt="" src=images/Part_Cylinder.png  style="width   *32px;"> [Cilindro](Part_Cylinder/it.md)                             Disegna un cilindro                                                        <img alt="" src=images/Part_Sphere.png  style="width   *32px;"> [Sfera](Part_Sphere/it.md)                                          Disegna una sfera
@@ -35,7 +35,7 @@ L\'ambiente Parte fornisce gli strumenti di base per lavorare con le parti solid
   <img alt="" src=images/Part_Chamfer.png  style="width   *32px;"> [Smussa](Part_Chamfer/it.md)                                  Smussa i bordi di un oggetto                                               <img alt="" src=images/Part_Mirror.png  style="width   *32px;"> [Specchia](Part_Mirror/it.md)                                       Specchia l\'oggetto selezionato in un determinato piano di specchio
   <img alt="" src=images/Part_RuledSurface.png  style="width   *32px;"> [Crea superficie rigata](Part_RuledSurface/it.md)   Crea una superficie rigata tra le curve selezionate                        <img alt="" src=images/Part_Sweep.png  style="width   *32px;"> [Sweep](Part_Sweep/it.md)                                             Spazza uno o più profili lungo un percorso
   <img alt="" src=images/Part_Loft.png  style="width   *32px;"> [Loft](Part_Loft/it.md)                                             Congiunge due profili                                                      <img alt="" src=images/Part_Offset.png  style="width   *32px;"> [Offset](Part_Offset/it.md)                                         Crea una copia in scala dell\'oggetto originale
-  <img alt="" src=images/Part_Thickness.png  style="width   *32px;"> [Spessore](Part_Thickness/it.md)                          Assegna uno spessore alle facce di una forma                                                                                                                                                                  
+  <img alt="" src=images/Part_Thickness.png  style="width   *32px;"> [Spessore](Part_Thickness/it.md)                          Assegna uno spessore alle facce di una forma                                                                                                                                                              
 
 
 </div>
@@ -47,7 +47,7 @@ L\'ambiente Draft fornisce gli strumenti per fare disegni di base CAD 2D   * lin
 
 <div class="mw-translate-fuzzy">
 
-  Tool                                                                                                                         Descrizione                                                        Tool                                                                                                                     Descrizione
+  Tool                                                                                                                     Descrizione                                                        Tool                                                                                                                 Descrizione
      
   <img alt="" src=images/Draft_Line.png  style="width   *32px;"> [Linea](Draft_Line/it.md)                                       Disegna un segmento tra 2 punti                                    <img alt="" src=images/Draft_Wire.png  style="width   *32px;"> [Wire](Draft_Wire/it.md)                                    Disegna una linea composta da più segmenti (polilinea)
   <img alt="" src=images/Draft_Circle.png  style="width   *32px;"> [Cerchio](Draft_Circle/it.md)                               Disegna un cerchio da centro e raggio                              <img alt="" src=images/Draft_Arc.png  style="width   *32px;"> [Arco](Draft_Arc/it.md)                                       Disegna un arco da centro, raggio, angolo iniziale e angolo finale
@@ -62,7 +62,7 @@ L\'ambiente Draft fornisce gli strumenti per fare disegni di base CAD 2D   * lin
   <img alt="" src=images/Draft_Scale.png  style="width   *32px;"> [Scala](Draft_Scale/it.md)                                    Scala gli oggetti in relazione a un punto                          <img alt="" src=images/Draft_Shape2DView.png  style="width   *32px;"> [Vista Profilo 2D](Draft_Shape2DView/it.md)   Crea un oggetto 2D ottenuto dalla proiezione di un altro oggetto
   <img alt="" src=images/Draft_Draft2Sketch.png  style="width   *32px;"> [Da Draft a Sketch](Draft_Draft2Sketch/it.md)   Converte un oggetto Draft in uno schizzo e viceversa               <img alt="" src=images/Draft_Array.png  style="width   *32px;"> [Matrice](Draft_Array/it.md)                              Crea una serie polare o rettangolare da un oggetto
   <img alt="" src=images/Draft_PathArray.png  style="width   *32px;"> [Path Array](Draft_PathArray/it.md)                   Crea una serie da un oggetto, ponendo copie lungo un percorso      <img alt="" src=images/Draft_Clone.png  style="width   *32px;"> [Clona](Draft_Clone/it.md)                                Crea copie collegate di oggetti
-  <img alt="" src=images/Draft_Mirror.png  style="width   *32px;"> [Specchia](Draft_Mirror/it.md)                              Specchia oggetti rispetto a una linea                                                                                                                                                       
+  <img alt="" src=images/Draft_Mirror.png  style="width   *32px;"> [Specchia](Draft_Mirror/it.md)                              Specchia oggetti rispetto a una linea                                                                                                                                                   
 
 
 </div>
@@ -74,7 +74,7 @@ L\'ambiente Sketcher contiene gli strumenti per costruire e modificare gli ogget
 
 <div class="mw-translate-fuzzy">
 
-  Tool                                                                                                                                                                 Descrizione                                                                                                                                                                Tool                                                                                                                                                           Descrizione
+  Tool                                                                                                                                                             Descrizione                                                                                                                                                                Tool                                                                                                                                                       Descrizione
      
   <img alt="" src=images/Sketcher_CreatePoint.png  style="width   *32px;"> [Punto](Sketcher_CreatePoint/it.md)                                                 Disegna un punto                                                                                                                                                           <img alt="" src=images/Sketcher_Line.png  style="width   *32px;"> [Linea](Sketcher_CreateLine/it.md)                                                          Disegna un segmento da 2 punti
   <img alt="" src=images/Sketcher_Arc.png  style="width   *32px;"> [Arco](Sketcher_CreateArc/it.md)                                                                    Disegna un arco dal centro, raggio, angolo iniziale e angolo finale                                                                                                        <img alt="" src=images/Sketcher_CreateArc3Point.png  style="width   *32px;"> [Arco da 3 punti](Sketcher_Create3PointArc/it.md)                     Disegna un arco da due punti finali e un altro punto sulla circonferenza
@@ -108,7 +108,7 @@ L\'ambiente Part Design contiene strumenti avanzati per costruire parti solide. 
 
 <div class="mw-translate-fuzzy">
 
-  Tool                                                                                                                                       Descrizione                                                                               Tool                                                                                                                                                    Descrizione
+  Tool                                                                                                                                   Descrizione                                                                               Tool                                                                                                                                                Descrizione
      
   <img alt="" src=images/PartDesign_Pad.png  style="width   *32px;"> [Prisma](PartDesign_Pad/it.md)                                        Estrudere un oggetto solido da uno schizzo selezionato                                    <img alt="" src=images/PartDesign_Pocket.png  style="width   *32px;"> [Cavità](PartDesign_Pocket/it.md)                                            Crea una tasca da uno schizzo selezionato. Il disegno deve essere mappato sulla faccia di un oggetto solido esistente
   <img alt="" src=images/PartDesign_Revolution.png  style="width   *32px;"> [Rivoluzione](PartDesign_Revolution/it.md)              Crea un solido rivoluzionando uno schizzo attorno ad un asse                              <img alt="" src=images/PartDesign_Groove.png  style="width   *32px;"> [Gola](PartDesign_Groove/it.md)                                              Crea una gola rivoluzionando uno schizzo attorno ad un asse
@@ -128,7 +128,7 @@ L\'ambiente Arch contiene gli strumenti per lavorare con i progetti [BIM](https 
 
 <div class="mw-translate-fuzzy">
 
-  Tool                                                                                                  Descrizione                                                           Tool                                                                                                                     Descrizione
+  Tool                                                                                              Descrizione                                                           Tool                                                                                                                 Descrizione
      
   <img alt="" src=images/Arch_Wall.png  style="width   *32px;"> [Muro](Arch_Wall/it.md)                    Crea un muro da zero o utilizzando un oggetto selezionato come base   <img alt="" src=images/Arch_Structure.png  style="width   *32px;"> [Struttura](Arch_Structure/it.md)                   Crea un elemento strutturale da zero o utilizzando un oggetto selezionato come base
   <img alt="" src=images/Arch_Rebar.png  style="width   *32px;"> [Armatura](Arch_Rebar/it.md)             Crea una barra di rinforzo in un elemento strutturale selezionata     <img alt="" src=images/Arch_Floor.png  style="width   *32px;"> [Piano](Arch_Floor/it.md)                                   Crea un piano includendo gli oggetti selezionati
@@ -140,7 +140,7 @@ L\'ambiente Arch contiene gli strumenti per lavorare con i progetti [BIM](https 
   <img alt="" src=images/Arch_Equipment.png  style="width   *32px;"> [Arredo](Arch_Equipment/it.md)   Crea un oggetto attrezzature o arredo                                 <img alt="" src=images/Arch_SetMaterial.png  style="width   *32px;"> [Materiale](Arch_SetMaterial/it.md)             Attribuisce un materiale agli oggetti selezionati
   <img alt="" src=images/Arch_Schedule.png  style="width   *32px;"> [Scheda](Arch_Schedule/it.md)      Crea diversi tipi di schede                                           <img alt="" src=images/Arch_CutPlane.png  style="width   *32px;"> [Taglia con piano](Arch_CutPlane/it.md)               Taglia un oggetto con un piano
   <img alt="" src=images/Arch_Add.png  style="width   *32px;"> [Aggiungi](Arch_Add/it.md)                   Aggiunge oggetti a un componente                                      <img alt="" src=images/Arch_Remove.png  style="width   *32px;"> [Rimuovi](Arch_Remove/it.md)                              Sottrae o rimuove oggetti da un componente
-  <img alt="" src=images/Arch_Survey.png  style="width   *32px;"> [Ispeziona](Arch_Survey/it.md)         Entra o esce dalla modalità di ispezione                                                                                                                                                       
+  <img alt="" src=images/Arch_Survey.png  style="width   *32px;"> [Ispeziona](Arch_Survey/it.md)         Entra o esce dalla modalità di ispezione                                                                                                                                                   
 
 
 </div>
@@ -160,13 +160,13 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
 
 <div class="mw-translate-fuzzy">
 
-  Tool                                                                                                                          Descrizione                                                                           Tool                                                                                                                        Descrizione
+  Tool                                                                                                                      Descrizione                                                                           Tool                                                                                                                    Descrizione
      
   <img alt="" src=images/Drawing_Landscape_A3.png  style="width   *32px;"> [Nuovo foglio](Drawing_Landscape_A3/it.md)   Crea un nuovo foglio di disegno                                                       <img alt="" src=images/Drawing_View.png  style="width   *32px;"> [Vista](Drawing_View/it.md)                                Inserisce una vista dell\'oggetto selezionato nel foglio di disegno attivo
   <img alt="" src=images/Drawing_Annotation.png  style="width   *32px;"> [Annotazione](Drawing_Annotation/it.md)          Aggiunge un\'annotazione nel foglio di disegno corrente                               <img alt="" src=images/Drawing_Clip.png  style="width   *32px;"> [Inserto](Drawing_Clip/it.md)                              Aggiunge un inserto nel foglio di disegno corrente
   <img alt="" src=images/Drawing_Openbrowser.png  style="width   *32px;"> [Apri browser](Drawing_Openbrowser/it.md)      Apre un\'anteprima del foglio corrente nel browser                                    <img alt="" src=images/Drawing_Orthoviews.png  style="width   *32px;"> [Viste ortogonali](Drawing_Orthoviews/it.md)   Crea automaticamente le viste ortogonali di un oggetto sul foglio di disegno corrente
   <img alt="" src=images/Drawing_Symbol.png  style="width   *32px;"> [Simbolo](Drawing_Symbol/it.md)                          Aggiunge il contenuto di un file SVG come un simbolo sul foglio di disegno corrente   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Vista di Draft](Drawing_DraftView/it.md)        Inserisce nel foglio di disegno corrente una speciale Vista di Draft dell\'oggetto selezionato
-  <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Salva](Drawing_Save/it.md)                                  Salva il foglio corrente in un file in formato SVG                                                                                                                                                                
+  <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Salva](Drawing_Save/it.md)                                  Salva il foglio corrente in un file in formato SVG                                                                                                                                                            
 
 
 </div>

@@ -18,7 +18,7 @@ To makro dokonuje spłaszczenia projektów polilinii, które nie są planarne wz
 
 Ikonka paska narzędzi ![](images/Macro_FlattenWire.png )
 
-**Macro\_FlattenWire.FCMacro**
+**Macro_FlattenWire.FCMacro**
 
 
 {{MacroCode|code=

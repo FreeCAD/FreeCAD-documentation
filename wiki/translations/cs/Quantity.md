@@ -99,7 +99,7 @@ Protože úhly jsou fyzikálně bezrozměrné, ale ne méně důležité v CAD s
 
 <div class="mw-translate-fuzzy">
 
-Detailní popis je zde   * [Std\_UnitsCalculator](Std_UnitsCalculator.md)
+Detailní popis je zde   * [Std_UnitsCalculator](Std_UnitsCalculator.md)
 
 
 </div>

@@ -21,11 +21,11 @@
 
 Toto makro je kompletní aplikace, umožňuje jednoduše vyplňovat všechna pole kazety
 
-Volba na stránce[Misc\_templates\_Full](Misc_templates_Full.md)
+Volba na stránce[Misc_templates_Full](Misc_templates_Full.md)
 
-Zde je pořadí vyplnění řádku FreeCAD texteditable. Políčka data a času jsou oddělena \'\'\'prostorovým záporným prostorem - \'\'\' a tvoří jediný řádek textedit.
+Zde je pořadí vyplnění řádku FreeCAD texteditable. Políčka data a času jsou oddělena **prostorovým záporným prostorem -** a tvoří jediný řádek textedit.
 
-<img alt="CartoucheFC\_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
+<img alt="CartoucheFC_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -40,8 +40,8 @@ Zde je pořadí vyplnění řádku FreeCAD texteditable. Políčka data a času 
 Pokud máte nějaké dotazy nebo chcete přidat funkci, můžete se obrátit na francouzské fórum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 
 -   Okno zůstává nad ostatními Windows, čímž se řídí kazeta bez opuštění programu.
--   Zkopírujte kód do souboru s názvem **Macro\_CartoucheFC\_Full.FCMacro** a umístěte jej do vašeho obvyklého adresáře maker.
--   Po vytvoření kreslicího listu pomocí výkresu modulu FreeCAD spusťte makro **Macro\_CartoucheFC\_Full**.
+-   Zkopírujte kód do souboru s názvem **Macro_CartoucheFC_Full.FCMacro** a umístěte jej do vašeho obvyklého adresáře maker.
+-   Po vytvoření kreslicího listu pomocí výkresu modulu FreeCAD spusťte makro **Macro_CartoucheFC_Full**.
 -   Při otevírání se program zapíše do paměti všechna data, která jsou již obsažena v kazetě listu (pokud jsou vyplněny), všechna tato data budou automaticky vrácena tlačítkem **Memo** a uchovávají se v paměti až do ukončení programu.
 -   Nejprve vyberte svou stránku pro práci
 -   Tlačítko Datum **D.** a čas ** H.** zobrazil datum a čas systému.
@@ -61,7 +61,7 @@ Pokud máte nějaké dotazy nebo chcete přidat funkci, můžete se obrátit na 
 
 Ikona pro nástroj Toolbar ![](images/Macro_CartoucheFC_Full.png )
 
-**Macro\_CartoucheFC\_Full.FCMacro**
+**Macro_CartoucheFC_Full.FCMacro**
 
 
 {{MacroCode|code=

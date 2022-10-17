@@ -53,7 +53,7 @@ Questa immagine mostra un Corpo. È un solido cumulativo che consiste in uno sch
 
 Se Tip su *Pad*, il solido estruso può esistere separatamente, ma se Tip su *Cono*, il cono non può esistere separatamente (Tip su cono = solido estruso + cono).
 
-(Un\'altra cosa menzionata spesso è che un Corpo **\'\' DEVE**\'\' essere un singolo solido contiguo. Questo significa che tutta la geometria creata da una caratteristica nel Corpo *deve* toccare il suo predecessore).
+(Un\'altra cosa menzionata spesso è che un Corpo ***DEVE*** essere un singolo solido contiguo. Questo significa che tutta la geometria creata da una caratteristica nel Corpo *deve* toccare il suo predecessore).
 
 ## Le conseguenze 
 
@@ -104,19 +104,19 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
 
 <div class="mw-translate-fuzzy">
 
-  Nell\'ambiente <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> PartDesign                                                                                    Nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> Part
+  Nell\'ambiente <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> PartDesign                                                                                Nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> Part
    
   01- <img alt="" src=images/PartDesign_Body.svg  style="width   *32px;"> Crea Corpo \> <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> Crea uno schizzo sul piano XZ   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width   *32px;"> Crea uno schizzo sul piano XZ
-  ![](images/01sketchXZ_PartWBvsPartDesignWBn.jpg )                                                                                                      ![](images/01Psketch_PartWBvsPartDesignWBn.jpg )
-                                                                                                                                                                                        
+  ![](images/01sketchXZ_PartWBvsPartDesignWBn.jpg )                                                                                              ![](images/01Psketch_PartWBvsPartDesignWBn.jpg )
+                                                                                                                                                                                
 
 
 </div>
 
    
   02- <img alt="" src=images/PartDesign_Revolution.svg  style="width   *32px;"> Rivoluzione (Ambiente Part Design) / Z   02- <img alt="" src=images/Part_Revolve.svg  style="width   *32px;"> Rivoluzione (Ambiente Part) / Z
-  ![](images/02revolutionZ_PartWBvsPartDesignWBn.jpg )                                  ![](images/02revolveZ_PartWBvsPartDesignWBn.jpg )
-                                                                                                                          
+  ![](images/02revolutionZ_PartWBvsPartDesignWBn.jpg )                              ![](images/02revolveZ_PartWBvsPartDesignWBn.jpg )
+                                                                                                                      
    
 
 
@@ -124,15 +124,15 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
 
    
   03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> Nuovo schizzo nel piano XY   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> Ambiente Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width   *32px;"> Nuovo schizzo nel piano XY
-  ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )                      ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )
-                                                                                                        
+  ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )                  ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )
+                                                                                                    
    
 
 
 </div>
 
    
-  04- <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> Tasca   04a- <img alt="" src=images/Part_Extrude.svg  style="width   *32px;"> Estrusione
+  04- <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> Tasca       04a- <img alt="" src=images/Part_Extrude.svg  style="width   *32px;"> Estrusione
   ![](images/04pocket_PartWBvsPartDesignWBn.jpg )   ![](images/04aExtrude_PartWBvsPartDesignWB.jpg )
                                                                                  
    
@@ -148,8 +148,8 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
 
    
   05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> Nuovo schizzo nel piano XZ   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> Ambiente Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width   *32px;"> Nuovo schizzo nel piano XZ
-  ![](images/05sketchXZ_PartWBvsPartDesignWB.jpg )                        ![](images/05PsketchXZ_PartWBvsPartDesignWB.jpg )
-                                                                                                        
+  ![](images/05sketchXZ_PartWBvsPartDesignWB.jpg )                    ![](images/05PsketchXZ_PartWBvsPartDesignWB.jpg )
+                                                                                                    
    
 
 
@@ -157,8 +157,8 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
 
    
   06- <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> Prisma simmetrico al piano XZ   06a- <img alt="" src=images/Part_Extrude.svg  style="width   *32px;"> Estrudi simmetrico al piano XZ
-  ![](images/06padSymXZ_PartWBvsPartDesignWB.jpg )                   ![](images/06aExtrude_PartWBvsPartDesignWB.jpg )
-                                                                                                   
+  ![](images/06padSymXZ_PartWBvsPartDesignWB.jpg )               ![](images/06aExtrude_PartWBvsPartDesignWB.jpg )
+                                                                                               
    
 
    
@@ -178,15 +178,15 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
 
    
   07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width   *32px;"> Nuovo schizzo sulla faccia planare di base   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> Ambiente Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width   *32px;"> Nuovo schizzo nel piano XZ
-  ![](images/07sketchBaseSupFace_PartWBvsPartDesignWB.jpg )                      ![](images/07PsketchXZ_PartWBvsPartDesignWB.jpg )
-                                                                                                                        
+  ![](images/07sketchBaseSupFace_PartWBvsPartDesignWB.jpg )                  ![](images/07PsketchXZ_PartWBvsPartDesignWB.jpg )
+                                                                                                                    
    
 
 
 </div>
 
    
-  08- <img alt="" src=images/PartDesign_Hole.svg  style="width   *32px;"> Foro                          08a- <img alt="" src=images/Part_Revolve.svg  style="width   *32px;"> Rivoluzione
+  08- <img alt="" src=images/PartDesign_Hole.svg  style="width   *32px;"> Foro                              08a- <img alt="" src=images/Part_Revolve.svg  style="width   *32px;"> Rivoluzione
   ![](images/08hole-counterbore_PartWBvsPartDesignWB.jpg )   ![](images/08aRevolve_PartWBvsPartDesignWB.jpg )
                                                                                                    
    
@@ -199,8 +199,8 @@ Potete vedere qui sotto lo stesso esempio costruito con ciascuno dei due ambient
 
    
   09- <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *32px;"> Serie polare del foro e del prisma   09- <img alt="" src=images/Part_Cut.svg  style="width   *32px;"> Taglia
-  ![](images/09polarPatternHoleAndPad_PartWBvsPartDesignWB.jpg )              ![](images/09Cut_PartWBvsPartDesignWB.jpg )
-                                                                                                                          
+  ![](images/09polarPatternHoleAndPad_PartWBvsPartDesignWB.jpg )          ![](images/09Cut_PartWBvsPartDesignWB.jpg )
+                                                                                                                      
    
 
 Confrontare gli alberi di costruzione nei due banchi di lavoro così come la loro organizzazione e la linea temporale di lettura   *

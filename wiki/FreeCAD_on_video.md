@@ -1,5 +1,5 @@
 # FreeCAD on video
-1.  REDIRECT [FreeCAD\_on\_Video](FreeCAD_on_Video.md)
+1.  REDIRECT [FreeCAD_on_Video](FreeCAD_on_Video.md)
 
 
 

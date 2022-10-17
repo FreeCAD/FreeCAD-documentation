@@ -10,15 +10,19 @@
 
 ## Beschreibung
 
-The <img alt="" src=images/Fasteners_Flip.svg  style="width   *24px;"> **Fasteners Flip** command inverts the orientation of selected fasteners by changing their **invert** property.
+Der Befehl <img alt="" src=images/Fasteners_Flip.svg  style="width   *24px;"> **Invert Fastener** dreht die Ausrichtung von [befestigten Verbindungselementen](Fasteners_Workbench#Anwendung.md) um durch Änderung ihrer {{PropertyData/de|invert}}.
 
 ## Anwendung
 
-1.  Select one or more fasteners.
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_Flip.svg" width=16px> [Fasteners Flip](Fasteners_Flip.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_Flip.svg" width=16px> Invert fastener** option from the menu.
-3.  The orientation of the selected fasteners is inverted.
+1.  Ein oder mehrere befestigte Verbindungselemente auswählen. Die Auswahl kann nicht befestigte Verbindungselemente enthalten, aber diese werden nicht umgedreht. Siehe [Hinweise](#Hinweise.md)
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche **<img src="images/Fasteners_Flip.svg" width=16px> [Fasteners Umdrehen](Fasteners_Flip/de.md)** drücken.
+    -   Dem Menüeintrag **Fasteners → <img src="images/Fasteners_Flip.svg" width=16px> Invert fastener** auswählen.
+3.  Die Ausrichtung der ausgewählten befestigten Verbindungselemente ist umgedreht.
+
+## Hinweise
+
+-   Die {{PropertyData/de|invert}} wird für nicht befestigte Verbindungselemente ignoriert und sie können mit diesem Befehl nicht umgedreht werden. Um sie umzudrehen, sollte ihre {{PropertyData/de|Placement}} geändert werden, z.B. mit dem Befehl <img alt="" src=images/Std_TransformManip.svg  style="width   *16px;"> [Std Bewegen](Std_TransformManip/de.md).
 
 
 

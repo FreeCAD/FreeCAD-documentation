@@ -50,7 +50,7 @@ The **Std Import** command imports geometry from a different file format into th
 
 }}  
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

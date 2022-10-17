@@ -1,5 +1,5 @@
 # Arch Module/fr
-1.  REDIRECT [Arch\_Workbench/fr](Arch_Workbench/fr.md)
+1.  REDIRECT [Arch_Workbench/fr](Arch_Workbench/fr.md)
 
 
 

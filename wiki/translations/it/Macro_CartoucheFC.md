@@ -33,7 +33,7 @@ Vedere anche la [versione](Macro_CartoucheFC_Full/it.md) con tutti i campi di te
 
 ## Utilizzo
 
-**Per il momento, modificare la pagine A3\_Landscape.svg con [Inkscape](http   *//inkscape.org/?lang=fr) può disturbare il buono funzionamento del programma. Se volete togliere il simbolo di regione (circolo e trapezio) dal foglio, lavorate su una copia di A3\_Landscape.svg ! Lo stesso problema si trova anche su FreeCAD**
+**Per il momento, modificare la pagine A3_Landscape.svg con [Inkscape](http   *//inkscape.org/?lang=fr) può disturbare il buono funzionamento del programma. Se volete togliere il simbolo di regione (circolo e trapezio) dal foglio, lavorate su una copia di A3_Landscape.svg ! Lo stesso problema si trova anche su FreeCAD**
 
 **Notare   * Non sono accettati alcuni caratteri come & \$ (e forse anche altri caratteri speciali).**
 
@@ -44,9 +44,9 @@ Se desiderate avere una funzione, potete farne richiesta nel forum [Remplir cart
 
 -   La finestra rimane sovrapposta alle altre finestre e viene utilizzata per controllare la tabella senza uscire dal programma principale.
 
--   Copiare il codice in un file denominato **Macro\_CartoucheFC.FCMacro** e posizionarlo nella directory delle macro.
+-   Copiare il codice in un file denominato **Macro_CartoucheFC.FCMacro** e posizionarlo nella directory delle macro.
 
--   Dopo aver creato il foglio di disegno con il modulo Drawing di FreeCAD, eseguire la macro **Macro\_CartoucheFC**.
+-   Dopo aver creato il foglio di disegno con il modulo Drawing di FreeCAD, eseguire la macro **Macro_CartoucheFC**.
 
 -   All\'avvio, il programma registra in memoria tutti i dati già presenti nella tabella del foglio (se è compilata), tutti i dati sono restituiti automaticamente utilizzando il pulsante {{KEY/it|Memo}} e tenuti in memoria fino alla chiusura del programma.
 
@@ -70,7 +70,7 @@ Se desiderate avere una funzione, potete farne richiesta nel forum [Remplir cart
 
 ToolBar Icon ![](images/Macro_CartoucheFC.png )
 
-**Macro\_CartoucheFC.FCMacro**
+**Macro_CartoucheFC.FCMacro**
 
 
 {{MacroCode|code=

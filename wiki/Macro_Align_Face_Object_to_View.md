@@ -24,7 +24,7 @@ This macro directs the face of the object on the side of the ActiveView (camera)
 
 ToolBar Icon  ![](images/Macro_Align_Face_Object_to_View.png )
 
-**Macro\_Align\_Face\_Object\_to\_View.FCMacro**
+**Macro_Align_Face_Object_to_View.FCMacro**
 
 
 {{MacroCode|code=

@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Каждая команда FreeCAD имеет уникальное имя, которое внесено в список [   *Category   *Command\_Reference/ru](   *Category   *Command_Reference/ru.md). Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из [python](python/ru.md) скрипта или [консоли Python](Python_console/ru.md), по средством выполнения следующей комманды   *
+Каждая команда FreeCAD имеет уникальное имя, которое внесено в список [   *Category   *Command_Reference/ru](   *Category   *Command_Reference/ru.md). Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из [python](python/ru.md) скрипта или [консоли Python](Python_console/ru.md), по средством выполнения следующей комманды   *
 
 
 </div>

@@ -286,7 +286,7 @@ structure_drawing_page_dict = makeStructuresReinforcementDrawing(
 
 -    `structure_list`is the list of structural objects to generate their reinforcement drawing. If not provided, structures will be selected from active document acting as Host for rebar objects.
 
--    `rebars_list`is the list of rebar objects to be included in drawing. If not provided, rebars objects having Host in structure\_list will be selected from active document.
+-    `rebars_list`is the list of rebar objects to be included in drawing. If not provided, rebars objects having Host in structure_list will be selected from active document.
 
 ##### Example 
 

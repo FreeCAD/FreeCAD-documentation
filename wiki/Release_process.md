@@ -103,7 +103,7 @@ Preparing FreeCAD for a release
 
 <li>
 
-Change to the Release\_X.Y.Z directory   *
+Change to the Release_X.Y.Z directory   *
 
 
 </li>
@@ -257,7 +257,7 @@ These are the tasks required for each release, with the name of the person respo
 -   Unassigned - Change the version number in the FreeCAD code
 -   Unassigned - Check that all workbenches pages on the wiki are up-to-date (all their commands are listed), list missing pages
 -   Unassigned - Manage the updates of the wiki
--   Unassigned - Manage the release notes (ex. [Release\_notes\_0.xx](Release_notes_0.xx.md))
+-   Unassigned - Manage the release notes (ex. [Release_notes_0.xx](Release_notes_0.xx.md))
 -   Unassigned - Update ChangeLog.txt (we refer people to mantisbt changelog)
 -   Merge back the translations from crowdin - [yorik](User_Yorik.md)
 -   Unassigned - Check the german translation

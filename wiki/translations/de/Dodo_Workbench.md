@@ -1,5 +1,5 @@
 # Dodo Workbench/de
-1.  REDIRECT [Flamingo\_Workbench/de](Flamingo_Workbench/de.md)
+1.  REDIRECT [Flamingo_Workbench/de](Flamingo_Workbench/de.md)
 
 
 

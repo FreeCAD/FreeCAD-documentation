@@ -63,6 +63,9 @@ The following tools are available in this menu   *
 
 -   <img alt="" src=images/Std_MainFullscreen.svg  style="width   *32px;"> [Fullscreen](Std_MainFullscreen.md)   * Toggles the main window\'s fullscreen mode.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Standard views
     -   <img alt="" src=images/Std_ViewFitAll.svg  style="width   *32px;"> [Fit all](Std_ViewFitAll/ro.md)   * Fits all visible objects inside the view.
     -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width   *32px;"> [Fit selection](Std_ViewFitSelection/ro.md)   * Fits selected objects inside the view.
@@ -79,6 +82,9 @@ The following tools are available in this menu   *
     -   <img alt="" src=images/Std_ViewLeft.svg  style="width   *32px;"> [Left](Std_ViewLeft/ro.md)   * Switches to the left view.
     -   <img alt="" src=images/Std_RotateLeft.png  style="width   *32px;"> [Rotate Left](Std_ViewRotateLeft/ro.md)   * Rotates the view to the left.
     -   <img alt="" src=images/Std_RotateRight.png  style="width   *32px;"> [Rotate Right](Std_ViewRotateRight/ro.md)   * Rotates the view to the right.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

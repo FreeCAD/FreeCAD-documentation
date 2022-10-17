@@ -1,5 +1,5 @@
 # Draft Midpoint
-1.  REDIRECT [Draft\_Snap\_Midpoint](Draft_Snap_Midpoint.md)
+1.  REDIRECT [Draft_Snap_Midpoint](Draft_Snap_Midpoint.md)
 
 
 

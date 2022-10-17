@@ -926,7 +926,7 @@ the curved top edge of the stern face which can be flat or curved
 
 ToolBar Icon ![](images/Macro_Half_Hull_Model.png )
 
-**Macro\_Half\_Hull\_Model.FCMacro**
+**Macro_Half_Hull_Model.FCMacro**
 
 This script is running bug free. But due to the large range of possible inputs it may fail for some inputs. If so please report it.
 

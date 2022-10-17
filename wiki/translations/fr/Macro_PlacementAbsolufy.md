@@ -34,7 +34,7 @@ Pour des explications plus détaillées, consultez la page [Comment installer de
 
 ToolBar Icon ![](images/Macro_PlacementAbsolufy.png )
 
-**Macro\_PlacementAbsolufy.FCMacro**
+**Macro_PlacementAbsolufy.FCMacro**
 
 
 {{MacroCode|code=

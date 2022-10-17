@@ -22,7 +22,7 @@ Zeigen Sie, wie Sie dem Benutzer Informationen in Makros geben.
 
 ToolBar Icon ![](images/Macro_MessageBox.png )
 
-**Macro\_MessageBox.FCMacro**
+**Macro_MessageBox.FCMacro**
 
 
 {{MacroCode|code=
@@ -57,7 +57,7 @@ msg = u'Élément sélectionnés affichés'
 }}
 
 Um mehrere Zeilen in einem Dialogfeld anzuzeigen, muss **Qt** zwischen jeder Zeile **\"\\ n\"** (Zitat, auch zwischen Apostrophen gültig) eingefügt werden.
-Gültig auch **\"\\r\\n\"**, das **CR** Wagenrücklauf und **LF** Zeilenende entspricht, ebenfalls gültig **\\t** ist ein Tabulator, Zeichen sollten zwischen Anführungszeichen (und Apostrophe) als Zeichenfolge stehen. Die Tags befinden sich neben dem Text, um **\"anzuzeigen. \\nRayon\\t   *"**, der Tag *\' \"\\\"*\' (umgekehrter Schrägstrich) definiert den Befehl.
+Gültig auch **\"\\r\\n\"**, das **CR** Wagenrücklauf und **LF** Zeilenende entspricht, ebenfalls gültig **\\t** ist ein Tabulator, Zeichen sollten zwischen Anführungszeichen (und Apostrophe) als Zeichenfolge stehen. Die Tags befinden sich neben dem Text, um **\"anzuzeigen. \\nRayon\\t   *"**, der Tag **\"\\\"** (umgekehrter Schrägstrich) definiert den Befehl.
 Beispiel   *
 
 

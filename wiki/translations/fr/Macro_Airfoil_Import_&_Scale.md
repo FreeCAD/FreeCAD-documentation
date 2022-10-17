@@ -15,7 +15,7 @@
 Lorsqu\'elle est exécutée, Cette Macro, demandera tout d\'abord à l\'utilisateur de localiser et sélectionner un fichier **.dat** de format texte décrivant un profil aérodynamique. Une fois sélectionné, une longueur de corde est demandée puis en validant avec la touche OK, un aileron sera dessiné à l\'échelle correcte. Il existe ici deux versions. Version 1.5 devrait fonctionner sur les versions FreeCAD, 0,13 stable, ainsi que toutes les versions de 0,14. Version 2 ne doit être utilisée qu\'avec les versions de FreeCAD égales ou supérieures à 0,14 3077 et fonctionnera mieux avec les versions générées avec des versions OCE/OCC 6,7 ou supérieure.
 Voir aussi [Common Airfoil Data Import](Common_Airfoil_Data_Import/fr.md)
 
-<img alt="Airfoil\_Import\_&\_Scale" src=images/Macro_Airfoil_Import_&_Scale_00.png  style="width   *480px;">
+<img alt="Airfoil_Import\_&\_Scale" src=images/Macro_Airfoil_Import_&_Scale_00.png  style="width   *480px;">
 
 ## Utilisation
 
@@ -49,7 +49,7 @@ La dernière version de la macro se trouve à l\'adresse [AirfoilImportAndScale.
 
 ToolBar icon ![](images/Macro_Airfoil_Import_&_Scale.png )
 
-**Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
+**Macro_Airfoil_Import\_&\_Scale.FCMacro**
 
 
 {{MacroCode|code=
@@ -206,7 +206,7 @@ AirfoilImporterAndScaler()
 
 ### Version 1.5 
 
-**Macro\_Airfoil\_Import\_&\_Scale.FCMacro**
+**Macro_Airfoil_Import\_&\_Scale.FCMacro**
 
 
 {{MacroCode|code=

@@ -142,12 +142,12 @@ The FreeCAD bugtracker has a plug-in called [Source Integration](https   *//gith
 
 Using this pattern will automagically associate a git commit to a ticket (**Note   *** this will not close the ticket.) The format MantisBT will recognize   *
 
--   bug \#1234
--   bugs \#1234, \#5678
--   issue \#1234
--   issues \#1234, \#5678
--   report \#1234
--   reports \#1234, \#5678
+-   bug #1234
+-   bugs #1234, #5678
+-   issue #1234
+-   issues #1234, #5678
+-   report #1234
+-   reports #1234, #5678
 
 For the inquisitive here is the regex MantisBT uses for this operation   *
 
@@ -156,16 +156,16 @@ For the inquisitive here is the regex MantisBT uses for this operation   *
 
 The format MantisBT will recognize   *
 
--   fix \#1234
--   fixed \#1234
--   fixes \#1234
--   fixed \#1234, \#5678
--   fixes \#1234, \#5678
--   resolve \#1234
--   resolved \#1234
--   resolves \#1234
--   resolved \#1234, \#5678
--   resolves \#1234, \#5678
+-   fix #1234
+-   fixed #1234
+-   fixes #1234
+-   fixed #1234, #5678
+-   fixes #1234, #5678
+-   resolve #1234
+-   resolved #1234
+-   resolves #1234
+-   resolved #1234, #5678
+-   resolves #1234, #5678
 
 For the inquisitive here is the regex MantisBT uses for this operation   *
 

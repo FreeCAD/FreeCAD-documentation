@@ -456,7 +456,7 @@ Si vous obtenez de nouveau une erreur comme    *
 error   * Python was built with Visual Studio version 8.0, and extensions need to be built with the same version of the compiler, but it isn't installed.
 ```
 
-alors vous devriez vérifier les variables d\'environnement **DISTUTILS\_USE\_SDK** et **MSSDK** avec    *
+alors vous devriez vérifier les variables d\'environnement **DISTUTILS_USE_SDK** et **MSSDK** avec    *
 
 
 ```python
@@ -518,7 +518,7 @@ Vous pouvez également consulter le fichier **Draft.py** dans le dossier **FreeC
 ### Installation 
 
 **Pycollada** n\'est généralement pas encore disponible dans les dépôts des distributions Linux, mais puisqu\'il est fait uniquement en **Python**, il ne nécessite pas de compilation, et est facile à installer.
-Vous avez 2 façons de l\'installer, soit directement à partir du **pycollada git repository** officiel, ou avec l\'outil **easy\_install**.
+Vous avez 2 façons de l\'installer, soit directement à partir du **pycollada git repository** officiel, ou avec l\'outil **easy_install**.
 
 #### Linux 
 
@@ -540,9 +540,9 @@ cd pycollada
 sudo python setup.py install
 ```
 
-##### Avec easy\_install (easy\_install) 
+##### Avec easy_install (easy_install) 
 
-En supposant que vous avez déjà installé complètement **Python**, l\'utilitaire **easy\_install** doit être déjà présent    *
+En supposant que vous avez déjà installé complètement **Python**, l\'utilitaire **easy_install** doit être déjà présent    *
 
 
 ```python
@@ -671,7 +671,7 @@ Si la commande ne retourne aucun message d\'erreur, alors tout est OK.
 
 **Note**   * les installateurs officiels FreeCAD obtenus à partir de la page du site Web/github de FreeCAD contiennent déjà ifcopenshell.
 
-\'\' Documentation copiée à partir du fichier README IfcOpenShell\'\'
+*Documentation copiée à partir du fichier README IfcOpenShell*
 
 Les utilisateurs sont priés d\'utiliser le fichier **.sln** de Visual Studio qui se trouve dans **win/folder**.
 

@@ -43,7 +43,7 @@ Changes by duke24 include.
 
 Changes by g.becu include.
 
-Changes by Chris\_G include.
+Changes by Chris_G include.
 
 ToolBar Icon ![](images/Macro_cross_section.png )
 
@@ -652,11 +652,11 @@ La discussion sur le forum [Posting a new macro](http   *//forum.freecadweb.org/
 
 ## Version
 
-ver 00.10 19/12/2020   * mise à niveau par Chris\_G correctif pour exclure App.Part des objets d\'entrée, voir [macro de coupe ne fonctionne pas sur les corps dans un conteneur de pièces](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=53423)
+ver 00.10 19/12/2020   * mise à niveau par Chris_G correctif pour exclure App.Part des objets d\'entrée, voir [macro de coupe ne fonctionne pas sur les corps dans un conteneur de pièces](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=53423)
 
 ver 00.09 31/08/2019    * upgrade by g.becu ajout de la ligne 334 \#[Sezione Dinamica](https   *//forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=20#p330351)
 
-ver 00.08 04/07/2019    * upgrade remplacer Tab par Space pary duke24 [Macro cross\_section update](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=37449)
+ver 00.08 04/07/2019    * upgrade remplacer Tab par Space pary duke24 [Macro cross_section update](https   *//forum.freecadweb.org/viewtopic.php?f=13&t=37449)
 
 ver 00.07 17/09/2017    * upgrade multiple objets avec différentes couleurs par Gift
 

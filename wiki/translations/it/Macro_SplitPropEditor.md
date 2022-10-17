@@ -46,7 +46,7 @@ For any feedback (bug, feature request, comments, \...), please use this forum t
 
 ### Code
 
-**Macro\_SplitPropEditor.FCMacro**
+**Macro_SplitPropEditor.FCMacro**
 
 
 {{MacroCode|code=

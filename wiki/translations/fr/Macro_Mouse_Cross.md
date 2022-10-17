@@ -16,7 +16,7 @@
 
 Cette macro change la forme de la souris en une croix de précision..
 
-<img alt="Macro\_Mouse\_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;"> 
+<img alt="Macro_Mouse_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;"> 
 *
 Petit exemple d'utilisation de la class '''ViewObserver()''' et de l'utilisation du clavier avec '''[SoKeyboardEvent](Code_snippets/fr#Observation_des_.C3.A9v.C3.A8nements_de_la_souris_dans_la_vue_3D_via_Python.md)'''*
 
@@ -32,7 +32,7 @@ Petit exemple d'utilisation de la class '''ViewObserver()''' et de l'utilisation
 
 ToolBar icon ![](images/Macro_Mouse_Cross.png )
 
-**Macro\_Mouse\_Cross.FCMacro**
+**Macro_Mouse_Cross.FCMacro**
 
 
 {{MacroCode|code=

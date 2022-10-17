@@ -151,7 +151,7 @@ Deoarece solidul creat nu are istorie si nici funcții editabile (ca o copie sim
 
  
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

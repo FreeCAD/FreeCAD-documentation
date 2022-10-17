@@ -1,5 +1,5 @@
 # Category:Draft/pt-br
-This category list pages related to the \"User\_Documentation/pt-br\" and \"Workbenches/pt-br\"
+This category list pages related to the \"User_Documentation/pt-br\" and \"Workbenches/pt-br\"
 
 [Category   *User Documentation/pt-br](Category   *User_Documentation/pt-br.md) [Category   *Workbenches/pt-br](Category   *Workbenches/pt-br.md)
 

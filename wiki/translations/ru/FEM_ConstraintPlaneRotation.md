@@ -1,29 +1,19 @@
 ---
 - GuiCommand   */ru
-   Name   *FEM ConstraintPlaneRotation
-   Name/ru   *FEM ConstraintPlaneRotation
-   MenuLocation   *Model → Mechanical Constraints  → Constraint plane rotation
+   Name/ru   *Ограничить вращение плоскости
+   Name   *FEM_ConstraintPlaneRotation
+   MenuLocation   *Модель → Geometrical Constraints → Ограничить вращение плоскости
    Workbenches   *[FEM](FEM_Workbench/ru.md)
-   Shortcut   *
-   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso   *[Ограничение преобразования](FEM_ConstraintTransform/ru.md)
 ---
 
 # FEM ConstraintPlaneRotation/ru
-
-
-</div>
 
 ## Описание
 
 Создает ограничение FEM для хранения узлов на плоской поверхности в одной плоскости.
 
-
-<div class="mw-translate-fuzzy">
-
-## Использование
-
-
-</div>
+## Применение
 
 
 <div class="mw-translate-fuzzy">

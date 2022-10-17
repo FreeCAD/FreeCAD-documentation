@@ -21,16 +21,15 @@ Cette commande était à l\'origine destinée aux groupes, d\'où son nom, mais 
 
 ## Utilisation
 
-1.  Pour utiliser cette commande dans FreeCAD version 0.19, au moins un [calque](Draft_Layer/fr.md) doit exister.
-2.  Sélectionnez éventuellement le calque que vous voulez rendre actif dans la [Vue en arborescence](Tree_view/fr.md).
-3.  Il existe plusieurs façons de lancer la commande    *
+1.  Sélectionnez éventuellement le calque que vous voulez rendre actif dans la [Vue en arborescence](Tree_view/fr.md).
+2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le **<img src="images/button_invalid.svg" width=16px> [Aucun](Draft_AutoGroup/fr.md)** dans la [Draft Barre](Draft_Tray/fr.md). Ce bouton peut avoir un aspect différent. S\'il y a un calque actif, il affichera le nom du calque et une icône de calque avec la **Line Color** et la **Shape Color** du calque.
     -   Si vous avez sélectionné un calque    * sélectionnez l\'option **<img src="images/button_right.svg" width=16px> Activer ce calque** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md).
-4.  Si vous n\'avez pas encore sélectionné de calque, le menu des calques s\'ouvre. Effectuez l\'une des opérations suivantes    *
+3.  Si vous n\'avez pas encore sélectionné de calque, le menu des calques s\'ouvre. Effectuez l\'une des opérations suivantes    *
     -   Sélectionnez **Aucun** pour travailler sans calque actif.
     -   Sélectionnez un calque existant pour le rendre actif.
     -   Sélectionnez **Ajouter un nouveau calque** pour créer un nouveau calque. La sélection de cette option ne modifie pas la couche active.
-5.  Si le calque active a été modifiée, le bouton de la [Draft Barre](Draft_Tray/fr.md) est mis à jour.
+4.  Si le calque active a été modifiée, le bouton de la [Draft Barre](Draft_Tray/fr.md) est mis à jour.
 
 ## Remarques
 

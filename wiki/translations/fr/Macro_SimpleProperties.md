@@ -43,7 +43,7 @@ Pour des explications plus détaillées, consultez la page [Comment installer le
 
 Icône de la barre d\'outils ![](images/Macro_SimpleProperties.png )
 
-**Macro\_SimpleProperties.FCMacro**
+**Macro_SimpleProperties.FCMacro**
 
 
 {{MacroCode|code=

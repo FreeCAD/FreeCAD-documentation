@@ -160,7 +160,7 @@ def getpoint(self, event_cb)   *
 
 <div class="mw-translate-fuzzy">
 
-Ahora definimos la función getpoint, que se ejecutará cuando el botón del ratón se pulsa en una vista 3D. Esta función recibe un argumento, que llamaremos event\_cb. A partir de este evento de devolución de llamada podemos tener acceso al objeto de evento, que contiene varias piezas de información (más información [aquí](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)).
+Ahora definimos la función getpoint, que se ejecutará cuando el botón del ratón se pulsa en una vista 3D. Esta función recibe un argumento, que llamaremos event_cb. A partir de este evento de devolución de llamada podemos tener acceso al objeto de evento, que contiene varias piezas de información (más información [aquí](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)).
 
 
 </div>

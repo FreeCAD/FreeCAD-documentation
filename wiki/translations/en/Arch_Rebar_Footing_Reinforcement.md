@@ -95,7 +95,7 @@ Note   * step 9 and 10 are required, only if secondary rebars check is enable in
 
 -    **Rebar Type**   * Type of rebar for cross rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\' and \'UShapeRebar\'.
 
--    **Front Cover**   * The distance between cross rebar and cross\_face (face perpendicular to selected face).
+-    **Front Cover**   * The distance between cross rebar and cross_face (face perpendicular to selected face).
 
 -    **Left Cover**   * The distance between the left end of the cross rebar to the left face of the structure.
 
@@ -185,7 +185,7 @@ Rebars along x-direction except main rebars
 
 -    **Top Offset**   * The distance between rebar from the top face of the structure.
 
--    **Number#Diameter**   * Number\#Diameter set of the x-direction rebars.
+-    **Number#Diameter**   * Number#Diameter set of the x-direction rebars.
 
 **Properties for Y Direction Rebars in Columns of footing Reinforcement   ***
 
@@ -201,7 +201,7 @@ Rebars along y-direction except main rebars
 
 -    **Top Offset**   * The distance between rebar from the top face of the structure.
 
--    **Number#Diameter**   * Number\#Diameter set of the y-direction rebars.
+-    **Number#Diameter**   * Number#Diameter set of the y-direction rebars.
 
 ## Scripting
 
@@ -310,25 +310,25 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `parallel_diameter`   * Diameter of parallel rebars.
 
--    `parallel_amount_spacing_check`   * If is set to True, then value of parallel\_amount\_spacing\_value is used as rebars count else parallel\_amount\_spacing\_value\'s value is used as spacing in parallel rebars.
+-    `parallel_amount_spacing_check`   * If is set to True, then value of parallel_amount_spacing_value is used as rebars count else parallel_amount_spacing_value\'s value is used as spacing in parallel rebars.
 
--    `parallel_amount_spacing_value`   * It contains count of rebars or spacing between parallel rebars based on value of amount\_spacing\_check.
+-    `parallel_amount_spacing_value`   * It contains count of rebars or spacing between parallel rebars based on value of amount_spacing_check.
 
--    `parallel_rounding`   * A rounding value to be applied to the corners of the bars, expressed in times the parallel\_diameter.
+-    `parallel_rounding`   * A rounding value to be applied to the corners of the bars, expressed in times the parallel_diameter.
 
--    `parallel_l_shape_hook_orintation`   * It represents orintation of hook of parallel L-Shape rebar if parallel\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\"
+-    `parallel_l_shape_hook_orintation`   * It represents orintation of hook of parallel L-Shape rebar if parallel_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\"
 
 **Properties for Rebars in Cross Direction to selected face   ***
 
 -    `cross_rebar_type`   * Type of rebar for cross rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
 
--    `cross_front_cover`   * The distance between cross rebar and cross\_face (face perpendicular to selected face).
+-    `cross_front_cover`   * The distance between cross rebar and cross_face (face perpendicular to selected face).
 
 -    `cross_rear_cover`   * Rear cover for footing reinforcement of cross rebars.
 
 -    `cross_left_cover`   * The distance between the left end of the cross rebar to the left face of the structure.
 
--    `cross_right_cover`   * The distance between the right end of the rebar to right face of the structure relative to cross\_face.
+-    `cross_right_cover`   * The distance between the right end of the rebar to right face of the structure relative to cross_face.
 
 -    `cross_top_cover`   * The distance between cross rebar from the top face of the structure.
 
@@ -336,13 +336,13 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `cross_diameter`   * Diameter of cross rebars.
 
--    `cross_amount_spacing_check`   * If is set to True, then value of cross\_amount\_spacing\_value is used as rebars count else cross\_amount\_spacing\_value\'s value is used as spacing in rebars.
+-    `cross_amount_spacing_check`   * If is set to True, then value of cross_amount_spacing_value is used as rebars count else cross_amount_spacing_value\'s value is used as spacing in rebars.
 
--    `cross_amount_spacing_value`   * It contains count of rebars or spacing between rebars based on value of cross\_amount\_spacing\_check.
+-    `cross_amount_spacing_value`   * It contains count of rebars or spacing between rebars based on value of cross_amount_spacing_check.
 
--    `cross_rounding`   * A rounding value to be applied to the corners of the bars, expressed in times the cross\_diameter.
+-    `cross_rounding`   * A rounding value to be applied to the corners of the bars, expressed in times the cross_diameter.
 
--    `cross_l_shape_hook_orintation`   * It represents orintation of hook of cross L-Shape rebar if cross\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\", \"Alternate\"
+-    `cross_l_shape_hook_orintation`   * It represents orintation of hook of cross L-Shape rebar if cross_rebar_type is LShapeRebar. It can have three values \"Left\", \"Right\", \"Alternate\"
 
 **Properties for Columns in footing Reinforcement   ***
 
@@ -358,13 +358,13 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `column_length`   * Length of columns.
 
--    `xdir_column_amount_spacing_check`   * If is set to True, then value of xdir\_column\_amount\_spacing\_value is used as columns count else xdir\_column\_amount\_spacing\_value\'s value is used as spacing between columns in x direction.
+-    `xdir_column_amount_spacing_check`   * If is set to True, then value of xdir_column_amount_spacing_value is used as columns count else xdir_column_amount_spacing_value\'s value is used as spacing between columns in x direction.
 
--    `xdir_column_amount_spacing_value`   * It contains count of columns or spacing between columns in x direction based on value of xdir\_column\_amount\_spacing\_check.
+-    `xdir_column_amount_spacing_value`   * It contains count of columns or spacing between columns in x direction based on value of xdir_column_amount_spacing_check.
 
--    `ydir_column_amount_spacing_check`   * If is set to True, then value of ydir\_column\_amount\_spacing\_value is used as columns count else ydir\_column\_amount\_spacing\_value\'s value is used as spacing between columns in y direction.
+-    `ydir_column_amount_spacing_check`   * If is set to True, then value of ydir_column_amount_spacing_value is used as columns count else ydir_column_amount_spacing_value\'s value is used as spacing between columns in y direction.
 
--    `ydir_column_amount_spacing_value`   * It contains count of columns or spacing between columns in y direction based on value of ydir\_column\_amount\_spacing\_check.
+-    `ydir_column_amount_spacing_value`   * It contains count of columns or spacing between columns in y direction based on value of ydir_column_amount_spacing_check.
 
 -    `column_sec_rebar_check`   * If True add secondary x and y direction rebars in columns.
 
@@ -380,9 +380,9 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `tie_diameter`   *Diameter of ties.
 
--    `tie_number_spacing_check`   *If is set to True, then value of tie\_number\_spacing\_value is used as ties count else tie\_number\_spacing\_value\'s value is used as spacing in ties.
+-    `tie_number_spacing_check`   *If is set to True, then value of tie_number_spacing_value is used as ties count else tie_number_spacing_value\'s value is used as spacing in ties.
 
--    `tie_number_spacing_value`   *It contains count of ties or spacing between ties based on value of tie\_number\_spacing\_check.
+-    `tie_number_spacing_value`   *It contains count of ties or spacing between ties based on value of tie_number_spacing_check.
 
 **Properties for Main rebar of columns in footing Reinforcement   ***
 
@@ -392,27 +392,27 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `column_main_hook_extend_along`   *Direction of main rebar (LShapeRebar) hook. it has two option \"x-axis\" and \"y-axis\".
 
--    `column_l_main_rebar_rounding`   *A rounding value to be applied to the corners of the bars, expressed in times the column\_main\_rebar\_diameter.
+-    `column_l_main_rebar_rounding`   *A rounding value to be applied to the corners of the bars, expressed in times the column_main_rebar_diameter.
 
 -    `column_main_hook_extension`   *It specifies length of hook of main rebar (LShapeRebar).
 
 -    `column_main_rebars_type`   *Rebar type for main rebars of column. It takes two different inputs for \'StraightRebar\', \'LShapeRebar\'. Default is StraightRebar.
 
--    `column_main_hook_orientation`   *Hook orientation of main rebars in columns if column\_main\_rebars\_type is LShapeRebar. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    `column_main_hook_orientation`   *Hook orientation of main rebars in columns if column_main_rebars_type is LShapeRebar. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
 
 **Properties for Secondary X and Y direction Rebar of columns in footing Reinforcement   ***
 
--    `column_sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir\_rebars\_t\_offset, ydir\_rebars\_t\_offset) that defines offset distances (or hight) for the secondary x-direction and y-direction rebars with respect to the top faces of the structure, respectively.
+-    `column_sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t\_offset, ydir_rebars_t\_offset) that defines offset distances (or hight) for the secondary x-direction and y-direction rebars with respect to the top faces of the structure, respectively.
 
--    `column_sec_rebars_number_diameter`is a tuple (xdir\_rebars\_number\_diameter, ydir\_rebars\_number\_diameter) that defines number\#diameter set of the secondary x-direction and y-direction rebars, respectively.
+-    `column_sec_rebars_number_diameter`is a tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) that defines number#diameter set of the secondary x-direction and y-direction rebars, respectively.
 
--    `column_sec_rebars_type`is a tuple (xdir\_rebars\_type, ydir\_rebars\_type) that defines the type of secondary x-direction and y-direction rebars ,respectively; it can have `"StraightRebar"` or `"LShapeRebar"` as rebar type.
+-    `column_sec_rebars_type`is a tuple (xdir_rebars_type, ydir_rebars_type) that defines the type of secondary x-direction and y-direction rebars ,respectively; it can have `"StraightRebar"` or `"LShapeRebar"` as rebar type.
 
--    `column_sec_hook_orientation`is a tuple (xdir\_hook\_orientation, ydir\_hook\_orientation) that defines the orientation of secondary x-direction and y-direction LShaped hook; it can have `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"` as hook\_orientation.
+-    `column_sec_hook_orientation`is a tuple (xdir_hook_orientation, ydir_hook_orientation) that defines the orientation of secondary x-direction and y-direction LShaped hook; it can have `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"` as hook_orientation.
 
--    `column_l_sec_rebar_rounding`is a tuple (l\_xdir\_rebar\_rounding, l\_ydir\_rebar\_rounding) that determines the bending radius of the LShaped secondary x-direction and y-direction LShaped rebars, expressed as times the diameter of x-direction and y-direction LShaped rebars, respectively.
+-    `column_l_sec_rebar_rounding`is a tuple (l_xdir_rebar_rounding, l_ydir_rebar_rounding) that determines the bending radius of the LShaped secondary x-direction and y-direction LShaped rebars, expressed as times the diameter of x-direction and y-direction LShaped rebars, respectively.
 
--    `column_sec_hook_extension`is a tuple (xdir\_hook\_extension, ydir\_hook\_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
+-    `column_sec_hook_extension`is a tuple (xdir_hook_extension, ydir_hook_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
 
 **Common Properties for Footing Reinforcement   ***
 

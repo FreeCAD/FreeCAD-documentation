@@ -1,5 +1,5 @@
 # Category:External Command Reference/fr
-This categorizes all **external** workbench commands separate from the internal [   *Category   *Command\_Reference/fr](   *Category   *Command_Reference/fr.md)
+This categorizes all **external** workbench commands separate from the internal [   *Category   *Command_Reference/fr](   *Category   *Command_Reference/fr.md)
 
 ### Contents
 
@@ -23,15 +23,16 @@ This categorizes all **external** workbench commands separate from the internal 
 | [Fasteners ChangeParameters/fr](wiki/Fasteners ChangeParameters/fr.md) | [Fasteners Flip/fr](wiki/Fasteners Flip/fr.md) | [Fasteners MatchTypeInner/fr](wiki/Fasteners MatchTypeInner/fr.md) |
 | [Fasteners MatchTypeOuter/fr](wiki/Fasteners MatchTypeOuter/fr.md) | [Fasteners Move/fr](wiki/Fasteners Move/fr.md) | [Fasteners ScrewCalculator/fr](wiki/Fasteners ScrewCalculator/fr.md) |
 | [Fasteners Shape/fr](wiki/Fasteners Shape/fr.md) | [Fasteners Workbench/fr](wiki/Fasteners Workbench/fr.md) | [FCGear BevelGear/fr](wiki/FCGear BevelGear/fr.md) |
-| [FCGear CrownGear/fr](wiki/FCGear CrownGear/fr.md) | [FCGear CycloideGear/fr](wiki/FCGear CycloideGear/fr.md) | [FCGear InvoluteGear/fr](wiki/FCGear InvoluteGear/fr.md) |
-| [FCGear InvoluteRack/fr](wiki/FCGear InvoluteRack/fr.md) | [FCGear LanternGear/fr](wiki/FCGear LanternGear/fr.md) | [FCGear TimingGear/fr](wiki/FCGear TimingGear/fr.md) |
-| [FCGear WormGear/fr](wiki/FCGear WormGear/fr.md) | [Lattice2 AttachablePlacement/fr](wiki/Lattice2 AttachablePlacement/fr.md) | [Reinforcement Bar Bending Schedule/fr](wiki/Reinforcement Bar Bending Schedule/fr.md) |
-| [Reinforcement Bar Shape Cut List/fr](wiki/Reinforcement Bar Shape Cut List/fr.md) | [SheetMetal AddBase/fr](wiki/SheetMetal AddBase/fr.md) | [SheetMetal AddBend/fr](wiki/SheetMetal AddBend/fr.md) |
-| [SheetMetal AddCornerRelief/fr](wiki/SheetMetal AddCornerRelief/fr.md) | [SheetMetal AddFoldWall/fr](wiki/SheetMetal AddFoldWall/fr.md) | [SheetMetal AddJunction/fr](wiki/SheetMetal AddJunction/fr.md) |
-| [SheetMetal AddRelief/fr](wiki/SheetMetal AddRelief/fr.md) | [SheetMetal AddWall/fr](wiki/SheetMetal AddWall/fr.md) | [SheetMetal Examples/fr](wiki/SheetMetal Examples/fr.md) |
-| [SheetMetal Extrude/fr](wiki/SheetMetal Extrude/fr.md) | [SheetMetal Forming/fr](wiki/SheetMetal Forming/fr.md) | [SheetMetal SketchOnSheet/fr](wiki/SheetMetal SketchOnSheet/fr.md) |
-| [SheetMetal UnattendedUnfold/fr](wiki/SheetMetal UnattendedUnfold/fr.md) | [SheetMetal Unfold/fr](wiki/SheetMetal Unfold/fr.md) | [SheetMetal Workbench/fr](wiki/SheetMetal Workbench/fr.md) |
-|
+| [FCGear CrownGear/fr](wiki/FCGear CrownGear/fr.md) | [FCGear CycloidGear/fr](wiki/FCGear CycloidGear/fr.md) | [FCGear CycloidRack/fr](wiki/FCGear CycloidRack/fr.md) |
+| [FCGear GearConnector/fr](wiki/FCGear GearConnector/fr.md) | [FCGear HypoCycloidGear/fr](wiki/FCGear HypoCycloidGear/fr.md) | [FCGear InternalInvoluteGear/fr](wiki/FCGear InternalInvoluteGear/fr.md) |
+| [FCGear InvoluteGear/fr](wiki/FCGear InvoluteGear/fr.md) | [FCGear InvoluteRack/fr](wiki/FCGear InvoluteRack/fr.md) | [FCGear LanternGear/fr](wiki/FCGear LanternGear/fr.md) |
+| [FCGear TimingGear/fr](wiki/FCGear TimingGear/fr.md) | [FCGear WormGear/fr](wiki/FCGear WormGear/fr.md) | [Lattice2 AttachablePlacement/fr](wiki/Lattice2 AttachablePlacement/fr.md) |
+| [Reinforcement Bar Bending Schedule/fr](wiki/Reinforcement Bar Bending Schedule/fr.md) | [Reinforcement Bar Shape Cut List/fr](wiki/Reinforcement Bar Shape Cut List/fr.md) | [SheetMetal AddBase/fr](wiki/SheetMetal AddBase/fr.md) |
+| [SheetMetal AddBend/fr](wiki/SheetMetal AddBend/fr.md) | [SheetMetal AddCornerRelief/fr](wiki/SheetMetal AddCornerRelief/fr.md) | [SheetMetal AddFoldWall/fr](wiki/SheetMetal AddFoldWall/fr.md) |
+| [SheetMetal AddJunction/fr](wiki/SheetMetal AddJunction/fr.md) | [SheetMetal AddRelief/fr](wiki/SheetMetal AddRelief/fr.md) | [SheetMetal AddWall/fr](wiki/SheetMetal AddWall/fr.md) |
+| [SheetMetal Examples/fr](wiki/SheetMetal Examples/fr.md) | [SheetMetal Extrude/fr](wiki/SheetMetal Extrude/fr.md) | [SheetMetal Forming/fr](wiki/SheetMetal Forming/fr.md) |
+| [SheetMetal SketchOnSheet/fr](wiki/SheetMetal SketchOnSheet/fr.md) | [SheetMetal UnattendedUnfold/fr](wiki/SheetMetal UnattendedUnfold/fr.md) | [SheetMetal Unfold/fr](wiki/SheetMetal Unfold/fr.md) |
+| [SheetMetal Workbench/fr](wiki/SheetMetal Workbench/fr.md) |
 
 
 

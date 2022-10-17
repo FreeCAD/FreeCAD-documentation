@@ -43,7 +43,7 @@ Programul poate fi descărcat de la <http   *//qt-project.org/wiki/Category   *L
 
 #### MacOSX
 
-PyQt on Mac can be installed via homebrew or port. See [Compile on MacOS/ro\#Install\_Dependencies](Compile_on_MacOS/ro#Install_Dependencies.md) for more information.
+PyQt on Mac can be installed via homebrew or port. See [Compile on MacOS/ro#Install_Dependencies](Compile_on_MacOS/ro#Install_Dependencies.md) for more information.
 
 ### Utilizare
 
@@ -453,7 +453,7 @@ Reîncercați încă o dată. Dacă apare din nou o eroare cum ar fi
 error   * Python was built with Visual Studio version 8.0, and extensions need to be built with the same version of the compiler, but it isn't installed.
 ```
 
-then you should check the environment variables DISTUTILS\_USE\_SDK and MSSDK with
+then you should check the environment variables DISTUTILS_USE_SDK and MSSDK with
 
 
 ```python
@@ -512,7 +512,7 @@ pyCollada is a python library that allow programs to read and write [Collada (\*
 
 ### Instalare 
 
-Pycollada, de obicei, nu este încă disponibilă în arhivele distribuțiilor linux, dar deoarece este făcută numai din fișiere Python, nu necesită compilare și este ușor de instalat. Aveți 2 moduri sau direct de la depozitul oficial pycollada git sau cu instrumentul easy\_install.
+Pycollada, de obicei, nu este încă disponibilă în arhivele distribuțiilor linux, dar deoarece este făcută numai din fișiere Python, nu necesită compilare și este ușor de instalat. Aveți 2 moduri sau direct de la depozitul oficial pycollada git sau cu instrumentul easy_install.
 
 #### Linux 
 
@@ -534,9 +534,9 @@ cd pycollada
 sudo python setup.py install
 ```
 
-##### With easy\_install 
+##### With easy_install 
 
-Presupunând că aveți deja o instalare python completă, utilitarul easy\_install ar trebui să fie deja prezent   *
+Presupunând că aveți deja o instalare python completă, utilitarul easy_install ar trebui să fie deja prezent   *
 
 
 ```python

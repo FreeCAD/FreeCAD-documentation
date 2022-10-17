@@ -204,7 +204,7 @@ Rețineți că este important să oferiți nume descriptive variabilelor dvs. Du
 
 <div class="mw-translate-fuzzy">
 
-Cazul este foarte important. myVariable nu este aceeași cu myvariable, diferența dintre majuscule / minuscule \'\' \'v\' \'\'. Dacă trebuia să introduceți \"print myvariable\", s-ar întoarce cu o eroare pentru că nu a fost definită.
+Cazul este foarte important. myVariable nu este aceeași cu myvariable, diferența dintre majuscule / minuscule *\'v\'*. Dacă trebuia să introduceți \"print myvariable\", s-ar întoarce cu o eroare pentru că nu a fost definită.
 
 
 </div>

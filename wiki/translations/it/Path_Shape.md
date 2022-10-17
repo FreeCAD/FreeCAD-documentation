@@ -78,23 +78,23 @@ Returns a Path object from a list of shapes.
 
 -   start (Vector())   * feed start position, and also serves as a hint of path entry.
 
--   return\_end (False)   * if True, returns tuple (path, endPosition).
+-   return_end (False)   * if True, returns tuple (path, endPosition).
 
--   arc\_plane(1)   * 0=None,1=Auto,2=XY,3=ZX,4=YZ,5=Variable. Arc drawing plane, corresponding to G17, G18, and G19.
+-   arc_plane(1)   * 0=None,1=Auto,2=XY,3=ZX,4=YZ,5=Variable. Arc drawing plane, corresponding to G17, G18, and G19.
     -   If not \'None\', the output wires will be transformed to align with the selected plane, and the corresponding GCode will be inserted.
     -   \'Auto\' means the plane is determined by the first encountered arc plane. If the found plane does not align to any GCode plane, XY plane is used.
     -   \'Variable\' means the arc plane can be changed during operation to align to the arc encountered.
 
--   sort\_mode(1)   * 0=None,1=2D5,2=3D,3=Greedy. Wire sorting mode to optimize travel distance.
+-   sort_mode(1)   * 0=None,1=2D5,2=3D,3=Greedy. Wire sorting mode to optimize travel distance.
     -   \'2D5\' explode shapes into wires, and groups the shapes by its plane. The \'start\' position chooses the first plane to start. The algorithm will then sort within the plane and then move on to the next nearest plane.
     -   \'3D\' makes no assumption of planarity. The sorting is done across 3D space.
     -   \'Greedy\' like \'2D5\' but will try to minimize travel by searching for nearest path below the current milling layer. The path in lower layer is only selected if the moving distance is within the value given in \'threshold\'.
 
--   min\_dist(0.0)   * minimum distance for the generated new wires. Wires maybe broken if the algorithm see fits. Set to zero to disable wire breaking.
+-   min_dist(0.0)   * minimum distance for the generated new wires. Wires maybe broken if the algorithm see fits. Set to zero to disable wire breaking.
 
--   abscissa(3.0)   * Controls vertex sampling on wire for nearest point searching. The sampling is dong using OCC GCPnts\_UniformAbscissa.
+-   abscissa(3.0)   * Controls vertex sampling on wire for nearest point searching. The sampling is dong using OCC GCPnts_UniformAbscissa.
 
--   nearest\_k(3)   * Nearest k sampling vertices are considered during sorting.
+-   nearest_k(3)   * Nearest k sampling vertices are considered during sorting.
 
 -   orientation(0)   * 0=Normal,1=Reversed. Enforce loop orientation   *
     -   \'Normal\' means CCW for outer wires when looking against the positive axis direction, and CW for inner wires.
@@ -104,21 +104,21 @@ Returns a Path object from a list of shapes.
 
 -   threshold(0.0)   * If two wire\'s end points are separated within this threshold, they are consider as connected. You may want to set this to the tool diameter to keep the tool down.
 
--   retract\_axis(2)   * 0=X,1=Y,2=Z. Tool retraction axis.
+-   retract_axis(2)   * 0=X,1=Y,2=Z. Tool retraction axis.
 
 -   retraction(0.0)   * Tool retraction absolute coordinate along retraction axis.
 
--   resume\_height(0.0)   * When return from last retraction, this gives the pause height relative to the Z value of the next move.
+-   resume_height(0.0)   * When return from last retraction, this gives the pause height relative to the Z value of the next move.
 
 -   segmentation(0.0)   * Break long curves into segments of this length. One use case is for PCB autolevel, so that more correction points can be inserted.
 
 -   feedrate(0.0)   * Normal move feed rate.
 
--   feedrate\_v(0.0)   * Vertical only (step down) move feed rate.
+-   feedrate_v(0.0)   * Vertical only (step down) move feed rate.
 
 -   verbose(true)   * If true, each motion GCode will contain full coordinate and feedrate.
 
--   abs\_center(false)   * Use absolute arc center mode (G90.1).
+-   abs_center(false)   * Use absolute arc center mode (G90.1).
 
 -   preamble(true)   * Emit preambles.
 

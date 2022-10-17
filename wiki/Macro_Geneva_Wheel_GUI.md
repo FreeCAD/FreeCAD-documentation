@@ -31,7 +31,7 @@ To use this Macro, copy it to your FreeCAD Macro directory and include the icon 
 
 ToolBar Icon ![](images/GW_Dim.png )
 
-**Macro\_Geneva\_Wheel\_GUI.FCMacro**
+**Macro_Geneva_Wheel_GUI.FCMacro**
 
 
 {{MacroCode|code=

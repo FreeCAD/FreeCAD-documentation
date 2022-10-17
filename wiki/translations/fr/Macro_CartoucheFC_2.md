@@ -37,7 +37,7 @@ Si vous avez des questions ou désirez ajouter une fonction, vous pouvez vous ad
 
 ToolBar Icon ![](images/Macro_CartoucheFC_2.png )
 
-**Macro\_CartoucheFC\_2.FcMacro**
+**Macro_CartoucheFC_2.FcMacro**
 
 
 {{MacroCode|code=

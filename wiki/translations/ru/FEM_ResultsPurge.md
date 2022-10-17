@@ -21,7 +21,7 @@ If you only want to delete a result object and keep the result mesh, create a co
 
 ## Применение
 
-Either press the **<img src="images/FEM_ResultsPurge.svg" width=16px> '''Purge results'''** button or use the menu **Results → <img src="images/FEM_ResultsPurge.svg" width=16px> Purge results** (sortcut **R** then **P**).
+Either press the **<img src="images/FEM_ResultsPurge.svg" width=16px> '''Purge results'''** button or use the menu **Results → <img src="images/FEM_ResultsPurge.svg" width=16px> Purge results** (shortcut **R** then **P**).
 
 
 <div class="mw-translate-fuzzy">

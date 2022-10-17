@@ -9,7 +9,7 @@ Cette commande vous permet de placer un découpage rectangle sur une [ Feuille A
 ## Utilisation
 
 1.  Créez une [Feuille A3 paysage](Drawing_Landscape_A3/fr.md)
-2.  \[\[Std\_Refresh/fr \|
+2.  \[\[Std_Refresh/fr \|
 
 Actualiser\]\] la vue si une vue de dessin n\'a pas été ouverte
 
@@ -49,4 +49,4 @@ Actualiser\]\] la vue si une vue de dessin n\'a pas été ouverte
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Clip/fr

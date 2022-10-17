@@ -88,7 +88,7 @@ Entfernen von Formelementen unter Verwendung neuer OCC7.3 Werkzeuge
 
 [480px\|left\|thumb \|link=<https   *//raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4%7CDefeaturing-Arbeitsbereich>   * entfernen von Formelementen (Bohrungen)](Image   *Defeaturing-WB-@Work_v3.png.md)
 
-[480px\|left\|thumb \|link=<https   *//youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-\@Work\|YouTube   * Defeaturing Werkzeuge - Vereinfachung des Modells](Image   *Defeaturing-WB-@Work_v1.png.md)
+[480px\|left\|thumb \|link=<https   *//youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-@Work\|YouTube   * Defeaturing Werkzeuge - Vereinfachung des Modells](Image   *Defeaturing-WB-@Work_v1.png.md)
 
 [480px\|left\|thumb \|link=<https   *//youtu.be/vgQwGI6Fk6Q%7CYouTube>   * Defeaturing Werkzeuge - Mehrfachauswahl von Flächen für Defeaturing](Image   *Defeaturing-WB-@Work_v2.png.md)
 

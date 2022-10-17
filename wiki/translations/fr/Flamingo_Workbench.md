@@ -80,11 +80,11 @@ Boîte de dialogue permettant de créer un ensemble de profils à utiliser dans 
 
 -   Liste des **Sections**    * comprend toutes les sections définies dans le fichier **.csv** correspondant au type de section sélectionné.
 -   Liste des **types de section**    * types de profils définis avec les fichiers **.csv** inclus dans le dossier **/tables**
--   Bouton **Insérer**    * crée le groupe \"Profiles\_set\", s\'il n\'existe pas déjà, et y ajoute l\'objet du profil sélectionné.
+-   Bouton **Insérer**    * crée le groupe \"Profiles_set\", s\'il n\'existe pas déjà, et y ajoute l\'objet du profil sélectionné.
 
 D\'autres tables de profils peuvent être créées en ajoutant le fichier **.csv** approprié dans le dossier **/tables**. Les règles permettant de créer ou de personnaliser de tels tables sont similaires à celles relatives aux canalisations.
 
-D\'autres profils peuvent être dessinés dans le modèle et glissés dans le groupe \"Profiles\_set\".
+D\'autres profils peuvent être dessinés dans le modèle et glissés dans le groupe \"Profiles_set\".
 
 L\'orientation des fils DWires peut influer sur le rendu des poutres.
 
@@ -338,7 +338,7 @@ Ceci compris, la commande ouvre la boîte de dialogue permettant de créer ou de
 
 Le dialogue est très similaire à ceux pour insérer d\'autres objets vus auparavant.
 
-Les tableaux de cotes de tuyauterie, où l'O.D. et l\'épaisseur sont définis, sont les mêmes de ceux pour les tubes (ex. Pipe\_SCH-STD.csv).
+Les tableaux de cotes de tuyauterie, où l'O.D. et l\'épaisseur sont définis, sont les mêmes de ceux pour les tubes (ex. Pipe_SCH-STD.csv).
 
 Lorsque  est dans la liste déroulante et que vous appuyez sur la touche **Insert**, un nouvel objet canalisation est créé dans le document avec le groupe approprié.
 

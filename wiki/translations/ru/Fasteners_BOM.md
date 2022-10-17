@@ -10,15 +10,15 @@
 
 ## Описание
 
-The <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **Fasteners BOM** command creates a spreadsheet with a bill of materials (BOM) for the fasteners in the document.
+Команда <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **Fasteners BOM** создает электронную таблицу с перечислением всех крепёжных изделий находящихся в документе (спецификацию).
 
 <img alt="" src=images/Fasteners_BOM_Example.png  style="width   *650px;"> 
 *A model with a Fasteners BOM spreadsheet*
 
-## Использование
+## Применение
 
 1.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_BOM.svg" width=16px> [Fasteners BOM](Fasteners_BOM.md)** button.
+    -   Press the **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** option from the menu.
 2.  A Fasteners BOM spreadsheet is created.
 

@@ -24,7 +24,7 @@ Icône de la barre d\'outils <img alt="" src=images/Macro_Megaminx.png  style="w
 
 {{Codeextralink|https   *//raw.githubusercontent.com/rparkins999/Megaminx/master/Megaminx.FCMacro}}
 
-**Macro\_Megaminx.FCMacro**
+**Macro_Megaminx.FCMacro**
 
 ![](images/Macro_Megaminx.png )
 
@@ -33,7 +33,7 @@ Icône de la barre d\'outils <img alt="" src=images/Macro_Megaminx.png  style="w
 
 ## Utilisation
 
-Téléchargez le code de <https   *//github.com/rparkins999/Megaminx> dans votre macro annuaire. Exécutez la macro pour créer un document Megaminx. Ensuite, vous pouvez jouer avec. Les fonctions d\'historique peuvent être utilisées construire et sauvegarder des opérateurs (alias algorithmes) qui effectuent des transformations utiles sur le Megaminx. Un ensemble approprié de ceux-ci vous donnera une solution complète. Le step\_history Cette fonction peut être utilisée pour vous aider à reproduire un opérateur sur un vrai Megaminx.
+Téléchargez le code de <https   *//github.com/rparkins999/Megaminx> dans votre macro annuaire. Exécutez la macro pour créer un document Megaminx. Ensuite, vous pouvez jouer avec. Les fonctions d\'historique peuvent être utilisées construire et sauvegarder des opérateurs (alias algorithmes) qui effectuent des transformations utiles sur le Megaminx. Un ensemble approprié de ceux-ci vous donnera une solution complète. Le step_history Cette fonction peut être utilisée pour vous aider à reproduire un opérateur sur un vrai Megaminx.
 
 
 

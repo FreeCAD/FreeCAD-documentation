@@ -27,7 +27,7 @@ Toto makro umožňuje dočasně vložit obrázek s texturou na vybraný objekt. 
 
 ## Скрипта
 
-**Macro\_Texture\_Objects.FCMacro**
+**Macro_Texture_Objects.FCMacro**
 
 
 {{MacroCode|code=

@@ -50,7 +50,7 @@ Por ejemplo, múltiples máquinas de desarrollo local, o un servidor de construc
 
 1\. [Instalar Miniconda](https   *//docs.conda.io/en/latest/miniconda.html).
 
-2\. Verifique que su instalación fue exitosa y familiarícese con el conda \'\' CLI\'\'. $ conda --help
+2\. Verifique que su instalación fue exitosa y familiarícese con el conda *CLI*. $ conda --help
 
 ## Instalando FreeCAD usando Conda 
 
@@ -92,7 +92,7 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 -   <https   *//github.com/FreeCAD/FreeCAD_Conda>
 -   <https   *//github.com/FreeCAD/FreeCAD-AppImage>
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

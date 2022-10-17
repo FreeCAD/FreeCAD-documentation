@@ -5,7 +5,7 @@
 
 There are two key things to a good user experience in Unstable. The first is to never blindly run sudo apt full-upgrade or its equivalents without first checking the results of the operation. If it\'s saying you\'ll free up hundreds of MB of space, there\'s a package transition underway which will remove a good portion of your system. Instead, one can safely run sudo apt upgrade and get new packages. Sometimes, this will result in packages being held back, which means it may be appropriate to run full-upgrade as package uninstallation may actually be necessary.
 
-The second key is to embrace that you\'re taking part in Debian development, and use the appropriate tools and methods. For example, that may mean installing packages like apt-listbugs or apt-listchanges or subscribing to Debian mailing lists like [debian-devel-announce\@lists.debian.org](https   *//lists.debian.org/debian-devel-announce/).
+The second key is to embrace that you\'re taking part in Debian development, and use the appropriate tools and methods. For example, that may mean installing packages like apt-listbugs or apt-listchanges or subscribing to Debian mailing lists like [debian-devel-announce@lists.debian.org](https   *//lists.debian.org/debian-devel-announce/).
 
 While Debian Unstable is perfectly suitable as a long-term daily driver, it\'s also very easy to run in a virtual machine, where breakages won\'t be such a big deal. Simply download a Debian Testing ISO, install it into a VM and update it, and then edit /etc/apt/sources.list to contain something like   *
 

@@ -29,12 +29,12 @@ Arch Building - это особый тип объекта группы FreeCAD, 
 
 -    **Building Type**   * The type of this building, to choose from a list
 
-## Scripting
+## Программирование
 
 
-**See also   ***
+**См. так же   ***
 
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
 The Building tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
@@ -63,15 +63,6 @@ Building = Arch.makeBuilding([Wall1, Wall2])
 Site = Arch.makeSite(Building)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

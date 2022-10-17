@@ -25,7 +25,7 @@ Rețineți că această versiune de FreeCAD se află încă în stadii incipient
 
 <div class="mw-translate-fuzzy">
 
-Așa cum avertismentul din partea de sus a paginii îl indică deja, acest tutorial nu va funcționa decât dacă compilați o ramură special experimentală specială din codul sursă FreeCAD \'\' \'și este un tutorial introductiv de modelare cu bancul de lucru PartDesign din FreeCAD\' \' \"folosind plane de referință, care sunt o funcționalitate care încă nu există în majoritatea versiunilor FreeCAD\" \'\'. Scopul tutorialului este de a vă prezenta două fluxuri diferite de lucru pentru a crea o piesă turnată cu curenți și filete. În funcție de alte programe CAD pe care le-ați utilizat, unul sau altul ar putea fi familiar. Ca exemplu de lucru vom modela un suport simplu pentru rulmenți.
+Așa cum avertismentul din partea de sus a paginii îl indică deja, acest tutorial nu va funcționa decât dacă compilați o ramură special experimentală specială din codul sursă FreeCAD *\'și este un tutorial introductiv de modelare cu bancul de lucru PartDesign din FreeCAD\' \' \"folosind plane de referință, care sunt o funcționalitate care încă nu există în majoritatea versiunilor FreeCAD\"*. Scopul tutorialului este de a vă prezenta două fluxuri diferite de lucru pentru a crea o piesă turnată cu curenți și filete. În funcție de alte programe CAD pe care le-ați utilizat, unul sau altul ar putea fi familiar. Ca exemplu de lucru vom modela un suport simplu pentru rulmenți.
 
 
 </div>

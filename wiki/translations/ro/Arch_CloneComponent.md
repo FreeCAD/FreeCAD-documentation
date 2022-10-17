@@ -28,7 +28,7 @@ Acest instrument produce [Arch Components](Arch_Component.md) care sunt clone a 
 
 <div class="mw-translate-fuzzy">
 
-Componenta clonei va avea pur și simplu proprietatea \'\'\' CloneOf \'\'\'setată la obiectul selectat.
+Componenta clonei va avea pur și simplu proprietatea **CloneOf**setată la obiectul selectat.
 
 
 </div>

@@ -155,7 +155,7 @@ After downloading the extension and install, open it.
 
 #### 2nd operation 
 
--   Open the Sheet\_metal workbench.
+-   Open the Sheet_metal workbench.
 -   Select 1 thickness of the edge (edge) of the base plate and click on the \"bend\" tool 90° default bend angle can be changed from 0 to 90°.
 -   Edge height is 10mm by default, editable from 0.1 to xxxmm.
 -   Bending radius is by default equal to thickness, editable from 0.1 to xxmm (never put 0).

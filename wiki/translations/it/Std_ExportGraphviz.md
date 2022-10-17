@@ -1,5 +1,5 @@
 # Std ExportGraphviz/it
-1.  REDIRECT [Std\_DependencyGraph/it](Std_DependencyGraph/it.md)
+1.  REDIRECT [Std_DependencyGraph/it](Std_DependencyGraph/it.md)
 
 
 

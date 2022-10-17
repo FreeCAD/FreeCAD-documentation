@@ -72,7 +72,7 @@ These sections list all preferences contained in the built-in templates. Right n
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-\'\'\'Draft Colors \'\'\'
+**Draft Colors**
 
 
 <div class="mw-collapsible-content">
@@ -91,7 +91,7 @@ These sections list all preferences contained in the built-in templates. Right n
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-\'\'\'Editor Colors \'\'\'
+**Editor Colors**
 
 
 <div class="mw-collapsible-content">
@@ -121,7 +121,7 @@ These sections list all preferences contained in the built-in templates. Right n
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-\'\'\'Editor Font \'\'\'
+**Editor Font**
 
 
 <div class="mw-collapsible-content">
@@ -138,18 +138,18 @@ These sections list all preferences contained in the built-in templates. Right n
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-\'\'\'Main Window Layout \'\'\'
+**Main Window Layout**
 
 
 <div class="mw-collapsible-content">
 
--   Preferences/MainWindow/DockWindows/Std\_SelectionView
--   Preferences/MainWindow/DockWindows/Std\_ComboView
--   Preferences/MainWindow/DockWindows/Std\_ReportView
--   Preferences/MainWindow/DockWindows/Std\_PythonView
--   Preferences/MainWindow/DockWindows/Std\_TreeView
--   Preferences/MainWindow/DockWindows/Std\_PropertyView
--   Preferences/MainWindow/DockWindows/Std\_DAGView
+-   Preferences/MainWindow/DockWindows/Std_SelectionView
+-   Preferences/MainWindow/DockWindows/Std_ComboView
+-   Preferences/MainWindow/DockWindows/Std_ReportView
+-   Preferences/MainWindow/DockWindows/Std_PythonView
+-   Preferences/MainWindow/DockWindows/Std_TreeView
+-   Preferences/MainWindow/DockWindows/Std_PropertyView
+-   Preferences/MainWindow/DockWindows/Std_DAGView
 -   Preferences/MainWindow/Toolbars/File
 -   Preferences/MainWindow/Toolbars/Workbench
 -   Preferences/MainWindow/Toolbars/Macro
@@ -166,7 +166,7 @@ These sections list all preferences contained in the built-in templates. Right n
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-\'\'\'Path Colors \'\'\'
+**Path Colors**
 
 
 <div class="mw-collapsible-content">
@@ -189,7 +189,7 @@ These sections list all preferences contained in the built-in templates. Right n
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-\'\'\'Sketcher Colors \'\'\'
+**Sketcher Colors**
 
 
 <div class="mw-collapsible-content">
@@ -225,7 +225,7 @@ These sections list all preferences contained in the built-in templates. Right n
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-\'\'\'Start Colors \'\'\'
+**Start Colors**
 
 
 <div class="mw-collapsible-content">
@@ -247,7 +247,7 @@ These sections list all preferences contained in the built-in templates. Right n
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-\'\'\'TechDraw Colors \'\'\'
+**TechDraw Colors**
 
 
 <div class="mw-collapsible-content">
@@ -276,7 +276,7 @@ These sections list all preferences contained in the built-in templates. Right n
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-\'\'\'Window Colors \'\'\'
+**Window Colors**
 
 
 <div class="mw-collapsible-content">
@@ -357,7 +357,7 @@ The package.xml file for this example pack might be   *
 
 ### Including templates in your add-on 
 
-Many add-ons have user-specifiable preference information that is added to the user.cfg file. An add-on author may also choose to provide a Preference Pack Template file that lists the user configuration variables that can be automatically saved using the \"Save new pack\" method described above. To include these template files, add-on authors should create a subdirectory in their package called either \"PreferencePackTemplates\" or \"preference\_pack\_templates\". Within that folder should be one or more \*.cfg files   * each must be a valid, well-formed user.cfg XML file containing one or more configuration variables set to their default values. The name of the file should reflect its purpose, e.g. \"colors.cfg\", \"active\_tabs.cfg\", etc. This set of files will be presented to the user when they save a new preference pack, with each file receiving a checkable entry in the list of items to save. The filename is used to generate the UI entry, with underscores replaced by spaces (and the extension omitted).
+Many add-ons have user-specifiable preference information that is added to the user.cfg file. An add-on author may also choose to provide a Preference Pack Template file that lists the user configuration variables that can be automatically saved using the \"Save new pack\" method described above. To include these template files, add-on authors should create a subdirectory in their package called either \"PreferencePackTemplates\" or \"preference_pack_templates\". Within that folder should be one or more \*.cfg files   * each must be a valid, well-formed user.cfg XML file containing one or more configuration variables set to their default values. The name of the file should reflect its purpose, e.g. \"colors.cfg\", \"active_tabs.cfg\", etc. This set of files will be presented to the user when they save a new preference pack, with each file receiving a checkable entry in the list of items to save. The filename is used to generate the UI entry, with underscores replaced by spaces (and the extension omitted).
 
 ## Distributing a pack 
 

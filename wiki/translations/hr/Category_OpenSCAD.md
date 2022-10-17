@@ -1,5 +1,5 @@
 # Category:OpenSCAD/hr
-This category lists pages related to the [OpenSCAD\_Workbench/hr](OpenSCAD_Workbench/hr.md).
+This category lists pages related to the [OpenSCAD_Workbench/hr](OpenSCAD_Workbench/hr.md).
 
 [Category   *Workbenches/hr](Category   *Workbenches/hr.md)
 

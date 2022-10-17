@@ -25,7 +25,7 @@ Esta macro convierte las mallas seleccionadas en piezas. Tiene una tolerancia ba
 
 ToolBar Icon ![](images/Macro_MeshToPart.png )
 
-**Macro\_MeshToPart.FCMacro**
+**Macro_MeshToPart.FCMacro**
 
 
 {{MacroCode|code=

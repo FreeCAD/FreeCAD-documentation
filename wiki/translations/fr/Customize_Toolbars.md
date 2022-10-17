@@ -59,7 +59,7 @@ L\'icône sélectionnée est maintenant affichée, cliquez sur le bouton libell�
 
 <img alt="Votre icône est affiché" src=images/CustomizeToolBar_08.png  style="width   *640px;"> 
 
-Sélectionnez la macro fournie dans la ligne \'\' \'Macro   *' \'\' et spécifiez un \'\' \'Texte menu\' \'\'   * (qui apparaîtra comme l\'étiquette texte dans le menu); remplissez également le \'\' \'infobulle\'   * \'\' (qui est le texte qui apparaîtra lorsqu\'une souris est sur le bouton de la barre d\'outils); D\'autres lignes sont facultatives.
+Sélectionnez la macro fournie dans la ligne *\'Macro   *'* et spécifiez un *\'Texte menu\'*   * (qui apparaîtra comme l\'étiquette texte dans le menu); remplissez également le *\'infobulle\'   ** (qui est le texte qui apparaîtra lorsqu\'une souris est sur le bouton de la barre d\'outils); D\'autres lignes sont facultatives.
 
 -   Cliquez sur le bouton **Ajouter**
 
@@ -69,7 +69,7 @@ Sélectionnez la macro fournie dans la ligne \'\' \'Macro   *' \'\' et spécifie
 
 <img alt="Votre bouton est créé" src=images/CustomizeToolBar_10.png  style="width   *640px;"> 
 
- **3.** Créez une barre d\'outils en dehors de l\'atelier \"Macro\" qui contient le \'\' \'Macro-outil\' créé \'\' 
+ **3.** Créez une barre d\'outils en dehors de l\'atelier \"Macro\" qui contient le *\'Macro-outil\' créé* 
 
 -   Sélectionnez l\'onglet \"Barre d\'outils\" et choisissez l\'atelier (pour lequel la barre d\'outils est fournie) dans le menu déroulant à droite (\"Part\'\' dans cet exemple).
 

@@ -13,8 +13,6 @@
 
 La commande <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *24px;"> **Draft Basculer la grille** permet d\'activer ou de désactiver la grille. La grille ne peut être utilisée que si la préférence **Activer la grille** est sélectionnée. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
 
-Dans la version 0.19 de FreeCAD, la grille est toujours affichée lorsqu\'une commande devient active et le fait de basculer la grille lorsqu\'une commande est active ne fonctionne pas.
-
 ## Utilisation
 
 Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Draft_Snap/fr.md).

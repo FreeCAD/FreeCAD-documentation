@@ -131,7 +131,7 @@ This is recommended if your distribution might provide an outdated version.
 
 <div class="mw-translate-fuzzy">
 
--   Dacă acest lucru a avut succes, executați următoarele comenzi \'\' \'ca root\' \'\' (sau prefix cu sudo.)
+-   Dacă acest lucru a avut succes, executați următoarele comenzi *\'ca root\'* (sau prefix cu sudo.)
 
 
 </div>
@@ -211,7 +211,7 @@ Dacă ieșirea arată cam așa, puteți continua.
 ```
     
 
--   Când s-a terminat cu succes, executați următoarea comandă \'\' \'ca root\' \'\' (sau prefix cu sudo.)
+-   Când s-a terminat cu succes, executați următoarea comandă *\'ca root\'* (sau prefix cu sudo.)
 
    *   
     

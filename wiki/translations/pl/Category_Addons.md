@@ -14,21 +14,23 @@ Ta strona zawiera listę zewnętrznych Środowisk pracy dla dodatków, które ma
 | [Curves Workbench/pl](wiki/Curves Workbench/pl.md) | [Defeaturing Workbench/pl](wiki/Defeaturing Workbench/pl.md) | [Defeaturing/pl](wiki/Defeaturing/pl.md) |
 | [Drawing Dimensioning Addon/pl](wiki/Drawing Dimensioning Addon/pl.md) | [DynamicData Workbench/pl](wiki/DynamicData Workbench/pl.md) | [ExplodedAssembly Workbench/pl](wiki/ExplodedAssembly Workbench/pl.md) |
 | [External workbenches/pl](wiki/External workbenches/pl.md) | [Fasteners Workbench/pl](wiki/Fasteners Workbench/pl.md) | [FCGear BevelGear/pl](wiki/FCGear BevelGear/pl.md) |
-| [FCGear CrownGear/pl](wiki/FCGear CrownGear/pl.md) | [FCGear CycloideGear/pl](wiki/FCGear CycloideGear/pl.md) | [FCGear InvoluteGear/pl](wiki/FCGear InvoluteGear/pl.md) |
-| [FCGear InvoluteRack/pl](wiki/FCGear InvoluteRack/pl.md) | [FCGear LanternGear/pl](wiki/FCGear LanternGear/pl.md) | [FCGear TimingGear/pl](wiki/FCGear TimingGear/pl.md) |
-| [FCGear Workbench/pl](wiki/FCGear Workbench/pl.md) | [FCGear WormGear/pl](wiki/FCGear WormGear/pl.md) | [FEM FrontISTR Workbench/pl](wiki/FEM FrontISTR Workbench/pl.md) |
-| [Flamingo Workbench/pl](wiki/Flamingo Workbench/pl.md) | [How to install additional workbenches/pl](wiki/How to install additional workbenches/pl.md) | [KicadStepUp Workbench/pl](wiki/KicadStepUp Workbench/pl.md) |
-| [Lattice2 Workbench/pl](wiki/Lattice2 Workbench/pl.md) | [Macro Kerkythea/pl](wiki/Macro Kerkythea/pl.md) | [Macro WorkFeatures/pl](wiki/Macro WorkFeatures/pl.md) |
-| [Manipulator Workbench/pl](wiki/Manipulator Workbench/pl.md) | [MeshRemodel Workbench/pl](wiki/MeshRemodel Workbench/pl.md) | [ModernUI Workbench/pl](wiki/ModernUI Workbench/pl.md) |
-| [MOOC Workbench/pl](wiki/MOOC Workbench/pl.md) | [OSE 3D Printer Workbench/pl](wiki/OSE 3D Printer Workbench/pl.md) | [OSE Piping Workbench/pl](wiki/OSE Piping Workbench/pl.md) |
-| [Parts Library Workbench/pl](wiki/Parts Library Workbench/pl.md) | [PCB Workbench/pl](wiki/PCB Workbench/pl.md) | [Plot Axes/pl](wiki/Plot Axes/pl.md) |
-| [Plot Basic tutorial/pl](wiki/Plot Basic tutorial/pl.md) | [Plot Grid/pl](wiki/Plot Grid/pl.md) | [Plot Labels/pl](wiki/Plot Labels/pl.md) |
-| [Plot Legend/pl](wiki/Plot Legend/pl.md) | [Plot MultiAxes tutorial/pl](wiki/Plot MultiAxes tutorial/pl.md) | [Plot Positions/pl](wiki/Plot Positions/pl.md) |
-| [Plot Save/pl](wiki/Plot Save/pl.md) | [Plot Series/pl](wiki/Plot Series/pl.md) | [Plot Workbench/pl](wiki/Plot Workbench/pl.md) |
-| [POV-Ray-Rendering Workbench/pl](wiki/POV-Ray-Rendering Workbench/pl.md) | [Pyramids and polyhedrons Workbench/pl](wiki/Pyramids and polyhedrons Workbench/pl.md) | [Pyrate Workbench/pl](wiki/Pyrate Workbench/pl.md) |
-| [Reinforcement Workbench/pl](wiki/Reinforcement Workbench/pl.md) | [Rocket BodyTube/pl](wiki/Rocket BodyTube/pl.md) | [Rocket Bulkhead/pl](wiki/Rocket Bulkhead/pl.md) |
-| [Rocket CenteringRing/pl](wiki/Rocket CenteringRing/pl.md) | [Rocket CompLaunchGuide/pl](wiki/Rocket CompLaunchGuide/pl.md) | [Rocket Ejection Charge Calculator/pl](wiki/Rocket Ejection Charge Calculator/pl.md) |
-| [Rocket Fin/pl](wiki/Rocket Fin/pl.md) | [Rocket LaunchLug/pl](wiki/Rocket LaunchLug/pl.md) | [Rocket NoseCone/pl](wiki/Rocket NoseCone/pl.md) |
+| [FCGear CrownGear/pl](wiki/FCGear CrownGear/pl.md) | [FCGear CycloidGear/pl](wiki/FCGear CycloidGear/pl.md) | [FCGear CycloidRack/pl](wiki/FCGear CycloidRack/pl.md) |
+| [FCGear GearConnector/pl](wiki/FCGear GearConnector/pl.md) | [FCGear HypoCycloidGear/pl](wiki/FCGear HypoCycloidGear/pl.md) | [FCGear InternalInvoluteGear/pl](wiki/FCGear InternalInvoluteGear/pl.md) |
+| [FCGear InvoluteGear/pl](wiki/FCGear InvoluteGear/pl.md) | [FCGear InvoluteRack/pl](wiki/FCGear InvoluteRack/pl.md) | [FCGear LanternGear/pl](wiki/FCGear LanternGear/pl.md) |
+| [FCGear TimingGear/pl](wiki/FCGear TimingGear/pl.md) | [FCGear Workbench/pl](wiki/FCGear Workbench/pl.md) | [FCGear WormGear/pl](wiki/FCGear WormGear/pl.md) |
+| [FEM FrontISTR Workbench/pl](wiki/FEM FrontISTR Workbench/pl.md) | [FEMbyGEN Workbench/pl](wiki/FEMbyGEN Workbench/pl.md) | [Flamingo Workbench/pl](wiki/Flamingo Workbench/pl.md) |
+| [How to install additional workbenches/pl](wiki/How to install additional workbenches/pl.md) | [KicadStepUp Workbench/pl](wiki/KicadStepUp Workbench/pl.md) | [Lattice2 Workbench/pl](wiki/Lattice2 Workbench/pl.md) |
+| [Macro Kerkythea/pl](wiki/Macro Kerkythea/pl.md) | [Macro WorkFeatures/pl](wiki/Macro WorkFeatures/pl.md) | [Manipulator Workbench/pl](wiki/Manipulator Workbench/pl.md) |
+| [MeshRemodel Workbench/pl](wiki/MeshRemodel Workbench/pl.md) | [ModernUI Workbench/pl](wiki/ModernUI Workbench/pl.md) | [MOOC Workbench/pl](wiki/MOOC Workbench/pl.md) |
+| [OSE 3D Printer Workbench/pl](wiki/OSE 3D Printer Workbench/pl.md) | [OSE Piping Workbench/pl](wiki/OSE Piping Workbench/pl.md) | [Parts Library Workbench/pl](wiki/Parts Library Workbench/pl.md) |
+| [PCB Workbench/pl](wiki/PCB Workbench/pl.md) | [Plot Axes/pl](wiki/Plot Axes/pl.md) | [Plot Basic tutorial/pl](wiki/Plot Basic tutorial/pl.md) |
+| [Plot Grid/pl](wiki/Plot Grid/pl.md) | [Plot Labels/pl](wiki/Plot Labels/pl.md) | [Plot Legend/pl](wiki/Plot Legend/pl.md) |
+| [Plot MultiAxes tutorial/pl](wiki/Plot MultiAxes tutorial/pl.md) | [Plot Positions/pl](wiki/Plot Positions/pl.md) | [Plot Save/pl](wiki/Plot Save/pl.md) |
+| [Plot Series/pl](wiki/Plot Series/pl.md) | [Plot Workbench/pl](wiki/Plot Workbench/pl.md) | [POV-Ray-Rendering Workbench/pl](wiki/POV-Ray-Rendering Workbench/pl.md) |
+| [Pyramids and polyhedrons Workbench/pl](wiki/Pyramids and polyhedrons Workbench/pl.md) | [Pyrate Workbench/pl](wiki/Pyrate Workbench/pl.md) | [Reinforcement Workbench/pl](wiki/Reinforcement Workbench/pl.md) |
+| [Rocket BodyTube/pl](wiki/Rocket BodyTube/pl.md) | [Rocket Bulkhead/pl](wiki/Rocket Bulkhead/pl.md) | [Rocket CenteringRing/pl](wiki/Rocket CenteringRing/pl.md) |
+| [Rocket CompLaunchGuide/pl](wiki/Rocket CompLaunchGuide/pl.md) | [Rocket Ejection Charge Calculator/pl](wiki/Rocket Ejection Charge Calculator/pl.md) | [Rocket Fin/pl](wiki/Rocket Fin/pl.md) |
+| [Rocket FinCan/pl](wiki/Rocket FinCan/pl.md) | [Rocket LaunchLug/pl](wiki/Rocket LaunchLug/pl.md) | [Rocket NoseCone/pl](wiki/Rocket NoseCone/pl.md) |
 | [Rocket Parachute Size Calculator/pl](wiki/Rocket Parachute Size Calculator/pl.md) | [Rocket RailButton/pl](wiki/Rocket RailButton/pl.md) | [Rocket RailGuide/pl](wiki/Rocket RailGuide/pl.md) |
 | [Rocket Thrust To Weight Calculator/pl](wiki/Rocket Thrust To Weight Calculator/pl.md) | [Rocket Transition/pl](wiki/Rocket Transition/pl.md) | [Rocket Vent Hole Size Calculator/pl](wiki/Rocket Vent Hole Size Calculator/pl.md) |
 | [Rocket Workbench/pl](wiki/Rocket Workbench/pl.md) | [SearchBar Mod/pl](wiki/SearchBar Mod/pl.md) | [SheetMetal AddBase/pl](wiki/SheetMetal AddBase/pl.md) |

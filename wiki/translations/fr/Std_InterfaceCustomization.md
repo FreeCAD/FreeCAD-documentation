@@ -1,5 +1,5 @@
 # Std InterfaceCustomization/fr
-1.  REDIRECT [Interface\_Customization/fr](Interface_Customization/fr.md)
+1.  REDIRECT [Interface_Customization/fr](Interface_Customization/fr.md)
 
 
 

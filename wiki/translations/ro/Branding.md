@@ -26,12 +26,12 @@ Would you be interested in using FreeCAD in a closed-source application, be sure
 
 ### General 
 
-Majoritatea branding-ului se face în *\' MainCmd.cpp*\' sau \'\'\' MainGui.cpp \'\'\'. Aceste proiecte generează fișierele executabile ale FreeCAD. Pentru a crea propriul dvs. brand doar copiați proiectele Main sau MainGui și dați executabilului un nume propriu, de ex. FooApp.exe. Cele mai importante setări pentru un aspect nou pot fi făcute într-un singur loc în funcția principal (). Iată secțiunea de cod care controlează branding-ul   *
+Majoritatea branding-ului se face în **MainCmd.cpp** sau **MainGui.cpp**. Aceste proiecte generează fișierele executabile ale FreeCAD. Pentru a crea propriul dvs. brand doar copiați proiectele Main sau MainGui și dați executabilului un nume propriu, de ex. FooApp.exe. Cele mai importante setări pentru un aspect nou pot fi făcute într-un singur loc în funcția principal (). Iată secțiunea de cod care controlează branding-ul   *
 
 
 </div>
 
- {.C}
+ C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
@@ -107,7 +107,7 @@ Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_scre
 
 </div>
 
- {.XML}
+ XML
 <?xml version="1.0" encoding="utf-8"?>
 <Branding>
     <Application>FooApp</Application>

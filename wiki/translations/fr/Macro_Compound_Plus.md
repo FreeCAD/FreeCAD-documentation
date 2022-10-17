@@ -16,7 +16,7 @@ Commande Draft définie dans une petite macro pour l\'exemple de fil 2D   * trav
 
 ## Utilisation
 
-![Macro\_Compound\_Plus\_00](images/Macro_Compound_Plus_00.png )
+![Macro_Compound_Plus_00](images/Macro_Compound_Plus_00.png )
 
 ### Choix
 
@@ -101,9 +101,9 @@ L\' icône pour votre barre d\'outils ![](images/Macro_Compound_Plus.png ) a cop
 
 [Comment créer une barre d\'outils](Customize_Toolbars/fr.md), [Comment installer une macro](How_to_install_macros/fr.md)
 
-Le script sur github [Macro\_Compound\_Plus.FCMacro](https   *//gist.github.com/mario52a/7be361a8c489deec918f664fdcfc4394)
+Le script sur github [Macro_Compound_Plus.FCMacro](https   *//gist.github.com/mario52a/7be361a8c489deec918f664fdcfc4394)
 
-**Macro\_Compound\_Plus.FCMacro**
+**Macro_Compound_Plus.FCMacro**
 
 
 {{MacroCode|code=

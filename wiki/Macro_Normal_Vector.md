@@ -25,7 +25,7 @@ Simple macro to extract normal vector of previously within the 3D-View chosen fa
 
 ToolBar Icon  ![](images/Macro_Normal_Vector.png )
 
-**Macro\_Normal\_Vector.FCMacro**
+**Macro_Normal_Vector.FCMacro**
 
 
 {{MacroCode|code=

@@ -22,7 +22,7 @@ Der **Std Löschen** Befehl löscht die ausgewählten Objekte.
 
 aus dem Kontextmenü der [Baumansicht](Tree_view/de.md) oder dem Kontextmenü der [3D Ansicht](3D_view/de.md).
 
-\#\* Verwende das Tastaturkürzel   * **Del**.
+#\* Verwende das Tastaturkürzel   * **Del**.
 
 ## Skripten
 

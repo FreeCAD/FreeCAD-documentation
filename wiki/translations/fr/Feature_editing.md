@@ -141,9 +141,9 @@ Les esquisses peuvent être supportées par les faces des opérations solides pr
 
 Les plans de référence sont utiles pour soutenir les esquisses. Ces plans auxiliaires doivent être attachés aux plans de base du corps.
 
-\'\'Remarque   * dans de nombreux cas, une esquisse attachée à un plan de base avec des décalages d\'attache peut remplir la même fonction. Les références sont particulièrement utiles lorsque plusieurs esquisses ou autres constructions utiliseront la référence. Cela signifie que toutes les modifications apportées à la référence s\'appliqueront aux esquisses attachées, etc. L\'ajout d\'une seule esquisse à une référence, plutôt que d\'utiliser des décalages d\'ancrage dans les propriétés de l\'esquisse, est une étape supplémentaire et est essentiellement redondante. \'\'
+*Remarque   * dans de nombreux cas, une esquisse attachée à un plan de base avec des décalages d\'attache peut remplir la même fonction. Les références sont particulièrement utiles lorsque plusieurs esquisses ou autres constructions utiliseront la référence. Cela signifie que toutes les modifications apportées à la référence s\'appliqueront aux esquisses attachées, etc. L\'ajout d\'une seule esquisse à une référence, plutôt que d\'utiliser des décalages d\'ancrage dans les propriétés de l\'esquisse, est une étape supplémentaire et est essentiellement redondante.*
 
-Comme pour les esquisses, il est possible d\'attacher des plans de référence à la géométrie générée (arêtes, faces de solides précédemment créés), \'\'\'\'\'mais ce n\'est pas recommandé \'\'\'\'\'car cela peut causer le problème de dénomination topologique.
+Comme pour les esquisses, il est possible d\'attacher des plans de référence à la géométrie générée (arêtes, faces de solides précédemment créés), ***mais ce n\'est pas recommandé***car cela peut causer le problème de dénomination topologique.
 
 De plus, une <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width   *24px;"> [PartDesign Forme liée](PartDesign_ShapeBinder/fr.md) peut être utilisée pour importer une géométrie externe dans le corps pour servir de référence; alors des esquisses peuvent être attachées à ce corps auxiliaire, en utilisant ou non des plans de référence.
 

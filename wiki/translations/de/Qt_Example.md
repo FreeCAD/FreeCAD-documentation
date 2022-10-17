@@ -33,7 +33,7 @@ Dieses Makro ist ein Beispiel für die Verwendung von Qt Befehlen, deren Verbind
 
 <center>
 
-Image   *Qt\_Example\_00.png\|Qt Beispiel Image   *Qt\_Example\_01.png\|Qt Beispiel Details
+Image   *Qt_Example_00.png\|Qt Beispiel Image   *Qt_Example_01.png\|Qt Beispiel Details
 
 
 </center>
@@ -124,7 +124,7 @@ Windows    * \"**C   *Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
 ## Skript
 
-The contents of the file **Qt\_Example.FCMacro** are given below   *
+The contents of the file **Qt_Example.FCMacro** are given below   *
 
 
 {{MacroCode|code=

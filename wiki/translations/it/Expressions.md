@@ -230,7 +230,7 @@ Per arrotondamento, troncamento e resto sono supportate queste funzioni    *
 
 ### Statistica e Funzioni di aggregazione 
 
-Le [funzioni di aggregazione](https   *//en.wikipedia.org/wiki/Aggregate_function) accettano uno o più argomenti, separati da un punto e virgola \';\' o da una virgola \'\' e \'\' uno spazio \', \'.
+Le [funzioni di aggregazione](https   *//en.wikipedia.org/wiki/Aggregate_function) accettano uno o più argomenti, separati da un punto e virgola \';\' o da una virgola *e* uno spazio \', \'.
 Gli argomenti possono includere riferimenti a celle di un foglio di calcolo. I riferimenti alla cella sono costituiti dalla lettera maiuscola seguita dal numero della colonna.
 Gli argomenti possono includere intervalli di celle usando due riferimenti di cella separati da due punti, ad esempio **average(B1   *B8)**.
 
@@ -807,10 +807,10 @@ For example, the label `Sketch\002` must be referenced as `<<Sketch\\002>>`.
   Characters / Character sequences                                                                                               Description
    
   **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**   Characters that are math operators or part of mathematical constructs
-  **A**, **kA**, **mA**, **MA**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, and many more!                         Characters and character sequences that are units (see the [Units](#Units.md) paragraph)
+  **A**, **kA**, **mA**, **MA**, **J**, **K**, **\'**, **ft**, **°**, and many more!                                             Characters and character sequences that are units (see the [Units](#Units.md) paragraph)
   **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **   ***, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!          Characters used as placeholder or to trigger special operations
   **pi**, **e**                                                                                                                  Mathematical constants
-  **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                        Characters used for accents
+  **´**, **\**, **\'**, **\"**                                                                                                  Characters used for accents
   space                                                                                                                          A space defines the end of a name and can therefore not be used
 
 For example, the following name is valid   * `<<Sketch>>.Constraints.T2üßµ@`. While these are invalid names   * `<<Sketch>>.Constraints.test\result_2` (\\r means \"carriage return\") or `<<Sketch>>.Constraints.mol` (mol is a unit).

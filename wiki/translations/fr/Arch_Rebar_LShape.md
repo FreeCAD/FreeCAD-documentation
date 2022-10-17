@@ -92,9 +92,9 @@ Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 -    `rounding`est le paramètre qui détermine le rayon de courbure des barres d\'armature.
 
--    `amount_spacing_check`mis aà True, cela créera autant de barres d\'armature que celles indiquées par amount\_spacing\_value; Si la valeur est False, des barres de ferraillage seront séparées par la valeur numérique de amount\_spacing\_value.
+-    `amount_spacing_check`mis aà True, cela créera autant de barres d\'armature que celles indiquées par amount_spacing_value; Si la valeur est False, des barres de ferraillage seront séparées par la valeur numérique de amount_spacing_value.
 
--    `amount_spacing_value`spécifie le nombre de barres d\'armature ou la valeur de la séparation les séparant en fonction de amount\_spacing\_check.
+-    `amount_spacing_value`spécifie le nombre de barres d\'armature ou la valeur de la séparation les séparant en fonction de amount_spacing_check.
 
 -    `orientation`spécifie l\'orientation de la barre; il peut s\'agir de
 

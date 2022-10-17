@@ -50,7 +50,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 -    {{PropertyData/fr|Rebar Length Type}}   * type de longueur d\'armature spécifie le type de longueur d\'armature utilisé pour les calculs de nomenclature, c\'est-à-dire \"RealLength\" ou \"LengthWithSharpEdges\".
 
--    {{PropertyData/fr|Column Headers}}   * dictionnaire avec column\_data comme clé et tuple (column\_display\_header, column\_sequence) comme valeur.
+-    {{PropertyData/fr|Column Headers}}   * dictionnaire avec column_data comme clé et tuple (column_display_header, column_sequence) comme valeur.
 
 -    {{PropertyData/fr|Column Units}}   * dictionnaire avec les clés   * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
 
@@ -143,7 +143,7 @@ getBarBendingSchedule(
 
 -    `rebar_objects`est une liste d\'objets \<ArchRebar.\_Rebar\> ou \<rebar2.BaseRebar\>, pour générer le tableau. S\'il n\'est pas fourni, tous les objets ArchRebars et rebar2.BaseRebar avec une marque unique d\'ActiveDocument seront sélectionnés.
 
--    `column_headers`est un dictionnaire avec les clés   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont un tuple de column\_header et leur numéro de séquence.
+-    `column_headers`est un dictionnaire avec les clés   * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont un tuple de column_header et leur numéro de séquence.
 
    Exemple    * {
                 "Host"   * ("Member", 1),
@@ -187,11 +187,11 @@ getBarBendingSchedule(
 
 -    `rebar_shape_column_header`spécifie l\'en-tête de colonne pour la colonne de forme d\'armature.
 
--    `rebar_shape_view_directions`est une liste de directions de point de vue pour chaque forme d\'armature. Il peut être de type `FreeCAD.Vector` ou `WorkingPlane.Plane` OU leur liste. Gardez-le `FreeCAD.Vector(0, 0, 0)` pour choisir automatiquement view\_directions.
+-    `rebar_shape_view_directions`est une liste de directions de point de vue pour chaque forme d\'armature. Il peut être de type `FreeCAD.Vector` ou `WorkingPlane.Plane` OU leur liste. Gardez-le `FreeCAD.Vector(0, 0, 0)` pour choisir automatiquement view_directions.
 
 -    `rebar_shape_stirrup_extended_edge_offset`spécifie le décalage des bords d\'extrémité étendus de l\'étrier, de sorte que les bords d\'extrémité de l\'étrier avec un angle plié à 90 degrés ne se chevauchent pas avec les bords de l\'étrier.
 
--    `rebar_shape_color_style`spécifie le style de couleur des armatures. Il peut s\'agir de \"shape color\" ou \"color\_name or hex\_value\_of\_color\". \"shape color\" signifie sélectionner la couleur de la forme de l\'armature.
+-    `rebar_shape_color_style`spécifie le style de couleur des armatures. Il peut s\'agir de \"shape color\" ou \"color_name or hex_value_of_color\". \"shape color\" signifie sélectionner la couleur de la forme de l\'armature.
 
 -    `rebar_shape_stroke_width`spécifie la largeur de trait des armatures en forme d\'armature SVG.
 

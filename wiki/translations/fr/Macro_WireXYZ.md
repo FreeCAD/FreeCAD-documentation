@@ -23,7 +23,7 @@ Le fichier doit avoir les coordonnées X Y Z au ASCII sans entête.
 
 ToolBar Icon ![](images/Macro_WireXYZ.png )
 
-**Macro\_WireXYZ.FCMacro**
+**Macro_WireXYZ.FCMacro**
 
 
 {{MacroCode|code=

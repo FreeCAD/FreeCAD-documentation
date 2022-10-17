@@ -24,8 +24,8 @@ Pages relating to Architectural and Building Information Management
 | [Arch Structure/ro](wiki/Arch Structure/ro.md) | [Arch Survey/ro](wiki/Arch Survey/ro.md) | [Arch ToggleIfcBrepFlag/ro](wiki/Arch ToggleIfcBrepFlag/ro.md) |
 | [Arch ToggleSubs/ro](wiki/Arch ToggleSubs/ro.md) | [Arch tutorial/ro](wiki/Arch tutorial/ro.md) | [Arch Wall/ro](wiki/Arch Wall/ro.md) |
 | [Arch Window/ro](wiki/Arch Window/ro.md) | [Arch Workbench/ro](wiki/Arch Workbench/ro.md) | [BIM Library/ro](wiki/BIM Library/ro.md) |
-| [Custom Spacing/ro](wiki/Custom Spacing/ro.md) | [Import/Export IFC - compiling IfcOpenShell/ro](wiki/Import/Export IFC - compiling IfcOpenShell/ro.md) | [Manual:BIM modeling/ro](wiki/Manual_BIM modeling/ro.md) |
-| [Category:Reinforcement/ro](wiki/Category_Reinforcement/ro.md) |
+| [Custom Spacing/ro](wiki/Custom Spacing/ro.md) | [FEM MaterialEditor/ro](wiki/FEM MaterialEditor/ro.md) | [Import/Export IFC - compiling IfcOpenShell/ro](wiki/Import/Export IFC - compiling IfcOpenShell/ro.md) |
+| [Manual:BIM modeling/ro](wiki/Manual_BIM modeling/ro.md) | [Category:Reinforcement/ro](wiki/Category_Reinforcement/ro.md) |
 
 
 

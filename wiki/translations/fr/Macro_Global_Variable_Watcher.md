@@ -38,7 +38,7 @@ Cette macro est une version de développement et tous les aspects ne sont pas fi
 
 ToolBar Icon ![](images/Macro_Global_Variable_Watcher.png )
 
-**Macro\_Global\_Variable\_Watcher.FCMacro**
+**Macro_Global_Variable_Watcher.FCMacro**
 
 
 {{MacroCode|code=

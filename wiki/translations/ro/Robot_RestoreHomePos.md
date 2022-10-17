@@ -39,7 +39,7 @@ Lets the selected robot move to its home position.
 
 Comanda permite doar unui robot să își definească poziția "home".
 If no or more than one robot is selected you will be prompted to choose only one robot.
-If no home position has been specified via [Robot\_SetHomePos](Robot_SetHomePos.md) the position of the robot as inserted in the scene will be used as home position.
+If no home position has been specified via [Robot_SetHomePos](Robot_SetHomePos.md) the position of the robot as inserted in the scene will be used as home position.
 
 
 </div>

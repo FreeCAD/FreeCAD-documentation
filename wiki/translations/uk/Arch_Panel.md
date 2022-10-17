@@ -27,7 +27,7 @@ Since version <small>(v0.17)</small>  the Arch Panel can also be used to create 
 
 ## Usage
 
-1.  Select a 2D shape (draft object, face or sketch) - optional.
+1.  Select a 2D shape (Draft object, face or sketch) - optional.
 2.  Press the **<img src="images/Arch_Panel.svg" width=16px> [Arch Panel](Arch_Panel.md)** button, or press **P** then **A** keys.
 3.  Adjust the desired properties.
 

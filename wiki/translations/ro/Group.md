@@ -1,5 +1,5 @@
 # Group/ro
-1.  REDIRECT [Std\_Group/ro](Std_Group/ro.md)
+1.  REDIRECT [Std_Group/ro](Std_Group/ro.md)
 
 
 

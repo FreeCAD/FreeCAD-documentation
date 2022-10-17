@@ -114,9 +114,9 @@ A **Bancada de trabalho FEM** teve toneladas de melhoramentos. Ela provou ser ut
 -   **Material object** Multiple materials are supported for edge, shell and solid meshes. Like for the beam section and shell thickness objects an appropriate FEM Mesh is needed to use the multiple materials.
 -   **Solver object** As a base for multiple solver, a solver object has been implemented. All analysis properties moved from analysis to solver.
 -   **Frequency analysis** A frequency analysis can be made. The number of eigenvalues or eigenshapes to calculate can be adjusted in the preference GUI.
--   *\' View provider*\' Shell and beam FEM-Meshes can be viewed in FreeCAD and thus the results of such analysis too.
+-   **View provider** Shell and beam FEM-Meshes can be viewed in FreeCAD and thus the results of such analysis too.
 -   **Python API** Methods for working with FEM-Meshes and making an analysis from python have been added.
--   **GMSH Macro** An interesting external developing is the [Macro\_GMSH](Macro_GMSH.md) which makes it possible to use GMSH for meshing. Very useful for all not able to compile FreeCAD with Netgen or for meshing shell- or edge meshes.
+-   **GMSH Macro** An interesting external developing is the [Macro_GMSH](Macro_GMSH.md) which makes it possible to use GMSH for meshing. Very useful for all not able to compile FreeCAD with Netgen or for meshing shell- or edge meshes.
 -   **General Improvements** Due to the heavy development taking place, there have been tons of improvements on the code base of FEM module.
 
 ## Path Workbench 

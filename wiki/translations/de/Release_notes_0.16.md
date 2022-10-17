@@ -96,9 +96,9 @@ Der Arbeitsbereich \"FEM\" hat ebenfalls viele Verbesserungen erhalten. Er hat s
 -   **Material object** Mehrere Materialien werden unterstützt für Ecken, Schalen und Volumenkörper-Netze. Wie bei den Beam section- und den Shell thickness-Objekten wird ein angemessenes FEM-Netz benötigt, um das Material zu benutzen.
 -   **Solver object** Eine Grundlage für mehrere Solver-Objekte wurde geschaffen. Alle Unterpunkte können von einer Analyse zur anderen verschoben/kopiert werden.
 -   **Frequency analysis** Eine Frequenzanalyse kann durchgeführt werden, die Anzahl der Eigenfrequenzen und der Eigenschwingungen kann in dem Einstellungs-Fenster angepasst werden.
--   *\' View provider*\' Schalen und Balken-FEM-Netze können in FreeCAD angezeigt werden und so auch die Ergebnisse der Analysen.
+-   **View provider** Schalen und Balken-FEM-Netze können in FreeCAD angezeigt werden und so auch die Ergebnisse der Analysen.
 -   **Python API** Methoden, um mit FEM-Netzen zu arbeiten und eine Analyse aus Python heraus zu generieren, wurden hinzugefügt.
--   **GMSH Macro** Eine interessante externe Entwicklung ist das [Macro\_GMSH](Macro_GMSH.md), welches es ermöglicht, GMSH zur Vernetzung zu benutzen. Sehr nützlich für alle, denen es nicht möglich ist, FreeCAD mit Netgen zu kompilieren, um Schalen oder Kanten vernetzen zu können.
+-   **GMSH Macro** Eine interessante externe Entwicklung ist das [Macro_GMSH](Macro_GMSH.md), welches es ermöglicht, GMSH zur Vernetzung zu benutzen. Sehr nützlich für alle, denen es nicht möglich ist, FreeCAD mit Netgen zu kompilieren, um Schalen oder Kanten vernetzen zu können.
 -   **General Improvements** Aufgrund der starken Entwicklungsaktivitäten konnten sehr viele Verbesserungen am Basis-Code des FEM-Modules eingebracht werden.
 
 ## Arbeitsbereich \"Path\" 

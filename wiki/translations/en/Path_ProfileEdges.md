@@ -1,5 +1,5 @@
 # Path ProfileEdges/en
-1.  REDIRECT [Path\_Profile/en](Path_Profile/en.md)
+1.  REDIRECT [Path_Profile/en](Path_Profile/en.md)
 
 
 

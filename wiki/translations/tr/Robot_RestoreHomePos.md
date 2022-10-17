@@ -45,7 +45,7 @@ Seçilen robotun ana konumuna dönmesini sağlar.
 
 Komut yalnızca bir robotun ana konumunu belirlemesine izin verir.
 Birden fazla robot seçilmediyse, sadece bir robot seçmeniz istenir.
-[Robot\_Ana konum ayarla](Robot_SetHomePos/tr.md) üzerinden ana konum belirtilmemişse, robotun sahneye yerleştirildiği şekliyle ana konum kullanılır.
+[Robot_Ana konum ayarla](Robot_SetHomePos/tr.md) üzerinden ana konum belirtilmemişse, robotun sahneye yerleştirildiği şekliyle ana konum kullanılır.
 
 
 </div>

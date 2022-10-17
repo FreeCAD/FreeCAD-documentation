@@ -41,7 +41,7 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 
 -   Click on the Path Pocket Shape icon to start the operation.
 -   Click the OK to create the operation - no faces selected
--   Select the new Pocket\_Shape operation in task window
+-   Select the new Pocket_Shape operation in task window
 -   In the operation\'s Properties list, scroll to Path section and change the \"Enable Rotation\" property to the desired 4th-axis setting.
 -   Re-compute the operation
 -   Double click on the same operation, to edit settings in the task window.

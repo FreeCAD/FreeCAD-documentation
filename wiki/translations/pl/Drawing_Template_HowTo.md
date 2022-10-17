@@ -98,7 +98,7 @@ Opening the SVG file with your text editor you will see the following.
 
 The first thing is to insert the following line into the document. This line is the SVG namespace declaration and must be provided so that all SVG elements are identified as belonging to the SVG namespace.
 
- {.XML}
+ XML
 xmlns   *freecad="http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
@@ -115,7 +115,7 @@ tag, and in the same margin spacing as the other xmlns entries are placed.
 
 In order to allow a final drawing to be printed in the right scale, the template must contain it\'s dimensions in real world units. Otherwise the whole drawing page would be printed scaled down by a factor of 3.54 (90(px/in)/25.4(in/mm)). Inside the the \<SVG\>-Tag the unit \"mm\" is added to the width and height fields. And a viewBox Attribute has to be added. The viewBox ranges from 0 0 to the width and height of the template. This way the SVG user unit (px) is redefined to be 1mm long. In consequence programs like Inkscape will be able to print a resulting drawing up to scale. Current versions of Inkscape handle this information very badly. Inkscape effectively rescales the whole document to 90dpi. This is not much of a problem for a final drawing, but imposes difficulties for editing drawing templates. After editing a template in Inkscape, it would have the same real word size on its own but elements of the drawing would be scaled down by a factor of 3.54. (Because the template would be in 90dpi but FreeCAD assumes 1px/mm.) Therefore it\'s recommended to remove the \"mm\" from the width and height attributes before opening an existing template in inkscape and recreate the units and viewBox attribute afterwards.
 
- {.html}
+ html
 width="279mm"
 height="216mm"
 viewBox="0 0 279 216"
@@ -137,7 +137,7 @@ If both tags are used, the Working space tag must appear first and be immediatel
 
 The first tag is the Working space tag and is formatted as follows.
 
- {.html}
+ html
 
 
 
@@ -150,7 +150,7 @@ Where X1, Y1, X2, Y2 are defined as   *
 
 So for this tutorial template, the Working space tag will be.
 
- {.html}
+ html
 
 
 
@@ -158,7 +158,7 @@ So for this tutorial template, the Working space tag will be.
 
 The next tag will be the Title block tag and is formatted as follows   *
 
- {.html}
+ html
 
 
 
@@ -173,7 +173,7 @@ Where X1a, Y1a, X2a, Y2a are defined as   *
 
 Again, referencing the template created with this tutorial, the title block tag will be as follows   *
 
- {.html}
+ html
 
 
 
@@ -200,7 +200,7 @@ This tag is formated as follows and is inserted just before the last
 
 tag.
 
- {.html}
+ html
 
 
 
@@ -229,4 +229,4 @@ The two tools used in this tutorial were Inkscape and Kate. They can be found by
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Template HowTo/pl

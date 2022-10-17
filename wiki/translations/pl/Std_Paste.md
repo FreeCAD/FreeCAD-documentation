@@ -17,7 +17,6 @@ Polecenie **Wklej** powoduje wklejenie obiektów ze Schowka do aktywnego dokumen
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
-    -   Naciśnij przycisk **<img src="images/Std_Paste.svg" width=16px> [Wklej](Std_Paste/pl.md)**.
     -   Wybierz z menu opcję **Edycja → <img src="images/Std_Paste.svg" width=16px> Wklej**.
     -   Wybierz opcję **<img src="images/Std_Paste.svg" width=16px> Wklej** z menu kontekstowego [Widoku drzewa](Tree_view/pl.md). Zauważ, że ta opcja jest dostępna tylko wtedy, gdy zaznaczony jest istniejący obiekt.
     -   Użyj skrótu klawiaturowego   * **Ctrl** + **V**.

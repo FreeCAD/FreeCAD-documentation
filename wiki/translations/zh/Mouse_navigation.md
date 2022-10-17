@@ -274,7 +274,7 @@ Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 
 The Revit navigation style was modeled after [Revit](https   *//en.wikipedia.org/wiki/Autodesk_Revit).
 
-{{Revit Navigation \|Select\_name =选择 \|Pan\_name = Pan \|Zoom\_name =缩放 \|Rotate\_view\_name =旋转视图 \|Shift = {**Shift**
+{{Revit Navigation \|Select_name =选择 \|Pan_name = Pan \|Zoom_name =缩放 \|Rotate_view_name =旋转视图 \|Shift = {**Shift**
 |Select_text =在要选择的对象上按下鼠标左键。
 |Pan_text =按住鼠标中键，然后移动指针。
 

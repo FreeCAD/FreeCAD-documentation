@@ -12,7 +12,7 @@ La **Draft Barre** permet de sélectionner le plan de travail, de définir les p
 
 -   ![](images/Draft_tray_button_plane.png ) [Plan de travail](Draft_SelectPlane/fr.md)    * sélectionne le plan de travail en cours de Draft.
 
--   ![](images/Draft_tray_button_style.png ) [Définir le style](Draft_SetStyle/fr.md)    * définit le style par défaut pour les nouveaux objets. {{Version/fr|0.19}}
+-   ![](images/Draft_tray_button_style.png ) [Définir le style](Draft_SetStyle/fr.md)    * définit le style par défaut pour les nouveaux objets.
 
 -   ![](images/Draft_tray_button_construction.png ) [Basculer en mode construction](Draft_ToggleConstructionMode/fr.md)    * active ou désactive le mode de construction de Draft.
 

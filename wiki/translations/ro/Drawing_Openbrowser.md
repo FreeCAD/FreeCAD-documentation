@@ -41,4 +41,4 @@ Această comandă vă permite să afișați o [ Drawing page](Drawing_Landscape_
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Category_Drawing.md) > Drawing Openbrowser/ro

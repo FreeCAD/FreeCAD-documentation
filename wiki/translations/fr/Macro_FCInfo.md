@@ -55,20 +55,20 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
 **Secteur 4   * Vertexes and details**
 
 -   Case à cocher pour la recherche ou non de tous les détails de l\'objet. Si elle n\'est pas cochée, seule la valeur principale est affichée.
--   Sommets et détails de la forme (compt\_Edge), (compt\_Faces), (compt\_Vector of the Face)
+-   Sommets et détails de la forme (compt_Edge), (compt_Faces), (compt_Vector of the Face)
     max 200 lignes dans le tableau, s\'il y a plus de 200 lignes, il apparaîtra (!+ 200) et le nombre de lignes
     (les détails complets peuvent être sauvegardés par le bouton **Save** dans un fichier au format CSV et peuvent être visualisés dans le tableur avec le bouton **Read** ou par un tableur externe comme [LibreOffice](https   *//www.libreoffice.org/) [OpenOffice](http   *//openoffice.apache.org/downloads.html) ou autre).
 
 **Secteur 5   * Inclination**
 
--   *\' Inclinaison de l\'objet*\' est affiché dans les formats suivants    *
+-   **Inclinaison de l\'objet** est affiché dans les formats suivants    *
     -   Degrés décimal, ex    * 174.831872611°
     -   Degrés minutes secondes, ex   * 174° 49\' 54.741401\'\'
     -   Radians, ex   * 3.05139181449 rad
     -   Grades, ex   * 194.257636235 gon
     -   Pourcent, ex   * 30° = 57.74%
 -   **Inclinaison des plans XY, YZ, ZX** et leurs coordonnées correspondantes
--   **Direction object**, donne la direction de l\'objet. Le calcul est    * coord\_1 - coord\_2 = direction (ou l\'inverse)
+-   **Direction object**, donne la direction de l\'objet. Le calcul est    * coord_1 - coord_2 = direction (ou l\'inverse)
     -   
         **Line**
         
@@ -126,7 +126,7 @@ même chose pour la longueur et le poids
 -    **Space**   * le séparateur est Espace
 
 Option pour sauvegarder ou lire la feuille de calcul avec différents séparateurs, Tabulation, Virgule, Point-virgule, Espace
-. La tabulation est le séparateur pour l\'\[Spreadsheet\_Workbench/fr\|atelier Spreadsheet\] de FreeCAD
+. La tabulation est le séparateur pour l\'\[Spreadsheet_Workbench/fr\|atelier Spreadsheet\] de FreeCAD
 Les numéros de ces quatre séparateurs sont calculés pour aider en cas d\'inconnu
 Les VIRGULES sont les anciens séparateurs de la macro FCInfo (01.16 et avant)
 Maintenant pour la compatibilité avec le tableur FreeCAD et depuis la version 01.17, la TABULATION est le séparateur par défaut
@@ -155,7 +155,7 @@ Une fois la macro lancée, la macro reste active et la fenêtre reste visible. I
 
 <center>
 
-Image   *Macro\_FCInfo\_04.png\|Dockée à droite, Image   *Macro FCInfo 05.png\|ou à gauche avec la Vue combinée et accessible par un onglet, ou non ancré, au choix.
+Image   *Macro_FCInfo_04.png\|Dockée à droite, Image   *Macro FCInfo 05.png\|ou à gauche avec la Vue combinée et accessible par un onglet, ou non ancré, au choix.
 
 
 </center>
@@ -210,8 +210,8 @@ Un fichier peut être créé par le bouton **Enregistrer**. Le fichier est écri
 
 Copiez le contenu de la macro dans un fichier nommé \"FCInfo.FCMacro\"
 
--   Windows   * habituellement **\" drive   *Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**.
--   Ubuntu    * habituellement **\" /home/your\_user\_name/.FreeCAD \"**.
+-   Windows   * habituellement **\" drive   *Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**.
+-   Ubuntu    * habituellement **\" /home/your_user_name/.FreeCAD \"**.
 
 Ou, directement dans l\'interface de FreeCAD.
 Les icônes doivent se trouver dans le même répertoire que la macro.
@@ -228,7 +228,7 @@ Télécharger les images en vous positionnant sur les icônes <img alt="" src=im
 
 <div class="mw-collapsible-content">
 
-ColoredParagraph\| Il y a aussi une version [Macro\_FCInfo\_Alternate\_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Ici le code est modifié (à cause de l\'erreur d\'affichage des caractères    * ² ³ ° µ\" ordinal not in range (128)\") qui posaient problèmes. Dans certaines configurations les fonctions sont les mêmes
+ColoredParagraph\| Il y a aussi une version [Macro_FCInfo_Alternate_Linux](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Ici le code est modifié (à cause de l\'erreur d\'affichage des caractères    * ² ³ ° µ\" ordinal not in range (128)\") qui posaient problèmes. Dans certaines configurations les fonctions sont les mêmes
 Exemple    * 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
@@ -324,7 +324,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 ```
 
 -   ver 1.21-3.01 , 07/11/2019 \# 07/11/2019 ver \"01.21-3-rmu\" remplacé caractères micro = \"U\", square = \"2\", cube = \"3\", degrees = \" deg\" see \"<https   *//forum.freecadweb.org/viewtopic.php?f=3&t=6005&start=70#p345819>\"
--   ver 1.21-2.01 (1.21-rmu) 11/06/2019 rmu remplacé tous les caractères au dessus de 127 in ex   * \"°\" en chr(176)) \#degree
+-   ver 1.21-2.01 (1.21-rmu) 11/06/2019 rmu remplacé tous les caractères au dessus de 127 in ex   * \"°\" en chr(176)) #degree
 -   ver 1.21.01 (1.21-rmu) 30/05/2019 rmu change fixed positions to qt layouts grid.addWidget() by rmu75 see the rmu75 fork \"<https   *//gist.github.com/rmu75/b165147bd1c2f2659c014103793ae1d8>\"
 -   ver 1.21 , 16/04/2019 optimisation pour Py 3\... Qt 5\...
 -   ver 1.20 , 29/01/2018 optimisation
@@ -337,7 +337,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 -   ver 1.16 , 21/06/2017 ajout d\'un contrôle sur la hauteur des caractères affichés, ajout d\'une case à cocher pour positionner la macro à gauche ou droite et nouveau code de recherche de chemin de l\'emplacement des macros.
 -   ver 1.15 , 19/12/2015 suppression de l\'option PyQt4 [voir la cause](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=13541) , ajout d\'un checkBox pour éditer ou non les infos dans la vue rapport
 -   ver 1.14 , 04/08/2014 PyQt4 et PySide, correction des tooltips qui ne s\'affichaient plus a cause de PySide, ajout de \"fg\" et d\'une décimale dans la densité
--   ver 1.13 , 27/07/2014 remplacement FCInfo\_fr\_Ver\_1-12\_Docked.FCMacro avec FCInfo\_fr\_Ver\_1-13\_Docked.FCMacro accepte PyQt4 et PySide
+-   ver 1.13 , 27/07/2014 remplacement FCInfo_fr_Ver_1-12_Docked.FCMacro avec FCInfo_fr_Ver_1-13_Docked.FCMacro accepte PyQt4 et PySide
 -   ver 1.12 , 10/03/2014 ajout de tooltips sur les boutons.
 -   ver 1.11 , 04/03/2014 ajout de µm, nm, pm, fm, µg, ng, pg, pour-cent, correction de la grandeur carat ~~\"cd\"~~ en **\"ct\"**, affichage du label et du nom interne, correction du calcul des angles XY YZ ZX fonctionnait bien sur un objet simple mais donnait une valeur erronée sur une pièce composée (prenait d\'autres coordonnées ! découvert en comparant le tableau et les coordonnées affichées dans la section Inclinaisons), fenêtre volante ou dockable n\'importe où dans FreeCAD
 -   ver 1.10.b, 19/11/2013 boutons à l\'extérieur du scrollbar et blocage des dimensions de la fenêtre
@@ -346,7 +346,7 @@ FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/F
 
 ~~ver 1.09 , 04/11/2013 fonctionne parfaitement sur Windows et Linux (cause de l\'erreur les caractères    * ² ³ ° \" ordinal not in range(128)\")~~
 
-Dans certaines distributions Linux et dans le cas d\'une erreur **\"ordinal not in range (128)\"** une autre version existe sur cette page [Macro\_FCInfo\_Alternate\_Linux](Macro_FCInfo_Alternate_Linux.md)
+Dans certaines distributions Linux et dans le cas d\'une erreur **\"ordinal not in range (128)\"** une autre version existe sur cette page [Macro_FCInfo_Alternate_Linux](Macro_FCInfo_Alternate_Linux.md)
 
 -   ver 1.08 , 24/10/2013 correction de l\'affichage dans le fichier des \"Faces\" et \"Edges\" haut dessus de 100 objets
 -   ver 1.07 , 11/10/2013 correspondance des \"Faces\" et de leurs coordonnées.

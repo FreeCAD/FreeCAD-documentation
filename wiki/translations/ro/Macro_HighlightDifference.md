@@ -38,7 +38,7 @@ Codul este vizibil pe Github   * [Utility/HighlightDifference.FCMacro](https   *
 
 -   A se vedea pentru macocomenzi complementare
 
-[Macro\_HighlightCommon](Macro_HighlightCommon.md)
+[Macro_HighlightCommon](Macro_HighlightCommon.md)
 
 -   Discuția pe forum [\"collision detection\", overlapping](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 

@@ -45,7 +45,7 @@ Se vi sono più di due profili, le superfici sono costituite di spline costruite
 
 Le spline sono una interpolazione di B-spline.
 
--   Se il numero di profili è inferiore a 10, l\'interpolazione viene eseguita con da una B-spline con il massimo grado possibile (es. gradi = numero\_di\_profili - 1).
+-   Se il numero di profili è inferiore a 10, l\'interpolazione viene eseguita con da una B-spline con il massimo grado possibile (es. gradi = numero_di_profili - 1).
 -   Se il numero di profili è maggiore di 10, l\'interpolazione avviene secondo una B-spline di 3°grado.
 
 Il metodo di lavoro utilizzato è \"lunghezza approssimativa della corda\". Rimangono approssimative per il fatto che in un Loft il nodo vettore è esattamente lo stesso per ogni spline. Per maggiori informazioni su ciò che riguarda l\'interpolazione delle B-spline, il nodo vettore, il metodo \"lunghezza della corda\", si veda, ad esempio, [cs.mtu.edu Curve Global Interpolation](http   *//www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/INT-APP/CURVE-INT-global.html).

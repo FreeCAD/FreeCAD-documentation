@@ -16,7 +16,7 @@
 
 ## Popis
 
-Tento kód byl součástí modulu [Draft Workbench](Draft_Workbench/cs.md) a byl odstraněn cf [issue \#490](http   *//freecadweb.org/tracker/view.php?id=490).
+Tento kód byl součástí modulu [Draft Workbench](Draft_Workbench/cs.md) a byl odstraněn cf [issue #490](http   *//freecadweb.org/tracker/view.php?id=490).
 
 
 </div>
@@ -25,7 +25,7 @@ Tento kód byl součástí modulu [Draft Workbench](Draft_Workbench/cs.md) a byl
 
 ToolBar Icon ![](images/Macro_MacroMenu.png )
 
-**Macro\_MacroMenu.FCMacro**
+**Macro_MacroMenu.FCMacro**
 
 
 {{MacroCode|code=

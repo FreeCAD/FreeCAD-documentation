@@ -34,7 +34,7 @@ Options   *
 -   backgroundColor - tuple - (r,g,b,a)
 -   lineWidth - float - weight of lines
 -   border - float - empty space around image
--   mode - int - rendering mode (AS\_IS, WIREFRAME, POINTS, WIREFRAME\_OVERLAY, HIDDEN\_LINE, BOUNDING\_BOX)
+-   mode - int - rendering mode (AS_IS, WIREFRAME, POINTS, WIREFRAME_OVERLAY, HIDDEN_LINE, BOUNDING_BOX)
 
 {{APIFunction|addQGIToView|view, QGraphicsItem|add a QGraphicsItem (created using PySide) to a View|none}}
 

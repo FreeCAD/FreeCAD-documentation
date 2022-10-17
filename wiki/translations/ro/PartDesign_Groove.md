@@ -14,7 +14,7 @@ Instrumentul Canelură/ **Groove**, învârte o schiță sau un profil selectat 
 
 <div class="mw-translate-fuzzy">
 
-\'\'Above   * sketch (A) is revolved around axis (B); resulting groove on solid (C) is shown right. \'\'
+*Above   * sketch (A) is revolved around axis (B); resulting groove on solid (C) is shown right.*
 
 
 </div>

@@ -1,5 +1,5 @@
 # Installing/ro
-1.  REDIRECT [Installing\_additional\_components/ro](Installing_additional_components/ro.md)
+1.  REDIRECT [Installing_additional_components/ro](Installing_additional_components/ro.md)
 
 
 

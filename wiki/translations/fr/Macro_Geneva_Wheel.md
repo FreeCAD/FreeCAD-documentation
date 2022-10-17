@@ -39,7 +39,7 @@ Cette macro crée un mécanisma Geneva Wheel. Il dépend de six valeurs à modif
 
 ToolBar Icon ![](images/GW_Dim.png )
 
-**Macro\_Geneva\_Wheel.FCMacro**
+**Macro_Geneva_Wheel.FCMacro**
 
 
 {{MacroCode|code=

@@ -68,7 +68,7 @@ $pyNastran   * nelements=0
 ENDDATA
 ```
 
-add\_solver\_control.py - Adding EXECUTIVE CONTROL DECK and CASE CONTROL DECK.
+add_solver_control.py - Adding EXECUTIVE CONTROL DECK and CASE CONTROL DECK.
 
  
 ```python
@@ -90,17 +90,17 @@ $PARAMS
 PARAM       POST      -1
 ```
 
-add\_femelement\_geometry.py - Adding GRID cards
+add_femelement_geometry.py - Adding GRID cards
 
-add\_mesh.py - Adding element cards
+add_mesh.py - Adding element cards
 
-add\_femelement\_material.py - Adding MAT1 card
+add_femelement_material.py - Adding MAT1 card
 
-add\_con\_fixed.py - Adding SPCADD and SPC1 cards
+add_con_fixed.py - Adding SPCADD and SPC1 cards
 
-add\_con\_displacement.py - Adding SPCADD and SPC1 cards
+add_con_displacement.py - Adding SPCADD and SPC1 cards
 
-add\_con\_force.py - Adding FORCE cards
+add_con_force.py - Adding FORCE cards
 
 
 

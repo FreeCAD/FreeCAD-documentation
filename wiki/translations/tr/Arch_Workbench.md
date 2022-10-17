@@ -14,7 +14,7 @@ The <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch Wor
 
 Mimari tezgah, [Taslak tezgahı](Draft_Workbench/tr.md) \'ndaki tüm araçları mimari nesneleri oluşturmak için 2D nesneler kullandığından içe aktarır. Bununla birlikte, Mimari, [ Parça tezgahı](Part_Workbench/tr.md) ve [ Parça tasarım tezgahı](PartDesign_Workbench/tr.md) gibi diğer tezgahlarda oluşturulan katı nesneleri de kullanabilir.
 
-FreeCAD\'in [BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) işlevi, artık tüm temel BIM araçlarını içeren bu mimari tezgah ve [BIM\_Workbench BIM tezgah eklentileri](https   *//github.com/yorikvanhavre/), FreeCAD\'de BIM iş akışını daha sezgisel ve kullanıcı dostu yapmak amacıyla, Mimari araçlarının üstüne yeni bir arayüz katmanı ekleyen Araçlar → Eklenti Yöneticisi menüsü aracılığıyla yükleyebilirsiniz.
+FreeCAD\'in [BIM](http   *//en.wikipedia.org/wiki/Building_Information_Modeling) işlevi, artık tüm temel BIM araçlarını içeren bu mimari tezgah ve [BIM_Workbench BIM tezgah eklentileri](https   *//github.com/yorikvanhavre/), FreeCAD\'de BIM iş akışını daha sezgisel ve kullanıcı dostu yapmak amacıyla, Mimari araçlarının üstüne yeni bir arayüz katmanı ekleyen Araçlar → Eklenti Yöneticisi menüsü aracılığıyla yükleyebilirsiniz.
 
 The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch community](https   *//osarch.org), with the ultimate goal of improving building design by using entirely free software.
 

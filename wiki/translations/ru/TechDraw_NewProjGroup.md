@@ -1,5 +1,5 @@
 # TechDraw NewProjGroup/ru
-1.  REDIRECT [TechDraw\_ProjectionGroup](TechDraw_ProjectionGroup.md)
+1.  REDIRECT [TechDraw_ProjectionGroup](TechDraw_ProjectionGroup.md)
 
 
 

@@ -11,7 +11,7 @@
 
 ## Description
 
-Cet outil crée une nouvelle opération Lignes de niveau. A partir de 0.19\_pre, l\'opération Lignes de niveau fonctionne sur l\'ensemble du modèle pour générer le G-code de la tâche. Actuellement, dans les paramètres de l\'opération, il n\'y a pas de fonctionnalité pour sélectionner des zones, des faces ou des régions spécifiques du modèle.
+Cet outil crée une nouvelle opération Lignes de niveau. A partir de 0.19_pre, l\'opération Lignes de niveau fonctionne sur l\'ensemble du modèle pour générer le G-code de la tâche. Actuellement, dans les paramètres de l\'opération, il n\'y a pas de fonctionnalité pour sélectionner des zones, des faces ou des régions spécifiques du modèle.
 
 L\'opération Lignes de niveau a deux algorithmes    * OCL Drop Cutter et Experimental.
 
@@ -58,7 +58,7 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 
 #### Formes d\'outils (de coupe) disponibles 
 
-Lorsque vous utilisez l\'algorithme \'\'\' *OCL Dropcutter* \'\'\', l\'opération Lignes de niveau utilise OpenCamLib \[OCL\] pour extraire les chemins de la base de la pièce. En tant que tel, une traduction d\'outil est nécessaire entre le contrôleur d\'outil FreeCAD et OCL afin de terminer l\'analyse avec la forme d\'outil (cutter) choisie. Ces formes d\'outils sont (doivent être) respectées et disponibles pour le Dropcutter OCL tant que les formes d\'outils intégrées sont utilisées, qu\'il s\'agisse d\'outils Legacy ou ToolBit   *
+Lorsque vous utilisez l\'algorithme ***OCL Dropcutter***, l\'opération Lignes de niveau utilise OpenCamLib \[OCL\] pour extraire les chemins de la base de la pièce. En tant que tel, une traduction d\'outil est nécessaire entre le contrôleur d\'outil FreeCAD et OCL afin de terminer l\'analyse avec la forme d\'outil (cutter) choisie. Ces formes d\'outils sont (doivent être) respectées et disponibles pour le Dropcutter OCL tant que les formes d\'outils intégrées sont utilisées, qu\'il s\'agisse d\'outils Legacy ou ToolBit   *
 
 -   Fraise en bout
 -   Fraise à boule
@@ -73,7 +73,7 @@ Lorsque vous utilisez l\'algorithme \'\'\' *OCL Dropcutter* \'\'\', l\'opératio
 
 ## Propriétés
 
-\'\'\' *Remarque* \'\'\'   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
+***Remarque***   * toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
 
 {{TitleProperty|Base}}

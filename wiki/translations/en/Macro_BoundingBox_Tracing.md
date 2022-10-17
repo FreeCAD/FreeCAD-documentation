@@ -51,7 +51,7 @@ ToolBar Icon ![](images/BoundBoxTracing.png )
 
 ## Script
 
-**Macro\_BoundingBox\_Tracing.FCMacro**
+**Macro_BoundingBox_Tracing.FCMacro**
 
 
 {{MacroCode|code=

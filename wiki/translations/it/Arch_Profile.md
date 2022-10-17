@@ -44,32 +44,42 @@ Lo strumento profilo è anche integrato nello strumento [Struttura](Arch_Structu
 
 ## Aggiungere dei profili personalizzati 
 
-L\'utente può creare un file CSV aggiuntivo, contenente le definizioni del profilo personalizzato. Deve essere denominato `profiles.csv` e inserito in 
-```python
+L\'utente può creare un file CSV aggiuntivo, contenente le definizioni del profilo personalizzato. Deve essere denominato `profiles.csv` e inserito in {{Code|lang=bash|code=
 $FREECAD_USER_DIR/Arch/
-```
+}}
 
-Il percorso `$FREECAD_USER_DIR` può essere ottenuto dalla [console Python](Python_console/it.md)   * 
-```python
+Il percorso `$FREECAD_USER_DIR` può essere ottenuto dalla [console Python](Python_console/it.md)   * {{Code|lang=bash|code=
 FreeCAD.getUserAppDataDir()
-```
+}}
 
 Il contenuto del file `profiles.csv` personalizzato deve essere modellato con le stesse regole del [profiles.csv](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) nel codice sorgente.
 
 Il file CSV deve contenere una riga per ogni profilo disponibile, formattata come segue   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   Per profili a C   * Category, Name, Class, Diameter, Thickness
 -   Per i profili H e U   * Category, Name, Class, Width, Height, Web thickness, Flange thickness
 -   Per profili R   * Category, Name, Class, Width, Height
 -   Per profili RH   * Category, Name, Class, Width, Height, Thickness
 
+
+</div>
+
 Tutte le misure devono essere in millimetri. Le possibili classi di profilo sono   *
+
+
+<div class="mw-translate-fuzzy">
 
 -   C   * Tubo circolare
 -   H   * Profilo H o I
 -   R   * Rettangolare
 -   RH   * Rettangolare pieno
 -   U   * Profilo a U
+
+
+</div>
 
 È possibile creare tipi di profilo aggiuntivi, ma è necessario prima definire una classe corrispondente in [ArchProfile.py](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
 
@@ -82,14 +92,14 @@ Lo strumento Profilo può essere utilizzato nelle [macro](macros/it.md) e dalla 
 profile = makeProfile(profile_list)
 ```
 
-Dove profile\_list contiene i diversi elementi di un elenco nel file CSV.
+Dove profile_list contiene i diversi elementi di un elenco nel file CSV.
 
 Esempio   *
 
 
 ```python
 import Arch
-Arch.makeProfile([0,'REC','REC100x100','R',100,100])
+Arch.makeProfile([0, 'REC', 'REC100x100', 'R', 100, 100])
 ```
 
 Dove il primo elemento della lista è un numero d\'ordine non ancora utilizzato.

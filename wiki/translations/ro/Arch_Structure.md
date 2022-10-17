@@ -111,9 +111,9 @@ Instrumentul Structură include, de asemenea, o serie de presetări care permit 
 ![](images/Arch_presets_example.jpg ) 
 *Some presets for steel structures*
 
-Presetările sunt obținute prin alegerea unei **Category** din panoul cu opțiuni de structură. Categoriile disponibile sunt \"beton prefabricat\" sau orice profil metalic standard industrial, cum ar fi \"HEA\", \"HEB\" sau \"INP\". Pentru fiecare dintre aceste categorii, sunt disponibile mai multe presetări. Odată ce este aleasă o presetare, pot fi ajustați parametrii individuali, cum ar fi **Lungime**,\'\'\' Lățime **sau** Înălțime \'\'\'. Cu toate acestea, pentru profilele metalice, dimensiunea profilului este setată de presetare și nu poate fi modificată.
+Presetările sunt obținute prin alegerea unei **Category** din panoul cu opțiuni de structură. Categoriile disponibile sunt \"beton prefabricat\" sau orice profil metalic standard industrial, cum ar fi \"HEA\", \"HEB\" sau \"INP\". Pentru fiecare dintre aceste categorii, sunt disponibile mai multe presetări. Odată ce este aleasă o presetare, pot fi ajustați parametrii individuali, cum ar fi **Lungime**,**Lățime**sau**Înălțime**. Cu toate acestea, pentru profilele metalice, dimensiunea profilului este setată de presetare și nu poate fi modificată.
 
-Butonul \'\'\' Comutator L / H \'\'\' poate fi utilizat pentru a comuta valori Lungime și Înălțime și, prin urmare, a construi un grindă orizontală mai degrabă decât o coloană verticală.
+Butonul **Comutator L / H** poate fi utilizat pentru a comuta valori Lungime și Înălțime și, prin urmare, a construi un grindă orizontală mai degrabă decât o coloană verticală.
 
 <img alt="" src=images/Arch_precast_example.jpg  style="width   *960px;"> 
 *Some presets for precast concrete structures*

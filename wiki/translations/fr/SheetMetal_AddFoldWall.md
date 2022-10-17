@@ -106,7 +106,7 @@ Ce clip est fait d\'un blanc qui reçoit trois plis et donc nous avons besoin de
    *   \- un pour le pliage vers le haut
    *   \- un pour le pliage vers le bas
 
-La façon la plus simple de garantir qu\'une face de la découpe et toutes les lignes de pliage sont coplanaires est de créer toutes les esquisses sur le même plan - le **XY\_Plane** dans ce cas.
+La façon la plus simple de garantir qu\'une face de la découpe et toutes les lignes de pliage sont coplanaires est de créer toutes les esquisses sur le même plan - le **XY_Plane** dans ce cas.
 
 Les lignes de pliage pourraient être créées avec d\'autres outils, mais bon, nous avons une <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;">[esquisse](Sketcher_Workbench/fr.md) !
 
@@ -120,7 +120,7 @@ Les lignes de pliage pourraient être créées avec d\'autres outils, mais bon, 
     2.  Appuyez sur le bouton ou utilisez le raccourci clavier    *  <img alt="" src=images/SheetMetal_AddFoldWall-02.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-03.png  style="width   *280px;"> 
 2.  Plier la pointe
     1.  Sélectionner la **face inférieure** de l\'ébauche.
-    2.  Sélectionnez l*\'esquisse* nommée ***Tip Fold line*** (de préférence à partir de l\'arborescence)  (et n\'oubliez pas la touche contrôle/commande ).
+    2.  Sélectionnez l**esquisse\'\' nommée***Tip Fold line*\'\'\' (de préférence à partir de l\'arborescence)  (et n\'oubliez pas la touche contrôle/commande ).
     3.  Appuyez sur le ou utilisez le raccourci clavier    * <img alt="" src=images/SheetMetal_AddFoldWall-10.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-04.png  style="width   *120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-05.png  style="width   *280px;">
     4.  Le pli doit être à 90° vers le bas et donc certaines valeurs dans la fenêtre des propriétés doivent être définies par exemple    *  - la valeur **angle** à 60°  - la valeur **inverser** à true pour un pliage vers le haut  .
 3.  Créer le pli vers le bas

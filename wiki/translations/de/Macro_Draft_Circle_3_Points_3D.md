@@ -31,7 +31,7 @@ Die Koordinaten **X, Y, Z** des Werts **0** oder die Ausrichtung, die keine Bere
 
 ToolBar Icon ![](images/Macro_Draft_Circle_3_Points.png )
 
-**Macro\_Draft\_Circle\_3\_Points\_3D.FCMacro**
+**Macro_Draft_Circle_3\_Points_3D.FCMacro**
 
 
 {{MacroCode|code=

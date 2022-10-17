@@ -118,11 +118,11 @@ Liens en rapport avec FCCamera et codes originaux ayants servi dans la macro
 -   [Macro Align Face Object to View](Macro_Align_Face_Object_to_View/fr.md),
 -   [Macro WorkFeatures](Macro_WorkFeatures/fr.md)
 
-Discussion sur le Forum [MACRO   *Work Feature 2014\_12](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=9056)
+Discussion sur le Forum [MACRO   *Work Feature 2014_12](http   *//forum.freecadweb.org/viewtopic.php?f=22&t=9056)
 
 ## Script
 
-Téléchargez le paquet d\'icons [FCCamera\_Icones.zip](https   *//forum.freecadweb.org/download/file.php?id=79288)
+Téléchargez le paquet d\'icons [FCCamera_Icones.zip](https   *//forum.freecadweb.org/download/file.php?id=79288)
 
 Téléchargez la macro sur Gist [**Macro FCCamera.FCMacro**](https   *//gist.github.com/mario52a/4aa545c23b323cf68824)
 
@@ -205,7 +205,7 @@ path = param.GetString("MacroPath","") + "/"                
 path = path.replace("\\","/")
 App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + path + " ]"+"\n")
 
--   **ver 0.5 06/09/2016   *** correction du nom \"FCCamera\_Axis\_rotation\_X.png\" dans le bloc reset
+-   **ver 0.5 06/09/2016   *** correction du nom \"FCCamera_Axis_rotation_X.png\" dans le bloc reset
 
 -   **ver 0.4 28/02/2016    *** affichage de tous les renseignements de la caméra et calcul de la [Direction](http   *//forum.freecadweb.org/viewtopic.php?f=13&t=14213#p114667)
 

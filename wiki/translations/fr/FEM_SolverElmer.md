@@ -30,14 +30,14 @@ Elmer nécessite que deux composants soient interfacés avec FreeCAD    *
 Il existe des programmes autonomes pour ces deux applications mais leur installation et leur utilisation dépassent le cadre de l\'intégration de FreeCAD.
 
 1.  Allez sur les ressources binaires CSC pour Elmer    * [binaries](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/) OU [CSC binaries](https   *//www.csc.fi/web/elmer/binaries).
-2.  Téléchargez et installez la version la mieux adaptée à votre système d\'exploitation ([Windows](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) ou [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). Il est recommandé d\'installer la version `mpi` pour obtenir un support multi-cœur CPU. ({{Version/fr|1.0}}).
+2.  Téléchargez et installez la version la mieux adaptée à votre système d\'exploitation ([Windows](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) ou [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). Il est recommandé d\'installer la version `mpi` pour bénéficier d\'un support multi-cœur du CPU. ({{Version/fr|1.0}}).
 3.  Dans FreeCAD, allez dans **Edition → Préférences → FEM → Elmer**.
 4.  Liez le chemin correct pour les deux `ElmerGrid` et `ElmerSolver`, ou ({{Version/fr|1.0}})    * pour qu\'Elmer utilise tous les cœurs CPU disponibles, `ElmerSolver_mpi`.
 
        *   ![Onglet Elmer dans les préférences FEM](images/Preferences-ElmerPath.png )
        *   
         
-*Ci-dessus    * Menu de dialogue des préférences Elmer montrant les champs pour localiser les binaires Elmer importants sur le système d'exploitation Windows*
+*Ci-dessus    * menu de dialogue des préférences Elmer montrant les champs pour localiser les binaires Elmer importants sur le système d'exploitation Windows*
         
         .
 

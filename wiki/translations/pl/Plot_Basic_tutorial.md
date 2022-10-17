@@ -156,7 +156,7 @@ Możesz ustawić rozmiar obrazu wyjściowego w calach, na przykład możemy usta
 
 }} {{Plot_Tools_navi}} 
 
-[Category   *External\_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
+[Category   *External_Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 
 
 

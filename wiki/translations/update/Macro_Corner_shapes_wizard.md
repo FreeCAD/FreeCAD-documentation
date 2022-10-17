@@ -20,7 +20,7 @@ This macro is a complete application, it pops up a dialog asking for the dimensi
 
 ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
 
-**Macro\_Corner\_shapes\_wizard\_update.FCMacro**
+**Macro_Corner_shapes_wizard_update.FCMacro**
 
      
     # Corner Shape Wizard

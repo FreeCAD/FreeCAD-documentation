@@ -234,7 +234,7 @@ Algunas bibliotecas necesitan llamar a variables de entorno del sistema. A veces
 
 -   PYTHONPATH
 -   PYTHONHOME
--   TCL\_LIBRARY
+-   TCL_LIBRARY
 -   TCLLIBPATH
 
 
@@ -245,18 +245,18 @@ Algunas bibliotecas necesitan llamar a variables de entorno del sistema. A veces
 
 </div>
 
--   CSF\_MDTVFontDirectory
--   CSF\_MDTVTexturesDirectory
--   CSF\_UnitsDefinition
--   CSF\_UnitsLexicon
--   CSF\_StandardDefaults
--   CSF\_PluginDefaults
--   CSF\_LANGUAGE
--   CSF\_SHMessage
--   CSF\_XCAFDefaults
--   CSF\_GraphicShr
--   CSF\_IGESDefaults
--   CSF\_STEPDefaults
+-   CSF_MDTVFontDirectory
+-   CSF_MDTVTexturesDirectory
+-   CSF_UnitsDefinition
+-   CSF_UnitsLexicon
+-   CSF_StandardDefaults
+-   CSF_PluginDefaults
+-   CSF_LANGUAGE
+-   CSF_SHMessage
+-   CSF_XCAFDefaults
+-   CSF_GraphicShr
+-   CSF_IGESDefaults
+-   CSF_STEPDefaults
 
 
 <div class="mw-translate-fuzzy">
@@ -319,10 +319,10 @@ Note   * For Linux distributions, an additional configuration file that relates 
 
 <div class="mw-translate-fuzzy">
 
-  Nombre variable configuración   Sinopsis                                                                                                                      Ejemplo M\$                Ejemplo Posix (Linux)
+  Nombre variable configuración   Sinopsis                                                                                                                      Ejemplo M\$               Ejemplo Posix (Linux)
      
-  AppHomePath                     Ruta en la que es instalado FreeCAD \| c   */Progam Files/FreeCAD\_0.7                                                           /user/local/FreeCAD\_0.7   
-  PythonSearchPath                Mantiene una lista de las rutas en las cuales Python busca módulos. Esto es al inicio se puede cambiar durante la ejecución                              
+  AppHomePath                     Ruta en la que es instalado FreeCAD \| c   */Progam Files/FreeCAD_0.7                                                            /user/local/FreeCAD_0.7   
+  PythonSearchPath                Mantiene una lista de las rutas en las cuales Python busca módulos. Esto es al inicio se puede cambiar durante la ejecución                             
 
      * Entradas de configuración de usuario
 
@@ -379,7 +379,7 @@ Estas entradas de configuración son relativas al mecanismo de marcado de FreeCA
   ConsoleBanner                   Banner que es mostrado en modo consola                                                                                    
   SplashPicture                   Nombre del icono utilizado por la pantalla de bienvenida                                                                  \"FreeCADSplasher\"
   SplashAlignment                 Alineación del texto en el letrero de diálogo de bienvenida                                                               \"Bottom\|Left\"
-  SplashTextColor                 Color del texto de bienvenida                                                                                             \"\#000000\"
+  SplashTextColor                 Color del texto de bienvenida                                                                                             \"#000000\"
   StartWorkbench                  Nombre del entorno que comenzará automáticamente después del inicio                                                       \"Part design\"
   HiddenDockWindow                Lista de dockwindows (separadas por un punto y coma) que serán mostradas                                                  \"Property editor\"
 

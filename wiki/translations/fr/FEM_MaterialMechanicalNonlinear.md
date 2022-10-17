@@ -21,11 +21,11 @@ Ajoute un modèle de matériau mécanique non linéaire. Actuellement, seule la 
 2.  Pour modifier un objet Matériau mécanique non linéaire existant    *
     -   Cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
     -   Sélectionnez le modèle de matériau (actuellement, seul le durcissement simple est disponible).
-    -   Définissez les limites d\'élasticité (contrainte vs déformation plastique). Le premier point doit avoir une déformation plastique nulle spécifiée. Actuellement, seuls 3 points d\'écoulement peuvent être définis.
+    -   Définissez les limites d\'élasticité (contrainte vs déformation plastique). Le premier point doit être spécifié avec une déformation plastique nulle.
 
 ## Remarques
 
--   Dans FreeCAD 0.19 et les versions antérieures, il est possible de spécifier seulement 3 points de rupture. Depuis la version 0.20, cette limitation n\'existe plus et une liste de points de rendement peut en contenir autant que nécessaire.
+-   Dans FreeCAD 0.19 et les versions antérieures, il est possible de spécifier seulement 3 points de rupture. Depuis la version 0.20, cette limitation n\'existe plus et une liste de limites d\'élasticité peut en contenir autant que nécessaire.
 
 
 

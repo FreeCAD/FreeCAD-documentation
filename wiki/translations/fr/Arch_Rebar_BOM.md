@@ -56,7 +56,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 **Général   ***
 
--    {{PropertyData/fr|Column Headers}}   * dictionnaire avec column\_data comme clé et tuple (column\_display\_header, column\_sequence) comme valeur.
+-    {{PropertyData/fr|Column Headers}}   * dictionnaire avec column_data comme clé et tuple (column_display_header, column_sequence) comme valeur.
 
 -    {{PropertyData/fr|Column Units}}   * dictionnaire avec des clés    * \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et leurs unités correspondantes comme valeur.
 
@@ -120,7 +120,7 @@ bom_spreadsheet = makeBillOfMaterial(
 -   Crée un `RebarBillOfMaterial` objet de feuille de calcul pour un `rebar_objects` donné.
     -   Si la liste `rebar_objects` est vide, la feuille de calcul `RebarBillOfMaterial` sera créée pour toutes les armatures d\'un modèle.
 
--    `column_headers`est un dictionnaire avec des clés    * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont des tuple de column\_header et leur numéro de séquence.
+-    `column_headers`est un dictionnaire avec des clés    * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont des tuple de column_header et leur numéro de séquence.
 
    Exemple    * {
                 "Host"   * ("Member", 1),
@@ -308,10 +308,10 @@ makeBillOfMaterialSVG(
 ) -> BOMContent
 ```
 
--   Crée et renvoie un objet RebarBillOfMaterial\_SVG `BOMContent` pour un `rebar_objects` donné.
+-   Crée et renvoie un objet RebarBillOfMaterial_SVG `BOMContent` pour un `rebar_objects` donné.
     -   Si la liste `rebar_objects` est vide, alors l\'objet `BOMContent` sera créé pour toutes les armatures d\'un modèle.
 
--    `column_headers`est un dictionnaire avec les clés    * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont un tuple de column\_header et leur numéro de séquence.
+-    `column_headers`est un dictionnaire avec les clés    * \"Host\", \"Mark\", \"RebarsCount\", \"Diameter\", \"RebarLength\", \"RebarsTotalLength\" et les valeurs sont un tuple de column_header et leur numéro de séquence.
 
    Exemple    * {
                 "Host"   * ("Member", 1),
@@ -345,7 +345,7 @@ makeBillOfMaterialSVG(
 
 -    `font_family`spécifie la famille de polices du texte de données.
 
--    `font_filename`spécifie le nom du fichier de police ou le chemin complet du fichier de police correspondant à font\_family. Ceci est nécessaire si vous travaillez en mode console pure, sans aucune interface graphique.
+-    `font_filename`spécifie le nom du fichier de police ou le chemin complet du fichier de police correspondant à font_family. Ceci est nécessaire si vous travaillez en mode console pure, sans aucune interface graphique.
 
 -    `font_size`spécifie la taille de la police du texte de données.
 

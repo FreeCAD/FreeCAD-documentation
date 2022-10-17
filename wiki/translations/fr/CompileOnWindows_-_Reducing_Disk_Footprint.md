@@ -70,19 +70,19 @@ C\'est la partie environnement des paramètres qui m\'a donné le plus de mal à
 
 #### 64-bit 
 
-C\'est un peu plus délicat que le compilateur 32 bits. Le principal problème est qu\'il n\'y a pas d\'exécutable nmake dans C   *Qt\\msvc12rip\\VC\\bin\\**x86\_amd64** et nmake continue à utiliser le compilateur 32 bits. Pour contrer ce problème, créez un dossier spécial \"C   *Qt\\msvc12rip\\VC\\bin\\**x86\_amd64\_sa**\", où sont réunis mnake et le compilateur 64 bits. Lisez la suite pour obtenir des instructions étape par étape.
+C\'est un peu plus délicat que le compilateur 32 bits. Le principal problème est qu\'il n\'y a pas d\'exécutable nmake dans C   *Qt\\msvc12rip\\VC\\bin\\**x86_amd64** et nmake continue à utiliser le compilateur 32 bits. Pour contrer ce problème, créez un dossier spécial \"C   *Qt\\msvc12rip\\VC\\bin\\**x86_amd64_sa**\", où sont réunis mnake et le compilateur 64 bits. Lisez la suite pour obtenir des instructions étape par étape.
 
-4.1. Dans C   *Qt\\msvc12rip\\VC\\bin, créez un dossier nommé **x86\_amd64\_sa**. (sa signifie Stand-Alone, utilisez le nom que vous voulez).
+4.1. Dans C   *Qt\\msvc12rip\\VC\\bin, créez un dossier nommé **x86_amd64_sa**. (sa signifie Stand-Alone, utilisez le nom que vous voulez).
 
-4.2. Copiez le contenu du dossier C   *Qt\\msvc12rip\\C\\bin dans le dossier x86\_amd64\_sa (vous avez maintenant un compilateur 32 bits).
+4.2. Copiez le contenu du dossier C   *Qt\\msvc12rip\\C\\bin dans le dossier x86_amd64_sa (vous avez maintenant un compilateur 32 bits).
 
-4.3. copier le contenu du dossier x86\_amd64 dans x86\_amd64\_sa, en remplaçant les fichiers dans le processus. Maintenant vous avez un compilateur 64bit avec nmake.
+4.3. copier le contenu du dossier x86_amd64 dans x86_amd64_sa, en remplaçant les fichiers dans le processus. Maintenant vous avez un compilateur 64bit avec nmake.
 
 4.4. Configurer le compilateur sous l\'onglet Compilateurs dans les paramètres    * Ajouter un compilateur **personnalisé**    *
 
 -   Nom = msvcrip **64** (le nom n\'a pas d\'importance, c\'est à vous de voir)
--   Chemin du compilateur    * C   *Qt\\msvc12rip\\VC\\bin\\x86\_amd64\_sa\\cl.exe
--   Chemin du programme    * C   *Qt\\msvc12rip\\VC\\bin\\x86\_amd64\_sa\\nmake.exe
+-   Chemin du compilateur    * C   *Qt\\msvc12rip\\VC\\bin\\x86_amd64_sa\\cl.exe
+-   Chemin du programme    * C   *Qt\\msvc12rip\\VC\\bin\\x86_amd64_sa\\nmake.exe
 -   ABI    * x86-windows-msvc2013-pe-**64bit**\'.
 -   Chemins d\'en-tête    * rien
 -   Analyseur d\'erreurs    * MSVC
@@ -131,8 +131,8 @@ Vous pouvez obtenir ces dlls depuis l\'autre ordinateur qui possède le Visual S
 
 -   Monter l\'image .iso téléchargée sur un disque (lecteur D    * sur mon système).
 -   Localisez les fichiers    *
-    -   D   *packages\\vc\_librarycore86\\cab3.cab/F\_REDIST\_DLL\_APPLOCAL\_**msvcp120d\_x64** (\<- ou x86, si vous construisez en 32 bits)
-    -   D   *packages\\vc\_librarycore86\\cab3.cab/F\_REDIST\_DLL\_APPLOCAL\_**msvcr120d\_x64**
+    -   D   *packages\\vc_librarycore86\\cab3.cab/F_REDIST_DLL_APPLOCAL\_**msvcp120d_x64** (\<- ou x86, si vous construisez en 32 bits)
+    -   D   *packages\\vc_librarycore86\\cab3.cab/F_REDIST_DLL_APPLOCAL\_**msvcr120d_x64**
 -   extrayez les fichiers et nommez-les \"msvcp120d.dll\", \"msvcr120d.dll\"
 -   copiez les fichiers dans le dossier libpack, dans bin
 
@@ -147,7 +147,7 @@ L\'idée est très simple    * au lieu de copier des fichiers, créez des liens.
 
 Comme il y a beaucoup trop de fichiers pour faire des liens manuellement, un script batch doit être utilisé. Voici un exemple d\'un tel script    *
 
-links\_libpack.bat   *
+links_libpack.bat   *
 
 
 {{code|code=
@@ -163,7 +163,7 @@ pause
 La première boucle for crée des liens vers des fichiers, la seconde boucle - des liens vers des dossiers.
 Vous devrez modifier le chemin d\'accès à libpack pour qu\'il corresponde au vôtre. Utilisez des chemins absolus. Ensuite, alimentez le chemin du dossier de build de FreeCAD (chemin complet!) au script comme un argument.
 
-Ce programme doit être exécuté avec des privilèges d\'administrateur (ou, vous pouvez autoriser les utilisateurs à utiliser mklink dans les paramètres de la politique de sécurité locale de Windows). Le batch peut échouer, s\'il y a des espaces dans les chemins (il peut fonctionner, mais ce n\'est pas testé). Astuce    * créez un raccourci vers links\_libpack.bat, configurez-le pour qu\'il fonctionne en tant qu\'administrateur (dans les propriétés du raccourci), et faites glisser le dossier de construction sur le raccourci.
+Ce programme doit être exécuté avec des privilèges d\'administrateur (ou, vous pouvez autoriser les utilisateurs à utiliser mklink dans les paramètres de la politique de sécurité locale de Windows). Le batch peut échouer, s\'il y a des espaces dans les chemins (il peut fonctionner, mais ce n\'est pas testé). Astuce    * créez un raccourci vers links_libpack.bat, configurez-le pour qu\'il fonctionne en tant qu\'administrateur (dans les propriétés du raccourci), et faites glisser le dossier de construction sur le raccourci.
 
 [Category   *Developer Documentation](Category_Developer_Documentation.md)
 

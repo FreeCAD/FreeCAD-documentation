@@ -1,7 +1,7 @@
 # Drawing Module/en
-1.  REDIRECT [Drawing\_Workbench/en](Drawing_Workbench/en.md)
+1.  REDIRECT [Drawing_Workbench/en](Drawing_Workbench/en.md)
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Module/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Drawing Module/en

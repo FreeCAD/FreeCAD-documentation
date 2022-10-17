@@ -32,6 +32,10 @@ Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part
 
 </div>
 
+The point object can be any object with a shape and vertices (including a [Std Part](Std_Part.md) containing one or more of such objects), as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md). Duplicate points in the point object are filtered out. <small>(v1.0)</small> 
+
+In {{VersionMinus|0.20}} only three point object types are supported see [Point object version 0.20 and below](#Point_object_version_0.20_and_below.md).
+
 <img alt="" src=images/Draft_PointArray_Example.png  style="width   *400px;">
 
 
@@ -56,7 +60,7 @@ Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part
 
 </div>
 
-## Point compound 
+## Point object version 0.20 and below 
 
 
 <div class="mw-translate-fuzzy">

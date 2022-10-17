@@ -22,7 +22,7 @@ La funzione **Posizionamento** può essere attivata in diversi modi   *
 
 -   oppure, dalla finestra **Vista combinata → Proprietà → Dati → Posizionamento → **...****,
 
-   *   ![Task\_Placement](images/_Tache_Placement_fr_01.png )
+   *   ![Task_Placement](images/_Tache_Placement_fr_01.png )
 
 -   oppure dal menu **Modifica → Posizionamento\...**.
 
@@ -35,7 +35,7 @@ La funzione **Posizionamento** può essere attivata in diversi modi   *
 <div class="mw-translate-fuzzy">
 
 -   Cliccare su una forma per selezionarla.
--   Fare clic su **Placement** per selezionare la voce, cliccare sul titolo, non sulla freccia <img alt="Tache\_Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">. Appare un pulsante con tre puntini **...**   * ![ 256px \| Tache\_Placement](images/_Tache_Placement_01_fr_00.png ) .
+-   Fare clic su **Placement** per selezionare la voce, cliccare sul titolo, non sulla freccia <img alt="Tache_Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">. Appare un pulsante con tre puntini **...**   * ![ 256px \| Tache_Placement](images/_Tache_Placement_01_fr_00.png ) .
 -   Fare clic su questo pulsante per visualizzare la scheda **Azioni di Posizionamento**.
 
 
@@ -112,7 +112,7 @@ Per regolare i parametri di **rotazione** sono disponibili due metodi   *
 
 <div class="mw-translate-fuzzy">
 
--   Prima opzione. Selezionare **Asse di rotazione con angolo** <img alt="Tache\_Placement Opzioni asse di rotazione e angolo" src=images/Tache_Placement_fr_05.png  style="width   *256px;"> (opzione di default).
+-   Prima opzione. Selezionare **Asse di rotazione con angolo** <img alt="Tache_Placement Opzioni asse di rotazione e angolo" src=images/Tache_Placement_fr_05.png  style="width   *256px;"> (opzione di default).
     -   
         {{TasksTag/it| Asse    * X }}
         
@@ -139,7 +139,7 @@ Per regolare i parametri di **rotazione** sono disponibili due metodi   *
 
 <div class="mw-translate-fuzzy">
 
--   Seconda opzione. Selezionare **Angoli di Eulero** <img alt="Tache\_Placement Opzione Angoli di Eulero" src=images/Tache_Placement_fr_04.png  style="width   *256px;">.
+-   Seconda opzione. Selezionare **Angoli di Eulero** <img alt="Tache_Placement Opzione Angoli di Eulero" src=images/Tache_Placement_fr_04.png  style="width   *256px;">.
 
 
 </div>
@@ -254,7 +254,7 @@ Ulteriori informazioni si trovano nella pagina [Posizionamento](Placement/it.md)
 
 
 
-[Category   *Command\_Reference](Category_Command_Reference.md)
+[Category   *Command_Reference](Category_Command_Reference.md)
 
 
 

@@ -20,7 +20,7 @@ Le seguenti informazioni non devono più essere utilizzate ed è probabile che d
 -   Una volta completato, salvare il file
 -   [Inviarci i file](http   *//www.freecadweb.org/tracker/main_page.php) in modo che possiamo includerli nel codice sorgente del freecad per consentire anche gli altri utenti di beneficiarne.
 
-\'\'\' File di traduzione disponibili \'\'\'
+**File di traduzione disponibili**
 
 -   I seguenti collegamenti sono tutti diretti a sourceforge che non è più utilizzato da FreeCAD. Ora il codice è ospitato su <https   *//github.com/FreeCAD/FreeCAD>.
 -   [FreeCAD main GUI](http   *//free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Gui/Language/)
@@ -82,7 +82,7 @@ Questo esegue la scansione della directory del progetto alla ricerca dei file co
  TRANSLATIONS += MyMod_de.ts
 ```
 
-È possibile aggiungere manualmente i file qui. La sezione TRANSLATIONS contiene un elenco di file con la traduzione per ogni lingua. Nell\'esempio precedente *MyMod\_de.ts* è la traduzione in tedesco.
+È possibile aggiungere manualmente i file qui. La sezione TRANSLATIONS contiene un elenco di file con la traduzione per ogni lingua. Nell\'esempio precedente *MyMod_de.ts* è la traduzione in tedesco.
 
 Ora è necessario eseguire lupdate per estrarre tutte le stringhe letterali nella propria GUI. Eseguire lupdate dopo le modifiche del codice sorgente è sempre una operazione sicura in quanto non cancella mai stringhe dai file di traduzione. Aggiunge solo le nuove stringhe.
 
@@ -114,7 +114,7 @@ Per facilitare la localizzazione dei file .py è possibile utilizzare lo strumen
 pylupdate4 *.py -ts YourModule_fr.ts 
 ```
 
-lo strumento pylupdate esegue la scansione dei file .py per le funzioni translate() o tr() e crea un file YourModule\_fr.ts. Si può tradurre questo file con QLinguist e produrre il file YourModule\_fr.qm con QLinguist o con il comando   *
+lo strumento pylupdate esegue la scansione dei file .py per le funzioni translate() o tr() e crea un file YourModule_fr.ts. Si può tradurre questo file con QLinguist e produrre il file YourModule_fr.qm con QLinguist o con il comando   *
 
 
 ```python
@@ -141,7 +141,7 @@ Facoltativamente, è possibile anche creare il file XML Draft.qrc con questo con
 </RCC> 
 ```
 
-e eseguire pyrcc4 Draft.qrc -o qrc\_Draft.py che crea un grande file Python contenente tutte le risorse. Questo metodo funziona anche per inserire i file di icona in un file di risorse
+e eseguire pyrcc4 Draft.qrc -o qrc_Draft.py che crea un grande file Python contenente tutte le risorse. Questo metodo funziona anche per inserire i file di icona in un file di risorse
 
 
 {{docnav/it

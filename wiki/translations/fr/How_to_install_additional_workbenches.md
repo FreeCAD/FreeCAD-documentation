@@ -6,7 +6,13 @@
    FCVersion   *Toutes versions
    Author   *[r-frank](User   *R-Frank.md)
    Files   *aucun
-}}
+---
+
+# How to install additional workbenches/fr
+
+
+
+
 
 ## Description
 
@@ -48,7 +54,7 @@ cette méthode est possible mais pas nécessaire avec l\'introduction du <img al
 -   Téléchargez l\'atelier depuis github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Télécharger ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
 -   Dans FreeCAD, localisez le chemin de la macro en choisissant **Édition → Préférences → Général → Macro** et recherchez le «Chemin de la macro»
--   Supposons que votre connexion Windows est «*nom\_utilisateur*», le chemin par défaut de la macro est **%APPDATA%\FreeCAD\** qui est couramment **C   *Users\''nom_utilisateur''\Appdata\Roaming\FreeCAD**
+-   Supposons que votre connexion Windows est «*nom_utilisateur*», le chemin par défaut de la macro est **%APPDATA%\FreeCAD\** qui est couramment **C   *Users\''nom_utilisateur''\Appdata\Roaming\FreeCAD**
 -   Dans le répertoire-macro, créez (s\'il n\'est pas déjà présent) un dossier appelé \"**Mod**\"
 -   Dans le dossier Mod, créez un dossier avec le nom de l\'atelier, par exemple "Curves"
 -   Déplacez maintenant les fichiers et sous-dossiers décompressés de l\'atelier dans le dossier de l\'atelier qui vient d\'être créé.
@@ -80,16 +86,13 @@ Ajout de [community-ppa](https   *//launchpad.net/~freecad-community/+archive/ub
 Installation des ateliers via le gestionnaire de paquets synaptique.
 
 
-{{Code   code   *
+```python
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
 $ git clone  https   *//github.com/tomate44/CurvesWB.git
----
+```
 
-# How to install additional workbenches/fr
-
- 
 Dans FreeCAD, vous aurez maintenant une nouvel atelier appelé \"CurvesWB\". Une fois installé, utilisez git pour les mises à jour   *
 
 
@@ -169,9 +172,7 @@ Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Wor
     -   voir ce fil de discussion du forum [Assembly2 dans la version   * 0.16.5602 (Git)](http   *//forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
-{{Userdocnavi
-
-}} 
+ 
 
 [Category   *External Workbenches](Category_External_Workbenches.md) [Category   *Addons](Category_Addons.md)
 

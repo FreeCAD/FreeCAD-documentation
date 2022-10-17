@@ -1,5 +1,5 @@
 # TechDraw SaveSVG/en
-1.  REDIRECT [TechDraw\_ExportPageSVG/en](TechDraw_ExportPageSVG/en.md)
+1.  REDIRECT [TechDraw_ExportPageSVG/en](TechDraw_ExportPageSVG/en.md)
 
 
 

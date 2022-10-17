@@ -21,7 +21,7 @@ La commande <img alt="" src=images/Fasteners_Move.svg  style="width   *24px;"> *
 
 1.  Sélectionnez une seule fixation et un seul bord circulaire.
 2.  Il existe plusieurs façons de lancer la commande    *
-    -   Appuyez sur le bouton **<img src="images/Fasteners_Move.svg" width=16px> [Fasteners Move](Fasteners_Move/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move/fr.md)**.
     -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** dans le menu.
 3.  La fixation se déplace vers l\'arête sélectionnée et s\'y fixe.
 
@@ -29,7 +29,7 @@ La commande <img alt="" src=images/Fasteners_Move.svg  style="width   *24px;"> *
 
 1.  Sélectionnez une seule fixation.
 2.  Il existe plusieurs façons de lancer la commande    *
-    -   Appuyez sur le bouton **<img src="images/Fasteners_Move.svg" width=16px> [Fasteners Move](Fasteners_Move/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move/fr.md)**.
     -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** dans le menu.
 3.  La fixation est détachée.
 

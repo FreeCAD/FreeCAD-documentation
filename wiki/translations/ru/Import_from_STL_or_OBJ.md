@@ -100,7 +100,7 @@ Since the created solid has no history and no editable features (like a simple c
 
  
 
-[Category   *File\_Formats](Category_File_Formats.md)
+[Category   *File_Formats](Category_File_Formats.md)
 
 
 

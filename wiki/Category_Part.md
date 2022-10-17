@@ -1,7 +1,7 @@
 # Category:Part
 This category lists pages related to the [Part Workbench](Part_Workbench.md).
 
-[Category   *Workbenches](Category_Workbenches.md) [Category   *User\_Documentation](Category_User_Documentation.md)
+[Category   *Workbenches](Category_Workbenches.md) [Category   *User_Documentation](Category_User_Documentation.md)
 
 ### Contents
 
@@ -23,21 +23,21 @@ This category lists pages related to the [Part Workbench](Part_Workbench.md).
 | [Part JoinConnect](wiki/Part JoinConnect.md) | [Part JoinCutout](wiki/Part JoinCutout.md) | [Part JoinEmbed](wiki/Part JoinEmbed.md) |
 | [Part Line](wiki/Part Line.md) | [Part Loft](wiki/Part Loft.md) | [Part Loft Technical Details](wiki/Part Loft Technical Details.md) |
 | [Part MakeFace](wiki/Part MakeFace.md) | [Part MakeSolid](wiki/Part MakeSolid.md) | [Part Measure Angular](wiki/Part Measure Angular.md) |
-| [Part Measure Clear All](wiki/Part Measure Clear All.md) | [Part Measure Linear](wiki/Part Measure Linear.md) | [Part Measure Menu](wiki/Part Measure Menu.md) |
-| [Part Measure Refresh](wiki/Part Measure Refresh.md) | [Part Measure Toggle 3d](wiki/Part Measure Toggle 3d.md) | [Part Measure Toggle All](wiki/Part Measure Toggle All.md) |
-| [Part Measure Toggle Delta](wiki/Part Measure Toggle Delta.md) | [Part Mirror](wiki/Part Mirror.md) | [Part Module](wiki/Part Module.md) |
-| [Part Offset](wiki/Part Offset.md) | [Part Offset2D](wiki/Part Offset2D.md) | [Part Plane](wiki/Part Plane.md) |
-| [Part Point](wiki/Part Point.md) | [Part PointsFromMesh](wiki/Part PointsFromMesh.md) | [Part Primitives](wiki/Part Primitives.md) |
-| [Part Prism](wiki/Part Prism.md) | [Part ProjectionOnSurface](wiki/Part ProjectionOnSurface.md) | [Part RefineShape](wiki/Part RefineShape.md) |
-| [Part RegularPolygon](wiki/Part RegularPolygon.md) | [Part ReverseShapes](wiki/Part ReverseShapes.md) | [Part Revolve](wiki/Part Revolve.md) |
-| [Part RuledSurface](wiki/Part RuledSurface.md) | [Part scripting](wiki/Part scripting.md) | [Part Section](wiki/Part Section.md) |
-| [Part ShapeFromMesh](wiki/Part ShapeFromMesh.md) | [Part SimpleCopy](wiki/Part SimpleCopy.md) | [Part Slice](wiki/Part Slice.md) |
-| [Part SliceApart](wiki/Part SliceApart.md) | [Part Sphere](wiki/Part Sphere.md) | [Part Spiral](wiki/Part Spiral.md) |
-| [Part Sweep](wiki/Part Sweep.md) | [Part Thickness](wiki/Part Thickness.md) | [Template:Part Tools navi](wiki/Template_Part Tools navi.md) |
-| [Part TopoShape](wiki/Part TopoShape.md) | [Part Torus](wiki/Part Torus.md) | [Part TransformedCopy](wiki/Part TransformedCopy.md) |
-| [Part Tube](wiki/Part Tube.md) | [Part Wedge](wiki/Part Wedge.md) | [Part XOR](wiki/Part XOR.md) |
-| [Shape](wiki/Shape.md) | [Thread for Screw Tutorial](wiki/Thread for Screw Tutorial.md) | [Topological naming problem](wiki/Topological naming problem.md) |
-| [Whiffle Ball tutorial](wiki/Whiffle Ball tutorial.md) |
+| [Part Measure Clear All](wiki/Part Measure Clear All.md) | [Part Measure Linear](wiki/Part Measure Linear.md) | [Part Measure Refresh](wiki/Part Measure Refresh.md) |
+| [Part Measure Toggle 3D](wiki/Part Measure Toggle 3D.md) | [Part Measure Toggle All](wiki/Part Measure Toggle All.md) | [Part Measure Toggle Delta](wiki/Part Measure Toggle Delta.md) |
+| [Part Mirror](wiki/Part Mirror.md) | [Part Module](wiki/Part Module.md) | [Part Offset](wiki/Part Offset.md) |
+| [Part Offset2D](wiki/Part Offset2D.md) | [Part Plane](wiki/Part Plane.md) | [Part Point](wiki/Part Point.md) |
+| [Part PointsFromMesh](wiki/Part PointsFromMesh.md) | [Part Primitives](wiki/Part Primitives.md) | [Part Prism](wiki/Part Prism.md) |
+| [Part ProjectionOnSurface](wiki/Part ProjectionOnSurface.md) | [Part RefineShape](wiki/Part RefineShape.md) | [Part RegularPolygon](wiki/Part RegularPolygon.md) |
+| [Part ReverseShapes](wiki/Part ReverseShapes.md) | [Part Revolve](wiki/Part Revolve.md) | [Part RuledSurface](wiki/Part RuledSurface.md) |
+| [Part scripting](wiki/Part scripting.md) | [Part Section](wiki/Part Section.md) | [Part ShapeFromMesh](wiki/Part ShapeFromMesh.md) |
+| [Part SimpleCopy](wiki/Part SimpleCopy.md) | [Part Slice](wiki/Part Slice.md) | [Part SliceApart](wiki/Part SliceApart.md) |
+| [Part Sphere](wiki/Part Sphere.md) | [Part Spiral](wiki/Part Spiral.md) | [Part Sweep](wiki/Part Sweep.md) |
+| [Part Thickness](wiki/Part Thickness.md) | [Template:Part Tools navi](wiki/Template_Part Tools navi.md) | [Part TopoShape](wiki/Part TopoShape.md) |
+| [Part Torus](wiki/Part Torus.md) | [Part TransformedCopy](wiki/Part TransformedCopy.md) | [Part Tube](wiki/Part Tube.md) |
+| [Part Wedge](wiki/Part Wedge.md) | [Part XOR](wiki/Part XOR.md) | [Shape](wiki/Shape.md) |
+| [Thread for Screw Tutorial](wiki/Thread for Screw Tutorial.md) | [Topological naming problem](wiki/Topological naming problem.md) | [Whiffle Ball tutorial](wiki/Whiffle Ball tutorial.md) |
+|
 
 
 

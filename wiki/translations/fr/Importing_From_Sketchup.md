@@ -27,7 +27,7 @@ Collada (\*.dae) et STL sont des formats maillés. Pour utiliser ces fichiers da
 
 
 
-[Category   *Common Questions](Category_Common_Questions.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *Common Questions](Category_Common_Questions.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

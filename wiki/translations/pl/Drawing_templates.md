@@ -12,27 +12,27 @@ Creating templates for the Drawing module is very easy. See also the tutorial [D
 
 -   One pixel = one millimeter. You can have the page size specified inside the opening<svg>tag, either without units or with \"mm\". For example, these two forms are valid   *
 
- {.html}
+ html
 width="1067mm"
 height="762mm"
 
 
 or
 
- {.html}
+ html
 width="1067"
 height = "762"
 
 
 Although svg supports inches (\"42 in\"), these are currently not supported by FreeCAD, so it\'s always better to have your svg page size specified in millimeters. The \"viewBox\" attribute must have the same value, for example   *
 
- {.html}
+ html
 viewBox="0 0 1067 762"
 
 
 -   You must insert, somewhere inside your svg code, where you want the contents of the drawing to appear (for example at the end of the file, just before the last</svg>tag), the following line   *
 
- {.html}
+ html
 
 
 
@@ -50,7 +50,7 @@ In addition to these rules, since FreeCAD 0.14, information about the Border and
 
 To define the Border, the following line must appear before the  tag in the svg file.
 
- {.html}
+ html
 
 
 
@@ -65,7 +65,7 @@ Where X1, Y1, X2, Y2 are defined as   *
 
 To define the Title block the following line must be inserted before the  tag and after the Working space tag.
 
- {.html}
+ html
 
 
 
@@ -82,7 +82,7 @@ Where X1a, Y1a, X2a, Y2a are defined as   *
 
 The following is an example of the code that defines the Working space and Title block areas that are to be inserted before the  tag. You needn\'t specify a title block, but if you do it must be defined on the next line immediately following the Working space   *
 
- {.html}
+ html
 
 
 
@@ -94,7 +94,7 @@ The following is to be formatted like the example below where   *
 -   xxx = pixel width
 -   yyy = pixel height
 
- {.html}
+ html
 width="xxxmm"
 height="yyymm"
 viewBox="0 0 xxx yyy"
@@ -215,4 +215,4 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Category_Drawing.md) > Drawing templates/pl

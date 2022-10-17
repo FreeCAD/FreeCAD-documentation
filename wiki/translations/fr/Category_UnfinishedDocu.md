@@ -36,15 +36,14 @@ This category contains all Unfinished Documents
 | [BOLTSFC Workbench/fr](wiki/BOLTSFC Workbench/fr.md) | [Compile on Docker/fr](wiki/Compile on Docker/fr.md) | [CurvedShapes Workbench/fr](wiki/CurvedShapes Workbench/fr.md) |
 | [Curves Pipeshell/fr](wiki/Curves Pipeshell/fr.md) | [Curves SketchOnSurface/fr](wiki/Curves SketchOnSurface/fr.md) | [Curves SplitCurve/fr](wiki/Curves SplitCurve/fr.md) |
 | [Curves Workbench/fr](wiki/Curves Workbench/fr.md) | [Curves ZebraTool/fr](wiki/Curves ZebraTool/fr.md) | [Developing FreeCAD with KDevelop/fr](wiki/Developing FreeCAD with KDevelop/fr.md) |
-| [Engine Block Tutorial/fr](wiki/Engine Block Tutorial/fr.md) | [FEM ClippingPlaneAdd/fr](wiki/FEM ClippingPlaneAdd/fr.md) | [FEM ClippingPlaneRemoveAll/fr](wiki/FEM ClippingPlaneRemoveAll/fr.md) |
-| [FEM ConstantVacuumPermittivity/fr](wiki/FEM ConstantVacuumPermittivity/fr.md) | [FEM ConstraintBearing/fr](wiki/FEM ConstraintBearing/fr.md) | [FEM ConstraintFluidBoundary/fr](wiki/FEM ConstraintFluidBoundary/fr.md) |
-| [FEM ConstraintGear/fr](wiki/FEM ConstraintGear/fr.md) | [FEM ConstraintPulley/fr](wiki/FEM ConstraintPulley/fr.md) | [FEM ConstraintSpring/fr](wiki/FEM ConstraintSpring/fr.md) |
-| [FEM CreateNodesSet/fr](wiki/FEM CreateNodesSet/fr.md) | [FEM ElementGeometry1D/fr](wiki/FEM ElementGeometry1D/fr.md) | [FEM ElementGeometry2D/fr](wiki/FEM ElementGeometry2D/fr.md) |
-| [FEM ElementRotation1D/fr](wiki/FEM ElementRotation1D/fr.md) | [FEM EquationElasticity/fr](wiki/FEM EquationElasticity/fr.md) | [FEM EquationElectricforce/fr](wiki/FEM EquationElectricforce/fr.md) |
-| [FEM EquationElectrostatic/fr](wiki/FEM EquationElectrostatic/fr.md) | [FEM EquationFlow/fr](wiki/FEM EquationFlow/fr.md) | [FEM EquationFlux/fr](wiki/FEM EquationFlux/fr.md) |
-| [FEM EquationHeat/fr](wiki/FEM EquationHeat/fr.md) | [FEM MaterialMechanicalNonlinear/fr](wiki/FEM MaterialMechanicalNonlinear/fr.md) | [FEM MaterialReinforced/fr](wiki/FEM MaterialReinforced/fr.md) |
-| [FEM MeshClear/fr](wiki/FEM MeshClear/fr.md) | [FEM MeshNetgenFromShape/fr](wiki/FEM MeshNetgenFromShape/fr.md) | [FEM PostApplyChanges/fr](wiki/FEM PostApplyChanges/fr.md) |
-| [FEM PostCreateFunctions/fr](wiki/FEM PostCreateFunctions/fr.md) | [FEM ResultShow/fr](wiki/FEM ResultShow/fr.md) | [FEM SolverCalculiX/fr](wiki/FEM SolverCalculiX/fr.md) |
+| [Engine Block Tutorial/fr](wiki/Engine Block Tutorial/fr.md) | [FCGear CycloidRack/fr](wiki/FCGear CycloidRack/fr.md) | [FCGear GearConnector/fr](wiki/FCGear GearConnector/fr.md) |
+| [FCGear HypoCycloidGear/fr](wiki/FCGear HypoCycloidGear/fr.md) | [FCGear InternalInvoluteGear/fr](wiki/FCGear InternalInvoluteGear/fr.md) | [FEM ConstantVacuumPermittivity/fr](wiki/FEM ConstantVacuumPermittivity/fr.md) |
+| [FEM ConstraintBearing/fr](wiki/FEM ConstraintBearing/fr.md) | [FEM ConstraintFluidBoundary/fr](wiki/FEM ConstraintFluidBoundary/fr.md) | [FEM ConstraintGear/fr](wiki/FEM ConstraintGear/fr.md) |
+| [FEM ConstraintPulley/fr](wiki/FEM ConstraintPulley/fr.md) | [FEM ConstraintSpring/fr](wiki/FEM ConstraintSpring/fr.md) | [FEM CreateNodesSet/fr](wiki/FEM CreateNodesSet/fr.md) |
+| [FEM ElementGeometry1D/fr](wiki/FEM ElementGeometry1D/fr.md) | [FEM ElementGeometry2D/fr](wiki/FEM ElementGeometry2D/fr.md) | [FEM ElementRotation1D/fr](wiki/FEM ElementRotation1D/fr.md) |
+| [FEM EquationElectrostatic/fr](wiki/FEM EquationElectrostatic/fr.md) | [FEM EquationFlow/fr](wiki/FEM EquationFlow/fr.md) | [FEM MaterialMechanicalNonlinear/fr](wiki/FEM MaterialMechanicalNonlinear/fr.md) |
+| [FEM MaterialReinforced/fr](wiki/FEM MaterialReinforced/fr.md) | [FEM MeshClear/fr](wiki/FEM MeshClear/fr.md) | [FEM MeshNetgenFromShape/fr](wiki/FEM MeshNetgenFromShape/fr.md) |
+| [FEM PostCreateFunctionPlane/fr](wiki/FEM PostCreateFunctionPlane/fr.md) | [FEM PostCreateFunctionSphere/fr](wiki/FEM PostCreateFunctionSphere/fr.md) | [FEM SolverCalculiX/fr](wiki/FEM SolverCalculiX/fr.md) |
 | [FEM SolverControl/fr](wiki/FEM SolverControl/fr.md) | [FEM SolverMystran/fr](wiki/FEM SolverMystran/fr.md) | [FEM SolverRun/fr](wiki/FEM SolverRun/fr.md) |
 | [FreeCAD Docker CLI mode/fr](wiki/FreeCAD Docker CLI mode/fr.md) | [InputField/fr](wiki/InputField/fr.md) | [Lattice2 AttachablePlacement/fr](wiki/Lattice2 AttachablePlacement/fr.md) |
 | [Lattice2 Workbench/fr](wiki/Lattice2 Workbench/fr.md) | [Manual:BIM modeling/fr](wiki/Manual_BIM modeling/fr.md) | [Migrating to FreeCAD from SolidWorks/fr](wiki/Migrating to FreeCAD from SolidWorks/fr.md) |

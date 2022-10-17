@@ -48,7 +48,7 @@ S\'il n\'y a pas de paramètre ex   * \"**circle()**\" la liste des fonctions di
 
 ToolBar Icon ![](images/Macro_Circle.png )
 
-**Macro\_circle.FCMacro**
+**Macro_circle.FCMacro**
 
 
 {{MacroCode|code=

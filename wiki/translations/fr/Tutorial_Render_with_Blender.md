@@ -302,7 +302,7 @@ Ceci spécifie que le rendu doit avoir lieu en arrière-plan avec `-b`; le moteu
 
 La création du maillage Wavefront intermédiaire (.obj) puis son importation dans Blender fonctionnera dans la plupart des situations. Cependant, il existe également la possibilité d\'importer le fichier FreeCAD (.FCStd) directement dans Blender au moyen d\'un plugin.
 
--   [io\_import\_fcstd.py](https   *//gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), version originale pour Blender 2.79
+-   [io_import_fcstd.py](https   *//gist.github.com/yorikvanhavre/e873d51c8f0e307e333fe595c429ba87), version originale pour Blender 2.79
 -   [Importateur FreeCAD .FCStd pour Blender 2.80](https   *//gist.github.com/yorikvanhavre/680156f59e2b42df8f5f5391cae2660b)
 
 Ceci est un plugin Blender; pour que cela fonctionne, Blender doit pouvoir importer FreeCAD en tant que module depuis la `Python Console`. 

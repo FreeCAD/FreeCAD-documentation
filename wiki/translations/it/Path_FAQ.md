@@ -439,7 +439,7 @@ Tuttavia, i Path Compounds possono usufruire del Placement (posizionamento) dei 
 
 <div class="mw-translate-fuzzy">
 
-[https   *//www.freecadweb.org/wiki/Path\_scripting Path scripting](https   *//www.freecadweb.org/wiki/Path_scripting_Path_scripting.md)
+[https   *//www.freecadweb.org/wiki/Path_scripting Path scripting](https   *//www.freecadweb.org/wiki/Path_scripting_Path_scripting.md)
 
 
 </div>

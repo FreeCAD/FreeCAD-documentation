@@ -12,7 +12,7 @@
 
 The **Pocket** tool cuts solids by extruding a sketch or a face of a solid along a straight path.
 
- ![](images/PartDesign_Pocket_example.svg )  \'\'Sketch profile (A) was mapped to the top face of base solid (B); result after pocketing through on the right. \'\'
+ ![](images/PartDesign_Pocket_example.svg )  *Sketch profile (A) was mapped to the top face of base solid (B); result after pocketing through on the right.*
 
 ## Usage
 

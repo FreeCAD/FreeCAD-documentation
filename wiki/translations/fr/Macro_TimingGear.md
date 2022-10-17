@@ -56,7 +56,7 @@ Les engrenages de distribution sont connectés à une courroie de distribution o
 
 Icône de la barre d\'outils ![](images/TimingGear_icon.png )
 
-**Macro\_TimingGear.FCMacro**
+**Macro_TimingGear.FCMacro**
 
 
 {{MacroCode|code=

@@ -21,17 +21,17 @@ Toate funcțiile sunt listate secvențial în arborele Model și pot fi editate 
 
 Caracteristicile pot fi sortate în diferite categorii   *
 
--   \'\'\' Bazat pe profil \'\'\'   * aceste caracteristici pornesc de la un profil pentru a defini forma materiei care urmează să fie adăugată sau eliminată. Profilul poate fi o schiță, o față plană pe geometria existentă (un profil va fi extras din marginile sale), un ShapeBinder sau un obiect Draft care a fost inclus în corpul activ.
+-   **Bazat pe profil**   * aceste caracteristici pornesc de la un profil pentru a defini forma materiei care urmează să fie adăugată sau eliminată. Profilul poate fi o schiță, o față plană pe geometria existentă (un profil va fi extras din marginile sale), un ShapeBinder sau un obiect Draft care a fost inclus în corpul activ.
 
--   \'\'\'Additiv \'\'   * adaugă material modelului existent. Funcțiile adiționale prezintă iconițele galbene.
+-   *\'Additiv*   * adaugă material modelului existent. Funcțiile adiționale prezintă iconițele galbene.
 
--   \'\'\' Subtractive \'\'\'   * elimină materialul din modelul existent. Funcțiile subtitrate prezintă icoanițele roșii și albastre.
+-   **Subtractive**   * elimină materialul din modelul existent. Funcțiile subtitrate prezintă icoanițele roșii și albastre.
 
--   \'\'\' Bazate pe Primitive \'\'\'   * bazate pe primitive geometrice (cub, cilindru, con, torus \...). Acestea pot fi aditive sau subtractive.
+-   **Bazate pe Primitive**   * bazate pe primitive geometrice (cub, cilindru, con, torus \...). Acestea pot fi aditive sau subtractive.
 
 -   **Caracteristicile transformării**   * aplică o transformare la caracteristicile existente (simetrică, model liniar, model polar, multitransformare).
 
--   *\' Dress-up*\'   * caracteristici care aplică un tratament pe margini sau fețe, cum ar fi teșire/ rotunjire, șanfren și trasare.
+-   **Dress-up**   * caracteristici care aplică un tratament pe margini sau fețe, cum ar fi teșire/ rotunjire, șanfren și trasare.
 
 -   **Procedural**   * se poate spune despre caracteristici care nu se bazează pe schițe, cum ar fi trăsăturile de transformare și traiectoria adițională.
 
@@ -188,7 +188,7 @@ Sketches can be supported by the faces of previous solid operations. This may be
 
 Datum planes are useful to support the sketches. These auxiliary planes should be attached to the base planes of the body.
 
-\'\'Note   * In many cases, a sketch attached to a base plane with attachment offsets can accomplish the same function. Datums are particularly useful when multiple sketches or other constructs will use the datum. This means all changes to the datum will be apply to attached sketches, etc. Adding a single sketch to a datum, rather than using attachment offsets in the sketch properties, is an extra step and is essentially redundant. \'\'
+*Note   * In many cases, a sketch attached to a base plane with attachment offsets can accomplish the same function. Datums are particularly useful when multiple sketches or other constructs will use the datum. This means all changes to the datum will be apply to attached sketches, etc. Adding a single sketch to a datum, rather than using attachment offsets in the sketch properties, is an extra step and is essentially redundant.*
 
 As with sketches, it is possible to attach Datum planes to generated geometry (edges, faces of previously created solids), ***but this is not recommended*** since it can cause the topological naming problem.
 

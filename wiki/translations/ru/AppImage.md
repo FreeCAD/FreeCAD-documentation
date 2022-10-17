@@ -1,5 +1,11 @@
 # AppImage/ru
+<div class="mw-translate-fuzzy">
+
+
 **По состоянию на 7 июля 2019 года сообщество FreeCAD отмечает, что загрузка AppImages из Github, похоже, истекает по таймауту до завершения. Мы не уверены, почему это происходит. Если это произойдет с вами, попробуйте загрузить еще раз. Это займет несколько попыток. Рекомендуется использовать [функцию автоматического обновления](#Автообновление/ru.md) AppImage, которая восстановит загрузку с того места, где произошла ошибка.**
+
+
+</div>
 
 
 {{TOCright}}
@@ -27,7 +33,7 @@ chmod +x FreeCAD_xxx-x86_64.AppImage
 
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.20.1](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.1)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
      * style=\"text-align   * center; font-size   * 150%; \| Available FreeCAD AppImages \|+
 
@@ -57,7 +63,7 @@ AppImage имеет умный и экономичный способ обнов
 
 Это официальное приложение с графическим интерфейсом AppImageUpdate.
 
-1.  Загрузить [AppImageUpdate-x86\_64.AppImage](https   *//github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
+1.  Загрузить [AppImageUpdate-x86_64.AppImage](https   *//github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
 2.  Сделайте его исполняемым, щелкнув правой кнопкой мыши по файлу, войдя в свойства и установив «Запускать как исполняемый файл».
 3.  Дважды щелкните значок AppImage, появится диалоговое окно, в котором вам будет предложено указать, какой AppImage вы хотите обновить.
 4.  Укажите путь к существующему AppImage.
@@ -67,7 +73,7 @@ AppImage имеет умный и экономичный способ обнов
 
 Это более элегантная сторонняя неофициальная версия AppImageUpdate с именем **AppImageUpdater**. Он всё ещё находится в разработке (на момент этого редактирования вики), но тем не менее, довольно удобен в использовании.
 
-1.  Загрузите [AppImageUpdater-\*-x86\_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
+1.  Загрузите [AppImageUpdater-\*-x86_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
 2.  Сделайте его исполняемым   * 
 ```pythonchmod +x AppImageUpdater*-x86_64.AppImage```
 3.  Запустите его   * 
@@ -95,13 +101,25 @@ chmod +x path/to/updated/FreeCAD.AppImage
 -   Запустите `./appimageupdatetool-x86_64.AppImage --help`, чтобы узнать о таких функциях, как `--remove-old`, `--overwrite` и `--self-update`.
 -   Также есть версия i386; см. страницу [AppImageUpdate release](https   *//github.com/AppImage/AppImageUpdate/releases).
 
+
+<div class="mw-translate-fuzzy">
+
 Что нужно сделать   * поделитесь скриптом, который можно добавить в качестве алиаса или задания cron.
+
+
+</div>
 
 ### Метод через командную строку №2 (неофициальный) 
 
+
+<div class="mw-translate-fuzzy">
+
 Аналогично графическим методам, имеющим официальный и неофициальный подходы к загрузке AppImages, то же самое относится и к командной строке. Это более элегантный сторонний вариант в командной строке для загрузки AppImages.
 
-1.  Загрузите [appimageupdater-\*-x86\_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
+
+</div>
+
+1.  Загрузите [appimageupdater-\*-x86_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
 2.  Сделайте его исполняемым   * 
 ```pythonchmod +x appimageupdater*-x86_64.AppImage```
 3.  Запустите его   * 
@@ -113,7 +131,13 @@ chmod +x path/to/updated/FreeCAD.AppImage
 
 ## Исправление AppImage через zsync 
 
+
+<div class="mw-translate-fuzzy">
+
 Может случиться так, что AppImage не будет обновляться, потому что его целевой файл каким-то образом изменился. Вместо того, чтобы загружать новый образ приложения, можно переписать файл zsync, который используется AppImage для загрузки дельты. Дополнительную информацию можно найти на странице <https   *//github.com/antony-jr/appimage-update-info-writer>.
+
+
+</div>
 
 Этот раздел требует более подробной информации.
 
@@ -151,7 +175,7 @@ cd squashfs-root/
 
 ### Переупаковка AppImage 
 
-Если вы изменили код и теперь хотите повторно упаковать AppImage с последними изменениями, примените [appimagetool- x86\_64](https   *//github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) к извлеченной файловой системе.
+Если вы изменили код и теперь хотите повторно упаковать AppImage с последними изменениями, примените [appimagetool- x86_64](https   *//github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) к извлеченной файловой системе.
 
 
 ```python

@@ -42,7 +42,7 @@ ToolBar icon <img alt="" src=images/Macro_Megaminx.png  style="width   *64px;">
 
 {{Codeextralink|https   *//raw.githubusercontent.com/rparkins999/Megaminx/master/Megaminx.FCMacro}}
 
-**Macro\_Megaminx.FCMacro**
+**Macro_Megaminx.FCMacro**
 
 ![](images/Macro_Megaminx.png )
 
@@ -54,7 +54,7 @@ ToolBar icon <img alt="" src=images/Macro_Megaminx.png  style="width   *64px;">
 
 <div class="mw-translate-fuzzy">
 
-Scarica il codice da <https   *//github.com/rparkins999/Megaminx> nella tua macro directory. Esegui la macro su creare un documento Megaminx. Quindi puoi giocarci. È possibile utilizzare le funzioni della cronologia costruire e salvare operatori (ovvero algoritmi) che apportano utili trasformazioni su Megaminx. Un set adatto di questi ti darà una soluzione completa. Step\_history La funzione può essere utilizzata per aiutarti a riprodurre un operatore su un vero Megaminx.
+Scarica il codice da <https   *//github.com/rparkins999/Megaminx> nella tua macro directory. Esegui la macro su creare un documento Megaminx. Quindi puoi giocarci. È possibile utilizzare le funzioni della cronologia costruire e salvare operatori (ovvero algoritmi) che apportano utili trasformazioni su Megaminx. Un set adatto di questi ti darà una soluzione completa. Step_history La funzione può essere utilizzata per aiutarti a riprodurre un operatore su un vero Megaminx.
 
 
 </div>

@@ -34,7 +34,7 @@ Dieser Befehl wendet eine Kraft mit dem gegebenen Wert \[N\] auf die ausgewählt
 
 ## Hinweise
 
-Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
+-   Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
 
 
 

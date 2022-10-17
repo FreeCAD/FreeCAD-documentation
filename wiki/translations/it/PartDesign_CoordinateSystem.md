@@ -25,7 +25,7 @@ Crea un **sistema di coordinate locali** che può essere usato come riferimento 
 
 1.  Premere il pulsante **[<img src=images/PartDesign_CoordinateSystem.svg style="width   *16px"> [Sistema di coordinate locale](PartDesign_CoordinateSystem/it.md)**.
 2.  Definire i parametri del sistema di coordinate. Selezionare un primo riferimento nella vista 3D per filtrare le modalità di associazione disponibili.
-3.  A seconda del riferimento selezionato, nell\'elenco possono essere disponibili una o più modalità di associazione. La più probabile viene selezionata automaticamente e mostrata in grassetto nell\'elenco. Nella parte superiore del pannello Parametri appare in verde il testo \'\' Associato con modalità \'\' insieme al nome della modalità di associazione.
+3.  A seconda del riferimento selezionato, nell\'elenco possono essere disponibili una o più modalità di associazione. La più probabile viene selezionata automaticamente e mostrata in grassetto nell\'elenco. Nella parte superiore del pannello Parametri appare in verde il testo *Associato con modalità* insieme al nome della modalità di associazione.
 4.  Per aggiungere un riferimento aggiuntivo, premere il successivo pulsante **Riferimento**. Una volta premuto, l\'etichetta cambia in \"Selezione \...\" fino a quando viene effettuata una selezione.
 5.  Selezionare una modalità di associazione nell\'elenco.
 6.  Definire i valori di offset dell\'associazione.
@@ -39,7 +39,7 @@ Crea un **sistema di coordinate locali** che può essere usato come riferimento 
 
 <div class="mw-translate-fuzzy">
 
-Fare doppio clic sull\'etichetta **Local\_CS** nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica il riferimento** nel menu contestuale per modificarne i parametri. Per ulteriori dettagli sulla modalità e l\'offset di associazione, vedere [Associazione](Part_EditAttachment/it.md).
+Fare doppio clic sull\'etichetta **Local_CS** nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica il riferimento** nel menu contestuale per modificarne i parametri. Per ulteriori dettagli sulla modalità e l\'offset di associazione, vedere [Associazione](Part_EditAttachment/it.md).
 
 
 </div>

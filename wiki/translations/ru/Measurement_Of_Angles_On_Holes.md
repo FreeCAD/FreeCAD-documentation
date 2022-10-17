@@ -28,10 +28,10 @@ There are some possibilities to create a center line for holes. At first the lin
    *   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width   *24px;"> [Add Centerline between 2 Points](TechDraw_2PointCenterLine.md)
    *   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width   *24px;"> [Add Centerline between 2 Lines](TechDraw_2LineCenterLine.md)
 
-<img alt="" src=images/TechDraw_Tutorial_2PointCenterLine_example.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_Tutorial_2PointCenterLine_example.png style="width   *250px;"> 
 *Above   * created with [<img src=images/TechDraw_2PointCenterLine.svg style="width   *16px"> which creates centerlines between 2 points*
 
-<img alt="" src=images/TechDraw_Tutorial_2LineCenterLine_example.png  style="width   *250px;"> 
+<img alt="" src=images/TechDraw_Tutorial_2LineCenterLine_example.png style="width   *250px;"> 
 *Above   * created with [<img src=images/TechDraw_2LineCenterLine.svg style="width   *16px"> which creates centerlines between 2 lines*
 
 In the associated Combo View dialog box select in the Tasks panel under *Orientation* \"Aligned\" for axes out of main axes. *Extend By* means the length of the center line beyond of the body line in the drawing. With *Shift Horizontal* and *Shift Vertical* the center line can move in horizontal or vertical direction, if is necessary. *Style* means the figure of center line.

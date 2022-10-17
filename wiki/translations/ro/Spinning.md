@@ -1,5 +1,5 @@
 # Spinning/ro
-1.  REDIRECT [Std\_DemoMode](Std_DemoMode.md)
+1.  REDIRECT [Std_DemoMode](Std_DemoMode.md)
 
 
 

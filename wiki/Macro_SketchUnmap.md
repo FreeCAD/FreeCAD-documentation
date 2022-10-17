@@ -24,8 +24,8 @@ Functionally, the macro will remove the current mapping of the sketch on which i
 To do so, the macro will basically propose 3 options (if your sketch isn\'t in a PartDesign Body, only first option is available and will be applied automatically)    *
 
 -   \"Raw\" mode =\> the sketch placement is made absolute in the body referential, nothing more
--   \"DP\@Face mode\" =\> a datum plane is created where the mapping face is, then the sketch is attached to it respecting its attachment offset
--   \"DP\@Sketch\" mode =\> a datum place is created where the sketch is (including attachment offset), then the sketch is attached to its origin
+-   \"DP@Face mode\" =\> a datum plane is created where the mapping face is, then the sketch is attached to it respecting its attachment offset
+-   \"DP@Sketch\" mode =\> a datum place is created where the sketch is (including attachment offset), then the sketch is attached to its origin
 
 To use the macro, just select the target sketch (eg. in the tree view) then run the macro. That\'s it !
 
@@ -49,8 +49,8 @@ The treeview shows an error, the 3D view isn\'t updated, and the circle sketch i
 
 Now comes the job of the macro (that you need to run before changing the reference face, when the sketch is still at its right place). Select the sketch and run it. If your sketch is in a body, a message box will ask to choose among the 3 different options (if your sketch is out of a body, it will automatically apply the 1st one)    *
 -   \"Raw\" mode
--   \"DP\@Face mode\"
--   \"DP\@Sketch\" mode
+-   \"DP@Face mode\"
+-   \"DP@Sketch\" mode
 
 
 
@@ -64,7 +64,7 @@ Which in term of picture gives the following    *
 
 ToolBar Icon ![](images/SketchUnmap.svg )
 
-**Macro\_SketchUnmap.FCMacro**
+**Macro_SketchUnmap.FCMacro**
 
 
 {{MacroCode|code=

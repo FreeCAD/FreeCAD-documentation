@@ -1,5 +1,5 @@
 # Mesh EvaluateCurvature/ru
-1.  REDIRECT [Mesh\_CurvatureInfo/ru](Mesh_CurvatureInfo/ru.md)
+1.  REDIRECT [Mesh_CurvatureInfo/ru](Mesh_CurvatureInfo/ru.md)
 
 
 

@@ -8,8 +8,9 @@ This category gathers all pages used as Sandbox   * a place where you can draft 
 |     |     |     |
 | --- | --- | --- |
 | [CadQuery Workbench/pl](wiki/CadQuery Workbench/pl.md) | [Cfd Workbench/pl](wiki/Cfd Workbench/pl.md) | [FEM FrontISTR Workbench/pl](wiki/FEM FrontISTR Workbench/pl.md) |
-| [Macro Kerkythea/pl](wiki/Macro Kerkythea/pl.md) | [PCB Workbench/pl](wiki/PCB Workbench/pl.md) | [Symbols Library Workbench/pl](wiki/Symbols Library Workbench/pl.md) |
-| [Timber Workbench/pl](wiki/Timber Workbench/pl.md) | [Workfeature Workbench/pl](wiki/Workfeature Workbench/pl.md) |
+| [FEMbyGEN Workbench/pl](wiki/FEMbyGEN Workbench/pl.md) | [Macro Kerkythea/pl](wiki/Macro Kerkythea/pl.md) | [PCB Workbench/pl](wiki/PCB Workbench/pl.md) |
+| [Symbols Library Workbench/pl](wiki/Symbols Library Workbench/pl.md) | [Timber Workbench/pl](wiki/Timber Workbench/pl.md) | [Workfeature Workbench/pl](wiki/Workfeature Workbench/pl.md) |
+|
 
 
 

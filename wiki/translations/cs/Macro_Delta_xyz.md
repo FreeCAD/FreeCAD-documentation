@@ -33,7 +33,7 @@ Pokud je jeho konfigurace nastavena na „Trvalé" (průběžné), kliknutím na
 
 ## Konfigurovat
 
-Chcete-li upravit hodnotu   * přejděte na    * FreeCAD → Menu → Tools → Edit parameters\... → BaseApp/Preferences/Macros/FCMmacros/Delta\_XYZ.
+Chcete-li upravit hodnotu   * přejděte na    * FreeCAD → Menu → Tools → Edit parameters\... → BaseApp/Preferences/Macros/FCMmacros/Delta_XYZ.
 
 **\_\_\_\_\_switchDecimalsPref\_\_\_\_\_**
 
@@ -58,7 +58,7 @@ Chcete-li upravit hodnotu   * přejděte na    * FreeCAD → Menu → Tools → 
 
 ToolBar Icon ![](images/Macro_Delta_xyz.png )
 
-**Macro\_Delta\_xyz.FCMacro**
+**Macro_Delta_xyz.FCMacro**
 
 
 {{MacroCode|code=

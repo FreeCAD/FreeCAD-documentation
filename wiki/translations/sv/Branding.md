@@ -26,14 +26,14 @@ Would you be interested in using FreeCAD in a closed-source application, be sure
 
 ### Allmänt
 
-Den mesta brandingen görs i *\'MainCmd.cpp* or *MainGui.cpp*\'. Dessa Projekt genererar FreeCAD\'s körbara filer. För att göra din egen variant så behöver du bara kopiera Main eller MainGui projekten och ge den körbara filen ett eget namn, d.v.s. FooApp.exe.
+Den mesta brandingen görs i **MainCmd.cpp*or*MainGui.cpp**. Dessa Projekt genererar FreeCAD\'s körbara filer. För att göra din egen variant så behöver du bara kopiera Main eller MainGui projekten och ge den körbara filen ett eget namn, d.v.s. FooApp.exe.
 
 De viktigaste inställningarna för ett nytt utseende kan göras på en plats i main() funktionen. Här är den kodsektion som kontrollerar branding   *
 
 
 </div>
 
- {.C}
+ C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
@@ -87,7 +87,7 @@ Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_scre
 
 In FreeCAD there is also a method supported without writing a customized main() function. For this method you must write a file name called **branding.xml** and put it into the installation directory of FreeCAD. Here is an example with all supported tags   *
 
- {.XML}
+ XML
 <?xml version="1.0" encoding="utf-8"?>
 <Branding>
     <Application>FooApp</Application>

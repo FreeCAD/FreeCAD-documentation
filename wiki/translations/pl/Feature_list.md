@@ -57,7 +57,7 @@ Jest to obszerna, ale nie kompletna lista funkcji, realizowanych przez program F
 
 -   Modelowanie wytłoczeń prostych lub wytłoczeń obrotowych **wyciągnięć**, **przekrojów** i **zaokrągleń**.
 
--   **komponenty kształtu**, takie jak *wierzchołki*\', **krawędzie**, **kształty zamknięte** i **płaszczyzny**.
+-   **komponenty kształtu**, takie jak *wierzchołki**,**krawędzie**,**kształty zamknięte**i**płaszczyzny*\'.
 
 -   **Testowanie i naprawa**. FreeCAD posiada narzędzia do testowania siatek *(test bryłowy, test bez użycia podwójnych rozgałęzień, test samoczynnego przecięcia)* oraz do naprawy siatek *(wypełnienie otworów, jednolita orientacja)*.
 

@@ -34,6 +34,8 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 -   A button has been added to switch the colors of the [3D view](3D_view.md) background gradient in the [Preferences](Preferences_Editor#Colors.md). [Pull request #7155](https   *//github.com/FreeCAD/FreeCAD/pull/7155)
 -   Commands to [store](Std_StoreWorkingView.md) and [recall](Std_RecallWorkingView.md) a temporary working view have been added. [Pull request #7525](https   *//github.com/FreeCAD/FreeCAD/pull/7525)
 -   Value changes with the mouse wheel in \'input fields\' (a widget type used to enter values in task panels, for example by [Draft Line](Draft_Line.md)) are disabled if the widget doesn\'t have the focus and the [ComboBoxWheelEventFilter](Fine-tuning.md) switch is enabled. This prevents unwanted value changes while scrolling, as already was the case for spin and combo boxes. [request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561%7CPull)
+-   The toolbar button for [Edit Mode](Std_UserEditMode.md) has been removed. [Pull request #7570](https   *//github.com/FreeCAD/FreeCAD/pull/7570)
+-   The toolbar buttons for [Print](Std_Print.md), [Copy](Std_Copy.md), [Paste](Std_Paste.md) and [Cut](Std_Cut.md) have been removed. [Pull request #7571](https   *//github.com/FreeCAD/FreeCAD/pull/7571) and [commit ea9a04e](https   *//github.com/FreeCAD/FreeCAD/commit/ea9a04e)
 
 ## Core system and API 
 
@@ -106,8 +108,12 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 -   The inaccuracy of [Draft Snap Near](Draft_Snap_Near.md) when snapping to curves was fixed. In addition, [Draft Snap Perpendicular](Draft_Snap_Perpendicular.md) can now also snap to faces and find multiple points. To snap to a vertex (e.g. a [Draft Point](Draft_Point.md)) [Draft Snap Endpoint](Draft_Snap_Endpoint.md) must now be used instead of [Draft Snap Near](Draft_Snap_Near.md). [Pull request #7132](https   *//github.com/FreeCAD/FreeCAD/pull/7132)
 -   To make working with [layers](Draft_Layer.md) easier their drag and drop behavior was modified. If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer, it is no longer removed from the group, and vice versa. This works without holding down the **Ctrl** key. [Pull request #7462](https   *//github.com/FreeCAD/FreeCAD/pull/7462)
+-   The [Draft PointArray](Draft_PointArray.md) command now supports more point object types. Any object with a shape and vertices, as well as a [mesh](Mesh_Workbench.md) and a [point cloud](Points_Workbench.md) can be used. [Pull request #7597](https   *//github.com/FreeCAD/FreeCAD/pull/7597)
 
 ### Further Draft improvements 
+
+-   Several [Draft PathArray](Draft_PathArray.md) related issues have been fixed. [Pull request #7506](https   *//github.com/FreeCAD/FreeCAD/pull/7506)
+-   The [Draft Edit](Draft_Edit.md) command has received several improvements. For [wires](Draft_Wire.md), [B-splines](Draft_BSpline.md) and [Bézier curves](Draft_BezCurve.md) a Close/Open option has been added to the edge context menu. For B-splines and Bézier curves a Reverse option has been added to the same menu as well. The task panels have been cleaned up. [Pull request #7527](https   *//github.com/FreeCAD/FreeCAD/pull/7527) and [Pull request #7541](https   *//github.com/FreeCAD/FreeCAD/pull/7541)
 
 ## FEM Workbench 
 
@@ -117,8 +123,8 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ### Further FEM improvements 
 
--   There is now an <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *32px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) to set the initial internal pressure of fluids. [Pull request #7364](https   *//github.com/FreeCAD/FreeCAD/pull/7364)
--   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *32px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) now has a task panel and it is possible to set the heat for several bodies or to use several constraints for different bodies in one analysis. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
+-   There is now an <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width   *24px;"> [initial pressure constraint](FEM_ConstraintInitialPressure.md) to set the initial internal pressure of fluids. [Pull request #7364](https   *//github.com/FreeCAD/FreeCAD/pull/7364)
+-   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *24px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) now has a task panel and it is possible to set the heat for several bodies or to use several constraints for different bodies in one analysis. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
 -   It is now possible to open (and this way visualize) \*.pvtu files (partitioned VTK unstructured grid data). A \*.pvtu file is also the result of an [Elmer](FEM_SolverElmer.md) simulation, when more than one CPU core was used. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio has been added to the VTK result pipeline. It gives an indication of ductile rupture for materials with a \"MaterialMechanicalNonlinear\" object. [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
 
@@ -161,6 +167,11 @@ Placeholder for an eye-catching image selected by the admins from the [user show
    
 
 ### Further Sketcher improvements 
+
+-   The toolbar button for [Constrain refraction (Snell\'s law)](Sketcher_ConstrainSnellsLaw.md) has been removed. [Commit ef62fc3](https   *//github.com/FreeCAD/FreeCAD/commit/ef62fc3)
+-   The toolbar buttons for [Select redundant constraints](Sketcher_SelectRedundantConstraints.md) and [Select conflicting constraints](Sketcher_SelectConflictingConstraints.md) have been removed. [Pull request #7568](https   *//github.com/FreeCAD/FreeCAD/pull/7568)
+-   The toolbar button for [Stop operation](Sketcher_StopOperation.md) has been removed. [Pull request #7569](https   *//github.com/FreeCAD/FreeCAD/pull/7569)
+-   The \'Edit controls\' section in the Sketcher dialog has been made optional. [Pull request #7572](https   *//github.com/FreeCAD/FreeCAD/pull/7572)
 
 ## Spreadsheet Workbench 
 

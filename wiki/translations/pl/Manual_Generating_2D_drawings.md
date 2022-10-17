@@ -21,7 +21,7 @@ W poniższym ćwiczeniu zobaczymy, jak stworzyć prosty rysunek modelu krzesła 
 
 -   Przełącz się do środowiska pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [Rysunek techniczny](TechDraw_Workbench/pl.md)
 -   Naciśnij przycisk <img alt="" src=images/TechDraw_PageTemplate.svg  style="width   *24px;"> [Wstaw nową stronę przy użyciu szablonu](TechDraw_PageTemplate/pl.md)
--   Wybierz szablon **A4\_Portret\_ISO7200TD**. W oknie FreeCAD zostanie otwarta kolejna zakładka, pokazująca nową stronę.
+-   Wybierz szablon **A4_Portret_ISO7200TD**. W oknie FreeCAD zostanie otwarta kolejna zakładka, pokazująca nową stronę.
 -   W oknie [widoku drzewa](Tree_view/pl.md) *(lub w zakładce model)*, wybierz model krzesła. Najprawdopodobniej zostanie on nazwany czymś w rodzaju *\"Otwórz importer CASCADE STEP\"*.
 -   Naciśnij przycisk <img alt="" src=images/TechDraw_View.svg  style="width   *24px;"> [Wstaw widok](TechDraw_View/pl.md).
 -   Obiekt Widoku zostanie utworzony na naszej stronie. Wybierz obiekt widoku w widoku drzewa, a następnie nadaj widokowi następujące cechy [właściwości](TechDraw_View/pl#Właściwosci.md) w zakładce danych widoku połączonego   *

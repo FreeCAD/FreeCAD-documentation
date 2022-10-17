@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch Rebar BeamReinforcement
-   Name/ru   *Arch Rebar BeamReinforcement
-   MenuLocation   *Arch → Rebar tools
+   Name/ru   *Армировать балку
+   Name   *Arch_Rebar_BeamReinforcement
+   MenuLocation   *Arch → Rebar tools → Beam Reinforcement<br>3D/BIM → Reinforcement tools → Beam Reinforcement
    Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   SeeAlso   *[ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/ru.md), [Arch Rebar](Arch_Rebar/ru.md)
    Version   *0.19
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/ru.md), [Арматура по эскизу](Arch_Rebar/ru.md), [Arch Rebar ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/ru.md)
 ---
 
 # Arch Rebar BeamReinforcement/ru
-
-
-</div>
 
 ## Описание
 
@@ -167,7 +164,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 **Top/Bottom Reinforcement Rebars   *** Rebars present at top/bottom side of beam
 
--    **NumberDiameterOffset**   * A tuple of Number\#Diameter\@Offset string. Each element of tuple represents reinforcement for each new layer.
+-    **NumberDiameterOffset**   * A tuple of Number#Diameter@Offset string. Each element of tuple represents reinforcement for each new layer.
 
 -    **Rebar Type**   * List of tuple of type of reinforcement bars.
 
@@ -181,7 +178,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 **Left/Right Reinforcement Rebars   *** Rebars present at left/right side of beam
 
--    **NumberDiameterOffset**   * String of Number\#Diameter\@Offset set for reinforcement bars.
+-    **NumberDiameterOffset**   * String of Number#Diameter@Offset set for reinforcement bars.
 
 -    **Rebar Type**   * List of type of reinforcement bars.
 
@@ -262,7 +259,7 @@ RebarGroup = makeReinforcement(
 
 -    `number_spacing_value`specifies the number of stirrups, or the value of the separation between them, depending on `number_spacing_check`.
 
--    `top_reinforcement_number_diameter_offset`and `bottom_reinforcement_number_diameter_offset` are tuple of number\_diameter\_offset string. Each element of tuple represents reinforcement for each new layer.
+-    `top_reinforcement_number_diameter_offset`and `bottom_reinforcement_number_diameter_offset` are tuple of number_diameter_offset string. Each element of tuple represents reinforcement for each new layer.
 
    Syntax   * (
                "number1#diameter1@offset1+number2#diameter2@offset2+...",
@@ -296,7 +293,7 @@ RebarGroup = makeReinforcement(
 , ...) and number of elements of tuple must be
       equal to one less than number of layers.
 
--    `left_rebars_number_diameter_offset`and `right_rebars_number_diameter_offset` are string of number\_diameter\_offset.
+-    `left_rebars_number_diameter_offset`and `right_rebars_number_diameter_offset` are string of number_diameter_offset.
 
    Syntax   * "number1#diameter1@offset1+number2#diameter2@offset2+..."
 
@@ -372,13 +369,7 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

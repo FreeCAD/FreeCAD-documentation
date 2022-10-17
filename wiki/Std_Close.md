@@ -1,5 +1,5 @@
 # Std Close
-1.  REDIRECT [Std\_CloseActiveWindow](Std_CloseActiveWindow.md)
+1.  REDIRECT [Std_CloseActiveWindow](Std_CloseActiveWindow.md)
 
 
 

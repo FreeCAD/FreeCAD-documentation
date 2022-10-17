@@ -45,8 +45,8 @@ The results of most of the tests provided by this tool are optional, which means
 -   **Undefined objects**   * Checks if there are objects in the model that are not BIM objects, and will therefore be exported without full BIM properties
 -   **Solids**   * Checks that all objects in the model have valid solid geometry
 -   **Explicit quantities**   * Checks that all objects with length, width or height properties are [marked for explicit export](BIM_IfcQuantities.md) of these quantities
--   **Common Properties sets**   * Checks that all BIM objects of common types (wall, door, etc\...) have the corresponding \"common\" properry set applied (Pset\_WallCommon, Pset\_DoorCommon, etc)
--   **Property sets integrity**   * Checks that all common Psets (Pset\_WallCommon, Pset\_DoorCommon, etc) found in the model include all and only the properties defined by the IFC standards
+-   **Common Properties sets**   * Checks that all BIM objects of common types (wall, door, etc\...) have the corresponding \"common\" properry set applied (Pset_WallCommon, Pset_DoorCommon, etc)
+-   **Property sets integrity**   * Checks that all common Psets (Pset_WallCommon, Pset_DoorCommon, etc) found in the model include all and only the properties defined by the IFC standards
 -   **Materials**   * Checks that all BIM objects have a material
 -   **Standards**   * Checks that all BIM objects have a [standard code](BIM_Classification.md)
 

@@ -35,7 +35,7 @@ Mit bisColor werden die Linien auf der ursprünglichen Linie durch eine weiße L
 
 ToolBar Icon ![](images/Macro_Cut_Line.png )
 
-**Macro\_cutLine.FCMacro**
+**Macro_cutLine.FCMacro**
 
 
 {{MacroCode|code=

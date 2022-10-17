@@ -132,7 +132,7 @@ La valeur de début de l\'opération s\'adapte automatiquement à la fonction ch
 
 Les icônes .png <img alt="" src=images/FCTexture.png  style="width   *64px;"> et .svg<img alt="" src=images/FCTexture.svg  style="width   *64px;">
 
-**Macro\_Texture.FCMacro**
+**Macro_Texture.FCMacro**
 
 Téléchargez la macro sur Gist [Macro FCTexture.FCMacro](https   *//gist.github.com/mario52a/262317bc7d8555885b0e)
 
@@ -180,7 +180,7 @@ Image   *Texture 001 Logo.png\|Le logo de FreCAD. Image   *Texture 002 Fe FC.png
 
 <center>
 
-Image   *Texture\_003\_napperon.png\|Une portion d\'une nappe de table. Image   *Texture\_005\_larme.png\|Une tôle larmée.
+Image   *Texture_003_napperon.png\|Une portion d\'une nappe de table. Image   *Texture_005_larme.png\|Une tôle larmée.
 
 
 </center>
@@ -216,7 +216,7 @@ Image   *Texture\_003\_napperon.png\|Une portion d\'une nappe de table. Image   
 
 <center>
 
-[File   *FCTexture\_Example.gif\|Procédure](File   *FCTexture_Example.gif%7CProcédure) pour créer un solide   *
+[File   *FCTexture_Example.gif\|Procédure](File   *FCTexture_Example.gif%7CProcédure) pour créer un solide   *
 **1   *** Créer les lofts avec l\'outil <img alt="" src=images/Part_RuledSurface.svg  style="width   *24px;">ou avec la <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;"> [Macro Loft](Macro_Loft/fr.md)
 **2   *** Sélectionnez l\'ensemble et faites une opération d\'extrusion avec l\'outil <img alt="" src=images/Part_Extrude.svg  style="width   *24px;">
 **3A   *** Pour Linux téléchargez [GMSHMesh](https   *//github.com/psicofil/Macros_FreeCAD) (auteur psicofil) [Macro GMSH Wiki page](Macro_GMSH.md)
@@ -266,7 +266,7 @@ La macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;"
                 ####new
 ```
 
--   ver 0.13b   * 30/12/2020 ajout **time.clock()** et **time.process\_time()** for Python 3xyz\...
+-   ver 0.13b   * 30/12/2020 ajout **time.clock()** et **time.process_time()** for Python 3xyz\...
 -   ver 0.13    * 17/04/2020 Layout et PySide2 Qt5
 -   ver 0.12    * 04/08/2019 ajout d\'un bouton pour height
 -   ver 0.11    *03/07/2019 adapte à Python 3
@@ -279,7 +279,7 @@ La macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width   *32px;"
 
 -   ver 0.4    * 08/08/2014 PyQt4 PySide
 
-ver 0.3    * 28/03/2014    *commenté la ligne \"**\# self.checkBox\_5.setAccessibleName(\_fromUtf8(\"\"))**\" qui a causé une erreur d\'exécution à partir de la version FreeCAD    * Version   * 0.14.3343 (Git), Python version   * 2.7.6, Qt version   * 4.8.5
+ver 0.3    * 28/03/2014    *commenté la ligne \"**\# self.checkBox_5.setAccessibleName(\_fromUtf8(\"\"))**\" qui a causé une erreur d\'exécution à partir de la version FreeCAD    * Version   * 0.14.3343 (Git), Python version   * 2.7.6, Qt version   * 4.8.5
 
 
 

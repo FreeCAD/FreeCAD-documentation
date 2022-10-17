@@ -15,7 +15,7 @@
 
 This small macro turns the arrow of the mouse in a precision cross.
 
-<img alt="Macro\_Mouse\_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;"> 
+<img alt="Macro_Mouse_Cross" src=images/Macro_Mouse_Cross_00.png  style="width   *480px;"> 
 *Small example of using the class '''ViewObserver()''' and the use of the keyboard with '''[SoKeyboardEvent](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)'''*
 
 ## Usage
@@ -30,7 +30,7 @@ This small macro turns the arrow of the mouse in a precision cross.
 
 ToolBar icon ![](images/Macro_Mouse_Cross.png )
 
-**Macro\_Mouse\_Cross.FCMacro**
+**Macro_Mouse_Cross.FCMacro**
 
 
 {{MacroCode|code=

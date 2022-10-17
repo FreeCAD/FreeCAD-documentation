@@ -62,7 +62,7 @@ For any feedback (bug, feature request, comments, \...), please use this forum t
 
 
 
-**Macro\_FCTree2Ascii.FCMacro**
+**Macro_FCTree2Ascii.FCMacro**
 
 
 {{MacroCode|code=

@@ -194,9 +194,9 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **parallel_diameter**   * Diamètre des barres d\'armature parallèles.
 
--    **parallel_amount_spacing_check**   * Si elle vaut True, alors la valeur de parallel\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de parallel\_amount\_spacing\_value est utilisée comme espacement dans les barres parallèles.
+-    **parallel_amount_spacing_check**   * Si elle vaut True, alors la valeur de parallel_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de parallel_amount_spacing_value est utilisée comme espacement dans les barres parallèles.
 
--    **parallel_amount_spacing_value**   * Contient le nombre de barres ou l\'espacement entre les barres parallèles en fonction de la valeur de amount\_spacing\_check.
+-    **parallel_amount_spacing_value**   * Contient le nombre de barres ou l\'espacement entre les barres parallèles en fonction de la valeur de amount_spacing_check.
 
 **Propriétés des barres d\'armature dans le sens transversal de la face sélectionnée    ***
 
@@ -216,11 +216,11 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **cross_diameter**   * Diamètre des barres d\'armature transversales.
 
--    **cross_amount_spacing_check**   * Si elle vaut True, la valeur de cross\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de cross\_amount\_spacing\_value est utilisée comme espacement entre les barres.
+-    **cross_amount_spacing_check**   * Si elle vaut True, la valeur de cross_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de cross_amount_spacing_value est utilisée comme espacement entre les barres.
 
--    **cross_amount_spacing_value**   * Contient le nombre d\'armatures ou l\'espacement entre les armatures en fonction de la valeur de cross\_amount\_spacing\_check.
+-    **cross_amount_spacing_value**   * Contient le nombre d\'armatures ou l\'espacement entre les armatures en fonction de la valeur de cross_amount_spacing_check.
 
--    **cross_rounding**   * Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le cross\_diameter.
+-    **cross_rounding**   * Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le cross_diameter.
 
 -    **cross_bent_bar_length**   * Représente la longueur du bras de la barre d\'armature transversale pliée lorsque le type de barre transversale est BentShapeRebar.
 
@@ -230,9 +230,9 @@ SlabReinforcementGroup = makeSlabReinforcement(
 
 -    **cross_distribution_rebars_diameter**   * Diamètre des armatures de distribution pour les armatures pliées en croix.
 
--    **cross_distribution_rebars_amount_spacing_check**   * Si la valeur est True, alors la valeur de cross\_distribution\_rebars\_amount\_spacing\_value est utilisée comme nombre de barres, sinon la valeur de cross\_distribution\_rebars\_amount\_spacing\_value est utilisée comme espacement dans cross\_distribution\_rebars. La valeur par défaut est True.
+-    **cross_distribution_rebars_amount_spacing_check**   * Si la valeur est True, alors la valeur de cross_distribution_rebars_amount_spacing_value est utilisée comme nombre de barres, sinon la valeur de cross_distribution_rebars_amount_spacing_value est utilisée comme espacement dans cross_distribution_rebars. La valeur par défaut est True.
 
--    **cross_distribution_rebars_amount_spacing_value**   * Contient le nombre ou l\'espacement entre les barres de distribution pour un côté des barres de forme pliée en croix en fonction de la valeur de cross\_distribution\_rebars\_check. La valeur par défaut est 2.
+-    **cross_distribution_rebars_amount_spacing_value**   * Contient le nombre ou l\'espacement entre les barres de distribution pour un côté des barres de forme pliée en croix en fonction de la valeur de cross_distribution_rebars_check. La valeur par défaut est 2.
 
 **Propriétés communes aux armatures parallèles et croisées    ***
 

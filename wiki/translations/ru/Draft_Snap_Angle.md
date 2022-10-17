@@ -25,8 +25,6 @@
 
 </div>
 
-In FreeCAD version 0.19 and earlier this snap option only works properly for circular edges on a plane parallel to the XY plane of the global coordinate system.
-
 ![](images/Draft_Snap_Angle_example.png ) 
 *Snapping the second point of a line to the -30° point on a circular edge. The small magenta circles indicate all available special cardinal points.*
 

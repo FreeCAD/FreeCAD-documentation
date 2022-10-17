@@ -10,13 +10,13 @@ Currently this page mainly catalogs links to relevant FreeCAD forum discussion a
 
 See also a [video tutorial](https   *//www.youtube.com/watch?v=sCs8xlrw2nM) of the contents of this page
 
-## Мотивация
+## Аргументы в пользу Conda 
 
 The motivation for using Conda is multi-fold, as is Conda\'s purpose.
 
-Let\'s break it down.
+Рассмотрим более подробно.
 
-### Conda as a Package Manager 
+### Conda как пакетный менеджер 
 
 First, Conda is a package manager \-- similar to apt or pip.
 
@@ -24,7 +24,7 @@ This means we can install **packages** with a a simple conda install from variou
 
 Conda Forge is analogous to [the Python Package Index (PyPI)](https   *//pypi.org/), a community channel made up of thousands of contributors, and serves [freecad](https   *//anaconda.org/conda-forge/freecad) as a conda package.
 
-### Conda as a Dependency Manager 
+### Conda как менеджер зависимостей 
 
 Next, Conda is a dependency manager, also similar to apt or pip.
 
@@ -34,7 +34,7 @@ Why not just use pip? pip works really well for managing the dependencies of pro
 
 Conda works for multiple languages, and is therefore better suited for managing the dependencies of projects like FreeCAD that have dependencies across a variety of languages like C / C++ and Python.
 
-### Conda as a Environment Manager 
+### Conda как менеджер среды окружения 
 
 Conda has the concept of an [environment](https   *//docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html) which is the unique combination of packages and versions needed to run a piece of software. For example, a FreeCAD workbench.
 
@@ -46,7 +46,7 @@ Conda environments allow you to reproduce the same exact environment on differen
 
 For example, multiple local developer machines, or a remote build-server hosted by Travis CI.
 
-## Installing Conda 
+## Установка Conda 
 
 1\. [Install Miniconda](https   *//docs.conda.io/en/latest/miniconda.html).
 
@@ -82,7 +82,7 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 -   [Packaging solution   * (ana)conda](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=15197)
 -   [FreeCAD Conda Distribution](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=45582)
 
-## See Also 
+## Смотрите Также 
 
 -   <https   *//docs.conda.io/en/latest/>
 -   <https   *//conda-forge.org/docs/>
@@ -92,7 +92,7 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 -   <https   *//github.com/FreeCAD/FreeCAD_Conda>
 -   <https   *//github.com/FreeCAD/FreeCAD-AppImage>
 
-[Category   *Developer\_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
+[Category   *Developer_Documentation](Category_Developer_Documentation.md) [Category   *Developer](Category_Developer.md)
 
 
 

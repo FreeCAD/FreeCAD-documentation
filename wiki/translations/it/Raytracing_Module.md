@@ -1,5 +1,5 @@
 # Raytracing Module/it
-1.  REDIRECT [Raytracing\_Workbench/it](Raytracing_Workbench/it.md)
+1.  REDIRECT [Raytracing_Workbench/it](Raytracing_Workbench/it.md)
 
 
 

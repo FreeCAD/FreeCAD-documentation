@@ -7,13 +7,7 @@
 
 Der A2plus Arbeitsbereich ist ein [externer Arbeitsbereich](External_workbenches/de.md), zum [Zusammenbau](Assembly/de.md) verschiedener Teile in FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
-Diese Dokumentation beschreibt die A2plus Version **0.4.47 oder neuer**.
-
-
-</div>
+Diese Dokumentation beschreibt die A2plus-Version **0.4.56 oder neuer**.
 
 ## Einrichtung
 
@@ -148,7 +142,7 @@ With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width   *24p
 
 ## Stücklisten
 
-Um Stücklisten von Baugruppen zu erstellen, müssen die verschiedenen Teile der Baugruppe Teilinformationen erhalten, die von A2plus gelesen werden können. Dies geschieht durch Bearbeiten des Teils mit Hilfe der Werkzeugleistenschaltfläche <img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">. Drücke im geöffneten Teil die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> und ein [Tabellenblatt](Spreadsheet_Workbench.md) mit dem Namen *\#PARTINFO\#* wird erstellt.
+Um Stücklisten von Baugruppen zu erstellen, müssen die verschiedenen Teile der Baugruppe Teilinformationen erhalten, die von A2plus gelesen werden können. Dies geschieht durch Bearbeiten des Teils mit Hilfe der Werkzeugleistenschaltfläche <img alt="" src=images/A2p_EditPart.svg  style="width   *24px;">. Drücke im geöffneten Teil die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PartsInfo.svg  style="width   *24px;"> und ein [Tabellenblatt](Spreadsheet_Workbench.md) mit dem Namen *#PARTINFO#* wird erstellt.
 
 Die Struktur des Tabellenblatts ist wie folgt   *
 
@@ -156,7 +150,7 @@ Die Struktur des Tabellenblatts ist wie folgt   *
 
 Fülle die grauen Felder mit den Informationen aus, die du hast und in der endgültigen Stückliste haben möchtest.
 
-Verwende in der Baugruppe oder Unterbaugruppe die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PartsList.svg  style="width   *24px;">. Du wirst gefragt, ob du rekursiv über alle Unterbaugruppen iterieren möchtest. Klicke auf *Ja*. Dadurch wird ein neues Arbeitsblatt mit dem Namen *\#PARTSLIST\#* erstellt. Sie enthält die Informationen aus den verschiedenen *\#PARTSINFO\#*-Tabellenblättern der Teile in einer Liste wie dieser   *
+Verwende in der Baugruppe oder Unterbaugruppe die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PartsList.svg  style="width   *24px;">. Du wirst gefragt, ob du rekursiv über alle Unterbaugruppen iterieren möchtest. Klicke auf *Ja*. Dadurch wird ein neues Arbeitsblatt mit dem Namen *#PARTSLIST#* erstellt. Sie enthält die Informationen aus den verschiedenen *#PARTSINFO#*-Tabellenblättern der Teile in einer Liste wie dieser   *
 
 ![](images/A2p_PartslistTable.png )
 
@@ -338,7 +332,7 @@ Dragging animations are interactive since you trigger it by dragging a part of t
 4.  Now you can move the mouse and the part will follow the movement of the mouse within the defined constraints.
 5.  To end the dragging mode, left click in the assembly or press ESC.
 
-Here is an example assembly to try out the dragging animation   * [A2p\_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
+Here is an example assembly to try out the dragging animation   * [A2p_example-for-dragging-animation.FCStd](https   *//forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
 
@@ -361,12 +355,12 @@ It is also possible to change instead of a placement parameter a constraint, for
 
 #### Einfaches Skriptbeispiel 
 
-The simplest way to script an animation is a non-interactive animation that follows a defined movement. Here is an example   * First download this assembly file   * [A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and also this Python script   * [A2p\_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97981).
+The simplest way to script an animation is a non-interactive animation that follows a defined movement. Here is an example   * First download this assembly file   * [A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and also this Python script   * [A2p_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97981).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-This is the content of the script and the lines beginning with a \'\#\' describe what the different script lines do   *
+This is the content of the script and the lines beginning with a \'#\' describe what the different script lines do   *
 
 
 <div class="mw-collapsible-content">
@@ -437,7 +431,7 @@ The first script example demonstrated how to create an animation without any use
 
 This can be done by using a custom animation dialog with a slider. By moving the slider you can set the rotation angle and therefore rotate back and forth at interesting position.
 
-We use the same assembly file   * [A2p\_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and this Python script   * [A2p\_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97982).
+We use the same assembly file   * [A2p_animated-example.FCStd](https   *//forum.freecadweb.org/download/file.php?id=97554) and this Python script   * [A2p_animation-example-script.py](https   *//forum.freecadweb.org/download/file.php?id=97982).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

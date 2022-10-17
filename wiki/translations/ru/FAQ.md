@@ -1,5 +1,5 @@
 # FAQ/ru
-1.  REDIRECT [Frequently\_asked\_questions/ru](Frequently_asked_questions/ru.md)
+1.  REDIRECT [Frequently_asked_questions/ru](Frequently_asked_questions/ru.md)
 
 
 

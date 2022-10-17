@@ -40,7 +40,7 @@ Dalla versione 0.15 è possibile utilizzare l\'aggiornamento automatico (espande
 
 **3    *** si apre la finestra di dialogo
 
-**4    *** copiare l\'indirizzo di \"Percorso Macro\" (qui **C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**) In Ubuntu di solito è **/home/your\_user\_name/.FreeCAD**
+**4    *** copiare l\'indirizzo di \"Percorso Macro\" (qui **C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**) In Ubuntu di solito è **/home/your_user_name/.FreeCAD**
 
 ![Open a dialog to let you execute a macro Recorded](images/Dxf_Importer_Install_02.png ) 
 
@@ -50,7 +50,7 @@ Dalla versione 0.15 è possibile utilizzare l\'aggiornamento automatico (espande
 
 **6    *** lasciare aperto l\'esploratore
 
-![](images/Dxf_Importer_Install_04.png ) 
+![](images/Dxf_Importer_Install_04.png) 
 
 **7    *** Chiudere FreeCAD
 
@@ -94,7 +94,7 @@ Scaricare i file
 
 **13    *** incollare i file nella cartella delle macro di FreeCAD aperta nel browser (punto 6 **C   *Users\\d\\AppData\\Roaming\\FreeCAD\\**)
 
-In Ubuntu, di solito è **/home/your\_user\_name/.FreeCAD**
+In Ubuntu, di solito è **/home/your_user_name/.FreeCAD**
 
 ![paste the files in the folder](images/Dxf_Importer_Install_09.png ) 
 

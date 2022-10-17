@@ -31,7 +31,7 @@ Plots the values of a field along a specified line.
 3.  Specify the coordinates of two points defining the line along which the results are to be evaluated. Optionally, press the **Select Points** button and pick the points manually on the surface of the mesh.
 4.  Optionally, specify the **Resolution**.
 5.  Select a **Field** from the expandable list.
-6.  Press the **Create Plot** button. An XY plot of the field value vs. the line length will be created in a separate window.
+6.  Press the **Create Plot** button. An XY plot of the field value versus the line length will be created in a separate window.
 7.  Click the **OK** button to finish the command.
 
 

@@ -1591,7 +1591,7 @@ if __name__ == "__main__"   *
 
 ## Quelques imperfections 
 
--   L\'ordre de la séquence d\'images est inversé car nous utilisons la variable steps\_left qui est décomptée.
+-   L\'ordre de la séquence d\'images est inversé car nous utilisons la variable steps_left qui est décomptée.
 -   Le répertoire et le nom de l\'image sont codés en dur.
 -   Les contrôleurs multiples ne sont pas synchronisés.
 

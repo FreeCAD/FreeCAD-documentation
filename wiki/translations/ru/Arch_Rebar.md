@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */ru
-   Name   *Arch Rebar
-   Name/ru   *Arch Rebar
-   MenuLocation   *Arch → Rebar
-   Workbenches   *[Arch](Arch_Workbench.md)
-   Shortcut   *R B
-   SeeAlso   *[Arch Structure](Arch_Structure.md), [Reinforcement Addon](Reinforcement_Addon.md)
+   Name/ru   *Арматура по эскизу
+   Name   *Arch_Rebar
+   MenuLocation   *Arch → Rebar tools → Custom Rebar<br>3D/BIM → Reinforcement tools → Пользовательская Арматура
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   Shortcut   ***R** **B**
+   SeeAlso   *[Структура](Arch_Structure/ru.md), [Reinforcement](Reinforcement_Workbench/ru.md)
 ---
 
 # Arch Rebar/ru
-
-
-</div>
 
 ## Описание
 
@@ -120,13 +117,7 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

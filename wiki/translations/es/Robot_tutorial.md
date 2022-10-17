@@ -49,7 +49,7 @@ El objetivo de este tutorial es el uso de [robots industriales](http   *//en.wik
 2.  Activate the model-tab in the [tree view](tree_view.md) by clicking on it
 3.  Create a new trajectory by clicking on the <img alt="" src=images/Robot_CreateTrajectory.svg  style="width   *24px;"> [Robot CreateTrajectory](Robot_CreateTrajectory.md) button
 4.  Select the robot in the [tree view](tree_view.md)
-5.  Set home position for robot by clicking on <img alt="" src=images/Robot_SetHomePos.svg  style="width   *24px;"> [Robot\_SetHomePos](Robot_SetHomePos.md)
+5.  Set home position for robot by clicking on <img alt="" src=images/Robot_SetHomePos.svg  style="width   *24px;"> [Robot_SetHomePos](Robot_SetHomePos.md)
 6.  Switch to the [Task Panel](Task_Panel.md)
 7.  By using the sliders change robot position
 8.  When robot and trajectory are selected in [tree view](tree_view.md) clicking on <img alt="" src=images/Robot_InsertWaypoint.svg  style="width   *24px;"> [Robot InsertWaypoint](Robot_InsertWaypoint.md) will insert the way-point in the trajectory

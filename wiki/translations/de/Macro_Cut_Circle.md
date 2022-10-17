@@ -30,7 +30,7 @@ Das ursprüngliche Objekt wird nicht gelöscht.
 
 ToolBar Icon ![](images/Macro_Cut_Circle.png )
 
-**Macro\_Cut\_Circle.FCMacro**
+**Macro_Cut_Circle.FCMacro**
 
 
 {{MacroCode|code=

@@ -210,7 +210,7 @@ Soit **i** un i-ème objet arbitraire d\'une liste supposée d\'objets sélectio
 
 ####  Les étiquettes de numérotation 
 
-code\>{n\#} ou {N#} sont du type \"Chiffres ordinaires\".
+code\>{n#} ou {N#} sont du type \"Chiffres ordinaires\".
 {R#} ou {ru#} ou {RU#} sont du type \"Chiffres romains majuscules\".
 {r#} ou {rl#} ou {RL#} sont du type \"Chiffres romains minuscules\".
 {A#} ou {au#} ou {AU#} sont du type \"Alphabet majuscule\".

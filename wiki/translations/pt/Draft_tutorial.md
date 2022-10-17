@@ -25,7 +25,7 @@
 
 ### Introduction
 
-Este tutorial destina-se a introduzir o leitor ao fluxo de trabalho básico da [ Bancada Rascunho](Draft_Workbench/pt.md), que inclui a criação de perfis, o uso de planos de trabalho, bem como a criação de dimensões, texto e anotações. Este tutorial usa a notação \'\' \'(X, Y, Z)\' \'\' para denotar as coordenadas necessários para definir os pontos de um objecto.
+Este tutorial destina-se a introduzir o leitor ao fluxo de trabalho básico da [ Bancada Rascunho](Draft_Workbench/pt.md), que inclui a criação de perfis, o uso de planos de trabalho, bem como a criação de dimensões, texto e anotações. Este tutorial usa a notação *\'(X, Y, Z)\'* para denotar as coordenadas necessários para definir os pontos de um objecto.
 
 
 </div>
@@ -52,7 +52,7 @@ This tutorial uses the notation {{Value|(x, y, z)}} to denote the coordinates re
 ### Requirements
 
 -   FreeCAD versão 0.16 ou superior
--   O leitor sabe como usar as pestanas \'\' \'Dados\' \'\' e \'\'Vistas \'\' para alterar as propriedades de um elemento se desejar
+-   O leitor sabe como usar as pestanas *\'Dados\'* e *Vistas* para alterar as propriedades de um elemento se desejar
 
 
 </div>
@@ -79,11 +79,11 @@ This tutorial uses the notation {{Value|(x, y, z)}} to denote the coordinates re
 
 1.  Iniciar *FreeCAD*
 2.  Se você não tiver aberto um documento novo FreeCAD (a maioria da janela do FreeCAD parece cinzenta-out), a partir do menu, clique em Arquivo \> Novo ou clique no botão Criar uma nova Documento ![ 32px](images/Document-new.svg ).
-3.  Ative o \'\' \'Projecto Workbench\' \'\'
-4.  Selecione o menu \'\' \'Edit\' \'\'
-5.  Clique em \'\' \'Preferências\' \'\'
-6.  Ir para \'\' \'Draft\' \'\' e selecione o \'\' \'Grid e encaixando\' \'guia\'
-7.  Verifique se o \'\' \'Show Projecto snap barra de ferramentas\' \'\' está ativa
+3.  Ative o *\'Projecto Workbench\'*
+4.  Selecione o menu *\'Edit\'*
+5.  Clique em *\'Preferências\'*
+6.  Ir para *\'Draft\'* e selecione o \'\' \'Grid e encaixando\' \'guia\'
+7.  Verifique se o *\'Show Projecto snap barra de ferramentas\'* está ativa
 
 
 </div>
@@ -111,7 +111,7 @@ Most Draft objects are planar shapes so they are naturally based on a **working 
 
 <div class="mw-translate-fuzzy">
 
-1.  Seleccione ![ 32px](images/Draft_SelectPlane.png ) [ Definir plano de trabalho](Draft_SelectPlane.md). Pode se localizar dentro das \'ferramentas da Bancada Rascunho\" ou dentro do \'\' Menu Rascunho \'\' na \'\' \'\' divisão \'Utilities\'.
+1.  Seleccione ![ 32px](images/Draft_SelectPlane.png ) [ Definir plano de trabalho](Draft_SelectPlane.md). Pode se localizar dentro das \'ferramentas da Bancada Rascunho\" ou dentro do *Menu Rascunho* na divisão \'Utilities\'.
 2.  Selec o plano **XY**
 
 
@@ -125,7 +125,7 @@ Before pressing the button, you can also change the value of the offset in milli
 ##### Linhas e arcos 
 
 1.  Seleccione ![](images/Draft_Arc.png ) [Arco](Draft_Arc.md).
-2.  Defina o \'\' centro\'\' em \'\' \'(0, 0, 0)\' \'\'
+2.  Defina o *centro* em *\'(0, 0, 0)\'*
 3.  Defina o \"raio\" a 30 mm
 4.  O \"Ângulo inicial\" é 60,0 °
 5.  A abertura é 60,0 °
@@ -145,7 +145,7 @@ Repetir o mesmo procedimento para um segundo arco com um raio de 25 mm, as outra
 <div class="mw-translate-fuzzy">
 
 1.  Seleccione ![](images/Draft_Line.png ) [ Linha](Draft_Line.md).
-2.  Aproxime-se do \'\' \'Endpoint\' \'\' de qualquer arco. Um ponto branco deverá aparecer, paralelamente a este ícone ![ 32px](images/Draft_Snap_Endpoint.svg ) quando o cursor se aproxima do ponto de extremidade.
+2.  Aproxime-se do *\'Endpoint\'* de qualquer arco. Um ponto branco deverá aparecer, paralelamente a este ícone ![ 32px](images/Draft_Snap_Endpoint.svg ) quando o cursor se aproxima do ponto de extremidade.
 3.  Selecione o ponto final do outro arco.
 4.  Repetir para o outro lado dos arcos.
 
@@ -168,7 +168,7 @@ Temos agora várias curvas que detalham um perfil, no entanto, ainda não é rec
 
 <div class="mw-translate-fuzzy">
 
-1.  Selecione um arco e uma linha enquanto pressiona a \'\' \'CTRL\' \'\' chave
+1.  Selecione um arco e uma linha enquanto pressiona a *\'CTRL\'* chave
 2.  Clique em ![](images/Draft_Upgrade.png ) [ Atualizar](Draft_Upgrade.md)
 
 
@@ -185,8 +185,8 @@ Temos agora várias curvas que detalham um perfil, no entanto, ainda não é rec
 ##### Planes, retângulos e círculos 
 
 1.  Clique ![](images/Draft_Rectangle.png ) [ Retângulo](Draft_Rectangle.md)
-2.  Defina o primeiro ponto \'\' \'(-100, -60, 0)\' \'\'
-3.  Defina o segundo ponto sobre o \'\' \'(140, 90, 0)\' \'\'
+2.  Defina o primeiro ponto *\'(-100, -60, 0)\'*
+3.  Defina o segundo ponto sobre o *\'(140, 90, 0)\'*
 
 
 </div>
@@ -201,7 +201,7 @@ Temos agora várias curvas que detalham um perfil, no entanto, ainda não é rec
 
 <div class="mw-translate-fuzzy">
 
-O resultado é um \'\' \'Plano\' \'\'. Suas propriedades podem ser modificados para remover o \'\' \'preenchimento\' \'\', alterando a sua \'\' \'Modo de exibição\' \'\' para \'\' \'Wireframe\' \'\'.
+O resultado é um *\'Plano\'*. Suas propriedades podem ser modificados para remover o *\'preenchimento\'*, alterando a sua *\'Modo de exibição\'* para *\'Wireframe\'*.
 
 
 </div>
@@ -210,7 +210,7 @@ O resultado é um \'\' \'Plano\' \'\'. Suas propriedades podem ser modificados p
 <div class="mw-translate-fuzzy">
 
 1.  Seleccione ![](images/Draft_Circle.png )
-2.  Defina o centro para \'\' \'(0, 0, 0)\' \'\'
+2.  Defina o centro para *\'(0, 0, 0)\'*
 3.  Defina o raio para 15 mm
 
 
@@ -222,7 +222,7 @@ O resultado é um \'\' \'Plano\' \'\'. Suas propriedades podem ser modificados p
 ##### Polígonos
 
 1.  Seleccione ![](images/Draft_Polygon.png ) [ Polígono](Draft_Polygon.md)
-2.  O ponto de centro está localizado na \'\' \'(0, 0, 0)\' \'\'
+2.  O ponto de centro está localizado na *\'(0, 0, 0)\'*
 3.  Defina o raio para 50 mm
 4.  Defina o número de lados para 6
 
@@ -243,10 +243,10 @@ The rectangle, the circle, the polygon, and most other objects created with the 
 
 As matrizes são usadas para replicar um objecto várias vezes numa direcção, um eixo de revolução ou ao longo de um caminho.
 
-1.  Selecione o \'fio\' \'\' \'\' que foi criado anteriormente
+1.  Selecione o \'fio\' que foi criado anteriormente
 2.  Clique ![ 32px](images/Draft_Array.png ) [ matriz](Draft_Array.md)
-3.  Na aba \'\' \'\' dados \'\' do objeto, altere o tipo de matriz de \'\' \'orto\' \'\' para \'\' \'polar\' \'\'
-4.  Mudança \'\' \'Número Polar\' \'\' 1-3
+3.  Na aba dados *do objeto, altere o tipo de matriz de* \'orto\' *para* \'polar\' \'\'
+4.  Mudança *\'Número Polar\'* 1-3
 
 
 </div>
@@ -271,7 +271,7 @@ The array object shows copies of the object around the origin.
 
 #### Adicionando Dimensões 
 
-Dimensões requerem um uso constante de \'\' Restrições de agarramento \'\' \'\' para selecionar adequadamente os pontos que se deseja dimensionar. A \'\' \'da barra de ferramentas de agarramento\' \'\' é utilizado para alterar os pontos possíveis que podem ser seleccionados.
+Dimensões requerem um uso constante de *Restrições de agarramento* *para selecionar adequadamente os pontos que se deseja dimensionar. A* \'da barra de ferramentas de agarramento\' \'\' é utilizado para alterar os pontos possíveis que podem ser seleccionados.
 
 
 </div>
@@ -282,10 +282,10 @@ Linear dimensions work best when using the appropriate [Draft Snap](Draft_Snap.m
 <div class="mw-translate-fuzzy">
 
 1.  Seleccione ![](images/Draft_Dimension.png ) [ Dimension](Draft_Dimension.md)
-2.  Selecione o primeiro ponto. Este pode ser um elemento ou especificado por coordintes existente. Para este tutorial, o primeiro ponto será alwaysvbe \'\' \'(0, 0, 0)\' \'\'
+2.  Selecione o primeiro ponto. Este pode ser um elemento ou especificado por coordintes existente. Para este tutorial, o primeiro ponto será alwaysvbe *\'(0, 0, 0)\'*
 3.  Selecione o segundo ponto. Aproxime-se do ponto médio da linha superior do polígono. Um ponto branco deverá aparecer ao lado deste ícone ![ 32px](images/Draft_Snap_Midpoint.svg )
 4.  Mova o cursor para o local desejado da dimensão e clique sobre ele.
-5.  Alterar o tamanho da fonte na guia \'\' \'View\' \'\' e 6 mm
+5.  Alterar o tamanho da fonte na guia *\'View\'* e 6 mm
 
 
 </div>
@@ -321,8 +321,8 @@ Existe uma pequena diferença entre os dois   * só é possível usar o segundo 
 ##### Anotações
 
 1.  Seleccione ![](images/Draft_Text.png ) [ texto](Draft_Text.md)
-2.  Selecione o ponto de referência no \'\' \'Ver 3D\' \'\'. Neste caso, o midoint do arco superior.
-3.  Digite o texto e pressione \'\' \'Enter\' \'\'. Repita o procedimento para o maior número de linhas de texto como você deseja introduzir.
+2.  Selecione o ponto de referência no *\'Ver 3D\'*. Neste caso, o midoint do arco superior.
+3.  Digite o texto e pressione *\'Enter\'*. Repita o procedimento para o maior número de linhas de texto como você deseja introduzir.
 4.  Pressione Enter\'\'\'
 
 
@@ -334,11 +334,11 @@ Existe uma pequena diferença entre os dois   * só é possível usar o segundo 
 ##### Texto
 
 1.  Seleccione ![ 32px](images/Draft_ShapeString.png ) [ ShapeString](Draft_ShapeString.md)
-2.  Selecione o ponto de referência no \'\' \'Ver 3D\' \'\'. Isso pode ser um ponto existente ou a localização atual do cursor.
-3.  Digite o texto e pressione \'\' \'Enter\' \'\'
+2.  Selecione o ponto de referência no *\'Ver 3D\'*. Isso pode ser um ponto existente ou a localização atual do cursor.
+3.  Digite o texto e pressione *\'Enter\'*
 4.  Defina o tamanho da fonte desejado
 5.  Deixar rastreamento em 0 mm
-6.  Selecione o \'\' \'caminho\' \'\' para o arquivo fonte que você deseja usar
+6.  Selecione o *\'caminho\'* para o arquivo fonte que você deseja usar
 
 
 </div>
@@ -353,7 +353,7 @@ To extrude letters and engrave them on to solids, see the [Draft ShapeString tut
 
 #### Criando Blueprints 
 
-Para criar os modelos, é necessário criar um \'\' \'Desenho\' \'\' com os elementos que você deseja usar. Por favor, leia o [Drawing tutorial](Drawing_tutorial.md) para uma descrição detalhada.
+Para criar os modelos, é necessário criar um *\'Desenho\'* com os elementos que você deseja usar. Por favor, leia o [Drawing tutorial](Drawing_tutorial.md) para uma descrição detalhada.
 
 
 </div>

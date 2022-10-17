@@ -45,8 +45,7 @@ L\'éditeur de matériau est accessible soit par    *
 
 -    **Supprimer la propriété**   * supprime une propriété sélectionnée. Seules les propriétés personnalisées peuvent être supprimées.
 
-
-{{Arch Tools navi/fr}}
+## Remarques
 
 -   Les boutons **OK** et **Annuler** ont le même effet dans l\'éditeur de matériaux et ne sont pas utilisés directement dans les propriétés du matériau de l\'objet existant.
 
@@ -61,4 +60,4 @@ L\'éditeur de matériau est accessible soit par    *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/fr

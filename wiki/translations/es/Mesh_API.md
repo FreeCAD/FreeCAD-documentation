@@ -9,7 +9,7 @@ Los objetos malla pueden ser manipulados añadiendo facetas, eliminando facetas,
 
 </div>
 
- {.python}
+ python
  m = Mesh.Mesh()
  ... # Manipulate the mesh
  d = FreeCAD.activeDocument() # Get a reference to the actie document

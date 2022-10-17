@@ -22,7 +22,7 @@ This page provide a collection of hints and little guides on using the <img alt=
 When the centermarks are disabled hole centers and similar things can not be dimensioned. The centermarks are rendered as a little cross.
 
 -   Select the view port (e.g. \"Front\")
--   In the property panel, \'View\'\' Tab set the value *Arc Center Marks* to true
+-   In the property panel, \'View*Tab set the value*Arc Center Marks\'\' to true
 
 *Note* in this tab are [other settings](TechDraw_View#Properties.md) for the view that might be useful.
 

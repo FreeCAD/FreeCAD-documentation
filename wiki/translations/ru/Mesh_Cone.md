@@ -1,5 +1,5 @@
 # Mesh Cone/ru
-1.  REDIRECT [Mesh\_BuildRegularSolid/ru](Mesh_BuildRegularSolid/ru.md)
+1.  REDIRECT [Mesh_BuildRegularSolid/ru](Mesh_BuildRegularSolid/ru.md)
 
 
 

@@ -4,6 +4,7 @@ Poniżej znajdują się różne opcje darowizn obecnie akceptowane przez projekt
    --  -- 
    <img alt="" src=images/Liberapay_logo.svg  style="width   *128px;"> [FreeCAD LiberaPay team](https   *//liberapay.com/FreeCAD) (recommended)      <img alt="" src=images/PayPal_Logo_Icon_2014.svg  style="width   *128px;"> [PayPal](https   *//www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q)                    <img alt="" src=images/SepaLogoEN.jpg  style="width   *128px;"> SEPA bank transfer   * IBAN BE04 0019 2896 4531
                    <img alt="" src=images/GitHub.svg  style="width   *128px;"> [GitHub sponsor](https   *//github.com/sponsors/FreeCAD)                                 <img alt="" src=images/Opencollective_logo.svg  style="width   *128px;"> [OpenCollective](https   *//opencollective.com/freecad)                  <img alt="" src=images/Bountysource_logo.png  style="width   *128px;"> [Bountysource](https   *//app.bountysource.com/teams/freecad)
+             <img alt="" src=images/Stripe-logo.png  style="width   *128px;"> [Stripe](https   *//donate.stripe.com/14k3ei9TYgwFclq145)                                                                                                                                                                     
    --  -- 
 
 Zobacz inne sposoby aby [pomóc projektowi](Help_FreeCAD/pl.md) *(dokumentacja, tłumaczenie)*.
@@ -20,22 +21,29 @@ Istnieją również inne sposoby pomocy zamiast przekazywania pieniędzy lub kod
 
 -   <img alt="" src=images/Opencollective_logo.svg  style="width   *24px;"> FreeCAD ma oficjalne [konto OpenCollective PayPal](https   *//opencollective.com/freecad), gdzie możesz przekazać dowolną kwotę, jednorazowo lub cyklicznie, poprzez kartę kredytową, przelew SEPA lub Paypal. Konto OpenCollective jest zarządzane przez [FPA](https   *//github.com/FreeCAD/FPA). OpenCollective jest dobrą opcją, ponieważ jest niezależne i używane przez wiele projektów open-source.
 
+OpenCollective jest również [501(c)](https   *//en.wikipedia.org/wiki/501(c)_organization) organizacją non-profit i może wystawiać [potwierdzenia darowizny](https   *//docs.opencollective.com/help/financial-contributors/receipts) przydatne dla amerykańskich podatników.
+
 -   <img alt="" src=images/_GitHub.svg  style="width   *24px;"> [GitHub sponsors](https   *//github.com/sponsors/FreeCAD) jest platformą sponsorską oferowaną przez GitHub, gdzie znajduje się kod źródłowy FreeCAD. Możesz tam przekazać dowolną kwotę miesięcznie na rzecz FreeCAD, za pomocą karty kredytowej lub Paypal. Konto sponsorów na GitHub jest zarządzane przez [FPA](https   *//github.com/FreeCAD/FPA).
 
 -   <img alt="" src=images/Bountysource_logo.png  style="width   *24px;"> Konto [Bountysource](https   *//salt.bountysource.com/teams/freecad), przekaż pieniądze na cały projekt FreeCAD lub zaoferuj **nagrodę** za rozwiązanie konkretnego problemu lub błędu. Jest to interesująca opcja, ponieważ twoja darowizna może być wykorzystana konkretnie w konkretnym obszarze. Jednakże, korzystanie z pieniędzy z Bountysource jest dla nas bardziej złożonym procesem i może wystąpić opóźnienie pomiędzy przekazaniem darowizny a jej efektywnym wykorzystaniem.
 
 **Ostrzeżenie**   * ostatnio wystąpiła seria problemów dotyczących Bountysource i zalecamy, aby na razie nie używać tej platformy. Zalecamy sprawdzanie jej [Wikipedii](https   *//en.wikipedia.org/wiki/Bountysource) w celu uzyskania aktualnych informacji.
 
+-   <img alt="" src=images/Stripe-logo.png  style="width   *24px;"> FreeCAD has a [konto darowizny Stripe](https   *//donate.stripe.com/14k3ei9TYgwFclq145), gdzie można dokonać jednorazowej darowizny za pomocą karty kredytowej.
+
 -   Pomagaj obsłuzyć koszty hostingu, wpłacając datek bezpośrednio na konto [Jürgen Riegel\'s paypal](https   *//www.paypal.com/cgi-bin/webscr?item_name=Donation+to+FreeCAD&cmd=_donations&business=Mail%40juergen-riegel.net). Jürgen jest pierwotnym deweloperem FreeCAD.
 
--   Niektórzy programiści wykonują określone zadania za pieniądze lub mogą być sponsorowani, aby spędzić czas pracując nad programem FreeCAD. W przeszłości przeprowadzono kilka udanych eksperymentów, takich jak środowisko pracy [Path](Path_Workbench/pl.md) lub [eksperyment finansowania Ian Rees](https   *//opendeveloperfunding.wordpress.com/). W chwili obecnej można sponsorować następujących deweloperów   *
-    -   [Yorik](User_Yorik.md) przez <img alt="yorikvanhavre\|link=<https   *//www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/yorikvanhavre) lub <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/yorik) *([Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md), [BIM](BIM_Workbench/pl.md), IFC)*,
+## Finansowanie określonego dewelopera 
+
+-   Niektórzy programiści wykonują określone zadania za pieniądze lub mogą być sponsorowani, aby spędzić czas pracując nad programem FreeCAD. W przeszłości przeprowadzono kilka udanych eksperymentów, takich jak środowisko pracy [Path](Path_Workbench/pl.md) lub [eksperyment finansowania Ian Rees](https   *//opendeveloperfunding.wordpress.com/). Następujący deweloperzy mogą być sponsorowani indywidualnie. Finansowanie dewelopera indywidualnie może być świetnym sposobem na skupienie swojej darowizny na konkretnym obszarze rozwoju programu FreeCAD, którym jesteś szczególnie zainteresowany   *
+
+-   -   [Yorik](User_Yorik.md) przez <img alt="yorikvanhavre\|link=<https   *//www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/yorikvanhavre) lub <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/yorik) *([Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md), [BIM](BIM_Workbench/pl.md), IFC)*,
     -   [Kurt Kremitzki](User_Kkremitzki.md) przez <img alt="kkremitzki\|link=<https   *//www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/kkremitzki) lub <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/kkremitzki) *(infrastruktura, serwery, pakiety, Debian/Ubuntu)*,
     -   Lei Zheng aka [Realthunder](https   *//github.com/realthunder) przez [PayPal](https   *//www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SM8GY3U2UUJN), <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/realthunder/) lub <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/thundereal) *([App Link](App_Link.md), [Assembly3](Assembly3.md))*,
     -   Lorenz aka looooo przez <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/looooo/donate) *([FCGears workbench](https   *//github.com/looooo/freecad.gears), pakiety [Conda](Conda.md))*,
     -   Amritpal Singh aka amrit3701 przez <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/amrit3701) lub <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/amrit3701) *([dodatek Rebar](https   *//github.com/amrit3701/FreeCAD-Reinforcement))*.
-    -   Brad Collette aka sliptonic przez <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/sliptonic/donate) lub <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/sliptonic) 
-*([Path](Path_Workbench/pl.md))*
+    -   Brad Collette aka sliptonic przez <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/sliptonic/donate) lub <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/sliptonic) *([Path](Path_Workbench/pl.md))*.
+    -   Ajinkya Dahale przez <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/ajinkyadahale/) lub <img alt="" src=images/_GitHub.svg  style="width   *24px;"> [GitHub](https   *//github.com/sponsors/AjinkyaDahale/) *([Projekt dotyczący wiązań B-Spline](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=71130) i ogólne poprawianie / ulepszanie błędów programu FreeCAD)*.
 
 ## Zadania
 
@@ -55,9 +63,19 @@ Aby zachęcić osoby i firmy do sponsorowania projektu FreeCAD, stworzyliśmy r�
 -   🥈 Sponsor srebrny   * od 100 USD / 100 EUR miesięcznie. Umożliwia wyświetlenie nazwiska lub nazwy firmy na stronie [sponsorów](https   *//www.freecad.org/sponsor.php), z linkiem do strony internetowej i jednoliniowym opisem.
 -   🥇 Złoty sponsor   * od 200 USD / 200 EUR miesięcznie. Pozwala na wyświetlenie Twojego nazwiska lub nazwy firmy i logo na stronie [sponsorów](https   *//www.freecad.org/sponsor.php), z linkiem do Twojej strony internetowej i indywidualnym tekstem opisu. Firmy, które wcześnie pomogły projektowi, pojawią się również w kategorii Złotych sponsorów.
 
+Zamiast przekazywać darowizny co miesiąc, wygodniejsze może być przekazanie darowizny w postaci jednego grosza, która podzielona przez dwanaście da ci prawo do wejścia na poziom sponsorowania. Nie wahaj się!
+
 ## Stowarzyszenie FPA 
 
 Stowarzyszenie projektu FreeCAD *(FPA)* jest stowarzyszeniem non-profit utworzonym w 2022 roku przez administratorów i programistów FreeCAD z siedzibą w Belgii. Jest ono odpowiedzialne za przejrzyste zbieranie, obsługę i dystrybucję pieniędzy zebranych poprzez darowizny. Więcej szczegółów i raporty są dostępne na stronie [FPA](https   *//github.com/FreeCAD/FPA). Z wyjątkiem [konta zespołu LiberaPay](https   *//liberapay.com/FreeCAD), które jest bezpośrednio zarządzane przez jego członków, wszystkie inne kanały darowizn powyżej są obsługiwane i zarządzane przez FPA.
+
+## Odliczenia podatkowe 
+
+FPA, choć jest organizacją non-profit, nie jest organizacją charytatywną. Osoby i firmy przekazujące darowizny na rzecz FPA są zatem [nieuprawnione do ulgi podatkowej](https   *//finances.belgium.be/fr/particuliers/avantages_fiscaux/dons) według prawa belgijskiego. Każdy kraj ma jednak swoje własne zasady i prawa, które decydują o tym, co daje jego obywatelowi prawo do ulgi podatkowej, a co nie. Zawsze zaleca się konsultację przepisów prawnych własnego kraju.
+
+Obywatele USA i firmy mogą jednak skorzystać z odliczeń podatkowych przy przekazywaniu darowizn dla projektu FreeCAD. W tym celu musisz wybrać platformę **OpenCollective** powyżej. OpenCollective jest organizacją [501(c)3](https   *//en.wikipedia.org/wiki/501(c)(3)_organizacja) i zapewnia [dokumenty do odliczeń podatkowych](https   *//docs.opencollective.com/help/financial-contributors/receipts).
+
+FPA może zawsze wystawić pokwitowanie za darowiznę. [Wyślij nam maila](mailto   *fpa@freecad.org) z danymi dotyczącymi darowizny, a my chętnie wyślemy Ci pokwitowanie.
 
 
 

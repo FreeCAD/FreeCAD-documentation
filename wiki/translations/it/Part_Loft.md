@@ -54,7 +54,7 @@ Per ulteriori informazioni su come sono uniti i profili, fare riferimento alla p
 
 <div class="mw-translate-fuzzy">
 
-![centre\|Part\_Loft. Da tre profili di cui due sono Part\_Circles e uno è Part\_Ellipse. I parametri sono Solid \"True\" e Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+![centre\|Part_Loft. Da tre profili di cui due sono Part_Circles e uno è Part_Ellipse. I parametri sono Solid \"True\" e Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
 
 
 </div>

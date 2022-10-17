@@ -21,7 +21,7 @@ Cette macro permet d\'afficher un signal, ou un texte dans une boîte de dialogu
 
 ToolBar Icon ![](images/Macro_MessageBox.png )
 
-**Macro\_MessageBox.FCMacro**
+**Macro_MessageBox.FCMacro**
 
 
 {{MacroCode|code=

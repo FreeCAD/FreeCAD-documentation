@@ -198,7 +198,7 @@ La discussione nel Forum [qui](http   *//forum.freecadweb.org/viewtopic.php?f=23
 
 
 
-[Category   *BIM](Category_BIM.md) [Category   *Arch](Category_Arch.md) [Category   *3rd Party](Category_3rd_Party.md) [Category   *File\_Formats](Category_File_Formats.md)
+[Category   *BIM](Category_BIM.md) [Category   *Arch](Category_Arch.md) [Category   *3rd Party](Category_3rd_Party.md) [Category   *File_Formats](Category_File_Formats.md)
 
 
 

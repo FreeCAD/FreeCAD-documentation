@@ -27,7 +27,7 @@ O terceiro clique estende a seleção a seu objeto \'container\' ([PartDesign Bo
 
 ### Comandos de seleção 
 
--   Para selecionar todos os objetos   * [Std Std\_SelectAll](Std_SelectAll/pt-br.md).
+-   Para selecionar todos os objetos   * [Std Std_SelectAll](Std_SelectAll/pt-br.md).
 -   Para encaixotar selecione vários objetos principais   * [Std Std BoxSelection](Std_BoxSelection/pt-br.md).
 -   Para encaixotar selecione várias faces   * [Std BoxElementSelection](Std_BoxElementSelection/pt-br.md) ou [Part BoxSelection](Part_BoxSelection/pt-br.md).
 

@@ -44,7 +44,7 @@ FreeCAD uses a palette adapted from the [Tango palette](https   *//web.archive.o
 See [FreeCAD palette](https   *//drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) for the full range. A selection of some key colors.
 
       
-                                                                                                                                                              Use the Yellow tones for tools that create objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
+                                                                                                                                                          Use the Yellow tones for tools that create objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
   style=\"background-color   *#729fcf;\|   style=\"background-color   *#3465a4;\|   style=\"background-color   *#204a87;\|   style=\"background-color   *#0b1521;\|   Use the Blue tones for tools that modify objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
   style=\"background-color   *#34e0e2\|    style=\"background-color   *#16d0d2\|    style=\"background-color   *#06989a\|    style=\"background-color   *#042a2a\|    Use the Teal tones for view-related tools; for an example, see the [View Menu](Std_View_Menu.md).
   style=\"background-color   *#ef2929\|    style=\"background-color   *#cc0000\|    style=\"background-color   *#a40000\|    style=\"background-color   *#280000\|    Use the Red tones for Constraint related tools; for an example, see [Sketcher Workbench](Sketcher_Workbench.md).

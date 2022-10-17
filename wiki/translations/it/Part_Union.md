@@ -1,5 +1,5 @@
 # Part Union/it
-1.  REDIRECT [Part\_Fuse/it](Part_Fuse/it.md)
+1.  REDIRECT [Part_Fuse/it](Part_Fuse/it.md)
 
 
 

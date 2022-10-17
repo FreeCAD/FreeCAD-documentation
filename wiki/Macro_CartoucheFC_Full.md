@@ -14,11 +14,11 @@
 
 This macro is a complete application, it allows to fill simply all the fields of the cartridge
 
-Choice in the page [Misc\_templates\_Full](Misc_templates_Full.md)
+Choice in the page [Misc_templates_Full](Misc_templates_Full.md)
 
 Here the order of filling in the line FreeCAD texteditable. The date and time fields are separated by a **\"space negative space\" \" - \"** and constitute a single line textedit.
 
-<img alt="CartoucheFC\_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
+<img alt="CartoucheFC_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width   *680px;">
 
 ## Usage
 
@@ -27,8 +27,8 @@ Here the order of filling in the line FreeCAD texteditable. The date and time fi
 If you have any questions or want to add a function, you can address you on the french forum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 
 -   The window remains above other Windows, thereby controlling the cartridge without leaving the program.
--   Copy the code into a file named **Macro\_CartoucheFC\_Full.FCMacro** and place it in your usual macros directory.
--   After you have created your drawing sheet using the Drawing of FreeCAD module, run the macro **Macro\_CartoucheFC\_Full**.
+-   Copy the code into a file named **Macro_CartoucheFC_Full.FCMacro** and place it in your usual macros directory.
+-   After you have created your drawing sheet using the Drawing of FreeCAD module, run the macro **Macro_CartoucheFC_Full**.
 -   At the opening, the program will register in memory all data already present in the cartridge of the sheet (if they are filled), all these data will be automatically returned to using the button ** Memo** and kept in memory until the closure of the programme.
 -   First select your page to work
 -   Date button ** D.** and time ** H.** displayed the date and time of the system.
@@ -51,7 +51,7 @@ The icon for you toolBar ![](images/Macro_CartoucheFC_Full.png )
 
 
 
-**Macro\_CartoucheFC\_Full.FCMacro**
+**Macro_CartoucheFC_Full.FCMacro**
 
 
 {{MacroCode|code=

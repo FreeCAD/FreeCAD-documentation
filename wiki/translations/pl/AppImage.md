@@ -1,5 +1,5 @@
 # AppImage/pl
-**As of 7 July 2019, the FreeCAD community has been observing that downloading AppImages from Github seems to timeout before completion. We aren't sure why this is occurring. If this happens to you please try downloading again. It make take a few tries. A recommended practice is to use the AppImage [https   *//www.freecadweb.org/wiki/Appimage#Automatic_updating auto-updating feature], which will restore the download from the place it failed.**
+**As of 7 July 2019, the FreeCAD community has been observing that downloading AppImages from Github seems to timeout before completion. We aren't sure why this is occurring. If this happens to you please try downloading again. It may take a few tries. A recommended practice is to use the AppImage [https   *//www.freecadweb.org/wiki/Appimage#Automatic_updating auto-updating feature], which will restore the download from the place it failed.**
 
 
 {{TOCright}}
@@ -27,7 +27,7 @@ For other types of installation see [Download](Download.md).
 
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.20.1](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.1)   ![](images/AppImage-logo.png ) [Weekly build](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
      * style=\"text-align   * center; font-size   * 150%; \| Available FreeCAD AppImages \|+
 
@@ -57,7 +57,7 @@ Thanks to the efforts of several key devs, there is an [ongoing effort](https   
 
 This is the official AppImageUpdate GUI application.
 
-1.  Download [AppImageUpdate-x86\_64.AppImage](https   *//github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
+1.  Download [AppImageUpdate-x86_64.AppImage](https   *//github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
 2.  Make it executable by right clicking on the file, going in to properties and \"Run as an executable\".
 3.  Double click on the AppImage icon, a dialog box will appear and you\'ll be prompted to specify what AppImage you want to update.
 4.  Specify the path to your existing AppImage.
@@ -67,7 +67,7 @@ This is the official AppImageUpdate GUI application.
 
 This is a sleeker 3rd-party unofficial version of AppImageUpdate named   * **AppImageUpdater**. It is still in development (at the time of this wiki edit) but nevertheless, quite nice to use.
 
-1.  Download [AppImageUpdater-\*-x86\_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
+1.  Download [AppImageUpdater-\*-x86_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
 2.  Make it executable   * 
 ```pythonchmod +x AppImageUpdater*-x86_64.AppImage```
 3.  Run it   * 
@@ -95,13 +95,13 @@ Notes   *
 -   Run `./appimageupdatetool-x86_64.AppImage --help` to learn about functionality like `--remove-old`, `--overwrite` and `--self-update`.
 -   There is also an i386 version; see the [AppImageUpdate release](https   *//github.com/AppImage/AppImageUpdate/releases) page.
 
-Todo   * share a script that can be added as an alias or cron job.
+Todo   * share a script that can be added as an alias or [1](https   *//en.wikipedia.org/wiki/Cron%7Ccron) job.
 
 ### CLI method 2 (unofficial) 
 
-Similarly to the Graphical methods having an official and unofficial approaches to downloading AppImages, the same applies to the command line. This is a sleeker 3rd-party command line option to download AppImages
+Similarly to the Graphical methods having an official and unofficial approaches to downloading AppImages, the same applies to the command line. This is a sleeker 3rd-party command line option to download AppImages.
 
-1.  Download [appimageupdater-\*-x86\_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
+1.  Download [appimageupdater-\*-x86_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
 2.  Make it executable   * 
 ```pythonchmod +x appimageupdater*-x86_64.AppImage```
 3.  Run it   * 
@@ -113,7 +113,7 @@ Similarly to the Graphical methods having an official and unofficial approaches 
 
 ## Fixing AppImage zsync 
 
-It may happen that an AppImage won\'t update because it\'s target file changed in some way. Instead of downloading a whole new appimage, it\'s possible to rewrite the zsync file that is used by the AppImage to download the delta. More info can be found at <https   *//github.com/antony-jr/appimage-update-info-writer>.
+It may happen that an AppImage won\'t update because it\'s target file changed in some way. Instead of downloading a whole new AppImage, it\'s possible to rewrite the zsync file that is used by the AppImage to download the delta. More info can be found at <https   *//github.com/antony-jr/appimage-update-info-writer>.
 
 This section needs more details.
 
@@ -151,7 +151,7 @@ Now open the required Python source files in your preferred code editor, modify 
 
 ### Repackaging AppImages 
 
-If you\'ve modified the code, and now want to re-package the AppImage with your latest changes, use the [appimagetool-x86\_64](https   *//github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) tool on the extracted file system.
+If you\'ve modified the code, and now want to re-package the AppImage with your latest changes, use the [appimagetool-x86_64](https   *//github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) tool on the extracted file system.
 
 
 ```python

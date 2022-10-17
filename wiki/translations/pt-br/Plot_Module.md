@@ -1,5 +1,5 @@
 # Plot Module/pt-br
-1.  REDIRECT [Plot\_Workbench/pt-br](Plot_Workbench/pt-br.md)
+1.  REDIRECT [Plot_Workbench/pt-br](Plot_Workbench/pt-br.md)
 
 
 

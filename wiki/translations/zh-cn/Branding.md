@@ -17,7 +17,7 @@
 
 大部分的品牌化都是在**MainCmd.cpp**或**MainGui.cpp**中完成的。这些项目生成FreeCAD的可执行文件。要制作自己的品牌，只需复制Main或MainGui项目，并给可执行文件自己的名称，例如**FooApp.exe**。 对于新外观最重要的设置在main()函数的一个地方。下面是控制品牌化的代码部分   *
 
- {.C}
+ C
 int main( int argc, char ** argv )
 {
     // Name and Version of the Application
@@ -71,7 +71,7 @@ Gui   *   *BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_scre
 
 In FreeCAD there is also a method supported without writing a customized main() function. For this method you must write a file name called **branding.xml** and put it into the installation directory of FreeCAD. Here is an example with all supported tags   *
 
- {.XML}
+ XML
 <?xml version="1.0" encoding="utf-8"?>
 <Branding>
     <Application>FooApp</Application>

@@ -475,7 +475,7 @@ Chaque objet d\'une construction a un matériau. Il est donc logique de donner �
 
 #### Propriétés
 
-Chaque objet BIM peut également recevoir des propriétés supplémentaires, par exemple pour indiquer qu\'un mur est porteur ou non. IFC vous permet d\'ajouter des propriétés personnalisées à n\'importe quoi, mais la plupart des types tels que Wall ou Beam ont également des ensembles de propriétés spéciaux et prédéfinis, généralement appelés Pset\_WallCommon ou Pset\_BeamCommon. Vous pouvez choisir d\'ajouter ces ensembles à vos objets, modifier la valeur des propriétés contenues dans l\'ensemble ou ajouter vos propriétés personnalisées. La gestion des propriétés IFC d\'un objet sélectionné ou la modification en bloc des propriétés de plusieurs objets à la fois se fait à l\'aide du gestionnaire de propriétés sous le menu **Manage-\>IFC properties**.
+Chaque objet BIM peut également recevoir des propriétés supplémentaires, par exemple pour indiquer qu\'un mur est porteur ou non. IFC vous permet d\'ajouter des propriétés personnalisées à n\'importe quoi, mais la plupart des types tels que Wall ou Beam ont également des ensembles de propriétés spéciaux et prédéfinis, généralement appelés Pset_WallCommon ou Pset_BeamCommon. Vous pouvez choisir d\'ajouter ces ensembles à vos objets, modifier la valeur des propriétés contenues dans l\'ensemble ou ajouter vos propriétés personnalisées. La gestion des propriétés IFC d\'un objet sélectionné ou la modification en bloc des propriétés de plusieurs objets à la fois se fait à l\'aide du gestionnaire de propriétés sous le menu **Manage-\>IFC properties**.
 
 #### Quantités
 

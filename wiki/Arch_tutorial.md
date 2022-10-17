@@ -454,7 +454,7 @@ This is another very important task to be performed on BIM models. In FreeCAD, t
 
 **Using spreadsheets**
 
-To populate a spreadsheet with values extracted from the model the Arch\_Schedule tool can be used.
+To populate a spreadsheet with values extracted from the model the Arch_Schedule tool can be used.
 
  ![](images/Arch_schedule_example03.jpg ) 
 

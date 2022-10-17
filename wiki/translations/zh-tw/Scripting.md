@@ -1,5 +1,5 @@
 # Scripting/zh-tw
-1.  REDIRECT [Power\_users\_hub/zh-tw](Power_users_hub/zh-tw.md)
+1.  REDIRECT [Power_users_hub/zh-tw](Power_users_hub/zh-tw.md)
 
 
 

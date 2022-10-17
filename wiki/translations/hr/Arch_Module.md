@@ -1,5 +1,5 @@
 # Arch Module/hr
-1.  REDIRECT [Arch\_Workbench/hr](Arch_Workbench/hr.md)
+1.  REDIRECT [Arch_Workbench/hr](Arch_Workbench/hr.md)
 
 
 

@@ -25,20 +25,20 @@ Remarquez, qu\'à l\'importation, le robot est composé de 8 formes, directement
 
   Nom FreeCAD   Nom STEP
    
-  TX40\_HB      HORIZONTAL BASE CABLE OUTLET
-  TX40\_HB001   SHOULDER
-  TX40\_HB002   ARM
-  TX40\_HB003   ELBOW
-  TX40\_HB004   FOREARM
-  TX40\_HB005   WRIST
-  TX40\_HB006   TOOL FLANGE
-  TX40\_HB007   ?
+  TX40_HB       HORIZONTAL BASE CABLE OUTLET
+  TX40_HB001    SHOULDER
+  TX40_HB002    ARM
+  TX40_HB003    ELBOW
+  TX40_HB004    FOREARM
+  TX40_HB005    WRIST
+  TX40_HB006    TOOL FLANGE
+  TX40_HB007    ?
 
-Pour cette importation, changez le \"Mode d\'affichage\" de chaque forme, à l\'exception de TX40\_HB007, de \"Flat Lines\" à \"Shaded\" pour que l\'exportation VRML soit bonne. J\'ai également changé les couleurs en \[245, 196, 0\] et \[204, 204, 204\] pour mieux correspondre au jaune de Stäubli. Cachez TX40\_HB007 car il contient les axes de toutes les articulations et ne peut pas être démonté.
+Pour cette importation, changez le \"Mode d\'affichage\" de chaque forme, à l\'exception de TX40_HB007, de \"Flat Lines\" à \"Shaded\" pour que l\'exportation VRML soit bonne. J\'ai également changé les couleurs en \[245, 196, 0\] et \[204, 204, 204\] pour mieux correspondre au jaune de Stäubli. Cachez TX40_HB007 car il contient les axes de toutes les articulations et ne peut pas être démonté.
 
 ## Mesurer les caractéristiques géométriques 
 
-Afin de construire la table de Denavit-Hartenberg (voir [Robot 6 Axes](Robot_6-Axis/fr.md)) et de préparer le fichier VRML, vous devez obtenir les caractéristiques du robot. Pour l\'instant, l\'outil de mesure de FreeCAD n\'est pas prêt, vous pouvez utiliser les axes inclus dans TX40\_HB007 (les coordonnées sont indiquées en bas à gauche lorsque vous pointez un objet avec la souris) ou vous devez utiliser la console Python pour obtenir quelques informations sur la géométrie. Notez que la table DH n\'est nécessaire que si vous devez utiliser la cinématique inverse, c\'est-à-dire obtenir les coordonnées cartésiennes ou piloter le robot avec des coordonnées cartésiennes. La table DH pour ce robot est la suivante (mm, deg et deg/s)    *
+Afin de construire la table de Denavit-Hartenberg (voir [Robot 6 Axes](Robot_6-Axis/fr.md)) et de préparer le fichier VRML, vous devez obtenir les caractéristiques du robot. Pour l\'instant, l\'outil de mesure de FreeCAD n\'est pas prêt, vous pouvez utiliser les axes inclus dans TX40_HB007 (les coordonnées sont indiquées en bas à gauche lorsque vous pointez un objet avec la souris) ou vous devez utiliser la console Python pour obtenir quelques informations sur la géométrie. Notez que la table DH n\'est nécessaire que si vous devez utiliser la cinématique inverse, c\'est-à-dire obtenir les coordonnées cartésiennes ou piloter le robot avec des coordonnées cartésiennes. La table DH pour ce robot est la suivante (mm, deg et deg/s)    *
 
   i   d     θ         r     α     θmin   θmax    Vitesse de l\'axe
   ---       

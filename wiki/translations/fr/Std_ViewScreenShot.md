@@ -29,7 +29,7 @@ La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer u
 
 ### Tailles de l\'image 
 
-1.  Sélectionnez une taille standard dans la liste déroulante **Tailles standards** ou spécifiez la **Largeur** et la *\' Hauteur*\' pour une taille personnalisée.
+1.  Sélectionnez une taille standard dans la liste déroulante **Tailles standards** ou spécifiez la **Largeur** et la **Hauteur** pour une taille personnalisée.
 2.  En option, appuyez sur un bouton **Rapport d\'aspect** pour définir le rapport largeur/hauteur de l\'image. Si la zone de saisie **Largeur** est choisie, la hauteur de l\'image changera et vice versa.
 
 ### Propriétés de l\'image 

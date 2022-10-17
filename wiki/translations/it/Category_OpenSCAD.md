@@ -1,7 +1,7 @@
 # Category:OpenSCAD/it
-This category lists pages related to the [OpenSCAD\_Workbench/it](OpenSCAD_Workbench/it.md).
+This category lists pages related to the [OpenSCAD_Workbench/it](OpenSCAD_Workbench/it.md).
 
-[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User\_Documentation/it](Category   *User_Documentation/it.md)
+[Category   *Workbenches/it](Category   *Workbenches/it.md) [Category   *User_Documentation/it](Category   *User_Documentation/it.md)
 
 ### Contents
 

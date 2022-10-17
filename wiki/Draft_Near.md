@@ -1,5 +1,5 @@
 # Draft Near
-1.  REDIRECT [Draft\_Snap\_Near](Draft_Snap_Near.md)
+1.  REDIRECT [Draft_Snap_Near](Draft_Snap_Near.md)
 
 
 

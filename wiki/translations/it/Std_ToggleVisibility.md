@@ -46,7 +46,7 @@ Selezionare un elemento e premere {{KEY/it|Spazio}} sia per mostrarlo che per na
 
 #### Console Python 
 
-Inserire il comando ( in questo caso   * *Gui.getDocument(\"test\_ok\_3p\").getObject(\"Revolution006\").Visibility=False)*, poi premere {{KEY/it|Invio}}
+Inserire il comando ( in questo caso   * *Gui.getDocument(\"test_ok_3p\").getObject(\"Revolution006\").Visibility=False)*, poi premere {{KEY/it|Invio}}
 
 #### Dal menu principale 
 

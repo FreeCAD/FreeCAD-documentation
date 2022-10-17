@@ -1,4 +1,4 @@
-# <img alt="Icône atelier externe FreeCAD Données dynamiques" src=images/DynamicData_workbench_icon.svg  style="width   *64px;"> DynamicData Workbench/fr
+# <img alt="Icône de l\'atelier externe DynamicData" src=images/DynamicData_workbench_icon.svg  style="width   *64px;"> DynamicData Workbench/fr
 
 
 {{TOCright}}

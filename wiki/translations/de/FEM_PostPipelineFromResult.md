@@ -10,6 +10,9 @@
 
 # FEM PostPipelineFromResult/de
 
+
+</div>
+
 ## Beschreibung
 
 ResultPipeline ist ein Ergebnisobjekt, das eine neue grafische Darstellung von FEM-Analyse-Ergebnissen des analysierten Teils erstellt. Es fügt eine Farbskala und einige Darstellungsoptionen hinzu.
@@ -34,11 +37,11 @@ If you use a [SI](https   *//en.wikipedia.org/wiki/International_System_of_Units
 This pipeline dialog box has the following settings   *
 
 -   **Mode**   * How to draw the results. The possible modes are
-    -   **Outline**   * The outline of the result mesh. In fact is displays no results but only the borders of the mesh
-    -   **Nodes**   * The result mesh nodes
+    -   **Outline**   * The outline of the result mesh. In fact is displays no results but only the borders of the mesh.
+    -   **Nodes**   * The result mesh nodes.
     -   **Surface**   * This is the default and displays the surface of the result mesh.
     -   **Surface with Edges**   * Like **Surface** but with the mesh outline edges and the surface mesh node connection lines.
--   **Field**   * Which result property to draw
+-   **Field**   * Which result property to draw.
 -   **Vector**   * Is only active if the **Field** is a vector. You can select whether to display the vector *Magnitude* or its X, Y, Z components.
 
 ### Scale
@@ -47,7 +50,7 @@ If you double-click on the scale, you get this settings dialog box   *
 
 ![](images/SIMTUT_05.PNG )
 
-and can modify these properties   *
+and you can modify these properties   *
 
 -   **Gradient**   * You can select reversed order of the default color gradient, *Red-White-Blue*, *Black-White* or *White-Black*.
 -   **Style**   * The default option *Flow* uses the full color gradient range. The option *Zero* uses only the color gradient range starting form the color that would display the mean value to the maximum.
@@ -56,7 +59,7 @@ and can modify these properties   *
 
 ### Property Editor 
 
-In the [property editor](property_editor.md) you can set in the *View* tab the settings from the dialog box. In the *Data* tab you can additionally set this   *
+In the [property editor](Property_editor.md) you can set in the *View* tab the settings from the dialog box. In the *Data* tab you can additionally set this   *
 
 -    **Mode**   * How the filters used in the pipeline will be treated. These modes are possible   *
 

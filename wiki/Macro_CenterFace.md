@@ -41,7 +41,7 @@ Click the image, in the new window position the mouse over the image, click the 
 
 
 
-**Macro\_CenterFace.FCMacro**
+**Macro_CenterFace.FCMacro**
 
 
 {{MacroCode|code=
