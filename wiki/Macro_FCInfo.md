@@ -1,5 +1,5 @@
 # Macro FCInfo
-**[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br>(This wiki page correspond in date ver 1.22, 12/11/2020 and not include the new features)**
+**[left|45px|link=](File   *Under_construction_icon-blue.svg.md) image and page no yet upgrade with the new feature ... waiting<br>(This wiki page correspond in date ver 1.22, 12/11/2020 and not include the new features)<br><br>Upgrade page in progress<br>**
 
 
 {{Macro
@@ -25,39 +25,54 @@ Gives information about the selected shape and can display a conversion of lengt
 
 ## Utilisation
 
-Select an object or launch the application and select an object, and a series of informations appear. His calculations based on unity of FreeCAD, which is the **mm** to each new selection, the length unit always comes back on **mm** and angle on **decimal degrees**. <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width   *200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width   *200px;">
+Select an object or launch the application and select an object, and a series of informations appear. His calculations based on unity of FreeCAD, which is the **mm** to each new selection, the length unit always comes back on **mm** and angle on **decimal degrees**. <img alt="window" src=images/Macro_FCInfo_06.png  style="width   *600px;">
 
 
 
 
 **Sector 1   * Document**
 
+![FCInfo Document](images/Macro_FCInfo_Document_00.png )
+
 -   Document name
--   Label of the object
+-   Label and internal name of the object
 -   Internal Name of the object
--   Sub element name of the object
+-   Sub element name and type of the object
 -   Type of the object
 
 **Sector 2   * Coordinates click mouse**
 
+![FCInfo Coordinate](images/Macro_FCInfo_Coordinate_click_mouse_00.png )
+
 -   Coordinates X,Y and Z click to mouse
 -   The button creates point, axis, plane, copy vector axis from **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
-**Sector 3   * Value**
+**Sector 3   * Color on point**
+
+![FCInfo Color_on_point](images/Macro_FCInfo_Color_on_point_00.png )
+
+-   Colour on point clicked.
+-   Line Edit display the colour value in different formats   * \"3435973887\" , \"#cccccc\" , \"0xcccccc\" , \"204,204,204\" , \"(0.8,0.8,0.8)\"
+    -   **3435973887**    * Mode RVBA Int unsigned (format in FreeCAD preferences) Alpha = 255
+    -   **#cccccc**    * Mode RVB Hexadecimal (`Qt setStyleSheet("color    * #cccccc"`)
+    -   **0xcccccc**    * Mode RVB Hexadecimal (Python   * `hex(0xcccccc`)
+    -   \"**204,204,204** \"    * RVB decim   * Mode RVB (Qt `setStyleSheet("background-color   * rgb(204, 204, 204)")`)
+    -   **(0.8,0.8,0.8)**    * RVB float   * Mode RVB format float de 0.0 à 1.0
+
+(The number of decimals depend of the option \"x (Decimals)\")
+
+**Sector 4   * Value Units**
+
+![FCInfo Units](images/Macro_FCInfo_Units_00.png )
 
 -   If the object is a face perimeter, length of the object is displayed. Unit size can be selected    *
     km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 -   If the object is a circle, a second line is opened and displays the radius of circle.
 -   Perimeter of the shape.
 
-**Sector 4   * Vertexes and details**
-
--   CheckBox for for search or not all details of the object. If it is not checked, only the principal value is displayed.
--   Vertexes and details of the shape (compt_Edge), (compt_Faces), (compt_Vector of the Face)
-    max 200 lines in the table, if there are more than 200 lines it appears (!+ 200) and the number of lines
-    (full details can save be the **Save** button in a file in CSV format and can be viewed the file in spreadsheet with the **Read** or by an external spreadsheet as [LibreOffice](https   *//www.libreoffice.org/) [OpenOffice](http   *//openoffice.apache.org/downloads.html) or other)
-
 **Sector 5   * Inclination**
+
+![FCInfo Inclination](images/Macro_FCInfo_Inclination_00.png )
 
 -   **Inclination of the object** can be displayed in   *
     -   decimal degree, ex   * 174.831872611°
@@ -75,6 +90,8 @@ Select an object or launch the application and select an object, and a series of
 
 **Sector 6   * Surface and Volume**
 
+![FCInfo Surface and Volume](images/Macro_FCInfo_Surface_and_Volume_00.png )
+
 -   Surface of the form displayed, unit size can be selected.
 -   Surface of the face displayed, unit size can be selected.
 -   Volume of the form displayed, unit size can be selected.
@@ -87,15 +104,23 @@ Select an object or launch the application and select an object, and a series of
 
 **Sector 7   * BoundBox**
 
+![FCInfo BoundBox](images/Macro_FCInfo_BoundBox_00.png )
+
 -   BoundBox gives extreme dimensions of the shape.
 
 **Sector 8   * Center of   ***
+
+![FCInfo Center of\...](images/Macro_FCInfo_Center_of_00.png )
 
 -   Center of the shape and these coordinates XYZ
 -   Center of mass and these coordinates XYZ
 -   The button creates on point, axis, plane, copy vector axis form **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
+![FCInfo Cost](images/Macro_FCInfo_Cost_00.png )
+
 **Sector 9   * Inertia**
+
+![FCInfo Inertia](images/Macro_FCInfo_Inertia_00.png )
 
 -   Moment of inertia and these coordinates length and weigth
 -   The button creates on point, axis, plane, copy vector axis form **FreeCAD.Vector(-24.0, 240.0, 7.0)**
@@ -109,7 +134,18 @@ same for length and weigth
 -   Determinant 1    * computes the determinant of the matrix, in [scientific value](https   *//en.wikipedia.org/wiki/Scientific_notation)
 -   Determinant 2    * computes the determinant of the matrix, in decimal value
 
+**Sector 4   * Vertexes and details**
+
+![FCInfo Disabled](images/Macro_FCInfo_Disabled_module_00.png )
+
+-   CheckBox for for search or not all details of the object. If it is not checked, only the principal value is displayed.
+-   Vertexes and details of the shape (compt_Edge), (compt_Faces), (compt_Vector of the Face)
+    max 200 lines in the table, if there are more than 200 lines it appears (!+ 200) and the number of lines
+    (full details can save be the **Save** button in a file in CSV format and can be viewed the file in spreadsheet with the **Read** or by an external spreadsheet as [LibreOffice](https   *//www.libreoffice.org/) [OpenOffice](http   *//openoffice.apache.org/downloads.html) or other)
+
 **Section 10   * SpreadSheet**
+
+![FCInfo SpreedSheet](images/Macro_FCInfo_SpreedSheet_00.png )
 
 -    **Read**   * read the data in a spreadsheet saved **.FCInfo** or txt, asc, csv
 
@@ -131,6 +167,8 @@ Now for compatibility with the FreeCAD spreadsheet and since 01.17 version the T
 If you want to convert your old FCInfo spreadsheet    * Open it in FCInfo and save it with the Tabulation option checked
 
 **Section 11   * Main**
+
+![FCInfo Main](images/Macro_FCInfo_Main_00.png )
 
 -    **CheckBox Clip Board**   * if checked, the coordinates are saved in clipBoard form    * **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 

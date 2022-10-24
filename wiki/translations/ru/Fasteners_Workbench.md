@@ -199,6 +199,12 @@
 -   <img alt="" src=images/Fasteners_ISO1207.svg  style="width   *32px;"> 
 **ISO 1207** **(ГОСТ Р ИСО 1580)** Винт с низкой цилиндрической головкой со шлицем. *Класс точности А.*
 
+-   <img alt="" src=images/Fasteners_DIN96.svg  style="width   *32px;"> **DIN 96** Slotted half round head wood screw.
+
+-   <img alt="" src=images/Fasteners_GOST1144-1.svg  style="width   *32px;"> **GOST 1144-1** Slotted half round head wood screw.
+
+-   <img alt="" src=images/Fasteners_GOST1144-2.svg  style="width   *32px;"> **GOST 1144-2** Slotted half round head wood screw.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width   *32px;"> **ASME B18.6.3.1A** UNC Винт с потайной головкой и прямым шлицем.
 
 ### Винты с крестообразным шлицем 
@@ -236,6 +242,10 @@
 -   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** **(Ближайший аналог ГОСТ 11860 Исполнение 2)** Гайка колпачковая, низкая.
 
 -   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** **(Ближайший аналог ГОСТ 11860 Исполнение 1)** Гайка колпачковая.
+
+-   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width   *32px;"> **GOST 11860-1** Cap nut.
+
+-   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** T-slot nut.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Гайка квадратная с фаской.
 

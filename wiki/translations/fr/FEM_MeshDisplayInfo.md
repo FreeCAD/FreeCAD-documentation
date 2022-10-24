@@ -4,7 +4,7 @@
    Name/fr   *FEM Affichage des informations du maillage FEM
    MenuLocation   *Menu contextuel sur l'objet maillé → Afficher les informations sur le maillage FEM
    Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM MeshDisplayInfo/fr

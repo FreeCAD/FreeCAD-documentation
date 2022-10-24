@@ -6,7 +6,7 @@ L\'atelier <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"
 
 Des dimensions, des sections, des zones hachurées, des annotations et des symboles [SVG](SVG/fr.md) peuvent être ajoutés à la page, qui peuvent ensuite être exportés vers différents formats tels que [DXF](DXF/fr.md), [SVG](SVG/fr.md) et [PDF](PDF/fr.md).
 
-TechDraw a été officiellement inclus dans FreeCAD à partir de la version 0.17; il est destiné à remplacer l\'atelier [Drawing](Drawing_Workbench/fr.md) non pris en charge. Les deux ateliers sont toujours fournis dans la v0.17, mais l\'atelier Drawing pourrait être supprimé dans les versions ultérieures. Pour suivre les plans et les développements de TechDraw, visitez la [Feuille de route TechDraw](TechDraw_Roadmap.md).
+TechDraw a été officiellement inclus dans FreeCAD à partir de la version 0.17; il est destiné à remplacer l\'[atelier Drawing](Drawing_Workbench/fr.md) non supporté. L\'atelier Drawing est toujours fourni dans la version 0.20, mais ne sera plus disponible dans les futures versions ({{VersionPlus/fr|1.0}}). Pour suivre les plans et les développements de TechDraw, visitez la [Feuille de route TechDraw](TechDraw_Roadmap.md).
 
 Si votre objectif principal est la production de dessins 2D complexes et de fichiers [DXF](DXF/fr.md) et que vous n\'avez pas besoin de modélisation 3D, FreeCAD n\'est peut-être pas le bon choix pour vous. Vous pouvez envisager d\'utiliser un logiciel dédié au dessin technique, tel que [LibreCAD](https   *//fr.wikipedia.org/wiki/LibreCAD) ou [QCad](https   *//fr.wikipedia.org/wiki/QCad).
 

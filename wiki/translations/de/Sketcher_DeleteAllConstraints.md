@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher DeleteAllConstraints
-   Name/de   *Skizzierer LöscheAlleBeschränkungen
-   MenuLocation   *Skizze → Skizzierwerkzeuge → Alle Beschränkungen löschen
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   SeeAlso   *[Skizzierer Lösche Ganze Geometrie](Sketcher_DeleteAllGeometry/de.md)
+   Name/de   *Sketcher AlleRandbedingungenLöschen
+   MenuLocation   *Skizze → Skizzen-Werkzeuge → Alle Randbedingungen löschen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.18
+   SeeAlso   *[Sketcher AlleGeometrienLöschen](Sketcher_DeleteAllGeometry/de.md)
 ---
 
 # Sketcher DeleteAllConstraints/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -19,23 +16,11 @@ Dieses Werkzeug löscht alle Beschränkungen aus der zu bearbeitenden Skizze und
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Gehe zum **Skizze → Skizzierer Werkzeuge → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width   *16px"> Alle Beschränkungen löschen** Menü .
-2.  Antworte **Ja** auf das Aufklapp Dialogfeld.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Den Menüeintrag **Skizze → Skizzen-Werkzeuge → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width   *16px"> Alle Randbedingungen löschen** auswählen.
+2.  Den Aufklappdialog mit **Ja** bestätigen.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

@@ -1398,7 +1398,13 @@ Steps    *
 4.  Compile using [Arch makepkg](https   *//wiki.archlinux.org/index.php/Makepkg)    * `makepkg -s`. The -s or \--syncdeps flag will also install required dependencies.
 5.  Install created package    * `makepkg --install` or double click on the pkgname-pkgver.pkg.tar.xz inside your file browser.
 
-To update FreeCAD to latest build just repeat from step 3. Update AUR repo when there is some breaking change in the recipe or new features using `git checkout -f` inside the folder.
+To update FreeCAD to latest build just repeat from step 3. Update AUR repository when there is some breaking change in the recipe or new features using `git checkout -f` inside the folder.
+
+
+</div>
+
+
+</div>
 
 
 

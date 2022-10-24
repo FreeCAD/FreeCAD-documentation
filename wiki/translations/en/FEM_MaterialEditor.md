@@ -4,7 +4,7 @@
    MenuLocation   *Model → Materials → Material editor
    Workbenches   *[FEM](FEM_Workbench.md), [Arch](Arch_Workbench.md)
    Version   *0.18
-   SeeAlso   *[Material](Material.md), [Arch SetMaterial](Arch_SetMaterial.md), [FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[Arch SetMaterial](Arch_SetMaterial.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM MaterialEditor/en
@@ -44,8 +44,7 @@ The material editor can currently be accessed by either   *
 
 -    **Delete property**   * Deletes a selected property. Only custom properties can be deleted
 
-
-
+## Notes
 
 -   The **OK** and **Cancel** buttons have the same effect when the Material editor is not used to edit directly the material property of an existing object.
 
@@ -60,4 +59,4 @@ The material editor can currently be accessed by either   *
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialEditor/en

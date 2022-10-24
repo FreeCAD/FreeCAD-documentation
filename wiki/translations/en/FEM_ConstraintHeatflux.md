@@ -18,7 +18,7 @@ This constraint specifies film heat transfer of a surface at temperature *T* and
     -   Press the **<img src="images/FEM_ConstraintHeatflux.svg" width=16px> [FEM ConstraintHeatflux](FEM_ConstraintHeatflux.md)** button.
     -   Select the **Model → Thermal Constraints → <img src="images/FEM_ConstraintHeatflux.svg" width=16px> Constraint heatflux** option from the menu.
 2.  In the [3D view](3D_view.md) select the face(s) the constraint should be applied to.
-3.  Enter the desired surface temperature, film coefficient and environment temperature.
+3.  Enter the desired surface temperature, heat transfer coefficient and environment temperature.
 
 ## Notes
 

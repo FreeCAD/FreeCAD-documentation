@@ -2,7 +2,7 @@
 {{Macro
 |Name=Macro Copy3DViewToClipboard
 |Icon=Macro_Copy3DViewToClipboard.png
-|Description=Macro will copy the contents of the 3D view to the clipboard in image bitmap (BMP).<br/>The copy in Gimp is not possible Gimp use his model in memory.
+|Description=Macro will copy the contents of the 3D view to the clipboard in bitmap (BMP) image.<br/>Copying in Gimp is not possible. Gimp uses its own method for the copy function. 
 |Author=Mario52
 |Version=00.01
 |Date=2016-09-14
@@ -14,7 +14,7 @@
 
 ## Description
 
-Macro will copy the contents of the 3D view to the clipboard in image bitmap (BMP). The copy in Gimp is not possible Gimp use his model in memory.
+Macro will copy the contents of the 3D view to the clipboard in bitmap (BMP) image. Copying in Gimp is not possible. Gimp uses its own method for the copy function.
 
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/f5c3738f858f7b058897c6c235232cbe/raw/a10bc3b8789badc1e405541d4697d7286d9f0fd3/Macro_Copy3DViewToClipboard.FCMacro}}
@@ -25,13 +25,13 @@ Macro will copy the contents of the 3D view to the clipboard in image bitmap (BM
 -   Press **G** to grab the contents of the 3d view and copy them to the clipboard.
 -   Press **Q** to quit.
 
-PS   * if you wild other format modify the values of the line number 33 ex   *
+PS   * if you want other formats, modify the values of the line number 33 ex   *
 
 line 33    * ***glw.resize(640, 480) \# reduce the SubWindow***
 
 to
 
-Line 33    * ***glw.resize(800, 600) \# reduce the SubWindow***
+line 33    * ***glw.resize(800, 600) \# reduce the SubWindow***
 
 ## Discussion
 

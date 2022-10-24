@@ -13,7 +13,7 @@
 
 ## Description
 
-[Solveur Mystran](FEM_SolverMystran/fr.md) permet d\'utiliser le solveur [MYSTRAN](https   *//www.mystran.com). Il peut être utilisé pour    *
+La commande [Solveur Mystran](FEM_SolverMystran/fr.md) permet d\'utiliser le solveur [MYSTRAN](https   *//www.mystran.com). Il peut être utilisé pour    *
 
 1.  Définir les paramètres d\'analyse
 2.  Sélectionner le répertoire de travail

@@ -4,7 +4,7 @@
    Name/fr   *FEM Plan de coupe
    MenuLocation   *Utilitaires → Plan de coupe
    Workbenches   *[FEM](FEM_Workbench/fr.md)
-   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ClippingPlaneAdd/fr
@@ -17,7 +17,7 @@ Le plan de coupe est le même que celui que vous obtenez en utilisant la fonctio
 
 ## Utilisation
 
-Pour créer un plan de coupe, utilisez le bouton de la barre d\'outils **<img src="images/FEM_ClippingPlaneAdd.svg" width=16px> '''Plan de coupe''' ** ou le menu **Utilitaires → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Plan de coupe**. Il est possible d\'avoir plusieurs plans de coupes.
+Pour créer un plan de coupe, utilisez le bouton de la barre d\'outils **<img src="images/FEM_ClippingPlaneAdd.svg" width=16px> '''Plan de coupe'''** ou le menu **Utilitaires → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Plan de coupe**. Il est possible d\'avoir plusieurs plans de coupes.
 
 Bien que le plan soit persistant, il n\'apparaîtra pas dans la [vue en arborescence](Tree_view/fr.md). Le plan apparaît dans la vue du modèle comme ceci    *
 

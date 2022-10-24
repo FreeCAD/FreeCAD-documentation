@@ -34,7 +34,7 @@ L\'équation d\'élasticité fournit ces paramètres spéciaux    *
 
 -    **Calculate Strains**   * si les déformations doivent être calculées. Ceci calculera également les contraintes, même si **Calculate Principal** ou **Calculate Stresses** sont *false*.
 
--    **Calculate Stresses**   * si les contraintes doivent être calculées. Par rapport à **Calculate Principal**, le Tresca et la contrainte principale ne seront pas calculés.
+-    **Calculate Stresses**   * si les contraintes doivent être calculées. Par rapport à **Calculate Principal**, le critère d\'élasticité de Tresca et la contrainte principale ne seront pas calculés.
 
 -    **Constant Bulk System**   * voir le manuel d\'Elmer pour plus d\'informations.
 
@@ -48,13 +48,13 @@ L\'équation d\'élasticité fournit ces paramètres spéciaux    *
 
 -    **Maxwell Material**   * calcul du modèle de matériau viscoélastique.
 
--    **Model Lumping**   * Utilise la [modélisation par blocs fonctionnels](https   *//fr.wikipedia.org/wiki/Bloc_fonctionnel).
+-    **Model Lumping**   * utilise la [modélisation par blocs fonctionnels](https   *//fr.wikipedia.org/wiki/Bloc_fonctionnel).
 
 -    **Model Lumping Filename**   * fichier permettant de sauvegarder les résultats de la modélisation par blocs fonctionnels.
 
 -    **Stability Analysis**   * si *true*, **Eigen Analysis** devient une analyse de stabilité (analyse de flambage). Sinon, une analyse modale est effectuée.
 
-**Update Transient System**    * voir le manuel d'Elmer pour plus d'informations.
+-    **Update Transient System**   * voir le manuel d\'Elmer pour plus d\'informations.
 
 -    **Variable**   * variable pour l\'équation d\'élasticité. Ne modifiez cette variable que si **Incompressible** est définie à *true*, conformément au manuel d\'Elmer.
 
@@ -68,9 +68,9 @@ Valeurs propres    *
 
 -    **Eigen System Damped**   * définit une analyse propre amortie. Ne peut être utilisé que si **[Type de solveur linéaire](FEM_SolverElmer_SolverSettings/fr#Syst.C3.A8me_lin.C3.A9aire.md)** est *Iterative*.
 
--    **Eigen System Select**   * sélection des valeurs propres qui sont calculées. Notez que la sélection de *Largest\** provoque une exécution infinie pour Elmer récent (à partir d\'août 2022).
+-    **Eigen System Select**   * sélection des valeurs propres qui sont calculées. Notez que la sélection de *Largest\** provoque une exécution infinie pour un solveur Elmer récent (à partir d\'août 2022).
 
--    **Eigen System Tolerance**   * Tolérance de convergence pour la résolution itérative du système propre. La valeur par défaut est 100 fois la **[Type de solveur linéaire](FEM_SolverElmer_SolverSettings/fr#Syst.C3.A8me_lin.C3.A9aire.md)**.
+-    **Eigen System Tolerance**   * tolérance de convergence pour la résolution itérative du système propre. La valeur par défaut est 100 fois la **[Type de solveur linéaire](FEM_SolverElmer_SolverSettings/fr#Syst.C3.A8me_lin.C3.A9aire.md)**.
 
 -    **Eigen System Values**   * numéro du mode propre le plus élevé qui doit être calculé.
 

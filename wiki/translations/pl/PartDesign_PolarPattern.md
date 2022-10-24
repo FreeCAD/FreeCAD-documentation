@@ -93,7 +93,7 @@ Narzędzie <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *2
         
            * Wybierz [Linię odniesienia](PartDesign_Line/pl.md) w oknie [Widok drzewa](Tree_view/pl.md) lub [Linię odniesienia](PartDesign_Line/pl.md) lub krawędź w oknie [Widok 3D](3D_view/pl.md).
 -   Zaznacz pole wyboru **Odwróć kierunek**, aby odwrócić wzór.
--   Określ **Kąt**, który ma być objęty wzorcem.
+-   Określ **Kąt**, który ma być objęty wzorcem. Jeśli kąt jest mniejszy niż 360°, elementy są równomiernie rozmieszczone od 0° *(pierwszy element)* do danego kąta *(ostatni element)*. Jeśli kąt jest pełnym kołem 360°, elementy są równomiernie rozmieszczone wokół koła. Oznacza to, że dla n wystąpień kąt 360° jest równoważny kątowi 360°\*(1-1/n).
 -   Określ liczbę **Wystąpień** *(łącznie z cechą oryginalną)*.
 -   Jeśli zaznaczone jest pole wyboru **Aktualizuj widok**, widok będzie aktualizowany w czasie rzeczywistym.
 

@@ -14,15 +14,9 @@
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ### Introduction
 
-Ce tutoriel est destiné à présenter au lecteur le travail de base de [ l\'atelier Dessin](Drawing_Workbench/fr.md), ainsi que la plupart des outils disponibles pour créer des plans.
-
-
-</div>
+Ce tutoriel est destiné à présenter au lecteur le travail de base de l\'[atelier Drawing](Drawing_Workbench/fr.md), ainsi que la plupart des outils disponibles pour créer des plans.
 
 <img alt="" src=images/Drawing_tutorial_result.png  style="width   *480px;">
 
@@ -112,24 +106,12 @@ FreeCAD prend en charge l\'exportation de fichiers SVG et PDF en fonction de vos
 1.  Dans le menu **Fichier**, sélectionnez **Exporter PDF \...**
 2.  Spécifiez le chemin d\'accès et le nom du fichier exporté
 
-
-<div class="mw-translate-fuzzy">
-
-Nous avons terminé le travail de base pour [Atelier de mise en plan ](Drawing_Workbench/fr.md).
-
-
-</div>
+Nous avons terminé le travail de base pour l\'[atelier Drawing](Drawing_Workbench/fr.md).
 
 ## Lecture recommandée 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Pour savoir comment créer des modèles personnalisés, voir [Modèle de dessin ](Drawing_Template_HowTo/fr.md)
 -   Pour plus d\'informations sur les outils disponibles, consultez la page [Atelier Drawing](Drawing_Workbench/fr.md).
-
-
-</div>
 
 
  {{Drawing Tools navi}}

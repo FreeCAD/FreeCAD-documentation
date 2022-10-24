@@ -87,7 +87,7 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
 -    **Material Nonlinearity**   *
 
     -   linear - only linear material properties will be included in the analysis
-    -   nonlinear - nonlinear material properties will be used from **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=24px> '''[Nonlinear mechanical material](FEM_MaterialMechanicalNonlinear.md)'''** object
+    -   nonlinear - nonlinear material properties will be used from **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=24px> [Nonlinear mechanical material](FEM_MaterialMechanicalNonlinear.md)** object
 
 -    **Matrix Solver Type**   * type of the solver to solve equation system inside FE analysis. It may significantly affect calculation speed and memory demands. Suitability depends on your FE model and available hardware
 

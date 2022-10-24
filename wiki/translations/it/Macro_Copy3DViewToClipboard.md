@@ -1,4 +1,7 @@
 # Macro Copy3DViewToClipboard/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Copy3DViewToClipboard
 |Translate=Copia la vista 3D negli appunti
@@ -13,9 +16,18 @@
 |Shortcut=G, Q
 }}
 
+
+</div>
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 La macro copia il contenuto della vista 3D negli appunti in immagine bitmap (BMP). La copia dentro Gimp no è possibile Gimp utilizza il suo metodo.
+
+
+</div>
 
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/f5c3738f858f7b058897c6c235232cbe/raw/a10bc3b8789badc1e405541d4697d7286d9f0fd3/Macro_Copy3DViewToClipboard.FCMacro}}
@@ -26,13 +38,19 @@ La macro copia il contenuto della vista 3D negli appunti in immagine bitmap (BMP
 -   Premere **G** per catturare il contenuto della vista 3D e copiarlo negli appunti.
 -   Premere **Q** pr uscire.
 
+
+<div class="mw-translate-fuzzy">
+
 Per avere un formato diverso modificare i valori nella riga 33 ad esempio   *
+
+
+</div>
 
 line 33    * ***glw.resize(640, 480) \# reduce the SubWindow***
 
 in
 
-Line 33    * ***glw.resize(800, 600) \# reduce the SubWindow***
+line 33    * ***glw.resize(800, 600) \# reduce the SubWindow***
 
 ## Discussione
 

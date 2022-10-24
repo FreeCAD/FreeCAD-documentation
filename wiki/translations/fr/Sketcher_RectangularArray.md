@@ -12,7 +12,7 @@
 
 ## Description
 
-Crée un réseau à partir d\'éléments de sketcher .
+Crée un réseau à partir d\'éléments de Sketcher.
 
 ## Utilisation
 
@@ -32,10 +32,10 @@ Crée un réseau à partir d\'éléments de sketcher .
 
 Le **Réseau rectangulaire** a les options suivantes    *
 
--   **Colonnes**    * Le nombre de colonnes du réseau.
--   **Rangées**    * Le nombre de rangées du réseau.
--   **Espacement vertical/horizontal égal**    * Si la distance verticale entre les éléments du réseau doit être la même que la distance verticale.
--   **Contraindre la séparation entre éléments** Lorsque cette option est cochée, la distance entre les éléments du réseau sera contrainte.Si vous savez par exemple seulement que vous avez besoin d\'un réseau de 23 x 15 mm, utilisez cette option pour pouvoir ensuite modifier ces contraintes aux dimensions dont vous avez besoin.
+-   **Colonnes**    * nombre de colonnes du réseau.
+-   **Rangées**    * nombre de rangées du réseau.
+-   **Espacement vertical/horizontal égal**    * si la distance verticale entre les éléments du réseau doit être la même que la distance horizontale.
+-   **Contraindre la séparation entre éléments**    * lorsque cette option est cochée, la distance entre les éléments du réseau sera contrainte.Si vous savez par exemple seulement que vous avez besoin d\'un réseau de 23 x 15 mm, utilisez cette option pour pouvoir ensuite modifier ces contraintes aux dimensions dont vous avez besoin.
 -   **Clone**    * ??
 
 

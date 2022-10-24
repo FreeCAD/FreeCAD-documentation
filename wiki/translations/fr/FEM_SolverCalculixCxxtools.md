@@ -84,7 +84,7 @@ Les valeurs par défaut peuvent être définies dans le menu **Édition → Pré
 -    **Material Nonlinearity**   *
 
     -   linear - seules les propriétés des matériaux linéaires seront incluses dans l\'analyse
-    -   nonlinear - les propriétés des matériaux non linéaires seront utilisées à partir de l\'oblet **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=24px> '''[FEM Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)'''
+    -   nonlinear - les propriétés des matériaux non linéaires seront utilisées à partir de l\'oblet **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=24px> [FEM Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)
 **
 
 -    **Matrix Solver Type**   * type de solveur pour résoudre le système d\'équations dans l\'analyse FE. Il peut affecter de manière significative la vitesse de calcul et les besoins en mémoire. L\'adéquation dépend de votre modèle FE et du matériel disponible.

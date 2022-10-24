@@ -1,6 +1,13 @@
-# Drawing Openbrowser/fr
 ---
-- GuiCommand   */fr   Name   *Drawing Openbrowser   Name/fr   *Vue Web   Workbenches   *[[Drawing Workbench/fr   Dessin]], Complet|MenuLocation   *Mise en plan → Vue Web    Raccourci   *aucun---
+- GuiCommand   */fr
+   Name   *Drawing Openbrowser
+   Name/fr   *Drawing Ouvrir sur le navigateur interne
+   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation   *Drawing → Ouvrir sur le navigateur interne 
+   Shortcut   *
+---
+
+# Drawing Openbrowser/fr
 
 ## Description
 
@@ -18,20 +25,7 @@ Cette commande vous permet d\'afficher une [Feuille A3 paysage](Drawing_Landscap
 -   Une page ouverte dans le navigateur Web ne réactualise pas automatiquement les modifications. Vous devez utiliser le clique droit → recharger manuellement.
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/fr
-|[Masque](Drawing_Clip/fr.md)
-|[Vues orthogonales](Drawing_Orthoviews/fr.md)
-|[Atelier Mise en plan](Drawing_Workbench/fr.md)
-|IconL=Drawing_Clip.png
-|IconC=Workbench_Drawing.svg
-|IconR=Drawing_Orthoviews.png
-}}
-
-
-</div>
 
 
 {{Drawing Tools navi

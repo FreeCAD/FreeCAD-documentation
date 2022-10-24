@@ -12,44 +12,35 @@
 
 ## Beschreibung
 
+Das Werkzeug **<img src="images/Sketcher_External.svg" width=16px> [Externe Geometrie](Sketcher_External/de.md)** wird verwendet, wenn eine Randbedingung zwischen Geometrien innerhalb und außerhalb der Skizze angewendet werden soll. Es funktioniert, indem eine verknüpfte Konstruktionsgeometrie in die Skizze eingefügt wird. Die Standardfarbe der extern verknüpften Kanten ist Magenta. Wie die normale unverknüpfte Konstruktionsgeometrie (blau) ist die extern verknüpfte Geometrie nur sichtbar, wenn sich die Skizze im Bearbeitungsmodus befindet und wird nicht direkt in einem nachfolgenden Ergebnis aus der Verwendung der Skizze mit einem anderen Werkzeug verwendet. Beide Arten von Konstruktionsgeometrien können als Referenz für Randbedingungen innerhalb der Skizze verwendet werden.
 
-<div class="mw-translate-fuzzy">
-
-Verwende das **<img src="images/Sketcher_External.svg" width=16px> [Externe Geometrie](Sketcher_External/de.md)** Werkzeug wenn Du eine Beschränkung zwischen der Skizzengeometrie und etwas außerhalb der Skizze anwenden möchtest. Es funktioniert, indem eine verknüpfte Konstruktionsgeometrie in die Skizze eingefügt wird. Die Standardfarbe der extern verbundenen Kanten ist Magenta. Wie bei der standardmäßigen unverknüpften Konstruktionsgeometrie (blau) ist die extern verknüpfte Geometrie nur sichtbar, wenn sich die Skizze im Bearbeitungsmodus befindet und nicht direkt im späteren Ergebnis aus der Verwendung der Skizze in einem anderen Werkzeug verwendet wird. Beide Arten von Konstruktionsgeometrien können als Referenz für Beschränkungen innerhalb der Skizze verwendet werden.
-
-
-</div>
-
-Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit generierter (Volumen) Geometrie kann aufgrund des [Topologisches Benennungsproblem](Topological_naming_problem/de.md) zu unerwarteten Ergebnissen führen. Siehe auch [Ratschlag für stabile Modelle](https   *//wiki.freecadweb.org/Feature_editing/de#Ratschläge_zur_Erstellung_stabiler_Modelle.md).
+Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit erzeugter (Volumen-) Geometrie kann aufgrund des [Problems der Topologischen Benennung](Topological_naming_problem/de.md) zu unerwarteten Ergebnissen führen. Siehe auch [Ratschlag für stabile Modelle](Feature_editing/de#Ratschläge_zur_Erstellung_stabiler_Modelle.md).
 
 <FILE   *Sketcher_ExternalEsempio1.png>
 
 ## Anwendung
 
+-   Eine neue Skizze erstellen oder eine bestehende Skizze öffnen.
 
-<div class="mw-translate-fuzzy">
+-   Die Schaltfläche **[<img src=images/Sketcher_External.svg style="width   *16px"> [Skizzierer Extern](Sketcher_External/de.md)** drücken.
 
--   Erstelle eine neue Skizze oder öffne eine bestehende Skizze.
--   Klicke auf die Schaltfläche **[<img src=images/Sketcher_External.svg style="width   *16px"> [Skizzierer Extern](Sketcher_External/de.md)**.
--   Wähle eine Kante oder einen Scheitelpunkt aus, auf den in der Skizze verwiesen werden soll.
--   Drücke die **Esc**-Taste oder wähle ein anderes Werkzeug, um den Import von Geometrien in die Skizze zu beenden.
+-   Eine Kante oder einen Knotenpunkt auswählen, auf die/den in der Skizze verwiesen werden soll.
 
-
-</div>
+-    **Esc**drücken oder ein anderes Werkzeug wählen, um den Import von Geometrien in die Skizze zu beenden.
 
 ### Auswahlregeln
 
 -   Es sind nur Kanten und Knoten von Objekten aus demselben Koordinatensystem zulässig.
 
-Das heißt, die Skizze und das Objekt müssen sich im gleichen Körper (Wenn im PartDesign Arbeitsbereich), oder im gleichen Teil (Wenn im Part Arbeitsbereich), oder beide außerhalb von Teilen und Körpern befinden.
+Das heißt, die Skizze und das Objekt müssen sich im gleichen Körper (für den Arbeitsbereich PartDesign), im gleichen Teil (für den Arbeitsbereich Part), oder beide außerhalb von Teilen und Körpern befinden.
 
-Wenn sich die offene Skizze beispielsweise im Körper befindet, kannst du eine andere Skizze aus dem Körper als externe Geometrie verwenden, aber du kannst keine Skizze aus dem Körper001 oder eine Kante aus einem Teilewürfel im Wurzelbereich des Projekts verwenden. Verwende die Funktion Formbinder, um eine Kopie des Objekts in das Koordinatensystem der offenen Skizze einzubringen. Dann kannst du Kanten/Eckpunkte des Formbinderobjekts verwenden.
+Wenn sich die offene Skizze beispielsweise im Körper Body befindet, kannst eine andere Skizze aus dem Körper Body als externe Geometrie verwendet werden, nicht aber eine Skizze aus dem Körper Body001 oder die Kante eines Part-Würfels im Wurzelbereich des Projekts. Die Funktion Formbinder kann verwendet werden, um eine Kopie des Objekts in das Koordinatensystem der geöffneten Skizze einzubringen. Dann können die Kanten/Eckpunkte des Formbinders (ShapeBinder-Objekt) verwendet werden.
 
 -   Rekursive Abhängigkeiten sind nicht erlaubt.
 
-Das bedeutet, dass du nicht auf Taschen verweisen kannst, die mit dieser Skizze erstellt wurden. Du kannst nicht auf jedes Objekt verweisen, das von der Skizze abhängt.
+Das bedeutet, dass nicht auf eine Tasche verwiesen werden kann, die (erst) mit dieser Skizze erstellt wurde. Es kann auf kein Objekt verwiesen werde, das von der Skizze abhängt.
 
-Die Skizze muss sich nicht auf einer Fläche befinden, um dieses Werkzeug zu nutzen. Direkte Verbindungen zwischen Skizzen sind möglich und erwünscht, da sie zuverlässiger sind.
+Die Skizze muss sich nicht auf einer Fläche befinden, um dieses Werkzeug zu nutzen. Direkte Verknüpfungen zwischen Skizzen sind möglich und werden empfolen, da sie zuverlässiger sind.
 
 ### Erscheinen bei erfolgreicher Verknüpfung 
 

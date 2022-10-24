@@ -19,7 +19,7 @@ Cette contrainte spécifie l\'échange de chaleur (transfert de chaleur par film
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintHeatflux.svg" width=16px> [Contrainte de flux de chaleur](FEM_ConstraintHeatflux/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes thermiques → <img src="images/FEM_ConstraintHeatflux.svg" width=16px> Contrainte de flux de chaleur** dans le menu.
 2.  Dans la [Vue 3D](3D_view/fr.md), sélectionnez la ou les faces auxquelles la contrainte doit être appliquée.
-3.  Entrez la température de surface, le coefficient de film et la température ambiante souhaités.
+3.  Entrez la température de surface, le coefficient de transfert de chaleur et la température ambiante.
 
 ## Remarques
 

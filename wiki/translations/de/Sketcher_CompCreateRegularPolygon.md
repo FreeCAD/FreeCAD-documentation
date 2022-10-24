@@ -3,7 +3,7 @@
    Name   *Sketcher Regular Polygons
    Name/de   *Sketcher AuswahlRegelmäßigesVieleckErstellen
    Icon   *Sketcher_CompCreateRegularPolygon.png
-   MenuLocation   *Kein (nur Werkzeugleiste)
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
 ---
 

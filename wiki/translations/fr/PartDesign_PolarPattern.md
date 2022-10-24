@@ -93,7 +93,7 @@ L\'outil <img alt="" src=images/PartDesign_PolarPattern.svg  style="width   *24p
         
            * Sélectionnez une [PartDesign Ligne de référence](PartDesign_Line/fr.md) dans la [Vue en arborescence](Tree_view/fr.md) ou une [PartDesign Ligne de référence](PartDesign_Line/fr.md) ou une arête dans la [Vue 3D](3D_view/fr.md).
 -   Cochez la case **Inverser la direction** pour inverser la transformation.
--   Spécifiez l\'**Angle** à couvrir par la transformation.
+-   Spécifiez l\'**Angle** à couvrir par la transformation. Si l\'angle est inférieur à 360°, les instances sont réparties uniformément de 0° (première instance) à l\'angle donné (dernière instance). Si l\'angle est un cercle complet de 360°, les instances sont réparties uniformément autour du cercle. Cela signifie que pour n instances, un angle de 360° est équivalent à un angle de 360°\*(1-1/n).
 -   Spécifiez le nombre d\'occurrences **Occurrences** (y compris la fonction d\'origine).
 -   Si la case **Réactualiser la vue** est cochée, la vue sera mise à jour en temps réel.
 

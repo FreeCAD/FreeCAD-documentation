@@ -17,7 +17,7 @@ Drukuje wstępnie zdefiniowane zmienne wyjściowe z modelu *(siły i momenty)* d
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
-    -   Naciśnij przycisk **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> [Zapis wyników z przekroju](FEM_ConstraintSectionPrint/pl.md)** .
+    -   Naciśnij przycisk **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> '''Zapis wyników z przekroju'''** .
     -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Zapis wyników z przekroju**.
 2.  Naciśnij przycisk **Dodaj** i wybierz powierzchnię, dla której będą drukowane dane wyjściowe.
 

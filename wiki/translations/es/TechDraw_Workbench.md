@@ -6,7 +6,13 @@ El <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [Ambie
 
 Dimensiones, secciones, áreas sombreadas, anotaciones y [SVG](SVG/es.md) símbolos se pueden añadir a la página, que se pueden exportar a diferentes formatos como [DXF](DXF/es.md), [SVG](SVG/es.md) y [PDF](PDF/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Dibujo Técnico se incluyó oficialmente en FreeCAD a partir de la versión 0.17; su intención es reemplazar el [Ambiente des trabajo Dibujo](Drawing_Workbench/es.md) no soportado. Ambos Ambiente des trabajo siguen estando disponibles en la versión 0.17, pero el dibujo Ambiente des trabajo puede ser eliminado en futuras versiones. Para mantenerse al día con los planes y desarrollos de TechDraw, visite el [Dibujo Técnico Hoja de ruta](TechDraw_Roadmap.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -31,7 +31,7 @@
 <div class="mw-collapsible mw-collapsed">
 
 
-   *   The **Main Toolbar** contains tools that cover the most often used features of the workbench. The tooltips will give the keyboard short cuts.
+   *   **Основная панель инструментов** содержит инструменты, покрывающие наиболее часто используемые функции верстака. Всплывающие подсказки покажут ярлыки клавиатуры.
 
 
 <div class="mw-collapsible-content toccolours">
@@ -118,84 +118,84 @@
 <div class="mw-collapsible mw-collapsed">
 
 
-   *   Some tools are actually a menu for more tools.
+   *   Некоторые инструменты на деле представляют собой меню для дополнительных инструментов.
 
 
 <div class="mw-collapsible-content toccolours">
 
-   ** <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *32px;"> [Locked](Assembly3_ConstraintLock.md)   * Add a \"Locked\" constraint to fix one or more parts.
+   ** <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width   *32px;"> [Locked](Assembly3_ConstraintLock/ru.md)   * Добавьте ограничение \"Locked\", чтобы зафиксировать одну или несколько частей.
 
-   **   * You must select a geometry element of the part.
+   **   * Вам нужно выбрать элемент геометрии детали.
 
-   **   * If you fix a vertex or an edge the part is still free to rotate around the vertex or edge.
+   **   * Если вы фиксируете вершину или ребро, деталь по-прежнему может свободно вращаться вокруг вершины или ребра.
 
-   **   * Fixing a face will completely lock the part.
+   **   * Фиксация грани полностью заблокирует деталь.
 
-   ** <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *32px;"> [Plane Alignment](Assembly3_ConstraintAlignment.md)   * Add a \"Plane alignment\" constraint to align planar faces of two or more parts.
+   ** <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width   *32px;"> [Plane Alignment](Assembly3_ConstraintAlignment/ru.md)   * Добавьте ограничение \"Plane alignment\", чтобы выровнять плоские грани двух или более деталей.
 
-   **   * The faces become coplanar or parallel with an optional distance.
+   **   * Грани становятся копланарными или параллельными с возможной дистанцией.
 
-   ** <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *32px;"> [Plane Coincidence](Assembly3_ConstraintCoincidence.md)   * Add a \"Plane coincidence\" constraint to coincide planar faces of two or more parts.
+   ** <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width   *32px;"> [Plane Coincidence](Assembly3_ConstraintCoincidence/ru.md)   * Добавьте ограничение \"Plane coincidence\", чтобы совместить плоские грани двух или более деталей.
 
-   **   * The faces are coincided at their centers with an optional distance.
+   **   * Грани совпадут в своих центрах с возможной дистанцией.
 
-   ** Attachment. This has two settings
+   ** Attachment имеет две настройки
 
-   **\* <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *32px;"> [Attachment](Assembly3_ConstraintAttachment.md)   * Add an \"Attachment\" constraint to attach two parts with the selected geometry elements.
+   **\* <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width   *32px;"> [Attachment](Assembly3_ConstraintAttachment/ru.md)   * Добавьте ограничение \"Attachment\", чтобы прикрепить две детали с выбранными элементами геометрии.
 
-   **\*   * This constraint completely fixes the parts relative to each other.
+   **\*   * Это ограничение полностью фиксирует детали относительно друг друга.
 
-   **\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg‎‎  style="width   *32px;"> [AttachmentOffset](Assembly3_ConstraintAttachmentOffset.md)   * Same as \"Attachment\" constraint, but maintaining the current relative placement of the involved parts by applying an element offset.
+   **\* <img alt="" src=images/Assembly_ConstraintAttachmentOffset.svg‎‎  style="width   *32px;"> [AttachmentOffset](Assembly3_ConstraintAttachmentOffset/ru.md)   * То же, что и ограничение \"Attachment\", но с сохранением текущего относительного размещения задействованных частей путем установки смещения элемента.
 
-   **\*   * This constraint completely fixes the parts relative to each other.
+   **\*   * Это ограничение полностью фиксирует детали относительно друг друга.
 
-   ** <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *32px;"> [Axial Alignment](Assembly3_ConstraintAxial.md)   * Add an \"Axial alignment\" constraint to align edges/faces of two or more parts.
+   ** <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width   *32px;"> [Axial Alignment](Assembly3_ConstraintAxial/ru.md)   * Добавьте ограничение \"Axial alignment\" для выравнивания ребер/граней двух или более деталей.
 
-   **   * The constraint accepts
+   **   * ограничение принимает
 
-   **   *   * linear edges, which become collinear,
+   **   *   * линейные ребра, которые становятся коллинеарными,
 
-   **   *   * planar faces, which are aligned using their surface normal axis,
+   **   *   * плоские грани, которые выровнены по оси нормали к поверхности,
 
-   **   *   * and cylindrical face, which are aligned using the axial direction.
+   **   *   * и цилиндрическая грань, которые выровнены по осевому направлению.
 
-   **   * Different types of geometry elements can be mixed.
+   **   * Можно смешивать различные типы геометрических элементов.
 
-   ** <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *32px;"> [Same orientation](Assembly3_ConstraintSameOrientation.md)   * Add a \"Same orientation\" constraint to align faces of two or more parts.
+   ** <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width   *32px;"> [Same orientation](Assembly3_ConstraintSameOrientation/ru.md)   * Добавьте ограничение \"Same orientation\", чтобы выровнять грани двух или более деталей.
 
-   **   * The planes are aligned to have the same orientation (i.e. rotation)
+   **   * Плоскости выровнены, чтобы иметь одинаковую ориентацию (т.е. вращение)
 
-   ** <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *32px;"> [Multi parallel](Assembly3_ConstraintMultiParallel.md)   * Add a \"Multi parallel\" constraint to make planar faces or linear edges of two or more parts parallel.
+   ** <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width   *32px;"> [Multi parallel](Assembly3_ConstraintMultiParallel/ru.md)   * Добавьте зависимость \"Multi parallel\", чтобы сделать плоские грани или линейные ребра двух или более деталей параллельными.
 
-   ** <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *32px;"> [Angle](Assembly3_ConstraintAngle.md)   * Add an \"Angle\" constraint to set the angle of planar faces or linear edges of two parts.
+   ** <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width   *32px;"> [Angle](Assembly3_ConstraintAngle/ru.md)   * Добавьте ограничение \"Angle\", чтобы задать угол между плоскими гранями или линейными ребрами двух деталей.
 
-   ** <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *32px;"> [Perpendicular](Assembly3_ConstraintPerpendicular.md)   * Add a \"Perpendicular\" constraint to make planar faces or linear edges of two parts perpendicular.
+   ** <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width   *32px;"> [Perpendicular](Assembly3_ConstraintPerpendicular/ru.md)   * Добавьте ограничение \"Perpendicular\", чтобы сделать плоские грани или линейные ребра двух деталей перпендикулярными.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *32px;"> [Points coincident](Assembly3_ConstraintPointsCoincident.md)   * Add a \"Point coincident\" constraint to coincide two points in 2D or 3D.
+   ** <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width   *32px;"> [Points coincident](Assembly3_ConstraintPointsCoincident/ru.md)   * Добавьте ограничение \"Point coincident\", чтобы совместить две точки в 2D или 3D.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *32px;"> [Point on plane](Assembly3_ConstraintPointInPlane.md)   * Add a \"Point on plane\" to constrain one or more point onto a plane.
+   ** <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width   *32px;"> [Point on plane](Assembly3_ConstraintPointInPlane/ru.md)   * Добавьте \"Point on plane\", чтобы ограничить одну или несколько точек плоскостью.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *32px;"> [Point on line](Assembly3_ConstraintPointOnLine.md)   * Add a \"Point on line\" to constrain a point onto a line in 2D or 3D.
+   ** <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width   *32px;"> [Point on line](Assembly3_ConstraintPointOnLine/ru.md)   * Добавьте \"Point on line\", чтобы ограничить точку линией в 2D или 3D.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *32px;"> [Point on circle](Assembly3_ConstraintPointOnCircle.md)   * Add a \"Point on circle\" to constrain one or more points on to a clyndrical surface defined by a cricle.
+   ** <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width   *32px;"> [Point on circle](Assembly3_ConstraintPointOnCircle/ru.md)   * Добавьте \"Point on circle\", чтобы ограничить одну или несколько точек цилиндрической поверхностью, заданной окружностью.
 
-   **   * Note that you must select a point (any geometry element can define a point), and then select the circle (or clyndrical surface),
+   **   * Обратите внимание, что вы должны выбрать точку (любой элемент геометрии может определить точку), а затем выбрать окружность (или цилиндрическую поверхность),
 
-   **   * after which you can add more points to your selection if you want.
+   **   * после чего вы можете добавить дополнительные точки к вашему выбору, если надо.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *32px;"> [Points distance](Assembly3_ConstraintPointsDistance.md)   * Add a \"Points distance\" to constrain the distance of two or more points.
+   ** <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width   *32px;"> [Points distance](Assembly3_ConstraintPointsDistance/ru.md)   * Добавьте \"Points distance\", чтобы ограничить расстояние между двумя или более точками.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *32px;"> [Point plane distance](Assembly3_ConstraintPointPlaneDistance.md)   * Add a \"Point plane distance\" to constrain the distance between one or more points and a plane.
+   ** <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width   *32px;"> [Point plane distance](Assembly3_ConstraintPointPlaneDistance/ru.md)   * Добавьте \"Point plane distance\", чтобы ограничить расстояние между одной или несколькими точками и плоскостью.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *32px;"> [Point line distance](Assembly3_ConstraintPointLineDistance.md)   * Add a \"Point line distance\" to constrain the distance between a point and a linear edge in 2D or 3D.
+   ** <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width   *32px;"> [Point line distance](Assembly3_ConstraintPointLineDistance/ru.md)   * Добавьте \"Point line distance\" чтобы ограничить расстояние между точкой и линейным ребром в 2D или 3D.
 
-   ** <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *32px;"> [Symmetric](Assembly3_ConstraintSymmetric.md)   * Add a \"Symmetric\" constraint to make geometry elements of two parts symmetric about a plane.
+   ** <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width   *32px;"> [Symmetric](Assembly3_ConstraintSymmetric/ru.md)   * Добавьте зависимость \"Symmetric\", чтобы сделать элементы геометрии двух деталей симметричными относительно плоскости.
 
-   **   * The supported elements are linear edge and planar face.
+   **   * Поддерживаемые элементы   * линейная кромка и плоская грань.
 
-   ** <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *32px;"> [More](Assembly3_ConstraintMore.md)   * Toggle toolbars for more constraints
+   ** <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width   *32px;"> [More](Assembly3_ConstraintMore/ru.md)   * Включение дополнительных панелей инструментов ограничений
 
-   **   * Not really a constraint but a toggle switch to show/hide the **Additional Constraints Toolbars**.
+   **   * На деле не ограничение, а тумблер для отображения/скрытия **Additional Constraints Toolbars**.
 
 
 </div>

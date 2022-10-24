@@ -25,15 +25,15 @@ Pipeline est un objet résultat, qui crée une nouvelle représentation graphiqu
 
 Si vous ne voyez aucun modèle dans la zone graphique, allez dans et activez **Edition → Préférences → Affichage → Vue 3D → Rendu → Couleur du rétroéclairage**.
 
-Si vous utilisez un dérivé du [https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s SI](https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s_SI.md) du [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) de FreeCAD, les valeurs de l\'échelle de sortie sont également basées sur les unités SI. Cela signifie que le déplacement est en mètre, la contrainte est en Pascal et la température est en Kelvin.
+Si vous utilisez un [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) de FreeCAD dérivé du [https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s SI](https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s_SI.md), les valeurs de l\'échelle de sortie seront également basées sur les unités SI. Cela signifie que le déplacement est en mètre, la contrainte est en Pascal et la température est en Kelvin.
 
 ## Propriétés
 
 ### Boîte de dialogue 
 
-Cette Boîte de dialogue de pipeline a les paramètres suivants    *
+Cette boîte de dialogue du pipeline a les paramètres suivants    *
 
--   **Mode**    * comment dessiner les résultats. Les modes possibles sont
+-   **Mode**    * comment dessiner les résultats. Les modes possibles sont   *
     -   **Contour**    * le contour du maillage du résultat. En fait, n\'affiche aucun résultat mais seulement les bords du maillage.
     -   **Nœuds**    * les nœuds du maillage résultant.
     -   **Surface**    * valeur par défaut et elle affiche la surface de la maille résultante.

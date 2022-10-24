@@ -3,15 +3,12 @@
    Name   *Sketcher B-splines
    Name/de   *Sketcher AuswahlBSplineErstellen
    Icon   *Sketcher_CompCreateBSpline.png
-   MenuLocation   *Keine (nur Werkzeugleiste)
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.17
 ---
 
 # Sketcher CompCreateBSpline/de
-
-
-</div>
 
 ## Beschreibung
 

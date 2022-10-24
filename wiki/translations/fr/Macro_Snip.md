@@ -21,7 +21,7 @@ Utilisez cette macro pour poster facilement des captures d'écran sur le [forum 
 
 Il est préférable d'ajouter cette macro à votre barre d'outils de macros personnalisées globales pour un accès rapide et facile.
 
-Lors de la publication sur le forum FreeCAD, il est souvent utile de   * être en mesure d\'inclure des captures d\'écran. Le problème est que c\'est une tâche un peu fastidieuse. Cette macro vise donc à faciliter un peu cette tâche.
+Lorsque vous postez un message sur le forum FreeCAD, il est souvent utile de pouvoir inclure des captures d\'écran. Le problème est que cette tâche est quelque peu fastidieuse. Cette macro vise donc à rendre cette tâche un peu plus facile.
 
 ## Utilisation
 
@@ -35,7 +35,7 @@ Après avoir cliqué sur **OK**, la macro prend ensuite la capture d\'écran et 
 <img alt="" src=images/Snip-Screenshot2.png  style="width   *600px;"> 
 *Ceci est la boîte de dialogue d'ouverture de fichier qui apparaît automatiquement après la capture d'écran. L'image peut être glissée et déposée sur le forum ou elle peut être ouverte pour un traitement ultérieur dans votre application système par défaut pour l'ouverture de fichiers png. Vous pouvez également cliquer sur l'image avec le bouton droit de la souris et l'ouvrir **Open with..* avec une autre application de votre choix.**
 
-Si la macro ne fonctionne pas sur votre système pour capturer des captures d\'écran, elle peut toujours être utile pour les captures que vous avez capturées à l\'aide d\'autres outils. Copiez simplement la capture d\'écran dans le presse-papiers, puis exécutez la macro. Il créera le fichier temporaire et ouvrira le répertoire du fichier dans une boîte de dialogue d\'ouverture de fichier pour vous. Quelques autres outils pour prendre des screenshots   *
+Si la macro ne fonctionne pas sur votre système pour capturer des captures d\'écran, elle peut néanmoins être utile pour les captures d\'écran que vous avez réalisées à l\'aide d\'autres outils. Il suffit de copier la capture d\'écran dans le presse-papiers, puis d\'exécuter la macro. Elle créera le fichier temporaire et ouvrira le répertoire du fichier dans une boîte de dialogue d\'ouverture de fichier pour vous. Quelques autres outils pour réaliser des captures d\'écran    *
 
    *   Sur Windows    * touche Windows + **Shift** + **S**
    *   Sur Mac    * **Command** + **Shift** + **4**
@@ -60,7 +60,7 @@ La macro prend en charge les paramètres utilisateur qui peuvent être définis 
    *   
     `ScaleFactor`(1.0)    * facteur d\'échelle souhaité, (remplace DesiredWidth si ScaleFactor n\'est pas 1.0) \-- met l\'image à l\'échelle au facteur d\'échelle
 
-Les paramètres `Last` sont réinitialisés par la macro à chaque exécution. Ainsi la macro garde une trace de l\'endroit où placer la boîte de sélection, à la dernière position qu\'elle avait quand l\'utilisateur a pris une capture d\'écran.
+Les paramètres `Last` sont réinitialisés par la macro à chaque fois qu\'elle est exécutée. C\'est ainsi qu\'elle garde la trace de l\'endroit où placer la boîte de sélection, à la dernière position qu\'elle avait quand l\'utilisateur a pris une capture d\'écran.
 
 Le paramètre `WindowOpacity` est l\'opacité de la zone de capture.
 
@@ -83,7 +83,7 @@ Icône de la barre d\'outils ![](images/Snip.png )
 # -*- coding   * utf-8 -*-
 """
 ***************************************************************************
-*   Copyright (c) 2019 <TheMarkster>                                 *
+*   Copyright (c) 2019 <TheMarkster>                                      *
 *                                                                         *
 *   This file is a supplement to the FreeCAD CAx development system.      *
 *                                                                         *
@@ -94,7 +94,7 @@ Icône de la barre d\'outils ![](images/Snip.png )
 *                                                                         *
 *   This software is distributed in the hope that it will be useful,      *
 *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
-*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the          *
 *   GNU Library General Public License at http   *//www.gnu.org/licenses     *
 *   for more details.                                                     *
 *                                                                         *
@@ -113,13 +113,13 @@ Snip Macro
 This is a macro to make it easier to post screenshots to the FreeCAD forum.
 
 The forum supports a drag and drop interface -- just drag and drop an image to the
-textarea where you type in your post.  But it still requires many
-tedious steps.  This macro is to reduce some of those steps.
+textarea where you type in your post. But it still requires many
+tedious steps. This macro is to reduce some of those steps.
 
 You should add the macro to your custom macro toolbar to save as many clicks as possible.
 
 The first thing the macro does is to check if there is an image already saved to the 
-system clipboard, and if so, it uses that one.  To bypass the clipboard, press Shift
+system clipboard, and if so, it uses that one. To bypass the clipboard, press Shift
 while invoking the macro.
 
 """
@@ -221,8 +221,8 @@ if not image   *
     mb = SnipBox()     
     details = """
 Move and resize this box to cover the part of the screen you wish to grab.
-If it succeeds an open file dialog will appear.  Drag and drop the file
-from the open file dialog to the forum.  The file will be deleted after
+If it succeeds an open file dialog will appear. Drag and drop the file
+from the open file dialog to the forum. The file will be deleted after
 you close the dialog.
 
 If this fails you can still use this macro to handle screenshots you
@@ -233,13 +233,13 @@ Mac snip tool   * Command + Shift + 4
 Linux   * gnome-screenshot utility
 
 If the macro finds there is already an image copied to the clipboard 
-it uses that image instead of bringing up this dialog.  Press Shift
-while invoking this macro to bypass the clipboard.  Alternatively,
+it uses that image instead of bringing up this dialog. Press Shift
+while invoking this macro to bypass the clipboard. Alternatively,
 you can clear the image from the clipboard by copying some text to it.
 
 The Open button will open the file in the system
-default application for handling png files, e.g. Paint in windows.  This
-can be useful if you wish to annotate the screenshot.  But most of the
+default application for handling png files, e.g. Paint in windows. This
+can be useful if you wish to annotate the screenshot. But most of the
 time you will simply want to drag and drop the file to the forum, then
 Cancel to close the open file dialog afterwards.
 

@@ -20,24 +20,17 @@ Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert
 
 ## Anwendung
 
+1.  Die Schaltfläche **[<img src=images/Sketcher_CreateFillet.svg style="width   *16px"> [Verrundung](Sketcher_CreateFillet/de.md)** drücken.
 
-<div class="mw-translate-fuzzy">
+2.  Einen Knoten, der zwei nicht parallele Linien verbindet auswählen oder zwei Linien, die nicht parallel verlaufen auswählen.
 
-1.  Drücke die **[<img src=images/Sketcher_CreateFillet.svg style="width   *16px"> [VerrundungErzeugen](Sketcher_CreateFillet/de.md)** Schaltfläche.
-2.  Wähle einen Knoten, der zwei Linien verbindet; oder klicke auf zwei verbundene Linien, der Abstand, den du vom Knoten klickst, legt den Verrundungsradius fest.
-3.  Drücke **Esc** oder klicke mit der rechten Maustaste, um die Funktion abzubrechen oder zu beenden.
+3.  Wird ein Knoten ausgewählt, wird er Verrundungsradius von der Länge der kürzeren Linie abgeleitet. Werden zwei Linien ausgewählt, legt der Abstand des zuerst ausgewählten Punktes zum (virtuellen) Schnittpunkt der Linien den Verrundungsradius fest.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+4.  
+    **Esc**oder ein Klick mit der rechten Maustaste bricht die Funktion ab oder beendet sie.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

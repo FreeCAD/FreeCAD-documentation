@@ -26,22 +26,63 @@ Verwende dieses Makro, um Bildschirmfotos auf einfache Weise im [FreeCAD Forum](
 
 Am besten füge dieses Makro zu deiner globalen benutzerdefinierten Makro Werkzeugleiste hinzu, damit du schnell und einfach darauf zugreifen kannst.
 
+
+<div class="mw-translate-fuzzy">
+
 Beim Veröffentlichen im FreeCAD Forum ist es oft nützlich, Bildschirmfotos beifügen zu können. Das Problem ist, dass dies eine etwas mühsame Aufgabe ist. Dieses Makro soll diese Aufgabe daher etwas erleichtern.
+
+
+</div>
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Makro kann Bildschirmfotos erstellen oder vorhandene Bildschirmfotos verwenden, die bereits in die Zwischenablage des Systems kopiert wurden. Um das bereits in der Zwischenablage befindliche Bild zu umgehen, drücke die Taste **Umschalten**, während du das Makro aufrufst. Um das Makro zur Aufnahme des Bildschirmfotos zu verwenden, passe die Größe und Platzierung des eingeblendeten Dialogfelds an und klicke dann auf **OK**. Wenn du auf **OK** klickst, versucht das Makro, ein Bildschirmfoto des vom Dialogfeld abgedeckten Bildschirmbereichs zu erstellen. Das Dialogfeld selbst ist halbtransparent, so dass du den Inhalt darunter sehen kannst.
+
+
+</div>
+
+<img alt="" src=images/Snip-Screenshot1.png  style="width   *600px;">
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="" src=images/Snip-Screenshot1.png  style="width   *600px;"> 
 *Schnitt screenshot1, Beachte, wie der Dialog halbtransparent ist.  Es wird nur der Bildschirminhalt unterhalb des Dialogs erfasst.*
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Nach dem Klicken auf **OK** erstellt das Makro dann das Bildschirmfoto und speichert es in einer temporären Datei. Am Speicherort der Datei wird dann ein Datei Öffnen Dialogfeld geöffnet. Du kannst die Datei von dort in das Forum ziehen und loslassen im Textbereich, wo du deinen Text für deinen Forumsbeitrag eingibst. Bei Abbruch des Dialogs wird die temporäre Bildschirmfoto Datei automatisch gelöscht. Du könntest die Bildschirmfoto Datei auch in deiner Standardanwendung öffnen, die zum Öffnen von **.png** Dateien installiert ist (unter Windows ist dies typischerweise Paint). Dies kann nützlich sein, wenn du dem Bildschirmfoto einige Anmerkungen hinzufügen oder vielleicht zusätzliche Bearbeitungen, wie z.B. Zuschneiden, vornehmen möchtest.
+
+
+</div>
+
+<img alt="" src=images/Snip-Screenshot2.png  style="width   *600px;">
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="" src=images/Snip-Screenshot2.png  style="width   *600px;"> 
 *Snip screenshot2, Dies ist der Dateiöffnungsdialog, der nach der Aufnahme des Bildschirmfotos automatisch aufklappt. Das Bild kann in das Forum gezogen und losgelassen werden oder es kann zur weiteren Bearbeitung in deiner System Standardanwendung zum Öffnen von png Dateien geöffnet werden. 
 Alternativ dazu kannst du auf das Bild rechtsklicken und **Öffnen mit..* mit einer anderen Anwendung deiner Wahl öffnen.**
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Wenn das Makro auf deinem System nicht funktioniert, um Bildschirmfotos zu erstellen, kann es trotzdem nützlich sein für Bildschirmfotos, die du mit anderen Werkzeugen erstellt hast. Kopiere das Bildschirmfoto einfach in die Zwischenablage und führe dann das Makro aus. Das Makro erstellt die temporäre Datei und öffnet das Verzeichnis der Datei in einem Datei Öffnen Dialog für dich. Einige andere Werkzeuge zum Erstellen von Bildschirmfotos   *
+
+
+</div>
+
 
    *   Windows   * Windows Taste + **Umschalten** + **S**
    *   MacOS   * **Command** + **Umschalten** + **4**
@@ -75,7 +116,13 @@ Das Makro unterstützt Benutzerparameter, die mit **Werkzeuge → Parameter bear
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Die `Letzten` Parameter werden von dem Makro bei jeder Ausführung zurückgesetzt. So wird er verfolgt, wo der Schnittkasten zu platzieren ist, d.h. an der Stelle, an der er sich zuletzt befand, als der Benutzer ein Bildschirmfoto gemacht hat.
+
+
+</div>
 
 Der `FensterDurchsichtigkeit` Parameter ist die Durchsichtigkeit des Schnittkastens.
 
@@ -98,7 +145,7 @@ ToolBar icon ![](images/Snip.png )
 # -*- coding   * utf-8 -*-
 """
 ***************************************************************************
-*   Copyright (c) 2019 <TheMarkster>                                 *
+*   Copyright (c) 2019 <TheMarkster>                                      *
 *                                                                         *
 *   This file is a supplement to the FreeCAD CAx development system.      *
 *                                                                         *
@@ -109,7 +156,7 @@ ToolBar icon ![](images/Snip.png )
 *                                                                         *
 *   This software is distributed in the hope that it will be useful,      *
 *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
-*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the          *
 *   GNU Library General Public License at http   *//www.gnu.org/licenses     *
 *   for more details.                                                     *
 *                                                                         *
@@ -128,13 +175,13 @@ Snip Macro
 This is a macro to make it easier to post screenshots to the FreeCAD forum.
 
 The forum supports a drag and drop interface -- just drag and drop an image to the
-textarea where you type in your post.  But it still requires many
-tedious steps.  This macro is to reduce some of those steps.
+textarea where you type in your post. But it still requires many
+tedious steps. This macro is to reduce some of those steps.
 
 You should add the macro to your custom macro toolbar to save as many clicks as possible.
 
 The first thing the macro does is to check if there is an image already saved to the 
-system clipboard, and if so, it uses that one.  To bypass the clipboard, press Shift
+system clipboard, and if so, it uses that one. To bypass the clipboard, press Shift
 while invoking the macro.
 
 """
@@ -236,8 +283,8 @@ if not image   *
     mb = SnipBox()     
     details = """
 Move and resize this box to cover the part of the screen you wish to grab.
-If it succeeds an open file dialog will appear.  Drag and drop the file
-from the open file dialog to the forum.  The file will be deleted after
+If it succeeds an open file dialog will appear. Drag and drop the file
+from the open file dialog to the forum. The file will be deleted after
 you close the dialog.
 
 If this fails you can still use this macro to handle screenshots you
@@ -248,13 +295,13 @@ Mac snip tool   * Command + Shift + 4
 Linux   * gnome-screenshot utility
 
 If the macro finds there is already an image copied to the clipboard 
-it uses that image instead of bringing up this dialog.  Press Shift
-while invoking this macro to bypass the clipboard.  Alternatively,
+it uses that image instead of bringing up this dialog. Press Shift
+while invoking this macro to bypass the clipboard. Alternatively,
 you can clear the image from the clipboard by copying some text to it.
 
 The Open button will open the file in the system
-default application for handling png files, e.g. Paint in windows.  This
-can be useful if you wish to annotate the screenshot.  But most of the
+default application for handling png files, e.g. Paint in windows. This
+can be useful if you wish to annotate the screenshot. But most of the
 time you will simply want to drag and drop the file to the forum, then
 Cancel to close the open file dialog afterwards.
 

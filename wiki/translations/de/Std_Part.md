@@ -23,72 +23,32 @@ Obwohl es hauptsächlich für Festkörper gedacht ist, kann das \'Std Part\' zur
 
 Die **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. Beim anderen wird [Standard Teil](Std_Part/de.md) nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte zur Erzeugung von [Baugruppen](assembly/de.md) im Raum zu positionieren.
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part/de.md)** wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der **structure toolbar**, die es in allen [Arbeitsbereichen](Workbenches/de.md) gibt. Mit der Schaltfläche **[<img src=images/Std_Group.svg style="width   *16px"> [Std Gruppe](Std_Group/de.md)** können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](tree_view/de.md) geordnet werden kann.
-
-
-</div>
+Das Werkzeug **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part/de.md)** wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der **structure toolbar**, die es in allen [Arbeitsbereichen](Workbenches/de.md) gibt. Mit der Schaltfläche **[<img src=images/Std_Group.svg style="width   *16px"> [Std Gruppe](Std_Group/de.md)** können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](Tree_view/de.md) geordnet werden kann.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Links   * Elemente innerhalt eines 'Std Part's in der [Baumansicht](tree_view/de.md). Rechts   * Objekte im Raum, positioniert bezogen auf den Ursprung von 'Std Part'.*
-
-
-</div>
+*Links   * Elemente innerhalb eines 'Std Part's in der [Baumansicht](Tree_view/de.md). Rechts   * Objekte im Raum positioniert, bezogen auf den Ursprung von 'Std Part'.*
 
 ## Anwendung
 
+1.  Die Schaltfläche **[<img src=images/Std_Part.svg style="width   *16px"> [Baugruppe erstellen](Std_Part/de.md)** betätigen.
+2.  Ein leeres Teil wird erzeugt und wird automatisch *[aktiv](Std_Part#Active_status.md)*.
+3.  In der [Baumansicht](Tree_view/de.md) Objekte wählen und durch Drag & Drop auf dieses Teil ziehen, um sie zum Teil hinzuzufügen.
+4.  Um Objekte aus einem Teil zu entfernen, zieht man es per Drag & Drop aus dem Teil auf die Dokumentenbeschriftung oben in der [Baumansicht](Tree_view/de.md).
+5.  Objekte können durch Bearbeiten der {{PropertyData/de|Group}} Teileigenschaft auch hinzugefügt oder entfernt werden.
 
-<div class="mw-translate-fuzzy">
+## Hinweise
 
-1.  Die Schaltfläche **[<img src=images/Std_Part.svg style="width   *16px"> [Baugruppe erstellen](Std_Part/de.md)** betätigen. Ein leeres Teil wird erzeugt und ist automatisch *[aktiv](Std_Part#Active_status.md)*.
-2.  In der [Baumansicht](tree_view/de.md) ein Objekt wählen und durch Drag & Drop auf dieses Teil ziehen, um es zum Teil hinzuzufügen.
-3.  Um Objekte aus einem Teil zu entfernen, zieht man es per Drag & Drop aus dem Teil auf die Dokumentenbeschriftung oben in der [Baumansicht](tree_view/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Hinweise
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Ab Version v0.19 kann ein bestimmtes Objekt nur zu einer einzigen Baugruppe gehören.
--   Durch einen Doppelklick auf die Baugruppe in der [Baumansicht](tree_view/de.md) oder über das Kontextmenü mit einem Rechtsklick und der Wahl von **Toggle active part** kann eine Baugruppe aktiviert oder deaktiviert werden. Ist eine andere Baugruppe aktiv, wird sie deaktiviert, siehe auch [Aktiver Status](Std_Part/de#Active_status.md)
-
-
-</div>
+-   Ein Objekt kann nur zu einer einzigen Baugruppe gehören.
+-   3D-Bearbeitungen, wie [Part Boolean](Part_Boolean/de.md) können nicht auf Teile angewendet werden. Beispielsweise können keine zweit Teile markiert und [Part Vereinigung](Part_Fuse/de.md) oder [Part Differenz](Part_Cut/de.md) angewendet werden.
 
 ## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
-Ein [Std Teil](Std_Part/de.md) wird intern [App Part](App_Part.md)(`App   *   *Part` Klasse) genannt und stammt aus einer [App GeoFeature](App_GeoFeature.md) (`App   *   *GeoFeature` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Ein [Std Teil](Std_Part/de.md) wird intern [App Part](App_Part.md)(`App   *   *Part` Klasse) genannt und stammt aus einer [App GeoFeature](App_GeoFeature/de.md) (`App   *   *GeoFeature` Klasse) und erbt alle Eigenschaften. Sie hat weitere, zusätzliche Eigenschaften, vor allem Eigenschaften die ihr helfen Informationen im Zusammenhang einer Baugruppe / eines Zusammenbaus zu verwalten, z.B. die Eigenschaften **Type**, **Id**, **License**, **LicenseURL** und **Group**.
 
 Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl **Alle anzeigen** im Kontextmenü des [Eigenschaftseditors](property_editor/de.md) angezeigt.
-
-
-</div>
 
 ### Daten
 
@@ -135,7 +95,7 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 ### Ansicht
 
 
-{{TitleProperty|Display Options}}
+{{TitleProperty|Optionen anzeigen (Display Options)}}
 
 -    **Display Mode|Enumeration**   * {{value|Group}}.
 
@@ -144,7 +104,7 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 -    **Visibility|Bool**   * if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
 
 
-{{TitleProperty|Selection}}
+{{TitleProperty|Auswahl (Selection)}}
 
 -    **On Top When Selected|Enumeration**   * {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
 
@@ -154,24 +114,12 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 
 ### Aktiver Status 
 
-
-<div class="mw-translate-fuzzy">
-
-Ein geöffnetes Dokument kann mehrere Zusammenstellungen enthalten. Eine aktive Zusammenstellung wird in der [Baumansicht](Tree_view/de.md) mit einem im Menü **Aktiver Behälter** angegebenen Wert zur Hintergrundfarbe angezeigt. Der Wert kann im [Voreinstellungseditor](Preferences_Editor/de#Farben.md) geändert werden. Der voreingestellte Wert ist hellblau. Eine aktive Zusammenstellung wird auch mit der Schrifteigenschaft \'fett\' angezeigt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Ein geöffnetes Dokument kann mehrere Teile enthalten. Aber nur ein Teil kann aktiv sein. Das aktive Teil wird in der [Baumansicht](Tree_view/de.md) mit einer Hintergrundfarbe angezeigt, die mit dem **Aktiver Behälter**-Wert im [Voreinstellungseditor](Preferences_Editor/de#Farben.md) angegeben wird. Der voreingestellte Wert ist hellblau. Es wird auch mit der Schrifteigenschaft \'fett\' angezeigt.
 
 Eine Zusammenstellung aktivieren oder deaktivieren   *
 
 -   Doppelklick auf die Zusammenstellung in der [Baumansicht](Tree_view/de.md) oder
 -   das Kontextmenü mit einem Rechtsklick öffnen und **Toggle active part** wählen.
-
-
-</div>
 
 ![](images/Std_Part_active.png )
 
@@ -186,14 +134,8 @@ Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardeben
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Links   * Teil Ursprung in der [Baumansicht](tree_view/de.md). Rechts   * Ansicht der Ursprungselemente in der [3D-Ansicht](3D_view/de.md).*
-
-
-</div>
+*Links   * Teil Ursprung in der [Baumansicht](Tree_view/de.md). Rechts   * Ansicht der Ursprungselemente in der [3D-Ansicht](3D_view/de.md).*
 
 
 **Hinweis   ***
@@ -215,15 +157,9 @@ Die Sichtbarkeit der Zusammenstellung verdrängt die Sichtbarkeit jedes darin en
 ## Skripten
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Siehe auch   ***
 
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](scripted_objects/de.md).
-
-
-</div>
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](Scripted_objects/de.md).
 
 Zu allgemeinen Informationen zum Hinzufügen von Objekten in das Dokument, siehe [Part Formelement](Part_Feature/de.md).
 
@@ -249,13 +185,7 @@ part.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Du kannst kein geskriptetes {{Incode|App   *   *Part}} erstellen. Du kannst aber {{Incode|App   *   *Part}}-Verhalten zu einem geskripteten {{Incode|Part   *   *FeaturePython}}-Objekt durch Verwenden des folgenden Codes hinzufügen   *
-
-
-</div>
+Ein mit einem Skript erzeugtes `App   *   *Part` kann nicht erstellt werden. Es kann aber ein `App   *   *Part`-Verhalten zu einem mit einem Skript erzeugten `Part   *   *FeaturePython`-Objekt durch folgenden Codes hinzugefügt werden   *
 
 
 ```python

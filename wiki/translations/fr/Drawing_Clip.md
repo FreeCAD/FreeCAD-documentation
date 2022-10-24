@@ -1,6 +1,13 @@
-# Drawing Clip/fr
 ---
-- GuiCommand   */fr   Name   *Drawing Clip   Name/fr   *Masque   Workbenches   *[[Drawing Workbench/fr   Mise en plan]], Complet|MenuLocation    *Mise en plan → Masque   Raccourci    * aucun---
+- GuiCommand   */fr
+   Name   *Drawing Clip
+   Name/fr   *Drawing Masque
+   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation   *Drawing → Masque
+Shortcut=
+---
+
+# Drawing Clip/fr
 
 ## Description
 
@@ -26,20 +33,7 @@ Actualiser\]\] la vue si une vue de dessin n\'a pas été ouverte
 -   Les objets de découpage ne sont pas correctement affichés par le visionneur Svg interne basé sur Qt, mais la commande [ Vue Web](Drawing_Openbrowser/fr.md) les montre correctement.
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/fr
-|[Annotation Drawing](Drawing_Annotation/fr.md)
-|[Ouvrir sur le navigateur interne Drawing](Drawing_Openbrowser/fr.md)
-|[Module Drawing](Drawing_Workbench/fr.md)
-|IconL=Drawing_Annotation.png
-|IconC=Workbench_Drawing.svg
-|IconR=Drawing_Openbrowser.png
-}}
-
-
-</div>
 
 
 {{Drawing Tools navi

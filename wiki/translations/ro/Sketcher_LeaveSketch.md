@@ -23,10 +23,11 @@ Faceți clic pe pictograma <img alt="" src=images/Sketcher_LeaveSketch.png  styl
 
 Modificările sunt salvate
 
-Several ways to invoke this command   *
+There are several ways to invoke this command   *
 
--   Pressing the **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
--   Pressing the **Close** button at the top of the [task panel](Task_panel.md).
+-   Press the **Close** button at the top of the [task panel](Task_panel.md).
+-   Press the **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
+-   Select the **Sketch → [<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> Leave sketch** option from the menu.
 
 
 <div class="mw-translate-fuzzy">

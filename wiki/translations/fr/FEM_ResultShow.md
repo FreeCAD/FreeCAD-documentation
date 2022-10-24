@@ -18,7 +18,7 @@ Un objet Result contient le maillage résultant et permet de visualiser les rés
 
 Les unités utilisées pour l\'objet Result sont celles du [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) alors que pour un pipeline de résultats les unités sont [SI](https   *//fr.wikipedia.org/wiki/Syst%C3%A8me_international_d%27unit%C3%A9s).
 
-La visualisation des résultats n\'est active que lorsque la boîte de dialogue est ouvert. Cependant, les paramètres de la boîte de dialogue sont stockés dans le fichier du modèle FreeCAD.
+La visualisation des résultats n\'est active que lorsque la boîte de dialogue est ouverte. Cependant, les paramètres de la boîte de dialogue sont stockés dans le fichier du modèle FreeCAD.
 
 ## Utilisation
 
@@ -38,7 +38,7 @@ La boîte de dialogue est illustrée à gauche et offre les fonctionnalités sui
 
 -   Sélectionnez un type de résultat et le minimum et le maximum seront affichés dans le dialogue. Le maillage du résultat sera coloré en conséquence.
 
--   Cliquez sur le bouton **'''Histogramme'''** pour obtenir un histogramme indiquant la quantité de nœuds de maillages ayant un certain résultat. Le tracé de l\'histogramme peut être modifié par les boutons de sa barre d\'outils. Il est également possible de sauvegarder l\'histogramme en tant qu\'image en utilisant le bouton de sauvegarde de sa barre d\'outils.
+-   Cliquez sur le bouton **'''Histogramme'''** pour obtenir un histogramme indiquant la quantité de nœuds du maillage ayant un certain résultat. Le tracé de l\'histogramme peut être modifié par les boutons de sa barre d\'outils. Il est également possible de sauvegarder l\'histogramme en tant qu\'image en utilisant le bouton de sauvegarde de sa barre d\'outils.
 
 -   Cochez l\'option **Afficher** pour activer le curseur et visualiser la déformation du maillage résultant. La valeur du curseur est un facteur avec lequel le résultat *Magnitude de déplacement* est multiplié.Remarque    * le curseur n\'affecte que la magnitude de déplacement, pas ses composantes X, Y et Z.
 

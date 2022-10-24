@@ -32,7 +32,7 @@ Adds material properties to a part.
 
 ## Notes
 
-1.  Mechanical properties of the material use the \*MATERIAL card in CalculiX. Details about the mechanical material is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
+1.  The mechanical material uses the \*MATERIAL card in CalculiX. Details about the mechanical material is explained at <http   *//web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
 
 
 

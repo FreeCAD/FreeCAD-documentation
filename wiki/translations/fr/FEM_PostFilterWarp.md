@@ -25,7 +25,7 @@ Le résultat sera le même qu\'avec le curseur *Déplacement* de la boîte de di
 2.  Lancez la commande soit en    *
     -   Appuyant sur le bouton **<img src="images/FEM_PostFilterWarp.svg" width=16px> '''Filtre des déformations'''**.
     -   Utiliser le menu **Résultats → <img src="images/FEM_PostFilterWarp.svg" width=16px> Filtre des déformations**.
-3.  Ajustez les **Résultats** options d\'affichage comme pour le pipeline [result](FEM_PostPipelineFromResult.md). Masquez ce pipeline pour voir l\'effet d\'un filtre des déformations.
+3.  Ajustez les **Résultats** options d\'affichage comme pour le [Pipeline de résultats](FEM_PostPipelineFromResult/fr.md). Masquez ce pipeline pour voir l\'effet d\'un filtre des déformations.
 4.  Spécifiez directement le **Facteur de déformation** ou utilisez le curseur pour le définir. Les champs **Déformation mini** et **Déformation max** vous permettent de régler la plage du curseur.
 5.  Cliquez sur le bouton **OK** pour terminer la commande.
 

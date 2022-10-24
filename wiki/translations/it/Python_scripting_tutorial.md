@@ -203,27 +203,11 @@ Questo è un esempio standard, che utilizza il metodo `createSphere()` per crear
 
 Per ulteriori informazioni leggere [ Script per Mesh\...](Mesh_Scripting/it.md) {{Top}}
 
+## Modulo Part 
 
-<div class="mw-translate-fuzzy">
+Il modulo [Part](Part_Workbench/it.md) è il modulo più potente dell\'intero FreeCAD. Ti permette di creare e manipolare oggetti [BRep](https   *//it.wikipedia.org/wiki/B-Rep). BREP sta per \"Rappresentazione del confine\". Un oggetto BREP è definito da superfici che racchiudono e definiscono un volume interno. A differenza delle mesh, gli oggetti BREP possono avere un\'ampia varietà di componenti, dalle facce planari alle superfici NURBS molto complesse.
 
-## Parte
-
-Il [Modulo Parte](Part_Workbench/it.md) è il modulo più potente di tutto FreeCAD. Permette di creare e manipolare oggetti [BRep](http   *//it.wikipedia.org/wiki/B-Rep). Gli oggetti di questo tipo, a differenza dei mesh, possono avere un\'ampia varietà di componenti.
-
-In breve, **BRep** significa Boundary Representation. Questo significa che essi sono definiti dalle loro superfici, che racchiudono e definiscono un volume interno. Queste superfici possono essere varie cose, come facce piane o superfici NURBS molto complesse. Essi inoltre incorporano il concetto di volume.
-
-
-</div>
-
-The [Part](Part_Workbench.md) module is the most powerful module in the whole of FreeCAD. It allows you to create and manipulate [BRep](https   *//en.wikipedia.org/wiki/Boundary_representation) objects. BREP stands for \"Boundary Representation\". A BREP object is defined by surfaces that enclose and define an inner volume. Unlike meshes, BREP objects can have a wide variety of components from planar faces to very complex NURBS surfaces.
-
-
-<div class="mw-translate-fuzzy">
-
-Il modulo Parte si basa sulla potente libreria [OpenCasCade](http   *//it.wikipedia.org/wiki/Open_CASCADE_Technology), che permette di eseguire facilmente sugli oggetti una vasta gamma di operazioni complesse, come le operazioni booleane, gli arrotondamenti, loft, ecc ..
-
-
-</div>
+Il modulo Parte si basa sulla potente libreria [OpenCasCade](https   *//it.wikipedia.org/wiki/Open_CASCADE_Technology), che permette di eseguire facilmente sugli oggetti una vasta gamma di operazioni complesse, come le operazioni booleane, gli arrotondamenti, loft, ecc ..
 
 Il modulo Parte funziona allo stesso modo del modulo Mesh   * Si crea un oggetto FreeCAD, un oggetto Parte, quindi si aggiunge l\'oggetto Parte all\'oggetto FreeCAD   *
 
@@ -239,61 +223,22 @@ shapeobj.Shape = myshape
 doc.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Il modulo Parte (come il modulo Mesh) ha anche un comando veloce che crea automaticamente un oggetto FreeCAD e gli attribuisce una forma, in questo modo è possibile accorciare le 3 ultime righe dell\'esempio precedente con   *
-
-
-</div>
 
 
 ```python
 Part.show(myshape)
 ```
 
+Esplorando i contenuti di myshape, noterai molti sottocomponenti interessanti come `Faces`, `Edges`, `Vertexes`, `Solids` e {{incode |Shells}} e un\'ampia gamma di operazioni geometriche come `cut` (sottrazione), `common` (intersezione) o `fuse` (unione). La pagina [Script di dati topologici](Topological_data_scripting/it.md) spiega tutto in dettaglio.
 
-<div class="mw-translate-fuzzy">
+[Approfondimento sugli script in Parte\...](Topological_data_scripting/it.md) {{Top}}
 
-Esplorando il contenuto di myShape, noterete che sono disponibili vari sotto-componenti interessanti quali Facce, Bordi, Vertici, Solidi e Superfici, e una vasta gamma di operazioni geometriche come taglio (sottrazione), comune (intersezione) o fusione (unione). La pagina [Script di dati topologici](Topological_data_scripting/it.md) spiega tutto questo in modo dettagliato.
+## Modulo Draft 
 
+FreeCAD offre molti altri moduli, come [Sketcher](Sketcher_Workbench/it.md) e [Draft](Draft_Workbench/it.md), che creano anche oggetti Part. Questi moduli aggiungono parametri aggiuntivi agli oggetti creati o addirittura implementano un modo completamente nuovo di gestire la geometria della parte in essi contenuta. Il nostro esempio sopra di una scatola è un perfetto esempio di un oggetto parametrico. Tutto ciò che serve per definire la scatola è specificare i parametri altezza, larghezza e lunghezza. Sulla base di questi, l\'oggetto calcolerà automaticamente la sua forma della parte. FreeCAD ti consente di [creare tali oggetti in Python](Scripted_objects/it.md).
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-[Approfondimento sugli script in Parte\...](Topological_data_scripting/it.md)
-
-
-</div>
-
-
-{{Top}}
-
-
-<div class="mw-translate-fuzzy">
-
-## Draft
-
-FreeCAD offre altri moduli, quali [Schizzo](Sketcher_Workbench/it.md) o [Draft](Draft_Workbench/it.md), che creano anche loro degli oggetti Parte, ma vi aggiungono dei parametri, o usano un modo diverso per gestire la geometria della Parte.
-
-Il box del nostro precedente esempio è un esempio di perfetto oggetto parametrico.
-
-Per definire il box, basta specificare solo pochi parametri, quali altezza, larghezza e lunghezza. Sulla base di questi dati, l\'oggetto calcolerà automaticamente la sua forma Parte. FreeCAD consente di [creare questi oggetti con Python](Scripted_objects/it.md).
-
-
-</div>
-
-FreeCAD features many more modules, such as [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md), that also create Part objects. These modules add additional parameters to the objects created, or even implement a whole new way to handle the Part geometry in them. Our box example above is a perfect example of a parametric object. All you need to define the box is to specify the parameters height, width and length. Based on those, the object will automatically calculate its Part shape. FreeCAD allows you to [create such objects in Python](Scripted_objects.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Il [Modulo Draft](Draft_Workbench/it.md) aggiunge un paio di tipi di oggetti 2D parametrici (che sono tutti oggetti di Parte) quali linee e cerchi, e fornisce anche alcune funzioni generiche che funzionano non solo sugli oggetti creati con Draft, ma su qualsiasi oggetto Parte. Per esplorare ciò che è disponibile, fare semplicemente   *
-
-
-</div>
+Il Modulo [Draft](Draft_Workbench/it.md) aggiunge tipi di oggetti 2D parametrici (che sono tutti oggetti di Parte) quali linee e cerchi, e fornisce anche alcune funzioni generiche che funzionano non solo sugli oggetti creati con Draft, ma su qualsiasi oggetto Parte. Per esplorare ciò che è disponibile, fare semplicemente   *
 
 
 ```python
@@ -307,21 +252,9 @@ Draft.move(box, mvec)
 
 {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Interfaccia
 
-L\'interfaccia utente di FreeCAD è realizzata con [Qt](http   *//it.wikipedia.org/wiki/Qt_%28toolkit%29), un potente sistema di interfaccia grafica, responsabile del disegno e della gestione di tutti i comandi, dei menu, delle barre degli strumenti e dei pulsanti per la vista 3D.
-
-Qt offre un modulo, chiamato PySide, che consente a Python di accedere e modificare le interfacce Qt, come quella di FreeCAD.
-
-Proviamo a giocherellare con l\'interfaccia Qt e produrre una semplice finestra di dialogo   *
-
-
-</div>
-
-The FreeCAD user interface is made with [Qt](https   *//en.wikipedia.org/wiki/Qt_(software)), a powerful graphical interface system, responsible for drawing and handling all the controls, menus, toolbars and buttons around the [3D view](3D_view.md). Qt provides a module, [PySide](PySide.md), which allows Python to access and modify Qt interfaces such as FreeCAD\'s. Let\'s try to fiddle with the Qt interface and produce a simple dialog   *
+L\'interfaccia utente di FreeCAD è realizzata con [Qt](https   *//it.wikipedia.org/wiki/Qt_(toolkit)), un potente sistema di interfaccia grafica, responsabile del disegno e della gestione di tutti i controlli, menu, barre degli strumenti e pulsanti intorno al [vista 3D](3D_view/it.md). Qt fornisce un modulo, [PySide](PySide.md), che consente a Python di accedere e modificare le interfacce Qt come quelle di FreeCAD. Proviamo a giocherellare con l\'interfaccia Qt e produrre una semplice finestra di dialogo   *
 
 
 ```python
@@ -329,61 +262,20 @@ from PySide import QtGui
 QtGui.QMessageBox.information(None, "Apollo program", "Houston, we have a problem")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Notare che la finestra di dialogo che appare contiene l\'icona di FreeCAD nella sua barra degli strumenti, questo significa che Qt sa che l\'ordine è stato emesso all\'interno dell\'applicazione FreeCAD. Quindi si può con facilità e manipolare direttamente qualsiasi parte dell\'interfaccia di FreeCAD.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Si noti che la finestra di dialogo che appare ha l\'icona di FreeCAD nella sua barra degli strumenti, il che significa che Qt sa che l\'ordine è stato emesso dall\'interno dell\'applicazione FreeCAD. È possibile manipolare qualsiasi parte dell\'interfaccia di FreeCAD.
 
 Qt è un sistema di interfaccia molto potente, che permette di fare cose molto complesse, inoltre dispone anche di vari strumenti molto facili da usare, come il Qt Designer con il quale è possibile progettare graficamente le finestre di dialogo e poi aggiungerle all\'interfaccia di FreeCAD con poche righe di codice Python.
 
-
-</div>
-
 [Quì si trovano altre informazioni su PySide\...](PySide/it.md) {{Top}}
-
-
-<div class="mw-translate-fuzzy">
 
 ## Macro
 
-Ora che avete una buona conoscenza delle nozioni di base, dove conserviamo i nostri script Python, e come facciamo per eseguirli facilmente in FreeCAD? Per questo vi è un sistema semplice, chiamato [Macro](Macros/it.md).
+Ora che si ha una buona conoscenza delle nozioni di base, dove conserviamo i nostri script Python, e come si fa ad eseguirli facilmente in FreeCAD? Per questo vi è un sistema semplice, chiamato [Macro](Macros/it.md). Una macro è semplicemente uno script Python, che può essere aggiunto a una barra degli strumenti e poi essere lanciato con un semplice clic del mouse. FreeCAD fornisce un semplice editor di testo (Macro → Macro → Crea) in cui è possibile scrivere o incollare degli script. Terminata la scrittura, il menu Strumenti → Personalizza → Macro permette di definire un pulsante per questo script che può anche essere aggiunto alle barre degli strumenti.
 
-Una macro è semplicemente uno script Python, che può essere aggiunto a una barra degli strumenti e poi essere lanciato con un semplice clic del mouse.
-
-FreeCAD fornisce un semplice editor di testo (Macro → Macro → Crea) in cui è possibile scrivere o incollare degli script. Terminata la scrittura, il menu Strumenti → Personalizza → Macro permette di definire un pulsante per questo script che può anche essere aggiunto alle barre degli strumenti.
+Ora sei pronto per uno scripting FreeCAD più approfondito. Quindi vai al [Hub per utenti esperti](Power_users_hub/it.md)! {{Top}}
 
 
-</div>
 
-Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor (**Macro → Macros... → Create**) where you can write or paste scripts. Once the script is done, use **Tools → Customize... → Macros** to define a button for it that can be added to toolbars.
-
-
-<div class="mw-translate-fuzzy">
-
-Ora siete pronti per approfondire le conoscenze sull\'uso degli script in FreeCAD.
-
-Dirigetevi al [Centro degli utenti esperti](Power_users_hub/it.md)!
-
-
-</div>
-
-
-{{Top}}
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Introduzione a Python](Introduction_to_Python/it.md)|[Basi di Script in FreeCAD](FreeCAD_Scripting_Basics/it.md)}}
-
-
-</div>
 
 
 

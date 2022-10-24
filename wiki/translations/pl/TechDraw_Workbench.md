@@ -6,7 +6,7 @@
 
 Wymiary, przekroje, zakreskowane obszary, adnotacje i symbole [SVG](SVG/pl.md) mogą być dodane do strony, która może być dalej eksportowana do różnych formatów, takich jak [DXF](DXF/pl.md), [SVG](SVG/pl.md), i [PDF](PDF/pl.md).
 
-Rysunek Techniczny został oficjalnie włączony do FreeCAD począwszy od wersji **0.17**. ma on być następcą nieobsługiwanego już Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md). Oba Środowiska pracy nadal są dostępne w wersji 0.17, ale środowisko Kreślenie może zostać usunięty w przyszłych wydaniach. Aby być na bieżąco z planami i rozwojem środowiska Rysunek Techniczny, odwiedź stronę [Rysunek Techniczny   * Plan działania](TechDraw_Roadmap.md).
+Rysunek Techniczny został oficjalnie włączony do FreeCAD począwszy od wersji **0.17**. ma on być następcą nieobsługiwanego już Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md). Środowisko pracy Kreślenie nadal jest dostępne w wersji 0.20, ale nie będzie dostępne w przyszłych wydaniach *({{VersionPlus/pl|1.0}})*. Aby być na bieżąco z planami i rozwojem środowiska Rysunek Techniczny, odwiedź stronę [Rysunek Techniczny   * Plan rozwoju](TechDraw_Roadmap/pl.md).
 
 Jeśli Twoim głównym celem jest tworzenie złożonych rysunków 2D i plików [DXF](DXF/pl.md), a nie potrzebujesz modelowania 3D, FreeCAD może nie być właściwym wyborem dla Ciebie. Możesz rozważyć zastosowanie dedykowanego programu do tworzenia projektów technicznych, takiego jak [LibreCAD](https   *//en.wikipedia.org/wiki/LibreCAD), [QCad](https   *//en.wikipedia.org/wiki/QCad), lub innego.
 

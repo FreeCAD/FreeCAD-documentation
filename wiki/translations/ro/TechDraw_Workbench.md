@@ -6,7 +6,13 @@ Tehnologia [ TechDraw Workbench](TechDraw_Workbench.md) este utilizată pentru a
 
 La pagină pot fi adăugate simboluri, secțiuni, suprafețe hașurate, adnotări și simboluri [SVG](SVG.md), care pot fi exportate în continuare în diferite formate ca [DXF](DXF.md), [SVG](SVG.md) și [PDF](PDF.md).
 
+
+<div class="mw-translate-fuzzy">
+
 TechDraw a fost oficial inclus în FreeCAD începând cu versiunea 0.17; acesta este destinat să înlocuiască [Drawing Workbench](Drawing_Workbench.md). Ambele benzi de lucru sunt încă furnizate în v0.17, dar Workbench-ul de desen poate fi eliminat în versiunile viitoare. Pentru a ține pasul cu planurile și evoluțiile TechDraw, vizitați [TechDraw Roadmap](TechDraw_Roadmap.md)..
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

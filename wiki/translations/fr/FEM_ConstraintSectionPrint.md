@@ -17,7 +17,7 @@ Imprime les variables de sortie faciales prédéfinies (forces et moments) dans 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande    *
-    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> [Contrainte d'empreinte de section](FEM_ConstraintSectionPrint/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> '''Contrainte d'empreinte de section'''**.
     -   Sélectionnez l\'option **Modèle → Contraintes géométriques → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Contrainte d'empreinte de section** depuis le menu.
 2.  Appuyez sur le bouton **Ajouter** et sélectionnez la face pour laquelle la sortie sera imprimée.
 

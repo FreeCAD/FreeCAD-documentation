@@ -134,6 +134,8 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ### Further Mesh improvements 
 
+-   Support to add transparencies to a mesh. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=72531) and [Commit f88305e](https   *//github.com/FreeCAD/FreeCAD/commit/f88305e)
+
 ## OpenSCAD Workbench 
 
 ## Part Workbench 

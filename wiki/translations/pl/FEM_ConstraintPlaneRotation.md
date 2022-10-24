@@ -16,7 +16,7 @@ Tworzy wiązanie metodą elementów skończonych, aby węzły na powierzchni pł
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia   *
-    -   Naciśnij przycisk **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> [Zdefiniuj obrót w płaszczyźnie](FEM_ConstraintPlaneRotation/pl.md)** na pasku narzędzi.
+    -   Naciśnij przycisk **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> '''Zdefiniuj obrót w płaszczyźnie'''** na pasku narzędzi.
     -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Zdefiniuj obrót w płaszczyźnie**.
 2.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być zastosowane wiązanie, może to być ściana.
 

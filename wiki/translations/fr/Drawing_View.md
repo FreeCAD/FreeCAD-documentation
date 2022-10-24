@@ -1,10 +1,10 @@
 ---
 - GuiCommand   */fr
    Name   *Drawing View
-   Name/fr   *Inserer une vue dans la page
-   Workbenches   *[Mise en plan](Drawing_Workbench/fr.md), Complet
-   MenuLocation   * Mise en plan → Insérer une vue dans la page
-   Shortcut   *Aucun
+   Name/fr   *Drawing Insérer une vue
+   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation   *Drawing → Insérer une vue dans la page
+   Shortcut   *
    SeeAlso   *[Feuille A3 Paysage](Drawing_Landscape_A3/fr.md)
 ---
 
@@ -49,20 +49,7 @@ Vous pouvez utiliser un script afin de générer automatiquement une feuille de 
 Si vous recherchez un basculement orthogonal en perspective dans la vue 3D, vérifiez [Std PerspectiveCamera](Std_PerspectiveCamera/fr.md) et [Std OrthographicCamera](Std_OrthographicCamera/fr.md)
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/fr
-|[Dessin A3 Paysage](Drawing_Landscape_A3/fr.md)
-|[Annotation Mise en plan](Drawing_Annotation/fr.md)
-|[Atelier Mise en plan](Drawing_Workbench/fr.md)
-|IconL=Drawing_Landscape_A3.png
-|IconC=Workbench_Drawing.svg
-|IconR=Drawing_Annotation.png
-}}
-
-
-</div>
 
 
 {{Drawing Tools navi

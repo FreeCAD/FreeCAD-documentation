@@ -20,32 +20,22 @@ Dieses Werkzeug erstellt eine offene B-Spline-Kurve aus ihren Kontrollpunkten. (
 
 ## Anwendung
 
+1.  Die Schaltfläche **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [B-spline erstellen](Sketcher_CreateBSpline/de.md)** drücken.
+2.  Eine Reihe von Punkten durch Klicken in der [3D-Ansicht](3D_view.md) auswählen. Während der Befehl aktiv ist, werden die erstellten Punkte mit geraden Linien verbunden und um jeden Punkt ein Konstruktionskreis erstellt.
+3.  Wahlweise kann **D** gedrückt werden, bevor die Eingabe beendet wird, um den Grad der B-Spline-Kurve festzulegen. {{Version/de|0.20}}
+4.  Wahlweise kann **Backspace** (\<-) gedrückt werden, bevor die Eingabe beendet wird, um den zuletzt erstellten Kontrollpunkt zu löschen. {{Version/de|0.20}}
+5.  Ein Rechtsklick beendet die Eingabe und generiert die Kurve.
+6.  Abhängig von den Voreinstellungen könnte das Werkzeug aktiv bleiben, um eine neue Kurve zu zeichnen. Erneut mit der rechten Maustaste klicken, um den Befehl zu verlassen.
 
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [B-spline erstellen](Sketcher_CreateBSpline/de.md)** Taste.
-2.  Erstelle eine Reihe von Punkten, durch anklicken in der 3D Ansicht. Während der Befehl aktiv ist, werden die erzeugten Punkte mit geraden Linien verbunden, und es wird ein Konstruktionskreis erstellt, der auf jeden Punkt zentriert ist.
-3.  Klicke mit der rechten Maustaste, um die Eingabe zu beenden und die Kurve zu erzeugen.
-4.  Abhängig von den Einstellungen kann das Werkzeug aktiv bleiben, um eine neue Kurve zu verfolgen. Klicke erneut mit der rechten Maustaste, um den Befehl zu beenden.
-
--   Es ist möglich, das Gewicht der Kontrollpunkte zu definieren, indem man die Radien der Gewichtskreise ändert. Die Gleichheitsbeschränkungen für die Kreise müssen zuerst gelöscht werden. Die Radiusbeschränkung ist willkürlich, das Gewicht der Kontrollpunkte wird durch die relativen Radien der Kreise definiert. Es funktioniert ähnlich wie die Schwerkraft   * Je größer ein Kreis im Verhältnis zu den anderen ist, desto mehr wird die Kurve zum Kontrollpunkt gezogen.
--   Die Sichtbarkeit des Kontrollpolygons, des Krümmungskamms, des Grades und der Knotenvielfalt kann über die Symbolleiste [B-Spline Werkzeuge](Sketcher_Workbench/de#Skizzierer_B-Spline_Werkzeuge.md) ein- und ausgeschaltet werden.
--   Schaue Dir die anderen Werkzeuge in der Werkzeugleiste von [B-Spline Werkzeuge](Sketcher_Workbench/de#Skizze_B-spline_Werkzeuge.md) an, für weitere B-Spline-Bearbeitungswerkzeuge.
-
-
-</div>
+-   Es ist möglich, die Gewichte der Kontrollpunkte festzulegen, indem die Radien der Gewichtskreise geändert werden. Die Gleichheitsbedingungen der Kreise müssen zuerst gelöscht werden. Die Randbedingung Radius ist frei wählbar, das Gewicht der Kontrollpunkte wird durch die relativen Radien der Kreise definiert. Es funktioniert ähnlich wie die Schwerkraft   * Je größer ein Kreis im Verhältnis zu den anderen ist, desto stärker wird die Kurve vom Kontrollpunkt angezogen.
+-   Die Sichtbarkeit des Kontrollpolygons, des Krümmungskamms, des Grades und die Knotenvielfachheit können über die Werkzeugleiste [B-Spline-Werkzeuge](Sketcher_Workbench/de#Sketcher-B-Spline-Werkzeuge.md) ein- oder ausgeschaltet werden.
+-   Siehe auch die anderen Werkzeuge in der Werkzeugleiste [B-Spline-Werkzeuge](Sketcher_Workbench/de#Sketcher-B-Spline-Werkzeuge.md) für weitere Bearbeitungswerkzeuge.
 
 ## Begrenzungen
 
-
-<div class="mw-translate-fuzzy">
-
--   Viele Arten von Beschränkungen werden derzeit nicht unterstützt. Nur der Kontrollpunkt und die Endpunkte des B-Splines können beschränkt werden.
--   [Trimming](Sketcher_Trimming/de.md) und [extend](Sketcher_Extend/de.md) Werkzeuge werden nicht unterstützt.
--   Die Form einer B-Splinekurve kann nur durch Ziehen eines der Kontrollpunkte bearbeitet werden. Die auf der Kurve liegenden Knoten können nicht ausgewählt werden.
-
-
-</div>
+-   Viele Arten von Randbedingungen werden derzeit nicht unterstützt. Nur die Kontroll- und Endpunkte des B-Splines können festgelegt werden.
+-   Die Werkzeuge [Zuschneiden](Sketcher_Trimming/de.md) und [Verlängern](Sketcher_Extend/de.md) werden nicht unterstützt.
+-   Die Form einer B-Spline-Kurve kann nur durch Bewegen (eines) der Kontrollpunkte bearbeitet werden. Die auf der Kurve liegenden Knoten können nicht ausgewählt werden.
 
 
 

@@ -5,7 +5,7 @@
    MenuLocation   *Solveur → Solveur CalculiX (nouveau modèle)
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    Shortcut   ***S** **C**
-   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM CalculiX](FEM_CalculiX/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM SolverCalculiX/fr

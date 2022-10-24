@@ -49,7 +49,7 @@ Vérifie les contraintes mal faites.
 
 Par exemple, s\'il y a une contrainte Cercle-Ligne-Tangente mais qu\'elle fait référence à deux lignes, elle est considérée comme non valable.
 
-(Cela se produit parfois en raison du problème de [dénomination topologique](Topological_naming_problem/fr.md), c\'est-à-dire que la géométrie externe change de type).
+(Cela se produit parfois en raison du [problème de dénomination topologique](Topological_naming_problem/fr.md), c\'est-à-dire que la géométrie externe change de type).
 
 Effectue également d\'autres contrôles, par exemple pour les liens vides.
 

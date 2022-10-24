@@ -10,6 +10,9 @@
 
 # FEM MaterialEditor/de
 
+
+</div>
+
 ## Beschreibung
 
 Mit dem **Material-Editor** kann man die in einem [FreeCAD-Material](Material.md) gespeicherten Informationen bearbeiten und speichern. Derzeit werden diese Materialien von den Arbeitsbereichen <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch](Arch_Workbench/de.md) verwendet.

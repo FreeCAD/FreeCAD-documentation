@@ -23,10 +23,11 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 
 </div>
 
-Several ways to invoke this command   *
+There are several ways to invoke this command   *
 
--   Pressing the **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
--   Pressing the **Close** button at the top of the [task panel](Task_panel.md).
+-   Press the **Close** button at the top of the [task panel](Task_panel.md).
+-   Press the **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
+-   Select the **Sketch → [<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> Leave sketch** option from the menu.
 
 
 <div class="mw-translate-fuzzy">

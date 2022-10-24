@@ -108,7 +108,7 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
         
            * Select a [Datum Line](PartDesign_Line.md) in the [Tree view](Tree_view.md) or a [Datum Line](PartDesign_Line.md) or edge in the [3D view](3D_view.md).
 -   Check the **Reverse direction** checkbox to reverse the pattern.
--   Specify the **Angle** to be covered by the pattern.
+-   Specify the **Angle** to be covered by the pattern. If the angle is less than 360°, the instances are evenly distributed from 0° (first instance) to the given angle (last instance). If the angle is a full 360° circle, the instances are evenly distributed around the circle. This means that for n instances an angle of 360° is equivalent to an angle of 360°\*(1-1/n).
 -   Specify the number of **Occurrences** (including the original feature).
 -   If the **Update view** checkbox is checked the view will update in real time.
 

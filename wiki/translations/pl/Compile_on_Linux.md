@@ -1332,6 +1332,12 @@ Kroki do wykonania   *
 Aby zaktualizować FreeCAD do najnowszej wersji, powtórz kroki z punktu 3. Zaktualizuj repo AUR, gdy w przepisie pojawią się jakieś zmiany lub nowe funkcje, używając `git checkout -f` wewnątrz folderu.
 
 
+</div>
+
+
+</div>
+
+
 
 
 

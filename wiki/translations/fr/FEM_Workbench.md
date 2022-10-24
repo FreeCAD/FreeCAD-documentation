@@ -252,7 +252,7 @@ Nombreux tutoriels vidéo    * [anisim Logiciels d\'ingénierie à code source o
 
 ## Extension de l\'atelier FEM 
 
-L\'atelier FEM est constante évolution. Un des objectifs du projet est de trouver des moyens d'interagir facilement avec divers solveurs FEM, afin que l'utilisateur final puisse rationaliser le processus de création, de maillage, de simulation et d'optimisation d'un problème de conception technique, le tout avec FreeCAD.
+L\'atelier FEM est en constante évolution. Un des objectifs du projet est de trouver des moyens d'interagir facilement avec divers solveurs FEM, afin que l'utilisateur final puisse rationaliser le processus de création, de maillage, de simulation et d'optimisation d'un problème de conception technique, le tout avec FreeCAD.
 
 Les informations suivantes sont destinées aux utilisateurs expérimentés et aux développeurs qui souhaitent étendre l\'atelier FEM de différentes manières. Une connaissance des langages C ++ et Python est préconisée. Une certaine connaissance du système \"document objet\" utilisé dans FreeCAD est également nécessaire. Ces informations sont disponibles dans la [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md) et la [Documentation pour développeurs](Developer_hub/fr.md). Veuillez noter que FreeCAD étant toujours en cours de développement, certains articles peuvent être anciens et donc obsolètes. Les informations les plus récentes sont traitées dans les [forums FreeCAD](https   *//forum.freecadweb.org/index.php), dans la section Développement. Pour les discussions sur l\'atelier FEM, les conseils ou l'aide pour l'extension de l'atelier reférez vous dans le [sous forum FEM](https   *//forum.freecadweb.org/viewforum.php?f=18).
 

@@ -6,7 +6,13 @@ L\'[Ambiente TechDraw](TechDraw_Workbench/it.md) <img alt="" src=images/Workbenc
 
 Alla pagina possono essere aggiunte dimensioni, sezioni, aree tratteggiate, annotazioni e simboli [SVG](SVG/it.md), e la pagina può essere ulteriormente esportata in diversi formati come [DXF](DXF/it.md), [SVG](SVG/it.md), e [PDF](PDF/it.md).
 
+
+<div class="mw-translate-fuzzy">
+
 TechDraw è stato incluso ufficialmente in FreeCAD a partire dalla versione 0.17; è destinato a sostituire l\'ambiente [Drawing](Drawing_Workbench/it.md) non più supportato. In v0.17 sono ancora forniti entrambi gli ambienti, ma nelle versioni future Drawing potrebbe essere rimosso. Per essere aggiornati sui piani e gli sviluppi di TechDraw, visitare la [Roadmap di TechDraw](TechDraw_Roadmap.md).
+
+
+</div>
 
 Se il tuo obiettivo primario è la produzione di disegni 2D complessi, e di file [ DXF](DXF/it.md), e non si ha bisogno di modelli 3D, FreeCAD potrebbe non essere la scelta giusta per te. Dovresti invece prendere in considerazione un programma software dedicato al disegno tecnico, come [LibreCAD](https   *//en.wikipedia.org/wiki/LibreCAD) o [QCad](https   *//en.wikipedia.org/wiki/QCad).
 

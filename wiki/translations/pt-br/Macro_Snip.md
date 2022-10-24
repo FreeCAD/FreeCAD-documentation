@@ -2,7 +2,7 @@
 {{Macro
 |Name=Macro Snip
 |Icon=Snip.png
-|Description=Use this macro to easily post screenshots to the FreeCAD forum.<br/>It is best to add this macro to your global custom macros toolbar for quick and easy access.<br/>When posting to the FreeCAD forum it is often useful to be able to include screenshots. The problem is this is a somewhat tedious task. This macro is to make that task a bit easier.<br/>The macro can take screenshots or it can use existing screenshots that have already been copied to the system clipboard. To bypass the image already in clipboard press the Shift key while invoking the macro. To use the macro to take the screenshot adjust the size and placement of the dialog that pops up, then click OK. Upon clicking OK the macro will attempt to take a screenshot of the area of the screen covered by the dialog. The dialog itself is semi-transparent, so you can see the contents beneath. 
+|Description=Use this macro to easily post screenshots to the FreeCAD forum.<br/>It is best to add this macro to your global custom macros toolbar for quick and easy access.<br/>When posting to the FreeCAD forum it is often useful to be able to include screenshots. The problem is this is a somewhat tedious task. This macro is to make that task a bit easier.<br/>The macro can take screenshots or it can use existing screenshots that have already been copied to the system clipboard. To bypass the image already in clipboard press the Shift key while invoking the macro. To use the macro to take the screenshot adjust the size and placement of the dialog that pops up, then click OK. Upon clicking OK the macro will attempt to take a screenshot of the area of the screen covered by the dialog. The dialog itself is semi-transparent, so you can see the contents beneath.
 |Author=TheMarkster
 |Version=1.22
 |Date=2022.02.23
@@ -11,7 +11,7 @@
 |SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Screen Wiki](Macro_Screen_Wiki.md)
 |Shortcut=On Windows   * Windows Key + Shift + S<br/>
 On Mac   * Command + Shift + 4<br/>
-On Linux   * gnone-screenshot utility<br/>
+On Linux   * gnome-screenshot utility<br/>
 }}
 
 ## Descrição
@@ -27,12 +27,12 @@ When posting to the FreeCAD forum it is often useful to be able to include scree
 The macro can take screenshots or it can use existing screenshots that have already been copied to the system clipboard. To bypass the image already in clipboard press the **Shift** key while invoking the macro. To use the macro to take the screenshot adjust the size and placement of the dialog that pops up, then click **OK**. Upon clicking **OK** the macro will attempt to take a screenshot of the area of the screen covered by the dialog. The dialog itself is semi-transparent, so you can see the contents beneath.
 
 <img alt="" src=images/Snip-Screenshot1.png  style="width   *600px;"> 
-*Snip screenshot1,  Notice how the dialog is semi-transparent.  Only the screen contents below the dialog will be captured.*
+*Notice how the dialog is semi-transparent. Only the screen contents below the dialog will be captured.*
 
 After clicking **OK**, the macro then takes the screenshot and saves it to a temporary file. A file open dialog is then opened at the file\'s location. You can drag and drop the file from there to the forum into the textarea where you type in your text for your forum post. Upon canceling the dialog the temporary screenshot file is deleted automatically. You may also open the screenshot file in your default application installed for opening **.png** files (on Windows this is typically Paint). This can be useful if you wish to add some annotations to the screenshot or perhaps additional editing, such as cropping.
 
 <img alt="" src=images/Snip-Screenshot2.png  style="width   *600px;"> 
-*Snip screenshot2,  This is the open file dialog that pops up automatically after taking the screenshot.  The image can be dragged and dropped to the forum or it can be opened for further processing in your system default application for opening png files.  Alternatively, you can right-click on the image and **Open with..* another application of your choice.**
+*This is the open file dialog that pops up automatically after taking the screenshot. The image can be dragged and dropped to the forum or it can be opened for further processing in your system default application for opening png files. Alternatively, you can right-click on the image and **Open with..* another application of your choice.**
 
 If the macro doesn\'t work on your system to capture screenshots it can still be useful for screenshots you have captured using other tools. Simply copy the screenshot to the clipboard, then run the macro. It will create the temporary file and open the file\'s directory in an open file dialog for you. Some other tools for taking screenshots   *
 
@@ -82,7 +82,7 @@ ToolBar icon ![](images/Snip.png )
 # -*- coding   * utf-8 -*-
 """
 ***************************************************************************
-*   Copyright (c) 2019 <TheMarkster>                                 *
+*   Copyright (c) 2019 <TheMarkster>                                      *
 *                                                                         *
 *   This file is a supplement to the FreeCAD CAx development system.      *
 *                                                                         *
@@ -93,7 +93,7 @@ ToolBar icon ![](images/Snip.png )
 *                                                                         *
 *   This software is distributed in the hope that it will be useful,      *
 *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
-*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the          *
 *   GNU Library General Public License at http   *//www.gnu.org/licenses     *
 *   for more details.                                                     *
 *                                                                         *
@@ -112,13 +112,13 @@ Snip Macro
 This is a macro to make it easier to post screenshots to the FreeCAD forum.
 
 The forum supports a drag and drop interface -- just drag and drop an image to the
-textarea where you type in your post.  But it still requires many
-tedious steps.  This macro is to reduce some of those steps.
+textarea where you type in your post. But it still requires many
+tedious steps. This macro is to reduce some of those steps.
 
 You should add the macro to your custom macro toolbar to save as many clicks as possible.
 
 The first thing the macro does is to check if there is an image already saved to the 
-system clipboard, and if so, it uses that one.  To bypass the clipboard, press Shift
+system clipboard, and if so, it uses that one. To bypass the clipboard, press Shift
 while invoking the macro.
 
 """
@@ -220,8 +220,8 @@ if not image   *
     mb = SnipBox()     
     details = """
 Move and resize this box to cover the part of the screen you wish to grab.
-If it succeeds an open file dialog will appear.  Drag and drop the file
-from the open file dialog to the forum.  The file will be deleted after
+If it succeeds an open file dialog will appear. Drag and drop the file
+from the open file dialog to the forum. The file will be deleted after
 you close the dialog.
 
 If this fails you can still use this macro to handle screenshots you
@@ -232,13 +232,13 @@ Mac snip tool   * Command + Shift + 4
 Linux   * gnome-screenshot utility
 
 If the macro finds there is already an image copied to the clipboard 
-it uses that image instead of bringing up this dialog.  Press Shift
-while invoking this macro to bypass the clipboard.  Alternatively,
+it uses that image instead of bringing up this dialog. Press Shift
+while invoking this macro to bypass the clipboard. Alternatively,
 you can clear the image from the clipboard by copying some text to it.
 
 The Open button will open the file in the system
-default application for handling png files, e.g. Paint in windows.  This
-can be useful if you wish to annotate the screenshot.  But most of the
+default application for handling png files, e.g. Paint in windows. This
+can be useful if you wish to annotate the screenshot. But most of the
 time you will simply want to drag and drop the file to the forum, then
 Cancel to close the open file dialog afterwards.
 

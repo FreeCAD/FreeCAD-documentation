@@ -1374,7 +1374,13 @@ Schritte    *
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Um FreeCAD auf den neuesten Stand zu bringen, wiederhole einfach ab Schritt 3. Aktualisiere AUR repo, wenn es eine Bruchänderung im Rezept oder neue Funktionen gibt, indem Du `git checkout -f` im Ordner verwendest.
+
+
+</div>
 
 
 {{docnav/de

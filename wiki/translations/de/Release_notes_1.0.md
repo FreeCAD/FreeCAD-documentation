@@ -15,13 +15,7 @@ Siehe [FreeCAD Unterstützen](Help_FreeCAD/de.md) für Möglichkeiten etwas zu F
 
 **FreeCAD 1.0** wurde am **DD MM 2023** veröffentlicht, es kann von der [Download](Download/de.md)-Seite heruntergeladen werden. Diese Seite listet alle Neuerungen und Änderungen auf.
 
-
-<div class="mw-translate-fuzzy">
-
 Ältere FreeCAD-Versionshinweise findet man in der [Funktionsliste](Feature_list/de#Versionshinweise.md).
-
-
-</div>
 
 Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases forum](https   *//forum.freecadweb.org/viewforum.php?f=24) ausgesucht wird.
 
@@ -30,7 +24,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 ## Benutzeroberfläche
 
    
-  <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width   *384px;">   The display style of [measurement](Part_Workbench#Measure.md) results created using the [Part](Part_Workbench.md) or [PartDesign](PartDesign_Workbench.md) workbench can now be changed in the [preferences](PartDesign_Preferences#Measure.md). [Pull request #7148](https   *//github.com/FreeCAD/FreeCAD/pull/7148)
+  <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width   *384px;">   Die Darstellungsart von [Messergebnissen](Part_Workbench/de#Messung.md), die in den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, können jetzt in den [Einstellungen](PartDesign_Preferences/de#Measure.md) angepasst werden. [Pull request #7148](https   *//github.com/FreeCAD/FreeCAD/pull/7148)
    
 
 ### Weitere Verbesserungen der Benutzeroberfläche 
@@ -80,7 +74,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 </div>
 
-#### Removed Python API 
+#### Entfernte Python API 
 
 -   *FreeCAD.EndingAdd*   * replaced by *FreeCAD.addImportType*. [Pull request #7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
 -   *FreeCAD.EndingGet*   * replaced by *FreeCAD.getImportType*. [Pull request #7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
@@ -92,7 +86,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ### Arbeitsbereich Arch 
 
-### Further Arch improvements 
+### Weitere Arch-Verbesserungen 
 
 -   [Profile](Arch_Profile.md) objects now support modification of the profile type after creation. [Pull request #7217](https   *//github.com/FreeCAD/FreeCAD/pull/7217)
 
@@ -149,7 +143,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 ## Arbeitsbereich Sketcher 
 
    
-  ![](images/sketcher-move-piece_relnotes_1.0.gif )   Dragging a B-spline now only moves the part between knots. [Pull request #7110](https   *//github.com/FreeCAD/FreeCAD/pull/7110)
+  ![](images/sketcher-move-piece_relnotes_1.0.gif )   Ziehen an einem B-Spline bewegt jetzt nur den Teil zwischen den (angrenzenden) Knoten. [Pull request #7110](https   *//github.com/FreeCAD/FreeCAD/pull/7110)
                                                                                      
    
 
@@ -219,9 +213,9 @@ Depending on the OpenGL graphics capabilities of a computer, it might be that on
 -   Download [this](https   *//downloads.fdossena.com/geth.php?r=mesa64-latest) OpenGL library for 64bit Windows and extract it.
 -   Rename the DLL file to *opengl32sw.dll* and copy it to the *bin* subfolder of FreeCAD\'s installation folder (overwrite the existing DLL there).
 
-### MacOS   * Start Workbench shows blank page 
+### MacOS   * Arbeitsbereich Start zeigt eine leere Seite 
 
-If the [Start Workbench](Start_Workbench.md) shows only a blank page, you must enable the option **Use software OpenGL** in the menu **Edit → Preferences → Display**.
+Zeigt der Arbeitsbereich [Start](Start_Workbench/de.md) nur eine leere Seite, muss die Einstellung **Software OpenGL verwenden** im Menü **Edit → Einstellungen → Anzeige** aktiviert werden.
 
 [Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 

@@ -15,9 +15,7 @@ Trace les valeurs d\'un champ le long d\'une ligne spécifiée.
 
 ![](images/FEM_Line-Clip-Filter-Example.png )
 
-\'\'Un filtre d\'écrêtage selon une ligne
-
-La partie de la ligne à l'extérieur du filtre d'écrêtage selon une région est définie à une valeur de zéro et apparaît donc en bleu.''
+*Un filtre d\'écrêtage selon une ligne à l\'intérieur d\'un [Filtre d\'écrêtage selon une région](FEM_PostFilterClipRegion/fr.md).Le filtre d\'écrêtage selon une région est l\'objet semi-transparent.La partie de la ligne à l\'extérieur du filtre d\'écrêtage selon une région est définie à une valeur de zéro et apparaît donc en bleu.*
 
 ## Utilisation
 

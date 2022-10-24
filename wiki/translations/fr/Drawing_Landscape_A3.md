@@ -1,6 +1,13 @@
-# Drawing Landscape A3/fr
 ---
-- GuiCommand   */fr   Name   *Drawing Landscape A3   Name/fr   *Feuille A3 Paysage   Workbenches   *[[Drawing Workbench/fr   Mise en plan]], Complet|MenuLocation   *Mise en plan → Insérer une nouvelle mise en plan → Feuille A3 paysage   Raccourci   *aucun---
+- GuiCommand   */fr
+   Name   *Drawing Landscape A3
+   Name/fr   *Drawing Feuille A3 Paysage
+   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation   *Drawing → Insérer une nouvelle mise en plan → Feuille A3 paysage
+   Shortcut   *
+---
+
+# Drawing Landscape A3/fr
 
 Cet outil créé une nouvelle feuille de dessin à partir des gabarits installés. Actuellement, même si le menu et la barre d\'outil incluent les formats paysage A0 à A4, seul le A3 Paysage est disponible.
 
@@ -17,20 +24,7 @@ Si la page ne s\'affiche pas, cliquer sur l\'icône Rafraîchir <img alt="" src=
 -   Le gabarit utilisé par une page peut être changé via la propriété *Template* de l\'onglet Données. Cliquer sur le champ Valeur, puis sur le bouton \"\...\" afin de naviguer vers un [gabarit adapté](Drawing_templates/fr.md). Ensuite rafraîchissez la vue.
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/fr
-|[Ouvrir un fichier SVG Drawing](Drawing_Open_SVG/fr.md)
-|[Insérer une vue dans la page Drawing](Drawing_View/fr.md)
-|[Module Drawing](Drawing_Workbench/fr.md)
-|IconL=Drawing_Open_SVG.png
-|IconC=Workbench_Drawing.svg
-|IconR=Drawing_View.png
-}}
-
-
-</div>
 
 
 {{Drawing Tools navi

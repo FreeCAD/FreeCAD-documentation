@@ -4,7 +4,7 @@
    MenuLocation   *Model → Materials → Material editor
    Workbenches   *[FEM](FEM_Workbench.md), [Arch](Arch_Workbench.md)
    Version   *0.18
-   SeeAlso   *[Material](Material.md), [Arch SetMaterial](Arch_SetMaterial.md), [FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[Arch SetMaterial](Arch_SetMaterial.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM MaterialEditor/pt-br

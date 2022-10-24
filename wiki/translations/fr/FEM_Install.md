@@ -99,7 +99,7 @@ Les paquets FreeCAD disponibles à partir de la page [Téléchargements](Downloa
 
 ## Installation sous Linux 
 
-Les distributions Linux ont différentes manières d\'installer un logiciel. De nombreuses distributions ont des référentiels de logiciels et des gestionnaires de paquets; avant de compiler le code source, recherchez dans votre gestionnaire de paquets pour `netgen`, `gmsh`, `calculix-ccx` ou `ccx` et installez-les après la instructions de votre propre distribution.
+Les distributions Linux ont différentes manières d\'installer un logiciel. De nombreuses distributions ont des référentiels de logiciels et des gestionnaires de paquets; avant de compiler le code source, recherchez dans votre gestionnaire de paquets pour `netgen`, `gmsh`, `calculix-ccx` ou `ccx` et installez-les d\'après les instructions de votre propre distribution.
 
 
 <div class="mw-collapsible-content">

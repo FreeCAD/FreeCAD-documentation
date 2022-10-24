@@ -11,7 +11,7 @@
 
 ## Description
 
-The **Material Editor** allows you to edit. Currently such materials are used by the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench.md) and <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch](Arch_Workbench.md) workbenches.
+The **Material Editor** allows you to edit and save the information contained in a [FreeCAD material](Material.md). Currently such materials are used by the <img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [FEM](FEM_Workbench.md) and <img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [Arch](Arch_Workbench.md) workbenches.
 
 ![](images/Material_editor.png )
 

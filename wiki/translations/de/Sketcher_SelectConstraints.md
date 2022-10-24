@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher SelectConstraints
-   Name/de   *Skizzierer WähleBeschränkungen
-   MenuLocation   *Skizze → Skizzierwerkzeuge → Wähle Beschränkungen
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut   ***Shift**+**Ctrl**+**C**
+   Name/de   *Sketcher SelectConstraints
+   MenuLocation   *Skizze → Skizzen-Werkzeuge → Zugehörige Elemente auswählen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***Z** **K**
    Version   *0.15
 ---
 
 # Sketcher SelectConstraints/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -42,13 +39,7 @@ Schaltfläche.
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

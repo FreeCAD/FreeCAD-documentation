@@ -1,5 +1,5 @@
 # Drawing Workbench/fr
-**Le développement de l'[atelier Mise en plan](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Mise en plan peut être supprimé dans les versions ultérieures.**
+**Le développement de l'[atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Drawing peut être supprimé dans les versions ultérieures.**
 
 <img alt="Icône de l\'atelier Drawing" src=images/Workbench_Drawing.svg  style="width   *128px;">
 
@@ -32,13 +32,13 @@ Ces outils permettent de créer, configurer et exporter des mises en plan 2D
 
 -   <img alt="" src=images/Drawing_Symbol.png  style="width   *32px;"> [Symbol](Drawing_Symbol/fr.md)   * Ajoute le contenu d\'un fichier SVG en tant que symbole dans la feuille de dessin en cours.
 
--   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Draft View](Draft_Drawing/fr.md)   * Insère une vue Brouillon spécial de l\'objet sélectionné dans la feuille de dessin en cours.
+-   <img alt="" src=images/Drawing_DraftView.png  style="width   *32px;"> [Vue Draft](Draft_Drawing/fr.md)   * Insère une vue Draft spécial de l\'objet sélectionné dans la feuille de dessin en cours.
 
--   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width   *32px;"> [Spreadsheet View](Drawing_SpreadsheetView/fr.md)   * Insère une vue d\'une feuille de calcul sélectionnée dans la feuille de dessin en cours.
+-   <img alt="" src=images/Drawing_SpreadsheetView.png  style="width   *32px;"> [Vue d\'une feuille de calcul](Drawing_SpreadsheetView/fr.md)   * Insère une vue d\'une feuille de calcul sélectionnée dans la feuille de dessin en cours.
 
 -   <img alt="" src=images/Drawing_Save.png  style="width   *32px;"> [Exporter la feuille](Drawing_Save/fr.md)   * Exporte la feuille dans un fichier au format SVG
 
--   [Project Shape](Drawing_ProjectShape/fr.md)   * Crée une projection de l\'objet sélectionné (Source) dans la vue 3D.
+-   [Projection de forme](Drawing_ProjectShape/fr.md)   * Crée une projection de l\'objet sélectionné (Source) dans la vue 3D.
 
 -    **Note   ***L\'atelier [Draft](Draft_Workbench/fr.md) a son propre [atelier de dessin](Draft_Drawing/fr.md) qui place les objets du projet sur papier. Il a quelques fonctionnalités supplémentaires sur les outils de dessin standards et prend en charge les objets spécifiques tels que [les dimensions](Draft_Dimension/fr.md).
 

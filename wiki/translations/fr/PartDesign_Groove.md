@@ -17,17 +17,17 @@ L\'outil **Rainure** fait pivoter une esquisse ou un profil sélectionné autour
 
 
 
-*Ci-dessus    * l'esquisse (A) tourne autour de l'axe (B) ; la rainure résultante sur le solide (C) est illustrée à droite.*
+*Ci-dessus    * l'esquisse (A) tourne autour de l'axe (B); la rainure résultante sur le solide (C) est illustrée à droite.*
 
 ## Utilisation
 
-1.  Sélectionner l\'esquisse à révolutionner.
+1.  Sélectionnez l\'esquisse à révolutionner.
 
        *   Une face sur le solide existant peut également être utilisée. {{VersionPlus/fr|0.17}}
        *   L\'esquisse doit être mappée sur la face plane d\'un solide existant ou d\'une fonction de conception de pièce, sinon un message d\'erreur apparaîtra. {{VersionMinus/fr|0.16}}
 2.  Appuyez sur le bouton **<img src="images/PartDesign_Groove.svg" width=24px> '''Rainure'''**.
-3.  Définir les paramètres de la révolution (voir la section suivante).
-4.  Appuyer sur le bouton **OK**.
+3.  Définissez les paramètres de la révolution (voir la section suivante).
+4.  Appuyez sur le bouton **OK**.
 
 ## Options
 

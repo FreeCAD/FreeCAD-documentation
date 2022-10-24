@@ -2,7 +2,7 @@
 {{Macro/fr
 |Name=Macro Copy3DViewToClipboard
 |Icon=Macro_Copy3DViewToClipboard.png
-|Description=Cette macro copie le contenu de la vue 3D redimensionnée en 640 x 480 pixels dans la mémoire en image bitmap (BMP). La copie dans Gimp n'est pas possible Gimp utilise sa propre méthode pour la fonction copier.
+|Description=La macro copiera le contenu de la vue 3D dans le presse-papiers en image bitmap (BMP).<br/>Copier dans Gimp n'est pas possible. Gimp utilise sa propre méthode pour la fonction de copie. 
 |Author=Mario52
 |Version=00.01
 |Date=2016-09-14
@@ -14,7 +14,7 @@
 
 ## Description
 
-Cette macro copie le contenu de la vue 3D redimensionnée en 640 x 480 pixels dans la mémoire en image bitmap (BMP). La copie dans Gimp n\'est pas possible Gimp utilise sa propre méthode pour la fonction copier.
+La macro copiera le contenu de la vue 3D dans le presse-papiers en image bitmap (BMP). Il n\'est pas possible de copier dans Gimp. Gimp utilise sa propre méthode pour la fonction de copie.
 
 
 {{Codeextralink|https   *//gist.githubusercontent.com/mario52a/f5c3738f858f7b058897c6c235232cbe/raw/a10bc3b8789badc1e405541d4697d7286d9f0fd3/Macro_Copy3DViewToClipboard.FCMacro}}
@@ -31,7 +31,7 @@ line 33    * ***glw.resize(640, 480) \# reduce the SubWindow***
 
 par
 
-Line 33    * ***glw.resize(800, 600) \# reduce the SubWindow***
+line 33    * ***glw.resize(800, 600) \# reduce the SubWindow***
 
 ## Discussion
 

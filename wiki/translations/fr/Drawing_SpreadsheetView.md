@@ -1,19 +1,16 @@
-# Drawing SpreadsheetView/fr
 ---
-- GuiCommand   */fr   Name   *Drawing SpreadsheetView   Name/fr   *Drawing SpreadsheetView   Workbenches   *[[Drawing_Workbench/fr   Drawing]]|MenuLocation   *Drawing → Spreadsheet View---
+- GuiCommand   */fr
+   Name   *Drawing SpreadsheetView
+   Name/fr   *Drawing Vue d'une feuille de calcul
+   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation   *Drawing → insérer une vue d'une feuille de calcul...
+---
 
-
-</div>
+# Drawing SpreadsheetView/fr
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_Workbench/fr.md) sélectionnée dans une page [Drawing](TechDraw_Workbench/fr.md).
-
-
-</div>
+Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_Workbench/fr.md) sélectionnée dans une page [Drawing](Drawing_Workbench/fr.md).
 
 <img alt="" src=images/Drawing_spreadsheetview.jpg  style="width   *640px;">
 
@@ -37,20 +34,7 @@ Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_W
 -    {{PropertyData/fr|Line Width}}   * La largeur des lignes frontières de la cellule
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/fr
-|[Symbole Drawing](Drawing_Symbol/fr.md)
-|[Sauvegarde/Exportation Drawing](Drawing_Save/fr.md)
-|[Module Drawing](Drawing_Workbench/fr.md)
-|IconL=Drawing_Symbol.png
-|IconC=Workbench_Drawing.svg
-|IconR=Drawing_Save.png
-}}
-
-
-</div>
 
 
 {{Drawing Tools navi

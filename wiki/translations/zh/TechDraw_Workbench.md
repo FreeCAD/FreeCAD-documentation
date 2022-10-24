@@ -6,7 +6,7 @@ The <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [Tech
 
 Dimensions, sections, hatched areas, annotations, and [SVG](SVG.md) symbols can be added to the page, which can be further exported to different formats like [DXF](DXF.md), [SVG](SVG.md), and [PDF](PDF.md).
 
-TechDraw was officially included in FreeCAD starting with version 0.17; it is intended to replace the unsupported [Drawing Workbench](Drawing_Workbench.md). Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases. To keep up with TechDraw plans and developments, visit the [TechDraw Roadmap](TechDraw_Roadmap.md).
+TechDraw was officially included in FreeCAD starting with version 0.17; it is intended to replace the unsupported [Drawing Workbench](Drawing_Workbench.md). The Drawing Workbench is still provided in v0.20, but will not be available in future releases (<small>(v1.0)</small> ). To keep up with TechDraw plans and developments, visit the [TechDraw Roadmap](TechDraw_Roadmap.md).
 
 If your primary goal is the production of complex 2D drawings and [DXF](DXF.md) files, and you don\'t need 3D modelling, FreeCAD may not be the right choice for you. You may wish to consider a dedicated software program for technical drafting instead, such as [LibreCAD](https   *//en.wikipedia.org/wiki/LibreCAD) or [QCad](https   *//en.wikipedia.org/wiki/QCad).
 

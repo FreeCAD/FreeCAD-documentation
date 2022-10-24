@@ -193,6 +193,12 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 -   <img alt="" src=images/Fasteners_ISO1207.svg  style="width   *32px;"> 
 **ISO 1207** Slotted cheese head screw. *Product grade A.*
 
+-   <img alt="" src=images/Fasteners_DIN96.svg  style="width   *32px;"> **DIN 96** Slotted half round head wood screw.
+
+-   <img alt="" src=images/Fasteners_GOST1144-1.svg  style="width   *32px;"> **GOST 1144-1** Slotted half round head wood screw.
+
+-   <img alt="" src=images/Fasteners_GOST1144-2.svg  style="width   *32px;"> **GOST 1144-2** Slotted half round head wood screw.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width   *32px;"> **ASME B18.6.3.1A** UNC slotted countersunk flat head screw.
 
 ### H cross head screws 
@@ -230,6 +236,10 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 -   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Cap nut, low form.
 
 -   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Cap nut.
+
+-   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width   *32px;"> **GOST 11860-1** Cap nut.
+
+-   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** T-slot nut.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Square nut.
 

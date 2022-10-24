@@ -3,15 +3,12 @@
    Name   *Sketcher Rectangles
    Name/de   *Sketcher AuswahlRechteckErstellen
    Icon   *Sketcher_CompCreateRectangles.png
-   MenuLocation   *Keine (nur Werkzeugleiste)
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    Version   *0.20
 ---
 
 # Sketcher CompCreateRectangles/de
-
-
-</div>
 
 ## Beschreibung
 

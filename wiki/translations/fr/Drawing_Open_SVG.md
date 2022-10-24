@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */fr
    Name   *Drawing Open SVG
-   Name/fr   *Ouvrir SVG
-   Workbenches   *[mise en plan](Drawing_Workbench/fr.md), Complet
-   MenuLocation   * mise en plan → Ouvrir SVG...
+   Name/fr   *Drawing Ouvrir SVG
+   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation   *Drawing → Ouvrir SVG...
    Shortcut   *Aucun
-   SeeAlso   *[Sauvegarder Mise en Plan](Drawing_Save/fr.md)
+   SeeAlso   *[Drawing Sauvegarder](Drawing_Save/fr.md)
 ---
 
 # Drawing Open SVG/fr
-
-
-</div>
 
 Cette commande ouvre une feuille de dessin précédemment sauvegardée au format de fichier vectoriel SVG (scalable vector graphics). Elle permet aussi de visualiser des fichiers SVG créés dans d\'autres applications.
 
@@ -19,13 +16,7 @@ Cette commande ouvre une feuille de dessin précédemment sauvegardée au format
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Drawing Tools navi

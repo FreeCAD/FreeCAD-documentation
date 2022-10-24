@@ -21,10 +21,10 @@ Pour en savoir plus sur les graphiques de linéarisation des contraintes, vous p
 
 ## Utilisation
 
-1.  Sélectionnez un [Filtre d\'écrêtage selon une ligne](FEM_PostFilterDataAlongLine/fr.md) précédemment créé.
-2.  Lancez la commande de l\'une des façons suivantes soit en    *
-    -   appuyant sur le bouton **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> '''Graphique de linéarisation des contraintes'''**.
-    -   sélectionnant le menu **Résultats → <img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> Graphique de linéarisation des contraintes**.
+1.  Sélectionnez un [filtre d\'écrêtage selon une ligne](FEM_PostFilterDataAlongLine/fr.md) déjà créé.
+2.  Lancez la commande de l\'une des façons suivantes    *
+    -   en appuyant sur le bouton **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> '''Graphique de linéarisation des contraintes'''**.
+    -   en sélectionnant le menu **Résultats → <img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> Graphique de linéarisation des contraintes**.
 3.  Un tracé XY avec les valeurs de contraintes linéarisées (membrane, membrane+flexion et total) le long de la ligne sera créé dans une fenêtre séparée.
 
 

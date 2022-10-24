@@ -6,7 +6,13 @@
 
 尺寸标注、剖面、填充区、注解和[SVG符号都可以加到图纸中](SVG.md)，而这些又可以进一步导出到不同的格式，如 [DXF](DXF.md), [SVG](SVG.md), [PDF](PDF.md).
 
+
+<div class="mw-translate-fuzzy">
+
 TechDraw 自从版本0.17就正式包含在FreeCAD中；他是被用来代替不被支持的[Drawing 工作台的](Drawing_Workbench.md)。这两个工作台在v0.17中都被提供，但Drawing 工作台可能在将来的版本中被移除。要了解TechDraw的计划和发展，请访问[TechDraw 路线图](TechDraw_Roadmap.md)。
+
+
+</div>
 
 如果你的主要目标是产生复杂的2D图纸和[DXF文件](DXF.md)，并且不需要3D建模，FreeCAD可能不是正确的选择。你应该考虑一个用于绘制工程草图的专门的软件，如 [LibreCAD](https   *//en.wikipedia.org/wiki/LibreCAD) 或 [QCad](https   *//en.wikipedia.org/wiki/QCad).
 

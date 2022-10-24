@@ -4,7 +4,7 @@
    MenuLocation   *Solve → Solver CalculiX (new framework)
    Workbenches   *[FEM](FEM_Workbench.md)
    Shortcut   ***S** **C**
-   SeeAlso   *[FEM tutorial](FEM_tutorial.md)
+   SeeAlso   *[FEM CalculiX](FEM_CalculiX.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM SolverCalculiX/en

@@ -3,14 +3,11 @@
    Name   *Sketcher Circles
    Name/de   *Sketcher AuswahlKreisErstellen
    Icon   *Sketcher_CompCreateCircle.png
-   MenuLocation   *Keine (Nur Werkzeugleiste)
+   MenuLocation   *
    Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
 ---
 
 # Sketcher CompCreateCircle/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -18,14 +15,8 @@
 
 ## Kreistypen
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width   *32px;"> [Kreis durch Mittelpunkt und Randpunkt](Sketcher_CreateCircle/de.md)    * Zeichnet einen Kreis durch Wahl zweier Punkte   * den Mittelpunkt einen Punkt entlang des Radius.
--   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Kreis durch 3 Randpunkte](Sketcher_Create3PointCircle/de.md)    * Zeichnet einen Kreis durch Wahl dreier Punkte auf der Kreisumfangslinie.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width   *32px;"> [Kreis erstellen](Sketcher_CreateCircle/de.md)    * Zeichnet einen Kreis durch Auswahl zweier Punkte   * dem Mittelpunkt und einem Punkt entlang des Radius.
+-   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Kreis durch drei Punkte erstellen](Sketcher_Create3PointCircle/de.md)    * Zeichnet einen Kreis durch Auswahl dreier Punkte auf der Kreisumfangslinie.
 
 
 

@@ -17,10 +17,10 @@ Das Werkzeug <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *24px;
 
 ## Anwendung
 
-1.  There are several ways to invoke the tool   *
-    -   Press the **<img src="images/TechDraw_PrintAll.svg" width=16px> [Print All Pages](TechDraw_PrintAll.md)** button.
-    -   Select the **TechDraw → <img src="images/TechDraw_PrintAll.svg" width=16px> Print All Pages** option from the menu.
-    -   If a Page is displayed in the [Main view area](Main_view_area.md)   * right-click the Page\'s window and select the **Print All Pages** option from the context menu.
+1.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+    -   Die Schaltfläche **<img src="images/TechDraw_PrintAll.svg" width=16px> [Alle Seiten drucken](TechDraw_PrintAll/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_PrintAll.svg" width=16px> Alle Seiten drucken** auswählen.
+    -   Wenn ein Zeichnungsblatt im [Hauptansichtsbereich](Main_view_area.md) angezeigt wird   * Rechtsklick in das Fenster des Zeichnungsblattes und im Kontextmenü {{MenuCommand/de|Alle Seiten drucken}} auswählen.
 
 ## Hinweise
 
@@ -29,9 +29,9 @@ Das Werkzeug <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *24px;
 ## Skripten
 
 
-**See also   ***
+**Siehe auch   ***
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug AllesDrucken steht noch nicht zum Skripten zur Verfügung.
 

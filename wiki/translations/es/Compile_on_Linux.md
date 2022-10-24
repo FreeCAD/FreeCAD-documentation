@@ -1386,7 +1386,13 @@ Pasos    *
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Para actualizar FreeCAD a la última compilación simplemente repite el paso 3.Actualiza el repo de AUR cuando haya algún cambio de ruptura en la receta o nuevas características usando `git checkout -f` dentro de la carpeta.
+
+
+</div>
 
 
 

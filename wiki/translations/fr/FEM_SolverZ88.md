@@ -12,7 +12,7 @@
 
 ## Description
 
-Le [Solveur Z88](FEM_SolverZ88/fr.md) permet d\'utiliser le solveur [Z88](https   *//en.wikipedia.org/wiki/Z88_FEM_software). Il peut être utilisé pour    *
+La commande [Solveur Z88](FEM_SolverZ88/fr.md) permet d\'utiliser le solveur [Z88](https   *//en.wikipedia.org/wiki/Z88_FEM_software). Il peut être utilisé pour    *
 
 1.  Définir les paramètres d\'analyse
 2.  Sélectionner le répertoire de travail

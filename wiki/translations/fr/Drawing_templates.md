@@ -1,30 +1,16 @@
 # Drawing templates/fr
-**The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.**
+**L'[atelier Drawing](Drawing_Workbench/fr.md) est devenu obsolète dans la version 0.17. Pensez à utiliser l'[atelier TechDraw](TechDraw_Workbench/fr.md) à la place.**
 
 
 {{TOCright}}
 
 ## Création d\'une feuille SVG 
 
-
-<div class="mw-translate-fuzzy">
-
-Créer des modèles pour le module de dessin est très facile. Voir aussi le tutoriel [Drawing_Template_HowTo](Drawing_Template_HowTo.md). Les modèles sont des fichiers svg, créés avec n\'importe quelle application capable d\'exporter des fichiers svg, tels que [Inkscape](http   *//www.inkscape.org). Cependant, vous devrez souvent ouvrir le fichier svg dans un éditeur de texte par la suite, afin de respecter les règles suivantes. Seulement deux règles doivent être suivies   *
-
-
-</div>
-
-### Base rules 
-
-
-<div class="mw-translate-fuzzy">
+Créer des modèles pour le module de dessin est très facile. Voir aussi le tutoriel [Drawing Template    * Comment faire](Drawing_Template_HowTo/fr.md). Les modèles sont des fichiers svg, créés avec n\'importe quelle application capable d\'exporter des fichiers svg, tels que [Inkscape](http   *//www.inkscape.org). Cependant, vous devrez souvent ouvrir le fichier svg dans un éditeur de texte par la suite, afin de respecter les règles suivantes. Seulement deux règles doivent être suivies   *
 
 ### Règles de base 
 
 -   Un pixel = un millimètre. Vous pouvez avoir la taille de la page spécifiée à l\'intérieur de la balise d\'ouverture<svg>, sans unités ou avec \"mm\". Par exemple, ces deux formes sont valides   *
-
-
-</div>
 
  html
 width="1067mm"
@@ -52,31 +38,15 @@ viewBox="0 0 1067 762"
 
 Ce texte ci-dessus (qui est en fait un commentaire XML) doit se trouver sur une ligne distincte et ne pas être intégré au milieu d\'autres parties du texte. Prenez garde, si vous rouvrez et réenregistrez votre modèle dans inkscape, après avoir ajouté la ligne ci-dessus, inkscape conservera la ligne, mais ajoutera d\'autres éléments xml sur la même ligne, ce qui empêchera le modèle de fonctionner. Vous devrez l\'éditer avec un éditeur de texte et isoler le commentaire ci-dessus sur sa propre ligne.
 
-### Namespace
-
-
-<div class="mw-translate-fuzzy">
-
 ### Espace de noms 
 
--   Plusieurs objets (en particulier ceux créés avec la commande [Draft_Drawing](Draft_Drawing/fr.md) et si votre modèle contient des textes éditables) utilisent un [Espace de noms Svg](Svg_Namespace/fr.md) spécifique à FreeCAD. Cela permet à FreeCAD de détecter des éléments spécifiques dans les fichiers svg, que les autres applications vont ignorer. Si vous prévoyez d\'utiliser l\'un de ces éléments, vous devez ajouter cette ligne dans la balise d\'ouverture<svg>, par exemple avec les autres lignes xmlns ajoutées par inkscape   *
-
-
-</div>
+-   Plusieurs objets (en particulier ceux créés avec la commande [Draft Dessin](Draft_Drawing/fr.md) et si votre modèle contient des textes éditables) utilisent un [Espace de noms Svg](Svg_Namespace/fr.md) spécifique à FreeCAD. Cela permet à FreeCAD de détecter des éléments spécifiques dans les fichiers svg, que les autres applications vont ignorer. Si vous prévoyez d\'utiliser l\'un de ces éléments, vous devez ajouter cette ligne dans la balise d\'ouverture<svg>, par exemple avec les autres lignes xmlns ajoutées par inkscape   *
 
 xmlns   *freecad=\"<http   *//www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
-
-### Title block 
-
-
-<div class="mw-translate-fuzzy">
 
 ### Bloc de titre 
 
 En plus de ces règles, depuis FreeCAD 0.14, des informations sur le bloc Border et Title peuvent être ajoutées au modèle pour être utilisées par l\'outil de projection orthographique. Cette information définit où FreeCAD peut et ne peut pas placer les projections.
-
-
-</div>
 
 Pour définir la bordure, la ligne suivante doit apparaître avant la balise  dans le fichier svg.
 
@@ -130,23 +100,11 @@ height="yyymm"
 viewBox="0 0 xxx yyy"
 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Plusieurs attributs personnalisés peuvent être placés dans les modèles. La liste des attributs pris en charge actuellement est disponible sur la page [Svg Namespace](Svg_Namespace/fr.md).
-
-
-</div>
 
 ## Modèles au format DXF 
 
-
-<div class="mw-translate-fuzzy">
-
 Depuis la version 0.15, FreeCAD peut exporter une page [Drawing](Drawing_Workbench/fr.md) au format DXF. Ce système utilise également des templates. Si un fichier DXF avec le même nom se trouve dans le même dossier que le modèle SVG utilisé pour une page, il sera utilisé pour l\'exportation. Si non, un modèle vide sera créé par défaut.
-
-
-</div>
 
 Par conséquence, si vous créez vos propres templates au format SVG, et que vous souhaitez exporter les pages de dessin que vous créez au format DXF, il vous suffit de créer un modèle DXF correspondant, et de l\'enregistrer avec le même nom et dans le même dossier.
 
@@ -189,63 +147,23 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 ## Modèles A3 
 
-
-<div class="mw-translate-fuzzy">
-
-### A3 Classic   * 
+### A3 classique    * 
 
 <img alt="" src=images/A3_Classic.svg  style="width   *800px;">
 
-
-</div>
-
-<img alt="" src=images/A3_Classic.svg  style="width   *800px;">
-
-
-<div class="mw-translate-fuzzy">
-
-### A3 Clean   * 
+### A3 vide    * 
 
 <img alt="" src=images/A3_Clean.svg  style="width   *800px;">
 
-
-</div>
-
-<img alt="" src=images/A3_Clean.svg  style="width   *800px;">
-
-
-<div class="mw-translate-fuzzy">
-
-### A3 Modern   * 
+### A3 moderne    * 
 
 <img alt="" src=images/A3_Modern.svg  style="width   *800px;">
 
-
-</div>
-
-<img alt="" src=images/A3_Modern.svg  style="width   *800px;">
-
-
-<div class="mw-translate-fuzzy">
-
-### A3 Showcase   * 
+### A3 vitrine    * 
 
 <img alt="" src=images/A3_Showcase.svg  style="width   *800px;">
 
-
-</div>
-
-<img alt="" src=images/A3_Showcase.svg  style="width   *800px;">
-
-
-<div class="mw-translate-fuzzy">
-
-### A3 Landscape english   * 
-
-<img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
-
-
-</div>
+### A3 paysage anglais    * 
 
 <img alt="" src=images/A3_Landscape_english.svg  style="width   *800px;">
 

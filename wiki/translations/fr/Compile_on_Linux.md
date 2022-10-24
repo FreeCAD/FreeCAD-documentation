@@ -1329,7 +1329,13 @@ Prérequis    * git
 4.  Compilez en utilisant [Arch makepkg](https   *//wiki.archlinux.org/index.php/Makepkg)    * `makepkg -s`. Les flag -s ou \--syncdeps installeront également les dépendances requises.
 5.  Installez le paquet créé    * `makepkg --install` ou double-cliquez sur pkgname-pkgver.pkg.tar.xz dans votre navigateur de fichiers.
 
-Pour mettre à jour FreeCAD vers la dernière version, recommencez à partir de l\'étape 3. Mettez à jour le référentiel AUR en cas de modifications importantes de la recette ou de nouvelles fonctionnalités à l\'aide de `git checkout -f` dans le dossier.
+Pour mettre à jour FreeCAD vers la dernière version, répétez l\'étape 3. Mettez à jour le dépôt AUR lorsqu\'il y a un changement de rupture dans la manière de faire ou de nouvelles fonctionnalités en utilisant `git checkout -f` dans le dossier.
+
+
+</div>
+
+
+</div>
 
 
 

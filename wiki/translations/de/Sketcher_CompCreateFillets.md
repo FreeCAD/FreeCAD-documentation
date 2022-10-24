@@ -12,13 +12,13 @@
 
 ## Beschreibung
 
-**Create a fillet** is an icon button in the Sketcher geometries toolbar that groups tools to create fillets. Click on the down arrow to its right to expand the icons below it and select a tool.
+**Verrundung** ist eine Symbolschaltfläche in der Sketcher-Symbolleiste Skizzengeometrien, die Werkzeuge zum Erstellen von Verrundungen gruppiert. Auf den Abwärtspfeil auf ihrer rechten Seite klicken, um die Symbole darunter auszuklappen und ein Werkzeug auszuwählen.
 
-## Types of fillets 
+## Verrundungsarten
 
--   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Fillet](Sketcher_CreateFillet.md)   * Creates a fillet between two non-parallel lines.
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width   *32px;"> [Verrundung](Sketcher_CreateFillet/de.md)   * Erstellt einen Bogen zwischen zwei nicht parallelen Linien.
 
--   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
+-   <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Eckenerhaltende Verrundung erstellen](Sketcher_CreatePointFillet/de.md)   * Erstell einen Bogen zwischen zwei nicht parallelen Linien, wobei ihr (virtueller) Schnittpunkt erhalten bleibt.
 
 
 

@@ -25,7 +25,7 @@ L\'outil [FEM Réglage du solveur](FEM_SolverControl/fr.md) gère l\'ensemble du
 Le fichier d\'entrée utilisé par CalculiX peut être préparé et édité avant le démarrage du solveur. Les unités utilisées dans le fichier d\'entrée sont indépendantes des unités définies dans FreeCAD; ils seront toujours millimètres (mm) et Newton (N).
 
 
-**(A faire   * vérifiez ceci. Que se passe-t-il avec le maillage est en inch est utilisé dans FreeCAD? À mesure que la densité a été introduite, nous avons kg et s et non plus N ?! comment ça?!)**
+**(A faire   * vérifiez ceci. Que se passe-t-il avec le maillage est si l'unité inch est utilisée dans FreeCAD? Parce que la densité a été introduite, avec cela nous avons kg et s et non plus N ?! comment ça?!)**
 
 L\'interface CalculiX prend en charge les objets suivants   *
 

@@ -1,11 +1,11 @@
 ---
 - GuiCommand   */fr
    Name   *Drawing Orthoviews
-   Name/fr   *Vues orthogonales Drawing
-   Workbenches   *[Module Drawing](Drawing_Workbench/fr.md), Complete
-   MenuLocation   *Mise en plan → Insérer des vues orthogonales
-   Shortcut   *aucun
-   SeeAlso   *[Paysage A3 Drawing](Drawing_Landscape_A3/fr.md)
+   Name/fr   *Drawing Vues orthogonales
+   Workbenches   *[Drawing](Drawing_Workbench/fr.md)
+   MenuLocation   *Drawing → Insérer des vues orthogonales
+   Shortcut   *
+   SeeAlso   *[Drawing A3 Paysage](Drawing_Landscape_A3/fr.md)
 ---
 
 # Drawing Orthoviews/fr
@@ -35,18 +35,12 @@ Selon les sélections effectuées, certaines options peuvent ne pas être dispon
 
 ### Généralités
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Auto scale / position**   * si cette case est cochée, l\'échelle de vue, l\'emplacement et l\'espacement seront choisis de manière à utiliser au mieux l\'espace disponible sur la page. Si cette case n\'est pas cochée, l\'utilisateur spécifie l\'échelle, l\'emplacement et l\'espacement.
 -   **Scale**   * L\'échelle de la vue, exprimée en tant que dénominateur d\'une fraction d\'échelle. Ainsi {{SystemInput|2|}} créera un ensemble de vues à l\'échelle 1   *2.
 -   **Top left x / y**   * emplacement du jeu de vues en haut à gauche de la page. L\'augmentation de la valeur x (première colonne) déplace les vues vers la droite. L\'augmentation de la valeur y (deuxième colonne) déplace les vues vers le bas de la page.
 -   **Spacing dx / dy**   * les espacements x (première colonne) et y (deuxième colonne) entre les vues adjacentes. Les espacements sont l\'espacement du système de coordonnées de la pièce; dans la plupart des cas, il y aura moins d\'espace vide entre les vues que la valeur d\'espacement (car les vues ont des dimensions x et y).
 -   **Show hidden lines**   * si cette option est sélectionnée, les lignes cachées seront visibles dans les vues créées.
 -   **Show smooth lines**   * si cette option est sélectionnée, affiche les lignes où la courbure est discontinue (par exemple, lorsqu\'un congé est relié à une partie plate).
-
-
-</div>
 
 ## Propriétés
 
@@ -66,20 +60,7 @@ A ajouter.
 -   [Manuel    * Génération de dessins 2D](Manual   *Generating_2D_drawings/fr.md) avec l\'atelier Drawing et l\'addon Cotation du dessin.
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/fr
-|[Ouvrir sur le navigateur interne Drawing](Drawing_Openbrowser/fr.md)
-|[Symbole Drawing](Drawing_Symbol/fr.md)
-|[Module Drawing](Drawing_Workbench/fr.md)
-|IconL=Drawing_Openbrowser.png
-|IconC=Workbench_Drawing.svg
-|IconR=Drawing_Symbol.png
-}}
-
-
-</div>
 
 
 {{Drawing Tools navi

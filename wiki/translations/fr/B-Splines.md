@@ -142,15 +142,15 @@ FreeCAD propose de créer des B-splines uniformes ou non-uniformes de n\'importe
 
 ### Création
 
-Pour créer des B-splines, allez dans une esquisse et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [Sketcher Créer une B-spline](Sketcher_CreateBSpline/fr.md)**. Ensuite, faites un clic gauche pour définir un point de contrôle, déplacez la souris en faisant un clic gauche pour définir le point de contrôle suivant et ainsi de suite. Enfin, cliquez avec le bouton droit de la souris pour terminer la définition et créer la courbe B-spline.
+Pour créer des B-splines, allez dans une esquisse et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [Sketcher B-spline simple](Sketcher_CreateBSpline/fr.md)**. Ensuite, faites un clic gauche pour définir un point de contrôle, déplacez la souris en faisant un clic gauche pour définir le point de contrôle suivant et ainsi de suite. Enfin, cliquez avec le bouton droit de la souris pour terminer la définition et créer la courbe B-spline.
 
 Par défaut, des splines cubiques uniformes sont créées, sauf qu\'il n\'y a pas assez de points de contrôle pour le faire. Ainsi, lorsque vous créez une B-spline avec seulement 2 points de contrôle, vous obtenez bien sûr une spline qui est une simple courbe de Bézier linéaire, pour 3 points de contrôle vous obtenez une courbe de Bézier quadratique, puis avec 5 points de contrôle vous obtenez une B-spline cubique composée de 2 segments de Bézier.
 
-Pour créer des B-splines périodiques (B-splines qui forment une courbe fermée), utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width   *16px"> [Sketcher Créer une B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)**. Il n\'est pas nécessaire de placer le dernier point de contrôle sur le premier car la courbe B-spline sera automatiquement fermée    *
+Pour créer des B-splines périodiques (B-splines qui forment une courbe fermée), utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width   *16px"> [Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)**. Il n\'est pas nécessaire de placer le dernier point de contrôle sur le premier car la courbe B-spline sera automatiquement fermée    *
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
-Les B-splines peuvent également être générées à partir de segments d\'esquisse existants. Pour ce faire, sélectionnez les éléments et appuyez sur le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineApproximate.svg style="width   *24px"> [Sketcher Convertir la géométrie en B-spline](Sketcher_BSplineApproximate/fr.md)**.
+Les B-splines peuvent également être générées à partir de segments d\'esquisse existants. Pour ce faire, sélectionnez les éléments et appuyez sur le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineApproximate.svg style="width   *24px"> [Sketcher Convertir en B-spline](Sketcher_BSplineApproximate/fr.md)**.
 
 Lors de la création d\'une courbe B-spline, son degré peut être spécifié en appuyant sur la touche **D**. Ceci permet d\'annuler l\'option par défaut qui consiste à créer une courbe B-spline cubique si possible. {{Version/fr|0.20}}
 
@@ -162,9 +162,9 @@ Pour modifier le degré, sélectionnez la plaine B et utilisez les boutons de la
 
 ### Changer la multiplicité des nœuds 
 
-Les points où deux courbes de Bézier sont connectées pour former la B-spline sont appelés nœuds. La multiplicité des nœuds détermine la façon dont les parties de Bézier sont connectées, voir la page Wiki [Sketcher Plus de nœuds d\'une B-spline](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md) pour plus de détails.
+Les points où deux courbes de Bézier sont connectées pour former la B-spline sont appelés nœuds. La multiplicité des nœuds détermine la façon dont les parties de Bézier sont connectées, voir la page Wiki [Sketcher Augmenter la multiplicité d\'un nœud](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md) pour plus de détails.
 
-Pour modifier la multiplicité des nœuds, utilisez les boutons de la barre d\'outils **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width   *24px"> [Sketcher Plus de nœuds d'une B-spline](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)** ou **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *24px"> [Sketcher Moins de nœuds d'une B-spline](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)**.
+Pour modifier la multiplicité des nœuds, utilisez les boutons de la barre d\'outils **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width   *24px"> [Sketcher Augmenter la multiplicité d'un nœud](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)** ou **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *24px"> [Sketcher Diminuer la multiplicité d'un nœud](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)**.
 
 **Remarque    *** la création de deux B-splines connectées l\'une à l\'autre ne s\'unira pas en une seule nouvelle B-spline. Leur point de connexion n\'est donc pas un nœud. La seule façon d\'obtenir un nouveau nœud dans une B-spline existante est de diminuer le degré. Cependant, vous risquez d\'obtenir de nombreux nouveaux nœuds. Le meilleur choix est donc de redessiner la B-spline avec plus de points de contrôle.
 
@@ -172,7 +172,7 @@ Pour modifier la multiplicité des nœuds, utilisez les boutons de la barre d\'o
 
 Autour de chaque point de contrôle, vous voyez un cercle jaune foncé. Son rayon définit le poids du point de contrôle correspondant. Par défaut, tous les cercles ont le rayon *1*. Cela est indiqué par une contrainte de rayon pour le premier cercle du point de contrôle.
 
-Pour créer une courbe B-spline non uniforme, les poids doivent être non uniformes. Pour cela, vous pouvez modifier la contrainte [Sketcher Rayon](Sketcher_ConstrainRadius/fr.md) du premier cercle du point de contrôle    *
+Pour créer une courbe B-spline non uniforme, les poids doivent être non uniformes. Pour cela, vous pouvez modifier la [Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md) du premier cercle du point de contrôle    *
 
 ![](images/Sketcher_Changing-control-point-weigth-constraint.gif )
 

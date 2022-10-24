@@ -5,7 +5,7 @@
    MenuLocation   *Modèle → Contraintes thermiques → Contrainte de chaleur du corps
    Workbenches   *[FEM](FEM_Workbench/fr.md)
    Version   *0.19
-   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintBodyHeatSource/fr

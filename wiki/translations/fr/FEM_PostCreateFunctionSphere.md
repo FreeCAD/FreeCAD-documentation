@@ -27,7 +27,7 @@ La fonction <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *24px
 
 ### Modifier une fonction sphère 
 
-Si l\'objet Sphère dans la la [Vue en arborescence](Tree_view/fr.md) est caché, sélectionnez l\'objet <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *24px;"> Sphère dans la [Vue 3D](3D_view/fr.md) et appuyez sur **Espace** pour le rendre visible, comme dans cet exemple    *
+Si l\'objet Sphere dans la [Vue en arborescence](Tree_view/fr.md) est caché, sélectionnez l\'objet <img alt="" src=images/Fem-post-geo-sphere.svg  style="width   *24px;"> Sphere dans la [Vue 3D](3D_view/fr.md) et appuyez sur **Espace** pour le rendre visible, comme dans cet exemple    *
 
 <img alt="" src=images/FEM_Sphere-Cut-Function-Example.png  style="width   *400px;">
 

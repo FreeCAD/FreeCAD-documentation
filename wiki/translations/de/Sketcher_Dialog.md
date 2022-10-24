@@ -32,13 +32,7 @@ Es gibt zwei Optionen für Löser-Meldungen   *
 
 ## Erweiterte Steuerung des Lösers 
 
-
-<div class="mw-translate-fuzzy">
-
-Dieser Dialogabschnitt wird nur angezeigt, wenn die Option **Bereich \'Erweiterte Steuerung des Lösers\' im Aufgaben-Dialog anzeigen** in den [Voreinstellungen des Sketchers](Sketcher_Preferences/de.md) gesetzt wurde.
-
-
-</div>
+Dieser Dialogabschnitt wird nur angezeigt, wenn die Option **Bereich \'Erweiterte Steuerung des Lösers\' anzeigen** in den [Voreinstellungen des Sketchers](Sketcher_Preferences/de.md) aktiviert wurde.
 
 Es kann Folgendes festgelegt werden   *
 
@@ -118,7 +112,7 @@ Es kann Folgendes festgelegt werden   *
 
 ## Bedienelemente bearbeiten 
 
-This dialog section can be suppressed by unchecking the option **Show section \'Edit controls**\' in the [sketcher preferences](Sketcher_Preferences.md). <small>(v1.0)</small> 
+Dieser Dialog kann durch deaktivieren der Option **Bereich \'Bedienelemente bearbeiten\' anzeigen** in den [Voreinstellungen des Sketchers](Sketcher_Preferences/de.md) unterdrückt werden. {{Version/de|1.0}}
 
 Die Bearbeitungssteuerung sollen den Arbeitsablauf verbessern. Sie können auch global für alle Skizzen über die [Bearbeitungs Einstellungen](Sketcher_Preferences#General_Settings/de.md) eingestellt werden.
 

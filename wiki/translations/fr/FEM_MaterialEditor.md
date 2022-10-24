@@ -5,7 +5,7 @@
    MenuLocation   *Modèle → Matériaux → Éditeur de matériaux
    Workbenches   *[FEM](FEM_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version   *0.18
-   SeeAlso   *[Matériaux](Material/fr.md), [Arch Matériaux](Arch_SetMaterial/fr.md), [Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso   *[Arch Matériaux](Arch_SetMaterial/fr.md), [Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM MaterialEditor/fr

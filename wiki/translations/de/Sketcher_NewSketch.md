@@ -2,7 +2,7 @@
 - GuiCommand   */de
    Name   *Sketcher NewSketch
    Name/de   *Sketcher NeueSkizze
-   MenuLocation   *Sketch → Skizze erstellen
+   MenuLocation   * Skizze → Skizze erstellen
    Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
    SeeAlso   *[PartDesign NeueSkizze](PartDesign_NewSketch/de.md),[SkizzeZuordnen](Sketcher_MapSketch/de.md), [SkizzeAusrichten](Sketcher_ReorientSketch/de.md)
 ---
@@ -29,13 +29,7 @@ Klickt man auf die Schaltfläche und es ist eine Fläche (vor-)ausgewählt, wird
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
 Die Skizze kann mit dem Befehl [SkizzeZuordnen](Sketcher_MapSketch/de.md) jederzeit einer anderen Fläche zugeordnet werden.
-
-
-</div>
 
 Die Skizze kann in der [3D-Ansicht](3D_view/de.md) mittels [Positionierung](Placement/de.md) verschoben werden.
 

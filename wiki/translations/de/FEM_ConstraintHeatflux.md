@@ -15,11 +15,17 @@ This constraint specifies film heat transfer of a surface at temperature *T* and
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
     -   Die Schaltfläche **<img src="images/FEM_ConstraintHeatflux.svg" width=16px> [Randbedingung Wärmestrom](FEM_ConstraintHeatflux/de.md)** drücken.
     -   Den Menüeintrag **Modell → Thermische Randbedingungen → <img src="images/FEM_ConstraintHeatflux.svg" width=16px> Randbedingung Wärmestrom** auswählen.
 2.  In der [3D-Ansicht](3D_view/de.md) die Fläche(n) auswählen, auf die die Randbedingung angewendet werden soll.
 3.  Die gewünschte Oberflächentemperatur, den Koeffizient für die Übergangsschicht und die Umgebungstemperatur eingeben.
+
+
+</div>
 
 ## Hinweise
 

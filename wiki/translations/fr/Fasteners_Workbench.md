@@ -191,6 +191,12 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ISO1207.svg  style="width   *32px;"> **ISO 1207** Vis à tête cylindrique fendue. *Grade de produit A*.
 
+-   <img alt="" src=images/Fasteners_DIN96.svg  style="width   *32px;"> **DIN 96** Vis à bois à tête demi-ronde fendue.
+
+-   <img alt="" src=images/Fasteners_GOST1144-1.svg  style="width   *32px;"> **GOST 1144-1** Vis à bois à tête demi-ronde fendue.
+
+-   <img alt="" src=images/Fasteners_GOST1144-2.svg  style="width   *32px;"> **GOST 1144-2** Vis à bois à tête demi-ronde fendue.
+
 -   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width   *32px;"> **ASME B18.6.3.1A** Vis à tête plate fendue et fraisée UNC.
 
 ### Vis type H à tête cruciforme 
@@ -228,6 +234,10 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** Écrou borgne, forme basse.
 
 -   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** Écrou borgne.
+
+-   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width   *32px;"> **GOST 11860-1** Écrou borgne.
+
+-   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** Écrou en T.
 
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Écrou carré.
 

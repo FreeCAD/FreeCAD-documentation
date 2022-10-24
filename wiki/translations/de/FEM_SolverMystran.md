@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-[SolverMystran](FEM_SolverMystran.md) enables usage of the [MYSTRAN](https   *//www.mystran.com) solver. It may be used for   *
+The [SolverMystran](FEM_SolverMystran.md) command enables usage of the [MYSTRAN](https   *//www.mystran.com) solver. It may be used for   *
 
 1.  Setting analysis parameters
 2.  Selecting working directory

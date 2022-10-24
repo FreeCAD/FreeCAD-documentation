@@ -36,7 +36,7 @@ The elasticity equation provides these special settings   *
 
 -    **Calculate Strains**   * If strains will be calculated. This will also calculate the stresses, even if **Calculate Principal** or **Calculate Stresses** is *false*.
 
--    **Calculate Stresses**   * If stresses should be calculated. Compared to **Calculate Principal** the Tresca and the pincipal stress will not be calculated.
+-    **Calculate Stresses**   * If stresses should be calculated. Compared to **Calculate Principal** the Tresca yield criterion and the principal stress will not be calculated.
 
 -    **Constant Bulk System**   * See the Elmer manual for more info.
 
@@ -70,7 +70,7 @@ Eigenvalues   *
 
 -    **Eigen System Damped**   * Set a damped eigen analysis. Can only be used if **[Linear Solver Type](FEM_SolverElmer_SolverSettings#Linear_System.md)** is *Iterative*.
 
--    **Eigen System Select**   * Selection of which eigenvalues are computed. Note that the selection of *Largest\** cause an infinite run for recent Elmer (as of August 2022).
+-    **Eigen System Select**   * Selection of which eigenvalues are computed. Note that the selection of *Largest\** cause an infinite run for recent Elmer solver (as of August 2022).
 
 -    **Eigen System Tolerance**   * Convergence tolerance for iterative eigensystem solve. The default is 100 times the **[Linear Tolerance](FEM_SolverElmer_SolverSettings#Linear_System.md)**.
 
