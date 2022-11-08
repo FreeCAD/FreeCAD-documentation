@@ -6,13 +6,7 @@ Der Arbeitsbereich <img alt="" src=images/Workbench_TechDraw.svg  style="width  
 
 Maße, Schnittansichten, schraffierte Bereiche, Beschriftungen und Symbole im Dateiformat[SVG](SVG/de.md) können dem Blatt hinzugefügt werden. Das Blatt (die Zeichnung) kann später in verschiedene Formate wie [DXF](DXF/de.md), [SVG](SVG/de.md) und [PDF](PDF/de.md) exportiert werden.
 
-
-<div class="mw-translate-fuzzy">
-
-TechDraw ist seit Version 0.17 offiziell in FreeCAD enthalten; es soll den nicht mehr unterstützten Arbeitsbereich [Drawing](Drawing_Workbench/de.md) ersetzen. Beide Arbeitsbereiche sind in v0.17 noch vorhanden, aber der Arbeitsbereich Drawing kann in zukünftigen Releases entfernt werden. Um mit den Plänen und Entwicklungen von TechDraw Schritt zu halten, siehe [TechDraw-Planung](TechDraw_Roadmap.md).
-
-
-</div>
+TechDraw ist seit Version 0.17 offiziell in FreeCAD enthalten; es soll den nicht mehr unterstützten Arbeitsbereich [Drawing](Drawing_Workbench/de.md) ersetzen. Der Arbeitsbereich Drawing ist in Version 0.20 noch vorhanden, wird aber in zukünftigen Veröffentlichungen nicht mehr enthalten sein ({{VersionPlus/de|1.0}}). Um mit den Plänen und Entwicklungen von TechDraw Schritt zu halten, siehe [TechDraw-Roadmap](TechDraw_Roadmap.md) (engl.).
 
 Wenn das Hauptziel die Erstellung komplexer 2D-Zeichnungen und [DXF](DXF/de.md)-Dateien ist und keine 3D-Modelle benötigt werden, ist FreeCAD möglicherweise nicht die richtige Wahl. Stattdessen sollte man eine spezielle (Software-)Anwendung für technisches Zeichnen in Betracht ziehen, wie [LibreCAD](https   *//de.wikipedia.org/wiki/LibreCAD) oder [QCad](https   *//de.wikipedia.org/wiki/QCad).
 
@@ -44,6 +38,8 @@ Dies sind Werkzeuge zum Erstellen von Ansichten (View-Objekten).
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)   * Ruft einen Dialog auf, um mehrere (zusammenhängende) Ansichten eines Objekts aus verschiedenen Richtungen zu erstellen (Seitenansicht, Draufsicht usw.).
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Schnittansicht einfügen](TechDraw_SectionView/de.md)   * Fügt eine Schnittsansicht zu einer vorhandenen Ansicht ein.
+
+-   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Zusammengesetzte Schnittansicht einfügen](TechDraw_ComplexSection/de.md)   * Fügt eine auf einer Skizze basierende zusammengesetzte Schnittansicht ein. <small>(v1.0)</small> 
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width   *32px;"> [Detailansicht einfügen](TechDraw_DetailView/de.md)   * Fügt eine Detailansicht eines Teils einer vorhandenen Ansicht ein.
 

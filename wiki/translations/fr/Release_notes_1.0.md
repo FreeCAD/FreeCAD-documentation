@@ -121,6 +121,8 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 ### Autres améliorations de Mesh 
 
+-   Permet d\'ajouter des transparences à un maillage. [Fil de discussion du forum](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=72531) et [Commit f88305e](https   *//github.com/FreeCAD/FreeCAD/commit/f88305e).
+
 ## Atelier OpenSCAD 
 
 ## Atelier Part 
@@ -129,7 +131,14 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 ## Atelier PartDesign 
 
+   
+  <img alt="" src=images/PD_Counterdrill_relnotes_1.0.png  style="width   *384px;">Un trou de contre-perçage.   La boîte de dialogue de [Perçage](PartDesign_Hole/fr.md) prend en charge le type de tête de vis *Contre-perçage*. [Pull request #7562](https   *//github.com/FreeCAD/FreeCAD/pull/7562)
+                                                                                                                                  
+   
+
 ### Autres améliorations de PartDesign 
+
+-   Dans la boîte de dialogue de [Perçage](PartDesign_Hole/fr.md), les types de têtes de vis obsolètes (vis à tête métrique, vis à tête cylindrique, etc.) ont été supprimés. Ils étaient abandonnés depuis FreeCAD 0.19. Les perçages utilisant ces types sont transformés en fraisages/alésages personnalisés avec le diamètre et la profondeur utilisés par les types. [Pull request #7654](https   *//github.com/FreeCAD/FreeCAD/pull/7654)
 
 ## Atelier Path 
 
@@ -158,7 +167,9 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 -   Le bouton de la barre d\'outils pour [Contrainte de réfraction (loi de Snell)](Sketcher_ConstrainSnellsLaw/fr.md) a été supprimé. [Commit ef62fc3](https   *//github.com/FreeCAD/FreeCAD/commit/ef62fc3)
 -   Les boutons de la barre d\'outils pour [Sélection contraintes redondantes](Sketcher_SelectRedundantConstraints/fr.md) et [Sélection des contraintes conflictuelles](Sketcher_SelectConflictingConstraints/fr.md) ont été supprimés. [Pull request #7568](https   *//github.com/FreeCAD/FreeCAD/pull/7568)
 -   Le bouton de la barre d\'outils pour [Arrêt de l\'opération](Sketcher_StopOperation/fr.md) a été supprimé. [Pull request #7569](https   *//github.com/FreeCAD/FreeCAD/pull/7569)
--   Contrôle de l\'édition des widgets, l\'étiquette \"Taille de la grille\" a été supprimée, la case à cocher \"Afficher la grille\" a été renommée \"Grille\". [Pull request #7577](https   *//github.com/FreeCAD/FreeCAD/pull/7577)
+-   La section \"Modifier les contrôles\" de la boîte de dialogue Sketcher a été rendue optionnelle. [Pull request #7572](https   *//github.com/FreeCAD/FreeCAD/pull/7572)
+-   Le bouton [Sélecteur des degrés de liberté non contraints](Sketcher_SelectElementsWithDoFs/fr.md) de la barre d\'outils a été supprimé. [Pull request #7603](https   *//github.com/FreeCAD/FreeCAD/pull/7603)
+-   Le widget Element a été retravaillé pour simplifier l\'interface utilisateur et permettre une sélection plus simple des différentes parties de chaque géométrie    * arête, point de départ, point d\'arrivée et point central. [Pull request #7567](https   *//github.com/FreeCAD/FreeCAD/pull/7567)
 
 ## Atelier Spreadsheet 
 
@@ -167,12 +178,23 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 ## Atelier TechDraw 
 
    
-  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width   *384px;">   Un nouvel outil [Symbole d\'état de surface](TechDraw_SurfaceFinishSymbol/fr.md) a été ajouté pour permettre la création de symboles de finition de surface décrivant la rugosité, la disposition et l\'ondulation, mais aussi le type de traitement de surface. Il prend en charge les styles ISO et ASME. Comme le montre l\'image, l\'outil existant [Ligne de référence](TechDraw_LeaderLine/fr.md) peut être utilisé pour référencer correctement les symboles orientés vers les bords d\'un objet. [Pull request #7227](https   *//github.com/FreeCAD/FreeCAD/pull/7227)
+  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width   *250px;">   L\'outil [Symbole d\'état de surface](TechDraw_SurfaceFinishSymbol/fr.md) a été ajouté pour permettre la création de symboles de finition de surface décrivant la rugosité, la disposition et l\'ondulation, mais aussi le type de traitement de surface. Il prend en charge les styles ISO et ASME. Comme le montre l\'image, l\'outil existant [Ligne de référence](TechDraw_LeaderLine/fr.md) peut être utilisé pour référencer correctement les symboles orientés vers les bords d\'un objet. [Pull request #7227](https   *//github.com/FreeCAD/FreeCAD/pull/7227)
+  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width   *250px;">               L\'outil [Vue en coupe complexe](TechDraw_ComplexSection/fr.md) a été ajouté. [Pull request #7658](https   *//github.com/FreeCAD/FreeCAD/pull/7658)
+                                                                                                                      
    
 
 ### Autres améliorations de TechDraw 
 
--   La prise en charge des espaces ajustables pour les lignes d\'extension des [dimensions](TechDraw_Preferences/fr#Dimensions.md) a été ajoutée. [Pull request #7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133)
+-   Les modes de navigation ont été mis à jour pour correspondre à ceux utilisés dans la vue 3D. [Pull request #7081](https   *//github.com/FreeCAD/FreeCAD/pull/7081) et [Pull request #7107](https   *//github.com/FreeCAD/FreeCAD/pull/7107)
+-   Les hachures des bitmaps ont été corrigées. [Issue #6582](https   *//github.com/FreeCAD/FreeCAD/issues/6582) et [Pull request #7121](https   *//github.com/FreeCAD/FreeCAD/pull/7121)
+-   La prise en charge des espaces ajustables pour les lignes d\'extension des [cotes](TechDraw_Preferences/fr#Dimensions.md) a été ajoutée. [Pull request #7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133)
+-   Le multithreading a été introduit pour la suppression des lignes cachées et la recherche des faces. [Pull request #7377](https   *//github.com/FreeCAD/FreeCAD/pull/7377)
+-   L\'algorithme de détection des faces a été amélioré. [Pull request #7448](https   *//github.com/FreeCAD/FreeCAD/pull/7448)
+-   L\'outil [Tout imprimer](TechDraw_PrintAll/fr.md) a été ajouté. [Pull request #7460](https   *//github.com/FreeCAD/FreeCAD/pull/7460)
+-   [Quatre outils](TechDraw_Workbench/fr#Empilement.md) permettant de contrôler l\'ordre d\'empilement des vues ont été ajoutés. [Issue #6012](https   *//github.com/FreeCAD/FreeCAD/issues/6012) et [Pull request #7460](https   *//github.com/FreeCAD/FreeCAD/pull/7460)
+-   La [vue active](TechDraw_ActiveView/fr.md) crée maintenant une capture d\'écran au lieu d\'une image SVG. [Pull request #7471](https   *//github.com/FreeCAD/FreeCAD/pull/7471)
+-   Tous les modèles d\'écriture latine ont été convertis en \"plain svg\". [Pull request #7472](https   *//github.com/FreeCAD/FreeCAD/pull/7472)
+-   Un aperçu a été ajouté au panneau des tâches de l\'outil [Vue en coupe](TechDraw_SectionView/fr.md). [Pull request #7658](https   *//github.com/FreeCAD/FreeCAD/pull/7658)
 -   Suppression des fonctions obsolètes    * DrawViewPart   *   *replaceCenterLine, DrawViewPart   *   *replaceCosmeticEdge, DrawViewPart   *   *replaceCosmeticVertex et DrawViewPart   *   *replaceGeomFormat.
 
 ## Web

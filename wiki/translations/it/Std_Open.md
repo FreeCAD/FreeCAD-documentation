@@ -31,26 +31,14 @@ Il comando **Apri** apre un file. Se il file non è un file FreeCAD nativo (\*.F
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
+Per aprire un documento usare il metodo `open(filepath)` o il metodo `openDocument(filepath, [hidden<nowiki>=</nowiki>False])` dell\'applicazione FreeCAD.
 
-<div class="mw-translate-fuzzy">
+Questi metodi creano e restituiscono un documento e vi caricano un file di progetto. L\'argomento `filepath` deve essere una stringa che punta a un file esistente. Se il file non esiste o non è possibile caricare il file, viene generata un\'eccezione di I/O. In questo caso il documento creato viene conservato, ma sarà vuoto. Se viene utilizzato `hidden<nowiki>=</nowiki>True`, il documento non verrà visualizzato nella GUI e non verrà visualizzata alcuna scheda. Ciò consente di eseguire operazioni automatiche su un documento e chiuderlo senza interrompere l\'interfaccia utente.
 
-Per chiudere un documento usare il metodo `open` dell\'applicazione FreeCAD. Per un esempio di scripting vedere [Std Nuovo](Std_New/it.md).
-
-
-</div>
-
-These methods create and return a document and load a project file into it. The `filepath` argument must be a string pointing to an existing file. If the file doesn\'t exist or the file cannot be loaded an I/O exception is thrown. In this case the created document is kept, but will be empty. If `hidden<nowiki>=</nowiki>True` is used, the document won\'t be displayed in the GUI and no tab will appear for it. This allows performing automatic operations on a document and closing it without disrupting the user interface.
-
-For a scripting example see [Std New](Std_New#Scripting.md).
-
-
-<div class="mw-translate-fuzzy">
+Per esempi di scripting vedere [Nuovo](Std_New/it#Scripting.md).
 
 
 
-
-
-</div>
 
 
 {{Std Base navi

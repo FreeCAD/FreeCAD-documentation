@@ -47,7 +47,7 @@ Depending on which selection is made, some fields will activate or stay disabled
 
 ### Hole cut 
 
--   **Type**   * sets type of hole cut   * *None* means no cut, other types are different norms for screws (<small>(v0.19)</small> ) and the two generic types *Counterbore* and *Countersink*.
+-   **Type**   * sets type of hole cut   * *None* means no cut, other types are the various norms for screws (<small>(v0.19)</small> ) and the generic types *Counterbore*, *Countersink* and (<small>(v1.0)</small> ) *Counterdrill*.
 -   **Diameter**   * sets the upper diameter (at the sketch plane) for the hole cut.
 -   **Depth**   * depth of the hole cut, measured from the sketch plane.
 -   **Countersink angle**   * angle of the conical hole cut. Only applicable for countersinks.

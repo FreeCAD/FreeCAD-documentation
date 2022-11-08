@@ -12,7 +12,7 @@
 
 The **Std FreeCADPowerUserHub** command opens the FreeCAD Power users documentation page in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https   *//www.freecadweb.org/wiki/Power_users_hub>](https   *//www.freecadweb.org/wiki/Power_users_hub).
+Currently the command points to [<https   *//wiki.freecad.org/Power_users_hub>](https   *//wiki.freecad.org/Power_users_hub).
 
 ## Usage
 

@@ -81,62 +81,78 @@ Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, ers
 
 ### Objekte auswählen 
 
+Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf sie zusätzliche Befehle an. Diese sind abhängig von der Anzahl der ausgewählten Objekte, der Art der Objekte und auch von dem aktiven Arbeitsbereich. In den meisten Fällen und mit den meisten Arbeitsbereichen (außer dem Arbeitsbereich [Start](Start_Workbench/de.md)) stehen folgende Befehle zur Verfügung   *
 
-<div class="mw-translate-fuzzy">
+-    **[Darstellung...](Std_SetAppearance/de.md)**   * Öffnet einen Dialogfenster, um die visuellen Eigenschaften des gesamten Objekts zu ändern.
 
-Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf einen leeren Teil der Baumansicht zusätzlich zu den vorherigen Aktionen weitere Befehle an, die vom Objekttyp und dem aktiven Arbeitsbereich abhängen.
+-    **[Zufällige Farbe](Std_RandomColor/de.md)**   * Weist dem Objekt eine zufällige Farbe zu.
 
+-    **[Ausschneiden](Std_Cut/de.md)**   * Deaktiviert.
 
-</div>
+-    **[Kopieren](Std_Copy/de.md)**   * Kopiert ein Objekt in den Zwischenspeicher.
 
+-    **[Einfügen](Std_Paste/de.md)**   * Setzt das kopierte Objekt in das Dokument ein; die Kopie wird am Ende der Baumansicht hinzugefügt.
 
-<div class="mw-translate-fuzzy">
+-    **[Löschen](Std_Delete/de.md)**   * Entfernt das Objekt aus dem Dokument.
 
-Wenn ein Objekt ausgewählt wird, z.B. eine [ Entwurfslinie](Draft_Line/de.md), und ein Rechtsklick auf das gleiche Objekt ausgeführt wird, können zusätzliche Befehle verfügbar sein   *
+-    **Element ausblenden**   * Wenn aktiviert, wird das ausgewählte Objekt ausgeblendet.
 
--    **Transformation**   * startet das Transformations Widget, um das Objekt zu verschieben oder zu drehen.
+-    **Abhängige Objekte zur Auswahl hinzufügen**   * Fügt alle abhängigen Objekte zur Auswahl hinzu. So können alle Abhängigkeiten angezeigt und z.B. alle abhängigen Objekte auf einmal gelöscht werden. Diese Auswahl steht nur zur Verfügung, wenn eines der ausgewählten Objekte Verknüpfungen besitzt {{Version/de|0.20}}
 
--    **Set colors**   * setzt die Farben des Objekts.
+-    **Markieren, um neu zu berechnen**   * Kennzeichnet die ausgewählten Objekte als markiert und fertig zum [Neuberechnen](Std_Refresh/de.md).
 
--    **Draht Abflachen**   * **(Draft)** Spezifischer Befehl für eine [Entwurfslinie](Draft_Line/de.md).
+-    **Objekt neu berechnen**   * Berechnet die ausgewählten Objekte neu.
 
--    **Eintrag ausblenden**   * Wenn aktiv, wird das ausgewählte Objekt als ausgeblendet gesetzt.
+-    **Umbenennen**   * Startet die Bearbeitung des Labels eines Objekts, nicht des Namens, der schreibgeschützt ist. Diese Auswahl steht nur dann zur Verfügung, wenn nur ein einziges Objekt ausgewählt wurde.
 
--    {{MenuCommand/de|Markieren zum Neuberechnen}}   * markiert das ausgewählte Objekt als berührt und bereit für [Neuberechnung](Std_Refresh/de.md).
+Ein Beispiel für eine Erweiterung des Kontextmenüs zeigt ein Rechtsklick auf ein [Part Würfel](Part_Box/de.md)-Objekt; bei aktiviertem Arbeitsbereich [Part](Part_Workbench/de.md) stehen folgende zusätzliche Befehle zur Verfügung   *
 
--    **Neuberechnung**   * Berechnet das ausgewählte Objekt neu.
+-    **[Würfel bearbeiten](Std_Edit/de.md)**   * Aktiviert den Bearbeitungsmodus des Würfels.
 
--    **Umbenennen**   *beginnt mit der Bearbeitung des Namens des ausgewählten Objekts. Dies ermöglicht es, das Attribut `Label` zu ändern, nicht aber das Attribut `Name`, da letzteres schreibgeschützt ist.
+-    **[Transformieren](Std_TransformManip/de.md)**   * Startet das Transformations-Widget, um das Objekt zu verschieben oder zu drehen.
 
+-    **[Anhang-Editor](Part_EditAttachment/de.md)**   * Öffnet ein Dialogfenster, um das Objekt einem oder mehreren anderen Objekten als Anhang zuzuordnen.
 
-</div>
+-    **[Farbe festlegen](Part_FaceColors/de.md)**   * Legt die Farbe der ausgewählten Flächen eines Objekts fest.
 
-### Keyboard actions 
+-    **[Ein/Ausblenden](Std_ToggleVisibility/de.md)**   * Schaltet die Sichtbarkeit eines Objekts in der [3D-Ansicht](3D_view/de.md) ein/aus.
 
-The following keyboard actions are available when the focus is on the Tree view   *
+-    **[Auswahl einblenden](Std_ShowSelection/de.md)**   * Macht die ausgewählten Objekte sichtbar.
 
--    **Ctrl**\+**F**   * opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
+-    **[Auswahl ausblenden](Std_HideSelection/de.md)**   * Macht die ausgewählten Objekte unsichtbar.
 
--   Expand and collapse actions using **Alt**+**Arrow** combinations   * <small>(v0.20)</small> 
+-    **[Selektierbarkeit an/aus](Std_ToggleSelectability/de.md)**   * Schaltet die Auswählbarkeit de Objekts in der [3D-Ansicht](3D_view/de.md) ein/aus.
+
+-    **[Alle Instanzen auswählen](Std_TreeSelectAllInstances/de.md)**   * Wählt alle Instanzen dieses Objekts in der Baumansicht aus.
+
+-    **[An Python-Konsole senden](Std_SendToPythonConsole/de.md)**   * Erstellt eine Variable in der [Python-Konsole](Python_console/de.md), die auf dieses Objekt verweist.
+
+### Tastaturbefehle
+
+Folgende Tastaturbefehle stehen zur Verfügung, wenn der Fokus auf der Baumansicht liegt   *
+
+-    **Ctrl**\+**F**   * Öffnet ein Suchfeld am unteren Rand der Baumansicht, das ermöglicht Objekte durch Angabe ihres Namens oder ihres Labels zu suchen und zu erreichen.
+
+-   Aktionen zum Aus- und Einklappen mit Kombinationen aus **Alt**+**Pfeil**-Tasten   * {{Version/de|0.20}}
     -   
         **Alt**
         
-        \+**Left**   * collapses selected item(s).
+        \+**Left**   * Klappt ausgewählte Elemente ein.
 
     -   
         **Alt**
         
-        \+**Right**   * expands selected item(s).
+        \+**Right**   * Klappt ausgewählte Elemente aus.
 
     -   
         **Alt**
         
-        \+**Up**   * expands selected item(s) with all their tier-1 children collapsed (deeper children remain unchanged).
+        \+**Up**   * Klappt ausgewählte Elemente aus mit eingeklappten Unterelementen in der nächsten Ebene (Tiefer verknüpfte Unterelemente bleiben unverändert).
 
     -   
         **Alt**
         
-        \+**Down**   * expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
+        \+**Down**   * Klappt ausgewählte Elemente aus mit ebenfalls ausgeklappten Unterelementen in der nächsten Ebene (Tiefer verknüpfte Unterelemente bleiben unverändert).
 
 ## Überlagerungssymbole
 
@@ -158,11 +174,11 @@ Es gibt ein [Grundlegendes Anfügungs Tutorium](Basic_Attachment_Tutorial/de.md)
 
 ### ![](images/FreeCAD_Tree_view_notfullyconstrained.png ) Gelbes X 
 
-Dies wird nur für [Skizzen](Sketch/de.md) verwendet und zeigt an, dass die Skizze nicht vollständig beschränkt ist. Innerhalb des [Skizzierer](Sketcher_Workbench/de.md) wird die Anzahl der verbleibenden Freiheitsgrade in den Löser Meldungen angezeigt.
+Dies wird nur für [Skizzen](Sketch/de.md) verwendet und zeigt an, dass die Skizze nicht vollständig bestimmt ist. Innerhalb des [Sketchers](Sketcher_Workbench/de.md) wird die Anzahl der verbleibenden Freiheitsgrade in den Meldungen des Lösers angezeigt.
 
 ### ![](images/FreeCAD_Tree_view_error.png ) Weißes Ausrufezeichen auf rotem Hintergrund 
 
-Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine Werkzeugspitze angezeigt, der den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Strukturansicht fahren. Hinweis   * Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
+Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine QuickInfo angezeigt, die den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Baumansicht fahren. Hinweis   * Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
 
 
 {{Interface navi

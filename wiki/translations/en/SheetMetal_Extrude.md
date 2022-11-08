@@ -73,6 +73,8 @@ If an outline sketch is added it creates **interlocking geometry** to close a pr
 
 -   In an extension operation it is recommended to leave the property **Refine** set to `True` (default).
 
+-   The extension operation with a linked sketch may fail due to coplanar issues if the face on the sketch side and the face on the opposite side are coplanar, but with opposite orientations. A small offset may help in such a case.
+
 ## Properties
 
 See also   * [Property editor](Property_editor.md).

@@ -67,6 +67,9 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 <img alt="Bemaßungseinstellungen" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Normbasis und Ausführung von Maßeinträgen**   * Der Standard, der für Maßzahlen zu verwenden ist. Die Unterschiede zwischen den Standards sind in der Abbildung dargestellt   *
 
 ![\|500px\|Unterschiede zwischen den unterstützten Normen. ([Image source](images/https   *//forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png )
@@ -89,6 +92,9 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **Pfeillänge**   * Größe der Maßpfeile.
 -   **Extension Gap Factor - ISO**   * Lücke zwischen Maßpunkt und Anfang der Maßhilfslinie für ISO-Maße. {{Version/de|1.0}}
 -   **Extension Gap Factor - ASME**   * Lücke zwischen Maßpunkt und Anfang der Maßhilfslinie für ASME-Maße. {{Version/de|1.0}}
+
+
+</div>
 
 ## Anmerkung
 

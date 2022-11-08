@@ -43,50 +43,26 @@ Ein FCGear-LanternGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.
 
 {{Properties_Title|accuracy}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/de|num_profiles|Integer}}   * Voreingestellt ist 10. Der Wert muss normalerweise nicht geändert werden.
-
-
-</div>
+-    {{PropertyData/de|num_profiles|Integer}}   * Voreingestellt ist {{Value|10}}. Der Wert muss normalerweise nicht geändert werden.
 
 
 {{Properties_Title/de|Basis}}
 
+-    {{PropertyData/de|bolt_radius|Length}}   * Voreingestellt ist {{Value|1 mm}}. Durchmesser des Zylinders auf der drehenden Scheibe, die das zweites \"Zahnrad\" darstellt.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|height|Length}}   * Voreingestellt ist {{Value|5 mm}}. Wert der Zahnbreite.
 
--    {{PropertyData/de|bolt_radius|Length}}   * Voreingestellt ist 1,00 mm. Durchmesser des Zylinders auf der drehenden Scheibe, die das zweites \"Zahnrad\" darstellt.
-
--    {{PropertyData/de|height|Length}}   * Voreingestellt ist 5,00 mm. Wert der Zahnbreite.
-
--    {{PropertyData/de|module|Length}}   * Voreingestellt ist 1,00 mm. Modul, das Verhältnis von Referenzdurchmesser des Zahnrades zur Anzahl der Zähne (siehe [Hinweise](#Hinweise.md)).
-
-
-</div>
+-    {{PropertyData/de|module|Length}}   * Voreingestellt ist {{Value|1 mm}}. (Der) Modul, das Verhältnis von Teilkreisdurchmesser des Zahnrades zur Anzahl der Zähne (siehe [Hinweise](#Hinweise.md)).
 
 
 {{Properties_Title|gear_parameter}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/de|teeth|Integer}}   * Voreingestellt ist 15. Anzahl der Zähne.
-
-
-</div>
+-    {{PropertyData/de|teeth|Integer}}   * Voreingestellt ist {{Value|15}}. Anzahl der Zähne.
 
 
 {{Properties_Title|tolerance}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/de|head|Float}}   *
-
-
-</div>
+-    {{PropertyData/de|head|Float}}   * Voreingestellt ist {{Value|0}}.
 
 
 {{Properties_Title|version}}

@@ -39,9 +39,11 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Arch Structure/ru](wiki/Arch Structure/ru.md) | [Arch Survey/ru](wiki/Arch Survey/ru.md) | [Arch ToggleIfcBrepFlag/ru](wiki/Arch ToggleIfcBrepFlag/ru.md) |
 | [Arch ToggleSubs/ru](wiki/Arch ToggleSubs/ru.md) | [Arch Truss/ru](wiki/Arch Truss/ru.md) | [Arch tutorial/ru](wiki/Arch tutorial/ru.md) |
 | [Arch Wall/ru](wiki/Arch Wall/ru.md) | [Arch Window/ru](wiki/Arch Window/ru.md) | [Arch Workbench/ru](wiki/Arch Workbench/ru.md) |
-| [Assembly/ru](wiki/Assembly/ru.md) | [Assembly2 Workbench/ru](wiki/Assembly2 Workbench/ru.md) | [Assembly3 CreateAssembly/ru](wiki/Assembly3 CreateAssembly/ru.md) |
-| [Assembly3 CreateElement/ru](wiki/Assembly3 CreateElement/ru.md) | [Assembly3 GroupObjects/ru](wiki/Assembly3 GroupObjects/ru.md) | [Assembly3 ImportFromSTEP/ru](wiki/Assembly3 ImportFromSTEP/ru.md) |
-| [Assembly3 ImportMultiDocument/ru](wiki/Assembly3 ImportMultiDocument/ru.md) | [Assembly3 MovePart/ru](wiki/Assembly3 MovePart/ru.md) | [Assembly3 QuickSolve/ru](wiki/Assembly3 QuickSolve/ru.md) |
+| [Assembly/ru](wiki/Assembly/ru.md) | [Assembly2 Workbench/ru](wiki/Assembly2 Workbench/ru.md) | [Assembly3 AxialMove/ru](wiki/Assembly3 AxialMove/ru.md) |
+| [Assembly3 ConstraintMore/ru](wiki/Assembly3 ConstraintMore/ru.md) | [Assembly3 ConstraintPointInPlane/ru](wiki/Assembly3 ConstraintPointInPlane/ru.md) | [Assembly3 ConstraintSketchPlane/ru](wiki/Assembly3 ConstraintSketchPlane/ru.md) |
+| [Assembly3 CreateAssembly/ru](wiki/Assembly3 CreateAssembly/ru.md) | [Assembly3 CreateElement/ru](wiki/Assembly3 CreateElement/ru.md) | [Assembly3 GroupObjects/ru](wiki/Assembly3 GroupObjects/ru.md) |
+| [Assembly3 ImportFromSTEP/ru](wiki/Assembly3 ImportFromSTEP/ru.md) | [Assembly3 ImportMultiDocument/ru](wiki/Assembly3 ImportMultiDocument/ru.md) | [Assembly3 MoveItemUp/ru](wiki/Assembly3 MoveItemUp/ru.md) |
+| [Assembly3 MovePart/ru](wiki/Assembly3 MovePart/ru.md) | [Assembly3 QuickMove/ru](wiki/Assembly3 QuickMove/ru.md) | [Assembly3 QuickSolve/ru](wiki/Assembly3 QuickSolve/ru.md) |
 | [Assembly3 ResolveConstraints/ru](wiki/Assembly3 ResolveConstraints/ru.md) | [Assembly3 Workbench/ru](wiki/Assembly3 Workbench/ru.md) | [Assembly4 Workbench/ru](wiki/Assembly4 Workbench/ru.md) |
 | [Basic modeling tutorial/ru](wiki/Basic modeling tutorial/ru.md) | [Basic Part Design Tutorial/ru](wiki/Basic Part Design Tutorial/ru.md) | [Basic Sketcher Tutorial/ru](wiki/Basic Sketcher Tutorial/ru.md) |
 | [Basic TechDraw Tutorial/ru](wiki/Basic TechDraw Tutorial/ru.md) | [BIM Box/ru](wiki/BIM Box/ru.md) | [BIM Copy/ru](wiki/BIM Copy/ru.md) |
@@ -171,9 +173,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Part Boolean/ru](wiki/Part Boolean/ru.md) | [Part BooleanFragments/ru](wiki/Part BooleanFragments/ru.md) | [Part Box/ru](wiki/Part Box/ru.md) |
 | [Part BoxSelection/ru](wiki/Part BoxSelection/ru.md) | [Part Builder/ru](wiki/Part Builder/ru.md) | [Part Chamfer/ru](wiki/Part Chamfer/ru.md) |
 | [Part CheckGeometry/ru](wiki/Part CheckGeometry/ru.md) | [Part Circle/ru](wiki/Part Circle/ru.md) | [Part Common/ru](wiki/Part Common/ru.md) |
-| [Part CompCompoundTools/ru](wiki/Part CompCompoundTools/ru.md) | [Part CompJoinFeatures/ru](wiki/Part CompJoinFeatures/ru.md) | [Part CompOffsetTools/ru](wiki/Part CompOffsetTools/ru.md) |
-| [Part Compound/ru](wiki/Part Compound/ru.md) | [Part CompoundFilter/ru](wiki/Part CompoundFilter/ru.md) | [Part CompSplittingTools/ru](wiki/Part CompSplittingTools/ru.md) |
-| [Part Cone/ru](wiki/Part Cone/ru.md) | [Part CrossSections/ru](wiki/Part CrossSections/ru.md) |
+| [Part CompCompoundTools/ru](wiki/Part CompCompoundTools/ru.md) | [Part CompJoinFeatures/ru](wiki/Part CompJoinFeatures/ru.md) |
 
 
 

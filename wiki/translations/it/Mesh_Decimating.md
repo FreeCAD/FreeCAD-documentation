@@ -28,13 +28,7 @@ Il comando **Decima** riduce il numero di facce negli oggetti mesh.
 5.  Premere il pulsante **OK** per terminare il comando.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

@@ -1,17 +1,14 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher SelectVerticalAxis
-   Name/de   *Skizzierer WähleVertikaleAchse
-   MenuLocation   *Skizze → Skizzierer Werkzeuge → Wähle Vertikale Achse
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut   ***Shift**+**Ctrl**+**V**
+   Name/de   *Sketcher VertikaleAchseAuswählen
+   MenuLocation   *Skizze → Skizzenwerkzeuge → Vertikale Achse auswählen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***Z** **V**
    Version   *0.15
 ---
 
 # Sketcher SelectVerticalAxis/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -19,24 +16,12 @@ Wählt die vertikale Achse einer Skizze aus.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Gehe in den Bearbeitungsmodus der Skizze.
-2.  Wähle **Skizze → Skizzierer Werkzeuge → [<img src=images/Sketcher_SelectVerticalAxis.png style="width   *16px"> Wähle Vertikale Achse** aus dem oberen Menü.
+1.  In den Bearbeitungsmodus der Skizze wechseln.
+2.  Den Menüeintrag **Skizze → Skizzenwerkzeuge → [<img src=images/Sketcher_SelectVerticalAxis.png style="width   *16px"> Vertikale Achse auswählen** auswählen.
 3.  Die vertikale Achse der Skizze wird ausgewählt.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

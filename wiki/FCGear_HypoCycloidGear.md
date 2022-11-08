@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/FCGear_HypoCycloidGear.svg  style="width   *16px;"> **FCGear HypoCycloid Gear** command creates two splined cam disks and a set of rollers that stay in touch with the disks outer surface while moving.
+The <img alt="" src=images/FCGear_HypoCycloidGear.svg  style="width   *16px;"> **FCGear HypoCycloid Gear** command creates two splined cam disks and a set of rollers that stay in touch with the disks\' outer surfaces while moving.
 
  <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-04.png  style="width   *200px;"> <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width   *200px;">  
 *Left   * Hypocycloid gear. Right   * Gear and transparently displayed also provided reversed gear and set of rollers*

@@ -66,7 +66,7 @@ The flux equation does not have own constraints. It takes the constraints from t
 
 ## Results
 
-The available results depend on the [solver settings](#Solver_Settings.md). If none of them was set to *true*, nothing is calculated. Otherwise also the corresponding results will be available.
+The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, nothing is calculated. Otherwise also the corresponding results will be available.
 
 The resulting flux is either the heat flux $\rm W/m^2$ (misleadingly named \"temperature flux\") or the potential flux in $\rm W/m^2$ ($\rm A\cdot V/m^2$).
 

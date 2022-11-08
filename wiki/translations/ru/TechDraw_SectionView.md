@@ -9,6 +9,9 @@
 
 # TechDraw SectionView/ru
 
+
+</div>
+
 ## Описание
 
 The Section tool creates a cross section view based on an existing part view.
@@ -146,7 +149,13 @@ section.SectionOrigin = (5.0,5.0,5.0)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

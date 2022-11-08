@@ -71,7 +71,13 @@ Reasignar un boceto de esta manera puede hacerse cada vez que haya un error de d
 
 El [grafo de dependencia](Std_DependencyGraph/es.md) es una herramienta útil para observar las relaciones entre los distintos cuerpos del documento. El uso del flujo de trabajo de modelado original revela la relación directa que existe entre los bocetos y las almohadillas. Al igual que una cadena, es fácil ver que esta dependencia directa estará sujeta a problemas de nomenclatura topológica si cambia alguno de los eslabones de la secuencia.
 
+
+<div class="mw-translate-fuzzy">
+
 Como se explica en la página [edición de características](feature_editing/es.md), una solución a este problema es admitir bocetos no en las caras sino en los planos de referencia que están desplazados de los planos principales del [DiseñoPieza cuerpo](PartDesign_Body/es.md) Origen.
+
+
+</div>
 
 1\. Seleccione el origen del [ DiseñoPieza Cuerpo](PartDesign_Body/es.md) y asegúrese de que es visible. A continuación, seleccione el plano XY y haga clic en [DiseñoPieza Plano](PartDesign_Plane/es.md). En el cuadro de diálogo de desplazamiento del accesorio, dele un desplazamiento en la dirección Z para que el plano de referencia sea coplanario con la cara superior del primer pad.
 

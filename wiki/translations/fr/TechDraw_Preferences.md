@@ -78,8 +78,8 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 
 -   **Utiliser les paramètres système pour les décimals**    * utilise le nombre de décimales des [préférences générales](Preferences_Editor/fr#Unit.C3.A9s.md).
 -   **Afficher les unités**   * ajoute l\'unité (mm, in, etc.) aux valeurs de cote.
--   **Nombre de décimales**    * nombre de décimales si **Use Global Decimals** n\'est pas utilisé.
--   **Format par défaut**    * format personnalisé pour le texte de cote. Utilise le [spécification du format printf](https   *//fr.wikipedia.org/wiki/Printf).
+-   **Nombre de décimales**    * nombre de décimales si **Utiliser les paramètres système pour les décimals** n\'est pas sélectionné et si **Format des cotes** n\'est pas spécifié.
+-   **Format des cotes**    * format personnalisé pour le texte des cotes. Utilise le [spécification du format printf](https   *//fr.wikipedia.org/wiki/Printf).
 -   **Taille de la police**    * taille de police pour le texte de cote.
 -   **Échelle du texte de tolérance**    * réglage de la taille de la police de tolérance. Multiplicateur de dimension **[Taille de police](TechDraw_Preferences/fr#Dimensions_2.md)**.
 -   **Symbole de diamètre**    * caractère utilisé pour indiquer les dimensions des diamètres.

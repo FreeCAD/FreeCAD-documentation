@@ -30,9 +30,11 @@
 | [Arch Site/ru](wiki/Arch Site/ru.md) | [Arch Space/ru](wiki/Arch Space/ru.md) | [Arch SplitMesh/ru](wiki/Arch SplitMesh/ru.md) |
 | [Arch Stairs/ru](wiki/Arch Stairs/ru.md) | [Arch Structure/ru](wiki/Arch Structure/ru.md) | [Arch Survey/ru](wiki/Arch Survey/ru.md) |
 | [Arch ToggleIfcBrepFlag/ru](wiki/Arch ToggleIfcBrepFlag/ru.md) | [Arch ToggleSubs/ru](wiki/Arch ToggleSubs/ru.md) | [Arch Truss/ru](wiki/Arch Truss/ru.md) |
-| [Arch Wall/ru](wiki/Arch Wall/ru.md) | [Arch Window/ru](wiki/Arch Window/ru.md) | [Assembly3 CreateAssembly/ru](wiki/Assembly3 CreateAssembly/ru.md) |
-| [Assembly3 CreateElement/ru](wiki/Assembly3 CreateElement/ru.md) | [Assembly3 GroupObjects/ru](wiki/Assembly3 GroupObjects/ru.md) | [Assembly3 ImportFromSTEP/ru](wiki/Assembly3 ImportFromSTEP/ru.md) |
-| [Assembly3 ImportMultiDocument/ru](wiki/Assembly3 ImportMultiDocument/ru.md) | [Assembly3 MovePart/ru](wiki/Assembly3 MovePart/ru.md) | [Assembly3 QuickSolve/ru](wiki/Assembly3 QuickSolve/ru.md) |
+| [Arch Wall/ru](wiki/Arch Wall/ru.md) | [Arch Window/ru](wiki/Arch Window/ru.md) | [Assembly3 AxialMove/ru](wiki/Assembly3 AxialMove/ru.md) |
+| [Assembly3 ConstraintMore/ru](wiki/Assembly3 ConstraintMore/ru.md) | [Assembly3 ConstraintPointInPlane/ru](wiki/Assembly3 ConstraintPointInPlane/ru.md) | [Assembly3 ConstraintSketchPlane/ru](wiki/Assembly3 ConstraintSketchPlane/ru.md) |
+| [Assembly3 CreateAssembly/ru](wiki/Assembly3 CreateAssembly/ru.md) | [Assembly3 CreateElement/ru](wiki/Assembly3 CreateElement/ru.md) | [Assembly3 GroupObjects/ru](wiki/Assembly3 GroupObjects/ru.md) |
+| [Assembly3 ImportFromSTEP/ru](wiki/Assembly3 ImportFromSTEP/ru.md) | [Assembly3 ImportMultiDocument/ru](wiki/Assembly3 ImportMultiDocument/ru.md) | [Assembly3 MoveItemUp/ru](wiki/Assembly3 MoveItemUp/ru.md) |
+| [Assembly3 MovePart/ru](wiki/Assembly3 MovePart/ru.md) | [Assembly3 QuickMove/ru](wiki/Assembly3 QuickMove/ru.md) | [Assembly3 QuickSolve/ru](wiki/Assembly3 QuickSolve/ru.md) |
 | [Assembly3 ResolveConstraints/ru](wiki/Assembly3 ResolveConstraints/ru.md) | [BIM Box/ru](wiki/BIM Box/ru.md) | [BIM Copy/ru](wiki/BIM Copy/ru.md) |
 | [BIM Library/ru](wiki/BIM Library/ru.md) | [BIM Project/ru](wiki/BIM Project/ru.md) | [BIM Setup/ru](wiki/BIM Setup/ru.md) |
 | [Draft AddConstruction/ru](wiki/Draft AddConstruction/ru.md) | [Draft AddToGroup/ru](wiki/Draft AddToGroup/ru.md) | [Draft AnnotationStyleEditor/ru](wiki/Draft AnnotationStyleEditor/ru.md) |
@@ -171,9 +173,7 @@
 | [Ship Weight/ru](wiki/Ship Weight/ru.md) | [Sketcher BSplineApproximate/ru](wiki/Sketcher BSplineApproximate/ru.md) | [Sketcher BSplineComb/ru](wiki/Sketcher BSplineComb/ru.md) |
 | [Sketcher BSplineDecreaseDegree/ru](wiki/Sketcher BSplineDecreaseDegree/ru.md) | [Sketcher BSplineDecreaseKnotMultiplicity/ru](wiki/Sketcher BSplineDecreaseKnotMultiplicity/ru.md) | [Sketcher BSplineDegree/ru](wiki/Sketcher BSplineDegree/ru.md) |
 | [Sketcher BSplineIncreaseDegree/ru](wiki/Sketcher BSplineIncreaseDegree/ru.md) | [Sketcher BSplineIncreaseKnotMultiplicity/ru](wiki/Sketcher BSplineIncreaseKnotMultiplicity/ru.md) | [Sketcher BSplineInsertKnot/ru](wiki/Sketcher BSplineInsertKnot/ru.md) |
-| [Sketcher BSplineKnotMultiplicity/ru](wiki/Sketcher BSplineKnotMultiplicity/ru.md) | [Sketcher BSplinePoleWeight/ru](wiki/Sketcher BSplinePoleWeight/ru.md) | [Sketcher BSplinePolygon/ru](wiki/Sketcher BSplinePolygon/ru.md) |
-| [Sketcher CarbonCopy/ru](wiki/Sketcher CarbonCopy/ru.md) | [Sketcher Clone/ru](wiki/Sketcher Clone/ru.md) | [Sketcher CloseShape/ru](wiki/Sketcher CloseShape/ru.md) |
-| [Sketcher CompConstrainRadDia/ru](wiki/Sketcher CompConstrainRadDia/ru.md) | [Sketcher CompCreateArc/ru](wiki/Sketcher CompCreateArc/ru.md) |
+| [Sketcher BSplineKnotMultiplicity/ru](wiki/Sketcher BSplineKnotMultiplicity/ru.md) | [Sketcher BSplinePoleWeight/ru](wiki/Sketcher BSplinePoleWeight/ru.md) |
 
 
 

@@ -3,7 +3,7 @@
    Name   *TechDraw SectionView
    MenuLocation   *TechDraw → Insert Section View
    Workbenches   *[TechDraw](TechDraw_Workbench.md)
-   SeeAlso   *[TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
+   SeeAlso   *[TechDraw ComplexSection](TechDraw_ComplexSection.md), [TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
 ---
 
 # TechDraw SectionView/en

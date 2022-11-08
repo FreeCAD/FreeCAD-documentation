@@ -246,7 +246,8 @@ To compile FreeCAD for Debian Buster, Ubuntu 19.04 and newer, as well as Ubuntu 
 -    `libqt5svg5-dev`
     
 
--    `libqt5webkit5-dev`or `qtwebengine5-dev`
+-    `qtwebengine5-dev`
+    
 
 -    `libqt5xmlpatterns5-dev`
     
@@ -405,7 +406,7 @@ Optionally you can also install these extra packages   *
 Requires Pyside2 available in Debian buster and the [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md).
 
  {{Code|lang=bash|code=
-sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-packaging python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-pyside2.qtwebengine python3-pyside2.qtwebenginecore python3-pyside2.qtwebenginewidgets python3-pyside2.qtwebchannel python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
+sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev qtwebengine5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-packaging python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-pyside2.qtwebengine python3-pyside2.qtwebenginecore python3-pyside2.qtwebenginewidgets python3-pyside2.qtwebchannel python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
 }}
 
 NOTE   * On some versions of Ubuntu and some versions of Qt, you will get an error that python3-pyside2uic cannot be found \-- on those systems you can safely omit it. On Ubuntu 20.04 you will need to add `pyqt5-dev-tools`. More information can be found in [this forum discussion](https   *//forum.freecadweb.org/viewtopic.php?t=51324).
@@ -543,7 +544,7 @@ You need the following packages   *
 -   tbb-devel
 -   eigen3-devel
 -   qt-devel
--   qt-webkit-devel
+-   qt5-qtwebengine-devel
 -   qt5-qtxmlpatterns
 -   qt5-qtxmlpatterns-devel
 -   qt5-qtsvg-devel
@@ -579,7 +580,7 @@ And optionally   *
 To install all dependencies at once (tested on fedora 36)   *
 
  {{Code|lang=bash|code=
-sudo dnf install gcc-c++ cmake doxygen swig gettext dos2unix desktop-file-utils libXmu-devel freeimage-devel mesa-libGLU-devel opencascade-devel openmpi-devel python3 python3-devel python3-pyside2 python3-pyside2-devel pyside2-tools boost-devel tbb-devel eigen3-devel qt-devel qt-webkit-devel qt5-qtxmlpatterns qt5-qtxmlpatterns-devel qt5-qtsvg-devel qt5-qttools-static ode-devel xerces-c xerces-c-devel opencv-devel smesh-devel Coin3 Coin3-devel SoQt-devel freetype freetype-devel vtk vtk-devel med med-devel libspnav-devel python3-pivy python3-markdown python3-GitPython
+sudo dnf install gcc-c++ cmake doxygen swig gettext dos2unix desktop-file-utils libXmu-devel freeimage-devel mesa-libGLU-devel opencascade-devel openmpi-devel python3 python3-devel python3-pyside2 python3-pyside2-devel pyside2-tools boost-devel tbb-devel eigen3-devel qt-devel qt5-qtwebengine-devel qt5-qtxmlpatterns qt5-qtxmlpatterns-devel qt5-qtsvg-devel qt5-qttools-static ode-devel xerces-c xerces-c-devel opencv-devel smesh-devel Coin3 Coin3-devel SoQt-devel freetype freetype-devel vtk vtk-devel med med-devel libspnav-devel python3-pivy python3-markdown python3-GitPython
 }}
 
 
@@ -698,7 +699,6 @@ You will need the following libraries from the official repositories   *
 -   python-matplotlib
 -   python-netcdf4
 -   qt5-svg
--   qt5-webkit
 -   qt5-webengine
 -   cmake
 -   eigen
@@ -714,7 +714,7 @@ You will need the following libraries from the official repositories   *
 
 
 ```python
-sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 qt5-svg qt5-webkit qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
+sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 qt5-svg qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
 ```
 
 
@@ -832,7 +832,7 @@ Change to the source directory, and point `cmake` to the present directory (deno
 
  {{Code|lang=bash|code=
 cd freecad-source
-cmake . -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3
+cmake . -DPYTHON_EXECUTABLE=/usr/bin/python3
 make -j$(nproc --ignore=2)
 }}
 
@@ -893,7 +893,7 @@ Alternatively, use the command `cmake -LH` to list the current configuration, an
 Create a `Debug` build to troubleshoot crashes in FreeCAD. Beware that with this build the [Sketcher](Sketcher_Workbench.md) becomes very slow with complex sketches.
 
  {{Code|lang=bash|code=
-cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-source
 }}
 
 #### For a Release build 
@@ -901,28 +901,22 @@ cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Deb
 Create a `Release` build to test code that doesn\'t crash. A `Release` build will run much faster than a `Debug` build.
 
  {{Code|lang=bash|code=
-cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad-source
 }}
 
 #### Building against Python 3 and Qt5 
 
-By default, FreeCAD 0.19 and earlier build for Python 2 and Qt4. Since these two packages are obsolete, it is better to build for Python 3 and Qt5. Support for Python 2 and Qt4 has been removed in FreeCAD 0.20 and it is not necessary to explicitly enable Qt5 and Python 3 if compiling the latest development versions.
+Support for Python 2 and Qt4 has been removed in FreeCAD 0.20 and it is not necessary to explicitly enable Qt5 and Python 3 if compiling the latest versions. Qt6 support is currently in development and does not work yet. Unless you plan on assisting with the Qt6 migration effort, FREECAD_QT_VERSION should be left at \"Auto\" (the default) or explicitly set to \"5\".
 
-In a modern Linux distribution you only need to provide two variables specifying the use of Qt5, and the path to the Python interpreter.
-
-For 0.19   *  {{Code|lang=bash|code=
-cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
-}}
-
-For 0.20_dev   *  {{Code|lang=bash|code=
+For 0.20 and 0.21_dev   *  {{Code|lang=bash|code=
 cmake ../freecad-source
 }}
 
-Note that when switching between 0.19 and the 0.20 builds, it may be necessary to delete CMakeCache.txt prior to running cmake.
+Note that when switching between 0.20 and the 0.21_dev builds, it may be necessary to delete CMakeCache.txt prior to running cmake.
 
 #### Building for a specific Python version 
 
-If the default `python` executable in your system is a symbolic link to Python 2, `cmake` will try to configure FreeCAD for this version. You can choose another version of Python by giving the path to a specific executable   *
+If the default `python` executable in your system is a symbolic link to Python 2, `cmake` will try to configure FreeCAD for this version. You must then choose another version of Python by giving the path to a specific executable   *
 
  {{Code|lang=bash|code=
 cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
@@ -968,7 +962,6 @@ Some components of FreeCAD, such as PySide, try to autodetect the most recent Py
 6\. Set the appropriate variables in the Key-Value dialog, of types  
 ```python
 PYTHON_EXECUTABLE=/usr/bin/python3
-BUILD_QT5=ON
 ```
 
 7\. If the variables do not load the project correctly, you may have to go to  
@@ -977,7 +970,6 @@ PYTHON_EXECUTABLE   *STRING=/usr/bin/python3.7
 PYTHON_INCLUDE_DIR   *STRING=/usr/include/python3.7m
 PYTHON_LIBRARY   *STRING=/usr/lib/x86_64-linux-gnu/libpython3.7m.so
 PYTHON_PACKAGES_PATH   *STRING=/usr/lib/python3.7/site-packages
-BUILD_QT5   *BOOL=ON
 ```
 
 7.1. Press **Apply**, then **OK**.
@@ -1159,7 +1151,7 @@ sudo apt-get install freecad-daily
 git clone https   *//github.com/FreeCAD/FreeCAD.git freecad-source
 mkdir freecad-build
 cd freecad-build
-cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DFREECAD_USE_PYBIND11=ON ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DFREECAD_USE_PYBIND11=ON ../freecad-source
 make -j$(nproc --ignore=2)
 }}
 

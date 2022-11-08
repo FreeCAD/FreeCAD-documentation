@@ -76,8 +76,8 @@ All preferences settings with *italic* labels are default values for new drawing
 
 -   **Use Global Decimals**   * Use number of decimals from the [general preferences](Preferences_Editor#Units.md).
 -   **Show Units**   * Appends the unit (mm, in, etc.) to dimension values.
--   **Alternate Decimals**   * Number of decimals if **Use Global Decimals** is not used.
--   **Default Format**   * Custom format for dimension text. Uses the [printf format specifier](https   *//en.wikipedia.org/wiki/Printf_format_string).
+-   **Alternate Decimals**   * Number of decimals if **Use Global Decimals** is not selected and **Dimension Format** not specified.
+-   **Dimension Format**   * Custom format for dimension text. Uses the [printf format specifier](https   *//en.wikipedia.org/wiki/Printf_format_string).
 -   **Font Size**   * Font size for dimension text.
 -   **Tolerance Text Scale**   * Tolerance font size adjustment. Multiplier of dimension **[Font Size](TechDraw_Preferences#Dimensions_2.md)**.
 -   **Diameter Symbol**   * Character used to indicate diameter dimensions.

@@ -1,42 +1,27 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher SelectConflictingConstraints
-   Name/de   *Skizzierer WähleWidersprüchlicheBeschränkungen
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   MenuLocation   *Skizze → Skizzierer Werkzeuge → Wähle Widersprüchliche Beschränkungen
-   Shortcut   *Shift+Ctrl+E
+   Name/de   *Sketcher WidersprüchlicheRandbedingungenAuswählen
+   MenuLocation   *Skizze → Skizzenwerkzeuge → Widersprüchliche Randbedingungen auswählen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***Z** **P** **C**
    Version   *0.15
 ---
 
 # Sketcher SelectConflictingConstraints/de
 
-
-</div>
-
 ## Beschreibung
 
-Wählt die widersprüchlichen Beschränkungen einer Skizze aus.
+Wählt die widersprüchlichen Randbedingungen einer Skizze aus.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Rufe den Bearbeitungsmodus der Skizze auf.
-2.  Wähle **Skizze → Skizzierer Werkzeuge → [<img src=images/Sketcher_SelectConflictingConstraints.svg style="width   *16px"> Wähle im oberen Menü die Option Widersprüchliche Beschränkungen** aus.
-3.  Die widersprüchlichen Beschränkungen der Skizze werden ausgewählt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  In den Bearbeitungsmodus der Skizze wechseln.
+2.  Den Menüeintrag **Skizze → Skizzenwerkzeuge → [<img src=images/Sketcher_SelectConflictingConstraints.svg style="width   *16px"> Widersprüchliche Randbedingungen auswählen** auswählen.
+3.  Die widersprüchlichen Randbedingungen der Skizze werden ausgewählt.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

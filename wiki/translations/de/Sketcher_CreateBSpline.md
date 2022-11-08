@@ -34,7 +34,7 @@ Dieses Werkzeug erstellt eine offene B-Spline-Kurve aus ihren Kontrollpunkten. (
 ## Begrenzungen
 
 -   Viele Arten von Randbedingungen werden derzeit nicht unterstützt. Nur die Kontroll- und Endpunkte des B-Splines können festgelegt werden.
--   Die Werkzeuge [Zuschneiden](Sketcher_Trimming/de.md) und [Verlängern](Sketcher_Extend/de.md) werden nicht unterstützt.
+-   Die Werkzeuge [Teilen](Sketcher_Split/de.md) und [Verlängern](Sketcher_Extend/de.md) werden nicht unterstützt.
 -   Die Form einer B-Spline-Kurve kann nur durch Bewegen (eines) der Kontrollpunkte bearbeitet werden. Die auf der Kurve liegenden Knoten können nicht ausgewählt werden.
 
 

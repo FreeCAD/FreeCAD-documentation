@@ -50,6 +50,9 @@ Abhängig von der Auswahl werden einige Felder aktiviert oder bleiben deaktivier
 
 ### Lochschnitt
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Typ**   * Setzt den Typ des Lochschnitts   * *Kein* bedeutet kein Schnitt; andere Typen sind
 
 unterschiedliche Schraubennormen (<small>(v0.19)</small> ) und die beiden generischen Typen *Zylindersenkung* und \'\'Kegelsenkung.
@@ -57,6 +60,9 @@ unterschiedliche Schraubennormen (<small>(v0.19)</small> ) und die beiden generi
 -   **Durchmesser**   * Setzt den oberen Durchmesser (an der Skizzenebene) für den Lochschnitt.
 -   **Tiefe**   * Tiefe des Lochschnitts von der Skizzierebene gemessen.
 -   **Kegelsenkung Winkel**   * Winkel des konischen Lochschnitts. Nur anwendbar für Kegelsenkungen.
+
+
+</div>
 
 ### Bohrspitze
 

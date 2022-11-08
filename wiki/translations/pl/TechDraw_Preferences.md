@@ -67,6 +67,9 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 <img alt="Preferencje wymiarów" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Standard i wygląd**   * Norma stosowana dla wartości wymiarów. Różnica pomiędzy standardami przedstawiona jest na zdjęciu   * ![\|500px\|Różnice pomiędzy wspieranymi normami. *([źródło ilustracji](images/https   *//forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))*](TechDraw_Dimension_standardization.png )
 
    *   
@@ -88,6 +91,9 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 -   **Format Spec**   * formatuje tekst wymiarowy. Używa [specyfikator formatu printf](https   *//en.wikipedia.org/wiki/Printf_format_string).
 -   **Współczynnik zwiększenia odstępu - ISO**   * Odstęp między punktem wymiarowym a początkiem linii pomocniczych dla wymiarów ISO. {{Version/pl|1.0}}
 -   **Współczynnik zwiększenia odstępu - ASME**   * Odstęp pomiędzy punktem wymiarowym a początkiem linii pomocniczych dla wymiarów ASME. {{Version/pl|1.0}}
+
+
+</div>
 
 ## Adnotacje
 

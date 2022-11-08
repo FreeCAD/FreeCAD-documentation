@@ -26,7 +26,7 @@ This category contains python code examples for FreeCAD
 | [Scripted objects saving attributes/de](wiki/Scripted objects saving attributes/de.md) | [Scripted objects with attachment/de](wiki/Scripted objects with attachment/de.md) | [Scripted objects/de](wiki/Scripted objects/de.md) |
 | [Scripted Parts: Ball Bearing - Part 1/de](wiki/Scripted Parts_ Ball Bearing - Part 1/de.md) | [Scripted Parts: Ball Bearing - Part 2/de](wiki/Scripted Parts_ Ball Bearing - Part 2/de.md) | [Scripting and macros/de](wiki/Scripting and macros/de.md) |
 | [Scripts/de](wiki/Scripts/de.md) | [Svg Namespace/de](wiki/Svg Namespace/de.md) | [Topological data scripting/de](wiki/Topological data scripting/de.md) |
-| [Workbench creation/de](wiki/Workbench creation/de.md) |
+| [Viewprovider/de](wiki/Viewprovider/de.md) | [Workbench creation/de](wiki/Workbench creation/de.md) |
 
 
 

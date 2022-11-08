@@ -203,7 +203,7 @@
 
 </div>
 
-#### Additional Constraints Toolbars 
+#### Панель дополнительных ограничений 
 
    *   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width   *28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width   *28px;"> (Assembly3 Constraints2)
 
@@ -217,64 +217,64 @@
 <div class="mw-collapsible mw-collapsed">
 
 
-   *   You can enable these by selecting the **<img src="images/Assembly_ConstraintMore.svg‎‎" width=16px> [More](Assembly3_ConstraintMore.md)** button on the Main Constraints toolbar.
+   *   Их можно включить, нажав кнопку **<img src="images/Assembly_ConstraintMore.svg‎‎" width=16px> [More](Assembly3_ConstraintMore/ru.md)** на панели инструментов «Основные ограничения».
 
 
 <div class="mw-collapsible-content toccolours">
 
-   ** <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width   *32px;"> [Point distance](Assembly3_ConstraintPointDistance.md)   * Add a \"Point distance\" to constrain the distance of two points in 2D or 3D.
+   ** <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width   *32px;"> [Point distance](Assembly3_ConstraintPointDistance/ru.md)   * Добавьте \"Point distance\", чтобы ограничить расстояние между двумя точками в 2D или 3D.
 
-   ** <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width   *32px;"> [Equal angle](Assembly3_ConstraintEqualAngle.md)   * Add an \"Equal angle\" to equate the angles between two lines or normals.
+   ** <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width   *32px;"> [Equal angle](Assembly3_ConstraintEqualAngle/ru.md)   * Добавьте \"Equal angle\", чтобы приравнять углы между двумя линиями или нормалями.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width   *32px;"> [Points symmetric](Assembly3_ConstraintPointsSymmetric.md)   * Add a \"Points symmetric\" constraint to make two points symmetric about a plane.
+   ** <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width   *32px;"> [Points symmetric](Assembly3_ConstraintPointsSymmetric/ru.md)   * Добавьте ограничение \"Points symmetric\" чтобы сделать две точки симметричными относительно плоскости.
 
-   ** <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *32px;"> () [Symmetric horizontal](Assembly3_ConstraintSymmetricHorizontal.md)   * Symmetric horizontal
+   ** <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *32px;"> () [Symmetric horizontal](Assembly3_ConstraintSymmetricHorizontal/ru.md)   * Symmetric horizontal
 
-   ** <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *32px;"> () [Symmetric vertical](Assembly3_ConstraintSymmetricVertical.md)   * Symmetric vertical
+   ** <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *32px;"> () [Symmetric vertical](Assembly3_ConstraintSymmetricVertical/ru.md)   * Symmetric vertical
 
-   ** <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width   *32px;"> [Symmetric line](Assembly3_ConstraintSymmetricLine.md)   * Add a \"Symmetric line\" constraint to make two points symmetric about a line.
+   ** <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width   *32px;"> [Symmetric line](Assembly3_ConstraintSymmetricLine/ru.md)   * Добавьте ограничение \"Symmetric line\" чтобы сделать две точки симметричными относительно линии.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width   *32px;"> [Points horizontal](Assembly3_ConstraintPointsHorizontal.md)   * Add a \"Points horizontal\" constraint to make two points horizontal with each other when projected onto a plane.
+   ** <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width   *32px;"> [Points horizontal](Assembly3_ConstraintPointsHorizontal/ru.md)   * Add a \"Points horizontal\" constraint to make two points horizontal with each other when projected onto a plane.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width   *32px;"> [Points vertical](Assembly3_ConstraintPointsVertical.md)   * Add a \"Points vertical\" constraint to make two points vertical with each other when projected onto a plane.
+   ** <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width   *32px;"> [Points vertical](Assembly3_ConstraintPointsVertical/ru.md)   * Добавьте ограничение \"Points vertical\" чтобы сделать две точки горизонтальными относительно друг друга при проецировании на плоскость.
 
-   ** <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width   *32px;"> [Line horizontal](Assembly3_ConstraintLineHorizontal.md)   *Add a \"Line horizontal\" constraint to make a line segment horizontal when projected onto a plane.
+   ** <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width   *32px;"> [Line horizontal](Assembly3_ConstraintLineHorizontal/ru.md)   * Добавьте ограничение \"Line horizontal\" чтобы сделать сегмент линии горизонтальным в проекции на плоскость.
 
-   ** <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width   *32px;"> [Line vertical](Assembly3_ConstraintLineVertical.md)   * Add a \"Line vertical\" constraint to make a line segment vertical when projected onto a plane.
+   ** <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width   *32px;"> [Line vertical](Assembly3_ConstraintLineVertical/ru.md)   * Добавьте ограничение \"Line vertical\" чтобы сделать сегмент линии вертикальным при проецировании на плоскость.
 
-   ** <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width   *32px;"> [Arc line tangent](Assembly3_ConstraintArcLineTangent.md)   * Add an \"Arc line tangent\" constraint to make a line tangent to an arc at the start or end point of the arc.
+   ** <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width   *32px;"> [Arc line tangent](Assembly3_ConstraintArcLineTangent/ru.md)   * Добавьте зависимость \"Arc line tangent\" чтобы сделать линию касательной к дуге в начальной или конечной точке дуги.
 
-   ** <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width   *32px;"> [Sketch plane](Assembly3_ConstraintSketchPlane.md)   * Add a \"Sketch plane\" to define the work plane of any draft element inside or following this constraint.
+   ** <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width   *32px;"> [Sketch plane](Assembly3_ConstraintSketchPlane/ru.md)   * Добавьте \"Sketch plane\" (плоскость эскиза), чтобы определить рабочую плоскость любого элемента уклона внутри или после этого ограничения.
 
-   **   * Add an empty \"Sketch plane\" to undefine the previous work plane.
+   **   * Добавьте пустую \"плоскость эскиза\", чтобы отменить определение предыдущей рабочей плоскости.
 
-   ** <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width   *32px;"> [Line length](Assembly3_ConstraintLineLength.md)   * Add a \"Line length\" constrain the length of a non-subdivided Draft.Wire.
+   ** <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width   *32px;"> [Line length](Assembly3_ConstraintLineLength/ru.md)   * Добавление ограничения \"Line length\", определяющего длину неразделенного объекта Draft.Wire.
 
-   ** <img alt="" src=images/Assembly_ConstraintEqualLength.svg‎‎  style="width   *32px;"> [Equal length](Assembly3_ConstraintEqualLength.md)   * Add an \"Equal length\" constraint to make two lines of the same length.
+   ** <img alt="" src=images/Assembly_ConstraintEqualLength.svg‎‎  style="width   *32px;"> [Equal length](Assembly3_ConstraintEqualLength/ru.md)   * Добавьте ограничение \"Equal length\" (равная длина), чтобы сделать две линии одной длины.
 
-   ** <img alt="" src=images/Assembly_ConstraintLengthRatio.svg‎‎  style="width   *32px;"> [Length ratio](Assembly3_ConstraintLengthRatio.md)   * Add a \"Length ratio\" to constrain the length ratio of two lines.
+   ** <img alt="" src=images/Assembly_ConstraintLengthRatio.svg‎‎  style="width   *32px;"> [Length ratio](Assembly3_ConstraintLengthRatio/ru.md)   * Добавьте \"Length ratio\" чтобы ограничить соотношение длины двух линий.
 
-   ** <img alt="" src=images/Assembly_ConstraintLengthDifference.svg‎‎  style="width   *32px;"> [Length difference](Assembly3_ConstraintLengthDifference.md)   * Add a \"Length difference\" to constrain the length difference of two lines.
+   ** <img alt="" src=images/Assembly_ConstraintLengthDifference.svg‎‎  style="width   *32px;"> [Length difference](Assembly3_ConstraintLengthDifference/ru.md)   * Добавьте \"Length difference\" чтобы ограничить по разности длины двух линий.
 
-   ** <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg‎‎  style="width   *32px;"> [Length Equal Point Line Distance](Assembly3_ConstraintLengthEqualPointLineDistance.md)   * Add a \"Length Equal Point Line Distance\" to constrain the distance
+   ** <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg‎‎  style="width   *32px;"> [Length Equal Point Line Distance](Assembly3_ConstraintLengthEqualPointLineDistance/ru.md)   * Добавьте \"Length Equal Point Line Distance\" для ограничения дистанции
 
-   **   * between a point and a line to be the same as the length of a another line.
+   **   * между точкой и линией той же величиной, что длина другой линии.
 
-   ** <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *32px;"> ( <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg‎‎  style="width   *32px;"> )[Equal Line Arc Length](Assembly3_ConstraintEqualLineArcLength.md)   * Add an \"Equal Line Arc Length\" constraint to make a line of the same length as an arc.
+   ** <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width   *32px;"> ( <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg‎‎  style="width   *32px;"> )[Equal Line Arc Length](Assembly3_ConstraintEqualLineArcLength/ru.md)   * Добавьте ограничение \"Equal Line Arc Length\", чтобы сделать длину линии равной длине дуги.
 
-   ** <img alt="" src=images/Assembly_ConstraintMidPoint.svg‎‎  style="width   *32px;"> [Mid point](Assembly3_ConstraintMidPoint.md)   * Add a \"Mid point\" to constrain a point to the middle point of a line.
+   ** <img alt="" src=images/Assembly_ConstraintMidPoint.svg‎‎  style="width   *32px;"> [Mid point](Assembly3_ConstraintMidPoint/ru.md)   * Добавьте ограничение \"Mid point\" чтобы установить положение точки в середине линии.
 
-   ** <img alt="" src=images/Assembly_ConstraintDiameter.svg‎‎  style="width   *32px;"> [Diameter](Assembly3_ConstraintDiameter.md)   * Add a \"Diameter\" to constrain the diameter of a circle/arc.
+   ** <img alt="" src=images/Assembly_ConstraintDiameter.svg‎‎  style="width   *32px;"> [Diameter](Assembly3_ConstraintDiameter/ru.md)   * Добавьте \"Diameter\" чтобы ограничить диаметр окружности/дуги.
 
-   ** <img alt="" src=images/Assembly_ConstraintEqualRadius.svg‎‎  style="width   *32px;"> [Equal radius](Assembly3_ConstraintEqualRadius.md)   * Add an \"Equal radius\" constraint to make two circles/arcs of the same radius.
+   ** <img alt="" src=images/Assembly_ConstraintEqualRadius.svg‎‎  style="width   *32px;"> [Equal radius](Assembly3_ConstraintEqualRadius/ru.md)   * Добавьте ограничение \"Equal radius\" чтобы сделать равным радиусы двух окружностей/дуг.
 
-   ** <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg‎‎  style="width   *32px;"> [Points project distance](Assembly3_ConstraintPointsProjectDistance.md)   * Add a \"Points project distance\" to constrain the distance of two points projected on a line.
+   ** <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg‎‎  style="width   *32px;"> [Points project distance](Assembly3_ConstraintPointsProjectDistance/ru.md)   * Добавьте \"Points project distance\" чтобы ограничить спроецированное на линию расстояние между точками.
 
-   ** <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width   *32px;"> [Equal point line distance](Assembly3_ConstraintEqualPointLineDistance.md)   * Add an \"Equal point line distance\" to constrain the distance
+   ** <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width   *32px;"> [Equal point line distance](Assembly3_ConstraintEqualPointLineDistance/ru.md)   * Добавьте \"Equal point line distance\" чтобы ограничить дистанцию
 
-   **   * between a point and a line to be the same as the distance between another point and line.
+   **   * между точкой и линией равной дистанции между другой точкой и линией.
 
-   ** <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width   *32px;"> [Colinear](Assembly3_ConstraintColinear.md)   * Add a \"Colinear\" constraint to make two lines collinear.
+   ** <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width   *32px;"> [Colinear](Assembly3_ConstraintColinear/ru.md)   * Добавьте ограничение \"Colinear\" чтобы сделать две линии коллинеарными.
 
 
 </div>
@@ -457,15 +457,7 @@
 -   Перейдите на верстак <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part](Part_Workbench/ru.md) добавьте <img alt="" src=images/Part_Cylinder.svg  style="width   *16px;"> [Cylinder](Part_Cylinder/ru.md) и <img alt="" src=images/Part_Box.svg  style="width   *16px;"> [Cube](Part_Box/ru.md)
 -   <img alt="" src=images/Std_Save.svg  style="width   *16px;"> [Сохраните](Std_Save/ru.md) файл с любым именем, которое вам нравится. <img alt="" src=images/Std_CloseActiveWindow.svg  style="width   *16px;"> [Закройте](Std_CloseActiveWindow/ru.md) and <img alt="" src=images/Std_Open.svg  style="width   *16px;"> [откройте](Std_Open/ru.md) файл снова.
 
-\*   * Древовидное представление должно выглядеть так 
-```python
- Assembly
-   Constraints
-   Elements
-   Parts
- Cylinder
- Cube
-```
+Древовидное представление должно выглядеть так (0.20.pre и Link Branch)   *
 
 <img alt="" src=images/Assembly3_Example-Tree-01.png  style="width   *300px;"> <img alt="" src=images/Assembly3_Example-Tree-02.png  style="width   *280px;">
 
@@ -542,28 +534,29 @@ Assembly3 не предлагает смещение с константами, 
 Один из способов решить эту проблему - просто удалить все недопустимые ограничения и элементы, импортировать новую часть и все повторить. Но есть способ лучше   *
 
 -   Переименуйте файл
--   \# Используя файловый менеджер скопируйте файл, который хотите переименовать. Затем дайте копии новое имя.
--   \# Откройте копию в FreeCAD. Сборка и старый файл тоже должны быть открыты
--   \# Выберите старый объект в дереве и нажмите на поле для изменения свойства \"Linked object\" («Связанный объект») (оно должно содержать старое имя файла)
--   \# Откроется диалоговое окно со списком всех открытых деталей. Он показывает имена файлов и объекты каждой детали. Выберите старую деталь и объект. Найдите переименованную деталь в дереве и выберите тот же объект в новой детали. Затем подтвердите выбор.
--   \# Удалить старую деталь в дереве. Также можно удалить и файл.
--   \# Ограничения и элементы старой детали стали недействительными. Откройте ограничения или список элементов в дереве. Затем последовательно
--   \# \* выберите грани каждого элемента на новой детали. Элемент в дереве будет выделен.
--   \# \* Возьмите этот элемент и перетащите его на старый элемент (либо в списке элементов, либо в одном из ограничений, где он использовался). Этот элемент должен стать действительным.
--   \# \* Повторите процедуру для остальных элементов. Часто одного элемента достаточно, чтобы Assembly3 могла автоматически идентифицировать остальные элементы детали.
--   \# \* Если элемент был случайно назначен не той поверхности, просто повторите с правильной гранью.
--   \# При желании измените имя объекта в FreeCAD
+    1.  Используя файловый менеджер скопируйте файл, который хотите переименовать. Затем дайте копии новое имя.
+    2.  Откройте копию в FreeCAD. Сборка и старый файл тоже должны быть открыты
+    3.  Выберите старый объект в дереве и нажмите на поле для изменения свойства \"Linked object\" («Связанный объект») (оно должно содержать старое имя файла)
+    4.  Откроется диалоговое окно со списком всех открытых деталей. Он показывает имена файлов и объекты каждой детали. Выберите старую деталь и объект. Найдите переименованную деталь в дереве и выберите тот же объект в новой детали. Затем подтвердите выбор.
+    5.  Удалить старую деталь в дереве. Также можно удалить и файл.
+    6.  Ограничения и элементы старой детали стали недействительными. Откройте ограничения или список элементов в дереве. Затем последовательно
+        -   выберите грани каждого элемента на новой детали. Элемент в дереве будет выделен.
+        -   Возьмите этот элемент и перетащите его на старый элемент (либо в списке элементов, либо в одном из ограничений, где он использовался). Этот элемент должен стать действительным.
+        -   Повторите процедуру для остальных элементов. Часто одного элемента достаточно, чтобы Assembly3 могла автоматически идентифицировать остальные элементы детали.
+        -   Если элемент был случайно назначен не той поверхности, просто повторите с правильной гранью.
+    7.  При желании измените имя объекта в FreeCAD
 
 -   Замена детали другой деталью
 
        *   *на достаточно похожую деталь, чтобы исходные ограничения, конечно, все еще имели смысл*
--   \# Удалите старую деталь в дереве. Также можно удалить файл.
--   \# Ограничения и элементы старой детали стали недействительными. Откройте ограничение или список элементов в дереве.
--   \# \* Выберите грань элемента новой детали. Элемент в дереве будет выделен.
--   \# \* Возьмите этот элемент и перетащите его на старый элемент (либо в списке элементов, либо в одном из ограничений, где он использовался). Этот элемент должен стать действительным.
--   \# \* Повторите процедуру для остальных элементов.
--   \# \* Если элемент был случайно назначен не той поверхности, просто повторите с правильной гранью.
--   \# При желании измените имя объекта в FreeCAD
+
+    1.  Удалите старую деталь в дереве. Также можно удалить файл.
+    2.  Ограничения и элементы старой детали стали недействительными. Откройте ограничение или список элементов в дереве.
+        -   Выберите грань элемента новой детали. Элемент в дереве будет выделен.
+        -   Возьмите этот элемент и перетащите его на старый элемент (либо в списке элементов, либо в одном из ограничений, где он использовался). Этот элемент должен стать действительным.
+        -   Повторите процедуру для остальных элементов.
+        -   Если элемент был случайно назначен не той поверхности, просто повторите с правильной гранью.
+    3.  При желании измените имя объекта в FreeCAD
 
 \'\'Примечания
 \* Эти способы не такие сложные, как могут показаться. Через 2--3 применения они станут гармоничнее и станут легче в применении.

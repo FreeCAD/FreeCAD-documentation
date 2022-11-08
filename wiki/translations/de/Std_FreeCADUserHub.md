@@ -13,7 +13,13 @@
 
 Der Befehl **Std Benutzerdokumentation** öffnet die (engl.) Seite \"User hub\" im voreingestellten Internet-Browser (Dort können verschiedene Landessprachen ausgewählt werden). Der Befehl erfordert eine funktionierende Internetverbindung.
 
+
+<div class="mw-translate-fuzzy">
+
 Aktuell verweist dieser Befehl auf die Seite [<https   *//www.freecadweb.org/wiki/User_hub>](https   *//www.freecadweb.org/wiki/User_hub).
+
+
+</div>
 
 ## Anwendung
 

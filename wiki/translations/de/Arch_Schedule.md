@@ -29,13 +29,7 @@ Für eine allgemeinere Lösung siehe den [Auswertung Arbeitsbereich](https   *//
 
 ## Arbeitsablauf
 
-
-<div class="mw-translate-fuzzy">
-
-Zuerst musst du ein Modell haben. Hier ist zum Beispiel ein Dokument mit ein paar Objekten. Ich habe hier Arch Sachen gemacht, aber es muss nicht Arch sein, es kann alles sein.
-
-
-</div>
+Zuerst musst du ein Modell haben. Hier ist zum Beispiel ein Dokument mit einigen Arch-Objekten, aber andere Objekte werden auch unterstützt.
 
 ![](images/Arch_schedule_example01.jpg )
 

@@ -41,7 +41,7 @@ All equations have these properties   *
 
 -    **Label**   * Name of the equation in the tree view.
 
--    **Priority**   * Number determining the priority of this equation to the other equations in the analysis. The equation with the highest number in the analysis will be solved as first. If two equations have the same priority number, the one that is first in the tree view will solved first.
+-    **Priority**   * Number determining the priority of this equation to the other equations in the analysis. The equation with the highest number in the analysis will be solved as first. If two equations have the same priority number, the one that is first in the tree view will be solved first.
 
 -    **Stabilize**   * If set to *true*, the solver will use stabilized finite element method when solving the heat equation with a convection term. If set to *false*, the Residual Free Bubble (RFB) stabilization is used instead. If convection dominates, stabilization must be used in order to successfully solve the equation.
 

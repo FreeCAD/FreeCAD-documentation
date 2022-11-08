@@ -90,7 +90,7 @@ After the face is selected, click on the New sketch icon in the toolbar or from 
  ![](images/tut17_slot_unconstrained.png ) 
 
 1.  Right click to end the External geometry mode
-2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Coinstrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
+2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Constrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
 
  ![](images/tut17_slote_constrained.png ) 
 

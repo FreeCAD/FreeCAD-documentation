@@ -19,20 +19,14 @@ Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **[<img src=images/Sketcher_Split.svg style="width   *16px"> [Teilen](Sketcher_Split/de.md)** Taste. Der Mauszeiger verwandelt sich in ein weißes Kreuz mit einem roten Teilen Symbol.
-2.  Klicke auf die Kante an der Stelle, an der du sie teilen möchtest.
-3.  Aus den Linien- und Bogenkanten werden zwei neue erstellt, die an dem angeklickten Punkt verbunden werden. Ein Kreis wird in einen Bogen umgewandelt, der denselben Mittelpunkt und dieselben Beschränkungen wie der ursprüngliche Kreis hat.
+1.  Die Schaltfläche **[<img src=images/Sketcher_Split.svg style="width   *16px"> [Kante teilen](Sketcher_Split/de.md)** drücken. Der Mauszeiger verwandelt sich in ein weißes Kreuz mit einem roten Teilen-Symbol.
+2.  An der Stelle auf eine Kante klicken, an der sie geteilt werden soll.
+3.  Aus den Linien- und Bogenkanten werden zwei neue erstellt, die an dem angeklickten Punkt verbunden werden. Ein Kreis wird in einen Bogen umgewandelt, der denselben Mittelpunkt und dieselben Randbedingungen wie der ursprüngliche Kreis hat.
 4.  Durch Drücken von **Esc** oder der rechten Maustaste wird die Funktion beendet.
-
-
-</div>
 
 ## Begrenzungen
 
--   Für Ellipse, Parabel, Hyperbel und B-Splines wird der Prozess noch nicht unterstützt.
+-   Für Ellipse, Parabel, Hyperbel und B-Spline wird der Prozess noch nicht unterstützt.
 
 ## Hinweise
 

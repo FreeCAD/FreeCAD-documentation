@@ -5,9 +5,9 @@
 
 Un package [Ubuntu Snap](Ubuntu_Snap/fr.md), ou simplement [Snap](Ubuntu_Snap/fr.md) est un format de distribution similaire à [AppImage](AppImage/fr.md) en ce qu\'il est destiné à être un \"package installable universel\" pour déployer le logiciel pour les systèmes Linux. Les snaps ont été introduits par Ubuntu mais ils sont destinés à fonctionner dans toutes les distributions Linux tant que le démon Snap, ou `snapd`, est disponible dans le système cible.
 
-Un package Snap a deux caractéristiques principales   *
+Un package Snap a deux principales caractéristiques    *
 
--   Les programmes sont mis en bac à sable afin de ne pas interférer avec le reste du système d\'exploitation.
+-   Les programmes sont mis dans un bac à sable afin de ne pas interférer avec le reste du système d\'exploitation.
 -   Les programmes sont mis à jour automatiquement en arrière-plan afin d\'obtenir la dernière version de l\'application.
 
 Pour d\'autres façons d\'installer le logiciel, voir [Installation sous Linux](Installing_on_Linux/fr.md).
@@ -70,7 +70,7 @@ snap info freecad
 
 #### Changer entre différents snaps 
 
-A partir de la fin du cycle de la version 0.20, les mainteneurs snap de FreeCAD ont ajouté la possibilité de tester des versions expérimentales de FreeCAD. Les snaps permettent de le faire en basculant facilement entre différents snaps (la terminologie est \'[channels or tracks](https   *//snapcraft.io/docs/channels)\'). Par exemple    *
+A partir de la fin du cycle de la version 0.20, les mainteneurs snap de FreeCAD ont ajouté la possibilité de tester des versions expérimentales de FreeCAD. Les snaps permettent de le faire en basculant facilement entre différents snaps (la terminologie est \"[channels or tracks](https   *//snapcraft.io/docs/channels)\"). Par exemple    *
 
 Test de la branche Topological Naming (\'toponaming\') (créée au début du cycle de release v0.21/v1.0)    *
 
@@ -156,7 +156,7 @@ Plus d\'informations sur les efforts en cours pour gérer Snaps    *
 
 ## En relation 
 
--   [AppImage](AppImage/fr.md) - un autre format autonome de type \'binaire\' pour exécuter FreeCAD
+-   [AppImage](AppImage/fr.md) - un autre format autonome de type \"binaire\" pour exécuter FreeCAD
 -   Paquets [Flatpak](Flatpak/fr.md)
 
 

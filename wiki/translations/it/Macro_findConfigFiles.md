@@ -1,21 +1,15 @@
 # Macro findConfigFiles/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=findConfigFiles
 |Icon=Macro_findConfigFiles.png
 |Translate=Trova la cartella di configurazione
 |Description=Trova la cartella contenente i file di configurazione
 |Author=TheMarkster
-|Version=2018.09.10
-|Date=2018-09-10
+|Version=2022.03.15
+|Date=2022-03-15
 |FCVersion=All
 |Download=[https   *//www.freecadweb.org/wiki/images/b/b5/Macro_findConfigFiles.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -35,7 +29,7 @@ Nota   * la macro non rinomina i file e non apporta modifiche alle impostazioni.
 
 ## Script
 
-ToolBar icon ![](images/Macro_findConfigFiles.png )
+Icona barra strumenti ![](images/Macro_findConfigFiles.png )
 
 **Macro_findConfigFiles.FCMacro**
 

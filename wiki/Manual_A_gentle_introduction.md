@@ -7,7 +7,7 @@ FreeCAD makes extensive use of Python. With it, you can access and control almos
 
 ![](images/Exercise_python_01.jpg )
 
-But the Python console has another very important use   * Every time you press a toolbar button, or perform other operations in FreeCAD, some Python code is printed in the console and executed. By leaving the Python console open, you can literally see the Python code unfold as you work, and in no time, almost without knowing it, you will learning some of the Python language.
+But the Python console has another very important use   * Every time you press a toolbar button, or perform other operations in FreeCAD, some Python code is printed in the console and executed. By leaving the Python console open, you can literally see the Python code unfold as you work, and in no time, almost without knowing it, you will find yourself learning some of the Python language.
 
 FreeCAD also has a [macros system](Macros.md), which allows you to record actions to be replayed later. This system also uses the Python console, by simply recording everything that is done in it.
 
@@ -27,7 +27,7 @@ Let\'s start by creating a new empty document   *
 
 doc = FreeCAD.newDocument()
 
-If you type this in the FreeCAD Python console, you will notice that as soon as you type \"FreeCAD.\" (the word FreeCAD followed by a dot), a windows pops up, allowing to quickly autocomplete the rest of your line. Even better, each entry in the autocomplete list has a tooltip explaining what it does. This makes it very easy to explore the functionality available. Before choosing \"newDocument\", have a look at the other options available.
+If you type this in the FreeCAD Python console, you will notice that as soon as you type \"FreeCAD.\" (the word FreeCAD followed by a dot), a window pops up, allowing you to quickly autocomplete the rest of the line. Even better, each entry in the autocomplete list has a tooltip explaining what it does. This makes it very easy to explore the functionality available. Before choosing \"newDocument\", have a look at the other options available.
 
 ![](images/Exercise_python_02.jpg )
 
@@ -45,7 +45,7 @@ Our box is added in the tree view, but nothing happens in the 3D view yet, becau
 
 doc.recompute()
 
-Now our box has appeared in the 3D view. Many of the toolbar buttons that add objects in FreeCAD actually do two things   * add the object, and recompute. If you turned on the \"show script commands in Python console\" option above, try now adding a sphere with the appropriate button in the Part Workbench, and you will see the two lines of Python code being executed one after the other.
+Now our box has appeared in the 3D view. Many of the toolbar buttons that add objects in FreeCAD actually do two things   * add the object, and recompute. If the option to **Show script commands in Python console** is enabled in **Edit → Preferences → General → Macro**, try now adding a sphere with the appropriate button in the Part Workbench, and you will see the two lines of Python code being executed one after the other.
 
 You can get a list of all possible object types like Part   *   *Box   *
 

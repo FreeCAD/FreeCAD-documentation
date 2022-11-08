@@ -38,6 +38,13 @@ The goal is to *not* duplicate the following assembly logic for each table leg v
 
 1.  Each table leg must appear **four** times underneath each corner of the table top.
 
+How this is accomplished   *
+
+1.  The TableTop and one of the TableLeg objects (Round or Square) are linked into the Table document.
+2.  The TableLeg link is renamed to \TableLeg\ and the \"Linked Object\" property is changed to the following conditional expression   *
+    1.  >._self
+3.  Each table leg must appear **four** times underneath each corner of the table top so an [orthogonal array](Draft_OrthoArray.md) is created using the parametric \TableLeg\ link as a base object.
+
 💡 The full example and all files are available to download as a git repository from GitHub   *
 
 <https   *//github.com/gbroques/freecad-dynamic-linked-object>

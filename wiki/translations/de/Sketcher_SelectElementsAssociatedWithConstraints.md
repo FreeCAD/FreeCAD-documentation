@@ -1,31 +1,24 @@
-# Sketcher SelectElementsAssociatedWithConstraints/de
 ---
-- GuiCommand   */de   Name   *Sketcher SelectElementsAssociatedWithConstraints   Name/de   *Sketcher SelectElementsAssociatedWithConstraints   Workbenches   *[[Sketcher Workbench   Sketcher]]|MenuLocation   *Sketch → Sketcher tools → Select Elements Associated with constraints   Shortcut   *Shift+Ctrl+E   SeeAlso   *   Version   *0.15---
+- GuiCommand   */de
+   Name   *Sketcher SelectElementsAssociatedWithConstraints
+   Name/de   *Sketcher SelectElementsAssociatedWithConstraints
+   MenuLocation   *Skizze → Skizzenwerkzeuge → Zugehörige Geometrie auswählen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***Z** **E**
+   Version   *0.15
+---
 
-
-</div>
+# Sketcher SelectElementsAssociatedWithConstraints/de
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Wählt Sketcher-Elemente aus, die mit Beschränkungen versehen sind.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Wählt Skizzenelemente aus, die mit Randbedingungen versehen sind.
 
 ## Anwendung
 
-
-</div>
-
-1.  Select constraint in the [task panel](Task_panel.md) or in the [3D view](3D_view.md).
-2.  Click on **[<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width   *16px"> [Select associated geometry](Sketcher_SelectElementsAssociatedWithConstraints.md)** or choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width   *16px"> Select associated geometry** from the top menu.
-3.  The associated sketcher elements will be highlighted in the [task panel](Task_panel.md).
+1.  Eine Randbedinung im [Aufgabenbereich](Task_panel/de.md) oder in der [3D-Ansicht](3D_view/de.md) auswählen.
+2.  Die Schaltfläche **[<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width   *16px"> [Zugehörige Geometrie auswählen](Sketcher_SelectElementsAssociatedWithConstraints/de.md)** oder den Menüeintrag **Skizze → Skizzenwerkzeuge → [<img src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg style="width   *16px"> Zugehörige Geometrie auswählen** auswählen.
+3.  Die zugehörigen Geometrien werden im [Aufgabenbereich](Task_panel/de.md) hervorgehoben.
 
 
 

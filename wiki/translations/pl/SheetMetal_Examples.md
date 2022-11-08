@@ -372,6 +372,86 @@ Wartości {{value|Outer Sharp}} i {{value|Tangential}} są identyczne dla kątó
 
 </div>
 
+
+<div class="mw-collapsible mw-collapsed">
+
+### Extend object <img alt="" src=images/SheetMetal_Extrude.svg  style="width   *24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+An Extend object extends a sheet metal plate at one or more selected edge faces or edges.
+
+<img alt="" src=images/SheetMetal_Example-10a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10b.png  style="width   *200px;">
+
+
+
+*Selected edge face and edges + 
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)* 
+→ One Extend object with default settings.**
+
+A first issue occurs here   * Although the property **Refine** is set to `True` two of the extensions still show their seam lines. Only the extension of the last selected element will be refined.
+
+To refine all extensions they have to be created separately   *
+
+<img alt="" src=images/SheetMetal_Example-10c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10f.png  style="width   *200px;">
+
+
+
+*3x Selected edge face or edge + 
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)* 
+→ Three Extend objects completely refined and with default settings.**
+
+Altered properties apply to all edges listed in the related **base Object** of the Extension object.
+
+Edit **length** to adjust the length of the extension.
+
+<img alt="" src=images/SheetMetal_Example-10h.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-10g.png  style="width   *200px;">
+
+
+
+*Edit **gap1* and {{PropertyData|gap2** to reduce the width of the extension.<br>
+Left   * Extension object with 3 edges. Right   * One of the Extension objects with one single edge.}}
+
+Link a sketch to the property **Sketch** to shape an extension. The properties **length**, **gap1** and **gap2** will be ignored once a sketch is linked. (This seems not to work with still unbent blanks).
+
+<img alt="" src=images/SheetMetal_Example-10i.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10j.png  style="width   *200px;">
+
+
+
+*A selected sketch lying on the flange to be extended → Resulting extension*
+
+It is plain to see that it doesn\'t matter which edge was selected for the Extend object, the shape of the flange is changed wherever sketch geometry protrudes, the new shape can even contain parts that are disconnected from the original flange. Multiple outlines are no problem, but the flange is not cut into.
+
+This example shows that designers are responsible for their construction and shouldn\'t rely on the results of their tools, which do not make sense in this case. The Sketch attached to a flange face is problematic as well due to the toponaming problem, but for this a solution is in sight.
+
+But there are better use cases for this tool involving almost closed shapes such as one of the examples on the [SheetMetal Extrude](SheetMetal_Extrude.md) page   *
+
+<img alt="" src=images/SheetMetal_Example-10k.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10l.png  style="width   *200px;">
+
+
+
+*An almost closed profile → The added default extension is fused with the opposite side creating a closed profile (a tube) that is not unfoldable*
+
+<img alt="" src=images/SheetMetal_Example-10l.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10m.png  style="width   *200px;">
+
+
+
+*Link a rectangular sketch to the property **Sketch*   * Closed profile → Profile with rectangular extension, still fused**
+
+<img alt="" src=images/SheetMetal_Example-10m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10n.png  style="width   *200px;">
+
+
+
+*Switch **Use Subtraction* to {{true** to provide a (hardly visible) default gap between the Extension object and the opposite side, then increase **Offset** to widen the gap   *<br>
+Fused profile → Profile with interlocking extension, this final result is unfoldable}}
+
+
+</div>
+
+
+</div>
+
 [Category   *SheetMetal](Category_SheetMetal.md) [Category   *Addons](Category_Addons.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 

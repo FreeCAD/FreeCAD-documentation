@@ -25,7 +25,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Fillet](Draft_Fillet.md)   * creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [Draft Lines](Draft_Line.md).
 
--   <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> Arc tools
+-   <img alt="" src=images/Draft_Arc.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Arc tools   *
 
    ** <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Arc](Draft_Arc.md)   * creates a circular arc from a center, a radius, a start angle and an aperture angle.
 
@@ -41,7 +41,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_BSpline.svg  style="width   *32px;"> [B-spline](Draft_BSpline.md)   * creates a B-spline curve from several points.
 
--   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> Bézier tools
+-   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Bézier tools   *
 
    ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Cubic Bézier curve](Draft_CubicBezCurve.md)   * creates a Bézier curve of the third degree.
 
@@ -83,7 +83,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_Clone.svg  style="width   *32px;"> [Clone](Draft_Clone.md)   * creates linked copies, clones, of selected objects.
 
--   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> Array tools
+-   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Array tools   *
 
    ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Array](Draft_OrthoArray.md)   * creates an orthogonal array from a selected object. It can optionally create a [Link](App_Link.md) array.
 

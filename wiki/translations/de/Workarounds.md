@@ -186,26 +186,17 @@ Das Ziel dieses Artikels ist es, einige zurzeit fehlende Funktionen von FreeCAD 
 | 7           | Exclude ribs from hatching                                                                                     | -   In some cases it might be sufficient to use the first workaround mentioned here and manually create a section with a custom cutting line                                                                                                                                  |
 ++++
 | 8           | Export of TechDraw pages as PDF without making the text from the template (path text) unmarkable/unsearchable. | -   Export the page as SVG. Then convert the SVG to PDF by using e.g. [Inkscape](http   *//www.inkscape.org) or open the SVG in a web browser and then save or print as PDF.                                                                                                     |
-|             |                                                                                                                |                                                                                                                                                                                                                                                                               |
-|             |                                                                                                                |                                                                                                                                                                                                                                                                     |
-|             |                                                                                                                | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                              |
-|             |                                                                                                                |                                                                                                                                                                                                                                                                            |
 ++++
-
-
-</div>
-
-\|- \| 10 \| Modify regular and section views using sketching tools \|
-
--   Manually create and modify the views   *
-    1.  If a section view has to be modified, use the [Part SectionCut](Part_SectionCut.md) tool or boolean operations to cut the part in the same way as it would be done by the [section view](TechDraw_SectionView.md) tool
-    2.  Use the [Draft Shape2DView](Draft_Shape2DView.md) tool to create a 2D line representation of the view or section view
-    3.  Use the [Drafting](Draft_Workbench#Drafting.md) tools with proper [snaps](Draft_Workbench#Draft_Snap_toolbar.md) to modify the view
-    4.  Use the [Draft Draft2Sketch](Draft_Draft2Sketch.md) tool to create a sketch out of the Draft objects
-    5.  Use the [Sketcher ValidateSketch](Sketcher_ValidateSketch.md) tool to make sure that the sketch has no missing coincidences, doubled lines and so on (those issues may impact the face selection in TechDraw)
-    6.  Use the [TechDraw View](TechDraw_View.md) tool to create a view of the sketch in TechDraw.
-
-\|}
+| 9           | [Rechteckauswahl](Std_BoxSelection/de.md) von TechDraw-Ojekten                                         | -   Objekte manuell auswählen, eins nach dem anderen (dabei Strg gedrückt halten)                                                                                                                                                                                             |
+++++
+| 10          | Modify regular and section views using sketching tools                                                         | -   Manually create and modify the views   *                                                                                                                                                                                                                                     |
+|             |                                                                                                                |     1.  If a section view has to be modified, use the [Part SectionCut](Part_SectionCut.md) tool or boolean operations to cut the part in the same way as it would be done by the [section view](TechDraw_SectionView.md) tool                                |
+|             |                                                                                                                |     2.  Use the [Draft Shape2DView](Draft_Shape2DView.md) tool to create a 2D line representation of the view or section view                                                                                                                                         |
+|             |                                                                                                                |     3.  Use the [Drafting](Draft_Workbench#Drafting.md) tools with proper [snaps](Draft_Workbench#Draft_Snap_toolbar.md) to modify the view                                                                                                                   |
+|             |                                                                                                                |     4.  Use the [Draft Draft2Sketch](Draft_Draft2Sketch.md) tool to create a sketch out of the Draft objects                                                                                                                                                          |
+|             |                                                                                                                |     5.  Use the [Sketcher ValidateSketch](Sketcher_ValidateSketch.md) tool to make sure that the sketch has no missing coincidences, doubled lines and so on (those issues may impact the face selection in TechDraw)                                                 |
+|             |                                                                                                                |     6.  Use the [TechDraw View](TechDraw_View.md) tool to create a view of the sketch in TechDraw.                                                                                                                                                                    |
+++++
 
 ## Workarounds für den Arbeitsbereich FEM 
 

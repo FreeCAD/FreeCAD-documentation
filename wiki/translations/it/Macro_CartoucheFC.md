@@ -1,21 +1,15 @@
 # Macro CartoucheFC/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro CartoucheFC
 |Translate=Cartiglio
 |Icon=Macro_CartoucheFC.png
-|Description=Questa macro è una applicazione completa che permette di compilare la tabella del foglio di disegno fornito con FreeCAD. (Per il modulo [Drawing](Drawing_Workbench/it.md)).
+|Description=Questa macro è una applicazione completa che permette di compilare la tabella del foglio di disegno fornito con FreeCAD. (Per l'[Ambiente Drawing](Drawing_Workbench/it.md)).
 |Author=Mario52
 |Version= 0.3
 |Date=2014-07-02
 |FCVersion=Tutte versioni usando Drawing Workbench
 |Download=[https   *//www.freecadweb.org/wiki/images/0/0a/Macro_CartoucheFC.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Descrizione
 
@@ -28,17 +22,11 @@ I campi della data e dell\'ora sono separati dal trattino \"meno\" e si trovano 
 I campi in rosso sono i campi editabili, i **\"freecad   *editable\"** , i campi in verde contengono le annotazioni precompilate inserite nel modello.
 Vedere anche la [versione](Macro_CartoucheFC_Full/it.md) con tutti i campi di testo editabili.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo
 
 **Per il momento, modificare la pagine A3_Landscape.svg con [Inkscape](http   *//inkscape.org/?lang=fr) può disturbare il buono funzionamento del programma. Se volete togliere il simbolo di regione (circolo e trapezio) dal foglio, lavorate su una copia di A3_Landscape.svg ! Lo stesso problema si trova anche su FreeCAD**
 
 **Notare   * Non sono accettati alcuni caratteri come & \$ (e forse anche altri caratteri speciali).**
-
-
-</div>
 
 Se desiderate avere una funzione, potete farne richiesta nel forum [Remplir cartouche](http   *//forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 

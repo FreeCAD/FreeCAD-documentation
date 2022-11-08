@@ -32,7 +32,30 @@ For Python workbenches, you don\'t need any specific approval to have your workb
 
 If you develop a workbench in C++, it cannot be run directly by users and must be compiled first. You then have two options, either you provide precompiled versions of your workbench yourself, for the different operating systems, or you should request to have your code merged into the FreeCAD source code. For that, you should use the LGPL license (or a fully compatible license like MIT or BSD), and you must present your new tools to the community in the [FreeCAD forum](https   *//forum.freecadweb.org) for review. Once your code has been tested and approved, you should fork the FreeCAD repository, if not done yet, create a new branch, push your code to it, and open a pull request so that your branch is merged into the main repository.
 
- 
+
+
+## Adding a WorkBench to the AddOn Manager 
+
+-   Activate AddOn Manager \"developer mode\"
+    -   Go to **Edit \> Settings \> Preference \> AddOn Manager** at the bottom of the Preferences page, there is checklist.
+    -   This will give you a new button in the Addon Manager that will help you to create your Addon\'s \*package.xml\* file.
+-   Create package.xml file
+    -   Hit the **+** and create a single workbench.
+    -   Check the box to indicate it\'s the only item in the addon.
+    -   Set the class name to the addon main class name.
+    -   Set subdirectory to **\"./\"**.
+    -   Everything else should be optional.
+
+### Add it the .gitmodules file. 
+
+-   Fork <https   *//github.com/FreeCAD/FreeCAD-addons/>.
+-   Create a new branch
+-   Edit **.gitmodules** file to include your new Addon, in alphabetical order.
+-   Push that new branch to GitHub.
+-   Submit a Pull Request to the FreeCAD-Addons repo with the new **.gitmodules** file.
+
+
+
 
 [Category   *Addons](Category_Addons.md)
 

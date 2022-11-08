@@ -39,6 +39,8 @@ Ce sont les outils pour créer des objets Vues.
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Vue en coupe](TechDraw_SectionView/fr.md)    * ajoute une vue en coupe à partir d\'une vue existante.
 
+-   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
+
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width   *32px;"> [Vue détaillée](TechDraw_DetailView/fr.md)    * ajoute une vue détaillée d\'une partie d\'une vue existante.
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width   *32px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md)    * ajoute une vue d\'un objet [Draft](Draft_Workbench/fr.md).

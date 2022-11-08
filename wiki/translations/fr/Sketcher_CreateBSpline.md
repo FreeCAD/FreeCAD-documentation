@@ -34,7 +34,7 @@ Cet outil trace une courbe B-spline à partir de ses points de contrôle. (Voir 
 ## Limitations
 
 -   De nombreux types de contraintes ne sont pas pris en charge pour le moment. Seuls les points de contrôle et les points d\'extrémité de la B-spline peuvent être contraints.
--   Les outils [ajuster l\'arête](Sketcher_Trimming/fr.md) et [prolonger l\'arête](Sketcher_Extend/fr.md) ne sont pas pris en charge.
+-   Les outils [Diviser](Sketcher_Split/fr.md) et [Prolonger l\'arête](Sketcher_Extend/fr.md) ne sont pas pris en charge.
 -   La forme d\'une courbe B-spline ne peut être modifiée qu\'en faisant glisser l\'un des points de contrôle. Les nœuds situés sur la courbe ne peuvent pas être sélectionnés.
 
 

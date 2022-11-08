@@ -27,11 +27,11 @@ For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer
 
 The heat equation provides these special settings   *
 
--    **Bubbles**   * There is also a residual-free-bubbles formulation of the stabilized finite-element method. It is more accurate and does not include any ad hoc terms. However, it may be computationally more expensive. If both **Bubbles** and **[Stabilize](FEM_SolverElmer_SolverSettings#Base.md)** are *false*, no stabilization is used and then the results might easily be nonsensical.
+-    **Bubbles**   * There is also a residual-free-bubbles formulation of the stabilized finite-element method. It is more accurate and does not include any ad hoc terms. However, it may be computationally more expensive. If both **Note**   * If during the *first solver iteration* you get this error   * ERROR   *   * IterSolve   * Numerical Error   * System diverged over maximum tolerance.The **Bubbles** method failed. In this case set **[Stabilize](FEM_SolverElmer_SolverSettings#Base.md)** to *true*.
 
 Equation   *
 
--    **Convection**   * The type of convection to be used in the heat equation.
+-    **Convection**   * The type of convection to be used in the heat equation.**Note**   * If this is not set to *None*, **[Stabilize](FEM_SolverElmer_SolverSettings#Base.md)** must be to *true* otherwise the convection term will not be considered for the heat equation.
 
 -    **Phase Change Model**   * The model use for phase changes (ice to water etc.). The model *Spatial 1* is the apparent-heat-capacity method, *Spatial 2* and *Temporal* are effective-heat-capacity methods.For more info about the models, see [this paper](https   *//blog.rwth-aachen.de/gfd/files/2017/07/BT_2013_Schueller_elmer_icemole.pdf) (section 2.5.2.2) (is in German). In the paper it was also shown that *Spatial 1* has numerical problems on larger temperature gradients and that *Spatial 2* was preferred for the phase change ice to water.
 
@@ -45,7 +45,7 @@ The elasticity equation takes the following constraints into account if they are
 
 ### Note
 
-For the temperature constraints it is important that they act on a face. Constraints set to lines or vertices are not recognized by the Elmer solver.
+Except for calculations in 2D, for all above constraints it is important that they act on a face or a body. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
 
 ## Result
 

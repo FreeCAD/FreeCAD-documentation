@@ -28,6 +28,8 @@ Il <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> [Tratteggi
 
 Di solito le tessere SVG sono delle immagini di **64x64** pixel. Tutti i file di pattern forniti con FreeCAD sono disponibili su [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
+Bitmap based patterns are displayed with a fixed resolution of 10 px/mm relative to the page.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -36,7 +38,7 @@ I riempimenti di tratteggio predefiniti possono essere specificati nelle [Prefer
 
 </div>
 
-### Available patterns 
+### Available SVG patterns 
 
 Image   *Aluminium.svg\|aluminium Image   *Brick01.svg\|brick01 Image   *Concrete.svg\|concrete Image   *Cross.svg\|cross Image   *Cuprous.svg\|cuprous Image   *Diagonal1.svg\|diagonal1 Image   *Diagonal2.svg\|diagonal2 Image   *Earth.svg\|earth Image   *General_steel.svg\|general_steel Image   *Glass.svg\|glass Image   *Hatch45L.svg\|hatch45L Image   *Hatch45R.svg\|hatch45R Image   *Hbone.svg\|hbone Image   *Line.svg\|line Image   *Plastic.svg\|plastic Image   *Plus.svg\|plus Image   *Simple.svg\|simple Image   *Solid.svg\|solid Image   *Square.svg\|square Image   *Steel.svg\|steel Image   *Titanium.svg\|titanium Image   *Wood.svg\|wood Image   *Woodgrain.svg\|woodgrain Image   *Zinc.svg\|zinc
 

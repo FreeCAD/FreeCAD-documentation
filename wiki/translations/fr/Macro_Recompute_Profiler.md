@@ -18,7 +18,7 @@ Cette macro a pour but de vous aider à trouver les caractéristiques qui causen
 
 Cette macro requiers FreeCAD 0.17.10644 ou plus
 
-Sauvez la macro dans un fichier
+Sauvegardez la macro dans un fichier.
 
 1\. Ouvrez votre projet
 
@@ -159,7 +159,7 @@ run()
 
 ## Résultats du post-traitement 
 
-La sortie de la macro sera entrelacée avec les messages généraux générés par le recalcul des fonctionnalités. Cela ressemble généralement à ceci   *
+Le résultat de la macro sera entrecoupée de messages généraux produits par le recalcul des fonctions. Cela ressemble généralement à ceci    *
 
 
 {{code|code=
@@ -206,9 +206,9 @@ Le résultat des lignes ont une signature facilement séparable   * elles commen
 
 ## Version de FreeCAD 
 
-Cette macro nécessite FreeCAD 0.17.10644 ou plus, qui sont les versions où App.ActiveDocument.RecomputesFrozen est disponible. Elle ne fonctionnera pas avec la version v0.16.
+Cette macro nécessite FreeCAD 0.17.10644 ou plus, qui sont les versions où App.ActiveDocument.RecomputesFrozen est devenu disponible. Elle peut être fonctionnelle avec un FreeCAD un peu plus ancien, mais ne fonctionnera certainement pas avec la version 0.16.
 
-Cette macro a été créée avec cette version de FreeCAD   *
+Cette macro a été créée avec cette version de FreeCAD    *
 
 
 ```python

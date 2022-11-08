@@ -5,7 +5,7 @@
 
 FreeCAD è stato costruito fin dall\'inizio per essere totalmente controllato tramite gli script Python.
 
-Quasi tutte le parti di FreeCAD, come ad esempio l\'interfaccia oppure i contenuti della scena, compresa la rappresentazione di quanto contenuto nelle viste 3D, sono accessibili tramite l\'interprete Python incorporato o tramite script personali.
+Quasi tutte le parti di FreeCAD, come ad esempio l\'interfaccia oppure i contenuti della finestra, compresa la rappresentazione di quanto contenuto nelle viste 3D, sono accessibili tramite l\'interprete Python incorporato o tramite script personali.
 
 Per questo, FreeCAD risulta probabilmente una delle applicazioni ingegneristiche più profondamente personalizzabili oggi disponibili.
 
@@ -23,7 +23,7 @@ La schermata seguente mostra l\'interprete Python di FreeCAD   *
 
 ![The FreeCAD Python interpreter](images/screenshot_pythoninterpreter.jpg )
 
-Tramite l\'interprete è possibile eseguire del codice Python e sfogliare le classi e le funzioni disponibili.
+Tramite l\'interprete è possibile eseguire del codice Python ed esplorare le classi e le funzioni disponibili.
 
 FreeCAD fornisce un browser delle classi molto utile per esplorare il nuovo mondo di FreeCAD.
 
@@ -45,212 +45,84 @@ Per navigare nella cronologia dei comandi, basta usare i tasti **Freccia sù** o
 
 Cliccando col tasto destro nella finestra dell\'interprete, si rendono disponibili diverse altre opzioni, quali, ad esempio, copiare lo storico (l\'intera cronologia, cosa utile quando si desidera sperimentare qualcosa prima di utilizzarla in uno script) oppure inserire un nome di un file con il suo percorso completo. {{Top}}
 
+### Help di Python 
 
-<div class="mw-translate-fuzzy">
+Nel menu **Help** di FreeCAD, troverai una voce denominata **Automatic python modules documentation**, che aprirà una finestra del browser contenente una documentazione completa e generata in tempo reale di tutti i moduli Python disponibili per l\'interprete di FreeCAD, inclusi i moduli integrati di Python e FreeCAD, i moduli installati dal sistema e i moduli aggiuntivi di FreeCAD. La documentazione lì disponibile dipende da quanto sforzo ogni sviluppatore di moduli ha fatto per documentare il suo codice, ma i moduli Python hanno la reputazione di essere abbastanza ben documentati. La finestra di FreeCAD deve rimanere aperta affinché questo sistema di documentazione funzioni. {{Top}}
 
-### Aiuti di Python 
+## Moduli incorporati 
 
-Nel menu *Aiuto* di FreeCAD, trovate una voce denominata *Documentazione automatica per i moduli Python*, essa apre una finestra del browser contenente una documentazione completa, generata in tempo reale, di tutti i moduli Python a disposizione dell\'interprete di FreeCAD, compreso Python e i moduli interni di FreeCAD, i moduli installati dal sistema e i moduli aggiuntivi di FreeCAD.
+Poiché FreeCAD è progettato in modo da poter essere eseguito anche senza un\'interfaccia utente grafica (GUI), quasi tutte le sue funzionalità sono separate in due gruppi   * funzionalità principale, denominata `App`, e funzionalità GUI, denominata {{incode |Gui}}. È possibile accedere a questi due moduli anche da script esterni all\'interprete, rispettivamente con i nomi `FreeCAD` e `FreeCADGui`.
 
-La documentazione disponibile dipende dalla fatica che lo sviluppatore del modulo ha fatto per documentare il proprio codice. I moduli Python hanno la reputazione di essere in genere abbastanza ben documentati. La finestra di FreeCAD deve rimanere aperta perché questo sistema di documentazione funzioni.
+-   Nel modulo `App`, si trova tutto ciò che riguarda l\'applicazione stessa, cioè i metodi per l\'apertura o la chiusura di file e documenti, oppure l\'impostazione del documento attivo o la visualizzazione dei contenuti.
 
-La voce \"Python Help\" fornisce un collegamento rapido alla sezione wiki \"User Hub\".
+-   Nel modulo `Gui`, si trovano gli strumenti per accedere e gestire gli elementi dell\'interfaccia grafica (GUI), cioè gli ambienti di lavoro e le loro barre degli strumenti e, più interessante, la rappresentazione grafica di tutti i contenuti di FreeCAD.
 
+Elencare il contenuto di questi moduli non è molto utile perché crescono abbastanza velocemente con lo sviluppo di FreeCAD. Ma i due strumenti di navigazione forniti (il browser di classe e la guida di Python) dovrebbero fornire una documentazione completa e aggiornata in qualsiasi momento. {{Top}}
 
-</div>
+### Gli oggetti App e GUI 
 
-In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section. {{Top}}
+Come già accennato, in FreeCAD tutto è separato in core e representation. Ciò include gli oggetti 3D. Si può accedere alle proprietà di definizione degli oggetti (chiamate funzionalità in FreeCAD) tramite il modulo `App` e modificare il modo in cui sono rappresentate sullo schermo tramite il modulo `Gui`. Ad esempio, un cubo ha proprietà che lo definiscono (come larghezza, lunghezza, altezza) che sono archiviate in un oggetto `App` e proprietà di rappresentazione (come il colore delle facce, la modalità di disegno) che sono archiviate in un corrispondente oggetto `Gui`.
 
+Questo modo di fare le cose consente una vasta gamma di operazioni, come gli algoritmi che funzionano solo sulla parte di definizione delle caratteristiche, senza la necessità di prendersi cura di nessuna parte visiva, e consente anche di reindirizzare il contenuto del documento ad applicazioni non-grafiche, quali, ad esempio, elenchi, fogli di calcolo, o analisi degli elementi.
 
-<div class="mw-translate-fuzzy">
+Per ogni oggetto `App` nel tuo documento, esiste un oggetto `Gui` corrispondente. Infatti il ​​documento stesso ha sia un oggetto `App` che un oggetto `Gui`. Questo, ovviamente, si applica solo quando esegui FreeCAD con la sua interfaccia completa. Nella versione da riga di comando non esiste una GUI, quindi sono disponibili solo oggetti `App`. Nota che la parte `Gui` degli oggetti viene rigenerata ogni volta che un oggetto `App` viene contrassegnato come \'da ricalcolare\' (ad esempio quando uno dei suoi parametri cambia), quindi qualsiasi modifica fatta direttamente all\'oggetto `Gui` potrebbe andare persa.
 
-## Moduli incorporati (Built-in) 
-
-Dato che FreeCAD è stato progettato per essere eseguito senza una interfaccia grafica (GUI), quasi tutte le sue funzionalità sono divise in due parti   * la funzionalità di base, denominata *App*, e la funzionalità grafica, denominata *Gui*. Per questo motivo i due principali moduli incorporati nel nostro FreeCAD sono chiamati App e Gui. Questi due moduli sono accessibili, rispettivamente con il nome \"FreeCAD\" e \"FreeCADGui\", anche tramite script eseguiti al di fuori dell\'interprete.
-
-
-</div>
-
-Since FreeCAD is designed so that it can also be run without a Graphical User Interface (GUI), almost all its functionality is separated into two groups   * Core functionality, named `App`, and GUI functionality, named `Gui`. These two modules can also be accessed from scripts outside of the interpreter, by the names `FreeCAD` and `FreeCADGui` respectively.
-
-
-<div class="mw-translate-fuzzy">
-
--   Nel modulo **App**, si trova tutto ciò che riguarda l\'applicazione stessa, cioè i metodi per l\'apertura o la chiusura di file e documenti, oppure l\'impostazione del documento attivo o la visualizzazione dei contenuti.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Nel modulo **Gui**, si trovano gli strumenti per accedere e gestire gli elementi dell\'interfaccia grafica (GUI), cioè gli ambienti di lavoro e le loro barre degli strumenti e, più interessante, la rappresentazione grafica di tutti i contenuti di FreeCAD.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Elencare tutto il contenuto di tali moduli è un lavoro un po\' controproducente, in quanto essi crescono molto velocemente seguendo lo sviluppo di FreeCAD.
-
-I due strumenti di esplorazione disponibili (il browser delle classi e l\'aiuto di Python) dovrebbero dare, in qualsiasi momento, una completa e aggiornata documentazione di questi moduli.
-
-
-</div>
-
-
-{{Top}}
-
-
-<div class="mw-translate-fuzzy">
-
-### Gli oggetti App e gli oggetti GUI 
-
-Come abbiamo detto, in FreeCAD, tutto viene separato tra nucleo e rappresentazione. Ciò vale anche per gli oggetti 3D.
-
-È possibile accedere alla definizione delle proprietà degli oggetti (chiamate funzioni in FreeCAD) tramite il modulo App, e cambiare il modo in cui gli oggetti vengono riprodotti sullo schermo tramite il modulo Gui.
-
-Ad esempio, un parallelepipedo ha delle proprietà che lo definiscono, (cioè larghezza, lunghezza e altezza) che vengono memorizzate in un *oggetto App* e delle proprietà di rappresentazione, (come il colore delle facce, la modalità di disegno) che sono memorizzate in un corrispondente *oggetto Gui*.
-
-
-</div>
-
-As already mentioned, in FreeCAD everything is separated into core and representation. This includes the 3D objects. You can access defining properties of objects (called features in FreeCAD) via the `App` module, and change the way they are represented on screen via the `Gui` module. For example, a cube has properties that define it (like width, length, height) that are stored in an `App` object, and representation properties (like faces color, drawing mode) that are stored in a corresponding `Gui` object.
-
-Questo modo di fare le cose consente una vasta gamma di operazioni, come gli algoritmi che funzionano solo sulla parte di definizione delle caratteristiche, senza la necessità di prendersi cura di nessuna parte visiva, e consente anche di reindirizzare il contenuto del documento a applicazioni non-grafiche, quali, ad esempio, elenchi, fogli di calcolo, o analisi degli elementi.
-
-
-<div class="mw-translate-fuzzy">
-
-Nel documento, per ogni oggetto App, esiste un corrispondente oggetto Gui. Infatti lo stesso documento possiede sia oggetti App che oggetti Gui.
-
-Questo, naturalmente, è valido solo quando si esegue FreeCAD completo di interfaccia grafica. Nella versione riga di comando, senza interfaccia grafica, sono quindi disponibili solo gli oggetti App.
-
-Ricordare che la parte Gui degli oggetti viene rigenerata ogni volta che un oggetto App viene indicato \"da ricalcolare\" (ad esempio quando cambia uno dei suoi parametri), in quanto le modifiche fatte direttamente all\'oggetto Gui potrebbero perdersi.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per accedere alla parte App di qualcosa, si digita   *
-
-
-</div>
+Per accedere alla parte `App` di qualcosa, si digita   *
 
 
 ```python
 myObject = App.ActiveDocument.getObject("ObjectName")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-dove \"ObjectName\" è il nome del vostro oggetto.
-
-Inoltre è possibile digitare   *
-
-
-</div>
+dove `"ObjectName"` è il nome del vostro oggetto. Inoltre è possibile digitare   *
 
 
 ```python
 myObject = App.ActiveDocument.ObjectName
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Per accedere alla parte Gui dello stesso oggetto, si digita   *
-
-
-</div>
+Per accedere alla parte `Gui` dello stesso oggetto, si digita   *
 
 
 ```python
 myViewObject = Gui.ActiveDocument.getObject("ObjectName")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-dove \"ObjectName\" è il nome del vostro oggetto.
-
-Inoltre è possibile digitare   *
-
-
-</div>
+dove `"ObjectName"` è il nome del vostro oggetto. Inoltre è possibile digitare   *
 
 
 ```python
 myViewObject = App.ActiveDocument.ObjectName.ViewObject
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Se non abbiamo GUI (ad esempio, siamo in modalità riga di comando), l\'ultima riga non restituirà nulla.
-
-
-</div>
-
-
-{{Top}}
-
-
-<div class="mw-translate-fuzzy">
+Se sei in modalità riga di comando e non hai la GUI, l\'ultima riga restituirà `None`. {{Top}}
 
 ### Gli oggetti del documento 
 
-In FreeCAD tutto il vostro lavoro si trova all\'interno dei documenti.
+In FreeCAD tutto il tuo lavoro risiede all\'interno dei documenti. Un documento contiene la tua geometria e può essere salvato in un file. È possibile aprire più documenti contemporaneamente. Il documento, come la geometria contenuta all\'interno, ha oggetti `App` e `Gui`. L\'oggetto `App` contiene le tue effettive definizioni della geometria, mentre l\'oggetto `Gui` contiene le diverse viste del tuo documento. Puoi aprire più finestre, ognuna delle quali visualizza il tuo lavoro con un fattore di zoom diverso o da una direzione diversa. Queste viste fanno tutte parte dell\'oggetto `Gui` del tuo documento.
 
-Un documento contiene la geometria e può essere salvato in un file. Si possono avere simultaneamente più documenti aperti.
-
-Il documento, come la geometria contenuta all\'interno, ha oggetti App e oggetti Gui. L\'oggetto App contiene le definizioni della geometria reale, mentre l\'oggetto Gui contiene i diversi punti di vista del documento.
-
-È possibile aprire più finestre, ognuna delle quali visualizza il lavoro con un fattore di zoom o un punto di vista diverso. Questi punti di vista fanno tutti parte dell\'oggetto Gui del documento.
-
-
-</div>
-
-In FreeCAD all your work resides inside documents. A document contains your geometry and can be saved to a file. Several documents can be opened at the same time. The document, like the geometry contained inside, has `App` and `Gui` objects. The `App` object contains your actual geometry definitions, while the `Gui` object contains the different views of your document. You can open several windows, each one viewing your work with a different zoom factor or from a different direction. These views are all part of your document\'s `Gui` object.
-
-
-<div class="mw-translate-fuzzy">
-
-Per accedere alla parte App del documento attualmente aperto (attivo), si digita   *
-
-
-</div>
+Per accedere alla parte `App` del documento attualmente aperto (attivo), digitare   *
 
 
 ```python
 myDocument = App.ActiveDocument
 ```
 
-Per creare un nuovo documento, si digita   *
+Per creare un nuovo documento, digitare   *
 
 
 ```python
 myDocument = App.newDocument("Document Name")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Per accedere alla parte Gui del documento attualmente aperto (attivo), si digita   *
-
-
-</div>
+Per accedere alla parte `Gui` del documento attualmente aperto (attivo), digitare   *
 
 
 ```python
 myGuiDocument = Gui.ActiveDocument
 ```
 
-Per accedere alla vista corrente, si digita   *
+Per accedere alla vista corrente, digitare   *
 
 
 ```python
@@ -260,56 +132,20 @@ myView = Gui.ActiveDocument.ActiveView
 
 {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Utilizzo di moduli aggiuntivi 
 
-I moduli FreeCAD e FreeCADGui sono responsabili esclusivamente della creazione e della gestione degli oggetti nel documento di FreeCAD.
-
-Essi in realtà non fanno nulla che riguardi la creazione o la modifica della geometria.
-
-Ciò è dovuto al fatto che la geometria può essere di diversi tipi, e quindi la sua gestione è affidata ai moduli aggiuntivi, ognuno di essi ha il compito di gestire uno specifico tipo di geometria.
-
-Il modulo [Parte](Part_Workbench/it.md) utilizza il kernel OpenCascade, e quindi è in grado di creare e manipolare geometrie di tipo [B-rep](http   *//en.wikipedia.org/wiki/Boundary_representation), che è appunto il tipo di geometria costruito da OpenCascade.
-
-Il modulo [Mesh](Mesh_Workbench/it.md) è in grado di costruire e modificare gli oggetti mesh.
-
-In questo modo, FreeCAD è in grado di gestire un\'ampia gamma di tipi di oggetti che possono coesistere nello stesso documento, e nuovi tipi potrebbero essere aggiunti facilmente in futuro.
-
-
-</div>
-
-The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the [Part Workbench](Part_Workbench.md), using the OpenCascade kernel, is able to create and manipulate [BRep](http   *//en.wikipedia.org/wiki/Boundary_representation) type geometry. Whereas the [Mesh Workbench](Mesh_Workbench.md) is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
-
-
-<div class="mw-translate-fuzzy">
+I moduli `FreeCAD` e `FreeCADGui` sono responsabili solo della creazione e della gestione degli oggetti nel documento FreeCAD. In realtà non fanno altro che creare o modificare la geometria. Questo perché la geometria può essere di diversi tipi e quindi richiede moduli aggiuntivi, ciascuno responsabile della gestione di un determinato tipo di geometria. Ad esempio, l\'[Ambiente Part](Part_Workbench/it.md), utilizzando il kernel OpenCascade, è in grado di creare e manipolare la geometria di tipo [BRep](https   *//it.wikipedia.org/wiki/B-Rep). Mentre l\'[Ambiente Mesh](Mesh_Workbench/it.md) è in grado di costruire e modificare oggetti mesh. In questo modo FreeCAD è in grado di gestire un\'ampia varietà di tipi di oggetti, che possono coesistere tutti nello stesso documento, e nuovi tipi possono essere facilmente aggiunti in futuro. {{Top}}
 
 #### Creare degli oggetti 
 
-Ogni modulo tratta la propria geometria in un modo specifico, però in genere tutti i moduli possono creare degli oggetti nel documento.
-
-Il documento FreeCAD è anche a conoscenza dei tipi di oggetti fornibili dai moduli e il seguente comando   *
-
-
-</div>
-
-Each module has its own way of dealing with geometry, but one thing they usually all can do is create objects in the document. But the FreeCAD document is also aware of the available object types provided by the modules   *
+Ogni modulo ha il proprio modo di gestire la geometria, ma una cosa che di solito tutti possono fare è creare oggetti nel documento. Ma il documento di FreeCAD è anche a conoscenza dei tipi di oggetti disponibili forniti dai moduli   *
 
 
 ```python
 FreeCAD.ActiveDocument.supportedTypes()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-mostra tutti gli oggetti che si possono creare.
-
-Come esempio, proviamo a creare un oggetto mesh (trattato dal modulo Mesh) e un oggetto parte (trattato dal modulo Part)   *
-
-
-</div>
+elencherà tutti i possibili oggetti che puoi creare. Ad esempio, creiamo una mesh (gestita dal modulo `Mesh`) e una parte (gestita dal modulo `Part`)   *
 
 
 ```python
@@ -317,17 +153,7 @@ myMesh = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "myMeshName")
 myPart = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myPartName")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Il primo parametro è il tipo di oggetto, il secondo il nome dell\'oggetto. I nostri due oggetti appaiono quasi come la stessa cosa.
-
-Al momento, essi non contengono ancora la geometria, e se li ispezioniamo con dir(myMesh) e con dir(myPart) la maggior parte delle loro proprietà sono le stesse. L\'unica differenza è che myMesh ha una proprietà \"Mesh\" e \"Part\" ha una proprietà \"Shape\". È qui che i dati Mesh e Parte vengono memorizzati.
-
-Come esempio, creiamo un cubo di tipo Parte e poi lo archiviamo nel nostro oggetto myPart   *
-
-
-</div>
+Il primo argomento è il tipo di oggetto, il secondo il nome dell\'oggetto. I nostri due oggetti sembrano quasi uguali   * non contengono ancora alcuna geometria e la maggior parte delle loro proprietà sono le stesse quando li ispezioni con `dir(myMesh)` e `dir(myPart)`. Ad eccezione di una cosa, `myMesh` ha una proprietà `Mesh` e `myPart` ha una proprietà `Shape`. È qui che vengono archiviati i dati Mesh e Part. Ad esempio, creiamo un cubo `Part` e memorizziamolo nel nostro oggetto `myPart`   *
 
 
 ```python
@@ -336,15 +162,7 @@ cube = Part.makeBox(2, 2, 2)
 myPart.Shape = cube
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Se provate a memorizzare il cubo all\'interno della proprietà Mesh dell\'oggetto myMesh, vi verrà restituito un messaggio di \"errore di tipo\". Questo perché le proprietà sono fatte in modo da memorizzare solo uno specifico tipo. Nelle proprietà Mesh di myMesh, è possibile salvare solo elementi creati con il modulo Mesh.
-
-Notare che la maggior parte dei moduli hanno anche un collegamento per aggiungere la loro geometria al documento   *
-
-
-</div>
+Si può provare a memorizzare il cubo all\'interno della proprietà `Mesh` dell\'oggetto `myMesh`, ma verrà restituito un errore. Questo perché ogni proprietà è fatta per memorizzare solo un certo tipo. In una proprietà `Mesh`, puoi salvare solo elementi creati con il modulo `Mesh`. Nota che la maggior parte dei moduli ha anche una scorciatoia per aggiungere la propria geometria al documento   *
 
 
 ```python
@@ -356,17 +174,9 @@ Part.show(cube)
 
 {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
 ### Modificare gli oggetti 
 
-La modifica di un oggetto si esegue nello stesso modo   *
-
-
-</div>
-
-Modifying an object is done in the same way   *
+La modifica di un oggetto avviene allo stesso modo   *
 
 
 ```python
@@ -386,17 +196,9 @@ myPart.Shape = biggercube
 
 {{Top}}
 
-
-<div class="mw-translate-fuzzy">
-
 ### Interrogare gli oggetti 
 
 È sempre possibile sapere di che tipo è un oggetto con   *
-
-
-</div>
-
-You can always look at the type of an object like this   *
 
 
 ```python
@@ -404,33 +206,14 @@ myObj = FreeCAD.ActiveDocument.getObject("myObjectName")
 print(myObj.TypeId)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-o sapere se un oggetto è derivato da uno di quelli base (struttura di Parte, struttura di Mesh, etc) con   *
-
-
-</div>
+o controllare se un oggetto è derivato da uno di quelli base (struttura di Parte, struttura di Mesh, etc) con   *
 
 
 ```python
 print(myObj.isDerivedFrom("Part   *   *Feature"))
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Ora si può davvero iniziare a divertirsi con FreeCAD! Per vedere ciò che si può fare con il [Modulo Parte](Part_Workbench/it.md), leggere la pagina [Script per ambiente Parte](Topological_data_scripting/it.md), o la pagina [Script per ambiente Mesh](Mesh_Scripting/it.md) per lavorare con il [Modulo Mesh](Mesh_Workbench/it.md).
-
-Notare che, oltre ai moduli Parte e Mesh che sono i più completi e sono molto utilizzati, anche altri moduli come il [Modulo Draft](Draft_Workbench/it.md) hanno [script](Draft_API/it.md) API che possono servirvi.
-
-Per un elenco completo di tutti i moduli e gli strumenti disponibili, consultare la sezione [   *Category   *API/it](   *Category   *API/it.md).
-
-
-</div>
-
-
-{{Top}}
+Ora puoi davvero iniziare a giocare con FreeCAD! Per un elenco completo dei moduli disponibili e dei relativi strumenti, visita la sezione [Category   *API](   *Category_API.md). {{Top}}
 
 
 

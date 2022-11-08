@@ -4,7 +4,7 @@
    Name/fr   *TechDraw Vue en coupe
    MenuLocation   *TechDraw → Insérer une vue en coupe
    Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso   *[TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
+   SeeAlso   *[TechDraw Vue en coupe complexe](TechDraw_ComplexSection/fr.md), [TechDraw Vue](TechDraw_View/fr.md), [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md)
 ---
 
 # TechDraw SectionView/fr

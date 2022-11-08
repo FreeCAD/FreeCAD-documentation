@@ -13,7 +13,7 @@
 
 La commande **Std Documentation pour scripter en Python** ouvre la page de Documentation pour utilisateurs expérimentés dans le navigateur Internet par défaut du système. La commande nécessite une connexion Internet fonctionnelle.
 
-Actuellement, la commande pointe vers [<https   *//www.freecadweb.org/wiki/Power_users_hub>](https   *//www.freecadweb.org/wiki/Power_users_hub).
+Actuellement, la commande pointe vers [<https   *//wiki.freecad.org/Power_users_hub>](https   *//wiki.freecad.org/Power_users_hub).
 
 ## Utilisation
 

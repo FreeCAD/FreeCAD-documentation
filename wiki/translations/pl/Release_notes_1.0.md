@@ -120,6 +120,8 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 ### Planowane ulepszenie dla środowiska Siatka 
 
+-   Wsparcie dla dodawania przezroczystości do siatki. [temat na Forum](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=72531) oraz [Commit f88305e](https   *//github.com/FreeCAD/FreeCAD/commit/f88305e)
+
 ## Planowane ulepszenie dla środowiska OpenSCAD 
 
 ## Środowisko pracy Część 
@@ -128,7 +130,14 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 ## Środowisko pracy Projekt Części 
 
+   
+  <img alt="" src=images/PD_Counterdrill_relnotes_1.0.png  style="width   *384px;">Otwór z pogłębieniem stożkowym.   Okno dialogowe [Otwór](PartDesign_Hole.md) obsługuje typ łba śruby *stożkowej*. [Pull request #7562](https   *//github.com/FreeCAD/FreeCAD/pull/7562)
+                                                                                                                                       
+   
+
 ### Planowane ulepszenia dla środowiska Projekt Części 
+
+-   In the [Hole](PartDesign_Hole.md) dialog, the deprecated screw head types (cheese head, cap screw etc.) have been removed. They were deprecated since FreeCAD 0.19. Holes using these types are transformed to custom countersinks/counterbore holes with the diameter and depth used by the types. [Pull request #7654](https   *//github.com/FreeCAD/FreeCAD/pull/7654)
 
 ## Środowisko pracy Path 
 
@@ -154,10 +163,16 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 ### Planowane ulepszenia dla środowiska Szkicownik 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Przycisk paska narzędzi [Wiązanie prawo Snella](Sketcher_ConstrainSnellsLaw/pl.md) został usunięty. [Commit ef62fc3](https   *//github.com/FreeCAD/FreeCAD/commit/ef62fc3)
 -   Przyciski paska narzędzi [Wybierz zbędne wiązania](Sketcher_SelectRedundantConstraints/pl.md) i [Wybierz wiązania konfliktowe](Sketcher_SelectConflictingConstraints/pl.md) zostały usunięte. [Pull request #7568](https   *//github.com/FreeCAD/FreeCAD/pull/7568)
 -   Przycisk paska narzędzi dla [Przerwij operację](Sketcher_StopOperation/pl.md) został usunięty. [Pull request #7569](https   *//github.com/FreeCAD/FreeCAD/pull/7569)
 -   Edycja widżetu sterowania, usunięto etykietę „Rozmiar siatki", zmieniono nazwę pola wyboru „Pokaż siatkę" na „Siatka". [Pull request #7577](https   *//github.com/FreeCAD/FreeCAD/pull/7577)
+
+
+</div>
 
 ## Środowisko pracy Arkusz Kalkulacyjny 
 
@@ -166,15 +181,23 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 ## Środowisko pracy Rysunek Techniczny 
 
    
-  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width   *384px;">   Dodano nowe narzędzie [Symbol wykończenia powierzchnii](TechDraw_SurfaceFinishSymbol/pl.md) pozwalające na tworzenie symboli wykończenia powierzchni opisujących chropowatość, ułożenie i falistość, ale także oznaczających rodzaj obróbki powierzchni. Obsługuje ono zarówno style ISO jak i ASME. Jak pokazano na obrazku, istniejące narzędzie [Linia odniesienia](TechDraw_LeaderLine/pl.md) może być użyte do prawidłowego odniesienia zorientowanych symboli do krawędzi obiektu. [Pull request #7227](https   *//github.com/FreeCAD/FreeCAD/pull/7227)
+  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width   *250px;">   Dodano nowe narzędzie [Symbol wykończenia powierzchnii](TechDraw_SurfaceFinishSymbol/pl.md) pozwalające na tworzenie symboli wykończenia powierzchni opisujących chropowatość, ułożenie i falistość, ale także oznaczających rodzaj obróbki powierzchni. Obsługuje ono zarówno style ISO jak i ASME. Jak pokazano na obrazku, istniejące narzędzie [Linia odniesienia](TechDraw_LeaderLine/pl.md) może być użyte do prawidłowego odniesienia zorientowanych symboli do krawędzi obiektu. [Pull request #7227](https   *//github.com/FreeCAD/FreeCAD/pull/7227)
+  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width   *250px;">               Dodano narzędzie [Przekrój złożony](TechDraw_ComplexSection/pl.md). [Pull request #7658](https   *//github.com/FreeCAD/FreeCAD/pull/7658)
+                                                                                                                      
    
 
 ### Planowane ulepszenia środowiska Rysunek Techniczny 
+
+
+<div class="mw-translate-fuzzy">
 
 -   Dodano wsparcie dla regulowanych odstępów dla linii przedłużających [wymiary](/TechDraw_Preferences/pl#Wymiary.md). [Pull request #7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133)
 -   Usunięto przestarzałe funkcje   *
 
 DrawViewPart   *   *replaceCenterLine, DrawViewPart   *   *replaceCosmeticEdge, DrawViewPart   *   *replaceCosmeticVertex oraz DrawViewPart   *   *replaceGeomFormat.
+
+
+</div>
 
 ## Środowisko pracy Web 
 

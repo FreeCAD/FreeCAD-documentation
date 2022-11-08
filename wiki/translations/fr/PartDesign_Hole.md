@@ -48,7 +48,7 @@ Selon la sélection effectuée, certains champs seront activés ou resteront dé
 
 ### Trou découpé 
 
--   **Type**    * définit le type de coupe de trou   * *Aucun* signifie pas de coupe, les autres types sont des normes différentes pour les vis ({{Version/fr|0.19}}) et les deux types génériques *Chambrage* et *Fraisure*.
+-   **Type**    * définit le type de coupe de trou   * *Aucun* signifie pas de coupe, les autres types sont les différentes normes pour les vis ({{Version/fr|0.19}}) et les types génériques *Chambrage*, *Fraisure* et ({{Version/fr|1.0}}) *Contre-perçage*.
 -   **Diamètre**    * définit le diamètre supérieur (au plan d\'esquisse) pour la découpe du trou.
 -   **Profondeur**    * profondeur de la découpe du trou, mesurée à partir du plan d\'esquisse.
 -   **Angle de fraisage**    * angle de la découpe du trou conique. Applicable uniquement pour les fraisages.

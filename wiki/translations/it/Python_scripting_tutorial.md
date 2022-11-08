@@ -14,19 +14,19 @@ Ad esempio, tramite uno script Python, è possibile   *
 
 Esistono diversi modi per utilizzare Python in FreeCAD   *
 
--   Dall\'[Interprete Python di FreeCAD](FreeCAD_Scripting_Basics/it.md), dove puoi inviare comandi in un\'interfaccia in stile \"riga di comando\".
+-   Dall\'[Interprete Python di FreeCAD](FreeCAD_Scripting_Basics/it.md), da cui si possono inviare comandi in un\'interfaccia in stile \"riga di comando\".
 -   Con le [macro](macros/it.md), che sono un modo conveniente per aggiungere rapidamente uno strumento mancante all\'interfaccia di FreeCAD.
 -   Da script esterni, che possono essere utilizzati per creare soluzioni abbastanza complesse, anche interi [Ambienti di Lavoro](Workbenches/it.md).
 
-In questo tutorial, lavoreremo su un paio di esempi di base per consentire a tutti di iniziare, ma in questo wiki è disponibile anche molta altra [documentazione sugli script Python](Power_users_hub/it.md). Per chi non conosce ancora Python, ma è interessato a capire come funziona, c\'è anche una [Introduzione a Python](Introduction_to_Python/it.md) per una formazione di base.
+In questo tutorial, lavoreremo su un paio di esempi di base per consentire a tutti di iniziare, ma in questo wiki è disponibile anche molta altra [documentazione sugli script Python](Power_users_hub/it.md). Per chi ancora non conoscesse Python, ma è interessato a capire come funziona, c\'è anche una [Introduzione a Python](Introduction_to_Python/it.md) per una formazione di base.
 
-Prima di procedere con lo scripting Python, vai su **Modifica → Preferenze → Generale → Finestra di output** e seleziona due caselle   *
+Prima di procedere con lo scripting Python, andare su **Modifica → Preferenze → Generale → Finestra di output** e selezionare le due caselle   *
 
 -    **Reindirizza l'output interno di Python alla finestra di report**.
 
 -    **Reindirizza gli errori interni di Python alla finestra di rapporto**.
 
-Quindi vai su **Visualizza → Panelli** e seleziona   *
+Quindi andare su **Visualizza → Panelli** e selezionare   *
 
 -    **Report**.
 
@@ -48,14 +48,14 @@ Iniziamo creando un nuovo documento vuoto   *
 doc = FreeCAD.newDocument()
 ```
 
-Se lo si digita nella console Python di FreeCAD, noterai che non appena digiti `FreeCAD.` si apre una finestra, che consente di completare automaticamente il resto della riga. Ancora meglio, ogni voce nell\'elenco di completamento automatico ha un suggerimento che spiega cosa fa. Ciò semplifica l\'esplorazione delle funzionalità disponibili. Prima di scegliere `newDocument`, dai un\'occhiata alle altre opzioni.
+Se lo si digita nella console Python di FreeCAD, si nota che non appena si digita `FreeCAD.` si apre una finestra, che consente di completare automaticamente il resto della riga. Ancora meglio, ogni voce nell\'elenco di completamento automatico ha un suggerimento che spiega cosa fa. Ciò semplifica l\'esplorazione delle funzionalità disponibili. Prima di scegliere `newDocument`, dare un\'occhiata alle altre opzioni.
 
 ![](images/Screenshot_classbrowser.jpg ) 
 *Il meccanismo di completamento automatico della console Python di FreeCAD*
 
-Ora verrà creato il nostro nuovo documento. Questo equivale alla pressione del pulsante **<img src="images/Std_New.svg" width=16px> [Std New](Std_New.md)** sulla barra degli strumenti. In effetti, la maggior parte dei pulsanti in FreeCAD non fa altro che eseguire una o più righe di codice Python. Ancora meglio, puoi impostare un\'opzione in **Modifica → Preferenze → Generali → Macro** su **Mostra lo scritp dei comandi nella console python**. Questo visualizzerà nella console tutto il codice Python che viene eseguito quando si premono i vari pulsanti. Ciò è molto utile per imparare a riprodurre azioni in Python.
+Ora verrà creato il nostro nuovo documento. Questo equivale alla pressione del pulsante **<img src="images/Std_New.svg" width=16px> [Nuovo](Std_New.md)** sulla barra degli strumenti. In effetti, la maggior parte dei pulsanti in FreeCAD non fa altro che eseguire una o più righe di codice Python. Ancora meglio, si può impostare un\'opzione in **Modifica → Preferenze → Generali → Macro** su **Mostra lo scritp dei comandi nella console python**. Questo visualizzerà nella console tutto il codice Python che viene eseguito quando si premono i vari pulsanti. Ciò è molto utile per imparare a riprodurre azioni in Python.
 
-Ora torniamo al nostro documento e vediamo cosa ci puoi fare   *
+Ora torniamo al nostro documento e vediamo cosa si può fare   *
 
 
 ```python
@@ -105,11 +105,11 @@ Questo comando stampa l\'altezza corrente del nostro box. Ora proviamo a cambiar
 box.Height = 5
 ```
 
-Se selezioni la tua casella con il mouse, vedrai che nel [pannello delle proprietà](Property_editor/it.md), nella scheda **Data**, appare la nostra proprietà **Height**. Tutte le proprietà di un oggetto FreeCAD che appaiono lì (e anche nella scheda **View**, di cui parleremo più avanti), sono direttamente accessibili anche in Python, con i loro nomi, come abbiamo fatto con **Height ** proprietà. Prova a cambiare le altre dimensioni della scatola. {{Top}}
+Se si seleziona la casella con il mouse, si nota che nel [pannello delle proprietà](Property_editor/it.md), nella scheda **Data**, appare la nostra proprietà **Height**. Tutte le proprietà di un oggetto FreeCAD che appaiono lì (e anche nella scheda **View**, di cui parleremo più avanti), sono direttamente accessibili anche in Python, con i loro nomi, come abbiamo fatto con la proprietà **Height **. Si provi a cambiare le altre dimensioni di box. {{Top}}
 
 ## Vettori e posizionamenti 
 
-I [vettori](http   *//it.wikipedia.org/wiki/Vettore_%28matematica%29) sono un concetto fondamentale in qualsiasi applicazione 3D. Si tratta di un elenco di 3 numeri (x, y, z) che descrivono un punto o una posizione nello spazio 3D. Con i vettori si possono eseguire diverse operazioni, ad esempio, sommarli, sottrarli, proiettarli e [molto altro](http   *//it.wikipedia.org/wiki/Spazio_vettoriale). In FreeCAD, con i vettori si lavora in questo modo   *
+I [vettori](http   *//it.wikipedia.org/wiki/Vettore_%28matematica%29) sono un concetto fondamentale in qualsiasi applicazione 3D. Si tratta di un elenco di 3 numeri (x, y, z), che descrivono un punto o una posizione nello spazio 3D. Con i vettori si possono eseguire diverse operazioni, ad esempio, sommarli, sottrarli, proiettarli e [molto altro](http   *//it.wikipedia.org/wiki/Spazio_vettoriale). In FreeCAD, con i vettori si lavora in questo modo   *
 
 
 ```python
@@ -120,7 +120,7 @@ othervec = FreeCAD.Vector(0, 3, 0)
 sumvec = myvec.add(othervec)
 ```
 
-Un\'altra caratteristica comune degli oggetti FreeCAD è il loro [posizionamento](Placement/it.md). Ogni oggetto ha una proprietà **Placement**, che contiene **Base** (posizione) e **Rotation** (asse) dell\'oggetto. È facile da manipolare, ad esempio per spostare il nostro oggetto   *
+Un\'altra caratteristica comune degli oggetti FreeCAD è il loro [posizionamento](Placement/it.md). Ogni oggetto ha una proprietà **Placement**, che contiene **Base** (posizione) e **Rotation** (asse) dell\'oggetto. Sono facili da manipolare, ad esempio per spostare il nostro oggetto   *
 
 
 ```python
@@ -138,7 +138,7 @@ Prima di continuare, si devono vedere un paio di concetti importanti. {{Top}}
 
 FreeCAD è stato progettato in modo da poter essere utilizzato anche senza la sua interfaccia utente, come applicazione a riga di comando. Quasi tutti gli oggetti in FreeCAD sono quindi costituiti da due parti   * un `Object`, il suo componente \"geometrico\", e un `ViewObject`, il suo componente \"visivo\". Quando si lavora in modalità riga di comando, la parte geometrica è presente, ma la parte visiva è disabilitata.
 
-Per illustrare il concetto diamo un\'occhiata al nostro oggetto cubo. Le proprietà geometriche del cubo, come le sue dimensioni, posizione, ecc. sono memorizzate in `Object`. Mentre le sue proprietà visive, come il colore, lo spessore della linea, ecc. sono archiviate in `ViewObject`. Ciò corrisponde alle schede **Dati** e **Vista** nel [pannello Proprietà](Property_editor.md). L\'oggetto di visualizzazione di un oggetto è accessibile in questo modo   *
+Per illustrare il concetto diamo un\'occhiata al nostro oggetto cubo. Le proprietà geometriche del cubo, come le sue dimensioni, posizione, ecc. sono memorizzate in `Object`. Mentre le sue proprietà visive, come il colore, lo spessore della linea, ecc. sono archiviate in `ViewObject`. Ciò corrisponde alle schede **Dati** e **Vista** nel [pannello Proprietà](Property_editor/it.md). L\'oggetto di visualizzazione di un oggetto è accessibile in questo modo   *
 
 
 ```python
@@ -236,9 +236,9 @@ Esplorando i contenuti di myshape, noterai molti sottocomponenti interessanti co
 
 ## Modulo Draft 
 
-FreeCAD offre molti altri moduli, come [Sketcher](Sketcher_Workbench/it.md) e [Draft](Draft_Workbench/it.md), che creano anche oggetti Part. Questi moduli aggiungono parametri aggiuntivi agli oggetti creati o addirittura implementano un modo completamente nuovo di gestire la geometria della parte in essi contenuta. Il nostro esempio sopra di una scatola è un perfetto esempio di un oggetto parametrico. Tutto ciò che serve per definire la scatola è specificare i parametri altezza, larghezza e lunghezza. Sulla base di questi, l\'oggetto calcolerà automaticamente la sua forma della parte. FreeCAD ti consente di [creare tali oggetti in Python](Scripted_objects/it.md).
+FreeCAD offre molti altri moduli, come [Sketcher](Sketcher_Workbench/it.md) e [Draft](Draft_Workbench/it.md), che creano anche oggetti Part. Questi moduli aggiungono ulteriori parametri agli oggetti creati o addirittura implementano un modo completamente nuovo di gestire la geometria della parte in essi contenuta. Il nostro esempio sopra di una scatola è un perfetto esempio di un oggetto parametrico. Tutto ciò che serve per definire la scatola è specificare i parametri altezza, larghezza e lunghezza. Sulla base di questi, l\'oggetto calcolerà automaticamente la sua forma della parte. FreeCAD ti consente di [creare tali oggetti in Python](Scripted_objects/it.md).
 
-Il Modulo [Draft](Draft_Workbench/it.md) aggiunge tipi di oggetti 2D parametrici (che sono tutti oggetti di Parte) quali linee e cerchi, e fornisce anche alcune funzioni generiche che funzionano non solo sugli oggetti creati con Draft, ma su qualsiasi oggetto Parte. Per esplorare ciò che è disponibile, fare semplicemente   *
+Il Modulo [Draft](Draft_Workbench/it.md) aggiunge tipi di oggetti 2D parametrici (che sono tutti oggetti di Parte) quali linee e cerchi, e fornisce anche alcune funzioni generiche, che agiscono non solo sugli oggetti creati con Draft, ma su qualsiasi oggetto Parte. Per esplorare ciò che è disponibile, fare semplicemente   *
 
 
 ```python
@@ -254,7 +254,7 @@ Draft.move(box, mvec)
 
 ## Interfaccia
 
-L\'interfaccia utente di FreeCAD è realizzata con [Qt](https   *//it.wikipedia.org/wiki/Qt_(toolkit)), un potente sistema di interfaccia grafica, responsabile del disegno e della gestione di tutti i controlli, menu, barre degli strumenti e pulsanti intorno al [vista 3D](3D_view/it.md). Qt fornisce un modulo, [PySide](PySide.md), che consente a Python di accedere e modificare le interfacce Qt come quelle di FreeCAD. Proviamo a giocherellare con l\'interfaccia Qt e produrre una semplice finestra di dialogo   *
+L\'interfaccia utente di FreeCAD è realizzata con [Qt](https   *//it.wikipedia.org/wiki/Qt_(toolkit)), un potente sistema di interfaccia grafica, responsabile del disegno e della gestione di tutti i controlli, menu, barre degli strumenti e pulsanti intorno alla [vista 3D](3D_view/it.md). Qt fornisce un modulo, [PySide](PySide.md), che consente a Python di accedere e modificare le interfacce Qt come quelle di FreeCAD. Proviamo a giocherellare con l\'interfaccia Qt e produrre una semplice finestra di dialogo   *
 
 
 ```python
@@ -272,7 +272,7 @@ Qt è un sistema di interfaccia molto potente, che permette di fare cose molto c
 
 Ora che si ha una buona conoscenza delle nozioni di base, dove conserviamo i nostri script Python, e come si fa ad eseguirli facilmente in FreeCAD? Per questo vi è un sistema semplice, chiamato [Macro](Macros/it.md). Una macro è semplicemente uno script Python, che può essere aggiunto a una barra degli strumenti e poi essere lanciato con un semplice clic del mouse. FreeCAD fornisce un semplice editor di testo (Macro → Macro → Crea) in cui è possibile scrivere o incollare degli script. Terminata la scrittura, il menu Strumenti → Personalizza → Macro permette di definire un pulsante per questo script che può anche essere aggiunto alle barre degli strumenti.
 
-Ora sei pronto per uno scripting FreeCAD più approfondito. Quindi vai al [Hub per utenti esperti](Power_users_hub/it.md)! {{Top}}
+Ora si è pronti per uno scripting FreeCAD più approfondito. Quindi andare al [Hub per utenti esperti](Power_users_hub/it.md)! {{Top}}
 
 
 

@@ -29,15 +29,14 @@ Elmer nécessite que deux composants soient interfacés avec FreeCAD    *
 
 Il existe des programmes autonomes pour ces deux applications mais leur installation et leur utilisation dépassent le cadre de l\'intégration de FreeCAD.
 
-1.  Allez sur les ressources binaires CSC pour Elmer    * [binaries](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/) OU [CSC binaries](https   *//www.csc.fi/web/elmer/binaries).
-2.  Téléchargez et installez la version la mieux adaptée à votre système d\'exploitation ([Windows](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) ou [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). Il est recommandé d\'installer la version `mpi` pour bénéficier d\'un support multi-cœur du CPU. ({{Version/fr|1.0}}).
-3.  Dans FreeCAD, allez dans **Edition → Préférences → FEM → Elmer**.
-4.  Liez le chemin correct pour les deux `ElmerGrid` et `ElmerSolver`, ou ({{Version/fr|1.0}})    * pour qu\'Elmer utilise tous les cœurs CPU disponibles, `ElmerSolver_mpi`.
+1.  Téléchargez et installez la version la mieux adaptée à votre système d\'exploitation ([Windows](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) ou [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). Il est recommandé d\'installer la version `mpi` pour bénéficier d\'un support multi-cœur du CPU. ({{Version/fr|1.0}}).
+2.  Dans FreeCAD, allez dans **Edition → Préférences → FEM → Elmer**.
+3.  Dans les [préférences de FEM](FEM_Preferences/fr#Elmer.md), définissez le chemin d\'accès correct pour `ElmerGrid` et `ElmerSolver`, ou {{VersionPlus/fr|1.0}}    * définissez le chemin d\'accès pour `ElmerSolver_mpi` au lieu de `ElmerSolver` pour qu\'Elmer utilise tous les cœurs de processeur disponibles.
 
-       *   ![Onglet Elmer dans les préférences FEM](images/Preferences-ElmerPath.png )
+       *   ![Onglet Elmer dans les préférences de FEM](images/Preferences-ElmerPath.png )
        *   
         
-*Ci-dessus    * menu de dialogue des préférences Elmer montrant les champs pour localiser les binaires Elmer importants sur le système d'exploitation Windows*
+*Menu de dialogue des préférences Elmer montrant les champs pour localiser les binaires Elmer importants sur le système d'exploitation Windows*
         
         .
 
@@ -53,12 +52,12 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 1.  Basculez vers l\'<img alt="" src=images/Workbench_FEM.svg  style="width   *24px;"> [atelier FEM](FEM_Workbench/fr.md)
 2.  Créez un conteneur [Analysis](FEM_Analysis/fr.md) en appuyant sur l\'icône <img alt="" src=images/FEM_Analysis.svg  style="width   *22px;">.
 3.  Créez un solveur FEM pour Elmer, en appuyant sur l\'icône <img alt="" src=images/FEM_SolverElmer.svg  style="width   *22px;">.
-    -   Remarque    * Une analyse réussie nécessite au moins un modèle (2D ou 3D), un matériau ([FEM Fluide](FEM_MaterialFluid/fr.md) ou [FEM Solide](FEM_MaterialSolid/fr.md)), un [Maillage Gmsh](FEM_MeshGmshFromShape/fr.md), des équations et conditions aux limites
+    -   Remarque    * une analyse réussie nécessite au moins un modèle (2D ou 3D), un matériau ([FEM Fluide](FEM_MaterialFluid/fr.md) ou [FEM Solide](FEM_MaterialSolid/fr.md)), un [maillage Gmsh](FEM_MeshGmshFromShape/fr.md), des équations et des conditions aux limites
 
        *   ![](images/Elmer_typical_file_tree.png )
        *   
         
-*Ci-dessus    * exemple de [vue en arborescence](Tree_view/fr.md) une fois qu'un solveur pour Elmer est activé*
+*Exemple de [vue en arborescence](Tree_view/fr.md) une fois qu'un solveur pour Elmer est activé*
         
 4.  Modifiez les paramètres du solveur dans l\'onglet **Data** de l\'[Éditeur de propriétés](Property_editor/fr.md) de l\'objet SolverElmer dans le modèle [vue en arborescence](tree_view/fr.md)
 5.  Double-cliquez sur l\'objet **<img src="images/FEM_SolverElmer.svg" width=22px> SolverElmer** pour préparer une analyse
@@ -66,11 +65,11 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
        *   <img alt="" src=images/ElmerSolver_TaskPanel.png  style="width   *300px;">
        *   
         
-*Ci-dessus    * boîte de dialogue pour exécuter une analyse Elmer*
+*Menu de dialogue pour exécuter une analyse Elmer*
         
 6.  Sélectionnez le chemin vers lequel l\'analyse écrira en cliquant sur **...**
-7.  Cliquez sur **Write** pour écrire les fichiers de cas dans le répertoire sélectionné précédemment
-8.  Cliquez sur **Run** pour démarrer l\'analyse
+7.  Cliquez sur **Ecrire** pour écrire les fichiers de cas dans le répertoire sélectionné précédemment
+8.  Cliquez sur **Lancer** pour démarrer l\'analyse
 
 ### Équations
 

@@ -74,6 +74,8 @@ Wenn eine Konturskizze hinzugefügt wird, erzeugt er **verzahnte Geometrie** um 
 
 -   Für eine Erweiterung wird empfohlen, die {{PropertyData/de|Refine}} auf `True` (default) gesetzt zu lassen.
 
+-   The extension operation with a linked sketch may fail due to coplanar issues if the face on the sketch side and the face on the opposite side are coplanar, but with opposite orientations. A small offset may help in such a case.
+
 ## Eigenschaften
 
 Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).

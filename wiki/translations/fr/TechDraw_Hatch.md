@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **TechDraw Hachures par motif** remplit une région fermée dans une vue avec un motif hachuré basé sur le format [SVG](SVG/fr.md). On peut aussi utiliser l\'outil <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) utilise des motifs de hachures basés sur PAT. Voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
+L\'outil <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **TechDraw Hachures par motif** remplit une région fermée dans une vue avec un motif hachuré à base de tuiles au format [SVG](SVG/fr.md) ou de bitmap ({{Version/fr|1.0}}). On peut aussi utiliser l\'outil <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) utilise des motifs de hachures basés sur PAT. Voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width   *300px;">
 
@@ -26,23 +26,34 @@ L\'outil <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **Te
     -   Appuyez sur le bouton **<img src="images/TechDraw_Hatch.svg" width=16px> [Hachurer une face en utilisant un fichier image ](TechDraw_Hatch/fr.md)**.
     -   Sélectionnez le **TechDraw → <img src="images/TechDraw_Hatch.svg" width=16px> Hachurer une face en utilisant un fichier image ** dans le menu.
 3.  Le panneau de tâches **Appliquer des hachures à la face** s\'ouvre.
-4.  Vous pouvez modifier **Fichier de motif**, **Echelle du motif** et **Couleur de trait**.
-5.  Appuyez sur le bouton **OK**.
+4.  Vous pouvez modifier **Fichier de motif**.
+5.  Vous pouvez également modifier les paramètres **Echelle du motif** et **Couleur de trait**. Ces paramètres sont ignorés pour les motifs bitmap.
+6.  Appuyez sur le bouton **OK**.
 
 ## Remarques
 
 -   Les objets hachurés sont vulnérables au \"[problème de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations. Il est recommandé que le hachurage soit l\'une des dernières étapes de votre processus de dessin.
--   Des exemples de modèles [SVG](SVG/fr.md) sont disponibles localement dans   *
+-   Des exemples de modèles [SVG](SVG/fr.md) sont disponibles localement dans
 
-
+   *   
+    
 ```python
-$INSTALL_DIR/data/Mod/TechDraw/Patterns
+    $INSTALL_DIR/data/Mod/TechDraw/Patterns
+    
 ```
+    
 
-où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple 
+   *   où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple    *
+
+   *   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/Patterns
-``` et aussi à l\'adresse [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+    /usr/share/freecad/data/Mod/TechDraw/Patterns
+    
+```
+    
+
+   *   ils sont également disponibles sur [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
 ## Propriétés
 

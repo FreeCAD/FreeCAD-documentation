@@ -1538,9 +1538,9 @@ SETTINGS:
         quoting character.  It defaults to '"'.
     * delimiter - specifies a one-character string to use as the
         field separator.  It defaults to ','.
-    * skipinitialspace - specifies how to interpret whitespace which
-        immediately follows a delimiter.  It defaults to False, which
-        means that whitespace immediately following a delimiter is part
+    * skipinitialspace - specifies how to interpret spaces which
+        immediately follow a delimiter.  It defaults to False, which
+        means that spaces immediately following a delimiter is part
         of the following field.
     * lineterminator -  specifies the character sequence which should
         terminate rows.

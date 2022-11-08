@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil Ligne cosmétique ajoute une ligne cosmétique par deux points. Les points peuvent être 2D ou 3D. La ligne résultante peut être utilisée pour la cotation. L\'apparence de la ligne peut être modifiée à l\'aide de l\'outil [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md).
+L\'outil **Ligne cosmétique par 2 points** ajoute une ligne cosmétique par deux points. Les points peuvent être 2D ou 3D. La ligne résultante peut être utilisée pour la cotation. L\'apparence de la ligne peut être modifiée à l\'aide de l\'outil [Apparence des lignes](TechDraw_DecorateLine/fr.md).
 
 <img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
 
@@ -27,18 +27,18 @@ L\'outil Ligne cosmétique ajoute une ligne cosmétique par deux points. Les poi
 3.  Une boîte de dialogue s\'ouvre dans laquelle vous pouvez ajuster les coordonnées des 2 points.
 4.  Une ligne sera ajoutée pour connecter les 2 sommets sélectionnés. Dans le cas de points 3D, la ligne reliera la projection des points sélectionnés.
 
-Pour supprimer une ligne cosmétique, sélectionnez-la et utilisez le bouton de la barre d\'outils **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
-
 ## Modification des lignes cosmétiques 
 
-Pour modifier les extrémités d\'une ligne cosmétique, **<img src="images/TechDraw-line2points.svg" width=16px> Ajouter une ligne cosmétique par 2 points**.
+Pour modifier les extrémités d\'une ligne cosmétique    *
 
 1.  Sélectionnez la ligne cosmétique.
 2.  Appuyez sur **<img src="images/TechDraw-line2points.svg" width=16px> Ajoutez une ligne cosmétique par 2 points**.
 3.  Une boîte de dialogue s\'ouvre dans laquelle vous pouvez modifier les coordonnées des extrémités.
 4.  Appuyez sur **OK** pour voir vos modifications.
 
-Pour modifier l\'apparence d\'une ligne cosmétique, utilisez [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md).
+Pour supprimer une ligne cosmétique, utilisez **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
+
+Pour modifier l\'apparence d\'une ligne cosmétique, utilisez <img alt="" src=images/TechDraw_DecorateLine.svg  style="width   *16px;"> [TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md).
 
 ## Propriétés
 

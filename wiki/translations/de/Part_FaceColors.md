@@ -11,7 +11,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Die **FlächenFarben** Funktion ermöglicht es dir, eine Farbe für jede Fläche oder Oberfläche eines Objekts zu definieren. Auf diese Weise kannst du einem Teil mehrere Farben zuweisen. Um ganze Teile einzufärben, verwende stattdessen das Feature *[SettzeErscheinungsbild](Std_SetAppearance/de.md)*.
+
+
+</div>
 
 ## Verwendung
 
@@ -35,8 +41,14 @@ Um alle Flächenfarben zurückzusetzen   *
 
 1.  Klicke auf **Auf Standard setzen**. Dadurch werden die Farben aller Flächen des Teils auf die Standardfarbe gesetzt. Die Schaltfläche funktioniert sofort, d. h., du kannst dies nicht mit der **Abbrechen** Schaltfläche rückgängig machen.
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Part_FaceColors-dialog.png ) 
 *Der FlächenFarben Dialog*
+
+
+</div>
 
 
 

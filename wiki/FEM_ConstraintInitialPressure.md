@@ -21,7 +21,7 @@ Creates an initial pressure constraint for a fluid flow analysis.
 
 ## Notes
 
-In simple analyses, it is not necessary to specify the initial pressure, however it is recommended as best practice.
+For simple analyses, it is not necessary to specify the initial pressure, however also in these cases it is recommended as best practice.
 
 
 

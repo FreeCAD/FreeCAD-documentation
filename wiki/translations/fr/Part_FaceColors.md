@@ -15,22 +15,23 @@ La fonction **Définir les couleurs** vous permet de définir une couleur pour c
 
 ## Utilisation
 
-Pour colorer les faces   *
+Pour colorier les faces    *
 
-1.  Faites un clic droit sur un élément dans l\'arborescence. Si les éléments prennent en charge la fonction *Définir les couleurs*, il y a une entrée de menu contextuel **Définir les couleurs\...** et vous pouvez cliquer dessus.
-2.  Pour sélectionner la(s) face(s)   *
-    1.  Pour une seule face cliquez simplement dessus, puis sélectionnez dans la boîte de dialogue sa couleur.
-    2.  Pour sélectionner plusieurs faces, maintenez **Ctrl** enfoncée et cliquez sur plusieurs faces.
-        Ou cliquez dans la boîte de dialogue sur le bouton **Sélection par boîte**. Ensuite, vous pouvez faire glisser avec la souris un rectangle de sélection dans le modèle. Chaque face qui est partiellement dans le rectangle de sélection sera sélectionnée.
-3.  Choisissez dans la boîte de dialogue une couleur pour les faces sélectionnées. {{Version/fr|0.20}}    * La couleur peut également recevoir une transparence en définissant le *canal Alpha*.
-4.  Cliquez sur **OK** pour fermer la boîte de dialogue et accepter les modifications que vous avez effectuées.
+1.  Faites un clic droit sur un objet dans la [Vue en arborescence](Tree_view/fr.md). Si l\'objet supporte la fonctionnalité *FaceColors*, il y a une entrée de menu contextuel **Set colors\...** et vous pouvez cliquer dessus.
+2.  Pour sélectionner une ou plusieurs faces    *
+    -   Pour une seule face, cliquez simplement dessus.
+    -   Pour sélectionner plusieurs faces    *
+        -   Maintenez **Ctrl** enfoncé et cliquez sur plusieurs faces.
+        -   Ou cliquez sur le bouton **Sélection par boîte** dans le panneau des tâches. Vous pouvez alors faire glisser un rectangle de sélection dans la [Vue 3D](3D_view/fr.md) avec la souris. Chaque face qui se trouve partiellement à l\'intérieur du rectangle sera sélectionnée.
+3.  Choisissez une couleur pour les faces sélectionnées dans le panneau des tâches. {{Version/fr|0.20}}    * la couleur peut également être rendue transparente en définissant le *Canal alpha*.
+4.  Cliquez sur le bouton **OK** pour fermer le panneau des tâches et accepter les modifications.
 
-Pour réinitialiser toutes les couleurs de la face   *
+Pour réinitialiser toutes les couleurs de la face    *
 
 1.  Cliquez sur **Définir par défaut**. Cela définit les couleurs de toutes les faces de la pièce à la couleur par défaut. Le bouton fonctionne instantanément, c\'est-à-dire que vous ne pouvez pas revenir en arrière avec le bouton **Annuler**.
 
 ![](images/Part_FaceColors-dialog.png ) 
-*La boîte de dialogue Définir la couleur des faces*
+*Le panneau des tâches Définir la couleur des faces*
 
 
 

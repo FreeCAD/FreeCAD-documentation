@@ -22,7 +22,7 @@ Deschide [FreeCAD Website](https   *//www.freecadweb.org/) în Internet browser 
 
 The **Std FreeCADWebsite** command opens the main website of the FreeCAD project in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https   *//www.freecadweb.org>](https   *//www.freecadweb.org/).
+Currently the command points to [<https   *//www.freecad.org>](https   *//www.freecad.org/).
 
 
 <div class="mw-translate-fuzzy">

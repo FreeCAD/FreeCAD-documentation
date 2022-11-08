@@ -201,9 +201,9 @@
 
 -   <img alt="" src=images/Fasteners_DIN96.svg  style="width   *32px;"> **DIN 96** Slotted half round head wood screw.
 
--   <img alt="" src=images/Fasteners_GOST1144-1.svg  style="width   *32px;"> **GOST 1144-1** Slotted half round head wood screw.
+-   <img alt="" src=images/Fasteners_GOST1144-1.svg  style="width   *32px;"> **ГОСТ 1144 (Исполнение 1)** Шуруп с полукруглой головкой.
 
--   <img alt="" src=images/Fasteners_GOST1144-2.svg  style="width   *32px;"> **GOST 1144-2** Slotted half round head wood screw.
+-   <img alt="" src=images/Fasteners_GOST1144-1.svg  style="width   *32px;"> **ГОСТ 1144 (Исполнение 2)** Шуруп с полукруглой головкой.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width   *32px;"> **ASME B18.6.3.1A** UNC Винт с потайной головкой и прямым шлицем.
 
@@ -235,21 +235,22 @@
 **ISO 4033** **(ГОСТ Р ИСО 4033)** Гайка шестигранная высокая (тип 2). *Классы точности А и В.*
 
 -   <img alt="" src=images/Fasteners_ISO4035.svg  style="width   *32px;"> 
-**ISO 4035** **(ГОСТ Р ИСО 4033)** Гайка шестигранная низкая с фаской (тип 0). *Классы точности А и В.*
+**ISO 4035** **(ГОСТ Р ИСО 4035)** Гайка шестигранная низкая с фаской (тип 0). *Классы точности А и В.*
 
--   <img alt="" src=images/Fasteners_EN1661.svg  style="width   *32px;"> **EN 1661** Гайка шестигранная с фланцем.
+-   <img alt="" src=images/Fasteners_EN1661.svg  style="width   *32px;"> **EN 1661** **(Ближайший аналог ГОСТ 50592 / ISO 4161 / DIN 6923 )** Гайка шестигранная с фланцем.
 
 -   <img alt="" src=images/Fasteners_DIN917.svg  style="width   *32px;"> **DIN 917** **(Ближайший аналог ГОСТ 11860 Исполнение 2)** Гайка колпачковая, низкая.
 
 -   <img alt="" src=images/Fasteners_DIN1587.svg  style="width   *32px;"> **DIN 1587** **(Ближайший аналог ГОСТ 11860 Исполнение 1)** Гайка колпачковая.
 
--   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width   *32px;"> **GOST 11860-1** Cap nut.
+-   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width   *32px;"> 
+**ГОСТ 11860 (Исполнение 1)** Гайка колпачковая. *Класс точности А.*
 
--   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** T-slot nut.
+-   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** Гайка для Т-образных пазов.
 
--   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Гайка квадратная с фаской.
+-   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** **(Ближайший аналог ОСТ 37.001.112)** Гайка квадратная с фаской.
 
--   <img alt="" src=images/Fasteners_DIN562.svg  style="width   *32px;"> **DIN 562** Гайка квадратная низкая.
+-   <img alt="" src=images/Fasteners_DIN562.svg  style="width   *32px;"> **DIN 562** **(Ближайший аналог ОСТ 37.001.112)** Гайка квадратная низкая.
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width   *32px;"> **DIN 985** **(Ближайший аналог ГОСТ 50273)** Гайка самоконтрящаяся со стопорным кольцом.
 
@@ -269,7 +270,7 @@
 
 -   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width   *32px;"> **ISO 7093-1** **(ГОСТ Р ИСО 7093-1)** Шайба плоская. Крупная серия. *Класс точности А*.
 
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** Шайба плоская. Особо крупная серия. *Класс точности C*.
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width   *32px;"> **ISO 7094** **(Ближайший аналог ГОСТ 28848)** Шайба плоская. Особо большая. *Класс точности C*.
 
 -   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width   *32px;"> **NFE27-619** Шайба-розетка полнотелая для винтов с потайной головкой.
 

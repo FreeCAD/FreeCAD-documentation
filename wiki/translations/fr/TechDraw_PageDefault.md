@@ -22,7 +22,7 @@ L\'outil Page par défaut crée un nouvel objet Page à l\'aide du fichier de mo
 
 ## Remarques
 
--   Si une page est marquée comme \"Ne pas garder à jour\" soit par le biais de la propriété KeepUpdated ou par le paramètre dans les Préférences, les changements dans le modèle 3D seront ignorés. Vous pouvez remarquer des anomalies (géométrie manquante, valeurs de dimension manquantes, etc.) dans l\'apparence de la page. Ceux-ci se corrigent une fois que la Page est mise à jour avec l\'outil [Redessiner une page](TechDraw_RedrawPage/fr.md). L\'icône <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width   *24px;"> de la page s\'affiche dans l\'arborescence lorsque la mise à jour est suspendue. Ce paramètre affecte également le processus de démarrage. Si la page est marquée \"ne pas garder à jour\", elle ne sera pas dessinée au début du programme.
+-   Si une page est marquée comme \"Ne pas garder à jour\" soit par le biais de la propriété KeepUpdated ou par le paramétrage dans les Préférences, les changements dans le modèle 3D seront ignorés. Vous pouvez remarquer des anomalies (géométrie manquante, valeurs de dimension manquantes, etc.) dans l\'apparence de la page. Celles-ci se corrigent une fois que la Page est mise à jour avec l\'outil [Redessiner une page](TechDraw_RedrawPage/fr.md). L\'icône <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width   *24px;"> de la page s\'affiche dans l\'arborescence lorsque la mise à jour est suspendue. Ce paramètre affecte également le processus de démarrage. Si la page est marquée \"ne pas garder à jour\", elle ne sera pas dessinée au début du programme.
 
 -   Si le modèle par défaut n\'est pas spécifié dans votre fichier de configuration utilisateur `user.cfg`, l\'outil va essayer    *
 
@@ -59,35 +59,33 @@ L\'outil Page par défaut crée un nouvel objet Page à l\'aide du fichier de mo
 
 {{TitleProperty|Page}}
 
--    **Projection Type**   * Type de projection par défaut (premier ou troisième angle) pour cette page.
+-    **KeepUpdated**   * si la valeur est false, la page n\'est pas mise à jour avec les modifications apportées au modèle 3D. Utile pour les dessins compliqués/lents. Voir les Remarques.
 
--    **KeepUpdated**   * Si la valeur est false, la page n\'est pas mise à jour avec les modifications apportées au modèle 3D. Utile pour les dessins compliqués/lents. Voir les Remarques.
+-    **Template**   * lien vers l\'objet [Modèle](TechDraw_Templates/fr.md) de cette page.
 
--    **Template**   * Un lien vers cette Page [Modèle](TechDraw_Templates/fr.md) .
+-    **Views**   * liste de liens vers les vues sur cette page.
 
--    **Views**   * Une liste de liens vers les vues sur cette page.
+-    **Scale**   * échelle par défaut pour les Vues dans cette page.
 
--    **Scale**   * Échelle par défaut pour les Vues dans cette page.
-
--    **Next Balloon Index**   * Numérotation automatique des infobulles.
+-    **Next Balloon Index**   * numérotation automatique des infobulles.
 
 ### Vue
 
 
 {{TitleProperty|Grid}}
 
--    **Show Grid**   * Afficher une grille sur cette page. {{Version/fr|0.20}}
+-    **Show Grid**   * affiche une grille sur cette page. {{Version/fr|0.20}}
 
--    **Grid Spacing**   * Distance entre les lignes de la grille en mm. {{Version/fr|0.20}}
+-    **Grid Spacing**   * distance entre les lignes de la grille en mm. {{Version/fr|0.20}}
 
 ## Script
 
 
-**See also    ***
+**Voir aussi    ***
 
-[TechDraw API](TechDraw_API/fr.md) et [FreeCAD Script de Base](FreeCAD_Scripting_Basics/fr.md).
+[TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Nouvelle page par défaut peut être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant les fonctions suivantes   * 
+L\'outil Page par défaut peut être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant les fonctions suivantes   * 
 ```python
 page = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawPage','Page')
 template = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawSVGTemplate','Template')

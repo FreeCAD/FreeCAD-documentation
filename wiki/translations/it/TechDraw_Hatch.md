@@ -45,14 +45,30 @@ Lo strumento Tratteggio da modello riempie una regione chiusa di una vista con u
 </div>
 
 
+   *   
+    
 ```python
-$INSTALL_DIR/data/Mod/TechDraw/Patterns
+    $INSTALL_DIR/data/Mod/TechDraw/Patterns
+    
 ```
+    
 
-dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esempio 
+
+<div class="mw-translate-fuzzy">
+
+dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esempio
+
+
+</div>
+
+
+   *   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/Patterns
+    /usr/share/freecad/data/Mod/TechDraw/Patterns
+    
 ```
+    
 
 
 <div class="mw-translate-fuzzy">

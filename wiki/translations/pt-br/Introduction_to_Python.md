@@ -1,18 +1,18 @@
 # Introduction to Python/pt-br
 {{TOCright}}
 
-## Introduction
+## Introdução
 
-This is a short tutorial for those new to [Python](https   *//en.wikipedia.org/wiki/Python_%28programming_language%29). Python is an open-source, multiplatform [programming language](https   *//en.wikipedia.org/wiki/Programming_language). It has several features that make it different from other programming languages, and very accessible to new users   *
+Este é um pequeno tutorial para aqueles que ainda não conhecem [Python](https   *//pt.wikipedia.org/wiki/Python). Python é uma [linguagem de programação](https   *//pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o) multiplataforma de código aberto que possui vários recursos que o diferenciam de outras linguagens, tornado seu aprendizado muito acessível aos novos usuários   *
 
--   It has been designed to be to readable by human beings, making it relatively easy to learn and understand.
--   It is interpreted, this means that programs do not need to be compiled before they can be executed. Python code can be executed immediately, even line by line if you wish.
--   It can be embedded in other programs as a scripting language. FreeCAD has an embedded Python interpreter. You can write Python code to manipulate parts of FreeCAD. This is very powerful, it means you can build your very own tools.
--   It is extensible, you can easily plug new modules into your Python installation and extend its functionality. For example, there are modules that allow Python to read and write images, to communicate with Twitter, to schedule tasks to be performed by your operating system, etc.
+-   Ele foi projetado para ser legível por seres humanos, tornando-o relativamente fácil de aprender e entender.
+-   É interpretado, isso significa que os programas não precisam ser compilados antes que possam ser executados. O código Python pode ser executado imediatamente, mesmo linha por linha, se desejar.
+-   Pode ser incorporado em outros programas como uma linguagem de script. O FreeCAD possui um interpretador Python embutido. Você pode escrever código em Python para manipular partes do FreeCAD. Isso é muito poderoso, significa que você pode criar suas próprias ferramentas.
+-   É extensível, você pode facilmente conectar novos módulos à sua instalação do Python e estender sua funcionalidade. Por exemplo, existem módulos que permitem que o Python leia e escreva imagens, se comunique com o Twitter, agende tarefas a serem executadas pelo seu sistema operacional etc.
 
-The following is a very basic introduction, and by no means a complete tutorial. But hopefully it will provide a good starting point for further exploration into FreeCAD and its mechanisms. We strongly encourage you to enter the code snippets below into a Python interpreter.
+Esse texto é uma introdução muito básica e não um tutorial completo. Mas esperamos que seja um ponto de partida e ajude a aprofundar seus conhecimento do FreeCAD e seus mecanismos. Recomendamos que você experimente os trechos de código abaixo em um interpretador Python.
 
-## The interpreter 
+## O interpretador 
 
 Usually when writing computer programs, you open a text editor or your special programming environment (which is basically a text editor with some additional tools), write your program, then compile and execute. Often one or more errors were made during entry, so your program won\'t work. You may even get an error message telling you what went wrong. Then you go back to your text editor, correct the mistakes, run again, repeating until your program works as intended.
 

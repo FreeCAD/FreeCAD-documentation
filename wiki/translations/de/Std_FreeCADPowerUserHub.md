@@ -13,7 +13,13 @@
 
 Der Befehl **Std DokumentationSkripterstellungMitPython** öffnet die (engl.) Seite \"Power users hub\" im voreingestellten Internet-Browser. Der Befehl erfordert eine funktionierende Internetverbindung.
 
+
+<div class="mw-translate-fuzzy">
+
 Aktuell verweist dieser Befehl auf die Seite [<https   *//www.freecadweb.org/wiki/Power_users_hub>](https   *//www.freecadweb.org/wiki/Power_users_hub).
+
+
+</div>
 
 ## Anwendung
 

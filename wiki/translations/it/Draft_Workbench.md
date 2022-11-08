@@ -26,7 +26,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Raccordo](Draft_Fillet/it.md)   * crea un raccordo, un angolo arrotondato, o uno smusso, un angolo retto, tra due [Linee](Draft_Line/it.md). {{Version/it|0.19}}
 
--   <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> Strumenti Arco
+-   <img alt="" src=images/Draft_Arc.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Arc tools   *
 
    ** <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Arco](Draft_Arc/it.md)   * crea un arco circolare da un centro, un raggio, un angolo iniziale e un angolo di apertura.
 
@@ -42,7 +42,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_BSpline.svg  style="width   *32px;"> [B-spline](Draft_BSpline/it.md)   * crea una curva B-spline da più punti.
 
--   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> Strumenti Bézier
+-   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Bézier tools   *
 
    ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Curva Cubica di Bézier](Draft_CubicBezCurve/it.md)   * crea una curva di Bézier di terzo grado.
 
@@ -84,7 +84,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_Clone.svg  style="width   *32px;"> [Clona](Draft_Clone/it.md)   * crea copie collegate, cloni, ​​di oggetti selezionati.
 
--   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> Strumenti serie
+-   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Array tools   *
 
    ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Serie](Draft_OrthoArray/it.md)   * crea una serie ortogonale da un oggetto selezionato. Può opzionalmente creare una serie di [Link](App_Link.md).
 

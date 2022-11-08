@@ -39,6 +39,8 @@ Są to narzędzia do tworzenia obiektów widoku.
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Wstaw widok sekcji na stronę](TechDraw_SectionView/pl.md)   * dodaje widok przekroju dla aktualnego widoku.
 
+-   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
+
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width   *32px;"> [Wstaw widok szczegółu](TechDraw_DetailView/pl.md)   * dodaje widok szczegółu części wybranego widoku.
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width   *32px;"> [Wstaw widok obiektu Rysunek Roboczy](TechDraw_DraftView/pl.md)   * dodaje do widoku strony obiekt ze środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md).

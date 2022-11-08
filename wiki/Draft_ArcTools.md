@@ -1,5 +1,5 @@
 # Draft ArcTools
-1.  REDIRECT [Draft\_Workbench\#Arc\_tools](Draft_Workbench#Arc_tools.md)
+1.  REDIRECT [Draft_Workbench#Draft_ArcTools](Draft_Workbench#Draft_ArcTools.md)
 
 
 

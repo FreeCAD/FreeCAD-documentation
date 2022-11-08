@@ -13,7 +13,13 @@
 
 Der Befehl **Std FreeCADForum** öffnet die Startseite des FreeCAD-Forums im voreingestellten Internet-Browser. Der Befehl erfordert eine funktionierende Internetverbindung.
 
+
+<div class="mw-translate-fuzzy">
+
 Aktuell verweist der Befehl auf [<https   *//forum.freecadweb.org>](https   *//forum.freecadweb.org).
+
+
+</div>
 
 ## Anwendung
 

@@ -25,7 +25,7 @@ Crée une contrainte de pression initiale pour une analyse d\'écoulement de flu
 
 ## Remarques
 
-Dans les analyses simples, il n\'est pas nécessaire de spécifier la pression initiale, mais cela est recommandé comme meilleure pratique.
+Pour des analyses simples, il n\'est pas nécessaire de spécifier la pression initiale, mais dans ces cas également, il est recommandé de le faire en tant que meilleure pratique.
 
 
 

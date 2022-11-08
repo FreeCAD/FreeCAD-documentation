@@ -88,7 +88,7 @@ Remapping a sketch in this way can be done every time there is a topological nam
 
 The [dependency graph](Std_DependencyGraph.md) is a tool that is helpful to observe the relationships between the different bodies in the document. Using the original modelling workflow reveals the direct relationship that exists between the sketches and the pads. Like a chain, it is easy to see that this direct dependence will be subject to topological naming problems if any of the links in the sequence changes.
 
-As explained in the [feature editing](feature_editing.md) page, a solution to this problem is to support sketches not on faces but on datum planes which are offset from the main planes of the [PartDesign Body\'s](PartDesign_Body.md) Origin.
+As explained on the [feature editing](Feature_editing.md) page, a solution to this problem is to support sketches not on faces but on datum planes which are attached to, and offset from, the main planes of the [PartDesign Body\'s](PartDesign_Body.md) Origin.
 
 1\. Select the origin of the [PartDesign Body](PartDesign_Body.md) and make sure that it is visible. Then select the XY plane, and click on [PartDesign Plane](PartDesign_Plane.md). In the attachment offset dialog, give it an offset in the Z direction so that the datum plane is coplanar with the top face of the first pad.
 

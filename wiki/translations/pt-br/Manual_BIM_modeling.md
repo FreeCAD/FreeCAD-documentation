@@ -67,7 +67,7 @@ The individual walls are however still accessible, by expanding the wall in the 
 -   Start by selecting the wall. This is not necessary, but a good habit to take. If an object is selected when starting the window tool, you will force the window to be inserted in that object, even if you snap to another object.
 -   Set the [Working Plane](Draft_SelectPlane.md) to **auto** so we are not restricted to the ground plane
 -   Press the <img alt="" src=images/Arch_Window.svg  style="width   *16px;"> [Window](Arch_Window.md) button.
--   In the window creation panel, select the **Simple door** preset, and set its **Width** to 0.9m and its **Height** to 2.1m
+-   In the window creation panel, select the **Glass door** preset, and set its **Width** to 0.9m and its **Height** to 2.1m
 -   Make sure the <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Near snap](Draft_Snap_Near.md) location is turned on, so we can snap on faces
 -   Place your window roughly on the middle of the front face of the wall   *
 

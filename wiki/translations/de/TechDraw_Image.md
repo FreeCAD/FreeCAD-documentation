@@ -23,9 +23,9 @@ Das Bild Werkzeug fügt ein [Bitmap](bitmap/de.md) Bild (PNG, JPEG, JPG, BMP usw
 
 ## Eigenschaften
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
-### Data
+### Daten
 
 
 {{TitleProperty|Image}}
@@ -38,12 +38,12 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 -    **Height|Float**   * The height of the cropped image in mm. Idem.
 
-### View
+### Ansicht
 
 
 {{TitleProperty|Image}}
 
--    **Crop|Bool**   * Crop the image to **Width** x **Height**.
+-    **Crop|Bool**   * Schneidet das Bild auf **Width** x **Height** zu.
 
 ## Skripten
 

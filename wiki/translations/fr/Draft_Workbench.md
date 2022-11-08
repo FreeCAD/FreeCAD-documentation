@@ -26,7 +26,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Congé](Draft_Fillet/fr.md)    * crée un congé, un coin arrondi, ou un chanfrein, un bord droit, entre deux [Draft Lignes](Draft_Line/fr.md).
 
--   <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> Outils d\'arc
+-   <img alt="" src=images/Draft_Arc.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Arc tools   *
 
    ** <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Arc](Draft_Arc/fr.md)    * crée un arc de cercle à partir d\'un centre, d\'un rayon, d\'un angle de départ et d\'un angle d\'ouverture.
 
@@ -42,7 +42,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_BSpline.svg  style="width   *32px;"> [B-spline](Draft_BSpline/fr.md)    * crée une courbe B-spline à partir de plusieurs points.
 
--   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> Outils de Bézier
+-   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Bézier tools   *
 
    ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md)    * crée une courbe de Bézier du troisième degré.
 
@@ -84,7 +84,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Clone.svg  style="width   *32px;"> [Clone](Draft_Clone/fr.md)    * crée des copies liées, des clones, des objets sélectionnés.
 
--   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> Outils de réseaux
+-   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Array tools   *
 
    ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Réseau orthogonal](Draft_OrthoArray/fr.md)    * crée un réseau orthogonal à partir d\'un objet sélectionné. Cela peut éventuellement créer un réseau de [Link](App_Link/fr.md).
 

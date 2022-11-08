@@ -30,24 +30,24 @@ Das Detailwerkzeug erstellt eine vergrößerte Ansicht eines kleinen Bereichs ei
 
 Die Detailansicht kann innerhalb eines runden oder quadratischen Ansichtskastens angezeigt werden. Dies wird durch die [Einstellungen](TechDraw_Preferences#Annotation/de.md) Einstellung **Detailansicht Umrißform** gesteuert.
 
-## Properties Detail View 
+## Eigenschaften Detailansicht 
 
-See also [TechDraw View](TechDraw_View#Properties.md).
+Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md).
 
-### Data
+### Daten
 
 
 {{TitleProperty|Detail}}
 
--    **Base View|Link**   * The view on which this Detail view is based.
+-    {{PropertyData/de|Base View|Link}}   * Die Ansicht auf der diese Detailansicht basiert.
 
--    **Anchor Point|Vector**   * The center of the Detail view within the **Base View**.
+-    {{PropertyData/de|Anchor Point|Vector}}   * Der Mittelpunkt der Detailansicht innerhalb der {{PropertyData/de|Base View}}.
 
--    **Radius|Float**   * The size of the area in the **Base View** that is displayed in the Detail view.
+-    {{PropertyData/de|Radius|Float}}   * Die Größe des Bereichs in der {{PropertyData/de|Base View}}, der in der Detailansicht dargestellt wird.
 
--    **Reference|String**   * An identifier for the Detail view in the **Base View**.
+-    {{PropertyData/de|Reference|String}}   * Ein Bezeichner für die Detailansicht in der {{PropertyData/de|Base View}}.
 
-## Properties Base View 
+## Eigenschaften Basisansicht 
 
 Eine Detailansicht erbt alle anwendbaren Eigenschaften der als {{PropertyData/de|Base View}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kann das Aussehen des Detailumrisses geändert werden   *
 

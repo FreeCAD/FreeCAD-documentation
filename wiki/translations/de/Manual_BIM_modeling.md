@@ -63,6 +63,9 @@ Jetzt müssen wir diese Wände miteinander verbinden, so dass sie sich sauber sc
 
 Die einzelnen Wände sind nach wie vor zugänglich, wenn die Wand in der Baumansicht expandiert wird.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Lass uns nun eine Tür platzieren. In FreeCAD werden Türen als ein Sonderfall von Fenstern betrachtet, daher wird dies mit dem [Fenster](Arch_Window/de.md) Werkzeug durchgeführt.
 -   Beginne mit der Auswahl der Wand. Dies ist nicht notwendig, sollte aber eine gute Angewohnheit werden. Wenn ein Objekt ausgewählt ist, wenn das Fenster Werkzeug gestartet wird, erzwingst du, dass das Fenster in dieses Objekt eingefügt wird, auch wenn du auf ein anderes Objekt fängst.
 -   Setze die [Arbeitsebene](Draft_SelectPlane/de.md) auf **auto**, so dass wir nicht auf die Grundebene beschränkt sind.
@@ -70,6 +73,9 @@ Die einzelnen Wände sind nach wie vor zugänglich, wenn die Wand in der Baumans
 -   Wähle im Fenster Erstellungspaneel die \"Simple door\" Vorgabe und setze **Width** auf 0,9 m und **Height** auf 2,1 m
 -   Stelle sicher, dass die <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Nächste Fang](Draft_Snap_Near/de.md) eingeschaltet ist, damit wir auf Flächen fangen können
 -   Platziere dein Fenster ungefähr in der Mitte der Stirnseite der Wand   *
+
+
+</div>
 
 ![](images/Exercise_arch_06.jpg )
 

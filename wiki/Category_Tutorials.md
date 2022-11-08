@@ -32,20 +32,21 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 | [Manual:Traditional modeling, the CSG way](wiki/Manual_Traditional modeling, the CSG way.md) | [Manual:Using spreadsheets](wiki/Manual_Using spreadsheets.md) | [Measurement Of Angles On Holes](wiki/Measurement Of Angles On Holes.md) |
 | [PartDesign Bearingholder Tutorial I](wiki/PartDesign Bearingholder Tutorial I.md) | [PartDesign Bearingholder Tutorial II](wiki/PartDesign Bearingholder Tutorial II.md) | [PartDesign tutorial](wiki/PartDesign tutorial.md) |
 | [Path Walkthrough for the Impatient](wiki/Path Walkthrough for the Impatient.md) | [Plot Basic tutorial](wiki/Plot Basic tutorial.md) | [Plot MultiAxes tutorial](wiki/Plot MultiAxes tutorial.md) |
-| [Post-Processing of FEM Results with Paraview](wiki/Post-Processing of FEM Results with Paraview.md) | [Raytracing tutorial](wiki/Raytracing tutorial.md) | [Robot 6-Axis](wiki/Robot 6-Axis.md) |
-| [Robot tutorial](wiki/Robot tutorial.md) | [Sandbox:Add FEM Solver Tutorial](wiki/Sandbox_Add FEM Solver Tutorial.md) | [Sandbox:Hollow Cylinder Tutorial](wiki/Sandbox_Hollow Cylinder Tutorial.md) |
-| [Sandbox:Simbioz](wiki/Sandbox_Simbioz.md) | [Sandbox:TechDraw template creation tutorial](wiki/Sandbox_TechDraw template creation tutorial.md) | [Sandbox:TutorialArchBIM](wiki/Sandbox_TutorialArchBIM.md) |
-| [Sandbox:TutorialBIMannex](wiki/Sandbox_TutorialBIMannex.md) | [Scripted Parts: Ball Bearing - Part 1](wiki/Scripted Parts_ Ball Bearing - Part 1.md) | [Scripted Parts: Ball Bearing - Part 2](wiki/Scripted Parts_ Ball Bearing - Part 2.md) |
-| [Scripts](wiki/Scripts.md) | [Sketcher Micro Tutorial - Constraint Practices](wiki/Sketcher Micro Tutorial - Constraint Practices.md) | [Sketcher reference](wiki/Sketcher reference.md) |
-| [Sketcher requirement for a sketch](wiki/Sketcher requirement for a sketch.md) | [Sketcher Tutorial](wiki/Sketcher Tutorial.md) | [TechDraw HowTo Page](wiki/TechDraw HowTo Page.md) |
-| [TechDraw Pitch Circle Tutorial](wiki/TechDraw Pitch Circle Tutorial.md) | [TechDraw TemplateGenerator](wiki/TechDraw TemplateGenerator.md) | [TechDraw TemplateHowTo](wiki/TechDraw TemplateHowTo.md) |
-| [Thread for Screw Tutorial](wiki/Thread for Screw Tutorial.md) | [Toothbrush Head Stand](wiki/Toothbrush Head Stand.md) | [Transient FEM analysis](wiki/Transient FEM analysis.md) |
-| [Tutorial custom placing of windows and doors](wiki/Tutorial custom placing of windows and doors.md) | [Tutorial for open windows](wiki/Tutorial for open windows.md) | [Tutorial FreeCAD POV ray](wiki/Tutorial FreeCAD POV ray.md) |
-| [Tutorial guidelines](wiki/Tutorial guidelines.md) | [Tutorial KinematicAssembly](wiki/Tutorial KinematicAssembly.md) | [Tutorial KinematicController](wiki/Tutorial KinematicController.md) |
-| [Tutorial KinematicSkeleton](wiki/Tutorial KinematicSkeleton.md) | [Tutorial Render with Blender](wiki/Tutorial Render with Blender.md) | [Template:TutorialInfo](wiki/Template_TutorialInfo.md) |
-| [Tutorials](wiki/Tutorials.md) | [Video tutorials](wiki/Video tutorials.md) | [Video tutorials for architectural design](wiki/Video tutorials for architectural design.md) |
-| [Video tutorials for product design](wiki/Video tutorials for product design.md) | [Video tutorials obsolete](wiki/Video tutorials obsolete.md) | [VRML Preparation for Robot Simulation](wiki/VRML Preparation for Robot Simulation.md) |
-| [Whiffle Ball tutorial](wiki/Whiffle Ball tutorial.md) | [Wikihouse porting tutorial](wiki/Wikihouse porting tutorial.md) |
+| [Post-Processing of FEM Results with Paraview](wiki/Post-Processing of FEM Results with Paraview.md) | [Private Preference Packs](wiki/Private Preference Packs.md) | [Raytracing tutorial](wiki/Raytracing tutorial.md) |
+| [Robot 6-Axis](wiki/Robot 6-Axis.md) | [Robot tutorial](wiki/Robot tutorial.md) | [Sandbox:Add FEM Solver Tutorial](wiki/Sandbox_Add FEM Solver Tutorial.md) |
+| [Sandbox:Hollow Cylinder Tutorial](wiki/Sandbox_Hollow Cylinder Tutorial.md) | [Sandbox:Simbioz](wiki/Sandbox_Simbioz.md) | [Sandbox:TechDraw template creation tutorial](wiki/Sandbox_TechDraw template creation tutorial.md) |
+| [Sandbox:TutorialArchBIM](wiki/Sandbox_TutorialArchBIM.md) | [Sandbox:TutorialBIMannex](wiki/Sandbox_TutorialBIMannex.md) | [Scripted Parts: Ball Bearing - Part 1](wiki/Scripted Parts_ Ball Bearing - Part 1.md) |
+| [Scripted Parts: Ball Bearing - Part 2](wiki/Scripted Parts_ Ball Bearing - Part 2.md) | [Scripts](wiki/Scripts.md) | [Sketcher Micro Tutorial - Constraint Practices](wiki/Sketcher Micro Tutorial - Constraint Practices.md) |
+| [Sketcher reference](wiki/Sketcher reference.md) | [Sketcher requirement for a sketch](wiki/Sketcher requirement for a sketch.md) | [Sketcher Tutorial](wiki/Sketcher Tutorial.md) |
+| [TechDraw HowTo Page](wiki/TechDraw HowTo Page.md) | [TechDraw Pitch Circle Tutorial](wiki/TechDraw Pitch Circle Tutorial.md) | [TechDraw TemplateGenerator](wiki/TechDraw TemplateGenerator.md) |
+| [TechDraw TemplateHowTo](wiki/TechDraw TemplateHowTo.md) | [Thread for Screw Tutorial](wiki/Thread for Screw Tutorial.md) | [Toothbrush Head Stand](wiki/Toothbrush Head Stand.md) |
+| [Transient FEM analysis](wiki/Transient FEM analysis.md) | [Tutorial custom placing of windows and doors](wiki/Tutorial custom placing of windows and doors.md) | [Tutorial for open windows](wiki/Tutorial for open windows.md) |
+| [Tutorial FreeCAD POV ray](wiki/Tutorial FreeCAD POV ray.md) | [Tutorial guidelines](wiki/Tutorial guidelines.md) | [Tutorial KinematicAssembly](wiki/Tutorial KinematicAssembly.md) |
+| [Tutorial KinematicController](wiki/Tutorial KinematicController.md) | [Tutorial KinematicSkeleton](wiki/Tutorial KinematicSkeleton.md) | [Tutorial Render with Blender](wiki/Tutorial Render with Blender.md) |
+| [Template:TutorialInfo](wiki/Template_TutorialInfo.md) | [Tutorials](wiki/Tutorials.md) | [Video tutorials](wiki/Video tutorials.md) |
+| [Video tutorials for architectural design](wiki/Video tutorials for architectural design.md) | [Video tutorials for product design](wiki/Video tutorials for product design.md) | [Video tutorials obsolete](wiki/Video tutorials obsolete.md) |
+| [VRML Preparation for Robot Simulation](wiki/VRML Preparation for Robot Simulation.md) | [Whiffle Ball tutorial](wiki/Whiffle Ball tutorial.md) | [Wikihouse porting tutorial](wiki/Wikihouse porting tutorial.md) |
+|
 
 
 

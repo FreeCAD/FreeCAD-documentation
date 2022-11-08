@@ -38,6 +38,8 @@ These are tools for creating View objects.
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Insert Section View](TechDraw_SectionView.md)   * inserts a cross-section view of an existing view.
 
+-   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
+
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width   *32px;"> [Insert Detail View](TechDraw_DetailView.md)   * inserts a detail view of a portion of an existing view.
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width   *32px;"> [Insert Draft Workbench Object](TechDraw_DraftView.md)   * inserts a view of a [Draft Workbench](Draft_Workbench.md) object.

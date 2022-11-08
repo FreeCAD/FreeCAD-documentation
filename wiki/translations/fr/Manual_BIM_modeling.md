@@ -67,9 +67,9 @@ Les parois individuelles sont cependant toujours accessibles, en développant l\
 -   Commencez par sélectionner le mur. Ceci n\'est pas indispensable, mais une bonne habitude à prendre. Si un objet est sélectionné lors du démarrage de l\'outil Fenêtre, vous forcerez la fenêtre à s'insérer dans cet objet même si vous vous placez sur un autre objet.
 -   Réglez le [Draft Plan de travail](Draft_SelectPlane/fr.md) sur **auto** donc nous ne sommes pas restreints au plan de masse.
 -   Appuyez sur le bouton <img alt="" src=images/Arch_Window.svg  style="width   *16px;"> [Arch Fenêtre](Arch_Window/fr.md).
--   Dans le panneau de création de la fenêtre, sélectionnez le modèle **Porte Simple** et définissez sa **largeur** à 0,9 m et sa **hauteur** à 2,1 m.
--   Assurez-vous que l\'option Accrochage au point <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [le plus proche](Draft_Snap_Near/fr.md) est activée afin que nous puissions accrocher les objets à des faces.
--   Placez votre fenêtre à peu près au milieu de la face avant du mur   *
+-   Dans le panneau de création de la fenêtre, sélectionnez le modèle **Porte vitrée** et définissez sa **largeur** à 0,9 m et sa **hauteur** à 2,1 m.
+-   Assurez-vous que l\'option Aimantation au point <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [le plus proche](Draft_Snap_Near/fr.md) est activée afin que nous puissions aimanter les objets aux faces.
+-   Placez votre fenêtre à peu près au milieu de la face avant du mur    *
 
 ![](images/Exercise_arch_06.jpg )
 

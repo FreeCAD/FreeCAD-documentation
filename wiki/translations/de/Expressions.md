@@ -68,6 +68,9 @@ Die folgenden mathematischen Funktionen werden untertstützt   *
 
 [Trigonometrische Funktionen](https   *//de.wikipedia.org/wiki/Trigonometrische_Funktion) verwenden Grad als Standardeinheit. Für die Angabe im Bogenmaß wird ersten Wert in einem Ausdruck hinzugefügt. So ist z.B. `cos(45)` das gleiche, wie `cos(pi rad / 4)`. Ausdrücke in Grad können entweder `deg` oder `°` verwenden, z.B. `360deg - atan2(3; 4)` oder `360&deg; - atan2(3; 4)`. Ein Ausdruck, der ohne Einheiten angegeben ist und aus Kompatibilitätsgründen in Grad oder Bogenmaß umgewandelt werden muss, wird mit `1&nbsp;deg`, `1&nbsp;°` oder `1&nbsp;rad` multipliziert, gegebenenfalls, z.B. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
 
+
+<div class="mw-translate-fuzzy">
+
   Funktion      Beschreibung                                                                                                               Wertebereich
     
   acos(x)       [arccos](https   *//de.wikipedia.org/wiki/Arkusfunktion#Beziehungen_zwischen_den_Funktionen)                                  -1 \<= x \<= 1
@@ -83,7 +86,13 @@ Die folgenden mathematischen Funktionen werden untertstützt   *
   hypot(x; y)   [Pythagoreische Addition](https   *//de.wikipedia.org/wiki/Pythagoreische_Addition) (**Hypot**enuse), z.B. hypot(4; 3) = 5.   x und y \> 0
   cath(x; y)    Die gegebene Hypotenuse und eine Seite ergibt die andere Seite eines Dreiecks, z.B. cath(5; 3) = 4.                        x und y \> 0, x \>= y
 
+
+</div>
+
 #### Exponential- und Logarithmusfunktionen 
+
+
+<div class="mw-translate-fuzzy">
 
   Funktion    Beschreibung                                                                                        Wertebereich
     
@@ -93,7 +102,13 @@ Die folgenden mathematischen Funktionen werden untertstützt   *
   pow(x, y)   [Potenz (Mathematik)](https   *//de.wikipedia.org/wiki/Potenz_(Mathematik))                            alle
   sqrt(x)     [Quadratwurzel](https   *//de.wikipedia.org/wiki/Quadratwurzel)                                        x \>= 0
 
+
+</div>
+
 #### Rundung, Trunkierung und Modulo 
+
+
+<div class="mw-translate-fuzzy">
 
   Funktion    Beschreibung                                                                                                                                               Wertebereich
     
@@ -105,6 +120,9 @@ Die folgenden mathematischen Funktionen werden untertstützt   *
   trunc(x)    [Trunkierung](https   *//de.wikipedia.org/wiki/Trunkierung_(Mathematik)) auf die nächste Ganzzahl (Kürzen auf einer Reihe oder Zahl auf eine gewisse Länge)   alle
 
 
+</div>
+
+
 {{Top}}
 
 ### Statistische / Aggregatfunktionen 
@@ -114,6 +132,9 @@ Einzelne Argumente für Aggregatfunktionen können aus Zellbereichen bestehen. E
 
 Diese Aggregatfunktionen werden unterstützt   *
 
+
+<div class="mw-translate-fuzzy">
+
   Funktion                 Beschreibung                                                                                                                                                    Wertebereich
     
   average(a; b; c; \...)   [Arithmetisches Mittel](https   *//de.wikipedia.org/wiki/Arithmetisches_Mittel) der Werte der Argumente; dasselbe, wie sum(a; b; c; \...) / count(a; b; c; \...)   alle
@@ -122,6 +143,9 @@ Diese Aggregatfunktionen werden unterstützt   *
   min(a; b; c; \...)       [Minimum (Minimum)](https   *//de.wikipedia.org/wiki/Extremwert)-Werten der Argumente                                                                              alle
   stddev(a; b; c; \...)    [Varianz (Stochastik)](https   *//de.wikipedia.org/wiki/Varianz_(Stochastik)) der Werten der Argumente                                                             alle
   sum(a; b; c; \...)       [Summe](https   *//de.wikipedia.org/wiki/Summe) der Werte der Argumente; üblicherweise für Zellbereiche genutzt                                                    alle
+
+
+</div>
 
 
 {{Top}}

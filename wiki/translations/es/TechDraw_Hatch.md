@@ -41,17 +41,33 @@ La herramienta Achurado rellena una región cerrada en una Vista con un patrón 
 ## Notas
 
 -   Hatching objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information. It is recommended that hatching be one of the last steps in your drawing process.
--   Sample [SVG](SVG.md) patterns are available locally in
+-   Sample [SVG](SVG.md) patterns are available locally in   *
 
-
+   *   
+    
 ```python
-$INSTALL_DIR/data/Mod/TechDraw/Patterns
+    $INSTALL_DIR/data/Mod/TechDraw/Patterns
+    
 ```
+    
 
-where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example 
+   *   Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example   *
+
+   *   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/Patterns
-``` y también en [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+    /usr/share/freecad/data/Mod/TechDraw/Patterns
+    
+```
+    
+
+
+<div class="mw-translate-fuzzy">
+
+y también en [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+
+
+</div>
 
 ## Propiedades
 

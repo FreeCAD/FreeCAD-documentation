@@ -90,13 +90,7 @@ Ein FCGear-InternalInvoluteGear-Objekt wird von einem [Part-Formelement](Part_Fe
 
 {{Properties_Title|precision}}
 
-
-<div class="mw-translate-fuzzy">
-
 -    **simple|Bool**   * Standardwert ist {{false}}. {{true}} erzeugt eine vereinfachte Ansicht (ohne Zähne und mit nur einem Zylinder mit Teilkreisdurchmesser).
-
-
-</div>
 
 
 {{Properties_Title|tolerance}}

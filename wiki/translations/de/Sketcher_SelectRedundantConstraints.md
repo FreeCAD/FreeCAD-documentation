@@ -1,50 +1,27 @@
 ---
 - GuiCommand   */de
    Name   *Sketcher SelectRedundantConstraints
-   Name/de   *Skizzierer WähleRedundanteBeschränkungen
-   MenuLocation   *Skizze → Skizzierer Werkzeuge → Wähle Redundante Beschränkungen
-   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut   *Shift+Ctrl+R
+   Name/de   *Sketcher SelectRedundantConstraints
+   MenuLocation   *Skizze → Skizzenwerkzeuge → Überflüssige Randbedingungen auswählen
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   ***Z** **P** **R**
    Version   *0.15
 ---
 
 # Sketcher SelectRedundantConstraints/de
 
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Wählt die redundanten Beschränkungen einer Skizze aus.
-
-
-</div>
+Wählt die überflüssigen Randbedingungen einer Skizze aus.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Rufe den Bearbeitungsmodus der Skizze auf.
-2.  Wähle**Skizze → Skizzierer Werkzeuge → [<img src=images/Sketcher_SelectRedundantConstraints.svg style="width   *16px"> Wähle Redundante Beschränkungen** aus dem oberen Menü.
-3.  Die redundanten Beschränkungen der Skizze werden ausgewählt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  In den Bearbeitungsmodus der Skizze wechseln.
+2.  Den Menüeintrag **Skizze → Skizzenwerkzeuge → [<img src=images/Sketcher_SelectRedundantConstraints.svg style="width   *16px"> Überflüssige Randbedingungen auswählen** auswählen.
+3.  Die überflüssigen Randbedingungen der Skizze werden ausgewählt.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

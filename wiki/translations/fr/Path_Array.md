@@ -10,7 +10,7 @@
 
 ## Description
 
-Cet outil crée un nouveau parcours en duplicant un autre parcours plusieurs fois avec un intervale donné.
+Cet outil crée un nouveau parcours en dupliquant un autre parcours plusieurs fois à une certaine distance d\'intervalle.
 
 ## Utilisation
 
@@ -22,15 +22,15 @@ Cet outil crée un nouveau parcours en duplicant un autre parcours plusieurs foi
 
 ## Propriétés
 
--    **Type**   * Le type de réseau (polaire, linéaire dans une ou deux directions)
+-    **Type**   * type de réseau (polaire, linéaire dans une ou deux directions)
 
--    **Offset**   * L\'espace entre les copies du réseau pour chaque direction
+-    **Offset**   * espace entre les copies du réseau pour chaque direction
 
--    **Copies**   * Le nombre de copies (sans compter l\'original) pour chaque direction
+-    **Copies**   * nombre de copies (sans compter l\'original) pour chaque direction
 
 ## Limitations
 
-Cette fonction ne fonctionne que sur les opérations de trajectoire réelles, et non sur les trajectoires dérivées produites par Path Dressups. Dans ce cas, l\'icône Array est désactivée.
+Cette fonction ne fonctionne que sur les opérations de trajectoire réelles, et non sur les trajectoires dérivées produites par les Finitions de parcours. Dans ce cas, l\'icône Réseau est désactivée.
 
 ## Script
 

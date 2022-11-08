@@ -4,7 +4,7 @@
    Author   *GlouGlou
    Time   *1 hour
    FCVersion   *0.17 or above
-   Files   *[https   *//github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd]
+   Files   *
    SeeAlso   *[Creating a simple part with Part WB](Creating_a_simple_part_with_Part_WB.md), [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB.md)
 ---
 

@@ -13,7 +13,7 @@
 
 La commande **Std Documentation utilisateurs** ouvre la page de documentation des utilisateurs FreeCAD dans le navigateur Internet par défaut du système. La commande nécessite une connexion Internet fonctionnelle.
 
-Actuellement, la commande pointe vers [<https   *//www.freecadweb.org/wiki/User_hub>](https   *//www.freecadweb.org/wiki/User_hub).
+Actuellement, la commande pointe vers [<https   *//wiki.freecad.org/User_hub>](https   *//wiki.freecad.org/User_hub).
 
 ## Utilisation
 

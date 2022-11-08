@@ -12,7 +12,13 @@
 
 ## Opis
 
-Narzędzie 2PointCosmeticLine dodaje linię kosmetyczną pomiędzy dwoma wierzchołkami (punktami). Wierzchołki mogą być rozmieszczone zarówno w przestrzeni 2D jak i 3D. Wynikowa linia może być użyta do wymiarowania. Obecność linii może być modyfikowana za pomocą narzędzia [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md).
+
+<div class="mw-translate-fuzzy">
+
+Narzędzie **Dodaj linię kosmetyczną wytyczoną przez dwa punkty** dodaje linię kosmetyczną pomiędzy dwoma wierzchołkami *(punktami)*. Wierzchołki mogą być rozmieszczone zarówno w przestrzeni 2D jak i 3D. Wynikowa linia może być użyta do wymiarowania. Obecność linii może być modyfikowana za pomocą narzędzia [Zmień wygląd linii](TechDraw_DecorateLine/pl.md).
+
+
+</div>
 
 <img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
 
@@ -22,24 +28,48 @@ Narzędzie 2PointCosmeticLine dodaje linię kosmetyczną pomiędzy dwoma wierzch
 
 ## Użycie
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wybierz 2 wierzchołki w widoku lub 2 wierzchołki w widoku 3D.
 2.  Naciśnij przycisk **<img src="images/TechDraw-line2points.svg" width=16px> Dodaj linię kosmetyczną wytyczoną przez dwa punkty**.
 3.  Otworzy się okno dialogowe, w którym możesz ustawić współrzędne 2 punktów.
 4.  Zostanie dodana linia łącząca 2 wybrane wierzchołki. W przypadku punktów 3d, linia połączy rzuty wybranych punktów.
 
-Aby usunąć linię kosmetyczną należy wybrać linię do usunięcia i użyć przycisku z paska narzędzi **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md)**.
+
+</div>
 
 ## Edycja linii kosmetycznej 
 
+
+<div class="mw-translate-fuzzy">
+
 Aby zmienić punkty końcowe linii kosmetycznej, użyj narzędzia **<img src="images/TechDraw-line2points.svg" width=16px> Dodaj linię kosmetyczną wytyczoną przez dwa punkty
 **
+
+
+</div>
 
 1.  Wybierz linię kosmetyczną.
 2.  Naciśnij przycisk **<img src="images/TechDraw-line2points.svg" width=16px> Dodaj linię kosmetyczną wytyczoną przez dwa punkty**.
 3.  Otworzy się okno dialogowe, w którym możesz zmienić współrzędne punktów końcowych.
 4.  Naciśnij przycisk **OK**, aby zobaczyć swoje zmiany.
 
+
+<div class="mw-translate-fuzzy">
+
+Aby usunąć linię kosmetyczną należy wybrać linię do usunięcia i użyć przycisku z paska narzędzi **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md)**.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Aby pozbyć się linii kosmetycznej, użyj narzędzia [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md).
+
+
+</div>
 
 ## Właściwości
 

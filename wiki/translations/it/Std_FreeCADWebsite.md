@@ -20,7 +20,7 @@ Apre il [Sito di FreeCAD](https   *//www.freecadweb.org/) nel browser Internet p
 
 </div>
 
-Currently the command points to [<https   *//www.freecadweb.org>](https   *//www.freecadweb.org/).
+Currently the command points to [<https   *//www.freecad.org>](https   *//www.freecad.org/).
 
 
 <div class="mw-translate-fuzzy">

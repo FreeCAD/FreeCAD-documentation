@@ -11,7 +11,13 @@
 
 ## Opis
 
+
+<div class="mw-translate-fuzzy">
+
 Narzędzie <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **Kreskowanie** środowiska Rysunek Techniczny wypełnia zamknięty obszar w widoku wzorcem kreskowania, którym mogą być pliki [SVG](SVG/pl.md) lub [bitmap](Bitmap/pl.md). W odróżnieniu od tego, narzędzie <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *24px;"> [kreskowanie geometryczne](TechDraw_GeometricHatch/pl.md) wykorzystuje konkretny plik wzoru PAT, szczegółowe informacje znajdują się na stronie [kreskowanie](TechDraw_Hatching/pl.md).
+
+
+</div>
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width   *300px;">
 
@@ -20,6 +26,9 @@ Narzędzie <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **
 *SVG hatch pattern on a face*
 
 ## Użycie
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wybierz zamknięty obszar w widoku.
 2.  Naciśnij przycisk **<img src="images/TechDraw_Hatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku obrazu](TechDraw_Hatch/pl.md)**.
@@ -36,20 +45,53 @@ Narzędzie <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **
 4.  Opcjonalnie zmień **Plik z wzorem**, **Skala wzoru** i **Kolor linii**.
 5.  Naciśnij przycisk **OK**.
 
+
+</div>
+
 ## Uwagi
+
+
+<div class="mw-translate-fuzzy">
 
 -   Obiekty kreskowania są podatne na problemy z *[nazewnictwem topologicznym](Topological_naming_problem/pl.md)*. Aby uzyskać więcej informacji, zobacz informacje w narzędziu [Rysunek techniczny   * Wymiar długości](TechDraw_LengthDimension/pl.md). Zaleca się, aby kreskowanie było jednym z ostatnich kroków w procesie rysowania.
 -   Przykładowe wzory [SVG](SVG/pl.md) są dostępne lokalnie w   *
 
 
-```python
-$INSTALL_DIR/data/Mod/TechDraw/Patterns
-```
+</div>
 
-gdzie `$INSTALL_DIR` to katalog, w którym zainstalowano FreeCAD, na przykład   * 
+
+   *   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/Patterns
-``` a także na [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+    $INSTALL_DIR/data/Mod/TechDraw/Patterns
+    
+```
+    
+
+
+<div class="mw-translate-fuzzy">
+
+gdzie `$INSTALL_DIR` to katalog, w którym zainstalowano FreeCAD, na przykład   *
+
+
+</div>
+
+
+   *   
+    
+```python
+    /usr/share/freecad/data/Mod/TechDraw/Patterns
+    
+```
+    
+
+
+<div class="mw-translate-fuzzy">
+
+a także na [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+
+
+</div>
 
 ## Właściwości
 

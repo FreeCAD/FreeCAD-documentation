@@ -31,11 +31,13 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 ### Further user interface improvements 
 
 -   It is now possible to set a default transparency for new [Part](Part_Module.md) or [PartDesign](PartDesign_Workbench.md) objects in the [Preferences](PartDesign_Preferences.md). [Pull request #7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103)
--   A button has been added to switch the colors of the [3D view](3D_view.md) background gradient in the [Preferences](Preferences_Editor#Colors.md). [Pull request #7155](https   *//github.com/FreeCAD/FreeCAD/pull/7155)
+-   The button for <img alt="" src=images/Std_UserEditModeDefault.svg  style="width   *24px;"> [Edit Mode](Std_UserEditMode.md) has been removed from the standard toolbar. It can be re-added by [customizing](Std_DlgCustomize.md) your toolbar.[Pull request #7570](https   *//github.com/FreeCAD/FreeCAD/pull/7570)
+-   The buttons for <img alt="" src=images/Std_Print.svg  style="width   *24px;"> [Print](Std_Print.md), <img alt="" src=images/Std_Copy.svg  style="width   *24px;"> [Copy](Std_Copy.md), <img alt="" src=images/Std_Paste.svg  style="width   *24px;"> [Paste](Std_Paste.md) and <img alt="" src=images/Std_Cut.svg  style="width   *24px;"> [Cut](Std_Cut.md) have been removed from the standard toolbar. The can be re-added by [customizing](Std_DlgCustomize.md) your toolbar.[Pull request #7571](https   *//github.com/FreeCAD/FreeCAD/pull/7571) and [commit ea9a04e](https   *//github.com/FreeCAD/FreeCAD/commit/ea9a04e)
 -   Commands to [store](Std_StoreWorkingView.md) and [recall](Std_RecallWorkingView.md) a temporary working view have been added. [Pull request #7525](https   *//github.com/FreeCAD/FreeCAD/pull/7525)
--   Value changes with the mouse wheel in \'input fields\' (a widget type used to enter values in task panels, for example by [Draft Line](Draft_Line.md)) are disabled if the widget doesn\'t have the focus and the [ComboBoxWheelEventFilter](Fine-tuning.md) switch is enabled. This prevents unwanted value changes while scrolling, as already was the case for spin and combo boxes. [request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561%7CPull)
--   The toolbar button for [Edit Mode](Std_UserEditMode.md) has been removed. [Pull request #7570](https   *//github.com/FreeCAD/FreeCAD/pull/7570)
--   The toolbar buttons for [Print](Std_Print.md), [Copy](Std_Copy.md), [Paste](Std_Paste.md) and [Cut](Std_Cut.md) have been removed. [Pull request #7571](https   *//github.com/FreeCAD/FreeCAD/pull/7571) and [commit ea9a04e](https   *//github.com/FreeCAD/FreeCAD/commit/ea9a04e)
+-   Value changes with the mouse wheel in \'input fields\' (a widget type used to enter values in task panels, for example by [Draft Line](Draft_Line.md)) are disabled if the widget doesn\'t have the focus and the [ComboBoxWheelEventFilter](Fine-tuning.md) switch is enabled. This prevents unwanted value changes while scrolling, as already was the case for spin and combo boxes. [Pull request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561)
+-   All transparency settings use now the uniform spin button step of 5%   * One click on the button in a dialog or the [property editor](Property_editor.md) changes the transparency by 5%. Keep the button pressed to change several 5% steps at once. [Pull request #7723](https   *//github.com/FreeCAD/FreeCAD/pull/7723)
+-   A button has been added to switch the colors of the [3D view](3D_view.md) background gradient in the [Preferences](Preferences_Editor#Colors.md). [Pull request #7155](https   *//github.com/FreeCAD/FreeCAD/pull/7155)
+-   The Output window has been renamed to Report view for uniformity with the UI. [Pull Request #7739](https   *//github.com/FreeCAD/FreeCAD/pull/7739)
 
 ## Core system and API 
 
@@ -112,7 +114,7 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ### Further Draft improvements 
 
--   Several [Draft PathArray](Draft_PathArray.md) related issues have been fixed. [Pull request #7506](https   *//github.com/FreeCAD/FreeCAD/pull/7506)
+-   Several [Draft PathArray](Draft_PathArray.md) related issues have been fixed. [Pull request #7506](https   *//github.com/FreeCAD/FreeCAD/pull/7506) and [Pull request #7662](https   *//github.com/FreeCAD/FreeCAD/pull/7662)
 -   The [Draft Edit](Draft_Edit.md) command has received several improvements. For [wires](Draft_Wire.md), [B-splines](Draft_BSpline.md) and [Bézier curves](Draft_BezCurve.md) a Close/Open option has been added to the edge context menu. For B-splines and Bézier curves a Reverse option has been added to the same menu as well. The task panels have been cleaned up. [Pull request #7527](https   *//github.com/FreeCAD/FreeCAD/pull/7527) and [Pull request #7541](https   *//github.com/FreeCAD/FreeCAD/pull/7541)
 
 ## FEM Workbench 
@@ -127,6 +129,7 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 -   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *24px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) now has a task panel and it is possible to set the heat for several bodies or to use several constraints for different bodies in one analysis. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
 -   It is now possible to open (and this way visualize) \*.pvtu files (partitioned VTK unstructured grid data). A \*.pvtu file is also the result of an [Elmer](FEM_SolverElmer.md) simulation, when more than one CPU core was used. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio has been added to the VTK result pipeline. It gives an indication of ductile rupture for materials with a \"MaterialMechanicalNonlinear\" object. [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) enables to define the scale of deformed mesh. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https   *//github.com/FreeCAD/FreeCAD/pull/7715)
 
 ## Export
 
@@ -144,7 +147,14 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 
 ## PartDesign Workbench 
 
+   
+  <img alt="" src=images/PD_Counterdrill_relnotes_1.0.png  style="width   *384px;">A counterdrill hole.   The [Hole](PartDesign_Hole.md) dialog supports the screw head type *Counterdrill*. [Pull request #7562](https   *//github.com/FreeCAD/FreeCAD/pull/7562)
+                                                                                                                            
+   
+
 ### Further PartDesign improvements 
+
+-   In the [Hole](PartDesign_Hole.md) dialog, the deprecated screw head types (cheese head, cap screw etc.) have been removed. They were deprecated since FreeCAD 0.19. Holes using these types are transformed to custom countersinks/counterbore holes with the diameter and depth used by the types. [Pull request #7654](https   *//github.com/FreeCAD/FreeCAD/pull/7654)
 
 ## Path Workbench 
 
@@ -168,12 +178,19 @@ Placeholder for an eye-catching image selected by the admins from the [user show
                                                                                  
    
 
+   
+  ![](images/Sketcher_Element_Widget_relnotes_1.0.gif )   The Element widget has been reworked to simplify the UI and enable simpler selection of the different parts of each geometry   * Edge, start point, end point and mid point. [Pull request #7567](https   *//github.com/FreeCAD/FreeCAD/pull/7567)
+                                                                                             
+   
+
 ### Further Sketcher improvements 
 
 -   The toolbar button for [Constrain refraction (Snell\'s law)](Sketcher_ConstrainSnellsLaw.md) has been removed. [Commit ef62fc3](https   *//github.com/FreeCAD/FreeCAD/commit/ef62fc3)
 -   The toolbar buttons for [Select redundant constraints](Sketcher_SelectRedundantConstraints.md) and [Select conflicting constraints](Sketcher_SelectConflictingConstraints.md) have been removed. [Pull request #7568](https   *//github.com/FreeCAD/FreeCAD/pull/7568)
 -   The toolbar button for [Stop operation](Sketcher_StopOperation.md) has been removed. [Pull request #7569](https   *//github.com/FreeCAD/FreeCAD/pull/7569)
 -   The \'Edit controls\' section in the Sketcher dialog has been made optional. [Pull request #7572](https   *//github.com/FreeCAD/FreeCAD/pull/7572)
+-   The toolbar button for [Select unconstrained DoF](Sketcher_SelectElementsWithDoFs.md) has been removed. [Pull request #7603](https   *//github.com/FreeCAD/FreeCAD/pull/7603)
+-   The Sketcher toolbar has been split in two   * \'Sketcher-edit-mode\' and \'Sketcher\' (i.e. \'not edit mode\'). The Sketcher toolbars that are only for edit-mode are hidden in non-edit-mode, and those only for non-edit-mode are hidden in edit-mode. The Structure toolbar is also hidden in Sketcher. <https   *//github.com/FreeCAD/FreeCAD/pull/7655> Pull request #7655\]
 
 ## Spreadsheet Workbench 
 
@@ -182,12 +199,23 @@ Placeholder for an eye-catching image selected by the admins from the [user show
 ## TechDraw Workbench 
 
    
-  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width   *384px;">   A new [SurfaceFinishSymbol](TechDraw_SurfaceFinishSymbol.md) tool was added to allow for the creation of surface finish symbols describing roughness, lay and waviness, but also denoting the type of surface treatment. It supports both ISO and ASME styles. As shown in the image, the existing [LeaderLine](TechDraw_LeaderLine.md) tool can be used to properly refer oriented symbols to the edges of an object. [Pull request #7227](https   *//github.com/FreeCAD/FreeCAD/pull/7227)
+  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_1.0.png  style="width   *250px;">   The [SurfaceFinishSymbol](TechDraw_SurfaceFinishSymbol.md) tool was added to allow for the creation of surface finish symbols describing roughness, lay and waviness, but also denoting the type of surface treatment. It supports both ISO and ASME styles. As shown in the image, the existing [LeaderLine](TechDraw_LeaderLine.md) tool can be used to properly refer oriented symbols to the edges of an object. [Pull request #7227](https   *//github.com/FreeCAD/FreeCAD/pull/7227)
+  <img alt="" src=images/TechDraw_ComplexSection_relnotes_1.0.png  style="width   *250px;">               The [ComplexSection](TechDraw_ComplexSection.md) tool was added. [Pull request #7658](https   *//github.com/FreeCAD/FreeCAD/pull/7658)
+                                                                                                                      
    
 
 ### Further TechDraw improvements 
 
+-   Navigation modes have been updated to match those used in the 3D view. [Pull request #7081](https   *//github.com/FreeCAD/FreeCAD/pull/7081) and [Pull request #7107](https   *//github.com/FreeCAD/FreeCAD/pull/7107)
+-   Bitmap hatching was fixed. [Issue #6582](https   *//github.com/FreeCAD/FreeCAD/issues/6582) and [Pull request #7121](https   *//github.com/FreeCAD/FreeCAD/pull/7121)
 -   Support for adjustable gaps for extension lines of [dimensions](TechDraw_Preferences#Dimensions.md) was added. [Pull request #7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133)
+-   Multithreading was introduced for hidden line removal and face finding. [Pull request #7377](https   *//github.com/FreeCAD/FreeCAD/pull/7377)
+-   The face detection algorithm was improved. [Pull request #7448](https   *//github.com/FreeCAD/FreeCAD/pull/7448)
+-   The [PrintAll](TechDraw_PrintAll.md) tool was added. [Pull request #7460](https   *//github.com/FreeCAD/FreeCAD/pull/7460)
+-   [Four tools](TechDraw_StackGroup.md) to control the stacking order of views were added. [Issue #6012](https   *//github.com/FreeCAD/FreeCAD/issues/6012) and [Pull request #7460](https   *//github.com/FreeCAD/FreeCAD/pull/7460)
+-   [ActiveView](TechDraw_ActiveView.md) now creates a screen capture instead of an SVG image. [Pull request #7471](https   *//github.com/FreeCAD/FreeCAD/pull/7471)
+-   All Latin script templates have been converted to \"plain svg\". [Pull request #7472](https   *//github.com/FreeCAD/FreeCAD/pull/7472)
+-   A preview was added to the task panel of the [SectionView](TechDraw_SectionView.md) tool. [Pull request #7658](https   *//github.com/FreeCAD/FreeCAD/pull/7658)
 -   Removed deprecated functions   * DrawViewPart   *   *replaceCenterLine, DrawViewPart   *   *replaceCosmeticEdge, DrawViewPart   *   *replaceCosmeticVertex and DrawViewPart   *   *replaceGeomFormat.
 
 ## Web

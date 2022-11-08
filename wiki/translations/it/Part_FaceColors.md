@@ -15,7 +15,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 La funzione **Imposta i colori** consente di definire un colore per ogni faccia o superficie di un oggetto. In questo modo è possibile assegnare più colori a una parte. Per colorare parti intere, utilizzare invece la funzione **[Aspetto](Std_SetAppearance/it.md)**.
+
+
+</div>
 
 ## Utilizzo
 
@@ -46,7 +52,7 @@ Per ripristinare il colore di tutte le facce
 </div>
 
 ![](images/Part_FaceColors-dialog.png ) 
-*The FaceColors dialog*
+*The FaceColors task panel*
 
 
 

@@ -74,6 +74,8 @@ Si une esquisse de contour est ajoutée, elle crée une **géométrie de connexi
 
 -   Dans une opération d\'extension, il est recommandé de laisser la propriété **Refine** définie sur `True` (par défaut).
 
+-   L\'opération d\'extension avec une esquisse liée peut échouer en raison de problèmes de coplanarité si la face du côté de l\'esquisse et la face du côté opposé sont coplanaires, mais avec des orientations opposées. Un petit décalage peut aider dans un tel cas.
+
 ## Propriétés
 
 Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)

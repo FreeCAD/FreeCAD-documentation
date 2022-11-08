@@ -3,18 +3,20 @@
 
 The TechDraw workbench includes two hatching tools   *
 
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width   *32px;"> [TechDraw Hatch](TechDraw_Hatch.md) (based on tiled SVG images)
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width   *32px;"> [TechDraw Hatch](TechDraw_Hatch.md) (based on tiled SVG or bitmap images)
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *32px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) (line based)
 
 ## Image based hatch 
 
-<img alt="" src=images/TechDraw_Hatch.svg  style="width   *16px;"> [TechDraw Hatch](TechDraw_Hatch.md) uses tiled [SVG](SVG.md) images to cover the selected Face.
+<img alt="" src=images/TechDraw_Hatch.svg  style="width   *16px;"> [TechDraw Hatch](TechDraw_Hatch.md) uses tiled [SVG](SVG.md) or bitmap (<small>(v1.0)</small> ) images to cover the selected Face. The origin of the tiling grid will match the geometric center of the face.
 
 [SVG](SVG.md) tiles are typically **64x64** pixel images. All pattern files that come with FreeCAD are available on [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
+Bitmap based patterns are displayed with a fixed resolution of 10 px/mm relative to the page.
+
 The default hatch pattern file can be specified in the [TechDraw Preferences](TechDraw_Preferences.md).
 
-### Available patterns 
+### Available SVG patterns 
 
 
 
@@ -24,7 +26,7 @@ Image   *Aluminium.svg\|aluminium Image   *Brick01.svg\|brick01 Image   *Concret
 
 ## Geometric hatch 
 
-<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) forms a pattern of lines based on a specification read from a file. This file is generally **compatible with the widely used AutoDesk® PAT format**. A small selection of patterns is included in the FCPAT.pat file   *
+<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) forms a pattern of lines based on a specification read from a file. This file is generally compatible with the widely used AutoDesk® PAT format. A small selection of patterns is included in the FCPAT.pat file   *
 
  
 ```python

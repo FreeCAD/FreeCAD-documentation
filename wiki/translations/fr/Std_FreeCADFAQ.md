@@ -13,7 +13,7 @@
 
 La commande **Std FAQ FreeCAD** ouvre la page FAQ FreeCAD dans le navigateur Internet par défaut du système. La commande nécessite une connexion Internet fonctionnelle.
 
-Actuellement cette commande pointe vers [<https   *//www.freecadweb.org/wiki/FAQ>](https   *//www.freecadweb.org/wiki/FAQ).
+Actuellement cette commande pointe vers [<https   *//wiki.freecad.org/Frequently_asked_questions>](https   *//wiki.freecad.org/Frequently_asked_questions).
 
 ## Utilisation
 

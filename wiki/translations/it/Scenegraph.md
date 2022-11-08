@@ -1,13 +1,4 @@
 # Scenegraph/it
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Da Mesh a Parte](Mesh_to_Part/it.md)|[Pivy](Pivy/it.md)}}
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Introduction
@@ -147,13 +138,7 @@ Inoltre, c\'è anche un modulo Python che consente l\'accesso completo a tutto q
 See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https   *//github.com/MariwanJ/COIN3D_Examples>. {{Top}}
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/it|[Da Mesh a Parte](Mesh_to_Part/it.md)|[Pivy](Pivy/it.md)}}
-
-
-</div>
 
 
 

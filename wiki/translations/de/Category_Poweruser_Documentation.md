@@ -36,7 +36,7 @@ This category shows documentation articles dealing with python scripting, which 
 | [Selection API/de](wiki/Selection API/de.md) | [Svg Namespace/de](wiki/Svg Namespace/de.md) | [TechDraw API/de](wiki/TechDraw API/de.md) |
 | [TechDrawGui API/de](wiki/TechDrawGui API/de.md) | [Topological data scripting/de](wiki/Topological data scripting/de.md) | [TopoShape API/de](wiki/TopoShape API/de.md) |
 | [Units/de](wiki/Units/de.md) | [Vector API/de](wiki/Vector API/de.md) | [ViewObject API/de](wiki/ViewObject API/de.md) |
-| [Workbench creation/de](wiki/Workbench creation/de.md) |
+| [Viewprovider/de](wiki/Viewprovider/de.md) | [Workbench creation/de](wiki/Workbench creation/de.md) |
 
 
 

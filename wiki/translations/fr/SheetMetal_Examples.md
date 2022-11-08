@@ -381,6 +381,85 @@ et {{value|Tangential}} sont identiques pour des angles de 90°.
 
 </div>
 
+
+<div class="mw-collapsible mw-collapsed">
+
+### Objet Extend <img alt="" src=images/SheetMetal_Extrude.svg  style="width   *24px;"> 
+
+
+<div class="mw-collapsible-content toccolours">
+
+Un objet Extend permet de déplier une plaque de tôle sur une ou plusieurs faces ou bords sélectionnés.
+
+<img alt="" src=images/SheetMetal_Example-10a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10b.png  style="width   *200px;">
+
+
+
+*Faces et bords sélectionnés + 
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude/fr.md)* 
+→ Un objet Extend avec des paramètres par défaut.**
+
+Un premier problème se pose ici    * bien que la propriété **Refine** soit mise à `True`, deux des extensions affichent toujours leurs lignes de couture. Seule l\'extension du dernier élément sélectionné sera affinée.
+
+Pour affiner toutes les extensions, elles doivent être créées séparément    *
+
+<img alt="" src=images/SheetMetal_Example-10c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10f.png  style="width   *200px;">
+
+
+
+*3x faces ou arêtes sélectionnées + 
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude/fr.md)* 
+→ Trois objets Extend complètement affinés et avec des paramètres par défaut.**
+
+Les propriétés modifiées s\'appliquent à toutes les arêtes énumérées dans les **base Object** associées de l\'objet Extension.
+
+Modifiez **length** pour ajuster la longueur de l\'extension.
+
+<img alt="" src=images/SheetMetal_Example-10h.png  style="width   *200px;"> <img alt="" src=images/SheetMetal_Example-10g.png  style="width   *200px;">
+
+
+
+*Modifiez **gap1* et {{PropertyData|gap2** pour réduire la largeur de l'extension.<br>A gauche    * objet Extension avec 3 bords. A droite    * un des objets Extension avec un seul bord.}}
+
+Liez une esquisse à la propriété **Sketch** pour former une extension. Les propriétés **length**, **gap1** et **gap2** seront ignorées une fois l\'esquisse liée. (Cela ne semble pas fonctionner avec des tôles encore non pliées).
+
+<img alt="" src=images/SheetMetal_Example-10i.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10j.png  style="width   *200px;">
+
+
+
+*Une esquisse sélectionnée reposant sur le bord à prolonger → Extension résultante*
+
+Il est évident que l\'arête sélectionnée pour l\'objet Extend n\'a pas d\'importance, la forme du bord est modifiée partout où la géométrie de l\'esquisse ressort, la nouvelle forme peut même contenir des parties déconnectées du bord d\'origine. Les multiples contours ne posent aucun problème, mais le bord n\'est pas découpé.
+
+Cet exemple montre que les concepteurs sont responsables de leur construction et ne devraient pas se fier aux résultats de leurs outils, qui n\'ont pas de sens dans ce cas. L\'esquisse rattachée à un côté du bord est également problématique en raison du problème toponymique, mais pour cela une solution est en vue.
+
+Mais il y a de meilleurs cas d\'utilisation pour cet outil impliquant des formes presque fermées comme l\'un des exemples de la page [SheetMetal Extrude](SheetMetal_Extrude/fr.md)    *
+
+<img alt="" src=images/SheetMetal_Example-10k.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10l.png  style="width   *200px;">
+
+
+
+*Un profil presque fermé → L'extension ajoutée par défaut est fusionnée avec le côté opposé, créant un profil fermé (un tube) qui n'est pas dépliable*
+
+<img alt="" src=images/SheetMetal_Example-10l.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10m.png  style="width   *200px;">
+
+
+
+*Liez une esquisse rectangulaire à la propriété **Sketch*    * profil fermé → Profil avec extension rectangulaire, encore fusionné**
+
+<img alt="" src=images/SheetMetal_Example-10m.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10n.png  style="width   *200px;">
+
+
+
+*Changez **Use Subtraction* à {{true** pour fournir un espace (à peine visible) par défaut entre l'objet Extension et le côté opposé, puis augmentez **Offset** pour élargir l'espace   *<br>
+Profilé fusionné → Profilé avec extension emboîtée, ce résultat final est dépliable}}
+
+
+</div>
+
+
+</div>
+
 [Category   *SheetMetal](Category_SheetMetal.md) [Category   *Addons](Category_Addons.md) [Category   *External Command Reference](Category_External_Command_Reference.md)
 
 

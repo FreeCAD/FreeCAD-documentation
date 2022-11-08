@@ -220,15 +220,8 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 
    *   23.1. Select {{incode   Cut002}}, click on the **Shape Color** value to open the **Select color** dialog, then choose a pink color; also change the value of **Transparency** to {{incode   90}}.
 
-![](images/06_T03_Part_cube_additional_cut_2.png )
-
-
-<div class="mw-translate-fuzzy">
-
-Wenn alles gut lief, sollte das Modell wie folgt aussehen   *
-
-
-</div>
+![](images/06_T03_Part_cube_additional_cut_2.png ) 
+*Ein gedrehter ausgehöhlter Volumenkörper, der als Beschnittobjekt für einige Ecken des inneren Volumenkörpers verwendet wird.*
 
 ## Fertigstellung des Modells 
 

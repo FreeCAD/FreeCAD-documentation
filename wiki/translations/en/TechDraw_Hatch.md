@@ -10,7 +10,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **TechDraw Hatch** tool fills a closed region in a View with an [SVG](SVG.md) based hatch pattern. Alternatively the <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) tool uses PAT based hatch patterns. See [Hatching](TechDraw_Hatching.md) for details.
+The <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **TechDraw Hatch** tool fills a closed region in a View with a tiled [SVG](SVG.md) or bitmap (<small>(v1.0)</small> ) based hatch pattern. Alternatively the <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) tool uses PAT based hatch patterns. See [Hatching](TechDraw_Hatching.md) for details.
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width   *300px;">
 
@@ -25,23 +25,34 @@ The <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **TechDra
     -   Press the **<img src="images/TechDraw_Hatch.svg" width=16px> [TechDraw Hatch](TechDraw_Hatch.md)** button.
     -   Select the **TechDraw → <img src="images/TechDraw_Hatch.svg" width=16px> Hatch a Face using Image File** option from the menu.
 3.  The **Apply Hatch to Face** task panel opens.
-4.  Optionally change the **Pattern File**, the **Pattern Scale** and the **Line Color**.
-5.  Press the **OK** button.
+4.  Optionally change the **Pattern File**.
+5.  Optionally change the **Pattern Scale** and the **Line Color**. These settings are ignored for bitmap patterns.
+6.  Press the **OK** button.
 
 ## Notes
 
 -   Hatching objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information. It is recommended that hatching be one of the last steps in your drawing process.
--   Sample [SVG](SVG.md) patterns are available locally in
+-   Sample [SVG](SVG.md) patterns are available locally in   *
 
-
+   *   
+    
 ```python
-$INSTALL_DIR/data/Mod/TechDraw/Patterns
+    $INSTALL_DIR/data/Mod/TechDraw/Patterns
+    
 ```
+    
 
-where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example 
+   *   Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example   *
+
+   *   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/Patterns
-``` and also on [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+    /usr/share/freecad/data/Mod/TechDraw/Patterns
+    
+```
+    
+
+   *   They are also available on [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
 ## Properties
 

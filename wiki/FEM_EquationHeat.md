@@ -27,7 +27,7 @@ For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer
 
 The heat equation provides these special settings   *
 
--    **Bubbles**   * There is also a residual-free-bubbles formulation of the stabilized finite-element method. It is more accurate and does not include any ad hoc terms. However, it may be computationally more expensive. If both **Note**   * If you get during the *first solver iteration* this error   * ERROR   *   * IterSolve   * Numerical Error   * System diverged over maximum tolerance.The **Bubbles** method failed. In this case set **[Stabilize](FEM_SolverElmer_SolverSettings#Base.md)** to *true*.
+-    **Bubbles**   * There is also a residual-free-bubbles formulation of the stabilized finite-element method. It is more accurate and does not include any ad hoc terms. However, it may be computationally more expensive. If both **Note**   * If during the *first solver iteration* you get this error   * ERROR   *   * IterSolve   * Numerical Error   * System diverged over maximum tolerance.The **Bubbles** method failed. In this case set **[Stabilize](FEM_SolverElmer_SolverSettings#Base.md)** to *true*.
 
 Equation   *
 
@@ -45,7 +45,7 @@ The elasticity equation takes the following constraints into account if they are
 
 ### Note
 
-For the temperature constraints it is important that they act on a face. Constraints set to lines or vertices are not recognized by the Elmer solver.
+Except for calculations in 2D, for all above constraints it is important that they act on a face or a body. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
 
 ## Result
 

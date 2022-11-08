@@ -1,22 +1,22 @@
 # Part scripting/it
 {{TOCright}}
 
-## Introduction
+## Introduzione
 
-The main data structure used in the Part module is the [BRep](http   *//en.wikipedia.org/wiki/Boundary_representation) data type from [OpenCASCADE](OpenCASCADE.md). Almost all contents and object types of the Part module are available in [Python](Python.md) scripting. This includes geometric primitives, such as Lines, Circles and Arcs, and the whole range of TopoShapes, like Vertexes, Edges, Wires, Faces, Solids and Compounds. For each of those objects, several creation methods exist, and for some of them, especially the TopoShapes, advanced operations like boolean union/difference/intersection are also available. Explore the contents of the Part module, as described in the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) page, to know more.
+La struttura dati principale utilizzata nel modulo Parte è il tipo di dati [BRep](https   *//it.wikipedia.org/wiki/B-Rep) da [OpenCASCADE](OpenCASCADE/it.md). Quasi tutti i contenuti e i tipi di oggetti del modulo Part sono disponibili per lo scripting con [Python](Python/it.md). Ciò include le primitive geometriche, come linee, cerchi e archi, e l\'intera gamma di forme topografiche, come vertici, bordi, fili, facce, solidi e composti. Per ciascuno di questi oggetti esistono diversi metodi di creazione e per alcuni di essi, in particolare TopoShapes, sono disponibili anche operazioni avanzate come unione/differenza/intersezione booleana. Si possono esplorare i contenuti del modulo Parte, come descritto nella pagina [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), per saperne di più.
 
-The most basic object that can be created is a [Part Feature](Part_Feature.md), which has a simple **Placement** property, and basic properties to define its color and appearance.
+L\'oggetto più semplice che può essere creato è [Part](Part_Feature/it.md), che ha una semplice proprietà **Placement** e le proprietà di base per definirne il colore e l\'aspetto.
 
-Another simple object used in 2D geometrical objects is the [Part Part2DObject](Part_Part2DObject.md), which is the base of the [Sketcher SketchObject](Sketcher_SketchObject.md) and most [Draft elements](Draft_Workbench.md).
+Un altro oggetto semplice utilizzato negli oggetti geometrici 2D è il [Part Part2DObject](Part_Part2DObject/it.md), che è la base di [Sketcher SketchObject](Sketcher_SketchObject/it.md) e della maggior parte dei [Draft elements](Draft_Workbench.md).
 
-### See also 
+### Vedere anche 
 
--   [Topological data scripting](Topological_data_scripting.md)
--   [OpenCASCADE](OpenCASCADE.md)
+-   [Script di dati topologici](Topological_data_scripting/it.md)
+-   [OpenCASCADE](OpenCASCADE/it.md)
 
-## Test script 
+## Script di test 
 
-Test the creation of [Part Primitives](Part_Primitives.md) with a script. <small>(v0.19)</small> 
+Testare la creazione di [Primitive Part](Part_Primitives/it.md) con uno script. {{Version/it|0.19}}
 
 
 ```python
@@ -24,18 +24,18 @@ import parttests.part_test_objects as pto
 pto.create_test_file("example_file")
 ```
 
-This script is located in the installation directory of the program, and can be examined to see how the basic primitives are built.
+Questo script si trova nella cartella d\'installazione del programma e può essere esaminato per vedere come vengono costruite le primitive di base.
 
 
 ```python
 $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-## Examples
+## Esempi
 
-### Line
+### Linea
 
-To create a line element switch to the [Python console](Python_console.md) and enter   *
+Per creare un elemento di linea, passa alla [console Python](Python_console/it.md) e inserisci   *
 
 
 ```python
@@ -53,7 +53,7 @@ obj.Shape= line.toShape()
 doc.recompute()
 ```
 
-Let\'s go through the above Python example step by step   *
+Esaminiamo passo dopo passo l\'esempio Python sopra   *
 
 
 ```python
@@ -62,7 +62,7 @@ import Part
 doc = App.newDocument()
 ```
 
-This loads the FreeCAD and Part modules and creates a new document.
+Questo carica i moduli di FreeCAD e Part e crea un nuovo documento.
 
 
 ```python
@@ -71,7 +71,7 @@ line.StartPoint = (0.0, 0.0, 0.0)
 line.EndPoint = (1.0, 1.0, 1.0)
 ```
 
-Line is actually a line segment, hence the start and endpoint.
+La linea è in realtà un segmento di retta, quindi ha un inizio e un punto finale.
 
 
 ```python
@@ -79,18 +79,18 @@ obj = doc.addObject("Part   *   *Feature", "Line")
 obj.Shape= line.toShape()
 ```
 
-This adds a Part object type to the document and assigns the shape representation of the line segment to the {{Incode|Shape}} property of the added object. It is important to understand here that we use a geometric primitive (the {{Incode|Part.LineSegment}}) to create a TopoShape out of it (with the {{Incode|toShape()}} method). Only shapes can be added to the document. In FreeCAD geometric primitives are used as \"building structures\" for shapes.
+Questo aggiunge un tipo di oggetto Parte al documento e assegna la rappresentazione della forma del segmento di linea alla proprietà {{Incode|Shape}} dell\'oggetto aggiunto. È importante capire qui che usiamo una primitiva geometrica (il {{Incode|Part.LineSegment}}) per creare un TopoShape da esso (con il metodo {{Incode|toShape()}}). Solo le forme possono essere aggiunte al documento. In FreeCAD le primitive geometriche sono usate come \"strutture edilizie\" per le forme.
 
 
 ```python
 doc.recompute()
 ```
 
-Updates the document. This also prepares the visual representation of the new Part object.
+Aggiorna il documento. Questo prepara anche la rappresentazione visiva del nuovo oggetto Part.
 
-Note that a line segment can also be created by specifying its start and endpoint directly in the constructor, for example {{Incode|Part.LineSegment(point1, point2)}}, or we can create a default line and set its properties afterwards, as we did here.
+Si noti che un segmento di linea può anche essere creato specificandone l\'inizio e il punto finale direttamente nel costruttore, ad esempio {{Incode|Part.LineSegment(point1, point2)}}, oppure possiamo creare una linea predefinita e impostarne le proprietà in seguito, come abbiamo fatto qui.
 
-A Line can also be created using   *
+È inoltre possibile creare una linea utilizzando   *
 
 
 ```python
@@ -113,9 +113,9 @@ def my_create_line(pt1, pt2, obj_name)   *
 line = my_create_line((0, 0, 0), (0, 10, 0), "LineName")
 ```
 
-### Circle
+### Cerchio
 
-A circle can be created in a similar way   *
+Un cerchio può essere creato in modo simile   *
 
 
 ```python
@@ -132,7 +132,7 @@ obj.Shape = circle.toShape()
 doc.recompute()
 ```
 
-Or using   *
+oppure usando   *
 
 
 ```python
@@ -149,7 +149,7 @@ def my_create_circle(rad, obj_name)   *
 circle = my_create_circle(5.0, "CircleName")
 ```
 
-Alternatively we can create a circle by defining its center, axis and radius   *
+In alternativa possiamo creare un cerchio definendone il centro, l\'asse e il raggio   *
 
 
 ```python
@@ -168,7 +168,7 @@ obj.Shape = circle.toShape()
 doc.recompute()
 ```
 
-Or by defining three points on its circumference   *
+Oppure definendo tre punti sulla sua circonferenza   *
 
 
 ```python
@@ -187,7 +187,7 @@ obj.Shape = circle.toShape()
 doc.recompute()
 ```
 
-Note again, we used the circle (geometric primitive) to construct a shape. We can of course still access our construction geometry afterwards, by doing   *
+Si noti ancora, che abbiamo usato il cerchio (primitiva geometrica) per costruire una forma. Ovviamente possiamo ancora accedere alla nostra geometria di costruzione in seguito, facendo   *
 
 
 ```python
@@ -196,11 +196,11 @@ edge = shape.Edges[0]
 curve = edge.Curve
 ```
 
-Here we take the {{Incode|Shape}} of our object {{Incode|obj}} and then its list of {{Incode|Edges}}. In this case there will be only one edge because we made the shape out of a single circle. So we take only the first item in the {{Incode|Edges}} list, and then take its curve. Every edge has a {{Incode|Curve}}, which is the geometric primitive it is based on.
+Qui prendiamo il {{Incode|Shape}} del nostro oggetto {{Incode|obj}} e poi la sua lista di {{Incode|Edges}}. In questo caso ci sarà un solo bordo perché abbiamo ricavato la forma da un unico cerchio. Quindi prendiamo solo il primo elemento nell\'elenco {{Incode|Edges}}, successivamente prendiamo la sua curva. Ogni bordo ha un {{Incode|Curve}}, che è la primitiva geometrica su cui si basa.
 
-### Arc
+### Arco
 
-An arc can be created like this   *
+Un arco può essere creato in questo modo   *
 
 
 ```python
@@ -219,9 +219,9 @@ obj.Shape = arc.toShape()
 doc.recompute()
 ```
 
-This draws a half circle. The center is at (0, 0, 0). The radius is 10. P1 is the start point on +X axis. P2 is the middle point on +Y axis and P3 is the end point on -X axis.
+Così si disegna un semicerchio. Il centro è a (0, 0, 0). Il raggio è 10. P1 è il punto iniziale sull\'asse +X. P2 è il punto medio sull\'asse +Y e P3 è il punto finale sull\'asse -X.
 
-We can also create an arc from a circle   *
+Possiamo anche creare un arco da un cerchio   *
 
 
 ```python
@@ -241,7 +241,7 @@ obj.Shape = arc.toShape()
 doc.recompute()
 ```
 
-It needs a circle, and a start angle and end angle in radians.
+È necessario un cerchio, un angolo iniziale e un angolo finale in radianti.
 
 
 

@@ -68,6 +68,9 @@ For more information about referencing objects, see [Reference to CAD_data](#Ref
 
 [Trigonometric functions](https   *//en.wikipedia.org/wiki/Trigonometric_functions) use degree as their default unit. For radian measure, add first value in an expression. So e.g. `cos(45)` is the same as `cos(pi rad / 4)`. Expressions in degrees can use either `deg` or `°`, e.g. `360deg - atan2(3; 4)` or `360&deg; - atan2(3; 4)`. If an expression is without units and needs to be converted to degrees or radians for compatibility, multiply by `1&nbsp;deg`, `1&nbsp;°` or `1&nbsp;rad` as appropriate, e.g. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
 
+
+<div class="mw-translate-fuzzy">
+
   Функция       Описание                                                                                                                                                                                                                                                                                                 Допустимый диапазон значений
     
   acos(x)       [Арккосинус](https   *//ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B5_%D1%82%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_arccos)   -1 \<= x \<= 1
@@ -83,9 +86,12 @@ For more information about referencing objects, see [Reference to CAD_data](#Ref
   hypot(x; y)   [Сумма Пифагора](https   *//en.wikipedia.org/wiki/Pythagorean_addition) (**hypot**инуза). Например, hypot(4; 3) = 5.                                                                                                                                                                                        x и y \> 0
   cath(x; y)    Учитывая гипотенузу и одну сторону, возвращает другую сторону треугольника. Например, cath (5; 3) = 4.                                                                                                                                                                                                   x и y \> 0, x \>= y
 
+
+</div>
+
 #### Экспоненциальные и логарифмические функции 
 
-  Function    Description                                                                                    Value range
+  Function    Description                                                                                    Input range
     
   exp(x)      [Exponential function](https   *//en.wikipedia.org/wiki/Exponential_function#Formal_definition)   all
   log(x)      [Natural logarithm](https   *//en.wikipedia.org/wiki/Natural_logarithm)                           x \> 0
@@ -95,7 +101,7 @@ For more information about referencing objects, see [Reference to CAD_data](#Ref
 
 #### Функции округления, усечения и вычисления остатка от деления 
 
-  Function    Description                                                                                                                        Value range
+  Function    Description                                                                                                                        Input range
     
   abs(x)      [Absolute value](https   *//en.wikipedia.org/wiki/Absolute_value)                                                                     all
   ceil(x)     [Ceiling function](https   *//en.wikipedia.org/wiki/Floor_and_ceiling_functions), smallest integer value greater than or equal to x   all
@@ -114,14 +120,14 @@ Individual arguments to aggregate functions may consist of ranges of cells. A ra
 
 Поддерживаются следующие функции агрегирования   *
 
-  Function                 Description                                                                                                                          Value range
+  Function                 Description                                                                                                                          Input range
     
-  average(a; b; c; \...)   [Average](https   *//en.wikipedia.org/wiki/Arithmetic_mean) value of the arguments; same as sum(a; b; c; \...) / count(a; b; c; \...)   all
-  count(a; b; c; \...)     [Count](https   *//en.wikipedia.org/wiki/Counting) of the arguments; typically used for cell ranges                                     all
+  average(a; b; c; \...)   [Average](https   *//en.wikipedia.org/wiki/Arithmetic_mean) value of the arguments, same as sum(a; b; c; \...) / count(a; b; c; \...)   all
+  count(a; b; c; \...)     [Count](https   *//en.wikipedia.org/wiki/Counting) of the arguments, typically used for cell ranges                                     all
   max(a; b; c; \...)       [Maximum](https   *//en.wikipedia.org/wiki/Maxima_and_minima) value of the arguments                                                    all
   min(a; b; c; \...)       [Minimum](https   *//en.wikipedia.org/wiki/Maxima_and_minima) value of the arguments                                                    all
   stddev(a; b; c; \...)    [Standard deviation](https   *//en.wikipedia.org/wiki/standard_deviation) of the values of the arguments                                all
-  sum(a; b; c; \...)       [Sum](https   *//en.wikipedia.org/wiki/Summation) of the values of the arguments; typically used for cell ranges                        all
+  sum(a; b; c; \...)       [Sum](https   *//en.wikipedia.org/wiki/Summation) of the values of the arguments, typically used for cell ranges                        all
 
 
 {{Top}}

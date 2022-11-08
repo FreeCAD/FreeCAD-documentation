@@ -11,14 +11,14 @@
 
 ## Description
 
-Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélectionné en maillage. En interne, il choisit les faces des éléments du maillage FEM qui sont uniques (non partagées par deux éléments) et les utilise pour créer les faces d\'un maillage. En option, il permet de créer un maillage déformé par l\'action des forces définies. Ceci est fait en ajoutant le déplacement des résultats FEM aux nœuds du maillage.
+Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélectionné en maillage. En pratique, il sélectionne les faces des éléments du maillage FEM qui sont uniques (non partagées par deux éléments) et les utilise pour créer les faces d\'un maillage. En outre, il permet de créer un maillage déformé par l\'action des forces définies. Ceci est fait en ajoutant le déplacement des résultats FEM aux nœuds du maillage.
 
 Les éléments bidimensionnels du maillage FEM ne sont pas pris en compte. Si vous devez les convertir, vous pouvez utiliser le script Python ci-dessous.
 
 ## Utilisation
 
 1.  Sélectionnez un objet FEM maillage.
-2.  Si vous le souhaitez, vous pouvez également sélectionner les résultats FEM.
+2.  Vous pouvez également sélectionner les résultats FEM.
 3.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md)**.
     -   Sélectionnez l\'option **Maillage → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Maillage FEM à maillage** dans le menu.
@@ -37,7 +37,7 @@ import Mesh
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
-## Convertir 2D éléments 
+## Convertir des éléments 2D 
 
 Sélectionnez un maillage et lancez le script Python suivant    *
 

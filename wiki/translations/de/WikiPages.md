@@ -492,16 +492,10 @@ Beispiel mit Symbolen   *
 
 Vor dem Erstellen einer neuen Seiten solltest du zuerst prüfen, ob bereits eine ähnliche Seite existiert. Sollte das der Fall sein, ist es meist besser, die vorhandene Seite zu ändern. Im Zweifel öffne bitte zuerst ein neues Thema im [Wiki-Forum](https   *//forum.freecadweb.org/viewforum.php?f=21).
 
+Um eine neue Seite zu erstellen, hat man folgende Möglichkeiten   *
 
-<div class="mw-translate-fuzzy">
-
-Um eine neue Seite zu erstellen, tue eins der folgenden Dinge   *
-
--   Besuche die URL mit dem gewünschten Seitennamen, z.B.   * https   *//wiki.freecadweb.org/MeineNeueSeite/de, und klicke auf \'Erstellen\'.
--   Führe eine Wiki-Suche nach dem Seitennamen durch und klicke auf den roten Text in \'Erstelle die Seite \"MeineneueSeite\" in diesem Wiki.\'.
-
-
-</div>
+-   Die URL mit dem gewünschten Seitennamen aufrufen, z.B.   * https   *//wiki.freecadweb.org/Meine_Neue_Seite/de, und auf \'Erstellen\' klicken.
+-   Eine Wiki-Suche nach dem Seitennamen durchführen und auf den roten Text in \'Erstelle die Seite \"Meine Neue Seite\" in diesem Wiki.\' klicken.
 
 ### Seiten umbenennen 
 

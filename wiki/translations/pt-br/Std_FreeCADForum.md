@@ -12,7 +12,7 @@
 
 The **Std FreeCADForum** command opens the FreeCAD forum website in the system\'s default Internet browser. The command requires a working Internet connection.
 
-Currently the command points to [<https   *//forum.freecadweb.org>](https   *//forum.freecadweb.org).
+Currently the command points to [<https   *//forum.freecad.org>](https   *//forum.freecad.org).
 
 ## Usage
 

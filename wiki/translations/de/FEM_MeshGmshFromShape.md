@@ -116,7 +116,11 @@ To illustrate this, look at the image below. A cuboid body is meshed using the s
 The *Simple* recombination algorithm will leave some triangles in the mesh in case the recombining leads to badly shaped quads. In such cases use a *full-quad* recombination algorithm, which will automatically perform a coarser mesh followed by the recombination, smoothing and subdividing. See [forum topic](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20351#p520392)
 
 <img alt="" src=images/FEM_Gmsh-Recombination.png  style="width   *600px;"> 
-*Effect of mesh element recombination. Upper left   * standard mesh, Upper right   * recombination only at the surface using the '''Simple''' algorithm, Lower left   * recombination at the surface and in the volume using the ''Simple'' algorithm, Lower right   * recombination at the surface and in the volume using the '''Simple full-quad''' algorithm*
+*Effect of mesh element recombination.<br>
+Upper left   * standard mesh.<br>
+Upper right   * recombination only at the surface using the '''Simple''' algorithm.<br>
+Lower left   * recombination at the surface and in the volume using the '''Simple''' algorithm.<br>
+Lower right   * recombination at the surface and in the volume using the '''Simple full-quad''' algorithm*
 
 
 

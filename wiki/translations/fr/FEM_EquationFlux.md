@@ -56,7 +56,7 @@ L\'équation de flux n\'a pas de contraintes propres. Elle prend les contraintes
 
 ## Résultats
 
-Les résultats disponibles dépendent des [paramètres du solveur](#Param.C3.A8tres_du_solveur.md). Si aucun d\'entre eux n\'a été réglé à *true*, rien n\'est calculé. Sinon, les résultats correspondants seront également disponibles.
+Les résultats disponibles dépendent des [paramètres du solveur](#Param.C3.A8tres_du_solveur.md). Si aucun des paramètres de **Calculate *** n\'a été défini sur *true*, rien n\'est calculé. Sinon, les résultats correspondants seront également disponibles.
 
 Le flux résultant est soit le flux de chaleur $\rm W/m^2$ (faussement appelé \"flux de température\"), soit le flux potentiel en $\rm W/m^2$ ($\rm A\cdot V/m^2$).
 

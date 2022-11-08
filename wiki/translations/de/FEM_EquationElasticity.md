@@ -93,7 +93,7 @@ The elasticity equation takes the following constraints into account if they are
 
 ### Note
 
-For all above constraints it is important that they act on a face. Constraints set to lines or vertices are not recognized by the Elmer solver.
+Except for calculations in 2D, for all above constraints it is important that they act on a face. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
 
 ## Eigenmode Analysis 
 
@@ -115,7 +115,7 @@ To perform a buckling analysis, you need to do the same as for an [Eigenmode Ana
 
 ## Results
 
-The available results depend on the [solver settings](#Solver_Settings.md). If none of them was set to *true*, only the displacement is calculated. Otherwise also the corresponding results will be available. If **Eigen Analysis** was set to *true* all results will be available for every calculated eigenmode.
+The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the displacement is calculated. Otherwise also the corresponding results will be available. If **Eigen Analysis** was set to *true* all results will be available for every calculated eigenmode.
 
 If **Eigen Analysis** was set to *true*, the eigenfrequencies are output at the end of the solver log in the solver dialog and also in the document **SolverElmerOutput** that will be created in the tree view after the solver has finished.
 

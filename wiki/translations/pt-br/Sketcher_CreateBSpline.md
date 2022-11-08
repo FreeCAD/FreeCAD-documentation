@@ -33,7 +33,7 @@ This tool creates a B-spline curve from its control points. (See [this page](B-S
 ## Limitations
 
 -   Many types of constraints are not supported at this time. Only the B-spline\'s control point and end points can be constrained.
--   [Trim](Sketcher_Trimming.md) and [extend](Sketcher_Extend.md) tools are not supported.
+-   [Split](Sketcher_Split.md) and [extend](Sketcher_Extend.md) tools are not supported.
 -   The shape of a B-spline curve can only be edited by dragging one of the control points. The knots lying on the curve cannot be selected.
 
 

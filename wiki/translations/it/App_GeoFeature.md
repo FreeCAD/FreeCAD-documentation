@@ -5,25 +5,13 @@
 
 <img alt="" src=images/Feature.svg  style="width   *32px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Un oggetto [App GeoFeature](App_GeoFeature/it.md), o formalmente un `App   *   *GeoFeature`, è la classe base della maggior parte degli oggetti che visualizzano elementi geometrici nella [vista 3D](3D_view/it.md) perché include la proprietà {{PropertyData/it|Posizionamento}}.
-
-
-</div>
+Un oggetto [App GeoFeature](App_GeoFeature/it.md), o formalmente un `App   *   *GeoFeature`, è la classe base della maggior parte degli oggetti che visualizzano elementi geometrici nella [vista 3D](3D_view/it.md) perché include una proprietà {{PropertyData/it|Posizionamento}}.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App   *   *GeoFeature* è essenzialmente la classe base di tutti gli oggetti nel software che mostrano una geometria nella [vista 3D](3D_view/it.md).`
-
-
-</div>
+*Diagramma semplificato delle relazioni tra gli oggetti principali in FreeCAD*
 
 ## Utilizzo
 
@@ -39,23 +27,17 @@ Alcuni degli oggetti derivati più importanti sono i seguenti   *
 
 Quando si crea questo oggetto in [Python](Python/it.md), invece di sottoclassare `App   *   *GeoFeature`, è necessario sottoclassare `App   *   *GeometryPython` perché quest\'ultimo include di default un provider di visualizzazione e gli attributi `Proxy` per l\'oggetto stesso e il relativo provider di visualizzazione. Vedere [Script](App_GeoFeature/it#Script.md).
 
-## Properties App GeoFeature 
+## Proprietà App GeoFeature 
 
 Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere gli oggetti con script.
 
+L\'oggetto [App GeoFeature](App_GeoFeature/it.md) (classe `App   *   *GeoFeature`) è derivato dall\'oggetto base [App DocumentObject](App_DocumentObject/it.md) (classe `App   *   *DocumentObject`) ed eredita tutte le sue proprietà. Inoltre ha una proprietà **Placement**, che controlla la sua posizione nella [3D view](3D_view.md).
 
-<div class="mw-translate-fuzzy">
+## Proprietà App GeometryPython 
 
-Un oggetto [App GeoFeature](App_GeoFeature/it.md) (classe `App   *   *GeoFeature`) è derivato dall\'oggetto base [App DocumentObject](App_DocumentObject/it.md) (classe `App   *   *DocumentObject`), pertanto condivide tutte le proprietà di quest\'ultimo.
+Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere gli oggetti con script.
 
-
-</div>
-
-## Properties App GeometryPython 
-
-See [Property](Property.md) for all property types that scripted objects can have.
-
-The [App GeometryPython](App_GeoFeature.md) (`App   *   *GeometryPython` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App   *   *GeoFeature` class) and inherits all its properties. It also has several additional properties.
+La classe [App GeometryPython](App_GeoFeature.md) (`App   *   *GeometryPython`) è derivata dalla classe di base [App GeoFeature](App_GeoFeature.md) (`App   *   *GeoFeature`) ed eredita tutte le sue proprietà. Ha anche diverse proprietà aggiuntive.
 
 
 <div class="mw-translate-fuzzy">

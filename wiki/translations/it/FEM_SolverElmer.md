@@ -42,15 +42,14 @@ Elmer requires two components to be interfaced with FreeCAD   *
 
 There are standalone programs for both of these applications but their installation and usage are beyond the scope of the FreeCAD integration.
 
-1.  Go to the CSC binaries resources for Elmer   * [binaries](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/) OR [CSC binaries](https   *//www.csc.fi/web/elmer/binaries)
-2.  Download and install the version best suited to your Operating System ([Windows](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) or [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). It is recommended to install the `mpi` version to get multi CPU core support (<small>(v1.0)</small> ).
-3.  In FreeCAD go to **Edit → Preferences → FEM → Elmer**
-4.  Link the correct path for both `ElmerGrid` and `ElmerSolver`, or <small>(v1.0)</small>    * to make Elmer use all available CPU cores, `ElmerSolver_mpi`.
+1.  Download and install the version best suited to your Operating System ([Windows](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/) or [Linux](https   *//www.nic.funet.fi/pub/sci/physics/elmer/bin/linux/Readme1st.txt)). It is recommended to install the `mpi` version to get multi-core support (<small>(v1.0)</small> ).
+2.  In FreeCAD go to **Edit → Preferences → FEM → Elmer**
+3.  In the [FEM preferences](FEM_Preferences#Elmer.md) set the correct path for both `ElmerGrid` and `ElmerSolver`, or <small>(v1.0)</small>    * set the path for `ElmerSolver_mpi` instead of `ElmerSolver` to make Elmer use all available CPU cores.
 
        *   ![Elmer Tab in FEM Preferences](images/Preferences-ElmerPath.png )
        *   
         
-*Above   * Elmer preferences dialog menu showing fields to locate important Elmer binaries on Windows OS*
+*Elmer preferences dialog menu showing fields to locate important Elmer binaries on Windows OS*
         
 
 You are ready to use Elmer in FreeCAD.
@@ -70,7 +69,7 @@ You are ready to use Elmer in FreeCAD.
        *   ![](images/Elmer_typical_file_tree.png )
        *   
         
-*Above   * Example of a [tree view](Tree_view.md) once a Solver for Elmer is activated*
+*Example of a [tree view](Tree_view.md) once a Solver for Elmer is activated*
         
 4.  Edit the parameters for the solver in the [Property editor](Property_editor.md) **Data** tab of the SolverElmer object in the model [tree view](Tree_view.md)
 5.  Double-click on the **<img src="images/FEM_SolverElmer.svg" width=22px> SolverElmer** object to prepare an analysis run
@@ -78,7 +77,7 @@ You are ready to use Elmer in FreeCAD.
        *   <img alt="" src=images/ElmerSolver_TaskPanel.png  style="width   *300px;">
        *   
         
-*Above   * Dialog box to run an Elmer analysis*
+*Dialog box to run an Elmer analysis*
         
 6.  Select the path to write the analysis in by clicking **...**
 7.  Click **Write** to write the case files in the directory selected previously

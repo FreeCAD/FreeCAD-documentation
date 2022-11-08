@@ -14,7 +14,7 @@
 
 Augmente la multiplicité de nœuds d\'une B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
 
-Les B-splines sont essentiellement une combinaison de [courbes de Bézier](B-Splines/fr#Courbes_de_B.C3.A9zier.md) (bien expliqué dans ces vidéos [ici](https   *//www.youtube.com/watch?v=bE1MrrqBAl8) et [ici](https   *//www.youtube.com/watch?v=xXJylM2S72s)). Les points où deux courbes de Bézier sont connectées pour former la spline sont appelés nœuds. Un nœud sur une spline de degré *d* avec la multiplicité *m* signifie que la courbe à gauche et à droite du nœud a au moins une dérivée d\'ordre *n* égale (appelée continuité *C*^*n*^) alors que $n=d-m$.
+Les B-splines sont essentiellement une combinaison de [courbes de Bézier](B-Splines/fr#Courbes_de_B.C3.A9zier.md) (bien expliqué dans ces vidéos [ici](https   *//www.youtube.com/watch?v=bE1MrrqBAl8) et [ici](https   *//www.youtube.com/watch?v=xXJylM2S72s)). Les points où deux bouts de Bézier sont connectés sont appelés nœuds. Un nœud sur une spline de degré *d* et de multiplicité *m* signifie que la courbe à gauche et à droite du nœud a au moins une dérivée d\'ordre *n* égale (appelée continuité *C*^*n*^) alors que $n=d-m$.
 Voici une spline cubique ($d=3$) dont les nœuds ont la multiplicité 1. La multiplicité est indiquée par le nombre entre parenthèses. L\'indication peut être modifiée à l\'aide du bouton de la barre d\'outils **[<img src=images/_Sketcher_BSplineKnotMultiplicity.svg style="width   *24px"> [Afficher/masquer la multiplicité des nœuds B-spline](Sketcher_BSplineKnotMultiplicity/fr.md)**)   *
 
 <img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity1.png  style="width   *400px;"> 

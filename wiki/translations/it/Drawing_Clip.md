@@ -24,13 +24,7 @@ Questo comando consente di inserire e posizionare un riquadro rettangolare, deno
 -   Gli oggetti clip non vengono visualizzati correttamente dal visualizzatore Svg interno basato su Qt, ma il comando [Apri Browser](Drawing_Openbrowser/it.md) li mostra correttamente.
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{docnav/it|[Annotazione](Drawing_Annotation/it.md)|[Apri Browser](Drawing_Openbrowser/it.md)|[Drawing](Drawing_Workbench/it.md)|IconL=Drawing_Annotation.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Openbrowser.png}}
-
-
-</div>
 
 
 {{Drawing Tools navi

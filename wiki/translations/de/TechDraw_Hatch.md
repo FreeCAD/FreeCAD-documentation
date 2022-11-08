@@ -11,7 +11,7 @@
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **TechDraw Schraffur** füllt einen geschlossenen Bereich in einer Ansicht mit einem [SVG](SVG/de.md)-basierten Schraffurmuster. Alternativ dazu verwendet das Werkzeug <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw GeometrischeSchraffur](TechDraw_GeometricHatch/de.md) ein PAT-basiertes Schraffurmuster. Siehe [Schraffieren](TechDraw_Hatching/de.md) für Einzelheiten.
+Das Werkzeug <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **TechDraw Schraffur** füllt einen geschlossenen Bereich in einer Ansicht mit einem gekachelten [SVG](SVG/de.md)- oder bitmap-basierten ({{Version/de|1.0}}) Schraffurmuster. Alternativ dazu verwendet das Werkzeug <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw GeometrischeSchraffur](TechDraw_GeometricHatch/de.md) ein PAT-basiertes Schraffurmuster. Siehe [Schraffieren](TechDraw_Hatching/de.md) für Einzelheiten.
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width   *300px;">
 
@@ -21,28 +21,39 @@ Das Werkzeug <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> 
 
 ## Anwendung
 
-1.  Wähle einen geschlossenen Bereich in einer Ansicht.
+1.  Einen geschlossenen Bereich in einer Ansicht auswählen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
     -   Die Schaltfläche **<img src="images/TechDraw_Hatch.svg" width=16px> [Fläche mit Muster aus einer Bilddatei schraffieren](TechDraw_Hatch/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Extensions   * Attributes/Modifications → <img src="images/TechDraw_Hatch.svg" width=16px> Fläche mit Muster aus einer Bilddatei schraffieren** auswählen.
 3.  Der Aufgabenbereich zu **Fläche mit Muster aus einer Bilddatei schraffieren** öffnet sich.
-4.  Optional können **Pattern File** (Schraffurdatei), **Pattern Scale** (Schraffurskalierung) und **Line Color** (Linienfarbe) verändert werden.
-5.  Schaltfläche **OK** drücken.
+4.  Wahlweise kann **Pattern File** geändert werden (wechselt die Schraffurdatei) .
+5.  Wahlweise können **Pattern Scale** (Schraffurskalierung) und **Line Color** (Linienfarbe) verändert werden. Diese Einstellungen werden für Bitmap-Muster ignoriert.
+6.  Schaltfläche **OK** drücken.
 
 ## Hinweise
 
--   Schraffierte Objekte sind anfällig für das \"[topologische Benennungsproblem](Topological_naming_problem/de.md)\". Siehe [TechDraw LängenBemaßung](TechDraw_LengthDimension/de.md) für weitere Information. Es wird empfohlen, dass das Schraffieren einer der letzten Schritte in deinem Zeichenprozess ist.
--   Beispielmuster [SVG](SVG/de.md) sind lokal verfügbar in
+-   Schraffierte Objekte sind anfällig für das \"[Problem der topologischen Benennung](Topological_naming_problem/de.md)\". Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Information. Es wird empfohlen, dass das Schraffieren einer der letzten Schritte im Zeichenprozess ist.
+-   [SVG](SVG/de.md)-Beispielmuster sind lokal verfügbar unter   *
 
-
+   *   
+    
 ```python
-$INSTALL_DIR/data/Mod/TechDraw/Patterns
+    $INSTALL_DIR/data/Mod/TechDraw/Patterns
+    
 ```
+    
 
-wobei `$INSTALL_DIR` das Verzeichnis ist, wo FreeCAD installiert wurde, z.B. 
+   *   Dabei ist `$INSTALL_DIR` das Verzeichnis, in dem FreeCAD installiert wurde, z.B.   *
+
+   *   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/Patterns
-``` und auch auf [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+    /usr/share/freecad/data/Mod/TechDraw/Patterns
+    
+```
+    
+
+   *   Sie stehen auch auf [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns) zur Verfügung.
 
 ## Eigenschaften
 

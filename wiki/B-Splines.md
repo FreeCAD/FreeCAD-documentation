@@ -110,17 +110,27 @@ $$\textrm{Bezier-combination}=\begin{cases}
 
 whereas $B_{i,n}(t)$ is the i-th Bernstein polynomial with order $n$ and the coefficients $P_{i}$ are the point coordinates of the Bézier curve control points. But we use a **different set of functions** that are defined over the whole spline range   *
 
-$$\textrm{B-spline}= \sum_{i=0}^{n}P_{i}\cdot N_{i,n}(t)$$ and
+$$\textrm{B-spline}= \sum_{i=0}^{n}p_{i}\cdot N_{i,n}(t)$$.
 
-$$N_{i,n}(t) \ne B_{i,n}(t)$$
+Note that in general $N_{i,n}(t) \ne B_{i,n}(t)$, and the Bezier control points $\{P_1, P_2,\dots\}$ are different from B-spline control points $\{p_1, p_2,\dots\}$.
 
 The different $N_{i,n}(t)$ are defined piecewise where the interval of every piece is the interval of the Bézier piece. When the lengths of all $N_{i,n}$ pieces is equal, we speak of a uniform spline. (In literature this is often denoted as equal travel time $t$ per piece.)
 
-To understand how the $P_{i}$ are the coordinates of the B-spline control points, see the first minute of [this video](https   *//www.youtube.com/watch?v=dPPTCy4L4rY&list=PL8bSwVy8_IcMvtI70tZoYesCS0hGVO5qd).
+To understand how the $p_{i}$ are the coordinates of the B-spline control points, see the first minute of [this video](https   *//www.youtube.com/watch?v=dPPTCy4L4rY&list=PL8bSwVy8_IcMvtI70tZoYesCS0hGVO5qd).
+
+#### Knot vector 
+
+As derived above, B-splines are created out of $N_{i,n}$ piecewise polynomials with continuity up to a certain derivative between the pieces. The endpoints of the piece\'s definition interval are called knots. For a spline defined over $k$ pieces, there are $k+1$ knots given by the so-called *knot vector*   *$\{t_0, t_1, t_2,\dots, t_k\}$ whereas $t_0 < t_1 < t_2 < \dots < t_k$
+
+The knot vector comprises the knots of the $N_{i,n}$ basis functions that define the B-spline, see [this video](https   *//www.youtube.com/watch?v=ni5NNPCVvDY). The basis functions of a B-spline can be calculated using the knot vector and a creation algorithm, see [this video](https   *//www.youtube.com/watch?v=hrsO45AHtbs).
+
+The derivative until which continuity exists is given by the multiplicity $m$. Therefore we can specify a vector with the multiplicity for every knot   * $\{m_0, m_1,\dots, m_k\}$. A knot on a spline with degree *d* and the multiplicity *m* tells that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
 
 ### Non-uniform B-splines 
 
-Above we showed that uniform B-splines have the restriction that every polynomial piece has the same length. The more general case is that they can but must not have the same length. Such non-uniform splines have the advantage that one can control how close the splines cross its control point. Mathematically this is achieved by defining the different $N_{i,n}$ pieces at different intervals. In the above example image all pieces were defined in the interval \[0, 1\]. If now $N_{1,4}$ is only defined in the interval \[0, 0.6\] (outside the interval it is set to zero), it is shorter and thus the spline becomes non-uniform.
+The derivation of B-splines from Bézier curves have the mathematical consequence that in B-splines every polynomial piece has the same length. Such B-splines are called *uniform*. The more general case is that they can but must not have the same length. Such *non-uniform* splines have the advantage that one can control how close the splines cross its control point. Mathematically this is achieved by defining the different $N_{i,n}$ pieces at different intervals. If for example a B-spline is defined for the interval \[0, 1\], it is uniform if all its e.g. 5 pieces are also defined in this interval. If now $N_{1,4}$ is only defined in the interval \[0, 0.6\] (outside the interval it is set to zero), it is shorter and thus the spline becomes non-uniform.
+
+As described above the parameters of the knots are described by the knot vector. So the knot vector stores the definition intervals. When now one piece gets another interval, also the knot vector changes, see [this video](https   *//www.youtube.com/watch?v=w-l5R70y6u0) for a visualization.
 
 ### Rational B-splines 
 

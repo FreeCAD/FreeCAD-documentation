@@ -1,22 +1,16 @@
 # Macro FCGear/it
-**This Macro has been converted in to a workbench called [[FCGear Workbench]]. Please use the workbench instead of this macro as it is actively maintained.**
-
-
-<div class="mw-translate-fuzzy">
+**Questa macro è stata convertita in un ambiente chiamato [ Ambiente FCGear](FCGear_Workbench/it.md). Utilizza l'ambiente invece di questa macro poiché è attivamente gestito.**
 
 
 {{Macro/it
 |Name= Macro FCGear
 |Translate=Ingranaggi
-|Icon=Gearworkbech.png
+|Icon=FCGear_workbench_icon.svg
 |Description=Ambiente aggiuntivo per creare diversi tipi di ingranaggi.
 |Author=looooo
 |Version=1.0
 |Date=2015-10-27
 }}
-
-
-</div>
 
 ## Descrizione
 

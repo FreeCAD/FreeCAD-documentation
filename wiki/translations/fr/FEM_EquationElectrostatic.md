@@ -26,6 +26,46 @@ Pour les paramètres généraux du solveur, voir les [Paramètres du solveur Elm
 
 L\'équation électrostatique fournit ces paramètres spéciaux    *
 
+-    **Calculate Capacitance Matrix**   * calcule la matrice de capacité. La matrice contient les charges ponctuelles des nœuds de la maille.
+
+-    **Calculate Electric Energy**   * calcule l\'énergie électrique.
+
+-    **Calculate Electric Field**   * calcule le champ électrique.
+
+-    **Calculate Electric Flux**   * calcule le flux électrique.
+
+-    **Calculate Surface Charge**   * calcule la charge de surface.
+
+-    **Capacitance Matrix Filename**   * fichier dans lequel la matrice de capacité est sauvegardée. Il n\'est utilisé que si **Calculate Capacitance Matrix** est réglé à*true*.
+
+-    **Constant Weights**   * si la pondération constante des résultats est utilisée.
+
+-    **Potential Difference**   * différence de potentiel en Volt pour laquelle la capacité est calculée. Elle n\'est utilisée que si **Calculate Capacitance Matrix** est réglé à*false*. Par conséquent, ce paramètre spécifie en fait la tension entre les électrodes d\'un simple condensateur. Notez que la tension donnée doit être cohérente avec les potentiels définis dans les conditions aux limites.
+
+## Informations sur les contraintes 
+
+L\'équation électrostatique prend en compte les contraintes suivantes si elles sont définies    *
+
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *32px;"> [Contrainte potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md)
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width   *32px;"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md)
+
+### Remarque
+
+Sauf pour les calculs en 2D, pour les <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width   *24px;"> [Contraintes de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md), il est important qu\'elles agissent sur une face ou un corps. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
+
+## Résultats
+
+Les résultats disponibles dépendent des [paramètres du solver](#Param.C3.A8tres_du_solveur.md). Si aucun des paramètres de **Calculate *** n\'a été défini sur *true*, seuls la densité de force électrique et le potentiel électrique sont calculés. Sinon, les résultats correspondants seront également disponibles.
+
+Les résultats possibles sont    *
+
+-   Densité d\'énergie électrique en $\rm J/m^3$
+-   Champ électrique en $\rm V/m$
+-   Flux électrique en $\rm A\cdot s/m^2$
+-   Densité de force électrique en $\rm N/m^2$
+-   Potentiel en $\rm V$
+-   Charges potentielles en $\rm C$
+
 
 
 

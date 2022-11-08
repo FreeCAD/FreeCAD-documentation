@@ -235,7 +235,8 @@ Python 2 и Qt4 уже устарели и не рекомендуются к п
 -    `libqt5svg5-dev`
     
 
--    `libqt5webkit5-dev`or `qtwebengine5-dev`
+-    `qtwebengine5-dev`
+    
 
 -    `libqt5xmlpatterns5-dev`
     
@@ -393,7 +394,7 @@ sudo apt install libocct*-dev
 
 
 {{Code|lang=bash|code=
-sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-packaging python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-pyside2.qtwebengine python3-pyside2.qtwebenginecore python3-pyside2.qtwebenginewidgets python3-pyside2.qtwebchannel python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
+sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev qtwebengine5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-packaging python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-pyside2.qtwebengine python3-pyside2.qtwebenginecore python3-pyside2.qtwebenginewidgets python3-pyside2.qtwebchannel python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
 }}
 
 ПРИМЕЧАНИЕ   * В некоторых версиях Ubuntu и некоторых версиях Qt вы получите сообщение об ошибке, что python3-pyside2uic не может быть найден-в этих системах вы можете безопасно опустить его. В Ubuntu 20.04 вам нужно будет добавить `pyqt5-dev-tools`. Более подробную информацию можно найти в [это обсуждение на форуме](https   *//forum.freecadweb.org/viewtopic.php?t=51324).
@@ -547,7 +548,7 @@ This trivial change needs to be made inside the build directory once cmake has b
 -   tbb-devel
 -   eigen3-devel
 -   qt-devel
--   qt-webkit-devel
+-   qt5-qtwebengine-devel
 -   qt5-qtxmlpatterns
 -   qt5-qtxmlpatterns-devel
 -   qt5-qtsvg-devel
@@ -591,7 +592,7 @@ To install all dependencies at once (tested on fedora 36)   *
 
 
 {{Code|lang=bash|code=
-sudo dnf install gcc-c++ cmake doxygen swig gettext dos2unix desktop-file-utils libXmu-devel freeimage-devel mesa-libGLU-devel opencascade-devel openmpi-devel python3 python3-devel python3-pyside2 python3-pyside2-devel pyside2-tools boost-devel tbb-devel eigen3-devel qt-devel qt-webkit-devel qt5-qtxmlpatterns qt5-qtxmlpatterns-devel qt5-qtsvg-devel qt5-qttools-static ode-devel xerces-c xerces-c-devel opencv-devel smesh-devel Coin3 Coin3-devel SoQt-devel freetype freetype-devel vtk vtk-devel med med-devel libspnav-devel python3-pivy python3-markdown python3-GitPython
+sudo dnf install gcc-c++ cmake doxygen swig gettext dos2unix desktop-file-utils libXmu-devel freeimage-devel mesa-libGLU-devel opencascade-devel openmpi-devel python3 python3-devel python3-pyside2 python3-pyside2-devel pyside2-tools boost-devel tbb-devel eigen3-devel qt-devel qt5-qtwebengine-devel qt5-qtxmlpatterns qt5-qtxmlpatterns-devel qt5-qtsvg-devel qt5-qttools-static ode-devel xerces-c xerces-c-devel opencv-devel smesh-devel Coin3 Coin3-devel SoQt-devel freetype freetype-devel vtk vtk-devel med med-devel libspnav-devel python3-pivy python3-markdown python3-GitPython
 }}
 
 
@@ -688,7 +689,6 @@ zypper in libqt5-qtbase-devel libqt5-qtsvg-devel libqt5-qttools-devel boost-deve
 -   python-matplotlib
 -   python-netcdf4
 -   qt5-svg
--   qt5-webkit
 -   qt5-webengine
 -   cmake
 -   eigen
@@ -704,7 +704,7 @@ zypper in libqt5-qtbase-devel libqt5-qtsvg-devel libqt5-qttools-devel boost-deve
 
 
 ```python
-sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 qt5-svg qt5-webkit qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
+sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 qt5-svg qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
 ```
 
 
@@ -814,7 +814,7 @@ Adapt the command for the structure of your system by searching for libdl.so\* a
 
 {{Code|lang=bash|code=
 cd freecad-source
-cmake . -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3
+cmake . -DPYTHON_EXECUTABLE=/usr/bin/python3
 make -j$(nproc --ignore=2)
 }}
 
@@ -874,7 +874,7 @@ cmake -DBUILD_FEM=OFF ../freecad-source
 
 
 {{Code|lang=bash|code=
-cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Debug ../freecad-source
 }}
 
 #### Для Release сборки 
@@ -883,28 +883,49 @@ cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Deb
 
 
 {{Code|lang=bash|code=
-cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad-source
 }}
 
 #### Сборка на основе Python 3 и Qt5 
 
+
+<div class="mw-translate-fuzzy">
+
 По умолчанию FreeCAD 0.19 и более ранние версии созданы для Python 2 и Qt4. Поскольку эти два пакета устарели, лучше создавать для Python 3 и Qt5. Поддержка Python 2 и Qt4 была удалена в FreeCAD 0.20, и нет необходимости явно включать Qt5 и Python 3 при компиляции последних версий разработки.
 
-В современном дистрибутиве Linux вам нужно указать только две переменные, указывающие использование Qt5, и путь к интерпретатору Python.
 
-Для 0.19   * {{Code|lang=bash|code=
-cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
-}}
+</div>
 
-Для 0.20_dev   * {{Code|lang=bash|code=
+
+<div class="mw-translate-fuzzy">
+
+Для 0.20_dev   *
+
+
+</div>
+
+
+{{Code|lang=bash|code=
 cmake ../freecad-source
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 Обратите внимание, что при переключении между сборками 0.19 и 0.20 может потребоваться удалить CMakeCache.txt до запуска cmake.
+
+
+</div>
 
 #### Сборка с применением особых версий Python 
 
+
+<div class="mw-translate-fuzzy">
+
 Если по умолчанию исполняемый файл `python` в вашей системе является символической ссылкой на Python 2, `cmake` попытается настроить FreeCAD для этой версии. Вы можете выбрать другую версию Python, указав путь к определенному исполняемому файлу   *
+
+
+</div>
 
 
 {{Code|lang=bash|code=
@@ -953,7 +974,6 @@ Some components of FreeCAD, such as PySide, try to autodetect the most recent Py
 6\. Установите соответствующие переменные в диалоговом окне Key-Value типов `String` и `Bool`. 
 ```python
 PYTHON_EXECUTABLE=/usr/bin/python3
-BUILD_QT5=ON
 ```
 
 7\. Если переменные загружают проект неправильно, возможно, вам придется перейти к **Projects → Manage Kits → Kits → Default (or Imported Kit or similar) → CMake Configuration**. Затем нажмите **Change**, и добавьте соответствующую конфигурацию, как описано выше. Возможно, вам придется добавить дополнительные переменные о путях Python, если системный Python не найден. 
@@ -962,7 +982,6 @@ PYTHON_EXECUTABLE   *STRING=/usr/bin/python3.7
 PYTHON_INCLUDE_DIR   *STRING=/usr/include/python3.7m
 PYTHON_LIBRARY   *STRING=/usr/lib/x86_64-linux-gnu/libpython3.7m.so
 PYTHON_PACKAGES_PATH   *STRING=/usr/lib/python3.7/site-packages
-BUILD_QT5   *BOOL=ON
 ```
 
 7.1. Нажмите **Apply**, затем **OK**.
@@ -1157,7 +1176,7 @@ sudo apt-get install freecad-daily
 git clone https   *//github.com/FreeCAD/FreeCAD.git freecad-source
 mkdir freecad-build
 cd freecad-build
-cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DFREECAD_USE_PYBIND11=ON ../freecad-source
+cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DFREECAD_USE_PYBIND11=ON ../freecad-source
 make -j$(nproc --ignore=2)
 }}
 

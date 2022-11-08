@@ -37,11 +37,10 @@ This category list pages related to the [Arch Workbench](Arch_Workbench.md), the
 | [Arch Window/en](wiki/Arch Window/en.md) | [Arch Workbench/en](wiki/Arch Workbench/en.md) | [Artwork Arch/en](wiki/Artwork Arch/en.md) |
 | [BIM Library/en](wiki/BIM Library/en.md) | [Custom Spacing/en](wiki/Custom Spacing/en.md) | [Example Combined Footing/en](wiki/Example Combined Footing/en.md) |
 | [Example Slab Having LShape Rebars Reinforcement Mesh/en](wiki/Example Slab Having LShape Rebars Reinforcement Mesh/en.md) | [Example Slab Having Mesh Of Straight Rebars/en](wiki/Example Slab Having Mesh Of Straight Rebars/en.md) | [Example Slab Having UShape Rebars Reinforcement Mesh/en](wiki/Example Slab Having UShape Rebars Reinforcement Mesh/en.md) |
-| [Example Slab Spanning in One Direction/en](wiki/Example Slab Spanning in One Direction/en.md) | [Example Slab Spanning in Two Directions/en](wiki/Example Slab Spanning in Two Directions/en.md) | [FEM MaterialEditor/en](wiki/FEM MaterialEditor/en.md) |
-| [IfcOpenShell/en](wiki/IfcOpenShell/en.md) | [IfcPlusPlus/en](wiki/IfcPlusPlus/en.md) | [Import/Export IFC - compiling IfcOpenShell/en](wiki/Import/Export IFC - compiling IfcOpenShell/en.md) |
-| [Manual:BIM modeling/en](wiki/Manual_BIM modeling/en.md) | [Reinforcement Addon/en](wiki/Reinforcement Addon/en.md) | [Reinforcement API/en](wiki/Reinforcement API/en.md) |
-| [SweetHome3D/en](wiki/SweetHome3D/en.md) | [Tutorial custom placing of windows and doors/en](wiki/Tutorial custom placing of windows and doors/en.md) | [Tutorial for open windows/en](wiki/Tutorial for open windows/en.md) |
-|
+| [Example Slab Spanning in One Direction/en](wiki/Example Slab Spanning in One Direction/en.md) | [Example Slab Spanning in Two Directions/en](wiki/Example Slab Spanning in Two Directions/en.md) | [IfcOpenShell/en](wiki/IfcOpenShell/en.md) |
+| [IfcPlusPlus/en](wiki/IfcPlusPlus/en.md) | [Import/Export IFC - compiling IfcOpenShell/en](wiki/Import/Export IFC - compiling IfcOpenShell/en.md) | [Manual:BIM modeling/en](wiki/Manual_BIM modeling/en.md) |
+| [Reinforcement Addon/en](wiki/Reinforcement Addon/en.md) | [Reinforcement API/en](wiki/Reinforcement API/en.md) | [SweetHome3D/en](wiki/SweetHome3D/en.md) |
+| [Tutorial custom placing of windows and doors/en](wiki/Tutorial custom placing of windows and doors/en.md) | [Tutorial for open windows/en](wiki/Tutorial for open windows/en.md) |
 
 
 

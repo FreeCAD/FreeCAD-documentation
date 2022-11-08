@@ -1,21 +1,15 @@
 # Macro Align View to Face/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Align View to Face
 |Icone=Macro_Align_View_to_Face.png
 |Translate=Allinea la vista alla faccia
 |Description=Questa macro allinea la vista corrente a una faccia selezionata
 |Author=Rockn
-|Version=2.0
-|Date=2016-03-06
+|Version=3.0
+|Date=2022-10-08
 |Download=[https   *//www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png ToolBar Icon]
 |FCVersion=Tutte
 }}
-
-
-</div>
 
 ## Descrizione
 

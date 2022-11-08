@@ -167,7 +167,7 @@ Maintenant, nous en avons fini avec notre ligne, nous allons supprimer le mécan
 
 ## Tester le script 
 
-Maintenant, sauvegardons notre script dans un dossier où l\'interpréteur FreeCAD Python peut le trouver. Lors de l\'importation de modules, l\'interpréteur cherchera aux endroits suivants   * les chemins d\'installation de Python, le dossier FreeCAD **bin** et tous les dossiers FreeCAD **Mod** (module). La meilleure solution est donc de créer un nouveau dossier dans l\'un des dossiers **Mod**. Créons là un dossier **MyScripts** et enregistrons notre script dedans sous le nom **exerc.py**.
+Maintenant, sauvegardons notre script dans un dossier où l\'interpréteur FreeCAD Python peut le trouver. Lors de l\'importation de modules, l\'interpréteur cherchera aux endroits suivants   * les chemins d\'installation de Python, le dossier FreeCAD **bin** et tous les dossiers FreeCAD **Mod** (module). La meilleure solution est donc de créer un nouveau dossier dans l\'un des dossiers **Mod**. Créons là un dossier **MyScripts** et enregistrons notre script dedans sous le nom **exercise.py**.
 
 Maintenant, tout est prêt. Démarrons FreeCAD, créons un nouveau document, et dans le numéro de l\'interpréteur Python   *
 
@@ -197,7 +197,7 @@ Maintenant, testons-le    *
 exercise.line()
 ```
 
-Cliquez deux fois dans la vue 3D et bingo   * voici notre ligne! Pour la répéter, tapez à nouveau `exerc.line()`. {{Top}}
+Cliquez deux fois dans la vue 3D et bingo   * voici notre ligne! Pour la répéter, tapez à nouveau `exercise.line()`. {{Top}}
 
 ## Enregistrement du script 
 
@@ -219,7 +219,7 @@ Gui.addWorkbench(MyWorkbench())
 
 A présent, vous comprenez probablement le script ci-dessus. Nous créons une nouvelle classe que nous appelons `MyWorkbench`, nous lui donnons un titre `MenuText` et nous définissons une fonction `Initialize()` qui sera exécutée lorsque l\'atelier est chargé dans FreeCAD. Dans cette fonction, nous chargeons le contenu de notre fichier d\'exercice et ajoutons les commandes FreeCAD trouvées à l\'intérieur à une liste de commandes. Ensuite, nous créons une barre d\'outils appelée \"Mes scripts\" et nous y assignons notre liste de commandes. Actuellement, bien sûr, nous n\'avons qu\'un seul outil, donc notre liste de commandes ne contient qu\'un seul élément. Ensuite, une fois notre atelier prêt, nous l\'ajoutons à l\'interface principale.
 
-Mais cela ne fonctionnera toujours pas car une commande FreeCAD doit être formatée d\'une certaine manière pour fonctionner, nous devrons changer notre outil `line()`. Notre nouveau script **exerc.py** devrait ressembler à ceci   *
+Mais cela ne fonctionnera toujours pas car une commande FreeCAD doit être formatée d\'une certaine manière pour fonctionner, nous devrons changer notre outil `line()`. Notre nouveau script **exercise.py** devrait ressembler à ceci   *
 
 
 ```python

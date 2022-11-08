@@ -71,7 +71,7 @@ Le retraçage d\'une esquisse de cette manière peut être effectué chaque fois
 
 Le [graphe des dépendances](Std_DependencyGraph/fr.md) est un outil utile pour observer les relations entre les différents corps du document. L\'utilisation du flux de travail de modélisation d\'origine révèle la relation directe qui existe entre les esquisses et les protusions. Comme une chaîne, il est facile de voir que cette dépendance directe sera sujette à des problèmes de dénomination topologique si l\'un des liens de la séquence change.
 
-Comme expliqué dans la page d\'[édition de fonctions](feature_editing/fr.md), une solution à ce problème consiste à prendre en charge les esquisses non pas sur des faces, mais sur des plans de référence décalés par rapport aux plans principaux des [PartDesign Corps](PartDesign_Body/fr.md) originaux.
+Comme expliqué sur la page d\'[édition de fonctions](Feature_editing/fr.md), une solution à ce problème consiste à prendre en charge les esquisses non pas sur des faces mais sur des plans de référence qui sont rattachés aux plans principaux de l\'origine des [PartDesign Corps](PartDesign_Body/fr.md) et décalés par rapport à ceux-ci.
 
 1\. Sélectionnez l\'origine du [PartDesign Corps](PartDesign_Body/fr.md) et assurez-vous qu\'il est visible. Sélectionnez ensuite le plan XY et cliquez sur [PartDesign Plan de référence](PartDesign_Plane/fr.md). Dans la boîte de dialogue Décalage, attribuez-lui un décalage dans la direction Z afin que le plan de référence soit coplanaire avec la face supérieure du premier bloc.
 

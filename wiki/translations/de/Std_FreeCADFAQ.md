@@ -9,11 +9,20 @@
 
 # Std FreeCADFAQ/de
 
+
+</div>
+
 ## Beschreibung
 
 Der Befehl **Std FreeCADFAQ** öffnet die (engl.) Seite \"Frequently asked questions\" im voreingestellten Internet-Browser (Dort können verschiedene Landessprachen ausgewählt werden). Der Befehl erfordert eine funktionierende Internetverbindung.
 
+
+<div class="mw-translate-fuzzy">
+
 Aktuell verweist dieser Befehl auf die Seite [<https   *//www.freecadweb.org/wiki/FAQ>](https   *//www.freecadweb.org/wiki/FAQ).
+
+
+</div>
 
 ## Anwendung
 

@@ -66,24 +66,24 @@ The following mathematical functions are supported   *
 
 [Trigonometric functions](https   *//en.wikipedia.org/wiki/Trigonometric_functions) use degree as their default unit. For radian measure, add first value in an expression. So e.g. `cos(45)` is the same as `cos(pi rad / 4)`. Expressions in degrees can use either `deg` or `°`, e.g. `360deg - atan2(3; 4)` or `360&deg; - atan2(3; 4)`. If an expression is without units and needs to be converted to degrees or radians for compatibility, multiply by `1&nbsp;deg`, `1&nbsp;°` or `1&nbsp;rad` as appropriate, e.g. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
 
-  Function      Description                                                                                                          Value range
+  Function      Description                                                                                                                                                                         Input range
     
-  acos(x)       [Arc cosine](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                         -1 \<= x \<= 1
-  asin(x)       [Arc sine](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                           -1 \<= x \<= 1
-  atan(x)       [Arc tangent](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                        all
-  atan2(x; y)   [Arc tangent](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties) of *x/y*               all, except y = 0
-  cos(x)        [Cosine](https   *//en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                    all
-  cosh(x)       [Hyperbolic cosine](https   *//en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                     all
-  sin(x)        [Sine](https   *//en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                      all
-  sinh(x)       [Hyperbolic sine](https   *//en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                       all
-  tan(x)        [Tangent](https   *//en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                   all, except x = n\*90 with n = uneven integer
-  tanh(x)       [Hyperbolic tangent](https   *//en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                    all
-  hypot(x; y)   [Pythagorean addition](https   *//en.wikipedia.org/wiki/Pythagorean_addition) (**hypot**enuse). E.g. hypot(4; 3) = 5.   x and y \> 0
-  cath(x; y)    Given hypotenuse, and one side, returns other side of triangle. E.g. cath(5; 3) = 4.                                 x and y \> 0, x \>= y
+  acos(x)       [Arc cosine](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                                                                                        -1 \<= x \<= 1
+  asin(x)       [Arc sine](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                                                                                          -1 \<= x \<= 1
+  atan(x)       [Arc tangent](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties), return value in the range -90° \< value \< 90°                                       all
+  atan2(y; x)   [Arc tangent](https   *//en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties) of *y/x* accounting for quadrant, return value in the range -180° \< value \<= 180°   all, the invalid input x = y = 0 returns 0
+  cos(x)        [Cosine](https   *//en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                                                                                   all
+  cosh(x)       [Hyperbolic cosine](https   *//en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                                                                                    all
+  sin(x)        [Sine](https   *//en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                                                                                     all
+  sinh(x)       [Hyperbolic sine](https   *//en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                                                                                      all
+  tan(x)        [Tangent](https   *//en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                                                                                  all, except x = n\*90 with n = odd integer
+  tanh(x)       [Hyperbolic tangent](https   *//en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                                                                                   all
+  hypot(x; y)   [Pythagorean addition](https   *//en.wikipedia.org/wiki/Pythagorean_addition) (**hypot**enuse), e.g. hypot(4; 3) = 5                                                                   x and y \>= 0
+  cath(x; y)    Given hypotenuse, and one side, returns other side of triangle, e.g. cath(5; 3) = 4                                                                                                 x \>= y \>= 0
 
 #### Exponential and logarithmic functions 
 
-  Function    Description                                                                                    Value range
+  Function    Description                                                                                    Input range
     
   exp(x)      [Exponential function](https   *//en.wikipedia.org/wiki/Exponential_function#Formal_definition)   all
   log(x)      [Natural logarithm](https   *//en.wikipedia.org/wiki/Natural_logarithm)                           x \> 0
@@ -93,7 +93,7 @@ The following mathematical functions are supported   *
 
 #### Rounding, truncation and remainder functions 
 
-  Function    Description                                                                                                                        Value range
+  Function    Description                                                                                                                        Input range
     
   abs(x)      [Absolute value](https   *//en.wikipedia.org/wiki/Absolute_value)                                                                     all
   ceil(x)     [Ceiling function](https   *//en.wikipedia.org/wiki/Floor_and_ceiling_functions), smallest integer value greater than or equal to x   all
@@ -111,14 +111,14 @@ Individual arguments to aggregate functions may consist of ranges of cells. A ra
 
 The following aggregate functions are supported   *
 
-  Function                 Description                                                                                                                          Value range
+  Function                 Description                                                                                                                          Input range
     
-  average(a; b; c; \...)   [Average](https   *//en.wikipedia.org/wiki/Arithmetic_mean) value of the arguments; same as sum(a; b; c; \...) / count(a; b; c; \...)   all
-  count(a; b; c; \...)     [Count](https   *//en.wikipedia.org/wiki/Counting) of the arguments; typically used for cell ranges                                     all
+  average(a; b; c; \...)   [Average](https   *//en.wikipedia.org/wiki/Arithmetic_mean) value of the arguments, same as sum(a; b; c; \...) / count(a; b; c; \...)   all
+  count(a; b; c; \...)     [Count](https   *//en.wikipedia.org/wiki/Counting) of the arguments, typically used for cell ranges                                     all
   max(a; b; c; \...)       [Maximum](https   *//en.wikipedia.org/wiki/Maxima_and_minima) value of the arguments                                                    all
   min(a; b; c; \...)       [Minimum](https   *//en.wikipedia.org/wiki/Maxima_and_minima) value of the arguments                                                    all
   stddev(a; b; c; \...)    [Standard deviation](https   *//en.wikipedia.org/wiki/standard_deviation) of the values of the arguments                                all
-  sum(a; b; c; \...)       [Sum](https   *//en.wikipedia.org/wiki/Summation) of the values of the arguments; typically used for cell ranges                        all
+  sum(a; b; c; \...)       [Sum](https   *//en.wikipedia.org/wiki/Summation) of the values of the arguments, typically used for cell ranges                        all
 
 
 

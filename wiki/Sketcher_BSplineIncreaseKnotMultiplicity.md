@@ -13,7 +13,7 @@
 
 Increases the multiplicity of a B-spline knot. (See [this page](B-Splines.md) for more info about B-splines).
 
-B-splines are basically a combination of [Bézier curves](B-Splines#B.C3.A9zier_curves.md) (nicely explained in [this](https   *//www.youtube.com/watch?v=bE1MrrqBAl8) and [this](https   *//www.youtube.com/watch?v=xXJylM2S72s) video). The points where two Bézier curves are connected to form the spline are called knots. A knot on a degree *d* spline with the multiplicity *m* means that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
+B-splines are basically a combination of [Bézier curves](B-Splines#B.C3.A9zier_curves.md) (nicely explained in [this](https   *//www.youtube.com/watch?v=bE1MrrqBAl8) and [this](https   *//www.youtube.com/watch?v=xXJylM2S72s) video). The points where two Bézier pieces are connected are called knots. A knot on a spline with degree *d* and with the multiplicity *m* means that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
 Here is a cubic spline ($d=3$) whose knots have the multiplicity 1. The multiplicity is indicated by the number in parentheses. The indication can be changed using the toolbar button **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width   *24px"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)**)   *
 
  <img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity1.png  style="width   *400px;">  

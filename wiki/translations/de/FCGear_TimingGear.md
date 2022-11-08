@@ -37,17 +37,11 @@ Ein FCGear-TimingGear-Objekt wird von einem [Part-Formelement](Part_Feature/de.m
 
 {{Properties_Title/de|Basis}}
 
+-    **height|Length**   * Voreingestellt ist {{Value|5 mm}}. Wert der Zahnbreite.
 
-<div class="mw-translate-fuzzy">
+-    **teeth|Integer**   * Voreingestellt ist {{Value|15}}. Anzahl der Zähne.
 
--    **height|Length**   * Voreingestellt ist 5,00 mm. Wert der Zahnbreite.
-
--    **teeth|Integer**   * Voreingestellt ist 20. Anzahl der Zähne.
-
--    **type|Enumeration**   * Voreingestellt ist gt2. Art des Zahnriemens -- Teilung des Zahnriemens (siehe [Hinweise](#Hinweise.md)).
-
-
-</div>
+-    **type|Enumeration**   * Voreingestellt ist {{Value|gt2}}. Art des Zahnriemens -- Teilung des Zahnriemens (siehe [Hinweise](#Hinweise.md)).
 
 
 {{Properties_Title|computed}}

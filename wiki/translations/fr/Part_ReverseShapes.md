@@ -21,7 +21,7 @@ Inverse les normales de toutes les faces de l\'objet sélectionné.
 ## Remarques
 
 -   Les objets [App Link](App_Link/fr.md) liés aux types d\'objets appropriés et les conteneurs [App Part](App_Part/fr.md) contenant les objets visibles appropriés peuvent également être utilisés comme objets sources. {{Version/fr|0.20}}
--   Pour voir l\'effet de la commande, changez la propriété **Lighting** de la forme inversée en {{Value|On side}} et, si nécessaire, modifiez **Edition → Préférences... → Affichage → Rendu → Couleur du rétroéclairage**.
+-   Pour voir l\'effet de la commande, changez la propriété **Lighting** de la forme inversée en {{Value|On side}} et, si nécessaire, modifiez **Edition → Préférences... → Affichage → Vue 3D → Rendu → Couleur du rétroéclairage**.
 
 ## Propriétés
 

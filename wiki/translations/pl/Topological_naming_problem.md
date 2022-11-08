@@ -71,7 +71,7 @@ Przemapowanie szkicu w ten sposób może być wykonywane za każdym razem, gdy w
 
 [Graf zależności](Std_DependencyGraph/pl.md) jest narzędziem, które jest pomocne w obserwowaniu zależności pomiędzy różnymi zawartościami w dokumencie. Użycie oryginalnego przepływu pracy modelowania ujawnia bezpośrednią zależność, jaka istnieje między szkicami a wyciągnięciami. Podobnie jak w przypadku łańcucha, łatwo zauważyć, że ta bezpośrednia zależność będzie podlegała problemom z nazewnictwem topologicznym, jeśli któreś z ogniw sekwencji ulegnie zmianie.
 
-Jak wyjaśniono na stronie [Edycja cech](Feature_editing/pl.md), rozwiązaniem tego problemu jest obsługa szkiców nie na powierzchniach, lecz na płaszczyznach odniesienia, które są odsunięte od głównych płaszczyzn położenia odniesienia [zawartości](PartDesign_Body/pl.md).
+Jak wyjaśniono na stronie [Edycja cech](Feature_editing/pl.md), rozwiązaniem tego problemu jest obsługa szkiców nie na powierzchniach, lecz na płaszczyznach odniesienia, które są dołączone i odsunięte od głównych płaszczyzn położenia odniesienia [zawartości](PartDesign_Body/pl.md).
 
 1\. Zaznacz punkt położenie odniesienia [Zawartości](PartDesign_Body/pl.md) i upewnij się, że jest on widoczny. Następnie wybierz płaszczyznę XY i kliknij w narzędzie [Płaszczyzna](PartDesign_Plane/pl.md). W oknie dialogowym Odsunięcie dołączenia nadaj jej odsunięcie w kierunku Z, tak aby płaszczyzna odniesienia była współpłaszczyznowa z górną powierzchnią pierwszego wyciągnięcia.
 

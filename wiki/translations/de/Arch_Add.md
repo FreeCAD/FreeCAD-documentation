@@ -4,13 +4,10 @@
    Name/de   *Arch hinzufügen
    MenuLocation   *Arch → Komponente hinzufügen
    Workbenches   *[Arch](Arch_Workbench/de.md)
-   SeeAlso   *[Arch Komponente entfernen](Arch_Remove/de.md)
+   SeeAlso   *[Arch Entfernen](Arch_Remove/de.md)
 ---
 
 # Arch Add/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -78,15 +75,6 @@ FreeCAD.ActiveDocument.recompute()
 Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

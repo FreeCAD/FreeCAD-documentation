@@ -45,31 +45,13 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
 
 ### Formatierung
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Formatspezifizierer**   * Wie die Maßzahl formatiert werden soll. Standardspezifizierer ist {{Value|%.xf}}, wobei {{Value|x}} die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax findet man unter [printf format string](https   *//en.wikipedia.org/wiki/Printf_format_string) (engl.). Es gibt noch ein zusätzliches {{Value|%w}} Format, das die festgelegte Anzahl von Ziffern nach dem Dezimaltrennzeichen ausgibt und die am Ende stehenden Nullen entfernt. Zum Beispiel heißt {{Value|%.2w}}, dass höchstens 2 Dezimalstellen ausgegeben und alle Nullen am Ende abgeschnitten werden.
-
-
-</div>
 
 -   **Beliebiger Text**   * Falls aktiviert, wird die Bemaßung durch den Inhalt des **Formatspezifizierer**-Feldes ersetzt.
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Formatspezifizierer für das obere Abmaß**   * Wie das obere Abmaß formatiert werden soll. Standardspezifizierer ist {{Value|%.xf}}, wobei {{Value|x}} die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax findet man unter [printf format string](https   *//en.wikipedia.org/wiki/Printf_format_string) (engl.).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   **Formatspezifizierer für das untere Abmaß**   * Wie das untere Abmaß formatiert werden soll. Standardspezifizierer ist {{Value|%.xf}}, wobei {{Value|x}} die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax findet man unter [printf format string](https   *//en.wikipedia.org/wiki/Printf_format_string) (engl.).
-
-
-</div>
 
 -   **Beliebiger Toleranztext**   * Falls aktiviert, werden die Toleranzen durch den Inhalt der **Übertoleranz Formatspezifizierer**- und **Untertoleranz Formatspezifizierer**-Felder ersetzt.
 
@@ -105,9 +87,6 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
 
 
 {{Properties_Title/de|Basis}}
-
-
-<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|X}}   * Horizontale Position des Maßtexts relativ zur Ansicht.
 
@@ -169,13 +148,7 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
         \- der umgekehrte Wert wird verwendet. Für Länge eine negative Zahl, für Winkel der Reflexwert (180° - 360°).
 
 
-</div>
-
-
 {{Properties_Title/de|Format}}
-
-
-<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|FormatAngabe}}   * Wie die Bemaßung formatiert sein wird. Siehe [Formatierung](#Formatierung.md).
 
@@ -199,28 +172,8 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
 
 -    {{PropertyData/de|frei wählbare Toleranzen}}   * Wie {{PropertyData/de|frei wählbar}}, aber für die Toleranz.
 
-   *   
-
-       *   
-        `False`
-        
-        \- the content of the **Format Spec** is used to format the actual dimensional value.
-
-       *   
-        `True`
-        
-        \- the content of the **Format Spec** will be displayed as text instead if the dimension value.
-
--    **Arbitrary Tolerances**   * Like **Arbitrary**, but for the tolerance.
-
-
-</div>
-
 
 {{Properties_Title/de|Override}}
-
-
-<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|AngleOverride}}   * Ob die Richtung der Maßlinien und Maßhilfslinien überschrieben wird.
 
@@ -240,71 +193,68 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen   *
 
 -    {{PropertyData/de|ExtensionAngle}}   * Winkel zwischen Maßlinie(n) und der X-Achse der Ansicht (in Grad).
 
-
-</div>
-
 ### Ansicht
 
 
 {{Properties_Title/de|Basis}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyView/de|Sichtbarkeit}}   * Setzt, ob das Maß sichtbar ist. `True` - sichtbar, `False` - versteckt.
+-    {{PropertyView/de|Visibility}}(Sichtbarkeit)   * Setzt, ob das Maß sichtbar ist. `True` - sichtbar, `False` - versteckt.
 
 
-{{Properties_Title/de|Dim Format}}
+{{Properties_Title|Dimension Format}}
 
--    {{PropertyView/de|Schriftart}}   * Der Name der Schriftart, die für den Maßtext verwendet werden soll.
+-    {{PropertyView/de|Font}}(Schriftart)   * Der Name der Schriftart, die für den Maßtext verwendet werden soll.
 
--    {{PropertyView/de|Schriftgröße}}   * Höhe des Maßtextes.
+-    {{PropertyView/de|Fontsize}}(Schriftgröße)   * Höhe des Maßtextes.
 
--    {{PropertyView/de|Linienbreite}}   * Maßlinienstärke.
+-    {{PropertyView/de|Line Width}}(Linienbreite)   * Maßlinienstärke.
 
--    {{PropertyView/de|Farbe}}   * Farbe für Linien und Text.
+-    **Gap Factor ASME**(Lückenfaktor ASME)   * Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|1.0}}
 
--    {{PropertyView/de|Standard und Stil}}   * Gibt die Norm (und deren Ausführungsart) an, nach der die Bemaßung gezeichnet wird   *
+-    **Gap Factor ISO**(Lückenfaktor ISO)   * Legt die Weite der Lücke zwischen Geometrie und Anfang der Maßhilfslinie fest. Dieser Wert mal der Linienbreite (Line Width) ergibt die Weite der Lücke. {{Version/de|1.0}}
 
-<img alt="Unterschiede zwischen den unterstützten Standards" src=images/TechDraw_Dimension_standardization.png  style="width   *500px;">
+-    {{PropertyView/de|Color}}(Farbe)   * Farbe für Linien und Text.
 
-   *   
+-    {{PropertyView/de|Standard And Style}}(Standard und Stil)   * Gibt die Norm (und deren Ausführungsart) an, nach der Maßeingeträge erfolgen   *
 
-       *   ISO Orientiert - gezeichnet gemäß Standard ISO 129-1, Text wird so gedreht, dass er parallel zur Tangente der Maßlinie liegt.
-       *   ISO Referenzierung - gezeichnet in Übereinstimmung mit ISO 129-1, der Text ist immer horizontal, über der kürzest möglichen Referenzlinie.
-       *   ASME Innenliegend - gezeichnet gemäß Standard ASME Y14.5M, der Text ist horizontal, in einem Ausbruch innerhalb der Maßlinie oder des Bogens eingefügt.
-       *   ASME Referenzierung - gezeichnet in Übereinstimmung mit ASME Y14.5M, der Text ist horizontal, eine kurze Referenzlinie ist an der vertikalen Mitte einer Seite angebracht.
-
--    {{PropertyView/de|Rendering Extent}}   * Eher universelle Eigenschaft, die angibt, wie viel Platz die Maßzeichnung einnehmen darf   *
+<img alt="Unterschiede zwischen den unterstützten Normen" src=images/TechDraw_Dimension_standardization.png  style="width   *500px;">
 
    *   
 
-       *   None - es werden keine Linien oder Pfeile gezeichnet, sondern nur die nackte Maßzahl angezeigt.
-       *   Minimal - für Längen und Winkel wird eine einzelne Kopflinie gezeichnet, die die Maßzahl mit der *virtuellen Verlängerungslinie* des Endpunktes verbindet. Die Verlängerungslinie selbst wird nicht hinzugefügt.
-       *   Durchmesser werden nach Begrenzt Umfang, Radien nach Reduziert Umfang gerendert.
-       *   Eingegrenzt - für Längen und Winkel wird eine doppelte Linie (oder ein Bogen) gezeichnet, die die *virtuellen Verlängerungslinien* des Start- und Endpunktes verbindet, wobei die Verlängerungslinien selbst nicht hinzugefügt werden.
-       *   Durchmesser werden mit einer minimalen einteiligen Linie vom Bemaßungswert zum nächsten Punkt auf dem Kreis gezeichnet, Radien wie bei ReduziertUmfang.
-       *   Normal - der Standardwert. Für Längen und Winkel wird eine doppelseitige Linie (oder ein Bogen) gezeichnet, die die *Verlängerungslinien* des Start- und Endpunktes verbindet, die Verlängerungslinien selbst ebenfalls.
-       *   Durchmesser werden als doppelseitige Linien gezeichnet, die den Mittelpunkt treffen und den nächsten und den entferntesten Punkt auf dem Kreis verbinden.
-       *   Radien werden als einseitige Linie vom Mittelpunkt zum nächsten Kreisbogenpunkt gezeichnet.
-       *   Erweitert - Nur Durchmesser unterstützen diesen Wert, so dass sie horizontal oder vertikal längenähnlich dargestellt werden. Andere Maßtypen werden wie bei Normal Ausdehnung dargestellt.
+       *   ISO Oriented - Darstellung nach ISO 129-1; Text wird so gedreht, dass er parallel zur Tangente an die Maßlinie liegt.
+       *   ISO Referencing - Darstellung nach ISO 129-2; der Text steht immer horizontal, oberhalb einer kürzest möglichen Bezugslinie.
+       *   ASME Inlined - Darstellung nach ASME Y14.5M, der Text steht horizontal, in einem Ausbruch innerhalb der Maßlinie oder des Bogens eingefügt.
+       *   ASME Referencing - Darstellung nach ASME Y14.5M, der Text steht horizontal, mittig am Ende einer Bezugslinie.
 
--    {{PropertyView/de|Pfeilspitzen kippen}}   * Standardmäßig bedeutet der Wert *innerhalb* der Maßlinie/des Bogens die Pfeile, die *nach außen* zeigen. Wird der Wert *außerhalb* der Maßlinie/des Bogens platziert, zeigen die Pfeile der Maßlinie/des Bogens *nach innen*.
+-    {{PropertyView/de|Rendering Extent}}(Darstellungsergänzung)   * Eher universelle Eigenschaft, die angibt, wie viel Platz ein Maßeintrag einnehmen darf   *
+
+   *   
+
+       *   None - Es werden keine Linien oder Pfeile gezeichnet, sondern nur die nackte Maßzahl dargestellt.
+       *   Minimal - Für Längen und Winkel wird eine Hinweislinie (einseitige Maßlinienbegrenzung) gezeichnet, die die Maßzahl mit einer *virtuellen Maßhilfslinie* verbindet. Die Maßhilfslinie selbst wird nicht hinzugefügt.
+       *   Durchmesser werden mit Confined-Ergänzung, Radien mit Reduced-Ergänzung dargestellt.
+       *   Confined - Für Längen und Winkel wird eine Maßlinie (gerade, oder Bogen) mit beidseitigen Maßlinienbegrenzungen dargestellt, die die *virtuellen Maßhilfslinien* des Start- und Endpunktes verbindet, wobei die Maßhilfslinien selbst nicht hinzugefügt werden.
+       *   Durchmesser werden mit einer Maßlinie mit mindestens einer Maßlinienbegrenzung von der Maßzahl zum nächsten Punkt auf dem Kreis gezeichnet, Radien wie bei der Reduced<-Ergänzung.
+       *   Reduced - Für Längen und Winkel wird eine Hinweislinie (einseitige Maßlinienbegrenzung) gezeichnet, die die Maßzahl mit der ebenfalls gezeichneten Maßhilfslinie verbindet.
+       *   Durchmesser werden mit einer Hinweislinie (einseitige Maßlinienbegrenzung) von der Maßzahl zum nächsten Punkt auf dem Kreis, Radien mit einer Maßlinie mit mindestens einer Maßlinienbegrenzung von der Maßzahl zum nächsten Punkt auf dem Kreis gezeichnet.
+       *   Normal - Der Standardwert. Für Längen und Winkel wird eine Maßlinie (gerade, oder Bogen) mit beidseitigen Maßlinienbegrenzungen dargestellt, die die Maßhilfslinien verbindet, und die Maßhilfslinien selbst auch.
+       *   Durchmesser werden mit einer Maßlinie mit beidseitigen Maßlinienbegrenzungen dargestellt, die über den Mittelpunkt verlaufen und zwei Punkte auf dem Kreis verbinden.
+       *   Radien werden mit einer Hinweislinie (einseitige Maßlinienbegrenzung) vom Mittelpunkt zum nächsten Punkt auf dem Kreisbogen gezeichnet.
+       *   Expanded - Nur Durchmesser unterstützen diesen Wert, so dass sie horizontalen oder vertikalen Längenmaßen ähnlich dargestellt werden. Andere Maßarten werden wie bei der Normal-Ergänzung dargestellt.
+
+-    {{PropertyView/de|Flip Arrowheads}}(Pfeilspitzen umkehren)   * Standardmäßig zeigen bei *innerhalb* der Maßlinie/des Bogens plazierten Maßzahlen die Maßpfeile *nach außen*. Wird die Maßzahl *außerhalb* der Maßlinie/des Bogens platziert, zeigen die Maßpfeile *nach innen*.
 
    *   
 
        *   
         `False`
         
-        \- Wählt die Richtung der Pfeile automatisch nach der obigen Regel aus.
+        \- Wählt die Richtung der Maßpfeile automatisch nach der obigen Regel aus.
 
        *   
         `True`
         
-        \- Außer Kraft setzen der automatisch gewählten Richtung und erzwingen der entgegengesetzten Richtung.
-
-
-</div>
+        \- Dreht die automatisch gewählte Richtung um.
 
 ## Begrenzungen
 
@@ -341,15 +291,9 @@ rc = page.addView(dim1)
 
 ## Anmerkungen
 
-
-<div class="mw-translate-fuzzy">
-
--   **Kantenauswahl**. Die Auswahl von Kanten kann schwierig sein. Du kannst den Auswahlbereich für Kanten mit dem Parameter \"/Mod/TechDraw/General/EdgeFuzz\" anpassen (siehe [Std_DlgParameter](Std_DlgParameter.md)). Dies ist eine dimensionslose Zahl. Die Voreinstellung ist 10.0. Werte im Bereich von 20-30 erleichtern die Auswahl von Kanten spürbar. Große Zahlen führen zu Überlappungen mit anderen Zeichnungselementen.
--   **Nachkommastellen**. Bei Bemaßungen wird standardmäßig die globale Einstellung der Dezimalstellen verwendet. Diese kann über [Einstellungen](TechDraw_Preferences#Dimensions/de.md) oder durch Ändern der FormatSpec Eigenschaft geändert werden.
--   **Mehrfache Objekte**\'. Ansichten können mehrere 3D Objekte als Quelle enthalten. Bemaßungen können auf die Geometrie von jedem Objekt in der Ansicht angewendet werden (z.B. von Objekt1.Vertex0 bis Objekt2.Vertex3).
-
-
-</div>
+-   **Kantenauswahl**. Die Auswahl von Kanten kann schwierig sein. Der Auswahlbereich für Kanten kann mit dem Parameter \"/Mod/TechDraw/General/EdgeFuzz\" angepasst werden (siehe [Std ParameterDialog](Std_DlgParameter/de.md)). Dies ist eine dimensionslose Zahl. Die Voreinstellung ist 10.0. Werte im Bereich von 20-30 erleichtern die Auswahl von Kanten spürbar. Große Zahlen führen zu Überlappungen mit anderen Zeichnungselementen.
+-   **Nachkommastellen**. Maße verwenden standardmäßig die globale Einstellung der Dezimalstellen. Diese kann über [Einstellungen](TechDraw_Preferences/de#Bemaßungen.md) oder durch Ändern der Eigenschaft FormatSpec geändert werden.
+-   **Mehrere Objekte**. Ansichten können mehrere 3D-Objekte als Quelle enthalten. Maße können zwischen Geometrien verschiedener Objekte der Ansicht erstellt werden (z.B. von Object1.Vertex0 bis Object2.Vertex3).
 
 
 

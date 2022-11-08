@@ -69,7 +69,13 @@ La rimappatura di uno schizzo in questo modo può essere eseguita ogni volta che
 
 Il [Grafico delle dipendenze](Std_DependencyGraph/it.md) è uno strumento utile per osservare le relazioni tra i diversi corpi nel documento. L\'utilizzo del flusso di lavoro di modellazione originale rivela la relazione diretta esistente tra gli schizzi e i pad. Come una catena, è facile vedere che questa dipendenza diretta è soggetta a problemi di denominazione topologica se uno qualsiasi dei collegamenti nella sequenza cambia.
 
+
+<div class="mw-translate-fuzzy">
+
 Come spiegato nella pagina [Editazione delle funzioni](feature_editing/it.md), una soluzione a questo problema consiste nel supportare gli schizzi non sulle facce ma sui piani di riferimento che sono sfalsati rispetto ai piani principali di Origine del [Corpo](PartDesign_Body/it.md) di PartDesign
+
+
+</div>
 
 1\. Selezionare l\'origine del [Corpo](PartDesign_Body/it.md) di PartDesign e accertarsi che sia visibile. Quindi selezionare il piano XY e fare clic su [Piano di riferimento](PartDesign_Plane/it.md). Nella finestra di dialogo Offset di associazione, assegnargli un offset nella direzione Z in modo che il piano di riferimento sia complanare con la faccia superiore del primo pad.
 

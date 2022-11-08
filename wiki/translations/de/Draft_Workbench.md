@@ -32,7 +32,7 @@ Rechts ein nicht-planarer [Entwurf Draht](Draft_Wire/de.md), der als Pfadobjekt 
 
 </div>
 
--   <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> Bogen Werkzeuge
+-   <img alt="" src=images/Draft_Arc.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Arc tools   *
 
    ** <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Bogen](Draft_Arc/de.md)   * erstellt einen Kreisbogen aus einem Zentrum, einem Radius, einem Startwinkel und einem Öffnungswinkel.
 
@@ -54,7 +54,7 @@ Rechts ein nicht-planarer [Entwurf Draht](Draft_Wire/de.md), der als Pfadobjekt 
 
 -   <img alt="" src=images/Draft_BSpline.svg  style="width   *32px;"> [B-spline](Draft_BSpline/de.md)   * erstellt eine B-Spline Kurve aus mehreren Punkten.
 
--   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> Bézier Werkzeuge
+-   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Bézier tools   *
 
 
 <div class="mw-translate-fuzzy">
@@ -108,7 +108,7 @@ Rechts ein nicht-planarer [Entwurf Draht](Draft_Wire/de.md), der als Pfadobjekt 
 
 -   <img alt="" src=images/Draft_Clone.svg  style="width   *32px;"> [Clone](Draft_Clone.md)   * creates linked copies, clones, of selected objects.
 
--   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> Array tools
+-   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Array tools   *
 
    ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Array](Draft_OrthoArray.md)   * creates an orthogonal array from a selected object. It can optionally create a [Link](App_Link.md) array.
 

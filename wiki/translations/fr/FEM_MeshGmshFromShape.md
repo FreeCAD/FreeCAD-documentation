@@ -111,7 +111,7 @@ Pour illustrer cela, regardez l\'image ci-dessous. Un corps cuboïde est maillé
 L\'algorithme de recombinaison *Simple* laissera quelques triangles dans le maillage au cas où la recombinaison conduirait à des quads de mauvaise forme. Dans ce cas, utilisez un algorithme *full-quad* de recombinaison qui effectuera automatiquement un maillage plus grossier suivi de la recombinaison, du lissage et de la subdivision. Voir le [sujet sur le forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20351#p520392)
 
 <img alt="" src=images/FEM_Gmsh-Recombination.png  style="width   *600px;"> 
-*Effet de la recombinaison des éléments du maillage. En haut à gauche    * maillage standard, En haut à droite    * recombinaison uniquement en surface avec l'algorithme '''Simple'''. En bas à gauche    * recombinaison en surface et dans le volume avec l'algorithme ''Simple''. En bas à droite    * recombinaison en surface et dans le volume avec l'algorithme '''Simple full-quad'''.*
+*Effet de la recombinaison des éléments du maillage. </br>En haut à gauche    * maillage standard.</br> En haut à droite    * recombinaison uniquement en surface avec l'algorithme '''Simple'''.</br> En bas à gauche    * recombinaison en surface et dans le volume avec l'algorithme '''Simple'''.</br> En bas à droite    * recombinaison en surface et dans le volume avec l'algorithme '''Simple full-quad'''.*
 
 
 

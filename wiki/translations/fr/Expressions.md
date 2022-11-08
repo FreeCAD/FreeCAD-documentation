@@ -7,9 +7,9 @@ Il est possible de définir des propriétés à l\'aide d\'expressions mathémat
 
 Une expression FreeCAD est une expression mathématique qui suit la notation pour les opérateurs mathématiques standard et fonctionne comme décrit ci-dessous. En outre, l\'expression peut faire référence à d\'autres propriétés et également utiliser des conditions. Une unité facultative peut être attachée aux nombres d\'une expression.
 
-Les nombres peuvent utiliser une virgule `,` ou un point décimal `.` séparer les chiffres entiers des décimales. Lorsque le marqueur décimal est utilisé, il doit obligatoirement être suivi d\'au moins un chiffre. Ainsi, les expressions `1.+2.` et `1,+2,` ne sont pas valides, mais `1.0 + 2.0` et `1,0 + 2,0` sont valables.
+Les nombres peuvent utiliser une virgule `,` ou un point décimal `.` séparanr les chiffres entiers des décimales. Lorsque le marqueur décimal est utilisé, il \"doit\" obligatoirement être suivi d\'au moins un chiffre. Ainsi, les expressions `1.+2.` et `1,+2,` ne sont pas valides, mais `1.0 + 2.0` et `1,0 + 2,0` sont valables.
 
-Les opérateurs et fonctions reconnaissent les unités de mesure et nécessitent des combinaisons valides si elles sont fournies. Par exemple, `2mm + 4mm` est une expression valide, tandis que `2mm + 4` ne l\'est pas (la raison est qu\'une expression comme `1in + 4` sera très probablement interprété comme `1in + 4in` par le dessinateur mais comme toutes les unités en interne sont converties au système international SI, et le système est totalement incapable de deviner de quelle unité il s\'agit). Ces [unités](#Unités.md) sont actuellement reconnues.
+Les opérateurs et fonctions reconnaissent les unités de mesure et nécessitent des combinaisons valides si elles sont fournies. Par exemple, `2mm + 4mm` est une expression valide, tandis que `2mm + 4` ne l\'est pas (la raison en est qu\'une expression comme `1in + 4` sera très probablement interprétée comme `1in + 4in` par les humains, mais comme toutes les unités sont converties au système SI en interne, le système n\'est pas en mesure de deviner). Ces [unités](#Unités.md) sont actuellement reconnues.
 
 Vous pouvez utiliser des [constantes prédéfinies](#Constantes_prises_en_charge.md) et des [fonctions](#Fonctions_support.C3.A9es.md).
 
@@ -21,12 +21,12 @@ Les arguments peuvent inclure des références à des cellules dans une feuille 
 
 ### Référencement d\'objets 
 
-Vous pouvez faire référence à un objet par sa {{PropertyData/fr|Name}} ou sa {{PropertyData/fr|Label}}. Dans le cas d\'une {{PropertyData/fr|Label}}, vous devez l\'entourer de double symboles `<<` et `>>`, comme ceci `<<Label>>`.
+Vous pouvez faire référence à un objet par sa **Name** ou sa **Label**. Dans le cas d\'une **Label**, vous devez l\'entourer de double symboles `<<` et `>>`, comme ceci `<<Label>>`.
 
-Vous pouvez référencer n\'importe quelle propriété numérique d\'un objet. Par exemple, pour référencer la hauteur d\'un cylindre, vous pouvez utiliser `Cylinder.Height` ou `<<Long_name_of_cylinder>>. Hauteur`. Pour faire référence à l\'objet lui-même, utilisez la pseudo-propriété `_self`. Par exemple, vous pouvez utiliser `Cylinder._self` ou `<<Label_of_cylinder>>._self`.
+Vous pouvez référencer n\'importe quelle propriété numérique d\'un objet. Par exemple, pour référencer la hauteur d\'un cylindre, vous pouvez utiliser `Cylinder.Height` ou `<<Long_name_of_cylinder>>.Height`. Pour faire référence à l\'objet lui-même, utilisez la pseudo-propriété `_self`. Par exemple, vous pouvez utiliser `Cylinder._self` ou `<<Label_of_cylinder>>._self`.
 
-Pour référencer des objets de liste, utilisez `<<object_label>>.list[list_index]` ou `object_name.list [index_liste]`. Si vous souhaitez par exemple référencer une contrainte dans une esquisse, utilisez `<<MySketch>>.Constraints[16]`. Si vous êtes dans la même esquisse, vous pouvez omettre son nom et utiliser simplement `Constraints[16]`.
-**Remarque    *** L\'index commence par 0, la contrainte 17 a donc l\'index 16.
+Pour référencer des objets de liste, utilisez `<<object_label>>.list[list_index]` ou `object_name.list[index_liste]`. Si vous souhaitez par exemple référencer une contrainte dans une esquisse, utilisez `<<MySketch>>.Constraints[16]`. Si vous êtes dans la même esquisse, vous pouvez omettre son nom et utiliser simplement `Constraints[16]`.
+**Remarque    *** l\'index commence par 0, la contrainte 17 a donc l\'index 16.
 
 Pour plus d\'informations sur le référencement des objets, voir [Référence aux données CAO](#R.C3.A9f.C3.A9rence_aux_donn.C3.A9es_CAO.md). {{Top}}
 
@@ -51,7 +51,7 @@ Les opérateurs suivants sont pris en charge    *
   **+**       [Addition](https   *//fr.wikipedia.org/wiki/Addition)
   **-**       [Soustraction](https   *//fr.wikipedia.org/wiki/Soustraction)
   **\***      [Multiplication](https   *//fr.wikipedia.org/wiki/Multiplication)
-  **/**       Point flottant [Division](https   *//fr.wikipedia.org/wiki/Division)
+  **/**       [Division](https   *//fr.wikipedia.org/wiki/Division) en virgule flottante
   **%**       [Reste](https   *//fr.wikipedia.org/wiki/Reste)
   **\^**      [Exponentiation](https   *//fr.wikipedia.org/wiki/Exponentiation)
 
@@ -68,24 +68,24 @@ Les fonctions mathématiques suivantes sont prises en charge    *
 
 [Les fonctions trigonométriques](https   *//fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique) utilisent le degré comme unité par défaut. Pour la mesure du radian, ajoutez première valeur dans une expression. Ainsi, par exemple, `cos(45)` est identique à `cos(pi rad / 4)`. Les expressions en degrés peuvent utiliser soit `deg` soit `°`, par exemple `360deg - atan2(3 ; 4)` ou `360&deg; - atan2(3 ; 4)`. Si une expression est sans unité et doit être convertie en degrés ou en radians pour des raisons de compatibilité, multipliez-la par `1&nbsp;deg`, `1&nbsp;°` ou `1&nbsp;rad` selon le cas, par exemple `(360 - X) * 1deg` ; `(360 - X) * 1°` ; `(0.5 + pi / 2) * 1rad`.
 
-  Fonction      Description                                                                                                               Plage des valeurs
+  Fonction      Description                                                                                                                                          Plage de saisie
     
-  acos(x)       [Arc cosinus](https   *//fr.wikipedia.org/wiki/Arc_cosinus)                                                                  -1 \<= x \<= 1
-  asin(x)       [Arc sinus](https   *//fr.wikipedia.org/wiki/Arc_sinus)                                                                      -1 \<= x \<= 1
-  atan(x)       [Arc tangente](https   *//fr.wikipedia.org/wiki/Arc_tangente)                                                                tout
-  atan2(x; y)   [atan2](https   *//fr.wikipedia.org/wiki/Atan2) de *x/y*                                                                     tout sauf y = 0
-  cos(x)        [Cosinus](https   *//fr.wikipedia.org/wiki/Cosinus)                                                                          tout
-  cosh(x)       [Cosinus hyperbolique](https   *//fr.wikipedia.org/wiki/Cosinus_hyperbolique)                                                tout
-  sin(x)        [Sinus](https   *//fr.wikipedia.org/wiki/Sinus_(math%C3%A9matiques))                                                         tout
-  sinh(x)       [Sinus hyperbolique](https   *//fr.wikipedia.org/wiki/Sinus_hyperbolique)                                                    tout
-  tan(x)        [Tangente](https   *//fr.wikipedia.org/wiki/Tangente_(trigonom%C3%A9trie))                                                   tous, sauf x = n\*90 avec n = entier impair
-  tanh(x)       [Tangente hyperbolique](https   *//fr.wikipedia.org/wiki/Tangente_hyperbolique)                                              tout
-  hypot(x; y)   [Somme pythagoricienne](https   *//fr.wikipedia.org/wiki/Somme_pythagoricienne) (**hypot**énuse). Par ex. hypot(4; 3) = 5.   x et y \> 0
-  cath(x; y)    Étant donné l\'hypoténuse, et un côté, donne l\'autre côté du triangle. Par ex. cath(5; 3) = 4.                           x et y \> 0, x \>= y
+  acos(x)       [Arc cosinus](https   *//fr.wikipedia.org/wiki/Arc_cosinus)                                                                                             -1 \<= x \<= 1
+  asin(x)       [Arc sinus](https   *//fr.wikipedia.org/wiki/Arc_sinus)                                                                                                 -1 \<= x \<= 1
+  atan(x)       [Arc tangente](https   *//fr.wikipedia.org/wiki/Arc_tangente), retourne la valeur dans la plage -90° \< valeur \< 90°                                   tout
+  atan2(y; x)   [atan2](https   *//fr.wikipedia.org/wiki/Atan2) de la comptabilité *y/x* pour le quadrant, retour de la valeur dans la plage -180° \< valeur \<= 180°   tout, l\'entrée invalide x = y = 0 renvoie 0
+  cos(x)        [Cosinus](https   *//fr.wikipedia.org/wiki/Cosinus)                                                                                                     tout
+  cosh(x)       [Cosinus hyperbolique](https   *//fr.wikipedia.org/wiki/Cosinus_hyperbolique)                                                                           tout
+  sin(x)        [Sinus](https   *//fr.wikipedia.org/wiki/Sinus_(math%C3%A9matiques))                                                                                    tout
+  sinh(x)       [Sinus hyperbolique](https   *//fr.wikipedia.org/wiki/Sinus_hyperbolique)                                                                               tout
+  tan(x)        [Tangente](https   *//fr.wikipedia.org/wiki/Tangente_(trigonom%C3%A9trie))                                                                              tout, sauf x = n\*90 avec n = entier impair
+  tanh(x)       [Tangente hyperbolique](https   *//fr.wikipedia.org/wiki/Tangente_hyperbolique)                                                                         tout
+  hypot(x; y)   [Somme pythagoricienne](https   *//fr.wikipedia.org/wiki/Somme_pythagoricienne) (**hypot**énuse), par ex. hypot(4; 3) = 5.                              x et y \>= 0
+  cath(x; y)    Étant donné l\'hypoténuse, et un côté, donne l\'autre côté du triangle, par ex. cath(5; 3) = 4.                                                      x \>= y \>= 0
 
 #### Fonctions exponentielles et logarithmiques 
 
-  Fonction    Description                                                                      Plage des valeurs
+  Fonction    Description                                                                      Plage de saisie
     
   exp(x)      [Fonction exponentielle](https   *//fr.wikipedia.org/wiki/Fonction_exponentielle)   tout
   log(x)      [Logarithme népérien](https   *//fr.wikipedia.org/wiki/Logarithme_naturel)          x \> 0
@@ -95,7 +95,7 @@ Les fonctions mathématiques suivantes sont prises en charge    *
 
 #### Fonctions d\'arrondi, de troncature et de reste 
 
-  Fonction    Description                                                                                                                                                                                 Plage des valeurs
+  Fonction    Description                                                                                                                                                                                 Plage de saisie
     
   abs(x)      [Valeur absolue](https   *//fr.wikipedia.org/wiki/Valeur_absolue)                                                                                                                              tout
   ceil(x)     [Partie entière par excès](https   *//fr.wikipedia.org/wiki/Partie_enti%C3%A8re_et_partie_fractionnaire#Fonction_partie_enti%C3%A8re), la plus petite valeur entière supérieure ou égale à x   tout
@@ -114,21 +114,21 @@ Les arguments individuels pour agréger les fonctions peuvent être constitués 
 
 Les fonctions d\'agrégation suivantes sont prises en charge    *
 
-  Fonction                 Description                                                                                                                                      Plage des valeurs
+  Fonction                 Description                                                                                                                                      Plage de saisie
     
-  average(a; b; c; \...)   Valeur [Moyenne](https   *//fr.wikipedia.org/wiki/Moyenne_arithm%C3%A9tique) des arguments; identique à sum(a; b; c; \...) / count(a; b; c; \...)   tout
-  count(a; b; c; \...)     [Comptage](https   *//fr.wikipedia.org/wiki/D%C3%A9nombrement) des arguments; généralement utilisé pour les plages de cellules                      tout
+  average(a; b; c; \...)   Valeur [Moyenne](https   *//fr.wikipedia.org/wiki/Moyenne_arithm%C3%A9tique) des arguments, identique à sum(a; b; c; \...) / count(a; b; c; \...)   tout
+  count(a; b; c; \...)     [Comptage](https   *//fr.wikipedia.org/wiki/D%C3%A9nombrement) des arguments, généralement utilisé pour les plages de cellules                      tout
   max(a; b; c; \...)       Valeur [Maximum](https   *//fr.wikipedia.org/wiki/Extremum) des arguments                                                                           tout
   min(a; b; c; \...)       Valeur [Minimum](https   *//fr.wikipedia.org/wiki/Extremum) des arguments                                                                           tout
   stddev(a; b; c; \...)    [Écart type](https   *//fr.wikipedia.org/wiki/%C3%89cart_type) des valeurs des arguments                                                            tout
-  sum(a; b; c; \...)       [Somme](https   *//fr.wikipedia.org/wiki/Somme_(arithm%C3%A9tique)) des valeurs des arguments; généralement utilisé pour les plages de cellules     tout
+  sum(a; b; c; \...)       [Somme](https   *//fr.wikipedia.org/wiki/Somme_(arithm%C3%A9tique)) des valeurs des arguments, généralement utilisé pour les plages de cellules     tout
 
 
 {{Top}}
 
 ### Manipulation de chaînes de caractères 
 
-#### Identification de la chaîne caractères 
+#### Identification de chaînes de caractères 
 
 Les chaînes de caractères sont identifiées dans les expressions en les entourant de doubles chevrons ouvrants/fermants (comme les étiquettes).
 
@@ -153,7 +153,7 @@ Le formatage des chaînes de caractères est pris en charge en utilisant le (vie
 
 Tous les spécificateurs % tels que définis dans la [documentation Python](https   *//docs.python.org/3/library/stdtypes.html#printf-style-string-formatting).
 
-Par exemple, supposons que vous ayez un cube par défaut de 10mm de côté nommé \'Box\' (nomination par défaut de FreeCAD), l\'expression suivante `<<Cube length    * %s>> % Box.Length` se développera en \"Cube length    * 10.0 mm\"
+Par exemple, supposons que vous ayez un cube par défaut de 10mm de côté nommé \"Box\" (nomination par défaut de FreeCAD), l\'expression suivante `<<Cube length    * %s>> % Box.Length` se développera en \"Cube length    * 10.0 mm\"
 
 Au dessus d\'un spécificateur de %, utilisez la syntaxe suivante    * `<<Cube length is %s and width is %s>> % tuple(Box.Length; Box.Width)`. Ou utilisez la concaténation    * `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width`. Les deux se développeront en \"Cube length is 10.0 mm and width is 10.0 mm\".
 
@@ -334,34 +334,34 @@ Les unités suivantes sont reconnues par l'analyseur d'expression   *
   S       [Seconde d\'arc](https   *//fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité ″
   ″       [Seconde d\'arc](https   *//fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité S
   M       [Minute d\'arc](https   *//fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité ′
-  ′       [Minute d\'arc](https   *//fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); à l\'unité M
+  ′       [Minute d\'arc](https   *//fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité M
 
 ### Courant
 
   Unité   Description
    
-  mA      Milli[Ampère](https   *//fr.wikipedia.org/wiki/Amp%C3%A8re)
+  mA      Milli[ampère](https   *//fr.wikipedia.org/wiki/Amp%C3%A8re)
   A       [Ampère](https   *//fr.wikipedia.org/wiki/Amp%C3%A8re)
-  kA      Kilo[Ampère](https   *//fr.wikipedia.org/wiki/Amp%C3%A8re)
-  MA      Méga[Ampère](https   *//fr.wikipedia.org/wiki/Amp%C3%A8re)
+  kA      Kilo[ampère](https   *//fr.wikipedia.org/wiki/Amp%C3%A8re)
+  MA      Méga[ampère](https   *//fr.wikipedia.org/wiki/Amp%C3%A8re)
 
 ### Énergie/travail
 
   Unité   Description
    
   J       [Joule](https   *//fr.wikipedia.org/wiki/Joule)
-  Ws      [Watt second](https   *//fr.wikipedia.org/wiki/Joule#Dans_la_vie_courante#Conversion); alternative à l\'unité *Joule*
+  Ws      [Watt-seconde](https   *//fr.wikipedia.org/wiki/Joule#%C3%89quivalences); alternative à l\'unité *Joule*
   VAs     [Volt ampère seconde](https   *//fr.wikipedia.org/wiki/Joule); alternative à l\'unité *Joule*
-  CV      [Coulomb·volt](https   *//en.wikipedia.org/wiki/Joule); alternative à l\'unité *Joule*
+  CV      [Coulomb-volt](https   *//en.wikipedia.org/wiki/Joule); alternative à l\'unité *Joule*
 
 ### Force
 
   Unité   Description
    
-  mN      [milliNewton](https   *//fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
+  mN      [millinewton](https   *//fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
   N       [Newton](https   *//fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
-  kN      [kiloNewton](https   *//fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
-  MN      [mégaNewton](https   *//fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
+  kN      [kilonewton](https   *//fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
+  MN      [méganewton](https   *//fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
   lbf     [Livre-force](https   *//fr.wikipedia.org/wiki/Livre-force)
 
 ### Longueur
@@ -521,7 +521,7 @@ Le tableau suivant montre quelques exemples    *
 ++++
 | Données CAO                                             | Appel dans l\'expression                 | Résultat                                                                                                                                                                                                  |
 +=========================================================+==========================================+===========================================================================================================================================================================================================+
-| Longueur d\'une [Part Cube](Part_Box/fr.md)     |                           | Longueur avec unités (mm)                                                                                                                                                                                 |
+| Longueur d\'un [Part Cube](Part_Box/fr.md)      |                           | Longueur avec unités (mm)                                                                                                                                                                                 |
 |                                                         | `Box.Length`                    |                                                                                                                                                                                                           |
 |                                                         |                                       |                                                                                                                                                                                                           |
 ++++

@@ -91,7 +91,7 @@ L\'équation d\'élasticité prend en compte les contraintes suivantes si elles 
 
 ### Remarque
 
-Pour toutes les contraintes ci-dessus, il est important qu\'elles agissent sur une face. Les contraintes définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
+Sauf pour les calculs en 2D, pour toutes les contraintes ci-dessus, il est important qu\'elles agissent sur une face. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
 
 ## Analyse en mode propre 
 
@@ -113,7 +113,7 @@ Pour effectuer une analyse de flambage, vous devez procéder de la même manièr
 
 ## Résultats
 
-Les résultats disponibles dépendent des [Paramètres du solveur](#Param.C3.A8tres_du_solveur.md). Si aucun d\'entre eux n\'a été réglé à *true*, seul le déplacement est calculé. Sinon, les résultats correspondants seront également disponibles. Si **Eigen Analysis** est réglée à *true*, tous les résultats seront disponibles pour chaque mode propre calculé.
+Les résultats disponibles dépendent des [Paramètres du solveur](#Param.C3.A8tres_du_solveur.md). Si aucun des paramètres de **Calculate *** n\'a été défini sur *true*, seul le déplacement est calculé. Sinon, les résultats correspondants seront également disponibles. Si **Eigen Analysis** est réglée à *true*, tous les résultats seront disponibles pour chaque mode propre calculé.
 
 Si **Eigen Analysis** a été réglée à *true*, les fréquences propres seront affichées à les logs du solveur dans le dialogue du solveur et également dans le document **SolverElmerOutput** qui sera créé dans l\'arborescence une fois que le solveur aura terminé.
 

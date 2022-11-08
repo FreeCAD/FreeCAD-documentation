@@ -1,11 +1,5 @@
 # AppImage/de
-<div class="mw-translate-fuzzy">
-
-
-**Seit dem 7. Juli 2019 beobachtet die FreeCAD Gemeinschaft, dass das Herunterladen von AppImages von Github vor der Fertigstellung eine Zeitüberschreitung zu haben scheint. Wir sind uns nicht sicher, warum dies geschieht. Wenn dies bei dir passiert, versuche bitte das Herunterladen erneut. Es dauert ein paar Versuche. Es wird empfohlen, die Funktion AppImage [https   *//www.freecadweb.org/wiki/Appimage#Automatic_updating Auto-Aktualisierungsfunktion] zu verwenden, die das Herunterladen an der Stelle wiederherstellt, an der er fehlgeschlagen ist.**
-
-
-</div>
+**Seit dem 7. Juli 2019 beobachtet die FreeCAD Gemeinschaft, dass das Herunterladen von AppImages von Github vor der Fertigstellung eine Zeitüberschreitung zu haben scheint. Wir sind uns nicht sicher, warum dies geschieht. Wenn dies bei dir passiert, versuche bitte das Herunterladen erneut. Es kann ein paar Versuche dauern. Es wird empfohlen, die Funktion AppImage [https   *//www.freecadweb.org/wiki/Appimage#Automatic_updating Auto-Aktualisierungsfunktion] zu verwenden, die das Herunterladen an der Stelle wiederherstellt, an der er fehlgeschlagen ist.**
 
 
 {{TOCright}}
@@ -101,23 +95,11 @@ Anmerkungen   *
 -   Führen Sie `./appimageupdatetool-x86_64.AppImage --help` aus, um mehr über Funktionen wie `--remove-old`, `--overwrite` und `--self-update` zu erfahren.
 -   Es gibt auch eine i386-Version; siehe die Seite [AppImageUpdate release](https   *//github.com/AppImage/AppImageUpdate/releases).
 
-
-<div class="mw-translate-fuzzy">
-
-Zu erledigen   * Teile ein Skript, das als Alias oder Cron Job hinzugefügt werden kann.
-
-
-</div>
+Zu erledigen   * Teile ein Skript, das als Alias oder \[<https   *//de.wikipedia.org/wiki/Cron%7CCron%5D-> Job hinzugefügt werden kann.
 
 ### CLI Methode 2 (inoffiziell) 
 
-
-<div class="mw-translate-fuzzy">
-
-Ähnlich wie bei den grafischen Methoden mit offiziellen und inoffiziellen Ansätzen zum Herunterladen von AppImages gilt dies auch für die Befehlszeile. Dies ist eine elegantere Drittanbieter Befehlszeilenoption zum Herunterladen von AppImages.
-
-
-</div>
+Ähnlich wie bei den grafischen Methoden mit offiziellen und inoffiziellen Ansätzen zum Herunterladen von AppImages gilt dies auch für die Befehlszeile. Dies ist eine elegantere Drittanbieter-Befehlszeilenoption zum Herunterladen von AppImages.
 
 1.  Herunterladen [appimageupdater-\*-x86_64.AppImage](https   *//github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
 2.  Mache es ausführbar   * 
@@ -131,13 +113,7 @@ Zu erledigen   * Teile ein Skript, das als Alias oder Cron Job hinzugefügt werd
 
 ## AppImage zsync korrigieren 
 
-
-<div class="mw-translate-fuzzy">
-
-Es kann sein, dass ein AppImage nicht aktualisiert werden kann, weil die Zieldatei auf irgendeine Weise verändert wurde. Anstatt ein komplett neues appimage herunterzuladen, ist es möglich, die von AppImage verwendete zsync-Datei so umzuschreiben, dass nur das Delta heruntergeladen wird. Mehr Informationen gibt es unter [1](https   *//github.com/antony-jr/appimage-update-info-writer).
-
-
-</div>
+Es kann sein, dass ein AppImage nicht aktualisiert werden kann, weil die Zieldatei auf irgendeine Weise verändert wurde. Anstatt ein komplett neues AppImage herunterzuladen, ist es möglich, die von AppImage verwendete zsync-Datei so umzuschreiben, dass nur das Delta heruntergeladen wird. Mehr Informationen gibt es unter [1](https   *//github.com/antony-jr/appimage-update-info-writer).
 
 Dieser Abschnitt benötigt mehr Details.
 

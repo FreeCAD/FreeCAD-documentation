@@ -11,7 +11,7 @@
 
 ## Description
 
-The 2PointCosmeticLine tool adds a cosmetic line between two Vertices (Points). The vertices can be 2d or 3d. The resulting line can be used for dimensioning. The line\'s appearance can be modified using the [Remove Cosmetic Object](TechDraw_CosmeticEraser.md) tool.
+The **2PointCosmeticLine** tool adds a cosmetic line between two Vertices (Points). The vertices can be 2d or 3d. The resulting line can be used for dimensioning. The line\'s appearance can be modified using the [Change Appearance of Line(s)](TechDraw_DecorateLine.md) tool.
 
 <img alt="" src=images/CosLine2PointsSample.png  style="width   *200px;">
 
@@ -26,19 +26,18 @@ The 2PointCosmeticLine tool adds a cosmetic line between two Vertices (Points). 
 3.  A dialog will open where you can adjust the coordinates of the 2 points.
 4.  A line will be added to connect the 2 selected Vertices. In the case of 3d points, the line will connect the projection of the selected points.
 
-To delete a cosmetic line, select it and use the toolbar button **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md)**.
-
 ## Editing Cosmetic Lines 
 
-To change the endpoints of a cosmetic line, **<img src="images/TechDraw-line2points.svg" width=16px> Add Cosmetic line between 2 Points
-**
+To change the endpoints of a cosmetic line   *
 
 1.  Select the cosmetic line.
 2.  Press **<img src="images/TechDraw-line2points.svg" width=16px> Add Cosmetic line between 2 Points**.
 3.  A dialog will open where you can change the coordinates of the endpoints.
 4.  Press **OK** to see your changes.
 
-To change the appearance of a cosmetic line, use [Remove Cosmetic Object](TechDraw_CosmeticEraser.md).
+To delete a cosmetic line use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width   *16px;"> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md).
+
+To change the appearance of a cosmetic line use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width   *16px;"> [Change Appearance of Line(s)](TechDraw_DecorateLine.md).
 
 ## Properties
 

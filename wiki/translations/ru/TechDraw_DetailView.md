@@ -73,7 +73,13 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDetail','Deta
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

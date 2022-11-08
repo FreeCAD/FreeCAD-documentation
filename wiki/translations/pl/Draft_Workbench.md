@@ -26,7 +26,7 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   Polecenie <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Zaokrąglenie](Draft_Fillet/pl.md)   * tworzy zaokrąglenie, zaokrąglony narożnik, lub fazę, prostą krawędź, pomiędzy dwoma [liniami](Draft_Line/pl.md).
 
--   <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> Narzędzia łuku
+-   <img alt="" src=images/Draft_Arc.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Arc tools   *
 
    ** Polecenie <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Łuk](Draft_Arc/pl.md)   * tworzy łuk kołowy z punktu środka, promienia, kąta początkowego i kąta rozwarcia.
 
@@ -42,7 +42,7 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   Polecenie <img alt="" src=images/Draft_BSpline.svg  style="width   *32px;"> [Krzywa złożona](Draft_BSpline/pl.md)   * tworzy krzywą złożoną z kilku punktów.
 
--   Komponent <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> narzędzia Bézier\'a
+-   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Bézier tools   *
 
    ** Polecenie <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Sześcienna krzywa Beziera](Draft_CubicBezCurve/pl.md)   * tworzy krzywą Béziera trzeciego stopnia.
 
@@ -84,7 +84,7 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   <img alt="" src=images/Draft_Clone.svg  style="width   *32px;"> [Klonuj](Draft_Clone/pl.md)   * tworzy połączone kopie, klony, wybranych obiektów.
 
--   Komponent <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> Narzędzia szyku
+-   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Array tools   *
 
    ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Szyk](Draft_OrthoArray/pl.md)   * tworzy szyk ortogonalny z wybranego obiektu. Opcjonalnie może utworzyć również szyk [powiązań](App_Link/pl.md).
 

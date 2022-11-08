@@ -13,35 +13,40 @@ Das `Sketcher   *   *SketchObject` ist vom [Part Part2DObject](Part_Part2DObject
 
 
 
-*Simplified diagram of the relationships between the core objects in FreeCAD*
+*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD*
 
 ## Anwendung
 
-1.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
-2.  Press **[<img src=images/Sketcher_NewSketch.svg style="width   *16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**.
-3.  Select a **Sketch orientation**   * XY-plane, XZ-plane, or YZ-plane. Optionally also choose **Reverse direction**, and give an **Offset** value.
-4.  Press **OK**.
+1.  Zum Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) wechseln.
 
-Although the SketchObject can be used by itself to draw on a plane, it is most commonly used in conjunction with the [PartDesign Workbench](PartDesign_Workbench.md) to create extruded solids.
+2.  Die Schaltfläche **[<img src=images/Sketcher_NewSketch.svg style="width   *16px"> [Sketcher NeueSkizze](Sketcher_NewSketch/de.md)** drücken.
 
-1.  Switch to the [PartDesign Workbench](PartDesign_Workbench.md).
-
-2.  Press **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Body](PartDesign_Body.md)**.
-
-3.  Press **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
+3.  Eine {{MenuCommand/de|Skizzenorientierung}} auswählen   * XY-Ebene, XZ-Ebene, oder YZ-Ebene. Wahlweise die {{MenuCommand/de|Umgekehrte Richtung}} aktivieren, und einen **Offset**-Wert eingeben.
 
 4.  
-    **Select feature**   * XY_Plane (Base plane), XZ_Plane (Base plane), or YZ_Plane (Base plane).
+    **OK**drücken.
 
-5.  Press **OK**.
+Auch wenn das Sketch-Objekt eigenständig verwendet werden kann, um auf einer Fläche zu zeichnen, wird es meistens in Verbindung mit dem Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) verwendet um extrudierte Volumenkörper zu erstellen.
+
+1.  Zum Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) wechseln.
+
+2.  Die Schaltfläche **[<img src=images/PartDesign_Body.svg style="width   *16px"> [Körper erstellen](PartDesign_Body/de.md)** drücken.
+
+3.  Die Schaltfläche **[<img src=images/PartDesign_NewSketch.svg style="width   *16px"> [PartDesign Skizze erstellen](PartDesign_NewSketch/de.md)** drücken.
+
+4.  
+    **Element auswählen**   * XY_Plane (Basis-Ebene), XZ_Plane (Basis-Ebene), oder YZ_Plane (Basis-Ebene).
+
+5.  
+    **OK**drücken.
 
 ## Eigenschaften
 
 Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
 
-The [Sketcher SketchObject](Sketcher_SketchObject.md) (`Sketcher   *   *SketchObject` class) is derived from the [Part Part2DObject](Part_Part2DObject.md) (`Part   *   *Part2DObject` class) and inherits all its properties.
+Das [Sketcher Sketch-Objekt](Sketcher_SketchObject/de.md) (`Sketcher   *   *SketchObject`-Klasse) ist von dem [Part Part2DObject](Part_Part2DObject/de.md) (`Part   *   *Part2DObject`-Klasse) abgeleitet und erbt all seine Eigenschaften.
 
-The Sketcher SketchObject also has the following additional properties in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
+Das Sketcher Sketch-Objekt hat außerdem die folgenden zusätzlichen Eigenschaften im [Eigenschafteneditor](Property_editor/de.md). Ausgeblendete Eigenschaften können mit dem Befehl {{MenuCommand/de|Alle anzeigen}} im Kontextmenü des [Eigenschafteneditors](Property_editor.md) angezeigt werden.
 
 ### Daten
 
@@ -106,13 +111,13 @@ The Sketcher SketchObject also has the following additional properties in the [p
 ## Skripten
 
 
-**See also   ***
+**Siehe auch   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](Scripted_objects/de.md).
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+Siehe [Part Formelement](Part_Feature/de.md) für allgemeine Informationen zum Hinzufügen von Objekten zu einem Dokument.
 
-A SketchObject is created with the `addObject()` method of the document.
+Ein Sketch-Objekt wird mit der `addObject()` Methode des Dokuments erstellt.
 
 
 ```python

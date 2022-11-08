@@ -38,47 +38,17 @@ Es gibt zwei Arten von Randbedingungen   * geometrische und maßliche. Sie sind 
 
 Der Sketcher ist nicht für die Herstellung von (2D-) Zeichnungen (Blaupausen) vorgesehen. Sobald Skizzen verwendet werden, um eine Volumenkörpermerkmal zu erzeugen, werden sie automatisch verborgen. Randbedingungen sind nur im Skizzenbearbeitungsmodus sichtbar.
 
-
-<div class="mw-translate-fuzzy">
-
 Falls nur 2D-Ansichten zum Ausdrucken erzeugt werden sollen und keine 3D-Modelle, sollte man einen Blick auf den Arbeitsbereich [Draft](Draft_Workbench/de.md) werfen. Anders als Sketcher-Elemente, verwenden Draft-Objekte keine Randbedingungen; sie sind einfache Formen, die im Augenblick der Erstellung definiert werden. Sowohl Draft als auch Sketcher können zum Zeichnen von 2D-Geometrien und zum Erzeugen von 3D-Volumenkörpern verwendet werden, obwohl ihre bevorzugte Verwendung unterschiedlich ist.Der Sketcher wird normalerweise mit den Arbeitsbereichen [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) verwendet um Volumenkörper zu erzeugen. Draft wird normalerweise für einfache ebene Zeichnungen verwendet über einem Raster, so wie beim Zeichnen eines Architektur Grundrisses; in solchen Situationen werden Draft-Objekte hauptsächlich zusammen mit dem Arbeitsbereich [Arch](Arch_Workbench/de.md) verwendet. Das Werkzeug [Zeichnung zu Skizze](Draft_Draft2Sketch/de.md) wandelt ein Draft-Objekt in ein Skizzenobjekt und umgekehrt. Viele Werkzeuge, die ein 2D-Element als Eingabe benötigen, arbeiten mit beiden Objekttypen, da intern eine automatische Umwandlung erfolgt.
-
-
-</div>
 
 ## Arbeitsablauf beim Skizzieren 
 
-
-<div class="mw-translate-fuzzy">
-
 Eine Skizze ist stets zweidimensional (2D). Um einen Volumenkörper zu erzeugen, wird eine 2D-Skizze eines einzelnen, eingeschlossenen Bereichs erstellt und dann entweder aufgepolstert oder gedreht, um die dritte Dimension hinzuzufügen und so einen 3D-Volumenkörper aus einer 2D-Skizze zu erzeugen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 Wenn eine Skizze Segmente besitzt, die einander überschneiden, sie Stellen enthält an denen ein Punkt nicht direkt auf einem Segment liegt, oder Stellen an denen Lücken zwischen Endpunkten angrenzender Segmente existieren, werden Aufpolstern oder Rotieren keine Festkörper erstellen. Manchmal funktioniert eine Skizze, die sich überschneidende Linien enthält, für eine einfache Operation wie Aufpolstern, jedoch werden spätere Arbeitsgänge wie etwa lineare Muster fehlschlagen. Am besten vermeidet man sich überschneidende Linien. Die Konstruktionsgeometrie (blau) bildet eine Ausnahme von dieser Regel.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Innerhalb des geschlossenen Bereiches können sich kleinere nicht überlappende Bereiche befinden. Diese bleiben leer, wenn der 3D-Volumenkörper erstellt wird.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Sobald eine Skizze vollständig bestimmt ist, wechselt die Farbe der Skizzenelemente auf grün; Konstruktionsgeometrie bleibt blau. Normalerweise ist die Skizze an dieser Stelle \"fertig bearbeitet\" und für die Erstellung eines 3D-Volumenkörpers geeignet. Nach dem Schließen des Skizzendialogs, kann es aber nützlich sein, zum Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench/de.md) zu wechseln und **[<img src=images/Part_CheckGeometry.svg style="width   *24px"> [GeometriePrüfen](Part_CheckGeometry/de.md)** auszuführen, um sicherzustellen, dass die Skizze keine Elemente enthält, die später zu Problemen führen können.
-
-
-</div>
 
 ## Werkzeuge
 
@@ -174,17 +144,11 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width   *32px;"> [Nut erstellen](Sketcher_CreateSlot/de.md)   * Zeichnet ein Oval, indem das Zentrum des einen Halbkreises und ein Endpunkt des anderen Halbkreises ausgewählt werden.
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Create a fillet](Sketcher_CompCreateFillets.md)   * This is an icon menu in the Sketcher toolbar that holds the following commands   *
+-   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width   *48px;"> [Verrundungen](Sketcher_CompCreateFillets/de.md)   * Dies ist ein Symbolmenü in der Sketcher-Werkzeugleiste, das die folgenden Befehle enthält   *
 
+   ** <img alt="" src=images/Sketcher_CreateFillet.png  style="width   *32px;"> [Abrundung erstellen](Sketcher_CreateFillet/de.md) (Verrundung)   * Erstellt einen Bogen zwischen zwei nicht parallelen Linien.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CreateFillet.png  style="width   *32px;"> [Abrundung erstellen](Sketcher_CreateFillet/de.md) (Verrundung)   * Erstellt eine Verrundung zwischen zwei Linien, die an einem Punkt verbunden sind. Beide Linien oder den Eckpunkt auswählen und anschließend das Werkzeug aktivieren.
-
-
-</div>
-
-   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md)   * Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
+   ** <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width   *32px;"> [Eckenerhaltende Verrundung erstellen](Sketcher_CreatePointFillet/de.md)   * Erstellt einen Bogen zwischen zwei nicht parallelen Linien, wobei ihr (virtueller) Schnittpunkt erhalten bleibt.
 
 -   <img alt="" src=images/Sketcher_Trimming.png  style="width   *32px;"> [Kante zuschneiden](Sketcher_Trimming/de.md)   * Stutzt eine Gerade, einen Kreis oder Kreisbogen unter Berücksichtigung des angeklickten Punktes.
 
@@ -338,33 +302,21 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Randbedingu
 
 Jeder CAD-Benutzer entwickelt im Laufe der Zeit seine eigene Arbeitsweise, aber es gibt einige nützliche allgemeine Grundsätze, denen man folgen kann.
 
-
-<div class="mw-translate-fuzzy">
-
--   Eine Reihe einfacher Skizzen ist einfacher handzuhaben als eine komplexe einzelne Skizze. Beispielsweise kann eine erste Skizze für die grundlegenden 3D Funktionen (entweder ein aufpolstern oder ein drehen) erstellt werden, während eine zweite Skizze Löcher oder Ausschnitte (Taschen) enthalten kann. Einige Details können weggelassen werden, um später als 3D Funktionen realisiert zu werden. Sie können wählen, dass Verrundungen in Ihrer Skizze vermieden werden, wenn zu viele vorhanden sind, und diese als 3D Funktionen hinzugefügt werden.
--   Erstelle immer ein geschlossenes Profil, da Deine Skizze keinen Volumenkörper, sondern eine Reihe offener Seitenflächen erzeugt. Wenn Du nicht möchtest, dass einige der Objekte in die Volumenkörpererstellung einbezogen werden, können sie mit dem Konstruktionsmodus Werkzeug in Konstruktionselemente umgewandelt werden.
--   Verwende die automatische Beschränkungsfunktion, um die Anzahl der Beschränkungen zu begrenzen, die Sie manuell hinzufügen müssen.
--   Wende in der Regel zuerst geometrische und dann maßliche Beschränkungen an und sperre sie am Ende Deiner Skizze. Aber denke daran   * Regeln sind dazu da, gebrochen zu werden. Wenn Probleme beim Bearbeiten Deiner Skizze auftreten, kann es hilfreich sein, zuerst einige Objekte einzuschränken, bevor Dein Profil vervollständigt wird.
--   Wenn möglich, zentriere Deine Skizze auf den Ursprung (0,0) mit der Sperr Beschränkung. Wenn Deine Skizze nicht symmetrisch ist, suche einen ihrer Punkte zum Ursprung oder wähle schöne runde Zahlen für die Verriegelungsabstände. Externe Beschränkungen (Beschränken der Skizze auf vorhandene 3D-Geometrie wie Kanten oder andere Skizzen) sind in v0.12 nicht implementiert. Dies bedeutet, dass die Abstände zur ersten Skizze manuell festgelegt werden müssen, um die Geometrie der folgenden Skizzen zur ersten Skizze festzulegen. Eine Sperrbeschränkung von (25,75) vom Ursprung kann man sich leichter merken als (23.47,73.02).
--   Wenn man die Möglichkeit hat, zwischen der Längenbeschränkung und der horizontalen oder vertikalen Abstandsbeschränkung zu wählen, bevorzuge die Letztere. Horizontale und vertikale Abstandsbeschränkungen sind rechentechnisch billiger.
--   Im Allgemeinen sind die besten Beschränkungen zur Verwendung   * Horizontale und vertikale Beschränkungen; Horizontale und vertikale Längenbeschränkungen; Punkt-zu-Punkt Tangentialität. Wenn möglich, begrenze die Verwendung der folgenden   * der allgemeinen Längenbeschränkung; Tangentialität von Kante zu Kante; Fixpunkt auf einer Linienbeschränkung; Symmetriebeschränkung.
--   Wenn Zweifel an der Gültigkeit einer Skizze bestehen, nachdem diese vollständig ist (Merkmale werden grün), schließe das Skizzierer Dialogfeld, wechsle zum <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [ Arbeitbereich Part](Part_Workbench/de.md) und führe das <img alt="" src=images/Part_CheckGeometry.svg  style="width   *16px;"> [Geometrie prüfen](Part_CheckGeometry/de.md) aus.
-
-
-</div>
+-   Eine Reihe einfacher Skizzen ist einfacher handzuhaben als eine komplexe einzelne Skizze. Beispielsweise kann eine erste Skizze für die grundlegenden 3D-Funktionen (entweder ein Block oder ein Drehteil) erstellt werden, während eine zweite Skizze Löcher oder Ausschnitte (Taschen) enthalten kann. Einige Details können weggelassen werden, um später als 3D-Formelemente realisiert zu werden. Es können Verrundungen in einer Skizze vermieden werden, wenn zu viele vorhanden sind, und diese als 3D-Formelemente hinzugefügt werden.
+-   Es sollte immer ein geschlossenes Profil erstellt werden, da die Skizze sonst keinen Volumenkörper, sondern eine Reihe offener Seitenflächen erzeugt. Sollen einige der Objekte nicht in die Erstellung eines Volumenkörper einbezogen werden, können sie mit dem Werkzeug Hilfsgeometrie umschalten in Konstruktionselemente umgewandelt werden.
+-   Die Funktion Automatische Randbedingungen kann aktiviert werde, um die Anzahl der Randbedingungen zu begrenzen, die manuell hinzugefügt werden müssen.
+-   Nach einer allgemeinen Regel sollten zuerst geometrische, danach maßliche Randbedingungen verwendet werden und Sperren als letztes. Aber nicht vergessen   * Regeln sind dazu da, gebrochen zu werden. Wenn Probleme beim Bearbeiten einer Skizze auftreten, kann es hilfreich sein, zuerst einige Objekte festzulegen, bevor ein Profil vervollständigt wird.
+-   Eine Skizze sollte möglichst mit der Randbedingung Sperren auf den Ursprung (0,0) ausgerichtet werden. Wenn die Skizze nicht symmetrisch ist, setzt man einen ihrer Punkte auf den Ursprung oder wählt einfache runde Zahlen für die festzulegenden abstände.
+-   Hat man die Möglichkeit, zwischen den Randbedingungen Abstand festlegen und Horizontalen Abstand festlegen bzw. Vertikalen Abstand festlegen zu wählen, sollte eine der letzteren bevorzugt werden. Horizontalen Abstand festlegen und Vertikalen Abstand festlegen sind vom Berechnungsaufwand her günstiger.
+-   Im Allgemeinen eignen sich die folgenden Randbedingungen am besten   * Horizontal und Vertikal Festlegen, Horizontalen und Vertikalen Abstand festlegen, (Punkt-zu-Punkt) Tangential festlegen. Wenn möglich sollten die folgenden nur begrenz eingesetzt werden   * Abstand festlegen, (Kante-zu-Kante) Tangential festlegen von, Punkt auf Objekt festlegen; Symmetrie festlegen.
+-   Wenn Zweifel an der Gültigkeit einer Skizze bestehen, nachdem diese vervollständigt wurde (Elemente werden grün), schließt man das Sketcher-Dialogfeld, wechselt zum Arbeitbereich <img alt="" src=images/Workbench_Part.svg  style="width   *24px;"> [Part](Part_Workbench/de.md) und führt <img alt="" src=images/Part_CheckGeometry.svg  style="width   *16px;"> [Geometrie überprüfen](Part_CheckGeometry/de.md) aus.
 
 ## Tutorien
 
-
-<div class="mw-translate-fuzzy">
-
--   [Sketcher tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30104) von chrisb. Dies ist ein 70 Seiten langes PDF Dokument, das als ausführliches Handbuch für den Skizzierers dient. Die Grundlagen zur Verwendung des Skizzierers werden erläutert und sie geht in zahlreiche Details zur Erstellung geometrischer Formen sowie zu den einzelnen Beschränkungen hinein.
--   [Basistutorium Skizzierer](Basic_Sketcher_Tutorial/de.md) für Anfänger
--   [Skizzierer Mikro Tutorial - Beschränkungspraxis](Sketcher_Micro_Tutorial_-_Constraint_Practices/de.md)
--   [Skizzierer Anforderungen an Skizzen](Sketcher_requirement_for_a_sketch/de.md) Mindestanforderung für eine Skizze und vollständige Festlegung einer Skizze
-
-
-</div>
+-   [Sketcher tutorial](https   *//forum.freecadweb.org/viewtopic.php?f=36&t=30104) von chrisb. Dies ist ein 70 Seiten langes PDF-Dokument, das als ausführliches Handbuch für den Sketcher dient. Die Grundlagen zur Verwendung des Sketchers werden erläutert und es beschreibt detailreich die Erstellung geometrischer Formen sowie die einzelnen Randbedingungen.
+-   [Grundlegendes Sketcher Tutorium](Basic_Sketcher_Tutorial/de.md) für Anfänger
+-   [Sketcher Mikrotutorium - Beschränkungspraktiken](Sketcher_Micro_Tutorial_-_Constraint_Practices/de.md)
+-   [Sketcher Anforderungen an Skizzen](Sketcher_requirement_for_a_sketch/de.md) Mindestanforderung für eine Skizze und vollständige Festlegung einer Skizze
 
 ## Skripten
 

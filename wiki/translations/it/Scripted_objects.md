@@ -1,13 +1,4 @@
 # Scripted objects/it
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[PySide](PySide/it.md)|[Incorporare FreeCAD](Embedding_FreeCAD/it.md)}}
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Introduction
@@ -1151,13 +1142,7 @@ Interesting forum threads about scripted objects   *
 Oltre agli esempi presentati qui dare un\'occhiata al codice sorgente di FreeCAD [src/Mod/TemplatePyMod/FeaturePython.py](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) per ulteriori esempi.
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/it|[PySide](PySide/it.md)|[Incorporare FreeCAD](Embedding_FreeCAD/it.md)}}
-
-
-</div>
 
 
 
