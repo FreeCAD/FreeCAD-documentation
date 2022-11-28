@@ -1,40 +1,23 @@
 ---
 - GuiCommand   */de
    Name   *Curves Line
-   Name/de   *Kurven Linie
-   MenuLocation   *Kurven → Linie
-   Workbenches   *[Kurven](Curves_Workbench/de.md)
-   Shortcut   *Kein
-   SeeAlso   *
+   Name/de   *Curves Linie
+   MenuLocation   *Curves → Parametric line
+   Workbenches   *[Curves](Curves_Workbench/de.md)
 ---
 
 # Curves Line/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Die <img alt="" src=images/Curves_Line.svg  style="width   *24px;"> [Kurven Linie](Curves_Line/de.md) erzeugt eine parametrische Linie zwischen zwei Knoten. Dieses Werkzeug ist Teil der [Externen Arbeitsbereiche](external_workbenches/de.md) namens [Kurven](Curves_Workbench/de.md).
-
-
-</div>
+Das Werkzeug <img alt="" src=images/Curves_Line.svg  style="width   *24px;"> [Curves Linie](Curves_Line/de.md) erstellt eine parametrische Linie zwischen zwei Knoten. Dieses Werkzeug ist Teil des [externen Arbeitsbereichs](External_workbenches/de.md) [Curves](Curves_Workbench/de.md).
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wechsle zum <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Kurven](Curves_Workbench/de.md) Arbeitsbereich (installieren aus <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) ist notwendig, wenn nicht vorher installiert)
-2.  Um den Befehl aufzurufen, führe einen der folgenden Schritte aus   *
-    -   Drücke die <img alt="" src=images/Curves_Line.svg  style="width   *24px;"> Schaltfläche in der Kurven Werkzeugleiste.
-    -   Verwende den **Kurven → Linie** Eintrag im Aufklappmenü.
-
-
-</div>
+1.  Zum Arbeitsbereich <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Curves](Curves_Workbench/de.md) wechseln (muss mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden, wenn noch nicht geschehen)
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche <img alt="" src=images/Curves_Line.svg  style="width   *24px;"> in der Curves-Symbolleiste drücken.
+    -   Den Menüeintrag **Curves → Parametric line** auswählen.
 
 ## Hinweise
 

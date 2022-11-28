@@ -62,7 +62,7 @@ Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Ge
 
 -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;"> Der [ Arbeitsbereich OpenSCAD](OpenSCAD_Workbench/de.md) für das Zusammenspiel mit OpenSCAD und die Reparatur [Konstruktiver Festkörpergeometrie](Constructive_solid_geometry/de.md) (CSG) Modellhistorie.
 
--   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> Der [Arbeitsbereich Part](Image_Workbench/de.md) für die Arbeit mit CAD Teilen.
+-   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> Der [Arbeitsbereich Part](Part_Workbench/de.md) für die Arbeit mit CAD Teilen.
 
 -   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> Der [Arbeitsbereich Part Design](PartDesign_Workbench/de.md) zur Erstelllung von Teilformen aus Skizzen.
 

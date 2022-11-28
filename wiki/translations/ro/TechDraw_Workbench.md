@@ -55,7 +55,7 @@ Acestea sunt instrumente pentru crearea obiectelor de pagină.
 
 Acestea sunt instrumente pentru crearea de Vizualizare obiecte.
 
--   <img alt="" src=images/techdraw-view.png  style="width   *32px;"> [New View](TechDraw_View/ro.md)   * adaugă o vedere de proiecție 2D a unui obiect.
+-   <img alt="" src=images/TechDraw_View.svg  style="width   *32px;"> [New View](TechDraw_View/ro.md)   * adaugă o vedere de proiecție 2D a unui obiect.
 
 -   <img alt="" src=images/TechDraw_ActiveView.svg  style="width   *32px;"> [Insert Active View](TechDraw_ActiveView.md)   * inserts a view of the active 3D view. <small>(v0.19)</small> 
 
@@ -67,6 +67,8 @@ Acestea sunt instrumente pentru crearea de Vizualizare obiecte.
 
 </div>
 
+-   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Insert Section Views   *
+
 
 <div class="mw-translate-fuzzy">
 
@@ -75,7 +77,7 @@ Acestea sunt instrumente pentru crearea de Vizualizare obiecte.
 
 </div>
 
--   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
+   ** <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -164,7 +166,7 @@ Acestea sunt instrumente pentru modificarea aspectului paginilor și al vizualiz
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/techdraw-hatch.png  style="width   *32px;"> [Hatch Area](TechDraw_Hatch.md)   * aplică un model de hașurare dintr-un fișier, unei fațete
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width   *32px;"> [Hatch Area](TechDraw_Hatch.md)   * aplică un model de hașurare dintr-un fișier, unei fațete
 
 
 </div>
@@ -188,7 +190,7 @@ Acestea sunt instrumente pentru modificarea aspectului paginilor și al vizualiz
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Techdraw-image.png  style="width   *32px;"> [New Image](TechDraw_Image.md)   * Inserează o imagine PNG or JPG [bitmap](bitmap.md) în pagină.
+-   <img alt="" src=images/TechDraw_Image.svg  style="width   *32px;"> [New Image](TechDraw_Image.md)   * Inserează o imagine PNG or JPG [bitmap](bitmap.md) în pagină.
 
 
 </div>

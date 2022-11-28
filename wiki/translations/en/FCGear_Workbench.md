@@ -5,9 +5,9 @@
 
 ## Introduction
 
-The [FCGear Workbench](FCGear_Workbench.md) is an [external workbench](external_workbenches.md) for manufacturing different types of gears and worm gears in FreeCAD. The parametric modelling allows the required geometries to be changed at any time. For example, by changing a few parameters, the involute gear becomes either a spur gear, helical gear or double helical gear.
+The **FCGear Workbench** is an [external workbench](External_workbenches.md) for manufacturing different types of gears and worm gears in FreeCAD. The parametric modelling allows the required geometries to be changed at any time. For example, by changing a few parameters, the involute gear becomes either a spur gear, helical gear or double helical gear.
 
-In order for the results from FC Gear to be usable, a certain amount of basic knowledge about the different types of gearing is required. Module, pitch diameter or root diameter are common terms and should therefore be known.
+In order for the results from FCGear to be usable, a certain amount of basic knowledge about the different types of gearing is required. Module, pitch diameter or root diameter are common terms and should therefore be known.
 
 In conjunction with 3D printing, home users now have the opportunity to design and produce gears and worm gears according to their own personal ideas and, if necessary, to adapt them to the constructional conditions.
 
@@ -45,75 +45,58 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 ### Involute gear 
 
-   *   ![](images/Involute-Gear_example.png )
-   *   
-    
+<img alt="" src=images/Involute-Gear_example.png  style="width   *200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
-    
 
 ### Internal involute gear 
 
-   *   ![](images/FCGear_InternalInvoluteGear-01.png )
-   *   
-    
+<img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width   *200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md))*
-    
 
 ### Involute rack 
 
-   *   ![](images/Involute-Rack_example.png )
-   *   
-    
+<img alt="" src=images/Involute-Rack_example.png  style="width   *" height="200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
-    
 
 ### Cycloid gear 
 
-   *   ![](images/Cycloid-Gear_example_1.png )
-   *   
-    
+<img alt="" src=images/Cycloid-Gear_example_1.png  style="width   *200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear CycloidGear](FCGear_CycloidGear.md))*
-    
 
 ### Cycloid rack 
 
-   *   ![](images/FCGear_CycloidRack-01.png )
-   *   
-    
+<img alt="" src=images/FCGear_CycloidRack-01.png  style="width   *" height="200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](FCGear_CycloidRack.md))*
-    
 
 ### Bevel gear 
 
-   *   ![](images/Bevel-Gear_example.png )
-   *   
-    
+<img alt="" src=images/Bevel-Gear_example.png  style="width   *150px;"> 
 *From left to right   * Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
-    
-
-### Worm gear 
-
-   *   ![](images/Worm-Gear_example.png )
-   *   
-    
-*Above   * Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
-    
 
 ### Crown gear 
 
-   *   ![](images/Crown-Gear_example.png )
-   *   
-    
-*Above   * Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
-    
+<img alt="" src=images/Crown-Gear_example.png  style="width   *150px;"> 
+*Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
 
-### Timing gear and lantern gear 
+### Worm gear 
 
-   *   ![](images/Timing+Latern-gear_example.png )
-   *   
-    
-*From left to right   * Timing gearing, lantern gearing (see [FCGear TimingGear](FCGear_TimingGear.md) or [FCGear LanternGear](FCGear_LanternGear.md))*
-    
+<img alt="" src=images/Worm-Gear_example.png  style="width   *150px;"> 
+*Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
+
+### Timing gear 
+
+<img alt="" src=images/Timing-Gear_example.png  style="width   *150px;"> 
+*Timing gearing (see [FCGear TimingGear](FCGear_TimingGear.md))*
+
+### Lantern gear 
+
+<img alt="" src=images/Lantern-Gear_example.png  style="width   *150px;"> 
+*Lantern gearing (see [FCGear LanternGear](FCGear_LanternGear.md))*
+
+### Hypocycloid gear 
+
+<img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width   *120px;"> 
+*Hypocycloid gearing (see [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md))*
 
 ## References
 
@@ -123,9 +106,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 ## Links to FCGear Workbench 
 
--   Workbench Wiki   * <https   *//github.com/looooo/FCGear/wiki>
--   FreeCAD Wiki   * [Macro_FCGear](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCGear) and [Bevel gear](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878)
--   FreeCAD Forum   * <http   *//forum.freecadweb.org/viewtopic.php?f=21&t=12968>
+-   FreeCAD Wiki   * [Macro_FCGear](Macro_FCGear.md)
+-   FreeCAD Forum   * [Bevel gear](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878) and [FCGear](http   *//forum.freecadweb.org/viewtopic.php?f=21&t=12968)
 -   Tutorials   *
 -   Videos   *
 -   Files   *

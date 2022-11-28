@@ -28,7 +28,7 @@ To create a pipe, click ![](images/OSE_Piping_create_pipe_icon.svg ) in OSE pipi
 
 To add new dimensions adjust CSV **pipe.csv** file.
 
-Wikipedia on Nominal Pipe Size (NPS) [1](https   *//en.wikipedia.org/wiki/Nominal_Pipe_Size).
+Wikipedia on [Nominal Pipe Size (NPS)](https   *//en.wikipedia.org/wiki/Nominal_Pipe_Size).
 
 # Elbow
 

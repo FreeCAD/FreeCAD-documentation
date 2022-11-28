@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Les utilisateurs avancés ont la possibilité de [Créer des interfaces](Interface_creation/fr.md) pour les aider à produire des outils complexes pour leurs [addons](Addon/fr.md) personnalisés, tels que des [macros](Macros/fr.md) ou des [ateliers](Workbenches/fr.md) complets.
+Les utilisateurs avancés ont la possibilité de [créer des interfaces](Interface_creation/fr.md) pour les aider à produire des outils complexes pour leurs [extensions](Addon/fr.md) personnalisées, tels que des [macros](Macros/fr.md) ou des [ateliers](Workbenches/fr.md) complets.
 
 Les interfaces sont créées en utilisant [PySide](PySide/fr.md), qui est une bibliothèque permettant d\'utiliser Qt avec [Python](Python/fr.md).
 

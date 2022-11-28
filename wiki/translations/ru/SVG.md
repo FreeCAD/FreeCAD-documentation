@@ -1,7 +1,7 @@
 # SVG/ru
 {{TOCright}}
 
-## Description
+## Описание
 
 [Scalable Vector Graphics](https   *//en.wikipedia.org/wiki/Scalable_Vector_Graphics) (**SVG**) is a type of vectorized image format for two-dimensional graphics.
 
@@ -9,7 +9,7 @@ Vector-based formats such as SVG are very useful in technical drawing programs, 
 
 The SVG image is described in an XML-type language, which means that it can be opened and edited with a simple text editor to make changes. Due to its text-based nature, the file can also be searched, indexed, and compressed easily. This SVG markup language is an open standard developed by the World Wide Web Consortium (W3C) since 1999. This means that an SVG file should be read and interpreted in the same way by compliant viewers and drawing applications.
 
-## Usage
+## Применение
 
 FreeCAD can read and export SVG graphics using the [**Draft SVG**](Draft_SVG.md) function from the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft](Draft_Workbench.md) Workbench. SVG files are used for many things, including symbols and icons on the graphical user interface, and for templates.
 
@@ -17,7 +17,7 @@ FreeCAD can read and export SVG graphics using the [**Draft SVG**](Draft_SVG.md)
 
 FreeCAD is primarily a 3D modeling application, and thus doesn\'t have many 2D drawing tools, which are mostly included in the <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Draft](Draft_Workbench.md) and <img alt="" src=images/Workbench_Sketcher.svg  style="width   *24px;"> [Sketcher](Sketcher_Workbench.md) workbenches. To exclusively create 2D shapes, and produce SVG files, there are alternative programs like [Inkscape](https   *//en.wikipedia.org/wiki/Inkscape).
 
-## Related
+## Сопутствующая информация 
 
 -   [Import text and geometry from Inkscape](Import_text_and_geometry_from_Inkscape.md)
 

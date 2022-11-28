@@ -18,7 +18,7 @@ The <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> **Part
 
 ## Применение
 
-### Add a fillet 
+### Добавление скругления 
 
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the Body to fillet.
 2.  There are several ways to select edges to fillet   *
@@ -33,7 +33,7 @@ The <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> **Part
 6.  The **Fillet parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 7.  Press the **OK** button to finish.
 
-### Edit a fillet 
+### Редактирование скругления 
 
 1.  Do one of the following   *
     -   Double-click the Fillet object in the [Tree view](Tree_view.md)
@@ -41,7 +41,7 @@ The <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> **Part
 2.  The **Fillet parameters** [task panel](Task_panel.md) opens.See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-## Options
+## Параметры
 
 -   To add edges do one of the following   *
     -   Press the **Add** button to start selecting edges and/or faces in the [3D view](3D_view.md).
@@ -54,21 +54,21 @@ The <img alt="" src=images/PartDesign_Fillet.svg  style="width   *24px;"> **Part
 -   Set the **Radius** of the fillet.
 -   Check the **Use all edges** checkbox to select all edges of the previous feature. This deactivates the selection list and the related buttons. <small>(v0.20)</small> 
 
-## Notes
+## Примечания
 
 -   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 -   Fillets cannot completely consume the adjacent faces.
 
-## Properties
+## Свойства
 
 See also   * [Property editor](Property_editor.md).
 
 A PartDesign Fillet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties   *
 
-### Data
+### Данные
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Основные}}
 
 -    **Base|LinkSub**   * Link to the selected edges and faces of the parent feature. Can be a link to only the parent feature if **Use All Edges** is `True`.
 
@@ -93,13 +93,7 @@ A PartDesign Fillet object is derived from a [Part Feature](Part_Feature.md) obj
 
 -    **Refine|Bool**   * If `True` redundant edges are removed from the result of the operation. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
-
-<div class="mw-translate-fuzzy">
-
 ## Известные проблемы 
-
-
-</div>
 
 Fillets, chamfers, and other features that operate on solid bodies depend on the underlying [OpenCASCADE](OpenCASCADE.md) Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
 

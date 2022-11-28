@@ -28,10 +28,6 @@ Cet outil crée un nouveau parcours en dupliquant un autre parcours plusieurs fo
 
 -    **Copies**   * nombre de copies (sans compter l\'original) pour chaque direction
 
-## Limitations
-
-Cette fonction ne fonctionne que sur les opérations de trajectoire réelles, et non sur les trajectoires dérivées produites par les Finitions de parcours. Dans ce cas, l\'icône Réseau est désactivée.
-
 ## Script
 
 

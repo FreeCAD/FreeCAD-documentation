@@ -11,27 +11,34 @@
 
 ## Description
 
-L\'outil Vue en coupe crée une vue en coupe en fonction d\'une vue existante d\'une pièce.
+L\'outil <img alt="" src=images/TechDraw_SectionView.svg  style="width   *24px;"> **TechDraw Vue en coupe** insère une vue en coupe transversale basée sur une vue de la pièce existante.
 
 <img alt="" src=images/TechDraw_Section_example.png  style="width   *250px;"> 
 *Vue en coupe déjà placée qui montre les trous internes et une surface de coupe ombrée*
 
 ## Utilisation
 
-1.  Sélectionnez une vue de pièce dans la fenêtre ou l\'arborescence 3D.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_SectionView.svg" width=16px> [Insérer une vue en coupe](TechDraw_SectionView/fr.md)
-**
-3.  Une boîte de dialogue s\'ouvrira qui vous aidera à calculer les différentes propriétés de la section. La boîte de dialogue calcule des points de départ raisonnables pour SectionNormal et la direction de la vue mais ceux-ci peuvent être modifiés après la création pour des besoins spéciaux.
-4.  Si vous faites une erreur ou changez d\'avis lors de la configuration des paramètres de la section, appuyez sur le bouton **Réinitialiser** et vous pouvez recommencer.
+1.  Sélectionnez une vue de la pièce dans la [vue 3D](3D_view/fr.md) ou la [Vue en arborescence](Tree_view/fr.md).
+2.  Il existe plusieurs façons de lancer l\'outil    *
+    -   Appuyez sur le bouton **<img src="images/TechDraw_SectionView.svg" width=16px> [Insérer une vue en coupe](TechDraw_SectionView/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → <img src="images/TechDraw_SectionView.svg" width=16px> Insérer une vue en coupe** dans le menu.
+3.  Un panneau de tâches s\'ouvrira et vous aidera à calculer les différentes propriétés. Des valeurs raisonnables pour la direction de la vue sont calculées, mais elles peuvent être modifiées.
 
 ![](images/TechDraw_Section_Taskview.png ) 
 *Boîte de dialogue pour définir la zone de la vue en coupe*
 
-## Propriétés Vue de section 
+## Propriétés Vue en coupe 
 
 Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 ### Données
+
+
+{{TitleProperty|Cut Operation}}
+
+-    **Fuse Before Cut|Bool**   * fusionne les formes sources avant d\'effectuer la coupe de section.
+
+-    **Trim After Cut|Bool**   * découpe la forme résultante après le découpage de section pour supprimer les morceaux indésirables.
 
 
 {{TitleProperty|Cut Surface Format}}
@@ -81,9 +88,7 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 -    **Section Origin|Vector**   * vecteur décrivant un point sur le plan de coupe. Généralement le centroïde de la pièce d\'origine.
 
--    **Section Direction|Vector**   * direction dans la vue de base pour cette section.
-
--    **Fuse Before Cut|Bool**   * fusionne les formes sources avant d\'effectuer la coupe de section.
+-    **Section Direction|Enumeration**   * direction dans la vue de base pour cette section. Options    * {{Value|Aligned}}, {{Value|Right}}, {{Value|Left}}, {{Value|Up}} ou {{Value|Down}}.
 
 ### Vue
 
@@ -117,33 +122,36 @@ Les paramètres par défaut de ces paramètres sont définis via les paramètres
 
 ## Remarques
 
--   **Section Line Format**   * le format de ligne de section traditionnel (comme illustré ci-dessus) et la \"méthode de flèche de référence\" sont pris en charge. Cette option est contrôlée par le paramètre de préférence \"Mod/TechDraw/Format/SectionFormat\" (voir [Std Editeur des paramètres](Std_DlgParameter/fr.md)). 0 pour la ligne traditionnelle, 1 pour la méthode de la flèche de référence.
--   **CutSurfaceDisplay**   * la surface coupée peut être cachée, peinte dans une couleur unie, hachurée en utilisant un motif Svg (par défaut) ou hachurée en utilisant un motif PAT. Voir [Hachure](TechDraw_Hatching/fr.md).
--   **FuseBeforeCut**   * l\'opération de section échoue parfois à couper les formes source. Si FuseBeforeCut a la valeur true, les formes sources sont fusionnées en une seule forme avant que l\'opération de section ne soit tentée. Si vous rencontrez des problèmes avec l\'opération de section, essayez de retourner cette valeur.
+-   **Section Line Format**    * format traditionnel de ligne de section (comme illustré ci-dessus) et la \"méthode de la flèche de référence\" sont tous deux pris en charge. Cette option est contrôlée par le paramètre de préférence \"Norme des lignes de coupe\" dans l\'onglet Annotation. L\'option \"ANSI\" utilise le format traditionnel et l\'option \"ISO\" utilise le format de la flèche de référence.
+-   **Fuse Before Cut**    * l\'opération de coupe échoue parfois à découper les formes sources. Si **Fuse Before Cut** est vrai, les formes sources sont fusionnées en une seule forme avant que l\'opération de section ne soit tentée. Si vous rencontrez des problèmes avec l\'opération de section, essayez d\'inverser cette valeur.
+-   **Trim After Cut**    * l\'opération d\'ajustement de la coupe laisse parfois derrière elle une partie de la forme source. Si **Trim After Cut** est vrai, une opération d\'ajustement supplémentaire est effectuée sur le résultat de le premier ajustement qui devrait enlever tous les morceaux non désirés.
+-   **Cut Surface Display**   * la surface de coupe peut être cachée, peinte dans une couleur solide, hachurée en utilisant un motif Svg (par défaut) ou hachurée en utilisant un motif PAT. Voir [TechDraw Hachures](TechDraw_Hatching/fr.md).
 
 ## Script
 
-
-**Voir aussi   ***
-
-[TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil Vue en coupe peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes   *
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
-rc = page.addView(view)
-view.Source = box
-view.Direction = (0.0,0.0,1.0)
+doc = FreeCAD.ActiveDocument
+box = doc.Box
+page = doc.Page
 
-section = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewSection','Section')
-rc = page.addView(section)
+view = doc.addObject("TechDraw   *   *DrawViewPart", "View")
+page.addView(view)
+view.Source = box
+view.Direction = (0.0, 0.0, 1.0)
+
+section = doc.addObject("TechDraw   *   *DrawViewSection", "Section")
+page.addView(section)
 section.Source = box
 section.BaseView = view
-section.Direction = (0.0,1.0,0.0)
-section.SectionNormal = (0.0,0.0,1.0)
-section.SectionOrigin = (5.0,5.0,5.0)
+section.Direction = (0.0, 1.0, 0.0)
+section.SectionNormal = (-1.0, 0.0, 0.0)
+
+doc.recompute()
 ```
 
 

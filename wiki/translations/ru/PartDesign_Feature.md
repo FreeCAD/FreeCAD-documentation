@@ -1,7 +1,7 @@
 # PartDesign Feature/ru
 ## Введение
 
-[Констуктивный элемент PartDesign](PartDesign_Feature/ru.md) является «шагом» в процессе моделирования, происходящим внутри [Тела PartDesign](PartDesign_Body/ru.md). Например, каждый раз, когда вы добавляете Куб с помощью [PartDesign AdditiveBox](PartDesign_AdditiveBox/ru.md), вы добавляете констуктивный элемент; когда вы добавляете фаску к кромке с помощью [PartDesign Chamfer](PartDesign_Chamfer/ru.md), вы добавляете еще один конструктивный элемент; когда вы вырезаете отверстие с помощью [sketch](Sketch/ru.md) и [PartDesign Pocket](PartDesign_Pocket/ru.md), вы добавляете ещё один конструктивный элемент.
+[Конструктивный элемент PartDesign](PartDesign_Feature/ru.md) является «шагом» в процессе моделирования, происходящим внутри [Тела PartDesign](PartDesign_Body/ru.md). Например, каждый раз, когда вы добавляете Куб с помощью [PartDesign AdditiveBox](PartDesign_AdditiveBox/ru.md), вы добавляете констуктивный элемент; когда вы добавляете фаску к кромке с помощью [PartDesign Chamfer](PartDesign_Chamfer/ru.md), вы добавляете еще один конструктивный элемент; когда вы вырезаете отверстие с помощью [sketch](Sketch/ru.md) и [PartDesign Pocket](PartDesign_Pocket/ru.md), вы добавляете ещё один конструктивный элемент.
 
 <img alt="" src=images/PartDesign_Feature_example.png  style="width   *600px;"> 
 *Изменение [PartDesign Тела](PartDesign_Body/ru.md) последовательностью из трех конструктивных элементов.*

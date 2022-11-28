@@ -7,7 +7,13 @@ FreeCAD macht umfangreichen Gebrauch von Python. Damit kannst du auf fast alle F
 
 ![](images/Exercise_python_01.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Aber die Python Konsole hat noch eine andere sehr wichtige Verwendung   * Jedes Mal, wenn du eine Schaltfläche in der Werkzeugleiste drückst oder andere Operationen in FreeCAD ausführst, wird ein Teil des Python Codes in der Konsole gedruckt und ausgeführt. Wenn du die Python Konsole offen lässt, kannst du buchstäblich sehen, wie sich der Python Code bei der Arbeit entfaltet, und im Handumdrehen, fast ohne es zu wissen, wirst du etwas von der Sprache Python lernen.
+
+
+</div>
 
 FreeCAD verfügt auch über ein [Makro System](Macros/de.md), mit dem du Aktionen aufzeichnen kannst, die später wiedergegeben werden können. Dieses System verwendet ebenfalls die Python Konsole, indem es einfach alles aufzeichnet, was darin gemacht wird.
 
@@ -15,7 +21,13 @@ In diesem Kapitel werden wir ganz allgemein die Sprache Python entdecken. Wenn d
 
 ### Schreiben von Python Code 
 
+
+<div class="mw-translate-fuzzy">
+
 Es gibt zwei einfache Möglichkeiten, Python Code in FreeCAD zu schreiben   * Von der Python Konsole aus (Menü **Ansicht -\> Tafeln -\> Python Konsole**), oder vom Makro Editor aus (Menü **Werkzeuge -\> Makros -\> Neu**). In der Konsole schreibst du nacheinander Python Befehle, die ausgeführt werden, wenn du die Eingabetaste drückst, während die Makros ein komplexeres Skript aus mehreren Zeilen enthalten können, das nur dann ausgeführt wird, wenn das Makro vom gleichen Makro Fenster aus gestartet wird.
+
+
+</div>
 
 In diesem Kapitel wirst du beide Methoden verwenden können, aber es wird dringend empfohlen, die Python Konsole zu verwenden, da sie dich sofort über alle Fehler informiert, die du beim Tippen machst.
 
@@ -45,7 +57,13 @@ Unser Kasten wird in der Baumansicht hinzugefügt, aber in der 3D Ansicht passie
 
 doc.recompute()
 
+
+<div class="mw-translate-fuzzy">
+
 Jetzt ist unser Kasten in der 3D Ansicht erschienen. Viele der Schaltflächen auf der Werkzeugleiste, mit denen in FreeCAD Objekte hinzugefügt werden können, tun eigentlich zwei Dinge   * das Objekt hinzufügen und neu berechnen. Wenn du oben die Option \"Skriptbefehle in der Python Konsole anzeigen\" aktiviert hast, versuche nun, mit der entsprechenden Schaltfläche im Part Arbeitsbereich eine Kugel hinzuzufügen, und du wirst sehen, wie die beiden Zeilen des Python Codes nacheinander ausgeführt werden.
+
+
+</div>
 
 Du kannst eine Liste aller möglichen Objekttypen wie Part   *   *Box abfragen   *
 

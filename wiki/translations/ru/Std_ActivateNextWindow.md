@@ -11,7 +11,7 @@
 
 ## Описание
 
-The **Std ActivateNextWindow** command activates the next window in the [Main view area](Main_view_area.md). The next window is determined by the order in which the Main view area windows were last activated.
+Команда **Следующее** активирует следующее окно (вкладку) в [Главной области просмотра](Main_view_area/ru.md). Следующее окно определяется порядком расположения вкладок в основной области просмотра.
 
 ## Применение
 

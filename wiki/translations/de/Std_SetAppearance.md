@@ -14,6 +14,9 @@
 
 Das Werkzeug **Darstellung** zeigt im [Aufgabenbereich](Task_panel.md) die Anzeigeeigenschaften der ausgewählten Objekte an.
 
+<img alt="" src=images/DlgDisplayProperties.png  style="width   *250px;"> 
+*The Display properties task panel*
+
 ## Anwendung
 
 1.  Ein oder mehrere Objekt(e) auswählen.

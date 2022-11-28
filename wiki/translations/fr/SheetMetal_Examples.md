@@ -3,7 +3,7 @@
 
 ## Introduction
 
-L\'<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width   *24px;"> [atelier SheetMetal](SheetMetal_Workbench/fr.md) (un [atelier externe](External_workbenches/fr.md) disponible via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)) est devenu assez puissant et mérite d\'être documenté de manière appropriée.
+L\'<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width   *24px;"> [atelier SheetMetal](SheetMetal_Workbench/fr.md) (un [atelier externe](External_workbenches/fr.md) disponible via le [Gestionnaire des extensions](Std_AddonMgr/fr.md)) est devenu assez puissant et mérite d\'être documenté de manière appropriée.
 
 Pour éviter de surcharger les pages d\'outils avec des exemples, cette page a été ajoutée pour rassembler les pièces montrant et expliquant les caractéristiques spéciales de SheetMetal.
 

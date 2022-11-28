@@ -183,9 +183,9 @@ Ce qui donne le résultat suivant   *
 ### Généralités sur les dimensions et les tolérances 
 
 
-**Voir aussi   ***
+**Voir aussi    ***
 
-[Addon dimensionnement Drawing](Drawing_Dimensioning_Addon/fr.md)
+[Extension dimensionnement Drawing](Drawing_Dimensioning_Addon/fr.md)
 
 Dessiner les dimensions et les tolérances est encore en cours de développement mais vous pouvez accéder à des fonctionnalités de base avec un peu de travail.
 

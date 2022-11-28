@@ -71,7 +71,7 @@ You will practice   *
 5\. The previous operations create a smaller cube inside a bigger cube. To visualize this, we can modify the **View** properties in the [property editor](property_editor.md).
 
    *   5.1. Select {{incode   Cube001}}, the smaller cube, in the [tree view](tree_view.md), and change the color. In the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to {{incode   2.0}}.
-   *   5.2. Select {{incode   Cube}}, the larger cube, in the [tree view](tree_view.md), and change the transparency. In the **View** tab, change the value of **Transparency** to {{incode   70}}.
+   *   5.2. Select {{incode   Cube}}, the larger cube, in the [tree view](tree_view.md). In the **View** tab, change the value of **Transparency** to {{incode   70}}.
 
 ![](images/01_T03_Part_cubes_visibility.png ) 
 *Solid cube inside another solid cube*
@@ -96,14 +96,14 @@ You will practice   *
    *   7.4. Change **Height** to {{incode   120 mm}}.
    *   7.5. Open the [Placement](Std_Placement.md) dialog.
    *   7.6. Change **Y** to {{incode   60 mm}}.
-   *   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   X}}, and **Angle** to {{incode   90 deg}}.
+   *   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   X}} (by setting the {{incode   X}}, {{incode   Y}} and {{incode   Z}} values of the axis inputboxes to {{incode   0}}, {{incode   0}} and {{incode   1}} respectively, {{incode   Z}} is the third inputbox), and **Angle** to {{incode   90 deg}}.
    *   7.8. Press the **OK** button to close the dialog.
 
 8\. Insert another cylinder. This time create a duplicate so that the radius and height don\'t have to be changed, only its placement.
 
    *   8.1. Select {{incode   Cylinder001}} in the [tree view](tree_view.md), and go to the menu **Edit → [[Std_DuplicateSelection   Duplicate selection]]**. This will create {{incode   Cylinder002}}.
    *   8.2. Open the [Placement](Std_Placement.md) dialog.
-   *   8.3. Change **X** to {{incode   -60 mm}}.
+   *   8.3. Change **X** to {{incode   -60 mm}}, and change **Y** back to {{incode   0 mm}}.
    *   8.4. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   Y}}, and **Angle** to {{incode   90 deg}}.
    *   8.5. Press the **OK** button to close the dialog.
 

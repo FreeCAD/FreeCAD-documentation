@@ -33,10 +33,7 @@ Du kannst die Größe der Knotenpunkte im [TechDraw Einstellungen/Maßstabs Reit
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Umschaltwerkzeug verfügt derzeit nicht über eine Programmierschnittstelle.
 

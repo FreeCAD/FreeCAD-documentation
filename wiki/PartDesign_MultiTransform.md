@@ -115,27 +115,29 @@ See [PartDesign PolarPattern](PartDesign_PolarPattern#Limitations.md).
 
 ## Example
 
-You can use this function to create a fully parametric part that is symmetrical about two axis from a sketch. This could be a 150x100x10mm large mounting plate for a stepper motor with symmetric holes and a pocket.
+You can use this tool to create a fully parametric part that is symmetrical about two axes from a sketch.
 
--   create a \"quarter\" part from a sketch that covers the first quadrant of the part (i.e. upper left quadrant in Sketcher).
-    -   note that your constraints must only cover a quarter of the part. You can use use construction geometry with the full part dimensions are constrain against those or just use halved values for X and Y sizes, e.g. instead of a full dimension of 150mm enter \"150/2mm\" or \"75mm\"
-    -   Make sure the sketch is closed by adding lines along the vertical and horizontal axes to the origin.
--   close the sketcher and extrude the part with [PartDesign Pad](PartDesign_Pad.md).
--   Select **MultiTransform**
+This could be a 150x100x10mm large mounting plate for a motor with symmetric holes.
 
-       *   a task dialog will open. As default feature the last tip from the tree is aleady listed. Since we want to mirror the complete part we do not need to any any feature.
--   click with the right mouse button into the \"Transformations\" field and select *add mirrored transform*
--   Select under \"Plane\" the correct axis   * *Vertical sketch axis*
+ <img alt="" src=images/PartDesign_MultiTransform_Example2.png  style="width   *400px;"> 
 
-       *   now you should see you part mirrored about one axis
--   click again with the right mouse button into the \"Transformations\" field and again select *add mirrored transform*
--   Now select under \"Plane\" the other axis   * *Horizontal sketch axis*
+1.  Create a <img alt="" src=images/PartDesign_Body.svg  style="width   *16px;"> [Body](PartDesign_Body.md) and add a <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *16px;"> [sketch](PartDesign_NewSketch.md) on one of its base planes.
+2.  In the sketch create geometry for one quadrant of the part (i.e. the upper right quadrant).
+    -   Note that the constraints must also only cover a quarter of the part, e.g. instead of the full dimension of {{Value|150mm}} enter {{Value|150/2mm}} or {{Value|75mm}}.
+    -   Make sure the sketch is closed by adding lines along the vertical and horizontal axes.
+3.  Extrude the part with <img alt="" src=images/PartDesign_Pad.svg  style="width   *16px;"> [PartDesign Pad](PartDesign_Pad.md).
+4.  Select <img alt="" src=images/PartDesign_MultiTransform.svg  style="width   *16px;"> **PartDesign MultiTransform**.
+5.  The task dialog opens.
+6.  The last feature of the Body is already selected. Since we want to mirror that feature we can ignore the **Add feature** and **Remove feature** buttons.
+7.  Right-click in the **Transformations** field and select **Add mirrored transform** from the context menu.
+8.  For the **Plane** select **Vertical sketch axis**.
+9.  If the **Update view** checkbox is checked, you should now see the part mirrored about one axis.
+10. Again select **Add mirrored transform** from the context menu of the **Transformations** field.
+11. Now for the **Plane** select **Horizontal sketch axis**.
+12. Press the **OK** button to finish.
+13. To remove the edges along the axes of symmetry in the final result, in the [Property editor](Property_editor.md) set the **Refine** property of the new feature to {{Value|true}}.
 
-       *   note   * if you forget to select the other axis the part will be mirrored twice along the same axis. Visually nothing will change but you have twice the goemetry.
-
-Now you part is mirrored about the two sketch axes. You can edit the transforms any time by double clicking the \"MultiTransform\" icon in the tree.
-
-To verify that the part is fully parametric open the initial sketch with the quarter part and change one dimension, say a hole position. After closing the sketch all 4 holed will have changed accordingly. This works with all other dimensions as well. Compareed with a sketch modelling the full part with a signle extrusion but no mirroring, the skeck would be a lot more complex with a lot of redundant information. All later changes would be more complicated. This sketch is small and easy to change.
+To verify that the part is fully parametric open the initial sketch with the quarter part and change one dimension, say a hole diameter. After closing the sketch the three other holes will have changed accordingly. This works with all other dimensions as well. A sketch modelling the full part with a single extrusion and no mirroring would be a lot more complex and all later changes would be more complicated.
 
 
 

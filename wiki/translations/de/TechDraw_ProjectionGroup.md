@@ -88,10 +88,7 @@ Beachte, dass der mittlere Kasten die aktuelle Projektionsrichtung der primären
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das NeueProjGruppe Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden. Ein vollständiges Skript ist in der Quellverteilung in \"source-dir/src/Mod/TechDraw/TDTest/DProjGroupTest.py\" verfügbar.
 

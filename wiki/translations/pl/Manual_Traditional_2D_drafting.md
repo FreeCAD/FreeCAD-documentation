@@ -42,7 +42,7 @@ To showcase the workflow and possibilities of the Draft Workbench, we will walk 
 ![](images/Exercise_cabin_03.jpg )
 
 -   That is all we need now, so we can switch construction mode off. Check that all the construction geometry has been placed into a \"Construction\" group, which makes it easy to hide it all at once or even delete it completely later on.
--   Now let\'s draw our two wall pieces using the <img alt="" src=images/Draft_Wire.svg  style="width   *16px;"> [Wire](Draft_Wire.md) tool. Make sure the <img alt="" src=images/Snap_Intersection.svg  style="width   *16px;"> [intersection snap](Draft_Snap.md) is turned on, as we will need to snap to the intersections of our lines and rectangles. Draw two wires as follows, by clicking all the points of their contours. To close them, either click on the first point again, or press the **Close** button   *
+-   Now let\'s draw our two wall pieces using the <img alt="" src=images/Draft_Wire.svg  style="width   *16px;"> [Wire](Draft_Wire.md) tool. Make sure the <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *16px;"> [intersection snap](Draft_Snap.md) is turned on, as we will need to snap to the intersections of our lines and rectangles. Draw two wires as follows, by clicking all the points of their contours. To close them, either click on the first point again, or press the **Close** button   *
 
 ![](images/Exercise_cabin_04.jpg )
 
@@ -51,7 +51,7 @@ To showcase the workflow and possibilities of the Draft Workbench, we will walk 
 ![](images/Exercise_cabin_05.jpg )
 
 -   We can now hide the construction geometry by right-clicking the Construction group and choose **Hide Selection**.
--   Let\'s now draw the windows and doors. Make sure the <img alt="" src=images/Snap_Midpoint.svg  style="width   *16px;"> [midpoint snap](Draft_Snap.md) is turned on, and draw six lines as follow   *
+-   Let\'s now draw the windows and doors. Make sure the <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width   *16px;"> [midpoint snap](Draft_Snap.md) is turned on, and draw six lines as follow   *
 
 ![](images/Exercise_cabin_06.jpg )
 

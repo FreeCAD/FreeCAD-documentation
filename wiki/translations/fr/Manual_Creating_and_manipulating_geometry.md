@@ -52,7 +52,7 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
-Par exemple, trouvons la zone de chaque face de notre forme de boîte ci-dessus   *
+Par exemple, trouvons l\'aire de chaque face de notre forme de boîte ci-dessus    * (Veillez à indenter la deuxième ligne, comme elle apparaît ci-dessous. Appuyez deux fois sur Entrée après la dernière ligne pour exécuter la commande Python).
 
 
 ```python
@@ -142,7 +142,7 @@ E3 = Part.Edge(C1)
 E4 = Part.Edge(C2)
 ```
 
-Alternativement, les géométries de base ont également une fonction toShape() qui fait exactement la même chose    *
+Par ailleurs, les géométries de base disposent également d\'une fonction toShape() qui fait exactement la même chose    *
 
 
 ```python
@@ -151,7 +151,7 @@ E2 = L2.toShape()
  ...
 ```
 
-Une fois que nous avons une série d'arêtes (Edges), nous pouvons maintenant former une ligne composite (Wire), en lui donnant une liste d'arêtes (Edges). Nous n'avons pas besoin de prendre soin de l'ordre.
+Une fois que nous avons une série d\'arêtes (Edges), nous pouvons maintenant former une polyligne, en lui donnant une liste d\'arêtes. Nous devons faire attention à l\'ordre. Notez également les parenthèses.
 
 
 ```python

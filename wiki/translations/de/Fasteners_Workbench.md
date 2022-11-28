@@ -220,7 +220,13 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width   *32px;"> **ISO 7048** Zylinderschrauben mit Kreuzschlitz.
 
+-   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width   *32px;"> **GOST 1144-3** Half round head wood screw with type H cross recess.
+
+-   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width   *32px;"> **GOST 1144-4** Half round head wood screw with type H cross recess.
+
 ### Other head bolts 
+
+-   <img alt="" src=images/Fasteners_DIN603.svg  style="width   *32px;"> **DIN 603** Round head square neck bolt.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** UNC Round head square neck bolt.
 
@@ -243,8 +249,6 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width   *32px;"> **GOST 11860-1** Cap nut.
 
--   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** T-slot nut.
-
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Vierkantmuttern.
 
 -   <img alt="" src=images/Fasteners_DIN562.svg  style="width   *32px;"> **DIN 562** Vierkantmuttern.
@@ -256,6 +260,12 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width   *32px;"> **ASME B18.2.2.4A** UNC Hexagon nut.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width   *32px;"> **ASME B18.2.2.4B** UNC Hexagon thin nut.
+
+### T-slot nuts 
+
+-   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** T-slot nut.
+
+-   <img alt="" src=images/Fasteners_GN507.svg  style="width   *32px;"> **GN 507** T-slot nut.
 
 ### Scheiben
 
@@ -291,6 +301,14 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN Scheibe, normale Reihe.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN Scheibe, breite Reihe.
+
+### Retaining rings 
+
+-   <img alt="" src=images/Fasteners_DIN471.svg  style="width   *32px;"> **DIN 471** External retaining ring.
+
+-   <img alt="" src=images/Fasteners_DIN472.svg  style="width   *32px;"> **DIN 472** Internal retaining ring.
+
+-   <img alt="" src=images/Fasteners_DIN6799.svg  style="width   *32px;"> **DIN 6799** E-clip retaining ring.
 
 ### Verschiedenes
 

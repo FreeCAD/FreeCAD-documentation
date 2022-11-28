@@ -7,31 +7,13 @@ Untenable werden mehrere Möglichkeiten dargestellt, die zurzeit vom Projekt unt
              <img alt="" src=images/Stripe-logo.png  style="width   *128px;"> [Stripe](https   *//donate.stripe.com/14k3ei9TYgwFclq145)                                                                                                                                                                     
    --  -- 
 
+Es gibt auch immer andere Wege zu helfen, anstatt Geld zu spenden oder zu programmieren, wie z.B. Mitarbeit an der Dokumentation, der Übersetzung oder daran neuen Anwendern zu helfen ihren Weg zu finden. Siehe Seite [FreeCAD Unterstützen](Help_FreeCAD/de.md), um mehr zu erfahren.
 
-<div class="mw-translate-fuzzy">
+## Weitere Details zu den verschiedenen Möglichkeiten 
 
-See other ways to [Hilf dem Projekt](Help_FreeCAD/de.md) (Dokumentation, Übersetzung).
+-   <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> FreeCAD hat ein offiziellen [LiberaPay-Team-Konto](https   *//liberapay.com/FreeCAD). Dort kann man jeden Betrag per Kreditkarte, Paypal oder SEPA-Überweisung spenden, einmalig oder als Daueraftrag. Alles hier eingehen Beträge werden direkt zu gleichen Teilen unter den gelisteten Entwicklern aufgeteilt. Die Liberapay-Platform ist auch Open-Source und behält nichts ein von der geleisteten Spende. Das LiberaPay-Konto wird direkt durch die Mitglieder verwaltet.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Optionen
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Es gibt ein offizielles [FreeCAD Teamkonto](https   *//liberapay.com/FreeCAD); spende per Kreditkarte, Paypal oder SEPA Banküberweisung. Jedes Geld, das hier eingeht, wird zu gleichen Teilen unter den aufgeführten Entwicklern aufgeteilt. Dies ist die beste Option, da sie den Entwicklern direkt hilft.
-
-
-</div>
-
--   <img alt="" src=images/PayPal_Logo_Icon_2014.svg  style="width   *24px;"> FreeCAD has an official [PayPal account](https   *//www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q) where you can donate any amount by credit card or your own Paypal account, one time only or recurrently. The PayPal account is managed by the [FPA](https   *//github.com/FreeCAD/FPA). Paypal is a convenient platform but charges a fee on what FreeCAD receives.
+-   <img alt="" src=images/PayPal_Logo_Icon_2014.svg  style="width   *24px;"> FreeCAD hat ein offizielles [PayPal-Konto](https   *//www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q), wo man jeden Betrag per Kreditkarte oder eigenem Paypal-Konto spenden kann, einmalig oder als Daueraftrag. Das PayPal-Konto wird von der [FPA](https   *//github.com/FreeCAD/FPA) verwaltet. Paypal ist bequem zu nutzen, berechnet aber eine Gebühr auf Beträge, die FreeCAD erhält.
 
 -   <img alt="" src=images/SepaLogoEN.jpg  style="width   *24px;"> FreeCAD has an Euro bank account where you can transfer money directly via your own banking application. The IBAN number is BE04 0019 2896 4531, owned by the FreeCAD project association. The bank agency is BNP Paribas Fortis, address   * Rue de la Station 64, 1360 Perwez, Belgium, BIC/SWIFT code   * GEBABEBBXXX
 
@@ -57,29 +39,17 @@ See other ways to [Hilf dem Projekt](Help_FreeCAD/de.md) (Dokumentation, Überse
 
 </div>
 
-## Funding a specific developer 
+## Einen bestimmten Entwickler Unterstützen 
 
+-   Einige Entwickler erledigen für Geld eine bestimmte Aufgabe oder können gesponsert werden, um Zeit für die Arbeit an FreeCAD aufzuwenden. Es gab in der Vergangenheit einige erfolgreiche Experimente, wie der Arbeitsbereich [Pfad](Path_Workbench/de.md) oder [Ian Rees\' Finanzierungsexperiment](https   *//opendeveloperfunding.wordpress.com/). Die folgenden Entwickler können individuell gefördert werden. Einen Entwickler direkt zu unterstützen kann eine gute Möglichkeit sein, eine Spende zielgerichtet einem bestimmten Entwicklungsbereich von FreeCAD zukommen zu lassen, zu dem man ein besonderes Interesse hat   *
 
-<div class="mw-translate-fuzzy">
-
--   Einige Entwickler erledigen für Geld eine bestimmte Aufgabe oder können gesponsert werden, um Zeit für die Arbeit an FreeCAD aufzuwenden. Es gab in der Vergangenheit einige erfolgreiche Experimente, wie die [Pfad Arbeitsbereich](Path_Workbench/de.md) oder [Ian Rees\' Finanzierungsexperiment](https   *//opendeveloperfunding.wordpress.com/). Momentan können die folgenden Entwickler gefördert werden   *
-    -   [Yorik](User_Yorik.md) über <img alt="yorikvanhavre\|link=<https   *//www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/yorikvanhavre) oder <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/yorik) ([Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md), IFC)
-    -   [Kurt Kremitzki](User_Kkremitzki.md) über <img alt="kkremitzki\|link=<https   *//www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/kkremitzki) oder <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/kkremitzki) (Infrastruktur, Server, Paketierung, Debian/Ubuntu)
-    -   Lei Zheng alias [Realthunder](https   *//github.com/realthunder) über [PayPal](https   *//www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SM8GY3U2UUJN), <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/realthunder/) oder <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/thundereal) ([Anwendungsverknüpfung](App_Link/de.md), [Assembly3](Assembly3/de.md))
-    -   Lorenz alias looooo über <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/looooo/donate) ([FCGears Arbeitsbereich](https   *//github.com/looooo/freecad.gears), [Conda](Conda/de.md) Paketierung)
-    -   Amritpal Singh alias amrit3701 über <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/amrit3701) oder <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/amrit3701) ([Armierung Erweiterung](https   *//github.com/amrit3701/FreeCAD-Reinforcement))
-    -   Brad Collette alias sliptonic über <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/sliptonic/donate) oder <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/sliptonic) ([Pfad Arbeitsbereich](Path_Workbench/de.md))
-
-
-</div>
-
--   -   [Yorik](User_Yorik.md) via <img alt="yorikvanhavre\|link=<https   *//www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/yorikvanhavre), <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/yorik) or <img alt="" src=images/_GitHub.svg  style="width   *24px;"> [GitHub](https   *//github.com/sponsors/yorikvanhavre) ([Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md), IFC)
-    -   [Kurt Kremitzki](User_Kkremitzki.md) via <img alt="kkremitzki\|link=<https   *//www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/kkremitzki) or <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/kkremitzki) (infrastructure, servers, packaging, Debian/Ubuntu)
-    -   Lei Zheng aka [Realthunder](https   *//github.com/realthunder) via [PayPal](https   *//www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SM8GY3U2UUJN), <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/realthunder/) or <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/thundereal) ([App Link](App_Link.md), [Assembly3](Assembly3.md))
+-   -   [Yorik](User_Yorik.md) via <img alt="yorikvanhavre\|link=<https   *//www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/yorikvanhavre), <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/yorik) oder <img alt="" src=images/_GitHub.svg  style="width   *24px;"> [GitHub](https   *//github.com/sponsors/yorikvanhavre) ([Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md), IFC)
+    -   [Kurt Kremitzki](User_Kkremitzki.md) via <img alt="kkremitzki\|link=<https   *//www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/kkremitzki) oder <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/kkremitzki) (infrastructure, servers, packaging, Debian/Ubuntu)
+    -   Lei Zheng aka [Realthunder](https   *//github.com/realthunder) via [PayPal](https   *//www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SM8GY3U2UUJN), <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/realthunder/) oder <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/thundereal) ([App Link](App_Link.md), [Assembly3](Assembly3.md))
     -   Lorenz aka looooo via <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/looooo/donate) ([FCGears workbench](https   *//github.com/looooo/freecad.gears), [Conda](Conda.md) packaging)
-    -   Amritpal Singh aka amrit3701 via <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/amrit3701) or <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/amrit3701) ([Rebar addon](https   *//github.com/amrit3701/FreeCAD-Reinforcement))
-    -   Brad Collette aka sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/sliptonic/donate) or <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/sliptonic) ([Path Workbench](Path_Workbench.md))
-    -   Ajinkya Dahale via <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/ajinkyadahale/) or <img alt="" src=images/_GitHub.svg  style="width   *24px;"> [GitHub](https   *//github.com/sponsors/AjinkyaDahale/) ([B-Spline constraints project](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=71130) and general FreeCAD bugfixing/enhancing)
+    -   Amritpal Singh aka amrit3701 via <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/amrit3701) oder <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/amrit3701) ([Rebar addon](https   *//github.com/amrit3701/FreeCAD-Reinforcement))
+    -   Brad Collette aka sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/sliptonic/donate) oder <img alt="Patreon" src=images/patreonporange.png  style="width   *20px;"> [Patreon](https   *//www.patreon.com/sliptonic) ([Path Workbench](Path_Workbench.md))
+    -   Ajinkya Dahale via <img alt="" src=images/Liberapay_logo.svg  style="width   *24px;"> [Liberapay](https   *//liberapay.com/ajinkyadahale/) oder <img alt="" src=images/_GitHub.svg  style="width   *24px;"> [GitHub](https   *//github.com/sponsors/AjinkyaDahale/) ([B-Spline constraints project](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=71130) and general FreeCAD bugfixing/enhancing)
 
 ## Aufträge
 

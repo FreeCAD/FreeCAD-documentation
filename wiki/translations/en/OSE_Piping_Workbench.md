@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-OSE Piping Workbench creates pipes and fittings. It is a part of [Open Source Ecology](https   *//www.opensourceecology.org/) and [Open Source Ecology Germany](https   *//www.ose-germany.de/). To use all its features install the Dodo-Workbench.
+OSE Piping Workbench creates pipes and fittings. It is a part of [Open Source Ecology](https   *//www.opensourceecology.org/) and [Open Source Ecology Germany](https   *//www.ose-germany.de/). To use all its features install the [Dodo Workbench](Flamingo_Workbench.md).
 
 ![ 512px](images/OSE_Piping_workbench_screenshot.png )
 
@@ -22,7 +22,7 @@ To create a pipe, click ![](images/OSE_Piping_create_pipe_icon.svg ) in OSE pipi
 
 To add new dimensions adjust CSV **pipe.csv** file.
 
-Wikipedia on Nominal Pipe Size (NPS) [1](https   *//en.wikipedia.org/wiki/Nominal_Pipe_Size).
+Wikipedia on [Nominal Pipe Size (NPS)](https   *//en.wikipedia.org/wiki/Nominal_Pipe_Size).
 
 # Elbow
 

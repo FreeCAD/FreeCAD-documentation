@@ -24,10 +24,7 @@ Das <img alt="" src=images/TechDraw_StackTop.svg  style="width   *24px;"> **Tech
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Die Stapel Reihenfolge kann in Skripts durch Ändern der {{Incode|StackOrder}} Eigenschaft eines {{Incode|ViewObject}} erfolgen.
 

@@ -2,7 +2,6 @@
 - GuiCommand   */it
    Name   *Draft Snap Angle
    Name/it   *Angolo
-   Icon   *Snap_Angle.svg
    MenuLocation   *Draft → [Snap](Draft_Snap/it.md) → Angolo
    Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    SeeAlso   *[Snap](Draft_Snap/it.md), [Attiva/disattiva snap](Draft_Snap_Lock/it.md)

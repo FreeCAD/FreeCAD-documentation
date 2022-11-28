@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */de
    Name   *TechDraw DetailView
-   Name/de   *TechDraw DetailAnsicht
+   Name/de   *TechDraw Detailansicht
    MenuLocation   *TechDraw → Detailansicht einfügen
    Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Version   *0.19
@@ -63,10 +63,7 @@ Eine Detailansicht erbt alle anwendbaren Eigenschaften der als {{PropertyData/de
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Detailwerkzeug kann mit [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden   *
 

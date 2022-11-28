@@ -19,7 +19,7 @@ Da sie sehr einfach aufgebaut sind, gehören sie zu den ältesten Formen von Get
 
 Triebstockräder mit Rollenketten sind eine kostengünstige und robuste Alternative zu Zahnstangen- und Ritzelantrieben. Durch die tangentiale Führung der gespannten Triebstockkette entlang des Triebstocks wird eine lineare Bewegung der Kette in eine Drehbewegung des Rades umgesetzt. Umgekehrt kann eine lineare Bewegung der Kette auch durch die Drehbewegung des Triebstockrades (Motorrad/Fahrrad) erreicht werden.
 
-![](images/Latern_Gear_example.png )
+![](images/Lantern-Gear_example.png )
 
    *   
     

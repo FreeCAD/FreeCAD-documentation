@@ -822,20 +822,6 @@ splits the given mesh object into separated components.
 
 
 
-#### <img src="images/type_method.svg" style="width:16px;"> string_replace <small>(text, pattern, replacement)</small>
-
-if py2 isn't supported anymore calls to this function
-    should be replaced with:
-    `text.replace(pattern, replacement)`
-    for python2 the encoding must be done, as unicode replacement leads to something like this:
-    ```
-    >>> a = u'abc mm ^3'
-    >>> a.replace(u"^3", u"³")
-    u'abc mm Â³'
-    ```
-
-
-
 #### <img src="images/type_method.svg" style="width:16px;"> strprocessOfCustomSpacing <small>(span_string)</small>
 
 This function take input

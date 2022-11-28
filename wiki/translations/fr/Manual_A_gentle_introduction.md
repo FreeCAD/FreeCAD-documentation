@@ -7,7 +7,7 @@ FreeCAD fait une utilisation intensive de Python. Avec lui, vous pouvez accéder
 
 ![](images/Exercise_python_01.jpg )
 
-Mais la console Python a un autre rôle très important   * chaque fois qu\'un bouton de la barre d\'outils est cliqué ou qu\'une autre opération est réalisée dans FreeCAD, du code Python est affiché puis exécuté dans la console. En laissant la console Python ouverte, vous pouvez littéralement voir le code Python se dérouler au fur et à mesure de votre travail, et, en un rien de temps, sans même vous en rendre compte, vous apprendrez le langage Python.
+Mais la console Python a une autre utilité très importante    * chaque fois que vous appuyez sur un bouton de la barre d\'outils, ou que vous effectuez d\'autres opérations dans FreeCAD, un certain code en Python est affiché dans la console (si l\'option **Afficher les commandes de script dans la console Python** est activée dans **Edition → Préférences → Général → Macro**) et exécuté. En laissant la console Python ouverte, vous pouvez littéralement voir le code Python se dérouler au fur et à mesure que vous travaillez, et en un rien de temps, presque sans le savoir, vous vous retrouverez à apprendre une partie du langage Python.
 
 FreeCAD possède également un [système de macros](Macros/fr.md) qui vous permet d'enregistrer vos actions pour les rejouer plus tard. Ce système utilise la console Python en enregistrant simplement ce qui y est fait.
 
@@ -15,12 +15,7 @@ Dans ce chapitre, nous allons découvrir de façon très générale le langage P
 
 ### Ecrire du code Python 
 
-Il y a deux manières d\'écrire du code Python dans FreeCAD   * à partir de la console Python,
-
--   dans la barre de menus, cliquez sur **Affichage-\> Vues-\> Console Python**,
--   ou depuis l\'éditeur de macros **Outils-\> Macros**.
-
-Dans la console Python, vous écrivez les lignes de code Python, une par une. Elles seront exécutées lorsque vous validerez avec la touche **ENTREE** tandis que les macros peuvent contenir un script plus complexe composé de plusieurs lignes, qui est exécuté uniquement lorsque la macro est lancée à partir de la même fenêtre Macros **Exécutez la macro dans l'éditeur** (triangle vert).
+Il existe deux façons simples d\'écrire du code Python dans FreeCAD    * à partir de la console Python (**Affichage → Panneaux → Console Python**), ou depuis l\'éditeur de macros (**Outils → Macros → Nouveau**). Dans la console, vous écrivez les commandes Python une par une, qui sont exécutées lorsque vous appuyez sur la touche retour, tandis que les macros peuvent contenir un script plus complexe composé de plusieurs lignes, qui n\'est exécuté que lorsque la macro est lancée depuis la même fenêtre Macros.
 
 Dans ce chapitre, vous pourrez utiliser les deux méthodes, mais il est fortement recommandé d\'utiliser la console Python car elle vous informe instantanément des erreurs que vous faites.
 
@@ -50,7 +45,7 @@ Notre boîte est ajoutée dans l\'arborescence mais rien ne se passe encore dans
 
 doc.recompute()
 
-Voilà, notre boîte est apparue dans la vue 3D. De nombreux boutons de la barre d\'outils qui ajoutent des objets dans FreeCAD ont deux fonctions   * ils ajoutent l\'objet et recalculent. Si vous avez activé l'option \"montrer les commandes du script dans la console Python\", essayez maintenant d\'ajouter une sphère avec le bouton approprié dans l'atelier Part et vous verrez les deux lignes du code Python exécutées l\'une après l\'autre.
+Notre boîte est maintenant apparue dans la vue 3D. De nombreux boutons de la barre d\'outils qui ajoutent des objets dans FreeCAD font en fait deux choses    * ajouter l\'objet et recalculer. Essayez maintenant d\'ajouter une sphère avec le bouton approprié dans l\'atelier Part, et vous verrez les deux lignes de code Python s\'exécuter l\'une après l\'autre.
 
 Vous pouvez obtenir une liste de tous les types d\'objets possibles, comme Part    *   * Box   *
 

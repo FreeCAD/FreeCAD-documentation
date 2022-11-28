@@ -35,12 +35,12 @@ Ainsi, une courbe avec laquelle vous pouvez relier deux points tangentiellement 
 
 ### Origine
 
-Les courbes de Bézier sont des polynômes permettant de décrire la liaison entre 2 points. Le polynôme le plus simple reliant 2 points est une droite ($A*x^1+B$) donc les courbes de Bézier linéaires sont aussi linéaires    *
+Les courbes de Bézier sont des polynômes permettant de décrire la liaison entre 2 points. Le polynôme le plus simple reliant 2 points est une droite ($A*x^1+B$) donc les courbes de Bézier linéaires sont aussi des segments de droite    *
 
 ![](images/Bezier_linear_anim.gif ) 
 *Animation 1    * courbe de Bézier linéaire.*
 
-Cependant un polynôme devient d\'abord utile quand on peut le contrôler. Il doit donc y avoir un point entre les deux extrémités qui nous permet de définir comment les extrémités sont connectées. Comme dans l\'exemple ci-dessus, option 3, la courbe est utile lorsqu\'elle commence et se termine tangentiellement aux lignes qui croisent les points d\'extrémité. C\'est l\'une des principales caractéristiques des courbes de Bézier. Ajoutons donc un point de contrôle entre les deux extrémités. La courbe commencera tangentiellement vers ce point de contrôle, ce qui signifie qu\'elle est tangente à la ligne que nous pouvons tracer entre le point de départ et le point de contrôle. En reculant à partir du point d\'extrémité, la courbe sera également tangente à la ligne que nous pouvons tracer entre le point de contrôle et le point d\'extrémité. L\'animation 2 montre à quoi ressemble une telle courbe.
+Cependant un polynôme devient utile quand on peut le contrôler. Il doit donc y avoir un point entre les deux extrémités qui nous permet de définir comment les extrémités sont connectées. Comme dans l\'exemple ci-dessus, option 3, la courbe est utile lorsqu\'elle commence et se termine tangentiellement aux lignes qui croisent les points d\'extrémité. C\'est l\'une des principales caractéristiques des courbes de Bézier. Ajoutons donc un point de contrôle entre les deux extrémités. La courbe commencera tangentiellement vers ce point de contrôle, ce qui signifie qu\'elle est tangente à la ligne que nous pouvons tracer entre le point de départ et le point de contrôle. En reculant à partir du point d\'extrémité, la courbe sera également tangente à la ligne que nous pouvons tracer entre le point de contrôle et le point d\'extrémité. L\'animation 2 montre à quoi ressemble une telle courbe.
 
 ![](images/Bezier_quadratic_anim.gif ) 
 *Animation 2    * Courbe de Bézier quadratique. P1 est le point de contrôle.*
@@ -58,6 +58,14 @@ Pour répondre à la question, la solution avec la terminaison tangentielle de l
 
 <img alt="" src=images/B-splines_Motivation-cubic-bezier.png  style="width   *450px;">
 
+### Règles
+
+Dans la dérivation, vous avez peut-être déjà remarqué quelques \"règles\" pour les courbes de Bézier    *
+
+-   Le degré polynomial est aussi le degré des courbes.
+-   Si vous avez besoin de $n$ tours, vous avez besoin d\'au moins une courbe de Bézier de $n+1$ degré.
+-   Une courbe de Bézier commence toujours tangentiellement à la ligne entre le point de départ et le premier point de contrôle (et se termine tangentiellement à la ligne entre le dernier point de contrôle et le point d\'arrivée).
+
 ### Math
 
 Si vous souhaitez comprendre le contexte mathématique, voici l\'essentiel.
@@ -70,14 +78,6 @@ $\quad
 *n* est ici le degré de la courbe. Ainsi une courbe de Bézier de degré *n* est un polygone d\'ordre *n*. Les facteurs $P_{i}$ sont ici en fait les coordonnées des points de contrôle des courbes de Bézier. Pour une visualisation, voir [Contrôle des courbures de Bézier](https   *//pomax.github.io/bezierinfo/#control).
 
 Si vous souhaitez en savoir plus, consultez le site [Les mathématiques des courbes de Bézier](https   *//pomax.github.io/bezierinfo/#explanation) qui présente une origine joliment animée des mathématiques des courbes de Bézier.
-
-### Règles
-
-Dans le texte ci-dessus, vous avez peut-être déjà remarqué quelques \"règles\" pour les courbes de Bézier    *
-
--   Le degré polynomial est aussi le degré des courbes.
--   Si vous avez besoin de $n$ tours, vous avez besoin d\'au moins une courbe de Bézier de $n+1$ degré.
--   Une courbe de Bézier commence toujours tangentiellement à la ligne entre le point de départ et le premier point de contrôle (et se termine tangentiellement à la ligne entre le dernier point de contrôle et le point d\'arrivée).
 
 ## B-splines 
 
@@ -94,47 +94,61 @@ A partir des vidéos, nous pouvons rassembler des \"règles\" utiles pour les B-
 -   Une B-spline de degré $D$ offre en tout point une dérivée d\'ordre $D-1$ continue.
     -   Pour une B-spline cubique, cela signifie que la courbure (dérivée de second ordre) ne change pas lors du passage d\'un segment au suivant. C\'est une caractéristique très utile comme nous le verrons plus tard.
 
-Si vous souhaitez en savoir plus sur les propriétés des B-splines, regardez la vidéo [MOOC Curves 8.2    * Propriétés des courbes B-spline](https   *//www.youtube.com/watch?v=xXJylM2S72s).
+Si vous souhaitez en savoir plus sur les propriétés des B-splines, regardez [cette vidéo](https   *//www.youtube.com/watch?v=xXJylM2S72s).
 
-### Base
+#### Base
 
-Le nom *B-spline* signifie *Basis spline*. Au lieu de former la spline comme une combinaison de courbes de Bézier, l\'approche consiste à modéliser **la même spline** d\'une manière différente. L\'idée est donc d\'utiliser un autre ensemble de polynômes comme base. Une combinaison linéaire de ces polynômes de base $B_D(t)$ avec l\'ordre $D$ forme la B-spline. [Cette vidéo](https   *//www.youtube.com/watch?v=dPPTCy4L4rY) explique la transition entre les points de contrôle de Bézier et les fonctions de base polynomiales décrivant la spline. Mathématiquement, nous pouvons décrire une B-spline avec cette formule    *
+Étant donné que nous ne présenterons que les bases des B-splines, nous n\'entrerons pas ici dans les détails.
 
-$\quad
-c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)$
+La base construit la spline. En regardant la définition des courbes de Bézier dans la section [Math](#Math.md), on se souvient qu\'une courbe de Bézier est une combinaison linéaire de polynômes avec comme facteur les coordonnées x/y de chacun des points de contrôle. Ces polynômes sont appelés polynômes de Bernstein.
 
-Par conséquent, $p_k$ est le $k$-ème point de contrôle de la B-spline et également un facteur pour le $k$-ème polynôme de base $B_{k, D}(t)$. Chaque polynôme de base décrit la spline dans une certaine région et, par conséquent, le déplacement d\'un point de contrôle n\'affecte pas la spline entière. Pour comprendre cela, il est fortement recommandé de jeter un œil à [cette vidéo](https   *//www.youtube.com/watch?v=vjTyWIKviNc) à partir de la minute 2   *23.
+Comme plusieurs courbes de Bézier sont combinées pour former une spline, nous obtenons un ensemble de polynômes de Bernstein formant la spline (ils constituent la base). Comme nous voulons surmonter les limitations mentionnées des courbes de Bézier, nous ne combinons pas géométriquement les différents polynômes de Bernstein des courbes de Bézier, mais définissons les polynômes de Bernstein sur toute la plage géométrique de la spline. Donc nous **ne combinons pas** les courbes de Bézier avec ses polynômes de Bernstein, qui seraient
 
-Comme expliqué dans la vidéo, les polynômes de base sont des polynômes de Bernstein. L\'ensemble des polynômes de base pour une certaine B-spline peut être visualisé de cette façon    *
+$$\textrm{Bezier-combinaison}=\begin{cases}
+  \sum_{i=0}^{n}P_{i}\cdot B_{i,n}(t), & 0\le t\le1\\\\\N
+  \sum_{i=0}^{n}P_{i+n}\cdot B_{i,n}(t-1), & 1\le t\le2\\\\N
+\cdots
+\end{cases}$$
 
-![](images/Bernstein_Polynomials.svg ) 
-*Un ensemble de polynômes de Bernstein d'ordre 4. Ils décrivent une B-spline d'ordre 4 avec 5 points de contrôle.*
+considérant que $B_{i,n}(t)$ est le i-ième polynôme de Bernstein d\'ordre $n$ et les coefficients $P_{i}$ sont les coordonnées ponctuelles des points de contrôle de la courbe de Bézier. Mais nous utilisons un **ensemble différent de fonctions** qui sont définies sur toute l\'étendue de la spline    *
 
-À chaque position de la spline $t$, la somme des polynômes est égale à 1 (indiquée par la ligne orange). Au départ, seul le polynôme rouge a une influence puisque tous les autres polynômes sont à 0. À $t$ plus grand, la spline est décrite par une combinaison linéaire de différents polynômes de base. Dans l\'image ci-dessus, chaque polynôme est supérieur à 1 pour toute la plage $0 < t < 1$. Ce n\'est pas nécessairement le cas. Comme le montre la vidéo, les polynômes de base ne sont fondamentalement supérieurs à 0 que pour une certaine plage de position de la spline. L\'intervalle pour lequel un polynôme de base est supérieur à 0 est décrit par le *vecteur nœud*. Si vous souhaitez en savoir plus sur le vecteur nœud, consultez le site [cette vidéo](https   *//www.youtube.com/watch?v=ni5NNPCVvDY).
+$$\textrm{B-spline}= \sum_{i=0}^{n}p_{i}\cdot N_{i,n}(t)$$.
+
+Remarquez qu\'en général $N_{i,n}(t) \ne B_{i,n}(t)$, et les points de contrôle de Bézier $\{P_1, P_2, \dots\}$ sont différents des points de contrôle de B-spline $\{p_1, p_2, \dots\}$.
+
+Les différents $N_{i,n}(t)$ sont définis par morceaux où l\'intervalle de chaque morceau est l\'intervalle d\'un segment de Bézier.
+
+Lorsque les longueurs de tous les segments $N_{i,n}$ sont égaux, on parle d\'une spline uniforme. (Dans la littérature, cela est souvent dénoté par un temps de parcours égal $t$ par segment).
+
+Pour comprendre comment les $p_{i}$ sont les coordonnées des points de contrôle de la spline B, voyez la première minute de [cette vidéo](https   *//www.youtube.com/watch?v=dPPTCy4L4rY&list=PL8bSwVy8_IcMvtI70tZoYesCS0hGVO5qd).
+
+#### Vecteur-nœud 
+
+Comme indiqué ci-dessus, les B-splines sont créées à partir de $N_{i,n}$ polynômes par morceaux avec une continuité jusqu\'à une certaine dérivée entre les morceaux. Les points aux extrémité de l\'intervalle de définition du segment sont appelés nœuds. Pour une spline définie sur $k$ pièces, il y a $k+1$ nœuds donnés par le soi-disant *vecteur-nœud*    *$\{t_0, t_1, t_2,\dots, t_k\}$ avec $t_0 < t_1 < t_2 < \dots < t_k$.
+
+Le vecteur-nœud comprend les nœuds des $N_{i,n}$ fonctions de base qui définissent la B-spline, voir [cette vidéo](https   *//www.youtube.com/watch?v=ni5NNPCVvDY). Les fonctions de base d\'une B-spline peuvent être calculées à l\'aide du vecteur-nœud et d\'un algorithme de création, voir [cette vidéo](https   *//www.youtube.com/watch?v=hrsO45AHtbs).
+
+La dérivée jusqu\'à laquelle la continuité existe est donnée par la multiplicité $m$. Par conséquent, nous pouvons spécifier un vecteur avec la multiplicité pour chaque nœud    * $\{m_0, m_1, \dots, m_k\}$. Un nœud sur une spline de degré *d* et de multiplicité *m* indique que la courbe à gauche et à droite du nœud a au moins une dérivée d\'ordre égale à *n* (appelée *C*^*n*^ continuité) avec $n=d-m$.
 
 ### B-splines non-uniformes 
 
-Une propriété des polynômes de Bernstein est que lorsque l\'on regarde les différentes parties de Bézier S-spline, la longueur du chemin de chaque partie est la même. (La longueur du chemin est souvent appelée le *temps de parcours*). Comme vous pouvez l\'imaginer, il peut être utile d\'avoir des B-splines dont les parties de Bézier ont des longueurs de chemin différentes. Ceci peut être réalisé en pondérant les différents polynômes    *
+La dérivée des B-splines à partir des courbes de Bézier a pour conséquence mathématique que dans les B-splines, chaque morceau polynomial a la même longueur. De telles B-splines sont appelées *uniformes*. Dans le cas plus général, elles peuvent mais ne doivent pas avoir la même longueur. De telles splines *non-uniformes* ont l\'avantage de pouvoir contrôler la proximité des splines par rapport à leur point de contrôle.
 
-$\quad
-c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k$
+Mathématiquement, ceci est réalisé en définissant les différents $N_{i,n}$ morceaux à des intervalles différents. Si par exemple une spline B est définie pour l\'intervalle \[0, 1\], elle est uniforme si toutes ses 5 par exemple sont également définies dans cet intervalle. Si maintenant $N_{1,4}$ est uniquement défini dans l\'intervalle \[0, 0.6\] (en dehors de l\'intervalle, il est fixé à zéro), il est plus court et la spline devient donc non uniforme.
 
-$w_k$ est alors le poids du $k$-ème point de contrôle. Lorsque les poids ne sont pas égaux, la B-spline est dite **non-uniforme**.
+Comme décrit ci-dessus, les paramètres des nœuds sont décrits par le vecteur-nœud. Le vecteur-nœud stocke donc les intervalles de définition. Lorsqu\'une pièce reçoit un autre intervalle, le vecteur-nœud change également, voir [cette vidéo](https   *//www.youtube.com/watch?v=w-l5R70y6u0) pour une visualisation.
 
-En particulier lorsque les B-splines doivent être utilisées pour la modélisation 3D, des B-splines normalisées et non uniformes sont nécessaires. La normalisation se fait par une division par les fonctions de base pondérées. Ainsi, lorsque touts les $w_k$ sont égaux, nous obtenons une B-spline uniforme, indépendante du poids lui-même    *
+### B-splines rationnelles 
 
-$\quad
-c(t)=\cfrac{\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
+Une autre généralisation peut être faite pour les B-splines en introduisant des poids pour les points de contrôle. De cette façon, il est possible de contrôler \"l\'importance\" d\'un point de contrôle.
 
-Ces B-splines non uniformes et rationnelles (à cause de la division) sont souvent appelées **NURBS**. En regardant leur formule, on voit qu\'elles sont en fait une B-spline avec une base pondérée $R_{k, D}(t)$    *
+L\'équation d\'une telle spline est
 
-$\quad
-c(t)=\sum_{k=0}^{N}p_{k}R_{k, D}(t)$
+$$c(n, t)=\cfrac{\sum_{i=0}^{n}d_{i}N_{i, n}(t)\cdot w_i}{\sum_{i=0}^{n}N_{i, n}(t)\cdot w_i}$$
 
-alors que
+Remarquez que la fonction n\'est plus un polynôme, mais une fonction rationnelle, et ces splines sont appelées B-splines rationnelles. Observez que lorsque tous les $w_i$ sont égaux, l\'équation se réduit à une B-spline régulière non rationnelle. Donc les B-splines non rationnelles sont un sous-ensemble des B-splines rationnelles.
 
-$\quad
-R_{k, D}=\cfrac{B_{k,D}(u)w_k}{\sum_{l=1}^N B_{l,D}(t)w_l}$
+Les B-splines non uniformes et rationnelles sont souvent appelées **[NURBS](https   *//fr.wikipedia.org/wiki/NURBS)** et sont largement utilisées dans la modélisation géométrique.
 
 ## B-splines dans FreeCAD 
 
@@ -144,7 +158,7 @@ FreeCAD propose de créer des B-splines uniformes ou non-uniformes de n\'importe
 
 Pour créer des B-splines, allez dans une esquisse et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [Sketcher B-spline simple](Sketcher_CreateBSpline/fr.md)**. Ensuite, faites un clic gauche pour définir un point de contrôle, déplacez la souris en faisant un clic gauche pour définir le point de contrôle suivant et ainsi de suite. Enfin, cliquez avec le bouton droit de la souris pour terminer la définition et créer la courbe B-spline.
 
-Par défaut, des splines cubiques uniformes sont créées, sauf qu\'il n\'y a pas assez de points de contrôle pour le faire. Ainsi, lorsque vous créez une B-spline avec seulement 2 points de contrôle, vous obtenez bien sûr une spline qui est une simple courbe de Bézier linéaire, pour 3 points de contrôle vous obtenez une courbe de Bézier quadratique, puis avec 5 points de contrôle vous obtenez une B-spline cubique composée de 2 segments de Bézier.
+Par défaut, des splines cubiques uniformes sont créées, sauf qu\'il n\'y a pas assez de points de contrôle pour le faire. Ainsi, lorsque vous créez une B-spline avec seulement 2 points de contrôle, vous obtenez bien sûr une spline qui est une simple courbe de Bézier linéaire, pour 3 points de contrôle vous obtenez une courbe de Bézier quadratique, et enfin avec 5 points de contrôle vous obtenez une B-spline cubique composée de 2 segments de Bézier. {{Version/fr|0.20}} Vous pouvez également utiliser la touche D pendant la création d\'une B-spline pour définir son degré (elle tombera toujours à un degré inférieur si moins de points sont fournis).
 
 Pour créer des B-splines périodiques (B-splines qui forment une courbe fermée), utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width   *16px"> [Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)**. Il n\'est pas nécessaire de placer le dernier point de contrôle sur le premier car la courbe B-spline sera automatiquement fermée    *
 
@@ -172,11 +186,7 @@ Pour modifier la multiplicité des nœuds, utilisez les boutons de la barre d\'o
 
 Autour de chaque point de contrôle, vous voyez un cercle jaune foncé. Son rayon définit le poids du point de contrôle correspondant. Par défaut, tous les cercles ont le rayon *1*. Cela est indiqué par une contrainte de rayon pour le premier cercle du point de contrôle.
 
-Pour créer une courbe B-spline non uniforme, les poids doivent être non uniformes. Pour cela, vous pouvez modifier la [Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md) du premier cercle du point de contrôle    *
-
-![](images/Sketcher_Changing-control-point-weigth-constraint.gif )
-
-ou vous supprimez la contrainte selon laquelle tous les cercles sont égaux, puis vous définissez des contraintes de rayon différentes pour les cercles.
+Pour créer une B-spline rationnelle, les poids doivent être rendus indépendants. Pour y parvenir, vous pouvez supprimer la contrainte selon laquelle tous les cercles sont égaux, puis définir des contraintes de rayon différentes pour les cercles.
 
 Si aucune contrainte de rayon n\'est définie, vous pouvez également modifier le rayon en le faisant glisser    *
 
@@ -184,13 +194,17 @@ Si aucune contrainte de rayon n\'est définie, vous pouvez également modifier l
 
 Dans l\'exemple du déplacement, vous voyez qu\'un poids élevé attire la courbe vers le point de contrôle, tandis qu\'un poids très faible modifie la courbe comme si le point de contrôle n\'existait presque pas.
 
-Lorsque vous consultez la [fonction de création](#B-splines_non-uniformes.md) pour les B-splines rationnelles non uniformes, vous constatez qu\'un poids de zéro entraînerait une division par zéro. Par conséquent, vous ne pouvez spécifier que des poids supérieurs à zéro.
+Lorsque vous examinez la [fonction de création](#B-splines_rationnelles.md) pour les B-splines rationnelles non uniformes, vous constatez qu\'un poids de zéro entraînerait une division par zéro. Les poids négatifs sont théoriquement possibles, mais ils ne sont pas pris en charge. Par conséquent, vous ne pouvez spécifier que des poids supérieurs à zéro.
+
+**Remarque    *** lorsque vous faites glisser des points, des nœuds ou des largeurs, les diamètres des cercles indiquant le poids changeront. Cela est dû au fait que le diamètre dépend de la longueur totale de la B-spline pour des raisons de visualisation. Le poids réel n\'est pas modifié.
 
 ### Modification des nœuds 
 
 De nouveaux noeuds peuvent être ajoutés en utilisant le bouton **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width   *24px"> [Insérer un nœud dans une B-spline](Sketcher_BSplineInsertKnot/fr.md)**. {{Version/fr|0.20}}
 
-La suppression des nœuds n\'est pas encore possible, voir la section [Limitations](#Limitations.md).
+Un nœud est supprimé en diminuant son degré à 0 (c\'est-à-dire en appliquant **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width   *24px"> [Diminuer la multiplicité d'un nœud](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)** lorsque son degré est de 1).
+
+La modification de la valeur du paramètre d\'un nœud n\'est pas encore prise en charge.
 
 ### Information sur l\'affichage 
 
@@ -200,7 +214,7 @@ Comme la forme d\'une spline B ne renseigne pas beaucoup sur ses propriétés, F
 | Propriété                  | Bouton de la barre d\'outils                                                                                                                         |
 +++
 | **Degré**                  |                                                                                                                                       |
-|                            | **[<img src=images/Sketcher_BSplineDegree.svg style="width   *16px"> [Sketcher Degré d'une BSpline](Sketcher_BSplineDegree/fr.md)**                                       |
+|                            | **[<img src=images/Sketcher_BSplineDegree.svg style="width   *16px"> [Sketcher Degré d'une B-spline](Sketcher_BSplineDegree/fr.md)**                                      |
 |                            |                                                                                                                                                   |
 +++
 | **Polygone de contrôle**   |                                                                                                                                       |
@@ -222,12 +236,10 @@ Comme la forme d\'une spline B ne renseigne pas beaucoup sur ses propriétés, F
 
 ### Limitations
 
-A l\'heure actuelle (FreeCAD 0.19), il existe quelques limitations lors de l\'utilisation des splines que vous devez connaître    *
+A l\'heure actuelle (FreeCAD 0.20), il existe quelques limitations lors de l\'utilisation des splines que vous devez connaître    *
 
-1.  Vous ne pouvez pas définir de contraintes tangentielles.Dans cet exemple <img alt="" src=images/Sketcher_spline-limit-tangential.png  style="width   *450px;">vous voulez vous assurer que la spline touche la courbe bleue 2 fois tangentiellement. Cela serait utile car la ligne bleue pourrait par exemple être la frontière spatiale de votre dessin.
-2.  Vous ne pouvez pas insérer un nouveau point de contrôle entre deux points de contrôle existants sélectionnés. Il n\'y a pas d\'autre moyen que de redessiner la spline.
-3.  Vous ne pouvez pas supprimer un point de contrôle. Dans ce cas également, vous devez redessiner la spline.
-4.  Vous ne pouvez pas créer une courbe de décalage pour une spline B en utilisant l\'outil [Draft Décalage](Draft_Offset/fr.md).
+1.  Vous ne pouvez pas définir de contraintes tangentielles.Dans cet exemple, vous voulez vous assurer que la spline touche la courbe bleue 2 fois tangentiellement.<img alt="" src=images/Sketcher_spline-limit-tangential.png  style="width   *450px;">Cela serait utile car la ligne bleue pourrait par exemple être la frontière spatiale de votre dessin.
+2.  Vous ne pouvez pas créer une courbe de décalage pour une spline B en utilisant l\'outil [Draft Décalage](Draft_Offset/fr.md).
 
 ## Cas d\'utilisation typiques 
 

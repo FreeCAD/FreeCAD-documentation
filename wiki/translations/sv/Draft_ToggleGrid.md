@@ -15,7 +15,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 1.  Optionally change the [working plane and/or the grid](Draft_SelectPlane.md).
 2.  To invoke **Draft ToggleGrid** do one of the following   *
-    -   Press the **<img src="images/Draft_ToggleGrid.svg" width=16px>** button in the Draft Snap toolbar.
+    -   Press the **<img src="images/Draft_ToggleGrid.svg" width=16px>** button in the Draft snap toolbar.
     -   Press the **<img src="images/Draft_ToggleGrid.svg" width=16px>** button in the [Draft snap widget](Draft_snap_widget.md).
     -   Use the keyboard shortcut   * **G** then **R**. This shortcut cannot be used when a command is active.
 

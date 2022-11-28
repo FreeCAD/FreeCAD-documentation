@@ -9,20 +9,14 @@
 
 </div>
 
+## Описание
 
-<div class="mw-translate-fuzzy">
+Устанавливает текущую позицию/ориентацию выделенного робота как исходную.
 
-#### Описание
+## Применение
 
-Устанавливает текущую позицию/ориентацию выделенного робота как стартовую.
-
-
-</div>
-
-#### Использование
-
-1.  Выделить робота в [древе проекта](Tree_view/ru.md) или внутри [трёхмерного вида](3D_view/ru.md)
-2.  Кликнуть на <img alt="" src=images/Robot_SetHomePos.svg  style="width   *32px;"> или выбрать в верхнем меню **Робот** → **<img src="images/Robot_SetHomePos.svg" width=32px> Установить исходное положение**.
+1.  Выделите робота в [древе проекта](Tree_view/ru.md) или в текущем [трёхмерном виде](3D_view/ru.md)
+2.  Кликните по <img alt="" src=images/Robot_SetHomePos.svg  style="width   *32px;"> или выберите в главном меню пункт **Робот** → **<img src="images/Robot_SetHomePos.svg" width=32px> Сохранить текущее положение как исходное**.
 
 
 <div class="mw-translate-fuzzy">

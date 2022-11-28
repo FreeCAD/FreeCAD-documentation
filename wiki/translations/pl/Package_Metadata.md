@@ -283,6 +283,10 @@ The maximum version of FreeCAD required to use package/element, as a semantic ve
 
 To validate your package.xml file you can enable \"developer mode\" in the Addon Manager   * create a boolean variable called \"developerMode\" in the \"Addons\" parameter group and set it to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**. When the Addon Manager has finished reading the Addons database it will examine all available package.xml files for errors.
 
+## Quick guide 
+
+For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see   * [Add Workbench to Addon_Manager](Add_Workbench_to_Addon_Manager.md).
+
 ## Examples
 
 Note that comments (the text between `&lt;&#33;--` and `--&gt;`) are ignored by the XML parser, and are not a required part of the file format. They are provided here for information purposes and may be omitted from the final package.xml if desired.

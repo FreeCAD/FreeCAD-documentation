@@ -1,41 +1,23 @@
 ---
 - GuiCommand   */de
    Name   *Curves ToConsole
-   Name/de   *Kurven AnKonsole
-   MenuLocation   *Kurven → 
-   Workbenches   *[Kurven](Curves_Workbench/de.md)
-   Shortcut   *Kein
-   SeeAlso   *
+   Name/de   *Curves ZurKonsole
+   MenuLocation   *Misc. → Objects to Console
+   Workbenches   *[Curves](Curves_Workbench/de.md)
 ---
 
 # Curves ToConsole/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das <img alt="" src=images/Curves_ToConsole.svg  style="width   *24px;"> [Kurven AnKonsole](Curves_ToConsole/de.md) bewegt Objekte zur Konsole. Dieses Werkzeug ist Teil der [Externe Arbeitsbereiche](external_workbenches/de.md) namens [Kurven](Curves_Workbench/de.md).
-
-
-</div>
+Das Werkzeug <img alt="" src=images/Curves_ToConsole.svg  style="width   *24px;"> [Curves ZurKonsole](Curves_ToConsole/de.md) bewegt Objekte zur Konsole. Dieses Werkzeug ist Teil des [externen Arbeitsbereichs](external_workbenches/de.md) [Curves](Curves_Workbench/de.md).
 
 ## Verwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wechsle zum <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Kurven](Curves_Workbench/de.md) Arbeitsbereich (Installation von <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) ist erforderlich, falls nicht bereits installiert)
-2.  Rufe den Kurven AnKonsole Befehl auf mehrere Arten auf
-    -   Drücke die <img alt="" src=images/Curves_ToConsole.svg  style="width   *24px;"> Schaltfläche
-    -   Verwende den {{MenuCommand/de|Kurven → 
-        }}
-
-
-</div>
+1.  Zum Arbeitsbereich <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Curves](Curves_Workbench/de.md) wechseln (muss mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden, wenn noch nicht geschehen)
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche <img alt="" src=images/Curves_ToConsole.svg  style="width   *24px;"> drücken.
+    -   Den Menüeintrag **Misc. →  Objects to Console** auswählen.
 
 ## Hinweise
 
@@ -46,13 +28,7 @@ Das <img alt="" src=images/Curves_ToConsole.svg  style="width   *24px;"> [Kurven
 ## Skripten
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Curves Tools navi

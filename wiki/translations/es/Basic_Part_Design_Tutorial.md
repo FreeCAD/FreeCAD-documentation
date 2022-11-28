@@ -97,7 +97,13 @@ Todo el trabajo en Part Design comienza con un [Body](Glossary#Body.md). Luego c
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Una vez que hace clic en Aceptar, FreeCAD cambia automáticamente a [ Sketcher workbench](Sketcher_Workbench.md) y abre el boceto/sketch en modo de edición   *
+
+
+</div>
 
 ![](images/Tut17_sketcherempty.png )
 
@@ -113,7 +119,7 @@ A continuación, deberá usar la herramienta ![ 32px](images/_Sketcher_CreatePol
 
 </div>
 
-*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed.(The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
+*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed. (The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
 
 
 <div class="mw-translate-fuzzy">
@@ -178,7 +184,7 @@ Después de seleccionar la cara, haga clic en el ícono Nuevo boceto en la barra
 ![](images/tut17_slot_unconstrained.png )
 
 1.  Right click to end the External geometry mode
-2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Coinstrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
+2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Constrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
 
 ![](images/tut17_slote_constrained.png )
 

@@ -10,7 +10,7 @@
 ## Atelier Raytracing 
 
 
-**L'[atelier Raytracing](Raytracing_Workbench/fr.md) a été remplacé par le nouvel [https   *//github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
+**L'[atelier Raytracing](Raytracing_Workbench/fr.md) a été remplacé par le nouvel [https   *//github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. L'atelier Render peut être installé via le [Gestionnaire des extensions](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
 
 .
 

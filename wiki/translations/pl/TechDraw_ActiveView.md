@@ -59,10 +59,7 @@ Zobacz również stronę [Obraz](TechDraw_Image/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również   ***
-
-[TechDraw API](TechDraw_API.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Narzędzie Aktywny widok nie jest dostępne dla [makrodefinicji](macros/pl.md) i z konsoli [Python](Python/pl.md). Zamiast tego użyj funkcji [Zapisz zrzut ekranu](Std_ViewScreenShot/pl.md).
 

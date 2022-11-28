@@ -107,7 +107,26 @@ See the FreeCAD forum at [Re   * How to activate openCamLib after compiling it](
 
 ### Mac
 
-(No entry)
+    git clone https   *//github.com/aewallin/opencamlib
+    cd opencamlib
+    mkdir build
+    cd build
+    cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release .. -Wno-dev
+    make -j4
+    make install
+
+How to test? Use FreeCADCmd.
+
+    >>> import area
+    >>> import ocl
+    >>> dir(ocl)
+    ['AdaptivePathDropCutter', 'AdaptivePathDropCutter_base', 'AdaptiveWaterline', 'AdaptiveWaterline_base', 'Arc', 'ArcSpanType', 'BallConeCutter', 'BallCutter', 'BatchDropCutter', 'BatchDropCutter_base', 'BatchPushCutter', 'BatchPushCutter_base', 'Bbox', 'BullConeCutter', 'BullCutter', 'CCPoint', 'CCType', 'CLPoint', 'CompBallCutter', 'CompCylCutter', 'ConeConeCutter', 'ConeCutter', 'CutterLocationSurface', 'CylConeCutter', 'CylCutter', 'Ellipse', 'EllipsePosition', 'Fiber', 'Fiber_base', 'Interval', 'Line', 'LineCLFilter', 'LineCLFilter_base', 'LineSpanType', 'MillingCutter', 'Path', 'PathDropCutter', 'PathDropCutter_base', 'Path_base', 'Point', 'STLReader', 'STLSurf', 'STLSurf_base', 'SpanType', 'Triangle', 'Triangle_base', 'Waterline', 'Waterline_base', 'WeaveVertexType', 'ZigZag', 'ZigZag_base', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'eps', 'epsD', 'epsF', 'version']
+
+If dir(ocl) only shows up following   *
+
+    ['__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__']
+
+then the installation is not okay, for cmake the Release option is very important, when using Debug area and ocl will collide and either library will not load (depending on what what was loaded first).
 
 ## More help 
 

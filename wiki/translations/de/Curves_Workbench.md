@@ -1,33 +1,23 @@
 # Curves Workbench/de
 }
 
-## Einführung
+## Einleitung
 
-<img alt="Symbol Externer Arbeitsbereich Kurven" src=images/Curves_workbench_icon.svg  style="width   *128px;"> {{TOCright}}
+<img alt="Symbol Externer Arbeitsbereich Curves" src=images/Curves_workbench_icon.svg  style="width   *128px;"> {{TOCright}}
 
-Der Arbeitsbereich Kurven ist ein [Externer Arbeitsbereich](external_workbenches/de.md), der auf Python basiert und eine Sammlung von Werkzeugen für NURBS Kurven und Oberflächen enthält. Dieser Arbeitsbereich wurde mit FreeCAD Master und OCC 7.4 entwickelt. Hinweis   * Einige Werkzeuge funktionieren möglicherweise nicht mit früheren Versionen.
+Der Arbeitsbereich Curves (Kurven) ist ein [externer Arbeitsbereich](external_workbenches/de.md), der auf Python basiert und eine Sammlung von Werkzeugen für NURBS-Kurven und Oberflächen enthält. Dieser Arbeitsbereich wurde mit FreeCAD-Master und OCC 7.4 entwickelt. Hinweis   * Einige Werkzeuge funktionieren möglicherweise nicht mit früheren Versionen.
 
 ## Einrichtung
 
-
-<div class="mw-translate-fuzzy">
-
-Lade den Arbeitsbereich Kurven über den <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Erweiterungsmanager](Std_AddonMgr/de.md) herunter {{MenuCommand/de|Werkzeuge → Erweiterungsmanager}}
-
-
-</div>
+Der Arbeitsbereich Curves kann mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) heruntergeladen werden   * {{MenuCommand/de|Werkzeuge → Addon-Manager}}.
 
 ## Referenzen
-
-
-<div class="mw-translate-fuzzy">
 
 -   Entwickler   * \@Chris_G
 -   Github   * <https   *//github.com/tomate44/CurvesWB>
 -   Diskussion   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=22675>
-
-
-</div>
+-   YouTube tutorial using curves workbench   * <https   *//www.youtube.com/watch?v=ZVdbvxmJ3Mo>
+-   Dailymotion tutorial, tide bottle, demoing curves workbench   * <https   *//www.dailymotion.com/video/x6bo9a6>
 
 ## Werkzeuge
 

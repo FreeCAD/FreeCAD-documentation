@@ -51,7 +51,7 @@ Ces solveurs ne sont pas intégrés dans [atelier FEM](FEM_Workbench/fr.md) ce q
 
 DesignSPHysics est un atelier externe intégré à FreeCAD qui fournit une interface graphique à DualSPHysics   * [site principal](https   *//design.sphysics.org/), [dépôt du code](https   *//github.com/dualsphysics/DesignSPHysics), [Projet intéressant   * Simulateur de fluide DesignSPHysics (sujet du forum)](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=20595).
 
-DesignSPHysics peut être installé via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+DesignSPHysics peut être installé via le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ### FastHenry et FasterCap 
 
@@ -61,7 +61,7 @@ FastHenry et FasterCap sont des solveurs de champ de capacitif et de résistance
 
 Voir   * [ElectroMagnetic Workbench (sujet principal du forum)](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=33372), [Electromagnetic Workbench - de nouveau (sujet du forum)](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=31920), [FreeCAD for ElectroMagnetics (sujet du forum)](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=5400), [dépôt du code pour l\'atelier](https   *//github.com/ediloren/EM-Workbench-for-FreeCAD)
 
-L\'atelier EM peut être installé via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
+L\'atelier EM peut être installé via le [Gestionnaire des extensions](Std_AddonMgr/fr.md)
 
 ### fcFEM
 
@@ -78,7 +78,7 @@ Certains des problèmes qui sont censés être résolus par ce solveur incluent
 
 L\'auteur considère que FreeCAD est une bonne plate-forme de prototypage permettant de configurer, de tester et de visualiser rapidement différents problèmes structurels. Il est donc très utile de disposer d\'un solveur intégré et flexible. Voir le fil principal, [fcFEM - FEA from start to finish (sujet principal du forum)](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=33974).
 
-fcFEM est présenté sous la forme d\'une bibliothèque python et d\'une macro. Vous pouvez le télécharger à partir du [dépôt de github](https   *//github.com/HarryvL/fcFEM). Il sera éventuellement disponible à partir du [gestionnaire d\'Addon](Std_AddonMgr/fr.md) ou sera distribué avec FreeCAD lui-même.
+fcFEM est présenté sous la forme d\'une bibliothèque python et d\'une macro. Vous pouvez le télécharger à partir du [dépôt de github](https   *//github.com/HarryvL/fcFEM). Il sera éventuellement disponible à partir du [gestionnaire des extensions](Std_AddonMgr/fr.md) ou sera distribué avec FreeCAD lui-même.
 
 ### OpenFoam
 
@@ -95,7 +95,7 @@ Pour Cfd   * [update on FreeCAD + OpenFOAM fluid dynamic computation (sujet du f
 
 Pour CfdOF   * [Computational Fluid Dynamics (CFD) workbench using OpenFOAM (sujet du forum)](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=21576), [matériel de formation](http   *//opensim.co.za/training.html).
 
-Les deux ateliers peuvent être installés via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), et les deux disposent d\'un espace de discussion dans le [sous-forum CfdOF/CFD](https   *//forum.freecadweb.org/viewforum.php?f=37).
+Les deux ateliers peuvent être installés via le [Gestionnaire des extensions](Std_AddonMgr/fr.md) et disposent d\'un espace de discussion dans le [sous-forum CfdOF/CFD](https   *//forum.freecadweb.org/viewforum.php?f=37).
 
 ## Implémentation en cours 
 

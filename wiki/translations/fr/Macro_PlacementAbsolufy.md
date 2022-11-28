@@ -26,7 +26,7 @@ Pour utiliser la macro, il suffit de l\'exécuter lorsque le document sur lequel
 
 ## Installation
 
-La macro est disponible via [Addon Manager](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où le système utilisateur n\'aurait pas git-python. Bien qu\'elle soit à jour, la dernière version est toujours disponible sur [FreeCAD-macro repository](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/PlacementAbsolufy.FCMacro)
+La macro est disponible via le [gestionnaire des extensions](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où le système utilisateur n\'aurait pas git-python. Bien qu\'elle soit à jour, la dernière version est toujours disponible sur [FreeCAD-macro repository](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/PlacementAbsolufy.FCMacro)
 
 Pour des explications plus détaillées, consultez la page [Comment installer des macros](How_to_install_macros/fr.md).
 

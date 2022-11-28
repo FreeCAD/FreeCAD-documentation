@@ -42,7 +42,7 @@ L\'activation de tous les boutons d\'accrochage est pratique, mais ralentit éga
 ![](images/Exercise_cabin_03.jpg )
 
 -   C\'est tout ce dont nous avons besoin maintenant, nous pouvons donc désactiver le mode de construction. Vérifiez que toute la géométrie de la construction a été placée dans un groupe \"Construction\", ce qui permet de le masquer tout à la fois ou même de le supprimer complètement plus tard.
--   Maintenant, dessinons nos deux morceaux de mur en utilisant l\'outil <img alt="" src=images/Draft_Wire.svg  style="width   *16px;"> [Polyligne](Draft_Wire/fr.md). Assurez-vous que l\'outil <img alt="" src=images/Snap_Intersection.svg  style="width   *16px;"> [Aimantation d\'intersection](Draft_Snap/fr.md) est activé, car nous aurons besoin de nous aimanter aux intersections de nos lignes et rectangles. Dessinez deux fils comme suit, en cliquant sur tous les points de leurs contours. Pour les fermer, cliquez à nouveau sur le premier point, ou appuyez sur le bouton *Fermer*    *
+-   Maintenant, dessinons nos deux morceaux de mur en utilisant l\'outil <img alt="" src=images/Draft_Wire.svg  style="width   *16px;"> [Polyligne](Draft_Wire/fr.md). Assurez-vous que l\'outil <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *16px;"> [Aimantation d\'intersection](Draft_Snap/fr.md) est activé, car nous aurons besoin de nous aimanter aux intersections de nos lignes et rectangles. Dessinez deux fils comme suit, en cliquant sur tous les points de leurs contours. Pour les fermer, cliquez à nouveau sur le premier point, ou appuyez sur le bouton *Fermer*    *
 
 ![](images/Exercise_cabin_04.jpg )
 
@@ -51,7 +51,7 @@ Nous pouvons changer leur couleur grise par défaut en un motif de hachures, en 
 ![](images/Exercise_cabin_05.jpg )
 
 -   Nous pouvons maintenant cacher la géométrie de construction en cliquant avec le bouton droit sur le groupe Construction et en choisissant **Masquer la sélection**.
--   Dessinons maintenant les fenêtres et les portes. Assurez-vous que le filtre d'accrochage <img alt="" src=images/Snap_Midpoint.svg  style="width   *16px;"> [Point Milieu](Draft_Snap/fr.md) est activé et tracez six lignes comme suit    *
+-   Dessinons maintenant les fenêtres et les portes. Assurez-vous que le filtre d'accrochage <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width   *16px;"> [Point Milieu](Draft_Snap/fr.md) est activé et tracez six lignes comme suit    *
 
 ![](images/Exercise_cabin_06.jpg )
 

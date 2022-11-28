@@ -5,9 +5,21 @@
 
 ## Introduzione
 
+
+<div class="mw-translate-fuzzy">
+
 **FCGear** è un [ambiente esterno](external_workbenches/it.md) per la produzione di diversi tipi di ingranaggi e viti senza fine in FreeCAD. La modellazione parametrica consente di modificare in qualsiasi momento le geometrie richieste. Ad esempio, modificando alcuni parametri, l\'ingranaggio evolvente diventa un ingranaggio cilindrico, un ingranaggio elicoidale o un ingranaggio a doppia elica.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Affinché i risultati di FC Gear siano utilizzabili, è necessaria una certa conoscenza di base sui diversi tipi di ingranaggi. Modulo, diametro primitivo e diametro di piede sono termini comuni e dovrebbero quindi essere noti.
+
+
+</div>
 
 In associazione con la stampa 3D, gli utenti domestici hanno ora la possibilità di progettare e produrre ingranaggi e viti senza fine secondo le proprie idee personali e, se necessario, adattarli alle condizioni costruttive.
 
@@ -51,20 +63,13 @@ Dopo l\'installazione, gli strumenti sono disponibili nella barra degli strument
 
 </div>
 
-
-   *   ![](images/Involute-Gear_example.png )
-   *   
-    
-*Da sinistra a destra   * ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Ingranaggio a spirale](FCGear_InvoluteGear/it.md))*
-    
+<img alt="" src=images/Involute-Gear_example.png  style="width   *200px;"> 
+*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
 
 ### Internal involute gear 
 
-   *   ![](images/FCGear_InternalInvoluteGear-01.png )
-   *   
-    
+<img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width   *200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md))*
-    
 
 
 <div class="mw-translate-fuzzy">
@@ -74,12 +79,8 @@ Dopo l\'installazione, gli strumenti sono disponibili nella barra degli strument
 
 </div>
 
-
-   *   ![](images/Involute-Rack_example.png )
-   *   
-    
-*Da sinistra a destra   * ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Cremagliera](FCGear_InvoluteRack/it.md))*
-    
+<img alt="" src=images/Involute-Rack_example.png  style="width   *" height="200px;"> 
+*From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
 
 
 <div class="mw-translate-fuzzy">
@@ -89,26 +90,13 @@ Dopo l\'installazione, gli strumenti sono disponibili nella barra degli strument
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-   *   ![](images/Cycloid-Gear_example_1.png )
-   *   
-    
-*Da sinistra a destra   * ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Ingranaggio cicloidale](FCGear_CycloideGear/it.md))*
-    
-
-
-</div>
+<img alt="" src=images/Cycloid-Gear_example_1.png  style="width   *200px;"> 
+*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear CycloidGear](FCGear_CycloidGear.md))*
 
 ### Cycloid rack 
 
-   *   ![](images/FCGear_CycloidRack-01.png )
-   *   
-    
+<img alt="" src=images/FCGear_CycloidRack-01.png  style="width   *" height="200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](FCGear_CycloidRack.md))*
-    
 
 
 <div class="mw-translate-fuzzy">
@@ -118,33 +106,8 @@ Dopo l\'installazione, gli strumenti sono disponibili nella barra degli strument
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-   *   ![](images/Bevel-Gear_example.png )
-   *   
-    
-*Da sinistra a destra   * ingranaggi cilindrici, denti a spirale (vedere [Ingranaggio conico](FCGear_BevelGear/it.md))*
-    
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Vite senza fine 
-
-
-</div>
-
-
-   *   ![](images/Worm-Gear_example.png )
-   *   
-    
-*Sopra   * vite senza fine (vedere [Vite senza fine](FCGear_WormGear/it.md))*
-    
+<img alt="" src=images/Bevel-Gear_example.png  style="width   *150px;"> 
+*From left to right   * Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
 
 
 <div class="mw-translate-fuzzy">
@@ -154,27 +117,34 @@ Dopo l\'installazione, gli strumenti sono disponibili nella barra degli strument
 
 </div>
 
-
-   *   ![](images/Crown-Gear_example.png )
-   *   
-    
-*Sopra   * corona dentata (vedere [Corona dentata](FCGear_CrownGear/it.md))*
-    
+<img alt="" src=images/Crown-Gear_example.png  style="width   *150px;"> 
+*Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
 
 
 <div class="mw-translate-fuzzy">
 
-### Ingranaggio di distribuzione e Ingranaggio a lanterna 
+### Vite senza fine 
 
 
 </div>
 
+<img alt="" src=images/Worm-Gear_example.png  style="width   *150px;"> 
+*Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
 
-   *   ![](images/Timing+Latern-gear_example.png )
-   *   
-    
-*Da sinistra a destra   * ingranaggio di distribuzione e ingranaggio a lanterna (vedere [Ingranaggio di distribuzione](FCGear_TimingGear/it.md) o [Ingranaggio a lanterna](FCGear_LanternGear/it.md))*
-    
+### Timing gear 
+
+<img alt="" src=images/Timing-Gear_example.png  style="width   *150px;"> 
+*Timing gearing (see [FCGear TimingGear](FCGear_TimingGear.md))*
+
+### Lantern gear 
+
+<img alt="" src=images/Lantern-Gear_example.png  style="width   *150px;"> 
+*Lantern gearing (see [FCGear LanternGear](FCGear_LanternGear.md))*
+
+### Hypocycloid gear 
+
+<img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width   *120px;"> 
+*Hypocycloid gearing (see [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md))*
 
 ## Riferimenti
 

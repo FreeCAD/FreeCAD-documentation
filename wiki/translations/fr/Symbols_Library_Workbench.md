@@ -22,7 +22,7 @@ Il est maintenu par la communauté des utilisateurs de FreeCAD et ne fait pas pa
 
 ### Installation Automatique 
 
-Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ### Depuis GitHub 
 

@@ -35,7 +35,7 @@ Il existe une autre table des matières pour le [Système d\'aide en ligne de Fr
         -   [Exportation vers des trancheuses](Manual   *Preparing_models_for_3D_printing/fr#Exportation_vers_des_trancheuses.md)
         -   [Conversion d\'objets en mailles](Manual   *Preparing_models_for_3D_printing/fr#Conversion_d.27objets_en_mailles.md)
         -   [Utilisation de Slic3r](Manual   *Preparing_models_for_3D_printing/fr#Utilisation_de_Slic3r.md)
-        -   [Utilisation du greffon (addon) Cura](Manual   *Preparing_models_for_3D_printing/fr#Utilisation_du_greffon_.28addon.29_Cura.md)
+        -   [Utilisation de l\'extension Cura](Manual   *Preparing_models_for_3D_printing/fr#Utilisation_du_greffon_.28addon.29_Cura.md)
         -   [Génération du G-code](Manual   *Preparing_models_for_3D_printing/fr#G.C3.A9n.C3.A9ration_du_G-code.md)
     -   [Génération de dessins 2D](Manual   *Generating_2D_drawings/fr.md)
     -   [Modélisation BIM](Manual   *BIM_modeling/fr.md)

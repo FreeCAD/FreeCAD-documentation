@@ -1,21 +1,15 @@
 # Viewprovider/it
 ## Introduzione
 
+Le [Viewproviders](Viewprovider/it.md) sono classi che definiscono il modo in cui gli oggetti appariranno nella [Vista ad albero](tree_view/it.md) e nella [Vista 3D](3D_view/it.md), e come interagiranno con certe azioni grafiche come la [selezione](Selection_methods/it.md).
 
-<div class="mw-translate-fuzzy">
+Completano gli [scripted objects](scripted_objects/it.md). Mentre la classe base dell\'oggetto con script definisce le suoe **data** [proprietà](property/it.md), il viewprovider definisce le **view** [proprietà](property/it.md). Queste proprietà della vista non sono informazioni essenziali dell\'oggetto, poiché indicano solo informazioni superficiali come larghezza della linea, colore della linea, colore del viso, ecc. In una sessione solo terminale, il viewprovider non viene caricato perché non ci sarà alcuna interfaccia per manipolare quelli visibili proprietà.
 
-Le **Viewprovider** sono delle classi che definiscono il modo in cui gli oggetti appariranno nella [vista ad albero](tree_view/it.md) e nella [vista 3D](3D_view/it.md) e come interagiranno con determinate azioni grafiche come la [selezione](Selection_methods/it.md).
+Come per le proprietà dei dati, le proprietà della vista sono accessibili dall\'[editor di proprietà](property_editor/it.md).
 
+## View providers di Python 
 
-</div>
-
-They complement the [scripted objects](scripted_objects.md). While the base class of the scripted object defines its **data** [properties](property.md), the viewprovider defines it **view** [properties](property.md). These view properties are not essential information of the object, as they only indicate superficial information like line width, line color, face color, etc. In a terminal only session, the viewprovider is not loaded because there will be no interface to manipulate those visible properties.
-
-Like with data properties, view properties are accessible from the [property editor](property_editor.md).
-
-## Python view providers 
-
-The viewproviders classes usually include `ViewProvider` in their name. They are assigned on the `ViewObject` attribute of the base object.
+Le classi viewprovider di solito includono `ViewProvider` nel loro nome. Sono assegnati sull\'attributo `ViewObject` dell\'oggetto di base.
 
 In this example, we define two properties for the viewprovider, only if the properties don\'t already exist, and assign their default values. We also define the `onChanged` method that runs every time a property changes. We need to test the property by name, and then we will call one of two methods that will do the actual work of updating the pattern or setting its size. 
 ```python

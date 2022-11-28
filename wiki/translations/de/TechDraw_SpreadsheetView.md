@@ -1,24 +1,24 @@
 ---
 - GuiCommand   */de
    Name   *TechDraw SpreadsheetView
-   Name/de   *TechDraw KalkulationstabelleAnsicht
-   MenuLocation   *TechDraw → Einfügen Kalkulationstabelle Ansicht
-   Workbenches   *[TechDraw](TechDraw_Workbench/de.md), [Kalkulationstabelle Arbeitsbereich](Spreadsheet_Workbench/de.md)
+   Name/de   *TechDraw Tabellenansicht
+   MenuLocation   *TechDraw → Tabellenansicht einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md), [Spreadsheet](Spreadsheet_Workbench/de.md)
 ---
 
 # TechDraw SpreadsheetView/de
 
 ## Beschreibung
 
-Dieses Werkzeug ermöglicht dir eine [Kalkulationstabellen](Spreadsheet_Workbench/de.md) Ansicht auf einer gewählten [Seite](TechDraw_Workbench/de.md) zu platzieren.
+Dieses Werkzeug ermöglicht es, eine ausgewählte [Kalkulationstabelle](Spreadsheet_Workbench/de.md) in einer Tabellenansicht auf einem [Zeichnungsblatt](TechDraw_Workbench/de.md) darzustellen.
 
 ![](images/TechDraw_Spreadsheetview.png ) 
-*In das TechDraw Zeichnungsblatt eingefügtes Rechenblattelement*
+*Darstellung einer eingefügten Kalkulationstabelle (Spreadsheet-Objekt) als Tabellenansicht (Sheet-Objekt) auf einem TechDraw-Zeichnungsblatt*
 
 ## Anwendung
 
-1.  Wähle ein Tabellenblatt in der [Bauamsicht](Tree_view/de.md) aus.
-2.  Drücke die **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> [Einfügen Kalkulationstabelle Ansicht](TechDraw_SpreadsheetView/de.md)**-Schaltfläche
+1.  Ein Tabellenblatt in der [Bauamsicht](Tree_view/de.md) auswählen.
+2.  Die Schaltfläche **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> [Tabellenansicht einfügen](TechDraw_SpreadsheetView/de.md)** drücken
 
 ## Eigenschaften
 
@@ -29,29 +29,23 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 {{TitleProperty|Spreadsheet}}
 
+-    **Source|Link**(Quelle)   * Das zum Zeichungsblatt hinzuzufügende Tabellenblatt.
 
-<div class="mw-translate-fuzzy">
+-    **Cell Start|String**(Zellanfang)   * Die linke obere Zelle des Zellbereichs, der dieser Ansicht hinzugefügt werden soll.
 
--    **Quelle**   * Das der Seite hinzuzufügende Arbeitsblatt
+-    **Cell End|String**(Zellenende)   * Die rechte untere Zelle des Zellbereichs, der in diese Ansicht aufgenommen werden soll.
 
--    **Zellanfang**   * Die linke obere Zelle des Zellbereichs, der in diese Ansicht aufgenommen werden soll
+-    **Font|Font**(Schriftart)   * Der Name der für Texte verwendeten Schriftart.
 
--    **Zellenende**   * Die Zelle unten rechts des Zellbereichs, der in diese Ansicht aufgenommen werden soll
+-    **Text Color|Color**(Farbe)   * Die Farbe von Linien und Texten, denen in der Kalkulationstabelle kein Farbe zugewiesen wurde.
 
--    **Schriftart**   * Der Name der für Texte verwendeten Schriftart
+-    **Text Size|Float**(Schriftgröße)   * Die Schriftgröße von Texten.
 
--    **Farbe**   * Die Farbe von Linien und Texten, die keine in der Kalkulationstabelle angegebene Farbe haben
-
--    **Schriftgröße**   * Die Schriftgröße von Texten
-
--    **Linienbreite**   * Die Breite der Zellränder
-
-
-</div>
+-    **Line Width|Float**(Strichstärke)   * Die Breite der Zellränder.
 
 ## Hinweise
 
--   In {{VersionMinus|0.19}} some characters in spreadsheet cells will cause errors when displayed in a Spreadsheet View. These characters have to be XML encoded. Currently known characters are   * {{Incode|&}} (replace with {{Incode|&amp;amp;}}) and {{Incode|&lt;}} (replace with {{Incode|&amp;lt;}}). See also this [discussion](https   *//forum.freecadweb.org/viewtopic.php?p=629853#p629885) in the forum.
+-   In der {{VersionMinus/de|0.19}} erzeugen einige Zeichen in Tabellenzellen Fehler, wenn sie in einer Tabellenansicht dargestellt werden. Diese Zeichen müssen XML-kodiert werden. Bisher bekannte Zeichen sind   * {{Incode|&}} (ersetz durch {{Incode|&amp;amp;}}) und {{Incode|&lt;}} (ersetz durch {{Incode|&amp;lt;}}). Siehe auch diese [Diskussion](https   *//forum.freecadweb.org/viewtopic.php?p=629853#p629885) (engl.) im Forum.
 
 
 

@@ -27,14 +27,24 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
   <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width   *384px;">   Die Darstellungsart von [Messergebnissen](Part_Workbench/de#Messung.md), die in den Arbeitsbereichen [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md) erstellt wurden, können jetzt in den [Einstellungen](PartDesign_Preferences/de#Measure.md) angepasst werden. [Pull request #7148](https   *//github.com/FreeCAD/FreeCAD/pull/7148)
    
 
+   
+  <img alt="" src=images/DlgDisplayProperties_relnotes_1.0.png  style="width   *200px;">   Der Aufgabenbereich [Std Darstellung](Std_SetAppearance/de.md) (Anzeigeeigenschaften) enthält jetzt auch eine Schaltfläche zum einstellen der Eigenschaft Point Color (Punktfarbe). [Pull request #7708](https   *//github.com/FreeCAD/FreeCAD/pull/7708)
+   
+
+   
+  <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width   *300px;">   Das Auswahlfeld für Arbeitsbereiche kann jetzt wahlweise in die Menüleiste gelegt werden, anstatt im Bereich der Symbolleisten. [Pull request #7679](https   *//github.com/FreeCAD/FreeCAD/pull/7679)
+   
+
 ### Weitere Verbesserungen der Benutzeroberfläche 
 
--   It is now possible to set a default transparency for new [Part](Part_Module.md) or [PartDesign](PartDesign_Workbench.md) objects in the [Preferences](PartDesign_Preferences.md). [Pull request #7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103)
--   A button has been added to switch the colors of the [3D view](3D_view.md) background gradient in the [Preferences](Preferences_Editor#Colors.md). [Pull request #7155](https   *//github.com/FreeCAD/FreeCAD/pull/7155)
--   Commands to [store](Std_StoreWorkingView.md) and [recall](Std_RecallWorkingView.md) a temporary working view have been added. [Pull request #7525](https   *//github.com/FreeCAD/FreeCAD/pull/7525)
--   Value changes with the mouse wheel in \'input fields\' (a widget type used to enter values in task panels, for example by [Draft Line](Draft_Line.md)) are disabled if the widget doesn\'t have the focus and the [ComboBoxWheelEventFilter](Fine-tuning.md) switch is enabled. This prevents unwanted value changes while scrolling, as already was the case for spin and combo boxes. [request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561%7CPull)
--   The toolbar button for [Edit Mode](Std_UserEditMode.md) has been removed. [Pull request #7570](https   *//github.com/FreeCAD/FreeCAD/pull/7570)
--   The toolbar buttons for [Print](Std_Print.md), [Copy](Std_Copy.md), [Paste](Std_Paste.md) and [Cut](Std_Cut.md) have been removed. [Pull request #7571](https   *//github.com/FreeCAD/FreeCAD/pull/7571) and [commit ea9a04e](https   *//github.com/FreeCAD/FreeCAD/commit/ea9a04e)
+-   Es ist jetzt möglich, eine Standardeinstellung für die Transparenz neu erstellter [Part-](Part_Module/de.md) oder [PartDesign-](PartDesign_Workbench/de.md) Objekte in den [Einstellungen](PartDesign_Preferences/de.md) festzulegen. [Pull request #7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103)
+-   Die Schaltfläche für den <img alt="" src=images/Std_UserEditModeDefault.svg  style="width   *24px;"> [Bearbeitungsmodus](Std_UserEditMode/de.md) wurde aus der Standard-Symbolleiste entfernt. Sie kann erneut hinzugefügt werden, indem man eine eigene Symbolleiste [anpasst](Std_DlgCustomize/de.md).[Pull request #7570](https   *//github.com/FreeCAD/FreeCAD/pull/7570)
+-   Die Schaltflächen für <img alt="" src=images/Std_Print.svg  style="width   *24px;"> [Drucken](Std_Print/de.md), <img alt="" src=images/Std_Copy.svg  style="width   *24px;"> [Kopieren](Std_Copy/de.md), <img alt="" src=images/Std_Paste.svg  style="width   *24px;"> [Einfügen](Std_Paste/de.md) und <img alt="" src=images/Std_Cut.svg  style="width   *24px;"> [Ausschneiden](Std_Cut/de.md) wurden aus der Standard-Symbolleiste entfernt. Sie können erneut hinzugefügt werden, indem man eine eigene Symbolleiste [anpasst](Std_DlgCustomize/de.md).[Pull request #7571](https   *//github.com/FreeCAD/FreeCAD/pull/7571) und [commit ea9a04e](https   *//github.com/FreeCAD/FreeCAD/commit/ea9a04e)
+-   Befehle zum [Speichern](Std_StoreWorkingView/de.md) und [Abrufen](Std_RecallWorkingView/de.md) temporärer Arbeitsansichten wurden hinzugefügt. [Pull request #7525](https   *//github.com/FreeCAD/FreeCAD/pull/7525)
+-   Das Ändern der Werte mit dem Mausrad in Eingabefeldern (eine Widget-Art, die verwendet wird, um Werte im Aufgabenbereich einzugeben, z.B. von [Draft Linie](Draft_Line/de.md)) ist deaktiviert, wenn der Fokus nicht auf dem Widget liegt und der Schalter [ComboBoxWheelEventFilter](Fine-tuning.md) aktiviert ist. Dies verhindert ungewollte Wertveränderungen während des Scrollens, wie schon bei Spin- und Combo-Boxen. [Pull request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561)
+-   Alle Transparenzeinstellungen verwenden jetzt einheitlich eine Schrittweite von 5% für Spin-Buttons   * Ein Klick auf die Schaltfläche in einem Dialog oder dem [Eigenschafteneditor](Property_editor/de.md) ändert die Transparenz um 5%. Wird die Schaltfläche gedrückt gehalten, werden mehrere 5%-Schritte auf einmal ausgeführt. [Pull request #7723](https   *//github.com/FreeCAD/FreeCAD/pull/7723)
+-   Eine Schaltfläche zum wechseln der Farben des Hintergrundverlaufs der [3D-Ansicht](3D_view/de.md) wurde im [Voreinstellungseditor](Preferences_Editor/de#Farben.md) hinzugefügt. [Pull request #7155](https   *//github.com/FreeCAD/FreeCAD/pull/7155)
+-   Das Ausgabefenster (Output window) wurde in ??? (Report view) geändert, zur Vereinheitlichung (mit) der Benutzerschnittstelle (UI). [Pull Request #7739](https   *//github.com/FreeCAD/FreeCAD/pull/7739)
 
 ## Kernsystem und API 
 
@@ -50,8 +60,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 <div class="mw-collapsible-content">
 
--   *BSplineSurfacePy   *   *scaleKnotsToBounds*   * Scales the U and V knots lists to fit the specified bounds. [Pull request #7258](https   *//github.com/FreeCAD/FreeCAD/pull/7258) and [Pull request #7385](https   *//github.com/FreeCAD/FreeCAD/pull/7385)
--   *BSplineCurvePy   *   *scaleKnotsToBounds*   * Scales the knots list to fit the specified bounds. [Pull request #7385](https   *//github.com/FreeCAD/FreeCAD/pull/7385)
+-   *BSplineSurfacePy   *   *scaleKnotsToBounds*   * Skaliert die Listen der U- und V-Knoten, um sie in die vorgegebenen Grenzen einzupassen. [Pull request #7258](https   *//github.com/FreeCAD/FreeCAD/pull/7258) und [Pull request #7385](https   *//github.com/FreeCAD/FreeCAD/pull/7385)
+-   *BSplineCurvePy   *   *scaleKnotsToBounds*   * Skaliert die Knotenliste, um sie in die vorgegebenen Grenzen einzupassen. [Pull request #7385](https   *//github.com/FreeCAD/FreeCAD/pull/7385)
 
 -   *ShapeFix_EdgeConnectPy*   * Root class for fixing operations. [commit 4d4adb93](https   *//github.com/FreeCAD/FreeCAD/commit/4d4adb93)
 -   *ShapeFix_EdgePy*   * Fixing invalid edge. [commit 4089cbfb](https   *//github.com/FreeCAD/FreeCAD/commit/4089cbfb)
@@ -76,8 +86,8 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 #### Entfernte Python API 
 
--   *FreeCAD.EndingAdd*   * replaced by *FreeCAD.addImportType*. [Pull request #7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
--   *FreeCAD.EndingGet*   * replaced by *FreeCAD.getImportType*. [Pull request #7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
+-   *FreeCAD.EndingAdd*   * Ersetzt durch *FreeCAD.addImportType*. [Pull request #7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
+-   *FreeCAD.EndingGet*   * Ersetzt durch *FreeCAD.getImportType*. [Pull request #7167](https   *//github.com/FreeCAD/FreeCAD/pull/7167)
 
 
 </div>
@@ -88,7 +98,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ### Weitere Arch-Verbesserungen 
 
--   [Profile](Arch_Profile.md) objects now support modification of the profile type after creation. [Pull request #7217](https   *//github.com/FreeCAD/FreeCAD/pull/7217)
+-   [Profile](Arch_Profile/de.md)-Objekte unterstützen jetzt die Änderung der Profilart nach der Erstellung. [Pull request #7217](https   *//github.com/FreeCAD/FreeCAD/pull/7217)
 
 ## Arbeitsbereich Draft 
 
@@ -98,8 +108,9 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ### Weitere Draft-Verbesserungen 
 
--   Several [Draft PathArray](Draft_PathArray.md) related issues have been fixed. [Pull request #7506](https   *//github.com/FreeCAD/FreeCAD/pull/7506)
+-   Several [Draft PathArray](Draft_PathArray.md) related issues have been fixed. [Pull request #7506](https   *//github.com/FreeCAD/FreeCAD/pull/7506) and [Pull request #7662](https   *//github.com/FreeCAD/FreeCAD/pull/7662)
 -   The [Draft Edit](Draft_Edit.md) command has received several improvements. For [wires](Draft_Wire.md), [B-splines](Draft_BSpline.md) and [Bézier curves](Draft_BezCurve.md) a Close/Open option has been added to the edge context menu. For B-splines and Bézier curves a Reverse option has been added to the same menu as well. The task panels have been cleaned up. [Pull request #7527](https   *//github.com/FreeCAD/FreeCAD/pull/7527) and [Pull request #7541](https   *//github.com/FreeCAD/FreeCAD/pull/7541)
+-   The [Draft Snap](Draft_Snap.md) toolbar was changed to a standard toolbar. Keyboard shortcuts can now be assigned to snaps. But using them during a command only works if none of the input boxes in the task panel has the focus as they \'catch\' the so-called in-command shortcuts. [Pull request #7656](https   *//github.com/FreeCAD/FreeCAD/pull/7656)
 
 ## Arbeitsbereich FEM 
 
@@ -113,6 +124,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 -   The <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *24px;"> [body heat source constraint](FEM_ConstraintBodyHeatSource.md) now has a task panel and it is possible to set the heat for several bodies or to use several constraints for different bodies in one analysis. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
 -   It is now possible to open (and this way visualize) \*.pvtu files (partitioned VTK unstructured grid data). A \*.pvtu file is also the result of an [Elmer](FEM_SolverElmer.md) simulation, when more than one CPU core was used. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio has been added to the VTK result pipeline. It gives an indication of ductile rupture for materials with a \"MaterialMechanicalNonlinear\" object. [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *24px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md) enables to define the scale of deformed mesh. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=71936) and [Pull request #7715](https   *//github.com/FreeCAD/FreeCAD/pull/7715)
 
 ## Export
 
@@ -120,7 +132,7 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 
 ### Weitere Mesh-Verbesserungen 
 
--   Support to add transparencies to a mesh. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=72531) and [Commit f88305e](https   *//github.com/FreeCAD/FreeCAD/commit/f88305e)
+-   Unterstützung für das Hinzufügen von Transparenzen zu einem Netzobjekt. [Forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=22&t=72531) und [Commit f88305e](https   *//github.com/FreeCAD/FreeCAD/commit/f88305e)
 
 ## Arbeitsbereich OpenSCAD 
 
@@ -131,13 +143,15 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 ## Arbeitsbereich PartDesign 
 
    
-  <img alt="" src=images/PD_Counterdrill_relnotes_1.0.png  style="width   *384px;">A counterdrill hole.   The [Hole](PartDesign_Hole.md) dialog supports the screw head type *Counterdrill*. [Pull request #7562](https   *//github.com/FreeCAD/FreeCAD/pull/7562)
-                                                                                                                            
+  <img alt="" src=images/PD_Counterdrill_relnotes_1.0.png  style="width   *384px;">Loch mit Senkbohrung.   Der Dialog [Bohrung](PartDesign_Hole/de.md) unterstützt den Bohrlochtyp *Senkbohrung* (Counterdrill). [Pull request #7562](https   *//github.com/FreeCAD/FreeCAD/pull/7562)
+                                                                                                                             
    
 
 ### Weitere PartDesign-Verbesserungen 
 
--   In the [Hole](PartDesign_Hole.md) dialog, the deprecated screw head types (cheese head, cap screw etc.) have been removed. They were deprecated since FreeCAD 0.19. Holes using these types are transformed to custom countersinks/counterbore holes with the diameter and depth used by the types. [Pull request #7654](https   *//github.com/FreeCAD/FreeCAD/pull/7654)
+-   Im Dialog [Bohrung](PartDesign_Hole/de.md) wurden die veralteten Schraubenkopfarten entfernt (cheese head, cap screw etc.). Sie sind seit FreeCAD 0.19 veraltet. Bohrungen die diese Arten verwenden werden in benutzerdefinierte Bohrungen mit Kegelsenkung bzw. Zylindersenkung umgewandelt und übernehmen dabei die Werte für Durchmesser und Tiefe. [Pull request #7654](https   *//github.com/FreeCAD/FreeCAD/pull/7654)
+-   Der Befehl [SkizzeÜberprüfen](Sketcher_ValidateSketch/de.md) wurde der Helper-Symbolleiste hinzugefügt. [Pull request #7700](https   *//github.com/FreeCAD/FreeCAD/pull/7700)
+-   Die unnützen Befehle [SkizzeVerlassen](Sketcher_LeaveSketch/de.md) und [SkizzeAnzeigen](Sketcher_ViewSketch/de.md) wurden aus dem Menü entfernt. Die Befehle [SkizzeBearbeiten](Sketcher_EditSketch/de.md), [SkizzenZusammenführen](Sketcher_MergeSketches/de.md) und [Skizze spiegeln](Sketcher_MirrorSketch/de.md) wurden dem Menü hinzugefügt. [Pull request #7700](https   *//github.com/FreeCAD/FreeCAD/pull/7700)
 
 ## Arbeitsbereich Pfad 
 
@@ -152,23 +166,35 @@ Platzhalter für ein auffälliges Bild, das von den Admins im [user showcases fo
 ## Arbeitsbereich Sketcher 
 
    
-  ![](images/sketcher-move-piece_relnotes_1.0.gif )   Ziehen an einem B-Spline bewegt jetzt nur den Teil zwischen den (angrenzenden) Knoten. [Pull request #7110](https   *//github.com/FreeCAD/FreeCAD/pull/7110)
-                                                                                     
+  <img alt="" src=images/Constrain_B-spline_knots_relnotes_1.0.gif  style="width   *384px;">Ziehen von B-Spline-Knoten.Bild anklicken, um die Animation anzusehen.   B-Spline-Knoten können jetzt herumgezogen und durch Randbedingungen bestimmt werden, wie jeder andere Skizzenpunkt auch. [Pull request #7484](https   *//github.com/FreeCAD/FreeCAD/pull/7484)
+                                                                                                                                                                                                              
    
 
    
-  ![](images/Sketcher_BackEdit_relnotes_1.0.gif )   Possibility to seamlessly edit sketches from the front or back. When working from the back, vertices (and all geometries and constraints) are equally selectable and the section view is switched automatically. [Pull request #7417](https   *//github.com/FreeCAD/FreeCAD/pull/7417)
-                                                                                 
+  <img alt="" src=images/sketcher-move-piece_relnotes_1.0.gif  style="width   *384px;">Ziehen eines B-Splines.Bild anklicken, wenn die Animation nicht automatisch startet.   Ziehen an einem B-Spline bewegt jetzt nur den Teil zwischen den (angrenzenden) Knoten. [Pull request #7110](https   *//github.com/FreeCAD/FreeCAD/pull/7110)
+                                                                                                                                                                                                                  
+   
+
+   
+  <img alt="" src=images/Sketcher_BackEdit_relnotes_1.0.gif  style="width   *384px;">Bild anklicken, um die Animation anzusehen.   Möglichkeit Skizzen ohne Unterbrechung von der Vorder- oder Rückseite her zu bearbeiten. Arbeitet man von der Rückseite aus, sind Punkte (und alle Geometrien und Randbedingungen) gleichermaßen auszahlbar und die Schnittansicht wird automatisch umgestellt. [Pull request #7417](https   *//github.com/FreeCAD/FreeCAD/pull/7417)
+                                                                                                                                                       
+   
+
+   
+  <img alt="" src=images/Sketcher_Element_Widget_relnotes_1.0.gif  style="width   *384px;">Bild anklicken, um die Animation anzusehen.   Das Element-Widget wurde überarbeitet, um die Benutzerschnittstelle (UI) zu vereinfachen und eine einfachere Auswahl der unterschiedlichen Bestandteile jeder Geometrie zu ermöglichen   * Kante, Startpunkt, Endpunkt und Mittelpunkt. [Pull request #7567](https   *//github.com/FreeCAD/FreeCAD/pull/7567)
+                                                                                                                                                                   
    
 
 ### Weitere Sketcher-Verbesserungen 
 
 -   The toolbar button for [Constrain refraction (Snell\'s law)](Sketcher_ConstrainSnellsLaw.md) has been removed. [Commit ef62fc3](https   *//github.com/FreeCAD/FreeCAD/commit/ef62fc3)
+-   The [Dimensional Constraints](Sketcher_Workbench#Dimensional_constraints.md) and Quantity Spin Boxes now support the same math as [Expressions](Expressions.md) (Evaluated in place). [Pull Request #7124](https   *//github.com/FreeCAD/FreeCAD/pull/7124)
 -   The toolbar buttons for [Select redundant constraints](Sketcher_SelectRedundantConstraints.md) and [Select conflicting constraints](Sketcher_SelectConflictingConstraints.md) have been removed. [Pull request #7568](https   *//github.com/FreeCAD/FreeCAD/pull/7568)
 -   The toolbar button for [Stop operation](Sketcher_StopOperation.md) has been removed. [Pull request #7569](https   *//github.com/FreeCAD/FreeCAD/pull/7569)
 -   The \'Edit controls\' section in the Sketcher dialog has been made optional. [Pull request #7572](https   *//github.com/FreeCAD/FreeCAD/pull/7572)
 -   The toolbar button for [Select unconstrained DoF](Sketcher_SelectElementsWithDoFs.md) has been removed. [Pull request #7603](https   *//github.com/FreeCAD/FreeCAD/pull/7603)
--   The Element widget has been reworked to simplify the UI and enable simpler selection of the different parts of each geometry   * Edge, start point, end point and mid point. [Pull request #7567](https   *//github.com/FreeCAD/FreeCAD/pull/7567)
+-   The Sketcher toolbar has been split in two   * \'Sketcher-edit-mode\' and \'Sketcher\' (i.e. \'not edit mode\'). The Sketcher toolbars that are only for edit-mode are hidden in non-edit-mode, and those only for non-edit-mode are hidden in edit-mode. The Structure toolbar is also hidden in Sketcher. [Pull request #7655](https   *//github.com/FreeCAD/FreeCAD/pull/7655)
+-   [Coincident constraint](Sketcher_ConstrainCoincident.md) can now act as a concentric constraint when selecting 2 or more circles, arcs, ellipses or arcs of ellipses. [Pull request #7703](https   *//github.com/FreeCAD/FreeCAD/pull/7703)
 
 ## Arbeitsbereich Spreadsheet 
 
@@ -222,11 +248,11 @@ The supported operating systems are   *
 -   Linux Ubuntu Focal Fossa (20.04) and newer
 -   MacOS   * 10.12 Sierra or newer
 
-## Known Limitations 
+### Bekannte Einschränkungen 
 
 ### 32bit Windows 
 
-Since FreeCAD 0.19 we no longer officially support 32bit Windows. FreeCAD might work on these systems, but no support is given.
+Seit FreeCAD 0.19 wird 32bit Windows nicht mehr offiziell unterstützt. FreeCAD kann auf solchen Systemen funktionieren, es wird aber keine Hilfestellung (mehr) dazu geben.
 
 ### Remote Desktop under Windows 
 

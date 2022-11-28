@@ -22,21 +22,21 @@ Begin by adding a custom repository. Go to **Edit → Preferences → Addon mana
 
  <img alt="" src=images/Preferences_AM_addrepo.png  style="width   *400px;"> 
 
-## Custom repository dialog 
+### Custom repository dialog 
 
 Enter the URL of the github repository and the branch.
 
  ![](images/Preferences_AM_customrepo.png ) 
 
-Click **OK** when complete.
-
-## Preferences with custom repositories added 
-
- <img alt="" src=images/Preferences_AM_after.png  style="width   *400px;"> 
-
 In this example I have added   *
 
-<https   *//github.com/macdroid53/ZolkoBase.git>
+<https   *//github.com/macdroid53/ZolkoBase>
+
+Click **OK** when complete.
+
+### Preferences with custom repository added 
+
+ <img alt="" src=images/Preferences_AM_after.png  style="width   *400px;"> 
 
 Click **OK** when complete.
 

@@ -241,7 +241,7 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Text Font|Font**   * specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial   *Bold}}. If the given font is not found on the system, a default font is used instead.
 
--    **Font Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Text Size|Length**   * specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
 
 ## Scripting
 

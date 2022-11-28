@@ -9,11 +9,11 @@
 
 </div>
 
-## Description
+## Описание
 
 Creates a compound out of some single trajectories.
 
-## Usage
+## Применение
 
 1.  Click on the <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width   *24px;"> tool or use the 
 **Robot → TrajectoryCompound**
@@ -22,7 +22,7 @@ Creates a compound out of some single trajectories.
 4.  Select Trajectories/Edge2Trac/DressUp-objects in the [Tree view](Tree_view.md)
 5.  Switch back to [Tasks panel](Task_panel.md) and click on **OK** to finish selection
 
-## Notes
+## Примечания
 
 
 

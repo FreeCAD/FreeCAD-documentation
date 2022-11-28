@@ -35,12 +35,24 @@ So kann eine Kurve, mit der du zwei Punkte tangential zu einem Bezugspunkt verbi
 
 ### Herleitung
 
+
+<div class="mw-translate-fuzzy">
+
 Bézierkurven sind Polynome zur Beschreibung der Verbindung zwischen 2 Punkten. Das einfachste Polynom, das 2 Punkte verbindet, ist eine Gerade ($A*x^1+B$), daher sind auch lineare Bézierkurven linear   *
+
+
+</div>
 
 ![](images/Bezier_linear_anim.gif ) 
 *Animation 1   * Lineare Bézierkurve.*
 
+
+<div class="mw-translate-fuzzy">
+
 Ein Polynom wird jedoch erst dann nützlich, wenn wir es kontrollieren können. Es sollte also einen Punkt zwischen den beiden Endpunkten geben, der es uns erlaubt zu definieren, wie die Endpunkte verbunden sind. Wie im obigen Beispiel, Option 3, ist die Kurve hilfreich, wenn sie tangential zu Linien beginnt und endet, die die Endpunkte kreuzen. Und das ist ein Hauptmerkmal von Bézierkurven. Fügen wir also einen Kontrollpunkt zwischen den 2 Endpunkten ein. Die Kurve beginnt tangential zu diesem Kontrollpunkt, d. h. sie verläuft tangential zu der Linie, die wir zwischen dem Startpunkt und dem Kontrollpunkt ziehen können. Wenn man vom Endpunkt aus rückwärts geht, verläuft die Kurve ebenfalls tangential zu der Linie, die wir zwischen dem Kontrollpunkt und dem Endpunkt zeichnen können. Animation 2 zeigt, wie eine solche Kurve aussieht.
+
+
+</div>
 
 ![](images/Bezier_quadratic_anim.gif ) 
 *Animation 2   * Quadratische Bézierkurve. P1 ist hierbei der Kontrollpunkt.*
@@ -58,6 +70,20 @@ Um die Frage zu beantworten   * Die Lösung mit dem tangentialen Ende in y-Richt
 
 <img alt="" src=images/B-splines_Motivation-cubic-bezier.png  style="width   *450px;">
 
+### Regeln
+
+
+<div class="mw-translate-fuzzy">
+
+Im obigen Text sind dir vielleicht schon einige \"Regeln\" für Bézierkurven aufgefallen   *
+
+-   Der Polynomgrad ist auch der Grad der Kurven.
+-   Wenn du $n$ Krümmungen benötigst, benötigst du mindestens eine Bézierkurve vom Grad $n+1$.
+-   Eine Bézierkurve beginnt immer tangential zu der Linie zwischen dem Startpunkt und dem ersten Kontrollpunkt (und endet tangential zu der Linie zwischen dem letzten Kontrollpunkt und dem Endpunkt).
+
+
+</div>
+
 ### Mathe
 
 Wenn du an den mathematischen Hintergründen interessiert bist, hier sind die Grundlagen.
@@ -70,14 +96,6 @@ $\quad
 Dabei ist *n* der Grad der Kurve. Eine Bézierkurve vom Grad *n* ist also ein Polygon der Ordnung *n*. Die Faktoren $P_{i}$ sind dabei die Koordinaten der Kontrollpunkte der Bézierkurven. Zur Veranschaulichung siehe [Steuerung von Bézierkurven](https   *//pomax.github.io/bezierinfo/#control).
 
 Wenn du weiter interessiert bist, sieh dir [Die Mathematik der Bézierkurven](https   *//pomax.github.io/bezierinfo/#explanation) mit einer schön animierten Herleitung der Mathematik der Bézierkurven an.
-
-### Regeln
-
-Im obigen Text sind dir vielleicht schon einige \"Regeln\" für Bézierkurven aufgefallen   *
-
--   Der Polynomgrad ist auch der Grad der Kurven.
--   Wenn du $n$ Krümmungen benötigst, benötigst du mindestens eine Bézierkurve vom Grad $n+1$.
--   Eine Bézierkurve beginnt immer tangential zu der Linie zwischen dem Startpunkt und dem ersten Kontrollpunkt (und endet tangential zu der Linie zwischen dem letzten Kontrollpunkt und dem Endpunkt).
 
 ## B-Splines 
 
@@ -94,47 +112,86 @@ Aus den Videos können wir nützliche \"Regeln\" für B-Splines entnehmen   *
 -   Ein B-Spline mit dem Grad $D$ bietet in jedem Punkt eine stetige Ableitung $D-1$ der Ordnung.
     -   Für einen kubischen B-Spline bedeutet dies, dass sich die Krümmung (Ableitung zweiter Ordnung) nicht ändert, wenn man von einem Segment zum nächsten reist. Dies ist eine sehr nützliche Eigenschaft, wie wir später sehen werden.
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn du an weiteren Details über die Eigenschaften von B-Splines interessiert bist, dann schau dir das Video [MOOC Curves 8.2   * Eigenschaften von B-Spline Kurven](https   *//www.youtube.com/watch?v=xXJylM2S72s) an.
 
-### Grundlage
 
-Der Name *B-Spline* steht für *Basis Spline*. Anstatt den Spline als eine Kombination von Bézierkurven zu bilden, besteht der Ansatz darin, **denselben Spline** auf eine andere Weise zu modellieren. Die Idee ist hierbei, einen anderen Satz von Polynomen als Basis zu verwenden. Eine Linearkombination dieser Basispolynome $B_D(t)$ mit der Ordnung $D$ bildet den B-Spline. [Dieses Video](https   *//www.youtube.com/watch?v=dPPTCy4L4rY) erklärt den Übergang von den Bézier Kontrollpunkten zu den polynomialen Basisfunktionen, die den Spline beschreiben. Mathematisch können wir einen B-Spline mit dieser Formel beschreiben   *
+</div>
 
-$\quad
-c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)$
+#### Basis
 
-Dabei ist $p_k$ der $k$-te Kontrollpunkt des B-Splines und zugleich ein Faktor für das $k$-te Basispolynom $B_{k, D}(t)$. Jedes Basispolynom beschreibt den Spline in einem bestimmten Bereich und daher wirkt sich das Verschieben eines Kontrollpunktes nicht auf den gesamten Spline aus. Um dies zu verstehen, empfiehlt es sich, einen Blick auf [this video](https   *//www.youtube.com/watch?v=vjTyWIKviNc) ab Minute 2   *23 zu werfen.
+Since we will only introduce the basics of B-spline, we don\'t go here into the details.
 
-Wie im Video erklärt, sind die Basispolynome Bernstein Polynome. Die Menge der Basispolynome für einen bestimmten B-Spline kann auf diese Weise veranschaulicht werden   *
+The basis constructs the spline. Looking at the definition of Bézier curves in section [Math](#Math.md) we remember that a Bézier curve is a linear combination of polynomials with the x/y coordinate of each of the control points as a factor. These polynomials are called Bernstein polynomials.
 
-![](images/Bernstein_Polynomials.svg ) 
-*Ein Satz von Bernstein Polynomen der Ordnung 4. Sie beschreiben einen B-Spline 4. Ordnung mit 5 Kontrollpunkten.*
+As several Bézier curves are combined to form a spline, we get a set of Bernstein polynomials forming the spline (they are the basis). As we want to overcome the mentioned limitations of Bézier curves, we don\'t geometrically combine the different Bernstein polynomials of the Bézier curves, but define Bernstein polynomials over the whole geometrical range of the spline. So we **don\'t combine** the Bézier curves with its Bernstein polynomials, which would be
 
-An jeder Spline Position $t$ ist die Summe der Polynome 1 (gekennzeichnet durch die orangefarbene Linie). Am Anfang hat nur das rote Polynom einen Einfluss, da alle anderen Polynome dort 0 sind. Bei größerem $t$ wird der Spline durch eine Linearkombination von verschiedenen Basispolynomen beschrieben. In der obigen Abbildung ist jedes Polynom größer als 1 für den gesamten Bereich $0 < t < 1$. Dies ist nicht unbedingt der Fall. Wie im Video gezeigt, sind die Basispolynome grundsätzlich nur für einen bestimmten Bereich der Splineposition größer als 0. Das Intervall, in dem ein Basispolynom größer als 0 ist, wird durch den *Knotenvektor* beschrieben. Wenn du mehr über den Knotenvektor erfahren möchtest, schau dir [dieses Video](https   *//www.youtube.com/watch?v=ni5NNPCVvDY) an.
+$$\textrm{Bezier-combination}=\begin{cases}
+  \sum_{i=0}^{n}P_{i}\cdot B_{i,n}(t),  & 0\le t\le1\\
+  \sum_{i=0}^{n}P_{i+n}\cdot B_{i,n}(t-1), & 1\le t\le2\\
+\cdots
+\end{cases}$$
+
+whereas $B_{i,n}(t)$ is the i-th Bernstein polynomial with order $n$ and the coefficients $P_{i}$ are the point coordinates of the Bézier curve control points. But we use a **different set of functions** that are defined over the whole spline range   *
+
+$$\textrm{B-spline}= \sum_{i=0}^{n}p_{i}\cdot N_{i,n}(t)$$.
+
+Note that in general $N_{i,n}(t) \ne B_{i,n}(t)$, and the Bezier control points $\{P_1, P_2,\dots\}$ are different from B-spline control points $\{p_1, p_2,\dots\}$.
+
+The different $N_{i,n}(t)$ are defined piecewise where the interval of every piece is the interval of the Bézier piece.
+
+When the lengths of all $N_{i,n}$ pieces is equal, we speak of a uniform spline. (In literature this is often denoted as equal travel time $t$ per piece.)
+
+To understand how the $p_{i}$ are the coordinates of the B-spline control points, see the first minute of [this video](https   *//www.youtube.com/watch?v=dPPTCy4L4rY&list=PL8bSwVy8_IcMvtI70tZoYesCS0hGVO5qd).
+
+#### Knot vector 
+
+As derived above, B-splines are created out of $N_{i,n}$ piecewise polynomials with continuity up to a certain derivative between the pieces. The endpoints of the piece\'s definition interval are called knots. For a spline defined over $k$ pieces, there are $k+1$ knots given by the so-called *knot vector*   *$\{t_0, t_1, t_2,\dots, t_k\}$ whereas $t_0 < t_1 < t_2 < \dots < t_k$
+
+The knot vector comprises the knots of the $N_{i,n}$ basis functions that define the B-spline, see [this video](https   *//www.youtube.com/watch?v=ni5NNPCVvDY). The basis functions of a B-spline can be calculated using the knot vector and a creation algorithm, see [this video](https   *//www.youtube.com/watch?v=hrsO45AHtbs).
+
+The derivative until which continuity exists is given by the multiplicity $m$. Therefore we can specify a vector with the multiplicity for every knot   * $\{m_0, m_1,\dots, m_k\}$. A knot on a spline with degree *d* and the multiplicity *m* tells that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
 
 ### Nicht-uniforme B-Splines 
 
+
+<div class="mw-translate-fuzzy">
+
 Eine Eigenschaft der Bernstein Polynome ist, dass bei Betrachtung der verschiedenen S-Spline Bézier Teile die Pfadlänge jedes Teils gleich ist. (Die Pfadlänge wird oft als \"Laufzeit\" bezeichnet). Wie Sie sich vorstellen können, kann es nützlich sein, B-Splines zu haben, deren Bézier Teile unterschiedliche Pfadlängen haben. Dies kann durch Gewichtung der verschiedenen Polynome erreicht werden   *
 
-$\quad
-c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k$
 
-$w_k$ ist dabei das Gewicht des $k$-ten Kontrollpunktes. Wenn die Gewichte nicht gleich sind, nennt man den B-Spline **nicht-uniform**.
+</div>
 
-Vor allem wenn B-Splines für die 3D Modellierung verwendet werden sollen, sind normalisierte, nicht-uniforme B-Splines erforderlich. Die Normalisierung erfolgt durch eine Division durch die gewichteten Basisfunktionen. Wenn also alle $w_k$ gleich sind, erhält man einen einheitlichen B-Spline, unabhängig von der Gewichtung selbst   *
+Mathematically this is achieved by defining the different $N_{i,n}$ pieces at different intervals. If for example a B-spline is defined for the interval \[0, 1\], it is uniform if all its e.g. 5 pieces are also defined in this interval. If now $N_{1,4}$ is only defined in the interval \[0, 0.6\] (outside the interval it is set to zero), it is shorter and thus the spline becomes non-uniform.
+
+As described above the parameters of the knots are described by the knot vector. So the knot vector stores the definition intervals. When now one piece gets another interval, also the knot vector changes, see [this video](https   *//www.youtube.com/watch?v=w-l5R70y6u0) for a visualization.
+
+### Rational B-splines 
+
+A further generalization can be made for B-splines by introducing weights for the control points. This way it can be controlled \"how important\" a control point is.
+
+The equation for such a spline is
+
+
+<div class="mw-translate-fuzzy">
 
 $\quad
 c(t)=\cfrac{\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
 
+
+</div>
+
+Notice that the function is no longer a polynomial, but a rational function, and these splines are called rational B-splines. Observe that when all $w_i$ are equal, the equation reduces to a regular non-rational B-spline. So non-rational B-splines are a subset of rational B-splines.
+
+
+<div class="mw-translate-fuzzy">
+
 Diese nicht-uniformen und rationalen (wegen der Division) B-Splines werden oft **NURBS** genannt. Ein Blick auf die Formel zeigt, dass es sich tatsächlich um einen B-Spline mit einer gewichteten Basis $R_{k, D}(t)$ handelt   *
 
-$\quad
-c(t)=\sum_{k=0}^{N}p_{k}R_{k, D}(t)$
 
-wohingegen
-
-$\quad
-R_{k, D}=\cfrac{B_{k,D}(u)w_k}{\sum_{l=1}^N B_{l,D}(t)w_l}$
+</div>
 
 ## B-splines in FreeCAD 
 
@@ -144,7 +201,13 @@ FreeCAD bietet die Möglichkeit, uniforme oder nicht-uniforme B-Splines beliebig
 
 Um B-Splines zu erstellen, gehe in eine Skizze und verwende die Werkzeugleistenschaltfläche **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [B-spline erstellen](Sketcher_CreateBSpline/de.md)**. Dann Linksklick um einen Kontrollpunkt zu setzen, bewege die Maus Linksklick, um den nächsten Kontrollpunkt zu setzen und so weiter. Abschließend Rechtsklick, um die Definition abzuschließen und den B-Spline zu erstellen.
 
+
+<div class="mw-translate-fuzzy">
+
 Standardmäßig werden gleichmäßige kubische Splines erstellt, es sei denn, es gibt nicht genügend Kontrollpunkte, um dies zu tun. Wenn du also einen B-Spline mit nur 2 Kontrollpunkten erstellst, erhältst du natürlich einen Spline, der eine einzelne lineare Bézierkurve ist, für 3 Kontrollpunkte erhältst du eine quadratische Bézierkurve, erst mit 5 Kontrollpunkten erhältst du einen kubischen B-Spline, der aus 2 Béziersegmenten besteht.
+
+
+</div>
 
 Um periodische B-Splines (B-Splines, die eine geschlossene Kurve bilden) zu erstellen, verwende die Werkzeugleistenschaltfläche **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width   *16px"> [Periodische B-spline](Sketcher_CreatePeriodicBSpline/de.md)**. Es ist nicht notwendig, den letzten Kontrollpunkt auf den ersten zu setzen, da der B-Spline automatisch geschlossen wird   *
 
@@ -172,11 +235,7 @@ Um die Knotenvielfalt zu ändern, verwende die Werkzeugleistenschaltflächen in 
 
 Um jeden Kontrollpunkt herum siehst du einen dunkelgelben Kreis. Sein Radius legt das Gewicht für den entsprechenden Kontrollpunkt fest. Standardmäßig haben alle Kreise den Radius *1*. Dies wird durch eine Radiusbeschränkung für den ersten Kontrollpunktkreis angezeigt.
 
-Um einen nicht-uniformen B-Spline zu erzeugen, müssen die Gewichte ungleichmäßig sein. Um dies zu erreichen, kannst du entweder die [Radiusbeschränkung](Sketcher_ConstrainRadius/de.md) des ersten Kontrollpunktkreises ändern   *
-
-![](images/Sketcher_Changing-control-point-weigth-constraint.gif )
-
-oder du löschst die Beschränkung, dass alle Kreise gleich sind, und legst dann verschiedene Radiusbeschränkungen für die Kreise fest.
+To create a rational B-spline the weights have to be made independent. To achieve that you can delete the constraint that all circles are equal and then set different radius constraints for the circles.
 
 Wenn keine Radiusbeschränkung festgelegt ist, kannst du den Radius auch durch Ziehen ändern   *
 
@@ -184,13 +243,29 @@ Wenn keine Radiusbeschränkung festgelegt ist, kannst du den Radius auch durch Z
 
 Am Beispiel des Ziehens siehst du, dass ein hohes Gewicht die Kurve zum Kontrollpunkt zieht, während ein sehr niedriges Gewicht die Kurve so verändert, als ob der Kontrollpunkt fast nicht existiert.
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn du dir die [Erstellungsfunktion](#Nicht-uniforme_B-splines.md) für nicht-uniformee rationale B-Splines ansehst, siehst du, dass ein Gewicht von Null zu einer Division durch Null führen würde. Daher kannst du nur Gewichte größer als Null angeben.
+
+
+</div>
+
+**Note   *** When dragging points, knots or widths, the circle diameters denoting the weight will change. This is because the diameter depends on the overall B-spline length for visualization reasons. The actual weight is not changed.
 
 ### Knoten barbeiten 
 
 Neue Knoten (Kontrollpunkte) können mit der Schaltfläche **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width   *24px"> [ Knoten einfügen](Sketcher_BSplineInsertKnot/de.md)** hinzugefügt werden. {{Version/de|0.20}}
 
+
+<div class="mw-translate-fuzzy">
+
 Das Löschen von Knoten ist bisher noch nicht möglich, siehe Abschnitt [Begrenzungen](#Begrenzungen.md).
+
+
+</div>
+
+Changing the parameter value of a knot is not yet supported.
 
 ### Informationen anzeigen 
 
@@ -222,12 +297,18 @@ Da die Form eines B-Splines nicht viel über seine Eigenschaften aussagt, bietet
 
 ### Begrenzungen
 
+
+<div class="mw-translate-fuzzy">
+
 Im Augenblick (FreeCAD 0.19) gibt es einige Begrenzungen bei der Verwendung von Splines, die du kennen solltest   *
 
 1.  Du kannst keine tangentialen Beschränkungen festlegen. In diesem Beispiel <img alt="" src=images/Sketcher_spline-limit-tangential.png  style="width   *450px;"> willst du sicherstellen, dass der Spline die blaue Kurve 2 mal tangential berührt. Dies ist sinnvoll, da die blaue Linie z.B. die räumliche Grenze für deinen Entwurf sein könnte.
 2.  Du kannst keinen neuen Kontrollpunkt zwischen zwei ausgewählten bestehenden Kontrollpunkten einfügen. Es gibt keine andere Möglichkeit, als den Spline neu zu zeichnen.
 3.  Du kannst einen Kontrollpunkt nicht löschen. Auch in diesem Fall musst du den Spline neu zeichnen.
 4.  Du kannst keine Versatzkurve für einen B-Spline mit dem Werkzeug [Entwurf Versatz](Draft_Offset/de.md) erstellen.
+
+
+</div>
 
 ## Typische Anwendungsfälle 
 

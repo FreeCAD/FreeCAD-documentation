@@ -5,7 +5,9 @@
 
 <img alt="Design456 External workbench icon" src=images/Design456_workbench_icon.svg  style="width   *128px;"> {{TOCright}}
 
-The Design456 workbench is an [External workbench](external_workbenches.md) that plans to implement a Direct Modeling methodology in FreeCAD. Think \'push and pull geometry\' that one finds in CAD suites like SketchUp and Fusion360. The original idea came to live when the developer of Design456 wanted to do the basic tasks which is simple and easy to do in 123D Design. FreeCAD could do the same job but the tools aren\'t interfaced in that way. This workbench will not keep track of old shapes. It tries to clean up the garbage which might be produced during running under commands. It tries to make the tree as simple as possible. Parameters must be decided during the desired manipulations which cannot be changed later.
+The Design456 workbench is an [External workbench](External_workbenches.md) that plans to implement a Direct Modeling methodology in FreeCAD. Think \'push and pull geometry\' that one finds in CAD suites like SketchUp and Fusion360.
+
+The original idea came to live when the developer of Design456 wanted to do the basic tasks which is simple and easy to do in 123D Design. FreeCAD could do the same job but the tools aren\'t interfaced in that way. This workbench will not keep track of old shapes. It tries to clean up the garbage which might be produced during running under commands. It tries to make the tree as simple as possible. Parameters must be decided during the desired manipulations which cannot be changed later.
 
 This Wikipage is not updated regularly. To get the latest tool-list, you need to look at Design456 github or youtube videos. Only one developer is working on this project, and time to update these all documents is missing unfortunately.
 
@@ -31,9 +33,9 @@ If the above is not working for you please consider    *
 ## References
 
 -   Developer   * \@MariwanJ (Mariwan Jalal)
--   Youtube channel    * [(used to announce new updates 2022-01-20)](https   *//www.youtube.com/user/BestofMyDream)
--   Github   * <https   *//github.com/MariwanJ/Design456> (used to announce new updates 2022-01-20)
--   Discussion   * <https   *//forum.freecadweb.org/viewtopic.php?f=8&t=54893> (Not used anymore 2022-01-20)
+-   Youtube channel    * [Youtube channel](https   *//www.youtube.com/user/BestofMyDream) used to announce new updates 2022-01-20
+-   Github   * {<https   *//github.com/MariwanJ/Design456> Design456\] used to announce new updates 2022-01-20
+-   Discussion   * [forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=54893) Not used anymore 2022-01-20
 
 ## Tools
 
@@ -79,9 +81,9 @@ If the above is not working for you please consider    *
 -   <img alt="" src=images/Design456_MoveObjectDetails.svg  style="width   *32px;"> [Design456 Move Object in details](Design456_MoveObjectDetails.md)   * Move, rotate 3D and 2D Objects.
 -   <img alt="" src=images/Design456_SmartAlignment.svg  style="width   *32px;"> [Design456 Align multiple objects](Design456_SmartAlignment.md)   * Do 9 alignments based on shapes bound boxes.
 
-### [FreeCAD Direct Modeling](FreeCAD_Direct_Modeling.md) 
+### FreeCAD Direct Modeling 
 
-Main goal of Design456 is to provide Direct Modeling tool set. There are some tools that are partially finished or ready to use. Please try them and report your comments at the github pages. This wiki will be updated whenever I have time. It is almost certain that the github has more info than these pages (at the moment due to lack of time for updating the wiki pages)
+Main goal of Design456 is to provide [Direct Modeling](FreeCAD_Direct_Modeling.md) tool set. There are some tools that are partially finished or ready to use. Please try them and report your comments at the github pages. This wiki will be updated whenever I have time. It is almost certain that the github has more info than these pages (at the moment due to lack of time for updating the wiki pages)
 
 -   smart Scale
 -   smart DirectScale
@@ -104,21 +106,25 @@ Main goal of Design456 is to provide Direct Modeling tool set. There are some to
 
 -   Please notice that there is no released version yet for this workbench. Intensively development is ongoing and bug is expected for the tools. Don\'t use it on serious document yet. Make a copy of you object and apply my tools. By that you know if it works for you or not without taking risk.
 
-### [FreeCAD GUI Widgets toolkit](FreeCAD_GUI_Widgets_toolkit.md) 
+### FreeCAD GUI Widgets toolkit 
 
-Fr_Widget system is a work for providing easy to use Coin3D drawing GUI toolkit. The toolkit will make it easy to draw and should provide an interactive way to manipulate FreeCAD e objects. The simplicity of the toolkit should make it easy to use it.
+[FreeCAD GUI Widgets toolkit](FreeCAD_GUI_Widgets_toolkit.md) is a work for providing easy to use Coin3D drawing GUI toolkit. The toolkit will make it easy to draw and should provide an interactive way to manipulate FreeCAD e objects. The simplicity of the toolkit should make it easy to use it.
 
 Widgets gives you the ability to get callbacks, and are inspired by the well known multi-platform toolkit www.fltk.org. Almost all smart tools must have a widget from this toolkit.
 
-### Defeaturing WB added to Design456 
+### Defeaturing workbench added to Design456 
 
 I added the workbench to my workbench and further development of the tools will continue. It was necessary to add the de-featuring tools to Design456. More tools must be added to the tool set in the feature.
 
--   Tobe continued!
+-   To be continued!
 
-### Microelly2 Tools (Nurbs WB) converted 
+### Microelly2 Tools (Nurbs workbench) converted 
 
-I did the conversion for the Nurbs and fixed many bugs. In the beginning I added the project to my WB, but since the tools are not working well, I remove it. The work is huge and there were places where I didn\'t know how to solve the issues. More time required and more understanding of Microlley\'s work is required that is why the work on the project is suspended. Some good works are done and you can find the project at    * <https   *//github.com/MariwanJ/nurbs> Unfortunately, the code is more experimental code that is not made to be a tool in a workbench. Due to that, I wasn\'t able to retrieve all tools and it is hard to understand the tools. Most of the code are undocumented. There are good things there but not structured in a way a workbench requires. Note   * Due to what I described, further developing Nurbs WB is not possible, at least for now.
+I did the conversion for the Nurbs and fixed many bugs. In the beginning I added the project to my workbench, but since the tools are not working well, I remove it. The work is huge and there were places where I didn\'t know how to solve the issues. More time required and more understanding of Microlley\'s work is required that is why the work on the project is suspended. Some good works are done and you can find the project at   * [Github Nurb](https   *//github.com/MariwanJ/nurbs). Unfortunately, the code is more experimental code that is not made to be a tool in a workbench. Due to that, I wasn\'t able to retrieve all tools and it is hard to understand the tools. Most of the code are undocumented. There are good things there but not structured in a way a workbench requires.
+
+Note   * Due to what I described, further developing Nurbs workbench is not possible, at least for now.
+
+
 
 
 {{Design456 Tools navi

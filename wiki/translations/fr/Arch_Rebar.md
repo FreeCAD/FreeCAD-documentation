@@ -23,7 +23,7 @@ Les objets Armatures sont basés sur des profils 2D comme les [esquisses](Sketch
 
 ## Extension disponible 
 
-L\'outil Armature a été amélioré dans l\'[Atelier Barres de renfort](Reinforcement_Workbench/fr.md) et peut être installé avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Les types de barres supplémentaires disponibles avec l\'addon sont    *
+L\'outil Armature a été amélioré dans l\'[Atelier Barres de renfort](Reinforcement_Workbench/fr.md) et peut être installé avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md). Les types de barres supplémentaires disponibles avec l\'extension sont    *
 
 -   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width   *32px;"> [Armature droite](Arch_Rebar_Straight/fr.md)
 -   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width   *32px;"> [Armature en U](Arch_Rebar_UShape/fr.md)

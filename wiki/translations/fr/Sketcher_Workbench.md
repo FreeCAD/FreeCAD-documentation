@@ -172,7 +172,7 @@ Les contraintes sont utilisées pour définir des règles entre les éléments d
 
 Ces contraintes ne sont pas associées à des données numériques.
 
--   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [Coïncidence](Sketcher_ConstrainCoincident/fr.md)    * crée une contrainte de coïncidence (point sur point) entre deux ou plusieurs points sélectionnés.
+-   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [Coïncidence](Sketcher_ConstrainCoincident/fr.md)    * affecte un point à (coïncider avec) un ou plusieurs autres points. Elle agit comme une contrainte concentrique si deux ou plusieurs cercles, arcs, ellipses ou arcs d\'ellipses sont sélectionnés.
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *32px;"> [Point sur objet](Sketcher_ConstrainPointOnObject/fr.md)    * fixe un point sur un autre objet tel qu\'une ligne, un arc ou un axe.
 

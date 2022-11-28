@@ -56,7 +56,7 @@ Il existe de nombreuses autres options sur les autres onglets, veuillez les expl
 
 ## Installation
 
-Cet atelier peut être installé et mis à jour à partir du <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Le moteur de rendu [POV-Ray](http   *//www.povray.org/) utilisé par l\'atelier doit être installé séparément. Voir [Installer POV](http   *//wiki.povray.org/content/HowTo   *Install_POV).
+Cet atelier peut être installé et mis à jour à partir du <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Le moteur de rendu [POV-Ray](http   *//www.povray.org/) utilisé par l\'atelier doit être installé séparément. Voir [Installer POV](http   *//wiki.povray.org/content/HowTo   *Install_POV).
 
 Pour terminer l\'installation, le chemin d\'accès à l\'exécutable POV-Ray doit être défini dans les préférences dz l\'atelier    *
 

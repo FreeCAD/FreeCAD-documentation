@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-L\'atelier OSE Piping crée des tuyaux et des raccords. Il fait partie de [Open Source Ecology](https   *//www.opensourceecology.org/) et [Open Source Ecology Germany](https   *//www.ose-germany.de/). Pour utiliser toutes ses fonctionnalités, installez l\'atelier Dodo.
+L\'atelier OSE Piping crée des tuyaux et des raccords. Il fait partie de [Open Source Ecology](https   *//www.opensourceecology.org/) et [Open Source Ecology Germany](https   *//www.ose-germany.de/). Pour utiliser toutes ses fonctionnalités, installez l\'[atelier Dodo](Flamingo_Workbench/fr.md).
 
 ![ 512px](images/OSE_Piping_workbench_screenshot.png )
 
@@ -22,7 +22,7 @@ Pour créer un tuyau, cliquez sur ![](images/OSE_Piping_create_pipe_icon.svg ) d
 
 Pour ajouter de nouvelles dimensions, ajustez le fichier CSV **pipe.csv**.
 
-Wikipédia sur la taille nominale des tuyaux (NPS) [1](https   *//en.wikipedia.org/wiki/Nominal_Pipe_Size).
+Wikipédia à propos de [Nominal Pipe Size (NPS)](https   *//en.wikipedia.org/wiki/Nominal_Pipe_Size).
 
 # Coude
 

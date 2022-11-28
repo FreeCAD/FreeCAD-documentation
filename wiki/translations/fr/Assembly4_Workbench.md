@@ -11,7 +11,7 @@ Il a été développé avec l\'idée qu\'un vrai solveur de contraintes n\'étai
 
 ## Installation
 
-Assembly4 peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Assembly4 peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ## Compatibilité
 

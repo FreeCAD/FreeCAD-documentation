@@ -60,7 +60,7 @@ Ces outils peuvent être ajoutés à une barre d\'outils personnalisée. Voir [P
 
 ### Installation automatique 
 
-Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ### Depuis GitHub 
 

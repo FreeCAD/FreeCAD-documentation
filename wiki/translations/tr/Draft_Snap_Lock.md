@@ -1,6 +1,6 @@
 ---
 - GuiCommand   */tr
-   Name   *Draft ToggleSnap
+   Name   *Draft Snap Lock
    Name/tr   *Yakalama açık/kapalı
    MenuLocation   *Taslak → Araçlar→ Yakalama açık/kapalı
    Workbenches   *[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)

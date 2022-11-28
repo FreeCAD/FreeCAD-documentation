@@ -1,9 +1,8 @@
 ---
 - GuiCommand   */de
-   Name   *TechDraw WeldingSymbol
+   Name   *TechDraw WeldSymbol
    Name/de   *TechDraw Schweißsymbol
-   Icon   *techdraw-weldsymbol.svg
-   MenuLocation   *TechDraw → Hinzufügen von Schweißinformationen zur Hinweislinie hinzufügen
+   MenuLocation   *TechDraw → Hinzufügen von Schweißinformationen zur Hinweislinie
    Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
    Version   *0.19
    SeeAlso   *[TechDraw Hinweislinie](TechDraw_LeaderLine/de.md)
@@ -23,7 +22,7 @@ Das Werkzeug Schweißsymbol fügt einer bestehenden Hinweislinie Schweißspezifi
 1.  Eine vorhandene [Hinweislinie](TechDraw_LeaderLine/de.md) auswählen.
 2.  Die Schaltfläche **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Hinzufügen von Schweißinformationen zur Hinweislinie](TechDraw_WeldSymbol/de.md)** drücken.
 3.  Der Aufgabenbereich wird geöffnet. Er ermöglicht es, individuelle Schweißsymbole und begleitenden Text festzulegen, die der Hinweislinie hinzugefügt werden.
-4.  Um den Dialog zu verlassen und die Änderungen zu speichern, die OK Taste drücken. Um das Dialogfeld zu verlassen, ohne zu speichern, die Schaltfläche Abbrechen drücken.
+4.  Die Schaltfläche OK drücken, um den Dialog zu verlassen und die Änderungen zu speichern.
 5.  Nachdem das Schweißsymbol erstellt wurde, kann es durch Doppelklicken auf das Schweißsymbol im Baum bearbeitet werden.
 
 ## Eigenschaften
@@ -58,10 +57,7 @@ Jedes einzelne Symbol (\"Pfeilseite\" und \"andere Seite\") wird durch ein \"Kac
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug Schweißsymbol kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden   *
 

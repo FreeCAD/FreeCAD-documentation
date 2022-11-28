@@ -47,16 +47,10 @@ W zależności od tego, jakiego wyboru dokonamy, niektóre pola będą aktywne l
 
 ### Wycięcie otworu 
 
-
-<div class="mw-translate-fuzzy">
-
--   **Typ**   * ustawia typ wycięcia otworu   * *Brak* oznacza brak wycięcia, inne typy to różne normy dla śrub *({{Version/pl|0.19}})* oraz dwa typy ogólne *pogłębienie stożkowe* i *pogłębienie walcowe*.
+-   **Typ**   * ustawia typ wycięcia otworu   * *Brak* oznacza brak wycięcia, inne typy to różne normy dla śrub *({{Version/pl|0.19}})* oraz dwa typy ogólne *pogłębienie stożkowe* i *pogłębienie walcowe* oraz *nawiercenie stożkowe* *({{Version/pl|1.0}})*.
 -   **Średnica**   * ustawia górną średnicę *(na płaszczyźnie szkicu)* dla wyciętego otworu.
 -   **Głębokość**   * głębokość wycięcia otworu, mierzona od płaszczyzny szkicu.
 -   **Kąt pogłębiania stożkowego**   * kąt stożkowego wycięcia otworu. Dotyczy tylko pogłębiania stożkowego.
-
-
-</div>
 
 ### Punkt wiercenia 
 

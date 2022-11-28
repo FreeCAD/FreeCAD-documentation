@@ -31,7 +31,7 @@ L\'<img alt="" src=images/Workbench_Ship.svg  style="width   *32px;"> [atelier S
 
 ## Histoire
 
-L\'atelier Ship n\'était plus maintenu depuis la v0.17 mais a été ressuscité en v0.19. Depuis la v0.19, il est également considéré comme un [atelier externe](External_workbenches/fr.md), il n\'est donc plus inclus dans le système de base. À la place, il est disponible via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+L\'atelier Ship n\'était plus maintenu depuis la v0.17 mais a été ressuscité en v0.19. Depuis la v0.19, il est également considéré comme un [atelier externe](External_workbenches/fr.md), il n\'est donc plus inclus dans le système de base. À la place, il est disponible via le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ## Références
 

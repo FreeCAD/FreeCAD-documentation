@@ -26,13 +26,10 @@ Pero para macros y ambientes de trabajo la instalación manual sigue siendo posi
 
 Si ha desarrollado una macro o un ambiente de trabajo y desea verlo incluido en el administrador de complementos, lea cómo hacerlo en las páginas del repositorio   * ([FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/) y [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros/)). Si agrega su macro a la página [Recetas de macros](Macros_recipes.md), no hay nada más que hacer, el administrador de complementos la recogerá automáticamente.
 
-### Ambientes de trabajo Python 
+See also   *
 
-Para los ambientes de trabajo de Python, no necesita ninguna aprobación específica para agregar su banco de trabajo al Administrador de complementos. Además, debido a que su complemento está fuera del código fuente de FreeCAD, puede elegir la licencia que desee. Si solicita que su ambiente de trabajo se agregue a la lista predeterminada del administrador de complementos (no agregaremos ningún ambiente de trabajo nuevo sin una solicitud de sus autores), ya sea solicitándolo en el foro o abriendo un problema (issue) en [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons/), su código permanecerá en su propio repositorio de git, solo lo agregaremos como un submódulo al repositorio [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Por supuesto, antes de agregar su ambiente de trabajo, lo revisaremos y nos aseguraremos de que no haya nada potencialmente problemático con él. Para obtener más detalles sobre cómo estructurar su complemento, incluyendo información sobre los metadatos utilizados por el administrador de complementos, consulte [Creación de ambiente de trabajo](Workbench_creation.md).
-
-### Ambientes de trabajo C++ 
-
-Si desarrolla un banco de trabajo en C++, los usuarios no pueden ejecutarlo directamente y debe compilarse primero. Entonces tiene dos opciones, usted mismo proporciona versiones precompiladas de su ambiente de trabajo, para los diferentes sistemas operativos, o debe solicitar que su código se fusione con el código fuente de FreeCAD. Para eso, debe usar la licencia LGPL (o una licencia totalmente compatible como MIT o BSD), y debe presentar sus nuevas herramientas a la comunidad en el foro de [FreeCAD](https   *//forum.freecadweb.org) para su revisión. Una vez que su código haya sido probado y aprobado, debe bifurcar (hacer fork) al repositorio de FreeCAD, si aún no lo ha hecho, cree una nueva rama, envíe su código y abra un pull request para que su rama se fusione con el repositorio principal.
+-   [Distribution of a Python workbench](Workbench_creation#Distribution.md)
+-   [Distribution of a C++ workbench](Workbench_creation#Distribution_2.md)
 
 
 

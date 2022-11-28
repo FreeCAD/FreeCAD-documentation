@@ -333,7 +333,7 @@ Computes the tangent of parameter (u,v) on this geometry
 
 #### <img src="images/Type_enum.svg" style="width:16px;"> toBSpline
 
-Returns a B-Spline representation of this surface. 
+Returns a B-Spline representation of this surface.
 					The optional arguments are:
 					* tolerance (default=1e-7)
 					* continuity in u (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')

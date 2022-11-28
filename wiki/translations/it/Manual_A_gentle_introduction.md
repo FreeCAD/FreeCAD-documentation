@@ -16,7 +16,13 @@ FreeCAD fa un ampio uso di Python. Con esso, è possibile accedere e controllare
 
 ![](images/Exercise_python_01.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Ma la console Python ha anche un altro uso molto importante   * Ogni volta che si preme un pulsante della barra degli strumenti, o si eseguono altre operazioni in FreeCAD, un po\' di codice Python viene stampato nella console ed eseguito. Lasciando la console Python aperta, è possibile letteralmente vedere il codice python svolgersi mentre si lavora, e in poco tempo, quasi inconsapevolmente, si impara un po\' di linguaggio Python.
+
+
+</div>
 
 FreeCAD ha anche un [sistema di macro](Macros/it.md), che permette di registrare le azioni per poterle riprodurre in un momento successivo. Anche questo sistema utilizza la console Python, registrando semplicemente in essa tutto ciò che viene fatto.
 
@@ -24,7 +30,13 @@ In questo capitolo, scopriremo molto in generale il linguaggio Python. Se siete 
 
 ### Scrivere del codice Python 
 
+
+<div class="mw-translate-fuzzy">
+
 Ci sono due semplici modi per scrivere del codice Python in FreeCAD   * dalla console Python (menu **Visualizza -\> Pannelli -\> Console Python**), o dall\'editor delle Macro (menu **Strumenti -\> Macro -\> Nuova**). Nella console, si scrivono i comandi Python uno per uno, e essi vengono eseguiti quando si preme Invio, mentre la macro può contenere uno script più complesso fatto di diverse righe, e viene eseguita solo quando la macro viene lanciata dalla stessa finestra Macro.
+
+
+</div>
 
 In questo capitolo, si descrive come utilizzare entrambi i metodi, ma si consiglia vivamente di utilizzare la console Python, perché essa informa immediatamente l\'utente sugli eventuali errori che si possono fare durante la digitazione.
 
@@ -54,7 +66,13 @@ Nella vista ad albero viene aggiunto un cubo, ma nella vista 3D non succede anco
 
 doc.recompute()
 
+
+<div class="mw-translate-fuzzy">
+
 Ora nella vista 3D è apparso il cubo. Molti dei pulsanti della barra degli strumenti che aggiungono oggetti in FreeCAD in effetti fanno due cose   * aggiungono l\'oggetto, e ricalcolano. Se la casella \"Mostra i comandi di script nella console Python\" descritta in precedenza è attiva, provate ad aggiungere una sfera con l\'apposito pulsante dell\'ambiente Parte, e vedrete le due righe di codice Python eseguite una dopo l\'altra.
+
+
+</div>
 
 È possibile ottenere un elenco di tutti i possibili tipi di oggetti come Part   *   *Box   *
 

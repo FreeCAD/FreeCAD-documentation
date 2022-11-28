@@ -119,7 +119,7 @@ Autre
 
 ### Installation Automatique 
 
-Depuis v0.17, on peut utiliser le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) pour installer l\'<img alt="" src=images/Lattice2_Lattice2.svg  style="width   *24px;"> atelier Lattice2. Utilisez **Outils → Gestionnaire d'Addon**.
+Depuis v0.17, on peut utiliser le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour installer l\'<img alt="" src=images/Lattice2_Lattice2.svg  style="width   *24px;"> atelier Lattice2, utilisez **Outils → Gestionnaire des extensions**.
 
 ### Installation manuelle 
 

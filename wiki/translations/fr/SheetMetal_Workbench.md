@@ -18,13 +18,13 @@ Les caractéristiques des objets en tôle sont    *
 L\'outil de dépliage, dans ses deux versions, n\'est pas limité aux pièces fabriquées à l\'aide des outils de cet atelier mais peut également traiter les objets des ateliers [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md), pour autant qu\'ils répondent aux caractéristiques ci-dessus.
 
 <img alt="" src=images/SheetMetal_Example.png  style="width   *600px;"> 
-* Le modèle en tôle construit avec l'add-on Sheet Metal (arrière plan); devant, le solide déplié; au premier plan, l'esquisse déplier avec des lignes de pliage pour l'exportation au format DXF.*
+*Le modèle en tôle est construit avec l'extension Sheet Metal (arrière plan); devant, le solide déplié; au premier plan, l'esquisse déplier avec des lignes de pliage pour l'exportation au format DXF.*
 
 Si l\'exportation au format DXF est utilisée pour contrôler des machines (Lasercut par exemple), vous devez modifier le DXF pour supprimer les lignes indiquant les plis, ces lignes pouvant être utilisées pour la découpe par la machine.
 
 ## Installation
 
-Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
+Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
 
 ## Outils
 
@@ -238,9 +238,9 @@ Comment faire ?
 
 ## Références
 
--   Auteur   *
-    -   Outils de pliage   * Copyright 2015-2018 par Shai Seger
-    -   Outil de dépliage   * Copyright 2014 par Ulrich Brammer
+-   Auteur    *
+    -   Outils de pliage    * Copyright 2015-2018 par Shai Seger
+    -   Outil de dépliage    * Copyright 2014 par Ulrich Brammer
 -   Licence   * [GPLv3](https   *//www.gnu.org/licenses/gpl-3.0.fr.html)
 -   Blog officiel (EN)   * [Sheet metal Addon for FreeCAD](http   *//theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Code source sur github   * <https   *//github.com/shaise/FreeCAD_SheetMetal>

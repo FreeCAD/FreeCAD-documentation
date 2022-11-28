@@ -21,7 +21,7 @@ Cette macro crée la coque d\'un dôme géodésique paramétrique. Le rayon du d
 
 ## Utilisation
 
-1\. Installez la macro en utilisant le gestionnaire (menu Outils → Addon Manager). Sur l\'onglet \"Macros\", sélectionnez \"GeodesicDome\", cliquez sur \"Installer\". Fermez ensuite Addon Manager.
+1\. Installez la macro en utilisant le gestionnaire (menu Outils → Gestionnaire des extensions). Sur l\'onglet \"Macros\", sélectionnez \"GeodesicDome\", cliquez sur \"Installer\". Fermez ensuite le Gestionnaire des extensions.
 
 2\. Exécutez GeodesicDome.FCMacro. Une fenêtre de dialogue devrait apparaître
 

@@ -63,6 +63,8 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 </div>
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Validate sketch](Sketcher_ValidateSketch.md)   * verifies the tolerance of different points and adjusts them.
+
 ### Ferramentas de modelagem de projeto de peças 
 
 #### Ferramentas de referência 

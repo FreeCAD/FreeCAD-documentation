@@ -44,6 +44,9 @@ HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./name_of_AppImage_file.A
 
 Дополнительную информацию о переменных среды FreeCAD можно найти на [странице конфигурирования](Start_up_and_Configuration/ru#Переменные_Среды_Окружения.md).
 
+
+<div class="mw-translate-fuzzy">
+
 ## Разрабатываемые версии 
 
 FreeCAD активно развивается.
@@ -51,6 +54,9 @@ FreeCAD активно развивается.
 -   Для пользователей Linux, посмотрите разрабатыаемую версию [AppImage](AppImage/ru.md).
 -   По поводу сборок для MacOS и Windows, а также исходных кодов, смотрите страницу [еженедельных сборок](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
 -   Чтобы скомпилировать новейший исходный код, смотри страницу [Компиляция](Compiling/ru.md).
+
+
+</div>
 
 ## Дополнительные модули и макросы 
 

@@ -159,7 +159,7 @@ exemple   *
 
 #### Dans le répertoire Mod 
 
-1.  Après avoir installé la macro avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
+1.  Après avoir installé la macro avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md)
 2.  Créez le répertoire *FCInfo_ToolBar*.
 3.  Copiez la macro FCInfo_ToolBar.FCMacro (copier et non déplacer) dans le répertoire *FCInfo_ToolBar* et renommez-la en FCInfo_ToolBar.py
 4.  Créez un fichier nommé InitGui.py

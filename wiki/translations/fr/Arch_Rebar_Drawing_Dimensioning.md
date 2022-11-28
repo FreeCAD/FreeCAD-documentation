@@ -14,7 +14,7 @@
 
 L\'outil [Dessins dimensions](Arch_Rebar_Drawing_Dimensioning/fr.md) permet à l\'utilisateur de créer un dessin d\'armatures et de leurs donner des dimensions.
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width   *800px;">
 
@@ -366,7 +366,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
 
 ## Utilisation 
 
-1\. Ouvrez le modèle FreeCAD contenant les barres d\'armature créées à l\'aide de [Addon Reinforcement](Reinforcement_Addon/fr.md).
+1\. Ouvrez le modèle FreeCAD contenant les barres d\'armature créées à l\'aide de l\'[extension Reinforcement](Reinforcement_Addon/fr.md).
 
 2\. Dans la console FreeCAD Python, copiez l\'extrait de code ci-dessous pour générer le dessin des armatures à partir de différentes vues pour chaque élément [Arch Structure](Arch_Structure/fr.md). 
 ```python
@@ -742,7 +742,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom")   *
 
 ## Utilisation 
 
-1\. Ouvrez le modèle FreeCAD contenant les barres d\'armature créées à l\'aide de [Addon Reinforcement](Reinforcement_Addon/fr.md).
+1\. Ouvrez le modèle FreeCAD contenant les barres d\'armature créées à l\'aide de l\'[extension Reinforcement](Reinforcement_Addon/fr.md).
 
 2\. Dans la console FreeCAD Python, copiez l\'extrait de code ci-dessous pour générer le dessin et la cotation des armatures à partir de différentes vues pour chaque élément [Arch Structure](Arch_Structure/fr.md). 
 ```python

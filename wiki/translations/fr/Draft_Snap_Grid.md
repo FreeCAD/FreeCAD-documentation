@@ -23,7 +23,7 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 2.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;">. [Draft Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md).
 3.  Si **Draft Aimantation Grille** n\'est pas active, faites l\'une des choses suivantes    *
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Grid.svg" width=16px>** de la barre d\'outils Draft Aimantation.
-    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu, sélectionnez l\'option **<img src="images/Draft_Snap_Grid.svg" width=16px> Aimanter sur la grille (OFF)**.
+    -   Maintenez le bouton **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu qui s\'ouvre, sélectionnez l\'option **<img src="images/Draft_Snap_Grid.svg" width=16px> Aimanter sur la grille (OFF)**.
 4.  Choisissez une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 5.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
 6.  La grille est maintenant affichée si elle n\'était pas encore visible.

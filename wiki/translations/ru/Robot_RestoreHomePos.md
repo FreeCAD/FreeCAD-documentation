@@ -1,36 +1,27 @@
-# Robot RestoreHomePos/ru
 ---
 - GuiCommand   */ru
-   Name   *Robot RestoreHomePos
-   Name/ru   *Robot RestoreHomePos
+   Name   *Robot_RestoreHomePos
+   Name/ru   *Вернуть в исходное положение
+   MenuLocation   *Робот → Вернуть в исходное положение
    Workbenches   *[Robot](Robot_Workbench/ru.md)
-   MenuLocation   *Робот → Перейти на главную---
+---
 
+# Robot RestoreHomePos/ru
 
-</div>
+## Описание
 
-## Description
+Приводит указанного робота в исходное положение.
 
+## Применение
 
-<div class="mw-translate-fuzzy">
+1.  Выберите робота в [древе документа](Tree_view/ru.md) или в [окне трехмерного вида](3D_view/ru.md)
+2.  Нажмите кнопку <img alt="" src=images/Robot_RestoreHomePos.svg  style="width   *32px;"> или выберите пункт главного меню **Робот** → **<img src="images/Robot_RestoreHomePos.svg" width=32px> Вернуть в исходное положение**.
 
-#### Описание
+## Примечания
 
-Дать роботу переместиться в исходное положение.
-
-
-</div>
-
-## Usage
-
-1.  Select robot in the [Tree view](Tree_view.md) or in the [3D view](3D_view.md)
-2.  Click on <img alt="" src=images/Robot_RestoreHomePos.svg  style="width   *32px;"> or choose **Robot** → **<img src="images/Robot_RestoreHomePos.svg" width=32px> Move to home** from the top menu.
-
-## Notes
-
--   Command allows only for one robot to set its home position.
--   If none or more than one robot is selected, you will be prompted to choose only one robot.
--   If no home position has been specified via <img alt="" src=images/Robot_SetHomePos.svg  style="width   *32px;"> [Robot SetHomePos](Robot_SetHomePos.md) the position of the robot as inserted in the scene will be used as home position.
+-   Команда может привести в исходное положение только одного робота.
+-   Если выбрано несколько роботов или вообще ни одного, пользователю будет предложено выбрать только одного робота.
+-   Если исходная позиция не была указана с помощью команды <img alt="" src=images/Robot_SetHomePos.svg  style="width   *32px;"> [установки исходной позиции](Robot_SetHomePos/ru.md), тогда в качестве исходной позиции будет использоваться позиция в которой робот находился сразу после его установки в сцену.
 
 
 

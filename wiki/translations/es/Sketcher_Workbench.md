@@ -370,7 +370,13 @@ Estas restricciones no están asociadas con datos numéricos.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [Coincidente](Sketcher_ConstrainCoincident/es.md)   * Pone un punto en (coincidente con) uno o más puntos.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

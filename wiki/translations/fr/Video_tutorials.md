@@ -56,7 +56,7 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 
 ## Autres
 
--   [Animation Workbench](https   *//www.youtube.com/watch?v=AQjAa5JxmOg&list=PLIxaznuCUATKzCFbFUFhRwZMJMnYuQ1JB) par microelly   * une série de 7 vidéos décrivant l\'Animation Workbench de son développeur. C\'est l\'un des [ateliers externes](External_workbenches/fr.md) qui peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+-   [Animation Workbench](https   *//www.youtube.com/watch?v=AQjAa5JxmOg&list=PLIxaznuCUATKzCFbFUFhRwZMJMnYuQ1JB) par microelly    * une série de 7 vidéos décrivant l\'atelier Animation par son développeur. C\'est l\'un des [ateliers externes](External_workbenches/fr.md) qui peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 -   [FreeCAD Tutorials - GENERAL](https   *//www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) par AllVisuals4U   * FreeCAD 0.16, une série de 28 courtes vidéos sur les aspects généraux de FreeCAD; par exemple, il montre comment changer les unités, la couleur d\'arrière-plan, l\'écran de démarrage, les contraintes, définir la vue en perspective, définir la transparence, modifier la taille des icônes de la barre d\'outils, préparer l\'impression 3D et extruder le texte. Certaines instructions plus avancées incluent la création de logo, le pliage du métal et l\'assemblage. La plupart des vidéos décrivent FreeCAD 0.16, mais comme elles ne se concentrent pas sur les aspects de modélisation, les informations sont généralement applicables pour d\'autres versions.
 

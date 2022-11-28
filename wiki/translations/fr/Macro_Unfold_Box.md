@@ -19,7 +19,7 @@ La macro permet de déplier les surfaces d\'un objet de n\'importe quelle forme 
 
 ## Installation
 
-Disponible dans le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Disponible dans le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 Sujet du forum    * [Macro for unfolding box surfaces](http   *//forum.freecadweb.org/viewtopic.php?f=17&t=4587).
 

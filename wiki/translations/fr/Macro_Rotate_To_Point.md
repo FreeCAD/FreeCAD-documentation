@@ -27,7 +27,7 @@ Vous pouvez enregistrer dans un fichier toutes les coordonnées travaillées et 
 
 ## Utilisation
 
-1.  Téléchargez la macro depuis le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
+1.  Téléchargez la macro depuis le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md)
 2.  Exécutez la macro
 3.  Sélectionnez un objet
 4.  Choisissez l\'une des orientations suivantes    *

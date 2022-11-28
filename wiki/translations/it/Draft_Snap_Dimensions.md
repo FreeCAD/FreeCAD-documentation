@@ -2,7 +2,6 @@
 - GuiCommand   */it
    Name   *Draft Snap Dimensions
    Name/it   *Dimensioni
-   Icon   *Snap_Dimensions.svg
    MenuLocation   *Draft → [Aggancio](Draft_Snap/it.md) → Dimensioni
    Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut   *

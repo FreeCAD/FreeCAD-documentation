@@ -1,8 +1,7 @@
 ---
 - GuiCommand   */ru
    Name/ru   *Добавить информацию о сварке в линию-выноску
-   Name   *TechDraw_WeldingSymbol
-   Icon   *techdraw-weldsymbol.svg
+   Name   *TechDraw_WeldSymbol
    MenuLocation   *TechDraw → Добавить информацию о сварке в линию-выноску
    Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
    Version   *0.19
@@ -10,6 +9,9 @@
 ---
 
 # TechDraw WeldSymbol/ru
+
+
+</div>
 
 ## Описание
 
@@ -23,7 +25,7 @@ The WeldingSymbol tool adds welding specifications to an existing leader line.
 1.  Select an existing [leaderline](TechDraw_LeaderLine.md).
 2.  Press the **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Add Welding Information to Leaderline](TechDraw_WeldSymbol.md)** button.
 3.  A task panel will open. It allows to set individual welding symbols and accompanying text to be added to the leader line.
-4.  To exit the dialog and save changes, press the OK button. To exit the dialog without saving, press the Cancel button.
+4.  Press the OK button to exit the dialog and save the changes.
 5.  After the welding symbol is created, it can be edited by double clicking the Welding Symbol in the Tree.
 
 ## Свойства

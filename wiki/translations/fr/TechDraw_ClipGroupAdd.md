@@ -18,7 +18,7 @@ Cet outil ajoute une vue à une fenêtre de rognage existante.
 
 ## Utilisation
 
-1.  Sélectionnez une fenêtre de rognage et une vue et appuyez sur le bouton **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Ajouter une vue à la fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md)** pour ajouter la vue.
+-   Sélectionnez une fenêtre de rognage et une vue et appuyez sur le bouton **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Ajouter une vue à la fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md)** pour ajouter la vue.
 
 
 

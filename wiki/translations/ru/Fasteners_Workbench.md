@@ -222,9 +222,21 @@
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width   *32px;"> **ISO 7048** **(ГОСТ Р ИСО 7048)** Винт с низкой цилиндрической головкой и крестообразным шлицем.
 
+-   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width   *32px;"> **GOST 1144-3** Half round head wood screw with type H cross recess.
+
+-   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width   *32px;"> **GOST 1144-4** Half round head wood screw with type H cross recess.
+
 ### Болты с другими головками 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** UNC Болт с полукруглой головкой и квадратным подголовком.
+
+
+</div>
+
+-   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** UNC Round head square neck bolt.
 
 ### Гайки
 
@@ -246,8 +258,6 @@
 -   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width   *32px;"> 
 **ГОСТ 11860 (Исполнение 1)** Гайка колпачковая. *Класс точности А.*
 
--   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** Гайка для Т-образных пазов.
-
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** **(Ближайший аналог ОСТ 37.001.112)** Гайка квадратная с фаской.
 
 -   <img alt="" src=images/Fasteners_DIN562.svg  style="width   *32px;"> **DIN 562** **(Ближайший аналог ОСТ 37.001.112)** Гайка квадратная низкая.
@@ -259,6 +269,12 @@
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width   *32px;"> **ASME B18.2.2.4A** UNC Гайка шестигранная.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width   *32px;"> **ASME B18.2.2.4B** UNC Гайка шестигранная низкая.
+
+### T-slot nuts 
+
+-   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** Гайка для Т-образных пазов.
+
+-   <img alt="" src=images/Fasteners_GN507.svg  style="width   *32px;"> **GN 507** T-slot nut.
 
 ### Шайбы
 
@@ -279,6 +295,14 @@
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** UN Шайба, нормальная серия.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** UN Шайба, увеличенная серия.
+
+### Retaining rings 
+
+-   <img alt="" src=images/Fasteners_DIN471.svg  style="width   *32px;"> **DIN 471** External retaining ring.
+
+-   <img alt="" src=images/Fasteners_DIN472.svg  style="width   *32px;"> **DIN 472** Internal retaining ring.
+
+-   <img alt="" src=images/Fasteners_DIN6799.svg  style="width   *32px;"> **DIN 6799** E-clip retaining ring.
 
 ### Другие изделия 
 

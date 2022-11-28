@@ -35,7 +35,7 @@ Tak więc krzywa, za pomocą której można połączyć dwa punkty stycznie do p
 
 ### Pochodne
 
-Krzywe Béziera są wielomianami opisującymi połączenie między dwoma punktami. Najprostszym wielomianem łączącym dwa punkty jest prosta *($A*x^1+B$)*, zatem również liniowe krzywe Béziera są liniowe   *
+Krzywe Béziera są wielomianami opisującymi połączenie między dwoma punktami. Najprostszym wielomianem łączącym dwa punkty jest prosta *($A*x^1+B$)*, zatem liniowe krzywe Béziera są również odcinkami linii   *
 
 ![](images/Bezier_linear_anim.gif ) 
 *Animacja 1   * Liniowa krzywa Béziera.*
@@ -58,6 +58,14 @@ Aby odpowiedzieć na pytanie, rozwiązaniem z zakończeniem stycznym w kierunku 
 
 <img alt="" src=images/B-splines_Motivation-cubic-bezier.png  style="width   *450px;">
 
+### Zasady
+
+W pochodnej mogłeś już zauważyć pewne \"reguły\" dla krzywych Béziera   *
+
+-   Stopień wielomianu jest jednocześnie stopniem krzywych.
+-   Jeśli potrzebujesz $n$ skrętów, potrzebujesz co najmniej $n+1$ stopnia krzywej Béziera.
+-   Krzywa Béziera zawsze zaczyna się stycznie do linii między punktem początkowym a pierwszym punktem kontrolnym *(i kończy się stycznie do linii między ostatnim punktem kontrolnym a punktem końcowym)*.
+
 ### Matematyka
 
 Jeśli jesteś zainteresowany, aby zrozumieć matematykę w tle, oto podstawy.
@@ -70,14 +78,6 @@ $\quad
 \"n\" jest niniejszym stopniem krzywej. Zatem krzywa Béziera stopnia *n* jest wielokątem rzędu *n*. Współczynniki $P_{i}$ są więc współrzędnymi punktów kontrolnych krzywych Béziera. Wizualizację można znaleźć na stronie [kontrolowanie krzywizn Béziera](https   *//pomax.github.io/bezierinfo/#control).
 
 Jeśli jesteś dalej zainteresowany, spójrz na stronę [Matematyka krzywych Béziera](https   *//pomax.github.io/bezierinfo/#explanation) z ładnie animowanym wyprowadzeniem matematyki dla krzywych Béziera.
-
-### Zasady
-
-W powyższym tekście mogłeś już zauważyć pewne \"reguły\" dotyczące krzywych Béziera   *
-
--   Stopień wielomianu jest jednocześnie stopniem krzywych.
--   Jeśli potrzebujesz $n$ skrętów, potrzebujesz co najmniej $n+1$ stopnia krzywej Béziera.
--   Krzywa Béziera zawsze zaczyna się stycznie do linii między punktem początkowym a pierwszym punktem kontrolnym *(i kończy się stycznie do linii między ostatnim punktem kontrolnym a punktem końcowym)*.
 
 ## Krzywe złożone 
 
@@ -96,45 +96,71 @@ Z filmów możemy zebrać przydatne \"zasady\" dla krzywych złożonych *(B-spli
 
 Jeśli interesuje Cię więcej szczegółów na temat właściwości krzywych złożonych, zajrzyj na film [Krzywe MOOC 8.2   * Właściwości krzywych B-spline](https   *//www.youtube.com/watch?v=xXJylM2S72s).
 
-### Zasady 
+#### Zasady 
 
-Nazwa *B-spline* oznacza *Basis spline*. Zamiast tworzyć splajn jako kombinację krzywych Béziera, podejście polega na modelowaniu **tego samego splajnu** w inny sposób. Idea polega na użyciu innego zestawu wielomianów jako podstawy. Liniowa kombinacja tych wielomianów $B_D(t)$ o rzędzie $D$ tworzy B-spline. Film [Krzywe MOOC 8.3   * Wyrażenia analityczne dla krzywych B-spline](https   *//www.youtube.com/watch?v=dPPTCy4L4rY) wyjaśnia przejście od punktów kontrolnych Béziera do wielomianowych funkcji bazowych opisujących splajn. Matematycznie możemy opisać B-spline za pomocą poniższego wzoru   *
+Since we will only introduce the basics of B-spline, we don\'t go here into the details.
 
-$\quad
-c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)$
+The basis constructs the spline. Looking at the definition of Bézier curves in section [Math](#Math.md) we remember that a Bézier curve is a linear combination of polynomials with the x/y coordinate of each of the control points as a factor. These polynomials are called Bernstein polynomials.
 
-W ten sposób $p_k$ jest $k$-tym punktem kontrolnym krzywej złożonej i jednocześnie współczynnikiem dla $k$-tego wielomianu bazowego $B_{k, D}(t)$. Każdy wielomian bazowy opisuje krzywą spline w pewnym regionie i dlatego przesunięcie punktu kontrolnego nie wpływa na całą krzywą spline. Aby to zrozumieć, zalecane jest obejrzenie filmu [Krzywe MOOC 8.4   * Wpływ funkcji bazowych na krzywą](https   *//www.youtube.com/watch?v=vjTyWIKviNc) od minuty 2   *23.
+As several Bézier curves are combined to form a spline, we get a set of Bernstein polynomials forming the spline (they are the basis). As we want to overcome the mentioned limitations of Bézier curves, we don\'t geometrically combine the different Bernstein polynomials of the Bézier curves, but define Bernstein polynomials over the whole geometrical range of the spline. So we **don\'t combine** the Bézier curves with its Bernstein polynomials, which would be
 
-Jak wyjaśniono w filmie, wielomiany bazowe są wielomianami Bernsteina. Zbiór wielomianów bazowych dla pewnego B-splajnu można zwizualizować w następujący sposób   *
+$$\textrm{Bezier-combination}=\begin{cases}
+  \sum_{i=0}^{n}P_{i}\cdot B_{i,n}(t),  & 0\le t\le1\\
+  \sum_{i=0}^{n}P_{i+n}\cdot B_{i,n}(t-1), & 1\le t\le2\\
+\cdots
+\end{cases}$$
 
-![](images/Bernstein_Polynomials.svg ) 
-*Zestaw wielomianów Bernsteina o rzędzie 4. Opisują one B-splajnę 4 rzędu z 5 punktami kontrolnymi.*
+whereas $B_{i,n}(t)$ is the i-th Bernstein polynomial with order $n$ and the coefficients $P_{i}$ are the point coordinates of the Bézier curve control points. But we use a **different set of functions** that are defined over the whole spline range   *
 
-W każdej pozycji splajnu $t$ suma wielomianów wynosi 1 (zaznaczona pomarańczową linią). Na początku tylko czerwony wielomian ma wpływ, ponieważ wszystkie inne wielomiany są tam równe 0. Przy większych $t$ krzywa jest opisywana przez kombinację liniową różnych wielomianów bazowych. Na powyższym obrazku każdy wielomian jest większy od 1 dla całego zakresu $0 < t < 1$. Niekoniecznie musi tak być w rzeczywistości. Jak pokazano na filmie, wielomiany bazowe są w zasadzie większe od 0 tylko dla pewnego zakresu pozycji krzywej. Przedział, w którym wielomian bazowy jest większy od 0, jest opisywany przez *wektor węzłów*. Jeśli jesteś zainteresowany poznaniem wektora węzłów, zajrzyj na film [Krzywe MOOC 8.5   * Węzły krzywej B-spline](https   *//www.youtube.com/watch?v=ni5NNPCVvDY).
+$$\textrm{B-spline}= \sum_{i=0}^{n}p_{i}\cdot N_{i,n}(t)$$.
+
+Note that in general $N_{i,n}(t) \ne B_{i,n}(t)$, and the Bezier control points $\{P_1, P_2,\dots\}$ are different from B-spline control points $\{p_1, p_2,\dots\}$.
+
+The different $N_{i,n}(t)$ are defined piecewise where the interval of every piece is the interval of the Bézier piece.
+
+When the lengths of all $N_{i,n}$ pieces is equal, we speak of a uniform spline. (In literature this is often denoted as equal travel time $t$ per piece.)
+
+To understand how the $p_{i}$ are the coordinates of the B-spline control points, see the first minute of [this video](https   *//www.youtube.com/watch?v=dPPTCy4L4rY&list=PL8bSwVy8_IcMvtI70tZoYesCS0hGVO5qd).
+
+#### Knot vector 
+
+As derived above, B-splines are created out of $N_{i,n}$ piecewise polynomials with continuity up to a certain derivative between the pieces. The endpoints of the piece\'s definition interval are called knots. For a spline defined over $k$ pieces, there are $k+1$ knots given by the so-called *knot vector*   *$\{t_0, t_1, t_2,\dots, t_k\}$ whereas $t_0 < t_1 < t_2 < \dots < t_k$
+
+The knot vector comprises the knots of the $N_{i,n}$ basis functions that define the B-spline, see [this video](https   *//www.youtube.com/watch?v=ni5NNPCVvDY). The basis functions of a B-spline can be calculated using the knot vector and a creation algorithm, see [this video](https   *//www.youtube.com/watch?v=hrsO45AHtbs).
+
+The derivative until which continuity exists is given by the multiplicity $m$. Therefore we can specify a vector with the multiplicity for every knot   * $\{m_0, m_1,\dots, m_k\}$. A knot on a spline with degree *d* and the multiplicity *m* tells that the curve left and right to the knot has at least an equal *n* order derivative (called *C*^*n*^ continuity) whereas $n=d-m$.
 
 ### Niejednorodne krzywe B-spline 
 
+
+<div class="mw-translate-fuzzy">
+
 Własnością wielomianów Bernsteina jest to, że patrząc na różne części krzywej Béziera, długość ścieżki każdej części jest taka sama. *(Długość ścieżki jest często nazywana **czasem podróży**)*\'. Jak można sobie wyobrazić, użyteczne może być posiadanie krzywych B-spline, których części Béziera mają różne długości ścieżek. Można to osiągnąć poprzez ważenie różnych wielomianów   *
 
-$\quad
-c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k$
 
-$w_k$ jest niniejszą wagą $k$ - tego punktu kontrolnego. Gdy wagi nie są równe, krzywa B-spline jest nazywana **niejednorodną**.
+</div>
 
-Szczególnie w przypadku, gdy krzywe B-spline powinny być używane do modelowania 3D, konieczne jest stosowanie znormalizowanych, niejednolitych krzywych B-spline. Normalizacja odbywa się poprzez podział przez ważone funkcje bazowe. W ten sposób, gdy wszystkie $w_k$ są równe, otrzymujemy jednorodną krzywą B-spline, niezależną od samej wagi   *
+Mathematically this is achieved by defining the different $N_{i,n}$ pieces at different intervals. If for example a B-spline is defined for the interval \[0, 1\], it is uniform if all its e.g. 5 pieces are also defined in this interval. If now $N_{1,4}$ is only defined in the interval \[0, 0.6\] (outside the interval it is set to zero), it is shorter and thus the spline becomes non-uniform.
 
-$\quad
-c(t)=\cfrac{\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
+As described above the parameters of the knots are described by the knot vector. So the knot vector stores the definition intervals. When now one piece gets another interval, also the knot vector changes, see [this video](https   *//www.youtube.com/watch?v=w-l5R70y6u0) for a visualization.
+
+### Rational B-splines 
+
+A further generalization can be made for B-splines by introducing weights for the control points. This way it can be controlled \"how important\" a control point is.
+
+The equation for such a spline is
+
+$$c(n, t)=\cfrac{\sum_{i=0}^{n}d_{i}N_{i, n}(t)\cdot w_i}{\sum_{i=0}^{n}N_{i, n}(t)\cdot w_i}$$
+
+Notice that the function is no longer a polynomial, but a rational function, and these splines are called rational B-splines. Observe that when all $w_i$ are equal, the equation reduces to a regular non-rational B-spline. So non-rational B-splines are a subset of rational B-splines.
+
+
+<div class="mw-translate-fuzzy">
 
 Te niejednorodne i racjonalne *(z powodu podziału)* krzywe B-spline są często nazywane **NURBS**. Patrząc na ich wzór widzimy, że są one w rzeczywistości krzywymi B-spline o ważonej podstawie $R_{k, D}(t)$   *
 
-$\quad
-c(t)=\sum_{k=0}^{N}p_{k}R_{k, D}(t)$
 
-mając na uwadze, że
-
-$\quad
-R_{k, D}=\cfrac{B_{k,D}(u)w_k}{\sum_{l=1}^N B_{l,D}(t)w_l}$
+</div>
 
 ## Krzywe złożone w programie FreeCAD 
 
@@ -144,7 +170,13 @@ FreeCAD oferuje możliwość tworzenia jednolitych lub niejednolitych krzywych z
 
 Aby utworzyć krzywe złożone, przejdź do szkicu i użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [Utwórz krzywą złożoną](Sketcher_CreateBSpline/pl.md)**. Następnie kliknij lewym przyciskiem myszy, aby ustawić punkt kontrolny, przesuń kursor w lewo, aby ustawić następny punkt kontrolny i tak dalej. Na koniec kliknij prawym przyciskiem myszy, aby zakończyć definicję i utworzyć krzywą.
 
-Domyślnie tworzone są jednolite krzywe sześcienne, ale nie ma wystarczającej ilości punktów kontrolnych, aby to zrobić. Tak więc, gdy tworzysz krzywą złożona z tylko 2 punktami kontrolnymi, otrzymujesz oczywiście krzywą, która jest pojedynczą liniową krzywą Béziera, dla 3 punktów kontrolnych otrzymujesz kwadratową krzywą Béziera, a dla 5 punktów kontrolnych otrzymujesz sześcienną krzywą złożoną z 2 segmentów Béziera.
+
+<div class="mw-translate-fuzzy">
+
+Domyślnie tworzone są jednolite krzywe sześcienne, ale nie ma wystarczającej ilości punktów kontrolnych, aby to zrobić. Tak więc, gdy tworzysz krzywą złożona z tylko 2 punktami kontrolnymi, otrzymujesz oczywiście krzywą, która jest pojedynczą liniową krzywą Béziera, dla 3 punktów kontrolnych otrzymujesz kwadratową krzywą Béziera, a dla 5 punktów kontrolnych otrzymujesz sześcienną krzywą złożoną z 2 segmentów Béziera. *(Start 0.20)* Możesz również użyć klawisza D podczas tworzenia krzywej B-spline, aby ustawić jej stopień *(nadal będzie ona opadać do niższego stopnia, jeśli podano mniej punktów)*.
+
+
+</div>
 
 Aby utworzyć periodyczne krzywe złożone *(B-splajny, które tworzą zamkniętą krzywą)*, użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width   *16px"> [Okresowa krzywa złożona ...](Sketcher_CreatePeriodicBSpline/pl.md)**. Nie jest konieczne ustawianie ostatniego punktu kontrolnego na pierwszym, ponieważ linia krzywej zostanie automatycznie zamknięta   *
 
@@ -172,11 +204,7 @@ Aby zmienić krotność węzłów, użyj przycisków paska narzędzi **[<img src
 
 Wokół każdego punktu kontrolnego znajduje się ciemnożółte koło. Jego promień określa wagę dla danego punktu kontrolnego. Domyślnie wszystkie okręgi mają promień równy *1*. Jest to oznaczone za pomocą wiązania promienia dla pierwszego okręgu punktu kontrolnego.
 
-Aby utworzyć niejednolitą krzywą złożoną, wagi muszą być różne. Aby to osiągnąć, możesz albo zmienić [wiązanie promienia](Sketcher_ConstrainRadius/pl.md) pierwszego punktu okręgu kontrolnego   *
-
-![](images/Sketcher_Changing-control-point-weigth-constraint.gif )
-
-lub usunąć wiązanie, równości wszystkich okręgów, a następnie ustawić odrębne wiązania promienia dla okręgów.
+To create a rational B-spline the weights have to be made independent. To achieve that you can delete the constraint that all circles are equal and then set different radius constraints for the circles.
 
 Jeśli nie ustawiono żadnego wiązania promienia, można również zmienić promień, przeciągając go   *
 
@@ -184,13 +212,23 @@ Jeśli nie ustawiono żadnego wiązania promienia, można również zmienić pro
 
 W przykładzie przeciągania widać, że duża waga przyciąga krzywą do punktu kontrolnego, podczas gdy bardzo mała waga zmienia krzywą tak, jakby punkt kontrolny prawie nie istniał.
 
-Kiedy spojrzysz na [funkcję tworzenia](B-Splines/pl#Niejednorodne_krzywe_B-spline.md) dla niejednorodnych racjonalnych krzywych złożonych zobaczysz, że waga równa zero doprowadziłaby do dzielenia przez zero. Dlatego możesz określić tylko wagi większe od zera.
+Kiedy spojrzysz na [funkcję tworzenia](B-Splines/pl#Niejednorodne_krzywe_B-spline.md) dla niejednorodnych racjonalnych krzywych złożonych zobaczysz, że waga równa zero doprowadziłaby do dzielenia przez zero. Ujemne wagi są teoretycznie możliwe, ale nie są wspierane. Dlatego możesz określić tylko wagi większe od zera.
+
+**Note   *** When dragging points, knots or widths, the circle diameters denoting the weight will change. This is because the diameter depends on the overall B-spline length for visualization reasons. The actual weight is not changed.
 
 ### Edycja węzłów 
 
 Nowe węzły można dodawać za pomocą przycisku **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width   *24px"> [Dodaj węzeł krzywej złozonej](Sketcher_BSplineInsertKnot/pl.md)**. {{Version/pl|0.20}}
 
+
+<div class="mw-translate-fuzzy">
+
 Usuwanie węzłów nie jest jeszcze możliwe, zobacz sekcję [Ograniczenia](#Ograniczenia.md).
+
+
+</div>
+
+Zmiana wartości parametru węzła nie jest jeszcze obsługiwana.
 
 ### Wyświetlanie informacji 
 
@@ -222,12 +260,10 @@ Ponieważ postać krzywej B-splajnu nie mówi wiele o jej właściwościach, Fre
 
 ### Ograniczenia
 
-W chwili obecnej *(FreeCAD v0.19)* istnieją pewne ograniczenia podczas używania krzywych złożonych, które powinieneś znać   *
+W chwili obecnej *(FreeCAD v0.20)* istnieją pewne ograniczenia podczas używania krzywych złożonych, które powinieneś znać   *
 
 1.  Nie można ustawić wiązań stycznych.W tym przykładzie <img alt="" src=images/Sketcher_spline-limit-tangential.png  style="width   *450px;"> chcesz zapewnić, że krzywa dotknie niebieskiej krzywej 2 razy stycznie. Byłoby to użyteczne, ponieważ niebieska linia może być na przykład przestrzenną granicą dla twojego projektu.
-2.  Nie można wstawić nowego punktu kontrolnego pomiędzy dwa wybrane istniejące punkty kontrolne. Nie ma innego sposobu niż przerysowanie linii krzywej.
-3.  Nie można usunąć punktu kontrolnego. Również w tym przypadku musisz przerysować krzywą.
-4.  Nie można utworzyć krzywej odsunięcia dla linii krzywej złożonej używając narzędzia środowiska Rysunek Roboczy [Odsunięcie](Draft_Offset/pl.md).
+2.  Nie można utworzyć krzywej odsunięcia dla linii krzywej złożonej używając narzędzia środowiska Rysunek Roboczy [Odsunięcie](Draft_Offset/pl.md).
 
 ## Przypadki typowego zastosowania 
 

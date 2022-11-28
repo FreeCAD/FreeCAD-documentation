@@ -39,6 +39,8 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg‎  style="width   *32px;"> [Mappa schizzo su faccia](Sketcher_MapSketch/it.md)   * mappa uno schizzo su un piano precedentemente selezionato o su una faccia del corpo attivo.
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Validate sketch](Sketcher_ValidateSketch.md)   * verifies the tolerance of different points and adjusts them.
+
 ### Strumenti di modellazione di Part Design 
 
 #### Strumenti di riferimento 

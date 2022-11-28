@@ -17,10 +17,10 @@ C\'est l\'endroit où mettre toutes sortes de choses liées à FreeCAD! Si vous 
 
 ## Les Addons de la communauté FreeCAD 
 
-Ce sont des ateliers, scripts, macros et addons développés par la communauté FreeCAD pour FreeCAD. À partir de la v0.17, le gestionnaire d\'addon a été implémenté dans le noyau de FreeCAD, et il est extrêmement pratique d\'installer des addons approuvés par la communauté.
+Ce sont des ateliers, scripts, macros et extensions développés par la communauté FreeCAD pour FreeCAD. À partir de la v0.17, le gestionnaire des extensions a été implémenté dans le noyau de FreeCAD, et il est extrêmement pratique d\'installer des extensions approuvées par la communauté.
 
--   [dépôt des addons de FreeCAD sous GitHub](https   *//github.com/FreeCAD/FreeCAD-addons) est le dépôt GitHub qui héberge les addons FreeCAD.
--   [Ateliers externes](External_workbenches/fr.md) est la page wiki dédiée à expliquer plus de détails sur chaque Addon.
+-   [Dépôt des extensions de FreeCAD sous GitHub](https   *//github.com/FreeCAD/FreeCAD-addons) est le dépôt GitHub qui héberge les extensions de FreeCAD.
+-   [Ateliers externes](External_workbenches/fr.md) est la page wiki dédiée à expliquer plus de détails sur chaque extension.
 
 ## Publicité
 

@@ -26,10 +26,6 @@ This tool creates a new path by duplicating another path several times at a cert
 
 -    **Copies**   * The number of copies (not counting the original) for each direction
 
-## Limitations
-
-In FreeCAD versions prior to FreeCAD 0.19.4, this feature only works on actual path operations, not on derivative paths produced by Path Dressups. In that case the Array icon is disabled. Issue was fixed in FreeCAD 0.20.
-
 ## Scripting
 
 

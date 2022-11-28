@@ -90,7 +90,7 @@ FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the w
 
 ## Chargement de l\'interface utilisateur à partir d\'un fichier .ui Qt Designer 
 
-La clé pour charger un fichier d\'interface utilisateur avec succès est d\'utiliser le chemin d\'accès complet au fichier. Par exemple, le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) le fait comme ceci   *
+La clé pour charger un fichier d\'interface utilisateur avec succès est d\'utiliser le chemin d\'accès complet au fichier. Par exemple, le [Gestionnaire des extensions](Std_AddonMgr/fr.md) le fait comme ceci    *
 
 
 ```python

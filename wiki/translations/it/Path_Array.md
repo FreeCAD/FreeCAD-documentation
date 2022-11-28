@@ -38,10 +38,6 @@ Questo strumento crea un nuovo percorso duplicando più volte un altro percorso 
 
 </div>
 
-## Limitations
-
-This feature only works on actual path operations, not on derivative paths produced by Path Dressups. In that case the Array icon is disabled.
-
 ## Scripting
 
 

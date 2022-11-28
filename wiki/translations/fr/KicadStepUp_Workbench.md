@@ -35,7 +35,7 @@ Vous trouverez tous ces concepts [KiCad](https   *//kicad.org/) dans l\'atelier 
 
 ## Installation
 
-KicadStepUp fait partie des [ateliers externes](External_workbenches/fr.md) et peut être installé automatiquement à l\'aide du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), fourni avec FreeCAD 0.17 et ultérieurement, dans le menu **Outils → Gestionnaire d'Addon**.
+KicadStepUp fait partie des [ateliers externes](External_workbenches/fr.md) et peut être installé automatiquement à l\'aide du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md), fourni avec FreeCAD 0.17 et ultérieurement, dans le menu **Outils → Gestionnaire des extensions**.
 
 ## Utilisation
 

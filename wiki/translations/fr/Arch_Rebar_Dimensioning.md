@@ -4,7 +4,7 @@
    Name/fr   *Arch Dimensions des armatures
    MenuLocation   *Arch → Rebar → Rebar Dimensioning
    Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   SeeAlso   *[Arch Dessin d'armatures](Arch_Rebar_Drawing/fr.md), [Addon Reinforcement](Reinforcement_Addon/fr.md)
+   SeeAlso   *[Arch Dessin d'armatures](Arch_Rebar_Drawing/fr.md), [Extension Reinforcement](Reinforcement_Addon/fr.md)
    Version   *0.19
 ---
 
@@ -16,7 +16,7 @@ Remarque   * le travail ci-dessous est présent dans la branche de développemen
 
 L\'outil [Dimensionnement des armatures](Arch_Rebar_Dimensioning/fr.md) permet à l\'utilisateur de créer des cotations pour les armatures dans [Dessin d\'armatures](Arch_Rebar_Drawing/fr.md).
 
-Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[extension Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width   *1000px;">
 
@@ -26,7 +26,7 @@ Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md
 
 ## Utilisation
 
-1\. Ouvrez le modèle FreeCAD contenant les barres d\'armature créées à l\'aide de [Addon Reinforcement](Reinforcement_Addon/fr.md).
+1\. Ouvrez le modèle FreeCAD contenant les barres d\'armature créées à l\'aide de l\'[extension Reinforcement](Reinforcement_Addon/fr.md).
 
 2\. Dans la console FreeCAD Python, copiez l\'extrait de code ci-dessous pour générer le dessin et la cotation des armatures à partir de différentes vues pour chaque élément [Arch Structure](Arch_Structure/fr.md). 
 ```python

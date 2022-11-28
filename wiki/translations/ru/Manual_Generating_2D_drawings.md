@@ -20,7 +20,13 @@
 
 Готовые чертёжные листы могут быть напечатаны или экспортированы в файлы форматов [SVG](https   *//ru.wikipedia.org/wiki/SVG), PDF или [DXF](https   *//ru.wikipedia.org/wiki/DXF).
 
+
+<div class="mw-translate-fuzzy">
+
 В следующем примере мы посмотрим как создать простой чертёж модели стула, находящейся в [библиотеке FreeCAD](https   *//github.com/FreeCAD/FreeCAD-library) (Furniture → Chairs → IkeaLikeChair). Библиотека FreeCAD может быть легко добавлена к Вашей установке FreeCAD (смотрите главу [установка](Manual   *Installing/ru.md) данного руководства), или Вы можете просто загрузить модель с веб-страницы библиотеки, или через прямую ссылку внизу этой главы.
+
+
+</div>
 
 ![](images/Exercise_TechDraw_01.svg )
 

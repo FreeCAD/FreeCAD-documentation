@@ -67,6 +67,8 @@ TechDraw был официально включен в FreeCAD начиная с
 
 </div>
 
+-   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Insert Section Views   *
+
 
 <div class="mw-translate-fuzzy">
 
@@ -75,7 +77,7 @@ TechDraw был официально включен в FreeCAD начиная с
 
 </div>
 
--   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
+   ** <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -544,10 +546,16 @@ These are tools for changing the stacking order which controls the apparent dept
 
 ## Программирование
 
+
+<div class="mw-translate-fuzzy">
+
 Инструменты TechDraw можно использовать в [macros](macros/ru.md) и в консоли [Python](Python/ru.md) с помощью двух APIs.
 
 -   [TechDraw API](TechDraw_API/ru.md)
 -   [TechDrawGui API](TechDrawGui_API/ru.md)
+
+
+</div>
 
 ## Ограничения
 

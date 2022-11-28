@@ -206,7 +206,13 @@ Sketcher не предназначен для создания 2D чертеже
 
 Эти ограничения не связаны с числовыми данными.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [Совпадение](Sketcher_ConstrainCoincident/ru.md)   * Прикрепляет точку к одной или нескольким другим (совпадающим) точкам.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *32px;"> [Привязать точку к объекту](Sketcher_ConstrainPointOnObject/ru.md)   * Прикрепляет точку к отрезку, дуге или оси координат.
 

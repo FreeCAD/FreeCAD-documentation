@@ -11,7 +11,7 @@ L'atelier TechDraw vous permet de créer des feuilles, qui peuvent être vides o
 
 Les feuilles de dessin, une fois complétées, peuvent être imprimées ou exportées sous forme de fichiers [SVG](https   *//fr.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF ou [DXF](https   *//fr.wikipedia.org/wiki/Drawing_eXchange_Format).
 
-Dans l\'exercice suivant, nous verrons comment créer un dessin simple d\'un modèle de chaise trouvé dans la [bibliothèque FreeCAD](https   *//github.com/FreeCAD/FreeCAD-library) (Furniture → Chairs → IkeaLikeChair). La bibliothèque FreeCAD peut facilement être ajoutée à votre installation FreeCAD (reportez-vous au chapitre de ce [Manuel    * Installation](Manual   *Installing/fr.md)), ou vous pouvez télécharger simplement le modèle à partir de la page Web de la bibliothèque ou via le lien direct fourni au bas de ce chapitre.
+Dans l\'exercice suivant, nous verrons comment créer un dessin simple d\'un modèle de chaise trouvé dans la [bibliothèque FreeCAD](https   *//github.com/FreeCAD/FreeCAD-library) (Industrial Design → Chairs → IkeaLikeChair). La bibliothèque FreeCAD peut facilement être ajoutée à votre installation FreeCAD (reportez-vous au chapitre de ce [Manuel    * Installation](Manual   *Installing/fr.md)), ou vous pouvez télécharger simplement le modèle à partir de la page Web de la bibliothèque ou via le lien direct fourni au bas de ce chapitre.
 
 ![](images/Exercise_TechDraw_01.svg )
 

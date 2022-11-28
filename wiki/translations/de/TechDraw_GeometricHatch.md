@@ -63,10 +63,7 @@ ist das Verzeichnis, in dem FreeCAD installiert wurde, zum Beispiel
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das GeometrischeSchraffur Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden   *
 

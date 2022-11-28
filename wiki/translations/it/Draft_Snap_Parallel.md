@@ -3,7 +3,6 @@
 - GuiCommand   */it
    Name   *Draft Snap Parallel
    Name/it   *Parallela
-   Icon   *Snap Parallel.svg
    MenuLocation   *Draft → [Aggancio](Draft_Snap/it.md) → Parallela
    Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut   *

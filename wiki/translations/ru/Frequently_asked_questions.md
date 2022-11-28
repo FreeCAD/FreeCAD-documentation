@@ -23,7 +23,7 @@ FreeCAD\'s underlying geometric modeling kernel, the [OpenCASCADE Technology](ht
 
 #### Для Mac пользователей 
 
-Only the MacIntel architecture is supported. There are no builds available for the PowerPC architecture.
+Поддерживается только архитектура MacIntel. Для архитектуры PowerPC сборок не существует.
 
 ### Что, если Я хочу скомпилировать FreeCAD самостоятельно? 
 
@@ -47,7 +47,7 @@ On some older Windows XP systems you may get an error message like this   * **Th
 
 Некоторые части FreeCAD зависят от внешнего модуля Python называемого Pivy. В Windows pivy включена в установочный пакет FreeCAD. В системах Debian/Ubuntu пакет python-pivy входит в стандартные репозитории. В других системах в данный момент вам, возможно, придётся самостоятельно собирать pivy. Обратите внимание, что, хотя некоторые инструменты не будут работать без pivy, остальные части FreeCAD будут работать нормально.
 
-### У меня проблемы с отображением, 3D-вид работает неправильно, при перемещении / повороте изображения появляется мусор и т.п. 
+### Проблемы с отображением, 3D-Вид работает некорректно, при его перемещении или повороте появляются артефакты и т.д. 
 
 FreeCAD depends on OpenGL for displaying 3D contents, and therefore requires a working OpenGL environment. On some systems, OpenGL is not activated by default, and you might need to install or upgrade your graphics drivers. This problems happens most often on Linux systems or on virtual systems. If you are on a Linux-based system, try the following steps   *
 
@@ -81,7 +81,7 @@ If everything seems correct, describe the problem on the [forum](http   *//forum
 
 ### FreeCAD зависает после запуска 
 
-When starting FreeCAD the GUI appears almost immediately but the GUI is frozen and the cpu is about 99%. This can happen on the KDE desktop when using the Oxygen theme. That\'s a bug in the Oxygen theme and choosing another theme should fix this issue.
+При запуске FreeCAD графический интерфейс появляется почти моментально, но он зависает и загрузка процессора составляет около 99%. Такая ситуация может произойти на рабочем столе KDE при использовании темы Oxygen. Причиной является ошибка в теме Oxygen, выбор другой темы должен решить эту проблему.
 
 ### FreeCAD crashes on creating a new document or opening a file 
 
@@ -99,13 +99,7 @@ If there is any difference, either FreeCAD or SoQt must be recompiled (better to
 
 Ошибка сегментации происходит в {{SystemOutput|vbo_save_playback_vertex_list()}}. Это означает, что в графическом драйвере плохая реализация VBO. Чтобы избежать кэширования вызовов OpenGL, вы можете попытаться установить переменную среды {{SystemInput | <nowiki> IV_SEPARATOR_MAX_CACHES = 0 </nowiki>}} и перезапустить FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
-### У меня проблемы с запуском FreeCAD на Mac OS X 
-
-
-</div>
+### Проблемы с запуском FreeCAD на Mac OS 
 
 
 <div class="mw-translate-fuzzy">
@@ -121,15 +115,15 @@ If there is any difference, either FreeCAD or SoQt must be recompiled (better to
 
 You most likely have bad windows regional settings set-up. Please check if you have the same symbol for decimal separator and digit grouping symbol in your regional settings. If you do, [adapt your system settings](http   *//forum.freecadweb.org/viewtopic.php?f=4&t=2655&p=20046#p20041) to use different characters for the digit grouping symbol and decimal separator. Note that it is not mandatory to have dot as decimal separator. It is mandatory to use different symbols in these two settings. 
 
-### FreeCAD was running normally, and suddenly it doesn\'t start anymore 
+### FreeCAD работал нормально, но вдруг перестал запускаться 
 
-This can also happen if you had an older version of FreeCAD installed, and you upgraded to a newer version. In that process, the configuration files of FreeCAD might have been corrupted for some reason, and now FreeCAD cannot read them anymore, and fails to start. The solution is simply to delete these configuration files, so FreeCAD will recreate them on first run.
+Данная ситуация может произойти, если у вас была установлена более старая версия FreeCAD, и вы обновили её до более новой версии. В процессе обновления файлы конфигурации FreeCAD могли быть по какой-то причине повреждены, и теперь FreeCAD больше не может их читать и не запускается. Решение состоит в том, чтобы просто удалить эти файлы конфигурации, чтобы FreeCAD заново их воссоздал при первом запуске.
 
 -   On Windows   * Open the file explorer, and write **%APPDATA%\FreeCAD** as the file path. Once there, delete the files **user.cfg** and **system.cfg**
 -   On Linux   * Navigate to **/home/USERNAME/.local/share/FreeCAD** (<small>(v0.20)</small> ) or **/home/USERNAME/.FreeCAD** ({{VersionMinus|0.19}}) and delete the files **user.cfg** and **system.cfg**
 -   On Mac   * Navigate to **/Users/USERNAME/Library/Preferences/FreeCAD** and delete the files **user.cfg** and **system.cfg**
 
-FreeCAD should now start again normally with all its settings reset.
+Теперь FreeCAD должен нормально запуститься со сбросом всех настроек.
 
 There is a [Macro findConfigFiles](Macro_findConfigFiles.md) available to help in locating your configuration files. It can be installed using the Addon Manager in the Tools menu. **Tools → Addon Manager → Macros → findConfigFiles**. The macro will find your config file folder, copy it to the clipboard, and (attempt to) open that location with your default file browser. It makes no changes to your files or settings.
 
@@ -166,9 +160,9 @@ There is a lot of documentation spread in different places, both on and outside 
 
 Please refer to the [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md) page. Maybe your questions are already answered there.
 
-### Where can I find workarounds for features that FreeCAD currently does not support? 
+### Где можно найти варианты решений для недостающих возможностей FreeCAD? 
 
-Please refer to the [Workarounds](Workarounds.md) page.
+Обратитесь к странице [обходные пути для решения некоторых задач](Workarounds/ru.md).
 
 ## Работа с геометрией Детали 
 
@@ -203,9 +197,9 @@ As we create a model in the [PartDesign Workbench](PartDesign_Workbench.md), eac
 
 To toggle visibility of an object on or off, select it in the hierarchy tree and press **spacebar** on your keyboard. Usually everything but the last item in the hierarchy tree should be greyed out and therefore not visible in the 3D view.
 
-### My parametric objects break when I modify their base sketches 
+### Параметрические объекты ломаются, после изменения их базовых эскизов 
 
-You have met the (in)famous toponaming problem. This is currently a major issue in FreeCAD for newcomers. It is present all over FreeCAD, but is more prominent when using [sketches](Sketcher_Workbench.md). The explanation is simple   * When recalculating a sketch, the geometric entities (edges, faces\...) are rebuilt in a different order, depending on the constraints precedence. They then receive a different name (Edge1, Edge2, Face1, Face2\...). Most subsequent operations depend on these names to identify which subcomponent they work on. Therefore, when the sketch is rebuilt, features that are based on such subcomponents might suddenly get their base geometry changed and give a wrong result.
+Вы столкнулись с проблемой именования геометрических объектов. В настоящее время это основная проблема FreeCAD для начинающих пользователей. Она присутствует во всем FreeCAD, но наиболее заметна при использовании [эскизов](Sketcher_Workbench/ru.md). Объяснение простое   * при перерасчете эскиза геометрические объекты (ребра, грани\...) перестраиваются в другом порядке, в зависимости от порядка существующих в нем ограничений (constraints). Они заново получают имена (Edge1, Edge2\... Face1, Face2\... и т.д.). Большинство последующих операций (выдавливание, скругление и т.д.) привязаны к старым именам. Т.е. при перестроении эскиза операции будут обращаться к именам которые были заложены в них изначально, а не к тем, что были получены заново уже после редактирования, что соответственно приведет к неправильному результату.
 
 This is a very hard problem to overcome (the [Topological Naming Project](Topological_Naming_Project.md) aims at solving it). However, there are many workarounds available to mitigate the problem, and more advanced users generally manage to avoid it completely. A couple of strategies are   *
 
@@ -215,7 +209,7 @@ This is a very hard problem to overcome (the [Topological Naming Project](Topolo
 
 ## Как внести свой вклад в развитие FreeCAD 
 
-### FreeCAD is such a great program! How can I help? 
+### Чем можно помочь для развития FreeCAD? 
 
 There are a lot of different ways to help, even if you are not a programmer. Here are a couple of things you can do   *
 
@@ -230,7 +224,7 @@ There are a lot of different ways to help, even if you are not a programmer. Her
 -   Try to do some Python coding   * You never programmed before but you want to try? Python is easy. Read our [introduction to Python](Introduction_to_Python.md), but beware, you might get addicted quickly!
 -   See the [Help FreeCAD](Help_FreeCAD.md) page for more details on how to contribute.
 
-### How can I get edit permission on the wiki? 
+### Как получить доступ к редактированию вики? 
 
 See the [Work on the documentation](Help_FreeCAD#Work_on_the_documentation.md) page paragraph for more details on how to contribute.
 
@@ -244,11 +238,11 @@ This wiki is hosting a lot of contents. The most up-to-date and interesting mate
 
 See the [Translate the documentation](Help_FreeCAD#Work_on_the_documentation.md) page paragraph for more details on how to translate the wiki.
 
-### Can I buy swag? 
+### Можно ли приобрести мерч? 
 
-FreeCAD doesn\'t offer swag you can order to support the project. But you can create your own. See our [Swag](Swag.md) page for instructions.
+FreeCAD не предлагает \"фирменные\" сувениры собственного производства, которые вы можете заказать для поддержки проекта. Но вы можете их создать самостоятельно. Инструкции см. на нашей странице [Сувениры](Swag/ru.md).
 
-## Licensing, copying and reuse 
+## Лицензирование, авторские права и использование 
 
 ### Do I have to pay something to use FreeCAD? 
 

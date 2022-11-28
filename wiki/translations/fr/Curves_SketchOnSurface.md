@@ -17,7 +17,7 @@ Cet outil applique une esquisse sur une face comme une étiquette sur une boutei
 
 ## Utilisation
 
-1.  Passez à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Curves](Curves_Workbench/fr.md) (l\'installation de <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) est nécessaire, si elle n\'est pas déjà installée)
+1.  Passez à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Curves](Curves_Workbench/fr.md) (l\'installation de <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) est nécessaire, si elle n\'est pas déjà installée)
 2.  Il existe 2 méthodes pour utiliser l\'outil SketchOnSurface    *
 3.  ; Vous avez déjà une esquisse que vous voulez appliquer sur une face    *
     1.  Attachez l\'esquisse à la face cible.

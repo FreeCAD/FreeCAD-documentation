@@ -649,6 +649,7 @@ Potrzebne będą następujące biblioteki z oficjalnych repozytoriów   *
 -   pyside2
 -   python-matplotlib
 -   python-netcdf4
+-   python-packaging
 -   qt5-svg
 -   qt5-webengine
 -   cmake
@@ -665,7 +666,7 @@ Potrzebne będą następujące biblioteki z oficjalnych repozytoriów   *
 
 
 ```python
-sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 qt5-svg qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
+sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 python-packaging qt5-svg qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
 ```
 
 
@@ -849,44 +850,17 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad
 
 #### Kompilacja w oparciu o Python 3 i Qt5 
 
+Wsparcie dla środowiska Python 2 i Qt4 zostało wycofane w FreeCAD 0.20 i nie jest konieczne wyraźne włączenie Qt5 i Python 3, jeśli kompilujemy najnowsze wersje. Obsługa Qt6 jest obecnie w fazie rozwoju i jeszcze nie działa. Jeśli nie planujesz pomagać w migracji Qt6, parametr FREECAD_QT_VERSION powinien być ustawiony na wartość \"Auto\" *(domyślnie)* lub jawnie na \"5\".
 
-<div class="mw-translate-fuzzy">
-
-Domyślnie FreeCAD 0.19 i wcześniejsze kompilowane są z Pythonem 2 i Qt4. Ponieważ te dwa pakiety są przestarzałe, lepiej jest budować przy użyciu Pythona 3 i Qt5. Wsparcie dla Python 2 i Qt4 zostało usunięte w FreeCAD 0.20 i nie jest konieczne wyraźne włączanie Qt5 i Python 3, jeśli kompilujesz najnowsze wersje rozwojowe.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-dla wersji 0.20_dev   *
-
-
-</div>
-
-
-{{Code|lang=bash|code=
+dla wersji 0.20_dev oraz 0.21_dev   * {{Code|lang=bash|code=
 cmake ../freecad-source
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Należy pamiętać, że przy przechodzeniu między kompilacją 0.19 i 0.20 może być konieczne usunięcie pliku CMakeCache.txt przed uruchomieniem cmake.
-
-
-</div>
+Należy pamiętać, że przy przechodzeniu między kompilacją 0.20 i 0.21_dev może być konieczne usunięcie pliku CMakeCache.txt przed uruchomieniem cmake.
 
 #### Kompilacja dla określonej wersji Pythona 
 
-
-<div class="mw-translate-fuzzy">
-
-Jeśli domyślny plik wykonywalny `python` w Twoim systemie jest dowiązaniem symbolicznym do Pythona 2, `cmake` będzie próbował skonfigurować FreeCAD dla tej wersji. Możesz wybrać inną wersję środowiska Python, podając ścieżkę do konkretnego pliku wykonywalnego   *
-
-
-</div>
+Jeśli domyślny plik wykonywalny `python` w Twoim systemie jest dowiązaniem symbolicznym do Pythona 2, `cmake` będzie próbował skonfigurować FreeCAD dla tej wersji. Musisz wybrać inną wersję środowiska Python, podając ścieżkę do konkretnego pliku wykonywalnego   *
 
 
 {{Code|lang=bash|code=

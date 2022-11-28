@@ -14,7 +14,7 @@ Esse texto é uma introdução muito básica e não um tutorial completo. Mas es
 
 ## O interpretador 
 
-Usually when writing computer programs, you open a text editor or your special programming environment (which is basically a text editor with some additional tools), write your program, then compile and execute. Often one or more errors were made during entry, so your program won\'t work. You may even get an error message telling you what went wrong. Then you go back to your text editor, correct the mistakes, run again, repeating until your program works as intended.
+Geralmente, quando se escreve programas de computador, você ira abrir um editor de texto ou editor de código para desenvolvimentos (que basicamente é um editor de texto com algumas ferramentas adicionais), escreve seu código, compila e executa. É comum acontecer um ou mais erros que impedem seu programa de funcionar, provavelmente um erro de digitação ou sintaxe, então seu programa não funcionará. Na maioria dos casos irá receber uma mensagem de erro dizendo o que deu errado. Então você volta ao seu editor de texto, corrige os erros, executa novamente, repetindo até que seu programa funcione como pretendido.
 
 In Python that whole process can be done transparently inside the Python interpreter. The interpreter is a Python window with a command prompt, where you can simply type Python code. If you have installed Python on your computer (download it from the [Python website](https   *//www.python.org/) if you are on Windows or Mac, install it from your package repository if you are on GNU/Linux), you will have a Python interpreter in your start menu. But, as already mentioned, FreeCAD also has a built-in Python interpreter   * the [Python console](Python_console.md).
 

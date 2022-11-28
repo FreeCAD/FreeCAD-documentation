@@ -39,6 +39,8 @@
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width   *32px;"> [Разместить эскиз на грани](Sketcher_MapSketch/ru.md)   * сопоставляет эскиз с ранее выбранной плоскостью или гранью активного тела.
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Validate sketch](Sketcher_ValidateSketch.md)   * verifies the tolerance of different points and adjusts them.
+
 ### Инструменты моделирования Part Design 
 
 #### Инструменты создания опорных элементов 

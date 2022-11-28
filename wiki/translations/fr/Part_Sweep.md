@@ -39,13 +39,13 @@ L\'outil de balayage est similaire à l\'outil <img alt="" src=images/Part_Loft.
 
 ### Solide
 
-Si \"Solide\" est défini à \"true\" (vrai), FreeCAD crée un solide, pourvu que les profils forment une géométrie fermée; si défini à \"false\" (faux), FreeCAD crée une face ou (si plus d\'une face) crée une coque pour les profils ouverts ou fermés.
+Si \"Solid\" est défini à \"true\" (vrai), FreeCAD crée un solide, pourvu que les profils forment une géométrie fermée; si défini à \"false\" (faux), FreeCAD crée une face ou (si plus d\'une face) crée une coque pour les profils ouverts ou fermés.
 
 ### Frenet
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width   *500px;">
 
-Les propriétés \"Frenet\" contrôlent la façon dont l\'orientation du profil change quand il suit la trajectoire de balayage. Si \"Frenet\" est \"false\" (faux), l\'orientation du profil est maintenu cohérent point à point. La déformation minimum a la torsion. Non intuitivement, lorsqu\'un profil est balayé le long d\'une hélice, il en résulte une orientation du profil glissant lentement (en rotation), quand il suit l\'hélice. Régler \"Frenet\" a \"true\", on évite ce genre de dérive.
+La propriété \"Frenet\" contrôle la façon dont l\'orientation du profil change quand il suit la trajectoire de balayage. Si \"Frenet\" est \"false\" (faux), l\'orientation du profil est maintenu cohérent point à point. La déformation minimum a la torsion. Non intuitivement, lorsqu\'un profil est balayé le long d\'une hélice, il en résulte une orientation du profil glissant lentement (en rotation), quand il suit l\'hélice. Régler \"Frenet\" a \"true\", on évite ce genre de dérive.
 
 Si \"Frenet\" est à \"true\", l\'orientation du profil est calculée à partir de la courbure et des vecteurs tangents du chemin. Cela permet de maintenir l\'orientation du profil uniforme lors du balayage le long d\'une hélice (parce que vecteur de courbure d\'une hélice droite pointe toujours vers son axe). Toutefois, lorsque le chemin n\'est pas une hélice, la forme obtenue peut parfois avoir d\'étranges torsions. Pour plus d\'informations, voir [Repère de Frenet](https   *//fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet).
 
@@ -56,29 +56,29 @@ Si \"Frenet\" est à \"true\", l\'orientation du profil est calculée à partir 
 ## Profil   * Limitations et complications 
 
 -   Un sommet ou un point
-    -   Un sommet ou un point ne peuvent être utilisés comme le premier et / ou le dernier profil dans la liste des profils.
+    -   Un sommet ou un point ne peut être utilisé que comme premier et/ou dernier profil dans la liste des profils.
         -   Par exemple
-            -   vous ne pouvez pas balayer d\'un cercle à un point, à une ellipse.
-            -   Cependant vous pourriez Balayer d\'un point à un cercle à une ellipse à un autre point.
--   Les Profils géométrique ouvert ou fermé ne peuvent pas être mélangés dans un seul balayage
-    -   Dans un balayage, tous les profils (lignes, fils etc.) doivent être soit ouvert ou fermé.
+            -   Vous ne pouvez pas effectuer un balayage d\'un cercle à un point, puis à une ellipse.
+            -   Par contre, vous pouvez effectuer un balayage à partir d\'un point, d\'un cercle, d\'une ellipse et d\'un autre point.
+-   Les profils de géométrie ouverte ou fermée ne peuvent pas être mélangés dans un seul sweep.
+    -   Dans un même balayage, tous les profils (lignes, polylignes, etc.) doivent être ouverts ou fermés.
         -   Par exemple
-            -   FreeCAD ne peut pas balayer entre un Cercle et une Ligne par défaut.
--   Atelier Draft (planche à dessin) projets
-    -   Les projets de l\'Atelier Draft peuvent être directement utilisés comme un profil dans FreeCAD 0,14 ou versions plus élevées.
-        -   Par exemple, les projets suivants de Draft peuvent être utilisés comme profils dans un Balayage
-            -   Polygone.
-            -   Point, ligne, fil,
-            -   B-spline, Courbe de Bézier
-            -   Cercle, Ellipse, Rectangle
--   PartDesign Sketches (Conception de Pièces Esquisse)
-    -   Le profil peut être créé avec un croquis. Toutefois, seule une esquisse valide sera affichée dans la liste pour être disponible pour la sélection.
-    -   Le croquis doit contenir un seul fil ou ligne ouverte ou fermée (peut être plusieurs lignes, si ces lignes sont toutes connectées car elles représentent alors un seul fil)
--   Part Workbench (Atelier Pièce)
-    -   Le profil peut être une primitive géométrique valide qui peut être créé avec l\'outil [Primitives](Part_Primitives/fr.md)
-        -   par exemple les primitives géométriques suivantes peuvent être un profil valide
-            -   Point (Sommet), ligne (Arête)
-            -   Hélice, Spirale
+            -   FreeCAD ne peut pas effectuer un balayage entre un Part cercle et une Part ligne par défaut.
+-   Fonctions de l\'atelier Draft
+    -   Les fonctions de l\'atelier Draft peuvent être utilisées directement comme profil dans FreeCAD 0.14 ou plus.
+        -   Par exemple, les fonctions suivantes peuvent être utilisées comme profils dans un Part Balayage
+            -   Draft Polygone.
+            -   Draft Point, Ligne, Polyligne
+            -   Draft B-spline, Courbe de Bézier
+            -   Draft Cercle, Ellipse, Rectangle
+-   PartDesign Esquisses
+    -   Le profil peut être créé avec une esquisse. Toutefois, seule une esquisse valide sera affichée dans la liste et pourra être sélectionnée.
+    -   L\'esquisse ne doit contenir qu\'une seule polyligne ou ligne ouverte ou fermée (il peut s\'agir de plusieurs lignes, si ces lignes sont toutes connectées telles quelles, elles constituent alors une seule polyligne).
+-   Atelier Part
+    -   Le profil peut être une Part primitive géométrique valide, qui peut être créée à l\'aide des [Part Outils primitives](Part_Primitives/fr.md).
+        -   Par exemple, les Part primitives géométriques suivantes peuvent constituer un profil valide
+            -   Point (Vertex), Ligne (Edge)
+            -   Helix, Spirale
             -   Cercle, Ellipse
             -   Polygone régulier
             -   Plan (Face)

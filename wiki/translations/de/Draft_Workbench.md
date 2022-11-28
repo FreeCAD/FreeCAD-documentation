@@ -1,48 +1,36 @@
-# <img alt="Entwurf Arbeitsbereich Symbol" src=images/Workbench_Draft.svg  style="width   *64px;"> Draft Workbench/de
+# <img alt="Draft Arbeitsbereichssymbol" src=images/Workbench_Draft.svg  style="width   *64px;"> Draft Workbench/de
 
 
 {{TOCright}}
 
 ## Einführung
 
-Die <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> **Arbeitsbereich Entwurf** ist in erster Linie auf die Erstellung und Änderung von 2D Objekten in FreeCAD ausgerichtet. Er ist jedoch nicht auf die XY Ebene des globalen Koordinatensystems begrenzt. Seine Objekte können eine beliebige Ausrichtung und Position im 3D Raum haben, und einige Entwurfsobjekte können entweder planar oder nicht-planar sein.
+Der Arbeitsbereich <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> **Draft** ist in erster Linie auf die Erstellung und Änderung von 2D-Objekten in FreeCAD ausgerichtet. Er ist jedoch nicht auf die XY-Ebene des globalen Koordinatensystems begrenzt. Seine Objekte können eine beliebige Ausrichtung und Position im 3D-Raum haben, und einige Draft-Objekte können entweder planar oder nicht-planar sein.
 
-Entwurfsobjekte können für das allgemeine Entwerfen verwendet werden, ähnlich dem was mit Inkscape oder AutoCAD getan werden kann. Sie können aber auch die Grundlage für die Erstellung von 3D Objekten in anderen Arbeitsbereichen bilden. Ein [Entwurf Draht](Draft_Wire/de.md) kann den Pfad einer [Architektur Wand](Arch_Wall/de.md) definieren, ein [Entwurf Polygon](Draft_Polygon/de.md) kann mit [Part Extrudieren](Part_Extrude/de.md) extrudiert werden, usw. Viele der [Entwurfsmodifizierungswerkzeuge](#Modifikation.md) können auch auf 2D und 3D Objekte angewendet werden, die mit anderen Arbeitsbereichen erstellt wurden. Du kannst z.B. eine [Skizze](Sketcher_Workbench/de.md) [verschieben](Draft_Move/de.md) oder ein [Entwurf OrthoAnordnung](Draft_OrthoArray/de.md) aus einem [Part](Part_Workbench/de.md) Objekt erstellen.
+Draft-Objekte können für allgemeines Zeichnen verwendet werden, ähnlich dem was mit Inkscape oder AutoCAD erstellt werden kann. Sie können aber auch die Grundlage für die Erstellung von 3D-Objekten in anderen Arbeitsbereichen bilden. Ein [Draft Draht](Draft_Wire/de.md) kann den Pfad einer [Arch Wand](Arch_Wall/de.md) definieren, ein [Draft Polygon](Draft_Polygon/de.md) kann mit [Part Extrudieren](Part_Extrude/de.md) extrudiert werden, usw. Viele der [Draft Modifizierungswerkzeuge](#Änderung.md) können auch auf 2D- und 3D-Objekte angewendet werden, die mit anderen Arbeitsbereichen erstellt wurden. Man kann z.B. eine [Skizze](Sketcher_Workbench/de.md) [verschieben](Draft_Move/de.md) oder eine [Draft OrthoAnordnung](Draft_OrthoArray/de.md) aus einem [Part](Part_Workbench/de.md)-Objekt erstellen.
 
-Der Arbeitsbereich Entwurf bietet auch Werkzeuge zur Definition einer [Arbeitsebene](Draft_SelectPlane/de.md), eines [Gitters](Draft_Snap_Grid/de.md) und eines [Fangsystems](Draft_Snap/de.md), um die Position der Geometrie präzise zu steuern.
+Der Arbeitsbereich Draft bietet auch Werkzeuge zur Definition einer [Arbeitsebene](Draft_SelectPlane/de.md), eines [Gitters](Draft_Snap_Grid/de.md) und eines [Fangsystems](Draft_Snap/de.md), um die Position der Geometrie präzise zu steuern.
 
-Wenn dein Hauptziel die Erstellung komplexer 2D-Zeichnungen und [DXF](DXF.md) Dateien ist und du keine 3D Modellierung benötigst, ist FreeCAD möglicherweise nicht die richtige Wahl für dich. Vielleicht möchtest du stattdessen ein spezielles Softwareprogramm für technisches Zeichnen in Betracht ziehen, wie [LibreCAD](https   *//de.wikipedia.org/wiki/LibreCAD) oder [QCad](https   *//de.wikipedia.org/wiki/QCad).
+Wenn das Hauptziel die Erstellung komplexer 2D-Zeichnungen und [DXF](DXF/de.md)-Dateien ist und keine 3D-Modelle benötigt werden, ist FreeCAD möglicherweise nicht die richtige Wahl. Stattdessen sollte man eine spezielle (Software-)Anwendung für technisches Zeichnen in Betracht ziehen, wie [LibreCAD](https   *//de.wikipedia.org/wiki/LibreCAD) oder [QCad](https   *//de.wikipedia.org/wiki/QCad).
 
 ![](images/Draft_Workbench_Example.png ) 
-*Das Bild zeigt das [Giter](Draft_Snap_Grid/de.md), das an der XY Ebene ausgerichtet ist.<br>
+*Das Bild zeigt das [Gitter](Draft_Snap_Grid/de.md), das an der XY-Ebene ausgerichtet ist.<br>
 Links, in weiß, mehrere planare Objekte.<br>
-Rechts ein nicht-planarer [Entwurf Draht](Draft_Wire/de.md), der als Pfadobjekt einer [Entwurf PfadAnordnung](Draft_PathArray/de.md) verwendet wird.*
+Rechts ein nicht-planarer [Draft Draht](Draft_Wire/de.md), der als Pfadobjekt einer [Draft PfadAnordnung](Draft_PathArray/de.md) verwendet wird.*
 
-## Entwerfen
+## Zeichnen
 
 -   <img alt="" src=images/Draft_Line.svg  style="width   *32px;"> [Linie](Draft_Line/de.md)   * erzeugt eine gerade Linie.
 
 -   <img alt="" src=images/Draft_Wire.svg  style="width   *32px;"> [Polylinie](Draft_Wire/de.md)   * erzeugt eine Polylinie, eine Folge von mehreren miteinander verbundenen Liniensegmenten.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Verrundung](Draft_Fillet/de.md)   * erzeugt eine Verrundung, eine abgerundete Ecke, oder eine Fase, eine gerade Kante, zwischen zwei [Entwurf Linien](Draft_Line/de.md). {{Version/de|0.19}}
-
-
-</div>
+-   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Verrundung](Draft_Fillet/de.md)   * erzeugt eine Verrundung, eine abgerundete Ecke, oder eine Fase, eine gerade Kante, zwischen zwei [Draft Linien](Draft_Line/de.md).
 
 -   <img alt="" src=images/Draft_Arc.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Arc tools   *
 
    ** <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Bogen](Draft_Arc/de.md)   * erstellt einen Kreisbogen aus einem Zentrum, einem Radius, einem Startwinkel und einem Öffnungswinkel.
 
-
-<div class="mw-translate-fuzzy">
-
-   ** <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Bogen durch 3 Punkte](Draft_Arc_3Points/de.md)   * erzeugt einen Kreisbogen aus drei Punkten, die seinen Umfang definieren. {{Version/de|0.19}}
-
-
-</div>
+   ** <img alt="" src=images/Draft_Arc_3Points.svg  style="width   *32px;"> [Bogen durch 3 Punkte](Draft_Arc_3Points/de.md)   * erzeugt einen Kreisbogen aus drei Punkten, die seinen Umfang festlegen.
 
 -   <img alt="" src=images/Draft_Circle.svg  style="width   *32px;"> [Kreis](Draft_Circle/de.md)   * erzeugt einen Kreis aus einem Zentrum und einem Radius.
 
@@ -56,13 +44,7 @@ Rechts ein nicht-planarer [Entwurf Draht](Draft_Wire/de.md), der als Pfadobjekt 
 
 -   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Bézier tools   *
 
-
-<div class="mw-translate-fuzzy">
-
-   ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Kubische Bézierkurve](Draft_CubicBezCurve/de.md)   * erzeugt eine Bézierkurve dritten Grades. {{Version/de|0.19}}
-
-
-</div>
+   ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Kubische Bézierkurve](Draft_CubicBezCurve/de.md)   * erzeugt eine Bézierkurve dritten Grades.
 
    ** <img alt="" src=images/Draft_BezCurve.svg  style="width   *32px;"> [Bézierkurve](Draft_BezCurve/de.md)   * erstellt eine Bézierkurve aus mehreren Punkten.
 
@@ -72,7 +54,7 @@ Rechts ein nicht-planarer [Entwurf Draht](Draft_Wire/de.md), der als Pfadobjekt 
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width   *32px;"> [FormZeichenfolge](Draft_ShapeString/de.md)   * erstellt eine Verbundform, die eine Textzeichenfolge darstellt.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width   *32px;"> [Hatch](Draft_Hatch.md)   * creates hatches on the planar faces of a selected object. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width   *32px;"> [Schraffur](Draft_Hatch/de.md)   * Erstellt eine Schraffur auf der ebenen Fläche eines ausgewählten Objekts. {{Version/de|0.20}}
 
 ## Anmerkung
 
@@ -168,13 +150,25 @@ With the [Draft annotation scale widget](Draft_annotation_scale_widget.md) the D
 
 ## Draft Fangen-Widget 
 
-The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft Snap toolbar](#Draft_Snap_toolbar.md).
+The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft snap toolbar](#Draft_snap_toolbar.md).
 
 ![](images/Draft_snap_widget_button.png )
 
+
+<div class="mw-translate-fuzzy">
+
 ## Draft Fangen-Symbolleiste 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Die Entwurf Fang Werkzeugleiste erlaubt das Auswählen der aktiven Fangoption. Die zu den aktiven Optionen gehörenden Schaltflächen bleiben niedergedrückt. Für allgemeine Informationen zum Fangen siehe   * [Entwurf Fang](Draft_Snap/de.md)
+
+
+</div>
 
 -   <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *32px;"> [Snap Lock](Draft_Snap_Lock.md)   * enables or disables snapping globally.
 
@@ -188,7 +182,7 @@ Die Entwurf Fang Werkzeugleiste erlaubt das Auswählen der aktiven Fangoption. D
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Snap Intersection](Draft_Snap_Intersection.md)   * snaps to the intersection of two edges.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md)   * snaps to the perpendicular points on faces (<small>(v1.0)</small> ) or edges.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md)   * snaps to the perpendicular points on faces (<small>(v1.0)</small> ) and edges.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Snap Extension](Draft_Snap_Extension.md)   * snaps to an imaginary line that extends beyond the endpoints of straight edges.
 
@@ -196,13 +190,13 @@ Die Entwurf Fang Werkzeugleiste erlaubt das Auswählen der aktiven Fangoption. D
 
 -   <img alt="" src=images/Draft_Snap_Special.svg  style="width   *32px;"> [Snap Special](Draft_Snap_Special.md)   * snaps to special points defined by the object.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Near](Draft_Snap_Near.md)   * snaps to the nearest point on faces or edges.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Near](Draft_Snap_Near.md)   * snaps to the nearest point on faces and edges.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortho](Draft_Snap_Ortho.md)   * snaps to imaginary lines that cross the previous point at 0°, 45°, 90° and 135°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortho](Draft_Snap_Ortho.md)   * snaps to imaginary lines that cross the previous point at multiples of 45°.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *32px;"> [Snap Grid](Draft_Snap_Grid.md)   * snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md)   * projects the snap point onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md)   * projects snap points onto the current [working plane](Draft_SelectPlane.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md)   * shows temporary X and Y dimensions.
 
@@ -234,7 +228,7 @@ Weitere Werkzeuge die, abhängig vom ausgewählten Objekt, über das Menü **Ent
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width   *32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md)   * switches continue mode on or off.
 
--   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width   *32px;"> [Show snap toolbar](Draft_ShowSnapBar.md)   * shows the [Draft Snap toolbar](#Draft_Snap_toolbar.md).
+-   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width   *32px;"> [Show snap toolbar](Draft_ShowSnapBar.md)   * shows the [Draft snap toolbar](#Draft_snap_toolbar.md).
 
 ## Zusätzliche Funktionen 
 

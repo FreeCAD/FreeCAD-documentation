@@ -51,6 +51,8 @@ Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de
 
 </div>
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Validate sketch](Sketcher_ValidateSketch.md)   * verifies the tolerance of different points and adjusts them.
+
 ### Herramientas de modelado 
 
 #### Herramientas de geometría de referencia 

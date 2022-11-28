@@ -432,7 +432,7 @@ Bien qu\'ils puissent avoir des outils similaires, Assembly3 n\'est pas compatib
 
 ## Installation
 
-L\'[Atelier Assembly3](Assembly3_Workbench/fr.md) est disponible (à partir de mars 2022) via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Toutes les dépendances d\'Assembly3 devraient être gérées automatiquement par le gestionnaire d\'addons.
+L\'[atelier Assembly3](Assembly3_Workbench/fr.md) est disponible (à partir de mars 2022) via le [Gestionnaire des extensions](Std_AddonMgr/fr.md). Toutes les dépendances d\'Assembly3 devraient être gérées automatiquement par le gestionnaire des extensions.
 
 #### Installations alternatives 
 
@@ -452,7 +452,7 @@ Comme l\'AppImage ne fonctionne que pour Linux, pour les utilisateurs de Windows
 Il existe de nombreuses façons de créer un assemblage avec Assembly3. Voici la plus simple que vous puissiez faire.
 
    *   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width   *600px;">
-   *   *Résultat final de l\'exemple de mise en route. Dans l\'image, l\'atelier Assembly3 est sélectionné, de sorte que ses multiples barres d\'outils sont visibles. Notez que la \"TabBar\" verticale à gauche de l\'arborescence est un AddOn qui n\'est pas contenu dans FreeCAD standard (peut être installé avec le Gestionnaire d\'Addon).*
+   *   *Résultat final de l\'exemple de mise en route. Dans l\'image, l\'atelier Assembly3 est sélectionné, de sorte que ses multiples barres d\'outils sont visibles. Notez que la \"TabBar\" verticale à gauche de l\'arborescence est une extension qui n\'est pas contenu dans FreeCAD standard (peut être installé avec le Gestionnaire des extensions).*
 
 -   Appuyez sur **<img src="images/Std_New.svg" width=16px> [Nouveau](Std_New/fr.md)** pour créer un nouveau fichier FreeCAD
 -   Changez pour l\'atelier <img alt="" src=images/Assembly3_workbench_icon.svg  style="width   *16px;"> [Assembly3](Assembly3_Workbench/fr.md).

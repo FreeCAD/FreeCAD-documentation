@@ -52,7 +52,13 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Lasse uns zum Beispiel die Fläche jeder Seite unserer obigen Kastenform bestimmen   *
+
+
+</div>
 
 
 ```python
@@ -142,7 +148,13 @@ E3 = Part.Edge(C1)
 E4 = Part.Edge(C2)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Alternativ dazu verfügen Basisgeometrien auch über eine toShape() Funktion, die genau das Gleiche bewirkt   *
+
+
+</div>
 
 
 ```python
@@ -151,7 +163,13 @@ E2 = L2.toShape()
  ...
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Sobald wir eine Reihe von Kanten haben, können wir nun einen Draht bilden, indem wir ihm eine Liste von Kanten geben. Wir müssen uns um die Reihenfolge kümmern.
+
+
+</div>
 
 
 ```python

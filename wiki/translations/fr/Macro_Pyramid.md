@@ -32,7 +32,7 @@ Vous pouvez également utiliser l\'atelier externe [Pyramids_and_Polyhedrons](ht
 
 ## Utilisation
 
--   Installation   * Utiliser l\'outil / Addon manager / Macro\'s <img alt="" src=images/AddonManager.svg  style="width   *24px;"> pour installer la macro.
+-   Installation   * Utiliser Outils / Gestionnaire des extensions / Macro\'s <img alt="" src=images/AddonManager.svg  style="width   *24px;"> pour installer la macro.
 -   Une fois installé, ouvrez Menu → Macro → Macros. Cliquez sur pyramid.py puis sur le bouton {{button|Executer}}.
 -   Une pyramide nouée apparaîtra, semblable à la partie cône
 -   Modifiez les paramètres comme avec Part Cone.

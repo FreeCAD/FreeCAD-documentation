@@ -61,7 +61,7 @@
 
 Смотрите на странице [Robot API example](Robot_API_example/ru.md) описания функций, используемых для моделирования расположения робота.
 
-## Учебники
+## Учебные материалы 
 
 -   [6-ти осевой робот](Robot_6-Axis/ru.md)
 -   [Подготовка VRML для имитации робота](VRML_Preparation_for_Robot_Simulation/ru.md)

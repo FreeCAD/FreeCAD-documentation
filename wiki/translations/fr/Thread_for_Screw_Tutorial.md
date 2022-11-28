@@ -35,7 +35,7 @@ N\'oubliez pas que les formes de filetages prennent beaucoup de mémoire et que 
 
 Utiliser des utilitaires et des pièces que d\'autres personnes ont créés est facile et permet de gagner du temps. Voir la page [ateliers externes](External_workbenches/fr.md) pour plus d\'informations sur les outils externes.
 
-En particulier, trois ressources sont recommandées et peuvent être installées à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)    *
+En particulier, trois ressources sont recommandées et peuvent être installées à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md)    *
 
 -   [Atelier Fasteners](Fasteners_Workbench/fr.md), pour ajouter/fixer diverses fixations aux pièces. Les vis et les écrous ne présentent pas de filetage par défaut, mais cela peut être réglé avec une option.
 -   [Atelier BOLTSFC](BOLTSFC_Workbench/fr.md), pour placer des fixations de la bibliothèque BOLTS.

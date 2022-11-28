@@ -7,11 +7,11 @@
 
 FreeCAD est capable d\'effectuer des tracés en utilisant la bibliothèque [matplotlib](https   *//matplotlib.org/) de [Python](Python/fr.md). Un module est fourni à cette fin, en tant qu\'extension externe dans la version 0.19 et en tant que composant principal à partir de la version 0.20. Les anciennes versions de FreeCAD ne sont pas couvertes par cette documentation.
 
-Les graphiques produits offrent les outils standard [matplotlib](https   *//matplotlib.org/) pour l\'édition et la sauvegarde. En plus de cela, un <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) est fourni en tant que module complémentaire externe offrant des outils plus complets pour modifier le tracé et le sauvegarder. L\'add-on peut être installé avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Les graphiques produits offrent les outils standard [matplotlib](https   *//matplotlib.org/) pour l\'édition et la sauvegarde. En plus de cela, un <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) est fourni en tant qu\'extension externe offrant des outils plus complets pour modifier le tracé et le sauvegarder. L\'extension peut être installée avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ## Module
 
-Le module peut être lancé dans une console Python ou dans une [macro](Macros/fr.md). La première chose que vous devez faire est d\'importer le module. Dans FreeCAD 0.19 vous devez d\'abord installer l\'<img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) à l\'aide du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) et ensuite vous pouvez importer Plot en écrivant    *
+Le module peut être lancé dans une console Python ou dans une [macro](Macros/fr.md). La première chose que vous devez faire est d\'importer le module. Dans FreeCAD 0.19 vous devez d\'abord installer l\'<img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) à l\'aide du [Gestionnaire des extensions](Std_AddonMgr/fr.md) et ensuite vous pouvez importer Plot en écrivant    *
 
 
 ```python
@@ -36,7 +36,7 @@ Vous pouvez trouver des exemples plus complexes dans le [Tutoriel de base](Plot_
 
 ## Outils de l\'atelier 
 
-Si vous décidez d\'installer le module <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) en utilisant le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), vous disposerez des outils suivants pour gérer les tracés créés avec le module    *
+Si vous décidez d\'installer le module <img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) en utilisant le [Gestionnaire des extensions](Std_AddonMgr/fr.md), vous disposerez des outils suivants pour gérer les tracés créés avec le module    *
 
 -   <img alt="" src=images/Plot_Save.svg  style="width   *32px;"> [Sauvegarde](Plot_Save/fr.md)    * Enregistrer sous plusieurs formats. Vous pouvez sélectionner la taille de sortie et la résolution.
 -   <img alt="" src=images/Plot_Axes.svg  style="width   *32px;"> [Axes](Plot_Axes/fr.md)    * Ajouter, effacer ou éditer les axes du graphique.

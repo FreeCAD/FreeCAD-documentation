@@ -3,6 +3,20 @@ This page is a glossary of common FreeCAD terms and definitions.
 
 Jump to letter   * {{CompactTOC|center=yes}}
 
+## 0-9
+
+
+{{gloss}}
+
+
+{{term|3D view|content=[3D view](3D_view.md)}}
+
+
+{{defn|defn=The 3D view is a component of the FreeCAD [interface](Interface.md). It shows a 3D representation of the model.}}
+
+
+{{glossend}}
+
 ## A
 
 
@@ -15,16 +29,16 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{defn|defn=A portion or segment of a circle.}}
 
 
-{{term|Arch|content=[Arch](Arch_Workbench.md)}}
-
-
 {{term|App}}
 
 
-{{defn|defn=The FreeCAD App layer is AKA Graphical interface ([GUI](#GUI.md)) layer.}}
+{{defn|defn=The FreeCAD App layer.}}
 
 
-{{defn|defn=An abbreviation for the Architectural [workbench](#Workbench.md) which is used primarily for modeling buildings and structures.  Closely related to the [Draft Workbench](#Draft.md).}}
+{{term|Arch|content=[Arch](Arch_Workbench.md)}}
+
+
+{{defn|defn=An abbreviation for the Architectural [workbench](#Workbench.md) which is used primarily for modeling buildings and structures. Closely related to the [Draft Workbench](#Draft.md).}}
 
 
 {{term|Assembly|content=[Assembly](Assembly.md)}}
@@ -101,7 +115,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|BOPcheck}}
 
 
-{{defn|defn=A setting that allows the Check Geometry tools in the Part WB and OpenSCAD WB to also check geometry made from [Boolean logic](#Boolean_Logic.md). The default Check Geometry setting for BOPCheck is "false" (or off).  The user can enable BOPCheck to provide more accuracy when running the Check Geometry tool but this comes at the expense of longer Check Geometry processing times.  Beginning with FreeCAD 0.19 the BOPCheck setting is most easily enabled from the Settings portion of the Check Geometry widget.}}
+{{defn|defn=A setting that allows the Check Geometry tools in the Part WB and OpenSCAD WB to also check geometry made from [Boolean logic](#Boolean_Logic.md). The default Check Geometry setting for BOPcheck is "false" (or off). The user can enable BOPcheck to provide more accuracy when running the Check Geometry tool but this comes at the expense of longer Check Geometry processing times. Beginning with FreeCAD 0.19, the BOPcheck setting is most easily enabled from the Settings portion of the Check Geometry widget.}}
 
 
 {{term|brep}}
@@ -169,10 +183,10 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Command|content=[Command](Command.md)}}
 
 
-{{defn|defn=An action invoked from the [Gui](#GUI.md) when you press a toolbar button or type a keyboard shortcut or type into the python console. }}
+{{defn|defn=An action invoked from the [GUI](#GUI.md) when you press a toolbar button or type a keyboard shortcut or type into the Python console. }}
 
 
-{{term|Związek}}
+{{term|Compound}}
 
 
 {{defn|defn=Groups objects together without fusing them like a [boolean union](#Boolean_Operation.md) would.}}
@@ -237,13 +251,13 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Degrees Of Freedom}}
 
 
-{{defn|defn=The number of ways geometry in a [Sketch](#Sketch.md) may vary.  For example, if we have a Sketch consisting of only one point, and the point has no [Constraints](#Constraint.md) applied to it, the point has two [DOF](#DOF.md) because it is free to move both vertically and horizontally.  Similarly, a Sketch consisting of only a single unconstrained circle has three [DOF](#DOF.md) because the circle can move vertically and horizontally and, additionally, the radius is not defined.  It is good practice to constrain a Sketch until it has no [DOF](#DOF.md) remaining, in which case it is said to be [Fully Constrained](#Fully_Constrained.md).}}
+{{defn|defn=The number of ways geometry in a [Sketch](#Sketch.md) may vary. For example, if we have a Sketch consisting of only one point, and the point has no [Constraints](#Constraint.md) applied to it, the point has two [DOF](#DOF.md) because it is free to move both vertically and horizontally. Similarly, a Sketch consisting of only a single unconstrained circle has three [DOF](#DOF.md) because the circle can move vertically and horizontally and, additionally, the radius is not defined. It is good practice to constrain a Sketch until it has no [DOF](#DOF.md) remaining, in which case it is said to be [Fully Constrained](#Fully_Constrained.md).}}
 
 
 {{term|Dependency Graph}}
 
 
-{{defn|defn=A third-party graphing tool used to show how objects in a FreeCAD model use or are related to one another.  For more information, refer to the [Dependency Graph Wiki page](Std_DependencyGraph.md)|.}}
+{{defn|defn=A third-party graphing tool used to show how objects in a FreeCAD model use or are related to one another. For more information, refer to the [Dependency Graph](Std_DependencyGraph.md)| Wiki page.}}
 
 
 {{term|Difference}}
@@ -257,7 +271,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 
 {{term|Directed Acyclic Graph}}
 
-(abbreviated as \"DAG\") {{defn|defn=A type of [Dependency Graph](#Dependency_Graph.md) where the relationship of objects flows in a generally linear direction from start to end with no circular dependencies.  When following a DAG there is no flow from one object A to any other objects and then back to that same object A again.  In FreeCAD, a graph of the model must always be a DAG.}} {{term|DOF}} {{defn|[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench.md)}} {{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) used primarily for 2 dimensional work.}} {{defn|no=2|defn=A relief angle on a mold to allow removal of the finished product. See [Drawing|content=[[Drawing_Workbench|Drawing](PartDesign_Draft]].}} {{term.md)}} {{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) used to generate 2D representations of a model, also called drawings.}} {{defn|no=2|defn=Describes a representation of geometry through the use of two-dimensional views. Also called plan or [blueprint](#Blueprint.md).}} {{glossend}}
+(abbreviated as \"DAG\") {{defn|defn=A type of [Dependency Graph](#Dependency_Graph.md) where the relationship of objects flows in a generally linear direction from start to end with no circular dependencies. When following a DAG there is no flow from one object A to any other objects and then back to that same object A again. In FreeCAD, a graph of the model must always be a DAG.}} {{term|DOF}} {{defn|[Degrees Of Freedom](#Degrees_Of_Freedom.md)}} {{term|Draft|content=[Draft](Draft_Workbench.md)}} {{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) used primarily for 2 dimensional work.}} {{defn|no=2|defn=A relief angle on a mold to allow removal of the finished product. See [PartDesign Draft](PartDesign_Draft.md).}} {{term|Drawing|content=[Drawing](Drawing_Workbench.md)}} {{defn|no=1|defn=A FreeCAD [workbench](#Workbench.md) used to generate 2D representations of a model, also called drawings.}} {{defn|no=2|defn=Describes a representation of geometry through the use of two-dimensional views. Also called plan or [blueprint](#Blueprint.md).}} {{glossend}}
 
 ## E
 
@@ -297,7 +311,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|1=Face}}
 
 
-{{defn|1=A 2 dimensional topological construct.  For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as   * Part of a surface bounded by a closed [wire(s)](#Wire.md). See [Profile   * Defining the Topology](https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md).}}
+{{defn|1=A 2 dimensional topological construct. For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as   * Part of a surface bounded by a closed [wire(s)](#Wire.md). See [https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Profile   * Defining the Topology].}}
 
 
 {{term|Facet}}
@@ -321,7 +335,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|1=Feature}}
 
 
-{{defn|1=A step in a 3d part's evolution in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md) workflow.  Examples are [Pad](#Pad.md), [Pocket](#Pocket.md), [Groove](#Groove.md), [Fillet](#Fillet.md), etc.  As we create a model in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md), each feature takes the shape of the last one and adds or removes something.  Hence a "Pocket" feature is not only the pocketed hole itself, but the whole part with the pocket feature.}}
+{{defn|1=A step in a 3d part's evolution in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md) workflow.  Examples are [Pad](#Pad.md), [Pocket](#Pocket.md), [Groove](#Groove.md), [Fillet](#Fillet.md), etc. As we create a model in the [Part Design](PartDesign_Workbench.md) [workbench](#Workbench.md), each feature takes the shape of the last one and adds or removes something.  Hence a "Pocket" feature is not only the pocketed hole itself, but the whole part with the pocket feature.}}
 
 
 {{term|FEM|content=[FEM](FEM_Workbench.md)}}
@@ -333,7 +347,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Fillet}}
 
 
-{{defn|defn=A rounded relief or cut at an edge added for a finished appearance and to break sharp edges. See [[Part Fillet]] and [[PartDesign Fillet]].}}
+{{defn|defn=A rounded relief or cut at an edge added for a finished appearance and to break sharp edges. See [Part Fillet](Part_Fillet.md) and [PartDesign Fillet](PartDesign_Fillet.md).}}
 
 
 {{term|Fork}}
@@ -345,13 +359,13 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Forked Model}}
 
 
-{{defn|defn=A modeling method, usually accidental and incorrect in FreeCAD, that creates two or more versions of a model from a previous item. (Not to be confused with intentional operations like Array, Clone, PolarPattern, etc.)}}
+{{defn|defn=A modeling method, usually accidental and incorrect in FreeCAD, that creates two or more versions of a model from a previous item. (Not to be confused with intentional operations like Array, Clone, Polar Pattern, etc.)}}
 
 
 {{term|Frenet}}
 
 
-{{defn|defn=When Sweeping a profile along a 3D path, the Frenet parameter controls the orientation of the profile as it travels along the path. If Frenet is true, the profiles are oriented using the Frenet Frame (tangent, binormal, normal) of the path. If Frenet is false the profile's rotation is not restricted. [http   *//en.wikipedia.org/wiki/Frenet_Frame]}}
+{{defn|defn=When Sweeping a profile along a 3D path, the Frenet parameter controls the orientation of the profile as it travels along the path. If Frenet is true, the profiles are oriented using the Frenet Frame (tangent, binormal, normal) of the path. If Frenet is false the profile's rotation is not restricted. [https   *//en.wikipedia.org/wiki/Differentiable_curve#Frenet_frame Frenet frame]}}
 
 
 {{term|Freetype|content=[http   *//www.freetype.org FreeType]}}
@@ -389,7 +403,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|GDB or gdb}}
 
 
-{{defn|defn=[https   *//www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], a debugging program used on Unix and other 'nix operating systems in order to get a [backtrace](#Backtrace.md). "gdb" (without the quotation marks) is also the first part of the command used to start the GDB program itself.  An example of how to use GDB with FreeCAD is in [http   *//forum.freecadweb.org/viewtopic.php?t=7052#p56918 this forum post]}}
+{{defn|defn=[https   *//www.gnu.org/software/gdb/ '''G'''NU Project '''D'''e'''B'''ugger], a debugging program used on Unix and other 'nix operating systems in order to get a [backtrace](#Backtrace.md). "gdb" (without the quotation marks) is also the first part of the command used to start the GDB program itself. An example of how to use GDB with FreeCAD is in [http   *//forum.freecadweb.org/viewtopic.php?t=7052#p56918 this forum post]}}
 
 
 {{term|Geometric modeling kernel}}
@@ -407,7 +421,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|[Group](Std_Group.md)}}
 
 
-{{defn|defn=Used to organize elements in the Model tree.}}
+{{defn|defn=Used to organize elements in the [Tree view](#Tree_view.md).}}
 
 
 {{term|GUI}}
@@ -447,7 +461,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Intersection|content=[http   *//en.wikipedia.org/wiki/Intersection Intersection]}}
 
 
-{{defn|defn=That portion of two or more geometric entities that is common to all.  For example, the intersection of two lines is a point.}}
+{{defn|defn=That portion of two or more geometric entities that is common to all. For example, the intersection of two lines is a point.}}
 
 
 {{glossend}}
@@ -461,7 +475,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|JT}}
 
 
-{{defn|defn=A proprietary 3D data format developed by Siemens PLM Software.  FreeCAD has no support for JT at this time.}}
+{{defn|defn=A proprietary 3D data format developed by Siemens PLM Software. FreeCAD has no support for JT at this time.}}
 
 
 {{glossend}}
@@ -481,7 +495,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|KML}}
 
 
-{{defn|defn=Keyhole Markup Language -  an XML-based geospatial 3D data definition file used by Google Earth.  FreeCAD has no support for KML at this time.}}
+{{defn|defn=Keyhole Markup Language - an XML-based geospatial 3D data definition file used by Google Earth. FreeCAD has no support for KML at this time.}}
 
 
 {{glossend}}
@@ -495,7 +509,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Label}}
 
 
-{{defn|no=1|defn=A user defined property of an object; used to make the model tree easier to understand by humans.}}
+{{defn|no=1|defn=A user defined property of an object; used to make the [Tree view](#Tree_view.md) easier to understand by humans.}}
 
 
 {{defn|no=2|defn=A string of descriptive text added to a drawing (see [Draft Label](Draft_Label.md)).}}
@@ -507,7 +521,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Line}}
 
 
-{{defn|defn=Most often this is used as a synonym for a line segment (see below). In sketcher it is used sometimes with its exact meaning of an infinite straight path.}}
+{{defn|defn=Most often this is used as a synonym for a [line segment](#Line_Segment.md). In Sketcher, it is used sometimes with its exact meaning of an infinite straight path.}}
 
 
 {{term|Line Segment}}
@@ -525,7 +539,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Loft|content=[http   *//en.wikipedia.org/wiki/Loft_%283D%29 Loft]}}
 
 
-{{defn|defn=A topological form created by linking consecutive profiles with a surface.  Similar to the process used to make fabric covered aeroplanes or boats. Also the FreeCAD function for creating such a form.}}
+{{defn|defn=A topological form created by linking consecutive profiles with a surface. Similar to the process used to make fabric covered aeroplanes or boats. Also the FreeCAD function for creating such a form.}}
 
 
 {{glossend}}
@@ -583,7 +597,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Name}}
 
 
-{{defn|defn=An unique identifier for a FreeCAD document object. Once assigned by the program, the Name can not be easily changed.  Contrast with [Label](#Label.md).}}
+{{defn|defn=An unique identifier for a FreeCAD document object. Once assigned by the program, the Name can not be easily changed. Contrast with [Label](#Label.md).}}
 
 
 {{term|Non-manifold}}
@@ -595,7 +609,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Null Shape}}
 
 
-{{defn|defn=A [Shape](#Shape.md) property that has not been initialized by a program/macro.  Usually an error condition.}}
+{{defn|defn=A [Shape](#Shape.md) property that has not been initialized by a program/macro. Usually an error condition.}}
 
 
 {{glossend}}
@@ -825,7 +839,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Revolve}}
 
 
-{{defn|defn=A tool in the [Part](Part_Workbench.md) [workbench](#Workbench.md). See [[Part Revolve]].}}
+{{defn|defn=A tool in the [Part](Part_Workbench.md) [workbench](#Workbench.md). See [Part Revolve](Part_Revolve.md).}}
 
 
 {{term|Robot}}
@@ -875,7 +889,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|1=Sketch}}
 
 
-{{defn|1=A constrained 2D depiction of an object fixed to a plane or a [Face](#Face.md).  In FreeCAD a Sketch is always a 2-dimensional object somewhere in the 3D space.}}
+{{defn|1=A constrained 2D depiction of an object fixed to a plane or a [Face](#Face.md). In FreeCAD a Sketch is always a 2-dimensional object somewhere in the 3D space.}}
 
 
 {{term|Sketcher|content=[Sketcher](Sketcher_Workbench.md)}}
@@ -887,13 +901,13 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Sketcher Solver}}
 
 
-{{defn|defn=The internal FreeCAD mechanism that calculates inter-dependencies and effects of adding, deleting, and modifying geometry and associated constraints in each Sketch.  Sketcher Solver also calculates the arrangement of all geometry in each Sketch so it can be displayed correctly.}}
+{{defn|defn=The internal FreeCAD mechanism that calculates inter-dependencies and effects of adding, deleting, and modifying geometry and associated constraints in each Sketch. Sketcher Solver also calculates the arrangement of all geometry in each Sketch so it can be displayed correctly.}}
 
 
 {{term|Smooth Line}}
 
 
-{{defn|defn=In a Drawing, a line indicating a change between tangent surfaces, as in the transition from a flat surface to a fillet. Also "tangent edge". See [http   *//www.freecadweb.org/wiki/index.php?title=Drawing_View#Modify_an_existing_view Drawing View]}}
+{{defn|defn=In a Drawing, a line indicating a change between tangent surfaces, as in the transition from a flat surface to a fillet. Also "tangent edge". See [Drawing View](Drawing_View#Modify_an_existing_view.md)}}
 
 
 {{term|Solid}}
@@ -911,7 +925,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|1=Stable}}
 
 
-{{defn|1=A nickname for the last general release version of the FreeCAD software.  This is typically the version available from sources other than the FreeCAD project.  Compare with [Unstable](#Unstable.md).}}
+{{defn|1=A nickname for the last general release version of the FreeCAD software. This is typically the version available from sources other than the FreeCAD project. Compare with [Unstable](#Unstable.md).}}
 
 
 {{term|STL}}
@@ -926,7 +940,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{defn|defn=An ISO standard (ISO 10303) for the exchange of 3D data and product manufacturing information. It replaces [IGES](#IGES.md). File extensions are *.step, *.stp.}}
 
 
-{{term|SVG|content=[[SVG]]}}
+{{term|SVG|content=[SVG](SVG.md)}}
 
 
 {{defn|[https   *//en.wikipedia.org/wiki/Scalable_Vector_Graphics Scalable Vector Graphics]. A vector graphics file format.}}
@@ -949,13 +963,13 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Task panel}}
 
 
-{{defn|defn=See [Tasks tab](#Tasks_tab.md).}}
+{{defn|defn=A [https   *//en.wikipedia.org/wiki/Panel_(computer_software) control panel] in FreeCAD that displays content specific to the task at hand. It can show available tools in the active [workbench](#Workbench.md) or prompt for values and options while a [command](#Command.md) is active.}}
 
 
 {{term|Tasks tab}}
 
 
-{{defn|defn=A [https   *//en.wikipedia.org/wiki/Panel_(computer_software) control panel] in FreeCAD that displays content specific to the task at hand. It can show available tools in the active [workbench](#Workbench.md) or prompt for values and options while a [command](#Command.md) is active.}}
+{{defn|defn=See [Task panel](#Task_panel.md).}}
 
 
 {{term|Tessellation}}
@@ -982,7 +996,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Topological Naming}}
 
 
-{{defn|A scheme whereby an edge or face, once created, is assigned a permanent name.  Internally, FreeCAD identifies edges and faces on a solid by numbering them such as   * Edge1, Edge2, Face1, Face2, etc. The problem is that these IDs are somewhat randomly applied, and they will change after something is done to the model that changes the amount of edges and faces.  For example, if the model is revised an item linked to a Face2 could later erroneously become linked to a different face (which was renamed to become the new Face2), causing the user unwanted results.  As of the FreeCAD 0.17 release Topological Naming has not yet been implemented, and so if an object is modified such that the number of edges or faces changes, the names of the edges or faces of that object might change too.}}
+{{defn|A scheme whereby an edge or face, once created, is assigned a permanent name. Internally, FreeCAD identifies edges and faces on a solid by numbering them such as   * Edge1, Edge2, Face1, Face2, etc. The problem is that these IDs are somewhat randomly applied, and they will change after something is done to the model that changes the amount of edges and faces. For example, if the model is revised an item linked to a Face2 could later erroneously become linked to a different face (which was renamed to become the new Face2), causing the user unwanted results.  As of the FreeCAD 0.20 release Topological Naming has not yet been implemented, and so if an object is modified such that the number of edges or faces changes, the names of the edges or faces of that object might change too.}}
 
 
 {{term|Torus}}
@@ -995,6 +1009,12 @@ Jump to letter   * {{CompactTOC|center=yes}}
 
 
 {{defn|defn=Short for bug tracker, the online software application used to keep track of reported bugs or feature requests. See also [Mantis](#Mantis.md).}}
+
+
+{{term|Tree view|content=[Tree view](Tree_view.md)}}
+
+
+{{defn|defn=The Tree view is a component of the FreeCAD [interface](Interface.md). It can be shown as a separate [GUI](#GUI.md) element or as part of the [Combo View](Combo_View.md). It contains a representation of the document's structure.}}
 
 
 {{glossend}}
@@ -1014,7 +1034,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|1=Unstable}}
 
 
-{{defn|1=A nickname for a very recent version of the FreeCAD software. This version will contain many changes recently implemented by the developers.  It does not typically fail or produce wrong results, but it has not completed testing.}}
+{{defn|1=A nickname for a very recent version of the FreeCAD software. This version will contain many changes recently implemented by the developers. It does not typically fail or produce wrong results, but it has not completed testing.}}
 
 
 {{term|Upgrade|content=[Upgrade](Draft_Upgrade.md)}}
@@ -1031,28 +1051,28 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{gloss}}
 
 
-{{term|Wektor}}
+{{term|Vector}}
 
 
 {{defn|defn=A magnitude with a direction. Often represented graphically as an arrow in 2 or 3 dimensions. For example, "fifty paces north", "9.8 m/s^2 down", and "(3,5,6) units in the x, y, z, direction, respectively" are all vectors. In FreeCAD, they are most often denoted as ordered pairs (x, y) or ordered triples (x, y, z).}}
 
 
-{{term|Wierzchołek}}
+{{term|Vertex}}
 
 
-{{defn|defn=A lone [point](#Point.md) in space, or the corner of a [shape](#shape.md) where [edges](#Edge.md) meet. The open Cascade Technology defines it, as a zero dimensional [shape](#shape.md) corresponding to a point in geometry. [ see OCCT Profile   * Defining the topology](https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md)}}
+{{defn|defn=A lone [point](#Point.md) in space, or the corner of a [shape](#shape.md) where [edges](#Edge.md) meet. The open Cascade Technology defines it, as a zero dimensional [shape](#shape.md) corresponding to a point in geometry. See [https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 OCCT Profile   * Defining the topology]}}
 
 
-{{term|Wierzchołki}}
+{{term|Vertices}}
 
 
-{{defn|defn=Plural of [Wierzchołek](#Wierzchołek.md)}}
+{{defn|defn=Plural of [Vertex](#Vertex.md)}}
 
 
 {{term|Viewprovider}}
 
 
-{{defn|defn=General interface for all visual stuff in FreeCAD. A ViewProvider generates and handles all around visualizing and presenting objects from the FreeCAD [App layer](#App.md) to the user. This class and its descendents have to be implemented for any object type in order to show them in the [3DView](#3DView.md) and [TreeView](#TreeView.md).}}
+{{defn|defn=General interface for all visual stuff in FreeCAD. A ViewProvider generates and handles all around visualizing and presenting objects from the FreeCAD [App layer](#App.md) to the user. This class and its descendents have to be implemented for any object type in order to show them in the [3D view](#3D_view.md) and [Tree view](#Tree_view.md).}}
 
 
 {{glossend}}
@@ -1072,7 +1092,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Wire}}
 
 
-{{defn|no=1|A sequence of connected [edges](#Edge.md) by [vertices](#Vertex.md). The term wire is used in this sense mainly by Open Cascade Technology [[https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3]]and therefore also inside of FreeCAD.}}
+{{defn|no=1|A sequence of connected [edges](#Edge.md) by [vertices](#Vertex.md). The term wire is used in this sense mainly by [https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3 Open Cascade Technology] and therefore also inside of FreeCAD.}}
 
 
 {{defn|no=2|A [Draft](Draft_Workbench.md) [workbench](#Workbench.md) command that creates a parametric wire.}}
@@ -1081,7 +1101,7 @@ Jump to letter   * {{CompactTOC|center=yes}}
 {{term|Workbench}}
 
 
-{{defn|defn=Also called a module, each [workbench](Workbenches.md) groups a set of tools dedicated to a specific task.}}
+{{defn|defn=Also called a module, each workbench groups a set of tools dedicated to a specific task.}}
 
 
 {{glossend}}

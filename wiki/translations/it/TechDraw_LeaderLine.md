@@ -2,7 +2,6 @@
 - GuiCommand   */it
    Name   *TechDraw LeaderLine
    Name/it   *Linea guida
-   Icon   *techdraw-mline.svg
    MenuLocation   *TechDraw → Aggiungi linee → Linea guida
    Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
    Version   *0.19

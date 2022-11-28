@@ -698,6 +698,7 @@ You will need the following libraries from the official repositories   *
 -   pyside2
 -   python-matplotlib
 -   python-netcdf4
+-   python-packaging
 -   qt5-svg
 -   qt5-webengine
 -   cmake
@@ -714,7 +715,7 @@ You will need the following libraries from the official repositories   *
 
 
 ```python
-sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 qt5-svg qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
+sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 python-packaging qt5-svg qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
 ```
 
 

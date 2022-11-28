@@ -67,10 +67,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> 
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Schraffur Werkzeug kann mit [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden   *
 

@@ -20,7 +20,7 @@ Exécutez la macro et sélectionnez un fichier.
 
 ## Installation
 
-Avec le gesionnaire d\'Addon.
+Avec le gestionnaire des extensions.
 
 ## Lien
 

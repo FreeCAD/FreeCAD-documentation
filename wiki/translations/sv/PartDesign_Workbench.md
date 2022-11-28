@@ -56,6 +56,8 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width   *32px;"> [Map sketch to face](Sketcher_MapSketch.md)   * maps a sketch to a previously selected plane or a face of the active body.
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Validate sketch](Sketcher_ValidateSketch.md)   * verifies the tolerance of different points and adjusts them.
+
 ### Part Design Modeling tools 
 
 #### Datum tools 

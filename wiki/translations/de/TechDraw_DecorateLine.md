@@ -38,10 +38,7 @@ Das Werkzeug Liniendarstellung hat keine Eigenschaften, da es kein Dokumentobjek
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Liniendarstellung ändern ist zur Zeit noch nicht aus [Makros](Macros/de.md) oder der [Python](Python/de.md)-Konsole zu erreichen.
 

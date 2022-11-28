@@ -96,7 +96,7 @@ Les [macros](Macros/fr.md) sont de petits fragments de code [Python](Python/fr.m
 
 Des utilisateurs avertis ont écrit différentes [macros](macros/fr.md) pour améliorer FreeCAD en rajoutant des fonctionnalités.
 
-Depuis FreeCAD 0.17, de nombreuses macros peuvent être installées à l\'aide du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour une liste des macros, reportez-vous à la page [Liste des macros](Macros_recipes/fr.md). Pour une installation manuelle, voir [Comment installer des macros](How_to_install_macros/fr.md).
+Depuis FreeCAD 0.17, de nombreuses macros peuvent être installées à l\'aide du [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une liste des macros, reportez-vous à la page [Liste des macros](Macros_recipes/fr.md). Pour une installation manuelle, voir [Comment installer des macros](How_to_install_macros/fr.md).
 
 ### Ateliers Externes 
 
@@ -104,7 +104,7 @@ Lorsque de nombreuses macros ou fonctions sont développées ensemble et organis
 
 Les [Ateliers externes](External_workbenches/fr.md) sont des collections de fonctions qui ne font pas partie du système FreeCAD de base, généralement développées par des utilisateurs expérimentés et visant un besoin particulier.
 
-Depuis FreeCAD 0.17, beaucoup d\'ateliers peuvent être installés à l'aide du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour l\'installation manuelle, voir [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md).
+Depuis FreeCAD 0.17, beaucoup d\'ateliers peuvent être installés à l'aide du [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour l\'installation manuelle, voir [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md).
 
 ## Références
 

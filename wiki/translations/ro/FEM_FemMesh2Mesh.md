@@ -7,9 +7,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument transformă suprafețele elementelor 3D dintr-o plasă FEM selectată într-o plasă. Alegeți fațetele elementului FEM din plasă care sunt unice (nu sunt împărțite de două elemente) și le folosiți pentru a crea fațetele unei plase. Opțional, permite crearea unei plase deformate de acțiunea forțelor definite. Acest lucru se face prin adăugarea mișcării rezultatelor FEM la nodurile de plasă.
 
-Elementele bidimensionale din plasa FEM nu sunt luate în considerare. Dacă trebuie să le convertiți, puteți folosi mai jos un script Python.
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -31,63 +35,34 @@ Elementele bidimensionale din plasa FEM nu sunt luate în considerare. Dacă tre
 
 ## Scripting
 
+**Note**   * The parameter *scale* was <small>(v1.0)</small> . For older versions of FreeCAD omit it from your code.
 
-<div class="mw-translate-fuzzy">
-
-## Script-Programare 
-
-Exemplu   *
-
--   Încărcați exemplul 3D FEM al FreeCAD din Start Workbench și executați următorul cod
-
-
-</div>
+When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code   *
 
 
 ```python
-femmesh_obj = App.ActiveDocument.getObject("Result_mesh").FemMesh
-result = App.ActiveDocument.getObject("CalculiX_static_results")
 import femmesh.femmesh2mesh
-out_mesh = femmesh.femmesh2mesh.femmesh_2_mesh(femmesh_obj, result)
+mesh_obj = FEMMeshGmsh  # the name of your mesh object
+scale = 5  # displacement scale factor
+out_mesh = femmesh.femmesh2mesh.femmesh_2_mesh(FreeCAD.ActiveDocument.mesh_obj.FemMesh, FreeCAD.ActiveDocument.CCX_Results, scale)
 import Mesh
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
-## Converting 2D elements 
-
-
-<div class="mw-translate-fuzzy">
-
-## Conversia elementelor 2D 
-
-Selectați o plasă și rulați următorul script python
-
-
-</div>
+The cantilever example   *
 
 
 ```python
+from os.path import join
+the_file = join(FreeCAD.getResourceDir(), "examples", "FemCalculixCantilever3D.FCStd")
+fc_file = FreeCAD.openDocument(the_file)
+fem_mesh = fc_file.getObject("Box_Mesh").FemMesh  # do not remove the _
+result = fc_file.getObject("CCX_Results")
+scale = 1  # displacement scale factor
+from femmesh import femmesh2mesh
+out_mesh = femmesh2mesh.femmesh_2_mesh(fem_mesh, result, scale)
 import Mesh
-
-def extend_by_triangle(i, j, k)   *
-    triangle = [input_mesh.getNodeById(element_nodes[i]),
-                input_mesh.getNodeById(element_nodes[j]),
-                input_mesh.getNodeById(element_nodes[k])]
-    return output_mesh.extend(triangle) 
-
-selection = FreeCADGui.Selection.getSelection()
-input_mesh = App.ActiveDocument.getObject(selection[0].Name).FemMesh
-output_mesh = []
-for element in input_mesh.Faces   *
-    element_nodes = input_mesh.getElementNodes(element)
-    if len(element_nodes) in [3, 6]   *  # tria3 or tria6 (ignoring mid-nodes)
-        extend_by_triangle(0, 1, 2)
-    elif len(element_nodes) in [4, 8]   *  # quad4 or quad8 (ignoring mid-nodes)
-        extend_by_triangle(0, 1, 2)
-        extend_by_triangle(2, 3, 0)
-
-obj = Mesh.Mesh(output_mesh)
-Mesh.show(obj)
+Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
 

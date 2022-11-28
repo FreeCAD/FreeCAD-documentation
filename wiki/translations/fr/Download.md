@@ -49,12 +49,12 @@ Vous pourrez trouver plus d\'informations sur les variables d\'environnement de 
 FreeCAD est en développement constant.
 
 -   Pour les utilisateurs de Linux, consultez le développement [AppImage](AppImage/fr.md).
--   Pour les versions de développement MacOS et Windows et le développement du code source, consultez la page [weekly builds](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds).
+-   Pour les versions de développement MacOS et Windows et le développement du code source, consultez la page [weekly builds](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 -   Pour compiler le dernier code source, voir [Compiler](Compiling/fr.md).
 
 ## Modules additionnels et macros 
 
-La communauté FreeCAD propose une multitude de modules supplémentaires et de macros. Depuis la version 0.17, ils peuvent être installés directement depuis FreeCAD à l\'aide du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+La communauté FreeCAD propose une multitude de modules supplémentaires et de macros. Depuis la version 0.17, ils peuvent être installés directement depuis FreeCAD à l\'aide du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 
 

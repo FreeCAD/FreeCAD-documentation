@@ -5,7 +5,7 @@
 
 ## Introduction
 
-L\'atelier <img alt="" src=images/FrontISTR.svg  style="width   *24px;"> FEM FrontISTR est un addon de FreeCAD qui permet d\'utiliser FrontISTR, un programme MEF parallèle à grande échelle open source pour l\'analyse structurelle non linéaire.
+L\'atelier <img alt="" src=images/FrontISTR.svg  style="width   *24px;"> FEM FrontISTR est une extension de FreeCAD qui permet d\'utiliser FrontISTR, un programme FEM parallèle à grande échelle open source pour l\'analyse structurelle non linéaire.
 
 <img alt="" src=images/FEM_FrontISTR_bikeframe_screenshot.png  style="width   *512px;">
 
@@ -53,9 +53,9 @@ Voir <https   *//github.com/FrontISTR/FEM_FrontISTR/tree/master/sample/benchmark
 
 ## Installation
 
-### Gestionnaire d\'Addon 
+### Gestionnaire des extensions 
 
-FEM_FrontISTR peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) à partir du menu **Outils → Gestionnaire d'Addon**. FEM_FrontISTR est en cours de développement actif et reçoit de nouvelles fonctionnalités fréquemment. Vous devez donc le mettre à jour régulièrement en utilisant également le menu **Outils → Gestionnaire d'Addon**. Le code de FEM_FrontISTR est hébergé et développé [sur GitHub](https   *//github.com/FrontISTR/FEM_FrontISTR).
+FEM_FrontISTR peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire des des extensions](Std_AddonMgr/fr.md) à partir du menu **Outils → Gestionnaire des des extensions**. FEM_FrontISTR est en cours de développement actif et reçoit de nouvelles fonctionnalités fréquemment. Vous devez donc le mettre à jour régulièrement en utilisant également le menu **Outils → Gestionnaire des des extensions**. Le code de FEM_FrontISTR est hébergé et développé [sur GitHub](https   *//github.com/FrontISTR/FEM_FrontISTR).
 
 ### Manuellement
 

@@ -26,7 +26,7 @@ Ein Video der gesamten Konstruktion ist hier   * <https   *//youtu.be/geIrH1cOCz
 
 ## Die Aufgabe 
 
-In diesem Tutorium erstellst du mit dem Arbeitsbereich Part Design ein 3D-Volumenmodell des Teils, das in der [Zeichnung](TechDraw_Workbench/de.md) unten gezeigt wird. Alle für diese Aufgabe erforderlichen Maße sind vorhanden. Du fängst an mit der Erstellung einer Kernform aus einer Basisskizze und baust dann auf dieser Form auf, indem du so genannte Formelemente hinzufügst. Diese Funktionen fügen dem Festkörper entweder Material hinzu oder entfernen Material aus ihm, indem sie zusätzliche Skizzen und begleitende Formelemente Operationen verwenden. In diesem Tutorium werden nicht alle Funktionen und Werkzeuge verwendet, die im Arbeitsbereich Part Design zur Verfügung stehen, sondern es werden so viele verwendet, dass der Benutzer dieses Tutoriums eine grundlegende Basis erhält, auf der er sein Wissen und seine Fähigkeiten aufbauen kann.
+In diesem Tutorium wird mit dem Arbeitsbereich Part Design ein 3D-Volumenmodell des Bauteils, das in der [Zeichnung](TechDraw_Workbench/de.md) unten gezeigt wird. Alle für diese Aufgabe erforderlichen Maße sind vorhanden. Am Anfang steht die Erstellung einer Kernform aus einer Basisskizze; danach wird auf dieser Form aufgebaut, indem so genannte Formelemente hinzugefügt werden. Diese Formelemente fügen dem Volumenkörper entweder Material hinzu oder entfernen Material von ihm, indem sie zusätzliche Skizzen und zugehörige Formelement-Operationen verwenden. In diesem Tutorium werden nicht alle Funktionen und Werkzeuge verwendet, die im Arbeitsbereich Part Design zur Verfügung stehen, sondern es werden so viele verwendet, dass der Benutzer dieses Tutoriums eine grundlegende Basis erhält, auf der er sein Wissen und seine Fähigkeiten aufbauen kann.
 
 ## Das Bauteil 
 
@@ -34,173 +34,79 @@ In diesem Tutorium erstellst du mit dem Arbeitsbereich Part Design ein 3D-Volume
 
 ## Konstruktion des Bauteils 
 
-### Startup
-
-
-<div class="mw-translate-fuzzy">
-
-## Konstruieren des Teils 
-
 ### Beginn
 
-Stelle zunächst sicher, dass du dich im Part Design Arbeitsbereich befindest. Dort wirst du ein neues Dokument erstellen wollen, falls du dies noch nicht getan hast. Es ist eine gute Angewohnheit, deine Arbeit oft zu speichern, also speichere vor allem das neue Dokument und gib ihm einen beliebigen Namen, den du gerne magst.
+Zunächst ist sicherzustellen, dass der Arbeitsbereich Part Design aktiviert ist. Dort wird ein neues Dokument erstellt, falls es noch nicht erfolgt ist. Es ist eine gute Angewohnheit, eine Arbeit oft zu speichern, also wird vor allem anderen das neue Dokument gespeichert, mit einem beliebigen Namen, der einem gefällt.
 
+Alle Arbeiten in Part Design beginnen mit einem [Körper](Glossary/de#Body.md). Dann wird innerhalb dieses Körper einVolumenkörper aufgebaut, beginnend mit einer [Skizze](Glossary/de#Sketch.md).
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Alle Arbeiten in Part Design beginnen mit einem [Körper](Glossary/de#Body.md). Dann bauen wir den Festkörper im Inneren des Körpers auf, indem wir mit einer [Skizze](Glossary/de#Sketch.md) anfangen.
-
-um einen neuen Körper Container zu erstellen und zu aktivieren. *Hinweis   * Dieser Schritt kann ausgelassen werden. Wenn beim Erstellen einer Skizze kein vorhandener Körper gefunden wird, wird automatisch ein neuer erstellt und aktiviert.*
-
-1.  Klicke auf <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *32px;"> [Neue Skizze erstellen](PartDesign_NewSketch/de.md). Dadurch wird die Skizze innerhalb des gerade erstellten Körpers erstellt.
-2.  Wir müssen definieren, wo die Skizze angehängt werden soll. Wir werden sie an eine Ebene aus dem [Ursprung](Glossary/de#Origin.md) des Körpers anhängen.
-3.  Wähle im Aufgabenreiter in der Combo Ansicht die Option **YZ_Ebene** in der Liste und drücke **OK**   *
-
-
-</div>
-
-1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
-*Note   * this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
-2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
-3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ_Plane** in the list and press **OK**   *
+1.  Die Schaltfläche <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [Körper erstellen](PartDesign_Body/de.md) drücken, um einen neuen Körper (Body-Container) zu erstellen und zu aktivieren. 
+*Hinweis   * Dieser Schritt kann ausgelassen werden. Wird eine Skizze erstellt und es ist kein Körper vorhanden, wird automatisch eine neuer erstellt und aktiviert.*
+2.  Die Schaltfläche <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Skizze erstellen](PartDesign_NewSketch/de.md) drücken. Dies erstellt eine Skizze (ein Sketch-Objekt) im soeben erstellten Körper.
+3.  Es muss noch angegeben werden, woran die Skizze befestigt wird. In diesem Fall wird die Skizze auf einer Fläche im [Ursprung](Glossary/de#Origin.md) des Körpers (Origin-Objekt) befestigt.
+4.  Im [Aufgabenbereich](Task_panel/de.md) der [Combo-Ansicht](Combo_view/de.md) wählt man **YZ_Plane (Basis-Ebene)** aus der Liste und drückt **OK**   *
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width   *250px;">
 
+Hinweis   * Es ist möglich, dass die **OK**-Schaltfläche nicht sichtbar ist, wenn die Seitenleiste nicht breit genug ist. Es kann erweitert werden, indem man an seinem rechten Rand zieht. Den Mauszeiger über den Rand bewegen; wenn sich der Zeiger in einen Zwei-Wege Pfeil verwandelt, drückt und hält man die linke Maustaste und zieht (den Rand).\'\'
 
-<div class="mw-translate-fuzzy">
-
-Hinweis   * Es ist möglich, dass die OK Schaltfläche nicht sichtbar ist, wenn das Seitenpaneel nicht breit genug ist. Du kannst es breiter machen, indem du an seinem rechten Rand ziehst. Bewege den Mauszeiger über den Rand; wenn sich der Zeiger in einen Zwei-Wege Pfeil verwandelt, halte die linke Maustaste gedrückt und ziehe.\'\'
-
-
-</div>
-
-Sobald du auf OK klickst, wechselt FreeCAD automatisch in den [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) und öffnet die Skizze im Bearbeitungsmodus   *
+Sobald auf OK geklickt wird, wechselt FreeCAD automatisch in den Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) und öffnet die Skizze im Bearbeitungsmodus   *
 
 ![](images/Tut17_sketcherempty.png )
 
-### Create the sketch 
-
-
-<div class="mw-translate-fuzzy">
-
 ### Die Skizze erstellen 
 
-Als nächstes das ![ 32px](images/_Sketcher_CreatePolyline.svg )[Polylinie](Sketcher_CreatePolyline/de.md) Werkzeug verwenden und eine Form ähnlich der im nächsten Bild erstellen. Es muss nicht perfekt sein, da die endgültige Form durch Einschränkungen erzeugt wird. Sobald die Grundform erstellt ist, werden die Einschränkungen angewandt. Wenn die automatischen Einschränkungen aktiviert sind, werden einige dieser Einschränkungen automatisch angewendet, andernfalls fügt man die folgenden Schritte aus. Doch zuerst muss das Polylinien-Werkzeug durch einen Rechtsklick oder zweimaliges Drücken der **Esc**-Taste verlassen worden sein; der Maus-Cursor sollte von einem Fadenkreuz zurück zum Standard-Pfeil-Cursor gewechselt sein. (Drücken Sie die **Esc**Taste \_nicht\_ ein drittes Mal, sonst wird der Skizzeneditiermodus verlassen. Falls das passiert, auf den Modell-Reiter klicken, dann doppelt auf das Skizzenelement im Baum klicken oder rechts klicken und **Skizze editieren** im Kontextmenü wählen).
+Als nächstes wird das Werkzeug <img alt="" src=images/_Sketcher_CreatePolyline.svg  style="width   *24px;">[Linienzug erstellen](Sketcher_CreatePolyline/de.md) verwendet und eine Form ähnlich der im nächsten Bild erstellt. Es muss nicht perfekt sein, da die endgültige Form durch Randbedingungen (auch Einschränkungen, Beschränkungen, Zwänge genannt) erzeugt wird. Sobald die Grundform erstellt ist, werden die Randbedingungen festgelegt. Wenn die automatischen Randbedingungen aktiviert sind, werden einige dieser Randbedingungen automatisch angewendet, andernfalls führt man die folgenden Schritte aus. Doch zuerst muss das Linienzug-Werkzeug durch einen Rechtsklick oder zweimaliges Drücken der **Esc**-Taste verlassen werden; der Maus-Cursor sollte von einem Fadenkreuz zurück zum Standard-Pfeil-Mauszeiger wechseln. Die **Esc**-Taste nicht ein drittes Mal drücken, sonst wird der Bearbeitungsmodus verlassen. Falls das passiert, auf den Modell-Reiter klicken, dann doppelt auf das Skizzenelement im Baum klicken oder mit der rechte Maustaste klicken und **Skizze editieren** im Kontextmenü wählen. Um das Verlasen des Bearbeitungsmodus nach zu häufigen Drücken der **Esc**-Taste zu vermeiden, ändert man die Voreinstellung **Esc kann den Skizzenbearbeitungsmodus** ({{Version/de|0.19}}), siehe [Sketcher Voreinstellungen](Sketcher_Preferences/de#Allgemein.md).
 
+*Hinweis   * Seit diese Anleitung verfasst wurde, hat der Sketcher-Löser (Berechnungsalgorithmus im Hintergrund) viele Verbesserungen erfahren; Entdeckt er eine überzählige Randbedingung, wird die Skizze orange eingefärbt und bevor weitere Randbedingungen hinzugefügt werden, sollte die überzählige Randbedingung entfernt werden. (Die überzählige Randbedingung wird im Aufgabenbereich angezeigt; ein Klick auf ihren blauen Verweis und anschließend die Löschtaste drücken.)*
 
-</div>
+1.  Die zwei horizontalen Linien mit der Maus durch Draufklicken auswählen und dann die Schaltfläche <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width   *24px;"> [Horizontal festlegen](Sketcher_ConstrainHorizontal/de.md) drücken.
+2.  Die vertikale Linie auf der rechten Seite auswählen und dann die Schaltfläche <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width   *24px;"> [Vertical festlegen](Sketcher_ConstrainVertical/de.md) drücken.
+3.  Die Anfangs- und Endpunkte des Linienzugs auswählen und die Schaltfläche <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md) drücken, um den Linienzug zu schließen.
+4.  Die untere horizontale Linie und die rechte vertikale Linie auswählen und die Schaltfläche <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width   *24px;"> [Gleichheit festlegen](Sketcher_ConstrainEqual/de.md) drücken.
+5.  Eine horizontale oder eine vertikale Linie auswählen und dann die entsprechende Randbedingung <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width   *24px;"> [Horizontalen Abstand festlegen](Sketcher_ConstrainDistanceX/de.md) oder <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width   *24px;"> [Vertikalen Abstand festlegen](Sketcher_ConstrainDistanceX/de.md) auswählen und für den Abstand den Wert von 26 mm eingeben.
+6.  Die obere horizontale Linie auswählen und den horizontalen Abstand mit 5 mm festlegen.
+7.  Den unteren rechten Endpunkt (Knoten) der horizontalen Linie und dann den Mittelpunkt des Rasters wählen und die Schaltfläche <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md) drücken, um die Form zu fixieren.
 
-*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed.(The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Die zwei horizontalen Linien mit der Maus durch Draufklicken auswählen und dann auf die horizontale Bedingung <img alt="" src=images/Constraint_Horizontal.svg  style="width   *32px;"> klicken.
-2.  Die vertikale Linie auf der rechten Seite wählen und dann auf die vertikale Einschränkung <img alt="" src=images/Constraint_Vertical.svg  style="width   *32px;"> klicken.
-3.  Die Anfangs- und Endpunkte der Polylinie wählen und auf die *Punkt auf Punkt Koinzidenz* Bedingung <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> klicken, um die Polylinie zu schließen.
-4.  Wählen Sie die untere horizontale Linie und die rechte vertikale Linie aus und wenden Sie an und ![ 32px](images/_Constraint_EqualLength.png ) Gleichheits-Beschränkung.
-5.  Entweder die horizontale oder die vertikale Linie wählen und dann entweder einen entsprechenden horizontalen <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width   *32px;"> oder vertikalen <img alt="" src=images/Constraint_VerticalDistance.svg  style="width   *32px;"> Abstand mit einem Wert von 26 mm eingeben.
-6.  Die obere horizontale Linie auswählen und die horizontale Abstandsbeschränkung mit einem Wert von 5 mm eingeben.
-7.  Den unteren rechten Endpunkt (Vertex) der horizontalen Linie und dann den Mittelpunkt des Rasters wählen und die *Punkt auf Punkt Koinzidenz* <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> Beschränkung anwenden, um Ihre Form zu fixieren.
-
-
-</div>
-
-An diesem Punkt sollten Sie eine vollständig eingeschränkte Skizze haben, wie durch die Farbe und die in der Combo-Ansicht angezeigte Nachricht angezeigt. Es sollte jetzt genau wie das Bild unten aussehen.
+An diesem Punkt sollte man eine vollständig bestimmte Skizze haben, wie durch die Farbe und die in der Combo-Ansicht angezeigte Nachricht angezeigt. Sie sollte jetzt genau wie im folgenden Bild aussehen.
 
 ![](images/Tut17B_profile.png )
 
-
-<div class="mw-translate-fuzzy">
-
-Nun in der Combo-Ansicht auf die Schaltfläche **Schließen** klicken, um den Skizzenbearbeitungsmodus zu verlassen und Skizze aufpolstern <img alt="" src=images/PartDesign_Pad.svg  style="width   *32px;"> (Pad) aus der Symbolleiste im PartDesign-Menü wählen. Das öffnet ein **Aufpolstern**-Menü in der Combo-Ansicht. Leider sind derzeit 2 Begriffe dafür in der Programmübersetzung Aufpolstern = Block = PAD. In diesem Dialogfeld zuerst das Aufklappmenü **Typ** und dann **Zwei Dimensionen** wählen. Die Zeichnung am Anfang dieses Tutorials sagt aus, dass das Teil 53 mm lang ist. Wir erhalten diesen Abstand, indem wir unsere Skizze in beide Richtungen von der Mittelebene aus auffüllen, d.h. es wird symmetrisch bezüglich der Skizzierebene aufgepolstert. Der Grund dafür wird später beim Erstellen von Features klar werden. Zunächst soll das Teil insgesamt 53 mm lang sein, also 26,5 für die erste Längenhälfte und 26,5 für die zweite Längenhälfte eingeben. Alternativ könnte die volle Länge von 53 mm eingegeben und dann auf das Kontrollkästchen **Symmetrisch zu Ebene** geklickt werden. Sobald das erledigt ist, haben wir nun unsere Basis, auf der wir zusätzliche Features hinzufügen werden, um unser Teil zu konstruieren.
-
-
-</div>
+Nun im [Aufgabenbereich](Task_panel/de.md) die Schaltfläche **Schließen** drücken, um den Skizzenbearbeitungsmodus zu verlassen und Skizze aufpolstern <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;"> [Aufpolsterung](PartDesign_Pad/de.md) aus der Symbolleiste im PartDesign-Menü wählen. Das öffnet ein **Aufpolstern**-Menü im Aufgabenbereich. In diesem Dialogfeld zuerst das Aufklappmenü **Typ** und dann **Zwei Längen** wählen. Die Zeichnung am Anfang dieses Tutorials sagt aus, dass das Teil 53 mm lang ist. Wir erhalten diesen Abstand, indem wir unsere Skizze in beide Richtungen von der Mittelebene aus auffüllen, d.h. es wird symmetrisch bezüglich der Skizzierebene aufgepolstert. Der Grund dafür wird später beim Erstellen von Features klar werden. Zunächst soll das Teil insgesamt 53 mm lang sein, also 26,5 für die erste Länge und 26,5 für die zweite Länge eingeben. Alternativ könnte die volle Länge von 53 mm eingegeben und dann auf das Kontrollkästchen **Symmetrisch zu einer Ebene** geklickt werden. Sobald das erledigt ist, haben wir nun unsere Basis, auf der wir zusätzliche Features hinzufügen werden, um unser Teil zu konstruieren.
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier   * <https   *//youtu.be/cUyPnCMeTgg>
 
-### Features with pocket and external geometry 
+### Formelemente mit Taschen und externen Geometrien 
 
-
-<div class="mw-translate-fuzzy">
-
-### Formelement *Tasche* und externe Geometrie 
-
-Mit der Maus oder den Ansichtssymbolen drehen Sie das Modell um, so dass Sie seine Rückseite sehen können. Sobald die Rückseite des Teils sichtbar ist, wählen Sie die Rückseite aus, indem Sie darauf klicken, wie im nächsten Bild zu sehen ist.
-
-
-</div>
+Mit der Maus oder den Ansichtssymbolen wird das Modell so gedreht, dass seine Rückseite sichtbar ist. Sobald sie sichtbar ist, wird sie mit einem Klick ausgewählt, wie im nächsten Bild dargestellt.
 
 ![](images/PD_WB_Tutorial003.png )
 
+Nachdem die Oberfläche ausgewählt wurde, auf das Symbol **Neue Skizze** in der PartDesign-Menüleiste klicken. Dies wird unsere nächste Skizze auf die Rückseite des Teils positionieren. Nun das Werkzeug <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *24px;"> [Rechteck](Sketcher_CreateRectangle/de.md) auswählen und ein Rechteck auf die Rückseite des Teils auf ähnliche Weise positionieren, wie unten gezeigt. Nun den aufgeführten Schritten folgen und die Skizze mit Randbedingungen festlegen.
 
-<div class="mw-translate-fuzzy">
-
-Nachdem die Oberfläche ausgewählt wurde, auf das Symbol **Neue Skizze** in der PartDesign-Menüleiste klicken. Dies wird unsere nächste Skizze auf die Rückseite des Teils positionieren. Nun das Werkzeug ![ 32px](images/Sketcher_CreateRectangle.svg ) **Rechteck** wählen und ein Rechteck auf die Rückseite des Teils auf ähnliche Weise positionieren, wie unten gezeigt. Nun den aufgeführten Schritten folgen und die Skizze einschränken.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Eine der horizontalen Linien auswählen und eine horizontale Abstandseinschränkung mit einem Wert von 5 mm angeben.
-2.  Eine der vertikalen Linien wählen und eine vertikale Abstandseinschränkung mit einem Wert von 11 mm angeben.
-3.  Das Werkzeug <img alt="" src=images/Sketcher_External.svg  style="width   *32px;"> externe Geometrie wählen.
-4.  Den oberen rechten Eckpunkt der Oberfläche anklicken, um einen Punkt aus der externen Geometrie zu erhalten, mit welchem unsere Skizze verknüpft werden soll.
-
-
-</div>
+1.  Eine der horizontalen Linien auswählen und ihre Länge festlegen, durch Anwendung der Randbedingung Horizontalen Abstand festlegen mit einem Wert von 5 mm.
+2.  Eine der vertikalen Linien auswählen und ihre Länge festlegen, durch Anwendung der Randbedingung Vertikalen Abstand festlegen mit einem Wert von 11 mm.
+3.  Das Werkzeug <img alt="" src=images/Sketcher_External.svg  style="width   *24px;"> [Externe Geometrie](Sketcher_External/de.md) auswählen.
+4.  Den oberen rechten Eckpunkt der Fläche anklicken, um einen Punkt aus der externen Geometrie zu erhalten, mit dem unsere Skizze verknüpft werden soll.
 
 ![](images/tut17_slot_unconstrained.png )
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Rechtsklicken Sie zur Beendigung des Externe-Geometrie-Modus
-2.  Wählen Sie den gerade mit dem **Externe Geometrie**-Werkzeug erstellten Projektionspunkt und wählen zudem den oberen rechten Eckpunkt des in der Skizze vorhandenen Rechtecks. Durch einen nun folgenden Klick auf **Koinzidenz** <img alt="" src=images/Constraint_PointOnPoint.svg  style="width   *32px;"> sollte die Skizze komplett festgelegt sein und wie das nächste Bild aussehen.
-
-
-</div>
+1.  Ein Rechtsklick beendet den Externe-Geometrie-Modus
+2.  Den gerade mit dem Werkzeug **Externe Geometrie** erstellten Punkt und zusätzlich den oberen rechten Eckpunkt des in der Skizze vorhandenen Rechtecks auswählen und die Schaltfläche <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md) drücken. An diesem Punkt sollte die Skizze vollständig bestimmt sein und wie im nächsten Bild aussehen.
 
 ![](images/tut17_slote_constrained.png )
 
+Danach auf die Schaltfläche **Schließen** oben in der Registerkarte **Aufgaben** in der Combo-Ansicht klicken und dann das Werkzeug <img alt="" src=images/PartDesign_Pocket.svg  style="width   *24px;"> [Tasche](PartDesign_Pocket/de.md) aus der Symbolleiste oder aus dem PartDesign-Menü wählen. Das Werkzeug **Tasche** ist das Gegenstück zur **Aufpolsterung**. Während das Werkzeug **Aufpolsterung** dem Teil Material hinzufügt, entfernt das Werkzeug **Tasche** Material von dem Teil. Beide Operationen werden als Formelemente bezeichnet. Für diese Taschen-Funktion wird aus dem Aufklappmenü **Typ** der Punkt **Durch alles** ausgewählt und dann auf die Schaltfläche OK geklickt.
 
-<div class="mw-translate-fuzzy">
-
-Danach auf die Schaltfläche **Schließen** oben in der Registerkarte **Aufgaben** in der Combo-Ansicht klicken und dann **Vertiefung** <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> aus dem PartDesign-Menü wählen. Leider sind derzeit 2 Begriffe dafür in der Programmübersetzung    * Tasche = Vertiefung = POCKET. Das Werkzeug **Tasche** ist das Gegenteil des **Aufpolstern** (Pad)-Werkzeugs. Während das **Aufpolstern**-Werkzeug dem Teil Material hinzufügt, entfernt das **Vertiefen**-Werkzeug Material aus dem Teil. Beide Operationen werden als Features bezeichnet. In diesem Vertiefen-Vorgang wird aus dem Aufklappmenü **Typ** der Punkt **Durch alle** ausgewählt und dann auf die Schaltfläche OK geklickt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Für den nächsten Schritt muß \"Pocket\" im Modell Tab der Combo-Ansicht ausgewählt sein. Nun auf **gespiegeltes Objekt erzeugen** ![ 32px](images/_PartDesign_Mirrored.svg ) oder **Spiegeln** im PartDesign-Menü klicken. Im Dialogfeld **Mirrored Parameters** in der Combo-Ansicht die Option **Horizontale Skizzenachse** aus dem Aufklappmenü **Ebene** wählen. Auf OK klicken. Die Mirror-Funktion funktioniert deshalb auf diese Weise, weil das Basis-Feature unseres Modells in beiden Richtungen von der horizontalen Ebene aus, in der ersten Operation mit der Basisskizze aufgepolstert wurde. Wenn alles gut gegangen ist, sollten Sie jetzt ein Teil haben, welches dem Bild unten entspricht, nachdem Sie es in die Vorderansicht gedreht haben.
-
-
-</div>
+Für den nächsten Schritt muß \"Pocket\" im Modell-Reiter der Combo-Ansicht ausgewählt sein. Nun auf <img alt="" src=images/PartDesign_Mirrored.svg  style="width   *24px;"> [Spiegelnin](PartDesign_Mirrored/de.md) der Symbolleiste oder im PartDesign-Menü klicken. Im Dialogfeld **Gespiegelte Parameter** in der Combo-Ansicht die Option **Horizontale Skizzenachse** aus dem Aufklappmenü **Ebene** wählen. Auf OK klicken. Die Funktion Spiegeln funktioniert auf diese Weise, weil das Basis-Formelement unseres Modells in der ersten Operation mit der Basisskizze in beiden Richtungen von der horizontalen Ebene aus aufgepolstert wurde. Wenn alles gut gegangen ist, sollte jetzt ein Teil vorhanden sein, das dem Bild unten entspricht, nachdem es in die Vorderansicht gedreht wurde.
 
 ![](images/tut17_profilewithslots.png )
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier   * <https   *//youtu.be/wiGXV9G7mrM>
 
-### Features with pad and external geometry 
+### Formelemente mit Aufpolsterung und externen Geometrien 
 
-
-<div class="mw-translate-fuzzy">
-
-### Features mit Pad und externer Geometrie 
-
-Sehen Sie sich das Bauteil aus allen Richtungen einmal an und wählen Sie wieder die Rückseite des Teils aus, um die nächste Skizze zuzuordnen.
-
-
-</div>
+Nach betrachten des Bauteils, wird es wieder zurück gedreht und noch einmal die Rückseite des Teils ausgewählt, um die nächste Skizze zuzuordnen.
 
 ![](images/tut17_profilewithslotsrearplane.png )
 
@@ -228,41 +134,21 @@ Die Mirror-Funktion erneut anwenden, um den zweiten Block zu erhalten. Der erste
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier   * <https   *//youtu.be/Ido1owp8ubc>
 
-### Feature with pocket and external geometry 
+### Formelemente mit Taschen und externen Geometrien 
 
-
-<div class="mw-translate-fuzzy">
-
-### Feature mit Taschen- und Außengeometrie 
-
-An diesem Punkt drehen wir das Teil in der Ansicht nach vorne, wir können sehen, dass unser Teil nun wie das Teil in der bemaßten Zeichnung am Anfang dieses Tutorials aussieht. Sobald Sie die Ansicht der Vorderseite haben, klicken Sie mit der Maus auf die geneigte Oberfläche, um diese auszuwählen, da wir diese für die nächste Skizze verwenden werden.
-
-
-</div>
+An diesem Punkt drehen wir das Teil in der Ansicht nach vorne, wir können sehen, dass unser Teil nun wie das Teil in der bemaßten Zeichnung am Anfang dieses Tutorials aussieht. Sobald die Vorderseite sichtbar ist, klickt man mit der Maus auf die geneigte Oberfläche, um diese auszuwählen, da wir diese für die nächste Skizze verwenden werden.
 
 ![](images/tut17_innerplane.png )
 
+Hier werden wir wieder das Werkzeug Rechteck verwenden und ein Rechteck in unsere Skizze einfügen, und nachdem wir dies getan haben, wenden wir die folgenden Randbedingungen an.
 
-<div class="mw-translate-fuzzy">
-
-Hier werden wir wieder das Rechteck-Werkzeug verwenden und ein Rechteck in unsere Skizze einfügen, und nachdem Sie dies getan haben, wenden Sie die folgenden Bedingungen an.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Wählen Sie eine horizontale Linie und eine vertikale Linie, und klicken Sie nach der Auswahl beider auf die Bedingung **Gleich**.
-2.  Wählen Sie entweder eine horizontale oder vertikale Linie und wenden Sie eine entsprechende horizontale oder vertikale Abstandseinschränkung mit einem Wert von 17 mm an.
-3.  Wählen Sie mit dem Werkzeug Externe Geometrie den oberen rechten Eckpunkt aus, wie in der Abbildung unten gezeigt.
-
-
-</div>
+1.  Eine horizontale Linie und eine vertikale Linie auswählen und nachdem beide ausgewählt wurden, die Randbedingung Gleichheit festlegen auswählen.
+2.  Entweder eine horizontale oder eine vertikale Linie auswählen und die zugehörige Randbedingung Horizontalen Abstand festlegen bzw. Vertikalen Abstand festlegen mit einem Wert von 17 mm anwenden.
+3.  Mit dem Werkzeug Externe Geometrie den oberen rechten Eckpunkt auswählen, wie in der Abbildung unten gezeigt.
 
 ![](images/tut17_rechtangleholeunconstrained.png )
 
-Gemäß den Maßen der nachfolgenden Abbildungen sollen folgende Beschränkungen erstellt werden.
+Gemäß den Maßen der nachfolgenden Abbildungen sollen folgende Randbedingungen erstellt werden.
 
 1.  Zwischen dem projizierten Eckpunkt und dem oberen, rechten Eckpunkt des Rechtecks eine horizontale Distanz von 7 mm.
 2.  Zwischen dem projizierten Eckpunkt und dem oberen, rechten Eckpunkt des Rechtecks eine vertikale Distanz von 11 mm.
@@ -279,23 +165,11 @@ Wir möchten, dass das Loch senkrecht zur Rückseite steht, aber die projizierte
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier   * <https   *//youtu.be/x4d5nZPWCLQ>
 
-
-<div class="mw-translate-fuzzy">
-
 Um eine Tasche zu erstellen, die das geneigte Rechteck als Auslass hat, zeichnen wir ein neues Rechteck auf der Rückseite, wobei wir die Projektion des geneigten Rechtecks als externe Referenz verwenden. Bewegen Sie das Bauteil herum, um die Rückseite des Teils zu sehen, und wählen Sie diese aus, um darauf die letzte Skizze zu erstellen.
-
-
-</div>
 
 ![](images/tut17_profilewithsideblocksrearplane.png )
 
-
-<div class="mw-translate-fuzzy">
-
-Erneut **Neue Skizze** <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *32px;"> aus der Werkzeugleiste im PartDesign-Menü wählen. Im Skizzenbearbeitungsmodus sehen wir nun das skizzierte Rechteck auf der Schräge nicht mehr. Um es auswählbar zu machen, wechseln wir die Combo-Ansicht zur Modell-Registerkarte und wählen die letzte Skizze (Sketch003) auf der geneigten Ebene. Die Leertaste drücken, um diese sichtbar zu machen. Als nächstes die Spiegelfunktion oben (Mirrored001) wählen und wieder mit der Leertaste diese verstecken. Danach sollte das Rechteck in der 3D-Ansicht zu sehen sein. Man kann weiterhin mit der sichtbaren Registerkarte **Modell** arbeiten oder zur Registerkarte **Aufgaben** zurückkehren. Mit dem Werkzeug <img alt="" src=images/_Sketcher_External.svg  style="width   *32px;"> **Externe Geometrie** die oberen und unteren horizontalen Kanten des geneigten Rechtecks aus. Dann mit dem Werkzeug <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *32px;"> **Rechteck** ein neues Rechteck der Skizze hinzufügen.
-
-
-</div>
+<img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [Skizze erstellen](PartDesign_NewSketch/de.md) in der Symbolleiste oder im PartDesign-Menü auswählen. Im Skizzenbearbeitungsmodus sehen wir nun das skizzierte Rechteck auf der Schräge nicht mehr. Um es auswählbar zu machen, wechseln wir in der Combo-Ansicht zur Modell-Registerkarte und wählen die letzte Skizze (Sketch003) auf der geneigten Ebene. Die Leertaste drücken, um diese sichtbar zu machen. Als nächstes die Spiegelfunktion oben (Mirrored001) wählen und wieder mit der Leertaste diese verstecken. Danach sollte das Rechteck in der 3D-Ansicht zu sehen sein. Man kann weiterhin mit der sichtbaren Registerkarte **Modell** arbeiten oder zur Registerkarte **Aufgaben** zurückkehren. Mit dem Werkzeug <img alt="" src=images/_Sketcher_External.svg  style="width   *24px;"> [Externe Geometrie](Sketcher_External/de.md) die oberen und unteren horizontalen Kanten des geneigten Rechtecks auswählen. Dann mit dem Werkzeug <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width   *24px;"> [Rechteck](Sketcher_CreateRectangle/de.md) ein neues Rechteck zur Skizze hinzufügen.
 
 ![](images/tut17_rectangleunconstrained.png )
 
@@ -306,17 +180,11 @@ Und das sollte am Ende dabei herauskommen.
 
 ![](images/tut17_rectangleconstrained.png )
 
-
-<div class="mw-translate-fuzzy">
-
-Für den letzten Schritt in diesem Tutorium schließe das Skizziererfenster mit Schließen oder Bearbeitung beenden aus dem Kontextmenü von sketch004 und wähle dann das <img alt="" src=images/PartDesign_Pocket.svg  style="width   *32px;"> Taschen Funktion aus der Werkzeugleiste oder aus dem Menü \"Part Design\" aus. Wähle aus dem Auswahlmenü Typ die Option **Durch alles** und klicke auf die Schaltfläche OK.
-
-
-</div>
+Für den letzten Schritt in diesem Tutorium wird das Sketcher-Fenster mit Schließen oder Bearbeitung beenden aus dem Kontextmenü von Sketch004 geschlossen und danach das Werkzeug <img alt="" src=images/PartDesign_Pocket.svg  style="width   *24px;"> [Pocket](PartDesign_Pocket/de.md) aus der Symbolleisteleiste oder aus dem PartDesign-Menü ausgewählt. Aus dem Auswahlmenü Typ die Option **Durch alles** auswählen und auf die Schaltfläche OK klicken.
 
 ![](images/Tut17_final.png )
 
-An dieser Stelle wirst du einige Linien sehen, die von sich schneidenden Fprmelementen stammen. In diesem Fall überschneidet sich der \"Seitenblock\" mit dem \"Basisprofil\", was ihn als dreieckigen Block über dem Profil erscheinen lässt (d.h. im obigen Bild ist eine zusätzliche Linie auf der rechten Seite des Modells sichtbar). Um diese Linien zu entfernen, kannst du entweder \"Form verfeinern\" in deinen Part Design Einstellungen für die Teilekonstruktion einschalten, oder, um etwas Verarbeitungsgeschwindigkeit zu sparen und trotzdem diese Linien beim Konstruieren zu haben, schalte es bei jedem Formelement einzeln ein. Die Einstellung auf Formelement Ebene kann im \"Daten\" Reiter des Formelements vorgenommen werden. Setze die [\'**\'refine**\' Eigenschaft](Property_editor/de#Daten.md) auf TRUE für das Taschen Formelement Pocket001 , um das Verfeinern aufzurufen.
+An dieser Stelle sind einige Linien zu erkennen, die von sich schneidenden Formelementen stammen. In diesem Fall überschneidet sich der \"Seitenblock\" mit dem \"Basisprofil\", was ihn als dreieckigen Block über dem Profil erscheinen lässt (d.h. im obigen Bild ist eine zusätzliche Linie auf der rechten Seite des Modells sichtbar). Um diese Linien zu entfernen, kann entweder \"Form verfeinern\" in den Part Design Einstellungen einschalten, oder, um etwas Verarbeitungsgeschwindigkeit zu sparen und trotzdem mit diesen Linien zu konstruieren, die Eigenschaft bei jedem Formelement einzeln einschalten. Die Einstellung auf Formelement-Ebene kann im Reiter \"Daten\" des Formelements vorgenommen werden. Setze die [\'**\'refine**\' Eigenschaft](Property_editor/de#Daten.md) auf TRUE für das Taschen-Formelement Pocket001 , um das Verfeinern aufzurufen.
 
 ![](images/Tut17_refine.png ) ![](images/Tut17_final_refined.png )
 

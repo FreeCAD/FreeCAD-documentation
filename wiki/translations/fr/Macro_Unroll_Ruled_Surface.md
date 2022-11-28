@@ -17,7 +17,7 @@ La macro permet de dérouler des surfaces réglées et de les dessiner sur une p
 
 ## Installation
 
-Disponible dans le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Disponible dans le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 Voir aussi    * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.org/viewtopic.php?f=17&t=4563&p=35737#p35737).
 
@@ -39,7 +39,7 @@ Voir aussi    * [Macro for unrolling ruled surfaces](http   *//forum.freecadweb.
 
 ## Script
 
-La dernière version de la macro se trouve ici sur le wiki. Une version antérieure se trouve à l\'adresse [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), mais le moyen le plus simple d\'installer cette macro est de passer par le <img alt="Std_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+La dernière version de la macro se trouve ici sur le wiki. Une version antérieure se trouve à l\'adresse [UnrollRuledSurface.FCMacro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), mais le moyen le plus simple d\'installer cette macro est de passer par le <img alt="Std_AddonMgr" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 Icône de la barre d\'outils ![](images/Macro_Unroll_Ruled_Surface.png )
 

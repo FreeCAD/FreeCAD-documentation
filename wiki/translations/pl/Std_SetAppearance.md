@@ -14,6 +14,9 @@
 
 Polecenie **Wygląd zewnętrzny** pokazuje [Panel zadań](Task_panel/pl.md) właściwości wyświetlania dla wybranych obiektów.
 
+<img alt="" src=images/DlgDisplayProperties.png  style="width   *250px;"> 
+*Panel zadań Właściwości wyświetlania*
+
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów.
@@ -38,6 +41,7 @@ Polecenie **Wygląd zewnętrzny** pokazuje [Panel zadań](Task_panel/pl.md) wła
 -   **Kolor na wydruku   *** nieobsługiwane w tym momencie.
 -   **Kolor kształtu   *** ustawia właściwość **Kolor kształtu**. Naciśnij przycisk, aby otworzyć okno dialogowe Wybierz kolor.
 -   **Kolor linii   *** ustawia właściwość **Kolor linii**. Naciśnij przycisk, aby otworzyć okno dialogowe Wybierz kolor.
+-   **Kolor punktu   *** ustawia właściwość **Kolor punktu**. Naciśnij przycisk, aby otworzyć okno dialogowe Wybór koloru.
 
 ### Wyświetlanie
 

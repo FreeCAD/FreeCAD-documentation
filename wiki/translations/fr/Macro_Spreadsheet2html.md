@@ -18,7 +18,7 @@ Sélectionnez une feuille de calcul et exécutez la macro.
 
 ## Installation
 
-Avec le gesionnaire d\'Addon.
+Avec le gestionnaire des extensions.
 
 ## Liens
 

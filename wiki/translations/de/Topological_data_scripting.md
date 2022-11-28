@@ -169,13 +169,7 @@ Siehe die [Part API](Part_API/de.md) Seite für eine vollständige Liste der ver
 
 ### Module Importieren 
 
-
-<div class="mw-translate-fuzzy">
-
-Zuerst müssen wir den Part Arbeitsbereich importieren, damit wir seinen Inhalt in Python verwenden können. Wir werden auch das Basismodul aus dem FreeCAD Modul importieren   *
-
-
-</div>
+Zuerst müssen wir das FreeCAD-Modul und den Arbeitsbereich Part importieren, damit wir ihre Inhalte in Python verwenden können   *
 
 
 ```python
@@ -332,13 +326,7 @@ ccircle.Curve
 > Circle (Radius    * 10, Position    * (10, 0, 0), Direction    * (1, 0, 0))
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-ccircle wird im Abstand 10 vom x Ursprung erstellt und ist nach außen entlang der x Achse gerichtet. Hinweis   * `makeCircle()` akzeptiert nur `Base.Vector()` für die Position und normale Parameter, keine Tupel. Du kannst auch einen Teil des Kreises durch Angabe eines Anfangs- und eines Endwinkels erstellen   *
-
-
-</div>
+ccircle wird im Abstand 10 vom x Ursprung erstellt und ist nach außen entlang der x Achse gerichtet. Hinweis   * `makeCircle()` akzeptiert nur `App.Vector()` für die Position und normale Parameter, keine Tupel. Du kannst auch einen Teil des Kreises durch Angabe eines Anfangs- und eines Endwinkels erstellen   *
 
 
 ```python
@@ -372,15 +360,9 @@ Part.show(arc_edge)
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
 `Arc()`
 
-akzeptiert nur `Base.Vector()` für Punkte, aber nicht für Tupel. Du kannst auch Folgendes erhalten einen Bogen unter Verwendung eines Kreisausschnitts   *
-
-
-</div>
+akzeptiert nur `App.Vector()` für Punkte, aber keine Tupel. Du kannst auch einen Bogen erhalten durch Verwendung eines Kreisabschnitts   *
 
 
 ```python
@@ -393,13 +375,7 @@ Bögen sind gültige Kanten wie Linien, so dass sie auch in Drähten verwendet w
 
 ### Erstellen eines Polygons 
 
-
-<div class="mw-translate-fuzzy">
-
-Ein Polygon ist einfach ein Draht mit mehreren geraden Kanten. Die `makePolygon()` Funktion nimmt eine Liste von Punkten und erstellt einen Draht durch diese Punkte   *
-
-
-</div>
+Ein Polygon ist einfach ein Draht mit mehreren geraden Kanten. Die Funktion `makePolygon()` nimmt eine Liste von Punkten und erstellt einen Draht durch diese Punkte   *
 
 
 ```python
@@ -409,21 +385,9 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 {{Top}}
 
+### Eine Bézier-Kurve erstellen 
 
-<div class="mw-translate-fuzzy">
-
-### Erstellen einer Bézier Kurve 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Bézier Kurven werden verwendet, um sanfte Kurven mit einer Reihe von Polen (Punkten) und optionalen Gewichten zu modellieren. Die folgende Funktion erstellt eine `Part.BezierCurve()` aus einer Reihe von `FreeCAD.Vector()` Punkten. (Hinweis   * Wenn du einen einzelnen Pol oder ein Gewicht \"erhältst\" und \"einstellst\", beginnen die Indizes bei 1, nicht bei 0.)
-
-
-</div>
+Bézier-Kurven werden verwendet, um sanfte Kurven mit einer Reihe von Polen (Punkten) und optionalen Gewichten zu modellieren. Die folgende Funktion erstellt eine `Part.BezierCurve()` aus einer Reihe von `FreeCAD.Vector()` Punkten. (Hinweis   * Wenn du einen einzelnen Pol oder ein Gewicht \"erhältst\" und \"einstellst\", beginnen die Indizes bei 1, nicht bei 0.)
 
 
 ```python
@@ -456,16 +420,7 @@ plane.BoundBox
 
 ist ein Quader, der die Ebene mit einer Diagonale beginnend bei (3,0,0,0) und endet bei (5,0,2) einschliesst. Hier ist die `BoundBox` Dicke entlang der y Achse Null, zumal unsere Form völlig flach ist.
 
-
-<div class="mw-translate-fuzzy">
-
-Hinweis   * `makePlane()` akzeptiert nur `Base.Vector()` für start_pnt und dir_normal, nicht aber Tupel.
-
-
-</div>
-
-
-{{Top}}
+Hinweis   * `makePlane()` akzeptiert nur `App.Vector()` für start_pnt und dir_normal, nicht aber Tupel. {{Top}}
 
 ### Erstellen einer Ellipse 
 
@@ -507,13 +462,7 @@ Part.show(eli.toShape())
 
 Im obigen Code haben wir S1, S2 und Mitte überschritten. Ähnlich wie `Arc`, `Ellipse` erzeugt ein Ellipsenobjekt, aber keine Kante, also müssen wir es in eine Kante mit `toShape()` zur Anzeige konvertieren.
 
-
-<div class="mw-translate-fuzzy">
-
-Hinweis   * `Ellipse()` akzeptiert nur `Base.Vector()` für Punkte, nicht aber für Tupel.
-
-
-</div>
+Hinweis   * `Ellipse()` akzeptiert nur `App.Vector()` für Punkte, nicht aber für Tupel.
 
 
 ```python
@@ -525,13 +474,7 @@ Für den obigen Ellipsenkonstruktor haben wir Mitte, HauptRadius und NebenRadius
 
 ### Erstellen eines Torus 
 
-
-<div class="mw-translate-fuzzy">
-
 Verwende `makeTorus(radius1, radius2, [pnt, dir, Winkel1, Winkel2, Winkel])`. Standardmäßig ist pnt = Vektor(0, 0, 0), dir = Vektor(0, 0, 1), Winkel1 = 0, Winkel2 = 360 und Winkel = 360. Betrachte einen Torus als kleinen Kreis, der entlang eines großen Kreises verläuft. Radius1 ist der Radius des großen Kreises, Radius2 ist der Radius des kleinen Kreises, pnt ist der Mittelpunkt des Torus und dir ist die Normalenrichtung. winkel1 und winkel2 sind Winkel in Grad für den kleinen Kreis; der letzte Winkelparameter besteht darin, einen Schnitt von den Torus   *
-
-
-</div>
 
 
 ```python
@@ -570,13 +513,7 @@ len(box.Vertexes)
 
 ### Erstelle eine Kugel 
 
-
-<div class="mw-translate-fuzzy">
-
 Mit `makeSphere(radius, [pnt, dir, winkel1, winkel2, winkel3])`. Standardmäßig pnt = Vektor(0, 0, 0), dir = Vektor(0, 0, 1), Winkel1 = -90, Winkel2 = 90 und Winkel3 = 360. Winkel1 und Winkel2 sind das vertikale Minimum und Maximum der Kugel, Winkel3 ist der Kugeldurchmesser.
-
-
-</div>
 
 
 ```python
@@ -661,13 +598,7 @@ myMat.move(2, 0, 0)
 myMat.move(App.Vector(2, 0, 0))
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Wenn unsere Matrix einmal festgelegt ist, können wir sie auf unsere Form anwenden. FreeCAD bietet zwei Methoden, um das zu tun   * `transformShape()` und `transformGeometry()`. Der Unterschied ist, dass Sie bei der ersten sicher sind, dass keine Verformungen auftreten werden (siehe [Skalierung einer Form](#Scaling_a_shape/de.md) unten). Wir können unsere Transformation wie folgt anwenden   *
-
-
-</div>
 
 
 ```python
@@ -839,13 +770,7 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 ### Verwendung einer Auswahl 
 
-
-<div class="mw-translate-fuzzy">
-
 Hier sehen wir nun, wie wir eine Auswahl verwenden können, die der Benutzer im Betrachter getroffen hat. Zuerst erstellen wir einen Kasten und zeigen ihn im Betrachter an.
-
-
-</div>
 
 
 ```python
@@ -961,13 +886,7 @@ import FreeCAD as App
 import Part, math
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Wir benötigen natürlich das Modul `Part`, aber auch das Modul `FreeCAD.Base`, das grundlegende FreeCAD Strukturen wie Vektoren und Matrizen enthält.
-
-
-</div>
+Wir benötigen natürlich das Modul `FreeCAD` und den Arbeitsbereich `Part`.
 
 
 ```python
@@ -1013,13 +932,7 @@ Erinnerst du dich an den Unterschied zwischen Geometrie und Formen? Hier bauen w
     myWireProfile=Part.Wire([aWire, aMirroredWire])
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Bislang haben wir nur ein halbes Profil erstellt. Anstatt das ganze Profil zu bauen Auf die gleiche Weise können wir einfach spiegeln, was wir getan haben, und beide Hälften zusammenkleben. Zuerst erstellen wir eine Matrix. Eine Matrix ist ein sehr gebräuchlicher Weg, um Transformationen auf Objekte in der 3D Welt anzuwenden, da sie in einer Struktur alle grundlegenden Transformationen, denen 3D Objekte unterzogen werden können (Verschieben, Drehen und Skalieren) enthalten. Nachdem wir die Matrix erstellt haben, spiegeln wir sie, dann erstellen wir eine Kopie unseres Drahtes und wenden die Transformationsmatrix darauf an. Wir haben jetzt zwei Drähte, und können wir einen dritten Draht aus ihnen machen, da Drähte eigentlich Listen von Kanten sind.
-
-
-</div>
 
 
 ```python
@@ -1131,13 +1044,7 @@ Part.show(cut_part)
 
 Es gibt mehrere Möglichkeiten, deine Arbeit zu speichern. Du kannst natürlich dein FreeCAD Dokument speichern, aber Du kannst auch [Part](Part_Workbench/de.md) Objekte direkt in gängigen CAD Formaten wie BREP, IGS, STEP und STL speichern.
 
-
-<div class="mw-translate-fuzzy">
-
 Das Speichern einer Form in einer Datei ist einfach. Es stehen die Methoden `exportBrep()`, `exportIges()`, `exportStep()` und `exportStl()` für alle Formobjekte zur Verfügung. Also, ausführen   *
-
-
-</div>
 
 
 ```python

@@ -21,7 +21,7 @@ Les utilisateurs expérimentés ont étendu FreeCAD avec divers [ateliers extern
 
 **Remarque   ***
 
-à partir de la version 0.17, FreeCAD propose un <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire d'Addon**. Il permet d\'installer à la fois des macros et des ateliers. Les instructions ci-dessous ne sont nécessaires que si vous souhaitez installer manuellement un atelier. Cela peut être nécessaire si, pour une raison quelconque, le Gestionnaire d\'Addon ne fonctionne pas mais que vous avez accès à l\'atelier téléchargé en tant que package **.zip**.
+à partir de la version 0.17, FreeCAD propose un <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire des extensions**. Il permet d\'installer à la fois des macros et des ateliers. Les instructions ci-dessous ne sont nécessaires que si vous souhaitez installer manuellement un atelier. Cela peut être nécessaire si, pour une raison quelconque, le Gestionnaire des extensions ne fonctionne pas mais que vous avez accès à l\'atelier téléchargé en tant que package **.zip**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -36,9 +36,9 @@ Comment installer des ateliers et des modules complémentaires supplémentaires 
 ### Obsolète
 
 
-**Note   ***
+**Remarque    ***
 
-l\'utilisation de \"addons-installer\" n\'est plus recommandé. L\'utilisation du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) qui se trouve dans tous les systèmes est la manière recommandée.
+l\'utilisation de \"addons-installer\" n\'est plus recommandé. L\'utilisation du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) qui se trouve dans tous les systèmes est la manière recommandée.
 
 Utilisez [addons-installer from Github](https   *//github.com/FreeCAD/FreeCAD-addons).
 
@@ -47,9 +47,9 @@ Au cours de Google Summer of Code 2016, l\'étudiant Mandeep Singh a commencé �
 ### Installation manuelle 
 
 
-**Remarque   ***
+**Remarque    ***
 
-cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
+cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
 
 -   Téléchargez l\'atelier depuis github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Télécharger ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
@@ -105,9 +105,9 @@ $ rm *.pyc
 ### Installation manuelle 
 
 
-**Remarque   ***
+**Remarque    ***
 
-cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
+cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
 
 -   Téléchargez le plan de travail depuis github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Télécharger ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
@@ -139,12 +139,12 @@ Comment installer des ateliers et des modules complémentaires supplémentaires 
 
 **Remarque   ***
 
-cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
+cette méthode est possible mais pas nécessaire avec l\'introduction du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Néanmoins les informations ici peuvent encore être utiles à certains.
 
 Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Workbench/fr.md) comme atelier externe que vous souhaitez installer   *
 
 -   Choisissez et téléchargez le référentiel git de votre plan de travail externe choisi sous forme de fichier ZIP
--   Il y a deux endroits possibles pour l\'atelier \"Mods\" de votre addon    *
+-   Il y a deux endroits possibles pour l\'atelier \"Mods\" de votre extension    *
 
 1.  Tous les utilisateurs    * **/Applications/FreeCAD.app/Contents/Resources/Mod**.
 2.  Utilisateur en cours uniquement    * **/Users/myusername/Library/Preferences/FreeCAD/Mod**.

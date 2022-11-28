@@ -166,7 +166,7 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Text Font|Font**   * spécifie la police utilisée pour dessiner le texte. Il peut s\'agir d\'un nom de police, tel que {{value|Arial}}, d\'un style par défaut tel que {{value|sans}}, {{value|serif}} ou {{value|mono}}, d\'une famille telle que {{value|Arial,Helvetica,sans}}, ou d\'un nom avec un style tel que {{value|Arial   *Bold}}. Si la police donnée n\'est pas trouvée sur le système, une police par défaut est utilisée à la place.
 
--    **Font Size|Length**   * spécifie la taille des lettres. Le texte peut être invisible dans la [Vue 3D](3D_view/fr.md) si cette valeur est très petite.
+-    **Text Size|Length**   * spécifie la taille des lettres. Le texte peut être invisible dans la [Vue 3D](3D_view/fr.md) si cette valeur est très petite.
 
 ## Script
 

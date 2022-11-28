@@ -30,7 +30,7 @@ Lorsque l\'éditeur de propriétés est divisé dans son widget séparé, effect
 
 ### Installation
 
-La macro est disponible via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [FreeCAD-macro repository](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/SplitPropEditor.FCMacro)
+La macro est disponible via le [Gestionnaire des extensions](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [FreeCAD-macro repository](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/SplitPropEditor.FCMacro)
 
 Pour des explications plus détaillées, consultez la page [Comment installer une Macro](How_to_install_macros/fr.md). Notez que la macro est prête à être définie comme [une macro au démarrage](Macro_at_Startup/fr.md).
 

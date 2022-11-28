@@ -1,45 +1,28 @@
 ---
 - GuiCommand   */de
    Name   *Curves JoinCurve
-   Name/de   *Kurven VerbindeKurve
-   MenuLocation   *Kurven → Verbinde Kurven
-   Workbenches   *[Kurven](Curves_Workbench/de.md)
-   Shortcut   *None
-   SeeAlso   *
+   Name/de   *Curves KurveVerbinden
+   MenuLocation   *Curves → Join Curves
+   Workbenches   *[Curves](Curves_Workbench/de.md)
 ---
 
 # Curves JoinCurve/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das <img alt="" src=images/Curves_JoinCurve.svg  style="width   *24px;"> [Kurven VerbindeKurve](Curves_JoinCurve/de.md) verbindet die ausgewählte Kante zu BSpline Kurven. Dieses Werkzeug ist Teil der [Externe Arbeitsbereiche](external_workbenches/de.md) namens [Kurven](Curves_Workbench/de.md).
-
-
-</div>
+Das Werkzeug <img alt="" src=images/Curves_JoinCurve.svg  style="width   *24px;"> [Curves KurveVerbinden](Curves_JoinCurve/de.md) verbindet die ausgewählten Kanten zu B-Spline-Kurven. Dieses Werkzeug ist Teil des [Externen Arbeitsbereichs](external_workbenches/de.md) [Curves](Curves_Workbench/de.md).
 
 <img alt="" src=images/JoinCurve_pic1.jpg  style="width   *600px;">
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wechsle zum <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Kurven](Curves_Workbench/de.md) Arbeitsbereich (Installation von <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) ist \# erforderlich, falls nicht bereits installiert)
-2.  Wähle eine oder mehrere Kanten in der 3D Ansicht. (verwende die STRG Taste für mehrere Auswahlen)
-3.  Kanten müssen in einer aufeinander folgenden Reihenfolge hinzugefügt werden. Und aus der Skizze ausgewählt werden, die Kante einer beliebigen Form.
-4.  Rufe den Kurven VerbindeKurve Befehl auf mehrere Arten auf
-    -   Drücke die <img alt="" src=images/Curves_JoinCurve.svg  style="width   *24px;"> Schaltfläche
-    -   Verwende den {{MenuCommand/de|Kurven → Kurven Verbinden}}
-5.  Alle Kanten werden zu einer einzigen Bspline zusammengeführt.
-
-
-</div>
+1.  Zum Arbeitsbereich <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Curves](Curves_Workbench/de.md) wechseln (muss mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden, wenn noch nicht geschehen)
+2.  Eine oder mehrere Kanten in der [3D-Ansicht](3D_view/de.md) auswählen. (für Mehrfachauswahl die STRG-Taste gedrückt halten)
+3.  Kanten müssen in einer fortlaufenden Reihenfolge hinzugefügt werden und können aus einer Skizze ausgewählt werden oder die Kante einer beliebigen Form sein.
+4.  Es gibt mehrere Möglichkeiten den Befehl Curves KurvenVerbinden aufzurufen   *
+    -   Die Schaltfläche <img alt="" src=images/Curves_JoinCurve.svg  style="width   *24px;"> drücken
+    -   Den Menüeintrag {{MenuCommand/de|Curves → joinCurves}} auswählen
+5.  Alle Kanten werden zu einem einzigen B-spline verbunden.
 
 ## Hinweise
 
@@ -50,13 +33,7 @@ Das <img alt="" src=images/Curves_JoinCurve.svg  style="width   *24px;"> [Kurven
 ## Skripten
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Curves Tools navi

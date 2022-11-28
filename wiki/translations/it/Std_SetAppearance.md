@@ -22,6 +22,9 @@ Questo strumento consente di definire l\'aspetto (modalità di visualizzazione, 
 
 </div>
 
+<img alt="" src=images/DlgDisplayProperties.png  style="width   *250px;"> 
+*The Display properties task panel*
+
 
 <div class="mw-translate-fuzzy">
 

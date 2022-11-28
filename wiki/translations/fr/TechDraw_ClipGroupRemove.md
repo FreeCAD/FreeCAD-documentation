@@ -18,7 +18,7 @@ Cet outil supprime une vue d\'un fenêtre de rognage existante et la renvoie dan
 
 ## Utilisation
 
-1.  Sélectionnez une vue faisant partie d\'un denêtre rognage et appuyez sur le bouton **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Supprimer la vue de la fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)** pour supprimer la vue.
+-   Sélectionnez une vue faisant partie d\'un denêtre rognage et appuyez sur le bouton **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Supprimer la vue de la fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)** pour supprimer la vue.
 
 
 

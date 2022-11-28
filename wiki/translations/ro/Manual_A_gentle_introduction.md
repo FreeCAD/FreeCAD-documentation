@@ -7,7 +7,13 @@ FreeCAD folosește extensiv Python. Cu aceasta, puteți accesa și controla apro
 
 ![](images/Exercise_python_01.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Dar consola Python are și o altă utilizare foarte importantă   * de fiecare dată când apăsați un buton al barei de instrumente sau efectuați alte operații în FreeCAD, fragmente de cod Python sunt tipărite în consola și executate. Lăsând deschisă consola Python, puteți vedea în mod literal codul Python care se desfășoară în timp ce lucrați și, în cel mai scurt timp, aproape fără a ști asta, veți învăța limbajul Python.
+
+
+</div>
 
 FreeCAD are de asememene un [macros system](Macros.md), care vă permite să vă înregistrați acțiunile pentru a fi reluate mai târziu. Acest sistem utilizează, de asemenea, consola Python, care înregistrează pur și simplu tot ceea ce se face în interior.
 
@@ -15,7 +21,13 @@ FreeCAD are de asememene un [macros system](Macros.md), care vă permite să vă
 
 ### Scrierea de cod Python 
 
+
+<div class="mw-translate-fuzzy">
+
 Sunt două maniere facile de a scrie cod Python în FreeCAD   * de la consola Python (menu **View -\> Panels -\> Python Console**), sau de la editorul Macro (menu **Tools -\> Macros -\> New**). În consolă, scrieți comenzi Python una câte una, ele sunt executate atunci când apăsați retur de car (Enter), în timp ce macrocomenzile pot conține un script mai complex compus din mai multe linii care se execută numai când macroul este lansat din aceeași fereastră Macros (faceți click pe triunghiul verde).
+
+
+</div>
 
 În acest capitol, veți putea utiliza ambele metode, dar este foarte recomandat să utilizați Consola Python, deoarece vă va informa imediat despre eventualele erori pe care le faceți în timp ce tastați.
 
@@ -45,7 +57,13 @@ Caseta noastră este adăugată în vederea arborescentă, dar nu se întâmplă
 
 doc.recompute()
 
+
+<div class="mw-translate-fuzzy">
+
 Acum, caseta noastră a apărut în vizualizarea 3D. Multe dintre butoanele din bara de instrumente care adaugă obiecte în FreeCAD fac de fapt două lucruri   * adăugați obiectul și recalculează. Dacă ați activat opțiunea \"show script commands in Python console\" de mai sus, încercați acum să adăugați o sferă cu butonul corespunzător din Atetlierul Part și veți vedea că cele două linii de cod Python sunt executate unul după altul.
+
+
+</div>
 
 Puteți obține o listă cu toate tipurile de obiecte posibile cum ar fi Part   *   *Box   *
 

@@ -118,10 +118,10 @@ class MyWorkbench (Workbench)   *
         It is executed once in a FreeCAD session followed by the Activated function.
         """
         import MyModuleA, MyModuleB # import here all the needed files that create your FreeCAD commands
-        self.list = ["MyCommand1", "MyCommand2"] # A list of command names created in the line above
-        self.appendToolbar("My Commands",self.list) # creates a new toolbar with your commands
-        self.appendMenu("My New Menu",self.list) # creates a new menu
-        self.appendMenu(["An existing Menu","My submenu"],self.list) # appends a submenu to an existing menu
+        self.list = ["MyCommand1", "MyCommand2"] # a list of command names created in the line above
+        self.appendToolbar("My Commands", self.list) # creates a new toolbar with your commands
+        self.appendMenu("My New Menu", self.list) # creates a new menu
+        self.appendMenu(["An existing Menu", "My submenu"], self.list) # appends a submenu to an existing menu
 
     def Activated(self)   *
         """This function is executed whenever the workbench is activated"""
@@ -134,7 +134,7 @@ class MyWorkbench (Workbench)   *
     def ContextMenu(self, recipient)   *
         """This function is executed whenever the user right-clicks on screen"""
         # "recipient" will be either "view" or "tree"
-        self.appendContextMenu("My commands",self.list) # add commands to the context menu
+        self.appendContextMenu("My commands", self.list) # add commands to the context menu
 
     def GetClassName(self)   * 
         # This function is mandatory if this is a full Python workbench
@@ -176,6 +176,8 @@ Adding your preference page(s)   *
 
 To distribute your Python workbench, you may either simply host the files in some location and instruct your users to download them and place them in their Mod directory manually, or you may host them in an online git repository (GitHub, GitLab, Framagit, and Debian Salsa are currently supported locations) and configure them for the [Addon Manager](Std_AddonMgr.md) to install. Instructions for inclusion on FreeCAD\'s official Addons list can be found on the [FreeCAD Addons GitHub repository](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). To use the Addon Manager, a [package.xml metadata file](Package_Metadata.md) should be included, which instructs the Addon Manager how to find your workbench\'s icon, and allows display of a description, version number, etc. It can also be used to specify other workbenches or Python packages that your Workbench either depends on, is blocked by, or is intended to replace.
 
+For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see   * [Add Workbench to Addon_Manager](Add_Workbench_to_Addon_Manager.md).
+
 Optionally, you can include a separate metadata file describing your Python dependencies. This may be either a file called metadata.txt describing your workbench\'s external dependencies (on either other Addons, Workbenches, or Python modules), or a [requirements.txt](https   *//pip.pypa.io/en/latest/reference/requirements-file-format/) describing your Python dependencies. Note that if using a requirements.txt file, only the names of the specified packages are used for dependency resolution   * pip command options, include options and version information are not supported by the Addon Manager. Users may manually run the requirements file using pip if those features are required.
 
 The format of the metadata.txt file is plain text, with three optional lines   *
@@ -198,7 +200,7 @@ optionalpylibs=metadata,git
 
 You may also include a script that is run when your package is uninstalled. This is a file called \"uninstall.py\" located at the top level of your Addon. It is executed when a user uninstalls your Addon using the Addon Manager. Use it to clean up anything your Addon may have done to the users system that should not persist when the Addon is gone (e.g. removing cache files, etc.).
 
-To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode use the [Parameter Editor](Std_DlgParameter.md) to create a boolean variable called \"developerMode\" in the \"Addons\" parameter group, and set this variable to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
+To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode select   * **Edit → Preferences... → Addon Manager → Addon manager options → Addon developer mode**, see [Preferences Editor](Preferences_Editor#Addon_manager_options.md).
 
 ### C++ workbenches 
 
@@ -235,6 +237,10 @@ namespace MyModuleGui {
 
 You can add a Preferences page for C++ workbenches too. The steps are similar to those for Python.
 
+#### Distribution 
+
+There are two options to distribute a C++ workbench, you can either host precompiled versions for the different operating systems yourself, or you can request for your code to be merged into the FreeCAD source code. As mentioned above this requires a LGPL2+ license, and you must first present your workbench to the community in the [FreeCAD forum](https   *//forum.freecad.org) for review.
+
 ## FreeCAD commands 
 
 FreeCAD commands are the basic building block of the FreeCAD interface. They can appear as a button on toolbars, and as a menu entry in menus. But it is the same command. A command is a simple Python class, that must contain a couple of predefined attributes and functions, that define the name of the command, its icon, and what to do when the command is activated.
@@ -266,7 +272,7 @@ FreeCADGui.addCommand("My_Command", My_Command_Class())
 
 ### C++ command definition 
 
-Similarly, you can code your commands in C++, typically have a Commands.cpp file in your Gui module. This is a typical Commands.cpp file   *
+Similarly, you can code your commands in C++, typically in a Commands.cpp file in your Gui module. This is a typical Commands.cpp file   *
 
  
 ```pythonDEF_STD_CMD_A(CmdMyCommand);

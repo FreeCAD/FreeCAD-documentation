@@ -28,7 +28,7 @@ L\'[atelier ModernUI](ModernUI_Workbench/fr.md) est un [Atelier externe](Externa
 
 ## Installation
 
-Installer le avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Installer le avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 Remarque    * pour désinstaller, vous devez créer une macro et l\'exécuter. Si vous n\'êtes pas sûr de vous, envisagez de ne pas l\'installer.
 
@@ -58,7 +58,7 @@ Des instructions détaillées sont disponibles sur [GitHub](https   *//github.co
 
 La séquence de désinstallation est la suivante    *
 
-1.  Désinstaller avec le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+1.  Désinstaller avec le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 2.  Redémarrez FreeCAD.
 3.  Créez une macro avec ce code    *```python
     from PySide2 import QtCore, QtGui, QtWidgets

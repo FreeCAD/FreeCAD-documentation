@@ -14,11 +14,11 @@ The <img alt="" src=images/Fasteners_Flip.svg  style="width   *24px;"> **Fastene
 
 ## Применение
 
-1.  Select one or more attached fasteners. The selection may include unattached fasteners, but these will not be flipped. See [Notes](#Notes.md).
-2.  There are several ways to invoke the command   *
-    -   Press the **<img src="images/Fasteners_Flip.svg" width=16px> [Invert fastener](Fasteners_Flip.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_Flip.svg" width=16px> Invert fastener** option from the menu.
-3.  The orientation of the selected attached fasteners is inverted.
+1.  Выберите одно или несколько прикрепленных к чему-либо изделий. Можно так же выбрать изделия которые ни к чему не прикреплены, они просто не будут перевернуты. См. [Примечания](#Примечания.md).
+2.  Команду можно вызвать несколькими способами   *
+    -   Нажатием на кнопку **<img src="images/Fasteners_Flip.svg" width=16px> [Перевернуть крепёж](Fasteners_Flip.md)**.
+    -   Выбрав пункт главного меню **Стандартные изделия → <img src="images/Fasteners_Flip.svg" width=16px> Перевернуть крепёж**.
+3.  Ориентация выбранного крепежа будет изменена на противоположную.
 
 ## Примечания
 

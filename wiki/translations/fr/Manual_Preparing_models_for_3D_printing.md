@@ -54,7 +54,7 @@ Ceci est notre fichier STL exporté ouvert dans Slic3r. En utilisant l\'onglet *
 
 ![](images/Exercise_meshing_03.jpg )
 
-### Utilisation du greffon (addon) Cura 
+### Utilisation de l\'extension Cura 
 
 [Cura](https   *//ultimaker.com/en/products/cura-software) est une autre application Slicer gratuite et open-source pour Windows, Mac et Linux, maintenue par le fabricant d\'imprimantes 3D [Ultimaker](https   *//ultimaker.com). Certains utilisateurs de FreeCAD ont créé un atelier Cura ([Cura Workbench](https   *//github.com/cblt2l/FreeCAD-CuraEngine-Plugin)) qui utilise Cura en interne. L'atelier Cura est disponible dans le dépôt [FreeCAD addons](https   *//github.com/FreeCAD/FreeCAD-addons). Pour l\'utiliser, vous devez également installer le logiciel Cura qui n'est pas inclus dans l\'atelier.
 

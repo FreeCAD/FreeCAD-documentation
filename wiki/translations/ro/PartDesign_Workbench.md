@@ -102,6 +102,8 @@ These are tools to organize the Model tree.
 
 </div>
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Validate sketch](Sketcher_ValidateSketch.md)   * verifies the tolerance of different points and adjusts them.
+
 ### Part Design Modeling tools 
 
 #### Instrumente de referință 

@@ -18,7 +18,7 @@ L\'outil [Arch Escalier](Arch_Stairs/fr.md) vous permet de construire automatiqu
 Voir la [Terminologie des escaliers](https   *//fr.wikipedia.org/wiki/Escalier#Terminologie) pour une définition des différents termes utilisés pour décrire les parties d\'un escaliers.
 
 <img alt="" src=images/Arch_Stairs_example.jpg  style="width   *640px;"> 
-*Deux escaliers ont été créés   * l'un avec une structure massive et un palier et un autre avec un seul limon.*
+*Deux escaliers ont été créés    * l'un avec une structure massive et un palier et un autre avec un seul limon.*
 
 ## Options
 
@@ -132,11 +132,11 @@ Voir la [Terminologie des escaliers](https   *//fr.wikipedia.org/wiki/Escalier#T
 ## Script
 
 
-**Voir aussi   ***
+**Voir aussi    ***
 
 [API](Arch_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Escalier peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante   * 
+L\'outil Escalier peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante    * 
 ```python
 Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=None, name="Stairs")
 ```
@@ -147,7 +147,7 @@ Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=No
 -   Crée un objet `Stairs` à partir de `baseobj` donné.
 -   Si `baseobj` n\'est pas indiqué, il utilisera `length`, `width`, `height` et `steps` pour construire un objet solide.
 
-Exemple   * 
+Exemple    * 
 ```python
 import Arch
 

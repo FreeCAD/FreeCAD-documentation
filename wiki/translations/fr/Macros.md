@@ -22,7 +22,7 @@ C\'est très simple à utiliser    * appuyez sur le bouton d\'enregistrement, il
 ![](images/Macros.png ) 
 *Interface listant les macros disponibles dans le système*
 
-Vous pouvez y gérer vos macros, les supprimer, les modifier, les dupliquer, les installer ou en créer de nouvelles à partir de zéro. Si vous modifiez une macro, elle sera ouverte dans une fenêtre d\'éditeur où vous pourrez apporter des modifications à son code. De nouvelles macros peuvent être installées en utilisant le bouton {{button|Addons...}}, qui relie le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Vous pouvez y gérer vos macros, les supprimer, les modifier, les dupliquer, les installer ou en créer de nouvelles à partir de zéro. Si vous modifiez une macro, elle sera ouverte dans une fenêtre d\'éditeur où vous pourrez apporter des modifications à son code. De nouvelles macros peuvent être installées en utilisant le bouton {{button|Extensions...}}, qui relie le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ## Exemple
 
@@ -46,7 +46,7 @@ Allez sur [Comment installer des macros](How_to_install_macros/fr.md) pour une d
 
 ## Les dépôts des macros 
 
-Il existe deux emplacements principaux pour les macros. Le premier est le dépôts des macros officielles évalués par des pairs sur [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). La deuxième est la page [Liste des macros](Macros_recipes/fr.md) à partir de laquelle vous pouvez choisir des macros utiles à ajouter à votre installation FreeCAD. Les macros des deux référentiels peuvent être installées via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) directement depuis FreeCAD.
+Il existe deux emplacements principaux pour les macros. Le premier est le dépôts des macros officielles évalués par des pairs sur [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). La deuxième est la page [Liste des macros](Macros_recipes/fr.md) à partir de laquelle vous pouvez choisir des macros utiles à ajouter à votre installation FreeCAD. Les macros des deux dépôts peuvent être installées via le [Gestionnaire des extensions](Std_AddonMgr/fr.md) directement depuis FreeCAD.
 
 ## Informations supplémentaires 
 
@@ -55,7 +55,7 @@ Il existe deux emplacements principaux pour les macros. Le premier est le dépô
 
 ## Tutoriels
 
-Vous pouvez installer manuellement des extensions, cependant, il est beaucoup plus facile d\'utiliser simplement le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Vous pouvez installer manuellement des extensions, cependant, il est beaucoup plus facile d\'utiliser simplement le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 -   [Comment installer des macros](How_to_install_macros/fr.md)
 -   [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md)

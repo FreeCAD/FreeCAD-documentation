@@ -33,10 +33,7 @@ Rozmiar punktów wierzchołków można dostosować w zakładce [skala](TechDraw_
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również   ***
-
-[TechDraw API](TechDraw_API.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Narzędzie te nie jest obecnie wyposażone w interfejs programistyczny.
 

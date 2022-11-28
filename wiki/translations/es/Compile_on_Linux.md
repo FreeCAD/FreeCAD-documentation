@@ -688,6 +688,7 @@ Necesitará las siguientes bibliotecas de los depósitos oficiales   *
 -   pyside2
 -   python-matplotlib
 -   python-netcdf4
+-   python-packaging
 -   qt5-svg
 -   qt5-webengine
 -   cmake
@@ -704,7 +705,7 @@ Necesitará las siguientes bibliotecas de los depósitos oficiales   *
 
 
 ```python
-sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 qt5-svg qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
+sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 python-packaging qt5-svg qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
 ```
 
 
@@ -894,17 +895,44 @@ cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release ../freecad
 
 #### Creación contra Python 3 y Qt5 
 
+
+<div class="mw-translate-fuzzy">
+
 Por defecto, FreeCAD 0.19 y anteriores construyen para Python 2 y Qt4. Dado que estos dos paquetes son obsoletos, es mejor construir para Python 3 y Qt5. El soporte para Python 2 y Qt4 se ha eliminado en FreeCAD 0.20 y no es necesario activar explícitamente Qt5 y Python 3 si se compilan las últimas versiones de desarrollo.
 
-Por 0.20_dev   * {{Code|lang=bash|code=
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Por 0.20_dev   *
+
+
+</div>
+
+
+{{Code|lang=bash|code=
 cmake ../freecad-source
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 Tenga en cuenta que al cambiar entre las compilaciones 0.19 y 0.20, puede ser necesario borrar CMakeCache.txt antes de ejecutar cmake.
+
+
+</div>
 
 #### Creación para una versión específica de Python 
 
+
+<div class="mw-translate-fuzzy">
+
 Si el ejecutable `python` por defecto en tu sistema es un enlace simbólico a Python 2, `cmake` intentará configurar FreeCAD para esta versión. Puedes elegir otra versión de Python dando la ruta a un ejecutable específico   *
+
+
+</div>
 
 
 {{Code|lang=bash|code=

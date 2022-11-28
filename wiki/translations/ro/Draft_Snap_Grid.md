@@ -1,7 +1,7 @@
 ---
 - GuiCommand   */ro
+   Name   *Draft Snap Grid
    Name/ro   *Draft Grid
-   Icon   *Snap_Grid.svg
    MenuLocation   *Draft → [Snapping](Draft_Snap.md) → Grid
    Workbenches   *[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
    SeeAlso   *[[Draft ToggleGrid/ro]], [[Draft Snap/ro]]
@@ -27,8 +27,8 @@ The <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *24px;"> **Draft 
 1.  Optionally change the [working plane and/or the grid](Draft_SelectPlane.md).
 2.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
 3.  If **Draft Snap Grid** is not active do one of the following   *
-    -   Press the **<img src="images/Draft_Snap_Grid.svg" width=16px>** button in the Draft Snap toolbar.
-    -   Press the **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu select the **<img src="images/Draft_Snap_Grid.svg" width=16px> Snap Grid** option.
+    -   Press the **<img src="images/Draft_Snap_Grid.svg" width=16px>** button in the Draft snap toolbar.
+    -   Hold down the **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu that opens select the **<img src="images/Draft_Snap_Grid.svg" width=16px> Snap Grid** option.
 4.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
 5.  Note that you can also change snap options while a command is active.
 6.  The grid is now displayed if it was not yet visible.

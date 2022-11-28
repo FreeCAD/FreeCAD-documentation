@@ -1,7 +1,8 @@
-# Pyramids and polyhedrons Workbench
-## Description
+# <img alt="The Pyramids-and-Polyhedrons Workbench Icon" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width   *64px;"> Pyramids and polyhedrons Workbench
 
-<img alt="The Pyramids-and-Polyhedrons External Workbench Icon" src=images/Pyramids-and-Polyhedrons_workbench_icon.svg  style="width   *128px;">
+ 
+
+## Introduction
 
 This workbench creates   *
 
@@ -9,20 +10,21 @@ This workbench creates   *
 -   Parametric polyhedrons   * tetrahedron, hexahedron, octahedron, dodecahedron, icosahedron, icosahedron_truncated
 -   Geodesic spheres (with divisions 1 to 10)
 
-Parameters like radius and side, \...can be adjusted just like with normal parts
+Parameters like radius and side, \...can be adjusted just like with normal parts.
 
-![](images/Pyramids-and-Polyhedrons_workbench.png )
+ <img alt="" src=images/Pyramids-and-Polyhedrons_workbench.png  style="width   *600px;">
 
-![](images/Polyhedrons.png )
+<img alt="" src=images/Polyhedrons.png  style="width   *600px;"> 
 
 ## Installation
 
-Install via the Addon Manager 
-Is not yet possible - work in progress.
+Install via the Addon manager
+
+To install the Addon use the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr.md) to seamlessly download the Pyramids and Polygons Workbench.
 
 Manual install
 
-Go to <https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and follow the instructions over there. Further details about this workbench can also be found there.
+Go to <https   *//github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons> and follow the instructions there. Further details about this workbench can also be found there.
 
 ## Usage
 

@@ -28,10 +28,7 @@ Das Werkzeug <img alt="" src=images/TechDraw_PrintAll.svg  style="width   *24px;
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug AllesDrucken steht noch nicht zum Skripten zur Verfügung.
 

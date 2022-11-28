@@ -27,14 +27,23 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
   <img alt="" src=images/Measurement-Part_relnotes_1.0.png  style="width   *384px;">   Styl wyświetlania wyników [pomiarów](Part_Module/pl#Pomiary.md) utworzonych przy użyciu środowiska [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) może być teraz zmieniony w [preferencjach](PartDesign_Preferences/pl#Pomiary.md). [Pull request #7148](https   *//github.com/FreeCAD/FreeCAD/pull/7148)
    
 
+   
+  <img alt="" src=images/DlgDisplayProperties_relnotes_1.0.png  style="width   *200px;">   Panel zadań [wygląd zewnętrzny](Std_SetAppearance/pl.md) posiada teraz również przycisk do ustawiania właściwości Kolor punktu. [Pull request #7708](https   *//github.com/FreeCAD/FreeCAD/pull/7708)
+   
+
+   
+  <img alt="" src=images/WbSelector_relnotes_1.0.png  style="width   *300px;">   Pole wyboru środowiska pracy może być teraz opcjonalnie umieszczone na pasku menu zamiast w obszarze paska narzędzi. [Pull request #7679](https   *//github.com/FreeCAD/FreeCAD/pull/7679)
+   
+
 ### Planowane ulepszenie dla interfejsu użytkownika 
 
 -   Możliwe jest teraz ustawienie domyślnej przezroczystości dla nowych obiektów środowiska [Część](Part_Module/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) w [preferencjach](PartDesign_Preferences/pl.md). [Pull request #7103](https   *//github.com/FreeCAD/FreeCAD/pull/7103).
+-   Przycisk <img alt="" src=images/Std_UserEditModeDefault.svg  style="width   *24px;"> [Tryb Edycji](Std_UserEditMode/pl.md) został usunięty ze standardowego paska narzędzi. Może zostać ponownie dodany przez [dostosowanie](Std_DlgCustomize/pl.md) Twojego paska narzędzi.[Pull request #7570](https   *//github.com/FreeCAD/FreeCAD/pull/7570)
+-   Przyciski <img alt="" src=images/Std_Print.svg  style="width   *24px;"> [Drukuj](Std_Print/pl.md), <img alt="" src=images/Std_Copy.svg  style="width   *24px;"> [Kopiuj](Std_Copy/pl.md), <img alt="" src=images/Std_Paste.svg  style="width   *24px;"> [Wklej](Std_Paste/pl.md) i <img alt="" src=images/Std_Cut.svg  style="width   *24px;"> [Wytnij](Std_Cut/pl.md) zostały usunięte ze standardowego paska narzędzi. Mogą zostać ponownie dodane przez [dostosowanie](Std_DlgCustomize/pl.md) Twojego paska narzędzi.[Pull request #7571](https   *//github.com/FreeCAD/FreeCAD/pull/7571) i [commit ea9a04e](https   *//github.com/FreeCAD/FreeCAD/commit/ea9a04e).
+-   Dodano polecenia [Zachowaj widok](Std_StoreWorkingView/pl.md) i [Odtwórz widok](Std_RecallWorkingView/pl.md) dla tymczasowego widoku roboczego. [Pull request #7525](https   *//github.com/FreeCAD/FreeCAD/pull/7525)
+-   Zmiany wartości za pomocą kółka myszy w \"polach wejściowych\" *(typ widżetu używany do wprowadzania wartości w panelach zadań, na przykład przez [Linia](Draft_Line/pl.md))* środowiska Rysunek Roboczy są wyłączone, jeśli widżet nie jest aktywny i przełącznik [ComboBoxWheelEventFilter](Fine-tuning/pl.md) jest włączony. Dzięki temu unikniemy niechcianych zmian wartości podczas przewijania, co już miało miejsce w przypadku pól typu spinner i combo. [Pull request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561)
+-   Wszystkie ustawienia przezroczystości używają teraz jednolitego kroku przycisku typu spin o wartości 5%   * Jedno kliknięcie przycisku w oknie dialogowym lub [Edytorze właściwości](Property_editor/pl.md) zmienia przezroczystość o 5%. Trzymaj przycisk wciśnięty, aby zmienić wartość o kilka kroków 5% jednocześnie. [Pull request #7723](https   *//github.com/FreeCAD/FreeCAD/pull/7723)
 -   Dodano przycisk do przełączania kolorów gradientu tła okna [widoku 3D](3D_view/pl.md) w [Ustawieniach](Preferences_Editor/pl#Kolory.md). [Pull request #7155](https   *//github.com/FreeCAD/FreeCAD/pull/7155).
--   Dodano polecenia [zachowaj](Std_StoreWorkingView/pl.md) i [odtwórz](Std_RecallWorkingView/pl.md) tymczasowego widoku roboczego. [Pull request #7525](https   *//github.com/FreeCAD/FreeCAD/pull/7525)
--   Zmiany wartości za pomocą kółka myszy w \"polach wejściowych\" *(typ widżetu używany do wprowadzania wartości w panelach zadań, na przykład przez [linia](Draft_Line/pl.md))*środowiska Rysunek Roboczy są wyłączone, jeśli widżet nie ma aktywności i przełącznik [ComboBoxWheelEventFilter](Fine-tuning/pl.md) jest włączony. Zapobiega to niepożądanym zmianom wartości podczas przewijania, jak to już miało miejsce w przypadku pól wyboru różnego typu. [request #7561](https   *//github.com/FreeCAD/FreeCAD/pull/7561%7CPull)
--   Przycisk [Tryb edycji](Std_UserEditMode/pl.md) paska narzędzi został usunięty. [Pull request #7570](https   *//github.com/FreeCAD/FreeCAD/pull/7570)
--   Przyciski [Drukuj](Std_Print/pl.md), [Kopiuj](Std_Copy/pl.md), [Wklej](Std_Paste/pl.md) i [Wytnij](Std_Cut/pl.md) paska narzędzi zostały usunięte. [Pull request #7571](https   *//github.com/FreeCAD/FreeCAD/pull/7571) i [commit ea9a04e](https   *//github.com/FreeCAD/FreeCAD/commit/ea9a04e)
 
 ## System podstawowy i API 
 
@@ -98,8 +107,9 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 ### Planowane ulepszenie dla środowiska Rysunek Roboczy 
 
--   Naprawiono kilka problemów związanych z [Szyk po ścieżce](Draft_PathArray/pl.md). [Pull request #7506](https   *//github.com/FreeCAD/FreeCAD/pull/7506)
--   Polecenie [Edycja](Draft_Edit/pl.md) otrzymało kilka ulepszeń. Dla [linii łamanej](Draft_Wire/pl.md), [krzywej złożonej](Draft_BSpline/pl.md) i [krzywej Béziera](Draft_BezCurve/pl.md) dodano opcję Zamknij / Otwórz do menu podręcznego krawędzi. W przypadku krzywych złożonych i krzywych Béziera do tego samego menu dodano również opcję Odwróć. Panele zadań zostały wyczyszczone. [Żądanie ściągnięcia #7527](https   *//github.com/FreeCAD/FreeCAD/pull/7527) i [Pull request #7541](https   *//github.com/FreeCAD/FreeCAD/pull/7541)
+-   Naprawiono kilka problemów związanych z [Szyk po ścieżce](Draft_PathArray/pl.md). [Pull request #7506](https   *//github.com/FreeCAD/FreeCAD/pull/7506) oraz [Pull request #7662](https   *//github.com/FreeCAD/FreeCAD/pull/7662).
+-   Polecenie [Edycja](Draft_Edit/pl.md) otrzymało kilka ulepszeń. Dla [linii łamanej](Draft_Wire/pl.md), [krzywej złożonej](Draft_BSpline/pl.md) i [krzywej Béziera](Draft_BezCurve/pl.md) dodano opcję Zamknij / Otwórz do menu podręcznego krawędzi. W przypadku krzywych złożonych i krzywych Béziera do tego samego menu dodano również opcję Odwróć. Panele zadań zostały wyczyszczone. [Żądanie ściągnięcia #7527](https   *//github.com/FreeCAD/FreeCAD/pull/7527) i [Pull request #7541](https   *//github.com/FreeCAD/FreeCAD/pull/7541).
+-   Pasek narzędzi [Przyciągania](Draft_Snap/pl.md) został zmieniony na standardowy pasek narzędzi. Skróty klawiaturowe mogą być teraz przypisane do narzędzi przyciągania. Ale używanie ich podczas polecenia działa tylko wtedy, gdy żadne z pól wejściowych w panelu zadań nie jest aktywne, ponieważ \"łapią\" one tak zwane skróty wewnątrz polecenia. [Pull request #7656](https   *//github.com/FreeCAD/FreeCAD/pull/7656)
 
 ## Środowisko pracy MES 
 
@@ -113,6 +123,7 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 -   Narzędzie <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width   *24px;"> [Objętościowe źródło ciepła](FEM_ConstraintBodyHeatSource/pl.md) ma teraz panel zadań i możliwe jest ustawienie ciepła dla kilku ciał lub użycie kilku wiązań dla różnych ciał w jednej analizie. [Pull request #7367](https   *//github.com/FreeCAD/FreeCAD/pull/7367)
 -   Teraz można otwierać *(i w ten sposób wizualizować)* pliki \*.pvtu *(partycjonowane niestrukturalne dane siatki VTK)*. Plik \*.pvtu jest również wynikiem symulacji [Elmer](FEM_SolverElmer/pl.md), w której zastosowano więcej niż jeden rdzeń procesora. [Pull request #7159](https   *//github.com/FreeCAD/FreeCAD/pull/7159)
 -   Critical Strain Ratio został dodany do potoku wyników VTK. Daje wskazanie rozerwania ciągliwego dla materiałów z obiektem „MaterialMechanicalNonlinear". [Pull request #7467](https   *//github.com/FreeCAD/FreeCAD/pull/7467)
+-   Narzędzie <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width   *24px;"> [Siatka MES na obiekt środowiska Siatka](FEM_FemMesh2Mesh/pl.md) umożliwia określenie skali deformowanej siatki. [Wątek na forum](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=71936) oraz [Pull request #7715](https   *//github.com/FreeCAD/FreeCAD/pull/7715).
 
 ## Eksport
 
@@ -137,7 +148,9 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 ### Planowane ulepszenia dla środowiska Projekt Części 
 
--   In the [Hole](PartDesign_Hole.md) dialog, the deprecated screw head types (cheese head, cap screw etc.) have been removed. They were deprecated since FreeCAD 0.19. Holes using these types are transformed to custom countersinks/counterbore holes with the diameter and depth used by the types. [Pull request #7654](https   *//github.com/FreeCAD/FreeCAD/pull/7654)
+-   W oknie dialogowym [Otwór](PartDesign_Hole/pl.md) usunięto przestarzałe typy łbów śrub *(łeb serowy, śruba kapiszonowa itp.)*. Były one przestarzałe od wersji FreeCAD 0.19. Otwory wykorzystujące te typy są przekształcane w niestandardowe pogłębiacze/otwory o średnicy i głębokości używanej przez typy. [Pull request #7654](https   *//github.com/FreeCAD/FreeCAD/pull/7654)
+-   Polecenie [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md) zostało dodane do paska narzędzi Helper. [Pull request #7700](https   *//github.com/FreeCAD/FreeCAD/pull/7700)
+-   Usunięto z menu nieużyteczne polecenia [Zamknij edycje szkicu](Sketcher_LeaveSketch/pl.md) i [Widok szkicu](Sketcher_ViewSketch/pl.md). Polecenia [Edycja szkicu](Sketcher_EditSketch/pl.md), [Łączenie szkiców](Sketcher_MergeSketches/pl.md) i [Odbicie lustrzane szkicu](Sketcher_MirrorSketch/pl.md) zostały dodane do menu. [Pull request #7700](https   *//github.com/FreeCAD/FreeCAD/pull/7700)
 
 ## Środowisko pracy Path 
 
@@ -152,27 +165,50 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 ## Środowisko pracy Szkicownik 
 
    
+  <img alt="" src=images/Constrain_B-spline_knots_relnotes_1.0.gif  style="width   *384px;">Dragging of B-spline knots.Click on the image to see the animation.   B-spline knots can now be dragged around and constrained like any other sketch point. [Pull request #7484](https   *//github.com/FreeCAD/FreeCAD/pull/7484)
+                                                                                                                                                                                                           
+   
+
+
+<div class="mw-translate-fuzzy">
+
+   
   ![](images/sketcher-move-piece_relnotes_1.0.gif )   Operacja przeciągania krzywej złożonej przesuwa teraz tylko część między węzłami. [Pull request #7110](https   *//github.com/FreeCAD/FreeCAD/pull/7110)
                                                                                      
    
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
    
   ![](images/Sketcher_BackEdit_relnotes_1.0.gif )   Możliwość płynnej edycji szkiców zarówno z przodu jak i z tyłu. Podczas pracy od tyłu, wierzchołki *(oraz wszystkie geometrie i ograniczenia)* są jednakowo wybieralne, a widok przekroju jest przełączany automatycznie. [Pull request #7417](https   *//github.com/FreeCAD/FreeCAD/pull/7417)
                                                                                  
    
 
-### Planowane ulepszenia dla środowiska Szkicownik 
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
 
--   Przycisk paska narzędzi [Wiązanie prawo Snella](Sketcher_ConstrainSnellsLaw/pl.md) został usunięty. [Commit ef62fc3](https   *//github.com/FreeCAD/FreeCAD/commit/ef62fc3)
--   Przyciski paska narzędzi [Wybierz zbędne wiązania](Sketcher_SelectRedundantConstraints/pl.md) i [Wybierz wiązania konfliktowe](Sketcher_SelectConflictingConstraints/pl.md) zostały usunięte. [Pull request #7568](https   *//github.com/FreeCAD/FreeCAD/pull/7568)
--   Przycisk paska narzędzi dla [Przerwij operację](Sketcher_StopOperation/pl.md) został usunięty. [Pull request #7569](https   *//github.com/FreeCAD/FreeCAD/pull/7569)
--   Edycja widżetu sterowania, usunięto etykietę „Rozmiar siatki", zmieniono nazwę pola wyboru „Pokaż siatkę" na „Siatka". [Pull request #7577](https   *//github.com/FreeCAD/FreeCAD/pull/7577)
+   
+  ![](images/Sketcher_Element_Widget_relnotes_1.0.gif )   Widżet Element został przerobiony w celu uproszczenia interfejsu użytkownika i umożliwienia prostszego wyboru różnych części każdej geometrii   * Krawędź, punkt początkowy, punkt końcowy i punkt środkowy. [Pull request #7567](https   *//github.com/FreeCAD/FreeCAD/pull/7567)
+                                                                                             
+   
 
 
 </div>
+
+### Planowane ulepszenia dla środowiska Szkicownik 
+
+-   Przycisk paska narzędzi [Wiązanie prawo Snella](Sketcher_ConstrainSnellsLaw/pl.md) został usunięty. [Commit ef62fc3](https   *//github.com/FreeCAD/FreeCAD/commit/ef62fc3)
+-   [Wiązania wymiarów](Sketcher_Workbench/pl#Wi.C4.85zania_wymiar.C3.B3w.md) i pola wyboru wartości obsługują teraz tą samą matematykę co [wyrażenia](Expressions/pl.md) *(obliczane na bieżąco)*. [Pull Request #7124](https   *//github.com/FreeCAD/FreeCAD/pull/7124)
+-   Przyciski paska narzędzi [Wybierz zbędne wiązania](Sketcher_SelectRedundantConstraints/pl.md) i [Wybierz wiązania konfliktowe](Sketcher_SelectConflictingConstraints/pl.md) zostały usunięte. [Pull request #7568](https   *//github.com/FreeCAD/FreeCAD/pull/7568)
+-   Przycisk paska narzędzi dla [Przerwij operację](Sketcher_StopOperation/pl.md) został usunięty. [Pull request #7569](https   *//github.com/FreeCAD/FreeCAD/pull/7569)
+-   Edycja widżetu sterowania, usunięto etykietę „Rozmiar siatki", zmieniono nazwę pola wyboru „Pokaż siatkę" na „Siatka". [Pull request #7577](https   *//github.com/FreeCAD/FreeCAD/pull/7577)
 
 ## Środowisko pracy Arkusz Kalkulacyjny 
 
@@ -188,16 +224,19 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 
 ### Planowane ulepszenia środowiska Rysunek Techniczny 
 
-
-<div class="mw-translate-fuzzy">
-
--   Dodano wsparcie dla regulowanych odstępów dla linii przedłużających [wymiary](/TechDraw_Preferences/pl#Wymiary.md). [Pull request #7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133)
+-   Tryby nawigacji zostały zaktualizowane, aby dopasować je do tych używanych w oknie widoku 3D. [Pull request #7081](https   *//github.com/FreeCAD/FreeCAD/pull/7081) i [Pull request #7107](https   *//github.com/FreeCAD/FreeCAD/pull/7107)
+-   Poprawiono kreskowanie bitmapami. [Issue #6582](https   *//github.com/FreeCAD/FreeCAD/issues/6582) i [Pull request #7121](https   *//github.com/FreeCAD/FreeCAD/pull/7121).
+-   Dodano wsparcie dla regulowanych odstępów dla linii przedłużających [wymiary](TechDraw_Preferences/pl#Wymiary.md). [Pull request #7133](https   *//github.com/FreeCAD/FreeCAD/pull/7133)
+-   Wprowadzono wielowątkowość dla usuwania ukrytych linii i znajdowania ścian. [Pull request #7377](https   *//github.com/FreeCAD/FreeCAD/pull/7377)
+-   Poprawiono algorytm wykrywania ścian. [Pull request #7448](https   *//github.com/FreeCAD/FreeCAD/pull/7448)
+-   Dodano narzędzie [Drukuj wszystkie strony](TechDraw_PrintAll/pl.md). [Pull request #7460](https   *//github.com/FreeCAD/FreeCAD/pull/7460)
+-   Dodano [Cztery narzędzia](TechDraw_StackGroup/pl.md) do kontroli kolejności układania widoków w stos. [Issue #6012](https   *//github.com/FreeCAD/FreeCAD/issues/6012) oraz [Pull request #7460](https   *//github.com/FreeCAD/FreeCAD/pull/7460)
+-   Narzędzie [Aktywny widok](TechDraw_ActiveView/pl.md) tworzy teraz zrzut ekranu zamiast obrazu SVG. [Pull request #7471](https   *//github.com/FreeCAD/FreeCAD/pull/7471)
+-   Wszystkie szablony skryptów łacińskich zostały przekonwertowane na \"plain svg\". [Pull request #7472](https   *//github.com/FreeCAD/FreeCAD/pull/7472)
+-   Dodano podgląd do panelu zadań narzędzia [Widok przekroju](TechDraw_SectionView/pl.md). [Pull request #7658](https   *//github.com/FreeCAD/FreeCAD/pull/7658)
 -   Usunięto przestarzałe funkcje   *
 
 DrawViewPart   *   *replaceCenterLine, DrawViewPart   *   *replaceCosmeticEdge, DrawViewPart   *   *replaceCosmeticVertex oraz DrawViewPart   *   *replaceGeomFormat.
-
-
-</div>
 
 ## Środowisko pracy Web 
 

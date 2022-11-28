@@ -11,23 +11,11 @@
 
 ## Описание
 
-Инструмент развертки верстака Part используется для создания лица, оболочки или твердой формы из одного или нескольких профилей, проецируемого вдоль заданной трассы.
+Инструмент <img alt="" src=images/Part_Sweep.svg  style="width   *24px;"> [построения профиля по траектории](Part_Sweep/ru.md) позволяет создать   * грань, оболочку или твёрдое тело из одного или последовательности нескольких контуров, путем смещения их вдоль заданной траектории.
 
+В отличии от похожего инструмента <img alt="" src=images/Part_Loft.svg  style="width   *24px;"> [Лофт](Part_Loft/ru.md), в данный инструмент добавлена траектория для определения направления смещения контуров.
 
-<div class="mw-translate-fuzzy">
-
-Инструмент Сдвиг похож на [Лофт](Part_Loft/ru.md), где добавлена трасса для определения проекций между профилями
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-![](images/Part_Sweep_simple.png ) *A solid sweep generated from a single profile (A) projected along a path (B).*
-
-
-</div>
+![](images/Part_Sweep_simple.png ) *Контур и траектория для построения твердого тела (A) результат построения профиля по заданной траектории (B).*
 
 ## Применение
 
@@ -39,7 +27,7 @@
 4.  Define options [Solid](#Solid.md) and [Frenet](#Frenet.md).
 5.  Click **OK**
 
-### Accepted geometry 
+### Допустимые типы геометрических примитивов 
 
 
 <div class="mw-translate-fuzzy">

@@ -24,7 +24,7 @@ La boîte de dialogue de configuration du projet peut créer   *
 -   Un ensemble de [Parties de bâtiment](Arch_BuildingPart/fr.md) pour représenter les niveaux. Les Parties de bâtiment sont des objets conteneurs BIM génériques qui peuvent être utilisés pour regrouper d\'autres objets BIM de plusieurs manières significatives, telles que des composants répétables ou des niveaux de construction.
 -   Un ensemble de [Groupes](Std_Group/fr.md) par défaut à l\'intérieur de chaque niveau. Les Groupes peuvent être utilisés pour organiser vos objets BIM dans des catégories plus explicites, telles que \"Murs\" ou \"Colonnes\". Ils n\'ont aucun impact sur le modèle lui-même mais aident souvent à rendre la structure de votre modèle plus lisible lorsqu\'elle contient beaucoup d\'objets.
 
-## Modèles
+### Modèles
 
 L\'outil Projet prend en charge deux types de modèles    * Une fois que vous avez rempli les différentes options, le contenu de l\'assistant de configuration de projet BIM peut être **enregistré** en tant que modèle. Ces modèles peuvent être **restaurés** et adaptés ultérieurement. Les modèles de projet sont stockés sous forme de fichiers de texte brut dans votre dossier d'utilisateur FreeCAD.
 

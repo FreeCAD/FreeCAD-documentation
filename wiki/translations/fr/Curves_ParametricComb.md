@@ -19,7 +19,7 @@ Un peigne 3D sera créé pour les courbes 3D. L\'échantillonnage et l\'échelle
 
 ## Utilisation
 
-1.  Passer à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Curves](Curves_Workbench/fr.md) (à installer à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) si ce n\'est pas déjà fait)
+1.  Passer à l\'atelier <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Curves](Curves_Workbench/fr.md) (à installer à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) si ce n\'est pas déjà fait)
 2.  Sélectionnez un objet dans la [vue en arborescence](Tree_view/fr.md) (esquisse, fil \...) ou une ou plusieurs arêtes dans la [vue 3D](3D_view/fr.md) (utilisez la touche **CTRL**)
 3.  Pour appeler la commande, effectuez l\'une des opérations suivantes   *
     -   Appuyez sur le bouton <img alt="" src=images/Curves_ParametricComb.svg  style="width   *24px;">

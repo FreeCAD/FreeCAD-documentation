@@ -52,13 +52,7 @@ Das Objekt wird senkrecht zur Kante gemacht. Eine optionale Knotenreferenz defin
 
 See [Align O-X-Y type attachment modes](O-X-Y_type_attachment_modes.md) for more details on the following modes   *
 
-
-<div class="mw-translate-fuzzy">
-
-#### Ausrichten O-N-X 
-
-
-</div>
+#### Ausrichten O-Z-X 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet dann die Normalen und die horizontalen Achsen der Ebene am Knoten/an der Linie aus.
 
@@ -71,13 +65,7 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
    *   Knoten, Knoten
    *   Knoten, Kante
 
-
-<div class="mw-translate-fuzzy">
-
-#### Ausrichten O-N-Y 
-
-
-</div>
+#### Ausrichten O-Z-Y 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet seine Normalen und vertikalen Achsen in Richtung Knoten/Linie aus.
 
@@ -103,13 +91,7 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
    *   Knoten, Knoten
    *   Knoten, Kante
 
-
-<div class="mw-translate-fuzzy">
-
-#### Ausrichten O-X-N 
-
-
-</div>
+#### Ausrichten O-X-Z 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet seine horizontale Ebenenachse und seine Normale am Knoten bzw. entlang der Linie aus.
 
@@ -122,13 +104,7 @@ Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richte
    *   Knoten, Knoten
    *   Knoten, Kante
 
-
-<div class="mw-translate-fuzzy">
-
-#### Ausrichten O-Y-N 
-
-
-</div>
+#### Ausrichten O-Y-Z 
 
 Passt den Ursprung des Objekts an den ersten referenzierten Knoten an und richtet die vertikale Achse und die Normale des Objekts am Knoten/an der Linie aus.
 

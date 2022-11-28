@@ -150,13 +150,13 @@ With the [Draft annotation scale widget](Draft_annotation_scale_widget.md) the D
 
 ## Draft snap widget 
 
-The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft Snap toolbar](#Draft_Snap_toolbar.md).
+The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for the [Draft snap toolbar](#Draft_snap_toolbar.md).
 
 ![](images/Draft_snap_widget_button.png )
 
-## Draft Snap toolbar 
+## Draft snap toolbar 
 
-The Draft Snap toolbar allows selecting the active snap options. The buttons belonging to active options stay depressed. For general information about snapping see   * [Draft Snap](Draft_Snap.md).
+The Draft snap toolbar allows selecting the active snap options. The buttons belonging to active options stay depressed. For general information about snapping see   * [Draft Snap](Draft_Snap.md).
 
 -   <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *32px;"> [Snap Lock](Draft_Snap_Lock.md)   * enables or disables snapping globally.
 
@@ -170,7 +170,7 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Snap Intersection](Draft_Snap_Intersection.md)   * snaps to the intersection of two edges.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md)   * snaps to the perpendicular points on faces (<small>(v1.0)</small> ) or edges.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md)   * snaps to the perpendicular points on faces (<small>(v1.0)</small> ) and edges.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Snap Extension](Draft_Snap_Extension.md)   * snaps to an imaginary line that extends beyond the endpoints of straight edges.
 
@@ -178,13 +178,13 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_Snap_Special.svg  style="width   *32px;"> [Snap Special](Draft_Snap_Special.md)   * snaps to special points defined by the object.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Near](Draft_Snap_Near.md)   * snaps to the nearest point on faces or edges.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Near](Draft_Snap_Near.md)   * snaps to the nearest point on faces and edges.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortho](Draft_Snap_Ortho.md)   * snaps to imaginary lines that cross the previous point at 0°, 45°, 90° and 135°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortho](Draft_Snap_Ortho.md)   * snaps to imaginary lines that cross the previous point at multiples of 45°.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *32px;"> [Snap Grid](Draft_Snap_Grid.md)   * snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md)   * projects the snap point onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md)   * projects snap points onto the current [working plane](Draft_SelectPlane.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md)   * shows temporary X and Y dimensions.
 
@@ -216,7 +216,7 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width   *32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md)   * switches continue mode on or off.
 
--   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width   *32px;"> [Show snap toolbar](Draft_ShowSnapBar.md)   * shows the [Draft Snap toolbar](#Draft_Snap_toolbar.md).
+-   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width   *32px;"> [Show snap toolbar](Draft_ShowSnapBar.md)   * shows the [Draft snap toolbar](#Draft_snap_toolbar.md).
 
 ### 追加機能
 

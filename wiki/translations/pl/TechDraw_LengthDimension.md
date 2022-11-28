@@ -273,10 +273,7 @@ See [Landmark Dimensions](TechDraw_LandmarkDimension.md) for another approach to
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również   ***
-
-[API](TechDraw_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Narzędzie **Wymiar długości** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji   *
 

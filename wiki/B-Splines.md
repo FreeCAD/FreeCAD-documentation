@@ -114,7 +114,9 @@ $$\textrm{B-spline}= \sum_{i=0}^{n}p_{i}\cdot N_{i,n}(t)$$.
 
 Note that in general $N_{i,n}(t) \ne B_{i,n}(t)$, and the Bezier control points $\{P_1, P_2,\dots\}$ are different from B-spline control points $\{p_1, p_2,\dots\}$.
 
-The different $N_{i,n}(t)$ are defined piecewise where the interval of every piece is the interval of the Bézier piece. When the lengths of all $N_{i,n}$ pieces is equal, we speak of a uniform spline. (In literature this is often denoted as equal travel time $t$ per piece.)
+The different $N_{i,n}(t)$ are defined piecewise where the interval of every piece is the interval of the Bézier piece.
+
+When the lengths of all $N_{i,n}$ pieces is equal, we speak of a uniform spline. (In literature this is often denoted as equal travel time $t$ per piece.)
 
 To understand how the $p_{i}$ are the coordinates of the B-spline control points, see the first minute of [this video](https   *//www.youtube.com/watch?v=dPPTCy4L4rY&list=PL8bSwVy8_IcMvtI70tZoYesCS0hGVO5qd).
 
@@ -128,7 +130,9 @@ The derivative until which continuity exists is given by the multiplicity $m$. T
 
 ### Non-uniform B-splines 
 
-The derivation of B-splines from Bézier curves have the mathematical consequence that in B-splines every polynomial piece has the same length. Such B-splines are called *uniform*. The more general case is that they can but must not have the same length. Such *non-uniform* splines have the advantage that one can control how close the splines cross its control point. Mathematically this is achieved by defining the different $N_{i,n}$ pieces at different intervals. If for example a B-spline is defined for the interval \[0, 1\], it is uniform if all its e.g. 5 pieces are also defined in this interval. If now $N_{1,4}$ is only defined in the interval \[0, 0.6\] (outside the interval it is set to zero), it is shorter and thus the spline becomes non-uniform.
+The derivation of B-splines from Bézier curves have the mathematical consequence that in B-splines every polynomial piece has the same length. Such B-splines are called *uniform*. The more general case is that they can but must not have the same length. Such *non-uniform* splines have the advantage that one can control how close the splines cross its control point.
+
+Mathematically this is achieved by defining the different $N_{i,n}$ pieces at different intervals. If for example a B-spline is defined for the interval \[0, 1\], it is uniform if all its e.g. 5 pieces are also defined in this interval. If now $N_{1,4}$ is only defined in the interval \[0, 0.6\] (outside the interval it is set to zero), it is shorter and thus the spline becomes non-uniform.
 
 As described above the parameters of the knots are described by the knot vector. So the knot vector stores the definition intervals. When now one piece gets another interval, also the knot vector changes, see [this video](https   *//www.youtube.com/watch?v=w-l5R70y6u0) for a visualization.
 
@@ -152,7 +156,7 @@ FreeCAD offers to create uniform or non-uniform B-splines of any degree in 2D vi
 
 To create B-splines, go into a sketch and use the toolbar button **[<img src=images/Sketcher_CreateBSpline.svg style="width   *16px"> [Create B-spline](Sketcher_CreateBSpline.md)**. Then left-click to set a control point, move the mouse left-click to set the next control point and so on. Finally right-click to finish the definition and create the B-spline.
 
-By default uniform cubic splines are created, except there are not enough control points to do this. So when you create a B-spline with only 2 control points, you get of course a spline that is single linear Bézier curve, for 3 control points you get a quadratic Bézier curve, first with 5 control points you get a cubic B-spline consisting of 2 Bézier segments. (Starting 0.20) You can also use press D while making creating a B-spline to set it\'s degree (it will still fall to a lower degree if less points are provided).
+By default uniform cubic splines are created, except there are not enough control points to do this. So when you create a B-spline with only 2 control points, you get of course a spline that is single linear Bézier curve, for 3 control points you get a quadratic Bézier curve, first with 5 control points you get a cubic B-spline consisting of 2 Bézier segments. <small>(v0.20)</small>  You can also use press D while making creating a B-spline to set it\'s degree (it will still fall to a lower degree if less points are provided).
 
 To create periodic B-splines (B-splines that form a closed curve), use the toolbar button **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width   *16px"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)**. It is not necessary to set the last control point onto the first one because the B-spline will automatically be closed   *
 

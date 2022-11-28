@@ -1,32 +1,21 @@
 # Feature list/pt-br
-<div class="mw-translate-fuzzy">
-
-Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponibiliza. Se você quer ter uma noção do que vem por aí, consulte o [Development roadmap](Development_roadmap.md) para uma rápida visão geral. Além disso, recomenda-se consultar a página de[capturas de tela](Screenshots/pt-br.md).
-
-
-</div>
+Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibiliza.
 
 
 {{TOCright}}
 
-## Notas da versão 
+## Notas da Versão 
 
-
-<div class="mw-translate-fuzzy">
-
--   [Versão 0.11](Release_notes_0.11.md) - Março de 2011
--   [Versão 0.12](Release_notes_0.12.md) - Dezembro de 2011
--   [Versão 0.13](Release_notes_0.13.md) - Janeiro de 2013
--   [Versão 0.14](Release_notes_0.14.md) - Março de 2014
--   [Versão 0.15](Release_notes_0.15.md) - Março de 2015
--   [Versão 0.16](Release_notes_0.16.md) - Abril de 2016
--   [Versão 0.17](Release_notes_0.17.md) - Abril de 2018
--   [Versão 0.18](Release_notes_0.18.md) - Março de 2019
+-   [Versão 0.20](Release_notes_0.20.md) - Junho de 2022
 -   [Versão 0.19](Release_notes_0.19.md) - Março de 2021
--   [Versão 0.20](Release_notes_0.20.md) - A ser anunciada
-
-
-</div>
+-   [Versão 0.18](Release_notes_0.18.md) - Março de 2019
+-   [Versão 0.17](Release_notes_0.17.md) - Abril de 2018
+-   [Versão 0.16](Release_notes_0.16.md) - Abril de 2016
+-   [Versão 0.15](Release_notes_0.15.md) - Março de 2015
+-   [Versão 0.14](Release_notes_0.14.md) - Março de 2014
+-   [Versão 0.13](Release_notes_0.13.md) - Janeiro de 2013
+-   [Versão 0.12](Release_notes_0.12.md) - Dezembro de 2011
+-   [Versão 0.11](Release_notes_0.11.md) - Março de 2011
 
 ## Recursos Principais 
 
@@ -82,43 +71,19 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 
 -   **criação paramétrica d eprimitivas geométricas**. Primitivas geométricas, como paralelepípedo, esfera, cilindro, etc. podem ser criadas a partir da especificação de suas restrições.
 
-
-<div class="mw-translate-fuzzy">
-
--   **operações de modificação gráfica**. O FreeCAD pode realizar operações de translação, rotação, escalonamento, espelhamento, deslocamento (de modo trivial ou conforme descrito em [Jung/Shin/Choi](https   *//www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting)) ou conversão de formas, em qualquer plano do espaço 3D.
-
-
-</div>
+-   **operações de modificação gráfica**. O FreeCAD pode executar translação, rotação, dimensionamento, espelhamento, deslocamento (triviais ou conforme descrito em [Jung/Shin/Choi](https   *//www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting)) ou conversão de formas, em qualquer plano do espaço 3D.
 
 -   **[Geometria Construtiva de Sólidos](Constructive_solid_geometry/pt-br.md) por operações booleanas**. O FreeCAD pode fazer operações CSG para criar e editar sólidos por união, diferença e intersecção.
 
-
-<div class="mw-translate-fuzzy">
-
--   **criação de geometrias planas simples**. Linhas, segmentos, retângulos, b-splines e arcos circulares ou elípticos podem ser criados em qualquer plano do espaço 3D.
-
-
-</div>
+-   **criação gráfica de geometria plana**. Linhas, fios, retângulos, B-splines e arcos circulares ou elípticos, podem ser criados graficamente em qualquer plano do espaço 3D.
 
 -   **modelagem de extrusões, seções ou filetes a partir do uso de perfis**, **que seguem uma direção reta** ou **que giram ao redor de um eixo**.
 
 -   **componentes topológicos** como **vértices\'\',**arestas\'\', **fios** e **planos**.
 
+-   **testes e reparos**. FreeCAD tem ferramentas para testar a integridade de malhas (teste de sólidos, teste de superfícies (non-two-dimensional manifold), teste de auto-intersecção) e para reparar malhas (preenchimento de furos, orientação uniforme).
 
-<div class="mw-translate-fuzzy">
-
--   **teste e reparo**. FreeCAD tem ferramentas para testar a integridade de malhas (teste de sólidos, teste de superfícies (non-two-dimensional manifold), teste de auto-intersecção) e para reparar malhas (preenchimento de furos, orientação uniforme).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **anotações**. O FreeCAD pode inserir anotações de texto ou dimensões.
-
-
-</div>
+-   **anotações**. O FreeCAD pode inserir anotações para texto ou dimensões.
 
 -   **Desfazer/Refazer estrutura**. Tudo no FreeCAD é desfeito/refeito, com acesso do usuário à pilha de ações. Várias etapas podem ser desfeitas de uma vez.
 
@@ -156,25 +121,11 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 
 -   **thumbnailer**. (atualmente apenas sistemas Linux) Os ícones do documento FreeCAD mostram o conteúdo do arquivo na maioria das aplicações de gerenciamento de arquivos, como o Nautilus do Gnome.
 
+-   **Instalador MSI modular**. O instalador do FreeCAD permite instalações flexíveis em sistemas Windows. Pacotes para sistemas Ubuntu(baseados em Debian) também são mantidos.
 
-<div class="mw-translate-fuzzy">
+## Bancadas de Trabalho Externas 
 
--   **instalador MSI modular**. O instalador do FreeCAD permite instalações flexíveis em sistemas Windows. Os pacotes para sistemas Ubuntu também são mantidos.
-
-
-</div>
-
-## Extra Workbenches 
-
-
-<div class="mw-translate-fuzzy">
-
-## Bancadas de trabalho extras 
-
-Usuários avançados criaram várias [bancadas de trabalho externas](external_workbenches/pt-br.md) personalizadas.
-
-
-</div>
+Diversas [bancadas de trabalho alternativas](External_workbenches/pt-br.md) foram criadas por usuários avançados e podem sem facilmente instaladas no seu FreeCAD. Uma lista delas está disponível na página [Bancadas de Trabalho Externas](External_workbenches/pt-br.md)
 
 
 

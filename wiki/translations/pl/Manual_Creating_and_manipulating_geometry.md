@@ -52,7 +52,7 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
-Na przykład, znajdźmy powyżej obszar każdej z powierzchni kształtu naszego pudełka   *
+Na przykład, znajdźmy powyżej obszar każdej z powierzchni kształtu naszego sześcianu   * *(Pamiętaj o wcięciu drugiego wiersza, tak jak pokazano poniżej. Naciśnij dwukrotnie klawisz Enter po ostatnim wierszu, aby uruchomić polecenie środowiska Python)*.
 
 
 ```python
@@ -151,7 +151,7 @@ E2 = L2.toShape()
  ...
 ```
 
-Kiedy już będziemy mieli serię krawędzi, możemy teraz stworzyć obwiednię, podając jej listę krawędzi. Musimy zadbać o porządek.
+Kiedy już będziemy mieli serię krawędzi, możemy teraz stworzyć obwiednię, podając jej listę krawędzi. Musimy jednak zwrócić uwagę na kolejność. Zwróćcie też uwagę na nawiasy.
 
 
 ```python

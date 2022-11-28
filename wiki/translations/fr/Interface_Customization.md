@@ -246,7 +246,7 @@ Vous pouvez également créer votre propre thème si vous n\'êtes pas satisfait
 
 ## Addons
 
-Les modules complémentaires offrent une autre façon de personnaliser l\'interface d\'utilisation. Vous trouverez ci-dessous quelques addons créés par les utilisateurs de la communauté FreeCAD. Ils peuvent être téléchargés via le <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [gestionnaire d\'Addons](Std_AddonMgr/fr.md) (remarque   * ils sont répertoriés dans l\'onglet Ateliers).
+Les extensions offrent une autre façon de personnaliser l\'interface d\'utilisation. Vous trouverez ci-dessous quelques addons créés par les utilisateurs de la communauté FreeCAD. Ils peuvent être téléchargés via le <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) (remarque   * ils sont répertoriés dans l\'onglet Ateliers).
 
 ### Menu Cube 
 

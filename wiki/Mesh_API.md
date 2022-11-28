@@ -173,7 +173,7 @@ Example:
 
 Point in mesh
 This is a point in a MeshObject. You can get it by e.g. iterating a
-mesh. The point has a connection to its mesh and allows therefore 
+mesh. The point has a connection to its mesh and allows therefore
 topological operations. It is also possible to create an unbounded mesh point e.g. to create
 a mesh. In this case the topological operations will fail. The same is
 when you cut the bound to the mesh by calling unbound().

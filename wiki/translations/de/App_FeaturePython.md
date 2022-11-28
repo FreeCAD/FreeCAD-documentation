@@ -23,13 +23,7 @@ Hierbei handelt es sich um ein einfaches Objekt, das standardmäßig nicht viele
 
 Die [Anwendung FormelementPython](App_FeaturePython/de.md) ist ein internes Objekt, so dass es nicht über die grafische Oberfläche erstellt werden kann. Es ist dazu gedacht, durch Klassen unterteilt zu werden, die verschiedene Arten von Daten verarbeiten.
 
-
-<div class="mw-translate-fuzzy">
-
-Beispielsweise , die [Entwurf Text](Draft_Text/de.md), [Entwurf Abmessung](Draft_Dimension/de.md), und [Arbeitsebenen proxy](Draft_WorkingPlaneProxy/de.md) Elemente der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) sind `App   *   *FeaturePython` Objekte mit einem benutzerdefinierten Symbol und zusätzlichen Eigenschaften. Sie enthalten Daten, aber keine tatsächliche [Part TopoForm](Part_TopoShape/de.md).
-
-
-</div>
+Beispielsweise , die [Draft Text](Draft_Text/de.md), [Draft Abmessung](Draft_Dimension/de.md), und [Arbeitsebenen proxy](Draft_WorkingPlaneProxy/de.md) Elemente des Arbeitsbereichs [Draft](Draft_Workbench/de.md) sind `App   *   *FeaturePython`-Objekte mit einem benutzerdefinierten Symbol und zusätzlichen Eigenschaften. Sie enthalten Daten, aber keine tatsächliche [Part TopoForm](Part_TopoShape/de.md).
 
 Wenn das gewünschte Objekt eine Platzierung, eine Form, einen Anhang oder andere komplexe Eigenschaften haben soll, ist es besser, eine der komplexeren Klassen zu erstellen, zum Beispiel [App GeoFeature](App_GeoFeature/de.md), [Part Formelement](Part_Feature/de.md), oder [Part Teil2DObjekt](Part_Part2DObject/de.md).
 

@@ -73,7 +73,13 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Per esempio, troviamo l\'area di ogni faccia della nostra forma box   *
+
+
+</div>
 
 
 ```python
@@ -163,7 +169,13 @@ E3 = Part.Edge(C1)
 E4 = Part.Edge(C2)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 In alternativa, le geometrie di base hanno anche una funzione toShape() che fa esattamente la stessa cosa   *
+
+
+</div>
 
 
 ```python
@@ -172,7 +184,13 @@ E2 = L2.toShape()
  ...
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Ottenuta una serie di bordi, si può formare un contorno, dandogli un elenco di bordi. Bisogna stare attenti all\'ordine.
+
+
+</div>
 
 
 ```python

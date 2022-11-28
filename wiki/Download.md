@@ -49,8 +49,7 @@ More information about FreeCAD\'s environment variables can be found on [the con
 
 FreeCAD\'s development is active.
 
--   For Linux users, check out the development [AppImage](AppImage.md).
--   For MacOS and Windows development builds and development source code, see the [weekly builds](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds) page.
+-   For development builds and development source code, see the [weekly builds](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) page.
 -   To compile the latest source code, see [compiling](Compiling.md).
 
 ## Additional modules and macros 

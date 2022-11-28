@@ -11,7 +11,7 @@ The TechDraw Workbench allows you to create sheets, which can be blank or use a 
 
 Drawing sheets, once complete, can be printed or exported as [SVG](https   *//en.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF or [DXF](https   *//en.wikipedia.org/wiki/AutoCAD_DXF) files.
 
-In the following exercise, we will see how to create a simple drawing of a chair model found in the [FreeCAD library](https   *//github.com/FreeCAD/FreeCAD-library) (Furniture → Chairs → IkeaLikeChair). The FreeCAD library can easily be added to your FreeCAD installation (refer to the [installing](Manual_Installing.md) chapter of this manual), or you can simply download the model from the library webpage, or via the direct link provided at the bottom of this chapter.
+In the following exercise, we will see how to create a simple drawing of a chair model found in the [FreeCAD library](https   *//github.com/FreeCAD/FreeCAD-library) (Industrial Design → Chairs → IkeaLikeChair). The FreeCAD library can easily be added to your FreeCAD installation (refer to the [installing](Manual_Installing.md) chapter of this manual), or you can simply download the model from the library webpage, or via the direct link provided at the bottom of this chapter.
 
 ![](images/Exercise_TechDraw_01.svg )
 

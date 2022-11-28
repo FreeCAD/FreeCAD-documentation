@@ -9,29 +9,13 @@
 
 </div>
 
-## Description
+## Описание
 
+Добавляет в текущую сцену новый пустой объект-траекторию.
 
-<div class="mw-translate-fuzzy">
+## Применение
 
-#### Описание
-
-Вставляет на сцену новый пустой объект-траекторию.
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
-
-#### Использование
-
-Кликнуть на <img alt="" src=images/Robot_CreateTrajectory.svg  style="width   *32px;"> или выбрать в верхнем меню **Робот** → **<img src="images/Robot_CreateTrajectory.svg" width=32px> Создание траектории**.
-
-
-</div>
+Нажмите на <img alt="" src=images/Robot_CreateTrajectory.svg  style="width   *32px;"> или выберите в главном меню пункт   * **Робот** → **<img src="images/Robot_CreateTrajectory.svg" width=32px> Создание траектории**.
 
 ## Примечания
 

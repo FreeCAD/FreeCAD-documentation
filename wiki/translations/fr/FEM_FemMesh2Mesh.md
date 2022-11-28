@@ -11,9 +11,7 @@
 
 ## Description
 
-Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélectionné en maillage. En pratique, il sélectionne les faces des éléments du maillage FEM qui sont uniques (non partagées par deux éléments) et les utilise pour créer les faces d\'un maillage. En outre, il permet de créer un maillage déformé par l\'action des forces définies. Ceci est fait en ajoutant le déplacement des résultats FEM aux nœuds du maillage.
-
-Les éléments bidimensionnels du maillage FEM ne sont pas pris en compte. Si vous devez les convertir, vous pouvez utiliser le script Python ci-dessous.
+Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélectionné en maillage, ou convertit un maillage FEM 2D en maillage. En pratique, il sélectionne les faces des éléments du maillage FEM qui sont uniques (non partagées par deux éléments) et les utilise pour créer les faces d\'un maillage. En outre, il permet de créer un maillage déformé par l\'action des forces définies. Ceci est fait en ajoutant le déplacement des résultats de la FEM aux nœuds du maillage (l\'échelle du déplacement peut être définie par Python).
 
 ## Utilisation
 
@@ -25,45 +23,34 @@ Les éléments bidimensionnels du maillage FEM ne sont pas pris en compte. Si vo
 
 ## Script
 
-Exemple    * téléchargez l\'exemple 3D FEM de FreeCAD à partir de l\'atelier Start et exécutez le code suivant.
+**Remarque**    * le paramètre *scale* est {{Version/fr|1.0}}. Pour les anciennes versions de FreeCAD, il faut l\'omettre de votre code.
+
+Si vous avez seulement besoin du facteur d\'échelle de déplacement, vérifiez le nom de votre objet de maillage et le facteur d\'échelle dans le code suivant    *
 
 
 ```python
-femmesh_obj = App.ActiveDocument.getObject("Result_mesh").FemMesh
-result = App.ActiveDocument.getObject("CalculiX_static_results")
 import femmesh.femmesh2mesh
-out_mesh = femmesh.femmesh2mesh.femmesh_2_mesh(femmesh_obj, result)
+mesh_obj = FEMMeshGmsh  # the name of your mesh object
+scale = 5  # displacement scale factor
+out_mesh = femmesh.femmesh2mesh.femmesh_2_mesh(FreeCAD.ActiveDocument.mesh_obj.FemMesh, FreeCAD.ActiveDocument.CCX_Results, scale)
 import Mesh
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
-## Convertir des éléments 2D 
-
-Sélectionnez un maillage et lancez le script Python suivant    *
+L\'exemple du cantilever    *
 
 
 ```python
+from os.path import join
+the_file = join(FreeCAD.getResourceDir(), "examples", "FemCalculixCantilever3D.FCStd")
+fc_file = FreeCAD.openDocument(the_file)
+fem_mesh = fc_file.getObject("Box_Mesh").FemMesh  # do not remove the _
+result = fc_file.getObject("CCX_Results")
+scale = 1  # displacement scale factor
+from femmesh import femmesh2mesh
+out_mesh = femmesh2mesh.femmesh_2_mesh(fem_mesh, result, scale)
 import Mesh
-
-def extend_by_triangle(i, j, k)   *
-    triangle = [input_mesh.getNodeById(element_nodes[i]),
-                input_mesh.getNodeById(element_nodes[j]),
-                input_mesh.getNodeById(element_nodes[k])]
-    return output_mesh.extend(triangle) 
-
-selection = FreeCADGui.Selection.getSelection()
-input_mesh = App.ActiveDocument.getObject(selection[0].Name).FemMesh
-output_mesh = []
-for element in input_mesh.Faces   *
-    element_nodes = input_mesh.getElementNodes(element)
-    if len(element_nodes) in [3, 6]   *  # tria3 or tria6 (ignoring mid-nodes)
-        extend_by_triangle(0, 1, 2)
-    elif len(element_nodes) in [4, 8]   *  # quad4 or quad8 (ignoring mid-nodes)
-        extend_by_triangle(0, 1, 2)
-        extend_by_triangle(2, 3, 0)
-
-obj = Mesh.Mesh(output_mesh)
-Mesh.show(obj)
+Mesh.show(Mesh.Mesh(out_mesh))
 ```
 
 

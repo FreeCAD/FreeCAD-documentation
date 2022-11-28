@@ -12,8 +12,8 @@ Curved Shapes est un [atelier externe](External_workbenches/fr.md) de FreeCAD qu
 
 ## Installation
 
-L\'installation recommandée se fait par le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) de Freecad via 
-**Outils → Gestionnaire d'Addon**
+L\'installation recommandée se fait par le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) de Freecad via 
+**Outils → Gestionnaire des extensions**
 
 ## Outils
 

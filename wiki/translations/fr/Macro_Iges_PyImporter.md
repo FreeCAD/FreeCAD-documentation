@@ -28,7 +28,7 @@ Options    *
 
 ## Installation
 
-Avec le gesionnaire d\'Addon.
+Avec le gestionnaire des extensions.
 
 ## Liens
 

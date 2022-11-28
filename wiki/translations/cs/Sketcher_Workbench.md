@@ -263,7 +263,7 @@ Constraints are used to define lengths, set rules between sketch elements, and t
 
 These constraints are not associated with numeric data.
 
--   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [Coincident](Sketcher_ConstrainCoincident.md)   * Affixes a point onto (coincident with) one or more other points.
+-   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [Coincident](Sketcher_ConstrainCoincident.md)   * Affixes a point onto (coincident with) one or more other points. It acts as a concentric constraint if two or more circles, arcs, ellipses or arcs of ellipses are selected.
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *32px;"> [Point on object](Sketcher_ConstrainPointOnObject.md)   * Affixes a point onto another object such as a line, arc, or axis.
 

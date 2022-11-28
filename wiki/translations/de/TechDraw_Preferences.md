@@ -63,95 +63,82 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **Vorlage Bearbeitungsmarkierung**   * Größe des [Vorlagenfelds](TechDraw_Templates/de.md) klicken gehandhabt in mm (grüne Punkte).
 -   **Schweißsymbolmaßstab**   * Größenmultiplikator [Schweißsymbole](TechDraw_WeldSymbol/de.md). {{Version/de|0.19}}
 
-## Bemaßungen
+## Maßeinträge
 
-<img alt="Bemaßungseinstellungen" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
+<img alt="Einstellungen für Maßeinträge" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
 
-
-<div class="mw-translate-fuzzy">
-
--   **Normbasis und Ausführung von Maßeinträgen**   * Der Standard, der für Maßzahlen zu verwenden ist. Die Unterschiede zwischen den Standards sind in der Abbildung dargestellt   *
+-   **Normbasis und Ausführung von Maßeinträgen**   * Die Norm, die für Maßeinträge zu verwenden ist. Die Unterschiede zwischen den Normen sind in der Abbildung dargestellt   *
 
 ![\|500px\|Unterschiede zwischen den unterstützten Normen. ([Image source](images/https   *//forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png )
 
    *   
 
-       *   ISO Oriented - gezeichnet gemäß Norm ISO 129-1, Text ist gedreht, um parallel zu der (Tangente an die) Maßlinie zu sein.
-       *   ISO Referencing - gezeichnet entsprechend der Norm ISO 129-1, Text ist immer horizontal, über der kürzest möglichen Referenzlinie.
-       *   ASME Inlined - gezeichnet gemäß Norm ASME Y14.5M, Text ist horizontal, eingefügt in einer Lücke der Maßlinie (bzw. des \"Maßbogens\" bei Winkeln).
-       *   ASME Referencing - gezeichnet entsprechend der Norm ASME Y14.5M, Text ist horizontal, kurze Referenzlinie ist an einer Seite des vertikalen Zentrums angebracht.
+       *   ISO ausgerichtet (ISO Oriented) - gezeichnet gemäß Norm ISO 129-1, Text ist gedreht, um parallel zu der (Tangente an die) Maßlinie zu sein.
+       *   ISO mit Hinweislinie (ISO Referencing) - gezeichnet entsprechend der Norm ISO 129-1, Text ist immer horizontal, über der kürzest möglichen Bezugslinie.
+       *   ASME eingepasst (ASME Inlined) - gezeichnet gemäß Norm ASME Y14.5M, Text ist horizontal, eingefügt in einer Lücke der Maßlinie (bzw. des \"Maßbogens\" bei Winkeln).
+       *   ASME mit Hinweislinie (ASME Referencing) - gezeichnet entsprechend der Norm ASME Y14.5M, Text ist horizontal, an einer Seite mittig mit einer kurzen, mit der Maßlinie verbundenen Bezugslinie versehen.
 
--   **Globale Dezimalstellen verwenden**   * Verwendet die Anzahl der Dezimalstellen aus den [Allgemeine Einstellungen](Preferences_Editor/de#Einheiten.md).
--   **Maßeinheiten anzeigen**   * Hängt die Maßeinheit (mm, in, etc.) an Maßzahlen an.
--   **Dezimalstellen ändern**   * Anzahl der Dezimalstellen, wenn **Globale Dezimalstellen verwenden** nicht aktiviert ist.
--   **Standard Format**   * Benutzerdefiniertes Format für Maßzahlen (und -Texte). Verwendet die [printf-Formatierung](https   *//de.wikipedia.org/wiki/Printf).
+-   **Globale Dezimalstellen verwenden**   * Verwendet die Anzahl der Dezimalstellen aus dem [Voreinstellungseditor](Preferences_Editor/de#Einheiten.md).
+-   **Maßeinheiten anzeigen**   * Fügt die Maßeinheit (mm, in, etc.) hinter den Maßzahlen hinzu.
+-   **Dezimalstellen ändern**   * Anzahl der Dezimalstellen, wenn **Globale Dezimalstellen verwenden** nicht ausgewählt ist und unter **Maßzahlenformat** nichts angegeben wurde.
+-   **Maßzahlenformat**   * Benutzerdefiniertes Format für Maßzahlen (und -Texte). Verwendet die [printf-Formatierung](https   *//de.wikipedia.org/wiki/Printf).
 -   **Schrifthöhe**   * Schriftgröße für Maßzahlen und -Texte.
 -   **Skalierung der Toleranzeinträge**   * Schriftgrößenanpassung für Toleranzeinträge. Ein Multiplikator der **[Schrifthöhe](TechDraw_Preferences/de#Bemaßungen.md)**.
 -   **Durchmessersymbol**   * Zeichen für die Kennzeichnung von Durchmessermaßen.
--   **Pfeildarstellung**   * Art der Maßpfeile.
+-   **Pfeildarstellung**   * Art der Maßpfeile (Maßlinienbegrenzungen).
 -   **Pfeillänge**   * Größe der Maßpfeile.
 -   **Extension Gap Factor - ISO**   * Lücke zwischen Maßpunkt und Anfang der Maßhilfslinie für ISO-Maße. {{Version/de|1.0}}
 -   **Extension Gap Factor - ASME**   * Lücke zwischen Maßpunkt und Anfang der Maßhilfslinie für ASME-Maße. {{Version/de|1.0}}
-
-
-</div>
 
 ## Anmerkung
 
 <img alt="Anmerkungseinstellungen" src=images/TechDraw_PreferencesAnnotation.png  style="width   *350px;">
 
--   **Schnittlinien Standard**   * Standard, der zum Zeichnen von Schnittlinien in [Schnittansichten](TechDraw_SectionView/de.md) zu verwenden ist.
--   **Schnittlinienstil**   * Stil für Schnittlinien.
-
-Schnitt Schnittoberfläche\'\'\'   * Stil für Schnitt Schnittoberfläche. Die Optionen sind   * {{Version/de|0.19}}
-
--   -   *Ausblenden*   * Es gibt keine sichtbare Oberfläche.
-    -   *Einfarbig*   * Die Oberfläche erhält die für **Schnittfläche** gesetzte Farbe
-    -   *SVG Schraffur*   * Die Oberfläche ist [schraffiert](TechDraw_Hatch/de.md).
-    -   *PAT Schraffur*   * Die Oberfläche ist [geometrisch schraffiert](TechDraw_GeometricHatch/de.md).
-
--   **Linienbreitengruppe**   * Eine [Liniengruppe](TechDraw_LineGroup/de.md), um die Standardlinienbreiten festzulegen.
-
--   **Detailansicht Umrissform**   * Umrissform für[Detailansichten](TechDraw_DetailView/de.md).
-
--   **Detail Hervorhebungsstil**   * Linienstil der Umrissform für [Detailansichten](TechDraw_DetailView/de.md). {{Version/de|0.19}}
-
-**Linienstil Mittellinie**   * Standardstil für [Mittellinien](TechDraw_FaceCenterLine/de.md).
-
--   **Form Stücklistensymbol**   * Form der [Stücklistensymbol Anmerkungen](TechDraw_Balloon/de.md).
--   **Stücklistensymbol Führungslinienende**   * Standardstil für Stücklistensymbol Führungslinienenden.
--   **Stücklistensymbol Führungslinienknicklänge**   * Länge des Stücklistensymbol Führungslinienknicks.
--   **Stücklistensymbol Führungslinien senkrechtes Dreieck**   * Wenn **Stücklistensymbol Führungslinienende** ein *gefülltes Dreieck* ist, kann das Dreieck nur dann eine vertikale oder horizontale Richtung erhalten, wenn der Ballon bewegt wird.
--   **Führungslinien Auto Horizontal**   * Erzwingt, dass das letzte Segment [Führungslinie](TechDraw_LeaderLine/de.md) horizontal ist.
--   **Anzeige Mittelpunktmarkierungen**   * Bogenmittelpunktsmarkierungen in Ansichten anzeigen.
--   **Drucke Mittelpunktmarkierungen**   * Bogenmittelpunkte in der Druckausgabe anzeigen.
+-   **Normbasis für Schnittlinien**   * Norm, die zur Darstellung von Schnittlinien in [Schnittansichten](TechDraw_SectionView/de.md) zu verwenden ist.
+-   **Schnittliniendarstellung**   * Linienart der Schnittlinien.
+-   **Schnittflächendarstellung**   * Kennzeichnungsart für Schnittflächen. Die Optionen sind   * {{Version/de|0.19}}
+    -   *Ausblenden*   * Es gibt keine sichtbare Schnittfläche.
+    -   *Farbfüllung*   * Die geschnittene Fläche erhält die für **Schnittfläche** gesetzte Farbe
+    -   *SVG-Schraffur*   * Die Schnittfläche wird [schraffiert](TechDraw_Hatch/de.md).
+    -   *PAT-Schraffur*   * Die Oberfläche wird [geometrisch schraffiert](TechDraw_GeometricHatch/de.md).
+-   **Liniengruppe**   * Eine [Liniengruppe](TechDraw_LineGroup/de.md) zum Festlegen der vorgegebenen Strichstärken.
+-   **Umrissform für Detailansichten**   * Form des Detailauswahlrahmens für [Detailansichten](TechDraw_DetailView/de.md).
+-   **Linienart für Detailauswahlrahmen**   * Linienart der Detailauswahlrahmen für [Detailansichten](TechDraw_DetailView/de.md). {{Version/de|0.19}}
+-   **Mittelliniendarstellung**   * Linienart für [Mittellinien](TechDraw_FaceCenterLine/de.md).
+-   **Form des Hinweisfeldes**   * Form des [Hinweisfeldes](TechDraw_Balloon/de.md).
+-   **Ende der Linie des Hinweisfeldes**   * Standardsymbol für Hinweislinienenden.
+-   **Knicklänge der Linie des Hinweisfeldes**   * Länge der Bezugslinie am Knick der Hinweislinie.
+-   **Hinweisfeldes mit rechtwinkligem Dreieck**   * Wenn das **Ende der Linie des Hinweisfeldes** ein *gefülltes Dreieck* ist, kann das Dreieck nur eine vertikale oder horizontale Ausrichtung erhalten, wenn das Hinweisfeld bewegt wird.
+-   **Hinweislinie automatisch horizontal**   * Erzwingt, dass das letzte Segment der[Hinweislinie](TechDraw_LeaderLine/de.md) (Bezugslinie) horizontal ist.
+-   **Mittelpunktsmarkierungen darstellen**   * Bogenmittenmarkierungen in Ansichten anzeigen.
+-   **Mittelpunktsmarkierungen drucken**   * Bogenmittenmarkierungen in der Druckausgabe anzeigen.
 
 ## Farben
 
-<img alt="Farben Einstellungen" src=images/TechDraw_Preferences_Colors.PNG  style="width   *350px;">
+<img alt="Farbeinstellungen" src=images/TechDraw_Preferences_Colors.PNG  style="width   *350px;">
 
-Einstellung der Standardfarben für neue Seiten   *
+Einstellung der Standardfarben für neue Zeichnungsblätter   *
 
 -   **Normal**   * Normale Linienfarbe.
--   **Vorausgewählt**   * Vorausgewählte Farbe. Die Farbe, die verwendet wird, um Objekte hervorzuheben, wenn mit der Maus darüber gefahren wird.
+-   **Vorausgewählt**   * Vorausgewählte Farbe. Die Farbe, die verwendet wird, um Objekte hervorzuheben, wenn die Maus darüber bewegt wird.
 -   **Ausgewählt**   * Farbe für ausgewählte Objekte.
--   **Hintergrund**   * Hintergrundfarbe um die Seiten herum.
--   **Maße**   * Farbe der Bemaßungslinien und des Textes.
+-   **Hintergrund**   * Hintergrundfarbe um Zeichnungsblätter herum.
+-   **Maßeintrag**   * Farbe der Linien und Texte für Maßeinträge.
 -   **Mittellinie**   * Farbe für [Mittellinien](TechDraw_FaceCenterLine/de.md).
 -   **Detailauswahl**   * Linienfarbe für die Umrissform von [Detailansichten](TechDraw_DetailView/de.md). <small>(v0.19)</small> 
 -   **Transparente Flächen**   * Wenn angehakt, sind die Objektflächen transparent. Andernfalls wird die eingestellte Farbe für Flächen verwendet. {{Version/de|0.19}}
--   **Verdeckte Kante**   * Farbe der verdeckten Linie. Diese Farbe wird für alle Arten von [Verdeckte Linien](#HLR_Parameters/de.md) verwendet.
--   **Schnittfläche**   * Farbe der Schnittfläche [Schnittansicht](TechDraw_SectionView/de.md). Wird nur verwendet, wenn die Einstellung **Schnitt Schnittoberfläche** auf *Volltonfarbe* gesetzt ist.
--   **Schnittlinie**   * Farbe der [Schnittansicht](TechDraw_SectionView/de.md) Schnittlinie.
--   **Schraffur**   * [Schraffur](TechDraw_Hatch/de.md) Farbe der Schraffur.
--   **Geometrische Schraffur**   * [Geometrische Schraffur](TechDraw_GeometricHatch/de.md) Musterfarbe.
--   **Knoten**   * Farbe der wählbaren [Knoten](Glossary#V.md) in Ansichten.
--   **Hinweislinie**   * Farbe der neuen [Hinweislinien](TechDraw_LeaderLine/de.md).
+-   **Verdeckte Kante**   * Farbe der verdeckten Linie. Diese Farbe wird für alle Arten von [Verdeckten Linien](#HLR.md) verwendet.
+-   **Schnittfläche**   * Farbe für Schnittflächen in [Schnittansichten](TechDraw_SectionView/de.md). Wird nur verwendet, wenn die Einstellung **Schnittflächendarstellung** auf *Farbfüllung* gesetzt ist.
+-   **Schnittlinie**   * Farbe der Schnittlinie einer [Schnittansicht](TechDraw_SectionView/de.md).
+-   **Schraffur**   * Farbe für [Schraffuren](TechDraw_Hatch/de.md).
+-   **Geometrische Schraffur**   * Farbe für [geometrische Schraffurmuster](TechDraw_GeometricHatch/de.md).
+-   **Knoten**   * Farbe der auswählbaren [Knoten](Glossary/de#V.md) in Ansichten.
+-   **Hinweislinie**   * Farbe für neue [Hinweislinien](TechDraw_LeaderLine/de.md).
 -   **Rasterfarbe**   * Farbe für alle Seitenraster. {{Version/de|0.20}}
 
 ## HLR
 
-<img alt="HLR Einstellungen" src=images/TechDraw_PreferencesHLR.png  style="width   *350px;">
+<img alt="HLR-Einstellungen" src=images/TechDraw_PreferencesHLR.png  style="width   *350px;">
 
 HLR steht für *Entfernen verdeckter Linien* (engl.   * hidden line removal).
 

@@ -11,7 +11,7 @@ L\'atelier EM (ElectroMagnetic) fournit l'interface front-end de CAO à certains
 
 ## Installation
 
-L\'[atelier EM](EM_Workbench/fr.md) est un [atelier externe](External_workbenches/fr.md) qui peut être installé par le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Ceci peut être fait à partir du menu **Outils → Gestionnaire d'Addon**.
+L\'[atelier EM](EM_Workbench/fr.md) est un [atelier externe](External_workbenches/fr.md) qui peut être installé par le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Ceci peut être fait à partir du menu **Outils → Gestionnaire des extensions**.
 
 Les solveurs électromagnétiques FastHenry2 et FasterCap doivent être installés séparément. Leurs codes binaires ainsi que les sources sont disponibles gratuitement sur [FastFieldSolvers](https   *//www.fastfieldsolvers.com).
 

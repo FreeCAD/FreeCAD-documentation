@@ -3,7 +3,6 @@
 - GuiCommand   */it
    Name   *Draft Snap Extension
    Name/it   *Estensione
-   Icon   *Snap Extension.svg
    MenuLocation   *Draft → [Aggancio](Draft_Snap/it.md) → Estensione
    Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut   *

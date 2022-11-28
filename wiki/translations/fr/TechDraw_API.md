@@ -3,9 +3,9 @@
 
 Vous trouverez de bons exemples de scripts TechDraw de base dans le site [unit test scripts](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/TDTest).
 
-See the [TechDrawGui API](TechDrawGui_API.md) for more functions.
+Voir [TechDrawGui API](TechDrawGui_API/fr.md) pour plus de fonctions.
 
-Example   * 
+Exemple    * 
 ```python
 import FreeCAD
 import TechDraw

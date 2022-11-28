@@ -144,13 +144,31 @@ Con il [widget Scala per gli strumenti di annotazione](Draft_annotation_scale_wi
 
 ## Widget di aggancio in Draft 
 
+
+<div class="mw-translate-fuzzy">
+
 Il [widget di aggancio in Draft](Draft_snap_widget/it.md) può essere utilizzato come alternativa alla [Barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
+
+
+</div>
 
 ![](images/Draft_snap_widget_button.png )
 
+
+<div class="mw-translate-fuzzy">
+
 ## Barra degli strumenti di aggancio 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare la modalità di aggancio corrente. Il suo pulsante rimane premuto quando una modalità è attiva.
+
+
+</div>
 
 -   <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *32px;"> [Blocca Snap](Draft_Snap_Lock/it.md)   * abilita o disabilita lo snap a livello globale.
 
@@ -164,7 +182,13 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Snap Intersezione](Draft_Snap_Intersection/it.md)   * aggancia all\'intersezione di due bordi.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicolare](Draft_Snap_Perpendicular/it.md)   * esegue lo snap ai punti perpendicolari sulle facce ({{Version/it|1.0}}) o sugli spigoli.
+
+
+</div>
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Snap Estensione](Draft_Snap_Extension/it.md)   * aggancia a una linea immaginaria che si estende oltre i punti finali dei bordi diritti.
 
@@ -172,13 +196,31 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 -   <img alt="" src=images/Draft_Snap_Special.svg  style="width   *32px;"> [Snap Speciale](Draft_Snap_Special/it.md)   * aggancia ai punti speciali definiti dall\'oggetto.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Vicino](Draft_Snap_Near/it.md)   * aggancia al punto più vicino su facce o spigoli.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortogonale](Draft_Snap_Ortho/it.md)   * aggancia a linee immaginarie che attraversano il punto precedente a 0°, 45°, 90° e 135°.
 
+
+</div>
+
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *32px;"> [Snap Griglia](Draft_Snap_Grid/it.md)   * aggancia alle intersezioni delle linee della griglia.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap Piano di Lavoro](Draft_Snap_WorkingPlane/it.md)   * proietta il punto di aggancio sul [piano di lavoro](Draft_SelectPlane/it.md) corrente.
+
+
+</div>
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *32px;"> [Snap Quotature](Draft_Snap_Dimensions/it.md)   * mostra le quote X e Y temporanee.
 
@@ -210,7 +252,13 @@ Il menu **Draft → Utilità** contiene diversi strumenti. Alla maggior parte di
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width   *32px;"> [Attiva/Disattiva la modalità continua](Draft_ToggleContinueMode/it.md)   * attiva o disattiva la modalità continua.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width   *32px;"> [Mostra la Barra degli strumenti di aggancio](Draft_ShowSnapBar/it.md)   * mostra la [Barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
+
+
+</div>
 
 ## Ulteriori funzioni 
 

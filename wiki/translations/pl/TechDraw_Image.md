@@ -47,10 +47,7 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 
 ## Tworzenie skryptów 
 
-
-**Zobacz również   ***
-
-[TechDraw API](TechDraw_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Narzędzie Obraz może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji   *
 

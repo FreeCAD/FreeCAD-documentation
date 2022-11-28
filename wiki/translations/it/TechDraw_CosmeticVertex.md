@@ -2,7 +2,6 @@
 - GuiCommand   */it
    Name   *TechDraw CosmeticVertex
    Name/it   *Vertice cosmetico
-   Icon   *techdraw-point.svg
    MenuLocation   *TechDraw → Aggiuge Vertici → Vertice cosmetico
    Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso   *[Punti mediani](TechDraw_Midpoints/it.md), [Quadrante](TechDraw_Quadrants/it.md)

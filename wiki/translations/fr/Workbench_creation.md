@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Cette page vous montrera comment ajouter un nouvel atelier à l\'interface de FreeCAD. Les [ateliers](Workbenches/fr.md) sont des conteneurs pour les commandes de FreeCAD. Ils peuvent être codés en Python, en C++, ou dans un mélange des deux, ce qui a l\'avantage d\'allier la vitesse du C++ à la flexibilité du Python. Dans tous les cas, cependant, votre atelier sera lancé par un ensemble de deux fichiers Python. Il peut s\'agir d\'ateliers \"internes\", inclus dans la distribution de FreeCAD, ou d\'ateliers \"externes\", distribués via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) ou installés manuellement par téléchargement depuis un dépôt en ligne. Les ateliers internes peuvent être codés en C++, Python, ou une combinaison des deux, alors que les ateliers externes doivent être en Python uniquement.
+Cette page vous montrera comment ajouter un nouvel atelier à l\'interface de FreeCAD. Les [ateliers](Workbenches/fr.md) sont des conteneurs pour les commandes de FreeCAD. Ils peuvent être codés en Python, en C++, ou dans un mélange des deux, ce qui a l\'avantage d\'allier la vitesse du C++ à la flexibilité du Python. Dans tous les cas, cependant, votre atelier sera lancé par un ensemble de deux fichiers Python. Il peut s\'agir d\'ateliers \"internes\", inclus dans la distribution de FreeCAD, ou d\'ateliers \"externes\", distribués via le [Gestionnaire des extensions](Std_AddonMgr/fr.md) ou installés manuellement par téléchargement depuis un dépôt en ligne. Les ateliers internes peuvent être codés en C++, Python, ou une combinaison des deux, alors que les ateliers externes doivent être en Python uniquement.
 
 ## La structure Atelier 
 
@@ -121,10 +121,10 @@ class MyWorkbench (Workbench)   *
         It is executed once in a FreeCAD session followed by the Activated function.
         """
         import MyModuleA, MyModuleB # import here all the needed files that create your FreeCAD commands
-        self.list = ["MyCommand1", "MyCommand2"] # A list of command names created in the line above
-        self.appendToolbar("My Commands",self.list) # creates a new toolbar with your commands
-        self.appendMenu("My New Menu",self.list) # creates a new menu
-        self.appendMenu(["An existing Menu","My submenu"],self.list) # appends a submenu to an existing menu
+        self.list = ["MyCommand1", "MyCommand2"] # a list of command names created in the line above
+        self.appendToolbar("My Commands", self.list) # creates a new toolbar with your commands
+        self.appendMenu("My New Menu", self.list) # creates a new menu
+        self.appendMenu(["An existing Menu", "My submenu"], self.list) # appends a submenu to an existing menu
 
     def Activated(self)   *
         """This function is executed whenever the workbench is activated"""
@@ -137,7 +137,7 @@ class MyWorkbench (Workbench)   *
     def ContextMenu(self, recipient)   *
         """This function is executed whenever the user right-clicks on screen"""
         # "recipient" will be either "view" or "tree"
-        self.appendContextMenu("My commands",self.list) # add commands to the context menu
+        self.appendContextMenu("My commands", self.list) # add commands to the context menu
 
     def GetClassName(self)   * 
         # This function is mandatory if this is a full Python workbench
@@ -177,7 +177,9 @@ Ajouter votre/vos page(s) de préférence    *
 
 #### Distribution
 
-Pour distribuer votre atelier Python, vous pouvez soit simplement héberger les fichiers dans un endroit quelconque et demander à vos utilisateurs de les télécharger et de les placer manuellement dans leur répertoire Mod, ou vous pouvez les héberger dans un dépôt git en ligne (GitHub, GitLab, Framagit et Debian Salsa sont actuellement des emplacements supportés) et les configurer pour que le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) les installe. Les instructions pour l\'inclusion dans la liste officielle des modules complémentaires de FreeCAD peuvent être trouvées sur le [Dépôt GitHub des Addons de FreeCAD](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). Pour utiliser le gestionnaire d\'addons, un [fichier de métadonnées package.xml](Package_Metadata/fr.md) doit être inclus, qui indique au gestionnaire d\'addons comment trouver l\'icône de votre atelier, et permet d\'afficher une description, un numéro de version, etc. Il peut également être utilisé pour spécifier d\'autres ateliers ou paquets Python dont votre atelier dépend, qui le bloquent ou qu\'il est destiné à remplacer.
+Pour distribuer votre atelier Python, vous pouvez soit simplement héberger les fichiers dans un endroit quelconque et demander à vos utilisateurs de les télécharger et de les placer manuellement dans leur répertoire Mod, ou vous pouvez les héberger dans un dépôt git en ligne (GitHub, GitLab, Framagit et Debian Salsa sont actuellement des emplacements supportés) et les configurer pour que le [Gestionnaire des extensions](Std_AddonMgr/fr.md) les installe. Les instructions pour l\'inclusion dans la liste officielle des extensionss de FreeCAD peuvent être trouvées sur le [Dépôt GitHub des extensions de FreeCAD](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). Pour utiliser le gestionnaire des extensions, un [fichier de métadonnées package.xml](Package_Metadata/fr.md) doit être inclus, qui indique au gestionnaire des extensions comment trouver l\'icône de votre atelier, et permet d\'afficher une description, un numéro de version, etc. Il peut également être utilisé pour spécifier d\'autres ateliers ou paquets Python dont votre atelier dépend, qui le bloquent ou qu\'il est destiné à remplacer.
+
+Pour un guide rapide sur la façon de créer un fichier package.xml de base et d\'ajouter un atelier au [Gestionnaire des extensions](Std_AddonMgr/fr.md) voir    * [Ajouter un atelier au gestionnaire des extensions](Add_Workbench_to_Addon_Manager/fr.md).
 
 En outre, vous pouvez inclure un fichier de métadonnées distinct décrivant vos dépendances Python. Il peut s\'agir soit d\'un fichier appelé metadata.txt décrivant les dépendances externes de votre atelier (soit d\'autres addons, ateliers ou modules Python), soit d\'un fichier [requirements.txt](https   *//pip.pypa.io/en/latest/reference/requirements-file-format/) décrivant vos dépendances Python. Notez que si vous utilisez un fichier requirements.txt, seuls les noms des paquets spécifiés sont utilisés pour la résolution des dépendances    * les options de la commande pip, les options include et les informations de version ne sont pas prises en charge par le gestionnaire d\'addons. Les utilisateurs peuvent exécuter manuellement le fichier d\'exigences en utilisant pip si ces fonctionnalités sont requises.
 
@@ -190,7 +192,7 @@ pylibs=
 optionalpylibs=
 ```
 
-Chaque ligne doit consister en une liste d\'éléments, séparés par des virgules, dont dépend votre atelier. Les ateliers peuvent être soit un atelier FreeCAD interne, par exemple \"FEM\", soit un addon externe, par exemple \"Curves\". Les bibliothèques Python requises et optionnelles doivent être spécifiées avec leur nom Python canonique, tel que vous l\'utiliseriez avec `pip install`. Par exemple    *
+Chaque ligne doit consister en une liste d\'éléments, séparés par des virgules, dont dépend votre atelier. Les ateliers peuvent être soit un atelier FreeCAD interne, par exemple \"FEM\", soit une extension externe, par exemple \"Curves\". Les bibliothèques Python requises et optionnelles doivent être spécifiées avec leur nom Python canonique, tel que vous l\'utiliseriez avec `pip install`. Par exemple    *
 
 
 ```python
@@ -199,9 +201,9 @@ pylibs=ezdxf
 optionalpylibs=metadata,git
 ```
 
-Vous pouvez également inclure un script qui est exécuté lorsque votre paquet est désinstallé. Il s\'agit d\'un fichier appelé \"uninstall.py\" situé au niveau supérieur de votre module complémentaire. Il est exécuté lorsqu\'un utilisateur désinstalle votre module complémentaire à l\'aide du gestionnaire de modules complémentaires. Utilisez-le pour nettoyer tout ce que votre addon a pu faire sur le système de l\'utilisateur et qui ne devrait pas persister après la disparition de l\'addon (par exemple, suppression des fichiers de cache, etc.).
+Vous pouvez également inclure un script qui est exécuté lorsque votre paquet est désinstallé. Il s\'agit d\'un fichier appelé \"uninstall.py\" situé au niveau supérieur de votre extension. Il est exécuté lorsqu\'un utilisateur désinstalle votre extension à l\'aide du gestionnaire des extensions. Utilisez-le pour nettoyer tout ce que votre extension a pu faire sur le système de l\'utilisateur et qui ne devrait pas persister après la disparition de l\'extension (par exemple, suppression des fichiers de cache, etc.).
 
-Pour que votre addon soit lu correctement par le gestionnaire d\'addons, vous pouvez activer un \"mode développeur\" dans lequel le gestionnaire d\'addons examine tous les addons disponibles et s\'assure que leurs métadonnées contiennent les éléments requis. Pour activer ce mode, utilisez l\'[Éditeur des paramètres](Std_DlgParameter/fr.md) pour créer une variable booléenne appelée \"developerMode\" dans le groupe de paramètres de \"Addons\", et définissez cette variable à True    * **Outils → Editer les paramètres... → BaseApp → Preferences → Addons → developerMode**.
+Pour que votre extension soit lue correctement par le gestionnaire des extensions, vous pouvez activer un \"mode développeur\" dans lequel le gestionnaire des extensions examine toutes les extensions disponibles et s\'assure que leurs métadonnées contiennent les éléments requis. Pour activer ce mode, sélectionnez    * **Édition → Préférences... → Gestionnaire des extensions → Options du gestionnaire des extensions → Activer le mode développeur des extensions**, voir [Réglage des préférences](Preferences_Editor/fr#Options_du_gestionnaire_d.27Addons.md).
 
 ### Ateliers en C++ 
 
@@ -239,6 +241,10 @@ namespace MyModuleGui {
 
 Vous pouvez également ajouter une page de préférences pour les ateliers C++. Les étapes sont similaires à celles de Python.
 
+#### Distribution 
+
+Il y a deux options pour distribuer un atelier C++, vous pouvez soit héberger vous-même des versions précompilées pour les différents systèmes d\'exploitation, soit demander à ce que votre code soit intégré au code source de FreeCAD. Comme mentionné ci-dessus, cela nécessite une licence LGPL2+, et vous devez d\'abord présenter votre atelier à la communauté dans le [forum de FreeCAD](https   *//forum.freecad.org) pour revue.
+
 ## Commandes FreeCAD 
 
 Les commandes FreeCAD constituent le bloc de construction de base de l\'interface FreeCAD. Ils peuvent apparaître sous la forme d\'un bouton dans les barres d\'outils et d\'une entrée de menu dans les menus. Mais c\'est la même commande. Une commande est une simple classe Python, qui doit contenir un couple attributs et fonctions prédéfinis, définissant le nom de la commande, son icône et l\'action à effectuer lorsque la commande est activée.
@@ -270,7 +276,7 @@ FreeCADGui.addCommand("My_Command", My_Command_Class())
 
 ### Définition des commandes en C++ 
 
-De la même manière, vous pouvez coder vos commandes en C++. Vous avez généralement un fichier Commands.cpp dans votre module d\'interface graphique. Ceci est un fichier Commands.cpp typique    *
+De même, vous pouvez coder vos commandes en C++, typiquement dans un fichier Commands.cpp dans votre module Gui. Ceci est un fichier Commands.cpp typique    *
 
 
 ```pythonDEF_STD_CMD_A(CmdMyCommand);

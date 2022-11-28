@@ -117,7 +117,7 @@ Plus d\'informations sur la page [tutoriels](Tutorials/fr.md).
 
 FreeCAD, en tant que logiciel open source, offre la possibilité de compléter ses ateliers avec des addons.
 
-Le principe des [Addon](Addon/fr.md) est basé sur le développement d\'un atelier complémentaire. Tout utilisateur peut développer une fonction qu\'il estime manquante pour ses propres besoins ou, finalement, pour la communauté. Dans le forum, l\'utilisateur peut demander un avis, une aide. Il peut partager, ou non, l\'objet de son développement selon les règles du droit d\'auteur à définir. Gratuit pour elle/lui. Pour le développer, l\'utilisateur dispose de fonctions [scriptées](scripting/fr.md).
+Le principe des [extensions](Addon/fr.md) est basé sur le développement d\'un atelier complémentaire. Tout utilisateur peut développer une fonction qu\'il estime manquante pour ses propres besoins ou, finalement, pour la communauté. Avec le forum, l\'utilisateur peut demander un avis, une aide. Il peut partager, ou non, l\'objet de son développement selon les règles du droit d\'auteur à définir. Gratuit pour elle/lui. Pour le développer, l\'utilisateur dispose de fonctions [scriptées](scripting/fr.md).
 
 Il existe deux types d\'addons    *
 

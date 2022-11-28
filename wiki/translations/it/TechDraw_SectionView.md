@@ -14,7 +14,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla vista di una parte esistente.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_Section_example.png  style="width   *250px;"> 
 *Sezione di una vista già posizionata, che mostra i fori interni e la superficie di taglio ombreggiata*
@@ -41,6 +47,13 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 See also [TechDraw View](TechDraw_View#Properties.md).
 
 ### Dati
+
+
+{{TitleProperty|Cut Operation}}
+
+-    **Fuse Before Cut|Bool**   * Fuse the source shapes before performing the section cut.
+
+-    **Trim After Cut|Bool**   * Additionally trim the resulting shape after the section cut to remove any unwanted pieces.
 
 
 {{TitleProperty|Cut Surface Format}}
@@ -176,18 +189,23 @@ Lo strumento Vista di sezione può essere utilizzato nelle [macro](macros/it.md)
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
-rc = page.addView(view)
-view.Source = box
-view.Direction = (0.0,0.0,1.0)
+doc = FreeCAD.ActiveDocument
+box = doc.Box
+page = doc.Page
 
-section = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewSection','Section')
-rc = page.addView(section)
+view = doc.addObject("TechDraw   *   *DrawViewPart", "View")
+page.addView(view)
+view.Source = box
+view.Direction = (0.0, 0.0, 1.0)
+
+section = doc.addObject("TechDraw   *   *DrawViewSection", "Section")
+page.addView(section)
 section.Source = box
 section.BaseView = view
-section.Direction = (0.0,1.0,0.0)
-section.SectionNormal = (0.0,0.0,1.0)
-section.SectionOrigin = (5.0,5.0,5.0)
+section.Direction = (0.0, 1.0, 0.0)
+section.SectionNormal = (-1.0, 0.0, 0.0)
+
+doc.recompute()
 ```
 
 

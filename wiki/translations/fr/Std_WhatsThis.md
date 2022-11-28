@@ -14,11 +14,11 @@
 
 La commande **Std Qu\'est-ce que c\'est?** ouvre la documentation d\'aide pour une commande spécifique.
 
-Dans FreeCAD {{VersionPlus/fr|0.20}}, cette commande nécessite [Help Addon](https   *//github.com/FreeCAD/FreeCAD-Help).
+Dans FreeCAD {{VersionPlus/fr|0.20}}, cette commande nécessite l\'[extension Help](https   *//github.com/FreeCAD/FreeCAD-Help).
 
 ## Utilisation
 
-1.  Si l\'addon Help n\'est pas encore disponible, il vous sera demandé de l\'installer via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+1.  Si l\'extension Help n\'est pas encore disponible, il vous sera demandé de l\'installer via le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 2.  Il existe plusieurs façons de lancer la commande   *
     -   Appuyez sur le bouton **<img src="images/Std_WhatsThis.svg" width=16px> [Qu'est-ce que c'est?](Std_WhatsThis/fr.md)**.
     -   Sélectionnez l\'option **Aide → <img src="images/Std_WhatsThis.svg" width=16px> Qu'est-ce que c'est?** dans le menu.
@@ -28,7 +28,7 @@ Dans FreeCAD {{VersionPlus/fr|0.20}}, cette commande nécessite [Help Addon](htt
 
 ## Remarques
 
--   L\'addon Help possède un certain nombre de préférences. Voir [Réglage des préférences](Preferences_Editor/fr#Help.md).
+-   L\'extension Help possède un certain nombre de préférences. Voir [Réglage des préférences](Preferences_Editor/fr#Help.md).
 
 
 

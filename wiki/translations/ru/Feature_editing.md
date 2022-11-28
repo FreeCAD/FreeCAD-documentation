@@ -13,49 +13,37 @@
 
 </div>
 
-## Feature editing methodology 
+## Процесс редактирования методом конструктивных элементов 
 
-Первый конструктивный элемент обычно называется **базовым**. По мере добавления конструктивных элементов к модели, каждая конструктивный элемент берёт форму предыдущего и добавляет или убирает матерю, создавая последовательность зависимостей от одного элемента к другому. Как результат, эта методика повторяет общие производственные процессы   * блок обрезается по одной стороне, затем по другой, добавляются отверстия, скругления (галтели) и так далее.
+Как правило первый конструктивный элемент называется **базовым**. По мере добавления к модели следующих конструктивных элементов, каждый новый добавленный конструктивный элемент берёт совокупную форму от предыдущих и добавляет или убирает материю, создавая последовательность зависимостей от одного элемента к другому. Фактический, данный подход повторяет общие производственные процессы   * заготовка в форме куба обрезается по одной стороне, затем по другой, добавляются отверстия, скругления (галтели) и так далее.
 
-Все features перечислены последовательно в древе модели и могут редактироваться в любое время, где последняя feature внизу представляет итоговую деталь.
+Все конструктивные элементы перечисляются последовательно в древе модели сверху вниз и могут редактироваться в любое время, где при выборе последнего добавленного конструктивного элемента, находящегося внизу будет отображаться итоговая деталь.
 
-Возможности могут быть отсортированы по различным категориям   *
+Конструктивные элементы можно разделить на категории   *
 
 -   **Profile-based**   * эти features основываются на профиле для определения формы добавляемого или удаляемого материала. Профиль может быть эскизом, плоской гранью существующей геометрии (профиль будет выделен из кромки), объект ShapeBinder или Draft, который был включён в активное Тело.
 
--   **Additive**   * добавляют материал к существующей модели. Аддитивные features показываются жёлтыми иконками.
+-   **Аддитивные**   * добавляют материал к существующей модели. Значки Аддитивных конструктивных элементов выделены жёлтым цветом.
 
--   **Subtractive**   * убирают материал из существующей модели. Субтрактивные features показывают красные и голубые иконки.
+-   **Субтрактивные**   * убирают материал из существующей модели. Значки Субтрактивных конструктивных элементов выделены красным цветом.
 
--   **Primitive-based**   * базирующиеся на геометрических примитивах (куб, цилиндр, конус, тор...). Они могут быть аддитивными или субтрактивными.
+-   **На основе геометрических примитивов**   * базирующиеся на основе геометрических примитивах (куб, цилиндр, конус, тор...). Они могут быть, как аддитивными, так и субтрактивными.
 
--   **Transformation features**   * они применяют трансформацию к существующим features (отражение, линейный или полярный паттерн, мультитрансформация).
+-   **Преобразующие конструктивные элементы**   * они преобразуют уже существующие конструктивные элементы (отражение (симметрия), линейный или круговой массив, множественное преобразование).
 
--   **Dress-up**   * features, которые пликладывают обработку к фаскам или граням, такие как скругления, фаски, или drafts.
+-   **Для обработки граней**   * конструктивные элементы для модификации граней и поверхностей, такие как скругления, фаски, или уклон.
 
--   **Procedural**   * могут быть отнесены к features, которые не базируются на эскизировании, вроде трансформаций и dress-up features.
+-   **Процедурные**   * к данной группе можно отнести конструктивные элементы, которые в качестве опоры используют не эскизы, а например грани или плоскости объекта, например такие как   * преобразующие конструктивные элементы или элементы для обработки граней.
 
 ## Твёрдое тело 
 
-
-<div class="mw-translate-fuzzy">
-
-Для работы PartDesign сначала создаётся <img alt="" src=images/PartDesign_Body.png  style="width   *24px;"> **[тело](PartDesign_Body/ru.md)**. Тело в PartDesign это контейнер, группирующий последовательность свойств, формирующих единое монолитное тело.
-
-
-</div>
+Работа в верстаке PartDesign, начинается с добавления <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> **[Тела](PartDesign_Body/ru.md)**. Тело в PartDesign это контейнер, хранящий в себе последовательность добавления конструктивных элементов, совокупность которых формирует единое твёрдое тело.
 
 ![](images/PartDesign_Body_tree.png )
 
+**Что подразумевается под единым твердым телом?** Можно сказать, что это предмет изготовленный в процессе наращивания или вырезания материала из металлической заготовки. Если предмет включает в себя гвозди, винты, клей или пайку, это уже **не единое твёрдое тело**. Например, деревянный стул изготавливается из нескольких тел, по одному для каждого из компонентов (ножки, планки, сиденья и так далее).
 
-<div class="mw-translate-fuzzy">
-
-Что значит **единое монолитное тело**? Это элемент вроде литья или чего-то выточенного из единого блока металла. Если он включает гвозди, винты, клей или пайку, это не **единое монолитное тело**. Например, деревянный стул изготавливается из нескольких тел, по одному для каждого из компонентов (ножки, планки, сиденья и так далее).
-
-
-</div>
-
-В документе FreeCAD могут быть создано несколько тел, они могут быть скомбинированы для формирования единого монолитного твёрдого тела.
+В документе FreeCAD может быть создано несколько тел, при необходимости они так же могут быть скомбинированы в одно единое твёрдое тело.
 
 Only one body can be active in a document. The active body gets the new created features. A body can be activated or deactivated by double clicking on it. An activated body is highlighted in light blue. The highlighting color can be set in the preferences under Display/Colors/Active container since version 0.18.
 
@@ -79,7 +67,7 @@ Only one body can be active in a document. The active body gets the new created 
 
 </div>
 
-### Body Origin 
+### Система координат Тела 
 
 The body has an Origin which consists of reference planes (XY, XZ, YZ) and axes (X, Y, Z) that can be used by sketches and features. Sketches can be attached to Origin planes, and they no longer need to be mapped to planar faces for features based on them to be added or subtracted from the model.
 
@@ -97,7 +85,7 @@ A fundamental difference between FreeCAD and other programs, like Catia, is that
 
 *Difference between Catia and FreeCAD. Left   * Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right   * the newer feature should always contact or intersect the previous feature so that it is fused to it, and becomes a single contiguous solid.*
 
-## Datum geometry 
+## Опорная геометрия 
 
 Datum geometry consists of custom planes, lines, points or externally linked shapes. They can be created for use as reference by sketches and features. There is a multitude of attachment possibilities for datum objects.
 
@@ -119,17 +107,17 @@ Even if not used for supporting sketches, datum objects are still helpful as vis
 
 *Difference between Catia and FreeCAD. Left   * Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right   * the newer feature should always contact or intersect the previous feature, so that it is fused to it, and becomes a single contiguous solid. In this example, the new solid is based on a datum plane that is rotated around the Y axis.*
 
-## Cross-referencing 
+## Кросс-ссылки 
 
 It is possible to cross-reference elements from a body in another body via datums. For example the datum shape binder allows to copy over faces from a body as reference in another one. This should make it easy to build a box with fitting cover in two different bodies. FreeCAD helps you to avoid accidentally linking to other bodies by asking for confirmation of your intent.
 
-## Attachment
+## Скрепление
 
 Object attachment is not a specific PartDesign tool, but rather a Part utility introduced in v0.17 that can be found in the Part menu. It is heavily used in the PartDesign workbench to attach sketches and reference geometry to the standard planes and axes of the Body. Very extensive ways of creating datum points, lines and planes are available. Optional attachment offset parameters make this tool very versatile.
 
 More info can be found in the [Attachment](Part_EditAttachment.md) page and the [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md).
 
-## Advice for creating stable models 
+## Советы для создания стабильных моделей 
 
 The idea of parametric modeling implies that you can change the values of certain parameters and subsequent steps are changed according to the new values. However, when severe changes are made, the model can break due to the [topological naming problem](Topological_naming_problem.md) that is still unresolved in FreeCAD. Breakage can be minimized when you respect the following design principles   *
 
@@ -152,7 +140,7 @@ The idea of parametric modeling implies that you can change the values of certai
 -   Use *dress ups*, like fillets and chamfers, as late in the feature tree as possible
 -   Note, using spreadsheets, dynamic data, master sketches, etc. generally produce more parametric models and help avoid the topological naming issue.
 
-## Body building workflow 
+## Процесс создания Тела 
 
 There are several workflows that are possible with the [PartDesign Workbench](PartDesign_Workbench.md). What should always be noticed is that all the features created inside a [PartDesign Body](PartDesign_Body.md) will be fused together to obtain the final object.
 
@@ -168,7 +156,7 @@ Sketches can be supported by the faces of previous solid operations. This may be
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width   *600px;">
 
-### Use of datum planes for support 
+### Применяйте опорные плоскости в качестве основы для построений 
 
 Datum planes are useful to support the sketches. These auxiliary planes should be attached to the base planes of the body.
 
@@ -182,7 +170,7 @@ In addition, a <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width  
 
 Using datum objects is often the best way to produce stable models, when used with base planes and attachment offsets, although it requires a bit more work from the user. For details about basic attachment see   * [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md) *Note   * while this tutorial talks about sketches, datum attachment is done in similar fashion.*
 
-## Tutorials
+## Материалы для самостоятельного изучения 
 
 The [tutorials](Tutorials.md) page provides some examples of using the [feature editing](Feature_editing.md) method of the <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
 
@@ -190,7 +178,7 @@ The [tutorials](Tutorials.md) page provides some examples of using the [feature 
 -   [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
 -   [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md)
 
-## Related
+## Сопутствующая информация 
 
 -   [Constructive solid geometry](Constructive_solid_geometry.md)
 

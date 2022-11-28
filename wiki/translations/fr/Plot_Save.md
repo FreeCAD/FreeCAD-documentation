@@ -10,7 +10,7 @@
 
 ## Description
 
-Le module standard plot fournit déjà un outil minimal pour sauvegarder les graphiques <img alt="" src=images/Matplotlib_save_button.png  style="width   *24px;">. Si vous installez l\'<img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) en utilisant le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), un outil plus complet pour sauvegarder le graphe actif sera disponible. Avec cet outil, vous pouvez également sélectionner la taille et la résolution de l\'image de sortie.
+Le module standard plot fournit déjà un outil minimal pour sauvegarder les graphiques <img alt="" src=images/Matplotlib_save_button.png  style="width   *24px;">. Si vous installez l\'<img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) en utilisant le [Gestionnaire des extensions](Std_AddonMgr/fr.md), un outil plus complet pour sauvegarder le graphe actif sera disponible. Avec cet outil, vous pouvez également sélectionner la taille et la résolution de l\'image de sortie.
 
 <img alt="" src=images/Plot_Trigonometric_Example.png  style="width   *600px;">
 

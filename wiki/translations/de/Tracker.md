@@ -48,13 +48,11 @@ Wenn du möchtest, dass etwas in FreeCAD erscheint, das noch nicht implementiert
 
 ## Einreichen von Änderungssätzen 
 
+Falls du eine Fehlerbehebung, eine Erweiterung oder etwas anderes programmiert hast, das in FreeCAD von öffentlichem Nutzen sein kann, sende deinen Änderungssatz als \"Pull Request\" an [GitHub](https   *//github.com/FreeCAD/FreeCAD).
 
-<div class="mw-translate-fuzzy">
-
-Falls du eine Fehlerbehebung, eine Erweiterung oder etwas anderes programmiert hast, das in FreeCAD von öffentlichem Nutzen sein kann, erstelle einen Änderungssatz mit dem Git diff Werkzeug und sende ihn auf demselben Fehlerverfolger (Datei als *Patch* ablegen).
-
-
-</div>
+1.  Für große, komplexe oder ablaufändernde Einsendungen öffnet man einen ForumThread im [Developer subforum](https   *//forum.freecadweb.org/viewforum.php?f=10), um den Änderungssatz anzukündigen und zu diskutieren. Für kleine Fehlerbehebungen ist dies nicht nötig.
+2.  Der Pull Request (PR) wird an das [FreeCAD GitHub repo](http   *//github.com/FreeCAD/FreeCAD) gesendet. Die PR-Sendungsbenachrichtigung wird vorausgefüllt mit einer Checkliste, der man folgen kann, um sicherzugehen, dass die Einsendung die besten Chancen hat, schnell akzeptiert zu werden. Wer noch nicht mit `git` gearbeitet hat oder sich mit dem Senden eines PR nach github nicht sicher auskennt, sollte unsere Wiki-Seite zur Einführung in [github](Source_code_management.md) lesen.
+3.  Man sollte für Diskussionen erreichbar sein, sowohl im Forum als auch für den GitHub-Pull-Request, damit der Kode möglichst effektiv eingefügt werden kann.
 
 ## Zusammenführen anfragen 
 

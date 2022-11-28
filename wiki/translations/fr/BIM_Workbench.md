@@ -8,7 +8,7 @@
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_BIM.svg  style="width   *24px;"> [atelier BIM](BIM_Workbench/fr.md) est un [atelier externe](External_workbenches/fr.md) visant à implémenter des informations complètes sur le bâtiment [Building Information Modélisation](https   *//fr.wikipedia.org/wiki/Building_information_modeling) (BIM) et le flux des tâches dans FreeCAD. Il peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+L\'<img alt="" src=images/Workbench_BIM.svg  style="width   *24px;"> [atelier BIM](BIM_Workbench/fr.md) est un [atelier externe](External_workbenches/fr.md) visant à implémenter des informations complètes sur le bâtiment [Building Information Modélisation](https   *//fr.wikipedia.org/wiki/Building_information_modeling) (BIM) et le flux des tâches dans FreeCAD. Il peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 L\'atelier BIM est basé sur l\'<img alt="" src=images/Workbench_Arch.svg  style="width   *24px;"> [atelier Arch](Arch_Workbench/fr.md) intégré et les deux seront probablement fusionnés à l\'avenir. L\'atelier BIM est un \"méta-atelier\", destiné à rassembler de nombreux outils utiles d\'autres établis en un seul endroit et à créer un flux de travail plus pratique et convivial pour les utilisateurs expérimentés du BIM et les débutants. L\'atelier BIM dispose également de ses propres outils spécifiques, principalement des assistants et des outils de gestion, situés sous le menu **Management**.
 
@@ -20,7 +20,7 @@ Les développeurs de Draft, Arch et BIM collaborent également avec la [communau
 
 ## Installation
 
-L\'atelier BIM n\'est pas fourni avec le package FreeCAD par défaut, mais peut être facilement installé via l\'<img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour le lancer, faire **Outils → [Gestionnaire d'Addon](Std_AddonMgr/fr.md)**. Le code de l\'atelier BIM est [hébergé et développé sur github](https   *//github.com/yorikvanhavre/BIM_Workbench) et peut également être installé manuellement en le copiant dans le répertoire **MOD** de FreeCAD.
+L\'atelier BIM n\'est pas fourni avec le package FreeCAD par défaut, mais peut être facilement installé via l\'<img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour le lancer, faire **Outils → [Gestionnaire des extensions](Std_AddonMgr/fr.md)**. Le code de l\'atelier BIM est [hébergé et développé sur github](https   *//github.com/yorikvanhavre/BIM_Workbench) et peut également être installé manuellement en le copiant dans le répertoire **MOD** de FreeCAD.
 
 **Remarque**
 
@@ -103,7 +103,7 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/_BIM_Column.svg  style="width   *32px;"> [Colonne](Arch_Structure/fr.md)   * crée un élément vertical [Structural](Arch_Structure/fr.md) à un point donné en utilisant éventuellement un objet sélectionné comme profil
 -   <img alt="" src=images/_BIM_Beam.svg  style="width   *32px;"> [Poutre](Arch_Structure/fr.md)   * crée un élément horizontal [Structural](Arch_Structure/fr.md) entre deux points en utilisant éventuellement un objet sélectionné comme profil
 -   <img alt="" src=images/_BIM_Slab.svg  style="width   *32px;"> [Dalle](Arch_Structure/fr.md)   * crée un élément plat [Structural](Arch_Structure/fr.md) en extrudant un objet plat sélectionné
--   <img alt="" src=images/Arch_Rebar_Straight.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_UShape.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_LShape.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_BentShape.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_Helical.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar.svg  style="width   *32px;"> [Armatures](Arch_Rebar/fr.md)   * crée des barres d\'armature dans un élément de structure sélectionné à l\'aide d\'une esquisse. Nécessite l\'addon [Barres de renfort](Reinforcement_Addon/fr.md).
+-   <img alt="" src=images/Arch_Rebar_Straight.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_UShape.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_LShape.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_BentShape.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width   *32px;"> <img alt="" src=images/Arch_Rebar_Helical.png  style="width   *32px;"> <img alt="" src=images/Arch_Rebar.svg  style="width   *32px;"> [Armatures](Arch_Rebar/fr.md)   * crée des barres d\'armature dans un élément de structure sélectionné à l\'aide d\'une esquisse. Nécessite l\'extension [Reinforcement](Reinforcement_Addon/fr.md).
 -   <img alt="" src=images/Arch_Window.svg  style="width   *32px;"> [Fenêtre](Arch_Window/fr.md)   * crée une fenêtre à partir d\'un objet sélectionné comme base.
 -   <img alt="" src=images/_BIM_Door.svg  style="width   *32px;"> [Porte](Arch_Window/fr.md)   * crée un objet [Fenêtre](Arch_Window/fr.md) à l\'aide de préréglages de porte.
 -   <img alt="" src=images/Arch_Pipe.svg  style="width   *32px;"> <img alt="" src=images/Arch_PipeConnector.png  style="width   *32px;"> [Outils de canalisations](Arch_Pipe/fr.md)    * Crée des tuyaux et une connexion en coin ou en té entre 2 ou 3 tuyaux sélectionnés.
@@ -113,7 +113,7 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/Arch_Frame.svg  style="width   *32px;"> [Ossature](Arch_Frame/fr.md)   * crée une ossature à partir d\'un objet 2D plan et d\'un profil.
 -   <img alt="" src=images/Arch_Fence.svg  style="width   *32px;"> [Clôture](Arch_Fence/fr.md)   * crée un objet clôture à partir d\'un objet de poteau et d\'un chemin sélectionnés
 -   <img alt="" src=images/Arch_Truss.svg  style="width   *32px;"> [Ferme](Arch_Truss/fr.md)   * crée une ferme à partir d\'une ligne sélectionnée ou à partir de zéro
--   <img alt="" src=images/BIM_Library.png  style="width   *32px;"> [Bibliothèques](BIM_Library/fr.md)   * insère un objet d\'équipement ou de mobilier. Requiert l\'addon [Bibliothèque de pièces](Parts_Library/fr.md).
+-   <img alt="" src=images/BIM_Library.png  style="width   *32px;"> [Bibliothèques](BIM_Library/fr.md)   * insère un objet d\'équipement ou de mobilier. Requiert l\'extension [Parts Library](Parts_Library/fr.md).
 -   <img alt="" src=images/Arch_Component.png  style="width   *32px;"> [Composant BIM](Arch_Component/fr.md)   * transforme tout objet sélectionné en objet BIM avec prise en charge IFC complète.
 
 **Outils 3D génériques**   * ces outils créent des objets 3D génériques qui peuvent être transformés ou utilisés en composants BIM.
@@ -148,8 +148,8 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width   *32px;"> [Projection 2D](Draft_Shape2DView/fr.md)    * Génère une projection 2D à partir d\'un objet 3D.
 -   <img alt="" src=images/Draft_Draft2Sketch.png  style="width   *32px;"> [Draft vers Esquisse](Draft_Draft2Sketch/fr.md)    * Convertit un objet Draft en esquisse (Sketcher) et vice versa.
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width   *32px;"> [Coupe Plane](Arch_CutPlane/fr.md)    * Coupe un objet selon un plan défini.
--   <img alt="" src=images/Arch_Add.svg  style="width   *32px;"> [Add](Arch_Add/fr.md)    * Ajouter un objet à un composant.
--   <img alt="" src=images/Arch_Remove.svg  style="width   *32px;"> [Remove](Arch_Remove/fr.md)    * Soustraire ou effacer un ou des objets d\'un composant.
+-   <img alt="" src=images/Arch_Add.svg  style="width   *32px;"> [Ajouter](Arch_Add/fr.md)    * Ajouter un objet à un composant.
+-   <img alt="" src=images/Arch_Remove.svg  style="width   *32px;"> [Soustraire](Arch_Remove/fr.md)    * Soustraire ou effacer un ou des objets d\'un composant.
 
 ### Outils de gestion 
 

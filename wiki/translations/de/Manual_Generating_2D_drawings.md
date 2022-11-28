@@ -11,7 +11,13 @@ Der TechDraw Arbeitsbereich ermöglicht es dir, Blätter zu erstellen, die leer 
 
 Sobald die Zeichnungsblätter vollständig sind, können sie gedruckt oder als [SVG](https   *//en.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF oder [DXF](https   *//en.wikipedia.org/wiki/AutoCAD_DXF) Dateien exportiert werden.
 
+
+<div class="mw-translate-fuzzy">
+
 In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuhlmodells aus der [FreeCAD Bibliothek](https   *//github.com/FreeCAD/FreeCAD-library) (Möbel → Stühle → IkeaÄhnlicherStuhl) erstellt wird. Die FreeCAD Bibliothek kann einfach zu Deiner FreeCAD Installation hinzugefügt werden (siehe das [FreeCAD installieren](Installing/de.md) Kapitel dieses Handbuchs), oder Du kannst einfach das Modell auf der Bibliothekswebseite oder über die direkten Verknüpfung am Ende dieses Kapitels herunterladen.
+
+
+</div>
 
 ![](images/Exercise_TechDraw_01.svg )
 

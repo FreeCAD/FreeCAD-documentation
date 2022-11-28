@@ -5,13 +5,13 @@
 
 ## Introduction
 
-L**\'atelier FCGear** est un [atelier externe](external_workbenches/fr.md) pour la fabrication de différents types d\'engrenages et vis sans fin dans FreeCAD. La modélisation paramétrique permet de modifier à tout moment les géométries requises. Par exemple, en modifiant quelques paramètres, l\'engrenage à développante devient soit un engrenage droit, un engrenage hélicoïdal ou un engrenage hélicoïdal double.
+L**\'atelier FCGear** est un [atelier externe](External_workbenches/fr.md) pour la fabrication de différents types d\'engrenages et vis sans fin dans FreeCAD. La modélisation paramétrique permet de modifier à tout moment les géométries requises. Par exemple, en modifiant quelques paramètres, l\'engrenage à développante devient soit un engrenage droit, un engrenage hélicoïdal ou un engrenage hélicoïdal double.
 
 Pour que les résultats de FCGear soient utilisables, une certaine connaissance de base des différents types d\'engrenages est nécessaire. Module, diamètre primitif et diamètre de base sont des termes courants qui doivent donc être connus.
 
 Parallèlement à l\'impression 3D, les utilisateurs à domicile ont désormais la possibilité de concevoir et de produire des engrenages et des vis sans fin selon leurs propres idées personnelles et, si nécessaire, de les adapter à leurs conditions de construction.
 
-L\'atelier FCGear peut être installé via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
+L\'atelier FCGear peut être installé via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
 
 Après l\'installation, les outils sont disponibles dans la barre d\'outils Gear et dans le menu Gear.
 
@@ -45,77 +45,58 @@ Après l\'installation, les outils sont disponibles dans la barre d\'outils Gear
 
 ### Engrenage à développante 
 
-   *   ![](images/Involute-Gear_example.png )
-   *   
-    
-*De gauche à droite    * engrenage droit, engrenage hélicoïdal, double engrenage hélicoïdal (Voir [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md))*
-    
+<img alt="" src=images/Involute-Gear_example.png  style="width   *200px;"> 
+*De gauche à droite    *engrenage droit, engrenage hélicoïdal, engrenage à double hélice (voir [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md))*
 
 ### Engrenage à développante intérieure 
 
-   *   ![](images/FCGear_InternalInvoluteGear-01.png )
-
-
-
+<img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width   *200px;"> 
 *De gauche à droite    * engrenage droit, engrenage hélicoïdal, engrenage hélicoïdal double (voir [FCGear Engrenage à développante interne](FCGear_InternalInvoluteGear/fr.md))*
-
-.
 
 ### Engrenage à crémaillère 
 
-   *   ![](images/Involute-Rack_example.png )
-   *   
-    
-*De gauche à droite    * crémaillère droite, crémaillère pour engrenage hélicoïdal, crémaillère pour double engrenage hélicoïdal (voir [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md))*
-    
+<img alt="" src=images/Involute-Rack_example.png  style="width   *" height="200px;"> 
+*De gauche à droite    * engrenage droit, engrenage hélicoïdal, engrenage hélicoïdal double (Voir [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md))*
 
 ### Engrenage cycloïde 
 
-   *   ![](images/Cycloid-Gear_example_1.png )
-   *   
-    
-*De gauche à droite    * engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal (voir [FCGear Engrenage cycloïde](FCGear_CycloidGear/fr.md))*
-    
+<img alt="" src=images/Cycloid-Gear_example_1.png  style="width   *200px;"> 
+*De gauche à droite    * engrenage droit, engrenage hélicoïdal, engrenage à double hélice (voir [FCGear Engrenage cycloïde](FCGear_CycloidGear/fr.md))*
 
 ### Crémaillère cycloïde 
 
-   *   ![](images/FCGear_CycloidRack-01.png )
-   *   
-    
-*De gauche à droite    * engrenage droit, engrenage hélicoïdal, engrenage doublement hélicoïdal (voir [FCGear Crémaillère cycloïde](FCGear_CycloidRack/fr.md))*
-    
+<img alt="" src=images/FCGear_CycloidRack-01.png  style="width   *" height="200px;"> 
+*De gauche à droite    * engrenage droit, engrenage hélicoïdal, engrenage hélicoïdal double (voir [FCGear Crémaillère cycloïde](FCGear_CycloidRack/fr.md))*
 
 ### Engrenage conique 
 
-   *   ![](images/Bevel-Gear_example.png )
-   *   
-    
+<img alt="" src=images/Bevel-Gear_example.png  style="width   *150px;"> 
 *De gauche à droite    * engrenage droit, engrenage en spirale (voir [FCGear Engrenage conique](FCGear_BevelGear/fr.md))*
-    
-
-### Vis sans fin 
-
-   *   ![](images/Worm-Gear_example.png )
-   *   
-    
-*Ci-dessus    * engrenage à vis sans fin (voir [FCGear Vis sans fin](FCGear_WormGear/fr.md))*
-    
 
 ### Engrenage couronne 
 
-   *   ![](images/Crown-Gear_example.png )
-   *   
-    
-*Ci-dessus    * Engrenage couronne (voir [FCGear Engrenage couronne](FCGear_CrownGear/fr.md))*
-    
+<img alt="" src=images/Crown-Gear_example.png  style="width   *150px;"> 
+*Engrenage couronne (voir [FCGear Engrenage couronne](FCGear_CrownGear.md))*
 
-### Engrenage de distribution et pignon lanterne 
+### Vis sans fin 
 
-   *   ![](images/Timing+Latern-gear_example.png )
-   *   
-    
-*De gauche à droite    * engrenage de distribution, engrenage de lanterne (voir [FCGear Engrenage de distribution](FCGear_TimingGear/fr.md) ou [FCGear Pignon lanterne](FCGear_LanternGear/fr.md))*
-    
+<img alt="" src=images/Worm-Gear_example.png  style="width   *150px;"> 
+*Vis sans fin (voir [FCGear Vis sans fin](FCGear_WormGear.md))*
+
+### Engrenage de distribution 
+
+<img alt="" src=images/Timing-Gear_example.png  style="width   *150px;"> 
+*Engrenage de distribution (voir [FCGear Engrenage de distribution](FCGear_TimingGear/fr.md))*
+
+### Pignon lanterne 
+
+<img alt="" src=images/Lantern-Gear_example.png  style="width   *150px;"> 
+*Pignon lanterne (voir [FCGear Pignon lanterne](FCGear_LanternGear/fr.md))*
+
+### Engrenage hypocycloïde 
+
+<img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width   *120px;"> 
+*Engrenage hypocycloïde (voir [FCGear Engrenage hypocycloïde](FCGear_HypoCycloidGear.md))*
 
 ## Références
 
@@ -125,9 +106,8 @@ Après l\'installation, les outils sont disponibles dans la barre d\'outils Gear
 
 ## Liens avec l\'atelier Gear 
 
--   Wiki de l\'atelier    * <https   *//github.com/looooo/FCGear/wiki>
--   Wiki FreeCAD    * [Macro_FCGear](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCGear) et [Bevel gear](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878)
--   Forum FreeCAD    * <http   *//forum.freecadweb.org/viewtopic.php?f=21&t=12968>
+-   FreeCAD Wiki   * [Macro_FCGear](Macro_FCGear.md)
+-   FreeCAD Forum   * [Bevel gear](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878) et [FCGear](http   *//forum.freecadweb.org/viewtopic.php?f=21&t=12968)
 -   Tutoriels    *
 -   Vidéos    *
 -   Fichiers    *

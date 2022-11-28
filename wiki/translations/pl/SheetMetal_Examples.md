@@ -375,34 +375,34 @@ Wartości {{value|Outer Sharp}} i {{value|Tangential}} są identyczne dla kątó
 
 <div class="mw-collapsible mw-collapsed">
 
-### Extend object <img alt="" src=images/SheetMetal_Extrude.svg  style="width   *24px;"> 
+### Obiekt wydłużenia <img alt="" src=images/SheetMetal_Extrude.svg  style="width   *24px;"> 
 
 
 <div class="mw-collapsible-content toccolours">
 
-An Extend object extends a sheet metal plate at one or more selected edge faces or edges.
+Obiekt Wydłużenia rozciąga blachę na jednej lub kilku wybranych krańcach ściany lub krawędziach.
 
 <img alt="" src=images/SheetMetal_Example-10a.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10b.png  style="width   *200px;">
 
 
 
-*Selected edge face and edges + 
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)* 
-→ One Extend object with default settings.**
+*Wybrane krańce ściany lub krawędzie + 
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Wyciągnij](SheetMetal_Extrude/pl.md)* 
+→ Jeden wydłużony obiekt z domyślnymi ustawieniami**
 
-A first issue occurs here   * Although the property **Refine** is set to `True` two of the extensions still show their seam lines. Only the extension of the last selected element will be refined.
+Pojawia się tu pierwszy problem   * Mimo że wartość właściwości **Ulepsz** jest ustawiona na {{TRUE/pl}} dwa przedłużenia nadal pokazują swoje linie szwów. Tylko przedłużenie ostatniego wybranego elementu zostaje udoskonalone.
 
-To refine all extensions they have to be created separately   *
+Aby ulepszyć wszystkie przedłużenia trzeba je utworzyć indywidualnie   *
 
 <img alt="" src=images/SheetMetal_Example-10c.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10d.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10e.png  style="width   *200px;"> <img alt="" src=images/Button_right.svg  style="width   *16px;"> <img alt="" src=images/SheetMetal_Example-10f.png  style="width   *200px;">
 
 
 
-*3x Selected edge face or edge + 
-**<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)* 
-→ Three Extend objects completely refined and with default settings.**
+*W trzech krokach wybrane krańce ściany lub krawędzie + 
+**<img src="images/SheetMetal_Extrude.svg" width=16px> [Wyciągnij](SheetMetal_Extrude/pl.md)* 
+→ Trzy wydłużone obiekty z domyślnymi ustawieniami.**
 
-Altered properties apply to all edges listed in the related **base Object** of the Extension object.
+Zmienione właściwości dotyczą wszystkich krawędzi wymienionych w powiązanym **Obiekcie bazowym** obiektu Wydłużenia.
 
 Edit **length** to adjust the length of the extension.
 

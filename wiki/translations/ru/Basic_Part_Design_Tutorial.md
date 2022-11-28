@@ -104,7 +104,13 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Когда вы нажмете OK, FreeCAD автоматически переключится на верстак [Sketcher](Sketcher_Workbench/ru.md) и откроет эскиз для редактирования   *
+
+
+</div>
 
 ![](images/Tut17_sketcherempty.png )
 
@@ -120,7 +126,7 @@
 
 </div>
 
-*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed.(The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
+*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed. (The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
 
 
 <div class="mw-translate-fuzzy">

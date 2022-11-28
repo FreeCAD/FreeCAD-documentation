@@ -25,8 +25,8 @@ Cette macro crée des polyèdres paramétriques   * tétraèdre, hexaèdre, octa
 
 ## Installation
 
--   Utilisez le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) pour installer la macro via 
-**Outils → Gestionnaire d'Addon → onglet Macros**
+-   Utilisez le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) pour installer la macro via 
+**Outils → Gestionnaire des extensions → onglet Macros**
 -   Choisissez `polyhedrons.py`
 -   Appuyez sur **Installer**
 

@@ -11,15 +11,17 @@
 
 ## Description
 
-Create a coincident constraint on the selected item
+Create a coincident constraint on the selected item.
 
 This constraint tool takes two points as its argument and serves to make the two points *coincident*. (Meaning to make them as-one-point).
 
 In practical terms this constraint tool is useful when there is a break in a profile for example - where two lines end near each other and need to be joined - a coincident constraint on their end-points will close the gap.
 
+The tool can act as a concentric constraint tool if the user selects exclusively circles, arcs, ellipses or arc-of-ellipse geometries instead of point. In this case the tool creates a coincidence between the center of selected circles, arc\...
+
 ## Usage
 
-As stated above, this tool takes two arguments - both are points.
+As stated above, this tool takes two arguments - both are points or conics (circles, arcs, ellipse, arc-of-ellipse) for concentricity.
 
 1.  First, it is necessary to highlight two distinct points. (**Note   *** this will not work if, for example, you attempt to select the start and end point of the same straight line; selecting the start and end points of an arc will produce a closed circle or ellipse but will constrain the location of the seam to be on that point).
 2.  Highlighting of a drawing item is achieved by moving the mouse over the item and clicking the left-mouse-button.

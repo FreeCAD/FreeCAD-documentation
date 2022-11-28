@@ -3,13 +3,7 @@
 
 ## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
 Un oggetto <img alt="" src=images/Feature.svg  style="width   *32px;"> [App FeaturePython](App_FeaturePython/it.md), o formalmente un `App   *   *FeaturePython`, è una semplice istanza di [App DocumentObject](App_DocumentObject/it.md) in [Python](Python/it.md).
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -130,23 +124,11 @@ Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_e
 ## Script
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Vedere anche   ***
 
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
+[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](Scripted_objects/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Vedere [Part Feature](Part_Feature/it.md) per le informazioni generali sull\'aggiunta di oggetti al programma.
-
-
-</div>
+Vedere [Part Feature](Part_Feature/it.md) per le informazioni generali sull\'aggiunta di oggetti al documento.
 
 Una App FeaturePython viene creata con il metodo `addObject()` del documento
 

@@ -20,7 +20,7 @@ Outil de connexion pour joindre deux objets creux (par exemple deux tuyaux). Peu
 
 1.  Sélectionnez les objets à connecter.
     L\'ordre de sélection n\'est pas important car l\'action de l\'outil est symétrique. Il suffit de sélectionner un élément de chaque objet (par ex. leurs faces). Vous pouvez également sélectionner un composé contenant toutes les formes à connecter, par ex. [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
-2.  Lancez la commande Part Connecter des objets de plusieurs manières   *
+2.  Lancez la commande Part Connecter des objets de plusieurs manières    *
     -   Appuyez sur le bouton <img alt="" src=images/Part_JoinConnect.svg  style="width   *24px;"> [Connecter des objets](Part_JoinConnect/fr.md) dans la barre d\'outils Part
     -   Utilisez l\'entrée **Part → Joindre → Connecter des objets** dans le menu Part
 
@@ -52,7 +52,7 @@ Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et
 
 Les algorithmes derrière les outils Joindre sont très simples, et les comprendre est important pour utiliser les outils correctement. L\'algorithme de Connecter, en particulier, est plus complexe que les autres, mais il suffit généralement d\'y penser comme d\'une variante symétrique de l\'[algorithme intégré](Part_JoinEmbed/fr#Algorithme.md).
 
-1\. Chaque objet est coupé à l\'intersection avec l\'autre (voir [Part Fragments booléens](Part_BooleanFragments/fr.md))
+1\. Chaque objet est coupé à l\'intersection avec l\'autre (voir [Part Fragments booléens](Part_BooleanFragments/fr.md)).
 
 2\. Parmi les morceaux d\'un objet, seul le plus grand est conservé ; tout le reste est jeté.
 

@@ -1,17 +1,17 @@
 ---
 - GuiCommand   */de
    Name   *TechDraw SectionView
-   Name/de   *TechDraw SectionView
+   Name/de   *TechDraw Schnittansicht
    MenuLocation   *TechDraw → Schnittansicht einfügen
    Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso   *[TechDraw ComplexSection](TechDraw_ComplexSection/de.md), [TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)
+   SeeAlso   *[TechDraw KomplexerSchnitt](TechDraw_ComplexSection/de.md), [TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Ansichtengruppe einfügen](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw SectionView/de
 
 ## Beschreibung
 
-Das Werkzeug Schnittansicht erstellt eine Schnittdarstellung (kurz   * einen Schnitt) aus einer bereits bestehenden Bauteilansicht.
+Das Werkzeug <img alt="" src=images/TechDraw_SectionView.svg  style="width   *24px;"> **TechDraw Schnittansicht** Fügt, von einer bestehenden Bauteilansicht ausgehend, (dem Zeichnungsblatt) eine Schnittansicht (kurz   * einen Schnitt) hinzu.
 
 <img alt="" src=images/TechDraw_Section_example.png  style="width   *250px;"> 
 *Schnitt (Schnittdarstellung) einer bereits platzierten Ansicht, der die innenliegenden Bohrungen und eine schattierte Schnittfläche zeigt*
@@ -19,9 +19,10 @@ Das Werkzeug Schnittansicht erstellt eine Schnittdarstellung (kurz   * einen Sch
 ## Anwendung
 
 1.  Eine Bauteilansicht in der 3D-Ansicht oder in der Baumansicht auswählen.
-2.  Die Schaltfläche **<img src="images/TechDraw_SectionView.svg" width=16px> [Schnittansicht einfügen](TechDraw_SectionView/de.md)** drücken.
-3.  Ein Dialogfeld wird geöffnet, das bei der Berechnung der verschiedenen Schnitteigenschaften hilft. Das Dialogfeld berechnet sinnvolle Ausgangspunkte für die Schnittnormale (Section Normal) und Ausrichtung der Ansicht, die jedoch nach der Erstellung für spezielle Anforderungen angepasst werden können.
-4.  Tritt beim Einrichten der Schnittparameter ein Fehler auf, oder entscheidet man sich während der Einstellung um, kann man die Teste **Reset** drücken und von vorne beginnen.
+2.  Es gibt mehrere Möglichkeiten dieses Werkzeug aufzurufen   *
+    -   Die Schaltfläche **<img src="images/TechDraw_SectionView.svg" width=16px> [Schnittansicht einfügen](TechDraw_SectionView/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_SectionView.svg" width=16px> Schnittansicht einfügen** auswählen.
+3.  Im Aufgabenbereich wird ein Dialog geöffnet, der bei der Berechnung verschiedener Eigenschaften hilft. Es werden sinnvolle Werte für die Blickrichtung errechnet; diese können aber geändert werden.
 
 ![](images/TechDraw_Section_Taskview.png ) 
 *Aufgabenbereich zum Definieren des Schnitts einer Ansicht*
@@ -31,6 +32,13 @@ Das Werkzeug Schnittansicht erstellt eine Schnittdarstellung (kurz   * einen Sch
 Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 ### Daten
+
+
+{{TitleProperty|Cut Operation}}
+
+-    {{PropertyData/de|Fuse Before Cut|Bool}}   * Vereinigt die Ausgangsformen vor der Ausführung der Schnittoperation.
+
+-    {{PropertyData/de|Trim After Cut|Bool}}   * Führt eine zusätzliche Beschnittoperation am Ergebnisobjekt aus, um nach dem Schnitt alle unerwünschten Elemente zu entfernen.
 
 
 {{TitleProperty|Cut Surface}}
@@ -80,9 +88,7 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 -    {{PropertyData/de|Section Origin|Vector}}   * Ein Vektor, der einen Punkt auf der Schnittebene beschreibt. Typischerweise der Schwerpunkt des Originalteils.
 
--    **Section Direction|Vector**   * Die Richtung dieser Schnittansicht in der Basisansicht.
-
--    {{PropertyData/de|Fuse Before Cut|Bool}}   * Vereinigt die Ausgangsformen, bevor der Schnitt erzeugt wird.
+-    **Section Direction|Enumeration**   * Die Richtung dieser Schnittansicht in der Basisansicht. Optionen   * {{Value|Aligned}}, {{Value|Right}}, {{Value|Left}}, {{Value|Up}} or {{Value|Down}}.
 
 ### Ansicht
 
@@ -116,33 +122,36 @@ Die Standardeinstellungen für diese Parameter werden über die Einstellungen **
 
 ## Hinweise
 
--   **Schnittlinienformat**   * sowohl das herkömmliche Schnittlinienformat (wie oben abgebildet) als auch die \"Referenzpfeil Methode\" werden unterstützt. Diese Option wird durch die Voreinstellung \"Mod/TechDraw/Format/SectionFormat\" gesteuert (siehe [Std_DlgParameter](Std_DlgParameter/de.md)). 0 für die herkömmliche Linienmethode, 1 für die Referenzpfeilmethode.
--   **SchneideOberflächeAnzeige**   * die Schnittfläche kann ausgeblendet, in einer Volltonfarbe gemalt, mit einem Svg Muster (Standard) schraffiert oder mit einem PAT Muster schraffiert werden. Siehe [Schraffur](TechDraw_Hatching/de.md).
--   **VerschmelzenVorSchneiden**   * Die Querschnittsoperation kann manchmal die Ausgangsformen nicht schneiden. Wenn VerschmelzenVorSchneiden wahr ist, werden die Ausgangsformen zu einer einzigen Form zusammengeführt, bevor die Schnittoperation versucht wird. Wenn du Probleme mit der Abschnittsoperation hast, versuche, diesen Wert umzudrehen.
+-   **Section Line Format**   * Sowohl das herkömmliche Schnittlinienformat (wie oben abgebildet) als auch die \"Referenzpfeilmethode\" werden unterstützt. Diese Option wird durch die Voreinstellung \"Section Line Standard\" auf dem Anleitungs tab eingestellt. Die Option \"ANSI\" verwendet das traditionelle Format und die Option \"ISO\" verwendet das Bezugspfeil Format.
+-   **Fuse Before Cut**   * Die Schnittoperation kann manchmal die Ausgangsformen nicht schneiden. Wenn Fuse Before Cut den Wert TRUE besitzt, werden die Ausgangsformen zu einer einzigen Form zusammengeführt, bevor die Schnittoperation versucht wird. Wenn es Probleme mit der Schnittoperation gibt, kann es helfen, diesen Wert umzuschalten.
+-   **Trim After Cut**   * Die Schnittoperation lässt manchmal (ungewollte) Anteile der Ausgangsform übrig. Wenn **Trim After Cut** den Wert TRUE besitzt, wird an dem Ergebnis des ersten Schnittes eine zusätzliche Beschnittoperation ausgeführt, die alle ungewollten Anteile entfernen sollte.
+-   **Cut Surface Display**   * Die Schnittfläche kann ausgeblendet, mit Farbe gefüllt, mit einem SVG-Muster schraffiert oder mit einem PAT-Muster schraffiert werden. Siehe [Schraffieren](TechDraw_Hatching/de.md).
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Neue Abschnittswerkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden   *
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
-rc = page.addView(view)
-view.Source = box
-view.Direction = (0.0,0.0,1.0)
+doc = FreeCAD.ActiveDocument
+box = doc.Box
+page = doc.Page
 
-section = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewSection','Section')
-rc = page.addView(section)
+view = doc.addObject("TechDraw   *   *DrawViewPart", "View")
+page.addView(view)
+view.Source = box
+view.Direction = (0.0, 0.0, 1.0)
+
+section = doc.addObject("TechDraw   *   *DrawViewSection", "Section")
+page.addView(section)
 section.Source = box
 section.BaseView = view
-section.Direction = (0.0,1.0,0.0)
-section.SectionNormal = (0.0,0.0,1.0)
-section.SectionOrigin = (5.0,5.0,5.0)
+section.Direction = (0.0, 1.0, 0.0)
+section.SectionNormal = (-1.0, 0.0, 0.0)
+
+doc.recompute()
 ```
 
 

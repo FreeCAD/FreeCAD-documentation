@@ -92,7 +92,7 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 
 <img alt="Préférences d\'Annotation" src=images/TechDraw_PreferencesAnnotation.png  style="width   *350px;">
 
--   **Norme des ligne de coupe**    * standard à utiliser pour tracer des lignes de section dans les [vues en coupe](TechDraw_SectionView/fr.md).
+-   **Norme des lignes de coupe**    * standard à utiliser pour tracer des lignes de section dans les [vues en coupe](TechDraw_SectionView/fr.md).
 -   **Style des lignes de coupe**    * style pour les lignes de coupe.
 -   **Motif des vue en coupe**    * motif pour la section coupée. Les options sont les suivantes   * {{Version/fr|0.19}}
     -   *Caché*   * pas de surface visible.

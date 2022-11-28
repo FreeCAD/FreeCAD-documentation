@@ -31,10 +31,7 @@ Kosmetische Knoten haben keine eigenen Eigenschaften, da sie keine Dokumentobjek
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Kosmetikknoten sind zur Zeit nicht über [Makros](Macros/de.md) oder die [Python](Python/de.md) Konsole zugänglich. Dieser Schnipsel entfernt alle Kosmetikknoten aus der Ansicht.
 

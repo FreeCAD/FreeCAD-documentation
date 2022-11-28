@@ -14,6 +14,9 @@
 
 The **Std SetAppearance** command shows the Display properties [task panel](Task_panel.md) for selected objects.
 
+<img alt="" src=images/DlgDisplayProperties.png  style="width   *250px;"> 
+*The Display properties task panel*
+
 ## Применение
 
 1.  Select one or more objects.
@@ -38,6 +41,7 @@ The **Std SetAppearance** command shows the Display properties [task panel](Task
 -   **Color plot   *** unsupported at this time.
 -   **Shape color   *** sets the **Shape Color** property. Press the button to open the Select color dialog box.
 -   **Line color   *** sets the **Line Color** property. Press the button to open the Select color dialog box.
+-   **Point color   *** sets the **Point Color** property. Press the button to open the Select color dialog box.
 
 ### Display
 

@@ -8,15 +8,15 @@ Ce dépôt contient une bibliothèque de pièces à utiliser dans FreeCAD. Il es
 
 ## Références
 
--   Auteur   * premier dépôt yorikvanhavre + communauté FreeCAD
--   Page d\'accueil   * [FreeCAD library](https   *//github.com/FreeCAD/FreeCAD-library)
--   Code source sur github   * <https   *//github.com/FreeCAD/FreeCAD-library>
+-   Auteur    * premier dépôt yorikvanhavre + communauté FreeCAD
+-   Page d\'accueil    * [FreeCAD library](https   *//github.com/FreeCAD/FreeCAD-library)
+-   Code source sur github    * <https   *//github.com/FreeCAD/FreeCAD-library>
 
 ## Outils
 
 Description détaillée [ici](http   *//www.bolts-library.org/en/docs/0.3/freecad/usage.html)
 
-Sélecteur de la bibliothèque de pièces
+Sélecteur de Parts Library
 
 ![](images/PatsLibrary-selector.png )
 
@@ -24,7 +24,7 @@ Sélecteur de la bibliothèque de pièces
 
 ### Installation automatique 
 
-Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Cet atelier peut être installé à partir du [Gestionnaire d\'Addons](Std_AddonMgr/fr.md).
 
 ### Depuis GitHub 
 
@@ -34,18 +34,18 @@ La bibliothèque est un simple conteneur pour les fichiers FreeCAD (.fcstd) et S
 
 ## Liens vers l\'atelier PartsLibrary 
 
--   Atelier Wiki   *
--   FreeCAD Wiki   * [Macro PartsLibrary](Macro_PartsLibrary/fr.md)
--   Forum FreeCAD   * <http   *//forum.freecadweb.org/viewtopic.php?f=10&t=1378>
--   Tutoriels   *
--   Vidéos   *
--   Des dossiers   *
--   Liste des pièces, organismes auteur et normalisation   * [sharing your models from the macro](https   *//github.com/FreeCAD/FreeCAD-library#sharing-your-models-from-the-macro)
--   Signaler les bogues   * veuillez signaler les bogues sur <https   *//github.com/FreeCAD/FreeCAD-library/issues>
+-   Atelier Wiki    *
+-   FreeCAD Wiki    * [Macro PartsLibrary](Macro_PartsLibrary/fr.md)
+-   Forum FreeCAD    * <http   *//forum.freecadweb.org/viewtopic.php?f=10&t=1378>
+-   Tutoriels    *
+-   Vidéos    *
+-   Des dossiers    *
+-   Liste des pièces, organismes auteur et normalisation    * [sharing your models from the macro](https   *//github.com/FreeCAD/FreeCAD-library#sharing-your-models-from-the-macro)
+-   Signaler les bogues    * veuillez signaler les bogues sur <https   *//github.com/FreeCAD/FreeCAD-library/issues>
 
 ## Autres liens intéressants 
 
--   [Atelier BOLTSFC](BOLTSFC_Workbench/fr.md)
+-   [Macro BOLTS](Macro_BOLTS/fr.md)
 -   [Atelier Fasteners](Fasteners_Workbench/fr.md)
 -   [Ateliers externes](External_workbenches/fr.md)
 -   [Macros](Macros_recipes/fr.md)

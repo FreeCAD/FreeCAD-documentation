@@ -11,11 +11,11 @@
 
 ## Description
 
-L\'addon Renforcement augmente les fonctionnalités de l\'[atelier Arch](Arch_Workbench/fr.md) en fournissant de nouvelles interfaces et de nouveaux préréglages pour la création de types de barres d\'armature courants à utiliser avec [Arch Structures](Arch_Structure/fr.md). Il est également intégré à l\'atelier externe [BIM](BIM_Workbench/fr.md).
+L\'extension Renforcement augmente les fonctionnalités de l\'[atelier Arch](Arch_Workbench/fr.md) en fournissant de nouvelles interfaces et de nouveaux préréglages pour la création de types de barres d\'armature courants à utiliser avec [Arch Structures](Arch_Structure/fr.md). Il est également intégré à l\'atelier externe [BIM](BIM_Workbench/fr.md).
 
-Les outils peuvent être installés avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Tools → Addon Manager → Reinforcement**. FreeCAD doit être redémarré pour que les nouveaux outils apparaissent sous le bouton Rebar Straight **<img src="images/Arch_CompRebarStraight.png" width=24px>**.
+Les outils peuvent être installés avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire des extensions → Reinforcement**. FreeCAD doit être redémarré pour que les nouveaux outils apparaissent sous le bouton Rebar Straight **<img src="images/Arch_CompRebarStraight.png" width=24px>**.
 
-Cet addon a été développé au cours du [Google Summer of Code](Google_Summer_of_Code.md) 2017 et est hébergé dans le dépôt [FreeCAD-Reinforcement](https   *//github.com/amrit3701/FreeCAD-Reinforcement), distinct du dépôt principal FreeCAD.
+Cet extension a été développée au cours du [Google Summer of Code](Google_Summer_of_Code.md) 2017 et est hébergé dans le dépôt [FreeCAD-Reinforcement](https   *//github.com/amrit3701/FreeCAD-Reinforcement), distinct du dépôt principal FreeCAD.
 
 Voir sur [Ateliers](Workbenches/fr#Ateliers_externes.md)/[Ateliers externes](External_workbenches/fr#Générales.md)
 

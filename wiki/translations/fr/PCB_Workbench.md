@@ -37,7 +37,7 @@ Menu déroulant
 
 ### Installation Automatique 
 
-Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Cet atelier peut être installé à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ### Depuis GitHub 
 

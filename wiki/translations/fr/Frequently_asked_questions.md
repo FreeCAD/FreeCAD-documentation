@@ -115,7 +115,7 @@ Cela peut également se produire si vous aviez une ancienne version de FreeCAD i
 
 FreeCAD devrait maintenant redémarrer normalement avec tous ses paramètres réinitialisés.
 
-Une [Macro findConfigFiles](Macro_findConfigFiles/fr.md) est disponible pour vous aider à localiser vos fichiers de configuration. Elle peut être installée en utilisant le Gestionnaire d\'Addon dans le menu **Outils → Gestionnaire d'Addon → Macros → findConfigFiles**. La macro trouvera votre dossier de fichier de configuration, le copiera dans le presse-papiers et ouvrira (si possible) cet emplacement avec votre navigateur de fichiers par défaut. Elle n\'effectue aucun changement sur vos fichiers ou paramètres.
+Une [Macro findConfigFiles](Macro_findConfigFiles/fr.md) est disponible pour vous aider à localiser vos fichiers de configuration. Elle peut être installée en utilisant le Gestionnaire des extensions dans le menu **Outils → Gestionnaire des extensions → Macros → findConfigFiles**. La macro trouvera votre dossier de fichier de configuration, le copiera dans le presse-papiers et ouvrira (si possible) cet emplacement avec votre navigateur de fichiers par défaut. Elle n\'effectue aucun changement sur vos fichiers ou paramètres.
 
 ## Utiliser FreeCAD 
 

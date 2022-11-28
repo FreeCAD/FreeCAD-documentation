@@ -12,7 +12,7 @@
 
 ## Описание
 
-The **PartDesign ShapeBinder** tool creates a shape binder referencing geometry from a single parent object. A ShapeBinder is used inside a [PartDesign Body](PartDesign_Body.md) to reference geometry outside the Body. Using external geometry directly in a Body is not allowed and will lead to out of scope errors.
+Инструмент **Создать связующую форму** создает связующую форму которая ссылается на геометрию из родительского объекта. Связующая форма используется внутри [Тела PartDesign](PartDesign_Body/ru.md) и ссылается на геометрию находящуюся за пределами Тела. Использование внешней геометрии непосредственно в Теле не допускается и приведет к ошибке нахождения объекта за пределами области видимости.
 
 A ShapeBinder will track the relative placement of the referenced geometry, which is useful in the context of creating [assemblies](Assembly.md), if its **Trace Support** property is set to {{True}}. See the [Example](#Example.md) below to understand how this works.
 
@@ -54,9 +54,9 @@ To edit a ShapeBinder double-click it in the [Tree view](Tree_view.md), or right
 -   A ShapeBinder can be dragged out of the Body it is nested in, and dropped onto the <img alt="" src=images/Document.svg  style="width   *16px;"> document node in the [Tree view](Tree_view.md). Such an unnested ShapeBinder can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
 -   A ShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the ShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
 
-## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
+## Различия между связующей формой и под-объектной связующей формой 
 
-See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBinder_vs._PartDesign_ShapeBinder.md).
+См. [разъяснения по данной теме](PartDesign_SubShapeBinder/ru#Различия_между_связующей_формой_и_под-объектной_связующей_формой.md).
 
 ## Свойства
 
@@ -97,13 +97,7 @@ Here is how you use the ShapeBinder Feature to achieve it   *
 13. You now have linked holes in two different bodies. If you change the position of the circle in the sketch, both holes will adapt. You can even add new circles in the sketch to create additional linked holes.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign_Tools_ navi

@@ -1,7 +1,7 @@
 # Package Metadata
 ## Introduction
 
-Beginning in FreeCAD version 0.20, external add-ons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https   *//ros.org/reps/rep-0149.html).
+Beginning in FreeCAD version 0.20, external addons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https   *//ros.org/reps/rep-0149.html).
 
 ## Overall file format 
 
@@ -300,6 +300,10 @@ The maximum version of FreeCAD required to use package/element, as a semantic ve
 ## Validation
 
 To validate your package.xml file you can enable \"developer mode\" in the Addon Manager   * create a boolean variable called \"developerMode\" in the \"Addons\" parameter group and set it to True   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**. When the Addon Manager has finished reading the Addons database it will examine all available package.xml files for errors.
+
+## Quick guide 
+
+For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see   * [Add Workbench to Addon_Manager](Add_Workbench_to_Addon_Manager.md).
 
 ## Examples
 

@@ -36,10 +36,6 @@ Acest instrument creează o nouă cale duplicând o altă cale de mai multe ori 
 
 </div>
 
-## Limitations
-
-This feature only works on actual path operations, not on derivative paths produced by Path Dressups. In that case the Array icon is disabled.
-
 ## Scripting
 
 

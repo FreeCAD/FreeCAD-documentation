@@ -14,17 +14,18 @@
 
 ## Описание
 
-The Section tool creates a cross section view based on an existing part view.
+The <img alt="" src=images/TechDraw_SectionView.svg  style="width   *24px;"> **TechDraw SectionView** tool inserts a cross-section view based on an existing part view.
 
 <img alt="" src=images/TechDraw_Section_example.png  style="width   *250px;"> 
 *Sectioning an already placed view, which shows the internal holes and a shaded cut surface*
 
 ## Применение
 
-1.  Select a part view in the 3D window or tree.
-2.  Press the **<img src="images/TechDraw_SectionView.svg" width=16px> [Insert Section View](TechDraw_SectionView.md)** button
-3.  A dialog will open which will help calculate the various Section properties. The dialog calculates reasonable starting points for SectionNormal and view Direction, but these may be changed after creation for special needs.
-4.  If you make a mistake, or change your mind while setting up the Section parameters, press the **Reset** button, and you can start over.
+1.  Select a part view in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
+2.  There are several ways to invoke the tool   *
+    -   Press the **<img src="images/TechDraw_SectionView.svg" width=16px> [Insert Section View](TechDraw_SectionView.md)** button.
+    -   Select the **TechDraw → <img src="images/TechDraw_SectionView.svg" width=16px> Insert Section View** option from the menu.
+3.  A task panel will open which will help calculate the various properties. Reasonable values for the view Direction are calculated, but these can be changed.
 
 ![](images/TechDraw_Section_Taskview.png ) 
 *Taskview to define the sectional cut of a view*
@@ -34,6 +35,13 @@ The Section tool creates a cross section view based on an existing part view.
 See also [TechDraw View](TechDraw_View#Properties.md).
 
 ### Данные
+
+
+{{TitleProperty|Cut Operation}}
+
+-    **Fuse Before Cut|Bool**   * Fuse the source shapes before performing the section cut.
+
+-    **Trim After Cut|Bool**   * Additionally trim the resulting shape after the section cut to remove any unwanted pieces.
 
 
 {{TitleProperty|Cut Surface Format}}
@@ -83,9 +91,7 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 -    **Section Origin|Vector**   * A vector describing a point on the cutting plane. Typically the centroid of the original part.
 
--    **Section Direction|Vector**   * The direction in the Base View for this section.
-
--    **Fuse Before Cut|Bool**   * Fuse the source shapes before performing the section cut.
+-    **Section Direction|Enumeration**   * The direction in the Base View for this section. Options   * {{Value|Aligned}}, {{Value|Right}}, {{Value|Left}}, {{Value|Up}} or {{Value|Down}}.
 
 ### Вид
 
@@ -119,9 +125,10 @@ The default settings for these parameters are set via the settings **Section Lin
 
 ## Примечания
 
--   **Section Line Format**   * both the traditional section line format (as depicted above), and the \"reference arrow method\" are supported. This option is controlled by the Preference setting \"Mod/TechDraw/Format/SectionFormat\" (see [Std_DlgParameter](Std_DlgParameter.md)). 0 for traditional line, 1 for reference arrow method.
--   **CutSurfaceDisplay**   * the cut surface can be hidden, painted in a solid color, hatched using an Svg pattern (default) or hatched using a PAT pattern. See [Hatching](TechDraw_Hatching.md).
--   **FuseBeforeCut**   * the section operation sometimes fails to cut the source shapes. If FuseBeforeCut is true, the source shapes are merged into a single shape before the section operation is attempted. If you encounter problems with the section operation, try flipping this value.
+-   **Section Line Format**   * both the traditional section line format (as depicted above), and the \"reference arrow method\" are supported. This option is controlled by the Preference setting \"Section Line Standard\" on the Annotation tab. Option \"ANSI\" uses the traditional format and option \"ISO\" uses the reference arrow format.
+-   **Fuse Before Cut**   * the section operation sometimes fails to cut the source shapes. If **Fuse Before Cut** is true, the source shapes are merged into a single shape before the section operation is attempted. If you encounter problems with the section operation, try flipping this value.
+-   **Trim After Cut**   * the section cut operation sometimes leaves behind a portion of the source shape. If **Trim After Cut** is true, an additional cut operation is performed on the result of the first cut which should remove any unwanted pieces.
+-   **Cut Surface Display**   * the cut surface can be hidden, painted in a solid color, hatched using an Svg pattern (default) or hatched using a PAT pattern. See [Hatching](TechDraw_Hatching.md).
 
 ## Программирование
 
@@ -134,18 +141,23 @@ The New Section tool can be used in [macros](Macros.md) and from the [Python](Py
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
-rc = page.addView(view)
-view.Source = box
-view.Direction = (0.0,0.0,1.0)
+doc = FreeCAD.ActiveDocument
+box = doc.Box
+page = doc.Page
 
-section = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewSection','Section')
-rc = page.addView(section)
+view = doc.addObject("TechDraw   *   *DrawViewPart", "View")
+page.addView(view)
+view.Source = box
+view.Direction = (0.0, 0.0, 1.0)
+
+section = doc.addObject("TechDraw   *   *DrawViewSection", "Section")
+page.addView(section)
 section.Source = box
 section.BaseView = view
-section.Direction = (0.0,1.0,0.0)
-section.SectionNormal = (0.0,0.0,1.0)
-section.SectionOrigin = (5.0,5.0,5.0)
+section.Direction = (0.0, 1.0, 0.0)
+section.SectionNormal = (-1.0, 0.0, 0.0)
+
+doc.recompute()
 ```
 
 

@@ -13,11 +13,11 @@
 4.  Создайте замкнутую полилинию, потом используйте **[<img src=images/PartDesign_Pad.svg style="width   *16px"> [Выдавливание](PartDesign_Pad/ru.md)** для выдавливания эскиза и создания базового твёрдого тела.
 5.  Добавьте ещё эскизы и выдавливания, и используйте другие инструменты [верстака PartDesign](PartDesign_Workbench/ru.md) для модификации и трансформации исходного тела.
 
-Кроме того, вместо использования [эскизов](Sketch.md), можно добавить примитив [Операций PartDesign](PartDesign_Feature.md), например, **[<img src=images/PartDesign_AdditiveBox.svg style="width   *16px"> [Аддитивный примитив](PartDesign_AdditiveBox.md)**. Для создания конечного объёма можно использовать любое количество аддитивных и субтрактивных операций.
+В качестве альтернативы, вместо использования [эскизов](Sketch/ru.md), можно добавить [конструктивный элемент PartDesign](PartDesign_Feature.md), например, **[<img src=images/PartDesign_AdditiveBox.svg style="width   *16px"> [Аддитивный куб](PartDesign_AdditiveBox.md)**. Для создания конечной формы можно использовать любое количество аддитивных и субтрактивных конструктивных элементов.
 
 ## Примечания
 
-Тело требуется при использовании [Верстака PartDesign](PartDesign_Workbench/ru.md) с [параметрической](feature_editing/ru.md) методологией.
+Тело требуется при использовании [Верстака PartDesign](PartDesign_Workbench/ru.md) с методами [редактирования конструктивных элементов](feature_editing/ru.md).
 
 Тело не требуется при использовании [верстака Part](Part_Workbench/ru.md), поскольку этот верстак использует процедуру [конструктивной блочной геометрии](constructive_solid_geometry/ru.md), базирующуюся на [примитивах](Part_Primitives/ru.md) и булевых операциях.
 

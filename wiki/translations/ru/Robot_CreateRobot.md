@@ -1,41 +1,38 @@
 # Robot CreateRobot/ru
 ---
 - GuiCommand   */ru
-   Name   *Robot CreateRobot
-   Name/ru   *Robot CreateRobot
+   Name   *Robot_CreateRobot
+   Name/ru   *Добавить робота
    Workbenches   *[Robot](Robot_Workbench/ru.md)
-   MenuLocation   *Робот → Вставить роботов---
+   MenuLocation   *Робот → Добавить робота---
 
+## Описание
 
-</div>
+Добавляет в сцену робот (KUKA IR500).
 
-## Description
+## Применение
 
-Insert a new robot (KUKA IR500) into the scene.
+1.  Нажмите на <img alt="" src=images/Robot_CreateRobot.svg  style="width   *32px;"> чтобы добавить робот KUKA IR500 в текущую сцену.
+2.  Добавить еще один робот или робот другой модели можно двумя способами через   *
+    -   Пункт главного меню меню **Робот** → **Вставить роботов**.
 
-## Usage
+       *   **ИЛИ**
 
-1.  Click on <img alt="" src=images/Robot_CreateRobot.svg  style="width   *32px;"> to insert a KUKA IR500 robot into the scene.
-2.  Inserting different/more robots can be done in two ways via the
-    -   Selecting **Robot** → **Insert Robots** from the top menu.
+    -   Убедитесь, что документ в который вы хотите добавить робота создан и активен (сделать активным документ можно двойным щелчком в [древе проекта](Tree_view/ru.md)).
+    -   Перейдите на вкладку «Задачи» в [комбо панели](Tree_view/ru.md)).
+3.  Выберите одного из четырех предустановленных роботов.
 
-       *   **OR**
+## Ограничения
 
-    -   Make sure a new document is/was created and activated (activate via double-click on document in [tree view](Tree_view.md)).
-    -   Switch to the \"Tasks\"-Tab in the [tree view](Tree_view.md)).
-3.  Select one of the four predefined robots.
+Для версий 0.15/0.16
 
-## Limitations
+-   Задаются только роботы с числом осей до шести и с их вращательным движением.
+-   Роботы с поступательными движениями невозможны.
+-   Робот должен быть определен с помощью кода и VRML-файла, для получения дополнительной информации см. [6-ти осевой робот](Robot_6-Axis/ru.md).
 
-Related to versions 0.15/0.16
+## Примечания
 
--   Only robots with up to six axes with rotational movement are definable.
--   No robots with translational movements possible.
--   The robot must be defined via code and a VRML-file, for more info refer to [Robot 6-Axis](Robot_6-Axis.md).
-
-## Notes
-
-The predefined robots are   *
+По умолчанию доступны следующие модели роботов   *
 
 -   KUKA IR500
 -   KUKA IR210

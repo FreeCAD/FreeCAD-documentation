@@ -112,10 +112,10 @@
 
 -   <img alt="" src=images/Part_Common.svg  style="width   *32px;"> [Пересечь](Part_Common/ru.md)   * Извлекает общую (пересекающуюся) часть двух объектов.
 
--   <img alt="" src=images/Part_CompJoinFeatures.png  style="width   *48px;"> [Соединить тонкостенные объекты](Part_CompJoinFeatures/ru.md)   * Создаёт сложные сопряжения для объектов со стенками (например, труб).
-    -   <img alt="" src=images/Part_JoinConnect.svg  style="width   *32px;"> [Connect (Соединить)](Part_JoinConnect/ru.md)   * Соединяет тонкостенные объекты по внутренней поверхности.
-    -   <img alt="" src=images/Part_JoinEmbed.svg  style="width   *32px;"> [Embed (Внедрить)](Part_JoinEmbed/ru.md)   * Внедряет один тонкостенный объект в другой тонкостенный объект.
-    -   <img alt="" src=images/Part_JoinCutout.svg  style="width   *32px;"> [Cutout (Вырезать)](Part_JoinCutout/ru.md)   * Создаёт вырез в стенке тонкостенного объекта для другого тонкостенного объекта.
+-   <img alt="" src=images/Part_CompJoinFeatures.png  style="width   *48px;"> [Соединить полые объекты](Part_CompJoinFeatures/ru.md)   * Содержит инструменты для сопряжения полых объектов (например, труб).
+    -   <img alt="" src=images/Part_JoinConnect.svg  style="width   *32px;"> [Connect (Соединить)](Part_JoinConnect/ru.md)   * Соединяет полые объекты с усечением лишних внутренних поверхностей.
+    -   <img alt="" src=images/Part_JoinEmbed.svg  style="width   *32px;"> [Embed (Внедрить)](Part_JoinEmbed/ru.md)   * Внедряет один полый объект в другой полый объект.
+    -   <img alt="" src=images/Part_JoinCutout.svg  style="width   *32px;"> [Cutout (Вырезать)](Part_JoinCutout/ru.md)   * Создаёт вырез в стенке полого объекта для другого полого объекта.
 
 -   <img alt="" src=images/Part_CompSplittingTools.png  style="width   *48px;"> [Инструменты разделения](Part_CompSplittingTools/ru.md)   *
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width   *32px;"> [Логические(Булевы) фрагменты](Part_BooleanFragments/ru.md)   * Создаёт все фрагменты, которые могут быть получены булевыми операциями между объектами.

@@ -16,7 +16,7 @@ Crée une surface B-spline à travers une grille de points. Options permettant d
 
 ## Installation
 
-Disponible dans le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Disponible dans le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ## Options
 

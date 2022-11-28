@@ -20,7 +20,7 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
 
 ## Utilisation
 
-1.  Installez la macro FCInfoToMouse dans votre répertoire de macros via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+1.  Installez la macro FCInfoToMouse dans votre répertoire de macros via le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 2.  Lancez la [Macro](Macros/fr.md)
 
    *   Résultat    * une annotation apparaît et les informations de coordonnées de la souris sont affichées en temps réel.

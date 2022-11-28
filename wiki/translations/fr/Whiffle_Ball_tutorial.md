@@ -71,8 +71,8 @@ Vous vous exercerez à    *
 
 5\. Les opérations précédentes créent un cube plus petit à l\'intérieur d\'un cube plus grand. Pour visualiser cela, nous pouvons modifier les propriétés **View** dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
-   *   5.1. Sélectionnez {{incode   Cube001}}, le plus petit cube, dans la [Vue en arborescence](Tree_view/fr.md) et changez la couleur. Dans l\'onglet **View**, cliquez sur la valeur **Shape Color** pour ouvrir la boîte de dialogue **Select color**, puis choisissez une couleur verte; modifiez également la valeur de **Line Width** en {{incode   2.0}}.
-   *   5.2. Sélectionnez {{incode   Cube}}, le plus grand cube, dans la [Vue en arborescence](Tree_view/fr.md) et modifiez la transparence. Dans l\'onglet **View**, modifiez la valeur de **Transparency** en {{incode   70}}.
+   *   5.1. Sélectionnez {{incode   Cube001}}, le plus petit cube, dans la [Vue en arborescence](Tree_view/fr.md) et changez la couleur. Dans l\'onglet **Vue**, cliquez sur la valeur **Shape Color** pour ouvrir la boîte de dialogue **Select color**, puis choisissez une couleur verte; modifiez également la valeur de **Line Width** en {{incode   2.0}}.
+   *   5.2. Sélectionnez {{incode   Cube}}, le plus grand cube, dans la [Vue en arborescence](Tree_view/fr.md). Dans l\'onglet **Vue**, modifiez la valeur de **Transparency** en {{incode   70}}.
 
 ![](images/01_T03_Part_cubes_visibility.png ) 
 *Cube solide à l'intérieur d'un autre cube solide*
@@ -97,15 +97,15 @@ Vous vous exercerez à    *
    *   7.4. Remplacez **Height** par {{incode   120 mm}}.
    *   7.5. Ouvrez la boîte de dialogue [Placement](Std_Placement/fr.md).
    *   7.6. Remplacez **Y** par {{incode   60 mm}}.
-   *   7.7. Remplacez **Rotation** par {{incode   Rotation axis with angle}}; **Axis** à {{incode   X}} et **Angle** à {{incode   90 deg}}.
+   *   7.7. Remplacez **Rotation** par {{incode   Rotation axis with angle}}; **Axis** à {{incode   X}} (en fixant les valeurs de {{incode   X}}, {{incode   Y}} et {{incode   Z}} des valeurs de l\'axe à {{incode   0}}, {{incode   0}} et {{incode   1}} respectivement, {{incode   Z}} étant la troisième boîte d\'entrée), et **Angle** à {{incode   90 deg}}.
    *   7.8. Appuyez sur le bouton **OK** pour fermer la boîte de dialogue.
 
 8\. Insérez un autre cylindre. Cette fois, créez un doublon afin que le rayon et la hauteur ne doivent pas être modifiés, seulement son placement.
 
    *   8.1. Sélectionnez {{incode   Cylinder001}} dans la [Vue en arborescence](Tree_view/fr.md) et allez dans le menu **Edition → [[Std_DuplicateSelection/fr   Dupliquer une sélection]]**. Cela créera {{incode   Cylinder002}}.
    *   8.2. Ouvrez la boîte de dialogue [Placement](Std_Placement/fr.md).
-   *   8.3. Remplacez **X** par {{incode   -60 mm}}.
-   *   8.4. Remplacez **Rotation** par {{incode   Rotation axis with angle}}; **Axis** à {{incode   Y}} et **Angle** à {{incode   90 deg}}.
+   *   8.3. Changez **X** en {{incode   -60 mm}}, et changez **Y** en {{incode   0 mm}}.
+   *   8.4. Changez **Rotation** par {{incode   Rotation axis with angle}}; **Axis** à {{incode   Y}} et **Angle** à {{incode   90 deg}}.
    *   8.5. Appuyez sur le bouton **OK** pour fermer la boîte de dialogue.
 
 ## Modifier les propriétés visuelles 

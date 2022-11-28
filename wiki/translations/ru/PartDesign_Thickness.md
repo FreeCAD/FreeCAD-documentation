@@ -19,7 +19,7 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **P
 
 ## Применение
 
-### Add a thickness 
+### Преобразование в полое тело 
 
 1.  Optionally [activate](PartDesign_Body#Active_status.md) the Body to apply the Thickness to.
 2.  Select one or more faces of the Body.
@@ -33,7 +33,7 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **P
    *   *Remember*   *
     -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
 
-### Edit a thickness 
+### Изменение параметров преобразования 
 
 1.  Do one of the following   *
     -   Double-click the Thickness object in the [Tree view](Tree_view.md)
@@ -41,7 +41,7 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width   *24px;"> **P
 2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
-## Опции
+## Параметры
 
 -    **Add face**   * Add faces to the selection by pressing the **Add face** button and selecting more faces.
 
@@ -103,7 +103,7 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 ### Данные
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Основные}}
 
 -    **Base|LinkSub**   * Sub-link to the parent feature\'s list of selected edges and faces.
 

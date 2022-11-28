@@ -2,7 +2,6 @@
 - GuiCommand   */it
    Name   *Draft Snap Special
    Name/it   *Speciale
-   Icon   *Snap_Special.svg
    Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    MenuLocation   *Draft → [Snap](Draft_Snap/it.md) → Speciale
    Shortcut   *

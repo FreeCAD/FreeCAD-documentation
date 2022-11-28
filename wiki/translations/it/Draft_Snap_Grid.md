@@ -19,6 +19,9 @@ L\'opzione <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *24px;"> *
 
 Per informazioni generali riguardo gli agganci vedere [Draft Snap](Draft_Snap/it.md).
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Facoltativamente cambiare il [piano di lavoro e/o la griglia](Draft_SelectPlane/it.md).
 2.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;"> [Draft   * Attiva/Disattiva aggancio](Draft_Snap_Lock/it.md).
 3.  Se **Aggancia alla griglia** non è attivo fare una delle seguenti cose   *
@@ -30,6 +33,9 @@ Per informazioni generali riguardo gli agganci vedere [Draft Snap](Draft_Snap/it
 7.  Muovi il cursore vicino all\'intersezione di due linee della griglia.
 8.  Se una intersezione viene trovata il punto viene selezionato e l\'icona <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *16px;"> è visualizzata vicino al cursore.
 9.  Cliccare per confermare il punto.
+
+
+</div>
 
 ## Preferenze
 

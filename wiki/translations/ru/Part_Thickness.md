@@ -9,51 +9,44 @@
 
 # Part Thickness/ru
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Описание
 
-Инструмент **Полость** обрабатывает твёрдые тела и трансформирует их в полые объекты, задавая каждой из имеющихся граней заданную толщину. В некоторых случаях это сильно ускоряет работу и позволяет избежать выдавливания и создания вырезов.
+Инструмент <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> [Полость](Part_Thickness/ru.md) преобразует твёрдое тела в полый объект, задавая каждой из имеющихся граней определенную толщину. Это позволяет значительно ускорить работу, а также позволяет избежать применения выдавливаний и вырезов.
 
+## Применение
 
-</div>
+1.  Создайте твердое тело
+2.  Выберите одну или несколько граней
+3.  Нажмите на инструмент **<img src="images/Part_Thickness.svg" width=16px> '''Полость'''
+**
+4.  Установите параметры (см. [Параметры](#Параметры.md))
+5.  Нажмите **OK** для подтверждения, создайте операцию и выйдите из функции
+6.  В таблице свойств так же можно настроить параметры, если это необходимо
 
-## Usage
+## Параметры
 
-1.  Create a solid
-2.  Select one or more faces
-3.  Click on the **<img src="images/Part_Thickness.svg" width=16px> '''Part Thickness'''** tool
-4.  Set the parameters (see [Options](#Options.md))
-5.  Click **OK** to confirm, create the operation and exit the function
-6.  In the Properties table adjust the parameters if necessary
+-   Толщина   * Толщина стенки получаемого объекта, установите нужное значение
+    -   Положительное значение сместит грани наружу
+    -   Отрицательное значение сместит грани внутрь
+-   Режим
+    -   Скин   * Выберите этот вариант, если хотите получить предмет, похожий на вазу, без головы, но с дном.
+    -   Труба   * выберите этот вариант, если хотите получить объект, похожий на трубу, без головы и без дна. В этом случае может быть удобно выбрать удаляемые грани перед запуском инструмента. Помощь с предопределенными кнопками просмотра или с помощью цифровых клавиш.
+    -   Лицевая сторона   *
+-   Тип соединения
+    -   Дуга   * удаляет внешние края и создает скругление с радиусом, равным заданной толщине.
+    -   Тангенс   *
+    -   Пересечение   *
+-   Пересечение   *
+-   Самопересечение   * включает самопересечение
+-   Грань / Готово   * выберите грани, которые нужно удалить, затем нажмите «Готово».
+-   Обновить вид   * автоматически обновляет вид в режиме реального времени.
 
-## Options
-
--   Thickness   * Wall thickness of the resulting object, set the desired value
-    -   A positive value will offset the faces outward
-    -   A negative value will offset the faces inward
--   Mode
-    -   Skin   * Select this option if you want to get an item like a vase, headless but with the bottom
-    -   Pipe   * Select this option if you want to get an object like a pipe, headless and bottomless. In this case it may be convenient to select the faces to be deleted before you start the tool. Helping with predefined views buttons or use the numeric keys.
-    -   RectoVerso   *
--   Join Type
-    -   Arc   * removes the outer edges and create a fillet with a radius equal to the thickness defined
-    -   Tangent   *
-    -   Intersection   *
--   Intersection   *
--   Self-intersection   * Enables self-intersection
--   Face / Done   * Select the faces to be removed, then click Done
--   Update view   * Automatically updates the view in real time
-
-## Notes
+## Примечания
 
 -   [App Link](App_Link.md) objects linked to the appropriate object types can also be used as source objects. <small>(v0.20)</small> 
 -   Complex shapes may produce bizarre, hard to predict results. Carefully inspect the resulting shape and save your work before applying the operation.
 
-## Links
+## Ссылки
 
 A good example on how to use this tool on the forum   * [Re   * Help designing a simple enclosure](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
 

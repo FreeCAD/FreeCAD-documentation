@@ -169,10 +169,7 @@ Ansicht wird versuchen, alles, was eine Eigenschaft `Shape` besitzt, zu zeichnen
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug Ansicht kann mit [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden   *
 

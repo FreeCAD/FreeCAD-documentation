@@ -69,10 +69,16 @@ Du wirst üben   *
 
 ## Ändern der visuellen Eigenschaften 
 
+
+<div class="mw-translate-fuzzy">
+
 5\. Die vorigen Operationen erstellen einen kleineren Würfel in einem größeren Würfel. Um dies zu veranschaulichen, können wir die **Ansicht**-Eigenschaft im [Eigenschaftseditor](property_editor/de.md) ändern.
 
    *   5.1. Wähle {{incode   Cube001}}, den kleineren Würfel, in der [Baumansicht](tree_view/de.md) und ändere die Farbe. Im **Ansicht**-Reiter, klicke auf den **Shape Color**-Wert, um den **Farbauswahl**-Dialog zu öffnen, dann wähle eine grüne Farbe; ändere auch den Wert der **Line Width** (Linienbreite) auf {{incode   2.0}}.
    *   5.2. Wähle {{incode   Cube}}, den größeren Würfel, in der [Baumansicht](tree_view/de.md) und ändere die Transparenz. Im **Ansicht**-Reiter ändere den Wert der **Transparency** (Transparenz) auf {{incode   70}}.
+
+
+</div>
 
 ![](images/01_T03_Part_cubes_visibility.png ) 
 *Solid cube inside another solid cube*
@@ -97,14 +103,14 @@ Du wirst üben   *
    *   7.4. Change **Height** to {{incode   120 mm}}.
    *   7.5. Open the [Placement](Std_Placement.md) dialog.
    *   7.6. Change **Y** to {{incode   60 mm}}.
-   *   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   X}}, and **Angle** to {{incode   90 deg}}.
+   *   7.7. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   X}} (by setting the {{incode   X}}, {{incode   Y}} and {{incode   Z}} values of the axis inputboxes to {{incode   0}}, {{incode   0}} and {{incode   1}} respectively, {{incode   Z}} is the third inputbox), and **Angle** to {{incode   90 deg}}.
    *   7.8. Press the **OK** button to close the dialog.
 
 8\. Insert another cylinder. This time create a duplicate so that the radius and height don\'t have to be changed, only its placement.
 
    *   8.1. Select {{incode   Cylinder001}} in the [tree view](tree_view.md), and go to the menu **Edit → [[Std_DuplicateSelection   Duplicate selection]]**. This will create {{incode   Cylinder002}}.
    *   8.2. Open the [Placement](Std_Placement.md) dialog.
-   *   8.3. Change **X** to {{incode   -60 mm}}.
+   *   8.3. Change **X** to {{incode   -60 mm}}, and change **Y** back to {{incode   0 mm}}.
    *   8.4. Change the **Rotation** to {{incode   Rotation axis with angle}}; **Axis** to {{incode   Y}}, and **Angle** to {{incode   90 deg}}.
    *   8.5. Press the **OK** button to close the dialog.
 

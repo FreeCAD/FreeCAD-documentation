@@ -1,8 +1,7 @@
 ---
 - GuiCommand   */it
-   Name   *TechDraw WeldingSymbol
+   Name   *TechDraw WeldSymbol
    Name/it   *Informazioni di saldatura
-   Icon   *techdraw-weldsymbol.svg
    MenuLocation   *TechDraw → Informazioni di saldatura
    Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
    SeeAlso   *[Linea guida](TechDraw_LeaderLine/it.md)

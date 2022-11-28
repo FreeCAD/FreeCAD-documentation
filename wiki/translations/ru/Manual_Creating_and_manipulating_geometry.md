@@ -58,7 +58,13 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Например, найдём площадь каждой грани нашей формы куба   *
+
+
+</div>
 
 
 ```python
@@ -148,7 +154,13 @@ E3 = Part.Edge(C1)
 E4 = Part.Edge(C2)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Иначе, базовая геометрия так же имеет функцию toShape(), которая делает то же самое   *
+
+
+</div>
 
 
 ```python
@@ -157,7 +169,13 @@ E2 = L2.toShape()
  ...
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Когда у нас есть последовательность рёбер, мы можем сформировать ломаную (Wire), придав ей список рёбер (Edge)   *
+
+
+</div>
 
 
 ```python

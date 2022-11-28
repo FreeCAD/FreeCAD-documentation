@@ -19,7 +19,7 @@ Parce que leur construction est très simple, ils sont parmi les plus anciennes 
 
 La roue dentée du pignon lanterne avec chaînes à rouleaux est une alternative économique et robuste aux entraînements à pignon et crémaillère. En guidant la chaîne de roue dentée de lanterne étirée tangentiellement le long de la roue dentée du pignon lanterne, un mouvement linéaire de la chaîne est converti en un mouvement de rotation de la roue. A l\'inverse, un mouvement linéaire de la chaîne peut également être obtenu par le mouvement de rotation du pignon lanterne (moto/vélo).
 
-![](images/Latern_Gear_example.png ) 
+![](images/Lantern-Gear_example.png ) 
 *Ci-dessus    * pignon lanterne*
 
 ## Utilisation

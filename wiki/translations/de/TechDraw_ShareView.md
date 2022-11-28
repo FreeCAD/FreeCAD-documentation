@@ -29,10 +29,7 @@ Es gibt nur ein View-Objekt nach der Verteilungsoperation. Sämtliche Änderunge
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug Ansicht teilen kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus genutzt werden durch Verwendung der folgenden Funktionen   *
 
@@ -44,13 +41,7 @@ TechDrawTools.MoveView(viewName, fromPageName, toPageName, True)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -37,9 +37,23 @@ Questi sono gli strumenti per crere gli oggetti Viste.
 
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)   * richiama una finestra di dialogo per creare viste multiple di un oggetto da diverse direzioni.
 
+-   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Insert Section Views   *
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Vista di sezione](TechDraw_SectionView/it.md)   * aggiunge una vista in sezione trasversale di una vista esistente.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Inserisci vista di sezione complessa](TechDraw_ComplexSection/it.md)   * inserisce una sezione trasversale di una vista esistente basata su un profilo. {{Version/it|1.0}}
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width   *32px;"> [Dettaglio](TechDraw_DetailView/it.md)   * aggiunge una vista di dettaglio di una porzione di una vista esistente.
 
@@ -298,10 +312,16 @@ Questi sono gli strumenti per esportare le pagine in altre applicazioni.
 
 ## Scripting
 
+
+<div class="mw-translate-fuzzy">
+
 Gli strumenti TechDraw possono essere utilizzati nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando due API.
 
 -   [API TechDraw](TechDraw_API/it.md)
 -   [API TechDrawGui](TechDrawGui_API/it.md)
+
+
+</div>
 
 ## Limitazioni
 

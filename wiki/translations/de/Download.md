@@ -3,23 +3,9 @@
 
 ## Aktuelle stabile Version 
 
+Die Version 0.20.1 von FreeCAD (29410) wurde am 10.08.2022 veröffentlicht. Um herauszufinden, was es Neues gibt, sIehe die [Veröffentlichungshinweise](Release_notes_0.20/de.md).
 
-<div class="mw-translate-fuzzy">
-
-Die Version 0.20 von FreeCAD (29177) wurde am 14.06.2022 veröffentlicht. Um herauszufinden, was es Neues gibt, sIehe die [Veröffentlichungshinweise](Release_notes_0.20/de.md).
-
-Die erste Version 0.19.2 von FreeCAD (24291) wurde am 22.04.2021 veröffentlicht. Um herauszufinden, was es Neues gibt, lese bitte die [Veröffentlichungshinweise](Release_notes_0.19/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-SHA256 Prüfsummen zur Überprüfung der Integrität eines Downloads kann man auf der [0.20 Release-Page](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.20).
-
-
-</div>
+SHA256 Prüfsummen zur Überprüfung der Integrität eines Downloads kann man auf der [0.20.1 Release-Page](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.20.1).
 
 Frühere Versionen können von der Seite der veröffentlichten [Versionen](https   *//github.com/FreeCAD/FreeCAD/releases) heruntergeladen werden.
 
@@ -47,18 +33,7 @@ Die meisten Distributionen führen FreeCAD in ihren offiziellen Repositorien, ab
 
 Bitte schau auf der Seite [Installation unter Linux](Installing_on_Linux/de.md) nach weiteren Installationsoptionen, einschließlich täglicher Pakete für Ubuntu und Derivaten.
 
-
-<div class="mw-translate-fuzzy">
-
-Eine portable Version, welche keine Installation benötigt, kann durch Starten von FreeCad mit diesen Befehlen erreicht werden   * {{Version/de|0.19}} 
-```python
-cd path/to/directory_containing_AppImage/
-chmod +x ./FreeCAD-0.20.0-Linux-x86_64.AppImage
-HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD-0.20.0-Linux-x86_64.AppImage
-```
-
-
-</div>
+Eine portable Version, welche keine Installation benötigt, kann durch Starten von FreeCad mit diesen Befehlen erreicht werden   *
 
 
 {{Code|lang=text|code=
@@ -69,6 +44,9 @@ HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./name_of_AppImage_file.A
 
 Weitere Informationen über die Umgebungsvariablen von FreeCAD können auf der [Konfigurationsseite](Start_up_and_Configuration/de#Environment_variables.md) gefunden werden.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Entwicklungsversionen
 
 Die Entwicklung von FreeCAD ist aktiv.
@@ -76,6 +54,9 @@ Die Entwicklung von FreeCAD ist aktiv.
 -   Für Linux Anwender probiere die Entwicklung [AppImage](AppImage/de.md) aus.
 -   Für MacOS und Windows Entwicklungsbuilds und Entwicklungsquellcode siehe die [weekly builds](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds) Seite.
 -   Um den neuesten Quellcode zu kompilieren, siehe [Kompilieren](Compiling/de.md).
+
+
+</div>
 
 ## Zusätzliche Module und Makros 
 

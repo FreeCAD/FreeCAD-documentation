@@ -73,6 +73,8 @@ Estas son herramientas para crear objetos de la Vista.
 
 </div>
 
+-   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Insert Section Views   *
+
 
 <div class="mw-translate-fuzzy">
 
@@ -81,7 +83,7 @@ Estas son herramientas para crear objetos de la Vista.
 
 </div>
 
--   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
+   ** <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
 
 
 <div class="mw-translate-fuzzy">

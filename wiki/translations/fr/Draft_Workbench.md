@@ -26,7 +26,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Fillet.svg  style="width   *32px;"> [Congé](Draft_Fillet/fr.md)    * crée un congé, un coin arrondi, ou un chanfrein, un bord droit, entre deux [Draft Lignes](Draft_Line/fr.md).
 
--   <img alt="" src=images/Draft_Arc.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Arc tools   *
+-   <img alt="" src=images/Draft_Arc.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Outils Arc    *
 
    ** <img alt="" src=images/Draft_Arc.svg  style="width   *32px;"> [Arc](Draft_Arc/fr.md)    * crée un arc de cercle à partir d\'un centre, d\'un rayon, d\'un angle de départ et d\'un angle d\'ouverture.
 
@@ -42,7 +42,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_BSpline.svg  style="width   *32px;"> [B-spline](Draft_BSpline/fr.md)    * crée une courbe B-spline à partir de plusieurs points.
 
--   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Bézier tools   *
+-   <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Outils de Bézier    *
 
    ** <img alt="" src=images/Draft_CubicBezCurve.svg  style="width   *32px;"> [Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md)    * crée une courbe de Bézier du troisième degré.
 
@@ -84,7 +84,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Clone.svg  style="width   *32px;"> [Clone](Draft_Clone/fr.md)    * crée des copies liées, des clones, des objets sélectionnés.
 
--   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Array tools   *
+-   <img alt="" src=images/Draft_OrthoArray.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Outils Réseau    *
 
    ** <img alt="" src=images/Draft_OrthoArray.svg  style="width   *32px;"> [Réseau orthogonal](Draft_OrthoArray/fr.md)    * crée un réseau orthogonal à partir d\'un objet sélectionné. Cela peut éventuellement créer un réseau de [Link](App_Link/fr.md).
 
@@ -164,7 +164,7 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Aimantation Intersection](Draft_Snap_Intersection/fr.md)   * aimante à l\'intersection de deux bords.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md)    * aimante aux points perpendiculaires sur les faces ({{Version/fr|1.0}}) ou les arêtes.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md)    * aimante aux points perpendiculaires sur les faces ({{Version/fr|1.0}}) et les arêtes.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Aimantation Extension](Draft_Snap_Extension/fr.md)    * aimante à une ligne imaginaire qui s\'étend au-delà des extrémités des bords droits.
 
@@ -172,13 +172,13 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_Snap_Special.svg  style="width   *32px;"> [Aimantation Spécial](Draft_Snap_Special/fr.md)    * aimante à des points spéciaux définis par l\'objet.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Aimantation Le plus proche](Draft_Snap_Near/fr.md)    * aimante au point le plus proche sur les faces ou les bords.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Aimantation Le plus proche](Draft_Snap_Near/fr.md)    * aimante au point le plus proche sur les faces et les bords.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Aimantation Orthogonal](Draft_Snap_Ortho/fr.md)    * aimante sur des lignes imaginaires qui croisent le point précédent à 0°, 45°, 90° et 135°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Aimantation Orthogonal](Draft_Snap_Ortho/fr.md)    * aimante sur des lignes imaginaires qui croisent le point précédent à des multiples de 45°.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *32px;"> [Aimantation Grille](Draft_Snap_Grid/fr.md)    * aimante aux intersections des lignes de la grille.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Aimantation Plan de travail](Draft_Snap_WorkingPlane/fr.md)    * projette le point d\'aimantation sur le [plan de travail](Draft_SelectPlane/fr.md) en cours.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Aimantation Plan de travail](Draft_Snap_WorkingPlane/fr.md)    * projette les points d\'aimantation sur le [plan de travail](Draft_SelectPlane/fr.md) en cours.
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *32px;"> [Aimantation Dimensions](Draft_Snap_Dimensions/fr.md)    * montre les dimensions X et Y temporaires.
 

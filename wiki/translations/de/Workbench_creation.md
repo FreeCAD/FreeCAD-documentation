@@ -122,10 +122,10 @@ class MyWorkbench (Workbench)   *
         It is executed once in a FreeCAD session followed by the Activated function.
         """
         import MyModuleA, MyModuleB # import here all the needed files that create your FreeCAD commands
-        self.list = ["MyCommand1", "MyCommand2"] # A list of command names created in the line above
-        self.appendToolbar("My Commands",self.list) # creates a new toolbar with your commands
-        self.appendMenu("My New Menu",self.list) # creates a new menu
-        self.appendMenu(["An existing Menu","My submenu"],self.list) # appends a submenu to an existing menu
+        self.list = ["MyCommand1", "MyCommand2"] # a list of command names created in the line above
+        self.appendToolbar("My Commands", self.list) # creates a new toolbar with your commands
+        self.appendMenu("My New Menu", self.list) # creates a new menu
+        self.appendMenu(["An existing Menu", "My submenu"], self.list) # appends a submenu to an existing menu
 
     def Activated(self)   *
         """This function is executed whenever the workbench is activated"""
@@ -138,7 +138,7 @@ class MyWorkbench (Workbench)   *
     def ContextMenu(self, recipient)   *
         """This function is executed whenever the user right-clicks on screen"""
         # "recipient" will be either "view" or "tree"
-        self.appendContextMenu("My commands",self.list) # add commands to the context menu
+        self.appendContextMenu("My commands", self.list) # add commands to the context menu
 
     def GetClassName(self)   * 
         # This function is mandatory if this is a full Python workbench
@@ -180,6 +180,8 @@ Hinzufügen deiner Einstellungsseite(n)   *
 
 To distribute your Python workbench, you may either simply host the files in some location and instruct your users to download them and place them in their Mod directory manually, or you may host them in an online git repository (GitHub, GitLab, Framagit, and Debian Salsa are currently supported locations) and configure them for the [Addon Manager](Std_AddonMgr.md) to install. Instructions for inclusion on FreeCAD\'s official Addons list can be found on the [FreeCAD Addons GitHub repository](https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). To use the Addon Manager, a [package.xml metadata file](Package_Metadata.md) should be included, which instructs the Addon Manager how to find your workbench\'s icon, and allows display of a description, version number, etc. It can also be used to specify other workbenches or Python packages that your Workbench either depends on, is blocked by, or is intended to replace.
 
+For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see   * [Add Workbench to Addon_Manager](Add_Workbench_to_Addon_Manager.md).
+
 Optionally, you can include a separate metadata file describing your Python dependencies. This may be either a file called metadata.txt describing your workbench\'s external dependencies (on either other Addons, Workbenches, or Python modules), or a [requirements.txt](https   *//pip.pypa.io/en/latest/reference/requirements-file-format/) describing your Python dependencies. Note that if using a requirements.txt file, only the names of the specified packages are used for dependency resolution   * pip command options, include options and version information are not supported by the Addon Manager. Users may manually run the requirements file using pip if those features are required.
 
 Das Format der metadata.txt - Datei ist Textformat mit drei Zeilen zur Auswahl   *
@@ -202,7 +204,13 @@ optionalpylibs=metadata,git
 
 Du kannst auch ein Script einfügen, das gestartet wird, wenn dein Paket deinstalliert wird. Das wäre die Datei \"uninstall.py\", die ganz oben in deinem Addon zu finden wäre. Es wird ausgeführt, wenn ein Benutzer dein Addon mit dem Addon-Manager deinstalliert. Es wird verwendet, um alles, was das Addon auf dem Benutzersystem gemacht hat und nicht dort bleiben soll, zu entfernen, wenn das Addon deinstalliert ist, z.B. Cachedateien entfernen etc.
 
+
+<div class="mw-translate-fuzzy">
+
 Um zu gewährleisten, dass dein Addon vom Addon-Manager richtig gelesen werden kann, kann der \"developer mode\" aktiviert werden, in dem der Addon-Manager alle verfügbaren Addons prüft und gewährleistet, dass deren Metadaten die erforderlichen Elemente enthält. Verwende den [Parameter Editor](Std_DlgParameter.md) um dies zu aktivieren, indem eine Boolsche Variable \"developerMode\" in der \"Addons\"-Parametergruppe erstellt wird und diese Variable auf True gesetzt wird   * **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**.
+
+
+</div>
 
 ### C++ Arbeitsbereiche 
 
@@ -240,6 +248,10 @@ namespace MyModuleGui {
 
 Du kannst auch eine Voreinstellungsseite für C++ Arbeitsbereiche hinzufügen. Die Schritte sind ähnlich wie die für Python.
 
+#### Distribution
+
+There are two options to distribute a C++ workbench, you can either host precompiled versions for the different operating systems yourself, or you can request for your code to be merged into the FreeCAD source code. As mentioned above this requires a LGPL2+ license, and you must first present your workbench to the community in the [FreeCAD forum](https   *//forum.freecad.org) for review.
+
 ## FreeCAD Befehle 
 
 FreeCAD Befehle sind die Grundbausteine der FreeCAD Oberfläche. Sie können als Knöpfe in Werkzeugleisten und als Einträge in Menüs erscheinen. Es handelt sich dabei immer um den selben Befehl. Ein Befehl ist einfach eine Python Klasse, die eine Reihe von vordefinierten Attributen und Funktionen enthält, wie der Befehlsname, das Symbol und der Code, der ausgeführt wird, wenn der Befehl aktiviert wird.
@@ -271,7 +283,13 @@ FreeCADGui.addCommand("My_Command", My_Command_Class())
 
 ### C++ Befehlsdefinition 
 
+
+<div class="mw-translate-fuzzy">
+
 In ähnlicher Weise kannst du deine Befehle in C++ programmieren, normalerweise hast du eine Commands.cpp Datei in deinem Gui Modul. Dies ist eine typische Commands.cpp Datei   *
+
+
+</div>
 
 
 ```pythonDEF_STD_CMD_A(CmdMyCommand);

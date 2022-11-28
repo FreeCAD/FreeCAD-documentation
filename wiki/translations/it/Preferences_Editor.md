@@ -21,6 +21,9 @@ Questa sezione delle preferenze ha 9 schede   * Generale, Documento, Selezione, 
 
 Nella scheda *Generale* si può specificare quanto segue   *
 
+
+<div class="mw-translate-fuzzy">
+
 +++
 | Nome                                                               | Descrizione                                                                                                                                                                                                                                                       |
 +====================================================================+===================================================================================================================================================================================================================================================================+
@@ -50,7 +53,10 @@ Nella scheda *Generale* si può specificare quanto segue   *
 +++
 |                                                     | Se selezionato, lo sfondo della finestra principale di FreeCAD sarà costituito per impostazione predefinita dai riquadri di questa immagine   * <img alt="" src=images/Background.png  style="width   *64px;">                                                                     |
 | **Abilita lo sfondo a mosaico**                        |                                                                                                                                                                                                                                                                   |
-|                                                                 | Questa opzione ha effetto solo se non è selezionato alcun **Foglio di stile**.                                                                                                                                                          |
+|                                                                                                                                                                                                                                                         |
+|                                                                    | </div>                                                                                                                                                                                                                                                            |
+|                                                                    |                                                                                                                                                                                                                                                                |
+|                                                                    | Questa opzione ha effetto solo se non è selezionato alcun **Foglio di stile**.                                                                                                                                                          |
 |                                                                    |                                                                                                                                                                                                                                                                   |
 |                                                                    | L\'immagine può essere cambiata aggiungendo le cartelle **Gui/Images** nella cartella   *                                                                                                                                                     |
 |                                                                    |                                                                                                                                                                                                                                                                   |
@@ -69,6 +75,9 @@ Nella scheda *Generale* si può specificare quanto segue   *
 |                                                                    |                                                                                                                                                                                                                                                                |
 |                                                                    | (su MacOS).                                                                                                                                                                                                                                                       |
 |                                                                    |                                                                                                                                                                                                                                                                   |
+|                                                                    |                                                                                                                                                                                                                                                         |
+|                                                                    | <div class="mw-translate-fuzzy">                                                                                                                                                                                                                                  |
+|                                                                    |                                                                                                                                                                                                                                                                |
 |                                                                    | Inserire un file chiamato **background.png** nella cartella **Images**, e deselezionare/selezionare questa opzione per vedere il file modificato.                                                                   |
 +++
 |                                                     | Se selezionato, il cursore del testo nella [Console Python](Python_console/it.md) e nell\'[Editor delle Macro](Std_DlgMacroExecute#Edit.md) lampeggeranno.                                                                                        |
@@ -98,10 +107,19 @@ Nella scheda *Generale* si può specificare quanto segue   *
 +++
 |                                                     | Se selezionato, all\'avvio di FreeCAD viene mostrata una schermata iniziale.                                                                                                                                                                                      |
 | **Abilita la schermata iniziale all'avvio**            |                                                                                                                                                                                                                                                                   |
-|                                                                 | L\'immagine della schermata iniziale può essere modificata inserendo un file denominato **splash_image.png** nella cartella **Images** già menzionata in **Abilita lo sfondo a mosaico**. |
+|                                                                                                                                                                                                                                                         |
+|                                                                    | </div>                                                                                                                                                                                                                                                            |
+|                                                                    |                                                                                                                                                                                                                                                                |
+|                                                                    | L\'immagine della schermata iniziale può essere modificata inserendo un file denominato **splash_image.png** nella cartella **Images** già menzionata in **Abilita lo sfondo a mosaico**. |
 +++
 
+
+<div class="mw-translate-fuzzy">
+
 ![](images/Preferences_General_Tab_General_it.png )
+
+
+</div>
 
 ### Documento
 
@@ -327,9 +345,23 @@ Nella scheda *Console Python* ({{Version/it|0.20}}) puoi specificare quanto segu
 
 ![](images/Preferences_General_Tab_Python_console_it.png )
 
+
+<div class="mw-translate-fuzzy">
+
 ### Finestra di output 
 
+
+</div>
+
+**Important note   *** this tab has been renamed from Output window to **Report view**. <small>(v1.0)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
 Queste preferenze controllano il comportamento della [Finestra dei Report](Report_view/it.md). Questo pannello può essere aperto utilizzando l\'opzione di menu **Visualizza → Panelli → Report**.
+
+
+</div>
 
 Nella scheda *Output* è possibile specificare quanto segue   *
 
@@ -773,6 +805,9 @@ Queste preferenze controllano il comportamento dell\'[Addon manager](Std_AddonMg
 
 Nella scheda *Opzioni di Addon manager* ({{Version/it|0.20}}) puoi specificare quanto segue   *
 
+
+<div class="mw-translate-fuzzy">
+
 +++
 | Nome                                                                                       | Descrizione                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +============================================================================================+================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
@@ -818,6 +853,13 @@ Nella scheda *Opzioni di Addon manager* ({{Version/it|0.20}}) puoi specificare q
 | **Mostra l'opzione per cambiare i rami (Richiede GitPython)**                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +++
+
+
+</div>
+
+To add a repository press the **<img src="images/List-add.svg" width=16px>** button. Both the **Repository URL** and the **Branch**, typically {{Value|master}} or {{Value|main}}, must be specifies in the dialog that opens. <small>(v1.0)</small> 
+
+To remove a repository select it in the list and press the **<img src="images/List-remove.svg" width=16px>** button. <small>(v1.0)</small>  \|- \| **Proxy** \| The Addon manager includes experimental support for proxies requiring authentication, set up as user-defined proxies. \|- \| **Python executable (optional)** \| The Addon manager attempts to determine the Python executable that should be used for the automatic pip-based installation of Python dependencies. To override this selection, the path to the executable can be set here. \|- \| **git executable (optional)** \| The Addon manager attempts to determine the git executable. To override this selection, the path to the executable can be set here. <small>(v1.0)</small>  \|- \| **Show option to change branches (requires git)** \| If checked, the Addon manager provides an interface on the addon\'s details screen that allows switching which git branch is currently checked out. This is intended for advanced users only, as it is possible that a non-primary-branch version of an addon may result in instability and compatibility issues. Git must be installed for this to work. Use with caution. \|- \| **Disable git (fall back to ZIP downloads only)** \| If checked, git downloads are disabled. <small>(v1.0)</small>  \|- \| **Addon developer mode** \| If checked, Addon manager options intended for developers of addons are activated. <small>(v1.0)</small>  \|}
 
 ![](images/Preferences_Addon_Manager_Tab_Addon_manager_options_it.png )
 

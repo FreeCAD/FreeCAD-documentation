@@ -16,7 +16,7 @@ Cette macro place l\'objet sélectionné perpendiculairement au fil sélectionn�
 
 ## Utilisation
 
-1.  Installez la macro via le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
+1.  Installez la macro via le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md)
 2.  Sélectionnez le chemin (peut être un élément ou un sous-élément)
 3.  Sélectionnez l\'objet à aligner
 4.  Exécuter la macro

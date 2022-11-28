@@ -291,7 +291,13 @@ Väzby sa používajú na definovanie dĺžok, nastavenie pravidiel medzi súča
 
 Tieto väzby nie sú spojené s číselnými dátami.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [Splynutie](Sketcher_ConstrainCoincident.md)   * Pripojí bod na jeden alebo viacero iných bodov.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

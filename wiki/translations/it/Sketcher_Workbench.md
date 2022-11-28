@@ -172,7 +172,13 @@ I vincoli sono utilizzati per stabilire le relazioni tra gli elementi del disegn
 
 Questi vincoli non sono associati a valori numerici.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *32px;"> [Coincidente](Sketcher_ConstrainCoincident/it.md)   * Crea un vincolo di coincidenza (punto-con-punto) tra due punti selezionati.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width   *32px;"> [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md)   * Crea un vincolo (fissa) un punto-su-un-oggetto sull\'elemento selezionato.
 

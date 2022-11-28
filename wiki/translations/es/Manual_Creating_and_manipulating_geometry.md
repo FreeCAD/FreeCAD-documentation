@@ -52,7 +52,13 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Por ejemplo, vamos a encontrar el área de cada cara de nuestra forma de caja anterior   *
+
+
+</div>
 
 
 ```python
@@ -142,7 +148,13 @@ E3 = Part.Edge(C1)
 E4 = Part.Edge(C2)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Alternativamente, las geometrías base también tienen una función toShape() que hace exactamente lo mismo   *
+
+
+</div>
 
 
 ```python
@@ -151,7 +163,13 @@ E2 = L2.toShape()
  ...
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Una vez que tenemos una serie de Aristas, ahora podemos formar un Hilo, dándole una lista de Aristas. Debemos tener en cuenta el orden.
+
+
+</div>
 
 
 ```python

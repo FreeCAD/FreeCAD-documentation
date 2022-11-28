@@ -44,6 +44,9 @@ HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./name_of_AppImage_file.A
 
 Puedes encontrar más información sobre las variables de entorno de FreeCAD en [ la página de configuración](Start_up_and_Configuration#Environment_variables.md).
 
+
+<div class="mw-translate-fuzzy">
+
 ## Versiones en desarrollo 
 
 El desarrollo de FreeCAD es activo.
@@ -51,6 +54,9 @@ El desarrollo de FreeCAD es activo.
 -   Para los usuarios de Linux, comprueben el desarrollo [AppImage](AppImage/es.md).
 -   Para las compilaciones de desarrollo de MacOS y Windows y el código fuente de desarrollo, consulte la página [compositiones semanales](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds).
 -   Para compilar el último código fuente, vea [compilar](Compiling/es.md).
+
+
+</div>
 
 ## Módulos y Macros Adicionales 
 

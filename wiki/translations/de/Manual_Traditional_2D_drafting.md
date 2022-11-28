@@ -41,8 +41,14 @@ Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präs
 
 ![](images/Exercise_cabin_03.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Das ist alles, was wir jetzt brauchen, so dass wir den Konstruktionsmodus ausschalten können. Überprüfen Sie, dass all die gerade erzeugten Objekte in einer \"Konstruktions\" Gruppe zusammengefasst sind, denn das erleichtert das einfache Verstecken oder auch das spätere Löschen.
--   Lassen Sie uns mit dem <img alt="" src=images/Draft_Wire.svg  style="width   *16px;"> [Polygonzug](Draft_Wire/de.md) Werkzeug die beiden Wandteile zeichnen. Stelle sicher, dass der <img alt="" src=images/Snap_Intersection.svg  style="width   *16px;"> [Schnittpunktfang](Draft_Snap/de.md) aktiviert ist, weil wir die Schnittpunkte von Linien und Rechtecken fangen wollen. Zeichne wie folgt zwei Polygonzüge durch anklicken aller Punkte der Umrisslinien. Zum Schließen klicke entweder erneut auf den ersten Punkt oder drücke die **Schließen** Schaltfläche   *
+-   Lassen Sie uns mit dem <img alt="" src=images/Draft_Wire.svg  style="width   *16px;"> [Polygonzug](Draft_Wire/de.md) Werkzeug die beiden Wandteile zeichnen. Stelle sicher, dass der <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *16px;"> [Schnittpunktfang](Draft_Snap/de.md) aktiviert ist, weil wir die Schnittpunkte von Linien und Rechtecken fangen wollen. Zeichne wie folgt zwei Polygonzüge durch anklicken aller Punkte der Umrisslinien. Zum Schließen klicke entweder erneut auf den ersten Punkt oder drücke die **Schließen** Schaltfläche   *
+
+
+</div>
 
 ![](images/Exercise_cabin_04.jpg )
 
@@ -50,8 +56,14 @@ Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präs
 
 ![](images/Exercise_cabin_05.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Wir können jetzt die Konstruktionsgeometrie ausblenden, indem wir durch rechtsklicken der Konstruktiongruppe und **Auswahl ausblenden** wählen.
--   Lass uns nun die Fenster und Türen zeichnen. Stelle sicher, dass das <img alt="" src=images/Snap_Midpoint.svg  style="width   *16px;"> [Mittelpunktsfang](Draft_Snap/de.md) aktiviert ist und zeichne sechs Linien wie folgt   *
+-   Lass uns nun die Fenster und Türen zeichnen. Stelle sicher, dass das <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width   *16px;"> [Mittelpunktsfang](Draft_Snap/de.md) aktiviert ist und zeichne sechs Linien wie folgt   *
+
+
+</div>
 
 ![](images/Exercise_cabin_06.jpg )
 

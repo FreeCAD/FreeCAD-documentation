@@ -51,7 +51,7 @@ Les outils suivants sont disponibles dans ce menu    *
 
 -   <img alt="" src=images/Std_DlgCustomize.svg  style="width   *32px;"> [ Personnaliser\...](Std_DlgCustomize/fr.md)    * ouvre une boîte de dialogue avec des options de personnalisation.
 
--   <img alt="" src=images/_AddonManager.svg  style="width   *32px;"> [Addon manager](Std_AddonMgr/fr.md)    * ouvre le gestionnaire d\'extensions avec lequel les [ateliers externes](External_workbenches/fr.md) et les [macros](macros/fr.md) peuvent être installés.
+-   <img alt="" src=images/_AddonManager.svg  style="width   *32px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md)    * ouvre le gestionnaire des extensions avec lequel les [ateliers externes](External_workbenches/fr.md) et les [macros](Macros/fr.md) peuvent être installés.
 
 
 

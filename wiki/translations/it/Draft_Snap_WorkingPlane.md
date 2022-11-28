@@ -1,8 +1,7 @@
 ---
 - GuiCommand   */it
-   Name   *Draft WorkingPlane
+   Name   *Draft Snap WorkingPlane
    Name/it   * Limita al piano di lavoro
-   Icon   *Snap_WorkingPlane.svg
    MenuLocation   *Draft → [Aggancio](Draft_Snap/it.md) →  Piano di lavoro
    Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut   *

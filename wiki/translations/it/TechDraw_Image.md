@@ -25,8 +25,27 @@ Lo strumento Immagine inserisce un\'immagine [bitmap](bitmap/it.md) (PNG, TIFF, 
 
 ## Proprietà
 
--   Utilizzare la proprietà Scala per regolare le dimensioni dell\'immagine.
--   Utilizzare la proprietà Width e Height per ritagliare l\'immagine.
+See also [TechDraw View](TechDraw_View#Properties.md).
+
+### Data
+
+
+{{TitleProperty|Image}}
+
+-    **Image File|File**   * The file containing this bitmap.
+
+-    **Image Included|FileIncluded**   * Embedded image file. System use only.
+
+-    **Width|Float**   * The width of the cropped image in mm. Only used if **Crop** is `True`.
+
+-    **Height|Float**   * The height of the cropped image in mm. Idem.
+
+### View
+
+
+{{TitleProperty|Image}}
+
+-    **Crop|Bool**   * Crop the image to **Width** x **Height**.
 
 ## Script
 

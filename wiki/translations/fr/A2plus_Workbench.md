@@ -11,7 +11,7 @@ Cette documentation d\'A2plus porte sur la version **0.4.56 ou plus récente**.
 
 ## Installation
 
-L'atelier A2plus est un complément à FreeCAD. Il peut être facilement installé via le menu <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) à partir de **Outils → Gestionnaire d'Addon**. A2plus est en cours de développement et bénéficiera fréquemment de nouvelles fonctionnalités. Par conséquent, vous devez le mettre à jour régulièrement en utilisant également le menu {{MenuCommand/fr|Outils→ [Gestionnaire d'Addon](Std_AddonMgr/fr.md)}}. Le code A2plus est hébergé et développé [sur GitHub](https   *//github.com/kbwbe/A2plus) et peut également être installé manuellement en le copiant dans le répertoire **Mod** de FreeCAD.
+L'atelier A2plus est un complément à FreeCAD. Il peut être facilement installé via le menu <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) à partir de **Outils → Gestionnaire des extensions**. A2plus est en cours de développement et bénéficiera fréquemment de nouvelles fonctionnalités. Par conséquent, vous devez le mettre à jour régulièrement en utilisant également le menu {{MenuCommand/fr|Outils→ [Gestionnaire des extensions](Std_AddonMgr/fr.md)}}. Le code A2plus est hébergé et développé [sur GitHub](https   *//github.com/kbwbe/A2plus) et peut également être installé manuellement en le copiant dans le répertoire **Mod** de FreeCAD.
 
 ## Commencer
 

@@ -47,7 +47,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 ### Anwendung
 
-1.  Stelle sicher, dass **<img src="images/Snap_Lock.svg" width=16px> [Draft Umschalten Ein/Aus](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Angle.svg" width=16px> [Snap Winkel](Draft_Snap_Angle/de.md)** eingeschaltet sind.
+1.  Stelle sicher, dass **<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft Umschalten Ein/Aus](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Angle.svg" width=16px> [Snap Winkel](Draft_Snap_Angle/de.md)** eingeschaltet sind.
 2.  Wähle ein Draft-Werkzeug zum Zeichnen einer Form.
 3.  Bewege den Cursor über ein Kreis- oder Kreisbogenobjekt.
 4.  Der Kreis oder Kreisbogen wird gelb hervorgehoben und ein kleiner weißer Kreis wird den Punkt des Kreisbogens anzeigen, an dem der neue Punkt verbunden wird; dieser Punkt wird im Winkel von 30° oder 45° oder einem Vielfachen zur Horizontalen angezeigt.

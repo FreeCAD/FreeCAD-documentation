@@ -144,13 +144,31 @@ Za pomocą widżetu [skali adnotacji](Draft_annotation_scale_widget/pl.md) możn
 
 ## Widżet przyciągania 
 
+
+<div class="mw-translate-fuzzy">
+
 Widżet [przyciągania](Draft_snap_widget/pl.md) może być używany jako alternatywa dla [paska narzędzi przyciągania](#Pasek_narz.C4.99dzi_Rysunek_roboczy   *_Przyci.C4.85gnij.md).
+
+
+</div>
 
 ![](images/Draft_snap_widget_button.png )
 
+
+<div class="mw-translate-fuzzy">
+
 ## Pasek narzędzi Rysunek roboczy   * Przyciągnij 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Pasek narzędzi [Rysunek roboczy   * Przyciągnij](Draft_Snap/pl.md) umożliwia wybranie bieżącego trybu przyciągania. Jego przycisk pozostaje wciśnięty, gdy tryb jest aktywny.
+
+
+</div>
 
 -   <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *32px;"> [Przełącz przyciąganie](Draft_Snap_Lock.md)   * przełącza globalnie [przyciąganie](Draft_Snap/pl.md) obiektów na włączone lub wyłączone.
 
@@ -164,7 +182,13 @@ Pasek narzędzi [Rysunek roboczy   * Przyciągnij](Draft_Snap/pl.md) umożliwia 
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Przecięcie](Draft_Snap_Intersection/pl.md)   * przyciąga do przecięcia dwóch krawędzi.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md)   * przyciąga prostopadle do ostatniego punktu na ścianie *({{Version/pl|1.0}})* lub krawędzi.
+
+
+</div>
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Rozszerzenie](Draft_Snap_Extension/pl.md)   * przyciąga do umownej linii, która rozciąga się poza punkty końcowe segmentów linii.
 
@@ -172,13 +196,31 @@ Pasek narzędzi [Rysunek roboczy   * Przyciągnij](Draft_Snap/pl.md) umożliwia 
 
 -   <img alt="" src=images/Draft_Snap_Special.svg  style="width   *32px;"> [Specjalne](Draft_Snap_Special/pl.md)   * przyciąga na punktach specjalnych zdefiniowanych przez obiekt.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Najbliższy](Draft_Snap_Near/pl.md)   * przyciąga do najbliższego punktu lub krawędzi najbliższego obiektu.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Ortogonalnie](Draft_Snap_Ortho/pl.md)   * przyciąga na umownych liniach, które przecinają ostatni punkt pod kątem 0°, 45° i 90°.
 
+
+</div>
+
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *32px;"> [Siatka](Draft_Snap_Grid/pl.md)   * przyciąga na przecięciach linii siatki.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Płaszczyzna robocza](Draft_Snap_WorkingPlane/pl.md)   * zawsze umieszcza przyciągany punkt na aktualnej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
+
+
+</div>
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *32px;"> [Wymiary](Draft_Snap_Dimensions/pl.md)   * prezentuje tymczasowe wymiary X i Y podczas przyciągania.
 
@@ -210,7 +252,13 @@ Menu środowiska Rysunek Roboczy **Narzędzia** zawiera kilka narzędzi. Większ
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width   *32px;"> [Przełącz tryb kontynuacji](Draft_ToggleContinueMode/pl.md)   * włącza lub wyłącza tryb kontynuacji.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width   *32px;"> [Pokaż przybornik przyciągania](Draft_ShowSnapBar.md)   * wyświetla [pasek narzędzi przyciągania](#Pasek_narz.C4.99dzi_Rysunek_roboczy   *_Przyci.C4.85gnij.md).
+
+
+</div>
 
 ## Dodatkowe właściwości 
 

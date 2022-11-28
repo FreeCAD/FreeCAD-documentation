@@ -15,7 +15,7 @@
 
 ## Description
 
-Depuis la v0.17, il est facile d\'ajouter des macros en utilisant le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Un utilisateur régulier n\'a pas besoin de faire plus que d\'utiliser cet outil. Continuez à lire pour plus d\'informations sur l\'installation de [macros](macros/fr.md).
+Depuis la v0.17, il est facile d\'ajouter des macros en utilisant le [Gestionnaire des extensions](Std_AddonMgr/fr.md). Un utilisateur régulier n\'a pas besoin de faire plus que d\'utiliser cet outil. Continuez à lire pour plus d\'informations sur l\'installation de [macros](Macros/fr.md).
 
 Les macros sont des séquences de commandes utilisées pour effectuer une opération de dessin complexe. Les macros sont des scripts en [Python](Python/fr.md), ce qui signifie qu\'il s\'agit de fichiers texte pouvant être écrits et modifiés à l\'aide d\'un éditeur de texte.
 
@@ -130,17 +130,17 @@ Le `$ROOT_DIR` pourrait être le répertoire d\'un utilisateur particulier.
 
 ### Méthode automatique 
 
-À partir de FreeCAD 0.17, utilisez le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) dans **Outils → Addon manager** pour installer une macro incluse dans le dépôt [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros).
+À partir de FreeCAD 0.17, utilisez le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) dans **Outils → Gestionnaire des extensions** pour installer une macro incluse dans le dépôt [FreeCAD-macros](https   *//github.com/FreeCAD/FreeCAD-macros).
 
 
 <div class="mw-collapsible-content">
 
-Dans les versions précédentes de FreeCAD, vous pouviez utiliser deux méthodes automatisées pour installer des macros et d'autres addons   *
+Dans les versions précédentes de FreeCAD, vous pouviez utiliser deux méthodes automatisées pour installer des macros et d'autres extensions    *
 
--   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * elle-même une macro, elle était le précurseur du gestionnaire d\'addon et est hébergée dans le répertoire [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Vous n\'avez pas besoin d\'utiliser cet outil dans les nouvelles installations de FreeCAD.
+-   [addons_installer.FCMacro](https   *//github.com/FreeCAD/FreeCAD-addons)   * elle-même une macro, elle était le précurseur du gestionnaire des extensions et est hébergée dans le répertoire [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Vous n\'avez pas besoin d\'utiliser cet outil dans les nouvelles installations de FreeCAD.
 -   [freecad-pluginloader](https   *//github.com/microelly2/freecad-pluginloader)   * également une macro, elle pourrait être utilisée pour installer de nouveaux composants dans FreeCAD. Ce n\'est plus développé.
 
-La méthode recommandée pour installer des addons, c\'est-à-dire des [Ateliers externes](External_workbenches/fr.md) et les macros, est le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Toutefois, vous pouvez toujours ajouter des macros à votre système avec les méthodes manuelles décrites dans les sections suivantes. Ceci est utile si vous développez et testez votre propre code.
+La méthode recommandée pour installer des extensions, c\'est-à-dire des [Ateliers externes](External_workbenches/fr.md) et les macros, est le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Toutefois, vous pouvez toujours ajouter des macros à votre système avec les méthodes manuelles décrites dans les sections suivantes. Ceci est utile si vous développez et testez votre propre code.
 
 
 </div>

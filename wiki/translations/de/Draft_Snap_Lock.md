@@ -1,6 +1,6 @@
 ---
 - GuiCommand   */de
-   Name   *Draft ToggleSnap
+   Name   *Draft Snap Lock
    Name/de   *Entwurf FangUmschalten
    MenuLocation   *Draft → Utilities → Toggle snap
    Workbenches   *[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)

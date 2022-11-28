@@ -14,27 +14,27 @@ Les fixations dont les dimensions sont en pouces ont des icônes vertes.*
 
 ## Installation
 
-1.  Installez l\'atelier Fasteners via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
+1.  Installez l\'atelier Fasteners via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
 2.  Redémarrez FreeCAD.
 3.  Créez un nouveau document.
 4.  Sélectionnez l\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width   *24px;"> [atelier Fasteners](Fasteners_Workbench/fr.md) dans la [liste déroulante des ateliers](Std_Workbench/fr.md).
 5.  En option, vous pouvez modifier la barre d\'outils et la disposition du menu    *
-    1.  Allez à    * **Edit → Preferences... → Fasteners → General settings → Toolbar screw icons grouping**..
+    1.  Allez à    * **Edition → Préférences... → Fasteners → General settings → Toolbar screw icons grouping**..
     2.  Sélectionnez l\'une des options disponibles    *
         -   
             **None**
             
-               * Toutes les fixations apparaissent dans une seule barre d\'outils. Pour voir tous les boutons disponibles, utilisez le bouton **&gt;&gt;** pour la développer.
+               * toutes les fixations apparaissent dans une seule barre d\'outils. Pour voir tous les boutons disponibles, utilisez le bouton **&gt;&gt;** pour la développer.
 
         -   
             **Separate toolbars**
             
-               * Les fixations sont regroupées dans plusieurs barres d\'outils. Il s\'agit de la disposition par défaut.
+               * les fixations sont regroupées dans plusieurs barres d\'outils. Il s\'agit de la disposition par défaut.
 
         -   
             **Dropdown buttons**
             
-               * Les fixations sont regroupées dans des barres d\'outils avec des boutons déroulants.
+               * les fixations sont regroupées dans des barres d\'outils avec des boutons déroulants.
     3.  Redémarrez FreeCAD.
 
 ## Utilisation
@@ -214,9 +214,15 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width   *32px;"> **ISO 7048** Vis à tête cylindrique avec évidement transversal de type H.
 
+-   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width   *32px;"> **GOST 1144-3** Vis à bois à tête demi-ronde avec empreinte en croix de type H.
+
+-   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width   *32px;"> **GOST 1144-4** Vis à bois à tête demi-ronde avec empreinte en croix de type H.
+
 ### Autres têtes de boulon 
 
--   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** Boulon à tête carrée - boulon de carrosserie
+-   <img alt="" src=images/Fasteners_DIN603.svg  style="width   *32px;"> **DIN 603** Boulon à tête carrée - boulon de carrosserie.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width   *32px;"> **ASME B18.5** Boulon à tête carrée - boulon de carrosserie.
 
 ### Écrous
 
@@ -237,8 +243,6 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_GOST11860-1.svg  style="width   *32px;"> **GOST 11860-1** Écrou borgne.
 
--   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** Écrou en T.
-
 -   <img alt="" src=images/Fasteners_DIN557.svg  style="width   *32px;"> **DIN 557** Écrou carré.
 
 -   <img alt="" src=images/Fasteners_DIN562.svg  style="width   *32px;"> **DIN 562** Écrou carré.
@@ -250,6 +254,12 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width   *32px;"> **ASME B18.2.2.4A** Écrou hexagonal UNC.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width   *32px;"> **ASME B18.2.2.4B** Écrou mince hexagonal UNC.
+
+### Écrous pour rainures en T 
+
+-   <img alt="" src=images/Fasteners_DIN508.svg  style="width   *32px;"> **DIN 508** Écrou pour rainures en T.
+
+-   <img alt="" src=images/Fasteners_GN507.svg  style="width   *32px;"> **GN 507** Écrou pour rainures en T.
 
 ### Rondelles
 
@@ -270,6 +280,14 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width   *32px;"> **ASME B18.21.1.12B** Rondelle UN, série normale.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width   *32px;"> **ASME B18.21.1.12C** Rondelle UN, série large.
+
+### Circlips
+
+-   <img alt="" src=images/Fasteners_DIN471.svg  style="width   *32px;"> **DIN 471** Circlips extérieurs.
+
+-   <img alt="" src=images/Fasteners_DIN472.svg  style="width   *32px;"> **DIN 472** Circlips intérieurs.
+
+-   <img alt="" src=images/Fasteners_DIN6799.svg  style="width   *32px;"> **DIN 6799** Bague d\'arrêt pour arbre.
 
 ### Divers
 

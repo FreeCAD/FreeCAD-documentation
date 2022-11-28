@@ -39,6 +39,8 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width   *32px;"> [Mapuj szkic na powierzchnię](Sketcher_MapSketch/pl.md)   * mapuje szkic do wcześniej wybranej płaszczyzny lub ściany aktywnej bryły.
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md)   * Sprawdza odchylenia różnych punktów i dopasowuje je.
+
 ### Narzędzia modelujące 
 
 #### Narzędzia odniesienia 

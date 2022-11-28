@@ -21,6 +21,15 @@ import ifcopenshell
 
 IfcOpenShell can be installed in various ways depending on your operating system and Python environment. In the past, IfcOpenShell was a bit difficult to install as it needed to be compiled for your specific system; however, as of this writing (2020) it is easier to start using it, as it is now included together with FreeCAD in many FreeCAD distributions. In general, it is advisable to use one of these pre-compiled distributions, and only compile it yourself if you are an advanced user.
 
+### Pip
+
+The easiest way to install IfcOpenShell is using [pip](https   *//pypi.org/project/pip/). Once pip is installed on your system, you can [install](https   *//datatofish.com/install-package-python-using-pip/) IfcOpenShell easily by issuing from a terminal window   *
+
+
+```python
+pip install ifcopenshell
+```
+
 ### Conda
 
 For Windows and MacOS systems, FreeCAD distributions put together with the [Conda](Conda.md) package manager usually include IfcOpenShell already so no further installation is necessary. Get the appropriate distribution from the [Download](Download.md) page.

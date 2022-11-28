@@ -158,7 +158,7 @@ cliccare semplicemente nello spazio vuoto della vista 3D (Con lo stile di Naviga
 5\. The previous operations create a smaller cube inside a bigger cube. To visualize this, we can modify the **View** properties in the [property editor](property_editor.md).
 
    *   5.1. Select `Cube001`, the smaller cube, in the [tree view](tree_view.md), and change the color. In the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to `2.0`.
-   *   5.2. Select `Cube`, the larger cube, in the [tree view](tree_view.md), and change the transparency. In the **View** tab, change the value of **Transparency** to `70`.
+   *   5.2. Select `Cube`, the larger cube, in the [tree view](tree_view.md). In the **View** tab, change the value of **Transparency** to `70`.
 
 ![](images/01_T03_Part_cubes_visibility.png ) 
 *Solid cube inside another solid cube*
@@ -183,14 +183,14 @@ cliccare semplicemente nello spazio vuoto della vista 3D (Con lo stile di Naviga
    *   7.4. Change **Height** to `120 mm`.
    *   7.5. Open the [Placement](Std_Placement.md) dialog.
    *   7.6. Change **Y** to `60 mm`.
-   *   7.7. Change the **Rotation** to `Rotation axis with angle`; **Axis** to `X`, and **Angle** to `90 deg`.
+   *   7.7. Change the **Rotation** to `Rotation axis with angle`; **Axis** to `X` (by setting the `X`, `Y` and `Z` values of the axis inputboxes to `0`, `0` and `1` respectively, `Z` is the third inputbox), and **Angle** to `90 deg`.
    *   7.8. Press the **OK** button to close the dialog.
 
 8\. Insert another cylinder. This time create a duplicate so that the radius and height don\'t have to be changed, only its placement.
 
    *   8.1. Select `Cylinder001` in the [tree view](tree_view.md), and go to the menu **Edit → [Duplicate selection](Std_DuplicateSelection.md)**. This will create `Cylinder002`.
    *   8.2. Open the [Placement](Std_Placement.md) dialog.
-   *   8.3. Change **X** to `-60 mm`.
+   *   8.3. Change **X** to `-60 mm`, and change **Y** back to `0 mm`.
    *   8.4. Change the **Rotation** to `Rotation axis with angle`; **Axis** to `Y`, and **Angle** to `90 deg`.
    *   8.5. Press the **OK** button to close the dialog.
 

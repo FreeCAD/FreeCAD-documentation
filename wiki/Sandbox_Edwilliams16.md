@@ -123,7 +123,7 @@ See <https   *//en.wikipedia.org/wiki/Rotation_matrix#In_three_dimensions>
 
 rot = FreeCAD.Rotation(Vector(0,1,0),Vector(-1,0,0),Vector(0,0,1),'ZXY')
 
-For example, rotates x-\>y, y-\>-x and z-\>z . Because of potential numerical error, the target triad may not be exactly orthogonal, the optional string \'ZXY\' gives the priority order of the calculation. (Here the Z-axis is taken as is, the X-axis is orthogonalized and the Y axis is ignored.)
+for example, rotates x-\>y, y-\>-x and z-\>z . The target triad need not be orthogonal (or even normalized), the optional string \'ZXY\' gives the priority order of the calculation. Here the Z-axis is mapped as given by the third argument, the X-axis target is orthogonalized to the result, and the Y axis target is ignored. The new Y-axis is constructed by the right hand rule from the constructed axes.
 
 Of these, axis and angle is the most commonly used rotation constructor. To rotate v1 around the axis given by v2 by 30 degrees, we would use   *
 

@@ -1,6 +1,6 @@
 ---
 - GuiCommand   */it
-   Name   *Draft ToggleSnap
+   Name   *Draft Snap Lock
    Name/it   *Attiva/Disattiva
    Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    MenuLocation   *Draft → [Aggancio](Draft_Snap/it.md) → Attiva/Disattiva

@@ -48,15 +48,15 @@ All work in Part Design begins with a [Body](Glossary#Body.md). Then we will bui
 
 *Note   * it\'s possible that the **OK** button may not be visible if the side panel is not wide enough. You can make it wider by dragging its right border. Place your mouse pointer over the border; when the pointer changes to a two-way arrow, press and hold the left mouse button and drag.*
 
-Once you click OK, FreeCAD automatically switches to the [Sketcher workbench](Sketcher_Workbench.md) and opens the sketch in editing mode   *
+Once you click OK, FreeCAD automatically switches to the [Sketcher workbench](Sketcher_Workbench.md) and opens the sketch in edit mode   *
 
 ![](images/Tut17_sketcherempty.png )
 
 ### Create the sketch 
 
-Next you will want to use the <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *24px;"> [Polyline](Sketcher_CreatePolyline.md) tool and make a shape roughly like that in the next image. It does not need to be perfect as the final shape is done with constraints. Once you have the basic shape, we will start applying the constraints. If you had Auto constraints on, some of these constraints will have been applied automatically, if not, do the following. But first make sure that you have exited the Polyline tool by right-clicking or pressing **ESC** twice; the mouse cursor should turn back from a cross-hair to the standard arrow cursor. (Don\'t press **ESC** a third time or you will exit the sketch editing mode; if this happens, click on the Model tab, then double-click the Sketch element in the tree, or right-click and select **Edit sketch** in the contextual menu.)
+Next you will want to use the <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width   *24px;"> [Polyline](Sketcher_CreatePolyline.md) tool and make a shape roughly like that in the next image. It does not need to be perfect as the final shape is done with constraints. Once you have the basic shape, we will start applying the constraints. If you had Auto constraints on, some of these constraints will have been applied automatically, if not, do the following. But first make sure that you have exited the Polyline tool by right-clicking or pressing **ESC** twice; the mouse cursor should turn back from a cross-hair to the standard arrow cursor. Don\'t press **ESC** a third time or you will exit edit mode; if this happens, click on the Model tab, then double-click the Sketch element in the tree, or right-click and select **Edit sketch** in the context menu. To avoid leaving edit mode when pressing **Esc** too often, change the **Esc can leave sketch edit mode** preference (<small>(v0.19)</small> ), see [Sketcher Preferences](Sketcher_Preferences#General.md).
 
-*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed.(The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
+*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed. (The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
 
 1.  Select the two horizontal lines with your mouse by clicking on them, and once selected, click on the <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width   *24px;"> [horizontal constraint](Sketcher_ConstrainHorizontal.md).
 2.  Select the vertical line on the right and then click on the <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width   *24px;"> [vertical constraint](Sketcher_ConstrainVertical.md).
@@ -90,7 +90,7 @@ After the face is selected, click on the New sketch icon in the toolbar or from 
 ![](images/tut17_slot_unconstrained.png )
 
 1.  Right click to end the External geometry mode
-2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Coinstrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
+2.  Select that point you just made available with the External geometry tool and then select the upper right vertex of the rectangle and click on the <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width   *24px;"> [Constrain coincident](Sketcher_ConstrainCoincident.md). At this point the sketch should be fully constrained and look like the next image.
 
 ![](images/tut17_slote_constrained.png )
 

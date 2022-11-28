@@ -29,7 +29,7 @@ Sélectionnez un objet et exécutez la macro. Il affichera dans une boîte de me
 
 ### Installation
 
-La macro est disponible via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [dépôt FreeCAD-macro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Information/SimpleProperties.FCMacro)
+La macro est disponible via le [Gestionnaire des extensions](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [dépôt FreeCAD-macro](https   *//github.com/FreeCAD/FreeCAD-macros/blob/master/Information/SimpleProperties.FCMacro)
 
 Pour des explications plus détaillées, consultez la page [Comment installer les macros](How_to_install_macros/fr.md).
 

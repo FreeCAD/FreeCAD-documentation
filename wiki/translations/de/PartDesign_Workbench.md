@@ -41,6 +41,8 @@ in den [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md).
 
 -   <img alt="" src=images/Sketcher_MapSketch.png‎  style="width   *32px;"> [Eine Skizze einer Fläche zuordnen](Sketcher_MapSketch/de.md)   * Ordnet eine Skizze einer zuvor ausgewählten Ebene oder einer Fläche des aktiven Körpers zu.
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Validate sketch](Sketcher_ValidateSketch.md)   * verifies the tolerance of different points and adjusts them.
+
 ### Modellierungswerkzeuge Part Design 
 
 #### Bezugsswerkzeuge

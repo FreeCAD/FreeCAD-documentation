@@ -14,6 +14,9 @@
 
 La commande **Std Apparence** affiche les propriétés d\'affichage du [Panneau des tâches](Task_Panel/fr.md) pour les objets sélectionnés.
 
+<img alt="" src=images/DlgDisplayProperties.png  style="width   *250px;"> 
+*Le panneau des tâches propriétés d'affichage*
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
@@ -38,6 +41,7 @@ La commande **Std Apparence** affiche les propriétés d\'affichage du [Panneau 
 -   **Diagramme de couleur   *** non pris en charge pour le moment.
 -   **Couleur de la forme   *** définit la propriété **Shape Color**. Appuyez sur le bouton pour ouvrir la boîte de dialogue Sélectionner une couleur.
 -   **Couleur de trait   *** définit la propriété **Line Color**. Appuyez sur le bouton pour ouvrir la boîte de dialogue Sélectionner une couleur.
+-   **Couleur du point    *** définit la propriété **Point Color**. Appuyez sur le bouton pour ouvrir la boîte de dialogue Sélectionner une couleur.
 
 ### Affichage
 

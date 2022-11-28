@@ -3,6 +3,20 @@ Această pagină este un glosar de termeni și definiții comune ale FreeCAD.
 
 Salt la literă   * {{CompactTOC|center=yes}}
 
+## 0-9
+
+
+{{gloss}}
+
+
+{{term|3D view|content=[3D view](3D_view.md)}}
+
+
+{{defn|defn=The 3D view is a component of the FreeCAD [interface](Interface.md). It shows a 3D representation of the model.}}
+
+
+{{glossend}}
+
 
 <div class="mw-translate-fuzzy">
 
@@ -124,6 +138,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## C
 
 
@@ -223,6 +240,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 {{glossend}}
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
 ## D
@@ -299,6 +319,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## F
 
@@ -392,6 +415,12 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## G
 
 
@@ -430,6 +459,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+</div>
+
 ## H
 
 
@@ -443,6 +475,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+<div class="mw-translate-fuzzy">
 
 ## I
 
@@ -464,6 +499,12 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## J
 
 
@@ -477,6 +518,12 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## K
 
@@ -497,6 +544,12 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## L
 
@@ -542,6 +595,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+</div>
+
 ## M
 
 
@@ -586,6 +642,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+<div class="mw-translate-fuzzy">
+
 ## N
 
 
@@ -611,6 +670,12 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## O
 
@@ -664,6 +729,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -822,6 +890,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+<div class="mw-translate-fuzzy">
+
 ## R
 
 
@@ -853,6 +924,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -958,6 +1032,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## T
 
 
@@ -1017,6 +1094,12 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## U
 
 
@@ -1044,6 +1127,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 {{glossend}}
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
 ## V
@@ -1068,6 +1154,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## W
 
@@ -1097,6 +1186,9 @@ Salt la literă   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
 
 ## X
 

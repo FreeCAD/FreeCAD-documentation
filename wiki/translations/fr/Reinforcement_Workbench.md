@@ -11,7 +11,7 @@ Image   *Arch_Rebar_Straight_example.png\|[Armature droite](Arch_Rebar_Straight/
 
 ## Installation
 
-L\'atelier Reinforcement n\'est pas fourni avec le package FreeCAD par défaut mais peut être facilement installé via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Pour l\'installer, **Outils → [Gestionnaire d'Addon](Std_AddonMgr/fr.md)**. Le code de l\'atelier Reinforcement est [hébergé et développé sur github](https   *//github.com/amrit3701/FreeCAD-Reinforcement) et peut également être installé manuellement en le copiant dans le répertoire **MOD** de FreeCAD.
+L\'atelier Reinforcement n\'est pas fourni avec le package FreeCAD par défaut mais peut être facilement installé via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour l\'installer, **Outils → [Gestionnaire des extensions](Std_AddonMgr/fr.md)**. Le code de l\'atelier Reinforcement est [hébergé et développé sur github](https   *//github.com/amrit3701/FreeCAD-Reinforcement) et peut également être installé manuellement en le copiant dans le répertoire **MOD** de FreeCAD.
 
 ## Outils
 

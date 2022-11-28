@@ -2,7 +2,7 @@
 - GuiCommand   */fr
    Name   *Sketcher ValidateSketch
    Name/fr   *Sketcher Valider l'esquisse
-   MenuLocation   *Sketch → Valider l'esquisse...
+   MenuLocation   *Esquisse → Valider l'esquisse...
    Workbenches   *[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
    SeeAlso   *[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md), [Problème de dénomination topologique](Topological_naming_problem/fr.md)
 ---
@@ -18,13 +18,13 @@ L\'utilitaire **Valider l\'esquisse** permet d\'analyser et de réparer une esqu
 
 ## Utilisation
 
-1.  Cet outil ne peut pas être utilisé sur une esquisse en mode édition. Si nécessaire, quittez le mode d\'édition en effectuant l\'une des opérations suivantes   *
+1.  Cet outil ne peut pas être utilisé sur une esquisse en mode édition. Si nécessaire, quittez le mode d\'édition en effectuant l\'une des opérations suivantes    *
     -   Appuyez sur le bouton **[<img src=images/Sketcher_LeaveSketch.svg style="width   *16px"> [Quitter l'esquisse](Sketcher_LeaveSketch/fr.md)**.
     -   Appuyez sur le bouton **Fermer** en haut du [Panneau des tâches](Task_panel/fr.md).
-    -   Utilisez le raccourci clavier   * **Echap** (si activé dans [Sketcher Préférences](Sketcher_Preferences/fr#G.C3.A9n.C3.A9ral.md)).
+    -   Utilisez le raccourci clavier    * **Echap** (si activé dans [Sketcher Préférences](Sketcher_Preferences/fr#G.C3.A9n.C3.A9ral.md)).
 2.  Sélectionnez l\'esquisse à valider dans la [Vue en arborescence](Tree_view/fr.md) ou en cliquant sur l\'une de ses arêtes dans la [Vue 3D](3D_view/fr.md).
-3.  Pour ouvrir l\'utilitaire de validation d\'esquisse, effectuez l\'une des opérations suivantes   *
-    -   Sélectionnez l\'option **Sketch → Valider l'esquisse...** dans le menu.
+3.  Pour ouvrir l\'utilitaire de validation d\'esquisse, effectuez l\'une des opérations suivantes    *
+    -   Sélectionnez l\'option **Esquisse → Valider l'esquisse...** dans le menu.
     -   Appuyez sur le bouton **[<img src=images/Sketcher_ValidateSketch.svg style="width   *16px"> [Valider l'esquisse](Sketcher_ValidateSketch/fr.md)** (non disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md)).
 4.  Voir [Options](#Options.md) ci-dessous pour les opérations disponibles.
 5.  Appuyez sur le bouton **Fermer** lorsque vous avez terminé.
@@ -59,7 +59,7 @@ Une géométrie dégénérée peut résulter des actions du solveur dans une esq
 
 Par exemple, si une ligne est obligée de se raccourcir pour devenir presque un point.
 
-Autres exemples   * une ligne de longueur zéro ou un cercle/arc de rayon zéro.
+Autres exemples    * une ligne de longueur zéro ou un cercle/arc de rayon zéro.
 
 ### Géométrie externe inversée 
 

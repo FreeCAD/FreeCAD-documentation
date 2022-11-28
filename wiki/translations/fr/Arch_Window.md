@@ -38,7 +38,7 @@ Toutes les informations applicables à une [fenêtre](Arch_Window.md) s\'appliqu
 
 #### Préréglages supplémentaires 
 
-Si vous installez la [Bibliothèques de pièces](Parts_Library_Workbench/fr.md) à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), l\'outil Fenêtre recherchera dans cette bibliothèque des préréglages supplémentaires. Ces préréglages sont des fichiers FreeCAD contenant une seule fenêtre basée sur une esquisse paramétrique avec des contraintes nommées. Vous pouvez placer des préréglages supplémentaires dans le répertoire **parts_library** afin qu\'ils soient trouvés par l\'outil Fenêtre.
+Si vous installez l\'[Atelier Parts Library](Parts_Library_Workbench/fr.md) à partir du [Gestionnaire des extensions](Std_AddonMgr/fr.md), l\'outil Fenêtre recherchera dans cette bibliothèque des préréglages supplémentaires. Ces préréglages sont des fichiers FreeCAD contenant une seule fenêtre basée sur une esquisse paramétrique avec des contraintes nommées. Vous pouvez placer des préréglages supplémentaires dans le répertoire **parts_library** afin qu\'ils soient trouvés par l\'outil Fenêtre.
 
 
 **$ROOT_DIR/Mod/parts_library/Architectural Parts/Doors/Custom/**

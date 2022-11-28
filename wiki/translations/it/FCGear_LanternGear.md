@@ -22,7 +22,7 @@ Poiché la loro costruzione è molto semplice, sono tra le più antiche forme di
 
 L\'ingranaggio a lanterna combinato con una catena a rulli rappresenta un\'alternativa economica e robusta alle trasmissioni a pignone e cremagliera. Muovendo la catena tesa tangenzialmente lungo la ruota dentata, il movimento lineare della catena viene convertito in un movimento rotatorio della ruota. Viceversa, il movimento lineare della catena può essere ottenuto anche dal moto rotatorio della ruota dentata (moto o bicicletta).
 
-![](images/Latern_Gear_example.png ) 
+![](images/Lantern-Gear_example.png ) 
 *Above   * Lantern gear*
 
 ## Usage

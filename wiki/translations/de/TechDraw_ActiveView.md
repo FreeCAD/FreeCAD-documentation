@@ -58,10 +58,7 @@ Siehe [TechDraw Bild](TechDraw_Image/de#Eigenschaften.md).
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug AktiveAnsicht steht für [Makros](Macros/de.md) oder die [Python-Konsole](Python_console/de.md) nicht zur Verfügung. Stattdessen sollte [Std Ansicht Aufnehmen](Std_ViewScreenShot/de.md) verwendet werden.
 

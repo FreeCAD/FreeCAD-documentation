@@ -37,9 +37,11 @@ Są to narzędzia do tworzenia obiektów widoku.
 
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *32px;"> [Wstaw wiele połączonych widoków](TechDraw_ProjectionGroup/pl.md)   * otwiera okno dialogowe do tworzenia wielu widoków obiektu z róznych kierunków.
 
--   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Wstaw widok sekcji na stronę](TechDraw_SectionView/pl.md)   * dodaje widok przekroju dla aktualnego widoku.
+-   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width   *" height="32px;"> Wstaw widok przekroju   *
 
--   <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Insert Complex Section View](TechDraw_ComplexSection.md)   * inserts a cross-section view of an existing view based on a profile. <small>(v1.0)</small> 
+-   <img alt="" src=images/TechDraw_SectionView.svg  style="width   *32px;"> [Wstaw widok przekroju](TechDraw_SectionView/pl.md)   * dodaje widok przekroju dla aktualnego widoku.
+
+   ** <img alt="" src=images/TechDraw_ComplexSection.svg  style="width   *32px;"> [Wstaw przekrój złożony](TechDraw_ComplexSection/pl.md)   * wstawia widok przekroju istniejącego widoku na podstawie profilu. {{Version/pl|1.0}}
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width   *32px;"> [Wstaw widok szczegółu](TechDraw_DetailView/pl.md)   * dodaje widok szczegółu części wybranego widoku.
 
@@ -323,10 +325,11 @@ Są to narzędzia do eksportu zawartości stron do innych programów.
 
 ## Tworzenie skryptów 
 
-Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Macros/pl.md) oraz w konsoli [Python](Python/pl.md) przy użyciu dwóch interfejsów API.
+Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Macros/pl.md) oraz w konsoli [Python](Python/pl.md). Więcej informacji można znaleźć na stronach   *
 
--   [TechDraw API](TechDraw_API/pl.md)
--   [TechDrawGui API](TechDrawGui_API/pl.md)
+-   [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/),
+-   [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md),
+-   [Pola tekstowe do edycji](TechDraw_PageDefault/pl#Pola_tekstowe_do_edycji.md).
 
 ## Ograniczenia
 

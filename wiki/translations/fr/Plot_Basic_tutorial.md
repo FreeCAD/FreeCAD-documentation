@@ -53,7 +53,7 @@ except ImportError   *
 Plot.figure("TrigonometricTest")
 ```
 
-Dans FreeCAD version 0.19 il est nécessaire d\'installer l\'<img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), alors qu\'à partir de la version 0.20 de FreeCAD, l\'add-on externe n\'est plus nécessaire pour réaliser des tracés. Les commandes ci-dessus vont créer un nouvel onglet dans la [Zone de vue principale](Main_view_area/fr.md) appelé **TrigonometricTest**. Le document nouvellement créé possède déjà un ensemble d\'axes. Chaque document de tracé possède au moins un jeu d\'axes.
+Dans FreeCAD version 0.19 il est nécessaire d\'installer l\'<img alt="" src=images/Workbench_Plot.svg  style="width   *24px;"> [atelier Plot](Plot_Workbench/fr.md) avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md), alors qu\'à partir de la version 0.20 de FreeCAD, l\'extension externe n\'est plus nécessaire pour réaliser des tracés. Les commandes ci-dessus vont créer un nouvel onglet dans la [Zone de vue principale](Main_view_area/fr.md) appelé **TrigonometricTest**. Le document nouvellement créé possède déjà un ensemble d\'axes. Chaque document de tracé possède au moins un jeu d\'axes.
 
 ### Fonctions de dessin 
 
@@ -88,7 +88,7 @@ La commande **plot** permet d\'utiliser l\'étiquette de la série comme argumen
 
 ### Affichage de la grille et de la légende 
 
-Changez l\'atelier de FreeCAD en l\'[atelier Plot](Plot_Workbench/fr.md) avec **Affichage → Atelier → Plot**. (vous devez d\'abord installer le module complémentaire avec le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)). Une fois l\'atelier chargé, utilisez l\'outil [grille](Plot_Grid/fr.md) pour afficher la grille.
+Changez l\'atelier de FreeCAD en l\'[atelier Plot](Plot_Workbench/fr.md) avec **Affichage → Atelier → Plot**. (vous devez d\'abord installer l\'extension avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md)). Une fois l\'atelier chargé, utilisez l\'outil [grille](Plot_Grid/fr.md) pour afficher la grille.
 
 ![](images/Plot_Grid.svg‎ ) 
 *Afficher/masquer l'icône de l'outil de grille*

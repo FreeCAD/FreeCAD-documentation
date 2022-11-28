@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl zeigt die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste, die die **<img src="images/Draft_Grid.svg" width=16px> [Draft UmschaltenGitter](Draft_ToggleGrid/de.md)** und **<img src="images/Snap_Lock.svg" width=16px> [Draft UmschaltenFang](Draft_Snap_Lock/de.md)** Schaltflächen sowie die unterschiedlichen [Fangmethoden](Draft_Snap/de.md). enthält.
+Dieser Befehl zeigt die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste, die die **<img src="images/Draft_Grid.svg" width=16px> [Draft UmschaltenGitter](Draft_ToggleGrid/de.md)** und **<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft UmschaltenFang](Draft_Snap_Lock/de.md)** Schaltflächen sowie die unterschiedlichen [Fangmethoden](Draft_Snap/de.md). enthält.
 
 
 </div>

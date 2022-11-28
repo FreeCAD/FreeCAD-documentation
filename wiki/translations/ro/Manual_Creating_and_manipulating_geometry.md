@@ -64,7 +64,13 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 De exemplu, hai să găsim zona de mai sus a fiecărei fațete a formei noastre de cutie de mai sus   *
+
+
+</div>
 
 
 ```python
@@ -160,7 +166,13 @@ E3 = Part.Edge(C1)
 E4 = Part.Edge(C2)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Alternativ, geometrii de bază au, de asemenea, o funcție toShape () care face exact același lucru   *
+
+
+</div>
 
 
 ```python
@@ -169,7 +181,13 @@ E2 = L2.toShape()
  ...
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Odată ce avem o serie de margini, putem acum să formăm o polilinie, oferindu-i o listă de muchii. Trebuie să avem grijă de ordinea lor.
+
+
+</div>
 
 
 ```python

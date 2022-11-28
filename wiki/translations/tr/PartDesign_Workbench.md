@@ -102,6 +102,8 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 </div>
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Validate sketch](Sketcher_ValidateSketch.md)   * verifies the tolerance of different points and adjusts them.
+
 ### Parça Tasarım modelleme araçları 
 
 #### Referans araçları 

@@ -67,9 +67,6 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 <img alt="Preferencje wymiarów" src=images/TechDraw_PreferencesDimensions.png  style="width   *350px;">
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Standard i wygląd**   * Norma stosowana dla wartości wymiarów. Różnica pomiędzy standardami przedstawiona jest na zdjęciu   * ![\|500px\|Różnice pomiędzy wspieranymi normami. *([źródło ilustracji](images/https   *//forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))*](TechDraw_Dimension_standardization.png )
 
    *   
@@ -81,8 +78,8 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 -   **Zastosuj wartości globalne dla liczby miejsc dziesiętnych**   * użyj liczby miejsc po przecinku z opcji [preferencje ogólne](Preferences_Editor/pl#Jednostki.md).
 -   **Pokaż jednostki**   * do wartości należy dołączyć specyfikację jednostek (mm, in, itp.).
--   **Alternatywne miejsca dziesiętne**   * jeśli opcja Użyj globalnych miejsc dziesiętnych nie jest zaznaczona, należy użyć tej liczby miejsc po przecinku.
--   **Format domyślny**   * Format własny dla tekstu wymiarowego. Wykorzystuje specyfikację formatu [printf](https   *//en.wikipedia.org/wiki/Printf_format_string).
+-   **Alternatywne miejsca dziesiętne**   * Liczba miejsc dziesiętnych, jeżeli nie wybrano opcji *Użyj globalnych ustawień odnośnie liczb miejsc po przecinku* i nie określono opcji *Format wymiaru*.
+-   **Format wymiaru**   * Format własny dla tekstu wymiarowego. Wykorzystuje specyfikację formatu [printf](https   *//en.wikipedia.org/wiki/Printf_format_string).
 -   **Rozmiar czcionki**   * rozmiar tekstu dla tekstu wymiarów.
 -   **Skala tekstu tolerancji**   * Ustawienie wielkości czcionki tolerancji. Mnożnik wymiaru **[rozmiaru czcionki](TechDraw_Preferences/pl#Wymiary_2.md)**.
 -   **Symbol średnicy**   * wymiary średnicy będą poprzedzone tym symbolem.
@@ -91,9 +88,6 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 -   **Format Spec**   * formatuje tekst wymiarowy. Używa [specyfikator formatu printf](https   *//en.wikipedia.org/wiki/Printf_format_string).
 -   **Współczynnik zwiększenia odstępu - ISO**   * Odstęp między punktem wymiarowym a początkiem linii pomocniczych dla wymiarów ISO. {{Version/pl|1.0}}
 -   **Współczynnik zwiększenia odstępu - ASME**   * Odstęp pomiędzy punktem wymiarowym a początkiem linii pomocniczych dla wymiarów ASME. {{Version/pl|1.0}}
-
-
-</div>
 
 ## Adnotacje
 

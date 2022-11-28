@@ -24,7 +24,7 @@ Un combo module-atelier qui ajoute un éditeur CadQuery à FreeCAD. Veuillez con
 
 ## Installation
 
-Installer le avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Installer le avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ## Liens
 

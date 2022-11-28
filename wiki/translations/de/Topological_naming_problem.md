@@ -71,13 +71,7 @@ Die Umschlüsselung einer Skizze auf diese Weise kann bei jedem topologischen Be
 
 Der [Abhängigkeitsgraph](Std_DependencyGraph/de.md) ist ein Werkzeug, das hilfreich ist, um die Beziehungen zwischen den verschiedenen Körpern im Dokument zu beobachten. Die Verwendung des ursprünglichen Modellierungs Arbeitsablaufs zeigt die direkte Beziehung, die zwischen den Skizzen und den Polstern besteht. Wie eine Kette ist es leicht zu erkennen, dass diese direkte Abhängigkeit mit topologischen Benennungsproblemen behaftet sein wird, wenn sich eines der Glieder in der Reihenfolge ändert.
 
-
-<div class="mw-translate-fuzzy">
-
-Wie auf der Seite [\|Merkmals Bearbeitung](feature_editing/de.md) erläutert, besteht eine Lösung für dieses Problem darin, Skizzen nicht auf Flächen, sondern auf Bezugsebenen zu stützen, die von den Hauptebenen der [PartDesign Körper](PartDesign_Body/de.md) Ursprungs versetzt sind.
-
-
-</div>
+Wie auf der Seite [Formelemente bearbeiten](Feature_editing/de.md) erläutert, besteht eine Lösung für dieses Problem darin, Skizzen nicht auf Flächen, sondern auf Bezugsebenen zu stützen, die mit einem Abstand an die Hauptebenen des Ursprungs der [PartDesign Körper](PartDesign_Body/de.md) angefügt wurden.
 
 1\. Wähle den Ursprung des [PartDesign Body](PartDesign_Body/de.md) und stelle sicher, dass er sichtbar ist. Wähle dann die XY-Ebene aus und klicke auf [PartDesign Fläche](PartDesign_Plane/de.md). Gib im Anhang des Dialogfelds für den Versatz einen Versatz in Z-Richtung an, so dass die Bezugsebene koplanar mit der Oberseite des ersten Polsters ist.
 
@@ -118,17 +112,11 @@ Bezugsobjekte, [Punkte](PartDesign_Point/de.md), [Linien](PartDesign_Line/de.md)
 
 ## Verweise
 
-
-<div class="mw-translate-fuzzy">
-
--   [PartDesign Verrundung - Topologische Benennung](PartDesign_Fillet/de#Topological_naming.md)
+-   [PartDesign Verrundung - Topologische Benennung](PartDesign_Fillet/de#Topologische_Benennung.md)
 -   [Topological Naming, My Take](https   *//forum.freecadweb.org/viewtopic.php?t=27278) , eine mögliche Lösung, von realthunder.
 -   [Topological Naming Project](Topological_Naming_Project.md)   * Idee um das Problem zu lösen, von ickby.
 -   [Topologische Daten skripten](Topological_data_scripting/de.md)
 -   [Formelemente bearbeiten](Feature_editing/de.md)   * enthält alternative Hinweise für stabile Modellierungstechniken.
-
-
-</div>
 
 ## Videos
 

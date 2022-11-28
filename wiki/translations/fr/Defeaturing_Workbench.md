@@ -20,7 +20,7 @@ Remarque   * davantage d\'outils avancés de Defeaturing pourront être utilisé
 
 ### Installation automatique (recommandé) 
 
-Utilisation de FreeCAD <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) disponible dans v0.17 + via **Outils → Gestionnaire d'Addon**. Recherchez l\'icône <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width   *24px;"> Defeaturing workbench. Le Gestionnaire d\'Addon complémentaires informe également l\'utilisateur lorsqu\'une nouvelle version de cet Addon complémentaire est disponible.
+Utilisation de FreeCAD <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) disponible dans v0.17 + via **Outils → Gestionnaire des extensions**. Recherchez l\'icône <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width   *24px;"> Defeaturing workbench. Le Gestionnaire des extensions complémentaires informe également l\'utilisateur lorsqu\'une nouvelle version de cette extension est disponible.
 
 ### Manuellement
 

@@ -5,7 +5,7 @@
 
 ## Introduction
 
-FEMbyGEN est un addon de FreeCAD. Il fournit une interface simple pour choisir la meilleure solution en montrant le comportement structurel de vos conceptions à l\'écran pour l\'analyse paramétrique et les situations de chargement multiples.
+FEMbyGEN est une extension de FreeCAD. Il fournit une interface simple pour choisir la meilleure solution en montrant le comportement structurel de vos conceptions à l\'écran pour l\'analyse paramétrique et les situations de chargement multiples.
 
 <img alt="" src=images/Generative_Design.png  style="width   *512px;">
 
@@ -40,7 +40,7 @@ FEMbyGEN est un addon de FreeCAD. Il fournit une interface simple pour choisir l
 
 ## Installation
 
-### Gestionnaire d\'Addon 
+### Gestionnaire des extensions 
 
 FEMbyGEN peut facilement être installé via le <img alt="" src=images/AddonManager.svg  style="width   *24px;"> [Gestionnaire d\'Addons](Std_AddonMgr/fr.md) de FreeCAD depuis menu **Outils → Gestionnaire d'Addons**.
 

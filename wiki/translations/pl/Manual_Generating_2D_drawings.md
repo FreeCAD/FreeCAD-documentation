@@ -11,7 +11,7 @@ W programie FreeCAD środowiskiem pracy odpowiedzialnym za tworzenie takich rysu
 
 Arkusze rysunków, po ukończeniu, można wydrukować lub wyeksportować jako pliki w formacie [SVG](https   *//en.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF lub [DXF](https   *//en.wikipedia.org/wiki/AutoCAD_DXF).
 
-W poniższym ćwiczeniu zobaczymy, jak stworzyć prosty rysunek modelu krzesła znajdującego się w bibliotece [FreeCAD](https   *//github.com/FreeCAD/FreeCAD-library) *(Furniture → Chairs → IkeaLikeChair)*. Biblioteka FreeCAD, może być łatwo dodana do Twojej instalacji programu *(patrz rozdział [instalacja](Manual   *Installing/pl.md) tego podręcznika)*, lub możesz po prostu pobrać model ze strony internetowej biblioteki, lub za pośrednictwem bezpośredniego łącza podanyego na dole tego rozdziału.
+W poniższym ćwiczeniu zobaczymy, jak stworzyć prosty rysunek modelu krzesła znajdującego się w bibliotece [FreeCAD](https   *//github.com/FreeCAD/FreeCAD-library) *(Industrial Design → Chairs → IkeaLikeChair)*. Biblioteka FreeCAD, może być łatwo dodana do Twojej instalacji programu *(patrz rozdział [instalacja](Manual   *Installing/pl.md) tego podręcznika)*, lub możesz po prostu pobrać model ze strony internetowej biblioteki, lub za pośrednictwem bezpośredniego łącza podanyego na dole tego rozdziału.
 
 ![](images/Exercise_TechDraw_01.svg )
 

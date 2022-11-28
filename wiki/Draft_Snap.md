@@ -10,7 +10,7 @@ Snapping is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Work
 
 ## Snap tools 
 
-These tools are available in the Draft Snap toolbar and in the [Draft snap widget](Draft_snap_widget.md).
+These tools are available in the Draft snap toolbar and in the [Draft snap widget](Draft_snap_widget.md).
 
 Note that circular edges do not have to be full circles.
 
@@ -26,7 +26,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Snap Intersection](Draft_Snap_Intersection.md)   * snaps to the intersection of two edges.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md)   * snaps to the perpendicular points on faces (<small>(v1.0)</small> ) or edges.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md)   * snaps to the perpendicular points on faces (<small>(v1.0)</small> ) and edges.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Snap Extension](Draft_Snap_Extension.md)   * snaps to an imaginary line that extends beyond the endpoints of straight edges.
 
@@ -34,13 +34,13 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Special.svg  style="width   *32px;"> [Snap Special](Draft_Snap_Special.md)   * snaps to special points defined by the object.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Near](Draft_Snap_Near.md)   * snaps to the nearest point on faces or edges.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Near](Draft_Snap_Near.md)   * snaps to the nearest point on faces and edges.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortho](Draft_Snap_Ortho.md)   * snaps to imaginary lines that cross the previous point at 0°, 45°, 90° and 135°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortho](Draft_Snap_Ortho.md)   * snaps to imaginary lines that cross the previous point at multiples of 45°.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *32px;"> [Snap Grid](Draft_Snap_Grid.md)   * snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md)   * projects the snap point onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md)   * projects snap points onto the current [working plane](Draft_SelectPlane.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md)   * shows temporary X and Y dimensions.
 
@@ -74,9 +74,9 @@ Note that after changing some preferences you must restart FreeCAD.
 -   To only snap when the **Snap mod** key is held down   *
     -   Deselect   * **Edit → Preferences... → Draft → Grid and snapping → Snapping → Always snap (disable snap mod)**.
     -   The default **Snap mod** key, **Ctrl**, can be changed   * **Edit → Preferences... → Draft → Grid and snapping → Snapping → Snap mod**.
--   To only show the Draft Snap toolbar when a command is active   *
-    -   Select   * **Edit → Preferences... → Draft → Grid and snapping → Snapping → Show Draft Snap toolbar**.
-    -   Select   * **Edit → Preferences... → Draft → Grid and snapping → Snapping → Hide Draft Snap toolbar after use**.
+-   To only show the Draft snap toolbar when a command is active   *
+    -   Select   * **Edit → Preferences... → Draft → Grid and snapping → Snapping → Show Draft snap toolbar**.
+    -   Select   * **Edit → Preferences... → Draft → Grid and snapping → Snapping → Hide Draft snap toolbar after use**.
 -   The snap symbols can be changed   * **Edit → Preferences... → Draft → Visual settings → Visual settings → Snap symbol style**.
 -   The color of the snap symbols and the dimensions of [Draft Snap Dimensions](Draft_Snap_Dimensions.md) can be changed   * **Edit → Preferences... → Draft → Visual settings → Visual settings → Color**.
 -   The mentioned single character keyboard shortcuts can be changed   * **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.

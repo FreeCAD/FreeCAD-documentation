@@ -12,7 +12,7 @@
 
 ## Описание
 
-Embed tool embeds a walled object (e.g., a pipe) into another walled object.
+Данный инструмент встраивает полый объект (например трубу) в другой полый объект.
 
 ![600px](images/JoinFeatures_Embed.png)
 
@@ -49,7 +49,7 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 
 ## Алгоритм
 
-The algorithms behind Join tools are quite simple, and understanding them is important to use the tools correctly.
+Алгоритмы, лежащие в основе инструментов объединения, довольно просты, и понимание принципов их работы важно для правильного использования данных инструментов.
 
 1\. Base object is [boolean-cut](Part_Cut.md) with Tool object. The resulting shape is a set ([compound](Part_Compound.md)) of non-intersecting solids (typically, two).
 

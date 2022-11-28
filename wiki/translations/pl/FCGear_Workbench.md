@@ -5,9 +5,9 @@
 
 ## Wprowadzenie
 
-Środowisko pracy [FCGear](FCGear_Workbench/pl.md) jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md) programu FreeCAD do wytwarzania różnych typów kół zębatych i ślimakowych. Modelowanie parametryczne pozwala na zmianę wymaganej geometrii w dowolnym momencie. Na przykład, poprzez zmianę kilku parametrów, koło zębate ewolwentowe staje się kołem zębatym walcowym, kołem zębatym śrubowym lub podwójnym kołem śrubowym.
+Środowisko pracy **FCGear** jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md) programu FreeCAD do wytwarzania różnych typów kół zębatych i ślimakowych. Modelowanie parametryczne pozwala na zmianę wymaganej geometrii w dowolnym momencie. Na przykład, poprzez zmianę kilku parametrów, koło zębate ewolwentowe staje się kołem zębatym walcowym, kołem zębatym śrubowym lub podwójnym kołem śrubowym.
 
-Aby wyniki z FC Gear były użyteczne, wymagana jest pewna podstawowa wiedza na temat różnych typów przekładni. Moduł, średnica podziałowa lub średnica rdzenia są pojęciami powszechnymi i dlatego powinny być znane.
+Aby wyniki z FCGear były użyteczne, wymagana jest pewna podstawowa wiedza na temat różnych typów przekładni. Moduł, średnica podziałowa lub średnica rdzenia są pojęciami powszechnymi i dlatego powinny być znane.
 
 W połączeniu z drukiem 3D użytkownicy domowi mają teraz możliwość zaprojektowania i wyprodukowania kół zębatych i przekładni ślimakowych według własnego pomysłu, a w razie potrzeby dostosowania ich do warunków konstrukcyjnych.
 
@@ -45,73 +45,58 @@ Po zakończeniu instalacji narzędzia są dostępne na pasku narzędziowym Gear 
 
 ### Koło zębate ewolwentowe 
 
-   *   ![](images/Involute-Gear_example.png )
-   *   
-    
-*Od lewej do prawej   * Przekładnia czołowa, przekładnia śrubowa, podwójna przekładnia śrubowa ''(zobacz [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl.md))''*
-    
+<img alt="" src=images/Involute-Gear_example.png  style="width   *200px;"> 
+*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
 
 ### Wewnętrzna zębatka ewolwentowa 
 
-   *   ![](images/FCGear_InternalInvoluteGear-01.png )
-   *   
-    
-*Od lewej do prawej   * Przekładnia czołowa, przekładnia śrubowa, podwójna przekładnia śrubowa ''(patrz [Wewnętrzna zębatka ewolwentowa](FCGear_InternalInvoluteGear/pl.md))''*.
+<img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width   *200px;"> 
+*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md))*
 
 ### Listwa zębata ewolwentowa 
 
-   *   ![](images/Involute-Rack_example.png )
-   *   
-    
-*Przekładnia czołowa, przekładnia śrubowa, podwójna przekładnia śrubowa ''(zobacz [Listwa zębata ewolwentowa](FCGear_InvoluteRack/pl.md))''*
-    
+<img alt="" src=images/Involute-Rack_example.png  style="width   *" height="200px;"> 
+*From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
 
 ### Koło zębate cykloidalne 
 
-   *   ![](images/Cycloid-Gear_example_1.png )
-   *   
-    
-*Przekładnia czołowa, przekładnia śrubowa, podwójna przekładnia śrubowa ''(zobacz [Koło zębate cykloidalne](FCGear_CycloidGear/pl.md))''*
-    
+<img alt="" src=images/Cycloid-Gear_example_1.png  style="width   *200px;"> 
+*From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear CycloidGear](FCGear_CycloidGear.md))*
 
 ### Listwa zębata cykloidalna 
 
-   *   ![](images/FCGear_CycloidRack-01.png )
-   *   
-    
-*Od lewej do prawej   * przekładnia czołowa, przekładnia śrubowa, przekładnia śrubowa podwójna ''(zobacz również [Listwa zębata cykloidalna](FCGear_CycloidRack/pl.md))''*.
+<img alt="" src=images/FCGear_CycloidRack-01.png  style="width   *" height="200px;"> 
+*From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](FCGear_CycloidRack.md))*
 
 ### Koło zębate stożkowe 
 
-   *   ![](images/Bevel-Gear_example.png )
-   *   
-    
-*Od lewej do prawej   * Przekładnia czołowa, przekładnia śrubowa (zobacz [Koło zębate stożkowe](FCGear_BevelGear/pl.md))''*
-    
-
-### Ślimak
-
-   *   ![](images/Worm-Gear_example.png )
-   *   
-    
-*Powyżej   * Przekładnia ślimakowa ''(zobacz [Ślimak](FCGear_WormGear/pl.md))''*
-    
+<img alt="" src=images/Bevel-Gear_example.png  style="width   *150px;"> 
+*From left to right   * Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
 
 ### Koło zębate koronowe 
 
-   *   ![](images/Crown-Gear_example.png )
-   *   
-    
-*Powyżej   * Koło zębate koronowe ''(Zobacz [Koło zębate koronowe](FCGear_CrownGear/pl.md))''*
-    
+<img alt="" src=images/Crown-Gear_example.png  style="width   *150px;"> 
+*Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
 
-### Koło pasa zębatego i koło drabinkowe 
+### Ślimak
 
-   *   ![](images/Timing+Latern-gear_example.png )
-   *   
-    
-*Od lewej do prawej   * Koło pasa zębatego, koło zębate latarni ''(zobacz [Koło pasa zębatego](FCGear_TimingGear/pl.md) oraz [Koło drabinkowe](FCGear_LanternGear/pl.md))''*
-    
+<img alt="" src=images/Worm-Gear_example.png  style="width   *150px;"> 
+*Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
+
+### Timing gear 
+
+<img alt="" src=images/Timing-Gear_example.png  style="width   *150px;"> 
+*Timing gearing (see [FCGear TimingGear](FCGear_TimingGear.md))*
+
+### Lantern gear 
+
+<img alt="" src=images/Lantern-Gear_example.png  style="width   *150px;"> 
+*Lantern gearing (see [FCGear LanternGear](FCGear_LanternGear.md))*
+
+### Hypocycloid gear 
+
+<img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width   *120px;"> 
+*Hypocycloid gearing (see [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md))*
 
 ## Bibliografia
 
@@ -121,9 +106,8 @@ Po zakończeniu instalacji narzędzia są dostępne na pasku narzędziowym Gear 
 
 ## Linki do środowiska pracy FCGear 
 
--   Wiki środowiska pracy   * <https   *//github.com/looooo/FCGear/wiki>
--   FreeCAD Wiki   * [Macro_FCGear](http   *//www.freecadweb.org/wiki/index.php?title=Macro_FCGear) oraz [Bevel gear](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878)
--   Forum FreeCAD   * <http   *//forum.freecadweb.org/viewtopic.php?f=21&t=12968>
+-   FreeCAD Wiki   * [Makro FCGear](Macro_FCGear/pl.md)
+-   Forum FreeCAD   * [Przekładnia stożkowa](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=12878) oraz [FCGear](http   *//forum.freecadweb.org/viewtopic.php?f=21&t=12968)
 -   Poradniki   *
 -   Filmiki   *
 -   Pliki   *

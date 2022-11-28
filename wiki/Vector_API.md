@@ -173,7 +173,7 @@ projectToLine(point, dir) -> Base.Vector
 Projects `point` on a line that goes through the origin with the direction `dir`.
 The result is the vector from `point` to the projected point.
 The operation is equivalent to dir_n.cross(dir_n.cross(point)), where `dir_n` is
-the vector `dir` normalized. 
+the vector `dir` normalized.
 The method modifies this vector instance according to result and does not
 depend on the vector itself.
 

@@ -8,18 +8,18 @@
 
 # TechDraw PageDefault/pl
 
-## Description
+## Opis
 
 The New Default tool creates a new Page object using the the template file specified in the [TechDraw Preferences](TechDraw_Preferences.md).
 
 <img alt="" src=images/A4_LandscapeTD.svg  style="width   *400px;"> 
 *Default template that comes with TechDraw   * A4 page in landscape orientation, with editable text fields*
 
-## Usage
+## Użycie
 
 -   Press the **<img src="images/TechDraw_PageDefault.svg" width=16px> [Insert Default Page](TechDraw_PageDefault.md)** button. (An active document must exist.)
 
-## Notes
+## Uwagi
 
 -   If a Page is marked as \"do not keep updated\" either through the KeepUpdated Property or by the setting in Preferences, it will ignore changes in the 3D model. You may notice anomalies (missing geometry, missing Dimension values, etc) in the appearance of the Page. These will correct themselves once the Page is updated with the [Redraw Page](TechDraw_RedrawPage.md) tool. The Page will have this icon <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width   *24px;"> in the tree while updating is suspended. This setting also affects the startup process. If the Page is marked \"do not keep updated\" it will not be drawn at program start.
 
@@ -46,17 +46,17 @@ The New Default tool creates a new Page object using the the template file speci
 ```
     
 
-## Properties
+## Właściwości
 
 ### Data
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
 -    **Projection Type**   * Default projection type (First or Third Angle) for this Page.
 
 
-{{TitleProperty|Page}}
+{{TitleProperty|Strona}}
 
 -    **Keep Updated**   * If false, the Page is not updated with changes to the 3D model. Useful for complicated/slow drawings. See Notes.
 
@@ -68,21 +68,18 @@ The New Default tool creates a new Page object using the the template file speci
 
 -    **Next Balloon Index**   * Auto-numbering for Balloons.
 
-### View
+### Widok
 
 
-{{TitleProperty|Grid}}
+{{TitleProperty|Siatka}}
 
 -    **Show Grid**   * Show a grid over this Page. <small>(v0.20)</small> 
 
 -    **Grid Spacing**   * Distance between grid lines in mm. <small>(v0.20)</small> 
 
-## Scripting
+## Tworzenie skryptów 
 
-
-**See also   ***
-
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Zobacz również stronę   * [Dokumentacja API generowana automatycznie](https   *//freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 The New Default tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   * 
 ```python
@@ -94,7 +91,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 
 -   Creates a new Page in the current document
 
-### Editable text fields 
+### Pola tekstowe do edycji 
 
 
 **See also   ***

@@ -1,19 +1,20 @@
 ---
-- GuiCommand   *
-   Name   *Fasteners BOM
-   MenuLocation   *Fasteners → Generate BOM
-   Workbenches   *[Fasteners](Fasteners_Workbench.md)
-   SeeAlso   *[Spreadsheet Workbench](Spreadsheet_Workbench.md)
+- GuiCommand   */ru
+   Name   *Fasteners_BOM
+   Name/ru   *Спецификация
+   MenuLocation   *Стандартные изделия → Спецификация
+   Workbenches   *[Стандартные изделия](Fasteners_Workbench/ru.md)
+   SeeAlso   *[Верстак электронных таблиц](Spreadsheet_Workbench/ru.md)
 ---
 
 # Fasteners BOM/ru
 
 ## Описание
 
-Команда <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **Fasteners BOM** создает электронную таблицу с перечислением всех крепёжных изделий находящихся в документе (спецификацию).
+Команда <img alt="" src=images/Fasteners_BOM.svg  style="width   *24px;"> **Спецификация** создает электронную таблицу с перечислением всех крепёжных изделий находящихся в документе.
 
 <img alt="" src=images/Fasteners_BOM_Example.png  style="width   *650px;"> 
-*A model with a Fasteners BOM spreadsheet*
+*Сборка из деталей и сгенерированная электронная таблица спецификации*
 
 ## Применение
 
@@ -24,8 +25,8 @@
 
 ## Примечания
 
--   A Fasteners BOM spreadsheet does not update if fasteners are changed, or if fasteners are added or removed. In such cases the command has to be used to create a new spreadsheet.
--   A Fasteners BOM spreadsheet can be exported with the [Spreadsheet Export](Spreadsheet_Export.md) command.
+-   Электронная таблица спецификации крепежа не обновляется при изменении типа уже существующего крепежа, а также при добавлении или удалении крепежа. В таких случаях необходимо заново применить команду для получения новой электронной таблицы.
+-   Таблицу спецификации крепежа можно экспортировать с помощью команды [экспорта таблицы](Spreadsheet_Export/ru.md)
 
 
 

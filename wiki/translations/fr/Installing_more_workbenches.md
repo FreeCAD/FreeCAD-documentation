@@ -16,7 +16,7 @@ Les ateliers ne sont rien de plus que des collections de fichiers placés dans u
 $ROOT_DIR/Mod/
 ```
 
-où `$ROOT_DIR` est un des premiers répertoires recherché par FreeCAD au démarrage. C\'est essentiellement ce que fait l\'[Addon Manager](Std_AddonMgr/fr.md).
+où `$ROOT_DIR` est un des premiers répertoires recherché par FreeCAD au démarrage. C\'est essentiellement ce que fait le [gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 Les répertoires `Mod /` sont analysés à chaque démarrage de FreeCAD et les ateliers disponibles sont automatiquement ajoutés.
 

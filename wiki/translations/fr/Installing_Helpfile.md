@@ -1,9 +1,9 @@
 # Installing Helpfile/fr
 {{TOCright}}
 
-## Addon d\'aide 
+## Extension d\'aide 
 
-**Remarque   *** Les fichiers d\'aide hors ligne de FreeCAD, décrits ci-dessous, sont en cours de retrait. Le système d\'aide de FreeCAD est maintenant géré par [Help Addon](https   *//github.com/yorikvanhavre/FreeCAD-Help), que vous pouvez installer via le [Gestionnaire d\'Addons](Std_AddonMgr/fr.md). L\'Addon d\'aide permet d\'accéder à la documentation en ligne, sans avoir besoin de télécharger quoi que ce soit, ou à une copie téléchargeable hors ligne de la documentation, qui peut également être installée via le Gestionnaire d\'Addons.
+**Remarque    *** les fichiers d\'aide hors ligne de FreeCAD, décrits ci-dessous, sont en cours de retrait. Le système d\'aide de FreeCAD est maintenant géré par l\'[extension Help](https   *//github.com/yorikvanhavre/FreeCAD-Help), que vous pouvez installer via le [Gestionnaire des extensions](Std_AddonMgr/fr.md). L\'extension Help permet d\'accéder à la documentation en ligne, sans avoir besoin de télécharger quoi que ce soit, ou à une copie téléchargeable hors ligne de la documentation, qui peut également être installée via le Gestionnaire des extensions.
 
 ## Fichiers d\'aide FreeCAD 
 
@@ -17,7 +17,7 @@ Une documentation hors-ligne fonctionnelle consiste en au moins deux fichiers   
 
 Les fichiers d\'aide peuvent être téléchargés ici    * <https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD.0_19.Offline.Doc.7z>
 
-Dans le futur ils pourront être installés depuis FreeCAD avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Dans le futur ils pourront être installés depuis FreeCAD avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 Les fichiers d\'aide ont toujours les mêmes noms    * **freecad.qhc** et **freecad.qch**. Pour avoir différentes versions des fichiers d\'aide, ils doivent être installés dans des répertoires différents. Dans le cas d\'un téléchargement manuel, il suffit de stocker localement le fichier zip et d\'extraire l\'archive dans le répertoire voulu.
 

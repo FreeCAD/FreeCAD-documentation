@@ -14,7 +14,7 @@ Die <img alt="" src=images/Workbench_Draft.svg  style="width   *24px;"> [Entwurf
 
 <div class="mw-translate-fuzzy">
 
-Das Fangen ist mit den meisten [Entwurf](Draft_Workbench/de.md) und [Architektur Arbeitsbereich](Arch_Workbench/de.md) Werkzeugen verfügbar und kann mit der **[<img src=images/Draft_ToggleSnap.svg style="width   *16px">[Fang Umschalten](Draft_Snap_Lock/de.md)** Schaltfläche, die sich in der Fang Werkzeugleiste befindet   * **Ansicht → Werkzeugleisten → Entwurf Fang** global aktiviert und deaktiviert werden.
+Das Fangen ist mit den meisten [Entwurf](Draft_Workbench/de.md) und [Architektur Arbeitsbereich](Arch_Workbench/de.md) Werkzeugen verfügbar.
 
 
 </div>
@@ -33,28 +33,28 @@ Das Fangen ist mit den meisten [Entwurf](Draft_Workbench/de.md) und [Architektur
 
 ## Snap tools 
 
-These tools are available in the Draft Snap toolbar and in the [Draft snap widget](Draft_snap_widget.md).
+These tools are available in the Draft snap toolbar and in the [Draft snap widget](Draft_snap_widget.md).
 
 Note that circular edges do not have to be full circles.
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Draft_ToggleSnap.svg  style="width   *32px;"> [Fang umschalten](Draft_Snap_Lock/de.md)   * schaltet [Objektfang](Draft_Snap/de.md) global ein oder aus.
--   <img alt="" src=images/Snap_Endpoint.svg  style="width   *32px;"> [Endpunkt](Draft_Snap_Endpoint/de.md)   * fängt an den Endpunkten von Linien-, Bogen- und Splinesegmenten.
--   <img alt="" src=images/Snap_Midpoint.svg  style="width   *32px;"> [Mittenpunkt](Draft_Snap_Midpoint/de.md)   * fängt auf den Mittenpunkt von Linien- und Bogensegmenten.
--   <img alt="" src=images/Snap_Center.svg  style="width   *32px;"> [Mittelpunkt](Draft_Snap_Center/de.md)   * fängt auf den Mittelpunkt von Bögen und Kreisen.
--   <img alt="" src=images/Snap_Angle.svg  style="width   *32px;"> [Winkel](Draft_Snap_Angle/de.md)   * fängt an den speziellen Himmelsrichtungen von Kreisen und Bögen, bei 45° und 90°.
--   <img alt="" src=images/Snap_Intersection.svg  style="width   *32px;"> [Schnittpunkt](Draft_Snap_Intersection/de.md)   * fängt den Schnittpunkt von zwei Linien- oder Bogensegmenten. Fahre mit der Maus über die beiden gewünschten Objekte, um deren Schnittfang zu aktivieren.
--   <img alt="" src=images/Snap_Perpendicular.svg  style="width   *32px;"> [Rechtwinklig](Draft_Snap_Perpendicular/de.md)   * auf Linien- und Bogensegmenten, fängt rechtwinklig zum letzten Punkt.
--   <img alt="" src=images/Snap_Extension.svg  style="width   *32px;"> [Erweiterung](Draft_Snap_Extension/de.md)   * fängt eine imaginäre Linie ein, die über die Endpunkte von Liniensegmenten hinausgeht. Fahre mit der Maus über das gewünschte Objekt, um den Erweiterungsfang zu aktivieren.
--   <img alt="" src=images/Snap_Parallel.svg  style="width   *32px;"> [Parallel](Draft_Snap_Parallel/de.md)   * fängt auf einer imaginären Linie parallel zu einem Liniensegment. Fahre mit der Maus über das gewünschte Objekt, um den Parallelfang zu aktivieren.
--   <img alt="" src=images/Snap_Special.svg  style="width   *32px;"> [Spezial](Draft_Snap_Special/de.md)   * fängt an speziellen, durch das Objekt definierten Punkten. <small>(v0.17)</small> 
--   <img alt="" src=images/Snap_Near.svg  style="width   *32px;"> [Nächste](Draft_Snap_Near/de.md)   * fängt den nächstgelegenen Punkt oder die nächstgelegene Kante des Objekts ein.
--   <img alt="" src=images/Snap_Ortho.svg  style="width   *32px;"> [Rechtwinklig](Draft_Snap_Ortho/de.md)   * fängt an imaginären Linien, die den letzten Punkt kreuzen und sich bei 0°, 45° und 90° ausdehnen.
--   <img alt="" src=images/Snap_Grid.svg  style="width   *32px;"> [Gitter](Draft_Snap_Grid/de.md)   * fängt an den Schnittpunkten der Gitterlinien, wenn das Gitter sichtbar ist.
--   <img alt="" src=images/Snap_WorkingPlane.svg  style="width   *32px;"> [Arbeitsebene](Draft_Snap_WorkingPlane/de.md)   * setzt den gefangenen Punkt immer auf die aktuelle [Arbeitsebene](Draft_SelectPlane/de.md), auch wenn du auf einen Punkt außerhalb dieser Arbeitsebene fängst.
--   <img alt="" src=images/Snap_Dimensions.svg  style="width   *32px;"> [Abmessungen](Draft_Snap_Dimensions/de.md)   * zeigt temporäre X- und Y-Dimensionen während des Fangvorgangs an.
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *32px;"> [Fang umschalten](Draft_Snap_Lock/de.md)   * schaltet [Objektfang](Draft_Snap/de.md) global ein oder aus.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *32px;"> [Endpunkt](Draft_Snap_Endpoint/de.md)   * fängt an den Endpunkten von Linien-, Bogen- und Splinesegmenten.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width   *32px;"> [Mittenpunkt](Draft_Snap_Midpoint/de.md)   * fängt auf den Mittenpunkt von Linien- und Bogensegmenten.
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width   *32px;"> [Mittelpunkt](Draft_Snap_Center/de.md)   * fängt auf den Mittelpunkt von Bögen und Kreisen.
+-   <img alt="" src=images/Draft_Snap_Angle.svg  style="width   *32px;"> [Winkel](Draft_Snap_Angle/de.md)   * fängt an den speziellen Himmelsrichtungen von Kreisen und Bögen, bei 45° und 90°.
+-   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Schnittpunkt](Draft_Snap_Intersection/de.md)   * fängt den Schnittpunkt von zwei Linien- oder Bogensegmenten. Fahre mit der Maus über die beiden gewünschten Objekte, um deren Schnittfang zu aktivieren.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Rechtwinklig](Draft_Snap_Perpendicular/de.md)   * auf Linien- und Bogensegmenten, fängt rechtwinklig zum letzten Punkt.
+-   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Erweiterung](Draft_Snap_Extension/de.md)   * fängt eine imaginäre Linie ein, die über die Endpunkte von Liniensegmenten hinausgeht. Fahre mit der Maus über das gewünschte Objekt, um den Erweiterungsfang zu aktivieren.
+-   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width   *32px;"> [Parallel](Draft_Snap_Parallel/de.md)   * fängt auf einer imaginären Linie parallel zu einem Liniensegment. Fahre mit der Maus über das gewünschte Objekt, um den Parallelfang zu aktivieren.
+-   <img alt="" src=images/Draft_Snap_Special.svg  style="width   *32px;"> [Spezial](Draft_Snap_Special/de.md)   * fängt an speziellen, durch das Objekt definierten Punkten. <small>(v0.17)</small> 
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Nächste](Draft_Snap_Near/de.md)   * fängt den nächstgelegenen Punkt oder die nächstgelegene Kante des Objekts ein.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Rechtwinklig](Draft_Snap_Ortho/de.md)   * fängt an imaginären Linien, die den letzten Punkt kreuzen und sich bei 0°, 45° und 90° ausdehnen.
+-   <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *32px;"> [Gitter](Draft_Snap_Grid/de.md)   * fängt an den Schnittpunkten der Gitterlinien, wenn das Gitter sichtbar ist.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Arbeitsebene](Draft_Snap_WorkingPlane/de.md)   * setzt den gefangenen Punkt immer auf die aktuelle [Arbeitsebene](Draft_SelectPlane/de.md), auch wenn du auf einen Punkt außerhalb dieser Arbeitsebene fängst.
+-   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *32px;"> [Abmessungen](Draft_Snap_Dimensions/de.md)   * zeigt temporäre X- und Y-Dimensionen während des Fangvorgangs an.
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width   *32px;"> [Umschalten Gitter](Draft_Snap_Grid.md)   * schaltet die Sichtbarkeit des Gitters ein und aus.
 
 
@@ -70,7 +70,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width   *32px;"> [Snap Intersection](Draft_Snap_Intersection.md)   * snaps to the intersection of two edges.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md)   * snaps to the perpendicular points on faces (<small>(v1.0)</small> ) or edges.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width   *32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md)   * snaps to the perpendicular points on faces (<small>(v1.0)</small> ) and edges.
 
 -   <img alt="" src=images/Draft_Snap_Extension.svg  style="width   *32px;"> [Snap Extension](Draft_Snap_Extension.md)   * snaps to an imaginary line that extends beyond the endpoints of straight edges.
 
@@ -78,13 +78,13 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Special.svg  style="width   *32px;"> [Snap Special](Draft_Snap_Special.md)   * snaps to special points defined by the object.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Near](Draft_Snap_Near.md)   * snaps to the nearest point on faces or edges.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width   *32px;"> [Snap Near](Draft_Snap_Near.md)   * snaps to the nearest point on faces and edges.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortho](Draft_Snap_Ortho.md)   * snaps to imaginary lines that cross the previous point at 0°, 45°, 90° and 135°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width   *32px;"> [Snap Ortho](Draft_Snap_Ortho.md)   * snaps to imaginary lines that cross the previous point at multiples of 45°.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width   *32px;"> [Snap Grid](Draft_Snap_Grid.md)   * snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md)   * projects the snap point onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width   *32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md)   * projects snap points onto the current [working plane](Draft_SelectPlane.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width   *32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md)   * shows temporary X and Y dimensions.
 

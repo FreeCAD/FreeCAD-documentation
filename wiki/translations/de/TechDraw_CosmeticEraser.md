@@ -32,10 +32,7 @@ Das Radier- bzw. Löschwerkzeug ist kein Objekt innerhalb der Zeichnung und hat 
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Hilfsobjekt entfernen ist zur Zeit noch nicht über [Makros](Macros/de.md) und die [Python](Python/de.md) Konsole zugänglich.
 

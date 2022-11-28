@@ -1,9 +1,9 @@
 # Translating an external workbench/ru
 In the following notes, `"context"` should be your addon\'s or workbench\'s name, for example, `"MySuperAddon"` or `"DraftPlus"`, or whatever. Capitalization matters here   * `"Context"` is not the same as `"context"` for example. The context makes it so that all translation of your code will be gathered under the same name, to be more easily identified by translators. That is, they will know exactly to which addon or workbench a particular string belongs.
 
-**Note**   * Here is an all-in-one script that automates the complete procedure mentioned below (you are still advised to read the procedure to know what the script should do, though)   * <https   *//github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
+**Примечание**   * <https   *//github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py> - универсальный скрипт, который автоматизирует весь процесс, изложенный ниже (тем не менее, чтобы понять, что делает данный скрипт, следует изучить последовательность действий изложенную далее).
 
-## Подготовка исходников 
+## Подготовка файлов исходного кода 
 
 ### Основная информация 
 

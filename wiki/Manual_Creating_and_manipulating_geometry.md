@@ -12,7 +12,7 @@ So the first thing we need to do to work with Part geometry, is to do the Python
 import Part 
 ```
 
-Take a minute to explore the contents of the Part module, by typing Part. and browsing through the different methods available. The Part module offers several convenience functions such as makeBox, makeCircle, etc\... which will instantly build an object for you. Try this, for example   *
+Take a minute to explore the contents of the Part module, by typing Part. and browsing through the different methods available. The Part module offers several convenient functions such as makeBox, makeCircle, etc\... which will instantly build an object for you. Try this, for example   *
 
  
 ```python
@@ -38,9 +38,9 @@ myObj.Shape = boxShape
 FreeCAD.ActiveDocument.recompute()
 ```
 
-Note how we handled myObj.Shape , notice that it is done exactly like we did it in the previous chapter, when we changed other properties of an object, such as box.Height = 5 . In fact, **Shape** is also a property, just like **Height**. Only it takes a Part Shape, not a number. In the next chapter we will have a better look at how these parametric objects are constructed.
+Note how we handled myObj.Shape. Notice that it is done exactly like we did it in the previous chapter, when we changed other properties of an object, such as box.Height = 5 . In fact, **Shape** is also a property, just like **Height**. Only it takes a Part Shape, not a number. In the next chapter we will have a better look at how these parametric objects are constructed.
 
-For now, let\'s explore our Part Shapes in more detail. At the end of the chapter about [traditional modeling with the Part Workbench](Manual   *Traditional_modeling,_the_CSG_way.md) we showed a table that explains how Part Shapes are constructed, and their different components (Vertices, edges, faces, etc). The exact same components exist here and can be retrieved from Python. Part Shapes always have the following attributes   * Vertexes, Edges, Wires, Faces, Shells and Solids. All of them are lists, that can contain any number of elements or be empty   *
+For now, let\'s explore our Part Shapes in more detail. At the end of the chapter about [traditional modeling with the Part Workbench](Manual   *Traditional_modeling,_the_CSG_way.md) we showed a table that explains how Part Shapes are constructed, and their different components (vertices, edges, faces, etc). The exact same components exist here and can be retrieved from Python. Part Shapes always have the following attributes   * Vertexes, Edges, Wires, Faces, Shells and Solids. All of them are lists, that can contain any number of elements or be empty   *
 
  
 ```python
@@ -52,7 +52,7 @@ print(boxShape.Shells)
 print(boxShape.Solids)
 ```
 
-For example, let\'s find the area of each face of our box shape above   *
+For example, let\'s find the area of each face of our box shape above   * (Make sure to indent the second line, as it appears below. Press Enter twice after the last line to run the Python command.)
 
  
 ```python
@@ -142,7 +142,7 @@ E3 = Part.Edge(C1)
 E4 = Part.Edge(C2)
 ```
 
-Alternatively, base geometries also have a toShape() function that do exactly the same thing   *
+Alternatively, base geometries also have a toShape() function that does exactly the same thing   *
 
  
 ```python
@@ -151,7 +151,7 @@ E2 = L2.toShape()
  ...
 ```
 
-Once we have a series of Edges, we can now form a Wire, by giving it a list of Edges. We do need to take care of the order.
+Once we have a series of Edges, we can now form a Wire, by giving it a list of Edges. We do need to pay attention to the order. Also, note the brackets.
 
  
 ```python

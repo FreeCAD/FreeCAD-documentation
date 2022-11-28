@@ -82,7 +82,7 @@ Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des
 
 ### Installation automatique 
 
-La méthode recommandée pour installer l\'atelier Manipulator est via le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire d'Addon**.
+La méthode recommandée pour installer l\'atelier Manipulator est via le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire des extensions**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width   *600px">

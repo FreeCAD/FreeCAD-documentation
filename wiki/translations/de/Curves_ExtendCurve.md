@@ -1,40 +1,23 @@
 ---
 - GuiCommand   */de
    Name   *Curves ExtendCurve
-   Name/de   *Kurven VerlängernKurve
-   MenuLocation   *Kurven → Kurve Verlängern
-   Workbenches   *[Kurven](Curves_Workbench/de.md)
-   Shortcut   *None
-   SeeAlso   *
+   Name/de   *Curves KurveVerlängern
+   MenuLocation   *Curves → Extend Curve
+   Workbenches   *[Curves](Curves_Workbench/de.md)
 ---
 
 # Curves ExtendCurve/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das <img alt="" src=images/Curves_ExtendCurve.svg  style="width   *24px;"> [Kurven KurveVerlängern](Curves_ExtendCurve/de.md) verlängert die ausgewählte Kante. Dieses Werkzeug ist Teil der [Externe Arbeitsbereiche](external_workbenches/de.md) namens [Kurven](Curves_Workbench/de.md).
-
-
-</div>
+Das Werkzeug <img alt="" src=images/Curves_ExtendCurve.svg  style="width   *24px;"> [Curves KurveVerlängern](Curves_ExtendCurve/de.md) verlängert die ausgewählte Kante. Dieses Werkzeug ist Teil des [Externen Arbeitsbereichs](external_workbenches/de.md) [Curves](Curves_Workbench/de.md).
 
 ## Verwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wechsle zum <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Kurven](Curves_Workbench/de.md) Arbeitsbereich (Installation von <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) ist erforderlich, falls nicht bereits installiert)
-2.  Rufe den Kurven VerlängereKurve Befehl auf mehrere Arten auf
-    -   Drücke die <img alt="" src=images/Curves_ExtendCurve.svg  style="width   *24px;">Schaltfläche.
-    -   Verwende den {{MenuCommand/de|Kurven → Kurve Verlängern}}
-
-
-</div>
+1.  Zum Arbeitsbereich <img alt="" src=images/Curves_workbench_icon.svg  style="width   *24px;"> [Curves](Curves_Workbench/de.md) wechseln (muss mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden, wenn noch nicht geschehen)
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen   *
+    -   Die Schaltfläche <img alt="" src=images/Curves_ExtendCurve.svg  style="width   *24px;"> drücken.
+    -   Den Menüeintrag {{MenuCommand/de|Curves → Curve extend}} auswählen
 
 ## Eigenschaften
 
@@ -45,13 +28,7 @@ Das <img alt="" src=images/Curves_ExtendCurve.svg  style="width   *24px;"> [Kurv
 ## Skripten
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Curves Tools navi

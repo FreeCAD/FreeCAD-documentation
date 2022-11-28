@@ -11,9 +11,21 @@ FCEngranaje Icono Ambiente de trabajo Externo
 
 ## Introducción
 
+
+<div class="mw-translate-fuzzy">
+
 El [Ambiente de trabajo FCEngranaje](FCGear_Workbench/es.md) es un [Ambiente de trabajo externo](external_workbenches/es.md) para fabricar diferentes tipos de engranajes y ruedas helicoidales en FreeCAD. El modelado paramétrico permite cambiar las geometrías requeridas en cualquier momento. Por ejemplo, cambiando unos pocos parámetros, el engranaje evolvente se convierte en un engranaje recto, en un engranaje helicoidal o en un engranaje doblemente helicoidal.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Para que los resultados de FC Engranaje sean utilizables, es necesario tener ciertos conocimientos básicos sobre los diferentes tipos de engranajes. Módulo, diámetro de paso o diámetro de raíz son términos comunes y, por tanto, deben conocerse.
+
+
+</div>
 
 Junto con la impresión 3D, los usuarios domésticos tienen ahora la oportunidad de diseñar y producir engranajes y ruedas dentadas sinfín según sus propias ideas personales y, si es necesario, adaptarlas a las condiciones constructivas.
 
@@ -57,28 +69,18 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 </div>
 
-
-   *   ![](images/Involute-Gear_example.png )
-   *   
-    
+<img alt="" src=images/Involute-Gear_example.png  style="width   *200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
-    
 
 ### Internal involute gear 
 
-   *   ![](images/FCGear_InternalInvoluteGear-01.png )
-   *   
-    
+<img alt="" src=images/FCGear_InternalInvoluteGear-01.png  style="width   *200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md))*
-    
 
 ### Involute rack 
 
-   *   ![](images/Involute-Rack_example.png )
-   *   
-    
+<img alt="" src=images/Involute-Rack_example.png  style="width   *" height="200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
-    
 
 
 <div class="mw-translate-fuzzy">
@@ -88,20 +90,13 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 </div>
 
-
-   *   ![](images/Cycloid-Gear_example_1.png )
-   *   
-    
+<img alt="" src=images/Cycloid-Gear_example_1.png  style="width   *200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (see [FCGear CycloidGear](FCGear_CycloidGear.md))*
-    
 
 ### Cycloid rack 
 
-   *   ![](images/FCGear_CycloidRack-01.png )
-   *   
-    
+<img alt="" src=images/FCGear_CycloidRack-01.png  style="width   *" height="200px;"> 
 *From left to right   * Spur gearing, helical gearing, double helical gearing (See [FCGear CycloidRack](FCGear_CycloidRack.md))*
-    
 
 
 <div class="mw-translate-fuzzy">
@@ -111,27 +106,8 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 </div>
 
-
-   *   ![](images/Bevel-Gear_example.png )
-   *   
-    
+<img alt="" src=images/Bevel-Gear_example.png  style="width   *150px;"> 
 *From left to right   * Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
-    
-
-
-<div class="mw-translate-fuzzy">
-
-### Engranaje sinfín 
-
-
-</div>
-
-
-   *   ![](images/Worm-Gear_example.png )
-   *   
-    
-*Above   * Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
-    
 
 
 <div class="mw-translate-fuzzy">
@@ -141,20 +117,34 @@ After installation, the tools are available in the Gear toolbar and in the Gear 
 
 </div>
 
+<img alt="" src=images/Crown-Gear_example.png  style="width   *150px;"> 
+*Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
 
-   *   ![](images/Crown-Gear_example.png )
-   *   
-    
-*Above   * Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
-    
 
-### Timing gear and lantern gear 
+<div class="mw-translate-fuzzy">
 
-   *   ![](images/Timing+Latern-gear_example.png )
-   *   
-    
-*From left to right   * Timing gearing, lantern gearing (see [FCGear TimingGear](FCGear_TimingGear.md) or [FCGear LanternGear](FCGear_LanternGear.md))*
-    
+### Engranaje sinfín 
+
+
+</div>
+
+<img alt="" src=images/Worm-Gear_example.png  style="width   *150px;"> 
+*Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
+
+### Timing gear 
+
+<img alt="" src=images/Timing-Gear_example.png  style="width   *150px;"> 
+*Timing gearing (see [FCGear TimingGear](FCGear_TimingGear.md))*
+
+### Lantern gear 
+
+<img alt="" src=images/Lantern-Gear_example.png  style="width   *150px;"> 
+*Lantern gearing (see [FCGear LanternGear](FCGear_LanternGear.md))*
+
+### Hypocycloid gear 
+
+<img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width   *120px;"> 
+*Hypocycloid gearing (see [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md))*
 
 ## Referencias
 

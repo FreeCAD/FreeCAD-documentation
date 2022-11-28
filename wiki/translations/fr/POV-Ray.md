@@ -10,7 +10,7 @@ POV-Ray (The Persistence of Vision Raytracer) est l\'un des deux moteurs de rend
 ## Atelier Raytracing 
 
 
-**L'[atelier Raytracing](Raytracing_Module/fr.md) a été remplacé par le nouvel [https   *//github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing**
+**L'[atelier Raytracing](Raytracing_Module/fr.md) a été remplacé par le nouvel [https   *//github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. L'atelier Render peut être installé via le [Gestionnaire des extensions](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing**
 
 .
 
@@ -84,7 +84,7 @@ Extrayez l\'archive téléchargée (si vous ne disposez pas d\'un logiciel adapt
 
 Pour l\'instant, il n\'y a pas de différences significatives entre le Raytracing Workbench et le Render Workbench dans la partie concernant l\'installation du logiciel externe, donc reportez-vous à la [section atelier Raytracing](POV-Ray/fr#Atelier_Raytracing.md) pour installer POV-Ray et à cette section pour la configuration de l\'atelier Render.
 
-Tout d\'abord, installez l\'atelier Render via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) et redémarrez FreeCAD.
+Tout d\'abord, installez l\'atelier Render via le [Gestionnaire des extensions](Std_AddonMgr/fr.md) et redémarrez FreeCAD.
 
 #### Linux 
 

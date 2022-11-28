@@ -98,7 +98,13 @@ Tutti i lavori in Part Design iniziano con un [Corpo](Glossary#Body.md). Quindi 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Dopo aver fatto clic su OK, FreeCAD passa automaticamente all\'ambiente [Sketcher](Sketcher_Workbench/it.md) e apre lo schizzo in modalità di modifica   *
+
+
+</div>
 
 ![](images/Tut17_sketcherempty.png )
 
@@ -114,7 +120,7 @@ Per procedere, utilizzare lo strumento <img alt="" src=images/Sketcher_CreatePol
 
 </div>
 
-*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed.(The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
+*NOTE   * Since this tutorial was written there have been improvements to the sketcher solver, if it detects a redundant constraint it will turn the sketch orange in colour, and before further constraints are added, the redundant constraint should be removed. (The redundant constraint is shown in the Task view, click on the blue reference and press delete.)*
 
 
 <div class="mw-translate-fuzzy">

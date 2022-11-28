@@ -3,6 +3,20 @@ Diese Seite ist ein Glossar mit allgemeinen FreeCAD Begriffen und Definitionen.
 
 Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
+## 0-9
+
+
+{{gloss}}
+
+
+{{term|3D view|content=[3D view](3D_view.md)}}
+
+
+{{defn|defn=The 3D view is a component of the FreeCAD [interface](Interface.md). It shows a 3D representation of the model.}}
+
+
+{{glossend}}
+
 
 <div class="mw-translate-fuzzy">
 
@@ -18,6 +32,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## B
 
@@ -43,6 +60,12 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
  [Boole'scher Logik](#Boolean_Logic/de.md) erstellt wurden. Die Standardeinstellung ist "false" (oder off), aber der Benutzer kann sie aktivieren, um bei "Geometrie überprüfen" höhere Genauigkeit zu erhalten, was allerdings zu längeren Laufzeiten dieser Überprüfung führt. Die Einstellung wird aktiviert durch Werkzeuge > Parameter bearbeiten > Preferences folder > Mod folder > Part folder > Check geometry folder, dann doppelklicken von "false" im rechten Fenster zur Änderung des Werts auf "true", klicken des {{button|OK}}-Buttons, klicken des {{button|Speichern}}-Buttons, dann klicken des {{button|Schließen}}-Buttons. Ein entsprechender Screenshot und eine Beschreibung, wie BOPCheck aktiviert werden kann, ist in diesem (englischsprachigen) [http   *//forum.freecadweb.org/viewtopic.php?t=8031#p65914 Forumsbeitrag] zu finden.}} {{term|brep}} \> File-Format \*.brep {{defn|defn=ursprüngliches Dateiformat von [Open ADCASCADE](#Open_CASCADE/de.md), das von FreeCAD zum Speichern im *.brep-Format benutzt werden kann}} {{term|Boundary representation (B-rep)}} \> Grenzflächen-Repräsentation {{defn|defn=Repräsentation eines Körpers durch seine ihn begrenzenden Flächen (siehe [https   *//de.wikipedia.org/wiki/Boundary_Representation Boundary Representation]),
  eine von zwei in FreeCAD verwendete Methoden (die andere ist die [mesh](#Mesh/de.md)-Repräsentation)}} {{term|BSpline}} \> BSpline {{defn|defn=Typ einer parametrischen Kurve; eine an eine tatsächliche Kurve angenäherte einfachere Kurve, siehe [https   *//de.wikipedia.org/wiki/Spline Spline].
  Bsplines haben eine bestimmte Basis (!B!-Splines)}} {{glossend}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## C
 
@@ -127,6 +150,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 {{term|Cut}}
 
 \> Schnitt {{defn|defn=Anwenden einer [Booleschen Differenzbildung](#Boolean_Operation.md) zwischen Formen.}} {{glossend}}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -266,6 +292,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## G
 
 
@@ -294,6 +323,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 \> Gruppe {{defn|defn=wird zur Organisation der Objekte im Modellbaum benutzt. Mehrere Objekte lassen sich in einer Gruppe zusammenfassen.}} {{term|GUI}} \> graphische Benutzeroberfläche {{defn|defn='''G'''raphical '''U'''ser '''I'''nterface.  Ermöglicht die Bedienung von FreeCAD mittels Klickens des Mauszeigers auf graphische Symbole und Menüs.}} {{glossend}}
 
+
+</div>
+
 ## H
 
 
@@ -303,6 +335,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 {{term|Half_Space|content=[https   *//de.wikipedia.org/wiki/Halbraum Half_Space]}}
 
 \> Halbraum {{defn|defn=Wenn eine Ebene komplett den dreidimensionalen Euklidischen Raum teilt, erhält man zwei Halbräume.}} {{glossend}}
+
+
+<div class="mw-translate-fuzzy">
 
 ## I
 
@@ -320,6 +355,12 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 \> \[<https   *//de.wikipedia.org/wiki/Menge_(Mathematik)#Durchschnitt_(Schnittmenge,_Schnitt>) Schnittmenge\] {{defn|defn=Der Teil, den zwei oder mehr geometrische Objekte gemeinsam haben. Beispielsweise ist die Schnittmenge von zwei sich schneidenden Geraden ein Punkt.}} {{glossend}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## J
 
 
@@ -333,6 +374,12 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## K
 
@@ -353,6 +400,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -380,6 +430,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 \> Makro {{defn|defn=Eine gespeicherte Folge von FreeCAD-Anweisungen in der Scriptsprache Python. Es können entweder die Benutzeraktionen aufgezeichnet werden und als Makro gespeichert werden, oder das Makro wird vom Benutzer geschrieben.}} {{term|Manifold}} \> Mannigfaltigkeit {{defn|defn=Ein mathematischer Begriff, der im Zusammenhang mit FreeCAD meint, dass eine [geometrische Figur](#Shape.md) ein perfekt abgeschlossenes Volumen einschließt. Ein mehr geläufiges Synonym ist "wasserdicht". Um einen Körper aus einer [Hülle](#Shell.md) zu generieren, muss diese eine Mannigfaltigkeit sein.}} {{term|Mantis}} {{defn|defn=Der Name des vom FreeCAD-Projekt benutzten [Fehlerverfolgungssystems](#Tracker.md).}} {{term|Mesh}} \> Netz {{defn|defn=Eine Art von Objekt, die von FreeCAD importiert oder generiert werden kann. Für mehr Details siehe [Model}} \> Modell {{defn|defn=Auch 3D-Modell genannt. Es ist die Computer-Repräsentation eines dreidimensionalen [[#Part|Teils](https   *//de.wikipedia.org/wiki/Polygonnetz]].}} {{term.md) oder einer [Baugruppe](#Assembly.md).}} {{term|MultiTransform|content=[MultiTransform](PartDesign_MultiTransform.md)}} {{defn|defn=Steht für eine multiple Transformation. Ein [Feature](#Feature.md) des [PartDesign-Arbeitsbereiches](PartDesign_Workbench/de.md), der eine Serie von gleichen Transformationen (linear oder zirkuläres Muster oder gespiegelt) auf eine ausgewähltes Feature anwendet.}} {{glossend}}
 
+
+<div class="mw-translate-fuzzy">
+
 ## N
 
 
@@ -405,6 +458,12 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## O
 
@@ -450,6 +509,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 -\> Koordinatenursprung {{defn|defn=Das Zentrum eines Koordinatensystems. Alle Achsen starten von hier in entweder positiver oder negative Richtung. Ähnlich wie der Blick ins All mit der Erde als „Ursprung“.}} {{term|Orthographic}} -\> orthogonal {{defn|defn=Siehe [https   *//de.wikipedia.org/wiki/Orthogonalprojektion Orthogonalprojektion] und [https   *//de.wikipedia.org/wiki/Normalprojektion Normalprojektion].}} {{glossend}}
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
 ## P
@@ -490,6 +552,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 {{glossend}}
 
+
+<div class="mw-translate-fuzzy">
+
 ## R
 
 
@@ -506,6 +571,12 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 -\> Drehen {{defn|defn=Ein Werkzeug aus dem [Part](Part_Workbench/de.md)-[workbench](#Workbench/de.md). Siehe [Drehen](Part_Revolve/de.md).}} {{term|Robot}} -\> Roboter {{defn|defn=[https   *//de.wikipedia.org/wiki/Industrieroboter Industrieroboter] Sowie ein Arbeitsbereich in FreeCAD zur Simulation eines Industrieroboters.}} {{term|Rotate}} -\> Rotation {{defn|defn=Die Aktion bei der ein Objekt um eine Achse gedreht wird, um seine Orientierung im Raum zu ändern.}} {{glossend}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## S
 
 
@@ -515,6 +586,12 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 {{term|Section}}
 
 -\> Schnitt {{defn|defn=Schnitt durch einen Körper, siehe auch [https   *//de.wikipedia.org/wiki/Schnitt_(Darstellung)]. FreeCAD enthält Werkzeuge um Schnitte als geometrische Objekte, als auch um Schnitte zur Dokumentation in Zeichnungen zu erstellen.}} {{term|Self Intersection}} {{defn|defn=Ein Zustand, bei dem sich zum Beispiel eine Kurve mit sich selber schneidet (wie '8','&'). Dies kann der Geometrie-Kernel nicht verarbeiten und verursacht im allgemeinen einen Fehlerzustand.}} {{term|Shape}} {{defn|defn=Generische Bezeichnung, die in FreeCAD für die meisten Elemente benutzt wird. (Ausser für [meshes](#Mesh.md)) Der Begriff kann am ehesten mit geometrische Figur übersetzt werden. [https   *//de.wikipedia.org/wiki/Geometrische_Figur] In einem FreeCAD-Objekt enthält das Shape die geometrische Form.}} {{term|Shell}} -\> Hülle {{defn|defn=Hülle aus zwei oder mehr miteinander verbundenen Flächen (= [faces](#Face.md)). Eine vollkommen geschlossene Hülle([manifold](#Manifold.md)) kann in einen soliden Körper umgewandelt werden.}} {{term|1=Sketch}} -\> Skizze {{defn|1=Eine zweidimensionale Skizze auf einer Ebene oder auf einer ebenen Fläche ([Face](#Face.md)).  In FreeCAD ist eine Skizze immer ein zweidimensionales Objekt irgendwo im dreidimensionalen Raum.}} {{term|Sketcher|content=[Sketcher](Sketcher_Workbench/de.md)}} {{defn|defn=Ein Arbeitsbereich = [workbench](#Workbench.md) um zweidimensionale Konturen aus allgemeinen Geraden- und Kurvenelementen [elements](#Element.md) zur erstellen, die mit Hilfe von [constraints](#Constraint.md) festgelegt werden. Intern wird aus allen Eingaben ein nichtlineares Gleichungssystem erzeugt.}} {{term|Sketcher Solver}} {{defn|defn= Der FreeCAD-interne-Mechanismus, der das nichtlineare Gleichungssystem löst, dass sich aus den geometrischen [Elementen](#Element.md) und den dazugehörigen [Festlegungen](#Constraint.md) ergibt. Das Ergebnis der Berechnung ist die Position aller Punkte in der Skizze.}} {{term|Smooth Line}} {{defn|defn=In a Drawing, a line indicating a change between tangent surfaces, as in the transition from a flat surface to a fillet. Also "tangent edge". See [http   *//www.freecadweb.org/wiki/index.php?title=Drawing_View#Modify_an_existing_view Drawing View]}} {{term|Solid}} -\> Volumenkörper {{defn|defn=Teil des dreidimensionalen Raums, der durch eine [Hülle](#Shell.md) begrenzt wird. Ein Volumenkörper besitzt ein Volumen und weitere Eigenschaften, die Objekte mit einer Masse aufweisen.}} {{term|Solver}} {{defn|defn=See [Sketcher Solver](#Sketcher_Solver.md).}} {{term|1=Stable}} {{defn|1=Der Spitzname der zuletzt veröffentlichten offiziellen Version von FreeCAD. Dies ist oft die Version, die in Linux-Distributionen zur Verfügung steht. Vergleiche mit [Unstable](#Unstable.md).}} {{term|STL}} {{defn|''STereoLithography'', auch bekannt als ''Standard Tessellation Language.'' Ein [mesh](#Mesh.md) Dateiformat, das nur die Oberfläche eines 3D-Objektes mit Hilfe von Facetten definiert. Die Dateierweiterung ist *.stl}} {{term|term=STEP}} {{defn|defn=Ein Dateiformat nach dem ISO standard (ISO 10303) für den Auschtausch von 3D Daten und Produktinformationen. Es ersetzt weitgehend [IGES](#IGES.md). Dateinamenserweiterungen sind *.step, *.stp.}} {{term|SVG|content=[[SVG]]}} {{defn|[https   *//de.wikipedia.org/wiki/Scalable_Vector_Graphics]. Ein Dateiformat für Vektorgrafik.}} {{term|term=Sweep}} -\> Austragung {{defn|defn=Ein Verfahren welches ein 3-dimesionales Objekt generiert, in dem mindestens eine Kurve entlang einer Trajektorie (Pfad) geführt wird. Es können Körper oder Oberflächen erzeugt werden. Das dazu gebrauchte Werkzeug, sowie die entstandene Form werden oft genauso benannt. Siehe auch [http   *//de.wikipedia.org/wiki/Sweep_(Grafik)] (deutsch) [http   *//en.wikipedia.org/wiki/Solid_modeling#Sweeping Solid modeling] (englisch)}} {{glossend}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## T
 
@@ -526,6 +603,12 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 -\> Bedienfeld {{defn|See [Tasks tab](#Tasks_tab.md).}} {{term|Tasks tab}} -\> Bedienfeld für die aktuelle Aufgabe {{defn|Ein Bedienfeld in FreeCAD, das die spezifischen Möglichkeiten für die aktuell anstehende Aufgabe anzeigt. Es kann die verfügbaren Werkzeuge in dem gerade offenen [Arbeitsbereich](#Workbench.md) anzeigen oder die einzustellenden Werte und Optionen für das gerade aktive [Kommando](#Command.md) zeigen.}} {{term|Tessellation}} -\> Parkettierung {{defn|Die Parkettierung einer Oberfläche ist das Pflastern dieser Oberfläche mit einem oder mehreren Typen von geometrischen Kacheln ohne Überlappung und ohne Lücken. In FreeCAD wird das benötigt, um die geometrischen Figuren in der 3D-Ansicht darzustellen. Die Größe der Kacheln relativ zu den Abmessungen der geometrischen Figuren kann in den Einstellungsdialog eingestellt werden. Man kann dadurch eine glattere Oberfläche von gekrümmten Teilen auf Kosten der Berechnungszeit erhalten. Siehe auch [Einstellungen...](Preferences_Editor/de.md).}} {{term|Thickness}} {{defn|no=1|Ein Maß für die Dicke eines Teils.}} {{defn|no=2|Ein Werkzeug des [Part-Arbeitsbereiches](Part_Workbench.md), um einen [Volumenkörper](#Solid.md) auszuhöhlen und mit einer gleichmäßigen Wandung einer definierten Dicke zu versehen. (Aufdicken) }} {{term|Toggle}} -\> Umschalter {{defn|Eine Einstellmöglichkeit, die eine von zwei Werten annehmen kann, zum Beispiel `True` oder `False`, oder Aus oder An.}} {{term|Topological Naming}} {{defn|Ein Schema, bei dem einer erzeugten Kante oder Fläche eine dauerhafter Name erteilt wird. Intern identifiziert FreeCAD die Kanten (edge) und Flächen (face) eines Volumenkörpers durch Nummerierung   * Edge1, Edge2, Face1, Face2, usw. Das Problem ist, das diese Namen eher zufällig vergeben werden und dass sie sich ändern, wenn der Körper so geändert wird, dass sich die Zahl der Kanten oder Flächen ändert. Zum Beispiel kann sich ein Element, das mit der Fläche Nr. 2 verbunden ist, nach der Änderung des Modells mit einer völlig anderen Fläche verbunden sein, die jetzt die Flächennummer 2 bekommen hat. Dies wirkt sich für den Benutzer als Fehler aus, da er ein unerwünschtes Ergebnis erhält. Bei der Version 0.17 von FreeCAD wurde eine brauchbare topologische Benennung mit dauerhaften Namen noch nicht implementiert, so dass sich bei einer Modifizierung eines Objektes die Namen der Kanten und Flächen leider auch ändern können.}} {{term|Torus}} {{defn|Ein Grundkörper aus dem Arbeitsbereich Part.}} {{term|Tracker}} {{defn|Kurzform für das Fehlerverfolgungssystem, die webbasierte Software zur Verwaltung der gemeldeten Fehler und Verbesserungswünsche. Siehe auch [Mantis](#Mantis.md).}} {{glossend}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## U
 
 
@@ -536,6 +619,12 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 
 -\> Vereinigung {{defn|defn=Ein Werkzeug des [Part](Part_Workbench/de.md) [Arbeitsbereichs](#Workbench/de.md), das eine [Boolsche Operation](#Boolean_Operation.md) mit den ausgewählten Körper in Form der Vereinigung durchführt.}} {{term|1=Unstable}} {{defn|1=Ein Spitzname für die aktuelle Entwicklungsversion von der FreeCAD Software. Diese Version enthält die aktuellen Änderungen der Entwickler. Sie liefert üblicherweise keine falschen Ergebnisse, aber wurde noch nicht gründlich getestet und kann sich auch noch ändern. Es ist nicht garantiert, dass sich Modelle, die mit dieser Version erzeugt wurden, später problemlos öffnen lassen.}} {{term|Upgrade|content=[Upgrade](Draft_Upgrade.md)}} {{defn|defn=Ein Werkzeug des [Draft](Draft_Workbench/de.md) [Arbeitsbereichs](#Workbench/de.md).}} {{glossend}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## V
 
 
@@ -545,6 +634,12 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 {{term|Vector}}
 
 \> Vektor {{defn|defn=Eine Größenordnung mit einer Richtung. Oft grafisch als Pfeil in 2 oder 3 Dimensionen dargestellt. Zum Beispiel sind "fünfzig Schritte nach Norden", "9,8 m/s^2 nach unten" und "(3,5,6) Einheiten in der x, y, z Richtung" alles Vektoren. In FreeCAD werden sie am häufigsten als geordnete Paare (x, y) oder geordnete Tripel (x, y, z) bezeichnet.}} {{term|Vertex}} \> Knoten {{defn|defn=Ein einzelner [Punkt](#Point.md) im Raum oder die Ecke einer [Form](#shape.md), wo [Kanten](#Edge.md) aufeinander treffen. Die offene Kaskadentechnologie definiert ihn als nulldimensionale [Form](#shape.md), die einem Punkt in der Geometrie entspricht. [ siehe OCCT Profil   * Definieren der Topologie](https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md)}} {{term|Vertices}} {{defn|defn=Plural von [Vertex](#Vertex.md)}} {{term|Viewprovider}} {{defn|defn=Allgemeine Schnittstelle für alle visuellen Dinge in FreeCAD. Ein ViewProvider generiert und handhabt alles rund um die Visualisierung und Präsentation von Objekten aus dem FreeCAD [App Layer](#App.md) für den Anwender. Diese Klasse und ihre Nachkommen müssen für jeden Objekttyp implementiert werden, um sie in der [3DView](#3DView.md) und [TreeView](#TreeView.md) anzuzeigen.}} {{glossend}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## W
 
@@ -561,6 +656,9 @@ Springe zu Buchstaben   * {{CompactTOC|center=yes}}
 {{term|Wire}}
 
 \> Linienzug {{defn|no=1|Eine Folge von [vertices](#Vertex.md) (Knoten), die durch [edges](#Edge.md) (Kanten) verbundenen sind. Der Begriff wird in diesem Sinn hauptsächlich von Open Cascade Technology [no=2|Ein [[Draft_Workbench/de|Draft](https   *//dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3]] verwendet und daher auch innerhalb von FreeCAD.}} {{defn.md) [workbench](#Workbench.md)-Befehl, der einen parametrisierten Linienzug erstellt.}} {{term|Workbench}} \> Arbeitsbereich {{defn|defn=Auch als Modul bezeichnet gruppiert jede(r) [workbench](Workbenches.md) (Arbeitsbereich) einen Satz von Werkzeugen für eine bestimmte Aufgabe.}} {{glossend}}
+
+
+</div>
 
 ## X
 

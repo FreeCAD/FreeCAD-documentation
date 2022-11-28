@@ -48,8 +48,7 @@ Więcej informacji na temat zmiennych środowiskowych FreeCAD można znaleźć n
 
 FreeCAD jest aktywnie rozwijany.
 
--   Jeśli jesteś użytkownikiem Linuksa zapoznaj się z rozwojem [AppImage](AppImage.md).
--   Dla obserwowania rozwoju w MacOS i kompilacji Windows oraz kodu źródłowego, zobacz stronę [weekly builds](https   *//github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds).
+-   Aby uzyskać kompilacje rozwojowe i kod źródłowy, zobacz stronę [weekly builds](https   *//github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 -   Aby skompilować najnowszy kod źródłowy, proszę zobaczyć opis [kompilacji](Compiling/pl.md).
 
 ## Dodatkowe moduły i makra 

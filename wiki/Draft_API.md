@@ -3095,8 +3095,8 @@ make_point(x, y, z, [color(r, g, b), point_size]) or
 
 Make a Draft PointArray object.
 
-    Distribute copies of a `base_object` in the points
-    defined by `point_object`.
+    Create copies of a `base_object` at the points defined by
+    a `point_object`.
 
     Parameters
      
@@ -3107,26 +3107,9 @@ Make a Draft PointArray object.
         Since a label is not guaranteed to be unique in a document,
         it will use the first object found with this label.
 
-    point_object: Part::Feature or str
-        An object that is a type of container for holding points.
-        This object must have one of the following properties `Geometry`,
-        `Links`, or `Components`, which themselves must contain objects
-        with `X`, `Y`, and `Z` properties.
-
-        This object could be:
-
-        - A `Sketcher::SketchObject`, as it has a `Geometry` property.
-          The sketch can contain different elements but it must contain
-          at least one `Part::GeomPoint`.
-
-        - A `Part::Compound`, as it has a `Links` property. The compound
-          can contain different elements but it must contain at least
-          one object that has `X`, `Y`, and `Z` properties,
-          like a `Draft Point` or a `Part::Vertex`.
-
-        - A `Draft Block`, as it has a `Components` property. This `Block`
-          behaves essentially the same as a `Part::Compound`. It must
-          contain at least a point or vertex object.
+    point_object: Part::Feature, Sketcher::SketchObject, Mesh::Feature,
+                  Points::FeatureCustom or str
+        The object must have vertices and/or points.
 
     extra: Base::Placement, Base::Vector3, or Base::Rotation, optional
         It defaults to `None`.

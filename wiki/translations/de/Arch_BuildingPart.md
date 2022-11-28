@@ -12,24 +12,12 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Der GebäudeTeil ersetzt das alte [Arch Geschoss](Arch_Floor/de.md) und [Arch Gebäude](Arch_Building/de.md) Werkzeug durch eine leistungsfähigere Version, mit der nicht nur Geschosse/Etagen/Ebenen, sondern auch alle Arten von Situationen erstellt werden können, in denen verschiedene Architektur/BIM Objekte gruppiert werden sollen und das diese Gruppe als ein Objekt behandelt oder nachgebildet werden soll.
-
-
-</div>
+Das Werkzeug Gebäudeteil ersetzt die alten Werkzeuge [Arch Geschoss](Arch_Floor/de.md) und [Arch Gebäude](Arch_Building/de.md) durch eine leistungsfähigere Version, die nicht nur für Geschosse/Etagen/Ebenen verwendet werden kann, sondern auch für alle möglichen Situationen, in denen verschiedene Arch- oder BIM-Objekte gruppiert werden sollen, um diese Gruppe als ein Objekt zu verwenden oder zu vervielfältigen.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle wahlweise ein oder mehrere Objekte, die in dein neues Gebäude Teil eingeschlossen werden sollen.
-2.  Drücke die **<img src="images/Arch_BuildingPart.svg" width=16px> [Arch GebäudeTeil](Arch_BuildingPart/de.md)** Schaltfläche.
-
-
-</div>
+1.  Wahlweise ein oder mehrere Objekte auswählen, die in dem neuen Gebäudeteil enthalten sein sollen.
+2.  Die Schaltfläche **<img src="images/Arch_BuildingPart.svg" width=16px> [Arch Gebäudeteil](Arch_BuildingPart/de.md)** drücken.
 
 ### Hinweise
 
@@ -60,12 +48,12 @@ Erneutes Doppelklicken auf das GebäudeTeil deaktiviert es und setzt die Arbeits
 
 Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
-An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) object and inherits all its properties. It also has the following additional properties   *
+Ein Arch Gebäudeteil (BuildingPart-Objekt) wird von einem [App GeoFeature](App_GeoFeature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
 
 ### Daten
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
 -    **Group|LinkList**   * List of referenced objects.
 
@@ -213,13 +201,7 @@ An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) obje
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Gebäudeteil-Werkzeug kann sowohl in [Makros](macros/de.md) als auch aus der [Python](Python/de.md)-Konsole heraus über folgende Funktion angesprochen werden   *
-
-
-</div>
+Das Werkzeug Gebäudeteil kann sowohl in [Makros](macros/de.md) als auch von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden   *
 
 
 ```python

@@ -2,7 +2,6 @@
 - GuiCommand   */it
    Name   *Draft Snap Perpendicular
    Name/it   *Perpendicolare
-   Icon   *Snap_Perpendicular.svg
    MenuLocation   *Draft → [Aggancio](Draft_Snap/it.md) → Perpendicolare
    Workbenches   *[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut   *

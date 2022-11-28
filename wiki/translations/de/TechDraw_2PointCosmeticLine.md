@@ -50,10 +50,7 @@ Hilfslinien haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind
 
 ## Skripten
 
-
-**Siehe auch   ***
-
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch   * [Autogenerierte API Dokumentation](https   *//freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Hilfslinien können mit den Methoden makeCosmeticLine(v1, v2) oder makeCosmeticLine3d(v1, v2) von DrawViewPart erzeugt werden.
 

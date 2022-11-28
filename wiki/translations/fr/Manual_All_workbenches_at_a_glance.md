@@ -134,9 +134,9 @@ Bien que ce qui précède résume les outils les plus importants de FreeCAD, bea
 
 Un certain nombre d\'autres ateliers très utiles produits par les membres de la communauté FreeCAD existent également. Bien qu\'ils ne soient pas inclus dans une installation standard de FreeCAD, ils sont faciles à installer en tant que plug-ins. Ils sont tous référencés dans le dépôt [FreeCAD-addons](https   *//github.com/FreeCAD/FreeCAD-addons). Parmi les plus développés se trouvent les suivants    *
 
--   L'atelier [Drawing Dimensioning (dimensionnement de dessin)](https   *//github.com/hamish2014/FreeCAD_drawing_dimensioning) offre de nombreux nouveaux outils pour travailler directement sur les feuilles de dessin et vous permet d\'ajouter des dimensions, des annotations et d\'autres symboles techniques avec un grand contrôle sur leur aspect.**L\'addon Drawing Dimensioning n\'est plus géré.**
--   L'atelier [Fasteners (Fixations)](https   *//github.com/shaise/FreeCAD_FastenersWB) offre une large gamme d\'éléments de fixation prêts à insérer comme des vis, des boulons, des tiges, des rondelles et des écrous. De nombreuses options et paramètres sont disponibles.
--   L\'atelier [A2plus](https   *//github.com/kbwbe/A2plus) offre une série d\'outils pour réaliser et travailler avec des [assemblages](https   *//en.wikipedia.org/wiki/Assembly_modelling).
+-   L'[atelier Drawing Dimensioning](https   *//github.com/hamish2014/FreeCAD_drawing_dimensioning) offre de nombreux nouveaux outils pour travailler directement sur les feuilles de dessin et vous permet d\'ajouter des dimensions, des annotations et d\'autres symboles techniques avec un grand contrôle sur leur aspect. **L\'extension Drawing Dimensioning n\'est plus géré.**
+-   L'[atelier Fasteners](https   *//github.com/shaise/FreeCAD_FastenersWB) offre une large gamme d\'éléments de fixation prêts à insérer comme des vis, des boulons, des tiges, des rondelles et des écrous. De nombreuses options et paramètres sont disponibles.
+-   L\'[atelier A2plus](https   *//github.com/kbwbe/A2plus) offre une série d\'outils pour réaliser et travailler avec des [assemblages](https   *//en.wikipedia.org/wiki/Assembly_modelling).
 
 **Lire plus d\'informations**
 

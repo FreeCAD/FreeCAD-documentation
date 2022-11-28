@@ -39,6 +39,8 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width   *32px;"> [Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md)    * applique une esquisse sur une face ou un plan sélectionné du corps actif.
 
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width   *32px;"> [Valider l\'esquisse](Sketcher_ValidateSketch/fr.md)    * vérifie la tolérance de différents points et les ajuste.
+
 ### Outils de modélisation Part Design 
 
 #### Outils de référence 

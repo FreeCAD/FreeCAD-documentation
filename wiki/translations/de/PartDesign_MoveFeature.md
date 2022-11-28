@@ -1,50 +1,32 @@
 ---
 - GuiCommand   */de
    Name   *PartDesign MoveFeature
-   Name/de   *PartDesign VerschiebeFormelement
-   Empty   *1
-   MenuLocation   *Kontextmenü → Verschiebe Objekt in anderen Körper
+   Name/de   *PartDesign FormelementVerschieben
+   MenuLocation   *Kontextmenü → Objekt in anderen Körper verschieben
    Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
    Version   *0.17
-   SeeAlso   *[Spitze festlegen](PartDesign_MoveTip/de.md), [Verschiebe Objekt hinter anderes Objekt](PartDesign_MoveFeatureInTree/de.md)
+   SeeAlso   *[PartDesign ArbeitspositionFestlegen](PartDesign_MoveTip/de.md), [PartDesign FormelementImBaumVerschieben](PartDesign_MoveFeatureInTree/de.md)
 ---
 
 # PartDesign MoveFeature/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Hiermit wird ein Objekt aus einem Body in einen anderen Body verschoben. Das verschobene Objekt wird direkt hinter der Spitze des anderen Bodys eingefügt. Sketche, Referenzgeometrie und Features werden unterstützt.
-
-
-</div>
+<img alt="" src=images/PartDesign_MoveFeature.svg  style="width   *24px;"> [Objekt in anderen Körper verschieben](PartDesign_MoveFeature/de.md), Wie dieser Befehl im Kontextmenü heißt, erlaubt es Objekte von einem Körper in einen anderen Körper zu verschieben. Die verschobenen Objekte werden direkt unter der Arbeitsposition des anderen Körpers eingefügt. Skizzen, Bezugselemente und Formelemente werden unterstützt.
 
 ## Anwendung
 
+1.  Mit der rechten Maustaste in der [Baumansicht](tree_view/de.md), auf das zu verschiebende Objekt klicken.
 
-<div class="mw-translate-fuzzy">
+2.  Aus der Liste im Kontextmenü den Eintrag **Objekt in anderen Körper verschieben** auswählen.
 
-1.  Klicke mit der rechten Maustaste in der [Baumansicht](tree_view/de.md), auf das z uverschiebende Objekt.
-2.  Wähle **Objekt in anderen Body verschieben**
-3.  Wähle den Ziel-Body im Dialog **Body auswählen** aus.
-4.  Klicke **OK**.
+3.  Im Dialog **Körper wählen** den Zielkörper auswählen.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+4.  
+    **OK**klicken.
 
 
 
-
-
-</div>
 
 
 {{PartDesign Tools navi

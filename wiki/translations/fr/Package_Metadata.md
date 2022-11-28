@@ -3,7 +3,7 @@
 
 ## Introduction
 
-A partir de la version 0.20 de FreeCAD, les add-ons externes (ateliers, macros, et kits de préférences) peuvent être distribués avec un fichier de métadonnées décrivant le contenu du package. Si le fichier \"package.xml\" est présent, il est lu par FreeCAD et son contenu est utilisé dans diverses parties de l\'interface utilisateur. Il est actuellement facultatif pour les blocs de travail et les macros, et obligatoire pour les packs de préférences. Cette page documente le format de ce fichier de métadonnées. Le format (et le contenu de cette page Wiki) est basé sur [REP 149](https   *//ros.org/reps/rep-0149.html).
+A partir de la version 0.20 de FreeCAD, les extensions externes (ateliers, macros, et kits de préférences) peuvent être distribués avec un fichier de métadonnées décrivant le contenu du package. Si le fichier \"package.xml\" est présent, il est lu par FreeCAD et son contenu est utilisé dans diverses parties de l\'interface utilisateur. Il est actuellement facultatif pour les blocs de travail et les macros, et obligatoire pour les packs de préférences. Cette page documente le format de ce fichier de métadonnées. Le format (et le contenu de cette page Wiki) est basé sur [REP 149](https   *//ros.org/reps/rep-0149.html).
 
 ## Format général du fichier 
 
@@ -197,7 +197,7 @@ alors le fichier package.xml attend    *
 
 Optionnel.
 
-Fournis pour la convivialité d\'autres outils, un certain nombre d\'autres fichiers peuvent être répertoriés ici. Leur utilisation dépend du type de contenu. Dans un élément de contenu macro, chaque entrée de fichier est une macro unique et sera liée au répertoire d\'installation Macros de l\'utilisateur par le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Fournis pour la convivialité d\'autres outils, un certain nombre d\'autres fichiers peuvent être répertoriés ici. Leur utilisation dépend du type de contenu. Dans un élément de contenu macro, chaque entrée de fichier est une macro unique et sera liée au répertoire d\'installation Macros de l\'utilisateur par le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
 
 ###  
 
@@ -228,7 +228,7 @@ Le nom d\'une personne qui est un auteur du paquet, comme reconnaissance de son 
 
 Multiple autorisé
 
-Déclare une dépendance sur un autre addon de FreeCAD ou un atelier interne, ou un module en Python. La dépendance nommée est d\'abord vérifiée par rapport à la liste des modules complémentaires connus (par exemple ceux disponibles soit dans le dépôt git officiel des modules complémentaires de FreeCAD, soit dans un dépôt personnalisé spécifié par l\'utilisateur). La vérification porte sur le nom canonique de l\'addon. Si un fichier package.xml est présent pour cet addon, le nom est l\'élément  de ce package. Une correspondance exacte est requise. Si aucune correspondance n\'est trouvée, le nom est comparé à la liste des ateliers internes connus (installés et désinstallés). Enfin, si la dépendance nommée n\'a pas été localisée lors des deux étapes précédentes, elle est supposée être une dépendance du module en Python. Notez que toutes les fonctionnalités liées aux dépendances ne sont pas encore complètement implémentées.
+Déclare une dépendance sur une autre extension de FreeCAD ou un atelier interne, ou un module en Python. La dépendance nommée est d\'abord vérifiée par rapport à la liste des extensions connues (par exemple ceux disponibles soit dans le dépôt git officiel des extensions de FreeCAD, soit dans un dépôt personnalisé spécifié par l\'utilisateur). La vérification porte sur le nom canonique de l\'extension. Si un fichier package.xml est présent pour cette extension, le nom est l\'élément  de ce package. Une correspondance exacte est requise. Si aucune correspondance n\'est trouvée, le nom est comparé à la liste des ateliers internes connus (installés et désinstallés). Enfin, si la dépendance nommée n\'a pas été localisée lors des deux étapes précédentes, elle est supposée être une dépendance du module en Python. Notez que toutes les fonctionnalités liées aux dépendances ne sont pas encore complètement implémentées.
 
 #### Attributs 
 
@@ -240,8 +240,8 @@ Toutes les dépendances et relations peuvent restreindre leur applicabilité à 
 -   version_gte=\"VERSION\" (facultatif)    * la dépendance au paquet est limitée aux versions supérieures ou égales au numéro de version indiqué.
 -   version_gt=\"VERSION\" (facultatif)    * la dépendance au paquet est limitée aux versions supérieures au numéro de version indiqué.
 -   condition=\"CONDITION_EXPRESSION\"    * chaque dépendance peut être conditionnée par une expression de condition. Si l\'expression de condition vaut \"true\", la dépendance est utilisée et considérée comme si elle n\'avait pas d\'attribut de condition. Si l\'expression conditionnelle vaut \"false\", la dépendance est ignorée et considérée comme si elle n\'existait pas. L\'expression doit être une expression FreeCAD valide (i.e. syntaxe en Python), et peut faire référence aux variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", et \"\$BuildRevision\" représentant la version de FreeCAD en cours d\'exécution.
--   optional=\"true\|false\"    * si \"optional\" est \"true\", la dépendance est traitée comme facultative lorsque l\'addon est installé à l\'aide du gestionnaire d\'addons. En général, cela signifie qu\'un échec de l\'installation de la dépendance n\'empêche pas l\'installation de l\'addon, et l\'utilisateur peut être invité à dire s\'il veut l\'installer. Les versions de FreeCAD antérieures à 0.21 ne reconnaissent pas cet attribut et l\'ignorent.
--   type=\"automatic\|addon\|internal\|python\"    * facultatif, la valeur par défaut est \"automatic\". Indique à quoi se réfère cette déclaration de dépendance. \"addon\" est pour les addons externes, \"internal\" est pour les ateliers internes (par exemple \"arch\", \"sketcher\", etc.), et \"python\" indique une dépendance du paquetage Python. Les versions de FreeCAD antérieures à 0.21 n\'utilisent pas cet attribut, et \"automatic\" est toujours supposé.
+-   optional=\"true\|false\"    * si \"optional\" est \"true\", la dépendance est traitée comme facultative lorsque l\'extension est installée à l\'aide du gestionnaire des extensions. En général, cela signifie qu\'un échec de l\'installation de la dépendance n\'empêche pas l\'installation de l\'extension, et l\'utilisateur peut être invité à dire s\'il veut l\'installer. Les versions de FreeCAD antérieures à 0.21 ne reconnaissent pas cet attribut et l\'ignorent.
+-   type=\"automatic\|addon\|internal\|python\"    * facultatif, la valeur par défaut est \"automatic\". Indique à quoi se réfère cette déclaration de dépendance. \"addon\" est pour les extensions externes, \"internal\" est pour les ateliers internes (par exemple \"arch\", \"sketcher\", etc.), et \"python\" indique une dépendance du paquetage Python. Les versions de FreeCAD antérieures à 0.21 n\'utilisent pas cet attribut, et \"automatic\" est toujours supposé.
 
 ###  
 
@@ -277,11 +277,15 @@ La version maximale de FreeCAD requise pour utiliser le paquetage/élément, sou
 
 ###  
 
-(Nouveau dans FreeCAD 0.21, ignoré par les versions précédentes). La version minimale requise de Python pour utiliser le package/élément, sous la forme d\'une chaîne sémantique version 2.0 au format MAJOR.MINOR. Le gestionnaire d\'addons ne permettra pas l\'installation d\'un addon sur un système utilisant une version de Python antérieure à celle-ci. Seules les versions Python 3.x sont prises en charge. Bien que vous puissiez spécifier une version à trois composants, seul le numéro mineur est pris en compte lors de la vérification de la compatibilité.
+(Nouveau dans FreeCAD 0.21, ignoré par les versions précédentes). La version minimale requise de Python pour utiliser le package/élément, sous la forme d\'une chaîne sémantique version 2.0 au format MAJOR.MINOR. Le gestionnaire des extensions ne permettra pas l\'installation d\'une extension sur un système utilisant une version de Python antérieure à celle-ci. Seules les versions Python 3.x sont prises en charge. Bien que vous puissiez spécifier une version à trois composants, seul le numéro mineur est pris en compte lors de la vérification de la compatibilité.
 
 ## Validation
 
 Pour valider votre fichier package.xml, vous pouvez activer le \"mode développeur\" dans le gestionnaire d\'addons    * créez une variable booléenne appelée \"developerMode\" dans le groupe de paramètres \"Addons\" et définissez-la sur True    * **Outils → Editer les paramètres... → BaseApp → Préférences → Addons → developerMode**. Lorsque le gestionnaire d\'addons a fini de lire la base de données des addons, il examine tous les fichiers package.xml disponibles à la recherche d\'erreurs.
+
+## Guide rapide 
+
+Pour un guide rapide sur la façon de créer un fichier package.xml de base et d\'ajouter un atelier au [Gestionnaire des extensions](Std_AddonMgr/fr.md) voir    * [Ajouter un atelier au gestionnaire des extensions](Add_Workbench_to_Addon_Manager/fr.md).
 
 ## Exemples
 
